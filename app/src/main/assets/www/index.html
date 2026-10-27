@@ -108,24 +108,9 @@ details.mynotes{width:100%}
 details.mynotes summary{cursor:pointer}
 .diagram{overflow-x:auto;margin-top:12px}
 .diagram svg{display:block;max-width:100%;height:auto}
-/* 3D */
-.stagewrap{position:relative;background:var(--stage);border:1px solid var(--line);border-radius:16px;overflow:hidden;height:min(58vh,520px);min-height:320px}
-#cv{display:block;width:100%;height:100%;touch-action:none;cursor:grab}
-.stagewrap{background:radial-gradient(ellipse at 50% 38%,var(--stage-hi),var(--stage) 70%)}
-.views{position:absolute;top:10px;left:10px;right:10px;display:flex;gap:6px;flex-wrap:wrap}
-.views .chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
-.layers{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
-.pin{position:absolute;left:0;top:0;transform:translate(-50%,calc(-100% - 10px));background:var(--ink);color:var(--bg);font-size:12px;font-weight:600;padding:5px 9px;border-radius:8px;white-space:nowrap;pointer-events:none;box-shadow:0 4px 14px rgba(0,0,0,.25)}
-.pin::after{content:"";position:absolute;left:50%;bottom:-5px;width:10px;height:10px;background:var(--ink);transform:translateX(-50%) rotate(45deg)}
 .chip{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:6px 11px;font-size:12px;font-weight:500;display:inline-flex;align-items:center;gap:6px}
 .chip .dot{width:9px;height:9px;border-radius:50%}
 .chip[aria-pressed="false"]{opacity:.5}
-.hint{position:absolute;bottom:10px;left:12px;font-size:12px;color:var(--muted);pointer-events:none}
-.info{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-top:12px;min-height:84px}
-.info h3{font-size:17px;display:flex;align-items:center;gap:8px}
-.info p{margin:6px 0 0;max-width:68ch}
-.partlist{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
-.partlist .chip[aria-current="true"]{border-color:var(--accent);color:var(--accent)}
 /* cards */
 .deck{display:flex;flex-direction:column;align-items:center;gap:14px;margin-top:10px}
 .fcard{width:100%;max-width:560px;min-height:240px;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px;display:flex;flex-direction:column;gap:12px;text-align:left}
@@ -304,6 +289,147 @@ details.mist[open] summary{margin-bottom:8px}
 .oitem.ok{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 10%,var(--surface))}
 .oitem.bad{border-color:var(--accent);background:var(--accent-soft)}
 .oresult{margin-top:6px}.ocorrect{margin:8px 0 0;padding-left:22px}
+
+
+/* v9 layout */
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px}
+.rtools{position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--toph,61px) + 46px);z-index:3;background:var(--bg);padding:6px 0}
+:root{--g-ear:#B3202D;--g-nose:#3461B5;--g-throat:#2C7A4B;--g-neck:#C49A00;--g-face:#6B4FA8}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--g-ear:#F0646E;--g-nose:#7AA2EC;--g-throat:#5FBF86;--g-neck:#E8C449;--g-face:#A98CE0}}
+:root[data-theme="dark"]{--g-ear:#F0646E;--g-nose:#7AA2EC;--g-throat:#5FBF86;--g-neck:#E8C449;--g-face:#A98CE0}
+.mono{font:500 11px var(--f-mono);color:var(--muted)}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.side .tab svg,.tabs .tab svg{flex-shrink:0}
+.tabs .tab{min-height:52px}
+/* reading size */
+html[data-fsz="s"] .sec li,html[data-fsz="s"] .pearl,html[data-fsz="s"] .disc{font-size:14px}
+html[data-fsz="m"] .sec li{font-size:15.5px;line-height:1.6}
+html[data-fsz="l"] .sec li,html[data-fsz="l"] .pearl,html[data-fsz="l"] .disc{font-size:17.5px;line-height:1.65}
+html[data-fsz="l"] .sec h3{font-size:20px}
+/* home */
+.hhome h1{font-size:clamp(28px,6vw,40px)}
+.today{background:#15202A;color:#fff;border-radius:20px;padding:18px;display:flex;flex-direction:column;gap:14px}
+:root[data-theme="dark"] .today{background:#1F2A31}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .today{background:#1F2A31}}
+.today .eyebrow,.today .mono{color:#C9D3DA}
+.trow{display:flex;justify-content:space-between;align-items:baseline}
+.tstats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.tstats b{display:block;font:700 30px/1.05 var(--f-display);font-variant-numeric:tabular-nums}
+.tstats span{font-size:12.5px;color:#C9D3DA}
+.tgo{border:0;border-radius:12px;background:#F0646E;color:#1A0A0C;font-weight:600;font-size:15px;min-height:48px}
+.cont{margin-top:14px;width:100%;display:flex;align-items:center;gap:12px;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:10px 14px 10px 10px;color:var(--ink)}
+.cont img{width:64px;height:64px;object-fit:contain;background:var(--plate);border-radius:10px;flex-shrink:0;padding:3px}
+.cmain{flex:1;min-width:0;display:flex;flex-direction:column;gap:4px}
+.cmain strong{font-size:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pbar{display:block;height:5px;background:var(--soft);border-radius:4px;overflow:hidden}.pbar i{display:block;height:100%;background:var(--accent);border-radius:4px}
+.tools{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.tool{position:relative;border:1px solid var(--line);background:var(--surface);border-radius:14px;min-height:86px;padding:12px 8px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;font-size:13px;font-weight:600;text-align:center;color:var(--ink)}
+.tool svg{color:var(--accent)}.tool.nerve svg{color:var(--nerve)}.tool.vein svg{color:var(--vein)}
+.tool .badge{position:absolute;top:8px;right:8px;background:var(--accent);color:var(--on-accent);border-radius:99px;font:600 11px/1 var(--f-mono);padding:4px 6px}
+@media (min-width:640px){.tools{grid-template-columns:repeat(6,minmax(0,1fr))}}
+.gchips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:4px;margin-bottom:6px}
+.gchips .chip{flex-shrink:0;min-height:36px;padding:6px 13px;font-size:13px}
+.gchips .chip[aria-pressed="false"]{opacity:1}
+.gchips .chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.gdot{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--gc)}
+.rgroup{margin-top:10px}.rgroup>.eyebrow{display:block;margin:12px 0 8px}
+.rgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+@media (min-width:640px){.rgrid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.rcard{border:1px solid var(--line);background:var(--surface);border-radius:16px;padding:12px;display:flex;flex-direction:column;gap:6px;text-align:left;color:var(--ink);min-height:118px}
+.rcard:hover{border-color:var(--gc)}
+.rtop{display:flex;justify-content:space-between;align-items:flex-start}
+.rcard strong{font:700 15.5px/1.2 var(--f-display)}
+.rcard small{font-size:12px;color:var(--muted)}
+/* region */
+.rhead{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.rhead .rt{flex:1;min-width:0;display:flex;flex-direction:column;gap:4px}
+.rhead h1{font-size:clamp(24px,5vw,32px);letter-spacing:-.02em}
+.back{width:40px;height:40px;border-radius:12px;border:1px solid var(--line);background:var(--surface);display:grid;place-items:center;flex-shrink:0}
+.rtabs{position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--toph,61px));z-index:4;background:var(--bg);display:flex;gap:4px;border-bottom:1px solid var(--line);margin:0 -16px 14px;padding:0 16px;overflow-x:auto;scrollbar-width:none}
+.rtabs button{border:0;background:none;padding:12px 10px 10px;font-size:14px;font-weight:500;color:var(--muted);border-bottom:3px solid transparent;white-space:nowrap;min-height:44px}
+.rtabs button[aria-selected="true"]{color:var(--accent);font-weight:600;border-bottom-color:var(--accent)}
+.rtools{display:flex;gap:8px;align-items:center;margin-bottom:8px}
+.secsel{flex:1;max-width:none;min-height:44px}
+.aa{min-width:48px;min-height:44px;border:1px solid var(--line);background:var(--surface);border-radius:10px;font-weight:600}
+.rprog{height:4px;background:var(--soft);border-radius:4px;overflow:hidden;margin-bottom:6px}.rprog i{display:block;height:100%;background:var(--ok)}
+html.nopbar .rprog,html.nopbar .cont .pbar{display:none}
+.rblurb{margin-bottom:6px}
+.rbody .sec{scroll-margin-top:calc(var(--toph,61px) + 60px)}
+.secfig{margin:12px -6px 4px;position:relative}
+.secfig .figs.carousel{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;margin:0;padding:0 6px;scrollbar-width:none;overscroll-behavior-x:contain}
+.secfig .figs.carousel::-webkit-scrollbar{display:none}
+.secfig .carousel .fig{flex:0 0 100%;scroll-snap-align:center}
+.secfig .carousel .fig img{aspect-ratio:4/3;max-height:62vh}
+.fnav{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:6px}
+.fbtn{width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:var(--surface);font-size:20px;line-height:1;display:grid;place-items:center}
+.pager{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:22px 0 6px}
+.pg{border:1px solid var(--line);background:var(--surface);border-radius:14px;padding:12px 14px;text-align:left;display:flex;flex-direction:column;gap:4px;color:var(--ink)}
+.pg.nx{text-align:right;grid-column:2}
+.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (min-width:700px){.gallery{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.pstats{display:flex;flex-direction:column;gap:12px}
+.tri{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.tri b{display:block;font:700 22px/1.1 var(--f-display);font-variant-numeric:tabular-nums}.tri span{font-size:12px;color:var(--muted)}
+.btn.primary{background:var(--accent);color:var(--on-accent);border-color:var(--accent);font-weight:600}
+.btn.wide{width:100%;min-height:46px}
+.prows,.mlist{background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.prow,.mrow{width:100%;display:flex;align-items:center;gap:12px;border:0;border-bottom:1px solid var(--soft);background:none;padding:12px 14px;text-align:left;min-height:60px;color:var(--ink)}
+.prow:last-child,.mrow:last-child{border-bottom:0}
+.pt{flex:1;min-width:0;display:flex;flex-direction:column}.pt strong{font-size:15px}.pt small{font-size:12.5px;color:var(--muted)}
+.pn{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;font:600 14px var(--f-mono);flex-shrink:0}
+.c0{background:var(--soft);color:var(--ink)}
+.c1{background:#F7E3E5;color:#8E1823}.c2{background:#E3ECF7;color:#244A8C}.c3{background:#E2F1E8;color:#1F5C38}.c4{background:#FBEFD6;color:#7A5600}.c5{background:#ECE6F6;color:#4E3485}
+:root[data-theme="dark"] :is(.c1,.c2,.c3,.c4,.c5){filter:brightness(.85) saturate(1.2)}
+.mrow svg:first-child{color:var(--accent)}
+.chip.big{font-size:13px;min-height:38px;padding:7px 13px}
+.chip.big .dot{background:var(--k)}
+/* study hub */
+.recommend{width:100%;border:0;background:#15202A;color:#fff;border-radius:20px;padding:18px;display:flex;flex-direction:column;gap:6px;text-align:left}
+.recommend .eyebrow{color:#C9D3DA}.recommend strong{font:700 21px/1.2 var(--f-display)}.recommend>span:not(.eyebrow):not(.rgo){font-size:14px;color:#C9D3DA}
+.rgo{margin-top:8px;align-self:flex-start;background:#F0646E;color:#1A0A0C;border-radius:10px;padding:10px 16px;font-weight:600}
+.stiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:16px}
+@media (min-width:700px){.stiles{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.stile{border:1px solid var(--line);background:var(--surface);border-radius:18px;padding:14px;display:flex;flex-direction:column;gap:8px;text-align:left;min-height:140px;color:var(--ink)}
+.stile .sico{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;font:700 15px var(--f-mono)}
+.stile.c1,.stile.c2,.stile.c3,.stile.c4,.stile.c5{background:var(--surface);color:var(--ink);filter:none}
+.stile.c1 .sico{background:#F7E3E5;color:#8E1823}.stile.c2 .sico{background:#E3ECF7;color:#244A8C}.stile.c3 .sico{background:#E2F1E8;color:#1F5C38}.stile.c4 .sico{background:#FBEFD6;color:#7A5600}.stile.c5 .sico{background:#ECE6F6;color:#4E3485}
+.stile strong{font-size:16px}.stile small{font-size:13px;color:var(--muted);line-height:1.35}
+.week{margin-top:16px}.week .h2row{margin:0 0 10px}
+.bars{display:flex;align-items:flex-end;gap:10px;height:130px}
+.bcol{flex:1;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:5px}
+.bcol i{width:100%;border-radius:6px 6px 3px 3px;background:var(--line);min-height:3px;max-height:90px}
+.bcol i.on{background:var(--accent)}.bv{font:500 10px var(--f-mono);color:var(--muted);min-height:12px}
+/* more */
+.card.set{display:flex;flex-direction:column;gap:10px}
+.slabel{font-size:14px;font-weight:600}
+.seg3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;background:var(--soft);padding:4px;border-radius:12px}
+.seg3 button{min-height:44px;border:0;border-radius:9px;background:transparent;color:var(--muted)}
+.seg3 button[aria-pressed="true"]{background:var(--surface);color:var(--ink);font-weight:600;box-shadow:0 1px 2px rgba(0,0,0,.1)}
+.seg3 .fs-s{font-size:13px}.seg3 .fs-m{font-size:15px}.seg3 .fs-l{font-size:17px}
+.themes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.themes button{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:8px;display:flex;flex-direction:column;gap:6px;align-items:center;font-size:13px}
+.themes button[aria-pressed="true"]{border:2px solid var(--accent);padding:7px;font-weight:600}
+.sw{width:100%;height:42px;border-radius:8px;display:block;border:1px solid var(--line)}
+.sw-light{background:#F2F4F5}.sw-dark{background:#0D1317}.sw-auto{background:linear-gradient(90deg,#F2F4F5 50%,#0D1317 50%)}
+.srow{display:flex;align-items:center;justify-content:space-between;font-size:14px;min-height:44px}
+.srow input{width:22px;height:22px;accent-color:var(--accent)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:8px}.two .btn{min-height:44px}
+.lede.small{font-size:14px;margin:0}
+details.pdfs{margin-top:14px}details.pdfs summary{cursor:pointer;display:flex;flex-direction:column}details.pdfs summary small{color:var(--muted);font-size:12.5px}
+.pdfgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:6px;margin-top:10px}
+/* wide screens: notes left, figures right */
+@media (min-width:1180px){
+  main{max-width:1240px}
+  .rbody .sec{padding:20px 24px}
+  .rbody .sec:has(>.secfig){display:grid;grid-template-columns:minmax(0,1fr) minmax(340px,42%);column-gap:24px;align-items:start}
+  .rbody .sec>*{grid-column:1}
+  .rbody .sec>.secfig{grid-column:2;grid-row:2 / span 12;margin:0;position:sticky;top:calc(var(--toph,61px) + 60px)}
+  .rbody .sec>header{grid-column:1 / -1}
+  .rtabs{margin:0 0 16px;padding:0}
+}
+@media (prefers-reduced-motion:reduce){.secfig .figs.carousel{scroll-behavior:auto}}
+
+/* end v9 */
 </style>
 
 <div class="app">
@@ -3017,8 +3143,7 @@ const VIEWS_FN=()=>({home:vHome,atlas:vAtlas,region:vRegion,figures:vFigures,car
 function go(v,opt){
   cur=v;const [base,arg]=v.split(":");
   document.querySelectorAll(".tab").forEach(t=>t.setAttribute("aria-current",String(t.dataset.go===base||(base==="region"&&t.dataset.go==="atlas")||(base==="drill"&&t.dataset.go==="cards"))));
-  const is3d=false;
-  if(is3d)initModel();else (VIEWS_FN()[base]||vHome)(arg,opt);
+  (VIEWS_FN()[base]||vHome)(arg,opt);
   try{history.replaceState(null,"","#"+(base==="region"?arg:base))}catch(e){}
   if(!opt||!opt.keep)window.scrollTo(0,0);
 }
@@ -3691,7 +3816,7 @@ const EXTRA={tracer:vTracer,order:vOrder,mistakes:vMistakes};
 const _go=go;
 go=function(v,opt){const [base,arg]=v.split(":");if(!EXTRA[base])return _go(v,opt);
   cur=v;document.querySelectorAll(".tab").forEach(t=>t.setAttribute("aria-current",String(t.dataset.go===base||(base==="tracer"?t.dataset.go==="atlas":t.dataset.go==="cards"))));
-  {const v3=$("#v3d");if(v3)v3.hidden=true}$("#view").hidden=false;EXTRA[base](arg,opt);
+  $("#view").hidden=false;EXTRA[base](arg,opt);
   try{history.replaceState(null,"","#"+v.replace(":","-"))}catch(e){}if(!opt||!opt.keep)window.scrollTo(0,0)};
 document.addEventListener("click",e=>{const g=e.target.closest("[data-go^='tracer:']");if(g)TRSTEP=null},true);
 $("#side").insertAdjacentHTML("beforeend",`<button class="tab" data-go="tracer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19c4 0 3-6 7-6s3 6 7 6M4 5c4 0 3 6 7 6s3-6 7-6"/><circle cx="4" cy="5" r="1.5"/><circle cx="20" cy="19" r="1.5"/></svg>Tracer</button>`);
@@ -3705,10 +3830,194 @@ vRegion=function(id){_vRegion.apply(this,arguments);const r=RMAP[id];if(!r)retur
   if(!ts.length&&!os.length)return;const a=$("#view .actions");if(!a)return;
   a.insertAdjacentHTML("afterend",`<div class="trchips">${ts.map(t=>`<button class="chip" data-go="tracer:${t.id}" style="--k:${KIND[t.kind][1]}"><i class="dot"></i>Trace: ${esc(t.name)}</button>`).join("")}${os.map(o=>`<button class="chip" data-go="order:${o.id}">Order: ${esc(o.title)}</button>`).join("")}</div>`)};
 
-function initModel(){}
+/* ================= v9 LAYOUT: Today home, tabbed regions, Study hub, More ================= */
+GROUPS.forEach(([g,ids])=>ids.forEach(id=>{if(RMAP[id])RMAP[id].g=g}));
+const GCOL={"Ear":"var(--g-ear)","Nose & sinuses":"var(--g-nose)","Mouth & throat":"var(--g-throat)","Larynx & neck":"var(--g-neck)","Face, jaw & development":"var(--g-face)"};
+const GSHORT={"Ear":"Ear","Nose & sinuses":"Nose","Mouth & throat":"Throat","Larynx & neck":"Neck","Face, jaw & development":"Face"};
+const ICON={
+ home:'<path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/>',
+ atlas:'<path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2zM4 21V5M8 7h7"/>',
+ study:'<rect x="3" y="6" width="14" height="14" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/>',
+ figures:'<rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-9 9"/>',
+ more:'<circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/>',
+ tables:'<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M3 15h18M10 4v16"/>',
+ tracer:'<path d="M4 19c4 0 3-6 7-6s3 6 7 6M4 5c4 0 3 6 7 6s3-6 7-6"/>',
+ quiz:'<circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14M12 17.5v.01"/>',
+ drill:'<rect x="3" y="4" width="18" height="16" rx="2"/><rect x="7" y="8" width="6" height="3" rx="1"/><rect x="11" y="14" width="6" height="3" rx="1"/>',
+ order:'<path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/>',
+ mistakes:'<path d="M12 3 2 20h20L12 3zM12 10v4M12 17v.01"/>',
+ saved:'<path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/>',
+ search:'<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>',
+ pdf:'<path d="M12 3v12M7 10l5 5 5-5M5 21h14"/>',
+ back:'<path d="M15 18l-6-6 6-6"/>',chev:'<path d="M9 6l6 6-6 6"/>'};
+const ic=(n,s=22)=>`<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON[n]}</svg>`;
+const HAS_PDF=typeof FIGDATA==="undefined";
+
+/* ---------- navigation ---------- */
+const TABS5=[["home","Home"],["atlas","Atlas"],["study","Study"],["figures","Figures"],["more","More"]];
+const SIDE=[["home","Home"],["atlas","Atlas"],["study","Study"],["figures","Figures"],["tables","Tables"],["tracer","Tracer"],["quiz","Quiz"],["more","More"]];
+$("#tabs").innerHTML=TABS5.map(([v,l])=>`<button class="tab" data-go="${v}">${ic(v)}${l}</button>`).join("");
+document.querySelectorAll("#side .tab").forEach(b=>b.remove());
+$("#side").insertAdjacentHTML("beforeend",SIDE.map(([v,l])=>`<button class="tab" data-go="${v}">${ic(v)}${l}</button>`).join(""));
+const TABOF={home:"home",atlas:"atlas",region:"atlas",tracer:"atlas",study:"study",cards:"study",drill:"study",order:"study",mistakes:"study",quiz:"study",figures:"figures",more:"more",tables:"more",saved:"more",search:"more"};
+function markTabs(base){const t=TABOF[base]||"home";
+  document.querySelectorAll("#tabs .tab").forEach(b=>b.setAttribute("aria-current",String(b.dataset.go===t)));
+  document.querySelectorAll("#side .tab").forEach(b=>b.setAttribute("aria-current",String(b.dataset.go===base||(base==="region"&&b.dataset.go==="atlas")||(["cards","drill","order","mistakes"].includes(base)&&b.dataset.go==="study")||(["saved","search"].includes(base)&&b.dataset.go==="more"))))}
+EXTRA.study=vStudy;EXTRA.more=vMore;
+const _go3=go;
+go=function(v,opt){_go3(v,opt);markTabs(v.split(":")[0])};
+
+/* ---------- preferences (per device) ---------- */
+let PREF={fs:"m",theme:"auto",pbar:true};
+try{Object.assign(PREF,JSON.parse(localStorage.getItem("ent-atlas-prefs")||"{}"))}catch(e){}
+function applyPrefs(){const r=document.documentElement;r.dataset.fsz=PREF.fs;if(PREF.theme==="auto")r.removeAttribute("data-theme");else r.dataset.theme=PREF.theme;r.classList.toggle("nopbar",!PREF.pbar)}
+function savePrefs(){try{localStorage.setItem("ent-atlas-prefs",JSON.stringify(PREF))}catch(e){}applyPrefs()}
+applyPrefs();
+
+/* ---------- study time (minutes per day) ---------- */
+let lastAct=Date.now();["pointerdown","keydown","scroll","touchstart"].forEach(t=>window.addEventListener(t,()=>lastAct=Date.now(),{passive:true}));
+setInterval(()=>{if(document.hidden||Date.now()-lastAct>120000)return;ST.mins=ST.mins||{};const d=today();ST.mins[d]=(ST.mins[d]||0)+1;
+  const ks=Object.keys(ST.mins).sort();if(ks.length>60)ks.slice(0,ks.length-60).forEach(k=>delete ST.mins[k]);save()},60000);
+
+/* ---------- shared bits ---------- */
+function ring(pct,col,size=44,label){const c=2*Math.PI*15,d=(c*Math.max(0,Math.min(100,pct))/100).toFixed(1);
+  return `<svg class="ring" width="${size}" height="${size}" viewBox="0 0 36 36" ${label?`role="img" aria-label="${pct}% complete"`:'aria-hidden="true"'}><circle cx="18" cy="18" r="15" fill="none" stroke="var(--soft)" stroke-width="4"/><circle cx="18" cy="18" r="15" fill="none" stroke="${col}" stroke-width="4" stroke-linecap="round" stroke-dasharray="${d} ${c.toFixed(1)}" transform="rotate(-90 18 18)"/>${label?`<text x="18" y="21.5" text-anchor="middle" font-size="9" font-weight="600" fill="var(--ink)" font-family="IBM Plex Sans,sans-serif">${pct}%</text>`:""}</svg>`}
+function regionCard(r){const st=regionStats(r),col=GCOL[r.g]||"var(--accent)";
+  return `<button class="rcard" data-go="region:${r.id}" style="--gc:${col}"><span class="rtop"><i class="gdot"></i>${ring(st.pct,col,38)}</span><strong>${esc(r.name)}</strong><small>${st.pct}% · ${st.read}/${st.secs} read · ${st.figs} figs</small></button>`}
+let HG="all";
+function regionsBlock(){const groups=GROUPS.filter(([g])=>HG==="all"||g===HG);
+  return `<div class="gchips" role="group" aria-label="Filter regions"><button class="chip" data-hg="all" aria-pressed="${HG==="all"}">All</button>${GROUPS.map(([g])=>`<button class="chip" data-hg="${esc(g)}" aria-pressed="${HG===g}"><i class="gdot" style="--gc:${GCOL[g]}"></i>${GSHORT[g]}</button>`).join("")}</div>
+  ${groups.map(([g,ids])=>`<div class="rgroup">${HG==="all"?`<h3 class="eyebrow">${esc(g)}</h3>`:""}<div class="rgrid">${ids.filter(id=>RMAP[id]).map(id=>regionCard(RMAP[id])).join("")}</div></div>`).join("")}`}
+document.addEventListener("click",e=>{const b=e.target.closest("[data-hg]");if(!b)return;HG=b.dataset.hg;const h=$("#regionsBlock");if(h)h.innerHTML=regionsBlock()});
+
+/* ---------- HOME: Today ---------- */
+function continueSec(){const r=ST.lastReg&&RMAP[ST.lastReg];let s=r&&r.sections.find(x=>!ST.read[x.id]);if(!s)s=SECTIONS.find(x=>!ST.read[x.id]);return s}
+function todayCounts(){const due=CARDS.filter(c=>isDue(c)&&!isNew(c)).length,fresh=CARDS.filter(isNew).length;
+  const dd=DRILLKEYS.filter(k=>drillDue(k)&&!drillNew(k)).length,mc=missCounts().total;
+  return {due,fresh,dd,mc,mins:Math.max(due||dd||mc?1:0,Math.round(due*0.4+dd*1.5+Math.min(mc,20)*0.5))}}
+function startToday(){const t=todayCounts();if(t.due)startDeck("all","due");else if(t.dd)startDrill("all");else if(t.mc)go("mistakes");else startDeck("all","new")}
+vHome=function(){const t=todayCounts(),s=continueSec(),r=s&&RMAP[s.r],st=r&&regionStats(r);
+  const fig=s&&((s.f||[]).find(k=>FIG[k])||regionFigs(s.r)[0]);
+  const dn=new Date().toLocaleDateString(undefined,{weekday:"long"}),sk=streak();
+  const tool=(v,l,i,n,cls)=>`<button class="tool ${cls||""}" data-go="${v}">${ic(i)}<span>${l}</span>${n?`<b class="badge">${n}</b>`:""}</button>`;
+  V().innerHTML=`<div class="hero hhome"><span class="eyebrow">${esc(dn)}${sk?` · ${sk}-day streak`:""}</span><h1>Ready for today?</h1></div>
+  <section class="today"><div class="trow"><span class="eyebrow">Today's review</span><span class="mono">${t.mins?`≈ ${t.mins} min`:"all caught up"}</span></div>
+   <div class="tstats"><div><b>${t.due}</b><span>cards due</span></div><div><b>${t.dd}</b><span>drill figures</span></div><div><b>${t.mc}</b><span>mistakes</span></div></div>
+   <button class="tgo" data-today>${t.due||t.dd||t.mc?"Start today's session":`Learn new cards (${t.fresh})`}</button></section>
+  ${s?`<button class="cont" data-go="region:${s.r}" data-sec="${s.id}">${fig?`<img src="${figSrc(fig)}" alt="" loading="lazy">`:""}<span class="cmain"><span class="eyebrow">Continue reading</span><strong>${esc(r.name)} · ${esc(s.t)}</strong><span class="pbar"><i style="width:${st.pct}%"></i></span></span>${ic("chev",18)}</button>`:""}
+  <div class="h2row"><h2>Tools</h2></div>
+  <div class="tools">${tool("cards","Flashcards","study")}${tool("drill","Label drills","drill")}${tool("quiz","Quiz","quiz")}${tool("tracer","Tracer","tracer","","nerve")}${tool("order","Build the order","order","","vein")}${tool("mistakes","Mistakes","mistakes",t.mc)}</div>
+  <div class="h2row"><h2>Regions</h2><span class="eyebrow">${REGIONS.length} · ${GROUPS.length} groups</span></div>
+  <div id="regionsBlock">${regionsBlock()}</div>`};
+document.addEventListener("click",e=>{if(e.target.closest("[data-today]")){e.preventDefault();startToday()}});
+
+vAtlas=function(){V().innerHTML=`<div class="hero"><span class="eyebrow">Atlas</span><h1>Regions</h1><p class="lede">Notes, figures, practice and tables for each region of the head and neck.</p></div>
+  <div class="actions"><button class="btn" data-go="tracer">${ic("tracer",18)} Nerve &amp; vessel tracer</button><button class="btn" data-go="tables">${ic("tables",18)} Tables &amp; mnemonics</button></div>
+  <div id="regionsBlock">${regionsBlock()}</div>`};
+
+/* ---------- REGION: tabs ---------- */
+let RTAB="notes",RTABREG=null,RFSRC="all";
+vRegion=function(id,opt){const r=RMAP[id];if(!r)return vAtlas();
+  if(RTABREG!==id){RTAB="notes";RFSRC="all";RTABREG=id}if(opt&&opt.sec)RTAB="notes";if(opt&&opt.tab)RTAB=opt.tab;
+  if(ST.lastReg!==id){ST.lastReg=id;save()}
+  const st=regionStats(r),col=GCOL[r.g]||"var(--accent)",i=REGIONS.indexOf(r),prev=REGIONS[i-1],next=REGIONS[i+1];
+  const tabs=[["notes","Notes"],["figures","Figures"],["practice","Practice"],["tables","Tables"]];
+  let body="";
+  if(RTAB==="notes"){
+    body=`<div class="rtools"><label class="vh" for="secsel">Jump to section</label><select id="secsel" class="select secsel">${r.sections.map((s,j)=>`<option value="${s.id}">${j+1} · ${esc(s.t)}${ST.read[s.id]?" ✓":""}</option>`).join("")}</select>
+      <button class="aa" data-aa aria-label="Text size: ${PREF.fs==="s"?"small":PREF.fs==="l"?"large":"medium"}">Aa</button></div>
+      <div class="rprog" aria-hidden="true"><i style="width:${st.secs?Math.round(100*st.read/st.secs):0}%"></i></div>
+      <p class="lede rblurb">${esc(r.blurb)}</p>
+      ${r.sections.map(secHTML).join("")}
+      <nav class="pager">${prev?`<button class="pg" data-go="region:${prev.id}"><span class="mono">← Previous region</span><strong>${esc(prev.name)}</strong></button>`:"<span></span>"}${next?`<button class="pg nx" data-go="region:${next.id}"><span class="mono">Next region →</span><strong>${esc(next.name)}</strong></button>`:""}</nav>`}
+  else if(RTAB==="figures"){const all=regionFigs(id),fs=all.filter(k=>RFSRC==="all"||FIG[k][1]===RFSRC),cnt=s=>all.filter(k=>s==="all"||FIG[k][1]===s).length;
+    body=`<div class="gchips" role="group" aria-label="Source">${[["all","All"],["S","ENT Steps"],["D","Doss"],["G","Gray's"]].filter(([v])=>cnt(v)).map(([v,l])=>`<button class="chip" data-rfsrc="${v}" aria-pressed="${RFSRC===v}">${l} · ${cnt(v)}</button>`).join("")}</div>
+      <div class="figs gallery">${fs.map(k=>figCard(k,fs)).join("")}</div>`}
+  else if(RTAB==="practice"){const cs=CARDS.filter(c=>c.r===id),due=cs.filter(c=>isDue(c)&&!isNew(c)).length,nw=cs.filter(isNew).length,acc=regionAcc(id),nq=QUIZ.filter(q=>q.r===id).length;
+    const dk=DRILLKEYS.filter(k=>FIG[k][3]===id),ddue=dk.filter(k=>drillDue(k)&&!drillNew(k)).length,mc=missCounts(id);
+    const ts=TRACE.filter(t=>t.regions.includes(id)),os=ORDERS.filter(o=>o.regions.includes(id)&&!o.id.startsWith("tr-"));
+    const row=(attr,n,t,s,cls)=>`<button class="prow" ${attr}><span class="pn ${cls}">${n}</span><span class="pt"><strong>${t}</strong><small>${s}</small></span>${ic("chev",18)}</button>`;
+    body=`<section class="card pstats"><span class="eyebrow">Your ${esc(r.name.split(" ")[0].toLowerCase())} progress</span>
+      <div class="tri"><div><b>${st.read}/${st.secs}</b><span>sections read</span></div><div><b>${acc?acc.pct+"%":"—"}</b><span>quiz average</span></div><div><b>${st.mast}/${st.cards}</b><span>cards mastered</span></div></div>
+      <button class="btn primary wide" data-deck="${id}" data-mode="smart">Study ${id==="larynx"?"the larynx":"this region"} now</button></section>
+     <div class="h2row"><h2>Practise this region</h2></div>
+     <div class="prows">${row(`data-deck="${id}" data-mode="smart"`,cs.length,"Flashcards",`${due} due · ${nw} new`,"c1")}
+      ${dk.length?row(`data-drill="${id}"`,dk.length,"Label drills",`${dk.length} figures · ${ddue} due`,"c2"):""}
+      ${row(`data-qregion="${id}"`,nq,"Quiz",`Single best answer${acc?` · average ${acc.pct}%`:""}`,"c3")}
+      ${row(`data-mreg="${id}"`,mc.total,"My mistakes",mc.total?`${mc.q} MCQs · ${mc.c} cards · ${mc.df} drill figures`:"Nothing to redo yet","c4")}</div>
+     ${ts.length||os.length?`<div class="h2row"><h2>Trace &amp; order</h2></div><div class="trchips">${ts.map(t=>`<button class="chip big" data-go="tracer:${t.id}" style="--k:${KIND[t.kind][1]}"><i class="dot"></i>${esc(t.name)}</button>`).join("")}${os.map(o=>`<button class="chip big" data-go="order:${o.id}"><i class="dot" style="--k:var(--vein)"></i>Order: ${esc(o.title)}</button>`).join("")}</div>`:""}
+     ${HAS_PDF?`<div class="h2row"><h2>Take it with you</h2></div><div class="prows"><button class="prow" data-pdf="${id}"><span class="pn c0">${ic("pdf",20)}</span><span class="pt"><strong>PDF summary</strong><small>Notes, tables and figures for ${esc(r.name)}</small></span></button></div>`:""}`}
+  else{const t=regionTablesHTML(id);body=t||`<p class="empty">No tables or mnemonics for this region yet.</p>`}
+  V().innerHTML=`<div class="rhead" style="--gc:${col}"><button class="back" data-go="atlas" aria-label="Back to Atlas">${ic("back",20)}</button>
+    <div class="rt"><span class="eyebrow">${esc(r.g||"")} · ${r.n} of ${REGIONS.length}</span><h1>${esc(r.name)}</h1></div>${ring(st.pct,col,46,true)}</div>
+   <div class="rtabs" role="tablist" aria-label="Region view">${tabs.map(([v,l])=>`<button role="tab" aria-selected="${RTAB===v}" data-rtab="${v}">${l}</button>`).join("")}</div>
+   <div class="rbody">${body}</div>`;
+  if(RTAB==="notes")wireNotes(r,opt)};
+function wireNotes(r,opt){const sel=$("#secsel");
+  sel.onchange=()=>{const el=document.getElementById(sel.value);if(el)el.scrollIntoView({block:"start",behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"})};
+  const top=$(".top");document.documentElement.style.setProperty("--toph",(top?top.offsetHeight:0)+"px");
+  if("IntersectionObserver" in window){const io=new IntersectionObserver(es=>{const vis=es.filter(x=>x.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top)[0];if(vis&&sel)sel.value=vis.target.id},{rootMargin:"-30% 0px -60% 0px"});
+    document.querySelectorAll(".rbody .sec").forEach(s=>io.observe(s))}
+  document.querySelectorAll(".rbody .sec").forEach(sec=>{const f=sec.querySelector(":scope>.figs");if(!f)return;const n=f.children.length;
+    const w=document.createElement("div");w.className="secfig";f.classList.add("carousel");f.setAttribute("tabindex","0");f.setAttribute("aria-label","Figures, "+n);
+    sec.querySelector(":scope>header").after(w);w.appendChild(f);if(n<2)return;
+    const c=document.createElement("div");c.className="fnav";c.innerHTML=`<button class="fbtn" data-fstep="-1" aria-label="Previous figure">‹</button><span class="fcount mono">1 / ${n}</span><button class="fbtn" data-fstep="1" aria-label="Next figure">›</button>`;w.appendChild(c);
+    const lab=c.querySelector(".fcount");f.addEventListener("scroll",()=>{const i=Math.round(f.scrollLeft/Math.max(1,f.clientWidth));lab.textContent=`${i+1} / ${n}`},{passive:true})});
+  if(opt&&opt.sec)setTimeout(()=>{const el=document.getElementById(opt.sec);if(el)el.scrollIntoView({block:"start"})},40)}
+document.addEventListener("click",e=>{
+  const t=e.target.closest("[data-rtab]");if(t){RTAB=t.dataset.rtab;vRegion(cur.split(":")[1],{keep:1});const h=$(".rtabs");if(h&&h.getBoundingClientRect().top<0)h.scrollIntoView({block:"start"});return}
+  const f=e.target.closest("[data-rfsrc]");if(f){RFSRC=f.dataset.rfsrc;vRegion(cur.split(":")[1],{keep:1});return}
+  if(e.target.closest("[data-aa]")){PREF.fs=PREF.fs==="s"?"m":PREF.fs==="m"?"l":"s";savePrefs();const b=$("[data-aa]");if(b)b.setAttribute("aria-label","Text size: "+(PREF.fs==="s"?"small":PREF.fs==="l"?"large":"medium"));toast(PREF.fs==="s"?"Small text":PREF.fs==="l"?"Large text":"Medium text");return}
+  const fs=e.target.closest("[data-fstep]");if(fs){const f=fs.closest(".secfig").querySelector(".carousel");f.scrollBy({left:f.clientWidth*+fs.dataset.fstep,behavior:"smooth"});return}
+  const m=e.target.closest("[data-mreg]");if(m){MSR=m.dataset.mreg;go("mistakes")}});
+document.addEventListener("change",e=>{if(!e.target.dataset.read)return;const r=RMAP[cur.split(":")[1]];const p=$(".rprog i");if(r&&p){const st=regionStats(r);p.style.width=Math.round(100*st.read/st.secs)+"%"}
+  const o=$(`#secsel option[value="${e.target.dataset.read}"]`);if(o){const s=SECTIONS.find(x=>x.id===e.target.dataset.read);o.textContent=o.textContent.replace(/ ✓$/,"")+(e.target.checked?" ✓":"")}});
+
+/* ---------- STUDY HUB ---------- */
+function vStudy(){const t=todayCounts();
+  const acc=REGIONS.map(r=>({r,a:regionAcc(r.id)})).filter(x=>x.a&&x.a.n>=3).sort((a,b)=>a.a.pct-b.a.pct);
+  let rec=acc.length&&acc[0].a.pct<80?{r:acc[0].r,why:`Quiz average ${acc[0].a.pct}%`}:null;
+  if(!rec){const started=REGIONS.map(r=>({r,s:regionStats(r)})).sort((a,b)=>a.s.pct-b.s.pct);const x=started.find(x=>x.s.read>0&&x.s.pct<100)||started[0];rec={r:x.r,why:`${x.s.pct}% complete · ${x.s.secs-x.s.read} sections to read`}}
+  const dkr=DRILLKEYS.filter(k=>FIG[k][3]===rec.r.id&&drillDue(k)&&!drillNew(k)).length;
+  const days=[...Array(7)].map((_,i)=>{const d=new Date();d.setDate(d.getDate()-6+i);const k=dayStr(d);return{l:d.toLocaleDateString(undefined,{weekday:"narrow"}),m:(ST.mins||{})[k]||0,today:i===6}});
+  const mx=Math.max(30,...days.map(d=>d.m)),tot=days.reduce((a,d)=>a+d.m,0);
+  const tile=(v,i,title,sub,n,cls)=>`<button class="stile ${cls}" data-go="${v}"><span class="sico">${n?`<b>${n}</b>`:ic(i)}</span><strong>${title}</strong><small>${sub}</small></button>`;
+  V().innerHTML=`<div class="hero"><span class="eyebrow">Study${streak()?` · ${streak()}-day streak`:""}</span><h1>Practise</h1></div>
+  <button class="recommend" data-go="region:${rec.r.id}" data-rectab="practice"><span class="eyebrow">Recommended next</span><strong>${esc(rec.r.name)}</strong><span>${esc(rec.why)}${dkr?` · ${dkr} drill figures due`:""}</span><span class="rgo">Practise ${esc(rec.r.name.split(/[ ,&]/)[0].toLowerCase())}</span></button>
+  <div class="stiles">${tile("cards","study","Flashcards",`${t.due} due · ${CARDS.length} cards`,t.due,"c1")}${tile("drill","drill","Label drills",`${DRILLKEYS.length} figures · ${t.dd} due`,t.dd,"c2")}${tile("quiz","quiz","Quiz",`${QUIZ.length} clinical MCQs`,null,"c3")}
+   ${tile("tracer","tracer","Tracer",`${TRACE.length} nerves and vessels`,null,"c4")}${tile("order","order","Build the order",`${ORDERS.length} sequences`,null,"c5")}${tile("mistakes","mistakes","Mistakes",t.mc?"Redo what you got wrong":"Nothing to redo yet",t.mc||null,"c1")}</div>
+  <section class="card week"><div class="h2row"><h2>This week</h2><span class="eyebrow">${tot} min studied</span></div>
+   <div class="bars">${days.map(d=>`<div class="bcol"><span class="bv">${d.m||""}</span><i style="height:${Math.max(3,Math.round(100*d.m/mx))}%" class="${d.today?"on":""}"></i><span class="mono">${d.l}</span></div>`).join("")}</div></section>`}
+document.addEventListener("click",e=>{const b=e.target.closest("[data-rectab]");if(b){RTABREG=b.dataset.go.split(":")[1];RTAB=b.dataset.rectab}},true);
+
+/* ---------- MORE ---------- */
+function vMore(){const native=!!(window.claude&&window.claude.use);
+  const link=(v,i,t,s)=>`<button class="mrow" data-go="${v}">${ic(i,20)}<span class="pt"><strong>${t}</strong><small>${s}</small></span>${ic("chev",18)}</button>`;
+  V().innerHTML=`<div class="hero"><span class="eyebrow">More</span><h1>Everything else</h1></div>
+  <div class="mlist">${link("tables","tables","Tables &amp; mnemonics",`${TABLES.length} tables · ${MNEM.length} mnemonics`)}${link("tracer","tracer","Nerve &amp; vessel tracer",`${TRACE.length} courses`)}${link("saved","saved","Saved","Sections, cards, tables and figures you starred")}${link("search","search","Search","Notes, cards, figures and labels")}${link("quiz","quiz","Quiz",`${QUIZ.length} clinical MCQs`)}</div>
+  ${HAS_PDF?`<details class="card pdfs"><summary><strong>PDF summaries</strong><small>One per region · notes, tables and figures</small></summary><div class="pdfgrid">${REGIONS.map(r=>`<button class="btn" data-pdf="${r.id}">${esc(r.name)}</button>`).join("")}</div></details>`:""}
+  <div class="h2row"><h2>Reading</h2></div>
+  <section class="card set"><span class="slabel">Text size</span><div class="seg3" role="group" aria-label="Text size">${[["s","Small"],["m","Medium"],["l","Large"]].map(([v,l])=>`<button data-fs="${v}" aria-pressed="${PREF.fs===v}" class="fs-${v}">Aa ${l}</button>`).join("")}</div>
+   <span class="slabel">Appearance</span><div class="themes" role="group" aria-label="Appearance">${[["light","Light"],["dark","Night"],["auto","Auto"]].map(([v,l])=>`<button data-theme-set="${v}" aria-pressed="${PREF.theme===v}"><i class="sw sw-${v}"></i>${l}</button>`).join("")}</div>
+   <label class="srow">Show reading progress bar <input type="checkbox" data-pbar ${PREF.pbar?"checked":""}></label></section>
+  <div class="h2row"><h2>Your progress</h2></div>
+  <section class="card set"><p class="sync" id="sync"></p>
+   ${native?"":`<p class="lede small">Back up to move your progress to another phone or browser.</p><div class="two"><button class="btn" id="bk2-exp">Back up my progress</button><label class="btn" style="cursor:pointer;text-align:center">Restore a backup<input type="file" id="bk2-imp" accept=".json,application/json,text/plain,*/*" hidden></label></div>`}</section>`;
+  updateSync()}
+document.addEventListener("click",e=>{
+  const f=e.target.closest("[data-fs]");if(f){PREF.fs=f.dataset.fs;savePrefs();document.querySelectorAll("[data-fs]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.fs===PREF.fs)));return}
+  const t=e.target.closest("[data-theme-set]");if(t){PREF.theme=t.dataset.themeSet;savePrefs();document.querySelectorAll("[data-theme-set]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.themeSet===PREF.theme)));return}
+  if(e.target.closest("#bk2-exp")){const name="ent-atlas-progress-"+today()+".json",txt=JSON.stringify(ST);
+    if(window.Android&&Android.saveBackup){Android.saveBackup(name,txt);return}
+    const u=URL.createObjectURL(new Blob([txt],{type:"application/json"})),a=document.createElement("a");a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),4000);toast("Backup saved")}});
+document.addEventListener("change",async e=>{
+  if(e.target.matches("[data-pbar]")){PREF.pbar=e.target.checked;savePrefs();return}
+  if(e.target.id==="bk2-imp"&&e.target.files[0]){try{const d=JSON.parse(await e.target.files[0].text());if(typeof d!=="object"||!d.cards)throw 0;ST=Object.assign({},S0,d);save();toast("Progress restored");go("home")}catch(err){toast("That file isn't an ENT Atlas backup")}e.target.value=""}});
+
+
 /* ---------------- BOOT ---------------- */
 (function(){const h=(location.hash||"").slice(1);
-go(["home","atlas","figures","cards","drill","tables","quiz","search","saved","tracer","order","mistakes"].includes(h)?h:/^(tracer|order)-/.test(h)?h.replace("-",":"):RMAP[h]?"region:"+h:"home")})();
+go(["home","atlas","study","more","figures","cards","drill","tables","quiz","search","saved","tracer","order","mistakes"].includes(h)?h:/^(tracer|order)-/.test(h)?h.replace("-",":"):RMAP[h]?"region:"+h:"home")})();
 </script>
 
 <script>
