@@ -1,6 +1,9 @@
-.gradle/
-build/
-app/build/
-local.properties
 *.iml
+.gradle/
 .idea/
+.wrangler/
+app/build/
+build/
+dist/
+local.properties
+node_modules/

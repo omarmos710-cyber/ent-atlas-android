@@ -1,0 +1,6 @@
+// Cloudflare: serve the ENT Atlas web app (built into ./dist) as static files.
+{
+  "name": "ent-atlas-android",
+  "compatibility_date": "2025-09-01",
+  "assets": { "directory": "./dist" }
+}
