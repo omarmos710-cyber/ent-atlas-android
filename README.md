@@ -9,3 +9,8 @@ Private: contains copyrighted handout figures for personal study only.
 - Web app: `app/src/main/assets/www/`
 - Android wrapper: `app/src/main/java/com/omar/entatlas/MainActivity.java`
 - Build: `.github/workflows/build.yml`
+
+## iPhone / web version (Cloudflare Pages)
+
+- Build command: `mkdir -p dist && cp -r app/src/main/assets/www/. dist/ && cp -r web/. dist/`
+- Build output directory: `dist`
