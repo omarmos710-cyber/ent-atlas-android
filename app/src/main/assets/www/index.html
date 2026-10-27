@@ -295,6 +295,7 @@ details.mist[open] summary{margin-bottom:8px}
 
 
 
+
 /* v9 layout */
 .card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px}
 .rtools{position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--toph,61px) + 46px);z-index:3;background:var(--bg);padding:6px 0}
@@ -3643,9 +3644,12 @@ document.addEventListener("click",async e=>{const b=e.target.closest("[data-pdf]
   const label=b.textContent;b.disabled=true;b.textContent="Preparing PDF…";
   if(window.Android){try{Android.openPdf(id,name)}catch(err){toast("Couldn't open the PDF")}b.disabled=false;b.textContent=label;return}
   try{const dl=window.claude&&window.claude.use?await window.claude.use("downloads"):null;
+    if(!dl){const href="pdf/"+id+".pdf",ios=/iP(hone|ad|od)/.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1);
+      if(ios){if(!window.open(href,"_blank"))location.href=href}
+      else{const a=document.createElement("a");a.href=href;a.download=name;a.rel="noopener";document.body.appendChild(a);a.click();a.remove();toast("PDF downloading")}
+      b.disabled=false;b.textContent=label;return}
     const res=await fetch("pdf/"+id+".pdf");if(!res.ok)throw new Error("fetch");const blob=await res.blob();
-    if(dl){await dl.save({filename:name,data:blob});toast("PDF saved")}
-    else{toast("Downloads aren't available in this view")}}
+    await dl.save({filename:name,data:blob});toast("PDF saved")}
   catch(err){const c=err&&err.code;toast(c==="declined"?"Download cancelled":c==="rate_limited"?"Another download is waiting for your answer":"Couldn't prepare the PDF. Try again in a moment.")}
   b.disabled=false;b.textContent=label});
 
