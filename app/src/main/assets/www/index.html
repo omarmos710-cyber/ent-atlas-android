@@ -192,7 +192,6 @@ mark{background:color-mix(in srgb,var(--nerve) 35%,transparent);color:inherit;bo
 .qsetup .actions{margin-top:16px}
 
 /* v3: tables, drills, diagrams */
-.tabs{grid-template-columns:repeat(6,1fr)}
 .tbl{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:12px 0;scroll-margin-top:80px}
 .tbl header{display:flex;align-items:flex-start;gap:10px}.tbl h3{font-size:16px;flex:1;padding-top:2px}
 .tscroll{overflow-x:auto;margin-top:8px}
@@ -291,6 +290,11 @@ details.mist[open] summary{margin-bottom:8px}
 .oresult{margin-top:6px}.ocorrect{margin:8px 0 0;padding-left:22px}
 
 
+
+
+
+
+
 /* v9 layout */
 .card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px}
 .rtools{position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--toph,61px) + 46px);z-index:3;background:var(--bg);padding:6px 0}
@@ -300,6 +304,7 @@ details.mist[open] summary{margin-bottom:8px}
 .mono{font:500 11px var(--f-mono);color:var(--muted)}
 .vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 .side .tab svg,.tabs .tab svg{flex-shrink:0}
+.tabs{grid-template-columns:repeat(5,minmax(0,1fr))}
 .tabs .tab{min-height:52px}
 /* reading size */
 html[data-fsz="s"] .sec li,html[data-fsz="s"] .pearl,html[data-fsz="s"] .disc{font-size:14px}
@@ -428,13 +433,42 @@ details.pdfs{margin-top:14px}details.pdfs summary{cursor:pointer;display:flex;fl
   .rtabs{margin:0 0 16px;padding:0}
 }
 @media (prefers-reduced-motion:reduce){.secfig .figs.carousel{scroll-behavior:auto}}
+/* touch targets */
+.star{min-width:40px;min-height:40px;margin:-6px -8px -6px 0;display:inline-grid;place-items:center}
+details.mynotes summary{min-height:40px;display:flex;align-items:center}
+.linkbtn{min-height:40px;display:inline-flex;align-items:center}
+.chip{min-height:36px}
+/* header */
+.top .brand{white-space:nowrap}
+@media (max-width:420px){.top .iconbtn{font-size:0;gap:0;width:40px;height:40px;padding:0;justify-content:center}.top .iconbtn svg{width:18px;height:18px}}
+/* study mode switch */
+.seg.studyseg{overflow-x:auto;scrollbar-width:none;margin:0 0 14px;padding-bottom:2px}
+.seg.studyseg::-webkit-scrollbar{display:none}
+.seg .chip{flex-shrink:0;white-space:nowrap;min-height:40px;padding:8px 14px;font-size:13px;opacity:1}
+.chip{white-space:nowrap}
+.chip[aria-pressed="false"]{opacity:1}
+/* tool tiles: icons aligned even when a label wraps */
+.tool{justify-content:flex-start;padding-top:18px}
+.tool span{line-height:1.25}
+/* three stats in one row */
+.stats:has(>.stat:nth-child(3):last-child){grid-template-columns:repeat(3,minmax(0,1fr))}
+.stats:has(>.stat:nth-child(3):last-child) .stat{padding:10px}
+.actions .btn{min-height:42px}
+.cmain .ctitle{font-size:15px;font-weight:600;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.3}
+.chip{min-width:40px;justify-content:center}
+/* only the reading view goes extra wide */
+@media (min-width:1180px){main{max-width:960px}main:has(.rbody){max-width:1240px}}
+.side .brand{white-space:nowrap;font-size:17px}
+:root[data-theme="dark"] .recommend{background:#1F2A31}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .recommend{background:#1F2A31}}
+.actions.two{display:grid;grid-template-columns:1fr 1fr}.actions.two .btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;font-size:13.5px}
 
 /* end v9 */
 </style>
 
 <div class="app">
   <aside class="side" id="side">
-    <div class="brand"><span class="mark">H&amp;N</span>ENT Anatomy Atlas</div>
+    <div class="brand"><span class="mark">H&amp;N</span>ENT Atlas</div>
   </aside>
   <div style="min-width:0">
     <header class="top">
@@ -3841,7 +3875,7 @@ const ICON={
  figures:'<rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-9 9"/>',
  more:'<circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/>',
  tables:'<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M3 15h18M10 4v16"/>',
- tracer:'<path d="M4 19c4 0 3-6 7-6s3 6 7 6M4 5c4 0 3 6 7 6s3-6 7-6"/>',
+ tracer:'<path d="M5 19c1-6 5-7 7-4s6 2 7-6"/><circle cx="5" cy="19" r="1.8"/><circle cx="19" cy="9" r="1.8"/>',
  quiz:'<circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14M12 17.5v.01"/>',
  drill:'<rect x="3" y="4" width="18" height="16" rx="2"/><rect x="7" y="8" width="6" height="3" rx="1"/><rect x="11" y="14" width="6" height="3" rx="1"/>',
  order:'<path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/>',
@@ -3904,7 +3938,7 @@ vHome=function(){const t=todayCounts(),s=continueSec(),r=s&&RMAP[s.r],st=r&&regi
   <section class="today"><div class="trow"><span class="eyebrow">Today's review</span><span class="mono">${t.mins?`≈ ${t.mins} min`:"all caught up"}</span></div>
    <div class="tstats"><div><b>${t.due}</b><span>cards due</span></div><div><b>${t.dd}</b><span>drill figures</span></div><div><b>${t.mc}</b><span>mistakes</span></div></div>
    <button class="tgo" data-today>${t.due||t.dd||t.mc?"Start today's session":`Learn new cards (${t.fresh})`}</button></section>
-  ${s?`<button class="cont" data-go="region:${s.r}" data-sec="${s.id}">${fig?`<img src="${figSrc(fig)}" alt="" loading="lazy">`:""}<span class="cmain"><span class="eyebrow">Continue reading</span><strong>${esc(r.name)} · ${esc(s.t)}</strong><span class="pbar"><i style="width:${st.pct}%"></i></span></span>${ic("chev",18)}</button>`:""}
+  ${s?`<button class="cont" data-go="region:${s.r}" data-sec="${s.id}">${fig?`<img src="${figSrc(fig)}" alt="" loading="lazy">`:""}<span class="cmain"><span class="eyebrow">Continue · ${esc(r.name)}</span><span class="ctitle">${esc(s.t)}</span><span class="pbar"><i style="width:${st.pct}%"></i></span></span>${ic("chev",18)}</button>`:""}
   <div class="h2row"><h2>Tools</h2></div>
   <div class="tools">${tool("cards","Flashcards","study")}${tool("drill","Label drills","drill")}${tool("quiz","Quiz","quiz")}${tool("tracer","Tracer","tracer","","nerve")}${tool("order","Build the order","order","","vein")}${tool("mistakes","Mistakes","mistakes",t.mc)}</div>
   <div class="h2row"><h2>Regions</h2><span class="eyebrow">${REGIONS.length} · ${GROUPS.length} groups</span></div>
@@ -3912,7 +3946,7 @@ vHome=function(){const t=todayCounts(),s=continueSec(),r=s&&RMAP[s.r],st=r&&regi
 document.addEventListener("click",e=>{if(e.target.closest("[data-today]")){e.preventDefault();startToday()}});
 
 vAtlas=function(){V().innerHTML=`<div class="hero"><span class="eyebrow">Atlas</span><h1>Regions</h1><p class="lede">Notes, figures, practice and tables for each region of the head and neck.</p></div>
-  <div class="actions"><button class="btn" data-go="tracer">${ic("tracer",18)} Nerve &amp; vessel tracer</button><button class="btn" data-go="tables">${ic("tables",18)} Tables &amp; mnemonics</button></div>
+  <div class="actions two"><button class="btn" data-go="tracer">${ic("tracer",18)} Nerve &amp; vessel tracer</button><button class="btn" data-go="tables">${ic("tables",18)} Tables &amp; mnemonics</button></div>
   <div id="regionsBlock">${regionsBlock()}</div>`};
 
 /* ---------- REGION: tabs ---------- */
@@ -4013,6 +4047,14 @@ document.addEventListener("click",e=>{
 document.addEventListener("change",async e=>{
   if(e.target.matches("[data-pbar]")){PREF.pbar=e.target.checked;savePrefs();return}
   if(e.target.id==="bk2-imp"&&e.target.files[0]){try{const d=JSON.parse(await e.target.files[0].text());if(typeof d!=="object"||!d.cards)throw 0;ST=Object.assign({},S0,d);save();toast("Progress restored");go("home")}catch(err){toast("That file isn't an ENT Atlas backup")}e.target.value=""}});
+
+/* drill figure: never taller than the screen */
+function fitDrill(){const w=$(".dwrap"),im=w&&w.querySelector(".dstage img");if(!im)return;
+  const f=()=>{if(!im.naturalWidth)return;const ar=im.naturalWidth/im.naturalHeight,top=$(".top"),avail=innerHeight-(top?top.offsetHeight:0)-(innerWidth<960?150:120);
+    w.style.maxWidth=Math.max(260,Math.round(Math.max(220,avail)*ar)+18)+"px";w.style.marginInline="auto";if(w._pz){w._pz.clamp();w._pz.apply()}};
+  if(im.complete)f();else im.addEventListener("load",f,{once:true})}
+const _vDrill5=vDrill;vDrill=function(){_vDrill5.apply(this,arguments);fitDrill()};
+window.addEventListener("resize",()=>{if(cur.startsWith("drill"))fitDrill()});
 
 
 /* ---------------- BOOT ---------------- */
