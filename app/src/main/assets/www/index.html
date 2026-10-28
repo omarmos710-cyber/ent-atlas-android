@@ -321,6 +321,11 @@ details.mist[open] summary{margin-bottom:8px}
 
 
 
+
+
+
+
+
 /* v9 layout */
 .card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px}
 .rtools{position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--toph,61px) + 46px);z-index:3;background:var(--bg);padding:6px 0}
@@ -1020,6 +1025,81 @@ html[data-fsz="s"] .qtext{font-size:20px}html[data-fsz="l"] .qtext{font-size:26p
 .opts .opt::before{counter-increment:opt;content:counter(opt,upper-alpha);width:30px;height:30px;border-radius:50%;border:1px solid var(--line);flex-shrink:0;display:flex;align-items:center;justify-content:center;font:italic 400 15px var(--f-display);color:var(--muted)}
 .opts .opt.ok::before{content:"\2713";font:700 14px var(--f-body);background:var(--ok);border-color:var(--ok);color:var(--surface);animation:qPop .45s cubic-bezier(.34,1.56,.64,1)}
 .opts .opt.bad::before{content:"\2715";font:700 13px var(--f-body);background:var(--bad);border-color:var(--bad);color:var(--surface);animation:qPop .45s cubic-bezier(.34,1.56,.64,1)}
+
+/* ===== v13.3 final pass: atlas spacing, region header, notes as the sample ===== */
+#regionsBlock{display:flex;flex-direction:column;gap:34px;margin-top:6px}
+#regionsBlock>section{display:flex;flex-direction:column;gap:2px}
+.tbody>section{display:flex;flex-direction:column;gap:2px}
+.lh{margin-bottom:2px!important;padding-top:2px}
+.rhead{align-items:flex-start!important;gap:14px!important;margin-bottom:18px!important}
+.rhead .back{margin-top:4px}
+.rhead .rt{gap:6px!important}
+.rsub{margin:6px 0 0!important;font-size:16px!important;line-height:1.55!important;max-width:60ch}
+.rtabs{margin-bottom:6px!important}
+.rtools{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:8px 0 6px}
+.rtools .secsel,.rtools label[for="secsel"]{display:none!important}
+.allsec{font:700 11px/1 var(--f-body)!important;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);background:none;border:0;padding:12px 0;min-height:44px}
+.rtools .aa{border-radius:50%!important;width:40px;height:40px;padding:0!important;font:500 16px var(--f-display)!important}
+.rprog{height:2px!important;background:var(--line)!important;margin:0 0 6px!important;border-radius:0!important}
+.rprog i{background:var(--accent)!important}
+.rbody>.sec.acc2{padding:0!important;border-top:1px solid var(--line)!important}
+.rbody>.sec.acc2:last-of-type{border-bottom:1px solid var(--line)!important}
+.acc2>header{display:flex!important;align-items:center!important;gap:10px;min-height:66px;padding:16px 2px;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:background-color .25s}
+.acc2>header:active{background:var(--soft)}
+.acc2>header h3{flex:1;font:500 20px/1.25 var(--f-display)!important;margin:0;padding:0!important}
+.rbody>.sec.acc2>header h3::before{font-size:15px;color:var(--muted);transition:color .3s}
+.rbody>.sec.acc2.open>header h3::before{color:var(--accent)}
+.acc2>header .kind{width:auto!important;order:-1}
+.acc2>header .star{flex-shrink:0}
+.pm2{position:relative;width:14px;height:14px;flex-shrink:0;margin:0 4px 0 6px}
+.pm2::before,.pm2::after{content:"";position:absolute;left:0;right:0;top:6.25px;height:1.5px;background:var(--muted);transition:transform .45s var(--ease-ios)}
+.pm2::after{transform:rotate(90deg)}
+.acc2.open .pm2::after{transform:rotate(0)}
+.secb{overflow:hidden;padding:0 2px 26px 32px}
+.sec.theatre .secb,.sec.imaging .secb{padding-left:2px}
+.secb>ul{list-style:none;padding:0!important;margin:4px 0 0!important;max-width:64ch;display:flex;flex-direction:column;gap:12px}
+.secb>ul>li{padding:0!important;margin:0!important}
+.secb>ul>li::marker{content:none}
+.secb b.lnk{border-bottom:0!important;text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--accent) 40%,transparent);text-underline-offset:3px;text-decoration-thickness:1.5px}
+/* figures: a swipeable row, captions numbered like the sample */
+.rbody>.sec{counter-reset:fig}
+.secb .secfig{margin:6px -2px 18px -32px;padding:0}
+.secb .figs.carousel{display:grid!important;grid-auto-flow:column;grid-auto-columns:84%;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:0 18px 4px 32px;scroll-padding-left:32px;scrollbar-width:none}
+.secb .figs.carousel::-webkit-scrollbar{display:none}
+.secb .figs.carousel .fig{scroll-snap-align:start;border:0!important;background:none!important;padding:0!important;display:flex;flex-direction:column;gap:8px;counter-increment:fig;width:auto!important;min-width:0}
+.secb .figs.carousel .fig img{width:100%;height:172px!important;object-fit:contain;background:#fff;border:1px solid var(--line);border-radius:10px;padding:4px}
+.secb .figs.carousel .fig .cap{font:500 12.5px/1.45 var(--f-body)!important;color:var(--muted);padding:0 2px!important;background:none!important}
+.secb .figs.carousel .fig .cap::before{content:"Figure " counter(sec) "." counter(fig) "  ";font-weight:800;color:var(--ink);white-space:pre}
+.secb .figs.carousel .fig .cap small{display:block;font-size:11px;opacity:.8}
+.secb .fnav{display:none!important}
+@media (min-width:700px){.secb .figs.carousel{grid-auto-columns:46%}}
+/* region practice/imaging lists as hairlines too */
+.prows{background:none!important;border:0!important;border-radius:0!important;border-top:1px solid var(--line)!important}
+.prow{background:none!important;padding:10px 2px!important}
+.prow .pt strong{font:500 18px/1.25 var(--f-display)!important}
+.rbody .card,.rbody .pstats{border-radius:16px}
+.secb .figs.carousel{grid-template-columns:none!important;flex-wrap:nowrap}
+.secb .figs.carousel .fig{flex:none!important;max-width:none!important}
+.acc2>header h3{display:flex;align-items:baseline}
+.rbody>.sec.acc2>header h3::before{flex-shrink:0;min-width:18px!important;margin-right:14px}
+.rbody>.sec.acc2:first-of-type{border-top:0!important}
+
+/* ===== v13.3 lists everywhere as hairline rows, figures as plates with captions beneath ===== */
+.decks{display:flex;flex-direction:column;gap:0!important;border-top:1px solid var(--line)}
+.deckrow{background:none!important;border:0!important;border-bottom:1px solid var(--line)!important;border-radius:0!important;padding:14px 2px!important;margin:0!important}
+.deckrow strong{font:500 18px/1.25 var(--f-display)!important}
+.deckrow .btn{min-height:38px;border-radius:19px;padding:0 16px;font-size:11px;letter-spacing:.12em;text-transform:uppercase}
+.trlist,.simlist{display:flex;flex-direction:column;gap:0!important;border-top:1px solid var(--line)}
+.trcard,.simcard{background:none!important;border:0!important;border-bottom:1px solid var(--line)!important;border-radius:0!important;padding:16px 2px!important;margin:0!important;box-shadow:none!important}
+.trcard strong,.simcard strong,.simcard b{font:500 19px/1.25 var(--f-display)!important}
+.trcard:active,.simcard:active{background:var(--soft)!important;transform:none}
+.figs:not(.carousel){gap:18px 14px!important}
+.figs:not(.carousel) .fig,.gallery .fig{background:none!important;border:0!important;border-radius:0!important;padding:0!important;display:flex;flex-direction:column;gap:8px;box-shadow:none!important}
+.figs:not(.carousel) .fig img,.gallery .fig img{background:#fff;border:1px solid var(--line);border-radius:10px;padding:4px;aspect-ratio:4/3;object-fit:contain;width:100%;height:auto!important}
+.figs:not(.carousel) .fig .cap,.gallery .fig .cap{font:500 12.5px/1.45 var(--f-body)!important;color:var(--ink);padding:0 2px!important;background:none!important}
+.figs:not(.carousel) .fig .cap small,.gallery .fig .cap small{color:var(--muted);font-size:11px;display:block}
+.figs:not(.carousel) .fig:hover img{border-color:var(--ink)}
+.card.csec,.howto .card,.rbody>.card{border-radius:16px}
 
 /* end v9 */
 </style>
@@ -5817,6 +5897,46 @@ document.addEventListener("click",e=>{const b=e.target.closest("[data-ctab]");if
   if(!matchMedia("(prefers-reduced-motion: reduce)").matches){wrap.animate([{height:h0+"px"},{height:h1+"px"}],{duration:380,easing:"cubic-bezier(.32,.72,0,1)"});
     panes[i].animate([{opacity:0,transform:`translateX(${i>old?24:-24}px)`},{opacity:1,transform:"none"}],{duration:380,easing:"cubic-bezier(.22,1,.36,1)"})}
   if(window.knobs)window.knobs()});
+})();
+
+/* ---------------- v13.3: region header and notes as the sample's numbered, collapsible sections ---------------- */
+(function(){
+const RM=matchMedia("(prefers-reduced-motion: reduce)").matches;
+const OPEN={};   /* section id -> open, kept for this session */
+const IOSE="cubic-bezier(.32,.72,0,1)",OUTE="cubic-bezier(.22,1,.36,1)";
+function setOpen(sec,on,anim){const b=sec.querySelector(":scope>.secb"),h=sec.querySelector(":scope>header");if(!b)return;
+  OPEN[sec.id]=on;sec.classList.toggle("open",on);h.setAttribute("aria-expanded",String(on));
+  if(!anim||RM){b.hidden=!on;return}
+  if(on){b.hidden=false;const H=b.scrollHeight;b.animate([{height:"0px",opacity:0},{height:H+"px",opacity:1}],{duration:520,easing:IOSE});
+    [...b.children].slice(0,6).forEach((el,i)=>el.animate([{opacity:0,transform:"translateY(8px)"},{opacity:1,transform:"none"}],{duration:460,delay:70+i*45,easing:OUTE,fill:"backwards"}))}
+  else{const H=b.scrollHeight;b.animate([{height:H+"px",opacity:1},{height:"0px",opacity:0}],{duration:380,easing:IOSE}).onfinish=()=>{if(!sec.classList.contains("open"))b.hidden=true}}}
+window.openSection=id=>{const s=document.getElementById(id);if(s&&s.classList.contains("acc2")&&!s.classList.contains("open"))setOpen(s,true,false)};
+const _vRegion13=vRegion;
+vRegion=function(id,opt){_vRegion13.apply(this,arguments);const v=V(),r=RMAP[id];if(!r)return;
+  /* header: blurb under the title, progress folded into the eyebrow */
+  const rh=v.querySelector(".rhead"),rt=rh&&rh.querySelector(".rt"),ring=rh&&rh.querySelector("svg.ring");
+  if(rt){const st=regionStats(r),eb=rt.querySelector(".eyebrow");if(eb)eb.textContent=`${r.g||""} · ${r.sections.length} sections · ${st.pct}%`;
+    if(ring)ring.remove();const bl=v.querySelector(".rblurb");if(bl){bl.classList.add("rsub");rt.appendChild(bl)}
+    else if(r.blurb&&!rt.querySelector(".rsub")){const p=document.createElement("p");p.className="lede rsub";p.textContent=r.blurb;rt.appendChild(p)}}
+  if(RTAB!=="notes")return;
+  const secs=[...v.querySelectorAll(".rbody>.sec")];if(!secs.length)return;
+  const target=opt&&opt.sec;
+  const firstUnread=(secs.find(s=>!ST.read[s.id])||secs[0]).id;
+  const anyOpen=secs.some(s=>OPEN[s.id]);
+  secs.forEach(sec=>{const h=sec.querySelector(":scope>header");if(!h)return;sec.classList.add("acc2");
+    const b=document.createElement("div");b.className="secb";[...sec.children].filter(c=>c!==h).forEach(c=>b.appendChild(c));sec.appendChild(b);
+    h.setAttribute("role","button");h.setAttribute("tabindex","0");
+    if(!h.querySelector(".pm2")){const pm=document.createElement("span");pm.className="pm2";pm.setAttribute("aria-hidden","true");h.appendChild(pm)}
+    const on=sec.id===target||(OPEN[sec.id]===true)||(!anyOpen&&!target&&sec.id===firstUnread);
+    setOpen(sec,on,false)});
+  /* tools row: open/close all beside text size; the section list itself is the contents */
+  const tools=v.querySelector(".rtools");if(tools&&!tools.querySelector("[data-allsec]")){const bt=document.createElement("button");bt.className="linkbtn allsec";bt.setAttribute("data-allsec","");
+    const sync=()=>{bt.textContent=secs.every(s=>s.classList.contains("open"))?"Close all sections":"Open all sections"};sync();tools.prepend(bt);
+    bt.onclick=()=>{const all=secs.every(s=>s.classList.contains("open"));secs.forEach(s=>setOpen(s,!all,false));sync()}}};
+document.addEventListener("click",e=>{const h=e.target.closest(".acc2>header");if(!h||e.target.closest("button,a,input,.star,b.lnk"))return;
+  const sec=h.parentElement;setOpen(sec,!sec.classList.contains("open"),true);const bt=document.querySelector("[data-allsec]");
+  if(bt){const all=[...document.querySelectorAll(".rbody>.acc2")].every(s=>s.classList.contains("open"));bt.textContent=all?"Close all sections":"Open all sections"}});
+document.addEventListener("keydown",e=>{if((e.key==="Enter"||e.key===" ")&&e.target.matches&&e.target.matches(".acc2>header")){e.preventDefault();e.target.click()}});
 })();
 
 
