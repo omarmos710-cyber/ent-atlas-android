@@ -310,6 +310,8 @@ details.mist[open] summary{margin-bottom:8px}
 
 
 
+
+
 /* v9 layout */
 .card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px}
 .rtools{position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--toph,61px) + 46px);z-index:3;background:var(--bg);padding:6px 0}
@@ -679,6 +681,36 @@ b.lnk:hover{color:var(--accent)}
 .svticks button{height:36px}
 .spothead .linkbtn{padding:0 8px;min-width:44px;justify-content:center}
 .csec summary{min-height:40px;display:flex;align-items:center}
+/* v12 motion */
+@keyframes pgFwd{from{opacity:0;transform:translateX(22px)}to{opacity:1;transform:none}}
+@keyframes pgBack{from{opacity:0;transform:translateX(-22px)}to{opacity:1;transform:none}}
+@keyframes pgTab{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes pgSoft{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+@keyframes lbIn{from{opacity:0}to{opacity:1}}
+@keyframes lbImg{from{opacity:0;transform:scale(.94)}to{opacity:1;transform:none}}
+@keyframes lbOut{to{opacity:0}}
+@keyframes shIn{from{transform:translateY(40px);opacity:.4}to{transform:none;opacity:1}}
+@keyframes bgIn{from{background:rgba(10,15,19,0)}}
+@keyframes tabPop{0%{transform:scale(1)}40%{transform:scale(1.18)}100%{transform:scale(1)}}
+#view.pg-fwd{animation:pgFwd .26s cubic-bezier(.2,.8,.2,1)}
+#view.pg-back{animation:pgBack .26s cubic-bezier(.2,.8,.2,1)}
+#view.pg-tab{animation:pgTab .24s cubic-bezier(.2,.8,.2,1)}
+.rbody.pg-soft{animation:pgSoft .22s ease-out}
+#view{will-change:auto}
+.lb{animation:lbIn .18s ease-out}
+.lb .pzstage img{animation:lbImg .24s cubic-bezier(.2,.8,.2,1)}
+.lb.lb-out,.sheetbg.sh-out{animation:lbOut .16s ease-in forwards;pointer-events:none}
+.sheetbg{animation:bgIn .2s ease-out}
+.sheet{animation:shIn .26s cubic-bezier(.2,.8,.2,1)}
+.sheetbg.sh-out .sheet{transition:transform .16s ease-in;transform:translateY(30px)}
+.tab[aria-current="true"] svg{animation:tabPop .3s ease-out}
+.tab svg{transition:transform .15s}
+.tab:active svg{transform:scale(.9)}
+button.btn,.tile,.ccard,.sercard,.fig,.chip{transition:transform .12s ease,background-color .15s,border-color .15s,box-shadow .15s}
+button.btn:active,.tile:active,.ccard:active,.sercard:active,.fig:active,.chip:active{transform:scale(.97)}
+.opts button{transition:transform .12s,background-color .2s,border-color .2s}
+html{scroll-behavior:auto}
+@media (prefers-reduced-motion:reduce){#view,.rbody,.lb,.sheet,.sheetbg,.tab svg{animation:none!important}}
 
 /* end v9 */
 </style>
@@ -5120,6 +5152,73 @@ vRegion=function(id,opt){_vRegion7b.apply(this,arguments);if(RTAB!=="practice")r
   if(id==="trigeminal")pr.insertAdjacentHTML("beforeend",`<button class="prow" data-go="facemap"><span class="pn c2">${ic("spot",20)}</span><span class="pt"><strong>Face map quiz</strong><small>Tap the skin each branch supplies</small></span>${ic("chev",18)}</button><button class="prow" data-go="tracer:trig" data-lesgo="trig"><span class="pn c1">${ic("lesion",20)}</span><span class="pt"><strong>Trigeminal lesion simulator</strong><small>Brainstem, CPA, ganglion, cavernous sinus, foramina</small></span>${ic("chev",18)}</button>`);
   if(regionHasImaging(id))pr.insertAdjacentHTML("beforeend",`<button class="prow" data-spot="${id}"><span class="pn c2">${ic("spot",20)}</span><span class="pt"><strong>Spot diagnosis and scan anatomy</strong><small>${regConds(id).length} conditions · ${regSeries(id).reduce((a,s)=>a+s.slices.length,0)} normal images</small></span>${ic("chev",18)}</button>`)};
 document.addEventListener("click",e=>{const b=e.target.closest("[data-lesgo]");if(b){TRTABID="trig";TRTAB="les";SIMSITE=null}},true);
+
+/* ---------------- v12: page transitions + smart back ---------------- */
+(function(){
+const ROOTS=["home","atlas","study","imaging","more"];
+const RM=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
+let NAVSTACK=[],NAVDIR=null,BACKING=false,lastExitTry=0;
+const routeOf=v=>(v||"home");
+/* animate the page that just rendered */
+function animView(dir){const el=$("#view");if(!el||RM)return;el.classList.remove("pg-fwd","pg-back","pg-tab");void el.offsetWidth;el.classList.add("pg-"+dir);
+  clearTimeout(el._pgt);el._pgt=setTimeout(()=>el.classList.remove("pg-"+dir),400)}
+window.animView=animView;
+const _go8=go;
+go=function(v,opt){const from=cur,base=v.split(":")[0],fromBase=(from||"").split(":")[0];
+  if(opt&&opt.keep&&!opt.back)return _go8(v,opt);
+  let dir,pushed=false;
+  if(opt&&opt.back)dir="back";
+  else if(ROOTS.includes(base)&&ROOTS.includes(fromBase)&&base!==fromBase){dir="tab";NAVSTACK=base==="home"?[]:[{v:"home",y:0}]}
+  else if(ROOTS.includes(base)&&v!==from&&!(opt&&opt.sec)){dir="tab";NAVSTACK=base==="home"?[]:[{v:"home",y:0}]}
+  else{dir="fwd";
+    if(v!==from){NAVSTACK.push({v:from,y:window.scrollY});pushed=true}
+    else if(((base==="quiz"&&QZ)||(base==="drill"&&DR))&&!(NAVSTACK.length&&NAVSTACK[NAVSTACK.length-1].menu===base)){NAVSTACK.push({v:from,y:0,menu:base});pushed=true}
+    if(NAVSTACK.length>60)NAVSTACK.splice(0,NAVSTACK.length-60)}
+  const r=_go8(v,opt);if(v!==from||pushed)animView(dir);return r};
+
+/* fade overlays out instead of vanishing */
+const _drawLB8=drawLB;
+drawLB=function(){const el=$("#lb");if(!LB&&el&&!RM){el.id="lb-closing";el.classList.add("lb-out");setTimeout(()=>el.remove(),170);
+    document.body.style.overflow=$("#sheet")?"hidden":"";PZLB=null;return}return _drawLB8.apply(this,arguments)};
+const _closeSheet8=closeSheet;
+closeSheet=function(){const s=$("#sheet");if(s&&!RM){s.id="sheet-closing";s.classList.add("sh-out");setTimeout(()=>s.remove(),170);if(!LB)document.body.style.overflow="";return}return _closeSheet8.apply(this,arguments)};
+
+/* the one place that decides what Back does; returns true if it handled it */
+function smartBack(){
+  if(LB){LB=null;drawLB();return true}
+  if($("#sheet")){closeSheet();return true}
+  const m=[...document.querySelectorAll("[aria-modal='true']")].find(x=>!x.closest("#lb-closing,#sheet-closing"));if(m){const bg=m.closest(".sheetbg,.lb,.modal")||m;bg.remove();document.body.style.overflow="";return true}
+  const side=$("#side");if(side&&side.classList.contains("open")){side.classList.remove("open");return true}
+  while(NAVSTACK.length){const e=NAVSTACK.pop();
+    if(e.menu&&((e.menu==="quiz"&&!QZ)||(e.menu==="drill"&&!DR)||cur.split(":")[0]!==e.menu))continue;
+    if(e.menu){if(e.menu==="quiz")QZ=null;if(e.menu==="drill")DR=null;go(e.v,{back:1});return true}
+    if(e.v===cur)continue;
+    go(e.v,{back:1});const y=e.y||0;requestAnimationFrame(()=>window.scrollTo(0,y));setTimeout(()=>window.scrollTo(0,y),120);return true}
+  if(cur!=="home"){go("home",{back:1});return true}
+  return false}
+window.smartBack=smartBack;
+
+/* Android hardware/gesture back */
+window.androidBack=function(){if(smartBack())return 1;const t=Date.now();
+  if(t-lastExitTry<2200)return 0;lastExitTry=t;if(typeof toast==="function")toast("Press back again to exit");return 1};
+
+/* Browser / phone back button on the website and artifact: keep one guard entry in history */
+let armed=false;
+function arm(){try{if(!armed){history.pushState({entg:1},"",location.href);armed=true}}catch(e){}}
+window.addEventListener("popstate",()=>{if(!armed)return;armed=false;
+  if(smartBack())arm();else{try{history.back()}catch(e){}}});
+const startArm=()=>{arm();document.removeEventListener("pointerdown",startArm,true);document.removeEventListener("keydown",startArm,true)};
+/* browsers only honour history entries made after a user gesture */
+document.addEventListener("pointerdown",startArm,true);document.addEventListener("keydown",startArm,true);
+/* on-screen back arrows retrace the real path when there is one */
+document.addEventListener("click",e=>{const b=e.target.closest("#view button.back");if(!b||!NAVSTACK.length)return;
+  const top=NAVSTACK[NAVSTACK.length-1];if(top.v==="home"&&NAVSTACK.length===1&&b.dataset.go&&b.dataset.go!=="home")return;
+  e.preventDefault();e.stopImmediatePropagation();smartBack()},true);
+
+/* region sub-tabs and segmented panels: soft fade of the new content */
+document.addEventListener("click",e=>{const t=e.target.closest("[data-rtab],[data-rimg]");if(!t||RM)return;
+  setTimeout(()=>{const b=document.querySelector("#view .rbody");if(b){b.classList.remove("pg-soft");void b.offsetWidth;b.classList.add("pg-soft")}},0)});
+})();
 
 
 /* ---------------- BOOT ---------------- */
