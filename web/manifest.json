@@ -4,8 +4,8 @@
  "start_url": "./",
  "scope": "./",
  "display": "standalone",
- "background_color": "#F2F4F5",
- "theme_color": "#B3202D",
+ "background_color": "#F3F3EF",
+ "theme_color": "#151922",
  "description": "ENT head and neck anatomy for residents. Works offline.",
  "icons": [
   {
