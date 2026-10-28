@@ -326,6 +326,11 @@ details.mist[open] summary{margin-bottom:8px}
 
 
 
+
+
+
+
+
 /* v9 layout */
 .card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px}
 .rtools{position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--toph,61px) + 46px);z-index:3;background:var(--bg);padding:6px 0}
@@ -1100,6 +1105,43 @@ html[data-fsz="s"] .qtext{font-size:20px}html[data-fsz="l"] .qtext{font-size:26p
 .figs:not(.carousel) .fig .cap small,.gallery .fig .cap small{color:var(--muted);font-size:11px;display:block}
 .figs:not(.carousel) .fig:hover img{border-color:var(--ink)}
 .card.csec,.howto .card,.rbody>.card{border-radius:16px}
+
+/* ===== v13.4: calm pages ===== */
+[data-fo]{display:none!important}
+.morebtn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;min-height:50px;margin:14px 0 4px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink);font:800 11px/1 var(--f-body);letter-spacing:.14em;text-transform:uppercase;transition:border-color .25s,background-color .25s}
+.morebtn small{font:500 12px var(--f-body);letter-spacing:0;text-transform:none;color:var(--muted)}
+.morebtn svg{color:var(--accent);transition:transform .45s var(--ease-ios)}
+.morebtn.open svg{transform:rotate(180deg)}
+.morebtn:hover{border-color:var(--ink)}
+.morebtn:active{background:var(--soft)}
+.resrun{display:flex;flex-direction:column}
+section.tbl.coll{border-radius:0!important;border:0!important;border-top:1px solid var(--line)!important;background:none!important;padding:0!important;margin:0!important}
+section.tbl.coll:last-of-type{border-bottom:1px solid var(--line)!important}
+.coll>.chead{display:flex!important;align-items:center;gap:10px;min-height:62px;padding:14px 2px!important;cursor:pointer;background:none!important;border:0!important;-webkit-tap-highlight-color:transparent;transition:background-color .25s}
+.coll>.chead:active{background:var(--soft)!important}
+.coll>.chead h3,.coll>.chead h2{flex:1;margin:0!important;font:500 19px/1.25 var(--f-display)!important}
+.cmeta{font:600 11.5px var(--f-body);color:var(--muted);white-space:nowrap}
+.coll>.cbody{overflow:hidden;padding:0 2px 18px}
+.coll .tscroll{border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.coll.open .pm2::after{transform:rotate(0)}
+section.card.csec.coll{padding:0 16px!important}
+section.card.csec.coll>.chead{padding:12px 0!important}
+.chhd{display:flex;align-items:center}
+/* explore tiles: picture above, words below on the tile's own ground (never over the picture) */
+.xtile{display:flex!important;flex-direction:column;height:auto!important;min-height:0;background:var(--surface)!important}
+.xtile img{position:static!important;flex:none;width:100%;height:100px!important;border-bottom:1px solid var(--line)}
+.xtile>span{position:static!important;padding:11px 13px 13px;background:var(--surface);color:var(--ink)}
+.xtile b{color:var(--ink)}
+.today .eyebrow,.recommend .eyebrow,.today .mono{color:#C9A46A!important}
+.tblrun{display:flex;flex-direction:column}
+.tblrun>section.tbl.coll:last-child{border-bottom:1px solid var(--line)!important}
+/* imaging areas: one calm swipe row per group */
+.areagrid{display:grid!important;grid-template-columns:none!important;grid-auto-flow:column;grid-auto-columns:44%;gap:12px!important;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:4px;margin-right:-16px;padding-right:16px}
+.areagrid::-webkit-scrollbar{display:none}
+.areagrid>.area{scroll-snap-align:start}
+@media (min-width:700px){.areagrid{grid-auto-columns:30%}}
+@media (min-width:960px){.areagrid{grid-auto-columns:23%;margin-right:0;padding-right:0}}
+.cgroup{margin-top:18px!important}
 
 /* end v9 */
 </style>
@@ -5778,13 +5820,18 @@ vHome=function(){const t=todayCounts(),s=continueSec(),r=s&&RMAP[s.r],st=r&&regi
   const fig=s&&((s.f||[]).find(k=>FIG[k])||regionFigs(s.r)[0]);
   const date=new Date().toLocaleDateString(undefined,{weekday:"long",day:"numeric",month:"long"}),sk=streak();
   const idx=s&&r?r.sections.indexOf(s)+1:0;
-  const plan=[];
-  if(t.due||t.dd||t.mc)plan.push(row('data-today',"study","Today's review",`${[t.due&&t.due+" cards",t.dd&&t.dd+" drill figures",t.mc&&t.mc+" mistakes"].filter(Boolean).join(" · ")}`,`<span class="lval">≈ ${t.mins} min</span>`));
-  else plan.push(row('data-today',"study","Learn new cards",`${t.fresh} cards waiting`,""));
-  plan.push(row('data-go="drill"',"drill","Label drills",`${DRILLKEYS.length} figures${t.dd?` · ${t.dd} due`:""}`,""));
-  plan.push(row('data-go="spot"',"spot","Spot diagnosis",typeof CONDS!=="undefined"?`${CONDS.length} conditions with scans`:"Name it from the scan",""));
-  if(RMAP.trigeminal)plan.push(row('data-go="region:trigeminal"',"tracer","Trigeminal nerve","Notes, course maps and lesion simulator",`<span class="lbadge">New</span>`));
-  if(t.mc)plan.push(row('data-go="mistakes"',"mistakes","My mistakes",`${t.mc} to redo`,""));
+  /* Your plan: up to four steps chosen from your own progress */
+  const plan=[],reg=(s&&s.r)||ST.lastReg||REGIONS[0].id,rn=RMAP[reg]?RMAP[reg].name:"";
+  const dk=r=>DRILLKEYS.filter(k=>FIG[k]&&FIG[k][3]===r).length;
+  if(t.due||t.dd||t.mc)plan.push(row('data-today',"study","Today's review",[t.due&&`${t.due} card${t.due>1?"s":""}`,t.dd&&`${t.dd} drill figure${t.dd>1?"s":""}`,t.mc&&`${t.mc} mistake${t.mc>1?"s":""}`].filter(Boolean).join(" · "),`<span class="lval">≈ ${t.mins} min</span>`));
+  else{const nr=CARDS.filter(c=>c.r===reg&&isNew(c)).length;
+    plan.push(nr?row(`data-deck="${reg}" data-mode="new"`,"study","New flashcards",`${nr} unseen · ${esc(rn)}`,""):row('data-today',"study","Learn new cards",`${t.fresh} cards waiting`,""))}
+  const weak=REGIONS.map(r=>({r,a:regionAcc(r.id)})).filter(x=>x.a&&x.a.n>=3&&x.a.pct<75).sort((a,b)=>a.a.pct-b.a.pct)[0];
+  if(weak)plan.push(row(`data-qregion="${weak.r.id}"`,"quiz","Strengthen a weak area",`${esc(weak.r.name)} · quiz average ${weak.a.pct}%`,""));
+  else{const nq=QUIZ.filter(q=>q.r===reg).length;plan.push(row(`data-qregion="${nq>=3?reg:"all"}"`,"quiz","Quick quiz",nq>=3?`${Math.min(QLEN,nq)} questions · ${esc(rn)}`:`${QLEN} questions from every region`,""))}
+  if(dk(reg))plan.push(row(`data-drill="${reg}"`,"drill","Label drill",`${dk(reg)} figures · ${esc(rn)}`,""));
+  if(typeof regionHasImaging==="function"&&typeof CONDS!=="undefined"){const ir=regionHasImaging(reg)?reg:"all";
+    plan.push(row(`data-spot="${ir}" data-mode="dx"`,"spot","Spot diagnosis",ir==="all"?"10 scans from every region":`10 scans · ${esc(rn)}`,""))}
   const tile=(go,img,dark,title,sub)=>`<button class="xtile ${dark?"dark":"light"}" data-go="${go}">${img?`<img src="${img}" alt="" loading="lazy" draggable="false">`:""}<span><b>${title}</b><small>${sub}</small></span></button>`;
   const scanK=typeof IMG!=="undefined"&&(IMG.bk2_5?"bk2_5":Object.keys(IMG)[0]);
   const atlasK=fk("s41_0","s44_5")||regionFigs("midear")[0];
@@ -5937,6 +5984,81 @@ document.addEventListener("click",e=>{const h=e.target.closest(".acc2>header");i
   const sec=h.parentElement;setOpen(sec,!sec.classList.contains("open"),true);const bt=document.querySelector("[data-allsec]");
   if(bt){const all=[...document.querySelectorAll(".rbody>.acc2")].every(s=>s.classList.contains("open"));bt.textContent=all?"Close all sections":"Open all sections"}});
 document.addEventListener("keydown",e=>{if((e.key==="Enter"||e.key===" ")&&e.target.matches&&e.target.matches(".acc2>header")){e.preventDefault();e.target.click()}});
+})();
+
+/* ---------------- v13.4: long pages fold themselves — "show all" for long lists, collapsible blocks for long tables and checklists ---------------- */
+(function(){
+const RM=matchMedia("(prefers-reduced-motion: reduce)").matches;
+const IOSE="cubic-bezier(.32,.72,0,1)",OUTE="cubic-bezier(.22,1,.36,1)";
+const DOWN=`<svg width="12" height="8" viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 1.5l5 5 5-5"/></svg>`;
+const OPENB={};   /* remembered open state of collapsible blocks, per session */
+
+function growTo(box,h0,done){if(RM){done&&done();return}const h1=box.offsetHeight;if(h0===h1){done&&done();return}
+  box.style.overflow="hidden";box.animate([{height:h0+"px"},{height:h1+"px"}],{duration:Math.min(620,300+Math.abs(h1-h0)*.25),easing:IOSE}).onfinish=()=>{box.style.overflow="";done&&done()}}
+
+/* show the first n items; the rest behind a "Show all" control (or in steps for very long lists) */
+function fold(box,items,n,noun,step,target){
+  if(!box||box.dataset.fold||items.length<=n+2)return;box.dataset.fold="1";
+  let shown=n;const total=items.length;
+  if(target){const ti=items.findIndex(x=>x.id===target||x.querySelector&&x.querySelector("#"+CSS.escape(target)));if(ti>=n)shown=total}
+  const btn=document.createElement("button");btn.className="morebtn";btn.type="button";
+  const paint=()=>{items.forEach((x,i)=>{if(i<shown)x.removeAttribute("data-fo");else x.setAttribute("data-fo","")});
+    const left=total-shown;btn.classList.toggle("open",left<=0);btn.setAttribute("aria-expanded",String(left<=0));
+    btn.innerHTML=left>0?`<span>${step&&left>step?`Show ${step} more`:`Show all ${total} ${noun}`}</span><small>${left} more</small>${DOWN}`:`<span>Show fewer</span>${DOWN}`};
+  paint();box.after(btn);
+  btn.onclick=()=>{const h0=box.offsetHeight,was=shown;
+    if(shown>=total){shown=n;paint();const r=box.getBoundingClientRect();growTo(box,h0);if(r.top<0)box.scrollIntoView({block:"start",behavior:RM?"auto":"smooth"});return}
+    shown=step?Math.min(total,shown+step):total;paint();
+    growTo(box,h0);if(!RM)items.slice(was,Math.min(shown,was+12)).forEach((x,i)=>x.animate([{opacity:0,transform:"translateY(10px)"},{opacity:1,transform:"none"}],{duration:420,delay:60+i*35,easing:OUTE,fill:"backwards"}))}}
+
+/* collapsible blocks: a header row that opens and closes its body */
+function collapsible(blocks,headOf,opts){
+  blocks.forEach((b,i)=>{if(b.dataset.coll)return;b.dataset.coll="1";const h=headOf(b);if(!h)return;
+    const key=(opts.key||"")+"|"+(b.id||i);
+    const body=document.createElement("div");body.className="cbody";[...b.children].filter(c=>c!==h).forEach(c=>body.appendChild(c));b.appendChild(body);
+    b.classList.add("coll");h.classList.add("chead");h.setAttribute("role","button");h.setAttribute("tabindex","0");
+    if(!h.querySelector(".pm2")){const pm=document.createElement("span");pm.className="pm2";pm.setAttribute("aria-hidden","true");h.appendChild(pm)}
+    if(opts.meta){const m=opts.meta(b);if(m&&!h.querySelector(".cmeta")){const s=document.createElement("small");s.className="cmeta";s.textContent=m;h.insertBefore(s,h.querySelector(".star,.pm2"))}}
+    const on=OPENB[key]!=null?OPENB[key]:(opts.target&&b.id===opts.target)||(opts.openFirst&&i===0);
+    set(b,on,false);b._key=key})}
+function set(b,on,anim){const body=b.querySelector(":scope>.cbody"),h=b.querySelector(":scope>.chead");if(!body)return;
+  b.classList.toggle("open",on);h&&h.setAttribute("aria-expanded",String(on));if(b._key)OPENB[b._key]=on;
+  if(!anim||RM){body.hidden=!on;return}
+  if(on){body.hidden=false;const H=body.scrollHeight;body.animate([{height:"0px",opacity:0},{height:H+"px",opacity:1}],{duration:480,easing:IOSE})}
+  else{const H=body.scrollHeight;body.animate([{height:H+"px",opacity:1},{height:"0px",opacity:0}],{duration:340,easing:IOSE}).onfinish=()=>{if(!b.classList.contains("open"))body.hidden=true}}}
+document.addEventListener("click",e=>{const h=e.target.closest(".coll>.chead");if(!h||e.target.closest("button:not(.chead),a,input,.star"))return;const b=h.parentElement;set(b,!b.classList.contains("open"),true)});
+document.addEventListener("keydown",e=>{if((e.key==="Enter"||e.key===" ")&&e.target.matches&&e.target.matches(".coll>.chead")){e.preventDefault();e.target.click()}});
+window.openBlock=id=>{const b=document.getElementById(id);if(b&&b.classList.contains("coll")&&!b.classList.contains("open"))set(b,true,false)};
+
+/* group runs of loose result rows so they can fold together */
+function groupRuns(scope,sel){const runs=[];let run=null;[...scope.children].forEach(c=>{if(c.matches(sel)){if(!run){run=document.createElement("div");run.className="resrun";c.before(run);runs.push(run)}run.appendChild(c)}else run=null});return runs}
+
+let TGT=null;  /* section to open after a jump, e.g. a table from search */
+const _go11=go;go=function(v,opt){TGT=opt&&opt.sec||null;return _go11.apply(this,arguments)};
+
+function apply(){const v=$("#view");if(!v)return;const base=(cur||"").split(":")[0];
+  /* tables: every table a collapsible block, the jump list is no longer needed */
+  const tbls=[...v.querySelectorAll("section.tbl")];
+  if(tbls.length>1){collapsible(tbls,b=>b.querySelector(":scope>header"),{key:cur,openFirst:tbls.length<=2,target:TGT,meta:b=>{const n=b.querySelectorAll("tbody tr").length;return n?`${n} rows`:""}});
+    const j=v.querySelector("nav.jump");if(j)j.remove();
+    if(tbls.length>12&&!v.querySelector(".tblrun"))groupRuns(tbls[0].parentElement,"section.tbl").forEach(r=>{r.classList.add("tblrun");fold(r,[...r.children],10,"tables",0,TGT)})}
+  if(TGT&&document.getElementById(TGT))window.openBlock(TGT);
+  /* how-to checklists: one open at a time to start with */
+  if(base==="howto"){const cs=[...v.querySelectorAll("section.card.csec")];if(cs.length>2)collapsible(cs,b=>{let h=b.querySelector(":scope>h2");if(h&&!h.closest(".chhead")){const w=document.createElement("div");w.className="chhd";h.before(w);w.appendChild(h);return w}return b.querySelector(":scope>.chhd")},{key:cur,openFirst:true})}
+  /* long lists and grids */
+  v.querySelectorAll(".mnems").forEach(b=>fold(b,[...b.children],6,"mnemonics"));
+  v.querySelectorAll(".decks").forEach(b=>fold(b,[...b.querySelectorAll(":scope>.deckrow")],6,base==="order"?"sequences":"regions"));
+  v.querySelectorAll(".trlist").forEach(b=>fold(b,[...b.querySelectorAll(":scope>.trcard")],4,"courses"));
+  v.querySelectorAll(".gallery").forEach(b=>fold(b,[...b.querySelectorAll(":scope>.fig")],12,"figures",24));
+  v.querySelectorAll(".rbody .figs:not(.carousel)").forEach(b=>fold(b,[...b.querySelectorAll(":scope>.fig")],8,"figures",16));
+  v.querySelectorAll(".rbody .cgrid, #hublist .cgrid").forEach(b=>fold(b,[...b.querySelectorAll(":scope>.ccard")],6,"conditions",12));
+  v.querySelectorAll(".serlist").forEach(b=>fold(b,[...b.querySelectorAll(":scope>.sercard")],4,"series"));
+  if(base==="mistakes")groupRuns(v,"details.mist").forEach(r=>fold(r,[...r.children],5,"items"));
+  const res=v.querySelector("#results");if(res){res.querySelectorAll(".cgrid").forEach(b=>fold(b,[...b.querySelectorAll(":scope>.ccard")],4,"conditions",12));groupRuns(res,".res").forEach(r=>fold(r,[...r.children],5,"results"));res.querySelectorAll(".figs").forEach(b=>fold(b,[...b.querySelectorAll(":scope>.fig")],6,"figures"))}
+  if(base==="saved")groupRuns(v,".res").forEach(r=>fold(r,[...r.children],6,"items"));
+}
+let q=0;new MutationObserver(()=>{if(q)return;q=requestAnimationFrame(()=>{q=0;apply()})}).observe($("#view"),{childList:true,subtree:true});
+window.foldNow=apply;
 })();
 
 
