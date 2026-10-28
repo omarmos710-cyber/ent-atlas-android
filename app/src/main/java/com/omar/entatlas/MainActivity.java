@@ -4,7 +4,10 @@ import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.view.KeyEvent;
+import android.window.OnBackInvokedDispatcher;
 import android.webkit.JavascriptInterface;
 import android.webkit.ValueCallback;
 import android.webkit.WebChromeClient;
@@ -85,6 +88,28 @@ public class MainActivity extends Activity {
 
         web.addJavascriptInterface(new Bridge(), "Android");
         if (state != null) web.restoreState(state); else web.loadUrl(START);
+        if (Build.VERSION.SDK_INT >= 33) {
+            getOnBackInvokedDispatcher().registerOnBackInvokedCallback(
+                    OnBackInvokedDispatcher.PRIORITY_DEFAULT, this::handleBack);
+        }
+    }
+
+    private long lastBack = 0;
+
+    /* Ask the page what Back should do: close the image/panel, go to the previous page, or exit. */
+    private void handleBack() {
+        long now = System.currentTimeMillis();
+        if (now - lastBack < 120) return;   // ignore a duplicate delivery of the same press
+        lastBack = now;
+        web.evaluateJavascript("(function(){try{return typeof androidBack==='function'?androidBack():(history.length>1?(history.back(),1):0)}catch(e){return 0}})()", value -> {
+            if (!"1".equals(value) && !"\"1\"".equals(value)) finish();
+        });
+    }
+
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (keyCode == KeyEvent.KEYCODE_BACK && Build.VERSION.SDK_INT < 33) { handleBack(); return true; }
+        return super.onKeyDown(keyCode, event);
     }
 
     @Override
@@ -95,9 +120,7 @@ public class MainActivity extends Activity {
 
     @Override
     public void onBackPressed() {
-        web.evaluateJavascript("typeof androidBack==='function'?androidBack():0", value -> {
-            if (!"1".equals(value)) finish();
-        });
+        handleBack();
     }
 
     private void toast(String msg) {

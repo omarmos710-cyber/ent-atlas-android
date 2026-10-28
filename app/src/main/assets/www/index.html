@@ -312,6 +312,7 @@ details.mist[open] summary{margin-bottom:8px}
 
 
 
+
 /* v9 layout */
 .card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px}
 .rtools{position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--toph,61px) + 46px);z-index:3;background:var(--bg);padding:6px 0}
@@ -5198,22 +5199,43 @@ function smartBack(){
   return false}
 window.smartBack=smartBack;
 
-/* Android hardware/gesture back */
+/* Android hardware/gesture back (the native app asks the page first) */
 window.androidBack=function(){if(smartBack())return 1;const t=Date.now();
   if(t-lastExitTry<2200)return 0;lastExitTry=t;if(typeof toast==="function")toast("Press back again to exit");return 1};
 
-/* Browser / phone back button on the website and artifact: keep one guard entry in history */
-let armed=false;
-function arm(){try{if(!armed){history.pushState({entg:1},"",location.href);armed=true}}catch(e){}}
-window.addEventListener("popstate",()=>{if(!armed)return;armed=false;
-  if(smartBack())arm();else{try{history.back()}catch(e){}}});
-const startArm=()=>{arm();document.removeEventListener("pointerdown",startArm,true);document.removeEventListener("keydown",startArm,true)};
-/* browsers only honour history entries made after a user gesture */
-document.addEventListener("pointerdown",startArm,true);document.addEventListener("keydown",startArm,true);
+/* Browser / installed-web-app back: one real history entry per step (page, image, panel),
+   created during the tap that opened it so browsers never skip it */
+const HSYNC=!window.Android;let HD=0,SILENT=0,INPOP=false;
+const _rs=history.replaceState.bind(history),_ps=history.pushState.bind(history);
+try{history.replaceState=function(st,t,u){return _rs(st||{entd:HD},t,u)};_rs({entd:0},"",location.href)}catch(e){}
+function pushH(){if(!HSYNC||INPOP)return;try{HD++;_ps({entd:HD},"",location.href)}catch(e){}}
+function popSilently(){if(!HSYNC||INPOP||HD<=0)return;SILENT++;HD--;try{history.back()}catch(e){SILENT--}}
+window.addEventListener("popstate",e=>{const d=(e.state&&e.state.entd)||0;
+  if(SILENT>0){SILENT--;HD=d;return}
+  if(d>=HD){HD=d;return}               /* forward button: nothing to undo */
+  let n=HD-d;HD=d;INPOP=true;let did=false;
+  try{while(n-->0){if(smartBack())did=true;else break}}finally{INPOP=false}
+  if(!did){try{history.go(-(HD+1))}catch(err){}return}          /* nothing left inside the app: leave */
+  if(HD===0&&(NAVSTACK.length||cur!=="home")){try{HD=1;_ps({entd:1},"",location.href)}catch(err){}}});
+/* every forward step adds an entry */
+const _go8b=go;
+go=function(v,opt){const before=NAVSTACK.length,from=cur;const r=_go8b(v,opt);
+  const fwd=!(opt&&(opt.back||opt.keep))&&(cur!==from||NAVSTACK.length>before);
+  if(fwd&&!(cur==="home"&&!NAVSTACK.length))pushH();
+  return r};
+const _drawLB8b=drawLB;
+drawLB=function(){const had=!!$("#lb");if(LB&&!had)pushH();else if(!LB&&had)popSilently();return _drawLB8b.apply(this,arguments)};
+let SHREPL=false;
+const _sheet8=sheet;
+sheet=function(){const had=!!$("#sheet");SHREPL=had;try{return _sheet8.apply(this,arguments)}finally{SHREPL=false;if(!had)pushH()}};
+const _closeSheet8b=closeSheet;
+closeSheet=function(){if($("#sheet")&&!SHREPL)popSilently();return _closeSheet8b.apply(this,arguments)};
+
 /* on-screen back arrows retrace the real path when there is one */
 document.addEventListener("click",e=>{const b=e.target.closest("#view button.back");if(!b||!NAVSTACK.length)return;
   const top=NAVSTACK[NAVSTACK.length-1];if(top.v==="home"&&NAVSTACK.length===1&&b.dataset.go&&b.dataset.go!=="home")return;
-  e.preventDefault();e.stopImmediatePropagation();smartBack()},true);
+  e.preventDefault();e.stopImmediatePropagation();
+  if(HSYNC&&HD>0)history.back();else smartBack()},true);
 
 /* region sub-tabs and segmented panels: soft fade of the new content */
 document.addEventListener("click",e=>{const t=e.target.closest("[data-rtab],[data-rimg]");if(!t||RM)return;
