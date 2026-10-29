@@ -336,6 +336,10 @@ details.mist[open] summary{margin-bottom:8px}
 
 
 
+
+
+
+
 /* v9 layout */
 .card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px}
 .rtools{position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--toph,61px) + 46px);z-index:3;background:var(--bg);padding:6px 0}
@@ -1147,6 +1151,38 @@ section.card.csec.coll>.chead{padding:12px 0!important}
 @media (min-width:700px){.areagrid{grid-auto-columns:30%}}
 @media (min-width:960px){.areagrid{grid-auto-columns:23%;margin-right:0;padding-right:0}}
 .cgroup{margin-top:18px!important}
+
+/* v14.2 table reader */
+.texp{flex:none;display:inline-grid;place-items:center;width:32px;height:32px;margin-left:auto;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--muted);cursor:pointer;transition:color .2s,border-color .2s,background .2s}
+.texp:hover,.texp:focus-visible{color:var(--accent);border-color:color-mix(in srgb,var(--accent) 45%,var(--line))}
+section.tbl>header{display:flex;align-items:center;gap:8px}
+section.tbl>header .texp+.cmeta,section.tbl>header .texp+.star{margin-left:0}
+.tfull{position:fixed;inset:0;z-index:300;display:grid;place-items:center;padding:max(14px,env(safe-area-inset-top)) 14px max(14px,env(safe-area-inset-bottom));
+  background:color-mix(in srgb,#0B0D12 58%,transparent);backdrop-filter:blur(10px) saturate(1.1);-webkit-backdrop-filter:blur(10px) saturate(1.1)}
+.tfpanel{width:min(1180px,100%);max-height:100%;display:flex;flex-direction:column;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:20px;box-shadow:0 30px 80px rgba(0,0,0,.35),0 2px 8px rgba(0,0,0,.12);overflow:hidden}
+.tfhead{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:16px 16px 12px 20px;border-bottom:1px solid var(--line)}
+.tftitle{flex:1 1 220px;min-width:0}
+.tftitle .eyebrow{display:block;margin-bottom:2px}
+.tftitle h2{margin:0;font:500 22px/1.2 var(--f-display);letter-spacing:-.01em}
+.tfctl{display:inline-flex;padding:3px;border-radius:12px;background:var(--soft);border:1px solid var(--line)}
+.tfctl button{border:0;background:none;color:var(--muted);font:600 12.5px/1 var(--f-body);padding:8px 11px;border-radius:9px;cursor:pointer;white-space:nowrap}
+.tfctl button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.12),0 0 0 1px var(--line)}
+.tfclose{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:var(--surface);color:var(--ink);display:grid;place-items:center;cursor:pointer;flex:none}
+.tfclose:hover{border-color:var(--accent);color:var(--accent)}
+.tfbody{flex:1;min-height:0;overflow:auto;padding:14px 16px 18px;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+.tfsize{position:relative}
+.tfsize.center{margin:0 auto}
+.tfinner{transform-origin:0 0}
+.tfinner table{border-collapse:collapse;font-size:14.5px;line-height:1.45;background:var(--surface)}
+.tfinner th,.tfinner td{border-bottom:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top}
+.tfinner thead th{position:sticky;top:0;background:var(--soft);color:var(--muted);font:700 11px/1.3 var(--f-body);letter-spacing:.12em;text-transform:uppercase}
+.tfull.scaled .tfinner thead th{position:static}
+.tfinner tbody th{font-weight:700;color:var(--ink)}
+.tfinner tbody tr:nth-child(even) td,.tfinner tbody tr:nth-child(even) th{background:color-mix(in srgb,var(--soft) 55%,transparent)}
+.tfnote{margin:14px 2px 0;color:var(--muted);font-size:13.5px;max-width:80ch}
+@media (max-width:560px){.tfull{padding:10px 8px max(10px,env(safe-area-inset-bottom))}.tfpanel{border-radius:16px}.tftitle h2{font-size:19px}.tfctl{order:3;width:100%}.tfctl button{flex:1}}
+.tfclose:focus{outline:none}.tfclose:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.tfpanel:focus{outline:none}
 
 /* end v9 */
 </style>
@@ -6419,6 +6455,78 @@ window.foldNow=apply;
 
 /* v14.1: label drills for the scanned figures were rebuilt, so old "missed label" indices for those figures no longer match */
 (function(){const _MS=MS;MS=function(){const m=_MS();if((ST.occv||0)<2){for(const k in m.d)if(!/^g\d/.test(k))delete m.d[k];ST.occv=2;try{save()}catch(e){}}return m};try{MS()}catch(e){}})();
+
+/* ---------------- v14.2: expand a table to a full-screen reader ---------------- */
+(function(){
+const EXP='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M10 20H4v-6M20 4l-7 7M4 20l7-7"/></svg>';
+const X='<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>';
+const RMQ=matchMedia("(prefers-reduced-motion: reduce)");
+const EASE="cubic-bezier(.2,.8,.2,1)";
+
+/* add an Expand button to every table header */
+function arm(root){(root||document).querySelectorAll("section.tbl").forEach(s=>{
+  if(s.dataset.tx)return;const h=s.querySelector(":scope>header");if(!h||!s.querySelector("table"))return;s.dataset.tx="1";
+  const b=document.createElement("button");b.className="texp";b.type="button";b.setAttribute("aria-label","Expand table");b.title="Expand table";b.innerHTML=EXP;
+  const before=h.querySelector(".cmeta,.star,.pm2");h.insertBefore(b,before||null)})}
+const mo=new MutationObserver(()=>arm());
+function start(){const v=document.getElementById("view")||document.body;arm(v);mo.observe(v,{childList:true,subtree:true})}
+if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",start);else start();
+
+let OPEN=null;
+function open(sec){
+  if(OPEN)return;const tbl=sec.querySelector("table");if(!tbl)return;
+  const title=(sec.querySelector("header h3")||{}).textContent||"Table";
+  const note=sec.querySelector(".tnote");
+  const bg=document.createElement("div");bg.className="modal tfull";bg.setAttribute("role","dialog");bg.setAttribute("aria-modal","true");bg.setAttribute("aria-label",title);
+  bg.innerHTML=`<div class="tfpanel"><header class="tfhead"><div class="tftitle"><span class="eyebrow">Table</span><h2>${esc(title)}</h2></div>
+    <div class="tfctl" role="group" aria-label="Table size"><button type="button" data-tfm="width" aria-pressed="true">Fit width</button><button type="button" data-tfm="all" aria-pressed="false">Whole table</button><button type="button" data-tfm="real" aria-pressed="false">100%</button></div>
+    <button type="button" class="tfclose" aria-label="Close">${X}</button></header>
+    <div class="tfbody"><div class="tfsize"><div class="tfinner"></div></div>${note?`<p class="tfnote">${esc(note.textContent)}</p>`:""}</div></div>`;
+  const t2=tbl.cloneNode(true);t2.removeAttribute("id");bg.querySelector(".tfinner").appendChild(t2);
+  document.body.appendChild(bg);document.body.style.overflow="hidden";OPEN={bg,mode:"width",ret:sec.querySelector(".texp")};
+  try{pushH()}catch(e){}
+  layout();
+  if(!RMQ.matches){bg.animate([{opacity:0},{opacity:1}],{duration:260,easing:"ease-out"});
+    bg.querySelector(".tfpanel").animate([{opacity:0,transform:"translateY(18px) scale(.97)"},{opacity:1,transform:"none"}],{duration:420,easing:EASE})}
+  const pn=bg.querySelector(".tfpanel");pn.tabIndex=-1;pn.focus({preventScroll:true});
+  /* removed by the back button (smartBack) */
+  const watch=new MutationObserver(()=>{if(!bg.isConnected){watch.disconnect();if(OPEN&&OPEN.bg===bg){const r=OPEN.ret;OPEN=null;document.body.style.overflow="";r&&r.focus({preventScroll:true})}}});
+  watch.observe(document.body,{childList:true})}
+
+function close(){if(!OPEN)return;const {bg,ret}=OPEN;OPEN=null;try{popSilently()}catch(e){}
+  const done=()=>{bg.remove();document.body.style.overflow="";ret&&ret.focus({preventScroll:true})};
+  if(RMQ.matches)return done();
+  bg.querySelector(".tfpanel").animate([{opacity:1,transform:"none"},{opacity:0,transform:"translateY(12px) scale(.98)"}],{duration:220,easing:"ease-in",fill:"forwards"});
+  bg.animate([{opacity:1},{opacity:0}],{duration:240,easing:"ease-in",fill:"forwards"}).onfinish=done}
+
+/* size the table: natural reading width, then scale to the chosen fit */
+function layout(){if(!OPEN)return;const {bg,mode}=OPEN;const body=bg.querySelector(".tfbody"),size=bg.querySelector(".tfsize"),inner=bg.querySelector(".tfinner"),t=inner.querySelector("table");
+  inner.style.transform="";inner.style.width="";size.style.width="";size.style.height="";
+  const cs=getComputedStyle(body),availW=body.clientWidth-parseFloat(cs.paddingLeft)-parseFloat(cs.paddingRight)-1,availH=body.clientHeight-(bg.querySelector(".tfnote")?.offsetHeight||0)-12;
+  t.style.width="max-content";const natural=t.offsetWidth;
+  const cols=(t.rows[0]||{cells:[]}).cells.length||1;
+  const readW=Math.max(availW,Math.min(natural,Math.max(560,cols*210)));
+  t.style.width=readW+"px";inner.style.width=Math.max(readW,t.offsetWidth)+"px";
+  const w=inner.offsetWidth,h=inner.offsetHeight;let s=1;
+  if(mode==="width")s=Math.min(1,availW/w);
+  else if(mode==="all")s=Math.min(1,availW/w,availH/h);
+  inner.style.transform=s<1?`scale(${s})`:"";size.style.width=(w*s)+"px";size.style.height=(h*s)+"px";
+  size.classList.toggle("center",mode==="all");bg.classList.toggle("scaled",s<1);
+  bg.querySelectorAll("[data-tfm]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.tfm===mode)))}
+
+document.addEventListener("click",e=>{
+  const x=e.target.closest(".texp");if(x){e.preventDefault();e.stopPropagation();open(x.closest("section.tbl"));return}
+  if(!OPEN)return;
+  if(e.target.closest(".tfclose")){close();return}
+  const m=e.target.closest("[data-tfm]");if(m){OPEN.mode=m.dataset.tfm;layout();
+    if(!RMQ.matches)OPEN.bg.querySelector(".tfinner").animate([{opacity:.4},{opacity:1}],{duration:260,easing:"ease-out"});return}
+  if(e.target===OPEN.bg)close()},true);
+document.addEventListener("keydown",e=>{if(!OPEN)return;if(e.key==="Escape"){e.preventDefault();e.stopPropagation();close()}
+  if(e.key==="Tab"){const f=[...OPEN.bg.querySelectorAll("button")];const i=f.indexOf(document.activeElement);
+    if(e.shiftKey&&i<=0){e.preventDefault();f[f.length-1].focus()}else if(!e.shiftKey&&i===f.length-1){e.preventDefault();f[0].focus()}}},true);
+addEventListener("resize",()=>{if(OPEN)requestAnimationFrame(layout)});
+window.openTableReader=open;
+})();
 
 
 /* ---------------- BOOT ---------------- */
