@@ -1284,8 +1284,38 @@ main{overflow-x:clip}
 
 /* v17.6: long pages skip layout and painting of blocks that are off screen */
 section.tbl,.rbody>.sec,.rbody .resrun>.sec{content-visibility:auto;contain-intrinsic-size:auto 480px}
+
+/* v17.7 waiting states: shown only when something actually takes time */
+#boot{position:fixed;inset:0;z-index:2000;display:grid;place-items:center;background:var(--bg);transition:opacity .35s ease}
+#boot.out{opacity:0;pointer-events:none}
+#boot .bwrap{display:flex;flex-direction:column;align-items:center;gap:14px;color:var(--ink);font:600 15px/1 var(--f-display);letter-spacing:.01em}
+.spin{width:30px;height:30px;border-radius:50%;border:2.5px solid color-mix(in srgb,var(--accent) 18%,transparent);border-top-color:var(--accent);will-change:transform;animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+#busy{position:fixed;left:0;right:0;top:env(safe-area-inset-top,0px);height:3px;z-index:1500;pointer-events:none;overflow:hidden;opacity:0}
+#busy i{position:absolute;top:0;bottom:0;left:0;width:38%;border-radius:3px;background:linear-gradient(90deg,transparent,var(--accent),transparent);will-change:transform;transform:translateX(-100%)}
+#busypill{position:fixed;left:50%;top:42%;z-index:1500;pointer-events:none;display:flex;align-items:center;gap:10px;padding:10px 16px 10px 12px;border-radius:99px;
+  background:var(--surface);color:var(--ink);border:1px solid var(--line);box-shadow:0 10px 30px rgba(10,15,19,.16);font:600 13px var(--f-body);opacity:0;transform:translate(-50%,6px) scale(.96);will-change:opacity,transform}
+#busypill .spin{width:18px;height:18px;border-width:2px}
+html.busy #busy{animation:busyIn .2s ease-out .15s forwards}
+html.busy #busy i{animation:busyRun 1.05s cubic-bezier(.45,.05,.55,.95) .15s infinite}
+html.busy #busypill{animation:pillIn .25s cubic-bezier(.22,1,.36,1) .5s forwards}
+@keyframes busyIn{to{opacity:1}}
+@keyframes busyRun{from{transform:translateX(-100%)}to{transform:translateX(265%)}}
+@keyframes pillIn{to{opacity:1;transform:translate(-50%,0) scale(1)}}
+/* the full figure in the viewer: a spinner until it is decoded, then a soft fade in */
+.lbimg.ldg,.pzbox.ldg{position:relative}
+.lbimg.ldg img,.pzbox.ldg img{opacity:0}
+.lbimg img,.pzbox img{transition:opacity .25s ease}
+.lbimg.ldg::after,.pzbox.ldg::after{content:"";position:absolute;left:50%;top:50%;width:34px;height:34px;margin:-17px 0 0 -17px;border-radius:50%;border:3px solid rgba(255,255,255,.2);border-top-color:#fff;animation:spin .8s linear infinite}
+/* thumbnails fade in over a quiet placeholder instead of popping */
+.fig img,.thumb img,.trfig img,.lblpick img,.cont img,.xtile img,.ccard2 .art img{background:var(--soft)}
+html.fadeimg .fig img:not(.ld),html.fadeimg .thumb img:not(.ld),html.fadeimg .trfig img:not(.ld),html.fadeimg .lblpick img:not(.ld){opacity:0}
+.fig img,.thumb img,.trfig img,.lblpick img{transition:opacity .3s ease}
+@media (prefers-reduced-motion:reduce){.spin,#busy i{animation-duration:2s}.fig img,.thumb img,.trfig img,.lblpick img,.lbimg img{transition:none}}
 </style>
 
+<div id="boot" role="status" aria-label="Loading ENT Atlas"><div class="bwrap"><div class="spin"></div><span>ENT Atlas</span></div></div>
+<div id="busy" aria-hidden="true"><i></i></div><div id="busypill" role="status" aria-live="polite"><span class="spin"></span>Loading</div>
 <div class="app">
   <aside class="side" id="side">
     <div class="brand"><span class="mark">H&amp;N</span>ENT Atlas</div>
@@ -7904,4 +7934,33 @@ if(!window.Android&&"serviceWorker" in navigator&&(location.protocol==="https:"|
   navigator.serviceWorker.addEventListener("message",ev=>{if(ev.data==="cached"&&typeof toast==="function")toast("Saved for offline use")});
   window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
 }
+</script>
+<script>
+/* v17.7 waiting states */
+(function(){const H=document.documentElement;H.classList.add("fadeimg");
+  /* thumbnails: mark them loaded so they fade in */
+  document.addEventListener("load",e=>{const t=e.target;if(t&&t.tagName==="IMG")t.classList.add("ld")},true);
+  document.addEventListener("error",e=>{const t=e.target;if(t&&t.tagName==="IMG")t.classList.add("ld")},true);
+  document.querySelectorAll("img").forEach(i=>{if(i.complete)i.classList.add("ld")});
+  /* busy bar: armed on touch, so it is already running on the compositor if the tap's work blocks the page;
+     it only becomes visible after 0.15 s (the pill after 0.5 s), so quick taps never show it */
+  let off=0,armed=false;
+  const on=()=>{H.classList.add("busy");armed=true;clearTimeout(off);off=setTimeout(done,5000)};
+  const done=()=>{armed=false;clearTimeout(off);H.classList.remove("busy")};
+  const afterPaint=()=>requestAnimationFrame(()=>requestAnimationFrame(done));
+  addEventListener("pointerdown",e=>{if(e.button>0)return;const t=e.target.closest&&e.target.closest("button,a,[data-go],[data-fig],[role=button]");if(t&&!t.disabled)on()},true);
+  addEventListener("pointerup",()=>{if(armed){clearTimeout(off);off=setTimeout(done,400)}},true);
+  addEventListener("pointercancel",done,true);addEventListener("scroll",()=>{if(armed)done()},{passive:true,capture:true});
+  addEventListener("click",()=>{if(armed)afterPaint()});
+  window.busyOn=on;window.busyDone=done;
+  /* viewer: spinner until the full-size figure is decoded */
+  const watch=()=>{const im=document.querySelector("#lb .lbimg img,#lb .pzbox img");if(!im||im.dataset.w)return;im.dataset.w="1";
+    const box=im.closest(".lbimg,.pzbox");if(im.complete&&im.naturalWidth)return;box.classList.add("ldg");
+    const fin=()=>box.classList.remove("ldg");(im.decode?im.decode().then(fin,fin):im.addEventListener("load",fin,{once:true}));im.addEventListener("error",fin,{once:true})};
+  const lbObs=new MutationObserver(watch);
+  new MutationObserver(()=>{const lb=document.getElementById("lb");if(lb&&!lb._w){lb._w=1;lbObs.observe(lb,{childList:true,subtree:true});watch()}}).observe(document.body,{childList:true});
+  /* launch screen: fade out once the first page has painted */
+  const boot=document.getElementById("boot");
+  if(boot)requestAnimationFrame(()=>requestAnimationFrame(()=>{boot.classList.add("out");setTimeout(()=>boot.remove(),400)}));
+})();
 </script>
