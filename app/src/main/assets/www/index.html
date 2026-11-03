@@ -1281,8 +1281,41 @@ main{overflow-x:clip}
 .opsec h2{font-size:17px;margin-bottom:8px}
 .opsec ul,.opsec ol{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:7px}
 .oprisk li span{display:block;color:var(--muted);font-size:14px}
+
+/* v17.6: long pages skip layout and painting of blocks that are off screen */
+section.tbl,.rbody>.sec,.rbody .resrun>.sec{content-visibility:auto;contain-intrinsic-size:auto 480px}
+
+/* v17.7 waiting states: shown only when something actually takes time */
+#boot{position:fixed;inset:0;z-index:2000;display:grid;place-items:center;background:var(--bg);transition:opacity .35s ease}
+#boot.out{opacity:0;pointer-events:none}
+#boot .bwrap{display:flex;flex-direction:column;align-items:center;gap:14px;color:var(--ink);font:600 15px/1 var(--f-display);letter-spacing:.01em}
+.spin{width:30px;height:30px;border-radius:50%;border:2.5px solid color-mix(in srgb,var(--accent) 18%,transparent);border-top-color:var(--accent);will-change:transform;animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+#busy{position:fixed;left:0;right:0;top:env(safe-area-inset-top,0px);height:3px;z-index:1500;pointer-events:none;overflow:hidden;opacity:0}
+#busy i{position:absolute;top:0;bottom:0;left:0;width:38%;border-radius:3px;background:linear-gradient(90deg,transparent,var(--accent),transparent);will-change:transform;transform:translateX(-100%)}
+#busypill{position:fixed;left:50%;top:42%;z-index:1500;pointer-events:none;display:flex;align-items:center;gap:10px;padding:10px 16px 10px 12px;border-radius:99px;
+  background:var(--surface);color:var(--ink);border:1px solid var(--line);box-shadow:0 10px 30px rgba(10,15,19,.16);font:600 13px var(--f-body);opacity:0;transform:translate(-50%,6px) scale(.96);will-change:opacity,transform}
+#busypill .spin{width:18px;height:18px;border-width:2px}
+html.busy #busy{animation:busyIn .2s ease-out .15s forwards}
+html.busy #busy i{animation:busyRun 1.05s cubic-bezier(.45,.05,.55,.95) .15s infinite}
+html.busy #busypill{animation:pillIn .25s cubic-bezier(.22,1,.36,1) .5s forwards}
+@keyframes busyIn{to{opacity:1}}
+@keyframes busyRun{from{transform:translateX(-100%)}to{transform:translateX(265%)}}
+@keyframes pillIn{to{opacity:1;transform:translate(-50%,0) scale(1)}}
+/* the full figure in the viewer: a spinner until it is decoded, then a soft fade in */
+.lbimg.ldg,.pzbox.ldg{position:relative}
+.lbimg.ldg img,.pzbox.ldg img{opacity:0}
+.lbimg img,.pzbox img{transition:opacity .25s ease}
+.lbimg.ldg::after,.pzbox.ldg::after{content:"";position:absolute;left:50%;top:50%;width:34px;height:34px;margin:-17px 0 0 -17px;border-radius:50%;border:3px solid rgba(255,255,255,.2);border-top-color:#fff;animation:spin .8s linear infinite}
+/* thumbnails fade in over a quiet placeholder instead of popping */
+.fig img,.thumb img,.trfig img,.lblpick img,.cont img,.xtile img,.ccard2 .art img{background:var(--soft)}
+html.fadeimg .fig img:not(.ld),html.fadeimg .thumb img:not(.ld),html.fadeimg .trfig img:not(.ld),html.fadeimg .lblpick img:not(.ld){opacity:0}
+.fig img,.thumb img,.trfig img,.lblpick img{transition:opacity .3s ease}
+@media (prefers-reduced-motion:reduce){.spin,#busy i{animation-duration:2s}.fig img,.thumb img,.trfig img,.lblpick img,.lbimg img{transition:none}}
 </style>
 
+<div id="boot" role="status" aria-label="Loading ENT Atlas"><div class="bwrap"><div class="spin"></div><span>ENT Atlas</span></div></div>
+<div id="busy" aria-hidden="true"><i></i></div><div id="busypill" role="status" aria-live="polite"><span class="spin"></span>Loading</div>
 <div class="app">
   <aside class="side" id="side">
     <div class="brand"><span class="mark">H&amp;N</span>ENT Atlas</div>
@@ -5515,6 +5548,8 @@ GROUPS.forEach(([g,ids])=>ids.forEach(id=>RMAP[id]&&(RMAP[id].g=g)));
 const SECTIONS=REGIONS.flatMap(r=>r.sections);
 const SRC={S:"ENT Steps Anatomy",D:"Dr. Sameh Doss handout",G:"Gray's Atlas of Anatomy, 2nd ed.",F:"Dr. Mohamed El-Fiky, Mini Atlas of Anatomy Part V: Head & Neck"};
 const figSrc=k=>(typeof GURL!=="undefined"&&GURL[k])||"fig2/"+k+".jpg";
+/* small copies for cards, carousels and lists: full-size figures decode to 5–11 MB each */
+const figThumb=k=>(typeof GURL!=="undefined"&&GURL[k])||"fig2/t/"+k+".jpg";
 const figCite=k=>`${SRC[FIG[k][1]]}, p. ${FIG[k][2]}`;
 const SRCS={S:"ENT Steps",D:"Doss",G:"Gray's Atlas",F:"El-Fiky"};
 const figShort=k=>`${SRCS[FIG[k][1]]} p. ${FIG[k][2]}`;
@@ -5589,7 +5624,7 @@ document.addEventListener("click",e=>{const g=e.target.closest("[data-go]");if(g
 const FSETS=new Map(),FSW=new WeakMap();let FSN=0;
 function fsetId(arr){let i=FSW.get(arr);if(i==null){i=++FSN;FSW.set(arr,i);FSETS.set(i,arr.slice());if(FSETS.size>300)FSETS.delete(FSETS.keys().next().value)}return "@"+i}
 function setOf(s){if(!s)return null;if(s[0]==="@"){const a=FSETS.get(+s.slice(1));return a?a.slice():null}return s.split(",")}
-function figCard(k,set,cls){return `<button class="fig ${cls||""}" data-fig="${k}" data-set="${fsetId(set)}"><img src="${figSrc(k)}" alt="${esc(FIG[k][0])}" loading="lazy" decoding="async"><span class="cap">${esc(FIG[k][0])}<small>${figShort(k)}</small></span></button>`}
+function figCard(k,set,cls){return `<button class="fig ${cls||""}" data-fig="${k}" data-set="${fsetId(set)}"><img src="${figThumb(k)}" alt="${esc(FIG[k][0])}" loading="lazy" decoding="async"><span class="cap">${esc(FIG[k][0])}<small>${figShort(k)}</small></span></button>`}
 function figsHTML(keys){keys=keys.filter(k=>FIG[k]);return keys.length?`<div class="figs">${keys.map(k=>figCard(k,keys)).join("")}</div>`:""}
 let LB=null;
 function openFig(k,set){LB={set:set&&set.length?set:[k],i:Math.max(0,(set||[k]).indexOf(k)),zoom:false};drawLB()}
@@ -5683,7 +5718,7 @@ function vRegion(id,opt){const r=RMAP[id];if(!r)return vAtlas();
   <button class="btn" data-qregion="${r.id}">Quiz this region</button>${drillCount(r.id)?`<button class="btn" data-drill="${r.id}">Label drill (${drillCount(r.id)} figures)</button>`:""}<button class="btn" data-pdf="${r.id}">Download PDF summary</button></div>
   <nav class="jump" aria-label="Sections">${r.sections.map(s=>`<a href="#${s.id}" data-jump="${s.id}" class="${ST.read[s.id]?"done":""}">${esc(s.t)}</a>`).join("")}</nav>
   ${figs.length?`<div class="h2row"><h2>Figures</h2><span class="eyebrow">${figs.length} from your handouts</span></div>
-  <div class="strip">${figs.map(k=>`<button class="thumb" data-fig="${k}" data-set="${fsetId(figs)}" aria-label="${esc(FIG[k][0])}"><img src="${figSrc(k)}" alt="" loading="lazy" decoding="async"></button>`).join("")}</div>`:""}
+  <div class="strip">${figs.map(k=>`<button class="thumb" data-fig="${k}" data-set="${fsetId(figs)}" aria-label="${esc(FIG[k][0])}"><img src="${figThumb(k)}" alt="" loading="lazy" decoding="async"></button>`).join("")}</div>`:""}
   ${r.sections.map(secHTML).join("")}
   ${regionTablesHTML(r.id)}
   <nav class="pager">${prev?`<button class="btn" data-go="region:${prev.id}">← ${esc(prev.name)}</button>`:"<span></span>"}${next?`<button class="btn" data-go="region:${next.id}">${esc(next.name)} →</button>`:""}</nav>`;
@@ -6184,7 +6219,7 @@ function vMistakes(){const m=MS(),R=MSR==="all"?null:MSR,cn=missCounts(R),inR=x=
   ${!cn.total?`<p class="empty">Nothing here yet. Mistakes from quizzes, flashcards and label drills will appear automatically.</p>`:""}
   ${qs.length?`<div class="h2row"><h2>MCQs</h2><span class="eyebrow">${qs.length}</span></div>${qs.map(([q,s])=>`<details class="mist"><summary><span class="eyebrow">${esc(RMAP[q.r].name)}${s.n>1?` · missed ${s.n}×`:""}</span><span>${esc(q.q)}</span></summary><p><b>Answer:</b> ${esc(q.o[q.c])}</p><div class="explain">${esc(q.x)}</div><div class="actions"><button class="linkbtn" data-go="region:${q.r}">Open the notes</button><button class="linkbtn" data-mrm="q:${q.id}">Remove</button></div></details>`).join("")}`:""}
   ${cs.length?`<div class="h2row"><h2>Flashcards</h2><span class="eyebrow">${cs.length}</span></div>${cs.map(([c,s])=>`<details class="mist"><summary><span class="eyebrow">${esc(RMAP[c.r].name)}${s.n>1?` · again ${s.n}×`:""}</span><span>${esc(c.q)}</span></summary><p>${esc(c.a)}</p><div class="actions"><button class="linkbtn" data-go="region:${c.r}">Open the notes</button><button class="linkbtn" data-mrm="c:${c.id}">Remove</button></div></details>`).join("")}`:""}
-  ${ds.length?`<div class="h2row"><h2>Label drills</h2><span class="eyebrow">${ds.length} figures</span></div><div class="mfigs">${ds.map(k=>`<div class="mfig"><button class="fig" data-fig="${k}"><img src="${figSrc(k)}" alt="${esc(FIG[k][0])}" loading="lazy"><span class="cap">${esc(FIG[k][0])}<small>${m.d[k].l.length} label${m.d[k].l.length>1?"s":""} missed · ${figShort(k)}</small></span></button><button class="linkbtn" data-mrm="d:${k}">Remove</button></div>`).join("")}</div>`:""}`;
+  ${ds.length?`<div class="h2row"><h2>Label drills</h2><span class="eyebrow">${ds.length} figures</span></div><div class="mfigs">${ds.map(k=>`<div class="mfig"><button class="fig" data-fig="${k}"><img src="${figThumb(k)}" alt="${esc(FIG[k][0])}" loading="lazy"><span class="cap">${esc(FIG[k][0])}<small>${m.d[k].l.length} label${m.d[k].l.length>1?"s":""} missed · ${figShort(k)}</small></span></button><button class="linkbtn" data-mrm="d:${k}">Remove</button></div>`).join("")}</div>`:""}`;
   $("#msr").value=MSR;$("#msr").onchange=e=>{MSR=e.target.value;vMistakes()}}
 document.addEventListener("click",e=>{const b=e.target.closest("[data-mredo]");if(b){e.preventDefault();startMistakes(b.dataset.mredo,MSR);return}
   const r=e.target.closest("[data-mrm]");if(r){const [t,...id]=r.dataset.mrm.split(":");delete MS()[t][id.join(":")];save();vMistakes();toast("Removed")}});
@@ -6199,7 +6234,7 @@ function vTracer(id){
     ${Object.entries(KIND).map(([k,[lab,col]])=>{const ts=TRACE.filter(t=>t.kind===k);return ts.length?`<div class="h2row"><h2>${lab}</h2><span class="eyebrow">${ts.length}</span></div><div class="trlist">${ts.map(t=>`<button class="trcard" data-go="tracer:${t.id}" style="--k:${col}"><strong>${esc(t.name)}</strong><span>${esc(t.intro)}</span><small>${t.steps.length} steps · ${t.regions.map(r=>RMAP[r]?esc(RMAP[r].name):"").filter(Boolean).join(", ")}</small></button>`).join("")}</div>`:""}).join("")}`;return}
   const t=TMAP[id],col=KIND[t.kind][1],all=[...new Set(t.steps.flatMap(s=>s.f).filter(k=>FIG[k]))];
   const stepHTML=(s,i)=>`<li class="trstep ${TRSTEP===i?"on":""}" id="trs-${i}"><span class="trnum">${i+1}</span><div class="trbody"><span class="eyebrow">${esc(s.w)}</span><h3>${esc(s.n)}</h3><p>${md(s.d)}</p>
-    ${s.f.filter(k=>FIG[k]).length?`<div class="trfigs">${s.f.filter(k=>FIG[k]).map(k=>`<button class="trfig" data-fig="${k}" data-set="${fsetId(all)}"><img src="${figSrc(k)}" alt="${esc(FIG[k][0])}" loading="lazy"><small>${esc(FIG[k][0])}</small></button>`).join("")}</div>`:""}</div></li>`;
+    ${s.f.filter(k=>FIG[k]).length?`<div class="trfigs">${s.f.filter(k=>FIG[k]).map(k=>`<button class="trfig" data-fig="${k}" data-set="${fsetId(all)}"><img src="${figThumb(k)}" alt="${esc(FIG[k][0])}" loading="lazy"><small>${esc(FIG[k][0])}</small></button>`).join("")}</div>`:""}</div></li>`;
   if(TRSTEP!=null){const s=t.steps[TRSTEP],n=t.steps.length;
     V().innerHTML=`<div class="hero"><span class="eyebrow">${esc(t.name)} · step ${TRSTEP+1} of ${n}</span></div>
     <div class="trbar" style="--k:${col}">${t.steps.map((x,i)=>`<button class="${i===TRSTEP?"on":i<TRSTEP?"past":""}" data-trstep="${i}" aria-label="Step ${i+1}: ${esc(x.n)}"></button>`).join("")}</div>
@@ -6350,7 +6385,7 @@ vHome=function(){const t=todayCounts(),s=continueSec(),r=s&&RMAP[s.r],st=r&&regi
   <section class="today"><div class="trow"><span class="eyebrow">Today's review</span><span class="mono">${t.mins?`≈ ${t.mins} min`:"all caught up"}</span></div>
    <div class="tstats"><div><b>${t.due}</b><span>cards due</span></div><div><b>${t.dd}</b><span>drill figures</span></div><div><b>${t.mc}</b><span>mistakes</span></div></div>
    <button class="tgo" data-today>${t.due||t.dd||t.mc?"Start today's session":`Learn new cards (${t.fresh})`}</button></section>
-  ${s?`<button class="cont" data-go="region:${s.r}" data-sec="${s.id}">${fig?`<img src="${figSrc(fig)}" alt="" loading="lazy">`:""}<span class="cmain"><span class="eyebrow">Continue · ${esc(r.name)}</span><span class="ctitle">${esc(s.t)}</span><span class="pbar"><i style="width:${st.pct}%"></i></span></span>${ic("chev",18)}</button>`:""}
+  ${s?`<button class="cont" data-go="region:${s.r}" data-sec="${s.id}">${fig?`<img src="${figThumb(fig)}" alt="" loading="lazy">`:""}<span class="cmain"><span class="eyebrow">Continue · ${esc(r.name)}</span><span class="ctitle">${esc(s.t)}</span><span class="pbar"><i style="width:${st.pct}%"></i></span></span>${ic("chev",18)}</button>`:""}
   <div class="h2row"><h2>Tools</h2></div>
   <div class="tools">${tool("cards","Flashcards","study")}${tool("drill","Label drills","drill")}${tool("quiz","Quiz","quiz")}${tool("spot","Spot diagnosis","spot")}${tool("tracer","Tracer","tracer","","nerve")}${tool("order","Build the order","order","","vein")}${tool("imaging","Imaging","imaging")}${tool("mistakes","Mistakes","mistakes",t.mc)}</div>
   <div class="h2row"><h2>Regions</h2><span class="eyebrow">${REGIONS.length} · ${GROUPS.length} groups</span></div>
@@ -6529,7 +6564,7 @@ function openLabel(list,start){if(!list.length)return;LB={set:list.map(m=>m.k),i
 function pickLabel(term,reg){const ms=findLabels(term,reg);if(!ms.length){toast("No labelled figure for that yet");return}
   if(ms.length===1)return openLabel(ms,0);
   sheet(`<span class="eyebrow">Find in figures</span><h3>${esc(term)}</h3><p class="lede small">${ms.length} figures label it. Tap one to open it zoomed onto the label.</p>
-   <div class="lblgrid">${ms.map((m,j)=>`<button class="lblpick" data-lblpick="${j}"><img src="${figSrc(m.k)}" alt="" loading="lazy"><span><b>${esc(m.t)}</b><small>${esc(FIG[m.k][0])} · ${figShort(m.k)}</small></span></button>`).join("")}</div>`,"Find in figures");
+   <div class="lblgrid">${ms.map((m,j)=>`<button class="lblpick" data-lblpick="${j}"><img src="${figThumb(m.k)}" alt="" loading="lazy"><span><b>${esc(m.t)}</b><small>${esc(FIG[m.k][0])} · ${figShort(m.k)}</small></span></button>`).join("")}</div>`,"Find in figures");
   $("#sheet")._ms=ms}
 document.addEventListener("click",e=>{const p=e.target.closest("[data-lblpick]");if(p){const ms=$("#sheet")._ms;openLabel(ms,+p.dataset.lblpick);return}
   const l=e.target.closest("b.lnk,[data-lterm]");if(l){e.preventDefault();e.stopPropagation();pickLabel(l.dataset.lterm||l.textContent,l.dataset.lreg||"")}},true);
@@ -6588,7 +6623,7 @@ function mapHTML(t,site,simId){const m=CMAPS[t.id]||{zones:[],br:{}},col=KIND[t.
     const brs=m.br[i]||[],cut=cutState(site,t,i,null),last=i===t.steps.length-1;
     out+=`<li class="mstn ${cut?"cut":""} ${last?"last":""} ${i===0&&!(sim&&sim.sites.some(x=>x.at===-1))?"first":""}" id="mst-${i}">
       <button class="mdot" data-mstn="${i}" aria-expanded="false" aria-controls="mdet-${i}"><span class="eyebrow">${esc(s.w)}</span><strong>${esc(s.n)}</strong></button>
-      <div class="mdet" id="mdet-${i}" hidden><p>${md(s.d)}</p>${s.f.filter(k=>FIG[k]).length?`<div class="trfigs">${s.f.filter(k=>FIG[k]).map(k=>`<button class="trfig" data-fig="${k}" data-set="${s.f.filter(k=>FIG[k]).join(",")}"><img src="${figSrc(k)}" alt="${esc(FIG[k][0])}" loading="lazy"><small>${esc(FIG[k][0])}</small></button>`).join("")}</div>`:""}
+      <div class="mdet" id="mdet-${i}" hidden><p>${md(s.d)}</p>${s.f.filter(k=>FIG[k]).length?`<div class="trfigs">${s.f.filter(k=>FIG[k]).map(k=>`<button class="trfig" data-fig="${k}" data-set="${s.f.filter(k=>FIG[k]).join(",")}"><img src="${figThumb(k)}" alt="${esc(FIG[k][0])}" loading="lazy"><small>${esc(FIG[k][0])}</small></button>`).join("")}</div>`:""}
         <button class="linkbtn" data-trstep="${i}">Step by step from here</button></div>
       ${brs.length?`<ul class="mbr">${brs.map((b,j)=>`<li class="${cutState(site,t,i,b)?"cut":""}"><button data-mbr="${t.id}:${i}:${j}" style="--b:${BTYPE[b[2]][1]}"><span class="bn">${esc(b[0])}</span><small>${esc(b[1])}</small></button></li>`).join("")}</ul>`:""}</li>`;
     if(sim)sim.sites.forEach((x,j)=>{if(x.at===i)out+=lesBtn(x,j)})});
@@ -6599,7 +6634,7 @@ document.addEventListener("click",e=>{
   const b=e.target.closest("[data-mbr]");if(b){const [id,i,j]=b.dataset.mbr.split(":"),br=CMAPS[id].br[i][+j],ms=findLabels(br[0]);
     sheet(`<span class="eyebrow" style="color:${BTYPE[br[2]][1]}">${BTYPE[br[2]][0]} · ${esc(TMAP[id].name)}</span><h3>${esc(br[0])}</h3><p>${esc(br[1])}</p>
       <p class="mono">Leaves at: ${esc(TMAP[id].steps[i].n)} (${esc(TMAP[id].steps[i].w)})</p>
-      ${ms.length?`<div class="h2row"><h2>In the figures</h2><span class="eyebrow">${ms.length}</span></div><div class="lblgrid">${ms.map((m,k)=>`<button class="lblpick" data-lblpick="${k}"><img src="${figSrc(m.k)}" alt="" loading="lazy"><span><b>${esc(m.t)}</b><small>${esc(FIG[m.k][0])}</small></span></button>`).join("")}</div>`:`<p class="lede small">No figure labels this branch by name; the step's figures show its region.</p>`}`,br[0]);
+      ${ms.length?`<div class="h2row"><h2>In the figures</h2><span class="eyebrow">${ms.length}</span></div><div class="lblgrid">${ms.map((m,k)=>`<button class="lblpick" data-lblpick="${k}"><img src="${figThumb(m.k)}" alt="" loading="lazy"><span><b>${esc(m.t)}</b><small>${esc(FIG[m.k][0])}</small></span></button>`).join("")}</div>`:`<p class="lede small">No figure labels this branch by name; the step's figures show its region.</p>`}`,br[0]);
     $("#sheet")._ms=ms;return}});
 
 /* ---------- tracer course page: Map · Steps · Lesions ---------- */
@@ -6927,6 +6962,9 @@ let SWIPING=false;
 let MBOX=null;function mainBox(){if(MBOX)return MBOX;const m=document.querySelector("main"),r=m?m.getBoundingClientRect():{left:0,width:innerWidth};return MBOX={left:r.left,width:r.width}}
 addEventListener("resize",()=>{MBOX=null});
 let SNAPDOC=null;
+const LIVE=new Set();
+function anim(el,k,o){const a=el.animate(k,o);LIVE.add(a);a.addEventListener("cancel",()=>LIVE.delete(a));return a}   /* finished ones stay until the next settle: some hold their end state */
+function cancelOn(el){LIVE.forEach(a=>{if(a.effect&&a.effect.target===el){try{a.cancel()}catch(e){}}})}
 function takeSnap(){const v=$("#view");if(!v||!v.firstChild)return null;MBOX=null;const r=v.getBoundingClientRect(),m=mainBox();
   const w=document.createElement("div");w.className="pgsnap";w.setAttribute("aria-hidden","true");
   w.style.cssText=`position:fixed;top:0;bottom:0;left:${m.left}px;width:${m.width}px;overflow:hidden;pointer-events:none;z-index:3;background:var(--bg)`;
@@ -6943,28 +6981,30 @@ function takeSnap(){const v=$("#view");if(!v||!v.firstChild)return null;MBOX=nul
 function liftView(on){const v=$("#view");if(!v)return;document.documentElement.style.overflowX=on?"clip":"";
   if(on){v.style.position="relative";v.style.zIndex="4";v.style.background="var(--bg)";v.style.minHeight="100vh";v.style.boxShadow="-14px 0 34px rgba(10,12,16,.12)"}
   else{v.style.position=v.style.zIndex=v.style.background=v.style.minHeight=v.style.boxShadow=v.style.transform=""}}
-function keepSnaps(){let n=0;for(let i=NAVSTACK.length-1;i>=0;i--){if(NAVSTACK[i].snap){n++;if(n>6)NAVSTACK[i].snap=null}}}
+function keepSnaps(){let n=0;for(let i=NAVSTACK.length-1;i>=0;i--){if(NAVSTACK[i].snap){n++;if(n>3)NAVSTACK[i].snap=null}}}
 function settleAll(){const v=$("#view");
-  document.querySelectorAll("body>.pgsnap,body>.pgdim").forEach(e=>{e.getAnimations({subtree:true}).forEach(a=>a.cancel());e.remove();if(e._inner){e._inner.style.transform="";e._dim.style.opacity="0";e.style.zIndex="3";e.style.boxShadow="";e.style.transform=""}});
-  if(v){v.getAnimations().forEach(a=>a.cancel());liftView(false)}document.documentElement.style.overflowX=""}
+  /* cancel only the transition animations this code started: asking the page for all animations forces a full restyle */
+  LIVE.forEach(a=>{try{a.cancel()}catch(e){}});LIVE.clear();
+  document.querySelectorAll("body>.pgsnap,body>.pgdim").forEach(e=>{e.remove();if(e._inner){e._inner.style.transform="";e._dim.style.opacity="0";e.style.zIndex="3";e.style.boxShadow="";e.style.transform=""}});
+  if(v)liftView(false);document.documentElement.style.overflowX=""}
 window.settleAll=settleAll;
 function animView(dir,snap){const v=$("#view");settleAll();if(!v||RM){snap&&snap.remove();return}
   /* tabs "fade through": the old page fades out first, then the new one fades in, so the two never show at once;
      the copy sits under the top bar so the bar never blinks */
-  if(dir==="tab"||!snap){if(snap){snap.style.zIndex="4";document.body.appendChild(snap);snap.animate([{opacity:1},{opacity:0}],{duration:120,easing:"ease-out",fill:"forwards"}).onfinish=()=>snap.remove()}
-    v.animate([{opacity:0,transform:"translateY(8px)"},{opacity:1,transform:"none"}],{duration:260,delay:snap?110:0,easing:OUT,fill:"backwards"});return}
+  if(dir==="tab"||!snap){if(snap){snap.style.zIndex="4";document.body.appendChild(snap);anim(snap,[{opacity:1},{opacity:0}],{duration:120,easing:"ease-out",fill:"forwards"}).onfinish=()=>snap.remove()}
+    anim(v,[{opacity:0,transform:"translateY(8px)"},{opacity:1,transform:"none"}],{duration:260,delay:snap?110:0,easing:OUT,fill:"backwards"});return}
   const d=480;document.body.appendChild(snap);
   if(dir==="fwd"){liftView(true);
-    const a=v.animate([{transform:"translateX(100%)"},{transform:"translateX(0)"}],{duration:d,easing:IOS});
-    snap._inner.animate([{transform:"translateX(0)"},{transform:"translateX(-30%)"}],{duration:d,easing:IOS,fill:"forwards"});
-    snap._dim.animate([{opacity:0},{opacity:1}],{duration:d,easing:IOS,fill:"forwards"});
-    a.onfinish=()=>{liftView(false);snap.remove();snap.getAnimations().forEach(x=>x.cancel());snap._inner.getAnimations().forEach(x=>x.cancel());snap._dim.getAnimations().forEach(x=>x.cancel())}}
+    const a=anim(v,[{transform:"translateX(100%)"},{transform:"translateX(0)"}],{duration:d,easing:IOS});
+    anim(snap._inner,[{transform:"translateX(0)"},{transform:"translateX(-30%)"}],{duration:d,easing:IOS,fill:"forwards"});
+    anim(snap._dim,[{opacity:0},{opacity:1}],{duration:d,easing:IOS,fill:"forwards"});
+    a.onfinish=()=>{liftView(false);snap.remove();cancelOn(snap);cancelOn(snap._inner);cancelOn(snap._dim)}}
   else{snap.style.zIndex="4";snap.style.boxShadow="-14px 0 34px rgba(10,12,16,.12)";
     const m=mainBox(),dim=document.createElement("div");dim.className="pgdim";dim.style.cssText=`position:fixed;top:0;bottom:0;left:${m.left}px;width:${m.width}px;background:var(--dim,rgba(10,12,16,.16));z-index:3;pointer-events:none`;
     document.body.insertBefore(dim,snap);document.documentElement.style.overflowX="clip";
-    v.animate([{transform:"translateX(-30%)"},{transform:"translateX(0)"}],{duration:d,easing:IOS});
-    dim.animate([{opacity:1},{opacity:0}],{duration:d,easing:IOS,fill:"forwards"});
-    snap.animate([{transform:"translateX(0)"},{transform:"translateX(100%)"}],{duration:d,easing:IOS,fill:"forwards"}).onfinish=()=>{snap.remove();dim.remove();document.documentElement.style.overflowX=""}}}
+    anim(v,[{transform:"translateX(-30%)"},{transform:"translateX(0)"}],{duration:d,easing:IOS});
+    anim(dim,[{opacity:1},{opacity:0}],{duration:d,easing:IOS,fill:"forwards"});
+    anim(snap,[{transform:"translateX(0)"},{transform:"translateX(100%)"}],{duration:d,easing:IOS,fill:"forwards"}).onfinish=()=>{snap.remove();dim.remove();document.documentElement.style.overflowX=""}}}
 window.animView=animView;
 const _go8=go;
 go=function(v,opt){const from=cur,base=v.split(":")[0],fromBase=(from||"").split(":")[0];
@@ -7063,16 +7103,16 @@ document.addEventListener("click",e=>{const b=e.target.closest("#view button.bac
   const end=()=>{if(!g)return;const G=g;g=null;if(!G.on)return;const v=$("#view"),s=G.top.snap,w=mainBox().width,f=G.x/w;
     const h=G.h,vel=h.length>1?(h[h.length-1][1]-h[0][1])/Math.max(1,h[h.length-1][0]-h[0][0]):0;const d=Math.max(180,380*(1-f));
     if(f>0.35||vel>0.45){v.style.transform="";
-      v.animate([{transform:`translateX(${G.x}px)`},{transform:`translateX(${w}px)`}],{duration:d,easing:OUT,fill:"forwards"});
-      s._inner.style.transform="";s._inner.animate([{transform:`translateX(${-30*(1-f)}%)`},{transform:"translateX(0)"}],{duration:d,easing:OUT,fill:"forwards"});
-      s._dim.style.opacity="0";s._dim.animate([{opacity:1-f},{opacity:0}],{duration:d,easing:OUT});
+      anim(v,[{transform:`translateX(${G.x}px)`},{transform:`translateX(${w}px)`}],{duration:d,easing:OUT,fill:"forwards"});
+      s._inner.style.transform="";anim(s._inner,[{transform:`translateX(${-30*(1-f)}%)`},{transform:"translateX(0)"}],{duration:d,easing:OUT,fill:"forwards"});
+      s._dim.style.opacity="0";anim(s._dim,[{opacity:1-f},{opacity:0}],{duration:d,easing:OUT});
       setTimeout(()=>{let fired=false;
-        const done=()=>{if(fired)return;fired=true;v.getAnimations().forEach(a=>a.cancel());liftView(false);
-          setTimeout(()=>{s.remove();s._inner.getAnimations().forEach(a=>a.cancel());s._inner.style.transform="";s._dim.style.opacity="0"},160)};
+        const done=()=>{if(fired)return;fired=true;cancelOn(v);liftView(false);
+          setTimeout(()=>{s.remove();cancelOn(s._inner);s._inner.style.transform="";s._dim.style.opacity="0"},160)};
         SWIPING=done;if(HSYNC&&HD>0)history.back();else smartBack();
         setTimeout(()=>{if(!fired){SWIPING=false;done()}},900)},d)}
-    else{v.animate([{transform:`translateX(${G.x}px)`},{transform:"translateX(0)"}],{duration:300,easing:OUT}).onfinish=()=>{liftView(false)};v.style.transform="";
-      s._inner.animate([{transform:`translateX(${-30*(1-f)}%)`},{transform:"translateX(-30%)"}],{duration:300,easing:OUT}).onfinish=()=>{s.remove();s._inner.style.transform="";s._dim.style.opacity="0"}}};
+    else{anim(v,[{transform:`translateX(${G.x}px)`},{transform:"translateX(0)"}],{duration:300,easing:OUT}).onfinish=()=>{liftView(false)};v.style.transform="";
+      anim(s._inner,[{transform:`translateX(${-30*(1-f)}%)`},{transform:"translateX(-30%)"}],{duration:300,easing:OUT}).onfinish=()=>{s.remove();s._inner.style.transform="";s._dim.style.opacity="0"}}};
   addEventListener("touchend",end);addEventListener("touchcancel",end);
 })();
 
@@ -7120,7 +7160,8 @@ function knobs(){document.querySelectorAll("#view .rtabs, #view .seg3, #view .im
   k.style.transform=`translateX(${x}px)`;k.style.width=w+"px";
   if(p&&!RM&&(p.x!==x||p.w!==w))k.animate([{transform:`translateX(${p.x}px)`,width:p.w+"px"},{transform:`translateX(${x}px)`,width:w+"px"}],{duration:SPR.dur,easing:SPR.easing});
   PREV[key]={x,w}})}
-let kq=0;new MutationObserver(()=>{if(kq)return;kq=requestAnimationFrame(()=>{kq=0;knobs()})}).observe($("#view"),{childList:true,subtree:true});
+/* also follow a change of the pressed or selected button (text size, theme): those only change an attribute */
+let kq=0;new MutationObserver(()=>{if(kq)return;kq=requestAnimationFrame(()=>{kq=0;knobs()})}).observe($("#view"),{childList:true,subtree:true,attributes:true,attributeFilter:["aria-pressed","aria-selected"]});
 addEventListener("resize",()=>knobs());window.knobs=knobs;
 
 /* figures grow out of the page into the viewer, and shrink back on close */
@@ -7184,15 +7225,15 @@ vHome=function(){const t=todayCounts(),s=continueSec(),r=s&&RMAP[s.r],st=r&&regi
   V().innerHTML=`<div class="hero hhome"><span class="eyebrow">${esc(date)}${sk?` · ${sk}-day streak`:""}</span><h1>Today</h1></div>
   <div class="tbody">
   ${searchBtn("Structures, conditions, nerves")}
-  ${s?`<button class="ccard2" data-go="region:${s.r}" data-sec="${s.id}">${fig?`<span class="art"><img src="${figSrc(fig)}" alt="" draggable="false"></span>`:""}
+  ${s?`<button class="ccard2" data-go="region:${s.r}" data-sec="${s.id}">${fig?`<span class="art"><img src="${figThumb(fig)}" alt="" draggable="false"></span>`:""}
      <span class="cm"><span class="kicker">Continue reading</span><span class="ttl">${esc(r.name)}</span><span class="csub">Section ${idx} of ${r.sections.length} · ${esc(s.t)}</span>
      <span class="cprog"><span class="pbar"><i style="width:${st.pct}%"></i></span><span class="go">Resume ${arrow}</span></span></span></button>`:""}
   <section><h2 class="lh">Your plan</h2><div class="llist">${plan.concat(row('data-go="practical"',"bone","Bench exam",`${BENCH.length} timed practical stations`,"")).join("")}</div></section>
   <section><h2 class="lh">Explore</h2><div class="xtiles">
     ${tile("imaging",scanK?imSrc(scanK):"",true,"Imaging",typeof CONDS!=="undefined"?`${CONDS.length} conditions`:"Scans")}
-    ${tile("atlas",atlasK?figSrc(atlasK):"",false,"Atlas",`${REGIONS.length} regions`)}
-    ${tile("tracer",trK?figSrc(trK):"",false,"Nerve &amp; vessel tracer",`${TRACE.length} courses`)}
-    ${tile("tables",tbK?figSrc(tbK):"",false,"Tables &amp; mnemonics",`${TABLES.length} tables`)}
+    ${tile("atlas",atlasK?figThumb(atlasK):"",false,"Atlas",`${REGIONS.length} regions`)}
+    ${tile("tracer",trK?figThumb(trK):"",false,"Nerve &amp; vessel tracer",`${TRACE.length} courses`)}
+    ${tile("tables",tbK?figThumb(tbK):"",false,"Tables &amp; mnemonics",`${TABLES.length} tables`)}
   </div></section></div>`};
 
 /* ---- Atlas: grouped lists ---- */
@@ -7699,7 +7740,7 @@ let FM={a:null,r:null,f:[]},PAGE=24,QY="";
 const srcOk=k=>FIGSRC==="all"||FIG[k][1]===FIGSRC;
 const regsOf=a=>a?AMAP[a].regs:[];
 const areaOfReg=r=>(AREAS.find(a=>a.hot===r)||AREAS.find(a=>a.regs.includes(r))||{}).id||null;
-function keysFor(s){const I=index();let ks=ALLFIGS.filter(srcOk);
+function keysFor(s){const I=s.f.length?index():null;let ks=ALLFIGS.filter(srcOk);
   if(s.r)ks=ks.filter(k=>FIG[k][3]===s.r);else if(s.a){const R=regsOf(s.a);ks=ks.filter(k=>R.includes(FIG[k][3]))}
   if(s.f.length)ks=ks.filter(k=>s.f.every(p=>I.by[k].has(p)));return ks}
 const depth=s=>(s.a?1:0)+(s.r&&!(s.a&&regsOf(s.a).length===1)?1:0)+s.f.length;
@@ -7742,12 +7783,12 @@ function zoomTo(box,done){const svg=$(".fmsvg");if(!svg){VB=box;done&&done();ret
 /* ---------- panel ---------- */
 function counts(){const c={a:{},r:{}};for(const k of ALLFIGS){if(!srcOk(k))continue;const r=FIG[k][3];c.r[r]=(c.r[r]||0)+1}
   AREAS.forEach(a=>{c.a[a.id]=a.regs.reduce((s,r)=>s+(c.r[r]||0),0)});return c}
-function crumbs(s){const I=index(),out=[{t:"Head & neck",s:{a:null,r:null,f:[]}}];
+function crumbs(s){const I=s.f.length?index():null,out=[{t:"Head & neck",s:{a:null,r:null,f:[]}}];
   if(s.a)out.push({t:AMAP[s.a].name,s:{a:s.a,r:regsOf(s.a).length===1?s.a&&regsOf(s.a)[0]:null,f:[]}});
   if(s.r&&regsOf(s.a).length>1)out.push({t:SHORT[s.r]||RMAP[s.r].name,s:{a:s.a,r:s.r,f:[]}});
   s.f.forEach((p,i)=>out.push({t:(I.ph.get(p)||{}).name||p,s:{a:s.a,r:s.r,f:s.f.slice(0,i+1)}}));return out}
 function cardsHTML(ks,from,n){return ks.slice(from,from+n).map(k=>figCard(k,ks,"fmcard")).join("")}
-function panelHTML(s,cnt){const I=index(),ks=keysFor(s),cr=crumbs(s),lvl=cr.length-1;
+function panelHTML(s,cnt){const I=(s.a||s.r||s.f.length)?index():null,ks=keysFor(s),cr=crumbs(s),lvl=cr.length-1;
   const title=s.f.length?I.ph.get(s.f[s.f.length-1]).name:s.r?(RMAP[s.r]||{}).name:s.a?AMAP[s.a].name:"Tap a part of the head and neck";
   const sub=s.f.length?`${ks.length} figure${ks.length===1?"":"s"} label it${s.f.length>1?" together with the structures before it":""}. Opening one zooms onto the label.`
     :s.a||s.r?`${ks.length} figures. Pick a structure below to narrow them down.`:`${ALLFIGS.filter(srcOk).length} figures, filed by region. Or search for any labelled structure.`;
@@ -7893,4 +7934,33 @@ if(!window.Android&&"serviceWorker" in navigator&&(location.protocol==="https:"|
   navigator.serviceWorker.addEventListener("message",ev=>{if(ev.data==="cached"&&typeof toast==="function")toast("Saved for offline use")});
   window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
 }
+</script>
+<script>
+/* v17.7 waiting states */
+(function(){const H=document.documentElement;H.classList.add("fadeimg");
+  /* thumbnails: mark them loaded so they fade in */
+  document.addEventListener("load",e=>{const t=e.target;if(t&&t.tagName==="IMG")t.classList.add("ld")},true);
+  document.addEventListener("error",e=>{const t=e.target;if(t&&t.tagName==="IMG")t.classList.add("ld")},true);
+  document.querySelectorAll("img").forEach(i=>{if(i.complete)i.classList.add("ld")});
+  /* busy bar: armed on touch, so it is already running on the compositor if the tap's work blocks the page;
+     it only becomes visible after 0.15 s (the pill after 0.5 s), so quick taps never show it */
+  let off=0,armed=false;
+  const on=()=>{H.classList.add("busy");armed=true;clearTimeout(off);off=setTimeout(done,5000)};
+  const done=()=>{armed=false;clearTimeout(off);H.classList.remove("busy")};
+  const afterPaint=()=>requestAnimationFrame(()=>requestAnimationFrame(done));
+  addEventListener("pointerdown",e=>{if(e.button>0)return;const t=e.target.closest&&e.target.closest("button,a,[data-go],[data-fig],[role=button]");if(t&&!t.disabled)on()},true);
+  addEventListener("pointerup",()=>{if(armed){clearTimeout(off);off=setTimeout(done,400)}},true);
+  addEventListener("pointercancel",done,true);addEventListener("scroll",()=>{if(armed)done()},{passive:true,capture:true});
+  addEventListener("click",()=>{if(armed)afterPaint()});
+  window.busyOn=on;window.busyDone=done;
+  /* viewer: spinner until the full-size figure is decoded */
+  const watch=()=>{const im=document.querySelector("#lb .lbimg img,#lb .pzbox img");if(!im||im.dataset.w)return;im.dataset.w="1";
+    const box=im.closest(".lbimg,.pzbox");if(im.complete&&im.naturalWidth)return;box.classList.add("ldg");
+    const fin=()=>box.classList.remove("ldg");(im.decode?im.decode().then(fin,fin):im.addEventListener("load",fin,{once:true}));im.addEventListener("error",fin,{once:true})};
+  const lbObs=new MutationObserver(watch);
+  new MutationObserver(()=>{const lb=document.getElementById("lb");if(lb&&!lb._w){lb._w=1;lbObs.observe(lb,{childList:true,subtree:true});watch()}}).observe(document.body,{childList:true});
+  /* launch screen: fade out once the first page has painted */
+  const boot=document.getElementById("boot");
+  if(boot)requestAnimationFrame(()=>requestAnimationFrame(()=>{boot.classList.add("out");setTimeout(()=>boot.remove(),400)}));
+})();
 </script>
