@@ -1274,6 +1274,13 @@ main{overflow-x:clip}
 /* v17.2: structures mentioned in plain text link to their figures */
 .lnk2{cursor:pointer;text-decoration:underline dotted;text-decoration-color:color-mix(in srgb,var(--accent) 55%,transparent);text-underline-offset:3px;text-decoration-thickness:1.5px}
 .lnk2:hover,.lnk2:focus-visible{color:var(--accent)}
+
+/* v17.5 operations */
+.opslist{margin-top:8px}
+.opsec{margin-top:18px;padding:16px;border:1px solid var(--line);border-radius:16px;background:var(--surface)}
+.opsec h2{font-size:17px;margin-bottom:8px}
+.opsec ul,.opsec ol{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:7px}
+.oprisk li span{display:block;color:var(--muted);font-size:14px}
 </style>
 
 <div class="app">
@@ -5432,10 +5439,79 @@ OR("cervcut","Cutaneous branches of the cervical plexus, top to bottom",["vessel
 OR("vertseg","Course of the vertebral artery",["vessels","neckbones"],"Order from the subclavian to the brain.",
  ["Subclavian artery","C6 transverse foramen","Transverse foramina C6 to C1","Over the posterior arch of atlas","Foramen magnum","Basilar artery"],"");
 
+/* v17.5: facial nerve in depth, thin regions filled out */
+X("facial","Surgical landmarks along the course",["d153_43","s47_9","g541_0","s186_50","s188_56"],[
+ "**Labyrinthine segment** (3–4 mm): its entrance, the **meatal foramen**, is the narrowest point of the fallopian canal (about 0.7 mm) and the likely site of compression in Bell's palsy. In the middle fossa approach it lies in front of the superior canal ampulla and behind the cochlea.",
+ "**Geniculate ganglion and first genu:** the **greater petrosal nerve** leaves forwards through the facial hiatus on the floor of the middle fossa, and can be followed back to the geniculate ganglion in the middle fossa approach.",
+ "**Tympanic (horizontal) segment:** starts at the **cochleariform process**, a constant landmark, and runs above the oval window and below the lateral semicircular canal. It is the commonest site of bony **dehiscence**, often just above the oval window.",
+ "**Second genu:** just below and medial to the **lateral semicircular canal**, behind the pyramidal eminence. In mastoidectomy the lateral canal and the **short process of the incus** point to it.",
+ "**Mastoid (vertical) segment:** runs down medial to the **digastric ridge** to the stylomastoid foramen. The **chorda tympani** leaves a few millimetres above the foramen and runs up laterally; the **facial recess** between the nerve and the chorda is the route of the posterior tympanotomy.",
+ "**Outside the skull:** the trunk leaves the stylomastoid foramen about 1 cm deep and anteroinferior to the **tragal pointer**, just above the posterior belly of digastric and lateral to the styloid process; it lies 6–8 mm deep to the lower end of the **tympanomastoid suture**."],
+ "Monitoring helps but does not replace anatomy: find the nerve early at a constant landmark and work along it.");
+X("facial","Testing the facial nerve",["d153_45","g530_0","g551_0","d153_43"],[
+ "**Topognostic tests** localise a lesion by which branches have failed: **Schirmer's test** for tear production (greater petrosal; a reduction of more than 30% compared with the other side is significant), the **stapedial reflex** (nerve to stapedius), **taste** testing or electrogustometry (chorda tympani) and submandibular salivary flow. They are less reliable than imaging.",
+ "**Electroneurography (ENoG):** compares the muscle response of the two sides to supramaximal stimulation at the stylomastoid foramen. It is useful only in a **complete palsy**, from about day 3 to day 14. **Degeneration of 90% or more** predicts a poor recovery and has been used to select patients for decompression.",
+ "**Electromyography (EMG):** voluntary motor unit potentials mean the nerve is in continuity; **fibrillation potentials** from about 2 weeks show denervation; **polyphasic reinnervation potentials** appear before clinical recovery.",
+ "**Nerve excitability test:** compares the threshold current between the two sides; a difference of more than 3.5 mA is significant.",
+ "**Imaging:** HRCT for fractures and the bony canal; MRI with gadolinium for tumours, the cerebellopontine angle, and enhancement in Bell's palsy and Ramsay Hunt syndrome."],
+ "ENoG needs time for Wallerian degeneration to show, so it is not meaningful in the first 72 hours.");
+X("facial","Bell's palsy and Ramsay Hunt syndrome",["d153_43","d153_44","e016","g523_0"],[
+ "**Bell's palsy:** acute idiopathic lower motor neuron palsy reaching its worst within 72 hours, probably viral (HSV-1) inflammation with swelling of the nerve at the meatal foramen. It is a diagnosis of exclusion: examine the ear, parotid, other cranial nerves and skin.",
+ "**Treatment:** oral prednisolone started within 72 hours (for example 50 mg daily for 10 days) and eye protection (lubricants, taping the eye at night). Antivirals add little alone and may be added in severe palsy. About 70% recover fully without treatment, and more with steroids.",
+ "**Ramsay Hunt syndrome (herpes zoster oticus):** reactivation of VZV in the geniculate ganglion: otalgia, vesicles on the concha, ear canal or palate, facial palsy, and often hearing loss and vertigo from VIII involvement. The outlook is worse than in Bell's palsy; treat with steroids and an antiviral (aciclovir or valaciclovir).",
+ "**Red flags against Bell's palsy:** onset over weeks, recurrence on the same side, twitching before the palsy, other cranial nerve signs, a parotid mass, ear discharge or cholesteatoma, bilateral palsy, or no recovery by 3–4 months. Image with MRI."],
+ "Bilateral facial palsy is rarely Bell's: think of Lyme disease, Guillain–Barré syndrome, sarcoidosis, leukaemia and HIV.");
+X("facial","Facial nerve injury: trauma and surgery",["d153_43","s47_9","s188_56","s186_50"],[
+ "**Temporal bone fractures:** palsy is commoner when the fracture violates the otic capsule (classically 'transverse'); the usual site is around the **geniculate ganglion**. Immediate complete palsy suggests transection or a bone fragment: assess with HRCT and ENoG and consider exploration. Delayed palsy usually reflects swelling and recovers with conservative care.",
+ "**Iatrogenic injury in ear surgery:** most often in the **tympanic segment** (dehiscence above the oval window) and at the **second genu** or **mastoid segment** during mastoidectomy, especially in revision surgery and malformed ears. Explore early: decompress a minor injury; repair by **end-to-end anastomosis** or a **cable graft** (great auricular or sural nerve) when a large part of the nerve is cut.",
+ "**Parotid surgery:** temporary weakness, most often of the marginal mandibular branch, is common; permanent palsy is uncommon in benign surgery when the trunk is found first.",
+ "**Sunderland grades of nerve injury:** 1 conduction block (neuropraxia, full recovery); 2 axonotmesis with intact endoneurium (good recovery); 3 endoneurium disrupted; 4 perineurium disrupted; 5 complete transection (neurotmesis). From grade 3 recovery is incomplete and synkinesis is likely."],
+ "After repair, recovery takes many months and is usually incomplete, with House–Brackmann grade III the best usual result.");
+X("et","Eustachian tube dysfunction",["ns205_3","g600_2","s204_14","s204_15"],[
+ "**Obstructive (dilatory) dysfunction:** the tube fails to open, giving aural fullness, muffled hearing, pain with pressure change, retraction and effusion. Causes include adenoids, rhinosinusitis, allergy, cleft palate (failure of tensor veli palatini) and nasopharyngeal tumours.",
+ "**Patulous tube:** the tube stays open, so the patient hears their own voice and breathing (**autophony**); the drum moves with respiration. It follows weight loss, pregnancy and radiotherapy, and is relieved by lying down or sniffing.",
+ "**Baro-challenge-induced dysfunction:** symptoms only with flying or diving, from failure to equalise during pressure change.",
+ "**Assessment:** otoscopy and tympanometry (type B or C), the **Valsalva** and **Toynbee** manoeuvres, the ETDQ-7 questionnaire, and tubomanometry or sonotubometry in specialist clinics; nasendoscopy of the nasopharynx in every adult with a unilateral effusion.",
+ "**Treatment:** treat the nose and the nasopharynx; autoinflation; ventilation tubes; and **balloon dilation** of the cartilaginous tube for persistent obstructive dysfunction."],
+ "A unilateral middle ear effusion in an adult is a nasopharyngeal carcinoma until the nasopharynx has been seen.");
+X("itf","Parapharyngeal space",["g557_1","g557_2","g526_2","nd69_46"],[
+ "An **inverted pyramid** from the skull base down to the greater horn of the hyoid. **Medially** the pharyngobasilar fascia, superior constrictor and tensor veli palatini; **laterally** the medial pterygoid, ramus of the mandible and deep lobe of the parotid; **in front** the pterygomandibular raphe; **behind** the prevertebral fascia.",
+ "The **tensor–vascular–styloid fascia** divides it into a **prestyloid** compartment (deep lobe of parotid, fat, minor salivary glands, branches of V3 and the ascending pharyngeal artery) and a **poststyloid** compartment (carotid sheath with the ICA and IJV, cranial nerves **IX to XII**, the **sympathetic chain** and lymph nodes).",
+ "**Tumours:** prestyloid masses are mostly **pleomorphic adenomas** of the deep lobe and push the ICA backwards; poststyloid masses are mostly **paragangliomas** and **schwannomas** and push the ICA forwards. A dumbbell tumour passes through the stylomandibular tunnel.",
+ "**Presentation:** the tonsil and soft palate are pushed towards the midline; cranial nerve palsies or Horner's syndrome suggest a poststyloid lesion.",
+ "**Approaches:** transcervical (most), transparotid for deep lobe tumours, combined with mandibulotomy for large or high lesions; transoral only in selected cases."],
+ "Never biopsy a parapharyngeal mass through the mouth before imaging: it may be a paraganglioma or the carotid artery.");
+X("embryo","Branchial and thyroglossal anomalies in surgery",["d141_16","e029","s263_50","g599_0"],[
+ "**Second arch anomalies** (commonest): the opening is at the **anterior border of the sternocleidomastoid** in its lower third; the tract passes up **between the internal and external carotid arteries**, superficial to IX and XII, to the **tonsillar fossa**.",
+ "**Third arch anomalies:** the tract passes **behind the internal carotid artery**, between IX and XII, and pierces the thyrohyoid membrane **above the internal laryngeal nerve** to open into the **piriform fossa**.",
+ "**Fourth arch anomalies:** the tract runs **below the superior laryngeal nerve** from the apex of the piriform fossa; most present on the **left** as recurrent neck abscess or acute suppurative thyroiditis. Endoscopic cautery of the sinus opening is often enough.",
+ "**First cleft anomalies (Work):** see the section above; the tract is intimately related to the **facial nerve** in the parotid.",
+ "**Thyroglossal duct cyst:** midline, moves on swallowing and on protruding the tongue; the tract runs from the **foramen caecum** through or close to the **body of the hyoid**. The **Sistrunk operation** removes the cyst, the central part of the hyoid and a core of tongue base up to the foramen caecum, which cuts recurrence."],
+ "Before removing a thyroglossal cyst, confirm a normal thyroid gland in its usual place (ultrasound): the cyst may hold the only thyroid tissue.");
+C("facial","Where is the narrowest part of the fallopian canal?","The meatal foramen at the start of the labyrinthine segment (about 0.7 mm).");
+C("facial","Commonest site of dehiscence of the facial canal?","The tympanic segment, above the oval window.");
+C("facial","What landmarks locate the second genu in mastoidectomy?","The lateral semicircular canal and the short process of the incus.");
+C("facial","When is ENoG useful and what result predicts a poor outcome?","In a complete palsy, from about day 3 to 14; degeneration of 90% or more.");
+C("facial","Features of Ramsay Hunt syndrome?","Otalgia, vesicles on the concha, canal or palate, facial palsy, often hearing loss and vertigo; VZV in the geniculate ganglion.");
+C("facial","Treatment of Bell's palsy?","Oral prednisolone within 72 hours and eye protection; antivirals only as an add-on in severe palsy.");
+C("facial","Which Sunderland grade is complete transection?","Grade 5 (neurotmesis).");
+C("et","What is autophony and when does it occur?","Hearing one's own voice and breathing loudly: a patulous Eustachian tube (weight loss, pregnancy, radiotherapy).");
+C("itf","What divides the parapharyngeal space into prestyloid and poststyloid compartments?","The tensor–vascular–styloid fascia.");
+C("itf","Commonest prestyloid and poststyloid tumours?","Prestyloid: pleomorphic adenoma of the deep lobe. Poststyloid: paraganglioma and schwannoma.");
+C("embryo","Where does a second branchial cleft tract run?","From the anterior border of SCM, between the internal and external carotid arteries, superficial to IX and XII, to the tonsillar fossa.");
+C("embryo","What does the Sistrunk operation remove?","The thyroglossal cyst and tract, the central part of the hyoid and a core of tongue base up to the foramen caecum.");
+Q("facial","A patient with facial palsy has a dry eye. The lesion must be at or above the:",["Chorda tympani","Nerve to stapedius","Geniculate ganglion","Stylomastoid foramen"],2,"Tears depend on the greater petrosal nerve, which leaves at the geniculate ganglion.");
+Q("facial","ENoG is most useful:",["On day 1 of any palsy","In a complete palsy between days 3 and 14","In a partial palsy after 6 months","Only in bilateral palsy"],1,"It needs a complete palsy and time for Wallerian degeneration to show.");
+Q("facial","Vesicles on the concha with facial palsy and vertigo suggest:",["Bell's palsy","Ramsay Hunt syndrome","Acoustic neuroma","Malignant otitis externa"],1,"Herpes zoster oticus: VZV in the geniculate ganglion.");
+Q("itf","A parapharyngeal mass pushing the ICA forwards is most likely a:",["Pleomorphic adenoma","Lipoma","Paraganglioma or schwannoma","Minor salivary carcinoma"],2,"Poststyloid lesions displace the ICA anteriorly.");
+Q("embryo","A recurrent left neck abscess with acute suppurative thyroiditis suggests a:",["Second arch sinus","Thyroglossal duct cyst","Fourth arch sinus","First cleft anomaly"],2,"Fourth arch sinuses open at the piriform apex, mostly on the left.");
+
 /* ---------------- INDEXES ---------------- */
 const GROUPS=[["Ear",["temporal","extear","midear","et","inner","facial"]],["Nose & sinuses",["nose","sinus","orbit"]],["Mouth & throat",["oral","salivary","pharynx"]],["Larynx & neck",["larynx","neck","vessels","thyroid"]],["Face, jaw & development",["itf","trigeminal","embryo"]],["Bones",["skullbones","mandible","neckbones"]]];
 const RMAP={};REGIONS.forEach(r=>RMAP[r.id]=r);{const ord=GROUPS.flatMap(g=>g[1]);REGIONS.sort((a,b)=>ord.indexOf(a.id)-ord.indexOf(b.id));REGIONS.forEach((r,i)=>r.n=i+1)}
 GROUPS.forEach(([g,ids])=>ids.forEach(id=>RMAP[id]&&(RMAP[id].g=g)));
+/* v17.5: figures for sections that had none */
+{const FIXF={"temporal-s6": ["s22_14", "s24_17", "g504_0"], "extear-s3": ["d199_21", "g525_0"], "extear-s5": ["s30_28", "g540_0", "e062"], "extear-s6": ["g544_0", "g500_0"], "midear-s8": ["g541_0", "e064"], "et-s3": ["ns205_3", "s204_14", "s54_20"], "et-s4": ["g600_2", "ns205_3"], "et-s5": ["s201_10", "ns205_5"], "et-s6": ["s204_15", "s204_14", "g540_0"], "et-s7": ["g590_0"], "inner-s10": ["s47_12", "g543_0", "g539_2"], "facial-s4": ["g523_0", "e016"], "facial-s5": ["d153_43", "g544_0", "g544_1"], "facial-s6": ["s188_56", "s186_50", "d153_43"], "sinus-s7": ["s102_35", "s113_66", "g554_0"], "orbit-s2": ["nd105_16", "nd92_2", "nd94_0"], "orbit-s7": ["nd94_0", "g537_1", "g529_1"], "oral-s7": ["e025", "g599_2", "g598_0"], "oral-s8": ["g593_2", "g599_2", "g599_1"], "larynx-s10": ["dl_cricoid", "s237_9"], "larynx-s12": ["s237_9", "s234_5", "s244_25"], "vessels-s10": ["e029", "d141_16", "e037"], "thyroid-s5": ["d128_89", "g599_0"], "thyroid-s7": ["s274_71", "g557_1"], "itf-s7": ["g552_0", "nd69_46", "g550_0"], "trigeminal-s6": ["nd65_42", "g589_3", "g590_1"], "embryo-s3": ["g591_0"], "embryo-s4": ["g598_1", "g599_0"], "embryo-s6": ["s127_1", "e010"], "embryo-s7": ["s182_44", "s188_56", "s30_28"], "mandible-s7": ["g595_1", "g551_0"]};REGIONS.forEach(r=>r.sections.forEach(x=>{if(FIXF[x.id]&&!(x.f||[]).some(k=>FIG[k]))x.f=FIXF[x.id].filter(k=>FIG[k])}))}
 const SECTIONS=REGIONS.flatMap(r=>r.sections);
 const SRC={S:"ENT Steps Anatomy",D:"Dr. Sameh Doss handout",G:"Gray's Atlas of Anatomy, 2nd ed.",F:"Dr. Mohamed El-Fiky, Mini Atlas of Anatomy Part V: Head & Neck"};
 const figSrc=k=>(typeof GURL!=="undefined"&&GURL[k])||"fig2/"+k+".jpg";
@@ -7736,6 +7812,67 @@ document.addEventListener("click",e=>{if(typeof cur==="undefined"||cur.split(":"
 document.addEventListener("input",e=>{if(e.target.id==="fmq"){QY=e.target.value;suggest()}});
 document.addEventListener("change",e=>{if(e.target.id==="fmsrc"){FIGSRC=e.target.value;update(false)}});
 addEventListener("resize",()=>{if($(".fmpanel")&&CNT)placePins(FM,CNT)});
+})();
+/* ================= v17.5 OPERATIONS: surgical anatomy, one operation at a time ================= */
+(function(){
+const OPS=[
+ {id:"tonsil",t:"Tonsillectomy",r:["pharynx","oral"],
+  land:["Anterior pillar (**palatoglossus**) and posterior pillar (**palatopharyngeus**)","The **tonsil capsule**: the plane of dissection","Tonsil bed: **superior constrictor**, with the glossopharyngeal nerve deep to it"],
+  steps:["Boyle–Davis gag; check the teeth and that the gag does not compress the tongue","Grasp the tonsil and incise the mucosa just inside the anterior pillar at the upper pole","Find the **capsule** and dissect in the plane between capsule and constrictor, from the upper pole downwards","Control the **paratonsillar (external palatine) vein** and the **tonsillar branch of the facial artery** at the lower pole","Preserve both pillars and the uvula"],
+  risk:[["Paratonsillar vein","Main source of venous bleeding"],["Tonsillar artery","Arterial bleeding at the lower pole"],["Glossopharyngeal nerve","Lies deep to the constrictor: altered taste, referred otalgia"],["Internal carotid artery","About 2.5 cm posterolateral; closer with a medial loop"],["Lingual nerve","Pressure from the gag: tongue numbness"]]},
+ {id:"trache",t:"Tracheostomy",r:["larynx","neck"],
+  land:["**Thyroid notch**, **cricoid cartilage** and **sternal notch**","Midline between the strap muscles","**Thyroid isthmus** over rings 2–4"],
+  steps:["Neck extended; horizontal incision midway between cricoid and sternal notch","Divide the platysma; ligate or retract the **anterior jugular veins**","Separate the **sternohyoid** and **sternothyroid** in the midline","Retract or divide and suture-ligate the **thyroid isthmus**","Open the trachea at rings 2–3 or 3–4 (never ring 1), insert the tube and confirm with capnography"],
+  risk:[["Cricoid cartilage","Injury or a high stoma gives subglottic stenosis"],["Thyroidea ima","Inconstant artery in front of the trachea"],["Brachiocephalic trunk","High in the neck in children; a low tube can erode it"],["Recurrent laryngeal nerve","Stay in the midline"],["Oesophagus","Posterior tracheal wall injury"],["Pleura","Apex rises into the neck in children"]]},
+ {id:"thyroid",t:"Thyroidectomy",r:["thyroid","larynx","neck"],
+  land:["**Superior pole** and the cricothyroid space","**Tracheo-oesophageal groove**","**Ligament of Berry** where the gland is fixed to the trachea","**Tubercle of Zuckerkandl**: the nerve usually lies deep to it"],
+  steps:["Collar incision in a skin crease; raise subplatysmal flaps","Open the midline and retract (or divide high) the strap muscles","Ligate the **middle thyroid vein** and roll the lobe forwards","Ligate superior pole vessels **close to the gland** to spare the external laryngeal nerve","Find the **recurrent laryngeal nerve** low in the tracheo-oesophageal groove and follow it to its entry under the inferior constrictor","Ligate inferior thyroid artery branches on the capsule; keep the **parathyroids** on their blood supply"],
+  risk:[["Recurrent laryngeal nerve","Hoarseness; bilateral palsy compromises the airway"],["External laryngeal nerve","Weak high voice (cricothyroid)"],["Parathyroid glands","Hypocalcaemia"],["Non-recurrent laryngeal nerve","Right side with an aberrant subclavian artery"],["Superior thyroid artery","Bleeding from the superior pole"]]},
+ {id:"parotid",t:"Superficial parotidectomy",r:["salivary","facial"],
+  land:["**Tragal pointer**: the trunk is about 1 cm deep and anteroinferior","**Posterior belly of digastric**: the trunk is at the same depth, just above it","**Tympanomastoid suture**: the trunk is 6–8 mm deep to its lower end","**Styloid process**: the trunk is lateral to it"],
+  steps:["Modified Blair incision; raise the skin flap over the parotid fascia","Free the gland from the sternocleidomastoid, mastoid and cartilaginous ear canal","Find the **facial nerve trunk** at the stylomastoid foramen using the landmarks","Follow the branches forwards, lifting the superficial lobe off them","If the trunk cannot be found, trace a peripheral branch back (marginal mandibular over the facial vessels, buccal along the parotid duct)"],
+  risk:[["Facial nerve","Palsy of all or part of the face"],["Great auricular nerve","Numb ear lobe"],["Auriculotemporal nerve","Frey's syndrome"],["Retromandibular vein","Deep to the nerve: bleeding near the branches"],["External carotid artery","Deep to the gland"]]},
+ {id:"submand",t:"Submandibular gland excision",r:["salivary","oral"],
+  land:["Incision about two fingerbreadths below the mandible","**Facial vein** and the marginal mandibular nerve above it","**Mylohyoid**, the **lingual nerve** and the **submandibular ganglion**","**Hypoglossal nerve** on the hyoglossus, below the duct"],
+  steps:["Skin-crease incision; divide the platysma and the investing fascia low","Ligate the facial vein low and lift it upwards to protect the **marginal mandibular nerve** (Hayes Martin)","Ligate the **facial artery** where it hooks over the posterior gland and at the mandible","Retract the mylohyoid forwards; pull the gland down to show the lingual nerve","Divide the ganglion branches, keep the **lingual nerve**, then ligate and divide **Wharton's duct**"],
+  risk:[["Marginal mandibular nerve","Asymmetric lower lip"],["Lingual nerve","Numb tongue, loss of taste"],["Hypoglossal nerve","Tongue weakness"],["Facial artery","Bleeding"]]},
+ {id:"neckdiss",t:"Neck dissection",r:["neck","vessels"],
+  land:["**Posterior belly of digastric**: the guide to level II","**Sternocleidomastoid** and the **internal jugular vein**","**Scalenus anterior** under the prevertebral fascia (phrenic nerve)","**Erb's point** on the posterior border of SCM"],
+  steps:["Incision and subplatysmal flaps; protect the marginal mandibular nerve at the facial vessels","Level I: clear the submental and submandibular triangles; keep the lingual and hypoglossal nerves","Level II: find the **accessory nerve** crossing the IJV below the digastric","Levels III–IV: clear along the IJV, staying on the prevertebral fascia to keep the **phrenic nerve** and **brachial plexus**","Level V: follow the **accessory nerve** across the posterior triangle","At the root of the neck on the left: ligate lymphatics to avoid a chyle leak from the **thoracic duct**"],
+  risk:[["Accessory nerve","Shoulder drop and pain"],["Phrenic nerve","Paralysed hemidiaphragm"],["Vagus nerve","Hoarseness, dysphagia"],["Hypoglossal nerve","Tongue weakness"],["Thoracic duct","Chyle leak"],["Sympathetic trunk","Horner's syndrome"],["Marginal mandibular nerve","Asymmetric lower lip"]]},
+ {id:"fess",t:"Endoscopic sinus surgery",r:["sinus","nose","orbit"],
+  land:["**Uncinate process**, **ethmoid bulla** and **basal lamella** of the middle turbinate","**Lamina papyracea** laterally, **skull base** above","**Anterior ethmoidal artery** in the ethmoid roof","Natural maxillary ostium; sphenoid ostium medial to the superior turbinate"],
+  steps:["Uncinectomy, staying away from the lamina papyracea and the nasolacrimal duct","Maxillary antrostomy that includes the natural ostium","Open the **ethmoid bulla**, then the **basal lamella** into the posterior ethmoid","Sphenoidotomy through the sphenoethmoidal recess, low and medial","Follow the skull base from back to front; open the frontal recess around the agger nasi cell"],
+  risk:[["Lamina papyracea","Orbital fat, medial rectus injury, diplopia"],["Lateral lamella of the cribriform plate","Thinnest skull base: CSF leak"],["Anterior ethmoidal artery","Retracts into the orbit: orbital haematoma"],["Optic nerve","In the lateral sphenoid wall or an Onodi cell"],["Internal carotid artery","Lateral sphenoid wall, sometimes dehiscent"],["Nasolacrimal duct","Too far forward in uncinectomy: epiphora"],["Sphenopalatine artery","Bleeding behind a wide antrostomy"]]},
+ {id:"mastoid",t:"Mastoidectomy and posterior tympanotomy",r:["midear","temporal","facial"],
+  land:["**MacEwen's (suprameatal) triangle** over the antrum","**Temporal line** (level of the middle fossa dura)","**Antrum**, **lateral semicircular canal**, **short process of the incus**","**Digastric ridge** leading to the stylomastoid foramen","**Facial recess** between the facial nerve and the chorda tympani"],
+  steps:["Postaural incision; drill the cortex behind the canal along the temporal line","Saucerise, identify the sigmoid sinus and the tegmen, open the **antrum** (about 1.5 cm deep in adults)","Identify the **lateral semicircular canal** and the **incus**","Thin the posterior canal wall; open the facial recess between the **facial nerve** and the **chorda tympani** (posterior tympanotomy)","For a cochlear implant, see the round window niche through the recess"],
+  risk:[["Facial nerve","Second genu and mastoid segment"],["Lateral semicircular canal","Fistula: vertigo, hearing loss"],["Sigmoid sinus","Bleeding, air embolism"],["Middle cranial fossa dura","CSF leak through the tegmen"],["Chorda tympani","Altered taste"],["Incus","Conductive loss if touched by the drill"],["Jugular bulb","High bulb in the hypotympanum"]]},
+ {id:"septo",t:"Septoplasty",r:["nose"],
+  land:["**Quadrilateral cartilage**, **perpendicular plate of ethmoid**, **vomer** and **maxillary crest**","The **L-strut**: at least 1 cm of dorsal and caudal cartilage","Subperichondrial and subperiosteal planes"],
+  steps:["Hemitransfixion or Killian incision","Raise a mucoperichondrial flap in the subperichondrial plane, then subperiosteal over bone","Release the cartilage from the bony septum and maxillary crest","Remove or reshape the deviated parts, keeping the **L-strut**","Avoid twisting the perpendicular plate near the cribriform plate; close and splint"],
+  risk:[["L-strut","Saddle nose or drooping tip if weakened"],["Cribriform plate","Twisting the perpendicular plate: CSF leak"],["Septal mucosa","Opposing tears: perforation"],["Septal haematoma","Cartilage necrosis if not drained"],["Anterior ethmoidal artery","Bleeding high in the septum"]]}
+];
+ICON.ops='<path d="M14.5 3.5 20.5 9.5 9 21H3v-6z"/><path d="m12 6 6 6"/>';
+const OMAPX={};OPS.forEach(o=>OMAPX[o.id]=o);
+const md=s=>esc(s).replace(/\*\*([^*]+)\*\*/g,"<b>$1</b>");
+function opFigs(o){const seen=new Map();o.risk.concat(o.land.map(x=>[x.replace(/\*\*|:.*$/g,"")])).forEach(([t])=>{findLabels(String(t).replace(/\*\*/g,""),o.r[0]).slice(0,4).forEach((m,i)=>{seen.set(m.k,(seen.get(m.k)||0)+(4-i)+(FIG[m.k][3]&&o.r.includes(FIG[m.k][3])?3:0))})});
+  /* figures from other regions only when they match strongly */
+  return [...seen].filter(([k,v])=>o.r.includes(FIG[k][3])||v>=12).sort((a,b)=>b[1]-a[1]).slice(0,8).map(x=>x[0])}
+function vOps(arg){const o=arg&&OMAPX[arg];
+  if(!o){V().innerHTML=`<div class="hero"><span class="eyebrow">Surgical anatomy</span><h1>Operations</h1><p class="lede">The landmarks, steps and structures at risk for common ENT operations, linked to the figures that show them.</p></div>
+    <div class="llist opslist">${OPS.map(x=>`<button class="lrow" data-go="ops:${x.id}"><span class="lt"><span class="rn">${esc(x.t)}</span><small>${x.risk.length} structures at risk · ${x.r.map(r=>esc((RMAP[r]||{}).name||r)).join(", ")}</small></span>${ic("chev",18)}</button>`).join("")}</div>`;return}
+  const figs=opFigs(o);
+  V().innerHTML=`<div class="rhead"><button class="back" data-go="ops" aria-label="All operations">${ic("back",20)}</button><div class="rt"><span class="eyebrow">Operation</span><h1>${esc(o.t)}</h1></div></div>
+   <section class="sec opsec"><h2>Key landmarks</h2><ul>${o.land.map(x=>`<li>${md(x)}</li>`).join("")}</ul></section>
+   <section class="sec opsec"><h2>Step by step</h2><ol>${o.steps.map(x=>`<li>${md(x)}</li>`).join("")}</ol></section>
+   <section class="sec opsec"><h2>Structures at risk</h2><ul class="oprisk">${o.risk.map(([s,w])=>`<li><b class="lnk" data-lterm="${esc(s)}" data-lreg="${o.r[0]}" tabindex="0" role="button" title="Show in figures">${esc(s)}</b><span>${esc(w)}</span></li>`).join("")}</ul></section>
+   ${figs.length?`<section class="sec opsec"><h2>Figures</h2>${figsHTML(figs)}</section>`:""}
+   <div class="actions">${o.r.map(r=>`<button class="btn" data-go="region:${r}">${esc((RMAP[r]||{}).name||r)} notes</button>`).join("")}</div>`;
+  linkTerms(V(),o.r[0])}
+EXTRA.ops=vOps;TABOF.ops="atlas";
+/* Atlas: add the Operations tile */
+const _vA=vAtlas;vAtlas=function(){_vA.apply(this,arguments);const g=V().querySelector(".tgrid");if(g&&!g.querySelector('[data-go="ops"]'))g.insertAdjacentHTML("beforeend",`<button class="tcell" data-go="ops"><span class="lico">${ic("ops",18)}</span><b>Operations</b><small>${OPS.length} operations: landmarks and risks</small></button>`)};
 })();
 </script>
 
