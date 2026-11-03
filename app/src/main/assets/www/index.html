@@ -5922,7 +5922,7 @@ vRegion=function(id,opt){const r=RMAP[id];if(!r)return vAtlas();
   if(RTAB==="notes")wireNotes(r,opt)};
 function wireNotes(r,opt){const sel=$("#secsel");
   sel.onchange=()=>{const el=document.getElementById(sel.value);if(el)el.scrollIntoView({block:"start",behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"})};
-  const top=$(".top");document.documentElement.style.setProperty("--toph",(top?top.offsetHeight:0)+"px");
+  const top=$(".top");if(top&&"ResizeObserver" in window){if(!window._tophRO){window._tophRO=new ResizeObserver(()=>document.documentElement.style.setProperty("--toph",top.offsetHeight+"px"));window._tophRO.observe(top)}}else document.documentElement.style.setProperty("--toph",(top?top.offsetHeight:0)+"px");
   if("IntersectionObserver" in window){const io=new IntersectionObserver(es=>{const vis=es.filter(x=>x.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top)[0];if(vis&&sel)sel.value=vis.target.id},{rootMargin:"-30% 0px -60% 0px"});
     document.querySelectorAll(".rbody .sec").forEach(s=>io.observe(s))}
   document.querySelectorAll(".rbody .sec").forEach(sec=>{const f=sec.querySelector(":scope>.figs");if(!f)return;const n=f.children.length;
@@ -6396,12 +6396,19 @@ const routeOf=v=>(v||"home");
 /* ---- v13 page transitions: the old page is snapshotted and moves with the new one ---- */
 const IOS="cubic-bezier(.32,.72,0,1)",OUT="cubic-bezier(.22,1,.36,1)";
 let SWIPING=false;
-function mainBox(){const m=document.querySelector("main");return m?m.getBoundingClientRect():{left:0,width:innerWidth}}
-function takeSnap(){const v=$("#view");if(!v||!v.firstChild)return null;const r=v.getBoundingClientRect(),m=mainBox();
+let MBOX=null;function mainBox(){if(MBOX)return MBOX;const m=document.querySelector("main"),r=m?m.getBoundingClientRect():{left:0,width:innerWidth};return MBOX={left:r.left,width:r.width}}
+addEventListener("resize",()=>{MBOX=null});
+let SNAPDOC=null;
+function takeSnap(){const v=$("#view");if(!v||!v.firstChild)return null;MBOX=null;const r=v.getBoundingClientRect(),m=mainBox();
   const w=document.createElement("div");w.className="pgsnap";w.setAttribute("aria-hidden","true");
   w.style.cssText=`position:fixed;top:0;bottom:0;left:${m.left}px;width:${m.width}px;overflow:hidden;pointer-events:none;z-index:3;background:var(--bg)`;
-  const inner=v.cloneNode(true);inner.removeAttribute("id");inner.className="";inner.querySelectorAll("[id]").forEach(x=>x.removeAttribute("id"));
-  inner.querySelectorAll("img[loading]").forEach(i=>i.removeAttribute("loading"));
+  /* copy the page inside an inert document so copied images don't start loading; only images the page has
+     already loaded keep their source (they come from memory), the rest become same-size placeholders */
+  const inner=(SNAPDOC||(SNAPDOC=document.implementation.createHTMLDocument(""))).importNode(v,true);inner.removeAttribute("id");inner.className="";inner.querySelectorAll("[id]").forEach(x=>x.removeAttribute("id"));
+  const oimg=v.getElementsByTagName("img");[...inner.getElementsByTagName("img")].forEach((i,k)=>{const o=oimg[k];
+    if(o&&o.complete&&o.naturalWidth){i.removeAttribute("loading");return}
+    if(o&&o.offsetParent){i.style.width=o.offsetWidth+"px";i.style.height=o.offsetHeight+"px"}
+    i.removeAttribute("srcset");i.removeAttribute("src")});
   inner.style.cssText=`position:absolute;left:${r.left-m.left}px;top:${r.top}px;width:${r.width}px;margin:0`;
   const dim=document.createElement("div");dim.style.cssText="position:absolute;inset:0;background:var(--dim,rgba(10,12,16,.16));opacity:0";
   w.append(inner,dim);w._inner=inner;w._dim=dim;return w}
@@ -6561,12 +6568,14 @@ document.querySelectorAll(".mark").forEach(m=>{m.innerHTML=MARK;m.setAttribute("
 /* floating dock: a lozenge slides to the current tab */
 const tabs=$("#tabs");
 if(tabs){const pill=document.createElement("span");pill.className="dockpill";pill.setAttribute("aria-hidden","true");tabs.prepend(pill);
-  let px=null,pw=null;
+  let px=null,pw=null,POS=new Map();
+  /* tab positions only change when the dock resizes, so measure them then, never right after a page render */
+  const measure=()=>{POS=new Map();tabs.querySelectorAll(".tab").forEach(t=>POS.set(t,[t.offsetLeft,t.offsetWidth]))};
   const place=anim=>{const b=tabs.querySelector('.tab[aria-current="true"]');if(!b){pill.style.opacity="0";return}pill.style.opacity="1";
-    const x=b.offsetLeft,w=b.offsetWidth;if(anim&&px!==null&&!RM&&(px!==x||pw!==w))pill.animate([{transform:`translateX(${px}px)`,width:pw+"px"},{transform:`translateX(${x}px)`,width:w+"px"}],{duration:SPR.dur,easing:SPR.easing});
+    if(!POS.has(b))measure();const [x,w]=POS.get(b);if(px===x&&pw===w)return;if(anim&&px!==null&&!RM&&(px!==x||pw!==w))pill.animate([{transform:`translateX(${px}px)`,width:pw+"px"},{transform:`translateX(${x}px)`,width:w+"px"}],{duration:SPR.dur,easing:SPR.easing});
     pill.style.transform=`translateX(${x}px)`;pill.style.width=w+"px";px=x;pw=w};
   new MutationObserver(()=>place(true)).observe(tabs,{subtree:true,attributes:true,attributeFilter:["aria-current"]});
-  new ResizeObserver(()=>place(false)).observe(tabs);requestAnimationFrame(()=>place(false))}
+  new ResizeObserver(()=>{measure();place(false)}).observe(tabs);requestAnimationFrame(()=>{measure();place(false)})}
 
 /* sliding underline for region tabs and three-way switches */
 const PREV={};
@@ -7050,7 +7059,6 @@ document.addEventListener("change",async e=>{if(e.target.id!=="bk-imp"||!e.targe
   try{const d=JSON.parse(await e.target.files[0].text());if(typeof d!=="object"||!d.cards)throw 0;
     ST=Object.assign({},S0,d);save();toast("Progress restored");go("home")}catch(err){toast("That file isn't an ENT Atlas backup")}
   e.target.value=""});
-function androidBack(){if(typeof cur!=="undefined"&&cur!=="home"){go("home");window.scrollTo(0,0);return 1}return 0}
 </script>
 
 <script>
