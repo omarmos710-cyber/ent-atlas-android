@@ -1267,6 +1267,9 @@ section.tbl>header .texp+.cmeta,section.tbl>header .texp+.star{margin-left:0}
 @media (min-width:900px){.fmwrap{display:grid;grid-template-columns:minmax(340px,460px) 1fr;gap:28px;align-items:start}
   .fmmap{position:sticky;top:84px;max-height:calc(100vh - 110px)}}
 @media (prefers-reduced-motion:reduce){.fmh,.fmpins{transition:none}}
+
+/* v17.1: page slides never widen the page */
+main{overflow-x:clip}
 </style>
 
 <div class="app">
@@ -6495,8 +6498,10 @@ function settleAll(){const v=$("#view");
   if(v){v.getAnimations().forEach(a=>a.cancel());liftView(false)}document.documentElement.style.overflowX=""}
 window.settleAll=settleAll;
 function animView(dir,snap){const v=$("#view");settleAll();if(!v||RM){snap&&snap.remove();return}
-  if(dir==="tab"||!snap){if(snap){snap.style.zIndex="5";document.body.appendChild(snap);snap.animate([{opacity:1},{opacity:0}],{duration:200,easing:"ease-out",fill:"forwards"}).onfinish=()=>snap.remove()}
-    v.animate([{opacity:0,transform:"translateY(10px)"},{opacity:1,transform:"none"}],{duration:380,easing:OUT});return}
+  /* tabs "fade through": the old page fades out first, then the new one fades in, so the two never show at once;
+     the copy sits under the top bar so the bar never blinks */
+  if(dir==="tab"||!snap){if(snap){snap.style.zIndex="4";document.body.appendChild(snap);snap.animate([{opacity:1},{opacity:0}],{duration:120,easing:"ease-out",fill:"forwards"}).onfinish=()=>snap.remove()}
+    v.animate([{opacity:0,transform:"translateY(8px)"},{opacity:1,transform:"none"}],{duration:260,delay:snap?110:0,easing:OUT,fill:"backwards"});return}
   const d=480;document.body.appendChild(snap);
   if(dir==="fwd"){liftView(true);
     const a=v.animate([{transform:"translateX(100%)"},{transform:"translateX(0)"}],{duration:d,easing:IOS});
