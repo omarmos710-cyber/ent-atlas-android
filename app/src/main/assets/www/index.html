@@ -1310,6 +1310,9 @@ html.busy #busypill{animation:pillIn .25s cubic-bezier(.22,1,.36,1) .5s forwards
 /* thumbnails fade in over a quiet placeholder instead of popping */
 .fig img,.thumb img,.trfig img,.lblpick img,.cont img,.xtile img,.ccard2 .art img{background:var(--soft)}
 @media (prefers-reduced-motion:reduce){.spin,#busy i{animation-duration:2s}.lbimg img{transition:none}}
+
+/* v17.7.2: the sliding content column never widens the page */
+.app{overflow-x:clip}
 </style>
 
 <div id="boot" role="status" aria-label="Loading ENT Atlas"><div class="bwrap"><div class="spin"></div><span>ENT Atlas</span></div></div>
@@ -6963,9 +6966,14 @@ let SNAPDOC=null;
 const LIVE=new Set();
 function anim(el,k,o){const a=el.animate(k,o);LIVE.add(a);a.addEventListener("cancel",()=>LIVE.delete(a));return a}   /* finished ones stay until the next settle: some hold their end state */
 function cancelOn(el){LIVE.forEach(a=>{if(a.effect&&a.effect.target===el){try{a.cancel()}catch(e){}}})}
+/* the whole content column moves, not just the page inside it: it starts right under the top bar and spans the
+   full width, so no strip of the old page shows above it and edge-to-edge rows do not stick out of its side */
+const stage=()=>document.querySelector("main")||$("#view");
+/* the old page's copy and its dimming start under the top bar, so nothing of it shows above the bar */
+const barBottom=()=>{const t=document.querySelector(".top");return t?Math.max(0,Math.round(t.getBoundingClientRect().bottom)):0};
 function takeSnap(){const v=$("#view");if(!v||!v.firstChild)return null;MBOX=null;const r=v.getBoundingClientRect(),m=mainBox();
   const w=document.createElement("div");w.className="pgsnap";w.setAttribute("aria-hidden","true");
-  w.style.cssText=`position:fixed;top:0;bottom:0;left:${m.left}px;width:${m.width}px;overflow:hidden;pointer-events:none;z-index:3;background:var(--bg)`;
+  const tb=barBottom();w.style.cssText=`position:fixed;top:${tb}px;bottom:0;left:${m.left}px;width:${m.width}px;overflow:hidden;pointer-events:none;z-index:3;background:var(--bg)`;
   /* copy the page inside an inert document so copied images don't start loading; only images the page has
      already loaded keep their source (they come from memory), the rest become same-size placeholders */
   const inner=(SNAPDOC||(SNAPDOC=document.implementation.createHTMLDocument(""))).importNode(v,true);inner.removeAttribute("id");inner.className="";inner.querySelectorAll("[id]").forEach(x=>x.removeAttribute("id"));
@@ -6973,20 +6981,20 @@ function takeSnap(){const v=$("#view");if(!v||!v.firstChild)return null;MBOX=nul
     if(o&&o.complete&&o.naturalWidth){i.removeAttribute("loading");return}
     if(o&&o.offsetParent){i.style.width=o.offsetWidth+"px";i.style.height=o.offsetHeight+"px"}
     i.removeAttribute("srcset");i.removeAttribute("src")});
-  inner.style.cssText=`position:absolute;left:${r.left-m.left}px;top:${r.top}px;width:${r.width}px;margin:0`;
+  inner.style.cssText=`position:absolute;left:${r.left-m.left}px;top:${r.top-tb}px;width:${r.width}px;margin:0`;
   const dim=document.createElement("div");dim.style.cssText="position:absolute;inset:0;background:var(--dim,rgba(10,12,16,.16));opacity:0";
   w.append(inner,dim);w._inner=inner;w._dim=dim;return w}
-function liftView(on){const v=$("#view");if(!v)return;document.documentElement.style.overflowX=on?"clip":"";
+function liftView(on){const v=stage();if(!v)return;document.documentElement.style.overflowX=on?"clip":"";
   if(on){v.style.position="relative";v.style.zIndex="4";v.style.background="var(--bg)";v.style.minHeight="100vh";v.style.boxShadow="-14px 0 34px rgba(10,12,16,.12)"}
   else{v.style.position=v.style.zIndex=v.style.background=v.style.minHeight=v.style.boxShadow=v.style.transform=""}}
 function keepSnaps(){let n=0;for(let i=NAVSTACK.length-1;i>=0;i--){if(NAVSTACK[i].snap){n++;if(n>3)NAVSTACK[i].snap=null}}}
-function settleAll(){const v=$("#view");
+function settleAll(){const v=stage();
   /* cancel only the transition animations this code started: asking the page for all animations forces a full restyle */
   LIVE.forEach(a=>{try{a.cancel()}catch(e){}});LIVE.clear();
   document.querySelectorAll("body>.pgsnap,body>.pgdim").forEach(e=>{e.remove();if(e._inner){e._inner.style.transform="";e._dim.style.opacity="0";e.style.zIndex="3";e.style.boxShadow="";e.style.transform=""}});
   if(v)liftView(false);document.documentElement.style.overflowX=""}
 window.settleAll=settleAll;
-function animView(dir,snap){const v=$("#view");settleAll();if(!v||RM){snap&&snap.remove();return}
+function animView(dir,snap){const v=stage();settleAll();if(!v||RM){snap&&snap.remove();return}
   /* tabs "fade through": the old page fades out first, then the new one fades in, so the two never show at once;
      the copy sits under the top bar so the bar never blinks */
   if(dir==="tab"||!snap){if(snap){snap.style.zIndex="4";document.body.appendChild(snap);anim(snap,[{opacity:1},{opacity:0}],{duration:120,easing:"ease-out",fill:"forwards"}).onfinish=()=>snap.remove()}
@@ -6998,7 +7006,7 @@ function animView(dir,snap){const v=$("#view");settleAll();if(!v||RM){snap&&snap
     anim(snap._dim,[{opacity:0},{opacity:1}],{duration:d,easing:IOS,fill:"forwards"});
     a.onfinish=()=>{liftView(false);snap.remove();cancelOn(snap);cancelOn(snap._inner);cancelOn(snap._dim)}}
   else{snap.style.zIndex="4";snap.style.boxShadow="-14px 0 34px rgba(10,12,16,.12)";
-    const m=mainBox(),dim=document.createElement("div");dim.className="pgdim";dim.style.cssText=`position:fixed;top:0;bottom:0;left:${m.left}px;width:${m.width}px;background:var(--dim,rgba(10,12,16,.16));z-index:3;pointer-events:none`;
+    const m=mainBox(),dim=document.createElement("div");dim.className="pgdim";dim.style.cssText=`position:fixed;top:${barBottom()}px;bottom:0;left:${m.left}px;width:${m.width}px;background:var(--dim,rgba(10,12,16,.16));z-index:3;pointer-events:none`;
     document.body.insertBefore(dim,snap);document.documentElement.style.overflowX="clip";
     anim(v,[{transform:"translateX(-30%)"},{transform:"translateX(0)"}],{duration:d,easing:IOS});
     anim(dim,[{opacity:1},{opacity:0}],{duration:d,easing:IOS,fill:"forwards"});
@@ -7097,8 +7105,8 @@ document.addEventListener("click",e=>{const b=e.target.closest("#view button.bac
       g.on=true;settleAll();const s=g.top.snap;s._inner.style.transform="translateX(-30%)";s._dim.style.opacity="1";
       s._inner.style.top=(parseFloat(s._inner.style.top)||0)+"px";document.body.appendChild(s);liftView(true)}
     e.preventDefault();const w=mainBox().width,x=Math.max(0,dx),f=Math.min(1,x/w);g.x=x;g.h.push([e.timeStamp,x]);if(g.h.length>6)g.h.shift();
-    $("#view").style.transform=`translateX(${x}px)`;g.top.snap._inner.style.transform=`translateX(${-30*(1-f)}%)`;g.top.snap._dim.style.opacity=(1-f).toFixed(3)},{passive:false});
-  const end=()=>{if(!g)return;const G=g;g=null;if(!G.on)return;const v=$("#view"),s=G.top.snap,w=mainBox().width,f=G.x/w;
+    stage().style.transform=`translateX(${x}px)`;g.top.snap._inner.style.transform=`translateX(${-30*(1-f)}%)`;g.top.snap._dim.style.opacity=(1-f).toFixed(3)},{passive:false});
+  const end=()=>{if(!g)return;const G=g;g=null;if(!G.on)return;const v=stage(),s=G.top.snap,w=mainBox().width,f=G.x/w;
     const h=G.h,vel=h.length>1?(h[h.length-1][1]-h[0][1])/Math.max(1,h[h.length-1][0]-h[0][0]):0;const d=Math.max(180,380*(1-f));
     if(f>0.35||vel>0.45){v.style.transform="";
       anim(v,[{transform:`translateX(${G.x}px)`},{transform:`translateX(${w}px)`}],{duration:d,easing:OUT,fill:"forwards"});
