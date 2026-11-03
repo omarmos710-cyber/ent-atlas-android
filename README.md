@@ -2,9 +2,9 @@
 
 Personal ENT head & neck anatomy study app. Offline Android app built automatically by GitHub Actions.
 
-**Install:** open the latest release under **Releases**, download `ENT-Atlas.apk` on your phone and open it.
+**Install:** open the [latest release](https://github.com/omarmos710-cyber/ent-atlas-android/releases/latest), download `ENT-Atlas.apk` on your phone and open it.
 
-Includes a practical bones section (skull, mandible, hyoid and cervical spine) and a test lab.
+Sources: ENT Steps Anatomy, Dr. Sameh Doss handout, Gray's Atlas of Anatomy (2nd ed.) and Dr. Mohamed El-Fiky's Mini Atlas of Anatomy Part V.
 
 Private: contains copyrighted handout figures for personal study only.
 
