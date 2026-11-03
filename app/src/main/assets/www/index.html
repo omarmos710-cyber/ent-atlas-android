@@ -1313,6 +1313,34 @@ html.busy #busypill{animation:pillIn .25s cubic-bezier(.22,1,.36,1) .5s forwards
 
 /* v17.7.2: the sliding content column never widens the page */
 .app{overflow-x:clip}
+
+/* v17.8 search: compact results, expand in place */
+.srchips{display:flex;gap:8px;overflow-x:auto;padding:4px 0 6px;margin:12px 0 4px;scrollbar-width:none}
+.srchips::-webkit-scrollbar{display:none}
+.srchips .chip{flex:none;cursor:pointer}.srchips .chip small{font:500 11px var(--f-mono);color:var(--muted);margin-left:2px}
+.srchips .chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}.srchips .chip[aria-pressed="true"] small{color:inherit;opacity:.75}
+.sgrp{margin-top:16px}.sgrp .sgh{display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:6px}
+.sgrp .sgh h2{font-size:18px}
+.sgl{border:1px solid var(--line);border-radius:14px;background:var(--surface);margin-top:10px;overflow:hidden}
+.sr+.sr{border-top:1px solid var(--line)}
+.srh{display:flex;align-items:center;gap:10px;width:100%;padding:11px 14px;border:0;background:none;text-align:left;color:var(--ink);font:inherit;min-height:52px;cursor:pointer}
+.srth{width:42px;height:42px;flex:none;border-radius:8px;object-fit:cover;background:var(--soft);border:1px solid var(--line)}
+.srtx{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.srp{font:500 11.5px/1.3 var(--f-body);color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.srt{font-weight:600;font-size:15px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.srch{flex:none;color:var(--muted);transition:transform .25s ease}
+.sr.open .srch{transform:rotate(180deg)}.sr.open{background:color-mix(in srgb,var(--soft) 45%,var(--surface))}
+.srb{padding:0 14px 14px;font-size:14.5px;line-height:1.55}
+.srb p{margin:0 0 8px}.srb mark,.srt mark{background:color-mix(in srgb,var(--accent) 22%,transparent);color:inherit;border-radius:3px;padding:0 1px}
+.srb section.tbl{margin:4px 0 8px;content-visibility:visible}
+.sra{display:flex;gap:8px;margin-top:6px}
+.sran{font-weight:500}
+.srfig{display:block;width:100%;max-width:340px;padding:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff;cursor:zoom-in}
+.srfig img{display:block;width:100%;height:auto}
+.srcap{font-size:13px;color:var(--muted);margin-top:6px!important}
+.srmore{display:flex;align-items:center;gap:8px;margin:8px auto 0;border:0;background:none;color:var(--accent);font:600 14px var(--f-body);cursor:pointer;padding:8px}
+.srmore small{font:500 12px var(--f-body);color:var(--muted)}
+@media (prefers-reduced-motion:reduce){.srch{transition:none}}
 </style>
 
 <div id="boot" role="status" aria-label="Loading ENT Atlas"><div class="bwrap"><div class="spin"></div><span>ENT Atlas</span></div></div>
@@ -7920,6 +7948,65 @@ function vOps(arg){const o=arg&&OMAPX[arg];
 EXTRA.ops=vOps;TABOF.ops="atlas";
 /* Atlas: add the Operations tile */
 const _vA=vAtlas;vAtlas=function(){_vA.apply(this,arguments);const g=V().querySelector(".tgrid");if(g&&!g.querySelector('[data-go="ops"]'))g.insertAdjacentHTML("beforeend",`<button class="tcell" data-go="ops"><span class="lico">${ic("ops",18)}</span><b>Operations</b><small>${OPS.length} operations: landmarks and risks</small></button>`)};
+})();
+/* ================= v17.8 SEARCH: compact results by path, expand in place ================= */
+(function(){
+let PER=5,SF="all",TMR=0;
+const chev=`<svg class="srch" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>`;
+const strip=s=>String(s||"").replace(/\*\*/g,"");
+function find(t){const has=x=>String(x||"").toLowerCase().includes(t);const out=[];
+  /* figures that label the structure: the most useful hit for an anatomy search */
+  const lb=t.length>=4?findLabels(t):[];
+  if(lb.length)out.push({id:"lbl",name:"Labelled on figures",rows:lb.map((m,j)=>({path:"Figure · "+((RMAP[FIG[m.k][3]]||{}).name||""),title:m.t,body:"lbl",m,j,all:lb}))});
+  const secs=SECTIONS.filter(s=>has(s.t+" "+s.p.join(" ")+" "+(s.k||"")));
+  if(secs.length)out.push({id:"notes",name:"Notes",rows:secs.map(s=>({path:(RMAP[s.r]||{}).name||"",title:s.t,body:"note",s}))});
+  const tabs=TABLES.filter(x=>has(x.title+" "+x.rows.flat().join(" ")+" "+(x.note||"")));
+  if(tabs.length)out.push({id:"tables",name:"Tables",rows:tabs.map(x=>({path:"Table · "+x.regions.map(r=>(RMAP[r]||{}).name||r).slice(0,2).join(", "),title:x.title,body:"table",x}))});
+  const figs=ALLFIGS.filter(k=>has(FIG[k][0]));
+  if(figs.length)out.push({id:"figs",name:"Figures",rows:figs.map(k=>({path:"Figure · "+((RMAP[FIG[k][3]]||{}).name||""),title:FIG[k][0],body:"fig",k,all:figs}))});
+  const cards=CARDS.filter(c=>has(c.q+" "+c.a));
+  if(cards.length)out.push({id:"cards",name:"Flashcards",rows:cards.map(c=>({path:"Flashcard · "+((RMAP[c.r]||{}).name||""),title:c.q,body:"card",c}))});
+  const mns=(typeof MNEM!=="undefined"?MNEM:[]).filter(m=>has(m.topic+" "+m.m+" "+m.x));
+  if(mns.length)out.push({id:"mnem",name:"Mnemonics",rows:mns.map(m=>({path:"Mnemonic · "+m.topic,title:m.m,body:"mnem",mn:m}))});
+  const cs=(typeof CONDS!=="undefined"?CONDS:[]).filter(c=>has(c.t+" "+c.ddx+" "+(c.pts||[]).join(" ")));
+  if(cs.length)out.push({id:"conds",name:"Imaging & conditions",rows:cs.map(c=>({path:"Condition · "+c.cat,title:c.t,body:"cond",c}))});
+  return out}
+let LAST=[],RX=null;
+const hl=s=>esc(strip(s)).replace(RX,m=>`<mark>${m}</mark>`);
+function bodyHTML(row){
+  switch(row.body){
+  case "note":{const s=row.s,t=QTXT.trim().toLowerCase();const ps=s.p.filter(p=>p.toLowerCase().includes(t)).slice(0,2);if(!ps.length&&s.k)ps.push(s.k);if(!ps.length)ps.push(s.p[0]||"");
+    return ps.map(p=>`<p>${hl(p)}</p>`).join("")+`<div class="sra"><button class="btn" data-go="region:${s.r}" data-sec="${s.id}">Open in notes</button></div>`}
+  case "table":return tblHTML(row.x.title,row.x.head,row.x.rows)+`<div class="sra"><button class="btn" data-go="tables" data-sec="tb-${row.x.id}">Open in Tables</button></div>`;
+  case "mnem":return `<p>${hl(row.mn.x)}</p>`;
+  case "card":return `<p class="sran">${hl(row.c.a)}</p>`;
+  case "fig":return `<button class="srfig" data-fig="${row.k}" data-set="${fsetId(row.all)}"><img src="${figThumb(row.k)}" alt="${esc(FIG[row.k][0])}"></button><p class="srcap">${esc(figShort(row.k))} · tap the image to open it</p>`;
+  case "lbl":return `<button class="srfig" data-srlbl="${row.j}"><img src="${figThumb(row.m.k)}" alt=""></button><p class="srcap">${esc(FIG[row.m.k][0])} · tap to open it zoomed onto the label</p>`;
+  case "cond":{const c=row.c;return `<p>${hl(String(c.ddx||"").slice(0,260))}${String(c.ddx||"").length>260?"…":""}</p><div class="sra"><button class="btn" data-go="cond:${c.id}">Open condition</button></div>`}}
+  return ""}
+function rowHTML(g,row,i){return `<div class="sr" data-g="${g.id}" data-i="${i}"><button class="srh" type="button" aria-expanded="false">${row.body==="fig"||row.body==="lbl"?`<img class="srth" src="${figThumb(row.body==="fig"?row.k:row.m.k)}" alt="" loading="lazy">`:""}<span class="srtx"><span class="srp">${esc(row.path)}</span><span class="srt">${hl(row.title)}</span></span>${chev}</button><div class="srb" hidden></div></div>`}
+function groupHTML(g){const n=g.rows.length;return `<section class="sgrp" data-g="${g.id}"${SF!=="all"&&SF!==g.id?" hidden":""}><div class="sgh"><h2>${esc(g.name)}</h2><span class="eyebrow">${n}</span></div>
+  <div class="sgl">${g.rows.slice(0,PER).map((r,i)=>rowHTML(g,r,i)).join("")}</div>${n>PER?`<button class="srmore" type="button" data-g="${g.id}">Show ${Math.min(n-PER,20)} more<small>${n-PER} more</small></button>`:""}</section>`}
+function render(){const box=$("#results");if(!box)return;const t=QTXT.trim().toLowerCase();
+  if(t.length<2){box.innerHTML=`<p class="lede">Searches ${SECTIONS.length} note sections, ${TABLES.length} tables, ${ALLFIGS.length} figures, ${CARDS.length} flashcards and the labels on every figure.</p>`;return}
+  RX=new RegExp(t.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"gi");LAST=find(t);
+  if(!LAST.length){box.innerHTML=`<p class="empty">No matches for “${esc(QTXT)}”. Try a shorter word or a different spelling.</p>`;return}
+  PER=LAST.length>3?3:5;   /* many kinds of hit: fewer rows each, so the page stays short */
+  if(SF!=="all"&&!LAST.some(g=>g.id===SF))SF="all";const total=LAST.reduce((a,g)=>a+g.rows.length,0);
+  box.innerHTML=`<div class="srchips" role="group" aria-label="Show results from">${[{id:"all",name:"All",n:total},...LAST.map(g=>({id:g.id,name:g.name,n:g.rows.length}))].map(c=>`<button class="chip" data-sf="${c.id}" aria-pressed="${SF===c.id}">${esc(c.name)} <small>${c.n}</small></button>`).join("")}</div>${LAST.map(groupHTML).join("")}`}
+vSearch=function(){V().innerHTML=`<div class="hero"><span class="eyebrow">Search</span><h1>Find any structure</h1></div>
+  <input type="search" id="q" placeholder="Try: Prussak, Keros, Delphian, chorda tympani" autocomplete="off" aria-label="Search notes, tables, figures and cards" value="${esc(QTXT)}"><div id="results"></div>`;
+  const q=$("#q");q.addEventListener("input",()=>{QTXT=q.value;clearTimeout(TMR);TMR=setTimeout(render,140)});render();setTimeout(()=>q.focus(),30)};
+document.addEventListener("click",e=>{if(!$("#results"))return;const t=e.target;
+  let b=t.closest("[data-sf]");if(b&&b.closest("#results")){SF=b.dataset.sf;document.querySelectorAll("#results [data-sf]").forEach(x=>x.setAttribute("aria-pressed",String(x.dataset.sf===SF)));
+    document.querySelectorAll("#results .sgrp").forEach(s=>{s.hidden=SF!=="all"&&s.dataset.g!==SF});return}
+  b=t.closest(".srh");if(b&&b.closest("#results")){const r=b.closest(".sr"),body=r.querySelector(".srb"),open=b.getAttribute("aria-expanded")==="true";
+    if(!open&&!body.dataset.f){const g=LAST.find(x=>x.id===r.dataset.g);body.innerHTML=bodyHTML(g.rows[+r.dataset.i]);body.dataset.f="1";if(typeof linkTerms==="function")linkTerms(body,"")}
+    b.setAttribute("aria-expanded",String(!open));body.hidden=open;r.classList.toggle("open",!open);return}
+  b=t.closest(".srmore");if(b&&b.closest("#results")){const g=LAST.find(x=>x.id===b.dataset.g),l=b.previousElementSibling,n=l.children.length;
+    l.insertAdjacentHTML("beforeend",g.rows.slice(n,n+20).map((r,i)=>rowHTML(g,r,n+i)).join(""));const left=g.rows.length-l.children.length;
+    if(left>0)b.innerHTML=`Show ${Math.min(left,20)} more<small>${left} more</small>`;else b.remove();return}
+  b=t.closest("[data-srlbl]");if(b&&b.closest("#results")){e.preventDefault();e.stopPropagation();const g=LAST.find(x=>x.id==="lbl");if(g)openLabel(g.rows[0].all,+b.dataset.srlbl);return}},true);
 })();
 </script>
 
