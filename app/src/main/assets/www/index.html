@@ -7130,7 +7130,8 @@ function knobs(){document.querySelectorAll("#view .rtabs, #view .seg3, #view .im
   k.style.transform=`translateX(${x}px)`;k.style.width=w+"px";
   if(p&&!RM&&(p.x!==x||p.w!==w))k.animate([{transform:`translateX(${p.x}px)`,width:p.w+"px"},{transform:`translateX(${x}px)`,width:w+"px"}],{duration:SPR.dur,easing:SPR.easing});
   PREV[key]={x,w}})}
-let kq=0;new MutationObserver(()=>{if(kq)return;kq=requestAnimationFrame(()=>{kq=0;knobs()})}).observe($("#view"),{childList:true,subtree:true});
+/* also follow a change of the pressed or selected button (text size, theme): those only change an attribute */
+let kq=0;new MutationObserver(()=>{if(kq)return;kq=requestAnimationFrame(()=>{kq=0;knobs()})}).observe($("#view"),{childList:true,subtree:true,attributes:true,attributeFilter:["aria-pressed","aria-selected"]});
 addEventListener("resize",()=>knobs());window.knobs=knobs;
 
 /* figures grow out of the page into the viewer, and shrink back on close */
