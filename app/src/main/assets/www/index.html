@@ -1211,6 +1211,62 @@ section.tbl>header .texp+.cmeta,section.tbl>header .texp+.star{margin-left:0}
 .labm{min-height:58px;padding:10px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink);font-size:13.5px;line-height:1.3;text-align:left;overflow-wrap:anywhere}
 .labm.sel{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}.labm.ok{background:var(--ok-soft);border-color:var(--ok);opacity:.65}.labm.no{border-color:var(--bad)}
 .labrev{padding:16px 0;border-top:1px solid var(--line)}.labrev .qtext{font-size:18px}.labrev p{margin:8px 0 0}
+
+/* v17 figure navigator */
+:root{--fm-skin1:#F3DCCB;--fm-skin2:#E0B79E;--fm-bone1:#FBF7EF;--fm-bone2:#E8DDC8;--fm-boneln:#B9AC93;--fm-hole:#6E5D4B;--fm-stage:#F7F3EE}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--fm-skin1:#6B5246;--fm-skin2:#4C3830;--fm-bone1:#D9D1C2;--fm-bone2:#B8AC96;--fm-boneln:#8D8170;--fm-hole:#2A221C;--fm-stage:#12191E}}
+:root[data-theme="dark"]{--fm-skin1:#6B5246;--fm-skin2:#4C3830;--fm-bone1:#D9D1C2;--fm-bone2:#B8AC96;--fm-boneln:#8D8170;--fm-hole:#2A221C;--fm-stage:#12191E}
+.fmhero{margin-bottom:12px}
+.fmwrap{display:flex;flex-direction:column;gap:16px}
+.fmmap{position:relative;width:100%;max-width:520px;margin:0 auto;aspect-ratio:400/470;max-height:64vh;border-radius:22px;overflow:hidden;
+  background:radial-gradient(120% 90% at 60% 30%,var(--surface),var(--fm-stage));border:1px solid var(--line);touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.fmsvg{position:absolute;inset:0;width:100%;height:100%;display:block}
+.fm-skin{fill:url(#fmSkin)}
+.fm-bone{fill:url(#fmBone);stroke:var(--fm-boneln);stroke-width:1.1}
+.fm-bone2{fill:var(--fm-bone2);stroke:var(--fm-boneln);stroke-width:.9}
+.fm-line{fill:none;stroke:var(--fm-boneln);stroke-width:.9}
+.fm-hole{fill:var(--fm-hole);opacity:.55}
+.fm-teeth{stroke:#fff;stroke-width:4;stroke-linecap:round;stroke-dasharray:5 2;opacity:.9}
+.fm-ear{fill:#E5B49B;stroke:#B98A73;stroke-width:1.1}
+.fm-tube{fill:none;stroke:#D98A86;stroke-width:12;stroke-linecap:round;opacity:.5}
+.fm-tongue{fill:#D9767A;opacity:.85}
+.fm-cart{fill:#CFE0E6;stroke:#8FAAB4;stroke-width:.9}
+.fm-ring rect{fill:#CFE0E6;stroke:#8FAAB4;stroke-width:.7}
+.fm-gland{fill:#E8B04A;stroke:#B98420;stroke-width:.9;opacity:.92}
+.fm-artery{fill:none;stroke:var(--artery);stroke-width:3.5;opacity:.85}
+.fm-vein{fill:none;stroke:var(--vein);stroke-width:4.5;opacity:.7}
+.fmh{fill:var(--c);fill-opacity:.16;stroke:var(--c);stroke-opacity:.55;stroke-width:1.2;vector-effect:non-scaling-stroke;cursor:pointer;transition:fill-opacity .25s,stroke-opacity .25s}
+.fmh:hover{fill-opacity:.3}
+.fmh.on{fill-opacity:.38;stroke-opacity:1;stroke-width:2}
+.fmh.dim{fill-opacity:.07;stroke-opacity:.3}
+.fmpins{position:absolute;inset:0;pointer-events:none;transition:opacity .2s}
+.fmpins.hide{opacity:0}
+.fmpin{position:absolute;left:0;top:0;pointer-events:auto;display:inline-flex;align-items:center;gap:6px;padding:5px 9px 5px 7px;border-radius:99px;
+  border:1px solid color-mix(in srgb,var(--c) 40%,var(--line));background:color-mix(in srgb,var(--surface) 92%,transparent);color:var(--ink);
+  font:600 12px/1.1 var(--f-body);white-space:nowrap;box-shadow:0 2px 10px rgba(10,15,19,.14);min-height:28px}
+.fmpin i,.fmchip i{width:8px;height:8px;border-radius:50%;background:var(--c,var(--muted));flex:none}
+.fmpin small,.fmchip small{font:500 11px var(--f-mono);color:var(--muted)}
+.fmpin.on{background:var(--c);border-color:var(--c);color:#fff}.fmpin.on small{color:rgba(255,255,255,.8)}.fmpin.on i{background:#fff}
+.fmout[hidden]{display:none}
+.fmout{position:absolute;left:10px;top:10px;display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--surface);color:var(--ink);
+  border-radius:99px;padding:6px 11px;font:600 12px var(--f-body);box-shadow:0 2px 10px rgba(10,15,19,.12);min-height:32px}
+.fmcrumbs{display:flex;flex-wrap:wrap;align-items:center;gap:4px 6px;font-size:13px;color:var(--muted);margin-bottom:6px}
+.fmcrumbs button{border:0;background:none;padding:4px 2px;color:var(--accent);font:inherit;font-weight:500;text-decoration:underline;text-underline-offset:3px}
+.fmcrumbs b{color:var(--ink);font-weight:600}
+.fmtitle{font-size:22px;margin-bottom:4px}
+.fmchips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.fmchip{cursor:pointer;color:var(--ink)}
+.fmchip.on{border-color:var(--c,var(--accent));background:color-mix(in srgb,var(--c,var(--accent)) 14%,var(--surface))}
+.fmfacets{margin-top:18px;padding:14px;border:1px solid var(--line);border-radius:16px;background:var(--surface)}
+.fmfacets h3{font-size:15px;margin-bottom:2px}
+.fmgrp{margin-top:10px}.fmgrp .eyebrow{display:block;margin:0 0 -2px}
+.fmsearch input{width:100%;margin-top:12px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:12px;padding:11px 14px;font:inherit;min-height:44px}
+.fmsrc{display:flex;align-items:center;gap:10px;margin-top:18px}.fmsrc .fieldlabel{margin:0}.fmsrc .select{max-width:220px}
+.fmgrid{margin-top:12px}
+.fmmore{margin-top:12px}
+@media (min-width:900px){.fmwrap{display:grid;grid-template-columns:minmax(340px,460px) 1fr;gap:28px;align-items:start}
+  .fmmap{position:sticky;top:84px;max-height:calc(100vh - 110px)}}
+@media (prefers-reduced-motion:reduce){.fmh,.fmpins{transition:none}}
 </style>
 
 <div class="app">
@@ -5109,7 +5165,11 @@ function go(v,opt){
 document.addEventListener("click",e=>{const g=e.target.closest("[data-go]");if(g){e.preventDefault();go(g.dataset.go,g.dataset.sec?{sec:g.dataset.sec}:null)}});
 
 /* ---------------- FIGURES & LIGHTBOX ---------------- */
-function figCard(k,set,cls){return `<button class="fig ${cls||""}" data-fig="${k}" data-set="${set.join(",")}"><img src="${figSrc(k)}" alt="${esc(FIG[k][0])}" loading="lazy" decoding="async"><span class="cap">${esc(FIG[k][0])}<small>${figShort(k)}</small></span></button>`}
+/* a set of figures is stored once and referenced by id: copying 600 keys into every card made huge pages */
+const FSETS=new Map(),FSW=new WeakMap();let FSN=0;
+function fsetId(arr){let i=FSW.get(arr);if(i==null){i=++FSN;FSW.set(arr,i);FSETS.set(i,arr.slice());if(FSETS.size>300)FSETS.delete(FSETS.keys().next().value)}return "@"+i}
+function setOf(s){if(!s)return null;if(s[0]==="@"){const a=FSETS.get(+s.slice(1));return a?a.slice():null}return s.split(",")}
+function figCard(k,set,cls){return `<button class="fig ${cls||""}" data-fig="${k}" data-set="${fsetId(set)}"><img src="${figSrc(k)}" alt="${esc(FIG[k][0])}" loading="lazy" decoding="async"><span class="cap">${esc(FIG[k][0])}<small>${figShort(k)}</small></span></button>`}
 function figsHTML(keys){keys=keys.filter(k=>FIG[k]);return keys.length?`<div class="figs">${keys.map(k=>figCard(k,keys)).join("")}</div>`:""}
 let LB=null;
 function openFig(k,set){LB={set:set&&set.length?set:[k],i:Math.max(0,(set||[k]).indexOf(k)),zoom:false};drawLB()}
@@ -5124,7 +5184,7 @@ function drawLB(){let el=$("#lb");if(!LB){if(el)el.remove();document.body.style.
    ${n>1?`<span class="lbnav"><button class="btn" data-lb="prev" ${LB.i?"":"disabled"}>Previous</button><button class="btn" data-lb="next" ${LB.i<n-1?"":"disabled"}>Next</button></span>`:""}</div>`;
   const c=el.querySelector('[data-lb="close"]');if(c)c.focus({preventScroll:true})}
 document.addEventListener("click",e=>{
-  const f=e.target.closest("[data-fig]");if(f){openFig(f.dataset.fig,f.dataset.set?f.dataset.set.split(","):null);return}
+  const f=e.target.closest("[data-fig]");if(f){openFig(f.dataset.fig,setOf(f.dataset.set));return}
   const b=e.target.closest("[data-lb]");if(!b||!LB)return;const a=b.dataset.lb;
   if(a==="close")LB=null;else if(a==="zoom")LB.zoom=!LB.zoom;else if(a==="prev"&&LB.i>0){LB.i--;LB.zoom=false}else if(a==="next"&&LB.i<LB.set.length-1){LB.i++;LB.zoom=false}
   drawLB()});
@@ -5203,7 +5263,7 @@ function vRegion(id,opt){const r=RMAP[id];if(!r)return vAtlas();
   <button class="btn" data-qregion="${r.id}">Quiz this region</button>${drillCount(r.id)?`<button class="btn" data-drill="${r.id}">Label drill (${drillCount(r.id)} figures)</button>`:""}<button class="btn" data-pdf="${r.id}">Download PDF summary</button></div>
   <nav class="jump" aria-label="Sections">${r.sections.map(s=>`<a href="#${s.id}" data-jump="${s.id}" class="${ST.read[s.id]?"done":""}">${esc(s.t)}</a>`).join("")}</nav>
   ${figs.length?`<div class="h2row"><h2>Figures</h2><span class="eyebrow">${figs.length} from your handouts</span></div>
-  <div class="strip">${figs.map(k=>`<button class="thumb" data-fig="${k}" data-set="${figs.join(",")}" aria-label="${esc(FIG[k][0])}"><img src="${figSrc(k)}" alt="" loading="lazy" decoding="async"></button>`).join("")}</div>`:""}
+  <div class="strip">${figs.map(k=>`<button class="thumb" data-fig="${k}" data-set="${fsetId(figs)}" aria-label="${esc(FIG[k][0])}"><img src="${figSrc(k)}" alt="" loading="lazy" decoding="async"></button>`).join("")}</div>`:""}
   ${r.sections.map(secHTML).join("")}
   ${regionTablesHTML(r.id)}
   <nav class="pager">${prev?`<button class="btn" data-go="region:${prev.id}">← ${esc(prev.name)}</button>`:"<span></span>"}${next?`<button class="btn" data-go="region:${next.id}">${esc(next.name)} →</button>`:""}</nav>`;
@@ -5719,7 +5779,7 @@ function vTracer(id){
     ${Object.entries(KIND).map(([k,[lab,col]])=>{const ts=TRACE.filter(t=>t.kind===k);return ts.length?`<div class="h2row"><h2>${lab}</h2><span class="eyebrow">${ts.length}</span></div><div class="trlist">${ts.map(t=>`<button class="trcard" data-go="tracer:${t.id}" style="--k:${col}"><strong>${esc(t.name)}</strong><span>${esc(t.intro)}</span><small>${t.steps.length} steps · ${t.regions.map(r=>RMAP[r]?esc(RMAP[r].name):"").filter(Boolean).join(", ")}</small></button>`).join("")}</div>`:""}).join("")}`;return}
   const t=TMAP[id],col=KIND[t.kind][1],all=[...new Set(t.steps.flatMap(s=>s.f).filter(k=>FIG[k]))];
   const stepHTML=(s,i)=>`<li class="trstep ${TRSTEP===i?"on":""}" id="trs-${i}"><span class="trnum">${i+1}</span><div class="trbody"><span class="eyebrow">${esc(s.w)}</span><h3>${esc(s.n)}</h3><p>${md(s.d)}</p>
-    ${s.f.filter(k=>FIG[k]).length?`<div class="trfigs">${s.f.filter(k=>FIG[k]).map(k=>`<button class="trfig" data-fig="${k}" data-set="${all.join(",")}"><img src="${figSrc(k)}" alt="${esc(FIG[k][0])}" loading="lazy"><small>${esc(FIG[k][0])}</small></button>`).join("")}</div>`:""}</div></li>`;
+    ${s.f.filter(k=>FIG[k]).length?`<div class="trfigs">${s.f.filter(k=>FIG[k]).map(k=>`<button class="trfig" data-fig="${k}" data-set="${fsetId(all)}"><img src="${figSrc(k)}" alt="${esc(FIG[k][0])}" loading="lazy"><small>${esc(FIG[k][0])}</small></button>`).join("")}</div>`:""}</div></li>`;
   if(TRSTEP!=null){const s=t.steps[TRSTEP],n=t.steps.length;
     V().innerHTML=`<div class="hero"><span class="eyebrow">${esc(t.name)} · step ${TRSTEP+1} of ${n}</span></div>
     <div class="trbar" style="--k:${col}">${t.steps.map((x,i)=>`<button class="${i===TRSTEP?"on":i<TRSTEP?"past":""}" data-trstep="${i}" aria-label="Step ${i+1}: ${esc(x.n)}"></button>`).join("")}</div>
@@ -6008,16 +6068,24 @@ const GENERIC=new Set(["artery","nerve","vein","muscle","branch","gland","bone",
 function normT(s){return String(s).toLowerCase().replace(/\[[^\]]*\]/g," ").replace(/[^a-z0-9 ]+/g," ")
   .split(/\s+/).filter(w=>w&&!["the","of","and","a","to","in"].includes(w)).map(w=>w.length>4&&/ies$/.test(w)?w.slice(0,-3)+"y":w.length>4&&/[^su]s$/.test(w)?w.slice(0,-1):w).join(" ")}
 let LBLIX=null;const LBLC=new Map();
-function lblIndex(){if(LBLIX)return LBLIX;LBLIX=[];if(typeof OCCT==="undefined")return LBLIX;
-  for(const k in OCCT){if(!FIG[k]||!OCC[k]||OCC[k].length!==OCCT[k].length)continue;
-    OCCT[k].forEach((t,i)=>{const n=normT(t);if(n.length>=4)LBLIX.push({k,i,t,n,p:" "+n+" "})})}
-  return LBLIX}
+const idle=window.requestIdleCallback?f=>requestIdleCallback(f,{timeout:1500}):f=>setTimeout(()=>f({timeRemaining:()=>8}),60);
+/* the index is built a few figures at a time while the app is idle; a lookup before it is done finishes it at once */
+let LBLB=null;
+function lblBuild(budget){if(LBLIX)return true;if(typeof OCCT==="undefined"){LBLIX=[];LBLIX.byW=new Map();return true}
+  if(!LBLB)LBLB={keys:Object.keys(OCCT),i:0,L:[],byW:new Map()};const B=LBLB,end=budget?performance.now()+budget:Infinity;
+  while(B.i<B.keys.length&&performance.now()<end){const k=B.keys[B.i++];if(!FIG[k]||!OCC[k]||OCC[k].length!==OCCT[k].length)continue;
+    OCCT[k].forEach((t,i)=>{const n=normT(t);if(n.length<4)return;const j=B.L.push({k,i,t,n,p:" "+n+" ",w:n.split(" ").length})-1;
+      new Set(n.split(" ")).forEach(w=>{let a=B.byW.get(w);if(!a)B.byW.set(w,a=[]);a.push(j)})})}
+  if(B.i<B.keys.length)return false;LBLIX=B.L;LBLIX.byW=B.byW;LBLB=null;return true}
+function lblIndex(){lblBuild(0);return LBLIX}
+(function warm(){const go=d=>{if(!lblBuild(Math.max(4,Math.min(10,d.timeRemaining()))))idle(go)};idle(go)})();
 function findLabels(term,reg){const nt=normT(term);if(!nt||nt.length<4)return[];const words=nt.split(" ");
   if(words.length===1&&(GENERIC.has(nt)||nt.length<5))return[];
   const key=nt+"|"+(reg||"");if(LBLC.has(key))return LBLC.get(key);
-  const best=new Map(),q=" "+nt+" ";
-  for(const L of lblIndex()){let sc=0;
-    if(L.n===nt)sc=3;else if(L.p.includes(q))sc=2;else if(L.n.split(" ").length>=2&&L.n.length>=8&&q.includes(L.p))sc=1;
+  const best=new Map(),q=" "+nt+" ",IX=lblIndex(),cand=new Set();
+  for(const w of new Set(words)){const a=IX.byW.get(w);if(a)for(const j of a)cand.add(j)}
+  for(const j of cand){const L=IX[j];let sc=0;
+    if(L.n===nt)sc=3;else if(L.p.includes(q))sc=2;else if(L.w>=2&&L.n.length>=8&&q.includes(L.p))sc=1;
     if(!sc)continue;if(L.k[0]==="g")sc+=.4;if(reg&&FIG[L.k][3]===reg)sc+=.3;
     const o=best.get(L.k);if(!o||o.sc<sc)best.set(L.k,{k:L.k,i:L.i,t:L.t,sc})}
   const r=[...best.values()].sort((a,b)=>b.sc-a.sc).slice(0,12);LBLC.set(key,r);return r}
@@ -6032,9 +6100,14 @@ document.addEventListener("click",e=>{const p=e.target.closest("[data-lblpick]")
   const l=e.target.closest("b.lnk,[data-lterm]");if(l){e.preventDefault();e.stopPropagation();pickLabel(l.dataset.lterm||l.textContent,l.dataset.lreg||"")}},true);
 document.addEventListener("keydown",e=>{if((e.key==="Enter"||e.key===" ")&&e.target.matches&&e.target.matches("b.lnk")){e.preventDefault();pickLabel(e.target.textContent,e.target.dataset.lreg||"")}});
 /* mark linkable bold terms inside a container */
-function linkTerms(root,reg){if(!root)return;root.querySelectorAll(".sec li b,.sec .pearl b,.trbody p b,.mdet p b").forEach(b=>{if(b.classList.contains("lnk"))return;
+function linkTerms(root,reg){if(!root)return;const bs=[...root.querySelectorAll(".sec li b,.sec .pearl b,.trbody p b,.mdet p b")];let i=0;
+  /* runs after the page is on screen, in slices, so opening a page never waits for it */
+  const step=d=>{if(!root.isConnected)return;const end=performance.now()+Math.max(4,Math.min(12,d.timeRemaining()));
+    while(i<bs.length&&performance.now()<end)linkOne(bs[i++],reg);if(i<bs.length)idle(step)};
+  idle(step)}
+function linkOne(b,reg){{if(b.classList.contains("lnk"))return;
   const t=b.textContent.replace(/[:.]$/,"").trim();if(t.length<5||t.length>60)return;
-  if(findLabels(t,reg).length){b.classList.add("lnk");b.tabIndex=0;b.setAttribute("role","button");b.dataset.lterm=t;if(reg)b.dataset.lreg=reg;b.title="Show in figures"}})}
+  if(findLabels(t,reg).length){b.classList.add("lnk");b.tabIndex=0;b.setAttribute("role","button");b.dataset.lterm=t;if(reg)b.dataset.lreg=reg;b.title="Show in figures"}}}
 /* lightbox: highlight the label and zoom onto it */
 const _drawLB6=drawLB;
 drawLB=function(){_drawLB6();if(!LB||!LB.hl)return;const k=LB.set[LB.i],h=LB.hl[k];if(!h)return;
@@ -6468,6 +6541,7 @@ function smartBack(){
   if($("#sheet")){closeSheet();return true}
   const m=[...document.querySelectorAll("[aria-modal='true']")].find(x=>!x.closest("#lb-closing,#sheet-closing"));if(m){const bg=m.closest(".sheetbg,.lb,.modal")||m;bg.remove();document.body.style.overflow="";return true}
   const side=$("#side");if(side&&side.classList.contains("open")){side.classList.remove("open");return true}
+  if(window.fmBack&&window.fmBack())return true;
   while(NAVSTACK.length){const e=NAVSTACK.pop();
     if(e.menu&&((e.menu==="quiz"&&!QZ)||(e.menu==="drill"&&!DR)||cur.split(":")[0]!==e.menu))continue;
     if(e.menu){if(e.menu==="quiz")QZ=null;if(e.menu==="drill")DR=null;go(e.v,{back:1});return true}
@@ -6487,6 +6561,7 @@ const HSYNC=!window.Android;let HD=0,SILENT=0,INPOP=false;
 const _rs=history.replaceState.bind(history),_ps=history.pushState.bind(history);
 try{history.replaceState=function(st,t,u){return _rs(st||{entd:HD},t,u)};_rs({entd:0},"",location.href)}catch(e){}
 function pushH(){if(!HSYNC||INPOP)return;try{HD++;_ps({entd:HD},"",location.href)}catch(e){}}
+window.pushH=pushH;
 function popSilently(){if(!HSYNC||INPOP||HD<=0)return;SILENT++;HD--;try{history.back()}catch(e){SILENT--}}
 window.addEventListener("popstate",e=>{const d=(e.state&&e.state.entd)||0;
   if(SILENT>0){SILENT--;HD=d;return}
@@ -7050,6 +7125,237 @@ document.addEventListener("click",e=>{const T=x=>e.target.closest(x),s=LAB.s;let
 Object.assign(EXTRA,{practical:vPractical,lab:vLab,sources:vSources});
 const _vStudy15=vStudy;vStudy=function(){_vStudy15.apply(this,arguments);const q=V().querySelector('.tgrid .tcell[data-go="quiz"]');if(q)q.insertAdjacentHTML("afterend",`<button class="tcell" data-go="practical"><span class="lico">${ic("bone")}</span><b>Bench exam</b><small>${BENCH.length} timed stations</small></button><button class="tcell" data-go="lab"><span class="lico">${ic("test")}</span><b>More tests</b><small>Mock exam, true or false, typing, match-up</small></button>`)};
 EXTRA.study=vStudy;
+</script>
+
+<script>
+/* ================= v17 FIGURE NAVIGATOR: tap the head and neck, then narrow down by structure ================= */
+(function(){
+const SKIN="M190 22C250 20 300 50 314 104C320 126 320 144 322 152C318 158 314 162 314 168C326 186 342 204 352 220C354 228 348 234 338 236L328 238C334 244 334 250 332 254C328 258 324 260 322 262C328 266 332 270 330 276C326 282 322 284 320 288C326 296 330 304 328 312C326 322 318 328 306 330C290 334 274 338 262 342C258 360 262 380 266 394C262 410 262 440 264 520L104 520C106 460 110 400 112 330C96 300 76 262 66 220C56 180 56 130 74 92C96 48 140 24 190 22Z";
+const BASE=`<defs>
+ <linearGradient id="fmSkin" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="var(--fm-skin1)"/><stop offset="1" stop-color="var(--fm-skin2)"/></linearGradient>
+ <linearGradient id="fmBone" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="var(--fm-bone1)"/><stop offset="1" stop-color="var(--fm-bone2)"/></linearGradient>
+ <radialGradient id="fmShade" cx=".62" cy=".32" r=".75"><stop offset=".5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".18"/></radialGradient></defs>
+<path class="fm-skin" d="${SKIN}"/><path d="${SKIN}" fill="url(#fmShade)"/>
+<path class="fm-bone" d="M190 34C246 32 292 60 304 108C308 126 308 142 310 152C306 158 304 162 306 168L318 190C312 196 304 198 298 196L296 206C306 210 316 218 318 232L316 246C300 250 276 250 252 248L246 236C236 232 226 230 214 230L196 232C186 234 176 238 168 244C156 250 142 256 128 258C108 252 90 232 80 204C70 172 70 130 86 96C106 56 146 36 190 34Z"/>
+<path class="fm-line" d="M226 40C210 70 214 100 232 128M112 82C140 96 168 120 182 150M86 190C110 196 140 194 166 186"/>
+<ellipse class="fm-hole" cx="282" cy="166" rx="20" ry="18"/>
+<path class="fm-hole" d="M304 198C312 206 316 220 314 230C308 234 300 234 296 230C294 218 298 206 304 198Z"/>
+<path class="fm-bone2" d="M178 216C200 208 232 204 254 206L266 214C258 222 244 224 232 224C214 224 196 224 180 226Z"/>
+<path class="fm-bone" d="M244 234C262 230 290 230 312 234C318 240 318 248 316 256C296 258 272 258 252 256C246 250 244 242 244 234Z"/>
+<path class="fm-teeth" d="M254 260H314M256 268H312"/>
+<path class="fm-bone" d="M192 232C200 230 206 236 206 244L210 296C212 308 220 316 232 318L300 318C312 318 320 312 320 300L318 274C300 276 280 276 262 274C252 272 246 264 244 256L240 236C238 230 232 230 230 236L228 256C226 262 218 262 216 256L210 240C206 234 198 230 192 232Z"/>
+<path class="fm-bone2" d="M142 252C146 262 152 270 160 274L162 256C156 252 150 250 142 252Z"/>
+<path class="fm-ear" d="M166 192C152 194 146 210 148 228C150 246 158 262 168 268C176 272 182 266 180 256C178 250 174 246 176 240C184 234 188 222 186 210C184 198 176 190 166 192Z"/>
+<path class="fm-line" d="M168 202C158 206 156 218 160 230C163 238 168 242 170 248"/>
+<circle class="fm-hole" cx="175" cy="228" r="3.5"/>
+<g class="fm-bone2"><rect x="124" y="266" width="32" height="20" rx="5"/><rect x="124" y="292" width="32" height="20" rx="5"/><rect x="124" y="318" width="32" height="20" rx="5"/><rect x="124" y="344" width="32" height="20" rx="5"/><rect x="124" y="370" width="32" height="20" rx="5"/><rect x="124" y="396" width="32" height="20" rx="5"/><rect x="124" y="422" width="32" height="20" rx="5"/><rect x="124" y="448" width="32" height="20" rx="5"/></g>
+<path class="fm-tube" d="M240 206C222 208 206 220 200 240L192 280C188 320 190 360 194 400C198 440 200 480 202 520"/>
+<path class="fm-tongue" d="M246 270C262 262 290 262 308 270C312 274 310 280 304 282C286 286 266 288 250 286C244 282 242 274 246 270Z"/>
+<path class="fm-gland" d="M180 238C188 234 198 236 202 244L208 276C210 286 204 294 194 294C186 294 180 288 178 280L174 254C174 246 176 240 180 238Z"/>
+<path class="fm-gland" d="M238 322C248 316 266 316 274 324C278 330 274 338 266 340C254 342 242 340 236 334C232 330 234 324 238 322Z"/>
+<path class="fm-vein" d="M196 520C194 460 192 400 194 350C196 310 196 280 186 252"/>
+<path class="fm-artery" d="M212 520C210 460 208 400 210 352C212 340 214 334 218 326M210 352C204 330 202 300 204 270"/>
+<path class="fm-bone2" d="M224 340C236 336 252 336 262 340L260 346C250 344 236 344 226 346Z"/>
+<path class="fm-cart" d="M228 352C240 350 254 352 266 358L262 392H230Z"/>
+<path class="fm-cart" d="M230 396H260L258 408H232Z"/>
+<g class="fm-ring"><rect x="232" y="414" width="26" height="7" rx="3"/><rect x="232" y="425" width="26" height="7" rx="3"/><rect x="232" y="436" width="26" height="7" rx="3"/><rect x="232" y="447" width="26" height="7" rx="3"/><rect x="232" y="458" width="26" height="7" rx="3"/><rect x="232" y="469" width="26" height="7" rx="3"/><rect x="232" y="480" width="26" height="7" rx="3"/><rect x="232" y="491" width="26" height="7" rx="3"/></g>
+<path class="fm-gland" d="M226 412C218 418 216 434 220 446C224 456 234 460 244 458C254 456 258 446 256 436C254 422 238 406 226 412Z"/>`;
+/* one tappable shape per region, in map coordinates */
+const REG={
+ skullbones:"M190 34C246 32 292 60 304 108C306 120 306 132 306 140L240 150C200 156 150 170 90 196C76 170 72 130 86 96C106 56 146 36 190 34Z",
+ temporal:"M136 186C154 176 186 176 202 186C210 194 210 206 206 218L202 244C192 254 172 258 156 254C142 248 134 234 132 218C130 204 130 194 136 186Z",
+ extear:"M166 192C152 194 146 210 148 228C150 246 158 262 168 268C176 272 182 266 180 256C178 250 174 246 176 240C184 234 188 222 186 210C184 198 176 190 166 192Z",
+ midear:"M186 228A7 7 0 1 0 200 228A7 7 0 1 0 186 228Z",
+ inner:"M198 216A7 7 0 1 0 212 216A7 7 0 1 0 198 216Z",
+ et:"M198 236L236 222L240 230L202 244Z",
+ facial:"M178 246L188 262L214 262L262 236L266 242L224 266L276 262L276 270L224 274L268 296L264 302L214 280L186 278L174 256Z",
+ nose:"M296 176C310 190 330 206 346 220C352 228 346 236 336 236L250 236C244 230 244 220 246 212L250 196C262 184 280 176 296 176Z",
+ sinus:"M270 126C280 120 294 122 298 132C300 142 292 148 282 148C272 148 266 138 270 126ZM260 202C268 194 288 192 294 202C298 212 294 226 282 228C268 230 258 222 258 212C258 208 258 204 260 202ZM226 184C234 178 246 180 248 188C250 196 244 202 236 202C228 202 222 196 226 184Z",
+ orbit:"M262 166A20 18 0 1 0 302 166A20 18 0 1 0 262 166Z",
+ oral:"M246 258C266 254 296 254 316 258C320 266 320 278 314 286C292 292 266 292 248 288C242 278 242 266 246 258Z",
+ salivary:"M180 238C188 234 198 236 202 244L208 276C210 286 204 294 194 294C186 294 180 288 178 280L174 254C174 246 176 240 180 238ZM238 322C248 316 266 316 274 324C278 330 274 338 266 340C254 342 242 340 236 334C232 330 234 324 238 322Z",
+ pharynx:"M240 200C220 204 200 216 194 238L184 280C180 320 182 360 186 400L190 428L208 428L204 400C200 360 198 320 202 282L210 244C214 228 226 216 242 212Z",
+ larynx:"M222 336C236 330 256 330 266 338L270 360L264 396L260 410H230L226 396L220 360Z",
+ neck:"M112 330C130 330 170 330 196 330C220 334 244 344 262 342C258 360 262 380 266 394C262 410 262 440 264 520H104C106 460 110 400 112 330Z",
+ vessels:"M182 250L194 248C204 280 206 320 204 352C202 400 204 460 206 520H222C220 460 218 400 220 352C222 320 214 280 204 246L194 240Z",
+ thyroid:"M224 408C214 416 212 434 218 448C224 460 238 464 250 460C262 456 266 444 262 432C258 418 240 402 224 408Z",
+ itf:"M204 212C220 208 240 210 248 218L250 254C240 264 224 266 214 260L206 236Z",
+ trigeminal:"M212 196L258 168L264 174L224 202L282 206L282 214L226 214L272 246L266 252L214 216Z",
+ mandible:"M192 232C200 230 206 236 206 244L210 296C212 308 220 316 232 318L300 318C312 318 320 312 320 300L318 274C300 276 280 276 262 274C252 272 246 264 244 256L240 236C238 230 232 230 230 236L228 256C226 262 218 262 216 256L210 240C206 234 198 230 192 232Z",
+ neckbones:"M120 262H160V472H120ZM222 334H264L262 350H224Z"};
+/* where a region's name tag sits when its area is open */
+const PIN={skullbones:[190,92],temporal:[148,190],extear:[160,244],midear:[184,212],inner:[214,204],et:[222,236],facial:[236,258],
+ nose:[318,214],sinus:[284,136],orbit:[282,166],oral:[284,272],salivary:[196,268],pharynx:[200,320],larynx:[246,372],neck:[150,470],
+ vessels:[212,420],thyroid:[240,438],itf:[226,236],trigeminal:[256,196],mandible:[270,304],neckbones:[140,360]};
+const SHORT={temporal:"Temporal bone",extear:"External ear",midear:"Middle ear",inner:"Inner ear",et:"Eustachian tube",facial:"Facial nerve",nose:"Nose",sinus:"Sinuses",
+ orbit:"Orbit",oral:"Mouth & tongue",salivary:"Salivary glands",pharynx:"Pharynx",larynx:"Larynx",neck:"Neck spaces & nodes",vessels:"Vessels & nerves",thyroid:"Thyroid",
+ itf:"Infratemporal & TMJ",trigeminal:"Trigeminal nerve",embryo:"Embryology",skullbones:"Skull bones",mandible:"Mandible",neckbones:"Neck bones"};
+/* first level: areas (drawn bottom to top so small parts stay tappable over big ones) */
+const AREAS=[
+ {id:"skull",name:"Skull & skull base",col:"--g-face",regs:["skullbones","temporal"],box:[56,24,290,250],hot:"skullbones",pin:[190,92]},
+ {id:"neck",name:"Neck",col:"--g-neck",regs:["neck","vessels","neckbones"],box:[90,240,200,280],hot:"neck",pin:[150,478]},
+ {id:"jaw",name:"Jaw, TMJ & face",col:"--g-face",regs:["itf","mandible","trigeminal"],box:[170,156,166,176],hot:"mandible",pin:[262,306]},
+ {id:"ear",name:"Ear",col:"--g-ear",regs:["extear","midear","inner","et","facial","temporal"],box:[110,150,180,150],hot:"extear",pin:[160,232]},
+ {id:"pharynx",name:"Pharynx",col:"--g-throat",regs:["pharynx"],box:[150,196,130,240],hot:"pharynx",pin:[192,342]},
+ {id:"mouth",name:"Mouth & glands",col:"--g-throat",regs:["oral","salivary"],box:[166,222,166,132],hot:"oral",pin:[292,276]},
+ {id:"nose",name:"Nose & sinuses",col:"--g-nose",regs:["nose","sinus"],box:[214,108,146,140],hot:"nose",pin:[330,212]},
+ {id:"orbit",name:"Orbit",col:"--g-nose",regs:["orbit"],box:[234,120,100,92],hot:"orbit",pin:[290,140]},
+ {id:"larynx",name:"Larynx",col:"--g-neck",regs:["larynx"],box:[196,322,104,156],hot:"larynx",pin:[250,372]},
+ {id:"thyroid",name:"Thyroid",col:"--g-neck",regs:["thyroid"],box:[196,392,96,86],hot:"thyroid",pin:[244,440]}];
+const AMAP={};AREAS.forEach(a=>AMAP[a.id]=a);
+const FULL=[0,10,400,505];
+
+/* ---------- structure index: every labelled structure and caption phrase, per figure ---------- */
+const NOISE=/\b(view|views|section|figure|fig|plate|schema|schematic|continued|note|key|cut|removed|opened|reflected)\b/;
+const GEN1=new Set(["artery","nerve","vein","muscle","branch","branches","gland","bone","sinus","fascia","ligament","membrane","process","cartilage","fossa","canal","node","duct","space","wall","part","body","head","neck","base","root","border","surface","angle","left","right","anterior","posterior","superior","inferior","medial","lateral","deep","superficial","internal","external","upper","lower","middle","greater","lesser","common","main","small","large","level"]);
+const ABBR={m:"muscle",mm:"muscles",n:"nerve",nn:"nerves",a:"artery",aa:"arteries",v:"vein",vv:"veins",lig:"ligament",ant:"anterior",post:"posterior",sup:"superior",inf:"inferior",int:"internal",ext:"external"};
+const SYN={"pharyngotympanic tube":"eustachian tube","auditory tube":"eustachian tube","pharyngotympanic auditory tube":"eustachian tube","ear drum":"tympanic membrane","eardrum":"tympanic membrane",
+  "vidian nerve":"nerve pterygoid canal","sternomastoid":"sternocleidomastoid","sternomastoid muscle":"sternocleidomastoid","sternocleidomastoid muscle":"sternocleidomastoid","incus long process":"long process incus"};
+function key(n){if(SYN[n])return SYN[n];const w=n.split(" ");if(w.length>=3&&/^(nerve|artery|vein|muscle|bone|ligament|gland|cartilage)$/.test(w[w.length-1]))return w.slice(0,-1).join(" ");return n}
+function clean(t){return String(t).replace(/\b(m|mm|n|nn|a|aa|v|vv|lig|ant|post|sup|inf|int|ext)\.(?=\s|$)|\s(m|n|a|v)$/gi,(x,p1,p2)=>(p2?" ":"")+ABBR[(p1||p2).toLowerCase()]).replace(/\[[^\]]*\]|\([^)]*\)/g," ").replace(/\b(cut|cut edge|removed|opened|reflected|turned up|in situ)\b/gi," ")
+  .replace(/^\s*(left|right|the)\s+/i,"").replace(/[^A-Za-z0-9'\- ]+/g," ").replace(/\s+/g," ").trim()}
+function okPhrase(n){if(!n||n.length<4||!/[a-z]{3}/.test(n)||NOISE.test(n))return false;const w=n.split(" ");if(w.length>5)return false;
+  if(w.length===1&&(GEN1.has(n)||n.length<5))return false;if(w.every(x=>GEN1.has(x)))return false;return true}
+function sysOf(n){
+  if(/\b(muscle|muscularis|constrictor|belly|tendon|levator|tensor|depressor|orbicularis|buccinator|masseter|temporalis|pterygoid muscle|platysma|digastric|mylohyoid|geniohyoid|hyoglossus|genioglossus|styloglossus|scalene|sternocleidomastoid|trapezius|stapedius|cricothyroid|arytenoid muscle|vocalis|thyroarytenoid)\b/.test(n)&&!/\bnerve\b/.test(n))return "Muscles";
+  if(/\b(artery|arteries|vein|veins|venous|vena|jugular|carotid|aorta|plexus of vein|sinus of dura)\b/.test(n)||/\b(sigmoid|cavernous|sagittal|petrosal|transverse|straight|occipital) sinus\b/.test(n))return "Vessels";
+  if(/\b(nerve|nerves|ganglion|chorda|ansa|plexus|trunk|nucleus|tract|cord|nervus)\b/.test(n))return "Nerves";
+  if(/\b(gland|glands|duct|node|nodes|tonsil|tonsils|lymph|adenoid|papilla|caruncle)\b/.test(n))return "Glands, nodes & tonsils";
+  if(/\b(ligament|membrane|fascia|cartilage|joint|capsule|disc|tendon|aponeurosis|raphe|fold|septum|cord)\b/.test(n))return "Cartilage, ligaments & folds";
+  return "Bones, spaces & landmarks"}
+const SYSORD=["Nerves","Vessels","Muscles","Bones, spaces & landmarks","Cartilage, ligaments & folds","Glands, nodes & tonsils"];
+let IX=null,IB=null;
+/* built a few figures at a time while the app is idle; opening the page before it is done finishes it */
+function build(budget){if(IX)return true;if(!IB)IB={i:0,by:{},ph:new Map()};const by=IB.by,ph=IB.ph,end=budget?performance.now()+budget:Infinity;
+  while(IB.i<ALLFIGS.length&&performance.now()<end){const k=ALLFIGS[IB.i++];const m=new Map();
+    (typeof OCCT!=="undefined"&&OCCT[k]||[]).forEach((t,i)=>{const d=clean(t),n=key(normT(d));if(okPhrase(n)&&!m.has(n))m.set(n,{i,d})});
+    String(FIG[k][0]).split(/[,;:()]|\s[-–]\s|\band\b|\bwith\b/i).forEach(x=>{const d=clean(x),n=key(normT(d));if(okPhrase(n)&&!m.has(n))m.set(n,{i:-1,d})});
+    by[k]=m;m.forEach((v,n)=>{let e=ph.get(n);if(!e)ph.set(n,e={n,c:0,d:new Map(),sys:sysOf(n)});e.c++;e.d.set(v.d,(e.d.get(v.d)||0)+1)})}
+  if(IB.i<ALLFIGS.length)return false;
+  ph.forEach(e=>{let best="",bc=-1;e.d.forEach((c,d)=>{if(c>bc||(c===bc&&d.length>best.length)){best=d;bc=c}});e.name=best.charAt(0).toUpperCase()+best.slice(1)});
+  IX={by,ph};IB=null;return true}
+function index(){build(0);return IX}
+{const rIC=window.requestIdleCallback?f=>requestIdleCallback(f,{timeout:3000}):f=>setTimeout(()=>f({timeRemaining:()=>8}),200);
+  const go=d=>{if(!build(Math.max(4,Math.min(10,d.timeRemaining()))))rIC(go)};setTimeout(()=>rIC(go),1500)}
+
+/* ---------- state ---------- */
+let FM={a:null,r:null,f:[]},PAGE=24,QY="";
+const srcOk=k=>FIGSRC==="all"||FIG[k][1]===FIGSRC;
+const regsOf=a=>a?AMAP[a].regs:[];
+const areaOfReg=r=>(AREAS.find(a=>a.hot===r)||AREAS.find(a=>a.regs.includes(r))||{}).id||null;
+function keysFor(s){const I=index();let ks=ALLFIGS.filter(srcOk);
+  if(s.r)ks=ks.filter(k=>FIG[k][3]===s.r);else if(s.a){const R=regsOf(s.a);ks=ks.filter(k=>R.includes(FIG[k][3]))}
+  if(s.f.length)ks=ks.filter(k=>s.f.every(p=>I.by[k].has(p)));return ks}
+const depth=s=>(s.a?1:0)+(s.r&&!(s.a&&regsOf(s.a).length===1)?1:0)+s.f.length;
+function facets(ks,chosen){const I=index(),n=ks.length,cnt=new Map();
+  for(const k of ks)for(const p of I.by[k].keys())if(!chosen.includes(p))cnt.set(p,(cnt.get(p)||0)+1);
+  const min=n>=14?3:2,cand=[];cnt.forEach((c,p)=>{if(c>=min&&c<n)cand.push({p,c,s:c*Math.sqrt(1-c/n)*(p.includes(" ")?1.15:.85)})});
+  cand.sort((a,b)=>b.s-a.s);const out=[];
+  for(const x of cand){if(out.some(o=>o.c===x.c&&(o.p.includes(x.p)||x.p.includes(o.p))))continue;out.push(x);if(out.length>=30)break}
+  return out}
+
+/* ---------- map ---------- */
+let VB=FULL.slice(),ANIM=0;
+function targetBox(s){if(!s.a)return FULL.slice();const b=AMAP[s.a].box,pad=8;let w=Math.max(190,b[2]+2*pad),h=Math.max(210,b[3]+2*pad);
+  const cx=b[0]+b[2]/2,cy=b[1]+b[3]/2;return [cx-w/2,cy-h/2,w,h]}
+function mapHTML(){return `<div class="fmmap" data-noswipe><svg class="fmsvg" viewBox="${VB.join(" ")}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Head and neck map">${BASE}<g class="fmhots"></g></svg><div class="fmpins"></div>
+  <button class="fmout" type="button" data-fmup="0" hidden><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M8 11h6M20 20l-4-4"/></svg>Whole head</button></div>`}
+function hotsHTML(s,cnt){
+  if(!s.a)return AREAS.map(a=>{const n=cnt.a[a.id]||0;return n?`<path class="fmh" style="--c:var(${a.col})" data-fma="${a.id}" d="${REG[a.hot]}"><title>${esc(a.name)}</title></path>`:""}).join("");
+  const A=AMAP[s.a];return A.regs.map(r=>{const n=cnt.r[r]||0;if(!n)return "";return `<path class="fmh ${s.r===r?"on":s.r?"dim":""}" style="--c:var(${A.col})" data-fmr="${r}" d="${REG[r]}"><title>${esc(SHORT[r])}</title></path>`}).join("")}
+function pinsData(s,cnt){
+  if(!s.a)return AREAS.filter(a=>cnt.a[a.id]).map(a=>({x:a.pin[0],y:a.pin[1],t:a.name,n:cnt.a[a.id],col:a.col,attr:`data-fma="${a.id}"`}));
+  const A=AMAP[s.a];return A.regs.filter(r=>cnt.r[r]).map(r=>({x:PIN[r][0],y:PIN[r][1],t:SHORT[r],n:cnt.r[r],col:A.col,on:s.r===r,attr:`data-fmr="${r}"`}))}
+function placePins(s,cnt){const box=$(".fmmap"),svg=$(".fmsvg"),wrap=$(".fmpins");if(!box||!svg||!wrap)return;
+  const W=box.clientWidth,H=box.clientHeight,sc=Math.min(W/VB[2],H/VB[3]),ox=(W-VB[2]*sc)/2,oy=(H-VB[3]*sc)/2;
+  const P=pinsData(s,cnt);wrap.innerHTML=P.map(p=>`<button class="fmpin ${p.on?"on":""}" type="button" ${p.attr} style="--c:var(${p.col})"><i></i>${esc(p.t)}<small>${p.n}</small></button>`).join("");
+  const els=[...wrap.children],rects=[];
+  P.forEach((p,i)=>{const el=els[i],w=el.offsetWidth,h=el.offsetHeight;let x=ox+(p.x-VB[0])*sc-w/2,y=oy+(p.y-VB[1])*sc-h/2;
+    x=Math.max(6,Math.min(W-w-6,x));y=Math.max(6,Math.min(H-h-6,y));
+    const free=(X,Y)=>!rects.some(r=>X<r.x+r.w+4&&X+w+4>r.x&&Y<r.y+r.h+3&&Y+h+3>r.y);
+    if(!free(x,y)){const y0=y,x0=x,d=h+4;let ok=false;
+      for(let t=1;t<10&&!ok;t++)for(const [dx,dy] of [[0,t*d],[0,-t*d],[t*24,0],[-t*24,0]]){const X=Math.max(6,Math.min(W-w-6,x0+dx)),Y=Math.max(6,Math.min(H-h-6,y0+dy));if(free(X,Y)){x=X;y=Y;ok=true;break}}}
+    rects.push({x,y,w,h});el.style.transform=`translate(${Math.round(x)}px,${Math.round(y)}px)`});
+  const out=$(".fmout");if(out)out.hidden=!s.a}
+function zoomTo(box,done){const svg=$(".fmsvg");if(!svg){VB=box;done&&done();return}cancelAnimationFrame(ANIM);
+  const from=VB.slice(),t0=performance.now(),D=matchMedia("(prefers-reduced-motion: reduce)").matches?0:520,ease=t=>1-Math.pow(1-t,3);
+  const pins=$(".fmpins");if(pins)pins.classList.add("hide");
+  const step=now=>{const t=D?Math.min(1,(now-t0)/D):1,e=ease(t);VB=from.map((v,i)=>v+(box[i]-v)*e);svg.setAttribute("viewBox",VB.map(v=>v.toFixed(2)).join(" "));
+    if(t<1)ANIM=requestAnimationFrame(step);else{VB=box.slice();if(pins)pins.classList.remove("hide");done&&done()}};ANIM=requestAnimationFrame(step)}
+
+/* ---------- panel ---------- */
+function counts(){const c={a:{},r:{}};for(const k of ALLFIGS){if(!srcOk(k))continue;const r=FIG[k][3];c.r[r]=(c.r[r]||0)+1}
+  AREAS.forEach(a=>{c.a[a.id]=a.regs.reduce((s,r)=>s+(c.r[r]||0),0)});return c}
+function crumbs(s){const I=index(),out=[{t:"Head & neck",s:{a:null,r:null,f:[]}}];
+  if(s.a)out.push({t:AMAP[s.a].name,s:{a:s.a,r:regsOf(s.a).length===1?s.a&&regsOf(s.a)[0]:null,f:[]}});
+  if(s.r&&regsOf(s.a).length>1)out.push({t:SHORT[s.r]||RMAP[s.r].name,s:{a:s.a,r:s.r,f:[]}});
+  s.f.forEach((p,i)=>out.push({t:(I.ph.get(p)||{}).name||p,s:{a:s.a,r:s.r,f:s.f.slice(0,i+1)}}));return out}
+function cardsHTML(ks,from,n){return ks.slice(from,from+n).map(k=>figCard(k,ks,"fmcard")).join("")}
+function panelHTML(s,cnt){const I=index(),ks=keysFor(s),cr=crumbs(s),lvl=cr.length-1;
+  const title=s.f.length?I.ph.get(s.f[s.f.length-1]).name:s.r?(RMAP[s.r]||{}).name:s.a?AMAP[s.a].name:"Tap a part of the head and neck";
+  const sub=s.f.length?`${ks.length} figure${ks.length===1?"":"s"} label it${s.f.length>1?" together with the structures before it":""}. Opening one zooms onto the label.`
+    :s.a||s.r?`${ks.length} figures. Pick a structure below to narrow them down.`:`${ALLFIGS.filter(srcOk).length} figures, filed by region. Or search for any labelled structure.`;
+  let h=`<nav class="fmcrumbs" aria-label="Where you are">${cr.map((c,i)=>i<lvl?`<button type="button" data-fmup="${i}">${esc(c.t)}</button><span aria-hidden="true">›</span>`:`<b>${esc(c.t)}</b>`).join("")}</nav>
+   <h2 class="fmtitle">${esc(title)}</h2><p class="lede small">${sub}</p>`;
+  if(!s.a&&!s.r&&!s.f.length){
+    h+=`<div class="fmsearch"><input id="fmq" type="search" placeholder="Find a structure, e.g. stapes, chorda tympani" autocomplete="off" value="${esc(QY)}"><div id="fmsug" class="fmchips"></div></div>
+     <div class="fmchips fmareas">${AREAS.filter(a=>cnt.a[a.id]).map(a=>`<button class="chip fmchip" data-fma="${a.id}" style="--c:var(${a.col})"><i></i>${esc(a.name)}<small>${cnt.a[a.id]}</small></button>`).join("")}
+       ${cnt.r.embryo?`<button class="chip fmchip" data-fmr="embryo"><i></i>Development<small>${cnt.r.embryo}</small></button>`:""}</div>`}
+  else if(s.a&&regsOf(s.a).length>1){const A=AMAP[s.a];
+    h+=`<div class="fmchips">${A.regs.filter(r=>cnt.r[r]).map(r=>`<button class="chip fmchip ${s.r===r?"on":""}" data-fmr="${r}" style="--c:var(${A.col})" aria-pressed="${s.r===r}"><i></i>${esc(SHORT[r])}<small>${cnt.r[r]}</small></button>`).join("")}</div>`}
+  if(s.a||s.r||s.f.length){const fs=facets(ks,s.f);
+    if(fs.length){const g={};fs.forEach(f=>{const e=I.ph.get(f.p);(g[e.sys]=g[e.sys]||[]).push({...f,name:e.name})});
+      h+=`<section class="fmfacets"><h3>Narrow down by structure</h3>${SYSORD.filter(x=>g[x]).map(x=>`<div class="fmgrp"><span class="eyebrow">${esc(x)}</span><div class="fmchips">${g[x].slice(0,8).map(f=>`<button class="chip fmchip fmf" data-fmf="${esc(f.p)}">${esc(f.name)}<small>${f.c}</small></button>`).join("")}</div></div>`).join("")}</section>`}}
+  h+=`<div class="fmsrc"><label class="fieldlabel" for="fmsrc">Source</label><select id="fmsrc" class="select">${[["all","All sources"],["S","ENT Steps"],["D","Dr. Doss"],["G","Gray's Atlas"],["F","El-Fiky"]].map(([v,t])=>`<option value="${v}" ${FIGSRC===v?"selected":""}>${t}</option>`).join("")}</select></div>
+   <div class="figs fmgrid" data-n="${Math.min(PAGE,ks.length)}">${cardsHTML(ks,0,PAGE)}</div>${ks.length>PAGE?`<button class="morebtn fmmore" type="button"><span>Show more</span><small>${ks.length-PAGE} more</small></button>`:""}`;
+  return h}
+
+let CNT=null;
+function update(anim){const s=FM,cnt=CNT=counts(),p=$(".fmpanel"),g=$(".fmhots");if(!p||!g)return;
+  g.innerHTML=hotsHTML(s,cnt);p.innerHTML=panelHTML(s,cnt);
+  const box=targetBox(s),same=box.every((v,i)=>Math.abs(v-VB[i])<.5);
+  if(anim&&!same)zoomTo(box,()=>placePins(s,cnt));else{VB=box;const svg=$(".fmsvg");svg&&svg.setAttribute("viewBox",VB.join(" "));placePins(s,cnt)}
+  if(!s.a&&!s.r&&!s.f.length)suggest()}
+function setState(ns,push){const d0=depth(FM),d1=depth(ns);FM=ns;if(push&&d1>d0&&window.pushH)pushH();update(true);
+  const t=$(".fmmap");if(t&&t.getBoundingClientRect().top<0)t.scrollIntoView({block:"start",behavior:"smooth"})}
+
+/* search: any labelled structure across every figure */
+function suggest(){const box=$("#fmsug");if(!box)return;const q=key(normT(QY));if(q.length<2){box.innerHTML="";return}
+  const I=index(),res=[];I.ph.forEach(e=>{if(e.c<1)return;const at=(" "+e.n).indexOf(" "+q);if(at<0)return;res.push({e,s:(at===0?2:1)+Math.min(1,e.c/20)})});
+  res.sort((a,b)=>b.s-a.s||b.e.c-a.e.c);
+  if(res.filter(x=>x.e.c>=2).length>=6)res.splice(0,res.length,...res.filter(x=>x.e.c>=2));
+  box.innerHTML=res.length?res.slice(0,12).map(x=>`<button class="chip fmchip fmf" data-fmf="${esc(x.e.n)}">${esc(x.e.name)}<small>${x.e.c}</small></button>`).join(""):`<p class="lede small">No labelled structure matches.</p>`}
+
+/* ---------- view ---------- */
+vFigures=function(arg,opt){
+  if(!(opt&&opt.back)){if(FIGF&&FIGF!=="all"){FM={a:areaOfReg(FIGF),r:FIGF,f:[]};FIGF="all"}else FM={a:null,r:null,f:[]};QY=""}
+  if(FM.r==="embryo")FM.a=null;VB=targetBox(FM);
+  V().innerHTML=`<div class="hero fmhero"><span class="eyebrow">Figures</span><h1>Image atlas</h1></div><div class="fmwrap">${mapHTML()}<div class="fmpanel"></div></div>`;
+  update(false);requestAnimationFrame(()=>placePins(FM,CNT))};
+window.fmBack=function(){if(typeof cur==="undefined"||cur.split(":")[0]!=="figures"||!$(".fmpanel"))return false;
+  const s=FM;if(s.f.length){setState({a:s.a,r:s.r,f:s.f.slice(0,-1)});return true}
+  if(s.r&&s.a&&regsOf(s.a).length>1){setState({a:s.a,r:null,f:[]});return true}
+  if(s.a||s.r){setState({a:null,r:null,f:[]});return true}return false};
+function jumpTo(i){const cr=crumbs(FM),d=cr.length-1-i;if(d<=0)return;
+  if(!window.Android&&window.history&&history.state&&history.state.entd>=d){history.go(-d);return}
+  setState(cr[i].s)}
+
+document.addEventListener("click",e=>{if(typeof cur==="undefined"||cur.split(":")[0]!=="figures")return;const t=e.target;
+  let b=t.closest("[data-fma]");if(b){e.preventDefault();const a=b.dataset.fma,R=regsOf(a);setState({a,r:R.length===1?R[0]:null,f:[]},true);return}
+  b=t.closest("[data-fmr]");if(b){e.preventDefault();const r=b.dataset.fmr;
+    if(FM.r===r&&FM.a&&regsOf(FM.a).length>1){setState({a:FM.a,r:null,f:[]});return}
+    const a=r==="embryo"?null:FM.a||areaOfReg(r);const same=depth({a,r,f:[]})===depth(FM)&&FM.a===a;setState({a,r,f:[]},!same);return}
+  b=t.closest("[data-fmf]");if(b){e.preventDefault();const p=b.dataset.fmf;if(FM.f.includes(p))return;setState({a:FM.a,r:FM.r,f:FM.f.concat(p)},true);return}
+  b=t.closest("[data-fmup]");if(b){e.preventDefault();jumpTo(+b.dataset.fmup);return}
+  b=t.closest(".fmmore");if(b){const g=$(".fmgrid"),ks=keysFor(FM),n=+g.dataset.n;g.insertAdjacentHTML("beforeend",cardsHTML(ks,n,PAGE));g.dataset.n=Math.min(ks.length,n+PAGE);
+    const left=ks.length-+g.dataset.n;if(left>0)b.querySelector("small").textContent=left+" more";else b.remove();return}
+  /* open a figure zoomed onto the structure you narrowed down to */
+  const f=t.closest(".fmgrid [data-fig]");if(f&&FM.f.length){e.preventDefault();e.stopImmediatePropagation();const I=index(),ks=keysFor(FM),p=FM.f[FM.f.length-1],k=f.dataset.fig;
+    LB={set:ks,i:Math.max(0,ks.indexOf(k)),zoom:true,hl:{},hlt:{}};ks.forEach(x=>{const m=I.by[x].get(p);if(m&&m.i>=0&&OCC[x]&&OCC[x][m.i]){LB.hl[x]=OCC[x][m.i];LB.hlt[x]=OCCT[x][m.i]}});drawLB()}},true);
+document.addEventListener("input",e=>{if(e.target.id==="fmq"){QY=e.target.value;suggest()}});
+document.addEventListener("change",e=>{if(e.target.id==="fmsrc"){FIGSRC=e.target.value;update(false)}});
+addEventListener("resize",()=>{if($(".fmpanel")&&CNT)placePins(FM,CNT)});
+})();
 </script>
 
 <script>
