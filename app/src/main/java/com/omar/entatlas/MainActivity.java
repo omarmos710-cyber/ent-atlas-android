@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 import android.window.OnBackInvokedDispatcher;
 import android.webkit.JavascriptInterface;
+import android.webkit.RenderProcessGoneDetail;
 import android.webkit.ValueCallback;
 import android.webkit.WebChromeClient;
 import android.webkit.WebResourceRequest;
@@ -32,12 +33,21 @@ public class MainActivity extends Activity {
     private static final int REQ_PICK = 1, REQ_SAVE = 2;
 
     private WebView web;
+    private String lastUrl = START;   // last page shown, to come back to if the renderer is killed
     private ValueCallback<Uri[]> pickCallback;
     private String pendingBackup;
 
     @Override
     protected void onCreate(Bundle state) {
         super.onCreate(state);
+        createWebView(state);
+        if (Build.VERSION.SDK_INT >= 33) {
+            getOnBackInvokedDispatcher().registerOnBackInvokedCallback(
+                    OnBackInvokedDispatcher.PRIORITY_DEFAULT, this::handleBack);
+        }
+    }
+
+    private void createWebView(Bundle state) {
         web = new WebView(this);
         setContentView(web);
 
@@ -57,6 +67,24 @@ public class MainActivity extends Activity {
             @Override
             public WebResourceResponse shouldInterceptRequest(WebView v, WebResourceRequest r) {
                 return loader.shouldInterceptRequest(r.getUrl());
+            }
+
+            @Override
+            public void doUpdateVisitedHistory(WebView v, String url, boolean isReload) {
+                if (url != null && url.startsWith("https://" + HOST)) lastUrl = url;
+            }
+
+            /* Android can kill the page's renderer to free memory. Without this the whole app closes;
+               with it we build a fresh WebView and reopen the page the user was on. */
+            @Override
+            public boolean onRenderProcessGone(WebView v, RenderProcessGoneDetail detail) {
+                if (v != web) return true;
+                String back = lastUrl;
+                web = null;
+                v.destroy();
+                createWebView(null);
+                web.loadUrl(back);
+                return true;
             }
 
             @Override
@@ -88,16 +116,13 @@ public class MainActivity extends Activity {
 
         web.addJavascriptInterface(new Bridge(), "Android");
         if (state != null) web.restoreState(state); else web.loadUrl(START);
-        if (Build.VERSION.SDK_INT >= 33) {
-            getOnBackInvokedDispatcher().registerOnBackInvokedCallback(
-                    OnBackInvokedDispatcher.PRIORITY_DEFAULT, this::handleBack);
-        }
     }
 
     private long lastBack = 0;
 
     /* Ask the page what Back should do: close the image/panel, go to the previous page, or exit. */
     private void handleBack() {
+        if (web == null) return;
         long now = System.currentTimeMillis();
         if (now - lastBack < 120) return;   // ignore a duplicate delivery of the same press
         lastBack = now;
@@ -115,7 +140,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onSaveInstanceState(Bundle out) {
         super.onSaveInstanceState(out);
-        web.saveState(out);
+        if (web != null) web.saveState(out);
     }
 
     @Override
@@ -124,8 +149,8 @@ public class MainActivity extends Activity {
     }
 
     private void toast(String msg) {
-        runOnUiThread(() -> web.evaluateJavascript(
-                "typeof toast==='function'&&toast(" + org.json.JSONObject.quote(msg) + ")", null));
+        runOnUiThread(() -> { if (web != null) web.evaluateJavascript(
+                "typeof toast==='function'&&toast(" + org.json.JSONObject.quote(msg) + ")", null); });
     }
 
     @Override
