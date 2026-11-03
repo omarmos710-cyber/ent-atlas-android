@@ -1309,9 +1309,7 @@ html.busy #busypill{animation:pillIn .25s cubic-bezier(.22,1,.36,1) .5s forwards
 .lbimg.ldg::after,.pzbox.ldg::after{content:"";position:absolute;left:50%;top:50%;width:34px;height:34px;margin:-17px 0 0 -17px;border-radius:50%;border:3px solid rgba(255,255,255,.2);border-top-color:#fff;animation:spin .8s linear infinite}
 /* thumbnails fade in over a quiet placeholder instead of popping */
 .fig img,.thumb img,.trfig img,.lblpick img,.cont img,.xtile img,.ccard2 .art img{background:var(--soft)}
-html.fadeimg .fig img:not(.ld),html.fadeimg .thumb img:not(.ld),html.fadeimg .trfig img:not(.ld),html.fadeimg .lblpick img:not(.ld){opacity:0}
-.fig img,.thumb img,.trfig img,.lblpick img{transition:opacity .3s ease}
-@media (prefers-reduced-motion:reduce){.spin,#busy i{animation-duration:2s}.fig img,.thumb img,.trfig img,.lblpick img,.lbimg img{transition:none}}
+@media (prefers-reduced-motion:reduce){.spin,#busy i{animation-duration:2s}.lbimg img{transition:none}}
 </style>
 
 <div id="boot" role="status" aria-label="Loading ENT Atlas"><div class="bwrap"><div class="spin"></div><span>ENT Atlas</span></div></div>
@@ -7937,11 +7935,10 @@ if(!window.Android&&"serviceWorker" in navigator&&(location.protocol==="https:"|
 </script>
 <script>
 /* v17.7 waiting states */
-(function(){const H=document.documentElement;H.classList.add("fadeimg");
-  /* thumbnails: mark them loaded so they fade in */
-  document.addEventListener("load",e=>{const t=e.target;if(t&&t.tagName==="IMG")t.classList.add("ld")},true);
-  document.addEventListener("error",e=>{const t=e.target;if(t&&t.tagName==="IMG")t.classList.add("ld")},true);
-  document.querySelectorAll("img").forEach(i=>{if(i.complete)i.classList.add("ld")});
+(function(){const H=document.documentElement;
+  /* thumbnails are always visible; if one cannot be loaded, fall back to the full-size figure */
+  document.addEventListener("error",e=>{const t=e.target;if(!t||t.tagName!=="IMG"||t.dataset.fb)return;const src=t.getAttribute("src")||"";
+    if(src.indexOf("fig2/t/")>=0){t.dataset.fb="1";t.src=src.replace("fig2/t/","fig2/")}},true);
   /* busy bar: armed on touch, so it is already running on the compositor if the tap's work blocks the page;
      it only becomes visible after 0.15 s (the pill after 0.5 s), so quick taps never show it */
   let off=0,armed=false;
