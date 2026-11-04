@@ -58,3 +58,8 @@ body.thm #thdock{display:grid}
 .thspin{display:grid;place-items:center;min-height:60vh;color:var(--muted);font:500 14px var(--f-body)}
 .thnum{display:flex;gap:18px;margin:14px 0}.thnum div b{display:block;font:500 25px var(--f-display);color:var(--accent)}.thnum small{color:var(--muted);font-size:12px}
 .thtext{width:100%;min-height:70px;padding:10px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);font:14px var(--f-body);box-sizing:border-box}
+.thmore{margin-top:10px}.thml{display:block;font:700 10.5px/1.2 var(--f-body);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+.thfig small em{display:block;font-style:normal;font-weight:700;color:var(--accent);font-size:10.5px;letter-spacing:.04em;margin-bottom:1px}
+.thsec ol>li .thmore{margin-bottom:6px}
+.thimgs{display:grid;gap:8px}.thimc{display:flex;gap:12px;align-items:center;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:8px;color:var(--ink);font:inherit;min-height:64px}
+.thimc img,.thimc .ph{width:64px;height:64px;flex:none;border-radius:8px;object-fit:cover;background:#000}.thimc b{display:block;font-weight:600;font-size:14px;line-height:1.3}.thimc small{color:var(--muted);font-size:12.5px}
