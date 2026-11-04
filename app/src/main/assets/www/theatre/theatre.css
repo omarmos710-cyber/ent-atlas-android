@@ -38,7 +38,7 @@ body.thm #thdock{display:grid}
 .thsec ul,.thsec ol{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:7px;line-height:1.45}
 .thnote{font-size:12.5px;color:var(--muted);line-height:1.45;padding:10px 12px;border:1px dashed var(--line);border-radius:10px;margin:0 0 14px}
 .thrisk{padding:13px 0;border-bottom:1px solid var(--line)}.thrisk b{font:600 15px var(--f-body)}.thrisk .lnk{color:var(--accent);text-decoration:underline;text-underline-offset:3px;cursor:pointer}.thrisk p{margin:4px 0 0;color:var(--muted);font-size:14px;line-height:1.4}.thrisk p.fix{color:var(--ink)}.thrisk p.fix i{font-style:normal;color:var(--ok);font-weight:600}
-.thstep{display:flex;gap:12px;padding:13px 0;border-bottom:1px solid var(--line)}.thstep .tx{flex:1;min-width:0}.thstep b{display:block;font:600 15px/1.3 var(--f-body)}.thstep p{margin:4px 0 0;color:var(--muted);font-size:14px;line-height:1.45}
+.thstep{display:flex;gap:12px;padding:13px 0;border-bottom:1px solid var(--line)}.thstep .tx{flex:1;min-width:0}.thstep b{display:block;font:600 15px/1.3 var(--f-body)}.thstep p{margin:4px 0 0;color:var(--muted);font-size:14px;line-height:1.45}.thstep p b{display:inline;font:inherit;font-weight:600;color:var(--ink)}
 .thfigs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}@media(min-width:640px){.thfigs{grid-template-columns:repeat(3,minmax(0,1fr))}}
 .thfig{display:block;padding:0;border:0;background:none;color:var(--ink);text-align:left}
 .thfig span.i{display:block;aspect-ratio:1/1;background:#fff;border-radius:10px;overflow:hidden}.thfig img{width:100%;height:100%;object-fit:contain;display:block}
