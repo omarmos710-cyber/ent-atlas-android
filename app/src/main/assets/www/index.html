@@ -7196,7 +7196,11 @@ function knobs(){document.querySelectorAll("#view .rtabs, #view .seg3, #view .im
   if(p&&!RM&&(p.x!==x||p.w!==w))k.animate([{transform:`translateX(${p.x}px)`,width:p.w+"px"},{transform:`translateX(${x}px)`,width:w+"px"}],{duration:SPR.dur,easing:SPR.easing});
   PREV[key]={x,w}})}
 /* also follow a change of the pressed or selected button (text size, theme): those only change an attribute */
-let kq=0;new MutationObserver(()=>{if(kq)return;kq=requestAnimationFrame(()=>{kq=0;knobs()})}).observe($("#view"),{childList:true,subtree:true,attributes:true,attributeFilter:["aria-pressed","aria-selected"]});
+/* only when a tab row or switch itself changed: measuring the page after every change forced full layouts
+   (e.g. all 76 tables laid out open, just before they were folded) */
+const BARS=".rtabs,.seg3,.imgseg";
+const barTouched=r=>r.type==="attributes"?!!(r.target.closest&&r.target.closest(BARS)):[...r.addedNodes,...r.removedNodes].some(n=>n.nodeType===1&&(n.matches(BARS)||!!(n.querySelector&&n.querySelector(BARS))||!!(n.isConnected&&n.closest&&n.closest(BARS))));
+let kq=0;new MutationObserver(recs=>{if(kq||!recs.some(barTouched))return;kq=requestAnimationFrame(()=>{kq=0;knobs()})}).observe($("#view"),{childList:true,subtree:true,attributes:true,attributeFilter:["aria-pressed","aria-selected"]});
 addEventListener("resize",()=>knobs());window.knobs=knobs;
 
 /* figures grow out of the page into the viewer, and shrink back on close */
@@ -7477,7 +7481,9 @@ function apply(){const v=$("#view");if(!v)return;const base=(cur||"").split(":")
   const res=v.querySelector("#results");if(res){res.querySelectorAll(".cgrid").forEach(b=>fold(b,[...b.querySelectorAll(":scope>.ccard")],4,"conditions",12));groupRuns(res,".res").forEach(r=>fold(r,[...r.children],5,"results"));res.querySelectorAll(".figs").forEach(b=>fold(b,[...b.querySelectorAll(":scope>.fig")],6,"figures"))}
   if(base==="saved")groupRuns(v,".res").forEach(r=>fold(r,[...r.children],6,"items"));
 }
-let q=0;new MutationObserver(()=>{if(q)return;q=requestAnimationFrame(()=>{q=0;apply()})}).observe($("#view"),{childList:true,subtree:true});
+/* figure links being added in the background change nothing that needs folding */
+const linkOnly=recs=>recs.every(r=>r.type==="childList"&&[...r.addedNodes].every(n=>n.nodeType===3||(n.nodeType===1&&n.classList.contains("lnk")))&&[...r.removedNodes].every(n=>n.nodeType===3));
+let q=0;new MutationObserver(recs=>{if(q||linkOnly(recs))return;q=requestAnimationFrame(()=>{q=0;apply()})}).observe($("#view"),{childList:true,subtree:true});
 window.foldNow=apply;
 })();
 
