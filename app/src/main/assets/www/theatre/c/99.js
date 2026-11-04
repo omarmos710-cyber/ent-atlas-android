@@ -1,0 +1,1 @@
+window.THEATRE_LAST={"figs":[[1,"Computed tomography",778],[2,"Endoscopic view of anterior, middle, and posterior ethmoid arteries at skull base",779],[3,"Illustration in axial plane of the anterior and posterior ethmoid arteries and…",780],[4,"Illustration in parasagittal view of the anterior and posterior ethmoid arteries and…",781]],"ind":[],"con":[],"ins":[],"out":[]};

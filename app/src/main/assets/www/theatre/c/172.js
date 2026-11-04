@@ -1,0 +1,1 @@
+window.THEATRE_LAST={"figs":[[1,"Lower island trapezius flap; design and closure",1391],[2,"Latissimus flap harvest",1392],[3,"Defect and inset",1393],[4,"Latissimus defect and closure",1394]],"ind":["Handheld Doppler","Monopolar and bipolar cautery","Axillary roll","Bean bag"],"con":[],"ins":[],"out":[]};

@@ -1,0 +1,1 @@
+window.THEATRE_LAST={"figs":[[1,"Cadaver dissection showing A, demarcation of the incisions in the lip and…",1482],[2,"Anatomy of the mandible",1482],[3,"Intraoperative photos from a patient with a T3 squamous cell carcinoma of…",1484]],"ind":[],"con":[],"ins":[],"out":[]};

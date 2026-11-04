@@ -1,0 +1,1 @@
+window.THEATRE_LAST={"figs":[[1,"The temporalis fascia is exposed, and the planned fascial flap with associated…",1357],[3,"The flap is brought into the sphenoid and used to repair the…",1358]],"ind":[],"con":[],"ins":["Double-hook retractors","Bipolar cautery","Hemostatic slurries or Gelfoam"],"out":[]};
