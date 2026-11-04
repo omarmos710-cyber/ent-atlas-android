@@ -1268,8 +1268,6 @@ section.tbl>header .texp+.cmeta,section.tbl>header .texp+.star{margin-left:0}
   .fmmap{position:sticky;top:84px;max-height:calc(100vh - 110px)}}
 @media (prefers-reduced-motion:reduce){.fmh,.fmpins{transition:none}}
 
-/* v17.1: page slides never widen the page */
-main{overflow-x:clip}
 
 /* v17.2: structures mentioned in plain text link to their figures */
 .lnk2{cursor:pointer;text-decoration:underline dotted;text-decoration-color:color-mix(in srgb,var(--accent) 55%,transparent);text-underline-offset:3px;text-decoration-thickness:1.5px}
@@ -1282,8 +1280,6 @@ main{overflow-x:clip}
 .opsec ul,.opsec ol{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:7px}
 .oprisk li span{display:block;color:var(--muted);font-size:14px}
 
-/* v17.6: long pages skip layout and painting of blocks that are off screen */
-section.tbl,.rbody>.sec,.rbody .resrun>.sec{content-visibility:auto;contain-intrinsic-size:auto 480px}
 
 /* v17.7 waiting states: shown only when something actually takes time */
 #boot{position:fixed;inset:0;z-index:2000;display:grid;place-items:center;background:var(--bg);transition:opacity .35s ease}
@@ -1311,8 +1307,13 @@ html.busy #busypill{animation:pillIn .25s cubic-bezier(.22,1,.36,1) .5s forwards
 .fig img,.thumb img,.trfig img,.lblpick img,.cont img,.xtile img,.ccard2 .art img{background:var(--soft)}
 @media (prefers-reduced-motion:reduce){.spin,#busy i{animation-duration:2s}.lbimg img{transition:none}}
 
-/* v17.7.2: the sliding content column never widens the page */
-.app{overflow-x:clip}
+/* v17.8.1: the sliding content column never widens the page; only while sliding, since clipping the parents of
+   sticky rows makes them jitter in Safari */
+.app.sliding{overflow-x:clip}
+/* steady top rows: no default page margin above the bar, and solid sticky rows (blur behind sticky rows jitters on iPhone) */
+body{margin-top:0;margin-bottom:0}
+.top{background:var(--bg)!important;-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
+.rtabs{background:var(--bg)!important;-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
 
 /* v17.8 search: compact results, expand in place */
 .srchips{display:flex;gap:8px;overflow-x:auto;padding:4px 0 6px;margin:12px 0 4px;scrollbar-width:none}
@@ -1332,7 +1333,7 @@ html.busy #busypill{animation:pillIn .25s cubic-bezier(.22,1,.36,1) .5s forwards
 .sr.open .srch{transform:rotate(180deg)}.sr.open{background:color-mix(in srgb,var(--soft) 45%,var(--surface))}
 .srb{padding:0 14px 14px;font-size:14.5px;line-height:1.55}
 .srb p{margin:0 0 8px}.srb mark,.srt mark{background:color-mix(in srgb,var(--accent) 22%,transparent);color:inherit;border-radius:3px;padding:0 1px}
-.srb section.tbl{margin:4px 0 8px;content-visibility:visible}
+.srb section.tbl{margin:4px 0 8px}
 .sra{display:flex;gap:8px;margin-top:6px}
 .sran{font-weight:500}
 .srfig{display:block;width:100%;max-width:340px;padding:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff;cursor:zoom-in}
@@ -7012,7 +7013,7 @@ function takeSnap(){const v=$("#view");if(!v||!v.firstChild)return null;MBOX=nul
   inner.style.cssText=`position:absolute;left:${r.left-m.left}px;top:${r.top-tb}px;width:${r.width}px;margin:0`;
   const dim=document.createElement("div");dim.style.cssText="position:absolute;inset:0;background:var(--dim,rgba(10,12,16,.16));opacity:0";
   w.append(inner,dim);w._inner=inner;w._dim=dim;return w}
-function liftView(on){const v=stage();if(!v)return;document.documentElement.style.overflowX=on?"clip":"";
+function liftView(on){const v=stage();if(!v)return;document.documentElement.style.overflowX=on?"clip":"";const ap=document.querySelector(".app");if(ap)ap.classList.toggle("sliding",!!on);
   if(on){v.style.position="relative";v.style.zIndex="4";v.style.background="var(--bg)";v.style.minHeight="100vh";v.style.boxShadow="-14px 0 34px rgba(10,12,16,.12)"}
   else{v.style.position=v.style.zIndex=v.style.background=v.style.minHeight=v.style.boxShadow=v.style.transform=""}}
 function keepSnaps(){let n=0;for(let i=NAVSTACK.length-1;i>=0;i--){if(NAVSTACK[i].snap){n++;if(n>3)NAVSTACK[i].snap=null}}}
@@ -8031,6 +8032,7 @@ if(!window.Android&&"serviceWorker" in navigator&&(location.protocol==="https:"|
 <script>
 /* v17.7 waiting states */
 (function(){const H=document.documentElement;
+  {const tp=document.querySelector(".top");if(tp){const set=()=>H.style.setProperty("--toph",tp.offsetHeight+"px");set();if(window.ResizeObserver)new ResizeObserver(set).observe(tp)}}
   /* thumbnails are always visible; if one cannot be loaded, fall back to the full-size figure */
   document.addEventListener("error",e=>{const t=e.target;if(!t||t.tagName!=="IMG"||t.dataset.fb)return;const src=t.getAttribute("src")||"";
     if(src.indexOf("fig2/t/")>=0){t.dataset.fb="1";t.src=src.replace("fig2/t/","fig2/")}},true);
