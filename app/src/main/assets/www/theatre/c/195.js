@@ -1,1 +1,1 @@
-window.THEATRE_LAST={"figs":[[1,"Laryngeal cleft",1587],[2,"Laryngeal cleft injection",1587],[3,"Endoscopic repair of laryngeal cleft",1588],[4,"Open repair of laryngeal cleft",1590],[5,"Laryngotracheal separa­ tion",1592]],"ind":[],"con":[],"ins":[],"out":[]};
+window.THEATRE_LAST={"figs":[[1,"Laryngeal cleft",1587],[2,"Laryngeal cleft injection",1587],[3,"Endoscopic repair of laryngeal cleft",1588],[4,"Open repair of laryngeal cleft",1590],[5,"Laryngotracheal separation",1592]],"ind":[],"con":[],"ins":[],"out":[]};
