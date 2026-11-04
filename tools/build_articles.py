@@ -30,6 +30,17 @@ BOXES = {'pearl': 'Pearl', 'flag': 'Red flags', 'exam': 'What the examiner wants
          'note': 'Note', 'ward': 'On the ward', 'pit': 'Common pitfalls', 'differ': 'Where the books differ'}
 WORDS = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen']
 BOOK = {'d': 'Dhingra', 'l': 'K.J. Lee'}
+_FIGKEYS = None
+
+
+def app_fig_keys():
+    """Keys of the app's own anatomy figures (FIG in index.html)."""
+    global _FIGKEYS
+    if _FIGKEYS is None:
+        h = open(os.path.join(WWW, 'index.html'), encoding='utf-8').read()
+        i = h.find('const FIG={'); j = h.find('};', i)
+        _FIGKEYS = set(re.findall(r'"([^"]+)":\[', h[i:j]))
+    return _FIGKEYS
 
 
 def inline(s, refs):
@@ -187,6 +198,29 @@ def compile_one(tid, text):
             out.append('<figure class="arfig"><div class="%s">%s</div><figcaption><b>Figure %d</b>%s<cite>%s</cite></figcaption></figure>' % (
                 'pair' if len(names) > 1 else 'one', imgs, fign, inline(cap.strip(), refs), html.escape(cite)))
             words += len(cap.split())
+            continue
+        if ln.startswith('!anat '):
+            flush()
+            spec, _, cap = ln[6:].partition('|')
+            keys = spec.split()
+            for k in keys:
+                if k not in app_fig_keys():
+                    raise KeyError('%s: app figure %s not found' % (tid, k))
+            fign += 1
+            imgs = ''.join('<button type="button" class="arimg" data-fig="%s" data-set="%s" aria-label="Enlarge figure %d"><img src="fig2/t/%s.jpg" alt="" loading="lazy" decoding="async"></button>' % (k, ','.join(keys), fign, k) for k in keys)
+            out.append('<figure class="arfig arapp"><div class="%s">%s</div><figcaption><b>Figure %d</b>%s<cite data-figcite="%s">From the anatomy atlas</cite></figcaption></figure>' % (
+                'pair' if len(keys) > 1 else 'one', imgs, fign, inline(cap.strip(), refs), ','.join(keys)))
+            words += len(cap.split())
+            continue
+        if ln.startswith('!ops'):
+            close_br()
+            spec, _, lead = ln[4:].partition('|')
+            out.append('<div class="arops" data-arops="%s" data-lead="%s"></div>' % (html.escape(' '.join(spec.split())), html.escape(lead.strip())))
+            continue
+        if ln.startswith('!imaging'):
+            flush()
+            spec, _, lead = ln[8:].partition('|')
+            out.append('<div class="arcases" data-arcases="%s" data-lead="%s"></div>' % (html.escape(' '.join(spec.split())), html.escape(lead.strip())))
             continue
         m = re.match(r'!(\w+)\s*(.*)', ln)
         if m and m.group(1) in ('pearl', 'flag', 'exam', 'update', 'note', 'ward', 'pit', 'differ', 'table', 'tree', 'ladder'):

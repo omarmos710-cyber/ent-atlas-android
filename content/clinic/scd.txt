@@ -3,6 +3,7 @@
 # Overview | A third window into the inner ear.
 ## Definition
 A defect in the bone over the superior semicircular canal, where it rises towards the floor of the middle cranial fossa, leaving the membranous canal covered only by dura.
+!anat s22_14 | The anterior surface of the petrous bone with the arcuate eminence, over the superior canal.
 ## Cause
 Probably a developmental thinness of the bone, with the final layer lost later in life through minor trauma, straining or the pulsation of the brain. It is often bilateral on CT, though usually symptomatic on one side.
 ## The third window
@@ -45,6 +46,7 @@ Otosyphilis | Positive serology, Hennebert's sign
 Reassurance and explanation; avoiding triggers such as loud noise and straining. Many patients need nothing more.
 ## Surgery
 For disabling vertigo or autophony: *plugging* the canal or *resurfacing* the defect, through the middle cranial fossa or a transmastoid approach. Plugging is more reliable for vestibular symptoms but sacrifices the canal. Round window reinforcement is an alternative in some centres.
+!ops
 ## Risks
 Sensorineural hearing loss and vestibular loss after repair, and the usual risks of a middle fossa craniotomy.
 !flag Before stapes surgery

@@ -52,6 +52,7 @@ Reconstruction is often delayed about six months after canal wall up surgery for
 ## Landmarks
 *MacEwen's (suprameatal) triangle* marks the antrum, about 12 to 15 mm deep in adults. *Körner's septum*, a persistent petrosquamous plate, can be mistaken for the floor of the antrum. Other landmarks: the lateral semicircular canal, sinus plate, tegmen, digastric ridge and facial nerve.
 !fig d1-12 d1-14 | First, MacEwen's triangle. Second, Körner's septum, which may hide the antrum.
+!anat s57_24 s47_12 | MacEwen's triangle, and the middle ear seen through a posterior tympanotomy.
 ## Cortical (Schwartze) mastoidectomy
 Removes the mastoid air cells and opens the antrum; the posterior canal wall and middle ear are left alone. For coalescent or masked mastoiditis, and as access for endolymphatic sac surgery, facial nerve decompression, cochlear implants and translabyrinthine surgery.
 ## Modified radical mastoidectomy
@@ -72,12 +73,14 @@ Every canal wall down cavity needs a wide meatus for ventilation and cleaning.
 Filling a cavity with pedicled muscle, bone pâté or other material reduces discharge and care; disease must never be buried under it.
 ## Complications of mastoid surgery
 Facial nerve injury, lateral canal fistula with vertigo and hearing loss, dural injury and CSF leak, sigmoid sinus bleeding, and incus dislocation. About a quarter of radical cavities continue to discharge.
+!imaging | A discharging cavity, piston position after stapedectomy, iatrogenic fenestration, and dural prolapse with CSF leak.
 
 # Before and after | Practical points.
 ## Before
 An audiogram and tuning forks before any ear operation; CT for cholesteatoma, revisions and suspected complications; check the other ear and Eustachian tube function.
 ## After
 Keep water out of the ear while a tube or graft is healing; review repaired ears at about three and six weeks; the graft is fully epithelialised in six to eight weeks. Clean mastoid cavities every four to six months in the first year, then yearly.
+!ops
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials

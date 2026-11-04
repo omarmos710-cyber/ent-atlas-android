@@ -11,6 +11,7 @@ Degenerative | Chondrodermatitis nodularis helicis | painful nodule on the helix
 !!
 ## Applied anatomy
 The cartilage of the pinna has no blood supply of its own and lives on its perichondrium. When pus or blood separates the two, the cartilage starves and necroses. The lobule has no cartilage, so a cartilage disease spares it.
+!anat s30_29 | The auricular cartilage: everything except the lobule.
 
 # Perichondritis | Cartilage under threat.
 ## Causes
@@ -46,6 +47,7 @@ Severe, burning ear pain, followed by vesicles in the concha, canal and sometime
 High-dose prednisolone (about 1 mg/kg for 14 days) with an antiviral such as valaciclovir, analgesia, and eye protection. Gabapentin for post-herpetic neuralgia. Surgical decompression is not advised, because the nerve damage is diffuse.
 ## Outlook
 Worse than Bell's palsy: only about 60% regain normal facial function.
+!ops
 
 # Inflammatory conditions | Not infections.
 ## Relapsing polychondritis

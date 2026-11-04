@@ -49,6 +49,7 @@ Dhingra: Wider than 2 mm.
 Lee: 1.5 mm or more.
 Avoid contact sports and head injury; surgical closure of the aqueduct causes hearing loss.
 !!
+!anat s73_8 | The membranous labyrinth within the bony labyrinth, the structure that fails to form in these malformations.
 ## Environmental
 !tree Environmental causes
 Prenatal | TORCH infections | cytomegalovirus, rubella, toxoplasmosis, syphilis, Zika; aminoglycosides, quinine, thalidomide, alcohol, radiation
@@ -82,6 +83,7 @@ Imaging (CT and MRI) before implantation; ECG for long QT; urinalysis; thyroid f
 !flag Long QT
 A deaf child who faints needs an urgent ECG: Jervell and Lange-Nielsen syndrome can cause sudden death. Treat with beta-blockers.
 !!
+!imaging | Inner ear and ossicular malformations, an enlarged vestibular aqueduct, Treacher Collins syndrome, and a gusher ear.
 ## Signs at home
 No startle to loud sound, sleeping through noise, no babbling or no words by one to two years, and poor school performance.
 
@@ -92,6 +94,7 @@ Parents need a clear explanation, support and early contact with educators.
 As early as possible, in both ears if there is usable hearing.
 ## Cochlear implant
 For severe to profound loss with little benefit from aids, ideally around the first birthday, or urgently after meningitis.
+!ops
 ## Communication and education
 Auditory-oral approaches, sign language, or total communication; radio aids at school; speech and language therapy; vocational guidance later.
 !fig d19-3 | The faculties a hearing-impaired child can use for receptive and expressive communication.

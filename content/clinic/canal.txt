@@ -4,6 +4,7 @@
 ## Applied anatomy
 The external auditory canal is about 24 mm long. Its outer third is cartilaginous, with hairs and sebaceous and ceruminous glands; its inner two-thirds is bony, with thin, sensitive skin. The canal narrows at the *isthmus*, about 6 mm from the drum: objects pushed past it become impacted. The *anterior recess*, in front of and below the drum, collects debris.
 !fig d1-2 | The anterior recess of the canal, where discharge and debris collect.
+!anat s32_33 d188_10 | Skin of the cartilaginous canal, and the direction of the canal.
 ## Pulling the pinna
 In adults, pull the pinna up and back to straighten the canal; in infants, down and back.
 
@@ -56,10 +57,12 @@ A post-aural approach may be needed for objects medial to the isthmus.
 - Most foreign bodies can wait for the right setting; a bad first attempt makes the second harder.
 - Always inspect the drum and the other ear (and the nostrils in a child) afterwards.
 !!
+!ops
 
 # Canal stenosis | Narrowing after injury.
 ## Causes
 Acquired from chronic otitis externa, trauma, burns, surgery or radiation; congenital stenosis and atresia are covered separately.
+!imaging | Canal stenosis and exostoses.
 ## Treatment
 Meatoplasty with excision of the fibrous tissue and skin flaps or grafts, and canal stenting while it heals.
 

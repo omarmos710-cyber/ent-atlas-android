@@ -18,6 +18,7 @@ Lee reflects more recent series.
 !!
 ## How the bone is destroyed
 Two processes run together. Pus under pressure in the cells causes ischaemic necrosis of the thin bony septa, and inflamed mucosa activates osteoclasts that resorb bone (*hyperaemic decalcification*). The cells coalesce into an abscess cavity, which then looks for a way out.
+!anat s60_30 s61_31 | Types of mastoid (cellular, diploic, acellular) and the groups of air cells through which infection spreads.
 ## Classification
 !tree Mastoiditis
 Acute | Acute mastoiditis | otitis media with mastoid inflammation
@@ -83,6 +84,7 @@ Full blood count with raised white cells, inflammatory markers, and blood cultur
 ## Imaging
 ### CT temporal bone with contrast
 Shows coalescence (loss of the septa), cortical erosion and abscesses, and looks for intracranial spread. An opaque mastoid alone is not mastoiditis.
+!imaging | Otomastoiditis, petrositis and skull base infection on CT and MRI.
 ### MRI and MR venography
 When an intracranial complication or sinus thrombosis is suspected.
 ## Differential diagnosis
@@ -117,6 +119,7 @@ Intravenous antibiotics, changed according to culture, with oral step-down to co
 A small subperiosteal abscess may be aspirated or incised, but cortical mastoidectomy is generally advised. The infant mastoid is small and vascular, landmarks are poor, and the facial nerve exits superficially.
 ### The operation
 Cortical (Schwartze) mastoidectomy removes the diseased cells and opens the antrum to the middle ear, leaving the canal wall and ossicles intact.
+!ops
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials

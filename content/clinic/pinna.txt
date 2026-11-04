@@ -4,6 +4,7 @@
 ## Applied anatomy
 A single plate of elastic cartilage covered by skin that is tightly adherent on the lateral surface. The lobule has no cartilage. The *incisura terminalis*, between the tragus and the crus of the helix, also has no cartilage, which is why an endaural incision there avoids cutting it.
 !fig d1-1 | (A) The divisions of the ear. (B) Elevations and depressions of the lateral surface of the pinna. (C) The auricular cartilage.
+!anat s30_28 s31_30 | Surface landmarks of the auricle, and its nerve supply.
 ## Development
 The pinna develops from six *hillocks of His* around the first branchial cleft. The tragus comes from the first arch and most of the rest from the second. It reaches its adult shape by about 20 weeks of gestation and most of its adult size by about nine years.
 !fig d1-24 | Development of the pinna from six hillocks around the first branchial cleft.
@@ -37,6 +38,7 @@ A small, malformed pinna, graded from mild deformity to a peanut-shaped vestige.
 - **Bat ear:** otoplasty, usually after age six, before teasing at school.
 - **Stahl's and other shape anomalies:** a mould in the first six weeks of life, while the cartilage is soft, can correct them without surgery.
 - **Preauricular sinus:** antibiotics for infection; excision of the whole tract when it has been repeatedly infected.
+!ops
 
 # Haematoma | The boxer's ear.
 ## Cause

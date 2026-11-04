@@ -24,6 +24,7 @@ Viral and syphilitic infections.
 # Labyrinthine fistula | The eroded lateral canal.
 ## Causes
 Cholesteatoma in most cases, then tumours, trauma and surgery. About 7 to 10% of cholesteatomas have a fistula, 90% of them in the lateral canal.
+!anat s65_1 | The bony labyrinth: the lateral semicircular canal bulges into the medial wall of the attic and antrum, where cholesteatoma erodes it.
 ## Clinical picture
 Brief vertigo provoked by pressure on the ear: pressing the tragus, cleaning the ear, or nose blowing. Hearing is often preserved.
 ## Fistula test
@@ -66,6 +67,8 @@ After suppurative labyrinthitis, especially meningitic, fibrous tissue and new b
 - Bilateral profound loss: image urgently (MRI and CT) for ossification and refer for early cochlear implantation.
 - Steroids reduce hearing loss in *H. influenzae* and pneumococcal meningitis.
 !!
+!imaging | Labyrinthine fistula, labyrinthitis ossificans, labyrinthitis with meningitis, and otosyphilis.
+!ops
 
 # Perilymph fistula | A leak at the windows.
 ## Causes

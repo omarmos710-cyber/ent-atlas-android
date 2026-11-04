@@ -12,6 +12,7 @@ Onset is usually between 35 and 60 years. It begins in one ear, but the other ea
 ## Hydrops
 The cochlear duct and saccule distend, bowing Reissner's membrane into the scala vestibuli. Small ruptures let potassium-rich endolymph mix with perilymph, poisoning hair cells and nerve fibres and producing an attack; as the membrane heals, function partly recovers.
 !fig d15-1 | (A) The normal cochlear duct. (B) In hydrops the duct is distended with endolymph and Reissner's membrane bulges into the scala vestibuli.
+!anat s75_10 s76_11 | The membranous labyrinth with the endolymphatic sac, and the composition of endolymph and perilymph.
 ## Why it happens
 The cause is unknown; several theories may each be true in some patients.
 - **Defective absorption** by the endolymphatic sac, or a small, poorly pneumatised sac and duct.
@@ -80,6 +81,7 @@ An osmotic diuretic, 1.5 mL/kg, reduces hydrops temporarily. An improvement of 1
 Reduced response on the affected side in about three-quarters.
 ## MRI with contrast
 Essential to exclude a vestibular schwannoma or other retrocochlear lesion. Delayed contrast MRI can now show hydrops directly in specialist centres.
+!imaging | An endolymphatic sac tumour and an enlarged vestibular aqueduct, two causes of secondary hydrops.
 ## Differential diagnosis
 - Vestibular schwannoma.
 - Vestibular migraine.
@@ -131,6 +133,7 @@ For an ear with no useful hearing: removal of the membranous labyrinth through t
 - Sacculotomy and the Cody tack are historical.
 - Before destroying one ear, make sure the other ear is healthy.
 !!
+!ops
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials

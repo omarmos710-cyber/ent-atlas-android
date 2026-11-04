@@ -14,6 +14,7 @@ Most cases have no identifiable cause. Three theories compete, and each may be r
 - **Viral:** cochleitis or neuritis, supported by seasonal clusters and viral serology.
 - **Vascular:** thrombosis, embolism, spasm or haemorrhage in the labyrinthine artery, an end artery.
 - **Membrane rupture:** of the cochlear membranes or the round window, letting perilymph leak.
+!anat s83_20 | Branches of the labyrinthine artery, an end artery, which explains the vascular theory.
 ## Identifiable causes
 !tree Causes to exclude
 Infection | Mumps, measles, herpes zoster | meningitis, syphilis, acute otitis media, HIV
@@ -49,6 +50,7 @@ Pure-tone audiogram with masking, and speech discrimination. The pattern (low-fr
 Normal, which excludes middle ear fluid.
 ## MRI
 MRI of the internal auditory canals and cerebellopontine angles with gadolinium, to exclude vestibular schwannoma and other retrocochlear lesions. If MRI is impossible, auditory brainstem response.
+!imaging | Retrocochlear and labyrinthine causes: schwannoma, labyrinthitis and otosyphilis.
 ## Blood tests by history
 Not routine for everyone. Full blood count, ESR, glucose, lipids, thyroid function and syphilis serology when the history suggests them; autoimmune screens for bilateral or fluctuating loss.
 ## Exploration
@@ -82,6 +84,7 @@ Lee: Recommends steroids, orally or intratympanically; finds no evidence for ant
 !!
 ## Rehabilitation
 If recovery is poor: a hearing aid for a partial loss, or a CROS aid, bone-conduction device or cochlear implant for single-sided deafness. Tinnitus counselling as needed.
+!ops
 
 # Prognosis | What predicts recovery.
 About half recover by two weeks; recovery after a month is unusual.

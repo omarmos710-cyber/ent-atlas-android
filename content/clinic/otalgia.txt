@@ -17,6 +17,7 @@ Vagus (auricular, Arnold's) | Concha, posterior canal | Larynx, hypopharynx, val
 C2 and C3 | Back of the pinna and mastoid skin | Cervical spine, neck injury
 !!
 !fig d1-6 | Sensory nerve supply of the pinna.
+!anat s36_39 s31_30 | Sensory supply of the canal and drum, and of the auricle.
 
 # Causes | Local, referred and psychogenic.
 ## Local causes in the ear
@@ -48,6 +49,7 @@ Guided by findings: dental X-rays, imaging of the joint or styloid, CT or MRI of
 
 # Management | Treat the source.
 Treat the cause found. For temporomandibular joint dysfunction: analgesia, warmth, a soft diet, jaw exercises, a bite splint and dental correction. For an elongated styloid: excision if symptoms persist.
+!ops
 !pearl Pearl
 Ear pain after tonsillectomy is almost always referred pain through the glossopharyngeal nerve, not an ear infection.
 !!

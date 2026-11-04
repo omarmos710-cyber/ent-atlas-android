@@ -26,6 +26,7 @@ Through the parotid gland, dividing into temporal, zygomatic, buccal, marginal m
 - **Nerve to stapedius:** the stapedial reflex.
 - **Chorda tympani:** taste from the anterior two-thirds of the tongue and submandibular and sublingual secretion.
 These allow a lesion to be localised (see [[4.3]]).
+!anat d153_43 s54_20 | The course of the facial nerve through the temporal bone, and the petrosal nerves and tympanic plexus of the middle ear.
 ## Surgical landmarks
 !fig d14-4 d14-5 | First, landmarks for finding the nerve in parotid surgery. Second, variations in its course, including bony dehiscence.
 ## Nerve injury
@@ -112,6 +113,7 @@ Lee: Days 3 to 12 when deciding on decompression.
 !!
 ## Imaging
 Contrast MRI of the whole course, and CT of the temporal bone for fractures and cholesteatoma. Indicated for an atypical, slow, recurrent or bilateral palsy, or no recovery by three to four months.
+!imaging | Facial nerve schwannoma and geniculate haemangioma, the tumours behind a slow or recurrent palsy.
 
 # Management | Eye first, then the nerve.
 ## Eye protection
@@ -147,6 +149,7 @@ When the distal nerve and muscle survive but the proximal stump is unavailable, 
 For long-standing palsy with atrophied muscle: temporalis transfer, or a free gracilis transfer powered by the masseteric nerve (one stage, about 92% success, not spontaneous) or by a cross-face graft (two stages, about 80%, spontaneous).
 ### Static procedures
 Brow lift, fascia lata sling and lid procedures.
+!ops
 
 # Complications | When recovery is incomplete.
 - **Exposure keratitis.**

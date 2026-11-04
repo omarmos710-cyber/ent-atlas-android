@@ -59,6 +59,7 @@ Other CNS signs | Absent | Often present
 ## Benign paroxysmal positional vertigo
 ### Mechanism
 Otoconia dislodged from the utricle settle in a semicircular canal, most often the posterior canal, and move with gravity when the head changes position (*canalolithiasis*). It often follows head injury or ear infection, or occurs in older people without cause.
+!anat s79_14 s81_18 | The crista ampullaris with its cupula, and the macula of the utricle and saccule whose otoconia cause BPPV.
 ### Picture
 Brief vertigo, under a minute, on lying down, rolling over or looking up. No hearing loss.
 ### Dix-Hallpike nystagmus
@@ -141,6 +142,7 @@ They slow compensation.
 - Fatigable, delayed, torsional positional nystagmus is peripheral; immediate, persistent or vertical nystagmus is central.
 - A positive fistula test: perilymph fistula, cholesteatoma with a fistula, Ménière's disease, superior canal dehiscence, or syphilis.
 !!
+!ops
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials

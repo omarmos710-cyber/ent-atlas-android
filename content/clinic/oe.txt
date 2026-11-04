@@ -14,6 +14,7 @@ Invasive | Necrotising (malignant) otitis externa | skull base osteomyelitis
 ## Applied anatomy
 The outer third of the canal is cartilaginous, with hair follicles and sebaceous and ceruminous glands; the inner two-thirds is bony with thin, gland-free skin. Infection spreads from the canal through the *fissures of Santorini* in the cartilage and the tympanomastoid suture to the parotid, the skull base and the temporomandibular joint.
 !fig d8-12 | Skin of the cartilaginous canal, with its hair follicles and sebaceous and ceruminous glands.
+!anat s33_35 | Fissures of Santorini and the foramen of Huschke, routes from the canal to the parotid and skull base.
 
 # Acute diffuse otitis externa | Swimmer's ear.
 ## Causes
@@ -26,6 +27,7 @@ Pain on moving the tragus or pinna; a red, swollen canal with debris; tender nod
 ## Management
 ### Aural toilet
 Clean the canal under vision by suction or dry mopping. Debris collects in the anteroinferior recess, so look there.
+!ops
 ### Wick
 If the canal is swollen shut, insert an expanding wick soaked in antibiotic-steroid drops, or in an astringent such as aluminium acetate 8% or silver nitrate 3%.
 !differ Changing the wick
@@ -90,6 +92,7 @@ Add ESR or CRP (useful to follow), glucose, culture, and biopsy of the granulati
 Dhingra: Gallium repeated every three weeks; treatment for six to eight weeks, including intravenous aminoglycoside combinations.
 Lee: Gallium every four weeks; oral fluoroquinolone for about six weeks as first line.
 !!
+!imaging | Necrotising otitis externa, canal stenosis and canal carcinoma.
 ## Treatment
 Admit; control the diabetes; regular cleaning; high-dose oral ciprofloxacin, or intravenous anti-pseudomonal antibiotics for advanced disease; voriconazole for *Aspergillus*. Continue until the examination, inflammatory markers and scans have normalised. Surgery is limited to biopsy and removal of sequestra or abscesses. Hyperbaric oxygen is unproven.
 ## Outcome

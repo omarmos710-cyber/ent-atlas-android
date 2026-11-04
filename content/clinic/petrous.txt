@@ -15,6 +15,7 @@ The middle ear and mastoid connect with the apex by perilabyrinthine cell tracts
 - **Posterosuperior:** from the mastoid and antrum, above and behind the labyrinth, through *Trautmann's triangle* and the subarcuate region.
 - **Anteroinferior:** from the hypotympanum and the region around the Eustachian tube, below the cochlea.
 !fig d1-13 | The air cell tracts of the temporal bone.
+!anat s22_14 s24_17 | The anterior and posterior surfaces of the petrous bone.
 ## Neighbours
 ### Dorello's canal
 The sixth nerve passes under the petroclinoid (Gruber's) ligament, between the petrous tip and the sphenoid; inflammation here causes a lateral rectus palsy and double vision.
@@ -38,6 +39,7 @@ Persistent discharge or deep pain despite an adequate mastoidectomy, or new pain
 Shows the pneumatisation of the apex, breakdown of the cell septa and erosion of the bone.
 ## MRI with contrast
 Separates marrow from fluid or pus, shows dural enhancement and intracranial spread, and assesses the carotid and cavernous sinus.
+!imaging | Petrositis, Gradenigo syndrome and apical pseudotumours.
 ## Differential diagnosis
 - **Apical effusion:** fluid in an aerated apex, usually asymptomatic.
 - **Asymmetric marrow:** a non-pneumatised apex full of fat that looks abnormal on MRI; a common false alarm.
@@ -52,6 +54,7 @@ Admission, prolonged intravenous antibiotics that cover the organisms of otitis 
 For an abscess, bone necrosis, or failure of medical treatment. The route follows the cell tracts and the state of the hearing:
 - **Hearing preserved:** through the mastoid via Trautmann's triangle or the subarcuate cells, infralabyrinthine or infracochlear routes, or through the middle cranial fossa.
 - **Dead ear:** translabyrinthine or transcochlear routes, which give the widest access.
+!ops
 
 # Complications | Neighbours at risk.
 - Meningitis and other intracranial infection.

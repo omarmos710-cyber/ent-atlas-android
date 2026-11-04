@@ -3,8 +3,10 @@
 # Overview | What the balance system is made of.
 ## The end organs
 The three semicircular canals sense angular (rotational) acceleration; the two otolith organs, utricle and saccule, sense linear acceleration and head tilt.
+!anat s79_14 s81_18 | The crista ampullaris of a canal, and the macula of an otolith organ.
 ## The nerves
 The *superior vestibular nerve* supplies the lateral and superior canals and the utricle; the *inferior vestibular nerve* supplies the posterior canal and the saccule.
+!anat s87_25 | Central vestibular pathways.
 ## Physiology to remember
 At rest both labyrinths fire equally. If the right labyrinth fails, the brain reads the imbalance as turning to the left: the eyes drift slowly to the right and flick back to the left. So nystagmus beats *away* from a dead labyrinth (a paretic lesion) and *towards* an irritated one.
 ## Ewald's laws

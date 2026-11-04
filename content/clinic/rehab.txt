@@ -61,6 +61,7 @@ A transducer fixed to an ossicle or the round window, driven electromagnetically
 ## Principle
 An external microphone and processor convert sound into electrical patterns, sent across the skin to an internal receiver, which stimulates the spiral ganglion cells through an electrode array in the scala tympani. The cochlea's place coding is reproduced: basal electrodes for high pitches, apical for low.
 !fig d20-9 | Principle of the cochlear implant.
+!anat s70_5 | Cross-section of the cochlea: the electrode lies in the scala tympani, next to the spiral ganglion.
 ## Candidates
 ### Adults
 Severe to profound bilateral sensorineural loss with limited benefit from well-fitted aids. Lee gives moderate to profound loss with an aided sentence score of 50% or less in the ear to be implanted and 60% or less best-aided.
@@ -74,6 +75,7 @@ Lee: Earlier implantation is safe and may help language.
 Duration of deafness and pre-operative speech scores explain most of the variation. Postlingually deafened adults often achieve high sentence scores; children implanted early commonly join mainstream schools; prelingually deaf adults gain mostly sound awareness, because the window for language (birth to about two years) has passed.
 ## Assessment
 Medical review; audiology with an aid trial; MRI to show the cochlear nerve and a fluid-filled cochlea; HRCT for bony anatomy, malformations, a narrow internal auditory canal (under 3 mm) and surgical hazards; psychological and speech assessment.
+!imaging | A cochlear implant in place, labyrinthitis ossificans, a gusher ear and iatrogenic fenestration.
 ## Contraindications
 Complete cochlear or labyrinthine aplasia (Michel), complete ossification, and an absent cochlear nerve. Retrocochlear disease is a relative contraindication.
 ## The operation
@@ -82,6 +84,7 @@ Cortical mastoidectomy, posterior tympanotomy through the facial recess, entry i
 Dhingra: Describes a cochleostomy.
 Lee: Prefers the round window.
 !!
+!ops
 ## After surgery
 Activation at about two to four weeks, then repeated *mapping* of each electrode and intensive auditory therapy; sound quality improves over three to six months.
 ## Vaccination

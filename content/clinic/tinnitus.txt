@@ -53,6 +53,7 @@ Pure-tone and speech audiometry, tympanometry, and tinnitus matching for pitch a
 - **One-sided tinnitus or asymmetric hearing:** MRI of the internal auditory canals.
 - **Pulsatile tinnitus:** CT angiography, MR angiography and venography; formal angiography if a dural fistula is suspected.
 - **Palatal myoclonus:** MRI of the posterior fossa.
+!imaging | A persistent stapedial artery, glomus tympanicum and vestibular schwannoma.
 ### Blood tests
 As suggested by the history: full blood count, thyroid function, lipids, glucose, B12.
 ### Long-duration tympanometry
@@ -63,6 +64,7 @@ Shows rhythmic compliance changes in myoclonus or a patulous tube.
 Remove wax, treat otitis media, operate on otosclerosis, stop ototoxic drugs where possible, and treat anaemia or thyroid disease.
 ## Hearing aids
 The first step whenever there is hearing loss: restoring external sound reduces the contrast with the tinnitus.
+!ops
 ## Explanation and counselling
 Explaining that tinnitus is common, real and not a sign of a brain tumour (once excluded) relieves much of the distress.
 ## Sound therapy

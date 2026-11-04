@@ -34,6 +34,7 @@ Profound | 91 dB or more
 
 # Conductive loss | Sound that cannot get in.
 ## Causes
+!anat s52_19 | The drum, ossicular chain and intratympanic muscles: every conductive loss interrupts this chain somewhere.
 ### Congenital
 Canal atresia, fixation of the stapes or malleus head, ossicular discontinuity, and congenital cholesteatoma.
 ### Acquired
@@ -54,6 +55,7 @@ Low tones are affected more; speech discrimination is good; the patient may hear
 !fig d5-1 | Audiogram of a right ear with a conductive loss and an air-bone gap, with the standard audiogram symbols.
 ## Management
 Clear the canal, drain fluid, remove a mass, repair the drum and chain (tympanoplasty), stapes surgery, or a hearing aid.
+!ops
 
 # Sensorineural loss | Damage at or beyond the cochlea.
 ## Causes
@@ -101,6 +103,7 @@ Absolute bone conduction | Normal | Reduced
 Pure-tone audiogram with masking, speech audiometry, tympanometry and stapedial reflexes; otoacoustic emissions and ABR when needed.
 ## Further tests by suspicion
 MRI with contrast for asymmetric or retrocochlear loss; CT for conductive loss with a normal drum, trauma or malformation; blood glucose, thyroid and renal function, full blood count and syphilis serology.
+!imaging | Ossicular fixation and luxation, and vestibular schwannoma.
 ## Non-organic hearing loss
 !pearl Clues to non-organic loss
 - Inconsistent repeat audiograms (normal repeats agree within about 5 dB).

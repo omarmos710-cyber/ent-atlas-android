@@ -24,6 +24,7 @@ Infected thrombus in small veins crosses intact bone, which is why an abscess ca
 Congenital dehiscences, a patent petrosquamous suture or Hyrtl's fissure in children, inner ear malformations, fractures, previous surgery, and the round and oval windows via the labyrinth.
 ## Risk factors
 Extremes of age, poverty and poor access to care, virulent or resistant organisms, inadequate antibiotic courses, immunosuppression, preformed defects and cholesteatoma.
+!anat s58_26 | Axial relations of the middle ear and mastoid: the dura, sigmoid sinus and labyrinth that infection can reach.
 ## Organisms
 Mixed: *Staphylococcus aureus*, streptococci, *Proteus*, *Pseudomonas* and *E. coli*, with anaerobes such as *Bacteroides*, particularly in abscesses.
 
@@ -97,6 +98,7 @@ Treat the ear and the sinus; lower the pressure with acetazolamide, steroids and
 The first study: abscess, empyema, bone erosion and the delta sign.
 ### MRI with contrast and MR venography
 More sensitive for early cerebritis, subdural collections and sinus thrombosis.
+!imaging | Sinus thrombosis, otogenic abscess, labyrinthitis with meningitis, and petrositis.
 ## Lumbar puncture
 Only when imaging has excluded mass effect and raised pressure.
 !table CSF by complication
@@ -129,6 +131,7 @@ Otitic hydrocephalus | Papilloedema, clear CSF | MRV, lower pressure
 !!
 ## Treating the ear
 Acute otitis media: myringotomy and grommet. Chronic disease or cholesteatoma: mastoidectomy to remove the source, once the intracranial problem is controlled and the patient is fit.
+!ops
 ## Outcomes
 Deafness, epilepsy, focal deficits, loss of vision and death. Rupture of an abscess into the ventricle carries a mortality of about 80%.
 

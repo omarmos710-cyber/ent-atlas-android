@@ -12,6 +12,7 @@ It is the commonest serious cause of asymmetric sensorineural hearing loss, and 
 ## Origin and growth
 The tumour arises near the glial-Schwann cell junction in the internal auditory canal, widening the canal before it grows into the cerebellopontine angle. Growth is slow, around 1 to 2 mm a year, and some tumours never grow at all.
 !fig d18-1 | The fundus of the internal auditory canal, showing the position of the facial, cochlear and superior and inferior vestibular nerves.
+!anat s84_21 s84_22 | The fundus of the internal auditory canal, with Bill's bar and the transverse crest separating the facial, cochlear and vestibular nerves.
 ## Histology
 Two patterns: *Antoni A*, compact spindle cells with palisading nuclei (Verocay bodies), and *Antoni B*, loose, cystic tissue.
 ## Neurofibromatosis type 2
@@ -51,6 +52,7 @@ Headache, vomiting, ataxia or papilloedema with a large tumour means hydrocephal
 Asymmetric sensorineural loss, poor discrimination, *roll-over* (discrimination falls as loudness rises), absent or decaying stapedial reflex, and abnormal tone decay: the signs of a retrocochlear lesion.
 ## MRI with gadolinium
 The gold standard: finds tumours of a few millimetres. A brightly enhancing mass centred on the internal auditory canal, with a cone into the angle (*ice-cream cone*).
+!imaging | Intracanalicular and angle schwannomas, cystic change, radiotherapy effects, NF2, and the mimics: meningioma, epidermoid and arachnoid cyst.
 ## Auditory brainstem response
 Used when MRI is not possible. A prolonged inter-aural wave V latency or I–V interval suggests a lesion, but small tumours are missed.
 !differ Abnormal wave V difference
@@ -99,6 +101,7 @@ Through the mastoid and labyrinth: no brain retraction and the best view of the 
 Through the posterior fossa behind the sigmoid sinus: hearing can be preserved for tumours that spare the lateral canal; postoperative headache is commoner.
 ### Middle fossa
 Above the temporal bone: for small intracanalicular tumours with good hearing. The facial nerve lies over the tumour and is at greater risk.
+!ops
 ## Subtotal removal
 Leaving a little tumour on the facial nerve preserves facial function; the remnant often stays stable and can be watched or irradiated.
 ## NF2

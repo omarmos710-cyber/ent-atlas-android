@@ -40,6 +40,7 @@ Conductive, of variable degree, and rarely over 50 dB. Some patients hear better
 ### The perforation
 Central, with a rim of drum all round it. It may lie anterior, posterior or inferior to the handle of malleus, or be subtotal. A large perforation may expose the ossicles and the promontory.
 !fig d11-10 d11-11 | First, the types of perforation seen in the pars tensa. Second, a large central perforation.
+!anat s37_42 s37_43 | A normal tympanic membrane and its parts, for describing the site of a perforation.
 ### The middle ear mucosa
 Normal and pale when inactive, red and oedematous when active. A pale polyp may fill the perforation.
 !fig d11-9 | An aural polyp in the canal, and how a polyp from the promontory can present through the perforation.
@@ -68,6 +69,7 @@ Guides the choice of drops when the ear does not respond.
 Measure the conductive loss and bone conduction. An air-bone gap over about 40 dB suggests ossicular discontinuity, often erosion of the long process of the incus.
 ## Imaging
 CT is not routine for mucosal disease, where it shows no bone erosion. It is used when cholesteatoma or a complication is suspected, and before revision surgery. MRI is reserved for intracranial concerns.
+!imaging | A discharging modified radical cavity, and ossicular luxation and fixation.
 ## Biopsy
 For granulation that persists despite treatment, to exclude tuberculosis and malignancy.
 ## Differential diagnosis
@@ -110,6 +112,7 @@ For patients unfit for or unwilling to have surgery, ideally once the ear is dry
 - Think of tuberculosis when an ear fails to respond, with pale granulation, multiple holes and facial weakness.
 - No treatment of the Eustachian tube has proven benefit.
 !!
+!ops
 
 # Complications | Uncommon in the safe ear, but real.
 ## Ossicular erosion

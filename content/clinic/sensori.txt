@@ -50,6 +50,7 @@ Lee: Within 24 hours.
 Repeated exposure leads to irreversible loss.
 ### Acoustic trauma
 A single blast or explosion (around 140 dB or more) can rupture the drum, disrupt the ossicles and damage the cochlea at once.
+!anat s78_13 | The organ of Corti: outer hair cells are the first casualties of noise and ototoxic drugs.
 ## Clinical picture
 High-pitched tinnitus and difficulty hearing in noise. The audiogram shows a symmetrical *notch at 4 kHz*, which deepens and widens into the speech frequencies with continued exposure.
 !fig d5-7 | Early noise-induced hearing loss, with a dip at 4000 Hz.
@@ -76,6 +77,7 @@ Cochlear conductive | Stiff basilar membrane | Gently sloping | Moderate
 !!
 ## Management
 Hearing aids, assistive listening devices, speech reading and communication tactics; cochlear implants for severe loss. Untreated hearing loss is linked with isolation and cognitive decline.
+!ops
 
 # Immune-mediated inner ear disease | The treatable one.
 ## Primary autoimmune inner ear disease

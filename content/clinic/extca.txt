@@ -45,6 +45,7 @@ A pigmented, irregular lesion; spreads early to the parotid and neck nodes.
 - **Squamous carcinoma:** excision with about 1 cm margins for small lesions; larger lesions, those within 1 cm of the canal, or with nodes need partial or total amputation of the pinna with parotidectomy and neck dissection.
 - **Basal cell carcinoma:** radiotherapy for superficial lesions not involving cartilage; excision (Mohs surgery where available) for deeper lesions.
 - **Melanoma:** wedge excision if small on the helix; wider resection with parotid and neck surgery as staged.
+!ops
 
 # Bony growths of the canal | Often just bone.
 !table Osteoma or exostoses?
@@ -82,6 +83,7 @@ Sleeve or lateral temporal bone resection, with parotidectomy and neck dissectio
 # Assessment | Biopsy and image.
 - Biopsy any non-healing lesion of the pinna or canal.
 - CT and MRI for deep or canal tumours.
+!imaging | Canal carcinoma and exostoses.
 - Examine the anterior and posterior auricular, parotid and upper cervical nodes.
 ## Differential diagnosis
 Chondrodermatitis nodularis helicis, perichondritis, necrotising otitis externa and granulation from chronic otitis.

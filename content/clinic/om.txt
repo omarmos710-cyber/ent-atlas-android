@@ -18,6 +18,7 @@ Acute disease is about pain and the rare but serious complication. Effusion is a
 # Pathogenesis | Why children, and why after a cold.
 ## The Eustachian tube in a child
 The child's tube is shorter, wider and more horizontal than the adult's, and its muscles open it less efficiently. Secretions from the nasopharynx reach the middle ear easily, and the middle ear drains poorly.
+!anat ns205_3 | The Eustachian tube with tensor and levator veli palatini, the muscles that open it.
 ## The sequence
 A viral cold inflames the tube and the adenoid. The tube blocks, gas in the middle ear is absorbed, negative pressure develops and a transudate collects. Bacteria from the nasopharynx, where the adenoid acts as a reservoir, then infect the fluid.
 ## Organisms
@@ -106,6 +107,7 @@ Always examine the nasopharynx: nasopharyngeal carcinoma can first present this 
 Dhingra: Always exclude a nasopharyngeal tumour in an adult with one-sided effusion.
 Lee: The value of endoscopy is clearest in high-risk patients.
 !!
+!imaging | Adenoid enlargement, and otomastoiditis with its complications.
 ## Natural history
 Most effusions clear on their own: about 70% within three months, and around 90% after treated acute otitis media.
 ## Management
@@ -119,6 +121,7 @@ Follow current guidelines in practice.
 ### Grommets
 For effusion lasting three months or more with hearing loss, or in a child at risk (speech delay, learning or sensory difficulty, cleft palate, Down syndrome). Thick glue may need two incisions, one to let air in behind the fluid.
 !fig d10-3 d10-4 | First, two incisions in the drum let thick mucus be aspirated. Second, a grommet in place.
+!ops
 ### Adenoidectomy
 Added for children over about four, for repeat tube insertion, or when there are nasal or sleep symptoms. It reduces the chance of needing tubes again.
 ### Hearing aids

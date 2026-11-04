@@ -4,6 +4,7 @@
 ## The normal drum
 A three-layered membrane: outer squamous epithelium, a middle fibrous layer, and inner mucosa. The fibrous layer gives it strength and shape; when it is lost after healing, the drum becomes thin and floppy. On otoscopy the normal right drum shows the handle of malleus, the lateral process and a bright cone of light at five o'clock.
 !fig d8-17 | A normal right tympanic membrane, with the cone of light at five o'clock.
+!anat s37_42 s37_43 | A normal tympanic membrane seen through the otoscope, and its parts.
 ## Conditions covered
 - Traumatic perforation.
 - Retraction, atelectasis and retraction pockets.
@@ -29,8 +30,10 @@ Tuning forks, nystagmus and the facial nerve; an audiogram when practical. CT if
 No drops, no syringing and no water in the ear. Antibiotics only if the ear becomes infected.
 ### Repair
 Most perforations heal within weeks. Large ones with in-turned edges may be repositioned and splinted with a paper patch under the microscope. Those that persist beyond about three months are repaired by myringoplasty.
+!ops
 ## Complications
 Persistent perforation, infection, ossicular dislocation, perilymph fistula, and implantation cholesteatoma from squamous epithelium driven into the middle ear.
+!imaging | Ossicular luxation after trauma.
 
 # Retraction and atelectasis | The drum sucked in.
 ## Why it happens

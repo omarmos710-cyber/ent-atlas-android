@@ -52,6 +52,7 @@ Clear fluid from the ear (CSF otorrhoea) through a torn drum, or from the nose (
 # Investigations | Image the bone and confirm the fluid.
 ## High-resolution CT of the temporal bones
 Shows the fracture line, the otic capsule, the ossicles, the facial canal and the tegmen. CT angiography if the fracture crosses the carotid canal.
+!imaging | Skull base fractures, and dural prolapse with CSF leak.
 ## Beta-2 transferrin
 Confirms that the fluid is CSF.
 ## Audiogram
@@ -74,6 +75,7 @@ Most stop within a week or two with the head raised, bed rest, stool softeners a
 Immediate complete palsy with evidence of nerve injury is explored and decompressed or repaired. Delayed palsy is managed with steroids and observation, with serial ENoG (see the facial nerve topic).
 ## Hearing
 Haemotympanum clears in weeks. A conductive loss persisting at six to eight weeks suggests ossicular injury and is explored and reconstructed. Sensorineural loss is rehabilitated with aids or, if profound, a cochlear implant.
+!ops
 ## Vertigo
 Short-term vestibular sedatives, then vestibular rehabilitation; treat post-traumatic BPPV with repositioning manoeuvres.
 

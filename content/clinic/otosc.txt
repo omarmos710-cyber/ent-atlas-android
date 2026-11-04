@@ -12,6 +12,7 @@ Otosclerosis is the classic cause of progressive conductive deafness behind an i
 ## The otic capsule
 The bony labyrinth is formed from three layers: an outer periosteal layer, an inner endosteal layer, and a middle enchondral layer that normally stays dense and inert throughout life. Otosclerosis is a disease of that middle layer. Its favourite site is the *fissula ante fenestram*, a small cleft of fibrous tissue just in front of the oval window.
 !fig d13-1 | The bony and membranous labyrinth. The otosclerotic focus usually begins just in front of the oval window, where it can fix the stapes footplate.
+!anat s49_16 s67_3 | The medial wall of the middle ear with the oval window, and the bony labyrinth: the oval window niche is where stapedial otosclerosis fixes the footplate.
 ## Histology: active and mature foci
 Grossly, a focus may look chalky white, grey or yellow; a red, vascular focus is active and likely to progress quickly.
 ### Active (otospongiotic) phase
@@ -82,6 +83,7 @@ A conductive loss with a normal drum and a present stapedial reflex is not otosc
 !!
 ## Imaging
 High-resolution CT is not needed routinely. It is useful when the loss progresses rapidly, when cochlear otosclerosis is suspected (a pericochlear halo, the *double ring sign*), when the gap is doubtful, before revision surgery, and when there are vestibular symptoms.
+!imaging | CT signs of otosclerosis, a piston after stapedectomy, a gusher ear and osteogenesis imperfecta.
 
 # Differential diagnosis | Other causes of a conductive loss.
 ## Conductive loss with a normal drum
@@ -146,6 +148,7 @@ The operation is usually done under local anaesthesia through the ear canal.
 !fig d13-4 d13-5 | First, the fixed stapes before removal, and a Teflon piston in its place afterwards. Second, stapes prostheses: Teflon, platinum–Teflon and titanium–Teflon pistons.
 ### Results
 The air-bone gap closes to within 10 dB in about 90 to 95% of experienced hands. Carhart's notch disappears with it.
+!ops
 ## Far-advanced otosclerosis
 When combined loss is so severe that aids no longer help, a cochlear implant gives good results. Stapes surgery plus a powerful aid is an alternative in selected patients. Otosclerotic bone can cause facial nerve stimulation by the implant.
 ## Historical operations

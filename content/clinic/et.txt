@@ -19,6 +19,7 @@ About 36 mm long, running downwards, forwards and medially from the middle ear t
 ## Opening the tube
 The tube is closed at rest. *Tensor veli palatini* opens it during swallowing and yawning, helped by levator veli palatini. The pharyngeal opening lies behind the inferior turbinate, bounded by the *torus tubarius*, with the fossa of Rosenmüller behind it.
 !fig d9-4 | Endoscopic view of the nasopharynx showing the right torus tubarius and the fossa of Rosenmüller.
+!anat ns205_3 ns205_5 | The tube with levator and tensor veli palatini, and its course through the sinus of Morgagni.
 ## The infant tube
 About half the adult length, nearly horizontal (about 10 degrees), wider, with floppy cartilage and little elastin. It refluxes nasopharyngeal secretions and protects the middle ear poorly, which explains the frequency of otitis media in children. Function approaches the adult pattern by about age seven to ten.
 
@@ -26,6 +27,7 @@ About half the adult length, nearly horizontal (about 10 degrees), wider, with f
 ## Causes
 ### Mechanical
 Inflammation and oedema from colds, sinusitis and allergy; adenoid hypertrophy, which also harbours bacteria; nasopharyngeal tumours, especially nasopharyngeal carcinoma in adults; and scarring after radiotherapy.
+!imaging | Adenoid enlargement obstructing the tube.
 ### Functional
 A floppy cartilage or a weak tensor: infants, *cleft palate* (the tensor is poorly anchored) and *Down syndrome* (poor muscle tone).
 ## Clinical picture
@@ -55,6 +57,7 @@ Treat the nose, sinuses, allergy and adenoids; autoinflation; a grommet for pers
 !flag In adults
 Persistent one-sided tube symptoms or effusion in an adult: examine the nasopharynx to exclude carcinoma.
 !!
+!ops
 
 # Patulous tube | The tube that will not close.
 ## Causes

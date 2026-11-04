@@ -47,8 +47,10 @@ Lee: Includes pressure along with the inflammatory mediators.
 !!
 ## Routes of spread
 The cholesteatoma follows the path of least resistance: from Prussak's space into the attic, then through the aditus to the antrum and mastoid; or posteriorly into the sinus tympani and facial recess, the sites hardest to clear at surgery.
+!anat s55_21 s55_22 | Prussak's space, where attic cholesteatoma begins, and the folds and compartments that guide its spread.
 ## Hidden sites for residual disease
 Sinus tympani, facial recess, the undersurface of the scutum, and the anterior epitympanic recess.
+!anat s47_9 | The posterior wall of the middle ear: the facial recess and sinus tympani, the commonest hiding places for residual disease.
 
 # Clinical features | The scanty, foul, unsafe ear.
 ## Symptoms
@@ -83,6 +85,7 @@ Measures conductive and sensorineural components before surgery.
 Shows the extent of disease and the state of the scutum, ossicles, tegmen, lateral semicircular canal, facial canal and sigmoid plate, and the anatomy for surgery.
 ## Non-echo-planar diffusion-weighted MRI
 Keratin restricts diffusion and shows bright. It detects residual or recurrent disease after canal wall up surgery, often replacing a second look, and helps when an intracranial complication is suspected.
+!imaging | Acquired and congenital cholesteatoma, a labyrinthine fistula, intracranial extension and canal cholesteatoma.
 
 # Management | Surgery is the treatment.
 ## Aims
@@ -106,6 +109,7 @@ Hearing aid | Easy | Harder
 Choose canal wall up only when the patient can return for long-term follow-up.
 ### Endoscopic ear surgery
 Transcanal endoscopes suit limited attic and mesotympanic disease, and see around corners into the sinus tympani and anterior attic without a postauricular incision. Disease reaching the antrum or mastoid needs a combined approach. The surgeon works one-handed, and bleeding and heat from the light source are drawbacks. Residual disease found by the endoscope after apparent microscopic clearance ranges from 17 to 38%.
+!ops
 ## Lateral canal fistula
 Present in 7 to 10% of cholesteatomas, 90% of them in the lateral canal; only about 60% are seen on preoperative CT. Assume one in every case.
 - Small fistula: the matrix is often removed at the end of the operation and the fistula sealed.

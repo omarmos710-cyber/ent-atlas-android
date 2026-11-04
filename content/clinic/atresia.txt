@@ -10,6 +10,7 @@ Microtia occurs in roughly 1 in 6,000 to 1 in 12,000 births, more often in boys 
 ## Embryology
 The pinna develops from the hillocks around the first branchial cleft, the canal from the first branchial groove, and the malleus and incus from the first and second arches. The inner ear develops separately from the otic placode, so it is usually normal.
 !fig d1-25 | Development of the external auditory canal and middle ear.
+!anat nd41_69 | The temporal bone at birth: an incomplete tympanic ring and no mastoid process.
 ## Associated syndromes
 Treacher Collins, Goldenhar and hemifacial microsomia, Crouzon, and branchio-oto-renal syndrome.
 
@@ -42,6 +43,7 @@ Preauricular tags, pits and sinuses, facial asymmetry, jaw underdevelopment, and
 OAE and ABR from birth, including bone-conduction ABR, to measure cochlear function on each side.
 ## Imaging
 Thin-section CT of the temporal bones before any surgery, usually around five or six years: the size and aeration of the middle ear and mastoid, the ossicles, the oval and round windows, the inner ear, and the course of the facial nerve. MRI if there is a sensorineural loss.
+!imaging | Canal atresia with cholesteatoma, Treacher Collins syndrome, and inner ear and ossicular malformations.
 ## Other tests
 Renal ultrasound when preauricular pits accompany neck fistulae (branchio-oto-renal syndrome).
 
@@ -57,6 +59,7 @@ Reconstruction with autologous rib cartilage in stages, usually at about five to
 Canal surgery suits ears with a conductive loss over 30 dB, bone conduction better than 20 dB, and a well-aerated middle ear with a favourable facial nerve on CT. The pinna is reconstructed first so the canal can be placed correctly.
 ### Risks
 Facial nerve injury, restenosis of the new canal, lateralisation of the graft and sensorineural loss.
+!ops
 ## Preauricular sinus
 Leave it alone unless it becomes infected; then excise the whole tract.
 !flag The facial nerve
