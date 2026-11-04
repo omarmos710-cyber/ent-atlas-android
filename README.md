@@ -16,3 +16,5 @@ Private: contains copyrighted handout figures for personal study only.
 
 - Build command: `mkdir -p dist && cp -r app/src/main/assets/www/. dist/ && cp -r web/. dist/`
 - Build output directory: `dist`
+
+Clinical library: original study summaries drawing on Dhingra's Diseases of Ear, Nose & Throat and K. J. Lee's Essential Otolaryngology.

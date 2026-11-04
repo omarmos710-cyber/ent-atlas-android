@@ -106,7 +106,7 @@ async function render(arg){arg=arg||"home";window._thcur=arg;document.body.class
  if(sync)h=sync();else{const slow=setTimeout(()=>{if(my===tok)V().innerHTML=`<div class="thspin">Preparing…</div>`},120);
   try{if(k==="op")h=await vOp(p[1],p[2]);else if(k==="play")h=await vPlay(p[1]);else if(k==="reh"){await needAuth();h=vReh()}else if(k==="r")h=await vR(arg);else if(k==="sec")h=vSec(p[1]);else if(k==="stage")h=vStage(p[1]);else if(k==="zone")h=vZone(p[1]);else h=vHome()}catch(err){h=`<div class="thwrap">${bar("Theatre","th:home")}<h1 class="thh1">That page didn't load.</h1><p class="thlede">Check your connection if you're on the web version, then try again.</p></div>`}
   clearTimeout(slow)}
- if(my!==tok)return;V().innerHTML=h}
+ if(my!==tok)return;V().innerHTML=h;if(window.clAfterTheatre)window.clAfterTheatre(arg)}
 window.THEATRE={render};
 const rr=()=>render(window._thcur);
 document.addEventListener("input",ev=>{if(ev.target.id==="thq"){LQ=ev.target.value;clearTimeout(window._thqt);window._thqt=setTimeout(()=>{const l=$("#thlib");if(l)l.innerHTML=libBody()},120)}if(ev.target.id==="thnote"){const t=TH();t.notes=t.notes||{};t.notes[ev.target.dataset.n]=ev.target.value;clearTimeout(window._thnt);window._thnt=setTimeout(save,400)}});
