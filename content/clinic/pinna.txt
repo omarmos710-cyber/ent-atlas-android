@@ -1,0 +1,90 @@
+@stand The pinna is all cartilage and skin, and the cartilage depends entirely on its perichondrium. A haematoma after a blow must be drained early, because blood trapped under the perichondrium becomes a cauliflower ear. Congenital anomalies are many, and most are cosmetic; the one to examine fully is microtia, which may hide a deaf ear.
+
+# Overview | Shape, development and injury.
+## Applied anatomy
+A single plate of elastic cartilage covered by skin that is tightly adherent on the lateral surface. The lobule has no cartilage. The *incisura terminalis*, between the tragus and the crus of the helix, also has no cartilage, which is why an endaural incision there avoids cutting it.
+!fig d1-1 | (A) The divisions of the ear. (B) Elevations and depressions of the lateral surface of the pinna. (C) The auricular cartilage.
+## Development
+The pinna develops from six *hillocks of His* around the first branchial cleft. The tragus comes from the first arch and most of the rest from the second. It reaches its adult shape by about 20 weeks of gestation and most of its adult size by about nine years.
+!fig d1-24 | Development of the pinna from six hillocks around the first branchial cleft.
+!differ Hillocks
+Dhingra: The tragus from the first arch; the rest from the second arch.
+Lee: The first three hillocks from the first arch, the last three from the second.
+!!
+
+# Congenital anomalies | From a tag to an absent ear.
+!fig d8-1 | A normal pinna.
+## Absent or small
+### Anotia
+Complete absence of the pinna, often with an absent canal.
+### Microtia
+A small, malformed pinna, graded from mild deformity to a peanut-shaped vestige. It is often associated with canal atresia and middle ear anomalies, so hearing must be tested (see the microtia and atresia topic).
+!fig d8-2 d8-3 | First, anotia: no pinna or canal on the left. Second, microtia of the right ear (a peanut ear).
+## Abnormal shape
+- **Bat ear (prominent ear):** the commonest anomaly, from an underdeveloped antihelical fold or deep concha. The normal angle between the pinna and the head is about 15 to 30 degrees.
+- **Cup and lop ear:** folding or deficiency of the upper pinna.
+- **Cryptotia:** the upper pinna is buried under the scalp skin.
+- **Stahl's ear:** an extra crus giving a pointed helix.
+- **Satyr ear:** a pointed upper pole.
+- **Darwin's tubercle:** a small, harmless nodule on the helix.
+- **Coloboma:** a cleft in the pinna.
+!fig d8-4 | Stahl's ear, with an extra crus.
+## Accessory tissue
+- **Preauricular tags:** may contain cartilage.
+- **Preauricular pit or sinus:** a small opening in front of the crus of the helix, from faulty fusion of the hillocks. It may become repeatedly infected.
+!fig d8-5 d8-6 | First, preauricular appendages. Second, an infected preauricular sinus discharging pus.
+## Treatment
+- **Bat ear:** otoplasty, usually after age six, before teasing at school.
+- **Stahl's and other shape anomalies:** a mould in the first six weeks of life, while the cartilage is soft, can correct them without surgery.
+- **Preauricular sinus:** antibiotics for infection; excision of the whole tract when it has been repeatedly infected.
+
+# Haematoma | The boxer's ear.
+## Cause
+Blunt trauma from boxing, wrestling or rugby shears the perichondrium from the cartilage, and blood collects between them.
+## Picture
+A tense, fluctuant, smooth swelling on the lateral surface that obliterates the landmarks.
+## Treatment
+Drain early: aspiration for small, fresh collections, or incision for larger or recurrent ones. Then apply a pressure bolster with the concavities packed, through-and-through sutures or a moulded dressing, give antibiotics, and recheck for reaccumulation.
+## Complication
+Untreated or infected, the cartilage necroses and new cartilage forms irregularly, giving a *cauliflower ear*.
+!fig d8-7 | A cauliflower (boxer's) ear.
+
+# Other injuries | Wounds, bites and cold.
+## Lacerations
+Repair early, covering the cartilage with skin and keeping the perichondrium attached.
+!fig d8-8 | A laceration of the left pinna.
+## Avulsion
+A partly avulsed segment on a pedicle is reattached. A completely avulsed part may be reattached as a composite graft if small, banked under postauricular skin, or replanted microvascularly.
+## Bites
+The lobe is the commonest site; human bites are the most likely to become infected. Clean thoroughly, give antibiotics and repair.
+## Frostbite
+The pinna is exposed and thin. Rewarm with moist pledgets at 38 to 42°C, give analgesia and antibiotics, avoid pressure dressings, and delay debridement for weeks to months until the dead tissue demarcates.
+!differ Rewarming
+Dhingra: Moist pledgets at 38 to 42°C, noting that rapid rewarming is painful.
+Lee: Favours slow rewarming.
+!!
+## Keloid
+After piercing, often in darker skin. Excision alone recurs; combine with steroid injection, pressure or radiotherapy.
+
+# For the examination | What the examiner wants to hear.
+## On call
+!ward A swollen pinna after a blow
+1. Aspirate or incise the haematoma.
+2. Pressure bolster with the concavities packed.
+3. Antibiotics, and review within a day or two for reaccumulation.
+4. Lacerations: repair early, covering the cartilage.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Development** from the hillocks of His.
+- **Congenital anomalies,** and the timing of otoplasty.
+- **Haematoma:** why drain, and how to prevent cauliflower ear.
+- **Microtia:** test the hearing and examine the canal and middle ear.
+- **Grafts from the pinna:** tragal and conchal cartilage, perichondrium and lobule fat.
+!!
+## Common pitfalls
+!pit
+- Leaving a haematoma to resolve.
+- Draining without a pressure dressing.
+- Excising a keloid without adjuvant treatment.
+!!

@@ -1,0 +1,85 @@
+@stand A baby born with a small or absent ear raises two questions, and hearing comes first. Test early, amplify by six months, and only later think about building an ear or opening a canal. When surgery is planned, image first: the facial nerve is often in the wrong place.
+
+# Overview | A first-arch malformation.
+## Definitions
+- **Microtia:** a small, malformed pinna; *anotia* is its complete absence.
+- **Congenital aural atresia:** absence or narrowing of the external canal, usually with a malformed middle ear.
+The two usually occur together, on the same side.
+## Epidemiology
+Microtia occurs in roughly 1 in 6,000 to 1 in 12,000 births, more often in boys and on the right. About 10% are bilateral.
+## Embryology
+The pinna develops from the hillocks around the first branchial cleft, the canal from the first branchial groove, and the malleus and incus from the first and second arches. The inner ear develops separately from the otic placode, so it is usually normal.
+!fig d1-25 | Development of the external auditory canal and middle ear.
+## Associated syndromes
+Treacher Collins, Goldenhar and hemifacial microsomia, Crouzon, and branchio-oto-renal syndrome.
+
+# Classification | Pinna and middle ear.
+## Microtia
+- **Grade I:** a recognisable but smaller or deformed pinna.
+- **Grade II:** a deformed framework with some parts missing.
+- **Grade III:** a soft-tissue remnant, the *peanut ear*.
+- **Grade IV:** anotia.
+!fig d8-3 | Grade III microtia of the right ear (peanut ear).
+## Middle ear (Lee)
+- **Class I:** normal pinna with an ossicular defect, the commonest.
+- **Class II:** microtia and atresia with an aerated middle ear and mastoid.
+- **Class III:** poorly aerated, underdeveloped middle ear and mastoid.
+!pearl Pearl
+A normal pinna with atresia implies the insult happened later in development, after the pinna had formed.
+!!
+
+# Clinical features | Hearing and appearance.
+## Hearing
+- Atresia: a conductive loss of about 60 to 70 dB.
+- Ossicular malformation alone: about 25 to 50 dB.
+- Congenital stapes fixation: about 50 to 65 dB.
+- Bilateral atresia threatens speech and language development.
+## Associated findings
+Preauricular tags, pits and sinuses, facial asymmetry, jaw underdevelopment, and syndromic features. Airway problems in some syndromes.
+
+# Investigations | Hearing first, imaging before surgery.
+## Audiology
+OAE and ABR from birth, including bone-conduction ABR, to measure cochlear function on each side.
+## Imaging
+Thin-section CT of the temporal bones before any surgery, usually around five or six years: the size and aeration of the middle ear and mastoid, the ossicles, the oval and round windows, the inner ear, and the course of the facial nerve. MRI if there is a sensorineural loss.
+## Other tests
+Renal ultrasound when preauricular pits accompany neck fistulae (branchio-oto-renal syndrome).
+
+# Management | Hearing, then the ear.
+## Hearing
+- **Bilateral atresia:** a bone-conduction aid on a headband within the first months, by six months at the latest.
+- **Unilateral atresia with a normal other ear:** speech usually develops normally; preferential seating at school and monitoring; amplification is optional.
+- A bone-anchored implant from around five or six years.
+## The pinna
+Reconstruction with autologous rib cartilage in stages, usually at about five to eight years when there is enough cartilage, or a porous polyethylene framework, or an osseointegrated prosthesis.
+## The canal
+### Selection
+Canal surgery suits ears with a conductive loss over 30 dB, bone conduction better than 20 dB, and a well-aerated middle ear with a favourable facial nerve on CT. The pinna is reconstructed first so the canal can be placed correctly.
+### Risks
+Facial nerve injury, restenosis of the new canal, lateralisation of the graft and sensorineural loss.
+## Preauricular sinus
+Leave it alone unless it becomes infected; then excise the whole tract.
+!flag The facial nerve
+In atresia the facial nerve often runs more anteriorly and laterally than usual, crossing the area where the canal would be drilled. First branchial cleft anomalies also run close to it.
+!!
+
+# For the examination | What the examiner wants to hear.
+## On call
+!ward A newborn with bilateral atresia
+1. Early audiology with bone-conduction testing.
+2. A bone-conduction aid as soon as possible.
+3. Look for syndromic features and airway problems.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Embryology:** why the inner ear is spared.
+- **Grades of microtia.**
+- **Hearing before cosmetics,** and the timing of each intervention.
+- **Selection for canal surgery,** and the facial nerve risk.
+!!
+## Common pitfalls
+!pit
+- Delaying amplification in bilateral atresia.
+- Opening a canal before reconstructing the pinna.
+- Drilling without a CT map of the facial nerve.
+!!

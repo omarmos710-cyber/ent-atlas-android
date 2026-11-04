@@ -1,0 +1,102 @@
+@stand The pinna faces the sun every day of a person's life, and most cancers of the ear start there. Any lesion of the pinna that does not heal deserves a biopsy. In the canal, a hard lump is often just bone, an osteoma or exostoses, while a painful, bleeding canal may be carcinoma.
+
+# Overview | Tumours of the pinna and canal.
+## Classification
+!tree External ear tumours
+Pinna, benign | Cysts, keloid | haemangioma, papilloma, cutaneous horn, keratoacanthoma, neurofibroma
+Pinna, malignant | Basal cell carcinoma, squamous cell carcinoma | melanoma
+Canal, benign | Osteoma, exostoses | ceruminous adenoma, papilloma
+Canal, malignant | Squamous cell carcinoma | basal cell carcinoma, adenoid cystic and ceruminous carcinoma, melanoma
+!!
+## Where ear cancers arise
+About 85% on the pinna, 10% in the canal and 5% in the middle ear.
+
+# Benign lesions of the pinna | Lumps that are not cancer.
+## Keloid
+Overgrowth of scar after piercing, more common in darker skin. Excision alone recurs; combine with steroid injection, pressure clips or, rarely, radiotherapy.
+!fig d16-1 | Keloid after ear piercing.
+!differ Radiotherapy for keloid
+Dhingra: Postoperative radiation is an option.
+Lee: Radiation is rarely used.
+!!
+## Haemangioma and vascular malformations
+A *strawberry haemangioma* grows in the first year and regresses by about five years; a *port-wine stain* does not. Venolymphatic malformations may need excision.
+!fig d16-2 | A venolymphatic malformation of the pinna in a child: before, during operation, and the excised specimen.
+## Keratoacanthoma
+A rapidly growing crater with a keratin plug that may regress on its own; it looks malignant and is usually excised.
+## Others
+Sebaceous and dermoid cysts, papillomas, cutaneous horns and neurofibromas.
+
+# Malignant tumours of the pinna | Sun-exposed skin.
+## Risk factors
+Sun exposure, fair skin, male sex, older age and immunosuppression.
+## Squamous cell carcinoma
+An ulcer, usually on the helix, with raised, everted edges. It spreads to the preauricular, postauricular, parotid and upper cervical nodes.
+!fig d16-3 | Squamous cell carcinoma of the pinna.
+## Basal cell carcinoma
+A nodule with a pearly, rolled, beaded edge and central crusting, usually behind the ear or on the helix; it rarely spreads to nodes but invades locally.
+!differ The commonest ear malignancy
+Dhingra: Emphasises squamous carcinoma on the helix.
+Lee: Basal cell carcinoma is the commonest, at about 45%.
+!!
+## Melanoma
+A pigmented, irregular lesion; spreads early to the parotid and neck nodes.
+## Treatment
+- **Squamous carcinoma:** excision with about 1 cm margins for small lesions; larger lesions, those within 1 cm of the canal, or with nodes need partial or total amputation of the pinna with parotidectomy and neck dissection.
+- **Basal cell carcinoma:** radiotherapy for superficial lesions not involving cartilage; excision (Mohs surgery where available) for deeper lesions.
+- **Melanoma:** wedge excision if small on the helix; wider resection with parotid and neck surgery as staged.
+
+# Bony growths of the canal | Often just bone.
+!table Osteoma or exostoses?
+ | Osteoma | Exostoses
+Number | Single | Multiple
+Sides | One | Usually both
+Shape | Smooth, pedunculated | Sessile, broad-based
+Site | Outer canal, at the bony-cartilaginous junction | Deep canal, near the drum
+Cause | True benign tumour | Reaction to cold water (swimmers, surfers)
+!!
+!fig d16-4 | An osteoma arising from the anterior wall of the right ear canal (arrow).
+!differ Site of exostoses
+Dhingra: Deep in the canal, near the drum.
+Lee: On the anterior and posterior canal walls.
+!!
+## Treatment
+None if small. When they block the canal, trap wax or cause recurrent otitis externa: an osteoma can be removed by fracturing its pedicle or drilling; exostoses are drilled away through the canal or a postauricular approach.
+!pearl Pearl
+Use a drill, not a gouge and hammer, for exostoses: the facial nerve lies close to the posterior canal wall.
+!!
+
+# Tumours of the canal | Glands and skin.
+## Ceruminous gland tumours
+A firm, skin-covered mass in the outer canal. Malignant ones (adenoid cystic carcinoma, ceruminous adenocarcinoma) outnumber benign ones about two to one. Treated by wide excision, with radiotherapy for malignant tumours.
+## Squamous cell carcinoma of the canal
+Often follows long-standing chronic discharge. It presents with bloody discharge, pain and granulation that will not heal; facial palsy means advanced disease.
+### Staging (Pittsburgh)
+- **T1:** confined to the canal, without bone erosion.
+- **T2:** limited bone erosion, or soft tissue extension under 0.5 cm.
+- **T3:** full-thickness bone erosion with soft tissue under 0.5 cm, or middle ear or mastoid involvement.
+- **T4:** cochlea, petrous apex, medial wall, carotid canal, jugular foramen, dura, soft tissue over 0.5 cm, or facial palsy.
+### Treatment
+Sleeve or lateral temporal bone resection, with parotidectomy and neck dissection as needed, and postoperative radiotherapy.
+
+# Assessment | Biopsy and image.
+- Biopsy any non-healing lesion of the pinna or canal.
+- CT and MRI for deep or canal tumours.
+- Examine the anterior and posterior auricular, parotid and upper cervical nodes.
+## Differential diagnosis
+Chondrodermatitis nodularis helicis, perichondritis, necrotising otitis externa and granulation from chronic otitis.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Squamous versus basal cell carcinoma** of the pinna, and their treatment.
+- **Osteoma versus exostoses.**
+- **Pittsburgh staging** of canal carcinoma.
+- **Biopsy any non-healing lesion.**
+!!
+## Common pitfalls
+!pit
+- Treating a non-healing helical ulcer with creams for months.
+- Using a gouge on exostoses.
+- Missing canal carcinoma in a patient with chronic discharge and new pain.
+!!

@@ -1,0 +1,160 @@
+@stand Vertigo is the illusion of movement, usually spinning, and in most patients it comes from the inner ear. Peripheral causes account for about 85%, but the duty of the doctor is to catch the dangerous central minority. Four questions sort most cases: how long the attacks last, what triggers them, whether hearing is affected, and whether there are neurological signs.
+
+# Overview | A symptom, not a diagnosis.
+## Definitions
+### Vertigo
+A false sense of rotation or movement of oneself or the surroundings, from asymmetry in the vestibular system.
+### Other kinds of dizziness
+- **Disequilibrium:** unsteadiness without a sense of rotation.
+- **Oscillopsia:** the visual world jumps with head movement, typical of bilateral vestibular loss.
+- **Presyncope:** light-headedness from reduced cerebral perfusion (cardiac, orthostatic, hypoglycaemic).
+- **Physiological:** motion sickness and height vertigo.
+## Peripheral or central
+!tree Causes of vertigo
+Peripheral | BPPV, vestibular neuritis | labyrinthitis, Ménière's disease, perilymph fistula, superior canal dehiscence, ototoxicity, trauma, syphilis
+Central | Posterior circulation stroke | vertebrobasilar insufficiency, Wallenberg syndrome, vestibular migraine, multiple sclerosis, cerebellar and brainstem tumours, epilepsy
+Other | Cervical | ocular, psychogenic, cardiovascular
+!!
+
+# The history | Timing is everything.
+## Duration
+!table Duration of attacks
+Duration | Typical causes
+Seconds | Benign paroxysmal positional vertigo
+Minutes | Vertebrobasilar ischaemia, vestibular migraine
+Minutes to hours | Ménière's disease, recurrent vestibulopathy, vestibular migraine
+Days to weeks | Vestibular neuritis, labyrinthitis, stroke
+Variable | Perilymph fistula, superior canal dehiscence
+!!
+## Triggers
+Head position (BPPV), loud sound or pressure (superior canal dehiscence, fistula), straining, neck movement, standing up (orthostatic hypotension), and migraine triggers.
+## Hearing
+Hearing loss or tinnitus points to the labyrinth (labyrinthitis, Ménière's disease, fistula) or the cerebellopontine angle, or to an AICA stroke.
+## Neurological symptoms
+Double vision, slurred speech, numbness, weakness, difficulty swallowing, new severe headache: central until proven otherwise.
+
+# Examination | Eyes, head and gait.
+## Nystagmus
+Look in the primary position and on gaze, with and without fixation (Frenzel glasses). Peripheral nystagmus is horizontal-torsional, beats away from the affected side and is suppressed by fixation; it is stronger looking towards the fast phase (*Alexander's law*).
+## Head impulse test
+A rapid head turn: a catch-up saccade means the vestibulo-ocular reflex on that side has failed, a peripheral lesion.
+## HINTS
+In acute continuous vertigo with nystagmus: a *normal* head impulse, direction-changing nystagmus, or a vertical skew deviation points to a stroke.
+## Positional tests
+The Dix-Hallpike manoeuvre for posterior canal BPPV, and the supine roll test for the lateral canal.
+## Other bedside tests
+Romberg and tandem gait, head shake, dynamic visual acuity (losing more than five lines suggests bilateral loss), fistula test, and a full neurological and cranial nerve examination.
+!table Peripheral or central findings
+Finding | Acute peripheral | Central
+Nystagmus | Mixed horizontal-torsional | Pure vertical or torsional, direction-changing
+Fixation | Suppresses | Does not suppress
+Head impulse | Abnormal | Normal
+Pursuit | Normal | Saccadic
+Saccades | Normal | Dysmetric
+Gait | Can walk | Often cannot stand
+Other CNS signs | Absent | Often present
+!!
+
+# Peripheral causes | The common ones.
+## Benign paroxysmal positional vertigo
+### Mechanism
+Otoconia dislodged from the utricle settle in a semicircular canal, most often the posterior canal, and move with gravity when the head changes position (*canalolithiasis*). It often follows head injury or ear infection, or occurs in older people without cause.
+### Picture
+Brief vertigo, under a minute, on lying down, rolling over or looking up. No hearing loss.
+### Dix-Hallpike nystagmus
+Rotatory and geotropic, after a latency of a few seconds, rising then fading within a minute, reversing on sitting up, and fatiguing on repetition.
+### Treatment
+The *Epley manoeuvre* repositions the debris into the utricle; about 80% are cured by one manoeuvre. Semont manoeuvre and Brandt-Daroff exercises are alternatives. Most cases resolve in months anyway. Surgery (posterior canal occlusion or singular neurectomy) is rarely needed.
+!fig d7-1 | The Epley manoeuvre for posterior canal BPPV, with the position of the patient and of the otolith debris in the canal at each step.
+!table Positional vertigo: peripheral or central
+Feature | Peripheral | Central
+Latency | Present | Often none
+Duration | Under a minute | Persists
+Fatigue | Yes | No
+Direction | Fixed, torsional | Changing or vertical
+Vertigo | Marked | Often mild
+!!
+## Vestibular neuritis
+### Mechanism
+Probably viral inflammation of the vestibular nerve or ganglion.
+### Picture
+Sudden, severe, continuous vertigo with nausea and vomiting, lasting days and settling over two to three weeks, without hearing loss. Nystagmus beats away from the affected side; the head impulse is abnormal towards it; calorics are reduced. BPPV follows in up to 15%.
+### Treatment
+Short-course vestibular sedatives, possibly steroids early, then early vestibular rehabilitation. Failure to improve at two to three weeks means a central lesion, such as a cerebellar infarct, must be excluded.
+## Labyrinthitis
+As neuritis, but with hearing loss, from viral or bacterial infection of the labyrinth itself.
+## Ménière's disease
+Attacks of vertigo lasting hours with fluctuating hearing loss, tinnitus and fullness.
+## Recurrent vestibulopathy
+Ménière-like spells without hearing symptoms. About 60% remit; a minority become Ménière's disease or BPPV.
+## Perilymph fistula
+Episodic vertigo and fluctuating hearing after stapes surgery, barotrauma, heavy lifting or coughing. Bed rest with the head up and laxatives; explore if worsening.
+## Superior canal dehiscence
+Vertigo provoked by sound and pressure, autophony and a low-frequency conductive loss with intact reflexes (see the separate topic).
+## Bilateral vestibular loss
+Oscillopsia and unsteadiness in the dark, without true vertigo, most often from aminoglycosides. Cerebellar ataxia with bilateral vestibular loss is called *CABV*, or *CANVAS* when sensory neuropathy is added.
+
+# Central causes | The ones not to miss.
+## Posterior circulation stroke
+!table Posterior circulation stroke syndromes
+Feature | PICA | AICA | SCA
+Vertigo, nystagmus, ataxia | Yes | Yes | Yes
+Hearing loss, tinnitus | No | Yes | No
+Facial palsy | Sometimes | Yes | No
+Dysphagia, hoarseness | Yes | No | No
+Contralateral loss of vibration and position | No | No | Yes
+!!
+!fig d7-2 | Lateral medullary (Wallenberg) syndrome from occlusion of the posterior inferior cerebellar artery.
+### Wallenberg syndrome
+Violent vertigo with hoarseness, dysphagia, ipsilateral Horner syndrome, ipsilateral facial and contralateral body loss of pain and temperature, and ataxia.
+## Vertebrobasilar insufficiency
+Attacks lasting minutes in patients over 50, with visual disturbance, diplopia or drop attacks, sometimes on neck movement.
+## Vestibular migraine
+Attacks of vertigo, minutes to hours, with or near migraine headache, often in young women with a family history; response to migraine treatment supports the diagnosis.
+## Multiple sclerosis
+Young adults with vertigo and pendular or dissociated nystagmus, and other neurological episodes.
+## Other central causes
+Cerebellar and brainstem tumours, Chiari malformation, idiopathic intracranial hypertension, encephalitis and epilepsy.
+
+# Other causes | When it isn't the ear or the brain.
+## Cervical vertigo
+Vertigo with neck movement after a neck injury; controversial and probably over-diagnosed.
+## Cardiovascular
+Presyncope from arrhythmia, orthostatic hypotension or hypoglycaemia; not true rotatory vertigo.
+## Psychogenic
+Vague floating or swaying, with anxiety, no nystagmus and normal tests. Persistent postural-perceptual dizziness often follows an acute vestibular event.
+
+# Management | Principles.
+!ward Acute vertigo on call
+1. Ask about timing, triggers, hearing and neurological symptoms.
+2. Examine nystagmus, head impulse, skew and gait (HINTS).
+3. Any focal sign, new severe headache, inability to stand, or a normal head impulse with nystagmus: treat as stroke until proven otherwise.
+4. Dix-Hallpike only once the neck and the patient's condition allow it.
+5. Give antiemetics or vestibular sedatives for a few days only.
+!!
+## Vestibular rehabilitation
+Head and eye exercises that drive central compensation, the mainstay after any peripheral loss.
+## Avoid long-term sedatives
+They slow compensation.
+!pearl Pearls
+- An acoustic neuroma usually causes unsteadiness, not severe vertigo.
+- Fatigable, delayed, torsional positional nystagmus is peripheral; immediate, persistent or vertical nystagmus is central.
+- A positive fistula test: perilymph fistula, cholesteatoma with a fistula, Ménière's disease, superior canal dehiscence, or syphilis.
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Peripheral versus central** vertigo and nystagmus.
+- **BPPV:** mechanism, Dix-Hallpike findings, Epley manoeuvre.
+- **Vestibular neuritis** versus labyrinthitis.
+- **HINTS** in acute vertigo.
+- **Wallenberg syndrome.**
+!!
+## Common pitfalls
+!pit
+- Labelling a stroke as neuritis because the patient is vomiting.
+- Missing a normal head impulse in continuous vertigo.
+- Keeping patients on vestibular sedatives for weeks.
+- Diagnosing BPPV without seeing the nystagmus.
+!!

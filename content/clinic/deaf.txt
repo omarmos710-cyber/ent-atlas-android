@@ -1,0 +1,129 @@
+@stand Speech and language are built between birth and five years, and they are built on hearing. A child who does not speak has usually not heard. Children identified and helped before six months of age do far better, which is why every newborn is screened, and why a failed screen is never brushed aside.
+
+# Overview | The critical years.
+## Why early matters
+The auditory pathways develop in response to sound during the first years of life. Without input, the auditory cortex is taken over by other functions and language develops late or not at all. Early fitting of hearing aids or a cochlear implant allows near-normal language in many children.
+## Prelingual and postlingual
+*Prelingual* deafness occurs before speech has developed and has the greatest effect on language; *postlingual* deafness occurs after.
+## The 1-3-6 rule
+Screen by one month, diagnose by three months, and start intervention by six months.
+
+# Causes | Genes, infection and the newborn period.
+## Proportions
+About half of congenital sensorineural loss is genetic, about a quarter environmental and about a quarter unexplained. Of the genetic cases, about 70% are non-syndromic (mostly autosomal recessive) and 30% syndromic.
+## Genetic
+### Non-syndromic
+*GJB2* mutations affecting connexin 26 (DFNB1) account for up to half of recessive non-syndromic deafness. Mitochondrial mutations (12S rRNA, 1555A>G) cause deafness after even a single dose of an aminoglycoside.
+### Syndromic
+!table Syndromes to know
+Syndrome | Clue | Hearing loss
+Waardenburg | White forelock, odd-coloured eyes, dystopia canthorum (type 1) | Sensorineural
+Usher | Retinitis pigmentosa | Sensorineural
+Pendred | Goitre, enlarged vestibular aqueduct | Sensorineural
+Jervell and Lange-Nielsen | Fainting, long QT | Sensorineural
+Alport | Nephritis, X-linked | Progressive sensorineural
+Treacher Collins | Lower lid coloboma, small jaw and malar, microtia | Conductive
+Crouzon and Apert | Craniosynostosis, proptosis (syndactyly in Apert) | Conductive or mixed
+Branchio-oto-renal | Neck fistulae, pits, renal anomalies | Conductive or mixed
+Stickler | Small jaw, cleft, myopia | Conductive or sensorineural
+Goldenhar | Facial asymmetry, epibulbar dermoid | Conductive or mixed
+Klippel-Feil | Short neck, fused cervical spine | Sensorineural or mixed
+Down | Effusion, narrow canals | Conductive
+!!
+!fig d19-1a | Waardenburg syndrome: white forelock, heterochromia of the irides and depigmented skin.
+!pearl Syndrome pearls
+- Usher type 1: profound loss and absent vestibular function; type 2: moderate loss, normal or reduced vestibular function.
+- Pendred: the goitre appears around age eight; the perchlorate discharge test is positive.
+- Waardenburg type 1 has dystopia canthorum; type 2 does not.
+- Treacher Collins: lower lid coloboma; Goldenhar: upper lid.
+!!
+## Inner ear malformations
+- **Michel:** complete absence of the inner ear; no aid or implant can help.
+- **Mondini:** a cochlea of only one and a half turns, often with an enlarged aqueduct.
+- **Scheibe:** cochleosaccular dysplasia, the commonest.
+- **Alexander:** the basal turn alone, losing high tones.
+- **Bing-Siebenmann:** the membranous labyrinth fails to develop.
+- **Enlarged vestibular aqueduct:** fluctuating, progressive loss after minor head injury.
+!differ Enlarged vestibular aqueduct
+Dhingra: Wider than 2 mm.
+Lee: 1.5 mm or more.
+Avoid contact sports and head injury; surgical closure of the aqueduct causes hearing loss.
+!!
+## Environmental
+!tree Environmental causes
+Prenatal | TORCH infections | cytomegalovirus, rubella, toxoplasmosis, syphilis, Zika; aminoglycosides, quinine, thalidomide, alcohol, radiation
+Perinatal | Hypoxia, prematurity | birth weight under 1500 g, jaundice (bilirubin over 20 mg%), sepsis, NICU stay, ventilation
+Postnatal | Meningitis | viral infections, otitis media with effusion, ototoxic drugs, trauma, noise
+!!
+### Cytomegalovirus
+The commonest non-genetic cause. The loss can be absent at birth and appear later, so a normal newborn screen does not exclude it.
+### Meningitis
+Labyrinthitis ossificans can close the cochlea within weeks; test hearing and image quickly.
+## Risk factors
+Family history, craniofacial anomaly or syndrome stigmata, NICU stay of five days or more, ventilation, low Apgar scores, severe jaundice, congenital infection, and meningitis. Half of children with sensorineural loss have no risk factor at all, which is why screening must be universal.
+
+# Evaluation | Screen, confirm, find the cause.
+## Newborn screening
+### Otoacoustic emissions
+Test the outer hair cells; quick and cheap. Absent with fluid or debris, or a cochlear loss. Normal in auditory neuropathy, which they therefore miss.
+### Automated ABR
+Tests the pathway to the brainstem; used for NICU babies, who are at risk of auditory neuropathy.
+## Diagnostic audiology
+### ABR
+Ear-specific thresholds, under natural sleep or sedation.
+### Behavioural tests by age
+- Under six months: behavioural observation.
+- Six to eighteen months: distraction testing.
+- Six months to two years: visual reinforcement audiometry.
+- Two to five years: play audiometry.
+- Older: conventional and speech audiometry.
+## Finding the cause
+Imaging (CT and MRI) before implantation; ECG for long QT; urinalysis; thyroid function; eye examination; CMV PCR on newborn saliva, urine or dried blood spot (within 21 days); and genetic testing (GJB2, GJB6 and gene panels).
+!flag Long QT
+A deaf child who faints needs an urgent ECG: Jervell and Lange-Nielsen syndrome can cause sudden death. Treat with beta-blockers.
+!!
+## Signs at home
+No startle to loud sound, sleeping through noise, no babbling or no words by one to two years, and poor school performance.
+
+# Management | Hearing first, then language.
+## Counselling
+Parents need a clear explanation, support and early contact with educators.
+## Hearing aids
+As early as possible, in both ears if there is usable hearing.
+## Cochlear implant
+For severe to profound loss with little benefit from aids, ideally around the first birthday, or urgently after meningitis.
+## Communication and education
+Auditory-oral approaches, sign language, or total communication; radio aids at school; speech and language therapy; vocational guidance later.
+!fig d19-3 | The faculties a hearing-impaired child can use for receptive and expressive communication.
+## Specific treatments
+- **Symptomatic congenital CMV:** valganciclovir for six months.
+- **Toxoplasmosis:** pyrimethamine and sulfadiazine can prevent hearing loss.
+- **Long QT:** beta-blockers.
+- **Pendred goitre:** thyroid hormone.
+- **Enlarged aqueduct:** avoid head injury and contact sport.
+## Follow-up
+Children with risk factors need continued hearing checks even after passing the newborn screen; treated CMV infants continue audiology until about age six.
+
+# For the examination | What the examiner wants to hear.
+## On call
+!ward A failed newborn hearing screen
+1. Repeat the screen; if it fails again, arrange a diagnostic ABR. Don't reassure.
+2. A deaf child with fainting: urgent ECG for long QT.
+3. After meningitis: audiology and imaging quickly, before ossification closes the implant window.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Causes:** genetic, prenatal, perinatal, postnatal.
+- **High-risk registry.**
+- **OAE versus ABR,** and auditory neuropathy.
+- **Behavioural tests by age.**
+- **The syndromes table.**
+- **Inner ear malformations,** especially Michel and Mondini.
+!!
+## Common pitfalls
+!pit
+- Reassuring parents after a failed screen.
+- Relying on OAE in a NICU baby.
+- Missing late-onset CMV loss after a normal newborn screen.
+- Forgetting the ECG.
+!!

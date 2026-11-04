@@ -1,0 +1,120 @@
+@stand Hearing rehabilitation means matching the device to the loss. A hearing aid helps whatever amplification can help; a bone-conduction device helps when the canal or middle ear is in the way; a cochlear implant takes over when the cochlea can no longer do the job; and a brainstem implant is kept for the patient who has no cochlear nerve.
+
+# Overview | The right device for the loss.
+!table Which device?
+Situation | Consider
+Sensorineural loss with useful speech understanding | Air-conduction hearing aid
+Chronic discharge, canal atresia | Bone-anchored device
+Single-sided deafness | CROS aid, bone-anchored device, cochlear implant
+Moderate to severe loss, cannot tolerate an aid | Middle ear implant
+Severe to profound loss with poor speech understanding | Cochlear implant
+No cochlear nerve, NF2 | Auditory brainstem implant
+!!
+## Beyond devices
+Assistive listening devices (loop systems, FM and remote microphones), alerting devices, speech reading, auditory training and speech conservation.
+## Two ears are better than one
+Bilateral fitting gives the *head shadow* effect, *binaural summation* (sound seems about 3 dB louder) and *squelch* (better hearing in noise), and restores sound localisation.
+
+# Hearing aids | Amplification.
+## Components
+A microphone, amplifier and receiver (speaker), powered by a battery, with digital processing that shapes gain by frequency and compresses loud sounds.
+## Styles
+!fig d20-1 | Types of hearing aid: (A) body-worn, (B) behind-the-ear, (C) spectacle and (D) in-the-ear.
+- **Body-worn:** high power; now rare.
+- **Behind-the-ear:** the most versatile, from mild to profound loss, and the choice for children because the mould can be changed as the ear grows.
+- **Receiver-in-canal and open fit:** for high-frequency loss with good low tones; avoid the occlusion effect.
+- **In-the-ear, in-the-canal, completely-in-canal:** cosmetic, for mild to moderate loss in adults with good dexterity.
+## Who does well
+Speech discrimination of at least about 50%, and a wide *dynamic range* between the threshold and the level of discomfort.
+## Problems
+### Recruitment
+Abnormal growth of loudness in a cochlear loss narrows the dynamic range: soft sounds are missed but loud sounds are intolerable. Compression circuits help.
+### Occlusion effect
+A blocked canal makes the patient's own voice boom. Venting reduces it, but venting also loses low-frequency gain.
+### Feedback
+Whistling from sound leaking back to the microphone; better moulds and feedback cancellation help.
+
+# Bone-conduction devices | Around the canal and middle ear.
+## How they work
+Sound vibrates the skull directly and reaches both cochleas, bypassing the canal and middle ear.
+## Types
+Conventional bone-conduction aids on a headband or spectacles; *percutaneous* bone-anchored devices fixed to an osseointegrated titanium implant through the skin; and *transcutaneous* (magnetic) devices under intact skin.
+!fig d20-2 d20-3 | First, a bone-anchored device: titanium fixture, abutment and sound processor. Second, the device worn.
+## Indications
+- Chronic discharging ears that cannot tolerate an aid.
+- Canal atresia and microtia.
+- Conductive or mixed loss where surgery is unsuitable.
+- Single-sided deafness with a good other ear (about 20 dB or better), sending sound across the skull.
+## Practical points
+Osseointegration takes about three months, longer in children. Complications include failed integration and skin reactions around the abutment. A bone-anchored device does not restore localisation.
+!differ Single-sided deafness
+Dhingra: Bone-anchored devices have replaced CROS aids.
+Lee: CROS aids remain an option.
+!!
+## CROS and BiCROS aids
+A microphone on the deaf side sends sound wirelessly to the better ear; BiCROS adds amplification for a better ear that also has some loss.
+
+# Middle ear implants | Driving the ossicles directly.
+A transducer fixed to an ossicle or the round window, driven electromagnetically or piezoelectrically. For adults with moderate to severe sensorineural or mixed loss who are unhappy with conventional aids, and some conductive losses. The canal is left open.
+
+# Cochlear implants | Bypassing the cochlea.
+## Principle
+An external microphone and processor convert sound into electrical patterns, sent across the skin to an internal receiver, which stimulates the spiral ganglion cells through an electrode array in the scala tympani. The cochlea's place coding is reproduced: basal electrodes for high pitches, apical for low.
+!fig d20-9 | Principle of the cochlear implant.
+## Candidates
+### Adults
+Severe to profound bilateral sensorineural loss with limited benefit from well-fitted aids. Lee gives moderate to profound loss with an aided sentence score of 50% or less in the ear to be implanted and 60% or less best-aided.
+### Children
+From about twelve months, with severe to profound loss and little benefit after a three to six month trial of aids. The trial is waived after meningitis, when ossification threatens.
+!differ Age of implantation
+Dhingra: From twelve months.
+Lee: Earlier implantation is safe and may help language.
+!!
+### Outcomes
+Duration of deafness and pre-operative speech scores explain most of the variation. Postlingually deafened adults often achieve high sentence scores; children implanted early commonly join mainstream schools; prelingually deaf adults gain mostly sound awareness, because the window for language (birth to about two years) has passed.
+## Assessment
+Medical review; audiology with an aid trial; MRI to show the cochlear nerve and a fluid-filled cochlea; HRCT for bony anatomy, malformations, a narrow internal auditory canal (under 3 mm) and surgical hazards; psychological and speech assessment.
+## Contraindications
+Complete cochlear or labyrinthine aplasia (Michel), complete ossification, and an absent cochlear nerve. Retrocochlear disease is a relative contraindication.
+## The operation
+Cortical mastoidectomy, posterior tympanotomy through the facial recess, entry into the scala tympani through the round window or a cochleostomy, slow insertion of the array, sealing, and testing of the device. *Soft surgery* (a flexible array, the round window route, slow insertion, no suction of perilymph, and steroids) preserves residual hearing. In an ossified cochlea, the basal turn is drilled out or a split array used.
+!differ Route into the cochlea
+Dhingra: Describes a cochleostomy.
+Lee: Prefers the round window.
+!!
+## After surgery
+Activation at about two to four weeks, then repeated *mapping* of each electrode and intensive auditory therapy; sound quality improves over three to six months.
+## Vaccination
+Implant recipients are vaccinated against pneumococcus (PCV13, then PPSV23 at least eight weeks later), because meningitis is commoner in implanted children, especially with malformations or a CSF leak.
+## Complications
+- Flap breakdown and device extrusion.
+- Device failure, about 4% over a lifetime; revision through the same track.
+- Facial nerve injury (under 1%) and facial stimulation, managed by switching off electrodes.
+- Taste change, vertigo, tinnitus.
+- CSF gusher, especially with malformations.
+- Meningitis.
+!pearl Pearls
+- Bilateral implants restore head shadow, summation and squelch, and localisation.
+- Inner ear malformations raise the risk of an anomalous facial nerve, gusher and meningitis.
+- Auditory neuropathy can do well with an implant.
+- Acute otitis media in an implanted child is treated promptly, intravenously if severe.
+!!
+
+# Auditory brainstem implant | When there is no nerve.
+An electrode placed on the cochlear nucleus, through the lateral recess of the fourth ventricle, for patients without a usable cochlear nerve: neurofibromatosis type 2, nerve aplasia, or complete cochlear ossification. Results are more modest than with cochlear implants.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Hearing aid types** and who benefits.
+- **Recruitment** and dynamic range.
+- **Bone-anchored devices:** indications and osseointegration.
+- **Cochlear implant:** principle, candidacy, assessment, contraindications, operation, complications.
+- **Auditory brainstem implant:** indications.
+!!
+## Common pitfalls
+!pit
+- Fitting an aid to an asymmetric loss without excluding a retrocochlear cause.
+- Delaying implantation after meningitis.
+- Forgetting pneumococcal vaccination.
+!!

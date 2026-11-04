@@ -1,0 +1,103 @@
+@stand A temporal bone fracture comes with a head injury, so trauma care comes first and the ear second. Once the patient is safe, three questions decide what happens next: is the face moving, can the patient hear, and is there CSF leaking?
+
+# Overview | A fracture through the hearing bone.
+## Epidemiology
+Most fractures follow road traffic accidents, then assaults and falls. Young adult men in their second to fourth decades are affected about three times as often as women. A fracture is found in a substantial share of patients with significant head injury.
+## Why it matters
+The temporal bone contains the cochlea, the labyrinth, the facial nerve, the ossicles, the carotid artery and the dura. A fracture can damage any of them, and early documentation of facial function and hearing shapes every later decision.
+
+# Classification | Two systems, both still taught.
+## Traditional: by the direction of the fracture line
+### Longitudinal fracture
+About 80%. Usually from a blow to the side of the head. The line runs along the long axis of the petrous bone, through the squamous part, the posterosuperior canal wall, the tegmen and the middle ear, and tends to spare the otic capsule.
+### Transverse fracture
+About 20%. Usually from a blow to the back of the head. The line runs across the petrous bone, through the vestibule, cochlea or internal auditory canal.
+### Mixed
+Elements of both, common in severe injuries.
+!fig d14-10 d14-11 | First, the courses of longitudinal and transverse fractures of the temporal bone. Second, a right longitudinal fracture on CT and as seen at operation.
+!table Longitudinal and transverse fractures
+ | Longitudinal | Transverse
+Frequency | About 80% | About 20%
+Blow | Side of the head | Back of the head
+Drum | Torn, bleeding from the ear | Intact, haemotympanum
+Hearing | Conductive | Sensorineural
+Vertigo | Less common | Severe
+Facial palsy | About 20%, often delayed | About 50%, often immediate
+!!
+## Modern: does it involve the otic capsule?
+*Otic capsule sparing* fractures are by far the commonest; *otic capsule violating* fractures, only about 6%, are much more likely to cause facial palsy, sensorineural hearing loss, CSF leak and meningitis. This system predicts outcome better.
+!differ Longitudinal or transverse
+Dhingra: Teaches conductive loss with longitudinal and sensorineural loss with transverse fractures.
+Lee: Modern series do not fit the old categories neatly; the otic capsule system predicts outcome better.
+Know both: the old table is still examined.
+!!
+
+# Clinical features | Look, listen, test the face.
+## General
+Signs of head injury and of a base of skull fracture: *Battle's sign* (bruising over the mastoid, appearing after a day or two), periorbital bruising, and altered consciousness.
+## The ear
+Bleeding from the ear with a torn drum or a step in the canal wall (longitudinal), or a blue-black drum from blood in the middle ear (*haemotympanum*) behind an intact drum (transverse).
+## Hearing
+### Conductive loss
+From haemotympanum (the commonest early cause), a perforation, or ossicular injury: incudostapedial joint separation first, then dislocation of the incus, then fracture of the stapes crura.
+### Sensorineural loss
+From fracture through the cochlea or a labyrinthine concussion; often permanent. Mixed losses are common.
+## Vertigo
+Severe vertigo with spontaneous nystagmus after a transverse fracture through the labyrinth; milder, positional vertigo after concussion or BPPV.
+## Facial nerve
+Record whether the palsy was immediate or delayed, and complete or incomplete. An immediate complete palsy suggests transection or a bone spicule in the nerve; a delayed palsy suggests oedema and usually recovers.
+## CSF leak
+Clear fluid from the ear (CSF otorrhoea) through a torn drum, or from the nose (CSF otorhinorrhoea) via the Eustachian tube behind an intact drum.
+
+# Investigations | Image the bone and confirm the fluid.
+## High-resolution CT of the temporal bones
+Shows the fracture line, the otic capsule, the ossicles, the facial canal and the tegmen. CT angiography if the fracture crosses the carotid canal.
+## Beta-2 transferrin
+Confirms that the fluid is CSF.
+## Audiogram
+As soon as practical, and repeated at six to eight weeks when blood has cleared from the middle ear.
+## Electroneuronography
+For a complete facial palsy, to guide decisions on exploration.
+
+# Management | Trauma care first.
+## The first assessment
+!ward Head injury with ear signs
+1. Follow trauma protocols and complete a neurological assessment.
+2. Document facial function as early as possible, before sedation if you can.
+3. Look for haemotympanum, a canal step, CSF, vertigo and nystagmus.
+4. Do not syringe, probe or pack the ear deeply.
+5. Arrange HRCT of the temporal bones, and CT angiography if the carotid canal is involved.
+!!
+## CSF leak
+Most stop within a week or two with the head raised, bed rest, stool softeners and avoiding nose blowing and straining. Routine prophylactic antibiotics are not recommended. A persistent leak, or meningitis, needs a lumbar drain or surgical repair.
+## Facial palsy
+Immediate complete palsy with evidence of nerve injury is explored and decompressed or repaired. Delayed palsy is managed with steroids and observation, with serial ENoG (see the facial nerve topic).
+## Hearing
+Haemotympanum clears in weeks. A conductive loss persisting at six to eight weeks suggests ossicular injury and is explored and reconstructed. Sensorineural loss is rehabilitated with aids or, if profound, a cochlear implant.
+## Vertigo
+Short-term vestibular sedatives, then vestibular rehabilitation; treat post-traumatic BPPV with repositioning manoeuvres.
+
+# Complications | Early and late.
+- **Meningitis,** early or years later, through an unhealed fracture.
+- **Permanent sensorineural deafness.**
+- **Facial palsy.**
+- **Late cholesteatoma,** from skin trapped in the fracture line.
+- **Chronic vertigo** and perilymph fistula.
+- **Carotid injury** and dissection.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Longitudinal versus transverse:** the six-row table.
+- **Otic capsule sparing versus violating,** and why it predicts outcome.
+- **Immediate versus delayed facial palsy,** and how each is managed.
+- **Beta-2 transferrin** for CSF.
+- **Ossicular injuries** in order of frequency.
+!!
+## Common pitfalls
+!pit
+- Forgetting to record facial function before the patient is sedated.
+- Syringing or packing a bleeding ear after head injury.
+- Assuming a conductive loss is permanent before the blood has cleared.
+- Missing late meningitis or cholesteatoma years after the injury.
+!!

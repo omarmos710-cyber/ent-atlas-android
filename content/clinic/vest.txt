@@ -1,0 +1,118 @@
+@stand Vestibular tests tell you which side is weak and whether the problem is peripheral or central; they never tell the whole story. Normal results do not exclude vestibular disease, so every test should be chosen and read with the history in mind. The bedside examination comes first, and often it is enough.
+
+# Overview | What the balance system is made of.
+## The end organs
+The three semicircular canals sense angular (rotational) acceleration; the two otolith organs, utricle and saccule, sense linear acceleration and head tilt.
+## The nerves
+The *superior vestibular nerve* supplies the lateral and superior canals and the utricle; the *inferior vestibular nerve* supplies the posterior canal and the saccule.
+## Physiology to remember
+At rest both labyrinths fire equally. If the right labyrinth fails, the brain reads the imbalance as turning to the left: the eyes drift slowly to the right and flick back to the left. So nystagmus beats *away* from a dead labyrinth (a paretic lesion) and *towards* an irritated one.
+## Ewald's laws
+The eyes move in the plane of the stimulated canal. In the lateral canal, flow towards the ampulla (ampullopetal) stimulates more than flow away from it; in the vertical canals the reverse is true.
+## What each test measures
+!table What each test measures
+Test | Measures
+Caloric test | Each lateral canal, at low frequency
+Rotary chair | Both lateral canals together
+Video head impulse test | Each of the six canals, at high frequency
+Cervical VEMP | Saccule and inferior vestibular nerve
+Ocular VEMP | Utricle and superior vestibular nerve
+Posturography | How the patient uses vestibular, visual and proprioceptive input
+!!
+
+# Bedside examination | First, and often enough.
+## Spontaneous nystagmus
+Look in the primary position and in each direction of gaze, with and without fixation (Frenzel glasses remove fixation). Peripheral nystagmus is horizontal-torsional, suppressed by fixation, and stronger looking towards the fast phase.
+### Degrees (Alexander's law)
+- **First degree:** only when looking towards the fast phase.
+- **Second degree:** also looking straight ahead.
+- **Third degree:** in all directions of gaze.
+### Central patterns
+- **Downbeat:** craniocervical junction (Chiari malformation, cerebellar degeneration).
+- **Upbeat:** brainstem.
+- **Pure torsional:** brainstem.
+- **Pendular:** multiple sclerosis and congenital nystagmus.
+## Head impulse test
+A rapid head turn; a catch-up saccade shows a failed vestibulo-ocular reflex on that side.
+## Dynamic visual acuity
+Losing more than five lines on a chart while the head is shaken suggests bilateral vestibular loss.
+## Positional tests
+### Dix-Hallpike manoeuvre
+With the patient sitting, turn the head 45 degrees to one side, then lie them back quickly with the head 30 degrees below horizontal. Watch for latency, duration, direction and fatigue.
+!fig d6-1 | The Dix-Hallpike manoeuvre.
+!table Positional nystagmus
+Feature | Peripheral | Central
+Latency | 2–20 seconds | None
+Duration | Under a minute | Over a minute
+Direction | Fixed, towards the undermost ear | Changes
+Fatigue | Yes | No
+Vertigo | Severe | None or slight
+!!
+## Fistula test
+Pressure on the tragus or with a Siegle speculum causes nystagmus when the labyrinth is open: lateral canal erosion, a fenestration cavity, superior canal dehiscence, or a window leak. It needs a working labyrinth: a dead ear, or cholesteatoma sealing the fistula, gives a false negative. *Hennebert's sign* is a positive test without a fistula, in congenital syphilis and some Ménière's disease.
+## Balance and cerebellar tests
+Romberg, tandem walking, Unterberger's stepping test, and past-pointing: falling and past-pointing go towards the side of the slow phase. Cerebellar hemisphere disease causes dysmetria, dysdiadochokinesia and rebound; midline disease causes a wide gait and truncal ataxia.
+
+# Laboratory tests | Measuring each part.
+## Caloric test
+Warm or cold water (or air) in the canal sets up convection currents in the lateral canal. With the patient lying and the head raised 30 degrees, the lateral canal is vertical and responds best.
+!fig d6-2 | The Fitzgerald-Hallpike caloric test: the head is raised 30 degrees to make the lateral canal vertical.
+### COWS
+Cold water makes nystagmus beat to the opposite side; warm to the same side.
+### Reading it
+- **Canal paresis:** one side responds less (a difference of more than about 15 to 30%).
+- **Directional preponderance:** nystagmus stronger in one direction (more than about 25 to 30%).
+- **Bilateral weakness:** bilateral vestibular loss.
+!fig d6-3 | Calorigrams: (A) normal, (B) left canal paresis, (C) left directional preponderance.
+!differ The caloric test
+Dhingra: Water at 30°C and 44°C for 40 seconds.
+Lee: For 30 seconds; considers directional preponderance of questionable value.
+!!
+### Kobrak test
+Small volumes of iced water, increasing from 5 mL; no response suggests a dead labyrinth.
+!flag Calorics and perforations
+Don't use water with a perforation; use air.
+!!
+## Electronystagmography and videonystagmography
+Record eye movements during calorics, positional tests, saccades, pursuit and optokinetic testing. Central signs: direction-changing nystagmus, failure of fixation suppression, abnormal saccades and pursuit, and hyperactive calorics.
+## Video head impulse test
+Measures the gain of the reflex for each canal separately; low gain with overt or covert saccades means a weak canal.
+## Vestibular evoked myogenic potentials
+Loud sounds stimulate the saccule (cervical VEMP from sternocleidomastoid) and utricle (ocular VEMP from the inferior oblique). They work even in deaf ears. In superior canal dehiscence thresholds are abnormally low and ocular amplitudes high.
+## Rotary chair
+Tests both labyrinths together over a range of frequencies; useful in bilateral loss, in children, and when a canal cannot be irrigated.
+## Posturography
+Shows how the patient uses each sense to balance; useful in rehabilitation and in non-organic imbalance.
+
+# Using the tests | When to order them.
+- When the side or site of the lesion is unclear.
+- Before a destructive procedure, to check the other ear.
+- Planning rehabilitation and tracking recovery.
+- Monitoring gentamicin effect; daily head impulse and visual acuity help detect toxicity.
+!pearl Pearls
+- A canal paresis with directional preponderance away from it suggests Ménière's disease; preponderance towards the same side, a schwannoma.
+- Fixation suppressing the nystagmus is peripheral; failure to suppress suggests a central cause.
+!!
+
+# For the examination | What the examiner wants to hear.
+## On call
+!ward The dizzy patient at the bedside
+1. Spontaneous nystagmus, with and without fixation.
+2. Head impulse test and test of skew.
+3. Gait and cerebellar signs.
+4. Dix-Hallpike when the neck and condition allow.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Ewald's laws** and why nystagmus beats away from a dead ear.
+- **Dix-Hallpike** technique and peripheral versus central positional nystagmus.
+- **Caloric test:** technique, COWS, canal paresis and directional preponderance.
+- **Fistula test** and Hennebert's sign.
+- **VEMP** and what it tests.
+!!
+## Common pitfalls
+!pit
+- Using water calorics with a perforation.
+- Taking normal tests as proof of no vestibular disease.
+- Missing central signs because the eyes were tested only with fixation.
+!!

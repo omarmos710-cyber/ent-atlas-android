@@ -1,0 +1,110 @@
+@stand Most slowly progressive sensorineural loss in both ears comes from age, noise or drugs. Ask about each specifically, stop whatever is still doing harm, and do not miss the rarer autoimmune inner ear disease, because it can respond to steroids.
+
+# Overview | Four causes of acquired sensorineural loss.
+## Scope
+- **Ototoxicity:** hearing or balance damaged by drugs.
+- **Noise-induced hearing loss:** from sustained or sudden loud sound.
+- **Presbycusis:** age-related hearing loss.
+- **Immune-mediated inner ear disease:** primary or as part of systemic disease.
+## Why it matters
+Much of this hearing loss is preventable, by monitoring drugs and protecting ears from noise, and some is reversible.
+
+# Ototoxicity | Drugs that damage the ear.
+## The drugs
+!table Ototoxic drugs
+Drug | Main target | Reversible?
+Streptomycin, gentamicin | Vestibular | Often permanent
+Neomycin, kanamycin, amikacin | Cochlea | Often permanent
+Loop diuretics | Stria vascularis | Usually
+Salicylates | Cochlea | Yes
+Quinine, chloroquine | Cochlear vessels | Usually; high doses may not be
+Cisplatin, carboplatin | Outer hair cells | Often permanent
+!!
+Others include deferoxamine, some ear drops (aminoglycosides and polymyxin) through a perforation, and some topical antiseptics.
+!differ Tobramycin
+Dhingra: Mainly vestibulotoxic.
+Lee: Mainly cochleotoxic.
+!!
+## Aminoglycosides
+Hair cells are damaged from the basal turn upwards, so high frequencies go first. Hearing loss may appear during or after treatment. Risk is higher with renal impairment, age over 65, high blood levels, long courses, previous exposure, loop diuretics, and genetic susceptibility: mitochondrial 12S rRNA mutations make even a single dose dangerous, so ask about family members who went deaf after these drugs.
+## Cisplatin
+Bilateral, permanent high-frequency loss, worse in young children under five, the elderly, and with noise or radiotherapy.
+## Prevention
+Avoid ototoxic drugs where alternatives exist, monitor levels and renal function, and obtain baseline and serial audiograms, including high-frequency audiometry.
+!flag On the ward
+New tinnitus, hearing loss or imbalance on an aminoglycoside or cisplatin: alert the treating team, check levels and renal function, and test hearing.
+!!
+## Deliberate use
+Gentamicin's vestibular toxicity is used therapeutically in Ménière's disease.
+
+# Noise-induced hearing loss | Loud sound over time.
+## Mechanism
+Outer hair cells in the basal turn fail first, around the region that responds to 4 kHz.
+### Temporary threshold shift
+Hearing dulls after loud exposure and recovers.
+!differ Recovery from a temporary shift
+Dhingra: Up to two weeks.
+Lee: Within 24 hours.
+!!
+### Permanent threshold shift
+Repeated exposure leads to irreversible loss.
+### Acoustic trauma
+A single blast or explosion (around 140 dB or more) can rupture the drum, disrupt the ossicles and damage the cochlea at once.
+## Clinical picture
+High-pitched tinnitus and difficulty hearing in noise. The audiogram shows a symmetrical *notch at 4 kHz*, which deepens and widens into the speech frequencies with continued exposure.
+!fig d5-7 | Early noise-induced hearing loss, with a dip at 4000 Hz.
+## Safe limits
+!pearl Noise exposure rules
+- Dhingra's occupational limit: 90 dBA for 8 hours; no continuous exposure over 115 dBA; no impulse over 140 dBA.
+- The *5 dB rule*: each 5 dB rise halves the safe duration.
+- Hearing conservation (protection and audiometry) starts at 85 dBA.
+- Limits differ by country; check local regulations.
+!!
+## Prevention and management
+Remove from exposure, reduce noise at source, and use hearing protection: earplugs give about 15 to 30 dB, earmuffs 30 to 40 dB, and both together more. Protectors work better at high than low frequencies. Pre-employment and annual audiograms. Hearing aids for established loss.
+
+# Presbycusis | Hearing and age.
+## Picture
+Gradual, bilateral, symmetrical high-frequency loss. The patient hears speech but cannot understand it, especially in noise, and is intolerant of loud sound because of recruitment.
+## Types (Schuknecht)
+!table Types of presbycusis
+Type | Damage | Audiogram | Discrimination
+Sensory | Hair cells, basal turn | Steep high-tone loss | Good
+Neural | Cochlear neurones | Variable | Poor, out of proportion
+Strial (metabolic) | Stria vascularis | Flat | Good
+Cochlear conductive | Stiff basilar membrane | Gently sloping | Moderate
+!!
+## Management
+Hearing aids, assistive listening devices, speech reading and communication tactics; cochlear implants for severe loss. Untreated hearing loss is linked with isolation and cognitive decline.
+
+# Immune-mediated inner ear disease | The treatable one.
+## Primary autoimmune inner ear disease
+Rapidly progressive, bilateral, often asymmetric sensorineural loss over weeks to months, usually in middle age (40 to 50), with vestibular symptoms in about half. About 15% have another autoimmune disorder.
+## Secondary
+Part of systemic disease: *Cogan syndrome* (interstitial keratitis with audiovestibular loss), granulomatosis with polyangiitis, systemic lupus, antiphospholipid syndrome, and others.
+## Diagnosis
+Bilateral loss of 30 dB or more with progression on serial audiograms within three months. Blood tests: ESR, rheumatoid factor, ANA, complement; anti-Hsp70 antibodies correlate with activity but are not specific. Contrast MRI to exclude other causes. A response to steroids supports the diagnosis.
+## Treatment
+Prednisolone 1 mg/kg/day, up to 60 mg, for four weeks. Responders (an improvement of 15 dB at one frequency or 10 dB at consecutive frequencies, or better discrimination) continue to a plateau and taper to the lowest maintenance dose over months. For steroid intolerance or dependence: methotrexate, cyclophosphamide (more toxic), biological agents or intratympanic steroids. Cochlear implantation if hearing is lost.
+
+# Differential diagnosis | Others to exclude.
+- Vestibular schwannoma.
+- Ménière's disease.
+- Syphilis.
+- Multiple sclerosis.
+- Familial progressive sensorineural loss.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Ototoxic drugs:** vestibulotoxic versus cochleotoxic, risk factors, monitoring.
+- **Noise:** 4 kHz notch, temporary and permanent shifts, safe limits and the 5 dB rule.
+- **Presbycusis:** Schuknecht's four types.
+- **Autoimmune inner ear disease:** picture and steroid trial.
+!!
+## Common pitfalls
+!pit
+- Not asking about drugs and noise.
+- Missing a mitochondrial susceptibility to aminoglycosides in the family history.
+- Calling rapidly progressive bilateral loss presbycusis.
+!!

@@ -1,0 +1,124 @@
+@stand Most otitis externa is a painful, swollen canal that needs cleaning and the right drops, not oral antibiotics. The exception changes everything: an older diabetic with severe night pain and granulation in the canal has skull base osteomyelitis until proven otherwise.
+
+# Overview | Infection of the ear canal skin.
+## Definition
+Inflammation of the skin of the external auditory canal, bacterial, fungal or reactive. The canal is a blind, warm, dark tube lined by thin skin over bone and cartilage, and anything that breaks its defences (moisture, scratching, loss of wax) lets infection in.
+## Forms
+!tree Otitis externa
+Bacterial | Acute diffuse otitis externa | furuncle (localised)
+Fungal | Otomycosis | Aspergillus, Candida
+Reactive | Eczematous, seborrhoeic | contact dermatitis from drops or moulds, neurodermatitis
+Chronic | Chronic otitis externa | stenosis of the canal
+Invasive | Necrotising (malignant) otitis externa | skull base osteomyelitis
+!!
+## Applied anatomy
+The outer third of the canal is cartilaginous, with hair follicles and sebaceous and ceruminous glands; the inner two-thirds is bony with thin, gland-free skin. Infection spreads from the canal through the *fissures of Santorini* in the cartilage and the tympanomastoid suture to the parotid, the skull base and the temporomandibular joint.
+!fig d8-12 | Skin of the cartilaginous canal, with its hair follicles and sebaceous and ceruminous glands.
+
+# Acute diffuse otitis externa | Swimmer's ear.
+## Causes
+Moisture (swimming, humid climates), trauma from cotton buds and fingernails, hearing aids and earbuds, eczema and loss of protective wax. *Pseudomonas aeruginosa* and *Staphylococcus aureus* are the usual organisms.
+## Clinical picture
+### Symptoms
+Pain that develops over a day or two, itching, a feeling of blockage and a scanty discharge.
+### Signs
+Pain on moving the tragus or pinna; a red, swollen canal with debris; tender nodes in front of or behind the ear. When visible, the drum moves normally on pneumatic otoscopy, unlike otitis media.
+## Management
+### Aural toilet
+Clean the canal under vision by suction or dry mopping. Debris collects in the anteroinferior recess, so look there.
+### Wick
+If the canal is swollen shut, insert an expanding wick soaked in antibiotic-steroid drops, or in an astringent such as aluminium acetate 8% or silver nitrate 3%.
+!differ Changing the wick
+Dhingra: Daily for two to three days.
+Lee: Every three to five days.
+!!
+### Drops
+Antibiotic-steroid drops for a week to ten days. Acidifying with dilute vinegar helps mild cases and prevention.
+### Oral antibiotics
+Not needed, unless there is spreading cellulitis or the patient is diabetic or immunocompromised.
+### Keep it dry
+No swimming until healed; cotton wool with petroleum jelly when bathing.
+!pearl When drops fail
+Think of contact allergy to neomycin, fungal superinfection, or an underlying necrotising infection.
+!!
+
+# Furuncle | A boil in the canal.
+## Picture
+A staphylococcal infection of a hair follicle, so it occurs only in the hair-bearing outer cartilaginous canal. Pain is out of proportion to its size and worse on chewing; it can swell the postauricular groove and mimic mastoiditis.
+## Distinguishing from mastoiditis
+The drum is normal, there is no preceding otitis media and no mucoid discharge, and pinna movement is painful.
+## Treatment
+Analgesia, oral antistaphylococcal antibiotics, heat, and an ichthammol-glycerine pack; incise when it points. Recurrent furuncles call for testing for diabetes and treating nasal staphylococcal carriage.
+
+# Otomycosis | Itch and spores.
+## Organisms
+*Aspergillus niger* (black-headed spores), *Aspergillus fumigatus* (pale blue or green) and *Candida* (creamy white). Repeated antibiotic drops, humidity and swimming predispose.
+## Picture
+Intense itching, discomfort, blockage and a watery discharge with a musty smell. The canal contains a mass like *wet newspaper*, with black, grey or white spores.
+!fig d8-11 | Endoscopic view of otomycosis with yellow (A) and black (B) fungal spores.
+## Treatment
+Meticulous cleaning, then a topical antifungal, continued for a week beyond apparent cure: clotrimazole for most, nystatin for *Candida*. Salicylic acid in alcohol and povidone iodine are alternatives.
+
+# Chronic and reactive otitis externa | Itch, scaling and narrowing.
+## Chronic otitis externa
+Long-standing itch and irritation with thick, dry, scaling skin, which may narrow the canal. Treat underlying eczema or seborrhoeic dermatitis, use steroid drops or ointment, and stop the patient scratching.
+## Reactive forms
+Eczematous otitis externa from drops or hearing-aid moulds, seborrhoeic dermatitis with scalp involvement, and neurodermatitis from habitual scratching.
+## Otitis externa haemorrhagica
+Blood blisters on the deep canal and drum, often with influenza.
+## Chronic stenosing otitis externa
+Fibrous narrowing of the deep canal. Treated by excising the thick skin, widening the bony canal and grafting.
+
+# Necrotising otitis externa | The dangerous one.
+## What it is
+An invasive *Pseudomonas* infection (about 90% of cases) that spreads from the canal to the bone of the skull base: a skull base osteomyelitis. It affects older diabetics and the immunocompromised. *Aspergillus* causes a minority.
+## Clinical picture
+### Symptoms
+Severe, deep, unrelenting pain, worse at night and out of proportion to what is seen, with a persistent discharge despite treatment.
+### Signs
+Granulation tissue on the floor of the canal at the bony-cartilaginous junction. Cranial nerve palsies mark spread: the facial nerve first at the stylomastoid foramen, then the ninth, tenth and eleventh at the jugular foramen, and the twelfth. Multiple palsies carry a worse prognosis.
+## Investigations
+!table Which scan?
+Test | Use | Limitation
+Technetium-99 bone scan | Confirms early bone involvement | Stays positive for months
+Gallium or indium scan | Follows response; repeated every few weeks | Less anatomical detail
+CT | Bone erosion | Changes appear late
+MRI | Soft tissue, marrow and dura | Not a guide to cure
+!!
+Add ESR or CRP (useful to follow), glucose, culture, and biopsy of the granulation to exclude carcinoma.
+!differ Monitoring and duration
+Dhingra: Gallium repeated every three weeks; treatment for six to eight weeks, including intravenous aminoglycoside combinations.
+Lee: Gallium every four weeks; oral fluoroquinolone for about six weeks as first line.
+!!
+## Treatment
+Admit; control the diabetes; regular cleaning; high-dose oral ciprofloxacin, or intravenous anti-pseudomonal antibiotics for advanced disease; voriconazole for *Aspergillus*. Continue until the examination, inflammatory markers and scans have normalised. Surgery is limited to biopsy and removal of sequestra or abscesses. Hyperbaric oxygen is unproven.
+## Outcome
+Mortality remains around 5 to 20%, from sepsis, sinus thrombosis and cranial neuropathies. Quinolone resistance is rising.
+!flag Suspect it when
+- A diabetic or immunocompromised patient has severe pain and granulation in the canal.
+- Otitis externa fails to respond after a week of proper treatment.
+- A cranial nerve palsy appears with ear pain.
+!!
+
+# For the examination | What the examiner wants to hear.
+## On call
+!ward A painful, swollen ear canal
+1. Clean under vision; insert a wick if the canal is closed.
+2. Antibiotic-steroid drops; analgesia; keep dry.
+3. Check glucose in diabetics and anyone with recurrent infection.
+4. Diabetic or immunocompromised with severe pain and granulation: biopsy, ESR, imaging and admit.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Tragal tenderness** and a mobile drum versus otitis media.
+- **Furuncle** in the cartilaginous canal only.
+- **Otomycosis:** organisms and appearance.
+- **Necrotising otitis externa:** who, organism, signs, scans and treatment.
+!!
+## Common pitfalls
+!pit
+- Prescribing oral antibiotics instead of cleaning and drops.
+- Missing a necrotising infection in a diabetic.
+- Neomycin contact allergy mistaken for treatment failure.
+- Drops into a canal full of debris.
+!!

@@ -1,0 +1,97 @@
+@stand Ear operations are easiest to learn by what each one removes and what it keeps. The order of priorities never changes: a safe ear first, a dry ear second, hearing third. This page explains the terms and principles; the step-by-step guides are in Theatre.
+
+# Overview | The language of ear surgery.
+## What hearing needs
+For the middle ear to work, it needs an intact drum, a mobile ossicular chain, two mobile windows with *acoustic separation* (sound must reach the oval window but not the round window at the same time), an aerated middle ear with a working Eustachian tube, and a working cochlea. Every reconstruction tries to restore as many of these as possible.
+## Approaches
+- **Transcanal (Rosen):** through the canal with a speculum, for stapes surgery, small perforations and exploratory tympanotomy.
+- **Endaural (Lempert):** incisions in the canal extended up through the *incisura terminalis*, where there is no cartilage.
+- **Postaural (Wilde):** behind the ear, for mastoid surgery and anterior perforations. In children under two, the mastoid tip is absent and the facial nerve is superficial, so the incision is shorter and more horizontal.
+
+# Myringotomy and grommets | Draining and ventilating.
+## Indications
+Acute otitis media with a bulging, painful drum or complications; incomplete resolution; recurrent acute otitis media; otitis media with effusion; barotrauma; atelectasis; and access for intratympanic treatment.
+## Site
+Posteroinferior for draining acute pus; anteroinferior or inferior for effusion and tubes. An anterosuperior tube stays in longest.
+!fig d10-4 | Grommets in the tympanic membrane.
+## Complications
+Injury to the ossicles or a high jugular bulb, persistent perforation, tube blockage or extrusion, otorrhoea, granuloma and tympanosclerosis.
+!pearl Pearl
+Look for a vascular anomaly (a high jugular bulb or aberrant carotid) before cutting the drum.
+!!
+
+# Repairing the drum and chain | Myringoplasty and tympanoplasty.
+## Myringoplasty
+Repair of a perforation alone, without inspecting or reconstructing the middle ear. Dhingra distinguishes it from a type I tympanoplasty, in which the middle ear is examined.
+### Grafts
+Temporalis fascia is the commonest; tragal perichondrium, cartilage (resists retraction) and vein are alternatives.
+### Techniques
+- **Underlay:** the graft goes medial to the drum remnant and handle of malleus. Risks: a narrow middle ear space and anterior reperforation.
+- **Overlay:** the graft goes lateral to the fibrous layer after removing the epithelium. Risks: blunting of the anterior angle, epithelial pearls and lateralisation of the graft.
+!fig d5-3 | Myringoplasty: the underlay technique, with the graft supported by gelfoam in the middle ear.
+### Small holes
+A paper patch after cauterising the rim, or a fat plug.
+### Contraindications
+Active discharge, uncontrolled nasal allergy, otitis externa, squamous epithelium growing into the middle ear, an only hearing ear, and young children under about three.
+## Tympanoplasty
+Eradication of middle ear disease and reconstruction of the hearing mechanism, with or without mastoidectomy.
+### Wullstein's types
+- **Type I:** graft on the handle of malleus, chain intact.
+- **Type II:** graft on the incus, malleus missing.
+- **Type III:** graft on the stapes head (myringostapediopexy).
+- **Type IV:** only a mobile footplate; the graft shields the round window, creating a small air pocket.
+- **Type V:** fixed footplate; a window is made in the lateral canal (Va) or the footplate removed (Vb).
+!fig d5-2 | Types of tympanoplasty: the graft rests progressively on the malleus, incus, stapes and footplate.
+### Ossicular reconstruction
+Reshaped autograft incus, or prostheses: a *PORP* (partial) sits on the stapes head; a *TORP* (total) on the footplate. Hydroxyapatite and titanium are common materials; a cartilage cap prevents extrusion. A PORP gives better hearing than a TORP.
+!fig d5-4 d5-5 | First, sculptured autograft ossicles. Second, hydroxyapatite and titanium partial and total prostheses.
+### Timing
+Reconstruction is often delayed about six months after canal wall up surgery for cholesteatoma, to coincide with the second look; it is done primarily after trauma or for fixation.
+
+# Mastoid operations | What they remove.
+## Landmarks
+*MacEwen's (suprameatal) triangle* marks the antrum, about 12 to 15 mm deep in adults. *Körner's septum*, a persistent petrosquamous plate, can be mistaken for the floor of the antrum. Other landmarks: the lateral semicircular canal, sinus plate, tegmen, digastric ridge and facial nerve.
+!fig d1-12 d1-14 | First, MacEwen's triangle. Second, Körner's septum, which may hide the antrum.
+## Cortical (Schwartze) mastoidectomy
+Removes the mastoid air cells and opens the antrum; the posterior canal wall and middle ear are left alone. For coalescent or masked mastoiditis, and as access for endolymphatic sac surgery, facial nerve decompression, cochlear implants and translabyrinthine surgery.
+## Modified radical mastoidectomy
+The posterior canal wall is lowered and the attic, antrum and mastoid are exteriorised into one cavity, *keeping* the drum remnant, the working ossicles and the Eustachian tube. For cholesteatoma of the attic and antrum.
+## Radical mastoidectomy
+Everything is exteriorised: the drum, malleus and incus and the middle ear lining are removed, and the Eustachian tube is plugged. For disease that cannot be cleared safely otherwise, failed surgery, and some tumours. Hearing loss is 50 dB or more.
+!table Mastoid operations compared
+Operation | Posterior canal wall | Ossicles | Hearing
+Cortical | Kept | Kept | Usually unchanged
+Modified radical | Removed | Working parts kept | Can be reconstructed
+Radical | Removed | All but the stapes removed | Loss of 50 dB or more
+!!
+## Canal wall up and canal wall down
+See the cholesteatoma topic for the choice between keeping and removing the posterior wall.
+## Meatoplasty
+Every canal wall down cavity needs a wide meatus for ventilation and cleaning.
+## Obliteration
+Filling a cavity with pedicled muscle, bone pâté or other material reduces discharge and care; disease must never be buried under it.
+## Complications of mastoid surgery
+Facial nerve injury, lateral canal fistula with vertigo and hearing loss, dural injury and CSF leak, sigmoid sinus bleeding, and incus dislocation. About a quarter of radical cavities continue to discharge.
+
+# Before and after | Practical points.
+## Before
+An audiogram and tuning forks before any ear operation; CT for cholesteatoma, revisions and suspected complications; check the other ear and Eustachian tube function.
+## After
+Keep water out of the ear while a tube or graft is healing; review repaired ears at about three and six weeks; the graft is fully epithelialised in six to eight weeks. Clean mastoid cavities every four to six months in the first year, then yearly.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Myringoplasty versus tympanoplasty.**
+- **Wullstein's five types.**
+- **Underlay versus overlay.**
+- **Cortical, modified radical and radical mastoidectomy:** what each removes and keeps.
+- **Mastoid landmarks:** MacEwen's triangle and Körner's septum.
+- **Indications for myringotomy** and the choice of site.
+!!
+## Common pitfalls
+!pit
+- Repairing a drum while the ear is still discharging.
+- Mistaking Körner's septum for the floor of the antrum.
+- Burying cholesteatoma under an obliteration.
+!!

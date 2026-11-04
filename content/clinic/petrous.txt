@@ -1,0 +1,75 @@
+@stand Petrous apicitis is infection that has tracked from the middle ear deep into the tip of the petrous bone. The classic picture is Gradenigo's triad: a discharging ear, deep pain behind the eye and a sixth nerve palsy. It is rare now, but it can appear just as the ear seems to be improving.
+
+# Overview | Infection at the tip of the temporal bone.
+## Definition
+Inflammation, and sometimes abscess, of the air cells of the petrous apex, spreading from acute or chronic otitis media and mastoiditis.
+## Why only some people get it
+Only about 30% of petrous apices are pneumatised; the rest are diploic (marrow-filled) or sclerotic. Infection can only track into an aerated apex.
+!fig d1-15 | A pneumatised petrous apex.
+## Why it matters
+The apex lies against the sixth nerve, the trigeminal ganglion, the internal carotid artery and the meninges. Infection there can cause meningitis, carotid injury and skull base osteomyelitis.
+
+# Applied anatomy | Tracts into the apex.
+## Air cell tracts
+The middle ear and mastoid connect with the apex by perilabyrinthine cell tracts:
+- **Posterosuperior:** from the mastoid and antrum, above and behind the labyrinth, through *Trautmann's triangle* and the subarcuate region.
+- **Anteroinferior:** from the hypotympanum and the region around the Eustachian tube, below the cochlea.
+!fig d1-13 | The air cell tracts of the temporal bone.
+## Neighbours
+### Dorello's canal
+The sixth nerve passes under the petroclinoid (Gruber's) ligament, between the petrous tip and the sphenoid; inflammation here causes a lateral rectus palsy and double vision.
+### Meckel's cave
+The trigeminal ganglion sits in a depression on the apex; its irritation causes deep pain behind the eye.
+
+# Clinical features | Gradenigo's triad.
+## The triad
+- **Persistent ear discharge.**
+- **Deep retro-orbital or facial pain,** from the trigeminal ganglion.
+- **Diplopia from a sixth nerve palsy.**
+The full triad is uncommon today; often only one or two features are present.
+## Other features
+Fever, headache, neck stiffness and vomiting suggest meningeal spread; the seventh and eighth nerves are occasionally involved.
+!pearl When to suspect it
+Persistent discharge or deep pain despite an adequate mastoidectomy, or new pain after the ear has apparently settled.
+!!
+
+# Investigations | You need both CT and MRI.
+## High-resolution CT
+Shows the pneumatisation of the apex, breakdown of the cell septa and erosion of the bone.
+## MRI with contrast
+Separates marrow from fluid or pus, shows dural enhancement and intracranial spread, and assesses the carotid and cavernous sinus.
+## Differential diagnosis
+- **Apical effusion:** fluid in an aerated apex, usually asymptomatic.
+- **Asymmetric marrow:** a non-pneumatised apex full of fat that looks abnormal on MRI; a common false alarm.
+- **Cholesterol granuloma:** bright on both T1 and T2, expanding slowly.
+- **Cholesteatoma** of the apex.
+- **Nasopharyngeal carcinoma** and other skull base tumours.
+
+# Management | Antibiotics first.
+## Medical treatment
+Admission, prolonged intravenous antibiotics that cover the organisms of otitis media and penetrate bone, and treatment of the middle ear source with myringotomy or mastoidectomy. Most acute cases now settle on antibiotics alone.
+## Surgery
+For an abscess, bone necrosis, or failure of medical treatment. The route follows the cell tracts and the state of the hearing:
+- **Hearing preserved:** through the mastoid via Trautmann's triangle or the subarcuate cells, infralabyrinthine or infracochlear routes, or through the middle cranial fossa.
+- **Dead ear:** translabyrinthine or transcochlear routes, which give the widest access.
+
+# Complications | Neighbours at risk.
+- Meningitis and other intracranial infection.
+- Injury to or thrombosis of the internal carotid artery.
+- Skull base osteomyelitis.
+- Cavernous sinus thrombosis.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Gradenigo's triad,** and the anatomy behind each part: Meckel's cave and Dorello's canal.
+- **Pneumatisation** of the apex in about 30%.
+- **CT and MRI together.**
+- **Surgical routes,** chosen by the hearing.
+!!
+## Common pitfalls
+!pit
+- Reading asymmetric apical marrow as infection.
+- Missing the diagnosis because the ear seemed to be getting better.
+- Waiting for the full triad.
+!!

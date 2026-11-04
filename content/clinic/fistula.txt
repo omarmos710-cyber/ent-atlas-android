@@ -1,0 +1,106 @@
+@stand A dizzy patient with an infected ear raises one question: has the labyrinth been breached, or inflamed? A fistula can be sealed, and serous labyrinthitis recovers; suppurative labyrinthitis destroys the hearing for good. After meningitis, the cochlea can turn to bone within weeks, and the window for a cochlear implant can close.
+
+# Overview | When infection reaches the inner ear.
+## Definitions
+### Labyrinthine fistula
+Erosion of the bony labyrinth, usually the lateral semicircular canal, exposing the membranous labyrinth without infecting it. Dhingra calls it *circumscribed labyrinthitis*.
+### Serous labyrinthitis
+Diffuse irritation of the labyrinth by bacterial toxins through the windows or a fistula, without bacteria in the inner ear. Reversible.
+### Suppurative labyrinthitis
+Bacteria and pus in the labyrinth: total, permanent loss of hearing and vestibular function.
+### Perilymph fistula
+A leak of perilymph through the oval or round window, after stapes surgery, barotrauma, diving, straining or trauma.
+## Other forms
+Viral labyrinthitis (mumps, measles, rubella, cytomegalovirus) and syphilitic labyrinthitis.
+
+# Pathways | How infection gets in.
+## From the middle ear
+Cholesteatoma eroding the lateral canal (the commonest), through the oval or round window in acute or chronic otitis media, and after surgery or trauma.
+## From the meninges
+Bacteria spread from the subarachnoid space through the cochlear aqueduct or the internal auditory canal. *Streptococcus pneumoniae*, *Haemophilus influenzae* and *Neisseria meningitidis* are the organisms; pneumococcus carries the highest risk of deafness, around 20%.
+## Blood-borne
+Viral and syphilitic infections.
+
+# Labyrinthine fistula | The eroded lateral canal.
+## Causes
+Cholesteatoma in most cases, then tumours, trauma and surgery. About 7 to 10% of cholesteatomas have a fistula, 90% of them in the lateral canal.
+## Clinical picture
+Brief vertigo provoked by pressure on the ear: pressing the tragus, cleaning the ear, or nose blowing. Hearing is often preserved.
+## Fistula test
+Pressure applied to the canal (tragal pressure or a Siegle speculum) moves the endolymph through the fistula and causes vertigo and nystagmus. With positive pressure the fast phase usually beats towards the tested ear; with negative pressure, away from it.
+!pearl The fistula test
+It is specific but insensitive: positive in only 30 to 50% of fistulae. A negative test does not exclude one; it may also be negative in a dead labyrinth or if cholesteatoma seals the fistula. Assume a fistula in every cholesteatoma.
+!!
+## Other positive fistula tests
+Ménière's disease (Hennebert's sign), superior canal dehiscence, perilymph fistula and congenital syphilis.
+## Investigations
+HRCT shows only about 60% of fistulae before surgery.
+## Management
+Surgery for the cholesteatoma; the matrix over a small fistula may be removed carefully at the end of the operation and the defect sealed with fascia or bone pâté; over a large fistula, or in an only hearing ear, the matrix is left and the ear exteriorised.
+
+# Serous and suppurative labyrinthitis | Irritation or destruction.
+## Serous labyrinthitis
+### Clinical picture
+Vertigo with nausea, nystagmus towards the affected ear (an irritative lesion), and some sensorineural hearing loss that recovers if treated.
+### Treatment
+Bed rest with the affected ear uppermost, full-dose antibiotics, labyrinthine sedatives, and myringotomy for a bulging drum. Mastoidectomy treats a chronic source once medical treatment has begun.
+## Suppurative labyrinthitis
+### Clinical picture
+Severe vertigo with nausea and vomiting, nystagmus beating towards the healthy ear (the labyrinth has failed), total deafness in the ear, and a toxic patient. The vertigo settles over three to six weeks as the brain compensates.
+### Danger
+Infection can spread from the labyrinth to the meninges along the internal auditory canal.
+### Treatment
+Intravenous antibiotics, removal of the middle ear source, and rarely drainage of the labyrinth if it is feeding an intracranial infection.
+!table Serous or suppurative?
+ | Serous | Suppurative
+Cause | Toxins | Bacteria
+Nystagmus | Towards the affected ear | Towards the healthy ear
+Hearing | Partial loss, recovers | Total, permanent loss
+Patient | Unwell | Toxic, may have meningitis
+Outcome | Recovery | Dead ear, ossification
+!!
+## Labyrinthitis ossificans
+After suppurative labyrinthitis, especially meningitic, fibrous tissue and new bone fill the cochlea, starting in the basal turn near the round window, within weeks to months.
+!flag Deafness after meningitis
+- Test hearing in every patient after bacterial meningitis.
+- Bilateral profound loss: image urgently (MRI and CT) for ossification and refer for early cochlear implantation.
+- Steroids reduce hearing loss in *H. influenzae* and pneumococcal meningitis.
+!!
+
+# Perilymph fistula | A leak at the windows.
+## Causes
+Stapes surgery, barotrauma, diving, heavy lifting, straining or coughing, and head injury. A leak in an unoperated ear usually sits around the annular ligament or the round window membrane. Spontaneous fistula is controversial.
+## Clinical picture
+Fluctuating or sudden hearing loss, roaring tinnitus, disequilibrium or vertigo, often after the precipitating event, and a positive fistula test (Hennebert's sign). A penetrating ear injury with vertigo and hearing loss suggests stapes subluxation into the vestibule.
+## Management
+Bed rest for 7 to 10 days with the head raised, no straining, and stool softeners. Explore and patch the window if hearing is worsening or symptoms persist.
+
+# Viral and syphilitic labyrinthitis | The other causes.
+## Viral
+Mumps (usually one-sided profound loss), measles, rubella and cytomegalovirus. CMV is the commonest non-syndromic cause of congenital sensorineural hearing loss, and the loss may progress after a normal newborn screen.
+## Syphilis
+Congenital or acquired. Late congenital syphilis may first appear at 8 to 20 years as bilateral sudden or fluctuating loss with vertigo, and Hennebert's sign. Test with VDRL or RPR and FTA-ABS; treat with penicillin and steroids.
+
+# For the examination | What the examiner wants to hear.
+## On call
+!ward Vertigo in an infected ear
+1. Examine for nystagmus and its direction; do a gentle fistula test.
+2. Audiogram and HRCT.
+3. Intravenous antibiotics; myringotomy for acute otitis media.
+4. Plan surgery for cholesteatoma.
+5. Hearing loss with meningitis: treat urgently and image for ossification.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Three types:** circumscribed, serous, suppurative.
+- **The fistula test,** its direction, and why it can be negative.
+- **Nystagmus direction** in serous versus suppurative labyrinthitis.
+- **Labyrinthitis ossificans** and early cochlear implantation.
+- **Perilymph fistula:** causes and treatment.
+!!
+## Common pitfalls
+!pit
+- Being reassured by a negative fistula test.
+- Forgetting a hearing test after meningitis.
+- Missing late congenital syphilis in a young adult with fluctuating bilateral loss.
+!!

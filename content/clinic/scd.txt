@@ -1,0 +1,67 @@
+@stand In superior canal dehiscence, loud sounds or pressure make the world move, and the patient may hear their own eyes moving, their footsteps and their pulse. The audiogram can look exactly like otosclerosis, but the stapedial reflexes are normal: check them before any stapes operation.
+
+# Overview | A third window into the inner ear.
+## Definition
+A defect in the bone over the superior semicircular canal, where it rises towards the floor of the middle cranial fossa, leaving the membranous canal covered only by dura.
+## Cause
+Probably a developmental thinness of the bone, with the final layer lost later in life through minor trauma, straining or the pulsation of the brain. It is often bilateral on CT, though usually symptomatic on one side.
+## The third window
+Normally the inner ear has two mobile windows, the oval and the round. The dehiscence adds a third, so sound and pressure energy escape through it. Pressure in the middle ear or the cranial cavity now moves endolymph in the superior canal, causing vertigo; sound energy is diverted away from the cochlea, causing an apparent conductive loss; and bone-conducted sound is heard more loudly.
+
+# Clinical features | Sound, pressure and the patient's own body.
+## Vestibular
+- **Tullio phenomenon:** vertigo or oscillopsia triggered by loud sound.
+- **Hennebert's sign:** vertigo with pressure in the canal, on Valsalva, coughing or straining.
+- Chronic imbalance.
+The eye movements induced lie in the plane of the superior canal.
+## Auditory
+- **Autophony:** the patient's own voice sounds loud.
+- **Hyperacusis for bone-conducted sounds:** hearing their footsteps, chewing, heartbeat, or even their eye movements.
+- Pulsatile and gaze-evoked tinnitus.
+- Aural fullness.
+
+# Investigations | The clues.
+## Audiogram
+A low-frequency air-bone gap, with bone conduction thresholds that may be better than 0 dB (supranormal). Stapedial reflexes are *present*, which an otosclerotic or other middle ear conductive loss would abolish.
+## Vestibular evoked myogenic potentials
+The cervical VEMP threshold is abnormally low and the ocular VEMP amplitude abnormally high. A true middle ear conductive loss normally abolishes VEMPs, so their presence with a gap is a strong clue.
+## Electrocochleography
+May show a raised SP to AP ratio.
+## CT
+High-resolution CT reformatted in the plane of the superior canal (Pöschl view) confirms the dehiscence. Thin bone can look dehiscent on CT, so imaging is read with the symptoms and VEMPs.
+
+# Differential diagnosis | Mimics.
+!table How to tell them apart
+Condition | Distinguishing features
+Otosclerosis | Stapedial reflexes absent, VEMPs absent, no vestibular symptoms with sound
+Patulous Eustachian tube | Autophony with breathing, drum moves with respiration, no air-bone gap
+Perilymph fistula | Follows surgery, trauma or straining; fluctuating hearing
+Ménière's disease | Attacks of vertigo for hours, fluctuating low-frequency sensorineural loss
+Otosyphilis | Positive serology, Hennebert's sign
+!!
+
+# Management | Only if it is disabling.
+## Conservative
+Reassurance and explanation; avoiding triggers such as loud noise and straining. Many patients need nothing more.
+## Surgery
+For disabling vertigo or autophony: *plugging* the canal or *resurfacing* the defect, through the middle cranial fossa or a transmastoid approach. Plugging is more reliable for vestibular symptoms but sacrifices the canal. Round window reinforcement is an alternative in some centres.
+## Risks
+Sensorineural hearing loss and vestibular loss after repair, and the usual risks of a middle fossa craniotomy.
+!flag Before stapes surgery
+A conductive loss with a normal drum and present stapedial reflexes is not otosclerosis. Operating on the stapes in superior canal dehiscence does not help and may harm.
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **The third window** and how it explains each symptom.
+- **Tullio phenomenon** and Hennebert's sign.
+- **Conductive gap with present reflexes,** and low VEMP thresholds.
+- **CT in the plane of the canal.**
+- **Plugging or resurfacing.**
+!!
+## Common pitfalls
+!pit
+- Offering stapes surgery for a conductive loss with present reflexes.
+- Diagnosing from CT alone, without symptoms and VEMPs.
+!!

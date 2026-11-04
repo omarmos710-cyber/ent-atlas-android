@@ -1,0 +1,107 @@
+@stand Tinnitus is a sound with no outside source, and it is a symptom rather than a disease. Two kinds need imaging: tinnitus in one ear, and tinnitus that pulses with the heartbeat, because a tumour or a vascular lesion may lie behind them. Most other tinnitus needs good hearing care, explanation and sound therapy, not drugs.
+
+# Overview | A sound no one else can hear.
+## Definition
+The perception of sound, ringing, hissing, buzzing or roaring, in the absence of an external source.
+## Epidemiology
+About one person in ten has persistent tinnitus, and a smaller number are distressed by it. Most have some hearing loss, often age-related or noise-induced.
+## Why it matters
+It can be the first symptom of a vestibular schwannoma, a glomus tumour or a dural arteriovenous fistula. And severe tinnitus disrupts sleep, concentration and mood.
+
+# Classification | Who can hear it?
+## Subjective tinnitus
+Heard only by the patient: by far the commonest.
+## Objective tinnitus
+Can be heard by the examiner with a stethoscope or a Toynbee tube.
+- **Vascular:** pulsatile, from arterial or venous flow.
+- **Muscular:** clicking from palatal myoclonus, or from spasm of the stapedius or tensor tympani.
+- **Patulous Eustachian tube:** a blowing sound with breathing.
+- **Temporomandibular joint:** clicks with jaw movement.
+## A normal phenomenon
+*Sudden brief unilateral tapering tinnitus*, a few seconds of ringing in one ear with fullness, happens to most people and needs no investigation.
+
+# Causes | Ear, body and blood vessels.
+## Otological
+Wax, middle ear fluid, otitis media, otosclerosis, Ménière's disease, presbycusis, noise-induced hearing loss, sudden hearing loss, ototoxicity and vestibular schwannoma.
+## General
+Anaemia, hypertension, thyroid disease, hyperlipidaemia, vitamin B12 deficiency, head injury and multiple sclerosis.
+## Drugs
+Aspirin and other salicylates, quinine, aminoglycosides, loop diuretics and some chemotherapy. Most drug-induced tinnitus reverses when the drug is stopped.
+## Pulsatile tinnitus
+!tree Causes of pulsatile tinnitus
+Arterial | Carotid stenosis, dissection, aneurysm | aberrant internal carotid artery, persistent stapedial artery
+Venous | High or dehiscent jugular bulb | sigmoid sinus diverticulum or dehiscence, idiopathic intracranial hypertension
+Tumour | Glomus tympanicum or jugulare | other vascular tumours
+Shunt | Dural arteriovenous fistula | arteriovenous malformation
+High output | Anaemia, thyrotoxicosis, pregnancy | conductive hearing loss makes body sounds louder
+!!
+## How it arises
+Reduced input from a damaged cochlea leads to reorganisation and increased spontaneous activity in the central auditory pathways; connections with the limbic system and autonomic nervous system explain why some people are distressed by tinnitus and others are not.
+
+# Assessment | Character, side, and mood.
+## History
+Is it in one ear or both? Is it pulsatile? Is there hearing loss, vertigo or fullness? Noise exposure and drugs? How much does it disturb sleep, work and mood?
+!flag Ask about mood
+Severe tinnitus is linked with anxiety and depression. Ask directly how the patient is coping, including any thoughts of self-harm, and arrange support where needed.
+!!
+## Examination
+Otoscopy under the microscope (a red mass behind the drum, a blue drum, wax), tuning forks, cranial nerves, and auscultation over the ear, orbit and neck. Pressing on the carotid stops arterial tinnitus; pressing on the jugular vein or turning the head stops a venous hum. A rhythm with breathing points to a patulous tube; clicks with palatal movement mean myoclonus.
+## Investigations
+### Audiometry
+Pure-tone and speech audiometry, tympanometry, and tinnitus matching for pitch and loudness. Loudness and pitch do not predict how distressing it is.
+### Imaging
+- **One-sided tinnitus or asymmetric hearing:** MRI of the internal auditory canals.
+- **Pulsatile tinnitus:** CT angiography, MR angiography and venography; formal angiography if a dural fistula is suspected.
+- **Palatal myoclonus:** MRI of the posterior fossa.
+### Blood tests
+As suggested by the history: full blood count, thyroid function, lipids, glucose, B12.
+### Long-duration tympanometry
+Shows rhythmic compliance changes in myoclonus or a patulous tube.
+
+# Management | Treat the cause, then the reaction.
+## Treat the cause
+Remove wax, treat otitis media, operate on otosclerosis, stop ototoxic drugs where possible, and treat anaemia or thyroid disease.
+## Hearing aids
+The first step whenever there is hearing loss: restoring external sound reduces the contrast with the tinnitus.
+## Explanation and counselling
+Explaining that tinnitus is common, real and not a sign of a brain tumour (once excluded) relieves much of the distress.
+## Sound therapy
+### Masking
+Background sound, a bedside sound generator or a wearable masker, alone or combined with a hearing aid.
+### Tinnitus retraining therapy
+Directive counselling plus low-level broadband sound, aiming at habituation: the tinnitus is still there but no longer noticed or disturbing.
+!differ Retraining sound exposure
+Dhingra: At least 8 hours a day for 18 to 24 months.
+Lee: Up to 16 hours a day for about a year.
+!!
+## Psychological therapy
+Cognitive behavioural therapy has the strongest evidence for reducing distress; relaxation and biofeedback also help. Treat anxiety, depression and insomnia.
+## Specific objective causes
+- **Dural arteriovenous fistula:** embolisation, surgery or radiosurgery; fistulas with cortical venous drainage can bleed.
+- **Palatal myoclonus:** muscle relaxants or botulinum toxin.
+- **Stapedial or tensor spasm:** muscle relaxants, or division of the tendon.
+- **Patulous tube:** see the Eustachian tube topic.
+## Treatments without proven benefit
+Drugs to suppress tinnitus, transcranial magnetic stimulation and implanted stimulators remain investigational.
+
+# Prognosis | Most get better with time.
+About a quarter of patients find their tinnitus nearly resolves, half improve, and a quarter stay the same. Habituation is the realistic goal.
+!pearl Pearl
+Most people adapt to tinnitus. What a clinician says in the first consultation strongly shapes how well they do.
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Subjective versus objective** tinnitus and examples of each.
+- **Causes of pulsatile tinnitus,** and how to investigate them.
+- **Unilateral tinnitus:** MRI for schwannoma.
+- **Tinnitus retraining therapy** and the aim of habituation.
+!!
+## Common pitfalls
+!pit
+- Telling a patient that nothing can be done.
+- Missing pulsatile tinnitus because nobody asked.
+- Forgetting to image one-sided tinnitus.
+- Ignoring the patient's mood.
+!!

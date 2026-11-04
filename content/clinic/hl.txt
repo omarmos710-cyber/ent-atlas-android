@@ -1,0 +1,145 @@
+@stand Almost every patient with hearing loss can be placed with three questions: is the loss conductive or sensorineural, is it in one ear or both, and how quickly did it come on? The answers point to the cause and to what must not be missed. A one-sided or sudden sensorineural loss always needs more than a hearing aid.
+
+# Overview | A method, not a list.
+## Why a method
+The causes of hearing loss run into hundreds. A structured approach, starting with tuning forks and an audiogram, narrows them quickly and catches the few that are urgent or dangerous.
+## The three questions
+!tree Three questions
+Type | Conductive or sensorineural? | or mixed, or non-organic
+Side | One ear or both? | asymmetry needs imaging
+Speed | Sudden, progressive or fluctuating? | sudden loss is an emergency
+!!
+
+# Classification | Where the lesion is, and how bad.
+## By site
+### Conductive
+Any lesion from the canal to the stapediovestibular joint that stops sound reaching the cochlea.
+### Sensorineural
+A lesion of the cochlea (*sensory*), the cochlear nerve (*neural*), or the central pathways.
+### Mixed
+Both together, as in otosclerosis with cochlear involvement or chronic otitis media with labyrinthine damage.
+### Non-organic
+Claimed loss without an organic basis, deliberate or unconscious.
+## By degree
+!table WHO grades of hearing loss
+Grade | Average at 500, 1000, 2000 Hz
+Not significant | 0–25 dB
+Mild | 26–40 dB
+Moderate | 41–55 dB
+Moderately severe | 56–70 dB
+Severe | 71–90 dB
+Profound | 91 dB or more
+!!
+!fig d5-8 | Classification of hearing loss by threshold. Most people with normal hearing have thresholds between −10 and +10 dB.
+
+# Conductive loss | Sound that cannot get in.
+## Causes
+### Congenital
+Canal atresia, fixation of the stapes or malleus head, ossicular discontinuity, and congenital cholesteatoma.
+### Acquired
+- **Canal:** wax, foreign body, otitis externa, stenosis, tumours.
+- **Drum:** perforation, scarring.
+- **Middle ear:** fluid, blood, pus, mass, cholesteatoma, tympanosclerosis.
+- **Ossicles:** disruption (trauma, erosion) or fixation (otosclerosis, tympanosclerosis).
+- **Eustachian tube** failure.
+## Features
+Low tones are affected more; speech discrimination is good; the patient may hear better in noise; voice is soft. A conductive loss alone never exceeds about 60 dB.
+!pearl How big is the gap?
+- Complete canal block: about 30 dB.
+- Perforation: 10 to 40 dB, more for larger and posterior holes.
+- Malleus fixation: 10 to 25 dB.
+- Ossicular discontinuity behind an intact drum: about 54 dB; with a perforation, about 38 dB, because an intact drum blocks sound reaching the round window.
+- Closed oval window: about 60 dB.
+!!
+!fig d5-1 | Audiogram of a right ear with a conductive loss and an air-bone gap, with the standard audiogram symbols.
+## Management
+Clear the canal, drain fluid, remove a mass, repair the drum and chain (tympanoplasty), stapes surgery, or a hearing aid.
+
+# Sensorineural loss | Damage at or beyond the cochlea.
+## Causes
+!tree Causes of sensorineural loss
+Congenital | Genetic, syndromic | intrauterine infection, prematurity, kernicterus
+Infection | Viral, meningitis | labyrinthitis, syphilis
+Trauma | Head injury, surgery | noise, barotrauma
+Toxic | Ototoxic drugs |
+Degenerative | Presbycusis |
+Inner ear | Ménière's disease | sudden hearing loss, autoimmune disease
+Neural | Vestibular schwannoma | multiple sclerosis, CP angle tumours
+Systemic | Diabetes, thyroid, renal disease | blood disorders, autoimmune disease
+!!
+## Features
+High tones are usually affected more; discrimination is reduced, especially in noise; the loss can exceed 60 dB; there may be recruitment or tinnitus.
+!fig d5-6 | Audiogram of a right ear with sensorineural loss: air and bone conduction fall together, with no air-bone gap.
+## Cochlear or retrocochlear?
+!table Cochlear or retrocochlear
+Test | Cochlear | Retrocochlear
+Speech discrimination | Reduced, below 90% | Very poor, out of proportion
+Roll-over | Absent | Present
+Recruitment | Present | Absent
+SISI | Over 70% | 0–20%
+Tone decay | Under 25 dB | Over 25 dB
+Stapedial reflex | Present | Absent
+Reflex decay | Absent | Present
+ABR | Normal I–V | Wave V delayed or absent
+!!
+Contrast MRI has largely replaced these special audiometric tests for excluding a retrocochlear lesion.
+## Management
+Treat the cause where possible; protect what remains from noise and ototoxic drugs; then rehabilitate early with hearing aids or implants.
+
+# Assessment | Bedside to scanner.
+## History
+Onset and speed, one or both ears, fluctuation, tinnitus, vertigo, otalgia and discharge, noise and drug exposure, head injury, family history, and general health.
+## Examination
+Otoscopy under the microscope, tuning forks, and the cranial nerves.
+!table Tuning fork patterns
+Test | Conductive loss | Sensorineural loss
+Rinne | Negative (BC better than AC) | Positive (AC better than BC)
+Weber | To the poorer ear | To the better ear
+Absolute bone conduction | Normal | Reduced
+!!
+## Audiometry
+Pure-tone audiogram with masking, speech audiometry, tympanometry and stapedial reflexes; otoacoustic emissions and ABR when needed.
+## Further tests by suspicion
+MRI with contrast for asymmetric or retrocochlear loss; CT for conductive loss with a normal drum, trauma or malformation; blood glucose, thyroid and renal function, full blood count and syphilis serology.
+## Non-organic hearing loss
+!pearl Clues to non-organic loss
+- Inconsistent repeat audiograms (normal repeats agree within about 5 dB).
+- No shadow curve with a claimed one-sided loss.
+- Speech reception threshold more than 10 dB better than the pure-tone average.
+- A positive Stenger test.
+- Stapedial reflexes present despite claimed severe deafness.
+- ABR or ASSR near the true threshold.
+!!
+
+# Special situations | When to act fast.
+## Sudden sensorineural loss
+An emergency: steroids the same day and MRI (see the sudden hearing loss topic).
+## Asymmetric sensorineural loss
+MRI to exclude a vestibular schwannoma.
+## Treatable causes
+Syphilis, hypothyroidism, autoimmune inner ear disease, serous labyrinthitis, perilymph fistula and ototoxic drugs.
+## Single-sided deafness
+Poor sound localisation and difficulty in noise, even with normal speech elsewhere. Bone-anchored devices, CROS aids or a cochlear implant help; the only hearing ear must be protected.
+!ward In clinic
+1. Do the tuning forks first: they take seconds.
+2. Sudden sensorineural loss goes on the sudden hearing loss pathway today.
+3. Asymmetric sensorineural loss needs MRI.
+4. Look for treatable causes before fitting an aid.
+5. Warn anyone with one hearing ear to protect it.
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Conductive versus sensorineural:** causes, features and fork tests.
+- **WHO grades.**
+- **Cochlear versus retrocochlear** tests.
+- **Non-organic hearing loss** and how to detect it.
+- **Sizes of conductive loss** for common lesions.
+!!
+## Common pitfalls
+!pit
+- Fitting a hearing aid to an asymmetric loss without MRI.
+- Missing a sudden loss labelled as a blocked ear.
+- Forgetting the treatable causes.
+!!

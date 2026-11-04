@@ -1,0 +1,116 @@
+@stand A patient who wakes with one ear suddenly dull, and a drum that looks completely normal, has an otological emergency until the tuning forks and an audiogram say otherwise. Treat early with steroids, then look for a cause: most cases are idiopathic, but a few hide a tumour, a stroke or an infection.
+
+# Overview | Deafness overnight.
+## Definition
+A sensorineural hearing loss of 30 dB or more over at least three contiguous frequencies, developing within three days.
+## Epidemiology
+About 5 to 20 per 100,000 people a year, most often in middle age (median 40 to 54), equally in men and women. It is almost always one-sided.
+## Why it matters
+Time matters: treatment works best in the first two weeks. And a minority have a serious underlying cause, including vestibular schwannoma and posterior circulation stroke.
+
+# Causes | Usually idiopathic, but exclude the rest.
+## Idiopathic
+Most cases have no identifiable cause. Three theories compete, and each may be right for some patients:
+- **Viral:** cochleitis or neuritis, supported by seasonal clusters and viral serology.
+- **Vascular:** thrombosis, embolism, spasm or haemorrhage in the labyrinthine artery, an end artery.
+- **Membrane rupture:** of the cochlear membranes or the round window, letting perilymph leak.
+## Identifiable causes
+!tree Causes to exclude
+Infection | Mumps, measles, herpes zoster | meningitis, syphilis, acute otitis media, HIV
+Trauma | Head injury, ear surgery | blast, barotrauma, perilymph fistula
+Vascular | Stroke (AICA) | leukaemia, sickle cell, polycythaemia, embolism, bypass surgery
+Otological | Ménière's disease | Cogan syndrome, enlarged vestibular aqueduct
+Tumour | Vestibular schwannoma | other cerebellopontine angle tumours, metastases
+Other | Ototoxic drugs | multiple sclerosis, hypothyroidism, sarcoidosis, autoimmune disease, non-organic loss
+!!
+!pearl Perilymph fistula
+A leak at the oval or round window may follow stapes surgery, barotrauma, heavy lifting or straining. Spontaneous fistula is possible but probably over-diagnosed.
+!!
+
+# Clinical features | One ear, often on waking.
+## Symptoms
+### Hearing loss
+Sudden, one-sided, often noticed on waking or over a few hours. Patients frequently describe it as a blocked ear.
+### Tinnitus and fullness
+Often precede or accompany the loss.
+### Vertigo
+Present in some, and a sign of a worse prognosis.
+## Signs
+The canal and drum are normal. Tuning forks are the key bedside test: Weber lateralises to the *good* ear, and Rinne remains positive in the affected ear.
+!flag Not wax until proven otherwise
+A blocked ear after a cold, a swim or a flight can be sudden sensorineural loss. If you assume wax or fluid without doing forks, the window for treatment can close.
+!!
+
+# Investigations | Confirm, then search.
+## Audiometry
+Pure-tone audiogram with masking, and speech discrimination. The pattern (low-frequency, high-frequency, flat or total) helps prognosis.
+!fig d5-6 | Audiogram of a right ear with sensorineural loss: air and bone conduction fall together, with no air-bone gap.
+## Tympanometry
+Normal, which excludes middle ear fluid.
+## MRI
+MRI of the internal auditory canals and cerebellopontine angles with gadolinium, to exclude vestibular schwannoma and other retrocochlear lesions. If MRI is impossible, auditory brainstem response.
+## Blood tests by history
+Not routine for everyone. Full blood count, ESR, glucose, lipids, thyroid function and syphilis serology when the history suggests them; autoimmune screens for bilateral or fluctuating loss.
+## Exploration
+Exploratory tympanotomy only when a fistula is strongly suspected, after trauma or straining.
+## Differential diagnosis
+- Wax or middle ear effusion: forks and tympanometry.
+- Ménière's disease: fluctuation, low-frequency loss, attacks of vertigo.
+- Vestibular schwannoma: MRI.
+- Anterior inferior cerebellar artery stroke: vertigo, ataxia, facial weakness.
+- Non-organic hearing loss: inconsistent results, objective tests normal.
+
+# Management | Early steroids, then rehabilitation.
+## On the day
+!ward Sudden hearing loss in clinic or the emergency department
+1. Do the forks: Weber to the good ear, Rinne positive in the bad ear.
+2. Look for wax; don't accept a blocked ear without testing.
+3. Arrange an audiogram the same or the next day.
+4. Offer steroids early.
+5. Facial weakness, vertigo with ataxia, or vascular risk factors: treat as a posterior circulation stroke.
+!!
+## Steroids
+### Oral
+High-dose prednisolone, for example 1 mg/kg (up to about 60 mg) a day for a week, then tapered. Dhingra gives prednisolone 40 to 60 mg each morning for a week, tapered over three weeks.
+### Intratympanic
+Dexamethasone or methylprednisolone injected through the drum. Used first-line when systemic steroids are unsafe (poorly controlled diabetes, for example), or as salvage when oral treatment has failed.
+## Other treatments
+Antivirals have no proven benefit. Older adjuncts, such as bed rest, carbogen inhalation, vasodilators, dextran, a low-salt diet with diuretics and hyperbaric oxygen, have not clearly beaten natural recovery. Dextran is contraindicated in heart failure and bleeding disorders.
+!differ Adjunct treatments
+Dhingra: Lists carbogen, low salt and hyperbaric oxygen among the options, while noting that no treatment has proven better than spontaneous recovery.
+Lee: Recommends steroids, orally or intratympanically; finds no evidence for antivirals.
+!!
+## Rehabilitation
+If recovery is poor: a hearing aid for a partial loss, or a CROS aid, bone-conduction device or cochlear implant for single-sided deafness. Tinnitus counselling as needed.
+
+# Prognosis | What predicts recovery.
+About half recover by two weeks; recovery after a month is unusual.
+!table Prognosis in sudden hearing loss
+Factor | Better | Worse
+Severity | Mild | Severe or total
+Frequencies | Low or mid | High or flat
+Vertigo | Absent | Present
+Age | Younger | Older
+Treatment | Early | Late
+Early recovery | Within two weeks | None by two weeks
+!!
+## Follow-up
+Repeat the audiogram during treatment and at the end. Counsel the patient to protect the other ear from noise and ototoxic drugs.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **The definition:** 30 dB, three frequencies, three days.
+- **Tuning forks:** Weber to the good ear, Rinne positive.
+- **Theories:** viral, vascular, membrane rupture.
+- **MRI** to exclude a schwannoma.
+- **Steroids,** oral and intratympanic.
+- **Prognostic factors.**
+!!
+## Common pitfalls
+!pit
+- Calling it wax or a cold without doing forks.
+- Delaying treatment while waiting for an audiogram slot.
+- Forgetting MRI once the acute phase has passed.
+- Missing a stroke in a patient with vertigo and ataxia.
+!!

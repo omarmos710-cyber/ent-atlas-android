@@ -1,0 +1,89 @@
+@stand The Eustachian tube is a valve that should open briefly with every swallow and stay closed the rest of the time. A tube that will not open leads to negative pressure, fluid and retraction of the drum; a tube that will not close lets the patient hear their own voice and breathing. In an adult with one-sided symptoms, always look at the nasopharynx.
+
+# Overview | A small tube with three jobs.
+## Functions
+- **Ventilation:** equalising middle ear pressure with the atmosphere, for the drum to vibrate freely.
+- **Protection:** from nasopharyngeal sound pressure and secretions.
+- **Clearance:** drainage of middle ear secretions into the nasopharynx.
+## Disorders
+!tree Eustachian tube disorders
+Fails to open | Obstructive dysfunction | mechanical or functional
+Fails to close | Patulous tube | autophony
+Pressure change | Barotrauma | the tube locks on descent
+!!
+
+# Applied anatomy | Adult and child.
+## The adult tube
+About 36 mm long, running downwards, forwards and medially from the middle ear to the nasopharynx at about 45 degrees. The posterolateral third is bony; the anteromedial two-thirds is cartilaginous. The narrowest point, the *isthmus*, lies at the junction of the two.
+!fig d9-1 d9-2 | First, a horizontal section of the tube with its bony and cartilaginous parts and the isthmus. Second, a vertical section: the cartilage forms the medial wall, roof and part of the lateral wall.
+## Opening the tube
+The tube is closed at rest. *Tensor veli palatini* opens it during swallowing and yawning, helped by levator veli palatini. The pharyngeal opening lies behind the inferior turbinate, bounded by the *torus tubarius*, with the fossa of Rosenmüller behind it.
+!fig d9-4 | Endoscopic view of the nasopharynx showing the right torus tubarius and the fossa of Rosenmüller.
+## The infant tube
+About half the adult length, nearly horizontal (about 10 degrees), wider, with floppy cartilage and little elastin. It refluxes nasopharyngeal secretions and protects the middle ear poorly, which explains the frequency of otitis media in children. Function approaches the adult pattern by about age seven to ten.
+
+# Obstructive dysfunction | The tube that will not open.
+## Causes
+### Mechanical
+Inflammation and oedema from colds, sinusitis and allergy; adenoid hypertrophy, which also harbours bacteria; nasopharyngeal tumours, especially nasopharyngeal carcinoma in adults; and scarring after radiotherapy.
+### Functional
+A floppy cartilage or a weak tensor: infants, *cleft palate* (the tensor is poorly anchored) and *Down syndrome* (poor muscle tone).
+## Clinical picture
+Fullness, popping, mild pain, muffled hearing, tinnitus and sometimes unsteadiness. The drum is retracted, sometimes with amber fluid or a fluid level.
+## Consequences
+Negative pressure, effusion, atelectasis, retraction pockets and cholesteatoma, and ossicular erosion.
+!pearl Where the block is predicts the damage
+- Tube itself: total atelectasis of the pars tensa.
+- Middle ear: posterior retraction pocket.
+- Tympanic isthmi: attic retraction pocket.
+- Aditus: cholesterol granuloma in the mastoid.
+!!
+## Investigations
+### Valsalva and Toynbee tests
+Valsalva (forced expiration against a closed nose and mouth) inflates the middle ear, but only about 65% of normal people can do it. Toynbee's test (swallowing with the nose pinched) creates negative pressure.
+### Politzer test
+Air from a Politzer bag into the nose while the child swallows or says "hick"; useful in children.
+### Catheterisation
+A catheter passed along the nasal floor into the tubal opening; air is blown through while listening with an auscultation tube. Done gently, as it can injure the opening.
+!fig d9-3 | Catheterisation of the Eustachian tube.
+### Tympanometry
+Negative pressure or a flat curve; the inflation-deflation test assesses function through an intact or perforated drum.
+### Other tests
+Dye or saccharine clearance, sonotubometry, and endoscopy of the nasopharynx.
+## Treatment
+Treat the nose, sinuses, allergy and adenoids; autoinflation; a grommet for persistent effusion or retraction. *Balloon dilation* of the cartilaginous tube helps selected adults with persistent obstructive dysfunction.
+!flag In adults
+Persistent one-sided tube symptoms or effusion in an adult: examine the nasopharynx to exclude carcinoma.
+!!
+
+# Patulous tube | The tube that will not close.
+## Causes
+Idiopathic; rapid weight loss, which removes the fat pad around the tube; the last trimester of pregnancy; oral contraceptives; and neurological disease such as multiple sclerosis or stroke.
+## Clinical picture
+*Autophony*: the patient hears their own voice and breathing loudly in the ear, relieved by lying down or putting the head between the knees (venous congestion closes the tube). The drum moves in and out with respiration, best seen while the patient breathes through one nostril.
+## Differential diagnosis
+Superior canal dehiscence also causes autophony, but with vertigo or a conductive gap and an intact stapedial reflex.
+## Treatment
+Reassurance; most acute cases settle on their own. Weight gain, nasal drops (saline, or in the past potassium iodide), cautery or injection around the tubal opening, a grommet, or plugging the tube in severe cases.
+!pearl Pearl
+Don't prescribe decongestants for fullness and autophony after weight loss: they make a patulous tube worse.
+!!
+
+# Barotrauma | When the tube locks.
+On descent in an aircraft or when diving, a tube that fails to open can lock shut once the pressure difference reaches about 90 mm Hg, causing pain, effusion, haemorrhage or perforation (see the tympanic membrane topic).
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Anatomy:** length, angle, bony and cartilaginous parts, isthmus, tensor veli palatini.
+- **Infant versus adult tube.**
+- **Tests of tubal function:** Valsalva, Toynbee, Politzer, catheterisation, tympanometry.
+- **Patulous tube:** causes, symptoms, signs.
+- **Unilateral effusion in an adult:** look at the nasopharynx.
+!!
+## Common pitfalls
+!pit
+- Missing nasopharyngeal carcinoma in an adult with one-sided fluid.
+- Treating a patulous tube with decongestants.
+- Performing Valsalva with an infected nose or an atrophic drum.
+!!

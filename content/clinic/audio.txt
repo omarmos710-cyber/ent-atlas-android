@@ -1,0 +1,148 @@
+@stand Each hearing test answers a different question. Tuning forks give the type of loss at the bedside in seconds; the audiogram measures how much; the tympanogram shows what the middle ear is doing; and objective tests such as otoacoustic emissions and the brainstem response work when the patient cannot or will not respond.
+
+# Overview | Which test answers which question.
+## The toolkit
+!tree Hearing tests
+Bedside | Voice and tuning forks | conductive or sensorineural, roughly how much
+Behavioural | Pure-tone and speech audiometry | thresholds and understanding
+Middle ear | Tympanometry and stapedial reflexes | drum, ossicles, tube, reflex arc
+Objective | OAE, ABR, ASSR, ECochG | cochlea and neural pathway without a response
+!!
+## Choosing a test
+Forks at the bedside; audiogram and tympanogram in clinic; OAE and ABR in newborns and uncooperative patients; ASSR for profound loss, beyond the range of ABR.
+
+# Sound and the decibel | The language of audiology.
+## Decibel scales
+- **dB SPL:** sound pressure relative to 20 µPa.
+- **dB HL:** relative to average normal hearing at each frequency, so 0 dB HL is normal on the audiogram.
+- **dB SL:** relative to the patient's own threshold.
+## Everyday levels
+Whisper about 30 dB, conversation about 60 dB, a shout about 90 dB, discomfort about 120 dB and pain about 130 dB.
+## How the middle ear amplifies
+The area ratio of the drum to the footplate (about 17 to 1) and the lever action of the ossicles (about 1.3 to 1) give a gain of about 22 times, around 25 dB. Without it, most sound energy would bounce off the fluid of the inner ear.
+## Where frequencies are heard
+The base of the cochlea hears high frequencies, the apex low frequencies. The canal resonates at about 3000 Hz.
+
+# Bedside tests | Voice and tuning forks.
+## Voice tests
+A whisper heard at 6 m is taken as normal; the other ear is masked by rubbing the tragus.
+## Tuning fork tests
+The 512 Hz fork is the routine choice: lower forks are felt as vibration, higher ones fade too quickly.
+!fig d4-1 | Tuning fork tests: (A) air conduction, (B) bone conduction, (C) the Weber test.
+### Rinne test
+Compares air conduction with bone conduction in the same ear. *Positive* (air louder) is normal, and also seen in sensorineural loss; *negative* (bone louder) means a conductive loss of at least about 20 dB.
+### Weber test
+The fork on the forehead or vertex lateralises to the poorer ear in a conductive loss and to the better ear in a sensorineural loss. It is sensitive, lateralising with quite small differences between the ears.
+### Absolute bone conduction and Schwabach tests
+Compare the patient's bone conduction with the examiner's (with the canal occluded in the ABC test). Reduced in sensorineural loss.
+### Bing and Gellé tests
+Bing: occluding the canal makes the tone louder in normal and sensorineural ears but not in a conductive loss. Gellé: raising canal pressure normally reduces hearing, but not with a fixed or broken chain; tympanometry has replaced it.
+!table Reading tuning forks
+Test | Normal | Conductive | Sensorineural
+Rinne | Air louder | Bone louder | Air louder
+Weber | Central | To poorer ear | To better ear
+ABC | Same as examiner | Same | Reduced
+Schwabach | Equal | Lengthened | Shortened
+!!
+### Estimating the gap from Rinne
+A negative Rinne at 256 Hz only suggests a gap of about 20 to 30 dB; at 256 and 512 Hz, 30 to 45 dB; at all three forks, 45 to 60 dB.
+!differ Gap that turns each fork negative
+Dhingra: 15 dB at 256, 30 dB at 512 and 45 dB at 1024 Hz.
+Lee: 15, 25 and 35 dB.
+!!
+!pearl False-negative Rinne
+In a severe one-sided sensorineural loss, the fork on the mastoid is heard by the other cochlea, so bone seems louder. Mask the good ear with a Barany noise box, and use the Weber.
+!!
+
+# Pure-tone audiometry | Thresholds, frequency by frequency.
+## How it is done
+In a sound-treated room, the softest tone the patient hears at each frequency from 250 to 8000 Hz is recorded, first by air conduction through headphones, then by bone conduction with a vibrator on the mastoid.
+!fig d4-2 | A two-room audiometry set-up: the audiologist watches the patient through a glass partition.
+## Reading it
+Bone conduction is cochlear function. A gap between air and bone means a conductive component; both falling together means a sensorineural loss.
+## Masking
+Sound presented to one ear can cross the skull and be heard by the other, so the non-test ear is masked with noise. Interaural attenuation is 40 to 65 dB for air conduction and near zero for bone. Mask whenever the ears differ by 40 dB or more on air conduction, and for bone conduction whenever there is a gap.
+## Repeatability
+Normal repeat audiograms agree within about 5 dB.
+
+# Speech audiometry | Understanding, not just hearing.
+## Speech reception threshold
+The level at which half of two-syllable spondee words are repeated correctly; it lies within 10 dB of the pure-tone average.
+## Speech discrimination
+Single-syllable words presented 30 to 40 dB above the SRT. Good in conductive loss, reduced in cochlear loss, very poor in retrocochlear loss.
+## Roll-over
+Discrimination falling as loudness increases, a sign of a retrocochlear lesion.
+!fig d4-3 | Speech audiogram.
+
+# Impedance audiometry | The middle ear and reflexes.
+## Tympanometry
+A probe in the canal changes the pressure while measuring how much sound is reflected from the drum. The peak of compliance shows the middle ear pressure and the mobility of the system.
+!fig d4-4 d4-5 | First, impedance audiometry in progress. Second, the principle of the impedance audiometer.
+!table Tympanogram types
+Type | Finding | Think of
+A | Normal peak | Normal ear
+As | Low peak | Otosclerosis, malleus fixation
+Ad | High peak | Ossicular discontinuity, lax drum
+B | Flat | Fluid, thick drum; perforation or patent grommet if the volume is high
+C | Peak below −100 mm H2O | Retraction, tube dysfunction
+!!
+!fig d4-6 | Types of tympanogram.
+An ear canal volume over about 2.5 mL in adults (2 mL in children) suggests a perforation or patent grommet. Infants under six months need a 1000 Hz probe tone.
+## Stapedial (acoustic) reflex
+A loud sound, 70 to 100 dB above threshold, contracts the stapedius in both ears.
+!fig d4-7 | The acoustic reflex pathway.
+### What reflexes tell you
+- A reflex at only 40 to 60 dB above threshold: recruitment, a cochlear lesion.
+- Reflex decay to half within 10 seconds: an eighth nerve lesion.
+- Absent with normal hearing: a facial nerve lesion above the nerve to stapedius.
+- Present on the same side but absent on the other: a brainstem lesion.
+- Absent: stapes fixation or any middle ear disease.
+
+# Site-of-lesion tests | Cochlear or retrocochlear?
+Older behavioural tests, now largely replaced by MRI:
+- **Alternate binaural loudness balance:** recruitment in cochlear loss.
+- **Short increment sensitivity index (SISI):** high scores in cochlear loss.
+- **Tone decay:** over 25 dB in retrocochlear loss.
+- **Bekesy audiometry.**
+!fig d4-8 | Alternate binaural loudness balance test for recruitment.
+
+# Objective tests | When the patient cannot respond.
+## Otoacoustic emissions
+Sounds produced by the outer hair cells and recorded in the canal. Transient emissions disappear with losses over about 30 dB, distortion-product emissions over about 50 dB. Absent with middle ear fluid or debris; present in auditory neuropathy. Used for newborn screening.
+## Auditory brainstem response
+Five to seven waves recorded from the scalp within 10 ms of a click: I and II from the eighth nerve, III the cochlear nucleus, IV the superior olive, V the lateral lemniscus and inferior colliculus (*E. COLI*). Used for thresholds in infants (pass at about 30 to 40 dB nHL) and to look for retrocochlear lesions, though it misses small tumours. Unaffected by sleep and sedation.
+!fig d4-10 | Brainstem auditory evoked potentials.
+!differ Abnormal interaural wave V difference
+Dhingra: Over 0.2 ms.
+Lee: 0.4 to 0.5 ms.
+!!
+## Auditory steady-state response
+Frequency-specific thresholds into the profound range, beyond the reach of ABR (about 80 dB).
+## Electrocochleography
+Records the summating potential, action potential and cochlear microphonic. An enlarged SP to AP ratio suggests Ménière's disease (see that topic).
+!fig d4-9 | Electrocochleography: normal ear and an ear with Ménière's disease.
+## Auditory neuropathy
+Present otoacoustic emissions and cochlear microphonic with an absent or abnormal ABR: the hair cells work but the nerve does not carry the signal synchronously.
+
+# Testing children | By age.
+- Birth to six months: behavioural observation, OAE and ABR.
+- Six to thirty months: visual reinforcement audiometry.
+- From about thirty months: play audiometry.
+- Older children: conventional audiometry. Normal thresholds in children are 15 dB or better.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Rinne and Weber:** technique and interpretation, and the false-negative Rinne.
+- **Masking:** when and why.
+- **Tympanogram types.**
+- **Uses of the stapedial reflex.**
+- **OAE versus ABR,** and the waves of the ABR.
+- **Auditory neuropathy.**
+!!
+## Common pitfalls
+!pit
+- Reading a false-negative Rinne as a conductive loss.
+- Forgetting to mask.
+- Calling a flat tympanogram fluid without checking the canal volume.
+!!
