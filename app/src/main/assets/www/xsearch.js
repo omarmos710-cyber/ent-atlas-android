@@ -67,13 +67,14 @@ function build(){const items=[];const add=(o)=>{o.i=items.length;items.push(o)};
  ((typeof CARDS!=="undefined"?CARDS:undefined)||[]).forEach(c=>add({ty:"card",t:c.q,k:rn(c.r),b:c.a,path:"Flashcard · "+rn(c.r),card:c}));
  ((typeof MNEM!=="undefined"?MNEM:undefined)||[]).forEach(m=>add({ty:"mn",t:m.topic,k:m.m,b:m.x,path:"Mnemonic · "+rn(m.r),mn:m}));
  ((typeof TRACE!=="undefined"?TRACE:undefined)||[]).forEach(t=>add({ty:"tr",t:t.name,k:(t.kind||"")+" "+(t.regions||[]).map(rn).join(" "),b:t.intro||"",path:"Tracer · nerve and vessel course",go:`data-go="tracer:${t.id}"`}));
- /* postings */
- const V=new Map();const W={t:10,k:5,b:2};
- items.forEach(it=>{it.ct=canon(it.t);it.cb=canon(it.k+" "+it.b);const seen=new Map();
+ return items}
+/* postings are built in small chunks so the page never freezes */
+async function post(items){const V=new Map();const W={t:10,k:5,b:2};let n=0;
+ for(const it of items){if(++n%120===0)await new Promise(r=>setTimeout(r,0));it.ct=canon(it.t);it.cb=canon(it.k+" "+it.b);const seen=new Map();
   for(const f of ["t","k","b"]){for(const w of toks(it[f])){const prev=seen.get(w)||0;if(W[f]>prev)seen.set(w,W[f])}}
-  seen.forEach((wt,w)=>{let l=V.get(w);if(!l){l=[];V.set(w,l)}l.push(it.i,wt)});it.nt=toks(it.t).length});
+  seen.forEach((wt,w)=>{let l=V.get(w);if(!l){l=[];V.set(w,l)}l.push(it.i,wt)});it.nt=toks(it.t).length}
  const vocab=[...V.keys()].sort();IX={items,V,vocab};return IX}
-async function ready(){if(IX)return IX;if(!BUILDING)BUILDING=needData().then(build);return BUILDING}
+async function ready(){if(IX)return IX;if(!BUILDING)BUILDING=needData().then(build).then(post);return BUILDING}
 
 /* ---------- matching ---------- */
 function ed(a,b,max){if(Math.abs(a.length-b.length)>max)return max+1;const m=a.length,n=b.length;let p=new Array(n+1),c=new Array(n+1);for(let j=0;j<=n;j++)p[j]=j;
