@@ -4,7 +4,7 @@ Personal ENT head & neck anatomy study app. Offline Android app built automatica
 
 **Install:** open the [latest release](https://github.com/omarmos710-cyber/ent-atlas-android/releases/latest), download `ENT-Atlas.apk` on your phone and open it.
 
-Sources: ENT Steps Anatomy, Dr. Sameh Doss handout, Gray's Atlas of Anatomy (2nd ed.) and Dr. Mohamed El-Fiky's Mini Atlas of Anatomy Part V.
+Sources: ENT Steps Anatomy, Dr. Sameh Doss handout, Gray's Atlas of Anatomy (2nd ed.) and Dr. Mohamed El-Fiky's Mini Atlas of Anatomy Part V. Theatre: figures from Myers & Snyderman, Operative Otolaryngology, 3rd ed.
 
 Private: contains copyrighted handout figures for personal study only.
 

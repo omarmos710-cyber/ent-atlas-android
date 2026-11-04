@@ -1,0 +1,1 @@
+window.THEATRE_LAST={"figs":[[1,"Instrumentation for TLM. A, FK retractor system with notched blades",296],[2,"Case example",298]],"ind":["Volume reduction of the tongue base for obstructive sleep apnea"],"con":["Teeth—Visualization obscured by dentition","Throat—Elongated thin neck with narrow mandibular arch"],"ins":[],"out":[]};

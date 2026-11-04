@@ -1,0 +1,1 @@
+window.THEATRE_LAST={"figs":[[1,"Incision from the 9-o’clock to the 3-o’clock position at the mucocutaneous junction",226],[2,"Exposure of the fistula",226],[3,"Division of the fistula",227],[4,"Closure of the tracheal and esophageal mucosa",227]],"ind":[],"con":["TE fistula"],"ins":["Standard head and neck set"],"out":[]};

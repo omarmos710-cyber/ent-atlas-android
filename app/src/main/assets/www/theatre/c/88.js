@@ -1,0 +1,1 @@
+window.THEATRE_LAST={"figs":[[1,"Dilation of parotid stenosis before and post stenting",699]],"ind":[],"con":[],"ins":["Camera and light source tower for endoscopy","Retractors including sweetheart, malleable, and self-retraining","Irrigations with intravenous (IV) connecting tubing","Multiple salivary endoscopes of different dimensions (1.1,","Kenalog"],"out":[]};

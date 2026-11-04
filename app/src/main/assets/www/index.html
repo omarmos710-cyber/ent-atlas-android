@@ -7566,7 +7566,7 @@ window.openTableReader=open;
 
 
 /* ---------------- BOOT ---------------- */
-(function(){const h=(location.hash||"").slice(1);
+(function(){const h=(location.hash||"").slice(1);window._h0=h;
 go(["home","atlas","study","more","imaging","spot","facemap","figures","cards","drill","tables","quiz","search","saved","tracer","order","mistakes"].includes(h)?h:/^(tracer|order|series|cond|howto)-/.test(h)?h.replace("-",":"):RMAP[h]?"region:"+h:"home")})();
 
 const BONES=BONES0;
@@ -7952,9 +7952,9 @@ function vOps(arg){const o=arg&&OMAPX[arg];
    ${figs.length?`<section class="sec opsec"><h2>Figures</h2>${figsHTML(figs)}</section>`:""}
    <div class="actions">${o.r.map(r=>`<button class="btn" data-go="region:${r}">${esc((RMAP[r]||{}).name||r)} notes</button>`).join("")}</div>`;
   linkTerms(V(),o.r[0])}
-EXTRA.ops=vOps;TABOF.ops="atlas";
+EXTRA.ops=()=>go("th:home");TABOF.ops="atlas";
 /* Atlas: add the Operations tile */
-const _vA=vAtlas;vAtlas=function(){_vA.apply(this,arguments);const g=V().querySelector(".tgrid");if(g&&!g.querySelector('[data-go="ops"]'))g.insertAdjacentHTML("beforeend",`<button class="tcell" data-go="ops"><span class="lico">${ic("ops",18)}</span><b>Operations</b><small>${OPS.length} operations: landmarks and risks</small></button>`)};
+const _vA=vAtlas;vAtlas=function(){_vA.apply(this,arguments);const g=V().querySelector(".tgrid");if(g&&!g.querySelector('[data-go="ops"]'))g.insertAdjacentHTML("beforeend",`<button class="tcell" data-go="th:home"><span class="lico">${ic("ops",18)}</span><b>Theatre</b><small>209 operations: step by step</small></button>`)};
 })();
 /* ================= v17.8 SEARCH: compact results by path, expand in place ================= */
 (function(){
@@ -8062,5 +8062,18 @@ if(!window.Android&&"serviceWorker" in navigator&&(location.protocol==="https:"|
   /* launch screen: fade out once the first page has painted */
   const boot=document.getElementById("boot");
   if(boot)requestAnimationFrame(()=>requestAnimationFrame(()=>{boot.classList.add("out");setTimeout(()=>boot.remove(),400)}));
+})();
+</script>
+<script>
+/* v18 Theatre: everything is loaded only when the sub-app is opened */
+(function(){let ready=null;const load=(u,css)=>new Promise((ok,no)=>{const el=document.createElement(css?"link":"script");if(css){el.rel="stylesheet";el.href=u}else el.src=u;el.onload=ok;el.onerror=no;document.head.appendChild(el)});
+SRC.M="Myers & Snyderman, Operative Otolaryngology, 3rd ed.";SRCS.M="Myers";
+EXTRA.th=function(arg){document.body.classList.add("thm");const v=document.getElementById("view");if(!window.THEATRE)v.innerHTML='<div class="thspin" style="display:grid;place-items:center;min-height:70vh">Opening theatre…</div>';
+ ready=ready||Promise.all([load("theatre/theatre.css",1),load("theatre/index.js").then(()=>load("theatre/theatre.js"))]);
+ ready.then(()=>window.THEATRE.render(arg)).catch(()=>{ready=null;v.innerHTML='<div style="padding:40px 20px">Theatre could not load. Check your connection and try again.</div>'})};
+TABOF.th="home";
+const g0=go;go=function(v,opt){const r=g0(v,opt);if(v.split(":")[0]!=="th"&&document.body.classList.contains("thm")){document.body.classList.remove("thm");Object.keys(FIG).forEach(k=>{if(k.startsWith("m/"))delete FIG[k]})}return r};
+const vh=vHome;vHome=function(){vh.apply(this,arguments);const x=[...document.querySelectorAll("#view h2,#view .lh")].find(h=>/explore/i.test(h.textContent));if(x&&!document.getElementById("thentry"))(x.closest("section")||x).insertAdjacentHTML("beforebegin",'<button id="thentry" data-go="th:home" style="display:block;width:100%;margin:18px 0;padding:18px;border:0;border-radius:18px;background:linear-gradient(150deg,#1D3B35,#0F1F1C);color:#EAF2EF;text-align:left;font:inherit"><span style="font:700 10.5px var(--f-body);letter-spacing:.14em;text-transform:uppercase;color:#D8B26A">Operative atlas</span><span style="display:block;font:500 23px/1.2 var(--f-display);margin:6px 0 3px">Enter the Theatre</span><span style="font-size:14px;color:#9FB5AE">209 operations, 1,300 operative figures, step-by-step rehearsal</span></button>')};
+if(/^th-/.test(window._h0||""))go(window._h0.replace("-",":"));
 })();
 </script>
