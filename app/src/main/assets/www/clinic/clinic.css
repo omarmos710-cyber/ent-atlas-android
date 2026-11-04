@@ -30,3 +30,5 @@ body.thm .clused .clrow b,body.thm .clused .clrow{color:#D8B26A;border-color:#2B
 .climc img,.climc i{display:block;width:100%;height:112px;object-fit:cover;background:#111}
 .climc span{padding:8px 10px 10px}.climc b{display:block;font-size:13.5px;line-height:1.3;font-weight:600}.climc small{display:block;margin-top:3px;font-size:12px;color:var(--muted)}
 .clbadge{margin-left:8px;font-size:11.5px;font-weight:600;color:var(--accent);letter-spacing:0;text-transform:none}
+
+.cltw{overflow-x:auto;margin:6px 0 10px}.cltb{border-collapse:collapse;width:100%;font-size:13.5px;line-height:1.35}.cltb th,.cltb td{border-bottom:1px solid var(--line);padding:8px 8px 8px 0;text-align:left;vertical-align:top}.cltb th{font-weight:700}
