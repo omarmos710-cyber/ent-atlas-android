@@ -1,0 +1,140 @@
+@stand Chronic suppurative otitis media of the mucosal, or safe, type is a wet ear discharging through a hole that will not heal. It rarely threatens life, but it wears down hearing and patience. The aim is a dry, safe ear: clean it properly, treat it topically for long enough, prove there is no cholesteatoma, and then decide whether repair is worth it.
+
+# Overview | A persistent hole and a discharging ear.
+## Definition
+Chronic suppurative otitis media is long-standing infection of part or all of the middle ear cleft, with ear discharge and a permanent perforation. It is classically divided into two types: the *tubotympanic* or *safe* type, which involves the mucosa and the anteroinferior cleft, and the *atticoantral* or *unsafe* type, which involves bone and usually cholesteatoma. This chapter covers the safe, mucosal type.
+!fig d11-7 | Classification of chronic otitis media into tubotympanic (mucosal) and atticoantral (squamous) types.
+## Clinical stages
+### Active mucosal disease
+Discharge through a pars tensa perforation.
+### Inactive mucosal disease
+A dry, permanent perforation that may become active with a cold or water.
+### Healed chronic otitis media
+An atrophic, healed drum, often with tympanosclerosis and some conductive loss.
+## Why it matters
+It is a common cause of preventable hearing loss worldwide, especially where crowding, poverty and limited access to care allow acute infections to go untreated.
+
+# Pathogenesis | Why the hole does not heal and the ear keeps running.
+## Origins
+Most cases follow repeated acute otitis media in childhood, or a perforation from acute necrotising otitis or trauma. Chronic effusion and Eustachian tube dysfunction keep the mucosa inflamed.
+## The permanent perforation
+Once the squamous epithelium of the drum grows round the edge of the hole and meets the mucosa on the inside, the perforation behaves like a lined fistula and will not close on its own.
+!fig d11-5 | A permanent perforation of the pars tensa: the epidermal and mucosal layers meet across its edge, so it behaves like a non-healing fistula.
+## Why the discharge recurs
+### Reinfection through the tube
+Infection ascends from the nose, sinuses, adenoids and tonsils, especially in children, and nose blowing pushes secretions into the middle ear.
+### Reinfection through the canal
+Water entering through the perforation during bathing or swimming.
+### Biofilms
+Bacteria, particularly *Pseudomonas aeruginosa*, form biofilms on the mucosa that shield them from antibiotics and immune cells, explaining the relapses after apparently successful treatment.
+## Organisms
+*Pseudomonas aeruginosa*, *Proteus*, *Escherichia coli* and *Staphylococcus aureus* are the commonest aerobes, often with anaerobes such as *Bacteroides*. Fungi may follow repeated antibiotic drops.
+
+# Clinical features | The safe ear.
+## Symptoms
+### Discharge
+Profuse, mucoid or mucopurulent, without a foul smell, and intermittent: it flares with colds and with water in the ear and dries between episodes.
+### Hearing loss
+Conductive, of variable degree, and rarely over 50 dB. Some patients hear better when the ear is wet, because the discharge shields the round window and restores a phase difference between the windows.
+## Signs
+### The perforation
+Central, with a rim of drum all round it. It may lie anterior, posterior or inferior to the handle of malleus, or be subtotal. A large perforation may expose the ossicles and the promontory.
+!fig d11-10 d11-11 | First, the types of perforation seen in the pars tensa. Second, a large central perforation.
+### The middle ear mucosa
+Normal and pale when inactive, red and oedematous when active. A pale polyp may fill the perforation.
+!fig d11-9 | An aural polyp in the canal, and how a polyp from the promontory can present through the perforation.
+!pearl Never avulse a polyp
+A polyp may arise from the stapes, the facial nerve or the lateral semicircular canal. Pulling it out risks facial palsy or a dead ear; remove it under the microscope or at surgery, and send it for histology.
+!!
+## Safe or unsafe?
+!table Mucosal versus squamous chronic otitis media
+ | Mucosal (safe) | Squamous (unsafe)
+Discharge | Profuse, mucoid, not foul | Scanty, foul-smelling
+Perforation | Central | Attic or posterosuperior marginal
+Polyp | Pale | Red, fleshy
+Cholesteatoma | Absent | Present
+Complications | Rare | More common
+Hearing | Mild to moderate conductive | Conductive or mixed
+!!
+!fig d11-8 | Sites of perforation: central perforations belong to the safe type; attic and posterosuperior marginal perforations to the dangerous type.
+
+# Investigations | Look, test, and image when needed.
+## Examination under the microscope
+Every chronic ear should be cleaned and examined with the microscope. An apparently dry ear can hide discharge, and rarely cholesteatoma coexists with a central perforation.
+!fig d11-12 | Examination of the ear under the operating microscope.
+## Swab for culture
+Guides the choice of drops when the ear does not respond.
+## Tuning forks and audiogram
+Measure the conductive loss and bone conduction. An air-bone gap over about 40 dB suggests ossicular discontinuity, often erosion of the long process of the incus.
+## Imaging
+CT is not routine for mucosal disease, where it shows no bone erosion. It is used when cholesteatoma or a complication is suspected, and before revision surgery. MRI is reserved for intracranial concerns.
+## Biopsy
+For granulation that persists despite treatment, to exclude tuberculosis and malignancy.
+## Differential diagnosis
+- **Cholesteatoma:** scanty foul discharge, attic or marginal defect, white flakes.
+- **Tuberculous otitis media:** painless thin discharge, pale granulation, multiple perforations, early facial palsy.
+- **Granular myringitis:** granulation on the drum itself, without a perforation.
+- **Carcinoma of the temporal bone:** pain, bleeding, and granulation that does not settle.
+
+# Management | Dry the ear, then decide on repair.
+## Aural toilet
+Drops cannot work through pus. Clean the ear under the microscope by suction, dry mopping or gentle saline irrigation; never use forceful syringing.
+## Topical treatment
+### Drops
+Quinolone drops are preferred when the drum is perforated. Continue for four to six weeks after debridement when the ear is persistently active.
+### Technique
+Tragal pumping after instilling the drops pushes them through the perforation into the middle ear.
+### Acidifying drops
+Acetic acid 1.5% helps against *Pseudomonas*.
+!differ Ototoxic drops
+Dhingra: Advises avoiding aminoglycoside and polymyxin drops with a perforation.
+Lee: Lists neomycin and polymyxin preparations among the options.
+Quinolone drops are the safer choice with an open middle ear.
+!!
+## Systemic antibiotics
+Mainly for acute flares, chosen by culture.
+## Treating the source
+Treat infected tonsils, adenoids and sinuses, and allergy; avoid hard nose blowing.
+## Keep water out
+Cotton wool with petroleum jelly, or a moulded plug, during bathing; no swimming while the ear is active.
+## Surgery
+!fig d11-14 | A management pathway for chronic suppurative otitis media, from medical treatment to tympanoplasty and mastoid surgery.
+### Tympanoplasty
+Once the ear has been dry for some weeks, repair of the perforation (myringoplasty), with ossicular reconstruction if needed, restores a closed, protected middle ear. Success is 60 to 90%, higher when air passes through the perforation on Valsalva, a sign of a working tube.
+### Mastoidectomy
+For discharge that persists despite proper medical treatment. Cortical mastoidectomy may be combined with tympanoplasty; on its own it does not improve the rate of drum closure.
+### Hearing aids
+For patients unfit for or unwilling to have surgery, ideally once the ear is dry.
+!pearl Pearls
+- The other ear predicts how well the Eustachian tube works.
+- Think of tuberculosis when an ear fails to respond, with pale granulation, multiple holes and facial weakness.
+- No treatment of the Eustachian tube has proven benefit.
+!!
+
+# Complications | Uncommon in the safe ear, but real.
+## Ossicular erosion
+The long process of the incus is a vascular watershed and erodes first, giving a larger conductive loss.
+## Sensorineural hearing loss
+Toxins crossing the round window can damage the basal turn of the cochlea, producing a high-frequency loss.
+## Tympanosclerosis
+Chalky hyaline plaques in the drum and middle ear, which may fix the ossicles.
+## Others
+Rarely, mastoiditis, facial palsy, labyrinthitis or intracranial infection in an acute flare.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Safe versus unsafe:** the six-row comparison.
+- **Why the perforation does not heal,** and why the discharge recurs.
+- **Aural toilet,** quinolone drops and water precautions.
+- **Hearing better when the ear is wet.**
+- **Never avulse a polyp.**
+- **Indications for tympanoplasty,** and what predicts success.
+!!
+## Common pitfalls
+!pit
+- Prescribing drops into an ear full of pus.
+- Using aminoglycoside drops through a perforation without need.
+- Calling a chronic ear safe without examining it under the microscope.
+- Missing tuberculosis or malignancy in granulation that will not settle.
+!!

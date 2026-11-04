@@ -1,0 +1,199 @@
+@stand Otosclerosis is a disease of the bony capsule of the inner ear, in which dense bone is remodelled into spongy bone that can lock the stapes in the oval window. The patient is usually a young adult with slowly worsening hearing and a perfectly normal drum; the cure, when it is needed, is one of the most satisfying operations in otology.
+
+# Overview | A young adult, a normal drum, and a hearing loss that keeps creeping on.
+## Definition
+Otosclerosis, also called *otospongiosis*, is a primary disease of the otic capsule. Normal dense enchondral bone is replaced by vascular, spongy bone that later hardens again. When a focus reaches the oval window it fixes the stapes footplate and causes a conductive hearing loss; when it involves the cochlea it can add a sensorineural loss.
+## Epidemiology
+The histological disease is far commoner than the clinical one. Lee quotes histological foci in 8 to 12% of white adults, but clinical otosclerosis in only 0.5 to 2%. It is less common in Black and Asian populations. Women are affected about twice as often as men, and hearing loss usually begins between 20 and 30 years of age; onset before 10 or after 40 is unusual.
+## Why it matters
+Otosclerosis is the classic cause of progressive conductive deafness behind an intact, normal-looking drum. It is entirely treatable, with a hearing aid or with surgery that restores hearing in nine patients out of ten. But the operation opens the inner ear, and a small number of patients lose the hearing in that ear altogether, so the decision to operate is a careful one.
+
+# Pathology | A remodelling disease of the otic capsule.
+## The otic capsule
+The bony labyrinth is formed from three layers: an outer periosteal layer, an inner endosteal layer, and a middle enchondral layer that normally stays dense and inert throughout life. Otosclerosis is a disease of that middle layer. Its favourite site is the *fissula ante fenestram*, a small cleft of fibrous tissue just in front of the oval window.
+!fig d13-1 | The bony and membranous labyrinth. The otosclerotic focus usually begins just in front of the oval window, where it can fix the stapes footplate.
+## Histology: active and mature foci
+Grossly, a focus may look chalky white, grey or yellow; a red, vascular focus is active and likely to progress quickly.
+### Active (otospongiotic) phase
+Immature lesions are full of marrow and vascular spaces, with osteoclasts resorbing bone and osteoblasts laying down new bone. Cement substance around the vessels stains blue with haematoxylin and eosin, forming the *blue mantles of Manasse*, the histological mark of activity.
+### Mature (sclerotic) phase
+Older foci are less vascular, with more laminated bone and fibrillar matrix that stains red. Hearing loss reflects where the focus sits, not how active it is.
+## Types of otosclerosis
+### Stapedial otosclerosis
+The commonest clinical form, causing stapes fixation and conductive loss. The focus may be:
+- **Anterior:** at the fissula ante fenestram, the site of predilection.
+- **Posterior:** behind the oval window.
+- **Circumferential:** around the margin of the footplate.
+- **Biscuit type:** within a thickened footplate, the annular ligament still free.
+- **Obliterative:** filling the whole oval window niche.
+!fig d13-2 | Types of stapedial otosclerosis: (A) anterior focus, (B) posterior focus, (C) circumferential, (D) biscuit type with a thick footplate, (E) obliterative.
+### Cochlear otosclerosis
+Foci around the round window or elsewhere in the cochlear capsule cause sensorineural loss, probably from enzymes and toxic products released into the inner ear fluids. It is often combined with stapedial disease, giving a mixed loss.
+### Histological otosclerosis
+Foci that touch neither the stapes nor the cochlea remain silent and are found only at post-mortem.
+
+# Aetiology | Genes, hormones, and perhaps a virus.
+## Heredity
+About half of patients have a family history. Inheritance is autosomal dominant with incomplete penetrance, and several genetic loci have been described.
+## Sex and hormones
+Women are affected about twice as often, and the hearing loss may begin or accelerate during pregnancy, around the menopause, or after an accident or major operation.
+## Associations
+### Osteogenesis imperfecta
+Brittle bones, blue sclerae and conductive deafness form *van der Hoeve syndrome*. The otic capsule lesions look identical to otosclerosis under the microscope, and both involve genes for type I collagen.
+### Measles virus
+Measles RNA and antigens have been found in active foci, and some argue for a viral cause, as has been proposed for Paget's disease.
+
+# Clinical features | The history usually tells you; the drum does not.
+## Symptoms
+### Hearing loss
+Painless, insidious and progressive, beginning in the twenties and usually affecting both ears, often one before the other.
+### Paracusis Willisii
+The patient hears speech better in a noisy room. Background noise makes normal-hearing speakers raise their voices, while it barely reaches the otosclerotic ear.
+### Tinnitus and vertigo
+Tinnitus is common, especially with cochlear involvement and active disease. Vertigo is uncommon.
+### Speech
+Because the patient hears their own voice loudly by bone conduction, they speak softly, in a monotonous, well-modulated voice.
+## Signs
+The tympanic membrane is normal and mobile, and Eustachian tube function is normal. In about one in ten, a pink blush shows through the drum over the promontory: *Schwartze sign*, which reflects increased vascularity in an active focus.
+!pearl Clinical pearl
+A conductive loss with a normal drum has a short differential: otosclerosis, ossicular discontinuity, malleus head fixation, and superior canal dehiscence. The stapedial reflex separates the last of these (see [[5.4]]).
+!!
+
+# Investigations | Forks, audiogram and impedance tell the story.
+## Tuning forks
+Rinne turns negative first at 256 Hz, then at 512 Hz and finally at 1024 Hz as fixation progresses, so the forks give a rough measure of the air-bone gap. Weber lateralises to the ear with the greater conductive loss. Absolute bone conduction is normal, unless the cochlea is involved.
+!differ Air-bone gap that turns each fork negative
+Dhingra: 256 Hz at about 15 dB, 512 Hz at about 30 dB, 1024 Hz at about 45 dB.
+Lee: 15, 25 and 35 dB respectively.
+Both describe the same sequence: negative Rinne at 1024 Hz means a large gap.
+!!
+## Pure-tone audiometry
+Air conduction is reduced, most at the lower frequencies early on. Bone conduction is normal, but often shows a dip at 2000 Hz: *Carhart's notch*, about 5 dB at 500 Hz, 10 dB at 1000 Hz, 15 dB at 2000 Hz and 5 dB at 4000 Hz. The notch is a mechanical artefact of stapes fixation, not a cochlear loss, and it disappears after successful surgery. A pure conductive loss rarely exceeds about 60 dB; anything worse means cochlear involvement.
+!fig d13-3 | Audiogram of a left ear with otosclerosis. Air conduction is reduced with an air-bone gap; bone conduction dips at 2000 Hz (Carhart's notch).
+## Speech audiometry
+Discrimination is good, unless there is cochlear disease. This matters for surgical selection.
+## Impedance audiometry
+### Tympanometry
+Normal early; later a shallow, stiff As curve.
+### Stapedial reflex
+Absent once the stapes is fixed. In early disease a characteristic biphasic (on-off) pattern may appear.
+!pearl Pearl
+A conductive loss with a normal drum and a present stapedial reflex is not otosclerosis. Think of superior canal dehiscence, which produces an inner-ear conductive loss with intact reflexes.
+!!
+## Imaging
+High-resolution CT is not needed routinely. It is useful when the loss progresses rapidly, when cochlear otosclerosis is suspected (a pericochlear halo, the *double ring sign*), when the gap is doubtful, before revision surgery, and when there are vestibular symptoms.
+
+# Differential diagnosis | Other causes of a conductive loss.
+## Conductive loss with a normal drum
+!table How to tell them apart
+ | Clue | Key test
+Otosclerosis | Young adult, progressive, family history | Absent reflex, Carhart's notch
+Superior canal dehiscence | Autophony, sound- or pressure-induced vertigo | Reflex present, low VEMP threshold, CT
+Malleus head fixation | Similar history | Malleus immobile on palpation at surgery, CT
+Ossicular discontinuity | Trauma or previous infection | Hypermobile drum, Ad tympanogram, gap often over 50 dB
+Congenital stapes fixation | Childhood onset, non-progressive | Flat 50–60 dB loss, no Carhart's notch
+!!
+## Conductive loss with an abnormal drum
+Otitis media with effusion, adhesive otitis media and tympanosclerosis are separated by otoscopy and tympanometry.
+
+# Management | Watch, aid, or operate.
+## The three options
+!tree Otosclerosis
+Mild loss | Observation | review hearing yearly
+Any loss | Hearing aid | effective, no risk; the choice for an only hearing ear
+Suitable gap | Stapes surgery | closes the gap in 90–95%
+Far advanced | Cochlear implant | when aids no longer help
+!!
+Each is legitimate. The patient chooses after an honest account of the benefits and the small risk of losing the hearing in the operated ear.
+## Medical treatment
+No drug reverses fixation. *Sodium fluoride* has been used to hasten maturation of active foci and slow sensorineural progression in cochlear otosclerosis.
+!differ Sodium fluoride
+Dhingra: Controversial, and not generally recommended.
+Lee: Widely accepted for progressive cochlear disease, though not FDA approved.
+In practice it is considered for active disease with progressive sensorineural loss, a positive Schwartze sign or a halo on CT.
+!!
+## Hearing aid
+An excellent alternative for patients who do not want surgery or are unfit for it, and the treatment of choice for an only hearing ear. Conductive losses aid particularly well.
+## Stapes surgery
+The fixed stapes is removed, wholly or in part, and a prosthesis is placed between the long process of the incus and the inner ear.
+### Selection
+The patient should feel the handicap (air conduction around 30 dB or worse), have a real air-bone gap with Rinne negative at 256 and 512 Hz, and keep good speech discrimination.
+!differ Criteria for surgery
+Dhingra: Air-bone gap at least 15 dB, discrimination 60% or more, ideal age 20–30.
+Lee: Air-bone gap 20 dB or more (25–30 dB in the rehabilitation chapter), discrimination 70% or better, typical age 30–50.
+Operate on the poorer-hearing ear first.
+!!
+### Contraindications
+- **Only or better-hearing ear:** use a hearing aid.
+- **Active Ménière's disease:** a hydropic ear is at higher risk of sensorineural loss.
+- **Active middle ear disease or perforation:** treat first.
+- **Children:** recurrent Eustachian tube problems and fast regrowth of the focus.
+- **Occupations:** divers, pilots and frequent flyers, roofers and athletes (balance), and noisy workplaces, since the stapedius reflex is lost.
+- **Relative:** otitis externa, exostoses and pregnancy; defer until settled.
+### Stapedectomy or stapedotomy
+In *stapedectomy* all or part of the footplate is removed and the window sealed with a graft; in *stapedotomy* only a small fenestra (about 0.6–0.8 mm) is made in the footplate. Stapedotomy disturbs the inner ear less, gives better high-frequency results and has largely replaced stapedectomy.
+### Steps
+The operation is usually done under local anaesthesia through the ear canal.
+- Meatal incision and elevation of the tympanomeatal flap.
+- Exposure of the oval window, removing the posterosuperior bony overhang with curette or drill, preserving the chorda tympani.
+- Confirmation of stapes fixation and a mobile malleus and incus.
+- Measurement from the incus to the footplate.
+- Division of the stapedius tendon and removal of the stapes superstructure.
+- A hole in the footplate (stapedotomy) or partial removal (stapedectomy).
+- Placement of the prosthesis on the incus and into the fenestra, and crimping.
+- Replacement of the flap.
+!fig d13-6 | Steps of stapedectomy, from elevation of the tympanomeatal flap to placement of the prosthesis.
+!fig d13-4 d13-5 | First, the fixed stapes before removal, and a Teflon piston in its place afterwards. Second, stapes prostheses: Teflon, platinum–Teflon and titanium–Teflon pistons.
+### Results
+The air-bone gap closes to within 10 dB in about 90 to 95% of experienced hands. Carhart's notch disappears with it.
+## Far-advanced otosclerosis
+When combined loss is so severe that aids no longer help, a cochlear implant gives good results. Stapes surgery plus a powerful aid is an alternative in selected patients. Otosclerotic bone can cause facial nerve stimulation by the implant.
+## Historical operations
+Stapes mobilisation gave only temporary benefit, as the stapes refixed. Lempert's fenestration created a new window in the lateral semicircular canal; it left a mastoid cavity and an inherent loss of about 25 dB, and is now obsolete.
+
+# Complications of stapes surgery | Rare, but the patient must hear about them beforehand.
+## During the operation
+- **Tear of the tympanomeatal flap,** which can leave a perforation.
+- **Chorda tympani injury,** causing a metallic taste in 5–10%, worse if the opposite chorda was already damaged.
+- **Incus dislocation.**
+- **Floating footplate,** which drops into the vestibule if pushed.
+- **Perilymph gusher,** about 1 in 300, more likely with a wide cochlear aqueduct, especially in X-linked deafness.
+- **Facial nerve injury,** more likely with a dehiscent or overhanging nerve.
+## Early after surgery
+### Vertigo
+Usually from surgical trauma, serous labyrinthitis or a prosthesis that is too long. Persistent severe vertigo needs urgent review.
+### Reparative granuloma
+Rising sensorineural loss and vertigo at one to two weeks; needs urgent re-exploration.
+## Late complications
+### Conductive loss returning
+A short, loose or displaced prosthesis, or erosion of the incus (the commonest finding at revision, in about 5%).
+### Perilymph fistula
+Fluctuating hearing and vertigo, often after straining or barotrauma.
+### Sensorineural loss
+About 2% have some sensorineural loss; about 1 in 200 lose all hearing in the operated ear (a *dead ear*). A slow high-frequency loss may appear over the years.
+!ward After stapes surgery
+1. Lie the patient with the operated ear up for the first hours; expect mild unsteadiness.
+2. Vertigo with nystagmus, sudden hearing loss or facial weakness needs same-day senior review.
+3. Advise against straining, nose blowing, heavy lifting and flying for about two to four weeks.
+4. Avoid water in the ear until the flap has healed.
+5. Book an audiogram at about six weeks.
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Site of predilection:** the fissula ante fenestram.
+- **Paracusis Willisii,** and why it happens.
+- **Schwartze sign:** active, vascular focus.
+- **Carhart's notch:** 2000 Hz dip in bone conduction, mechanical, disappears after surgery.
+- **Selection criteria and contraindications** for stapes surgery, especially the only hearing ear.
+- **van der Hoeve syndrome:** osteogenesis imperfecta, blue sclerae, deafness.
+- **Dead ear** risk of about 1 in 200, and gusher in X-linked deafness.
+!!
+## Common pitfalls
+!pit
+- Operating on the only or better-hearing ear.
+- Missing superior canal dehiscence: the reflex is present.
+- Reading Carhart's notch as a true cochlear loss and turning a good candidate away.
+- Forgetting to ask about occupation, flying and diving before offering surgery.
+!!

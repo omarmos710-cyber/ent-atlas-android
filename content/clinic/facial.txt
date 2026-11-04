@@ -1,0 +1,187 @@
+@stand A face that will not move is frightening for the patient and a test of method for the doctor. First decide whether the forehead is spared; then remember that Bell's palsy is a diagnosis of exclusion, examine the ear, parotid, neck and other cranial nerves, and protect the eye today.
+
+# Overview | One nerve, a long course, many causes.
+## Definition
+Facial nerve palsy is weakness of the muscles of facial expression from a lesion anywhere between the motor cortex and the muscles. The approach depends on where the lesion is, how complete it is, and whether the nerve is likely to recover.
+## Why it matters
+The eye is at risk within hours, the face carries a person's expression and identity, and a palsy may be the first sign of a tumour, a cholesteatoma or a fracture.
+
+# Applied anatomy | A long and narrow course.
+## Central connections
+The part of the facial nucleus that supplies the forehead receives fibres from both cerebral hemispheres; the part that supplies the lower face is controlled only from the opposite side. An upper motor neurone (*supranuclear*) lesion therefore spares the forehead. Emotional movement travels by separate pathways, so a smile may survive a stroke that abolishes voluntary movement.
+!fig d14-1 | The forehead receives bilateral cortical innervation and is spared in supranuclear paralysis; emotional movements travel by separate pathways.
+## The course of the nerve
+### Intracranial
+From the pons across the cerebellopontine angle with the eighth nerve.
+### Intratemporal
+- **Meatal segment:** in the internal acoustic meatus, anterosuperior.
+- **Labyrinthine segment:** about 4 mm long, the narrowest part of the canal, ending at the geniculate ganglion. Swelling here is thought to cause Bell's palsy.
+- **Tympanic segment:** along the medial wall of the middle ear above the oval window; the commonest site of bony dehiscence.
+- **Mastoid segment:** vertically down to the stylomastoid foramen.
+### Extratemporal
+Through the parotid gland, dividing into temporal, zygomatic, buccal, marginal mandibular and cervical branches.
+!fig d14-2 | Course of the facial nerve: meatal, labyrinthine, tympanic and mastoid segments, and its branches.
+## Branches inside the temporal bone
+- **Greater superficial petrosal nerve:** lacrimation.
+- **Nerve to stapedius:** the stapedial reflex.
+- **Chorda tympani:** taste from the anterior two-thirds of the tongue and submandibular and sublingual secretion.
+These allow a lesion to be localised (see [[4.3]]).
+## Surgical landmarks
+!fig d14-4 d14-5 | First, landmarks for finding the nerve in parotid surgery. Second, variations in its course, including bony dehiscence.
+## Nerve injury
+!table Sunderland classification
+Degree | What is damaged | Outcome
+1 | Conduction block (neurapraxia) | Full recovery
+2 | Axons, tubes intact (axonotmesis) | Full recovery, slower
+3 | Endoneurium | Incomplete, synkinesis likely
+4 | Perineurium | Poor without repair
+5 | Whole nerve (neurotmesis) | No recovery without repair
+!!
+
+# Causes | Think beyond Bell's palsy.
+!tree Causes of facial palsy
+Central | Stroke, tumour | forehead spared
+Infection | Bell's palsy, Ramsay Hunt | otitis media, cholesteatoma, necrotising otitis externa, Lyme disease
+Trauma | Temporal bone fracture | surgery, birth (forceps), facial wounds
+Tumour | Parotid cancer | facial schwannoma, haemangioma, glomus, vestibular schwannoma, temporal bone cancer
+Systemic | Diabetes | sarcoid (Heerfordt), Guillain-Barré, leukaemia, granulomatosis
+Congenital | Möbius syndrome | birth injury
+!!
+## Bell's palsy
+### What it is
+An acute idiopathic lower motor neurone palsy, 60 to 75% of all facial palsies. Reactivation of herpes simplex virus is the likely cause; the nerve swells inside the tight labyrinthine segment. It is commoner in diabetes and pregnancy.
+### Course
+Weakness comes on over hours and peaks within 72 hours, often after a day of pain behind the ear. About 85 to 90% recover fully, and 95% if the palsy never becomes complete.
+!fig d14-7a d14-7b | Left-sided facial palsy in an adult and a child: the forehead is not spared and the eye does not close.
+## Ramsay Hunt syndrome
+Herpes zoster oticus: vesicles in the concha, canal or palate, severe ear pain, facial palsy, and often sensorineural hearing loss and vertigo. The outlook for the face is worse than in Bell's palsy.
+!fig d14-9 | Ramsay Hunt syndrome: facial palsy with vesicles in the concha.
+## Otitis media and cholesteatoma
+Acute otitis media can inflame a dehiscent nerve; cholesteatoma erodes the canal, usually in the tympanic segment. Both need urgent otological care.
+## Trauma
+!table Temporal bone fractures and the facial nerve
+ | Longitudinal | Transverse
+Frequency | About 80% | About 20%
+Blow | Side of the head | Back of the head
+Bleeding from the ear | Common | Usually absent
+Hearing | Conductive | Sensorineural
+Vertigo | Less often | Severe
+Facial palsy | About 20%, often delayed | About 50%, often immediate
+!!
+!fig d14-10 | Longitudinal and transverse fractures of the temporal bone.
+## Tumours
+A slowly progressive palsy, a recurrent palsy on the same side, or palsy with twitching suggests a tumour. A facial palsy with a parotid lump is almost always malignant.
+## Bilateral or recurrent palsy
+Bilateral: Lyme disease, Guillain-Barré, sarcoidosis, leukaemia, Möbius syndrome, HIV, neurofibromatosis 2 and bilateral fractures. Recurrent on the same side: a tumour in about a third; *Melkersson-Rosenthal syndrome* combines recurrent palsy, lip swelling and a fissured tongue.
+
+# Assessment | Where, how bad, and why.
+## History
+Speed of onset, pain, vesicles, hearing loss and vertigo, ear discharge, trauma or surgery, previous episodes, and systemic illness.
+## Examination
+### The face
+Ask the patient to raise the eyebrows, close the eyes tightly, smile and puff the cheeks. On attempted eye closure the eye rolls up and out (*Bell's phenomenon*). Note drooling and tearing.
+### Grading
+!table House-Brackmann grading
+Grade | Description
+I | Normal
+II | Slight weakness; complete eye closure with minimal effort
+III | Obvious weakness, complete eye closure with effort, synkinesis may appear
+IV | Obvious disfiguring weakness, incomplete eye closure
+V | Barely perceptible movement
+VI | No movement
+!!
+### Everything else
+Otoscopy, the parotid and neck, the other cranial nerves, and hearing. A sixth nerve palsy with it points to the brainstem; fifth, eighth or lower nerve involvement points to the cerebellopontine angle; a motor-only palsy points to the parotid.
+## Topodiagnosis
+!table Localising the lesion
+Lost function | Lesion lies
+Lacrimation (Schirmer test) | At or above the geniculate ganglion
+Stapedial reflex | Above the nerve to stapedius
+Taste and submandibular flow | Above the chorda tympani
+Motor only | Below the chorda, in the mastoid or parotid
+!!
+!fig d14-12 | Topographical localisation of facial nerve lesions.
+## Electrical tests
+### Electroneuronography (ENoG)
+Compares the compound muscle response on the two sides. Degeneration of 90% or more within the first three weeks predicts a poor recovery.
+### Electromyography (EMG)
+Fibrillation potentials at 14 to 21 days mean denervation; polyphasic potentials appear 6 to 12 weeks before visible recovery; electrical silence means the motor end plates are lost.
+!differ The ENoG window
+Dhingra: From day 4 to day 21.
+Lee: Days 3 to 12 when deciding on decompression.
+!!
+## Imaging
+Contrast MRI of the whole course, and CT of the temporal bone for fractures and cholesteatoma. Indicated for an atypical, slow, recurrent or bilateral palsy, or no recovery by three to four months.
+
+# Management | Eye first, then the nerve.
+## Eye protection
+Lubricating drops by day, ointment and taping at night, sunglasses or a moisture chamber. If closure stays poor, a gold or platinum weight in the upper lid, a lateral tarsal strip or tarsorrhaphy.
+## Bell's palsy
+Oral steroids started within 72 hours, for example prednisolone 60 mg daily for five days followed by a five-day taper. An antiviral may add a small benefit in severe palsy.
+!differ Steroids in Bell's palsy
+Dhingra: Prednisolone 1 mg/kg/day, extended if the palsy stays complete; notes that benefit is not proved beyond doubt.
+Lee: Recommends steroids within 48 to 72 hours.
+Current practice gives early steroids.
+!!
+Be cautious with steroids in diabetes, hypertension, peptic ulcer, tuberculosis, glaucoma and pregnancy.
+## Ramsay Hunt syndrome
+High-dose steroids with an antiviral such as aciclovir or valaciclovir, and analgesia.
+## Otitis media and cholesteatoma
+Acute otitis media: antibiotics with myringotomy. Chronic disease: urgent exploration, clearing disease from the nerve; granulation that has invaded the nerve is left alone.
+## Trauma
+An immediate, complete palsy with a fracture through the canal is explored and decompressed or repaired. A delayed palsy is managed conservatively, with serial ENoG.
+!differ Delayed traumatic palsy
+Dhingra: Conservative treatment.
+Lee: Serial ENoG; decompress if the response falls below 10% of normal.
+!!
+## Palsy after ear surgery
+Remove the packing and any tight dressing first. If the nerve was not seen and the palsy is complete, explore unless continuity is certain.
+## Decompression
+Opening the bony canal, and sometimes the sheath, at the site of compression. For Bell's palsy it is controversial and, if done, must include the labyrinthine segment within two weeks.
+## Repair and reanimation
+### Nerve repair
+Tension-free primary anastomosis, or a cable graft from the great auricular (not when there are neck metastases), sural or medial antebrachial cutaneous nerve.
+### Nerve transfer
+When the distal nerve and muscle survive but the proximal stump is unavailable, ideally within 18 months: the masseteric nerve is most used; hypoglossal transfer costs some tongue function; a cross-face graft can give a spontaneous smile.
+### Muscle transfer
+For long-standing palsy with atrophied muscle: temporalis transfer, or a free gracilis transfer powered by the masseteric nerve (one stage, about 92% success, not spontaneous) or by a cross-face graft (two stages, about 80%, spontaneous).
+### Static procedures
+Brow lift, fascia lata sling and lid procedures.
+
+# Complications | When recovery is incomplete.
+- **Exposure keratitis.**
+- **Synkinesis:** the eye closes when the patient smiles, from aberrant regeneration; treated with physiotherapy and botulinum toxin.
+- **Contracture and hemifacial spasm.**
+- **Crocodile tears (Bogorad syndrome):** tearing while eating, as salivary fibres regrow into the lacrimal pathway.
+- **Psychological distress.**
+!fig d14-13 | Hemifacial spasm: all the facial muscles and platysma contract together.
+## Hemifacial spasm
+Usually from a vascular loop compressing the nerve at the brainstem. Treated with botulinum toxin, or microvascular decompression.
+
+# For the examination | What the examiner wants to hear.
+## On call
+!ward Acute facial weakness
+1. Forehead spared with emotional movement kept: central; follow the stroke pathway if acute.
+2. Protect the eye now: drops by day, ointment and tape at night.
+3. Look in the ear: vesicles mean Ramsay Hunt, so add an antiviral; a foul ear or cholesteatoma needs urgent otology review.
+4. Examine the parotid, neck and other cranial nerves.
+5. After trauma, record whether the palsy was immediate or delayed.
+6. Start steroids within 72 hours for Bell's palsy.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Upper versus lower motor neurone** palsy, and why the forehead is spared.
+- **Segments of the nerve,** and the narrow labyrinthine segment.
+- **Topodiagnosis:** Schirmer, stapedial reflex, taste.
+- **House-Brackmann grading.**
+- **ENoG and EMG:** timing and meaning.
+- **Longitudinal versus transverse fractures.**
+- **Bell's palsy is a diagnosis of exclusion.**
+!!
+## Common pitfalls
+!pit
+- Calling it Bell's palsy without looking in the ear or feeling the parotid.
+- Forgetting eye care.
+- Missing a slowly progressive or recurrent palsy that needs imaging.
+- Not recording the timing of a post-traumatic palsy.
+!!

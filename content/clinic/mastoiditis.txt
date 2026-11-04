@@ -1,0 +1,136 @@
+@stand In acute mastoiditis the infection has broken out of the middle ear into the bone behind it. The typical patient is a small, unwell child with a red, tender swelling behind an ear that is pushed forward; the dangerous one is the patient on antibiotics whose ear has gone quiet while the bone is still being destroyed.
+
+# Overview | When otitis media escapes the middle ear.
+## Definition
+Every acute otitis media inflames the mastoid air cells to some degree, because the antrum is continuous with the middle ear; a CT in plain otitis media often shows an opaque mastoid. *Acute mastoiditis* means clinically evident infection of the mastoid process, and *coalescent mastoiditis* means the bony septa between air cells have been destroyed, turning the cells into a single cavity full of pus.
+## Who gets it
+Half of children with acute mastoiditis are four years old or younger, and only about 30% have a history of recurrent otitis media; often it is the first severe ear infection.
+## Why it matters
+Mastoiditis is the gateway to the other complications of otitis media: neck and facial abscesses, facial palsy, labyrinthitis and intracranial infection. Up to one in ten develop an intracranial complication, even on intravenous antibiotics.
+
+# Pathology | From inflamed mucosa to destroyed bone.
+## Organisms
+*Streptococcus pneumoniae* leads, with *Streptococcus pyogenes*, *Staphylococcus aureus* and *Haemophilus influenzae*. Pneumococcal serotype 19A is both resistant and virulent. Cultures are negative in many children who have already had antibiotics.
+!differ Commonest organism
+Dhingra: Beta-haemolytic streptococcus.
+Lee: Streptococcus pneumoniae.
+Lee reflects more recent series.
+!!
+## How the bone is destroyed
+Two processes run together. Pus under pressure in the cells causes ischaemic necrosis of the thin bony septa, and inflamed mucosa activates osteoclasts that resorb bone (*hyperaemic decalcification*). The cells coalesce into an abscess cavity, which then looks for a way out.
+## Classification
+!tree Mastoiditis
+Acute | Acute mastoiditis | otitis media with mastoid inflammation
+Bone loss | Coalescent | septa destroyed, pus in a single cavity
+After antibiotics | Masked (latent) | slow bone destruction, few symptoms
+Long-standing | Chronic | with perforation, cholesteatoma or grommet
+!!
+!fig d12-1 | Routes by which suppurative otitis media spreads to cause its complications.
+
+# Clinical features | The child, the ear and the bone.
+## Symptoms
+### Pain
+Persistent pain behind the ear, often after an apparently improving otitis media.
+### Fever
+Fever that persists or returns despite treatment.
+### Discharge
+Ear discharge that becomes profuse and creamy, or persists beyond three weeks. Mucoid discharge must come from the middle ear, because the canal has no mucous glands.
+!pearl The change is what matters
+Pain, fever or discharge that continues or comes back during an acute otitis media points to mastoiditis.
+!!
+## Signs
+### The mastoid
+Tenderness is most telling over the tip and posterior border, rather than over the suprameatal (MacEwen's) triangle, which is tender in plain otitis media too. Always compare with the healthy side. Later the area becomes red, boggy and fluctuant.
+### The pinna
+A subperiosteal abscess pushes the auricle forwards and downwards, and the postauricular sulcus is lost.
+### The canal and drum
+- **Sagging** of the posterosuperior canal wall, from periostitis over the antrum.
+- **Reservoir sign:** the canal refills with pus straight after mopping.
+- A pars tensa perforation with pulsatile discharge, sometimes with a *light-house* reflex.
+- Hearing loss is conductive.
+!fig d12-2 | Acute mastoiditis: the pinna is pushed forward and downward by the swelling behind it.
+## Masked mastoiditis
+Repeated or inadequate antibiotic courses can sterilise the middle ear while bone destruction continues. The patient has little pain and no discharge, or only a mild ache or persistent otalgia. The drum is dull and thickened with lost landmarks, and hearing is reduced. It may hide an extradural or perisinus abscess.
+!differ Symptoms of masked mastoiditis
+Dhingra: Painless, without discharge; mild ache at most.
+Lee: Persistent, chronic otalgia after antibiotics.
+Either way, a patient whose ear never quite settles after antibiotics needs a CT.
+!!
+
+# Abscesses | Where the pus comes out.
+## Subperiosteal (postauricular)
+The commonest. Pus breaks through the cribriform area into the space under the periosteum over the mastoid, displacing the pinna.
+## Zygomatic
+Infection of the zygomatic air cells produces swelling in front of and above the ear, with oedema of the upper eyelid.
+## Bezold abscess
+In an adult or older child with a pneumatised tip, pus breaks through the thin medial side of the tip and tracks under the sternocleidomastoid, presenting as a tender upper neck mass.
+### Differential
+Upper jugular lymphadenitis, a parotid mass, an infected branchial cyst, parapharyngeal abscess and jugular vein thrombosis.
+### Treatment
+Cortical mastoidectomy, finding the fistula at the tip, and drainage of the neck through a separate incision.
+## Meatal (Luc) abscess
+Pus from the antrum tracks between the posterior canal wall and the periosteum, presenting as a swelling in the deep canal.
+## Citelli abscess
+Pus from the tip tracks along the posterior belly of digastric to form an abscess behind the mastoid or in the digastric triangle.
+## Deep neck
+Parapharyngeal and retropharyngeal abscesses via the tip cells or petrous cells.
+!fig d12-4 d12-5 | First, abscesses around the mastoid: postauricular, zygomatic and Bezold, with Citelli's abscess. Second, a Bezold abscess, where pus bursts through the medial side of the tip into the neck.
+!fig d12-3 | A mastoid abscess that has burst through the skin.
+
+# Diagnosis | Mainly clinical, confirmed by imaging.
+## Blood tests
+Full blood count with raised white cells, inflammatory markers, and blood cultures. Pus from the ear or myringotomy is sent for culture.
+## Imaging
+### CT temporal bone with contrast
+Shows coalescence (loss of the septa), cortical erosion and abscesses, and looks for intracranial spread. An opaque mastoid alone is not mastoiditis.
+### MRI and MR venography
+When an intracranial complication or sinus thrombosis is suspected.
+## Differential diagnosis
+!table Swelling behind the ear
+ | Distinguishing points
+Furuncle of the canal | No preceding otitis media, painful tragus and pinna movement, normal drum, no mucoid discharge
+Suppurating postauricular node | No ear history, superficial abscess, mastoid not tender
+Otitis externa with nodes | Canal swollen and tender, drum normal
+Infected sebaceous cyst | Superficial, punctum, ear normal
+!!
+
+# Management | Admit, drain, and decide on surgery.
+## First steps
+!ward On call: acute mastoiditis
+1. Admit; take blood and ear cultures.
+2. Start intravenous third-generation cephalosporin, with anti-pseudomonal cover in chronic ears.
+3. Examine the facial nerve, balance, neck and neurology.
+4. Request contrast CT of the temporal bones and brain; MRI and MRV if intracranial spread is possible.
+5. Perform a wide myringotomy with a grommet, and send the pus for culture.
+6. Call your senior for an abscess, coalescence, or no response at 24–48 hours.
+!!
+## Medical treatment
+Intravenous antibiotics, changed according to culture, with oral step-down to complete three to six weeks in total. Uncomplicated acute mastoiditis without coalescence often settles with antibiotics and myringotomy alone.
+## Surgery
+### Indications for cortical mastoidectomy
+- Subperiosteal abscess.
+- Coalescence on CT.
+- Sagging of the posterosuperior canal wall or a positive reservoir sign.
+- No improvement after 48 hours of adequate treatment.
+- Any complication, or cholesteatoma.
+### Small children
+A small subperiosteal abscess may be aspirated or incised, but cortical mastoidectomy is generally advised. The infant mastoid is small and vascular, landmarks are poor, and the facial nerve exits superficially.
+### The operation
+Cortical (Schwartze) mastoidectomy removes the diseased cells and opens the antrum to the middle ear, leaving the canal wall and ossicles intact.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Coalescence:** what it means and how it is shown on CT.
+- **Signs:** forward-displaced pinna, sagging canal wall, reservoir sign.
+- **The abscesses:** subperiosteal, zygomatic, Bezold, Luc and Citelli, and where each points.
+- **Indications for cortical mastoidectomy.**
+- **Masked mastoiditis:** antibiotics without cure.
+!!
+## Common pitfalls
+!pit
+- Treating an opaque mastoid on CT as mastoiditis without clinical signs.
+- Relying on suprameatal tenderness alone.
+- Missing masked mastoiditis in a child whose otalgia never settled.
+- Forgetting the superficial facial nerve when incising behind an infant's ear.
+!!

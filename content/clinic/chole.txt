@@ -1,0 +1,153 @@
+@stand A cholesteatoma is skin in the wrong place: keratinising squamous epithelium growing inside the middle ear and mastoid, shedding keratin it cannot clear, expanding and eroding bone as it goes. Drops will not cure it. The operation aims for a safe, dry ear first and hearing second, and the follow-up lasts for years.
+
+# Overview | Skin in the wrong place.
+## Definition
+A cholesteatoma is a three-dimensional collection of keratinising stratified squamous epithelium in the middle ear cleft, with accumulated keratin debris in its centre. Despite the name it contains no cholesterol and is not a tumour; *keratoma* would be a better word.
+## Structure
+### Matrix
+The living wall: keratinising squamous epithelium resting on a layer of inflamed connective tissue, the *perimatrix*.
+### Contents
+White, flaky or pearly keratin debris, often infected and foul smelling.
+!fig d11-1 | Structure of a cholesteatoma: a matrix of keratinising epithelium and perimatrix, enclosing keratin debris.
+## Why it matters
+It is the *unsafe* chronic ear. Cholesteatoma destroys the ossicles, the labyrinth, the facial canal and the bony plates over the dura and sigmoid sinus, and it causes most of the serious complications of chronic otitis media.
+
+# Classification and genesis | Where it comes from.
+## Congenital cholesteatoma
+A white mass behind an intact drum, usually anterosuperior, in a child with no history of otitis media. It arises from epithelial rests left in the temporal bone, and may also occur in the petrous apex and the cerebellopontine angle.
+## Primary acquired cholesteatoma
+The commonest type. A retraction pocket of the pars flaccida, drawn in by negative middle ear pressure, deepens into the attic; keratin accumulates in it, the neck narrows, and it becomes a self-perpetuating sac.
+!fig d11-2 d11-3 | First, genesis of a cholesteatoma. Second, primary acquired cholesteatoma from an attic retraction pocket.
+## Secondary acquired cholesteatoma
+Squamous epithelium grows into the middle ear through a marginal or posterosuperior perforation, or is implanted by trauma or surgery.
+!fig d11-4 | Genesis of secondary acquired cholesteatoma, through a marginal perforation.
+## Theories of genesis
+- **Cell rests:** for congenital cholesteatoma.
+- **Invagination or retraction (Wittmaack):** for primary acquired.
+- **Basal cell hyperplasia (Ruedi):** prickle cells of the pars flaccida invade the subepithelial tissue.
+- **Epithelial invasion or migration (Habermann):** through a marginal perforation.
+- **Squamous metaplasia (Sade):** of the middle ear mucosa after chronic inflammation.
+## Retraction pockets
+Retraction of the pars tensa is staged by how deep it goes.
+- **Stage I:** retracted, not touching the incus.
+- **Stage II:** touching the incus.
+- **Stage III:** lying on the promontory (atelectasis), but can be lifted off with suction.
+- **Stage IV:** adherent to the promontory (adhesive otitis), with no middle ear space.
+!fig d11-6 | A retracted drum with an attic retraction pocket (arrow).
+!pearl Ventilation of the attic
+The attic is ventilated through the narrow anterior and posterior tympanic isthmus. When the isthmus is blocked by swollen mucosa, the attic and Prussak's space become isolated and the pars flaccida retracts, which is why attic cholesteatoma can coexist with a normally ventilated mesotympanum.
+!!
+
+# Pathology | How it destroys bone.
+## Bone erosion
+Collagenases and other enzymes from the matrix and perimatrix, osteoclast activation by inflammatory cytokines, and infection all contribute. The mastoid is usually sclerotic.
+!differ How bone is eroded
+Dhingra: Attributes erosion to enzymes from osteoclasts and inflammatory cells, and rejects pressure necrosis.
+Lee: Includes pressure along with the inflammatory mediators.
+!!
+## Routes of spread
+The cholesteatoma follows the path of least resistance: from Prussak's space into the attic, then through the aditus to the antrum and mastoid; or posteriorly into the sinus tympani and facial recess, the sites hardest to clear at surgery.
+## Hidden sites for residual disease
+Sinus tympani, facial recess, the undersurface of the scutum, and the anterior epitympanic recess.
+
+# Clinical features | The scanty, foul, unsafe ear.
+## Symptoms
+### Discharge
+Scanty, foul smelling and sometimes bloodstained, from infected keratin and granulation.
+!flag A discharge that suddenly stops
+Pus may have been blocked and may be tracking inwards. Ask about headache, fever, vertigo and facial weakness.
+!!
+### Hearing loss
+Conductive, or mixed when the cochlea is involved. A cholesteatoma that bridges an eroded chain can transmit sound well: the *cholesteatoma hearer*, who must be warned that hearing may worsen after surgery.
+### Symptoms of complications
+Earache, headache, vertigo, facial weakness, fever and vomiting, neck stiffness, double vision or unsteadiness, or a listless child who will not feed.
+## Signs
+- An attic perforation or posterosuperior marginal perforation.
+- White keratin flakes or a pearly mass.
+- Erosion of the scutum or posterosuperior canal wall.
+- A red, fleshy polyp that bleeds when touched.
+- A positive fistula test in some.
+!fig d11-13 | (A) An attic retraction pocket. (B) A double perforation, in the pars tensa and in the attic.
+!pearl A blue drum
+A blue drum with dark fluid behind it suggests cholesterol granuloma, not cholesteatoma.
+!!
+
+# Investigations | Map the disease before you operate.
+## Examination under the microscope
+Clean with suction; look for keratin, the extent of the defect and polyps.
+## Fistula test
+Pressing on the tragus or using a Siegle speculum causes vertigo and nystagmus if the lateral canal is eroded. It is specific but insensitive, positive in only 30 to 50% of fistulae. Do it in every case.
+## Audiogram
+Measures conductive and sensorineural components before surgery.
+## High-resolution CT
+Shows the extent of disease and the state of the scutum, ossicles, tegmen, lateral semicircular canal, facial canal and sigmoid plate, and the anatomy for surgery.
+## Non-echo-planar diffusion-weighted MRI
+Keratin restricts diffusion and shows bright. It detects residual or recurrent disease after canal wall up surgery, often replacing a second look, and helps when an intracranial complication is suspected.
+
+# Management | Surgery is the treatment.
+## Aims
+In order: eradicate disease and make the ear safe; obtain a dry ear; preserve or restore hearing.
+## Conservative care
+Regular microscopic cleaning suits small accessible disease, patients over 65 or unfit for surgery, or those who refuse an operation.
+## Choice of operation
+### Canal wall up
+The posterior canal wall is kept (combined approach tympanoplasty). The ear looks normal, swimming is allowed and hearing aids are easy to fit, but residual disease is commoner, so a second look at about six months or MRI follow-up is needed.
+### Canal wall down
+The posterior canal wall is removed and the attic, antrum and mastoid are exteriorised into one cavity (modified radical or radical mastoidectomy). Exposure is better and recurrence lower, but the cavity needs lifelong cleaning, water precautions, and aids are harder to fit.
+!table Canal wall up or down
+ | Canal wall up | Canal wall down
+Appearance | Normal meatus | Wide meatus and cavity
+Residual disease | Higher | Lower
+Second look | Often needed | Not routine
+Cavity care | None | Regular cleaning
+Swimming | Allowed | Limited
+Hearing aid | Easy | Harder
+!!
+Choose canal wall up only when the patient can return for long-term follow-up.
+### Endoscopic ear surgery
+Transcanal endoscopes suit limited attic and mesotympanic disease, and see around corners into the sinus tympani and anterior attic without a postauricular incision. Disease reaching the antrum or mastoid needs a combined approach. The surgeon works one-handed, and bleeding and heat from the light source are drawbacks. Residual disease found by the endoscope after apparent microscopic clearance ranges from 17 to 38%.
+## Lateral canal fistula
+Present in 7 to 10% of cholesteatomas, 90% of them in the lateral canal; only about 60% are seen on preoperative CT. Assume one in every case.
+- Small fistula: the matrix is often removed at the end of the operation and the fistula sealed.
+- Large fistula or one in an only hearing ear: leave the matrix on it and convert to canal wall down.
+- If the endosteum tears, cover it immediately.
+- Never strip the matrix off a cochlear fistula.
+## Hearing reconstruction
+Ossiculoplasty, at the first stage or the second look.
+
+# Complications | Why it is called unsafe.
+## Intratemporal
+- Ossicular erosion, usually the incus first.
+- Labyrinthine fistula and labyrinthitis.
+- Facial palsy, usually from the tympanic segment.
+- Mastoiditis and abscesses.
+## Intracranial
+Extradural and subdural abscess, meningitis, brain abscess, lateral sinus thrombosis and otitic hydrocephalus, through an eroded tegmen or sinus plate.
+!pearl At surgery
+Facial canal dehiscence and tegmen dehiscence often accompany a fistula. The epineurium does not need opening unless disease has invaded the nerve.
+!!
+
+# For the examination | What the examiner wants to hear.
+## On call
+!ward Chronic ear with a new symptom
+1. New vertigo, facial weakness, headache, fever or neck stiffness: treat as a complication until proven otherwise.
+2. Examine the facial nerve and do a fistula test.
+3. Request CT, and MRI if intracranial spread is possible.
+4. Start intravenous antibiotics and inform your senior.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Definition** and structure: matrix, perimatrix, keratin.
+- **Congenital, primary and secondary acquired,** and the theories of genesis.
+- **Signs of the unsafe ear.**
+- **Canal wall up versus down,** and who is suitable for each.
+- **Fistula:** test, incidence and management.
+- **Non-EPI diffusion MRI** for residual disease.
+!!
+## Common pitfalls
+!pit
+- Treating an attic crust with drops and never lifting it.
+- Forgetting the fistula test before surgery.
+- Choosing canal wall up for a patient who cannot attend follow-up.
+- Stripping matrix off a large fistula in an only hearing ear.
+!!

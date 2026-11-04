@@ -1,0 +1,151 @@
+@stand Ménière's disease is a disorder of the inner ear fluids: attacks of spinning vertigo lasting hours, with fluctuating low-tone hearing loss, roaring tinnitus and a feeling of fullness. It is a diagnosis made by criteria after other causes are excluded, and most patients are controlled without ever needing an operation.
+
+# Overview | Episodes of vertigo, an ear that fills and fades.
+## Definition
+An idiopathic disorder of the inner ear characterised by *endolymphatic hydrops*: distension of the endolymphatic system. It produces the classic tetrad of episodic vertigo, fluctuating sensorineural hearing loss, tinnitus and aural fullness.
+## Epidemiology
+Onset is usually between 35 and 60 years. It begins in one ear, but the other ear becomes involved in a substantial minority over the years.
+## Ménière's disease or Ménière's syndrome
+*Ménière's disease* is idiopathic hydrops. *Ménière's syndrome*, or secondary hydrops, has an identifiable cause: head injury, viral labyrinthitis, syphilis, Cogan syndrome, autoimmune disease, or *delayed hydrops* years after a profound loss in that ear.
+
+# Pathology | Too much endolymph.
+## Hydrops
+The cochlear duct and saccule distend, bowing Reissner's membrane into the scala vestibuli. Small ruptures let potassium-rich endolymph mix with perilymph, poisoning hair cells and nerve fibres and producing an attack; as the membrane heals, function partly recovers.
+!fig d15-1 | (A) The normal cochlear duct. (B) In hydrops the duct is distended with endolymph and Reissner's membrane bulges into the scala vestibuli.
+## Why it happens
+The cause is unknown; several theories may each be true in some patients.
+- **Defective absorption** by the endolymphatic sac, or a small, poorly pneumatised sac and duct.
+- **Vasomotor disturbance** with spasm of the internal auditory artery.
+- **Allergy** and **autoimmunity.**
+- **Salt and water retention.**
+- **Hypothyroidism.**
+- **Viral infection.**
+!fig d15-2 | Aetiological factors and symptoms of endolymphatic hydrops.
+
+# Clinical features | The attack and the interval.
+## Vertigo
+Sudden, rotatory vertigo lasting from 20 minutes to several hours, often with nausea, vomiting, sweating and pallor. Attacks come in clusters with remissions of weeks or months. The patient lies still with the bad ear up or down; there is no loss of consciousness.
+## Hearing loss
+Fluctuating and sensorineural, worse during an attack and recovering afterwards, at first in the low frequencies. Over the years the loss becomes permanent and flat. Distortion, *diplacusis* (hearing the same tone at a different pitch in each ear) and intolerance of loud sound are common.
+## Tinnitus
+Low-pitched and roaring, louder before and during attacks.
+## Fullness
+Pressure in the ear, which may change or worsen before an attack and act as a warning.
+## Signs
+The drum is normal. During an attack there is horizontal-rotatory nystagmus.
+!differ Direction of nystagmus in an attack
+Dhingra: Fast phase towards the healthy ear.
+Lee: Towards the affected ear at the start (irritative), away from it later (paretic), and back towards it during recovery.
+!!
+!pearl Tullio phenomenon
+Vertigo provoked by loud sound may occur when the distended saccule lies against the stapes footplate.
+!!
+## Variants
+### Cochlear hydrops
+Hearing symptoms without vertigo.
+### Vestibular hydrops
+Vertigo without hearing symptoms.
+### Lermoyez syndrome
+Hearing gets worse before an attack and improves with the vertigo, the reverse of the usual pattern.
+### Tumarkin's otolithic crisis
+Sudden drop attacks without warning or loss of consciousness, from abrupt otolith stimulation. Dangerous falls make it an indication for definitive treatment.
+
+# Diagnosis | Criteria, audiogram, and exclusion.
+## Diagnostic criteria
+!table AAO-HNS diagnostic categories
+Category | Requirements
+Certain | Definite disease plus histological confirmation
+Definite | Two or more spontaneous episodes of vertigo of 20 minutes or longer; documented hearing loss on at least one occasion; tinnitus or fullness; other causes excluded
+Probable | One definite episode, documented hearing loss, tinnitus or fullness
+Possible | Episodic vertigo without documented loss, or fluctuating loss with imbalance
+!!
+## Staging
+By the average of thresholds at 0.5, 1, 2 and 3 kHz in the worst audiogram of the previous six months: stage 1 up to 25 dB, stage 2 26 to 40 dB, stage 3 41 to 70 dB, stage 4 over 70 dB.
+## Audiometry
+### Pure-tone audiogram
+Sensorineural loss affecting the low frequencies, giving a rising curve; later the curve flattens.
+!fig d15-3 | Audiogram in early Ménière's disease: sensorineural loss, worse in the low frequencies (a rising curve).
+### Speech and recruitment
+Discrimination is moderately reduced, around 55 to 85% between attacks, and recruitment is present, marking a cochlear lesion.
+## Electrocochleography
+The summating potential grows relative to the action potential in a hydropic ear.
+!differ Raised SP/AP ratio
+Dhingra: Above 30%.
+Lee: Above 0.35.
+!!
+!fig d15-4 | Electrocochleography: (A) normal ear, (B) Ménière's disease with an enlarged summating potential relative to the action potential.
+## Glycerol test
+An osmotic diuretic, 1.5 mL/kg, reduces hydrops temporarily. An improvement of 10 dB at two adjacent frequencies, or 10% in discrimination, is positive.
+## Caloric test
+Reduced response on the affected side in about three-quarters.
+## MRI with contrast
+Essential to exclude a vestibular schwannoma or other retrocochlear lesion. Delayed contrast MRI can now show hydrops directly in specialist centres.
+## Differential diagnosis
+- Vestibular schwannoma.
+- Vestibular migraine.
+- Recurrent vestibulopathy.
+- Superior canal dehiscence.
+- Autoimmune inner ear disease and otosyphilis.
+- Transient ischaemic attacks in the vertebrobasilar territory.
+
+# Management | Most are controlled medically.
+## The acute attack
+!ward An acute attack
+1. Reassure; let the patient lie still with the head supported.
+2. Check the neurology and the head impulse test: new neurological signs mean stroke imaging, not sedatives.
+3. Give an antiemetic or vestibular sedative: prochlorperazine, dimenhydrinate, or diazepam.
+4. Intravenous fluids if vomiting.
+5. Keep sedatives short: they slow compensation.
+!!
+## Long-term medical treatment
+### Lifestyle
+Salt restriction to about 1.5 to 2 g a day, adequate water, limiting caffeine and alcohol, stopping smoking, and managing stress. Avoid working at heights or driving during active periods.
+### Medicines
+Betahistine (with caution in asthma) and a diuretic. Treat allergy and hypothyroidism. About 80% are controlled.
+## When medical treatment fails
+The choice depends on whether hearing in the ear is still useful.
+!tree Intractable vertigo
+Hearing useful | Preserve the labyrinth | intratympanic steroid, endolymphatic sac surgery, pressure-pulse device
+Hearing useful | Destroy vestibular function | intratympanic gentamicin, vestibular neurectomy
+Hearing lost | Labyrinthectomy | removes all inner ear function
+!!
+### Intratympanic steroid
+Repeated injections of dexamethasone or methylprednisolone; no risk to hearing.
+### Intratympanic gentamicin
+Chemical ablation of the vestibular hair cells, given in small doses through a grommet or by injection. Vertigo is controlled in 60 to 80%, at the price of some hearing loss in 4 to 30%.
+### Pressure-pulse therapy
+A device (Meniett) delivers low-pressure pulses to the middle ear through a grommet.
+!fig d15-6 | The mechanism of intermittent low-pressure pulse therapy.
+### Endolymphatic sac surgery
+Decompression of the sac, or a shunt to the mastoid, preserves hearing. Its benefit over placebo is debated.
+!differ Sac surgery
+Dhingra: Listed among the operations that preserve hearing.
+Lee: Controversial.
+!!
+### Vestibular neurectomy
+Section of the vestibular nerve through the middle or posterior cranial fossa: high vertigo control with hearing preserved, at the price of a craniotomy.
+### Labyrinthectomy
+For an ear with no useful hearing: removal of the membranous labyrinth through the canal or the mastoid. A cochlear implant can follow in the same or another sitting.
+!pearl Pearls
+- Recruitment makes hearing aids hard to fit.
+- Sacculotomy and the Cody tack are historical.
+- Before destroying one ear, make sure the other ear is healthy.
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **The tetrad,** and the pathology of hydrops.
+- **AAO-HNS criteria** and staging.
+- **Audiogram:** low-frequency, fluctuating, rising curve.
+- **Electrocochleography** and the glycerol test.
+- **Variants:** Lermoyez and Tumarkin.
+- **Ladder of treatment** by hearing status.
+!!
+## Common pitfalls
+!pit
+- Labelling every dizzy patient as Ménière's without documented hearing loss.
+- Forgetting MRI to exclude a schwannoma.
+- Keeping patients on vestibular sedatives for months.
+- Using gentamicin when the other ear may also be affected.
+!!

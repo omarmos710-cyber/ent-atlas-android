@@ -1,0 +1,171 @@
+@stand The same small space behind the drum produces two very different patients: a feverish child in pain with a bulging drum, and a quiet child with fluid who simply does not hear well. The first needs pain relief and judgement about antibiotics; the second needs patience, a hearing test, and sometimes a grommet.
+
+# Overview | Two diseases of one cleft.
+## Definitions
+### Acute otitis media
+Rapid onset, within 48 hours, of middle ear inflammation with an effusion: pain, fever and a red, bulging drum.
+### Recurrent acute otitis media
+Three or more episodes in six months, or four or more in a year, with the child well in between.
+### Otitis media with effusion
+Fluid in the middle ear behind an intact drum, without signs of acute infection. Also called *secretory otitis media* or *glue ear*. It is *chronic* once it has lasted three months.
+### Acute necrotising otitis media
+A rare, destructive form, usually from beta-haemolytic streptococcus after measles or scarlet fever, which rapidly destroys the drum, annulus and ossicles.
+## Epidemiology
+Acute otitis media is one of the commonest reasons a young child sees a doctor, peaking between six months and two years. Effusion follows most acute attacks and is the commonest cause of hearing loss in childhood, with peaks around two and again around five years.
+## Why it matters
+Acute disease is about pain and the rare but serious complication. Effusion is about hearing, speech, behaviour and school, in a child who often does not complain at all.
+
+# Pathogenesis | Why children, and why after a cold.
+## The Eustachian tube in a child
+The child's tube is shorter, wider and more horizontal than the adult's, and its muscles open it less efficiently. Secretions from the nasopharynx reach the middle ear easily, and the middle ear drains poorly.
+## The sequence
+A viral cold inflames the tube and the adenoid. The tube blocks, gas in the middle ear is absorbed, negative pressure develops and a transudate collects. Bacteria from the nasopharynx, where the adenoid acts as a reservoir, then infect the fluid.
+## Organisms
+### Bacteria
+*Streptococcus pneumoniae* leads, followed by non-typeable *Haemophilus influenzae* and *Moraxella catarrhalis*. About half of the *H. influenzae* and almost all *Moraxella* produce beta-lactamase.
+### Viruses
+RSV, rhinovirus and adenovirus are found in many aspirates, alone or with bacteria.
+## Risk factors
+!tree Who gets otitis media
+Environment | Daycare, siblings | smoke exposure, dummy use, bottle feeding lying flat, no breastfeeding
+Anatomy | Cleft palate | Down syndrome, craniofacial syndromes
+Host | Prematurity | immunodeficiency, low socioeconomic status
+Adenoid | Bacterial reservoir | and tubal obstruction
+!!
+
+# Acute otitis media | Pain, fever and a bulging drum.
+## Stages
+Dhingra describes acute suppurative otitis media as a sequence, and the drum changes at each stage.
+### Tubal occlusion
+The drum is retracted with a foreshortened handle of malleus; there is deafness and fullness, and little fever.
+### Presuppuration
+Hyperaemia spreads from the handle of malleus and the periphery in a *cart-wheel* pattern. Pain is throbbing, and a child may have a high fever.
+### Suppuration
+Pus collects under pressure: the drum is red and bulging, landmarks vanish, and a yellow spot may mark where it will rupture. Pain is severe.
+### Resolution
+The drum ruptures, usually with a small anteroinferior perforation, discharge appears and pain and fever settle. Most perforations heal.
+### Complication
+If infection spreads beyond the cleft: mastoiditis, facial palsy, labyrinthitis or intracranial disease.
+## Clinical picture
+Otalgia, fever, irritability, ear pulling and poor feeding, often after a cold. These symptoms are non-specific on their own; the diagnosis rests on the drum.
+## Diagnosis
+*Pneumatic otoscopy* is the essential examination. A bulging drum with poor mobility makes the diagnosis. A red drum in a crying child is not enough, because crying flushes the drum. Tympanometry helps when the view is poor.
+!flag Look for a complication first
+- Facial weakness, vertigo, mastoid tenderness or swelling, neck stiffness, drowsiness.
+- A child with a cochlear implant, immunodeficiency or a septic appearance is treated, not observed.
+!!
+## Management
+### Pain relief for everyone
+Paracetamol or ibuprofen, whatever is decided about antibiotics.
+### Observation or antibiotics
+Many children recover without antibiotics. Watchful waiting for 48 to 72 hours, with a safety net, suits children over two with mild symptoms or an uncertain diagnosis, provided the parents can return. It does not raise the rate of mastoiditis.
+!table When to give antibiotics
+Age | Severe | Non-severe, both ears | Non-severe, one ear
+6–23 months | Antibiotic | Antibiotic | Antibiotic or observe
+2 years and over | Antibiotic | Antibiotic or observe | Antibiotic or observe
+!!
+Severe means fever over 39°C or moderate to severe pain for more than 48 hours.
+### Choice of antibiotic
+- **First line:** high-dose amoxicillin.
+- **Amoxicillin-clavulanate:** if amoxicillin was given in the last 30 days, with purulent conjunctivitis, or after recurrent failure.
+- **Failure at 48 to 72 hours:** step up to amoxicillin-clavulanate, then intramuscular ceftriaxone for three days, then tympanocentesis for culture.
+!differ Dose and duration of amoxicillin
+Dhingra: 40 mg/kg/day for at least 10 days.
+Lee: 90 mg/kg/day (high dose, to overcome resistant pneumococci), with duration by age.
+Current guidelines follow the high-dose regimen; know both for examinations.
+!!
+### Myringotomy
+Indicated for a bulging drum with severe pain, incomplete resolution with persisting hearing loss, or effusion beyond 12 weeks, and in the child who fails second-line treatment, when the fluid is sent for culture.
+!fig d10-1 | Treatment of acute otitis media, matched to its stage.
+## Recurrent acute otitis media
+Prophylactic antibiotics are no longer recommended; grommets reduce the number of episodes, and adenoidectomy is added in older children or for repeat surgery.
+!differ Recurrent otitis media
+Dhingra: Mentions amoxicillin prophylaxis, while noting its drawbacks and that many prefer grommets; grommets for 4 episodes in 6 months or 6 in a year.
+Lee: Does not recommend prophylaxis; defines recurrence as 3 in 6 months or 4 in 12 months.
+!!
+
+# Otitis media with effusion | The quiet ear that cannot hear.
+## Pathogenesis
+Tubal dysfunction leaves negative pressure and fluid behind; the mucosa responds with more goblet cells and mucous glands, and the fluid becomes thick and tenacious, the classic *glue*. Persistent adenoid infection, allergy and unresolved acute otitis media all contribute.
+## Clinical picture
+### Symptoms
+Often none: a parent or teacher notices inattention, poor speech, or a child turning up the television. Older children and adults describe fullness and muffled hearing.
+### Signs
+The drum is dull and opaque, sometimes amber, grey or bluish, with fine radial vessels rather than redness. It is often retracted, and may show an air-fluid level or bubbles. Mobility on pneumatic otoscopy is reduced.
+!fig d10-2 | Otitis media with effusion: bubbles appear behind the drum on Valsalva.
+## Investigations
+### Tympanometry
+A flat (type B) curve, or one shifted far to the negative side (type C).
+### Audiometry
+Usually a 20 to 40 dB conductive loss. An audiogram is needed when the effusion has lasted three months, or sooner if there is a speech or developmental concern.
+### The nasopharynx in adults
+!flag Unilateral effusion in an adult
+Always examine the nasopharynx: nasopharyngeal carcinoma can first present this way, especially in smokers and people from endemic regions.
+!!
+!differ Scoping the nasopharynx
+Dhingra: Always exclude a nasopharyngeal tumour in an adult with one-sided effusion.
+Lee: The value of endoscopy is clearest in high-risk patients.
+!!
+## Natural history
+Most effusions clear on their own: about 70% within three months, and around 90% after treated acute otitis media.
+## Management
+### Watchful waiting
+Review every three months with a hearing test. Antibiotics, steroids, antihistamines and decongestants have no lasting benefit and are not recommended. Autoinflation with a nasal balloon helps some children.
+!differ Medical treatment of effusion
+Dhingra: Lists decongestants, antihistamines and antibiotics among the medical options.
+Lee: Guidelines find no role for them.
+Follow current guidelines in practice.
+!!
+### Grommets
+For effusion lasting three months or more with hearing loss, or in a child at risk (speech delay, learning or sensory difficulty, cleft palate, Down syndrome). Thick glue may need two incisions, one to let air in behind the fluid.
+!fig d10-3 d10-4 | First, two incisions in the drum let thick mucus be aspirated. Second, a grommet in place.
+### Adenoidectomy
+Added for children over about four, for repeat tube insertion, or when there are nasal or sleep symptoms. It reduces the chance of needing tubes again.
+### Hearing aids
+An alternative to surgery, especially in Down syndrome where the canals are narrow and effusion persists.
+!pearl Pearls
+- Almost every child with a cleft palate has effusion: offer earlier tubes, and keep watching after palate repair.
+- Grommet otorrhoea is treated with topical drops, not oral antibiotics.
+- Propping an infant up during feeds reduces reflux up the tube.
+!!
+
+# Complications and sequelae | Acute and long term.
+## Of acute otitis media
+- Perforation in about 5%; around 90% heal.
+- Acute mastoiditis and subperiosteal abscess.
+- Facial palsy and labyrinthitis.
+- Meningitis and other intracranial complications.
+## Of chronic effusion
+- Atrophic, retracted drum and atelectasis.
+- Necrosis of the long process of the incus.
+- Tympanosclerosis.
+- Retraction pockets and cholesteatoma.
+- Cholesterol granuloma.
+## Masked disease
+Inadequate antibiotic courses can leave a smouldering ear that becomes a persistent effusion or masked mastoiditis.
+
+# For the examination | What the examiner wants to hear.
+## On call
+!ward A child with a painful ear
+1. Look for complications first: face, balance, mastoid, neck and conscious level.
+2. Give analgesia to every child.
+3. Perform pneumatic otoscopy; a red drum alone is not enough.
+4. Decide antibiotics or observation by age, severity and laterality.
+5. Safety-net: return if worse at 48–72 hours, with neck swelling, weakness or drowsiness.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Stages of acute suppurative otitis media** and the drum at each stage.
+- **Why children:** the Eustachian tube and the adenoid.
+- **The three bacteria,** and beta-lactamase production.
+- **Effusion:** drum appearance, type B tympanogram, 20–40 dB conductive loss.
+- **Indications for grommets,** and when to add adenoidectomy.
+- **Unilateral effusion in an adult:** examine the nasopharynx.
+!!
+## Common pitfalls
+!pit
+- Diagnosing otitis media from a red drum in a crying child.
+- Withholding analgesia while deciding about antibiotics.
+- Treating effusion with decongestants and antihistamines.
+- Missing nasopharyngeal carcinoma in an adult with one-sided glue.
+!!

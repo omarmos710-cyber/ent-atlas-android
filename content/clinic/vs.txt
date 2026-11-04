@@ -1,0 +1,131 @@
+@stand A vestibular schwannoma is a slow, benign tumour of the eighth nerve sheath that announces itself through the ear: one-sided hearing loss and tinnitus, with speech understanding worse than the audiogram predicts. An MRI makes the diagnosis; the choice to watch, irradiate or remove depends on size, hearing, age and growth.
+
+# Overview | The ear is the first to know.
+## Definition
+A benign tumour of Schwann cells, usually arising from the vestibular division of the eighth nerve in the internal auditory canal. *Acoustic neuroma* is the traditional, inaccurate name: it is rarely acoustic and never a neuroma.
+## Epidemiology
+It accounts for 8 to 10% of intracranial tumours and about 80% of cerebellopontine angle tumours, usually presenting between 40 and 60. Most are sporadic and one-sided. Bilateral tumours mean *neurofibromatosis type 2*.
+## Why it matters
+It is the commonest serious cause of asymmetric sensorineural hearing loss, and every asymmetric loss is screened for it. Untreated large tumours compress the brainstem and cause hydrocephalus.
+
+# Pathology | Slow growth from inside the canal.
+## Origin and growth
+The tumour arises near the glial-Schwann cell junction in the internal auditory canal, widening the canal before it grows into the cerebellopontine angle. Growth is slow, around 1 to 2 mm a year, and some tumours never grow at all.
+!fig d18-1 | The fundus of the internal auditory canal, showing the position of the facial, cochlear and superior and inferior vestibular nerves.
+## Histology
+Two patterns: *Antoni A*, compact spindle cells with palisading nuclei (Verocay bodies), and *Antoni B*, loose, cystic tissue.
+## Neurofibromatosis type 2
+Autosomal dominant, from loss of the NF2 gene on chromosome 22. Bilateral vestibular schwannomas, often with meningiomas and other schwannomas, present in young adults.
+## Size
+!table Size and spread
+Stage | Size (Dhingra) | What it affects
+Intracanalicular | In the canal | Eighth nerve
+Small | Up to 1.5 cm | Into the angle
+Medium | 1.5 to 4 cm | Fifth nerve, cerebellum
+Large | Over 4 cm | Brainstem, fourth ventricle, hydrocephalus
+!!
+!fig d18-2 | Expansion of an acoustic neuroma: (A) intracanalicular, (B) into the cerebellopontine angle, (C) pressing on the fifth nerve, (D) onwards to the brainstem and lower cranial nerves.
+
+# Clinical features | A stepwise spread.
+## Eighth nerve
+### Hearing loss
+Progressive, one-sided sensorineural loss with poor speech discrimination, often far worse than the pure-tone thresholds suggest. About one in ten presents as sudden hearing loss.
+### Tinnitus
+One-sided and persistent.
+### Balance
+Unsteadiness rather than true vertigo, because the brain compensates as slowly as the tumour grows.
+## Fifth nerve
+At around 2.5 cm: reduced corneal reflex, often the earliest sign, then facial numbness.
+## Seventh nerve
+The sensory fibres fail first: numbness of the posterior meatal wall (*Hitselberger's sign*), loss of taste and reduced lacrimation. Motor weakness of the face comes late.
+## Lower cranial nerves
+Ninth and tenth: dysphagia, hoarseness and a reduced gag.
+## Cerebellum and brainstem
+Ataxia, nystagmus, and finally raised intracranial pressure with headache, vomiting and papilloedema from obstructed CSF flow.
+!flag Urgent
+Headache, vomiting, ataxia or papilloedema with a large tumour means hydrocephalus or brainstem compression: urgent neurosurgical review.
+!!
+
+# Investigations | MRI first.
+## Audiometry
+Asymmetric sensorineural loss, poor discrimination, *roll-over* (discrimination falls as loudness rises), absent or decaying stapedial reflex, and abnormal tone decay: the signs of a retrocochlear lesion.
+## MRI with gadolinium
+The gold standard: finds tumours of a few millimetres. A brightly enhancing mass centred on the internal auditory canal, with a cone into the angle (*ice-cream cone*).
+## Auditory brainstem response
+Used when MRI is not possible. A prolonged inter-aural wave V latency or I–V interval suggests a lesion, but small tumours are missed.
+!differ Abnormal wave V difference
+Dhingra: More than 0.2 ms.
+Lee: 0.4 to 0.5 ms.
+!!
+## Caloric test
+Reduced on the affected side in most, normal in very small tumours.
+## CT
+If MRI cannot be done, and to show the bony canal and approach anatomy.
+## Avoid lumbar puncture
+CSF protein is raised, but a puncture with a large tumour risks herniation.
+## Differential diagnosis
+!table Other cerebellopontine angle lesions
+Lesion | Distinguishing features
+Meningioma | Broad dural base, dural tail, eccentric to the canal, calcification, hyperostosis
+Epidermoid | Does not enhance; bright on diffusion-weighted MRI
+Facial schwannoma | Facial palsy, enlarges the geniculate or labyrinthine segment
+Lipoma | Bright on T1 before contrast; suppresses with fat saturation
+Haemangioma | Ground-glass erosion; palsy out of proportion to size
+Arachnoid cyst | Follows CSF on all sequences
+!!
+
+# Management | Watch, radiate, or remove.
+## Choosing
+The decision rests on tumour size and growth, hearing in both ears, age and health, and the patient's wishes.
+!differ First choice
+Dhingra: Favours surgical removal.
+Lee: Presents observation, radiosurgery and microsurgery as equal options, chosen by patient and tumour.
+Modern practice follows Lee: many small tumours are simply watched.
+!!
+## Observation
+For small tumours, older or unfit patients, and those with good hearing: serial MRI at 6 to 12 months, then less often. Treat if it grows.
+## Stereotactic radiosurgery
+A single high dose (around 12 to 13 Gy at the margin), usually for tumours under 2.5 to 3 cm. Growth is controlled in 90 to 95%. Hearing is not reliably preserved; the facial nerve risk is about 1%; malignant change is very rare, about 1 in 1000. Conventional external beam radiotherapy has no role.
+## Microsurgery
+!table Surgical approaches
+Approach | Best for | Hearing | Main risk
+Translabyrinthine | Any size | Lost | CSF leak
+Retrosigmoid (suboccipital) | Medial, small or large tumours | May be preserved | Headache, cerebellar retraction
+Middle fossa | Canal tumours under 1.5 cm | Preserved in 60–70% | Temporal lobe retraction, facial nerve
+!!
+### Translabyrinthine
+Through the mastoid and labyrinth: no brain retraction and the best view of the facial nerve, but hearing is sacrificed.
+### Retrosigmoid
+Through the posterior fossa behind the sigmoid sinus: hearing can be preserved for tumours that spare the lateral canal; postoperative headache is commoner.
+### Middle fossa
+Above the temporal bone: for small intracanalicular tumours with good hearing. The facial nerve lies over the tumour and is at greater risk.
+## Subtotal removal
+Leaving a little tumour on the facial nerve preserves facial function; the remnant often stays stable and can be watched or irradiated.
+## NF2
+Bevacizumab may shrink tumours and improve hearing. An auditory brainstem implant or cochlear implant can restore some hearing.
+
+# Complications | Of the tumour and of treatment.
+- Facial palsy.
+- Hearing loss.
+- CSF leak and meningitis.
+- Chronic headache, especially after the retrosigmoid route.
+- Hydrocephalus and brainstem compression with large tumours.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Origin:** the vestibular nerve in the internal auditory canal.
+- **Presenting symptoms,** and why vertigo is uncommon.
+- **Order of cranial nerve involvement:** VIII, V (corneal reflex), VII (Hitselberger's sign), IX and X.
+- **Retrocochlear audiology:** discrimination, roll-over, reflex decay.
+- **MRI with gadolinium** as the gold standard.
+- **The three surgical approaches,** with hearing outcome for each.
+- **NF2:** bilateral tumours, chromosome 22.
+!!
+## Common pitfalls
+!pit
+- Not requesting MRI for an asymmetric loss.
+- Attributing sudden hearing loss to a virus without imaging.
+- Doing a lumbar puncture with a large tumour.
+- Promising hearing preservation after radiosurgery.
+!!

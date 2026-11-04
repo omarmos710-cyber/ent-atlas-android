@@ -1,0 +1,152 @@
+@stand A discharging ear with headache, fever, fits or drowsiness is an intracranial complication until proven otherwise. Meningitis is the commonest, brain abscess the next; often there is more than one. The order of work matters: resuscitate, image before any lumbar puncture, start antibiotics, involve neurosurgery, and only then deal with the ear.
+
+# Overview | When otitis media crosses the dura.
+## Definition and scope
+Infection spreading from the middle ear and mastoid into the cranial cavity: extradural abscess, subdural empyema, meningitis, brain abscess, lateral (sigmoid) sinus thrombophlebitis and otitic hydrocephalus. Perforation, ossicular erosion, tympanosclerosis and atelectasis are *sequelae* of otitis media, not complications.
+!fig d12-1 | The complications of suppurative otitis media and the routes of spread.
+## Epidemiology
+Antibiotics have made these complications rare where care is good, but they remain important where chronic ears go untreated. Half of brain abscesses in adults and a quarter in children are otogenic, and a temporal lobe abscess is about twice as common as a cerebellar one.
+## Acute or chronic disease
+Infants with acute otitis media tend to develop meningitis by blood-borne spread. Adults with chronic otitis media, especially cholesteatoma, develop abscesses and sinus thrombosis by bone erosion.
+!differ How often there is more than one
+Dhingra: About one-third of patients with otogenic meningitis have another intracranial lesion.
+Lee: About half.
+Either way, look for a second complication in every patient.
+!!
+
+# Pathogenesis | Three routes into the skull.
+## Routes of spread
+### Direct bone erosion
+Cholesteatoma, osteitis and granulation destroy the tegmen or the sinus plate, bringing infection to the dura.
+### Venous thrombophlebitis
+Infected thrombus in small veins crosses intact bone, which is why an abscess can arise without visible erosion.
+### Preformed pathways
+Congenital dehiscences, a patent petrosquamous suture or Hyrtl's fissure in children, inner ear malformations, fractures, previous surgery, and the round and oval windows via the labyrinth.
+## Risk factors
+Extremes of age, poverty and poor access to care, virulent or resistant organisms, inadequate antibiotic courses, immunosuppression, preformed defects and cholesteatoma.
+## Organisms
+Mixed: *Staphylococcus aureus*, streptococci, *Proteus*, *Pseudomonas* and *E. coli*, with anaerobes such as *Bacteroides*, particularly in abscesses.
+
+# The complications | Each with its own picture.
+## Extradural abscess
+### Picture
+Pus between the bone and the dura of the middle or posterior fossa. Often silent and found at mastoidectomy; sometimes a deep, one-sided headache that eases when pus flows from the ear.
+### Treatment
+At mastoidectomy, remove bone until healthy dura is exposed. If pus is suspected behind an intact plate, take the plate down.
+## Subdural empyema
+### Picture
+Pus in the subdural space spreads quickly over the hemisphere: severe headache, fever, meningism, seizures, aphasia and rapidly progressive hemiplegia, with raised pressure.
+### Treatment
+A neurosurgical emergency: urgent drainage through burr holes or craniotomy, with high-dose antibiotics.
+## Meningitis
+### Picture
+The commonest complication. Headache, fever, photophobia, vomiting, neck stiffness, and positive Kernig and Brudzinski signs; later, drowsiness, fits and coma.
+### CSF
+Turbid, under raised pressure, with many polymorphs, high protein and low sugar.
+### Treatment
+Intravenous antibiotics that penetrate the CSF, and steroids. Treat the ear: myringotomy for acute otitis media, mastoidectomy for chronic disease once the patient is fit.
+!pearl After meningitis
+Check hearing early. Labyrinthitis ossificans can close the cochlea within weeks, and a cochlear implant must go in before it does.
+!!
+## Brain abscess
+### Stages
+!differ Stages of an otogenic brain abscess
+Dhingra: Four stages: invasion (initial encephalitis), localisation (the latent, quiet stage), enlargement, and termination by rupture into the ventricle or subarachnoid space.
+Lee: Three stages: encephalitis, a quiet period, and rupture.
+The quiet stage is the trap: the patient seems better while the abscess is forming.
+!!
+### Raised intracranial pressure
+Morning headache, projectile vomiting, papilloedema, a slow pulse and a subnormal temperature, with drowsiness.
+### Temporal lobe abscess
+Nominal aphasia (with a dominant-side lesion), a contralateral upper quadrant field defect, contralateral weakness, and uncinate fits with hallucinations of taste and smell. An ipsilateral third nerve palsy with a dilated pupil warns of tentorial herniation.
+### Cerebellar abscess
+Suboccipital headache, nystagmus, ipsilateral ataxia with past-pointing, intention tremor and dysdiadochokinesia, and early papilloedema.
+!fig d12-6 d12-7 | First, CT of a left cerebellar abscess. Second, CT of a right otogenic cerebral (temporal lobe) abscess.
+### CSF
+Moderately raised cells and protein with normal sugar; but a lumbar puncture is dangerous and is avoided while there is mass effect.
+### Treatment
+Broad-spectrum intravenous antibiotics with anaerobic cover, steroids or mannitol for raised pressure, and neurosurgical drainage by aspiration through a burr hole or excision. The ear is then made safe through a separate operative field.
+!differ Timing of ear surgery with an abscess
+Dhingra: Operate on the ear once the abscess is controlled.
+Lee: Timing is debated; some treat both at one sitting when the patient is stable.
+!!
+## Lateral sinus thrombophlebitis
+### Picture
+Inflammation of the sigmoid sinus wall, mural thrombus, then an infected clot. The fever is the clue: high, swinging, *picket-fence* fever with rigors and well periods in between, like malaria but irregular.
+### Signs
+- **Griesinger's sign:** oedema over the mastoid emissary vein.
+- **Tobey-Ayer test:** compressing the internal jugular vein on the healthy side raises CSF pressure, but compressing the affected side does not.
+- **Crowe-Beck test:** compressing the healthy jugular vein engorges the retinal veins.
+- Papilloedema, more often with a right-sided thrombus as the right sinus is usually dominant.
+- Tenderness along the jugular vein; septic emboli to the lungs, bones and joints.
+### Investigations
+Blood culture during a rigor, a smear to exclude malaria, and contrast CT (the *empty delta sign*) or MR venography.
+### Treatment
+Intravenous antibiotics and mastoidectomy with exposure of the sinus. If it is needle-aspirated and yields pus or no blood, it is opened between packs placed above and below, and infected clot is removed; healthy clot is left alone. Anticoagulation is debated. Ligation of the internal jugular vein is kept for septic emboli or clot spreading down the neck.
+## Otitic hydrocephalus
+### Picture
+Raised intracranial pressure with normal CSF and normal-sized ventricles, usually after lateral sinus thrombosis that blocks venous outflow. Headache, vomiting, blurred vision, papilloedema and a sixth nerve palsy.
+### CSF
+Pressure over 300 mm of water, with normal contents.
+### Treatment
+Treat the ear and the sinus; lower the pressure with acetazolamide, steroids and mannitol, with repeated lumbar punctures or a shunt if needed. Serial eye examinations are essential, because the danger is blindness from optic atrophy.
+
+# Investigations | Image before you puncture.
+## Imaging
+### Contrast CT of the brain and temporal bone
+The first study: abscess, empyema, bone erosion and the delta sign.
+### MRI with contrast and MR venography
+More sensitive for early cerebritis, subdural collections and sinus thrombosis.
+## Lumbar puncture
+Only when imaging has excluded mass effect and raised pressure.
+!table CSF by complication
+Complication | Pressure | Cells | Sugar
+Meningitis | Raised | Very high, polymorphs | Low
+Brain abscess | Raised | Moderate | Normal
+Sinus thrombosis | Raised | Normal | Normal
+Otitic hydrocephalus | Over 300 mm H2O | Normal | Normal
+!!
+## Other tests
+Blood cultures, full blood count, ear swab, audiogram when possible.
+!table Which complication?
+Complication | Clue | Next step
+Meningitis | Neck stiffness | CT, then lumbar puncture
+Temporal abscess | Aphasia, field defect | MRI, drain
+Cerebellar abscess | Ataxia, nystagmus | MRI, drain
+Sinus thrombosis | Picket-fence fever | MR venography
+Otitic hydrocephalus | Papilloedema, clear CSF | MRV, lower pressure
+!!
+
+# Management | Patient first, ear last.
+## The sequence
+!ward On call: discharging ear with fever and headache
+1. Airway, breathing, circulation; treat sepsis.
+2. Full neurological examination, including fundi and cranial nerves.
+3. Contrast CT of brain and temporal bones, then MRI and MRV.
+4. Start intravenous antibiotics with CSF penetration and anaerobic cover.
+5. Call neurosurgery early.
+6. No lumbar puncture until mass effect and raised pressure are excluded.
+!!
+## Treating the ear
+Acute otitis media: myringotomy and grommet. Chronic disease or cholesteatoma: mastoidectomy to remove the source, once the intracranial problem is controlled and the patient is fit.
+## Outcomes
+Deafness, epilepsy, focal deficits, loss of vision and death. Rupture of an abscess into the ventricle carries a mortality of about 80%.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Routes of spread:** erosion, thrombophlebitis, preformed pathways.
+- **Stages of brain abscess,** and the danger of the quiet stage.
+- **Temporal versus cerebellar abscess signs.**
+- **Lateral sinus thrombosis:** picket-fence fever, Griesinger's sign, Tobey-Ayer and Crowe-Beck tests, delta sign.
+- **CSF in each complication.**
+- **Otitic hydrocephalus:** raised pressure, normal CSF, risk of blindness.
+!!
+## Common pitfalls
+!pit
+- Doing a lumbar puncture before imaging.
+- Being reassured by the quiet stage of an abscess.
+- Treating swinging fever as malaria without examining the ear.
+- Stopping at one complication and missing a second.
+- Forgetting a hearing test after meningitis.
+!!
