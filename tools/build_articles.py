@@ -92,13 +92,24 @@ def compile_one(tid, text):
             t = ' '.join(para); words += len(t.split())
             out.append('<p>%s</p>' % inline(t, refs)); para = []
         def li(x):
-            sub = '<ul class="arli2">%s</ul>' % ''.join('<li>%s</li>' % inline(y, refs) for y in x[1]) if x[1] else ''
+            # sub-items: ('-', text) bullet, ('1', text) numbered, ('p', text) plain note
+            sub, run = '', []
+            def emit(run):
+                if not run: return ''
+                k = run[0][0]
+                if k == 'p': return ''.join('<p class="arli2p">%s</p>' % inline(t, refs) for _, t in run)
+                tag = 'ol' if k == '1' else 'ul'
+                return '<%s class="arli2%s">%s</%s>' % (tag, ' n' if k == '1' else '', ''.join('<li>%s</li>' % inline(t, refs) for _, t in run), tag)
+            for it in x[1]:
+                if run and run[-1][0] != it[0]: sub += emit(run); run = []
+                run.append(it)
+            sub += emit(run)
             return '<li>%s%s</li>' % (inline(x[0], refs), sub)
         if lst:
-            words += sum(len((x[0] + ' ' + ' '.join(x[1])).split()) for x in lst)
+            words += sum(len((x[0] + ' ' + ' '.join(t for _, t in x[1])).split()) for x in lst)
             out.append('<ul class="arl">%s</ul>' % ''.join(li(x) for x in lst)); lst = []
         if olst:
-            words += sum(len((x[0] + ' ' + ' '.join(x[1])).split()) for x in olst)
+            words += sum(len((x[0] + ' ' + ' '.join(t for _, t in x[1])).split()) for x in olst)
             out.append('<ol class="arol">%s</ol>' % ''.join(li(x) for x in olst)); olst = []
 
     def close_br():
@@ -238,9 +249,9 @@ def compile_one(tid, text):
         m = re.match(r'!(\w+)\s*(.*)', ln)
         if m and m.group(1) in ('pearl', 'flag', 'exam', 'update', 'note', 'ward', 'pit', 'differ', 'table', 'tree', 'ladder'):
             flush(); box = (m.group(1), m.group(2).strip(), []); continue
-        m = re.match(r'\s{2,}- (.*)', ln)
+        m = re.match(r'\s{2,}(?:(- )|(\d+\.\s+))?(\S.*)', ln)
         if m and (lst or olst):
-            (lst or olst)[-1][1].append(m.group(1).strip()); continue
+            (lst or olst)[-1][1].append(('-' if m.group(1) else '1' if m.group(2) else 'p', m.group(3).strip())); continue
         if ln.startswith('- '):
             if para or olst: flush()
             lst.append([ln[2:].strip(), []]); continue

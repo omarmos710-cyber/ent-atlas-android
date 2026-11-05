@@ -1,0 +1,208 @@
+@stand Cleft lip and palate is the commonest congenital malformation of the head and neck, and its care lasts from the antenatal scan to the end of growth. The ENT surgeon's part is large and long: feeding and airway in the newborn, glue ear in nearly every child with a cleft palate, speech and velopharyngeal insufficiency, and the submucous cleft that is missed until the adenoids come out. Care is given by a multidisciplinary team, to a timetable.
+
+# Basics | Anatomy, embryology, causes.
+## The lip
+- **Orbicularis oris (VII):** the sphincter of the mouth, with the superior labial artery deep to it.
+- **Surface landmarks:**
+  - The *white roll* at the vermilion border. A 1 mm step is visible.
+  - *Cupid's bow*.
+  - The two *philtral columns* (the lines of embryological fusion) and the philtral dimple between them.
+!anat s167_13 | Lip landmarks: vermilion, philtrum, Cupid's bow and commissures.
+## The palate
+- **Primary palate:** in front of the *incisive foramen*: the premaxilla with the four incisors, the alveolus and the lip.
+- **Secondary palate:** behind the incisive foramen: the hard palate (palatine processes of maxilla and palatine bones) and the soft palate.
+- **Soft palate muscles:**
+  - The *levator veli palatini* forms a sling that lifts the velum against the posterior pharyngeal wall.
+  - The *tensor veli palatini* opens the eustachian tube. It is the only palatal muscle supplied by *V3*; all the others are supplied by the vagus (pharyngeal plexus).
+  - The others: palatoglossus, palatopharyngeus, musculus uvulae.
+- **Blood supply:**
+  - Hard palate: the greater palatine artery, through the greater palatine foramen. It is the pedicle of palatal flaps.
+  - Soft palate: the lesser palatine, ascending palatine and ascending pharyngeal arteries.
+!anat s173_27 s206_20 | The hard and soft palate, and Passavant ridge where the velum closes against the pharyngeal wall.
+## Embryology
+- **The lip and primary palate (weeks 4 to 7):**
+  - The paired *maxillary prominences* (first arch) grow medially to fuse with the *medial nasal prominences* (from the frontonasal process).
+  - The medial nasal prominences join to form the intermaxillary segment: the philtrum, premaxilla and four incisors.
+  - Failure of fusion causes *cleft lip* with or without cleft alveolus.
+- **The secondary palate (weeks 6 to 12):**
+  - The *palatine shelves* grow down beside the tongue, rise to the horizontal as the tongue drops, and fuse from front (incisive foramen) to back (uvula).
+  - Failure causes *cleft palate*. The tongue failing to drop, as with a small mandible, causes the U-shaped cleft of *Pierre Robin sequence*.
+!anat ns203_0 | Rathke pouch and the buccopharyngeal membrane in the early embryo.
+## Epidemiology and causes
+!table Two different conditions
+Feature | Cleft lip with or without palate | Isolated cleft palate
+Frequency | About 1 in 700 to 1000 births; varies with ethnicity (commoner in Asian and Native American, less in African populations) | About 1 in 1500 to 2000; uniform across ethnicities
+Sex | Boys more than girls | Girls more than boys
+Associated syndromes | Up to about 30% | Up to about 50%
+Side | 80% unilateral, two-thirds of these on the left | —
+!!
+- **Genetics:** multifactorial. The risk to a sibling is about 4%, and higher when more relatives are affected.
+- **Environmental factors:**
+  - Smoking, alcohol.
+  - Anticonvulsants (phenytoin, valproate), retinoids, steroids.
+  - Folate deficiency.
+  - Amniotic bands.
+- **Syndromes:**
+  - *Van der Woude syndrome*: autosomal dominant (IRF6). *Lower lip pits* with cleft lip or palate. The commonest syndromic cleft.
+  - *Pierre Robin sequence*: micrognathia, then glossoptosis, then a wide U-shaped cleft palate, with airway obstruction and feeding difficulty.
+  - *Stickler syndrome*: the commonest syndrome in Robin sequence. A collagen disorder with high myopia, *retinal detachment* (eye screening is essential), hearing loss and joint problems.
+  - *22q11.2 deletion (velocardiofacial or DiGeorge) syndrome*: cleft palate or velopharyngeal insufficiency, heart defects, hypocalcaemia, immune deficiency, learning difficulty. The carotids may lie *medially* behind the pharynx, a danger at pharyngeal surgery.
+  - Treacher Collins syndrome, hemifacial microsomia, CHARGE association, Apert syndrome.
+
+# Classification | Describing a cleft.
+- **Cleft lip:** unilateral or bilateral.
+  - *Complete*: through the nasal sill.
+  - *Incomplete*: the nasal sill is intact, sometimes with a *Simonart band* of tissue bridging the cleft.
+  - *Microform*: a notch and a muscle gap under intact skin.
+- **Cleft palate:**
+  - *Unilateral*: one palatal shelf is attached to the vomer.
+  - *Bilateral*: the vomer is free in the midline.
+- **Veau classification:**
+  - Group I: the soft palate only.
+  - Group II: the soft and hard palate to the incisive foramen.
+  - Group III: complete unilateral cleft through lip, alveolus and palate.
+  - Group IV: complete bilateral cleft.
+- **Submucous cleft palate:** intact mucosa with the muscles separated underneath. The classic triad (*Calnan triad*):
+  - *Bifid uvula*.
+  - *Zona pellucida*: a translucent bluish midline strip in the soft palate.
+  - A *notch in the posterior edge of the hard palate*, felt with a finger.
+  - An *occult* submucous cleft has none of these signs and is seen only on nasendoscopy (no muscle bulge on the nasal surface of the velum).
+!flag Check the palate before adenoidectomy
+A bifid uvula, a palpable notch or hypernasal speech means a possible submucous cleft or velopharyngeal weakness. A full adenoidectomy can unmask *velopharyngeal insufficiency*, because the adenoid was helping the palate seal. Avoid adenoidectomy, or do a limited (superior) one, and involve the cleft team.
+!!
+
+# Early care | Feeding, airway, ears.
+## The newborn
+- **Diagnosis:** often antenatally by ultrasound, which allows counselling.
+- **Feeding:**
+  - A baby with a cleft palate cannot create suction.
+  - Breastfeeding is usually not possible, except with cleft lip alone.
+  - Use squeezy bottles or special teats (Haberman, pigeon) and upright feeding.
+  - Monitor weight gain closely.
+- **Airway (especially Robin sequence):**
+  - Prone or side positioning.
+  - A nasopharyngeal airway.
+  - In severe cases: tongue–lip adhesion, *mandibular distraction osteogenesis*, or tracheostomy.
+  - Sleep studies.
+- **Assessment:**
+  - Look for other anomalies (heart, syndromes).
+  - Genetic review.
+  - *Hearing screening*.
+- **Presurgical orthopaedics:** lip taping or *nasoalveolar moulding* to narrow a wide cleft and shape the nose before lip repair.
+## The ears
+- **Cause:** the abnormal insertion of the tensor and levator muscles prevents the eustachian tube from opening. Otitis media with effusion affects *almost every child (over 90%)* with a cleft palate.
+- **Management:**
+  - Hearing tests from birth and throughout childhood.
+  - Ventilation tubes or hearing aids for persistent hearing loss.
+  - Tubes are often inserted at lip or palate repair.
+  - The ears usually improve after palate repair and with growth.
+- **Long-term risks:** chronic otitis media, retraction pockets and cholesteatoma.
+!ops 202 | Mandibular distraction.
+
+# Surgery | To a timetable.
+## The timetable
+!table A typical cleft care timeline
+Age | Step
+Antenatal and birth | Diagnosis, counselling, feeding plan, airway, hearing screen, genetics
+Weeks 1 to 12 | Presurgical orthopaedics (lip taping, nasoalveolar moulding) if needed
+About 3 months | Cleft lip repair, with or without primary rhinoplasty (traditional "rule of 10s": 10 weeks, 10 lb, haemoglobin 10 g/dL)
+6 to 12 (up to 18) months | Cleft palate repair, with ear tubes as needed
+3 to 5 years | Speech assessment; velopharyngeal surgery if needed; fistula repair
+8 to 11 years (mixed dentition, before the canine erupts) | Alveolar bone graft (cancellous bone from the iliac crest)
+Teens | Orthodontics; orthognathic surgery (maxillary advancement) after growth
+16 to 18 years | Definitive septorhinoplasty; lip revision
+!!
+## Cleft lip repair
+- **Aims:**
+  - Join the *orbicularis oris* into a working sphincter.
+  - Align the white roll and vermilion exactly.
+  - Create a symmetrical philtrum, nostril sill and alar base.
+  - Correct the nose.
+- **The unilateral cleft lip nose:**
+  - The cleft-side alar cartilage is displaced down, back and out, with a flat, low dome.
+  - The alar base is wide.
+  - The columella and caudal septum deviate to the *non-cleft* side.
+  - The maxilla on the cleft side is hypoplastic.
+- **Millard rotation–advancement repair:**
+  - The *non-cleft side* (medial lip) is *rotated* down to level Cupid's bow.
+  - The *cleft side* (lateral lip) is *advanced* into the gap beneath the nostril.
+  - The muscle is released from its abnormal insertions and repaired, and the nasal floor is closed.
+  - Alternatives include the Fisher anatomical subunit repair and triangular-flap repairs.
+- **Bilateral cleft lip:**
+  - The protruding premaxilla, a prolabium without muscle, and a short columella make it harder.
+  - Repaired in one or two stages, building the muscle across behind the prolabium.
+- **Complications:** dehiscence, a vermilion notch ("whistle deformity"), a mismatched white roll, scar hypertrophy, and nasal asymmetry.
+## Cleft palate repair
+- **Timing:** about 9 to 12 months (under 18 months). This balances *better speech with early repair* against *better maxillary growth with later repair*.
+- **Aims:**
+  - Separate the mouth from the nose.
+  - Above all, *rebuild the levator sling* (intravelar veloplasty) and lengthen the palate for normal speech.
+- **The cleft muscle:** in a cleft the levator runs front to back and inserts into the back of the hard palate instead of meeting its partner in the midline.
+- **Techniques:**
+  - *Two-flap palatoplasty (Bardach)*: mucoperiosteal flaps on the greater palatine pedicles, closing the nasal and oral layers, with intravelar veloplasty. Used for complete clefts.
+  - *Von Langenbeck repair*: bipedicled flaps with lateral relaxing incisions.
+  - *Furlow double-opposing Z-plasty*: opposite Z-plasties on the oral and nasal layers. This *lengthens the palate and realigns the levator*. Used for soft palate clefts, submucous clefts and velopharyngeal insufficiency.
+  - *Veau–Wardill–Kilner V–Y pushback*: older, and leaves more raw bone and growth restriction.
+- **Complications:**
+  - Bleeding.
+  - Airway obstruction (especially in Robin sequence).
+  - *Oronasal fistula*: up to about 10%, commonly at the junction of hard and soft palate.
+  - *Velopharyngeal insufficiency*: up to about 20 to 25%.
+  - Maxillary hypoplasia.
+- **Submucous cleft:** repair only if it causes symptoms (velopharyngeal insufficiency, feeding or ear problems). Furlow palatoplasty or intravelar veloplasty is used.
+!ops 206 37 | Cleft palate and velopharyngeal dysfunction, and surgery of the soft palate.
+
+# Velopharyngeal dysfunction | Speech and the palate.
+## Definitions
+- **Velopharyngeal insufficiency:** a structural deficit. The palate is too short or scarred, or there is a cleft or submucous cleft, or tissue has been lost after adenoidectomy or tumour surgery.
+- **Velopharyngeal incompetence:** a neuromuscular deficit, as in palsies or 22q11 deletion.
+- **Velopharyngeal mislearning:** an articulation pattern that needs therapy only.
+## Features
+- *Hypernasality* (resonance) on vowels and voiced oral consonants. The nasal sounds /m/, /n/ and /ng/ are normal.
+- *Nasal air emission* and nasal turbulence on pressure consonants (p, b, t, d, s).
+- Weak consonants and *compensatory articulations* such as glottal stops.
+- Nasal regurgitation of food and liquid.
+## Assessment
+- **Perceptual speech assessment** by a speech and language therapist.
+- **Imaging the velopharynx during speech:**
+  - *Nasendoscopy*, which shows the size and site of the gap and the closure pattern.
+  - *Multiview videofluoroscopy*.
+- **Closure patterns:** coronal (the commonest), sagittal, circular, and circular with Passavant ridge.
+- **Before pharyngeal surgery:** check for 22q11 deletion with *medialised carotids*, ideally with MRA, and for obstructive sleep apnoea.
+## Treatment
+- **Speech therapy:** for mislearning and small gaps. Surgery corrects structure, therapy corrects articulation.
+- **Surgery:**
+  - *Palate re-repair*: Furlow double-opposing Z-plasty or a radical intravelar veloplasty, for a short palate or malpositioned muscle with a small gap.
+  - *Posterior pharyngeal wall augmentation*: fat, implants or fillers for small central gaps. Migration and extrusion are risks.
+  - *Superiorly based pharyngeal flap*: a central flap from the posterior wall attached to the velum, leaving two lateral ports. Used for *large central gaps with good lateral wall movement*.
+  - *Sphincter pharyngoplasty (Orticochea, Jackson, Hynes)*: the posterior tonsillar pillars with palatopharyngeus are transposed and sutured to the posterior wall, narrowing the port while leaving a central opening. Used for *circular or bow-tie gaps and poor lateral wall movement*.
+- **Prosthetics:** a speech bulb or palatal lift, for poor surgical candidates.
+- **Main risk of pharyngeal surgery:** *obstructive sleep apnoea* and hyponasality. Monitor oxygen saturation after surgery.
+!ops 54 | Advanced palatal surgery: expansion sphincter and transpalatal advancement pharyngoplasty.
+
+# Later care | Bone, jaws, nose.
+- **Alveolar bone grafting:** in mixed dentition (about 8 to 11 years), before the permanent canine erupts. Cancellous bone from the iliac crest. It closes the alveolar cleft and any oronasal fistula there, and supports the teeth and the alar base.
+- **Maxillary hypoplasia:** about a quarter need *Le Fort I advancement* or distraction once growth stops, for a class III bite.
+- **Cleft lip nasal deformity:** a primary rhinoplasty at lip repair, then a definitive *septorhinoplasty* after facial growth, using cartilage grafts.
+- **Dental and psychological care:** dental care and orthodontics throughout. Psychological support for the child and family, especially at school age and adolescence.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Primary versus secondary palate;** the incisive foramen; the embryology of each.
+- **The nerve supply of the palatal muscles** (tensor by V3).
+- **Cleft lip versus isolated cleft palate:** epidemiology and syndromes (Van der Woude, Robin, Stickler, 22q11).
+- **The submucous cleft triad,** and why it matters before adenoidectomy.
+- **The timetable of care,** and the rule of 10s.
+- **Millard repair:** which side rotates.
+- **Furlow palatoplasty and intravelar veloplasty.**
+- **Otitis media with effusion in cleft palate:** why, and how it is managed.
+- **Velopharyngeal insufficiency:** signs, nasendoscopy, pharyngeal flap versus sphincter pharyngoplasty, OSA risk.
+!!
+## Common pitfalls
+!pit
+- Adenoidectomy in a child with an unrecognised submucous cleft.
+- Missing Stickler syndrome (retinal detachment) in Robin sequence.
+- Pharyngeal surgery in 22q11 deletion without imaging the carotids.
+- Neglecting hearing surveillance after the palate is repaired.
+!!

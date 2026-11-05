@@ -1,0 +1,217 @@
+@stand Lasers, radiofrequency, coblation, cryotherapy and hyperbaric oxygen are tools, and each works through one physical principle. Know which tissue absorbs which wavelength, how much collateral damage each tool leaves, and the safety rules. The airway fire is the disaster every ENT surgeon working with lasers must prevent.
+
+# Lasers | Light amplification by stimulated emission of radiation.
+## How a laser works
+1. **Pumping:** an energy source (electric current or a flash lamp) excites the atoms of an *active medium*. The medium can be a gas (CO2, argon, helium–neon), a solid crystal (Nd:YAG, KTP, erbium, holmium), a liquid dye, or a semiconductor (diode).
+2. **Spontaneous and stimulated emission:** excited electrons fall back and release photons. A photon striking another excited atom makes it release an identical photon, of the same wavelength, direction and phase. This is *stimulated emission*.
+3. **Population inversion:** when more atoms are excited than not, amplification begins.
+4. **Resonance:** two mirrors at the ends of a resonant cavity (one fully reflecting, one partly) bounce the light back and forth to amplify it. The beam leaves through the partly reflecting mirror.
+
+The result is light that is *monochromatic*, *coherent* (in phase), *collimated* (parallel) and of high intensity, and that can be focused to a tiny spot.
+## Laser and tissue
+When a laser beam meets tissue it is *reflected*, *transmitted*, *scattered* or *absorbed*. Only absorbed energy has an effect.
+- **Chromophores:** each target molecule absorbs particular wavelengths.
+  - *Water* absorbs infrared: CO2 and Er:YAG.
+  - *Haemoglobin* absorbs green and yellow (peaks at 418, 542 and 577 nm): KTP 532 nm, pulsed dye 585 to 595 nm.
+  - *Melanin* absorbs across the spectrum, mainly visible and near-infrared: ruby, alexandrite, Nd:YAG.
+- **Temperature effects:**
+  - At about 60°C proteins denature (reversible coagulation).
+  - Around 80°C collagen breaks down.
+  - At 100°C water boils and tissue *vaporises*.
+- **The three zones of a laser wound:**
+  1. A crater of vaporisation.
+  2. A zone of thermal necrosis (which seals small vessels, nerves and lymphatics).
+  3. A zone of thermal conductivity and repair (reversible).
+- **Penetration depth:**
+  - Longer visible wavelengths penetrate deeper.
+  - But water-absorbed infrared (CO2, Er:YAG) penetrates only microns, giving precise cuts with little collateral damage.
+  - Nd:YAG coagulates about 4 mm deep, so it is good for haemostasis but imprecise.
+- **Effects:** photothermal (cutting, coagulation, vaporisation), photochemical (photodynamic therapy), photoacoustic (stone fragmentation) and photoablative (excimer).
+!fig d71-1 d71-2 | First, the fates of a laser beam in tissue: (a) reflection, (b) transmission, (c) scatter, (d) absorption with tissue destruction. Second, the zones of tissue damage: vaporisation, thermal necrosis, and thermal conductivity and repair.
+## Parameters the surgeon controls
+- **Power** (watts).
+- **Spot size:** smallest at the focal point. A focused beam cuts; a defocused beam coagulates and ablates.
+- **Exposure time,** and mode:
+  - *Continuous*.
+  - *Pulsed*.
+  - *Superpulsed* or *Q-switched*: very short pulses, longer than the tissue's *thermal relaxation time*, so heat can dissipate between pulses and collateral damage is less.
+- **Power density** (W/cm²): power divided by spot area. It sets the rate of cutting.
+- **Fluence** (J/cm²): power density × time. The total energy delivered.
+## Delivery
+- **Fibre-deliverable lasers:** visible and near-infrared lasers (argon, KTP, Nd:YAG, diode, holmium) travel down *flexible optical fibres*. They can be used through endoscopes and bronchoscopes.
+- **CO2:** cannot pass through ordinary fibres. It travels by an *articulated arm* with mirrors to a micromanipulator on the microscope, or through hollow flexible waveguides.
+- **Invisible beams:** CO2 and Nd:YAG need a red helium–neon *aiming beam*.
+!fig d71-3 | The electromagnetic spectrum, with the wavelengths of the common surgical lasers.
+!table Common lasers in ENT
+Laser | Wavelength | Absorbed by | Delivery | Typical uses
+CO2 | 10,600 nm (far infrared, invisible) | Water | Articulated arm, micromanipulator, waveguide | Workhorse of laryngology: nodules, polyps, cysts, papillomas, Reinke oedema, leukoplakia, T1 glottic cancer (transoral laser microsurgery), cordotomy and arytenoidectomy, stapedotomy, skin resurfacing
+KTP | 532 nm (green) | Haemoglobin, melanin | Fibre | Vascular lesions, papillomas (office angiolytic laser), stapedotomy, sinus surgery, HHT
+Argon | 488 to 514 nm (blue–green) | Haemoglobin, melanin | Fibre | Vascular skin lesions, stapes surgery (historical)
+Nd:YAG | 1064 nm (near infrared, invisible) | Pigment; deep penetration | Fibre | Deep coagulation: palliation of tracheobronchial and oesophageal tumours, vascular malformations, HHT
+Diode | 800 to 980 nm | Haemoglobin, melanin | Fibre | Turbinate reduction, stapedotomy, dacryocystorhinostomy, vascular lesions
+Er:YAG | 2940 nm | Water (peak) | Fibre or arm | Fine skin resurfacing, bone (stapes)
+Ho:YAG | 2100 nm | Water | Fibre | Bone, sinus, stones
+Pulsed dye | 585 to 595 nm (yellow) | Haemoglobin | Fibre | Port-wine stains, haemangiomas, telangiectasia
+!!
+## Advantages and disadvantages
+- **Advantages:**
+  - Precision.
+  - Haemostasis.
+  - A bloodless field.
+  - Little postoperative oedema and pain.
+  - Access through endoscopes.
+- **Disadvantages:**
+  - Cost.
+  - Training.
+  - Thermal injury.
+  - No tactile feedback.
+  - *Fire and eye hazards*.
+## Laser safety
+- **Organisation:** a laser safety officer, trained and certified staff, and a "*laser in use*" sign on a closed door.
+- **Eyes:**
+  - Everyone in the room, including the patient, wears *wavelength-specific goggles*: clear glass or plastic for CO2, orange or amber for argon and KTP, green-blue for Nd:YAG.
+  - Visible and near-infrared lasers (400 to 1400 nm) pass through the eye and burn the *retina*. CO2 and other far-infrared lasers burn the *cornea*.
+  - The patient's eyes are covered with wet pads, and exposed skin with wet towels.
+- **Smoke plume:** a separate smoke evacuator. The plume can carry viable viral particles (HPV from papillomas) and is mutagenic.
+- **Airway fire:** the *fire triangle* is heat (the laser), fuel (the tube, drapes, cottonoids) and oxidiser (oxygen, nitrous oxide). Prevention:
+  - Laser-safe tubes (metal or specially wrapped), or jet ventilation without a tube.
+  - Cuff filled with *saline coloured with methylene blue*, so a puncture is seen at once.
+  - Wet cottonoids protecting the cuff and tissues.
+  - Oxygen at 30% or less (no more than 40%).
+  - *No nitrous oxide*.
+  - Lowest effective power.
+  - The beam directed only at the target.
+!flag Airway fire drill
+1. Stop the laser.
+2. Stop ventilation and disconnect oxygen.
+3. Remove the tube.
+4. Pour saline into the airway.
+5. Ventilate by mask with air.
+6. Reintubate.
+7. Do bronchoscopy to assess the injury and remove debris.
+8. Give steroids, antibiotics and close follow-up for stenosis.
+!!
+!ops 11 34 | Transoral CO2 laser microsurgery of the larynx and the tongue base.
+## Photodynamic therapy
+- **Principle:** a photosensitiser is given (systemically, such as porphyrins or temoporfin, or topically as aminolaevulinic acid for skin) and concentrates in tumour cells. Light of a matching wavelength (around 630 to 652 nm) then generates oxygen free radicals that kill them.
+- **Uses:** superficial cancers of the skin, oral cavity and larynx, field cancerisation, and palliation of recurrences.
+- **Precaution:** patients must avoid sunlight for weeks because of skin photosensitivity.
+
+# Radiofrequency and coblation | Lower temperatures.
+## Radiofrequency ablation
+- **Principle:** high-frequency alternating current (about 350 kHz to 4 MHz, commonly 460 kHz) delivered through a probe *within* the tissue. It causes ionic agitation and heating to about 70 to 85°C, producing coagulation without charring. Fibrosis over three to six weeks shrinks the tissue.
+- **Uses:**
+  - Volume reduction of inferior turbinates, soft palate and tongue base (snoring and obstructive sleep apnoea).
+  - Tonsil reduction.
+  - Lingual thyroid.
+  - Thyroid nodules.
+  - Microcystic lymphatic malformations.
+- **Tongue base caution:** the hypoglossal neurovascular bundle lies about 2.7 cm deep and 1.6 cm lateral to the foramen caecum.
+- **Advantages:** done as an outpatient, with little pain, repeatable.
+## Coblation (controlled ablation)
+- **Principle:** radiofrequency energy passed through *conductive saline* creates a thin *plasma field* of energised sodium ions. These break molecular bonds and dissolve tissue at only *40 to 70°C*, against 400 to 600°C for electrocautery. There is little charring or collateral injury.
+- **One instrument:** ablation, suction, irrigation and coagulation.
+- **Uses:**
+  - Tonsillectomy and adenoidectomy (intracapsular tonsillotomy in children).
+  - Tongue base reduction and palatal surgery.
+  - Turbinates and nasal polyps.
+  - Laryngeal papillomas and cysts.
+  - Cordotomy.
+  - Subglottic and tracheal lesions.
+  - Juvenile angiofibroma.
+- **Tonsillectomy outcomes:** pain and haemorrhage after coblation tonsillectomy are similar to, or slightly better than, other hot techniques. Intracapsular coblation has less pain and bleeding.
+!fig d71-5 d71-6 | First, the principle of coblation. Second, (A) a coblation generator and (B) the different wands.
+!table Coblation compared with electrosurgery
+Feature | Coblation | Electrosurgery (diathermy)
+Temperature | 40 to 70°C | 400 to 600°C
+Mechanism | Chemical: plasma breaks molecular bonds | Thermal: heating, charring
+Collateral damage | Superficial, minimal | Deeper
+Field | Saline irrigated, suction built in | Dry
+!!
+
+# Cryosurgery | Destruction by freezing.
+## Principle
+- **Agents:** liquid nitrogen (spray or probe, to −196°C), nitrous oxide or CO2 probes (the *Joule–Thomson effect*: expanding compressed gas through a small orifice cools the tip to about −70°C or below).
+- **Technique:** freeze rapidly to −20 to −30°C or colder, *thaw slowly*, and repeat the cycle. A thermocouple can monitor tissue temperature. Include a margin of normal tissue.
+- **Mechanisms of cell death:**
+  - Ice crystals and *dehydration* with toxic electrolyte concentrations.
+  - *Denaturation* of membrane lipoproteins.
+  - Thermal shock.
+  - *Vascular stasis* and microthrombosis, giving ischaemic necrosis. This is why vascular lesions respond well.
+  - A possible immune ("cryoimmunisation") effect.
+- **Healing:** slough separates in three to six weeks, by secondary intention, with little scarring.
+## Uses
+- Haemangiomas and vascular malformations.
+- Premalignant lesions (leukoplakia, actinic keratosis).
+- Superficial skin cancers (Bowen disease, small basal cell carcinomas, with cure rates above 90%), including those over cartilage, which resists freezing.
+- Palliation of advanced and recurrent tumours.
+- Turbinates.
+- Formerly, tonsils in high-risk patients.
+!fig d72-1 | Cryotherapy for a haemangioma of the cheek.
+## Pros and cons
+- **Advantages:**
+  - Done as an outpatient, often without anaesthesia.
+  - Safe in bleeding disorders and in poor-risk patients.
+  - Little pain.
+  - Minimal scarring and no keloid.
+  - Cheap.
+  - Repeatable.
+- **Disadvantages:**
+  - No histology or margin control.
+  - Imprecise depth.
+  - Hypopigmentation and hair loss in skin.
+  - Swelling and slough.
+  - Unsuitable for recurrent or ill-defined cancers.
+
+# Hyperbaric oxygen | Pressure and oxygen.
+## Principle
+Breathing 100% oxygen at more than one atmosphere absolute (usually 2.0 to 2.5 ATA, for 90 to 120 minutes, in a series of 10 to 40 sessions) increases dissolved oxygen in plasma several-fold. This:
+- Raises tissue oxygen tension.
+- Stimulates angiogenesis and fibroblast activity.
+- Improves leucocyte killing.
+- Reduces oedema.
+- Shrinks gas bubbles.
+!fig d71-4 | A multiplace hyperbaric chamber.
+## ENT uses
+- **Osteoradionecrosis and soft-tissue radiation injury:** an adjunct to debridement and reconstruction. Evidence is mixed: Marx's older protocol supported giving it before dental extraction in irradiated jaws, but the randomised HOPON trial found no reduction in osteoradionecrosis. Pentoxifylline–tocopherol is an alternative.
+- **Necrotising otitis externa and skull base osteomyelitis:** refractory cases.
+- **Compromised flaps and grafts.**
+- **Sudden sensorineural hearing loss:** as salvage or with steroids within two weeks of onset (moderate to profound loss).
+- **Decompression sickness** (including inner ear decompression sickness in divers), air embolism, carbon monoxide poisoning, necrotising fasciitis.
+## Complications and contraindications
+- **Complications:** middle ear barotrauma (the commonest; may need grommets), sinus barotrauma, oxygen toxicity seizures, temporary myopia, claustrophobia.
+- **Absolute contraindication:** untreated pneumothorax.
+- **Relative contraindications:** eustachian tube dysfunction, upper respiratory infection, emphysema with bullae, uncontrolled epilepsy, certain chemotherapy drugs (bleomycin, doxorubicin).
+
+# Narrow band imaging | Seeing the vessels.
+- **Principle:** filters narrow the endoscope's light to two bands, *415 nm (blue)* and *540 nm (green)*, which are absorbed by haemoglobin and penetrate only the superficial layers. Superficial capillaries appear brown and submucosal veins cyan.
+- **Value:** abnormal *intraepithelial papillary capillary loops* (dilated, tortuous, with brown dots) mark dysplasia and early cancer. This helps to:
+  - Detect small (under 1 cm) and second primary cancers.
+  - Target biopsies.
+  - Define resection margins.
+  - Survey for recurrence after radiotherapy.
+- **Limitations:** secretions, bleeding, keratosis and post-radiation change reduce accuracy.
+!fig d71-7 | Carcinoma of the epiglottis (A) under white light and (B) under narrow band imaging.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **What LASER stands for,** the properties of laser light, and its components.
+- **Chromophores;** CO2 versus KTP versus Nd:YAG: wavelength, absorption, delivery, uses.
+- **The three zones of a laser wound;** power density and fluence.
+- **Laser safety:**
+  - Eye protection by wavelength.
+  - Laser-safe tubes and the blue-dyed saline cuff.
+  - Low oxygen and no nitrous oxide.
+  - The airway fire drill.
+- **Coblation versus diathermy;** radiofrequency for sleep surgery.
+- **Mechanisms of cryotherapy;** freeze fast, thaw slowly.
+- **Hyperbaric oxygen:** how it works, ENT indications, complications.
+!!
+## Common pitfalls
+!pit
+- Using nitrous oxide or high oxygen during laser airway surgery.
+- Giving the theatre team the wrong goggles for the wavelength.
+- Treating an undiagnosed lesion with cryotherapy or laser vaporisation without taking a biopsy first.
+- Forgetting ear barotrauma in patients starting hyperbaric oxygen.
+!!

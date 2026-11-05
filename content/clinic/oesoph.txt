@@ -1,0 +1,371 @@
+@stand Dysphagia is a symptom with a long list of causes, from a stroke to a stricture to a cancer. Most are sorted by asking three questions. Is the problem getting food out of the mouth and pharynx (oropharyngeal), or getting it down the oesophagus (oesophageal)? Is it worse for solids or for liquids? Is it progressive or intermittent? Progressive dysphagia to solids, then liquids, with weight loss in an older smoker is cancer until endoscopy proves otherwise.
+
+# Applied anatomy | A 25-centimetre muscular tube.
+## Course and narrowings
+- **Course:** about 25 cm long. It runs from the cricopharyngeus at C6 to the cardia at T11, passing slightly to the left in the neck and again in the lower chest.
+- **Three normal constrictions,** measured from the upper incisors at endoscopy:
+  1. The pharyngo-oesophageal junction at C6: about *15 cm*.
+  2. The crossing of the aortic arch and left main bronchus at T4: about *25 cm*.
+  3. The diaphragmatic hiatus at T10: about *40 cm*. The cardia is at about 40 to 42 cm.
+- **Why they matter:** these are where foreign bodies lodge, where caustic burns are worst, and where instruments perforate.
+!fig d67-1 d67-2 | First, the oesophagus and its normal constrictions, with distances from the upper incisors. Second, the oesophagus with its sphincters and the change from striated to smooth muscle.
+## Wall and supply
+- **Layers:**
+  - Mucosa of non-keratinised stratified squamous epithelium.
+  - Submucosa with *Meissner* plexus.
+  - Inner circular and outer longitudinal muscle with *Auerbach (myenteric)* plexus between them.
+  - An outer adventitia. There is *no serosa*, which is why leaks spread freely and anastomoses are fragile.
+- **Muscle type:**
+  - Upper third: striated.
+  - Middle third: mixed.
+  - Lower third: smooth.
+- **Arteries:**
+  - Upper third: inferior thyroid artery.
+  - Middle third: aortic branches.
+  - Lower third: left gastric and inferior phrenic arteries.
+- **Veins:** the lower oesophagus is a portosystemic anastomosis, the site of *varices*.
+- **Lymphatics:** to deep cervical, mediastinal and coeliac nodes. Submucosal lymphatics allow *skip lesions* in cancer.
+- **Nerves:** vagus and sympathetic chain.
+!anat s227_55 s228_59 | Constrictions of the oesophagus and their distances from the incisors, and the layers and innervation of the oesophagus.
+## Sphincters
+- **Upper oesophageal sphincter (UES):**
+  - Mainly the *cricopharyngeus*, 3 to 5 cm long.
+  - Tonically closed at rest, which prevents air swallowing and reflux into the pharynx.
+  - It relaxes and is pulled open by laryngeal elevation when we swallow.
+  - Above it, between the thyropharyngeus and the cricopharyngeus, is *Killian dehiscence*, the site of the pharyngeal pouch. Below it, between the cricopharyngeus and the oesophageal muscle, is *Laimer triangle*.
+- **Lower oesophageal sphincter (LES):**
+  - A physiological high-pressure zone, not an anatomical sphincter.
+  - Helped by the diaphragmatic crura (the "pinch-cock"), the acute *angle of His*, the mucosal folds, and the positive intra-abdominal pressure acting on the abdominal segment.
+!anat s226_54 s199_7 | Killian and Laimer triangles, and Killian dehiscence with a pharyngeal pouch.
+
+# Swallowing | Three phases.
+## The phases
+- **Oral (voluntary) phase:** chewing, mixing with saliva, forming a bolus, and pushing it back with the tongue against the palate. It ends when the bolus touches the faucial pillars, which triggers the reflex swallow.
+- **Pharyngeal (reflex) phase:** under a second. It is a sequence of protective closures and propulsion:
+  - The soft palate rises against *Passavant ridge*, closing the nasopharynx.
+  - The tongue presses against the palate, closing the mouth.
+  - Breathing stops and the larynx closes, from below upwards: true folds, false folds, then the arytenoids against the epiglottis.
+  - The larynx rises and moves forward under the tongue base, which tips the epiglottis down and *pulls the UES open*. Laryngeal elevation is the most important factor in opening the UES.
+  - The constrictors contract in sequence while the cricopharyngeus relaxes.
+- **Oesophageal phase:** peristalsis carries the bolus to the stomach in about 3 to 8 seconds, and the LES relaxes ahead of it.
+## Peristalsis
+- **Primary peristalsis:** the wave started by a swallow.
+- **Secondary peristalsis:** a wave set off locally by distension, which clears what the first wave left.
+- **Tertiary contractions:** non-propulsive and uncoordinated. Seen in the elderly (*presbyoesophagus*) and in spasm.
+!anat s206_20 s198_3 | Passavant ridge, and the pharyngeal constrictors.
+
+# Approach to dysphagia | Where, what and how fast.
+## Terms
+- **Dysphagia:** difficulty swallowing.
+- **Odynophagia:** painful swallowing. It suggests ulceration, inflammation or infection.
+- **Globus:** a persistent feeling of a lump in the throat, worst between meals, with no true difficulty swallowing.
+## Oropharyngeal versus oesophageal
+!table Two kinds of dysphagia
+Feature | Oropharyngeal (pre-oesophageal) | Oesophageal
+Complaint | Difficulty starting a swallow; food sticks in the neck | Food sticks behind the sternum (though it may be felt in the neck)
+Associated | Coughing or choking on swallowing, nasal regurgitation, drooling, dysarthria, a wet voice | Regurgitation, heartburn, chest pain, weight loss
+Typical causes | Stroke, Parkinson disease, motor neurone disease, myasthenia, myositis, cranial nerve palsies, head and neck cancer and its treatment, pharyngeal pouch, cricopharyngeal dysfunction | Stricture, cancer, achalasia, spasm, eosinophilic oesophagitis, rings and webs, extrinsic compression
+First test | Examination, flexible endoscopy, videofluoroscopy or FEES | Endoscopy (upper GI), barium swallow, manometry
+!!
+## Causes by site
+- **In the lumen:** foreign body or food bolus.
+- **In the wall:**
+  - Inflammation: reflux, infection, caustic injury, eosinophilic, radiation or pill oesophagitis.
+  - Strictures.
+  - Webs and rings.
+  - Tumours.
+  - Motility disorders.
+- **Outside the wall:**
+  - Pharyngeal pouch.
+  - Goitre and thyroid tumours.
+  - Cervical *osteophytes* (diffuse idiopathic skeletal hyperostosis).
+  - Mediastinal nodes and tumours.
+  - An enlarged left atrium.
+  - Aortic aneurysm.
+  - Vascular rings and *dysphagia lusoria*.
+!fig d69-1 | (A and B) Large cervical osteophytes pressing on the oesophagus on barium swallow.
+## History
+- **Onset:**
+  - *Sudden*: a foreign body or bolus, often on a pre-existing stricture or tumour.
+  - *Progressive over weeks to months*: cancer.
+  - *Intermittent*: a ring or spasm.
+  - *Long-standing*: achalasia or a web.
+- **Consistency:**
+  - *Solids first, then liquids*: a mechanical obstruction (stricture, cancer).
+  - *Liquids as bad as or worse than solids from the start*: a motility disorder (achalasia) or a neuromuscular cause.
+- **Other clues:**
+  - Regurgitation of undigested food at night, gurgling and halitosis: pharyngeal pouch.
+  - Heartburn: reflux and peptic stricture.
+  - Nasal regurgitation: palatal weakness.
+  - Coughing on swallowing: aspiration.
+  - Odynophagia: candida or herpes in the immunosuppressed, pills, caustics.
+  - Weight loss, hoarseness, a neck mass: cancer.
+  - Atopy in a young man with recurrent bolus impaction: eosinophilic oesophagitis.
+## Examination and tests
+- **Examination:** mouth, oropharynx, larynx and hypopharynx (flexible endoscopy: pooling in the pyriform sinuses, cord movement), neck, cranial nerves, chest.
+- **Blood tests:** a blood count and iron studies (iron deficiency, Plummer–Vinson).
+- **Imaging:**
+  - *Barium swallow*: shows pouches, strictures, webs, rings, achalasia, spasm and extrinsic compression. *Videofluoroscopy* (the modified barium swallow) studies the oral and pharyngeal phases with different consistencies and shows aspiration.
+  - *Flexible endoscopic evaluation of swallowing (FEES)*: at the bedside, shows residue, penetration and aspiration.
+  - Chest X-ray, lateral soft-tissue neck film, and CT for masses.
+- **Endoscopy (oesophagogastroduodenoscopy or transnasal oesophagoscopy):** sees and biopsies the mucosa. *Every new oesophageal dysphagia in an adult needs it.*
+- **Physiology:**
+  - *High-resolution manometry*: the test for motility disorders, classified by the *Chicago classification*.
+  - *24-hour pH and impedance monitoring*: for reflux.
+!imaging esophageal-passage-disorders | Disorders of the oesophageal passage on imaging.
+
+# Inflammation and injury | Reflux, infection, caustics, perforation.
+## Gastro-oesophageal reflux disease
+- **Mechanism:** the barrier fails. LES weakness or transient relaxations, hiatus hernia, obesity, pregnancy, smoking, alcohol, fatty meals, scleroderma, and drugs that relax smooth muscle (calcium-channel blockers, nitrates, anticholinergics).
+- **Typical symptoms:** heartburn and regurgitation.
+- **Extra-oesophageal symptoms:**
+  - *Laryngopharyngeal reflux*: hoarseness, throat clearing, globus, chronic cough.
+  - Posterior laryngitis, contact ulcers and granulomas.
+  - Subglottic stenosis.
+  - Asthma.
+  - Dental erosion.
+  - Otitis media with effusion in children.
+- **Complications:**
+  - Erosive oesophagitis.
+  - Peptic stricture.
+  - *Barrett oesophagus*: columnar *intestinal metaplasia* replacing squamous epithelium in the distal oesophagus. A salmon-pink mucosa that is premalignant for *adenocarcinoma*, and needs endoscopic surveillance.
+- **Treatment:**
+  - Lifestyle: weight loss, raising the head of the bed, no meals within three hours of bed, stop smoking, less alcohol, caffeine, chocolate and fat.
+  - Proton pump inhibitors, H2 blockers, alginates.
+  - Antireflux surgery (*Nissen fundoplication*) for refractory disease.
+## Infective oesophagitis
+In the immunosuppressed (HIV, chemotherapy, steroids, diabetes), presenting with odynophagia.
+- **Candida:** white plaques. Treat with fluconazole.
+- **Herpes simplex:** small punched-out ulcers. Aciclovir.
+- **Cytomegalovirus:** large shallow ulcers. Ganciclovir.
+## Eosinophilic oesophagitis
+- **Who:** young men with atopy (asthma, eczema, food allergy).
+- **Presentation:** dysphagia and *recurrent food bolus impaction*.
+- **Endoscopy:** rings ("trachealisation"), furrows and white exudates. Biopsy shows *15 or more eosinophils per high-power field*.
+- **Treatment:** PPI, swallowed topical steroids (budesonide, fluticasone), elimination diets, and careful dilatation.
+## Pill and radiation oesophagitis
+- **Pill oesophagitis:** tetracyclines, doxycycline, potassium chloride, iron, NSAIDs and bisphosphonates lodge at the aortic narrowing, especially when taken without water at bedtime.
+- **Radiation oesophagitis:** acute ulceration, and later stricture and dysmotility.
+## Caustic (corrosive) injury
+- **Who:** a toddler who swallows a household product by accident (small amounts, often less severe), or an adolescent or adult who swallows it intentionally (large amounts, severe).
+- **Alkalis (drain cleaner, lye):** *liquefactive necrosis*, penetrating deep into the oesophagus.
+- **Acids:** *coagulative necrosis*, which limits penetration. They damage the stomach more (pyloric stenosis, gastric perforation).
+- **Course:**
+  1. Acute necrosis in the first days.
+  2. Sloughing and granulation over two to three weeks, when the wall is weakest and perforation most likely.
+  3. Fibrosis and *stricture* from about the third week over months.
+  4. A lifelong increased risk of *squamous carcinoma*, decades later.
+- **Assessment:**
+  - Burns of the lips and mouth are not reliable: absent oral burns do not exclude oesophageal injury.
+  - Airway: stridor, hoarseness and drooling mean laryngeal injury, which may need intubation or tracheostomy.
+  - Signs of perforation, mediastinitis or peritonitis.
+  - Chest and abdominal films. CT if perforation is suspected.
+- **Endoscopic grading (Zargar), ideally within 12 to 48 hours, gently, not beyond a severe circumferential burn:**
+  - Grade 0: normal.
+  - Grade 1: oedema and erythema.
+  - Grade 2a: superficial ulcers and exudates.
+  - Grade 2b: deep or circumferential ulcers.
+  - Grade 3a: focal necrosis.
+  - Grade 3b: extensive necrosis.
+  - Grades 0 to 2a heal without stricture. Grades 2b and above often stricture.
+- **Management:**
+  1. Resuscitate and protect the airway.
+  2. *No induced vomiting, no neutralising agents, no blind nasogastric tube* (most current guidance).
+  3. Analgesia and acid suppression.
+  4. Nil by mouth initially. A nasogastric tube placed under vision, or gastrostomy, for feeding in deep burns.
+  5. Antibiotics for deep burns or perforation.
+  6. Steroids are controversial and are not used routinely.
+  7. Emergency surgery (oesophagectomy, gastrectomy) for full-thickness necrosis or perforation.
+  8. Follow-up contrast studies for stricture.
+- **Strictures:** repeated dilatation. Retrograde dilatation through a gastrostomy over a swallowed string if the stricture is impassable. Oesophageal replacement with colon or stomach if dilatation fails.
+!differ Corrosive burns: neutralisation and steroids
+Dhingra: Neutralisation with a weak acid or alkali within six hours, a nasogastric tube to keep the lumen open, and steroids from 48 to 96 hours for four to six weeks to prevent stricture.
+Lee: Supportive care, early endoscopic grading, airway protection when the larynx is involved, and management of later strictures, with no routine neutralisation or steroids.
+Current practice avoids neutralisation, because the heat of the reaction adds injury and vomiting re-exposes the oesophagus. Steroids are not routinely given, because trials have not shown that they prevent stricture.
+!!
+## Perforation
+- **Causes:**
+  - *Instrumentation*: the commonest. Rigid oesophagoscopy, dilatation, and foreign body removal. It usually happens just above or at the cricopharyngeus (Killian dehiscence), or at the distal oesophagus.
+  - *Foreign bodies*.
+  - *Spontaneous rupture after vomiting* (*Boerhaave syndrome*): a full-thickness tear, usually of the left lower oesophagus.
+  - Trauma.
+  - Malignancy.
+- **Distinguish from Mallory–Weiss syndrome:** a mucosal tear at the gastro-oesophageal junction after retching, presenting with haematemesis. It is not a perforation.
+- **Features:**
+  - *Cervical perforation*: neck pain, dysphagia, fever, tenderness and *surgical emphysema* in the neck.
+  - *Thoracic perforation*: severe chest or *interscapular* pain, fever, tachycardia, shock, surgical emphysema, *Hamman sign* (a mediastinal crunch with the heartbeat), pneumothorax and pleural effusion.
+  - *Mackler triad* (vomiting, chest pain, subcutaneous emphysema) in Boerhaave syndrome.
+- **Diagnosis:** neck and chest films (air in the prevertebral space, mediastinum or pleura), *water-soluble contrast swallow*, and CT.
+- **Treatment:**
+  - Nil by mouth, intravenous fluids, broad-spectrum antibiotics and antifungals, nutrition.
+  - *Small contained cervical perforations*: often managed conservatively, with cervical drainage if an abscess forms.
+  - *Thoracic perforations*: early surgical repair (within about 24 hours) with drainage, or endoscopic stents and clips in selected cases. Late perforations need drainage, diversion or resection.
+!flag Pain after an endoscopy
+Neck, chest or back pain, fever, tachycardia or crepitus after oesophagoscopy or dilatation means perforation until proved otherwise. Stop oral intake, image with water-soluble contrast and CT, and start antibiotics. Every hour of delay raises mortality.
+!!
+
+# Motility disorders | Manometry makes the diagnosis.
+## Achalasia
+- **Mechanism:** loss of the inhibitory neurons of the *myenteric (Auerbach) plexus*. The result is *aperistalsis* and failure of the LES to relax, usually with a high resting pressure.
+- **Secondary forms:** *Chagas disease* (*Trypanosoma cruzi*). *Pseudoachalasia* from a cancer at the cardia: always exclude it with endoscopy, especially in older patients with rapid weight loss.
+- **Features:**
+  - Dysphagia to *both solids and liquids* from the outset.
+  - Regurgitation of undigested food, especially at night, with cough and aspiration.
+  - Chest pain.
+  - Slow weight loss.
+- **Imaging:** barium swallow shows a dilated oesophagus with a fluid level and a smooth "*bird's beak*" taper at the cardia. A chest film may show a widened mediastinum and an absent gastric bubble.
+- **Manometry:** the gold standard. The Chicago classification divides achalasia into types I to III, which predicts response to treatment.
+- **Treatment:**
+  - *Pneumatic dilatation*.
+  - Laparoscopic *Heller myotomy* with partial fundoplication.
+  - *Peroral endoscopic myotomy (POEM)*.
+  - Botulinum toxin injection into the LES for the frail (temporary).
+  - Calcium-channel blockers and nitrates (weak effect).
+- **Long-term risk:** an increased risk of squamous carcinoma.
+## Spastic disorders
+- **Distal (diffuse) oesophageal spasm:** premature, non-propulsive contractions with normal LES relaxation. Intermittent dysphagia and angina-like chest pain. A "*corkscrew*" or "*rosary bead*" oesophagus on barium. Treatment: nitrates, calcium-channel blockers, botulinum toxin, sometimes myotomy.
+- **Hypercontractile ("nutcracker" or "jackhammer") oesophagus:** very strong contractions that remain peristaltic. Causes chest pain.
+## Systemic causes
+- **Scleroderma (systemic sclerosis):** smooth-muscle atrophy and fibrosis with *aperistalsis of the lower two-thirds* and a *weak LES*. Severe reflux, strictures and Barrett oesophagus. Part of the CREST syndrome.
+- **Other causes:**
+  - Polymyositis and dermatomyositis (the striated upper oesophagus).
+  - Myasthenia gravis.
+  - Motor neurone disease.
+  - Diabetes and hypothyroidism.
+  - Presbyoesophagus.
+## Cricopharyngeal dysfunction
+- **What it is:** failure of the UES to relax or open, from fibrosis of the muscle, neurological disease (stroke, Parkinson disease, motor neurone disease, muscular dystrophy) or reflux.
+- **Imaging:** a posterior *cricopharyngeal bar* on videofluoroscopy. A bar is also seen in up to a third of asymptomatic elderly people.
+- **Treatment:** dilatation, botulinum toxin injection, or *cricopharyngeal myotomy* (endoscopic or external). Myotomy is avoided with severe reflux.
+!ops 46 45 | Dysfunction of the upper oesophageal sphincter, and oesophagoscopy and hypopharyngoscopy.
+
+# Structural disorders | Webs, rings, pouches, hernias.
+## Plummer–Vinson (Paterson–Brown-Kelly) syndrome
+- **Who:** middle-aged women.
+- **Features:** iron-deficiency anaemia, dysphagia from a *postcricoid web*, glossitis, angular stomatitis, koilonychia, atrophic mucosa, and sometimes achlorhydria.
+- **Risk:** an increased risk of *postcricoid* and oesophageal carcinoma (about 10% in the older literature).
+- **Treatment:** iron (with B12 and B6 if deficient), dilatation of the web, and surveillance.
+## Schatzki ring
+A thin mucosal ring at the squamocolumnar junction, often with a small hiatus hernia, in people over 50. Causes intermittent solid-food dysphagia and the "steakhouse syndrome" of bolus impaction when the lumen is under 13 mm. Dilatation, and PPI.
+## Diverticula
+- **Pharyngeal pouch (Zenker):** a pulsion diverticulum through Killian dehiscence, covered with the other pharyngeal conditions.
+- **Mid-oesophageal traction diverticulum:** caused by inflamed mediastinal nodes (tuberculosis) pulling on the wall.
+- **Epiphrenic diverticulum:** a pulsion diverticulum just above the LES, usually from a motility disorder.
+!imaging zenker-diverticulum-1 | A pharyngeal (Zenker) diverticulum on barium swallow.
+## Hiatus hernia
+- **Sliding (about 90%):** the gastro-oesophageal junction slides up into the chest. Associated with reflux.
+- **Para-oesophageal (rolling):** the junction stays below the diaphragm but the fundus rolls up beside it. Little reflux, but it can bleed, obstruct or strangulate. Repair is recommended.
+## Strictures
+- **Benign causes:** peptic, caustic, radiation, post-surgical (anastomotic), pill-induced, from a foreign body, eosinophilic, congenital.
+- **Investigation:** always biopsy to exclude cancer.
+- **Treatment:** dilatation with bougies (often over a guidewire) or balloons, treatment of the cause, and stents or surgery for refractory cases.
+## Congenital anomalies
+- **Oesophageal atresia with tracheo-oesophageal fistula:**
+  - The commonest type (about 85%) is *proximal atresia with a distal fistula*.
+  - Presents with drooling, choking and cyanosis on the first feed, abdominal distension, and a nasogastric tube that coils in the upper pouch at 9 to 13 cm.
+  - Associated with *VACTERL* anomalies.
+- **H-type fistula (about 4%):** presents later with coughing on feeds and recurrent pneumonia.
+- **Vascular rings and aberrant right subclavian artery:** dysphagia lusoria, with a non-recurrent right laryngeal nerve.
+
+# Tumours | Benign and malignant.
+## Benign tumours
+- **Leiomyoma:** the commonest, about two-thirds. A submucosal, smooth, intramural mass. Dysphagia only when large. Endoscopic ultrasound shows it. Avoid mucosal biopsy, because it scars the plane for enucleation.
+- **Others:** fibrovascular polyps of the upper oesophagus (which may be regurgitated into the mouth and obstruct the larynx), papillomas, lipomas, haemangiomas, granular cell tumours.
+## Oesophageal cancer
+- **Squamous cell carcinoma:**
+  - The commonest type worldwide and in India, mostly in the *middle and upper* oesophagus.
+  - Risk factors:
+    - Tobacco (smoked and chewed) and alcohol.
+    - Very hot drinks.
+    - Dietary nitrosamines and poor diet.
+    - *Achalasia*.
+    - *Caustic strictures*.
+    - Plummer–Vinson syndrome.
+    - Tylosis (palmoplantar keratoderma).
+    - Previous head and neck cancer (field change).
+- **Adenocarcinoma:**
+  - The commonest type in Western countries, in the *distal* oesophagus and cardia.
+  - Arises in *Barrett oesophagus* with reflux and obesity.
+- **Spread:**
+  - Directly into the trachea, bronchi, aorta, pericardium and recurrent laryngeal nerves.
+  - Lymphatic spread to cervical, mediastinal and coeliac nodes, including skip lesions.
+  - Blood-borne spread to liver, lung and bone.
+- **Symptoms:**
+  - *Progressive dysphagia, solids then liquids*.
+  - *Weight loss*.
+  - Odynophagia and back pain (spread outside the wall).
+  - Hoarseness (recurrent laryngeal nerve).
+  - Cough on swallowing (a *tracheo-oesophageal fistula*).
+  - Sudden bolus obstruction may be the first sign.
+- **Diagnosis and staging:**
+  - Endoscopy with biopsy.
+  - Barium swallow: an irregular "*apple-core*" narrowing with shouldering.
+  - CT of chest and abdomen, *PET-CT*, endoscopic ultrasound for depth and nodes.
+  - Bronchoscopy for tumours near the airway.
+- **Treatment:**
+  - *Early tumours*: endoscopic resection.
+  - *Resectable locally advanced disease*: neoadjuvant chemoradiotherapy (the CROSS regimen) or perioperative chemotherapy, then oesophagectomy. Definitive chemoradiotherapy is a standard option for squamous carcinoma, especially in the upper and cervical oesophagus.
+  - *Reconstruction*: gastric pull-up (transposition). For the cervical oesophagus and pharyngo-oesophagectomy: free jejunal flap or a tubed radial forearm or anterolateral thigh flap.
+- **Cervical oesophageal cancer:** often an extension of postcricoid or hypopharyngeal cancer. May need *pharyngolaryngo-oesophagectomy* with a gastric pull-up.
+- **Palliation:** self-expanding metal *stents*, brachytherapy, laser or argon plasma ablation, and feeding gastrostomy or jejunostomy. A covered stent seals a tracheo-oesophageal fistula.
+- **Prognosis:** poor. Overall five-year survival is about 15 to 20%, because over half have unresectable or metastatic disease at diagnosis.
+!ops 50 | Cancer of the cervical oesophagus.
+
+# Oesophagoscopy | Rigid, flexible and transnasal.
+## Rigid oesophagoscopy
+- **Uses:**
+  - Foreign bodies, especially sharp or impacted ones.
+  - Biopsy of cricopharyngeal and upper oesophageal lesions.
+  - Dilatation.
+  - Endoscopic pouch surgery.
+  - Panendoscopy for head and neck cancer.
+- **Contraindications:** cervical spine disease or injury, trismus, a receding jaw, aortic aneurysm, and severe systemic illness.
+- **Technique:**
+  1. General anaesthesia with the tube to the left of the mouth. Supine with the neck flexed and the head extended (the "sniffing" position), so the mouth, pharynx and oesophagus align. Protect the upper teeth.
+  2. Pass the scope down the right side of the tongue to the arytenoids, then behind the cricoid in the midline.
+  3. Open the cricopharyngeus by *gentle, sustained lifting*, never force. This is where perforation happens.
+  4. Keep the lumen in view at all times. Aortic pulsation marks the 25 cm level. The red, velvety gastric mucosa marks the cardia.
+  5. Inspect again on withdrawal.
+- **Complications:**
+  - Injury to the teeth, lips and arytenoids.
+  - Tracheal compression in children.
+  - *Perforation*: watch for pain, fever and emphysema afterwards.
+## Flexible oesophagoscopy and transnasal oesophagoscopy
+- **Flexible oesophagoscopy:** done under topical anaesthesia or sedation, in the left lateral position, through a mouth guard. It sees the oesophagus, stomach and duodenum, allows biopsy, dilatation, banding, stents and removal of soft foreign bodies, and is safe in neck and jaw disease. It has largely replaced rigid oesophagoscopy for diagnosis.
+- **Transnasal oesophagoscopy:** an unsedated office examination with a thin scope through the nose. Used for dysphagia, reflux and Barrett screening, the search for a second primary, and tracheo-oesophageal puncture after laryngectomy.
+!fig d93-1 | Flexible oesophagoscopy in the left lateral position, through a mouth guard, viewing on a monitor.
+!table Rigid versus flexible oesophagoscopy
+Feature | Rigid | Flexible
+Anaesthesia | General | Topical with or without sedation
+Neck and jaw disease | Difficult or contraindicated | Possible
+Reach | Oesophagus | Oesophagus, stomach, duodenum
+Foreign bodies | Best for sharp and impacted objects; can sheath sharp points | Soft, blunt objects; needs an overtube for sharp ones
+Biopsy of the upper sphincter region | Excellent | Can miss the postcricoid area
+Setting | Inpatient theatre | Day case or office
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **The three constrictions** and their distances; Killian dehiscence.
+- **The three phases of swallowing** and the role of laryngeal elevation.
+- **Oropharyngeal versus oesophageal dysphagia;** solids versus liquids; the investigation sequence.
+- **Achalasia:**
+  - Bird's beak.
+  - Manometry.
+  - Pseudoachalasia.
+  - Dilatation, Heller myotomy, POEM.
+- **Plummer–Vinson syndrome** and postcricoid cancer.
+- **Caustic injury:** alkali versus acid, the stages, grading, and the stricture and cancer risk.
+- **Perforation:** causes and signs; Boerhaave syndrome.
+- **Barrett oesophagus** and adenocarcinoma; risk factors for squamous carcinoma.
+- **Rigid oesophagoscopy:** position, steps, complications.
+!!
+## Common pitfalls
+!pit
+- Calling progressive dysphagia in an older patient "globus" without endoscopy.
+- Forcing a rigid scope through the cricopharyngeus.
+- Missing perforation in a patient with pain after endoscopy.
+- Treating achalasia without excluding a cancer at the cardia.
+- Inducing vomiting or neutralising after a caustic ingestion.
+!!

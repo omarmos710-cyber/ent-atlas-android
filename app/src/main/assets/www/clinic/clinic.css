@@ -94,7 +94,8 @@ html[data-fsz="s"] .arw{--arfs:15px}html[data-fsz="l"] .arw{--arfs:18px}
 .arol{margin:4px 0 12px;padding-left:22px}.arol li{margin-bottom:6px}
 .arol>li{font-size:.95em;line-height:1.55}.arol>li::marker{color:var(--arbr);font-weight:700}
 .arli2{list-style:none;margin:4px 0 2px;padding:0;border:0}.arl .arli2 li,.arol .arli2 li{position:relative;padding:0 0 4px 16px;font-size:1em;margin:0}
-.arl .arli2 li::before,.arol .arli2 li::before{content:"\2013";position:absolute;left:2px;top:0;width:auto;height:auto;border:0;border-radius:0;background:none;color:var(--arbr);font-weight:600}
+.arl .arli2.n li::before,.arol .arli2.n li::before{content:none}.arli2.n{list-style:decimal;padding-left:20px}.arli2.n li{padding-left:2px!important}.arli2.n li::marker{color:var(--arbr);font-weight:700;font-size:.92em}.arli2p{margin:4px 0 2px;font-size:1em}
+.arl .arli2:not(.n) li::before,.arol .arli2:not(.n) li::before{content:"\2013";position:absolute;left:2px;top:0;width:auto;height:auto;border:0;border-radius:0;background:none;color:var(--arbr);font-weight:600}
 .arx{border:0;background:var(--arc-soft);color:var(--arc);font:700 .82em var(--f-body);padding:1px 6px;border-radius:6px;vertical-align:1px}
 .arfig{margin:18px 0 22px;background:var(--arpaper);border:1px solid var(--line);border-radius:16px;overflow:hidden}
 .arfig .pair{display:grid;grid-template-columns:1fr}

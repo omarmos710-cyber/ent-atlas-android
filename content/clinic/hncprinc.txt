@@ -1,0 +1,278 @@
+@stand Head and neck squamous carcinoma is several diseases that share a microscope slide. One is tobacco- and alcohol-driven cancer of the mouth, larynx and hypopharynx in older smokers. Another is HPV-driven cancer of the tonsil and tongue base in younger non-smokers, which carries a far better prognosis. A third is EBV-driven nasopharyngeal carcinoma. The principles here apply across sites: biology, staging by the eighth edition of the AJCC system, the work-up, the multidisciplinary decision, and life after treatment.
+
+# Who and why | Epidemiology and causes.
+## Burden
+- **Global picture:** head and neck cancer is among the commonest cancers worldwide, about the seventh or eighth commonest. In India it is among the leading cancers in men, mostly *oral cavity* cancer linked to smokeless tobacco and betel quid.
+- **Pathology:** over 90% of tumours of the mucosa of the upper aerodigestive tract are squamous cell carcinomas.
+- **Late presentation:** in many low-resource settings more than 70% present at stage III or IV.
+## Risk factors
+- **Tobacco:**
+  - Smoked: cigarettes, bidis, hookah.
+  - Smokeless: chewing tobacco, gutka, *betel quid with areca nut*, snuff, and *reverse smoking* (palate cancer).
+- **Alcohol:** acts *synergistically* with tobacco. The combined risk is multiplicative.
+- **Human papillomavirus (HPV-16):** oropharynx, especially the tonsil and tongue base. Linked to oral sex and the number of partners. Incidence is rising in high-income countries.
+- **Epstein–Barr virus:** undifferentiated nasopharyngeal carcinoma. Salted fish and preserved foods, and genetic susceptibility in southern China.
+- **Other factors:**
+  - Poor oral hygiene and chronic dental trauma.
+  - Submucous fibrosis (areca nut).
+  - Plummer–Vinson syndrome (postcricoid cancer).
+  - Immunosuppression.
+  - Radiation.
+  - Occupational exposures: wood dust, leather and nickel (sinonasal adenocarcinoma and squamous carcinoma).
+  - Fanconi anaemia and dyskeratosis congenita.
+  - Diets poor in fruit and vegetables.
+## Field cancerisation and second primaries
+Carcinogens bathe the whole mucosa. Genetically altered fields surround a cancer and give rise to new ones.
+- **Second primary tumours:** about 3 to 5% a year, in the head and neck, lung and oesophagus. Second primaries are a leading cause of death after successful treatment of an early cancer.
+- **Consequences:**
+  - Panendoscopy at diagnosis.
+  - Stopping smoking.
+  - Lifelong surveillance.
+## Premalignant lesions
+- Leukoplakia and erythroplakia. Erythroplakia carries the highest risk.
+- Submucous fibrosis.
+- Lichen planus (erosive).
+- Dysplasia of the larynx.
+
+Graded dysplasia (mild, moderate, severe, carcinoma in situ) predicts the risk of invasion.
+
+# Tumour biology | Two diseases.
+## HPV-negative carcinoma
+Driven by tobacco carcinogens, which cause accumulated mutations.
+- **Tumour suppressors inactivated:**
+  - *TP53*: mutated in most (about 80%).
+  - *CDKN2A* (p16): lost by mutation, deletion of 9p21 or methylation.
+  - *FAT1*, *NOTCH1*, *CASP8*.
+- **Oncogenes activated:**
+  - *Cyclin D1* (11q13 amplification).
+  - *PIK3CA* (3q26).
+  - *EGFR* (overexpressed in about 90%, amplified in some).
+  - *FGFR1*, *MYC*, *HRAS*.
+- **Progression model (Califano):** loss of 9p21 (p16), then 3p, then 17p (p53), then further changes, as normal mucosa progresses through dysplasia to invasive cancer.
+## HPV-positive carcinoma
+- **Mechanism:**
+  - The viral oncoprotein *E6* degrades *p53*.
+  - *E7* inactivates *Rb*.
+  - With Rb gone, *p16 is strongly over-expressed*. This is why *p16 immunohistochemistry* is the surrogate marker for HPV in oropharyngeal cancer.
+- **Genetics:** p53 is usually *wild-type*, mutational burden is lower, and *PIK3CA* activation is frequent. *TRAF3* and *CYLD* changes are linked to immune escape.
+- **Clinical features:**
+  - Younger patients, often non-smokers.
+  - Small primaries in the tonsil or tongue base.
+  - Early, often *cystic* nodes.
+  - Much better response to radiotherapy and chemotherapy.
+  - About 80% three-year survival versus 55% for HPV-negative tumours (RTOG 0129).
+  - Smoking over 10 pack-years worsens the outlook.
+## Prognostic factors
+- **Tumour factors:**
+  - Stage, especially nodes and *extranodal extension*.
+  - *Depth of invasion* in oral cancer.
+  - Perineural and lymphovascular invasion.
+  - Margins.
+  - HPV status.
+- **Patient factors:** comorbidity, performance status, continued smoking.
+- **Treatment factors:** total treatment time and gaps.
+
+# Staging | AJCC eighth edition.
+## Principles
+- **T:** describes the primary, mostly by size. Exceptions:
+  - *Vocal fold mobility* and subsite spread in the larynx.
+  - *Depth of invasion* in the oral cavity.
+  - Extension in the nasopharynx and sinuses.
+- **N:** regional nodes, by size, number and side, and now *extranodal extension* (ENE).
+- **M:** distant metastases.
+- **Clinical versus pathological:** clinical (cTNM) staging comes from examination and imaging. Pathological (pTNM) staging comes from the resected specimen.
+- **Subdivisions of T4:**
+  - *T4a* (moderately advanced): resectable.
+  - *T4b* (very advanced): usually unresectable. Examples: masticator space, pterygoid plates, skull base, prevertebral fascia, mediastinum, or carotid encasement.
+!table T stage: oral cavity (including lip)
+T | Definition
+T1 | 2 cm or less, depth of invasion (DOI) 5 mm or less
+T2 | 2 cm or less with DOI over 5 mm, or over 2 to 4 cm with DOI 10 mm or less
+T3 | Over 4 cm, or DOI over 10 mm
+T4a | Invades through cortical bone of mandible or maxilla, the maxillary sinus or facial skin (lip: through bone, inferior alveolar nerve, floor of mouth or skin)
+T4b | Masticator space, pterygoid plates, skull base, or encases the internal carotid
+!!
+!table T stage: larynx (glottis)
+T | Definition
+T1a / T1b | One vocal fold / both vocal folds, normal mobility
+T2 | Extends to supraglottis or subglottis, or impaired mobility
+T3 | Fixed vocal fold, paraglottic space or inner cortex of thyroid cartilage
+T4a | Through the outer cortex of the thyroid cartilage or beyond the larynx (trachea, strap muscles, thyroid, oesophagus, deep tongue muscles)
+T4b | Prevertebral space, encases carotid, or mediastinum
+!!
+- **Supraglottis:**
+  - T1: one subsite.
+  - T2: more than one subsite, or the glottis or adjacent mucosa.
+  - T3: fixed fold, postcricoid area, pre-epiglottic or paraglottic space, or minor cartilage erosion.
+  - T4 as for the glottis.
+- **Hypopharynx:**
+  - T1: 2 cm or less and one subsite.
+  - T2: over 2 to 4 cm, or more than one subsite.
+  - T3: over 4 cm, fixed hemilarynx, or oesophageal mucosa.
+  - T4a: cartilage, hyoid, thyroid, oesophageal muscle or central compartment.
+- **Oropharynx (both HPV types):** T1 is 2 cm or less, T2 is 2 to 4 cm, T3 is over 4 cm or reaches the lingual surface of the epiglottis. HPV-positive tumours have no T4b.
+- **Nasopharynx:**
+  - T1: confined to the nasopharynx, or extending to the oropharynx or nasal cavity.
+  - T2: parapharyngeal space or adjacent muscles.
+  - T3: bone of the skull base, cervical vertebrae, pterygoid structures or sinuses.
+  - T4: intracranial, cranial nerves, hypopharynx, orbit, parotid or soft tissue beyond the lateral pterygoid.
+## Nodal staging
+!table N stage: clinical (oral cavity, larynx, hypopharynx, HPV-negative oropharynx)
+N | Definition
+N1 | Single ipsilateral node 3 cm or less, ENE negative
+N2a | Single ipsilateral node over 3 to 6 cm, ENE negative
+N2b | Multiple ipsilateral nodes, none over 6 cm, ENE negative
+N2c | Bilateral or contralateral nodes, none over 6 cm, ENE negative
+N3a | Any node over 6 cm, ENE negative
+N3b | Clinically overt ENE (skin involvement, fixation, cranial nerve or muscle invasion)
+!!
+- **Pathological N stage:**
+  - A single ipsilateral node 3 cm or less *with* ENE becomes pN2a.
+  - Larger nodes or multiple nodes with ENE become pN3b.
+- **HPV-positive oropharynx:**
+  - Clinical: N1 is ipsilateral nodes 6 cm or less. N2 is contralateral or bilateral 6 cm or less. N3 is over 6 cm.
+  - Pathological: *pN1 is 1 to 4 nodes, pN2 is 5 or more*.
+- **Nasopharynx:**
+  - N1: unilateral cervical, or unilateral or bilateral retropharyngeal nodes, 6 cm or less, above the cricoid.
+  - N2: bilateral cervical, 6 cm or less, above the cricoid.
+  - N3: over 6 cm or below the caudal border of the cricoid.
+## Stage groups
+!table Stage groups (oral cavity, larynx, hypopharynx, HPV-negative oropharynx, sinuses, salivary)
+Stage | TNM
+I | T1 N0 M0
+II | T2 N0 M0
+III | T3 N0, or T1 to T3 N1, M0
+IVA | T4a N0 to N1, or T1 to T4a N2, M0
+IVB | Any T N3, or T4b any N, M0
+IVC | Any M1
+!!
+- **HPV-positive oropharynx (clinical stage groups):**
+  - Stage I: T0 to T2 with N0 to N1.
+  - Stage II: T0 to T2 with N2, or T3 with N0 to N2.
+  - Stage III: T4 or N3.
+  - Stage IV: M1.
+  - Many patients are downstaged compared with the seventh edition. This reflects their better prognosis.
+!update The eighth edition changes
+The 2017 AJCC eighth edition introduced:
+- *Depth of invasion* for oral cancer.
+- *Extranodal extension* in nodal staging.
+- A separate staging system for *p16-positive oropharyngeal cancer*.
+- Separate staging for unknown primaries by EBV and HPV status.
+
+Older texts and exam questions based on the seventh edition will give different stages for the same tumour.
+!!
+
+# Work-up | Before the decision.
+## Assessment
+- **History:** symptoms, risk factors, comorbidity, performance status (ECOG or Karnofsky), nutrition, social support.
+- **Examination:**
+  - The full head and neck, with palpation of the tongue base and floor of mouth.
+  - Flexible nasendoscopy.
+  - Cranial nerves.
+  - The neck, by level.
+- **Tissue diagnosis:**
+  - Biopsy of the primary.
+  - FNA of nodes.
+  - p16/HPV for the oropharynx and unknown primaries. EBV for the nasopharynx.
+## Imaging
+- **CT and/or MRI** of the primary and neck. MRI is better for the tongue, nasopharynx, skull base and perineural spread. CT is better for bone and the larynx.
+- **Distant staging:**
+  - CT chest for advanced disease.
+  - *PET-CT* for stage III and IV disease, unknown primaries and recurrence.
+- **Ultrasound with FNA** for the neck.
+## Panendoscopy
+Examination under anaesthesia with laryngoscopy, pharyngoscopy, oesophagoscopy and sometimes bronchoscopy.
+- Maps the extent of the tumour: tongue base, vallecula, postcricoid area, subglottis.
+- Takes biopsies.
+- Looks for synchronous second primaries.
+- Tonsillectomy and tongue base mucosectomy for unknown primaries.
+## Before treatment
+- **Dental assessment:** extract teeth before radiotherapy.
+- **Nutrition:** dietitian review, and consider a prophylactic gastrostomy.
+- **Speech and swallowing therapy:** baseline assessment and *prehabilitation*.
+- **Smoking and alcohol cessation.**
+- **Anaesthetic and airway planning:** some patients need a tracheostomy under local anaesthesia before treatment.
+- **Psychosocial support and the clinical nurse specialist.**
+!ops 61 45 | Management of the unknown primary, and panendoscopy.
+
+# Treatment | The multidisciplinary decision.
+## The team
+Every patient is discussed at a *multidisciplinary team (tumour board)*:
+- Head and neck and reconstructive surgeons.
+- Clinical and medical oncologists.
+- Radiologist and pathologist.
+- Restorative dentist.
+- Speech and language therapist and dietitian.
+- Specialist nurse.
+- Palliative care.
+
+The patient's own priorities are central: cure, voice, swallowing, appearance and time.
+## General principles
+- **Early disease (stage I to II): a single modality.** Surgery *or* radiotherapy, with similar cure rates. The choice is driven by function, access, morbidity, the patient's wishes, and keeping options for second primaries. For example:
+  - Transoral laser surgery or radiotherapy for T1 glottic cancer.
+  - Surgery for a small oral tongue cancer.
+- **Advanced disease (stage III to IV): combined modality.**
+  - *Surgery followed by radiotherapy*, or chemoradiotherapy for positive margins or extranodal extension. This is preferred for oral cavity cancer and for cancers destroying cartilage or bone (T4a larynx, mandible).
+  - Or *primary concurrent chemoradiotherapy* with surgical salvage. This is the organ-preservation approach for the larynx, hypopharynx and oropharynx, and the standard for the nasopharynx.
+- **Unresectable (T4b) disease:** chemoradiotherapy, or palliation.
+- **Recurrent or metastatic disease:**
+  - Salvage surgery or re-irradiation for local and regional recurrence.
+  - Systemic therapy (pembrolizumab with or without platinum and 5-FU; cetuximab-based regimens).
+  - Palliative care.
+## The neck
+- **Clinically N0 neck:** treat electively (selective neck dissection or elective radiotherapy) when the risk of occult nodes is above about 15 to 20%.
+  - In the oral cavity this means depth of invasion over 3 to 4 mm. The D'Cruz trial showed a survival advantage for elective neck dissection in early oral cancer.
+  - Sentinel node biopsy is an alternative in early oral cancer.
+- **Clinically positive neck:** therapeutic neck dissection (modified radical or comprehensive), or chemoradiotherapy with PET-CT at 12 weeks deciding on dissection.
+- **Midline and bilateral drainage:** tumours of the tongue base, soft palate, supraglottis and the floor of mouth crossing the midline drain to *both* sides. Both necks are treated.
+## Surgery
+- **Aim:** complete resection with clear margins, generally *5 mm or more* on histology, and close margins under 5 mm. Frozen sections help.
+- **Approaches:**
+  - Transoral: laser microsurgery, transoral robotic surgery.
+  - Mandibulotomy (lip-split).
+  - Lateral pharyngotomy.
+  - Total laryngectomy and pharyngolaryngectomy.
+- **Reconstruction:** usually at the same operation, often with free flaps.
+- **Airway:** a tracheostomy protects the airway after major oral and pharyngeal resections.
+
+# After treatment | Survival and survivorship.
+## Follow-up
+- **Visits:** every 1 to 3 months in year 1, every 2 to 4 months in year 2, every 3 to 6 months in years 3 to 5, then yearly. Most recurrences occur in the first *two years*.
+- **What to check:**
+  - Examination and nasendoscopy.
+  - A PET-CT at about 12 weeks after radiotherapy.
+  - Further imaging as indicated.
+  - *TSH* every 6 to 12 months after neck radiotherapy.
+  - Dental review.
+  - Smoking status.
+  - Screening for second primaries: chest symptoms and examination of the whole upper aerodigestive tract.
+## Rehabilitation and quality of life
+- **Swallowing:** exercises, dilatation of strictures, and a gastrostomy for those who cannot eat safely.
+- **Voice after laryngectomy:** the *tracheo-oesophageal valve*, the electrolarynx, or oesophageal speech.
+- **Other late effects:** shoulder dysfunction after accessory nerve injury (physiotherapy), lymphoedema (manual drainage), trismus, xerostomia, hearing loss, osteoradionecrosis.
+- **Wellbeing:** depression, fear of recurrence, alcohol relapse and suicide risk are high in this group. Screen for them and refer.
+- **Palliative care:** symptom control, managing a fungating tumour, and planning for *carotid blow-out*, airway obstruction and bleeding. Have a crisis plan with dark towels and sedation.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Risk factors:** tobacco (including smokeless) and alcohol synergy; HPV; EBV.
+- **Field cancerisation** and the second primary rate.
+- **HPV-positive versus HPV-negative cancer:**
+  - E6 degrades p53, E7 inactivates Rb, so p16 is over-expressed.
+  - Prognosis.
+  - A separate AJCC staging system.
+- **The eighth edition changes:** depth of invasion, ENE, p16 staging.
+- **Oral cavity and glottic T staging;** the clinical N stages; the stage groups.
+- **The work-up:** imaging, PET-CT, panendoscopy, the dental and nutrition review.
+- **Early versus advanced disease:** single versus combined modality; when to treat the N0 neck; margins.
+- **Follow-up schedule** and late effects.
+!!
+## Common pitfalls
+!pit
+- Staging an oropharyngeal cancer without p16.
+- Using seventh-edition definitions in an eighth-edition world.
+- Forgetting the contralateral neck in midline tumours.
+- Neglecting dental assessment and smoking cessation before treatment.
+- Discharging patients without thyroid and second primary surveillance.
+!!
