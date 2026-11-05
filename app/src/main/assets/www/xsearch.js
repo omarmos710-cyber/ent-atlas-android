@@ -150,7 +150,7 @@ vHome=function(){let cont="";try{const s=continueSec();if(s)cont=`<button class=
  <div id="hxres" aria-live="polite"></div>
  <div id="hxrest">${cont}${due}
  <div class="xgrid">${TILES.map(([g,l,i])=>`<button data-go="${g}">${ic(i,24)}<span>${E(l)}</span></button>`).join("")}</div></div></div>`;
- if("requestIdleCallback" in window)requestIdleCallback(()=>ready());else setTimeout(ready,300)};
+ };
 function homeLive(q){const box=document.getElementById("hxres"),rest=document.getElementById("hxrest");if(!box)return;
  if(q.trim().length<2){box.innerHTML="";if(rest)rest.hidden=false;return}if(rest)rest.hidden=true;
  if(!IX){box.innerHTML=`<p class="xnote">Building the index…</p>`;ready().then(()=>{if(box.isConnected)homeLive(currentQ())});return}
@@ -161,6 +161,9 @@ function homeLive(q){const box=document.getElementById("hxres"),rest=document.ge
 let T=0;
 document.addEventListener("input",e=>{const id=e.target.id;if(id==="xq"){if(typeof QTXT!=="undefined")QTXT=e.target.value;clearTimeout(T);T=setTimeout(()=>run(e.target.value,document.getElementById("xres")),110)}
  else if(id==="hx"){clearTimeout(T);T=setTimeout(()=>homeLive(e.target.value),110)}});
+/* Build the index only when the person reaches for search, never at launch */
+document.addEventListener("focusin",e=>{const id=e.target&&e.target.id;if(id==="hx"||id==="xq")ready()});
+document.addEventListener("pointerdown",e=>{if(e.target.closest&&e.target.closest('[data-go="search"]'))ready()},true);
 document.addEventListener("keydown",e=>{if(e.key==="Enter"&&e.target.id==="hx"&&e.target.value.trim()){QTXT=e.target.value.trim();go("search")}});
 document.addEventListener("click",e=>{const T2=x=>e.target.closest(x);let b;
  if(b=T2("[data-xall]")){QTXT=currentQ().trim();go("search");return}

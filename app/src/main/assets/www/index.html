@@ -1157,6 +1157,9 @@ section.card.csec.coll>.chead{padding:12px 0!important}
 .texp:hover,.texp:focus-visible{color:var(--accent);border-color:color-mix(in srgb,var(--accent) 45%,var(--line))}
 section.tbl>header{display:flex;align-items:center;gap:8px}
 section.tbl>header .texp+.cmeta,section.tbl>header .texp+.star{margin-left:0}
+section.tbl.cltbl{background:none;border:0;border-radius:0;padding:0;margin:16px 0 10px}
+section.tbl.cltbl>header{align-items:center}section.tbl.cltbl h3.clh3{font:700 11px/1.3 var(--f-body)!important;letter-spacing:.12em!important;text-transform:uppercase;margin:0!important;padding:0!important;color:var(--arc,var(--ink))}section.tbl.cltbl.arcap{margin:14px 0 20px}section.tbl.cltbl.arcap .artw{margin:6px 0 0}
+section.tbl.cltbl .cltw{margin-top:4px}section.tbl.cltbl.arcap .artw caption,.tfull .tfinner caption{display:none}section.tbl.cltbl .artw{margin-top:4px}section.tbl.cltbl table{min-width:0}
 .tfull{position:fixed;inset:0;z-index:300;display:grid;place-items:center;padding:max(14px,env(safe-area-inset-top)) 14px max(14px,env(safe-area-inset-bottom));
   background:color-mix(in srgb,#0B0D12 58%,transparent);backdrop-filter:blur(10px) saturate(1.1);-webkit-backdrop-filter:blur(10px) saturate(1.1)}
 .tfpanel{width:min(1180px,100%);max-height:100%;display:flex;flex-direction:column;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:20px;box-shadow:0 30px 80px rgba(0,0,0,.35),0 2px 8px rgba(0,0,0,.12);overflow:hidden}
@@ -7163,7 +7166,8 @@ function autoLink(el,reg,seen){const tw=document.createTreeWalker(el,NodeFilter.
     if(frag){frag.append(t.slice(last));n.replaceWith(frag)}}}
 function linkOne(b,reg){{if(b.classList.contains("lnk"))return;
   const t=b.textContent.replace(/[:.]$/,"").trim();if(t.length<5||t.length>60)return;
-  if(findLabels(t,reg).length){b.classList.add("lnk");b.tabIndex=0;b.setAttribute("role","button");b.dataset.lterm=t;if(reg)b.dataset.lreg=reg;b.title="Show in figures"}}}
+  const ck=t.toLowerCase()+"|"+reg;let ok=LINKOK.get(ck);if(ok===undefined){ok=findLabels(t,reg).length>0;LINKOK.set(ck,ok)}
+  if(ok){b.classList.add("lnk");b.tabIndex=0;b.setAttribute("role","button");b.dataset.lterm=t;if(reg)b.dataset.lreg=reg;b.title="Show in figures"}}}
 /* lightbox: highlight the label and zoom onto it */
 const _drawLB6=drawLB;
 drawLB=function(){_drawLB6();if(!LB||!LB.hl)return;const k=LB.set[LB.i],h=LB.hl[k];if(!h)return;
@@ -7660,9 +7664,9 @@ document.addEventListener("click",e=>{const b=e.target.closest("#view button.bac
 
 /* ---- swipe right anywhere to go back (touch): the previous page is revealed under your finger ---- */
 (function(){let g=null;
-  const NO=".pzbox,.dwrap,.carousel,.ccar,.figrow,.tscroll,.rtabs,.seg,.seg3,.studyseg,.olist,.oitem,.svpic,.face,input,textarea,select,.trbar,.svticks,.lb,.sheet,.simbar,.cthumbs,.strip,.gchips,.figs.carousel,[data-noswipe]";
+  const NO=".arlb,.tfull,.pzbox,.dwrap,.carousel,.ccar,.figrow,.tscroll,.rtabs,.seg,.seg3,.studyseg,.olist,.oitem,.svpic,.face,input,textarea,select,.trbar,.svticks,.lb,.sheet,.simbar,.cthumbs,.strip,.gchips,.figs.carousel,[data-noswipe]";
   const scrollsX=el=>{for(let n=el;n&&n!==document.body;n=n.parentElement){if(n.scrollWidth>n.clientWidth+2&&n.scrollLeft>0)return true}return false};
-  addEventListener("touchstart",e=>{g=null;if(e.touches.length!==1||RM||LB||$("#sheet"))return;const t=e.touches[0];
+  addEventListener("touchstart",e=>{g=null;if(e.touches.length!==1||RM||LB||$("#sheet")||document.querySelector('.arlb,.tfull,.lb,#pzbox,[aria-modal="true"]'))return;const t=e.touches[0];
     const top=NAVSTACK[NAVSTACK.length-1];if(!top||!top.snap||top.v===cur||top.menu)return;
     if(t.clientX<18||e.target.closest(NO)||scrollsX(e.target))return;
     g={x0:t.clientX,y0:t.clientY,on:false,top,h:[]}},{passive:true});
@@ -8036,8 +8040,14 @@ const X='<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="cur
 const RMQ=matchMedia("(prefers-reduced-motion: reduce)");
 const EASE="cubic-bezier(.2,.8,.2,1)";
 
+/* clinical article tables (a .clh3 title followed by .cltw) get the same section.tbl frame, so they expand too */
+function wrapClinical(root){(root||document).querySelectorAll(".cltw,.artw").forEach(w=>{if(w.closest("section.tbl")||!w.querySelector("table"))return;
+  const cap=w.querySelector("caption"),h=w.previousElementSibling,isH=h&&h.classList.contains("clh3");
+  const sec=document.createElement("section");sec.className="tbl cltbl"+(cap?" arcap":"");const hd=document.createElement("header"),h3=document.createElement("h3");
+  h3.className="clh3";h3.textContent=cap?cap.textContent.trim():isH?h.textContent:"Table";hd.appendChild(h3);
+  if(!cap&&isH)h.replaceWith(sec);else w.before(sec);sec.append(hd,w)})}
 /* add an Expand button to every table header */
-function arm(root){(root||document).querySelectorAll("section.tbl").forEach(s=>{
+function arm(root){wrapClinical(root);(root||document).querySelectorAll("section.tbl").forEach(s=>{
   if(s.dataset.tx)return;const h=s.querySelector(":scope>header");if(!h||!s.querySelector("table"))return;s.dataset.tx="1";
   const b=document.createElement("button");b.className="texp";b.type="button";b.setAttribute("aria-label","Expand table");b.title="Expand table";b.innerHTML=EXP;
   const before=h.querySelector(".cmeta,.star,.pm2");h.insertBefore(b,before||null)})}
