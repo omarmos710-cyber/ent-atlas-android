@@ -2,12 +2,9 @@
 
 # Embryology | Arches, clefts and pouches.
 ## The branchial apparatus
-In weeks four to eight, five (some count six) *branchial arches* form on each side of the primitive pharynx.
-- **Clefts:** separate the arches on the outside and are lined by ectoderm.
-- **Pouches:** separate them on the inside and are lined by endoderm.
-- **Each arch:** contains a cartilage bar, an artery, a nerve and muscle-forming mesoderm.
-- **Cervical sinus of His:** the second arch overgrows the third and fourth to form the smooth neck, enclosing a temporary space.
-- **How remnants form:** failure of clefts, pouches or the cervical sinus to obliterate leaves a *cyst* (no opening), a *sinus* (one opening, inside or out) or a *fistula* (both openings). The skin openings always lie *anterior to sternomastoid*, and the tract is deep to platysma.
+Between the fourth and eighth weeks, five (some count six) *branchial arches* form on each side of the primitive pharynx. They are separated on the outside by **clefts** lined with ectoderm and on the inside by **pouches** lined with endoderm, and each arch contains a cartilage bar, an artery, a nerve and muscle-forming mesoderm. The second arch then overgrows the third and fourth to form the smooth contour of the neck, temporarily enclosing a space, the *cervical sinus of His*.
+
+When a cleft, a pouch or the cervical sinus fails to obliterate, it leaves a remnant: a *cyst* with no opening, a *sinus* with one opening, inside or out, or a *fistula* with both. The skin openings always lie *anterior to the sternomastoid*, and the tract runs deep to platysma.
 !table Arches, their nerves and derivatives
 Arch | Nerve | Skeletal and muscle derivatives | Artery
 First (mandibular) | Trigeminal (V3) | Malleus head and neck, incus body and short process, mandible, sphenomandibular ligament; muscles of mastication, mylohyoid, anterior digastric, tensor tympani, tensor palati | Degenerates (part of maxillary)
@@ -27,88 +24,42 @@ Fourth | Superior parathyroids; ultimobranchial body with the C cells
 The third pouch gives rise to both the inferior parathyroid and the thymus. As the thymus descends into the chest, it drags the third-pouch parathyroid below the fourth-pouch one. That long journey explains why inferior glands are so often ectopic.
 !!
 ## The thyroid and tongue
-- **Thyroid:** begins at the *foramen caecum* at about four weeks. It descends through the tongue base and passes in front of, through or behind the developing hyoid. The connecting *thyroglossal duct* normally disappears by the sixth to eighth week.
-- **Tongue:**
-  - The anterior two-thirds come from the first-arch lingual swellings and the tuberculum impar.
-  - The posterior third comes from the copula (second to fourth arches).
-  - The muscles come from occipital somites (hypoglossal nerve).
+The thyroid begins at the *foramen caecum* at about four weeks and descends through the tongue base, passing in front of, through or behind the developing hyoid. The *thyroglossal duct* that connects it to the tongue normally disappears by the sixth to eighth week. The anterior two-thirds of the tongue come from the first-arch lingual swellings and the tuberculum impar, the posterior third from the copula of the second to fourth arches, and the muscles from the occipital somites, which is why they are supplied by the hypoglossal nerve.
 
 # Midline masses | Thyroglossal and dermoid.
 ## Thyroglossal duct cyst
-The commonest congenital neck mass.
-- **Age:** usually presents in childhood, but can appear at any age.
-- **Signs:**
-  - A smooth, round, cystic *midline* swelling, 2 to 4 cm, usually just *below or at the hyoid*, sometimes slightly to the left.
-  - It *moves up on swallowing and on protruding the tongue*, because it is tethered to the foramen caecum.
-- **Infection:** may become infected after an upper respiratory infection. If it ruptures or is incised, it leaves a thyroglossal sinus or "fistula".
-- **Sites:** lingual, suprahyoid, at the hyoid, subhyoid (the commonest), and suprasternal.
-- **Rarities:**
-  - It may contain the *only functioning thyroid tissue*.
-  - About 1% contain carcinoma, almost always papillary.
-- **Investigation:** ultrasound to confirm a cyst and a *normal thyroid gland*, with thyroid function. Scintigraphy if the gland is not seen. FNA for solid areas in adults.
-- **Treatment: Sistrunk operation.**
-  - Excise the cyst and tract *with the central body of the hyoid bone*, plus a core of tongue-base muscle along the tract up to the foramen caecum.
-  - Simple cystectomy recurs in up to half of cases. The Sistrunk operation reduces recurrence to under 5 to 10%.
-  - Operate once infection has settled; aspiration or antibiotics only during infection.
+The thyroglossal cyst is the commonest congenital neck mass. It usually presents in childhood but can appear at any age, as a smooth, round, cystic *midline* swelling of 2 to 4 cm, usually *at or just below the hyoid* and sometimes slightly to the left. Because it is tethered to the foramen caecum, it *rises on swallowing and on protruding the tongue*. It may become infected after an upper respiratory infection, and if it ruptures or is incised it leaves a thyroglossal sinus or "fistula". It can lie anywhere along the tract: lingual, suprahyoid, at the hyoid, subhyoid (the commonest) or suprasternal.
+
+Two rarities matter. The cyst may contain the *only functioning thyroid tissue*, and about 1% contain carcinoma, almost always papillary. Ultrasound therefore confirms not only the cyst but also a *normal thyroid gland*, with thyroid function tests; scintigraphy is done if the gland is not seen, and solid areas in adults are sampled by FNA.
+
+The treatment is the **Sistrunk operation**: excision of the cyst and tract *together with the central body of the hyoid bone* and a core of tongue-base muscle along the tract up to the foramen caecum. Simple cystectomy recurs in up to half of cases; the Sistrunk operation brings recurrence below 5 to 10%. Infection is first settled with aspiration or antibiotics, and the operation done afterwards.
 !fig d77-3 d77-4 | First, a thyroglossal cyst in the midline of the neck. Second, sites of thyroglossal cysts along the tract (subhyoid is the commonest).
 !imaging thyroglossal-duct-cyst | Thyroglossal duct cyst on imaging.
 !ops 200 | The Sistrunk operation.
 ## Dermoid cyst
-A midline cyst lined by skin with adnexa, from ectoderm trapped at lines of fusion.
-- **Sites:** usually submental or in the floor of mouth (the *sublingual dermoid*), or at the suprasternal notch.
-- **Signs:** it does not move with tongue protrusion. A sublingual dermoid above mylohyoid can push the tongue up and must be told apart from a ranula.
-- **Treatment:** excision, intraorally or through the neck according to its relation to mylohyoid.
+A dermoid cyst is lined by skin with its adnexa, formed from ectoderm trapped at a line of fusion. It lies in the submental region or the floor of mouth (the *sublingual dermoid*), or at the suprasternal notch, and it does not move with tongue protrusion. A sublingual dermoid above the mylohyoid can push the tongue up and must be told apart from a ranula. It is excised through the mouth or the neck according to its relation to the mylohyoid.
 !imaging epi-dermoid-cyst | Epidermoid and dermoid cysts.
 ## Other midline masses
-- **Teratoma:** in neonates, sometimes huge, may obstruct the airway. Plan an EXIT procedure (ex-utero intrapartum treatment) when diagnosed antenatally.
-- **Ectopic thyroid.**
-- **Delphian node.**
-- **Thymic cyst:** usually lateral, deep to the lower third of sternomastoid.
-- **Bronchogenic cyst:** suprasternal.
+A **teratoma** in a neonate can be huge and obstruct the airway, and when it is found antenatally an EXIT (ex-utero intrapartum treatment) delivery is planned. Ectopic thyroid, a Delphian node, a bronchogenic cyst at the suprasternal notch, and a thymic cyst, usually lateral and deep to the lower third of the sternomastoid, complete the differential.
 
 # Branchial anomalies | Lateral cysts, sinuses and fistulae.
 ## Second cleft anomalies
-The commonest branchial anomalies, about 90%.
-- **Cyst:**
-  - Usually appears in older children and young adults (second to third decade).
-  - A smooth, fluctuant, non-tender swelling at the junction of the upper and middle thirds of the anterior border of sternomastoid.
-  - Often enlarges with upper respiratory infections and may become infected.
-  - The fluid contains cholesterol crystals.
-- **Sinus or fistula:**
-  - Seen from infancy as a pit on the *lower third of the anterior border of sternomastoid* that discharges mucus.
-  - Course of the tract:
-    - Up along the carotid sheath, deep to platysma.
-    - *Deep to the second-arch derivatives* (external carotid, stylohyoid, posterior digastric).
-    - *Superficial to the third-arch derivatives* (internal carotid, glossopharyngeal nerve), passing between the carotids.
-    - Over the hypoglossal nerve.
-    - Ending in the *tonsillar fossa*.
-- **Treatment:**
-  - Complete excision after infection has settled.
-  - Fistulae are removed through an elliptical incision around the opening, with a second, higher *step-ladder* incision.
-  - Recurrence follows incomplete excision or operating during infection.
+About 90% of branchial anomalies arise from the second cleft. The **cyst** usually appears in older children and young adults as a smooth, fluctuant, non-tender swelling at the junction of the upper and middle thirds of the anterior border of the sternomastoid. It often enlarges with upper respiratory infections and may become infected, and its fluid contains cholesterol crystals.
+
+The **sinus or fistula** is seen from infancy as a pit on the *lower third of the anterior border of the sternomastoid* that discharges mucus. Its tract runs up along the carotid sheath deep to platysma, passes *deep to the second-arch derivatives* (the external carotid, stylohyoid and posterior digastric) and *superficial to the third-arch derivatives* (the internal carotid and glossopharyngeal nerve), so that it runs between the two carotids, crosses over the hypoglossal nerve, and ends in the *tonsillar fossa*.
+
+The anomaly is excised completely once infection has settled. A fistula is removed through an elliptical incision around the opening, with a second, higher *step-ladder* incision to follow the tract. Recurrence follows incomplete excision or surgery during infection.
 !fig d77-5 | A left branchial sinus discharging pus.
 !imaging branchial-cleft-cyst | Branchial cleft cyst on imaging.
 !flag The adult "branchial cyst"
 A new cystic lateral neck mass in an adult over about 40 is far more often a *cystic metastasis* from HPV-related oropharyngeal carcinoma or papillary thyroid carcinoma than a branchial cyst. Examine the tonsils and tongue base, aspirate under ultrasound, test p16 and thyroglobulin, and image before excision.
 !!
 ## First cleft anomalies
-Duplication of the external ear canal.
-- **Work type I:** ectodermal, a duplicate canal running parallel to the external canal.
-- **Work type II:** ectodermal and mesodermal, containing cartilage.
-- **Presentation:** a cyst, sinus or fistula near the angle of the mandible or in the parotid. It drains into or near the ear canal, often with recurrent parotid-region abscesses or otorrhoea.
-- **Treatment:** the tract runs close to, and sometimes deep to, the facial nerve. Excision requires a parotidectomy approach with the nerve identified first.
+First cleft anomalies are duplications of the external ear canal. **Work type I** is ectodermal, a duplicate canal running parallel to the external canal; **Work type II** is ectodermal and mesodermal and contains cartilage. They present as a cyst, sinus or fistula near the angle of the mandible or within the parotid, draining into or near the ear canal, often as recurrent abscesses in the parotid region or as otorrhoea. Because the tract runs close to, and sometimes deep to, the facial nerve, excision needs a parotidectomy approach with the nerve identified first.
 ## Third and fourth pouch anomalies
-- **Opening:** these open into the *pyriform sinus*, almost always on the left.
-- **Presentation:**
-  - Recurrent *left-sided neck abscesses*.
-  - *Acute suppurative thyroiditis* in children.
-  - Lateral cysts low in the neck.
-- **Course of a third-arch tract:** deep to the internal carotid and glossopharyngeal nerve, superficial to the hypoglossal nerve. It pierces the thyrohyoid membrane above the internal laryngeal nerve.
-- **Course of a fourth-arch tract:** below the superior laryngeal nerve, looping round the subclavian on the right or the aortic arch on the left.
-- **Diagnosis:** barium swallow, CT, and direct laryngoscopy to see the pyriform opening.
-- **Treatment:**
-  - Endoscopic cauterisation of the sinus opening (chemical or electrocautery).
-  - Or open excision with partial thyroidectomy.
+Third and fourth pouch anomalies open into the *pyriform sinus*, almost always on the left. They present as recurrent *left-sided neck abscesses*, as *acute suppurative thyroiditis* in children, or as cysts low in the lateral neck. A third-arch tract runs deep to the internal carotid and glossopharyngeal nerve and superficial to the hypoglossal nerve, piercing the thyrohyoid membrane above the internal laryngeal nerve. A fourth-arch tract passes below the superior laryngeal nerve and loops round the subclavian artery on the right or the aortic arch on the left.
+
+The diagnosis is made with a barium swallow, CT and direct laryngoscopy to see the pyriform opening. The sinus opening can be closed endoscopically by chemical or electrocautery, or the tract excised openly with a partial thyroidectomy.
 !anat s271_65 d140_14 | The triangles of the neck, and the common carotid artery and its relations, which guide the course of branchial tracts.
 !ops 201 | Branchial cleft cysts and sinuses.
 !table Branchial anomalies compared
@@ -121,63 +72,30 @@ Fourth pouch | Low in the neck (rare) | Apex of the pyriform sinus | Below the s
 
 # Lymphatic and vascular | Malformations and haemangiomas.
 ## Lymphatic malformation (cystic hygroma)
-A malformation of lymphatic channels from sequestration of the primitive jugular lymph sacs.
-- **Age and site:**
-  - About half are present at birth, and 90% appear by two years.
-  - Most often in the *posterior triangle*. They extend to the floor of mouth and tongue, the parotid, axilla and mediastinum.
-- **Macrocystic lesions (cystic hygroma):** soft, multilocular, compressible, *brilliantly transilluminant*.
-- **Microcystic lesions:** infiltrate the tongue and face. The mucosa shows clear or blood-stained *vesicles*.
-- **Course:** they swell suddenly with infection or bleeding into the cysts. Large ones obstruct labour or the airway and feeding.
-- **Imaging:** MRI shows the extent. Antenatal ultrasound may detect them; large lesions need an EXIT delivery.
-- **Treatment:**
-  - *Sclerotherapy* (bleomycin, doxycycline, OK-432, ethanol) for macrocystic disease.
-  - *Surgical excision*, preserving nerves and vessels. Recurrence is low after complete excision and about half after partial excision. Several stages may be needed.
-  - *Sirolimus* for extensive microcystic disease.
-  - Laser for mucosal vesicles.
-  - Tracheostomy for airway obstruction.
+A lymphatic malformation arises from sequestration of the primitive jugular lymph sacs. About half are present at birth and 90% appear by two years. They occur most often in the *posterior triangle* and extend into the floor of mouth and tongue, the parotid, the axilla and the mediastinum.
+
+**Macrocystic** lesions, the classic cystic hygroma, are soft, multilocular, compressible and *brilliantly transilluminant*. **Microcystic** lesions infiltrate the tongue and face, and the overlying mucosa shows clear or blood-stained *vesicles*. Both swell suddenly with infection or bleeding into the cysts, and large ones can obstruct labour, the airway or feeding. MRI shows the extent, and when antenatal ultrasound detects a large lesion an EXIT delivery is planned.
+
+Macrocystic disease responds to *sclerotherapy* with bleomycin, doxycycline, OK-432 or ethanol. *Surgical excision* preserves nerves and vessels; recurrence is low after complete excision and about half after partial excision, and several stages may be needed. Extensive microcystic disease is treated with *sirolimus*, mucosal vesicles with laser, and airway obstruction with a tracheostomy.
 !fig d77-7 | A cystic hygroma in an infant.
 !imaging cystic-hygroma-lymphangioma | Cystic hygroma (lymphatic malformation).
 ## Infantile haemangioma and other vascular anomalies
-Infantile haemangioma is the commonest tumour of infancy.
-- **Course:** it appears after birth, proliferates for about a year, then slowly involutes.
-- **Associations:**
-  - A *beard-distribution* lesion means a subglottic haemangioma until proved otherwise.
-  - Large segmental facial lesions suggest *PHACES syndrome*.
-- **Treatment:** propranolol.
-
-Venous malformations, capillary malformations and AVMs grow with the child; they are covered with the vascular anomalies.
+The infantile haemangioma, the commonest tumour of infancy, appears after birth, proliferates for about a year and then slowly involutes. A lesion in a *beard distribution* means a subglottic haemangioma until proved otherwise, and a large segmental facial lesion suggests *PHACES syndrome*. Propranolol is the treatment. Venous malformations, capillary malformations and AVMs, which grow with the child, are covered with the vascular anomalies.
 
 # Other paediatric masses | Nodes, glands, muscle.
-- **Sternomastoid tumour (fibromatosis colli):**
-  - A firm, spindle-shaped mass in the sternomastoid of a two- to four-week-old baby, often after a difficult delivery.
-  - Causes *torticollis*: the head tilts towards the lesion and the chin turns away.
-  - Ultrasound confirms it.
-  - Physiotherapy with stretching resolves most. Persistent cases need tenotomy to prevent plagiocephaly and facial asymmetry.
-- **Thymic cyst:** a cervical remnant along the line of thymic descent, from the angle of the jaw to the mediastinum, usually on the left. It may extend into the chest.
-- **Reactive and infective nodes:**
-  - The commonest childhood neck masses.
-  - Suppurative adenitis.
-  - Atypical mycobacteria.
-  - Cat-scratch disease.
-  - Kawasaki disease (fever over five days, conjunctivitis, mucosal changes, a rash, a large node). Do not miss it: coronary aneurysms follow untreated disease.
-- **Malignancy in children:**
-  - Lymphoma (Hodgkin in adolescents).
-  - Rhabdomyosarcoma.
-  - Neuroblastoma.
-  - Thyroid carcinoma.
-  - Nasopharyngeal carcinoma in endemic areas.
-  - Warning signs: a hard, fixed or matted node over 2 to 3 cm, supraclavicular site, growth over two to six weeks despite antibiotics, and B symptoms. These need biopsy.
-- **Salivary masses:** infantile haemangioma of the parotid, ranula, and juvenile recurrent parotitis.
+## The sternomastoid tumour and the thymus
+**Fibromatosis colli**, the sternomastoid tumour, is a firm spindle-shaped mass within the sternomastoid of a baby two to four weeks old, often after a difficult delivery. It causes *torticollis*, with the head tilted towards the lesion and the chin turned away, and ultrasound confirms it. Stretching physiotherapy resolves most cases, and persistent cases need tenotomy to prevent plagiocephaly and facial asymmetry. A **thymic cyst** is a cervical remnant lying along the line of thymic descent from the angle of the jaw to the mediastinum, usually on the left, and it may extend into the chest.
+## Nodes and malignancy
+Reactive and infective nodes are the commonest childhood neck masses: suppurative adenitis, atypical mycobacteria and cat-scratch disease. **Kawasaki disease**, with more than five days of fever, conjunctivitis, mucosal changes, a rash and a large node, must not be missed, because coronary aneurysms follow when it goes untreated.
+
+Malignancy is uncommon but important: lymphoma, especially Hodgkin lymphoma in adolescents, rhabdomyosarcoma, neuroblastoma, thyroid carcinoma, and nasopharyngeal carcinoma in endemic areas. A hard, fixed or matted node over 2 to 3 cm, a supraclavicular node, growth over two to six weeks despite antibiotics, and B symptoms are the warnings that call for biopsy. Salivary masses in children include parotid haemangioma, ranula and juvenile recurrent parotitis.
 !imaging ranula-of-the-sublingual-gland | Ranula of the sublingual gland.
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Embryology:** the arches with their nerves and derivatives; the pouches and what they form.
-- **Thyroglossal cyst:**
-  - Clinical signs.
-  - Check for a normal thyroid.
-  - The Sistrunk operation and why the hyoid is removed.
+- **Thyroglossal cyst:** clinical signs; check for a normal thyroid; the Sistrunk operation and why the hyoid is removed.
 - **Second branchial fistula:** its course and the step-ladder excision.
 - **Third and fourth pouch sinuses:** recurrent left neck abscess and thyroiditis.
 - **Cystic hygroma:** features and management.
