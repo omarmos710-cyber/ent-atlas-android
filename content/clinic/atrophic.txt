@@ -1,0 +1,122 @@
+@stand Beyond allergy lies a family of infective and chronic rhinitis: the common cold and its complications, the bacterial and diphtheritic forms, and the chronic inflammations that thicken the turbinates or, at the other extreme, waste them away. Atrophic rhinitis, with its wide, crusted, foul-smelling nose and a patient who cannot smell it, is the one examiners never forget.
+
+# Overview | Infective and chronic rhinitis.
+## The family
+!tree Infective and chronic rhinitis
+Acute | Viral | common cold, influenza, exanthemas, COVID-19
+Acute | Bacterial and irritative | non-specific bacterial, diphtheritic, chemical
+Chronic | Simple and hypertrophic | swollen or thickened turbinates
+Chronic | Atrophic and crusting | atrophic rhinitis (ozaena), rhinitis sicca, rhinitis caseosa
+!!
+Allergic and vasomotor rhinitis, and the specific granulomatous infections, have their own topics.
+
+# Acute rhinitis | The common cold and its relatives.
+## Common cold (coryza)
+### Cause
+Droplet spread of rhinovirus, adenovirus, coxsackie and other enteroviruses and coronaviruses. Incubation is one to four days; the illness lasts two to three weeks.
+### Clinical picture
+Burning at the back of the nose, then stuffiness, sneezing and profuse watery rhinorrhoea, chills and low fever. The discharge becomes mucopurulent if bacteria (streptococci, pneumococci, staphylococci, *H. influenzae*, *Moraxella*) invade secondarily.
+### Treatment
+Rest, fluids, analgesics (non-aspirin preferred, as aspirin increases viral shedding), antihistamines and short-term decongestants. Antibiotics only for bacterial complications.
+### Complications
+Sinusitis, pharyngitis, tonsillitis, otitis media, bronchitis and pneumonia.
+## Other viral rhinitis
+Influenza A, B and C cause a similar but more severe illness, with more frequent bacterial complications. Measles, rubella and chickenpox cause rhinitis two to three days before the rash. COVID-19 begins like a cold and may cause sudden loss of smell and taste; during its second wave it was followed by a surge of rhino-orbito-cerebral mucormycosis in diabetics and steroid-treated patients (see the fungal sinusitis topic).
+## Bacterial rhinitis
+### Non-specific
+Primary infection in children with pneumococcus, streptococcus or staphylococcus, sometimes with a greyish-white membrane that bleeds when removed; or secondary infection after a cold.
+### Diphtheritic
+Rare with immunisation. A greyish, tenacious membrane over the inferior turbinate and floor that bleeds when removed, with excoriation of the nostrils and upper lip. Isolate; give penicillin or erythromycin and diphtheria antitoxin.
+## Irritative rhinitis
+From dust, smoke, ammonia, formalin or acid fumes, or trauma during intranasal procedures: immediate sneezing, rhinorrhoea and congestion that settle once the irritant is removed.
+
+# Chronic simple and hypertrophic rhinitis | Swollen, then thickened.
+## Chronic simple rhinitis
+### Causes
+Repeated colds with persistent infection in the sinuses, tonsils or adenoids; smoke and dust; nasal obstruction from a deviated septum or synechiae; vasomotor rhinitis; hypothyroidism.
+### Pathology
+Hyperaemic, oedematous mucosa with hypertrophied glands, more goblet cells and distended sinusoids over the turbinates: an early stage of hypertrophic rhinitis.
+### Clinical picture
+Blockage worse on lying, affecting the dependent side; thick mucoid or mucopurulent discharge and postnasal drip; headache. The turbinates are dull red and swollen, but they *pit on pressure and shrink with a vasoconstrictor*.
+### Treatment
+Treat the cause (sinuses, tonsils, adenoids, allergy, smoking, workplace), saline or alkaline irrigation, short-term decongestants, and antibiotics for infection.
+## Hypertrophic rhinitis
+### Pathology
+Thickening of the mucosa, submucosa, glands, periosteum and bone, most marked on the inferior turbinate.
+### Causes
+Recurrent infections, chronic sinusitis, irritants, long-term nasal drops, and vasomotor or allergic rhinitis.
+### Clinical picture
+Obstruction is the main symptom, with thick sticky discharge and headache. The turbinate mucosa is thick, does *not pit on pressure* and shrinks little with vasoconstrictors, because of fibrosis. The inferior turbinate may be enlarged throughout, or at its anterior end, posterior end or lower border, giving a *mulberry* appearance.
+### Treatment
+Remove the cause, then reduce the turbinates: linear cautery, submucosal diathermy, cryosurgery, laser, coblation or radiofrequency, submucous resection of the turbinate bone, or partial turbinectomy. Avoid excessive removal, which leaves crusting and an empty nose.
+!ops
+## Compensatory hypertrophy
+With a severely deviated septum, the turbinates on the wider side enlarge to narrow the airway and protect it from drying. The change is not reversible after septoplasty, so the turbinate is often reduced at the same operation.
+!table Simple or hypertrophic?
+ | Chronic simple rhinitis | Hypertrophic rhinitis
+Mucosa | Dull red, oedematous | Thick, fibrosed
+Probe | Pits on pressure | Does not pit
+Vasoconstrictor | Shrinks well | Shrinks little
+Treatment | Medical | Turbinate reduction
+!!
+
+# Atrophic rhinitis | Ozaena.
+## Definition
+A chronic inflammation with atrophy of the nasal mucosa and turbinate bones. The nasal cavities become roomy and fill with foul-smelling crusts.
+## Primary atrophic rhinitis
+### Causes
+Unknown; several theories (Dhingra's mnemonic *HERNIA*):
+- **Hereditary:** several family members affected.
+- **Endocrine:** begins at puberty, commoner in women, tends to settle after the menopause.
+- **Racial:** commoner in white and East Asian populations than in equatorial Africa.
+- **Nutritional:** deficiency of vitamins A and D or iron; rarer in well-off families.
+- **Infective:** *Klebsiella ozaenae* (Perez bacillus) is the commonest organism cultured, with diphtheroids, *Proteus*, *E. coli* and cocci, but these are secondary invaders responsible for the smell.
+- **Autoimmune:** a destructive reaction to antigens from the nasal mucosa.
+### Pathology
+Ciliated columnar epithelium becomes squamous; seromucinous glands, venous sinusoids and nerves atrophy; arteries show obliterative endarteritis; the turbinate bones are resorbed, widening the nose. The sinuses stay small and thick-walled because their development was arrested.
+### Clinical picture
+- Usually a young woman, starting at puberty.
+- A foul smell that makes the patient a social outcast, though the patient cannot smell it (*merciful anosmia*).
+- *Paradoxical nasal obstruction:* the nose is wide, but damaged sensory nerves cannot feel the airflow.
+- Epistaxis when crusts are removed.
+### Signs
+Greenish or greyish-black crusts cover the turbinates and septum; when removed, the cavities are roomy, the turbinates reduced to ridges, the mucosa pale, and the posterior nasopharyngeal wall easily seen. There may be a septal perforation, vestibular dermatitis or saddle nose, with similar changes in the pharynx (atrophic pharyngitis) and larynx (atrophic laryngitis), and ear effusion from tubal blockage.
+### Prognosis
+Persists for years, with a tendency to improve in middle age.
+## Treatment
+### Medical: nasal hygiene
+- **Irrigation:** warm saline, or an alkaline douche (sodium bicarbonate, sodium biborate and sodium chloride in water), two or three times a day at first, then every few days; loosen and remove hard crusts.
+- **25% glucose in glycerine:** painted on after the crusts are removed; it inhibits the proteolytic organisms that cause the smell.
+- **Antibiotics:** topical, or a 7 to 10 day systemic course (for example a fluoroquinolone with metronidazole) for active infection; not long-term.
+- **Mucolytics** such as potassium iodide.
+- **Diet** rich in vitamins A and D, folic acid, iron and protein.
+### Surgical
+- **Young's operation:** both nostrils are closed with flaps just inside the vestibule and reopened after six months or more; the mucosa may recover. A *modified Young's operation* closes them partially.
+- **Narrowing the nasal cavities:** submucosal implants of fat, cartilage, bone or acellular dermis under the floor, lateral wall and septum, or medial displacement of the lateral wall (*Lautenschlaeger operation*).
+## Secondary atrophic rhinitis
+Destruction from syphilis, lupus, leprosy or rhinoscleroma; long-standing purulent sinusitis; radiotherapy; and excessive turbinate surgery (the *empty nose syndrome*). A severely deviated septum can cause one-sided atrophic rhinitis on the wide side.
+!pearl Pearls
+- Merciful anosmia: the patient is the only one who cannot smell it.
+- Paradoxical obstruction: the widest nose in clinic, yet it feels blocked.
+- Klebsiella ozaenae is a secondary invader, not the cause.
+!!
+
+# Rhinitis sicca and caseosa | Other crusting conditions.
+## Rhinitis sicca
+A crusting disease of people who work in hot, dry, dusty places (bakers, ironsmiths, goldsmiths), confined to the anterior septum. Squamous metaplasia leads to crusts whose removal causes ulceration, bleeding and perforation. Change the working environment, apply a bland or antibiotic-steroid ointment, use douches, and stop picking.
+## Rhinitis caseosa
+Rare, usually one-sided and in men: the nose fills with offensive pus and cheesy material, probably from chronic sinusitis; the sinus walls may be eroded, mimicking malignancy. Remove the debris and granulation and drain the sinus; the outlook is good.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Chronic simple versus hypertrophic rhinitis:** the probe and vasoconstrictor tests.
+- **Atrophic rhinitis:** theories, pathology, merciful anosmia, paradoxical obstruction, treatment including glucose-glycerine and Young's operation.
+- **Diphtheritic rhinitis:** membrane and treatment.
+- **Rhinitis sicca** and caseosa.
+!!
+## Common pitfalls
+!pit
+- Removing too much turbinate and creating an empty nose.
+- Forgetting that a crusted, destroyed nose may be secondary to a granulomatous disease or lymphoma.
+!!

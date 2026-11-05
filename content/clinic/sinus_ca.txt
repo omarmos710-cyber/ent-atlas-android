@@ -1,0 +1,151 @@
+@stand Tumours of the nose and sinuses hide behind the symptoms of ordinary sinusitis until they break out of their bony box into the cheek, palate, orbit or skull base. The warning is a one-sided story: blockage, bloodstained discharge, numbness or a loose tooth on one side in a middle-aged or older adult. Every one-sided nasal mass is sent for histology.
+
+# Overview | Silent until they escape.
+## The range
+!tree Sinonasal tumours
+Benign epithelial | Papillomas | squamous, inverted, oncocytic, exophytic
+Benign other | Haemangioma, schwannoma, meningioma | pleomorphic adenoma, chondroma, angiofibroma
+Benign bony | Osteoma, fibrous dysplasia | ossifying fibroma, ameloblastoma
+Malignant epithelial | Squamous cell carcinoma | adenocarcinoma, adenoid cystic carcinoma, undifferentiated carcinoma
+Malignant other | Melanoma, olfactory neuroblastoma | lymphoma, plasmacytoma, sarcomas, haemangiopericytoma
+!!
+## Epidemiology
+Sinonasal cancer is rare (well under 1% of all cancers). The maxillary sinus is the commonest site, then the ethmoids; frontal and sphenoid primaries are rare.
+## Risk factors
+- **Hardwood dust** (furniture workers): adenocarcinoma of the ethmoids and upper nose.
+- **Nickel refining:** squamous and anaplastic carcinoma.
+- **Leather work, chromium, mustard gas, formaldehyde.**
+- **Snuff** rich in nickel and chromium (Bantu populations).
+- **Smoking** and HPV for some squamous carcinomas.
+## Histology
+More than 80% of malignant tumours are squamous cell carcinoma; the rest are adenocarcinoma, adenoid cystic carcinoma, melanoma, olfactory neuroblastoma, lymphoma and sarcomas.
+!fig d40-4a | Adenocarcinoma with gland formation and intracytoplasmic mucin.
+
+# Benign tumours of the nasal cavity | And the one that isn't quite benign.
+## Squamous papilloma
+A warty lesion of the vestibule or anterior septum; excised.
+!fig d39-1 | Squamous papilloma of the left nasal vestibule.
+## Inverted papilloma
+### What it is
+A Schneiderian papilloma in which the epithelium grows inwards into the stroma. Typically in men of 40 to 70, almost always one-sided, arising from the lateral wall near the middle meatus and extending into the maxillary and ethmoid sinuses. HPV is found in some.
+### Three warnings
+- It destroys bone by pressure.
+- It recurs if incompletely removed.
+- It is associated with squamous cell carcinoma in about 10%.
+### Clinical picture
+One-sided obstruction, discharge and bleeding, with a firm, greyish, irregular mass that can masquerade as a simple polyp.
+!fig d39-2 d39-3 | First, inverted papilloma in a 79-year-old man, with its CT. Second, an inverted papilloma in the right nose looking like a simple polyp.
+!fig d39-4 | Histology of a Schneiderian papilloma: ribbons of thickened epithelium growing into the stroma.
+### Imaging
+CT shows a one-sided mass and focal hyperostosis at the site of attachment; MRI shows a *convoluted cerebriform* pattern.
+### Treatment
+Complete removal including the mucoperiosteum and drilling of the bone at the site of attachment, now usually endoscopic (endoscopic medial maxillectomy) and formerly by lateral rhinotomy or midfacial degloving. Long-term endoscopic follow-up.
+## Vascular and other benign tumours
+- **Haemangioma** (lobular capillary haemangioma, *bleeding polyp of the septum*): a red, friable mass on the anterior septum, often in pregnancy; excised with its base.
+- **Schwannoma, meningioma, chondroma, pleomorphic adenoma** of the septum.
+- **Angiofibroma** (see its own topic).
+- **Encephalocele, glioma and dermoid** (see the congenital nasal masses topic).
+!fig d39-5a | A bleeding polyp arising from the right side of the septum.
+
+# Benign bony tumours | Usually found by chance.
+## Osteoma
+The commonest benign sinus tumour, usually in the frontal sinus, then ethmoid; often an incidental finding on CT. Symptoms arise when it blocks drainage (mucocele, sinusitis), bulges into the orbit or erodes the skull base. Multiple osteomas suggest *Gardner syndrome* (with colonic polyposis). Removed endoscopically or through an external approach when symptomatic.
+!fig d40-1 d40-2 | First, a frontoethmoidal osteoma invading the orbit. Second, an osteoma of the right frontal sinus.
+## Fibrous dysplasia
+Bone replaced by fibrous tissue and woven bone; *monostotic*, *polyostotic*, or with skin pigmentation and endocrine disorders (*McCune-Albright syndrome*). A painless swelling of the maxilla in a child or adolescent, with a *ground-glass* appearance on CT. Growth usually slows after puberty; conservative recontouring for deformity or compression.
+!fig d40-3 | Fibrous dysplasia of the maxilla in a 13-year-old girl.
+## Ossifying fibroma
+A well-defined, expansile lesion with a bony rim, more aggressive in its juvenile form; excised completely.
+## Ameloblastoma
+An odontogenic tumour of the jaw, commonest in the mandible, that may invade the maxillary sinus; locally aggressive and recurrent unless widely excised.
+!imaging osteoma fibrous-dysplasia-monostotic myxoma inverted-papilloma | Inverted papilloma, osteoma, fibrous dysplasia and myxoma.
+
+# Carcinoma of the maxillary sinus | The classic sinonasal cancer.
+## Clinical picture
+Usually men of 40 to 60. Early symptoms are easily mistaken for sinusitis: nasal stuffiness, bloodstained discharge, facial pain or numbness, and epiphora. Late features depend on the direction of spread.
+!table Spread of maxillary carcinoma
+Direction | Structures | Features
+Medial | Nasal cavity, ethmoids | Obstruction, discharge, epistaxis
+Anterior | Cheek | Swelling, then skin invasion
+Inferior | Alveolus, palate | Toothache, loose teeth, ill-fitting dentures, palatal swelling
+Superior | Orbit | Proptosis, diplopia, pain, epiphora
+Posterior | Pterygoid plates and muscles, infratemporal fossa | Trismus, spread to nasopharynx and skull base
+Intracranial | Through the ethmoids, cribriform plate or foramen lacerum | Neurological signs
+!!
+!fig d40-6 | Carcinoma of the left maxilla in a 75-year-old man: (A) swelling and redness of the cheek, (B) expansion of the upper alveolus with an intraoral growth, (C) CT showing destruction of the maxilla and orbital floor.
+## Lymph node and distant spread
+Nodes are uncommon and late (submandibular and upper jugular); the first-echelon retropharyngeal nodes cannot be felt. Distant metastases go to the lungs and bone.
+## Investigations
+- **CT** in three planes: bone destruction and staging.
+- **MRI:** separates tumour from retained secretions, and shows orbital, perineural and intracranial spread.
+- **Biopsy:** endoscopic, or from the mouth or nose when the tumour presents there; the Caldwell-Luc route is no longer preferred.
+- **Staging:** chest CT or PET-CT.
+!imaging sinonasal-tumours malignancy-of-the-pterygopalatine-and-infratempo | Sinonasal malignancy and spread into the pterygopalatine and infratemporal fossae.
+## Classifications
+### Ohngren's line
+An imaginary line from the medial canthus to the angle of the mandible. Tumours above and behind it (suprastructure) have a worse prognosis than those below and in front of it.
+### Lederman's classification
+Two horizontal lines of Sebileau, through the floors of the orbits and the floors of the antra, divide the region into *suprastructure* (ethmoid, sphenoid, frontal sinuses and olfactory area), *mesostructure* (maxillary sinus and respiratory nose) and *infrastructure* (alveolus).
+!fig d40-7 d40-8 | First, Ohngren's line. Second, Lederman's classification.
+### AJCC TNM for the maxillary sinus
+!table T staging of maxillary sinus carcinoma
+T | Extent
+T1 | Limited to the mucosa, no bone erosion
+T2 | Bone erosion including the hard palate or middle meatus, but not the posterior wall or pterygoid plates
+T3 | Posterior wall, subcutaneous tissue, floor or medial wall of the orbit, pterygoid fossa, ethmoids
+T4a | Anterior orbit, cheek skin, pterygoid plates, infratemporal fossa, cribriform plate, sphenoid or frontal sinus
+T4b | Orbital apex, dura, brain, middle cranial fossa, cranial nerves other than V2, nasopharynx, clivus
+!!
+## Treatment
+### Surgery
+Resection with clear margins, followed by radiotherapy for most stages:
+- **Medial maxillectomy** (endoscopic or open) for medial tumours.
+- **Total maxillectomy** through a *Weber-Fergusson* incision (lateral rhinotomy with lip split, extended below the eye), with **orbital exenteration** when the orbit is invaded beyond the periosteum.
+- **Craniofacial resection** when the cribriform plate or anterior skull base is involved.
+- Endoscopic resection is increasingly used for selected tumours.
+!fig d40-9 d40-10 | First, the Weber-Fergusson incision. Second, maxillectomy with orbital exenteration, before and after rehabilitation.
+### Reconstruction and rehabilitation
+A dental obturator closes the palatal defect, or a free flap reconstructs it; orbital prostheses after exenteration.
+### Radiotherapy and chemotherapy
+Postoperative radiotherapy for most; primary chemoradiotherapy for unresectable tumours; neoadjuvant chemotherapy in selected cases.
+### Neck
+Neck dissection or irradiation for nodal disease, and elective treatment in some advanced tumours.
+!ops
+## Prognosis
+Five-year survival is around a third to a half overall, worse with orbital apex, skull base or intracranial spread.
+
+# Tumours of the ethmoid, frontal and sphenoid | Rarer sites.
+## Ethmoid
+Often adenocarcinoma in woodworkers. Nasal obstruction, bloodstained discharge, a mass in the medial canthus, proptosis with lateral displacement of the eye, and early skull base spread. Craniofacial or endoscopic resection with radiotherapy.
+!fig d40-11 | Carcinoma of the ethmoid.
+## Frontal
+Very rare: forehead swelling, frontal pain, displacement of the eye downwards, and early intracranial spread.
+## Sphenoid
+Usually secondary or from the nasopharynx; presents with cranial nerve palsies (second to sixth) and headache.
+
+# Other malignant tumours | Each with its clue.
+## Olfactory neuroblastoma
+*Esthesioneuroblastoma*, from the olfactory epithelium at the roof of the nose, at any age with peaks in the second and sixth decades. One-sided obstruction, epistaxis and loss of smell, with a mass high in the nose that may extend through the cribriform plate (a *dumb-bell* shape). Staged by the Kadish system (A nasal cavity, B sinuses, C beyond); treated by craniofacial or endoscopic resection with radiotherapy. Late neck metastases occur.
+!imaging olfactory-neuroblastoma meningioma-with-skull-base-destruction | Olfactory neuroblastoma, and a meningioma destroying the skull base.
+## Mucosal melanoma
+Older adults, on the septum or lateral wall; pigmented or amelanotic, bleeding; spreads by blood and lymph and has a poor prognosis; wide excision and radiotherapy.
+## Lymphoma, plasmacytoma and sarcomas
+NK/T-cell lymphoma (see the granulomatous disease topic), extramedullary plasmacytoma, and rhabdomyosarcoma in children.
+!fig d39-7 | Rhabdomyosarcoma of the nose in a two-and-a-half-year-old boy.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Occupational risks:** wood dust and adenocarcinoma, nickel and squamous carcinoma.
+- **Inverted papilloma:** site, three warnings, imaging and treatment.
+- **Maxillary carcinoma:** symptoms by direction of spread.
+- **Ohngren's line and Lederman's classification.**
+- **T staging,** and maxillectomy with or without orbital exenteration.
+- **Olfactory neuroblastoma** and Kadish staging.
+!!
+## Common pitfalls
+!pit
+- Treating one-sided sinus symptoms with antibiotics for months.
+- Removing a one-sided polyp without sending it for histology.
+- Calling numbness of the cheek sinusitis.
+!!

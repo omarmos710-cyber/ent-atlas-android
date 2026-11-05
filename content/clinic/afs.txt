@@ -1,0 +1,102 @@
+@stand Fungi in the sinuses cause two utterly different diseases. In a healthy host they sit in a sinus as a ball or provoke an allergic storm of polyps and thick mucin, and surgery cures or controls them. In a diabetic in ketoacidosis or a neutropenic patient they invade blood vessels, turn the turbinate black and can kill within days. The first question is always whether the fungus is invading tissue.
+
+# Overview | Invasive or not: everything follows.
+## Classification
+!tree Fungal rhinosinusitis
+Non-invasive | Fungal ball (mycetoma) | a mass in one sinus, healthy host
+Non-invasive | Allergic fungal rhinosinusitis | hypersensitivity, polyps, eosinophilic mucin
+Non-invasive | Saprophytic infestation | fungal growth on crusts after surgery
+Invasive | Acute fulminant | immunocompromised; Mucor, Aspergillus; days
+Invasive | Chronic invasive | slow, months; often diabetic
+Invasive | Granulomatous invasive | immunocompetent; Aspergillus flavus; Sudan, India, Pakistan
+!!
+## Organisms
+*Aspergillus* (fumigatus, flavus, niger), the Mucorales (*Mucor*, *Rhizopus*), dematiaceous fungi (*Alternaria*, *Bipolaris*, *Curvularia*) and, rarely, *Candida*, *Histoplasma* and *Blastomyces*.
+## Mucor or Aspergillus?
+!table Mucor or Aspergillus?
+ | Mucor | Aspergillus
+Hyphae | Broad | Narrow
+Septa | Rarely septate | Always septate
+Branching | At right angles | At acute angles, about 45 degrees
+Typical disease | Rhino-orbito-cerebral invasion, black necrosis | Fungal ball, allergic disease, chronic invasive disease
+!!
+!fig d37-3 | Aspergillus: septate hyphae branching at acute angles (arrow), on H&E and silver stain.
+
+# Fungal ball | A mass in a healthy sinus.
+## Picture
+A dense, cheesy or greyish-black mass of fungal hyphae, usually in one maxillary sinus (then sphenoid, ethmoid, frontal), in an otherwise healthy, often older patient. Symptoms are those of one-sided chronic sinusitis, or none.
+## CT
+A single opacified sinus with a hyperdense centre or calcific flecks, and no bone erosion; the wall may be thickened.
+## Treatment
+Endoscopic removal of the ball and a wide opening of the sinus. No antifungal drugs are needed.
+
+# Allergic fungal rhinosinusitis | An allergic storm.
+## What it is
+A hypersensitivity (type I and III) reaction to fungi growing in the sinus mucin, without tissue invasion, in immunocompetent, often young, atopic patients; commoner in warm, humid climates.
+## Bent and Kuhn criteria
+- Type I hypersensitivity to fungi.
+- Nasal polyposis.
+- Characteristic CT findings.
+- Eosinophilic mucin without fungal invasion of tissue.
+- Positive fungal stain of the mucin.
+## Clinical picture
+Gradual, often one-sided polyposis, thick, dark, peanut-butter mucin, and slow expansion of the sinuses that can displace the eye (proptosis, telecanthus) or erode the skull base. The mucin contains eosinophils, *Charcot-Leyden crystals* and scattered hyphae.
+!fig d41-2a | Proptosis and lateral displacement of the eye from allergic fungal polyposis.
+## Imaging
+CT shows expanded, opacified sinuses with heterogeneous high-density material (the *double density* sign), thinning and remodelling of bone. On MRI the mucin is dark on T2.
+## Treatment
+Complete endoscopic clearance of mucin and polyps with wide drainage, combined with oral steroids before and after surgery, long-term topical steroids and saline irrigation, and close follow-up because recurrence is common. Immunotherapy and antifungals have a limited role.
+
+# Acute invasive fungal sinusitis | A surgical and medical emergency.
+## Who gets it
+Patients with uncontrolled diabetes, particularly with ketoacidosis (the acid environment favours Mucor), neutropenia, leukaemia, chemotherapy, organ transplants, HIV, and high-dose steroids. After the second wave of COVID-19, thousands of cases of rhino-orbito-cerebral mucormycosis, popularly called *black fungus*, followed steroid treatment in diabetics.
+## Mechanism
+The hyphae invade arteries, causing thrombosis and ischaemic necrosis, and spread rapidly along vessels and nerves to the orbit, cribriform plate, cavernous sinus and brain.
+## Clinical picture
+Fever, facial pain or numbness, nasal blockage and bloodstained discharge; then lid swelling, proptosis, ophthalmoplegia and loss of vision; palatal or facial skin discolouration; confusion. Endoscopy shows pale, insensate mucosa early, then *black necrotic eschar* on the turbinate, septum or palate.
+!fig d28-4 | Mucormycosis: (A) slight swelling of the right lower lid, (B) dark discolouration of the right palate and alveolus, (C) black necrotic tissue in the right nasal cavity.
+!fig d28-5 | Mucormycosis with cheek and orbital involvement, and destruction of the palate.
+## Diagnosis
+Urgent endoscopic biopsy of the middle turbinate or suspicious mucosa, with frozen section and fungal stains (silver, PAS), and culture. Contrast CT and MRI show the extent of soft tissue, orbital and intracranial spread; MRI may show non-enhancing, devitalised mucosa.
+!imaging | Non-invasive and invasive fungal sinusitis.
+## Treatment
+!ward Suspected invasive fungal sinusitis
+1. Urgent endoscopy and biopsy with frozen section.
+2. Start liposomal amphotericin B (about 5 mg/kg/day) immediately; monitor renal function.
+3. Correct ketoacidosis and glucose; stop or reduce immunosuppression; support neutropenia.
+4. Urgent surgical debridement back to bleeding tissue, endoscopic or open, repeated as needed.
+5. Involve ophthalmology, infectious diseases and the medical team.
+!!
+- **Antifungals:** liposomal amphotericin B for Mucor; posaconazole or isavuconazole for step-down or intolerance; voriconazole for invasive *Aspergillus* (ineffective against Mucor).
+- **Surgery:** debridement may extend to medial or total maxillectomy and orbital exenteration in extensive disease, with later obturator rehabilitation of the palate.
+## Outcome
+Mortality is high, especially with intracranial spread; survival depends on reversing the immune defect and early, complete debridement.
+!ops
+
+# Chronic invasive fungal sinusitis | Slow invasion.
+## Chronic invasive
+Slowly progressive invasion over months, often in diabetics or patients on long-term steroids, presenting as chronic sinusitis with bone erosion and orbital apex syndrome or skull base spread. Biopsy shows fungal invasion of the submucosa. Surgical debridement and long-term antifungals.
+## Granulomatous invasive
+In immunocompetent patients in Sudan, India and Pakistan, usually *Aspergillus flavus*: a slowly enlarging mass of the cheek, orbit or nose with non-caseating granulomas and giant cells. Surgery and long-term azoles.
+
+# Differential diagnosis | Mimics.
+- Bacterial chronic rhinosinusitis with polyps.
+- Inverted papilloma and sinonasal malignancy (one-sided mass with bone erosion).
+- Granulomatosis with polyangiitis and NK/T-cell lymphoma (destructive, crusted nose).
+- Mucocele (expansion without the hyperdense mucin).
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Classification:** invasive versus non-invasive.
+- **Mucor versus Aspergillus** hyphae.
+- **Fungal ball:** CT and treatment without antifungals.
+- **Allergic fungal sinusitis:** Bent and Kuhn criteria, mucin, double density.
+- **Mucormycosis:** risk factors, black eschar, amphotericin B and debridement.
+!!
+## Common pitfalls
+!pit
+- Treating a diabetic with facial numbness and a black turbinate as simple sinusitis.
+- Waiting for culture before starting amphotericin.
+- Giving antifungals for a fungal ball, or omitting steroids in allergic fungal disease.
+!!

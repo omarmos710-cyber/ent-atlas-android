@@ -1,0 +1,168 @@
+@stand Most acute rhinosinusitis is a cold that has reached the sinuses, and most of it settles without antibiotics. The rhinologist's real job is to recognise the minority that turn bacterial, and the few that break out of the sinuses into the orbit, the bone or the brain. A swollen eye in a child with a cold is an emergency until the orbit has been assessed.
+
+# Overview | A cold that reaches the sinuses.
+## Definition
+Inflammation of the nose and paranasal sinuses. The term *rhinosinusitis* is preferred, because the nasal mucosa is always involved too.
+## Classification by time
+!table Classification of rhinosinusitis
+Type | Duration
+Acute | Under 4 weeks, with complete resolution
+Subacute | 4 to 12 weeks
+Chronic | 12 weeks or more
+Recurrent acute | 4 or more episodes a year, each lasting 7 to 10 days or more, with full recovery between
+Acute on chronic | Sudden worsening of chronic disease, returning to baseline
+!!
+## Symptoms
+Nasal blockage, anterior or posterior discharge, facial pain or pressure, and reduced smell, with cough, fever, fatigue, dental pain, halitosis, headache or ear fullness.
+
+# Applied anatomy | The sinuses and their drainage.
+## Drainage
+The frontal, anterior ethmoid and maxillary sinuses drain into the middle meatus through the *ostiomeatal complex*; the posterior ethmoids drain into the superior meatus and the sphenoid into the sphenoethmoidal recess. Mucociliary clearance in each sinus follows a fixed path towards its natural ostium.
+!fig d35-1 d35-4 | First, a coronal section showing the maxillary and ethmoid sinuses in relation to the orbit and nasal cavity. Second, mucociliary clearance patterns of the sinuses.
+!anat s109_53 s102_35 | The ostiomeatal complex in coronal section, and the drainage of each sinus into its meatus.
+## Development
+The maxillary and ethmoid sinuses are present at birth; the frontal sinus appears around the sixth year and the sphenoid later in childhood. So ethmoiditis is the sinusitis of infants, and frontal sinusitis an adult disease.
+## The thin walls
+The ethmoids are separated from the orbit only by the paper-thin *lamina papyracea*, and the frontal, ethmoid and sphenoid sinuses all border the anterior cranial fossa. This is why complications go to the eye and the brain.
+
+# Pathogenesis | From virus to bacteria.
+## Acute viral rhinosinusitis
+Rhinoviruses, influenza and parainfluenza viruses, spread by droplets, with an incubation of one to four days. Congestion, rhinorrhoea, sneezing and low fever improve within seven to ten days.
+!fig d36-1 | Pathophysiology of acute viral rhinosinusitis.
+## Acute bacterial rhinosinusitis
+The virus damages cilia and epithelium; oedema blocks the ostia; secretions stagnate and bacteria multiply: *Streptococcus pneumoniae*, *Haemophilus influenzae*, *Moraxella catarrhalis* and *Staphylococcus aureus*. Anaerobes accompany dental infection.
+!fig d36-2 | The sequence from acute viral to acute bacterial rhinosinusitis.
+## Diagnosing bacterial infection
+Suspect it when symptoms persist beyond ten days without improvement, or worsen after initial improvement (*double worsening*), or with severe symptoms (high fever and purulent discharge) from the start.
+## Predisposing factors
+Viral infections, swimming and diving, dental infection, trauma, a deviated septum or concha bullosa, polyps, allergy, adenoids, immune deficiency and cystic fibrosis.
+
+# Clinical picture by sinus | Where it hurts tells you where it is.
+## Acute maxillary sinusitis
+### Causes
+Spread from a cold; swimming in contaminated water; dental infection from the premolar and molar roots, which lie close to the sinus floor, or a root pushed into the sinus, or an oroantral fistula after extraction; trauma.
+### Clinical features
+Fever and malaise; pain over the cheek, often referred to the teeth or gums (so the patient may see a dentist first), worse on stooping, coughing or chewing; tenderness over the anterior wall; redness and swelling of the cheek in children; pus in the middle meatus and postnasal discharge.
+### Complications
+Chronic sinusitis, frontal sinusitis, osteomyelitis of the maxilla, and orbital cellulitis.
+## Acute frontal sinusitis
+### Clinical features
+Severe frontal headache with typical periodicity: it starts on waking, peaks around midday and fades by evening (the *office headache*). Exquisite tenderness on pressing upwards on the sinus floor above the medial canthus; upper lid oedema; a streak of pus high in the middle meatus.
+### Complications
+Orbital cellulitis, osteomyelitis of the frontal bone, meningitis, extradural and frontal lobe abscess, and chronic sinusitis.
+## Acute ethmoiditis
+### Clinical features
+The sinusitis of infants and young children. Pain over the bridge of the nose and deep to the eye, worse on eye movement; swelling of both lids; a swollen middle turbinate. Orbital cellulitis comes early.
+## Acute sphenoiditis
+### Clinical features
+Rarely isolated. Headache at the occiput or vertex, sometimes referred to the mastoid, with postnasal discharge seen on the roof of the nasopharynx. Isolated sphenoid opacity needs a mucocele or tumour excluded.
+
+# Diagnosis | Clinical first, imaging for complications.
+## Examination
+Nasal endoscopy shows pus in the middle meatus; a swab from the middle meatus can be cultured.
+## Imaging
+Not needed for uncomplicated acute disease. CT of the sinuses (with contrast and of the orbits and brain) is requested when a complication is suspected or treatment fails. Plain radiographs (Waters' view) and transillumination are historical.
+!imaging | Maxillary, frontal and odontogenic sinusitis, and the orbital and intracranial complications on CT and MRI.
+
+# Management | Most need no antibiotic.
+## Viral rhinosinusitis
+Symptomatic: saline, analgesics (non-aspirin), short-term decongestants and fluids. Antibiotics are not needed.
+## Bacterial rhinosinusitis
+- **Analgesics:** NSAIDs or paracetamol.
+- **Antibiotics:** amoxicillin, with or without clavulanate, first line; doxycycline or a respiratory quinolone in penicillin allergy. Watchful waiting is reasonable in mild disease with a safety net.
+- **Saline irrigation.**
+- **Intranasal steroids:** reduce oedema and shorten the illness.
+- **Decongestants:** topical for a few days only; oral ones where safe.
+- **Antihistamines:** only with coexisting allergy, as they thicken mucus.
+- **Steam inhalation:** symptomatic relief.
+## Surgery for acute disease
+### Maxillary
+Antral washout is rarely needed now; endoscopic middle meatal antrostomy if drainage is required.
+### Frontal
+If pain, fever or lid swelling worsen despite 48 hours of treatment, *trephine* the frontal sinus through a short incision below the medial end of the eyebrow, take pus for culture, and irrigate through a tube until methylene blue reaches the nose. Endoscopic frontal drainage is the modern alternative.
+!fig d36-3 | Trephination of the right frontal sinus through its floor.
+### Ethmoid
+Drain an orbital abscess and the ethmoids, endoscopically or through an external ethmoidectomy.
+!ops
+
+# Complications | Local, orbital and intracranial.
+!fig d38-1 | Complications of sinusitis.
+## Local complications
+### Mucocele and pyocele
+An expanding, mucus-filled sinus, from long-standing ostial obstruction, that slowly thins and erodes its bony walls; infected, it is a *pyocele* (mucopyocele). Frequency: frontal, ethmoid, maxillary, sphenoid.
+- **Frontal:** a non-tender cystic swelling above the medial canthus (90%), pushing the eye forward, down and out; sometimes a forehead swelling; egg-shell crackling.
+- **Ethmoid:** expands the medial orbital wall and bulges into the middle meatus.
+- **Sphenoid:** presents with superior orbital fissure or orbital apex syndrome and proptosis.
+Treatment is endoscopic marsupialisation into the nose, which has replaced external operations.
+!fig d38-2 d38-3 | First, a frontal mucocele presenting above the left medial canthus. Second, CT of a frontoethmoid mucocele displacing the eye down and out.
+### Retention cyst
+A cyst of an obstructed mucous gland, usually in the maxillary sinus, found incidentally; it does not erode bone and needs no treatment.
+### Osteomyelitis
+- **Maxilla:** in infants, because the anterior wall contains spongy bone; cheek swelling, lid oedema and fistulae in the infraorbital region, alveolus or palate, with risk to tooth buds.
+- **Frontal bone:** in adults; pus under the pericranium forms a soft, doughy forehead swelling, *Pott's puffy tumour*, and often an extradural abscess beneath. Antibiotics, drainage, trephination and removal of sequestra.
+!fig d38-4 d38-5a | First, osteomyelitis of the maxilla with an infraorbital fistula. Second, chronic frontal sinusitis with a fistula in the floor of the sinus.
+## Orbital complications
+Most come from the ethmoids, through the lamina papyracea or by thrombophlebitis of the ethmoidal veins.
+!table Chandler classification
+Stage | Name | Features
+I | Preseptal cellulitis | Lid oedema; vision and eye movements normal
+II | Orbital cellulitis | Diffuse orbital oedema, proptosis, chemosis, restricted movement
+III | Subperiosteal abscess | Pus between bone and periosteum; eye displaced away from the abscess
+IV | Orbital abscess | Pus within the orbit; severe proptosis, ophthalmoplegia, falling vision
+V | Cavernous sinus thrombosis | Spread to the cavernous sinus; signs in both eyes
+!!
+!fig d38-7 | Orbital complications: (A) normal, (B) subperiosteal abscess, (C) orbital abscess.
+### Displacement by the source
+An ethmoid subperiosteal abscess pushes the eye forward, down and out; a frontal one, down and out; a maxillary one, up and forward.
+### Orbital apex and superior orbital fissure syndromes
+Posterior ethmoid or sphenoid infection: deep orbital pain and paralysis of the sixth, third and fourth nerves (superior orbital fissure syndrome), with loss of vision and of V2 sensation in the orbital apex syndrome.
+!flag The swollen eye
+- Check visual acuity, colour vision, pupils, eye movements and proptosis.
+- Any loss of vision, colour vision or movement, or a relative afferent pupil defect: urgent contrast CT and surgical drainage.
+- Involve ophthalmology early; examine both eyes for cavernous sinus spread.
+!!
+### Treatment
+Admission, intravenous antibiotics and nasal decongestion; contrast CT. Drain a subperiosteal or orbital abscess (endoscopically or externally) when vision is threatened, there is no improvement in 24 to 48 hours, or the abscess is large.
+!anat nd105_16 | Orbital veins draining to the cavernous sinus and pterygoid plexus: the valveless route for spread.
+## Intracranial complications
+Meningitis, extradural, subdural and brain (frontal lobe) abscess, and cavernous sinus thrombosis, from the frontal, ethmoid and sphenoid sinuses.
+### Cavernous sinus thrombosis
+Spread through the valveless ophthalmic veins from the ethmoids, sphenoid, orbit, the danger area of the face, or the pharynx. Abrupt onset with rigors; both eyes become involved; chemosis and proptosis; sequential palsies of the third, fourth and sixth nerves up to total ophthalmoplegia; a fixed, dilated pupil; reduced V1 sensation; papilloedema. Diagnosed with contrast CT or MRI.
+!table Orbital cellulitis or cavernous sinus thrombosis?
+ | Orbital cellulitis | Cavernous sinus thrombosis
+Source | Usually ethmoid sinus | Nose, sinuses, orbit, face, pharynx, ear
+Onset | Gradual | Abrupt, with rigors
+Eyes | One | Spreads to both
+Chemosis and proptosis | Moderate | Marked
+Cranial nerves III, IV, VI | Movement limited by swelling | Progressive palsies
+Pupil | Usually normal | Dilated, fixed
+General state | Unwell | Toxic, very ill
+!!
+## Descending and focal infections
+Infected discharge running down the pharynx causes pharyngitis, laryngitis and bronchitis; sinus infection can also act as a focus for distant disease.
+
+# For the examination | What the examiner wants to hear.
+## On call
+!ward Swollen eye with sinusitis
+1. Check vision, colour vision, pupils, movements and proptosis, and examine the other eye.
+2. Admit; start intravenous antibiotics and nasal decongestion.
+3. Contrast CT of the sinuses, orbits and brain.
+4. Involve ophthalmology; drain an abscess if vision is threatened or there is no improvement.
+5. Headache, drowsiness or meningism: image the brain and involve neurosurgery.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Definitions** by duration, and when to diagnose bacterial infection.
+- **Organisms** and first-line antibiotic.
+- **Features of each sinus,** including the office headache.
+- **Frontal trephination.**
+- **Chandler's classification** and the direction of eye displacement.
+- **Mucocele and Pott's puffy tumour.**
+- **Orbital cellulitis versus cavernous sinus thrombosis.**
+!!
+## Common pitfalls
+!pit
+- Antibiotics for every cold.
+- Calling an orbital abscess preseptal cellulitis without checking vision and movement.
+- Missing the extradural abscess beneath a Pott's puffy tumour.
+!!

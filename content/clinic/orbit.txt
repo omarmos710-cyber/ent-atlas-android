@@ -1,0 +1,95 @@
+@stand The orbit shares thin walls with three sinuses, so the rhinologist meets its diseases often: the eye pushed out by a mucocele, a sinus infection or a tumour, the protruding eyes of thyroid disease that the nose can decompress, and the watering eye that a dacryocystorhinostomy can drain. Proptosis is a sign; its direction, speed and sidedness point to the cause.
+
+# Overview | The eye pushed forward.
+## Definitions
+*Proptosis* is forward displacement of the eyeball; *exophthalmos* is often used for proptosis from thyroid eye disease. Measured with an exophthalmometer (Hertel): a difference of more than 2 mm between the eyes, or a reading above about 20 mm, is abnormal. *Pseudoproptosis* (a large eye in myopia, lid retraction, or a small opposite eye) must be excluded.
+## Applied anatomy
+The orbit is a four-sided pyramid. Its medial wall (the lamina papyracea) separates it from the ethmoids, its floor from the maxillary sinus, its roof from the frontal sinus and anterior cranial fossa; the sphenoid lies at the apex beside the optic canal. The orbital periosteum and septum limit the spread of infection; the valveless ophthalmic veins drain to the cavernous sinus.
+!fig d41-1 | Anatomy of the orbit: its bones and relations.
+!anat nd94_0 nd99_10 | The bony orbit with its walls, fissures and foramina, and the optic canal and tendinous ring at the apex.
+## Why it matters for ENT
+Sinus infections, mucoceles, fungal disease, polyps, angiofibroma, inverted papilloma and sinonasal cancers all invade the orbit; endoscopic surgery can injure it; and the orbit can be decompressed and drained through the nose.
+
+# Causes | VEIN.
+!table Causes of proptosis (VEIN)
+Group | Examples
+Vascular | Venous varix, cavernous haemangioma, carotid-cavernous fistula, orbital haematoma
+Endocrine | Thyroid eye disease (Graves ophthalmopathy)
+Inflammatory and infective | Orbital cellulitis and abscess, idiopathic orbital inflammation, fungal sinusitis, granulomatosis with polyangiitis, dacryoadenitis
+Neoplastic | Primary orbital tumours, spread from the sinuses or cranium, metastases
+!!
+## From the sinuses
+Mucoceles of the frontal and ethmoid sinuses, allergic fungal polyposis, inverted papilloma, angiofibroma, olfactory neuroblastoma and sinus carcinoma, and orbital complications of sinusitis (see those topics).
+!fig d41-2a d41-2b | First, proptosis with lateral displacement of the eye from allergic fungal polyposis. Second, a left ethmoid mucocele displacing the eye.
+## Clues from the history and examination
+- **Unilateral or bilateral:** thyroid eye disease is the commonest cause of both bilateral and unilateral proptosis in adults; orbital cellulitis is the commonest cause in children.
+- **Speed:** sudden (haemorrhage, cellulitis), weeks (inflammation, malignancy), years (benign tumours, mucoceles, fibrous dysplasia).
+- **Direction:** *axial* proptosis suggests a lesion inside the muscle cone (haemangioma, optic nerve tumour, thyroid eye disease); *non-axial* displacement points away from the lesion: down and out with a frontoethmoid mucocele, laterally with an ethmoid lesion, upwards with a maxillary tumour.
+- **Variable proptosis** with straining or bending: venous varix.
+- **Pulsatile proptosis** with a bruit and arterialised conjunctival vessels: carotid-cavernous fistula.
+- **Pain:** inflammation, infection or malignancy.
+
+# Important conditions | Inside and around the orbit.
+## Thyroid eye disease
+The commonest cause of proptosis in adults, bilateral or one-sided, in hyperthyroid, euthyroid or hypothyroid patients. Lid retraction, lid lag, chemosis, restricted movement and exposure keratopathy; CT shows enlargement of the muscle bellies with sparing of their tendons. Optic nerve compression at the apex threatens vision.
+## Idiopathic orbital inflammation
+Orbital pseudotumour: painful proptosis, worse on eye movement; may involve the muscles (myositis, including the tendons, unlike thyroid disease), lacrimal gland, sclera or optic nerve. Biopsy shows non-specific inflammation; treated with steroids, immunosuppression or radiotherapy.
+## Vascular lesions
+- **Cavernous haemangioma:** the commonest benign orbital tumour of adults; painless, slowly progressive axial proptosis from a well-defined, enhancing intraconal mass; excised by lateral orbitotomy or endoscopically.
+- **Capillary haemangioma:** the commonest orbital tumour of infants; usually involutes by about seven; propranolol or steroids.
+- **Venous varix:** proptosis that comes and goes with straining.
+- **Carotid-cavernous fistula:** pulsatile proptosis, bruit, chemosis and arterialised vessels; endovascular closure.
+## Tumours
+- **Lymphoma:** the commonest malignant orbital tumour of adults, often anterior and palpable; biopsy, radiotherapy and chemotherapy.
+- **Rhabdomyosarcoma:** the commonest primary orbital malignancy of children (around six or seven years), with rapid proptosis; chemoradiation.
+- **Dermoid cyst:** the commonest benign orbital tumour of children, at the frontozygomatic suture or deeper; excised.
+- **Optic nerve glioma** (children, neurofibromatosis) and **optic nerve sheath meningioma** (adults).
+- **Lacrimal gland tumours:** pleomorphic adenoma and adenoid cystic carcinoma in the upper outer orbit.
+- **Metastases:** breast most often, then lung, prostate and kidney; neuroblastoma in children.
+!fig d41-4 d41-5 | First, proptosis with medial displacement of the eye from lymphoma in a child. Second, a dermoid cyst of the right orbit on axial and coronal CT.
+!imaging orbital-decompression-in-graves-disease amyloidosis-in-the-orbit mucocele osteoma-gardner-syndrome-and-complications orbital-cellulitis | Orbital decompression for Graves disease, orbital amyloidosis, mucocele, osteoma and orbital cellulitis.
+
+# Evaluation | A joint ENT and eye assessment.
+## Examination
+Visual acuity, colour vision and pupils (a relative afferent pupillary defect means optic nerve compromise), eye movements and diplopia, the degree and direction of proptosis, lids, conjunctiva and cornea, fundus, and nasal endoscopy.
+## Investigations
+- **CT** of the orbits and sinuses: bone, sinus disease, fractures, muscle size.
+- **MRI** for soft tissue, the optic nerve, apex and intracranial extension.
+- Thyroid function and antibodies; blood tests for vasculitis and lymphoma as indicated.
+- Biopsy for undiagnosed masses, endoscopically or by orbitotomy.
+
+# Procedures | What the nose can do for the eye.
+## Endoscopic orbital decompression
+Removal of the medial wall (lamina papyracea) and the medial part of the floor, opening the periorbita so orbital fat can prolapse into the ethmoid and maxillary spaces. For thyroid eye disease with optic neuropathy, severe exposure or disfiguring proptosis. Diplopia may follow.
+## Optic nerve decompression
+Removal of the bone of the optic canal through the sphenoid in traumatic or compressive optic neuropathy; its value in trauma is debated.
+## Dacryocystorhinostomy
+For epiphora from obstruction of the nasolacrimal duct: a window is made from the lacrimal sac into the middle meatus, through the lacrimal bone and frontal process of the maxilla, endoscopically or through an external skin incision, sometimes with silicone tubes.
+!anat s101_33 nd96_4 | The lacrimal drainage system, and the lacrimal apparatus.
+## Drainage of orbital abscess
+Endoscopic or external drainage of a subperiosteal or orbital abscess complicating sinusitis.
+## Lateral canthotomy and cantholysis
+An emergency release for retrobulbar haemorrhage after trauma or sinus surgery: a tense, proptosed eye with rising pressure and falling vision. Cut the lateral canthal tendon and its inferior crus within minutes.
+!flag Retrobulbar haemorrhage
+Pain, tense proptosis, a hard globe, ophthalmoplegia and loss of vision after injury or sinus surgery. Do not wait for imaging: perform lateral canthotomy and cantholysis at once, then call ophthalmology.
+!!
+## Orbital exenteration
+Removal of the orbital contents for malignancy invading beyond the periorbita.
+!ops
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Causes of proptosis** (VEIN) and the commonest in adults and children.
+- **Direction of displacement** as a clue.
+- **Thyroid eye disease** and endoscopic orbital decompression.
+- **Commonest orbital tumours** in adults and children.
+- **Retrobulbar haemorrhage** and lateral canthotomy.
+- **Dacryocystorhinostomy.**
+!!
+## Common pitfalls
+!pit
+- Waiting for a scan in retrobulbar haemorrhage.
+- Missing a sinus cause in one-sided proptosis.
+- Forgetting colour vision and the pupils when assessing the optic nerve.
+!!

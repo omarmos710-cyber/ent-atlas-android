@@ -1,0 +1,132 @@
+@stand Chronic rhinosinusitis is a long-standing inflammation of the nose and sinuses that lasts beyond twelve weeks, with or without polyps. It is not simply an infection that refuses to clear: anatomy, cilia, allergy, asthma, biofilms and the patient's own immune pattern all play their part. Most patients are controlled with saline and steroid sprays used properly; surgery opens the sinuses so that the medicine can reach them.
+
+# Overview | Inflammation beyond twelve weeks.
+## Definition
+Inflammation of the nose and sinuses lasting 12 weeks or more, with at least two cardinal symptoms, one of which must be blockage or discharge, plus objective evidence on endoscopy or CT.
+### Cardinal symptoms
+- Nasal blockage or congestion.
+- Anterior or posterior (postnasal) discharge, often purulent.
+- Facial pain or pressure.
+- Reduced or lost sense of smell.
+### Objective signs
+Endoscopy showing oedema or polyps in the middle meatus, or mucopus there; or CT showing mucosal changes in the ostiomeatal complex or sinuses.
+## Two phenotypes
+- **CRS without nasal polyps:** more often infective and neutrophilic.
+- **CRS with nasal polyps:** usually type 2 (eosinophilic) inflammation driven by IL-4, IL-5 and IL-13, often with asthma.
+## Acute exacerbation
+A sudden worsening that returns to the chronic baseline after treatment.
+
+# Causes and pathogenesis | A vicious cycle.
+## Predisposing factors
+### Anatomical
+Structural variants that narrow the ostiomeatal complex: septal deviation, *concha bullosa* (a pneumatised middle turbinate), a paradoxical middle turbinate, Haller (infraorbital ethmoid) cells, prominent agger nasi cells, and a pneumatised or medially bent uncinate process.
+!anat s109_53 s147_41 | The ostiomeatal complex in coronal section, and a Haller cell narrowing the maxillary outflow.
+### Mucociliary failure
+Infection, smoking and pollution impair cilia; in *primary ciliary dyskinesia* (Kartagener syndrome with situs inversus and bronchiectasis) cilia do not beat; in *cystic fibrosis* the mucus is too thick to move; *Young syndrome* combines sinopulmonary disease with azoospermia.
+### Host and environment
+Allergy, asthma (about half of CRS patients), aspirin sensitivity, immune deficiency (IgG deficiency, HIV, chemotherapy, transplant drugs), smoking, occupational dusts and fumes, dental infection, and osteitis of the sinus bone after surgery.
+### Biofilms
+Colonies of bacteria in a protective polysaccharide matrix that resists antibiotics and keeps the disease going.
+## Organisms
+Polymicrobial: *Staphylococcus aureus* (sometimes methicillin-resistant), *Pseudomonas*, *Klebsiella*, *E. coli* and anaerobes, unlike the organisms of acute disease.
+## The cycle
+Ostial obstruction leads to stasis, low oxygen and infection; infection and inflammation damage cilia and swell the mucosa further, which blocks the ostium more.
+!fig d37-1 d37-2 | First, the sequence of events after sinus ostial obstruction. Second, the factors in the vicious cycle of chronic sinusitis.
+
+# Nasal polyps | Grapes in the nose.
+## Two kinds
+!table Antrochoanal or ethmoidal polyps?
+ | Antrochoanal polyp | Ethmoidal polyps
+Age | Children and young adults | Adults
+Cause | Infection | Allergy, multifactorial inflammation
+Number and side | Single, one-sided | Multiple, both sides
+Origin | Maxillary sinus, near the accessory ostium | Ethmoid cells, uncinate, middle turbinate, middle meatus
+Growth | Backwards to the choana; may hang behind the soft palate | Forwards; may appear at the nostril
+Shape | Three parts: antral, choanal and nasal | Small, grape-like masses
+Recurrence | Uncommon after complete removal | Common
+!!
+## Antrochoanal polyp
+Also called *Killian's polyp*. It arises near the accessory ostium of the maxillary sinus and has three parts: a thin antral stalk, a round choanal part, and a flattened nasal part. It causes one-sided blockage that may become bilateral when the choanal part fills the nasopharynx, with a hyponasal voice. It can be missed on anterior rhinoscopy and is seen with an endoscope or hanging behind the soft palate. CT shows an opaque antrum and the mass passing through the ostium.
+!fig d32-1 d32-2 | First, an antrochoanal polyp at the left nostril of a 14-year-old. Second, one hanging into the oropharynx behind the soft palate, and the polyp after removal.
+!fig d32-3 | Endoscopic view of a choanal polyp.
+### Treatment
+Endoscopic removal including its antral attachment, which prevents recurrence. Caldwell-Luc surgery is avoided, especially in children, because it damages the developing teeth.
+## Ethmoidal (bilateral) polyps
+### Associations
+- Chronic rhinosinusitis, allergic and non-allergic, and NARES.
+- Asthma (about 7% of asthmatics have polyps).
+- Aspirin intolerance: about a third; *Samter's triad* (aspirin-exacerbated respiratory disease) is polyps, asthma and aspirin sensitivity.
+- Cystic fibrosis (about 20%); polyps in a child should prompt a sweat test.
+- Allergic fungal sinusitis (almost all).
+- Kartagener and Young syndromes, Churg-Strauss syndrome (eosinophilic granulomatosis with polyangiitis), and nasal mastocytosis.
+### Pathology
+Oedematous mucosa of the middle meatus and turbinate prolapses into the nose; sessile polyps become pedunculated with gravity and sneezing. Large fluid-filled spaces and eosinophils lie in the stroma; the surface may become squamous where exposed.
+### Site
+Always from the lateral wall, usually the middle meatus (uncinate, bulla, sinus ostia, middle turbinate); allergic polyps almost never arise from the septum or floor.
+### Clinical picture
+Progressive bilateral blockage, loss of smell, headache from sinusitis, sneezing and watery discharge. Polyps are smooth, glistening, pale, grape-like, insensitive to probing and do not bleed. Long-standing polyposis broadens the nose and widens the intercanthal distance (the *frog face*, or Woakes syndrome in its destructive form).
+!fig d32-4 d32-5 | First, multiple polyps on endoscopy. Second, a polyp protruding from the left nostril.
+### Differential diagnosis
+A blob of mucus (disappears on blowing), a hypertrophied middle turbinate (pink and bony on probing), angiofibroma (bleeds, firm), inverted papilloma and malignancy (one-sided, fleshy, friable).
+!flag One-sided polyp in an adult
+A unilateral polyp is not simple polyposis until histology says so: inverted papilloma, carcinoma, esthesioneuroblastoma and encephalocele all present this way.
+!!
+
+# Assessment | Endoscopy and CT.
+## Nasal endoscopy
+Before and after decongestion: oedema, polyps and pus in the middle meatus and sphenoethmoidal recess. Polyps are graded by extent (for example the Lund-Kennedy score).
+## CT of the sinuses
+Non-contrast CT in three planes is the gold standard: it shows the extent of disease (scored by the Lund-Mackay system), anatomical variants and bony erosion, and maps the anatomy for surgery. Not for diagnosis alone, but before any operation.
+!imaging | Nasal and unilateral polyps, cystic fibrosis and mucoceles.
+## Other tests
+Allergy testing, a sweat test or genetics for cystic fibrosis in children, ciliary studies, immunoglobulins, eosinophil count and ANCA when vasculitis is suspected, and culture from the middle meatus.
+## Symptom scores
+Patient-reported scores such as SNOT-22 measure the burden and the response to treatment.
+
+# Medical treatment | Saline and steroids first.
+## CRS without polyps
+- **Saline irrigation:** high-volume rinses clear mucus, bacteria and allergens and disrupt biofilms.
+- **Intranasal corticosteroids:** sprays or drops; better after decongestion and with correct technique.
+- **Antibiotics:** culture-guided for exacerbations; long-term low-dose macrolides (over 12 weeks) for their anti-inflammatory effect in selected patients.
+- **Treat allergy:** antihistamines, leukotriene antagonists, immunotherapy.
+## CRS with polyps
+- **Steroid sprays or drops,** long-term.
+- **Short oral steroid courses** shrink polyps for a few weeks; limit their number because of side effects.
+- **Doxycycline** for a few weeks reduces polyp size modestly.
+- **Treat asthma** with the respiratory team.
+- **Aspirin-exacerbated disease:** leukotriene modifiers, and aspirin desensitisation after surgery.
+- **Biologics:** monoclonal antibodies against type 2 inflammation (anti-IL-4 receptor, anti-IgE, anti-IL-5) for severe, recurrent polyposis despite surgery and steroids, especially with asthma.
+
+# Surgery | Opening the sinuses for the medicine.
+## Endoscopic sinus surgery
+For patients whose symptoms persist despite adequate medical treatment. It removes polyps and diseased tissue, opens the natural ostia, corrects obstructing anatomy, and makes a cavity that saline and steroids can reach. Medical treatment continues afterwards. Revision is common in polyposis. In cystic fibrosis and ciliary disease, wide dependent drainage of the maxillary and sphenoid sinuses is made.
+!fig d37-4 d37-5 | Functional endoscopic sinus surgery, without and with a camera and monitor.
+## Historical operations
+Intranasal polypectomy alone, Caldwell-Luc operation, intranasal and external ethmoidectomy, and external frontoethmoidectomy (Howarth or Lynch); now largely replaced by endoscopic surgery. See the nose and sinus operations topic.
+!ops
+
+# Chronic sinusitis by sinus | Old names, still examined.
+## Chronic maxillary sinusitis
+Purulent discharge, postnasal drip, cacosmia, often dental in origin; endoscopic middle meatal antrostomy has replaced antral washouts, inferior meatal antrostomy and Caldwell-Luc operations.
+## Chronic frontal sinusitis
+Frontal headache and discharge; endoscopic frontal sinusotomy, extended to a Draf III (modified Lothrop) procedure when needed; external frontoethmoidectomy and osteoplastic obliteration are reserved for failures.
+## Chronic ethmoiditis and sphenoiditis
+Usually part of pansinusitis; endoscopic ethmoidectomy and sphenoidotomy.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Definition** and diagnostic criteria.
+- **Predisposing factors,** especially anatomical variants and ciliary disorders.
+- **Antrochoanal versus ethmoidal polyps.**
+- **Samter's triad,** and polyps in a child (cystic fibrosis).
+- **Medical treatment,** including biologics.
+- **Indications for endoscopic sinus surgery.**
+!!
+## Common pitfalls
+!pit
+- Repeated antibiotics without steroids or saline.
+- Calling a one-sided polyp benign without histology.
+- Operating before medical treatment has been tried properly.
+- Forgetting the sweat test in a child with polyps.
+!!

@@ -1,0 +1,117 @@
+@stand Newborns breathe through the nose. A baby who turns blue when quiet or feeding and pink when crying has bilateral choanal atresia until proven otherwise, and needs an oral airway now. A midline mass on a child's nose may connect to the brain: it is imaged, never biopsied or probed, before a plan is made.
+
+# Overview | Developmental anomalies of the nose.
+## The conditions
+!tree Congenital nasal anomalies
+Airway | Choanal atresia | pyriform aperture stenosis, atresia of the nares
+Midline masses | Nasal dermoid | glioma, encephalocele
+Cysts | Nasolacrimal duct cyst | nasoalveolar cyst
+Other | Haemangioma | proboscis lateralis, arhinia (rare)
+!!
+## Why it matters
+Obligate nasal breathing in the first weeks of life makes bilateral obstruction an emergency; midline masses carry a risk of meningitis and CSF leak.
+
+# Choanal atresia | The closed back door.
+## Embryology
+Persistence of the *bucconasal membrane* (or abnormal mesoderm) between the nasal cavity and the nasopharynx.
+## Types
+- One-sided or both; one-sided is commoner and may go unnoticed until adulthood.
+- Complete or incomplete.
+- Bony (about 90% in Dhingra; modern series show most are mixed bony and membranous) or purely membranous.
+## Associations
+Associated anomalies are common, especially with bilateral atresia: *CHARGE* syndrome (coloboma, heart defects, choanal atresia, retarded growth and development, genital and ear anomalies), Treacher Collins and Crouzon syndromes.
+## Clinical picture
+### Bilateral
+Respiratory distress at birth: *cyclical cyanosis*, blue at rest or when feeding and pink when crying (the baby breathes through the mouth while crying), with difficulty feeding.
+### Unilateral
+One-sided nasal obstruction and persistent thick discharge from that side, often discovered in later childhood.
+## Diagnosis
+- Mucoid discharge without air bubbles.
+- Failure to pass a soft catheter (a size 6 to 8 French) more than about 3 cm into the nose.
+- Methylene blue in the nose fails to reach the pharynx; a wisp of cotton under the nostril does not move.
+- Flexible nasal endoscopy.
+- **CT** in the axial plane is the definitive test: it shows the atretic plate, narrowing of the posterior nasal cavity and thickening of the vomer, and separates bony from membranous atresia.
+!imaging choanal-atresia piriform-aperture-malformation | Choanal atresia and pyriform aperture stenosis on CT.
+## Management
+### Emergency airway in bilateral atresia
+An oral airway, or a feeding nipple with the end cut off taped in the mouth (*McGovern's technique*), keeps the mouth open and avoids tracheostomy; orogastric feeding. Intubation if needed.
+!ward Newborn with cyclical cyanosis
+1. Insert an oral airway or McGovern nipple.
+2. Try to pass a catheter through each side of the nose.
+3. Arrange CT of the nasal cavity after suction and decongestion.
+4. Look for CHARGE anomalies: heart, eyes, ears, genitalia.
+!!
+### Definitive repair
+- **Endoscopic transnasal repair** with a drill: removal of the atretic plate and the posterior part of the vomer, with or without mucosal flaps and stents. The standard approach now.
+- **Transpalatal repair:** better exposure, historically at about 18 months, but risks palatal growth disturbance.
+- Unilateral atresia can be repaired electively in childhood.
+### After repair
+Restenosis is common, so regular review, dilatation and revision may be needed.
+!ops
+## Pyriform aperture stenosis
+Narrowing of the bony nasal entrance from overgrowth of the nasal processes of the maxilla, presenting like bilateral choanal atresia but at the front of the nose. A single central maxillary incisor suggests holoprosencephaly and pituitary problems. Mild cases are managed medically; severe cases by drilling through a sublabial approach.
+
+# Congenital midline nasal masses | Dermoid, glioma and encephalocele.
+## Embryology
+In early development a projection of dura passes through the *foramen caecum* (between the frontal and ethmoid bones) into the prenasal space, or between the frontal and nasal bones through the *fonticulus frontalis*. Normally it regresses. If it does not, ectodermal elements (a dermoid), isolated glial tissue (a glioma) or a herniation of brain and meninges (an encephalocele) remain, sometimes with an intracranial connection. Incidence is about 1 in 20,000 to 40,000 births.
+## Nasal dermoid
+### Picture
+The commonest midline nasal mass: a firm, non-tender, non-pulsatile, non-compressible swelling anywhere from the glabella to the columella, often with a *midline pit* that may sprout a hair. It may become infected repeatedly.
+### Types
+- Simple dermoid beneath the skin, in front of the nasal bones, without an opening.
+- Dermoid with a sinus, whose tract runs under the nasal bones to the upper septum.
+- Dermoid with a tract through the foramen caecum or cribriform plate to the dura, or intradural extension, which risks meningitis.
+!fig d25-3 | Types of nasal dermoid: (A) simple, (B) with an external pit, lying deep to the nasal bones, (C) with a connection to the dura, (D) intradural.
+### Treatment
+Complete excision of the cyst, the tract and any involved bone, cartilage and septum, often by an open rhinoplasty approach; combined neurosurgical repair when the tract reaches the dura.
+## Nasal glioma
+### Picture
+A mass of ectopic glial tissue, not a true tumour, sometimes called a nasal glial heterotopia. About 60% are extranasal (firm, reddish swelling on the bridge or side of the nose with telangiectasias), 30% intranasal (a pale, firm polypoid mass, mistaken for a polyp) and 10% both. About 15 to 20% have a fibrous stalk to the dura. Non-pulsatile and non-compressible.
+!fig d25-4a | Extranasal glioma on the right side of a child's nose.
+### Treatment
+Complete excision by an external approach; craniotomy if there is an intracranial connection.
+## Encephalocele
+### Picture
+A herniation of meninges (meningocele), or meninges with brain (meningoencephalocele), through a skull base defect, communicating with the subarachnoid space. It is soft, bluish, *pulsatile* and *compressible*, enlarges on crying, straining or jugular compression (*Furstenberg sign*), and may transilluminate.
+### Types by site
+- **Sincipital (frontoethmoid), presenting outside the nose:** nasofrontal (glabella), nasoethmoidal (side of the nose) and naso-orbital (medial orbit).
+- **Basal, presenting inside the nose or nasopharynx:** transethmoidal, sphenoethmoidal, transsphenoidal and sphenomaxillary, often mistaken for a polyp.
+!imaging meningoencephalocele | Meningoencephalocele through the skull base.
+### Treatment
+Neurosurgical or endoscopic: dividing the stalk, excising the extracranial part and repairing the dural and bony defect.
+!flag Image before you touch
+A midline nasal mass in a child may connect with the brain. Biopsy or simple removal can cause CSF leak and meningitis. Obtain MRI (with CT for the bone) first.
+!!
+!table Telling the midline masses apart
+ | Dermoid | Glioma | Encephalocele
+Consistency | Firm | Firm | Soft
+Pulsatile or compressible | No | No | Yes
+Furstenberg sign | Negative | Negative | Positive
+Pit or hair | Often | No | No
+Intracranial connection | Sometimes | About 15 to 20%, fibrous stalk | Always, with CSF
+!!
+
+# Other congenital anomalies | Less common.
+## Nasolacrimal duct cyst
+A cystic dilatation of the lower nasolacrimal duct when Hasner's valve fails to open, seen as a bluish swelling under the inferior turbinate; bilateral cysts can obstruct a newborn's breathing. Endoscopic marsupialisation.
+!anat s101_33 | The lacrimal drainage system and Hasner's valve in the inferior meatus.
+## Haemangioma
+A strawberry swelling of the nasal tip that grows in the first year and regresses over several years; propranolol for problem lesions.
+## Rare anomalies
+Arhinia (absent nose), proboscis lateralis, bifid nose and congenital atresia of the nares.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Choanal atresia:** embryology, cyclical cyanosis, tests, McGovern nipple, repair.
+- **CHARGE syndrome.**
+- **Dermoid, glioma and encephalocele:** embryology and differences.
+- **Furstenberg sign.**
+- **Why not to biopsy** a midline nasal mass.
+!!
+## Common pitfalls
+!pit
+- Missing unilateral atresia in a child with one-sided discharge.
+- Taking a nasal mass in a child for a polyp.
+- Forgetting the associated anomalies of CHARGE.
+!!

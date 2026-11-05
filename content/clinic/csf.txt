@@ -1,0 +1,96 @@
+@stand A clear, watery drip from one nostril that gushes when the patient bends forward, after a head injury, after sinus or pituitary surgery, or for no obvious reason, is cerebrospinal fluid until proven otherwise. It is an open door to meningitis. Prove it with beta-2 transferrin, find the hole, and close it.
+
+# Overview | The skull base that leaks.
+## Definition
+Leakage of cerebrospinal fluid from the subarachnoid space into the nose through a defect in the dura and the bone of the skull base.
+## CSF physiology
+CSF is secreted by the choroid plexuses at about 20 mL an hour (350 to 500 mL a day) and absorbed by the arachnoid villi into the venous sinuses; the total volume is 90 to 150 mL, replaced three to five times a day. Normal lumbar pressure is 60 to 250 mm of water, rising with coughing, sneezing, nose blowing, straining and lifting, all of which a patient with a leak should avoid.
+## Why it matters
+Ascending infection causes meningitis, often pneumococcal and recurrent; air can enter the cranium (pneumocephalus).
+
+# Causes | Trauma first.
+!tree Causes of CSF rhinorrhoea
+Trauma | Accidental | anterior skull base and temporal bone fractures
+Trauma | Surgical | endoscopic sinus surgery, pituitary and skull base surgery
+Inflammation and erosion | Mucoceles, polyposis | fungal disease, osteomyelitis
+Tumours | Benign and malignant | invading the skull base; pituitary tumours
+Congenital | Meningocele, encephalocele | skull base defects
+Spontaneous | Raised intracranial pressure | often obese middle-aged women; empty sella
+!!
+## Traumatic
+The commonest cause: about 80% of leaks follow accidental injury, mostly fractures of the anterior skull base. Surgical injury, especially at the lateral lamella of the cribriform plate during ethmoid surgery, may leak at once or later.
+## Spontaneous
+Many patients have *idiopathic intracranial hypertension*: typically obese middle-aged women, with an *empty sella* on MRI, and often small encephaloceles in the cribriform plate or lateral sphenoid recess. Their leaks recur unless the pressure is also treated.
+## Sites
+From the anterior cranial fossa: the cribriform plate (commonest), the ethmoid roof or the frontal sinus. From the middle cranial fossa: through the sphenoid sinus. After a temporal bone fracture, CSF passes into the middle ear and down the Eustachian tube (*CSF otorhinorrhoea*).
+!fig d29-4 d29-5 | First, sites of leakage: (a) frontal sinus, (b) ethmoid, (c) sphenoid, (d) Eustachian tube after a temporal bone fracture. Second, bony defects in (a) the cribriform plate and (b) the ethmoid roof.
+!anat s140_22 s144_31 | The fovea ethmoidalis, lateral lamella and cribriform plate on coronal CT, and the Keros classification of the olfactory fossa: a deep fossa (Keros 3) has a long, thin lateral lamella, the commonest site of surgical injury.
+
+# Clinical picture | The drip that cannot be sniffed back.
+## History
+A clear, watery discharge from one side, increasing on bending forward, straining or lifting, sometimes in the morning when the patient first bends down and a sinus reservoir empties (the *reservoir sign*, typical of sphenoid leaks). It may taste salty or sweet, and cannot be sniffed back. There may be headaches (low pressure from the leak, or high pressure in idiopathic intracranial hypertension), loss of smell after trauma, or a history of meningitis.
+## Halo sign
+After trauma, bloodstained fluid on filter paper gives a central red spot with a clear outer ring (the *double ring* or *target sign*); it suggests, but does not prove, CSF.
+!table CSF or nasal secretion?
+ | CSF | Nasal secretion
+History | Head injury, sinus or skull base surgery, tumour | Sneezing, itching, blockage
+Flow | Drops or a stream on bending or straining; cannot be sniffed back | Continuous; can be sniffed back
+Character | Thin, watery, clear | Mucoid, or watery like tears
+Handkerchief | Stays soft | Stiffens (mucus)
+Glucose | Higher (over about 30 mg/dL) | Lower
+Beta-2 transferrin | Present | Absent
+!!
+## Examination
+Endoscopy may show fluid from the olfactory cleft, the middle meatus, the sphenoethmoidal recess or the Eustachian tube, or an encephalocele; look in the ear for fluid behind the drum.
+
+# Investigations | Confirm, then localise.
+## Confirming CSF
+- **Beta-2 transferrin:** a protein found only in CSF, perilymph and aqueous humour; the specific and sensitive test, needing only a few drops.
+- **Beta-trace protein:** an alternative, also specific, used widely in Europe.
+- Glucose testing is unreliable and no longer recommended.
+## Localising the leak
+- **High-resolution CT** of the skull base in fine coronal and axial slices: the first test, showing bony defects in the cribriform plate, ethmoid roof, frontal and sphenoid sinuses.
+- **MRI (heavily T2-weighted):** shows fluid tracking through the defect and any encephalocele or intracranial pathology, without injections; also shows an empty sella.
+- **CT cisternography:** intrathecal contrast with CT, when the leak is active but not localised.
+- **Intrathecal fluorescein:** a small dose of diluted fluorescein by lumbar puncture, seen endoscopically as yellow or, with a blue filter, fluorescent green; used before or during surgery to find the site.
+!imaging | A dural defect after sinus surgery, anterior skull base fractures, and a meningoencephalocele.
+
+# Management | Most traumatic leaks stop.
+## Conservative treatment
+For early traumatic leaks: bed rest with the head raised, stool softeners, no nose blowing, sneezing through an open mouth, no straining. Acetazolamide reduces CSF production; a lumbar drain lowers the pressure. Most traumatic leaks close within one to two weeks. Routine prophylactic antibiotics are debated; pneumococcal vaccination is advised.
+## Surgical repair
+### Indications
+A leak that persists beyond about one to two weeks, recurs, follows surgery and is recognised at the time, or is spontaneous; meningitis; a large defect or an encephalocele.
+### Endoscopic repair
+The standard approach, with success over 90% at the first attempt. The defect is exposed, mucosa removed from its edges, any encephalocele reduced or cauterised, and the defect closed in layers:
+- **Inlay (underlay) graft** of fascia, fat or a dural substitute between the dura and the bone.
+- **Onlay graft** of mucosa or fascia over the defect.
+- **Vascularised flap** for large defects, most commonly the *nasoseptal (Hadad-Bassagasteguy) flap* on the posterior septal artery.
+- Fibrin glue and absorbable packing to support the repair.
+!fig d29-6 | Repair of a CSF fistula with fascia and a mucosal graft; frontal sinus leaks often need an external approach.
+### Open approaches
+Intracranial repair by craniotomy for very large defects, multiple fractures or associated brain injury; external approaches for leaks high in the frontal sinus.
+!ops
+### Afterwards
+Bed rest with the head up, avoidance of straining, stool softeners and no nose blowing for several weeks. In spontaneous leaks, treat raised pressure (weight loss, acetazolamide, sometimes a shunt) to prevent recurrence.
+!pearl Pearls
+- Beta-2 transferrin is the test; the halo sign is only a hint.
+- Spontaneous leak: think of idiopathic intracranial hypertension.
+- The lateral lamella of the cribriform plate is the weak spot in ethmoid surgery.
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Causes** and sites of CSF rhinorrhoea.
+- **CSF versus nasal secretions.**
+- **Beta-2 transferrin,** and localisation by CT, MRI, cisternography and fluorescein.
+- **Conservative treatment,** and indications for repair.
+- **Endoscopic multilayer repair** and the nasoseptal flap.
+!!
+## Common pitfalls
+!pit
+- Treating a one-sided clear drip as rhinitis.
+- Relying on glucose testing.
+- Repairing a spontaneous leak without treating raised intracranial pressure.
+!!

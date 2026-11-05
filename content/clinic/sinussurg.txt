@@ -1,0 +1,143 @@
+@stand Nose and sinus operations are best learned by what each one opens, removes and risks. The old operations (antral puncture, inferior meatal antrostomy, Caldwell-Luc, submucous resection) are still examined and occasionally used; endoscopic sinus surgery has replaced most of them by restoring drainage through the natural openings. The step-by-step guides are in Theatre.
+
+# Overview | From puncture to endoscope.
+## The operations
+!tree Nose and sinus operations
+Diagnostic | Nasal endoscopy | antral puncture (proof puncture)
+Septum and turbinates | Septoplasty | submucous resection, turbinate reduction
+Maxillary sinus | Middle meatal antrostomy | inferior meatal antrostomy, Caldwell-Luc
+Ethmoid, frontal, sphenoid | Endoscopic sinus surgery | external ethmoidectomy, frontal trephine, Lynch-Howarth, osteoplastic flap, Draf procedures
+Skull base | Endoscopic skull base surgery | CSF leak repair, pituitary surgery
+Other | Oroantral fistula repair | balloon sinuplasty
+!!
+## The danger areas
+The lamina papyracea (orbit), the cribriform plate and its thin lateral lamella (CSF leak), the anterior ethmoidal artery in the skull base (orbital haematoma), the optic nerve and carotid artery in the sphenoid and Onodi cells, and the nasolacrimal duct in front of the maxillary ostium.
+!anat s140_24 s155_61 | The ethmoid roof and anterior ethmoidal artery, and the relations of the sphenoid sinus: optic nerve, internal carotid artery and vidian nerve.
+
+# Diagnostic nasal endoscopy | The modern examination.
+## Indications
+Every chronic nasal complaint: obstruction, discharge, epistaxis, smell loss, headache, suspected tumour or CSF leak, and follow-up after surgery; biopsies and swabs under vision.
+## Technique
+After topical decongestant and anaesthetic (4% lignocaine with a vasoconstrictor), with the patient sitting or lying, a 4 mm 0° or 30° rigid endoscope makes three passes:
+- **First pass:** along the floor to the nasopharynx: inferior turbinate and meatus, Eustachian tube, fossa of Rosenmüller.
+- **Second pass:** between the middle and inferior turbinates to the sphenoethmoidal recess and superior meatus.
+- **Third pass:** under the middle turbinate into the middle meatus: uncinate process, bulla, hiatus semilunaris and accessory ostia.
+!fig d89-1 | The region of the Eustachian tube, sphenoethmoidal recess, choana and fossa of Rosenmüller.
+!fig d90-2 | Endoscopic view of the left nasal cavity showing the uncinate process, with sites for injection on the lateral wall and middle turbinate.
+
+# Old maxillary operations | Still examined.
+## Antral puncture (proof puncture)
+### Indications
+Chronic or subacute maxillary sinusitis, to confirm the diagnosis and wash out pus; to obtain a specimen for culture or cytology. Contraindicated in acute sinusitis for fear of osteomyelitis.
+### Technique
+Under local anaesthesia, a Lichtwitz trocar and cannula pierce the thin lateral wall of the inferior meatus 1.5 to 2 cm behind the front of the inferior turbinate, directed towards the ear on the same side; the sinus is irrigated with warm saline until the return is clear.
+!fig d84-1 | Antral puncture through the inferior meatus.
+### What comes back
+Thin amber fluid with cholesterol crystals means a cyst; blobs of mucopus mean hyperplastic sinusitis; foul pus mixing with the fluid means suppuration.
+### Complications
+Cheek swelling (the cannula in the soft tissues), orbital injury through the roof, puncture of the posterior wall, bleeding and, rarely, fatal *air embolism* (never blow air into the antrum).
+## Inferior meatal antrostomy
+A window under the inferior turbinate for drainage. It fails because mucociliary clearance carries mucus to the natural ostium, not to the new opening; risks bleeding and nasolacrimal duct injury. Now obsolete.
+!fig d85-1 | Intranasal antrostomy in the inferior meatus.
+## Caldwell-Luc operation
+### What it is
+Opening the maxillary sinus through its anterior wall in the canine fossa via a sublabial incision, with a nasoantral window.
+### Indications (historical and current)
+Irreversible sinus disease, foreign bodies and tooth roots, dental cysts, oroantral fistula, biopsy of antral tumours, recurrent antrochoanal polyp, maxillary and orbital floor fractures, access to the ethmoids (Horgan) or pterygopalatine fossa (maxillary artery ligation, vidian neurectomy). Avoided in children under about 17, whose developing teeth lie in the anterior wall.
+### Complications
+Bleeding, numbness of the cheek and teeth (infraorbital and superior alveolar nerves), nasolacrimal duct injury, sublabial (oroantral) fistula and, rarely, osteomyelitis.
+!fig d86-1 | The Caldwell-Luc operation: (A) incision, (B) inside view and position of the antrostomy.
+### Present status
+Most indications are now handled endoscopically; it remains useful for disease in the anterior and lateral recesses of the sinus and combined approaches.
+
+# Septal and turbinate surgery | The airway.
+## Submucous resection
+Flaps raised on both sides of the septum and all deformed cartilage and bone removed, leaving only dorsal and caudal struts. Not done before about 17.
+!fig d87-1 d87-2 | First, submucous resection: incision and elevation of the flaps. Second, the dorsal and caudal struts that must be preserved to avoid a supratip depression.
+## Septoplasty
+The conservative operation that has replaced submucous resection: a Killian (or hemitransfixion for caudal deviation) incision, a flap on one side, limited removal of bone and cartilage, and correction of the rest by scoring, cross-hatching, shaving or wedge excision and repositioning on the maxillary crest; can be done in children.
+!fig d88-1 d88-2 | First, straightening septal cartilage by scoring the concave side, shaving the convex side, or repositioning a dislocated cartilage. Second, septal incisions: (A) Killian's, (B) hemitransfixion.
+!table Submucous resection or septoplasty?
+ | Submucous resection | Septoplasty
+Dissection | Extensive, flaps on both sides | Limited, one flap
+Cartilage | Removed, leaving dorsal and caudal struts | Mostly preserved and repositioned
+Age | Not before about 17 | Children too
+Complications | Supratip depression, columellar retraction, flapping septum, perforation | Fewer
+Revision | Difficult | Easier
+!!
+## Indications for septoplasty
+Obstruction from a deviated septum, as part of septorhinoplasty, epistaxis from a spur, sinusitis or contact headache from deviation, access for endoscopic sinus, lacrimal or pituitary surgery, and sleep-disordered breathing.
+## Complications of septal surgery
+Bleeding, septal haematoma and abscess, perforation, saddle nose and supratip depression, columellar retraction, synechiae, anosmia, and rarely CSF leak.
+!fig d87-3 | A supratip depression after extensive septal surgery.
+## Turbinate surgery
+Submucosal reduction (microdebrider, radiofrequency, coblation), outfracture, partial turbinectomy, laser; preserve mucosa to avoid an empty nose.
+
+# Endoscopic sinus surgery | Restoring drainage.
+## Principle
+*Functional* endoscopic sinus surgery removes disease in the ostiomeatal complex and enlarges the natural ostia, so that ventilation and mucociliary clearance recover; the mucosa is preserved.
+## Indications
+Chronic rhinosinusitis with or without polyps after failed medical treatment, recurrent acute sinusitis, complications of sinusitis (orbital abscess, mucocele), fungal sinusitis, antrochoanal polyp, and access for extended procedures: CSF leak repair, orbital and optic nerve decompression, dacryocystorhinostomy, sphenopalatine artery ligation, choanal atresia, tumours and the skull base.
+## Preparation
+CT of the sinuses reviewed systematically before every operation (the *CLOSE* checklist: cribriform plate, lamina papyracea, Onodi cell, sphenoid and carotid, ethmoidal artery); topical decongestion and infiltration.
+!anat s109_55 s143_29 | The lateral nasal wall with the middle turbinate removed (uncinate, bulla and hiatus), and the ground lamella separating anterior from posterior ethmoid cells.
+## Steps (anterior to posterior, Messerklinger-Stammberger)
+1. Medialise the middle turbinate; trim a concha bullosa by removing its lateral lamella.
+2. **Uncinectomy.**
+3. **Middle meatal antrostomy:** find and enlarge the natural maxillary ostium, which lies behind the lower uncinate, above the inferior turbinate.
+4. **Bullectomy** (anterior ethmoidectomy), staying away from the orbit, skull base and anterior ethmoidal artery.
+5. **Posterior ethmoidectomy** through the lower, medial part of the basal (ground) lamella; beware an Onodi cell around the optic nerve.
+6. **Frontal recess clearance and frontal sinusotomy** if diseased: the opening lies lateral to the middle turbinate attachment, medial to the orbit, in front of the anterior ethmoidal artery and behind the agger nasi; respect the mucosa to prevent stenosis.
+7. **Sphenoidotomy** through the natural ostium, about 1 cm above the choana, medial to the superior turbinate.
+The posterior-to-anterior (*Wigand*) technique starts at the sphenoid and follows the skull base forwards, for extensive polyposis and revisions.
+!fig d90-1 | Endoscopic surgery in progress, with instruments passed through the nose and the view on a monitor.
+## Frontal sinus procedures
+Draf I (frontal recess clearance), Draf IIa and IIb (enlarging the frontal ostium), and Draf III (the endoscopic modified Lothrop, joining both frontal sinuses across the midline). External options: trephination, Lynch-Howarth frontoethmoidectomy, the osteoplastic flap with obliteration, and cranialisation after posterior wall fractures.
+## Balloon sinuplasty
+Dilatation of the natural ostia with a balloon catheter, for selected patients with limited disease.
+## After surgery
+Saline irrigation, steroid sprays for polyposis or allergy, antibiotics as needed, and endoscopic cleaning of crusts and division of adhesions at weekly visits until the cavity heals.
+## Complications
+!table Complications of endoscopic sinus surgery
+Type | Examples
+Minor | Synechiae, crusting, bleeding, middle turbinate lateralisation, periorbital bruising, surgical emphysema of the lid, dental pain
+Orbital | Breach of the lamina papyracea, orbital haematoma (anterior ethmoidal artery), injury to the medial rectus, nasolacrimal duct injury and epiphora, optic nerve injury and blindness
+Intracranial | CSF leak, meningitis, pneumocephalus, brain injury
+Vascular | Internal carotid artery injury, sphenopalatine and ethmoidal haemorrhage
+Other | Anosmia, frontal sinus stenosis and mucocele
+!!
+!flag Orbital haematoma during surgery
+Proptosis, a tense eye and falling vision: stop, remove packs, and perform a lateral canthotomy and cantholysis; consider medical treatment and orbital decompression.
+!!
+!ops
+
+# Endoscopic skull base surgery | Through the nose to the brain.
+Extended endonasal approaches reach the sella (pituitary tumours), the anterior skull base and cribriform plate (olfactory neuroblastoma, meningioma), the clivus and the pterygopalatine and infratemporal fossae. The defect is closed in layers, and the *nasoseptal flap* on the posterior septal artery has greatly reduced postoperative CSF leaks (see the CSF rhinorrhoea topic).
+!imaging dural-defect-after-sinonasal-surgery mucocele-of-the-frontal-recess pituitary-gland-pathology | A dural defect after sinus surgery, a frontal recess mucocele, and pituitary pathology.
+
+# Oroantral fistula | A hole between mouth and sinus.
+## Causes
+Extraction of the second premolar or upper molars, whose roots lie close to the sinus floor (especially with an apical abscess); a Caldwell-Luc incision that fails to heal; carcinoma; fractures; osteitis, syphilis and granulomatous disease.
+!anat s133_9 | The relation of the maxillary sinus floor to the roots of the upper teeth.
+## Clinical picture
+Fluids and food regurgitate into the nose; a foul discharge from the infected sinus into the nose or mouth; the patient cannot drink through a straw or blow a wind instrument. A probe passes from the socket into the antrum.
+## Treatment
+- **Fresh, small fistula** without infection or a retained root: suture the gum margins and give antibiotics.
+- **Chronic or large fistula:** treat the sinusitis (endoscopic antrostomy, removal of any root), excise the epithelialised track and close it with a buccal advancement or palatal rotation flap; or an obturator after cancer surgery.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Antral puncture:** site, direction, findings and complications, including air embolism.
+- **Caldwell-Luc operation:** incision, indications, complications, why not in children.
+- **Submucous resection versus septoplasty.**
+- **Steps of endoscopic sinus surgery** and the danger areas.
+- **Complications** of endoscopic sinus surgery and their management.
+- **Oroantral fistula.**
+!!
+## Common pitfalls
+!pit
+- Operating without reviewing the CT for the dangerous variants.
+- Making a second maxillary opening that does not join the natural ostium (recirculation).
+- Stripping mucosa in the frontal recess.
+!!

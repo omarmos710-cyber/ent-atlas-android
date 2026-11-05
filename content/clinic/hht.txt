@@ -1,0 +1,100 @@
+@stand Hereditary haemorrhagic telangiectasia is a genetic disease of blood vessels that presents to the rhinologist as nosebleeds that never stop coming back. The nose is the visible part of a systemic disorder: every patient also needs screening for silent arteriovenous malformations in the lungs and brain.
+
+# Overview | A vascular disease that bleeds through the nose.
+## Definition
+HHT, also called *Osler-Weber-Rendu syndrome*, is an autosomal dominant disorder of angiogenesis. It produces fragile *telangiectasias* in the skin and mucous membranes and larger *arteriovenous malformations* (AVMs) in internal organs.
+## Epidemiology
+About 1 in 5,000 to 10,000 people, reported mainly in white populations, affecting men and women equally. Penetrance increases with age.
+## Why it matters
+Recurrent epistaxis causes chronic iron-deficiency anaemia and repeated transfusions, and treating it badly (repeated packing and aggressive cautery) makes it worse. Pulmonary AVMs cause paradoxical embolism, stroke and brain abscess; cerebral AVMs can bleed.
+
+# Pathogenesis | A defect in vessel signalling.
+## Genetics
+Mutations disturb transforming growth factor-beta signalling in endothelial cells, so the connective tissue and matrix that should support new vessels during angiogenesis fail to form.
+- **HHT type 1:** mutation in *endoglin* (chromosome 9q34); pulmonary and cerebral AVMs are commoner.
+- **HHT type 2:** mutation in *ACVRL1*, also called ALK1 (chromosome 12q); hepatic AVMs are commoner.
+## The lesion
+Postcapillary venules dilate and connect directly to dilated arterioles, losing the capillary bed between them. The walls lack elastic tissue and smooth muscle, so they cannot contract after injury: minor trauma from dry air or a sneeze causes brisk bleeding that does not stop easily.
+
+# Clinical features | Nose, skin and organs.
+## Epistaxis
+The commonest and earliest feature: recurrent, spontaneous bleeding from childhood, from both sides, becoming more frequent with age. About 80 to 90% have nosebleeds by age 21.
+## Mucocutaneous telangiectasias
+Small red spots that blanch with pressure, on the lips, tongue, palate, fingertips, face and nasal mucosa. About 80 to 90% develop them by their thirties or forties.
+!fig d33-3 | A patient with recurrent epistaxis from HHT, with telangiectasias on the nasal septum, tongue, palate and fingertips (arrows).
+## Visceral arteriovenous malformations
+!table Organ involvement in HHT (Lee)
+Organ | Frequency | What it causes
+Lungs | About 30% | Hypoxia, paradoxical emboli, stroke, brain abscess, haemoptysis
+Brain | 5–15% | Haemorrhage, seizures
+Liver | 40–70% | Usually silent; high-output heart failure, portal hypertension
+Gut | 20–25% | Bleeding and anaemia
+Spine | Rare | Spinal haemorrhage
+!!
+## Anaemia
+Chronic iron-deficiency anaemia from nasal and gut bleeding.
+
+# Diagnosis | The Curaçao criteria.
+## Criteria
+- **Epistaxis:** spontaneous and recurrent.
+- **Telangiectasias:** multiple, at characteristic sites (lips, mouth, fingers, nose).
+- **Visceral lesions:** gastrointestinal telangiectasia, or pulmonary, hepatic, cerebral or spinal AVMs.
+- **Family history:** a first-degree relative with HHT.
+## Interpretation
+Three or more criteria: *definite*. Two: *possible* or suspected. Fewer than two: unlikely. Genetic testing confirms the diagnosis in uncertain cases and in relatives.
+## Work-up
+- Full head and neck examination with nasal endoscopy.
+- Full blood count and iron studies.
+- **Contrast echocardiography** (bubble study) to screen for pulmonary AVMs, in every patient.
+- **MRI brain with contrast** for cerebral AVMs.
+- Endoscopy for symptomatic gastrointestinal bleeding; Doppler ultrasound or CT for the liver.
+- Genetic counselling.
+!flag Screen the lungs
+A pulmonary AVM can cause a stroke or brain abscess in a patient who has only ever complained about nosebleeds. Screen every patient with contrast echocardiography and treat significant AVMs by embolisation.
+!!
+## Differential diagnosis
+Bleeding disorders (von Willebrand disease, platelet disorders), anticoagulant use, and a bleeding nasal tumour in one-sided bleeding.
+
+# Management of the nose | Reduce bleeding without damaging the mucosa.
+## Principles
+The goal is fewer and smaller bleeds and a better haemoglobin, not cure. Avoid trauma to the mucosa: repeated packing and aggressive cautery destroy healthy mucosa, encourage new telangiectasias and can cause septal perforation.
+## The acute bleed
+Gentle pressure; resorbable packing if needed, because removing a conventional pack tears lesions and restarts bleeding; avoid cautery of large areas.
+## Conservative and medical treatment
+!ladder
+Humidification and emollients | Saline sprays, ointments and humidified air keep the mucosa moist.
+Iron and transfusion | Correct anaemia; intravenous iron when oral iron fails.
+Tranexamic acid | Oral antifibrinolytic reduces the frequency and severity of bleeds.
+Hormonal treatment | Oestrogen or tamoxifen convert the mucosa to a thicker squamous type.
+Bevacizumab | An anti-VEGF antibody, given topically, by submucosal injection or intravenously, reduces bleeding in severe disease.
+!!
+## Procedures
+### Photocoagulation
+KTP, argon, Nd:YAG or diode laser, bipolar diathermy or coblation, aimed at individual lesions and repeated every few months as new ones appear.
+### Septodermoplasty
+The bleeding anterior septal mucosa is replaced with a split- or full-thickness skin graft, which is tougher. It halves the number of later laser treatments.
+### Young's procedure
+Closure of the nostrils, one or both sides, by suturing flaps inside the vestibule. Bleeding stops in about 83%, at the price of nasal breathing and smell. Rebleeding after reopening is troublesome.
+### Embolisation
+Gives only temporary benefit because new collaterals form; reserved for emergencies.
+!ops
+!pearl Pearls
+- Repeated cautery makes HHT worse.
+- Resorbable packs, never conventional ribbon gauze, if packing is unavoidable.
+- Treat the nose and the haemoglobin together.
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Inheritance and genes:** autosomal dominant; endoglin (type 1) and ACVRL1 or ALK1 (type 2).
+- **Curaçao criteria** and how many make the diagnosis definite.
+- **Screening** for pulmonary and cerebral AVMs.
+- **The treatment ladder,** septodermoplasty and Young's procedure.
+!!
+## Common pitfalls
+!pit
+- Treating every bleed as simple epistaxis without asking about family history and looking at the lips and fingers.
+- Repeated packing and wide cautery.
+- Forgetting to screen the lungs.
+!!

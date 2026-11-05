@@ -1,0 +1,133 @@
+@stand A crusted, destroyed nose that will not heal has a long differential: chronic infections such as rhinoscleroma, tuberculosis, leprosy, syphilis and rhinosporidiosis; inflammatory disease such as granulomatosis with polyangiitis and sarcoidosis; and NK/T-cell lymphoma, which looks like inflammation but is a cancer. Many are systemic diseases showing in the nose, and none can be named without a biopsy.
+
+# Overview | The destructive, crusting nose.
+## Classification
+!tree Granulomatous diseases of the nose
+Bacterial | Rhinoscleroma | tuberculosis, lupus vulgaris, leprosy, syphilis
+Fungal | Aspergillosis, mucormycosis | see the fungal sinusitis topic
+Parasitic | Rhinosporidiosis | leishmaniasis
+Inflammatory | Granulomatosis with polyangiitis | sarcoidosis, eosinophilic granulomatosis
+Neoplastic mimic | NK/T-cell lymphoma | the old lethal midline granuloma
+!!
+## The rule
+Always biopsy, and always look for the systemic disease: chest, kidneys, eyes, skin and lymph nodes. Many of these conditions mimic a neoplasm, and a neoplasm can mimic them.
+## Common findings
+Crusting, bloodstained discharge, nasal obstruction, granulations, septal perforation, saddle nose and, in some, palatal destruction.
+
+# Bacterial infections | Chronic and destructive.
+## Rhinoscleroma
+### Cause
+*Klebsiella rhinoscleromatis* (Frisch bacillus), a Gram-negative bacillus; endemic in parts of Africa, Central America, Eastern Europe, the Middle East (including Egypt) and North India.
+### Spread
+Starts in the nose and spreads to the nasopharynx, oropharynx, larynx (especially the subglottis), trachea and bronchi.
+### Stages
+- **Atrophic (catarrhal):** like atrophic rhinitis, with foul purulent discharge and crusts.
+- **Granulomatous (proliferative):** painless, non-ulcerating nodules; infiltration of the lower external nose and upper lip gives a *woody* feel (the *Hebra nose*).
+- **Cicatricial (sclerotic):** stenosis of the nostrils, distortion of the lip, adhesions in the nose and pharynx, and subglottic stenosis with stridor.
+!fig d28-1 | Rhinoscleroma of the nose.
+### Diagnosis
+Biopsy: submucosal plasma cells, lymphocytes and eosinophils, with *Mikulicz cells* (large foamy macrophages containing the bacilli) and *Russell bodies* (eosinophilic inclusions of immunoglobulin in plasma cells), which are diagnostic. Culture of the biopsy.
+!fig d28-2 | Rhinoscleroma: foamy Mikulicz cells (arrow) among lymphocytes (arrowheads).
+### Treatment
+Long antibiotic courses until two consecutive biopsy cultures are negative.
+!differ Antibiotics for rhinoscleroma
+Dhingra: Streptomycin 1 g/day with tetracycline 2 g/day for at least four to six weeks, repeated if needed; steroids to reduce fibrosis.
+Lee: Fluoroquinolones such as ciprofloxacin, or tetracyclines, for months.
+!!
+Surgery restores the airway (including tracheostomy for subglottic stenosis) and corrects deformity.
+## Tuberculosis
+Usually secondary to pulmonary disease. Nodular infiltration, then ulceration of the anterior septum and anterior end of the inferior turbinate, with perforation of the cartilaginous septum. Biopsy with acid-fast stains and culture; antituberculous drugs.
+## Lupus vulgaris
+A low-grade tuberculous infection of the vestibule and the skin of the nose and face, with brownish *apple-jelly nodules* and chronic vestibulitis; may perforate the cartilaginous septum. Biopsy; antituberculous treatment.
+## Leprosy
+*Mycobacterium leprae*, mainly in the lepromatous form. The anterior septum and inferior turbinate become red and swollen with excess discharge, then crusting, bleeding and nodules that ulcerate and perforate. Late sequelae: atrophic rhinitis, a depressed bridge and loss of the anterior nasal spine with a retracted columella. Diagnosis from scrapings and biopsy (lepra bacilli in foamy *lepra cells*); multidrug therapy with dapsone and rifampicin; reconstruction when inactive.
+!fig d28-3 | Leprosy of the nose.
+## Syphilis
+### Acquired
+- **Primary:** a rare chancre of the vestibule.
+- **Secondary:** rhinitis with crusting and fissuring, with mucous patches, rash and lymphadenopathy.
+- **Tertiary:** the stage that involves the nose: a *gumma* destroys the septum, both bony and cartilaginous, with sequestra, foul crusts, palatal perforation and a saddle nose.
+### Congenital
+- **Early:** *snuffles* in the first three months, becoming purulent, with excoriation of the vestibule and lip.
+- **Late:** around puberty, with gummatous destruction like tertiary disease, plus corneal opacities, deafness and Hutchinson's teeth.
+### Diagnosis and treatment
+Serology (VDRL with treponemal tests) and biopsy. Benzathine penicillin 2.4 million units weekly for three weeks; alkaline douches; removal of sequestra; reconstruction once inactive.
+!pearl Which part of the septum?
+Tuberculosis, lupus and leprosy perforate the cartilaginous septum; syphilis destroys the bony septum.
+!!
+
+# Parasitic infections | Rhinosporidiosis and leishmaniasis.
+## Rhinosporidiosis
+### Cause and spread
+*Rhinosporidium seeberi*, once thought a fungus, now classed as an aquatic protistan parasite. Acquired from ponds shared with animals; common in South India and Sri Lanka.
+### Clinical picture
+A leafy, polypoidal, pink to purple, strawberry-like mass on the septum or lateral wall, very vascular and bleeding easily, its surface studded with white dots (the sporangia). Bloodstained discharge or epistaxis may be the only complaint; it may hang into the nasopharynx.
+!fig d28-6 | Rhinosporidiosis: a polypoidal mass protruding from the nostril, and its appearance inside the nose.
+### Life cycle
+Endospores grow into trophocytes, which mature into *sporangia* 200 to 250 µm across containing thousands of endospores; the sporangium bursts through a pore and releases them.
+!fig d28-7 d28-8 | First, histology with sporangia packed with spores. Second, the life cycle of the organism.
+### Diagnosis and treatment
+Biopsy shows the sporangia; the organism cannot be cultured. Complete excision with a diathermy knife and cautery of the base; recurrence is common; dapsone helps some patients.
+## Leishmaniasis
+Transmitted by the sandfly (*Phlebotomus*). Cutaneous lesions on exposed skin progress from papules to crusted ulcers; mucosal disease appears on the septum as a nodule or plaque that ulcerates and perforates, sometimes years after a skin lesion, and can spread to the palate, pharynx and larynx. Biopsy, culture and PCR; mucosal disease needs parenteral antimonials (sodium stibogluconate or meglumine antimoniate).
+
+# Inflammatory diseases | Vasculitis and sarcoid.
+## Granulomatosis with polyangiitis
+### What it is
+Formerly Wegener's granulomatosis: a necrotising granulomatous vasculitis of small vessels affecting the upper airway, lungs and kidneys (the classic triad), with skin, eye and ear involvement.
+### Nose and sinuses
+A persistent cold or sinusitis, bloodstained then purulent discharge, crusting, granulations, septal perforation and saddle nose; destruction may extend to the orbit, palate and middle ear. Subglottic stenosis develops in some.
+### Systemic features
+Fatigue, night sweats, arthralgia, anaemia; cough and haemoptysis with cavitating lung nodules; glomerulonephritis with blood, casts and protein in the urine and a rising creatinine, the usual cause of death untreated.
+### Diagnosis
+*c-ANCA* (anti-proteinase 3) is positive in most active systemic disease; raised ESR and CRP; urinalysis and creatinine; chest imaging. Nasal biopsy shows necrosis, granulomas and vasculitis, though often non-specific.
+### Treatment
+Steroids with cyclophosphamide or rituximab to induce remission, then azathioprine or methotrexate to maintain it, with the rheumatology and renal teams. Nasal douching for crusts; reconstruction only when quiescent.
+!imaging | Granulomatosis with polyangiitis in the nose, sinuses and orbit.
+## Eosinophilic granulomatosis with polyangiitis
+Churg-Strauss syndrome: asthma, nasal polyps, peripheral eosinophilia and vasculitis, often p-ANCA positive.
+## Sarcoidosis
+A systemic non-caseating granulomatous disease. In the nose: submucosal nodules on the septum and inferior turbinate with obstruction, crusting, pain and bleeding; nodules on the vestibule and facial skin (*lupus pernio*). Chest imaging shows hilar adenopathy; serum calcium and *serum ACE* are raised in active disease. Topical and systemic steroids.
+
+# NK/T-cell lymphoma | The cancer that looks like inflammation.
+## What it is
+Extranodal NK/T-cell lymphoma, nasal type, associated with Epstein-Barr virus; the condition once called *lethal midline granuloma* or polymorphic reticulosis. Commoner in East Asia and Latin America.
+## Clinical picture
+Progressive, relentless destruction of the midline: nasal obstruction and discharge, ulceration and necrosis of the septum, palate and facial skin, with fever and weight loss.
+!fig d28-9 | NK-cell lymphoma with midline destruction in a young man.
+## Diagnosis
+Deep, repeated biopsies of viable tissue, with immunohistochemistry (CD56, cytotoxic markers) and EBV studies; superficial biopsies show only necrosis and inflammation.
+## Treatment
+Radiotherapy with chemotherapy. It must be told apart from granulomatosis with polyangiitis, because the treatments are completely different.
+
+# Assessment | The work-up of a destructive nose.
+!table Investigations by suspicion
+Suspected disease | Key test
+Granulomatosis with polyangiitis | c-ANCA, urinalysis, creatinine, chest imaging, biopsy
+Sarcoidosis | Serum ACE, calcium, chest imaging
+Tuberculosis | Acid-fast stains, culture, PCR, chest imaging
+Syphilis | VDRL with treponemal tests
+Rhinoscleroma | Biopsy for Mikulicz cells and Russell bodies, culture
+Lymphoma | Deep biopsy with immunohistochemistry and EBV studies
+Cocaine damage | History and urine toxicology
+!!
+!pearl Cocaine
+Cocaine-induced midline destruction can mimic vasculitis, and some patients develop ANCA from levamisole in the drug. Ask, and test.
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Classification** of granulomatous disease of the nose.
+- **Rhinoscleroma:** organism, stages, Mikulicz cells and Russell bodies, treatment.
+- **Rhinosporidiosis:** organism, appearance, sporangia, treatment.
+- **Syphilis of the nose:** stages, snuffles, saddle nose, bony septal perforation.
+- **Granulomatosis with polyangiitis:** triad, c-ANCA, treatment.
+- **NK/T-cell lymphoma** versus vasculitis.
+!!
+## Common pitfalls
+!pit
+- Treating a destructive nose with antibiotics for months without a biopsy.
+- Superficial biopsies of necrotic tissue in suspected lymphoma.
+- Forgetting the kidneys in granulomatosis with polyangiitis.
+!!

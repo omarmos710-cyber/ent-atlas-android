@@ -1,0 +1,153 @@
+@stand Rhinitis is the commonest complaint in the nose clinic: sneezing, a running nose, itch and a blocked nose. The history sorts allergic from non-allergic. Steroid sprays used properly control most patients, and turbinate surgery helps only when medicines have genuinely been tried. One-sided symptoms are never rhinitis until the nose has been examined.
+
+# Overview | Inflammation of the nasal lining.
+## Definition
+Rhinitis is inflammation of the nasal mucosa, defined clinically by two or more of nasal obstruction, rhinorrhoea, sneezing and itching. *Rhinosinusitis* adds sinus involvement (see the sinusitis topics).
+## Classification
+!tree Rhinitis
+Allergic | Seasonal or perennial | intermittent or persistent (ARIA)
+Non-allergic, non-infective | Vasomotor (idiopathic) | drug-induced, rhinitis medicamentosa, hormonal, NARES, gustatory, emotional, occupational
+Infective | Acute and chronic rhinitis | atrophic rhinitis and specific infections (separate topics)
+!!
+## Why it matters
+Allergic rhinitis affects up to a quarter of many populations, disturbs sleep, school and work, and travels with asthma: rhinitis patients are about four times more likely to develop asthma, and 20 to 30% of patients with rhinitis have asthma.
+
+# Applied physiology | Why the nose runs and blocks.
+## The erectile mucosa
+The turbinate mucosa contains venous sinusoids surrounded by smooth muscle that fill and empty them. Sympathetic stimulation empties them and opens the airway; parasympathetic stimulation fills them and drives the glands to secrete. Their alternating congestion from side to side is the *nasal cycle*.
+## Hyperreactivity
+In both allergic and non-allergic rhinitis the mucosa over-reacts to ordinary stimuli: temperature change, dust, smoke, perfume, cold air.
+
+# Allergic rhinitis | IgE in the nose.
+## Types
+- **Seasonal:** symptoms in the season of the pollen the patient reacts to (tree, grass or weed pollens).
+- **Perennial:** symptoms throughout the year, from house dust mite, moulds, cockroaches and animal dander.
+## Genetic predisposition
+The chance of a child developing allergy is about 20% with one allergic parent and 47% with two.
+## Pathogenesis
+### Sensitisation
+In predisposed people, inhaled allergens drive production of specific IgE, which binds by its Fc end to mast cells and basophils.
+### Re-exposure
+Allergen bridges two IgE molecules on the cell surface; the mast cell degranulates, releasing preformed mediators (histamine) and newly made ones (leukotrienes, prostaglandins).
+!fig d30-1 | (A) The IgE antibody: the Fc end fixes to the mast cell, the Fab end binds allergen. (B) Release of mediators when allergen bridges two IgE molecules.
+### Early and late phases
+- **Early phase:** within 5 to 30 minutes: sneezing, rhinorrhoea, blockage, from histamine.
+- **Late phase:** 2 to 8 hours later, without further exposure: eosinophils, basophils and T cells infiltrate, causing congestion and thick secretions.
+### Priming
+Mucosa sensitised by one allergen reacts to smaller doses later, and to non-specific stimuli as well.
+!fig d30-2 d30-3 | First, mediators released from a mast cell. Second, allergic and non-specific stimuli acting through the same mast cells.
+## Clinical features
+### Symptoms
+Usually starting at 12 to 16 years, though any age is possible. Seasonal disease: paroxysmal sneezing (10 to 20 at a time), watery discharge, blockage and itching of the nose, eyes, palate or throat. Perennial disease is milder but persistent: frequent colds, a stuffy nose, reduced smell, postnasal drip, cough and ear symptoms.
+### Signs
+- **Nose:** pale, oedematous, sometimes bluish mucosa; swollen turbinates; watery discharge; a transverse nasal crease from the *allergic salute*.
+- **Eyes:** lid oedema, cobblestone conjunctiva, dark circles (*allergic shiners*).
+- **Ears:** retracted drum or effusion.
+- **Pharynx and larynx:** granular pharyngitis, hoarseness.
+- **Children:** the long face and open mouth of chronic mouth breathing.
+## ARIA classification
+!table ARIA classification
+Category | Definition
+Intermittent | Symptoms less than 4 days a week, or for less than 4 weeks
+Persistent | Symptoms more than 4 days a week and for more than 4 weeks
+Mild | None of: disturbed sleep, impaired daily activities or sport, impaired school or work, troublesome symptoms
+Moderate to severe | One or more of these
+!!
+## Investigations
+- **Nasal smear:** eosinophils, best taken during active symptoms (also seen in NARES).
+- **Blood count:** peripheral eosinophilia, inconsistent.
+- **Skin prick test:** allergen pricked into the skin of the forearm or back; a wheal and flare at 10 to 15 minutes is positive, with histamine and diluent as controls.
+- **Specific IgE in serum** (formerly RAST): correlates well with skin tests; useful when skin testing is impossible.
+- **Nasal provocation test:** reproducing symptoms with allergen.
+- **Nasal endoscopy:** to exclude polyps and structural causes.
+## Complications
+Recurrent sinusitis, nasal polyps (in about 2%), otitis media with effusion, dental and facial growth problems from mouth breathing, and asthma.
+## Treatment
+### Avoidance
+Most effective with a single allergen: remove the pet, encase pillows and mattresses, reduce dust mites, change work if necessary.
+### Drugs
+- **Intranasal corticosteroids:** the most effective single treatment for persistent or moderate to severe disease. Teach technique: aim away from the septum.
+- **Antihistamines:** oral non-sedating or intranasal, for sneezing, itch and rhinorrhoea; less effect on blockage.
+- **Decongestants:** a short course only; oral ones are combined with antihistamines.
+- **Sodium cromoglycate:** stabilises mast cells; useful before exposure.
+- **Ipratropium bromide:** for watery rhinorrhoea.
+- **Leukotriene receptor antagonists:** montelukast, especially with asthma.
+- **Oral steroids:** a short course for severe, uncontrolled episodes only.
+- **Anti-IgE (omalizumab):** for severe allergic asthma; not a routine treatment for rhinitis.
+### Step care (ARIA)
+!ladder
+Mild intermittent | Oral antihistamine or intranasal cromoglycate.
+Moderate or persistent | Intranasal corticosteroid.
+Severe | Intranasal steroid with a non-sedating antihistamine.
+Uncontrolled | Short oral steroid course; consider immunotherapy.
+!!
+### Immunotherapy
+Gradually increasing doses of the allergen, by subcutaneous injection or sublingually, until a maintenance dose is reached; it raises specific IgG (blocking antibody) and reduces IgE. Continued for about three years; stopped if no benefit after uninterrupted treatment. The only treatment that alters the course of the disease, for patients whose symptoms are not controlled by drugs or who are sensitised to a single dominant allergen.
+!pearl Pearls
+- Rhinitis and asthma are one airway: treat both.
+- Most steroid-spray failures are technique failures.
+- Allergic children with blocked noses may also have big adenoids.
+!!
+
+# Vasomotor rhinitis | Non-allergic, hyperreactive.
+## What it is
+A non-allergic rhinitis that mimics allergy, with negative allergy tests, from autonomic imbalance with parasympathetic overactivity and a hyperreactive mucosa. Emotions influence it through the hypothalamus.
+## Clinical features
+- Paroxysmal sneezing on getting out of bed.
+- Profuse, watery rhinorrhoea, sometimes the main complaint; dripping on leaning forward must be distinguished from CSF rhinorrhoea.
+- Blockage alternating from side to side, worse at night and on the dependent side.
+- Postnasal drip.
+The turbinate mucosa is congested and hypertrophic, or normal.
+## Complications
+Hypertrophic rhinitis, polyps and sinusitis.
+## Treatment
+### Medical
+Avoid triggers; antihistamines and oral decongestants; topical steroids; ipratropium for rhinorrhoea; a short systemic steroid course in severe cases; address psychological factors.
+### Surgical
+Reduce the turbinates when obstruction persists; correct a deviated septum or polyps. *Vidian neurectomy*, cutting the parasympathetic secretomotor fibres, for intractable rhinorrhoea; now largely replaced by endoscopic posterior nasal nerve procedures.
+
+# Other non-allergic rhinitis | Named causes.
+## Drug-induced
+Antihypertensives that block sympathetic activity (reserpine, methyldopa, beta-blockers), anticholinesterases, oral contraceptives, and aspirin or NSAIDs in sensitive patients.
+## Rhinitis medicamentosa
+Rebound congestion from overuse of topical decongestant drops beyond about five to seven days. Treated by stopping the drops, a topical or short systemic steroid course, and turbinate reduction if hypertrophy persists.
+## Hormonal
+- **Rhinitis of pregnancy:** oedematous mucosa from oestrogen; treated with saline, topical steroids and limited decongestant use; avoid newer antihistamines.
+- **Hypothyroidism:** parasympathetic predominance; relieved by thyroxine.
+- **Honeymoon rhinitis:** congestion with sexual excitement.
+## NARES
+Non-allergic rhinitis with eosinophilia syndrome: eosinophils on smear but negative allergy tests; responds to topical steroids; may precede aspirin sensitivity and polyps.
+## Gustatory rhinitis
+Watery rhinorrhoea with spicy food, a cholinergic reflex; ipratropium before meals.
+## Emotional rhinitis
+Anxiety, tension or grief causing rhinitis; counselling.
+## Non-airflow rhinitis
+After laryngectomy or tracheostomy, when air no longer passes through the nose.
+## Local allergic rhinitis
+Allergy-like symptoms with negative skin and blood tests but specific IgE produced in the nasal mucosa, shown by nasal provocation; managed like allergic rhinitis.
+
+# Turbinate surgery | When medicines are not enough.
+## Indications
+Persistent obstruction from inferior turbinate hypertrophy despite a proper trial of topical steroids, or rhinitis medicamentosa with fixed hypertrophy.
+## Methods
+Submucosal reduction (microdebrider or radiofrequency), outfracture, partial turbinectomy, laser or cryosurgery. Preserve the mucosa: excessive removal leaves an *empty nose*, with crusting and paradoxical blockage.
+!ops
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Pathogenesis** of allergic rhinitis, and early versus late phase.
+- **Signs:** allergic salute, transverse crease, allergic shiners, pale boggy mucosa.
+- **ARIA classification** and step care.
+- **Skin prick test** technique and controls.
+- **Immunotherapy:** mechanism and duration.
+- **Vasomotor rhinitis** and the forms of non-allergic rhinitis.
+- **Rhinitis medicamentosa.**
+!!
+## Common pitfalls
+!pit
+- Calling one-sided symptoms allergy without examining the nose.
+- Prescribing decongestant drops without a time limit.
+- Sending a patient for turbinate surgery before a proper trial of steroid spray.
+- Missing CSF rhinorrhoea in a patient with clear, one-sided dripping.
+!!

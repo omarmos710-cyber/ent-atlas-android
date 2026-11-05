@@ -41,7 +41,7 @@ function vArticle(id){const t=BY[id],A=(window.CLART||{})[id];
  <div class="arcont"><div class="arconth"><h4>Contents</h4><div><button type="button" data-arall="1">Expand all</button><button type="button" data-arall="0">Collapse all</button></div></div>
  <ol class="artree0">${ch.map(c=>`<li><button type="button" data-artgo="${c.id}"><i>${c.n}</i>${e(c.t)}</button><ul>${c.s.map(x=>`<li><button type="button" data-artgo="${x.id}">${x.n}&ensp;${x.t}</button></li>`).join("")}</ul></li>`).join("")}</ol></div>
  <div class="arart">${A.h}</div>${more}</div>`}
-function caseCards(list){const C=typeof CONDS!=="undefined"?CONDS:[];const cs=list.map(i=>C.find(c=>c.id===i)).filter(Boolean);if(!cs.length)return "";
+function caseCards(list){const C=typeof CONDS!=="undefined"?CONDS:[];const cs=list.map(i=>C.find(c=>c.id===i||c.id.replace(/\s+/g,"-")===i)).filter(Boolean);if(!cs.length)return "";
  return `<div class="climgs">${cs.map(c=>`<button class="climc" data-go="cond:${c.id}">${c.imgs&&c.imgs[0]?`<img src="${imgOf(c.imgs[0])}" alt="" loading="lazy" decoding="async">`:`<i></i>`}<span><b>${e(c.t)}</b><small>${e(c.cat||"")}${c.imgs&&c.imgs.length?` · ${c.imgs.length} image${c.imgs.length>1?"s":""}`:""}</small></span></button>`).join("")}</div>`}
 function notesOnly(id){const S=typeof SECTIONS!=="undefined"?SECTIONS:[],rs=LK(id).rd.map(i=>S.find(s=>s.id===i)).filter(Boolean);
  return rs.length?`<div class="clh3 clim">Read in the anatomy notes</div><div class="cllist">${rs.map(x=>row(`data-go="region:${x.r}" data-sec="${x.id}"`,x.t,(RMAP[x.r]||{}).name||"","an")).join("")}</div>`:""}
