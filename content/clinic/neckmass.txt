@@ -2,16 +2,9 @@
 
 # Approach | Where, how old, how long.
 ## The age rule
-- **Children and young adults:**
-  - Inflammatory and congenital masses dominate.
-  - Lymphoma and thyroid cancer are the malignancies to remember.
-- **Adults over about 40:**
-  - Neoplasms dominate. Most are metastases, usually from squamous carcinoma of the upper aerodigestive tract.
-  - The old "rule of 80" puts it this way: about 80% of non-thyroid neck masses in adults are neoplastic, 80% of those are malignant, and 80% of the malignant ones are metastatic, mostly from a primary above the clavicles.
+In children and young adults, inflammatory and congenital masses dominate, and lymphoma and thyroid cancer are the malignancies to remember. In adults over about forty, neoplasms dominate, and most are metastases, usually from squamous carcinoma of the upper aerodigestive tract. The old "rule of 80" puts it memorably: about 80% of non-thyroid neck masses in adults are neoplastic, 80% of those are malignant, and 80% of the malignant ones are metastatic, mostly from a primary above the clavicles.
 ## The time rule
-- **Days:** inflammatory.
-- **Months:** neoplastic.
-- **Years:** congenital or benign.
+Duration is almost as informative as age. A mass present for days is usually inflammatory, one present for months neoplastic, and one present for years congenital or benign.
 ## Site
 !fig d77-1 d77-2 | First, swellings in the midline of the neck. Second, lateral swellings grouped by the triangles of the neck.
 !table Neck masses by site
@@ -52,24 +45,16 @@ VII (superior mediastinal) | Below the sternal notch | Thyroid, oesophagus
 
 # Assessment | History, examination, tests.
 ## History
-- **The lump:** duration, growth, pain, and change with meals or infections.
-- **Upper aerodigestive symptoms:** hoarseness, dysphagia, odynophagia, referred otalgia, nasal obstruction or bleeding, unilateral serous otitis, weight loss.
-- **Risk factors:** tobacco, alcohol and betel quid; sexual history (HPV); exposure to tuberculosis; HIV risk; animal contact (cats for *Bartonella*, toxoplasmosis); travel; previous skin cancer or radiation.
-- **Systemic "B" symptoms:** fever, night sweats, weight loss (lymphoma, tuberculosis).
+Ask how long the lump has been present, whether it is growing or painful, and whether it changes with meals or infections. Then ask about the upper aerodigestive tract: hoarseness, dysphagia, odynophagia, referred otalgia, nasal obstruction or bleeding, a unilateral serous otitis, and weight loss. Record the risk factors (tobacco, alcohol and betel quid; sexual history for HPV; exposure to tuberculosis; HIV risk; contact with cats for *Bartonella* or toxoplasmosis; travel; and previous skin cancer or radiation) and any "B" symptoms of fever, night sweats and weight loss that suggest lymphoma or tuberculosis.
 ## Examination
-- **The lump:** palpate from behind, level by level. Note size, consistency, fixity, pulsation, transillumination, and movement with swallowing (thyroid, thyroglossal cyst) or tongue protrusion (thyroglossal cyst).
-- **The whole head and neck:** scalp, skin, ears, nose, oral cavity, tonsils and tongue base by palpation, and flexible nasendoscopy of the nasopharynx, larynx and hypopharynx.
-- **The rest of the lymphoid system:** axillae, groins, liver and spleen.
+Palpate the neck from behind, level by level, noting the size, consistency, fixity, pulsation and transillumination of the lump and whether it moves with swallowing (thyroid, thyroglossal cyst) or with tongue protrusion (thyroglossal cyst). Then examine the whole head and neck: scalp, skin, ears, nose and oral cavity, palpate the tonsils and tongue base, and look at the nasopharynx, larynx and hypopharynx with a flexible nasendoscope. Finish with the axillae, groins, liver and spleen.
 ## Investigation
-1. **Ultrasound with FNA:** the first test for most adult masses.
-   - Ultrasound shows whether the mass is cystic or solid, its node architecture, and its vascularity.
-   - FNA gives cytology. Add p16/HPV, EBV, thyroglobulin, flow cytometry for lymphoma, and culture with acid-fast stains as needed.
-   - A non-diagnostic aspirate is repeated, or a core biopsy taken.
-2. **Contrast CT or MRI of the neck:** for extent and for a primary.
-3. **PET-CT:** for an unknown primary (done *before* panendoscopy and biopsies), for staging, and to look for distant disease.
+1. **Ultrasound with FNA** is the first test for most adult masses. Ultrasound shows whether the mass is cystic or solid, the node architecture and its vascularity; FNA gives cytology, with p16/HPV, EBV, thyroglobulin, flow cytometry for lymphoma, and culture and acid-fast stains as needed. A non-diagnostic aspirate is repeated or replaced by a core biopsy.
+2. **Contrast CT or MRI of the neck** shows the extent and may reveal a primary.
+3. **PET-CT** is used for an unknown primary, done *before* panendoscopy and biopsies, and for staging and distant disease.
 4. **Chest imaging.**
-5. **Blood tests:** count, ESR, serology (EBV, HIV, toxoplasma, *Bartonella*), and tests for tuberculosis.
-6. **Panendoscopy under anaesthesia:** directed biopsies, with tonsillectomy and tongue-base mucosectomy to find an occult primary.
+5. **Blood tests:** count, ESR, serology for EBV, HIV, toxoplasma and *Bartonella*, and tests for tuberculosis.
+6. **Panendoscopy under anaesthesia** with directed biopsies, tonsillectomy and tongue-base mucosectomy to find an occult primary.
 !flag Do not excise an adult neck node first
 An open biopsy of a node that turns out to be metastatic squamous carcinoma breaches the fascial planes and contaminates the field. It raises rates of local recurrence and complications. If open biopsy is unavoidable after negative FNA and endoscopy (for example, to type a suspected lymphoma), plan it so that the incision can be included in a neck dissection, with frozen section, and be ready to proceed to dissection.
 !!
@@ -77,90 +62,52 @@ An open biopsy of a node that turns out to be metastatic squamous carcinoma brea
 
 # Inflammatory causes | The commonest masses.
 ## Reactive lymphadenitis
-Tender, mobile, often bilateral nodes with a sore throat, dental infection or skin infection. They settle within two to six weeks. A node that persists beyond that, grows, is hard, or is supraclavicular needs investigation.
+Reactive nodes are tender, mobile and often bilateral, and accompany a sore throat, a dental infection or a skin infection. They settle within two to six weeks. A node that persists beyond that, grows, is hard, or lies in the supraclavicular fossa needs investigation.
 ## Acute suppurative lymphadenitis
-*Staphylococcus aureus* and group A streptococcus, mainly in young children.
-- A hot, tender node that may become an abscess.
-- Treatment: antibiotics. Abscesses are drained by aspiration or incision.
-- A neck abscess in an adult raises the suspicion of a necrotic metastasis or tuberculosis.
+Suppurative lymphadenitis, caused by *Staphylococcus aureus* and group A streptococcus, mainly affects young children. The node is hot and tender and may form an abscess. It is treated with antibiotics, and an abscess is drained by aspiration or incision. A neck abscess in an adult should raise the suspicion of a necrotic metastasis or tuberculosis.
 !imaging lymphadenitis-colli abscess-of-the-neck | Cervical lymphadenitis and neck abscess.
 ## Tuberculous lymphadenitis (scrofula)
-Very common in endemic areas, and more frequent with HIV. It affects any age, usually the deep cervical and posterior triangle nodes.
-- **Stages:** discrete nodes, then matted nodes with periadenitis, then caseation and a *cold abscess*, then a "collar-stud" abscess through the deep fascia, then sinus formation.
-- **Diagnosis:**
-  - FNA or biopsy showing caseating granulomas.
-  - Acid-fast bacilli on Ziehl–Neelsen staining.
-  - Culture and GeneXpert with rifampicin resistance testing.
-  - Chest radiograph, tuberculin test or interferon-gamma release assay.
-  - HIV testing.
-- **Treatment:** standard antituberculous therapy: isoniazid, rifampicin, pyrazinamide and ethambutol for two months, then isoniazid and rifampicin for four. Nodes may enlarge temporarily during treatment (a *paradoxical reaction*). Surgery is for drug failure or residual masses; aspirate abscesses rather than incising them.
+Tuberculous lymphadenitis is very common in endemic areas and more frequent with HIV. It affects any age, usually the deep cervical and posterior triangle nodes, and passes through recognisable stages: discrete nodes, then matted nodes with periadenitis, then caseation and a *cold abscess*, then a "collar-stud" abscess through the deep fascia, and finally sinus formation.
+
+The diagnosis rests on FNA or biopsy showing caseating granulomas, acid-fast bacilli on Ziehl–Neelsen staining, culture and GeneXpert with rifampicin resistance testing, supported by a chest radiograph, a tuberculin test or interferon-gamma release assay, and an HIV test. Treatment is standard antituberculous therapy: isoniazid, rifampicin, pyrazinamide and ethambutol for two months, then isoniazid and rifampicin for four. Nodes may enlarge temporarily during treatment, a *paradoxical reaction*. Surgery is reserved for drug failure or residual masses, and abscesses are aspirated rather than incised.
 !fig d77-8 d77-9 | First, multiple tuberculous nodes in the neck. Second, (A) a caseating suprasternal node and (B) supraclavicular tuberculous nodes.
 ## Atypical mycobacteria
-Children aged one to five. A painless node, usually submandibular or preauricular, with violaceous, thin skin and a tendency to form sinuses. The chest film is normal and the tuberculin reaction weak. Treatment is complete excision (or curettage when the facial nerve is at risk); antibiotics such as clarithromycin are an alternative. Incision and drainage leaves a chronic sinus.
+Atypical mycobacterial infection affects children aged one to five as a painless node, usually submandibular or preauricular, with violaceous, thin overlying skin and a tendency to form sinuses. The chest film is normal and the tuberculin reaction weak. Complete excision is the treatment, or curettage where the facial nerve is at risk, with clarithromycin as an alternative; incision and drainage leaves a chronic sinus.
 ## Other infections
-- **Cat-scratch disease (*Bartonella henselae*):** a tender node, often suppurating, after a cat scratch. Diagnosed by serology. Azithromycin for severe cases.
-- **Toxoplasmosis:** posterior cervical nodes in young adults. Serology.
-- **Infectious mononucleosis (EBV):** generalised nodes, exudative tonsillitis, splenomegaly.
-- **HIV:** persistent generalised lymphadenopathy, plus tuberculosis, lymphoma and Kaposi sarcoma within nodes.
-- **Actinomycosis:** a woody swelling with sinuses near the jaw.
+**Cat-scratch disease** from *Bartonella henselae* causes a tender, often suppurating node after a cat scratch; it is diagnosed by serology and treated with azithromycin when severe. **Toxoplasmosis** causes posterior cervical nodes in young adults and is diagnosed by serology. **Infectious mononucleosis** from EBV gives generalised nodes, exudative tonsillitis and splenomegaly. **HIV** causes persistent generalised lymphadenopathy, and its nodes may harbour tuberculosis, lymphoma or Kaposi sarcoma. **Actinomycosis** produces a woody swelling with sinuses near the jaw.
 !imaging lymphadenopathy-hiv | Cervical lymphadenopathy in HIV.
 ## Non-infective inflammatory causes
-- **Sarcoidosis:** non-caseating granulomas.
-- **Kikuchi–Fujimoto disease (histiocytic necrotising lymphadenitis):** young women, tender nodes, fever. Self-limiting.
-- **Kimura disease:** young Asian men, with a preauricular mass, eosinophilia and high IgE.
-- **Castleman disease:** unicentric or multicentric.
-- **Rosai–Dorfman disease:** massive painless nodes.
+**Sarcoidosis** produces non-caseating granulomas. **Kikuchi–Fujimoto disease**, histiocytic necrotising lymphadenitis, affects young women with tender nodes and fever and settles on its own. **Kimura disease** affects young Asian men with a preauricular mass, eosinophilia and a high IgE. **Castleman disease** is unicentric or multicentric, and **Rosai–Dorfman disease** causes massive painless nodes.
 
 # Neoplastic causes | Metastases and lymphoma.
 ## Metastatic squamous carcinoma
-- **Typical patient:** a hard, painless, enlarging node, often in level II or III, in an older smoker and drinker, or in a younger non-smoker with HPV-positive oropharyngeal cancer, whose nodes are often cystic.
-- **Fixity:** nodes fixed to deep structures or skin mean extranodal spread.
-- **Search for the primary:** tonsil, tongue base, nasopharynx, pyriform sinus, larynx and oral cavity. Look in the mouth, use the endoscope, image, and do panendoscopy.
-- **Supraclavicular nodes:** may come from below the clavicle: lung, breast, oesophagus, stomach, pancreas, kidney, testis and ovary.
+The typical patient has a hard, painless, enlarging node, often in level II or III. He may be an older smoker and drinker, or a younger non-smoker with HPV-positive oropharyngeal cancer, whose nodes are often cystic. A node fixed to deep structures or to the skin means extranodal spread. The primary is sought in the tonsil, tongue base, nasopharynx, pyriform sinus, larynx and oral cavity, by examination, endoscopy, imaging and panendoscopy. Supraclavicular nodes may come from below the clavicle: from the lung, breast, oesophagus, stomach, pancreas, kidney, testis or ovary.
 ## Carcinoma of unknown primary
-A squamous metastasis with no primary on examination, endoscopy and imaging.
-- **Work-up, in this order:**
-  1. PET-CT.
-  2. Panendoscopy with biopsies.
-  3. Ipsilateral tonsillectomy (or bilateral tonsillectomy) and transoral tongue-base mucosectomy.
-  4. p16 and EBV staining of the node, which points to the oropharynx or nasopharynx.
-- **Treatment:** neck dissection and radiotherapy to the neck and the likely mucosal sites, or primary chemoradiotherapy.
-- **Outcome:** better than many expect, especially with HPV-positive disease.
+When a squamous metastasis has no primary on examination, endoscopy and imaging, the search proceeds in a set order:
+1. PET-CT.
+2. Panendoscopy with biopsies.
+3. Ipsilateral (or bilateral) tonsillectomy and transoral tongue-base mucosectomy.
+4. p16 and EBV staining of the node, which point to the oropharynx or nasopharynx.
+
+Treatment is neck dissection with radiotherapy to the neck and the likely mucosal sites, or primary chemoradiotherapy. The outcome is better than many expect, especially with HPV-positive disease.
 ## Lymphoma
-- **Hodgkin lymphoma:** young adults. Rubbery, painless, discrete nodes, often low in the neck or supraclavicular, sometimes with a mediastinal mass, B symptoms and alcohol-induced pain. Reed–Sternberg cells.
-- **Non-Hodgkin lymphoma:** older adults. Nodal and extranodal disease, including Waldeyer ring (tonsil, nasopharynx, tongue base), thyroid, salivary glands and sinonasal tract (NK/T-cell lymphoma).
-- **Diagnosis:** FNA with flow cytometry may suggest it, but *core or excision biopsy* is usually needed to classify it. Send fresh tissue.
-- **Treatment:** staging, then chemotherapy with or without radiotherapy.
+**Hodgkin lymphoma** affects young adults, with rubbery, painless, discrete nodes, often low in the neck or supraclavicular, sometimes with a mediastinal mass, B symptoms and pain after alcohol; the diagnostic cell is the Reed–Sternberg cell. **Non-Hodgkin lymphoma** affects older adults and involves both nodes and extranodal sites, including Waldeyer's ring (tonsil, nasopharynx, tongue base), the thyroid, the salivary glands and the sinonasal tract, where NK/T-cell lymphoma occurs.
+
+FNA with flow cytometry may suggest lymphoma, but a *core or excision biopsy* is usually needed to classify it, and fresh tissue must be sent. Treatment follows staging, with chemotherapy with or without radiotherapy.
 !imaging lymphoma-non-hodgkin | Non-Hodgkin lymphoma in the neck.
 ## Other neoplasms
-- Thyroid carcinoma, including cystic nodal metastases of papillary carcinoma.
-- Salivary tumours.
-- Paragangliomas and schwannomas.
-- Lipoma.
-- Sarcomas, which are rare.
+Thyroid carcinoma, including cystic nodal metastases of papillary carcinoma, salivary tumours, paragangliomas and schwannomas, lipomas and, rarely, sarcomas complete the neoplastic list.
 
 # Other masses | Not nodes.
-- **Laryngocele:** an air-filled dilatation of the laryngeal saccule.
-  - *External* laryngoceles pierce the thyrohyoid membrane and form a lateral neck swelling that enlarges on Valsalva, coughing or blowing (trumpeters, glassblowers).
-  - Infection forms a *laryngopyocele*.
-  - Exclude a ventricular or supraglottic carcinoma obstructing the saccule.
-- **Pharyngeal pouch:** a soft swelling low in the left neck that gurgles, with regurgitation.
-- **Plunging ranula:** a soft, transilluminant submandibular swelling from the sublingual gland. Remove the sublingual gland.
-- **Cervical rib:** a hard supraclavicular lump with thoracic outlet symptoms. Arm paraesthesia comes from pressure on the lower trunk of the brachial plexus. Subclavian artery compression causes coldness, claudication, aneurysm and emboli. Excise the rib if it causes symptoms.
-- **Lipoma:** soft, lobulated, slipping edge. Common in the posterior triangle and nape.
-- **Sebaceous and epidermoid cysts:** in the skin, with a punctum.
-- **Carotid aneurysm** and an ectatic or tortuous carotid in elderly hypertensive patients.
+## Swellings that are not nodes
+A **laryngocele** is an air-filled dilatation of the laryngeal saccule. An *external* laryngocele pierces the thyrohyoid membrane to form a lateral neck swelling that enlarges on a Valsalva manoeuvre, coughing or blowing, as in trumpeters and glassblowers; infection turns it into a *laryngopyocele*, and a ventricular or supraglottic carcinoma obstructing the saccule must always be excluded. A **pharyngeal pouch** forms a soft swelling low in the left neck that gurgles, with regurgitation. A **plunging ranula** is a soft, transilluminant submandibular swelling from the sublingual gland, cured by removing that gland.
+
+A **cervical rib** is a hard supraclavicular lump with thoracic outlet symptoms: arm paraesthesia from pressure on the lower trunk of the brachial plexus, and coldness, claudication, aneurysm or emboli from compression of the subclavian artery. It is excised if it causes symptoms. A **lipoma** is soft and lobulated with a slipping edge, commonly in the posterior triangle and nape, and **sebaceous and epidermoid cysts** lie in the skin with a punctum. Finally, a **carotid aneurysm**, or an ectatic, tortuous carotid in an elderly hypertensive patient, can present as a pulsatile lump.
 !imaging lipoma-of-the-neck | Lipoma of the neck.
 
 # Neck dissection | The principle.
-- **Purpose:** to remove the lymph nodes and fat of the neck en bloc.
-- **Classification:**
-  - *Radical*: levels I to V with the accessory nerve, internal jugular vein and sternomastoid.
-  - *Modified radical*: levels I to V, preserving one or more of those three structures.
-  - *Selective*: only the levels at risk. Examples: supraomohyoid (I to III) for the oral cavity, and lateral (II to IV) for the larynx and pharynx.
-  - *Extended*: removing additional nodes or structures.
-- **Therapeutic dissection:** for clinically positive nodes.
-- **Elective dissection:** for a clinically negative neck when the risk of occult metastases exceeds about 15 to 20%.
+## Types and indications
+Neck dissection removes the lymph nodes and fat of the neck en bloc. A **radical** dissection removes levels I to V with the accessory nerve, internal jugular vein and sternomastoid; a **modified radical** dissection removes the same levels while preserving one or more of those structures; a **selective** dissection removes only the levels at risk, such as the supraomohyoid dissection (I to III) for the oral cavity and the lateral dissection (II to IV) for the larynx and pharynx; and an **extended** dissection removes additional nodes or structures. A **therapeutic** dissection treats clinically positive nodes, while an **elective** dissection treats a clinically negative neck when the risk of occult metastases exceeds about 15 to 20%.
 !ops 64 65 66 | Selective, modified radical and radical neck dissection.
 !anat s272_68 s273_69 | Contents of the anterior and posterior triangles.
 
