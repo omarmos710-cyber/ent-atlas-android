@@ -8,3 +8,7 @@ function QBADD(tp,g,t,o){const B=QB[tp]=QB[tp]||{g,t,v:[],e:[],k:[]};B.g=g;B.t=t
  (o.v||[]).forEach(x=>B.v.push({id:"qb-"+tp+"-v"+B.v.length,tp,q:x[0],p:x[1]}));
  (o.e||[]).forEach(x=>B.e.push({id:"qb-"+tp+"-e"+B.e.length,tp,q:x[0],p:x[1]}));
  (o.k||[]).forEach(x=>{const k=B.k.length;B.k.push({id:"qb-"+tp+"-k"+k,tp,s:x.s,t:x.t||"",q:x.q.map((y,j)=>({id:"qb-"+tp+"-k"+k+"-"+j,tp,r,q:y[0],o:y[1],c:y[2]||0,x:y[3]||""}))})})}
+/* shorthand: group and title come from hub/topics.js */
+function QB_(tp,o){const x=(window.QT||{})[tp];if(!x){console.warn("qbank: unknown topic",tp);return}QBADD(tp,x[0],x[1],o)}
+/* full marking points for a viva or essay item, by id (used by qbank-points*.js) */
+function QBP(id,p){const m=id.match(/^qb-(.+)-([ve])(\d+)$/);if(!m||!QB[m[1]])return;const it=QB[m[1]][m[2]][+m[3]];if(it)it.p=p}

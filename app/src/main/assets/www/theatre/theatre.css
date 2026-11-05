@@ -1,21 +1,22 @@
-body.thm{--bg:#0D1A18;--surface:#142522;--soft:#1B2F2B;--line:#2B433E;--ink:#EAF2EF;--muted:#9FB5AE;--accent:#D8B26A;--accent-soft:#2C2A1B;--on-accent:#191304;--ok:#6FCFA0;--bad:#F08A84;background:var(--bg);color:var(--ink)}
-body.thm .top,body.thm #tabs,body.thm #side,body.thm .side{display:none!important}
-body.thm{margin:0}
-body.thm .app{grid-template-columns:1fr!important;background:var(--bg)}
-body.thm main{padding:0!important;max-width:none!important;width:100%;background:var(--bg)}
-body.thm #view{padding:0!important;margin:0;background:var(--bg)}
-#thdock{position:fixed;left:0;right:0;bottom:0;z-index:60;display:none;grid-template-columns:repeat(5,1fr);background:#091412;border-top:1px solid var(--line);padding:6px 6px calc(6px + env(safe-area-inset-bottom,0px))}
-body.thm #thdock{display:grid}
-#thdock button{display:flex;flex-direction:column;align-items:center;gap:3px;min-height:50px;justify-content:center;border:0;background:none;color:var(--muted);font:600 10.5px var(--f-body);border-radius:12px}
+/* Theatre shares the app's cream design; surgical green is its accent only */
+body.thm{--accent:#1F5B4A;--accent-soft:#E3EEE9;--on-accent:#FFFFFF}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) body.thm{--accent:#6CC49A;--accent-soft:#12251D;--on-accent:#0A1A13}}
+:root[data-theme="dark"] body.thm{--accent:#6CC49A;--accent-soft:#12251D;--on-accent:#0A1A13}
+body.thm #view{padding-top:0}
+#thdock{display:none!important}
+.thsub{display:flex;gap:4px;padding:4px;border-radius:14px;background:var(--soft);margin:0 0 14px;overflow-x:auto;scrollbar-width:none;position:sticky;top:calc(58px + env(safe-area-inset-top,0px));z-index:4}
+.thsub::-webkit-scrollbar{display:none}
+.thsub button{flex:1 1 0;min-width:max-content;min-height:38px;padding:0 8px;border:0;border-radius:10px;background:none;color:var(--muted);font:600 12.5px var(--f-body);white-space:nowrap}
+.thsub button[aria-current="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.thwrap{padding:4px 0 40px;max-width:760px;margin:0}
 #thdock button[aria-current=true]{color:var(--accent);background:var(--soft)}
-.thwrap{padding:calc(10px + env(safe-area-inset-top,0px)) 18px 100px;max-width:760px;margin:0 auto}
 .thbar{display:flex;align-items:center;gap:10px;min-height:44px;margin-bottom:6px}
 .thbar .sp{flex:1}.thic{width:40px;height:40px;display:grid;place-items:center;border:1px solid var(--line);border-radius:50%;background:none;color:var(--ink);flex:none}
 .thmark{font:500 14px var(--f-display);letter-spacing:.02em;color:var(--accent)}
 .thh1{font:500 31px/1.12 var(--f-display);margin:10px 0 6px}.thlede{color:var(--muted);font-size:15.5px;line-height:1.45;margin:0 0 16px}
 .theb{font:700 10.5px var(--f-body);letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
 .thh2{font:500 20px var(--f-display);margin:24px 0 8px;display:flex;justify-content:space-between;align-items:baseline;gap:8px}.thh2 small{font:500 12px var(--f-body);color:var(--muted)}
-.thcase{padding:18px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(150deg,#1D3B35,#122320);margin:8px 0 6px}
+.thcase{padding:18px;border:1px solid var(--line);border-radius:18px;background:var(--dock);color:#F3F3EF;border-color:transparent;box-shadow:0 10px 30px -18px rgba(10,12,18,.55);margin:8px 0 6px}
 .thcase h2{font:500 23px/1.2 var(--f-display);margin:6px 0 4px}.thcase p{color:var(--muted);margin:0 0 12px;font-size:14px}
 .thbtn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 18px;border-radius:12px;border:1px solid var(--line);background:none;color:var(--ink);font:600 14px var(--f-body)}
 .thbtn.p{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}.thbtn.w{width:100%}
@@ -63,3 +64,11 @@ body.thm #thdock{display:grid}
 .thsec ol>li .thmore{margin-bottom:6px}
 .thimgs{display:grid;gap:8px}.thimc{display:flex;gap:12px;align-items:center;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:8px;color:var(--ink);font:inherit;min-height:64px}
 .thimc img,.thimc .ph{width:64px;height:64px;flex:none;border-radius:8px;object-fit:cover;background:#000}.thimc b{display:block;font-weight:600;font-size:14px;line-height:1.3}.thimc small{color:var(--muted);font-size:12.5px}
+/* dark feature cards on the cream page */
+.thcase .theb{color:var(--brass-line)}
+.thcase p{color:#C2C6CE}
+.thcase .thbtn{color:#F3F3EF;border-color:rgba(255,255,255,.25)}
+.thcase .thbtn.p{background:#F3F3EF;border-color:#F3F3EF;color:#151922}
+.theb{color:var(--brass)}
+.thfoot{bottom:calc(84px + env(safe-area-inset-bottom,0px))!important}
+@media (min-width:960px){.thfoot{bottom:0!important}}

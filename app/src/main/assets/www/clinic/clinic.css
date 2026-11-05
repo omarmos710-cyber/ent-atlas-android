@@ -21,7 +21,7 @@
 .clsrc{font-size:12.5px;color:var(--muted);line-height:1.45;margin:14px 0}
 .clback{display:block;min-height:44px;border:0;background:none;color:inherit;font:700 13.5px var(--f-body);padding:0;text-align:left}
 .clused{margin:22px 0}.thrun .clused{margin:18px 0}
-body.thm .clused .clrow b,body.thm .clused .clrow{color:#D8B26A;border-color:#2B433E}body.thm .clused .clgh{color:#9FB5AE}body.thm .clused .cllist{border-color:#2B433E}body.thm .clused small{color:#9FB5AE}
+
 .topicon{width:40px;height:40px;display:grid;place-items:center;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink)}
 
 .clh3.clim{display:flex;align-items:baseline;gap:8px;margin-top:16px}.clh3.clim small{font-weight:500;color:var(--muted);letter-spacing:0;text-transform:none}

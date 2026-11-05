@@ -25,7 +25,9 @@ function regFig(n,f){const k=`m/${n}_${f[0]}`;if(!FIG[k])FIG[k]=[f[1],"M",f[2],"
 const thumb=k=>"fig2/t/"+k+".jpg";
 function dock(){let d=$("#thdock");if(!d){document.body.insertAdjacentHTML("beforeend",`<nav id="thdock" aria-label="Theatre">${[["home","home","Theatre"],["lib","lib","Library"],["dz","dz","Danger"],["reh","reh","Rehearse"],["log","log","Logbook"]].map(([r,i,t])=>`<button data-go="th:${r}">${ic(i)}<span>${t}</span></button>`).join("")}</nav>`);d=$("#thdock")}
  const a=(window._thcur||"home").split("-")[0],m={op:"lib",play:"lib",stage:"home",sec:"lib",zone:"dz",r:"reh"}[a]||a;d.querySelectorAll("button").forEach(b=>b.setAttribute("aria-current",String(b.dataset.go==="th:"+m)))}
-const bar=(title,back)=>`<div class="thbar">${back?`<button class="thic" data-go="${back}" aria-label="Back">${ic("bk")}</button>`:`<button class="thic" data-thexit aria-label="Leave theatre">${ic("x")}</button>`}<span class="thmark">${e(title||"Theatre")}</span><span class="sp"></span></div>`;
+const SUBS=[["home","Theatre"],["lib","Library"],["dz","Danger"],["reh","Rehearse"],["log","Logbook"]];
+const subnav=()=>{const a=(window._thcur||"home").split("-")[0],m={op:"lib",play:"lib",stage:"home",sec:"lib",zone:"dz",r:"reh"}[a]||a;return `<nav class="thsub" aria-label="Theatre sections">${SUBS.map(([r,t])=>`<button data-go="th:${r}" aria-current="${r===m}">${t}</button>`).join("")}</nav>`};
+const bar=(title,back)=>back?`<div class="thbar"><button class="thic" data-go="${back}" aria-label="Back">${ic("bk")}</button><span class="thmark">${e(title||"Theatre")}</span><span class="sp"></span></div>`:subnav();
 const row=(a,n,t,s,tag)=>`<button class="throw" ${a}>${n!=null?`<span class="thn">${n}</span>`:""}<span class="m"><b>${e(t)}</b>${s?`<small>${e(s)}</small>`:""}</span>${tag||""}${ic("ch",16)}</button>`;
 const tierTag=c=>c.a?`<span class="thtag">Guide</span>`:"";
 const opRow=c=>row(`data-go="th:op-${c.n}"`,c.n,c.t,`${c.f.length} figures${logTxt(c.n)}`,tierTag(c));
