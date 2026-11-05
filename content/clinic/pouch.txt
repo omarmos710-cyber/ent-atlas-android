@@ -1,0 +1,104 @@
+@stand Swallowing is a reflex so well rehearsed that we notice it only when it fails. Dysphagia is a symptom, never a diagnosis, and in an adult it is cancer until proven otherwise. The elderly patient who gurgles when he drinks, brings back yesterday's food and coughs at night has a pharyngeal pouch, the classic ENT cause, through the weak spot between the two parts of the inferior constrictor.
+
+# Dysphagia | Where is the hold-up?
+## Definitions
+*Dysphagia* is difficulty in swallowing; *odynophagia* is pain on swallowing; *globus* is a lump feeling in the throat between meals without difficulty swallowing food; *aspiration* is passage of material below the vocal folds.
+## Types by level
+- **Oral:** poor lip seal, chewing or bolus control; drooling and food left in the mouth (stroke, facial palsy, tongue surgery, neuromuscular disease).
+- **Oropharyngeal:** difficulty starting a swallow, coughing or choking as soon as one swallows, nasal regurgitation, food sticking in the throat (stroke, motor neurone disease, myasthenia, Parkinson disease, head and neck cancer and its treatment, cricopharyngeal dysfunction, pouch).
+- **Oesophageal:** food sticking behind the sternum seconds after swallowing (strictures, rings and webs, achalasia and spasm, tumours, extrinsic compression).
+!table Causes of dysphagia
+Group | Examples
+Lumen | Foreign body, food bolus
+Wall: inflammation | Pharyngitis, tonsillitis, quinsy, oesophagitis (reflux, candida, herpes, eosinophilic, pill, caustic)
+Wall: tumour | Carcinoma of the oropharynx, hypopharynx or oesophagus
+Wall: structural | Pouch, webs (Plummer–Vinson), Schatzki ring, peptic and caustic strictures
+Wall: motility | Achalasia, diffuse spasm, presbyoesophagus, scleroderma, polymyositis
+Outside the wall | Goitre, cervical osteophytes, mediastinal nodes or tumour, aortic aneurysm, aberrant right subclavian artery (dysphagia lusoria)
+Neurological | Stroke, motor neurone disease, multiple sclerosis, Parkinson disease, myasthenia, bulbar and pseudobulbar palsy, vagal palsy
+!!
+!flag Red flags
+Progressive dysphagia for solids then liquids, weight loss, odynophagia, haematemesis or haemoptysis, voice change, referred otalgia, a neck mass, or age over fifty with new dysphagia: urgent endoscopy for malignancy.
+!!
+## Evaluation
+- **History:** level, solids or liquids, progression, regurgitation, cough with eating, weight, voice, heartburn, neurological symptoms.
+- **Examination:** mouth, oropharynx, flexible laryngoscopy (pooling, vocal fold movement, sensation), neck, cranial nerves.
+- **Videofluoroscopy (modified barium swallow):** the oral and pharyngeal phases, penetration and aspiration, and the effect of postures and textures.
+- **Fibreoptic endoscopic evaluation of swallowing (FEES):** swallowing coloured food under endoscopic view, with or without sensory testing.
+- **Barium swallow:** pouches, webs, rings, strictures, motility.
+- **Endoscopy:** rigid or flexible oesophagoscopy, or unsedated transnasal oesophagoscopy, with biopsy.
+- **Manometry:** motility disorders (achalasia, spasm).
+- **CT** for tumours and extrinsic compression.
+!anat s227_55 | The constrictions of the oesophagus and their distance from the incisors.
+## Oropharyngeal dysfunction and its treatment
+- **Tongue base weakness:** residue in the valleculae; chin tuck, tongue base exercises.
+- **Pharyngeal sensory loss:** silent aspiration, worse with thin liquids; thickened fluids, head turned to the weak side.
+- **Vocal fold palsy:** aspiration of thin liquids and a breathy voice; medialisation.
+- **Poor laryngeal elevation:** residue and failure of the sphincter to open; the Mendelsohn manoeuvre, exercises and stimulation.
+- **Failure of upper oesophageal sphincter opening:** a cricopharyngeal bar (present in many asymptomatic elderly people) or a pouch; dilatation, botulinum toxin or cricopharyngeal myotomy.
+Speech and language therapists guide postures, textures and exercises; a gastrostomy feeds those who cannot swallow safely.
+
+# Pharyngeal pouch | Zenker diverticulum.
+## Definition
+A *pulsion diverticulum* in which pharyngeal mucosa herniates through *Killian's dehiscence*, the weak triangle in the posterior pharyngeal wall between the oblique *thyropharyngeus* above and the transverse *cricopharyngeus* below, the two parts of the inferior constrictor. Also called a hypopharyngeal diverticulum.
+!fig d54-1 d54-2 | First, a hypopharyngeal (Zenker) diverticulum herniating through Killian's dehiscence. Second, the potential sites of diverticula: Killian's dehiscence, the Killian–Jamieson area and Laimer's dehiscence.
+!anat s199_7 s226_54 | Killian's dehiscence and the pharyngeal pouch, and Killian's and Laimer's triangles.
+## Cause
+Not fully known. Incoordination between pharyngeal contraction and cricopharyngeal relaxation, failure of the sphincter to open (fibrosis of cricopharyngeus, poor laryngeal elevation) and raised pressure above it force mucosa out through the weak area. Reflux may contribute. It is a disease of the elderly, usually over sixty, men more than women.
+## Pathology
+The pouch begins in the midline, lies first behind the oesophagus, then enlarges downwards and comes to lie to its left. As it grows, its mouth comes to lie in line with the pharynx while the oesophageal opening is pushed forward, so food enters the sac preferentially.
+## Clinical features
+- **Dysphagia:** often appearing after a few swallows, once the pouch fills and presses on the oesophagus; progressive.
+- **Gurgling** in the neck on swallowing (*borborygmi*); a swelling in the left side of the neck that empties with pressure.
+- **Regurgitation** of undigested food, sometimes hours later and at night when lying down, with *nocturnal cough* and *aspiration pneumonia*.
+- **Halitosis**, weight loss and malnutrition.
+- Associated hiatus hernia; rarely carcinoma within a long-standing pouch.
+## Diagnosis
+A *barium swallow* shows the sac and its size, best in the lateral view. Endoscopy carries a risk of entering and perforating the sac, but is needed if carcinoma is suspected; nasogastric tubes are passed with care.
+!fig d54-3 | Barium swallow showing an early Zenker's diverticulum (arrow) at the level of the sixth cervical vertebra in a 31-year-old woman.
+!imaging | Zenker diverticulum, oesophageal passage disorders and aspiration.
+## Treatment
+Small asymptomatic pouches can be watched. For symptoms:
+### Endoscopic
+- **Endoscopic stapling diverticulotomy:** the party wall (the *diverticular bar*, containing cricopharyngeus) between the pouch and the oesophagus is divided and sealed with a linear stapler through a Weerda diverticuloscope; the pouch becomes part of the oesophagus and the muscle is divided at the same time. Now the commonest operation.
+- **Dohlman's procedure / CO2 laser diverticulotomy:** the bar is divided by diathermy or laser through the diverticuloscope; suited to poor-risk and elderly patients.
+Endoscopic methods are quick, with rapid return to eating, but are less effective for very small pouches (too little bar to staple) and may be impossible when the neck cannot be extended or the mouth opened.
+### External (cervical)
+Through an incision along the anterior border of sternomastoid, usually on the left, the pouch is exposed, and either excised, inverted or suspended (diverticulopexy), *always with cricopharyngeal myotomy* to prevent recurrence.
+!pearl Myotomy is the key
+Whatever is done to the sac, dividing cricopharyngeus treats the cause. Excision without myotomy invites recurrence and fistula.
+!!
+### Complications
+Mediastinitis from perforation, pharyngocutaneous fistula, recurrent laryngeal nerve palsy, recurrence, and, with endoscopic methods, failure to complete the division.
+!ops | Upper oesophageal sphincter surgery and oesophagoscopy.
+
+# Other causes | Webs, rings and motility.
+## Plummer–Vinson syndrome
+Iron deficiency anaemia, dysphagia from *postcricoid webs*, glossitis, angular cheilitis and koilonychia, mostly in women; a predisposition to postcricoid carcinoma. Barium swallow shows the web; iron replacement and dilatation of the web; surveillance.
+## Rings and strictures
+A *Schatzki ring* at the gastro-oesophageal junction causes intermittent dysphagia for solids and food impaction; dilatation. Strictures from reflux, pills, caustics, radiotherapy or surgery are dilated and the cause treated.
+## Motility disorders
+- **Achalasia:** loss of the myenteric plexus; progressive dysphagia for solids and liquids, regurgitation and chest pain; a dilated oesophagus tapering to a *bird's beak*; aperistalsis with failure of the lower sphincter to relax on manometry. Pneumatic dilatation, surgical or peroral endoscopic myotomy, or botulinum toxin; exclude a tumour at the cardia (pseudoachalasia).
+- **Diffuse oesophageal spasm:** chest pain and dysphagia, a "corkscrew" oesophagus; nitrates or calcium channel blockers.
+- **Scleroderma, polymyositis, diabetes and hypothyroidism** also impair peristalsis.
+## Eosinophilic oesophagitis
+Young atopic adults with dysphagia and food bolus obstruction; rings on endoscopy and eosinophils on biopsy; elimination diets, swallowed steroids and dilatation.
+## Extrinsic compression
+Goitre, cervical osteophytes, mediastinal masses, and *dysphagia lusoria* from an aberrant right subclavian artery passing behind the oesophagus (often with a non-recurrent right laryngeal nerve).
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Causes of dysphagia** by lumen, wall and outside, and the red flags.
+- **Investigations:** videofluoroscopy, FEES, barium swallow, endoscopy, manometry.
+- **Killian's dehiscence** and the anatomy of a pouch.
+- **Clinical features** of a pharyngeal pouch.
+- **Treatment:** endoscopic stapling, Dohlman, excision with cricopharyngeal myotomy.
+- **Plummer–Vinson syndrome.**
+!!
+## Common pitfalls
+!pit
+- Passing a rigid oesophagoscope blindly in a patient with a pouch.
+- Excising a pouch without cricopharyngeal myotomy.
+- Attributing progressive dysphagia in an older smoker to "age" without endoscopy.
+!!

@@ -1,0 +1,152 @@
+@stand Every patient with obstructive sleep apnoea snores, but not every snorer has apnoea. The difference matters: primary snoring is a social nuisance, while apnoea, with its repeated nightly suffocation, raises blood pressure, strains the heart, causes strokes and puts sleepy drivers on the road. The bed partner gives the history, the sleep study gives the diagnosis, positive airway pressure is the first treatment, and surgery is chosen by finding where the airway collapses.
+
+# Definitions | Words of the sleep study.
+## Terms
+- **Apnoea:** cessation of airflow for 10 seconds or more during sleep.
+- **Hypopnoea:** a reduction in airflow (commonly by 30 to 50%) with a fall in oxygen saturation of 3 to 4% or an arousal.
+- **Apnoea–hypopnoea index (AHI):** apnoeas and hypopnoeas per hour of sleep; also called the respiratory disturbance index. Under 5 is normal.
+- **Arousal:** a brief awakening on the EEG caused by respiratory effort; the arousal index is their number per hour.
+- **Sleep efficiency:** minutes asleep divided by minutes in bed.
+- **Multiple sleep latency test:** timed daytime naps to measure sleepiness and detect narcolepsy.
+!table Severity of obstructive sleep apnoea (adults)
+Grade | AHI (events per hour)
+Normal | Under 5
+Mild | 5 to 14
+Moderate | 15 to 29
+Severe | 30 or more
+!!
+## Types of apnoea
+- **Obstructive:** the upper airway collapses while breathing effort continues.
+- **Central:** the airway is open but the brain does not signal breathing; no effort is made.
+- **Mixed:** a central start followed by obstruction.
+## Spectrum of sleep-disordered breathing
+**Primary snoring** (no arousals, AHI under 5, no daytime sleepiness), **upper airway resistance** (effort-related arousals and sleepiness without frank apnoeas), and **obstructive sleep apnoea**.
+
+# Mechanism | Why the throat closes in sleep.
+## Snoring
+In sleep the pharyngeal muscles relax and the airway narrows; breathing through the narrowing sets the soft palate, uvula, pillars and tongue base vibrating, at up to 90 dB. Snoring affects about a quarter of men and fifteen per cent of women, and increases with age.
+## Obstruction
+The pharynx has no bony support between the palate and the larynx; its patency depends on muscle tone against the suction of inspiration. Tone falls most in REM sleep and stage 2 sleep, when events are most frequent. Each apnoea ends with an arousal that restores tone, fragmenting sleep.
+## Sites
+Obstruction may be at more than one level, and may differ from night to night:
+- **Level I:** nose and nasopharynx: septal deviation, turbinate hypertrophy, valve collapse, polyps, adenoids, tumours.
+- **Level II:** palate and tonsils: a long soft palate and uvula, large tonsils, bulky lateral walls.
+- **Level III:** tongue base, hypopharynx and larynx: macroglossia, retrognathia, lingual tonsils, an omega-shaped or floppy epiglottis, tumours.
+Obesity and a thick neck (collar over about 42 cm in men) narrow every level; alcohol, sedatives and hypnotics relax the muscles further.
+!anat s200_8 s209_23 | Waldeyer's ring seen through the mouth, and the adenoids compared with the palatine tonsils.
+## Sleep architecture
+An adult sleeps seven to eight hours in three to five cycles of 90 to 120 minutes. Non-REM sleep (75 to 80%) moves from light stages to deep slow-wave sleep; REM sleep (20 to 25%) brings dreaming, irregular breathing and heart rate, and near-paralysis of skeletal muscle, which is why obstruction is worst then.
+
+# Consequences | More than noise.
+## Personal
+Loud snoring disturbs the partner (the snoring spouse syndrome); witnessed choking and gasping, restless unrefreshing sleep, excessive daytime sleepiness, morning headaches, fatigue, poor memory and concentration, irritability and depression, reduced libido, nocturia.
+## Medical
+- **Hypertension:** apnoea is an independent risk factor; treatment lowers blood pressure, even resistant hypertension.
+- **Heart:** arrhythmias, ischaemia, heart failure, pulmonary hypertension and cor pulmonale; untreated severe apnoea increases mortality.
+- **Brain:** stroke.
+- **Metabolic:** insulin resistance; polycythaemia.
+- **Perioperative risk:** difficult airways and sensitivity to opioids and sedatives.
+## Social
+Road traffic and workplace accidents. Ask every patient about sleepiness while driving; in some jurisdictions the doctor must advise the patient about notifying the licensing authority.
+!flag Children are different
+In children the commonest cause is adenotonsillar hypertrophy. They show snoring, pauses and gasping, restless sleep with the neck hyperextended, sweating, bedwetting, morning headache, and by day hyperactivity, poor attention and school performance, and sometimes failure to thrive, rather than sleepiness. An AHI above 1 is abnormal in a child, and adenotonsillectomy is first-line treatment.
+!!
+
+# Evaluation | Finding the cause and the level.
+## History
+Take it from the bed partner as well as the patient: snoring, pauses, gasping, choking, restlessness and sweating at night; sleepiness, fatigue, headaches, memory and mood by day. Ask about sleep habits and shift work, alcohol, sedatives and caffeine, sleep position, nasal obstruction, menopause and weight change, and driving.
+!note Epworth sleepiness scale
+Each situation is scored 0 (would never doze), 1 (slight chance), 2 (moderate chance) or 3 (high chance of dozing), for a total out of 24:
+- Sitting and reading.
+- Watching television.
+- Sitting inactive in a public place, such as a theatre or meeting.
+- As a passenger in a car for an hour without a break.
+- Lying down to rest in the afternoon.
+- Sitting and talking to someone.
+- Sitting quietly after lunch without alcohol.
+- In a car, stopped for a few minutes in traffic.
+!!
+A total over 10 indicates excessive daytime sleepiness. The STOP-BANG and Berlin questionnaires screen for apnoea.
+## Examination
+- **General:** body mass index (obese at 30 or more), neck circumference (over 42 cm in men or 37.5 cm in women), blood pressure, signs of heart failure and hypothyroidism.
+- **Nose:** septum, turbinates, valve, polyps; endoscopy for adenoids.
+- **Mouth and oropharynx:** tonsil size, palate length and position, uvula, tongue size and scalloping, lateral walls, dental occlusion and retrognathia.
+- **Hypopharynx and larynx:** flexible endoscopy of the tongue base, lingual tonsil and epiglottis.
+!table Friedman grading
+Tonsils | Palate position (tongue relaxed in the mouth)
+0: removed | I: tonsils, uvula and pillars all visible
+1: hidden within the pillars | II: uvula visible, not the tonsils
+2: reach the pillars | III: soft palate visible, not the uvula
+3: beyond the pillars | IV: only the hard palate visible
+4: meeting in the midline |
+!!
+!pearl Friedman, not Mallampati
+For sleep surgery the palate is graded with the tongue relaxed inside the mouth (Friedman), not protruded as in the anaesthetist's Mallampati score. Large tonsils with a favourable palate predict success from palatal surgery.
+!!
+## Endoscopic tests
+- **Müller manoeuvre:** with the nose pinched and mouth closed, the patient inhales forcefully while the endoscopist watches which level collapses; simple but poorly reproducible.
+- **Drug-induced sleep endoscopy (DISE):** endoscopy under propofol or midazolam sedation shows collapse during sleep-like conditions; the *VOTE* system records the velum, oropharyngeal lateral walls, tongue base and epiglottis, with the degree and pattern (anteroposterior, lateral or concentric). Used before surgery, after failed surgery and when findings do not match the sleep study.
+## Imaging
+Lateral cephalometry for craniofacial skeletal anomalies and the posterior airway space; a lateral neck radiograph for adenoids in children.
+## Sleep studies
+*Polysomnography* is the gold standard. A full attended study (level 1) records EEG, electro-oculogram and chin and leg EMG (sleep staging), ECG, nasal and oral airflow, thoracic and abdominal effort, oxygen saturation, body position and snoring; it separates obstructive from central apnoea and primary snoring from apnoea. Home studies (level 3: airflow, effort, oximetry, position) are now widely used for uncomplicated adults; oximetry alone is insufficient. A split-night study diagnoses in the first half and titrates CPAP in the second, though events may be under-counted.
+
+# Non-surgical treatment | First-line.
+## Lifestyle
+- Weight loss; bariatric surgery for morbid obesity.
+- Avoid alcohol in the evening, sedatives and hypnotics; stop smoking.
+- **Positional therapy:** sleeping on the side, with a device (or a ball sewn into the back of a shirt) when apnoea is supine-dependent.
+- Treat nasal obstruction and allergy.
+## Positive airway pressure
+*Continuous positive airway pressure* (CPAP) is a pneumatic splint that holds the airway open, usually at 5 to 20 cm of water, through a nasal, nasal-pillow or full-face mask. Bilevel (BiPAP) delivers a higher inspiratory and lower expiratory pressure for those who need high pressures; auto-titrating devices adjust continuously. It is the most effective non-surgical treatment and the standard for moderate to severe apnoea, but only about half of patients use it adequately (at least four hours a night, five nights a week) in the long term, because of discomfort, claustrophobia, dryness, leaks and inconvenience. Coaching and follow-up improve adherence.
+## Oral appliances
+A *mandibular advancement device* holds the jaw forward and draws the tongue and soft tissues away from the posterior wall; a *tongue-retaining device* holds the tongue forward. Effective for snoring and mild to moderate apnoea, and useful in retrognathia; side effects are jaw pain, dental movement and dryness.
+
+# Surgery | Matched to the level.
+## Indications
+Failure of or intolerance to CPAP, favourable anatomy, patient preference, and serious cardiovascular disease. Surgery is tailored to the level(s) of obstruction; multilevel procedures may be combined or staged.
+## Nasal surgery
+Septoplasty, turbinate reduction, polypectomy, valve surgery and adenoidectomy. Nasal surgery seldom cures apnoea, because the nose is not a collapsing segment, but it improves sleep quality and CPAP tolerance and can lower the pressure needed.
+## Palate and oropharynx
+- **Tonsillectomy (with adenoidectomy):** the main treatment in children; in adults with grade 3 or 4 tonsils, isolated tonsillectomy can be very effective.
+- **Uvulopalatopharyngoplasty (UPPP):** introduced by Fujita in 1981; tonsillectomy with trimming of the uvula and free edge of the palate and suturing of the pillars to widen the oropharynx. Overall success is about 50%, rising above 80% in well-selected patients (Friedman tonsils 3 to 4, palate I to II). Complications: pain, bleeding, velopharyngeal insufficiency, nasopharyngeal stenosis and voice change.
+- **Uvulopalatal flap:** the uvula is folded back onto the denuded palate, sparing the muscle.
+- **Expansion sphincter pharyngoplasty:** the palatopharyngeus is rerouted superolaterally to widen the lateral dimension.
+- **Uvulopalatoplasty (UPP, laser or radiofrequency assisted) and palatal stiffening (cautery-assisted or implants):** useful for snoring, much less for apnoea.
+Dhingra notes that palatal surgery relieves snoring in about 80% but apnoea in only about half, with relapse when another level takes over.
+## Tongue base and hypopharynx
+Radiofrequency reduction of the tongue base in repeated sessions, lingual tonsillectomy, midline glossectomy (coblation, laser, robotic), tongue suspension, hyoid suspension (to the mandible or thyroid cartilage), genioglossus advancement, and supraglottoplasty for epiglottic collapse.
+## Skeletal surgery
+*Maxillomandibular advancement* (Le Fort I osteotomy of the maxilla and sagittal split of the mandible, fixed forwards with plates) enlarges the whole skeletal framework of the airway and is the most effective operation apart from tracheostomy, especially in retrognathic patients and after failed soft tissue surgery; it changes facial appearance and needs orthodontic care.
+## Hypoglossal nerve stimulation
+An implanted stimulator fires the hypoglossal nerve with inspiration, protruding the tongue; for moderate to severe apnoea in patients who cannot use CPAP, with a suitable BMI and without concentric palatal collapse on DISE.
+## Tracheostomy
+The only operation that reliably cures obstructive apnoea, by bypassing every level; reserved for life-threatening disease, severe cardiopulmonary complications and failure of everything else, because of its personal and social cost.
+!ops | Operations for sleep-disordered breathing.
+!imaging | Adenoid hypertrophy on imaging.
+## Perioperative care
+Patients with apnoea are sensitive to opioids and sedatives and may have difficult airways. Monitor oxygen saturation overnight after surgery in severe apnoea, with cardiovascular disease, after tongue base surgery, and in young children or those with comorbidities; restart CPAP after surgery when appropriate.
+!differ Where the books differ
+Dhingra: Calls tracheostomy the gold standard of surgical treatment, lists uvulopalatoplasty as the commonest procedure and quotes 80% success for snoring but 50% for apnoea.
+Lee: Places CPAP as the gold standard of therapy, emphasises patient selection by Friedman stage and DISE, reporting UPPP success above 85% in favourable anatomy, and names maxillomandibular advancement the most effective operation short of tracheostomy.
+They agree that surgery must be matched to the level of collapse.
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Definitions:** apnoea, hypopnoea, AHI and severity grades.
+- **Obstructive versus central apnoea.**
+- **Consequences** of untreated apnoea.
+- **Evaluation:** Epworth score, Friedman staging, Müller manoeuvre, DISE, polysomnography.
+- **CPAP** and its adherence problem.
+- **Surgery by level,** UPPP selection, and maxillomandibular advancement.
+- **Children:** adenotonsillectomy first.
+!!
+## Common pitfalls
+!pit
+- Operating on the palate when the tongue base is the main site of collapse.
+- Using oximetry alone to diagnose or exclude apnoea.
+- Giving opioids freely after surgery to a patient with severe apnoea.
+- Promising that nasal surgery will cure apnoea.
+!!

@@ -1,0 +1,143 @@
+@stand The fascia of the neck divides it into compartments that are tidy in the anatomy book and treacherous in practice: infection from a tooth, a tonsil or a node finds the planes between them and runs, sometimes down into the chest, sometimes around the airway. Deaths from deep neck infection come from three things: a lost airway, a spreading infection that reaches the mediastinum, and a great vessel eroded or thrombosed. Secure the airway, image the neck, give the right antibiotics and drain the pus.
+
+# Fascia and spaces | The map.
+## Deep cervical fascia
+- **Superficial (investing) layer:** surrounds the neck, splitting to enclose the sternomastoid, trapezius, submandibular and parotid glands.
+- **Middle (visceral) layer:** surrounds the larynx, trachea, pharynx, oesophagus and thyroid; its buccopharyngeal part covers the constrictors.
+- **Deep layer:** the *prevertebral fascia* in front of the vertebrae and muscles, with the thin *alar fascia* in front of it.
+All three contribute to the *carotid sheath*.
+!anat s275_72 s275_73 | The layers of the deep cervical fascia in sagittal and transverse section.
+## Spaces
+!table Spaces of the head and neck
+Space | Extent and contents | Usual source of infection
+Parotid | Within the split superficial layer; gland, nodes, facial nerve, external carotid, retromandibular vein | Ascending infection via Stensen's duct in dehydrated patients
+Submandibular (sublingual, submandibular, submental) | Above and below the mylohyoid, between mandible and hyoid | Teeth, sialadenitis, floor of mouth injury
+Peritonsillar | Between the tonsil capsule and superior constrictor | Tonsillar crypts
+Parapharyngeal | Inverted pyramid from skull base to hyoid, beside the pharynx | Tonsils, quinsy, teeth, parotid, Bezold abscess, other spaces
+Retropharyngeal | Behind the buccopharyngeal fascia, in front of the alar fascia; skull base to about T2 | Suppurating retropharyngeal nodes in children; trauma in adults
+Danger | Between alar and prevertebral fascia; skull base to diaphragm | Spread from retropharyngeal or parapharyngeal spaces
+Prevertebral | Behind the prevertebral fascia; skull base to coccyx | Tuberculosis and infection of the spine
+Visceral | Around larynx, trachea, pharynx, oesophagus and thyroid, into the mediastinum | Perforation of the oesophagus, thyroiditis, surgery
+Carotid sheath | Skull base to the thoracic inlet; carotid, jugular vein, vagus | Spread from adjacent spaces, drug injection
+Masticator | Around the masseter, pterygoids and temporalis and the ramus | Second and third molars
+!!
+!anat s278_76 s199_5 | The retropharyngeal, danger and prevertebral spaces, and the parapharyngeal and retropharyngeal spaces.
+!fig d52-6 d52-9 | First, the spaces in relation to the pharynx where abscesses form. Second, the spaces of the head and neck in coronal section.
+!pearl Routes to the chest
+The retropharyngeal space reaches the superior mediastinum; the danger space runs behind it to the diaphragm, and the carotid sheath, the "Lincoln highway of the neck", carries infection down to the root of the neck. The parapharyngeal space connects with the retropharyngeal, submandibular, parotid, carotid and visceral spaces, so it is the crossroads of spread.
+!!
+
+# General principles | Before the details.
+## Sources
+Dental infection is the commonest source in adults, and pharyngeal and tonsillar infection in children. Others: suppurating lymph nodes, sinusitis, mastoiditis (Bezold abscess), sialadenitis, trauma, intubation and endoscopy, foreign bodies, intravenous drug injection, and infected congenital cysts. In an adult, a "neck abscess" may be a necrotic metastasis from an oropharyngeal cancer.
+## Organisms
+Usually mixed aerobic and anaerobic mouth flora: viridans and group A streptococci, peptostreptococci, staphylococci, *Bacteroides* and *Fusobacterium*. Methicillin-resistant *Staphylococcus aureus* is common in infants; diabetics and the immunosuppressed acquire Gram-negative organisms; tuberculosis and actinomycosis cause chronic abscesses.
+## Evaluation
+- **History:** pain, fever, swelling, odynophagia, drooling, voice change, trismus, breathing difficulty; recent dental work, sore throat, trauma or intubation; diabetes and immune status.
+- **Examination:** the teeth, floor of mouth, tonsils and posterior wall; trismus; crepitus (gas-forming organisms); cranial nerves; and *flexible endoscopy of the airway* whenever there is voice change, dyspnoea, stridor or unexplained dysphagia. Oxygen saturation can be normal with a critical airway.
+- **Blood:** count, glucose, renal function, cultures.
+- **Imaging:** contrast-enhanced CT is the key study, showing which spaces are involved, abscess against phlegmon, and spread to the mediastinum; clinical examination alone misjudges the spaces in many cases. Lateral neck radiographs show prevertebral swelling (over about 7 mm at C2 in adults, or more than half a vertebral body in children); chest radiographs for mediastinitis and aspiration; ultrasound in children and for guided aspiration; MRI and MR angiography for intracranial or vascular complications.
+## Treatment
+1. **Airway first.** Sit the patient up, give humidified oxygen; steroids and nebulised adrenaline buy time. If the airway is narrowed by more than half, secure it by awake fibreoptic intubation or tracheostomy under local anaesthesia; never paralyse a patient whose airway you cannot see.
+2. **Fluids:** patients are dehydrated from not swallowing.
+3. **Intravenous antibiotics** at once, broad-spectrum with anaerobic cover: co-amoxiclav or ampicillin–sulbactam, or a third-generation cephalosporin with metronidazole; clindamycin in penicillin allergy and in small children; vancomycin for MRSA; antipseudomonal agents in the immunosuppressed. Adjust to cultures.
+4. **Drainage** when there is an abscess in a fascial space, gas, a threatened airway, or no improvement after 48 to 72 hours of antibiotics. Small contained abscesses and phlegmon, especially in children, often settle with antibiotics alone.
+5. **Remove the source:** extract the tooth, remove the foreign body.
+!ops | Drainage of deep neck abscesses and tracheostomy.
+
+# Ludwig's angina | The floor of the mouth on fire.
+## Applied anatomy
+Three primary spaces surround the mandible: *sublingual* (above the mylohyoid, under the oral mucosa), *submandibular* (below the mylohyoid, under the investing fascia, containing the gland and nodes) and *submental* (between the anterior bellies of digastric). The roots of the premolars and first molar lie above the mylohyoid line and drain into the sublingual space; those of the second and third molars lie below it and drain into the submandibular space. The spaces communicate around the back of the mylohyoid and across the midline.
+!fig d52-1 d52-2 | First, the submandibular space below the mylohyoid and the sublingual space above it. Second, the roots of the molars project below and those of the premolars above the attachment of the mylohyoid.
+!anat s190_62 | The submandibular gland around the mylohyoid.
+## Definition and cause
+A rapidly spreading cellulitis of the submandibular, sublingual and submental spaces on both sides, usually without a discrete abscess. Dental infection accounts for about 80%; others are submandibular sialadenitis, floor-of-mouth injuries and mandibular fractures. Mixed aerobes and anaerobes.
+## Clinical features
+Painful swallowing, drooling and trismus; a swollen floor of mouth that pushes the tongue up and back; a tense, *woody-hard*, tender swelling below the jaw on both sides; a muffled voice; the patient sits up, leaning forward. As the tongue is forced back and the larynx swells, the airway closes.
+!fig d52-3 | Ludwig's angina in a seven-year-old child.
+## Treatment
+- Secure the airway: awake fibreoptic intubation or tracheostomy under local anaesthesia, before it is lost.
+- High-dose intravenous antibiotics with anaerobic cover; steroids reduce swelling.
+- Drainage: intraorally if confined to the sublingual space; externally for submandibular and submental involvement, through a transverse incision below the mandible with blunt opening of the mylohyoid. Often only serous fluid is found, yet decompression relieves the airway.
+- Extract the offending tooth.
+!flag Never lie down a patient with Ludwig's angina
+A sitting, drooling patient with a raised floor of mouth can obstruct completely if laid flat or sedated. Move to theatre with the airway team present.
+!!
+## Complications
+Spread to the parapharyngeal and retropharyngeal spaces and mediastinum, airway obstruction, septicaemia and aspiration pneumonia.
+
+# Retropharyngeal abscess | Behind the pharynx.
+## Applied anatomy
+The retropharyngeal space lies between the buccopharyngeal fascia in front and the alar fascia behind, from the skull base to the mediastinum. A midline raphe divides it into two lateral compartments (spaces of Gillette), each with retropharyngeal nodes that receive lymph from the nose, sinuses, adenoids, nasopharynx and middle ear and that regress after about four or five years of age.
+## Acute retropharyngeal abscess
+### Cause
+Mostly children under three to five, from suppuration of the retropharyngeal nodes after infection of the adenoids, nasopharynx, nose or sinuses. In adults, penetrating injury of the posterior pharyngeal wall or oesophagus (fish bones, instruments); rarely mastoid pus tracking under the petrous bone.
+### Clinical features
+- Fever, irritability, refusal to feed, dysphagia and drooling.
+- Difficulty in breathing, stridor and a croupy cough.
+- *Torticollis* and neck stiffness, with the head held extended; Lee names torticollis the best indicator in children.
+- A bulge on one side of the midline of the posterior pharyngeal wall.
+### Investigation
+A lateral soft tissue radiograph, taken with the neck extended, shows widening of the prevertebral shadow, sometimes with gas or a fluid level. Contrast CT shows the abscess, distinguishes it from phlegmon and shows extension below the hyoid or into the mediastinum.
+!fig d52-7 | Retropharyngeal abscess: widening of the prevertebral space with gas (arrow) on a lateral radiograph.
+### Treatment
+Intravenous antibiotics; many small abscesses and phlegmons in children resolve. A definite abscess is drained transorally with the child supine and head low, mouth held open by a gag and suction ready: aspirate first to relieve pressure, then make a vertical incision over the most fluctuant point, avoiding the carotid laterally. Under general anaesthesia, intubate gently to avoid rupture, and pack the pharynx. Tracheostomy if the airway is compromised. Low or extensive abscesses are drained through the neck.
+## Chronic retropharyngeal (prevertebral) abscess
+Tuberculous, from caries of the cervical spine (in the midline, behind the prevertebral fascia) or from tuberculous retropharyngeal nodes (to one side, behind the buccopharyngeal fascia). Throat discomfort and mild dysphagia; a fluctuant swelling of the posterior wall; tuberculous neck nodes; radiographs show the spinal disease. Drain through the neck (along the anterior border of sternomastoid for a low abscess, the posterior border for a high one), never through the mouth when the spine is involved; antituberculous treatment, with the spinal surgeon.
+!fig d52-8 | (A) A tuberculous prevertebral abscess seen in the oropharynx. (B) Radiograph of the same.
+
+# Parapharyngeal abscess | The lateral pharyngeal space.
+## Applied anatomy
+An inverted pyramid with its base at the skull base and apex at the hyoid. Medially the buccopharyngeal fascia over the constrictors; laterally the medial pterygoid, ramus and deep lobe of the parotid; behind, the prevertebral fascia. The styloid process and its muscles divide it into:
+- **Anterior (prestyloid) compartment:** related to the tonsillar fossa and medial pterygoid.
+- **Posterior (poststyloid) compartment:** containing the internal carotid artery, internal jugular vein, cranial nerves IX to XII, the sympathetic trunk and upper deep cervical nodes.
+## Causes
+The tonsils and adenoids, a ruptured quinsy, the last lower molar, Bezold abscess and petrositis, the parotid, retropharyngeal and submandibular spaces, and penetrating injury, including local anaesthetic injections.
+## Clinical features
+- **Anterior compartment:** the triad of medial prolapse of the tonsil and tonsillar fossa, marked *trismus* from medial pterygoid spasm, and a swelling behind the angle of the jaw; severe odynophagia.
+- **Posterior compartment:** a bulge behind the posterior pillar, palsies of IX, X, XI and XII and Horner syndrome, and parotid swelling, with little trismus.
+- **Both:** fever, toxaemia, sore throat and torticollis.
+!imaging | Deep neck abscesses on imaging.
+## Complications
+Laryngeal oedema and airway obstruction; jugular thrombophlebitis and septicaemia; spread to the retropharyngeal space and down the carotid sheath to the mediastinum; mycotic aneurysm of the carotid and carotid blow-out.
+## Treatment
+Intravenous antibiotics covering aerobes and anaerobes. Drainage under general anaesthesia (tracheostomy first if trismus is severe) through a horizontal incision 2 to 3 cm below the angle of the mandible, dissecting bluntly along the inner surface of the medial pterygoid towards the styloid process; a drain is left. *Never drain a parapharyngeal abscess through the mouth*, for the great vessels lie in its wall.
+
+# Other spaces | Parotid and masticator.
+## Parotid abscess
+In dehydrated, postoperative or debilitated patients with poor oral hygiene, infection ascends Stensen's duct, usually *Staphylococcus aureus*. Five to seven days after an operation the parotid becomes swollen, red, indurated and tender; fluctuation is hard to feel through the thick capsule; pus can be expressed from the duct. Ultrasound or CT shows the loculi. Rehydrate, stimulate saliva, give intravenous antibiotics, and drain through a parotidectomy incision, opening the loculi bluntly in the line of the facial nerve branches. The thin deep fascia lets pus break into the parapharyngeal space.
+## Masticator space
+Between the layers of the investing fascia around the masseter, pterygoids and temporalis, with the ramus, maxillary artery and inferior alveolar nerve; its three parts are masseteric, pterygomandibular and temporal. Infection of the second and third molars is the usual source; marked trismus is the cardinal sign. Drained through an incision lateral to the retromolar trigone, or above the zygomatic arch for the temporal space.
+!fig d52-10 | The masticator space and its three parts: masseteric, pterygomandibular and temporal.
+
+# Dangerous complications | What kills.
+## Mediastinitis
+Usually from the retropharyngeal or danger spaces: chest pain, dyspnoea, tachycardia and a widened mediastinum on the chest film. Mortality is high; combined cervical and thoracic drainage improves survival.
+## Lemierre syndrome
+Septic thrombophlebitis of the internal jugular vein after pharyngitis, usually with *Fusobacterium necrophorum*: swinging fevers, tenderness along the sternomastoid, and septic emboli to the lungs and joints. Contrast CT shows a filling defect in the vein. Two to three weeks of intravenous antibiotics; anticoagulation is debated; ligation if the patient deteriorates.
+## Carotid erosion
+A mycotic pseudoaneurysm or rupture from retropharyngeal or parapharyngeal infection. Warnings: a *sentinel bleed* from the mouth, nose or ear, a pulsatile swelling, Horner syndrome or lower cranial nerve palsies. Angiography, then ligation or stenting.
+## Necrotising fasciitis
+In the elderly, diabetic and immunosuppressed, usually dental in origin: spreading oedematous "peau d'orange" erythema with crepitus and gas on CT. Resuscitation, broad-spectrum antibiotics and repeated debridement to bleeding tissue.
+## Cavernous sinus thrombosis
+Infection from the upper teeth or face tracking back through the valveless ophthalmic veins: fever, orbital pain, proptosis, ophthalmoplegia and a dilated pupil.
+!flag A neck abscess in an adult
+After the infection settles, examine the upper aerodigestive tract. A cystic "abscess" in an adult may be a necrotic node from an HPV-related oropharyngeal cancer or an infected branchial cyst hiding one.
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Layers of deep cervical fascia** and the spaces between them.
+- **Ludwig's angina:** spaces, cause, airway management.
+- **Retropharyngeal abscess:** acute versus chronic, radiograph, transoral versus external drainage.
+- **Parapharyngeal abscess:** compartments, signs, and why it is never drained through the mouth.
+- **Complications:** mediastinitis, Lemierre syndrome, carotid blow-out.
+!!
+## Common pitfalls
+!pit
+- Sending a patient with a threatened airway to the CT scanner unaccompanied.
+- Incising a parapharyngeal swelling through the mouth.
+- Draining a tuberculous prevertebral abscess transorally.
+- Calling a cystic neck mass in an adult an abscess and not looking for a primary.
+!!

@@ -1,0 +1,138 @@
+@stand Nasopharyngeal carcinoma hides in the one part of the throat no one sees without an endoscope. It shows itself instead through its neighbours: a lump high in the neck, a blocked ear with fluid in an adult, a bloodstained nose, a squint from a sixth nerve palsy. It is linked to Epstein–Barr virus, common in southern China and South-East Asia, and treated not with the knife but with radiation and chemotherapy, to which it responds well.
+
+# Overview | A cancer of geography and virus.
+## Tumours of the nasopharynx
+!table Tumours of the nasopharynx
+Benign | Malignant
+Juvenile angiofibroma (the commonest benign tumour) | Nasopharyngeal carcinoma (the commonest malignancy)
+Antrochoanal polyp, squamous papilloma | Lymphoma (mostly B-cell non-Hodgkin)
+Thornwaldt cyst | Rhabdomyosarcoma (children)
+Pleomorphic adenoma, craniopharyngioma | Chordoma, plasmacytoma
+Paraganglioma, hamartoma | Adenoid cystic and other salivary carcinomas
+Hairy polyp, teratoma (congenital) | Melanoma, haemangiopericytoma
+!!
+Angiofibroma has its own topic; this one is about carcinoma.
+## Epidemiology
+The highest incidence in the world is in southern China, Hong Kong and Taiwan, with high rates in South-East Asia, North Africa, the Mediterranean and among the Inuit and Aleut peoples. It is uncommon in India except in the North-East. Chinese born in North America have a lower risk than those born in China but still higher than other Americans, showing the interplay of genes and environment. Males outnumber females about three to one; the peak is in the fifth and sixth decades, but about one in five patients is under thirty, and these younger patients usually have undifferentiated tumours.
+## Aetiology
+- **Genetic:** HLA haplotypes confer susceptibility; the risk persists after migration.
+- **Epstein–Barr virus:** EBV DNA and EBV-encoded RNA are found in virtually every tumour cell of the non-keratinising types; clonal EBV in premalignant lesions suggests infection is an early, possibly initiating, event.
+- **Environmental:** nitrosamines in salted, preserved fish eaten from childhood, with a diet low in vitamin C; smoke from burning incense and wood; tobacco, opium and occupational fumes.
+- **Tobacco and alcohol:** linked to the keratinising (sporadic) type.
+
+# Pathology | Three types.
+## WHO classification
+!table WHO types of nasopharyngeal carcinoma
+Type | Description | North American frequency | EBV and radiosensitivity
+I | Keratinising squamous cell carcinoma | About 25% | Weaker association; least radiosensitive
+II | Non-keratinising, differentiated | About 12% | Strong association
+III | Non-keratinising, undifferentiated (lymphoepithelioma; Regaud and Schmincke types) | About 63% | Strongest association; most radiosensitive
+!!
+The current WHO scheme groups types II and III as non-keratinising carcinoma (differentiated and undifferentiated). Under the electron microscope all are squamous; immunohistochemistry for epithelial (cytokeratin) and lymphoid markers separates undifferentiated carcinoma from lymphoma. In endemic areas the non-keratinising types predominate even more.
+## Gross forms
+Proliferative (a polypoid mass causing nasal obstruction), ulcerative (bleeding), and infiltrative (submucosal, easily missed).
+
+# Spread | Through every exit of the skull base.
+## Local
+The commonest site of origin is the *fossa of Rosenmüller* in the lateral wall.
+- **Forwards:** into the choanae and nasal cavity.
+- **Laterally:** through the sinus of Morgagni into the parapharyngeal space and infratemporal fossa; into the pterygoid muscles (trismus).
+- **Upwards:** through the foramen lacerum and foramen ovale into the middle cranial fossa and cavernous sinus (cranial nerves III, IV, V and VI); the *sixth nerve* is usually the first affected; into the sphenoid sinus and orbit (proptosis, optic nerve).
+- **Backwards:** to the jugular foramen (IX, X, XI) and hypoglossal canal (XII), and the cervical sympathetic chain (Horner syndrome), directly or through enlarged retropharyngeal nodes.
+- **Downwards:** to the oropharynx.
+!fig d49-9 | Routes of spread of nasopharyngeal carcinoma and the clinical features they produce.
+!anat s204_14 s204_15 | The lateral wall of the nasopharynx with the torus tubarius and fossa of Rosenmüller, and an endoscopic view.
+## Lymphatic
+The nasopharynx is rich in lymphatics and nodal spread is early and often bilateral: to the lateral retropharyngeal node (of Rouvière), the upper jugular (level II) nodes high under the mastoid, and the spinal accessory chain in the posterior triangle (level V). Retropharyngeal nodes cause neck stiffness and press on the lower cranial nerves.
+## Distant
+Bone, lung and liver. Nasopharyngeal carcinoma has the highest rate of distant metastasis of any head and neck cancer, present or developing in about a quarter to a third of patients.
+
+# Clinical features | The four groups of symptoms.
+## Cervical nodes
+The commonest presentation (in 60 to 90%): a painless lump between the angle of the jaw and the mastoid, or in the posterior triangle. Nodes are present in about three-quarters at diagnosis, half of them bilateral; often the node is the only complaint.
+## Ear
+Eustachian tube obstruction causes conductive hearing loss, aural fullness and *otitis media with effusion*; tinnitus; rarely tumour grows up the tube.
+!flag Unilateral effusion in an adult
+An adult with fluid behind one drum and no obvious cause has a nasopharyngeal examination, and a biopsy if anything is seen. Inserting a grommet without looking at the nasopharynx misses cancers.
+!!
+## Nose
+Nasal obstruction, bloodstained discharge or epistaxis, and hyponasal speech.
+## Eye and nerves
+Diplopia and squint from a sixth nerve palsy; ophthalmoplegia (III, IV, VI); facial pain and numbness with loss of the corneal reflex (V); proptosis and visual loss; the jugular foramen syndrome (IX, X, XI); deviation of the tongue (XII); Horner syndrome; headache from skull base erosion.
+!pearl Trotter's triad
+Conductive deafness from tubal blockage, ipsilateral temporoparietal neuralgia from the fifth nerve, and immobility of the soft palate on the same side from the vagus: the classic signs of a tumour invading the lateral nasopharynx and parapharyngeal space.
+!!
+## Others
+Trismus, neck pain from retropharyngeal nodes, weight loss, and the effects of distant metastases.
+!table Presenting features in order of frequency
+Feature | Notes
+Neck mass | Most common; often the only symptom
+Hearing loss and aural fullness | Effusion from tubal obstruction
+Nasal obstruction and epistaxis | Bloodstained post-nasal discharge
+Cranial nerve palsy | Sixth nerve most often
+Headache, earache, neck pain | Skull base and retropharyngeal involvement
+!!
+
+# Diagnosis and staging | See it, sample it, map it.
+## Endoscopy and biopsy
+Rigid or flexible nasendoscopy under local anaesthesia shows a proliferative, ulcerative or submucosal lesion, and allows biopsy. If nodes suggest the diagnosis but nothing is seen, take biopsies from the fossa of Rosenmüller and posterior wall under general anaesthesia, sometimes through a transpalatal exposure. Fine-needle aspiration of a neck node, with EBV testing of the cells, points to a nasopharyngeal primary.
+## Imaging
+- **MRI:** the best study for soft tissue extent, the parapharyngeal and retropharyngeal spaces, perineural spread, skull base marrow, intracranial extension and nodes.
+- **CT:** bone erosion of the skull base, clivus and pterygoid plates.
+- **PET-CT:** distant metastases and detection of residual or recurrent disease after treatment; chest and abdominal imaging if PET is unavailable.
+## Other tests
+A baseline *audiogram* (radiation and cisplatin both damage hearing), dental assessment before radiotherapy, and *EBV serology*: IgA antibodies to the early antigen are highly specific and those to the viral capsid antigen more sensitive, so both are used; plasma EBV DNA load is now used for screening in endemic areas, for prognosis and to monitor for recurrence.
+!imaging | Nasopharyngeal carcinoma and a Thornwaldt cyst on imaging.
+## Staging
+!table TNM staging of nasopharyngeal carcinoma (AJCC)
+Category | Definition
+T1 | Confined to the nasopharynx, or extending to the oropharynx or nasal cavity without parapharyngeal involvement
+T2 | Parapharyngeal extension, or involvement of the medial or lateral pterygoid or prevertebral muscles
+T3 | Invasion of bony structures of the skull base, cervical vertebrae or pterygoid structures, or the paranasal sinuses
+T4 | Intracranial extension, cranial nerves, hypopharynx, orbit, parotid, or soft tissue beyond the lateral pterygoid
+N1 | Unilateral cervical, or unilateral or bilateral retropharyngeal, nodes 6 cm or less, above the caudal border of the cricoid
+N2 | Bilateral cervical nodes 6 cm or less, above the caudal border of the cricoid
+N3 | Node over 6 cm, or extension below the caudal border of the cricoid
+!!
+Dhingra quotes the older AJCC definitions, in which T1 was confined to the nasopharynx and N3b meant any node in the supraclavicular fossa (Ho's triangle, bounded by the medial and lateral ends of the clavicle and the point where neck meets shoulder). In every edition the nodal staging differs from other head and neck sites: low neck nodes carry the worst prognosis whatever their size.
+!fig d49-10 | Ho's triangle (the supraclavicular fossa): the medial (A) and lateral (B) ends of the clavicle and the point where the neck meets the shoulder (C).
+
+# Treatment | Radiation first.
+## Primary treatment
+The nasopharynx is hard to reach surgically, and these tumours are radiosensitive, so *radiotherapy is the treatment of choice*.
+- **Stage I:** radiotherapy alone to the nasopharynx and both sides of the neck, about 70 Gy.
+- **Stage II to IVA:** concurrent chemoradiation with cisplatin, which improves survival over radiotherapy alone, with or without induction or adjuvant chemotherapy (cisplatin, fluorouracil, gemcitabine).
+- **Intensity-modulated radiotherapy (IMRT)** delivers a high dose to the tumour while sparing the brainstem, spinal cord, optic apparatus, temporal lobes, cochleae and parotids.
+- **Metastatic disease:** platinum-based chemotherapy, now with immunotherapy, and local treatment in selected cases.
+## Residual and recurrent disease
+- **Neck:** persistent or recurrent nodes after radiation are treated by neck dissection; Dhingra advises a radical dissection because disease is often more extensive than it seems.
+- **Nasopharynx:** after restaging with MRI and PET-CT, small recurrences are treated by *nasopharyngectomy*: endoscopic for limited central tumours, or open through a maxillary swing, transpalatal, Le Fort I, midfacial degloving or infratemporal fossa approach. Extension around the internal carotid, intracranially or widely into the parapharyngeal space contraindicates surgery.
+- **Re-irradiation:** IMRT, proton therapy or brachytherapy (interstitial implants, gold grains), at greater risk of necrosis of the skull base and temporal lobe, cranial nerve palsies and carotid rupture.
+!ops | Salvage nasopharyngectomy approaches.
+## Effects of treatment
+Xerostomia and dental caries, otitis media with effusion and sensorineural hearing loss, trismus, hypothyroidism and pituitary failure, osteoradionecrosis of the skull base, temporal lobe necrosis, cranial neuropathy, carotid stenosis, and second cancers. Grommets in irradiated ears often discharge chronically.
+## Outcome
+With concurrent chemoradiation, local and regional control is about 70 to 80% and five-year survival about 70 to 80%; distant metastasis is now the commonest mode of failure.
+
+# Other malignancies | Not all are carcinoma.
+- **Lymphoma:** a bulky submucosal mass, usually B-cell non-Hodgkin, often with disease elsewhere in Waldeyer's ring; sinonasal NK/T-cell lymphoma in Asian patients.
+- **Rhabdomyosarcoma:** the embryonal type in children, as a polypoid mass with rapid growth and cranial nerve involvement; chemotherapy and radiotherapy.
+- **Chordoma:** from notochordal remnants in the clivus, destroying bone and presenting in the nasopharynx; surgery and proton therapy.
+- **Plasmacytoma, adenoid cystic carcinoma and melanoma** are rare.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Aetiology:** EBV, genetics and salted fish.
+- **WHO types** and their link to EBV and radiosensitivity.
+- **Routes of spread** and the cranial nerves involved; **Trotter's triad.**
+- **Unilateral effusion in an adult.**
+- **Investigations:** endoscopy and biopsy, MRI, EBV serology and DNA.
+- **Treatment:** radiotherapy, concurrent chemoradiation, salvage surgery.
+!!
+## Common pitfalls
+!pit
+- Inserting a grommet in an adult with a one-sided effusion without examining the nasopharynx.
+- Excising a high level II neck node before endoscopy and needle aspiration.
+- Missing a sixth nerve palsy as the sign of skull base invasion.
+!!

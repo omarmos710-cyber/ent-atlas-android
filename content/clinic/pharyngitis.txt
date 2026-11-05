@@ -1,0 +1,117 @@
+@stand A sore throat is one of the commonest reasons anyone sees a doctor, and almost always it is a virus that will pass in a week. The task is to recognise the few that are not: the streptococcal throat that can damage heart and kidney, glandular fever that must not be given amoxicillin, diphtheria, the immunosuppressed throat with candida, and the "chronic pharyngitis" that is really a cancer, a reflux or a smoker's warning.
+
+# Overview | One symptom, many causes.
+## Definition
+Pharyngitis is inflammation of the pharyngeal mucosa, acute or chronic; when the tonsils are chiefly involved it is called tonsillitis, and the two overlap.
+!table Causes of acute pharyngitis
+Group | Organisms and notes
+Viral (most) | Rhinovirus, coronavirus, influenza and parainfluenza, adenovirus (pharyngoconjunctival fever), coxsackie A (herpangina, hand, foot and mouth), Epstein–Barr virus (infectious mononucleosis), cytomegalovirus, herpes simplex, acute HIV infection, measles, chickenpox
+Bacterial | Group A beta-haemolytic *Streptococcus pyogenes*; groups C and G streptococci; mixed anaerobes (Vincent angina); *Corynebacterium diphtheriae*; *Neisseria gonorrhoeae*; *Arcanobacterium*; *Chlamydia* and *Mycoplasma*; syphilis
+Fungal | *Candida albicans*
+Protozoal | Toxoplasmosis (rare)
+!!
+!pearl Why group A streptococcus matters
+It is the cause of rheumatic fever and post-streptococcal glomerulonephritis, and of peritonsillar abscess and scarlet fever. Most of the reasoning about swabs and antibiotics is about finding it.
+!!
+
+# Acute pharyngitis | The common sore throat.
+## Clinical features
+- **Mild:** throat discomfort, malaise, low fever; a congested pharynx without nodes.
+- **Moderate to severe:** pain, painful swallowing, headache, high fever; red pharynx with exudate, enlarged tonsils and lymphoid follicles on the posterior wall.
+- **Very severe:** oedema of the soft palate and uvula, and tender cervical nodes.
+Viral and bacterial infections cannot be separated reliably by examination. Cough, rhinorrhoea, conjunctivitis and hoarseness point to a virus; fever, tonsillar exudate, tender anterior cervical nodes and the absence of cough point to streptococcus.
+!note Centor criteria
+One point each for fever, tonsillar exudate, tender anterior cervical nodes and absence of cough (the McIsaac modification adds a point under 15 years and subtracts one over 45). With low scores streptococcus is unlikely and antibiotics are not needed; with high scores, test or treat. Criteria are a guide, not a diagnosis.
+!!
+## Diagnosis
+A throat swab culture detects about 90% of group A streptococci; a rapid antigen test gives an answer in minutes. Diphtheria needs special media and gonococcal swabs must be plated at once. No growth suggests a viral cause. Monospot or EBV serology and a blood film when glandular fever is suspected.
+## Treatment
+### General
+Rest, plenty of fluids, warm saline gargles and analgesics; viscous lidocaine before meals for severe pain.
+### Streptococcal pharyngitis
+Penicillin V orally for ten days, or a single intramuscular injection of benzathine penicillin; erythromycin or another macrolide for penicillin allergy. The full course is what prevents rheumatic fever.
+### Others
+Diphtheria with antitoxin and penicillin or erythromycin; gonococcal pharyngitis with appropriate antibiotics according to local guidance.
+
+# Viral pharyngitis | Recognisable patterns.
+## Infectious mononucleosis
+Epstein–Barr virus in older children and young adults: fever, severe sore throat with a grey-white membranous exudate on the tonsils, palatal petechiae, large posterior as well as anterior cervical nodes, splenomegaly and hepatitis. Atypical lymphocytes on the film and a positive Monospot (heterophile) test, or EBV serology, confirm it.
+!flag Glandular fever: three cautions
+- **Amoxicillin or ampicillin** produces a widespread rash in most patients; avoid them.
+- **Airway:** massive tonsillar enlargement can obstruct breathing; steroids, and rarely a nasopharyngeal airway or tonsillectomy.
+- **Spleen:** avoid contact sports for several weeks because of the risk of rupture.
+!!
+## Others
+- **Cytomegalovirus:** a mononucleosis-like illness in transplant and immunosuppressed patients, with a negative heterophile test.
+- **Herpangina:** coxsackie A; fever, sore throat and small vesicles with a red halo on the soft palate and pillars.
+- **Pharyngoconjunctival fever:** adenovirus; sore throat, fever and conjunctivitis, sometimes abdominal pain.
+- **Acute lymphonodular pharyngitis:** coxsackie; white-yellow nodules on the posterior wall.
+- **Measles:** Koplik spots on the buccal mucosa opposite the molars, three or four days before the rash.
+- **Acute HIV infection:** a mononucleosis-like illness with rash and mouth ulcers.
+
+# Other acute throats | Fungi, uvula and swelling.
+## Candida
+Oropharyngeal thrush extending from the mouth in the immunosuppressed, debilitated, diabetic or those on steroids, inhaled steroids or antibiotics: pain and dysphagia with white plaques; hyphae on microscopy. Nystatin, clotrimazole, fluconazole or itraconazole.
+## Quincke disease
+Acute swelling of the uvula, with bacterial tonsillitis or after trauma (thermal burns, heavy snoring).
+## Angioedema
+Rapid, painless, watery swelling of the lips, tongue, floor of mouth, uvula and larynx. Allergic angioedema is histamine-mediated; *ACE inhibitor* and hereditary (C1 esterase inhibitor deficiency) angioedema are bradykinin-mediated and respond poorly to antihistamines. Adrenaline, steroids and antihistamines for allergy; stop the ACE inhibitor; C1 inhibitor concentrate or icatibant for hereditary attacks; secure the airway by awake fibreoptic intubation or tracheostomy when the swelling threatens it.
+!flag Airway warning signs
+Drooling, inability to swallow saliva, a muffled voice, stridor or a patient who must sit up and lean forward: do not lie them down or examine with a tongue depressor; call for senior airway help.
+!!
+
+# Chronic pharyngitis | The irritated throat.
+## Types
+- **Chronic catarrhal pharyngitis:** congestion of the posterior wall with engorged vessels and excess mucus.
+- **Chronic hypertrophic (granular) pharyngitis:** a thick, oedematous wall studded with red nodules of hypertrophied lymphoid follicles, hypertrophied lateral pharyngeal bands, and sometimes an elongated, oedematous uvula.
+- **Atrophic pharyngitis:** dry, glazed mucosa with crusts, usually with atrophic rhinitis.
+!fig d50-1 | Granular pharyngitis: reddish nodules on the posterior pharyngeal wall.
+## Causes
+- **Infection nearby:** chronic rhinitis and sinusitis with postnasal drip; dental and tonsillar sepsis.
+- **Mouth breathing:** from nasal obstruction (polyps, rhinitis, septal deviation, turbinate hypertrophy), adenoids, protruding teeth or habit, so the throat receives unfiltered, unwarmed, dry air.
+- **Irritants:** smoking, tobacco and pan chewing, alcohol, highly spiced food, dust and industrial fumes.
+- **Laryngopharyngeal reflux.**
+- **Faulty voice use and habitual throat clearing**, which keep the hypertrophic form going.
+## Symptoms
+Discomfort, worse in the morning; a foreign body or lump sensation with a constant urge to swallow or clear the throat; a voice that tires and cracks; an irritable cough; gagging on opening the mouth.
+## Treatment
+1. Find and remove the cause: treat the nose, sinuses, teeth and reflux; stop smoking, chewing and drinking.
+2. Voice rest and speech therapy for faulty voice use; stop habitual hawking and throat clearing.
+3. Warm saline gargles, especially in the morning.
+4. Mandl's paint to the mucosa.
+5. Cautery of prominent granules with silver nitrate, or diathermy.
+For atrophic pharyngitis: alkaline sprays and irrigations to remove crusts, Mandl's paint, and potassium iodide by mouth to promote secretion, with treatment of the atrophic rhinitis.
+!flag Chronic sore throat in an adult smoker
+A persistent one-sided sore throat, earache, dysphagia, weight loss, haemoptysis or a neck lump is not "chronic pharyngitis" until the tongue base, tonsils, hypopharynx and larynx have been examined endoscopically and the neck palpated.
+!!
+## Keratosis pharyngis
+White or yellow horny spikes on the tonsils, posterior wall or lingual tonsils, firmly adherent, from hypertrophy and keratinisation of the epithelium. There is no inflammation and no fever, which separates it from follicular tonsillitis. It is harmless and often regresses; reassurance is all that is needed.
+!fig d50-2 | Keratosis pharyngis: keratotic excrescences that resemble follicular tonsillitis.
+
+# Throat pain without inflammation | Eagle syndrome and others.
+## Eagle syndrome (styalgia)
+An *elongated styloid process* (normal about 25 mm; over 30 mm is elongated) or a calcified stylohyoid ligament causes pain in the tonsillar fossa and upper neck radiating to the ear, worse on swallowing and turning the head, often after tonsillectomy. The tip can be felt through the tonsillar fossa; an open-mouth or lateral radiograph or CT with 3D reconstruction shows it. Many people have long styloids without symptoms. Symptomatic processes are shortened through the tonsillar fossa or through the neck.
+!fig d53-6 | An elongated styloid process: (A) on radiograph, (B) excised after tonsillectomy.
+!ops 38 | Transoral removal of an elongated styloid process.
+## Glossopharyngeal neuralgia
+Brief, severe, electric pain in the tonsil, tongue base and ear, triggered by swallowing or yawning; carbamazepine, and microvascular decompression for resistant cases.
+## Globus
+A persistent lump feeling in the throat between meals, with normal swallowing of food. Examine fully and endoscopically; reflux and anxiety are common associations, and red flags (pain, dysphagia, weight loss, voice change, neck mass) call for investigation.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Causes of acute pharyngitis,** and why group A streptococcus matters.
+- **Centor criteria,** swabs and rapid antigen tests.
+- **Infectious mononucleosis:** features and the amoxicillin rash.
+- **Chronic pharyngitis:** types, causes and treatment.
+- **Keratosis pharyngis** versus follicular tonsillitis.
+- **Eagle syndrome.**
+!!
+## Common pitfalls
+!pit
+- Giving amoxicillin to a young adult with an exudative throat and big posterior nodes.
+- Stopping penicillin after three days because the throat feels better.
+- Labelling an adult smoker's persistent throat pain as chronic pharyngitis without endoscopy.
+- Treating ACE inhibitor angioedema with antihistamines alone.
+!!
