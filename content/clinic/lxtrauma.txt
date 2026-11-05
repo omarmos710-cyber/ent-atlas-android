@@ -1,0 +1,113 @@
+@stand A blow to the front of the neck can break the larynx without breaking the skin. Nearly half of those with a laryngeal fracture die at the scene; of the rest, many look well for a few hours while oedema and haematoma quietly close the airway. Secure the airway without a tube that may make a false passage, then restore the framework early, before scar turns a repairable injury into a lifelong stenosis.
+
+# Overview | Blunt, penetrating and from within.
+## Causes
+- **Blunt:** road traffic accidents (the neck striking the steering wheel or dashboard with the head extended), blows and kicks, clothesline injuries from a stretched wire or cable, and strangulation.
+- **Penetrating:** knives, glass and gunshot wounds.
+- **Internal (iatrogenic):** intubation, endoscopy, inhalation and caustic burns, and foreign bodies.
+## Why the larynx is usually spared
+It is shielded by the mandible above, the sternum below and the spine behind, and it is mobile. Fractures need a direct anterior blow with the head extended, and become commoner after forty, when the cartilages calcify and become brittle; in children the elastic cartilages bend rather than break, but soft tissue injury and airway swelling are more dangerous.
+!anat dl_relations | The relations of the larynx in cross-section.
+
+# Pathology | What breaks.
+- Haematoma and oedema of the supraglottis or subglottis.
+- Mucosal tears of the larynx or pharynx, with surgical emphysema.
+- Dislocation or avulsion of an arytenoid at the cricoarytenoid joint.
+- Dislocation of the cricothyroid joint, injuring the recurrent laryngeal nerve that runs just behind it.
+- Fracture of the hyoid.
+- Fractures of the thyroid cartilage, vertical or transverse: an upper fracture can avulse the epiglottis and false folds; a lower one displaces or tears the true folds and anterior commissure.
+- Fracture of the cricoid, the ring that holds the airway open.
+- Fractures of the upper tracheal rings.
+- *Laryngotracheal separation*: the trachea parts from the cricoid and retracts into the mediastinum, usually with bilateral recurrent nerve injury.
+!flag The lucid interval
+A patient with a laryngeal fracture may talk and breathe normally on arrival, then obstruct suddenly hours later as haematoma and oedema accumulate. Every significant anterior neck injury is observed in hospital with the airway assessed by endoscopy.
+!!
+
+# Clinical features | Voice, breath, swallow, blood.
+## Symptoms
+- Respiratory distress and stridor.
+- Hoarseness or aphonia.
+- Painful, difficult swallowing, with aspiration.
+- Pain in the larynx, worse with speaking and swallowing.
+- Haemoptysis from mucosal tears.
+## Signs
+- Bruising and abrasions of the neck.
+- Tenderness over the larynx.
+- *Surgical emphysema*, increasing with coughing.
+- Loss of the thyroid prominence and flattening of the neck contour; the thyroid notch may be impalpable.
+- A palpable step or gap between fragments, and crepitus.
+- Separation of the cricoid from the larynx or trachea.
+## Associated injuries
+Cervical spine (assume it is injured), great vessels, oesophagus and pharynx, chest (pneumothorax), head and abdomen.
+
+# Evaluation | Only when the airway allows.
+- **Flexible nasendoscopy:** the most useful first examination in a stable patient: oedema, haematoma, lacerations, exposed cartilage, arytenoid displacement, vocal fold movement, and the size of the airway.
+- **CT of the larynx (with 3D reconstruction):** cartilage fractures, joint dislocation, displacement; also the cervical spine and vessels. Only when the airway is safe.
+- **Rigid endoscopy** (laryngoscopy, oesophagoscopy, bronchoscopy) under anaesthesia, after the airway has been secured, to map injuries.
+- **Chest radiograph** for pneumothorax and mediastinal air; **contrast swallow** for pharyngo-oesophageal tears; **angiography** if vascular injury is suspected.
+!imaging laryngeal-trauma | Laryngeal trauma on imaging.
+!table Schaefer–Fuhrman grading of laryngeal injury
+Group | Findings | Management
+1 | Minor haematoma or laceration, no fracture | Observe, humidify, steroids
+2 | Oedema, haematoma, minor mucosal disruption, no exposed cartilage, non-displaced fracture | Observe; tracheostomy if the airway is threatened
+3 | Massive oedema, mucosal tears, exposed cartilage, displaced fracture, cord immobility | Tracheostomy and open repair
+4 | As group 3 with a disrupted anterior commissure or unstable framework | Tracheostomy, open repair and stenting
+5 | Complete laryngotracheal separation | Tracheostomy and repair by anastomosis
+!!
+
+# Management | Airway, then framework.
+## The airway
+- **Acute distress:** awake *tracheostomy under local anaesthesia*, then laryngoscopy under general anaesthesia. Orotracheal intubation is risky: a tube can enter a false passage through torn mucosa or complete a laryngotracheal separation. If intubation is attempted, it is by the most experienced operator, fibreoptically and with the neck prepared for a surgical airway.
+- **Stable airway:** flexible endoscopy, then CT.
+## Conservative treatment
+For minor injuries with a normal or near-normal endoscopy and no displaced fracture: admission and observation, voice rest, humidified air, head elevation, systemic steroids early and in full dose (to reduce oedema and scarring), antibiotics (to prevent perichondritis), and anti-reflux treatment.
+## Surgical repair
+Indicated for displaced or unstable fractures, exposed cartilage, large mucosal tears, disruption of the anterior commissure, arytenoid dislocation and cord immobility, and laryngotracheal separation. Repair early, within the first few days and ideally before ten days, before granulation and scar form.
+- **Exposure:** a midline thyrotomy (laryngofissure) to inspect and close the mucosa.
+- **Mucosa:** all lacerations sutured; exposed cartilage covered with local flaps or grafts; loose fragments removed.
+- **Framework:** fractures reduced and fixed with wire or titanium miniplates.
+- **Epiglottis:** reattached, or excised if avulsed.
+- **Arytenoid:** reduced if dislocated; removed if completely avulsed.
+- **Anterior commissure:** a silastic keel prevents a web.
+- **Stents:** a soft laryngeal stent or silicone tube for comminuted fractures, left for two to six weeks; stents themselves provoke granulation.
+- **Laryngotracheal separation:** end-to-end anastomosis, with assessment of both recurrent nerves.
+!ops 8 | Repair of laryngeal trauma.
+## Complications
+Laryngeal stenosis (supraglottic, glottic or subglottic), perichondritis and abscess, chondronecrosis, vocal fold paralysis or fixation, webs, and a poor voice.
+
+# Laryngotracheal stenosis | The late result.
+## Causes
+Prolonged or traumatic *intubation* (the commonest cause: pressure necrosis of the posterior glottis and subglottis by the tube and cuff), external trauma, high tracheostomy and cricothyroidotomy, burns and caustics, radiotherapy, granulomatosis with polyangiitis, relapsing polychondritis, sarcoidosis, reflux, and idiopathic subglottic stenosis in women.
+## Presentation
+Progressive dyspnoea and stridor, often biphasic, sometimes with hoarseness; many patients are misdiagnosed with asthma.
+## Evaluation
+History of intubation or injury; office endoscopy of the supraglottis and glottis and vocal fold movement; CT of the subglottis and trachea; and direct laryngoscopy and bronchoscopy to measure the length, grade and site and to palpate the arytenoids (fixation versus paralysis).
+!note Cotton–Myer grading of subglottic stenosis
+Grade I, up to 50% obstruction; grade II, 51 to 70%; grade III, 71 to 99%; grade IV, no detectable lumen.
+!!
+## Treatment
+- **Supraglottic:** endoscopic excision of scar; recurrence is common after radiotherapy.
+- **Glottic:** an anterior web affects voice more than breathing and is divided with a keel; posterior glottic scarring that fixes the folds is treated by division of the interarytenoid scar, or by procedures that enlarge the glottis at the expense of voice (as for bilateral paralysis).
+- **Subglottic:** endoscopic radial incisions with laser and balloon dilatation (with topical mitomycin or steroid injection) for thin, soft stenoses; *laryngotracheal reconstruction* with cartilage grafts, or *cricotracheal resection* with anastomosis, for firm, long or high-grade stenoses.
+- **Tracheal:** resection and end-to-end anastomosis is definitive; balloon dilatation for thin webs or unfit patients.
+- **Complex, multilevel stenosis:** a Montgomery T-tube stents the airway while preserving voice. Expanding metal stents are avoided in benign disease because of granulation and erosion.
+!ops 10 199 21 22 | Acquired laryngeal stenosis, tracheal stenosis, laryngotracheal reconstruction and tracheal resection.
+## Prevention
+Use the right-sized tube, keep cuff pressure below about 25 to 30 cm of water, avoid prolonged translaryngeal intubation where tracheostomy is better, and avoid placing a tracheostomy through the first ring or cricoid.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Mechanism** of laryngeal fracture and why it is commoner after forty.
+- **Signs:** loss of thyroid prominence, emphysema, crepitus.
+- **Airway first:** tracheostomy under local anaesthesia, not intubation.
+- **Indications and timing** of open repair.
+- **Laryngotracheal stenosis:** causes, grading and treatment.
+!!
+## Common pitfalls
+!pit
+- Discharging a talking patient with a laryngeal injury who later obstructs.
+- Intubating blindly through a disrupted larynx.
+- Delaying repair beyond the first week or two.
+- Treating post-intubation subglottic stenosis as asthma.
+!!

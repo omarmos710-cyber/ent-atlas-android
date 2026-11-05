@@ -1,0 +1,94 @@
+@stand Stridor is a sign, not a diagnosis: the sound of air forced through a narrowed airway. Its timing tells you where the narrowing is, its history tells you what it is, and the work of breathing tells you how long you have. Judge the severity first, keep the patient calm and upright, and never let a full examination or a scan come before a safe airway.
+
+# Definition | Noise and where it comes from.
+## Stridor
+A harsh, noisy breathing sound produced by turbulent airflow through a narrowed larynx or trachea. *Stertor* is the lower-pitched snoring of the nose, nasopharynx or oropharynx; *wheeze* is the musical expiratory sound of the smaller airways.
+## Phase and site
+- **Inspiratory:** supraglottis, pharynx and extrathoracic airway collapse on inspiration (laryngomalacia, epiglottitis, retropharyngeal abscess, supraglottic tumours).
+- **Biphasic:** a fixed narrowing at the glottis, subglottis or cervical trachea (subglottic stenosis, bilateral cord palsy, papillomas, croup).
+- **Expiratory:** the intrathoracic trachea and bronchi (tracheomalacia, bronchial foreign body, tracheal stenosis, compression by masses or vessels).
+!fig d59-3 | Types of stridor and their site of origin.
+## Associated sounds
+- Snoring or snorting: nose and nasopharynx.
+- Gurgling and a muffled voice: pharynx and supraglottis.
+- Hoarse voice or weak cry: the vocal folds. The cry is normal in laryngomalacia and subglottic stenosis.
+- Barking cough: subglottis (croup).
+- Expiratory wheeze: bronchi.
+
+# Causes | From the nose to the bronchi.
+!fig d59-5 | Causes of stridor in infants and children: congenital, and acquired with or without fever.
+!table Causes of stridor by site
+Site | Congenital | Acquired
+Nose | Choanal atresia | Severe nasal obstruction in neonates
+Tongue and jaw | Macroglossia, lingual thyroid, micrognathia (Pierre Robin) | Haemangioma, lymphangioma, Ludwig's angina
+Pharynx | Dermoid, cysts | Adenotonsillar hypertrophy, retropharyngeal abscess, tumours
+Larynx | Laryngomalacia, web, cysts, vocal fold paralysis, subglottic stenosis, haemangioma, cleft | Epiglottitis, croup, diphtheria, oedema, foreign body, trauma, papillomas, carcinoma, bilateral palsy, post-intubation stenosis, tetany, laryngospasm
+Trachea and bronchi | Tracheomalacia, stenosis, atresia | Bacterial tracheitis, foreign body, stenosis after intubation or tracheostomy, tumours
+Outside the airway | Vascular rings, oesophageal atresia and fistula, congenital goitre, cystic hygroma | Oesophageal foreign body, goitre, mediastinal and neck masses
+!!
+## In adults
+Laryngeal and tracheal tumours, bilateral vocal fold paralysis (after thyroidectomy), post-intubation and tracheostomy stenosis, laryngeal trauma, angioedema, epiglottitis, deep neck infection, goitre and foreign bodies.
+
+# Assessment | How bad, and what.
+## Severity
+- **Mild:** stridor only when active or crying, no recession.
+- **Moderate:** stridor at rest, suprasternal, intercostal, subcostal and sternal recession, tracheal tug, nasal flaring, tachypnoea, tachycardia.
+- **Severe:** marked recession, agitation and restlessness (hypoxia), drooling, inability to speak or feed.
+- **Impending arrest:** fatigue, falling respiratory rate and quieter stridor (less air moving, not improvement), pallor or cyanosis, drowsiness.
+!fig d59-4 | A child with bilateral abductor paralysis: recession of the suprasternal notch, sternum, intercostal spaces and epigastrium on inspiration.
+!flag A quieter child is not always a better child
+Diminishing stridor with tiring, drowsiness or a falling oxygen saturation means respiratory failure. Oximetry can stay normal until late; watch the work of breathing and the level of consciousness.
+!!
+## History
+- **Onset:** at birth or soon after (congenital), or later (acquired).
+- **Speed:** sudden (foreign body, oedema, epiglottitis) or gradual and progressive (laryngomalacia, haemangioma, papillomas, stenosis, tumours).
+- **Duration and course:** short (infection, foreign body) or long-standing.
+- **Fever and toxicity:** epiglottitis, tracheitis, retropharyngeal abscess, diphtheria.
+- **Feeding:** choking, cyanosis and aspiration (cleft, paralysis, fistula, vascular ring, oesophageal foreign body).
+- **Cyanotic spells** and apnoeas: need for airway support.
+- **Witnessed choking** on a toy, nut or food.
+- **Previous intubation,** surgery (thyroid, cardiac) or trauma.
+- **Voice and cry** quality.
+## Examination
+Observe from a distance first: posture, colour, recession, drooling, voice. Note the phase of stridor, the effect of position (prone improves laryngomalacia, micrognathia and macroglossia), and auscultate over the nose, open mouth, neck and chest to localise. Examine the nose, tongue, jaw and pharynx; in adults, and in calm older children, flexible nasendoscopy shows the larynx.
+!pearl Flexible endoscopy in the clinic
+Under topical anaesthesia, the awake child can be examined for laryngomalacia, vocal fold movement, cysts, papillomas and webs, which an anaesthetised child cannot show: dynamic problems need a breathing patient.
+!!
+## Investigations
+Chosen by the history, and only when the airway allows:
+- Lateral and anteroposterior soft tissue radiographs of the neck (steeple sign of croup, thumb sign of epiglottitis, prevertebral swelling, radio-opaque foreign bodies).
+- Chest radiographs, with inspiratory and expiratory films or fluoroscopy for radiolucent bronchial foreign bodies (air trapping, mediastinal shift).
+- CT or MRI for subglottic stenosis, haemangioma, masses and vascular rings; angiography for vascular anomalies.
+- Contrast swallow for clefts, fistulae, rings and aspiration.
+- Arterial blood gases in severe obstruction.
+## Microlaryngoscopy and bronchoscopy
+The definitive assessment of the paediatric airway, in theatre with full resuscitation facilities and an experienced anaesthetist. Inhalational induction maintains spontaneous breathing; a quick laryngoscopy is followed by bronchoscopy of the subglottis, trachea and bronchi, collection of secretions and removal of crusts or foreign bodies; then the child is intubated if needed. Look at the whole airway: a second lesion is common.
+!imaging | Laryngocele, supraglottic tumour and laryngeal trauma on imaging.
+
+# Management | Airway first.
+## Immediate
+1. Keep the patient calm and upright (in a parent's arms for a child); give humidified oxygen without causing distress.
+2. Call senior anaesthetic and ENT help early.
+3. Temporising measures as appropriate: nebulised adrenaline, steroids (dexamethasone), heliox (a helium–oxygen mixture flows more smoothly through narrow airways).
+4. Treat the cause where possible: antibiotics, removal of a foreign body.
+## Securing the airway
+- **Intubation:** in theatre, by the most experienced anaesthetist, with an ENT surgeon scrubbed and ready.
+- **Tracheostomy:** when intubation is impossible or unsafe, for prolonged obstruction, laryngeal trauma, and for long-term airway management (bilateral paralysis, stenosis, severe congenital anomalies).
+- **Cricothyroidotomy:** the emergency surgical airway in adults and older children when the patient can neither be intubated nor oxygenated; needle cricothyroidotomy with jet ventilation in young children.
+!ops | Tracheostomy, laryngomalacia and subglottic stenosis surgery, airway foreign bodies and acquired stenosis.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Definition** of stridor, and stertor and wheeze.
+- **Inspiratory, biphasic, expiratory** and their sites.
+- **Causes** in children by site, congenital and acquired.
+- **History points** and severity signs.
+- **Management:** airway first, then diagnosis by endoscopy.
+!!
+## Common pitfalls
+!pit
+- Sending a child with stridor for radiographs unaccompanied.
+- Mistaking quieter stridor in a tiring child for improvement.
+- Stopping at the first lesion found and missing a second.
+!!

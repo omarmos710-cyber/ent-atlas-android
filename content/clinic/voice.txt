@@ -1,0 +1,107 @@
+@stand A voice is made by three things working together: the lungs as a power supply, the vocal folds as a vibrator, and the throat, mouth and nose as resonators and articulators. Hoarseness is a disturbance of the vibrator; nasal speech a disturbance of the resonator; stuttering a disturbance of the rhythm. Most voice complaints are benign, many are functional, and a few are the first sign of cancer or neurological disease. Look at every voice that has been wrong for more than a few weeks, and listen to it as carefully as you look.
+
+# Hoarseness | The commonest voice complaint.
+## Definition
+Hoarseness (dysphonia) is roughness of voice from irregularity of the period or intensity of successive sound waves. Normal voice needs folds that (1) approximate properly, (2) have the right size, mass and stiffness, and (3) vibrate regularly in the air stream.
+- **Failed approximation:** paralysis, fixation, a mass between the folds, sulcus, bowing.
+- **Altered size and mass:** oedema, nodules, polyps, tumours (more); surgical loss or fibrosis (less).
+- **Altered stiffness:** paralysis (less), scar and spasm (more).
+- **Irregular vibration:** congestion, haemorrhage, lesions on the edge.
+## Causes
+!table Causes of hoarseness
+Group | Examples
+Inflammation | Acute viral laryngitis, diphtheria, irritant gases; chronic laryngitis from smoking, reflux, occupation and inhaled steroids; tuberculosis, syphilis, leprosy, fungi
+Benign lesions | Nodules, polyp, Reinke's oedema, cyst, contact granuloma, laryngocele, amyloid, sulcus
+Neoplasms | Papilloma, haemangioma, chondroma, granular cell tumour; leukoplakia; carcinoma and sarcoma
+Trauma | Shouting with fold haemorrhage, external injury, foreign body, intubation
+Neurological | Recurrent, superior laryngeal or combined paralysis; spasmodic dysphonia; Parkinson disease, myasthenia, motor neurone disease, multiple sclerosis, essential tremor
+Joint fixation | Cricoarytenoid arthritis, dislocation
+Congenital | Web, cyst, laryngocele, paralysis, sulcus
+Systemic and hormonal | Hypothyroidism, acromegaly, virilising hormones, sarcoidosis, granulomatosis with polyangiitis, amyloidosis
+Functional | Muscle tension dysphonia, ventricular dysphonia, functional aphonia, puberphonia, phonasthenia
+Ageing | Presbyphonia with bowed, thin folds
+!!
+## Evaluation
+1. **History:** onset and duration, voice use and occupation, smoking, alcohol, reflux, inhalers, systemic symptoms, surgery (thyroid, chest, neck), and red flags (pain, otalgia, dysphagia, stridor, haemoptysis, weight loss, neck mass).
+2. **Listening:** breathy (incomplete closure), rough (irregular vibration), strained (hyperfunction or spasm), weak, diplophonic, tremulous.
+3. **Laryngoscopy:** any hoarseness lasting more than two to three weeks, and sooner in a smoker or with red flags, needs the larynx examined; malignancy must be excluded over forty.
+4. **Stroboscopy:** the mucosal wave, closure pattern and symmetry.
+5. **Neck, chest, cardiovascular and neurological examination** for the cause of a paralysis; imaging, endoscopy and laboratory tests as indicated.
+6. **Direct and microlaryngoscopy** for biopsy, palpation of the arytenoids and treatment.
+7. **Voice measures:** maximum phonation time, acoustic analysis, the GRBAS rating, and patient-reported voice handicap indices.
+
+# Functional voice disorders | Normal larynx, abnormal use.
+## Muscle tension dysphonia
+Excessive tension of the laryngeal and neck muscles during phonation: strained voice, vocal fatigue and neck ache, with supraglottic squeezing, a posterior gap or anteroposterior compression on laryngoscopy. It may be primary or compensatory. Voice therapy with laryngeal manual therapy is the treatment.
+## Ventricular dysphonia (dysphonia plicae ventricularis)
+The false folds take over phonation: a rough, low-pitched, unpleasant voice; on phonation the false folds meet and hide the true folds.
+- **Secondary:** compensating for true fold paralysis, fixation, excision or tumour; difficult to treat.
+- **Functional:** in a normal larynx, often psychogenic; the voice starts normally and then roughens. Voice therapy and counselling.
+## Functional (psychogenic) aphonia
+Sudden loss of voice, usually in emotionally stressed young women of fifteen to thirty, communicating in a whisper without other laryngeal symptoms. The folds stay apart on attempted phonation but *close normally on coughing*, and the cough is loud and clear. Reassure the patient that the larynx is normal, restore voice through coughing, humming and throat clearing exercises, and address the stress; psychotherapy as needed.
+## Puberphonia (mutational falsetto)
+Persistence of the high-pitched childhood voice in a physically normal adolescent boy or young man, often from emotional immaturity or social insecurity, while the larynx has matured. *Gutzmann's pressure test*: pressing the thyroid prominence backwards and downwards relaxes the overstretched folds and produces a low-pitched voice; the patient learns to reproduce it, first with pressure, then without, through syllables, words and sentences. The prognosis is good; type III thyroplasty is a last resort.
+## Phonasthenia
+Weakness and fatigue of the phonatory muscles after misuse or laryngitis: a voice that tires quickly. Laryngoscopy shows an elliptical gap between the folds (thyroarytenoid weakness), a triangular posterior gap (interarytenoid weakness), or a *keyhole* glottis (both). Voice rest, vocal hygiene and therapy.
+!fig d63-1 | The glottis in phonasthenia: (A) weakness of the thyroarytenoids, (B) of the interarytenoid, (C) of both, giving a keyhole glottis.
+
+# Spasmodic dysphonia | A laryngeal dystonia.
+## Nature
+A focal dystonia, thought to arise in the basal ganglia, with involuntary spasms of the laryngeal muscles during speech; the larynx is structurally normal and behaves normally for breathing, laughing, crying, whispering and often singing.
+## Types
+- **Adductor (about 90%):** spasms of the thyroarytenoid and lateral cricoarytenoid; a strained, strangled, effortful voice with breaks, especially on words beginning with vowels.
+- **Abductor:** spasms of the posterior cricoarytenoid; a breathy voice with breathy breaks after voiceless consonants (p, t, k), worse with stress and on the telephone.
+- **Mixed.**
+Voice tremor often coexists. Exclude Parkinson disease, essential tremor, multiple sclerosis, motor neurone disease and tardive dyskinesia.
+## Treatment
+- **Botulinum toxin A** is the treatment of choice: small doses into the thyroarytenoid–lateral cricoarytenoid complex on one or both sides for adductor spasm, through the cricothyroid membrane under EMG guidance or through a flexible scope. Benefit lasts about three to four months; side effects are temporary breathiness and choking on fluids. For abductor spasm, injection into the posterior cricoarytenoid is harder and less effective, and is staged one side at a time to avoid airway obstruction.
+- **Voice therapy** helps alongside toxin but not alone; psychotherapy is ineffective.
+- **Surgery:** recurrent nerve section (abandoned because symptoms return); selective adductor denervation–reinnervation; type II (lateralisation) thyroplasty; thyroarytenoid myectomy.
+!ops 1 | Office-based laryngeal procedures, including botulinum toxin injection.
+
+# Resonance and fluency | Beyond the larynx.
+## Hyponasality (rhinolalia clausa)
+Lack of nasal resonance on the nasal consonants m, n and ng ("my nose" sounds like "by dose"), from blockage of the nose or nasopharynx.
+## Hypernasality (rhinolalia aperta)
+Too much nasal resonance on oral sounds, with nasal escape, because the nasopharynx is not sealed off from the oropharynx or there is a communication between mouth and nose.
+!table Causes of altered nasal resonance
+Hyponasality | Hypernasality
+Common cold, allergic rhinitis | Velopharyngeal insufficiency
+Nasal polyps and tumours | Cleft palate and submucous cleft
+Adenoids, nasopharyngeal mass | Congenitally short palate, large nasopharynx
+Choanal atresia | Palatal paralysis
+Habitual or familial | After adenoidectomy, oronasal fistula; habitual or familial
+!!
+Hypernasality is assessed by perceptual rating, nasometry, nasendoscopy and videofluoroscopy of velopharyngeal closure, and treated by speech therapy, prosthetic palatal lifts, or surgery (pharyngeal flap, sphincter pharyngoplasty, palate repair, posterior wall augmentation).
+!ops 206 | Cleft palate and velopharyngeal dysfunction.
+## Stuttering
+A disorder of fluency: hesitation, repetitions, prolongations and blocks, with secondary mannerisms such as grimacing, blinking and head jerks. Normal dysfluency is common between two and four years; parental overreaction may fix it. Prevention by educating parents; treatment by speech therapy and psychological support to reduce the fear of speaking.
+## Dysarthria and aphasia
+Dysarthria is a motor disorder of speech production (flaccid, spastic, ataxic, hypokinetic, hyperkinetic); aphasia is a disorder of language (expressive, receptive). Both are neurological and need neurological assessment.
+
+# Voice care | Prevention and therapy.
+!note Vocal hygiene
+- Hydrate well; humidify dry air.
+- Avoid smoking, excess alcohol and caffeine; treat reflux.
+- Avoid shouting, prolonged loud talking, whispering when hoarse, and habitual throat clearing.
+- Rest the voice after heavy use; warm up before performing.
+- Use amplification in noisy rooms and classrooms.
+!!
+Voice therapy by a speech and language therapist retrains breathing, onset, pitch, resonance and muscle tension; it is the first treatment for nodules, muscle tension dysphonia, functional disorders and many benign lesions, and supports surgery.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Definition and causes** of hoarseness, and the two-to-three-week rule.
+- **Functional aphonia:** the folds close on coughing.
+- **Puberphonia** and Gutzmann's test.
+- **Phonasthenia:** elliptical, triangular and keyhole glottis.
+- **Spasmodic dysphonia:** types and botulinum toxin.
+- **Hyponasality versus hypernasality** with causes.
+!!
+## Common pitfalls
+!pit
+- Diagnosing functional aphonia without seeing the larynx.
+- Calling spasmodic dysphonia psychogenic.
+- Removing adenoids in a child with a submucous cleft and causing hypernasality.
+!!

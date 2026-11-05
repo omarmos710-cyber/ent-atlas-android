@@ -1,0 +1,132 @@
+@stand The larynx is a valve before it is a voice. It evolved to guard the lungs, closing in three tiers when we swallow and coughing out whatever gets past; phonation came later, borrowing the same folds. Its framework of cartilages, its membranes and spaces, and its two nerves explain nearly everything in laryngology: why glottic cancer rarely spreads to nodes, why a supraglottic one does, why a long left recurrent nerve is so often injured, and why a baby's airway closes so quickly.
+
+# Framework | Cartilages, joints and membranes.
+## Position
+The larynx lies in front of the hypopharynx, opposite the third to sixth cervical vertebrae in the adult, ending at the lower border of C6. It rises and moves forwards in swallowing and can be moved from side to side over the spine with a grating feel, the *laryngeal crepitus*, which is lost when a postcricoid tumour fills the gap.
+!anat dl_site dl_views | The site of the larynx from C3 to C6, and its anterior and posterior aspects.
+## Cartilages
+Three unpaired and three paired.
+- **Thyroid:** the largest; two laminae meeting in front at about 90° in men (the Adam's apple) and 120° in women, with superior and inferior horns. The vocal folds attach to the inner surface of the angle at about its midpoint, so an airway can be made below them through the cricothyroid membrane.
+- **Cricoid:** the only complete ring, a narrow arch in front and a tall lamina behind; it holds the airway open, and its loss or injury causes stenosis.
+- **Epiglottis:** a leaf of elastic cartilage attached by its stalk (petiole) to the thyroid angle above the vocal folds, and by the hyoepiglottic ligament to the hyoid, which divides it into suprahyoid and infrahyoid parts. Its posterior bulge, the *tubercle*, hides the anterior commissure on mirror examination; pits and perforations in it let supraglottic cancer reach the pre-epiglottic space. It is not essential for swallowing and can be removed with little aspiration.
+- **Arytenoids:** pyramids sitting on the cricoid lamina, each with a *vocal process* forwards (for the vocal ligament) and a *muscular process* laterally (for the cricoarytenoid muscles).
+- **Corniculate (Santorini)** on the arytenoid apex, and **cuneiform (Wrisberg)** in the aryepiglottic folds.
+Thyroid, cricoid and most of the arytenoid are hyaline and ossify from about 25 years; ossified cartilage can be mistaken for a foreign body on radiographs. The epiglottis, corniculate, cuneiform and arytenoid tips are elastic and do not ossify.
+!fig d56-1 | The laryngeal framework: thyroid, cricoid, epiglottis, hyoid and the thyrohyoid, cricothyroid and cricotracheal membranes.
+!anat dl_thyroid dl_cricoid dl_arytenoid dl_epiglottis | The thyroid, cricoid, arytenoid and epiglottic cartilages.
+## Joints
+- **Cricoarytenoid:** synovial; the arytenoid rotates about a vertical axis (abducting and adducting the vocal fold) and glides towards or away from its fellow (closing or opening the posterior glottis). Rheumatoid arthritis and intubation injury can fix it.
+- **Cricothyroid:** synovial; the cricoid tilts on a transverse axis, lengthening and tensing the folds.
+!anat s235_6 | The cricoarytenoid joint.
+## Membranes and ligaments
+- **Extrinsic:** the *thyrohyoid membrane* (pierced by the superior laryngeal vessels and internal laryngeal nerve), the cricotracheal membrane and the hyoepiglottic ligament.
+- **Intrinsic:** the *cricovocal membrane (conus elasticus)*, whose free upper edge is the vocal ligament and whose two halves funnel up from the cricoid, a place where subglottic foreign bodies lodge; the *quadrangular membrane* between epiglottis and arytenoid, whose lower edge is the vestibular ligament; the *cricothyroid ligament* (the thickened front of the conus); and the thyroepiglottic ligament.
+!fig d56-2 d56-3 | First, a sagittal section showing the cricovocal and quadrangular membranes and the pre-epiglottic space. Second, a coronal section: the quadrangular membrane ends in the false cord, the cricovocal membrane in the vocal ligament, forming the conus elasticus.
+!anat dl_membranes s238_11 | The membranes of the larynx, and the conus elasticus seen after removing a thyroid lamina.
+
+# Muscles | Opening, closing, tensing.
+## Intrinsic muscles
+!table Intrinsic laryngeal muscles
+Action | Muscles
+Abduct the vocal folds | Posterior cricoarytenoid (the only abductor)
+Adduct the vocal folds | Lateral cricoarytenoid, interarytenoid (transverse arytenoid), external thyroarytenoid
+Tense the vocal folds | Cricothyroid (lengthens), vocalis (internal thyroarytenoid; fine tension)
+Relax the vocal folds | Thyroarytenoid
+Open the inlet | Thyroepiglottic
+Close the inlet | Oblique interarytenoid and aryepiglottic
+!!
+!fig d56-4 d56-5 | First, the laryngeal muscles and their actions on the arytenoid. Second, the intrinsic muscles seen from the side.
+!anat dl_pca dl_adductors dl_cricothyroid dl_thyroarytenoid | The posterior cricoarytenoid abducts; the lateral cricoarytenoid and interarytenoid adduct; the cricothyroid stretches and the thyroarytenoid relaxes the folds.
+!pearl The one abductor
+The posterior cricoarytenoid alone opens the glottis. Lose it on both sides and the folds lie near the midline with a good voice and a poor airway.
+!!
+## Extrinsic muscles
+- **Primary elevators** (attached to the thyroid cartilage): stylopharyngeus, salpingopharyngeus, palatopharyngeus and thyrohyoid.
+- **Secondary elevators** (through the hyoid): mylohyoid, digastric, stylohyoid and geniohyoid.
+- **Depressors:** sternohyoid, sternothyroid and omohyoid.
+
+# Cavity and spaces | Above, at and below the folds.
+## The cavity
+From the *inlet* (bounded by the epiglottis, aryepiglottic folds and interarytenoid fold) to the lower border of the cricoid. Two pairs of folds divide it:
+- **Vestibule:** from the inlet down to the vestibular (false) folds.
+- **Ventricle:** the recess between false and true folds; from its front a pouch, the *saccule*, rises between the false fold and the thyroid lamina, lubricating the folds with mucus. Its pathological enlargement is a *laryngocele*.
+- **Subglottis (infraglottic space):** from the vocal folds to the lower border of the cricoid.
+!fig d56-6 | The laryngeal inlet and intrinsic muscles seen from behind.
+!anat dl_inlet dl_cavity s239_14 | The laryngeal inlet, the cavity with its vestibule, ventricle and infraglottic part, and a coronal section with the saccule.
+## The vocal folds and glottis
+The true folds run from the thyroid angle to the vocal processes: pearly white because they are covered by closely bound squamous epithelium without glands. The *glottis (rima glottidis)* is the gap between them, about 24 mm long in men and 16 mm in women, the narrowest part of the adult airway. Its anterior two-thirds, between the membranous folds, is the *phonatory glottis*; its posterior third, between the arytenoids, the *respiratory glottis*.
+!fig d56-7 | The rima glottidis: the anterior two-thirds is the phonatory glottis, the posterior third (between the arytenoids) the respiratory glottis.
+## Layers of the vocal fold
+- Squamous epithelium.
+- Lamina propria: a *superficial layer* (*Reinke's space*, loose and rich in hyaluronic acid), an intermediate layer (elastic) and a deep layer (collagen); the intermediate and deep layers form the *vocal ligament*.
+- The vocalis muscle.
+The epithelium and superficial lamina propria form the *cover*, which ripples over the stiffer *body* as the mucosal wave; scarring of the cover ruins the voice, and fluid in Reinke's space gives Reinke's oedema.
+!anat s247_29 | The layers of the vocal fold: Reinke's space and the vocal ligament.
+## Regions
+- **Supraglottis:** epiglottis, aryepiglottic folds, arytenoids, false folds and ventricles.
+- **Glottis:** the vocal folds with the anterior and posterior commissures, extending about 1 cm below the free edge.
+- **Subglottis:** from there to the lower border of the cricoid.
+!anat s240_17 | Supraglottis, glottis and subglottis.
+## Spaces
+- **Pre-epiglottic space (of Boyer):** fat in front of the infrahyoid epiglottis, behind the thyrohyoid membrane and thyroid cartilage, below the hyoepiglottic ligament; invaded by supraglottic and tongue base cancers.
+- **Paraglottic space:** between the thyroid lamina laterally and the ventricle, quadrangular membrane and conus elasticus medially, the piriform sinus behind; continuous with the pre-epiglottic space. Cancers spreading in it are transglottic and can leave the larynx through the cricothyroid membrane.
+- **Reinke's space:** under the epithelium of the membranous fold, between the superior and inferior arcuate lines.
+!fig d56-8 | The paraglottic and pre-epiglottic spaces communicate with each other.
+!anat s245_26 | The paraglottic space in coronal section.
+## Mucosa
+Ciliated columnar epithelium except over the vocal folds and upper vestibule (squamous). It is loosely attached, and swells readily, everywhere except over the posterior epiglottis, vocal folds and the corniculate and cuneiform cartilages. Glands are plentiful on the posterior epiglottis, aryepiglottic folds and saccule, and absent from the vocal folds.
+
+# Nerves, vessels and lymph | The supply.
+## Superior laryngeal nerve
+From the inferior (nodose) ganglion of the vagus, it descends behind the internal carotid artery and divides at the level of the greater horn of the hyoid:
+- **Internal branch:** sensory to the mucosa above the vocal folds, piercing the thyrohyoid membrane with the superior laryngeal artery; it runs under the mucosa of the piriform fossa.
+- **External branch:** motor to the *cricothyroid*, running with the superior thyroid artery, where it is at risk in thyroidectomy (loss of high pitch and vocal stamina).
+## Recurrent laryngeal nerve
+Motor to every intrinsic muscle except the cricothyroid (the interarytenoid receives both sides), and sensory below the vocal folds. The *left* nerve leaves the vagus in the chest, hooks under the arch of the aorta beside the ligamentum arteriosum and climbs in the tracheo-oesophageal groove; the *right* hooks around the subclavian artery. Both enter the larynx behind the cricothyroid joint. The left, with its long course through the chest, is paralysed far more often. A *non-recurrent* right nerve accompanies an aberrant retro-oesophageal right subclavian artery.
+!anat dl_nerves s252_34 dl_trachea | The nerve supply of the larynx, the nerves and their relations, and the cervical trachea with the recurrent laryngeal nerve.
+## Embryology
+The larynx develops from the laryngotracheal groove of the foregut; the cartilages and muscles come from the fourth and sixth arch mesenchyme. The *superior laryngeal nerve* is the nerve of the fourth arch (hence the cricothyroid), and the *recurrent laryngeal nerve* that of the sixth (all other intrinsic muscles); the sixth arch artery on the left becomes the ductus arteriosus, which is why the left nerve hooks around it. The lumen is obliterated in the sixth week and recanalises by the tenth: failure gives webs and atresia.
+## Vessels
+The superior laryngeal artery (from the superior thyroid) with the internal laryngeal nerve, and the inferior laryngeal artery (from the inferior thyroid) with the recurrent nerve; matching veins drain to the internal jugular and brachiocephalic veins.
+## Lymphatic drainage
+- **Supraglottis:** rich lymphatics through the thyrohyoid membrane to the upper and middle deep cervical nodes, often both sides.
+- **Glottis:** almost none; hence early glottic cancer rarely metastasises.
+- **Subglottis:** through the cricothyroid membrane to the prelaryngeal (Delphian), pretracheal and paratracheal nodes, and to the lower deep cervical and mediastinal nodes.
+
+# The child's larynx | Not a small adult larynx.
+- **High:** opposite C3 or C4 at rest, rising to C1 or C2 in swallowing; the epiglottis meets the soft palate, so an infant can breathe through the nose while milk passes either side of the epiglottis. The larynx descends to C5 to C6 by adulthood.
+- **Soft:** the cartilages collapse easily; the epiglottis is omega-shaped and the arytenoids are relatively large.
+- **Overlapping:** the hyoid overlaps the thyroid and the thyroid overlaps the cricoid, so the cricothyroid and thyrohyoid membranes are narrow and hard to find; cricothyroidotomy is avoided in young children.
+- **Funnel-shaped:** the *subglottis (cricoid ring)* is the narrowest part, about 4 to 5 mm in the newborn; one millimetre of oedema there halves the airway. A diameter under 4 mm in a term baby is subglottic stenosis.
+- **Loose submucosa** swells quickly with infection and trauma.
+The larynx grows rapidly in the first three years, which allows some congenital narrowings to be watched, and again at puberty, when the male vocal folds lengthen and the voice breaks. The folds measure about 6 to 8 mm in childhood and 15 to 23 mm in adults.
+
+# Physiology | Four functions.
+## Protection of the lower airway
+The oldest function. During a swallow three sphincters close in turn: the *inlet* (aryepiglottic folds, epiglottic tubercle and arytenoids), the *false folds*, and the *true folds*, the last barrier; breathing stops reflexly; the larynx rises and moves forward under the base of tongue as the epiglottis tilts back. Anything that gets through provokes a *cough*: the folds close, pressure builds below them, and a sudden release blows the material out. The larynx is the watchdog of the lungs.
+## Phonation
+The *myoelastic–aerodynamic theory*: the adducted folds are blown apart by subglottic pressure from the lungs and fall back by their elasticity and the Bernoulli effect, releasing puffs of air that vibrate the cover as a mucosal wave. Loudness depends on subglottic pressure; pitch on the frequency of vibration, set by length, tension and mass of the folds. The pharynx, mouth, nose and chest resonate the sound, and the lips, tongue, palate and teeth articulate it into speech.
+## Respiration
+The folds abduct on inspiration and partly adduct on expiration, regulating airflow and providing back pressure to the lungs.
+## Fixation of the chest
+A closed glottis fixes the chest so that the arm, trunk and abdominal muscles can work against it in lifting, climbing, coughing, vomiting, defecation, micturition and childbirth.
+!anat dl_closers s242_24 | The muscles that close the laryngeal inlet, and the rima vestibuli and rima glottidis.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Cartilages,** which are paired, and which ossify.
+- **Intrinsic muscles** and their actions; the only abductor.
+- **Conus elasticus,** quadrangular membrane, pre-epiglottic and paraglottic spaces.
+- **Layers of the vocal fold** and Reinke's space.
+- **Nerve supply** and the course of the recurrent laryngeal nerves.
+- **Lymphatic drainage** by region and its importance in cancer.
+- **The infant larynx.**
+- **Functions** of the larynx.
+!!
+## Common pitfalls
+!pit
+- Forgetting that the cricothyroid is supplied by the external laryngeal nerve.
+- Calling the glottis the narrowest part of the infant airway; it is the subglottis.
+- Mistaking ossified laryngeal cartilage for a foreign body on a radiograph.
+!!

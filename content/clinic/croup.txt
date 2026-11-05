@@ -1,0 +1,116 @@
+@stand Acute inflammation of the larynx ranges from the hoarse voice that follows a cold to the child sitting bolt upright, drooling and silent, whose swollen epiglottis may close the airway within the hour. The difference between croup and epiglottitis is one of the oldest lessons in paediatrics and still one of the most important: the barking child can usually be soothed; the drooling child must not be upset, examined or sent to radiology without someone who can secure the airway.
+
+# Acute laryngitis | The commonest.
+## Causes
+- **Infective:** usually viral after a cold (parainfluenza, influenza, rhinovirus), followed by bacterial invasion (pneumococcus, *H. influenzae*, *Moraxella*, streptococci, staphylococci); with measles, chickenpox and whooping cough; candida in inhaled steroid users.
+- **Non-infective:** vocal abuse (shouting, cheering), allergy, inhaled irritants, thermal and chemical burns, reflux, and intubation.
+## Clinical features
+Abrupt hoarseness, sometimes complete loss of voice; pain in the throat after talking; a dry, irritating cough, worse at night; and the features of a cold. Early the epiglottis, aryepiglottic folds, arytenoids and false folds are red and swollen while the true folds stay white, standing out against the redness; later the folds become red and swollen, with sticky mucus between them and subglottic swelling. Vocal abuse may cause submucosal haemorrhage in a fold. Breathlessness is *not* a feature of simple laryngitis and suggests another diagnosis.
+## Treatment
+- **Voice rest:** the most important measure; forcing the voice delays recovery and risks haemorrhage and nodules.
+- No smoking or alcohol; hydration; steam inhalation.
+- Cough suppressants, mucolytics and analgesics.
+- Antibiotics only for secondary bacterial infection with fever or purulent sputum.
+- Proton pump inhibitors where reflux is suspected.
+- Steroids after burns, or for professional voice users who must perform.
+Most settle in one to two weeks; hoarseness persisting beyond three weeks needs laryngoscopy.
+## Acute membranous laryngitis
+Pyogenic membrane on the larynx, often spreading from the pharynx; it must be distinguished from diphtheria by swab and culture.
+
+# Acute epiglottitis | Supraglottitis.
+## Definition and cause
+Acute inflammation of the supraglottis (epiglottis, aryepiglottic folds and arytenoids), whose loose mucosa swells until it obstructs the airway; the swollen epiglottis acts like a ball valve. Classically in children of two to seven years from *H. influenzae* type b; since Hib vaccination it is rare in children and now seen mostly in adults, with streptococci, staphylococci and other organisms.
+## Clinical features
+- **Abrupt onset,** rapid progression over hours, high fever and toxicity (septicaemia).
+- **Children:** stridor and difficulty breathing are the presenting features; the child sits upright, leaning forward with the chin out (tripod position), drooling because swallowing hurts, with a muffled voice and usually no cough.
+- **Adults:** severe sore throat and painful swallowing out of proportion to a normal-looking oropharynx, a muffled "hot-potato" voice, and tenderness over the hyoid.
+!flag Do not upset the child
+No tongue depressor, no throat examination, no cannula, no lying down, no unaccompanied trip to radiology. Keep the child with the parent, give oxygen without a struggle, and take them to theatre where an experienced anaesthetist and an ENT surgeon ready for tracheostomy can secure the airway under gaseous induction.
+!!
+## Investigations
+- **Lateral soft tissue radiograph** of the neck (only if the patient is stable and accompanied): a swollen epiglottis, the *thumb sign*, with ballooned hypopharynx.
+- **Flexible endoscopy** in adults is usually safe and shows a cherry-red, swollen epiglottis and arytenoids.
+- Blood cultures (more often positive than surface swabs) and epiglottic swabs after the airway is secure; CT for a suspected epiglottic abscess.
+## Treatment
+1. **Airway:** intubation (or tracheostomy if intubation fails) in theatre for children and for adults with stridor or rapid progression; selected adults presenting later without stridor can be watched closely in high-dependency care.
+2. **Intravenous antibiotics** at once: a third-generation cephalosporin (ceftriaxone or cefotaxime), or ampicillin in sensitive strains.
+3. **Steroids** to reduce oedema; humidified oxygen; intravenous fluids.
+4. Rifampicin prophylaxis for household contacts of Hib cases, and vaccination.
+Intubation is usually needed for 24 to 72 hours, until the epiglottis has shrunk.
+
+# Croup | Acute laryngotracheobronchitis.
+## Cause and pathology
+The commonest cause of acute stridor in children, between six months and three years, more in boys and in autumn and winter. Usually *parainfluenza* viruses (types 1 and 2), also RSV, influenza and adenovirus, with secondary bacterial infection. The loose areolar tissue of the subglottis swells inside the rigid cricoid ring; thick secretions and crusts add to the obstruction.
+## Clinical features
+A day or two of a cold, then hoarseness, a harsh *barking (seal-like) cough* and inspiratory or biphasic stridor, worse at night; fever is usually low or moderate and the child is not toxic. Increasing obstruction shows as suprasternal, intercostal and subcostal recession, tachypnoea and agitation; restlessness, a rising pulse, pallor and cyanosis and finally exhaustion or drowsiness are late, ominous signs.
+!table Croup and epiglottitis in children
+Feature | Croup (laryngotracheobronchitis) | Acute epiglottitis
+Organism | Parainfluenza virus | *H. influenzae* type b
+Age | Six months to three years | Two to seven years
+Site | Subglottis | Supraglottis
+Prodrome | Cold for a day or two | None
+Onset | Gradual | Sudden
+Fever | Low or moderate | High
+General state | Not toxic | Toxic
+Cough | Barking | Usually absent
+Voice | Hoarse | Muffled
+Drooling and painful swallowing | Absent | Present
+Posture | Any | Upright, leaning forward
+Radiograph | Steeple sign on an AP view | Thumb sign on a lateral view
+Treatment | Steroids, nebulised adrenaline, humidified oxygen | Airway in theatre, intravenous antibiotics
+!!
+## Treatment
+- **Mild:** a single dose of oral dexamethasone (or nebulised budesonide) and observation; most go home.
+- **Moderate to severe:** humidified oxygen, steroids and *nebulised adrenaline*, which works within minutes but wears off in about two hours, so observe for rebound; admit.
+- **Severe or failing:** intubation in theatre with a tube smaller than usual for age; tracheostomy rarely now.
+- Antibiotics only for suspected secondary bacterial infection.
+!pearl Recurrent croup
+A child with repeated attacks, attacks under six months, or croup that will not settle needs microlaryngoscopy and bronchoscopy when well, to look for subglottic stenosis, a subglottic cyst or haemangioma, or a laryngeal cleft.
+!!
+!imaging | Supraglottic swelling on imaging.
+## Spasmodic croup
+Sudden nocturnal attacks of barking cough and stridor in an otherwise well child without fever, settling by morning; often allergic or reflux-related.
+
+# Bacterial tracheitis | Croup that is not croup.
+A rare, serious bacterial infection (*Staphylococcus aureus*, streptococci, pneumococcus), often following viral croup: high fever, toxicity, stridor and a cough with thick secretions, failing to respond to croup treatment. Bronchoscopy shows purulent tracheitis with oedema, sloughed mucosa and membranes that must be removed, often repeatedly; intubation and intravenous antibiotics; pneumonia frequently follows.
+
+# Laryngeal diphtheria | The membrane in the airway.
+Usually secondary to faucial diphtheria in unimmunised children under ten. An insidious onset with low fever but marked toxaemia (tachycardia, thready pulse); hoarseness, croupy cough, inspiratory stridor and progressive obstruction; an adherent grey-white membrane on the tonsils, palate and pharynx that bleeds when lifted and extends into the larynx and trachea; a bull neck. The exotoxin causes myocarditis and palatal, pharyngeal, ocular and diaphragmatic paralysis.
+!ward Laryngeal diphtheria
+1. Treat on clinical suspicion; take smears and cultures.
+2. Antitoxin, 20,000 to 100,000 units intravenously after a test dose, according to severity and duration.
+3. Benzylpenicillin or erythromycin for 7 to 10 days.
+4. Airway: intubation after laryngoscopy and removal of membrane, or tracheostomy.
+5. Strict bed rest for two to four weeks because of myocarditis; cardiac monitoring.
+6. Isolation, immunisation of contacts.
+!!
+
+# Laryngeal oedema | Many causes, one danger.
+Oedema collects where the mucosa is loose, in the supraglottis and subglottis, and rarely in the vocal folds.
+## Causes
+- **Infection:** epiglottitis, croup, tuberculosis, syphilis; nearby quinsy, retropharyngeal abscess and Ludwig's angina.
+- **Trauma:** surgery of the tongue and floor of mouth, laryngeal trauma, foreign bodies, endoscopy (especially in children), intubation, burns, caustics and irritant gases.
+- **Neoplasm:** ulcerating cancers of the larynx and laryngopharynx.
+- **Allergy:** angioneurotic oedema, anaphylaxis; ACE inhibitor and hereditary angioedema.
+- **Radiotherapy.**
+- **Systemic:** nephritis, heart failure, myxoedema.
+## Management
+Inspiratory stridor and respiratory distress call for an airway: intubation or tracheostomy. Lesser degrees are treated according to cause: intramuscular adrenaline (0.5 mL of 1:1000 in adults, repeated after five minutes if needed), antihistamines and steroids for allergy; steroids for infective, traumatic and post-radiation oedema; C1 esterase inhibitor or icatibant for hereditary angioedema; stopping the ACE inhibitor.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Croup versus epiglottitis:** the table.
+- **How not to examine** a child with suspected epiglottitis, and how to secure the airway.
+- **Treatment of croup:** dexamethasone and nebulised adrenaline.
+- **Bacterial tracheitis** as croup that fails to respond.
+- **Laryngeal diphtheria.**
+- **Causes and treatment** of laryngeal oedema.
+!!
+## Common pitfalls
+!pit
+- Using a tongue depressor on a drooling, stridulous child.
+- Sending a child with epiglottitis to radiology alone.
+- Discharging a child soon after nebulised adrenaline.
+- Missing epiglottitis in an adult with severe throat pain and a normal oropharynx.
+!!

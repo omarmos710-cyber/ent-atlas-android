@@ -1,0 +1,101 @@
+@stand A newborn's airway is narrow, soft and quick to swell, and most of its congenital problems announce themselves as noise: a high-pitched crowing that is worse on feeding and crying and better lying prone. Most of these babies have laryngomalacia and will outgrow it. The art is to recognise the few who will not, the stenosis, the paralysed folds, the haemangioma, the cleft, and to look at the whole airway before deciding.
+
+# Overview | The congenital larynx.
+## Lesions
+- Laryngomalacia (the commonest).
+- Vocal fold paralysis (the second commonest).
+- Congenital subglottic stenosis.
+- Laryngeal web and atresia.
+- Subglottic haemangioma.
+- Laryngeal cysts and laryngocele.
+- Laryngo-oesophageal cleft.
+- Tracheomalacia and vascular rings (in the trachea, outside the larynx).
+## Clues from the cry
+A *normal cry* with stridor points away from the glottis (laryngomalacia, subglottic stenosis, haemangioma); a *weak, hoarse or absent cry* points to the vocal folds (paralysis, web). Stridor eased by lying prone suggests laryngomalacia, micrognathia or macroglossia. Choking and cyanosis with feeds suggest a cleft, paralysis or a tracheo-oesophageal fistula.
+
+# Laryngomalacia | Floppy supraglottis.
+## Features
+Excessive flaccidity of the supraglottis, which is drawn into the airway on inspiration. Stridor appears at birth or within the first weeks, is inspiratory and fluttering, worse with crying, feeding, excitement and lying supine, and better prone; the cry is normal. Symptoms usually peak at six to eight months and resolve by 12 to 24 months. Reflux often coexists and aggravates it.
+!fig d59-1 | Laryngomalacia: the epiglottis folded longitudinally into an omega.
+## Appearances
+On flexible endoscopy in the awake infant: an *omega-shaped*, elongated epiglottis curled on itself; short, tight aryepiglottic folds tethering it; and redundant mucosa over large arytenoids that prolapses into the glottis on inspiration. Vocal fold movement is normal. Lee classifies the collapse as type 1 (short aryepiglottic folds), type 2 (redundant arytenoid tissue) and type 3 (posterior collapse of the epiglottis, often with neuromuscular disease). It cannot be judged in a paralysed, anaesthetised child.
+## Treatment
+- **Most:** reassurance and observation; positioning; anti-reflux treatment.
+- **Severe disease** (failure to thrive, feeding difficulty, apnoeas, cyanosis, pulmonary hypertension): microlaryngoscopy and bronchoscopy to exclude a second lesion, then endoscopic *supraglottoplasty*: division of the tight aryepiglottic folds and trimming of redundant arytenoid mucosa with cold steel or laser.
+- **Tracheostomy** rarely.
+!ops 193 | Supraglottoplasty for laryngomalacia.
+
+# Vocal fold paralysis | The second commonest.
+## Causes
+Birth trauma (stretching of the recurrent nerve in breech or forceps delivery), central nervous system anomalies (Arnold–Chiari malformation and hydrocephalus, usually bilateral), cardiac surgery and ligation of the ductus arteriosus, cardiomegaly and mediastinal lesions (usually left-sided), and idiopathic.
+## Presentation
+- **Unilateral:** a weak, breathy cry, mild stridor, and choking or aspiration with feeds.
+- **Bilateral:** a good cry but marked inspiratory stridor and respiratory distress, because both folds lie near the midline.
+## Assessment
+Flexible endoscopy in the awake child; imaging of the brain, neck and chest; and a swallowing assessment.
+## Treatment
+Observation for unilateral paralysis, with feeding support. Bilateral paralysis often needs a tracheostomy; definitive airway surgery is deferred, because many recover within the first year or two, and the larynx grows. Shunting for Arnold–Chiari malformation may restore movement.
+
+# Subglottic stenosis | The narrow ring.
+## Congenital
+Thickening of the cricoid cartilage (cartilaginous) or of the submucosa (soft tissue) below the vocal folds. Diagnosed when the subglottic lumen is under *4 mm in a term neonate* (normal 4.5 to 5.5 mm) or under 3 mm in a premature baby. The child may be well until a cold produces stridor, recurrent or prolonged croup; the cry is normal.
+## Acquired
+Far commoner now: from prolonged or repeated *intubation* in premature and sick neonates, especially with oversized tubes and movement; presenting as failure to extubate or stridor after extubation.
+## Grading
+Cotton–Myer: grade I up to 50% obstruction, II 51 to 70%, III 71 to 99%, IV no lumen; assessed by the largest endotracheal tube that allows a leak.
+## Treatment
+Many mild congenital stenoses improve as the larynx grows. Options: observation; endoscopic balloon dilatation and radial incision; anterior cricoid split (in neonates failing extubation); laryngotracheal reconstruction with costal cartilage grafts; and cricotracheal resection for severe stenosis; tracheostomy where needed.
+!ops 194 | Subglottic stenosis surgery.
+
+# Webs, cysts and haemangioma | Space-occupying lesions.
+## Laryngeal web
+Incomplete recanalisation of the larynx in the tenth week. Usually an anterior glottic web between the vocal folds with a concave posterior edge; associated with 22q11 deletion (velocardiofacial syndrome), which should be tested for. A weak or absent cry from birth, and airway obstruction when the web is large. Thin webs are divided endoscopically with knife or CO2 laser; thick webs often have subglottic extension and need excision through a laryngofissure with a silicone keel and later dilatations. *Laryngeal atresia* causes complete obstruction at birth and death unless an emergency airway is made (or a tracheo-oesophageal fistula provides one).
+!fig d59-2 | A laryngeal web.
+## Subglottic haemangioma
+Asymptomatic at birth; stridor appears at six weeks to six months as the haemangioma proliferates, often presenting as recurrent croup, with a normal cry; worse with crying because of venous engorgement. About half have a cutaneous haemangioma, especially in the beard distribution; some have mediastinal lesions. Endoscopy shows a soft, compressible, reddish-blue swelling, usually posterolateral in the subglottis; biopsy is not needed and may bleed. MRI or CT shows the extent.
+- **Propranolol** is now first-line and often produces dramatic involution.
+- Systemic steroids (Dhingra describes dexamethasone, then prednisolone for many months) and intralesional steroid.
+- CO2 or KTP laser or open excision for resistant lesions.
+- Tracheostomy while awaiting involution, which is the natural history.
+## Laryngeal cysts
+*Saccular cysts* (a mucus-filled saccule) and *ductal cysts* in the aryepiglottic fold, vallecula or subglottis appear as smooth, bluish, fluid-filled swellings that obstruct the airway. Needle aspiration can provide an emergency airway; endoscopic deroofing or excision with laser is definitive. Subglottic cysts follow intubation in premature infants.
+## Laryngocele
+An air-filled dilatation of the saccule rising between the false fold and the thyroid lamina: *internal* (within the larynx, a supraglottic bulge), *external* (through the thyrohyoid membrane, a neck swelling that enlarges with Valsalva), or *combined*. Rare in infants; in adults linked to wind instrument players and glass blowers, and sometimes to a ventricular carcinoma blocking the saccule, which must be excluded. Infection forms a *laryngopyocele*. Endoscopic excision for internal ones, external excision for external and combined.
+!fig d61-8 d61-9 | First, a laryngocele of the mixed type with internal and external components. Second, a left laryngocele as seen on Valsalva (arrow).
+!anat s241_21 | Laryngocele.
+!imaging laryngocele | Laryngocele on imaging.
+
+# Laryngeal cleft | A gap at the back.
+Incomplete fusion of the posterior cricoid lamina and tracheo-oesophageal septum, leaving a communication between larynx and oesophagus.
+!table Benjamin–Inglis classification
+Type | Extent
+I | Interarytenoid, above the vocal folds
+II | Partly into the cricoid lamina
+III | Through the whole cricoid, into the cervical trachea
+IV | Into the thoracic trachea
+!!
+Choking, coughing and cyanosis with feeds, recurrent aspiration pneumonia, a hoarse cry and stridor. Diagnosed at microlaryngoscopy by *palpating* the interarytenoid area with a probe, since small clefts are hidden by redundant mucosa. Type I clefts may be managed by thickened feeds or endoscopic injection or repair; deeper clefts need endoscopic or open repair.
+!ops 195 | Laryngeal cleft repair.
+
+# The trachea and beyond | Not always the larynx.
+- **Tracheomalacia:** a soft, collapsing trachea, primary or after compression or tracheo-oesophageal fistula repair; expiratory stridor and a barking cough; most improve with growth; aortopexy, stenting or tracheostomy for severe cases.
+- **Vascular rings and slings:** a double aortic arch, right arch with ligamentum, anomalous innominate artery or pulmonary artery sling compress the trachea and oesophagus, causing stridor and dysphagia. Contrast CT or MRI and a barium swallow; surgical division.
+- **Tracheo-oesophageal fistula and oesophageal atresia.**
+- **Cri-du-chat syndrome** (deletion of the short arm of chromosome 5): a cat-like cry with a narrow, diamond-shaped glottis, learning disability and hypotonia.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Laryngomalacia:** presentation, endoscopic appearance, natural history, supraglottoplasty.
+- **Normal versus hoarse cry** as a localising sign.
+- **Subglottic stenosis:** the 4 mm rule, causes, grading and treatment.
+- **Subglottic haemangioma:** age of onset, beard haemangioma, propranolol.
+- **Laryngeal web** and its association with 22q11 deletion.
+- **Laryngeal cleft:** palpate the interarytenoid area.
+!!
+## Common pitfalls
+!pit
+- Labelling every noisy baby laryngomalacia without looking at the whole airway when symptoms are severe.
+- Biopsying a subglottic haemangioma.
+- Missing a cleft because the interarytenoid area was not palpated.
+!!

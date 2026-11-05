@@ -1,0 +1,154 @@
+@stand The tracheostomy is one of the oldest operations in surgery and still one of the most important: it bypasses an obstructed upper airway, shortens the dead space, allows the chest to be cleared and ventilators to be weaned. Done calmly on an intubated patient it is a safe, orderly procedure; done in a hurry on a struggling, hypoxic patient it is one of the most dangerous in the specialty. Know the anatomy, know the alternatives that buy time, and know how to look after the tube, because most tracheostomy deaths happen afterwards, on the ward, from a blocked or displaced tube.
+
+# Tracheostomy | Purpose and indications.
+## Definitions
+*Tracheotomy* is opening the trachea; *tracheostomy* is making that opening into a stoma at the skin. The terms are used interchangeably.
+## What a tracheostomy does
+1. **Bypasses obstruction** anywhere from the lips to the stoma.
+2. **Improves alveolar ventilation** by reducing dead space by 30 to 50% (normal dead space about 150 mL) and lowering airway resistance.
+3. **Protects the airway** with a cuffed tube against aspiration of secretions (coma, bulbar palsy) and blood (maxillofacial and laryngeal trauma), and allows the pharynx to be packed.
+4. **Allows suction** of secretions when the patient cannot cough (coma, head injury, respiratory paralysis) or coughing hurts (chest and upper abdominal injury or surgery).
+5. **Permits prolonged ventilation:** for intermittent positive pressure ventilation expected beyond a week or two (Dhingra suggests beyond 72 hours), tracheostomy is better tolerated than translaryngeal intubation and protects the larynx.
+6. **Allows anaesthesia** when intubation is impossible (trismus, obstructing tumours).
+## Indications
+!table Indications for tracheostomy
+Group | Examples
+Upper airway obstruction: infection | Epiglottitis, croup, diphtheria, Ludwig's angina, quinsy, retropharyngeal and parapharyngeal abscesses
+Obstruction: trauma | Laryngotracheal injury, maxillofacial and mandibular fractures, endoscopic and intubation injury
+Obstruction: other | Tumours of the larynx, pharynx, tongue and thyroid; foreign bodies; laryngeal oedema (burns, irritants, allergy, radiation); bilateral abductor paralysis; congenital lesions (webs, cysts, subglottic stenosis, haemangioma)
+Retained secretions | Coma, head injury, stroke, overdose; respiratory muscle paralysis (spinal injury, Guillain–Barré, myasthenia, polio); tetanus; painful cough; aspiration
+Respiratory insufficiency | Prolonged ventilation; chronic lung disease (emphysema, bronchitis, bronchiectasis)
+Prophylactic | Major surgery of the tongue, floor of mouth, mandible, pharynx and larynx; obstructive sleep apnoea unresponsive to other treatment
+!!
+In children under a year most indications are congenital (subglottic stenosis, haemangioma, cysts, webs, bilateral paralysis); in older children inflammatory or traumatic (croup, epiglottitis, diphtheria, burns, prolonged intubation, papillomatosis).
+
+# Types | When and where.
+## By urgency
+- **Emergency:** obstruction is complete or nearly so and intubation is impossible; ideally replaced by cricothyroidotomy or by intubation followed by an orderly tracheostomy.
+- **Elective (orderly):** planned, with the patient intubated where possible; therapeutic or prophylactic.
+- **Permanent:** an end stoma after laryngectomy, or a long-term tube for bilateral paralysis or stenosis.
+- **Percutaneous dilatational:** at the bedside in intensive care.
+- **Minitracheostomy and cricothyroidotomy.**
+## By level
+The thyroid isthmus lies over the second to fourth tracheal rings.
+- **High** (above the isthmus, through the first ring): risks perichondritis of the cricoid and subglottic stenosis, and is avoided; it is acceptable only in laryngeal cancer, when the stoma will be removed at laryngectomy.
+- **Mid** (through the second to fourth rings, dividing or retracting the isthmus): the preferred site.
+- **Low** (below the isthmus): the trachea is deep, close to great vessels, and the tube presses on the suprasternal notch.
+!anat dl_trachea s263_50 | The cervical trachea and recurrent laryngeal nerve, and surface marking of the thyroid and cricoid cartilages and cricothyroid membrane.
+
+# Technique | The open operation.
+## Preparation
+Intubate first whenever possible, especially in children. Supine with a shoulder roll to extend the neck and bring the trachea forward (unless the cervical spine is injured). Local infiltration with lidocaine and adrenaline in the awake patient; general anaesthesia when intubated.
+## Steps
+1. **Incision:** a vertical midline incision from the cricoid to just above the sternal notch gives fast access with little bleeding and suits emergencies; a 4 to 5 cm horizontal incision two fingerbreadths above the notch gives a better scar in elective cases.
+2. Dissect in the midline; retract or tie the anterior jugular veins.
+3. Separate the strap muscles in the midline and retract them laterally.
+4. Retract the thyroid isthmus, or divide it between clamps and suture-ligate it.
+5. Instil a little lidocaine into the trachea to suppress coughing; steady the trachea with a cricoid hook.
+6. Open the trachea at the second to fourth rings: a vertical slit, a window, an inverted U (Björk) flap sutured to the skin to ease reinsertion, or a slit with stay sutures; never through the first ring.
+7. Withdraw the endotracheal tube to just above the opening under direct vision, insert the tracheostomy tube, inflate the cuff, confirm position (capnography), and only then remove the endotracheal tube.
+8. Secure the tube with tapes (and sutures); do not close the skin tightly or pack the wound, which causes surgical emphysema.
+!fig d64-1 | Skin incisions for tracheostomy: (A) vertical midline, (B) transverse.
+## In infants and children
+- Operate under general anaesthesia over an endotracheal tube or bronchoscope; the trachea is soft and easily lost, and straying laterally injures the recurrent nerve and carotid.
+- Do not hyperextend the neck: it draws the pleura, innominate vessels and thymus into the field and invites too low an opening.
+- Place *stay sutures* on either side of the midline before incising; they are the rescue if the tube comes out in the first days.
+- Make a simple vertical incision; never remove cartilage.
+- Do not push the blade deep: the posterior wall and oesophagus lie close.
+- Choose a soft tube of the right diameter, length and curvature; confirm its position with a chest radiograph.
+## Percutaneous dilatational tracheostomy
+In the intubated intensive care patient under sedation, through a small incision, a needle, guide wire and dilators (single tapered or serial) enter between the second and third rings under bronchoscopic guidance through the endotracheal tube. It avoids transfer to theatre and is quicker and cheaper, with fewer wound infections. Avoid in obesity, neck masses, difficult intubation, poor extension, impalpable landmarks, coagulopathy and in children. Complications: paratracheal placement, bleeding, posterior wall injury and emphysema.
+!ops 19 20 | Open and percutaneous tracheostomy.
+
+# Tracheostomy tubes | Choosing the tube.
+!table Features of tracheostomy tubes
+Feature | Purpose
+Cuffed | Seals the airway for ventilation and against aspiration; keep pressure below about 25 to 30 cm of water to avoid mucosal necrosis
+Uncuffed | For patients who no longer need ventilation or protection; children
+Inner cannula | Removed and cleaned to prevent blockage without changing the tube
+Fenestrated | A window allows air to pass up through the larynx for speech when the inner cannula is removed and the tube occluded
+Speaking (one-way) valve | Lets air in through the tube and out through the larynx (only with the cuff deflated)
+Adjustable flange | For deep or obese necks
+Metal (silver, Jackson) | Durable, for long-term permanent use; no cuff
+!!
+!fig d64-3 | A patient with a suction-aid tracheostomy tube receiving oxygen through a side port.
+
+# Aftercare | Where safety is won or lost.
+## The first days
+1. **Constant observation** by trained staff: bleeding, displacement, blockage and secretions; a call bell and writing pad.
+2. **Suction** as often as needed with a sterile catheter, applying suction only while withdrawing it, to avoid mucosal injury.
+3. **Humidification** of inspired air (heated humidifiers, nebulisers, heat-moisture exchangers) to prevent crusting and tracheitis; saline instillation and mucolytics for crusts.
+4. **Inner cannula** cleaned regularly; the *outer tube is not changed for the first three to five days* until a track forms, after which tube changes become straightforward.
+5. **Cuff** pressure checked; deflated when no longer needed.
+6. Spare tubes (same size and smaller), tracheal dilator, obturator, suction and oxygen at the bedside.
+!flag The blocked or displaced tube
+Sudden respiratory distress in a patient with a tracheostomy: remove the speaking valve and inner cannula, pass a suction catheter; if it will not pass, deflate the cuff and remove the tube; oxygenate through the stoma and the face; if the patient was not a laryngectomy, they can also be oxygenated and intubated from above. Follow a standard emergency algorithm and colour-coded bedhead signs.
+!!
+## Decannulation
+Remove the tube as soon as it is not needed, because prolonged use brings infection, ulceration, granulation, stenosis and scarring. Deflate the cuff, change to a smaller uncuffed tube, then occlude (cap) it; if the patient breathes, speaks and clears secretions comfortably for 24 hours (longer in children), remove the tube and tape the stoma, which usually closes within a week; persistent tracheocutaneous fistulae are closed surgically. In infants, decannulate in hospital with full reintubation equipment and monitoring.
+## Difficult decannulation
+Look for persistence of the original disease, granulations at the stoma or the tube tip (often a suprastomal granuloma), subglottic stenosis or oedema, collapse of the anterior wall above the stoma, tracheomalacia, and psychological dependence; endoscopy of the larynx and trachea decides.
+
+# Complications | Immediate, early and late.
+## At operation
+- Haemorrhage (anterior jugular veins, isthmus, aberrant vessels).
+- *Apnoea* after relief of long-standing obstruction, when the high carbon dioxide drive is suddenly removed; ventilate.
+- Pneumothorax and pneumomediastinum (especially in children).
+- Recurrent laryngeal nerve injury; injury to the oesophagus with a tracheo-oesophageal fistula.
+- Aspiration of blood; false passage; cardiac arrest.
+## Early (hours to days)
+- Reactionary and secondary bleeding.
+- *Displacement* and *blockage* of the tube: the commonest causes of death.
+- Surgical emphysema, tracheitis and crusting, atelectasis and pneumonia, wound infection.
+## Late
+- *Tracheo-innominate fistula* with massive haemorrhage from erosion by the tube tip or cuff, often heralded by a sentinel bleed.
+- Subglottic and laryngeal stenosis (high tracheostomy), tracheal stenosis at the stoma or cuff site, tracheomalacia.
+- Tracheo-oesophageal fistula from cuff pressure or the tube tip.
+- Granulations, difficult decannulation, persistent tracheocutaneous fistula, ugly or keloid scar.
+- Corrosion and fracture of old metal tubes with aspiration of fragments.
+!ops 23 24 | Tracheocutaneous fistula and depressed scar, and stenosis of the tracheostoma after laryngectomy.
+
+# Emergency airway | Buying time.
+When obstruction leaves no time for an orderly tracheostomy:
+1. **Jaw thrust** and head tilt (not in spinal injury) lift the tongue off the pharyngeal wall.
+2. **Oropharyngeal airway** with bag-and-mask ventilation.
+3. **Nasopharyngeal airway:** better tolerated by an awake patient.
+4. **Supraglottic airway (laryngeal mask):** a rescue when mask ventilation and intubation fail; it does not help obstruction at or below the glottis.
+5. **Intubation:** the quickest definitive airway; then an orderly tracheostomy if needed.
+6. **Cricothyroidotomy:** through the cricothyroid membrane, between the thyroid and cricoid cartilages, in the "can't intubate, can't oxygenate" situation. *Scalpel cricothyroidotomy* (a stab through the membrane, rotated, with a bougie and a 6 mm cuffed tube) is the recommended adult technique. Convert to a formal tracheostomy within about 72 hours, because perichondritis and subglottic stenosis follow prolonged cricothyroidotomy. It is avoided in children under about ten to twelve, whose membrane is tiny.
+7. **Needle cricothyroidotomy** with a large cannula and *transtracheal jet ventilation*: a temporary measure, the choice in small children; ensure a path for expiration or barotrauma follows.
+8. **Emergency tracheostomy:** with the trachea fixed between thumb and finger, a vertical incision from the thyroid to the notch, quickly through to the second and third rings; hazardous on a struggling patient without light, suction or help, so intubate first if at all possible.
+!fig d64-4 | A laryngeal mask airway.
+!anat s263_50 | Surface marking of the cricothyroid membrane.
+
+# Airway endoscopy | Laryngoscopy and bronchoscopy.
+## Direct laryngoscopy
+To see the larynx and hypopharynx directly: when indirect examination is impossible (children, a strong gag, an overhanging epiglottis), to examine the *hidden areas* (base of tongue, valleculae, lower piriform sinuses, infrahyoid epiglottis, anterior commissure, ventricles and subglottis), to assess and biopsy tumours, and to treat (remove benign lesions and foreign bodies, dilate strictures). Contraindicated by cervical spine disease and by significant obstruction unless the airway has first been secured.
+- **Position:** the *Boyce (sniffing, barking-dog) position*: head raised 10 to 15 cm on a pillow with the neck flexed on the chest and the head extended at the atlanto-occipital joint, aligning the oral, pharyngeal and laryngeal axes.
+- **Technique:** protect the upper teeth; insert the laryngoscope along the right side of the tongue, move to the midline, lift the epiglottis, and examine every subsite systematically, lifting rather than levering on the teeth. Suspension and the operating microscope or angled telescopes allow *microlaryngoscopy*.
+- **Complications:** injury to lips, teeth and tongue, bleeding, laryngeal oedema, laryngospasm.
+!fig d91-1 | Direct laryngoscopy in the sniffing position, lifting the laryngoscope without levering on the teeth.
+## Bronchoscopy
+- **Indications:** unexplained wheeze, haemoptysis or cough over four weeks; radiographic collapse, persistent opacity, obstructive emphysema, hilar or mediastinal shadows; vocal fold palsy; secretions for culture and cytology. Therapeutic: foreign bodies, retained secretions and mucus plugs.
+- **Rigid bronchoscopy** under general anaesthesia allows ventilation through the scope, large biopsies, control of haemorrhage and is the instrument of choice for *foreign bodies*, especially in children. The bevel is turned to pass the glottis, and the head is moved to the left to enter the right bronchus and vice versa. Limit procedures in children to about twenty minutes to avoid subglottic oedema.
+- **Flexible bronchoscopy** under topical anaesthesia (through the nose, an endotracheal tube or tracheostomy) reaches segmental and subsegmental bronchi, can be done at the bedside and in patients with neck or jaw problems, but controls ventilation and bleeding poorly and is not the tool for foreign bodies in children.
+!ops 18 198 45 | Bronchoscopy, tracheoscopy and airway foreign bodies, and oesophagoscopy.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Functions and indications** of tracheostomy.
+- **Why not through the first ring;** the levels.
+- **Steps** of the operation, and differences in children.
+- **Tubes,** aftercare, decannulation and causes of failed decannulation.
+- **Complications,** especially displacement, blockage and tracheo-innominate fistula.
+- **Emergency airway options:** cricothyroidotomy and jet ventilation.
+- **Direct laryngoscopy** position and hidden areas; **rigid versus flexible bronchoscopy.**
+!!
+## Common pitfalls
+!pit
+- Making a high tracheostomy through the first ring.
+- Changing the tube on day one without a mature track or stay sutures.
+- Suturing the skin tightly around the tube.
+- Leaving a cricothyroidotomy in place for weeks.
+!!
