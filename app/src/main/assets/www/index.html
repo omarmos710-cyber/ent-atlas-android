@@ -8608,7 +8608,9 @@ if(!window.Android&&"serviceWorker" in navigator&&(location.protocol==="https:"|
   new MutationObserver(()=>{const lb=document.getElementById("lb");if(lb&&!lb._w){lb._w=1;lbObs.observe(lb,{childList:true,subtree:true});watch()}}).observe(document.body,{childList:true});
   /* launch screen: fade out once the first page has painted */
   const boot=document.getElementById("boot");
-  if(boot)requestAnimationFrame(()=>requestAnimationFrame(()=>{boot.classList.add("out");setTimeout(()=>boot.remove(),400)}));
+  /* wait until every start-up script (later ones replace Home) has run, so the old layout never flashes */
+  const fade=()=>requestAnimationFrame(()=>requestAnimationFrame(()=>{boot.classList.add("out");setTimeout(()=>boot.remove(),400)}));
+  if(boot){if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",fade,{once:true});else fade()}
 })();
 </script>
 <script>
