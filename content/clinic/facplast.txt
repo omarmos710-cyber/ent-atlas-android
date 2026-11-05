@@ -2,21 +2,10 @@
 
 # Facial analysis | Measure before you cut.
 ## Landmarks
-- **Trichion:** the midline hairline.
-- **Glabella:** the most prominent point of the forehead.
-- **Nasion:** the deepest point of the nasofrontal angle, at the nasofrontal suture.
-- **Rhinion:** the junction of the bony and cartilaginous dorsum, where the skin is thinnest.
-- **Tip-defining points:** the light reflexes of the domes.
-- **Subnasale:** where the columella meets the lip.
-- **Stomion:** where the lips meet.
-- **Pogonion:** the most anterior point of the chin.
-- **Menton:** the lowest point of the chin.
-- **Cervical point:** the deepest point between the submental region and the neck.
+Analysis uses a small vocabulary of points. In the midline from above down lie the **trichion** (the hairline), the **glabella** (the most prominent point of the forehead) and the **nasion**, the deepest point of the nasofrontal angle at the nasofrontal suture. On the dorsum, the **rhinion** marks the junction of bone and cartilage, where the skin is thinnest, and the light reflexes of the domes are the **tip-defining points**. The **subnasale** is where the columella meets the lip and the **stomion** where the lips meet. On the chin, the **pogonion** is the most anterior point and the **menton** the lowest, and the **cervical point** is the deepest point between the submental region and the neck.
 !anat s93_7 s94_11 | Surface landmarks and the osteocartilaginous framework of the external nose.
 ## Proportions
-- **Horizontal thirds (height):** trichion–glabella, glabella–subnasale and subnasale–menton are about equal. In the lower third, the upper lip is a third and the lower lip and chin two-thirds.
-- **Vertical fifths (width):** each about one eye's width. The intercanthal distance equals an eye width and the width of the nasal base.
-- **Width to height:** about 3:4.
+In height the face divides into **thirds**: trichion to glabella, glabella to subnasale, and subnasale to menton are about equal, and within the lower third the upper lip takes a third and the lower lip and chin two-thirds. In width it divides into **fifths**, each about one eye's width; the intercanthal distance equals an eye width and also the width of the nasal base. Width to height is about 3:4.
 !table Facial angles
 Angle | Defined by | Ideal
 Nasofrontal | Glabella–nasion and nasion–tip | 115 to 130°
@@ -26,82 +15,36 @@ Nasomental | Dorsum and tip–pogonion | 120 to 132°
 Mentocervical | Facial plane and the submental line | 80 to 95°
 !!
 ## The chin and occlusion
-- **Chin position:** in profile the chin sits on, or just behind (women), a vertical line from the lower lip.
-- **Microgenia versus retrognathia:**
-  - *Microgenia* is a small chin with normal occlusion. It is treated with an implant or a *sliding genioplasty*.
-  - *Retrognathia* is a retruded mandible with a class II bite. It needs orthognathic surgery (sagittal split osteotomy).
-- **Angle classification of occlusion:**
-  - Class I: the mesiobuccal cusp of the upper first molar sits in the buccal groove of the lower first molar. This is normal.
-  - Class II: the upper molar sits forward of the lower (retrognathia).
-  - Class III: the upper molar sits behind the lower (prognathism).
-- **Chin implants:**
-  - Silastic, porous polyethylene or ePTFE, placed in a subperiosteal pocket through a submental or intraoral incision.
-  - Complications: displacement, infection, bone resorption, mental nerve injury.
-- **Sliding genioplasty:** adds both projection and height. It risks injury to the mental nerve and tooth roots.
+In profile the chin should sit on a vertical line dropped from the lower lip, or just behind it in women. A weak chin is either **microgenia**, a small chin with normal occlusion that is corrected with an implant or a *sliding genioplasty*, or **retrognathia**, a retruded mandible with a class II bite that needs orthognathic surgery such as a sagittal split osteotomy. The distinction is made by looking at the bite.
+
+Angle's classification describes occlusion by the upper first molar. In **class I**, the normal state, its mesiobuccal cusp sits in the buccal groove of the lower first molar; in **class II** the upper molar sits forward of the lower, as in retrognathia; and in **class III** it sits behind, as in prognathism.
+
+Chin implants of silastic, porous polyethylene or ePTFE are placed in a subperiosteal pocket through a submental or intraoral incision, and can displace, become infected, cause bone resorption or injure the mental nerve. A sliding genioplasty adds both projection and height, at the risk of injury to the mental nerve and the tooth roots.
 ## Skin
-- **Fitzpatrick types I to VI:**
-  - Type I always burns and never tans. Type VI never burns.
-  - Types III to VI are at more risk of pigment change after peels and lasers.
-- **Glogau photoageing classes:** I no wrinkles, II wrinkles in motion, III wrinkles at rest, IV only wrinkles.
-- **Nasal skin:** thick and sebaceous at the tip and supratip, thinnest at the rhinion. Thick skin hides tip work and swells. Thin skin shows every irregularity.
+The **Fitzpatrick types** run from I, which always burns and never tans, to VI, which never burns; types III to VI are at more risk of pigment change after peels and lasers. **Glogau's photoageing classes** progress from I (no wrinkles) through II (wrinkles in motion) and III (wrinkles at rest) to IV (only wrinkles). Nasal skin is thick and sebaceous at the tip and supratip and thinnest at the rhinion: thick skin hides tip work and swells for months, while thin skin shows every irregularity.
 
 # Rhinoplasty | Form and function together.
 ## Surgical anatomy
-- **Nasal thirds:**
-  - The *upper (bony) third*: the nasal bones.
-  - The *middle third*: the upper lateral cartilages fused to the dorsal septum, forming the *internal nasal valve* (normally 10 to 15°).
-  - The *lower third*: the lower lateral (alar) cartilages, with medial, intermediate and lateral crura, the domes, and the external valve.
-- **The scroll:** the junction of the upper and lower lateral cartilages.
-- **The keystone area:** where the nasal bones meet the upper lateral cartilages and septum.
-- **Tip support:**
-  - *Major mechanisms*:
-    - The size, shape and strength of the lower lateral cartilages.
-    - The attachment of the medial crural footplates to the caudal septum.
-    - The attachment of the upper to the lower lateral cartilages (the scroll).
-  - *Minor mechanisms*:
-    - The interdomal ligament.
-    - The dorsal cartilaginous septum.
-    - The sesamoid complex.
-    - The skin and soft-tissue envelope.
-    - The nasal spine.
-    - The membranous septum.
-- **The tripod concept:** the two lateral crura and the conjoined medial crura form a tripod. Shortening or lengthening the legs changes *projection* and *rotation*.
+The nose is best thought of in thirds. The **upper, bony third** is the nasal bones. The **middle third** is the upper lateral cartilages fused to the dorsal septum, which together form the *internal nasal valve*, normally an angle of 10 to 15°. The **lower third** is the lower lateral (alar) cartilages, with their medial, intermediate and lateral crura and the domes, and the external valve. The junction of the upper and lower laterals is the **scroll**, and the area where the nasal bones meet the upper lateral cartilages and septum is the **keystone**, whose disruption lets the middle vault collapse.
+
+**Tip support** comes from three major mechanisms: the size, shape and strength of the lower lateral cartilages; the attachment of the medial crural footplates to the caudal septum; and the attachment of the upper to the lower laterals at the scroll. The minor mechanisms are the interdomal ligament, the dorsal cartilaginous septum, the sesamoid complex, the skin and soft-tissue envelope, the nasal spine and the membranous septum. Every incision or resection that disrupts one of these must be compensated for.
+
+The **tripod concept** makes tip surgery predictable. The two lateral crura and the conjoined medial crura form the three legs of a tripod; shortening or lengthening the legs changes *projection* and *rotation* in ways that can be planned.
 !anat s96_16 s97_18 | Muscles of the nose, and nasal skin thickness from nasion to tip.
 ## Analysis of the nose
-- **Frontal view:**
-  - Deviation, by thirds.
-  - Width of the bony base, compared with the alar base.
-  - Smooth *brow–tip aesthetic lines* from the medial brow to the tip-defining point.
-  - Tip definition.
-  - A "gull in flight" alar–columellar outline.
-- **Profile:**
-  - Radix position, between the lash line and the upper lid crease.
-  - Dorsal hump.
-  - A supratip break, desirable in women.
-  - *Tip projection*. The *Goode ratio*: tip projection is 0.55 to 0.6 of nasal length. The 3:4:5 triangle.
-  - *Rotation* (the nasolabial angle).
-  - *Columellar show* of 2 to 4 mm.
-- **Base view:** an equilateral triangle. Columella to lobule 2:1. Nostril symmetry. Caudal septal deviation.
-- **Inside the nose:**
-  - The septum, turbinates and valves.
-  - The *Cottle manoeuvre* (lateral cheek traction improves the airway in valve collapse) and the modified Cottle test with a cotton bud.
-- **Records and the patient:** standard photographs. Watch for body dysmorphic disorder and unrealistic expectations.
+On the **frontal view**, assess deviation by thirds, the width of the bony base compared with the alar base, smooth *brow–tip aesthetic lines* running from the medial brow to the tip-defining point, tip definition, and the "gull in flight" outline of the alae and columella.
+
+On **profile**, note the radix position, which should lie between the lash line and the upper lid crease, any dorsal hump, and a supratip break, which is desirable in women. Tip *projection* is judged by the *Goode ratio*, in which projection is 0.55 to 0.6 of nasal length, or by the 3:4:5 triangle; *rotation* is read from the nasolabial angle; and 2 to 4 mm of *columellar show* is normal.
+
+On the **base view**, the nose should form an equilateral triangle with a columella-to-lobule ratio of 2:1, symmetrical nostrils and no caudal septal deviation. **Inside the nose**, examine the septum, turbinates and valves; the *Cottle manoeuvre*, in which lateral traction on the cheek improves the airway, suggests valve collapse, and the modified Cottle test with a cotton bud localises it.
+
+Take standard photographs, and always weigh the patient as well as the nose: body dysmorphic disorder and unrealistic expectations are the commonest causes of an unhappy outcome after technically sound surgery.
 ## Approaches and incisions
-- **Incisions:**
-  - Marginal: along the caudal edge of the lateral crus.
-  - Intercartilaginous: between the upper and lower laterals.
-  - Transcartilaginous.
-  - Transcolumellar: an inverted V or stair step.
-  - Transfixion or hemitransfixion: between the caudal septum and the medial crura.
-- **Endonasal (closed) rhinoplasty:**
-  - *Non-delivery* approach: cartilage-splitting or retrograde.
-  - *Delivery* approach: the alar cartilages are delivered as bipedicled flaps.
-  - No external scar and less swelling, but limited exposure.
-- **External (open) rhinoplasty:**
-  - Transcolumellar and marginal incisions, lifting the whole skin envelope.
-  - Best exposure, and precise sutures and grafts.
-  - Used for revision, cleft and crooked noses, major tip work, and teaching.
-  - Costs: a columellar scar, more oedema, and disruption of a minor support.
+The incisions are the **marginal**, along the caudal edge of the lateral crus; the **intercartilaginous**, between the upper and lower laterals; the **transcartilaginous**, through the lateral crus; the **transcolumellar**, an inverted V or stair step; and the **transfixion or hemitransfixion**, between the caudal septum and the medial crura.
+
+**Endonasal (closed) rhinoplasty** uses either a non-delivery approach, cartilage-splitting or retrograde, or a delivery approach in which the alar cartilages are brought out as bipedicled flaps. It leaves no external scar and causes less swelling, but exposure is limited.
+
+**External (open) rhinoplasty** joins transcolumellar and marginal incisions and lifts the whole skin envelope. It gives the best exposure for precise sutures and grafts and is preferred for revision, cleft and crooked noses, major tip work and teaching. Its costs are a columellar scar, more oedema and the disruption of a minor tip support.
 !table Common manoeuvres
 Problem | Manoeuvre
 Dorsal hump | Component reduction: rasp the bone, cut the cartilage; then osteotomies to close the open roof; spreader grafts to keep the middle vault and valve
@@ -116,188 +59,86 @@ Internal valve collapse | Spreader grafts, flaring sutures, butterfly graft
 External valve collapse | Alar batten grafts, lateral crural strut grafts, alar rim grafts
 Saddle nose | Dorsal onlay or reconstruction with septal, ear or *rib cartilage*; rebuild the L-strut
 !!
-- **Grafts:**
-  - Septal cartilage is first choice. Leave a 10 to 15 mm dorsal and caudal *L-strut*.
-  - Ear cartilage (conchal bowl), for alar grafts.
-  - *Costal cartilage*: plentiful, for revisions and saddle noses, but it can warp.
-  - Fascia, and diced cartilage wrapped in fascia.
-- **The guiding principle:** "Preserve and conserve, do not resect and regret". Reshape with sutures and grafts rather than removing support.
+**Septal cartilage** is the first-choice graft, provided a dorsal and caudal *L-strut* of 10 to 15 mm is left to hold the nose up. **Conchal cartilage** from the ear suits alar grafts, and **costal cartilage** is plentiful for revisions and saddle noses but can warp. Fascia, and diced cartilage wrapped in fascia, smooth the dorsum. The guiding principle is to "preserve and conserve, not resect and regret": reshape with sutures and grafts rather than by removing support.
 !ops 155 95 | Rhinoplasty and surgery of the nasal valve, and septoplasty.
 ## Complications and revision
-- **Revision rates:** about 5 to 15%. Wait about a year before revising.
-- **Pollybeak deformity:** fullness above the tip. Causes: an under-resected cartilaginous dorsum, supratip dead space and scar, or loss of tip support. Treatment: steroid injection, trimming, or restoring tip support.
-- **Saddle nose:** over-resection of the dorsum, septal collapse, abscess or haematoma, or granulomatous disease (granulomatosis with polyangiitis, cocaine). Treatment: grafts.
-- **Inverted-V deformity:** the upper lateral cartilages collapse away from the nasal bones. Treatment: spreader grafts.
-- **Open roof:** osteotomies omitted after hump removal.
-- **Rocker deformity:** an osteotomy carried too high into the thick nasal bone.
-- **Alar retraction and notching:** over-resection of the lateral crus. Treatment: alar rim and composite grafts.
-- **Tip problems:** bossae, a pinched tip, tip ptosis.
-- **Nasal obstruction:** valve collapse, synechiae, residual septal deviation.
-- **Others:** septal haematoma or perforation, epistaxis, CSF leak from a high septal or osteotomy fracture (rare), and dissatisfaction.
+Between 5 and 15% of rhinoplasties are revised, and revision should wait about a year for the tissues to settle. The named deformities each have a mechanism and a remedy.
+
+A **pollybeak** is fullness above the tip, from an under-resected cartilaginous dorsum, supratip dead space and scar, or loss of tip support; it is treated with steroid injection, trimming or restoring support. A **saddle nose** follows over-resection of the dorsum, septal collapse, a septal abscess or haematoma, or granulomatous disease such as granulomatosis with polyangiitis or cocaine use, and needs grafts. An **inverted-V deformity** appears when the upper lateral cartilages collapse away from the nasal bones and is corrected with spreader grafts. An **open roof** results from omitting osteotomies after hump removal, and a **rocker deformity** from carrying an osteotomy too high into the thick nasal bone. **Alar retraction and notching** follow over-resection of the lateral crus and need alar rim or composite grafts. Tip bossae, a pinched tip and tip ptosis are the other tip problems.
+
+Functionally, the nose may end up more obstructed through valve collapse, synechiae or residual septal deviation. Septal haematoma or perforation, epistaxis, a rare CSF leak from a high septal or osteotomy fracture, and dissatisfaction complete the list.
 
 # The ageing face | Upper, middle and lower thirds.
 ## What ages
-- **Skin:** thinner dermis, less collagen and elastin, photodamage, wrinkles.
-- **Soft tissue:** descent and loss of volume (fat pads).
-- **Bone:** resorption, especially the orbital rims, piriform aperture and maxilla, and the pre-jowl mandible.
-- **By third:**
-  - Upper: forehead lines and brow ptosis.
-  - Middle: eyelid laxity and fat bulges, tear trough, deeper nasolabial folds.
-  - Lower: jowls, marionette lines, neck laxity and platysmal bands.
+Every layer ages. The **skin** develops a thinner dermis with less collagen and elastin, photodamage and wrinkles. The **soft tissues** descend and the fat pads lose volume. The **bone** resorbs, especially at the orbital rims, piriform aperture and maxilla and in the pre-jowl mandible.
+
+The changes show differently in each third. The upper third gains forehead lines and brow ptosis; the middle third shows eyelid laxity and fat bulges, a tear trough and deeper nasolabial folds; and the lower third develops jowls, marionette lines, neck laxity and platysmal bands.
 ## Brow and forehead lift
-- **The ideal brow:**
-  - Begins over the medial canthus.
-  - Ends on a line from the alar base through the lateral canthus.
-  - In women, arches above the orbital rim with its peak between the lateral limbus and lateral canthus.
-  - In men, lies flatter, at the rim.
-- **Approaches:**
-  - *Coronal*: well hidden, but raises the hairline and leaves scalp numbness.
-  - *Pretrichial*: for a high hairline.
-  - *Endoscopic*: small incisions and subperiosteal release, with fixation.
-  - *Direct* and *midforehead*: for older men and facial palsy.
-- **The frontal branch of the facial nerve:** lies in the temporoparietal fascia, along *Pitanguy line* (from 0.5 cm below the tragus to 1.5 cm above the lateral brow). Lateral dissection is kept *deep*, on the deep temporal fascia.
+The ideal brow begins over the medial canthus and ends on a line from the alar base through the lateral canthus. In women it arches above the orbital rim, peaking between the lateral limbus and the lateral canthus; in men it lies flatter, at the rim.
+
+A **coronal** lift hides the scar well but raises the hairline and leaves the scalp numb, so a **pretrichial** incision is chosen for a high hairline. The **endoscopic** lift uses small incisions and subperiosteal release with fixation. **Direct** and **midforehead** lifts suit older men with deep forehead lines and patients with facial palsy.
+
+The danger is the **frontal branch of the facial nerve**, which runs in the temporoparietal fascia along *Pitanguy's line*, from 0.5 cm below the tragus to 1.5 cm above the lateral brow. Lateral dissection is therefore kept *deep*, on the deep temporal fascia.
 !anat d153_44 | Extracranial branches of the facial nerve.
 ## Blepharoplasty
-- **Upper lid:**
-  - Removes excess skin (*dermatochalasis*) with a strip of orbicularis and conservative fat (medial and central compartments).
-  - The crease incision is about 8 to 10 mm above the lashes.
-  - Leave at least *20 mm* of skin between the lash line and the brow.
-  - Brow ptosis may be the real problem.
-- **Assessment before surgery:**
-  - Vision and fields.
-  - Dry eye (*Schirmer test*).
-  - Thyroid eye disease.
-  - Previous surgery.
-  - True *blepharoptosis*, which needs levator surgery, not blepharoplasty.
-- **Lower lid approaches:**
-  - *Transconjunctival* for fat alone.
-  - *Subciliary* skin or skin–muscle flap for excess skin.
-- **Lower lid tests:**
-  - Lid laxity: the *snap test* and the distraction test (over 6 to 10 mm is abnormal).
-  - *Negative vector* (globe ahead of the cheek): avoid removing fat.
-  - Lax lids need canthopexy or canthoplasty to avoid ectropion.
-- **Complications:**
-  - *Retrobulbar haematoma*, which can blind: pain, proptosis, reduced vision. Emergency *lateral canthotomy and cantholysis*, open the wound, and give mannitol, acetazolamide and steroids.
-  - Lagophthalmos and dry eye.
-  - Ectropion and scleral show.
-  - Ptosis, diplopia (inferior oblique injury), and milia.
+**Upper lid blepharoplasty** removes excess skin (*dermatochalasis*) with a strip of orbicularis and a conservative amount of fat from the medial and central compartments, through a crease incision about 8 to 10 mm above the lashes. At least *20 mm* of skin must remain between the lash line and the brow, and a ptotic brow, rather than the lid, may be the real problem.
+
+Before surgery, record vision and fields, test for dry eye with the *Schirmer test*, and look for thyroid eye disease, previous surgery and true *blepharoptosis*, which needs levator surgery rather than skin removal.
+
+In the **lower lid**, fat alone is removed through a *transconjunctival* approach, and excess skin through a *subciliary* skin or skin–muscle flap. Lid laxity is tested with the *snap test* and the distraction test, in which more than 6 to 10 mm is abnormal; a lax lid needs a canthopexy or canthoplasty to avoid ectropion. A *negative vector*, with the globe projecting ahead of the cheek, is a warning against removing fat.
+
+The feared complication is a **retrobulbar haematoma**, which can blind; it presents with pain, proptosis and falling vision, and is treated by emergency *lateral canthotomy and cantholysis*, opening the wound, and mannitol, acetazolamide and steroids. The others are lagophthalmos and dry eye, ectropion and scleral show, ptosis, diplopia from inferior oblique injury, and milia.
 !flag Pain and proptosis after eyelid surgery
 Severe pain, a tense proptosed eye and falling vision after blepharoplasty mean a retrobulbar haematoma. Release the sutures and perform a lateral canthotomy and cantholysis at the bedside within minutes, then call ophthalmology. Vision can be lost within about 90 minutes.
 !!
 ## Rhytidectomy (facelift)
-- **The SMAS:** the superficial musculoaponeurotic system, continuous with the platysma below and the temporoparietal fascia above. The facial nerve branches run *deep* to it.
-- **Techniques, by depth:**
-  - Skin-only.
-  - SMAS plication.
-  - SMAS imbrication or lateral SMASectomy.
-  - *Deep-plane* lift: sub-SMAS, carrying the malar fat. The strongest midface effect, with more nerve risk.
-  - Composite lift.
-- **Neck procedures:** liposuction, platysmaplasty (midline plication), and submandibular gland or digastric contouring.
-- **Dedo classification of the neck:**
-  - Class I: minimal deformity.
-  - Class II: skin laxity.
-  - Class III: fat.
-  - Class IV: platysmal banding.
-  - Class V: micrognathia.
-  - Class VI: a low hyoid.
-- **Complications:**
-  - *Haematoma*: the commonest, about 3 to 15%, more in men and hypertensive patients. Evacuate promptly.
-  - Skin necrosis: postauricular, worse in smokers.
-  - *Great auricular nerve* injury: the commonest nerve injury, giving ear lobe numbness.
-  - Facial nerve injury: temporal and marginal mandibular branches. Usually temporary.
-  - Alopecia, hairline shift, pixie-ear (pulled earlobe), unattractive scars.
+The facelift depends on the **SMAS**, the superficial musculoaponeurotic system, continuous with the platysma below and the temporoparietal fascia above. The facial nerve branches run *deep* to it, which is why dissection above the SMAS is safe and dissection beneath it demands care.
+
+Techniques are graded by depth: a **skin-only** lift; **SMAS plication**; **SMAS imbrication** or lateral SMASectomy; the **deep-plane** lift, which goes beneath the SMAS and carries the malar fat to give the strongest midface effect at more risk to the nerves; and the **composite** lift. The neck is treated with liposuction, a midline platysmaplasty and, in selected patients, contouring of the submandibular gland or digastric. Dedo's classification guides the neck: class I minimal deformity, II skin laxity, III fat, IV platysmal banding, V micrognathia and VI a low hyoid.
+
+**Haematoma** is the commonest complication, at about 3 to 15%, more often in men and hypertensive patients, and must be evacuated promptly. Skin necrosis occurs behind the ear, especially in smokers. The **great auricular nerve** is the nerve most often injured, leaving the ear lobe numb; facial nerve injury, usually of the temporal or marginal mandibular branch, is usually temporary. Alopecia, a shifted hairline, the pulled-down "pixie ear" and poor scars are the cosmetic failures.
 !ops 157 158 156 | Brow lift, facelift and blepharoplasty.
 
 # The ear | Otoplasty.
-- **The prominent ear:** the commonest auricular deformity.
-  - A deficient *antihelical fold*.
-  - A deep *conchal bowl*.
-  - Or both.
-  - Lobule protrusion.
-- **Normal measurements:**
-  - Auriculocephalic angle about 20 to 30°.
-  - Helix 15 to 20 mm from the scalp at the top, about 20 mm at mid-ear.
-  - Ear length about 6 cm, width about 55% of length.
-- **Timing:**
-  - At five to six years, when the ear is about 85 to 90% of adult size and before school teasing.
-  - In newborns, *ear moulding* splints in the first weeks can correct many deformities without surgery.
-- **Techniques:**
-  - *Mustardé* horizontal mattress sutures create the antihelical fold.
-  - *Furnas* conchomastoid sutures set back the concha. Place them posteriorly so they do not narrow the canal.
-  - Cartilage scoring or excision (Chongchet, Stenström, Converse) for stiff cartilage.
-  - Conchal bowl excision.
-  - Lobule correction.
-- **Complications:**
-  - Haematoma, which can lead to perichondritis and cauliflower ear.
-  - Infection and chondritis.
-  - Suture extrusion.
-  - Under-correction or recurrence (the commonest).
-  - Over-correction and the "*telephone ear*" (middle overcorrected, poles still prominent).
-  - Asymmetry.
+## The prominent ear
+The prominent ear is the commonest auricular deformity. It results from a deficient *antihelical fold*, a deep *conchal bowl*, or both, sometimes with a protruding lobule. Normally the auriculocephalic angle is about 20 to 30°, the helix sits 15 to 20 mm from the scalp at the top and about 20 mm at mid-ear, and the ear is about 6 cm long and 55% as wide as it is long.
+
+Surgery is usually done at five to six years, when the ear has reached 85 to 90% of adult size and before teasing at school begins. In newborns, *ear moulding* splints in the first weeks correct many deformities without surgery.
+## Techniques and complications
+**Mustardé** horizontal mattress sutures create the antihelical fold, and **Furnas** conchomastoid sutures set back the concha; they are placed posteriorly so as not to narrow the canal. Stiff cartilage is weakened by scoring or excision (the Chongchet, Stenström and Converse techniques), and the conchal bowl or lobule may be reduced directly.
+
+Haematoma is the urgent complication, because it leads to perichondritis and a cauliflower ear. Infection and chondritis, suture extrusion and asymmetry also occur. Under-correction or recurrence is the commonest problem overall, and over-correction of the middle third with prominent poles produces the "*telephone ear*".
 !anat s30_28 | Surface landmarks of the auricle.
 !ops 209 | Otoplasty.
 
 # Skin and injectables | Resurfacing, toxin, fillers.
 ## Resurfacing
-All resurfacing methods remove the epidermis and injure the papillary dermis, so that new collagen and epidermis form. Injury into the reticular dermis scars.
-- **Chemical peels:**
-  - *Superficial*: glycolic acid, Jessner solution, 10 to 25% TCA.
-  - *Medium*: Jessner solution followed by 35% TCA.
-  - *Deep*: Baker–Gordon phenol.
-  - Phenol is cardiotoxic (*arrhythmias*), as well as nephrotoxic and hepatotoxic. Monitor the ECG, hydrate, and treat one facial unit at a time.
-- **Dermabrasion:** mechanical, to the papillary dermis (pinpoint bleeding). Used for acne scars, rhinophyma and scar revision.
-- **Lasers:**
-  - *Ablative* (CO2, Er:YAG): CO2 is deeper and tightens. Er:YAG is shallower and heals faster.
-  - *Fractional*: microscopic columns of injury with rapid healing.
-  - *Non-ablative*.
-- **Contraindications and precautions:**
-  - Isotretinoin within 6 to 12 months (some say 2 years).
-  - Active herpes: give antiviral prophylaxis.
-  - Keloid tendency, previous irradiation, scleroderma.
-  - Darker skin types (pigment changes).
+Every resurfacing method works the same way: it removes the epidermis and injures the papillary dermis, so that new collagen and epidermis form. Injury that reaches the reticular dermis scars.
+
+**Chemical peels** are superficial (glycolic acid, Jessner solution, 10 to 25% TCA), medium (Jessner solution followed by 35% TCA) or deep (Baker–Gordon phenol). Phenol is cardiotoxic, causing *arrhythmias*, as well as nephrotoxic and hepatotoxic, so the ECG is monitored, the patient hydrated and one facial unit treated at a time. **Dermabrasion** works mechanically down to the papillary dermis, signalled by pinpoint bleeding, and suits acne scars, rhinophyma and scar revision. Among **lasers**, the ablative CO2 laser penetrates deeper and tightens, while Er:YAG is shallower and heals faster; fractional lasers make microscopic columns of injury that heal rapidly, and non-ablative lasers treat beneath an intact epidermis.
+
+Resurfacing is avoided within 6 to 12 months of isotretinoin (some say two years), and in patients with keloids, previous irradiation or scleroderma. Active herpes needs antiviral prophylaxis, and darker skin types risk pigment change.
 ## Botulinum toxin
-- **Mechanism:** blocks the presynaptic release of acetylcholine by cleaving SNARE proteins (SNAP-25 for type A). Onset in 2 to 3 days, peak at 1 to 2 weeks, lasting 3 to 4 months.
-- **Cosmetic uses:**
-  - Glabellar lines (corrugator, procerus).
-  - Forehead lines (frontalis).
-  - Crow's feet (orbicularis oculi).
-  - Platysmal bands.
-  - The gummy smile.
-- **ENT uses:**
-  - Spasmodic dysphonia.
-  - Hemifacial spasm and blepharospasm.
-  - Synkinesis after facial palsy, and the opposite side for symmetry.
-  - Frey syndrome, sialorrhoea and sialoceles.
-  - Cricopharyngeal dysfunction.
-  - Palatal myoclonus.
-  - Migraine.
-- **Complications:** bruising and headache. *Eyelid ptosis* from spread to the levator, treated with apraclonidine drops. Brow ptosis, an asymmetric smile, dysphagia.
-- **Contraindications:** myasthenia gravis, Lambert–Eaton syndrome and other neuromuscular disease, aminoglycosides, pregnancy and breastfeeding.
+Botulinum toxin blocks the presynaptic release of acetylcholine by cleaving the SNARE proteins, SNAP-25 in the case of type A. It acts within 2 to 3 days, peaks at 1 to 2 weeks and lasts 3 to 4 months.
+
+Cosmetically it treats glabellar lines (corrugator and procerus), forehead lines (frontalis), crow's feet (orbicularis oculi), platysmal bands and the gummy smile. In ENT it treats spasmodic dysphonia, hemifacial spasm and blepharospasm, synkinesis after facial palsy and the opposite side for symmetry, Frey syndrome, sialorrhoea and sialoceles, cricopharyngeal dysfunction, palatal myoclonus and migraine.
+
+Its complications are bruising and headache, *eyelid ptosis* from spread to the levator (treated with apraclonidine drops), brow ptosis, an asymmetric smile and dysphagia. It is avoided in myasthenia gravis, Lambert–Eaton syndrome and other neuromuscular diseases, in patients taking aminoglycosides, and in pregnancy and breastfeeding.
 ## Fillers and fat
-- **Hyaluronic acid:** the commonest filler, lasting 6 to 18 months. Reversible with *hyaluronidase*.
-- **Others:**
-  - Calcium hydroxylapatite.
-  - Poly-L-lactic acid (stimulates collagen over months).
-  - Permanent fillers (PMMA, silicone), which carry the risk of late granulomas.
-- **Autologous fat grafting:** harvest, centrifuge, then inject in small aliquots in multiple layers. Survival is unpredictable.
-- **Danger zones:** the glabella, nasal dorsum, nasolabial fold and temple.
+**Hyaluronic acid** is the commonest filler. It lasts 6 to 18 months and, importantly, can be dissolved with *hyaluronidase*. Calcium hydroxylapatite and poly-L-lactic acid, which stimulates collagen over months, last longer, and permanent fillers such as PMMA and silicone carry a risk of late granulomas. **Autologous fat** is harvested, centrifuged and injected in small aliquots in several layers, with unpredictable survival.
+
+The danger zones are the glabella, nasal dorsum, nasolabial fold and temple, where filler can enter an artery.
 !flag Vascular occlusion from filler
 - **Skin occlusion:** blanching, pain, then a livedo or dusky pattern after injection. Stop injecting, flood the area with high-dose hyaluronidase (for hyaluronic acid fillers), massage, and apply warm compresses.
 - **Visual loss:** retrograde embolism into the ophthalmic artery, from glabellar, nasal or nasolabial injection. This is an ophthalmic emergency.
 !!
 !ops 159 160 | Facial resurfacing, and cosmetic botulinum toxin and fillers.
 ## Scar revision
-- **Placement:** scars are best hidden in *relaxed skin tension lines*, facial creases and the borders of aesthetic units.
-- **Z-plasty:**
-  - Lengthens a scar and changes its direction.
-  - With 30°, 45° and 60° limbs it lengthens by about 25%, 50% and 75%, and turns the scar by up to 90°.
-  - Used for scars 30 to 60° off the relaxed skin tension lines and for contracted scars.
-- **W-plasty and geometric broken-line closure:** irregularise long scars that run against the lines.
-- **Adjuncts:** dermabrasion or laser at 6 to 8 weeks, and steroid injection or silicone for hypertrophic scars and keloids.
+Scars hide best in *relaxed skin tension lines*, facial creases and the borders of aesthetic units, so revision aims to move them there.
+
+The **Z-plasty** lengthens a scar and changes its direction. With limbs at 30°, 45° and 60° it lengthens the scar by about 25%, 50% and 75%, and turns it by up to 90°, which makes it the tool for contracted scars and for scars lying 30 to 60° off the tension lines. Long scars that run against the lines are broken up with a **W-plasty** or a geometric broken-line closure. Dermabrasion or laser at 6 to 8 weeks refines the result, and steroid injection or silicone controls hypertrophic scars and keloids.
 ## Hair restoration
-- **Male pattern baldness:** androgenetic alopecia, graded by the *Norwood classification*.
-- **Medical treatment:** minoxidil, finasteride, platelet-rich plasma.
-- **Hair transplantation:** follicular unit grafts from the androgen-resistant occipital scalp, by strip harvest or *follicular unit extraction*. Single-hair units go at the hairline. Transplanted hairs shed at a few weeks and regrow from about three months.
+Male pattern baldness is androgenetic alopecia, graded by the *Norwood classification*. Minoxidil, finasteride and platelet-rich plasma slow it. Transplantation moves follicular unit grafts from the androgen-resistant occipital scalp, harvested as a strip or by *follicular unit extraction*, with single-hair units placed at the hairline. Transplanted hairs shed after a few weeks and regrow from about three months.
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials

@@ -2,14 +2,9 @@
 
 # The virus and the disease | Biology, course, diagnosis.
 ## HIV
-- **Classification:** HIV is an enveloped, single-stranded RNA retrovirus of the lentivirus genus.
-  - *HIV-1* causes most infections worldwide and is the more pathogenic.
-  - *HIV-2* is mainly West African and less virulent.
-- **The virion:**
-  - A lipid bilayer carrying the envelope glycoproteins *gp120* (binds CD4) and *gp41* (mediates fusion).
-  - A matrix (p17) and a conical capsid (*p24*).
-  - Two copies of RNA.
-  - The enzymes *reverse transcriptase*, *integrase* and *protease*. Each is a drug target.
+HIV is an enveloped, single-stranded RNA retrovirus of the lentivirus genus. **HIV-1** causes most infections worldwide and is the more pathogenic; **HIV-2** is mainly West African and less virulent.
+
+The virion is a lipid bilayer carrying the envelope glycoproteins *gp120*, which binds CD4, and *gp41*, which mediates fusion. Inside lie a matrix (p17), a conical capsid (*p24*) and two copies of RNA, together with the three enzymes *reverse transcriptase*, *integrase* and *protease*. Each enzyme is a drug target.
 !fig d75-1 | Structure of the HIV-1 virion.
 ## Life cycle
 1. gp120 binds CD4 and a co-receptor (CCR5 or CXCR4) on helper T cells, macrophages and dendritic cells.
@@ -19,35 +14,21 @@
 5. The provirus directs new viral RNA and polyproteins, which protease cleaves into functional proteins.
 6. New virions bud off.
 
-Progressive loss of *CD4 helper T cells* destroys cell-mediated immunity.
+The progressive loss of *CD4 helper T cells* is what destroys cell-mediated immunity, and it explains the pattern of disease that follows.
 ## Transmission
-- **Routes:**
-  - Sexual contact.
-  - Blood and blood products.
-  - Shared needles.
-  - Mother to child (pregnancy, delivery, breastfeeding).
-- **Infectious fluids:** blood, semen, vaginal fluid and breast milk, plus deep body fluids (CSF, pleural, peritoneal, pericardial, amniotic).
-- **Negligible-risk fluids:** saliva, tears, sweat, urine and faeces, unless they are bloody.
+HIV spreads by sexual contact, through blood and blood products, by shared needles, and from mother to child during pregnancy, delivery or breastfeeding. The infectious fluids are blood, semen, vaginal fluid and breast milk, together with the deep body fluids: CSF and pleural, peritoneal, pericardial and amniotic fluid. Saliva, tears, sweat, urine and faeces carry a negligible risk unless they are visibly bloody.
 ## Course
-- **Primary (acute) HIV infection:** two to four weeks after exposure. A glandular-fever-like illness: fever, pharyngitis, cervical nodes, rash, mouth and genital ulcers, sometimes meningoencephalitis. Viral load is very high and the patient is highly infectious.
-- **Clinical latency:** about ten years on average. Asymptomatic, sometimes with *persistent generalised lymphadenopathy*. The virus keeps replicating in lymphoid tissue (including tonsils and adenoids) as CD4 counts fall.
-- **AIDS:**
-  - A CD4 count below 200 cells/mm³ (normal 500 to 1500), or an AIDS-defining illness.
-  - AIDS-defining illnesses include Kaposi sarcoma, *Pneumocystis* pneumonia, oesophageal candidiasis, extrapulmonary tuberculosis, cryptococcosis, cerebral toxoplasmosis, and certain lymphomas.
+**Primary (acute) infection** appears two to four weeks after exposure as a glandular-fever-like illness, with fever, pharyngitis, cervical nodes, a rash, mouth and genital ulcers, and sometimes meningoencephalitis. Viral load is very high at this stage and the patient is highly infectious.
+
+A **clinical latency** of about ten years on average follows. The patient is well, sometimes with *persistent generalised lymphadenopathy*, but the virus keeps replicating in lymphoid tissue, including the tonsils and adenoids, while CD4 counts fall.
+
+**AIDS** is defined by a CD4 count below 200 cells/mm³ (normal 500 to 1500) or by an AIDS-defining illness. These include Kaposi sarcoma, *Pneumocystis* pneumonia, oesophageal candidiasis, extrapulmonary tuberculosis, cryptococcosis, cerebral toxoplasmosis and certain lymphomas.
 ## Diagnosis
-- **Fourth-generation combined antigen and antibody immunoassay:** detects p24 antigen and antibodies, positive from about two to six weeks.
-- **Confirmation:** a second, differentiating assay. The Western blot has largely been replaced.
-- **HIV RNA (PCR, viral load):** for acute infection and to monitor treatment.
-- **CD4 count:** measures immune damage and predicts opportunistic disease.
-- **Staging:** the WHO clinical stages 1 to 4, and the CDC stages based on the CD4 count.
+The first-line test is a **fourth-generation combined antigen and antibody immunoassay**, which detects p24 antigen and antibodies and becomes positive at about two to six weeks. A positive result is confirmed with a second, differentiating assay; the Western blot has largely been replaced. **HIV RNA** by PCR (the viral load) diagnoses acute infection and monitors treatment, and the **CD4 count** measures immune damage and predicts opportunistic disease. Patients are staged clinically by the WHO stages 1 to 4, or by the CDC stages based on the CD4 count.
 ## Treatment
-- **Antiretroviral therapy (ART):**
-  - Formerly called HAART: a combination of usually three drugs, often in one daily tablet.
-  - Started *at diagnosis, whatever the CD4 count*. Immediate treatment halves serious illness and death (the START and TEMPRANO trials).
-  - A person with an undetectable viral load does not transmit HIV sexually: *undetectable equals untransmittable*.
-- **Prevention:**
-  - *Pre-exposure prophylaxis (PrEP)* with tenofovir and emtricitabine protects people at high risk.
-  - *Post-exposure prophylaxis (PEP)*: see below.
+**Antiretroviral therapy (ART)**, formerly called HAART, combines usually three drugs, often in a single daily tablet. It is started *at diagnosis, whatever the CD4 count*, because immediate treatment halves serious illness and death (the START and TEMPRANO trials). A person with an undetectable viral load does not transmit HIV sexually: *undetectable equals untransmittable*.
+
+For prevention, *pre-exposure prophylaxis (PrEP)* with tenofovir and emtricitabine protects people at high risk, and *post-exposure prophylaxis (PEP)* is described below.
 !table Classes of antiretroviral drugs
 Class | Action | Examples
 Nucleoside and nucleotide reverse transcriptase inhibitors (NRTI) | Chain termination of viral DNA | Tenofovir, emtricitabine, lamivudine, abacavir, zidovudine
@@ -59,136 +40,58 @@ Entry and fusion inhibitors | Block CCR5 or gp41 | Maraviroc, enfuvirtide
 
 # ENT manifestations | Head to neck.
 ## Categories of disease
-1. **Opportunistic and ordinary infections:** bacterial, viral, fungal, mycobacterial and protozoal. More severe and more often complicated as CD4 falls.
-2. **Malignancies:**
-   - *AIDS-defining*: Kaposi sarcoma, non-Hodgkin lymphoma.
-   - *Non-AIDS-defining*: Hodgkin lymphoma, skin cancers, HPV-related oropharyngeal cancers.
-3. **Neurological disease:**
-   - HIV encephalopathy.
-   - Neuropathies.
-   - Cranial nerve palsies, especially VII.
-4. **Inflammatory and lymphoproliferative conditions:** lymphoepithelial cysts, diffuse infiltrative lymphocytosis.
+Four kinds of disease account for almost everything the ENT surgeon sees. **Infections**, both opportunistic and ordinary, become more severe and more often complicated as the CD4 count falls; they may be bacterial, viral, fungal, mycobacterial or protozoal. **Malignancies** are either *AIDS-defining*, namely Kaposi sarcoma and non-Hodgkin lymphoma, or *non-AIDS-defining*, such as Hodgkin lymphoma, skin cancers and HPV-related oropharyngeal cancer. **Neurological disease** includes HIV encephalopathy, neuropathies and cranial nerve palsies, especially of the facial nerve. Finally there are **inflammatory and lymphoproliferative conditions**, chiefly lymphoepithelial cysts and diffuse infiltrative lymphocytosis.
 ## Ear
-- **External ear:**
-  - Seborrhoeic dermatitis.
-  - Otitis externa, including *necrotising (malignant) otitis externa* from *Pseudomonas* or *Aspergillus*.
-  - Kaposi sarcoma of the pinna and canal.
-- **Middle ear:**
-  - Serous otitis media from adenoid hyperplasia or a nasopharyngeal mass. A unilateral effusion in an adult with HIV needs a nasopharyngeal biopsy to exclude lymphoma or KS.
-  - Recurrent and chronic otitis media, especially in children.
-  - *Pneumocystis* or mycobacterial otitis.
-- **Inner ear and nerves:**
-  - Sensorineural hearing loss from HIV itself, opportunistic infections (CMV, syphilis, cryptococcal meningitis), and ototoxic drugs.
-  - Herpes zoster oticus (*Ramsay Hunt syndrome*).
-  - Facial palsy.
+In the **external ear**, seborrhoeic dermatitis and otitis externa are common, including *necrotising (malignant) otitis externa* from *Pseudomonas* or *Aspergillus*, and Kaposi sarcoma may involve the pinna and canal.
+
+In the **middle ear**, serous otitis media follows adenoid hyperplasia or a nasopharyngeal mass. A unilateral effusion in an adult with HIV therefore needs a nasopharyngeal biopsy to exclude lymphoma or Kaposi sarcoma. Recurrent and chronic otitis media are frequent, especially in children, and *Pneumocystis* or mycobacterial otitis occurs.
+
+The **inner ear and nerves** suffer sensorineural hearing loss from HIV itself, from opportunistic infections (CMV, syphilis, cryptococcal meningitis) and from ototoxic drugs. Herpes zoster oticus (*Ramsay Hunt syndrome*) and facial palsy are commoner than in the general population.
 ## Nose and sinuses
-- **Sinusitis:**
-  - Rhinosinusitis is common. The usual organisms are seen when CD4 counts are above 200.
-  - At low counts, infections are atypical and complicated: *Pseudomonas*, CMV, and *invasive fungal sinusitis* (*Aspergillus*, mucor).
-- **Other infections:** herpes simplex ulcers of the nose.
-- **Tumours:** Kaposi sarcoma, and B-cell, Burkitt and plasmablastic lymphoma.
+Rhinosinusitis is common. While the CD4 count is above 200 the usual organisms are found, but at low counts infections become atypical and complicated, with *Pseudomonas*, CMV and *invasive fungal sinusitis* from *Aspergillus* or mucor. Herpes simplex can ulcerate the nose, and the tumours to remember are Kaposi sarcoma and B-cell, Burkitt and plasmablastic lymphoma.
 ## Mouth and pharynx
-- **Oral candidiasis:** the commonest oral lesion.
-  - *Pseudomembranous* (thrush): white plaques that wipe off.
-  - *Erythematous* (atrophic).
-  - *Angular cheilitis*.
-  - *Hyperplastic*: plaques that do not wipe off.
-  - Treatment: topical nystatin or clotrimazole if CD4 is above 200; systemic fluconazole if it is lower or the oesophagus is involved (odynophagia). Resistance develops with repeated courses.
-- **Oral hairy leukoplakia:**
-  - White, vertically corrugated, hair-like plaques on the *lateral border of the tongue* that cannot be wiped off.
-  - Caused by *EBV*. Asymptomatic and not premalignant.
-  - A strong marker of HIV: it predicts progression to AIDS and should prompt testing.
-  - Biopsy if in doubt (differential: leukoplakia, candida, lichen planus, carcinoma).
-- **Periodontal disease:**
-  - *Linear gingival erythema*.
-  - *Necrotising ulcerative gingivitis and periodontitis*: painful, foul, bleeding, with loss of the interdental papillae and bone.
-  - Treatment: chlorhexidine, debridement, metronidazole, dental care.
-- **Ulcers:**
-  - *Giant aphthous ulcers*: large, deep and painful. Biopsy to exclude herpes, CMV, tuberculosis, histoplasmosis and lymphoma; then topical or intralesional steroids, or thalidomide.
-  - Chronic herpes simplex ulcers (over one month: AIDS-defining).
-- **Oral histoplasmosis:** granulomatous ulcers. AIDS-defining.
-- **Adenotonsillar hypertrophy:** in adults, with nasal obstruction and effusion. Biopsy to exclude lymphoma.
-- **Kaposi sarcoma and lymphoma** of the palate, gingiva, tongue and tonsil.
+**Oral candidiasis** is the commonest oral lesion. It takes four forms: *pseudomembranous* thrush, with white plaques that wipe off; *erythematous* (atrophic) candidiasis; *angular cheilitis*; and *hyperplastic* candidiasis, whose plaques do not wipe off. Topical nystatin or clotrimazole suffices when the CD4 count is above 200; systemic fluconazole is used when it is lower or when odynophagia suggests oesophageal disease. Resistance develops with repeated courses.
+
+**Oral hairy leukoplakia** produces white, vertically corrugated, hair-like plaques on the *lateral border of the tongue* that cannot be wiped off. It is caused by *EBV*, is asymptomatic and is not premalignant, but it is a strong marker of HIV that predicts progression to AIDS and should prompt testing. Biopsy it if in doubt, because the differential includes leukoplakia, candida, lichen planus and carcinoma.
+
+**Periodontal disease** ranges from *linear gingival erythema* to *necrotising ulcerative gingivitis and periodontitis*, which is painful, foul and bleeding, with loss of the interdental papillae and bone. It is treated with chlorhexidine, debridement, metronidazole and dental care.
+
+**Ulcers** need particular care. *Giant aphthous ulcers* are large, deep and painful; biopsy them to exclude herpes, CMV, tuberculosis, histoplasmosis and lymphoma before giving topical or intralesional steroids or thalidomide. Chronic herpes simplex ulcers lasting more than a month are AIDS-defining, as is oral histoplasmosis with its granulomatous ulcers.
+
+In adults, **adenotonsillar hypertrophy** causes nasal obstruction and middle ear effusion and must be biopsied to exclude lymphoma. Kaposi sarcoma and lymphoma also arise on the palate, gingiva, tongue and tonsil.
 ## Larynx
-- Candidal, herpetic, CMV and tuberculous laryngitis.
-- Epiglottitis.
-- Kaposi sarcoma and lymphoma, which may obstruct the airway.
+The larynx may be infected by candida, herpes, CMV or tuberculosis, and epiglottitis occurs. Kaposi sarcoma and lymphoma here can obstruct the airway.
 ## Salivary glands
-- **Benign lymphoepithelial cysts (BLEC):**
-  - About three-quarters of HIV parotid lesions.
-  - Painless, soft, often *bilateral* (up to 80% on imaging) parotid swellings with cervical lymphadenopathy, sometimes the presenting sign of HIV, especially in children.
-  - Thought to arise from intraparotid nodes.
-  - Ultrasound or CT shows multiple thin-walled cysts. FNA confirms.
-  - Treatment: ART (cysts regress), serial aspiration, *doxycycline or alcohol sclerotherapy*, and low-dose radiotherapy. Parotidectomy only for disfiguring lesions or suspected malignancy.
-- **Diffuse infiltrative lymphocytosis syndrome (DILS):**
-  - A Sjögren-like syndrome: bilateral parotid enlargement and sicca symptoms, with CD8 lymphocyte infiltration and often lymphocytic interstitial pneumonitis.
-  - Sjögren antibodies are negative.
-  - Treatment: ART and symptomatic treatment.
-- **Other:** xerostomia (also from drugs), parotitis, and lymphoma.
+**Benign lymphoepithelial cysts (BLEC)** make up about three-quarters of HIV parotid lesions. They present as painless, soft, often *bilateral* parotid swellings (up to 80% are bilateral on imaging) with cervical lymphadenopathy, and they may be the presenting sign of HIV, especially in children. They are thought to arise from intraparotid nodes. Ultrasound or CT shows multiple thin-walled cysts, and FNA confirms the diagnosis. The cysts regress on ART; serial aspiration, *doxycycline or alcohol sclerotherapy* and low-dose radiotherapy are alternatives, and parotidectomy is reserved for disfiguring lesions or suspected malignancy.
+
+**Diffuse infiltrative lymphocytosis syndrome (DILS)** resembles Sjögren's syndrome, with bilateral parotid enlargement and sicca symptoms, but the infiltrate is of CD8 lymphocytes, Sjögren antibodies are negative, and lymphocytic interstitial pneumonitis often coexists. It is treated with ART and symptomatic measures. Xerostomia (often drug-related), parotitis and lymphoma complete the salivary picture.
 ## Neck
-- **Cervical lymphadenopathy:** in most patients. Persistent generalised lymphadenopathy is reactive follicular hyperplasia.
-- **Nodes that need FNA or excision:**
-  - Asymmetric, rapidly growing, painful or matted nodes, or nodes with B symptoms.
-  - Causes include *tuberculosis* (the commonest serious cause in endemic areas), atypical mycobacteria, histoplasmosis, toxoplasmosis, bacillary angiomatosis, Kaposi sarcoma and *lymphoma*.
-- **Deep neck abscesses** occur more often.
+Most patients have **cervical lymphadenopathy**, and persistent generalised lymphadenopathy is a reactive follicular hyperplasia. Nodes that are asymmetric, rapidly growing, painful or matted, or that come with B symptoms, need FNA or excision. The causes then include *tuberculosis* (the commonest serious cause in endemic areas), atypical mycobacteria, histoplasmosis, toxoplasmosis, bacillary angiomatosis, Kaposi sarcoma and *lymphoma*. Deep neck abscesses are also more frequent.
 !imaging lymphadenopathy-hiv | Cervical lymphadenopathy in HIV.
 
 # HIV-associated tumours | Kaposi, lymphoma and others.
 ## Kaposi sarcoma
-- **Nature:** an angioproliferative tumour caused by *human herpesvirus 8* (KSHV).
-- **Variants:**
-  - Classic: elderly men of Mediterranean or Eastern European origin.
-  - Endemic: Africa.
-  - Transplant-related.
-  - AIDS-associated: the commonest and most aggressive.
-- **Sites:** the head and neck are involved in most AIDS cases.
-  - Skin of the face, nose and ears.
-  - The oral cavity, especially the *hard palate*, gingiva and tongue.
-  - The pharynx, larynx and nodes.
-- **Appearance:** violaceous macules, plaques and nodules that do not blanch. Oral lesions may ulcerate, bleed, loosen teeth and obstruct.
-- **Biopsy:** spindle cells, slit-like vascular channels, extravasated red cells and haemosiderin. Differential: haemangioma, pyogenic granuloma, bacillary angiomatosis.
-- **Staging:** look for visceral disease (gut, lungs) and check CD4 and viral load.
-- **Treatment:**
-  - *ART*, under which many lesions regress.
-  - Local lesions: radiotherapy (very sensitive), intralesional vinblastine, cryotherapy, laser.
-  - Extensive disease: liposomal doxorubicin or paclitaxel.
-  - Surgery only to palliate, or to secure the airway.
+Kaposi sarcoma is an angioproliferative tumour caused by *human herpesvirus 8* (KSHV). Four variants are described: the classic form in elderly men of Mediterranean or Eastern European origin, the endemic African form, the transplant-related form, and the AIDS-associated form, which is the commonest and most aggressive.
+
+The head and neck are involved in most AIDS cases: the skin of the face, nose and ears; the oral cavity, especially the *hard palate*, gingiva and tongue; and the pharynx, larynx and nodes. The lesions are violaceous macules, plaques and nodules that do not blanch, and oral lesions may ulcerate, bleed, loosen teeth and obstruct.
+
+Biopsy shows spindle cells, slit-like vascular channels, extravasated red cells and haemosiderin; the differential includes haemangioma, pyogenic granuloma and bacillary angiomatosis. Stage the disease by looking for visceral spread to the gut and lungs and by checking the CD4 count and viral load.
+
+The foundation of treatment is *ART*, under which many lesions regress. Local lesions respond to radiotherapy, to which they are very sensitive, or to intralesional vinblastine, cryotherapy or laser. Extensive disease is treated with liposomal doxorubicin or paclitaxel, and surgery is used only to palliate or to secure the airway.
 ## Lymphoma
-- **Non-Hodgkin lymphoma:**
-  - The second commonest malignancy in HIV. Mostly aggressive B-cell types: diffuse large B-cell, Burkitt, and *plasmablastic* (often in the oral cavity).
-  - Often EBV-driven, extranodal and advanced at presentation, with B symptoms.
-  - Head and neck sites: Waldeyer ring, sinonasal tract, oral cavity, orbit, salivary glands and nodes.
-  - *Primary CNS lymphoma* occurs with very low CD4 counts.
-  - Diagnosis: excision or core biopsy (FNA is usually not enough to classify).
-  - Treatment: chemotherapy (R-CHOP, R-EPOCH) with ART.
-- **Hodgkin lymphoma:**
-  - The commonest non-AIDS-defining cancer in HIV.
-  - Presents at a more advanced stage, with mixed cellularity and lymphocyte-depleted types.
+**Non-Hodgkin lymphoma** is the second commonest malignancy in HIV. It is mostly of aggressive B-cell types: diffuse large B-cell, Burkitt and *plasmablastic*, the last often in the oral cavity. It is frequently EBV-driven, extranodal and advanced at presentation with B symptoms. In the head and neck it affects Waldeyer's ring, the sinonasal tract, oral cavity, orbit, salivary glands and nodes, and *primary CNS lymphoma* occurs when the CD4 count is very low. Diagnosis needs an excision or core biopsy, because FNA is usually not enough to classify it. Treatment is chemotherapy (R-CHOP, R-EPOCH) together with ART.
+
+**Hodgkin lymphoma** is the commonest non-AIDS-defining cancer in HIV. It presents at a more advanced stage, usually as the mixed cellularity or lymphocyte-depleted types.
 ## Other cancers
-- **Skin cancers:** basal and squamous cell carcinomas and melanoma are commoner and more aggressive.
-- **HPV-related cancers:** oropharyngeal, anal and cervical carcinomas are more frequent.
-- **Practical point:** keep a low threshold to biopsy any non-healing lesion.
+Basal and squamous cell carcinomas and melanoma of the skin are commoner and more aggressive, and HPV-related oropharyngeal, anal and cervical carcinomas are more frequent. The practical rule is simple: keep a low threshold to biopsy any lesion that does not heal.
 
 # Protecting the team | Precautions and prophylaxis.
 ## Risk of occupational infection
-- **Risk per exposure:**
-  - Percutaneous injury from an HIV-positive source: about 0.3% (1 in 300).
-  - Mucous membrane exposure: about 0.09%.
-- **Higher risk:**
-  - Deep injury.
-  - A hollow-bore needle that has been in a vessel.
-  - Visible blood on the device.
-  - A source with a high viral load.
+After a percutaneous injury from an HIV-positive source the risk of transmission is about 0.3%, or 1 in 300; after mucous membrane exposure it is about 0.09%. The risk is higher with a deep injury, a hollow-bore needle that has been in a vessel, visible blood on the device, and a source with a high viral load.
 ## Universal (standard) precautions
-- Treat every patient's blood and body fluids as potentially infectious.
-- Wash hands before and after patient contact.
-- Wear gloves, and *double gloves* in surgery.
-- Wear an impermeable gown, mask and eye protection where splashes are likely: tracheostomy, endoscopy, drilling, laser, oral surgery.
-- Pass sharps in a dish (a "hands-free" zone).
-- Never recap needles. Dispose of sharps at once into rigid containers.
-- Use blunt suture needles where possible.
-- Handle soiled linen and specimens as infectious.
-- Staff with weeping dermatitis should avoid direct patient care.
+Every patient's blood and body fluids are treated as potentially infectious. Wash hands before and after patient contact, wear gloves, and *double-glove* in surgery. An impermeable gown, mask and eye protection are needed wherever splashes are likely, as in tracheostomy, endoscopy, drilling, laser and oral surgery.
+
+Sharps are passed in a dish through a "hands-free" zone, needles are never recapped, and sharps go straight into rigid containers; blunt suture needles are used where possible. Soiled linen and specimens are handled as infectious, and staff with weeping dermatitis should avoid direct patient care.
 ## After an exposure
 1. Wash the wound with soap and water and let it bleed. Do not scrub or squeeze. Irrigate mucous membranes and eyes with water.
 2. Report the injury at once and assess the risk.
@@ -197,7 +100,7 @@ Entry and fusion inhibitors | Block CCR5 or gp41 | Maraviroc, enfuvirtide
 5. *Post-exposure prophylaxis (PEP)*: start as soon as possible, ideally within hours and no later than 72 hours. Take three drugs for 28 days, typically tenofovir with emtricitabine (or lamivudine) plus dolutegravir or raltegravir.
 6. Follow-up HIV testing at about 6 weeks and 3 to 4 months. Protect sexual partners and avoid blood donation meanwhile.
 !update PEP regimens
-Older texts give two NRTIs (such as zidovudine and lamivudine) for low-risk exposures and add a third drug for high-risk ones. Current guidance uses a three-drug regimen built around an integrase inhibitor for every exposure that warrants PEP, because it is better tolerated and more completed. Diagnosis has moved from ELISA and Western blot to fourth-generation antigen and antibody assays.
+Older texts give two NRTIs (such as zidovudine and lamivudine) for low-risk exposures and add a third drug for high-risk ones. Current guidance uses a three-drug regimen built around an integrase inhibitor for every exposure that warrants PEP, because it is better tolerated and more often completed. Diagnosis has moved from ELISA and Western blot to fourth-generation antigen and antibody assays.
 !!
 
 # For the examination | What the examiner wants to hear.
@@ -205,14 +108,7 @@ Older texts give two NRTIs (such as zidovudine and lamivudine) for low-risk expo
 !exam What the examiner is looking for
 - **The virion and its life cycle:** where the drugs act.
 - **CD4 count and AIDS;** the stages of infection.
-- **ENT clues to HIV:**
-  - Oral hairy leukoplakia.
-  - Persistent candida.
-  - Necrotising gingivitis.
-  - Bilateral parotid lymphoepithelial cysts.
-  - Generalised lymphadenopathy.
-  - Kaposi sarcoma.
-  - Unilateral effusion with adenoid hyperplasia.
+- **ENT clues to HIV:** oral hairy leukoplakia, persistent candida, necrotising gingivitis, bilateral parotid lymphoepithelial cysts, generalised lymphadenopathy, Kaposi sarcoma, and a unilateral effusion with adenoid hyperplasia.
 - **Kaposi sarcoma:** cause, appearance, treatment.
 - **Universal precautions and PEP.**
 !!
