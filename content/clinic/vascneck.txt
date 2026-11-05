@@ -2,38 +2,16 @@
 
 # Paragangliomas | Tumours of the paraganglia.
 ## Biology
-- **Origin:** paragangliomas arise from neural-crest *paraganglia*, the chemoreceptor tissue of the carotid body, the vagal ganglia, the jugular bulb and the middle ear.
-- **Histology:**
-  - Nests of *chief (type I) cells* surrounded by *sustentacular (type II) cells*, in a pattern called *Zellballen* ("balls of cells").
-  - The stroma is highly vascular.
-- **Sites in the head and neck:**
-  - Carotid body: the commonest, about half to 60%.
-  - Jugular foramen (glomus jugulare).
-  - Middle ear (glomus tympanicum).
-  - Vagal (glomus vagale): about 5 to 10%.
-- **Genetics:**
-  - Up to 40% are hereditary, mostly from mutations in the *succinate dehydrogenase* genes (SDHB, SDHC, SDHD, and others).
-  - Hereditary tumours appear younger, are more often multiple and bilateral (about a third), and come with phaeochromocytomas.
-  - SDHB carriers carry the highest risk of malignancy.
-  - *Genetic testing is offered to all patients.*
-  - High-altitude hypoxia causes carotid body hyperplasia.
-- **Malignancy:** about 5 to 10% of carotid tumours, more of vagal tumours. It is defined only by metastasis to nodes or distant sites, not by histology or local invasion.
-- **Secretion:** catecholamine secretion occurs in only 1 to 3%. Screen everyone with *plasma free metanephrines* or 24-hour urinary fractionated metanephrines, both to find a functioning tumour and to find a phaeochromocytoma before anaesthesia.
+Paragangliomas arise from the neural-crest *paraganglia*, the chemoreceptor tissue of the carotid body, the vagal ganglia, the jugular bulb and the middle ear. Histologically they are nests of *chief (type I) cells* surrounded by *sustentacular (type II) cells*, the pattern called *Zellballen* ("balls of cells"), in a highly vascular stroma. The carotid body is the commonest site in the head and neck, accounting for about half to 60%, followed by the jugular foramen (glomus jugulare), the middle ear (glomus tympanicum) and the vagus (glomus vagale, about 5 to 10%).
+
+Up to 40% are hereditary, mostly from mutations in the *succinate dehydrogenase* genes SDHB, SDHC, SDHD and others. Hereditary tumours appear at a younger age, are more often multiple and bilateral (about a third), and come with phaeochromocytomas; SDHB carriers have the highest risk of malignancy. *Genetic testing is therefore offered to every patient.* Chronic high-altitude hypoxia, by contrast, causes carotid body hyperplasia.
+
+About 5 to 10% of carotid tumours, and more vagal tumours, are malignant, and malignancy is defined only by metastasis to nodes or distant sites, not by histology or local invasion. Only 1 to 3% secrete catecholamines, but everyone is screened with *plasma free metanephrines* or 24-hour urinary fractionated metanephrines, both to find a functioning tumour and to find a phaeochromocytoma before anaesthesia.
 !anat d141_16 s267_56 | The carotid body at the bifurcation, and the carotid sheath and its contents.
 ## Carotid body tumour
-- **Presentation:** a painless, slowly enlarging mass at the *carotid bifurcation*, at the anterior border of sternomastoid at the level of the hyoid.
-  - It grows about 1 mm a year (doubling in four to five years).
-  - It is mobile from side to side but *not vertically* (*Fontaine sign*).
-  - It transmits or has its own pulsation, and may have a bruit.
-  - It may bulge into the oropharynx.
-  - Cranial nerve palsies (X, XII, the sympathetic chain) are uncommon before surgery.
-  - Pain and rapid growth suggest malignancy.
-- **Imaging:**
-  - Contrast CT or MRI shows an intensely enhancing mass *splaying the internal and external carotids* apart.
-  - MRI shows a "*salt-and-pepper*" pattern: haemorrhage is the salt, flow voids are the pepper.
-  - Angiography shows the *lyre sign* (the splayed carotids round a vascular blush).
-  - Functional imaging (Ga-68 DOTATATE PET) looks for multiple tumours.
-  - If carotid sacrifice is possible, assess the circle of Willis and collateral flow with balloon occlusion testing.
+The carotid body tumour is a painless, slowly enlarging mass at the *carotid bifurcation*, at the anterior border of the sternomastoid at the level of the hyoid. It grows about 1 mm a year, doubling in four to five years. It moves from side to side but *not vertically* (*Fontaine's sign*), transmits or has its own pulsation, may have a bruit, and may bulge into the oropharynx. Cranial nerve palsies of X, XII or the sympathetic chain are uncommon before surgery, and pain or rapid growth suggests malignancy.
+
+Contrast CT or MRI shows an intensely enhancing mass *splaying the internal and external carotids* apart. On MRI it has a "*salt-and-pepper*" pattern, haemorrhage providing the salt and flow voids the pepper, and angiography shows the *lyre sign* of splayed carotids around a vascular blush. Functional imaging with Ga-68 DOTATATE PET looks for multiple tumours, and if carotid sacrifice may be needed, the circle of Willis and collateral flow are assessed by balloon occlusion testing.
 !flag No needle, no biopsy
 FNA of a suspected carotid body tumour is avoided, and open or core biopsy condemned. They bleed, they rarely give a diagnosis, and imaging is characteristic.
 !!
@@ -44,56 +22,33 @@ I | Small, localised, easily separated from the vessels | Low risk
 II | Adherent to or partly surrounding the vessels | Careful subadventitial dissection; nerve injury more likely
 III | Completely encasing the carotids | May need carotid resection and grafting; highest risk of stroke and nerve injury
 !!
-- **Treatment options:**
-  - *Surgery*: the only cure. Preferred for younger, fit patients and for growing, secreting or symptomatic tumours.
-  - *Observation with serial MRI*: for older or frail patients with small, stable tumours.
-  - *Radiotherapy* (conventional or stereotactic): for unresectable tumours, the unfit, and some bilateral cases. It halts growth in about 90%, but the tumour does not disappear.
-- **Operation:**
-  1. Transcervical approach, beginning with a level II to III dissection.
-  2. Control of the common, internal and external carotids.
-  3. Identification of the vagus, hypoglossal and superior laryngeal nerves and the sympathetic chain.
-  4. Dissection in the periadventitial plane (the "white line"), working from below upwards.
-  5. The external carotid may be ligated.
-  6. A vascular surgeon should be available for reconstruction.
-- **Preoperative embolisation:** some use it for large tumours. It carries a risk of stroke and nerve palsy.
-- **Complications:**
-  - Cranial nerve deficits (vagus, hypoglossal, sympathetic), common in large tumours. Many recover.
-  - Stroke.
-  - *First bite syndrome*: sharp parotid pain at the first bites of a meal, from loss of sympathetic supply to the parotid.
-  - *Baroreflex failure*: labile blood pressure and tachycardia after bilateral resection. Bilateral tumours are staged, or one is observed.
+Surgery is the only cure and is preferred for younger, fit patients and for tumours that are growing, secreting or causing symptoms. Older or frail patients with small, stable tumours can be observed with serial MRI. Conventional or stereotactic radiotherapy halts growth in about 90% of unresectable tumours, unfit patients and some bilateral cases, though the tumour does not disappear.
+1. Transcervical approach, beginning with a level II to III dissection.
+2. Control of the common, internal and external carotids.
+3. Identification of the vagus, hypoglossal and superior laryngeal nerves and the sympathetic chain.
+4. Dissection in the periadventitial plane (the "white line"), working from below upwards.
+5. The external carotid may be ligated.
+6. A vascular surgeon should be available for reconstruction.
+
+Some surgeons embolise large tumours beforehand, accepting a risk of stroke and nerve palsy. After surgery, cranial nerve deficits of the vagus, hypoglossal and sympathetic chain are common with large tumours, though many recover, and stroke is the feared complication. *First bite syndrome*, a sharp parotid pain with the first bites of a meal, follows loss of the sympathetic supply to the parotid. Resection of both carotid bodies causes *baroreflex failure* with labile blood pressure and tachycardia, so bilateral tumours are staged, or one is observed.
 !ops 73 | Excision of carotid body tumours.
 !imaging carotid-body-paraganglioma | Carotid body paraganglioma.
 ## Vagal paraganglioma
-- **Origin:** usually the inferior (nodose) ganglion of the vagus, high in the parapharyngeal space.
-- **Imaging:** it displaces both carotids *anteromedially* without splaying them, and separates the internal jugular vein from the carotid. It may extend to the jugular foramen and intracranially.
-- **Behaviour:** vagal weakness (hoarseness) is present in about a third. Malignancy is commoner than with carotid tumours.
-- **Treatment:** surgery almost always sacrifices the vagus nerve, so observation or radiotherapy is preferred for small tumours with normal nerve function. Surgery is used for growing tumours and for those that have already paralysed the nerve.
+The vagal paraganglioma usually arises from the inferior (nodose) ganglion, high in the parapharyngeal space. It displaces both carotids *anteromedially* without splaying them, separates the internal jugular vein from the carotid, and may extend to the jugular foramen and intracranially. About a third of patients already have vagal weakness and hoarseness, and malignancy is commoner than with carotid tumours. Because surgery almost always sacrifices the vagus, small tumours with normal nerve function are observed or irradiated, and surgery is kept for growing tumours and for those that have already paralysed the nerve.
 ## Jugular and tympanic paragangliomas
-Glomus jugulare and tympanicum tumours present with *pulsatile tinnitus*, conductive hearing loss, a red mass behind the drum (the *rising sun* sign; *Brown sign*, blanching on pneumatic pressure), and lower cranial nerve palsies (*jugular foramen syndrome*). Classification: Fisch and Glasscock–Jackson. Treatment: surgery through transcanal, mastoid or infratemporal approaches; radiotherapy; or observation.
+Glomus jugulare and tympanicum tumours present with *pulsatile tinnitus*, conductive hearing loss and a red mass behind the drum, the *rising sun* sign, which blanches on pneumatic pressure (*Brown's sign*), and jugulare tumours may cause lower cranial nerve palsies, the *jugular foramen syndrome*. They are classified by Fisch or by Glasscock–Jackson and treated by surgery through transcanal, mastoid or infratemporal approaches, by radiotherapy, or by observation.
 !imaging glomus-jugulare-tumor-paraganglioma | Glomus jugulare paraganglioma.
 !ops 142 | Glomus tumours.
 
 # Neural tumours | Schwannomas and neurofibromas.
 ## Schwannoma (neurilemmoma)
-- **Pathology:**
-  - A benign, encapsulated tumour of Schwann cells that grows *eccentrically* on the nerve, so the fascicles can often be separated.
-  - Histology shows *Antoni A* (cellular, with palisading *Verocay bodies*) and *Antoni B* (loose) areas.
-- **Sites:**
-  - Most head and neck schwannomas arise in the *parapharyngeal space*. They are the second commonest tumour there after salivary tumours.
-  - Usually from the vagus or the cervical sympathetic chain. Also IX, XI, XII, the cervical plexus and the brachial plexus.
-- **Presentation:** a slow, painless lateral neck or parapharyngeal mass. It is mobile from side to side but not vertically, and pain on pressure may radiate along the nerve. Function of the nerve of origin is usually normal.
-- **Imaging:**
-  - Enhancement is less intense than in a paraganglioma, with *no flow voids*. A target sign is seen on T2.
-  - *Vagal* schwannomas push the carotids forward and separate the carotid from the jugular vein.
-  - *Sympathetic* schwannomas push both carotids forward without separating the vessels.
-- **Treatment:**
-  - Intracapsular enucleation preserving the fascicles.
-  - Postoperative deficits are still common: hoarseness for vagal tumours, *Horner syndrome* and first bite syndrome for sympathetic tumours.
-  - Observation is reasonable for small tumours in older patients.
+The schwannoma is a benign, encapsulated tumour of Schwann cells that grows *eccentrically* on its nerve, so the fascicles can often be separated from it. Histology shows cellular *Antoni A* areas with palisading *Verocay bodies* and loose *Antoni B* areas.
+
+Most head and neck schwannomas arise in the *parapharyngeal space*, where they are the second commonest tumour after salivary tumours, usually from the vagus or the cervical sympathetic chain, but also from IX, XI, XII and the cervical and brachial plexuses. They present as a slow, painless lateral neck or parapharyngeal mass that moves from side to side but not vertically, and pressure may send pain along the nerve. The nerve of origin usually still works.
+
+On imaging they enhance less intensely than a paraganglioma, have *no flow voids*, and show a target sign on T2. A *vagal* schwannoma pushes the carotids forward and separates the carotid from the jugular vein, while a *sympathetic* schwannoma pushes both carotids forward without separating the vessels. They are removed by intracapsular enucleation preserving the fascicles, but deficits remain common afterwards: hoarseness after vagal tumours, and *Horner syndrome* and first bite syndrome after sympathetic tumours. Small tumours in older patients can be observed.
 ## Neurofibroma
-- **Pathology:** unencapsulated, and intertwined with the nerve, so the nerve has to be sacrificed to remove it.
-- **Neurofibromatosis type 1:** multiple and plexiform neurofibromas.
-- **Risk:** malignant change to a *malignant peripheral nerve sheath tumour*. Suspect it with rapid growth or pain.
+The neurofibroma is unencapsulated and intertwined with its nerve, so the nerve has to be sacrificed to remove it. Multiple and plexiform neurofibromas are the hallmark of neurofibromatosis type 1, and rapid growth or pain suggests malignant change to a *malignant peripheral nerve sheath tumour*.
 !table Distinguishing parapharyngeal and carotid space masses
 Feature | Carotid body tumour | Vagal paraganglioma | Vagal schwannoma | Sympathetic schwannoma | Pleomorphic adenoma (prestyloid)
 Position of the carotids | Splayed apart at the bifurcation | Pushed anteromedially, not splayed | Pushed anteriorly | Pushed anteriorly, vein not separated | Pushed posteriorly
@@ -115,61 +70,23 @@ Marker | GLUT-1 positive | GLUT-1 negative
 Treatment | Observation; propranolol | Laser, sclerotherapy, embolisation, surgery according to type
 !!
 ## Infantile haemangioma
-The commonest tumour of infancy, about 4 to 5% of infants. Commoner in girls, premature and low-birth-weight babies.
-- **Course:**
-  - Appears in the first weeks.
-  - *Proliferates* rapidly to about 9 to 12 months.
-  - Then *involutes* slowly, largely by five to ten years, often leaving fibrofatty tissue and telangiectasia.
-- **Forms:** superficial (bright red "strawberry"), deep (bluish), or mixed. Focal, multifocal or segmental.
-- **Congenital haemangiomas:** fully grown at birth. They involute rapidly (RICH), partially (PICH) or not at all (NICH).
-- **Associations:**
-  - *Beard distribution*: subglottic haemangioma in about two-thirds. Biphasic stridor appears at about two to three months.
-  - *Segmental facial lesions*: PHACES syndrome (posterior fossa anomalies, haemangioma, arterial anomalies, cardiac and aortic anomalies, eye anomalies, sternal clefts). Assess with MRI and echocardiography.
-  - *Five or more skin lesions*: look for hepatic haemangiomas.
-  - The *Kasabach–Merritt phenomenon* (platelet trapping and coagulopathy) belongs to kaposiform haemangioendothelioma and tufted angioma, not to common haemangiomas.
-- **When to treat:**
-  - The airway.
-  - Periocular lesions that threaten vision (amblyopia).
-  - Ulceration and bleeding.
-  - Lip, nose and ear lesions that will deform.
-  - Large facial lesions.
-  - High-output heart failure.
-- **Treatment:**
-  - *Propranolol* (about 2 mg/kg/day, monitoring for hypoglycaemia, bradycardia and bronchospasm) is first line.
-  - Topical timolol for small superficial lesions.
-  - Steroids are now second line.
-  - Pulsed-dye laser for ulceration and residual telangiectasia.
-  - Surgery for residual deformity, or for selected subglottic and localised lesions.
+The infantile haemangioma is the commonest tumour of infancy, affecting about 4 to 5% of infants, more often girls and premature or low-birth-weight babies. It appears in the first weeks, *proliferates* rapidly to about 9 to 12 months, and then *involutes* slowly, largely by five to ten years, often leaving fibrofatty tissue and telangiectasia. It may be superficial (the bright red "strawberry"), deep and bluish, or mixed, and focal, multifocal or segmental. **Congenital haemangiomas** are fully grown at birth and involute rapidly (RICH), partially (PICH) or not at all (NICH).
+
+Several associations matter. A haemangioma in a *beard distribution* is accompanied by a subglottic haemangioma in about two-thirds of children, with biphasic stridor appearing at about two to three months. A *segmental facial lesion* raises the possibility of PHACES syndrome (posterior fossa anomalies, haemangioma, arterial anomalies, cardiac and aortic anomalies, eye anomalies and sternal clefts), assessed with MRI and echocardiography. *Five or more skin lesions* prompt a search for hepatic haemangiomas. The *Kasabach–Merritt phenomenon* of platelet trapping and coagulopathy belongs to kaposiform haemangioendothelioma and tufted angioma, not to the common haemangioma.
+
+Most haemangiomas are left to involute. Treatment is needed when the airway is threatened, when a periocular lesion threatens vision through amblyopia, for ulceration and bleeding, for lesions of the lip, nose and ear that will deform, for large facial lesions, and for high-output heart failure. *Propranolol*, at about 2 mg/kg/day with monitoring for hypoglycaemia, bradycardia and bronchospasm, is first line; topical timolol suits small superficial lesions; steroids are now second line; the pulsed-dye laser treats ulceration and residual telangiectasia; and surgery is used for residual deformity and for selected subglottic and localised lesions.
 ## Vascular malformations
-- **Capillary malformation (port-wine stain):**
-  - A flat pink to purple patch present at birth, often in a trigeminal distribution. It darkens and thickens ("cobblestones") with age.
-  - V1 involvement raises the question of *Sturge–Weber syndrome* (leptomeningeal angiomatosis, seizures, glaucoma).
-  - Treatment: pulsed-dye laser.
-- **Venous malformation:**
-  - A soft, bluish, compressible mass that swells when dependent or with Valsalva.
-  - *Phleboliths* on imaging. Pain from thrombosis. D-dimer raised in large lesions.
-  - Treatment: sclerotherapy (ethanol, sodium tetradecyl sulfate, bleomycin), Nd:YAG laser, and excision of localised lesions. Compression and head elevation help symptoms.
-- **Lymphatic malformation:** macrocystic or microcystic, as above under congenital masses.
-- **Arteriovenous malformation:**
-  - A high-flow lesion with a *nidus*: warm, pulsatile, with a thrill and bruit.
-  - Quiescent in childhood, then expands at puberty, in pregnancy or after trauma. Can cause ulceration, bleeding, bone destruction and heart failure.
-  - *Schobinger staging*: quiescence, expansion, destruction, decompensation.
-  - Treatment:
-    - Superselective embolisation followed within days by complete surgical excision of the nidus, with reconstruction.
-    - *Never ligate the feeding vessels proximally*: it does not cure, it recruits collaterals and it blocks future embolisation.
-- **Arteriovenous fistula:** usually traumatic, with one or two connections. Endovascular closure or surgery.
+The **capillary malformation**, or port-wine stain, is a flat pink to purple patch present at birth, often in a trigeminal distribution, which darkens and thickens into "cobblestones" with age. Involvement of V1 raises the question of *Sturge–Weber syndrome*, with leptomeningeal angiomatosis, seizures and glaucoma. It is treated with the pulsed-dye laser.
+
+The **venous malformation** is a soft, bluish, compressible mass that swells when dependent or with a Valsalva manoeuvre. Imaging shows *phleboliths*, thrombosis makes it painful, and large lesions raise the D-dimer. It is treated by sclerotherapy with ethanol, sodium tetradecyl sulfate or bleomycin, by the Nd:YAG laser, or by excision of localised lesions, while compression and head elevation ease symptoms. The **lymphatic malformation**, macrocystic or microcystic, is described with the congenital neck masses.
+
+The **arteriovenous malformation** is a high-flow lesion with a *nidus*: warm and pulsatile, with a thrill and bruit. It is quiescent in childhood and expands at puberty, in pregnancy or after trauma, causing ulceration, bleeding, bone destruction and heart failure, and is staged by *Schobinger* as quiescence, expansion, destruction and decompensation. Treatment is superselective embolisation followed within days by complete surgical excision of the nidus with reconstruction. *The feeding vessels must never be ligated proximally*: ligation does not cure, it recruits collaterals, and it blocks future embolisation. An **arteriovenous fistula**, usually traumatic with one or two connections, is closed endovascularly or surgically.
 !imaging esr-vascular-variants | Vascular variants of the head and neck.
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials
 !exam What the examiner is looking for
-- **Carotid body tumour:**
-  - Signs: Fontaine sign and a bruit.
-  - Imaging: splaying and the lyre sign; salt-and-pepper MRI.
-  - No biopsy.
-  - Metanephrines and SDH genetics.
-  - Shamblin groups.
-  - Complications, including first bite syndrome and baroreflex failure.
+- **Carotid body tumour:** Fontaine sign and bruit; splaying, the lyre sign and salt-and-pepper MRI; no biopsy; metanephrines and SDH genetics; Shamblin groups; complications including first bite syndrome and baroreflex failure.
 - **Vagal paraganglioma versus schwannoma:** vessel displacement and flow voids.
 - **Haemangioma versus malformation:** natural history and GLUT-1; propranolol; subglottic haemangioma with beard-distribution lesions.
 - **AVM:** embolise and excise; never ligate proximally.
