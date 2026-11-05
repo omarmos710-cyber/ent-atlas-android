@@ -1,0 +1,215 @@
+@stand Primary hyperparathyroidism used to be the disease of "bones, stones, abdominal groans and psychic moans". Today most patients are found by a raised calcium on a routine blood test. Usually one gland is at fault, a single adenoma, and a localised, focused operation cures it. The art is to confirm the biochemistry, localise the gland, and remember the exceptions: multigland disease, the ectopic gland and familial hypocalciuric hypercalcaemia.
+
+# Applied anatomy | Four small glands, two journeys.
+## Embryology
+- **Superior parathyroids:**
+  - Arise from the *fourth pharyngeal pouch*.
+  - Travel a short distance with the lateral thyroid anlage, so their position is fairly constant.
+- **Inferior parathyroids:**
+  - Arise from the *third pouch* together with the thymus.
+  - Descend further, so they are more variable: from the angle of the jaw to the mediastinum, often in the *thyrothymic ligament* or the thymus.
+## The normal glands
+- **Appearance:**
+  - Each gland is about 5 × 3 × 1 mm and weighs about 40 mg.
+  - Flat, bean- or leaf-shaped, and caramel, tan or mahogany in colour. Fat is paler and brighter yellow.
+  - A gland "glides" within the surrounding fat when it is gently pushed (the *gliding sign*).
+- **Number:** most people have four. About 5% have supernumerary glands.
+- **Symmetry:** glands are usually mirror-images side to side, which helps in finding the opposite gland.
+- **Superior gland:**
+  - At the level of the cricothyroid joint, on the back of the upper thyroid lobe.
+  - About 1 cm above the crossing of the RLN and inferior thyroid artery.
+  - *Deep (dorsal) to the RLN*.
+- **Inferior gland:**
+  - Near the lower pole, within 1 to 2 cm of it.
+  - *Superficial (ventral) to the RLN*.
+- **Blood supply:** mostly from the inferior thyroid artery. This is why its branches are divided on the thyroid capsule at thyroidectomy.
+- **Ectopic sites of adenomas:**
+  - Retro-oesophageal and retrotracheal.
+  - Anterior mediastinum (the thymus).
+  - Within the thyroid.
+  - In the carotid sheath.
+  - Undescended, high in the neck.
+!anat d158_52 d130_92 | The inferior thyroid arteries and recurrent laryngeal nerves, landmarks for the parathyroids; and the relations of the thyroid lobe.
+
+# Calcium physiology | PTH and vitamin D.
+## Parathyroid hormone
+Parathyroid hormone (PTH) raises serum calcium in four ways:
+- It mobilises calcium from bone (osteoclast activity).
+- It increases renal tubular reabsorption of calcium and excretion of phosphate.
+- It stimulates renal 1α-hydroxylation of vitamin D.
+- Through vitamin D, it increases gut absorption of calcium.
+
+Calcitonin from the thyroid C cells has only a minor opposing role in humans. The half-life of PTH is only a few minutes, which is what makes *intraoperative PTH monitoring* possible.
+## Measuring calcium
+- **Total calcium:** varies with albumin. Correct it by adding about 0.8 mg/dL (0.2 mmol/L) for each 1 g/dL fall in albumin below normal.
+- **Ionised calcium:** used when albumin is abnormal.
+
+# Hyperparathyroidism | Primary, secondary, tertiary.
+## Primary hyperparathyroidism
+- **Frequency:** about 1 in 500 women and 1 in 2000 men, mostly after the menopause.
+- **Causes:**
+  - *A single adenoma*: about 85%.
+  - *Four-gland hyperplasia*: 10 to 15%. It may be sporadic, familial, or part of MEN 1 or MEN 2A.
+  - *Double adenomas*: 2 to 5%, mostly in the elderly.
+  - *Carcinoma*: under 1%.
+- **Risk factors:** neck irradiation and lithium.
+- **Biochemistry:**
+  - High calcium with a raised or *inappropriately normal* PTH.
+  - Low phosphate.
+  - High or high-normal urinary calcium.
+  - Vitamin D is measured and replaced if it is low.
+## Clinical features
+!table Manifestations of hypercalcaemia
+System | Features
+Bones | Pain, osteoporosis, fractures; osteitis fibrosa cystica, brown tumours (rare now)
+Kidneys | Stones, nephrocalcinosis, polyuria and polydipsia, renal impairment
+Gut | Constipation, nausea, peptic ulcer, pancreatitis
+Mind and muscle | Fatigue, weakness, depression, poor memory, confusion
+Other | Hypertension, short QT, band keratopathy, gout and pseudogout
+!!
+- **Hypercalcaemic crisis:** dehydration, confusion and arrhythmia when calcium is very high. Treat with:
+  - Intravenous saline.
+  - Bisphosphonates or denosumab.
+  - Calcitonin.
+  - Then urgent surgery.
+## Differential diagnosis of hypercalcaemia
+!table Causes of hypercalcaemia
+PTH raised or normal | PTH suppressed
+Primary hyperparathyroidism | Malignancy (PTH-related peptide from lung, breast, kidney cancers; bone metastases; myeloma)
+Tertiary hyperparathyroidism | Granulomas: sarcoidosis, tuberculosis (excess vitamin D activation)
+Familial hypocalciuric hypercalcaemia (low urinary calcium) | Vitamin D or A excess, milk-alkali syndrome
+Lithium | Thyrotoxicosis, adrenal insufficiency, immobilisation, Paget disease; thiazides
+!!
+!pearl Familial hypocalciuric hypercalcaemia (FHH)
+- **Cause:** an autosomal dominant mutation of the calcium-sensing receptor.
+- **Biochemistry:** lifelong mild hypercalcaemia with normal or slightly raised PTH, and a *low urinary calcium* (calcium/creatinine clearance ratio under 0.01).
+- **Course:** benign.
+- **Surgery:** does not help. Always check the 24-hour urinary calcium before operating.
+!!
+## Secondary and tertiary hyperparathyroidism
+- **Secondary:** a hyperplastic response of all glands to low calcium, mostly from *chronic kidney disease* (phosphate retention and low active vitamin D), or from vitamin D deficiency and malabsorption.
+  - PTH is high and calcium is low or normal.
+  - Medical treatment: phosphate binders, active vitamin D, and *calcimimetics* (cinacalcet).
+  - Surgery for refractory disease (bone pain, pruritus, calciphylaxis): *subtotal (three-and-a-half gland) parathyroidectomy*, or total parathyroidectomy with autotransplantation into the forearm, plus thymectomy.
+- **Tertiary:** autonomous hypersecretion that persists after the cause is corrected, typically after renal transplantation, with hypercalcaemia.
+## Parathyroid carcinoma
+- **Features:**
+  - Very high calcium (often over 14 mg/dL) and PTH.
+  - A palpable neck mass.
+  - RLN palsy.
+  - Both bone and renal disease at once.
+- **At surgery:** a hard, grey-white, adherent gland invading the thyroid or muscle.
+- **Treatment:** *en bloc* resection with the thyroid lobe and adjacent tissue, without rupturing the capsule.
+- **Recurrence:** common. Death usually comes from uncontrollable hypercalcaemia.
+## Indications for surgery
+Parathyroidectomy is the only cure. It is recommended for all symptomatic patients. In asymptomatic patients it is recommended for any of the following:
+- Serum calcium more than 1 mg/dL (0.25 mmol/L) above the upper limit of normal.
+- Age under 50.
+- Osteoporosis (T-score −2.5 or less) or a vertebral fracture.
+- Creatinine clearance under 60 mL/min, kidney stones or nephrocalcinosis, or high urinary calcium.
+- Patients who cannot be followed up.
+
+Many surgeons also offer surgery to asymptomatic patients who are otherwise fit, because of neurocognitive and bone benefits.
+
+# Localisation | Before a focused operation.
+Localisation does not make the diagnosis; the biochemistry does. It is used to plan a focused operation and is essential before reoperation.
+- **Ultrasound:**
+  - Cheap and operator-dependent.
+  - Shows a hypoechoic, oval nodule behind the thyroid, with a polar feeding vessel.
+  - Poor for retrotracheal and mediastinal glands.
+- **Sestamibi (technetium-99m MIBI) scintigraphy:**
+  - Taken up by both thyroid and parathyroid, but *retained* by the mitochondria-rich adenoma after the thyroid has washed out.
+  - Detects about 85 to 90% of single adenomas.
+  - Less sensitive for small adenomas, double adenomas and hyperplasia.
+  - SPECT and SPECT-CT give a three-dimensional position.
+- **Four-dimensional CT:** shows the typical enhancement of an adenoma (arterial enhancement, early washout). Useful when the scans disagree and for reoperation.
+- **Others:**
+  - Choline PET-CT, which is increasingly used.
+  - MRI.
+  - Selective venous sampling for PTH, in difficult reoperations.
+!flag Concordance matters
+A *concordant* ultrasound and sestamibi scan localise a single adenoma in most patients and permit a focused approach. *Discordant* or negative scans suggest multigland disease or an ectopic gland. These patients need bilateral exploration by an experienced surgeon.
+!!
+
+# Surgery | Focused or bilateral.
+## Approaches
+- **Focused (minimally invasive) parathyroidectomy:**
+  - A small incision over the localised gland.
+  - The adenoma removed by controlling its vascular pedicle, keeping clear of the RLN.
+  - *Intraoperative PTH* measured before and 10 minutes after excision. A fall of more than 50% from the highest value, into the normal range (the *Miami criterion*), confirms cure.
+- **Bilateral neck exploration:**
+  - All four glands are identified.
+  - Used for non-localising scans, multigland disease, MEN and familial disease, and when PTH fails to fall.
+- **Searching for a missing gland:**
+  - *Superior gland*: in the tracheo-oesophageal groove and retro-oesophageal space, along the inferior thyroid artery.
+  - *Inferior gland*: in the thymus and thyrothymic ligament (cervical thymectomy), and in the carotid sheath.
+  - Then intrathyroidal ultrasound or lobectomy on that side.
+  - Do not perform blind sternotomy at the first operation.
+- **Hyperplasia:**
+  - Subtotal parathyroidectomy, leaving a well-vascularised remnant of about 50 mg marked with a clip.
+  - Or total parathyroidectomy with autotransplantation.
+  - Thymectomy is added in MEN 1.
+!ops 84 83 85 86 | Parathyroidectomy for primary and secondary disease, intraoperative PTH, and reoperation.
+## Complications
+- **Hypocalcaemia:**
+  - Temporary hypocalcaemia is common.
+  - *Hungry bone syndrome*: severe, prolonged hypocalcaemia with low phosphate and magnesium after removal of a long-standing adenoma with bone disease. It needs large doses of calcium and calcitriol.
+  - Permanent hypoparathyroidism: about 1 to 5% after adenoma surgery, more after surgery for hyperplasia or secondary disease.
+- **RLN palsy:** 0.4 to 4%.
+- **Haematoma.**
+- **Persistent or recurrent hyperparathyroidism.** Causes:
+  - A missed adenoma or a second adenoma.
+  - Unrecognised hyperplasia.
+  - A supernumerary or ectopic gland.
+  - Parathyromatosis from rupture of the capsule.
+  - Carcinoma.
+  - A wrong diagnosis, such as FHH.
+
+# Hypoparathyroidism and hypocalcaemia | After thyroid and parathyroid surgery.
+## Causes and features
+- **Causes:**
+  - Usually removal or devascularisation of the parathyroids during thyroidectomy or central neck dissection.
+  - Rarely autoimmune, DiGeorge syndrome (absent third and fourth pouch derivatives), magnesium deficiency, or infiltration.
+- **Features:** usually at 24 to 72 hours after surgery.
+  - Perioral and fingertip tingling and cramps.
+  - Carpopedal spasm and tetany.
+  - Laryngospasm with stridor.
+  - Seizures.
+  - Confusion.
+  - Prolonged QT and arrhythmia.
+- **Signs:**
+  - *Chvostek sign*: tapping the facial nerve in front of the ear makes the face twitch. About 5 to 10% of normal people have it, so record it before surgery.
+  - *Trousseau sign*: carpal spasm with a blood-pressure cuff inflated above systolic for three minutes.
+## Management
+- **Monitoring:** measure calcium after total thyroidectomy. A PTH level a few hours after surgery predicts who will become hypocalcaemic and who can go home safely.
+- **Mild symptoms:** oral calcium carbonate and calcitriol (alfacalcidol).
+- **Severe symptoms or tetany:**
+  - Intravenous 10% calcium gluconate, 10 to 20 mL over ten minutes, then an infusion with cardiac monitoring.
+  - Correct magnesium.
+- **Permanent hypoparathyroidism:** defined as lasting beyond six months. Lifelong calcium and active vitamin D, aiming for low-normal calcium to avoid hypercalciuria; recombinant PTH in selected cases.
+- **Prevention:**
+  - Capsular dissection.
+  - Identifying and preserving the glands with their blood supply.
+  - Autotransplanting any gland that is devascularised or removed by mistake.
+  - Near-infrared autofluorescence to identify glands.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Embryology and anatomy:**
+  - Fourth pouch superior glands, deep to the RLN.
+  - Third pouch inferior glands, superficial to it.
+  - Ectopic sites.
+- **Biochemistry:** high calcium with non-suppressed PTH. Exclude FHH with urinary calcium.
+- **Adenoma versus hyperplasia;** the MEN syndromes.
+- **Localisation:** ultrasound, sestamibi, 4D CT; why localisation is not diagnosis.
+- **Focused parathyroidectomy** and the intraoperative PTH fall.
+- **Post-thyroidectomy hypocalcaemia:** signs and treatment.
+!!
+## Common pitfalls
+!pit
+- Operating on familial hypocalciuric hypercalcaemia.
+- Treating negative localisation scans as a reason not to operate on proven disease.
+- Stopping after one adenoma in MEN 1, where all glands are abnormal.
+- Rupturing the capsule of a suspected carcinoma or adenoma, which seeds parathyromatosis.
+!!

@@ -1,0 +1,266 @@
+@stand The face, scalp and ears take the most sun, so the head and neck carry most skin cancers. Basal cell carcinoma is common and slow and almost never spreads, but it destroys locally. Cutaneous squamous carcinoma can metastasise to the parotid and neck and can track along nerves. Merkel cell carcinoma and melanoma are the dangerous minority. For all of them, biopsy first, clear margins before complex reconstruction, and think about the parotid and neck nodes.
+
+# Overview | Who gets skin cancer.
+## The cancers
+- **Basal cell carcinoma (BCC):** about 70 to 75% of non-melanoma skin cancers. The commonest human cancer.
+- **Cutaneous squamous cell carcinoma (cSCC):** about 20%.
+- **Merkel cell carcinoma:** rare and aggressive.
+- **Melanoma:** about a fifth to a third of melanomas arise in the head and neck. Incidence is rising.
+- **Rarer tumours:** sebaceous carcinoma (eyelid), adnexal carcinomas, dermatofibrosarcoma protuberans, angiosarcoma of the scalp in the elderly, and atypical fibroxanthoma.
+## Risk factors
+- **Ultraviolet radiation:**
+  - Cumulative exposure for BCC and SCC.
+  - Intense, intermittent exposure and *blistering sunburns in childhood* for melanoma.
+  - Tanning beds.
+- **Skin type:** fair skin (Fitzpatrick type I and II), red or blond hair, freckling, many or atypical naevi.
+- **Immunosuppression:**
+  - Organ transplant recipients have up to a hundredfold risk of SCC, which is aggressive.
+  - Also HIV and chronic lymphocytic leukaemia.
+  - Reduce immunosuppression where possible. Switching to mTOR inhibitors (sirolimus) helps.
+- **Radiation and arsenic exposure;** chronic scars and ulcers (*Marjolin ulcer*: SCC in a burn scar).
+- **Inherited syndromes:**
+  - *Xeroderma pigmentosum*: defective DNA repair; skin cancers in childhood.
+  - *Naevoid BCC (Gorlin) syndrome*: *PTCH1* mutation in the hedgehog pathway. Multiple BCCs, jaw keratocysts, palmar pits, calcified falx. Avoid radiotherapy.
+  - *Familial atypical mole and melanoma syndrome*: *CDKN2A*.
+  - Albinism.
+- **Merkel cell polyomavirus:** in most Merkel cell carcinomas.
+
+# Assessment | History, examination, biopsy.
+## Examination
+- **The lesion:** size, borders, colour, ulceration, fixation.
+- **The whole skin.**
+- **The draining nodes:**
+  - *Parotid nodes* for the anterior scalp, temple, forehead, cheek and ear.
+  - *Postauricular and suboccipital nodes* for the posterior scalp.
+  - The neck.
+- **The cranial nerves:** for perineural spread. Look for facial numbness (V) and weakness (VII), especially with SCC of the cheek, temple and forehead.
+!anat s285_78 d199_21 | Lymph node regions of the head and neck, and the superficial nodes of the head (parotid, postauricular, occipital) that drain the scalp and face.
+## Biopsy
+- **Shave biopsy:** for superficial, non-pigmented lesions.
+- **Punch or incisional biopsy:** for larger lesions, through the thickest part.
+- **Excision biopsy with narrow (1 to 3 mm) margins:** for small suspicious pigmented lesions.
+- **Avoid:**
+  - Shave biopsy of a suspected melanoma, which loses the depth.
+  - A wide excision before diagnosis. It distorts lymphatics for sentinel node mapping and may be wrong in extent.
+## Imaging
+- **CT or MRI:** for large, recurrent or high-risk tumours, suspected bone invasion, nodes, and perineural spread (MRI along V and VII to the skull base).
+- **Ultrasound with FNA:** for nodes.
+- **PET-CT:** for advanced disease.
+
+# Basal cell carcinoma | Locally destructive, rarely spreading.
+## Features
+A pearly, translucent papule with rolled edges and telangiectasia that ulcerates centrally (a *rodent ulcer*).
+- **Subtypes:**
+  - Nodular: the commonest.
+  - Superficial: a red, scaly patch on the trunk.
+  - Pigmented.
+  - Aggressive types: *morphoeic* (sclerosing, scar-like, with ill-defined edges), infiltrative, micronodular and basosquamous.
+- **Behaviour:** grows slowly, invading along embryonic fusion planes (nasal ala, inner canthus, preauricular region) and around cartilage and bone. Metastasis is very rare.
+## High-risk BCC
+- Site in the *H zone* of the central face: nose, eyelids, lips, ear, periauricular and temple areas.
+- Size: 10 mm or more on the cheek, forehead, scalp or neck.
+- Ill-defined borders.
+- Aggressive subtype.
+- Recurrence.
+- Perineural invasion.
+- Previous radiotherapy.
+- Immunosuppression.
+## Treatment
+- **Low-risk BCC:** surgical excision with about *4 mm margins*, checked histologically. Curettage and cautery for small, low-risk lesions off the face.
+- **High-risk and recurrent BCC, and H-zone lesions:** *Mohs micrographic surgery*. Horizontal frozen sections examine 100% of the margin, giving the lowest recurrence rates with maximal tissue conservation. Alternatively, excision with formal margin assessment before reconstruction.
+- **Radiotherapy:** for patients unfit for surgery and for positive margins that cannot be re-excised. Avoid it in Gorlin syndrome and connective-tissue disease.
+- **Superficial BCC:** topical imiquimod or 5-fluorouracil, photodynamic therapy, cryotherapy.
+- **Locally advanced or metastatic BCC:** *hedgehog pathway inhibitors* (vismodegib, sonidegib). Side effects: muscle cramps, taste loss, alopecia, weight loss. Then cemiplimab.
+- **Follow-up:** patients often develop new lesions. Annual skin checks and sun protection.
+
+# Cutaneous squamous cell carcinoma | The one that spreads to the parotid.
+## Spectrum
+- *Actinic keratosis*: premalignant, rough scaly patches on sun-damaged skin.
+- *Bowen disease*: SCC in situ.
+- *Keratoacanthoma*: a fast-growing crateriform nodule with a keratin plug that may regress. Treat it as a well-differentiated SCC and excise it.
+- Invasive SCC: a keratotic nodule or ulcer that grows over months. Commonest on the lip, ear, scalp, temple and cheek.
+## High-risk features
+- Diameter 2 cm or more.
+- *Depth over 2 mm*, or invasion beyond subcutaneous fat.
+- Poor differentiation, or desmoplastic, acantholytic and adenosquamous variants.
+- *Perineural invasion*, especially of named nerves.
+- Lymphovascular invasion.
+- Site on the ear or lip.
+- Recurrence.
+- Arising in a scar.
+- *Immunosuppression*.
+## Treatment of the primary
+- **Field change and SCC in situ:** cryotherapy, topical 5-FU or imiquimod, photodynamic therapy, curettage.
+- **Low-risk invasive SCC:** excision with *4 to 6 mm margins*.
+- **High-risk SCC:**
+  - Wider margins (6 to 10 mm), or Mohs surgery with complete margin assessment.
+  - Resection of underlying bone, cartilage or parotid as required.
+  - *Adjuvant radiotherapy* for perineural invasion, close or positive margins, recurrent disease and T3 to T4 tumours.
+## Nodes and the parotid
+- About 5% of high-risk SCCs metastasise, mostly to the *parotid* (from the scalp, forehead, temple, ear and cheek) and the neck.
+- **Treatment of nodal disease:** superficial (or total) parotidectomy with a neck dissection of the at-risk levels, then postoperative radiotherapy. Add cisplatin or a clinical trial for extranodal extension and positive margins.
+  - *Posterior scalp and neck* primaries: a *posterolateral neck dissection* (levels II to V with postauricular and suboccipital nodes).
+- **Sentinel node biopsy:** may be considered for selected high-risk tumours with an N0 neck.
+- **Advanced, unresectable or metastatic cSCC:** the PD-1 inhibitor *cemiplimab* (and pembrolizumab) gives high response rates and has replaced platinum and EGFR inhibitors as first-line systemic treatment.
+!ops 161 71 92 | Management of skin cancer, posterolateral neck dissection, and superficial parotidectomy.
+## Lip cancer
+- **Site:** most lip SCCs arise on the *lower lip* vermilion of outdoor workers. Upper lip and commissure tumours are more aggressive.
+- **Treatment:**
+  - Wedge (V or W) excision for lesions up to a third of the lip.
+  - Flaps for larger defects: Abbe, Estlander, Karapandzic, Bernard–Burow.
+  - Vermilionectomy (lip shave) for actinic cheilitis.
+  - Radiotherapy or brachytherapy as an alternative.
+- **Nodes:** submental and submandibular nodes are treated if involved.
+!ops 27 | Cancer of the lip.
+
+# Merkel cell carcinoma | Fast and neuroendocrine.
+- **Who:** the elderly, the sun-damaged and the immunosuppressed. Associated with *Merkel cell polyomavirus*.
+- **Appearance:** a rapidly growing, painless, firm, red-violet dome-shaped nodule. Remembered as *AEIOU*: asymptomatic, expanding rapidly, immunosuppressed, older than 50, UV-exposed site.
+- **Histology:** small round blue cells. *CK20 positive* in a perinuclear dot pattern, neuroendocrine markers positive, and *TTF-1 negative*, which distinguishes it from metastatic small-cell lung cancer.
+- **Behaviour:**
+  - Early nodal spread: about a third of clinically node-negative patients have occult nodal disease.
+  - Local recurrence and distant metastasis.
+  - Five-year survival about 30 to 65%.
+- **Treatment:**
+  - Wide excision (1 to 2 cm margins) with *sentinel lymph node biopsy*, the most sensitive staging test.
+  - Neck dissection or radiotherapy for nodal disease.
+  - Adjuvant radiotherapy to the primary and nodal basin is common.
+  - Checkpoint inhibitors (avelumab, pembrolizumab, nivolumab) for advanced disease.
+
+# Melanoma | Depth is destiny.
+## Precursors and types
+- **Precursors:** up to a third of melanomas arise in a pre-existing naevus.
+  - Congenital naevi: giant naevi over 20 cm carry the highest risk.
+  - Dysplastic (atypical) naevi.
+  - *Lentigo maligna* (Hutchinson melanotic freckle), melanoma in situ on sun-damaged facial skin.
+- **Types:**
+  - *Superficial spreading*: the commonest, about 70%, with a radial then a vertical growth phase.
+  - *Nodular*: 10 to 15%, vertical growth from the start, thick at diagnosis.
+  - *Lentigo maligna melanoma*: on the face of the elderly, with a long radial phase.
+  - *Acral lentiginous*: palms, soles and nails. The commonest type in dark-skinned populations, and not sun-related.
+  - *Desmoplastic*: often amelanotic, with a scar-like nodule on the head and neck. Strongly *neurotropic*, so local recurrence is the problem rather than nodes. Needs wide margins and adjuvant radiotherapy.
+  - *Mucosal*: see below.
+## Recognition
+- **ABCDE:**
+  - **A**symmetry.
+  - **B**order irregularity.
+  - **C**olour variation.
+  - **D**iameter over 6 mm.
+  - **E**volution: change in size, shape, colour, itching or bleeding.
+- **"Ugly duckling" sign:** a mole unlike the patient's others.
+- **Dermoscopy** helps.
+- **Head and neck sites** have a worse prognosis than the trunk and limbs. The scalp is worst, then the ear, then the face and neck.
+- **Mimics:** seborrhoeic keratosis, pigmented BCC, blue naevus, Spitz naevus, naevus of Ota.
+## Pathology and staging
+- **Breslow thickness:** the depth from the granular layer to the deepest tumour cell. With *ulceration*, it is the key prognostic factor and defines the T stage.
+- **Clark levels:** describe the anatomical level of invasion. Now historical.
+- **Other factors reported:** mitotic rate, microsatellites, lymphovascular and perineural invasion, and margins.
+- **Immunohistochemistry:** S-100, SOX10, HMB-45 and Melan-A.
+- **Mutation testing:** *BRAF V600* (about half of cutaneous melanomas), NRAS, and c-KIT (in mucosal and acral melanoma).
+!table T stage of cutaneous melanoma (AJCC 8th edition)
+T | Breslow thickness | Ulceration
+Tis | In situ | —
+T1a | Under 0.8 mm | Absent
+T1b | Under 0.8 mm with ulceration, or 0.8 to 1.0 mm | Either
+T2 | Over 1.0 to 2.0 mm | a: absent; b: present
+T3 | Over 2.0 to 4.0 mm | a: absent; b: present
+T4 | Over 4.0 mm | a: absent; b: present
+!!
+- **Stages:**
+  - Stages I and II: localised disease.
+  - Stage III: nodal, satellite or in-transit disease.
+  - Stage IV: distant metastases. LDH is part of M staging.
+- **Investigation:**
+  - Thin melanomas need no imaging.
+  - Thick or ulcerated tumours, and stage III and IV disease: CT or PET-CT and brain MRI, with LDH.
+## Treatment of the primary
+- **Wide local excision margins:**
+  - In situ: 0.5 to 1 cm.
+  - Up to 1 mm thick: 1 cm.
+  - 1 to 2 mm: 1 to 2 cm.
+  - Over 2 mm: 2 cm.
+  - Margins are often modified on the face for function.
+- **Depth of excision by site:**
+  - Scalp: down to the periosteum, or the outer table if it is involved.
+  - Ear: partial or total auriculectomy, or lateral temporal bone resection if the canal is involved.
+  - Face: deep to the mimetic muscles if needed.
+  - Over the parotid: to the parotid fascia, or include a superficial parotidectomy.
+- **Lentigo maligna:** staged excision with margin control (the "spaghetti" technique or Mohs with immunostains), or imiquimod or radiotherapy for the frail.
+!flag Do not reconstruct before the margins are known
+Complex flaps should wait until the final pathology confirms clear margins. Otherwise residual tumour is buried under a flap. Use a temporary dressing or skin graft and reconstruct afterwards (*delayed reconstruction*).
+!!
+## The neck
+- **Sentinel lymph node biopsy (SLNB):**
+  - Offered for melanomas over 0.8 mm (T1b and above) with a clinically N0 neck. It is the strongest predictor of survival and guides adjuvant therapy.
+  - Technique:
+    1. Preoperative *lymphoscintigraphy* with technetium-99m colloid. SPECT-CT localises nodes in the complex head and neck drainage, including parotid, postauricular and contralateral sites.
+    2. Intraoperative gamma probe, with or without blue dye.
+    3. Facial nerve monitoring in the parotid.
+  - A positive sentinel node is now usually followed by *ultrasound surveillance* rather than completion dissection. MSLT-II showed no survival advantage from completion dissection, only better regional control.
+- **Clinically or radiologically positive nodes:** therapeutic neck dissection.
+  - Add superficial parotidectomy for anterior scalp, temple, forehead, ear and cheek primaries.
+  - Do a posterolateral dissection with postauricular and suboccipital nodes for posterior scalp primaries.
+- **Adjuvant radiotherapy:** for extranodal extension, multiple nodes, or large nodes, to improve regional control. Hypofractionated schedules are often used.
+!ops 62 | Sentinel lymph node biopsy.
+## Systemic therapy
+- **Checkpoint inhibitors:**
+  - Anti-PD-1 (nivolumab, pembrolizumab), alone or with anti-CTLA-4 (ipilimumab).
+  - First-line treatment for unresectable and metastatic melanoma, with durable responses in about half.
+  - Immune side effects: colitis, hepatitis, pneumonitis, thyroiditis, hypophysitis.
+- **BRAF with MEK inhibitors:** dabrafenib with trametinib, encorafenib with binimetinib. For BRAF-mutant disease. Rapid responses.
+- **Adjuvant therapy:** anti-PD-1, or BRAF/MEK inhibitors for BRAF-mutant disease, after resection of stage III (and high-risk stage II) melanoma reduces relapse.
+- **Others:** intralesional oncolytic virus (T-VEC) for in-transit disease. Dacarbazine and interferon are now historical.
+!update The neck after a positive sentinel node, and adjuvant immunotherapy
+Older practice was completion neck dissection for every positive sentinel node, with interferon as the only adjuvant. Since MSLT-II and DeCOG-SLT, most patients are followed with nodal ultrasound instead. Adjuvant anti-PD-1 or BRAF/MEK therapy is now standard for resected stage III disease.
+!!
+## Mucosal melanoma
+- **Frequency:** about 1% of melanomas, but the head and neck is its commonest site.
+- **Sites:** nasal cavity (septum, turbinates), sinuses, oral cavity (palate, gingiva), nasopharynx.
+- **Presentation:** often amelanotic. Unilateral obstruction, epistaxis, or a pigmented palatal lesion.
+- **Behaviour:** presents late. Breslow depth does not apply; any mucosal melanoma is at least T3.
+- **Treatment:**
+  - Complete resection (endoscopic or open).
+  - Postoperative radiotherapy for local control.
+  - Therapeutic, not elective, neck dissection.
+- **Prognosis:** poor (five-year survival 20 to 30%), from distant metastasis. Immunotherapy and KIT inhibitors have roles.
+## Melanoma of unknown primary
+Nodal melanoma in the parotid or neck with no primary, which has perhaps regressed. Examine the skin, scalp, mucosa and eyes. Treat as stage III disease: dissection, adjuvant radiotherapy and systemic therapy. The prognosis is similar to or better than that of stage III disease with a known primary.
+
+# Reconstruction | After excision.
+Defects are closed according to the *reconstructive ladder*:
+1. Healing by secondary intention: concave sites such as the conchal bowl and medial canthus.
+2. Primary closure along relaxed skin tension lines.
+3. Skin grafts:
+   - Full-thickness grafts from the postauricular or supraclavicular skin for the nose and eyelids.
+   - Split-thickness grafts for the scalp over periosteum.
+4. Local flaps: advancement, rotation, transposition (rhomboid, bilobed), and interpolated flaps (paramedian forehead, nasolabial).
+5. Regional flaps: cervicofacial, deltopectoral, pectoralis major, trapezius.
+6. Free tissue transfer.
+
+Scalp defects can also be managed by tissue expansion.
+!ops 173 171 165 164 162 | Skin grafting, cervicofacial and paramedian forehead flaps, scalp reconstruction, and free flaps.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **BCC:** features, high-risk features, Mohs surgery and its rationale, hedgehog inhibitors.
+- **cSCC:** high-risk features, parotid metastasis, perineural spread, cemiplimab.
+- **Merkel cell carcinoma:** CK20 and TTF-1; sentinel node biopsy.
+- **Melanoma:**
+  - ABCDE.
+  - Breslow and ulceration.
+  - Margins by thickness.
+  - Sentinel node indications and lymphoscintigraphy.
+  - MSLT-II.
+  - Checkpoint and BRAF/MEK inhibitors.
+- **Drainage:** of the anterior versus posterior scalp, and when to add parotidectomy.
+- **Mucosal melanoma.**
+!!
+## Common pitfalls
+!pit
+- Shave biopsy of a pigmented lesion.
+- Wide excision before diagnosis, which ruins sentinel node mapping.
+- Flap reconstruction before margins are clear.
+- Missing facial numbness or weakness as perineural spread from a "treated" facial SCC.
+- Radiotherapy in Gorlin syndrome.
+!!

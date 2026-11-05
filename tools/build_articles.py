@@ -91,11 +91,15 @@ def compile_one(tid, text):
         if para:
             t = ' '.join(para); words += len(t.split())
             out.append('<p>%s</p>' % inline(t, refs)); para = []
+        def li(x):
+            sub = '<ul class="arli2">%s</ul>' % ''.join('<li>%s</li>' % inline(y, refs) for y in x[1]) if x[1] else ''
+            return '<li>%s%s</li>' % (inline(x[0], refs), sub)
         if lst:
-            words += sum(len(x.split()) for x in lst)
-            out.append('<ul class="arl">%s</ul>' % ''.join('<li>%s</li>' % inline(x, refs) for x in lst)); lst = []
+            words += sum(len((x[0] + ' ' + ' '.join(x[1])).split()) for x in lst)
+            out.append('<ul class="arl">%s</ul>' % ''.join(li(x) for x in lst)); lst = []
         if olst:
-            out.append('<ol class="arol">%s</ol>' % ''.join('<li>%s</li>' % inline(x, refs) for x in olst)); olst = []
+            words += sum(len((x[0] + ' ' + ' '.join(x[1])).split()) for x in olst)
+            out.append('<ol class="arol">%s</ol>' % ''.join(li(x) for x in olst)); olst = []
 
     def close_br():
         nonlocal open_br
@@ -234,12 +238,19 @@ def compile_one(tid, text):
         m = re.match(r'!(\w+)\s*(.*)', ln)
         if m and m.group(1) in ('pearl', 'flag', 'exam', 'update', 'note', 'ward', 'pit', 'differ', 'table', 'tree', 'ladder'):
             flush(); box = (m.group(1), m.group(2).strip(), []); continue
+        m = re.match(r'\s{2,}- (.*)', ln)
+        if m and (lst or olst):
+            (lst or olst)[-1][1].append(m.group(1).strip()); continue
         if ln.startswith('- '):
-            if para: flush()
-            lst.append(ln[2:].strip()); continue
+            if para or olst: flush()
+            lst.append([ln[2:].strip(), []]); continue
+        m = re.match(r'\d+\.\s+(.*)', ln)
+        if m:
+            if para or lst: flush()
+            olst.append([m.group(1).strip(), []]); continue
         if not ln.strip():
             flush(); continue
-        if lst: flush()
+        if lst or olst: flush()
         para.append(ln.strip())
     close_sec()
     if c: out.append('</section>')

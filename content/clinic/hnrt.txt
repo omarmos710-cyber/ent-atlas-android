@@ -1,0 +1,275 @@
+@stand Most patients with head and neck cancer receive radiotherapy at some point: alone for early tumours, with cisplatin for advanced ones, after surgery when the pathology shows risk, or for palliation. The surgeon needs to know enough radiation biology and chemotherapy to choose the right treatment, prepare the patient (teeth first), recognise the toxicities that come back to the ENT clinic, and know when a dry mouth, a stiff jaw or an exposed bone is the radiotherapy and when it is the cancer returning.
+
+# Radiation basics | Physics and biology.
+## Radiation and dose
+- **What is used:** *ionising* radiation (short wavelength, high energy) is used to treat cancer. It includes photons (X-rays from machines, gamma rays from isotopes such as cobalt-60) and particles (electrons, protons, neutrons, carbon ions).
+- **Unit:** the *gray* (Gy) is 1 joule absorbed per kilogram. 1 Gy equals 100 rad, and 1 cGy equals 1 rad.
+- **Treatment energies:** megavoltage photons (4 to 25 MV) from a *linear accelerator*. They spare the skin because the maximum dose builds up below the surface.
+- **Electrons:** deposit dose near the surface and fall off sharply. Useful for skin, lip and superficial nodes over the spinal cord.
+- **Protons:** deposit most of their energy at a set depth (the *Bragg peak*) with almost no exit dose. Useful near the skull base, orbit and brainstem, for re-irradiation, and in children.
+- **Neutrons and carbon ions:** high linear energy transfer, with roles in salivary and radioresistant tumours.
+!fig d73-1 d73-2 | First, the electromagnetic spectrum. Second, a modern linear accelerator.
+## How radiation kills
+- **Mechanism:** radiation damages DNA, mostly indirectly. It ionises water to free radicals that cause *double-strand breaks*. Cells die when they try to divide (mitotic death), or by apoptosis.
+- **Oxygen:** fixes the damage. Hypoxic cells are two to three times more resistant. This is why anaemia is corrected (keep haemoglobin around 12 g/dL), smoking stopped, and hypoxic sensitisers such as nimorazole tried.
+- **Why fractionation works: the four R's.**
+  - Normal tissues *repair* sublethal damage between fractions better than tumour cells do.
+  - Tumour cells *reoxygenate*.
+  - Cells *redistribute* into sensitive phases of the cycle.
+  - *Repopulation* of tumour accelerates after about four weeks. That is why gaps in treatment are harmful and why overall time matters.
+- **Biological effective dose:** the effect depends on dose per fraction as well as total dose, described by the linear-quadratic model, BED = nd(1 + d/(α/β)). Late-reacting tissues (low α/β, about 3) are spared by small fractions, while tumours and acute tissues (α/β about 10) are not.
+## Fractionation
+- **Conventional:** 1.8 to 2 Gy a day, five days a week.
+- **Doses by target:**
+  - About 50 Gy for microscopic disease, such as the elective neck.
+  - 60 Gy after surgery.
+  - 66 Gy for close or positive margins.
+  - 70 Gy in 35 fractions over 7 weeks for gross tumour.
+- **Hyperfractionation:** smaller fractions twice daily (1.1 to 1.2 Gy) to a higher total dose (74 to 80 Gy). Better local control with fewer late effects, but more acute toxicity.
+- **Accelerated fractionation:** shortens overall time (six fractions a week, or a concomitant boost) to counter repopulation. Benefit is mainly for patients treated without chemotherapy.
+- **Hypofractionation:** larger fractions (2.5 Gy or more). For palliation and frail patients, and in stereotactic treatment.
+
+# Delivery | From mask to beam.
+## Planning
+1. **Immobilisation:** a thermoplastic mask, with a mouth bite to displace the tongue.
+2. **Planning CT,** fused with MRI or PET.
+3. **Contouring:**
+   - Gross tumour volume (GTV).
+   - Clinical target volume (CTV, adding microscopic spread and nodal levels).
+   - Planning target volume (PTV, a margin for set-up error).
+   - *Organs at risk*: spinal cord, brainstem, parotids, optic apparatus, cochlea, larynx, mandible, constrictors.
+4. **Dose calculation** on a planning system.
+5. **Daily image verification.**
+!fig d73-3 d73-4 | First, a thermoplastic immobilisation mask. Second, contouring of target volumes and organs at risk on the planning scan.
+## Techniques
+- **Conventional two-dimensional fields:** parallel opposed lateral fields. Now historical.
+- **Three-dimensional conformal radiotherapy (3D-CRT):** CT-based, with several shaped beams.
+- **Intensity-modulated radiotherapy (IMRT):** the current standard. Inverse planning with many beams or arcs (VMAT) whose intensity is modulated by moving multileaf collimators. The dose is "curved" around the spinal cord and parotids, and different dose levels are given to different targets at the same time (*simultaneous integrated boost*). *Parotid-sparing IMRT* reduces permanent xerostomia.
+- **Image-guided radiotherapy (IGRT):** daily imaging on the machine (cone-beam CT) corrects set-up errors and allows smaller margins.
+- **Adaptive radiotherapy:** re-planning during treatment as the tumour shrinks and the patient loses weight.
+- **Stereotactic radiosurgery and stereotactic body radiotherapy (SRS, SBRT):** very precise high doses in one to five sessions. Used for vestibular schwannoma (12 to 13 Gy in one session), paraganglioma, small recurrences and re-irradiation.
+## Brachytherapy
+- **What it is:** a sealed source placed in or against the tumour (interstitial or intracavitary), giving a high local dose with rapid fall-off.
+- **Sources:** iridium-192 (high dose rate, remote afterloading), and formerly caesium-137, radium and gold seeds.
+- **Uses:** lip, oral tongue, floor of mouth, nasopharynx (recurrence or boost), and as a boost after external beam treatment.
+!fig d73-5 d73-6 | First, interstitial brachytherapy needles for cancer of the lip. Second, brachytherapy of the tongue (A–C).
+
+# Radiotherapy in practice | When and why.
+## Roles
+- **Definitive (radical) treatment with organ preservation:**
+  - *Alone*: for early tumours (T1 to T2 N0) of the larynx (glottic cancer, with control around 90% for T1), oropharynx, nasopharynx and hypopharynx.
+  - *With concurrent chemotherapy*: for advanced tumours.
+- **Postoperative (adjuvant) radiotherapy:**
+  - Starts four to six weeks after surgery. Surgery-to-end-of-radiotherapy time should be under about 11 weeks.
+  - Indications:
+    - Close (under 5 mm) or positive margins.
+    - Extranodal (extracapsular) extension.
+    - Two or more positive nodes, or nodes over 3 cm.
+    - pT3 to pT4 tumours.
+    - Perineural or lymphovascular invasion.
+    - Oral cavity or oropharyngeal cancer with level IV or V nodes.
+    - Poor differentiation.
+  - *Positive margins and extranodal extension* are the indications for adding *concurrent cisplatin*.
+- **Preoperative radiotherapy:** now rarely used. It increases wound complications and fistulae.
+- **Palliative radiotherapy:** short courses for pain, bleeding, fungation and obstruction.
+!table Pre- versus postoperative radiotherapy
+Preoperative | Postoperative
+Shrinks borderline tumours and sterilises the edges | Surgery done on unirradiated tissue: easier, better healing
+Oxygenated, undisturbed tumour bed | Dose tailored to pathology (margins, nodes); a higher dose possible
+Smaller fields | Larger fields; scarred, hypoxic tumour bed
+More fistulae, flap failures, carotid blow-out | Delay from surgical complications allows regrowth
+!!
+## Site by site
+- **Larynx:**
+  - Early glottic cancer: radiotherapy alone or transoral laser surgery.
+  - Advanced cancer: concurrent cisplatin chemoradiation for larynx preservation (the RTOG 91-11 trial).
+  - Total laryngectomy for T4a disease with cartilage destruction, or for a non-functioning larynx.
+- **Hypopharynx:** larynx preservation is possible but less often successful.
+- **Nasopharynx:**
+  - Radiotherapy is the primary treatment, covering levels II, V and the retropharyngeal nodes.
+  - T1N0 disease: radiotherapy alone. More advanced disease: cisplatin chemoradiation, often with induction or adjuvant chemotherapy.
+  - EBV DNA guides follow-up.
+- **Oropharynx:**
+  - Radiotherapy or chemoradiation, or transoral surgery with adjuvant treatment.
+  - HPV-positive disease has a much better outlook (3-year survival 82% versus 57% in RTOG 0129). De-escalation is only done within trials.
+- **Oral cavity:** primarily surgical, with adjuvant radiotherapy according to pathology.
+- **Salivary cancers:** surgery, then radiotherapy for high grade, positive margins, nodes or perineural spread. For adenoid cystic carcinoma, include the named nerve to the skull base.
+- **Neck after chemoradiation:** a PET-CT at 12 weeks. Neck dissection only for PET-positive residual disease (the PET-NECK trial).
+- **Re-irradiation:** salvage surgery is preferred. Re-irradiation (often hyperfractionated, with chemotherapy, or SBRT or protons) cures a minority, at a high risk of toxicity. Best candidates are a second primary many years after the first treatment.
+!table Typical doses
+Setting | Dose
+Elective neck (microscopic disease) | 50 to 54 Gy
+Postoperative, clear margins | 60 Gy in 30 fractions
+Postoperative, close or positive margins, extranodal extension | 66 Gy in 33 fractions
+Gross disease (definitive) | 70 Gy in 35 fractions over 7 weeks
+Early glottic cancer (T1) | 63 Gy in 28 fractions, or 66 Gy in 33
+Vestibular schwannoma (radiosurgery) | 12 to 13 Gy single fraction
+!!
+
+# Chemotherapy and drugs | Partners to radiation.
+## Goals
+1. Radiosensitisation, which improves locoregional control.
+2. Treating micrometastases.
+3. Organ preservation.
+4. Palliating recurrent or metastatic disease.
+5. Debulking before surgery or radiotherapy.
+
+Chemotherapy alone does not cure squamous carcinoma of the head and neck.
+## How it is given
+- **Concurrent with radiotherapy (chemoradiation):**
+  - The standard for locally advanced disease. The MACH-NC meta-analysis showed an absolute survival gain of about 6.5% at five years, all from concurrent treatment.
+  - *Cisplatin* 100 mg/m² every three weeks (or 40 mg/m² weekly) is the drug of choice.
+  - Adding other drugs adds toxicity, not cure.
+- **Induction (neoadjuvant) chemotherapy:**
+  - *TPF* (docetaxel, cisplatin, 5-FU) is better than PF. Used to select patients for larynx preservation, and for bulky nodal disease.
+  - It has not consistently beaten chemoradiation alone (DeCIDE, PARADIGM).
+- **Adjuvant chemotherapy after definitive treatment:** of no benefit, except in nasopharyngeal cancer.
+- **Postoperative chemoradiation:** for positive margins and extranodal extension (the EORTC 22931 and RTOG 9501 trials).
+## Targeted therapy and immunotherapy
+- **Cetuximab:** a monoclonal antibody against EGFR, which is overexpressed in over 90% of these tumours.
+  - With radiotherapy, it improved survival over radiotherapy alone (the Bonner trial). Side effects: acneiform rash and infusion reactions.
+  - It is used for patients unfit for cisplatin.
+  - With platinum and 5-FU, it was the first-line treatment for metastatic disease (EXTREME).
+- **PD-1 checkpoint inhibitors (nivolumab, pembrolizumab):**
+  - Improved survival in recurrent or metastatic disease after platinum (CheckMate 141, KEYNOTE-040).
+  - Pembrolizumab, alone for PD-L1-positive tumours or with platinum and 5-FU, is first-line treatment for recurrent or metastatic disease (KEYNOTE-048).
+  - Immune-related side effects: thyroiditis, pneumonitis, colitis, hepatitis, adrenal insufficiency, rash.
+!update Cetuximab is not a substitute for cisplatin
+In HPV-positive oropharyngeal cancer, radiotherapy with cetuximab gave worse survival and control than radiotherapy with cisplatin, without less toxicity (RTOG 1016, De-ESCALaTE HPV). Cisplatin remains the standard partner. Cetuximab is reserved for patients who cannot receive platinum.
+!!
+!table Drugs and their characteristic toxicities
+Drug | Use | Key toxicity
+Cisplatin | Concurrent, induction, palliative | Nephrotoxicity (hydrate), high-frequency sensorineural hearing loss and tinnitus, neuropathy, severe nausea, marrow
+Carboplatin | Cisplatin-unfit, weekly concurrent | Marrow (thrombocytopenia)
+5-Fluorouracil | Induction (PF, TPF), palliative | Mucositis, diarrhoea, hand–foot syndrome, coronary spasm
+Docetaxel, paclitaxel | Induction (TPF), palliative | Neutropenia, neuropathy, alopecia, hypersensitivity
+Methotrexate | Palliative | Mucositis, marrow, renal and liver toxicity
+Bleomycin | Formerly squamous and lymphoma | Pulmonary fibrosis, fever
+Doxorubicin | Sarcomas, salivary cancers | Cardiomyopathy
+Cetuximab | With radiotherapy if cisplatin-unfit; palliative | Acneiform rash, infusion reaction, hypomagnesaemia
+Pembrolizumab, nivolumab | Recurrent and metastatic disease | Immune-related: thyroid, lung, gut, liver, adrenal
+!!
+!pearl Before cisplatin
+- **Baseline audiogram:** cisplatin ototoxicity is cumulative and permanent, starting at 4 to 8 kHz.
+- **Renal function:** creatinine clearance.
+- **Blood count and electrolytes, including magnesium.**
+- **Fitness for hydration:** check cardiac function.
+
+Children and patients with existing hearing loss deserve monitoring during treatment. Sodium thiosulfate protects hearing in children.
+!!
+
+# Toxicity | Early and late.
+## Acute effects
+These appear from the second week of treatment and settle within weeks of finishing.
+- **Mucositis:** pain, odynophagia, weight loss. Treatment:
+  - Mouth care with salt and bicarbonate rinses.
+  - Analgesia, including opioids.
+  - Treatment of candida.
+  - Nutritional support: dietitian, nasogastric tube or gastrostomy.
+- **Skin:** erythema, then dry and moist desquamation. Gentle washing, no rubbing, no unprescribed creams.
+- **Taste loss and sticky saliva.**
+- **Oedema of the larynx.**
+- **Fatigue.**
+- **Marrow suppression with chemotherapy.**
+## Late effects
+These are permanent and relate to dose per fraction and total dose.
+- **Xerostomia:** parotid dose above about 26 Gy mean. Causes caries, candida, dysphagia, taste loss. Management:
+  - Parotid-sparing IMRT.
+  - Pilocarpine.
+  - Saliva substitutes.
+  - Submandibular gland transfer.
+- **Radiation caries:** prevented by daily fluoride trays and lifelong dental care.
+- **Osteoradionecrosis.**
+- **Soft-tissue fibrosis and trismus:** jaw exercises and devices.
+- **Dysphagia:**
+  - Pharyngeal constrictor fibrosis, stricture, aspiration.
+  - Swallowing exercises throughout treatment ("use it or lose it").
+- **Laryngeal problems:** oedema, chondronecrosis, a fixed cord.
+- **Hypothyroidism:** in up to half after neck radiotherapy. Check TSH every 6 to 12 months.
+- **Ear:**
+  - Serous otitis media.
+  - Sensorineural hearing loss, worse with cisplatin.
+  - Radionecrosis of the ear canal and temporal bone.
+- **Eyes and nerves:**
+  - Cataract and retinopathy.
+  - *Optic neuropathy*.
+  - Brainstem and temporal lobe necrosis.
+  - *Radiation myelitis*, avoided by keeping the cord dose under about 45 to 50 Gy. Lhermitte sign is an early, reversible form.
+- **Carotid problems:** atherosclerosis and stroke, and *carotid blow-out* after salvage surgery.
+- **Second malignancies:** sarcomas and thyroid cancer.
+!table Early and late complications of radiotherapy
+Early | Late
+Mucositis, odynophagia | Permanent xerostomia, radiation caries
+Skin erythema and desquamation | Skin atrophy, fibrosis, telangiectasia
+Loss of taste, thick saliva | Osteoradionecrosis, chondronecrosis
+Laryngeal oedema | Trismus, dysphagia, stricture
+Candidiasis | Hypothyroidism, hypopituitarism
+Marrow suppression | Serous otitis, sensorineural loss
+Fatigue, nausea | Cataract, optic neuropathy, myelitis, brain necrosis; second cancers
+!!
+## Osteoradionecrosis (ORN)
+Exposed, devitalised irradiated bone that fails to heal over three months, without tumour.
+- **Site:** almost always the *mandible* (the posterior body).
+- **Mechanism:** radiation leaves bone hypovascular, hypocellular and hypoxic, with radiation-induced fibrosis.
+- **Risk factors:**
+  - Doses above 60 Gy.
+  - Dental extraction after radiotherapy.
+  - Poor dentition.
+  - Surgery on irradiated bone.
+  - Smoking and alcohol.
+- **Presentation:**
+  - Pain and exposed bone.
+  - Trismus.
+  - Orocutaneous fistula.
+  - Pathological fracture.
+  - Exclude recurrence with biopsy and imaging.
+- **Prevention:**
+  - Dental assessment *before* radiotherapy.
+  - Extraction of unsalvageable teeth at least two weeks before starting.
+  - Fluoride.
+  - Atraumatic dentistry afterwards.
+- **Treatment:**
+  - Conservative: irrigation, antibiotics, removal of loose sequestra.
+  - Medical: pentoxifylline with tocopherol (with or without clodronate, "PENTOCLO"); hyperbaric oxygen in selected cases.
+  - Advanced disease: resection with vascularised bone reconstruction (fibula free flap).
+!ops 182 162 | Segmental mandibulectomy, and microvascular reconstruction.
+## Care during treatment
+- **Before starting:**
+  - Dental clearance.
+  - Stop smoking.
+  - Correct anaemia.
+  - Dietitian, speech and swallowing therapist, and nurse specialist review.
+  - Prophylactic gastrostomy for selected high-risk patients.
+- **Every week:** weight, blood count (and renal function with cisplatin), mucositis and skin care, and analgesia.
+- **Psychological support** and help to stop drinking.
+- **Admission:** for dehydration, neutropenic sepsis, aspiration, or uncontrolled pain.
+
+# Other tumours treated with radiation | Beyond squamous carcinoma.
+- **Vestibular schwannoma:** stereotactic radiosurgery for small and residual tumours. Control above 95%.
+- **Paragangliomas:** radiotherapy or radiosurgery halts growth in about 90%.
+- **Juvenile angiofibroma:** radiotherapy for unresectable intracranial residual disease. It regresses slowly over years.
+- **Sinonasal NK/T-cell lymphoma:** radiotherapy is central, combined with asparaginase-based chemotherapy.
+- **Chordoma and chondrosarcoma of the skull base:** maximal safe resection, then high-dose proton therapy.
+- **Olfactory neuroblastoma:** craniofacial or endoscopic resection with postoperative radiotherapy.
+- **Lymphoma of Waldeyer ring and chloroma:** radiotherapy within combined treatment.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **The gray;** the four R's; why fractionate; why gaps and anaemia are bad.
+- **IMRT and IGRT;** what parotid sparing achieves; proton Bragg peak.
+- **Indications for postoperative radiotherapy,** and when to add cisplatin (margins, extranodal extension).
+- **Chemoradiation:**
+  - Cisplatin and its ototoxicity.
+  - The roles of TPF induction, cetuximab and immunotherapy.
+- **Early and late toxicities;** osteoradionecrosis and its prevention.
+- **PET-CT at 12 weeks** to decide on neck dissection after chemoradiation.
+!!
+## Common pitfalls
+!pit
+- Starting radiotherapy before the teeth are assessed.
+- Extracting teeth in an irradiated mandible without precautions.
+- Long breaks in radiotherapy.
+- Starting postoperative radiotherapy more than six weeks after surgery.
+- Forgetting the TSH check and audiometry in follow-up.
+!!
