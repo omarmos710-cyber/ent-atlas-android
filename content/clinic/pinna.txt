@@ -14,13 +14,13 @@ Lee: The first three hillocks from the first arch, the last three from the secon
 !!
 
 # Congenital anomalies | From a tag to an absent ear.
-!fig d8-1 | A normal pinna.
+!fig d8-1n | A normal pinna.
 ## Absent or small
 ### Anotia
 Complete absence of the pinna, often with an absent canal.
 ### Microtia
 A small, malformed pinna, graded from mild deformity to a peanut-shaped vestige. It is often associated with canal atresia and middle ear anomalies, so hearing must be tested (see the microtia and atresia topic).
-!fig d8-2 d8-3 | First, anotia: no pinna or canal on the left. Second, microtia of the right ear (a peanut ear).
+!fig d8-2n d8-3 | First, anotia: no pinna or canal on the left. Second, microtia of the right ear (a peanut ear).
 ## Abnormal shape
 - **Bat ear (prominent ear):** the commonest anomaly, from an underdeveloped antihelical fold or deep concha. The normal angle between the pinna and the head is about 15 to 30 degrees.
 - **Cup and lop ear:** folding or deficiency of the upper pinna.
