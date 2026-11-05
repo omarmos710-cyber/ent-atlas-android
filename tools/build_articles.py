@@ -302,6 +302,9 @@ def update_sw(ids):
     s = open(sw, encoding='utf-8').read()
     s = re.sub(r'"clinic/art/[^"]+",', '', s)
     add = ''.join('"clinic/art/%s.js",' % i for i in ['index', 'figs'] + ids)
+    # book figures used by the articles go into the offline media cache too
+    s = re.sub(r'"clinic/fig/[^"]+",', '', s)
+    add += ''.join('"clinic/fig/%s",' % f for f in sorted(os.listdir(FIGDIR)) if f.lower().endswith(('.jpg', '.jpeg', '.png', '.webp')))
     s = s.replace('"clinic/links.js",', '"clinic/links.js",' + add, 1)
     h = hashlib.md5()
     for f in ['index.html', 'xsearch.js', 'clinic/clinic.js', 'clinic/clinic.css', 'clinic/data.js'] + ['clinic/art/%s.js' % i for i in ['index', 'figs'] + ids]:
