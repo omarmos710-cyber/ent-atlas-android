@@ -1,4 +1,5 @@
 /* ENT Atlas v21: one search for everything, and the minimal launcher Home.
+   Also indexes every figure placed in the clinical articles (clinic/art/figs.js).
    Indexes clinical topics, operations (with their guides), anatomy notes, labelled figures, figures,
    imaging cases, tables, flashcards, mnemonics, tracer routes and danger structures.
    Understands lay symptoms, abbreviations, British/American spelling, plurals and small typos. */
@@ -51,9 +52,9 @@ const SYMS=[["Ear pain or discharge","otalgia otorrhea ear pain earache ear disc
 
 /* ---------- index ---------- */
 let IX=null,BUILDING=null;
-const TYPES={cl:["Clinical",1.3],sym:["Symptom",1.5],op:["Surgical",1.12],note:["Anatomy notes",1],cond:["Imaging",1.06],tab:["Tables",.95],fig:["Figures",.82],card:["Flashcards",.78],mn:["Mnemonics",.8],tr:["Tracer",.95],dz:["Danger structures",1],lbl:["Labelled on figures",1]};
+const TYPES={cl:["Clinical",1.3],sym:["Symptom",1.5],op:["Surgical",1.12],note:["Anatomy notes",1],cond:["Imaging",1.06],tab:["Tables",.95],fig:["Figures",.82],afig:["Clinical figures",.9],card:["Flashcards",.78],mn:["Mnemonics",.8],tr:["Tracer",.95],dz:["Danger structures",1],lbl:["Labelled on figures",1]};
 const loadJS=u=>new Promise((ok,no)=>{const s=document.createElement("script");s.src=u;s.onload=ok;s.onerror=no;document.head.appendChild(s)});
-async function needData(){const w=[];if(!window.CLINIC_DATA)w.push(loadJS("clinic/data.js").catch(()=>0));if(!window.THEATRE_INDEX)w.push(loadJS("theatre/index.js").catch(()=>0));if(!window.THEATRE_AUTH)w.push(loadJS("theatre/auth.js").catch(()=>0));await Promise.all(w)}
+async function needData(){const w=[];if(!window.CLINIC_DATA)w.push(loadJS("clinic/data.js").catch(()=>0));if(!window.THEATRE_INDEX)w.push(loadJS("theatre/index.js").catch(()=>0));if(!window.THEATRE_AUTH)w.push(loadJS("theatre/auth.js").catch(()=>0));if(!window.CLART_FIGS)w.push(loadJS("clinic/art/figs.js").catch(()=>0));await Promise.all(w)}
 const rn=r=>((typeof RMAP!=="undefined"?RMAP:undefined)&&RMAP[r]&&RMAP[r].name)||"";
 const J=a=>(a||[]).map(x=>Array.isArray(x)?x.join(" — "):x).join(" · ");
 function build(){const items=[];const add=(o)=>{o.i=items.length;items.push(o)};
@@ -64,6 +65,8 @@ function build(){const items=[];const add=(o)=>{o.i=items.length;items.push(o)};
  ((typeof CONDS!=="undefined"?CONDS:undefined)||[]).forEach(c=>add({ty:"cond",t:c.t,k:(c.cat||"")+" "+(c.sec||"")+" "+rn(c.r),b:[c.ddx,J(c.pts),J(c.paras)].join(" · "),path:"Imaging · "+(c.cat||""),go:`data-go="cond:${c.id}"`,th:c.imgs&&c.imgs[0]?{im:c.imgs[0]}:null}));
  ((typeof TABLES!=="undefined"?TABLES:undefined)||[]).forEach(x=>add({ty:"tab",t:x.title,k:(x.regions||[]).map(rn).join(" "),b:[J(x.head),(x.rows||[]).map(r=>r.join(" ")).join(" · "),x.note||""].join(" · "),path:"Table · "+(x.regions||[]).map(rn).slice(0,2).join(", "),go:`data-go="tables" data-sec="tb-${x.id}"`}));
  if((typeof FIG!=="undefined"?FIG:undefined))Object.keys(FIG).forEach(k=>{if(k.startsWith("m/"))return;const f=FIG[k];add({ty:"fig",t:f[0],k:rn(f[3]),b:"",path:"Figure · "+rn(f[3]),fig:k,th:{fig:k}})});
+ /* every figure placed in a clinical article (book figures and anatomy plates), opening the article at that figure */
+ const CT={};if(C)C.t.forEach(t=>CT[t.id]=t.t);(window.CLART_FIGS||[]).forEach(x=>{const top=CT[x.a]||x.a;add({ty:"afig",t:x.t,k:top+" "+x.w+" "+x.c,b:"",path:"Clinical figure · "+top.replace(/\s*:.*$/,""),sub:x.c+(x.w?" · "+x.w:""),go:`data-go="cl:t-${x.a}~f${x.n}"`,th:x.f?{src:"clinic/fig/"+x.f[0]+".jpg"}:x.k&&x.k[0]?{fig:x.k[0]}:null})});
  ((typeof CARDS!=="undefined"?CARDS:undefined)||[]).forEach(c=>add({ty:"card",t:c.q,k:rn(c.r),b:c.a,path:"Flashcard · "+rn(c.r),card:c}));
  ((typeof MNEM!=="undefined"?MNEM:undefined)||[]).forEach(m=>add({ty:"mn",t:m.topic,k:m.m,b:m.x,path:"Mnemonic · "+rn(m.r),mn:m}));
  ((typeof TRACE!=="undefined"?TRACE:undefined)||[]).forEach(t=>add({ty:"tr",t:t.name,k:(t.kind||"")+" "+(t.regions||[]).map(rn).join(" "),b:t.intro||"",path:"Tracer · nerve and vessel course",go:`data-go="tracer:${t.id}"`}));
@@ -102,10 +105,10 @@ const E=s=>esc(String(s==null?"":s));
 function hl(text,words){let t=E(strip(text));if(!words.length)return t;const re=new RegExp("\\b("+words.map(w=>w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")).join("|")+")[a-z]*","gi");return t.replace(re,m=>`<mark>${m}</mark>`)}
 function snippet(it,words){if(!it.b)return "";const src=strip(it.b);if(!words.length)return src.slice(0,140);const lw=src.toLowerCase();let best=-1;for(const w of words){const i=lw.search(new RegExp("\\b"+w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")));if(i>=0&&(best<0||i<best))best=i}
  if(best<0)return src.slice(0,140)+(src.length>140?"…":"");let s=Math.max(0,src.lastIndexOf(" ",Math.max(0,best-50)));const e=Math.min(src.length,s+170);return (s>0?"…":"")+src.slice(s,e).trim()+(e<src.length?"…":"")}
-const thumb=it=>it.th?(it.th.fig?`<img class="xth" src="${figThumb(it.th.fig)}" alt="" loading="lazy" decoding="async">`:(typeof imSrc==="function"?`<img class="xth" src="${imSrc(it.th.im)}" alt="" loading="lazy" decoding="async">`:"")):"";
+const thumb=it=>it.th?(it.th.src?`<img class="xth" src="${it.th.src}" alt="" loading="lazy" decoding="async">`:it.th.fig?(typeof FIG!=="undefined"&&FIG[it.th.fig]?`<img class="xth" src="${figThumb(it.th.fig)}" alt="" loading="lazy" decoding="async">`:""):(typeof imSrc==="function"?`<img class="xth" src="${imSrc(it.th.im)}" alt="" loading="lazy" decoding="async">`:"")):"";
 function rowHTML(r,words,figset){const it=r.it;const ty=TYPES[it.ty][0];
  const attrs=it.go?it.go:it.fig?`data-fig="${it.fig}" data-set="${figset}"`:`data-xexp="${it.i}"`;
- const sn=it.ty==="fig"?"":snippet(it,words);
+ const sn=it.ty==="fig"?"":it.ty==="afig"?it.sub:snippet(it,words);
  return `<div class="xr"><button class="xrh" ${attrs}>${thumb(it)}<span class="xm"><span class="xp"><i class="xt xt-${it.ty}">${E(ty)}</i>${E(it.path.replace(/^[^·]*·\s*/,""))}</span><b>${hl(it.t,words)}</b>${sn?`<small>${hl(sn,words)}</small>`:""}</span>${it.go||it.fig?ic("chev",16):`<span class="xplus" aria-hidden="true">+</span>`}</button><div class="xb" hidden></div></div>`}
 function symHTML(s,words){const C=window.CLINIC_DATA;if(!C)return "";const by={};C.t.forEach(t=>by[t.id]=t);
  return `<div class="xsym"><span class="xp"><i class="xt xt-sym">Symptom</i>Think of</span><b>${E(s.n)}</b><div class="xchips">${s.ids.map(i=>by[i]).filter(Boolean).map(t=>`<button data-go="cl:t-${t.id}">${E(t.t.replace(/\s*:.*$/,""))}</button>`).join("")}</div></div>`}
@@ -115,7 +118,7 @@ let SF="all",RES=null,LBL=[];const PER=6;
 function groups(){const g={};RES.list.forEach(r=>{(g[r.it.ty]=g[r.it.ty]||[]).push(r)});return g}
 function labelRows(q){LBL=[];try{if(q.trim().length>=4&&typeof findLabels==="function")LBL=findLabels(q.trim())||[]}catch(e){}return LBL}
 function renderResults(box,q){if(!RES){box.innerHTML=`<p class="xnote">Building the index…</p>`;return}
- const words=RES.words,g=groups();labelRows(q);const order=["cl","op","note","cond","lbl","fig","tab","card","mn","tr","dz"];
+ const words=RES.words,g=groups();labelRows(q);const order=["cl","afig","op","note","cond","lbl","fig","tab","card","mn","tr","dz"];
  const counts=order.map(k=>[k,k==="lbl"?LBL.length:(g[k]||[]).length]).filter(x=>x[1]);
  if(!counts.length&&!RES.syms.length){box.innerHTML=`<p class="xnote">Nothing found for “${E(q)}”. Try fewer words, or a different spelling.</p>`;return}
  if(SF!=="all"&&!counts.some(c=>c[0]===SF))SF="all";const total=counts.reduce((a,c)=>a+c[1],0);
@@ -134,7 +137,7 @@ const currentQ=()=>{const i=document.getElementById("xq")||document.getElementBy
 function recent(){try{return JSON.parse(localStorage.getItem("xs_recent")||"[]")}catch(e){return []}}
 let RT=0;function remember(q){clearTimeout(RT);RT=setTimeout(()=>{q=q.trim();if(q.length<3)return;try{const r=recent().filter(x=>x.toLowerCase()!==q.toLowerCase());r.unshift(q);localStorage.setItem("xs_recent",JSON.stringify(r.slice(0,8)))}catch(e){}},1500)}
 function emptyState(){const r=recent();const ex=["hoarse voice","nosebleed","facial nerve","parotidectomy","Keros","cholesteatoma CT","RLN","dizzy"];
- return `${r.length?`<section class="xg"><h2>Recent</h2><div class="xchips">${r.map(x=>`<button data-xq="${E(x)}">${E(x)}</button>`).join("")}</div></section>`:""}<section class="xg"><h2>Try</h2><div class="xchips">${ex.map(x=>`<button data-xq="${E(x)}">${E(x)}</button>`).join("")}</div></section><p class="xnote">Searches symptoms, ${window.CLINIC_DATA?CLINIC_DATA.t.length:42} clinical topics, 209 operations, ${((typeof SECTIONS!=="undefined"?SECTIONS:undefined)||[]).length} note sections, labelled structures, ${(typeof FIG!=="undefined"?FIG:undefined)?Object.keys(FIG).filter(k=>!k.startsWith("m/")).length:""} figures, ${((typeof CONDS!=="undefined"?CONDS:undefined)||[]).length} imaging cases, tables, flashcards and mnemonics.</p>`}
+ return `${r.length?`<section class="xg"><h2>Recent</h2><div class="xchips">${r.map(x=>`<button data-xq="${E(x)}">${E(x)}</button>`).join("")}</div></section>`:""}<section class="xg"><h2>Try</h2><div class="xchips">${ex.map(x=>`<button data-xq="${E(x)}">${E(x)}</button>`).join("")}</div></section><p class="xnote">Searches symptoms, ${window.CLINIC_DATA?CLINIC_DATA.t.length:42} clinical topics, 209 operations, ${((typeof SECTIONS!=="undefined"?SECTIONS:undefined)||[]).length} note sections, labelled structures, ${(typeof FIG!=="undefined"?FIG:undefined)?Object.keys(FIG).filter(k=>!k.startsWith("m/")).length:""} figures, figures in the clinical articles, ${((typeof CONDS!=="undefined"?CONDS:undefined)||[]).length} imaging cases, tables, flashcards and mnemonics.</p>`}
 vSearch=function(){SF="all";V().innerHTML=`<div class="xs"><div class="xsq">${ic("search",18)}<input type="search" id="xq" autocomplete="off" enterkeyhint="search" placeholder="Symptoms, anatomy, surgery…" aria-label="Search everything" value="${E(typeof QTXT==="string"?QTXT:"")}"></div><div id="xres" aria-live="polite"></div></div>`;
  const box=document.getElementById("xres"),inp=document.getElementById("xq");run(inp.value,box);ready().then(()=>{if(box.isConnected&&inp.value.trim().length>=2)run(inp.value,box)});setTimeout(()=>inp.focus(),40)};
 

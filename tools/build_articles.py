@@ -55,6 +55,11 @@ def inline(s, refs):
     return re.sub(r'\[\[([\d.]+)\]\]', xr, s)
 
 
+def plain(s):
+    s = re.sub(r'\[\[[\d.]+\]\]', '', s)
+    return re.sub(r'\s+', ' ', s.replace('**', '').replace('*', '')).strip()
+
+
 def fig_cite(name):
     m = re.match(r'([dl])(\d+)-(\d+)', name)
     return '%s, fig. %s.%s' % (BOOK[m.group(1)], m.group(2), m.group(3)) if m else ''
@@ -71,7 +76,9 @@ def compile_one(tid, text):
             s += 1; b = 0; refs['%d.%d' % (c, s)] = 'a-s%d-%d' % (c, s)
         elif ln.startswith('# '):
             c += 1; s = 0; b = 0; refs[str(c)] = 'a-c%d' % c
-    out, meta = [], {'stand': '', 'ch': [], 'figs': []}
+    out, meta = [], {'stand': '', 'ch': [], 'figs': [], 'fx': []}
+    here = {'c': '', 's': ''}
+    where = lambda: ' › '.join(x for x in (here['c'], here['s']) if x)
     c = s = b = 0
     open_sec = open_br = False
     para, lst, olst = [], [], []
@@ -166,13 +173,13 @@ def compile_one(tid, text):
             if c: out.append('</section>')
             c += 1; s = b = 0
             t, _, intro = ln[2:].partition('|')
-            meta['ch'].append(t.strip())
+            meta['ch'].append(t.strip()); here['c'] = t.strip(); here['s'] = ''
             out.append('<section class="arch-c" id="a-c%d" data-t="%s"><div class="archd"><span class="arnum">%d</span><div class="arkick">Chapter %s</div><h2>%s</h2></div>%s' % (
                 c, html.escape(t.strip()), c, WORDS[c - 1] if c <= len(WORDS) else c, inline(t.strip(), refs),
                 '<p class="arintro">%s</p>' % inline(intro.strip(), refs) if intro.strip() else ''))
             continue
         if ln.startswith('## '):
-            close_sec(); s += 1; b = 0
+            close_sec(); s += 1; b = 0; here['s'] = plain(ln[3:].strip())
             out.append('<details class="arsub" id="a-s%d-%d" open><summary><span class="arsn">%d.%d</span><h3>%s</h3>%s</summary><div class="arbody">' % (
                 c, s, c, s, inline(ln[3:].strip(), refs), CHEV))
             open_sec = True; continue
@@ -195,8 +202,9 @@ def compile_one(tid, text):
             cite = '%s, fig%s %s' % (book, 's' if len(cites) > 1 else '.', ' and '.join(cites))
             meta['figs'] += names
             imgs = ''.join('<button type="button" class="arimg" data-arfig="%s" aria-label="Enlarge figure %d"><img src="clinic/fig/%s.jpg" alt="" loading="lazy" decoding="async"></button>' % (n, fign, n) for n in names)
-            out.append('<figure class="arfig"><div class="%s">%s</div><figcaption><b>Figure %d</b>%s<cite>%s</cite></figcaption></figure>' % (
-                'pair' if len(names) > 1 else 'one', imgs, fign, inline(cap.strip(), refs), html.escape(cite)))
+            meta['fx'].append({'n': fign, 'f': names, 't': plain(cap.strip()), 'w': where(), 'c': cite})
+            out.append('<figure class="arfig" id="a-f%d"><div class="%s">%s</div><figcaption><b>Figure %d</b>%s<cite>%s</cite></figcaption></figure>' % (
+                fign, 'pair' if len(names) > 1 else 'one', imgs, fign, inline(cap.strip(), refs), html.escape(cite)))
             words += len(cap.split())
             continue
         if ln.startswith('!anat '):
@@ -208,8 +216,9 @@ def compile_one(tid, text):
                     raise KeyError('%s: app figure %s not found' % (tid, k))
             fign += 1
             imgs = ''.join('<button type="button" class="arimg" data-fig="%s" data-set="%s" aria-label="Enlarge figure %d"><img src="fig2/t/%s.jpg" alt="" loading="lazy" decoding="async"></button>' % (k, ','.join(keys), fign, k) for k in keys)
-            out.append('<figure class="arfig arapp"><div class="%s">%s</div><figcaption><b>Figure %d</b>%s<cite data-figcite="%s">From the anatomy atlas</cite></figcaption></figure>' % (
-                'pair' if len(keys) > 1 else 'one', imgs, fign, inline(cap.strip(), refs), ','.join(keys)))
+            meta['fx'].append({'n': fign, 'k': keys, 't': plain(cap.strip()), 'w': where(), 'c': 'Anatomy atlas'})
+            out.append('<figure class="arfig arapp" id="a-f%d"><div class="%s">%s</div><figcaption><b>Figure %d</b>%s<cite data-figcite="%s">From the anatomy atlas</cite></figcaption></figure>' % (
+                fign, 'pair' if len(keys) > 1 else 'one', imgs, fign, inline(cap.strip(), refs), ','.join(keys)))
             words += len(cap.split())
             continue
         if ln.startswith('!ops'):
@@ -241,7 +250,7 @@ def compile_one(tid, text):
 
 def main():
     os.makedirs(OUT, exist_ok=True)
-    ids, idx = [], {}
+    ids, idx, figs = [], {}, []
     for f in sorted(os.listdir(SRC)):
         if not f.endswith('.txt'): continue
         tid = f[:-4]
@@ -251,9 +260,15 @@ def main():
             o.write('(window.CLART=window.CLART||{})[%s]=%s;\n' % (json.dumps(tid), json.dumps(rec, ensure_ascii=False)))
         idx[tid] = {'w': meta['w'], 'n': meta['n'], 'c': len(meta['ch']), 'f': len(meta['figs'])}
         ids.append(tid)
+        for x in meta['fx']:
+            x['a'] = tid; figs.append(x)
         print('%-10s %5d words  %2d chapters  %2d sections  %2d figures' % (tid, meta['w'], len(meta['ch']), meta['n'], len(meta['figs'])))
     with open(os.path.join(OUT, 'index.js'), 'w') as o:
         o.write('window.CLART_IDX=%s;\n' % json.dumps(idx))
+    # every figure in every article, for the app-wide search
+    with open(os.path.join(OUT, 'figs.js'), 'w', encoding='utf-8') as o:
+        o.write('window.CLART_FIGS=%s;\n' % json.dumps(figs, ensure_ascii=False, separators=(',', ':')))
+    print(len(figs), 'figures indexed for search')
     print(len(ids), 'articles')
     update_sw(ids)
 
@@ -264,10 +279,10 @@ def update_sw(ids):
     sw = os.path.join(ROOT, 'web', 'sw.js')
     s = open(sw, encoding='utf-8').read()
     s = re.sub(r'"clinic/art/[^"]+",', '', s)
-    add = ''.join('"clinic/art/%s.js",' % i for i in ['index'] + ids)
+    add = ''.join('"clinic/art/%s.js",' % i for i in ['index', 'figs'] + ids)
     s = s.replace('"clinic/links.js",', '"clinic/links.js",' + add, 1)
     h = hashlib.md5()
-    for f in ['index.html', 'clinic/clinic.js', 'clinic/clinic.css', 'clinic/data.js'] + ['clinic/art/%s.js' % i for i in ['index'] + ids]:
+    for f in ['index.html', 'xsearch.js', 'clinic/clinic.js', 'clinic/clinic.css', 'clinic/data.js'] + ['clinic/art/%s.js' % i for i in ['index', 'figs'] + ids]:
         h.update(open(os.path.join(WWW, f), 'rb').read())
     s = re.sub(r'const CACHE="ent-atlas-[0-9a-f]+"', 'const CACHE="ent-atlas-%s"' % h.hexdigest()[:10], s)
     if 'clinic\\/fig' not in s:

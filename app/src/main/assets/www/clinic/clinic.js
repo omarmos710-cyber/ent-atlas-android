@@ -82,9 +82,15 @@ function vQuick(id){const t=BY[id],o=OPEN[id]=OPEN[id]||{};
  ${t.rel.length?`<div class="clgh">Related diseases</div><div class="cllist">${t.rel.map(r=>BY[r]?row(`data-go="cl:t-${r}"`,BY[r].t):"").join("")}</div>`:""}
  <p class="clsrc">Written for this app from ${e(t.srcs)}. Study summary only: follow local protocols and senior advice for patients.</p></div>`}
 function render(arg){arg=arg||"home";const v=document.getElementById("view");if(arg==="home"){v.innerHTML=vHome();return}
- if(arg.startsWith("t-")){const id=arg.slice(2);v.innerHTML=vTopic(id);if(typeof linkTerms==="function")linkTerms(v.querySelector(".arart")?v.querySelector(".arend")||v:v,(BY[id]&&BY[id].an[0])||"");if(v.querySelector(".arart"))fillArticle(v,id);armArticle(v);
+ if(arg.startsWith("t-")){const [tp,fg]=arg.split("~"),id=tp.slice(2);v.innerHTML=vTopic(id);if(typeof linkTerms==="function")linkTerms(v.querySelector(".arart")?v.querySelector(".arend")||v:v,(BY[id]&&BY[id].an[0])||"");if(v.querySelector(".arart"))fillArticle(v,id);armArticle(v);if(fg)toFig(v,fg);
   if(hasArt(id)&&!(window.CLART||{})[id])loadArt(id).then(()=>{const w=v.querySelector(".arw");if(w&&!w.querySelector(".arart")&&(window.CL_LAST||{}).id===id)render(arg)}).catch(()=>{const w=v.querySelector(".arw .armeta");if(w)w.textContent="The article could not load. Check your connection and try again."});return}
  v.innerHTML=vHome()}
+/* open an article at one of its figures (from the app-wide search): t-<id>~f<n> */
+function toFig(v,fg){const f=v.querySelector("#a-"+fg);if(!f)return;const d=f.closest("details");if(d)d.open=true;
+ let moved=false;const stop=()=>moved=true;addEventListener("touchstart",stop,{once:true,passive:true});addEventListener("wheel",stop,{once:true,passive:true});
+ const to=()=>{if(!moved&&f.isConnected)f.scrollIntoView({block:"start"})};
+ /* images above load lazily and push the figure down, so settle the position a few times */
+ requestAnimationFrame(()=>{to();f.classList.add("arflash");setTimeout(()=>f.classList.remove("arflash"),2400)});[250,700,1400].forEach(t=>setTimeout(to,t))}
 window.CLINIC={render};
 document.addEventListener("keydown",ev=>{if(ALB&&ev.key==="Escape"){ev.stopPropagation();arLBclose()}},true);
 document.addEventListener("input",ev=>{if(ev.target.id==="clq"){QQ=ev.target.value;clearTimeout(window._clt);window._clt=setTimeout(()=>{const l=document.getElementById("cllist");if(l)l.innerHTML=list()},120)}});
