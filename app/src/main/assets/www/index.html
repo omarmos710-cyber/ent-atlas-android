@@ -7163,7 +7163,8 @@ function autoLink(el,reg,seen){const tw=document.createTreeWalker(el,NodeFilter.
     if(frag){frag.append(t.slice(last));n.replaceWith(frag)}}}
 function linkOne(b,reg){{if(b.classList.contains("lnk"))return;
   const t=b.textContent.replace(/[:.]$/,"").trim();if(t.length<5||t.length>60)return;
-  if(findLabels(t,reg).length){b.classList.add("lnk");b.tabIndex=0;b.setAttribute("role","button");b.dataset.lterm=t;if(reg)b.dataset.lreg=reg;b.title="Show in figures"}}}
+  const ck=t.toLowerCase()+"|"+reg;let ok=LINKOK.get(ck);if(ok===undefined){ok=findLabels(t,reg).length>0;LINKOK.set(ck,ok)}
+  if(ok){b.classList.add("lnk");b.tabIndex=0;b.setAttribute("role","button");b.dataset.lterm=t;if(reg)b.dataset.lreg=reg;b.title="Show in figures"}}}
 /* lightbox: highlight the label and zoom onto it */
 const _drawLB6=drawLB;
 drawLB=function(){_drawLB6();if(!LB||!LB.hl)return;const k=LB.set[LB.i],h=LB.hl[k];if(!h)return;
