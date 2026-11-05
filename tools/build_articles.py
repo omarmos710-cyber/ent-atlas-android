@@ -292,7 +292,30 @@ def main():
         o.write('window.CLART_FIGS=%s;\n' % json.dumps(figs, ensure_ascii=False, separators=(',', ':')))
     print(len(figs), 'figures indexed for search')
     print(len(ids), 'articles')
+    build_hub()
     update_sw(ids)
+
+
+def hub_files():
+    """Practice hub scripts in load order: core, topic list, question banks, then the hub itself."""
+    d = os.path.join(WWW, 'hub')
+    banks = sorted(f for f in os.listdir(d) if f.startswith('qbank-') and f.endswith('.js'))
+    return ['hub/qcore.js', 'hub/topics.js'] + ['hub/' + f for f in banks], ['hub/hub.js', 'hub/hub.css']
+
+
+def build_hub():
+    """Write hub/topics.js (id -> [group, title], in library order) and wire the hub scripts into index.html."""
+    s = open(os.path.join(WWW, 'clinic', 'data.js'), encoding='utf-8').read()
+    D = json.loads(s[len('window.CLINIC_DATA='):].rstrip().rstrip(';'))
+    qt = {t['id']: [t['g'], t['t']] for t in D['t']}
+    with open(os.path.join(WWW, 'hub', 'topics.js'), 'w', encoding='utf-8') as o:
+        o.write('window.QT=%s;\n' % json.dumps(qt, ensure_ascii=False, separators=(',', ':')))
+    pre, post = hub_files()
+    p = os.path.join(WWW, 'index.html'); h = open(p, encoding='utf-8').read()
+    h = re.sub(r'<script src="hub/[^"]+"></script>\n?|<link rel="stylesheet" href="hub/[^"]+">\n?', '', h)
+    tags = ''.join('<script src="%s"></script>\n' % f for f in pre)
+    h = h.replace('<script src="xsearch.js"></script>\n', tags + '<script src="xsearch.js"></script>\n<link rel="stylesheet" href="hub/hub.css">\n<script src="hub/hub.js"></script>\n', 1)
+    open(p, 'w', encoding='utf-8').write(h)
 
 
 def update_sw(ids):
@@ -306,8 +329,11 @@ def update_sw(ids):
     s = re.sub(r'"clinic/fig/[^"]+",', '', s)
     add += ''.join('"clinic/fig/%s",' % f for f in sorted(os.listdir(FIGDIR)) if f.lower().endswith(('.jpg', '.jpeg', '.png', '.webp')))
     s = s.replace('"clinic/links.js",', '"clinic/links.js",' + add, 1)
+    pre, post = hub_files()
+    s = re.sub(r'"hub/[^"]+",', '', s)
+    s = s.replace('"xsearch.js",', '"xsearch.js",' + ''.join('"%s",' % f for f in pre + post), 1)
     h = hashlib.md5()
-    for f in ['index.html', 'xsearch.js', 'clinic/clinic.js', 'clinic/clinic.css', 'clinic/data.js'] + ['clinic/art/%s.js' % i for i in ['index', 'figs'] + ids]:
+    for f in ['index.html', 'xsearch.js', 'clinic/clinic.js', 'clinic/clinic.css', 'clinic/data.js'] + sum(hub_files(), []) + ['clinic/art/%s.js' % i for i in ['index', 'figs'] + ids]:
         h.update(open(os.path.join(WWW, f), 'rb').read())
     s = re.sub(r'const CACHE="ent-atlas-[0-9a-f]+"', 'const CACHE="ent-atlas-%s"' % h.hexdigest()[:10], s)
     if 'clinic\\/fig' not in s:

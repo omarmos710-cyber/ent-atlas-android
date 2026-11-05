@@ -27,7 +27,7 @@ function vArticle(id){const t=BY[id],A=(window.CLART||{})[id];
  const subs=c=>{const m=[...A.h.matchAll(new RegExp('<details class="arsub" id="a-s'+c+'-(\\d+)"[^>]*><summary><span class="arsn">([\\d.]+)</span><h3>(.*?)</h3>','g'))];return m.map(x=>({id:"a-s"+c+"-"+x[1],n:x[2],t:x[3]}))};
  const ch=A.ch.map((x,i)=>({id:"a-c"+(i+1),n:i+1,t:x,s:subs(i+1)}));
  const more=`<section class="arend arch-c" id="a-end" data-t="Continue"><div class="archd"><span class="arnum">${ch.length+1}</span><div class="arkick">In the atlas</div><h2>Continue from here</h2></div>
-  <div class="clprac">${nq?`<button class="btn primary wide" data-cltq="${id}">Quiz this topic (${nq})</button>`:""}${nc?`<button class="btn wide" data-deck="cl-${t.g}" data-mode="smart">${e(GN[t.g])} flashcards</button>`:""}</div>
+  <div class="clprac" data-clend="${id}">${window.hubPrac?hubPrac(id):`${nq?`<button class="btn primary wide" data-cltq="${id}">Quiz this topic (${nq})</button>`:""}${nc?`<button class="btn wide" data-deck="cl-${t.g}" data-mode="smart">${e(GN[t.g])} flashcards</button>`:""}`}</div>
   ${t.ops.length&&!A.h.includes("data-arops")?`<div class="clh3" style="color:#1F5B4A">Operations in Theatre</div><div class="cllist">${t.ops.map(([n,w])=>row(`data-clop="${n}"`,D.ops[n]||("Myers ch. "+n),w,"op")).join("")}</div>`:""}
   ${A.h.includes("data-arcases")?notesOnly(id):dxExtra(id)}
   ${t.an.length?`<div class="clh3" style="color:var(--accent)">Related anatomy</div><div class="cllist">${t.an.map(r=>RMAP[r]?row(`data-go="region:${r}"`,RMAP[r].name,"","an"):"").join("")}</div>`:""}
@@ -54,7 +54,9 @@ function fillArticle(v,id){
   if(!h){sl.remove();return}const n=(h.match(/class="climc"/g)||[]).length;
   sl.innerHTML=`<div class="arcaseh"><span>Imaging in the app</span><small>${n} case${n>1?"s":""}</small></div>${sl.dataset.lead?`<p class="arcasel">${e(sl.dataset.lead)}</p>`:""}${h}`});
  v.querySelectorAll("[data-figcite]").forEach(c=>{const ks=c.dataset.figcite.split(",");try{if(typeof figShort==="function"&&typeof FIG!=="undefined")c.textContent="Anatomy atlas · "+[...new Set(ks.filter(k=>FIG[k]).map(k=>figShort(k)))].join(", ")}catch(x){}})}
-let AOBS=null;
+let AOBS=null,ROBS=null;
+function armRead(v){if(ROBS){ROBS.disconnect();ROBS=null}const end=v.querySelector("[data-clend]");if(!end)return;const id=end.dataset.clend;if(RD()[id])return;
+ ROBS=new IntersectionObserver(es=>{if(es.some(x=>x.isIntersecting)&&scrollY>300){RD()[id]=Date.now();save();ROBS.disconnect();ROBS=null;if(typeof studied==="function")studied()}});ROBS.observe(end)}
 function armArticle(v){if(AOBS){AOBS.disconnect();AOBS=null}const toc=v.querySelector(".artoc");if(!toc)return;const lis=[...toc.querySelectorAll("li")];let cur="";
  AOBS=new IntersectionObserver(es=>es.forEach(en=>{if(!en.isIntersecting||cur===en.target.id)return;cur=en.target.id;lis.forEach(l=>l.classList.toggle("on",l.dataset.c===cur));const on=lis.find(l=>l.dataset.c===cur);if(on){const ol=toc.querySelector("ol");ol.scrollTo({left:on.offsetLeft-ol.clientWidth/2+on.offsetWidth/2,behavior:"smooth"})}}),{rootMargin:"-35% 0px -60% 0px"});
  v.querySelectorAll(".arch-c").forEach(s=>AOBS.observe(s));if(lis[0])lis[0].classList.add("on")}
@@ -64,9 +66,20 @@ function arLB(img,cap){if(ALB)ALB.remove();ALB=document.createElement("div");ALB
  ALB.innerHTML=`<div class="arlbbar"><button type="button" data-arlb="zoom">Zoom</button><button type="button" data-arlb="close">Close</button></div><div class="stage"><img alt="" data-arlb="zoom"></div><p></p>`;
  ALB.querySelector("img").src=img;ALB.querySelector("p").textContent=cap;document.body.appendChild(ALB);document.body.style.overflow="hidden";ALB.querySelector('[data-arlb="close"]').focus({preventScroll:true})}
 function arLBclose(){if(!ALB)return;ALB.remove();ALB=null;document.body.style.overflow=""}
-function vHome(){return `<div class="clw"><span class="cle">Diseases</span><h1>Clinical</h1><input class="clsearch" id="clq" type="search" aria-label="Search diseases" placeholder="Search a disease or symptom" value="${e(QQ)}"><div id="cllist">${list()}</div></div>`}
-function list(){const q=QQ.trim().toLowerCase();if(q){const L=D.t.filter(t=>(t.t+" "+t.one+" "+t.ddx.join(" ")).toLowerCase().includes(q));return L.length?`<div class="cllist">${L.map(t=>row(`data-go="cl:t-${t.id}"`,t.t,GN[t.g])).join("")}</div>`:`<p class="clsrc">No topic matches yet.</p>`}
- return Object.keys(GN).map(g=>`<div class="clgh">${e(GN[g])}</div><div class="cllist">${D.t.filter(t=>t.g===g).map(t=>row(`data-go="cl:t-${t.id}"`,t.t)).join("")}</div>`).join("")}
+/* reading progress: ST.clo = opened, ST.clr = read to the end, ST.cll = last article opened */
+const RD=()=>ST.clr=ST.clr||{},OP=()=>ST.clo=ST.clo||{};
+const NEWIN=["oesoph","fbfood","laser","skullbase","cleft","facplast","hnrecon","hncprinc","saltum","vascneck","hnrt","hivent","skinca","jaw"];
+const amin=id=>{const i=AIDX()[id];return i?Math.max(3,Math.round(i.w/220)):0};
+function trow(t,sub){const r=RD()[t.id],o=OP()[t.id],nw=!o&&NEWIN.includes(t.id);
+ return `<button class="clrow clt ${r?"rd":o?"op":""}" data-go="cl:t-${t.id}"><i class="clst" aria-hidden="true"></i><span class="m"><b>${e(t.t)}</b><small>${e(sub!=null?sub:(amin(t.id)?amin(t.id)+" min read":"Quick notes"))}${r?" · Read":o?" · Started":""}</small></span>${nw?`<em class="clnew">New</em>`:""}${ic("chev",16)}</button>`}
+function nextUp(){const r=RD(),o=OP(),l=ST.cll;if(l&&BY[l]&&!r[l])return [BY[l],"Continue reading"];const nw=NEWIN.find(id=>BY[id]&&!o[id]);if(nw)return [BY[nw],"New in the library"];const u=D.t.find(t=>!r[t.id]);return u?[u,"Up next"]:null}
+function vHome(){const r=RD(),n=D.t.filter(t=>r[t.id]).length,N=D.t.length,nx=nextUp();
+ return `<div class="clw"><span class="cle">Diseases</span><h1>Clinical</h1>
+ <p class="clprog"><span><i style="width:${100*n/N}%"></i></span><small>${n} of ${N} articles read</small></p>
+ ${nx?`<button class="clhero" data-go="cl:t-${nx[0].id}"><span class="cle">${nx[1]} · ${e(GN[nx[0].g])}</span><b>${e(nx[0].t)}</b><small>${e(nx[0].one.length>160?nx[0].one.slice(0,158).replace(/\s+\S*$/,"")+"…":nx[0].one)}</small><span class="clgo">${amin(nx[0].id)?amin(nx[0].id)+" min read":"Open"}${ic("chev",15)}</span></button>`:""}
+ <input class="clsearch" id="clq" type="search" aria-label="Search diseases" placeholder="Search a disease or symptom" value="${e(QQ)}"><div id="cllist">${list()}</div></div>`}
+function list(){const q=QQ.trim().toLowerCase();if(q){const L=D.t.filter(t=>(t.t+" "+t.one+" "+t.ddx.join(" ")).toLowerCase().includes(q));return L.length?`<div class="cllist">${L.map(t=>trow(t,GN[t.g]+(amin(t.id)?" · "+amin(t.id)+" min":""))).join("")}</div>`:`<p class="clsrc">No topic matches yet.</p>`}
+ const r=RD();return Object.keys(GN).map(g=>{const ts=D.t.filter(t=>t.g===g),n=ts.filter(t=>r[t.id]).length;return `<div class="clgh"><span>${e(GN[g])}</span><small>${n?n+" of "+ts.length+" read":ts.length+" articles"}</small></div><div class="cllist">${ts.map(t=>trow(t)).join("")}</div>`}).join("")}
 function tbs(t){return (t.tb||[]).map(b=>`<div class="clh3">${e(b.t)}</div><div class="cltw"><table class="cltb"><thead><tr>${b.h.map(x=>`<th>${e(x)}</th>`).join("")}</tr></thead><tbody>${b.r.map(r=>`<tr>${r.map(x=>`<td>${e(x)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`).join("")}
 function vTopic(id){const t=BY[id];if(!t)return vHome();window.CL_LAST=t;if(hasArt(id))return vArticle(id);return vQuick(id)}
 function vQuick(id){const t=BY[id],o=OPEN[id]=OPEN[id]||{};
@@ -77,12 +90,12 @@ function vQuick(id){const t=BY[id],o=OPEN[id]=OPEN[id]||{};
  ${t.sum&&t.sum.length?`<section class="clsum"><h2>Summary</h2><ul>${t.sum.map(x=>`<li>${md(x)}</li>`).join("")}</ul></section>`:""}
  ${t.call.length?`<div class="clcall"><h2>On call: what you do first</h2><ol>${t.call.map(x=>`<li>${md(x)}</li>`).join("")}</ol></div>`:""}
  ${SECS.map(([k,n])=>sec(k,n)).join("")}
- <div class="clprac">${nq?`<button class="btn primary wide" data-cltq="${id}">Quiz this topic (${nq})</button>`:""}${nc?`<button class="btn wide" data-deck="cl-${t.g}" data-mode="smart">${e(GN[t.g])} flashcards</button>`:""}</div>
+ <div class="clprac" data-clend="${id}">${window.hubPrac?hubPrac(id):`${nq?`<button class="btn primary wide" data-cltq="${id}">Quiz this topic (${nq})</button>`:""}${nc?`<button class="btn wide" data-deck="cl-${t.g}" data-mode="smart">${e(GN[t.g])} flashcards</button>`:""}`}</div>
  ${t.an.length?`<div class="clh3" style="color:var(--accent)">Related anatomy</div><div class="cllist">${t.an.map(r=>RMAP[r]?row(`data-go="region:${r}"`,RMAP[r].name,"","an"):"").join("")}</div>`:""}
  ${t.rel.length?`<div class="clgh">Related diseases</div><div class="cllist">${t.rel.map(r=>BY[r]?row(`data-go="cl:t-${r}"`,BY[r].t):"").join("")}</div>`:""}
  <p class="clsrc">Written for this app from ${e(t.srcs)}. Study summary only: follow local protocols and senior advice for patients.</p></div>`}
 function render(arg){arg=arg||"home";const v=document.getElementById("view");if(arg==="home"){v.innerHTML=vHome();return}
- if(arg.startsWith("t-")){const [tp,fg]=arg.split("~"),id=tp.slice(2);v.innerHTML=vTopic(id);if(typeof linkTerms==="function")linkTerms(v.querySelector(".arart")?v.querySelector(".arend")||v:v,(BY[id]&&BY[id].an[0])||"");if(v.querySelector(".arart"))fillArticle(v,id);armArticle(v);if(fg)toFig(v,fg);
+ if(arg.startsWith("t-")){const [tp,fg]=arg.split("~"),id=tp.slice(2);if(BY[id]){ST.cll=id;OP()[id]=OP()[id]||Date.now();save()}v.innerHTML=vTopic(id);if(typeof linkTerms==="function")linkTerms(v.querySelector(".arart")?v.querySelector(".arend")||v:v,(BY[id]&&BY[id].an[0])||"");if(v.querySelector(".arart"))fillArticle(v,id);armArticle(v);armRead(v);if(fg)toFig(v,fg);
   if(hasArt(id)&&!(window.CLART||{})[id])loadArt(id).then(()=>{const w=v.querySelector(".arw");if(w&&!w.querySelector(".arart")&&(window.CL_LAST||{}).id===id)render(arg)}).catch(()=>{const w=v.querySelector(".arw .armeta");if(w)w.textContent="The article could not load. Check your connection and try again."});return}
  v.innerHTML=vHome()}
 /* open an article at one of its figures (from the app-wide search): t-<id>~f<n> */
