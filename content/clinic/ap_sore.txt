@@ -15,12 +15,14 @@ An **acute** sore throat lasts days to two weeks and is usually infective. A **c
 # The acute sore throat | Assess, score, decide.
 ## History and examination
 Ask about the duration, fever, ability to swallow food and fluids, voice change, breathing, earache and trismus, and about cough and coryza, which point to a viral cause. Examine the oropharynx, the tonsils, the neck nodes and the airway, and, when the history suggests supraglottitis, examine the larynx with a flexible endoscope in a safe setting rather than with a tongue depressor.
+!fig d47-6 d47-7 | First, the base of the tongue and valleculae. Second, the structures seen in the oropharynx.
 ## Who needs antibiotics?
 Most acute sore throats are viral, and antibiotics shorten symptoms by only about a day in bacterial tonsillitis. Scoring systems identify patients more likely to have streptococcal infection. **FeverPAIN** scores one point each for fever, purulence, attending rapidly (within three days), inflamed tonsils and no cough or coryza: a score of 0 to 1 needs no antibiotic, 2 to 3 a delayed or no antibiotic, and 4 to 5 an immediate antibiotic or a delayed one. The **Centor** criteria (tonsillar exudate, tender anterior cervical nodes, fever and absence of cough) are used similarly, with antibiotics considered at three or four. Phenoxymethylpenicillin for five to ten days is the first choice, with clarithromycin in penicillin allergy. **Amoxicillin is avoided** because it causes a rash in infectious mononucleosis.
 
 Admission is needed for patients who cannot swallow fluids, are dehydrated, have a suspected collection or airway compromise, or are systemically unwell. They need intravenous fluids, analgesia, intravenous benzylpenicillin and often a single dose of dexamethasone.
 ## The important acute causes
 **Acute tonsillitis** is viral or bacterial (group A streptococcus is the commonest bacterium). **Infectious mononucleosis** from Epstein–Barr virus gives a severe exudative tonsillitis with palatal petechiae, generalised lymphadenopathy and splenomegaly; it is confirmed by a monospot or EBV serology and atypical lymphocytes. Patients avoid contact sports for several weeks because of splenic rupture, and steroids are used for airway compromise. **Peritonsillar abscess (quinsy)** produces trismus, a hot potato voice, unilateral swelling above the tonsil and a deviated uvula; it is drained by needle aspiration or incision. **Supraglottitis** produces severe odynophagia with relatively normal oropharynx, a muffled voice and drooling. **Deep neck space infections** need contrast CT and drainage. **Lemierre's syndrome** is a septic thrombophlebitis of the internal jugular vein, usually with *Fusobacterium necrophorum*, after a sore throat. Other causes include HIV seroconversion, diphtheria in the unvaccinated, gonococcal pharyngitis, and herpangina or hand, foot and mouth disease in children.
+!fig d52-6 d52-9 | First, the spaces around the pharynx where abscesses form. Second, the deep spaces of the head and neck.
 
 # The chronic sore throat | A different list.
 ## Causes
@@ -35,6 +37,7 @@ Voice misuse and muscle tension | Pain with voice use
 Glossopharyngeal neuralgia and Eagle syndrome | Sharp pain triggered by swallowing; elongated styloid
 Malignancy | Unilateral, progressive, otalgia, dysphagia, neck node, smoker
 !!
+!fig d53-6 | An elongated styloid process (Eagle syndrome): (A) on radiograph, (B) excised.
 ## Assessment
 Every adult with a sore throat lasting more than three weeks, especially if unilateral, needs a full head and neck examination with flexible endoscopy of the nasopharynx, oropharynx, hypopharynx and larynx, palpation of the tongue base and tonsils, and examination of the neck. Asymmetrical tonsils in an adult, a firm or ulcerated tonsil, or a neck node lead to biopsy or tonsillectomy for histology, and imaging.
 

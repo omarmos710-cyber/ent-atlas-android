@@ -33,10 +33,12 @@ Then ask about the ear and the brain. Hearing loss, tinnitus and fullness put th
 Look for spontaneous nystagmus with the eyes in the primary position and on gaze to each side, with and without fixation (Frenzel lenses remove fixation). **Peripheral** nystagmus is horizontal-torsional, *direction-fixed* with the fast phase away from the affected ear, increases on gaze towards the fast phase (Alexander's law) and is suppressed by fixation. **Central** nystagmus may change direction with gaze, be purely vertical or torsional, and is not suppressed by fixation.
 
 The **head impulse test** looks at the vestibulo-ocular reflex. The patient fixes on your nose while you turn the head briskly through about 15° to each side. A corrective saccade back to the target after a turn towards one side means that canal is weak. The **test of skew**, alternate covering of each eye, reveals a vertical refixation in skew deviation, a central sign. Check smooth pursuit and saccades, which are normal in peripheral disease.
+!draw vhit | The head impulse at the bedside and on video: a weak canal shows low gain and catch-up saccades.
 ## Positional testing
 The **Dix–Hallpike test** looks for posterior canal BPPV. Turn the head 45° towards the test ear, lie the patient back quickly with the head hanging about 20° below horizontal, and watch the eyes for 30 seconds. A positive test gives upbeating, torsional nystagmus with the upper pole of the eye beating towards the lower ear. It starts after a latency of a few seconds, lasts under a minute, reverses on sitting up and fatigues with repetition. The **supine roll test**, turning the head to each side while lying flat, looks for horizontal canal BPPV, which gives horizontal geotropic or apogeotropic nystagmus.
 
 Positional nystagmus that has no latency, does not fatigue, is purely vertical (especially downbeating), or comes without vertigo suggests a central lesion.
+!fig d6-1 | The Dix–Hallpike manoeuvre.
 ## The rest of the examination
 Otoscopy, tuning forks and a fistula test (pressure on the tragus or with a pneumatic speculum) cover the ear. A cranial nerve and cerebellar examination covers the brain: finger–nose, heel–shin, rapid alternating movements, Romberg and tandem gait. Lying and standing blood pressure looks for orthostatic hypotension, defined as a fall of at least 20 mmHg systolic or 10 mmHg diastolic within three minutes of standing (some definitions allow up to ten); a heart rate rising by 30 or more without hypotension suggests postural tachycardia syndrome. Finally, ask the patient to walk.
 
@@ -59,10 +61,12 @@ A central pattern needs urgent MRI with diffusion-weighted imaging and the strok
 # Recurrent episodic vertigo | The big three.
 ## BPPV
 BPPV is the commonest cause of vertigo: brief spinning on head movement, often first noticed on getting out of bed, typically in older adults and after head injury or a period in bed. The posterior canal is affected in about 85 to 90%. The diagnosis is made by the Dix–Hallpike test, and the cure is a repositioning manoeuvre: the *Epley* (or Semont) manoeuvre for the posterior canal, and the *Lempert (barbecue) roll* or Gufoni manoeuvre for the horizontal canal. Recurrence is common, so patients can be taught self-treatment. Medication has no role, and atypical or refractory cases need MRI.
+!fig d7-1 | The Epley manoeuvre for posterior canal BPPV, with the position of the debris in the canal at each step.
 ## Ménière's disease
 *Definite* Ménière's disease (Bárány Society) requires two or more spontaneous episodes of vertigo, each lasting 20 minutes to 12 hours, an audiometrically documented low- to mid-frequency sensorineural loss in the affected ear on at least one occasion, and fluctuating aural symptoms (hearing, tinnitus or fullness) in that ear, not better explained by another diagnosis. An audiogram is essential, and asymmetric sensorineural loss means MRI.
 
 Treatment aims to reduce the number and severity of attacks. It runs from acute vestibular sedatives through lifestyle measures (moderation of salt, caffeine and alcohol, though the evidence is weak), betahistine (in widespread use despite a large trial showing no benefit over placebo) and diuretics, to intratympanic steroid, intratympanic gentamicin and, rarely, surgery.
+!fig d15-1 | (A) The normal cochlear duct. (B) Endolymphatic hydrops: the duct distended and Reissner's membrane bulging.
 ## Vestibular migraine
 Vestibular migraine is the commonest cause of spontaneous recurrent vertigo, and it is underdiagnosed because many attacks come without headache. *Definite* vestibular migraine (Bárány Society and International Headache Society) requires at least five episodes of moderate or severe vestibular symptoms lasting 5 minutes to 72 hours. The patient must have current or previous migraine, and at least half the episodes must carry at least one migrainous feature: a migraine-type headache, photophobia with phonophobia, or a visual aura.
 

@@ -27,6 +27,7 @@ Examine the nose and nasopharynx with an endoscope, and palpate the temporomandi
 **Pure tone audiometry** is the key test. A conductive loss points to the canal or middle ear, a low-frequency sensorineural loss to hydrops, and a sudden flat or high-frequency sensorineural loss to sudden sensorineural hearing loss. **Tympanometry** shows a flat type B trace with normal canal volume in an effusion, a negative-pressure type C trace in tube dysfunction, and a normal type A trace in inner ear causes, with a large volume if the drum is perforated. Respiratory variation on tympanometry supports a patulous tube.
 
 The **seven-item Eustachian Tube Dysfunction Questionnaire (ETDQ-7)** scores symptoms such as pressure, pain, a clogged feeling, symptoms with colds, popping, tinnitus and muffled hearing, and is used to select patients for treatment. **Tubomanometry** measures how the tube opens under nasopharyngeal pressure in specialist centres. **MRI** is used for an asymmetric sensorineural loss and to examine the nasopharynx, and **CT** for suspected dehiscence.
+!draw tymp-types | Tympanograms in the blocked ear: B with normal volume in an effusion, C in tube dysfunction, A in inner ear causes.
 
 # Causes in turn | What to do for each.
 ## Wax and the canal
@@ -35,10 +36,12 @@ Wax is the commonest cause. It is removed by microsuction, softening drops or ir
 Obstructive dysfunction is usually *mucosal inflammation* in the cartilaginous tube, from allergic rhinitis, chronic rhinosinusitis, laryngopharyngeal reflux and smoke; in children it is adenoidal hypertrophy and infection, with cleft palate as an important cause. It affects about 1% of adults, and around 40% of children have a temporary episode before age ten.
 
 Management starts with autoinflation (Valsalva or a nasal balloon) and treatment of the nose with saline and a steroid spray. Ventilation tubes treat persistent effusion and retraction. *Balloon dilation Eustachian tuboplasty* is an option for chronic obstructive and baro-challenged dysfunction: a balloon passed through the nose under endoscopic vision is inflated in the cartilaginous tube to about 10 bar for two minutes. Patients are selected by symptoms (ETDQ-7) and testing.
+!anat ns205_3 | The Eustachian tube with the levator and tensor veli palatini, which open it on swallowing.
 ## Patulous Eustachian tube
 A patulous tube causes autophony, hearing one's own breathing, and fullness. It is linked to weight loss, pregnancy, hormones, radiotherapy and neuromuscular disease, and some patients "sniff" to close the tube, which can lead to retraction and cholesteatoma. Treatment is explanation, hydration, saline nasal drops and lying down, with augmentation or reconstruction of the tube for disabling cases.
 ## Middle ear effusion in adults
 An adult with a persistent unilateral middle ear effusion needs the nasopharynx examined with an endoscope, and an MRI or biopsy if anything looks abnormal, to exclude *nasopharyngeal carcinoma*, especially in patients from endemic areas. Other causes are tube dysfunction after a cold, barotrauma, radiotherapy and sinonasal disease. Ventilation tubes relieve persistent effusions once the nasopharynx is clear.
+!fig d10-2 | Middle ear effusion: bubbles behind the drum on Valsalva.
 ## The inner ear
 **Sudden sensorineural hearing loss** often presents as a blocked ear with tinnitus; an audiogram confirms it and treatment with oral or intratympanic steroids begins at once, followed by MRI. **Ménière's disease** produces fluctuating fullness, roaring tinnitus and low-frequency loss before or during vertigo attacks. **Superior canal dehiscence** produces fullness, autophony, sound- or pressure-induced vertigo and an apparent conductive loss with normal tympanometry and preserved reflexes. **Raised intracranial pressure**, typically idiopathic intracranial hypertension, produces fullness with pulsatile tinnitus and headache.
 !path The blocked or full ear

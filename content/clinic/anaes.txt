@@ -9,6 +9,7 @@ Most paediatric ENT surgery, including tonsillectomy, is safely done in district
 # The airway options | Who controls what.
 ## The obstructed airway
 There is no single proven method for a patient with upper airway obstruction. Options are **awake fibreoptic intubation** under topical anaesthesia (often with high-flow nasal oxygen and light sedation), **inhalational induction** keeping spontaneous breathing, **intravenous induction** with paralysis when intubation is judged straightforward, and **awake tracheostomy under local anaesthesia** when the larynx is likely to be impassable, which every head and neck surgeon must be able to perform. The surgeon is scrubbed, with the neck prepared, before induction in any patient at risk.
+!anat s263_50 | Surface marking of the thyroid and cricoid cartilages and the cricothyroid membrane: mark it before induction.
 ## Sharing the airway in endoscopic surgery
 For microlaryngoscopy and pharyngeal surgery the options are:
 !table Ways of sharing the airway
@@ -20,6 +21,7 @@ Spontaneous ventilation (tubeless) | Total intravenous anaesthesia, topical anae
 High-flow nasal oxygen (apnoeic) | Humidified oxygen at up to about 70 L/min | Extends safe apnoea time; best in fit patients for short procedures
 !!
 Jet ventilation needs a clear expiratory path, because gas trapped below an obstruction causes barotrauma; laser-resistant transglottic catheters such as the Hunsaker Mon-Jet allow jetting through a tight lesion with care.
+!fig d91-1 | Direct laryngoscopy in the sniffing position.
 ## Laser safety
 Airway fire needs fuel (the tube or swabs), oxygen and a spark (the laser). Prevention is a laser-safe tube with saline in the cuff (ideally coloured, so a breach is obvious), the lowest inspired oxygen possible (under about 30%), no nitrous oxide, wet swabs protecting tissues and the cuff, eye protection for everyone and signs on the doors. If a fire starts, stop the laser and ventilation, remove the tube, pour saline into the airway, ventilate with air by mask, then reintubate and inspect the airway with a bronchoscope.
 
@@ -30,6 +32,7 @@ A child or adult who returns with a post-tonsillectomy bleed is hypovolaemic (of
 Topical vasoconstriction gives a drier field: cocaine 4% (the often-quoted 200 mg limit has no firm scientific basis), Moffett's solution or adrenaline-soaked pledgets with co-phenylcaine. **Total intravenous anaesthesia** with propofol and remifentanil, a slightly head-up position and avoidance of tachycardia reduce bleeding, and a second-generation laryngeal mask with spontaneous breathing gives good airway protection and a smooth emergence.
 ## Throat packs and extubation
 A retained throat pack is a "never event". The joint Difficult Airway Society, ENT UK and maxillofacial review found little evidence for routine throat packs, so many anaesthetists no longer use them; if one is needed, it is part of the surgical swab count. After intraoral, pharyngeal or airway surgery the patient may have a patent airway but be very difficult to reintubate, so **extubation is planned** like intubation: awake, with suction, sometimes over an airway exchange catheter, or with a tracheostomy left in place when swelling is expected.
+!fig d64-1 | Skin incisions for tracheostomy: vertical and transverse.
 ## Environmental impact
 Desflurane and nitrous oxide are potent greenhouse gases (desflurane accounts for most of the climate impact of volatile agents), so total intravenous anaesthesia and low-flow techniques are increasingly preferred.
 

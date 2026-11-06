@@ -10,6 +10,7 @@ In 2005 the WHO replaced "precancer" with **oral potentially malignant disorders
 - Lesions in non-smokers and in women.
 - Epithelial dysplasia on biopsy, of which about 5 to 18% transform.
 !!
+!fig d44-7 d44-8 | First, leukoplakia of the cheek after pan and tobacco use. Second, leukoplakia on the lateral border of the tongue.
 ## Assessment of a white or red patch
 Inspect and palpate the whole mouth, note size, colour, texture and induration, examine the neck, remove irritants (a sharp tooth, a denture), treat candida, and review in two to three weeks. Any lesion that persists is **biopsied**, taking the reddest, most indurated or most irregular part; histology grades dysplasia as mild, moderate or severe. Adjuncts such as toluidine blue or Lugol's iodine staining, autofluorescence and narrow-band imaging help choose biopsy sites and map margins, but none replaces a biopsy.
 ## Management
@@ -18,6 +19,7 @@ Stop tobacco, alcohol and areca nut. Moderate and severe dysplasia, erythroplaki
 # Oral squamous cell carcinoma | Who, where and how it presents.
 ## Epidemiology and risk factors
 More than 90% of oral cancers are squamous cell carcinomas. The main risk factors are **tobacco** (smoked and chewed), **alcohol**, which multiplies the risk of tobacco, and **betel quid with areca nut**, which makes oral cancer one of the commonest cancers in South Asia. HPV plays only a small part, unlike in the oropharynx. An increasing number of young non-smokers, often women, develop tongue cancer without the usual risk factors, and patients with Fanconi anaemia have a very high risk.
+!fig d44-9 | Leukoplakia where a quid of tobacco and lime was held.
 ## Sites and presentation
 In Western countries the lateral border of the **tongue** and the **floor of mouth** are the commonest sites; in South Asia the **buccal mucosa** and gingivobuccal sulcus, where the quid is held, predominate. Patients present with a non-healing ulcer, a lump, a red or white patch, pain referred to the ear, bleeding, loose teeth or ill-fitting dentures, trismus, numbness of the lip (mental nerve involvement) or a neck lump. Any single ulcer that has not healed in three weeks must be biopsied.
 !table Oral cavity subsites and their particular problems
@@ -29,6 +31,7 @@ Lower alveolus and retromolar trigone | Early bone invasion; retromolar disease 
 Hard palate and upper alveolus | Minor salivary tumours are common here; maxillectomy defects need obturators or flaps
 Lip | Usually lower lip, sun-exposed; excellent prognosis; treated by surgery or radiotherapy
 !!
+!fig d42-1 | The subsites of the oral cavity.
 
 # Staging and investigation | Depth, bone and nodes.
 ## Investigation
@@ -48,8 +51,10 @@ Superficial erosion of a tooth socket by a gingival primary is not enough to mak
 # Treatment | Surgery first for most.
 ## The primary
 Surgery followed by risk-based adjuvant therapy gives the best control for operable oral cancer at every stage. The aim is complete excision with a **5 mm** margin of normal tissue in three dimensions; on the specimen, margins of 5 mm or more are *clear*, 1 to 5 mm *close*, and under 1 mm *involved*, and positive margins reduce survival. Tumours near the mandible need a **marginal mandibulectomy** (removing the alveolar rim and keeping continuity) when the bone is abutted or superficially eroded, and a **segmental mandibulectomy** when tumour invades the medullary bone or the mandible is thin and edentulous. Radiotherapy or brachytherapy may be preferred for some lip and hard palate cancers where surgery would cost too much function.
+!fig d44-11 d44-12 | First, carcinoma of the buccal mucosa. Second, carcinoma of the lateral tongue with leukoplakia of the floor of mouth.
 ## The neck
 The neck is treated electively in early oral cancer. A large Indian randomised trial (D'Cruz, 2015) showed that **elective neck dissection** of levels I to III in clinically node-negative early cancer improved three-year overall survival compared with waiting and operating when nodes appeared (about 80% versus 68%). Elective treatment is therefore standard when DOI is more than about 3 to 4 mm, and is considered at lower depths for high-risk sites. **Sentinel node biopsy** is an emerging alternative in early disease, with less morbidity. Node-positive necks have a comprehensive dissection of levels I to V (sometimes I to IV), and the opposite side is treated for midline tumours or extensive nodal disease.
+!anat s286_80 | The lymph node levels of the neck: levels I to III drain the oral cavity first.
 ## Reconstruction
 Reconstruction restores swallowing, speech, mastication and appearance, replacing like with like. Small defects heal by secondary intention, are grafted or are closed with local flaps; tongue and floor of mouth defects are commonly reconstructed with a **radial forearm** or **anterolateral thigh** free flap, and segmental mandibular defects with a **fibula** or other vascularised bone flap, which can later carry dental implants.
 ## Adjuvant therapy

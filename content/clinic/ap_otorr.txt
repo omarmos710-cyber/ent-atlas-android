@@ -37,6 +37,7 @@ Look at the pinna, the postauricular sulcus and the mastoid before touching the 
 Then *clean the canal under the microscope or endoscope*. Meticulous microsuction is the key to diagnosis and to treatment, because drops cannot reach a canal full of debris and the drum cannot be judged through pus. Assess the canal skin for oedema, fungal debris, granulations on the floor and exposed bone, then the drum: intact, perforated centrally, perforated at the margin or in the attic, retracted, or obscured by a polyp.
 
 Test the facial nerve every time. Perform the fistula test when there is an attic or posterosuperior lesion. Use tuning forks, and arrange audiometry for any ear that is not settling or where the inner ear may be involved.
+!fig d11-9 | An aural polyp in the canal, and how a polyp from the promontory can present through a perforation.
 ## Beyond the ear
 If malignancy is possible, examine the neck, oral cavity and pharynx and pass a flexible endoscope. The nose and nasopharynx are worth examining in recurrent middle ear infection.
 !pearl When the drum cannot be seen
@@ -48,8 +49,10 @@ If the canal is too swollen or tender to clean fully, start antibiotic and stero
 **Acute otitis externa** is bacterial in almost all cases, mostly *Pseudomonas aeruginosa* and *Staphylococcus aureus*. It is driven by water, cotton buds, narrow canals, hearing aids and dermatitis. It begins with itch and fullness, then pain, a swollen canal and discharge.
 
 **Otomycosis** follows antibiotic drops or arises in humid climates, and its debris is often visibly fungal. **Furunculosis** is a staphylococcal abscess of a hair follicle in the outer canal and causes pain out of proportion to the findings. **Chronic otitis externa** means inflammation lasting more than three months or four acute episodes in a year; it is itchy more than painful and is often eczematous or due to contact allergy to drops. **Necrotising otitis externa** is osteitis of the skull base, most often in elderly diabetics. **Keratosis obturans**, **canal cholesteatoma** and **carcinoma** complete the canal list.
+!fig d8-11 | Otomycosis: (A) yellow and (B) black fungal debris in the canal.
 ## The drum and middle ear
 **Acute otitis media** perforates with sudden relief of pain and a mucopurulent discharge. **Grommet otorrhoea** is a perforation with a tube in it and is treated the same way. **Mucosal chronic otitis media** gives intermittent profuse mucoid discharge through a central perforation, usually after colds or water. **Cholesteatoma** gives scanty, foul, persistent discharge from an attic or marginal defect. **Granular myringitis** produces granulation on the outer surface of an intact drum, often after surgery, with watery or bloody discharge. **Tuberculous otitis media**, now rare, gives painless discharge through multiple perforations and fails to respond to the usual drops.
+!fig d11-8 | Sites of perforation: central perforations belong to the mucosal type; attic and posterosuperior marginal defects suggest cholesteatoma.
 ## Beyond the ear
 **CSF otorrhoea** follows temporal bone fracture, surgery, erosive disease and spontaneous tegmen defects linked to raised intracranial pressure; it is confirmed by beta-2 transferrin in the fluid. A **mastoid abscess** or a **parotid or skin process** can discharge into the canal.
 !differ Ear drops when the drum is open
@@ -76,6 +79,7 @@ Fungal otitis externa needs thorough removal of debris and two to three weeks of
 A perforated acute otitis media in an adult needs analgesia and often oral amoxicillin. Grommet otorrhoea and active mucosal chronic otitis media need microsuction and topical antibiotic drops, with a swab only when the ear does not settle. Once the ear is dry, a perforation that keeps discharging is repaired by tympanoplasty. Cholesteatoma needs imaging and surgery, not repeated courses of drops.
 ## Necrotising otitis externa and complications
 Suspected necrotising otitis externa means admission, glycaemic control, culture before antibiotics, biopsy to exclude cancer, CT and MRI, and prolonged antipseudomonal treatment. Any complication of otitis media, such as mastoiditis, facial palsy, labyrinthitis or intracranial infection, needs intravenous antibiotics, imaging and usually drainage.
+!anat s36_39 | Sensory supply of the canal and drum: why canal disease is so painful.
 ## Children
 In children the discharging ear is usually acute otitis media with perforation or grommet otorrhoea. Grommet otorrhoea is treated with non-ototoxic quinolone drops after cleaning; recurrent episodes need a look at the adenoids and a swab. A child with a red, swollen, tender mastoid and an ear pushed forward has acute mastoiditis and needs admission, intravenous antibiotics and often myringotomy with or without cortical mastoidectomy.
 

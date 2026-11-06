@@ -14,6 +14,7 @@ The sensation of airflow is carried by trigeminal cold receptors, not by the vol
 - **A newborn with cyclical cyanosis relieved by crying:** bilateral choanal atresia.
 - **A midline nasal mass in a child:** dermoid, glioma or encephalocele — image before any biopsy.
 !!
+!fig d23-3 d26-7 | First, the internal nasal valve area. Second, Cottle's test: drawing the cheek laterally opens the valve.
 
 # History | Fixed or fluctuating?
 ## The questions
@@ -26,6 +27,7 @@ Ask about the company the symptom keeps: sneezing, itch and watery discharge in 
 Look at the external nose from the front, side and below for deviation, a twisted pyramid, a narrow or collapsing ala and a caudal septum dislocated into the nostril. Watch the alae on deep nasal inspiration. **Cottle's test**, in which the cheek is drawn laterally to open the valve, suggests a valve problem when it improves breathing; a modified version supports the valve from inside with a cotton bud or a curette.
 
 Examine the vestibule, the septum and the turbinates with a headlight and speculum, then with an endoscope before and after topical decongestant. Mucosal swelling that shrinks well is reversible (rhinitis); a deviation, a spur or a polyp does not change. The endoscope also reveals middle meatal pus and polyps, the posterior septum, the choanae and the nasopharynx.
+!anat s100_28 | The lateral nasal wall: turbinates and meatuses.
 ## Measuring the airway
 **Peak nasal inspiratory flow** is the quickest objective test, normally around 120 to 140 L/min in adults. **Anterior rhinomanometry** measures resistance from flow and pressure and is the reference standard. **Acoustic rhinometry** maps cross-sectional area along the cavity; a large improvement after decongestion points to mucosal disease. CT is reserved for suspected sinus disease or before surgery, and imaging with MRI for any suspected tumour.
 
@@ -44,6 +46,7 @@ Other | Adenoids, choanal atresia, foreign body, empty nose syndrome, pregnancy 
 Allergic rhinitis affects about a quarter of people and chronic rhinosinusitis about one in ten. Allergic rhinitis mainly swells the inferior turbinates and responds well to decongestant; chronic rhinosinusitis affects the middle meatus and responds less. Both are common partners of a deviated septum, and treating the mucosa often settles symptoms without surgery.
 ## The septum and the valves
 **Cottle's classification** divides the septum into five areas from the nostril backwards. Deviations in areas 1 to 3, at or in front of the internal valve, cause the most obstruction; deviations further back matter less. A deviation at the valve or the caudal septum is not adequately corrected by a standard septoplasty and needs a **functional septorhinoplasty**, with spreader grafts for the internal valve and struts or alar grafts for the external valve.
+!fig d26-4 d26-6 | First, the types of septal deviation. Second, a C-shaped deviation nearly blocking one side.
 
 # Pathway | Mucosa or skeleton?
 !path The blocked nose
@@ -60,6 +63,7 @@ Every patient with an inflammatory component should have a proper trial of salin
 A randomised trial has shown that septoplasty, with or without turbinate reduction, improves nasal obstruction more than continued medical treatment in patients with a deviated septum. **Septoplasty** corrects mid and posterior deviations through mucoperichondrial flaps, preserving an L-shaped strut of at least 1 cm dorsally and caudally. **Turbinate reduction** by submucosal diathermy, radiofrequency, outfracture or submucosal resection reduces the turbinates while preserving mucosa; its effect fades with time and it does not replace medical treatment. **Functional septorhinoplasty** treats the valve and the twisted nose, often through an external approach. Over-resection of the turbinates is avoided because of the risk of empty nose syndrome.
 ## Children
 In a child, adenoidal hypertrophy is the commonest cause of bilateral obstruction, with mouth breathing, snoring and hyponasal speech. Rhinitis is common, and a unilateral foul discharge is a foreign body until proven otherwise. A neonate who is an obligate nasal breather and blocked may have **choanal atresia**: bilateral atresia causes cyclical cyanosis relieved by crying and needs an oral airway, CT and endoscopic repair, while unilateral atresia presents later with a unilateral discharge. **Piriform aperture stenosis**, nasolacrimal duct cysts and midline masses (dermoid, glioma, encephalocele) are rarer neonatal causes that need imaging before intervention.
+!fig d32-1 d32-2 | An antrochoanal polyp, a cause of unilateral obstruction in older children and young adults.
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials

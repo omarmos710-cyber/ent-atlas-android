@@ -13,6 +13,7 @@ A forehead-sparing palsy of sudden onset is a stroke until proven otherwise and 
 - **A parotid mass or a facial skin cancer:** perineural malignancy.
 - **Bilateral palsy:** Lyme disease, Guillain–Barré syndrome, sarcoidosis, leukaemia, HIV.
 !!
+!fig d14-1 | The forehead receives bilateral cortical innervation and is spared in supranuclear palsy.
 
 # History | Speed, sequence and company.
 ## Onset and course
@@ -34,8 +35,10 @@ IV | Disfiguring weakness | Incomplete | None
 V | Barely perceptible movement | Incomplete | None
 VI | Total paralysis | None | None
 !!
+!fig d14-7a d14-7b | First, the features of a left lower motor neuron facial palsy. Second, Bell's palsy in an adult and a child.
 ## Looking for a cause
 Examine the ear under the microscope for cholesteatoma, otitis media, a mass behind the drum or blood, and look for **vesicles** in the concha, the canal, the soft palate and the anterior tongue. Test hearing with tuning forks. Palpate the parotid and the neck, and look at the facial skin and scalp for a cancer that may spread along the nerve. Examine the other cranial nerves, the limbs and the gait.
+!fig d14-12 | Topographical localisation of facial nerve lesions.
 
 # Causes | By site and by speed.
 ## The common causes
@@ -52,6 +55,7 @@ Cerebellopontine angle and meatus | Hearing loss, tinnitus, imbalance; other cra
 Temporal bone | Ear disease; hearing loss; vertigo; vesicles | Bell's palsy, Ramsay Hunt syndrome, cholesteatoma, fracture
 Parotid and face | Mass; selective branch weakness; skin cancer | Parotid malignancy, surgery, trauma
 !!
+!fig d14-2 | Course of the facial nerve: meatal, labyrinthine, tympanic and mastoid segments, and its branches.
 
 # Investigation | What and when.
 ## Tests

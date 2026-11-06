@@ -25,6 +25,7 @@ Discrete persistent lump | Neoplasm | Painless, slow (benign); pain, fixity, pal
 Ask how long the swelling has been present, whether it fluctuates or is constant, whether it is related to eating, whether it is painful, and whether it is one gland or several. Ask about a bad taste or pus in the mouth, dry eyes and dry mouth, joint pains, fever, weight loss and night sweats, alcohol intake, diabetes, medications (anticholinergics, diuretics), radiotherapy, HIV risk, and previous skin cancers of the face and scalp, which metastasise to parotid nodes.
 ## Examination
 Inspect and palpate the gland, bimanually for the submandibular gland and the floor of mouth, feeling for a stone along Wharton's duct. Look at the duct openings: the parotid (Stensen's) duct opposite the upper second molar and the submandibular duct beside the frenulum; massage the gland to see whether clear saliva, cloudy saliva or pus comes out. Test every branch of the facial nerve, examine the oropharynx for medial displacement of the tonsil, check the neck for nodes, and inspect the skin of the face and scalp.
+!anat s182_43 s192_67 | First, the parotid gland and Stensen's duct. Second, the sublingual and submandibular glands with their ducts.
 
 # Investigation | Ultrasound first.
 ## Imaging and tissue
@@ -33,6 +34,7 @@ Inspect and palpate the gland, bimanually for the submandibular gland and the fl
 # Causes | Obstruction, infection, systemic, neoplasm.
 ## Stones and strictures
 About 80 to 90% of salivary stones occur in the submandibular gland, because its saliva is more alkaline and mucous and its duct runs uphill. Patients have **meal-time syndrome**: pain and swelling with eating that settle over hours. Stones near the duct opening are removed transorally; stones up to about 4 to 5 mm can be retrieved with a sialendoscope basket, and larger ones fragmented by laser or extracorporeal lithotripsy or removed by a combined endoscopic and open approach. Gland excision is reserved for failure. Parotid problems more often come from strictures, which are dilated endoscopically.
+!fig d45-2 d45-3 | Submandibular sialadenitis, and a radio-opaque stone in the submandibular duct.
 ## Infection
 **Acute bacterial sialadenitis**, usually *Staphylococcus aureus*, occurs in dehydrated, elderly or postoperative patients with reduced salivary flow; treatment is rehydration, sialogogues, massage, oral hygiene and antibiotics, with drainage of any abscess. **Mumps** causes bilateral painful parotitis with malaise and is managed supportively. **Juvenile recurrent parotitis** causes repeated parotid swellings in children and usually resolves by puberty.
 ## Systemic and infiltrative causes
@@ -46,6 +48,7 @@ Discrete lump | ultrasound with fine-needle cytology or core biopsy ; MRI if mal
 Red flags? | facial weakness, pain, fixity, nodes: treat as malignant — MDT ; benign cytology: parotidectomy or extracapsular dissection, or observation in selected patients
 Sjögren's with persistent swelling | biopsy to exclude lymphoma
 !!
+!fig d46-1 | Squamous cell carcinoma of the parotid: (A) a parotid swelling and (B) facial palsy, the red flag.
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials

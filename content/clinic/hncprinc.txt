@@ -13,6 +13,7 @@ Other factors include poor oral hygiene and chronic dental trauma, submucous fib
 Carcinogens bathe the whole mucosa, so genetically altered fields surround a cancer and give rise to new ones. Second primary tumours develop at about 3 to 5% a year, in the head and neck, lung and oesophagus, and they are a leading cause of death after successful treatment of an early cancer. This is why every patient has a panendoscopy at diagnosis, is helped to stop smoking, and is followed for life.
 ## Premalignant lesions
 Leukoplakia and erythroplakia, of which erythroplakia carries the highest risk, submucous fibrosis, erosive lichen planus and laryngeal dysplasia are the recognised premalignant states. The grade of dysplasia, from mild through moderate and severe to carcinoma in situ, predicts the risk of invasion.
+!fig d44-7 d44-8 | Leukoplakia of the cheek and of the lateral tongue.
 
 # Tumour biology | Two diseases.
 ## HPV-negative carcinoma
@@ -57,6 +58,7 @@ N3a | Any node over 6 cm, ENE negative
 N3b | Clinically overt ENE (skin involvement, fixation, cranial nerve or muscle invasion)
 !!
 Pathologically, a single ipsilateral node of 3 cm or less *with* ENE becomes pN2a, and larger or multiple nodes with ENE become pN3b. In the **HPV-positive oropharynx**, clinical N1 is ipsilateral nodes of 6 cm or less, N2 contralateral or bilateral nodes of 6 cm or less, and N3 any node over 6 cm, while pathologically *pN1 is one to four nodes and pN2 five or more*. In the **nasopharynx**, N1 is unilateral cervical, or unilateral or bilateral retropharyngeal nodes, of 6 cm or less above the cricoid; N2 is bilateral cervical nodes of 6 cm or less above the cricoid; and N3 is any node over 6 cm or below the caudal border of the cricoid.
+!anat s286_80 | Lymph node levels of the neck.
 ## Stage groups
 !table Stage groups (oral cavity, larynx, hypopharynx, HPV-negative oropharynx, sinuses, salivary)
 Stage | TNM
@@ -85,6 +87,7 @@ The history covers symptoms, risk factors, comorbidity, performance status (ECOG
 CT and MRI of the primary and neck are complementary: MRI is better for the tongue, nasopharynx, skull base and perineural spread, CT for bone and the larynx. Distant staging uses CT of the chest for advanced disease and *PET-CT* for stage III and IV disease, unknown primaries and recurrence, and the neck is assessed with ultrasound and FNA.
 ## Panendoscopy
 Examination under anaesthesia, with laryngoscopy, pharyngoscopy, oesophagoscopy and sometimes bronchoscopy, maps the tumour's extent into the tongue base, vallecula, postcricoid area and subglottis, takes biopsies, and searches for synchronous second primaries. For unknown primaries it includes tonsillectomy and tongue base mucosectomy.
+!fig d62-4 d62-5 | Laryngeal cancer by subsite: supraglottic, glottic and subglottic.
 ## Before treatment
 Before treatment begins, teeth at risk are extracted ahead of radiotherapy, a dietitian reviews nutrition and a prophylactic gastrostomy is considered, and a speech and swallowing therapist makes a baseline assessment and starts *prehabilitation*. Smoking and alcohol cessation are supported, the anaesthetist plans the airway (some patients need a tracheostomy under local anaesthesia first), and the clinical nurse specialist begins psychosocial support.
 !ops 61 45 | Management of the unknown primary, and panendoscopy.

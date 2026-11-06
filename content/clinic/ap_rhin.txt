@@ -17,6 +17,7 @@ Unilateral, blood-stained | Tumour | Obstruction, pain, numbness, proptosis
 - **Blood-stained unilateral discharge in an adult:** endoscopy and imaging for a tumour.
 - **Unilateral foul discharge in a child:** foreign body.
 !!
+!anat s102_35 | Where each sinus and the nasolacrimal duct drains into the meatuses: the site of discharge on endoscopy points to its source.
 
 # Bilateral rhinorrhoea | Mostly mucosal.
 ## Allergic rhinitis
@@ -37,6 +38,7 @@ CSF rhinorrhoea is a communication between the subarachnoid space and the nose. 
 The discharge is clear, watery and unilateral, worse on bending forward (the *teapot sign*) or straining, and may run backwards when lying down. It does not cause sneezing or itchy eyes. Diagnosis is confirmed by **beta-2 transferrin** or **beta-trace protein** in the fluid; the "halo" and glucose tests are unreliable. **High-resolution CT** shows the bony defect, MRI shows any encephalocele or herniated meninges, and CT cisternography or intrathecal fluorescein at surgery helps find small or intermittent leaks.
 
 Traumatic leaks are first treated conservatively, with bed rest, head elevation, stool softeners and avoidance of nose blowing, and a lumbar drain if needed; many close within a week. Persistent and spontaneous leaks are repaired endoscopically with a graft or a nasoseptal flap, and spontaneous leaks need their raised pressure treated to prevent recurrence. Pneumococcal vaccination is recommended.
+!fig d29-4 d29-5 | Sites of CSF leakage into the nose and ear.
 ## Other unilateral causes
 A **foreign body** in a child, or after dental or sinus surgery in an adult, gives a foul unilateral discharge. **Dental (odontogenic) sinusitis** and a **fungal ball** affect one maxillary sinus, often with a foul smell. **Choanal atresia** occasionally presents with unilateral discharge. **Tumours**, inverted papilloma and sinonasal malignancy, produce discharge with blockage, bleeding and pain. Unilateral watery discharge with tearing during attacks of severe orbital pain is **cluster headache**.
 
