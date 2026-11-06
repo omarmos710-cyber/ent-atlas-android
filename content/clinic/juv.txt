@@ -95,6 +95,18 @@ Transpalatal (with Sardana's sublabial extension), lateral rhinotomy and midfaci
 For unresectable intracranial disease, residual tumour next to critical structures, and recurrence; stereotactic radiosurgery for small residuals. Long-term risks include growth disturbance, cataract and radiation-induced malignancy in young patients.
 ## Recurrence
 Up to about a third, usually within two years, from residual tumour in the basisphenoid and vidian canal. Follow with contrast MRI.
+!update UPMC staging and current management (Oxford Textbook)
+Older systems (Fisch, Radkowski, Andrews) stage angiofibroma by extent only. The **University of Pittsburgh Medical Center (UPMC)** system adds residual vascularity from the internal carotid artery after embolisation, and predicts blood loss and recurrence better.
+Surgery is the preferred treatment. Early tumours are removed endoscopically, often without embolisation; advanced tumours with internal carotid supply have the external carotid branches embolised first. Recurrence rates are similar after open and endoscopic surgery. Small residual tumour may be watched for growth; accessible recurrence is removed endoscopically, and disease in high-risk sites such as the cavernous sinus may be observed or treated with stereotactic radiosurgery. Follow-up with imaging continues for at least three years.
+!!
+!table UPMC staging of angiofibroma
+Stage | Extent
+I | Nasal cavity, medial pterygopalatine fossa
+II | One or more sinuses, lateral pterygopalatine fossa; no residual vascularity
+III | Skull base erosion, orbit or infratemporal fossa; no residual vascularity
+IV | Skull base erosion, orbit or infratemporal fossa; residual vascularity
+V | Intracranial extension with residual vascularity (medial or lateral)
+!!
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials
