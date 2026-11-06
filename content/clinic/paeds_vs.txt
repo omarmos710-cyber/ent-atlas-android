@@ -1,0 +1,75 @@
+@stand Children's voices and swallows fail for different reasons from adults', and they cannot always tell you what is wrong. A hoarse child is usually a shouting child with nodules, but the second commonest cause is recurrent respiratory papillomatosis, which can obstruct the airway. A child who coughs with feeds may have a neurological swallow, a laryngeal cleft, a tracheo-oesophageal fistula or a nose that is too narrow to breathe through while sucking. Both problems are assessed with the same tools, flexible endoscopy and instrumental swallow studies, and managed by the same partnership of ENT surgeon and speech and language therapist.
+
+# The developing larynx | Why children differ.
+## Anatomy with age
+The infant larynx sits high, at about the level of C2 to C3, so the epiglottis can meet the soft palate and the infant can breathe while sucking. It descends through childhood to about C6 to C7 by fifteen. The infant larynx is about a third of adult size, the subglottis (bounded by the complete cricoid ring) is the narrowest point, and the vocal folds are short with an immature layered structure that matures through childhood and puberty. Babies breathe preferentially through the nose for about the first six months, so nasal obstruction disrupts the coordinated suck, swallow and breathe cycle. Mature chewing and the ability to manage most textures develop by about two years, following motor development more than age.
+
+# The hoarse child | Voice disorders.
+## Causes
+Dysphonia affects between 4 and 23% of children at some stage, and most causes are benign and self-limiting.
+!table Causes of dysphonia in children
+Group | Causes | Points
+Behavioural | **Vocal fold nodules** | Commonest cause; boys, loud voice use; voice therapy works well
+Infective | **Recurrent respiratory papillomatosis** | Second commonest; HPV 6 and 11; may threaten the airway
+Structural | Cysts, sulcus, polyps | Stroboscopy shows a disturbed mucosal wave
+Congenital | Webs, laryngeal cleft, subglottic stenosis, cysts | From birth; often with stridor or feeding problems
+Neurological | Vocal fold paralysis | Often after cardiac surgery; Arnold–Chiari malformation if bilateral
+Inflammatory | Reflux, eosinophilic oesophagitis | Arytenoid oedema and erythema
+Iatrogenic | Intubation injury, webs after repeated surgery | Granuloma, scar, posterior glottic stenosis
+Functional | Puberphonia, functional dysphonia | Normal larynx, abnormal use
+!!
+## Assessment
+Listen to the voice for pitch, range, projection, breaks and resonance, and ask about voice use, noisy breathing, feeding, cardiac surgery and intubation. Look for syndromic features. A paediatric flexible nasendoscope (as small as 2.1 mm) shows mobility and gross lesions in most children; rigid stroboscopy is tolerated by mature children from about three or four years and shows the mucosal wave. **Laryngeal ultrasound** is a useful, non-invasive way to assess vocal fold movement in uncooperative children. A paralysed fold needs imaging of the nerve's course, and a contrast swallow or oesophagoscopy is considered when reflux or eosinophilic oesophagitis is suspected.
+## Vocal fold nodules
+Nodules are bilateral swellings at the junction of the anterior and middle thirds, more common in boys, and caused by voice overuse. They respond well to **voice therapy**, often regress at puberty in boys, and are almost never operated on in children.
+## Recurrent respiratory papillomatosis
+RRP is caused by HPV types 6 and 11, usually acquired at birth from the mother's genital tract; juvenile-onset disease typically appears before five years with progressive hoarseness and later stridor, and can be mistaken for asthma or croup. Treatment is repeated **microdebrider or cold-steel debulking**, preserving normal tissue and avoiding the anterior commissure to prevent webs; KTP laser is an alternative. Tracheostomy is avoided where possible because it may spread disease distally. Adjuvant treatments for aggressive disease (more than about four procedures a year) include intralesional **cidofovir**, whose small cancer risk must be discussed with parents, and systemic **bevacizumab**, which has given striking responses. **HPV vaccination** prevents the disease in the next generation and may reduce recurrences.
+## Vocal fold paralysis
+Paralysis is the second commonest congenital laryngeal anomaly. Unilateral paralysis, often left-sided after cardiac or aortic arch surgery (about 5% of such operations), causes a weak cry, feeding problems and aspiration; children having arch surgery should be screened before discharge. Bilateral paralysis causes stridor with a good cry and is associated with Arnold–Chiari malformation and hydrocephalus. Many idiopathic palsies recover, so observation is appropriate when breathing and feeding are safe. Persistent unilateral palsy is treated with **injection medialisation** (temporary materials such as Gelfoam for about six weeks or hyaluronic acid for months, and longer-lasting calcium hydroxylapatite or fat), which in children needs a general anaesthetic and overnight oximetry, or later with thyroplasty or **ansa cervicalis to recurrent laryngeal nerve reinnervation**, which gives good results in children.
+## Webs and other lesions
+Anterior glottic webs may be congenital, often with a subglottic extension and associated with 22q11.2 deletion, or acquired after repeated microlaryngoscopy. Thin webs are divided endoscopically with a keel or mitomycin; thick congenital webs may need an open repair. Phonosurgery in children follows adult principles but is more conservative: cold instruments, no laser on the true folds, and subepithelial infusion to protect the cover.
+
+# The child who cannot swallow safely | Dysphagia.
+## Assessment
+Swallowing problems affect about 1% of children and many more in clinical groups such as prematurity, neurodisability and cardiac disease. A feeding history (breast or bottle, textures, duration of meals, coughing, colour change, vomiting, chest infections, weight gain) and observation of a meal by a speech and language therapist come first. Instrumental tests are **videofluoroscopy**, which shows every phase including oesophageal transit, and **FEES**, which can be done at the bedside or during breastfeeding, shows secretions and laryngeal sensation, and avoids radiation; the two are comparable for the pharyngeal phase. They show *penetration* (material in the laryngeal vestibule down to the vocal folds) and *aspiration* (material below the folds), which in children is often silent.
+## Causes
+!table Causes of paediatric dysphagia
+Level | Causes
+Nose and nasopharynx | Choanal atresia, piriform aperture stenosis, mid-nasal stenosis, craniosynostosis, adenoids
+Mouth and oropharynx | Cleft palate, Pierre Robin sequence, macroglossia, tongue-tie (rarely), tonsillar hypertrophy
+Larynx and pharynx | Laryngomalacia, vocal fold paralysis, laryngeal cleft, cricopharyngeal dysfunction
+Oesophagus and trachea | Oesophageal atresia and tracheo-oesophageal fistula, vascular rings, strictures, eosinophilic oesophagitis
+Neurological | Cerebral palsy, hypoxic brain injury, Chiari malformation, neuromuscular disease
+Respiratory and cardiac | Chronic lung disease of prematurity, congenital heart disease (breathlessness, fatigue)
+!!
+## Laryngeal cleft
+A posterior laryngeal cleft is a failure of fusion between the larynx and oesophagus. In the **Benjamin–Inglis** classification, *type I* is confined to the interarytenoid area above the vocal folds; *type II* extends into the cricoid lamina; *type III* extends through the cricoid into the cervical trachea; and *type IV* extends into the thoracic trachea. Type I clefts present with coughing on feeds, chest infections and a weak or hoarse cry, and are easily missed unless the interarytenoid area is **palpated** at microlaryngoscopy. Thickened feeds help many; persistent aspiration is treated by **injection augmentation** of the interarytenoid area or endoscopic repair. Deeper clefts present earlier and more severely and need endoscopic or open repair, with tracheostomy and gastrostomy for type III and IV.
+## Other important causes
+Oesophageal atresia with tracheo-oesophageal fistula presents at birth with drooling, choking and inability to pass a nasogastric tube, or later with an isolated H-type fistula and coughing on feeds. **Vascular rings** compress the trachea and oesophagus, causing stridor and dysphagia for solids. **Eosinophilic oesophagitis** causes food refusal, vomiting and food impaction in older children. **Tongue-tie** can interfere with breastfeeding and is divided by simple frenotomy when it clearly does, but it is not a common cause of feeding failure.
+## Management
+Management is multidisciplinary: positioning, pacing, bottle teats and texture modification by the speech and language therapist, dietetic support, treatment of reflux, and non-oral feeding by nasogastric tube or **gastrostomy** when the swallow is unsafe or intake inadequate, sometimes with fundoplication. The structural cause is corrected where possible.
+
+!path The child with a voice or swallowing problem
+Airway first | stridor or distress: airway assessment and microlaryngoscopy and bronchoscopy ; safe: step 2
+Voice | flexible endoscopy or ultrasound ; nodules: voice therapy ; papillomas: debulking, adjuvant therapy if frequent ; paralysis: image the nerve course, observe, inject or reinnervate
+Swallow | feeding history and observed meal ; videofluoroscopy or FEES ; aspiration: thickened feeds, non-oral feeding if unsafe
+Look for structure | interarytenoid palpation for cleft ; contrast study for fistula, ring or stricture ; endoscopy and biopsy for eosinophilic oesophagitis ; nasal endoscopy for nasal causes
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Why the child larynx differs:** position, size, subglottis.
+- **Nodules and papillomatosis:** the two commonest causes of a hoarse child.
+- **RRP adjuvants:** cidofovir and bevacizumab; HPV vaccination.
+- **Vocal fold paralysis after cardiac surgery;** injection medialisation and reinnervation in children.
+- **Penetration versus aspiration;** FEES versus videofluoroscopy.
+- **Benjamin–Inglis classification** of laryngeal clefts; palpate the interarytenoid area.
+!!
+## Common pitfalls
+!pit
+- Treating papillomatosis as asthma or croup.
+- Missing a type I laryngeal cleft by not palpating the interarytenoid area.
+- Operating on vocal fold nodules in a child.
+- Lasering the anterior commissure and creating a web.
+!!

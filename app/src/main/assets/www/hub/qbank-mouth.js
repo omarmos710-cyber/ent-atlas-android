@@ -227,3 +227,18 @@ k:[{t:"A small jaw",s:"A newborn has a small mandible, a U-shaped cleft palate a
  ["Diagnosis?",["Pierre Robin sequence","Treacher Collins syndrome","Down syndrome","Choanal atresia"],0,"Micrognathia, glossoptosis, cleft."],
  ["First airway measure?",["Prone positioning or a nasopharyngeal airway","Tracheostomy","Intubation","Adenoidectomy"],0,"Escalate to distraction or tracheostomy if needed."],
  ["Which associated syndrome needs an eye examination?",["Stickler syndrome","Waardenburg syndrome","Turner syndrome","Alport syndrome"],0,"High myopia, retinal detachment."]]}]});
+
+QB_("oral_ca",{
+m:[["Which oral potentially malignant disorder carries the highest risk of malignant change?",["Erythroplakia","Homogeneous leukoplakia","Leukoedema","Frictional keratosis"],0,"Most already show severe dysplasia or carcinoma."],
+ ["In AJCC 8th edition, a 1.8 cm tongue cancer with a depth of invasion of 7 mm is:",["T2","T1","T3","T4a"],0,"≤2 cm with DOI over 5 mm."],
+ ["The D'Cruz trial showed that in early node-negative oral cancer, elective neck dissection:",["Improved overall survival","Had no effect","Worsened survival","Only reduced recurrence"],0,"About 80% vs 68% at three years."],
+ ["Chemoradiotherapy rather than radiotherapy alone is indicated after surgery for:",["Extranodal extension or involved margins","Perineural invasion alone","pT2 tumours","A single small node"],0,"The two highest-risk features."],
+ ["A segmental mandibulectomy is indicated when tumour:",["Invades the medullary bone","Abuts the periosteum","Lies in the floor of mouth","Is under 2 cm"],0,"Marginal resection suffices for abutment or superficial erosion."]],
+c:[["Depth of invasion?","Measured from the adjacent normal basement membrane to the deepest invasion; not tumour thickness."],
+ ["Margin definitions?","Clear ≥5 mm, close 1–5 mm, involved <1 mm."]],
+v:[["How do you manage a patient with a leukoplakia of the lateral tongue?",["Remove irritants, treat candida, review","Biopsy the most suspicious area","Grade dysplasia","Stop tobacco, alcohol, areca","Excise moderate or severe dysplasia","Long-term follow-up for field change"]]],
+e:[["Discuss the management of the N0 neck in early oral cancer.",["Risk of occult metastasis","Depth of invasion","D'Cruz trial","Selective neck dissection levels I–III","Sentinel node biopsy","Adjuvant therapy"]]],
+k:[{t:"An ulcer on the tongue",s:"A 55-year-old betel chewer has a 2.5 cm indurated ulcer of the lateral tongue. MRI shows a depth of invasion of 8 mm and no nodes.",q:[
+ ["T stage?",["T2","T1","T3","T4a"],0,"2–4 cm with DOI ≤10 mm."],
+ ["Management of the neck?",["Elective neck dissection levels I–III","Observation","Radiotherapy only","Bilateral radical neck dissection"],0,"DOI well over 4 mm."],
+ ["Pathology shows extranodal extension in one node. Adjuvant treatment?",["Chemoradiotherapy","Radiotherapy alone","None","Chemotherapy alone"],0,"ENE is a high-risk feature."]]}]});

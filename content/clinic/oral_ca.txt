@@ -1,0 +1,88 @@
+@stand Oral cancer is the head and neck cancer that patients and dentists can see, yet it is still often diagnosed late. Early disease is cured in 80 to 90% of patients; advanced disease in only 30 to 40%. The surgeon's job therefore begins before the cancer, with the potentially malignant disorders that precede many of these tumours, and continues through a staging system now built around depth of invasion, a firm rule to treat the neck electively, and adjuvant therapy chosen from the pathology report.
+
+# Potentially malignant disorders | Before the cancer.
+## The term and the lesions
+In 2005 the WHO replaced "precancer" with **oral potentially malignant disorders**, because these lesions carry a risk of cancer but do not always precede it. **Leukoplakia** is a white patch that cannot be characterised as any other definable lesion; it is the commonest, and smoking increases its risk. **Erythroplakia**, a red velvety patch, is much rarer but carries the highest risk, and most erythroplakias already show severe dysplasia or carcinoma when biopsied. **Proliferative verrucous leukoplakia** is a multifocal, relentlessly spreading white lesion, typically in older women who do not smoke, with a very high lifetime cancer risk. **Oral submucous fibrosis**, from areca nut chewing, and **oral lichen planus**, especially the erosive form, complete the main list.
+!flag Features that raise the risk of transformation
+- Red or mixed red-and-white lesions (erythroleukoplakia), and proliferative verrucous leukoplakia.
+- Sites on the lateral and ventral tongue and floor of mouth.
+- Multiple, large or long-standing lesions.
+- Lesions in non-smokers and in women.
+- Epithelial dysplasia on biopsy, of which about 5 to 18% transform.
+!!
+## Assessment of a white or red patch
+Inspect and palpate the whole mouth, note size, colour, texture and induration, examine the neck, remove irritants (a sharp tooth, a denture), treat candida, and review in two to three weeks. Any lesion that persists is **biopsied**, taking the reddest, most indurated or most irregular part; histology grades dysplasia as mild, moderate or severe. Adjuncts such as toluidine blue or Lugol's iodine staining, autofluorescence and narrow-band imaging help choose biopsy sites and map margins, but none replaces a biopsy.
+## Management
+Stop tobacco, alcohol and areca nut. Moderate and severe dysplasia, erythroplakia and accessible high-risk lesions are excised, usually with a laser or scalpel, and all patients are followed long term, because new lesions and cancers arise elsewhere in the mouth (field change).
+
+# Oral squamous cell carcinoma | Who, where and how it presents.
+## Epidemiology and risk factors
+More than 90% of oral cancers are squamous cell carcinomas. The main risk factors are **tobacco** (smoked and chewed), **alcohol**, which multiplies the risk of tobacco, and **betel quid with areca nut**, which makes oral cancer one of the commonest cancers in South Asia. HPV plays only a small part, unlike in the oropharynx. An increasing number of young non-smokers, often women, develop tongue cancer without the usual risk factors, and patients with Fanconi anaemia have a very high risk.
+## Sites and presentation
+In Western countries the lateral border of the **tongue** and the **floor of mouth** are the commonest sites; in South Asia the **buccal mucosa** and gingivobuccal sulcus, where the quid is held, predominate. Patients present with a non-healing ulcer, a lump, a red or white patch, pain referred to the ear, bleeding, loose teeth or ill-fitting dentures, trismus, numbness of the lip (mental nerve involvement) or a neck lump. Any single ulcer that has not healed in three weeks must be biopsied.
+!table Oral cavity subsites and their particular problems
+Subsite | Particular points
+Oral tongue | Commonest site in the West; depth of invasion drives nodal spread; may cross the midline
+Floor of mouth | Early spread to the mandible and both sides of the neck; can obstruct the submandibular ducts
+Buccal mucosa and gingivobuccal sulcus | Commonest in betel users; spread to skin, mandible, maxilla and infratemporal fossa
+Lower alveolus and retromolar trigone | Early bone invasion; retromolar disease spreads to the pterygoid region
+Hard palate and upper alveolus | Minor salivary tumours are common here; maxillectomy defects need obturators or flaps
+Lip | Usually lower lip, sun-exposed; excellent prognosis; treated by surgery or radiotherapy
+!!
+
+# Staging and investigation | Depth, bone and nodes.
+## Investigation
+Examination under anaesthesia confirms extent and allows biopsy. **MRI** shows soft tissue extent, depth, marrow invasion and perineural spread better; **CT** shows cortical bone erosion; and an **orthopantomogram** gives dental and mandibular detail. Ultrasound with FNA assesses neck nodes. **FDG PET-CT** is used for advanced or high-grade disease and low neck nodes, to find distant metastases and second primaries, and for suspected recurrence. Dental assessment and any extractions are done before radiotherapy to reduce osteoradionecrosis.
+## The AJCC eighth edition
+The eighth edition added **depth of invasion** (DOI), measured from the level of the adjacent normal basement membrane to the deepest point of invasion, because it predicts nodal spread better than surface size; it is not the same as tumour thickness, which includes exophytic growth.
+!table T staging of oral cavity cancer (AJCC 8th)
+T | Size and depth of invasion
+T1 | 2 cm or less, DOI 5 mm or less
+T2 | 2 cm or less with DOI over 5 mm, or 2 to 4 cm with DOI 10 mm or less
+T3 | Over 4 cm, or DOI over 10 mm
+T4a | Invades through cortical bone of mandible or maxilla, into the maxillary sinus or the skin of the face
+T4b | Invades masticator space, pterygoid plates or skull base, or encases the internal carotid artery
+!!
+Superficial erosion of a tooth socket by a gingival primary is not enough to make a tumour T4. **Extranodal extension** now upstages nodal disease, clinically when obvious and pathologically on the specimen.
+
+# Treatment | Surgery first for most.
+## The primary
+Surgery followed by risk-based adjuvant therapy gives the best control for operable oral cancer at every stage. The aim is complete excision with a **5 mm** margin of normal tissue in three dimensions; on the specimen, margins of 5 mm or more are *clear*, 1 to 5 mm *close*, and under 1 mm *involved*, and positive margins reduce survival. Tumours near the mandible need a **marginal mandibulectomy** (removing the alveolar rim and keeping continuity) when the bone is abutted or superficially eroded, and a **segmental mandibulectomy** when tumour invades the medullary bone or the mandible is thin and edentulous. Radiotherapy or brachytherapy may be preferred for some lip and hard palate cancers where surgery would cost too much function.
+## The neck
+The neck is treated electively in early oral cancer. A large Indian randomised trial (D'Cruz, 2015) showed that **elective neck dissection** of levels I to III in clinically node-negative early cancer improved three-year overall survival compared with waiting and operating when nodes appeared (about 80% versus 68%). Elective treatment is therefore standard when DOI is more than about 3 to 4 mm, and is considered at lower depths for high-risk sites. **Sentinel node biopsy** is an emerging alternative in early disease, with less morbidity. Node-positive necks have a comprehensive dissection of levels I to V (sometimes I to IV), and the opposite side is treated for midline tumours or extensive nodal disease.
+## Reconstruction
+Reconstruction restores swallowing, speech, mastication and appearance, replacing like with like. Small defects heal by secondary intention, are grafted or are closed with local flaps; tongue and floor of mouth defects are commonly reconstructed with a **radial forearm** or **anterolateral thigh** free flap, and segmental mandibular defects with a **fibula** or other vascularised bone flap, which can later carry dental implants.
+## Adjuvant therapy
+Postoperative **radiotherapy** is given for pT3–T4 tumours, multiple or level IV–V nodes, close margins, perineural invasion and lymphovascular invasion. **Concurrent chemoradiotherapy** with cisplatin is given for **extranodal extension** and **involved margins**, the two features that most predict recurrence. Unresectable T4b disease and patients unfit for surgery receive chemoradiotherapy or palliative treatment; borderline resectable tumours may be downstaged with **induction chemotherapy**.
+
+!path The suspicious oral lesion
+Persistent ulcer, red or white patch after removing irritants | biopsy the most suspicious area ; dysplasia: stop tobacco, alcohol and areca, excise moderate or severe dysplasia, follow up long term ; carcinoma: step 2
+Stage | MRI or CT of primary and neck, orthopantomogram, chest imaging or PET-CT ; dental assessment
+Treat the primary | wide excision with 5 mm margins ; marginal or segmental mandibulectomy by bone invasion ; free flap reconstruction where needed
+Treat the neck | N0 with DOI over 3 to 4 mm: elective neck dissection levels I to III or sentinel node biopsy ; N+: comprehensive neck dissection
+Pathology | close margins, PNI, LVI, pT3–4, N2+: radiotherapy ; ENE or involved margin: chemoradiotherapy
+!!
+
+# Complications and follow-up | After treatment.
+## Complications
+Haemorrhage, infection (more after reconstruction, in drinkers and with tracheostomy), seroma and chyle leak follow neck surgery; marginal mandibular and accessory nerve weakness are recognised risks. **Carotid blowout** is rare after primary surgery but feared in irradiated and recurrent necks, especially with salivary fistula or flap necrosis. Radiotherapy causes dry mouth, dental decay, trismus and osteoradionecrosis, so lifelong dental care and jaw exercises matter.
+## Follow-up
+Patients are reviewed frequently for the first two years, when most recurrences occur, and for at least five years, with imaging as needed. Second primary cancers in the mouth, pharynx, larynx, oesophagus and lung are common in smokers, and stopping tobacco and alcohol is the single most valuable intervention after treatment.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Potentially malignant disorders:** leukoplakia, erythroplakia, proliferative verrucous leukoplakia, submucous fibrosis, and the risk features.
+- **Depth of invasion** and the AJCC eighth edition T stages.
+- **Elective neck dissection in early oral cancer:** the D'Cruz trial; sentinel node biopsy.
+- **Margins:** clear, close and involved.
+- **Marginal versus segmental mandibulectomy.**
+- **Adjuvant therapy:** indications for radiotherapy and for chemoradiotherapy.
+!!
+## Common pitfalls
+!pit
+- Treating a persistent ulcer with repeated topical steroids instead of biopsying it.
+- Watching the N0 neck in a tongue cancer with significant depth of invasion.
+- Confusing depth of invasion with tumour thickness.
+- Forgetting dental assessment before radiotherapy.
+!!

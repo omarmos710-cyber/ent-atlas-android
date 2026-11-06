@@ -164,3 +164,32 @@ k:[{t:"Fire in the airway",s:"During CO2 laser excision of a cord lesion, a flas
  ["First action?",["Stop laser and oxygen, remove the tube","Continue","Increase oxygen","Inject steroids"],0,"Airway fire drill."],
  ["After the fire?",["Saline to the airway, ventilate by mask, reintubate, bronchoscopy","Discharge","X-ray only","Antibiotics only"],0,"Assess injury."],
  ["Prevention?",["Laser-safe tube, saline cuff, low FiO2","Higher oxygen","No eye protection","Dry swabs"],0,"Basic safety."]]}]});
+
+QB_("paeds_vs",{
+m:[["The commonest cause of hoarseness in children is:",["Vocal fold nodules","Recurrent respiratory papillomatosis","Vocal fold paralysis","Laryngeal web"],0,"Voice therapy."],
+ ["Recurrent respiratory papillomatosis is caused mainly by HPV types:",["6 and 11","16 and 18","31 and 33","1 and 2"],0,"Low-risk types."],
+ ["A type I laryngeal cleft is diagnosed by:",["Palpating the interarytenoid area at microlaryngoscopy","Barium swallow","Chest X-ray","Flexible nasendoscopy alone"],0,"Easily missed on inspection."],
+ ["Material seen below the vocal folds on FEES is:",["Aspiration","Penetration","Residue","Regurgitation"],0,"Penetration stops at the folds."],
+ ["A common cause of left vocal fold paralysis in infants is:",["Aortic arch or cardiac surgery","Thyroidectomy","Intubation granuloma","Croup"],0,"About 5% of arch operations."]],
+c:[["Adjuvants for aggressive RRP?","Intralesional cidofovir, systemic bevacizumab; HPV vaccination."],
+ ["Benjamin–Inglis types?","I interarytenoid; II into cricoid; III through cricoid into cervical trachea; IV into thoracic trachea."]],
+v:[["How do you assess a hoarse child?",["History: voice use, cardiac surgery, intubation","Listen to the voice","Flexible endoscopy or ultrasound","Stroboscopy in older children","Imaging for paralysis","Microlaryngoscopy if needed"]]],
+e:[["Discuss recurrent respiratory papillomatosis in children.",["HPV 6 and 11, vertical transmission","Presentation","Debulking, avoid anterior commissure","Avoid tracheostomy","Cidofovir and bevacizumab","HPV vaccination"]]],
+k:[{t:"Coughing with feeds",s:"A 10-month-old coughs with every bottle and has had three chest infections. Flexible endoscopy is normal.",q:[
+ ["Best next investigation?",["Videofluoroscopy or FEES","CT chest","MRI brain","pH study"],0,"Instrumental swallow assessment."],
+ ["Aspiration of thin fluids is confirmed. Which lesion must be excluded at microlaryngoscopy?",["Type I laryngeal cleft","Laryngomalacia","Subglottic haemangioma","Nodules"],0,"Palpate the interarytenoid area."],
+ ["Initial management?",["Thickened feeds with speech therapy","Fundoplication","Tracheostomy","Nil by mouth permanently"],0,"Injection augmentation or repair if it persists."]]}]});
+
+QB_("anaes",{
+m:[["During laser surgery of the larynx, inspired oxygen should ideally be:",["Below about 30%","100%","50% with nitrous oxide","Not monitored"],0,"Reduces fire risk."],
+ ["The most important condition for safe jet ventilation is:",["A clear expiratory path","A cuffed tube","Neuromuscular block","Nitrous oxide"],0,"Otherwise barotrauma."],
+ ["A child returns with a post-tonsillectomy bleed. Induction should be:",["Rapid sequence by a senior anaesthetist after resuscitation","Inhalational with the child supine and no suction","Delayed until the next morning","Under local anaesthetic"],0,"Full stomach of blood."],
+ ["In an airway fire, the first step is to:",["Stop the laser and ventilation and remove the tube","Increase oxygen","Continue the procedure","Give steroids"],0,"Then saline, mask ventilation with air, reintubate, bronchoscopy."]],
+c:[["NAP4 finding?","About 39% of major airway complications arose in head, neck or tracheal disease."],
+ ["Retained throat pack?","A never event; many no longer use packs routinely; include in swab count."]],
+v:[["How would you plan the airway for a patient with an obstructing laryngeal tumour?",["Joint review of endoscopy and imaging","Primary and backup plans","Awake fibreoptic intubation or awake tracheostomy","Mark the cricothyroid membrane","Surgeon scrubbed before induction","Plan extubation or tracheostomy"]]],
+e:[["Discuss methods of sharing the airway during microlaryngeal surgery.",["Microlaryngeal tubes","Laser-resistant tubes","Supraglottic and transglottic jet","Spontaneous ventilation","High-flow nasal oxygen","Risks of each"]]],
+k:[{t:"A stridulous patient",s:"A 66-year-old with a known glottic tumour has biphasic stridor at rest and saturations of 93%.",q:[
+ ["Safest way to secure the airway?",["Awake tracheostomy under local anaesthetic","Intravenous induction with paralysis","Laryngeal mask","Nasal cannula only"],0,"Larynx likely impassable."],
+ ["A temporising measure while preparing?",["Heliox and steroids","Sedation","Lying flat","Nebulised salbutamol only"],0,"Buys time only."],
+ ["During subsequent laser debulking the tube should be:",["Laser-resistant with a saline-filled cuff","A standard PVC tube","Uncuffed","Removed"],0,"Plus low oxygen."]]}]});
