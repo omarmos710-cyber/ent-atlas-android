@@ -58,6 +58,13 @@ Voice tremor often coexists. Exclude Parkinson disease, essential tremor, multip
 - **Voice therapy** helps alongside toxin but not alone; psychotherapy is ineffective.
 - **Surgery:** recurrent nerve section (abandoned because symptoms return); selective adductor denervation–reinnervation; type II (lateralisation) thyroplasty; thyroarytenoid myectomy.
 !ops 1 | Office-based laryngeal procedures, including botulinum toxin injection.
+!update Movement disorders of the larynx (Oxford Textbook)
+**Laryngeal dystonia** is the term a recent multidisciplinary consensus proposed to replace "spasmodic dysphonia". It is task-specific: speaking is affected, but whispering, laughing and crying are not. *Adductor* dystonia, the commonest, gives strained-strangled breaks on voiced sounds; *abductor* dystonia gives breathy breaks on voiceless consonants; mixed forms occur. Newer variants are *singer's* dystonia, affecting only singing, and *adductor respiratory* dystonia, with adductor spasms on inspiration causing stridor. A simple bedside test is to count from 80 to 90 (voiced sounds, worse in adductor dystonia) and from 60 to 70 (voiceless sounds, worse in abductor dystonia).
+
+**Vocal tremor** may be isolated or part of essential tremor of the head and hands, and is seen as rhythmic movement of the larynx and pharynx at rest phonation. **Parkinson's disease** gives a quiet, breathy, monotonous voice with bursts of rapid speech, usually after the limb signs; intensive loudness-focused voice therapy helps.
+
+**Inducible laryngeal obstruction** (formerly paradoxical vocal fold movement or vocal cord dysfunction) is inappropriate adduction of the folds on inspiration, triggered by exercise, irritants or cough, and often mistaken for asthma. Laryngoscopy is usually normal unless done during symptoms or provocation, and many patients have sensations of tightness and altered breathing rather than visible closure. It often coexists with **chronic refractory cough** (cough over eight weeks, affecting 5 to 10% of adults), and both are best managed in a multidisciplinary upper airway clinic with breathing and laryngeal control techniques taught by speech and language therapists.
+!!
 
 # Resonance and fluency | Beyond the larynx.
 ## Hyponasality (rhinolalia clausa)

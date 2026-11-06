@@ -13,6 +13,7 @@ Recurrent epistaxis causes chronic iron-deficiency anaemia and repeated transfus
 Mutations disturb transforming growth factor-beta signalling in endothelial cells, so the connective tissue and matrix that should support new vessels during angiogenesis fail to form.
 - **HHT type 1:** mutation in *endoglin* (chromosome 9q34); pulmonary and cerebral AVMs are commoner.
 - **HHT type 2:** mutation in *ACVRL1*, also called ALK1 (chromosome 12q); hepatic AVMs are commoner.
+- **Juvenile polyposis–HHT overlap:** mutation in *SMAD4*; these patients need colonoscopy because of colonic polyps and cancer risk. Together, the three genes explain about 90% of clinically diagnosed cases, and genetic testing is mainly used to screen relatives.
 ## The lesion
 Postcapillary venules dilate and connect directly to dilated arterioles, losing the capillary bed between them. The walls lack elastic tissue and smooth muscle, so they cannot contract after injury: minor trauma from dry air or a sneeze causes brisk bleeding that does not stop easily.
 
@@ -82,6 +83,11 @@ Gives only temporary benefit because new collaterals form; reserved for emergenc
 - Repeated cautery makes HHT worse.
 - Resorbable packs, never conventional ribbon gauze, if packing is unavoidable.
 - Treat the nose and the haemoglobin together.
+!!
+!update A staged approach (Oxford Textbook)
+Treatment is stepped up by severity, judged by bleeding frequency, the haemoglobin and transfusion needs; the Epistaxis Severity Score helps track it. The first intervention is usually an examination under anaesthesia with **KTP or argon laser** to stage and treat the disease: these green wavelengths are absorbed by haemoglobin, each lesion is circled and then ablated, tranexamic acid and antibiotic cover are given at induction, and no pack is needed. Bipolar diathermy works better than laser in a bloody field. If laser controls bleeding for less than about three months, move to **septodermoplasty** or systemic treatment; benefit lasts months after laser, years after septodermoplasty, and permanently after **nasal closure** (the Lund-modified Young's procedure with three vestibular flaps), which is offered to transfusion-dependent patients who accept the loss of nasal breathing and smell.
+
+In an acute bleed, bleeding is almost always from the anterior third, so posterior packs are rarely needed. Use resorbable packs such as Nasopore or Surgicel, or a haemostatic matrix, rather than expanding sponges that tear other lesions; give antibiotic cover for any pack; and if packing fails, embolise the facial and maxillary feeders without coils. Recent trials of systemic anti-angiogenic drugs, including intravenous bevacizumab and oral pomalidomide, have reduced bleeding in severe disease, and these are now used by specialist HHT centres.
 !!
 
 # For the examination | What the examiner wants to hear.

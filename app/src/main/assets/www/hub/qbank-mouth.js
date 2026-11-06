@@ -212,3 +212,18 @@ k:[{t:"Nasal speech",s:"After adenoidectomy, a child has hypernasal speech. Bifi
  ["Cause?",["Submucous cleft with VPI","Normal","Allergy","Polyps"],0,"Unmasked."],
  ["Assessment?",["Nasendoscopy","CT","MRI","X-ray"],0,"Gap."],
  ["Treatment?",["Speech therapy then pharyngoplasty","Antibiotics","Nothing","Grommet"],0,"VPI."]]}]});
+
+QB_("syndr",{
+m:[["A coloboma of the lower eyelid with bilateral symmetrical malar hypoplasia suggests:",["Treacher Collins syndrome","Goldenhar syndrome","CHARGE syndrome","Down syndrome"],0,"Goldenhar gives upper lid colobomas and is unilateral."],
+ ["Every child with profound congenital sensorineural loss should have an ECG to exclude:",["Jervell and Lange-Nielsen syndrome","Alport syndrome","Pendred syndrome","Usher syndrome"],0,"Long QT; KCNQ1 and KCNE1."],
+ ["Before pharyngoplasty in 22q11.2 deletion, image the:",["Internal carotid arteries","Cochlea","Thyroid","Cervical spine"],0,"They may lie medially behind the pharyngeal wall."],
+ ["Obstructive sleep apnoea affects about what proportion of children with Down syndrome?",["60%","5%","20%","95%"],0,"Plan postoperative monitoring."],
+ ["The gene mutated in CHARGE syndrome is:",["CHD7","PAX3","TCOF1","SLC26A4"],0,"Turned an association into a syndrome."]],
+c:[["Syndrome, sequence, association?","Single cause; cascade from one anomaly (Pierre Robin); non-random cluster (VACTERL)."],
+ ["Why are hearing aids often first-line for effusion in Down syndrome?","Narrow canals, shorter benefit and more otorrhoea and extrusion with tubes."]],
+v:[["What ENT problems occur in Down syndrome?",["Narrow canals and wax","Persistent effusion; hearing aids or tubes","Cholesteatoma risk","OSA in about 60%; polysomnography; HDU","Subglottic stenosis; smaller tube","Atlantoaxial instability"]]],
+e:[["Write short notes on syndromes associated with sensorineural hearing loss.",["Waardenburg","Pendred","Jervell and Lange-Nielsen","Usher","Branchio-oto-renal","Alport","CHARGE"]]],
+k:[{t:"A small jaw",s:"A newborn has a small mandible, a U-shaped cleft palate and obstructed breathing when supine.",q:[
+ ["Diagnosis?",["Pierre Robin sequence","Treacher Collins syndrome","Down syndrome","Choanal atresia"],0,"Micrognathia, glossoptosis, cleft."],
+ ["First airway measure?",["Prone positioning or a nasopharyngeal airway","Tracheostomy","Intubation","Adenoidectomy"],0,"Escalate to distraction or tracheostomy if needed."],
+ ["Which associated syndrome needs an eye examination?",["Stickler syndrome","Waardenburg syndrome","Turner syndrome","Alport syndrome"],0,"High myopia, retinal detachment."]]}]});

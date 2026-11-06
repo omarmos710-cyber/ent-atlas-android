@@ -1,0 +1,89 @@
+@stand Children with congenital anomalies make up almost half of paediatric hospital admissions, and many pass through the ENT clinic. There are hundreds of syndromes, and memorising all of them is neither possible nor useful. What the ENT surgeon needs is to recognise when a common problem, such as hearing loss, a blocked nose, an effusion or obstructive sleep apnoea, may be part of a syndrome; to know the handful of syndromes that recur in ENT practice; and to anticipate the airway, anaesthetic and hearing problems they bring.
+
+# Definitions | Syndrome, sequence, association.
+## The terms
+A **syndrome** is a pattern of malformations known or assumed to have a single cause, such as Down syndrome or Treacher Collins syndrome. A **sequence** is a cascade of anomalies that follows from one initial malformation: in the *Pierre Robin sequence*, a small mandible lets the tongue fall back, which stops the palatal shelves from fusing and obstructs the airway. An **association** is a non-random clustering of anomalies without a known single cause, such as VACTERL. CHARGE was long called an association until mutations in *CHD7* were found, and it is now a syndrome.
+## The ENT presentations that should raise suspicion
+!table Common ENT problems and the syndromes behind them
+Problem | Syndromes to consider
+Conductive hearing loss | Down, Goldenhar, Treacher Collins, Turner, primary ciliary dyskinesia (Kartagener), cleft palate syndromes
+Sensorineural hearing loss | Usher, Pendred, Jervell and Lange-Nielsen, Waardenburg, branchio-oto-renal, Alport, CHARGE, Alström
+Nasal obstruction in the newborn | Choanal atresia (CHARGE), piriform aperture stenosis, solitary median maxillary central incisor
+Tongue base and pharyngeal obstruction | Pierre Robin, Stickler, Beckwith–Wiedemann, mucopolysaccharidoses, craniosynostosis syndromes
+Laryngeal cleft and tracheo-oesophageal fistula | Opitz G/BBB, Pallister–Hall, VACTERL
+Laryngeal web and velopharyngeal insufficiency | 22q11.2 deletion (velocardiofacial) syndrome
+!!
+!flag Every syndromal child in theatre
+- **Expect a difficult airway** in mandibular hypoplasia (Treacher Collins, Pierre Robin, Goldenhar), macroglossia (Beckwith–Wiedemann, Down) and mucopolysaccharidoses: experienced anaesthetist and ENT surgeon present.
+- **Protect the cervical spine** in Down syndrome and Goldenhar syndrome.
+- **Plan postoperative monitoring** after adenotonsillectomy for obstructive sleep apnoea: many need high-dependency care.
+- **Image the carotids** before pharyngeal surgery in 22q11.2 deletion, because the internal carotids may lie medially behind the pharyngeal wall.
+!!
+
+# Down syndrome | The commonest syndrome in ENT.
+## Genetics and general features
+Down syndrome affects about 1 in 700 births and is the commonest chromosomal disorder. About 95% have trisomy 21, 3 to 4% a translocation (the only inheritable form) and a few are mosaic. Risk rises with maternal age. General features include learning disability, hypotonia, congenital heart disease in about 40% (atrioventricular septal defect most typically), hypothyroidism, low IgA with frequent respiratory infections, leukaemia, early Alzheimer's disease and obesity.
+## The ears
+The ear canals are narrow and fill with wax, and Eustachian tube dysfunction makes **otitis media with effusion** almost universal and longer-lasting than in other children. Ventilation tubes work, but insertion is technically hard, the benefit is shorter, and otorrhoea, early extrusion and recurrence are commoner, so **hearing aids are often offered first**. Chronic otitis media and cholesteatoma develop more often, so follow-up is long term. Sensorineural loss is less common but occurs earlier with age.
+## The airway
+Midfacial hypoplasia, relative macroglossia, hypotonia, obesity and adenotonsillar hypertrophy give **obstructive sleep apnoea in about 60%**. Oximetry or, ideally, polysomnography is done before adenotonsillectomy, because up to three-quarters need breathing support afterwards and surgery alone often does not cure it; CPAP or further surgery may follow. A mild congenital **subglottic stenosis** is common, so the endotracheal tube is usually half a size smaller than predicted for age.
+## The neck
+**Atlantoaxial instability** is present in about one in five, and neck hyperextension during surgery such as adenotonsillectomy can injure the cord. Plain films do not predict who is at risk, so the neck of every child with Down syndrome is handled with care. Grisel syndrome, non-traumatic atlantoaxial subluxation after inflammation, has been linked to excessive diathermy during adenoidectomy.
+
+# First and second arch syndromes | The face, the ear and the jaw.
+## Treacher Collins syndrome
+Treacher Collins syndrome (mandibulofacial dysostosis) affects about 1 in 50,000. It is autosomal dominant, usually from mutations in *TCOF1* (the "treacle" gene), with half arising as new mutations. It is **bilateral and symmetrical**: down-slanting palpebral fissures, **lower lid colobomas**, absent or hypoplastic zygomas, micrognathia, and microtia with canal atresia and a conductive loss, usually managed with **bone-conduction hearing devices**. About a third have a cleft palate. The small mandible, especially with choanal atresia, can cause airway obstruction at birth that needs a tracheostomy; distraction osteogenesis may later lengthen the mandible. Intubation is difficult throughout life.
+## Goldenhar syndrome (hemifacial microsomia)
+Goldenhar syndrome is the commonest first and second arch anomaly, affecting about 1 in 5,600 to 26,500, usually sporadically. It is **unilateral and asymmetrical**, more often on the right: hypoplasia of the mandible, temporomandibular joint, muscles and orbit, preauricular tags, microtia or anotia with canal atresia, ossicular anomalies, and sometimes facial nerve and inner ear anomalies. Associated features include **epibulbar dermoids, upper lid colobomas**, and cervical vertebral fusion. The OMENS+ system grades the orbit, mandible, ear, nerves and soft tissues.
+!pearl Lower lid or upper lid?
+A coloboma of the **lower** lid suggests Treacher Collins syndrome (bilateral and symmetrical). A coloboma of the **upper** lid, with an epibulbar dermoid, suggests Goldenhar syndrome (unilateral and asymmetrical).
+!!
+## Pierre Robin sequence and Stickler syndrome
+The Pierre Robin sequence combines micrognathia, glossoptosis and a U-shaped cleft palate. Airway obstruction is managed by prone positioning, a nasopharyngeal airway, tongue–lip adhesion, mandibular distraction or tracheostomy, and feeding often needs support. **Stickler syndrome**, a collagen disorder, is the commonest associated syndrome and adds high myopia with a risk of retinal detachment, joint problems and sensorineural or mixed hearing loss; every child with Robin sequence should have an eye examination.
+
+# Syndromes with sensorineural loss | Look beyond the ear.
+## The ones to know
+!table Syndromic sensorineural hearing loss
+Syndrome | Inheritance and gene | Features that matter
+Waardenburg | Usually dominant; *PAX3* (types 1 and 3), *MITF* (type 2), *SOX10* (type 4) | White forelock, heterochromia, dystopia canthorum in type 1; about 2 to 5% of congenitally deaf children
+Pendred | Recessive; *SLC26A4* (pendrin) | Enlarged vestibular aqueduct, goitre later in childhood; fluctuating loss after minor head injury
+Jervell and Lange-Nielsen | Recessive; *KCNQ1*, *KCNE1* | Long QT syndrome, syncope and sudden death; ECG for every child with profound congenital loss
+Usher | Recessive; several genes | Retinitis pigmentosa; types 1 to 3 by severity of loss and vestibular function
+Branchio-oto-renal | Dominant; *EYA1* | Preauricular pits, branchial fistulae, renal anomalies; mixed loss
+Alport | Mostly X-linked; *COL4A5* | Haematuria and renal failure; progressive high-frequency loss; lens anomalies
+CHARGE | *CHD7* | Coloboma, heart defects, choanal atresia, retardation of growth, genital and ear anomalies, with absent semicircular canals
+!!
+## CHARGE syndrome in ENT
+CHARGE stands for coloboma, heart defects, choanal atresia, retarded growth and development, genital hypoplasia and ear anomalies. The ears are typically short and wide with a small or absent lobe; the inner ear often lacks semicircular canals, so balance and motor milestones are delayed; and cranial nerve palsies, including facial palsy and swallowing problems, are common. **Bilateral choanal atresia** can be the presenting emergency.
+
+# Other syndromes ENT surgeons meet | Airway, palate and skull.
+## 22q11.2 deletion syndrome
+The 22q11.2 deletion (velocardiofacial or DiGeorge syndrome) is one of the commonest microdeletion syndromes. It causes congenital heart disease, hypocalcaemia from absent parathyroids, immune deficiency from thymic hypoplasia, learning and psychiatric problems, and characteristic facies. In ENT it causes **velopharyngeal insufficiency** with hypernasal speech (often with an overt or submucous cleft), **anterior glottic webs**, and **medially placed internal carotid arteries** that must be imaged before pharyngoplasty.
+## Craniosynostosis syndromes
+**Crouzon** and **Apert** syndromes, caused mainly by *FGFR2* mutations, combine premature skull suture fusion with midfacial hypoplasia and proptosis; Apert adds fusion of the fingers and toes. Up to half develop obstructive sleep apnoea from the small midface, so overnight studies are done readily, and midface advancement by distraction may be needed. Conductive loss from middle ear anomalies and effusion is common.
+## Macroglossia and storage disorders
+**Beckwith–Wiedemann syndrome** (11p15) causes macroglossia, overgrowth, abdominal wall defects, neonatal hypoglycaemia and a risk of embryonal tumours; tongue reduction may be needed for airway or feeding problems. The **mucopolysaccharidoses** (Hurler, Hunter and others) deposit glycosaminoglycans in the airway, adenoids, tonsils and middle ear, causing progressive obstruction, sleep apnoea and conductive loss; the airway becomes increasingly difficult with age, and enzyme replacement or stem cell transplant changes the course.
+## Turner syndrome
+Turner syndrome (45,X) affects about 1 in 2,500 girls: short stature, a webbed neck and ovarian failure, with recurrent otitis media, effusion and cholesteatoma in childhood and a characteristic mid-frequency sensorineural loss in adult life.
+
+# Approach | The syndromal child in clinic.
+## Principles
+Ask about pregnancy, birth, development, family history and other medical problems; look at the face, eyes, ears, neck, hands and skin; and listen to parents, who often know a great deal about their child's condition and should be asked what they expect from the consultation. When an ENT finding suggests a syndrome, refer to clinical genetics, and arrange the relevant tests: an ECG, renal ultrasound, eye examination, thyroid tests or imaging. Care is multidisciplinary, involving paediatrics, audiology, speech and language therapy, cleft and craniofacial teams, anaesthesia and teachers of the deaf.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Syndrome, sequence and association,** with an example of each.
+- **Down syndrome:** effusion and hearing aids, obstructive sleep apnoea and postoperative care, subglottic stenosis, atlantoaxial instability.
+- **Treacher Collins versus Goldenhar.**
+- **Syndromes with sensorineural loss:** Waardenburg, Pendred, Jervell and Lange-Nielsen, Usher, branchio-oto-renal, Alport.
+- **CHARGE** and choanal atresia.
+- **22q11.2 deletion:** velopharyngeal insufficiency and the medial carotid.
+!!
+## Common pitfalls
+!pit
+- Hyperextending the neck of a child with Down syndrome during adenotonsillectomy.
+- Discharging a child with Down syndrome and severe sleep apnoea on the day of adenotonsillectomy.
+- Missing long QT syndrome in a profoundly deaf child.
+- Operating on the pharynx in 22q11.2 deletion without imaging the carotids.
+!!

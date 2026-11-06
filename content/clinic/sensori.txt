@@ -63,6 +63,13 @@ High-pitched tinnitus and difficulty hearing in noise. The audiogram shows a sym
 !!
 ## Prevention and management
 Remove from exposure, reduce noise at source, and use hearing protection: earplugs give about 15 to 30 dB, earmuffs 30 to 40 dB, and both together more. Protectors work better at high than low frequencies. Pre-employment and annual audiograms. Hearing aids for established loss.
+!differ Exposure limits and the exchange rate
+Dhingra: Occupational limit of 90 dBA for 8 hours, with each 5 dB rise halving the safe duration.
+Oxford: The UK Control of Noise at Work Regulations 2005 set a lower action value of 80 dB(A), when protection must be offered and information given, and an upper action value of 85 dB(A), when protection is compulsory and hearing surveillance required, with an absolute limit of 87 dB(A) at the ear allowing for protection. European and UK practice uses a 3 dB exchange rate (each 3 dB doubles the energy and halves the safe time); the 5 dB rule is the older American occupational convention.
+!!
+!update Diagnosis, acoustic trauma and hidden hearing loss
+Noise first stiffens and then kills the **outer hair cells**, producing a temporary threshold shift that becomes permanent with continued exposure; 3, 4 and 6 kHz are affected first. In medicolegal practice the **Coles, Lutman and Buffin (CLB) guidelines** require high-frequency loss beyond that expected for age, a cumulative noise immission level of at least 100 dB (roughly 85 dB(A) daily for many years), and a notch or bulge at 3 to 6 kHz at least 10 dB deeper than the thresholds at 1 or 2 kHz and at 6 or 8 kHz. **Acute acoustic trauma** from a single blast or impulse causes immediate loss without a preceding temporary shift and is treated like sudden sensorineural loss, with steroids. Animal work by Kujawa and Liberman showed that noise can destroy the synapses between inner hair cells and the cochlear nerve while thresholds recover (**cochlear synaptopathy**, or "hidden hearing loss"), which may explain difficulty in noise with a normal audiogram; in humans the effect appears variable and is still debated. Recreational noise, from music players, concerts and shooting, is an increasingly important cause in young people.
+!!
 
 # Presbycusis | Hearing and age.
 ## Picture

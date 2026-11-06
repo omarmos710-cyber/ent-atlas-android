@@ -67,6 +67,13 @@ Rotatory and geotropic, after a latency of a few seconds, rising then fading wit
 ### Treatment
 The *Epley manoeuvre* repositions the debris into the utricle; about 80% are cured by one manoeuvre. Semont manoeuvre and Brandt-Daroff exercises are alternatives. Most cases resolve in months anyway. Surgery (posterior canal occlusion or singular neurectomy) is rarely needed.
 !fig d7-1 | The Epley manoeuvre for posterior canal BPPV, with the position of the patient and of the otolith debris in the canal at each step.
+!update Beyond the posterior canal
+The Oxford Textbook gives the current picture. The **posterior canal** causes about 90 to 95% of BPPV, because it is the lowest canal when lying down; the **horizontal (lateral) canal** causes 5 to 15%, and the anterior canal very few. Repositioning cures about 80% after one session and over 90% after up to four, and patients can be taught to do it themselves. No postural restrictions are needed afterwards, because they do not prevent recurrence. Recurrence is common, in up to a third of patients within four years, and the occasional Epley manoeuvre converts posterior into horizontal canal BPPV.
+
+**Horizontal canal BPPV** is diagnosed with the supine roll test, which produces horizontal nystagmus on turning to either side. In the commoner *geotropic* form (beating towards the ground, from free particles in the canal), the side with the stronger nystagmus is the affected ear. In the *apogeotropic* form (beating away from the ground, thought to be cupulolithiasis or particles near the cupula), the weaker side is the affected ear. It is treated with the **Lempert 360° (barbecue or log) roll** towards the healthy side, the **Gufoni manoeuvre**, or prolonged lying on one side; these work moderately well for the geotropic form, and the evidence for the apogeotropic form is weak. **Anterior canal BPPV** produces down-beating nystagmus with a torsional component and can be treated by the **Yacovino (deep head-hanging) manoeuvre**, which treats either side because the head is not turned; down-beating positional nystagmus that does not settle must be imaged to exclude a cerebellar lesion.
+
+Vestibular sedatives and benzodiazepines slow central compensation and increase falls in the elderly, who carry a much higher fall risk when dizzy, so they have no role in BPPV. Atypical nystagmus, failure after several manoeuvres and frequent recurrence call for further investigation.
+!!
 !table Positional vertigo: peripheral or central
 Feature | Peripheral | Central
 Latency | Present | Often none
