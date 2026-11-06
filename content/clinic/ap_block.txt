@@ -1,0 +1,80 @@
+@stand Nasal obstruction is the commonest nasal complaint, affecting around a third of adults, and its causes fall into two families. **Inflammatory** obstruction from rhinitis and chronic rhinosinusitis fluctuates, alternates and is usually bilateral; **structural** obstruction from the septum and the nasal valves is fixed and often one-sided. Most patients have one or both, and the approach is to tell them apart, treat the mucosa before operating on the skeleton, and never miss the unilateral blockage with blood or a foul discharge that is a tumour or, in a child, a foreign body.
+
+# How the nose blocks | Resistance, valves and mucosa.
+## The physiology that matters
+The nose provides about two-thirds of total airway resistance, and most of it lies at the **internal nasal valve**, the slit between the septum, the caudal edge of the upper lateral cartilage and the head of the inferior turbinate. It is the narrowest part of the airway, and because resistance rises steeply as the radius falls (Poiseuille's law), a small narrowing here causes a large symptom. The valve is also richly supplied with receptors, so obstruction at this point feels worse than obstruction further back.
+
+The mucosa of the turbinates is erectile tissue under sympathetic control. In about 80% of people it congests and decongests alternately on each side in the **nasal cycle**, every two to six hours, keeping total resistance constant. A patient who notices the cycle, or whose fixed deviation is unmasked by the congested phase, describes alternating blockage.
+
+The sensation of airflow is carried by trigeminal cold receptors, not by the volume of air. This is why the subjective complaint and objective measures often disagree, why menthol makes the nose feel clearer, and why a nose that has lost too much turbinate can feel blocked although it is wide open (*empty nose syndrome*).
+!flag Do not miss
+- **Unilateral obstruction with blood-stained discharge, pain, facial swelling, numbness, loose teeth, diplopia or a neck node:** sinonasal or nasopharyngeal malignancy.
+- **An adolescent boy with unilateral obstruction and heavy epistaxis:** juvenile angiofibroma — do not biopsy in clinic.
+- **A child with unilateral foul discharge:** foreign body.
+- **A newborn with cyclical cyanosis relieved by crying:** bilateral choanal atresia.
+- **A midline nasal mass in a child:** dermoid, glioma or encephalocele — image before any biopsy.
+!!
+
+# History | Fixed or fluctuating?
+## The questions
+Ask whether the blockage is one-sided or both, constant or variable, and whether it alternates. **Fixed, unilateral** obstruction points to the septum, a valve problem, a polyp, a tumour or a foreign body; **fluctuating, bilateral** obstruction points to rhinitis or chronic rhinosinusitis. Ask about onset (after trauma or surgery, or gradual), and whether the patient sniffs inward and the nostril collapses, which suggests valve collapse.
+
+Ask about the company the symptom keeps: sneezing, itch and watery discharge in rhinitis; loss of smell, facial pressure and discoloured discharge in rhinosinusitis; bleeding, pain and crusting in tumours, granulomatous disease and septal perforation; and snoring and mouth breathing. Take a full drug history, including decongestant sprays (rhinitis medicamentosa), antihypertensives, the oral contraceptive pill and recreational cocaine, and ask about asthma, aspirin sensitivity, smoking and occupation. The **NOSE** score and **SNOT-22** quantify the symptom and its effect on life.
+
+# Examination | Outside, then inside, then after decongestion.
+## The nose
+Look at the external nose from the front, side and below for deviation, a twisted pyramid, a narrow or collapsing ala and a caudal septum dislocated into the nostril. Watch the alae on deep nasal inspiration. **Cottle's test**, in which the cheek is drawn laterally to open the valve, suggests a valve problem when it improves breathing; a modified version supports the valve from inside with a cotton bud or a curette.
+
+Examine the vestibule, the septum and the turbinates with a headlight and speculum, then with an endoscope before and after topical decongestant. Mucosal swelling that shrinks well is reversible (rhinitis); a deviation, a spur or a polyp does not change. The endoscope also reveals middle meatal pus and polyps, the posterior septum, the choanae and the nasopharynx.
+## Measuring the airway
+**Peak nasal inspiratory flow** is the quickest objective test, normally around 120 to 140 L/min in adults. **Anterior rhinomanometry** measures resistance from flow and pressure and is the reference standard. **Acoustic rhinometry** maps cross-sectional area along the cavity; a large improvement after decongestion points to mucosal disease. CT is reserved for suspected sinus disease or before surgery, and imaging with MRI for any suspected tumour.
+
+# Causes | Inflammatory, structural, and the rest.
+!table Causes of nasal obstruction
+Group | Causes | Typical clue
+Inflammatory | Allergic and non-allergic rhinitis; rhinitis medicamentosa; chronic rhinosinusitis with or without polyps | Bilateral, fluctuating, shrinks with decongestant
+Septum | Deviation, spur, dislocated caudal septum, haematoma | Fixed, unilateral or S-shaped
+Valves | Internal valve narrowing (high septal deviation, weak upper laterals, post-rhinoplasty); external valve collapse | Worse on inspiration; Cottle positive
+Turbinates | Hypertrophy, concha bullosa | Seen on endoscopy, partly reversible
+Masses | Polyps, antrochoanal polyp, inverted papilloma, malignancy, angiofibroma | Unilateral, progressive; blood
+Granulomatous | Granulomatosis with polyangiitis, sarcoidosis, cocaine | Crusting, bleeding, perforation
+Other | Adenoids, choanal atresia, foreign body, empty nose syndrome, pregnancy and hypothyroidism | Age and context
+!!
+## Rhinitis and rhinosinusitis
+Allergic rhinitis affects about a quarter of people and chronic rhinosinusitis about one in ten. Allergic rhinitis mainly swells the inferior turbinates and responds well to decongestant; chronic rhinosinusitis affects the middle meatus and responds less. Both are common partners of a deviated septum, and treating the mucosa often settles symptoms without surgery.
+## The septum and the valves
+**Cottle's classification** divides the septum into five areas from the nostril backwards. Deviations in areas 1 to 3, at or in front of the internal valve, cause the most obstruction; deviations further back matter less. A deviation at the valve or the caudal septum is not adequately corrected by a standard septoplasty and needs a **functional septorhinoplasty**, with spreader grafts for the internal valve and struts or alar grafts for the external valve.
+
+# Pathway | Mucosa or skeleton?
+!path The blocked nose
+Red flags? | unilateral with blood, pain or cranial nerve signs: endoscopy, MRI and CT, biopsy unless angiofibroma suspected ; adolescent boy with bleeding: contrast imaging first, no biopsy ; child with unilateral foul discharge: remove the foreign body
+Fixed or fluctuating? | bilateral, fluctuating, shrinks with decongestant: rhinitis — treat the mucosa ; smell loss, discharge, polyps: chronic rhinosinusitis pathway ; fixed or unilateral: step 3
+Where is the narrowing? | mid or posterior septum: septoplasty ; high or caudal septum, collapsing valve: functional septorhinoplasty ; turbinates: medical first, then reduction
+Still blocked after surgery or with a wide nose? | recurrent deviation or valve collapse: revision ; wide cavity with paradoxical obstruction: empty nose syndrome — avoid further resection
+!!
+
+# Management | Treat the mucosa first.
+## Medical treatment
+Every patient with an inflammatory component should have a proper trial of saline irrigation and a topical steroid spray, used correctly with the head bent forward and the nozzle aimed away from the septum, for at least six to eight weeks. Antihistamines, allergen avoidance, a leukotriene antagonist in selected patients, and immunotherapy for confirmed allergy follow. Decongestant sprays are limited to a few days, because rebound congestion (*rhinitis medicamentosa*) follows longer use. Chronic rhinosinusitis is treated on its own pathway.
+## Surgery
+A randomised trial has shown that septoplasty, with or without turbinate reduction, improves nasal obstruction more than continued medical treatment in patients with a deviated septum. **Septoplasty** corrects mid and posterior deviations through mucoperichondrial flaps, preserving an L-shaped strut of at least 1 cm dorsally and caudally. **Turbinate reduction** by submucosal diathermy, radiofrequency, outfracture or submucosal resection reduces the turbinates while preserving mucosa; its effect fades with time and it does not replace medical treatment. **Functional septorhinoplasty** treats the valve and the twisted nose, often through an external approach. Over-resection of the turbinates is avoided because of the risk of empty nose syndrome.
+## Children
+In a child, adenoidal hypertrophy is the commonest cause of bilateral obstruction, with mouth breathing, snoring and hyponasal speech. Rhinitis is common, and a unilateral foul discharge is a foreign body until proven otherwise. A neonate who is an obligate nasal breather and blocked may have **choanal atresia**: bilateral atresia causes cyclical cyanosis relieved by crying and needs an oral airway, CT and endoscopic repair, while unilateral atresia presents later with a unilateral discharge. **Piriform aperture stenosis**, nasolacrimal duct cysts and midline masses (dermoid, glioma, encephalocele) are rarer neonatal causes that need imaging before intervention.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **The internal nasal valve:** boundaries and why it matters.
+- **Inflammatory versus structural obstruction:** the decongestant test.
+- **Cottle's test and Cottle's areas.**
+- **Objective tests:** peak nasal inspiratory flow, rhinomanometry, acoustic rhinometry.
+- **Septoplasty versus functional septorhinoplasty;** the L-strut.
+- **Red flags** for unilateral obstruction; choanal atresia in the newborn.
+!!
+## Common pitfalls
+!pit
+- Operating on a deviated septum when the obstruction is rhinitis that was never treated.
+- Performing a standard septoplasty for a high or caudal deviation that needs valve surgery.
+- Biopsying a vascular mass in an adolescent boy in clinic.
+- Over-reducing the turbinates.
+!!
