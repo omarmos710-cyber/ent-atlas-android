@@ -1,0 +1,66 @@
+@stand Some crusting is part of a healthy nose in a dry climate, but persistent crusting means that something has damaged the mucosa or the mucociliary clearance. The causes range from the simple, such as a dry environment, nose picking and recent surgery, through septal perforation and atrophic rhinitis, to diseases that must not be missed: granulomatosis with polyangiitis, sarcoidosis, tuberculosis, cocaine-induced destruction and malignancy. The approach separates local from systemic causes, takes biopsies and blood tests when the cause is not obvious, and relies on regular saline irrigation for almost everyone.
+
+# Why the nose crusts | Mucosa, airflow, clearance.
+## Mechanisms
+Crusts form when mucus dries faster than it is cleared. This happens when the mucosa is damaged and replaced by squamous or scarred epithelium, when airflow is abnormally fast or turbulent across one area (the edge of a perforation, a wide postoperative cavity), when the cilia fail, or when the mucosa is inflamed by a granulomatous or vasculitic disease. Crusts then harbour bacteria, cause obstruction, bleeding and odour, and damage the mucosa further.
+!flag Do not miss
+- **Crusting with systemic symptoms** (cough, haemoptysis, arthralgia, rash, red eyes, deafness, kidney disease, weight loss): granulomatosis with polyangiitis, EGPA or sarcoidosis — ANCA, ACE, urinalysis, chest imaging, biopsy.
+- **Crusting with a perforation or palatal defect in a cocaine user:** cocaine-induced midline destructive lesion; levamisole adds a vasculitis.
+- **Unilateral crusting with ulceration, a mass or bleeding:** NK/T-cell lymphoma, squamous carcinoma.
+- **Collapse of the nasal bridge (saddle nose):** granulomatosis with polyangiitis, relapsing polychondritis, cocaine, previous surgery.
+!!
+
+# Assessment | History, endoscopy, tests.
+## History
+Ask how long the crusting has lasted, whether it followed surgery, and whether there is bleeding, a whistle, a bad smell (often noticed by others more than by the patient), blockage or smell loss. Ask about digital trauma, nasal sprays and drugs (including long-term decongestants and intranasal cocaine), occupational exposure to chrome compounds and industrial dusts, radiotherapy and nasogastric tubes. A full systems review looks for features of vasculitis, sarcoidosis and tuberculosis, and for chest disease, infertility and childhood infections suggesting ciliary dyskinesia or cystic fibrosis.
+## Examination and investigation
+Examine the nose with an endoscope, before and after the crusts are softened and removed, looking for perforation, granulations, ulceration, a cobblestoned or yellow nodular mucosa (sarcoidosis), a wide cavity, and synechiae. Look at the palate, the eyes, the ears and the skin.
+
+When the cause is not obvious, blood tests include a full blood count, renal function, inflammatory markers, **ANCA** (c-ANCA directed against proteinase-3 in granulomatosis with polyangiitis, p-ANCA against myeloperoxidase in other vasculitides), serum ACE and calcium, and, as appropriate, syphilis and tuberculosis tests. Urinalysis looks for blood and protein from renal involvement. A **biopsy** is taken from the edge of active disease, not from the crusts, when malignancy or vasculitis is suspected; it may need repeating, because a single biopsy is often non-diagnostic. CT shows bony destruction and sinus disease.
+
+# Causes | Local and systemic.
+!table Causes of nasal crusting
+Group | Causes | Clues
+Environmental and local | Dry air, digital trauma, decongestant overuse | Anterior septum, picking, Little's area
+Surgical | After sinus surgery or turbinate reduction; empty nose syndrome | History of surgery; wide cavity
+Septal perforation | Surgery, trauma, picking, cocaine, chrome workers, vasculitis | Whistling, bleeding, crusts around the edge
+Atrophic rhinitis | Primary (ozaena); secondary after surgery, radiotherapy, granulomatous disease | Wide cavity, foul crusts, smell loss
+Vasculitis | Granulomatosis with polyangiitis, EGPA | ANCA, systemic features, saddle nose
+Granulomatous | Sarcoidosis, tuberculosis, leprosy, syphilis, rhinoscleroma | Yellow nodules, systemic features, culture
+Drugs | Cocaine, levamisole | Destruction, palatal perforation
+Malignancy | NK/T-cell lymphoma, squamous carcinoma | Unilateral, progressive, ulceration
+Clearance | Primary ciliary dyskinesia, cystic fibrosis | Lifelong symptoms, chest disease
+!!
+## Atrophic rhinitis
+**Primary atrophic rhinitis (ozaena)** occurs mainly in women in tropical and low-income settings. The mucosa and turbinates atrophy, the cavities widen, and greenish, foul-smelling crusts form, with anosmia, so the patient does not notice the odour that others do. *Klebsiella ozaenae* is often cultured. **Secondary atrophic rhinitis** follows excessive surgery, radiotherapy, trauma and granulomatous disease. **Empty nose syndrome** is a related condition after over-resection of the turbinates: the cavity is wide and clear, yet the patient feels blocked and short of breath.
+## Granulomatosis with polyangiitis
+This necrotising vasculitis of small vessels affects the upper airway in most patients and may be limited to it. Nasal features are crusting, bleeding, obstruction, septal perforation and saddle collapse; there may also be otitis media with effusion, sensorineural hearing loss, subglottic stenosis, lung nodules and glomerulonephritis. c-ANCA supports the diagnosis, which is confirmed by biopsy and managed with rheumatology and renal teams.
+
+# Management | Irrigate, treat the cause.
+## General measures
+Regular high-volume **saline irrigation**, several times a day, is the foundation for every cause. Lubricating ointments or oils and humidification help, and glucose-glycerine drops or warm alkaline douches soften crusts in atrophic rhinitis. Topical antibiotic ointment helps when the crusts are infected or *Staphylococcus aureus* carriage is a problem. Decongestant and steroid sprays are reviewed and stopped if they worsen crusting.
+## Specific treatment
+**Septal perforations** that cause symptoms are treated with irrigation, a silicone button or surgical repair. **Atrophic rhinitis** is treated with irrigation and, for Klebsiella infection, appropriate antibiotics; surgery to narrow the cavity (Young's operation, closing the nostrils for months, or submucosal implants) is reserved for severe cases. **Vasculitis and sarcoidosis** are treated systemically with steroids and immunosuppression or biologics such as rituximab. **Cocaine-related disease** requires abstinence before any reconstruction. **Malignancy** is treated on oncological principles.
+
+!path Nasal crusting
+Red flags? | systemic symptoms, saddle nose or perforation: ANCA, ACE, urinalysis, chest imaging, biopsy ; unilateral ulceration or mass: biopsy and imaging
+Clean and examine | perforation: perforation pathway ; wide cavity after surgery: secondary atrophic rhinitis or empty nose ; foul green crusts with wide cavities: primary atrophic rhinitis — culture ; anterior septum only: dryness, picking, decongestants
+Treat | saline irrigation for all ; treat the cause ; stop drugs that worsen crusting ; repeat biopsy if disease progresses without a diagnosis
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Local versus systemic causes** of nasal crusting.
+- **The work-up:** ANCA, ACE, urinalysis, chest imaging and biopsy from the edge.
+- **Atrophic rhinitis:** primary and secondary, Klebsiella ozaenae, Young's operation.
+- **Granulomatosis with polyangiitis** in the upper airway.
+- **Cocaine** and levamisole.
+!!
+## Common pitfalls
+!pit
+- Treating vasculitis as chronic rhinosinusitis.
+- Biopsying crusts instead of the active edge.
+- Repairing a perforation in an active cocaine user.
+- Over-resecting turbinates and creating an empty nose.
+!!

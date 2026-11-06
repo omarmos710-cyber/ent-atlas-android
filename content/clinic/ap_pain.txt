@@ -1,0 +1,67 @@
+@stand Patients and doctors alike blame the sinuses for facial pain, but most people referred with "sinus headache" do not have sinus disease. Rhinosinusitis rarely causes pain without nasal blockage, discharge or smell loss, and in the absence of pus or inflammation on endoscopy the diagnosis is very unlikely. The approach is to take a structured pain history, examine the nose with an endoscope, avoid CT as a screening test, and recognise the primary headaches and neuralgias that are the real causes for most patients: migraine, tension-type headache, midfacial segment pain, the trigeminal autonomic cephalalgias and trigeminal neuralgia.
+
+# The pain history | Most of the diagnosis.
+## A structured history
+Use the same headings for every patient. **Site**: unilateral or bilateral, and the dermatome. **Character**: throbbing, pressing, stabbing or burning. **Severity**, out of ten: migraine and cluster headache often reach ten. **Timing**: how long each attack lasts, how often attacks come, and whether there are clusters and remissions. **Associated features**: nausea, photophobia and aura (migraine); a red, watering eye, rhinorrhoea, blockage and a drooping lid on the side of the pain (trigeminal autonomic cephalalgias); nasal symptoms (rhinosinusitis). **Triggers**: alcohol in cluster headache, touch or chewing in trigeminal neuralgia, the menstrual cycle in migraine. **Relieving factors** and what has been tried, including analgesic overuse, which itself causes daily headache.
+
+Rhinosinusitis pain accompanies an attack of nasal symptoms and settles when they do. Pain that has not changed with years of antibiotics and nasal sprays is unlikely to be sinogenic.
+!flag Red flags in headache and facial pain
+- **Thunderclap headache**, new headache with fever, neck stiffness, confusion or focal neurological signs: emergency imaging and neurology.
+- **New headache over 50 with jaw claudication, scalp tenderness or visual symptoms:** giant cell arteritis — ESR, CRP and steroids the same day.
+- **Headache worse lying down, on waking or with straining, with visual obscurations or pulsatile tinnitus:** raised intracranial pressure.
+- **Facial numbness, diplopia, proptosis, a loose tooth or a nasal mass:** sinonasal malignancy.
+- **Acute sinusitis with periorbital swelling, reduced vision or severe headache:** orbital or intracranial complication.
+!!
+
+# Examination and tests | Endoscopy first.
+## The examination
+Examine the nose with an endoscope: mucopus or oedema in the middle meatus supports rhinosinusitis, and its absence makes it very unlikely. Examine the cranial nerves, especially the trigeminal nerve and the eyes, the temporomandibular joints, the teeth, the temporal arteries and the neck muscles.
+## Investigation
+CT of the sinuses is not a screening test for facial pain, because incidental mucosal thickening is found in about a third of people without symptoms. It is used when malignancy, fungal disease or a complication is suspected, and in chronic rhinosinusitis that has failed medical treatment when surgery is planned. Dental radiographs and CT show odontogenic disease. MRI is used for trigeminal neuralgia, to look for a compressing vessel or demyelination, and for atypical or neurological features.
+
+# The causes | Recognising each.
+!table Facial pain and headache — features
+Condition | Pain and timing | Associated features | First-line treatment
+Rhinosinusitis | Pressure with nasal symptoms; settles when they do | Blockage, discharge, smell loss; pus on endoscopy | Treat the sinuses
+Migraine | Unilateral, throbbing, 4 to 72 hours | Nausea, photophobia, aura in about a quarter; may cause nasal congestion | Triptan acutely; propranolol, topiramate or amitriptyline to prevent
+Tension-type headache | Bilateral, band-like pressing, mild to moderate | Few; stress, poor sleep | Simple analgesia, amitriptyline
+Midfacial segment pain | Symmetrical pressure over the nasal bridge, cheeks or between the eyes | Normal endoscopy; hyperaesthesia of the skin | Low-dose amitriptyline
+Cluster headache | Severe, orbital, 15 to 180 minutes, up to eight a day, in bouts | Ipsilateral tearing, rhinorrhoea, ptosis, restlessness; alcohol trigger | High-flow oxygen, subcutaneous sumatriptan; verapamil to prevent
+Paroxysmal hemicrania | Like cluster but 2 to 30 minutes, many a day | Autonomic features | Indometacin (diagnostic response)
+SUNCT and SUNA | Seconds to minutes, very frequent | Conjunctival injection and tearing | Lamotrigine
+Trigeminal neuralgia | Electric shocks for seconds, usually V2 or V3 | Triggered by touch, chewing, washing | Carbamazepine; MRI; microvascular decompression
+Giant cell arteritis | Temporal, new, over 50 | Jaw claudication, visual loss, raised ESR | Steroids at once
+Temporomandibular disorder | Preauricular, with chewing | Clicking, tender joint and muscles | Soft diet, splint, physiotherapy
+!!
+## Midfacial segment pain
+Midfacial segment pain is a form of tension-type headache affecting the middle third of the face. Patients describe a symmetrical pressure or tightness across the bridge of the nose, behind the eyes or over the cheeks, often feel their nose is blocked although it is not, and may have tender skin over the area. Endoscopy is normal, and the CT is normal or shows incidental changes. It responds to low-dose amitriptyline, starting at 10 mg at night and increased if needed, given for at least six weeks before its effect is judged and continued for about six months. Sinus surgery does not help.
+## Migraine and the nose
+Migraine affects about one in seven people. Attacks can cause nasal congestion, discharge and tearing, and facial pain may be the only symptom, so migraine is commonly misdiagnosed as sinusitis. Acute attacks are treated with analgesics and triptans, used on no more than a few days a week to avoid medication-overuse headache. Prevention uses propranolol, topiramate (contraindicated in pregnancy) or amitriptyline, then candesartan, botulinum toxin for chronic migraine, or CGRP-targeted antibodies for refractory cases.
+## Contact point headache
+The idea that a septal spur touching a turbinate causes pain is controversial. Most patients with contact points have no pain, and most with pain and contact points improve with medical treatment for midfacial segment pain. Surgery is considered only when a temporary local anaesthetic block abolishes the pain and other causes have been treated.
+
+# Pathway | Sinus or not?
+!path Facial pain
+Red flags? | thunderclap, neurological signs, fever: emergency imaging ; over 50 with jaw claudication: ESR, CRP, steroids today ; numbness, diplopia, nasal mass: imaging and biopsy
+Nasal symptoms with the pain? | yes, pus or polyps on endoscopy: rhinosinusitis pathway, CT if surgery considered ; no nasal symptoms, normal endoscopy: step 3
+Pattern of the pain | unilateral throbbing with nausea: migraine ; symmetrical pressure over the midface: midfacial segment pain — amitriptyline ; short, severe, with ipsilateral autonomic features: cluster headache or another trigeminal autonomic cephalalgia ; electric shocks triggered by touch: trigeminal neuralgia — MRI, carbamazepine
+Not improving | review analgesic overuse ; refer to neurology or a pain clinic
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Why most "sinus headache" is not sinusitis:** pain needs nasal symptoms and endoscopic signs.
+- **A structured pain history** with timing and associated features.
+- **Midfacial segment pain:** features and amitriptyline.
+- **The trigeminal autonomic cephalalgias:** cluster headache, paroxysmal hemicrania, SUNCT and SUNA.
+- **Why CT is not a screening test** for facial pain.
+- **Red flags,** especially giant cell arteritis and raised intracranial pressure.
+!!
+## Common pitfalls
+!pit
+- Operating on the sinuses for facial pain with a normal endoscopy and incidental CT changes.
+- Missing cluster headache because the patient also has a runny nose.
+- Giving repeated antibiotics for recurrent "sinusitis" that is migraine.
+- Missing medication-overuse headache.
+!!

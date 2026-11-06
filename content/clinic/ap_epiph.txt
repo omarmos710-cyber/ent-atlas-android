@@ -1,0 +1,67 @@
+@stand A watering eye is shared territory between the ophthalmologist and the rhinologist. Tears overflow either because too many are produced or because too few drain away, and a surprising proportion of patients referred with "blocked tear ducts" actually have a dry eye producing reflex tearing. The rhinologist's part is to confirm a drainage obstruction, find its level, look in the nose for a cause, and offer endoscopic dacryocystorhinostomy when the obstruction lies at or below the lacrimal sac.
+
+# Oversupply or poor drainage? | The first question.
+## Two mechanisms
+**Hypersecretion** comes from an irritated ocular surface: dry eye with reflex tearing (the cause in up to 40% of referrals), blepharitis, trichiasis, entropion, ectropion, allergy, foreign bodies and, rarely, gustatory tearing ("crocodile tears") after facial nerve regeneration. **Impaired drainage** comes from a failure of the lid pump (facial palsy, lax lower lid), a malpositioned or stenosed punctum, a canalicular block, or an obstruction of the sac or nasolacrimal duct. Nasolacrimal obstruction is common in older adults and in women, and becomes more frequent with age.
+## Lacrimal anatomy
+Tears drain through the upper and lower **puncta** into the **canaliculi**, which run vertically for about 2 mm and then horizontally for about 8 to 10 mm before joining as the **common canaliculus**, which enters the **lacrimal sac** in the lacrimal fossa. The **nasolacrimal duct** runs down from the sac for about 12 mm and opens beneath the inferior turbinate, about 1 to 1.5 cm behind its anterior end, under the mucosal fold called the **valve of Hasner**. The lower canaliculus carries most of the flow. In the nose, the sac lies deep to the frontal process of the maxilla, in front of the attachment of the middle turbinate and the uncinate process.
+!flag Do not miss
+- **A firm mass above the medial canthal tendon, blood-stained tears or bloody reflux on syringing:** lacrimal sac tumour — image and biopsy.
+- **A watering eye with nasal blockage, bleeding or numbness:** sinonasal tumour invading the duct.
+- **Acute dacryocystitis with orbital cellulitis signs:** urgent treatment.
+- **A neonate with a blue swelling at the medial canthus:** dacryocystocele, which can extend into the nose and obstruct the airway.
+!!
+
+# Assessment | Find the level.
+## History and examination
+Ask whether the watering is constant or intermittent, unilateral or bilateral, and associated with stickiness, discharge, swelling at the inner canthus, pain or a red eye. Ask about previous facial trauma, nasal or sinus surgery, radiotherapy, sarcoidosis, granulomatosis with polyangiitis and drugs (topical glaucoma drops, docetaxel).
+
+Examine the lids for position and laxity, the puncta for size and position, and the ocular surface for dryness and inflammation. Press over the lacrimal sac: mucus or pus regurgitating from the puncta indicates a mucocoele or dacryocystitis with a blocked duct. Examine the nose with an endoscope for septal deviation, turbinate or polyp disease, previous surgery, tumours and access to the lacrimal region.
+## Tests
+**The fluorescein dye disappearance test** places 2% fluorescein in both eyes; retention after five minutes indicates impaired drainage. **Jones tests** look for dye in the inferior meatus: the primary test (dye recovered under the turbinate) shows a patent system under physiological conditions, and the secondary test, which syringes saline after a failed primary test, separates partial obstruction (dye recovered) from complete obstruction or pump failure. **Lacrimal syringing** with a cannula in the lower canaliculus is the key test: free flow to the nose means a patent system; reflux through the same punctum means a canalicular block; reflux through the opposite punctum means a block in the common canaliculus or below, typically the nasolacrimal duct. **Dacryocystography** and **dacryoscintigraphy** show anatomy and function respectively, and CT or MRI is used after trauma or surgery, for suspected tumour, or with sinus disease.
+
+# Causes of obstruction | By level.
+!table Levels of lacrimal obstruction
+Level | Causes | Treatment
+Punctum | Stenosis, eversion with ectropion, inflammation | Punctoplasty, lid surgery
+Canaliculi | Viral infection, chemotherapy drugs, trauma, canaliculitis (*Actinomyces*) | Intubation, canaliculo-DCR, Lester Jones tube
+Common canaliculus | Membrane, scarring | DCR with membrane removal and intubation
+Sac and nasolacrimal duct | Primary acquired obstruction (idiopathic), dacryolithiasis, sinus disease and surgery, trauma, granulomatous disease, tumours | Dacryocystorhinostomy
+Lower duct in infants | Imperforate valve of Hasner | Massage, probing
+!!
+## Primary acquired nasolacrimal duct obstruction
+Primary acquired obstruction is idiopathic inflammation and fibrosis of the duct, most common in middle-aged and older women. It causes constant watering and often a mucocoele, and predisposes to acute dacryocystitis.
+## Congenital nasolacrimal duct obstruction
+About 20% of newborns have a watering eye from an imperforate valve of Hasner. Most resolve by the age of one year with lacrimal sac massage and, if needed, antibiotic drops for infection. Persistent cases are treated by probing, with intubation or balloon dilatation for failures, and endoscopy of the inferior meatus helps in complex cases. A **dacryocystocele** may extend into the nose as an intranasal cyst and needs endoscopic marsupialisation if it causes respiratory distress.
+
+# Management | Matching treatment to level.
+## Dacryocystorhinostomy
+**Dacryocystorhinostomy (DCR)** creates a permanent opening from the lacrimal sac into the nose, bypassing an obstructed nasolacrimal duct. The **endonasal** approach raises a mucosal flap over the frontal process of the maxilla and the lacrimal bone, removes bone with a drill or punches to expose the whole sac, opens the sac widely and lays its flaps against the nasal mucosa. It avoids a skin scar, preserves the lacrimal pump and allows simultaneous treatment of nasal disease. Silicone stents are used selectively, especially for canalicular disease. Success rates for endonasal DCR are comparable to the external approach, at about 90% for nasolacrimal duct obstruction when the sac is fully exposed.
+
+The **external** approach through a skin incision remains widely used by ophthalmologists. Failure is usually from an opening that is too small or too high, scarring, or synechiae to the middle turbinate or septum.
+## Other treatments
+Dry eye is treated with lubricants and, if needed, punctal plugs. Canalicular obstruction that cannot be bypassed is treated with a **Lester Jones tube**, a glass bypass from the medial canthus to the nose. Acute dacryocystitis is treated with systemic antibiotics and, if needed, drainage, followed by DCR once the infection settles.
+
+!path The watering eye
+Ocular surface and lids | dry eye, blepharitis, lid malposition: ophthalmic treatment, lubricants ; normal: step 2
+Syringe the system | free flow: functional block or pump failure — Jones tests ; reflux same punctum: canalicular block ; reflux opposite punctum or mucopus: sac or duct obstruction, step 3
+Sac or duct obstruction | endoscopy of the nose ; mass, bloody tears or sinus disease: CT or MRI, biopsy ; primary acquired obstruction: endonasal or external DCR
+Infant | massage and wait to one year ; persisting: probing, then intubation ; intranasal cyst with breathing difficulty: endoscopic marsupialisation
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Hypersecretion versus impaired drainage;** dry eye as a common cause.
+- **Lacrimal anatomy:** canaliculi, sac, duct and the valve of Hasner.
+- **Syringing and Jones tests:** interpretation.
+- **Endonasal DCR:** steps, landmarks, success, causes of failure.
+- **Congenital nasolacrimal duct obstruction** and dacryocystocele.
+!!
+## Common pitfalls
+!pit
+- Performing DCR for a dry eye or a lid problem.
+- Performing DCR for a canalicular block, where it does not help without additional steps.
+- Making the sac opening too small or too high.
+- Missing a lacrimal sac tumour when syringing produces blood.
+!!
