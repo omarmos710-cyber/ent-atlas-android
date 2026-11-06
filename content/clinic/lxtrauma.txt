@@ -94,6 +94,11 @@ Grade I, up to 50% obstruction; grade II, 51 to 70%; grade III, 71 to 99%; grade
 !ops 10 199 21 22 | Acquired laryngeal stenosis, tracheal stenosis, laryngotracheal reconstruction and tracheal resection.
 ## Prevention
 Use the right-sized tube, keep cuff pressure below about 25 to 30 cm of water, avoid prolonged translaryngeal intubation where tracheostomy is better, and avoid placing a tracheostomy through the first ring or cricoid.
+!update Penetrating neck injury (Oxford Textbook)
+Penetrating injuries are those that breach the **platysma**; they carry a mortality of up to about 6%, and half of deaths are from bleeding. The anterior neck is divided into three zones. **Zone I** runs from the clavicles and sternal notch to the cricoid and contains the great vessels at the thoracic inlet, trachea, oesophagus, lung apices and thoracic duct. **Zone II**, from the cricoid to the angle of the mandible, is the commonest site and the easiest to expose, with the best prognosis. **Zone III**, from the angle of the mandible to the skull base, contains the distal carotid and vertebral arteries and cranial nerves IX to XII and is hard to reach surgically.
+
+Management follows trauma life support principles, with control of the airway (often by early intubation or a surgical airway) and of bleeding by direct pressure. **Hard signs**, such as an expanding haematoma, active bleeding, air bubbling through the wound, shock not responding to fluids, absent pulse, bruit or evolving stroke, mean immediate exploration in theatre. Stable patients with **soft signs** (haemoptysis, dysphonia, dysphagia, surgical emphysema, a non-expanding haematoma) or none are investigated: **CT angiography** has replaced catheter angiography as the first test in all three zones, supplemented by endoscopy or contrast swallow for the aerodigestive tract. The old rule of mandatory exploration of every zone II wound has given way to this **selective approach**, which reduces negative explorations. Carotid injuries found at exploration are generally repaired rather than ligated.
+!!
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials
