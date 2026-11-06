@@ -59,12 +59,51 @@ In a severe one-sided sensorineural loss, the fork on the mastoid is heard by th
 ## How it is done
 In a sound-treated room, the softest tone the patient hears at each frequency from 250 to 8000 Hz is recorded, first by air conduction through headphones, then by bone conduction with a vibrator on the mastoid.
 !fig d4-2 | A two-room audiometry set-up: the audiologist watches the patient through a glass partition.
-## Reading it
-Bone conduction is cochlear function. A gap between air and bone means a conductive component; both falling together means a sensorineural loss.
+## The symbols
+Frequency runs across the top from low (250 Hz) to high (8000 Hz), and loudness runs down the side, so a worse hearing threshold sits *lower* on the chart. By convention the right ear is red and the left ear blue. Air conduction is a circle (right) or a cross (left), joined by a line; bone conduction is an angle bracket pointing away from the ear tested, < for right and > for left, and a square bracket, [ or ], when the other ear was masked. An arrow below a symbol means no response at the machine's maximum output, which is about 120 dB for air but only about 60 to 70 dB for bone.
+!draw aud-key aud-normal | The symbols, and a normal audiogram: every threshold sits in the shaded band of 20 dB HL or better, and air and bone conduction coincide.
+## Reading it, step by step
+Read every audiogram in the same order, so nothing is missed.
+!path Reading a pure-tone audiogram
+Check the chart | right and left, masked or unmasked, reliability noted by the tester
+Air conduction | normal (20 dB or better) ; how much loss: mild, moderate, severe, profound ; which frequencies: flat, sloping, rising, notched, cookie-bite
+Bone conduction | equal to air: sensorineural ; better than air by more than 10 dB: conductive component ; both raised with a gap: mixed
+Compare the ears | symmetrical ; asymmetric by 15 dB or more at two adjacent frequencies, or 20 dB at one: MRI of the internal auditory meatus
+Check masking | ears differ by 40 dB or more on air, or any air–bone gap: masked thresholds needed — was it done?
+Fit the clinical picture | otoscopy, tuning forks and tympanometry must agree ; if they do not, repeat or think non-organic
+!!
+**Bone conduction is cochlear function.** The air–bone gap is the size of the conductive loss: a gap of up to about 60 dB is possible from the middle ear alone (complete ossicular discontinuity behind an intact drum), so a larger gap means the bone thresholds are wrong or the loss is mixed. Bone conduction can be *better than normal* in a third-window lesion such as superior canal dehiscence, giving an apparent conductive loss with normal tympanometry and present reflexes.
 ## Masking
-Sound presented to one ear can cross the skull and be heard by the other, so the non-test ear is masked with noise. Interaural attenuation is 40 to 65 dB for air conduction and near zero for bone. Mask whenever the ears differ by 40 dB or more on air conduction, and for bone conduction whenever there is a gap.
+Sound presented to one ear can cross the skull and be heard by the other, so the non-test ear is masked with narrow-band noise. Interaural attenuation is 40 to 65 dB for air conduction with headphones (more with insert earphones) and close to 0 dB for bone, because the vibrator shakes the whole skull. Mask whenever the ears differ by 40 dB or more on air conduction, and for bone conduction whenever there is an air–bone gap in the test ear.
+
+The usual method is the **plateau (Hood) technique**: noise in the non-test ear is raised in 10 dB steps while the threshold in the test ear is re-measured; while the threshold keeps rising with the noise, the other ear was answering, and once it stays the same across several steps (the plateau), the true threshold has been found. Without masking, a dead ear produces a **shadow curve**, a threshold that mirrors the good ear about 40 to 60 dB lower for air and almost level with it for bone. The **masking dilemma** arises in large bilateral conductive losses, as in bilateral atresia, when the noise needed to mask one ear crosses over and masks the test ear too; insert earphones and ABR by bone conduction help.
+!draw aud-dead | A right dead ear. Unmasked, the right ear seems to have a 65 to 80 dB loss with near-normal bone conduction: a shadow of the left ear. With the left ear masked, there is no response by bone conduction at the limits of the machine.
 ## Repeatability
-Normal repeat audiograms agree within about 5 dB.
+Normal repeat audiograms agree within about 5 dB, so a change of 10 dB or more at two frequencies is significant. Grades of loss use the average of 500, 1000, 2000 and 4000 Hz in the better ear (see the hearing loss article).
+
+# Patterns on the audiogram | Worked examples.
+## Conductive and mixed losses
+**Otosclerosis** produces a conductive loss, often worse in the low frequencies, with a characteristic dip of bone conduction of about 10 to 15 dB at 2 kHz, the **Carhart notch**. The notch is mechanical, not cochlear: it disappears after successful stapes surgery. Tympanometry is type A or As, and the stapedial reflexes are absent.
+!draw aud-otosc | Left otosclerosis. Air conduction is about 40 to 50 dB; masked bone conduction is near normal except for the dip at 2 kHz (Carhart notch). Air–bone gap about 35 dB.
+A **mixed loss** combines a raised bone conduction with an air–bone gap, as in chronic otitis media with cochlear damage from long-standing infection, otosclerosis with cochlear involvement, or a temporal bone fracture. Both components matter: the gap may be closed by surgery, but the sensorineural part sets the best possible result, so a patient with bone conduction of 40 dB will still need a hearing aid after a perfect tympanoplasty.
+!draw aud-mixed | Right mixed loss. Masked bone conduction is 30 to 55 dB (the sensorineural part), and air conduction 60 to 85 dB (the gap of about 30 dB is the conductive part).
+## Sensorineural patterns
+The *shape* of a sensorineural loss points to its cause.
+!table Sensorineural shapes and what they suggest
+Shape | Typical cause | Clues
+Bilateral, symmetrical, sloping to the high frequencies | Presbycusis, ototoxicity | Age; aminoglycosides, cisplatin
+Notch at 3, 4 or 6 kHz with recovery at 8 kHz | Noise | Occupational or recreational noise; usually bilateral
+Low-frequency (rising) loss, fluctuating | Ménière's disease, early hydrops | Episodic vertigo, fullness, roaring tinnitus
+Mid-frequency "cookie-bite" (U-shaped) loss | Genetic, congenital | Family history; stable
+Flat, severe, sudden | Sudden sensorineural loss, viral, vascular | Onset within 72 hours
+Asymmetric | Vestibular schwannoma until proven otherwise; also Ménière's, sudden loss, noise from one side (shooting) | MRI of the internal auditory meatus
+Dead ear | Labyrinthitis, meningitis, fracture, surgery | Shadow curve without masking
+!!
+!draw aud-presby aud-noise | Left: presbycusis, a symmetrical high-frequency sloping loss. Right: noise damage, a notch at 4 kHz that recovers at 8 kHz; the recovery separates noise from ageing, although both often coexist.
+!draw aud-meniere aud-asym | Left: early Ménière's disease in the left ear, a low-frequency (rising) sensorineural loss that fluctuates between tests. Right: an asymmetric right sensorineural loss; with no explanation, this needs an MRI.
+!draw aud-cookie | A mid-frequency "cookie-bite" loss, typical of some genetic hearing losses.
+## When the audiogram does not fit
+**Non-organic (functional) hearing loss** is suggested when thresholds vary between tests, the patient converses easily despite a "severe" loss, the speech reception threshold is much better than the pure-tone average, a unilateral "dead ear" shows no shadow curve, or acoustic reflexes are present at levels near or below the claimed threshold. Objective tests (otoacoustic emissions, ABR or cortical evoked response audiometry) establish the true thresholds; the Stenger test detects a feigned unilateral loss.
 
 # Speech audiometry | Understanding, not just hearing.
 ## Speech reception threshold
@@ -73,6 +112,9 @@ The level at which half of two-syllable spondee words are repeated correctly; it
 Single-syllable words presented 30 to 40 dB above the SRT. Good in conductive loss, reduced in cochlear loss, very poor in retrocochlear loss.
 ## Roll-over
 Discrimination falling as loudness increases, a sign of a retrocochlear lesion.
+## Reading the speech audiogram
+The speech audiogram plots the percentage of words repeated correctly against loudness. In a **conductive loss** the curve has a normal shape but is shifted to the right: once the sound is loud enough, the patient understands everything. In a **cochlear loss** the curve is shifted and may never reach 100%, because the damaged cochlea distorts the sound. In a **retrocochlear loss** the maximum is poor and falls again at high levels (roll-over), and speech discrimination is much worse than the pure-tone thresholds would suggest. Speech scores matter clinically: they predict hearing aid benefit and help select candidates for cochlear implants, which are assessed with sentence tests in quiet and in noise.
+!draw speech-curves | Speech audiogram patterns: normal, conductive (shifted but reaching 100%), cochlear (shifted and reduced maximum) and retrocochlear (poor maximum with roll-over).
 !fig d4-3 | Speech audiogram.
 
 # Impedance audiometry | The middle ear and reflexes.
@@ -88,16 +130,34 @@ B | Flat | Fluid, thick drum; perforation or patent grommet if the volume is hig
 C | Peak below −100 mm H2O | Retraction, tube dysfunction
 !!
 !fig d4-6 | Types of tympanogram.
-An ear canal volume over about 2.5 mL in adults (2 mL in children) suggests a perforation or patent grommet. Infants under six months need a 1000 Hz probe tone.
+!draw tymp-types | Reading a tympanogram: the peak height (compliance), the peak position (middle ear pressure) and the ear canal volume (ECV). The shaded box is the normal range, roughly −100 to +50 daPa and 0.3 to 1.5 ml.
+## Reading a tympanogram
+Read three numbers, not just the shape. The **peak pressure** shows the middle ear pressure; normal is about −100 to +50 daPa (1 daPa is about 1 mm H₂O). The **peak compliance** shows how mobile the drum and chain are; normal in adults is about 0.3 to 1.5 ml. The **ear canal volume** is the air between the probe and the drum; normal is about 0.6 to 1.5 ml in adults and 0.3 to 0.9 ml in children.
+!table A flat tympanogram: what the volume tells you
+Ear canal volume | Meaning
+Normal | Middle ear fluid or a thickened, immobile drum
+High (over about 2 ml adults, 1 ml children) | Perforation or a patent ventilation tube
+Low | Wax or debris against the drum, or the probe against the canal wall
+!!
+An ear canal volume over about 2.5 mL in adults (2 mL in children) is a strong sign of a perforation or patent grommet. Infants under six months need a 1000 Hz probe tone, because the soft canal wall makes the standard 226 Hz test unreliable. A patulous Eustachian tube produces a trace that moves with breathing; a glomus tumour can produce pulsations in time with the heartbeat.
 ## Stapedial (acoustic) reflex
 A loud sound, 70 to 100 dB above threshold, contracts the stapedius in both ears.
 !fig d4-7 | The acoustic reflex pathway.
 ### What reflexes tell you
+Reflexes are measured in four conditions: ipsilateral and contralateral for each ear. Record the **stimulus ear** and the **probe ear** carefully: a contralateral right reflex means sound in the right ear, response measured in the left.
 - A reflex at only 40 to 60 dB above threshold: recruitment, a cochlear lesion.
 - Reflex decay to half within 10 seconds: an eighth nerve lesion.
 - Absent with normal hearing: a facial nerve lesion above the nerve to stapedius.
 - Present on the same side but absent on the other: a brainstem lesion.
 - Absent: stapes fixation or any middle ear disease.
+!table Reflex patterns and the site of the lesion
+Finding | Site
+Absent whenever the probe is in the affected ear | Middle ear on that side (the probe cannot detect a reflex)
+Absent whenever the affected ear is stimulated | Severe cochlear loss or eighth nerve lesion on that side
+Absent whenever the probe is in the affected ear, with normal hearing | Facial nerve on that side, above the nerve to stapedius
+Ipsilateral reflexes present, both contralateral reflexes absent | Brainstem lesion crossing the midline
+Present with an apparent severe loss | Non-organic loss
+!!
 
 # Site-of-lesion tests | Cochlear or retrocochlear?
 Older behavioural tests, now largely replaced by MRI:
@@ -110,9 +170,14 @@ Older behavioural tests, now largely replaced by MRI:
 # Objective tests | When the patient cannot respond.
 ## Otoacoustic emissions
 Sounds produced by the outer hair cells and recorded in the canal. Transient emissions disappear with losses over about 30 dB, distortion-product emissions over about 50 dB. Absent with middle ear fluid or debris; present in auditory neuropathy. Used for newborn screening.
+
+Results are reported as **pass** (clear response) or **refer**. A refer is not a diagnosis of deafness: it may mean vernix or fluid in the canal, a noisy baby or environment, or a true loss, which is why screening repeats the test and then uses automated ABR. Because emissions reflect outer hair cell function, they can show early damage from noise or ototoxic drugs before the audiogram changes, and they monitor patients on cisplatin.
 ## Auditory brainstem response
 Five to seven waves recorded from the scalp within 10 ms of a click: I and II from the eighth nerve, III the cochlear nucleus, IV the superior olive, V the lateral lemniscus and inferior colliculus (*E. COLI*). Used for thresholds in infants (pass at about 30 to 40 dB nHL) and to look for retrocochlear lesions, though it misses small tumours. Unaffected by sleep and sedation.
 !fig d4-10 | Brainstem auditory evoked potentials.
+## Reading an ABR
+Look at three things. **Wave latencies:** wave V normally appears at about 5.5 to 6 ms with a loud click. **Interpeak intervals:** I–III about 2 ms, III–V about 2 ms, and I–V about 4 ms; the I–V interval measures conduction along the nerve and brainstem and is *independent of the middle ear*. **Threshold:** the softest level at which wave V can still be identified, used to estimate hearing in infants. In a conductive loss all the waves are delayed but the I–V interval is normal; in a cochlear loss wave I may be small or absent and the latency of V falls steeply as loudness rises (recruitment); in a retrocochlear lesion the I–V interval is prolonged or the waves after I are lost, and wave V on the affected side is delayed compared with the other ear.
+!draw abr-traces | ABR traces. Conductive loss delays every wave; a retrocochlear lesion prolongs the I–V interval. Values are typical, not normative.
 !differ Abnormal interaural wave V difference
 Dhingra: Over 0.2 ms.
 Lee: 0.4 to 0.5 ms.
@@ -122,8 +187,24 @@ Frequency-specific thresholds into the profound range, beyond the reach of ABR (
 ## Electrocochleography
 Records the summating potential, action potential and cochlear microphonic. An enlarged SP to AP ratio suggests Ménière's disease (see that topic).
 !fig d4-9 | Electrocochleography: normal ear and an ear with Ménière's disease.
+!draw ecochg | Reading electrocochleography: the summating potential (SP) is the shoulder before the sharp action potential (AP). An SP/AP ratio above about 0.4 to 0.5 suggests endolymphatic hydrops; a normal result does not exclude it.
 ## Auditory neuropathy
 Present otoacoustic emissions and cochlear microphonic with an absent or abnormal ABR: the hair cells work but the nerve does not carry the signal synchronously.
+
+# Putting the tests together | Patterns in common conditions.
+!table The test battery in common conditions
+Condition | Tuning forks | Audiogram | Tympanogram | Reflexes | Other
+Wax or otitis media with effusion | Rinne negative, Weber to the ear | Conductive, flat or low-frequency | B, normal volume (effusion) | Absent | OAE absent
+Perforation | Rinne negative if gap over about 20 dB | Conductive | B, high volume | Absent | —
+Otosclerosis | Rinne negative | Conductive, Carhart notch | A or As | Absent | Bone better than normal at 2 kHz after surgery
+Ossicular discontinuity | Rinne negative | Conductive, up to 60 dB | Ad | Absent | —
+Superior canal dehiscence | Weber to the ear | Low-frequency gap, bone better than normal | A | Present | VEMP thresholds low; CT
+Presbycusis | Rinne positive | Bilateral high-frequency sensorineural | A | Present, may be at reduced levels | Speech scores fair
+Ménière's disease | Weber away | Low-frequency sensorineural, fluctuating | A | Present, recruitment | ECochG SP/AP raised
+Vestibular schwannoma | Weber away | Asymmetric sensorineural | A | Absent or decay | Poor speech, roll-over; ABR I–V prolonged; MRI
+Auditory neuropathy | Variable | Any, often fluctuating | A | Absent | OAE present, ABR absent or abnormal
+Non-organic loss | Inconsistent | Variable, no shadow curve | A | Present near claimed threshold | SRT better than PTA; objective tests normal
+!!
 
 # Testing children | By age.
 - Birth to six months: behavioural observation, OAE and ABR.
@@ -131,12 +212,18 @@ Present otoacoustic emissions and cochlear microphonic with an absent or abnorma
 - From about thirty months: play audiometry.
 - Older children: conventional audiometry. Normal thresholds in children are 15 dB or better.
 
+**Visual reinforcement audiometry** conditions the child to turn towards a sound, rewarded by a light or puppet, and uses insert earphones or free field; free-field results reflect the better ear only. **Play audiometry** turns the test into a game, such as putting a peg in a board each time a sound is heard. Tympanometry and otoacoustic emissions support behavioural tests at every age, and ABR under sleep or sedation is used when behavioural results are unreliable.
+
 # For the examination | What the examiner wants to hear.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Rinne and Weber:** technique and interpretation, and the false-negative Rinne.
-- **Masking:** when and why.
-- **Tympanogram types.**
+- **Masking:** when and why; the plateau method, shadow curve and masking dilemma.
+- **Reading an audiogram aloud:** describe each ear, the type, degree and shape of loss, and what you would do next.
+- **Audiogram patterns:** Carhart notch, noise notch, low-frequency loss, asymmetry, dead ear.
+- **Tympanogram types** and the ear canal volume.
+- **Reflex patterns** and the site of the lesion.
+- **Reading an ABR:** latencies, the I–V interval and wave V asymmetry.
 - **Uses of the stapedial reflex.**
 - **OAE versus ABR,** and the waves of the ABR.
 - **Auditory neuropathy.**
@@ -146,4 +233,7 @@ Present otoacoustic emissions and cochlear microphonic with an absent or abnorma
 - Reading a false-negative Rinne as a conductive loss.
 - Forgetting to mask.
 - Calling a flat tympanogram fluid without checking the canal volume.
+- Taking a shadow curve for a real moderate loss in a dead ear.
+- Planning stapes surgery for an air–bone gap with present reflexes before excluding a third window.
+- Accepting a severe loss in a patient who follows quiet conversation.
 !!

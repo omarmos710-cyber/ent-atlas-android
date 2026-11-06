@@ -65,6 +65,8 @@ Cold water makes nystagmus beat to the opposite side; warm to the same side.
 - **Canal paresis:** one side responds less (a difference of more than about 15 to 30%).
 - **Directional preponderance:** nystagmus stronger in one direction (more than about 25 to 30%).
 - **Bilateral weakness:** bilateral vestibular loss.
+### A worked example
+Each ear is irrigated with warm (44 °C) and cool (30 °C) water or air, and the peak slow-phase velocity of the nystagmus is measured in degrees per second. **Jongkees' formula** compares the two sides: canal paresis = [(RW + RC) − (LW + LC)] ÷ (RW + RC + LW + LC) × 100. For example, with right warm 30, right cool 28, left warm 12 and left cool 10°/s, the result is (58 − 22) ÷ 80 × 100 = 45%, a left canal paresis (most labs use a cut-off of about 20 to 25%). Directional preponderance compares right-beating (RW + LC) with left-beating (LW + RC) responses in the same way. If the sum of all four responses is very small (under about 6 to 8°/s per irrigation), the result is bilateral weakness, confirmed by rotary chair or head impulse testing. Failure of fixation to suppress the nystagmus (fixation index) points to a central lesion.
 !fig d6-3 | Calorigrams: (A) normal, (B) left canal paresis, (C) left directional preponderance.
 !differ The caloric test
 Dhingra: Water at 30°C and 44°C for 40 seconds.
@@ -79,8 +81,20 @@ Don't use water with a perforation; use air.
 Record eye movements during calorics, positional tests, saccades, pursuit and optokinetic testing. Central signs: direction-changing nystagmus, failure of fixation suppression, abnormal saccades and pursuit, and hyperactive calorics.
 ## Video head impulse test
 Measures the gain of the reflex for each canal separately; low gain with overt or covert saccades means a weak canal.
+
+Small, fast, unpredictable head turns are made while a lightweight camera records the eye. The **gain** is eye velocity divided by head velocity: normal for the lateral canals is about 0.8 or more (vertical canals about 0.7). A weak canal has low gain and **catch-up saccades**: *overt* saccades after the head stops, which the examiner can see at the bedside, and *covert* saccades during the movement, which only video can detect. The test is quick, tests all six canals, and measures the high frequencies of head movement used in daily life, whereas calorics test only the lateral canal at a very low frequency; the two are complementary, and Ménière's disease often shows abnormal calorics with a normal vHIT. A normal vHIT in acute continuous vertigo is a warning sign of a central cause.
+!draw vhit | Reading a video head impulse test. On the right the eye matches the head (gain near 1). On the left the eye lags (gain 0.45) and catch-up saccades follow: a left lateral canal weakness, as in vestibular neuritis.
 ## Vestibular evoked myogenic potentials
 Loud sounds stimulate the saccule (cervical VEMP from sternocleidomastoid) and utricle (ocular VEMP from the inferior oblique). They work even in deaf ears. In superior canal dehiscence thresholds are abnormally low and ocular amplitudes high.
+!table Reading VEMPs
+Finding | Cervical VEMP (saccule, inferior vestibular nerve) | Ocular VEMP (utricle, superior vestibular nerve)
+Superior canal dehiscence | Low threshold (often under 70 dB nHL) | Large amplitude, low threshold: the best screening test
+Vestibular neuritis, superior nerve | Usually preserved | Absent on the affected side
+Vestibular neuritis, inferior nerve | Absent on the affected side | Preserved
+Ménière's disease | Reduced or absent, or tuning shifted to higher frequencies | Variable
+Vestibular schwannoma | Often reduced or absent | Often reduced or absent
+Conductive loss | Air-conducted VEMP lost; bone-conducted VEMP preserved | Same
+!!
 ## Rotary chair
 Tests both labyrinths together over a range of frequencies; useful in bilateral loss, in children, and when a canal cannot be irrigated.
 ## Posturography

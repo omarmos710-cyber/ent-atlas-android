@@ -1,0 +1,12 @@
+<svg viewBox="0 0 340 86" role="img" aria-label="Audiogram symbols" xmlns="http://www.w3.org/2000/svg">
+<text class="tt" x="196" y="16" text-anchor="middle">Right</text><text class="tt" x="262" y="16" text-anchor="middle">Left</text>
+<text class="lb" x="8" y="38">Air conduction</text>
+<circle class="sy r" cx="196" cy="34" r="5.5"/>
+<path class="sy l" d="M257 29l10 10m0 -10l-10 10"/>
+<text class="lb" x="8" y="60">Bone conduction, unmasked</text>
+<path class="sy r" d="M199 50l-8 6l8 6"/>
+<path class="sy l" d="M259 50l8 6l-8 6"/>
+<text class="lb" x="8" y="82">Bone conduction, masked</text>
+<path class="sy r" d="M198 71h-6v14h6"/>
+<path class="sy l" d="M260 71h6v14h-6"/>
+</svg>

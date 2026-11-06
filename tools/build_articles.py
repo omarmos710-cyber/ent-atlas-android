@@ -11,6 +11,7 @@ Authoring format (one file per topic, file name = topic id):
   Plain lines form paragraphs (blank line ends a paragraph).
   - item                                -> bullet list
   !fig d13-1 d13-2 | Caption text       -> figure plate (files in clinic/fig/)
+  !draw aud-normal | Caption           -> inline SVG drawing (content/clinic/draw/, made by tools/draw_figs.py)
   !pearl Title / !flag / !exam / !update / !note / !ward Title ... !!   -> boxes
   !differ ... !!   lines "Dhingra: ..." "Lee: ..." then a note
   !table Title ... !!   rows "a | b | c", first row is the header
@@ -26,6 +27,7 @@ SRC = os.path.join(ROOT, 'content', 'clinic')
 WWW = os.path.join(ROOT, 'app', 'src', 'main', 'assets', 'www')
 OUT = os.path.join(WWW, 'clinic', 'art')
 FIGDIR = os.path.join(WWW, 'clinic', 'fig')
+DRAWDIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'content', 'clinic', 'draw')
 CHEV = '<svg class="arch" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>'
 BOXES = {'pearl': 'Pearl', 'flag': 'Red flags', 'exam': 'What the examiner wants', 'update': 'Guideline update',
          'note': 'Note', 'ward': 'On the ward', 'pit': 'Common pitfalls', 'differ': 'Where the books differ'}
@@ -232,6 +234,21 @@ def compile_one(tid, text):
             meta['fx'].append({'n': fign, 'f': names, 't': plain(cap.strip()), 'w': where(), 'c': cite})
             out.append('<figure class="arfig" id="a-f%d"><div class="%s">%s</div><figcaption><b>Figure %d</b>%s<cite>%s</cite></figcaption></figure>' % (
                 fign, 'pair' if len(names) > 1 else 'one', imgs, fign, inline(cap.strip(), refs), html.escape(cite)))
+            words += len(cap.split())
+            continue
+        if ln.startswith('!draw '):
+            flush()
+            spec, _, cap = ln[6:].partition('|')
+            names = spec.split(); svgs = []
+            for n in names:
+                fp = os.path.join(DRAWDIR, n + '.svg')
+                if not os.path.exists(fp):
+                    raise FileNotFoundError('%s: drawing %s missing' % (tid, n))
+                svgs.append('<div class="ardsvg">%s</div>' % open(fp, encoding='utf-8').read())
+            fign += 1
+            meta['fx'].append({'n': fign, 'd': names, 't': plain(cap.strip()), 'w': where(), 'c': 'Drawn for ENT Atlas'})
+            out.append('<figure class="arfig ardraw" id="a-f%d"><div class="%s">%s</div><figcaption><b>Figure %d</b>%s<cite>Drawn for ENT Atlas</cite></figcaption></figure>' % (
+                fign, 'pair' if len(names) > 1 else 'one', ''.join(svgs), fign, inline(cap.strip(), refs)))
             words += len(cap.split())
             continue
         if ln.startswith('!anat '):

@@ -208,3 +208,20 @@ html[data-fsz="s"] .arw{--arfs:15px}html[data-fsz="l"] .arw{--arfs:18px}
 .clseg button{min-height:42px;border:0;border-radius:10px;background:none;color:var(--muted);font:600 14px var(--f-body)}
 .clseg button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.08)}
 .clapl{font:italic 400 16px/1.5 var(--f-display);color:var(--muted);margin:-2px 0 14px}
+/* drawn teaching figures (tools/draw_figs.py) */
+.ardraw{--dr-r:#C62F3B;--dr-l:#1F5FBF;--dr-a:#B4690E}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .ardraw{--dr-r:#F0727B;--dr-l:#7FA8F0;--dr-a:#E8B04A}}
+:root[data-theme="dark"] .ardraw{--dr-r:#F0727B;--dr-l:#7FA8F0;--dr-a:#E8B04A}
+.ardraw .ardsvg{padding:12px 10px 6px}
+.ardraw svg{display:block;width:100%;height:auto;max-width:520px;margin:0 auto;font-family:var(--f-body)}
+.ardraw .tt{font-size:13px;font-weight:700;fill:var(--ink)}
+.ardraw .lb{font-size:10.5px;fill:var(--muted)}
+.ardraw .g{stroke:var(--line);stroke-width:1}
+.ardraw .g2{stroke:var(--muted);stroke-width:1;opacity:.6}
+.ardraw .g3{stroke:var(--line);stroke-width:1;stroke-dasharray:3 3}
+.ardraw .nz{fill:var(--accent);opacity:.07}
+.ardraw .fr{fill:none;stroke:var(--line)}
+.ardraw .ln{fill:none;stroke-width:1.8;stroke-linejoin:round}
+.ardraw .sy{fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.ardraw .r{stroke:var(--dr-r)}.ardraw .l{stroke:var(--dr-l)}.ardraw .k{stroke:var(--ink)}.ardraw .a{stroke:var(--dr-a)}
+.ardraw text.r{fill:var(--dr-r);stroke:none}.ardraw text.l{fill:var(--dr-l);stroke:none}.ardraw text.k{fill:var(--ink);stroke:none}.ardraw text.a{fill:var(--dr-a);stroke:none}
