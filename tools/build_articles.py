@@ -16,6 +16,7 @@ Authoring format (one file per topic, file name = topic id):
   !table Title ... !!   rows "a | b | c", first row is the header
   !tree Root ... !!     rows "Key | Bold | rest"
   !ladder ... !!        rows "Title | text"
+  !path Title ... !!    decision pathway: rows "Step or question | branch: outcome ; branch: outcome"
   Inline: **bold**, *term*, [[4.1]] cross-reference to a numbered heading.
 """
 import html, json, os, re, sys
@@ -146,6 +147,17 @@ def compile_one(tid, text):
                 items.append('<li><span class="dot">%d</span><div><b>%s</b><span>%s</span></div></li>' % (i + 1, inline(p[0], refs), inline(p[1], refs)))
             n = len(items)
             return '<ol class="arlad" style="--n:%d">%s</ol>' % (n, ''.join(items))
+        if kind == 'path':
+            items = []
+            for i, r in enumerate([r for r in rows if r.strip()]):
+                p = [x.strip() for x in r.split('|', 1)] + ['']
+                br = []
+                for b in [x.strip() for x in p[1].split(';') if x.strip()]:
+                    m = re.match(r'([^:]{1,60}):\s*(.*)', b)
+                    br.append('<li><em>%s</em><span>%s</span></li>' % (inline(m.group(1), refs), inline(m.group(2), refs)) if m else '<li><span>%s</span></li>' % inline(b, refs))
+                items.append('<li><span class="n">%d</span><div><b>%s</b>%s</div></li>' % (i + 1, inline(p[0], refs), '<ul>%s</ul>' % ''.join(br) if br else ''))
+            words += len(' '.join(rows).split())
+            return '<div class="arpath"><h5>%s</h5><ol>%s</ol></div>' % (html.escape(title or 'Pathway'), ''.join(items))
         if kind == 'differ':
             cols, note = [], []
             for r in rows:
@@ -247,7 +259,7 @@ def compile_one(tid, text):
             out.append('<div class="arcases" data-arcases="%s" data-lead="%s"></div>' % (html.escape(' '.join(spec.split())), html.escape(lead.strip())))
             continue
         m = re.match(r'!(\w+)\s*(.*)', ln)
-        if m and m.group(1) in ('pearl', 'flag', 'exam', 'update', 'note', 'ward', 'pit', 'differ', 'table', 'tree', 'ladder'):
+        if m and m.group(1) in ('pearl', 'flag', 'exam', 'update', 'note', 'ward', 'pit', 'differ', 'table', 'tree', 'ladder', 'path'):
             flush(); box = (m.group(1), m.group(2).strip(), []); continue
         m = re.match(r'\s{2,}(?:(- )|(\d+\.\s+))?(\S.*)', ln)
         if m and (lst or olst):

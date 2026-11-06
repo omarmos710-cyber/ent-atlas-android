@@ -4,7 +4,7 @@
 "use strict";
 const E=s=>esc(String(s==null?"":s));
 const md=s=>E(s).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>");
-const GN={ear:"Ear",nose:"Nose & sinuses",mouth:"Mouth & throat",larynx:"Larynx & airway",neck:"Neck, thyroid & salivary"};
+const GN={ear:"Ear",nose:"Nose & sinuses",mouth:"Mouth & throat",larynx:"Larynx & airway",neck:"Neck, thyroid & salivary",appr:"Approach to"};
 const GK=Object.keys(GN);
 const QT=()=>window.QT||{};
 /* topics added most recently, newest first: shown as "New in the app" until opened */

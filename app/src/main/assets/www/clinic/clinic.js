@@ -73,13 +73,20 @@ const amin=id=>{const i=AIDX()[id];return i?Math.max(3,Math.round(i.w/220)):0};
 function trow(t,sub){const r=RD()[t.id],o=OP()[t.id],nw=!o&&NEWIN.includes(t.id);
  return `<button class="clrow clt ${r?"rd":o?"op":""}" data-go="cl:t-${t.id}"><i class="clst" aria-hidden="true"></i><span class="m"><b>${e(t.t)}</b><small>${e(sub!=null?sub:(amin(t.id)?amin(t.id)+" min read":"Quick notes"))}${r?" · Read":o?" · Started":""}</small></span>${nw?`<em class="clnew">New</em>`:""}${ic("chev",16)}</button>`}
 function nextUp(){const r=RD(),o=OP(),l=ST.cll;if(l&&BY[l]&&!r[l])return [BY[l],"Continue reading"];const nw=NEWIN.find(id=>BY[id]&&!o[id]);if(nw)return [BY[nw],"New in the library"];const u=D.t.find(t=>!r[t.id]);return u?[u,"Up next"]:null}
-function vHome(){const r=RD(),n=D.t.filter(t=>r[t.id]).length,N=D.t.length,nx=nextUp();
- return `<div class="clw"><span class="cle">Diseases</span><h1>Clinical</h1>
- <p class="clprog"><span><i style="width:${100*n/N}%"></i></span><small>${n} of ${N} articles read</small></p>
- ${nx?`<button class="clhero" data-go="cl:t-${nx[0].id}"><span class="cle">${nx[1]} · ${e(GN[nx[0].g])}</span><b>${e(nx[0].t)}</b><small>${e(nx[0].one.length>160?nx[0].one.slice(0,158).replace(/\s+\S*$/,"")+"…":nx[0].one)}</small><span class="clgo">${amin(nx[0].id)?amin(nx[0].id)+" min read":"Open"}${ic("chev",15)}</span></button>`:""}
- <input class="clsearch" id="clq" type="search" aria-label="Search diseases" placeholder="Search a disease or symptom" value="${e(QQ)}"><div id="cllist">${list()}</div></div>`}
-function list(){const q=QQ.trim().toLowerCase();if(q){const L=D.t.filter(t=>(t.t+" "+t.one+" "+t.ddx.join(" ")).toLowerCase().includes(q));return L.length?`<div class="cllist">${L.map(t=>trow(t,GN[t.g]+(amin(t.id)?" · "+amin(t.id)+" min":""))).join("")}</div>`:`<p class="clsrc">No topic matches yet.</p>`}
- const r=RD();return Object.keys(GN).map(g=>{const ts=D.t.filter(t=>t.g===g),n=ts.filter(t=>r[t.id]).length;return `<div class="clgh"><span>${e(GN[g])}</span><small>${n?n+" of "+ts.length+" read":ts.length+" articles"}</small></div><div class="cllist">${ts.map(t=>trow(t)).join("")}</div>`}).join("")}
+/* two branches: diseases (by region) and "Approach to" (by presenting symptom, sub-grouped by system) */
+const LMODE=()=>ST.clmode==="ap"?"ap":"dz",AP="appr",SYS={ear:"Ear",nose:"Nose & sinuses",mouth:"Mouth & throat",larynx:"Larynx & airway",neck:"Neck"};
+const inMode=t=>LMODE()==="ap"?(t.g===AP||!!t.xap):t.g!==AP;
+function vHome(){const r=RD(),M=LMODE(),T=D.t.filter(inMode),n=T.filter(t=>r[t.id]).length,N=T.length,nx=nextUp(),ap=M==="ap";
+ return `<div class="clw"><span class="cle">${ap?"By presenting symptom":"Diseases"}</span><h1>Clinical</h1>
+ <div class="clseg" role="group" aria-label="Library"><button data-clmode="dz" aria-pressed="${!ap}">Diseases</button><button data-clmode="ap" aria-pressed="${ap}">Approach to…</button></div>
+ ${ap?`<p class="clapl">Start from what the patient tells you: the questions to ask, the signs to look for, the tests in order, and when to act today.</p>`:""}
+ <p class="clprog"><span><i style="width:${N?100*n/N:0}%"></i></span><small>${n} of ${N} ${ap?"approaches":"articles"} read</small></p>
+ ${nx&&!ap?`<button class="clhero" data-go="cl:t-${nx[0].id}"><span class="cle">${nx[1]} · ${e(GN[nx[0].g])}</span><b>${e(nx[0].t)}</b><small>${e(nx[0].one.length>160?nx[0].one.slice(0,158).replace(/\s+\S*$/,"")+"…":nx[0].one)}</small><span class="clgo">${amin(nx[0].id)?amin(nx[0].id)+" min read":"Open"}${ic("chev",15)}</span></button>`:""}
+ <input class="clsearch" id="clq" type="search" aria-label="Search" placeholder="${ap?"Search a symptom: hoarseness, dizziness…":"Search a disease or symptom"}" value="${e(QQ)}"><div id="cllist">${list()}</div></div>`}
+function list(){const q=QQ.trim().toLowerCase();if(q){const L=D.t.filter(t=>(t.t+" "+t.one+" "+t.ddx.join(" ")).toLowerCase().includes(q)).sort((a,b)=>inMode(b)-inMode(a));return L.length?`<div class="cllist">${L.map(t=>trow(t,(t.g===AP?"Approach to":GN[t.g])+(amin(t.id)?" · "+amin(t.id)+" min":""))).join("")}</div>`:`<p class="clsrc">No topic matches yet.</p>`}
+ const r=RD(),ap=LMODE()==="ap";
+ const grp=ap?Object.keys(SYS).map(k=>[SYS[k],D.t.filter(t=>(t.g===AP&&t.sys===k)||t.xap===k)]):Object.keys(GN).filter(g=>g!==AP).map(g=>[GN[g],D.t.filter(t=>t.g===g)]);
+ return grp.filter(x=>x[1].length).map(([name,ts])=>{const n=ts.filter(t=>r[t.id]).length;return `<div class="clgh"><span>${e(name)}</span><small>${n?n+" of "+ts.length+" read":ts.length+(ap?" approaches":" articles")}</small></div><div class="cllist">${ts.map(t=>trow(t)).join("")}</div>`}).join("")}
 function tbs(t){return (t.tb||[]).map(b=>`<div class="clh3">${e(b.t)}</div><div class="cltw"><table class="cltb"><thead><tr>${b.h.map(x=>`<th>${e(x)}</th>`).join("")}</tr></thead><tbody>${b.r.map(r=>`<tr>${r.map(x=>`<td>${e(x)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`).join("")}
 function vTopic(id){const t=BY[id];if(!t)return vHome();window.CL_LAST=t;if(hasArt(id))return vArticle(id);return vQuick(id)}
 function vQuick(id){const t=BY[id],o=OPEN[id]=OPEN[id]||{};
@@ -106,6 +113,7 @@ function toFig(v,fg){const f=v.querySelector("#a-"+fg);if(!f)return;const d=f.cl
  requestAnimationFrame(()=>{to();f.classList.add("arflash");setTimeout(()=>f.classList.remove("arflash"),2400)});[250,700,1400].forEach(t=>setTimeout(to,t))}
 window.CLINIC={render};
 document.addEventListener("keydown",ev=>{if(ALB&&ev.key==="Escape"){ev.stopPropagation();arLBclose()}},true);
+document.addEventListener("click",ev=>{const b=ev.target.closest("[data-clmode]");if(b){ST.clmode=b.dataset.clmode;save();const v=document.getElementById("view");if(v){v.innerHTML=vHome()}}});
 document.addEventListener("input",ev=>{if(ev.target.id==="clq"){QQ=ev.target.value;clearTimeout(window._clt);window._clt=setTimeout(()=>{const l=document.getElementById("cllist");if(l)l.innerHTML=list()},120)}});
 document.addEventListener("click",ev=>{const T=x=>ev.target.closest(x);let b;
  if(b=T("[data-cls]")){const [id,k]=b.dataset.cls.split(":"),o=OPEN[id];const t=BY[id],cur=o[k]!==undefined?o[k]:(k==="tx"||(k==="cls"&&!(t.tx||[]).length));o[k]=!cur;const y=scrollY;render("t-"+id);scrollTo(0,y);return}
