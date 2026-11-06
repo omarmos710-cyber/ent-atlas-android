@@ -102,6 +102,13 @@ Mortality remains around 5 to 20%, from sepsis, sinus thrombosis and cranial neu
 - Otitis externa fails to respond after a week of proper treatment.
 - A cranial nerve palsy appears with ear pain.
 !!
+!update Necrotising otitis externa: current practice (Oxford Textbook)
+Infection spreads from the canal floor through the **fissures of Santorini** into the infratemporal fossa and skull base. Between 65 and 100% of patients are diabetic, but the classic "elderly diabetic with a painful discharging ear" is not always present, especially in other forms of immunosuppression. *Pseudomonas aeruginosa* is the usual organism, about a quarter of isolates are resistant, and fungi are cultured in over 20% of cases, more often in HIV with low CD4 counts and with a worse prognosis. Surface swabs may grow nothing, so send both a swab and a **granulation biopsy** for bacterial and fungal culture and for histology, because squamous carcinoma of the temporal bone is the key differential; if there is no tissue in the canal, deep samples may be taken at cortical mastoidectomy.
+
+**Imaging.** CT shows erosion only after about 30% demineralisation, so a normal early CT is falsely reassuring. Contrast MRI with fat suppression and diffusion shows soft tissue and marrow disease earlier and detects intracranial spread. Gallium and technetium scans have largely been replaced by MRI, and **FDG PET-CT** is increasingly used to diagnose and to monitor response. CT and MRI changes persist for up to a year after successful treatment, so they cannot be used to decide when to stop.
+
+**Treatment.** Admit for multidisciplinary care (otology, diabetes, microbiology, radiology, elderly care), start empirical intravenous antipseudomonal therapy at once, and give **dual therapy**, typically piperacillin–tazobactam or ceftazidime with a fluoroquinolone, adjusted to cultures. There is no agreed guideline, but consensus favours at least **six weeks** of intravenous treatment, often completed at home, guided by clinical response, inflammatory markers and imaging. Surgery is now limited to biopsy, deep sampling and drainage of abscesses; debridement and nerve decompression have no proven benefit.
+!!
 
 # For the examination | What the examiner wants to hear.
 ## On call

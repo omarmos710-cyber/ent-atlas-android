@@ -130,6 +130,15 @@ Extradural and subdural abscess, meningitis, brain abscess, lateral sinus thromb
 !pearl At surgery
 Facial canal dehiscence and tegmen dehiscence often accompany a fistula. The epineurium does not need opening unless disease has invaded the nerve.
 !!
+!update Current practice (Oxford Textbook)
+**Staging.** The EAONO/JOS system, from European and Japanese otological societies, divides the middle ear and mastoid into sites, with the *sinus tympani* and *protympanum* counted as difficult-access sites where residual disease is most often left. Stage I disease occupies one site, stage II two or more, stage III has an extracranial complication (facial palsy, labyrinthine fistula, postauricular abscess, canal wall destruction), and stage IV has intracranial spread. Using it allows outcomes to be compared between surgeons and techniques.
+
+**Endoscopes.** A rigid 0° endoscope in clinic shows the full depth of a retraction pocket and documents it photographically. *Total endoscopic ear surgery* through the canal suits disease confined to the middle ear and attic: the wide angle shows the sinus tympani, facial recess and anterior attic better than the microscope, without a postauricular incision, but it is more demanding and its long-term recidivism figures are still emerging.
+
+**Canal wall up or down.** Neither is a gold standard, and evidence on hearing outcomes is equivocal. Canal wall up surgery is often staged, with a planned second stage some months later (the Oxford Textbook suggests 3 to 6) to remove residual disease and rebuild the ossicular chain. About 40% of open cavities discharge or are intolerant of water, which is why *mastoid obliteration* (bone pâté, muscle flaps or bioactive glass, with cartilage canal wall reconstruction) is increasingly used: it avoids a cavity and lowers recidivism.
+
+**Follow-up imaging.** *Non-echo-planar diffusion-weighted MRI* has a sensitivity of about 90% and specificity of about 95% for residual cholesteatoma, but disease smaller than about 3 mm can be missed. It can replace a planned second look when clinical suspicion is low, but a negative scan does not cancel a second look when suspicion is high. Recidivism is either **residual** (incompletely removed) or **recurrent** (a new retraction), and both demand long-term follow-up.
+!!
 
 # For the examination | What the examiner wants to hear.
 ## On call

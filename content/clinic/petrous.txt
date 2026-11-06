@@ -46,6 +46,16 @@ Separates marrow from fluid or pus, shows dural enhancement and intracranial spr
 - **Cholesterol granuloma:** bright on both T1 and T2, expanding slowly.
 - **Cholesteatoma** of the apex.
 - **Nasopharyngeal carcinoma** and other skull base tumours.
+!table Petrous apex lesions on MRI (Oxford Textbook)
+Lesion | T1 | T2 | Diffusion and enhancement | CT
+Asymmetric marrow (fat) | Bright, suppresses with fat saturation | Intermediate | No restriction | Normal bone, non-pneumatised apex
+Trapped fluid or effusion | Dark | Bright | No restriction, no enhancement | Intact septa
+Cholesterol granuloma | Bright | Bright | No restriction; rim only | Smooth expansion
+Cholesteatoma or epidermoid | Dark | Bright | Restricted diffusion | Smooth erosion
+Apicitis | Dark | Bright | Enhancing, with dural reaction | Destroyed septa
+Chordoma or chondrosarcoma | Intermediate | Very bright | Heterogeneous enhancement | Bone destruction; clivus or petroclival fissure
+!!
+Cholesterol granuloma is the commonest primary apex lesion, about ten times commoner than apical cholesteatoma, and forms when bleeding fills an obstructed air cell. Asymptomatic lesions are watched with serial imaging; symptomatic ones are drained, preserving hearing where possible, through an infracochlear or infralabyrinthine route, or endoscopically through the sphenoid when the lesion abuts it. Lower cranial nerve palsies with an apex lesion raise concern for malignancy.
 
 # Management | Antibiotics first.
 ## Medical treatment

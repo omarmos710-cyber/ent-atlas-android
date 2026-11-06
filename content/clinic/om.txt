@@ -85,6 +85,14 @@ Dhingra: Mentions amoxicillin prophylaxis, while noting its drawbacks and that m
 Lee: Does not recommend prophylaxis; defines recurrence as 3 in 6 months or 4 in 12 months.
 !!
 
+!update Acute and recurrent otitis media: guidance and evidence (Oxford Textbook)
+**Antibiotics.** NICE (2018) advises analgesia and self-care for non-severe acute otitis media, including unilateral disease from 6 to 23 months, because most cases resolve and the number of children treated to prevent one case of mastoiditis is about 4,800. Immediate antibiotics are reserved for children under two with bilateral disease, those with otorrhoea, the systemically unwell, those under six months and the immunocompromised: amoxicillin first, a macrolide in penicillin allergy, and high-dose co-amoxiclav if symptoms persist. The American Academy of Pediatrics allows shared decision-making with a 48 to 72 hour wait-and-see option.
+
+**Recurrent acute otitis media** is three or more episodes in six months or four or more in a year. Risk factors include day care, parental smoking and dummies; breastfeeding protects, and pneumococcal and Hib vaccination reduce episodes. Children who keep having infections despite vaccination may have poor antibody responses and benefit from a booster with the 23-valent vaccine. A meta-analysis of 14 trials found that long-term **antibiotic prophylaxis** (amoxicillin at half dose twice daily, or azithromycin 10 mg/kg three times a week, for two to three months) cut episodes from about three to 1.5 a year, with about five children treated to prevent one child having an attack, although the effect stops with the drug and resistance is a concern. **Grommets** reduce episodes by about one in the following six months, with little effect by a year, and allow infections to be treated with quinolone drops; they are the usual choice when effusion persists between attacks. Direct comparisons of prophylaxis and grommets are inconclusive.
+
+**Complications** now occur in only 0.05 to 0.25% of episodes. Acute mastoiditis follows fewer than 0.4%, mostly under two years; intravenous antibiotics alone succeed in about 73%, with myringotomy, grommet, drainage of a subperiosteal abscess or cortical mastoidectomy for the rest.
+!!
+
 # Otitis media with effusion | The quiet ear that cannot hear.
 ## Pathogenesis
 Tubal dysfunction leaves negative pressure and fluid behind; the mucosa responds with more goblet cells and mucous glands, and the fluid becomes thick and tenacious, the classic *glue*. Persistent adenoid infection, allergy and unresolved acute otitis media all contribute.

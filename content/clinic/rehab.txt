@@ -105,6 +105,11 @@ Implant recipients are vaccinated against pneumococcus (PCV13, then PPSV23 at le
 
 # Auditory brainstem implant | When there is no nerve.
 An electrode placed on the cochlear nucleus, through the lateral recess of the fourth ventricle, for patients without a usable cochlear nerve: neurofibromatosis type 2, nerve aplasia, or complete cochlear ossification. Results are more modest than with cochlear implants.
+!update The implant family today (Oxford Textbook)
+Implantable devices act at different levels of the pathway. **Bone-conduction hearing devices** bypass the outer and middle ear. *Skin-drive* (passive transcutaneous) devices, such as Baha Attract and the adhesive Adhear, lose energy through the skin and are being superseded. *Direct-drive* devices are either *percutaneous*, with an abutment through the skin (Baha Connect, Ponto), or *active transcutaneous*, with the vibrator implanted under intact skin (Bonebridge, Osia). UK criteria require a conductive or mixed loss, or single-sided deafness, with bone conduction in the fitting range and stable (no more than 15 dB change at two or more frequencies over two years), failure or unsuitability of a conventional or CROS aid after at least four weeks, and benefit from a trial on a headband for at least 14 days. **Active middle ear implants**, most often the Vibrant Soundbridge, drive the incus, stapes or round window with a floating mass transducer, and suit patients who cannot wear an aid but have a cochlea worth amplifying.
+
+**Cochlear implantation** now aims to preserve the cochlea and any residual hearing: a round window or cochleostomy approach into the scala tympani, slow insertion over minutes to avoid basilar membrane rupture, and steroids. Children with profound bilateral loss are implanted on both sides, simultaneously, ideally between 9 and 12 months. In aural atresia, a headband bone-conduction aid is started by about six months, with a definitive implant at about four to five years. **Auditory brainstem implants** stimulate the cochlear nucleus when a cochlear implant cannot work: neurofibromatosis type 2, cochlear or nerve aplasia, and severe cochlear ossification after meningitis or fracture. In adults, treating hearing loss may slow cognitive decline.
+!!
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials
