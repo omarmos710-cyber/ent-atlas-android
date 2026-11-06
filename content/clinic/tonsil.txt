@@ -165,6 +165,13 @@ Recovery position until awake; watch pulse, breathing and blood pressure, and lo
 !flag Post-tonsillectomy bleeding
 A child who keeps swallowing, vomits dark blood or has a rising pulse is bleeding until proven otherwise. Children compensate until they suddenly do not: secure intravenous access, cross-match, and involve the anaesthetist early; induction in a bleeding child is a high-risk airway.
 !!
+!update Technique, pain and safety (Oxford Textbook)
+Techniques are either **extracapsular** (total tonsillectomy, by cold steel, bipolar or monopolar diathermy, or coblation) or **intracapsular** (partial tonsillectomy or tonsillotomy, by coblation or microdebrider, leaving the capsule as a biological dressing over the muscle). Hot techniques reduce operative bleeding but increase secondary haemorrhage and pain, and haemorrhage rises with the diathermy power used, so the lowest effective setting is advised. Intracapsular surgery, especially in young children having surgery for sleep-disordered breathing, gives less pain and fewer bleeds, at the cost of occasional regrowth. After a cluster of child deaths from haemorrhage in Austria, that country moved largely to intracapsular surgery for young children. There is still no consensus on the best method.
+
+**Haemorrhage** is *primary* within 24 hours (usually from inadequate haemostasis) or *secondary* after 24 hours, most often on days 5 to 10. Every bleed should be assessed in hospital, and any needing intervention counts as significant; reported rates vary widely because definitions differ. Mortality in more than 300,000 English paediatric tonsillectomies was about 1 in 27,000. Risk is higher in children under three with proven sleep apnoea and in those with craniofacial anomalies, Down syndrome, cerebral palsy, heart disease or bleeding disorders, who need surgery in a centre with paediatric high-dependency care.
+
+**Pain** is near-universal and causes dehydration and readmission; regular paracetamol with ibuprofen is standard. **Codeine is contraindicated** in under-18s having tonsillectomy for sleep apnoea, because ultrarapid CYP2D6 metabolisers convert it to toxic levels of morphine, causing deaths from respiratory depression. **Adenoidectomy**, done with tonsillectomy in more than half of cases, is now often performed by suction diathermy or coblation under direct or mirror vision rather than with a blind curette.
+!!
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials
