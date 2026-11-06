@@ -1,0 +1,70 @@
+@stand Difficulty swallowing is never a trivial symptom. It can mean a cancer of the pharynx or oesophagus, a neurological disease, a pharyngeal pouch or a motility disorder, and it carries the risks of aspiration pneumonia, malnutrition and dehydration. The approach rests on three questions: is the problem in the mouth and pharynx (*oropharyngeal*) or in the oesophagus; is it structural or neuromuscular; and are there features of malignancy that demand urgent endoscopy?
+
+# Where is the problem? | Oropharyngeal or oesophageal.
+## Two patterns
+**Oropharyngeal dysphagia** is difficulty starting a swallow: food sticks in the throat at once, the patient coughs or chokes on swallowing, food or fluid comes back through the nose, the voice is wet, and repeated swallows are needed. It is usually neuromuscular (stroke, Parkinson's disease, motor neurone disease, myasthenia, myopathy) or caused by a pharyngeal pouch, a cricopharyngeal bar, head and neck cancer or its treatment.
+
+**Oesophageal dysphagia** is a sensation of food sticking after swallowing, usually felt behind the sternum. Difficulty with **solids** that progresses to liquids suggests a mechanical obstruction: cancer if rapid with weight loss, a peptic stricture if slow with reflux, a ring or web if intermittent. Difficulty with **solids and liquids from the start** suggests a motility disorder such as achalasia. Patients localise the level poorly: a lower oesophageal obstruction can be felt in the neck.
+!flag Red flags in dysphagia
+- **Progressive dysphagia, weight loss, odynophagia, haematemesis or anaemia:** upper GI endoscopy urgently, at any age.
+- **Dysphagia with hoarseness, otalgia, a neck lump or a smoking and drinking history:** head and neck cancer.
+- **Total dysphagia with inability to swallow saliva:** food bolus obstruction — emergency.
+- **Coughing on swallowing, chest infections and weight loss:** aspiration; assess safety of oral intake.
+- **New neurological signs** (ptosis, fatigable weakness, fasciculation, dysarthria): neurological cause.
+!!
+
+# History and examination | Detail matters.
+## History
+Ask what is difficult (solids, liquids, tablets, saliva), where food sticks, and how long the problem has lasted and whether it is getting worse. Ask about coughing and choking, nasal regurgitation, a wet voice, regurgitation of undigested food (often hours later, with halitosis and gurgling in a pouch), chest infections, heartburn, weight loss, pain, voice change and neurological symptoms. Review medications that cause oesophagitis (doxycycline, bisphosphonates, potassium, NSAIDs) or dry the mouth. The **EAT-10** questionnaire screens for and measures dysphagia.
+## Examination
+Examine the mouth, dentition, tongue movement and palate, the cranial nerves, the neck (nodes, thyroid, a pouch that gurgles), and the larynx and pharynx with a flexible endoscope, looking for pooling of saliva in the piriform fossae (a sign of obstruction or poor clearance), lesions and vocal fold movement. Observe a trial swallow of water when safe, and look for general signs of neurological disease.
+
+# Investigation | Choose by the question.
+!table Swallowing investigations
+Test | What it shows | Use
+Flexible endoscopy in clinic | Mucosa, pooling, cord movement | First test in ENT
+FEES (fibreoptic endoscopic evaluation of swallowing) | Pharyngeal phase, residue, penetration and aspiration | Oropharyngeal dysphagia, at the bedside
+Videofluoroscopy | All phases of the swallow, aspiration, cricopharyngeal opening | Oropharyngeal dysphagia
+Barium swallow | Pouch, webs, rings, strictures, motility | Structural and pouch assessment
+Upper GI endoscopy (OGD) | Oesophageal mucosa, biopsy, dilatation | Oesophageal dysphagia, red flags
+High-resolution manometry | Oesophageal motility (Chicago classification) | Achalasia, motility disorders
+CT neck and chest | Malignancy and staging | Suspected cancer
+!!
+In eosinophilic oesophagitis, biopsies are taken even when the oesophagus looks normal.
+
+# Causes | Structural, neuromuscular, oesophageal.
+## Pharyngeal pouch
+A **pharyngeal pouch (Zenker's diverticulum)** is a pulsion diverticulum through **Killian's dehiscence**, between the thyropharyngeus and cricopharyngeus parts of the inferior constrictor, with failure of cricopharyngeal relaxation. It affects older adults and causes dysphagia, regurgitation of undigested food, halitosis, gurgling, aspiration and weight loss. A barium swallow confirms it. Symptomatic pouches are treated by **endoscopic stapling or laser diverticulotomy**, which divides the wall between pouch and oesophagus together with the cricopharyngeus, or by open excision or inversion with cricopharyngeal myotomy for small or difficult pouches.
+## Other structural causes
+**Cricopharyngeal dysfunction** without a pouch may respond to dilatation, botulinum toxin or myotomy. **Post-cricoid webs** with iron-deficiency anaemia form the Plummer–Vinson (Paterson–Brown-Kelly) syndrome, a risk factor for post-cricoid cancer. **Cervical osteophytes**, an enlarged thyroid and head and neck cancer, or the fibrosis that follows its treatment by radiotherapy, also narrow the pharynx.
+## Neuromuscular causes
+Stroke is the commonest cause of oropharyngeal dysphagia; most patients improve in the first weeks. Progressive neurological diseases (Parkinson's disease, motor neurone disease, multiple sclerosis, myasthenia gravis, inclusion body myositis, oculopharyngeal muscular dystrophy) need neurological diagnosis and long-term swallow management.
+## Oesophageal causes
+**Oesophageal cancer** is the cause not to miss. **Peptic strictures** follow long-standing reflux. **Schatzki rings** cause intermittent food bolus obstruction. **Achalasia** is a failure of lower oesophageal sphincter relaxation with absent peristalsis, treated with pneumatic dilatation, Heller myotomy or peroral endoscopic myotomy. **Eosinophilic oesophagitis** typically affects young atopic men, presents with food bolus obstruction, and responds to proton pump inhibitors, topical steroids and dietary elimination.
+
+# Management | Safety, cause, function.
+## Principles
+Every patient needs an assessment of whether oral intake is safe, by a **speech and language therapist**, who can advise on texture modification, postures (chin tuck, head turn), exercises and compensatory manoeuvres. Nutrition and hydration are protected, by nasogastric or gastrostomy feeding when necessary. The cause is then treated. A **food bolus obstruction** in the oesophagus needs endoscopic removal if it does not pass, and every patient needs subsequent endoscopy to exclude a stricture, eosinophilic oesophagitis or cancer.
+
+!path Difficulty swallowing
+Red flags? | progressive, weight loss, odynophagia, anaemia: urgent OGD ; hoarseness, otalgia, neck lump: head and neck examination and imaging ; cannot swallow saliva: food bolus — urgent endoscopy
+Oropharyngeal or oesophageal? | coughing, nasal regurgitation, wet voice: oropharyngeal, step 3 ; food sticks after swallowing: oesophageal — OGD, then barium or manometry
+Oropharyngeal | flexible endoscopy, FEES or videofluoroscopy ; regurgitation and gurgling: barium swallow for pouch — endoscopic stapling ; neurological signs: neurology, speech therapy
+Unsafe swallow | speech therapy, texture changes, postures ; non-oral feeding if needed
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Oropharyngeal versus oesophageal dysphagia;** solids versus liquids.
+- **Red flags** and urgent endoscopy.
+- **FEES versus videofluoroscopy.**
+- **Pharyngeal pouch:** Killian's dehiscence, presentation, endoscopic stapling and its limits.
+- **Plummer–Vinson syndrome, achalasia and eosinophilic oesophagitis.**
+!!
+## Common pitfalls
+!pit
+- Attributing progressive dysphagia to reflux without endoscopy.
+- Performing a rigid oesophagoscopy blind in a patient with a pouch, risking perforation.
+- Forgetting a swallow safety assessment before restarting oral intake.
+!!

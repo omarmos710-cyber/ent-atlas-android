@@ -1,0 +1,65 @@
+@stand A swollen salivary gland is either inflamed, obstructed, infiltrated or growing a tumour. The history usually separates these: swelling that comes with meals and goes again is obstruction; acute painful swelling with fever is infection; bilateral painless swelling is systemic; and a persistent discrete lump is a neoplasm until a needle says otherwise. Ultrasound with a fine-needle or core biopsy is the workhorse of investigation, and facial weakness with a parotid lump is malignancy until proven otherwise.
+
+# The pattern | Time course and side.
+## Sorting the swelling
+!table Salivary swelling by pattern
+Pattern | Think of | Clues
+Recurrent, swelling at meals | Stone or stricture | Submandibular more than parotid; pain with eating, settles in hours
+Acute, painful, red, fever | Acute bacterial sialadenitis | Elderly, dehydrated, postoperative; pus from the duct
+Acute, bilateral, with malaise in a child or young adult | Mumps or other viral parotitis | Contacts; unvaccinated; orchitis
+Recurrent parotid swelling in a child | Juvenile recurrent parotitis | Episodes settle by puberty; sialectasis on ultrasound
+Bilateral, painless, persistent | Sialosis, Sjögren's syndrome, IgG4-related disease, sarcoidosis, HIV | Dry eyes and mouth; alcohol, diabetes; cysts
+Discrete persistent lump | Neoplasm | Painless, slow (benign); pain, fixity, palsy, nodes (malignant)
+!!
+!flag Red flags for malignancy
+- **Facial nerve weakness** with a parotid lump.
+- **Pain, rapid growth, fixity to skin or deep tissues, skin ulceration or trismus.**
+- **Cervical lymphadenopathy.**
+- **A lump in the submandibular, sublingual or minor salivary glands,** where the proportion of malignant tumours is higher.
+- **A parapharyngeal mass** pushing the tonsil medially (deep lobe tumour).
+- **Sjögren's syndrome with a new persistent swelling:** lymphoma.
+!!
+
+# History and examination | Which gland, and why?
+## History
+Ask how long the swelling has been present, whether it fluctuates or is constant, whether it is related to eating, whether it is painful, and whether it is one gland or several. Ask about a bad taste or pus in the mouth, dry eyes and dry mouth, joint pains, fever, weight loss and night sweats, alcohol intake, diabetes, medications (anticholinergics, diuretics), radiotherapy, HIV risk, and previous skin cancers of the face and scalp, which metastasise to parotid nodes.
+## Examination
+Inspect and palpate the gland, bimanually for the submandibular gland and the floor of mouth, feeling for a stone along Wharton's duct. Look at the duct openings: the parotid (Stensen's) duct opposite the upper second molar and the submandibular duct beside the frenulum; massage the gland to see whether clear saliva, cloudy saliva or pus comes out. Test every branch of the facial nerve, examine the oropharynx for medial displacement of the tonsil, check the neck for nodes, and inspect the skin of the face and scalp.
+
+# Investigation | Ultrasound first.
+## Imaging and tissue
+**Ultrasound** is the first-line investigation for almost all salivary swellings. It shows stones, duct dilatation, sialectasis, diffuse inflammatory change, cysts and solid masses, and guides **fine-needle aspiration cytology** or **core biopsy**. Cytology is reported using the Milan system, which grades the risk of malignancy; core biopsy gives more tissue when cytology is inconclusive or lymphoma is suspected. **MRI** defines the extent of a tumour, deep lobe involvement and perineural spread; **CT** shows stones and bony invasion; and **sialography** or **MR sialography** shows ducts and strictures. **Sialendoscopy** is both diagnostic and therapeutic for obstruction. Blood tests include inflammatory markers, autoantibodies (anti-Ro, anti-La) for Sjögren's syndrome, serum IgG4, ACE and HIV when indicated.
+
+# Causes | Obstruction, infection, systemic, neoplasm.
+## Stones and strictures
+About 80 to 90% of salivary stones occur in the submandibular gland, because its saliva is more alkaline and mucous and its duct runs uphill. Patients have **meal-time syndrome**: pain and swelling with eating that settle over hours. Stones near the duct opening are removed transorally; stones up to about 4 to 5 mm can be retrieved with a sialendoscope basket, and larger ones fragmented by laser or extracorporeal lithotripsy or removed by a combined endoscopic and open approach. Gland excision is reserved for failure. Parotid problems more often come from strictures, which are dilated endoscopically.
+## Infection
+**Acute bacterial sialadenitis**, usually *Staphylococcus aureus*, occurs in dehydrated, elderly or postoperative patients with reduced salivary flow; treatment is rehydration, sialogogues, massage, oral hygiene and antibiotics, with drainage of any abscess. **Mumps** causes bilateral painful parotitis with malaise and is managed supportively. **Juvenile recurrent parotitis** causes repeated parotid swellings in children and usually resolves by puberty.
+## Systemic and infiltrative causes
+**Sjögren's syndrome** causes dry eyes, dry mouth and parotid swelling, and carries a markedly raised risk of MALT lymphoma. **IgG4-related disease** causes firm bilateral submandibular swellings (Küttner tumour) that respond to steroids. **Sarcoidosis** can cause parotid swelling; with uveitis, fever and facial palsy it forms Heerfordt's syndrome. **HIV** causes lymphoepithelial cysts. **Sialosis** is a painless bilateral enlargement associated with alcohol, diabetes, malnutrition and drugs.
+## Tumours
+Most salivary tumours arise in the parotid, and about 80% of parotid tumours are benign, most commonly **pleomorphic adenoma**, followed by **Warthin's tumour** (often bilateral, in older male smokers). The smaller the gland, the more likely a tumour is malignant: about half of submandibular tumours and most sublingual and minor salivary gland tumours are malignant. Malignant tumours include mucoepidermoid carcinoma (the commonest), adenoid cystic carcinoma (with perineural spread), acinic cell carcinoma, salivary duct carcinoma and carcinoma ex pleomorphic adenoma, as well as metastases from cutaneous squamous cell carcinoma and melanoma in parotid nodes. Benign parotid tumours are removed by superficial or partial parotidectomy, or extracapsular dissection, preserving the facial nerve; malignant tumours are managed by the head and neck multidisciplinary team.
+
+!path The swollen salivary gland
+Pattern | meal-related: stone or stricture — ultrasound, sialendoscopy ; acute painful with pus: bacterial sialadenitis — fluids, antibiotics, drain abscess ; bilateral painless: bloods for Sjögren's, IgG4, sarcoid, HIV ; discrete lump: step 2
+Discrete lump | ultrasound with fine-needle cytology or core biopsy ; MRI if malignant, deep or fixed
+Red flags? | facial weakness, pain, fixity, nodes: treat as malignant — MDT ; benign cytology: parotidectomy or extracapsular dissection, or observation in selected patients
+Sjögren's with persistent swelling | biopsy to exclude lymphoma
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Pattern recognition:** meal-time, acute, bilateral and discrete swellings.
+- **Why stones form in the submandibular gland.**
+- **Ultrasound and fine-needle cytology** as first-line tests; the Milan system.
+- **The proportion of malignancy** by gland.
+- **Facial palsy with a parotid lump** means malignancy.
+- **Sjögren's syndrome and lymphoma risk.**
+!!
+## Common pitfalls
+!pit
+- Performing an open biopsy of a parotid lump, which risks seeding a pleomorphic adenoma and the facial nerve.
+- Missing a cutaneous primary in a patient with a parotid node.
+- Removing a submandibular gland for a stone that could be removed endoscopically.
+!!

@@ -1,0 +1,65 @@
+@stand Hoarseness, or dysphonia, is any change in the quality of the voice: rough, breathy, strained, weak or tiring. Most of it is inflammatory, functional or due to benign lesions, but persistent hoarseness is the commonest presenting symptom of laryngeal cancer, and a hoarse voice with a paralysed vocal fold may be the first sign of a tumour in the chest or neck. The rule is simple: any adult with hoarseness lasting more than three weeks should have the larynx examined, and the examination should be good enough to see the vocal folds vibrate.
+
+# The voice and its failure | How the folds make sound.
+## Physiology in brief
+The vocal fold has a layered structure. The **cover** (epithelium and the jelly-like superficial lamina propria, Reinke's space) slides over the **transition** (the vocal ligament) and the **body** (the vocalis muscle). Air from the lungs sets the cover vibrating as a *mucosal wave*. The voice fails when the folds cannot close (paralysis, atrophy, a gap), when the cover is stiff or heavy (scar, sulcus, Reinke's oedema, cancer), when a lesion interrupts closure (nodules, polyps, cysts), or when the muscles around the larynx work against it (muscle tension dysphonia, dystonia).
+!flag Red flags in hoarseness
+- **Hoarseness over three weeks in a smoker or drinker,** or any persistent hoarseness over 45: urgent laryngoscopy on a suspected cancer pathway.
+- **Stridor or breathlessness:** airway assessment first.
+- **Hoarseness with dysphagia, odynophagia, referred otalgia, haemoptysis, weight loss or a neck lump.**
+- **A breathy voice and weak cough after thyroid, chest, neck or cardiac surgery, or with no obvious cause:** vocal fold paralysis — image the vagus and recurrent laryngeal nerve course.
+- **Hoarseness in a child with breathing difficulty:** recurrent respiratory papillomatosis.
+!!
+
+# History | Onset, use and risk.
+## The questions
+Ask how the voice changed and when: sudden onset after shouting suggests a haemorrhage or polyp; onset after a cold suggests laryngitis; onset after an operation or intubation suggests nerve injury or arytenoid dislocation; gradual progression suggests a lesion or cancer. Ask whether it fluctuates, worsens with use or improves with rest. Ask about voice demands (teachers, singers, call-centre workers), smoking and alcohol, reflux symptoms, inhaled steroids, thyroid disease, neurological symptoms (tremor, weakness, swallowing problems), breathing, swallowing, pain and weight. The **Voice Handicap Index** (VHI-10) measures the effect on the patient's life.
+
+# Examination | See the folds move.
+## Laryngeal examination
+Listen to the voice: breathy (a gap), rough (irregular vibration), strained (muscle tension or dystonia), tremulous or with voice breaks. Examine the neck for lymph nodes, the thyroid and laryngeal tenderness. Examine the larynx with a **flexible nasendoscope**, ideally a distal-chip scope, looking at the mucosa, any lesion, the movement of each fold and arytenoid, and the pattern of closure; ask the patient to sniff, say "ee" and cough. **Videostroboscopy** shows the mucosal wave and is needed to distinguish nodules from cysts, to detect scar and sulcus, and to judge early cancer. Perceptual rating (GRBAS) and acoustic analysis document the voice.
+
+# Causes | By mechanism.
+!table Causes of hoarseness
+Group | Causes | Clues
+Inflammatory | Acute laryngitis, chronic laryngitis, laryngopharyngeal reflux, inhaled steroid laryngitis | Infection, smoking, reflux, inhalers
+Benign lesions | Nodules, polyps, cysts, Reinke's oedema, sulcus, granuloma | Voice use, smoking (Reinke's), intubation or reflux (granuloma)
+Premalignant and malignant | Leukoplakia, dysplasia, squamous cell carcinoma | Smoker, progressive, white or irregular lesion
+Papillomatosis | Recurrent respiratory papillomatosis (HPV 6 and 11) | Children and young adults, recurrence
+Neurological | Vocal fold paralysis, laryngeal dystonia, essential tremor, Parkinson's disease, motor neurone disease, myasthenia | Breathy voice, strangled voice breaks, tremor, other signs
+Functional | Muscle tension dysphonia, functional aphonia | Normal folds, strained voice, normal cough
+Other | Hypothyroidism, ageing (presbyphonia), arthritis of the cricoarytenoid joint, trauma, amyloid | Context
+!!
+## Some key causes
+**Vocal fold nodules** are bilateral, symmetrical swellings at the junction of the anterior and middle thirds, caused by voice overuse; voice therapy is the treatment. **Polyps** are usually unilateral, often after a haemorrhage, and are removed by microlaryngoscopy if therapy does not help. **Reinke's oedema** is diffuse swelling of the superficial lamina propria in smokers, giving a low-pitched voice, especially in women; stopping smoking is essential, and surgery reduces the swelling while preserving the cover. **Leukoplakia** carries a risk of malignant change that depends on the grade of dysplasia and is excised for histology.
+
+**Vocal fold paralysis** is more often left-sided, because the left recurrent laryngeal nerve has a longer course around the aortic arch. Causes are surgery (thyroid, cardiothoracic, anterior cervical spine), malignancy (lung, oesophagus, thyroid, skull base), and idiopathic. Unexplained paralysis is investigated with CT from the skull base to the aortic arch. **Muscle tension dysphonia** is the commonest functional voice disorder, with a strained voice, laryngeal tension and normal or compensatory supraglottic squeezing; it responds to voice therapy. **Laryngeal (spasmodic) dystonia** produces strangled voice breaks, and is treated with botulinum toxin.
+
+# Management | Principles.
+## For all patients
+Voice hygiene and **voice therapy** with a speech and language therapist are central to most benign and functional voice problems. Smoking cessation, hydration, treatment of reflux when its features are present, and review of inhaled steroid technique are also important.
+## Surgery
+**Phonosurgery** under general anaesthesia uses cold steel or lasers to remove lesions while preserving the superficial lamina propria. Suspicious lesions are biopsied or excised for histology. Vocal fold paralysis that does not recover is treated with **injection medialisation** (temporary or long-lasting), **medialisation thyroplasty**, arytenoid adduction or laryngeal reinnervation. Cancer is staged and treated on the head and neck pathway.
+
+!path The hoarse voice
+Red flags or over three weeks? | yes: laryngoscopy, urgently if smoker, over 45, stridor or other head and neck symptoms ; recent cold, improving: wait and review
+Laryngoscopy | lesion suspicious for cancer or dysplasia: microlaryngoscopy and biopsy, staging ; benign lesion: voice therapy, phonosurgery if needed ; inflammation: smoking, reflux and inhaler review
+Mobility | fold paralysed: CT skull base to aortic arch, injection or thyroplasty if no recovery ; normal folds, strained voice: muscle tension dysphonia — voice therapy ; voice breaks: dystonia — botulinum toxin
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **The three-week rule** and urgent referral for persistent hoarseness.
+- **The body–cover model** and the mucosal wave; stroboscopy.
+- **Nodules, polyps, cysts and Reinke's oedema:** features and treatment.
+- **Vocal fold paralysis:** causes, investigation and treatment options.
+- **Functional dysphonia** and the role of voice therapy.
+!!
+## Common pitfalls
+!pit
+- Prescribing antibiotics or a proton pump inhibitor for months without examining the larynx.
+- Missing a lung cancer in a patient with left vocal fold paralysis.
+- Operating on nodules before voice therapy.
+- Stripping the vocal fold and leaving it scarred.
+!!
