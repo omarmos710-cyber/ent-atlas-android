@@ -21,14 +21,19 @@ Both together, as in otosclerosis with cochlear involvement or chronic otitis me
 ### Non-organic
 Claimed loss without an organic basis, deliberate or unconscious.
 ## By degree
-!table WHO grades of hearing loss
-Grade | Average at 500, 1000, 2000 Hz
-Not significant | 0–25 dB
-Mild | 26–40 dB
-Moderate | 41–55 dB
-Moderately severe | 56–70 dB
-Severe | 71–90 dB
-Profound | 91 dB or more
+!table WHO grades of hearing loss (2021)
+Grade | Better-ear average at 500, 1000, 2000 and 4000 Hz
+Normal | Below 20 dB
+Mild | 20 to under 35 dB
+Moderate | 35 to under 50 dB
+Moderately severe | 50 to under 65 dB
+Severe | 65 to under 80 dB
+Profound | 80 to under 95 dB
+Complete or total | 95 dB or more
+!!
+!differ Grading systems
+Dhingra: Uses the older WHO scale averaged over 500, 1000 and 2000 Hz, with 0 to 25 dB counted as normal and 91 dB or more as profound.
+The 2021 World Report on Hearing lowered the threshold for normal hearing to under 20 dB, added 4000 Hz to the average and added a complete hearing loss grade, because even mild losses affect communication. Many British services use the British Society of Audiology bands, in which normal hearing is up to 20 dB.
 !!
 !fig d5-8 | Classification of hearing loss by threshold. Most people with normal hearing have thresholds between −10 and +10 dB.
 
@@ -53,8 +58,10 @@ Low tones are affected more; speech discrimination is good; the patient may hear
 - Closed oval window: about 60 dB.
 !!
 !fig d5-1 | Audiogram of a right ear with a conductive loss and an air-bone gap, with the standard audiogram symbols.
+## Conductive loss behind an intact drum
+When the drum looks normal, the list is **otosclerosis** (the commonest, with a family history, onset in early adult life, worsening in pregnancy, a Carhart notch at 2 kHz and absent stapedial reflexes), **ossicular discontinuity** after trauma, **malleus or incus fixation**, **tympanosclerosis**, **congenital cholesteatoma** (a white mass behind an intact drum in a child), a small **effusion**, and **congenital ossicular anomalies**. A **third-window lesion** such as superior canal dehiscence produces an air–bone gap at low frequencies that is not truly conductive: bone conduction is better than normal, and the stapedial reflexes are present. Present reflexes with an apparent conductive loss should therefore stop a surgeon from operating on the stapes until a CT has excluded dehiscence.
 ## Management
-Clear the canal, drain fluid, remove a mass, repair the drum and chain (tympanoplasty), stapes surgery, or a hearing aid.
+Clear the canal, drain fluid, remove a mass, repair the drum and chain (tympanoplasty), stapes surgery, or a hearing aid; bone-conduction devices suit patients who cannot wear an air-conduction aid, such as those with chronic discharge or canal atresia.
 !ops
 
 # Sensorineural loss | Damage at or beyond the cochlea.
@@ -121,6 +128,12 @@ An emergency: steroids the same day and MRI (see the sudden hearing loss topic).
 MRI to exclude a vestibular schwannoma.
 ## Treatable causes
 Syphilis, hypothyroidism, autoimmune inner ear disease, serous labyrinthitis, perilymph fistula and ototoxic drugs.
+## Hearing loss in children
+Universal **newborn hearing screening** uses automated otoacoustic emissions, followed by automated auditory brainstem responses for babies who do not pass, and all babies who spend time in neonatal intensive care have both. Permanent childhood hearing loss affects about 1 to 2 per 1000 births; about half is genetic (most often *GJB2*, connexin 26), and congenital cytomegalovirus is the commonest non-genetic cause, tested within the first three weeks of life when antiviral treatment may help. Every child with permanent loss needs an aetiological work-up: imaging, genetics, CMV, ophthalmology, ECG for Jervell and Lange-Nielsen syndrome, and renal assessment when indicated. **Otitis media with effusion** is the commonest cause of acquired hearing loss in children and is managed by watchful waiting for three months, then hearing aids or ventilation tubes if a bilateral loss persists.
+## Age-related hearing loss
+Presbycusis is a symmetrical high-frequency sensorineural loss. Untreated hearing loss in mid-life is the largest single modifiable risk factor for dementia identified by the Lancet Commission, and hearing aids are associated with reduced cognitive decline in those at risk; this is a strong reason to offer amplification early.
+## Implantable hearing
+**Cochlear implants** are offered in the UK to adults and children whose hearing thresholds are 80 dB HL or worse at two or more frequencies between 500 and 4000 Hz in both ears and who gain inadequate benefit from hearing aids, measured by a sentence test score of 50% or less. **Bone-conduction implants**, **middle ear implants** and implants for single-sided deafness extend the options.
 ## Single-sided deafness
 Poor sound localisation and difficulty in noise, even with normal speech elsewhere. Bone-anchored devices, CROS aids or a cochlear implant help; the only hearing ear must be protected.
 !ward In clinic
@@ -131,11 +144,22 @@ Poor sound localisation and difficulty in noise, even with normal speech elsewhe
 5. Warn anyone with one hearing ear to protect it.
 !!
 
+# Pathway | From complaint to plan.
+!path Hearing loss
+Otoscopy and tuning forks | wax, effusion, perforation or cholesteatoma: treat the ear ; conductive with a normal drum: audiogram, reflexes, CT if surgery considered ; sensorineural: step 2
+Speed | sudden, within 72 hours: sudden sensorineural loss pathway today ; fluctuating with vertigo: Ménière's pathway ; gradual: step 3
+Symmetry | asymmetric or unilateral: MRI of the internal auditory meatus ; symmetrical: age, noise, drugs, family history, systemic causes
+Rehabilitation | hearing aids ; bone-conduction device for discharging ears or atresia ; cochlear implant if thresholds 80 dB or worse with poor aided speech
+!!
+
 # For the examination | What the examiner wants to hear.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Conductive versus sensorineural:** causes, features and fork tests.
-- **WHO grades.**
+- **WHO grades,** old and new.
+- **Conductive loss behind an intact drum,** including third-window lesions.
+- **Newborn screening** and the work-up of a deaf child.
+- **Cochlear implant criteria.**
 - **Cochlear versus retrocochlear** tests.
 - **Non-organic hearing loss** and how to detect it.
 - **Sizes of conductive loss** for common lesions.

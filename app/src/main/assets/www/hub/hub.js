@@ -8,7 +8,7 @@ const GN={ear:"Ear",nose:"Nose & sinuses",mouth:"Mouth & throat",larynx:"Larynx 
 const GK=Object.keys(GN);
 const QT=()=>window.QT||{};
 /* topics added most recently, newest first: shown as "New in the app" until opened */
-const NEWIN=["oesoph","fbfood","laser","skullbase","cleft","facplast","hnrecon","hncprinc","saltum","vascneck","hnrt","hivent","skinca","jaw"];
+const NEWIN=["ap_dizzy","ap_hoarse","ap_block","ap_dysph","ap_otorr","ap_face","ap_sore","ap_smell","ap_full","ap_rhin","ap_pnd","ap_pain","ap_epiph","ap_crust","ap_ulcer","ap_globus","ap_saliv","oesoph","fbfood","laser","skullbase","cleft","facplast","hnrecon","hncprinc","saltum","vascneck","hnrt","hivent","skinca","jaw"];
 Object.assign(ICON,{
  viva:'<path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3z"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3M9 21h6"/>',
  essay:'<path d="M4 20h4L19 9l-4-4L4 16z"/><path d="M13 7l4 4"/>',

@@ -60,6 +60,9 @@ Definite | Two or more spontaneous episodes of vertigo of 20 minutes or longer; 
 Probable | One definite episode, documented hearing loss, tinnitus or fullness
 Possible | Episodic vertigo without documented loss, or fluctuating loss with imbalance
 !!
+!update Bárány Society criteria (2015)
+The criteria now used internationally, and by the Oxford Textbook, recognise only two categories. **Definite** Ménière's disease needs two or more spontaneous episodes of vertigo each lasting 20 minutes to 12 hours; audiometrically documented low- to medium-frequency sensorineural loss in the affected ear on at least one occasion before, during or after an attack; fluctuating aural symptoms (hearing, tinnitus or fullness) in that ear; and no better explanation. **Probable** disease needs two or more episodes of 20 minutes to 24 hours with fluctuating aural symptoms, without the audiometric requirement. The upper limit of 12 hours helps separate Ménière's disease from vestibular migraine, which is about ten times more common, overlaps with it in many patients, and is the commonest misdiagnosis.
+!!
 ## Staging
 By the average of thresholds at 0.5, 1, 2 and 3 kHz in the worst audiogram of the previous six months: stage 1 up to 25 dB, stage 2 26 to 40 dB, stage 3 41 to 70 dB, stage 4 over 70 dB.
 ## Audiometry
@@ -104,6 +107,10 @@ Essential to exclude a vestibular schwannoma or other retrocochlear lesion. Dela
 Salt restriction to about 1.5 to 2 g a day, adequate water, limiting caffeine and alcohol, stopping smoking, and managing stress. Avoid working at heights or driving during active periods.
 ### Medicines
 Betahistine (with caution in asthma) and a diuretic. Treat allergy and hypothyroidism. About 80% are controlled.
+!differ Betahistine
+Dhingra: Betahistine and a diuretic as the standard long-term medical treatment.
+Oxford: A large randomised trial (BEMED, 2016) found no benefit of betahistine over placebo in reducing attacks, even at high dose. Many units still offer it as a low-risk first step, but patients with frequent attacks should not be held on it for long before moving to intratympanic steroids. Trials of intratympanic gentamicin and steroids show similar rates of hearing loss with either. The other ear's vestibular function must be checked before any ablation, because up to half of patients develop disease in the second ear over twenty years.
+!!
 ## When medical treatment fails
 The choice depends on whether hearing in the ear is still useful.
 !tree Intractable vertigo

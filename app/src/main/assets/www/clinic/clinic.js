@@ -74,6 +74,7 @@ function trow(t,sub){const r=RD()[t.id],o=OP()[t.id],nw=!o&&NEWIN.includes(t.id)
  return `<button class="clrow clt ${r?"rd":o?"op":""}" data-go="cl:t-${t.id}"><i class="clst" aria-hidden="true"></i><span class="m"><b>${e(t.t)}</b><small>${e(sub!=null?sub:(amin(t.id)?amin(t.id)+" min read":"Quick notes"))}${r?" · Read":o?" · Started":""}</small></span>${nw?`<em class="clnew">New</em>`:""}${ic("chev",16)}</button>`}
 function nextUp(){const r=RD(),o=OP(),l=ST.cll;if(l&&BY[l]&&!r[l])return [BY[l],"Continue reading"];const nw=NEWIN.find(id=>BY[id]&&!o[id]);if(nw)return [BY[nw],"New in the library"];const u=D.t.find(t=>!r[t.id]);return u?[u,"Up next"]:null}
 /* two branches: diseases (by region) and "Approach to" (by presenting symptom, sub-grouped by system) */
+const APL="hl ap_otorr otalgia ap_full tinnitus ap_dizzy ap_face ap_block ap_rhin epistaxis ap_pnd ap_pain ap_smell ap_crust ap_epiph ap_sore ap_ulcer osa ap_hoarse ap_dysph ap_globus stridor neckmass ap_saliv".split(" "),APO=id=>{const i=APL.indexOf(id);return i<0?99:i};
 const LMODE=()=>ST.clmode==="ap"?"ap":"dz",AP="appr",SYS={ear:"Ear",nose:"Nose & sinuses",mouth:"Mouth & throat",larynx:"Larynx & airway",neck:"Neck"};
 const inMode=t=>LMODE()==="ap"?(t.g===AP||!!t.xap):t.g!==AP;
 function vHome(){const r=RD(),M=LMODE(),T=D.t.filter(inMode),n=T.filter(t=>r[t.id]).length,N=T.length,nx=nextUp(),ap=M==="ap";
@@ -85,7 +86,7 @@ function vHome(){const r=RD(),M=LMODE(),T=D.t.filter(inMode),n=T.filter(t=>r[t.i
  <input class="clsearch" id="clq" type="search" aria-label="Search" placeholder="${ap?"Search a symptom: hoarseness, dizziness…":"Search a disease or symptom"}" value="${e(QQ)}"><div id="cllist">${list()}</div></div>`}
 function list(){const q=QQ.trim().toLowerCase();if(q){const L=D.t.filter(t=>(t.t+" "+t.one+" "+t.ddx.join(" ")).toLowerCase().includes(q)).sort((a,b)=>inMode(b)-inMode(a));return L.length?`<div class="cllist">${L.map(t=>trow(t,(t.g===AP?"Approach to":GN[t.g])+(amin(t.id)?" · "+amin(t.id)+" min":""))).join("")}</div>`:`<p class="clsrc">No topic matches yet.</p>`}
  const r=RD(),ap=LMODE()==="ap";
- const grp=ap?Object.keys(SYS).map(k=>[SYS[k],D.t.filter(t=>(t.g===AP&&t.sys===k)||t.xap===k)]):Object.keys(GN).filter(g=>g!==AP).map(g=>[GN[g],D.t.filter(t=>t.g===g)]);
+ const grp=ap?Object.keys(SYS).map(k=>[SYS[k],D.t.filter(t=>(t.g===AP&&t.sys===k)||t.xap===k).sort((a,b)=>APO(a.id)-APO(b.id))]):Object.keys(GN).filter(g=>g!==AP).map(g=>[GN[g],D.t.filter(t=>t.g===g)]);
  return grp.filter(x=>x[1].length).map(([name,ts])=>{const n=ts.filter(t=>r[t.id]).length;return `<div class="clgh"><span>${e(name)}</span><small>${n?n+" of "+ts.length+" read":ts.length+(ap?" approaches":" articles")}</small></div><div class="cllist">${ts.map(t=>trow(t)).join("")}</div>`}).join("")}
 function tbs(t){return (t.tb||[]).map(b=>`<div class="clh3">${e(b.t)}</div><div class="cltw"><table class="cltb"><thead><tr>${b.h.map(x=>`<th>${e(x)}</th>`).join("")}</tr></thead><tbody>${b.r.map(r=>`<tr>${r.map(x=>`<td>${e(x)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`).join("")}
 function vTopic(id){const t=BY[id];if(!t)return vHome();window.CL_LAST=t;if(hasArt(id))return vArticle(id);return vQuick(id)}

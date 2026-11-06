@@ -105,6 +105,20 @@ A **laryngocele** is an air-filled dilatation of the laryngeal saccule. An *exte
 A **cervical rib** is a hard supraclavicular lump with thoracic outlet symptoms: arm paraesthesia from pressure on the lower trunk of the brachial plexus, and coldness, claudication, aneurysm or emboli from compression of the subclavian artery. It is excised if it causes symptoms. A **lipoma** is soft and lobulated with a slipping edge, commonly in the posterior triangle and nape, and **sebaceous and epidermoid cysts** lie in the skin with a punctum. Finally, a **carotid aneurysm**, or an ectatic, tortuous carotid in an elderly hypertensive patient, can present as a pulsatile lump.
 !imaging lipoma-of-the-neck | Lipoma of the neck.
 
+# Children | A different list.
+## Neck lumps in children
+Most neck lumps in children are reactive lymph nodes, which are common, small, mobile and settle within weeks. Congenital lesions follow: **thyroglossal duct cysts** in the midline, moving with tongue protrusion; **branchial cysts, sinuses and fistulae**, most from the second arch along the anterior border of sternocleidomastoid; **dermoid cysts**; **lymphatic malformations** (cystic hygroma), which are soft, transilluminate and may respond to sclerotherapy; and **haemangiomas**. Infection gives acute suppurative lymphadenitis and abscess, and **non-tuberculous mycobacterial** infection gives a violaceous, painless node in a toddler, often in the submandibular region, which is best treated by excision when feasible.
+
+Malignancy is uncommon but must be considered. Features that call for urgent assessment are a node larger than 2 cm or growing, a hard, fixed or matted node, a supraclavicular node, nodes persisting beyond six weeks, and systemic symptoms (fever, night sweats, weight loss, bruising, pallor, hepatosplenomegaly). Lymphoma is the commonest head and neck malignancy in children, followed by rhabdomyosarcoma, neuroblastoma and thyroid cancer. Ultrasound is the first test, avoiding radiation; a chest X-ray excludes a mediastinal mass before any anaesthetic, and an excision biopsy is often needed for diagnosis.
+
+# Pathway | Lump to diagnosis.
+!path The adult neck lump
+Clinical picture | acute, tender, with infection: antibiotics and review in two to three weeks ; midline moving with swallowing: thyroid pathway ; any red flag or persisting over three weeks: step 2
+Full head and neck examination | flexible endoscopy, skin, oral cavity, tonsils and tongue base ; obvious primary: biopsy it and stage
+Ultrasound with FNA or core | squamous carcinoma: CT or MRI, PET-CT, panendoscopy, tonsillectomy and tongue-base mucosectomy if no primary ; lymphoma suspected: core biopsy or planned excision for flow cytometry ; thyroid: thyroid pathway ; tuberculosis: culture, treat
+Still no diagnosis | repeat core biopsy ; open biopsy planned for possible neck dissection, with frozen section
+!!
+
 # Neck dissection | The principle.
 ## Types and indications
 Neck dissection removes the lymph nodes and fat of the neck en bloc. A **radical** dissection removes levels I to V with the accessory nerve, internal jugular vein and sternomastoid; a **modified radical** dissection removes the same levels while preserving one or more of those structures; a **selective** dissection removes only the levels at risk, such as the supraomohyoid dissection (I to III) for the oral cavity and the lateral dissection (II to IV) for the larynx and pharynx; and an **extended** dissection removes additional nodes or structures. A **therapeutic** dissection treats clinically positive nodes, while an **elective** dissection treats a clinically negative neck when the risk of occult metastases exceeds about 15 to 20%.
@@ -114,6 +128,7 @@ Neck dissection removes the lymph nodes and fat of the neck en bloc. A **radical
 # For the examination | What the examiner wants to hear.
 ## Viva essentials
 !exam What the examiner is looking for
+- **Neck lumps in children** and the features that call for biopsy.
 - **A systematic approach:** age, duration and site.
 - **Node levels and drainage;** Virchow node.
 - **The work-up of an adult neck mass:** full examination and endoscopy, then ultrasound and FNA, then imaging, then panendoscopy. Why open biopsy is avoided.

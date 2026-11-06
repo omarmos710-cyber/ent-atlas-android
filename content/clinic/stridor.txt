@@ -65,6 +65,11 @@ Chosen by the history, and only when the airway allows:
 The definitive assessment of the paediatric airway, in theatre with full resuscitation facilities and an experienced anaesthetist. Inhalational induction maintains spontaneous breathing; a quick laryngoscopy is followed by bronchoscopy of the subglottis, trachea and bronchi, collection of secretions and removal of crusts or foreign bodies; then the child is intubated if needed. Look at the whole airway: a second lesion is common.
 !imaging | Laryngocele, supraglottic tumour and laryngeal trauma on imaging.
 
+## The common paediatric causes
+**Laryngomalacia** is the commonest cause of stridor in infants, accounting for well over half of congenital cases. Inspiratory stridor begins in the first weeks, is worse with feeding, crying and lying supine, and usually resolves by 18 to 24 months. Short aryepiglottic folds, an omega-shaped epiglottis and prolapsing arytenoid mucosa are seen on awake flexible laryngoscopy. Most infants need only reassurance and treatment of reflux; poor weight gain, apnoeas, cyanosis or pectus excavatum are indications for **supraglottoplasty**.
+
+**Vocal fold paralysis** is the second commonest congenital cause; bilateral paralysis is associated with Arnold–Chiari malformation and hydrocephalus. **Subglottic stenosis** is congenital or, more often, acquired after intubation, and is graded by the **Cotton–Myer** system by the percentage of lumen obstructed: grade I up to 50%, grade II 51 to 70%, grade III 71 to 99%, grade IV no lumen. **Subglottic haemangioma** typically presents at a few weeks of age with biphasic stridor that worsens over the first months, often with a cutaneous haemangioma in a beard distribution, and responds to **propranolol**. **Croup** (viral laryngotracheobronchitis) produces a barking cough and stridor in children aged six months to three years and is treated with a single dose of oral dexamethasone, 0.15 mg/kg, with nebulised adrenaline for severe distress. Recurrent or atypical croup, or croup under six months, warrants airway endoscopy.
+
 # Management | Airway first.
 ## Immediate
 1. Keep the patient calm and upright (in a parent's arms for a child); give humidified oxygen without causing distress.
@@ -75,11 +80,24 @@ The definitive assessment of the paediatric airway, in theatre with full resusci
 - **Intubation:** in theatre, by the most experienced anaesthetist, with an ENT surgeon scrubbed and ready.
 - **Tracheostomy:** when intubation is impossible or unsafe, for prolonged obstruction, laryngeal trauma, and for long-term airway management (bilateral paralysis, stenosis, severe congenital anomalies).
 - **Cricothyroidotomy:** the emergency surgical airway in adults and older children when the patient can neither be intubated nor oxygenated; needle cricothyroidotomy with jet ventilation in young children.
+## The adult threatened airway
+The Difficult Airway Society guidelines end with **front-of-neck access** when the patient "can't intubate, can't oxygenate": the recommended technique is a **scalpel–bougie–tube** cricothyroidotomy through the cricothyroid membrane, identified beforehand by palpation or ultrasound. In a patient with a known obstructing laryngeal tumour, the safest plan is often an **awake tracheostomy under local anaesthesia**, or awake fibreoptic intubation, agreed between surgeon and anaesthetist before any sedation. **High-flow humidified nasal oxygen** extends the time before desaturation during induction and airway surgery. Heliox and steroids buy time but do not treat the cause.
+
+# Pathway | Assess, stabilise, secure.
+!path The child or adult with stridor
+How severe? | silent chest, cyanosis, exhaustion or falling consciousness: emergency airway now — theatre, senior anaesthetist and ENT ; severe recession or agitation: oxygen, nebulised adrenaline, dexamethasone, senior help ; mild: step 2
+Phase and age | inspiratory in an infant, worse feeding and supine: laryngomalacia — awake flexible laryngoscopy ; biphasic, worsening in first months: subglottic haemangioma or stenosis ; barking cough, toddler: croup — dexamethasone ; sudden onset while eating or playing: foreign body — bronchoscopy
+Febrile and toxic? | drooling, sitting forward: supraglottitis — airway in theatre ; high fever, poor response to croup treatment: bacterial tracheitis
+Adult | tumour: awake tracheostomy or planned intubation, then biopsy ; post-thyroidectomy bilateral palsy: reintubate or tracheostomy ; angioedema: adrenaline, steroids, antihistamine; stop ACE inhibitor
+!!
 !ops | Tracheostomy, laryngomalacia and subglottic stenosis surgery, airway foreign bodies and acquired stenosis.
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials
 !exam What the examiner is looking for
+- **Laryngomalacia:** features, natural history and indications for supraglottoplasty.
+- **Cotton–Myer grading** and subglottic haemangioma with propranolol.
+- **Front-of-neck access** and the awake tracheostomy.
 - **Definition** of stridor, and stertor and wheeze.
 - **Inspiratory, biphasic, expiratory** and their sites.
 - **Causes** in children by site, congenital and acquired.

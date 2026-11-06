@@ -1,10 +1,17 @@
-@stand A painful ear that looks completely normal means the pain is coming from somewhere else. The ear shares its sensory nerves with the teeth, jaw, throat, larynx and neck. In an adult smoker, that referred pain can be the first sign of a hidden cancer.
+@stand Earache has two sources. In *primary* otalgia the ear itself is diseased, and otoscopy shows it. In *referred* otalgia the ear is normal and the pain travels along one of the five nerves the ear shares with the teeth, jaw, throat, larynx and neck. About half of adult earache is referred, most often from the teeth and the temporomandibular joint, but in an adult smoker a painful ear that looks normal can be the first sign of a hidden cancer of the tongue base, tonsil, hypopharynx or larynx.
 
-# Overview | Pain in the ear, cause elsewhere.
-## Definition
-*Otalgia* is ear pain. It is *primary* when the cause is in the ear and *referred* when it arises in another structure that shares the ear's sensory supply.
+# Overview | Pain in the ear, cause in or beyond it.
+## Definitions
+*Otalgia* is ear pain. It is **primary** (otogenic) when the cause lies in the external, middle or inner ear or the mastoid, and **referred** (secondary) when it arises in another structure that shares the ear's sensory supply.
 ## The rule
-If the canal, drum and hearing are normal, examine everything that shares the ear's nerves before calling the pain psychogenic.
+If the canal, drum and hearing are normal, examine everything that shares the ear's nerves before calling the pain idiopathic or psychogenic, and keep the patient under review.
+!flag Red flags in earache
+- **An elderly or diabetic patient with severe pain, discharge and granulation on the canal floor:** necrotising otitis externa.
+- **A normal ear with dysphagia, odynophagia, hoarseness, weight loss or a neck lump, especially in a smoker or drinker:** referred pain from upper aerodigestive tract cancer.
+- **Facial weakness, vertigo or hearing loss with ear pain:** Ramsay Hunt syndrome, a complication of otitis media, or a tumour.
+- **Pain with jaw claudication or scalp tenderness in an older patient:** giant cell arteritis.
+- **Swelling behind the ear pushing the pinna forward:** mastoiditis.
+!!
 
 # Nerve supply | Why pain travels to the ear.
 ## Five nerves
@@ -19,36 +26,45 @@ C2 and C3 | Back of the pinna and mastoid skin | Cervical spine, neck injury
 !fig d1-6 | Sensory nerve supply of the pinna.
 !anat s36_39 s31_30 | Sensory supply of the canal and drum, and of the auricle.
 
-# Causes | Local, referred and psychogenic.
-## Local causes in the ear
-Furuncle, impacted wax, otitis externa and otomycosis, bullous myringitis, herpes zoster oticus, acute otitis media, tubal obstruction and barotrauma, mastoiditis, extradural abscess, perichondritis, and carcinoma of the canal or middle ear.
-## Referred causes
-### Through the trigeminal nerve
-Dental caries and abscess, impacted third molars, ulcers of the mouth and tongue, temporomandibular joint disorders, bruxism and poorly fitting dentures, and sinusitis.
-### Through the glossopharyngeal nerve
-Tonsillitis, quinsy, the days after tonsillectomy, ulcers or cancer of the tonsil and base of tongue, and an elongated styloid process (*Eagle syndrome*).
-### Through the vagus
-Cancer or inflammation of the vallecula, epiglottis, larynx, piriform fossa and oesophagus.
-### Through C2 and C3
-Cervical spondylosis, neck injury and spinal disease.
-## Temporomandibular joint disorders
-Pain with chewing, clicking, limited opening and tenderness over the joint. *Costen syndrome* links a faulty bite with earache, a blocked feeling, tinnitus, vertigo and headache.
-## Psychogenic
-Only after a full search, and kept under review.
+# Primary otalgia | The ear is abnormal.
+## Causes in the ear
+The **pinna** gives perichondritis, cellulitis, trauma, frostbite, chondrodermatitis nodularis helicis (a tender nodule on the helix that wakes the patient when lying on that side) and skin cancer. The **canal** gives acute otitis externa, furunculosis (exquisite pain, a swelling in the outer canal), otomycosis, impacted wax or foreign body, necrotising otitis externa, keratosis obturans and carcinoma. The **middle ear** gives acute otitis media, which in adults is less common and should prompt a look at the nasopharynx, bullous myringitis, barotrauma, Eustachian tube dysfunction, mastoiditis and its complications, and carcinoma.
+## Herpes zoster oticus
+Ramsay Hunt syndrome begins with deep, burning ear pain, often days before the vesicles in the concha, canal or palate, and is accompanied by facial palsy and sometimes hearing loss and vertigo. Early pain without a rash is easily mistaken for otitis externa or Bell's palsy.
+
+# Referred otalgia | The ear is normal.
+## Through the trigeminal nerve
+**Dental disease** (caries, apical abscess, impacted third molars, cracked teeth) and **temporomandibular disorders** are the commonest causes of referred earache. Temporomandibular disorders cause preauricular pain worse with chewing, clicking, limited opening, bruxism and tender masticatory muscles; *Costen syndrome* links a faulty bite with earache, a blocked feeling, tinnitus and headache. Sinusitis, parotitis, oral ulcers and cancers of the tongue and floor of mouth also refer pain this way.
+## Through the glossopharyngeal nerve
+Tonsillitis, quinsy, the days after tonsillectomy, cancer of the tonsil and tongue base, and an elongated styloid process or calcified stylohyoid ligament (**Eagle syndrome**), which causes throat and ear pain on swallowing and turning the head, with a palpable styloid in the tonsillar fossa. **Glossopharyngeal neuralgia** causes paroxysmal stabbing pain in the throat and ear triggered by swallowing or talking.
+## Through the vagus
+Cancer or inflammation of the vallecula, epiglottis, larynx, piriform fossa and oesophagus, and reflux. Pain from the hypopharynx is classically felt in the ear, sometimes before any other symptom.
+## Through C2 and C3
+Cervical spondylosis, whiplash injury and other neck disease refer pain behind the ear.
+## Other causes
+Giant cell arteritis, migraine, cardiac ischaemia (rarely), and **nervus intermedius (geniculate) neuralgia**, a paroxysmal deep ear pain. Psychogenic pain is diagnosed only after a full search.
 
 # Assessment | Look everywhere.
 ## History
-Character and timing, relation to chewing or swallowing, voice change, weight loss, smoking and alcohol, dental problems, neck pain.
+Ask about the character and timing of the pain, its relation to chewing, swallowing, talking and neck movement, discharge, hearing loss, itching and the water history. Ask about voice change, dysphagia, weight loss, smoking and alcohol, dental problems, bruxism and jaw clicking, neck pain and headaches.
 ## Examination
-After otoscopy and hearing: the teeth and bite, the temporomandibular joints, the mouth and tongue, palpation of the tongue base and tonsils, the nasopharynx, and flexible laryngoscopy of the larynx and hypopharynx. Examine the neck for nodes and the cervical spine.
+After the pinna, otoscopy and tuning forks, examine the teeth and bite, palpate the temporomandibular joints and masticatory muscles while the patient opens and closes, and examine the mouth and tongue. Palpate the tongue base and tonsils with a gloved finger, examine the nasopharynx, and perform **flexible laryngoscopy** of the larynx and hypopharynx. Examine the neck for nodes, the parotid, the cervical spine and the temporal arteries, and test the cranial nerves.
 !flag The smoker with a normal ear
-An adult smoker or drinker with one-sided ear pain, a normal ear, and any throat symptom (dysphagia, hoarseness, a lump in the neck) needs endoscopy of the upper aerodigestive tract. Referred otalgia is cancer until the base of tongue, piriform fossa and larynx have been seen.
+An adult smoker or drinker with one-sided ear pain, a normal ear, and any throat symptom (dysphagia, hoarseness, a lump in the neck) needs endoscopy of the upper aerodigestive tract. Referred otalgia is cancer until the base of tongue, piriform fossa and larynx have been seen; if the examination is normal and the pain persists, image the neck and consider examination under anaesthesia.
 !!
 ## Investigations
-Guided by findings: dental X-rays, imaging of the joint or styloid, CT or MRI of the neck, and biopsy.
+Investigations follow the findings: an orthopantomogram and dental review, imaging of the temporomandibular joint or styloid, CT or MRI of the neck and skull base, ESR and CRP for suspected arteritis, and biopsy of any lesion. In suspected necrotising otitis externa, CT and MRI with inflammatory markers and biopsy.
+
+# Pathway | From pain to source.
+!path Earache
+Otoscopy and hearing | abnormal ear: primary otalgia — treat the ear disease ; diabetic or elderly with granulation: necrotising otitis externa pathway ; vesicles or facial weakness: Ramsay Hunt — steroid and antiviral
+Normal ear | examine teeth, jaw joints, mouth, tongue base, tonsils, nasopharynx, larynx, neck, spine
+Findings | dental disease: dentist ; joint tenderness and clicking: temporomandibular disorder ; throat lesion or neck node: biopsy and imaging ; triggered stabbing pain: neuralgia
+Nothing found | smoker or drinker with persistent pain: imaging and examination under anaesthesia ; others: review, consider neuralgia or neck causes
+!!
 
 # Management | Treat the source.
-Treat the cause found. For temporomandibular joint dysfunction: analgesia, warmth, a soft diet, jaw exercises, a bite splint and dental correction. For an elongated styloid: excision if symptoms persist.
+Treat the cause found. **Temporomandibular disorders** respond in most patients to explanation, a soft diet, warmth, simple analgesia, jaw exercises, avoidance of wide opening and gum chewing, and an occlusal splint from a dentist; a short course of low-dose amitriptyline helps chronic muscle pain. **Eagle syndrome** is treated with analgesia and, if symptoms persist, styloidectomy through the tonsillar fossa or the neck. **Glossopharyngeal and nervus intermedius neuralgias** are treated like trigeminal neuralgia, with carbamazepine first and microvascular decompression or nerve section for refractory cases. Ear pain after tonsillectomy needs analgesia and reassurance.
 !ops
 !pearl Pearl
 Ear pain after tonsillectomy is almost always referred pain through the glossopharyngeal nerve, not an ear infection.
@@ -58,12 +74,14 @@ Ear pain after tonsillectomy is almost always referred pain through the glossoph
 ## Viva essentials
 !exam What the examiner is looking for
 - **The five nerves** and the sites that refer pain through each.
-- **Referred otalgia in a smoker:** exclude cancer.
-- **Temporomandibular joint dysfunction** and Costen syndrome.
-- **Eagle syndrome.**
+- **Referred otalgia in a smoker:** exclude cancer, including examination under anaesthesia.
+- **Temporomandibular disorders** and Costen syndrome.
+- **Eagle syndrome** and the neuralgias.
+- **Primary otalgia red flags:** necrotising otitis externa, Ramsay Hunt syndrome.
 !!
 ## Common pitfalls
 !pit
 - Prescribing ear drops for a normal ear.
 - Labelling pain psychogenic before examining the throat and larynx.
+- Missing early Ramsay Hunt syndrome before the vesicles appear.
 !!

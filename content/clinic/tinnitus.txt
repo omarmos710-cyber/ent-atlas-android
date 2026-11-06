@@ -4,7 +4,7 @@
 ## Definition
 The perception of sound, ringing, hissing, buzzing or roaring, in the absence of an external source.
 ## Epidemiology
-About one person in ten has persistent tinnitus, and a smaller number are distressed by it. Most have some hearing loss, often age-related or noise-induced.
+Between 10 and 15% of adults have tinnitus, but only about one in thirty find it at least moderately annoying and about one in two hundred are severely affected. Most have some hearing loss, often age-related or noise-induced. About half of those with troublesome tinnitus also have reduced tolerance of sound.
 ## Why it matters
 It can be the first symptom of a vestibular schwannoma, a glomus tumour or a dural arteriovenous fistula. And severe tinnitus disrupts sleep, concentration and mood.
 
@@ -36,7 +36,9 @@ Shunt | Dural arteriovenous fistula | arteriovenous malformation
 High output | Anaemia, thyrotoxicosis, pregnancy | conductive hearing loss makes body sounds louder
 !!
 ## How it arises
-Reduced input from a damaged cochlea leads to reorganisation and increased spontaneous activity in the central auditory pathways; connections with the limbic system and autonomic nervous system explain why some people are distressed by tinnitus and others are not.
+Reduced input from a damaged cochlea leads to reorganisation and increased spontaneous activity in the central auditory pathways. Everyone has some random activity in these pathways: in a silent room most people soon hear a faint hum or ringing. Normally, subconscious filters ignore it. When the brain labels the sound as a threat, the limbic and autonomic systems respond, attention is drawn to it, and a vicious circle of awareness, anxiety and amplification follows. This model explains why the loudness of tinnitus predicts distress so poorly, and why treatment aims at the reaction rather than the sound.
+## Disorders of sound tolerance
+**Hyperacusis** is intolerance of everyday sounds that others find comfortable, often with tinnitus. **Misophonia** is a strong emotional reaction to specific sounds, often mouth sounds such as chewing, regardless of loudness. **Phonophobia** is fear of particular sounds, and **recruitment** is the abnormally rapid growth of loudness in a cochlear hearing loss. Facial palsy, by removing the stapedial reflex, can cause hyperacusis. Sound tolerance is treated with explanation, graded sound exposure and cognitive behavioural therapy; ear plugs worn constantly make it worse.
 
 # Assessment | Character, side, and mood.
 ## History
@@ -84,7 +86,17 @@ Cognitive behavioural therapy has the strongest evidence for reducing distress; 
 - **Stapedial or tensor spasm:** muscle relaxants, or division of the tendon.
 - **Patulous tube:** see the Eustachian tube topic.
 ## Treatments without proven benefit
-Drugs to suppress tinnitus, transcranial magnetic stimulation and implanted stimulators remain investigational.
+No drug reliably suppresses tinnitus, and betahistine is not recommended for it. Transcranial magnetic stimulation and implanted stimulators remain investigational. A cochlear implant often reduces tinnitus in patients who qualify for it because of their hearing loss.
+## Stepped care
+Severity is measured with a validated questionnaire such as the **Tinnitus Handicap Inventory** or the Tinnitus Functional Index. Most patients need only explanation, hearing care and self-help; those with greater distress move to audiologist-led tinnitus support and sound therapy, and then to cognitive behavioural therapy delivered by a psychologist, with access to mental health services for those at risk.
+
+# Pathway | From symptom to plan.
+!path Tinnitus
+Pulsatile? | yes, audible to examiner or not: otoscopy, auscultation, CT angiography or MR angiography and venography ; young woman with obesity and headache: fundoscopy — idiopathic intracranial hypertension ; red mass behind the drum: glomus — imaging
+Unilateral or asymmetric hearing? | yes: MRI of the internal auditory meatus ; sudden hearing loss with it: treat as sudden sensorineural loss
+Bilateral, non-pulsatile | audiogram ; treat wax, effusion, otosclerosis ; hearing aids for hearing loss
+Distress | explanation and self-help ; sound therapy and tinnitus counselling ; cognitive behavioural therapy ; urgent help if risk of self-harm
+!!
 
 # Prognosis | Most get better with time.
 About a quarter of patients find their tinnitus nearly resolves, half improve, and a quarter stay the same. Habituation is the realistic goal.
@@ -99,6 +111,8 @@ Most people adapt to tinnitus. What a clinician says in the first consultation s
 - **Causes of pulsatile tinnitus,** and how to investigate them.
 - **Unilateral tinnitus:** MRI for schwannoma.
 - **Tinnitus retraining therapy** and the aim of habituation.
+- **Hyperacusis and misophonia.**
+- **Stepped care** and cognitive behavioural therapy.
 !!
 ## Common pitfalls
 !pit
