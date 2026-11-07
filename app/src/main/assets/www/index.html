@@ -49,7 +49,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .top .sp{flex:1}
 .iconbtn{border:1px solid var(--line);background:var(--surface);border-radius:10px;height:36px;padding:0 12px;display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:500}
 main{padding-block:20px 110px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));max-width:920px;width:100%;margin:0 auto;min-width:0}
-.tabs{position:fixed;left:0;right:0;bottom:0;z-index:6;background:var(--surface);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,1fr);padding-bottom:env(safe-area-inset-bottom,0px);padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}
+.tabs{position:fixed;left:0;right:0;bottom:0;z-index:6;background:var(--surface);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(6,1fr);padding-bottom:env(safe-area-inset-bottom,0px);padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}
 .tab{border:0;background:none;padding:9px 2px 10px;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:11px;font-weight:500;color:var(--muted)}
 .tab svg{width:22px;height:22px}
 .tab[aria-current="true"]{color:var(--accent)}
@@ -349,7 +349,7 @@ details.mist[open] summary{margin-bottom:8px}
 .mono{font:500 11px var(--f-mono);color:var(--muted)}
 .vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 .side .tab svg,.tabs .tab svg{flex-shrink:0}
-.tabs{grid-template-columns:repeat(5,minmax(0,1fr))}
+.tabs{grid-template-columns:repeat(6,minmax(0,1fr))}
 .tabs .tab{min-height:52px}
 /* reading size */
 html[data-fsz="s"] .sec li,html[data-fsz="s"] .pearl,html[data-fsz="s"] .disc{font-size:14px}
@@ -790,7 +790,7 @@ h1,h2,h3{font-family:var(--f-display);font-weight:500;letter-spacing:-.012em}
 /* floating ink dock (phones) */
 @media (max-width:959px){
   .tabs{left:max(12px,env(safe-area-inset-left,0px));right:max(12px,env(safe-area-inset-right,0px));bottom:calc(10px + env(safe-area-inset-bottom,0px));
-    height:62px;padding:6px!important;border:0!important;border-radius:22px;background:var(--dock)!important;box-shadow:0 14px 34px rgba(10,12,16,.28);grid-template-columns:repeat(5,minmax(0,1fr))!important}
+    height:62px;padding:6px!important;border:0!important;border-radius:22px;background:var(--dock)!important;box-shadow:0 14px 34px rgba(10,12,16,.28);grid-template-columns:repeat(6,minmax(0,1fr))!important}
   .tabs .tab{position:relative;z-index:1;padding:0!important;justify-content:center;gap:3px;font-size:10px!important;font-weight:700;letter-spacing:.04em;color:var(--dock-fg)!important;transition:color .35s}
   .tabs .tab svg{width:21px!important;height:21px!important;stroke-width:1.6}
   .tabs .tab[aria-current="true"]{color:var(--dock-on-fg)!important}
@@ -6917,18 +6917,18 @@ const ic=(n,s=22)=>`<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="no
 const HAS_PDF=typeof FIGDATA==="undefined";
 
 /* ---------- navigation ---------- */
-const TABS5=[["home","Today"],["atlas","Anatomy"],["cl:home","Clinical"],["th:home","Surgical"],["study","Study"]];
-const SIDE=[["home","Today"],["atlas","Anatomy"],["cl:home","Clinical"],["th:home","Surgical"],["study","Study"],["imaging","Imaging"],["figures","Figures"],["tables","Tables"],["tracer","Tracer"],["quiz","Quiz"],["practical","Bench exam"],["more","More"]];
+const TABS5=[["home","Today"],["atlas","Anatomy"],["cl:home","Clinical"],["imaging","Imaging"],["th:home","Surgical"],["study","Study"]];
+const SIDE=[["home","Today"],["atlas","Anatomy"],["cl:home","Clinical"],["imaging","Imaging"],["th:home","Surgical"],["study","Study"],["figures","Figures"],["tables","Tables"],["tracer","Tracer"],["quiz","Quiz"],["practical","Bench exam"],["more","More"]];
 $("#tabs").innerHTML=TABS5.map(([v,l])=>`<button class="tab" data-go="${v}">${ic(v)}${l}</button>`).join("");
 document.querySelectorAll("#side .tab").forEach(b=>b.remove());
 $("#side").insertAdjacentHTML("beforeend",SIDE.map(([v,l])=>`<button class="tab" data-go="${v}">${ic(v)}${l}</button>`).join(""));
-const TABOF={home:"home",atlas:"atlas",region:"atlas",tracer:"atlas",study:"study",cards:"study",drill:"study",order:"study",mistakes:"study",quiz:"study",figures:"atlas",cl:"cl:home",imaging:"atlas",series:"atlas",cond:"atlas",spot:"atlas",howto:"atlas",more:"home",tables:"atlas",saved:"home",search:"home"};
+const TABOF={home:"home",atlas:"atlas",region:"atlas",tracer:"atlas",study:"study",cards:"study",drill:"study",order:"study",mistakes:"study",quiz:"study",figures:"atlas",cl:"cl:home",imaging:"imaging",series:"imaging",cond:"imaging",spot:"imaging",howto:"imaging",more:"home",tables:"atlas",saved:"home",search:"home"};
 function markTabs(base){const t=TABOF[base]||"home";
   document.querySelectorAll("#tabs .tab").forEach(b=>b.setAttribute("aria-current",String(b.dataset.go===t)));
   document.querySelectorAll("#side .tab").forEach(b=>b.setAttribute("aria-current",String(b.dataset.go===base||(base==="region"&&b.dataset.go==="atlas")||(["cards","drill","order","mistakes"].includes(base)&&b.dataset.go==="study")||(["saved","search"].includes(base)&&b.dataset.go==="more"))))}
 EXTRA.study=vStudy;EXTRA.more=vMore;
 const _go3=go;
-go=function(v,opt){_go3(v,opt);markTabs(v.split(":")[0])};
+go=function(v,opt){_go3(v,opt);markTabs(/^cl:t-im_|^cl:g-imgl/.test(v)?"imaging":v.split(":")[0])};
 
 /* ---------- preferences (per device) ---------- */
 let PREF={fs:"m",theme:"auto",pbar:true};
@@ -7410,36 +7410,44 @@ function tblHTML(title,head,rows){return `<section class="tbl"><header><h3>${esc
 /* ---------- imaging course (lessons are clinical-engine articles in group "imgl") ---------- */
 const IPARTS={found:["Foundations","How each test works, and how to describe what you see"],ear:["Ear and skull base","Normal anatomy first, then a fixed search pattern"],nose:["Nose, sinuses and orbit","Normal anatomy first, then a fixed search pattern"],neck:["The neck","Spaces, larynx, mouth, nodes and glands"],pat:["Putting it together","Cancer, the treated neck, trauma and children"]};
 /*ILES*/const ILES=[["im_ct",1,"found","CT for the ENT surgeon","Hounsfield units, windows, bone and soft-tissue reconstructions, contrast, cone-beam CT, dose and artefacts."],["im_mri",2,"found","MRI made simple","T1, T2, fat suppression, gadolinium, diffusion and the heavily T2-weighted sequences, with what is bright and dark on each."],["im_test",3,"found","Choosing the test","Which test answers which question: ultrasound, CT, MRI, PET-CT, swallow studies, angiography and nuclear medicine."],["im_desc",4,"found","Describing a lesion and reading a report","A vocabulary and an order for every scan: site and space, size, margins, density or signal, enhancement, spread and nodes."],["im_tb",5,"ear","The temporal bone on CT","A slice-by-slice tour of the normal ear in axial and coronal planes, a checklist for every scan, and how cholesteatoma, otosclerosis, dehiscence and fractures change the picture."],["im_iac",6,"ear","The inner ear, IAC and CPA on MRI","The scan for asymmetric hearing loss: the four nerves, the fluid of the labyrinth, a reading checklist, and the lesions behind nearly every positive study."],["im_skb",7,"ear","The skull base and its foramina","The three floors, the foramina that matter, the pterygopalatine fossa and perineural spread, and the lesions of the petrous apex, clivus and jugular foramen."],["im_sin",8,"nose","Sinus CT before surgery","Drainage pathways, the variants that change surgery, the CLOSE checklist, Lund–Mackay scoring, and how to read hyperdense, unilateral and invasive disease."],["im_orb",9,"nose","The orbit","The compartments of the orbit, the imaging of sinusitis complications and cavernous sinus thrombosis, blowout fractures, thyroid eye disease and the masses an ENT surgeon meets."],["im_spaces",10,"neck","The neck by spaces","The fascial spaces of the suprahyoid and infrahyoid neck, what each contains, the parapharyngeal displacement rule, and how infection spreads."],["im_lx",11,"neck","The larynx and hypopharynx","Finding the level of each slice, the normal wall thickness, the pre-epiglottic and paraglottic spaces, cartilage invasion, staging by site, and vocal cord paralysis, laryngocele and trauma."],["im_oral",12,"neck","The oral cavity and oropharynx","The four areas of the oral cavity, what to report for tongue, floor of mouth and gum cancers, the HPV cystic node, dental infection and the mylohyoid, ranula and the denervated tongue."],["im_nodes",13,"neck","Lymph nodes","The imaging levels from their landmarks, the features of a malignant node, reading the nodes back to the primary, the cystic node, and the reactive, suppurative, tuberculous and lymphomatous mimics."],["im_glands",14,"neck","Thyroid and salivary glands","Ultrasound grading of thyroid nodules, when to add CT, parathyroid localisation, the facial nerve plane in the parotid, benign and malignant salivary tumours, and gland versus node."],["im_ca",15,"pat","Reading a head and neck cancer scan","One routine for every staging scan: choosing the modality, the primary and its T4 structures, perineural spread, nodes and extranodal extension, the chest and second primaries, and the unknown primary."],["im_post",16,"pat","The treated neck","Baseline timing, the appearance of neck dissections and flaps, expected changes after radiotherapy, the signs of recurrence, NI-RADS, and osteoradionecrosis and other complications."],["im_trauma",17,"pat","Trauma","Facial buttresses and fracture patterns (Le Fort, zygomaticomaxillary, nasoorbitoethmoid, frontal sinus, mandible), temporal bone fractures, laryngeal trauma and penetrating neck injury."],["im_paeds",18,"pat","The child's head and neck","Choosing tests for children, neck lumps by position, vascular anomalies, the newborn nose, midline nasal masses, and imaging the deaf child."]];/*/ILES*/
+/* quiet folding groups: remember which are open for the session */
+window.FOLDS=window.FOLDS||{};
+window.fold=function(key,title,meta,inner,opts){opts=opts||{};const open=FOLDS[key]!==undefined?FOLDS[key]:!!opts.open;
+  return `<details class="mfold" data-fold="${key}"${open?" open":""}><summary><span class="mft">${opts.dot?`<i class="gdot" style="--gc:${opts.dot}"></i>`:""}${title}</span><small>${meta||""}</small><svg class="mfc" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><div class="mfb">${inner}</div></details>`};
+document.addEventListener("toggle",e=>{const d=e.target;if(d&&d.classList&&d.classList.contains("mfold"))FOLDS[d.dataset.fold]=d.open},true);
 function lessons(){return ILES.map(([id,les,part,t,one])=>({id,les,part,t,one}))}
 function courseHTML(){const L=lessons();if(!L.length)return "";const rd=ST.clr||{},n=L.filter(t=>rd[t.id]).length,nx=L.find(t=>!rd[t.id]);
- return `<section class="icourse"><div class="icohd"><span class="eyebrow">Learn to read ENT imaging · ${L.length} lessons</span><h2>Master the normal scan first</h2><p>Work through the lessons in order: the tests, then each region's normal anatomy and search pattern, then the common patterns of disease. Rare conditions come last.</p>
- <p class="clprog"><span><i style="width:${100*n/L.length}%"></i></span><small>${n} of ${L.length} lessons read</small></p>
- ${nx?`<button class="recommend spotcard icnext" data-go="cl:t-${nx.id}"><span class="eyebrow">${n?"Next lesson":"Start here"} · Lesson ${nx.les}</span><strong>${esc(nx.t)}</strong><span>${esc(nx.one)}</span><span class="rgo">Open</span></button>`:""}</div>
- ${Object.keys(IPARTS).map(k=>{const ls=L.filter(t=>t.part===k);if(!ls.length)return "";return `<h3 class="eyebrow cgroup">${esc(IPARTS[k][0])} <small>${esc(IPARTS[k][1])}</small></h3><div class="prows">${ls.map(t=>`<button class="prow${rd[t.id]?" done":""}" data-go="cl:t-${t.id}"><span class="pn c2">${rd[t.id]?ic("check",18):t.les}</span><span class="pt"><strong>${esc(t.t)}</strong><small>${esc(t.one)}</small></span>${ic("chev",18)}</button>`).join("")}</div>`}).join("")}</section>`}
+ return `<section class="icourse">
+ ${nx?`<button class="mhero" data-go="cl:t-${nx.id}"><span class="eyebrow">${n?"Continue the course":"Start here"} · Lesson ${nx.les} of ${L.length}</span><strong>${esc(nx.t)}</strong><span class="mhs">${esc(nx.one)}</span><span class="mhbar"><i style="width:${100*n/L.length}%"></i></span></button>`:`<p class="mnote">All ${L.length} lessons read. Revisit any part below.</p>`}
+ <h2 class="msec">The course <small>Normal scan first, rare disease last</small></h2>
+ ${Object.keys(IPARTS).map(k=>{const ls=L.filter(t=>t.part===k);if(!ls.length)return "";const d=ls.filter(t=>rd[t.id]).length;
+   return fold("ip-"+k,esc(IPARTS[k][0]),d?`${d}/${ls.length}`:`${ls.length} lessons`,`<div class="mrows">${ls.map(t=>`<button class="mrow${rd[t.id]?" done":""}" data-go="cl:t-${t.id}"><span class="mn">${rd[t.id]?ic("check",15):t.les}</span><span class="mt">${esc(t.t)}</span></button>`).join("")}</div>`,{open:nx&&nx.part===k})}).join("")}</section>`}
 /* ---------- imaging hub ---------- */
 let HUBQ="",HUBMOD="all";
-function vImaging(){const nSl=SERIES.reduce((a,s)=>a+s.slices.length,0),acc=ST.spot&&ST.spot.n?Math.round(100*ST.spot.r/ST.spot.n):null;
+function vImaging(){const acc=ST.spot&&ST.spot.n?Math.round(100*ST.spot.r/ST.spot.n):null;
   const areas=GROUPS.map(([g,ids])=>[g,ids.filter(id=>RMAP[id]&&regionHasImaging(id))]).filter(x=>x[1].length);
   const mods=["CT","MRI","X-ray","Barium swallow","Ultrasound","PET-CT"];
-  V().innerHTML=`<div class="hero"><span class="eyebrow">Imaging · ${CONDS.length} conditions · ${nSl} normal images</span><h1>Read the scan</h1></div>
+  V().innerHTML=`<div class="mhead"><span class="eyebrow">Imaging</span><h1>Read the scan</h1></div>
   ${courseHTML()}
-  <div class="h2row"><h2>Practise</h2></div>
-  <div class="spotgrid"><button class="recommend spotcard" data-spot="all" data-mode="dx"><span class="eyebrow">Spot diagnosis</span><strong>A scan, four diagnoses</strong><span>${acc!=null?`Your score so far ${acc}% of ${ST.spot.n}`:"Ten scans from every region"}</span><span class="rgo">Start</span></button>
-   <button class="recommend spotcard alt" data-spot="all" data-mode="anat"><span class="eyebrow">Name the structure</span><strong>Numbered normal anatomy</strong><span>CT and MRI slices with their legends</span><span class="rgo">Start</span></button></div>
-  <div class="h2row"><h2>By area</h2></div>
-  ${areas.map(([g,ids])=>`<h3 class="eyebrow cgroup">${esc(g)}</h3><div class="areagrid">${ids.map(id=>{const cs=regConds(id),ss=regSeries(id),k=(ss[0]&&ss[0].slices[Math.min(3,ss[0].slices.length-1)].k)||(cs[0]&&cs[0].imgs[0]);
-    return `<button class="area" data-go="region:${id}" data-rtab-go="imaging">${k?`<img src="${imSrc(k)}" alt="" loading="lazy">`:`<span class="noimg"></span>`}<span><strong>${esc(RMAP[id].name)}</strong><small>${cs.length} conditions · ${ss.reduce((a,s)=>a+s.slices.length,0)} normal images</small></span></button>`}).join("")}</div>`).join("")}
-  <div class="h2row"><h2>How to read</h2></div>
-  <div class="prows">${HOWTO.map(h=>`<button class="prow" data-go="howto:${h.id}"><span class="pn c2">${ic("imaging",20)}</span><span class="pt"><strong>${esc(h.t)}</strong><small>${h.tech?"When to use each test":"Systematic checklist"}</small></span>${ic("chev",18)}</button>`).join("")}<button class="prow" data-go="howto:mri"><span class="pn c5">${ic("imaging",20)}</span><span class="pt"><strong>MRI signal: what is bright, what is dark</strong><small>T1, T2 and gadolinium for common lesions</small></span>${ic("chev",18)}</button></div>
-  <div class="h2row"><h2>All conditions</h2><span class="eyebrow">${CONDS.length}</span></div>
-  <div class="gchips" role="group" aria-label="Modality">${["all"].concat(mods).map(m=>`<button class="chip" data-hubmod="${m}" aria-pressed="${HUBMOD===m}">${m==="all"?"All":m}</button>`).join("")}</div>
+  <h2 class="msec">Practise</h2>
+  <div class="mrows">
+   <button class="mrow" data-spot="all" data-mode="dx"><span class="mn">${ic("quiz",16)}</span><span class="mt">Spot diagnosis<small>${acc!=null?`${acc}% of ${ST.spot.n} so far`:"Ten scans, four choices each"}</small></span></button>
+   <button class="mrow" data-spot="all" data-mode="anat"><span class="mn">${ic("drill",16)}</span><span class="mt">Name the structure<small>Numbered normal CT and MRI</small></span></button>
+   <button class="mrow" data-go="howto:mri"><span class="mn">${ic("tables",16)}</span><span class="mt">MRI signal table<small>What is bright, what is dark</small></span></button>
+  </div>
+  <h2 class="msec">Conditions <small>${CONDS.filter(c=>c.core).length} core · ${CONDS.length} in all</small></h2>
   <label class="vh" for="hq">Search conditions</label><input type="search" id="hq" class="iq" placeholder="Search conditions" value="${esc(HUBQ)}">
+  <div class="gchips" role="group" aria-label="Modality">${["all"].concat(mods).map(m=>`<button class="chip" data-hubmod="${m}" aria-pressed="${HUBMOD===m}">${m==="all"?"All":m}</button>`).join("")}</div>
   <div id="hublist">${hubList()}</div>
-  <p class="mono csrc">Sources: Koch, Hamilton, Hudgins and Harnsberger, Diagnostic Imaging: Head and Neck, 3rd ed. (course and key facts); Chapman and Koontz, Imaging Anatomy: Head and Neck (labelled normal anatomy); Dunnebier, Beek and Pameijer, Imaging for Otolaryngologists (Thieme, 2011); ESR Modern Radiology eBook, Head and Neck Imaging (2025), CC BY-NC-ND 4.0. For personal study.</p>`}
+  <h2 class="msec">Normal anatomy by area</h2>
+  ${areas.map(([g,ids])=>fold("ia-"+g,esc(g),`${ids.length} areas`,`<div class="mrows">${ids.map(id=>{const cs=regConds(id),ss=regSeries(id);
+    return `<button class="mrow" data-go="region:${id}" data-rtab-go="imaging"><span class="mt">${esc(RMAP[id].name)}<small>${ss.reduce((a,s)=>a+s.slices.length,0)} normal images · ${cs.length} conditions</small></span></button>`}).join("")}</div>`,{dot:GCOL[g]})).join("")}
+  <p class="mono csrc">Sources: Koch, Hamilton, Hudgins and Harnsberger, Diagnostic Imaging: Head and Neck, 3rd ed.; Chapman and Koontz, Imaging Anatomy: Head and Neck; Dunnebier, Beek and Pameijer, Imaging for Otolaryngologists (Thieme, 2011); ESR Modern Radiology eBook, Head and Neck Imaging (2025), CC BY-NC-ND 4.0. For personal study.</p>`}
 function hubList(){const q=HUBQ.toLowerCase();const l=CONDS.filter(c=>(!q||(c.t+" "+c.ddx).toLowerCase().includes(q))&&(HUBMOD==="all"||condMods(c).some(m=>m.startsWith(HUBMOD)))).sort((a,b)=>a.t.localeCompare(b.t));
   if(!l.length)return `<p class="empty">No conditions match.</p>`;const co=l.filter(c=>c.core),ad=l.filter(c=>!c.core);
-  return `${co.length?`<h3 class="eyebrow cgroup">Core · master these first <small>${co.length} common conditions, with key facts</small></h3><div class="cgrid">${co.map(condCard).join("")}</div>`:""}
-  ${ad.length?`<details class="advgrp"${q||!co.length?" open":""}><summary><h3 class="eyebrow cgroup">Advanced and rare <small>${ad.length} conditions, once the core is secure</small></h3></summary><div class="cgrid">${ad.map(condCard).join("")}</div></details>`:""}`}
+  const rows=cs=>`<div class="mrows">${cs.map(c=>`<button class="mrow" data-go="cond:${c.id}"><span class="mt">${esc(c.t)}<small>${esc((RMAP[c.r]||{}).name||"")}</small></span></button>`).join("")}</div>`;
+  if(q||HUBMOD!=="all")return rows(l);
+  return fold("ic-core","Core",`${co.length} · master first`,rows(co))+fold("ic-adv","Advanced and rare",`${ad.length}`,rows(ad))}
 document.addEventListener("input",e=>{if(e.target.id==="hq"){HUBQ=e.target.value;$("#hublist").innerHTML=hubList()}});
 document.addEventListener("click",e=>{const m=e.target.closest("[data-hubmod]");if(m){HUBMOD=m.dataset.hubmod;document.querySelectorAll("[data-hubmod]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.hubmod===HUBMOD)));$("#hublist").innerHTML=hubList()}});
 
@@ -7847,16 +7855,13 @@ vHome=function(){const t=todayCounts(),s=continueSec(),r=s&&RMAP[s.r],st=r&&regi
   </div></section></div>`};
 
 /* ---- Atlas: grouped lists ---- */
-regionsBlock=function(){return GROUPS.map(([g,ids])=>`<section><h2 class="lh"><span><i class="gdot" style="--gc:${GCOL[g]}"></i>${esc(g)}</span><small>${ids.filter(i=>RMAP[i]).length}</small></h2><div class="llist">${ids.filter(id=>RMAP[id]).map(id=>{const r=RMAP[id],st=regionStats(r);
-    return `<button class="lrow rrow" data-go="region:${id}"><span class="lt"><span class="rn">${esc(r.name)}</span><small>${st.read}/${st.secs} read · ${st.figs} figures</small></span><span class="lval">${st.pct}%</span>${chev}</button>`}).join("")}</div></section>`).join("")};
-vAtlas=function(){V().innerHTML=`<div class="hero"><span class="eyebrow">Head &amp; neck</span><h1>Atlas</h1></div>
+regionsBlock=function(){return GROUPS.map(([g,ids])=>{const rs=ids.filter(id=>RMAP[id]);let rd=0,tot=0;
+  const inner=`<div class="mrows">${rs.map(id=>{const r=RMAP[id],st=regionStats(r);rd+=st.read;tot+=st.secs;
+    return `<button class="mrow" data-go="region:${id}"><span class="mt">${esc(r.name)}<small>${st.secs} sections · ${st.figs} figures</small></span>${st.pct?`<span class="mv">${st.pct}%</span>`:""}</button>`}).join("")}</div>`;
+  return fold("rg-"+g,esc(g),rd?`${Math.round(100*rd/tot)}% read`:`${rs.length} regions`,inner,{dot:GCOL[g]})}).join("")};
+vAtlas=function(){V().innerHTML=`<div class="mhead"><span class="eyebrow">Head &amp; neck</span><h1>Anatomy</h1></div>
   <div class="tbody">${searchBtn("Search regions, structures, figures")}
-  <div class="tgrid">
-    <button class="tcell" data-go="tracer">${ring("tracer")}<b>Tracer</b><small>${TRACE.length} nerve and vessel courses</small></button>
-    <button class="tcell" data-go="tables">${ring("tables")}<b>Tables</b><small>${TABLES.length} tables · ${MNEM.length} mnemonics</small></button>
-    <button class="tcell" data-go="figures">${ring("figures")}<b>Figures</b><small>Every figure, by region</small></button>
-    <button class="tcell" data-go="imaging">${ring("imaging")}<b>Imaging</b><small>Normal scans and conditions</small></button>
-  </div>
+  <div class="mtools"><button data-go="tracer">${ic("tracer",17)}Tracer</button><button data-go="tables">${ic("tables",17)}Tables</button><button data-go="figures">${ic("figures",17)}Figures</button></div>
   <div id="regionsBlock">${regionsBlock()}</div></div>`};
 
 /* ---- Study: hairline tool grid ---- */
@@ -8533,7 +8538,7 @@ function vOps(arg){const o=arg&&OMAPX[arg];
   linkTerms(V(),o.r[0])}
 EXTRA.ops=()=>go("th:home");TABOF.ops="atlas";
 /* Atlas: add the Operations tile */
-const _vA=vAtlas;vAtlas=function(){_vA.apply(this,arguments);const g=V().querySelector(".tgrid");if(g&&!g.querySelector('[data-go="ops"]'))g.insertAdjacentHTML("beforeend",`<button class="tcell" data-go="th:home"><span class="lico">${ic("ops",18)}</span><b>Theatre</b><small>209 operations: step by step</small></button>`)};
+const _vA=vAtlas;vAtlas=function(){_vA.apply(this,arguments);const g=null;if(g&&!g.querySelector('[data-go="ops"]'))g.insertAdjacentHTML("beforeend",`<button class="tcell" data-go="th:home"><span class="lico">${ic("ops",18)}</span><b>Theatre</b><small>209 operations: step by step</small></button>`)};
 })();
 /* ================= v17.8 SEARCH: compact results by path, expand in place ================= */
 (function(){

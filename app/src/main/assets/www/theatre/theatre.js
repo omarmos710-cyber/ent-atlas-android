@@ -35,13 +35,14 @@ function logTxt(n){const l=TH().log[n];if(!l)return "";const p=[];if(l.o)p.push(
 
 function vHome(){const t=TH(),last=t.last&&BY[t.last],guides=CH.filter(c=>c.a),day=guides[Math.floor(Date.now()/864e5)%Math.max(1,guides.length)]||CH[0];
  let tot=0;Object.values(t.log).forEach(l=>tot+=(l.o||0)+(l.a||0)+(l.p||0));
- return `<div class="thwrap">${bar("Theatre")}<h1 class="thh1">Scrub in.</h1><p class="thlede">${CH.length} operations from Myers' <i>Operative Otolaryngology</i>, ${D.figs.toLocaleString()} operative figures, linked to your anatomy atlas.</p>
- ${last?`<div class="thcase"><span class="theb">Continue</span><h2>${e(last.t)}</h2><p>${e(last.s)} · ${last.f.length} figures</p><div class="thacts">${last.a?`<button class="thbtn p" data-go="th:play-${last.n}">Scrub in</button>`:""}<button class="thbtn" data-go="th:op-${last.n}">Open</button></div></div>`:""}
- <div class="thcase"><span class="theb">Today's case</span><h2>${e(day.t)}</h2><p>Walk through it one step at a time, then test yourself.</p><div class="thacts"><button class="thbtn ${last?"":"p"}" data-go="th:play-${day.n}">Scrub in</button><button class="thbtn" data-go="th:op-${day.n}">Read first</button></div></div>
- <div class="thnum"><div><b>${guides.length}</b><small>full guides</small></div><div><b>${D.zones.length}</b><small>danger structures</small></div><div><b>${tot}</b><small>logged cases</small></div></div>
- <h2 class="thh2">Training ladder<small>start from scratch</small></h2><div class="thlist">${D.stages.map((s,i)=>row(`data-go="th:stage-${i}"`,i+1,s.t,`${s.c.length} operations · ${s.d}`)).join("")}</div>
- <h2 class="thh2">By region</h2><div class="thgrid">${D.secs.map((s,i)=>`<button class="thtile" data-go="th:sec-${i}"><b>${e(s)}</b><small>${CH.filter(c=>c.s===s).length} operations</small></button>`).join("")}</div>
- <p class="thnote" style="margin-top:20px">Figures and chapter structure come from Myers & Snyderman, 3rd ed. Guides are written summaries for study, not operating instructions. Check them against the chapter and your supervisor.</p></div>`}
+ const cs=last||day;
+ return `<div class="thwrap">${bar("Theatre")}<span class="eyebrow mey">Surgical</span><h1 class="thh1">Scrub in.</h1>
+ <button class="mhero" data-go="th:${cs.a?"play":"op"}-${cs.n}"><span class="eyebrow">${last?"Continue":"Today's case"}</span><strong>${e(cs.t)}</strong><span class="mhs">${last?e(last.s):"Walk through it step by step, then test yourself"}</span></button>
+ ${last?`<div class="mrows"><button class="mrow" data-go="th:${day.a?"play":"op"}-${day.n}"><span class="mn">${ic("ops",15)}</span><span class="mt">${e(day.t)}<small>Today's case</small></span></button></div>`:""}
+ <h2 class="msec">Training ladder</h2><div class="mrows">${D.stages.map((s,i)=>`<button class="mrow" data-go="th:stage-${i}"><span class="mn">${i+1}</span><span class="mt">${e(s.t)}<small>${s.c.length} operations</small></span></button>`).join("")}</div>
+ <h2 class="msec">By region <small>${CH.length} operations · ${guides.length} full guides</small></h2>
+ ${window.fold?fold("th-reg","All regions",`${D.secs.length}`,`<div class="mrows">${D.secs.map((s,i)=>`<button class="mrow" data-go="th:sec-${i}"><span class="mt">${e(s)}<small>${CH.filter(c=>c.s===s).length} operations</small></span></button>`).join("")}</div>`):""}
+ <p class="thnote" style="margin-top:28px">From Myers & Snyderman, 3rd ed. Study summaries, not operating instructions.</p></div>`}
 let LQ="",LF="all";
 function libBody(){const q=LQ.trim().toLowerCase();let L=CH.filter(c=>(LF==="all"||(LF==="guide"&&c.a)||(LF==="log"&&TH().log[c.n]))&&(!q||(c.t+" "+c.s+" "+c.z.map(i=>D.zones[i].t).join(" ")).toLowerCase().includes(q)));
  if(!L.length)return `<p class="thlede">No operation matches. Try a structure, such as “facial nerve”.</p>`;

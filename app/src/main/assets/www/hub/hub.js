@@ -86,20 +86,24 @@ function vToday(){
  let cont="";try{const s=continueSec();if(s)cont=`<button class="h-cont" data-go="region:${s.r}" data-sec="${s.id}"><span class="eyebrow">Anatomy</span><b>${E((RMAP[s.r]||{}).name||"")}</b><small>${E(s.t)}</small></button>`}catch(e){}
  const cn=clinicNext();if(cn)cont+=`<button class="h-cont" data-go="cl:t-${cn}"><span class="eyebrow">${ST.cll===cn?"Keep reading":CLO()[cn]?"Clinical":"Start reading"}</span><b>${E(tname(cn))}</b><small>${E(GN[tgroup(cn)]||"Clinical")}${mins(cn)?` · ${mins(cn)} min`:""}</small></button>`;
  const W=weak(6);const vd=vivaOfDay();const nw=NEWIN.filter(id=>QT()[id]&&!CLO()[id]).slice(0,4);
- V().innerHTML=`<div class="h-today">
- <header class="h-greet"><span class="eyebrow">${E(fmtD(new Date()))}</span><h1>${greet}</h1>${sub?`<p>${E(sub)}</p>`:""}</header>
- <div class="xsq big">${ic("search",20)}<input type="search" id="hx" autocomplete="off" enterkeyhint="search" placeholder="Symptoms, anatomy, surgery…" aria-label="Search everything"></div>
+ const pc=(a,b)=>b?Math.round(100*a/b):0;
+ const cont1=(()=>{const cn2=clinicNext();if(cn2&&ST.cll===cn2)return `<button class="mrow" data-go="cl:t-${cn2}"><span class="mn">${ic("book",15)}</span><span class="mt">${E(tname(cn2))}<small>Keep reading · ${E(GN[tgroup(cn2)]||"Clinical")}</small></span></button>`;
+   try{const s=continueSec();if(s&&ST.lastReg)return `<button class="mrow" data-go="region:${s.r}" data-sec="${s.id}"><span class="mn">${ic("atlas",15)}</span><span class="mt">${E((RMAP[s.r]||{}).name||"")}<small>Continue · ${E(s.t)}</small></span></button>`}catch(e){}return ""})();
+ V().innerHTML=`<div class="h-today mtoday">
+ <header class="mhead"><span class="eyebrow">${E(fmtD(new Date()))}</span><h1>${greet}</h1>${sub?`<p class="msub">${E(sub)}</p>`:""}</header>
+ <div class="xsq big">${ic("search",20)}<input type="search" id="hx" autocomplete="off" enterkeyhint="search" placeholder="Search everything" aria-label="Search everything"></div>
  <div id="hxres" aria-live="polite"></div>
  <div id="hxrest">
-  <section class="h-plan"><div class="h-planh"><span class="eyebrow">Today's plan</span><small>${P.length} step${P.length>1?"s":""}</small></div>
-   <ol>${P.map((p,i)=>`<li><button data-hplan="${E(p.a)}"><span class="h-pn">${i+1}</span><span class="h-pt"><b>${E(p.t)}</b><small>${E(p.s)}</small></span>${ic("chev",16)}</button></li>`).join("")}</ol>
-   <button class="h-go" data-hplan="${E(P[0].a)}">Start with step 1</button></section>
-  ${cont?`<div class="h-pair">${cont}</div>`:""}
-  <section class="h-sec"><div class="h-sech"><h2>Your progress</h2><button class="linkbtn" data-go="hub:res">By topic</button></div>
-   <div class="h-rings">${ring(secR/SECTIONS.length,"Anatomy",`${secR} of ${SECTIONS.length} sections`,'data-go="atlas"')}${ring(artR/nArt,"Clinical",`${artR} of ${nArt} articles`,'data-go="cl:home"')}${ring(learned/CARDS.length,"Cards",`${learned} of ${CARDS.length} learned`,'data-go="cards"')}${ring(qn?qs/qn:0,"Questions",qn?`${qn} recent answers`:"none answered yet",'data-go="hub:mcq"')}</div></section>
-  ${W.length?`<section class="h-sec"><div class="h-sech"><h2>Weak spots</h2><small>tap for 10 questions</small></div><div class="h-weak">${W.map(w=>`<button data-hweak="${E(w.k)}"><b>${E(kname(w.k))}</b><span><i style="width:${w.pct}%"></i></span><small>${w.pct}% of ${w.n}</small></button>`).join("")}</div></section>`:""}
-  ${vd?`<section class="h-vod"><span class="eyebrow">Viva question of the day</span><p class="h-vq">${E(vd.q)}</p><small>${E(tname(vd.tp))}</small><div class="h-vans" hidden><ul>${vd.p.map(x=>`<li>${md(x)}</li>`).join("")}</ul></div><div class="h-vact"><button class="btn" data-hvod>Show the model answer</button><button class="linkbtn" data-go="hub:viva">Viva simulator</button></div></section>`:""}
-  ${nw.length?`<section class="h-sec"><div class="h-sech"><h2>New in the app</h2><button class="linkbtn" data-go="cl:home">All articles</button></div><div class="h-list">${nw.map(id=>hrow(`data-go="cl:t-${id}"`,"book",tname(id),E(GN[tgroup(id)]||"")+(mins(id)?` · ${mins(id)} min read`:""),"New")).join("")}</div></section>`:""}
+  <section class="h-plan"><div class="h-planh"><span class="eyebrow">Today</span><small>${P.length} step${P.length>1?"s":""}</small></div>
+   <ol>${P.map((p,i)=>`<li><button data-hplan="${E(p.a)}"><span class="h-pn">${i+1}</span><span class="h-pt"><b>${E(p.t)}</b><small>${E(p.s)}</small></span>${ic("chev",16)}</button></li>`).join("")}</ol></section>
+  ${cont1?`<div class="mrows mcont">${cont1}</div>`:""}
+  <div class="mstats">
+   <button data-go="atlas"><b>${pc(secR,SECTIONS.length)}<i>%</i></b><small>Anatomy</small></button>
+   <button data-go="cl:home"><b>${pc(artR,nArt)}<i>%</i></b><small>Clinical</small></button>
+   <button data-go="cards"><b>${pc(learned,CARDS.length)}<i>%</i></b><small>Cards</small></button>
+   <button data-go="hub:mcq"><b>${qn?pc(qs,qn):"–"}${qn?"<i>%</i>":""}</b><small>Questions</small></button></div>
+  ${W.length?`<h2 class="msec">Weak spots</h2><div class="h-weak">${W.slice(0,3).map(w=>`<button data-hweak="${E(w.k)}"><b>${E(kname(w.k))}</b><span><i style="width:${w.pct}%"></i></span><small>${w.pct}% of ${w.n}</small></button>`).join("")}</div>`:""}
+  ${vd?`<section class="mvod"><span class="eyebrow">Viva of the day</span><p class="h-vq">${E(vd.q)}</p><div class="h-vans" hidden><ul>${vd.p.map(x=>`<li>${md(x)}</li>`).join("")}</ul></div><button class="linkbtn" data-hvod>Show the answer</button></section>`:""}
  </div></div>`;
  if(!window.CLART_IDX)needIdx().then(()=>{if(cur==="home"&&document.querySelector(".h-today")&&!(document.getElementById("hx")||{}).value)vToday()})}
 vHome=vToday;
@@ -302,7 +306,7 @@ document.addEventListener("click",e=>{const T=x=>e.target.closest(x);let b;
  if(b=T("[data-htopic]")){const id=b.dataset.htopic;startRun(QUIZ.filter(q=>q.tp===id),tname(id));return}
  if(b=T("[data-hdeck]")){const id=b.dataset.hdeck,q=shuffle(CARDS.filter(c=>c.tp===id));if(!q.length)return;FC={r:"cl-"+tgroup(id),mode:"all",q,i:0,flip:false,seen:0};go("cards");return}
  if(b=T("[data-hend]")){stopLab();go("study");return}
- if(b=T("[data-hvod]")){const s=b.closest(".h-vod"),a=s.querySelector(".h-vans");a.hidden=!a.hidden;b.textContent=a.hidden?"Show the model answer":"Hide the answer";return}
+ if(b=T("[data-hvod]")){const s=b.closest(".h-vod,.mvod"),a=s.querySelector(".h-vans");a.hidden=!a.hidden;b.textContent=a.hidden?"Show the answer":"Hide the answer";return}
  if(b=T("[data-hagain]")){if(RUN&&RUN.again)RUN.again();return}
  if(RUN&&(b=T("[data-hrun]"))){const q=RUN.qs[RUN.i];if(RUN.ans[RUN.i]!=null)return;RUN.ans[RUN.i]=+b.dataset.hrun;const ok=RUN.ans[RUN.i]===q.c;rec(q,ok);seen(q);save();vRun();return}
  if(RUN&&T("[data-hrunnext]")){RUN.i++;vRun();scrollTo(0,0);return}
