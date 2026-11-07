@@ -15,6 +15,19 @@ const used=AREAS.flatMap(a=>a[2]);AREAS.push(['face','Face, jaw and skull base',
 const VOL=[...D.t.map(t=>({id:'cl_'+t.id,kind:t.g==='imgl'?'Imaging':'Clinical',title:t.t,single:true,arts:[t.id],ids:t.g==='imgl'?null:((LINKS[t.id]||{}).im||[]).filter(x=>CONDS.some(c=>c.id===x))})),
  ...AREAS.map(a=>({id:'imc_'+a[0],kind:'Imaging',title:'Imaging conditions: '+a[1],sub:'Key facts and case images for the core conditions, then the advanced and rare',conds:a[2]}))];
 const PCSS=`
+@font-face{font-family:"Newsreader";font-weight:400;font-style:normal;src:local("NewsreaderPDF Regular")}
+@font-face{font-family:"Newsreader";font-weight:500;font-style:normal;src:local("NewsreaderPDF Medium")}
+@font-face{font-family:"Newsreader";font-weight:600;font-style:normal;src:local("NewsreaderPDF SemiBold")}
+@font-face{font-family:"Newsreader";font-weight:700;font-style:normal;src:local("NewsreaderPDF SemiBold")}
+@font-face{font-family:"Newsreader";font-weight:400;font-style:italic;src:local("NewsreaderPDF Italic")}
+@font-face{font-family:"Newsreader";font-weight:500;font-style:italic;src:local("NewsreaderPDF Medium Italic")}
+@font-face{font-family:"Newsreader";font-weight:600;font-style:italic;src:local("NewsreaderPDF Medium Italic")}
+@font-face{font-family:"Manrope";font-weight:300;font-style:normal;src:local("ManropePDF Regular")}
+@font-face{font-family:"Manrope";font-weight:400;font-style:normal;src:local("ManropePDF Regular")}
+@font-face{font-family:"Manrope";font-weight:500;font-style:normal;src:local("ManropePDF Medium")}
+@font-face{font-family:"Manrope";font-weight:600;font-style:normal;src:local("ManropePDF SemiBold")}
+@font-face{font-family:"Manrope";font-weight:700;font-style:normal;src:local("ManropePDF Bold")}
+@font-face{font-family:"Manrope";font-weight:800;font-style:normal;src:local("ManropePDF Bold")}
 @page{size:A4}
 html,body.pbody{background:#fff!important;color:#1b1d22}
 body.pbody{margin:0;padding:0;font-size:10.5pt;-webkit-print-color-adjust:exact;print-color-adjust:exact}
@@ -108,13 +121,14 @@ const want=process.argv.slice(2);
   await p.evaluate(({V,arts,conds,date,PCSS})=>{
    document.querySelectorAll('#tabs,#side,header,.topbar,.dock,#toast').forEach(x=>x&&x.remove());
    const toc=arts.map((a,i)=>`<li><span>${String(i+1).padStart(2,"0")}</span><a href="#a-${a.id}">${a.t}</a></li>`).join("")+(conds?`<li><span>${V.kind==="Imaging"?"":"·"}</span><a href="#imaging">${V.kind==="Imaging"?"Core conditions":"Imaging for this region"}</a></li>`:"");
-   document.body.className='pbody';
+   document.querySelectorAll('link[href*="fonts.googleapis"],link[href*="fonts.gstatic"]').forEach(l=>l.remove());for(const f of [...document.fonts])if(/Newsreader|Manrope/.test(f.family))document.fonts.delete(f);document.body.className='pbody';
    document.body.innerHTML=V.single?`${arts.map(a=>`<div class="part" id="a-${a.id}">${a.html}</div>`).join("")}${conds}`:`<div class="pcover"><div class="pmark">ENT ATLAS</div><div class="pkind">${V.kind}</div><h1>${V.title}</h1>${V.sub?`<p class="psub">${V.sub}</p>`:""}<p class="pdate">${arts.length?arts.length+" "+(V.kind==="Imaging"?"lessons":"articles"):""}${conds&&arts.length?" · imaging key facts":""} · ${date}</p></div>
     ${arts.length>1?`<div class="ptoc"><h2>Contents</h2><ol>${toc}</ol></div>`:""}
     ${arts.map(a=>`<div class="part" id="a-${a.id}">${a.html}</div>`).join("")}${conds}`;
    const st=document.createElement('style');st.textContent=PCSS;document.head.appendChild(st);
    document.documentElement.setAttribute('data-theme','light');
   },{V,arts,conds,date,PCSS}).catch(e=>console.log(e));
+  await p.evaluate(()=>document.fonts.ready);
   await p.evaluate(()=>Promise.all([...document.images].map(i=>i.complete?1:new Promise(r=>{i.onload=i.onerror=r}))));
   await p.waitForTimeout(500);
   const f=path.join(OUT,V.id+'.pdf');
