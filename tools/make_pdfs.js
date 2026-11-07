@@ -7,11 +7,13 @@ const APL="hl ap_otorr otalgia ap_full tinnitus ap_dizzy ap_face ap_block ap_rhi
 const D=JSON.parse(fs.readFileSync(path.join(WWW,'clinic/data.js'),'utf8').replace(/^window.CLINIC_DATA=/,'').trim().replace(/;$/,''));
 const RG={ear:['extear','midear','inner','temporal','facial','et'],nose:['nose','sinus','orbit','itf','trigeminal'],mouth:['oral','pharynx'],larynx:['larynx'],neck:['neck','vessels','thyroid','salivary']};
 const LESS={ear:['im_tb','im_iac','im_skb'],nose:['im_sin','im_orb'],mouth:['im_oral'],larynx:['im_lx'],neck:['im_spaces','im_nodes','im_glands']};
-const VOL=[
- ...['ear','nose','mouth','larynx','neck'].map(g=>({id:'cl-'+g,kind:'Clinical',title:D.g[g],arts:D.t.filter(t=>t.g===g).map(t=>t.id),conds:RG[g],les:LESS[g]})),
- {id:'cl-appr',kind:'Clinical',title:'Approach to the patient',sub:'From the presenting complaint to the diagnosis',arts:D.t.filter(t=>t.g==='appr'||t.xap).map(t=>t.id).sort((a,b)=>(APL.indexOf(a)+99)%99-(APL.indexOf(b)+99)%99)},
- {id:'im-course',kind:'Imaging',title:'Learn to read ENT imaging',sub:'Eighteen lessons, from the normal scan to the patterns of disease',arts:D.t.filter(t=>t.g==='imgl').sort((a,b)=>a.les-b.les).map(t=>t.id)},
- {id:'im-conds',kind:'Imaging',title:'Imaging conditions',sub:'Key facts and case images for the core conditions, with the advanced list',conds:'all'}];
+const LINKS=JSON.parse(fs.readFileSync(path.join(WWW,'clinic/links.js'),'utf8').replace(/^[\s\S]*?window.CLINIC_LINKS=/,'').trim().replace(/;$/,''));
+const IDX=fs.readFileSync(path.join(WWW,'index.html'),'utf8');const ci=IDX.indexOf('const CONDS=');
+const CONDS=JSON.parse(IDX.slice(ci+12,IDX.indexOf('\n',ci)).trim().replace(/;$/,''));
+const AREAS=[['ear','Ear',['extear','midear','inner','temporal','facial','et']],['nose','Nose, sinuses and orbit',['nose','sinus','orbit']],['mouth','Mouth, throat and salivary glands',['oral','pharynx','salivary']],['neck','Larynx and neck',['larynx','neck','vessels','thyroid']]];
+const used=AREAS.flatMap(a=>a[2]);AREAS.push(['face','Face, jaw and skull base',[...new Set(CONDS.map(c=>c.r))].filter(r=>!used.includes(r))]);
+const VOL=[...D.t.map(t=>({id:'cl_'+t.id,kind:t.g==='imgl'?'Imaging':'Clinical',title:t.t,single:true,arts:[t.id],ids:t.g==='imgl'?null:((LINKS[t.id]||{}).im||[]).filter(x=>CONDS.some(c=>c.id===x))})),
+ ...AREAS.map(a=>({id:'imc_'+a[0],kind:'Imaging',title:'Imaging conditions: '+a[1],sub:'Key facts and case images for the core conditions, then the advanced and rare',conds:a[2]}))];
 const PCSS=`
 @page{size:A4}
 html,body.pbody{background:#fff!important;color:#1b1d22}
@@ -91,23 +93,23 @@ const want=process.argv.slice(2);
   }
   // imaging key facts
   let conds='';
-  if(V.conds){conds=await p.evaluate(([rg,all,les])=>{const L=CONDS.filter(c=>all?1:rg.includes(c.r));const core=L.filter(c=>c.core),adv=L.filter(c=>!c.core);
+  if(V.conds||(V.ids&&V.ids.length)){conds=await p.evaluate(([rg,all,les,ids])=>{const L=ids?ids.map(x=>CONDS.find(c=>c.id===x)).filter(Boolean):CONDS.filter(c=>rg.includes(c.r));all=!ids;const core=ids?L:L.filter(c=>c.core),adv=ids?[]:L.filter(c=>!c.core);
     const img=k=>{const v=IMG[k];return v?`<figure class="pk"><img src="${imSrc(k)}"><figcaption>${esc(v[3]||"")}<cite>${esc(SRC[v[4]]||"")}${v[5]?", "+esc(v[5]):""}</cite></figcaption></figure>`:""};
     const pick=c=>{const o=c.imgs.filter(k=>!k.startsWith('dk')&&IMG[k]&&IMG[k][2]!=="Diagram").slice(0,1),d=c.imgs.filter(k=>k.startsWith('dk')&&IMG[k][2]!=="Diagram").slice(0,all?3:1);return o.concat(d)};
     const card=c=>`<section class="pcond"><div class="pck">${esc((RMAP[c.r]||{}).name||"")} · ${esc(c.cat)}</div><h3>${esc(c.t)}</h3>
       ${c.kf?`<div class="pkf"><div><h4>Imaging findings</h4><ul>${c.kf.see.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div><div><h4>Top differentials</h4><ul>${c.kf.dd.map(x=>`<li>${esc(x)}</li>`).join("")}</ul><h4>Checklist</h4><ul>${c.kf.chk.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div></div>`:(c.pts&&c.pts.length?`<ul>${c.pts.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:"")}
       <div class="pimgs">${pick(c).map(img).join("")}</div>${c.kf&&c.kf.pg?`<p class="psrc">Key facts after Koch, Hamilton, Hudgins and Harnsberger, Diagnostic Imaging: Head and Neck, 3rd ed., p. ${c.kf.pg}.</p>`:""}</section>`;
     const lesT=(les||[]).map(id=>ILES.find(x=>x[0]===id)).filter(Boolean);
-    return `<section class="pimgch" id="imaging"><div class="pchead"><span>Imaging</span><h2>${all?"Core conditions":"Imaging for this region"}</h2>
-      <p>${all?"The common conditions every resident should recognise, each with its key imaging findings, top differentials, a short checklist and representative scans.":"The core imaging conditions of this region, with their key facts and a representative scan. "+(lesT.length?`For the normal anatomy and a search pattern, read ${lesT.map(x=>`Lesson ${x[1]}, <i>${esc(x[3])}</i>`).join("; ")} in the imaging volume.`:"")}</p></div>
+    return `<section class="pimgch" id="imaging"><div class="pchead"><span>Imaging</span><h2>${all?"Core conditions":"On imaging"}</h2>
+      <p>${all?"The common conditions every resident should recognise, each with its key imaging findings, top differentials, a short checklist and representative scans.":"The imaging of this topic: key findings, differentials and representative scans."+(lesT.length?` For the normal anatomy and a search pattern, see ${lesT.map(x=>`Lesson ${x[1]}, <i>${esc(x[3])}</i>`).join("; ")}.`:"")}</p></div>
       ${core.map(card).join("")}
-      ${all&&adv.length?`<div class="pchead"><span>Imaging</span><h2>Advanced and rare</h2><p>Once the core is secure. Each has its full set of images in the app.</p></div><div class="padv">${adv.map(c=>`<div><b>${esc(c.t)}</b><small>${esc((RMAP[c.r]||{}).name||"")} · ${esc(c.cat)}</small>${c.pts&&c.pts.length?`<p>${esc(c.pts.slice(0,2).join(" · "))}</p>`:""}</div>`).join("")}</div>`:""}</section>`},[V.conds==='all'?[]:V.conds,V.conds==='all',V.les]);}
+      ${all&&adv.length?`<div class="pchead"><span>Imaging</span><h2>Advanced and rare</h2><p>Once the core is secure. Each has its full set of images in the app.</p></div><div class="padv">${adv.map(c=>`<div><b>${esc(c.t)}</b><small>${esc((RMAP[c.r]||{}).name||"")} · ${esc(c.cat)}</small>${c.pts&&c.pts.length?`<p>${esc(c.pts.slice(0,2).join(" · "))}</p>`:""}</div>`).join("")}</div>`:""}</section>`},[V.conds||[],!V.ids,V.les||null,V.ids||null]);}
   const date=new Date().toLocaleDateString('en-GB',{month:'long',year:'numeric'});
   await p.evaluate(({V,arts,conds,date,PCSS})=>{
    document.querySelectorAll('#tabs,#side,header,.topbar,.dock,#toast').forEach(x=>x&&x.remove());
    const toc=arts.map((a,i)=>`<li><span>${String(i+1).padStart(2,"0")}</span><a href="#a-${a.id}">${a.t}</a></li>`).join("")+(conds?`<li><span>${V.kind==="Imaging"?"":"·"}</span><a href="#imaging">${V.kind==="Imaging"?"Core conditions":"Imaging for this region"}</a></li>`:"");
    document.body.className='pbody';
-   document.body.innerHTML=`<div class="pcover"><div class="pmark">ENT ATLAS</div><div class="pkind">${V.kind}</div><h1>${V.title}</h1>${V.sub?`<p class="psub">${V.sub}</p>`:""}<p class="pdate">${arts.length?arts.length+" "+(V.kind==="Imaging"?"lessons":"articles"):""}${conds&&arts.length?" · imaging key facts":""} · ${date}</p></div>
+   document.body.innerHTML=V.single?`${arts.map(a=>`<div class="part" id="a-${a.id}">${a.html}</div>`).join("")}${conds}`:`<div class="pcover"><div class="pmark">ENT ATLAS</div><div class="pkind">${V.kind}</div><h1>${V.title}</h1>${V.sub?`<p class="psub">${V.sub}</p>`:""}<p class="pdate">${arts.length?arts.length+" "+(V.kind==="Imaging"?"lessons":"articles"):""}${conds&&arts.length?" · imaging key facts":""} · ${date}</p></div>
     ${arts.length>1?`<div class="ptoc"><h2>Contents</h2><ol>${toc}</ol></div>`:""}
     ${arts.map(a=>`<div class="part" id="a-${a.id}">${a.html}</div>`).join("")}${conds}`;
    const st=document.createElement('style');st.textContent=PCSS;document.head.appendChild(st);

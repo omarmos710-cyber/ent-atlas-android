@@ -7439,9 +7439,8 @@ function vImaging(){const acc=ST.spot&&ST.spot.n?Math.round(100*ST.spot.r/ST.spo
   <label class="vh" for="hq">Search conditions</label><input type="search" id="hq" class="iq" placeholder="Search conditions" value="${esc(HUBQ)}">
   <div class="gchips" role="group" aria-label="Modality">${["all"].concat(mods).map(m=>`<button class="chip" data-hubmod="${m}" aria-pressed="${HUBMOD===m}">${m==="all"?"All":m}</button>`).join("")}</div>
   <div id="hublist">${hubList()}</div>
-  <h2 class="msec">Offline PDFs</h2>
-  <div class="mrows"><button class="mrow" data-pdf="im-course" data-pdfname="ENT Atlas - Imaging course"><span class="mn">${ic("pdf",15)}</span><span class="mt">The imaging course<small>All 18 lessons with their figures</small></span></button>
-   <button class="mrow" data-pdf="im-conds" data-pdfname="ENT Atlas - Imaging conditions"><span class="mn">${ic("pdf",15)}</span><span class="mt">Imaging conditions<small>Key facts and case images for the core conditions</small></span></button></div>
+  <h2 class="msec">Offline PDFs <small>Each lesson also has its own PDF</small></h2>
+  ${fold("ipdf","Imaging conditions by area","5 PDFs",`<div class="mrows">${[["ear","Ear"],["nose","Nose, sinuses and orbit"],["mouth","Mouth, throat and salivary glands"],["neck","Larynx and neck"],["face","Face, jaw and skull base"]].map(([k,t])=>`<button class="mrow" data-pdf="imc_${k}" data-pdfname="ENT Atlas - Imaging conditions - ${t}"><span class="mn">${ic("pdf",14)}</span><span class="mt">${t}</span></button>`).join("")}</div>`)}
   <h2 class="msec">Normal anatomy by area</h2>
   ${areas.map(([g,ids])=>fold("ia-"+g,esc(g),`${ids.length} areas`,`<div class="mrows">${ids.map(id=>{const cs=regConds(id),ss=regSeries(id);
     return `<button class="mrow" data-go="region:${id}" data-rtab-go="imaging"><span class="mt">${esc(RMAP[id].name)}<small>${ss.reduce((a,s)=>a+s.slices.length,0)} normal images · ${cs.length} conditions</small></span></button>`}).join("")}</div>`,{dot:GCOL[g]})).join("")}
