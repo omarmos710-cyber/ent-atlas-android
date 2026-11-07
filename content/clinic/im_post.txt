@@ -1,0 +1,69 @@
+@stand After surgery, radiotherapy or chemoradiotherapy the neck no longer looks like the anatomy books. Fat planes vanish, tissues swell and then scar, muscles waste, flaps bring fat and muscle from elsewhere, and the radiologist's question changes from "what is this?" to "is anything new?". The key to reading the treated neck is comparison: a good post-treatment baseline scan, knowledge of exactly what was done, and a standard way of grading suspicion. This lesson covers all three, with the NI-RADS system that many centres now use.
+
+# The baseline | When to scan, and with what.
+## Timing
+Inflammation after radiotherapy makes early scans unreliable. The first **post-treatment baseline** is usually a **PET-CT at about 12 weeks** after chemoradiotherapy (the PET-NECK trial showed this is as safe as planned neck dissection while sparing most patients the operation), or a contrast CT or MRI at 8 to 12 weeks after surgery or radiotherapy. Scans earlier than this are more likely to show false-positive uptake and swelling. The baseline becomes the map against which every later scan is compared; surveillance then continues at intervals guided by the risk of recurrence, which is highest in the first two years.
+## Know the operation
+Read the operation note before the scan. A **selective neck dissection** may leave only subtle changes: loss of the fat around the carotid sheath and under the sternocleidomastoid. A **radical neck dissection** removes the sternocleidomastoid, the jugular vein and the accessory nerve; the trapezius wastes and the **levator scapulae** enlarges in compensation, which can be mistaken for a mass. Resection of one thyroid lobe at laryngectomy leaves the other, which can mimic a node.
+!fig di575-1 | Neck dissection on imaging. Left: drawing of the nodal levels removed in different dissections. Right: contrast CT after selective neck dissection at level II on the right, with loss of the fat beneath the sternocleidomastoid and around the carotid space.
+!fig di578-2 | After radical neck dissection. Left: the left sternocleidomastoid and jugular vein are absent and the levator scapulae has enlarged, a mimic of tumour. Right: absent sternocleidomastoid and jugular vein, a wasted trapezius and a pectoralis flap.
+
+# Expected changes | What is normal after treatment.
+## After radiotherapy
+In the first months after radiotherapy, everything in the field swells: the **skin and platysma thicken**, the **subcutaneous and deep fat becomes streaky**, the **mucosa and submucosa** of the pharynx and larynx are oedematous and enhance, the **retropharyngeal space** fills with fluid (oedema, not a mass), and the salivary glands enhance and later shrink. Over months to years, swelling turns into **fibrosis and atrophy**: the tissues become thin, dark on T2 and enhance little. Expected changes are **symmetric, smooth, diffuse and without a discrete mass**.
+!fig di583-1 | Expected changes after chemoradiotherapy. Left: a supraglottic carcinoma before treatment. Right: three months later, no residual tumour or nodes, but every fat plane and the aryepiglottic folds are swollen and hazy: expected oedema, not disease.
+## After reconstruction
+Free and pedicled **flaps** bring fat, muscle and sometimes bone. The fat component is easy to recognise; the muscle component is **denervated**, so it looks striated, may enhance at first and then wastes and becomes fatty. Bone flaps (fibula, iliac crest, scapula) show osteotomies and plates. The edges of a flap, where it meets native tissue, are where recurrence most often appears.
+!fig di579-1 | A radial forearm free flap. Left: axial contrast CT, a well-defined, rounded fatty flap filling the defect, with surgical clips. Right: coronal CT, the flap restoring the contour of the tongue.
+
+# Is it recurrence? | Patterns that worry.
+## The signs
+Recurrence is suggested by a **discrete, mass-like** lesion rather than diffuse change, **new or enlarging** soft tissue compared with the baseline, **nodular enhancement** (especially at the margins of a flap or at an anastomosis), **restricted diffusion** (low ADC), **intense, focal FDG uptake** after the inflammatory period, **bone destruction**, new **necrotic nodes**, and new **perineural** enhancement. Most recurrences appear at the primary site or at the edge of the treated field, in the first two years.
+!fig di582-1 | Left: a fibular free flap reconstructing the mandible, with osteotomies that allow the bone to be contoured. Right: recurrence at the junction of the normal tongue base and a myocutaneous flap, a discrete, uniformly enhancing nodule on the mucosal side.
+## NI-RADS
+The **Neck Imaging Reporting and Data System** (NI-RADS) gives a suspicion category for the primary site and for the neck on each surveillance scan, each tied to an action.
+!table NI-RADS categories
+Category | Primary site | Neck | Usual action
+1, no evidence of recurrence | Expected changes only; non-mass-like distortion, diffuse mucosal enhancement | No residual or new abnormal nodes | Routine surveillance
+2a, low suspicion | Focal **mucosal** enhancement, not mass-like | Residual or enlarging nodes without new necrosis or extranodal extension | Direct inspection
+2b, low suspicion | **Deep**, ill-defined soft tissue with only mild differential enhancement | (as 2) | Short-interval follow-up or PET
+3, high suspicion | **New or enlarging discrete** nodule or mass with intense enhancement or FDG uptake | New or enlarging necrosis or extranodal extension, or intensely FDG-avid node | Biopsy
+4, definite recurrence | Proven by pathology, or definite progression | Proven or definite | Treat
+!!
+
+# Complications | Not every change is tumour.
+## Osteoradionecrosis and chondronecrosis
+**Osteoradionecrosis** of the mandible appears on CT as mixed lysis and sclerosis, **cortical breaks**, **gas** in the bone, fragmentation and sequestra, and sometimes a pathological fracture, usually in the body of the mandible within the radiation field and often after a dental extraction. MRI shows marrow oedema and enhancement of the bone and surrounding soft tissue, which can look like tumour; the pattern of bone and gas on CT, and biopsy when doubtful, separate them. **Chondronecrosis** of the laryngeal cartilages shows fragmentation, collapse and gas.
+!fig di591-1 | Osteoradionecrosis of the mandible. Left: bone CT, mixed lytic and sclerotic change with cortical interruption and gas bubbles in the bone. Right: a predominantly lytic pattern in another patient.
+## Other late effects
+Radiotherapy can also cause **temporal lobe necrosis** after nasopharyngeal treatment, **carotid stenosis**, hypothyroidism, fibrosis of the pharynx with dysphagia and aspiration, and, rarely, a **radiation-induced sarcoma** years later.
+## After laryngectomy
+After total laryngectomy the **neopharynx** is a midline tube of muscle and mucosa from the tongue base to the oesophagus, in front of the spine. Recurrence appears as soft tissue thickening, often at the upper or lower anastomosis, the stoma or the paratracheal region.
+!fig di595-1 | Total laryngectomy. Left: contrast CT of a T4 laryngeal carcinoma with subglottic and prelaryngeal extension. Right: drawing of the expected anatomy after laryngectomy: the neopharynx joins the oral cavity to the oesophagus, and the trachea ends at the stoma.
+
+!path Reading a post-treatment scan
+Before you start | what was done and when ; the pre-treatment scan ; the baseline after treatment
+Expected change | symmetric, smooth, diffuse ; oedema early, fibrosis late ; flaps and dissection changes
+Primary site | discrete mass or nodular enhancement ; flap margins and anastomoses ; DWI and PET
+Neck | new or enlarging nodes ; new necrosis or extranodal extension ; the other side
+Complications | osteoradionecrosis ; chondronecrosis ; carotid ; temporal lobes
+Grade | NI-RADS for primary and neck ; the action that goes with it
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Baseline scan timing:** PET-CT at about 12 weeks after chemoradiotherapy; PET-NECK.
+- **Expected changes** after radiotherapy and their time course.
+- **Neck dissection and flap** appearances, and the mimics (levator scapulae, residual thyroid lobe).
+- **Signs of recurrence:** discrete, new, nodular, restricted diffusion, focal FDG.
+- **NI-RADS** categories and actions.
+- **Osteoradionecrosis** versus recurrence.
+!!
+## Common pitfalls
+!pit
+- Scanning too early after radiotherapy and acting on inflammatory uptake.
+- Reading a surveillance scan without the baseline for comparison.
+- Calling a hypertrophied levator scapulae or a remaining thyroid lobe a recurrence.
+- Calling osteoradionecrosis tumour, or tumour osteoradionecrosis, without biopsy.
+!!

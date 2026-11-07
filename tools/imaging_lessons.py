@@ -108,6 +108,13 @@ L = [  # id, lesson, part, title, one-line, sources, anatomy regions, related cl
    'T4b usually means unresectable: carotid encasement, prevertebral fascia, skull base, mediastinum.',
    '**Extranodal extension** (ill-defined margins, fat, muscle, skin) changes stage and treatment.',
    'Unknown primary: image **before** panendoscopy; PET-CT; HPV and EBV status of the node.']),
+ ('im_post', 16, 'pat', 'The treated neck', 'Baseline timing, the appearance of neck dissections and flaps, expected changes after radiotherapy, the signs of recurrence, NI-RADS, and osteoradionecrosis and other complications.',
+  [DI + ', post-treatment neck chapters', ESR, DU], ['neck'], ['hnrt', 'hncprinc', 'hnrecon', 'jaw', 'lxca'],
+  ['Baseline **PET-CT at about 12 weeks** after chemoradiotherapy (PET-NECK); compare every later scan with it.',
+   'Expected change is **symmetric, smooth and diffuse**: oedema early, fibrosis and atrophy late.',
+   'Recurrence is **discrete, new or enlarging**, nodular at flap margins, restricts diffusion and is focally FDG-avid.',
+   '**NI-RADS** 1 to 4 for primary and neck, each tied to an action.',
+   'Mimics: hypertrophied levator scapulae, residual thyroid lobe, **osteoradionecrosis**.']),
 ]
 EXTRA = {}
 def main():
