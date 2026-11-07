@@ -1,0 +1,24 @@
+<svg viewBox="0 0 340 300" role="img" aria-label="Hounsfield scale and CT windows" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="hug" x1="0" x2="1"><stop offset="0" stop-color="#000"/><stop offset="1" stop-color="#fff"/></linearGradient><linearGradient id="hug2" x1="0" x2="1"><stop offset="0" stop-color="#3a3a3a"/><stop offset="1" stop-color="#b8b8b8"/></linearGradient></defs>
+<text class="tt" x="20" y="16">The whole scale (HU)</text>
+<rect x="20" y="24" width="300" height="14" fill="url(#hug)" stroke="currentColor" stroke-opacity=".3"/>
+<line class="g2" x1="20.0" y1="38" x2="20.0" y2="44"/><text class="lb" x="20.0" y="55" text-anchor="start">Air −1000</text>
+<line class="g2" x1="120.0" y1="38" x2="120.0" y2="44"/><text class="lb" x="120.0" y="55" text-anchor="middle">Water 0</text>
+<line class="g2" x1="220.0" y1="38" x2="220.0" y2="44"/><text class="lb" x="220.0" y="55" text-anchor="middle">Dense bone +1000</text>
+<line class="g2" x1="320.0" y1="38" x2="320.0" y2="44"/><text class="lb" x="320.0" y="55" text-anchor="end">Metal</text>
+<line class="ln r" x1="20.0" y1="80" x2="320.0" y2="80" stroke-width="5"/>
+<text class="lb r" x="20.0" y="74">Bone window (L 700, W 4000)</text>
+<line class="ln l" x1="107.5" y1="102" x2="142.5" y2="102" stroke-width="5"/>
+<text class="lb l" x="107.5" y="96">Soft-tissue window (L 50, W 350)</text>
+<line class="ln a" x1="20.0" y1="124" x2="135.0" y2="124" stroke-width="5"/>
+<text class="lb a" x="20.0" y="118">Lung window (L -600, W 1500)</text>
+<text class="tt" x="20" y="164">Zoom: −150 to +300 HU, where soft tissues differ</text>
+<rect x="20" y="172" width="300" height="14" fill="url(#hug2)" stroke="currentColor" stroke-opacity=".3"/>
+<line class="g2" x1="53.3" y1="186" x2="53.3" y2="196"/><text class="lb" x="56.3" y="200" text-anchor="start">Fat −100</text>
+<line class="g2" x1="120.0" y1="186" x2="120.0" y2="210"/><text class="lb" x="123.0" y="214" text-anchor="start">Water, CSF 0</text>
+<line class="g2" x1="133.3" y1="186" x2="133.3" y2="224"/><text class="lb" x="136.3" y="228" text-anchor="start">Fluid with protein 10–30</text>
+<line class="g2" x1="150.0" y1="186" x2="150.0" y2="238"/><text class="lb" x="153.0" y="242" text-anchor="start">Muscle, node 40–50</text>
+<line class="g2" x1="166.7" y1="186" x2="166.7" y2="252"/><text class="lb" x="169.7" y="256" text-anchor="start">Fresh blood 60–80</text>
+<line class="g2" x1="240.0" y1="186" x2="240.0" y2="266"/><text class="lb" x="320.0" y="270" text-anchor="end">Enhancing vessel 150–300</text>
+<text class="lb" x="20" y="294">Inside the window: greys. Below it: black. Above it: white.</text>
+</svg>

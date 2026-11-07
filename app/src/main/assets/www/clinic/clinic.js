@@ -22,7 +22,7 @@ const modeBar=()=>`<div class="armode" role="group" aria-label="Reading mode"><b
 const ALOAD={};
 function loadArt(id){return ALOAD[id]=ALOAD[id]||new Promise((ok,no)=>{if(window.CLART&&window.CLART[id])return ok();const sc=document.createElement("script");sc.src="clinic/art/"+id+".js";sc.onload=ok;sc.onerror=()=>{delete ALOAD[id];no()};document.head.appendChild(sc)})}
 function vArticle(id){const t=BY[id],A=(window.CLART||{})[id];
- if(!A)return `<div class="clw arw"><span class="cle">Clinical · ${e(GN[t.g])}</span><h1>${e(t.t)}</h1><p class="armeta">Opening the article…</p></div>`;
+ if(!A)return `<div class="clw arw"><span class="cle">${e(kick(t))}</span><h1>${e(t.t)}</h1><p class="armeta">Opening the article…</p></div>`;
  const mins=Math.max(3,Math.round(A.w/220));const nq=QUIZ.filter(q=>q.tp===id).length,nc=CARDS.filter(c=>c.tp===id).length,L=LK(id);
  const subs=c=>{const m=[...A.h.matchAll(new RegExp('<details class="arsub" id="a-s'+c+'-(\\d+)"[^>]*><summary><span class="arsn">([\\d.]+)</span><h3>(.*?)</h3>','g'))];return m.map(x=>({id:"a-s"+c+"-"+x[1],n:x[2],t:x[3]}))};
  const ch=A.ch.map((x,i)=>({id:"a-c"+(i+1),n:i+1,t:x,s:subs(i+1)}));
@@ -33,7 +33,7 @@ function vArticle(id){const t=BY[id],A=(window.CLART||{})[id];
   ${t.an.length?`<div class="clh3" style="color:var(--accent)">Related anatomy</div><div class="cllist">${t.an.map(r=>RMAP[r]?row(`data-go="region:${r}"`,RMAP[r].name,"","an"):"").join("")}</div>`:""}
   ${t.rel.length?`<div class="clgh">Related diseases</div><div class="cllist">${t.rel.map(r=>BY[r]?row(`data-go="cl:t-${r}"`,BY[r].t):"").join("")}</div>`:""}
   <p class="clsrc">Written for this app from ${e(t.srcs)}. Figures reproduced from the books for private study. Study reference only: follow local protocols and senior advice for patients.</p></section>`;
- return `<div class="clw arw"><span class="cle">Clinical · ${e(GN[t.g])}</span><h1>${e(t.t)}</h1>
+ return `<div class="clw arw"><span class="cle">${e(kick(t))}</span><h1>${e(t.t)}</h1>
  ${A.stand?`<p class="arstand">${md(A.stand)}</p>`:`<p class="arstand">${md(t.one)}</p>`}
  <div class="armeta"><span><b>Reading</b> about ${mins} min</span><span><b>Outline</b> ${ch.length} chapters · ${A.n} sections</span><span><b>Sources</b> ${e(t.srcs)}</span></div>
  <nav class="artoc" aria-label="Chapters"><ol>${ch.map(c=>`<li data-c="${c.id}"><button type="button" data-artgo="${c.id}"><i>${c.n}</i>${e(c.t)}</button></li>`).join("")}<li data-c="a-end"><button type="button" data-artgo="a-end"><i>${ch.length+1}</i>Continue</button></li></ol></nav>
@@ -72,11 +72,12 @@ const NEWIN=["oesoph","fbfood","laser","skullbase","cleft","facplast","hnrecon",
 const amin=id=>{const i=AIDX()[id];return i?Math.max(3,Math.round(i.w/220)):0};
 function trow(t,sub){const r=RD()[t.id],o=OP()[t.id],nw=!o&&NEWIN.includes(t.id);
  return `<button class="clrow clt ${r?"rd":o?"op":""}" data-go="cl:t-${t.id}"><i class="clst" aria-hidden="true"></i><span class="m"><b>${e(t.t)}</b><small>${e(sub!=null?sub:(amin(t.id)?amin(t.id)+" min read":"Quick notes"))}${r?" · Read":o?" · Started":""}</small></span>${nw?`<em class="clnew">New</em>`:""}${ic("chev",16)}</button>`}
-function nextUp(){const r=RD(),o=OP(),l=ST.cll;if(l&&BY[l]&&!r[l])return [BY[l],"Continue reading"];const nw=NEWIN.find(id=>BY[id]&&!o[id]);if(nw)return [BY[nw],"New in the library"];const u=D.t.find(t=>!r[t.id]);return u?[u,"Up next"]:null}
+function nextUp(){const r=RD(),o=OP(),l=ST.cll;if(l&&BY[l]&&!r[l])return [BY[l],"Continue reading"];const nw=NEWIN.find(id=>BY[id]&&!o[id]&&BY[id].g!==IMGL);if(nw)return [BY[nw],"New in the library"];const u=D.t.find(t=>!r[t.id]&&t.g!==IMGL);return u?[u,"Up next"]:null}
 /* two branches: diseases (by region) and "Approach to" (by presenting symptom, sub-grouped by system) */
 const APL="hl ap_otorr otalgia ap_full tinnitus ap_dizzy ap_face ap_block ap_rhin epistaxis ap_pnd ap_pain ap_smell ap_crust ap_epiph ap_sore ap_ulcer osa ap_hoarse ap_dysph ap_globus stridor neckmass ap_saliv".split(" "),APO=id=>{const i=APL.indexOf(id);return i<0?99:i};
 const LMODE=()=>ST.clmode==="ap"?"ap":"dz",AP="appr",SYS={ear:"Ear",nose:"Nose & sinuses",mouth:"Mouth & throat",larynx:"Larynx & airway",neck:"Neck"};
-const inMode=t=>LMODE()==="ap"?(t.g===AP||!!t.xap):t.g!==AP;
+const IMGL="imgl",inMode=t=>t.g!==IMGL&&(LMODE()==="ap"?(t.g===AP||!!t.xap):t.g!==AP);
+const kick=t=>t.g===IMGL?"Imaging course"+(t.les?" · Lesson "+t.les:""):"Clinical · "+GN[t.g];
 function vHome(){const r=RD(),M=LMODE(),T=D.t.filter(inMode),n=T.filter(t=>r[t.id]).length,N=T.length,nx=nextUp(),ap=M==="ap";
  return `<div class="clw"><span class="cle">${ap?"By presenting symptom":"Diseases"}</span><h1>Clinical</h1>
  <div class="clseg" role="group" aria-label="Library"><button data-clmode="dz" aria-pressed="${!ap}">Diseases</button><button data-clmode="ap" aria-pressed="${ap}">Approach to…</button></div>
@@ -84,9 +85,9 @@ function vHome(){const r=RD(),M=LMODE(),T=D.t.filter(inMode),n=T.filter(t=>r[t.i
  <p class="clprog"><span><i style="width:${N?100*n/N:0}%"></i></span><small>${n} of ${N} ${ap?"approaches":"articles"} read</small></p>
  ${nx&&!ap?`<button class="clhero" data-go="cl:t-${nx[0].id}"><span class="cle">${nx[1]} · ${e(GN[nx[0].g])}</span><b>${e(nx[0].t)}</b><small>${e(nx[0].one.length>160?nx[0].one.slice(0,158).replace(/\s+\S*$/,"")+"…":nx[0].one)}</small><span class="clgo">${amin(nx[0].id)?amin(nx[0].id)+" min read":"Open"}${ic("chev",15)}</span></button>`:""}
  <input class="clsearch" id="clq" type="search" aria-label="Search" placeholder="${ap?"Search a symptom: hoarseness, dizziness…":"Search a disease or symptom"}" value="${e(QQ)}"><div id="cllist">${list()}</div></div>`}
-function list(){const q=QQ.trim().toLowerCase();if(q){const L=D.t.filter(t=>(t.t+" "+t.one+" "+t.ddx.join(" ")).toLowerCase().includes(q)).sort((a,b)=>inMode(b)-inMode(a));return L.length?`<div class="cllist">${L.map(t=>trow(t,(t.g===AP?"Approach to":GN[t.g])+(amin(t.id)?" · "+amin(t.id)+" min":""))).join("")}</div>`:`<p class="clsrc">No topic matches yet.</p>`}
+function list(){const q=QQ.trim().toLowerCase();if(q){const L=D.t.filter(t=>(t.t+" "+t.one+" "+t.ddx.join(" ")).toLowerCase().includes(q)).sort((a,b)=>inMode(b)-inMode(a));return L.length?`<div class="cllist">${L.map(t=>trow(t,(t.g===AP?"Approach to":t.g===IMGL?"Imaging course":GN[t.g])+(amin(t.id)?" · "+amin(t.id)+" min":""))).join("")}</div>`:`<p class="clsrc">No topic matches yet.</p>`}
  const r=RD(),ap=LMODE()==="ap";
- const grp=ap?Object.keys(SYS).map(k=>[SYS[k],D.t.filter(t=>(t.g===AP&&t.sys===k)||t.xap===k).sort((a,b)=>APO(a.id)-APO(b.id))]):Object.keys(GN).filter(g=>g!==AP).map(g=>[GN[g],D.t.filter(t=>t.g===g)]);
+ const grp=ap?Object.keys(SYS).map(k=>[SYS[k],D.t.filter(t=>(t.g===AP&&t.sys===k)||t.xap===k).sort((a,b)=>APO(a.id)-APO(b.id))]):Object.keys(GN).filter(g=>g!==AP&&g!==IMGL).map(g=>[GN[g],D.t.filter(t=>t.g===g)]);
  return grp.filter(x=>x[1].length).map(([name,ts])=>{const n=ts.filter(t=>r[t.id]).length;return `<div class="clgh"><span>${e(name)}</span><small>${n?n+" of "+ts.length+" read":ts.length+(ap?" approaches":" articles")}</small></div><div class="cllist">${ts.map(t=>trow(t)).join("")}</div>`}).join("")}
 function tbs(t){return (t.tb||[]).map(b=>`<div class="clh3">${e(b.t)}</div><div class="cltw"><table class="cltb"><thead><tr>${b.h.map(x=>`<th>${e(x)}</th>`).join("")}</tr></thead><tbody>${b.r.map(r=>`<tr>${r.map(x=>`<td>${e(x)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`).join("")}
 function vTopic(id){const t=BY[id];if(!t)return vHome();window.CL_LAST=t;if(hasArt(id))return vArticle(id);return vQuick(id)}
@@ -94,7 +95,7 @@ function vQuick(id){const t=BY[id],o=OPEN[id]=OPEN[id]||{};
  const nq=QUIZ.filter(q=>q.tp===id).length,nc=CARDS.filter(c=>c.tp===id).length;
  const nim=LK(id).im.length;const sec=(k,n)=>{const has=t[k]&&t[k].length||(k==="cls"&&t.tb&&t.tb.length)||(k==="tx"&&t.ops.length)||(k==="dx"&&(nim||LK(id).rd.length));if(!has)return "";const on=o[k]!==undefined?o[k]:(k==="tx"||(k==="cls"&&!(t.tx||[]).length));
   return `<section class="clsec"><button data-cls="${id}:${k}" aria-expanded="${on}"><span>${n}${k==="dx"&&nim?`<small class="clbadge">${nim} imaging</small>`:""}</span><i aria-hidden="true">${on?"−":"+"}</i></button>${on?`<div class="sec">${ul(t[k]||[])}${k==="cls"?tbs(t):""}${k==="dx"?dxExtra(id):""}${k==="tx"&&t.ops.length?`<div class="clh3" style="color:#1F5B4A">Surgical treatment</div><div class="cllist">${t.ops.map(([n,w])=>row(`data-clop="${n}"`,D.ops[n]||("Myers ch. "+n),w,"op")).join("")}</div>`:""}</div>`:""}</section>`};
- return `<div class="clw"><span class="cle">Clinical · ${e(GN[t.g])}</span><h1>${e(t.t)}</h1><p class="cllede">${md(t.one)}</p>
+ return `<div class="clw"><span class="cle">${e(kick(t))}</span><h1>${e(t.t)}</h1><p class="cllede">${md(t.one)}</p>
  ${t.sum&&t.sum.length?`<section class="clsum"><h2>Summary</h2><ul>${t.sum.map(x=>`<li>${md(x)}</li>`).join("")}</ul></section>`:""}
  ${t.call.length?`<div class="clcall"><h2>On call: what you do first</h2><ol>${t.call.map(x=>`<li>${md(x)}</li>`).join("")}</ol></div>`:""}
  ${SECS.map(([k,n])=>sec(k,n)).join("")}

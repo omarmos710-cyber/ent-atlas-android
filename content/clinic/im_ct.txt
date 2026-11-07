@@ -1,0 +1,88 @@
+@stand Most of the scans an ENT surgeon requests are CT, and most mistakes in reading them come from not knowing what the picture is made of. A CT image is a map of density, displayed through a window you choose, reconstructed with a filter that favours either bone or soft tissue, and sliced in planes you can rebuild at will. Once those four ideas are clear, every temporal bone, sinus and neck scan becomes easier to read.
+
+# What a CT image is | A map of density.
+## Hounsfield units
+CT measures how much each small volume of tissue (a *voxel*) absorbs X-rays, and expresses it on the **Hounsfield scale**, where water is 0 and air is −1000. Fat is negative (about −100), soft tissues sit a little above water (muscle 40 to 50), fresh blood is denser (60 to 80), iodinated contrast in vessels reaches 100 to 300, and bone ranges from a few hundred to over 1000. Placing a region of interest on a lesion and reading its number is often the quickest way to tell fat from fluid, or fluid from blood.
+!draw hu-scale | The Hounsfield scale and three common windows. The window decides which densities are shown as grey: everything below it is black and everything above it white.
+## Windows
+A screen can show only about 256 shades of grey, and the eye distinguishes far fewer, so the radiologist chooses a **window**: a *level* (the centre value) and a *width* (the range displayed). A **bone window** (level about 500 to 700, width 2000 to 4000) shows ossicles, the otic capsule, the skull base foramina and thin sinus walls, but makes all soft tissue look the same grey. A **soft-tissue window** (level about 40 to 60, width 350 to 400) separates muscle, fat, nodes, tumour and abscess, but turns bone uniformly white. A wide **lung window** is used for the airway and the chest.
+
+Every CT must be read in both bone and soft-tissue windows, because each hides what the other shows: an orbital abscess is invisible on bone windows, and a dehiscent lamina papyracea is invisible on soft-tissue windows.
+!im bk1_1a bk1_1b bk1_1c | The same patient in three settings. (a) Bone window: intact lamina papyracea (1) with ethmoid and sphenoid opacification. (b) Soft-tissue window: an orbital mass (1) compressing the medial rectus (2). (c) After contrast: the capsule of a subperiosteal abscess enhances (1) around fluid (2).
+!pearl Read the window before the scan
+Before interpreting any image, look at the window settings in the corner. A "normal" temporal bone in a soft-tissue window, or a "normal" neck in a bone window, means only that the wrong window was used.
+!!
+
+# How the images are made | Reconstruction, slices and planes.
+## Bone and soft-tissue reconstructions
+The raw data from the scanner can be reconstructed with different mathematical filters (*kernels*). A **bone (sharp, high-resolution) algorithm** gives crisp edges and fine detail at the cost of noise, and is used for the temporal bone, sinuses and facial skeleton. A **soft-tissue (smooth) algorithm** reduces noise and shows subtle density differences, and is used for the neck. A good temporal bone or sinus study is therefore reconstructed twice, in a bone algorithm for the bones and a soft-tissue algorithm for the soft tissues, and each is then viewed in its own window.
+## Slice thickness and multiplanar reformats
+Modern multidetector scanners acquire a volume of very thin data (0.5 to 0.6 mm) in one pass, from which images can be rebuilt in any plane. **Temporal bone** studies use slices of about 0.5 to 0.6 mm, with axial and coronal reformats, and often oblique planes along the cochlea or the semicircular canals (Pöschl and Stenvers views). **Sinus** studies use about 1 mm in axial, coronal and sagittal planes; the coronal plane mirrors the surgeon's endoscopic view, and the sagittal plane shows the frontal recess. **Neck** studies use 2 to 3 mm soft-tissue slices with thinner bone images of the skull base, mandible and larynx where needed.
+
+Because the volume can be reformatted, the patient needs to be scanned only once; direct coronal scanning with the neck extended is no longer needed and is avoided in trauma.
+!fig ia101-1 ia101-2 | Coronal bone-algorithm CT of the middle ear in thin section: the tympanic segment of the facial nerve, the oval window and stapes, the scutum and Prussak's space are all visible. Detail like this needs submillimetre slices.
+## Scrolling, not snapshots
+On the workstation, anatomy is learnt by scrolling through the stack and following each structure from slice to slice, not by looking at single images. Follow the facial nerve from the internal auditory canal to the stylomastoid foramen, or the uncinate process from top to bottom, and the anatomy becomes three-dimensional.
+
+# Contrast | When and why.
+## Iodinated contrast
+Intravenous iodinated contrast opacifies vessels and enhances tissues with a blood supply. **Contrast-enhanced CT** is the standard for neck masses, cancer staging, nodes, abscesses and suspected vascular lesions. Many neck protocols use a **split bolus** or a delay of 60 to 90 seconds after injection, so that both arteries and mucosa enhance and tumours stand out from muscle. **CT angiography** times the scan to the arterial phase to show vessels, for trauma, paragangliomas, pulsatile tinnitus and bleeding.
+
+Contrast is *not* needed for routine sinus or temporal bone imaging, where the question is about bone and air. Before contrast, ask about previous reactions, renal function and metformin, and remember that iodine interferes with radioactive iodine treatment of thyroid cancer for weeks.
+!table What to request
+Question | Study
+Chronic rhinosinusitis before surgery | Non-contrast CT sinuses, thin bone algorithm, three planes (or cone-beam CT)
+Cholesteatoma, conductive loss, trauma to the ear | Non-contrast thin-section CT temporal bones
+Neck mass, cancer staging, nodes | Contrast-enhanced CT neck (or MRI)
+Deep neck abscess or orbital complication | Contrast-enhanced CT
+Pulsatile tinnitus, vascular tumour, trauma to vessels | CT angiography (and venography)
+Facial fracture | Non-contrast thin CT with 3D reconstructions
+!!
+
+# Cone-beam CT and dose | Lower dose, fewer uses.
+## Cone-beam CT
+Cone-beam CT uses a cone of X-rays and a flat detector rotating once around the head, usually with the patient seated. It gives excellent bony detail of the sinuses, temporal bone and teeth at a lower dose than conventional CT, and suffers less from metal artefact around cochlear implants. Its soft-tissue contrast is poor, Hounsfield values are unreliable, and motion degrades it, so it cannot replace conventional CT for soft tissue, infection or tumour.
+## Radiation
+A sinus or temporal bone CT gives a modest effective dose, but the lens of the eye lies in the field of sinus and orbital scans, and children are more sensitive to radiation. Use low-dose protocols for sinus CT, avoid repeat scans that will not change management, and prefer ultrasound or MRI in children when they can answer the question.
+
+# Artefacts | When the picture lies.
+## The common artefacts
+!table CT artefacts in head and neck imaging
+Artefact | Cause | Effect and remedy
+Streak (beam hardening) | Dental amalgam, implants, dense bone | Dark and bright streaks across the oral cavity and oropharynx; angle the gantry, use metal-reduction software, or MRI
+Motion | Swallowing, breathing, a restless child | Blurred or doubled edges, especially the larynx; repeat with breath-hold or quiet breathing
+Partial volume | A thick slice containing two tissues | Thin bony plates (lamina papyracea, tegmen, stapes) appear absent; use thin slices before calling a dehiscence
+Noise | Low dose, large patient | Grainy images; thicker reconstructions or a higher dose
+Positioning | Head tilted | Asymmetry that mimics disease; compare like with like and reformat
+!!
+!im es43 | Dental amalgam artefact hiding a left oral tongue cancer on CT; MRI showed the tumour.
+!flag Do not over-call a dehiscence
+Thin bony plates such as the tegmen, the bone over the superior semicircular canal and the lamina papyracea can disappear on CT through partial volume averaging. Confirm on thin slices in more than one plane, and ideally on reformats along the structure (Pöschl view for the superior canal), before diagnosing a dehiscence.
+!!
+
+!path Reading any CT, every time
+Check the basics | patient name and date, region, contrast or not, slice thickness, planes available
+Check the windows | bone window for bone and air ; soft-tissue window for soft tissue ; adjust if needed
+Scroll the whole stack | follow structures slice to slice ; compare left with right
+Use the planes | axial, coronal and sagittal for every finding
+Measure | Hounsfield units for fat, fluid, blood or enhancement ; size in two or three planes
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Hounsfield units** of air, fat, water, soft tissue, blood and bone.
+- **Windows** (level and width), and why every CT needs bone and soft-tissue viewing.
+- **Bone versus soft-tissue reconstruction** kernels.
+- **Slice thickness** and planes for temporal bone, sinus and neck studies.
+- **When to give contrast,** and when it adds nothing.
+- **Cone-beam CT:** advantages and limits.
+- **Artefacts**, especially dental amalgam and partial volume.
+!!
+## Common pitfalls
+!pit
+- Reading a temporal bone in a soft-tissue window, or a neck in a bone window.
+- Requesting contrast for chronic sinusitis, or forgetting it for a neck abscess.
+- Calling a dehiscence on one thick slice.
+- Missing an oral cavity cancer hidden by dental artefact without asking for MRI.
+!!

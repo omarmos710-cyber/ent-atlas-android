@@ -1,0 +1,48 @@
+<svg viewBox="0 0 340 236" role="img" aria-label="Tissue brightness on MRI sequences" xmlns="http://www.w3.org/2000/svg">
+<text class="tt" x="8" y="16">Brightness on common sequences</text>
+<text class="lb" x="145" y="28" text-anchor="middle">T1</text>
+<text class="lb" x="199" y="28" text-anchor="middle">T2</text>
+<text class="lb" x="253" y="28" text-anchor="middle">T1 fat-sat + Gd</text>
+<text class="lb" x="307" y="28" text-anchor="middle">DWI (b1000)</text>
+<text class="lb" x="8" y="49">Fluid, CSF</text>
+<rect x="121" y="36" width="48" height="18" rx="3" fill="rgb(42,42,42)" stroke="currentColor" stroke-opacity=".25"/>
+<rect x="175" y="36" width="48" height="18" rx="3" fill="rgb(233,233,233)" stroke="currentColor" stroke-opacity=".25"/>
+<rect x="229" y="36" width="48" height="18" rx="3" fill="rgb(42,42,42)" stroke="currentColor" stroke-opacity=".25"/>
+<rect x="283" y="36" width="48" height="18" rx="3" fill="rgb(53,53,53)" stroke="currentColor" stroke-opacity=".25"/>
+<text class="lb" x="8" y="71">Fat</text>
+<rect x="121" y="58" width="48" height="18" rx="3" fill="rgb(233,233,233)" stroke="currentColor" stroke-opacity=".25"/>
+<rect x="175" y="58" width="48" height="18" rx="3" fill="rgb(188,188,188)" stroke="currentColor" stroke-opacity=".25"/>
+<rect x="229" y="58" width="48" height="18" rx="3" fill="rgb(42,42,42)" stroke="currentColor" stroke-opacity=".25"/>
+<rect x="283" y="58" width="48" height="18" rx="3" fill="rgb(42,42,42)" stroke="currentColor" stroke-opacity=".25"/>
+<text class="lb" x="8" y="93">Muscle</text>
+<rect x="121" y="80" width="48" height="18" rx="3" fill="rgb(98,98,98)" stroke="currentColor" stroke-opacity=".25"/>
+<rect x="175" y="80" width="48" height="18" rx="3" fill="rgb(87,87,87)" stroke="currentColor" stroke-opacity=".25"/>
+<rect x="229" y="80" width="48" height="18" rx="3" fill="rgb(98,98,98)" stroke="currentColor" stroke-opacity=".25"/>
+<rect x="283" y="80" width="48" height="18" rx="3" fill="rgb(87,87,87)" stroke="currentColor" stroke-opacity=".25"/>
+<text class="lb" x="8" y="115">Cortical bone, air</text>
+<rect x="121" y="102" width="48" height="18" rx="3" fill="rgb(20,20,20)" stroke="currentColor" stroke-opacity=".25"/>
+<rect x="175" y="102" width="48" height="18" rx="3" fill="rgb(20,20,20)" stroke="currentColor" stroke-opacity=".25"/>
+<rect x="229" y="102" width="48" height="18" rx="3" fill="rgb(20,20,20)" stroke="currentColor" stroke-opacity=".25"/>
+<rect x="283" y="102" width="48" height="18" rx="3" fill="rgb(20,20,20)" stroke="currentColor" stroke-opacity=".25"/>
+<text class="lb" x="8" y="137">Enhancing tumour</text>
+<rect x="121" y="124" width="48" height="18" rx="3" fill="rgb(98,98,98)" stroke="currentColor" stroke-opacity=".25"/>
+<rect x="175" y="124" width="48" height="18" rx="3" fill="rgb(155,155,155)" stroke="currentColor" stroke-opacity=".25"/>
+<rect x="229" y="124" width="48" height="18" rx="3" fill="rgb(211,211,211)" stroke="currentColor" stroke-opacity=".25"/>
+<rect x="283" y="124" width="48" height="18" rx="3" fill="rgb(143,143,143)" stroke="currentColor" stroke-opacity=".25"/>
+<text class="lb" x="8" y="159">Abscess pus</text>
+<rect x="121" y="146" width="48" height="18" rx="3" fill="rgb(65,65,65)" stroke="currentColor" stroke-opacity=".25"/>
+<rect x="175" y="146" width="48" height="18" rx="3" fill="rgb(222,222,222)" stroke="currentColor" stroke-opacity=".25"/>
+<rect x="229" y="146" width="48" height="18" rx="3" fill="rgb(53,53,53)" stroke="currentColor" stroke-opacity=".25"/>
+<rect x="283" y="146" width="48" height="18" rx="3" fill="rgb(233,233,233)" stroke="currentColor" stroke-opacity=".25"/>
+<text class="lb" x="8" y="181">Cholesteatoma</text>
+<rect x="121" y="168" width="48" height="18" rx="3" fill="rgb(76,76,76)" stroke="currentColor" stroke-opacity=".25"/>
+<rect x="175" y="168" width="48" height="18" rx="3" fill="rgb(188,188,188)" stroke="currentColor" stroke-opacity=".25"/>
+<rect x="229" y="168" width="48" height="18" rx="3" fill="rgb(53,53,53)" stroke="currentColor" stroke-opacity=".25"/>
+<rect x="283" y="168" width="48" height="18" rx="3" fill="rgb(233,233,233)" stroke="currentColor" stroke-opacity=".25"/>
+<text class="lb" x="8" y="203">Subacute blood</text>
+<rect x="121" y="190" width="48" height="18" rx="3" fill="rgb(222,222,222)" stroke="currentColor" stroke-opacity=".25"/>
+<rect x="175" y="190" width="48" height="18" rx="3" fill="rgb(211,211,211)" stroke="currentColor" stroke-opacity=".25"/>
+<rect x="229" y="190" width="48" height="18" rx="3" fill="rgb(222,222,222)" stroke="currentColor" stroke-opacity=".25"/>
+<rect x="283" y="190" width="48" height="18" rx="3" fill="rgb(132,132,132)" stroke="currentColor" stroke-opacity=".25"/>
+<text class="lb" x="8" y="230">Schematic. Gd = gadolinium; fat-sat = fat suppressed.</text>
+</svg>

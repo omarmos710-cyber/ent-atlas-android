@@ -190,6 +190,54 @@ def vhit():
     s.append('</svg>')
     open(os.path.join(OUT, 'vhit.svg'), 'w').write('\n'.join(s))
 
+def hu_scale():
+    W, H = 340, 300; x0, x1 = 20, 320
+    s = ['<svg viewBox="0 0 %d %d" role="img" aria-label="Hounsfield scale and CT windows" xmlns="http://www.w3.org/2000/svg">' % (W, H)]
+    s.append('<defs><linearGradient id="hug" x1="0" x2="1"><stop offset="0" stop-color="#000"/><stop offset="1" stop-color="#fff"/></linearGradient>'
+             '<linearGradient id="hug2" x1="0" x2="1"><stop offset="0" stop-color="#3a3a3a"/><stop offset="1" stop-color="#b8b8b8"/></linearGradient></defs>')
+    X = lambda hu: x0 + (hu + 1000) / 3000 * (x1 - x0)
+    s.append('<text class="tt" x="%d" y="16">The whole scale (HU)</text>' % x0)
+    s.append('<rect x="%d" y="24" width="%d" height="14" fill="url(#hug)" stroke="currentColor" stroke-opacity=".3"/>' % (x0, x1 - x0))
+    for hu, t, anc in ((-1000, 'Air −1000', 'start'), (0, 'Water 0', 'middle'), (1000, 'Dense bone +1000', 'middle'), (2000, 'Metal', 'end')):
+        s.append('<line class="g2" x1="%.1f" y1="38" x2="%.1f" y2="44"/><text class="lb" x="%.1f" y="55" text-anchor="%s">%s</text>' % (X(hu), X(hu), X(hu), anc, t))
+    wins = [('Bone window', 700, 4000, 'r'), ('Soft-tissue window', 50, 350, 'l'), ('Lung window', -600, 1500, 'a')]
+    for i, (t, L, Wd, c) in enumerate(wins):
+        y = 80 + i * 22; a_, b_ = max(-1000, L - Wd / 2), min(2000, L + Wd / 2)
+        s.append('<line class="ln %s" x1="%.1f" y1="%d" x2="%.1f" y2="%d" stroke-width="5"/>' % (c, X(a_), y, X(b_), y))
+        s.append('<text class="lb %s" x="%.1f" y="%d">%s (L %d, W %d)</text>' % (c, max(x0, X(a_)), y - 6, t, L, Wd))
+    # zoom
+    Z = lambda hu: x0 + (hu + 150) / 450 * (x1 - x0); zy = 178
+    s.append('<text class="tt" x="%d" y="%d">Zoom: −150 to +300 HU, where soft tissues differ</text>' % (x0, zy - 14))
+    s.append('<rect x="%d" y="%d" width="%d" height="14" fill="url(#hug2)" stroke="currentColor" stroke-opacity=".3"/>' % (x0, zy - 6, x1 - x0))
+    lab = [(-100, 'Fat −100', 0), (0, 'Water, CSF 0', 1), (20, 'Fluid with protein 10–30', 2), (45, 'Muscle, node 40–50', 3), (70, 'Fresh blood 60–80', 4), (180, 'Enhancing vessel 150–300', 5)]
+    for hu, t, row in lab:
+        y = zy + 22 + row * 14
+        anc, tx = ('end', x1) if hu > 150 else ('start', Z(hu) + 3)
+        s.append('<line class="g2" x1="%.1f" y1="%d" x2="%.1f" y2="%d"/><text class="lb" x="%.1f" y="%d" text-anchor="%s">%s</text>' % (Z(hu), zy + 8, Z(hu), y - 4, tx, y, anc, esc(t)))
+    s.append('<text class="lb" x="%d" y="%d">Inside the window: greys. Below it: black. Above it: white.</text>' % (x0, H - 6))
+    s.append('</svg>')
+    open(os.path.join(OUT, 'hu-scale.svg'), 'w').write('\n'.join(s))
+
+def mri_signal():
+    W, H = 340, 236
+    s = ['<svg viewBox="0 0 %d %d" role="img" aria-label="Tissue brightness on MRI sequences" xmlns="http://www.w3.org/2000/svg">' % (W, H)]
+    cols = ['T1', 'T2', 'T1 fat-sat + Gd', 'DWI (b1000)']
+    rows = [('Fluid, CSF', [.1, .95, .1, .15]), ('Fat', [.95, .75, .1, .1]), ('Muscle', [.35, .3, .35, .3]), ('Cortical bone, air', [0, 0, 0, 0]),
+            ('Enhancing tumour', [.35, .6, .85, .55]), ('Abscess pus', [.2, .9, .15, .95]), ('Cholesteatoma', [.25, .75, .15, .95]), ('Subacute blood', [.9, .85, .9, .5])]
+    x0, cw, rh, y0 = 118, 54, 22, 34
+    s.append('<text class="tt" x="8" y="16">Brightness on common sequences</text>')
+    for j, c in enumerate(cols):
+        s.append('<text class="lb" x="%d" y="%d" text-anchor="middle">%s</text>' % (x0 + j * cw + cw // 2, y0 - 6, esc(c)))
+    for i, (t, v) in enumerate(rows):
+        y = y0 + i * rh
+        s.append('<text class="lb" x="8" y="%d">%s</text>' % (y + 15, esc(t)))
+        for j, g in enumerate(v):
+            gv = int(20 + g * 225)
+            s.append('<rect x="%d" y="%d" width="%d" height="%d" rx="3" fill="rgb(%d,%d,%d)" stroke="currentColor" stroke-opacity=".25"/>' % (x0 + j * cw + 3, y + 2, cw - 6, rh - 4, gv, gv, gv))
+    s.append('<text class="lb" x="8" y="%d">Schematic. Gd = gadolinium; fat-sat = fat suppressed.</text>' % (H - 6))
+    s.append('</svg>')
+    open(os.path.join(OUT, 'mri-signal.svg'), 'w').write('\n'.join(s))
+
 if __name__ == '__main__':
     os.makedirs(OUT, exist_ok=True)
     legend()
@@ -212,5 +260,5 @@ if __name__ == '__main__':
               ('ACL', {250: 5, 500: 5, 1000: 10, 2000: 10, 4000: 15, 8000: 20})], note='Unmasked thresholds were the left ear answering.')
     audiogram('aud-cookie', 'Cookie-bite: mid-frequency (genetic)', [('ACR', {250: 15, 500: 30, 1000: 50, 2000: 50, 4000: 30, 8000: 20}),
               ('ACL', {250: 20, 500: 35, 1000: 55, 2000: 50, 4000: 35, 8000: 20})])
-    tymps(); speech(); abr(); ecochg(); vhit()
+    tymps(); speech(); abr(); ecochg(); vhit(); hu_scale(); mri_signal()
     print(sorted(os.listdir(OUT)))

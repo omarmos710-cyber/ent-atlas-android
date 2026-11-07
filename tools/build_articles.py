@@ -63,7 +63,22 @@ def plain(s):
     return re.sub(r'\s+', ' ', s.replace('**', '').replace('*', '')).strip()
 
 
+_IMG = None
+def img_meta():
+    """IMG table of the imaging section (index.html), used by !im figures."""
+    global _IMG
+    if _IMG is None:
+        h = open(os.path.join(WWW, 'index.html'), encoding='utf-8').read(); i = h.index('const IMG='); j = h.index('\n', i)
+        _IMG = json.loads(h[i + 10:j].rstrip(';'))
+    return _IMG
+
+
 def fig_cite(name):
+    m = re.match(r'(ia|di)(\d+)-(\d+)', name)
+    if m:
+        # file names carry the PDF page; printed page = PDF page minus the front-matter offset
+        off = {'ia': 17, 'di': 27}[m.group(1)]
+        return '%s, p. %d' % ({'ia': 'Chapman and Koontz, Imaging Anatomy: Head and Neck', 'di': 'Koch, Hamilton, Hudgins and Harnsberger, Diagnostic Imaging: Head and Neck, 3rd ed.'}[m.group(1)], int(m.group(2)) - off)
     m = re.match(r'([dl])(\d+)-(\d+)', name)
     return '%s, fig. %s.%s' % (BOOK[m.group(1)], m.group(2), m.group(3)) if m else ''
 
@@ -226,14 +241,31 @@ def compile_one(tid, text):
                 if not os.path.exists(os.path.join(FIGDIR, n + '.jpg')):
                     raise FileNotFoundError('%s: figure %s missing' % (tid, n))
             fign += 1
-            cites = sorted({fig_cite(n).split(', fig. ')[1] for n in names})
-            book = BOOK[names[0][0]]
-            cite = '%s, fig%s %s' % (book, 's' if len(cites) > 1 else '.', ' and '.join(cites))
+            if re.match(r'(ia|di)\d', names[0]):
+                pages = sorted({fig_cite(n).split(', p. ')[1] for n in names}, key=int)
+                cite = '%s, p%s %s' % (fig_cite(names[0]).split(', p. ')[0], 'p.' if len(pages) > 1 else '.', ' and '.join(pages))
+            else:
+                cites = sorted({fig_cite(n).split(', fig. ')[1] for n in names})
+                book = BOOK[names[0][0]]
+                cite = '%s, fig%s %s' % (book, 's' if len(cites) > 1 else '.', ' and '.join(cites))
             meta['figs'] += names
             imgs = ''.join('<button type="button" class="arimg" data-arfig="%s" aria-label="Enlarge figure %d"><img src="clinic/fig/%s.jpg" alt="" loading="lazy" decoding="async"></button>' % (n, fign, n) for n in names)
             meta['fx'].append({'n': fign, 'f': names, 't': plain(cap.strip()), 'w': where(), 'c': cite})
             out.append('<figure class="arfig" id="a-f%d"><div class="%s">%s</div><figcaption><b>Figure %d</b>%s<cite>%s</cite></figcaption></figure>' % (
                 fign, 'pair' if len(names) > 1 else 'one', imgs, fign, inline(cap.strip(), refs), html.escape(cite)))
+            words += len(cap.split())
+            continue
+        if ln.startswith('!im '):
+            flush()
+            spec, _, cap = ln[4:].partition('|')
+            keys = spec.split(); IMGM = img_meta()
+            for k in keys:
+                if k not in IMGM: raise KeyError('%s: imaging image %s missing' % (tid, k))
+            src = sorted({IMGM[k][4] for k in keys}); fign += 1
+            cite = '; '.join({'B': 'Dunnebier, Imaging for Otolaryngologists', 'E': 'ESR Modern Radiology, Head and Neck Imaging'}.get(x, x) for x in src)
+            meta['fx'].append({'n': fign, 'd': keys, 't': plain(cap.strip()), 'w': where(), 'c': cite})
+            out.append('<figure class="arfig" id="a-f%d"><div class="%s">%s</div><figcaption><b>Figure %d</b>%s<cite>%s</cite></figcaption></figure>' % (
+                fign, 'pair' if len(keys) > 1 else 'one', ''.join('<button type="button" data-scan data-set="%s" data-i="%d"><img src="im/%s.jpg" alt="" loading="lazy" decoding="async"></button>' % (','.join(keys), i, k) for i, k in enumerate(keys)), fign, inline(cap.strip(), refs), cite))
             words += len(cap.split())
             continue
         if ln.startswith('!draw '):

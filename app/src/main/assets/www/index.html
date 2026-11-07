@@ -1345,6 +1345,15 @@ body{margin-top:0;margin-bottom:0}
 .srmore{display:flex;align-items:center;gap:8px;margin:8px auto 0;border:0;background:none;color:var(--accent);font:600 14px var(--f-body);cursor:pointer;padding:8px}
 .srmore small{font:500 12px var(--f-body);color:var(--muted)}
 @media (prefers-reduced-motion:reduce){.srch{transition:none}}
+
+/* imaging course */
+.icourse{margin:4px 0 22px}
+.icourse .icohd{border:1px solid var(--line);border-radius:16px;padding:16px;background:var(--card,var(--bg2,transparent));margin-bottom:6px}
+.icourse .icohd h2{margin:4px 0 6px}
+.icourse .icohd p{margin:0 0 10px;color:var(--muted);line-height:1.5}
+.icourse .icnext{display:flex;flex-direction:column;align-items:flex-start;gap:6px;width:100%;text-align:left;margin-top:6px}
+.icourse .cgroup small{font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted);margin-left:6px}
+.icourse .prow.done .pn{color:var(--accent)}
 </style>
 
 <div id="boot" role="status" aria-label="Loading ENT Atlas"><div class="bwrap"><div class="spin"></div><span>ENT Atlas</span></div></div>
@@ -5579,6 +5588,7 @@ R("cl-mouth","Clinical: Mouth & throat","Clinical library",[]);
 R("cl-larynx","Clinical: Larynx & airway","Clinical library",[]);
 R("cl-neck","Clinical: Neck, thyroid & salivary","Clinical library",[]);
 R("cl-appr","Clinical: Approach to","Clinical library",[]);
+R("cl-imgl","Imaging course","Imaging",[]);
 const _clTag=(a,tp)=>{a[a.length-1].tp=tp};
 C("cl-ear","First test for a suspected middle ear effusion at the bedside?","Pneumatic otoscopy.");_clTag(CARDS,"om");
 C("cl-ear","Adult with unilateral otitis media with effusion: what must you exclude?","Nasopharyngeal carcinoma, by examining the nasopharynx.");_clTag(CARDS,"om");
@@ -6882,6 +6892,7 @@ GROUPS.forEach(([g,ids])=>ids.forEach(id=>{if(RMAP[id])RMAP[id].g=g}));
 const GCOL={"Ear":"var(--g-ear)","Nose & sinuses":"var(--g-nose)","Mouth & throat":"var(--g-throat)","Larynx & neck":"var(--g-neck)","Face, jaw & development":"var(--g-face)","Bones":"var(--g-bone)"};
 const GSHORT={"Ear":"Ear","Nose & sinuses":"Nose","Mouth & throat":"Throat","Larynx & neck":"Neck","Face, jaw & development":"Face"};
 const ICON={
+check:'<path d="M5 12.5l4.5 4.5L19 7.5"/>',
  home:'<path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/>',
  atlas:'<path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2zM4 21V5M8 7h7"/>',
  study:'<rect x="3" y="6" width="14" height="14" rx="2"/><path d="M7 3h12a2 2 0 0 1 2 2v12"/>',
@@ -7392,12 +7403,23 @@ function vHowto(id){
    <p class="mono csrc">${h.tech?"ESR Modern Radiology, Head and Neck Imaging; Dunnebier, chapter 1":"Dunnebier, Imaging for Otolaryngologists"}</p>`}
 function tblHTML(title,head,rows){return `<section class="tbl"><header><h3>${esc(title)}</h3></header><div class="tscroll"><table><thead><tr>${head.map(x=>`<th>${esc(x)}</th>`).join("")}</tr></thead><tbody>${rows.map(r=>`<tr>${r.map((x,i)=>i?`<td>${esc(x)}</td>`:`<th scope="row">${esc(x)}</th>`).join("")}</tr>`).join("")}</tbody></table></div></section>`}
 
+/* ---------- imaging course (lessons are clinical-engine articles in group "imgl") ---------- */
+const IPARTS={found:["Foundations","How each test works, and how to describe what you see"],ear:["Ear and skull base","Normal anatomy first, then a fixed search pattern"],nose:["Nose, sinuses and orbit","Normal anatomy first, then a fixed search pattern"],neck:["The neck","Spaces, larynx, mouth, nodes and glands"],pat:["Putting it together","Cancer, the treated neck, trauma and children"]};
+/*ILES*/const ILES=[["im_ct",1,"found","CT for the ENT surgeon","Hounsfield units, windows, bone and soft-tissue reconstructions, contrast, cone-beam CT, dose and artefacts."],["im_mri",2,"found","MRI made simple","T1, T2, fat suppression, gadolinium, diffusion and the heavily T2-weighted sequences, with what is bright and dark on each."],["im_test",3,"found","Choosing the test","Which test answers which question: ultrasound, CT, MRI, PET-CT, swallow studies, angiography and nuclear medicine."],["im_desc",4,"found","Describing a lesion and reading a report","A vocabulary and an order for every scan: site and space, size, margins, density or signal, enhancement, spread and nodes."]];/*/ILES*/
+function lessons(){return ILES.map(([id,les,part,t,one])=>({id,les,part,t,one}))}
+function courseHTML(){const L=lessons();if(!L.length)return "";const rd=ST.clr||{},n=L.filter(t=>rd[t.id]).length,nx=L.find(t=>!rd[t.id]);
+ return `<section class="icourse"><div class="icohd"><span class="eyebrow">Learn to read ENT imaging · ${L.length} lessons</span><h2>Master the normal scan first</h2><p>Work through the lessons in order: the tests, then each region's normal anatomy and search pattern, then the common patterns of disease. Rare conditions come last.</p>
+ <p class="clprog"><span><i style="width:${100*n/L.length}%"></i></span><small>${n} of ${L.length} lessons read</small></p>
+ ${nx?`<button class="recommend spotcard icnext" data-go="cl:t-${nx.id}"><span class="eyebrow">${n?"Next lesson":"Start here"} · Lesson ${nx.les}</span><strong>${esc(nx.t)}</strong><span>${esc(nx.one)}</span><span class="rgo">Open</span></button>`:""}</div>
+ ${Object.keys(IPARTS).map(k=>{const ls=L.filter(t=>t.part===k);if(!ls.length)return "";return `<h3 class="eyebrow cgroup">${esc(IPARTS[k][0])} <small>${esc(IPARTS[k][1])}</small></h3><div class="prows">${ls.map(t=>`<button class="prow${rd[t.id]?" done":""}" data-go="cl:t-${t.id}"><span class="pn c2">${rd[t.id]?ic("check",18):t.les}</span><span class="pt"><strong>${esc(t.t)}</strong><small>${esc(t.one)}</small></span>${ic("chev",18)}</button>`).join("")}</div>`}).join("")}</section>`}
 /* ---------- imaging hub ---------- */
 let HUBQ="",HUBMOD="all";
 function vImaging(){const nSl=SERIES.reduce((a,s)=>a+s.slices.length,0),acc=ST.spot&&ST.spot.n?Math.round(100*ST.spot.r/ST.spot.n):null;
   const areas=GROUPS.map(([g,ids])=>[g,ids.filter(id=>RMAP[id]&&regionHasImaging(id))]).filter(x=>x[1].length);
   const mods=["CT","MRI","X-ray","Barium swallow","Ultrasound","PET-CT"];
   V().innerHTML=`<div class="hero"><span class="eyebrow">Imaging · ${CONDS.length} conditions · ${nSl} normal images</span><h1>Read the scan</h1></div>
+  ${courseHTML()}
+  <div class="h2row"><h2>Practise</h2></div>
   <div class="spotgrid"><button class="recommend spotcard" data-spot="all" data-mode="dx"><span class="eyebrow">Spot diagnosis</span><strong>A scan, four diagnoses</strong><span>${acc!=null?`Your score so far ${acc}% of ${ST.spot.n}`:"Ten scans from every region"}</span><span class="rgo">Start</span></button>
    <button class="recommend spotcard alt" data-spot="all" data-mode="anat"><span class="eyebrow">Name the structure</span><strong>Numbered normal anatomy</strong><span>CT and MRI slices with their legends</span><span class="rgo">Start</span></button></div>
   <div class="h2row"><h2>By area</h2></div>

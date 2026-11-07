@@ -1,0 +1,74 @@
+@stand Radiology is a language. A good description lets a colleague picture the lesion without seeing the scan, and the act of describing it in a fixed order is what stops you missing things. The authors of *Diagnostic Imaging: Head and Neck* teach one idea above all others: **find the space or structure the lesion comes from, and the differential diagnosis follows**. This lesson gives you the order and the words, and a way of reading a radiology report critically.
+
+# Where is it? | Site comes first.
+## Space or structure of origin
+Every lesion is described first by where it arises: a mucosal surface (pharynx, larynx, sinus lining), a deep space of the neck, a gland, a bone, a nerve, a vessel or a node. In the neck, the deep spaces are separated by layers of deep cervical fascia, and each space contains a limited set of structures, so each has a short list of possible lesions. The *neck by spaces* lesson teaches the map; here, the principle is enough: a mass is assumed to arise from the space it is centred in, and the way it displaces the surrounding fat and muscle confirms the space.
+!fig di70-1 | A masticator space tumour. Left: T1 MRI, the mass replaces the fat planes of the muscles of mastication and pushes the parapharyngeal fat posteromedially. Right: the same pattern drawn: knowing which way the fat moves tells you where the mass began.
+## Laterality, size and extent
+Give the side, the maximum size in three planes, and the borders the lesion reaches or crosses: the midline, the skull base, the orbit, the larynx's framework, the carotid. Size matters for staging, and extent for surgery.
+
+# What is it like? | Internal characteristics.
+## Margins and shape
+**Well defined, smooth** margins suggest a slow-growing or benign lesion (cyst, schwannoma, pleomorphic adenoma). **Ill-defined, infiltrative** margins suggest malignancy or infection. Lobulated, dumbbell or tubular shapes along a nerve suggest a nerve sheath tumour.
+## Density, signal and content
+On CT describe density compared with muscle (low, equal, high), and look for **fat** (lipoma, dermoid), **fluid** (cyst, abscess, necrosis), **calcification** (chondroid tumours, thyroid, phleboliths in a venous malformation) and **air** (abscess, fistula). On MRI give T1 and T2 signal, fat suppression, and diffusion. Fluid–fluid levels suggest haemorrhage in a lymphatic malformation.
+## Enhancement
+Describe whether the lesion enhances, how much and in what pattern: **none** (simple cyst, cholesteatoma), **rim** (abscess, necrotic node, infected cyst), **avid and uniform** (paraganglioma, haemangioma, schwannoma), **heterogeneous** (larger tumours with necrosis), **flow voids** (high-flow vascular tumours: the "salt and pepper" of paraganglioma).
+
+# What is it doing? | Effect on neighbours.
+## Bone: remodelling or destruction
+The behaviour of adjacent bone is one of the most useful clues on CT. **Remodelling** means the bone is expanded, thinned and bowed but still present, with a smooth margin; it implies slow growth (mucocoele, polyposis, schwannoma, juvenile angiofibroma, many benign tumours). **Destruction** means the bone is eroded and missing, with irregular, permeative or moth-eaten margins; it implies aggressive disease (carcinoma, aggressive infection such as invasive fungal sinusitis or necrotising otitis externa, metastasis). Smooth enlargement of a foramen suggests a nerve sheath tumour; irregular erosion of the foramen suggests malignancy.
+!fig di743-1 | Remodelling. A large ethmoid mucocele expands the sinus and thins and bows its walls, including the lamina papyracea, without aggressive destruction.
+!fig di781-1 | Destruction. Squamous cell carcinoma of the maxillary antrum breaks through the sinus walls into the cheek and the infratemporal fossa.
+!fig di83-2 | Smooth enlargement of the foramen ovale by a trigeminal (V3) schwannoma, with an enhancing tubular tumour following the nerve. A benign nerve sheath tumour widens a foramen; carcinoma erodes it irregularly.
+## Nerves, vessels and airway
+Look for **perineural spread**: enlargement and enhancement of a nerve, loss of the fat pad at its foramen (pterygopalatine fossa, stylomastoid foramen, foramen ovale), widening of the foramen, and denervation changes in the muscles it supplies (atrophy and fatty change, or acute oedema and enhancement). Describe the **carotid**: displaced, abutted or encased (more than 270° of contact suggests encasement and usually unresectability). Note any narrowing of the **airway**.
+!fig di70-2 | Perineural spread along the mandibular nerve. Left: post-gadolinium fat-suppressed T1, the nerve is thickened and enhancing and the foramen ovale widened. Right: the pattern drawn, tumour passing through the skull base along the nerve.
+## Nodes
+Every head and neck study includes the nodes. Name the level, size (short axis), shape, and features of malignancy: **necrosis** (the most reliable sign), round shape, loss of the fatty hilum, extranodal extension (irregular margins, fat stranding, invasion of muscle), and, in thyroid cancer, cystic change and calcification.
+
+# Building the differential | From description to diagnosis.
+## The three filters
+A differential diagnosis is built by passing the findings through three filters: **location** (what normally lives in this space or structure), **imaging character** (cystic or solid, fat, calcification, enhancement pattern, bone behaviour) and **clinical context** (age, symptoms, immune status, known cancer, previous surgery or radiotherapy). Give two to four diagnoses in order of likelihood, and say what would separate them: a further sequence, a biopsy, a blood test.
+!table A description in order
+Step | Example
+Site and space | Left parapharyngeal space, centred in the prestyloid compartment
+Size and extent | 3.4 × 2.8 × 4.1 cm, abutting the skull base, no intracranial extension
+Margins and shape | Smooth, lobulated, well defined
+Content | Low density on CT; bright on T2; no fat or calcification
+Enhancement | Heterogeneous moderate
+Effect on neighbours | Displaces the parapharyngeal fat medially; widens the stylomandibular gap; carotid displaced posteriorly, not encased; no bone erosion
+Nodes | None enlarged
+Differential | Deep lobe pleomorphic adenoma most likely; minor salivary tumour; schwannoma less likely as the carotid is displaced posteriorly
+!!
+
+# Reading a report | Critically, not passively.
+## The structure of a report
+A radiology report gives the clinical details and question, the technique (modality, contrast, sequences), the comparison studies, the findings (usually organised by structure or space), and the **impression**, which should answer the clinical question and give the most important findings first. Standardised systems help: **TI-RADS** and the **U** grading for thyroid nodules, **NI-RADS** for the treated neck, **Lund–Mackay** scoring for sinus CT, and **TNM** stage for cancer.
+## Reading it as a surgeon
+Read the images yourself before or alongside the report; you know the patient and the operation. Check that the question was answered, that the whole region was covered, and that the findings fit the clinical picture. Discrepancies should be discussed with the radiologist, ideally in a multidisciplinary meeting.
+!path Describing any lesion
+Where | side ; space, structure or organ of origin ; size in three planes ; extent and borders crossed
+What | margins and shape ; density or signal ; fat, fluid, calcification, air ; enhancement pattern ; diffusion
+What it does | bone remodelled or destroyed ; nerves and foramina ; carotid and jugular ; airway ; orbit and dura
+Nodes | levels, size, necrosis, extranodal extension
+Differential | two to four diagnoses by likelihood ; what would separate them
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Describe in order:** site, size, margins, content, enhancement, effect, nodes, differential.
+- **Space of origin** as the key to the differential.
+- **Remodelling versus destruction** of bone.
+- **Perineural spread:** the signs.
+- **Carotid encasement:** more than 270°.
+- **Malignant node features:** necrosis, shape, hilum, extranodal extension.
+!!
+## Common pitfalls
+!pit
+- Jumping to a diagnosis before saying where the lesion is.
+- Calling bone "eroded" when it is smoothly remodelled.
+- Forgetting the nodes and the nerves on a cancer scan.
+- Reading the impression only.
+!!

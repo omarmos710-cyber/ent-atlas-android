@@ -1,0 +1,77 @@
+@stand MRI does not measure density. It shows how hydrogen nuclei, mostly in water and fat, behave in a magnetic field, and each *sequence* weights the picture towards a different property. The result is a family of images of the same slice, each telling a different part of the story. Learning MRI is mostly learning which sequence answers which question, and the handful of tissues whose brightness gives the diagnosis away: fat, fluid, blood, pus, cholesteatoma and enhancing tumour.
+
+# The basic sequences | What is bright, what is dark.
+## T1 and T2
+On a **T1-weighted** image, **fat is bright** and **fluid is dark**. T1 gives the best anatomy, shows fat planes clearly (so tumour infiltrating fat stands out as grey replacing white), shows marrow, and is the baseline against which enhancement is judged. Bright signal on T1 before contrast has a short list: fat, subacute blood (methaemoglobin), proteinaceous fluid, melanin and gadolinium.
+
+On a **T2-weighted** image, **fluid is bright**. CSF, oedema, cysts, retained secretions and most inflammation are bright; most tumours are intermediate; fibrous tissue, calcification and air are dark. The quickest way to tell which is which: find the CSF. If it is white, the image is T2; if it is dark, it is T1.
+!draw mri-signal | Schematic brightness of common tissues on T1, T2, post-gadolinium T1 with fat suppression, and diffusion. Abscess and cholesteatoma are the two classic "bright on diffusion" lesions in ENT.
+## Fat suppression
+Fat is bright on T1 and fairly bright on T2, so it can hide oedema and enhancing tumour lying in fat (in the orbit, neck, skull base marrow). **Fat suppression** removes its signal. **STIR** (short tau inversion recovery) is a robust fat-suppressed T2 for oedema and inflammation; **fat-saturated T2** and **fat-saturated post-contrast T1** are standard in head and neck protocols, because enhancing tumour and perineural spread show as bright against dark fat.
+## Gadolinium
+Intravenous gadolinium shortens T1, so tissues with a blood supply or a broken blood–brain barrier become bright on T1. **Post-gadolinium T1 with fat suppression** is the workhorse for tumours, inflammation, meningeal and **perineural spread**, and for schwannomas in the IAC. Always compare with the pre-contrast T1: something bright *before* contrast is not enhancing.
+!fig di1252-1 | A small vestibular schwannoma in the internal auditory canal. Left: post-gadolinium T1 with fat suppression, the tumour enhances, with a cap of CSF lateral to it at the fundus. Right: CISS, the tumour is a dark filling defect in bright CSF; the screening sequence for asymmetric hearing loss.
+
+# Special sequences for ENT | The ones you will meet.
+## Heavily T2-weighted thin-section images
+**CISS**, **FIESTA** and **SPACE** (names differ between manufacturers) give submillimetre heavily T2-weighted images in which CSF and labyrinthine fluid are white and nerves, vessels and tumours are dark. They show the facial, cochlear and two vestibular nerves in the IAC, the fluid-filled cochlea and canals (absent in labyrinthitis ossificans, abnormal in malformations), and small schwannomas. Many centres screen asymmetric hearing loss with a non-contrast high-resolution T2 study, adding gadolinium when it is abnormal.
+!fig ia122-1 | Oblique sagittal high-resolution T2 across the internal auditory canal. The four nerves sit in bright CSF: facial anterosuperior, cochlear anteroinferior, and the superior and inferior vestibular nerves posteriorly ("seven up, Coke down").
+## Diffusion-weighted imaging
+**DWI** shows how freely water molecules move. Water that cannot move (in thick pus, keratin, or densely packed tumour cells) is **bright on DWI** and **dark on the ADC map**; checking the ADC map confirms true *restricted diffusion* rather than "T2 shine-through". In ENT, restricted diffusion means:
+- **Abscess**, including orbital, intracranial, neck and periauricular collections.
+- **Cholesteatoma**: **non-echo-planar (non-EPI) DWI** has few artefacts at the skull base and detects residual or recurrent cholesteatoma down to about 3 mm.
+- **Highly cellular tumours**, especially **lymphoma** and undifferentiated carcinoma, and epidermoid cysts.
+!fig di1069-2 | Coalescent otomastoiditis with a periauricular abscess. Left: post-gadolinium T1 with fat suppression, an enhancing mastoid with thickened enhancing meninges and a dehiscent outer cortex. Right: DWI, the abscess is bright (restricted diffusion).
+!fig di1057-1 | A congenital cholesteatoma read across modalities, part 1. Left: CT, a smooth expansile lesion of the mastoid and lateral clivus. Right: T2, bright and sharply marginated.
+!fig di1057-2 | Part 2, the same lesion. Left: post-gadolinium T1, no enhancement. Right: DWI, bright. Expansion, no enhancement and restricted diffusion together mean cholesteatoma.
+## Vessels and blood
+**MR angiography** (time-of-flight or contrast-enhanced) and **MR venography** show arteries and venous sinuses without radiation, for pulsatile tinnitus, paragangliomas and sinus thrombosis. **Susceptibility sequences** (T2* gradient echo or SWI) show old blood as dark blooming, as in superficial siderosis or microhaemorrhage in a schwannoma.
+
+# Reading an MRI study | A routine.
+## Find each sequence first
+Open the series list and identify every sequence: T1, T2 (with or without fat suppression), post-contrast T1, DWI with ADC, and any thin T2. Then for each lesion ask the same questions in order.
+!path Characterising a lesion on MRI
+T1 before contrast | dark: fluid or most tumours ; bright: fat, subacute blood, protein, melanin
+T2 | very bright: fluid, cyst, oedema, retained secretions ; intermediate: most tumours ; dark: fibrosis, calcification, air, dense secretions, fungus
+After gadolinium | none: cyst, cholesteatoma, fluid ; rim only: abscess or necrotic node ; solid: tumour or inflammation ; along a nerve: perineural spread
+DWI and ADC | bright DWI, dark ADC: pus, keratin (cholesteatoma, epidermoid), lymphoma ; no restriction: most other lesions
+Put it together | location, margins, effect on bone (CT) and neighbours, then the short differential
+!!
+!table Signal of lesions commonly met in ENT
+Lesion | T1 | T2 | Gadolinium | DWI
+Retained secretions | Dark (bright if thick) | Bright (dark if very thick or fungal) | Rim of mucosa only | Variable
+Mucocoele | Variable with protein | Variable | Rim | Usually no restriction
+Cholesteatoma | Dark | Bright | None (rim if inflamed) | Restricted
+Cholesterol granuloma | Bright | Bright | None | No restriction
+Abscess | Dark | Bright | Rim | Restricted
+Schwannoma | Intermediate | Bright, may be cystic | Avid | No restriction
+Squamous cell carcinoma | Intermediate | Intermediate | Moderate | Moderately restricted
+Lymphoma | Intermediate | Intermediate, homogeneous | Mild, uniform | Strongly restricted
+Lipoma or dermoid fat | Bright | Bright, suppresses with fat-sat | None | No restriction
+!!
+
+# Practicalities | Safety and limitations.
+## When MRI is not the answer
+MRI is slow, so motion degrades it, and children often need sedation. It shows **cortical bone poorly**, so fine bony detail (ossicles, the otic capsule, sinus walls, fractures) belongs to CT; the two are complementary in the skull base and in cancer. Check for pacemakers, some cochlear implants and other implants, metal foreign bodies in the orbit, and claustrophobia. Cochlear implant magnets cause large artefacts and may need removal or a special protocol. Gadolinium is avoided in pregnancy and in severe renal impairment.
+!flag Do not miss
+- Calling a bright-on-T1 lesion "enhancing" without looking at the pre-contrast T1.
+- Calling high DWI signal "restricted" without checking the ADC map.
+- Missing perineural spread because post-contrast images were not fat-suppressed.
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **T1 versus T2:** how to tell them apart, and what is bright on each.
+- **Fat suppression** and why it matters in the head and neck.
+- **Gadolinium:** what enhances; compare with the pre-contrast T1.
+- **DWI and ADC:** abscess, cholesteatoma (non-EPI) and lymphoma.
+- **CISS or FIESTA** for the IAC and the labyrinth.
+- **CT versus MRI:** bone versus soft tissue.
+!!
+## Common pitfalls
+!pit
+- Thinking that dark on T2 in a sinus excludes disease: thick secretions and fungus are dark.
+- Ordering MRI to look at ossicles or a fracture.
+- Forgetting cochlear implants and other implants on the safety form.
+!!

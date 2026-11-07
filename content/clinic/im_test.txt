@@ -1,0 +1,73 @@
+@stand The best scan is the one that answers the clinical question with the least harm, delay and cost. Requests such as "CT head and neck please" waste radiation and time; requests such as "unilateral conductive loss with an attic retraction: is there cholesteatoma, and are the ossicles, tegmen and lateral canal intact?" get the right protocol and a useful report. This lesson matches the common ENT questions to the test that answers them.
+
+# Start from the question | What do you need to know?
+## Bone, soft tissue, vessel or function?
+Most ENT imaging questions fall into four kinds. **Bone and air** questions (sinus anatomy before surgery, ossicles, otic capsule, fractures, erosion by cholesteatoma) belong to **CT**. **Soft tissue** questions (the extent of a tumour, perineural or intracranial spread, the IAC, the labyrinth's fluid, cholesteatoma recurrence) belong to **MRI**. **Superficial lumps and glands** (thyroid, salivary glands, neck nodes, a lump in a child) belong to **ultrasound**, with fine-needle aspiration in the same sitting. **Function** questions (the swallow, aspiration, a pouch, metabolic activity of a tumour) belong to **contrast swallow, videofluoroscopy, nuclear medicine or PET-CT**.
+!table Common ENT questions and the test that answers them
+Question | First test | Why
+Chronic rhinosinusitis, planning sinus surgery | Non-contrast CT sinuses (or cone-beam CT) | Bony anatomy, variants, skull base and orbit
+Unilateral sinus opacification or suspected tumour | CT and contrast MRI | CT for bone; MRI separates tumour from secretions and shows orbit and dura
+Orbital or intracranial complication of sinusitis | Contrast-enhanced CT; MRI if intracranial | Abscess, cavernous sinus, empyema
+Chronic otitis media, cholesteatoma, conductive loss | Non-contrast thin-section CT temporal bones | Ossicles, scutum, tegmen, lateral canal, facial canal
+Residual or recurrent cholesteatoma | Non-EPI diffusion MRI | Detects keratin down to about 3 mm
+Asymmetric sensorineural loss or tinnitus | MRI of the internal auditory meatus (high-resolution T2 ± gadolinium) | Vestibular schwannoma and other CPA lesions
+Pulsatile tinnitus | CT temporal bone with CT angiography and venography, or MRI with MRA and MRV | Paraganglioma, dehiscent jugular bulb, sinus stenosis, dural fistula
+Facial palsy, atypical or not recovering | Contrast MRI from brainstem to parotid; CT for the canal | Tumour, perineural spread, fracture
+Neck lump in an adult | Ultrasound with FNA, then contrast CT or MRI if malignant | Characterise, sample, stage
+Neck lump in a child | Ultrasound | No radiation; most are nodes or congenital cysts
+Thyroid nodule | Ultrasound (U or TI-RADS grading) with FNA | Risk grading and sampling
+Salivary lump | Ultrasound with FNA or core; MRI for deep lobe or malignancy | Site, extent, facial nerve relation
+Head and neck cancer staging | Contrast CT or MRI of primary and neck, chest CT; PET-CT for advanced disease | Local extent, nodes, distant spread
+Unknown primary | PET-CT before panendoscopy | Finds the primary in a proportion
+Response after chemoradiotherapy | PET-CT at about 12 weeks | Avoids unnecessary neck dissection (PET-NECK)
+Dysphagia or suspected pouch | Barium swallow; videofluoroscopy for aspiration | Structure and function
+Deep neck infection | Contrast-enhanced CT | Abscess versus phlegmon, airway, mediastinum
+Facial or laryngeal fracture | Non-contrast thin CT | Fracture lines and displacement
+!!
+
+# The tests one by one | Strengths and limits.
+## Ultrasound
+Ultrasound is quick, cheap, free of radiation and dynamic, and in skilled hands is the most accurate way to characterise thyroid nodules, salivary lumps and neck nodes and to guide FNA or core biopsy. A normal lymph node is oval with a bright fatty hilum; an abnormal one is round, loses its hilum, and may show necrosis, microcalcification or peripheral vascularity. Ultrasound cannot see behind bone or air, so it does not show the deep lobe of the parotid well, the retropharyngeal space, the larynx or the skull base, and it depends on the operator.
+!im es45 es44 | Abnormal neck nodes on ultrasound. Left: round, without a fatty hilum and with microcalcifications, typical of papillary thyroid cancer metastasis. Right: cystic change and loss of the hilum; fine-needle aspiration confirmed metastasis.
+## Plain films
+Plain radiographs have a small, specific role: a lateral soft-tissue neck film for a radio-opaque foreign body or for the thumb sign of supraglottitis (only if the airway is safe and it will not delay care), an orthopantomogram for dental disease, osteoradionecrosis and mandibular fractures, and a chest film. Sinus X-rays are no longer used to diagnose sinusitis.
+!im es35 es36 | Plain films that still help. Left: lateral neck in acute supraglottitis, the swollen epiglottis narrowing the airway. Right: orthopantomogram showing osteoradionecrosis of the mandible.
+## CT and MRI
+CT and MRI are covered in their own lessons. In short, CT is fast, widely available and best for bone and air, acute infection and trauma; MRI is best for soft-tissue extent, nerves, the labyrinth, the skull base and recurrence, but is slow, sensitive to motion and contraindicated with some implants. In cancer of the skull base, sinuses and nasopharynx the two are complementary.
+## PET-CT
+PET-CT combines a CT with fluorodeoxyglucose (FDG) uptake, which is high in most cancers but also in inflammation, infection, recent surgery, brown fat and normal lymphoid tissue (tonsils, adenoids). It is used for advanced-stage cancer and distant metastases, for the unknown primary, for suspected recurrence, and to assess response at about **12 weeks** after chemoradiotherapy: the PET-NECK trial showed that surveillance by PET-CT, operating only on residual uptake, was as safe as planned neck dissection and spared most patients the operation. Too early a scan gives false positives from radiation inflammation.
+!im es46 | PET shows widespread disease in a child with lymphoma: the metabolic picture that CT alone would miss.
+## Swallow studies
+A **barium swallow** shows the anatomy of the pharynx and oesophagus: pouch, web, stricture, ring, achalasia and tumour. **Videofluoroscopy** (modified barium swallow) with a speech therapist shows the dynamics of the oral and pharyngeal phases and aspiration with different textures. Water-soluble contrast is used when perforation or a leak is suspected.
+!im bk8_19a bk8_19b bk8_19c | Contrast swallow images of the pharynx and oesophagus: a dynamic study shows both structure and transit.
+## Angiography and nuclear medicine
+Catheter angiography is now used mainly for treatment: embolisation of juvenile angiofibroma, paraganglioma and epistaxis, and balloon occlusion testing before carotid sacrifice. **Nuclear medicine** offers sestamibi and SPECT-CT for parathyroid adenoma, iodine and technetium scans for the thyroid, and salivary scintigraphy for function.
+
+# Safety and stewardship | Fewer, better scans.
+## Radiation, contrast and children
+Each CT adds radiation, most important in children and for the lens of the eye. Ultrasound and MRI are preferred in children where they can answer the question; MRI in young children may need sedation or a "feed and wrap" approach in infants. Iodinated contrast is checked against allergy, renal function and planned radioactive iodine; gadolinium against renal function and pregnancy.
+## Writing a good request
+State the clinical findings, the specific question, and anything that changes the protocol: suspected cholesteatoma (thin bone CT), pulsatile tinnitus (add angiography), cancer staging (contrast, include chest), cochlear implant or other metal (MRI safety). A precise question gets a precise answer.
+!path Choosing the test
+What do you need to see? | bone, air, ossicles, fracture: CT ; soft tissue, nerve, skull base, recurrence: MRI ; superficial lump or gland: ultrasound ± FNA ; swallow or aspiration: barium or videofluoroscopy
+Is it urgent? | airway, abscess, complication, trauma: contrast CT now ; otherwise plan the best test
+Is it a child? | prefer ultrasound or MRI ; CT for bone questions and emergencies
+Is it cancer? | primary and neck by CT or MRI ; chest CT ; PET-CT for advanced, unknown primary or response at 12 weeks
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Match the test to the question:** bone, soft tissue, superficial gland or function.
+- **Ultrasound** features of an abnormal node.
+- **PET-CT:** indications, false positives, and timing after chemoradiotherapy (PET-NECK).
+- **Barium swallow versus videofluoroscopy.**
+- **Imaging children** with the least radiation.
+- **A good imaging request.**
+!!
+## Common pitfalls
+!pit
+- Ordering a CT for a thyroid nodule or a child's neck lump instead of ultrasound.
+- Requesting PET-CT too soon after radiotherapy.
+- Ordering MRI for a fracture or ossicular detail.
+!!
