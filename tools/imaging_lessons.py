@@ -32,7 +32,7 @@ L = [  # id, lesson, part, title, one-line, sources, anatomy regions, related cl
    'Then **what it does**: bone remodelling versus destruction, perineural and vascular spread, airway, nodes.',
    'Finish with a short **differential** in order of likelihood and what would settle it.']),
  ('im_tb', 5, 'ear', 'The temporal bone on CT', 'A slice-by-slice tour of the normal ear in axial and coronal planes, a checklist for every scan, and how cholesteatoma, otosclerosis, dehiscence and fractures change the picture.',
-  [IA + ', temporal bone chapters', DI + ', temporal bone overview and diagnoses', DU], ['temporal', 'middle', 'inner'], ['chole', 'tbom', 'otosc', 'scd', 'tbfx', 'atresia', 'earsurg'],
+  [IA + ', temporal bone chapters', DI + ', temporal bone overview and diagnoses', DU], ['temporal', 'midear', 'inner'], ['chole', 'tbom', 'otosc', 'scd', 'tbfx', 'atresia', 'earsurg'],
   ['Thin **bone-algorithm** CT, no contrast, axial and coronal; Pöschl and Stenvers obliques when needed.',
    'Know the landmarks: the **ice-cream cone**, **Prussak\'s space**, the **scutum**, and the posterior wall trio of **sinus tympani, pyramidal eminence and facial recess**.',
    'Read lateral to medial: canal, drum and scutum, spaces, ossicles, tegmen and canals, mastoid, inner ear, IAC and facial nerve, vessels, petrous apex.',
@@ -45,6 +45,13 @@ L = [  # id, lesson, part, title, one-line, sources, anatomy regions, related cl
    'About 90% of positive scans for unilateral SNHL are **vestibular schwannomas**: centred on the porus, acute angle, ice cream on a cone.',
    '**Meningioma**: broad dural base, obtuse angle, dural tail. **Epidermoid**: bright on DWI; arachnoid cyst is not.',
    'Labyrinthitis **enhances**; ossification **removes the T2 fluid signal**. Enhancement of the IAC or labyrinthine facial nerve is always abnormal.']),
+ ('im_skb', 7, 'ear', 'The skull base and its foramina', 'The three floors, the foramina that matter, the pterygopalatine fossa and perineural spread, and the lesions of the petrous apex, clivus and jugular foramen.',
+  [IA + ', skull base chapters', DI + ', skull base overview and diagnoses', DU], ['skullbase', 'temporal'], ['skullbase', 'petrous', 'csf', 'juv', 'npc', 'sinus_ca'],
+  ['**Bone CT** for foramina and matrix; **MRI** for extent, marrow and perineural spread. Read the **pre-contrast T1** first.',
+   'The **pterygopalatine fossa** should contain fat; it connects nose, infratemporal fossa, orbit, middle cranial fossa and palate.',
+   'Perineural spread: enlarged enhancing nerve, **lost fat at the foramen**, widened foramen, denervated muscle.',
+   'Petrous apex by signal: marrow suppresses, **cholesterol granuloma bright on T1 and T2**, cholesteatoma bright on DWI.',
+   '**Chordoma** midline clivus; **chondrosarcoma** petrooccipital fissure. Jugular foramen: paraganglioma permeative, schwannoma smooth, meningioma sclerotic.']),
 ]
 EXTRA = {}
 def main():
