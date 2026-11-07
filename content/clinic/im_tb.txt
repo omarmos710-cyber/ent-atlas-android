@@ -1,0 +1,98 @@
+@stand The temporal bone packs the hearing and balance organs, the facial nerve, the carotid and the jugular bulb into a few cubic centimetres, and thin-section CT shows nearly all of it. Most beginners look at a temporal bone CT and see only noise. The fix is to learn one normal stack, slice by slice, until you know which structures should be on each image, and then to read every scan against the same checklist. This lesson walks through the normal ear in axial and coronal planes and then shows how the common diseases change it.
+
+# The study | What a good temporal bone CT looks like.
+## Protocol
+A temporal bone CT is a **non-contrast**, thin-section study: slices of 0.5 to 0.6 mm through each ear separately, reconstructed with a **bone algorithm** and viewed in a **wide bone window** (width about 4000 HU). Axial images are made parallel to the lateral semicircular canal, and coronal images are reformatted from the same volume. Oblique reformats help with particular questions: the **Pöschl** plane, parallel to the superior canal, for superior canal dehiscence, and the **Stenvers** plane, perpendicular to the petrous ridge, for the cochlea and the vestibular aqueduct. Contrast adds nothing to the bone question; when soft tissue matters (a mass, the IAC, the labyrinth's fluid, recurrent cholesteatoma), MRI is the complementary study.
+!fig ia107-1 | Oblique reformat along the long axis of the cochlea: the whole basal turn in one image, with the superior vestibular nerve canal and the labyrinthine facial nerve just above it. Oblique planes rescue structures that run obliquely to the axial plane.
+## How to scroll
+Read each ear alone, then compare the two sides at the same level. Follow tubular structures from slice to slice rather than looking for them on a single image: the facial nerve from the IAC to the stylomastoid foramen, the ossicular chain from the malleus head to the stapes, each semicircular canal around its loop. The normal tympanic membrane is barely visible; the ossicles, scutum, and the thin bony plates (tegmen, sigmoid plate, the bone over the superior canal) should be crisp.
+
+# The normal ear in axial | Superior to inferior.
+## Upper levels: the canals and the attic
+Start at the top. The first structure seen is the **superior semicircular canal** rising under the arcuate eminence. Moving down, the **aditus ad antrum** joins the epitympanum to the mastoid antrum, and the **lateral semicircular canal** comes into view, with the porus of the **internal auditory canal** medially and the vestibular aqueduct on the posterior surface of the petrous bone.
+!fig ia71-1 | Highest axial level: the superior semicircular canal projects upwards from the inner ear under the arcuate eminence.
+!fig ia71-3 | At the lateral semicircular canal: the porus of the internal auditory canal, the vestibule and the fovea of the vestibular aqueduct medially; the malleus head in the attic, Prussak's space, the antrum and Körner's septum laterally.
+## The attic and the facial nerve
+At the level of the **labyrinthine segment** of the facial nerve, just above the cochlea, the attic shows the **ice-cream cone**: the malleus head (the ice cream) sitting on the body and short process of the incus (the cone). Lateral to the ossicles lies **Prussak's space**, the lateral epitympanic recess, which is where the common pars flaccida cholesteatoma begins. A little lower, the **tympanic segment** runs from the geniculate ganglion anteromedially, beneath the lateral canal, to the posterior genu, and the **cog**, a bony ridge, crosses the anterior attic.
+!fig ia72-1 | Through the labyrinthine facial nerve: malleus head and short process of incus (the ice-cream cone), Prussak's space lateral to them, the mastoid antrum and Körner's septum behind.
+!fig ia72-2 | The tympanic facial nerve runs from the geniculate ganglion to the posterior genu. The cog crosses the anterior epitympanum.
+## The posterior wall: three recesses
+At the oval window level, the posterior wall of the middle ear shows three landmarks from medial to lateral: the **sinus tympani**, the **pyramidal eminence** (with the stapedius) and the **facial recess**, with the mastoid facial nerve just behind. The sinus tympani is hidden from the surgeon's view through a standard mastoidectomy, so disease there must be reported.
+!fig ia100-2 | Magnified axial view of the posterior mesotympanum: sinus tympani, pyramidal eminence and facial recess, with the mastoid segment of the facial nerve and the stapedius behind; the incudostapedial joint and manubrium in front.
+## Lower levels: cochlea, carotid and jugular
+At the mid-cochlear level, the **incudostapedial joint** and the tensor tympani tendon from the cochleariform process are seen. Lower still, the **sigmoid plate** separates mastoid air cells from the sigmoid sinus, the **horizontal petrous carotid** runs anteromedially, and the **jugular foramen** sits posteromedially. At the bottom, the **stylomastoid foramen** lies just anteromedial to the mastoid tip, where the facial nerve leaves the skull.
+!fig ia73-2 | Mid-cochlear level: cochleariform process and tensor tympani tendon, and the incudostapedial joint between the lenticular process and stapes head.
+!fig ia74-2 | Mesotympanum: the faint normal tympanic membrane, the horizontal petrous carotid running anteromedially, and the jugular foramen.
+
+# The normal ear in coronal | Posterior to anterior.
+## The planes that show the roof and the walls
+Coronal images show the **tegmen** (the roof of the middle ear and mastoid), the **scutum** (the sharp upper attachment of the tympanic membrane), the **tympanic annulus** below, the **oval window** with the stapes, the **lateral canal** bulging into the attic, and the tympanic facial nerve under it. These are the structures cholesteatoma erodes, so the coronal plane is where the cholesteatoma questions are answered.
+!fig ia76-2 | At the oval window: the basal turn of the cochlea, the barely visible tympanic membrane, and the tympanic annulus as the lower landmark between middle ear and canal.
+!fig ia77-1 | Mid mesotympanum: Prussak's space bounded by the lateral attic wall and scutum laterally and the ossicles medially. A sharp scutum is normal; a blunted one is the earliest bony sign of attic cholesteatoma.
+!fig ia77-2 | The tegmen tympani roofing the attic, with the scutum, Prussak's space and the incus body beneath it; the tympanic annulus below, and the labyrinthine and anterior tympanic facial nerve above the cochlea.
+!fig ia78-2 | Anteriorly: a thick, well-defined tegmen, the geniculate ganglion on the cochlea and the horizontal carotid beneath it.
+
+# A checklist for every temporal bone | Read the same way every time.
+## Lateral to medial
+!path Reading a temporal bone CT
+External canal | patency and width ; soft tissue ; bone erosion or new bone (exostoses, osteoma) ; atresia
+Tympanic membrane and scutum | thickening, retraction ; scutum sharp or blunted
+Middle ear spaces | aeration of attic, mesotympanum, hypotympanum ; Prussak's space ; sinus tympani and facial recess
+Ossicles | malleus head and incus body (ice-cream cone) ; long process and lenticular process of incus ; stapes ; erosion, dislocation, fixation
+Walls and covers | tegmen tympani and tegmen mastoideum ; lateral canal (fistula) ; facial canal (dehiscence) ; sigmoid plate
+Mastoid | pneumatisation ; opacification ; septal erosion (coalescence) ; outer cortex
+Inner ear | cochlea (two and a half turns) ; vestibule ; three canals and their bony covers ; vestibular aqueduct width ; lucency of the otic capsule
+Nerves and canals | IAC width and symmetry ; facial nerve course from IAC to stylomastoid foramen
+Vessels | carotid canal wall ; jugular bulb (high, dehiscent, eroded) ; sigmoid sinus
+Petrous apex | air, marrow or fluid ; expansion or erosion ; compare the two sides
+!!
+!pearl Always compare sides
+Asymmetry is often the first clue. Pneumatisation of the petrous apex, height of the jugular bulb and width of the vestibular aqueduct vary between people, so a finding is judged against the other ear before it is called abnormal.
+!!
+
+# Common patterns | What disease looks like.
+## Opacification: fluid, granulation or cholesteatoma?
+CT shows soft tissue in the middle ear well but cannot tell its nature: fluid, inflamed mucosa, granulation, cholesterol granuloma and cholesteatoma all look the same density. What separates them on CT is **what the tissue does to bone**. Opacification with intact ossicles, scutum and septa favours effusion or granulation; a soft-tissue mass with **blunting of the scutum, ossicular erosion and medial displacement of the ossicles** favours cholesteatoma. Where doubt remains, non-EPI diffusion MRI shows keratin as bright.
+!fig di1073-2 | Chronic otitis media. Left: a normal short process of the incus and malleus head. Right: the other ear, with deossification of the short process of the incus and an underpneumatised mastoid.
+## Cholesteatoma
+The **pars flaccida** (attic) cholesteatoma, about 80% of acquired cases, fills Prussak's space, blunts the scutum and pushes the malleus head and incus medially, then spreads back through the aditus into the antrum. The **pars tensa** cholesteatoma begins in the posterosuperior mesotympanum, erodes the long process of the incus and the stapes, and fills the sinus tympani and facial recess. The report should answer five surgical questions: is the **tegmen** intact, is there a **labyrinthine fistula** (usually the lateral canal), is the **facial canal** dehiscent, is the **sinus tympani** involved, and what has happened to the **ossicles**.
+!fig di1077-1 | A small pars flaccida cholesteatoma. Left: drawing of the attic sac in Prussak's space. Right: coronal CT, soft tissue in Prussak's space, a blunted scutum and a mildly eroded, medially displaced malleus head.
+!fig di1077-2 | A large pars flaccida cholesteatoma. Left: drawing of ossicular erosion, lateral canal fistula and tegmen scalloping. Right: coronal CT, a mass filling the middle ear and mastoid with a fistula into the lateral semicircular canal.
+!fig di1081-2 | Pars tensa cholesteatoma. Left: erosion of the short process of the incus and spread through the aditus into the antrum. Right: erosion of the incus and stapes, with disease in the facial recess and the sinus tympani, the blind spot for the surgeon.
+## Otosclerosis
+The otic capsule is normally uniformly dense, among the densest bone in the body. **Fenestral otosclerosis** appears as a lucent (otospongiotic) focus at the **fissula ante fenestram**, just anterior to the oval window, sometimes thickening the footplate. **Cochlear otosclerosis** adds lucent foci around the cochlea, the "double ring" or halo. The changes are subtle: look anterior to the oval window on every scan of a patient with conductive loss and an intact drum.
+!fig di1147-1 | Fenestral otosclerosis. Left: drawing of the plaque around the footplate. Right: coronal CT, a lucent focus just anterior to the oval window.
+!fig di1147-2 | Cochlear otosclerosis. Left: drawing of the pericochlear halo. Right: axial CT, lucent foci around the cochlea with the fenestral focus at the fissula.
+## Superior canal dehiscence
+Absence of bone over the superior canal produces a "third window", with autophony, sound- or pressure-induced vertigo and an air–bone gap with normal stapedial reflexes. It must be confirmed on thin slices in the **Pöschl** plane, because partial volume can make thin normal bone disappear.
+!fig di1161-1 | Superior semicircular canal dehiscence. Left: drawing of the uncovered canal and a thin tegmen. Right: coronal CT, no bone over the roof of the canal.
+## Fractures
+Temporal bone fractures are described by their relation to the petrous ridge and, more usefully, by whether they **spare or violate the otic capsule**. **Longitudinal** fractures run along the petrous ridge, through the canal and middle ear, and disrupt the ossicles (incus dislocation most often), giving conductive loss. **Transverse** fractures cross the ridge and the otic capsule, and cause sensorineural loss, vertigo and facial palsy. In every fracture look at the ossicles, the facial canal (the geniculate region is the commonest site of injury), the tegmen (CSF leak), the carotid canal and the jugular foramen. Sutures, fissures and small canals can mimic a fracture.
+!fig di995-1 | A transverse, otic capsule-violating fracture. Left: the line crosses the vestibule and reaches the tympanic facial nerve canal. Right: lower down, it extends across the jugular foramen into the round window niche.
+
+# The congenital ear | Questions for atresia.
+## Before atresia surgery
+In congenital aural atresia, CT answers the questions that decide whether reconstruction is feasible: the **thickness and type** of the atresia plate (bony or membranous), the **size of the middle ear**, the **ossicles** (usually fused malleus and incus), the **course of the facial nerve** (often displaced anteriorly and laterally over the atresia plate), the **oval and round windows**, any **congenital cholesteatoma** behind the plate, and the **inner ear**, which is usually normal because it develops separately. Scoring systems such as the Jahrsdoerfer grade combine these findings.
+## The vestibular aqueduct
+A **large vestibular aqueduct** is the commonest imaging finding in children with sensorineural loss. The aqueduct is measured at its midpoint on axial images (the Cincinnati criteria: more than 1 mm at the midpoint or more than 2 mm at the operculum) and is often associated with an incomplete partition of the cochlea.
+!fig ia107-2 | Transverse oblique reformat profiling the vestibular aqueduct along its length, the plane in which its width is best judged.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Protocol:** thin bone-algorithm CT, no contrast, axial and coronal, oblique planes when needed.
+- **Name the structures** on an axial slice: ice-cream cone, Prussak's space, sinus tympani, facial recess, pyramidal eminence.
+- **The five cholesteatoma questions:** tegmen, fistula, facial canal, sinus tympani, ossicles.
+- **Scutum blunting** as the early sign of attic cholesteatoma.
+- **Fenestral otosclerosis** at the fissula ante fenestram.
+- **Fractures:** otic capsule-sparing versus violating, and the structures to check.
+- **Atresia** checklist and the large vestibular aqueduct.
+!!
+## Common pitfalls
+!pit
+- Calling middle ear opacification "cholesteatoma" without bony evidence; CT cannot tell its nature.
+- Missing disease in the sinus tympani.
+- Diagnosing a dehiscence of the tegmen, facial canal or superior canal on a single slice.
+- Overlooking subtle fenestral otosclerosis in a patient with conductive loss and a normal drum.
+- Calling a suture or a small canal a fracture.
+!!

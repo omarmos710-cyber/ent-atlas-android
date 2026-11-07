@@ -31,6 +31,13 @@ L = [  # id, lesson, part, title, one-line, sources, anatomy regions, related cl
   ['Say **where** first: the space or structure of origin.', 'Then **what**: size, shape, margins, density or signal, enhancement, calcification, fat.',
    'Then **what it does**: bone remodelling versus destruction, perineural and vascular spread, airway, nodes.',
    'Finish with a short **differential** in order of likelihood and what would settle it.']),
+ ('im_tb', 5, 'ear', 'The temporal bone on CT', 'A slice-by-slice tour of the normal ear in axial and coronal planes, a checklist for every scan, and how cholesteatoma, otosclerosis, dehiscence and fractures change the picture.',
+  [IA + ', temporal bone chapters', DI + ', temporal bone overview and diagnoses', DU], ['temporal', 'middle', 'inner'], ['chole', 'tbom', 'otosc', 'scd', 'tbfx', 'atresia', 'earsurg'],
+  ['Thin **bone-algorithm** CT, no contrast, axial and coronal; Pöschl and Stenvers obliques when needed.',
+   'Know the landmarks: the **ice-cream cone**, **Prussak\'s space**, the **scutum**, and the posterior wall trio of **sinus tympani, pyramidal eminence and facial recess**.',
+   'Read lateral to medial: canal, drum and scutum, spaces, ossicles, tegmen and canals, mastoid, inner ear, IAC and facial nerve, vessels, petrous apex.',
+   'Cholesteatoma: **tegmen, fistula, facial canal, sinus tympani, ossicles**. CT shows bone; non-EPI DWI shows keratin.',
+   'Otosclerosis: lucency at the **fissula ante fenestram**; fractures: otic capsule **sparing or violating**.']),
 ]
 EXTRA = {}
 def main():
