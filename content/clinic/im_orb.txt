@@ -1,0 +1,83 @@
+@stand The orbit sits between three sinuses, and much of the orbital imaging an ENT surgeon sees is about the sinuses getting in: periorbital infection, a subperiosteal abscess, a tumour breaching the lamina papyracea, a fracture of the floor or medial wall, or the decompression of thyroid eye disease. The orbit is easy to read once you think of it as a cone of fat divided by the muscles and the orbital septum into compartments, because each compartment has its own short list of disease.
+
+# The study | Which scan, and why.
+## CT and MRI
+**Contrast-enhanced CT** with thin bone images is the first test for orbital infection, for trauma (non-contrast, thin bone algorithm in three planes) and for any process involving the sinus walls. **MRI** with fat suppression (STIR or fat-suppressed T2, and fat-suppressed post-gadolinium T1) is best for the optic nerve, the orbital apex, the cavernous sinus, tumours and intracranial spread. Fat suppression matters more here than anywhere: orbital fat is bright on T1 and hides enhancing tissue unless it is suppressed.
+
+# The compartments | Septum, cone and apex.
+## Preseptal and postseptal
+The **orbital septum**, a fibrous sheet from the orbital rim to the tarsal plates, divides the eyelids and soft tissues in front (**preseptal**) from the orbit proper behind (**postseptal**). Infection limited to the preseptal tissues swells the lids but leaves the orbital fat clear; postseptal infection streaks the fat and may push the globe forwards.
+## Intraconal, conal and extraconal
+The four rectus muscles and their fascia form a **cone** from the annulus of Zinn at the apex to the globe. Inside the cone (**intraconal**) are the optic nerve and its sheath, the ophthalmic artery and the superior ophthalmic vein; lesions here (cavernous venous malformation, optic nerve tumours) push the eye straight forwards. **Conal** disease involves the muscles themselves (thyroid eye disease, myositis, lymphoma). The **extraconal** space between the cone and the bony walls holds the lacrimal gland and is where sinus disease arrives first: a subperiosteal abscess or sinonasal tumour displaces the globe away from the involved wall.
+!fig ia230-2 | Coronal T1 in the mid orbit: the four rectus muscles and the superior oblique form the cone around the optic nerve-sheath complex in bright fat, with the superior ophthalmic vein beneath the superior rectus.
+## The bony walls and the apex
+The **medial wall** is the paper-thin lamina papyracea over the ethmoid sinuses; the **floor** is the roof of the maxillary antrum, with the infraorbital canal running through it; the **roof** borders the anterior cranial fossa and the frontal sinus. At the apex, the **optic canal** (optic nerve and ophthalmic artery) lies superomedially, the **superior orbital fissure** (III, IV, VI, V1, superior ophthalmic vein) between the greater and lesser wings, and the **inferior orbital fissure** opening to the pterygopalatine and infratemporal fossae. The **nasolacrimal duct** runs down from the lacrimal sac in the medial canthus to the inferior meatus.
+!fig ia236-2 | Coronal bone CT in the mid orbit: the thin lamina papyracea, the orbital floor and the infraorbital canal. The coronal plane shows wall integrity best.
+!fig ia235-3 | Axial bone CT of the upper orbit: the optic canals angling back towards the chiasm, with the superior orbital fissure lateral to them.
+
+# Infection | The complications of sinusitis.
+## Chandler's stages on imaging
+!table Orbital complications of sinusitis
+Stage | Imaging | What to look for
+I, preseptal cellulitis | Swelling and enhancement in front of the septum; orbital fat clear | Usually children; may follow skin infection
+II, orbital cellulitis | Stranding of postseptal fat; no collection | Proptosis, restricted movement
+III, subperiosteal abscess | Lentiform, rim-enhancing collection along a wall, usually medial; displaced medial rectus | Size, extent backwards, vision
+IV, orbital abscess | Rim-enhancing collection within the orbital fat | Needs drainage
+V, cavernous sinus thrombosis | Enlarged superior ophthalmic vein with a filling defect; non-enhancing, bulging cavernous sinus | Bilateral signs, cranial nerve palsies
+!!
+## The subperiosteal abscess
+A subperiosteal abscess sits between the bone and the periorbita, usually along the **lamina papyracea** next to opacified ethmoid cells. It is **lentiform**, rim-enhancing, displaces the medial rectus and the globe laterally, and restricts on diffusion. Features that favour surgical drainage include a large or posteriorly extending collection, visual compromise, age over about 10 years, a frontal sinus origin, and failure to improve on antibiotics.
+!fig di837-1 | Subperiosteal abscess. Left: drawing of ethmoid infection passing through the lamina papyracea to form a collection displacing the cone. Right: contrast CT, opacified ethmoid cells and a large medial extraconal abscess displacing the medial rectus.
+!fig di841-1 | Left: preseptal cellulitis after facial impetigo, swelling in front of the septum with clear orbital fat and clear sinuses. Right: STIR MRI, preseptal and postseptal cellulitis from ethmoid sinusitis, without an abscess.
+## Cavernous sinus thrombosis
+Look for an **enlarged superior ophthalmic vein** containing a filling defect, an expanded cavernous sinus with filling defects or poor enhancement, and narrowing of the cavernous carotid. MRI with venography confirms it and shows intracranial complications.
+!fig ia252-3 | Contrast CT in septic cavernous sinus thrombosis: filling defects in both superior ophthalmic veins and the cavernous sinuses, with extension to the basilar venous plexus and superior petrosal sinus.
+
+# Trauma | Floors, walls and the optic nerve.
+## Blowout fractures
+A **pure blowout fracture** breaks the floor or medial wall without involving the rim. Coronal CT shows the fracture, herniation of fat and of the inferior or medial rectus, and the volume of the defect. A rounded, displaced inferior rectus or muscle caught in the fracture, especially the **trapdoor** fracture of a child with little visible on CT but marked restriction and pain on upgaze, is a surgical emergency. Large defects risk enophthalmos.
+!fig di1007-1 | Orbital floor blowout fractures. Left: coronal CT, a mildly depressed floor fracture. Right: an older floor fracture with herniation of fat and part of the inferior rectus through the defect.
+!fig di1007-2 | Left: a lamina papyracea fracture with the medial rectus deformed into the defect. Right: retrobulbar air and blood with proptosis and tenting of the back of the globe, the warning sign of a compartment syndrome.
+## Retrobulbar haemorrhage and the optic canal
+Proptosis with **tenting** of the posterior globe (the globe drawn into a cone at the optic nerve insertion) means rising orbital pressure and threatens sight; it is treated clinically by lateral canthotomy and cantholysis without waiting for imaging. In high-energy trauma, look for fractures through the **optic canal** and the anterior clinoid.
+
+# The muscles and masses | Conal and intraconal disease.
+## Thyroid eye disease
+Thyroid eye disease enlarges the **muscle bellies** while sparing their tendons, usually on both sides, most often the inferior and medial recti (the mnemonic "I'M SLow": inferior, medial, superior, lateral). It also increases orbital fat. Crowding of the enlarged muscles at the **apex** compresses the optic nerve and is an indication for urgent treatment, sometimes endoscopic decompression of the medial wall and floor. STIR signal in the muscles suggests active inflammation.
+!fig di849-1 | Thyroid eye disease. Left: drawing of symmetric muscle enlargement. Right: coronal CT, enlarged inferior, medial and superior recti on both sides.
+## Idiopathic orbital inflammation and lymphoma
+**Idiopathic orbital inflammation** (pseudotumour) is usually unilateral and painful, involves the muscle **including its tendon**, the fat, the lacrimal gland or the sclera, and responds to steroids. **Lymphoma** is painless, moulds itself around the globe and orbital structures without destroying them, enhances uniformly and restricts strongly on diffusion; the lacrimal gland is a common site. Biopsy is often needed to separate them.
+!fig di881-1 | Orbital lymphoma. Left: contrast CT, a lobulated retrobulbar mass moulding to the shape of the globe. Right: post-gadolinium T1, uniformly enhancing tumour in the lacrimal gland extending back along the lateral rectus.
+## Cavernous venous malformation
+The commonest benign orbital mass in adults is the **cavernous venous malformation** (formerly cavernous haemangioma): a well-defined, oval, intraconal mass that is bright on T2 and fills in with contrast progressively from a point. It pushes the globe forwards and seldom threatens vision unless it sits at the apex.
+!fig di831-1 | Cavernous venous malformation. Left: drawing of an oval intraconal mass displacing the optic nerve. Right: CT, a well-defined, slightly dense intraconal mass with the lateral rectus draped around it.
+## Sinonasal tumours and the orbit
+For a sinonasal malignancy the key question is whether the **periorbita** has been breached. Thinning or loss of the lamina papyracea alone does not mean invasion; obliteration of the extraconal fat next to the tumour, nodular contact with the medial rectus, or tumour within the muscle does. MRI answers this best, and it often decides between preserving and removing the eye.
+
+!path Reading an orbit scan
+Septum | preseptal or postseptal ; lids and fat
+Walls | lamina papyracea, floor, roof ; fracture, erosion, remodelling ; adjacent sinuses
+Extraconal | collection, mass, lacrimal gland ; periorbita
+Muscles | size, belly or tendon, symmetry ; entrapment
+Intraconal | optic nerve and sheath ; superior ophthalmic vein ; mass
+Globe and apex | proptosis ; tenting ; optic canal ; superior orbital fissure ; cavernous sinus
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Compartments:** preseptal and postseptal; intraconal, conal and extraconal.
+- **Chandler's stages** and what each looks like on CT.
+- **Subperiosteal abscess:** imaging features and indications for drainage.
+- **Cavernous sinus thrombosis:** the superior ophthalmic vein sign.
+- **Blowout fracture:** muscle entrapment and the trapdoor fracture in children.
+- **Thyroid eye disease:** muscle bellies, apical crowding, decompression.
+- **Periorbital invasion** by sinonasal tumour.
+!!
+## Common pitfalls
+!pit
+- Calling preseptal cellulitis "orbital" without looking at the fat behind the septum.
+- Missing a small medial subperiosteal abscess on a non-contrast scan.
+- Reassuring a child with a trapdoor fracture because the CT looks almost normal.
+- Calling invasion of the orbit from erosion of the lamina papyracea alone.
+!!

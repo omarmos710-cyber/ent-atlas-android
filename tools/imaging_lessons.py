@@ -59,6 +59,13 @@ L = [  # id, lesson, part, title, one-line, sources, anatomy regions, related cl
    'Before surgery read **CLOSE**: cribriform (Keros), lamina papyracea, Onodi cell, sphenoid (optic nerve and carotid), ethmoid artery.',
    '**Lund–Mackay**: 0–2 per sinus, 0 or 2 per ostiomeatal complex, total 0–24.',
    'Hyperdense contents: **allergic fungal sinusitis** or fungal ball. **Unilateral** disease or bone erosion: **MRI**.']),
+ ('im_orb', 9, 'nose', 'The orbit', 'The compartments of the orbit, the imaging of sinusitis complications and cavernous sinus thrombosis, blowout fractures, thyroid eye disease and the masses an ENT surgeon meets.',
+  [IA + ', orbit chapters', DI + ', orbit and trauma diagnoses', DU], ['orbit', 'sinus'], ['orbit', 'abs', 'facefx', 'sinus_ca', 'sinussurg'],
+  ['Contrast **CT** for infection and trauma; fat-suppressed **MRI** for the optic nerve, apex, cavernous sinus and tumours.',
+   'Think in compartments: **preseptal or postseptal**; **intraconal, conal or extraconal**.',
+   '**Subperiosteal abscess**: lentiform rim-enhancing collection along the lamina papyracea, displacing the medial rectus.',
+   '**Cavernous sinus thrombosis**: enlarged superior ophthalmic vein with a filling defect.',
+   '**Blowout fracture**: look for muscle entrapment; a child\'s trapdoor fracture may look almost normal. **Thyroid eye disease** spares the tendons.']),
 ]
 EXTRA = {}
 def main():
