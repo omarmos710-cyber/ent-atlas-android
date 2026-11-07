@@ -80,6 +80,13 @@ L = [  # id, lesson, part, title, one-line, sources, anatomy regions, related cl
    'Commissures and subglottic mucosa **≤1 mm**; postcricoid soft tissue **≤1 cm**.',
    'Pre-epiglottic or paraglottic invasion is at least **T3**; inner cortex erosion T3, through the outer cortex **T4a**.',
    'Cord paralysis: medially rotated arytenoid, dilated ventricle and pyriform sinus. Scan from skull base to the **aortopulmonary window**.']),
+ ('im_oral', 12, 'neck', 'The oral cavity and oropharynx', 'The four areas of the oral cavity, what to report for tongue, floor of mouth and gum cancers, the HPV cystic node, dental infection and the mylohyoid, ranula and the denervated tongue.',
+  [DI + ', oral cavity and squamous cell carcinoma chapters', IA + ', oral cavity', ESR], ['oral', 'pharynx'], ['oral_ca', 'tonsil_ca', 'oraldis', 'deepneck', 'oralanat', 'neckmass'],
+  ['**MRI** for oral and oropharyngeal cancer (less amalgam, depth, marrow, nerves); **contrast CT** for infection.',
+   'The **mylohyoid** divides the **sublingual** space above from the **submandibular** space below.',
+   'Tongue cancer: **depth of invasion**, the **lingual septum**, both **neurovascular bundles**.',
+   'Mandible: cortex on **CT**, marrow on **MRI**; follow the inferior alveolar canal.',
+   'A **cystic level II node** in an adult is metastasis (often HPV oropharynx) until proven otherwise.']),
 ]
 EXTRA = {}
 def main():

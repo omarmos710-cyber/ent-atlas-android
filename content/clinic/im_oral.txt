@@ -1,0 +1,73 @@
+@stand You can see and feel most of the oral cavity and oropharynx, so the scan is rarely needed to find a lesion. It is needed to measure what you cannot feel: how deep a tongue cancer goes, whether it crosses the midline or reaches the mandible, whether a floor of mouth infection has spread below the mylohyoid, and where a cystic neck node in a young adult has come from. This lesson covers the four areas of the oral cavity, the oropharynx, and the questions each scan should answer.
+
+# The study | MRI for tumour, CT for infection.
+## Choosing the test
+**MRI** with fat-suppressed post-gadolinium T1 and T2 is the best study for oral and oropharyngeal cancer: it is far less affected by **dental amalgam** than CT, shows the depth of a tongue tumour and the marrow of the mandible, and detects perineural spread. **Contrast CT** is quicker, images the neck and chest in one pass, and is the first test for **infection**, with bone windows of the mandible to find the tooth, the stone or the osteomyelitis responsible. Puffed-cheek or open-mouth techniques separate the cheek, gum and tongue surfaces. CT or cone-beam CT shows the cortex of the mandible; MRI shows its marrow.
+
+# The anatomy | Four areas of the oral cavity.
+## Mucosa, sublingual space, submandibular space and root of tongue
+The oral cavity is divided by the **mylohyoid muscle**, a sling from one side of the mandible to the other, into two compartments.
+- The **oral mucosal surface**: the lips, buccal mucosa, alveolar ridges, retromolar trigone, hard palate, floor of mouth and oral tongue. Squamous cell carcinoma arises here.
+- The **sublingual space**, above and medial to the mylohyoid and lateral to the genioglossus: the sublingual gland, the deep part of the submandibular gland and its duct, the lingual nerve, artery and vein, and the hypoglossal nerve. The two sides connect anteriorly beneath the frenulum.
+- The **submandibular space**, below the mylohyoid: the submandibular gland, level I nodes, the facial vein and the anterior belly of the digastric. It opens posteriorly into the sublingual space at the back edge of the mylohyoid and upwards into the parapharyngeal space.
+- The **root of the tongue**: the genioglossus and geniohyoid muscles and the **lingual septum** in the midline, the landmark for midline crossing.
+!fig ia500-2 | Coronal T1 through the oral cavity: the mylohyoid sling separating the sublingual space above from the submandibular space below, with the genioglossus, hyoglossus and intrinsic tongue muscles and the midline lingual septum.
+!fig ia483-2 | Axial T2 fat-suppressed: the sublingual space between the mylohyoid laterally and the hyoglossus and genioglossus medially, with the sublingual gland and lingual artery inside it.
+## The oropharynx
+Behind the circumvallate papillae and the anterior tonsillar pillars lies the oropharynx: the **base of tongue** with the lingual tonsil, the **palatine tonsils** in the lateral walls, the **soft palate** and the posterior pharyngeal wall. The lymphoid tissue of the tonsils and tongue base is normally bulky and asymmetric, so a small tumour may be invisible on the scan; asymmetry, enhancement and restricted diffusion help.
+
+# Oral cancer | What the surgeon needs.
+## Oral tongue
+Report the **depth of invasion** (or tumour thickness on MRI), which drives the T stage and the decision to treat the neck; whether the tumour **crosses the lingual septum**; its relation to the **neurovascular bundle** (lingual artery and hypoglossal nerve) on each side, because involvement of both bundles rules out tongue preservation; extension to the floor of mouth, tongue base and mandible; and the nodes. Tongue tumours often spread to level II and III and may skip levels.
+!fig di531-2 | Oral tongue carcinoma. Left: post-gadolinium MRI, a wedge-shaped enhancing ulcer at the lateral tongue, well seen despite the amalgam. Right: the clinical lesion. Imaging measured its depth and showed no nodes.
+## Floor of mouth and gum
+**Floor of mouth** cancers involve the sublingual gland and the submandibular duct (obstructing the gland), cross the midline easily, and reach the inner cortex of the mandible early. **Alveolar** and **retromolar trigone** cancers lie on the bone: the question is whether the **mandible** is invaded and how far. Cortical erosion is seen on CT or cone-beam CT; marrow replacement (loss of bright fat on T1) on MRI, which is sensitive but can overcall. Spread along the **inferior alveolar canal** is perineural spread to the skull base. The retromolar trigone also leads along the pterygomandibular raphe up to the masticator space and skull base.
+!fig di535-2 | Floor of mouth carcinoma. Left: post-gadolinium MRI, a subtle anterior lesion involving the sublingual gland, with loss of the dark cortex of the mandible beside it. Right: the tumour at operation.
+!fig di539-2 | Retromolar trigone carcinoma. Left: bone CT, a lytic defect in the mandible close to the inferior alveolar canal. Right: the mucosal tumour behind the last molar.
+
+# Oropharyngeal cancer | Small primaries, cystic nodes.
+## HPV and the cystic node
+HPV-related oropharyngeal carcinoma typically affects younger patients, has a **small primary** in the tonsil or tongue base that may be invisible on CT, and presents with large, often **cystic** level II nodes. A cystic level II mass in an adult should be treated as a metastasis until proven otherwise, not as a branchial cyst. Look carefully at both tonsils and the tongue base for asymmetry, and use PET-CT before panendoscopy when the primary is not seen.
+!fig di525-2 | HPV-related tonsillar carcinoma. Left: a small enhancing mass in the right palatine tonsil, easily called normal. Right: a large necrotic level IIA node on the same side, the reason the patient presented.
+## What to report
+For tonsillar tumours report spread to the soft palate, tongue base, **parapharyngeal space**, medial pterygoid and mandible, and the relation to the internal carotid. For tongue base tumours report extension to the vallecula, pre-epiglottic space and larynx, and midline crossing. Encasement of the carotid or invasion of the prevertebral muscles or skull base makes the tumour T4b.
+
+# Infection and cysts | The floor of the mouth.
+## Abscess and Ludwig's angina
+Most oral cavity infections start in a tooth. The roots of the first molar and the teeth in front of it lie **above** the mylohyoid line, so their infections enter the **sublingual** space; the roots of the second and third molars lie **below** it, so their infections enter the **submandibular** space. **Ludwig's angina** is a spreading cellulitis of both sublingual and submandibular spaces on both sides that elevates the tongue and threatens the airway. Contrast CT shows the extent, any drainable collection, the airway, the source tooth and spread to the parapharyngeal space and mediastinum.
+!fig di435-1 | Sublingual space abscess. Left: drawing of a horseshoe-shaped collection in both sublingual spaces joined beneath the frenulum. Right: contrast CT, the rim-enhancing collection above the mylohyoid on both sides.
+## Ranula
+A **simple ranula** is a mucus retention cyst of the sublingual gland confined to the sublingual space. A **diving (plunging) ranula** passes behind the free edge of the mylohyoid, or through a gap in it, into the submandibular space, leaving a characteristic **tail** in the sublingual space that shows its origin.
+!fig di427-1 | Diving ranula. Left: drawing of a ranula herniating backwards from the sublingual space. Right: contrast CT, a cystic mass in the submandibular space against the back of the mylohyoid, displacing the submandibular gland.
+## The denervated tongue
+After hypoglossal nerve injury, one half of the tongue changes: at first it is **swollen, bright on T2 and enhancing**; later it becomes **fatty and atrophic**, and the normal side can then look like a mass. The sharp midline border gives it away. Always follow the hypoglossal nerve back to the skull base to find the cause.
+!fig di415-1 | Acute and subacute denervation. Left: T2, a swollen, bright left half of the tongue, sharply limited at the midline. Right: post-gadolinium T1, enhancement of the denervated muscle.
+!fig di415-2 | Chronic denervation. Left: T1, fatty replacement of the left half of the tongue. Right: CT, fatty atrophy; the normal right side could be mistaken for a tumour.
+
+!path Reading an oral cavity or oropharynx scan
+Site | which mucosal subsite ; sublingual, submandibular or root of tongue ; oropharyngeal subsite
+Tongue tumour | depth of invasion ; lingual septum ; neurovascular bundles ; floor of mouth ; tongue base
+Bone | mandible cortex on CT ; marrow on MRI ; inferior alveolar canal ; maxilla and palate
+Deep spread | parapharyngeal space ; pterygoids ; pterygomandibular raphe ; skull base ; carotid
+Infection | collection ; above or below the mylohyoid ; airway ; source tooth or stone ; mediastinum
+Nodes | levels I to III both sides ; cystic or necrotic nodes
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **MRI for oral cancer** (amalgam, depth, marrow, nerves); **CT for infection**.
+- **The mylohyoid** and the sublingual and submandibular spaces.
+- **Oral tongue:** depth of invasion, lingual septum, neurovascular bundles.
+- **Mandible invasion:** CT for cortex, MRI for marrow; the inferior alveolar canal.
+- **HPV-related cancer:** small primary, cystic level II node.
+- **Dental infection** above or below the mylohyoid line; Ludwig's angina.
+- **Diving ranula** and the denervated tongue.
+!!
+## Common pitfalls
+!pit
+- Relying on CT for a tongue tumour hidden by amalgam.
+- Calling a cystic level II node in an adult a branchial cyst.
+- Mistaking a normal half-tongue next to an atrophic one for a tumour.
+- Calling marrow invasion from MRI alone when the cortex is intact.
+!!
