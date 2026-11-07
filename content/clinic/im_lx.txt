@@ -1,0 +1,75 @@
+@stand The endoscope shows the surface of the larynx and hypopharynx; imaging shows what lies beneath it. The two are complementary, and for laryngeal and hypopharyngeal cancer the stage depends on things only a scan can see: the fat of the pre-epiglottic and paraglottic spaces, the cartilages, the tissues outside the larynx and the nodes. This lesson teaches you to find the level of each slice, to know the normal thickness of each wall, and to read the scan as a surgeon planning between voice-preserving treatment and laryngectomy.
+
+# The study | Fast, thin and contrast-enhanced.
+## Protocol
+**Contrast-enhanced CT** is the standard: thin slices (about 2.5 to 3 mm or thinner) from the skull base or mandible to the clavicles, during **quiet breathing** so the cords are abducted and the anterior commissure is open, with axial images angled along the plane of the cords and coronal and sagittal reformats. A second pass during a **breath hold, phonation or modified Valsalva** adducts the cords and opens the pyriform sinuses, showing whether a cord moves and whether a pyriform tumour is real or just collapsed mucosa. **MRI** is slower and degraded by swallowing, but it is more sensitive for **cartilage invasion** and helps when CT is equivocal. PET-CT helps for nodal disease, second primaries and recurrence after treatment.
+
+# Finding your level | Which slice am I on?
+## The landmarks
+Read a laryngeal CT from the hyoid down, naming each level from its landmarks.
+- **Supraglottis, upper:** the free epiglottis, the valleculae in front of it, and the C-shaped, fat-filled **pre-epiglottic space** behind the hyoid.
+- **Supraglottis, lower (false cords):** the aryepiglottic folds, the pyriform sinuses behind them, and **fat** in the paraglottic space beneath the false cords.
+- **Glottis (true cords):** the **arytenoid cartilages** with their vocal processes, the top of the **cricoid lamina**, and **muscle** (thyroarytenoid) rather than fat beneath the cords. The anterior commissure, where the cords meet, should be thin.
+- **Subglottis:** the complete **cricoid ring** with no arytenoids, and a thin rim of mucosa inside it.
+!fig ia396-2 | Axial contrast CT of the high supraglottis: the C-shaped pre-epiglottic space filled with fat, a common place for tumour to hide.
+!fig ia397-3 | The glottic level in quiet breathing: the true cords abducted, the vocal processes of the arytenoids, the thin anterior and posterior commissures, and the cricoid lamina behind.
+## Normal thickness
+Some measurements are worth remembering. The mucosa of the **anterior commissure**, the **posterior commissure** and the **subglottis** is normally 1 mm or less; any visible soft tissue there in a patient with a laryngeal tumour suggests spread. The soft tissue between the cricoid and the spine in the **postcricoid** region (postcricoid hypopharynx and posterior hypopharyngeal wall together) is normally no more than about 1 cm.
+!fig ia417-3 | Axial contrast CT at the upper cricoid: the inferior margin of the true cords in front, and the postcricoid hypopharyngeal mucosa against the posterior pharyngeal wall behind. The tissue between cricoid and spine is normally 1 cm or less.
+
+# The deep spaces and the cartilages | The clinical blind spots.
+## Pre-epiglottic and paraglottic spaces
+The **pre-epiglottic space** (in front of the epiglottis) and the **paraglottic spaces** (lateral to the ventricle and cords) are continuous fat-filled compartments with no fascia between them. Tumour can spread through them beneath intact mucosa, from the epiglottis to the false cord and down to the glottis, crossing the ventricle (**transglottic** spread). Invasion of either space makes a supraglottic or glottic cancer at least **T3**. On CT, look for tumour replacing the fat; on MRI, for intermediate signal replacing bright T1 fat.
+!fig ia401-2 | Coronal CT: the laryngeal ventricle, the air space between the false and true cords. A tumour that crosses it is transglottic.
+## Cartilage
+The thyroid, cricoid and arytenoid cartilages ossify irregularly with age, and unossified cartilage looks like soft tissue, so cartilage invasion is one of the hardest calls in head and neck imaging. **Sclerosis** next to a tumour is non-specific (it may be reactive); **erosion or lysis** is more specific; tumour **outside** the cartilage in the strap muscles or the thyroid is definite. On MRI, cartilage that is bright on T2 and enhances like the tumour suggests invasion, while much brighter T2 signal than tumour suggests inflammation. The distinction matters: erosion of the inner cortex makes a tumour T3, extension through the outer cortex makes it T4a, and full-thickness invasion usually means laryngectomy rather than voice-preserving treatment.
+!fig di557-2 | Glottic carcinoma and cartilage. Left: a bulky anterior tumour across both cords and the anterior commissure, with erosion of the inner cortex of the thyroid cartilage. Right: post-gadolinium MRI of recurrent tumour invading the cricoid and penetrating the thyroid cartilage.
+
+# Cancer by site | What to report.
+## Supraglottic, glottic and subglottic
+**Supraglottic** cancers have a rich lymphatic supply and often present with nodes, frequently on both sides. Look at the pre-epiglottic and paraglottic fat, the vallecula and tongue base, the aryepiglottic fold and pyriform sinus, and the cartilage. **Glottic** cancers seldom spread to nodes early; report the anterior commissure (and spread across it to the other cord), the posterior commissure, subglottic extension, the paraglottic space, cord movement on the breath-hold images, and the cartilage. **Subglottic** cancers are rare, spread to paratracheal nodes and are often advanced at presentation.
+!fig di553-2 | Supraglottic carcinoma. Left: a small epiglottic tumour staged T3 because it invades the pre-epiglottic fat; the epiglottis should never be this thick. Right: a small aryepiglottic fold tumour with a collapsed pyriform sinus but no hypopharyngeal tumour.
+## Hypopharynx
+The hypopharynx has three subsites: the **pyriform sinuses**, the **posterior pharyngeal wall** and the **postcricoid** region. The **pyriform apex** reaches down to the level of the cricoid and is a clinical blind spot, a common hiding place for the primary when a patient presents with a neck node. Hypopharyngeal cancers spread submucosally, invade the thyroid and cricoid cartilages, the thyroid gland and the cervical oesophagus, and present with nodes. Report the lowest extent of tumour (oesophageal involvement changes the operation) and the relation to the prevertebral fascia (invasion makes it unresectable).
+!fig di545-1 | Pyriform sinus carcinoma. Left: drawing of the tumour in the pyriform sinus. Right: contrast CT, a mass filling the right pyriform sinus and spreading along all its walls.
+!fig ia406-1 | Axial CT in left vocal cord paralysis: the left arytenoid is rotated medially; the left pyriform sinus and ventricle are widened.
+
+# Other common questions | Palsy, laryngocele, trauma, stenosis.
+## Vocal cord paralysis
+A paralysed cord produces a recognisable picture on CT: the ipsilateral **arytenoid rotates medially**, the **ventricle** and **pyriform sinus** dilate, the **aryepiglottic fold** thickens and moves medially, and the posterior cricoarytenoid muscle atrophies. The search for the cause follows the nerve: from the **skull base** (jugular foramen) down the carotid space, through the thyroid bed, to the **aortopulmonary window** on the left and the subclavian on the right. A scan that stops at the clavicles misses a left-sided cause in the chest.
+!fig di323-1 | Left vocal cord paralysis. Left: a medially rotated left arytenoid with a dilated ventricle. Right: an enlarged left pyriform sinus and a thickened, medially placed aryepiglottic fold.
+## Laryngocele
+A **laryngocele** is a dilated saccule of the ventricle, filled with air or fluid. An **internal** one stays within the paraglottic space; an **external** or mixed one passes through the thyrohyoid membrane into the neck. Because a carcinoma at the ventricle can block the saccule, every laryngocele in an adult needs the ventricle examined for tumour.
+!fig di319-1 | Laryngocele. Left: drawing of a laryngocele squeezing through the thyrohyoid membrane into the neck. Right: coronal CT of a mixed laryngocele with internal and external components.
+## Trauma and stenosis
+In **laryngeal trauma**, thin non-contrast CT shows fractures of the thyroid and cricoid cartilages, arytenoid dislocation, haematoma and air; a displaced fracture or one involving the cricoid usually needs repair. **Subglottic and tracheal stenosis** after intubation or tracheostomy is measured on CT with sagittal and coronal reformats: its level below the cords, its length and its narrowest diameter.
+
+!path Reading a laryngeal and hypopharyngeal CT
+Level each slice | hyoid and pre-epiglottic fat ; false cords and paraglottic fat ; true cords and arytenoids ; cricoid ring
+Mucosal surfaces | epiglottis, aryepiglottic folds, false and true cords ; commissures ≤1 mm ; subglottis ≤1 mm
+Deep spaces | pre-epiglottic and paraglottic fat ; transglottic spread
+Cartilage | sclerosis, erosion, lysis ; tumour outside the larynx
+Hypopharynx | pyriform sinuses to the apex ; posterior wall ; postcricoid ≤1 cm ; oesophagus below
+Movement | cords on the breath-hold images ; signs of paralysis
+Beyond | thyroid gland, strap muscles, prevertebral fascia, carotid ; nodes both sides
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Protocol:** contrast CT in quiet breathing plus a breath-hold or phonation pass; MRI for cartilage.
+- **Levels:** how to tell false cord from true cord on axial CT.
+- **Pre-epiglottic and paraglottic spaces** as blind spots, and their effect on T stage.
+- **Cartilage invasion:** sclerosis versus erosion versus extralaryngeal spread.
+- **Normal thickness:** commissures and subglottis ≤1 mm, postcricoid ≤1 cm.
+- **Pyriform apex** and the unknown primary.
+- **Vocal cord paralysis** signs, and scanning to the aortopulmonary window.
+!!
+## Common pitfalls
+!pit
+- Calling a collapsed pyriform sinus a tumour without the breath-hold images.
+- Calling cartilage invasion from sclerosis alone, or from unossified cartilage.
+- Missing tumour in the pre-epiglottic fat under a normal-looking epiglottis.
+- Stopping a scan for left cord palsy at the clavicles.
+- Missing a ventricular carcinoma behind a laryngocele.
+!!

@@ -73,6 +73,13 @@ L = [  # id, lesson, part, title, one-line, sources, anatomy regions, related cl
    'Fat pushed **laterally**: mucosal; **posteriorly**: masticator; **medially**: deep parotid; **anteriorly**: carotid.',
    'Carotid body paraganglioma **splays** the ICA and ECA; vagal tumours push the ICA **forwards**.',
    'Cellulitis, phlegmon and abscess differ on contrast CT; only an abscess is drained. The danger space reaches the mediastinum.']),
+ ('im_lx', 11, 'neck', 'The larynx and hypopharynx', 'Finding the level of each slice, the normal wall thickness, the pre-epiglottic and paraglottic spaces, cartilage invasion, staging by site, and vocal cord paralysis, laryngocele and trauma.',
+  [DI + ', hypopharynx, larynx and trachea overview', IA + ', larynx and hypopharynx', ESR], ['larynx', 'pharynx'], ['lxca', 'hypoca', 'vfp', 'lxtrauma', 'lxanat', 'benign'],
+  ['Contrast CT in **quiet breathing** plus a **breath-hold or phonation** pass; MRI when cartilage invasion is uncertain.',
+   'False cords have **fat** beneath them; true cords have **muscle**, the arytenoids and the top of the cricoid.',
+   'Commissures and subglottic mucosa **≤1 mm**; postcricoid soft tissue **≤1 cm**.',
+   'Pre-epiglottic or paraglottic invasion is at least **T3**; inner cortex erosion T3, through the outer cortex **T4a**.',
+   'Cord paralysis: medially rotated arytenoid, dilated ventricle and pyriform sinus. Scan from skull base to the **aortopulmonary window**.']),
 ]
 EXTRA = {}
 def main():
