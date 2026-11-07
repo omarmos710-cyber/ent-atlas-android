@@ -115,6 +115,13 @@ L = [  # id, lesson, part, title, one-line, sources, anatomy regions, related cl
    'Recurrence is **discrete, new or enlarging**, nodular at flap margins, restricts diffusion and is focally FDG-avid.',
    '**NI-RADS** 1 to 4 for primary and neck, each tied to an action.',
    'Mimics: hypertrophied levator scapulae, residual thyroid lobe, **osteoradionecrosis**.']),
+ ('im_trauma', 17, 'pat', 'Trauma', 'Facial buttresses and fracture patterns (Le Fort, zygomaticomaxillary, nasoorbitoethmoid, frontal sinus, mandible), temporal bone fractures, laryngeal trauma and penetrating neck injury.',
+  [DI + ', skull base and facial trauma', ESR, DU], ['skullbones', 'temporal', 'larynx'], ['facefx', 'tbfx', 'lxtrauma', 'orbit', 'csf'],
+  ['Thin **non-contrast CT** with 3D reformats; **CT angiography** for carotid canal fractures, penetrating injury or unexplained deficit.',
+   'Le Fort fractures all break the **pterygoid plates**; unique fractures: nasal aperture (I), inferior orbital rim (II), zygomatic arch (III).',
+   'NOE: the **medial canthal tendon** fragment. Frontal sinus: anterior table, **posterior table**, outflow.',
+   'The mandible often breaks in **two places**; fractures through teeth are open.',
+   'Temporal bone: **otic capsule sparing or violating**; check ossicles, facial canal, tegmen and carotid canal.']),
 ]
 EXTRA = {}
 def main():

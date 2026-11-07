@@ -1,0 +1,72 @@
+@stand In trauma, the scan has to answer quickly what the surgeon cannot see: which bones are broken and how they are displaced, whether the airway, the eye, the optic nerve, the facial nerve, the dura or the great vessels are at risk, and what needs fixing urgently. Facial and temporal bone fractures follow recognisable patterns, and recognising the pattern is what lets you look for the right complication. This lesson covers the face, the temporal bone, the larynx and penetrating injuries of the neck.
+
+# The study | Thin CT, then angiography if needed.
+## Protocol
+**Non-contrast thin-section CT** (about 1 mm or less) in a bone algorithm, with **multiplanar and 3D reformats**, is the standard for facial, temporal bone and laryngeal fractures; it is done in one pass with the head CT and, where indicated, the cervical spine. **CT angiography** is added when a vessel may be injured: fractures through the **carotid canal**, the **foramen transversarium** or the skull base, a penetrating neck wound, an expanding haematoma, a neurological deficit not explained by the brain scan, or severe midface fractures. **MRI** is kept for the optic nerve, brain, ligaments and the facial nerve when needed later.
+
+# The face | Buttresses and patterns.
+## The buttresses
+The midface is a frame of thick **vertical buttresses** (nasomaxillary, zygomaticomaxillary and pterygomaxillary) joined by **horizontal** ones (the frontal bar, the infraorbital rims and orbital floors, the zygomatic arches and the palate and alveolus). Fractures are described by which buttresses are broken, because repair restores them. The **pterygoid plates** link the midface to the skull base, and are broken in every Le Fort fracture.
+## Le Fort fractures
+Le Fort fractures separate part of the midface from the skull base, and each type has a **unique fracture** that identifies it: **Le Fort I** (horizontal, separating the alveolus and palate) breaks the **lateral margin of the nasal aperture**; **Le Fort II** (pyramidal) breaks the **inferior orbital rim**; **Le Fort III** (craniofacial dissociation) breaks the **zygomatic arch** and the lateral orbital wall. All three break the pterygoid plates. Fractures are often mixed and different on the two sides.
+!fig di1009-1 | Le Fort fractures. Left: drawing of the three levels. Right: 3D CT of a Le Fort I fracture separating the maxillary alveolus from the midface, through the nasal aperture.
+!fig di1009-2 | Left: 3D CT of a Le Fort II fracture through both inferior orbital rims, with rotation of the midface and malocclusion. Right: a Le Fort III fracture with nasofrontal separation, medial and lateral orbital wall and pterygoid plate fractures.
+## Zygomaticomaxillary complex
+The zygoma is attached at four points, and a **zygomaticomaxillary complex** (tetrapod) fracture separates it at all of them: the **zygomaticofrontal** suture (lateral orbital rim), the **zygomatic arch**, the **inferior orbital rim and floor**, and the **anterior and posterolateral maxillary walls**, with the zygomaticosphenoid suture in the lateral orbital wall. Report the displacement and rotation of the zygoma, the orbital floor defect, and the infraorbital canal.
+!fig di1013-2 | Zygomaticomaxillary complex fracture. Left: axial CT, fractures of the anterior and lateral walls of the maxillary sinus with swelling over the cheek. Right: 3D CT, the classic pattern through the maxillary sinus walls, zygomatic arch and lateral orbital wall.
+## Nasoorbitoethmoid and frontal sinus fractures
+**Nasoorbitoethmoid** fractures drive the nasal bones back between the orbits. The key question is whether the fragment carrying the **medial canthal tendon** is intact, displaced or comminuted, which decides the repair and the risk of telecanthus. Look also at the **nasolacrimal ducts**, the **frontal recess** and the anterior skull base. **Frontal sinus** fractures are described by the **anterior table**, the **posterior table** (dura and CSF leak) and the **frontal sinus outflow** through the frontal recess, which predicts later mucocele.
+!fig di1017-1 | Nasoorbitoethmoid fracture. Left: axial CT, comminuted fractures of the nasoorbitoethmoid complex. Right: lower down, the fractures involve both nasolacrimal ducts; epiphora is expected.
+## The orbit
+Blowout fractures, muscle entrapment, retrobulbar haemorrhage and optic canal fractures are covered in the orbit lesson. In any midface fracture, look at the orbital floor and medial wall, the globe, the optic canal and the superior orbital fissure.
+## The mandible
+The mandible is a ring with the skull base, so it often breaks in **two places** (for example an angle on one side and the parasymphysis on the other). Report each fracture by site (condyle, ramus, angle, body, parasymphysis, symphysis), displacement, involvement of **teeth** (a fracture through a tooth socket is open), the **inferior alveolar canal** and the **temporomandibular joint**. A panoramic radiograph complements CT.
+!fig di1019-1 | Mandible fractures. Left: drawing of a ramus fracture crossing the inferior alveolar canal. Right: axial CT, displaced fractures of the right angle and left parasymphysis, the typical two-site pattern.
+
+# The temporal bone | Capsule sparing or violating.
+## The pattern and the structures
+Temporal bone fractures are classed as **longitudinal**, **transverse** or **oblique** to the petrous ridge, but the classification that predicts complications is whether the **otic capsule is spared or violated**. Capsule-sparing fractures (the large majority) run through the squamous bone, external canal and middle ear, disrupt the **ossicles** (incudostapedial separation and incus dislocation are commonest) and cause conductive loss. Capsule-violating fractures cross the cochlea, vestibule or canals, cause sensorineural loss and vertigo, and are more often associated with **facial palsy** and **CSF leak**. In every fracture check the ossicles, the facial canal (the **geniculate** region is the commonest site of injury), the **tegmen**, the **carotid canal** (CT angiography if involved), the jugular foramen and the sigmoid sinus.
+!fig di995-2 | Otic capsule-violating fractures. Left: an old transverse fracture through the otic capsule to the basal turn, with new bone in the cochlea (labyrinthitis ossificans). Right: a fracture through the labyrinthine facial nerve canal and the vestibule, typically with permanent deafness and facial palsy.
+!pearl Do not call a suture a fracture
+The temporal bone is full of sutures (petrotympanic, tympanosquamous, occipitomastoid), fissures and small canals (the cochlear and vestibular aqueducts, the subarcuate canal). Compare with the other side and follow the line across slices before calling it a fracture.
+!!
+
+# The larynx and the neck | Airway and vessels.
+## Laryngeal trauma
+After blunt injury to the larynx, CT (when the airway is secure) shows fractures of the **thyroid** and **cricoid** cartilages, displacement of fragments, **arytenoid dislocation**, haematoma narrowing the airway, and air in the soft tissues. A fractured cricoid or a displaced thyroid fracture usually needs open repair; isolated haematoma and minor oedema are usually managed conservatively. Endoscopy remains essential for the mucosa.
+!fig di305-1 | Laryngeal fracture. Left: a step at the thyroid notch and a subtle fracture of the right thyroid lamina with inward rotation of the fragment. Right: lower down, displacement of the right arytenoid and widening of the cricothyroid space.
+## Penetrating neck injury
+The neck is traditionally divided into **zones**: zone I from the clavicles to the cricoid, zone II from the cricoid to the angle of the mandible, zone III above the angle to the skull base. Unstable patients with hard signs (expanding haematoma, pulsatile bleeding, airway compromise, shock) go to theatre. In stable patients, **CT angiography** of the neck is now the first test whatever the zone; it shows the track, vascular injury (occlusion, dissection, pseudoaneurysm, extravasation), and injury to the airway, pharynx and oesophagus, which may need contrast swallow or endoscopy if the track passes close to them.
+!fig di305-2 | Penetrating laryngeal injury on CT angiography. Left: a pen through the supraglottis, its tip close to the left vertebral artery. Right: a gunshot wound with soft tissue air, shrapnel near the spine and comminuted fractures of the cricoid and arytenoid.
+
+!path Reading a facial or neck trauma CT
+Airway | narrowing, haematoma, displaced fragments ; laryngeal cartilages
+Midface | buttresses ; pterygoid plates ; Le Fort unique fractures ; zygoma ; NOE and canthal fragment
+Orbit | floor and medial wall ; muscle ; globe ; retrobulbar blood or air ; optic canal
+Frontal sinus and skull base | anterior and posterior tables ; frontal recess ; cribriform plate ; pneumocephalus
+Mandible | each fracture site ; teeth ; inferior alveolar canal ; condyles and joints
+Temporal bone | otic capsule ; ossicles ; facial canal ; tegmen ; carotid canal
+Vessels | indications for CT angiography ; carotid and vertebral arteries ; venous sinuses
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Thin CT with 3D reformats;** indications for CT angiography.
+- **Facial buttresses** and the pterygoid plates.
+- **Le Fort unique fractures:** nasal aperture (I), inferior orbital rim (II), zygomatic arch (III).
+- **Zygomaticomaxillary complex** fracture components.
+- **NOE fractures:** the medial canthal tendon fragment.
+- **Frontal sinus:** anterior table, posterior table, outflow.
+- **Mandible:** two fractures, open fractures through teeth.
+- **Temporal bone:** capsule sparing versus violating; structures to check.
+- **Penetrating neck injury:** zones, hard signs, CT angiography.
+!!
+## Common pitfalls
+!pit
+- Missing the second mandibular fracture.
+- Calling a Le Fort fracture without broken pterygoid plates.
+- Calling a temporal bone suture a fracture.
+- Missing a carotid canal fracture and the need for CT angiography.
+- Missing a posterior table frontal sinus fracture and a CSF leak.
+!!
