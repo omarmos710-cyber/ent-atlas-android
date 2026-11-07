@@ -122,6 +122,13 @@ L = [  # id, lesson, part, title, one-line, sources, anatomy regions, related cl
    'NOE: the **medial canthal tendon** fragment. Frontal sinus: anterior table, **posterior table**, outflow.',
    'The mandible often breaks in **two places**; fractures through teeth are open.',
    'Temporal bone: **otic capsule sparing or violating**; check ossicles, facial canal, tegmen and carotid canal.']),
+ ('im_paeds', 18, 'pat', 'The child\'s head and neck', 'Choosing tests for children, neck lumps by position, vascular anomalies, the newborn nose, midline nasal masses, and imaging the deaf child.',
+  [DI + ', paediatric and congenital chapters', ESR, DU], ['neck', 'nose', 'inner'], ['paeds_neck', 'congnose', 'deaf', 'ko', 'paeds_vs', 'atresia'],
+  ['**Ultrasound and MRI first**; low-dose CT for bone and emergencies.',
+   'Midline: **thyroglossal cyst** (hyoid, normal thyroid). Lateral, in front of SCM: **second branchial cleft cyst**. Left-sided recurrent abscess: third or fourth arch.',
+   '**Haemangioma**: solid, high-flow, involutes. **Lymphatic malformation**: multicystic, transspatial, fluid levels.',
+   'Newborn nose: **choanal atresia** (CHARGE) at the back, **pyriform aperture stenosis** (central incisor) at the front.',
+   'Deaf child: **MRI** for the cochlear nerve and labyrinth, **CT** for bony anatomy; classify the malformation.']),
 ]
 EXTRA = {}
 def main():

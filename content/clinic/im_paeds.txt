@@ -1,0 +1,66 @@
+@stand Imaging a child is different in three ways. The diseases are different: most neck lumps are reactive nodes or congenital cysts, nasal obstruction in a newborn may be bony, and deafness is often due to a malformation. The tests are different: ultrasound and MRI come first because of radiation, and MRI may need sedation. And the anatomy is still developing, so normal growth can mimic disease. This lesson gathers the paediatric imaging an ENT surgeon meets most often.
+
+# Principles | The least harmful test that answers the question.
+## Choosing the test
+Children are more sensitive to radiation than adults and have more years ahead in which harm could appear, so **ultrasound** is the first test for neck lumps, salivary and thyroid lesions, and **MRI** for soft tissue, the inner ear and nerves and intracranial connections. MRI under six months can often be done with a **feed and wrap** technique; older infants and young children may need sedation or anaesthesia, which can be combined with another procedure. **CT** is used when the question is about bone (choanal atresia, the temporal bone, fractures) or in an emergency (deep neck infection with airway concern), with a low-dose paediatric protocol.
+
+# The neck lump | Position is the key.
+## Midline lumps
+A **thyroglossal duct cyst** is the commonest congenital neck lump. It lies in the midline or just off it, anywhere from the foramen caecum of the tongue to the thyroid bed, most often at or just below the **hyoid**, and infrahyoid cysts are embedded in the **strap muscles**. Ultrasound confirms a cyst and, importantly, a **normal thyroid gland** in the lower neck. A solid component in an adult raises the question of carcinoma. A **dermoid cyst** of the floor of mouth or neck may contain fat globules ("a sack of marbles"); position relative to the mylohyoid decides the surgical approach.
+!fig di617-1 | Thyroglossal duct cyst. Left: drawing of the course of the thyroglossal duct from the foramen caecum to the thyroid. Right: sagittal contrast CT, a well-defined cyst at the midline base of the tongue.
+## Lateral lumps
+The **second branchial cleft cyst** is the commonest lateral cyst: it sits at the angle of the mandible, **in front of the sternocleidomastoid**, lateral to the carotid sheath and behind the submandibular gland, displacing all three. Infection thickens its wall. A cystic lump here in an **adult** must be treated as a cystic nodal metastasis until proven otherwise. A **first branchial cleft** anomaly lies near the external auditory canal, parotid or angle of the mandible, close to the facial nerve. **Third and fourth** branchial anomalies are usually on the **left**, run from the pyriform sinus, and present as recurrent abscesses or **suppurative thyroiditis**; a barium swallow or CT after contrast may show the sinus tract.
+!fig di629-2 | Second branchial cleft cyst. Left: contrast CT in a teenager, a well-defined low-density mass in front of the sternocleidomastoid and lateral to the carotid space. Right: coronal CT, a thicker wall inferiorly.
+## Vascular anomalies
+Vascular anomalies are divided into **tumours** and **malformations**. **Infantile haemangioma** appears in the first weeks, grows rapidly, then involutes; on imaging it is a lobulated, **solid, intensely enhancing** mass with **high-flow vessels**, often in the parotid. **Lymphatic malformations** are present from birth, are multicystic with thin septa, insinuate between structures across several spaces (**transspatial**), and show **fluid–fluid levels** after bleeding. **Venous malformations** are bright on T2, enhance slowly and contain **phleboliths**, best seen on CT or ultrasound.
+!fig di607-1 | Lymphatic malformation. Left: contrast CT, a low-density lobulated mass in the submandibular space. Right: fat-suppressed T2, high fluid signal with lobular margins.
+!fig di607-2 | Lymphatic malformation on ultrasound. Left: a well-defined multicystic mass with thin septa (macrocystic). Right: a largely anechoic, septated mass in the subcutaneous tissues of a newborn.
+!fig di647-1 | Infantile haemangioma. Left: post-gadolinium MRI, a large lobulated, intensely enhancing mass replacing the parotid gland of a five-month-old, with prominent vessels. Right: a flow-sensitive sequence showing the high-flow vessels.
+## Malignancy and the rest
+Most solid neck lumps in children are **reactive or suppurative nodes**, assessed by ultrasound. A firm, growing mass, a mass in the first months of life outside the usual sites, or nodes with systemic symptoms raise the possibility of **lymphoma**, **rhabdomyosarcoma** (orbit, nasopharynx, ear, parameningeal sites) or **neuroblastoma** (calcification). **Fibromatosis colli** is a fusiform enlargement of the sternocleidomastoid in the first weeks of life with torticollis, diagnosed on ultrasound and not to be biopsied.
+!fig di651-1 | Orbital rhabdomyosarcoma in an eight-year-old. Left: coronal CT, a non-specific extraconal mass in the lower orbit without bone destruction. Right: post-gadolinium MRI, a heterogeneously enhancing solid mass.
+
+# The newborn nose | Bone, membrane or mass?
+## Choanal atresia and pyriform aperture stenosis
+A newborn who cannot breathe through the nose needs **CT** after suction and topical decongestion. **Choanal atresia** shows narrowing of the posterior choanae with a **thickened vomer** and **medially bowed posterior maxilla**, closed by bone, membrane or (most often) both; bilateral atresia presents with cyclical cyanosis and is associated with **CHARGE** syndrome, so look at the inner ears too. **Congenital pyriform aperture stenosis** narrows the **front** of the nose through overgrowth of the maxillae, and is associated with a **single central incisor**, which calls for assessment of the pituitary and brain.
+!fig di697-1 | Choanal atresia. Left: axial CT, bony obstruction of the upper choana by an enlarged vomer and a thickened, medially placed posterior maxilla. Right: lower down, membranous atresia bridging the narrowed choana, with retained secretions.
+!fig di713-1 | Congenital pyriform aperture stenosis. Left: axial CT in a newborn, overgrowth of the anterior maxillae narrowing the front of the nose. Right: a single median maxillary central incisor at the palate.
+## Midline nasal masses
+A midline nasal lump or pit in a child may be a **dermoid** (with a dermal sinus), a **glioma** (heterotopic brain) or an **encephalocele**, and any of them may connect with the cranial cavity through the **foramen caecum**. **MRI** (with thin CT of the anterior skull base) is mandatory **before any biopsy or excision**: an enlarged foramen caecum, a bifid crista galli or a tract to the dura means a combined approach.
+!fig di705-1 | Nasal dermal sinus and dermoid. Left: drawing of a sinus tract from a nasal pit with dermoids outside and inside the skull. Right: coronal CT, a midline dermoid remodelling the margins of the foramen caecum.
+
+# The deaf child | Malformations and the nerve.
+## Which test
+In a child with **sensorineural** loss, **MRI** with high-resolution T2 shows the inner ear fluid, the IAC and, crucially, whether the **cochlear nerve** is present; **CT** shows the bony labyrinth, the cochlear nerve canal, the vestibular aqueduct and the middle ear, and is often added when a malformation is found or before cochlear implantation. In a child with **conductive** loss and a normal drum, CT looks for ossicular malformation, oval window atresia, and congenital cholesteatoma.
+## The malformations
+Inner ear malformations are described by how far development went, in the Sennaroglu classification: complete labyrinthine aplasia (Michel), cochlear aplasia, **common cavity**, **cochlear hypoplasia**, and the **incomplete partitions**. **IP-I** is a cystic cochlea without a modiolus; **IP-II** (the Mondini deformity) has a normal basal turn but a cystic apex where the middle and apical turns fuse, with a dilated vestibule and a **large vestibular aqueduct**; **IP-III** (X-linked) lacks the modiolus and carries a risk of a CSF **gusher** at surgery. A **narrow or absent cochlear nerve canal** or an absent cochlear nerve may make a cochlear implant pointless.
+!fig di1129-1 | IP-II (Mondini) malformation. Left: axial CT, a large vestibular aqueduct. Right: a mild large vestibular aqueduct with plump middle and apical turns that lack the interscalar septum and modiolus.
+!fig di1135-2 | Cochlear nerve deficiency. Left: axial T2 in a one-year-old with profound left loss: normal right cochlear nerve, absent left. Right: oblique sagittal T2, no cochlear nerve in the left IAC, with normal facial and vestibular nerves.
+
+!path Imaging a child
+Choose the test | ultrasound for lumps and glands ; MRI for soft tissue, inner ear and intracranial ; low-dose CT for bone and emergencies
+Neck lump | midline: thyroglossal or dermoid ; lateral: branchial cleft (which one) ; transspatial and cystic: lymphatic malformation ; solid and high-flow in infancy: haemangioma ; solid and growing: exclude malignancy
+Newborn nose | front (pyriform aperture) or back (choanae) ; bone or membrane ; CHARGE ; central incisor
+Midline nasal mass | foramen caecum, crista galli, tract to dura before any biopsy
+Deaf child | MRI for cochlear nerve and labyrinth ; CT for bony anatomy ; classify any malformation
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Ultrasound and MRI first** in children; when CT is right.
+- **Thyroglossal duct cyst:** relation to the hyoid and a normal thyroid on ultrasound.
+- **Second branchial cleft cyst** position; third and fourth arch anomalies and suppurative thyroiditis.
+- **Haemangioma versus vascular malformations.**
+- **Choanal atresia versus pyriform aperture stenosis**, and their associations.
+- **Midline nasal mass:** image before biopsy.
+- **Inner ear malformations** (common cavity, IP-I, IP-II, IP-III) and the cochlear nerve.
+!!
+## Common pitfalls
+!pit
+- CT for a child's neck lump when ultrasound would do.
+- Removing a thyroglossal cyst without confirming a normal thyroid.
+- Biopsying a midline nasal mass with an intracranial connection.
+- Implanting an ear with no cochlear nerve.
+- Calling an adult's cystic level II mass a branchial cyst.
+!!
