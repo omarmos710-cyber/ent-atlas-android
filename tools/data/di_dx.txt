@@ -1,0 +1,390 @@
+41 Parapharyngeal Space Benign Mixed Tumor
+49 Tornwaldt Cyst
+51 Retention Cyst of Pharyngeal Mucosal Space
+53 Tonsillar Inflammation
+55 Tonsillar/Peritonsillar Abscess
+57 Benign Mixed Tumor of Pharyngeal Mucosal Space
+59 Minor Salivary Gland Malignancy of Pharyngeal Mucosal Space
+61 Non-Hodgkin Lymphoma of Pharyngeal Mucosal Space
+71 Pterygoid Venous Plexus Asymmetry
+73 Benign Masticator Muscle Hypertrophy
+75 CNV3 Motor Denervation
+79 Masticator Space Abscess
+83 Masticator Space CNV3 Schwannoma
+85 Masticator Space CNV3 Perineural Tumor
+89 Masticator Space Chondrosarcoma
+93 Masticator Space Sarcoma
+103 Acute Parotitis
+107 Parotid Sjögren Syndrome
+111 Benign Lymphoepithelial Lesions of HIV
+115 Parotid Benign Mixed Tumor
+119 Warthin Tumor
+123 Parotid Schwannoma
+125 Parotid Mucoepidermoid Carcinoma
+129 Parotid Adenoid Cystic Carcinoma
+131 Parotid Acinic Cell Carcinoma
+133 Parotid Malignant Mixed Tumor
+135 Parotid Non-Hodgkin Lymphoma
+139 Metastatic Disease of Parotid Nodes
+149 Tortuous Carotid Artery in Neck
+151 Carotid Artery Dissection in Neck
+155 Carotid Artery Pseudoaneurysm in Neck
+157 Carotid Artery Fibromuscular Dysplasia in Neck
+159 Acute Idiopathic Carotidynia
+161 Jugular Vein Thrombosis
+165 Postpharyngitis Venous Thrombosis (Lemierre)
+167 Carotid Body Paraganglioma
+171 Glomus Vagale Paraganglioma
+175 Carotid Space Schwannoma
+179 Sympathetic Schwannoma
+181 Carotid Space Neurofibroma
+183 Carotid Space Meningioma
+191 Reactive Adenopathy of Retropharyngeal Space
+193 Suppurative Adenopathy of Retropharyngeal Space
+195 Retropharyngeal Space Abscess
+199 Retropharyngeal Space Edema
+203 Nodal Squamous Cell Carcinoma of Retropharyngeal Space
+205 Nodal Non-Hodgkin Lymphoma in Retropharyngeal Space
+207 Non-Squamous Cell Carcinoma Metastatic Nodes in Retropharyngeal Space
+215 Levator Scapulae Muscle Hypertrophy
+217 Acute Calcific Longus Colli Tendonitis
+219 Perivertebral Space Infection
+223 Vertebral Artery Dissection in Neck
+225 Brachial Plexus Schwannoma in Perivertebral Space
+227 Chordoma in Perivertebral Space
+229 Vertebral Body Metastasis in Perivertebral Space
+237 Posterior Cervical Space Schwannoma
+241 Squamous Cell Carcinoma in Spinal Accessory Node
+243 Non-Hodgkin Lymphoma in Spinal Accessory Node
+251 Chronic Lymphocytic Thyroiditis (Hashimoto)
+253 Multinodular Goiter
+257 Thyroid Adenoma
+261 Parathyroid Adenoma in Visceral Space
+265 Differentiated Thyroid Carcinoma
+269 Medullary Thyroid Carcinoma
+273 Anaplastic Thyroid Carcinoma
+277 Non-Hodgkin Lymphoma of Thyroid
+279 Parathyroid Carcinoma
+281 Thyroglossal Duct Cyst Carcinoma
+283 Cervical Esophageal Carcinoma
+285 Esophagopharyngeal Diverticulum (Zenker)
+287 Colloid Cyst of Thyroid
+289 Lateral Cervical Esophageal Diverticulum
+299 Croup
+303 Epiglottitis in Child
+304 Supraglottitis
+305 Laryngeal Trauma
+309 Upper Airway Infantile Hemangioma
+311 Laryngeal Chondrosarcoma
+315 Postradiation Larynx
+319 Laryngocele
+323 Vocal Cord Paralysis
+327 Acquired Subglottic-Tracheal Stenosis
+337 Reactive Lymph Nodes
+341 Suppurative Lymph Nodes
+345 Tuberculous Lymph Nodes
+347 Non-TB Mycobacterium Nodes
+348 Sarcoidosis Lymph Nodes
+349 Giant Lymph Node Hyperplasia (Castleman Disease)
+353 Histiocytic Necrotizing Lymphadenitis (Kikuchi-Fujimoto)
+355 Kimura Disease
+359 Nodal Hodgkin Lymphoma in Neck
+363 Nodal Non-Hodgkin Lymphoma in Neck
+367 Nodal Differentiated Thyroid Carcinoma
+369 Systemic Nodal Metastases in Neck
+375 Prominent Thoracic Duct in Neck
+377 Lipoma of Head and Neck
+381 Hemangiopericytoma of Head and Neck
+383 Plexiform Neurofibroma of Head and Neck
+385 Posttransplantation Lymphoproliferative Disorder
+387 Extraosseous Chordoma
+389 Non-Hodgkin Lymphoma of Head and Neck
+393 Liposarcoma of Head and Neck
+395 Synovial Sarcoma of H&N
+397 Malignant Peripheral Nerve Sheath Tumor of Head and Neck
+399 Lymphocele of Neck
+401 Sinus Histiocytosis (Rosai-Dorfman) of Head and Neck
+403 Fibromatosis of Head and Neck
+415 Hypoglossal Nerve Motor Denervation
+417 Submandibular Space Accessory Salivary Tissue
+419 Oral Cavity Dermoid and Epidermoid
+423 Oral Cavity Lymphatic Malformation
+425 Lingual Thyroid
+427 Ranula
+431 Oral Cavity Sialocele
+433 Submandibular Gland Sialadenitis
+435 Oral Cavity Abscess
+439 Submandibular Gland Benign Mixed Tumor
+441 Palate Benign Mixed Tumor
+443 Sublingual Gland Carcinoma
+445 Submandibular Gland Carcinoma
+447 Oral Cavity Minor Salivary Gland Malignancy
+449 Submandibular Space Nodal Non-Hodgkin Lymphoma
+451 Submandibular Space Nodal Squamous Cell Carcinoma
+461 Solitary Median Maxillary Central Incisor
+463 Nasolabial Cyst
+465 Periapical Cyst (Radicular)
+467 Dentigerous Cyst
+469 Simple Bone Cyst (Traumatic)
+471 Nasopalatine Duct Cyst
+473 TMJ Juvenile Idiopathic Arthritis
+475 Mandible-Maxilla Osteomyelitis
+477 TMJ Calcium Pyrophosphate Dihydrate Deposition Disease
+479 TMJ Pigmented Villonodular Synovitis
+481 TMJ Synovial Chondromatosis
+483 Mandible-Maxilla Central Giant Cell Granuloma
+485 Ameloblastoma
+489 Keratocystic Odontogenic Tumor (Odontogenic Keratocyst)
+493 Mandible-Maxilla Osteosarcoma
+495 Mandible-Maxilla Osteoradionecrosis
+499 Mandible-Maxilla Osteonecrosis
+511 Nasopharyngeal Carcinoma
+515 Base of Tongue Squamous Cell Carcinoma
+519 Palatine Tonsil Squamous Cell Carcinoma
+523 Posterior Oropharyngeal Wall Squamous Cell Carcinoma
+525 HPV-Related Oropharyngeal Squamous Cell Carcinoma
+529 Soft Palate Squamous Cell Carcinoma
+531 Oral Tongue Squamous Cell Carcinoma
+535 Floor of Mouth Squamous Cell Carcinoma
+537 Alveolar Ridge Squamous Cell Carcinoma
+539 Retromolar Trigone Squamous Cell Carcinoma
+541 Buccal Mucosa Squamous Cell Carcinoma
+543 Hard Palate Squamous Cell Carcinoma
+545 Pyriform Sinus Squamous Cell Carcinoma
+549 Postcricoid Region Squamous Cell Carcinoma
+551 Posterior Hypopharyngeal Wall Squamous Cell Carcinoma
+553 Supraglottic Laryngeal Squamous Cell Carcinoma
+557 Glottic Laryngeal Squamous Cell Carcinoma
+559 Subglottic Laryngeal Squamous Cell Carcinoma
+561 Laryngeal Squamous Cell Carcinoma With Secondary Laryngocele
+563 Perineural Tumor Spread
+567 Nodal Squamous Cell Carcinoma
+575 Nodal Dissection in Neck
+579 Reconstruction Flaps in Neck
+583 Expected Changes of Neck Radiation Therapy
+587 Complications of Neck Radiation Therapy
+591 Osteoradionecrosis
+595 Post Laryngectomy
+607 Lymphatic Malformation
+611 Venous Malformation
+615 Congenital Vallecular Cyst
+617 Thyroglossal Duct Cyst
+621 Cervical Thymic Cyst
+625 1st Branchial Cleft Cyst
+629 2nd Branchial Cleft Cyst
+633 3rd Branchial Cleft Cyst
+637 4th Branchial Cleft Cyst
+641 Dermoid and Epidermoid
+645 Fibromatosis Colli
+647 Infantile Hemangioma
+651 Rhabdomyosarcoma
+652 Primary Cervical Neuroblastoma
+653 Metastatic Neuroblastoma
+659 Neurofibromatosis Type 1
+663 Schwannomatosis
+665 Neurofibromatosis Type 2
+667 Basal Cell Nevus Syndrome
+669 Branchiootorenal Syndrome
+673 CHARGE Syndrome
+677 Hemifacial Microsomia
+679 Treacher Collins Syndrome
+680 Pierre Robin Sequence
+681 X-Linked Stapes Gusher (DFNX2)
+683 McCune-Albright Syndrome
+684 Cherubism
+685 Mucopolysaccharidosis
+695 Nasolacrimal Duct Mucocele
+697 Choanal Atresia
+701 Nasal Glioma
+705 Nasal Dermal Sinus
+709 Frontoethmoidal Cephalocele
+713 Congenital Nasal Pyriform Aperture Stenosis
+715 Acute Rhinosinusitis
+719 Chronic Rhinosinusitis
+723 Complications of Rhinosinusitis
+727 Allergic Fungal Sinusitis
+729 Sinus Mycetoma
+731 Invasive Fungal Sinusitis
+735 Sinonasal Polyposis
+739 Solitary Sinonasal Polyp
+743 Sinonasal Mucocele
+747 Sinonasal Organized Hematoma
+749 Silent Sinus Syndrome
+751 Granulomatosis With Polyangiitis (Wegener)
+755 Nasal Cocaine Necrosis
+757 Sinonasal Fibrous Dysplasia
+759 Sinonasal Osteoma
+763 Sinonasal Ossifying Fibroma
+767 Juvenile Angiofibroma
+771 Sinonasal Inverted Papilloma
+775 Sinonasal Hemangioma
+777 Sinonasal Nerve Sheath Tumor
+779 Sinonasal Benign Mixed Tumor
+781 Sinonasal Squamous Cell Carcinoma
+785 Esthesioneuroblastoma
+789 Sinonasal Melanoma
+791 Sinonasal Adenocarcinoma
+793 Sinonasal Non-Hodgkin Lymphoma
+797 Sinonasal Neuroendocrine Carcinoma
+799 Sinonasal Undifferentiated Carcinoma
+800 Sinonasal Adenoid Cystic Carcinoma
+801 Sinonasal Chondrosarcoma
+802 Sinonasal Osteosarcoma
+809 Coloboma
+813 Persistent Hyperplastic Primary Vitreous
+815 Coats Disease
+817 Orbital Dermoid and Epidermoid
+821 Orbital Neurofibromatosis Type 1
+825 Orbital Lymphatic Malformation
+829 Orbital Venous Varix
+831 Orbital Cavernous Venous Malformation (Hemangioma)
+835 Ocular Toxocariasis
+837 Orbital Subperiosteal Abscess
+841 Orbital Cellulitis
+843 Idiopathic Orbital Inflammation (Pseudotumor)
+847 Orbital Sarcoidosis
+849 Thyroid-Associated Orbitopathy
+853 Optic Neuritis
+857 Orbital Langerhans Cell Histiocytosis
+859 Orbital Infantile Hemangioma
+863 Optic Pathway Glioma
+867 Optic Nerve Sheath Meningioma
+871 Lacrimal Gland Benign Mixed Tumor
+873 Retinoblastoma
+877 Ocular Melanoma
+881 Orbital Lymphoproliferative Lesions
+885 Lacrimal Gland Carcinoma
+895 Ecchordosis Physaliphora
+897 Fossa Navicularis Magna
+899 Invasive Pituitary Macroadenoma
+901 Chordoma
+905 Persistent Craniopharyngeal Canal
+907 Sphenoid Benign Fatty Lesion
+908 Central Skull Base Trigeminal Schwannoma
+909 Hypoglossal Nerve Schwannoma
+911 Jugular Bulb Pseudolesion
+913 High Jugular Bulb
+915 Dehiscent Jugular Bulb
+917 Jugular Bulb Diverticulum
+919 Glomus Jugulare Paraganglioma
+923 Jugular Foramen Schwannoma
+927 Jugular Foramen Meningioma
+929 Dural Sinus and Aberrant Arachnoid Granulations
+933 Skull Base Dural Sinus Thrombosis
+937 Cavernous Sinus Thrombosis
+939 Dural Arteriovenous Fistula
+943 Skull Base Cephalocele
+947 Skull Base CSF Leak
+949 Skull Base Fibrous Dysplasia
+953 Skull Base Paget Disease
+955 Skull Base Langerhans Cell Histiocytosis
+959 Skull Base Osteopetrosis
+961 Intracranial Idiopathic Inflammatory Pseudotumor
+965 Skull Base Giant Cell Tumor
+967 Skull Base Meningioma
+971 Skull Base Plasmacytoma
+975 Skull Base Multiple Myeloma
+977 Skull Base Metastasis
+979 Skull Base Chondrosarcoma
+983 Skull Base Osteosarcoma
+985 Skull Base Osteomyelitis
+995 Temporal Bone Fractures
+999 Ossicular Dislocations and Disruptions
+1001 Skull Base Trauma
+1005 Orbital Foreign Body
+1007 Orbital Blowout Fracture
+1009 Transfacial Fractures (Le Fort)
+1013 Zygomaticomaxillary Complex Fracture
+1015 Complex Facial Fracture
+1017 Nasoorbitalethmoidal Fracture
+1019 Mandible Fracture
+1021 TMJ Disc Displacement
+1031 Foramen Tympanicum
+1033 Congenital External and Middle Ear Malformation
+1037 Necrotizing External Otitis
+1039 Keratosis Obturans
+1041 Medial Canal Fibrosis
+1045 EAC-Acquired Cholesteatoma
+1047 EAC Osteoma
+1049 EAC Exostoses
+1051 EAC Skin Squamous Cell Carcinoma
+1053 Congenital Middle Ear Cholesteatoma
+1057 Congenital Mastoid Cholesteatoma
+1059 Oval Window Atresia
+1061 Lateralized Internal Carotid Artery
+1063 Aberrant Internal Carotid Artery
+1067 Persistent Stapedial Artery
+1069 Coalescent Otomastoiditis With Complications
+1073 Chronic Otomastoiditis With Ossicular Erosions
+1075 Chronic Otomastoiditis With Tympanosclerosis
+1077 Pars Flaccida Cholesteatoma
+1081 Pars Tensa Cholesteatoma
+1085 Mural Cholesteatoma
+1087 Middle Ear Cholesterol Granuloma
+1091 Glomus Tympanicum Paraganglioma
+1095 Temporal Bone Meningioma
+1099 Middle Ear Schwannoma
+1101 Middle Ear Adenoma
+1103 Temporal Bone Rhabdomyosarcoma
+1107 Temporal Bone Cephalocele
+1109 Ossicular Prosthesis
+1113 Petromastoid Canal
+1115 Cochlear Cleft
+1117 Labyrinthine Aplasia
+1119 Cochlear Aplasia
+1121 Cochlear Hypoplasia
+1123 Common Cavity Malformation
+1125 Cystic Cochleovestibular Malformation (IP-I)
+1127 Cochlear Incomplete Partition Type I (IP-I)
+1129 Cochlear Incomplete Partition Type II (IP-II)
+1131 Large Vestibular Aqueduct (IP-II)
+1135 Cochlear Nerve and Cochlear Nerve Canal Aplasia-Hypoplasia
+1137 Semicircular Canal Hypoplasia-Aplasia
+1138 Semicircular Canal-Vestibule Globular Anomaly
+1139 Labyrinthitis
+1141 Otosyphilis
+1143 Labyrinthine Ossificans
+1147 Otosclerosis
+1151 Temporal Bone Osteogenesis Imperfecta
+1153 Intralabyrinthine Schwannoma
+1157 Endolymphatic Sac Tumor
+1159 Intralabyrinthine Hemorrhage
+1161 Semicircular Canal Dehiscence
+1163 Cochlear Implant
+1167 Petrous Apex Asymmetric Marrow
+1169 Petrous Apex Cephalocele
+1171 Congenital Petrous Apex Cholesteatoma
+1175 Petrous Apex Trapped Fluid
+1177 Petrous Apex Mucocele
+1179 Petrous Apex Cholesterol Granuloma
+1183 Apical Petrositis
+1187 Petrous Apex Internal Carotid Artery Aneurysm
+1189 Intratemporal Facial Nerve Enhancement
+1191 Middle Ear Prolapsing Facial Nerve
+1193 Bell Palsy
+1197 Temporal Bone Facial Nerve Venous Malformation (Hemangioma)
+1201 Temporal Bone Facial Nerve Schwannoma
+1205 Temporal Bone Perineural Parotid Malignancy
+1209 Temporal Bone CSF Leak
+1211 Temporal Bone Arachnoid Granulations
+1213 Temporal Bone Fibrous Dysplasia
+1215 Temporal Bone Paget Disease
+1217 Temporal Bone Langerhans Cell Histiocytosis
+1219 Temporal Bone Metastasis
+1221 Temporal Bone Osteoradionecrosis
+1229 CPA-IAC Epidermoid Cyst
+1233 CPA-IAC Arachnoid Cyst
+1237 Lipoma in CPA-IAC
+1241 IAC Venous Malformation
+1243 CPA-IAC Meningitis
+1245 Ramsay Hunt Syndrome
+1247 CPA-IAC Neurosarcoid
+1249 Vestibular Schwannoma
+1253 Infantile Hemangioma and PHACES Association
+1255 CPA-IAC Meningioma
+1259 CPA-IAC Facial Nerve Schwannoma
+1261 CPA-IAC Metastases
+1265 Trigeminal Neuralgia
+1267 Hemifacial Spasm
+1269 CPA-IAC Aneurysm
+1271 CPA-IAC Superficial Siderosis
