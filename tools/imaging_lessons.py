@@ -87,6 +87,13 @@ L = [  # id, lesson, part, title, one-line, sources, anatomy regions, related cl
    'Tongue cancer: **depth of invasion**, the **lingual septum**, both **neurovascular bundles**.',
    'Mandible: cortex on **CT**, marrow on **MRI**; follow the inferior alveolar canal.',
    'A **cystic level II node** in an adult is metastasis (often HPV oropharynx) until proven otherwise.']),
+ ('im_nodes', 13, 'neck', 'Lymph nodes', 'The imaging levels from their landmarks, the features of a malignant node, reading the nodes back to the primary, the cystic node, and the reactive, suppurative, tuberculous and lymphomatous mimics.',
+  [DI + ', lymph node overview and diagnoses', IA + ', cervical lymph nodes', ESR], ['neck', 'vessels'], ['neckmass', 'hncprinc', 'paeds_neck', 'thyroid', 'tonsil_ca'],
+  ['Levels from landmarks: **hyoid** (II/III), **cricoid** (III/IV), **back of sternocleidomastoid** (V), **jugular vein** (IIA/IIB), **manubrium** (VI/VII).',
+   'Malignant features together: **necrosis**, **round shape** and lost hilum, size, clustering, **extranodal extension**.',
+   'Do not forget the **retropharyngeal** nodes: first station for the nasopharynx.',
+   'A **cystic node** in an adult is metastasis until proven otherwise: HPV oropharynx or papillary thyroid.',
+   'Carotid contact **≥270°** suggests encasement and unresectability.']),
 ]
 EXTRA = {}
 def main():

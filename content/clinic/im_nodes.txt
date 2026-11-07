@@ -1,0 +1,91 @@
+@stand Every head and neck scan is also a scan of the lymph nodes, and the nodes often matter more than the primary: nodal metastasis is the single most important prognostic factor in head and neck squamous carcinoma, and a node is how many cancers first present. This lesson teaches the imaging levels from their landmarks, the features that make a node suspicious, the patterns that point to the primary, and the appearances of the non-cancerous causes you will meet in clinic.
+
+# Levels from landmarks | Translating the neck dissection to the scan.
+## The landmarks
+The surgical levels are drawn on imaging from fixed landmarks that can be found on any axial slice: the **mylohyoid** and the **posterior edge of the submandibular gland**, the **hyoid bone**, the lower edge of the **cricoid cartilage**, the **posterior edge of the sternocleidomastoid**, the **internal jugular vein**, the **carotid arteries** and the top of the **manubrium**.
+!table Imaging levels
+Level | Boundaries on axial imaging
+IA | Submental: between the anterior bellies of the digastrics, below the mylohyoid
+IB | Submandibular: lateral to the anterior digastric, in front of the posterior edge of the submandibular gland
+IIA | Skull base to the lower body of the hyoid, behind the submandibular gland, in front of the posterior edge of the sternocleidomastoid; in front of, beside or inseparable from the internal jugular vein
+IIB | As IIA, but behind the internal jugular vein with a fat plane between
+III | Lower hyoid to the lower cricoid, in front of the posterior edge of the sternocleidomastoid
+IV | Lower cricoid to the clavicle, in front of the posterior edge of the sternocleidomastoid
+VA | Behind the posterior edge of the sternocleidomastoid, skull base to the lower cricoid
+VB | Behind the sternocleidomastoid, lower cricoid to the clavicle
+VI | Between the carotids, hyoid to the manubrium (prelaryngeal, pretracheal, paratracheal)
+VII | Between the carotids, below the top of the manubrium, above the brachiocephalic vein
+!!
+!fig ia447-2 | Axial contrast CT above the hyoid: lines along the posterior edges of the submandibular glands and sternocleidomastoids separate level I from level II, and level II from level V. The enlarged right level II node is the jugulodigastric node.
+!fig ia448-2 | Just below the hyoid: level III nodes along the internal jugular vein in front of the line along the back of the sternocleidomastoid, level VA nodes behind it.
+!fig ia449-3 | At the top of the manubrium: the line between level VI above and level VII (the superior mediastinum) below.
+## Nodes without a number
+Some groups are named, not numbered, and are easily missed: the **retropharyngeal** nodes (lateral, or nodes of Rouvière, at the level of C1–C2 beside the longus capitis, and medial), the **parotid** and **facial** nodes, the **occipital** and **supraclavicular** nodes. Retropharyngeal nodes cannot be felt and are the first station for the nasopharynx and a common one for the oropharynx, hypopharynx and thyroid.
+!fig ia452-2 | Axial fat-suppressed T2: the lateral retropharyngeal nodes (of Rouvière) anterolateral to the prevertebral muscles, and the medial retropharyngeal nodes.
+
+# Is this node abnormal? | Use all the features together.
+## The malignant features
+Size alone misclassifies one node in five or more, so use every feature together.
+- **Necrosis**: a focal low-density defect in an untreated node is the most reliable sign of metastasis. Do not mistake the normal fatty hilum for necrosis.
+- **Shape**: normal nodes are oval or kidney-shaped with a fatty hilum; malignant nodes become **round** (long-to-short axis ratio under 2) and lose the hilum.
+- **Size**: thresholds vary; commonly used limits are about 10 mm in short axis (a little more for the jugulodigastric node) and 5 to 8 mm for a lateral retropharyngeal node. A **cluster** of three or more borderline nodes in the drainage area of a tumour is suspicious.
+- **Extranodal extension**: an irregular, ill-defined margin, stranding of the surrounding fat, and invasion of muscle, vessel or skin. It changes the stage and the treatment.
+- **Asymmetry and enhancement**: a node that enhances more than its neighbours, or that is new, is suspicious.
+!fig di567-1 | The nodal network of the neck, drawn with the levels outlined, the hyoid plane (blue) and cricoid plane (orange-red) that divide them, and, in the axial slice above, the retropharyngeal and superficial nodes (arrows). Level II is the commonest site of metastasis from squamous carcinoma.
+## Ultrasound, MRI and PET
+**Ultrasound** shows the hilum and its vessels best: a normal node is oval with an **echogenic hilum** and **hilar vascularity**; a metastatic node is round, loses the hilum and shows **peripheral** vascularity, and can be sampled by FNA in the same sitting. On **MRI**, metastatic squamous carcinoma has a low ADC on diffusion. **PET-CT** improves detection in advanced disease and the unknown primary, but misses small and cystic nodes and gives false positives with reactive nodes.
+!fig ia453-2 | Ultrasound of a normal cervical node: an elliptical, hypoechoic node with an echogenic fatty hilum, in front of the common carotid artery.
+## Unresectability
+A nodal mass that **encases the carotid** (contact of 270° or more), invades the **prevertebral muscles** or the skull base, or infiltrates the skin widely is usually unresectable. Contact under 180° usually means the artery can be peeled free.
+
+# Where is the primary? | Patterns of spread.
+## Reading the nodes backwards
+Each primary site drains to predictable levels, so the level of an abnormal node points to the primary. Nodes outside the usual pattern should prompt a search for a second primary.
+!table The node and the likely primary
+Nodes | Likely primaries
+IA and IB | Lip, anterior oral cavity, floor of mouth, skin of the face
+IIA (jugulodigastric) | Oropharynx (tonsil, tongue base), oral tongue, supraglottis, nasopharynx
+Retropharyngeal and VA | Nasopharynx; also oropharynx and hypopharynx
+III and IV | Larynx, hypopharynx, thyroid
+VI | Thyroid, subglottis, cervical oesophagus
+Parotid and preauricular | Skin of the scalp, ear and face (squamous carcinoma, melanoma)
+Left supraclavicular (Virchow) | Chest and abdomen
+!!
+## The cystic node
+A cystic or largely necrotic node in an adult is a **metastasis until proven otherwise**. A **thick-walled** necrotic node most often comes from the tonsil or tongue base; a cystic node with a thin wall in a young adult suggests HPV-related oropharyngeal cancer; a cystic node with **calcification**, bright T1 signal (thyroglobulin) or avid enhancement suggests **papillary thyroid carcinoma**, even when the thyroid looks normal.
+!fig di367-1 | Papillary thyroid carcinoma in a node. Left: contrast CT, a large heterogeneous level III node displacing the jugular vein, with calcification lower down. Right: ultrasound, marked internal heterogeneity; FNA confirmed papillary carcinoma.
+
+# Not every abnormal node is cancer | The common mimics.
+## Reactive, suppurative, tuberculous and lymphoma
+**Reactive** nodes are enlarged but oval, with a preserved hilum and no necrosis, often in several levels on both sides. **Suppurative** nodes, usually in children, have a thick enhancing rim around a fluid centre with **inflammatory stranding** of the fat and skin around them; they may progress to an abscess. **Tuberculous** nodes are often matted, necrotic and rim-enhancing, in the posterior triangle and lower neck, with less surrounding inflammation than their necrosis suggests, and calcify later. **Lymphoma** produces large, homogeneous, **non-necrotic** nodes in many chains, often with involvement of Waldeyer's ring, and restricts strongly on diffusion.
+!fig di341-1 | Suppurative lymphadenitis. Right: contrast CT, a rim-enhancing, centrally necrotic level II node with cellulitis and oedema of the overlying skin and fat.
+!fig di345-1 | Tuberculous lymphadenitis. Left: multiple necrotic, rim-enhancing nodes with extranodal inflammation. Right: matted necrotic nodes that had not responded to treatment.
+!fig di363-1 | Non-Hodgkin lymphoma. Left: large, round, solid nodes in many chains on both sides without necrosis. Right: nodal and tonsillar lymphoma, with a partly necrotic level II mass.
+
+!path Reading the nodes on any head and neck scan
+Every level, both sides | I to VII ; retropharyngeal ; parotid, facial, occipital, supraclavicular
+Each suspicious node | level ; short axis ; shape and hilum ; necrosis or cystic change ; calcification ; margins (extranodal extension)
+Relations | carotid contact in degrees ; jugular vein ; prevertebral muscles ; skin
+Pattern | expected drainage of the primary ; contralateral nodes ; nodes outside the pattern
+Next step | ultrasound and FNA ; PET-CT for unknown primary or advanced disease
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Imaging levels** and their landmarks: hyoid, cricoid, submandibular gland, sternocleidomastoid, jugular vein, manubrium.
+- **Retropharyngeal nodes** and the nasopharynx.
+- **Malignant features:** necrosis, shape, size, extranodal extension.
+- **Ultrasound** features of normal and abnormal nodes.
+- **Node to primary** patterns; the cystic node in an adult.
+- **Carotid encasement** and unresectability.
+- **Mimics:** reactive, suppurative, tuberculous, lymphoma.
+!!
+## Common pitfalls
+!pit
+- Using size alone to call a node benign or malignant.
+- Calling the fatty hilum necrosis.
+- Forgetting the retropharyngeal nodes.
+- Calling a cystic level II mass in an adult a branchial cyst.
+- Missing a thyroid primary behind a calcified or cystic node.
+!!
