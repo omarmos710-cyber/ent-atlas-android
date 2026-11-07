@@ -52,6 +52,13 @@ L = [  # id, lesson, part, title, one-line, sources, anatomy regions, related cl
    'Perineural spread: enlarged enhancing nerve, **lost fat at the foramen**, widened foramen, denervated muscle.',
    'Petrous apex by signal: marrow suppresses, **cholesterol granuloma bright on T1 and T2**, cholesteatoma bright on DWI.',
    '**Chordoma** midline clivus; **chondrosarcoma** petrooccipital fissure. Jugular foramen: paraganglioma permeative, schwannoma smooth, meningioma sclerotic.']),
+ ('im_sin', 8, 'nose', 'Sinus CT before surgery', 'Drainage pathways, the variants that change surgery, the CLOSE checklist, Lund–Mackay scoring, and how to read hyperdense, unilateral and invasive disease.',
+  [IA + ', ostiomeatal unit and frontal recess', DI + ', sinonasal overview and diagnoses', DU], ['sinus', 'nose'], ['crs', 'sinussurg', 'afs', 'abs', 'sinus_ca', 'csf'],
+  ['Thin **non-contrast** CT in **coronal, axial and sagittal** planes, ideally after medical treatment.',
+   '**Ostiomeatal unit** drains maxillary, anterior ethmoid and frontal; **sphenoethmoidal recess** drains posterior ethmoid and sphenoid.',
+   'Before surgery read **CLOSE**: cribriform (Keros), lamina papyracea, Onodi cell, sphenoid (optic nerve and carotid), ethmoid artery.',
+   '**Lund–Mackay**: 0–2 per sinus, 0 or 2 per ostiomeatal complex, total 0–24.',
+   'Hyperdense contents: **allergic fungal sinusitis** or fungal ball. **Unilateral** disease or bone erosion: **MRI**.']),
 ]
 EXTRA = {}
 def main():

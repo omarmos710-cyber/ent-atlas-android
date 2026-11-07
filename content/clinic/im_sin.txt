@@ -1,0 +1,92 @@
+@stand The sinus CT is the scan an ENT surgeon reads more often than any radiologist does, and it is read differently: not only "is there disease?" but "where does it drain, what is in my way, and where are the dangers?". A surgeon who reads the CT systematically before every endoscopic sinus operation knows the uncinate, the frontal recess, the height of the skull base, the lamina papyracea, the carotid and optic nerves, and the anterior ethmoid artery before the endoscope goes in. This lesson builds that habit.
+
+# The study | Thin, non-contrast, three planes.
+## Protocol
+A sinus CT for chronic rhinosinusitis is a **non-contrast**, low-dose, thin-section (about 1 mm or less) study, reconstructed in a bone algorithm, viewed in a bone window, and reformatted in **coronal, axial and sagittal** planes. The **coronal** plane mirrors the endoscopic view and shows the ostiomeatal unit; the **sagittal** plane shows the frontal recess and its cells; the **axial** plane shows the sphenoid, the posterior ethmoid and the relation of the optic nerve and carotid. Cone-beam CT is an alternative at lower dose. Most centres also use the dataset for image guidance. Contrast and MRI are added when a complication, a tumour or invasive fungal disease is suspected.
+!pearl Scan after medical treatment, not during an acute attack
+A CT done during a cold or an acute exacerbation shows transient mucosal thickening that may not reflect chronic disease. Ideally the scan follows a course of maximal medical treatment, and it should be read with the patient's endoscopic findings in mind: up to a third of people without symptoms have some mucosal thickening.
+!!
+
+# The drainage pathways | Where each sinus empties.
+## The ostiomeatal unit
+The maxillary, anterior ethmoid and frontal sinuses all drain into the **middle meatus** through a common pathway called the **ostiomeatal unit**. On coronal CT, the **uncinate process** is a thin sickle of bone running up from the lateral nasal wall; lateral to it is the **ethmoid infundibulum**, into which the **maxillary ostium** opens; above it is the **ethmoid bulla**, the largest anterior ethmoid cell; and the gap between the free edge of the uncinate and the bulla is the **hiatus semilunaris**, opening into the middle meatus. A small obstruction here blocks three sinuses at once.
+!fig ia267-1 | Coronal CT through the ostiomeatal unit: the uncinate process, the maxillary infundibulum and ostium, the ethmoid bulla, the hiatus semilunaris and the middle meatus beneath the middle turbinate.
+## The frontal recess
+The frontal sinus drains through its ostium into the **frontal recess**, an hourglass-shaped space bounded by the cells around it rather than by a true duct: the **agger nasi** cell in front, the **ethmoid bulla** (or a suprabullar cell) behind, and the lamina papyracea laterally. Where the uncinate attaches superiorly (to the lamina papyracea, the skull base or the middle turbinate) decides whether the frontal recess drains medial or lateral to it. The **sagittal** view is the best way to understand it.
+!fig ia283-1 | Sagittal CT of the frontal sinus drainage pathway: frontal sinus, ostium and infundibulum above, the frontal recess below, bounded by the agger nasi in front and the ethmoid bulla and a frontal bullar cell behind.
+## The sphenoethmoidal recess
+The posterior ethmoid and sphenoid sinuses drain into the **sphenoethmoidal recess**, medial to the superior turbinate, behind the ostiomeatal unit. Disease confined to the posterior ethmoid and sphenoid means the obstruction is here, not at the middle meatus.
+!fig ia259-1 | Axial CT: the sphenoethmoidal recess, a narrow vertical slit in the posterior nose into which the posterior ethmoid and sphenoid sinuses drain.
+!table Patterns of obstruction
+Pattern | Sinuses involved | Site of the block
+Infundibular | Maxillary alone | Maxillary ostium or infundibulum
+Ostiomeatal unit | Maxillary, anterior ethmoid, frontal on one side | Middle meatus
+Sphenoethmoidal recess | Posterior ethmoid and sphenoid | Sphenoethmoidal recess
+Sinonasal polyposis | All sinuses, both sides, with polyps in the nose | Diffuse mucosal disease
+Sporadic | Scattered, no drainage logic | Retention cysts, mucosal thickening
+!!
+
+# Variants that change surgery | Know them before you start.
+## Cells and turbinates
+Variants matter when they narrow a drainage pathway or put a structure at risk. A **concha bullosa** (a pneumatised middle turbinate) may narrow the middle meatus. A **paradoxical** middle turbinate curves laterally. A **Haller cell** (infraorbital ethmoid cell) along the orbital floor narrows the maxillary infundibulum. A large **agger nasi** or other **frontal cells** narrow the frontal recess; these are now named by the International Frontal Sinus Anatomy Classification (agger nasi, supra agger, supra agger frontal, supra bulla, supra bulla frontal, supraorbital ethmoid and frontal septal cells), which has largely replaced the Kuhn types used in older texts.
+!fig ia267-2 | Coronal CT: bilateral aerated middle turbinates (concha bullosa), each narrowing its middle meatus.
+!fig ia267-3 | Coronal CT: a Haller (infraorbital ethmoid) cell along the orbital floor, at the roof of the maxillary infundibulum.
+## The skull base: Keros
+The **cribriform plate** sits lower than the **fovea ethmoidalis** (ethmoid roof), joined by the thin **lateral lamella**. The depth of the olfactory fossa is graded by **Keros**: type I 1 to 3 mm, type II 4 to 7 mm, type III 8 to 16 mm. The deeper the fossa, the longer and thinner the lateral lamella and the greater the risk of a CSF leak. Asymmetry between the two sides is common and should be noted.
+!fig ia40-1 | Coronal CT: the fovea ethmoidalis forming the ethmoid roof, stepping down to the lower cribriform plates either side of the perpendicular plate.
+## The anterior ethmoid artery
+The **anterior ethmoid artery** crosses the ethmoid roof from the orbit to the olfactory fossa, marked on coronal CT by a small notch in the medial orbital wall. When a **supraorbital ethmoid cell** is present, the artery may hang below the skull base in a bony mesentery and is at greater risk.
+!fig ia285-2 | Supraorbital ethmoid cells. Left: coronal CT, cells above the anterior ethmoidal notch, with the lateral lamella and fovea ethmoidalis. Right: axial CT, the cells lying behind the frontal sinus.
+## The sphenoid and the posterior ethmoid
+An **Onodi (sphenoethmoidal) cell** is a posterior ethmoid cell that extends lateral and above the sphenoid, carrying the optic nerve in its wall; the surgeon who mistakes it for the sphenoid may injure the nerve. Look on axial and coronal images for **dehiscence** of the bone over the **optic nerve** and the **internal carotid artery** in the lateral wall of the sphenoid, and for an **intersinus septum** that inserts onto the carotid canal: twisting it can tear the artery.
+## The lamina papyracea
+The lamina papyracea is the thin lateral wall of the ethmoid. A **dehiscence** (congenital or after old trauma) lets orbital fat bulge medially and puts the orbit at risk. Disease that is pushing it outwards (mucocele, allergic fungal sinusitis) is also noted.
+
+!path The pre-operative sinus CT checklist (CLOSE)
+C, cribriform plate | Keros depth ; asymmetry ; lateral lamella ; any defect
+L, lamina papyracea | intact or dehiscent ; orbital fat herniation
+O, Onodi cell | present ; optic nerve in its wall
+S, sphenoid | optic nerve and carotid dehiscence ; septum onto carotid ; pneumatisation
+E, ethmoid artery | anterior ethmoid artery notch ; hanging below skull base ; supraorbital cells
+Drainage | uncinate attachment ; infundibulum and maxillary ostium ; frontal recess cells ; sphenoethmoidal recess
+Disease | pattern of opacification ; polyps ; osteitis ; hyperdensity ; bone erosion
+!!
+
+# Reading the disease | What the opacification means.
+## Scoring: Lund–Mackay
+The **Lund–Mackay** score grades each sinus (maxillary, anterior ethmoid, posterior ethmoid, sphenoid, frontal) on each side as 0 (clear), 1 (partial) or 2 (complete opacification), and each ostiomeatal complex as 0 or 2, for a total of 0 to 24. It is used for research and audit and correlates poorly with symptoms, but it gives a common language.
+## Chronic rhinosinusitis and polyposis
+Chronic rhinosinusitis shows mucosal thickening and opacification in a pattern that follows the drainage pathways, often with **osteitis**: thickened, sclerotic sinus walls from long-standing inflammation. **Polyposis** fills the nose and all sinuses on both sides, often with widening of the ethmoid labyrinth.
+!fig di719-1 | Chronic rhinosinusitis. Left: axial CT in cystic fibrosis, maxillary mucosal thickening with thickened sinus walls. Right: coronal CT, diffuse osteitis of the sinus walls.
+!fig di735-1 | Sinonasal polyposis. Left and right: coronal CT, polyps filling the nasal cavity and occluding both middle meatuses, with opacified sinuses.
+## Hyperdensity: think fungus or inspissated secretions
+Dense material within an opacified sinus means thick, inspissated secretions, fungus or calcification. **Allergic fungal sinusitis** expands and fills several sinuses, usually on one side, with **central high density** and a low-density rim of mucosa ("double density"), and is **dark on T2**. A **fungal ball** fills a single sinus (usually the maxillary) with dense material and fine calcifications, and the walls are often sclerotic.
+!fig di727-1 | Allergic fungal sinusitis. Left: drawing of expanded sinuses filled with allergic mucin. Right: axial CT, unilateral expanded sinuses with central dense material and a low-density rim.
+!fig di727-2 | The same disease on MRI. Left: T2, the ethmoid contents are very dark and could be mistaken for air. Right: post-gadolinium T1, only the mucosa enhances; the sinuses are full.
+## Unilateral disease: exclude a tumour
+Opacification of one side with a mass in the nose, **bone destruction**, or **focal hyperostosis** at one point of the sinus wall needs MRI. **Inverted papilloma** typically arises from the lateral nasal wall near the middle meatus, often with a focal bony spur at its attachment, and has a **convoluted, cerebriform** pattern on T2 and post-contrast MRI. MRI separates tumour (intermediate T2, solid enhancement) from obstructed secretions (bright T2, rim enhancement).
+!fig di771-2 | Inverted papilloma on MRI. Left: T2 fat-suppressed, the convoluted cerebriform pattern. Right: post-gadolinium T1, the tumour centred on the middle meatus with nasal and antral parts, separate from the obstructed secretions.
+## Emergencies
+**Acute invasive fungal sinusitis** in an immunocompromised patient may show little on CT at first: unilateral mucosal thickening, **stranding of the fat** around the sinus (in front of the maxilla, in the pterygopalatine fossa, in the orbit) and subtle bone erosion. On MRI, devitalised mucosa **does not enhance** (the "black turbinate"). Endoscopy and biopsy should not wait for the scan. Orbital and intracranial complications of sinusitis need contrast-enhanced CT and often MRI; they are covered in the orbit lesson.
+!fig di731-1 | Acute invasive fungal sinusitis in leukaemia. Left: coronal T1, soft tissue in the right nasal cavity. Right: post-gadolinium T1, the inferior and middle turbinates do not enhance: dead mucosa.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Protocol:** thin non-contrast CT in three planes, after medical treatment.
+- **The ostiomeatal unit** and the three drainage pathways.
+- **Variants:** concha bullosa, Haller cell, agger nasi and frontal cells, Onodi cell.
+- **Keros** classification and the lateral lamella.
+- **The CLOSE checklist** before surgery.
+- **Lund–Mackay** score.
+- **Hyperdense sinus:** allergic fungal sinusitis versus fungal ball.
+- **Unilateral disease** needs MRI; inverted papilloma features.
+!!
+## Common pitfalls
+!pit
+- Operating without reading the CT in all three planes.
+- Mistaking an Onodi cell for the sphenoid.
+- Calling dark T2 signal in a sinus "air" when it is fungal mucin.
+- Reassuring a unilateral opacification without endoscopy or MRI.
+- Waiting for imaging when invasive fungal sinusitis is suspected.
+!!
