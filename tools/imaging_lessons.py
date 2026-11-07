@@ -94,6 +94,13 @@ L = [  # id, lesson, part, title, one-line, sources, anatomy regions, related cl
    'Do not forget the **retropharyngeal** nodes: first station for the nasopharynx.',
    'A **cystic node** in an adult is metastasis until proven otherwise: HPV oropharynx or papillary thyroid.',
    'Carotid contact **≥270°** suggests encasement and unresectability.']),
+ ('im_glands', 14, 'neck', 'Thyroid and salivary glands', 'Ultrasound grading of thyroid nodules, when to add CT, parathyroid localisation, the facial nerve plane in the parotid, benign and malignant salivary tumours, and gland versus node.',
+  [DI + ', visceral and parotid space chapters', IA + ', parotid and visceral spaces', ESR, DU], ['thyroid', 'salivary'], ['thyroid', 'salivary', 'saltum', 'para', 'neckmass'],
+  ['**Ultrasound first**, with FNA, for thyroid and salivary lumps.',
+   'Suspicious nodule: **solid, hypoechoic, taller than wide, irregular, microcalcifications**. Grade by **U** or **TI-RADS**.',
+   '**CT** for retrosternal goitre and invasive cancer; remember iodine delays radioactive iodine.',
+   'The facial nerve lies **lateral to the retromandibular vein**; deep lobe tumours widen the **stylomandibular gap**.',
+   'Pleomorphic adenoma: very **bright on T2**. Warthin: parotid **tail**, multiple, smokers. Low T2 and ill-defined margins suggest malignancy.']),
 ]
 EXTRA = {}
 def main():

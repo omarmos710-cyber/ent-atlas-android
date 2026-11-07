@@ -1,0 +1,74 @@
+@stand The thyroid, parotid and submandibular glands lie close to the skin, so **ultrasound** is the first test for almost every lump in them, ideally with a needle in the same sitting. CT and MRI come next, for what ultrasound cannot see: the deep lobe of the parotid, the retrosternal goitre, invasion of the airway, perineural spread and the nodes behind the pharynx. This lesson covers the normal glands, the ultrasound features that grade risk, and the cross-sectional signs that change an operation.
+
+# The thyroid | Ultrasound first.
+## The normal gland and its relations
+The thyroid wraps the front of the trachea from the level of the cricoid down, with the isthmus across the second to fourth tracheal rings. On ultrasound it is homogeneous and brighter than the strap muscles; on CT it is dense even before contrast because of its iodine, and enhances avidly. The **carotid** and **jugular vein** lie laterally, the **oesophagus** behind the left lobe, and the **tracheoesophageal grooves** hold the recurrent laryngeal nerves, the paratracheal (level VI) nodes and the parathyroid glands.
+!fig ia386-2 | Coronal contrast CT: the chevron-shaped thyroid in the visceral space, wrapping the trachea below the larynx.
+## Grading a nodule
+Ultrasound grades a nodule's risk by its features. The UK **U grading** (U1 normal, U2 benign, U3 indeterminate, U4 suspicious, U5 malignant) and the American **TI-RADS** (TR1 to TR5, scored by points) use the same features:
+!table Ultrasound features of thyroid nodules
+Feature | Reassuring | Suspicious
+Composition | Cystic, spongiform | Solid
+Echogenicity | Iso- or hyperechoic, with a halo | Hypoechoic, especially markedly hypoechoic
+Shape | Wider than tall | **Taller than wide** on transverse view
+Margin | Smooth, well defined | Lobulated, irregular, extrathyroidal extension
+Echogenic foci | Comet-tail artefact (colloid), eggshell rim | **Microcalcifications**, interrupted rim calcification
+Nodes | Normal | Round, cystic or calcified nodes in levels III, IV, VI
+!!
+Under the British Thyroid Association guidance, U3 to U5 nodules are sampled by FNA; under ACR TI-RADS the size threshold for FNA falls as the score rises (for example, 1 cm for TR5 and 2.5 cm for TR3). Cytology is reported in the Thy (UK) or Bethesda categories.
+!fig di265-2 | Differentiated thyroid carcinoma on ultrasound: a well-defined nodule with many tiny hyperechoic microcalcifications. FNA showed papillary carcinoma.
+## When to add CT or MRI
+Ultrasound cannot see behind the sternum or the trachea. **CT** (or MRI) is added for a **retrosternal goitre** (its lowest extent, tracheal narrowing and deviation, and whether it can be delivered through the neck), for a cancer that may invade the **trachea, larynx, oesophagus or recurrent nerve**, and for nodes in the mediastinum or behind the pharynx. In differentiated thyroid cancer, iodinated contrast delays radioactive iodine treatment by weeks, so the need for contrast is discussed with the team; MRI avoids the problem.
+!fig di253-1 | Multinodular goitre. Left: a chest film, the trachea displaced by a mass in the neck and upper mediastinum. Right: coronal contrast CT, heterogeneous enlargement of both lobes, the left extending into the mediastinum.
+!fig di265-1 | Differentiated thyroid carcinoma on CT. Left: drawing of a tumour in the left lobe. Right: non-contrast CT, a well-defined mass in the left lobe with fine, speckled microcalcifications.
+## The incidental nodule and the parathyroids
+Thyroid nodules are often found by chance on CT, MRI or PET. Uptake of FDG in a focal nodule carries a significant risk of cancer and needs ultrasound; a small, non-avid nodule on CT in an older patient usually does not. For **primary hyperparathyroidism**, ultrasound and **sestamibi** scintigraphy (often with SPECT-CT) localise most adenomas, and **four-dimensional CT** helps when they disagree or after failed surgery. An adenoma is a small, oval, hypoechoic nodule behind the thyroid, often with a feeding vessel at one pole.
+!fig di261-1 | Parathyroid adenoma. Left: delayed sestamibi scan, persistent uptake below the left lobe. Right: ultrasound, a hypoechoic oval nodule behind the lower left lobe.
+
+# The parotid | Superficial, deep and the nerve.
+## The facial nerve plane
+The facial nerve cannot be seen on routine imaging within the parotid, so its plane is inferred. The **retromandibular vein** runs just medial to the nerve, and the nerve lies lateral to it; a tumour lateral to the vein is in the superficial lobe, one medial to it in the deep lobe. A **deep lobe** tumour passes through the **stylomandibular gap** (between the mandibular ramus and the styloid process and its ligament) and pushes the parapharyngeal fat medially. Ultrasound shows the superficial lobe well but not the deep lobe, which is shadowed by the mandible.
+!fig ia343-1 | Axial contrast CT at the mid oropharynx: the parotid space outlined, with the retromandibular vein lateral to the external carotid artery. The facial nerve runs just lateral to the vein.
+!fig ia342-2 | The deep lobe of the parotid projecting through the stylomandibular gap to touch the parapharyngeal space.
+## Benign tumours
+A **pleomorphic adenoma** is well defined, lobulated and typically **very bright on T2**, with a capsule; it is the commonest salivary tumour and can arise anywhere in the gland or its deep lobe. A **Warthin tumour** occurs in older men who smoke, in the **tail** of the parotid, is often **multiple or bilateral**, may be partly cystic, and is avid on PET.
+!fig di115-1 | Pleomorphic adenoma. Left: drawing of a small superficial lobe tumour. Right: fat-suppressed T2, a sharply marginated, very bright mass in the superficial lobe, close to the plane of the facial nerve.
+!fig di119-1 | Warthin tumours. Left: drawing of bilateral tumours in the parotid tails. Right: contrast CT, a tumour in each parotid.
+## Features of malignancy
+Ill-defined or infiltrative margins, **low or intermediate T2 signal**, low ADC on diffusion, invasion of the masseter, skin or deep lobe, and abnormal nodes suggest malignancy, although a small low-grade carcinoma can look benign and FNA or core biopsy is still needed. Facial nerve weakness or pain with a parotid mass suggests **perineural spread**: follow the nerve up through the stylomastoid foramen and the mastoid segment of the facial canal on post-gadolinium MRI, and look for loss of the fat in the stylomastoid foramen.
+!fig di125-2 | Mucoepidermoid carcinoma. Left: contrast CT, a large heterogeneous mass with cystic parts and ill-defined borders invading the masseter. Right: T2, irregular mixed signal with a low-signal solid part.
+## Infection, stones and Sjögren's
+**Sialolithiasis** is shown by non-contrast CT or ultrasound; most stones are in the submandibular duct. Acute **parotitis** enlarges and enhances the gland, and contrast CT shows an abscess. **Sjögren's syndrome** gives enlarged glands with many small cysts or a speckled "honeycomb" pattern on ultrasound and MRI; a new dominant solid mass in such a gland raises the question of lymphoma.
+
+# The submandibular gland | Gland or node?
+## Telling them apart
+Masses in the submandibular space are either in the gland or in a level IB node next to it. A mass arising in the gland is surrounded by a "claw" of gland tissue; a node lies outside the gland, usually **in front of the facial vein**, whereas gland masses lie behind it. Submandibular gland tumours are more often malignant than parotid tumours, so a solid mass in the gland needs sampling.
+
+!path Reading a gland ultrasound or scan
+Which gland and where | thyroid lobe and pole ; parotid superficial or deep to the retromandibular vein ; submandibular gland or node
+Lesion | composition ; echogenicity or T2 signal ; shape (taller than wide) ; margins ; calcification ; vascularity
+Grade | U or TI-RADS for thyroid ; benign versus malignant features for salivary
+Beyond the gland | extrathyroidal extension ; trachea, larynx, oesophagus, recurrent nerve ; masseter, skin, facial nerve and stylomastoid foramen
+Nodes | levels III, IV, VI for thyroid ; intraparotid and level II for parotid
+Next step | FNA or core biopsy ; CT or MRI for retrosternal, deep or invasive disease
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Ultrasound first** for thyroid, salivary and superficial lumps, with FNA.
+- **Suspicious thyroid features:** solid, hypoechoic, taller than wide, irregular, microcalcification.
+- **U grading and TI-RADS**, and when to sample.
+- **CT for retrosternal goitre** and invasive thyroid cancer; the contrast and radioactive iodine issue.
+- **Parathyroid localisation:** ultrasound, sestamibi, 4D-CT.
+- **Facial nerve plane** and the retromandibular vein; the deep lobe and the stylomandibular gap.
+- **Pleomorphic adenoma versus Warthin tumour,** and the features of malignancy.
+!!
+## Common pitfalls
+!pit
+- Ordering CT for a thyroid nodule instead of ultrasound.
+- Giving iodinated contrast casually to a patient about to have radioactive iodine.
+- Calling a deep lobe parotid tumour "parapharyngeal".
+- Missing perineural spread to the stylomastoid foramen in a parotid cancer.
+- Mistaking a level IB node for a submandibular gland tumour.
+!!
