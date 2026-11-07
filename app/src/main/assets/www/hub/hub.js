@@ -21,6 +21,40 @@ Object.assign(ICON,{
 /* ---------- state ---------- */
 const HS=()=>{const h=ST.hub=ST.hub||{};h.tq=h.tq||{};h.v=h.v||{};h.e=h.e||{};h.k=h.k||{};h.set=h.set||{};return h};
 const CLR=()=>ST.clr=ST.clr||{};const CLO=()=>ST.clo=ST.clo||{};
+/* ======================= The map: the whole app as one finite route ======================= */
+const MAPCH=[
+ ["Foundations","How to read a scan, before anything else",[],["im_ct","im_mri","im_test","im_desc"],[]],
+ ["The ear","Anatomy, then the scans, then the diseases",["temporal","extear","midear","et","inner","facial"],["im_tb","im_iac"],["ear"]],
+ ["Nose and sinuses","",["nose","sinus","orbit"],["im_sin","im_orb"],["nose"]],
+ ["Mouth and throat","",["oral","salivary","pharynx"],["im_oral"],["mouth"]],
+ ["The larynx","",["larynx"],["im_lx"],["larynx"]],
+ ["The neck","",["neck","vessels","thyroid"],["im_spaces","im_nodes","im_glands"],["neck"]],
+ ["Skull base, face and bones","",["itf","trigeminal","embryo","skullbones","mandible","neckbones"],["im_skb"],[]],
+ ["Putting it together","From the complaint to the plan",[],["im_ca","im_post","im_trauma","im_paeds"],["appr"]]];
+const MIN={a:3,l:18,c:14};
+function mapStops(){const q=QT(),r=CLR(),ids=Object.keys(q);
+ return MAPCH.map(([t,sub,regs,les,grps])=>{const st=[];
+  regs.forEach(id=>{const R=typeof RMAP!=="undefined"&&RMAP[id];if(!R)return;const n=R.sections.length,d=R.sections.filter(s=>ST.read[s.id]).length;
+    st.push({k:"Anatomy",t:R.name,go:"region:"+id,done:n&&d===n,part:n?d/n:0,min:Math.max(0,n-d)*MIN.a,tot:n*MIN.a})});
+  les.forEach(id=>{if(!q[id])return;st.push({k:"Imaging",t:q[id][1],go:"cl:t-"+id,done:!!r[id],part:r[id]?1:0,min:r[id]?0:MIN.l,tot:MIN.l})});
+  grps.forEach(g=>ids.filter(id=>q[id][0]===g).forEach(id=>st.push({k:g==="appr"?"Approach":"Clinical",t:q[id][1],go:"cl:t-"+id,done:!!r[id],part:r[id]?1:0,min:r[id]?0:MIN.c,tot:MIN.c})));
+  return {t,sub,st}})}
+function mapSum(){const ch=mapStops(),all=ch.flatMap(c=>c.st),done=all.filter(s=>s.done).length,tot=all.reduce((a,s)=>a+s.tot,0),left=all.reduce((a,s)=>a+s.min,0);
+ let next=null,ci=-1;ch.some((c,i)=>{const s=c.st.find(s=>!s.done);if(s){next=s;ci=i;return true}});
+ return {ch,all,done,pct:tot?Math.round(100*(tot-left)/tot):0,left,next,ci}}
+const hrs=m=>m<60?m+" min":Math.round(m/60)+" h";
+function vMap(){const M=mapSum();
+ V().innerHTML=`<div class="mmap"><header class="mhead"><span class="eyebrow">The map</span><h1>Finish the atlas</h1><p class="msub">Every part, in a sensible order. ${M.all.length} stops, one at a time.</p></header>
+ ${M.next?`<button class="mhero" data-go="${E(M.next.go)}"><span class="eyebrow">Next stop · ${E(M.ch[M.ci].t)}</span><strong>${E(M.next.t)}</strong><span class="mhs">${E(M.next.k)} · about ${hrs(M.next.min||M.next.tot)}</span>
+   <span class="mapmeter"><b>${M.pct}<i>%</i></b><small>${M.done} of ${M.all.length} stops · about ${hrs(M.left)} left</small></span><span class="mhbar"><i style="width:${M.pct}%"></i></span></button>`
+  :`<div class="mhero"><span class="eyebrow">Complete</span><strong>You have walked the whole map.</strong><span class="mhs">Keep it fresh with cards, questions and the surgical ladder.</span></div>`}
+ <ol class="mroute">${M.ch.map((c,i)=>{const d=c.st.filter(s=>s.done).length,n=c.st.length,state=d===n?"done":i===M.ci?"now":i<M.ci?"part":"todo";
+   const left=c.st.reduce((a,s)=>a+s.min,0);
+   return `<li class="mpst ${state}"><span class="mpdot">${state==="done"?ic("check",14):i}</span>${fold("map-"+i,E(c.t),d===n?"Complete":`${d}/${n} · ${hrs(left)}`,
+    `${c.sub?`<p class="mchsub">${E(c.sub)}</p>`:""}<div class="mline">${c.st.map(s=>`<button class="mps${s.done?" done":""}${s===M.next?" here":""}" data-go="${E(s.go)}"><i></i><span><b>${E(s.t)}</b><small>${E(s.k)}${s.done?"":s.part?` · ${Math.round(100*s.part)}% read`:` · ${s.tot} min`}</small></span></button>`).join("")}</div>`,{open:i===M.ci})}</li>`}).join("")}
+  <li class="mpst after"><span class="mpdot">${ic("ops",14)}</span><button class="mrow" data-go="th:home"><span class="mt">Then into theatre<small>The surgical ladder, case by case</small></span></button></li></ol>
+ <p class="mono csrc">Times are rough estimates: about ${MIN.a} min per anatomy section, ${MIN.c} min per clinical article and ${MIN.l} min per imaging lesson.</p></div>`}
+(function(){try{TABOF.map="home"}catch(e){}})();
 const tname=tp=>(QB[tp]&&QB[tp].t)||(QT()[tp]||[])[1]||tp;
 const tgroup=tp=>(QB[tp]&&QB[tp].g)||(QT()[tp]||[])[0]||"";
 const topics=g=>Object.keys(QT()).filter(id=>!g||QT()[id][0]===g);
@@ -94,6 +128,7 @@ function vToday(){
  <div class="xsq big">${ic("search",20)}<input type="search" id="hx" autocomplete="off" enterkeyhint="search" placeholder="Search everything" aria-label="Search everything"></div>
  <div id="hxres" aria-live="polite"></div>
  <div id="hxrest">
+  ${(()=>{const M=mapSum();return M.next?`<button class="mapstrip" data-go="map"><span class="msr"><svg viewBox="0 0 36 36"><circle cx="18" cy="18" r="15.5"/><circle cx="18" cy="18" r="15.5" style="stroke-dasharray:${(M.pct*97.4/100).toFixed(1)} 97.4"/></svg><b>${M.pct}</b></span><span class="mst2"><small>The map · ${M.done} of ${M.all.length} stops</small><b>Next: ${E(M.next.t)}</b></span>${ic("chev",16)}</button>`:""})()}
   <section class="h-plan"><div class="h-planh"><span class="eyebrow">Today</span><small>${P.length} step${P.length>1?"s":""}</small></div>
    <ol>${P.map((p,i)=>`<li><button data-hplan="${E(p.a)}"><span class="h-pn">${i+1}</span><span class="h-pt"><b>${E(p.t)}</b><small>${E(p.s)}</small></span>${ic("chev",16)}</button></li>`).join("")}</ol></section>
   ${cont1?`<div class="mrows mcont">${cont1}</div>`:""}
@@ -142,7 +177,7 @@ function vHub(arg){const h=HS();if(arg&&TABS.some(t=>t[0]===arg))h.tab=arg;const
  <div class="h-tabs" role="tablist">${TABS.map(([k,l])=>`<button role="tab" aria-selected="${k===tab}" data-htab="${k}">${l}</button>`).join("")}</div>
  <div class="h-list" role="tabpanel">${L[tab].join("")}</div>
  ${tab==="fix"?(W.length?`<section class="h-sec"><div class="h-sech"><h2>Weakest topics</h2><small>tap for 10 questions</small></div>${W.map(w=>bar(kname(w.k),w.s,w.n,`data-hweak="${E(w.k)}"`)).join("")}</section>`:`<p class="h-empty">Answer a few questions and your weakest topics will gather here.</p>`):""}`}
-EXTRA.study=vHub;
+EXTRA.study=vHub;EXTRA.map=vMap;
 
 /* ======================= SETUP SHEETS ======================= */
 const MODES={mcq:["Question bank","Single best answers from the whole app. Pick an area, narrow it to a topic if you like, and choose practice or timed."],
@@ -333,4 +368,5 @@ const _fm=finishMock;finishMock=function(){const s=LAB.s,was=s&&s.saved;_fm.appl
 /* the article "Quiz this topic" button runs in the new engine */
 document.addEventListener("click",e=>{const b=e.target.closest("[data-cltq]");if(b){e.preventDefault();e.stopImmediatePropagation();const id=b.dataset.cltq;startRun(QUIZ.filter(q=>q.tp===id),tname(id))}},true);
 if(typeof cur!=="undefined"&&cur==="home")vToday();
+
 })();
