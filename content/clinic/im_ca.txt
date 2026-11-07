@@ -1,0 +1,65 @@
+@stand A staging scan for head and neck cancer is read to answer a fixed list of questions, and the multidisciplinary meeting expects those answers in order: what is the primary and how far has it gone, is there perineural spread, which nodes are involved and how, has it spread to the chest or bone, and is there a second primary. This lesson puts the regional lessons together into one routine you can use on any cancer scan, at any site.
+
+# Choosing the scan | Match the modality to the site.
+## CT, MRI and PET-CT
+**Contrast CT** of the neck and chest is quick, reproducible and tolerated by patients with secretions or pain; it is the usual first staging study for the larynx, hypopharynx and most of the neck. **MRI** is preferred for the **nasopharynx** (skull base and intracranial spread), the **oral cavity and oropharynx** (amalgam, depth of invasion, small tonsillar primaries), the **sinonasal** tract (tumour versus secretions, orbit and dura) and for **perineural spread**; in the larynx it is kept for equivocal cartilage invasion. **PET-CT** is used for advanced disease (to find distant metastases and second primaries), for the **unknown primary** before panendoscopy, and after treatment. A **CT of the chest** is part of every staging work-up for squamous carcinoma.
+
+# The primary | Where it is, how big, what it touches.
+## The core questions
+Describe the **subsite** of origin, the **size** in three planes (and, in the oral cavity, the depth of invasion), and then go through the **structures that change the stage or the operation** for that site. These are the T4 structures: for a T4a tumour the disease is still usually resectable; for a **T4b** tumour (encasing the carotid, invading the prevertebral fascia or muscles, the skull base or the mediastinum, or the masticator space and pterygoid plates for some sites) it usually is not.
+!table Key structures to report by site
+Site | Report specifically
+Nasopharynx | Parapharyngeal space, skull base (clivus, foramen lacerum, foramen ovale), cavernous sinus, intracranial spread, retropharyngeal nodes
+Oral cavity | Depth of invasion, lingual septum, neurovascular bundles, mandible cortex and marrow, inferior alveolar canal, skin
+Oropharynx | Tongue base and vallecula, soft palate, parapharyngeal space, pterygoids, mandible, larynx, carotid
+Larynx | Pre-epiglottic and paraglottic fat, commissures, subglottis, cartilage, extralaryngeal tissues, cord movement
+Hypopharynx | Pyriform apex, postcricoid, oesophagus, thyroid and cricoid cartilage, prevertebral fascia
+Sinonasal | Orbit (periorbita), anterior skull base and dura, pterygopalatine fossa, infratemporal fossa, skin
+!!
+!fig di511-1 | Nasopharyngeal carcinoma. Left: coronal CT, an asymmetric bulky nasopharyngeal mass. Right: sagittal T1, the tumour extends up into the sphenoid and sella and replaces the bright fatty marrow of the clivus, the sign of skull base invasion.
+!fig di511-2 | The same tumour after gadolinium. Left: coronal, enhancing tumour infiltrating the sphenoid. Right: axial, infiltration of the parapharyngeal fat and the basisphenoid marrow. MRI is the staging study for the nasopharynx.
+## Perineural spread
+Perineural tumour often causes no symptoms and is easily missed, but it changes the surgical margin and the radiotherapy field. Follow the nerves at risk for each site: **V2** (palate, maxilla, cheek) through the pterygopalatine fossa and foramen rotundum; **V3** (masticator space, retromolar trigone) through the foramen ovale; the **facial nerve** (parotid, skin of the face) through the stylomastoid foramen; the **hypoglossal** nerve (tongue base, skull base). Look for nerve enlargement and enhancement, lost fat at a foramen, widened foramina and denervation of muscle.
+!fig di563-1 | Perineural spread. Left: drawing of tumour following a nerve through the skull base. Right: coronal post-gadolinium MRI in maxillary carcinoma, a grossly enlarged, enhancing V2 in the foramen rotundum compared with the normal side.
+!fig di563-2 | The same pattern on CT. Left: loss of the fat in the right pterygopalatine fossa compared with the left. Right: bone CT, smooth widening of the right foramen rotundum and pterygopalatine fossa.
+
+# The nodes and beyond | N and M.
+## Nodes
+Go through every level on both sides and the retropharyngeal nodes, as in the nodes lesson, and report the **number, size, side and level** of abnormal nodes, any **necrosis**, and any **extranodal extension**. Radiological extranodal extension (ill-defined margins, infiltration of fat, muscle or skin) matters: in the eighth edition of the TNM, clinically and radiologically overt extranodal extension makes HPV-negative nodal disease N3b. Report **carotid contact** in degrees: 270° or more suggests encasement. HPV-positive oropharyngeal cancer is staged with its own, more favourable system.
+!fig di571-2 | Extranodal extension. Left: pathological left neck nodes from a tongue base primary, the level IIB node with ill-defined contours. Right: a large level II nodal mass from a tongue cancer infiltrating the surrounding soft tissues.
+!fig di571-3 | Advanced extranodal disease. Left: tumour surrounding the left common carotid and thickening the skin. Right: CT angiography showing outpouchings of a weakened carotid wall, a warning of carotid blowout.
+## Distant disease and second primaries
+At staging, look at the **lung apices**, the **bones** (including the mandible and spine) and the **mediastinal nodes** on every neck scan, and review the chest CT. Patients with smoking-related cancers carry a high risk of a **second primary** in the upper aerodigestive tract, lung or oesophagus, most often with hypopharyngeal cancer; PET-CT helps to find them.
+
+# The unknown primary | When only the node is known.
+## A sequence that finds the primary
+When squamous carcinoma is found in a neck node and examination is normal, imaging is done **before** panendoscopy and biopsy, so that biopsy changes do not confuse it. Contrast CT or MRI looks for asymmetry at the usual hiding places (the tonsils, the tongue base, the nasopharynx and the pyriform apex), and **PET-CT** finds a further proportion. HPV and EBV status of the node points to the oropharynx or the nasopharynx. The search ends with panendoscopy, directed biopsies and often tonsillectomy and tongue base mucosectomy.
+!fig di570-3 | Unknown primary. Left: a unilateral necrotic level IIA node; panendoscopy was negative but directed biopsy of the glossotonsillar sulcus found the primary. Right: a cystic, rim-enhancing level II node from an occult lingual tonsil carcinoma.
+
+!path Reading a head and neck cancer staging scan
+Primary | subsite ; size in three planes ; depth (oral cavity) ; crossing the midline
+Local extent | site-specific T4 structures ; cartilage, bone, skull base, orbit, dura ; parapharyngeal space and pterygoids
+Perineural | nerves at risk for the site ; foramina and fat pads ; denervation
+Vessels | carotid contact in degrees ; jugular vein
+Nodes | every level both sides and retropharyngeal ; size, necrosis, extranodal extension
+Beyond the neck | lung apices and chest CT ; bones ; mediastinum ; second primary
+Summary | TNM stage ; resectability ; what would change the plan (biopsy, PET-CT, MRI)
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Which scan for which site:** CT for larynx and neck, MRI for nasopharynx, oral cavity, oropharynx and sinonasal, PET-CT for advanced and unknown primary.
+- **A routine:** primary, local extent, perineural, vessels, nodes, chest and second primary.
+- **T4a versus T4b:** what makes a tumour unresectable.
+- **Perineural spread:** the nerves at risk for each site and the signs.
+- **Extranodal extension** and carotid encasement.
+- **The unknown primary:** imaging before panendoscopy, PET-CT, HPV and EBV.
+!!
+## Common pitfalls
+!pit
+- Staging a nasopharyngeal cancer on CT alone.
+- Forgetting the chest, the bones and the second primary.
+- Missing perineural spread because the post-contrast images were not fat-suppressed.
+- Imaging the unknown primary after biopsies have distorted the mucosa.
+!!

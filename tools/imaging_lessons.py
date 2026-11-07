@@ -101,6 +101,13 @@ L = [  # id, lesson, part, title, one-line, sources, anatomy regions, related cl
    '**CT** for retrosternal goitre and invasive cancer; remember iodine delays radioactive iodine.',
    'The facial nerve lies **lateral to the retromandibular vein**; deep lobe tumours widen the **stylomandibular gap**.',
    'Pleomorphic adenoma: very **bright on T2**. Warthin: parotid **tail**, multiple, smokers. Low T2 and ill-defined margins suggest malignancy.']),
+ ('im_ca', 15, 'pat', 'Reading a head and neck cancer scan', 'One routine for every staging scan: choosing the modality, the primary and its T4 structures, perineural spread, nodes and extranodal extension, the chest and second primaries, and the unknown primary.',
+  [DI + ', squamous cell carcinoma overview and diagnoses', ESR, DU], ['neck', 'pharynx', 'larynx'], ['hncprinc', 'npc', 'oral_ca', 'tonsil_ca', 'lxca', 'hypoca', 'sinus_ca', 'neckmass'],
+  ['**CT** for larynx and neck; **MRI** for nasopharynx, oral cavity, oropharynx and sinonasal; **PET-CT** for advanced disease and the unknown primary.',
+   'Routine: **primary**, local extent and **T4 structures**, **perineural**, **vessels**, **nodes**, **chest and bones**, second primary.',
+   'T4b usually means unresectable: carotid encasement, prevertebral fascia, skull base, mediastinum.',
+   '**Extranodal extension** (ill-defined margins, fat, muscle, skin) changes stage and treatment.',
+   'Unknown primary: image **before** panendoscopy; PET-CT; HPV and EBV status of the node.']),
 ]
 EXTRA = {}
 def main():
