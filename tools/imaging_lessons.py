@@ -38,6 +38,13 @@ L = [  # id, lesson, part, title, one-line, sources, anatomy regions, related cl
    'Read lateral to medial: canal, drum and scutum, spaces, ossicles, tegmen and canals, mastoid, inner ear, IAC and facial nerve, vessels, petrous apex.',
    'Cholesteatoma: **tegmen, fistula, facial canal, sinus tympani, ossicles**. CT shows bone; non-EPI DWI shows keratin.',
    'Otosclerosis: lucency at the **fissula ante fenestram**; fractures: otic capsule **sparing or violating**.']),
+ ('im_iac', 6, 'ear', 'The inner ear, IAC and CPA on MRI', 'The scan for asymmetric hearing loss: the four nerves, the fluid of the labyrinth, a reading checklist, and the lesions behind nearly every positive study.',
+  [IA + ', internal auditory canal and inner ear', DI + ', CPA-IAC overview and diagnoses', DU], ['inner', 'facial'], ['vs', 'ssnhl', 'facial', 'ko', 'meniere', 'tinnitus'],
+  ['**High-resolution T2** (CISS or FIESTA) screens; **post-gadolinium fat-suppressed T1** characterises.',
+   '"**Seven up, Coke down**": facial anterosuperior, cochlear anteroinferior, vestibular nerves posterior.',
+   'About 90% of positive scans for unilateral SNHL are **vestibular schwannomas**: centred on the porus, acute angle, ice cream on a cone.',
+   '**Meningioma**: broad dural base, obtuse angle, dural tail. **Epidermoid**: bright on DWI; arachnoid cyst is not.',
+   'Labyrinthitis **enhances**; ossification **removes the T2 fluid signal**. Enhancement of the IAC or labyrinthine facial nerve is always abnormal.']),
 ]
 EXTRA = {}
 def main():

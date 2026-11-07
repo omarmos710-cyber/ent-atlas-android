@@ -1,0 +1,78 @@
+@stand The commonest MRI an ENT surgeon requests is the scan for asymmetric sensorineural loss or unilateral tinnitus. Most are normal, and the radiologist's report says so, but you will be asked to look at the images yourself in clinic and in the multidisciplinary meeting, and you should be able to find the four nerves in the internal auditory canal, the fluid of the labyrinth and the cerebellopontine angle cistern, and to recognise the handful of lesions that account for nearly every positive scan.
+
+# The study | Two sequences do most of the work.
+## Heavily T2-weighted thin sections
+A **high-resolution heavily T2-weighted** sequence (CISS, FIESTA, SPACE or DRIVE, depending on the manufacturer) in submillimetre slices makes CSF and labyrinthine fluid white and the nerves, vessels and tumours dark. It is the screening sequence for asymmetric hearing loss in many centres, and it shows the inner ear's anatomy in children before cochlear implantation.
+## Post-gadolinium T1 with fat suppression
+A thin **post-gadolinium T1** shows enhancing lesions: schwannomas, meningiomas, labyrinthitis, facial neuritis, perineural tumour and metastases. It is added when the T2 screen is abnormal or equivocal, and used from the start when the question is inflammatory (facial palsy, sudden loss with vertigo) or when the T2 sequence would miss an intralabyrinthine lesion. Always look at the pre-contrast T1: blood and fat are bright before contrast and can mimic enhancement.
+!pearl Who needs what
+For unilateral sensorineural loss in an otherwise healthy adult, a lesion is found in fewer than 5% of scans, and about 90% of those are vestibular schwannomas. Meningioma, epidermoid and aneurysm make up most of the rest. In a child the emphasis changes: the scan looks for malformations, an absent cochlear nerve and post-meningitic ossification.
+!!
+
+# The normal anatomy | Nerves, fluid and the cistern.
+## The four nerves: "seven up, Coke down"
+On an oblique sagittal image across the mid internal auditory canal, four round dark nerves sit in white CSF. The **facial nerve** is anterosuperior, the **cochlear nerve** anteroinferior (and normally the largest of the four), and the **superior and inferior vestibular nerves** are posterior. At the fundus, the horizontal **crista falciformis** separates the facial and superior vestibular nerves above from the cochlear and inferior vestibular nerves below, and the vertical crest (**Bill's bar**) separates the facial nerve from the superior vestibular nerve. Closer to the porus, the cochlear and vestibular nerves merge into the vestibulocochlear nerve, which wraps around the facial nerve like a **catcher's mitt around a ball**.
+!fig ia79-2 | Oblique sagittal high-resolution T2 in the mid internal auditory canal: four nerves in bright CSF. The cochlear nerve, anteroinferior, is normally slightly larger than the facial nerve above it.
+!fig ia79-3 | At the porus: the vestibulocochlear nerve curves around the facial nerve, the "catcher's mitt and ball".
+## The labyrinth
+Axial T2 shows the inner ear as white fluid within dark bone: the **cochlea** with its basal, middle and apical turns, divided by the osseous spiral lamina into scala tympani and scala vestibuli, the **modiolus** as a grey hub, the **vestibule**, and the **semicircular canals**. The **cochlear nerve** can be followed from the anteroinferior IAC through the cochlear nerve canal into the modiolus. Normal fluid signal in every part of the labyrinth is what you check; a dark filling defect means tumour, fibrosis or bone.
+!fig ia106-2 | Axial high-resolution T2 through the mid cochlea: scala tympani and scala vestibuli, the modiolus, the cochlear nerve entering through the cochlear nerve canal, the vestibule and the canals.
+!fig ia124-2 | Coronal T2 through the IAC fundus: the crista falciformis divides the canal into an upper compartment (facial and superior vestibular nerves) and a lower one (cochlear and inferior vestibular nerves).
+## The cerebellopontine angle cistern
+The CPA cistern contains the facial and vestibulocochlear nerves running from the brainstem to the porus, the **anterior inferior cerebellar artery** looping near or into the canal, and, further up, the trigeminal nerve. Vascular loops touching the eighth nerve are very common in people without symptoms and should not be over-interpreted. Normal **flocculus** and **choroid plexus** can look like a small mass; compare the two sides.
+
+# A checklist | Read every IAC MRI the same way.
+!path Reading an IAC and CPA MRI
+Identify sequences | thin T2 ; T1 before and after gadolinium ; DWI ; FLAIR if the brain is included
+Each IAC on T2 | four nerves visible ; any filling defect in CSF ; fundal cap of fluid ; porus width and symmetry
+Each labyrinth on T2 | bright fluid in cochlea (all turns), vestibule and three canals ; modiolus ; vestibular aqueduct and sac
+After gadolinium | enhancement in IAC, fundus, labyrinth, facial nerve segments ; compare with pre-contrast T1
+CPA cistern | mass ; its shape and angle with the petrous bone ; dural tail ; brainstem and fourth ventricle
+The rest | brainstem and cerebellum ; venous sinuses ; superficial siderosis ; mastoid and petrous apex
+!!
+
+# The common lesions | What a positive scan usually shows.
+## Vestibular schwannoma
+The vestibular schwannoma arises in the IAC (usually from a vestibular nerve) and grows medially into the CPA, taking the shape of an **ice cream on a cone**: the cone in the canal, the ball in the cistern. It is centred on the porus, widens it, and meets the petrous bone at an acute angle. On T2 it is a dark filling defect in white CSF, often with a bright **fundal cap** of fluid lateral to it when it does not reach the fundus; it enhances avidly, often heterogeneously, and larger tumours become cystic or bleed. Report the size (intracanalicular and extracanalicular), the fundal cap, brainstem compression and the fourth ventricle (the basis of the Koos grade), and whether the cochlear nerve canal is involved, which matters for hearing preservation.
+!fig di1249-1 | A small intracanalicular vestibular schwannoma. Left: drawing of the tumour on the superior vestibular nerve. Right: axial T2, a dark mass in bright CSF, with a fluid cap at the fundus and a free cochlear nerve canal.
+!fig di1249-2 | A large vestibular schwannoma. Left: drawing of the ice-cream-on-cone shape compressing the middle cerebellar peduncle. Right: post-gadolinium T1, enhancing tumour in the canal and cistern, with a large intramural cyst.
+## Meningioma
+The CPA meningioma is the second commonest CPA mass. It has a **broad dural base** on the petrous bone, meets it at an **obtuse angle**, is usually **eccentric to the porus**, and seldom enters the canal far. A **dural tail**, calcification, and hyperostosis of the adjacent bone favour it. It enhances avidly and uniformly.
+!fig di1255-2 | A CPA meningioma. Left: post-gadolinium T1, a mass over the porus with a dural tail along the posterior temporal bone and a dot of enhancement in the fundus. Right: T2, a dural artery feeder as a flow void, and dark tumour inside the canal.
+## Epidermoid and arachnoid cysts
+An **epidermoid cyst** follows CSF on T1 and T2, does not enhance, and insinuates around nerves and vessels rather than displacing them. It does not suppress fully on FLAIR and is **bright on diffusion**. An **arachnoid cyst** follows CSF on every sequence including FLAIR and diffusion, and displaces structures. Diffusion separates the two at a glance.
+!fig di1229-2 | A CPA epidermoid. Left: FLAIR, incomplete suppression of the lesion. Right: DWI, bright restricted diffusion, which distinguishes it from an arachnoid cyst.
+## Lipoma and others
+A **lipoma** is bright on T1 before contrast and disappears with fat suppression; it can be mistaken for an enhancing tumour if the pre-contrast T1 is not checked. **Facial nerve schwannoma** may mimic a vestibular one but extends along the labyrinthine segment to the geniculate ganglion. **Aneurysm**, metastasis and sarcoidosis are rare.
+
+# The labyrinth and the facial nerve | Inflammation and small tumours.
+## Labyrinthitis and labyrinthine ossification
+In **labyrinthitis** (viral, bacterial or after meningitis) the fluid on T2 is normal or slightly reduced but the labyrinth **enhances** after gadolinium. After bacterial meningitis, fibrous tissue and then bone replace the fluid (**labyrinthitis ossificans**): the T2 signal in the cochlea is lost before CT shows bone. In a child deafened by meningitis, early MRI and urgent cochlear implantation are needed before the cochlea ossifies.
+!fig di1139-1 | Labyrinthitis. Left: post-gadolinium T1 after meningitis, abnormal enhancement of both basal turns. Right: T2 in labyrinthitis, the cochlear fluid is still normal; enhancement, not loss of fluid, is the sign.
+## Intralabyrinthine schwannoma
+A small schwannoma inside the cochlea or vestibule appears as a **dark filling defect** on T2 and **focal enhancement** after gadolinium. Haemorrhage (bright before contrast) and labyrinthitis (enhancement without a filling defect) are the mimics.
+!fig di1153-1 | Intralabyrinthine schwannoma. Left: T2, a dark filling defect in the bright cochlear fluid. Right: post-gadolinium T1, focal enhancement in the cochlea.
+## Facial nerve enhancement
+The facial nerve has a venous plexus around its **geniculate, tympanic and upper mastoid segments**, so mild enhancement there can be normal. Enhancement in the **IAC and labyrinthine segments** is always abnormal. In **Bell's palsy**, the nerve enhances smoothly and linearly, typically with a "fundal tuft" at the lateral IAC and along the labyrinthine segment, without enlargement. Nodular or thickened enhancement, extension beyond the temporal bone, or a palsy that does not recover point to tumour or perineural spread from the parotid.
+!fig di1193-1 | Bell's palsy. Left and right: post-gadolinium T1 with fat suppression, a tuft of enhancement at the IAC fundus and enhancement of the labyrinthine and tympanic segments, smooth and not enlarged.
+## The child before cochlear implantation
+Before implantation, MRI (with CT in malformations) confirms that the **cochlear nerve** is present on oblique sagittal T2, that the **cochlea is patent** and fluid-filled (ossification after meningitis), and describes any **malformation** (common cavity, incomplete partition, large vestibular aqueduct). A small IAC with only one nerve usually means an absent cochlear nerve; that nerve is usually the facial.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Sequences:** high-resolution T2 and post-gadolinium fat-suppressed T1, and when each is needed.
+- **"Seven up, Coke down"** in the IAC; crista falciformis and Bill's bar.
+- **Schwannoma versus meningioma:** centred on the porus and acute angle, versus broad dural base, obtuse angle and dural tail.
+- **Epidermoid versus arachnoid cyst:** diffusion.
+- **Labyrinthitis ossificans:** loss of fluid signal on T2; urgency of implantation after meningitis.
+- **Normal versus abnormal facial nerve enhancement.**
+!!
+## Common pitfalls
+!pit
+- Calling a lipoma or haemorrhage "enhancing" without the pre-contrast T1.
+- Reporting a normal vascular loop as the cause of tinnitus or hearing loss.
+- Missing an intralabyrinthine schwannoma by looking only at the IAC.
+- Calling normal geniculate enhancement abnormal.
+- Mistaking the flocculus or choroid plexus for a small CPA mass.
+!!
