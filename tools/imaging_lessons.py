@@ -66,6 +66,13 @@ L = [  # id, lesson, part, title, one-line, sources, anatomy regions, related cl
    '**Subperiosteal abscess**: lentiform rim-enhancing collection along the lamina papyracea, displacing the medial rectus.',
    '**Cavernous sinus thrombosis**: enlarged superior ophthalmic vein with a filling defect.',
    '**Blowout fracture**: look for muscle entrapment; a child\'s trapdoor fracture may look almost normal. **Thyroid eye disease** spares the tendons.']),
+ ('im_spaces', 10, 'neck', 'The neck by spaces', 'The fascial spaces of the suprahyoid and infrahyoid neck, what each contains, the parapharyngeal displacement rule, and how infection spreads.',
+  [DI + ', suprahyoid and infrahyoid neck overview', IA + ', neck spaces chapters', ESR], ['neck', 'vessels'], ['deepneck', 'neckmass', 'para', 'salivary', 'vascneck'],
+  ['Name the **space** first: its contents give the differential.',
+   'Suprahyoid: four spaces (**mucosal, masticator, parotid, carotid**) around the **parapharyngeal fat**; retropharyngeal and perivertebral behind.',
+   'Fat pushed **laterally**: mucosal; **posteriorly**: masticator; **medially**: deep parotid; **anteriorly**: carotid.',
+   'Carotid body paraganglioma **splays** the ICA and ECA; vagal tumours push the ICA **forwards**.',
+   'Cellulitis, phlegmon and abscess differ on contrast CT; only an abscess is drained. The danger space reaches the mediastinum.']),
 ]
 EXTRA = {}
 def main():

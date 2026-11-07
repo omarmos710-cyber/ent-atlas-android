@@ -1,0 +1,78 @@
+@stand The neck looks like a crowded jumble on CT until you see it as a set of tubes and compartments wrapped by the three layers of the deep cervical fascia. Each compartment, or **space**, contains a limited set of normal structures, and nearly every lesion in it comes from one of them. Harnsberger's insight, the backbone of *Diagnostic Imaging: Head and Neck*, is that if you can name the space a mass arises in, the differential diagnosis shrinks to a few lines. This lesson teaches the map and the one trick that tells you where a deep mass began.
+
+# The fascia and the spaces | A map of the neck.
+## Three layers, many spaces
+The **superficial layer** of the deep cervical fascia invests the neck: it surrounds the masticator and parotid spaces above the hyoid and the sternocleidomastoid, trapezius and strap muscles below. The **middle layer** lines the deep surface of the pharyngeal mucosa above and wraps the visceral space (larynx, trachea, thyroid, oesophagus) below. The **deep layer** surrounds the perivertebral space, and a slip of it, the **alar fascia**, separates the retropharyngeal space from the danger space behind it. All three contribute to the **carotid sheath**.
+## The suprahyoid neck
+Above the hyoid, a pair of fat-filled **parapharyngeal spaces** sits at the centre, surrounded by four key spaces: the **pharyngeal mucosal space** medially, the **masticator space** in front, the **parotid space** laterally and the **carotid space** behind. In the midline behind the pharynx are the **retropharyngeal space** and the **perivertebral space**.
+!fig di33-1 | The spaces of the suprahyoid neck at the level of the nasopharynx, colour-coded: pharyngeal mucosal space (blue), masticator spaces (purple), parotid spaces (green), carotid spaces with the artery and vein (red), the fat of the parapharyngeal spaces (yellow-orange) in the middle of them, and the perivertebral space (magenta) behind. The fascial layers are drawn as coloured lines.
+!fig ia301-1 | The same spaces on axial T2 MRI: the pharyngeal mucosal space, masticator space, parotid space (outlined) and carotid space arranged around the parapharyngeal fat, with the prevertebral muscles behind.
+## The infrahyoid neck
+Below the hyoid, the **visceral space** in the centre holds the larynx and hypopharynx, the trachea and oesophagus, the thyroid and parathyroid glands, and the recurrent laryngeal nerves. On either side are the **carotid spaces**, behind them the **posterior cervical spaces** (fat, the accessory nerve and level V nodes), and in the midline behind are the retropharyngeal and perivertebral spaces. The **anterior cervical space** is the fat between the carotid space and the visceral space.
+!fig ia296-3 | Axial contrast CT at the glottis: the visceral space with the larynx and strap muscles, the carotid spaces behind it on either side, the posterior cervical spaces and the perivertebral space.
+
+# What each space contains | And therefore what arises there.
+!table The spaces, their contents and their common lesions
+Space | Normal contents | Common lesions
+Pharyngeal mucosal | Mucosa, lymphoid tissue (adenoids, tonsils), minor salivary glands, constrictor muscles | Squamous cell carcinoma, lymphoma, tonsillar abscess, minor salivary tumour
+Parapharyngeal | Fat, occasional minor salivary rests | Rare primary lesions; mostly displaced by its neighbours. Pleomorphic adenoma of salivary rests, lipoma
+Masticator | Mandibular ramus and body, muscles of mastication, V3, pterygoid venous plexus | Odontogenic abscess, sarcoma, perineural tumour on V3, benign masseter hypertrophy
+Parotid | Parotid gland, facial nerve, intraparotid nodes, retromandibular vein | Pleomorphic adenoma, Warthin tumour, carcinoma, nodes
+Carotid | Internal carotid, internal jugular vein, IX to XII (only X below the hyoid), sympathetic chain | Paraganglioma, schwannoma, thrombosis, nodes alongside
+Retropharyngeal | Fat; lateral (Rouvière) and medial retropharyngeal nodes above the hyoid | Nodal metastasis, suppurative node, abscess, oedema
+Perivertebral | Vertebrae, prevertebral and scalene muscles, brachial plexus, vertebral artery | Discitis and osteomyelitis, metastasis, chordoma, brachial plexus schwannoma
+Visceral | Larynx, hypopharynx, trachea, oesophagus, thyroid, parathyroids | Carcinoma of each, thyroid and parathyroid lesions
+Posterior cervical | Fat, accessory nerve, level V nodes | Nodes, lymphatic malformation, lipoma, schwannoma
+!!
+
+# Where did it start? | The parapharyngeal fat tells you.
+## The displacement rule
+The parapharyngeal space is mostly fat and rarely the origin of disease, so it acts as a marker. A mass growing in one of the four surrounding spaces pushes the fat away from itself:
+- a **pharyngeal mucosal** mass pushes the fat **laterally**;
+- a **masticator** space mass pushes it **posteriorly** (and medially);
+- a **deep lobe parotid** mass pushes it **medially** (and widens the stylomandibular gap);
+- a **carotid space** mass pushes it **anteriorly**, and lifts the styloid process forwards;
+- a lateral **retropharyngeal** mass pushes it anteriorly without displacing the styloid.
+
+A mass completely surrounded by fat arises in the parapharyngeal space itself, usually from salivary rests.
+!fig ia294-3 | Axial contrast CT at the level of the maxillary ridge: the pharyngeal mucosal space outlined between the paired parapharyngeal fat pads, with the masticator spaces in front and the carotid spaces behind.
+!fig di41-1 | A true parapharyngeal space pleomorphic adenoma. Left: CT, a well-defined mass completely surrounded by parapharyngeal fat. Right: T1 MRI, the mass separate from the deep lobe of the parotid, with a rim of fat all round.
+!fig di115-2 | A deep lobe parotid pleomorphic adenoma. Left: drawing of a pear-shaped tumour pushing the parapharyngeal fat medially. Right: T2, the bright tumour passing through a widened stylomandibular notch and displacing the fat and the tonsil medially.
+## The carotid space and the vessels
+In the carotid space, the position of the vessels refines the diagnosis. A **carotid body paraganglioma** sits in the bifurcation and **splays** the internal and external carotid arteries apart. A **vagal** paraganglioma or schwannoma, higher up, pushes the internal carotid **anteriorly** (and medially). A **sympathetic** schwannoma, medial to the vessels, separates neither. Paragangliomas enhance intensely and show flow voids ("salt and pepper"); schwannomas enhance less and may be cystic.
+!fig di167-1 | Carotid body paraganglioma. Left: drawing of the tumour in the bifurcation, splaying the internal and external carotids. Right: contrast CT, an avidly enhancing mass sitting in the notch between the two arteries.
+
+# Spaces as pathways | How disease spreads.
+## Infection
+The spaces also explain how infection travels. A **peritonsillar abscess** can rupture through the superior constrictor into the parapharyngeal fat and on to the masticator or carotid spaces. Dental infection enters the masticator, submandibular and sublingual spaces. The **retropharyngeal space** extends down to about T1–T6, and the **danger space** behind it to the diaphragm, so infection there threatens the mediastinum. A suppurative retropharyngeal node in a child (a rim-enhancing node, often lateral) is not the same as a true retropharyngeal abscess (fluid distending the space from side to side, often with mass effect on the airway).
+!fig di55-2 | Tonsillar abscess complications. Left: a tonsillar abscess extending through the capsule into the buccal space and the medial pterygoid. Right: a large abscess that has ruptured into the carotid space and the submandibular space.
+!fig di195-1 | Retropharyngeal abscess. Left: drawing of the collection behind the pharynx. Right: contrast CT in an infant, a low-density collection distending the retropharyngeal space and pushing the pharynx forwards.
+## Abscess, phlegmon or cellulitis?
+On contrast CT, **cellulitis** is stranding of the fat; **phlegmon** is ill-defined, enhancing soft tissue without a fluid centre; an **abscess** is a fluid collection with a well-formed enhancing rim. Only a mature abscess is drained. Look also for the airway, the internal jugular vein (thrombosis, Lemierre syndrome), the carotid, the mediastinum and the cause (tooth, stone, tonsil, foreign body).
+
+!path Placing a deep neck mass
+Above or below the hyoid | suprahyoid: find the parapharyngeal fat ; infrahyoid: visceral, carotid, posterior cervical
+Which way is the fat pushed | laterally: mucosal ; posteriorly: masticator ; medially: deep parotid ; anteriorly: carotid or retropharyngeal ; surrounded: parapharyngeal itself
+What normally lives there | match to the contents table
+Look at the vessels | splayed: carotid body ; ICA pushed forwards: vagal ; stylomandibular gap widened: deep parotid
+Character | cyst, fat, enhancement, flow voids, bone
+Differential | two to four diagnoses by space and character
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **The three layers** of deep cervical fascia and what they wrap.
+- **The suprahyoid spaces** around the parapharyngeal fat, and the **infrahyoid spaces**.
+- **The displacement rule** for the parapharyngeal fat.
+- **Contents of each space** and the lesions that arise there.
+- **Carotid space masses:** carotid body versus vagal paraganglioma versus schwannoma.
+- **Danger space** and mediastinal spread; abscess versus phlegmon.
+!!
+## Common pitfalls
+!pit
+- Describing a deep neck mass without naming its space.
+- Calling a deep lobe parotid tumour "parapharyngeal" when the fat is pushed medially.
+- Draining a phlegmon.
+- Calling a suppurative retropharyngeal node a retropharyngeal abscess.
+!!
