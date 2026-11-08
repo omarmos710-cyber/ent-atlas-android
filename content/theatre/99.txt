@@ -1,0 +1,214 @@
+@stand Epistaxis is the commonest ENT emergency, and nosebleeds that come from the anterior and posterior ethmoid arteries are among the hardest to control, because these vessels arise from the ophthalmic artery: they cannot be embolised without risking blindness, and they run in the roof of the nose beside the orbit, the skull base and the optic nerve. This chapter begins where the on-call resident begins, with assessment, cautery and packing, then takes you through ligation of the ethmoid arteries endoscopically and through an external (Lynch) incision, with the orbital and skull base crises you must be ready for.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Anterior and posterior ethmoid artery ligation
+ | Summary
+Indications | Epistaxis not controlled at the bedside, especially bleeding from high in the nose above the middle turbinate; bleeding that continues after a properly performed sphenopalatine ligation with clear unilateral bleeding; facial trauma with suspected anterior ethmoid injury; vascular control before resecting anterior skull base tumours
+Contraindications | Unfit for anaesthesia, a consideration often overridden by life-threatening bleeding
+Anaesthesia | General, with the airway plan agreed beforehand: active bleeding can make intubation difficult
+Position | Supine, head turned slightly toward the surgeon, reverse Trendelenburg, as for endoscopic sinus surgery; for the external approach, the cornea protected by a shield or temporary tarsorrhaphy
+Antibiotics | First- or second-generation cephalosporin; clindamycin if allergic to penicillin
+Imaging | Thin-cut CT (1.25 mm or less) with navigation for the endoscopic approach; none needed for the external approach
+Tray | Endoscopic sinus set with 30- and 70-degree telescopes and angled instruments, angled pistol-grip bipolar forceps, endoscopic clip applier with medium clips, Cottle elevator, Lusk probe or sinus seeker, angled Kerrison rongeurs, J-curette, microdebrider; for the external approach a size 15 blade, skin hooks, a malleable orbital retractor and a 3 mm endoscope
+Before theatre | Group and save or crossmatch, full blood count, clotting (INR, APTT); reverse anticoagulants; control blood pressure; nasal and if needed postnasal packing
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** packing and cautery have not stopped the bleeding, and these arteries cannot safely be blocked by a radiologist because they share the eye's blood supply.
+- **Bleeding may continue or recur**, needing packing, a second procedure or other measures.
+- **Bruising or bleeding around the eye**; very rarely a collection behind the eye that threatens sight and needs an immediate procedure at the corner of the eye.
+- **Injury to the eye socket or its muscles**: double vision, watering; **optic nerve injury** and loss of vision are rare but serious, especially with the posterior artery.
+- **CSF leak** through the roof of the nose, needing repair.
+- Crusting, adhesions and sinus infection after the endoscopic approach; a **scar** beside the nose, numbness of the skin and occasionally a web needing a small revision after the external approach.
+- **Blood transfusion** may be needed.
+!!
+## Before you start
+Resuscitate first: in a shocked patient follow the trauma protocol and take the history once they are stable. Then ask where the bleeding started: **front** (anterior septum, Little's area, then the anterior ethmoid artery) or **back** into the throat (the sphenopalatine artery and its branches, rarely the posterior ethmoid). Which side? Torrential, sudden bleeding suggests an artery; a steady trickle suggests veins or mucosa. Recurrent winter or seasonal bleeds that stop easily point to Little's area. Estimate the loss in tissues, cups or bowls, and look for light-headedness, palpitations or clamminess. Ask about facial numbness, unilateral obstruction, double vision, fever or weight loss, which suggest a tumour: **nasopharyngeal carcinoma** in patients of Southeast Asian origin, **juvenile angiofibroma** in an adolescent boy.
+Ask about bleeding disorders and bruising, liver disease, previous sinus surgery or septorhinoplasty (cautery after septoplasty risks perforation), a family history of bleeding or telangiectasia, and the drugs that matter: anticoagulants, antiplatelets, alcohol, and supplements such as omega-3, garlic, ginseng and ginkgo. Involve a haematologist for a medical cause or recurrent bleeding despite treatment.
+!table Common causes of epistaxis
+Local | Systemic
+Digital trauma, facial trauma | Hypertension
+Septal deviation and perforation | Anticoagulants and antiplatelets
+Chronic rhinosinusitis, irritants | Congenital coagulopathies, platelet dysfunction
+Foreign bodies | Liver dysfunction
+Neoplasm | Leukaemia
+Vascular malformations (hereditary haemorrhagic telangiectasia) | Medications and supplements
+!!
+
+# First-line control | What the on-call resident does before theatre.
+## Examine properly
+Wear a face shield, eye protection, gown and gloves. Sit the patient up, leaning forward over a basin. Irrigate the whole nasal cavity with saline from a 60 ml syringe or squeeze bottle to wash out clots. Examine with anterior rhinoscopy and then a **rigid 30-degree endoscope**, front to back, including the nasopharynx; a rigid scope lets you suction and work with an instrument in the other hand. Lift off crusts on the anterior septum: the bleeding point is often beneath these biological dressings. Look in the mouth for blood running down the pharynx and for telangiectasia or tumours of the palate, maxilla or tonsil, and examine the cranial nerves.
+!pearl Look before you decongest
+Examine once before applying a vasoconstrictor. Topical decongestant can put an arterial bleeding point into spasm, so that the examination is falsely negative. Then apply decongestant mixed with lidocaine and look again.
+!!
+## Cautery
+When you see the bleeding point, cauterise it: silver nitrate rolled onto the vessel and then around it, starting at the periphery, or bipolar diathermy under the endoscope. Do not cauterise both sides of the septum at the same point, which risks a perforation. In a coagulopathic patient with diffuse oozing, minimise mucosal trauma and prefer absorbable packing; cautery can make diffuse bleeding worse.
+## Anterior packing
+If the bleeding is profuse or the site cannot be found, pack. Modern options are an expanding sponge (Merocel), an inflatable balloon (Rapid Rhino) or an absorbable pack in the coagulopathic patient. The classic pack is about a metre of **ribbon gauze** (2.5 cm wide in adults, 1.2 cm in children) impregnated with paraffin or bismuth-iodoform paste: fold the first few centimetres on themselves, lay them along the floor, and layer the gauze from floor to roof and from front to back, or in vertical layers from back to front. Place packs under endoscopic view when the source is high, so that they press on the bleeding point. Remove after 24 hours if bleeding has stopped; packs left two to three days need antibiotic cover against sinusitis and toxic shock syndrome.
+## Posterior packing
+For bleeding posteriorly into the throat, use a balloon: a Foley catheter (12 to 14 French) passed along the floor into the nasopharynx, its balloon inflated with 5 to 10 ml of saline (never air) and pulled forward to block the choana, then an anterior pack in front, with the catheter padded at the nostril to prevent columellar and alar necrosis; or a double-balloon device inflated posteriorly then anteriorly. The traditional postnasal pack is a rolled gauze cone with three silk ties: two are pulled through the nose on catheters passed through the nostrils and out of the mouth, the pack is guided into the nasopharynx with a finger, an anterior pack is placed, and the two ties are tied over a dental roll at the columella; the third is left in the mouth to remove it. Every patient with a posterior pack is admitted, monitored with oxygen saturation (posterior packs can depress breathing, especially in the elderly) and given analgesia and antibiotics.
+!senior Senior's pearl
+A patient who needs a posterior balloon to stop a bleed is a patient who needs a definitive procedure. Treat the balloon as a bridge to the operating theatre, not as the treatment.
+!!
+## Warm water irrigation
+Irrigation with water at **46 to 52 degrees Celsius** is a well-documented way of controlling posterior epistaxis without packing; it works through mucosal oedema, reduced intravascular pressure and a faster clotting cascade.
+
+# Anatomy you must see | The arteries in the roof of the nose.
+## Where the arteries come from
+The anterior and posterior ethmoid arteries are branches of the **ophthalmic artery**, itself the first branch of the internal carotid. They leave the orbit through foramina in the **frontoethmoid suture** on the medial orbital wall, cross the roof of the ethmoid sinuses from **lateral (orbit) to medial (skull base)**, and enter the anterior cranial fossa beside the cribriform plate before descending to supply the upper septum and lateral wall. This direction of flow is why the **lateral, orbital end** must be controlled: an artery cut medially retracts into the orbit still bleeding. The anterior septum's **Kiesselbach plexus (Little's area)** is formed by the anterior ethmoid, sphenopalatine, greater palatine and superior labial (facial) arteries; posterior bleeds come mostly from the sphenopalatine artery.
+## The external measurements (the 24-12-6 rule)
+Along the frontoethmoid suture from the **anterior lacrimal crest**:
+- the **anterior ethmoid foramen** is about **20 to 24 mm** behind the crest;
+- the **posterior ethmoid foramen** about **9 to 16 mm** (roughly 12 mm) behind that;
+- the **optic canal** only **4 to 7 mm** (roughly 6 mm) behind the posterior foramen.
+!mf 3 | Axial view of the anterior and posterior ethmoid arteries and the optic nerve, with their distances from the anterior lacrimal crest (about 24, 12 and 6 mm).
+!mf 4 | Parasagittal view: the foramina lie in the frontoethmoid suture line; the modified Lynch incision runs from the medial brow to the level of the medial canthus in the shadow of the orbit.
+## The endoscopic landmarks
+- The anterior ethmoid artery lies **just behind the supraorbital ethmoid cell**; the frontal sinus is always anterior and medial to that cell.
+- It lies about **17 to 25 mm** behind the **axilla of the middle turbinate**, and was classically related to the skull base attachment of the basal lamella of the bulla.
+- About **one third** of anterior ethmoid arteries hang below the skull base in a bony **mesentery**; the rest are embedded in the skull base.
+- The posterior ethmoid artery is smaller, usually embedded in bone and often not seen; when visible it lies about **8 mm in front of the face of the sphenoid**. A middle ethmoid artery is present in some.
+- On coronal CT, the **nipple sign**, a small triangular notch in the superomedial orbital wall between the **medial rectus and superior oblique**, marks the anterior ethmoid canal; the posterior artery's notch lies in the skull base without a muscle relationship.
+!mf 1 | Coronal CT showing the bilateral nipple signs (asterisks) of the anterior ethmoid canals between the superior oblique and medial rectus muscles.
+!mf 2 | Endoscopic view of the anterior, middle and posterior ethmoid arteries crossing the ethmoid roof.
+
+# The operation: endoscopic ligation | Five stages through the ethmoid.
+## Prepare the nose
+After intubation, register the navigation system to the CT. Remove the packs, irrigate the nose copiously with warm water to clear clot, and decongest with pledgets of oxymetazoline or 1:1000 adrenaline.
+!see What you should see
+- A clean, decongested nasal cavity with the middle turbinate, uncinate and septum identified, and any bleeding point you can now see.
+!!
+!senior Senior's pearl
+Look again for a bleeding point before you dissect: a sphenopalatine or septal source seen now saves an ethmoidectomy.
+!!
+## Uncinectomy and anterior ethmoidectomy
+Remove the uncinate process; a posterior-to-anterior technique limits the risk to the orbit: open with a backbiter to expose the natural maxillary ostium, then take the remaining uncinate off the maxillary line with through-cutting instruments. Place a J-curette into the retrobullar space and remove the ethmoid bulla with gentle push-pull movements, then tidy the edges with the microdebrider.
+!see What you should see
+- The lamina papyracea laterally, the basal lamella behind, and the maxillary ostium below.
+!!
+!danger The orbit
+The lamina papyracea is paper-thin. Keep the instruments' cutting surfaces facing medially, and check with an eye press (pressing on the closed eye while watching the lamina) if in doubt.
+!!
+## Open the frontal recess and find the supraorbital cell
+Dissect the frontal recess completely with angled telescopes and instruments, identifying the frontal sinus drainage pathway and the **supraorbital ethmoid cell**. The anterior ethmoid artery, or its bony canal, crosses the roof just **behind the supraorbital cell**; confirm with navigation.
+!see What you should see
+- The frontal ostium anterior and medial, the supraorbital cell lateral, and behind it the artery in its mesentery or the ridge of its canal in the roof.
+!!
+!danger The skull base
+The artery enters the cribriform region at the thinnest part of the skull base, the lateral lamella. Rough work here causes a CSF leak.
+!!
+## Expose the artery circumferentially
+If the artery hangs in a mesentery, it can be controlled there. If it is encased in bone, control it at its **exit from the orbit**: fracture the lamina papyracea gently with a Cottle elevator, tease the bone flakes off the periorbita with a Lusk probe or seeker, and see the pyramid-shaped neurovascular bundle leaving the orbit. Remove more bone around it with angled Kerrisons, including a little of the skull base cortex, until the artery is free all round.
+!see What you should see
+- The whole calibre of the artery, free for 360 degrees, with the periorbita intact laterally.
+!!
+!danger Avulsion and retraction
+An artery torn or cut before it is controlled retracts into the orbit and bleeds there: a retro-orbital haematoma. Do not grasp or tear it; expose it fully before you seal it.
+!!
+## Seal the artery and finish
+Seal it with **bipolar diathermy** across the full calibre (never monopolar this close to the dura) or with **two medium clips**. For the posterior artery, first complete a posterior ethmoidectomy and expose it the same way; prefer clips, because heat can reach the optic nerve a few millimetres away. Check for bleeding, medialise the middle turbinate to prevent it lateralising and causing sinusitis, and place a middle meatal spacer if wished; formal packing is usually unnecessary.
+!see What you should see
+- A sealed artery with no flow beyond the seal, and a dry ethmoid cavity.
+!!
+!senior Senior's pearl
+Seal the lateral end first. Flow runs from the orbit to the skull base, so a medial seal leaves the orbital end free to bleed and retract.
+!!
+
+# The operation: external (Lynch) ligation | Through the medial orbit.
+## Protect the eye and mark the incision
+Leave the nasal packs in after intubation and protect the cornea with a shield or temporary tarsorrhaphy. Infiltrate 1% lidocaine with 1:100,000 adrenaline along a curvilinear **modified Lynch incision** in the upper shadow line of the orbit, halfway between the nasal dorsum and the medial canthus, from the medial end of the brow to the level of the canthus.
+!see What you should see
+- The incision line in the shadow of the orbit, clear of the medial canthal tendon below.
+!!
+## Incise and elevate the periosteum
+Cut through skin and soft tissue to bone with a size 15 blade, with bipolar ready for the **angular vessels**, which are often divided. With a Cottle elevator, raise the periosteum backwards off the nasal bone, the frontal process of the maxilla and the lamina papyracea. Keep within three limits: **superiorly** just above the frontoethmoid suture, **inferiorly** the lacrimal sac, and **laterally** the junction of the anterior lacrimal crest and the suture line, following the contour of the medial orbital wall along the line of the suture.
+!see What you should see
+- The lacrimal sac in its fossa below, the medial orbital wall, and fine communicating venules between periorbita and bone, which are not the artery.
+!!
+!danger Too high or too low
+The suture is never actually seen. Elevation too high enters the orbital roof and frontal region; too low misses the foramina and risks the lacrimal sac.
+!!
+## Find the anterior ethmoid artery
+At about **24 mm** behind the anterior lacrimal crest, the artery appears as a thick **pyramid of soft tissue** wrapped in fascia passing from lateral to medial into its foramen. Retract the skin with hooks and the orbital contents gently laterally with a malleable retractor, and develop the tissue planes around and beyond the vessel. A 3 mm endoscope improves the view.
+!see What you should see
+- A distinct fascial cone running into a foramen, not a fleeting thin venule.
+!!
+## Ligate, and the posterior artery if needed
+Control the whole calibre in place with **two medium clips** or bipolar, at the most lateral point. To reach the posterior artery, continue elevation along the suture about **12 mm** further back with more orbital retraction; it lies only about **6 mm** from the optic nerve, so use **clips, not heat**, and do not let a clip touch the nerve.
+!see What you should see
+- Both arteries clipped at their orbital ends, and no traction on the globe for longer than needed.
+!!
+!danger The optic nerve
+It lies about 6 mm behind the posterior ethmoid foramen. Stop at the posterior artery; never dissect blindly behind it.
+!!
+## Check and close
+Irrigate the wound and remove the nasal packs; decongest the engorged mucosa with oxymetazoline pledgets and examine the whole nasal cavity endoscopically for further bleeding. Close in two layers and apply adhesive strips or tissue glue.
+
+# When it goes wrong | Drills for the orbit and the skull base.
+## Crisis drills
+!path Retro-orbital haematoma
+Recognise | proptosis, a tense eyelid, pain, reduced vision, a dilated pupil or loss of colour vision
+Decompress | remove all nasal packs ; lateral canthotomy and inferior cantholysis at the bedside without delay
+Support | measure intraocular pressure ; mannitol, acetazolamide and dexamethasone ; urgent ophthalmology but do not wait for them
+Prevent | seal arteries in full before cutting ; control the lateral end
+!!
+!path Orbital fat in the field
+Stop | protect the breach, do not suction or debride fat
+Work around | carry on above and below the breach ; some shrink exposed fat gently with bipolar
+Afterwards | no nose blowing, no forceful saline irrigation, sneeze with the mouth open
+!!
+!path Clear fluid from the roof
+Recognise | CSF leak from the lateral lamella or skull base
+Act | identify the defect ; repair at the time with a graft
+Afterwards | bed rest, head up, no straining
+!!
+!path Bleeding that will not stop
+Exhaust options | bipolar, clips, sphenopalatine ligation if not done
+Pack | formal packing, keep intubated, high-dependency care
+Next | second surgeon ; embolisation of external carotid branches only, never the ethmoid arteries
+!!
+
+# Aftercare | As after endoscopic sinus surgery.
+## On the ward and at home
+No nose blowing or strenuous activity; start saline irrigation on the first day; review at 7 to 14 days for debridement and removal of any spacer. Simple analgesia (paracetamol with an anti-inflammatory if bleeding allows), with a short course of an opioid if needed. Anticoagulants and antiplatelets are usually restarted on the second day, agreed with the team who prescribe them.
+## Complications
+!table Complications
+Complication | Management
+Retro-orbital haematoma | Remove packs, canthotomy and cantholysis, medical decompression, ophthalmology
+CSF leak | Repair (see the CSF leak chapter)
+Orbital injury, diplopia | Protect breach; ophthalmology review
+Optic nerve injury | Prevention: clips not cautery on the posterior artery
+Synechiae | Prevent with debridement; divide in clinic with through-cutting instruments
+Iatrogenic sinusitis | Saline, antibiotics, steroids; revise a stenosed antrostomy if needed
+Scar web at the Lynch incision | Z-plasty in clinic
+Numbness at the incision | Usually recovers by 6 to 12 months; permanent if not by a year
+!!
+## Alternatives
+The **transcaruncular approach**, usually by oculoplastic surgeons, reaches the medial orbital wall without a skin incision. **Embolisation** of the ethmoid arteries risks blindness and is a last resort when everything else has failed.
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Dhingra: manages epistaxis stepwise from pinching and Trotter's position, cautery, anterior ribbon-gauze packing and posterior packing (gauze cone, Foley or double balloon) to endoscopic cautery, septal flap elevation or SMR, and ligation: external carotid (now avoided), maxillary artery via Caldwell-Luc (superseded by endoscopic sphenopalatine ligation) and the ethmoid arteries through a Lynch incision for bleeding above the middle turbinate.
+Lee: emphasises the sphenopalatine artery as the target for posterior bleeding, the anatomy of Little's area, and embolisation for the external carotid system.
+Myers details the endoscopic approach to the ethmoid arteries behind the supraorbital cell, the 24-12-6 distances for the external approach, the lateral-to-medial flow, and clips rather than heat near the optic nerve.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- Why the ethmoid arteries **cannot be embolised** (ophthalmic artery, blindness).
+- The **24-12-6 mm** rule from the anterior lacrimal crest.
+- Endoscopic landmarks: behind the supraorbital ethmoid cell; the nipple sign on CT.
+- Why the **lateral end** must be controlled.
+- **Retro-orbital haematoma**: signs and the canthotomy-cantholysis drill.
+- The stepwise management of epistaxis, from first aid to ligation.
+!!
+## Common pitfalls
+!pit
+- Decongesting before the first look and missing the bleeding point.
+- Treating a posterior balloon as the definitive treatment.
+- Using monopolar diathermy on the ethmoid roof.
+- Cutting the artery before sealing its whole circumference.
+- Heat near the optic nerve when sealing the posterior artery.
+- Elevating too high or too low along the medial orbital wall.
+!!
