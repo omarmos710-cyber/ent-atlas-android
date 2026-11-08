@@ -1,0 +1,195 @@
+@stand Tonsillectomy is the operation every ENT resident learns first and keeps doing for a career, and one that can still kill: from haemorrhage, from the airway at extubation, or from a bleed a week later at home. The technique is simple in principle (find the capsule and stay on it), but the decisions around it (who should have it, who must stay overnight, how to manage pain and a bleeding child) are what this chapter is about as much as the dissection. It covers indications by the guideline, anatomy of the tonsillar bed, the dissection stage by stage, tonsillotomy, the post-tonsillectomy haemorrhage drill, and aftercare.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Tonsillectomy
+ | Summary
+Indications: airway | Sleep-disordered breathing and obstructive sleep apnoea from adenotonsillar hypertrophy (the commonest indication in children); acute airway obstruction (often infectious mononucleosis); dysphagia from large tonsils
+Indications: infection | Recurrent tonsillitis meeting the Paradise criteria; recurrent peritonsillar abscess (usually after two) or quinsy tonsillectomy in selected acute cases; Lemierre syndrome after acute treatment; PFAPA syndrome
+Indications: other | Asymmetry with features suggesting lymphoma (excision biopsy); tonsilloliths failing conservative care; severe halitosis; febrile seizures with tonsillitis; multiple antibiotic allergies; guttate psoriasis; as part of uvulopalatopharyngoplasty, glossopharyngeal neurectomy or styloidectomy
+Contraindications | No absolute ones; bleeding disorders need haematology input and a clear balance of benefit; acute infection (operate after it settles, except quinsy tonsillectomy); overt or submucous cleft palate makes velopharyngeal insufficiency more likely; uncontrolled systemic disease
+Anaesthesia | General, oral tube centred on the tongue base and taped to the chin in the midline; inspired oxygen below 30% when diathermy is used; intravenous dexamethasone (0.15 to 1 mg/kg, single dose) reduces vomiting and pain
+Position | Supine, the table turned so the surgeon sits at the head, shoulder roll (not in Down syndrome), head ring, eyes taped and covered
+Antibiotics | Not recommended, before or after
+Tray | McIvor, Boyle-Davis or Crowe-Davis gag with blades of several sizes, Draffin rods or Mayo stand suspension, curved Allis or tonsil-holding forceps, Hurd dissector and pillar retractor, scissors, snare, artery and Negus forceps, ties on a carrier, bipolar forceps or the chosen device (coblation, monopolar), Yankauer suction and suction diathermy, tonsil swabs, lip and cheek protector, orogastric tube
+Time | 20 to 30 minutes
+!!
+## Consent
+!consent What to tell the patient or parents
+- **Pain** for one to two weeks, often worst around days 3 to 6, and pain referred to the ears; regular painkillers matter. Plan for one to two weeks off school or work.
+- **Bleeding:** within 24 hours in about 0.2% to 2.2% and later (peaking at 7 to 10 days) in about 0.1% to 3%; higher after tonsillectomy for infection (about 3.7%) than for sleep apnoea (about 1.4%), highest after quinsy tonsillectomy (about 5.4%). Some need a return to theatre and, rarely, a transfusion. Any bleeding at home means coming straight back to hospital.
+- **Nausea, vomiting and dehydration**, the commonest reasons for readmission.
+- **Damage to teeth, lips, gums and tongue**; jaw joint pain; a temporary change in taste or numbness of the tongue.
+- **Voice change** (often a clearer, sometimes slightly nasal voice).
+- **Regrowth** after a partial (intracapsular) tonsillectomy in about 6%.
+- **Death** is exceptionally rare, about 1 in 16,000 to 35,000, from haemorrhage, aspiration or cardiopulmonary failure.
+!!
+## Before you start
+For sleep-disordered breathing, ask about snoring, witnessed apnoeas, gasping, restless sleep, mouth breathing, enuresis, daytime sleepiness, behaviour and school performance, and growth. For infection, document each episode: sore throat with a temperature above 38.3 degrees, tender or enlarged (over 2 cm) neck nodes, tonsillar exudate or a positive streptococcal culture, and antibiotic treatment. Ask about peritonsillar abscess, bleeding problems in the patient or family (and investigate with clotting tests and a haematology opinion if suggestive; routine blood tests are not cost-effective), recent illness, loose teeth, and syndromes: **Down syndrome** (atlantoaxial instability: avoid a shoulder roll; some obtain flexion-extension films or MRI), **22q11.2 deletion** (medially placed carotid arteries; consider CT angiography) and craniofacial disorders.
+Grade the tonsils on the **Brodsky scale**: 0, in the fossa (removed); 1, less than 25% of the oropharyngeal width; 2, 26% to 50%; 3, 51% to 75%; 4, more than 75%. Look at the palate for a bifid uvula and feel for a submucous cleft; check the adenoid (endoscopy or lateral radiograph) if adenoidectomy is being considered.
+Polysomnography is the gold standard for sleep apnoea (in children, an apnoea-hypopnea index of 1 to 5 is mild, 5 to 15 moderate and above 15 severe; saturation below 92% is abnormal), but about 90% of children go to surgery on clinical grounds. Request it when the history and the tonsil size do not match, and in complex children: Down syndrome, obesity, craniofacial abnormalities, sickle cell disease, neuromuscular disorders and mucopolysaccharidoses. Drug-induced sleep endoscopy helps when the level of obstruction is uncertain.
+!mf 1 | The Brodsky grading of tonsil size, from grade 0 to grade 4.
+!table The Paradise criteria for recurrent tonsillitis
+Criterion | Definition
+Frequency | 7 or more episodes in the last year, or 5 or more in each of the last 2 years, or 3 or more in each of the last 3 years
+Each episode | Sore throat plus at least one of: temperature over 38.3 degrees, cervical lymphadenopathy (tender or over 2 cm), tonsillar exudate, positive culture for group A streptococcus
+Treatment | Antibiotics given in conventional dosage for proven or suspected streptococcal episodes
+Documentation | Each episode recorded in the clinical notes at the time; or, if not documented, two further episodes observed by the clinician with the same pattern
+!!
+!pearl Watchful waiting
+Recurrent tonsillitis often improves with time, so a period of observation of about 12 months is usually recommended before surgery, unless there are additional factors such as peritonsillar abscess or major school absence.
+!!
+
+# Anatomy you must see | The capsule, the bed and the vessels.
+## The tonsil and its bed
+The palatine tonsil sits in the **tonsillar fossa** between the **anterior pillar** (palatoglossus muscle and mucosa) and the **posterior pillar** (palatopharyngeus). Its lateral surface is covered by a fibrous **capsule**; lateral to the capsule is a layer of loose areolar tissue (the potential **peritonsillar space**), and lateral to that the **superior constrictor** muscle, which forms the bed. The **plica triangularis** is a mucosal fold over the lower anterior tonsil. Inferiorly the palatine tonsil blends with the **lingual tonsil** at the tongue base without a clear boundary; superiorly a crypt (the intratonsillar cleft) extends into the upper pole.
+!mf 4 | The incision through the anterior pillar mucosa, preserving the palatoglossus muscle and exposing the capsule.
+## Blood supply
+All from the external carotid system, mostly entering at the **lower pole**: the **tonsillar branch of the facial artery** (the main supply), the ascending palatine branch of the facial artery, the dorsal lingual branches of the lingual artery, the ascending pharyngeal artery, and the descending (lesser) palatine branch of the maxillary artery at the upper pole. Venous drainage is to the pharyngeal plexus and facial vein; the **paratonsillar (external palatine) vein** descends from the soft palate across the lateral surface of the capsule and is a common source of bleeding.
+## What lies beyond the bed
+The **internal carotid artery** lies about **2 to 2.5 cm posterolateral** to the tonsil in the poststyloid parapharyngeal space, closer in children and sometimes much closer when tortuous or medialised (22q11.2 deletion). The **glossopharyngeal nerve** runs deep to the lower tonsillar bed toward the tongue base; injury causes altered taste and tongue numbness. Sensation from the fossa runs in the glossopharyngeal and lesser palatine nerves (hence referred otalgia through the tympanic branch of the ninth nerve). Lymph drains to level II (the jugulodigastric node) and the retropharyngeal nodes.
+
+# The operation, stage by stage | Cold dissection, the reference technique.
+## Position and open the mouth
+Confirm the tube is taped in the midline to the chin. Turn the table, place the shoulder roll (none in Down syndrome) and head ring, and tape and cover the eyes; a throat pack is best avoided, to remove the risk of a retained airway foreign body. Insert a gag with a blade long enough to cover most of the tongue base, the tube lying in the blade's midline groove; hook the upper bar on the upper incisors or canines, not the lip, mindful of loose teeth; open it and suspend it from the Mayo stand or Draffin rods. Protect the lips with a lip and cheek retractor or moist gauze. Ask the anaesthetist to confirm ventilation after the gag is opened.
+!mf 2 | The McIvor gag positioned and suspended, with the tongue and tube displaced down and both tonsils and their lower poles in view.
+!see What you should see
+- Both tonsils with their lower poles, the uvula, and no tongue bulging around the edge of the blade.
+!!
+!danger The tube and the jaw
+Opening the gag can kink or dislodge the tube, dislocate the temporomandibular joint or fracture a condyle if forced. Tongue bulging around the blade means the blade is too short.
+!!
+## Grasp and retract the tonsil
+Take a generous bite of the tonsil with curved Allis or tonsil-holding forceps in the hand **opposite** the tonsil (left hand for the right tonsil) and pull it **medially and inferiorly**. By increasing and relaxing the pull, feel how deep the tonsil lies and where the anterior pillar reflects off it.
+!mf 3 | The tonsil grasped and retracted inferomedially to expose the mucosal reflection on the anterior pillar.
+!see What you should see
+- A crease where the anterior pillar mucosa reflects onto the tonsil, tightening as you pull.
+!!
+!senior Senior's pearl
+Take a large bite. A small bite tears out, bleeds and loses you the plane every time you regrasp.
+!!
+## Incise the anterior pillar and find the capsule
+Incise the mucosa at its reflection from the tonsil onto the anterior pillar, starting superolaterally near the upper pole, keeping the cut **right against the tonsil** so you remove no extra mucosa. Preserve the **palatoglossus** muscle (losing it can make the palate floppier and worsen sleep apnoea). With inferomedial traction, spread gently with scissors or a dissector at the upper pole: the white, glistening **capsule** appears just deep to the incision. The incision can be carried over the upper pole to the posterior pillar.
+!see What you should see
+- The pale capsule with loose areolar tissue lateral to it, and the fibres of the superior constrictor further out.
+!!
+!danger Wrong plane
+If you see red muscle fibres running horizontally, you are in the constrictor: come back medially onto the capsule. Muscle in the bed bleeds more and hurts more.
+!!
+## Dissect the tonsil out from above down
+Move the forceps to the freed upper pole and pull **downward and medially**. Dissect from above downward along a broad front on the capsule, rolling the tonsil medially and toward the posterior pillar, with the Hurd dissector, scissors or a gauze-covered finger; an assistant's sucker provides counter-traction on the pillar. Leave the loose areolar tissue on the muscle. As each vessel crossing the plane appears, coagulate it with bipolar or tie or clip it **before** it bleeds. Free the posterior pillar mucosa along the tonsil's edge.
+!mf 5 | Dissection along the capsular plane, coagulating vessels as they are met; the lower pole is divided at an arbitrary point.
+!see What you should see
+- Vessels crossing from the bed to the capsule, sealed before they are divided; a clean constrictor bed behind.
+!!
+!senior Senior's pearl
+Use the palate's own tension as counter-traction and keep the dissection on a broad front. Tunnelling down one side of the tonsil loses orientation and finds vessels the hard way.
+!!
+## Divide the lower pole
+The lower pole has no clear end: the palatine tonsil merges into the lingual tonsil. Choose an **arbitrary point** at the junction and divide there, with a snare, scissors or the dissecting instrument, rather than chasing lymphoid tissue onto the tongue base. The lower pole carries the largest vessels: coagulate them carefully while they are stretched, at the moment of division, and remove the plica triangularis with the specimen.
+!see What you should see
+- A complete tonsil in the forceps with its capsule intact, and the lower pole pedicle sealed.
+!!
+!danger Chasing the lower pole
+Following tonsil tissue into the tongue base causes troublesome bleeding now and later, and injures the glossopharyngeal nerve.
+!!
+## Haemostasis, the other side, and the final check
+Press a swab into the fossa for a few minutes, then seal each remaining bleeder with bipolar or a tie (a figure-of-eight absorbable suture for a stubborn point in the bed). Repeat on the other side. Irrigate the pharynx with saline and suction the stomach with an orogastric tube (swallowed blood causes vomiting, and retching causes bleeding). **Close the gag, wait a few moments, and reopen it**: the gag's compression of the tongue can hide bleeding. Look at both fossae and the nasopharynx. Keep the suction and diathermy connected until the patient has left the theatre.
+!see What you should see
+- Both fossae dry with the gag released and reopened, the stomach emptied and the teeth intact.
+!!
+## Extubation
+Coughing, bucking or laryngospasm from blood on the cords at emergence can start bleeding or cause an airway catastrophe. Stay in the theatre until the patient is extubated and breathing comfortably. If an oral or nasal airway is needed, place it yourself, between the fresh beds. Send the tonsils for gross examination if that is your local practice, and **send any asymmetrical or suspicious tonsil fresh for histology**: lymphoma is the commonest occult malignancy in children's tonsils.
+
+# Other techniques | Hot, cold and partial.
+## Choosing an instrument
+!table Methods of tonsillectomy and tonsillotomy
+Method | Advantages | Disadvantages
+Cold steel with ties or bipolar | Cheap, lowest late bleeding rate, less pain | More intraoperative bleeding, longer
+Monopolar diathermy | Cheap, quick, little blood loss | More pain, more late bleeding
+Bipolar scissors | Easy, quick | More pain
+Coblation | Less pain | Costly; possibly more late bleeding
+Harmonic scalpel, LigaSure | Less intraoperative bleeding and pain | Costly
+Diode laser | Quick, little blood loss | Costly, more late bleeding
+Tonsillotomy (coblation, microdebrider, laser, radiofrequency) | Less pain and bleeding, quicker recovery, fewer readmissions for dehydration | Regrowth about 6%; not for recurrent tonsillitis
+!!
+"Hot" techniques generally have higher secondary bleeding rates than cold steel with packing or ties, probably because thermal injury and eschar expose vessels later.
+## Intracapsular tonsillectomy (tonsillotomy)
+Introduced in Sweden for sleep-disordered breathing, it removes the tonsil **medial to the capsule**, leaving a thin layer of tonsil on the capsule so the constrictor is never exposed. With the same set-up, the tonsil is retracted medially and reduced with a microdebrider, coblation, laser or diathermy scissors, stopping short of the capsule. It relieves obstruction as well as tonsillectomy with less pain and bleeding, but leaves tissue that can regrow (about 6%) and is generally not used for recurrent tonsillitis. Regrowth is observed if sleep apnoea is absent, or removed by tonsillectomy.
+
+# When it goes wrong | The bleeding tonsil.
+## Crisis drills
+!path Post-tonsillectomy haemorrhage in the emergency department
+Airway first | treat active oropharyngeal bleeding as an airway emergency ; sit the patient up leaning forward over a basin ; consider early intubation
+Resuscitate | two large intravenous lines ; haemoglobin, clotting, group and crossmatch ; fluids and blood as needed ; tranexamic acid by local protocol
+Assess | a cooperative older patient with a clot or minor ooze: look with a headlight ; silver nitrate, or hydrogen peroxide gargles ; a clot in the fossa means admission for at least 24 hours
+Decide | active bleeding in a child, or any bleeding that does not stop: theatre now
+!!
+!path Taking a bleeding tonsil back to theatre
+Prepare | the room fully set up, two working suctions, gowned and gloved with a headlight during induction
+Induction | rapid sequence (the stomach is full of blood) ; be ready for a difficult view
+Find it | position as for tonsillectomy ; irrigate away clot ; press with a tonsil swab with vasoconstrictor while you plan
+Control | suction diathermy or bipolar ; figure-of-eight absorbable suture for a bed bleeder ; "rough up" both fossae with a dissector to find other sites
+Finish | empty the stomach thoroughly (clots block the tube; reposition and irrigate) ; extubate awake
+Last resort | oversew the pillars over a pack, or interventional radiology ; external carotid ligation only in extremis
+!!
+!path Airway fire
+Stop | disconnect oxygen ; remove the burning tube ; flood the pharynx with saline
+Restore | reintubate ; bronchoscopy for the extent of injury
+Prevent | inspired oxygen below 30% with diathermy ; a cuffed tube ; moist swabs
+!!
+!path Pulmonary oedema after relief of obstruction
+Recognise | desaturation and pink frothy secretions after intubation or extubation
+Treat | oxygen, positive airway pressure, diuretics ; intensive care
+!!
+
+# Aftercare | Pain, fluids, and watching for bleeding.
+## Who stays in hospital
+Admit overnight children with severe sleep apnoea (apnoea-hypopnea index over 10 or oxygen nadir below 80%), those under three, the obese, those with cardiopulmonary disease, neuromuscular disorders, failure to thrive, craniofacial abnormalities or a recent illness, and anyone with poor oral intake or desaturation in recovery. Others can go home the same day after a period of observation.
+## Pain and eating
+Pain causes dehydration, nausea and readmission, so give analgesia **regularly**, not as needed: in children, alternating paracetamol (15 mg/kg every 4 to 6 hours, within the daily maximum) and ibuprofen (10 mg/kg every 6 to 8 hours). **Codeine is contraindicated in children** (unpredictable metabolism and deaths in rapid metabolisers). NSAIDs other than ketorolac have not been shown to increase bleeding after tonsillectomy. Rectal paracetamol helps a child refusing to swallow; a short course of oral steroids may reduce pain and speed healing. Routine postoperative antibiotics are not recommended. Encourage fluids and a normal diet; the fossae look white with slough for the first week, which is normal and not infection.
+## Complications
+!table Complications of tonsillectomy
+Complication | Notes
+Pain, nausea, vomiting, dehydration | The commonest; mostly from poor pain control
+Primary haemorrhage (first 24 hours) | 0.2% to 2.2%; usually inadequate haemostasis
+Secondary haemorrhage (after 24 hours) | 0.1% to 3%; peaks at 7 to 10 days as the slough separates; higher with hot techniques and in infection or quinsy
+Airway: laryngospasm, obstruction, pulmonary oedema | At emergence; highest risk in severe sleep apnoea
+Airway fire | Diathermy in high oxygen
+Trauma to teeth, lips, gums, palate, pharyngeal wall | Gag and instruments
+Temporomandibular dysfunction, condylar fracture | Forced gag opening
+Taste disturbance, tongue numbness | Glossopharyngeal nerve, gag compression of the tongue
+Velopharyngeal insufficiency, nasal speech | Usually transient; more likely with a submucous cleft
+Surgical emphysema, internal jugular thrombosis, vascular injury | Rare; deep dissection through the constrictor
+Grisel syndrome | Inflammatory atlantoaxial subluxation
+Death | 1 in 16,000 to 35,000
+!!
+## Alternatives
+CPAP or watchful waiting for sleep-disordered breathing; observation for recurrent tonsillitis that does not meet the criteria. For apnoea persisting after adenotonsillectomy: lingual tonsillectomy, lateral pharyngoplasty, supraglottoplasty, tongue base and jaw procedures, nasal surgery and, rarely, tracheostomy.
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Dhingra: divides indications into absolute (recurrent infection by the 7-5-3 rule or two weeks' school loss a year, peritonsillar abscess, febrile seizures, obstructive hypertrophy, suspected malignancy) and relative (diphtheria and streptococcal carriers, chronic tonsillitis with halitosis, valvular heart disease); lists contraindications including haemoglobin below 10 g/dl, children under three, menstruation and polio epidemics; describes dissection and snare with silk ties in Rose's position with a Boyle-Davis gag; and separates reactionary haemorrhage (within 24 hours, a clot preventing the constrictor from clamping the vessels) from secondary haemorrhage (days 5 to 10, from infection).
+Lee: gives the AAO-HNS guideline, Brodsky grading, admission criteria and the evidence for adenotonsillectomy in childhood sleep apnoea.
+Myers follows the 2011 guideline (dexamethasone yes, antibiotics no, codeine no, ibuprofen safe), preserves palatoglossus, divides the lower pole at an arbitrary point, and sets out the theatre drill for the bleeding tonsil.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Paradise criteria** and the guideline indications for sleep-disordered breathing.
+- The **capsule**, the bed (superior constrictor), and the **internal carotid 2 to 2.5 cm posterolateral**.
+- Blood supply; the **paratonsillar vein**; why the lower pole bleeds.
+- **Primary, reactionary and secondary** haemorrhage: timing, cause and management.
+- Who stays overnight; why **no codeine** in children.
+- Tonsillotomy versus tonsillectomy: who gets which.
+!!
+## Common pitfalls
+!pit
+- A small bite of tonsil that tears.
+- Dissecting in the constrictor instead of on the capsule.
+- Excessive mucosal removal (more pain).
+- Chasing the lower pole into the tongue base.
+- Not releasing and reopening the gag before finishing.
+- Leaving theatre before the patient is safely extubated.
+- Sending a child home on codeine.
+!!
