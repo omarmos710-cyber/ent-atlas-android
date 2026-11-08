@@ -1,0 +1,141 @@
+@stand Fine-needle aspiration is the first test for almost every lump in the head and neck: lymph nodes, thyroid nodules, salivary masses and subcutaneous lesions. It is quick, safe and cheap, and it decides whether the patient needs an operation, which operation, or no operation at all. It is also operator dependent: most failures are a poor specimen rather than a poor pathologist. This chapter covers who to aspirate, how to take a sample the cytologist can read, how to handle the slides, and how to interpret the result without being misled by it.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Fine-needle aspiration biopsy
+ | Summary
+Indications | Any palpable neck mass, solid or cystic, in adults and children; parotid and submandibular masses (especially with pain, facial weakness or numbness); thyroid nodules meeting ultrasound criteria; palpable subcutaneous masses of the face and scalp; non-palpable lesions under ultrasound or CT guidance
+Contraindications | None absolute; anticoagulation increases bruising, so press for longer; even vascular masses (carotid body tumour) can be sampled with a fine needle and pressure, though many surgeons avoid them, especially if anticoagulated
+Anaesthesia | None, or 1% lidocaine with 1:100,000 adrenaline to the skin (buffered 1 in 10 with bicarbonate for children)
+Position | Seated with a headrest; for the thyroid, neck extended on a pillow; for nodes and parotid, head turned so the mass is most superficial
+Antibiotics | None; an alcohol swab is enough
+Tray | 20 ml syringe with 1 ml of air in it, syringe holder (optional), 21- to 25-gauge needles 1 to 1.5 inches long, labelled glass slides (name on the frosted end), 95% alcohol spray or jar fixative, balanced salt solution (not saline) for needle rinses, alcohol swabs, gauze, plaster
+!!
+## Consent
+!consent What to tell the patient
+- A few sharp scratches, usually tolerable without local anaesthetic.
+- **Bruising or a small bleed**, more likely on anticoagulants.
+- **Infection**, rare.
+- **An inconclusive result** in roughly 1 in 10, which may need a repeat aspiration, a core biopsy, an ultrasound-guided sample or an open biopsy.
+- A faint can happen in any clinic procedure; lie down if you feel unwell.
+!!
+## Before you start
+Ask when the lump appeared and how it has changed, and about pain, numbness, voice change and facial weakness; lumps elsewhere; previous radiation; previous biopsies, cancer treatment or drainage of a neck cyst; travel and infection history (tuberculosis); and anticoagulants. Feel the mass: size, consistency, tenderness, fluctuance, skin change, mobility and its relation to the carotid. A palpable mass needs no imaging first; non-palpable masses and most thyroid nodules are sampled under ultrasound.
+
+# What the result means | Interpretation by site.
+## Neck nodes
+FNA gives a specific diagnosis in 82% to 96% of lymphadenopathy. Cell blocks allow immunohistochemistry and PCR, and flow cytometry on a needle rinse can diagnose lymphoma, often avoiding an open biopsy (at least two passes are needed for lymphoma work-up). An excision biopsy is still needed when lymphoma typing requires architecture or gene rearrangement studies.
+!flag The cystic neck mass in an adult
+A cystic lateral neck mass in an adult with squamous cells on aspiration is a **cystic metastasis of squamous cell carcinoma** until proven otherwise, usually from the tonsil or tongue base (often HPV-related). It must not be called a branchial cyst.
+!!
+## Salivary glands
+FNA separates benign from malignant salivary lesions with 90% to 95% accuracy, but it is unreliable for the malignant subtype and grade. Low-grade cancers such as **acinic cell carcinoma** can be read as benign or non-neoplastic, and low-grade lymphoma can be reported as inflammation. A benign result with a normal examination (for example a Warthin tumour in an older smoker) can support observation; a benign result with suspicious clinical or radiological features calls for a repeat FNA or excision.
+## Thyroid
+Ultrasound pattern and size decide which nodules to aspirate (American Thyroid Association 2015).
+!table Thyroid nodules: when to aspirate
+Ultrasound pattern | Features | Estimated malignancy risk | Aspirate if
+High suspicion | Solid hypoechoic (or a solid hypoechoic part of a cystic nodule) with irregular margins, microcalcifications, taller-than-wide shape, rim calcification with extrusion, or extrathyroidal extension | 70% to 90% | 1 cm or more
+Intermediate | Hypoechoic solid with smooth margins and none of the above | 10% to 20% | 1 cm or more
+Low | Isoechoic or hyperechoic solid, or partly cystic with eccentric solid areas, none of the above | 5% to 10% | 1.5 cm or more
+Very low | Spongiform or partly cystic without suspicious features | Below 3% | Consider at 2 cm or more, or observe
+Benign | Purely cystic | Below 1% | Do not biopsy (drain only for symptoms)
+!!
+Results are reported by the **Bethesda system**:
+!table Bethesda categories
+Category | Risk of malignancy
+I Non-diagnostic or unsatisfactory | 1% to 4%
+II Benign | 0% to 3%
+III Atypia or follicular lesion of undetermined significance | 5% to 15%
+IV Follicular neoplasm or suspicious for one | 15% to 30%
+V Suspicious for malignancy | 60% to 75%
+VI Malignant | 97% to 99%
+!!
+FNA cannot distinguish a **follicular adenoma from a follicular carcinoma**: the difference is capsular or vascular invasion, which only histology shows, so a follicular neoplasm needs a diagnostic lobectomy or molecular testing.
+
+# The operation, stage by stage | Aspiration technique.
+## Prepare and position
+Write the patient's name on the frosted end of each slide and lay them out with the fixative before you start. Position the patient comfortably with the head supported. For a node, turn the head so it is superficial; pushing from behind the sternocleidomastoid may bring a deep node forward. For the thyroid, extend the neck; you may stand on the opposite side. Clean the skin with an alcohol swab and, if wished, raise a small bleb of local anaesthetic.
+!mf 2 | The equipment: slides, fixative, a 20 ml syringe in a holder and a 22- to 25-gauge needle.
+!see What you should see
+- Labelled slides and fixative within reach, and the mass made as superficial as possible.
+!!
+## Fix the mass
+Hold the mass between the thumb and index finger of your non-dominant hand so it cannot roll away; stretching the skin over it also reduces the pain. In the lateral neck, know where the carotid bulb pulses and keep the needle away from it.
+!mf 1 | The patient seated against a headrest; the surgeon fixes the mass and makes short passes through it until material appears in the hub.
+!see What you should see
+- A mass that does not move when you press it, and the carotid pulse located.
+!!
+## Enter and aspirate
+With 1 ml of air in the syringe (to help expel the sample), insert the needle into the mass, then pull back on the plunger to create a vacuum. Move the needle rapidly in and out within the mass in **short strokes of 2 to 3 mm**, 15 to 20 times, without changing its direction (redirection hurts and tears vessels) and without leaving the mass (which loses the vacuum). **Watch the hub**: as soon as material appears, release the vacuum, and only then withdraw the needle.
+!mf 3 | The needle moved in and out of the mass in short vibratory strokes of 2 to 3 mm.
+!see What you should see
+- A little material in the hub of the needle, not a syringe full of blood.
+!!
+!danger The bloody sample
+Strong suction and long passes fill the needle with blood, which dilutes the cells and hides them. If blood appears, reduce or stop suction and continue passes, or switch to the non-aspiration technique.
+!!
+!senior Senior's pearl
+Release the vacuum before you pull out. Withdrawing under suction sucks the sample up into the syringe barrel, where it is lost.
+!!
+## Non-aspiration (capillary) technique
+For thyroid nodules and vascular lesions where suction yields only blood, use the needle alone or on a syringe without suction: the same short strokes fill the needle by capillary action, giving a less bloody, more cellular sample.
+## Make the slides
+Detach the needle, fill the syringe with air, reattach, and with the bevel touching the slide, expel the contents onto two slides. Lay the second slide on the first and draw them apart to make a thin smear on each. **Fix immediately** with 95% alcohol spray held 20 to 25 cm from the slide (or drop into fixative); air-dried smears lose detail. Rinse the needle in **balanced salt solution** (not saline) for flow cytometry, microbiology or a cell block. Repeat for **three or four passes**.
+!see What you should see
+- Thin, evenly spread smears fixed within seconds, and a needle rinse in the pot.
+!!
+!danger Air drying
+Slides left in the air before fixing develop drying artefact that makes them unreadable.
+!!
+## Finish
+Press firmly on the site for a minute (several minutes if anticoagulated) and apply a plaster. If a cytologist can assess adequacy while the patient is still there, take further passes for an inadequate sample.
+
+# Adequacy | Why on-site assessment matters.
+## Scoring a specimen
+Specimen inadequacy in ultrasound-guided FNA averages about 9% overall and about 6% with a cytopathologist on site; surgeons' adequacy improves markedly with experience (from about 71% to 94% in one series) but never reaches 100%. A semi-quantitative score (developed for thyroid) adds three grades of 0 to 3: **background** (blood versus watery colloid), **cellularity** (fewer than 8 to 10 cellular fragments up to abundant fragments of at least 50 cells on every slide) and **preservation** (artefact versus well preserved). A total of 4 or less is inadequate (repeat), 5 inferior, 6 to 7 satisfactory and 8 to 9 superior.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Non-diagnostic result
+Repeat | a second FNA, ideally under ultrasound with on-site cytology
+Change technique | core needle biopsy when architecture or more tissue is needed
+Escalate | open biopsy after two or more non-diagnostic aspirates
+!!
+!path A reassuring result that does not fit the clinical picture
+Do not be reassured | a single negative FNA does not outweigh suspicious clinical or radiological findings
+Act | repeat FNA, core biopsy or excision ; for a neck node in a smoker, examine the upper aerodigestive tract and consider panendoscopy
+!!
+!path The patient faints
+Act | lie flat, raise the legs, maintain the airway ; observe until recovered
+Next time | sample with the patient lying down
+!!
+
+# Aftercare | Almost none.
+## After the aspiration
+A plaster is enough. The commonest complication is a **non-diagnostic sample**; haematoma and infection are uncommon. Arrange review with the result, and always correlate the cytology with the clinical findings.
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Dhingra: places FNA in the work-up of a neck mass after a full ENT examination, and lists excision biopsy of a node only after the primary site has been sought, to avoid seeding and compromising later neck dissection.
+Lee: emphasises ultrasound-guided FNA, the Bethesda system for thyroid cytology and the rule that a cystic neck mass in an adult is malignant until proven otherwise.
+Myers gives the detailed technique (short strokes, watching the hub, releasing the vacuum, immediate fixation, balanced salt rinse), adequacy scoring and the accuracy figures by site.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- Technique: fix the mass, short strokes, watch the hub, **release the vacuum before withdrawing**, fix at once.
+- Why the sample is bloody and how to avoid it (less suction, non-aspiration technique).
+- **Bethesda** categories and their risks; why FNA cannot diagnose follicular carcinoma.
+- The **cystic lateral neck mass** in an adult.
+- Salivary FNA: good for benign versus malignant, poor for subtype and grade.
+- What to do with a non-diagnostic or discordant result.
+!!
+## Common pitfalls
+!pit
+- Strong suction producing a blood-filled syringe.
+- Redirecting the needle within the mass.
+- Pulling out under vacuum and losing the sample.
+- Air-dried smears.
+- Rinsing the needle in saline instead of balanced salt solution for flow cytometry.
+- Accepting a benign result that does not fit the clinical picture.
+!!
