@@ -1,0 +1,165 @@
+@stand Bronchoscopy lets you see and work inside the trachea and bronchi. Flexible bronchoscopy has largely taken over diagnosis, but the rigid bronchoscope remains the instrument for the dangerous cases: the inhaled foreign body in a child, massive haemoptysis, and the critically narrowed airway. In those cases you and the anaesthetist share an airway that you are both working in, so this chapter covers ventilation strategies as carefully as the passage of the scope, then each stage of rigid bronchoscopy, the foreign body retrieval, and the crises you must be ready for.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Bronchoscopy
+ | Summary
+Indications: diagnostic | Unexplained cough, wheeze or haemoptysis; suspected malignancy (endobronchial biopsy, endobronchial ultrasound needle aspiration of mediastinal and hilar nodes, navigational biopsy of peripheral nodules); localised collapse, persistent opacity or obstructive emphysema on chest radiograph; vocal cord palsy; washings and biopsies in interstitial disease or the immunocompromised; staging of head and neck cancer
+Indications: therapeutic | Removal of foreign bodies; clearing clot in haemoptysis, isolating the bleeding lung with a balloon, laser to a bleeding tumour; debriding obstructing tumour and placing stents; clearing retained secretions; draining a lung abscess; brachytherapy catheters; guiding difficult intubations and confirming double-lumen tubes
+Contraindications | For rigid bronchoscopy: unfit for general anaesthesia, immobile neck. For flexible bronchoscopy: massive haemoptysis (the channel cannot clear the blood); high-grade tracheal or bilateral main-bronchus obstruction or a large mediastinal mass, where mask ventilation after induction may fail. Laser in a patient needing high inspired oxygen (fire)
+Anaesthesia | Flexible: topical with or without sedation, or general through a tube. Rigid: general, with spontaneous ventilation in critical obstruction and inhaled foreign bodies, or jet, intermittent or continuous ventilation through the scope
+Position | Supine on a head ring, neck extended so the chin points to the ceiling; start sitting up in a patient in severe distress
+Antibiotics | Not required
+Monitoring | Continuous oximetry and ECG; depth of anaesthesia and neuromuscular monitoring for rigid bronchoscopy
+Tray | Rigid ventilating bronchoscopes in several sizes with light source, rod-lens telescopes and optical forceps, flexible bronchoscopes (paediatric, adult, therapeutic), laryngoscopes and a video laryngoscope, endotracheal tubes of all sizes, lidocaine with a spray, long suction catheters, biopsy forceps, graspers and retrieval baskets, olive-tipped dilators, laser, fluoroscopy, tooth guard and eye protection, a height-adjustable stool
+!!
+## Consent
+!consent What to tell the patient or parents
+- **Sore throat** and a hoarse voice for a day or two.
+- **Injury to teeth, lips, tongue or throat**; rarely to the vocal cords or an arytenoid.
+- **Swelling of the airway** after the procedure, especially in small children, which may need steroids, a period of ventilation or, rarely, a tracheostomy.
+- **Bleeding** from biopsy sites, occasionally heavy.
+- **A tear in the airway** with air in the chest (pneumothorax or pneumomediastinum), especially with dilatation.
+- **Low oxygen levels** and, rarely, cardiac arrest.
+- For a foreign body: it may break up or move, and more than one procedure may be needed.
+- The possibility of **intensive care** and ventilation afterwards in serious airway cases.
+!!
+## Before you start
+**Haemoptysis:** how much, bright or dark, preceding episodes, infection or excess sputum, anticoagulants, smoking and lung cancer risk. **Airway obstruction:** breathlessness at rest or on exertion, positional symptoms, onset and progression, previous intubation (how long) or tracheostomy, granulomatosis with polyangiitis. **Foreign body:** a choking episode, witnessed or not, followed by cough, wheeze or unexplained pneumonia; in a toddler the history of choking is the most reliable clue.
+Examine the cardiorespiratory state, the body habitus and how far the neck extends, stridor (inspiratory or expiratory) and wheeze (unilateral wheeze or reduced air entry suggests a bronchial foreign body), neck nodes, and loose teeth. A chest radiograph shows tracheal narrowing or deviation, collapse, consolidation, masses and, in an inhaled foreign body, **obstructive emphysema** (hyperinflation on expiration films or lateral decubitus films) or collapse; most inhaled foreign bodies (nuts, food) are radiolucent. CT shows the airway calibre, intrinsic and extrinsic lesions, foreign bodies, lymph nodes and, with contrast, the bleeding vessel in haemoptysis.
+Resuscitate and stabilise, correct clotting with vitamin K and blood products, have the imaging on screen in theatre, and make sure the patient and family understand the gravity, including the possibility of postoperative ventilation.
+
+# Anatomy you must see | From the epiglottis to the segmental bronchi.
+## The route
+The scope passes behind the tongue in the midline, under the **epiglottis**, through the **glottis** (a vertical slit seen end-on), the subglottis (narrowest part of a child's airway, the cricoid ring), and into the **trachea**, about 10 to 12 cm long in adults, with the **carina** at the level of the sternal angle (about 25 cm from the incisors in an adult). The **right main bronchus** is shorter, wider and more vertical, which is why inhaled foreign bodies favour it in adults and older children; its upper lobe bronchus leaves almost at once. The **left main bronchus** is longer and more horizontal, passing under the aortic arch.
+## Matching the scope to the axis
+To look down the right bronchial tree, turn the patient's head to the **left**, and vice versa, so the scope's axis lies along the bronchus. Know each lobar and segmental orifice and examine them in order on both sides.
+## Paediatric sizes
+Choose the bronchoscope by age (as a rough guide to the internal diameter: 3.0 mm for a term newborn, 3.5 to 3.7 mm up to a year, 4.0 mm at one to two years, 5.0 mm at three to four years and 6.0 mm from about five to seven years; check your own set's chart); the scope must pass the cricoid without force. Keep the procedure short in infants (Dhingra advises not beyond about 20 minutes) to avoid subglottic oedema.
+
+# Ventilating a shared airway | Agree the plan before induction.
+## The four ways to ventilate through a rigid scope
+- **Spontaneous ventilation:** anaesthesia light enough for the patient to breathe until the scope is in and the airway secure. Safest in high-grade obstruction, large mediastinal masses and inhaled foreign bodies (positive pressure can push a foreign body further down), but without relaxation the passage may be harder.
+- **Intermittent ventilation:** the circuit is attached to the scope between looks; the mouth and nose may need occluding or the pharynx packing to stop the leak. You cannot look or work while ventilating.
+- **Continuous ventilation:** a glass window closes the viewing end and the circuit attaches to a side port, so you can look while ventilating, but opening the port to pass an instrument breaks the circuit.
+- **High-frequency jet ventilation:** the preferred and commonest technique; the jet attaches to a Luer connector, needs no closed circuit and allows continuous work. Typical settings: 100 to 120 breaths per minute, driving pressure 15 to 25 psi, inspiratory time about 40%.
+!mf 4 5 6 | Left: the rigid scope connected to the ventilating circuit with an occluding window. Centre and right: a jet ventilator attached to the scope, and its controls (rate, driving pressure, inspiratory time).
+!pearl Leaving the scope in
+If the airway is still too narrow for a tube at the end, a proximal stent has been placed, or the larynx may obstruct, keep the patient ventilated through the rigid scope until the anaesthetic has worn off and they breathe spontaneously, then remove it.
+!!
+
+# The operation, stage by stage | Rigid bronchoscopy.
+## Prepare and position
+Protect the eyes and place a rubber guard over the upper teeth or gums. Put the head on a ring and extend the neck so the **chin points vertically**. Suction saliva from the pharynx with a Yankauer so the epiglottis and cords are clear. Check the light, the telescope fits, and the jet or circuit connections before you start. Sit on an adjustable stool.
+!mf 1 7 | A rigid bronchoscope with its light source, and small and large bronchoscopes.
+!see What you should see
+- A clear pharynx, the guard in place, and the scope, telescope and ventilation connections tested.
+!!
+## Enter behind the tongue and find the epiglottis
+Hold the scope **vertically** and look through it. Place your left thumb over the upper teeth or gums to guide the scope and protect them. Advance in the midline behind the tongue, then drop the proximal end of the scope downward to lift the tongue and bring the **epiglottis** into view.
+!mf 8 | Passing the rigid scope through the mouth, the left thumb protecting the upper teeth.
+!see What you should see
+- The tip of the epiglottis in the midline.
+!!
+!danger The teeth
+Never lever the scope on the upper teeth; the thumb is the fulcrum. This is the commonest error.
+!!
+## Expose the glottis
+Pass the tip behind the epiglottis and lift the scope **anteriorly** to show the arytenoids, the cords and the glottic opening; by now the scope lies nearly horizontal. External pressure on the larynx helps an anterior larynx. Alternatively, expose the glottis with a laryngoscope in your left hand and pass the bronchoscope through it with your right (useful in infants and in adults with a short neck or bulky tongue), then withdraw the laryngoscope.
+!see What you should see
+- The arytenoids, both cords and the dark glottic opening.
+!!
+## Rotate and pass the cords
+Advance toward the glottis, then **rotate the scope 90 degrees** so its bevelled tip lies in the line of the vertical glottic slit, pass between the cords into the trachea, and rotate back. Never force a closed glottis. Adjust the table and stool so you are comfortable, and start ventilation through the scope.
+!see What you should see
+- Tracheal rings ahead, and the chest moving with ventilation.
+!!
+!danger The cords and the subglottis
+Forcing an oversized scope through the glottis or a child's cricoid causes oedema, arytenoid dislocation and subglottic stenosis. Choose the size before you start; repeated insertions make it worse.
+!!
+## Examine the tree and act
+Advance along the trachea to the carina, then into each main bronchus, turning the head away from the side you examine. Examine every lobar and segmental orifice in turn, with a rod-lens telescope (0, 30 or 90 degrees) through the scope, or pass a flexible bronchoscope through it for the distal airways. Take washings and biopsies, suction secretions and clot, and treat as planned. Draw the scope back slowly at the end, examining the trachea, larynx and pharynx.
+!see What you should see
+- Every segmental orifice on both sides, and the lesion's site and length recorded.
+!!
+
+# Retrieving a foreign body | The commonest ENT bronchoscopy.
+## Technique
+Keep the child breathing spontaneously under deep inhalational anaesthesia with topical lidocaine to the cords, and ventilate through the side arm. Locate the object with the telescope, clear secretions around it, then use **optical (telescopic) forceps**, which let you see as you grasp, or a basket for round objects; a Fogarty balloon passed beyond it can draw a smooth object back. Pause ventilation while grasping so it does not move. Objects smaller than the scope's lumen come out through it. Larger ones are drawn up against the tip and the **scope, forceps and object are withdrawn together** as one unit, slowly through the cords; if it is lost in the subglottis, push it back into a main bronchus to restore the airway and try again. Afterwards, re-examine the whole tree for fragments and a second object.
+!danger Losing it in the subglottis
+A foreign body stripped off at the cords can impact in the subglottis and obstruct the airway completely. Push it down into a bronchus to ventilate the other lung, then retrieve it again.
+!!
+!senior Senior's pearl
+Vegetable foreign bodies (peanuts) swell and fragment, and cause a chemical bronchitis; take every piece. If the history is convincing, bronchoscope even when the chest radiograph is normal.
+!!
+
+# Flexible bronchoscopy and newer techniques | Diagnosis.
+## Flexible bronchoscopy
+Done under topical anaesthesia (nebulised lidocaine, a spray to the oropharynx, lidocaine dropped on the cords and into the bronchi through the scope, or a transtracheal injection) with or without sedation, or through an endotracheal tube or tracheostomy under general anaesthesia. It reaches segmental and subsegmental bronchi and suits patients with stiff necks or jaw problems and the critically ill at the bedside, but its working channel is small, so heavy bleeding can overwhelm it. In severe obstruction, examine with topical anaesthetic alone and no sedation.
+## Endobronchial ultrasound and navigation
+**Endobronchial ultrasound** shows mediastinal and hilar nodes in real time for transbronchial needle aspiration (lung cancer staging, sarcoidosis, lymphoma, infection); you must know their relation to the great vessels on ultrasound. **Electromagnetic navigational bronchoscopy** uses the patient's CT as a virtual map to steer a catheter to peripheral nodules for biopsy, with a risk of pneumothorax. Both are usually done under general anaesthesia so the patient does not move or cough.
+!mf 2 3 | Left: flexible bronchoscopes, from top: endobronchial ultrasound, therapeutic, adult and paediatric. Right: the ultrasound probe at the tip of an endobronchial ultrasound scope.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Massive haemoptysis
+Position | bleeding side down to protect the good lung
+Rigid, not flexible | rigid scope for suction capacity ; clear the clot
+Isolate | balloon catheter into the bleeding bronchus, or intubate the good main bronchus
+Treat | laser or topical adrenaline for a visible source ; interventional radiology (bronchial artery embolisation) or surgery
+!!
+!path Cannot ventilate at induction in critical obstruction
+Prevent | keep spontaneous breathing ; rigid scope ready and opened ; surgeon in the room at induction
+Act | pass the rigid scope immediately through the obstruction and ventilate through it
+Last resort | in very severe obstruction, establish extracorporeal support (veno-venous ECMO or bypass) before any anaesthesia
+!!
+!path Stridor after bronchoscopy in a child
+Recognise | subglottic oedema: inspiratory stridor and suprasternal recession
+Act | humidified oxygen, nebulised adrenaline, intravenous dexamethasone
+Escalate | reintubate with a smaller tube ; tracheostomy if it persists
+!!
+!path Pneumothorax or surgical emphysema
+Recognise | rising airway pressures, falling saturation, reduced breath sounds, crepitus
+Act | chest radiograph ; needle decompression and chest drain for tension
+!!
+
+# Aftercare | Watch the airway.
+## After the procedure
+Recover the patient in the recovery room or intensive care, watching for airway compromise from laryngeal oedema or injury to the tongue and pharynx. Humidified air helps. Obtain a **chest radiograph** after rigid bronchoscopy to exclude pneumothorax and pneumomediastinum, especially after dilatation or foreign body removal.
+## Complications
+!table Complications
+Complication | Notes
+Injury to teeth and lips | Levering the scope
+Pharyngeal and tongue lacerations, contusion, oedema | Rigid scope passage
+Vocal cord injury, arytenoid dislocation | Forced passage
+Laryngeal or subglottic oedema | Children, oversized scope, repeated insertions, long procedures
+Haemorrhage overwhelming suction, hypoxaemia | Especially with flexible bronchoscopy
+Pneumothorax, pneumomediastinum, surgical emphysema | Airway injury, dilatation, transbronchial biopsy
+Hypoxia, arrhythmia, cardiac arrest | Shared airway, inadequate ventilation
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Dhingra: lists diagnostic indications including cough or wheeze for more than four weeks, atelectasis, localised opacity, obstructive emphysema and vocal cord palsy; prefers general anaesthesia without an endotracheal tube; describes direct passage and passage through a laryngoscope (for infants and short necks), rotating the scope 90 degrees clockwise at the glottis, turning the head to the opposite side to enter each bronchus, and warns not to exceed about 20 minutes in children, not to force a closed glottis, and to avoid repeated insertions.
+Lee: concentrates on paediatric foreign bodies: the history, radiographic signs, optical forceps and the ventilating bronchoscope.
+Myers covers the modern repertoire: jet ventilation, rigid bronchoscopy for haemoptysis and obstruction, endobronchial ultrasound and navigational bronchoscopy.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- Rigid versus flexible: what each does best, and why rigid for **massive haemoptysis**.
+- The four **ventilation** options through a rigid scope and why spontaneous breathing for a foreign body.
+- The passage: chin vertical, thumb on the teeth, lift the epiglottis, **rotate 90 degrees** at the glottis.
+- Why foreign bodies go to the **right**, and the radiograph signs (obstructive emphysema).
+- Withdrawing a large foreign body with the scope as one unit; losing it in the subglottis.
+- Post-bronchoscopy stridor in a child.
+!!
+## Common pitfalls
+!pit
+- Levering on the upper teeth.
+- Inadequate topical anaesthesia or depth before passing the scope.
+- An oversized scope forced through a child's cricoid.
+- Using a flexible scope in massive haemoptysis.
+- Paralysing and positive-pressure ventilating a child with a ball-valve foreign body.
+- No chest radiograph after rigid bronchoscopy.
+!!
