@@ -237,7 +237,7 @@ def compile_one(tid, text):
             close_sec(); s += 1; b = 0; here['s'] = plain(ln[3:].strip())
             stage[0] = None
             if OPN[0] and here['c'].lower().startswith('the operation'):
-                stage[0] = {'t': here['s'], 'd': '', 'f': [], 'see': '', 'risk': '', 'pearl': '', 'id': 'a-s%d-%d' % (c, s)}; meta['st'].append(stage[0])
+                stage[0] = {'c': re.sub(r'^the operation[:,]?\s*', '', here['c'], flags=re.I), 't': here['s'], 'd': '', 'f': [], 'see': '', 'risk': '', 'pearl': '', 'id': 'a-s%d-%d' % (c, s)}; meta['st'].append(stage[0])
             out.append('<details class="arsub" id="a-s%d-%d" open><summary><span class="arsn">%d.%d</span><h3>%s</h3>%s</summary><div class="arbody">' % (
                 c, s, c, s, inline(ln[3:].strip(), refs), CHEV))
             open_sec = True; continue
