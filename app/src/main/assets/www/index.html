@@ -8657,7 +8657,7 @@ if(!window.Android&&"serviceWorker" in navigator&&(location.protocol==="https:"|
 (function(){let ready=null;const load=(u,css)=>new Promise((ok,no)=>{const el=document.createElement(css?"link":"script");if(css){el.rel="stylesheet";el.href=u}else el.src=u;el.onload=ok;el.onerror=no;document.head.appendChild(el)});
 SRC.M="Myers & Snyderman, Operative Otolaryngology, 3rd ed.";SRCS.M="Myers";
 EXTRA.th=function(arg){document.body.classList.add("thm");const v=document.getElementById("view");if(!window.THEATRE)v.innerHTML='<div class="thspin" style="display:grid;place-items:center;min-height:70vh">Opening theatre…</div>';
- ready=ready||Promise.all([load("theatre/theatre.css",1),load("theatre/index.js").then(()=>load("theatre/theatre.js"))]);
+ ready=ready||Promise.all([load("theatre/theatre.css",1),load("theatre/index.js").then(()=>load("theatre/art/index.js").catch(()=>0)).then(()=>load("theatre/theatre.js"))]);
  ready.then(()=>window.THEATRE.render(arg)).catch(()=>{ready=null;v.innerHTML='<div style="padding:40px 20px">Theatre could not load. Check your connection and try again.</div>'})};
 TABOF.th="th:home";
 const g0=go;go=function(v,opt){const r=g0(v,opt);if(v.split(":")[0]!=="th"&&document.body.classList.contains("thm")){document.body.classList.remove("thm");Object.keys(FIG).forEach(k=>{if(k.startsWith("m/"))delete FIG[k]})}return r};

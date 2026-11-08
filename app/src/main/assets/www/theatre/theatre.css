@@ -72,3 +72,18 @@ body.thm #view{padding-top:0}
 .theb{color:var(--brass)}
 .thfoot{bottom:calc(84px + env(safe-area-inset-bottom,0px))!important}
 @media (min-width:960px){.thfoot{bottom:0!important}}
+/* full surgical chapters */
+.thart{max-width:none;margin-top:6px}
+.thart .arstand{margin-top:14px}
+.arbox.k-see{background:var(--arok-soft);border-color:color-mix(in srgb,var(--arok) 28%,var(--line))}.arbox.k-see h5{color:var(--arok)}
+.arbox.k-danger{background:var(--arred-soft);border-color:color-mix(in srgb,var(--arred) 30%,var(--line));border-left:3px solid var(--arred);border-radius:4px 14px 14px 4px}.arbox.k-danger h5{color:var(--arred)}
+.arbox.k-senior{border-left:3px solid var(--arbr);border-radius:4px 14px 14px 4px;background:var(--surface)}.arbox.k-senior h5{color:var(--arbr)}
+.arbox.k-consent{background:var(--arc-soft);border-color:color-mix(in srgb,var(--arc) 22%,var(--line))}.arbox.k-consent h5{color:var(--arc)}
+.armf .arimg img{background:#fff}
+.thask{display:grid;gap:8px;margin:14px 0 6px}.thask div{padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.thask b{display:block;font:700 10.5px var(--f-body);letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:3px}.thask span{font-size:15px;line-height:1.4}
+.thdet p{margin:0 0 10px}
+.thcue{padding:12px 14px;border-radius:12px;margin:10px 0;border:1px solid var(--line)}.thcue b{display:block;font:700 10.5px var(--f-body);letter-spacing:.14em;text-transform:uppercase;margin-bottom:4px}.thcue p{margin:0;font-size:14.5px;line-height:1.45}
+.thcue.see{background:#E4EFE8}.thcue.see b{color:#1D6B47}.thcue.risk{background:#F6E5E6}.thcue.risk b{color:#A1232D}.thcue.pearl b{color:#7D5B22}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .thcue.see{background:#11251B}:root:not([data-theme="light"]) .thcue.see b{color:#62C493}:root:not([data-theme="light"]) .thcue.risk{background:#2C1517}:root:not([data-theme="light"]) .thcue.risk b{color:#F08088}:root:not([data-theme="light"]) .thcue.pearl b{color:#D6B57A}}
+:root[data-theme="dark"] .thcue.see{background:#11251B}:root[data-theme="dark"] .thcue.see b{color:#62C493}:root[data-theme="dark"] .thcue.risk{background:#2C1517}:root[data-theme="dark"] .thcue.risk b{color:#F08088}:root[data-theme="dark"] .thcue.pearl b{color:#D6B57A}

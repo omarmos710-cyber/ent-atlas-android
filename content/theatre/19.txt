@@ -1,0 +1,194 @@
+@stand An open tracheostomy is a shortcut into the airway below the larynx. The operation itself is short and, in the right conditions, safe; the harder parts are deciding whether, when and where to do it, and keeping the patient safe in the week afterwards, when most of the serious events happen. This chapter takes you through the decision, the anatomy, each stage of the operation, the crises you must be able to manage without thinking, and the aftercare.
+
+# Operating note | The case on one page, as you would brief the team.
+## The case at a glance
+!table Open tracheostomy
+ | Summary
+Indications | Upper airway obstruction, acute or chronic; prolonged mechanical ventilation; access for tracheobronchial toilet; a temporary airway for major oral, pharyngeal or laryngeal surgery; selected sleep apnoea, chronic lung disease and central hypoventilation
+Contraindications | Almost none absolute. Uncorrectable coagulopathy (end-stage liver failure) and very high ventilating pressures, where losing the circuit for even a minute can cause flash pulmonary oedema. When seconds count, a cricothyroidotomy is the operation, not a tracheostomy
+Anaesthesia | General through an endotracheal tube in most; local infiltration without sedation in the patient with a threatened airway; general in children
+Position | Supine, shoulder roll, neck extended, head ring; sitting up at about 45 degrees if the patient cannot lie flat; no extension if the cervical spine is in doubt
+Antibiotics | At induction if not already on them and for at least 24 hours (clindamycin, co-amoxiclav, or a cephalosporin with metronidazole; guided by cultures in the ICU patient)
+Tray | Tracheostomy set with a tracheal hook, small rake retractors, cricoid hook, Kerrison or heavy scissors for a calcified ring, ligature carrier, bipolar and monopolar diathermy, the chosen tube with its cuff tested then deflated, one size smaller ready, suction, tapes or Velcro holder
+Team | Anaesthetist at the head with a plan for the moment the trachea is opened; scrub nurse who knows the tube; face shields for everyone
+Time | 20 to 40 minutes in a straightforward adult neck
+!!
+## Consent
+!consent What to tell the patient or family
+- **Why:** to secure breathing or allow ventilation to be weaned; most tubes are temporary and the hole closes once the tube is out.
+- **Voice:** they will not be able to speak with a cuffed tube inflated; a speaking valve or a cuff-down trial usually restores speech later.
+- **Bleeding**, usually minor; rarely a return to theatre.
+- **Infection** of the wound and chest; the wound is always colonised within two days.
+- **Air leaks:** surgical emphysema, pneumothorax or pneumomediastinum, commoner in children.
+- **Tube problems:** blockage or displacement, the most dangerous early events; this is why the first week is spent on a ward that knows tracheostomies.
+- **Late problems:** granulation tissue, tracheal narrowing, a persistent hole after removal (tracheocutaneous fistula) or a tethered scar, which may need further surgery.
+- **Rare but serious:** damage to the oesophagus, fire in the airway, and a late bleed from the innominate artery, which can be fatal.
+In a large multi-institutional series about 1.4% of patients had an intraoperative complication, 5.6% a complication in the first week and 7.1% a late complication: the risk lies mainly after the operation, not during it.
+!!
+## Before you start
+Ask the questions that decide the operation. Why does this patient need a tracheostomy, how soon, and for how long? Will they be ventilated, and for how long? Is there an alternative, such as continued intubation, a short course of steroids or observation? Who will look after the tube on the ward? In selected terminal cases, a decision not to intervene on the airway is right.
+Then the history and examination that change the conduct. Has the neck been operated on or a tracheostomy done before? Can the patient tolerate a general anaesthetic? Are they anticoagulated, and can it be stopped; are there signs of a bleeding tendency at puncture sites or the gums? If ventilated, what are the peak pressures and the oxygen requirement? Feel the neck: where are the cricoid and the trachea, how far above the sternum, is there a mass or open wound in the way, and can the neck extend? Imaging is not routinely needed.
+Choose the tube before you start. It must give an adequate airway, allow positive-pressure ventilation if needed, seal the trachea against aspiration and allow suction. Adults usually get a cuffed tube with an **inner cannula**, which can be removed at once if it blocks while the outer tube keeps the stoma. A deep neck needs an extended-length tube or one with an adjustable flange. Children's tubes (Shiley size 3 and smaller) have no inner cannula.
+!mf 7 | Tracheostomy tubes. A: an uncuffed size 4, a cuffed size 6 and a cuffed size 8 percutaneous tube with a tapered tip; smaller tubes are also shorter. B: an uncuffed extra-length tube with the extra length proximal, for a deep neck, and a foam-cuffed tube used for long-term ventilation.
+!pearl The pre-procedure briefing
+Before the knife, agree three things with the anaesthetist aloud: the inspired oxygen when the trachea is opened (below 30% if diathermy may be used near the airway), who withdraws the endotracheal tube and when, and how you will confirm the tube is in the trachea (end-tidal carbon dioxide). This is also the moment to say the fire risk out loud.
+!!
+
+# Anatomy you must see | Stay in the midline and the neck gives you the trachea.
+## The landmarks you feel
+Before you scrub, feel three structures and mark them: the **thyroid notch**, the **cricoid cartilage** (the firm ring below the cricothyroid membrane, the last complete ring of the airway) and the **sternal notch**. The trachea lies in the midline between the cricoid and the sternum; in an extended young neck there are six or seven rings above the sternum, in an elderly kyphotic neck the cricoid may sit almost at the notch.
+## The layers you cross
+From the skin inwards: subcutaneous fat and platysma (thin or absent in the midline), the **anterior jugular veins** running vertically either side of the midline, the investing fascia joining in the **midline raphe** between the strap muscles, the **sternohyoid and sternothyroid** muscles, the pretracheal fascia and the **thyroid isthmus**, which crosses the second to fourth rings, and then the trachea.
+!mf 2 | The anterior jugular veins lie either side of the midline under the skin; they can be retracted and need not be divided unless injured.
+## The structures at risk
+- **The innominate (brachiocephalic) artery** crosses the trachea obliquely at or below the sternal notch; it can be higher in children, in a fully extended neck and in some adults. A stoma placed too low lets the tube's curve rest on it.
+- **The cricoid and first ring**: incising them risks subglottic stenosis.
+- **The oesophagus** lies directly behind the membranous posterior tracheal wall; an over-deep stab into a collapsed or mobile trachea goes straight through.
+- **The pleural domes**, which rise into the lower neck in children.
+- **Thyroid isthmus and the inferior thyroid veins**, the usual source of bleeding.
+- **Recurrent laryngeal nerves** in the tracheo-oesophageal grooves, safe if you stay in front of the trachea.
+
+# The operation, stage by stage | Six stages, each with what you should see before you move on.
+## Prepare, mark and infiltrate
+Position with the shoulder roll and the neck extended, then feel again: extension lifts the trachea out of the chest. Mark the cricoid and the notch. Inject 1% lidocaine with 1:100,000 adrenaline into the skin and subcutaneous tissue along the incision. Prepare the neck, face and upper chest and drape so that the anaesthetist still has the mouth and the tube.
+!see What you should see
+- The cricoid and the sternal notch marked, with the incision line between them.
+- A dry skin preparation: alcohol-based solutions pooling in the neck are fuel.
+!!
+!danger Fire
+If you used an alcohol-based preparation, let it dry fully before any diathermy, especially in a hairy neck where the solution lingers.
+!!
+## Incise and divide the subcutaneous layer
+Make a horizontal incision about 3 cm long in a skin crease **about 1 cm above the sternal notch or 2 cm below the cricoid**, roughly over the second to third rings. Divide the subcutaneous fat sharply down to the investing fascia and place small rake retractors on each side. Identify the anterior jugular veins and retract them laterally; tie them only if they are cut.
+!see What you should see
+- The two anterior jugular veins lying either side of the midline.
+- The pale vertical **midline raphe** between the strap muscles.
+!!
+!senior Senior's pearl
+Feel the trachea again with a fingertip every few minutes; the midline is a structure you find by touch, not by sight. Repeated palpation keeps you out of the carotid sheath.
+!!
+## Split the strap muscles
+Open the raphe vertically and separate the sternohyoid and then the sternothyroid muscles from each other in the midline, retracting them laterally with the rakes. Work layer by layer with good light and an assistant holding the retractors evenly on both sides, so the midline does not drift.
+!mf 3 | A: the strap muscles split in the midline and retracted laterally. B: the thyroid isthmus and trachea identified. C: the trachea entered between the second and third rings, with the isthmus retracted upwards or divided.
+!see What you should see
+- The thyroid isthmus crossing the upper trachea, and the tracheal rings above or below it.
+!!
+!danger Off the midline
+If you see the carotid pulsation or the internal jugular vein, you are lateral. Stop, release the retractors, feel for the trachea and come back to it.
+!!
+## Deal with the thyroid isthmus
+You can retract the isthmus upwards or divide it. To divide it, incise the pretracheal fascia at the lower border of the cricoid to expose the trachea, pass a curved haemostat beneath the isthmus in the plane on the front of the trachea, clamp on each side, divide and suture-ligate each end. In children the isthmus is always divided so that it cannot fall over the tract if the tube comes out. Once the front of the trachea is clean, place a **tracheal (cricoid) hook** under the cricoid or the second ring and give it to the assistant: the trachea is now lifted and held.
+!see What you should see
+- The **rings** of the trachea, white and ridged, with the cricoid above.
+- A dry field: every bleeding point is dealt with now, before the airway is opened.
+!!
+!senior Senior's pearl
+Count the rings with the tip of the haemostat, from the cricoid down. Saying "cricoid, one, two, three" aloud prevents both a high stoma through the first ring and a low one onto the innominate artery.
+!!
+## Open the trachea
+Tell the anaesthetist you are about to enter the airway, ask for the oxygen to be lowered if they can, and change to cold steel. In adults open the trachea **transversely between the second and third, or third and fourth rings**; excising the anterior part of one ring with heavy scissors or a Kerrison rongeur makes insertion easier, especially when the rings are calcified. Some surgeons fashion an inferiorly based flap (Björk flap) and suture it to the skin. Place **stay (traction) sutures**: in adults, in the midline around the ring above and the ring below the opening; in children, vertically either side of a vertical incision between the second and fourth rings, removing no cartilage, and label them left and right.
+!mf 4 5 | Stay sutures. In children (first image) they lie on each side of a vertical incision and no cartilage is removed; in adults (second image) they pass around the rings above and below the stoma.
+!see What you should see
+- The endotracheal tube cuff through the opening; ask for it to be deflated before you cut near it.
+- Clear tracheal mucosa, and the stay sutures lifting the stoma up into the wound.
+!!
+!danger Airway fire and the posterior wall
+Never enter the airway with diathermy, especially when the inspired oxygen is high: the endotracheal tube is the fuel. Cut through the front wall only; the membranous posterior wall and the oesophagus lie just behind.
+!!
+## Insert and secure the tube
+Ask the anaesthetist to withdraw the endotracheal tube slowly until its tip sits just above the stoma, but not out of the larynx. Pull up on the stay sutures to open the stoma, introduce the tube with its obturator held at **right angles to the trachea**, then rotate it downwards into the line of the trachea as it goes in. Remove the obturator, insert the inner cannula, inflate the cuff and connect. Confirm a **capnograph trace**, bilateral chest movement and air entry; only then is the endotracheal tube removed. Suture the neck plate to the skin and tie the tapes with the neck flexed so that one finger fits beneath them. Leave the wound open, without packing or tight sutures, and tape the stay sutures to the chest with a label.
+!mf 6 | A: the tube introduced into the trachea. B: the neck plate sutured to the skin; tapes are optional.
+!see What you should see
+- A sustained end-tidal carbon dioxide trace, the chest rising and the cuff sealing.
+!!
+!danger Do not let go of the old airway too soon
+Withdrawing the endotracheal tube fully before the new tube is proven leaves the patient with no airway. Keep it in the larynx, ready to advance, until the capnograph confirms the tracheostomy.
+!!
+!senior Senior's pearl
+In head and neck surgery, do not run tapes across a neck incision or over the pedicle of a flap; suture the flange instead.
+!!
+
+# When it goes wrong | Drills to know before the case starts.
+## Crisis drills
+!path Bleeding during the dissection
+Stay calm and get control | pressure with a swab ; better light and suction ; ask for retraction on both sides
+Find the source | anterior jugular vein: tie ; thyroid isthmus or inferior thyroid veins: clamp and tie ; a high innominate artery: pressure and senior help
+Prevent it | stay in the midline, layer by layer, and make the field dry before the trachea is opened
+!!
+!path Fire in the airway
+Stop the fire | disconnect the oxygen ; remove the burning endotracheal tube ; flood the field with saline or water
+Re-establish the airway | reintubate or place a tracheostomy tube at once
+Assess | bronchoscopy for the extent of injury ; antibiotics and steroids ; observe in intensive care
+!!
+!path No capnograph trace after insertion
+Assume the tube is not in the trachea | do not keep ventilating through it
+Restore oxygenation | remove the tube ; advance the endotracheal tube back past the stoma
+Re-site | lift the stay sutures, look into the stoma with a good light and reinsert under vision
+!!
+!path Collapse once the obstruction is relieved
+Expect it | in long-standing obstruction with high carbon dioxide, relief can be followed by apnoea or cardiac arrest
+Pulmonary oedema | sudden loss of the obstruction's own positive end-expiratory pressure can cause flash pulmonary oedema ; ventilate with positive end-expiratory pressure
+Prepare | warn the anaesthetist and have resuscitation ready before the airway is opened
+!!
+
+# Variations | Different patients, different operations.
+## The obese neck
+Obesity and obstructive airway disease often travel together, which raises the risks at the operation (flash pulmonary oedema) and at decannulation (poor tolerance of capping because of sleep apnoea). Remove the excess subcutaneous fat to shorten the track between skin and trachea, **mature the stoma** with half-mattress sutures between the skin and the tracheal opening so that a dislodged tube cannot enter a false passage, and use an extended-length tube. Warn that a matured stoma will later need surgical closure.
+## The child
+Airway misadventures in children are catastrophic and their tubes have no inner cannula, so the technique changes. Remove the naso- or orogastric tube first so it is not felt as the trachea. A vertical skin incision is often preferred for its extensibility. Palpate repeatedly. Always divide the isthmus. Place non-absorbable monofilament stay sutures lateral to a vertical tracheal incision, label them LEFT and RIGHT, tape them to the chest and keep them until the first tube change. The stoma may be matured with absorbable half-mattress sutures. Tie the flanges around the neck with shoestring ties and do not suture the flange to the skin, so that the tube can be changed quickly.
+!mf 1 | A large-volume papilloma obstructing a child's airway, one of the obstructive indications for tracheostomy.
+## The emergency
+When the patient cannot be intubated or oxygenated, the operation is a **cricothyroidotomy** through the membrane between the thyroid and cricoid cartilages: it is faster, more superficial and avoids the isthmus, though it is not bloodless. Convert it to a formal tracheostomy once the airway is stable. Awake tracheostomy under local anaesthetic is the choice when intubation is impossible but there is time, for example in a large laryngeal tumour or severe laryngeal trauma; give extra plain lidocaine into the pretracheal tissues as you deepen, and avoid an early injection into the airway, which can provoke coughing, panic and obstruction.
+
+# Aftercare | Most adverse events happen in the first week.
+## The first week on the ward
+The patient goes to a ward whose nurses know fresh tracheostomies, with the tube size, a spare tube of the same size and one smaller, a tracheal dilator, suction and the stay sutures labelled at the bedside. Sit the patient semi-upright to help coughing and suction. Watch the observations: rising pulse, respiratory rate or blood pressure, agitation, anxiety and restlessness all mean hypoxia until proven otherwise, and may mean a blocked or displaced tube. Suction as needed, humidify always (by a tracheostomy mask; a T-piece levers the tube), remove and clean the inner cannula often, clean the stoma at least three or four times a day and keep the skin under the flange dry with a thin non-adherent dressing. Check cuff pressures to prevent mucosal necrosis.
+## The first tube change
+Do not change the tube in the first five to seven days unless the cuff fails or the patient must change to an uncuffed tube: until a track forms, the tissues fall together as soon as the tube is out. If it must be done early, do it with optimal positioning, an assistant, good light, a tracheal hook and suction, using the stay sutures, and consider a tube exchanger. Regular changes every two to three weeks thereafter reduce granulation tissue and biofilm.
+## Decannulation
+Check with a flexible endoscope that the upper airway is adequate and the larynx competent. Downsize the tube and plug it during waking hours, teaching the patient to remove the plug if breathless. If the plug is tolerated for 24 hours, remove the tube and cover the stoma with an occlusive dressing; it usually closes within days. If the plug is not tolerated, find the obstruction. Children are endoscoped before decannulation; a granuloma at the stoma is common and removing it helps.
+## Complications
+!table Complications after tracheostomy
+Complication | When and why | Recognition | Management
+Tube obstruction | Early; thick or dried secretions, clot | Distress, no air through the tube, suction catheter will not pass | Remove the inner cannula; suction; if not cleared, change the whole tube
+Displacement | Any time; worst before the track forms. Obesity, coughing, agitation, too short a tube, too low a stoma, loose tapes, bulky dressings | Sudden distress or a patient who can suddenly speak | Do not ventilate through a displaced tube (pneumothorax and pneumomediastinum kill in minutes). Lift the stay sutures and reinsert under vision; if it fails, intubate from above; or find the opening with a flexible scope or a suction catheter and railroad the tube over it
+False passage | Tube placed between the trachea and the sternum | High pressures, no capnograph trace, surgical emphysema | Remove, oxygenate from above, re-site under vision
+Bleeding | Early oozing or a vessel | Blood in the wound or the tube | Correct clotting, haemostatic packing for ooze, return to theatre for significant bleeding; do not pack an actively bleeding stoma
+Surgical emphysema | Coughing, an uncuffed tube, tight sutures, packing | Crepitus spreading from the wound | Remove packing and sutures; mild cases resolve
+Pneumothorax and pneumomediastinum | Pleural injury (children), false passage, air drawn in during struggling | Chest radiograph after every tracheostomy | Drain a significant pneumothorax; pneumomediastinum usually needs nothing
+Infection | Colonisation within 24 to 48 hours by Pseudomonas, E. coli and staphylococci | Cellulitis, purulent secretions, tracheobronchitis | Suction, physiotherapy, antibiotics when clinically infected; rarely debridement and flaps for necrotising infection
+Granulation tissue | Late; 3% to 80% of cases, commoner in children and with fenestrated tubes | Bleeding, difficult changes, failed decannulation | Topical steroid, antibiotic or silver nitrate; excision for obstructing tissue; regular tube changes
+Innominate artery haemorrhage | Usually within three weeks; low stoma, long or curved tube, overinflated cuff, overextended neck, infection, a high artery | A **sentinel bleed** of bright red blood, then catastrophic haemorrhage | Overinflate the cuff, press a finger down behind the sternum against the artery, transfer to theatre for sternotomy
+Tracheo-oesophageal fistula | Late; cuff or tube tip pressing the posterior wall against a nasogastric tube | Food or feed from the tube; most often this is aspiration, so confirm with a modified barium swallow | Change the tube position or type, repair
+Stenosis and tracheomalacia | Late; cuff necrosis of mucosa and cartilage | Stridor after decannulation | Prevent with cuff-pressure monitoring; treat as for tracheal stenosis
+!!
+!flag A sentinel bleed
+Any fresh bleeding from a tracheostomy in the first weeks is an innominate artery bleed until proven otherwise. Tell your senior at once and bring the patient to theatre for examination while the bleeding has stopped.
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Dhingra: classifies tracheostomy by the level of the stoma: high (through the first ring, now avoided except in laryngeal cancer, because it risks perichondritis and subglottic stenosis), mid (second and third rings, the standard, usually dividing the isthmus) and low (below the isthmus, used in children and near the great vessels). It also lists the old metal (Jackson) tubes alongside plastic ones.
+Lee: emphasises the Björk flap and stoma maturation, early tracheostomy in the ventilated patient, and the comparison with percutaneous dilatational tracheostomy, which suits the ICU patient with a palpable, normal neck.
+Myers stresses that the danger lies in the postoperative week rather than on the table, that an emergency airway is a cricothyroidotomy, and gives detailed paediatric and obese-neck modifications.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- Indications, and the one-line distinction between **cricothyroidotomy (seconds count)** and **tracheostomy**.
+- The layers and the level: **second to fourth rings**, never the first ring or cricoid, never so low as to sit on the innominate artery.
+- Adult versus child technique: incision, isthmus, stay sutures, flange fixing, no inner cannula.
+- **Fire triangle** and the airway fire drill.
+- The **displaced tube** drill and why you never bag a displaced tube.
+- **Sentinel bleed** and the innominate artery manoeuvre.
+- Decannulation steps.
+!!
+## Common pitfalls
+!pit
+- Delegating the "simple" tracheostomy to an unsupervised junior without light, suction and help.
+- A stoma through the first ring or cricoid, or a low stoma above the sternum.
+- Using diathermy to enter the trachea with high inspired oxygen.
+- Removing the endotracheal tube before the capnograph confirms the new tube.
+- Packing or tightly suturing the wound around the tube.
+- Changing a fresh tube without stay sutures, light and a spare tube, or ventilating a tube that may be in a false passage.
+!!

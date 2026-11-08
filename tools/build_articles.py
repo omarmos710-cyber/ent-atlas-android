@@ -30,7 +30,12 @@ FIGDIR = os.path.join(WWW, 'clinic', 'fig')
 DRAWDIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'content', 'clinic', 'draw')
 CHEV = '<svg class="arch" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>'
 BOXES = {'pearl': 'Pearl', 'flag': 'Red flags', 'exam': 'What the examiner wants', 'update': 'Guideline update',
-         'note': 'Note', 'ward': 'On the ward', 'pit': 'Common pitfalls', 'differ': 'Where the books differ'}
+         'note': 'Note', 'ward': 'On the ward', 'pit': 'Common pitfalls', 'differ': 'Where the books differ',
+         'see': 'What you should see', 'danger': 'Danger', 'senior': "Senior's pearl", 'consent': 'Consent'}
+OPDIR = os.path.join(ROOT, 'content', 'theatre')
+OPOUT = os.path.join(WWW, 'theatre', 'art')
+MFIG = os.path.join(WWW, 'fig2', 'm')
+OPN = [0]  # Myers chapter number of the operation being compiled (for !mf figures)
 WORDS = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen']
 BOOK = {'d': 'Dhingra', 'l': 'K.J. Lee'}
 _FIGKEYS = None
@@ -103,11 +108,14 @@ def compile_one(tid, text):
     box = None  # (kind, title, rows)
     fign = 0
     words = 0
+    meta['st'] = []
+    stage = [None]
 
     def flush():
         nonlocal para, lst, olst, words
         if para:
             t = ' '.join(para); words += len(t.split())
+            if stage[0] is not None: stage[0]['d'] = (stage[0]['d'] + '\n' if stage[0]['d'] else '') + plain(t)
             out.append('<p>%s</p>' % inline(t, refs)); para = []
         def li(x):
             # sub-items: ('-', text) bullet, ('1', text) numbered, ('p', text) plain note
@@ -206,7 +214,10 @@ def compile_one(tid, text):
         ln = raw.rstrip()
         if box is not None:
             if ln.strip() == '!!':
-                flush(); out.append(render_box(*box)); box = None
+                flush(); out.append(render_box(*box))
+                if stage[0] is not None and box[0] in ('see', 'danger', 'senior'):
+                    stage[0][{'see': 'see', 'danger': 'risk', 'senior': 'pearl'}[box[0]]] = plain(' '.join(r.lstrip('- ') for r in box[2] if r.strip()))
+                box = None
             else:
                 box[2].append(ln.strip())
             continue
@@ -217,13 +228,16 @@ def compile_one(tid, text):
             if c: out.append('</section>')
             c += 1; s = b = 0
             t, _, intro = ln[2:].partition('|')
-            meta['ch'].append(t.strip()); here['c'] = t.strip(); here['s'] = ''
+            meta['ch'].append(t.strip()); here['c'] = t.strip(); here['s'] = ''; stage[0] = None
             out.append('<section class="arch-c" id="a-c%d" data-t="%s"><div class="archd"><span class="arnum">%d</span><div class="arkick">Chapter %s</div><h2>%s</h2></div>%s' % (
                 c, html.escape(t.strip()), c, WORDS[c - 1] if c <= len(WORDS) else c, inline(t.strip(), refs),
                 '<p class="arintro">%s</p>' % inline(intro.strip(), refs) if intro.strip() else ''))
             continue
         if ln.startswith('## '):
             close_sec(); s += 1; b = 0; here['s'] = plain(ln[3:].strip())
+            stage[0] = None
+            if OPN[0] and here['c'].lower().startswith('the operation'):
+                stage[0] = {'t': here['s'], 'd': '', 'f': [], 'see': '', 'risk': '', 'pearl': '', 'id': 'a-s%d-%d' % (c, s)}; meta['st'].append(stage[0])
             out.append('<details class="arsub" id="a-s%d-%d" open><summary><span class="arsn">%d.%d</span><h3>%s</h3>%s</summary><div class="arbody">' % (
                 c, s, c, s, inline(ln[3:].strip(), refs), CHEV))
             open_sec = True; continue
@@ -253,6 +267,23 @@ def compile_one(tid, text):
             meta['fx'].append({'n': fign, 'f': names, 't': plain(cap.strip()), 'w': where(), 'c': cite})
             out.append('<figure class="arfig" id="a-f%d"><div class="%s">%s</div><figcaption><b>Figure %d</b>%s<cite>%s</cite></figcaption></figure>' % (
                 fign, 'pair' if len(names) > 1 else 'one', imgs, fign, inline(cap.strip(), refs), html.escape(cite)))
+            words += len(cap.split())
+            continue
+        if ln.startswith('!mf '):
+            # Myers figures of this chapter: "!mf 3 4 | caption" -> fig2/m/<chapter>_3.jpg
+            flush()
+            spec, _, cap = ln[4:].partition('|')
+            nums = spec.split(); n0 = OPN[0]
+            for x in nums:
+                if not os.path.exists(os.path.join(MFIG, '%d_%s.jpg' % (n0, x))):
+                    raise FileNotFoundError('%s: Myers figure %s.%s missing' % (tid, n0, x))
+            fign += 1
+            if stage[0] is not None: stage[0]['f'] += [int(x) for x in nums]
+            cite = 'Myers, Operative Otolaryngology, fig%s %s' % ('s' if len(nums) > 1 else '.', ' and '.join('%d.%s' % (n0, x) for x in nums))
+            meta['fx'].append({'n': fign, 'm': ['%d_%s' % (n0, x) for x in nums], 't': plain(cap.strip()), 'w': where(), 'c': cite})
+            imgs = ''.join('<button type="button" class="arimg" data-fig="m/%d_%s" data-set="thm%d" aria-label="Enlarge figure %d"><img src="fig2/m/%d_%s.jpg" alt="" loading="lazy" decoding="async"></button>' % (n0, x, n0, fign, n0, x) for x in nums)
+            out.append('<figure class="arfig armf" id="a-f%d"><div class="%s">%s</div><figcaption><b>Figure %d</b>%s<cite>%s</cite></figcaption></figure>' % (
+                fign, 'pair' if len(nums) > 1 else 'one', imgs, fign, inline(cap.strip(), refs), html.escape(cite)))
             words += len(cap.split())
             continue
         if ln.startswith('!im '):
@@ -308,7 +339,7 @@ def compile_one(tid, text):
             out.append('<div class="arcases" data-arcases="%s" data-lead="%s"></div>' % (html.escape(' '.join(spec.split())), html.escape(lead.strip())))
             continue
         m = re.match(r'!(\w+)\s*(.*)', ln)
-        if m and m.group(1) in ('pearl', 'flag', 'exam', 'update', 'note', 'ward', 'pit', 'differ', 'table', 'tree', 'ladder', 'path'):
+        if m and m.group(1) in ('pearl', 'flag', 'exam', 'update', 'note', 'ward', 'pit', 'differ', 'table', 'tree', 'ladder', 'path', 'see', 'danger', 'senior', 'consent'):
             flush(); box = (m.group(1), m.group(2).strip(), []); continue
         m = re.match(r'\s{2,}(?:(- )|(\d+\.\s+))?(\S.*)', ln)
         if m and (lst or olst):
@@ -353,8 +384,31 @@ def main():
         o.write('window.CLART_FIGS=%s;\n' % json.dumps(figs, ensure_ascii=False, separators=(',', ':')))
     print(len(figs), 'figures indexed for search')
     print(len(ids), 'articles')
+    ops = build_ops()
     build_hub()
-    update_sw(ids)
+    update_sw(ids, ops)
+
+
+def build_ops():
+    """Compile the operative chapters content/theatre/<myers chapter>.txt into theatre/art/<n>.js."""
+    os.makedirs(OPOUT, exist_ok=True)
+    idx, ops = {}, []
+    if not os.path.isdir(OPDIR): return ops
+    for f in sorted(os.listdir(OPDIR), key=lambda x: int(re.sub(r'\D', '', x) or 0)):
+        if not f.endswith('.txt'): continue
+        n = int(f[:-4]); OPN[0] = n
+        h, meta = compile_one('op%d' % n, open(os.path.join(OPDIR, f), encoding='utf-8').read())
+        OPN[0] = 0
+        rec = {'h': h, 'stand': meta['stand'], 'ch': meta['ch'], 'w': meta['w'], 'n': meta['n'], 'st': meta['st']}
+        with open(os.path.join(OPOUT, '%d.js' % n), 'w', encoding='utf-8') as o:
+            o.write('(window.THART=window.THART||{})[%d]=%s;\n' % (n, json.dumps(rec, ensure_ascii=False)))
+        idx[n] = {'w': meta['w'], 's': len(meta['st']), 'f': sum(len(x['f']) for x in meta['st'])}
+        ops.append(n)
+        print('op %-4d %5d words  %2d stages  %2d figures' % (n, meta['w'], len(meta['st']), len(meta['fx'])))
+    with open(os.path.join(OPOUT, 'index.js'), 'w') as o:
+        o.write('window.THART_IDX=%s;\n' % json.dumps(idx))
+    print(len(ops), 'operative chapters')
+    return ops
 
 
 def hub_files():
@@ -379,7 +433,7 @@ def build_hub():
     open(p, 'w', encoding='utf-8').write(h)
 
 
-def update_sw(ids):
+def update_sw(ids, ops=()):
     """Precache the articles in the web build and bump the offline cache version."""
     import hashlib
     sw = os.path.join(ROOT, 'web', 'sw.js')
@@ -390,11 +444,13 @@ def update_sw(ids):
     s = re.sub(r'"clinic/fig/[^"]+",', '', s)
     add += ''.join('"clinic/fig/%s",' % f for f in sorted(os.listdir(FIGDIR)) if f.lower().endswith(('.jpg', '.jpeg', '.png', '.webp')))
     s = s.replace('"clinic/links.js",', '"clinic/links.js",' + add, 1)
+    s = re.sub(r'"theatre/art/[^"]+",', '', s)
+    s = s.replace('"theatre/index.js",', '"theatre/index.js",' + ''.join('"theatre/art/%s.js",' % i for i in ['index'] + list(ops)), 1)
     pre, post = hub_files()
     s = re.sub(r'"hub/[^"]+",', '', s)
     s = s.replace('"xsearch.js",', '"xsearch.js",' + ''.join('"%s",' % f for f in pre + post), 1)
     h = hashlib.md5()
-    for f in ['index.html', 'xsearch.js', 'clinic/clinic.js', 'clinic/clinic.css', 'clinic/data.js', 'theatre/theatre.js', 'theatre/theatre.css'] + sum(hub_files(), []) + ['clinic/art/%s.js' % i for i in ['index', 'figs'] + ids]:
+    for f in ['index.html', 'xsearch.js', 'clinic/clinic.js', 'clinic/clinic.css', 'clinic/data.js', 'theatre/theatre.js', 'theatre/theatre.css'] + sum(hub_files(), []) + ['clinic/art/%s.js' % i for i in ['index', 'figs'] + ids] + ['theatre/art/%s.js' % i for i in ['index'] + list(ops)]:
         h.update(open(os.path.join(WWW, f), 'rb').read())
     s = re.sub(r'const CACHE="ent-atlas-[0-9a-f]+"', 'const CACHE="ent-atlas-%s"' % h.hexdigest()[:10], s)
     if 'clinic\\/fig' not in s:
