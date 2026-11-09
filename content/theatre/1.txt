@@ -1,0 +1,232 @@
+@stand Many things that once needed a general anaesthetic and a suspension laryngoscope can now be done with the patient awake in the clinic chair: filling out a weak vocal fold, taking a biopsy, lasering a papilloma or a vascular lesion, injecting a steroid into a scar, or weakening a spasming muscle with botulinum toxin. You avoid the risks of anaesthesia, the patient can talk to you during the procedure so that you judge the voice as you go, and many patients who are poor candidates for theatre can still be treated. The price is that everything depends on good topical anaesthesia, a calm patient, sound endoscopy and an exact knowledge of where your needle tip is. This chapter takes you through choosing the patient, numbing the larynx, the per-oral and percutaneous injection routes, working through the channel of a flexible scope, and botulinum toxin under electromyographic guidance.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Office-based laryngeal procedures
+ | Summary
+Indications | **Injection augmentation** for glottic insufficiency (paralysis, paresis, atrophy, scar); **steroid injection** to soften vocal fold, subglottic or tracheal scar and some benign lesions; **botulinum toxin** for spasmodic dysphonia; **biopsy** of a laryngeal lesion; **laser** (KTP and similar) for vascular lesions, papilloma, polyps, cysts, Reinke oedema, granuloma, webs, leukoplakia and dysplasia
+Contraindications | Unstable heart or lungs; allergy to the local anaesthetic or the injectable; a larynx you cannot see well (prolapsing arytenoid, tight supraglottis); neck landmarks you cannot feel (for percutaneous routes); marked tremor of the larynx or pharynx
+Botulinum toxin, extra contraindications | Pregnancy, breast-feeding, a neuromuscular disorder such as myasthenia gravis, current aminoglycoside treatment, and, for posterior cricoarytenoid injection, an already weak abductor
+Anaesthesia | Topical and local only: nebulised and dripped lidocaine, with or without transtracheal lidocaine; an oral anxiolytic for an anxious patient
+Position | Sitting upright in the examination chair for most procedures; lying supine is an option for EMG-guided toxin injection
+Antibiotics | Not needed; infection is very rare even though the field is clean-contaminated
+Monitoring | No active monitoring; record pulse, blood pressure and oxygen saturation before and after
+Imaging | None needed for the procedure itself
+Tray | Distal-chip flexible laryngoscope with a working channel (or a rigid 70-degree telescope for one-person per-oral work), camera and monitor, curved Abraham cannula, drip catheter, orotracheal injector or malleable injection needle, 23 to 27 gauge 1.5 inch needles and a 20 gauge spinal needle, channel biopsy forceps and channel needle, injectable materials, steroid, toxin, EMG unit with a hollow insulated needle electrode, nebuliser, 4% lidocaine, nasal pledgets with decongestant and anaesthetic, laser and laser eyewear
+Before the procedure | Confirm the indication on stroboscopy; agree on whether to stop antiplatelets and anticoagulants (there is no evidence they increase complications of office injection, so many continue them); prescribe a small dose of anxiolytic about an hour before if the patient expects to be nervous
+!!
+## Consent
+!consent What to tell the patient
+- **What it is:** a procedure done while you are awake, with the throat numbed by spray and drops; you will feel pressure and may cough, but should not feel pain.
+- **Why here and not in theatre:** no general anaesthetic or tube, a quicker recovery, and the voice can be judged while we work.
+- **It may not be finished in one sitting:** if the throat cannot be numbed well enough or the view is poor, we may stop and offer the operation under general anaesthetic.
+- **Fainting or feeling light-headed** during the procedure.
+- **Bleeding** from the nose or throat, usually minor.
+- **A worse voice for a time**, or permanently if the material settles in the wrong layer of the vocal fold.
+- **Breathing difficulty** from swelling or spasm of the voice box; rare, and we are ready to manage it.
+- **Choking on drinks** while the throat is numb: nothing to eat or drink for an hour.
+- **Botulinum toxin:** a breathy voice and some difficulty swallowing liquids for a few days to weeks while the dose takes effect; the effect wears off after a few months and the injection is repeated.
+- **Injection augmentation** with most materials lasts months, not years, and may need repeating or replacing with a permanent operation.
+- **Laser:** a small risk of burns to surrounding tissue and of scarring of the vocal fold.
+!!
+## Before you start: choosing the patient
+The procedure succeeds or fails on patient selection, so assess this in clinic before the day.
+### The history
+Ask about the voice complaint (hoarseness, weak or breathy voice, effortful or broken speech), chronic cough, breathlessness, throat pain and swallowing. Ask about recent surgery that put the recurrent laryngeal nerve at risk (thyroid, chest, neck, skull base), recent intubation or laryngeal surgery, neurological disease (Parkinson's disease, multiple system atrophy, essential tremor), reflux, smoking, and how the patient uses the voice at work and at play.
+### Listening to the voice
+- **Breathy** voice suggests glottic insufficiency; **breathy breaks** suggest abductor spasmodic dysphonia.
+- **Strained, strangled** voice with breaks on vowels suggests adductor spasmodic dysphonia; strain is also heard with granuloma.
+- **Rough voice or diplophonia** suggests a paralysed or paretic fold, or a lesion on the fold.
+### Examining for the procedure
+- **Mouth and oropharynx:** the gap between the incisors and how strong the gag reflex is.
+- **Neck:** whether you can feel the thyroid notch, thyroid cartilage and cricoid easily, and any mass.
+- **Nose:** whether it will take a 3 to 4 mm laryngoscope (5 mm for a transnasal oesophagoscope).
+- **Stroboscopy:** atrophy, reduced or absent movement, scar with a poor mucosal wave, benign lesions (polyps, cysts, Reinke oedema, granuloma, papilloma), leukoplakia or keratosis, and dystonia or tremor.
+!table The ideal office patient
+Feature | Why it matters
+Little or no gag | Instruments pass over the tongue base without retching
+Can stay calm for 10 to 30 minutes | Sudden movement with a needle in the larynx is dangerous
+Mouth opening of at least 20 mm | Room for the per-oral injector and a view
+A nose that takes the scope | 3 to 4 mm laryngoscope, 5 mm oesophagoscope
+A steady head | No torticollis or tremor
+Wants it done awake | Motivation carries the patient through the procedure
+!!
+
+# Anatomy you must see | Landmarks inside and outside the larynx.
+## Inside: the superior arcuate line
+The key internal landmark for augmentation is the **superior arcuate line**: the curved line on the upper surface of the fold where the lateral edge of the vocalis bulk meets the floor of the ventricle. Material is placed **lateral to the thyroarytenoid muscle**, through this line, so that it pushes the whole fold toward the midline. The ideal point is just in front of and lateral to the **vocal process** of the arytenoid, where most posterior gaps are.
+!danger The superficial plane
+Material placed too medially or too shallowly lands in the superficial lamina propria (Reinke's space). It stiffens the vibrating cover and can make the voice worse instead of better. Deep and lateral is the rule for augmentation; only a steroid for a scar or benign lesion is meant to be superficial.
+!!
+## Outside: the neck landmarks
+- **Thyroid notch:** the entry point for the thyrohyoid approach.
+- **Thyroid cartilage:** the window for the trans-cartilage approach, entered 6 to 8 mm from the midline at the level of the folds.
+- **Cricothyroid membrane:** the entry point for the transcricothyroid approach and for adductor toxin injection.
+## The muscles for toxin
+- **Adductor spasmodic dysphonia:** the target is the thyroarytenoid and lateral cricoarytenoid complex, reached through the cricothyroid membrane just off the midline, angled up and laterally.
+- **Abductor spasmodic dysphonia:** the target is the **posterior cricoarytenoid**, the only abductor, reached behind the larynx by rotating it, or through the cricoid.
+
+# The operation, stage by stage | Numbing, injecting, sampling and lasering.
+## Anaesthetise the nose and larynx
+Pack each side of the nose with pledgets (about half an inch by three inches) wet with oxymetazoline and 4% lidocaine, and leave them for five minutes or more. For per-oral work, nebulise **5 ml of 4% lidocaine** over about ten minutes to blunt the gag. Remove the pledgets, pass the channel laryngoscope to the tongue base, and pass a drip catheter down the channel: drip 4% lidocaine onto the tongue base, epiglottis, aryepiglottic folds, the vestibule and finally the vocal folds, asking the patient to make a high-pitched sound so the drops reach the glottis (the patient feels a "gargle"). A curved Abraham cannula through the mouth does the same job. A further option is to inject 4% lidocaine through the cricothyroid membrane into the airway, which makes the patient cough it over the subglottis and folds. For percutaneous routes, raise a skin bleb of 1% lidocaine with adrenaline if you wish. Touch the fold gently with the catheter tip to confirm that it is numb before you start.
+!mf 1 | The office kit: flexible sheathed 27 gauge needle, orotracheal injector, malleable 25 gauge per-oral needle, syringe on an Abraham cannula, the end of the drip catheter, and nasal pledgets.
+!see What you should see
+- A larynx that stays still and does not cough or close when the catheter tip touches the fold.
+!!
+!danger Lidocaine toxicity
+Count every millilitre from the nebuliser, drips, sprays and injections. Keep the total within **about 5 mg/kg**, roughly 7 to 8 ml of 4% lidocaine (about 350 mg) in a 70 kg adult. Early signs are perioral tingling, a metallic taste, ringing in the ears, light-headedness and confusion.
+!!
+!senior Senior's pearl
+Most failed office procedures fail at this stage. Take your time over the anaesthesia, top up before you start, and stop rather than push on with a larynx that is still reacting.
+!!
+## Per-oral injection augmentation
+This route gives the best view and the best angle into the layers of the fold, but it has the steepest learning curve. An assistant holds the flexible scope through the nose (or you use a rigid 70-degree telescope in one hand). Spray the oropharynx with a little more lidocaine or a benzocaine spray to quieten the gag. The patient sits upright, leans forward with the chin pushed forward, and holds their own tongue out with gauze (or you hold it). Load the curved injector or malleable needle, and pass it over the tongue base into the larynx while watching the monitor. Aim for the **superior arcuate line just in front of and lateral to the vocal process**, lateral to the bulk of the thyroarytenoid. You feel a slight give as the needle enters; inject slowly while watching the fold move toward the midline and the free edge straighten. Inject through one puncture only.
+!mf 2 | Per-oral augmentation: the assistant holds the flexible scope through the nose, the patient holds their tongue, and the surgeon passes the curved injector over the tongue base.
+!mf 4 | The needle in place lateral to the vocal fold, seen through the flexible scope.
+!see What you should see
+- The needle entering at the arcuate line, lateral to the muscle bulk, not on the vibrating edge.
+- The fold rounding out and moving medially as you inject, and the glottic gap closing on phonation.
+!!
+!danger Multiple punctures
+Every extra hole lets material leak out. Choose your site, commit, and inject through a single entry point; repeated passes also cause bruising that hides the fold.
+!!
+!senior Senior's pearl
+Know exactly where the tip of the needle is before you press the plunger. If you are not sure, withdraw a little and look again; an injection into the wrong layer cannot be taken back.
+!!
+## Percutaneous augmentation
+These routes are easier to learn and allow a view of the needle tip before injecting, but the depth is less predictable because of the angle. A second person usually holds the flexible scope and confirms where the needle is.
+### Transcricothyroid
+Bend a 25 gauge 1.5 inch needle to about 45 degrees. Enter through the cricothyroid membrane just off the midline on the side to be injected, and angle up toward the undersurface of the fold. The endoscopist can see the tip appear under the fold in the subglottis; the tip is then advanced into the fold from below.
+### Thyrohyoid
+Enter at the thyroid notch at a steep angle, nearly perpendicular to the skin, with a 25 gauge needle or a spinal needle, so that the tip appears in the laryngeal vestibule above the petiole. Tilt it laterally toward the arytenoid on the side to be treated so that it runs parallel to the fold, without puncturing the mucosa, then place it at the arcuate line and inject while watching from above.
+!mf 5 | The thyrohyoid route in a cadaver larynx: the needle passes through the notch and runs down into the supraglottis.
+### Through the thyroid cartilage
+Pass a 20 gauge spinal needle straight through the thyroid ala, rotating it like a screw to ease it through, 6 to 8 mm from the midline at the level of the folds; then turn it forward and level so that it lies in the paraglottic space. Remove the stylet, attach the syringe and inject slowly while watching from above. Calcified cartilage in older men can block the needle or make this route impossible.
+!mf 3 | The trans-thyroid cartilage route for vocal fold injection.
+!see What you should see
+- The needle tip seen, or the fold moving medially as you inject, before more than a fraction of the volume is given.
+- No needle tip in the airway lumen and no bleb on the vibrating edge.
+!!
+!danger The plugged needle
+Cartilage and thick materials can block a needle passed through the thyroid ala. Have spare needles ready, and do not force the plunger: a sudden release delivers a bolus into the wrong place.
+!!
+## Through the channel: biopsy, laser and steroid
+All three are done through the working channel of the flexible scope after the same anaesthesia.
+### Biopsy
+Pass the forceps through the channel, grasp the abnormal tissue firmly, and pull away with a **quick, decisive movement**. A slow pull tears a long strip of mucosa from the fold and leaves a scar; the same applies anywhere in the larynx.
+### Laser
+Everyone in the room wears eyewear specific to the laser's wavelength. A laser mask is sensible for papilloma, because of the plume. Typical KTP settings are **30 to 35 W, 15 ms pulses, two pulses a second**, with the fibre in a metal guide. Treat vascular lesions (ectasia, varices), papilloma, dysplasia and leukoplakia, polyps, granuloma, webs and, increasingly, scar, protecting the free edge of the fold.
+### Steroid injection
+For scar and some benign lesions, a fine needle through the channel places dexamethasone or triamcinolone **superficially**, within the lesion or scar itself.
+!see What you should see
+- A clean biopsy bite with the mucosa around it intact.
+- Blanching of the vessels or the lesion with the laser, without charring of the healthy edge.
+!!
+!danger Laser burns and scar
+Too much energy or too long on one spot burns the surrounding tissue and leaves a stiff, scarred fold. Treat in short bursts and keep the vibrating edge in view.
+!!
+## Botulinum toxin under EMG guidance
+Use a hollow, insulated 25 or 26 gauge needle electrode, which both records the EMG and delivers the toxin; this is a one-person technique because the EMG, not the endoscope, tells you where the tip is. For **adductor** spasmodic dysphonia, enter through the cricothyroid membrane just off the midline and angle up and laterally into the thyroarytenoid; ask the patient to say "eee" and look for a burst of motor-unit activity, then inject. For **abductor** spasmodic dysphonia, rotate the larynx and reach the posterior cricoarytenoid behind the thyroid ala (or through the cricoid); confirm with a sniff, then inject. Toxin can also be given through the channel of a flexible scope.
+!see What you should see
+- Brisk EMG activity on phonation (adductor) or sniffing (abductor) before you inject.
+!!
+!danger The airway after abductor injection
+The posterior cricoarytenoid is the only muscle that opens the glottis. Weakening both sides at once can obstruct the airway, so inject one side first and stage the other if needed.
+!!
+!senior Senior's pearl
+Toxin doses are set by trial and titration for each patient. Start low, note the response and the side effects at each visit, and adjust; a dose that leaves the voice breathy and swallowing awkward was too much.
+!!
+## Finish
+Withdraw the instruments, check the airway and the fold, and listen to the voice before the patient leaves the chair. Repeat the vital signs.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path The patient faints (vasovagal reaction)
+Act | stop, remove instruments, lie the patient flat with the legs raised ; maintain the airway and give oxygen
+Recover | observe until the pulse and colour return ; finish another day if needed
+Next time | consider doing the procedure lying down, and use an anxiolytic
+!!
+!path Breathing difficulty or stridor
+Recognise | laryngospasm, swelling after injection, or bilateral weakness after toxin
+Act | stop, sit up, oxygen, call for help ; reassure, slow breathing, gentle positive pressure for spasm
+Escalate | nebulised adrenaline and steroid for oedema ; anaesthetic and airway team if the patient does not settle
+!!
+!path Signs of lidocaine toxicity
+Recognise | tingling lips, metallic taste, tinnitus, confusion, then seizures or arrhythmia
+Act | stop giving local anaesthetic ; oxygen, airway and monitoring ; call for help
+Escalate | treat seizures with benzodiazepine ; give lipid emulsion for collapse or arrhythmia as per local protocol
+!!
+!path The voice is worse after augmentation
+Find out | stroboscopy: is the material superficial (stiff, poorly vibrating fold) or simply over-injected?
+Wait | over-injection settles as temporary materials are absorbed
+Act | material in Reinke's space may need removal in theatre
+!!
+!path Coughing on drinks after toxin
+Expect | a short period of breathiness and thin-liquid dysphagia is common
+Advise | chin tuck, small sips and thicker fluids until it settles
+Reduce | lower the next dose; watch for aspiration pneumonia if the dose was large
+!!
+
+# Aftercare | What to tell the patient on the way out.
+## After the procedure
+- **Nothing to eat or drink for one hour**, until the throat sensation returns, to avoid aspiration.
+- **Voice rest for 24 hours** after injection augmentation.
+- **Voice rest for 3 to 6 days** after laser treatment of benign lesions; after papilloma treatment, it depends on how much of the free edge was treated.
+- **Botulinum toxin takes 2 to 3 days** to begin to work; warn the patient so they do not think it failed.
+- Arrange stroboscopy to check closure after augmentation, and review timing for repeat toxin injections.
+## Complications
+!table Complications of office laryngeal procedures
+Complication | Cause or setting
+Vasovagal reaction | Anxiety, gagging, upright position
+Respiratory compromise | Laryngospasm, oedema, bilateral abductor weakness
+Poor voice from misplaced material | Injection too superficial or too medial
+Burns and fold scarring | Excess laser energy or too long on one spot
+Aspiration pneumonia | Large adductor toxin dose; drinking while numb
+Lidocaine toxicity | Total dose above about 5 mg/kg
+Bleeding and infection | Uncommon
+!!
+## Injectable materials
+!table How long the materials last
+Material | Approximate duration | Notes
+Carboxymethylcellulose gel | 2 to 3 months | No preparation; a trial injection to test the effect
+Hyaluronic acid | 2 to 4 months | No preparation
+Micronised dermis | 2 to 6 months | Needs preparation and some over-injection
+Calcium hydroxylapatite | About 18 months | Longer-lasting; more care with depth
+Autologous fat | Unpredictable, from weeks to years | Harvested and injected under general anaesthetic
+Teflon | Permanent | Abandoned: granulomas form and removing them damages the larynx
+!!
+## Alternatives
+- **Augmentation:** voice therapy (usually before and after any procedure) and laryngeal framework surgery (medialisation thyroplasty, arytenoid adduction).
+- **Spasmodic dysphonia:** selective laryngeal adductor denervation and reinnervation; lateralisation thyroplasty has also been reported.
+- **Benign and premalignant lesions:** microlaryngoscopy under suspension with microflap excision, with or without laser; voice therapy.
+- **Evidence:** a 2013 meta-analysis of six studies found office steroid injection for benign fold lesions well tolerated, with measurable improvement in the voice.
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Dhingra: covers these procedures through the diseases rather than as an office technique. For adductor spasmodic dysphonia, botulinum toxin relieves the breaks for up to about 16 weeks before repeat injection, too much causes breathiness and swallowing discomfort, and voice therapy alone helps little; recurrent laryngeal nerve section is kept for severe cases when injections fail. For abductor dysphonia, toxin goes into the posterior cricoarytenoid, percutaneously with EMG or endoscopically, only about half improve, and one side is injected first because of the airway.
+Lee: lists the injectable materials and how long they last, explains why Teflon was abandoned, and states that adductor toxin goes into the thyroarytenoid and lateral cricoarytenoid complex to weaken rather than paralyse, with the dose found by titration, by EMG-guided percutaneous injection or through a flexible scope channel.
+Myers gives the practical detail: patient selection, layered topical anaesthesia with its dose limit, the superior arcuate line, the per-oral and three percutaneous routes, channel biopsy and KTP settings, and the aftercare rules.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- The **ideal office patient**: low gag, calm, mouth opening of at least 20 mm, a patent nose, a steady head.
+- How to **anaesthetise the larynx** (nebuliser, drip catheter, transtracheal) and the **lidocaine limit** (about 5 mg/kg).
+- The **superior arcuate line** and why augmentation goes **deep and lateral**.
+- The four injection routes: **per-oral, transcricothyroid, thyrohyoid and trans-thyroid cartilage**, with one advantage and one drawback of each.
+- The injectable materials and how long each lasts; why **Teflon** is no longer used.
+- Toxin targets: **thyroarytenoid-lateral cricoarytenoid** for adductor, **posterior cricoarytenoid** for abductor, and why abductor injection is staged.
+- The **aftercare rules**: an hour nil by mouth, 24 hours' voice rest after injection, 3 to 6 days after laser, and toxin taking 2 to 3 days to act.
+!!
+## Common pitfalls
+!pit
+- Starting before the larynx is properly numb.
+- Losing track of the total lidocaine dose.
+- Several puncture sites, so the material leaks out.
+- Injecting too superficially or medially into Reinke's space.
+- A plugged needle in calcified cartilage, then forcing the plunger.
+- A slow biopsy pull that strips the fold.
+- Too much laser energy in one spot.
+- Injecting both posterior cricoarytenoids at once.
+- Letting the patient eat or drink before the throat sensation returns.
+!!

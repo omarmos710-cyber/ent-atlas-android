@@ -1,0 +1,189 @@
+@stand The turbinates are not obstacles to be cleared but working organs: they warm, humidify and filter the air, carry mucus toward the nasopharynx, and let the patient feel air moving. Turbinate surgery is for a large inferior turbinate, or a ballooned middle turbinate (concha bullosa), that keeps the nose blocked after proper medical treatment, often alongside a septoplasty. The art is to make room while keeping the lining. Take too much and the nose can feel blocked even though it is wide open, the dreaded empty nose. This chapter covers how to choose the patient, the submucosal reduction of the inferior turbinate that the authors prefer, outfracture, and resection of a concha bullosa without injuring the sinus drainage pathway or the skull base.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Turbinate surgery
+ | Summary
+Indications | **Inferior turbinate:** nasal obstruction from turbinate hypertrophy despite medical treatment, alone or with septoplasty (compensatory hypertrophy on the concave side). **Middle turbinate:** a large concha bullosa causing obstruction, blocking the ostiomeatal complex, preventing septal correction, or limiting access to the uncinate and bulla in sinus surgery
+Contraindications | Unacceptable anaesthetic risk; an objectively open nose after previous turbinate surgery with persistent subjective blockage (likely empty nose or another cause); a sinonasal tumour, which is treated first
+Anaesthesia | General for submucosal resection with a microdebrider or through-cutting instruments; sedation or local only for low-bleeding-risk techniques such as submucosal coblation, ideally where the airway can be managed
+Position | Supine under general; beach-chair or sitting for awake procedures
+Antibiotics | Not clearly needed without packs or splints; if used, a first-generation cephalosporin, or clindamycin if allergic to penicillin
+Monitoring | No special monitoring
+Imaging | Not needed for obstruction alone; CT if chronic rhinosinusitis or a concha bullosa affecting drainage is suspected
+Tray | 0- and 30-degree telescopes; sharp Molt elevator or blade (or needle-tip diathermy) for the incision; Cottle elevator; through-cutting forceps; microdebrider with 2.9 to 3.5 mm turbinate blades; Frazier sucker; diathermy; for the middle turbinate, a sickle knife and turbinate scissors
+Before theatre | A proper trial of medical treatment and control of allergy or rhinitis; stop antiplatelets and herbal products such as ginkgo and ginseng after discussion with the prescriber; wean decongestant sprays in rhinitis medicamentosa with a steroid cover
+!!
+## Consent
+!consent What to tell the patient
+- **What it does:** reduces the bulk inside the lower (or middle) turbinate to open the airway, while keeping the lining that warms and moistens the air.
+- **What it may not do:** allergy and rhinitis continue and still need treatment; symptoms can return over time.
+- **Bleeding**, the commonest problem (around one in ten in early series), usually managed in clinic.
+- **Scar bands (adhesions)** between the turbinate and septum, more likely when septoplasty is done at the same time; usually cut in clinic.
+- **Crusting** for a few weeks.
+- **Sinus infection.**
+- **Rare:** injury to the tear duct and a watering eye; a CSF leak after middle turbinate surgery.
+- **Empty nose:** a rare feeling of blockage or suffocation despite a wide nose, which is hard to treat; avoided by keeping the lining.
+!!
+## Before you start
+### The history
+- **Fixed or variable blockage?** Fixed suggests a bad septal deviation, gross turbinate hypertrophy, polyps or tumour; variable suggests the turbinate's venous sinusoids and the nasal cycle.
+- **Worse lying down?** Engorgement of the turbinate sinusoids: turbinate reduction is likely to help.
+- **Worse with a hard sniff or on exercise?** Think of nasal valve collapse.
+- **Better with a decongestant spray?** A soft-tissue turbinate problem that reduction should help.
+- **Better with external nasal strips, cones or lifting the tip?** The valve or external framework needs attention, instead of or as well as the turbinates.
+- **One side or both?** The blockage may be on the side of the septal deviation, or on the opposite side from compensatory turbinate hypertrophy. **New one-sided blockage with bleeding** must be investigated for a tumour.
+- **Previous treatment and surgery:** what was done, and how much and for how long it helped. Ask about decongestant overuse.
+### Comorbidities that keep the nose blocked
+Allergic and non-allergic rhinitis, chronic rhinosinusitis, adenoid hypertrophy and nasopharyngitis, rhinitis medicamentosa, chemotherapy mucositis, and vasculitis or granulomatous disease (fragile mucosa, more crusting: dissect gently).
+### The examination
+Watch quiet and forced breathing for valve collapse; anterior rhinoscopy for the caudal septum, columella and valve; endoscopy for concha bullosa, posterior deviations, polyps and the nasopharynx; and look in the mouth for large tonsils (and occasionally an antrochoanal polyp).
+!table Causes of nasal obstruction
+Common | Less common
+Septal deviation | Adenoid hypertrophy
+Inferior turbinate hypertrophy | Foreign body
+Nasal valve collapse | Benign and malignant tumours
+Nasal polyps | Septal haematoma or abscess
+Large concha bullosa | Adhesions (synechiae)
+!!
+!flag The patient who will not get better
+Subjective blockage does not always match what you see. If the nose is already objectively open, more turbinate surgery will not help, especially after several previous operations: look for valve collapse, and consider empty nose or a psychological contribution. Showing the patient a wide airway on video endoscopy or acoustic rhinometry, and their lack of response to a decongestant, can help.
+!!
+
+# Anatomy you must see | Where the air goes and what to protect.
+## Airflow
+Most air passes through the middle of the nasal cavity, over the upper surface of the inferior turbinate and along the body of the middle turbinate to the nasopharynx. Turbinate hypertrophy changes the flow: more turbulence, more negative pressure and more shear on the mucosa.
+## The inferior turbinate
+- The **anterior head** forms the lower boundary of the **internal nasal valve**, the narrowest part of the nose; reducing it carefully has the biggest effect on airflow.
+- The **turbinate bone** is irregular, so watch your elevator at all times.
+- The **inferior turbinate branch of the posterior nasal artery** usually runs within the bone or partly in bone and partly in submucosa; the **lower surface** has the fewest large vessels.
+- The **nasolacrimal duct** opens in the inferior meatus about **30 to 40 mm behind the nostril sill**; injuring the lateral wall there causes epiphora.
+- The **posterior tip** (the mulberry end) bleeds readily.
+## The middle turbinate
+- The **hiatus semilunaris**, with the **uncinate process** and **ethmoid bulla**, lies lateral to it; injuring them scars the ostiomeatal complex and causes sinusitis.
+- The turbinate hangs from the **cribriform plate**; twisting or avulsing it can tear the skull base.
+- The **basal lamella** marks the back limit of a concha bullosa resection.
+- More olfactory epithelium may lie on the **lateral** than the medial lamella of a concha bullosa.
+!mf 1 | The lateral half of a right concha bullosa removed: the uncinate process and ethmoid bulla are left untouched so that the hiatus and infundibulum keep working.
+
+# The operation: inferior turbinate reduction | Submucosal, under the scope.
+## Decongest and inject
+Apply 0.05% oxymetazoline pledgets. Inject 1% lidocaine with 1:100,000 adrenaline along the inferomedial surface and the anterior tip of the inferior turbinate.
+!see What you should see
+- A shrunken, pale turbinate and a clear view of its head, body and attachment.
+!!
+## Incision and elevation
+Under the endoscope, make a stab incision in the front of the turbinate at its attachment to the lateral wall, with the sharp end of a Molt elevator, a blade, needle-tip diathermy or a turbinate microdebrider blade. Raise the mucosa off the medial, inferior and upper surfaces of the bone, keeping the tip of the elevator in view as the bone undulates. The bone can be outfractured from inside the pocket as you go back, which improves the view.
+!mf 2 | Submucosal reduction: incision in the turbinate mucosa, elevation off the bone, removal of bone with biting forceps, microdebrider on the lateral side, and the medial mucosa rolled laterally.
+!see What you should see
+- A long submucosal tunnel with the turbinate bone exposed inside it and the covering mucosa intact.
+!!
+## Submucosal resection
+Insert a 3.5 mm (or turbinate-specific 2.9 mm) microdebrider blade into the tunnel and remove the excess lateral soft tissue and, if needed, bone, always seeing where the blade is beneath the mucosa. For a very large turbinate, take the lateral mucoperiosteum of the front of the turbinate with its bone (bone is quicker with through-cutting forceps), then drape the medial mucosa laterally over the raw area.
+!danger The blade that goes through
+Angled upward, the blade can come out through the top of the inferior turbinate and catch the middle turbinate, or punch a hole that whistles and crusts. Keep the blade low in the pocket and pointed along the turbinate.
+!!
+!mf 4 | Wrong and right: a microdebrider angled up out of the inferior turbinate toward the middle turbinate, and the same blade correctly placed within the turbinate pocket.
+!senior Senior's pearl
+Preserve the mucosal surface, especially at the anterior head, and avoid cautery on the surface. The aim is a smaller turbinate that still works, not an empty nose.
+!!
+## Outfracture
+With a broad elevator or septal displacer, push the turbinate laterally under vision. It moves more easily if it was outfractured from inside the pocket during elevation. Splints can be placed to hold it and to reduce venous congestion and swelling.
+!mf 3 | Outfracture of a prominent inferior turbinate.
+!see What you should see
+- A turbinate lying against the lateral wall with a clear channel along the floor and up to the middle meatus, and an intact medial mucosa.
+!!
+
+# The operation: concha bullosa | Lateral or medial laminectomy.
+## Inject
+Inject at the axilla, along the anterior face and posteriorly near the lower edge of the basal lamella.
+## Open the air cell
+With a sickle knife, cut into the air cell through the front of the turbinate, **lateral to its vertical attachment** so that you do not twist the cribriform plate. If the air cell lies further back, enter laterally or medially where it is. Extend the cut up and down.
+!danger The skull base
+Avulsing the middle turbinate or working too high on it can tear the cribriform plate and cause a CSF leak. Cut sharply, never pull, and keep the cribriform plate in view.
+!!
+## Remove the lamella
+Remove the lateral (or medial) lamella with through-cutting forceps or the microdebrider, piecemeal or in one piece by extending upper and lower cuts backward. Stop at about the basal lamella. When taking the lateral lamella, protect the **uncinate and bulla**: a blunt elevator can gently infracture the lateral lamella away from them as you go back. Trim free edges with the microdebrider.
+!see What you should see
+- A slimmer middle turbinate with its medial lamella and attachment intact, and an untouched uncinate, bulla and hiatus beside it.
+!!
+!senior Senior's pearl
+A medial laminectomy opens the concha as well as a lateral one, and a lateral laminectomy has to be done carefully to keep the infundibulum working. Whichever side you take, fix the middle turbinate to the septum (a medialisation suture or controlled scar) if it is unstable, so it does not fall laterally and block the middle meatus.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Bleeding during or after the operation
+During | pressure with decongestant pledgets ; selective suction diathermy, especially at the posterior tip
+After | targeted absorbable packing or cautery in clinic
+Escalate | return to theatre ; check clotting and blood pressure
+!!
+!path Watering eye after surgery
+Suspect | injury to the nasolacrimal duct in the inferior meatus
+Act | refer to ophthalmology ; dacryocystorhinostomy may be needed
+!!
+!path Clear fluid from the nose after middle turbinate surgery
+Suspect | CSF leak from a twisted or avulsed middle turbinate
+Act | repair at once endoscopically if seen during surgery ; test for beta-2 transferrin and image if it appears later
+!!
+!path A wide nose that feels blocked
+Recognise | empty nose: loss of the feeling of airflow, crusting and dryness after over-resection
+Act | humidification, saline and emollients ; specialist management (treatment is controversial)
+!!
+
+# Aftercare | Saline and patience.
+## After the operation
+- Pain is usually controlled with paracetamol or a low-dose opioid; non-steroidal drugs from day 7.
+- **Saline irrigation** clears mucus, clot and debris and keeps any splints clear.
+- **Splints out at 3 to 5 days** if used.
+- Adhesions are cut in clinic under topical anaesthesia; sinusitis is treated with antibiotics, guided by endoscopic culture.
+## Complications
+!table Complications of turbinate surgery
+Complication | Frequency or cause
+Bleeding | Commonest, around 10%; posterior tip and incision
+Adhesions | About 3% to 9%; more with septoplasty, where raw surfaces face each other
+Acute sinusitis | Breach of the upper surface into the middle meatus, adhesions
+Nasolacrimal duct injury | Lateral wall of the inferior meatus, 30 to 40 mm back
+Through-and-through hole | Blade angled out of the turbinate: whistling, crusting
+Empty nose syndrome | Over-resection; rare with modern techniques
+CSF leak | Avulsion or high dissection of the middle turbinate
+Atrophic rhinitis | Total or aggressive partial turbinectomy
+!!
+## Choosing a technique
+!table Inferior turbinate techniques compared
+Technique | Long-term result | Mucosa
+Submucosal resection, including powered | Best reported long-term relief | Preserved; mucociliary clearance returns to normal by 6 months
+Radiofrequency, coblation, laser, cryotherapy, cautery | Relief fades more often | Measurable damage to mucosal function
+Partial or total turbinectomy | Widens the airway | Lost; risk of bleeding, adhesions, atrophic rhinitis and empty nose; out of favour
+Outfracture | Adds to other techniques | Preserved
+!!
+## Alternatives
+Treating rhinitis medically is an excellent alternative if it works; immunotherapy may be enough for significant allergic rhinitis.
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Dhingra: lists the methods of reducing hypertrophic turbinates (linear cauterisation, submucosal diathermy, cryosurgery, partial or total turbinectomy, submucous resection of turbinate bone, and lasers, coblation and radiofrequency), warns that excessive removal causes persistent crusting, and notes that compensatory turbinate hypertrophy on the roomy side of a deviated septum often does not reverse after septal correction, so the turbinate is reduced at the same operation.
+Lee: separates atrophic rhinitis from **empty nose syndrome**, which it describes as obstruction attributed to excessive turbinate removal, and lists turbinate reduction among the nasal procedures for sleep-disordered breathing.
+Myers prefers **powered submucosal resection** with endoscopes, gives the reasons (best long-term relief, preserved mucociliary function), adds the outfracture, and sets out how to resect a concha bullosa safely around the ostiomeatal complex and skull base.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Functions of the turbinates** and why mucosa-sparing techniques are preferred.
+- The **techniques** of inferior turbinate reduction and which has the best long-term evidence (submucosal resection).
+- **Empty nose syndrome** versus atrophic rhinitis.
+- The **anterior head** and the internal nasal valve.
+- **Concha bullosa:** what it is, why it matters, medial versus lateral laminectomy, and the structures to protect (uncinate, bulla, cribriform plate).
+- The **nasolacrimal duct opening**, 30 to 40 mm behind the sill.
+- **Compensatory hypertrophy** on the concave side of a deviated septum.
+!!
+## Common pitfalls
+!pit
+- Operating on a nose that is already objectively open.
+- Missing valve collapse as the real cause.
+- Not treating allergy and rhinitis first.
+- Stripping the mucosa or cauterising the surface.
+- Angling the microdebrider up out of the inferior turbinate.
+- Twisting or pulling the middle turbinate.
+- Injuring the uncinate or bulla during a lateral laminectomy.
+!!

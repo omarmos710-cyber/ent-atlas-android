@@ -1,0 +1,191 @@
+@stand Head and neck cancers spread to the neck nodes in predictable directions, and that predictability is what makes selective neck dissection possible: instead of removing every node with the jugular vein, accessory nerve and sternocleidomastoid, you remove only the levels at risk for that primary site and keep everything else. It stages the clinically negative neck, finds the hidden metastases that imaging cannot see, decides who needs radiotherapy, and in selected small-volume necks treats disease as well as a bigger operation. This chapter covers the levels and their boundaries, which levels go with which primary, the surgical steps level by level, and the complications that matter most: the accessory nerve, the marginal mandibular nerve and the thoracic duct.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Selective neck dissection
+ | Summary
+Indications | A clinically negative neck with a risk of hidden metastasis above about 15% to 20% when the primary is treated surgically; a transcervical approach to the primary; vessels for a free flap; N1 disease in the first-echelon levels; low-volume N2 disease without fixation; limited residual disease after radiotherapy or chemoradiotherapy
+Contraindications | Poor surgical candidate; primary treated without surgery; unresectable primary; fixed nodes; distant metastases
+Anaesthesia | General; avoid paralysis until the nerves at risk are found; agree with the anaesthetist on duration, blood loss and monitoring
+Position | Table turned 90 to 180 degrees; supine, head turned away; a moderate shoulder roll (not hyperextended, to avoid neck pain)
+Antibiotics | Not needed for an isolated neck dissection; guided by the approach to the primary
+Monitoring | Not routine for an isolated neck dissection
+Imaging | CT or MRI of the neck and primary within 30 to 60 days; nodes suspicious by size, shape, irregular enhancement or clustering; ultrasound-guided FNA if it would change the plan; nodes under 1 cm cannot be reliably judged
+Tray | Neck dissection set; vascular sutures for jugular injury; nerve hooks and loops; headlight and loupes; bipolar, monopolar and harmonic or vessel-sealing devices; closed suction drains
+Before theatre | Medical risk assessment; plan the reconstruction of the primary if needed; look for a second primary
+!!
+## Consent
+!consent What to tell the patient
+- **What it is:** removing the lymph nodes from the parts of the neck most likely to hide cancer spread, keeping the main nerve, vein and muscle; the results decide whether you need further treatment.
+- **Shoulder weakness and pain**, from stretching of the nerve to the shoulder muscle; usually recovers with physiotherapy.
+- **Numbness** of the neck skin and ear lobe.
+- **Weakness of the lower lip** (marginal nerve), and less often of the tongue (hypoglossal nerve) or tongue numbness (lingual nerve), when the upper levels are cleared.
+- **A milky leak (chyle)** from the lymph duct at the base of the neck, mainly on the left.
+- **Bleeding**, a collection under the skin, infection, swelling of the face and neck, and slow healing, especially after radiotherapy.
+- **Hoarseness and low calcium** if the central nodes are removed.
+- **Rare:** a drooping eyelid (Horner syndrome), a paralysed diaphragm, swallowing difficulty.
+!!
+## Before you start
+- Examine the primary fully, and look for a **second primary**.
+- Feel the neck for nodes (accuracy depends on build), noting their level and mobility.
+- Plan which levels to remove from the primary site, the stage, and whether the neck is clinically negative or positive.
+
+# Anatomy you must see | Levels, layers and nerves.
+## The levels
+!table Neck levels and their boundaries
+Level | Nodes | Boundaries
+Ia | Submental | Between the anterior bellies of digastric, from the mentum to the hyoid
+Ib | Submandibular | Mandible above, anterior and posterior bellies of digastric; includes the gland and its node groups
+IIa and IIb | Upper jugular | Skull base to hyoid; front edge at the stylohyoid; back at the posterior border of sternocleidomastoid; the accessory nerve divides IIa (in front) from IIb (behind)
+III | Middle jugular | Hyoid to the lower border of the cricoid; front edge at the sternohyoid; back at the posterior border of sternocleidomastoid
+IV | Lower jugular | Cricoid to the clavicle; same front and back limits
+Va and Vb | Posterior triangle | Between sternocleidomastoid, trapezius and clavicle; a horizontal plane at the lower cricoid divides Va (accessory nodes) above from Vb (supraclavicular and transverse cervical nodes) below
+VI | Central | Hyoid to suprasternal notch, between the carotid sheaths: prelaryngeal, pretracheal and paratracheal nodes
+VII and others | Superior mediastinal, retropharyngeal, parotid, postauricular, occipital | Named by site
+!!
+## Which levels for which primary
+!table Levels at risk by primary site
+Level | Primary sites
+Ia | Lower lip, front of tongue, anterior mandibular alveolus
+Ib | Oral cavity, front of the nasal cavity, midface skin, submandibular gland
+II | Oral cavity, nasal cavity, nasopharynx, oropharynx, hypopharynx, larynx (IIb is involved in under 5% of negative necks and is usually left in elective dissection)
+III | Oral cavity, nasopharynx, oropharynx, hypopharynx, larynx
+IV | Larynx, hypopharynx, thyroid, cervical oesophagus
+V | Nasopharynx, oropharynx, skin of the back of the scalp and neck
+VI | Thyroid, glottis and subglottis, hypopharynx, cervical oesophagus
+!!
+!table The common selective dissections
+Name | Levels | Usual use
+Supraomohyoid | I to III (I to IV extended) | Oral cavity cancer
+Lateral | II to IV | Oropharynx, hypopharynx and larynx
+Posterolateral | II to V with suboccipital and postauricular nodes | Skin cancer behind the ear canal (back of the ear, scalp)
+Central compartment | VI | Thyroid, glottis and subglottis, piriform sinus, cervical oesophagus, trachea
+!!
+## Layers and structures
+- The dissection removes the fatty node-bearing tissue between the **superficial and deep layers of deep cervical fascia**; the deep layer stays on the floor of the neck to protect the **phrenic nerve** and **brachial plexus**.
+- **Erb's point** at the posterior border of sternocleidomastoid marks the accessory nerve; the **transverse process of the atlas** is a palpable guide to the nerve near the jugular vein.
+- The **accessory nerve** enters the underside of the trapezius about 1 cm from its edge, which tells it from cervical plexus branches.
+- The **thoracic duct** (left) and right lymphatic duct enter at the base of the neck near the jugular-subclavian junction.
+- The **sympathetic trunk** lies deep and medial to the carotid; injury causes Horner syndrome.
+
+# The operation, stage by stage | Superficial to deep, level by level.
+## Incision and flaps
+Plan a transverse incision in a skin crease or a utility incision. Find the platysma before cutting it: its back edge guides you to the **external jugular vein** and **great auricular nerve**. Raise flaps **just deep to the platysma** (an avascular plane that keeps those structures and the fascia on the sternocleidomastoid), to the mandible (level I), the posterior belly of digastric (II), the omohyoid (III), the clavicle (IV), the trapezius and clavicle (V), and the sternal notch and hyoid (VI). Where the platysma is absent, continue in a subcutaneous plane.
+!see What you should see
+- Flaps with the platysma on them, the external jugular vein and great auricular nerve lying intact on the sternocleidomastoid.
+!!
+## Level I
+Clear the **submental triangle (Ia)** between the anterior bellies from the mentum to the hyoid, including the tissue between and beneath them. For **Ib**, open the gland's investing fascia near the angle of the mandible, where the **marginal mandibular nerve** leaves the parotid tail; skeletonise it and lift it above the mandible. Then free the gland fascia from the mandible, tie the facial artery and vein, and pull level I down and back while clearing tissue off the anterior digastric and mylohyoid. Tie the vessels to the mylohyoid, retract its back edge forward, and find the **lingual nerve**, the ganglion, the duct and the **hypoglossal nerve** on the hyoglossus. With both nerves seen, divide the ganglion branches and the duct as far forward as possible (to include accessory gland tissue along the duct).
+!mf 1 | Level Ib dissection: the marginal nerve lifted with the facial vessels, the mylohyoid retracted, and the lingual nerve, ganglion, duct and hypoglossal nerve exposed.
+!danger The marginal mandibular nerve
+Its height below the mandible varies. Find it where it leaves the parotid tail near the angle, and keep it in the flap above the mandible before you work on the gland.
+!!
+## Levels II to IV: the front of sternocleidomastoid and the accessory nerve
+Lift the fascia off the whole front edge of the sternocleidomastoid, keeping the great auricular nerve, and retract the muscle back to clear its deep surface. (Tie the external jugular vein high if you need to, leaving length for a free flap anastomosis.) Find the **accessory nerve** where it enters the sternocleidomastoid, handling it gently. Clear the lower border of the **posterior belly of digastric** and lift it to show the nerve crossing the jugular vein.
+!mf 2 | Levels II and III: the sternocleidomastoid retracted, the accessory nerve, internal jugular vein, great auricular nerve and omohyoid exposed.
+!see What you should see
+- The accessory nerve crossing in front of the jugular vein (usually) under the digastric, and running into the sternocleidomastoid.
+!!
+## Level IIb, when included
+For a positive neck, retract the digastric and stylohyoid up and the sternocleidomastoid back, skeletonise the accessory nerve from the jugular vein to the muscle, and clear the fat of IIb from the muscular floor, using cautery in the upper corner but a fine dissector and bipolar near the nerve and vein. Pass the IIb contents **under the nerve** to join IIa. For an elective dissection, the upper limit of IIa is below where the nerve crosses the vein.
+!mf 3 | Level IIb identified (A) and its fatty tissue freed from the accessory nerve and the muscular floor (B).
+!danger The accessory nerve
+Traction and heat injure it as surely as cutting. Shoulder dysfunction is the commonest lasting problem after neck dissection; handle the nerve gently and use bipolar near it.
+!!
+## The floor of the neck
+Retract the sternocleidomastoid back and, with the assistant pulling the specimen forward with a swab, cut through the fat beneath the muscle to the **muscular floor**, keeping the deep fascia intact on the scalenes and levator scapulae. Its back limit is the posterior border of sternocleidomastoid and the cervical plexus branches, which are kept. Divide the posterior belly of **omohyoid** to clear level III and the **jugulo-omohyoid node**, which belongs in level III and IV dissections. The transverse cervical vessels lie on the fascia and can be kept.
+!mf 4 | Levels IIa, III and IV: the floor of the neck with the cervical nerves, phrenic nerve on the scalene, the jugular vein, carotid, omohyoid, transverse cervical artery and thoracic duct.
+!see What you should see
+- A clean muscular floor covered by its fascia, with the phrenic nerve running down on the scalenus anterior and the cervical rootlets intact.
+!!
+## The jugular vein and the lower limit
+Before opening the carotid sheath, define the lowest point of the dissection: expose the lateral wall of the internal jugular vein low down, then clamp and tie the fatty tissue lateral to it for 2 to 3 cm toward the sternocleidomastoid. This is where the **thoracic duct** and its branches run, so do not rely on cautery alone. Expose the vein's lateral wall at the top as well, so it cannot twist. Then, with the assistant pulling the contents forward and you holding countertraction, open the sheath sharply along the whole length of the vein with a size 10 blade, tying its branches, and free the tissue from the lateral border of the sternohyoid. Detach the upper belly of omohyoid from the hyoid if it is in the specimen.
+!danger The twisted jugular vein
+A vein that twists while you strip the sheath hides its wall, and you can cut into it. Expose its lateral wall at the top and bottom before you start along it.
+!!
+!senior Senior's pearl
+Traction and countertraction do most of the work. With the specimen pulled forward and the vein held back, a sharp blade clears the jugular chain cleanly and quickly; poor tension leads to tearing and bleeding.
+!!
+## Level V, when included
+Expose the posterior border of sternocleidomastoid, the clavicle and the front edge of trapezius. Find the **accessory nerve** at the posterior border of sternocleidomastoid, skeletonise it across the posterior triangle to where it runs under the trapezius edge for 1 to 2 cm before entering it, and bring the level V contents **under the nerve**. Clear them off splenius capitis, levator scapulae and the scalenes, leaving the deep fascia to protect the brachial plexus; if levels II to IV are also being removed, pass level V under the sternocleidomastoid to come out with them.
+!mf 5 | The accessory nerve identified (A) and skeletonised, with level V brought beneath it (B).
+## Level VI, when included
+Define the carotid sheaths laterally, the cricoid above, the trachea medially and the innominate artery below. Find and protect both **recurrent laryngeal nerves** and the **parathyroids** (frozen section and autotransplantation separate a parathyroid from a node), skeletonise the nerve through the compartment, and remove the tissue deep to it as well.
+## Finish
+Divide the specimen into its levels, label them, and send them separately. Inspect for bleeding and **chyle** while the anaesthetist does a Valsalva (or presses firmly on the abdomen). Place closed suction drains in the lowest part of the bed, on wall suction while you close so they do not clot; close the platysma and subcutaneous layers with interrupted absorbable sutures, switch to bulb suction to confirm an airtight seal, then close the skin with nylon, Prolene or staples.
+!see What you should see
+- A dry bed with no chyle on Valsalva, the specimen labelled by level, and an airtight closure.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Chyle in the wound during surgery
+Act | find the leak with Valsalva or abdominal pressure ; clip, clamp or tie it ; seal lymphatics with a vessel-sealing device ; reinforce with a local muscle flap or fibrin glue
+Check | repeat the Valsalva until it stays dry
+!!
+!path Milky drain output after surgery
+Recognise | rising, milky output, especially once feeding starts (confirm with triglycerides)
+Act | low-fat or medium-chain triglyceride diet, pressure dressing, keep the drain ; consider octreotide
+Escalate | re-explore for a high-output leak that does not settle
+!!
+!path A hole in the jugular vein
+Act | press with a finger or swab, head down slightly to avoid air embolism ; control above and below
+Repair | close with fine vascular suture, or tie the vein if needed (one side only)
+!!
+!path Shoulder weakness and pain afterwards
+Likely | accessory nerve neuropraxia from traction
+Act | early shoulder physiotherapy from day 1 or 2 ; review recovery
+!!
+
+# Aftercare | Drains, physiotherapy and the pathology.
+## After the operation
+- Ointment to the incision; measure and record drain output; remove drains when the output falls.
+- **Shoulder physiotherapy from the first or second day.**
+- Review the pathology by level: it decides adjuvant radiotherapy or chemoradiotherapy.
+## Complications
+!table Complications of selective neck dissection
+Complication | Notes
+Shoulder dysfunction, pain, capsulitis | Accessory nerve traction; physiotherapy
+Chyle leak | Thoracic duct (left) or right lymphatic duct
+Haematoma, infection, sialocele | Haemostasis, drains
+Facial and neck swelling | Especially bilateral dissections
+Flap necrosis, poor healing | Previously irradiated neck
+Marginal mandibular weakness | Level Ib
+Tongue weakness or numbness, slurred speech | Hypoglossal or lingual nerve, level Ib
+Hoarseness, low calcium | Recurrent nerve and parathyroids, level VI
+Skin and ear lobe numbness | Cervical plexus, great auricular nerve
+Horner syndrome | Sympathetic trunk
+Diaphragm paralysis | Phrenic nerve, if the deep fascia is breached
+Dysphagia | Extensive or bilateral dissection
+!!
+## Alternatives and evidence
+Radiotherapy, or observation, for a negative neck in a poor surgical candidate. Selective dissections grew from the finding that nodes spread along predictable routes from each primary site (Shah's analysis of over 1,000 radical neck dissections), and repeated studies have shown regional control comparable to comprehensive dissection for the negative neck, and for selected positive necks, with better shoulder function and appearance.
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Dhingra: classifies neck dissections into radical, modified radical (type I keeps the accessory nerve; type II also the jugular vein; type III also the sternocleidomastoid), selective (supraomohyoid I to III for oral cavity, lateral II to IV, posterolateral II to V with postauricular and occipital nodes, anterior compartment VI) and extended; defines selective as keeping one or more node groups and all three non-lymphatic structures.
+Lee: in thyroid cancer, recommends a systematic lateral (levels II to IV, with V if imaging shows disease) dissection for biopsy-proven lateral nodes rather than picking out single nodes, which lowers nodal recurrence and reoperation; and uses a level II to III selective dissection to open the field and sample nodes in carotid body tumour surgery.
+Myers gives the level boundaries, the levels at risk by primary site (including the low rate in IIb), the level-by-level technique, the lower limit tie for the thoracic duct, the steps to stop the jugular vein twisting, and the labelled, level-by-level specimen.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- The **levels and sublevels** and their boundaries (what divides IIa from IIb, Va from Vb).
+- The **classification** of neck dissections and the names of the selective types.
+- **Which levels for which primary**, and why IIb is usually spared in a negative neck.
+- The **threshold** for elective neck treatment (occult risk over 15% to 20%).
+- Finding and protecting the **accessory nerve** (Erb's point, the atlas, entry into trapezius).
+- The **thoracic duct** and the management of a chyle leak.
+- Why the **deep cervical fascia** is left on the floor.
+!!
+## Common pitfalls
+!pit
+- Not finding the marginal nerve before clearing level Ib.
+- Dividing the duct before seeing the lingual and hypoglossal nerves.
+- Traction on the accessory nerve.
+- Stripping the deep fascia off the floor.
+- Cautery alone at the lower limit near the thoracic duct.
+- Letting the jugular vein twist.
+- Sending the specimen without labelling the levels.
+- Leaving drains that clot during closure.
+!!

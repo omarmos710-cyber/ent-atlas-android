@@ -1,0 +1,192 @@
+@stand The ethmoid labyrinth sits between the two places you must never enter by accident, the orbit and the anterior cranial fossa, and ethmoidectomy remains the commonest source of serious complications and litigation in the specialty. Done well, it removes the diseased cells that block the ethmoid and, through them, the frontal and maxillary sinuses; for diffuse chronic rhinosinusitis a complete ethmoidectomy, with every partition removed and the lining preserved, opens the way for rinses, topical steroids and surveillance. This chapter teaches a landmark-based approach: read the CT first, then find the lamina papyracea, the basal lamella, the superior turbinate and the skull base in order, reach the safe "corner" at the back, and only then work forward along the roof.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Endoscopic ethmoidectomy
+ | Summary
+Indications | Symptomatic chronic rhinosinusitis, with or without polyps, with significant disease causing obstruction despite appropriate medical treatment; ethmoid mucocele; access to the frontal sinus (agger nasi and suprabullar cells) and the sphenoid; recurrent acute sinusitis; fungal disease; and, with advanced skills, tumours, CSF leaks, orbital decompression and skull base approaches
+Contraindications | Unfit for general anaesthesia; uncontrolled asthma (control it first, with a chest physician); profuse bleeding that prevents a safe view is a reason to stop
+Anaesthesia | General; total intravenous anaesthesia gives a drier field in severe polyposis; avoid beta-blockers alongside topical alpha agonists (unopposed alpha stimulation, cardiovascular collapse)
+Position | Supine, head up 20 to 30 degrees and tilted 15 degrees toward the surgeon; surgeon, patient and screens in one line; a shoulder roll extends the head for frontal work
+Antibiotics | Culture-directed if a culture is available (essential in cystic fibrosis); otherwise cefazolin 1 to 2 g by weight
+Monitoring | Standard; a heart rate around 60 and mean arterial pressure around 60 mm Hg, where safe, give a better field
+Imaging | **Mandatory:** a dedicated sinus CT, 1 mm or thinner, in a navigation protocol with coronal and sagittal reformats; MRI with contrast for tumours, to separate tumour from inflamed mucosa and secretions and show perineural spread
+Tray | 0-, 30- and 45-degree telescopes; straight and 45-degree upturned through-cutting forceps (fine flat jaws, including 1 mm sizes); double-ended J-curette; sickle knife; Kerrison rongeurs or sphenoid punch; microdebrider; navigation system when needed
+Before theatre | Stop aspirin, anti-inflammatories, anticoagulants and supplements at least 7 days before; clotting tests if there is a bleeding history; a course of oral steroid in eosinophilic polyposis reduces inflammation and bleeding; obtain previous scans and pathology
+!!
+## Consent
+!consent What to tell the patient
+- **What it is:** opening the small air cells between the eyes from inside the nose, removing diseased bone partitions while keeping the lining, so that the sinuses drain and rinses and sprays can reach them.
+- **What it is not:** surgery does not cure chronic rhinosinusitis with polyps or cystic fibrosis; it is part of long-term treatment, and the rinses, sprays and follow-up afterwards are as important as the operation.
+- **Bleeding**, occasionally needing packing or transfusion.
+- **Infection, scarring and recurrence**, which may need further surgery.
+- **A worse or lost sense of smell.**
+- **Leak of brain fluid (CSF)**, needing repair; rarely meningitis.
+- **Eye injury:** bruising, swelling, a bleed behind the eye, double vision, and, rarely, loss of sight.
+- **Watering eye** from injury to the tear duct.
+- **Symptoms may not improve** or may get worse.
+!!
+## Before you start
+### The history
+- Which symptom troubles the patient most, and for how long: blockage, reduced smell, facial pressure, discharge or postnasal drip. This frames what surgery can achieve.
+- What has been tried: systemic antibiotics and steroids, topical treatments, previous surgery.
+- **Asthma:** common with sinus disease; surgery waits until it is controlled.
+- **Cystic fibrosis:** plan with a chest physician; perioperative antibiotics are usually needed.
+- **Aspirin or anti-inflammatory sensitivity** (aspirin-exacerbated respiratory disease).
+- Anticoagulants, aspirin and supplements that increase bleeding.
+### The examination
+Endoscopy with 0- and 30-degree telescopes in three passes (floor and nasopharynx; middle meatus, bulla, uncinate and sphenoethmoidal recess; olfactory cleft), recording polyps, pus, septal deviation and masses.
+### Reading the CT
+!flag Five things to find on the CT before every ethmoidectomy
+- The **ethmoid bulla** and how close it lies to the **medial orbital wall**; any erosion or old fracture of the lamina.
+- The **superior turbinate** and how the posterior ethmoid relates to the skull base.
+- The **anterior and posterior ethmoid arteries**: in bone, or hanging below the roof in a mesentery (more at risk).
+- The **height of the ethmoid compared with the maxillary sinus**: a short ethmoid above a big antrum means the skull base is closer than it looks.
+- **Variants:** Onodi cells (bringing the optic nerve and carotid close), suprabullar cells, Keros depth.
+!!
+
+# Anatomy you must see | The four landmarks and the corner.
+## The skull base
+- The roof of the ethmoid slopes **down from front to back** and **from lateral to medial**; it is thicker laterally and thinnest at the **lateral lamella of the cribriform plate**.
+- **Keros classification** by depth of the olfactory fossa: **type I 1 to 3 mm, type II 4 to 7 mm, type III 8 to 16 mm**. The deeper the fossa, the longer and more exposed the thin lateral lamella, and the higher the risk of a CSF leak.
+!mf 1 | Sagittal CT showing the slope of the skull base; posterior ethmoid cells marked P, the basal lamella of the middle turbinate marked with an asterisk.
+!mf 2 | Keros types I, II and III by depth of the olfactory fossa.
+!mf 6 | A short ethmoid above a well-pneumatised maxillary sinus: the skull base is closer than it appears.
+## The arteries
+- The **anterior ethmoid artery** is seen on coronal CT **just behind the globe**, at the notch between the superior oblique and medial rectus.
+- Arteries running **below the roof in a mesentery** are more easily torn, and a torn artery can retract into the orbit and cause an **orbital haematoma**.
+!mf 4 | Coronal CT: the left anterior ethmoid artery just behind the globe (arrow).
+!mf 3 | Endoscopic view of the anterior (single arrow) and posterior (double arrows) ethmoid arteries, with a left maxillary antrostomy (asterisk).
+## The four landmarks in order
+1. The **lamina papyracea** (medial orbital wall), seen once the bulla is removed.
+2. The **basal lamella** of the middle turbinate, which divides anterior from posterior ethmoid.
+3. The **superior turbinate**, seen through the opened basal lamella.
+4. The **skull base** in the posterior ethmoid, reached at the **corner** where the skull base, the medial orbital wall and the face of the sphenoid meet.
+!senior Senior's pearl
+Once you have reached the corner, you can complete the ethmoidectomy safely by working forward along the roof. Until you have found it, do not touch the roof.
+!!
+
+# The operation, stage by stage | Back to the corner, then forward.
+## Inject and decongest
+Inject 1% lidocaine with 1:100,000 adrenaline endoscopically at the **sphenopalatine region** (about 1 cm behind the posterior end of the middle turbinate on the lateral wall), the **axilla** of the middle turbinate, the **uncinate process** and the **medial surface** of the middle turbinate. Place pledgets soaked in equal parts 0.05% oxymetazoline and 4% lidocaine (or 1:1000 adrenaline) for at least 10 minutes, one between the middle turbinate and lateral wall to gently medialise it and shrink the bulla region. (The uncinectomy and antrostomy are described in their own chapter.)
+!mf 5 | The theatre set-up: surgeon on the patient's right, navigation above the head, the endoscopy screen facing the surgeon across the head, and the head raised and tilted toward the surgeon.
+!mf 7 | Injection of the left lateral nasal wall, the axilla of the middle turbinate and the medial surface of the middle turbinate.
+!see What you should see
+- A pale, shrunken middle meatus with the uncinate, bulla and middle turbinate clearly seen.
+!!
+## Remove the bulla and find the lamina
+Pass the J-curette behind the bulla with its curved end upward and bring it **forward only**, removing the whole bulla; never push it up (skull base) or sideways (orbit). Alternatively, enter the bulla with a sickle knife pointing down and remove it from the lamina with through-cutting forceps. Clear any partitions left on the lamina with a sphenoid punch or Kerrison rongeur.
+!mf 8 | Removing the left ethmoid bulla with a J-curette.
+!see What you should see
+- The **lamina papyracea**: a smooth, flat, yellow-white wall laterally, with no partitions left on it.
+!!
+!danger The orbit
+Most orbital injuries happen when the lamina is not identified early, or when polyps and bleeding hide it. Find it before you go further back, and enter every new cell **low and medial**, away from the orbit and the skull base.
+!!
+## Through the basal lamella
+Look at the basal lamella and the roof of the maxillary sinus (seen through the antrostomy) to set your line into the posterior ethmoid; the roof of the maxillary sinus lies at about the height of the floor of the posterior ethmoid. Pierce the **vertical part of the basal lamella low and medially** with the straight end of the J-curette or a sickle knife and remove it. **Keep the horizontal part**, which steadies the middle turbinate.
+!see What you should see
+- The posterior ethmoid cells opening behind the basal lamella, and the **superior turbinate** medially.
+!!
+!danger The floppy middle turbinate
+Removing too much of the basal lamella destabilises the middle turbinate, which then falls laterally after surgery and blocks the ostiomeatal complex and frontal drainage.
+!!
+## Find the superior turbinate
+Clear the remaining soft tissue of the basal lamella with the microdebrider in a controlled sweep (from 6 to 9 o'clock on the left, 3 to 6 o'clock on the right) to show the front of the superior turbinate clearly.
+!see What you should see
+- The head of the superior turbinate, with the posterior ethmoid cells lateral and above it.
+!!
+## Reach the corner
+Remove the posterior ethmoid partitions with 45-degree upturned through-cutting forceps (straight forceps for partitions running axially or sagittally) until you see the **skull base** at the back of the posterior ethmoid, and then the **corner** where it meets the medial orbital wall and the face of the sphenoid.
+!see What you should see
+- The roof of the posterior ethmoid, smooth and slightly darker, meeting the lamina laterally and the sphenoid face behind.
+!!
+!danger The Onodi cell
+A posterior ethmoid cell that extends above and lateral to the sphenoid can carry the **optic nerve**, and sometimes the **carotid**, in its wall. You will have seen it on the CT; work slowly here and do not mistake it for the sphenoid sinus.
+!!
+## Clear the roof from back to front
+Change to a 30- or 45-degree telescope and remove the remaining partitions along the skull base **from back to front**, following its slope, with through-cutting instruments. Cut through mucosa, bone and mucosa cleanly; do not twist or strip. Identify the **posterior and anterior ethmoid arteries**, especially if they hang in a mesentery, and work around them.
+!mf 9 | Removing the ethmoid partitions along the skull base with a through-cutting instrument.
+!see What you should see
+- A smooth, lined ethmoid cavity: the lamina laterally, the roof above, the middle turbinate medially, and both arteries intact.
+!!
+!senior Senior's pearl
+Through-cutting forceps are what make surgery "functional". Stripped mucosa heals with scar, osteitis and crusting; cleanly cut partitions leave a lined cavity that clears its own mucus. And never point the open window of a microdebrider at the orbit or skull base where the bone may be dehiscent.
+!!
+## Finish
+Check for bleeding and for CSF, and keep the middle turbinate medial (a medialisation suture or controlled scarring to the septum if it is unstable). Packing is rarely needed; if the lamina was breached, avoid packing.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Orbital fat in the field
+Recognise | yellow fat that bulges when you press gently on the closed eye
+Act | stop working in that area ; do not pull or remove fat ; avoid packing
+Then | check the eye at the end and afterwards ; warn the patient and nurses about swelling and bruising
+!!
+!path Orbital haematoma
+Recognise | proptosis, a tense eye, chemosis, a dilated pupil, reduced vision, often after an ethmoid artery bleed
+Act | stop, remove any packs, call ophthalmology ; measure vision and pressure
+Decompress | lateral canthotomy and cantholysis without delay if vision or pupil reactions are threatened ; medical lowering of pressure (mannitol, acetazolamide, steroids)
+Then | endoscopic orbital decompression or ligation of the artery if bleeding continues
+!!
+!path CSF leak during surgery
+Recognise | clear fluid washing the blood away, a halo, or a visible defect in the roof or lateral lamella
+Act | repair it there and then: define the defect, remove mucosa around it, place a graft (mucosa, fascia or fat) with sealant
+Then | bed rest, stool softeners, no nose blowing ; consider antibiotics per local policy
+!!
+!path Bleeding that hides the field
+Act | pledgets with vasoconstrictor, head up, ask for lower blood pressure (TIVA helps)
+Escalate | if you still cannot see safely, stop and come back another day
+!!
+
+# Aftercare | The operation is the beginning.
+## After the operation
+- No nose blowing; sneeze with the mouth open.
+- **High-volume, low-pressure saline irrigation** (about 240 ml split between the nostrils) three times a day, starting the day of or the day after surgery.
+- Antibiotics at the surgeon's discretion.
+- **Polyposis:** a course of oral steroid after surgery, for example methylprednisolone 32 mg daily for a week, then tapering over about three weeks.
+- **Review within a week** for debridement of clot and crusts, then regularly until the cavity is lined.
+- A long-term medical plan suited to the disease.
+## Complications
+!table Complications of endoscopic sinus surgery
+Major | Minor
+Orbital haemorrhage | Periorbital bruising
+Loss of vision | Periorbital emphysema
+Double vision | Postoperative nosebleed
+CSF leak, meningitis, brain abscess | Infection, crusting
+Massive bleeding needing transfusion | Adhesions
+Intracranial bleeding, brain injury | Stenosis of the maxillary or frontal opening
+Anosmia | Hyposmia, worsened asthma, dental pain
+!!
+## Alternatives
+Appropriate medical treatment comes first: culture-directed antibiotics for as long as the patient keeps improving (often 3 to 4 weeks), steroid sprays, a short course of oral steroid and sometimes topical antimicrobials. Exceptions where surgery comes sooner: impending orbital complications, a mucocele, and one-sided disease needing a diagnosis (always consider a dental source in one-sided maxillary disease). Whether to remove a diseased or unstable middle turbinate is still debated: a systematic review found no difference in quality of life, nasal resistance or frontal sinusitis, and somewhat better smell, with resection.
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Dhingra: describes two techniques, **Stammberger's** anterior-to-posterior approach (uncinate to sphenoid, tailored to the disease) and **Wigand's** posterior-to-anterior approach (starting at the sphenoid, for extensive polyposis and revisions); gives the order uncinectomy, maxillary ostium, bullectomy, basal lamella pierced low and medial, posterior ethmoids, frontal recess and sphenoidotomy; removes the lateral lamella of a concha bullosa while preserving the medial for smell; packs when the septum is also operated on; continues antibiotics for 7 to 10 days and starts saline after a week; and lists major and minor complications.
+Lee: gives the Keros types with type II as the commonest, the Onodi cell in about 30%, the slope of the fovea ethmoidalis of about 15 degrees, and the orbital rules: stop dissecting where fat is exposed, never remove fat, avoid packing, and treat chemosis and proptosis as an orbital compartment syndrome.
+Myers combines a forward start with the safe "corner" principle: find the lamina, the basal lamella, the superior turbinate and the skull base in that order, reach the junction of skull base, orbit and sphenoid, then clear the roof from back to front; it starts saline the same or next day and stresses the height of the ethmoid relative to the maxillary sinus over the Keros grade.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- The **four landmarks** and the **corner**.
+- **Keros** types and why depth matters; the **lateral lamella** as the weakest point.
+- The **Onodi cell** and what lies in its wall.
+- Where the **anterior ethmoid artery** lies on CT and why a mesentery matters.
+- Why the **basal lamella** is entered **low and medial**, and why its horizontal part is kept.
+- **Stammberger versus Wigand.**
+- Recognition and immediate management of an **orbital haematoma** (lateral canthotomy) and an intraoperative **CSF leak**.
+- That surgery is an **adjunct** to medical treatment in chronic rhinosinusitis.
+!!
+## Common pitfalls
+!pit
+- Operating without studying the CT in all three planes.
+- Leaving partitions on the lamina, which blocks the way back.
+- Not identifying the superior turbinate.
+- Taking too much basal lamella, leaving a floppy middle turbinate.
+- Working on the roof before reaching the corner.
+- Stripping mucosa instead of cutting it.
+- Pointing the microdebrider window at a dehiscent orbit or skull base.
+- Rocking the middle turbinate (lateral lamella fracture, CSF leak).
+!!

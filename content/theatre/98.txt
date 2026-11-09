@@ -1,0 +1,177 @@
+@stand Most nosebleeds come from the front of the septum and stop with pressure or cautery. The ones that bring patients to theatre usually come from the back of the nose, from the branches of the sphenopalatine artery, and in an elderly patient on anticoagulants they can be life-threatening. Endoscopic ligation or cautery of this artery at its foramen is now the definitive treatment of choice for intractable posterior epistaxis: it is better tolerated than days of posterior packing, at least as effective as embolisation, cheaper, and it avoids embolisation's risks of stroke and blindness. It is also the first step of the transpterygoid approach to the skull base. This chapter covers how to find the bleeding vessel, prepare the patient, expose the artery through a maxillary antrostomy, find every branch, and what to do when the bleeding comes back.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Endoscopic sphenopalatine artery ligation
+ | Summary
+Indications | Severe one-sided epistaxis that is posterior or has no obvious source; recurrent significant posterior bleeds controlled only by packing, with no treatable cause (elective ligation); devascularising a small vascular tumour such as an early angiofibroma before removal, or a bleeding malignancy; the first step of a transpterygoid skull base approach
+Contraindications | A correctable coagulopathy (treat it first, non-operatively); too unfit for general anaesthesia (packing or embolisation instead); a large vascular tumour blocking access with several feeding vessels (embolisation preferred)
+Anaesthesia | General, with airway protection; awake fibreoptic or rapid sequence intubation if bleeding is active; orogastric tube to empty swallowed blood; throat pack optional; controlled hypotension helps
+Position | Supine, as for sinus surgery, head turned slightly toward the surgeon, tube to the opposite side, reverse Trendelenburg of at least 15 degrees
+Antibiotics | A single dose of first-generation cephalosporin (clindamycin if allergic); continue only if packs have caused sinusitis, covering streptococci and S. aureus
+Monitoring | No special monitoring
+Imaging | Usually none; contrast CT if a tumour is suspected; CT angiography after recent sinus surgery to exclude a carotid pseudoaneurysm; formal angiography only for embolisation, failed surgery, or suspected carotid injury
+Tray | Endoscopic sinus set; monopolar suction diathermy for surface bleeding; pistol-grip endoscopic bipolar; adjustable pistol-grip clip applier with a flat shaft and medium clips; 1 mm and 2 mm angled Kerrison rongeurs; Cottle elevator; 7 French Frazier sucker; nerve hook; Gelfoam; Silastic splints
+Before theatre | Control the bleeding with anterior and posterior packing (balloon or Foley); secure the airway if needed; full blood count, clotting, group and crossmatch; transfuse as needed; stop antiplatelets if elective (ligation can be done safely on anticoagulants in an emergency)
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** packing has not stopped the bleeding, and closing the main artery at the back of the nose controls it in about nine out of ten patients or more.
+- **Bleeding may come back**, needing more packing, a second operation, an operation on the ethmoid arteries, or embolisation.
+- **Numbness of the palate** or upper teeth, usually partial and recovering over weeks to months.
+- **Dryness of the nose and a less watery eye** if the nerves behind the artery are injured; uncommon.
+- **Crusting, scar bands and sinus infection.**
+- **A blood transfusion** may be needed.
+- **Rare:** damage to the septum, especially after bilateral ligation.
+- **The ethmoid arteries may be cauterised** at the same time if the source is unclear.
+!!
+## Before you start: finding the source
+### The history
+- **How did it start?** After a blow to the nose, think of the **anterior ethmoid artery**; spontaneous heavy bleeding more often comes from the **sphenopalatine artery**.
+- **How much and for how long?** Count tissues, cups or bowls. Heavy bleeding comes from a larger artery.
+- **Which side, front or back?** Bleeding often crosses through the nasopharynx to the other side, but one side usually leads. Mostly forward suggests the anterior ethmoid; mostly into the throat suggests the sphenopalatine; heavy bleeds often do both.
+- **Does pressing on the front of the nose stop it?** If so, it comes from the small vessels of the anterior septum; if blood still runs down the throat, think of the anterior ethmoid or sphenopalatine artery.
+- **Associated symptoms:** blockage, visual change, facial numbness, pain or trismus suggest a tumour.
+- **Age:** severe bleeding under 20 suggests a tumour (angiofibroma in boys) or an inherited bleeding disorder; in the elderly, think of medications.
+- **Previous treatment:** failure of a previous ligation means a missed branch or a dislodged clip; failure of embolisation points to the anterior ethmoid artery.
+- **Medical history:** liver or kidney failure, haematological cancer and hypothyroidism all impair clotting. The link with hypertension is disputed: population studies have not shown that it causes epistaxis.
+- **Recent sinus surgery:** consider an injury to the **internal carotid artery** with a pseudoaneurysm, especially if heavy bleeding was packed in theatre; and a sphenoidotomy can injure the posterior septal branch running over the face of the sphenoid.
+- **Family history:** recurrent nosebleeds in the family, without other bleeding, suggest **hereditary haemorrhagic telangiectasia**.
+- **Drugs:** antiplatelets (including over-the-counter anti-inflammatories), anticoagulants, alcohol, and the **four Gs** (garlic, ginger, ginkgo, ginseng), plus fish oil and vitamin E. Patients rarely volunteer these.
+### The examination
+- **Nasal endoscopy** is the key examination, though packs and bleeding limit it. A small clot may mark the site; a small angioma on a turbinate is easily missed; multiple telangiectases suggest HHT; always look at the nasopharynx for a tumour.
+- **Mouth:** telangiectases or a tumour of the palate or maxilla.
+- **Eye:** proptosis or restricted movement suggests a tumour reaching the orbit.
+- **Trigeminal nerve:** numbness or weak chewing muscles (jaw deviation on opening) suggests a tumour.
+- **Neck:** nodes, a late sign of sinonasal cancer.
+
+# Anatomy you must see | The corner of the antrum.
+## The artery and its foramen
+- The **sphenopalatine foramen** lies at the **posterosuperior corner of the maxillary sinus**, formed where the palatine and sphenoid bones meet, at about the level of the **posterior attachment of the middle turbinate**.
+- The **crista ethmoidalis** is a triangular ridge of bone just **in front** of the foramen, the landmark you feel for.
+- The artery often **divides before the foramen** and its branches can leave through **separate openings** (about 40% in cadaver studies); you must find them all.
+- Its two main terminal branches are the **posterior septal artery**, crossing the face of the sphenoid to the septum, and the **posterior lateral nasal artery** to the turbinates.
+## What lies behind it
+- In the pterygopalatine fossa, the **vessels lie in front of (superficial to) the nerves**. Dissecting or cauterising deep to the artery can injure the **pterygopalatine ganglion** and the **vidian nerve**: a dry nose and reduced tearing.
+- The **greater (descending) palatine nerve** runs vertically down the lateral nasal wall **below** the foramen; drilling or biting bone there numbs the palate.
+!mf 1 | The sphenopalatine artery lies at the level of the posterior attachment of the middle turbinate.
+
+# The operation, stage by stage | Antrostomy, flap, foramen, clips.
+## Prepare the nose
+Remove the packs and replace them with 0.05% oxymetazoline pledgets. With controlled hypotension, head-up tilt and vasoconstriction, active bleeding usually stops. Examine with a 0-degree endoscope to confirm the landmarks and look for a bleeding point; control surface bleeding temporarily with suction monopolar diathermy. Medialise the middle turbinate to open the middle meatus. Trim a concha bullosa, or do a septoplasty, if either blocks the way.
+!see What you should see
+- A clear, decongested middle meatus with the uncinate process, middle turbinate and any active bleeding identified.
+!!
+## Open the maxillary sinus
+Do a middle meatal antrostomy: remove the uncinate with backbiting forceps, find the natural ostium, and widen it **backward and downward**. This shows you the posterior wall of the antrum, which leads you to the foramen, and gives you room to work.
+!mf 2 | After a left middle meatal antrostomy, the mucoperiosteum behind it is raised off the lateral nasal wall (MT, middle turbinate; PWA, posterior wall of the antrum).
+!see What you should see
+- The posterior wall of the maxillary sinus through a wide antrostomy.
+!!
+## Raise the flap from below
+With a Cottle elevator, raise the mucoperiosteum off the lateral nasal wall **below** the antrostomy and work backward, staying **below the level of the foramen**. Feel for the crista ethmoidalis. As the periosteum lifts, the branches of the artery are stretched and become visible. Swap the elevator for a 7 French Frazier sucker, which keeps the vessels on tension, clears blood, and can be left in place so you have a free hand.
+!mf 3 | The sphenopalatine artery exposed at the posterosuperior corner of the maxillary sinus.
+!mf 4 | Endoscopic view of the right sphenopalatine artery (asterisk) as it leaves the foramen.
+!see What you should see
+- The crista ethmoidalis, and behind it the artery and its branches emerging from the foramen into the raised flap.
+!!
+!danger Coming in from above
+Going straight at the foramen from above makes the vessels hard to see and easy to tear. Approach from below, in the subperiosteal plane, where you have room for the sucker and the vessels are stretched toward you. An aberrant branch can come out of the bone here too.
+!!
+## Open the foramen
+Place a **1 mm angled Kerrison rongeur** into the foramen, **superficial** to the artery, and remove the bone over it. Stay outside the periosteum that envelops the fossa contents. Continue into the pterygopalatine fossa, taking part of the posterior wall of the maxillary sinus with a 2 mm Kerrison, until you see the main trunk.
+!mf 5 | The foramen enlarged with a rongeur to expose the main trunk of the artery.
+!danger The wrong rongeur
+A 2 mm rongeur pushed into the foramen first is likely to cut the artery. Start with the 1 mm.
+!!
+!senior Senior's pearl
+Find the main trunk before it divides. Wide exposure through an antrostomy is what lets you see the trunk and every branch; limited exposure is why branches are missed and bleeding returns.
+!!
+## Clip or cauterise
+Separate the fat around the vessels with a Cottle or nerve hook, shrinking it with bipolar if needed; you do not need to dissect every branch of the maxillary artery. Place a **medium clip** across the main trunk lateral to the foramen, and a second if possible, then clip or cauterise the two terminal branches. Palm the clip applier as you pass it into the nose so the clip does not bend and drop. Use the **tip end of the clip** to close the vessel, because clips do not close at their apex. If the vessel tears, or clips will not sit securely, cauterise it thoroughly with bipolar diathermy.
+!mf 6 | Clips on the main trunk of the sphenopalatine artery and on its terminal branches.
+!see What you should see
+- A clipped or cauterised trunk and both terminal branches, with no pulsatile bleeding when you remove the sucker.
+!!
+!danger Clips that fall off
+A clip too small for the vessel, one placed with its apex on the vessel, or a pack pushed in blindly at the end can dislodge clips. Choose the right size and place any pack under vision.
+!!
+## If the source is uncertain, add the anterior ethmoid
+When you are not sure the bleeding came from the sphenopalatine artery, cauterise the **anterior ethmoid artery** endoscopically at the same operation (see the ethmoid artery chapter).
+## Finish
+Irrigate with warm saline, lay a small piece of Gelfoam over the clips, and stitch Silastic splints to the septum to prevent adhesions. Packing is usually unnecessary; if you need it for oozing, place it under vision.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Bleeding returns after ligation
+Minor | decongestant spray, anterior packing
+Severe | endoscopy to find the side and site
+Same-side sphenopalatine source | return to theatre (allows the anterior ethmoid to be treated too) or embolisation
+Think | a dislodged clip, bleeding proximal to the clip, a missed branch, the anterior ethmoid, or rarely the other side
+!!
+!path Heavy bleeding after recent sinus surgery
+Suspect | internal carotid injury or pseudoaneurysm
+Act | pack firmly, resuscitate, CT angiography or formal angiography
+Escalate | interventional radiology for the carotid ; do not explore blindly
+!!
+!path Torrential bleeding during the dissection
+Act | press with a pledget, raise the head, ask anaesthetics for lower pressure
+Then | find the vessel with suction and coagulate with bipolar or clip
+!!
+
+# Aftercare | Usually a short stay.
+## After the operation
+- Check **haemoglobin** and replace blood as needed; iron for a few weeks if anaemic.
+- **Pain is mild:** paracetamol; anti-inflammatories a few days later once bleeding is controlled.
+- **Antibiotics** only if packs caused sinusitis.
+- **Saline sprays and irrigations** to clear clot.
+- **Restart essential anticoagulants or antiplatelets** from the first day if there is no bleeding.
+- **Splints** stay 1 to 2 weeks.
+## Complications
+!table Complications of sphenopalatine artery ligation
+Complication | Cause or management
+Rebleeding | Mucosal ooze, missed branch, displaced clip, anterior ethmoid or other side
+Adhesions | Prevented by splints; divide only if symptomatic
+Sinusitis | Packing and instrumentation; scarring of the ostiomeatal complex
+Palatal numbness | Greater palatine nerve injury below the foramen; usually partial and temporary
+Dry nose, reduced tearing | Pterygopalatine ganglion or vidian nerve injury deep to the artery
+Septal necrosis | Rare; bilateral ligation, heavy septal cautery and packing
+!!
+## Alternatives and evidence
+!table Ligation versus embolisation
+ | Endoscopic ligation | Embolisation
+Success | About 87% to 98%; failures are often anterior ethmoid bleeds treated by adding ethmoid ligation | 93% to 100% immediately, falling to about 71% to 89% with later rebleeds
+Ethmoid arteries | Can be treated at the same time | Cannot be embolised without risking blindness
+Main risks | Minor: crusting, palatal numbness | Stroke, blindness, soft tissue necrosis (under 2%)
+Best for | Most patients fit for anaesthesia; failed embolisation | Patients unfit for anaesthesia; failed ligation (though repeat surgery is usually preferred); possibly anticoagulated patients
+Cost | Lower; first-line ligation is the most cost-effective strategy | Higher
+!!
+Transmaxillary ligation of the maxillary artery through a sublabial antrostomy is an older alternative, with more morbidity and missed collaterals; it is still useful to devascularise an angiofibroma or a malignancy.
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Dhingra: lists ligation of the external carotid, the maxillary artery through a Caldwell-Luc approach, and the ethmoid arteries through a Lynch incision, noting that external carotid ligation has given way to embolisation and more peripheral ligation, and that transantral maxillary artery ligation has been superseded by transnasal endoscopic sphenopalatine ligation (TESPAL).
+Lee: calls TESPAL the preferred method for intractable posterior epistaxis, with a 95% to 98% success rate and a short stay; raises a medially based flap in front of the crista ethmoidalis, cauterises the artery and its branches with bipolar, and considers clips generally unnecessary.
+Myers adds a maxillary antrostomy for wide exposure, approaches the foramen from below, opens it with a 1 mm Kerrison, and clips the trunk and both terminal branches, with bipolar as the fallback; it also cauterises the anterior ethmoid at the same time when the source is uncertain.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- How to tell an **anterior ethmoid** bleed from a **sphenopalatine** bleed from the history.
+- The **site of the foramen** (posterosuperior corner of the antrum, level of the middle turbinate's posterior attachment) and the **crista ethmoidalis**.
+- That the artery **branches before the foramen** in about 40%.
+- **Why approach from below** and why a **1 mm** Kerrison.
+- **Nerves lie deep to the vessels**: what is injured if you go too deep, and the greater palatine nerve below.
+- **Success rates and cost** compared with embolisation, and why the **ethmoid arteries are never embolised**.
+- **Causes of failure.**
+!!
+## Common pitfalls
+!pit
+- Too little exposure (no antrostomy), so a branch is missed.
+- Approaching the foramen from above.
+- Opening the foramen with a 2 mm rongeur.
+- Dissecting or cauterising deep to the artery.
+- Using a general surgical clip applier, or clips that are too small.
+- Pushing a pack in blindly at the end.
+- Forgetting the anterior ethmoid when the source is unclear.
+!!
