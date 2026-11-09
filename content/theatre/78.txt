@@ -1,0 +1,214 @@
+@stand In 1850 thyroid surgery killed so many patients from bleeding and sepsis that the French Academy of Medicine banned it; fifty years later Kocher, with antisepsis, vessel ligation and careful capsular dissection, had brought the mortality below 1% and won a Nobel Prize. Today thyroidectomy is safe and often a day case, but it still turns on three things: seeing and protecting the recurrent laryngeal nerve, keeping the external branch of the superior laryngeal nerve out of the superior pedicle, and leaving the parathyroids alive. Thyroid nodules are extremely common, cancer among them is uncommon, and most thyroid cancers are curable. This chapter takes you from the work-up of a nodule, through lobectomy and total thyroidectomy, to the bleeding neck in recovery.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Open thyroidectomy
+ | Summary
+Total thyroidectomy | Differentiated cancer over 4 cm, with gross extrathyroidal extension, contralateral nodules, nodal or distant metastases; multinodular goitre after neck irradiation or with a first-degree family history of thyroid cancer; medullary carcinoma; resectable anaplastic carcinoma; bilateral indeterminate nodules; compressive multinodular goitre; Graves disease or hyperthyroidism not controlled medically
+Lobectomy | Papillary or follicular cancer under 4 cm that is low risk, single, confined to the gland, with no irradiation and no nodes (1 to 4 cm: lobectomy or total are both options); a single indeterminate nodule (AUS, follicular neoplasm, suspicious), unless the patient prefers a total to avoid a second operation; a benign nodule over 3 to 4 cm; a compressive nodule
+Contraindications | Severe uncontrolled hyperthyroidism (relative: risk of thyroid storm); pregnancy (relative: delay to after delivery, or operate in the second trimester if the nodule grows); prohibitive medical problems
+Anaesthesia | General with an endotracheal tube (a monitoring tube with surface electrodes if nerve monitoring is used); local with sedation is possible in pregnancy or poor cardiac function
+Position | Supine, shoulder roll to extend the neck, head on a ring, back up 10 to 30 degrees, arms tucked and padded; prepare the neck and upper chest (whole chest if sternotomy is possible)
+Antibiotics | Not needed for clean thyroid surgery; a single dose of second-generation cephalosporin or clindamycin is acceptable
+Monitoring | Nerve monitoring optional: an aid to finding the nerve, not a substitute for seeing it; no proven reduction in palsy
+Imaging | Ultrasound of the thyroid and central neck in every patient; CT or MRI for retrosternal extension, mediastinal nodes or invasion (iodinated contrast delays radioiodine by 1 to 3 months)
+Tray | Head and neck set; ultrasonic scalpel and bipolar; self-retaining thyroid retractor if no assistant; peanut sponges; Babcock forceps; McCabe dissector; clips; right-angle clamps
+Before theatre | Documented vocal fold movement on laryngoscopy; euthyroid; comorbidities assessed; calcitonin and phaeochromocytoma screening in medullary cancer
+!!
+## Consent
+!consent What to tell the patient
+- **What it is:** removal of half (lobectomy) or all (total) of the thyroid through a short incision in a skin crease at the base of the neck.
+- **Voice change:** temporary hoarseness or weakness is common; permanent damage to the voice-box nerve is uncommon. If both nerves stop working, breathing can be affected and a tracheostomy may be needed.
+- **Loss of high notes and voice projection** from the smaller nerve to the voice box.
+- **Low calcium** after a total thyroidectomy, causing tingling and cramps, treated with calcium tablets; rarely permanent.
+- **Bleeding under the wound**, usually in the first hours, which can press on the airway and is an emergency.
+- **Lifelong thyroid hormone tablets** after a total thyroidectomy, and possibly after a lobectomy.
+- **A second operation** may be needed if a lobectomy specimen shows cancer.
+- **Scar**, infection, swallowing discomfort and numbness of the neck skin.
+!!
+## Before you start
+### The history
+- **The nodule:** when it appeared, how fast it is growing (rapid growth of a new or previously stable nodule is worrying), and pain (more often thyroiditis or bleeding into a benign nodule than cancer).
+- **Compression:** breathlessness, especially lying flat, and persistent dysphagia.
+- **Invasion:** coughing blood, skin fixation, hoarseness from a paralysed fold.
+- **Thyroid function:** palpitations, weight change, fatigue, anxiety, poor sleep, menstrual change.
+- **Risk factors for cancer:** a solitary nodule under age 20 (about 20% malignant) or at 20 to 40 (5% to 10%); men (fewer nodules, more often malignant); two or more first-degree relatives with thyroid cancer; low-dose neck irradiation; Hashimoto thyroiditis (more papillary cancer and lymphoma); features of **MEN 2** (phaeochromocytoma, hyperparathyroidism, marfanoid habitus, mucosal neuromas); Gardner and Cowden syndromes.
+### The examination
+Palpate the gland for size, shape, firmness, movement on swallowing and fixation; feel the neck for nodes; listen for hoarseness and stridor. **Examine the vocal folds in every patient**: the voice can be normal with a paralysed fold.
+### Tests
+- **TSH** first, to exclude hyper- or hypothyroidism. Thyroglobulin does not separate benign from malignant before surgery. Calcitonin only with a family history of medullary cancer or MEN 2, or medullary cytology.
+- **Ultrasound:** worrying features are a solid or complex nodule, irregular margins, increased internal vascularity and especially **microcalcification**; cystic and spongiform nodules are usually benign.
+- **Nuclear scan** only if TSH is low: a hyperfunctioning ("hot") nodule (about 4% malignant) needs no cytology and may be ablated with radioiodine; a "cold" nodule is 10% to 15% malignant.
+- **Ultrasound-guided FNA** is the best first test (sensitivity 65% to 98%, specificity 72% to 100%); aspirate suspicious nodes too, and with several nodules, the largest or most suspicious.
+- **Molecular markers** (BRAF, RAS, RET/PTC, PAX8-PPARγ and gene panels) may refine indeterminate results; their value is still uncertain.
+!table Bethesda categories and risk of malignancy
+Category | Meaning | Risk
+I | Non-diagnostic | 1% to 4%
+II | Benign | 0% to 3%
+III | Atypia or follicular lesion of undetermined significance | 5% to 15%: repeat FNA, watch, or operate
+IV | Follicular neoplasm | 15% to 30%
+V | Suspicious for malignancy | 60% to 75%
+VI | Malignant | 97% to 99%
+!!
+
+# Anatomy you must see | The gland, the nerves and the parathyroids.
+## The gland
+- It develops from the floor of the pharynx at the **foramen caecum** and descends along the thyroglossal duct in front of the hyoid to lie over the **second to fourth tracheal rings**, within the pretracheal (middle) layer of deep cervical fascia.
+- Lobes about 4 to 5 cm tall; isthmus 12 to 15 mm, absent in 5% to 10%; **pyramidal lobe** rising from the isthmus in 40% to 50%.
+- **Tubercle of Zuckerkandl:** a posterolateral projection of each lobe (63% to 78%); the recurrent nerve lies **deep** to it in 98%.
+- **Berry's ligament:** the posterior suspensory ligament binding the gland to the cricoid and first two tracheal rings; the nerve lies within 3 mm of it, usually laterally, sometimes through it.
+## The vessels
+- **Superior thyroid artery:** first branch of the external carotid.
+- **Inferior thyroid artery:** from the thyrocervical trunk.
+- **Thyroidea ima** in 2% to 12%, to the lower isthmus.
+- **Superior and middle thyroid veins** drain to the internal jugular; **inferior veins** to the brachiocephalic veins.
+## The recurrent laryngeal nerve
+- The **left** loops under the aortic arch and rises in the tracheo-oesophageal groove; the **right** loops under the subclavian artery and runs a more oblique, lateral course.
+- It passes under the inferior constrictor and behind the cricothyroid joint to enter the larynx below the cricoid.
+- **Simon's triangle:** carotid laterally, oesophagus medially, inferior thyroid artery above; the nerve lies within it.
+- Relation to the inferior thyroid artery varies, and differs between sides in about half.
+- It often **branches** below the cricoid (40% to 65% more than 5 mm below it); every branch must be preserved, the anterior branch carrying the motor fibres.
+- **Non-recurrent nerve** in up to 0.7%, almost always on the **right** with an aberrant subclavian artery, running directly into the larynx from higher in the neck.
+## The superior laryngeal nerve
+- Arises from the vagus near the skull base and divides about 2 cm above the upper pole. The **internal branch** pierces the thyrohyoid membrane (sensation of the supraglottis); the **external branch** supplies the **cricothyroid** (pitch and projection) and the inferior constrictor.
+- The external branch runs through the **sternothyrolaryngeal (Joll's) triangle**, usually deep to the superior thyroid artery, and in about a third lies at or below the top of the upper pole, where it can be caught in the pedicle.
+## The parathyroids
+- Usually supplied by the **inferior thyroid artery**; the superior glands sometimes by the superior thyroid artery.
+- The **inferior** glands are often close to where the recurrent nerve passes.
+
+# The operation: lobectomy | Incision to closure.
+## Mark and incise
+Mark a 3 to 5 cm horizontal incision in a skin crease between the cricoid and the sternal notch, usually 2 to 3 cm above the notch; place it higher in young patients, because scars drift down and a scar below the clavicles looks poor. Inject 0.25% bupivacaine with 1:200,000 adrenaline above and below the line. Cut the dermis with a size 15 blade and the platysma with diathermy, avoiding the anterior jugular veins.
+## Skin flaps and skin protection
+Raise the flaps deep to platysma, keeping the anterior jugular veins and investing fascia down on the straps, as far as the thyroid notch above and the sternal notch below, tying larger veins with 2-0 silk. Protect the skin edges, for example with strips held by a running locking silk suture, so that hot instruments and retractors do not burn them.
+!mf 1 | The skin edges protected by a running locking silk suture after the subplatysmal flaps are raised.
+!see What you should see
+- Clean flaps in the right plane, with the anterior jugular veins left on the strap muscles.
+!!
+## Divide the strap muscles
+Find the midline raphe and divide it from the thyroid notch to the sternal notch, then lift the straps off the gland with a Freer elevator, peanut or diathermy. If the straps are invaded by tumour, take them with a margin.
+!mf 2 | Dividing the strap muscles in the midline.
+## The superior pedicle
+Retract the straps up and laterally to show the upper pole (in a large goitre, the sternothyroid may need dividing). Dissect the vessels of the superior pedicle **all the way round** with a right-angle clamp, confirm the external branch of the superior laryngeal nerve is **not** in the bundle, and seal the pedicle with the ultrasonic device **close to the gland**, at two or three points before dividing it. A cut stump retracts up into the neck, where bleeding is hard to control; add clips or ties if needed.
+!mf 3 | Sealing the superior vascular pedicle close to the upper pole with the ultrasonic scalpel.
+!see What you should see
+- Separate, skeletonised vessels at the upper pole, with no nerve running across them.
+!!
+!danger The external branch
+Taking the pedicle in a mass, or high above the pole, catches the external branch of the superior laryngeal nerve. The patient loses the high notes and the power of the voice, which is easily dismissed and hard to treat.
+!!
+## Mobilise the lobe
+Roll the lobe forward and medially with a peanut and Babcock forceps; seal and divide the **middle thyroid vein**.
+## Find and follow the recurrent nerve
+With the gland rotated medially, use a McCabe dissector in the tracheo-oesophageal groove and near the cricothyroid joint to find the nerve. Open the tips only to spread; never close them while buried in tissue. Once found, dissect **directly on top of the nerve**, parallel to it, from below up to where it enters the larynx under the inferior constrictor, protecting **every branch**.
+!mf 4 | The recurrent laryngeal nerve found and followed with a McCabe dissector, working directly on the nerve.
+!mf 6 | Following the recurrent nerve along its course showed two branches; both must be traced and protected before the gland is lifted off the trachea.
+!see What you should see
+- A white, glistening nerve with a vessel on its surface, running up to the cricothyroid joint, and any branches traced to the larynx.
+!!
+!senior Senior's pearl
+The best protection for the nerve is to see it and keep seeing it. Find it before the gland is lifted off the trachea, follow every branch, and remember that the anterior branch is the one that moves the fold.
+!!
+## The parathyroids
+As you work along the capsule, find the parathyroids (small, tan-yellow, with their own vessels) and **push them laterally with their blood supply** instead of dissecting them off. A gland that turns dark or has lost its vessels is removed, confirmed as parathyroid by frozen section of a small piece, finely minced and placed in a pocket in the sternocleidomastoid or a strap muscle. Never use the sucker near the nerve or the parathyroids.
+## Berry's ligament and the inferior pole
+With the nerve in view and gently held away with a moist peanut (the ultrasonic blade and the hot fluid it creates can injure it), divide Berry's ligament. Leaving a tiny cuff of thyroid on the nerve is better than injuring it. Look for early branching of the nerve near the lower pole, then seal the inferior vessels **close to the gland** so the inferior parathyroid keeps its supply. Lift the lobe off the trachea along the pretracheal fascia, keeping the active blade away from the trachea.
+!mf 5 | Lifting the lobe off the trachea with the ultrasonic scalpel while a peanut protects the recurrent nerve.
+!danger Heat near the nerve
+Ultrasonic and diathermy instruments spread heat sideways. Keep the active blade facing away from the nerve and the trachea, and keep a peanut between them.
+!!
+## Divide the isthmus
+Divide the gland at the junction of the isthmus and the opposite lobe, and remove any pyramidal lobe up to the thyroid notch.
+## Haemostasis and closure
+Irrigate and ask the anaesthetist for a **Valsalva** to show bleeding; control it with bipolar. A haemostatic gauze can help; a drain is not usually needed. Close the straps with 3-0 absorbable sutures, leaving a small gap low down so that a haematoma can escape forward rather than compress the airway, then the platysma, and the skin with a 4-0 subcuticular suture and strips.
+!see What you should see
+- A dry bed during Valsalva, the nerve and parathyroids intact, and a neat closure.
+!!
+
+# The operation: total thyroidectomy | Both sides, and the neck.
+## The second side
+Remove the other lobe in exactly the same way, taking even more care with the parathyroids: handling them on both sides is what causes low calcium afterwards. Inspect and feel the thyroid bed for suspicious nodes or remaining thyroid, and send them to pathology.
+### The neck in differentiated cancer
+- Remove the **central (level VI) nodes** if they are suspicious on imaging or at surgery.
+- Do a selective or modified radical **lateral neck dissection** only for biopsy-proven lateral nodes; never pick out single nodes.
+- **Prophylactic central neck dissection** in a node-negative neck has not reduced recurrence or improved survival in meta-analyses and increases low calcium; it is not routinely advised, except possibly for T3 or T4 tumours or with involved lateral nodes.
+### Invasion of the airway
+If tumour is stuck to the cartilage, shaving off all visible disease is an option; full-thickness en bloc resection lowers recurrence but has not shown better survival.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Neck haematoma
+Recognise | usually within hours: swelling, tight dressing, breathlessness, difficulty swallowing, stridor
+Act | at the bedside, open the skin and strap sutures at once and scoop out the clot to relieve the airway ; call for senior and anaesthetic help
+Then | return to theatre to find and control the bleeding
+!!
+!path Stridor after extubation following total thyroidectomy
+Suspect | bilateral recurrent nerve palsy (folds near the midline), haematoma, or laryngeal oedema
+Act | reintubate ; examine the folds
+Then | if both folds are paralysed, tracheostomy or a period of intubation awaiting recovery
+!!
+!path A recurrent nerve is cut during surgery
+Act | repair it there and then, end to end without tension (or an ansa cervicalis transfer): this restores tone and limits atrophy, though not movement
+Then | consider early medialisation of the paralysed fold
+!!
+!path Tingling, cramps or a positive Chvostek sign
+Recognise | low calcium after total or completion thyroidectomy (check PTH and calcium, and magnesium)
+Mild | oral calcium carbonate with vitamin D (calcitriol)
+Severe | intravenous calcium gluconate over 10 to 15 minutes with cardiac monitoring
+!!
+!path Hyperthyroid patient becomes hot, fast and agitated
+Suspect | thyroid storm, mostly in uncontrolled hyperthyroidism
+Act | cool, beta-blocker, antithyroid drugs, steroids, intensive care support
+!!
+
+# Aftercare | Calcium, voice and hormone.
+## After the operation
+- After total or completion thyroidectomy, check **PTH about an hour** after surgery; keep the patient overnight if it is low (under about 15 pg/ml), and remember calcium can take over 12 hours to fall.
+- **Pain:** ibuprofen or paracetamol, with opioids for breakthrough pain.
+- **Wound:** may get wet after 48 hours; review at a week and replace the strips.
+- **Thyroid hormone** for life after a total thyroidectomy; if radioiodine is planned, hormone may be withheld (or short-acting liothyronine used and stopped 2 weeks before) so that TSH rises.
+- **Radioiodine** depends on the final pathology and metastases.
+## Complications
+!table Complications of thyroidectomy
+Complication | Features and management
+Haematoma | Within hours; open at the bedside, then theatre
+Recurrent nerve palsy | Hoarse, breathy voice, aspiration; fold paramedian; voice therapy, injection or medialisation
+Bilateral palsy | Good voice but stridor after extubation; reintubation, tracheostomy
+External branch of superior laryngeal nerve | Poor projection and loss of high pitch; voice therapy
+Hypoparathyroidism | Temporary or permanent; calcium and vitamin D; IV calcium for severe symptoms
+Thyroid storm | Uncontrolled hyperthyroidism
+Infection, poor scar | Uncommon; protect skin edges
+!!
+## Alternatives
+Endoscopic or robotic thyroidectomy through remote incisions; observation with ultrasound every 6 to 12 months for low-risk nodules; radioiodine for toxic nodules and Graves disease; chemotherapy and radiotherapy for anaplastic carcinoma.
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Dhingra: covers the thyroid from the ENT side, with the recurrent laryngeal nerve in the context of vocal fold paralysis: bilateral abductor paralysis after thyroidectomy leaves the folds near the midline, with a good voice but stridor and breathlessness needing tracheostomy; it describes the suspensory ligaments, residual thyroid in Berry's ligament as the cause of uptake and raised thyroglobulin after surgery, and ligation of the superior vessels close to the upper pole to protect the external branch, whose injury lowers and bows the fold and loses pitch.
+Lee: gives the Chvostek sign as the most reliable sign of hypocalcaemia, with Trousseau sign and a prolonged QT, and the treatment: intravenous calcium gluconate 1 g over 10 to 15 minutes with cardiac monitoring, checking magnesium, then oral calcium with calcitriol; mild transient hypocalcaemia may not need treatment.
+Myers adds the full work-up (Bethesda, ultrasound features, molecular markers), indications for lobectomy versus total thyroidectomy, the anatomy of both laryngeal nerves with their landmarks and variants, the step-by-step operation with the ultrasonic scalpel, the 1-hour PTH, and the evidence against routine prophylactic central neck dissection.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Bethesda** categories and their risks; worrying **ultrasound** features.
+- Indications for **lobectomy versus total thyroidectomy**.
+- The **course of both recurrent nerves**, the **non-recurrent** nerve, and where to find the nerve (Simon's triangle, Zuckerkandl's tubercle, Berry's ligament).
+- The **external branch of the superior laryngeal nerve**, Joll's triangle, and why you tie the pedicle close to the gland.
+- **Parathyroid preservation** and autotransplantation.
+- The **bleeding neck** drill.
+- **Hypocalcaemia**: signs, the PTH check, treatment.
+- **Prophylactic central neck dissection**: the evidence.
+!!
+## Common pitfalls
+!pit
+- Not examining the vocal folds before surgery.
+- Taking the superior pedicle in a mass or high above the pole.
+- Lifting the gland off the trachea before seeing the nerve.
+- Missing a branch of the nerve.
+- Closing a dissector's tips buried in tissue.
+- Using the sucker near the nerve or parathyroids.
+- Stripping the parathyroids of their blood supply.
+- Burning the skin edges.
+- Closing the straps tightly with no escape for a haematoma.
+!!

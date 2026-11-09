@@ -1,0 +1,200 @@
+@stand A watering eye has three possible causes: too many tears, too little drainage, or both. Dacryocystorhinostomy (DCR) treats the second when the block lies at the lacrimal sac or nasolacrimal duct: it makes a new opening from the sac straight into the nose, bypassing the duct. External DCR, described by Toti a century ago, remains the operation every surgeon should understand, and it is mandatory when a mass is suspected; endoscopic DCR now reaches similar success rates in many hands. The operation only works if tears can reach the sac, so the key skills are in the clinic: recognising reflex tearing, finding where the block is, and knowing when DCR is the wrong operation. This chapter covers assessment, the external operation with silicone intubation, aftercare and the reasons DCRs fail.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Dacryocystorhinostomy
+ | Summary
+Indications | Acquired obstruction of the nasolacrimal duct or lacrimal sac with tearing; acute dacryocystitis with an abscess that does not settle on antibiotics; chronic dacryocystitis; a dacryolith; external DCR with biopsy whenever a lacrimal sac mass is suspected
+Contraindications | A malignancy of the sac (needs dacryocystectomy with margins, and no opening into the nose); an upper system block (punctum, canaliculi) that is not treated at the same time (DCR alone will fail); untreated acute infection where avoidable
+Anaesthesia | General (preferred, for comfort and airway); local with sedation is possible; topical cocaine is an excellent decongestant and anaesthetic
+Position | Supine
+Antibiotics | Cephalexin 2 g IV, or clindamycin 600 mg IV if allergic
+Monitoring | Standard anaesthetic
+Imaging | Not needed in a straightforward case; CT of the orbits and sinuses after facial trauma or if a mass is suspected; MRI with gadolinium in a child whose tearing began after birth with normal lids (a mass until proven otherwise); dacryoscintigraphy occasionally
+Tray | 8 French sucker; neurosurgical cottonoids; decongestant; skin rakes; size 15 blade; Cottle elevator; small and medium up-biting Kerrison punches; small osteotome; silicone intubation set (Crawford or similar) with probes and retrieval hook; Bowman probes 0 and 00; bipolar; fine needle holders; 6-0 Vicryl, 6-0 silk, 7-0 chromic, 7-0 or 8-0 skin suture; 12 French silicone catheter; 5-0 nylon
+Before theatre | Stop anticoagulants where possible; treat acute dacryocystitis first; ophthalmology review for ocular surface disease; examine the nose
+!!
+## Consent
+!consent What to tell the patient
+- **What it does:** makes a new drainage channel from the tear sac into the nose so tears and discharge can drain.
+- **Success** is around nine in ten; the eye may still water if the channel scars, or if part of the watering comes from the eye itself.
+- **A small scar** beside the nose, usually hidden in a natural crease (external approach).
+- **Bleeding**, including nosebleeds for a few days.
+- **Infection.**
+- **Tubes** are left in the tear ducts for about two months and removed in clinic; they can occasionally slip or wear the tear opening if too tight.
+- **Blinking may be slightly affected** if small branches of the facial nerve are disturbed.
+- **Rare:** a leak of brain fluid if the bone near the skull base fractures.
+- **If a growth is found,** it will be sampled, and a different operation may be needed.
+!!
+## Before you start
+### Why is the eye watering?
+!table Three causes of a watering eye
+Cause | Clues | Action
+Hypersecretion | Burning, grittiness, foreign body feeling; allergy, dry eye with reflex tearing (for example Graves disease); lashes rubbing the cornea; poor lid closure | Ophthalmology: treat the ocular surface or lid first
+Impaired drainage | Tearing without irritation; mucus or pus; swelling over the sac | Find the level of the block
+Both | Mixed features | Treat the surface first, then reassess
+!!
+- **Fluorescein** with a blue light shows corneal epithelial defects in a dry eye.
+- **Eyelid position:** an everted or lax lower lid, or a weak medial canthal pump, causes functional obstruction.
+- **Rhinitis** can rarely cause functional obstruction; treat it first.
+### Where is the block?
+- **Congenital:** in infants the block is usually at the **valve of Hasner** at the lower end of the duct; most open by 6 to 12 months, so probing waits until the end of the first year, when it usually cures.
+- **Nose:** examine endoscopically under the inferior turbinate for an obstruction at the duct opening, and note septal deviation (important for an endonasal approach; a septoplasty may be needed).
+- **Irrigation in clinic:** after topical anaesthesia, inject saline gently through a canaliculus with a 22 gauge or smaller cannula and note the flow, the resistance and any reflux.
+!table Reading lacrimal irrigation
+Finding | Meaning
+Saline passes easily to the nose | System open; reconsider the diagnosis (unless a dacryolith lets fluid pass around it)
+Passes only with force, with resistance | Functional obstruction
+Reflux from the same canaliculus, or resistance to a fine cannula | Canalicular block: DCR alone will not work
+Reflux from the opposite punctum | Block below the common canaliculus: DCR is likely to cure
+!!
+!danger Probing adults
+Probing the lacrimal system has no place in adults. It rarely cures, it hurts, and it can tear the delicate canalicular lining, which is far harder to treat than a blocked duct.
+!!
+!flag Think of a tumour
+Bloody tears, or a firm mass **above** the medial canthal tendon, suggest a lacrimal sac tumour. Any suspicion of a mass means an external DCR with biopsy, or imaging first.
+!!
+### Dacryoliths and acute dacryocystitis
+- **Dacryoliths** are found in 8% to 14% of DCRs: intermittent tearing and pain, a tense, tender sac with little inflammation; they can mimic a complete block or cause acute infection.
+- **Acute dacryocystitis:** tearing, discharge, a painful swelling over the sac, pus refluxing from the punctum on pressure; some present as periorbital cellulitis. About two-thirds grow gram-positive organisms, about 7% anaerobes. Do not probe or irrigate. Treat it medically for a minimum of 3 weeks: an oral antibiotic, combined antibiotic and steroid eye drops, and warm compresses; drain an abscess through the skin (often possible in clinic) and irrigate the sac; give IV antibiotics and operate promptly if it does not respond (which risks a skin fistula).
+### The upper system
+DCR only works if the puncta and canaliculi carry tears to the sac. **Punctal stenosis** is treated by punctoplasty; incomplete **canalicular stenosis** by silicone intubation; **common canalicular stenosis** can sometimes be intubated during the DCR; complete upper system block needs a **conjunctivodacryocystorhinostomy with a Jones tube**.
+
+# Anatomy you must see | The sac, the crest and the limits.
+## The lacrimal drainage system
+- Tears enter the **upper and lower puncta**, run through the **canaliculi** (a vertical part of about 2 mm, then a horizontal part of about 8 mm) into the **common canaliculus**, then the **lacrimal sac** (about 12 mm) and the **nasolacrimal duct** (about 17 mm), which opens under the **inferior turbinate** in the front of the inferior meatus.
+- The sac sits in the **lacrimal fossa** between the anterior and posterior lacrimal crests, behind the **medial canthal tendon** and wrapped by the deep fibres of orbicularis (Horner's muscle), which drive the lacrimal pump.
+!mf 1 | The lacrimal drainage system: canaliculi, common canaliculus, sac and the muscles and tendon around them.
+## The landmarks for the operation
+- The **anterior lacrimal crest**, the front edge of the fossa on the frontal process of the maxilla, is where you incise and begin.
+- A **thin seam** between the maxillary and lacrimal bones often gives a natural entry for the Kerrison punch.
+- The nasal opening is made **just in front of the tip of the middle turbinate**.
+- Bone removal must stay **no more than about 2 mm above the medial canthal tendon**, below the skull base.
+!mf 2 | The anterior lacrimal crest (arrow); the incision will lie in the lower eyelid crease.
+
+# The operation: external DCR | Seven stages.
+## Prepare the nose and the skin
+Decongest the nose with pledgets (cocaine or another vasoconstrictor) before or after induction. With a size 15 blade, make an incision about 1.5 cm long over the anterior lacrimal crest, in or near the lower lid crease, **in one stroke down to periosteum**, which keeps the tissue planes clean.
+!see What you should see
+- White periosteum over the anterior lacrimal crest at the base of a clean, dry incision.
+!!
+## Lift the periosteum and the sac
+With a Cottle elevator, lift the periosteum off the maxilla and continue backward and upward into the fossa, carrying the **lacrimal sac**, fused to the periosteum, out of its fossa.
+!mf 3 | The lacrimal sac lifted out of its fossa with the periosteum.
+!see What you should see
+- The empty bony fossa, with the sac reflected laterally inside its periosteal envelope.
+!!
+## Remove the bone
+Start the bone opening at the seam between the maxillary and lacrimal bones with a Kerrison punch (or a small osteotome if there is no seam; a drill is rarely needed, more often in inflammatory disease such as sarcoid or granulomatosis with polyangiitis). Remove part of the anterior lacrimal crest if it blocks your view. Make the opening **wide**, which makes the work in the nose easier and is the best protection against failure.
+!mf 4 | The sac reflected and bone partly removed from the fossa.
+!danger The skull base
+Twisting the punch while working upward can send a fracture into the skull base and cause a CSF leak. Bite cleanly, do not twist, and stay within about 2 mm above the medial canthal tendon.
+!!
+## Open the sac over a probe
+Gently dilate the upper punctum and pass a 0 or 00 Bowman probe. Turn it medially at once while pulling the lid laterally, which straightens the canaliculus. When the tip is in the sac, swing the probe up over the brow so that it tents the sac, visible in the wound. Open the sac along the probe with a crescent blade, fine needle diathermy or radiofrequency, as far up and down as possible, extending the cut forward at each end so you can see inside. Remove any dacryolith or foreign body, and biopsy anything suspicious.
+!mf 5 | The probe, passed through the punctum, seen in the wound inside the opened sac.
+!see What you should see
+- The probe tip shining inside a widely opened sac, with its lining healthy and no mass.
+!!
+!danger The canaliculus
+Passing a probe without pulling the lid out to straighten the canaliculus tears its lining, and a damaged canaliculus is much harder to treat than the original block. Be gentle at every pass.
+!!
+!senior Senior's pearl
+Keep a low threshold for biopsy. If frozen section shows a benign lesion, you can finish the DCR; if it shows malignancy, remove the sac with margins and do not open it into the nose.
+!!
+## Open the nose and intubate
+Remove the nasal pledgets. With needle diathermy, cut a vertical straight or oval opening in the nasal mucosa through the bony window. Pass one probe of a silicone intubation set through the **upper canaliculus** into the sac and out through the new opening, and retrieve it in the nose; do the same through the **lower canaliculus**. Hook both tubes up through the wound, tie them together with a single square knot of 6-0 silk at about the level of the skin incision (a single knot can later come out through the punctum), trim the ends to 3 mm, and check the tension: the loop at the inner corner should pull out **no further than the medial edge of the cornea**.
+!mf 6 | The silicone loop should be loose enough to prolapse only as far as the medial corneal limbus.
+!danger Tubes too tight
+If the knot sits too deep and the loop is tight, the tubes cheese-wire through and erode the puncta.
+!!
+## Stent or flaps
+Cut about 4 cm of a 12 French straight silicone catheter (bevel one end), pass it over both wire probes into the nose and up into the wound, and grasp it there. Pass a double-armed 7-0 chromic suture across its lumen about 4 mm from the end (taking care not to pierce the silicone tubes), pull the catheter back into the nose, bring both needles out through the front wall of the sac, draw the catheter up into the sac and tie it there. Irrigate with antibiotic solution. Cut all three tubes together about 1 cm inside the nostril and anchor the catheter loosely to the nasal mucosa with a 5-0 nylon stitch, turning the ends into the lumen. **Alternatively**, suture at least the posterior flap of the sac to a posterior flap of nasal mucosa (and the anterior flaps over the tubes if possible) with 6-0 Vicryl.
+!mf 7 | The catheter over the silicone tubes, with the chromic suture passed across its lumen to fix it in the sac.
+!mf 8 | The catheter sewn into the front of the sac remnant, resting in the new opening.
+!see What you should see
+- Silicone tubes running from both puncta through the sac and the new opening into the nose, with the stent secure in the sac.
+!!
+## Close
+Close the skin with a running 8-0 nylon or interrupted 7-0 chromic suture, apply antibiotic-steroid ointment, and add a pressure dressing if a haematoma is likely.
+!mf 9 | The closed incision, hidden in the lower lid crease.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Clear fluid from the nose after DCR
+Suspect | CSF leak from a fracture extending to the skull base
+Act | test for beta-2 transferrin ; CT ; neurosurgical or skull base review ; most small leaks settle with conservative care
+!!
+!path A mass is found in the sac
+Act | biopsy and frozen section
+Benign | complete the DCR
+Malignant | dacryocystectomy with margins ; no opening into the nose ; plan further treatment
+!!
+!path Tearing returns after DCR
+Find out | irrigate and examine the nose endoscopically
+Common causes | bony opening too small, sac not opened properly, scarring of the mucosal opening, an upper system block
+Act | revise, ideally with a wider opening ; treat any canalicular block
+!!
+!path The silicone loop is pulling at the punctum
+Act | review the tension ; remove or reposition the tubes early if the punctum is eroding
+!!
+
+# Aftercare | Tubes for two months.
+## After the operation
+- **Oral antibiotic** while the catheter is in, or if there was infection.
+- **Antibiotic-steroid eye drops** four times a day and a **nasal steroid spray**.
+- Ointment on the skin sutures; sutures out at **5 to 7 days**.
+- **No nose blowing or picking for 3 weeks.**
+- At **10 days to 2 weeks**, cut the nylon stitch in the nose and pull the catheter out through the nostril (the chromic suture has dissolved); taper the drops to twice a day, then stop a week later.
+- Continue the nasal steroid until the **silicone tubes come out at 2 months**: either cut at the inner corner and pull out through the nose, or rotate the loop until the silk knot appears at a punctum, cut between and draw the tubes out.
+## Complications
+!table Complications of dacryocystorhinostomy
+Complication | Cause or prevention
+Persistent tearing | Small bony opening, poor marsupialisation, mucosal opening scarring, missed upper block, or ocular surface disease
+Punctal erosion | Silicone tubes too tight
+Canalicular injury | Probing without straightening the canaliculus
+Bleeding | Nasal mucosa and bone edges; usually settles
+Infection | Antibiotic cover
+Scar | Hidden in the lid crease
+Weak blink | Fibres of the zygomatic branch of the facial nerve
+CSF leak | Fracture extending to the skull base
+!!
+## Evidence and alternatives
+In one analysis of 100 failed DCRs (about three-quarters external), the commonest anatomical reasons were a small bony opening, poor opening of the sac, and closure of the mucosal opening, the same for both approaches. A single surgeon's series of over 1000 endoscopic DCRs with stents reported 92.7% success; a meta-analysis of over 2000 cases found the same 87% for external and endoscopic DCR, and recent studies give 91% to 100% and 91% to 97% respectively. Upper system blocks need their own procedures. Dacryocystectomy may be better for recurrent infection in a dry eye, and in inflammatory disease such as granulomatosis with polyangiitis. In children, work with their own anatomy first: probing, sometimes repeated, then silicone intubation, before any bypass.
+!table External versus endoscopic DCR
+ | External | Endoscopic
+Success | About 87% to 100% | About 87% to 97%
+Scar | Small, in the lid crease | None
+Best for | Acute infection, suspected mass, dacryolith, sac diverticulum, previous trauma | Uncomplicated duct obstruction; patients avoiding a skin scar; concurrent nasal surgery
+Watch for | Facial branch fibres, skull base | Septal deviation, the middle turbinate, the axilla
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Dhingra: lists dacryocystorhinostomy among advanced endoscopic nasal techniques, and septoplasty as a step to gain access for it when a deviated septum blocks the way.
+Lee: describes congenital nasolacrimal duct obstruction from failed canalisation at the lower end of the duct (90% one-sided, presenting at 1 to 3 weeks, often resolving, otherwise marsupialisation or dilatation), the sizes of the canaliculi, sac and duct, silicone intubation for canalicular lacerations, and the commonest acquired causes, including dacryoliths, trauma, punctal plugs and idiopathic stenosis in postmenopausal women; and DCR with a stent if the duct is cut during a maxillectomy.
+Myers gives the full external operation: the clinic irrigation that locates the block, the indications and the upper system rule, the one-stroke incision, bone removal with its upper limit, opening the sac over a probe, silicone intubation with its tension check, the catheter stent or mucosal flaps, and a detailed timetable for removing the stents.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- The **three causes of a watering eye**, and why surface disease is treated first.
+- **Interpreting lacrimal irrigation**: same-side reflux versus reflux from the opposite punctum.
+- Why **probing adults** is wrong, and when to probe infants (end of the first year).
+- The **upper system** rule and what to do for canalicular block (Jones tube).
+- **Landmarks**: anterior lacrimal crest, front of the middle turbinate, 2 mm above the medial canthal tendon.
+- **Acute dacryocystitis**: management.
+- **Red flags** for a sac tumour and what to do.
+- **External versus endoscopic** DCR and the reasons for failure.
+!!
+## Common pitfalls
+!pit
+- Operating on reflex tearing from ocular surface disease.
+- Missing an upper system block.
+- Probing an adult, or probing without straightening the canaliculus.
+- Too small a bony opening.
+- Twisting the punch while working upward.
+- Not opening the sac fully, or not biopsying a suspicious sac.
+- Tying the silicone tubes too tight.
+- Opening a malignant sac into the nose.
+!!

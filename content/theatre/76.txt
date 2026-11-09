@@ -1,0 +1,188 @@
+@stand A bad tooth, a tonsil or a scratch on the skin can become a life-threatening neck infection because the fascial layers of the neck form connected corridors that run from the skull base to the chest and, behind the pharynx, as far as the diaphragm. Deep neck abscesses move fast: they can close the airway, erode a great vessel or spread into the mediastinum within hours. This is on-call surgery where the airway comes first, the CT is your map, every pocket must be drained, and the source must be found. This chapter covers the spaces and their fascial walls, securing the airway, the external approaches for each space, and the dangerous variants: Ludwig's angina, Lemierre syndrome, necrotising fasciitis, and the mimic that needs no surgery at all.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Drainage of deep neck abscesses
+ | Summary
+Indications | An abscess threatening the airway; sepsis; a smaller abscess not improving on intravenous antibiotics; persistent or recurrent collection needing revision
+Contraindications | Haemodynamic instability (resuscitate first)
+Anaesthesia | The airway comes before everything: if it is threatened, an awake tracheostomy (or awake fibreoptic intubation) under local anaesthetic, with the anaesthetist ready to give a general anaesthetic once the airway is secure; no sedation before the airway is secured; avoid muscle relaxants so nerves can be stimulated
+Position | Supine, shoulder roll to extend the neck gently (sitting up until the airway is secure if the patient cannot lie flat)
+Antibiotics | Intravenous, covering aerobes, anaerobes and beta-lactamase producers, started before surgery and adjusted to cultures
+Monitoring | Standard; high dependency or intensive care afterwards for ventilation, sepsis and pain
+Imaging | Contrast CT in 3 mm slices for every patient whose airway allows it; lateral neck X-ray as a quick screen for retropharyngeal swelling; ultrasound for superficial collections and guided aspiration
+Tray | Head and neck set; tracheostomy set; large Penrose drains; culture pots for aerobic, anaerobic and fungal culture (anaerobic samples kept away from air)
+Before theatre | Bedside aspirate for Gram stain and culture if stable; intravenous antibiotics; secure or plan the airway; blood glucose and immune status
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** an infection deep in the neck has formed pus that antibiotics alone will not clear, and it can affect breathing and spread to the chest.
+- **A breathing tube in the neck (tracheostomy)** may be needed to keep the airway safe while the swelling settles; it is usually temporary.
+- **Open wounds with drains**, dressed several times a day, healing over weeks; scarring.
+- **More than one operation** may be needed if pus collects again.
+- **Nerve injury:** facial weakness, hoarseness, shoulder weakness or tongue weakness, depending on the space.
+- **Bleeding**, including rare, catastrophic bleeding from a major artery weakened by the infection.
+- **Swallowing difficulty**, sometimes needing a feeding tube for a time.
+- **Spread to the chest, clots in the neck veins, and death** in severe cases.
+- **The cause must also be treated:** often a tooth extraction.
+!!
+## Before you start
+### The history
+- How long, and how fast it is changing; pain on swallowing or difficulty swallowing; trismus; voice change; breathing difficulty.
+- **Teeth:** periodontal disease, fractured or carious teeth, periapical abscess.
+- A recent sore throat or quinsy, upper respiratory infection, trauma, intravenous drug use, or recent neck surgery.
+- **Diabetes**, HIV, chemotherapy and other immune suppression.
+- Antibiotics already taken; anticoagulants.
+- Previous head and neck cancer: a **malignant fistula** can masquerade as an abscess.
+### The examination
+- **Airway first:** stridor, voice, drooling, positioning, oxygen saturation; flexible laryngoscopy for patency and swelling of the posterior pharyngeal wall.
+- **Neck:** extent and site of swelling, fluctuance, tenderness, redness, crepitus.
+- **Mouth:** gingival swelling and pus around carious teeth; swelling of the floor of the mouth with the tongue pushed up and back.
+- **Oropharynx:** bulging of the palate or tonsil, trismus.
+- Fever and a high white cell count are usual.
+!flag Sedation can kill
+A patient sitting up, drooling and working hard to breathe may lose the airway completely if sedated or laid flat. Do not send an unstable airway to the CT scanner; secure the airway first.
+!!
+
+# Anatomy you must see | Three layers, many spaces.
+## The fascial layers
+- The **superficial cervical fascia** lies with the platysma; deep neck infections involve the spaces made by the **three layers of the deep cervical fascia**.
+- **Superficial (investing) layer:** encircles the neck like a drum, splitting around the sternocleidomastoid and trapezius and the submandibular gland (the marginal mandibular nerve runs in it); above the jaw it splits to enclose the **masticator space**.
+- **Middle (visceral) layer:** wraps the thyroid, trachea, oesophagus and constrictors; above, as the **buccopharyngeal fascia**, it forms the front wall of the retropharyngeal space.
+- **Deep layer:** splits into the **alar** layer (the back wall of the retropharyngeal space) and the **prevertebral** layer.
+- All three layers contribute to the **carotid sheath**.
+!table The deep neck spaces
+Space | Boundaries and contents | Usual source | How to drain
+Sublingual | Above the mylohyoid, under the floor-of-mouth mucosa | Premolars and first molar (roots above the mylohyoid line) | Through the mouth, plus the tooth
+Submandibular | Below the mylohyoid | Second and third molars (roots below the mylohyoid line) | Through the skin
+Ludwig's angina | Both, often both sides | Dental | Submental incision; awake tracheostomy often needed
+Parapharyngeal | Inverted pyramid from skull base to hyoid, beside the pharynx | Tonsil, quinsy, teeth | External, at the level of the hyoid
+Retropharyngeal | Between buccopharyngeal and alar fascia, skull base to about T1 to T6; split by a midline raphe | Nasopharynx and sinuses (retropharyngeal nodes in children) | Through the mouth if small and confined; otherwise external, medial to the carotid sheath
+Danger space | Between alar and prevertebral fascia, skull base to the diaphragm | Spread from neighbouring spaces | External, often with chest surgery
+Prevertebral | Behind the prevertebral fascia, skull base to the coccyx | Spinal infection, tuberculosis, surgery | External, with spinal teams
+!!
+!mf 1 | The mylohyoid sling divides the floor of the mouth into sublingual and submandibular compartments.
+!mf 3 | The retropharyngeal, danger and prevertebral spaces in front of the spine, separated by the alar and prevertebral fasciae.
+## Reading the retropharynx
+- A retropharyngeal abscess is classically **to one side of the midline**, because the raphe tethers it; but the raphe can break down, so a midline abscess can still be retropharyngeal.
+- On a lateral neck X-ray the retropharyngeal soft tissue at **C2** should be about 4 mm; **over 7 mm is abnormal**. At **C6** up to 14 mm in children and 22 mm in adults is normal.
+
+# The operation, stage by stage | Airway, map, drain, wash, drain again.
+## Secure the airway
+If the airway is threatened, perform an **awake tracheostomy** under local anaesthetic with the anaesthetist standing by, then give the general anaesthetic once the tube is in. Do not sedate first. In Ludwig's angina, intubation is often impossible because the tongue is pushed up and back and the floor of the mouth is swollen.
+!mf 2 | Ludwig's angina: the tongue pushed upward, and swelling and redness of the submental skin.
+!see What you should see
+- A secure airway before anything else is done.
+!!
+## Use the CT as a map
+Before you cut, list every pocket on the CT and decide how you will reach each one; plan the incisions around the spaces involved.
+!senior Senior's pearl
+The commonest error is draining one pocket and leaving another. Count the loculations on the scan, then count them again in the wound.
+!!
+## Choose the incisions
+- **Ludwig's angina:** a submental incision (often with bilateral submandibular incisions); the discharge is often thin and watery rather than frank pus.
+- **Submandibular space:** a skin incision below the mandible.
+- **Parapharyngeal space:** an incision at the level of the hyoid; find the posterior belly of digastric, retract it upward, and open the space bluntly above and behind it. Transoral drainage cannot reach the lower part of this space.
+- **Retropharyngeal space:** an incision placed to reach the lowest pocket, often one or two fingerbreadths above the clavicle when it runs toward the mediastinum; dissect **deep and medial to the carotid sheath**. A third or fourth branchial pouch abscess with thyroiditis may need a thyroid lobectomy and the tract followed up to the piriform fossa.
+- **Several spaces:** two or more staggered horizontal incisions, sometimes on both sides.
+!mf 4 | The external approach to the parapharyngeal space at the level of the hyoid, beneath the posterior belly of digastric.
+!danger The great vessels and nerves
+The carotid sheath, the vagus, the hypoglossal and accessory nerves and the marginal mandibular nerve all lie close to these spaces, distorted by swelling. Open the spaces bluntly with a finger or closed instrument, and do not use muscle relaxants.
+!!
+## Open, sample and break down the pockets
+When pus appears, take samples for Gram stain and aerobic, anaerobic and fungal culture, with the anaerobic sample protected from air. Using the CT as your guide, and gentle palpation inside the cavity, open every loculation.
+!see What you should see
+- One open cavity with no remaining walls, the full extent seen on CT reached.
+!!
+!danger A clot beside the artery
+A blood clot near the carotid in an infected field may mean the artery has ruptured, from bacterial toxins eroding its wall. Stop, pack, and call the vascular surgeons into theatre.
+!!
+## Irrigate and drain
+Wash out the cavity with large volumes of saline until the fluid runs clear. Place half-inch Penrose drains into every incision and stitch them to the skin so they cannot fall out. Leave the wounds open to heal by secondary intention, and apply an absorbent dressing that protects the skin.
+## Treat the source
+Extract the offending tooth or teeth (with the dental or maxillofacial team), drain an associated peritonsillar abscess, and plan treatment for any branchial anomaly or other cause.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Still septic after drainage
+Look for | rising white count, fever, sepsis, a new collection on repeat CT
+Act | involve the infectious diseases team, adjust antibiotics to cultures, extract any remaining dental source
+Then | return to theatre if the scan shows a collection
+!!
+!path Spiking fever with a tender, swollen neck after a sore throat
+Suspect | Lemierre syndrome: septic thrombophlebitis of the internal jugular vein, usually Fusobacterium necrophorum, with septic emboli to the lungs and joints
+Confirm | contrast CT: a thrombosed vein with a rim of enhancement (the "O" sign)
+Treat | prolonged intravenous antibiotics ; drain associated abscesses ; anticoagulation is often used, though the evidence is weak ; ligation of the vein is no longer routine
+!!
+!path Dusky, numb skin with crepitus
+Suspect | necrotising fasciitis: subcutaneous gas, skin anaesthesia, rapid spread
+Act | urgent wide debridement back to healthy, bleeding tissue ; leave the wound open ; repeat debridement as needed
+Note | mortality around 23%, over 40% if it reaches the mediastinum ; reconstruct only after the infection has settled
+!!
+!path Sudden neck swelling, bruising and falling blood pressure
+Suspect | carotid rupture from infection
+Act | pressure, resuscitation, airway ; vascular or interventional radiology team immediately
+!!
+
+## On the scan
+!mf 5 | A thrombosed internal jugular vein after an untreated quinsy (left), and a multiloculated parapharyngeal abscess with the "O" sign of jugular thrombosis (right, arrow).
+
+# Aftercare | Days of dressings and careful watching.
+## After the operation
+- Intensive care if needed for ventilation, sepsis, and pain control and sedation.
+- Change dressings several times a day while the discharge is heavy.
+- Check the microbiology daily and change antibiotics as cultures return.
+- Withdraw the Penrose drains gradually as drainage falls; the wounds heal by secondary intention. Repeat washouts for heavy continuing discharge.
+- Assess swallowing, especially in the elderly; speech therapy and nasogastric or gastrostomy feeding when needed.
+- Remove the tracheostomy once the swelling has settled and the infection has resolved.
+## Pathogens
+- The **teeth** are the commonest source; a source is never found in about half.
+- Children: mostly aerobes, especially **Streptococcus pyogenes** and **Staphylococcus aureus**.
+- Adults and odontogenic infections: **anaerobes** are common (Prevotella, Peptostreptococcus, Fusobacterium, Porphyromonas, Bacteroides); 30% to 40% are mixed.
+- **Beta-lactamase producers** (S. aureus, H. influenzae, M. catarrhalis, Prevotella, Porphyromonas) can protect other organisms from penicillins.
+## Complications
+!table Complications of deep neck infection
+Complication | Notes
+Airway obstruction | Commonest killer; secure early
+Mediastinitis | Through the retropharyngeal and danger spaces
+Lemierre syndrome | Jugular thrombophlebitis with septic emboli
+Necrotising fasciitis | Diabetes, alcohol, obesity, age, vascular disease
+Carotid erosion and rupture | Bleeding, bruising, shock
+Cranial nerve palsy | IX to XII in the parapharyngeal space; marginal mandibular
+Recurrent or persistent abscess | Missed pockets, untreated source
+Dysphagia | Retro- and parapharyngeal dissection, oedema
+!!
+## The mimic: calcific tendinitis of longus colli
+Severe neck pain and stiffness with painful swallowing and swelling of the back wall of the nasopharynx, but **without fever or a raised white count** (ESR and CRP may be up). CT shows **calcification in front of C1 to C2** with retropharyngeal oedema and no enlarged nodes. It is not an abscess: treat with anti-inflammatory drugs (or steroids), and it resolves in 1 to 2 weeks. Operating on it is a mistake.
+!mf 6 | Calcific tendinitis of longus colli: thickened retropharyngeal tissue at C1 to C2 and the typical calcification.
+## Alternatives and evidence
+Ultrasound-guided aspiration can work for well-defined, single-pocket abscesses in selected patients, with shorter stays. Transoral drainage suits children and small abscesses confined to the retropharyngeal space, but not those spreading into the parapharyngeal space or needing revision. Many children are first treated with intravenous antibiotics; in adults, **delaying surgery beyond two days more than doubled morbidity and mortality** in one large study. Reasonable indications for surgery in children include airway compromise, complications, an abscess over about 2.2 cm, age under 4, and needing intensive care.
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Dhingra: separates the acute retropharyngeal abscess of children (suppurating retropharyngeal nodes, which atrophy after about age 5) from the chronic, tuberculous retropharyngeal or prevertebral abscess from cervical spine caries or tuberculous nodes, which is drained externally behind the sternocleidomastoid and not through the mouth; describes Ludwig's angina in terms of the sublingual, submandibular and submental spaces, the first molar and premolar roots lying above the mylohyoid line, and tracheostomy when the airway is threatened.
+Lee: describes Lemierre syndrome from Fusobacterium necrophorum in young adults, spreading from the oropharynx to the parapharyngeal space and internal jugular vein, with septic emboli to lungs, joints, liver and spleen, and sensitivity to clindamycin, metronidazole and penicillin; notes that retropharyngeal nodes atrophy after about age 5.
+Myers gives the surgical plan: CT as a map, awake tracheostomy without sedation, the incision for each space, finding the parapharyngeal space beneath the digastric, reaching the retropharynx medial to the carotid sheath, Penrose drains and open wounds, and the variants including necrotising fasciitis, carotid rupture and longus colli tendinitis.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- The **three layers of deep cervical fascia** and the spaces they make.
+- **Which teeth** drain into which space, and why (the mylohyoid line).
+- **Ludwig's angina**: definition and airway management.
+- The **retropharyngeal, danger and prevertebral** spaces and how far each extends.
+- **Normal retropharyngeal thickness** at C2 and C6.
+- The **approach to the parapharyngeal space**.
+- **Lemierre syndrome** and **necrotising fasciitis**.
+- **Longus colli tendinitis** as a mimic.
+!!
+## Common pitfalls
+!pit
+- Sedating or laying flat a patient with a threatened airway.
+- Sending an unstable airway to CT.
+- Draining one pocket and missing others.
+- Draining a parapharyngeal abscess through the mouth only.
+- Forgetting the dental source.
+- Missing a malignant fistula in a patient with previous cancer.
+- Operating on calcific tendinitis.
+!!

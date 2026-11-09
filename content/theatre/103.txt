@@ -1,0 +1,178 @@
+@stand Opening the maxillary sinus is often the first step a resident learns in endoscopic sinus surgery, and it looks simple, but it is where the orbit and the nasolacrimal duct are most often injured and where many revision cases begin. The goals are ventilation, restoring the sinus's own mucus clearance, and access for rinses and topical treatment. Many patients need only a small window through the uncinate that opens the natural ostium; others need a wider middle meatal antrostomy for lavage, surveillance and drug delivery. The same opening is the route to an antrochoanal polyp, which must be removed completely, stalk and all, or it comes back. This chapter covers how to choose the extent of surgery, find and preserve the natural ostium, avoid recirculation, and clear an antrochoanal polyp.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Antral lavage, middle meatal antrostomy and antrochoanal polyp
+ | Summary
+Indications | Chronic rhinosinusitis or recurrent acute sinusitis that has failed medical treatment; nasal polyps; antrochoanal polyp; maxillary mucocele; fungal ball; benign or malignant tumours of the maxillary sinus; endoscopic access to the pterygopalatine and infratemporal fossae
+Contraindications | An inadequate trial of medical treatment; odontogenic sinusitis that will usually (over 60%) settle once the tooth is treated; an asymptomatic opaque sinus or retention cyst
+Anaesthesia | General with an endotracheal tube (mandatory with reactive airways), tube taped to the lower lip; total intravenous anaesthesia and controlled hypotension may help the view
+Position | Supine, head turned slightly toward the surgeon (midline for four-handed surgery), reverse Trendelenburg if preferred; screens and navigation placed ergonomically
+Antibiotics | A single dose of first-generation cephalosporin (clindamycin if allergic); broader cover and cultures if infection is active
+Monitoring | None special; navigation for extensive or revision surgery
+Imaging | **Mandatory:** thin coronal CT without contrast; look at the lamina papyracea and orbital floor for dehiscence, and find any Haller (infraorbital ethmoid) cells
+Tray | Endoscopic sinus set; 0-, 30-, 45- and 70-degree telescopes; paediatric backbiting forceps; double-ball probe seeker; curved suckers; microdebrider; 90-degree ethmoid forceps; bipolar and suction monopolar diathermy; canine fossa trocar set
+Before theatre | Stop antiplatelets and anticoagulants if possible; topical decongestant in the holding area 30 and 15 minutes before and again on the way to theatre
+!!
+## Consent
+!consent What to tell the patient
+- **What it is:** enlarging the natural drainage opening of the cheek sinus from inside the nose; for a polyp, removing it completely from its root.
+- **Bleeding**, usually minor.
+- **Watering eye** from injury to the tear duct, which runs just in front of the sinus opening.
+- **Eye injury:** bruising, swelling, double vision; rare.
+- **Numbness of the cheek** or upper teeth, especially if a small puncture through the cheek is needed for a polyp.
+- **Scarring** that can block the opening again.
+- **Persistent symptoms:** facial pain alone, without sinus disease, is unlikely to be helped by surgery.
+- **Recurrence** of an antrochoanal polyp if any root is left.
+!!
+## Before you start
+### The history
+- The **four cardinal symptoms**: blockage, discoloured discharge, facial pain or pressure, reduced smell; and how long they have lasted.
+- **Teeth:** previous infections, root canals, implants or sinus lifts; think of an **odontogenic** source in one-sided maxillary disease.
+- Previous medical treatment (antibiotics, steroids, sprays, rinses) and surgery (septoplasty, sinus surgery).
+- Trauma to the nose, orbital rim, floor or medial wall.
+- Systemic disease: sarcoidosis, granulomatosis with polyangiitis, vasculitis; cystic fibrosis and ciliary dyskinesia.
+- Bleeding history, antiplatelets, supplements (vitamin E, ginseng, ginkgo, garlic), smoking, alcohol, occupational exposure (wood dust, metals).
+### Nasal endoscopy
+Examine before and after decongestion and topical anaesthesia. Look for a deviated septum, concha bullosa, accessory ostia and **recirculation**, the state of the mucosa and pus (take a culture), tumours, and signs of previous surgery.
+!mf 1 | Accessory ostia (arrows) in the left posterior fontanelle.
+!flag Recirculation
+The natural ostium is the only opening that the sinus's cilia clear toward; an accessory ostium in the fontanelle, or an inferior meatal window, is ignored. Mucus can loop out of the natural ostium and back in through an accessory opening: the patient has thick postnasal drip and recurrent infection, a 30-degree scope shows bubbly secretions moving between the two openings, and CT shows bubbles on the sinus floor. The cure is to join the natural ostium to the accessory opening.
+!!
+### The CT
+On standard windows, any mucosal thickening in the maxillary sinus is abnormal. An antrochoanal polyp shows as a unilaterally opaque antrum with a mass running from it through the nose to the nasopharynx; the ethmoids are rarely involved.
+!mf 2 | CT of a left antrochoanal polyp: an opaque antrum extending into the nose (coronal) and the nasopharynx (axial, arrow).
+
+# Anatomy you must see | The ostium and its neighbours.
+## The maxillary sinus
+- A single air cell bounded by the orbit above, the zygomatic process laterally, the hard palate below, the fontanelles and uncinate medially, the cheek in front and the pterygopalatine fossa behind.
+- Its cilia carry mucus **against gravity** to the **natural ostium**, which lies at the back of the **ethmoid infundibulum**, between the **uncinate process** and the **ethmoid bulla** (the hiatus semilunaris).
+- The natural ostium faces in a **parasagittal** plane and has an anterior elliptical extension; accessory ostia are round, punched-out holes in the fontanelle lying in the sagittal plane.
+- **Haller cells** on the orbital floor can narrow the infundibulum.
+!mf 4 | A Haller cell (asterisk) and the natural ostium of the right maxillary sinus (arrow) on coronal CT.
+## The danger points
+- The **nasolacrimal duct** lies just in front of the uncinate, under the **maxillary line**; cutting too far forward injures it.
+- The **lamina papyracea** lies just lateral to the top of the uncinate; a sickle knife driven through the uncinate can enter the orbit.
+- The **infraorbital nerve** runs in the roof of the sinus, sometimes dehiscent, especially after trauma.
+- **Branches of the sphenopalatine artery** and the **descending palatine nerve** lie at the back of the antrostomy.
+- The narrowest part of the ethmoid lies between the front of the middle turbinate and the uncinate and lacrimal processes; damaging the mucosa here causes adhesions.
+
+# The operation, stage by stage | Window, ostium, antrostomy, polyp.
+## Prepare the field
+Choose either oxymetazoline in the holding area or 1:1000 adrenaline on the table (the two compete for the same receptors, so the second works less well after the first). Place the soaked pledgets; colour the adrenaline with a drop of methylene blue and keep it in a labelled basin so it is never mistaken for local anaesthetic and injected. Inject 1% lidocaine with 1:100,000 adrenaline at the upper attachment of the middle turbinate, the lower uncinate and the tail of the middle turbinate, and wait 5 minutes. Keep the scope high in the nose so your instruments pass freely below it; keep the lens clean with irrigation or an irrigating sheath.
+!mf 5 | Injection sites: the upper attachment of the middle turbinate (+), the lower uncinate (black arrowhead) and the tail of the middle turbinate (white arrowhead).
+!see What you should see
+- A pale, dry middle meatus with the middle turbinate, uncinate and bulla clearly identified.
+!!
+## Medialise the middle turbinate
+Push the middle turbinate gently toward the septum, remembering that force is transmitted to the lateral lamella of the cribriform plate. Reduce a bulky, paradoxically curved turbinate or a concha bullosa with the shaver if needed; most need only gentle retraction.
+## The uncinate window
+Find the free edge of the uncinate. With **paediatric backbiting forceps**, bite **backward to forward** through the uncinate about a third of the way up from its attachment to the inferior turbinate. This retrograde route is the safest way into the infundibulum, because you are cutting away from the orbit. Remove the uncinate above the window with the shaver up to the agger nasi, as far as the rest of the operation needs.
+!mf 6 | An uncinate window cut with paediatric backbiting forceps reveals the natural ostium (arrow); x marks the middle turbinate.
+!danger The sickle knife
+The orbit is entered most often during uncinectomy, when a sickle knife is pushed through the uncinate and on through the lamina papyracea. If you use a knife, keep it shallow and parallel to the lamina; the retrograde backbiter avoids the problem.
+!!
+## Preserve the natural ostium
+Below the window, shave away the nasal-side mucosa over the remaining uncinate bone, lift the bone out of its mucosal pocket with a double-ball probe, and lay the mucosal flaps together with the shaver. This removes the uncinate **under the mucosa**, opening the natural ostium widely while keeping its **full 360-degree ring of lining** and its parasagittal orientation.
+!mf 7 | The lower uncinate lifted out of its mucosal pocket with a double-ball probe.
+!mf 8 | The natural ostium with its full ring of lining preserved.
+!see What you should see
+- The natural ostium, oval and pointing forward, with an intact mucosal ring and no raw bone around it.
+!!
+!senior Senior's pearl
+An ostium left in its natural parasagittal plane cannot be blocked by a middle turbinate that later falls laterally. Once you convert it into a large sagittal antrostomy, a lateralised turbinate can seal it off.
+!!
+## Lavage
+To wash out the sinus, pass a small paediatric sucker gently through the natural ostium and irrigate; an accessory ostium or an inferior meatal puncture can also be used. This is enough for many cases of recurrent acute and chronic maxillary sinusitis.
+## Antrostomy, when needed
+If a formal antrostomy is needed (polyps, fungal ball, tumour, mucocele, access for rinses or the pterygopalatine fossa), enlarge the confirmed natural ostium **backward into the posterior fontanelle**, keeping the lining around the front 270 degrees of the ostium, using a ball probe or curved sucker. If you decide to make an antrostomy, make it **large**; a teardrop shape suits mucociliary clearance. Suction and wash out secretions; reduce polypoid mucosa to free trapped mucus, but do not strip it. Take care at the back, where the sphenopalatine branches and the descending palatine nerve lie.
+!danger Missing the natural ostium
+An antrostomy made through the fontanelle or inferior meatus that does not include the natural ostium sets up recirculation. Always find the natural ostium and join your opening to it.
+!!
+!danger Stripping the mucosa
+Stripped sinus lining regrows without organised cilia and never clears normally again; it also invites osteitis and scarring. Remove only what is diseased and cut it cleanly.
+!!
+## Antrochoanal polyp
+Remove the nasal and choanal parts endoscopically. Make a **maximal antrostomy** to see the sinus part and the **stalk**, which most often arises from the lateral wall of the sinus, and usually leaves through an **accessory ostium** in the posterior fontanelle. Grasp the neck with 90-degree ethmoid forceps to deliver the bulk, then clear the attachment with a curved 4 mm shaver under 30- and 70-degree telescopes. If you cannot reach the stalk, make a **canine fossa puncture** above the gingivobuccal sulcus over the canine root: keep a finger on the cheek so the trocar does not go through the posterior wall, and the other hand on the orbital rim so it does not slide up into the orbit. Pass a 30-degree scope through the puncture with a curved shaver through the nose, or the shaver through the puncture with an angled scope through the nose (or both, through a double puncture). No packing is needed, and the ethmoids rarely need surgery. A mini-Caldwell-Luc is the fallback.
+!mf 3 | An antrochoanal polyp (arrow) leaving through an accessory ostium behind an intact uncinate (cross).
+!see What you should see
+- The stalk's attachment clearly seen and removed, with a clean sinus wall left behind.
+!!
+!flag Polyp from the natural ostium
+An antrochoanal polyp usually comes through an accessory ostium. A polyp coming out of the natural ostium should make you think of **inverted papilloma**: send every polyp for histology.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Orbital fat or bruising during uncinectomy
+Act | stop working there ; do not pull fat ; avoid packing
+Watch | for proptosis, tense eye and reduced vision: an orbital haematoma needs canthotomy and cantholysis
+!!
+!path Watering eye afterwards
+Suspect | nasolacrimal duct injury from cutting in front of the maxillary line
+Act | many settle ; refer for dacryocystorhinostomy if it persists
+!!
+!path The sinus is blocked again at review
+Look for | a lateralised middle turbinate scarred over the antrostomy, ostial stenosis, or recirculation
+Act | divide adhesions, medialise the turbinate ; revise to include the natural ostium
+!!
+!path Brisk bleeding at the back of the antrostomy
+Suspect | sphenopalatine branch
+Act | bipolar or suction diathermy ; if needed, formal sphenopalatine control
+!!
+
+# Aftercare | Rinses from day one.
+## After the operation
+- Pain is minimal: paracetamol or low-dose opioid.
+- **High-volume saline irrigation from the day of surgery.**
+- Steroid sprays and other topical treatments from about a week, or after any oral steroid course ends.
+- Routine postoperative antibiotics have no good evidence; culture and treat if infection is found.
+- No nose blowing; lift less than about 5 kg for a while.
+- A wide antrostomy allows the sinus to be checked in clinic with 30-degree or even flexible scopes, and to be rinsed and medicated at home.
+## Complications
+!table Complications of maxillary sinus surgery
+Complication | Cause or prevention
+Adhesions | The main pitfall; mucosal trauma; powered instruments and mucosal preservation reduce them
+Ostial stenosis | Mucosa around the ostium damaged
+Recirculation | Natural ostium not included in the antrostomy
+Lateralised middle turbinate blocking the sinus | After a formal antrostomy in the sagittal plane
+Persistent disease | Infection, polyps, secretions, a residual fungal ball or polyp
+Nasolacrimal duct injury | Uncinectomy too far forward
+Orbital injury | Sickle knife through the lamina
+Infraorbital nerve injury | Rare; previous trauma
+Bleeding | Sphenopalatine branches at the back, or turbinate resection
+Unrelieved facial pain | Pain without objective disease; avoid surgery
+Recurrent antrochoanal polyp | Stalk left behind after simple polypectomy
+!!
+## Alternatives
+Continued medical treatment, topical steroids and other topical medication. Because this is surgery for symptoms, with no malignant potential in inflammatory disease, keep it as limited as the disease allows. Odontogenic sinusitis often settles with dental treatment; a wide antrostomy helps in extensive or resistant cases. A middle meatal antrostomy works poorly in **cystic fibrosis** and ciliary dyskinesia, where mucus pools on the sinus floor because clearance depends on cilia.
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Dhingra: describes **proof puncture** (antral lavage) through the inferior meatus with a Lichtwitz trocar about 1.5 to 2 cm behind the front of the inferior turbinate, aimed toward the ear on the same side, with the meaning of the washings (amber fluid with cholesterol crystals for a cyst, mucopus for hyperplastic sinusitis, foul pus for suppuration) and its complications, including fatal air embolism if air is blown in; **inferior meatal antrostomy** and the **Caldwell-Luc** operation, now largely replaced by endoscopic middle meatal surgery; and the antrochoanal (Killian) polyp with its antral, choanal and nasal parts, arising near an accessory ostium in children and young adults.
+Lee: lists the antrochoanal polyp and silent sinus syndrome among indications for sinus surgery, stresses relieving ostial obstruction, and advises sending every antrochoanal polyp for histology to exclude inverted papilloma.
+Myers prefers a limited uncinate window that preserves the whole ostial ring when possible, a wide antrostomy that includes the natural ostium when more is needed, and complete removal of an antrochoanal polyp endoscopically, adding a canine fossa puncture when the stalk is out of reach.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- Why the **natural ostium** must be included, and what **recirculation** is.
+- How to tell the **natural from an accessory ostium**.
+- **Retrograde uncinectomy** and the structures at risk (orbit, nasolacrimal duct).
+- **Haller cells** and the **maxillary line**.
+- The **antrochoanal polyp**: parts, site of origin, why simple polypectomy recurs, and the role of a canine fossa puncture.
+- **Inverted papilloma** when a polyp comes from the natural ostium.
+- Proof puncture: technique, interpretation and **air embolism**.
+- Why antrostomy fails in **cystic fibrosis**.
+!!
+## Common pitfalls
+!pit
+- Operating without a proper trial of medical treatment or for pain alone.
+- Driving a sickle knife through the lamina.
+- Cutting in front of the maxillary line.
+- An antrostomy that misses the natural ostium.
+- Stripping the sinus lining.
+- A small opening when an antrostomy was the plan.
+- Simple polypectomy that leaves the stalk.
+- Not sending a polyp for histology.
+!!

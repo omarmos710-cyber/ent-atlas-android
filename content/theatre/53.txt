@@ -1,0 +1,180 @@
+@stand Obstructive sleep apnoea is the airway collapsing during sleep, when the muscles that hold it open relax. CPAP treats it well, but about half of patients cannot stay on it. Uvulopalatopharyngoplasty (UPPP), introduced by Fujita in 1981, is still the commonest operation for snoring and sleep apnoea, and its gentler relatives, the uvulopalatal flap and anterior palatoplasty, suit particular palates. The operation is simple; choosing the right patient is not. A patient with big tonsils and a palate you can see past does well; one whose tongue hides the palate rarely does. This chapter covers the sleep assessment, Friedman staging, sleep endoscopy, the three operations and how to avoid their two classic failures: velopharyngeal insufficiency and nasopharyngeal stenosis.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table UPPP, uvulopalatal flap and anterior palatoplasty
+ | Summary
+Indications | Obstructive sleep apnoea without significant central apnoea in a patient who cannot tolerate CPAP; upper airway resistance syndrome (symptoms and arousals without a raised AHI); selected non-apnoeic snoring
+Choosing the operation | **UPPP:** most excisional; Friedman stage I (and II) anatomy; can help more severe apnoea. **Uvulopalatal flap:** mild to moderate apnoea or snoring with a thin, atrophic, long palate. **Anterior palatoplasty:** mild to moderate apnoea or snoring with a shorter palate; can be done under local anaesthetic
+Contraindications | Medically unstable; previous velopharyngeal insufficiency; cleft palate; pharyngeal cancer or radiotherapy
+Anaesthesia | General with an oral tube (an oral RAE or armoured tube resists compression by the gag); the surgeon stays for induction because these patients are often hard to intubate; keep the patient paralysed for jaw relaxation and exposure
+Position | Table turned 90 or 180 degrees, supine with a shoulder roll; anterior palatoplasty under local can be done sitting in the sniffing position
+Antibiotics | Clean-contaminated: from induction for 24 hours (ampicillin-sulbactam, clindamycin, amoxicillin-clavulanate, or a cephalosporin with metronidazole)
+Monitoring | Standard; overnight oximetry for moderate to severe apnoea
+Investigations | Sleep study (home study or polysomnography) to grade apnoea and exclude central apnoea, hypoventilation and other sleep disorders; drug-induced sleep endoscopy (DISE) if the sites of collapse are unclear
+Tray | Tonsillectomy set; McIvor gag; monopolar and bipolar diathermy or suction diathermy with protected tips; Vicryl or Monocryl sutures
+Before theatre | A proper CPAP trial with the reasons for failure explored; stop anticoagulants if possible
+!!
+## Consent
+!consent What to tell the patient
+- **What it does:** removes the tonsils and trims and tightens the soft palate to widen the airway behind it; it often reduces snoring and apnoea, but may not cure apnoea.
+- **Results depend on your anatomy**; you will need a **sleep study afterwards** even if the snoring stops, and you may still need CPAP or a mouth guard (often more comfortable after surgery).
+- **Throat pain** for about two weeks, with a soft diet.
+- **Bleeding**, as after tonsillectomy, which can need a return to theatre.
+- **Nasal speech and fluid coming out of the nose** when drinking, common for a short time and almost always settling.
+- **Rare:** permanent nasal speech or regurgitation; narrowing between the nose and throat from scarring; breathing problems after surgery, which is why you may stay overnight.
+- **Taste change** and a feeling of something in the throat.
+!!
+## Before you start
+### The history
+- **Night:** snoring (loudness, change with weight and position), witnessed apnoeas, waking, nocturia.
+- **Day:** sleepiness, fatigue, morning headaches, poor memory and concentration, mood change; a job that needs alertness (driving).
+- Nasal blockage (day, night, lying on one side).
+- Previous sleep studies and CPAP titrations; previous treatment (CPAP, oral appliance, positional therapy, weight loss) and **why CPAP failed**.
+- Other sleep disorders: central apnoea, hypoventilation from lung disease, restless legs, circadian disorders, insomnia, parasomnias.
+- Hypertension, heart disease, stroke, diabetes, hypothyroidism; previous head and neck surgery or radiation; **cleft palate or previous nasal speech**.
+- Family history; anticoagulants, alcohol, sedatives, opioids; smoking; the effect on the bed partner.
+### The examination
+- **Body mass index**, neck circumference, thyromental angle and hyoid position.
+- **Nose:** septal deviation, turbinates, valves, polyps (nasal surgery may lower the pressure needed and improve CPAP use).
+- **Face:** a small mandible or retruded maxilla (consider jaw surgery).
+- **Mouth:** teeth and bite; palate width, thickness and vertical length; Friedman palate position; tonsil size; prominent lateral pharyngeal walls (palatopharyngeus).
+- **Flexible nasendoscopy** lying down, or DISE: nasal obstruction, whether the palate hangs obliquely or vertically, its length, tonsils and lateral walls, tongue base and lingual tonsils, epiglottic collapse, and the effect of pushing the jaw forward.
+!table Friedman staging and UPPP success
+Stage | Typical anatomy | UPPP success (one series)
+I | Large tonsils (3 to 4) with palate position I or II, BMI under 40 | About 81%
+II | Mixed: large tonsils with a higher palate grade, or small tonsils with a low grade | About 38%
+III | Small tonsils with a high palate position (palate hidden by the tongue) | About 8%
+!!
+!flag Collapse at more than one level
+Many patients obstruct at the tongue base or epiglottis as well as the palate. A palatal operation will not help collapse it does not touch; DISE shows where and how the airway closes, and may point to combined procedures, tongue base surgery, hypoglossal nerve stimulation or jaw advancement.
+!!
+
+# Anatomy you must see | The palate and its muscles.
+## The soft palate
+- The **junction of hard and soft palate**, and the **genu** of the soft palate, where it bends: the sling of the **levator veli palatini**, which lifts the palate to close the nasopharynx during speech and swallowing.
+- The **velum** and **uvula** (with the musculus uvulae).
+- The **palatoglossus** (anterior pillar) and **palatopharyngeus** (posterior pillar), and the **superior constrictor** in the tonsil bed.
+!danger The genu
+Cutting palate in front of the genu damages the levator sling: the palate can no longer close the nasopharynx, and the patient is left with nasal speech and fluid coming out of the nose.
+!!
+
+# The operation: UPPP | Tonsils, palate, closure.
+## Tonsillectomy, preserving the pillars
+Inject the planned incision lines with 1% lidocaine with 1:100,000 adrenaline. Remove both tonsils without breaching the superior constrictor, keeping the palatoglossus and palatopharyngeus and their mucosa. Do **not** remove the adenoids at the same time: it raises the risk of nasopharyngeal stenosis.
+!see What you should see
+- Two tonsil fossae with intact pillars and constrictor.
+!!
+## Mark and cut the palate
+Start at the anterior pillar and cut upward in the sagittal plane to the planned coronal incision, about **8 to 10 mm in front of the free edge of the soft palate**, and **behind the genu**. Make the junction of the sagittal and coronal cuts a **right angle**; a rounded corner contracts like a purse string. Complete the cuts through the palate and remove the back of the palate with the uvula. Cold dissection with sparing bipolar reduces heat injury and pain.
+!mf 1 | The incision line for UPPP, behind the genu of the soft palate.
+!see What you should see
+- A square-cornered palatal edge, the genu untouched, and the levator sling intact.
+!!
+!danger The purse string
+A rounded corner where the coronal and sagittal cuts meet scars into a ring that narrows the airway and can make apnoea worse.
+!!
+## Close
+Sew the anterior and posterior pillars together on each side to close the tonsil fossae, then close the mucosa of the coronal cut. Use durable sutures such as Vicryl or Monocryl, because swallowing pulls hard on these suture lines.
+!mf 2 | Keep a right angle between the coronal and sagittal closures to keep the lateral oropharynx wide as it heals.
+!senior Senior's pearl
+Modern palate surgery reconstructs more than it removes. Keep the posterior pillar mucosa, cut behind the genu, and close at right angles: these three habits prevent most of the bad outcomes.
+!!
+
+# The operation: uvulopalatal flap | For the thin, long palate.
+## Plan the flap
+Remove the tonsils as above. Fold the tip of the muscular uvula forward to find the furthest-forward point of the dissection, following the natural S-shaped curve of the back edge of the palate. Do not pull the folded palate tight while planning: tension causes the wound to break down.
+## Raise and fold
+Inject generously and wait several minutes. Incise the oral mucosa along the planned lines from that forward point to the back edge of the palate on each side. With cold dissection and sparing bipolar, remove the oral mucosa as a star-shaped area from the underlying muscle, back to the free edge and the tip of the uvular muscle, including excess uvular mucosa. Fold the uvula forward and stitch the nasal mucosa of its tip to the most anterior point, then close the remaining lines.
+!mf 3 | Raising the oral mucosa off the palatal muscle to make the uvulopalatal flap.
+!mf 4 | The flap folded forward and sutured.
+!mf 5 | The appearance after a uvulopalatal flap.
+!see What you should see
+- A shortened, folded palate lifted forward from the back wall of the pharynx, with closures free of tension.
+!!
+!danger A bulky palate
+Folding a thick, muscular palate leaves an uncomfortable bulk. Keep the flap for the thin, atrophic palate.
+!!
+
+# The operation: anterior palatoplasty | Advancing the whole palate.
+## Prepare
+Remove the tonsils as above; consider local anaesthetic only if the tonsils are already out or very small (grade 1). Inject generously and wait. Trim the uvula partly or completely according to the anatomy.
+## Excise and advance
+If the posterior pillars are webbed to the back wall of the pharynx, make a small sagittal cut beside the uvula on each side so the palate is not tethered. Excise a rectangle of mucosa about **1 by 4 cm** from the soft palate just behind its junction with the hard palate. Achieve haemostasis, then sew the front and back edges together: as the scar contracts, the whole palate moves forward and stiffens.
+!see What you should see
+- A tight closure just behind the hard palate, with the soft palate pulled forward and no tethering behind.
+!!
+!danger Webbing left behind
+Posterior pillar webs that are not released hold the palate back and blunt the effect of the advancement.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Breathing difficulty or low oxygen after surgery
+Causes | swelling of the operated airway, opioid suppression of breathing, residual apnoea
+Act | sit up, oxygen, monitor ; reduce opioids to the least effective dose ; restart the patient's own CPAP or oral appliance if they have one
+Escalate | airway team ; reintubation if needed
+!!
+!path Bleeding from the tonsil fossae
+Act | as for post-tonsillectomy bleeding: resuscitate, examine, and return to theatre if it does not stop
+!!
+!path The uvulopalatal flap breaks down
+Act | debride the breakdown to prevent further damage and airway obstruction
+Prevent | avoid tension when planning the fold
+!!
+!path Nasal speech or regurgitation
+Expect | common early and usually resolves
+Persisting | speech and swallowing therapy ; investigate if it lasts months
+!!
+
+# Aftercare | Pain, fluids and a repeat sleep study.
+## After the operation
+- Antibiotics for 24 hours.
+- **Overnight monitoring with oximetry** for moderate to severe apnoea; patients may wear their CPAP or oral appliance.
+- Analgesia with paracetamol and the least opioid that works; make sure the patient is drinking and eating before discharge.
+- **Soft diet for 10 to 14 days.**
+- **Repeat sleep study** after healing, whatever the snoring is like: residual apnoea is common, and surgery often makes CPAP or an oral appliance easier to use.
+## Complications
+!table Complications of palatal surgery
+Complication | Notes
+Airway oedema and obstruction | Monitor moderate to severe apnoea overnight
+Opioid respiratory depression | Titrate carefully
+Bleeding | As after tonsillectomy
+Dehydration and poor intake | Pain control
+Flap dehiscence | Excess tension in the uvulopalatal flap
+Velopharyngeal insufficiency | Common and temporary; persistent if palate cut in front of the genu
+Nasopharyngeal stenosis | Rare but disabling; avoid adenoidectomy at the same time and keep posterior pillar mucosa
+Persistent apnoea | Multilevel collapse; Friedman stage III
+!!
+## Alternatives
+CPAP and other forms of positive pressure; nasal surgery to make CPAP easier; weight loss and behaviour change; positional therapy for apnoea that is much worse on the back; a mandibular advancement device (good for mild apnoea and as an alternative in selected patients, though about half still have symptoms or residual apnoea, and the bite can change); skeletal surgery for jaw deficiency; more advanced palatal procedures; tongue base surgery; hypoglossal nerve stimulation; and tracheostomy.
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Dhingra: lists the treatments for sleep apnoea, from weight loss, positional therapy, oral appliances and CPAP through palatal surgery (uvulopalatoplasty, UPPP, advancement pharyngoplasty), tongue base surgery, genioglossus advancement, hyoid suspension and maxillomandibular advancement, and calls tracheostomy the gold standard.
+Lee: grades tonsils 0 to 4 and the Friedman palate position I to IV with the tongue resting in the mouth (not protruded, unlike Mallampati, which it says should not be used for sleep apnoea); describes drug-induced sleep endoscopy with the VOTE system; and notes that nasal surgery does not lower the apnoea index but can improve sleep quality and CPAP tolerance.
+Myers gives the operations step by step, with the Friedman stage success figures (about 81%, 38% and 8%), cutting behind the genu with right-angled corners, avoiding adenoidectomy at the same sitting, and matching the uvulopalatal flap to thin palates and anterior palatoplasty to short ones.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- The **AHI** grades and the role of the **sleep study**.
+- **Friedman staging** and the matching UPPP success rates.
+- **DISE** and the **VOTE** classification.
+- Why you cut **behind the genu**, and why the corners are **square**.
+- Why **adenoidectomy** is not combined with UPPP.
+- **UPPP versus uvulopalatal flap versus anterior palatoplasty**: which palate suits each.
+- **Velopharyngeal insufficiency** and **nasopharyngeal stenosis**.
+- Why a **repeat sleep study** is needed even if snoring stops.
+!!
+## Common pitfalls
+!pit
+- Operating on a Friedman stage III patient and expecting a cure.
+- Missing collapse at the tongue base or epiglottis.
+- Cutting in front of the genu.
+- Rounded corners at the palatal closure.
+- Removing adenoids at the same time.
+- Stripping posterior pillar mucosa.
+- A uvulopalatal flap in a thick palate, or closed under tension.
+- Not repeating the sleep study.
+!!

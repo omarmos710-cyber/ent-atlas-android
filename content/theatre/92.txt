@@ -1,0 +1,188 @@
+@stand Parotidectomy is the classic head and neck operation: it tests your anatomy, your use of planes, traction and countertraction, your haemostasis and your handling of a nerve that the patient will see every time they look in the mirror. Superficial parotidectomy removes part or all of the gland lateral to the facial nerve, which is not a true anatomical division but the line we use to separate a superficial from a deep lobe. Most parotid tumours are benign, but a few are malignant and some masses are lymphoma, which must not be treated by surgery alone. This chapter covers how to assess the lump, find the main trunk of the facial nerve every time, follow its branches forward around the tumour, close the defect, and manage Frey syndrome, sialocele and nerve injury.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Superficial parotidectomy
+ | Summary
+Indications | Neoplasms of the superficial lobe (about 85% of parotid tumours are benign: pleomorphic adenoma, Warthin tumour; low-grade malignancies); metastatic nodes from skin cancer of the face, scalp and ear; chronic parotitis that has failed medical and minimally invasive treatment
+Contraindications | A poor surgical candidate; tumour in the deep lobe (needs a total or deep-lobe operation); malignancy extending into the parapharyngeal space, mandible, skin or ear canal, or with distant metastases (needs a wider resection or non-surgical treatment)
+Anaesthesia | General; avoid long-acting muscle relaxants so the nerve can be stimulated
+Position | Supine, neck gently extended, head turned away; the whole side of the face and the ear prepared and draped in view
+Antibiotics | Not needed for tumour surgery, even with a suction drain; give them for chronic parotitis
+Monitoring | Facial nerve monitoring is optional, not the standard of care; useful in revisions and chronic parotitis
+Imaging | CT or MRI with contrast for anatomy, extent, nodes and stones; MRI is particularly useful; PET for staging a known malignancy; ultrasound for intraparotid nodes
+Tray | Head and neck and facial plastic sets; fine blunt-tipped dissecting scissors (McCabe dissector); right-angle retractors; nerve stimulator; bipolar; harmonic scalpel if available; suction drain
+Before theatre | Fine-needle aspiration for any suspicious mass; stop aspirin, anti-inflammatories and supplements a week before; agree the plan for the nerve in a malignancy
+!!
+## Consent
+!consent What to tell the patient
+- **Facial weakness:** temporary weakness of part of the face is common and usually recovers over weeks; permanent weakness is uncommon. In a cancer, the nerve may have to be removed and grafted, and this will be discussed beforehand.
+- **Numbness of the ear lobe** and the skin around the scar, often long-lasting, because the great auricular nerve is usually divided.
+- **Gustatory sweating (Frey syndrome):** sweating and flushing of the cheek when eating, which many patients have to some degree; treatable if it bothers them.
+- **A hollow** in front of the ear.
+- **A collection of saliva or fluid (sialocele or seroma)**, usually managed by aspiration and settling within weeks.
+- **Bleeding or a blood clot**, infection, poor healing of the skin flap, and a thick or raised scar.
+- **The final diagnosis comes from the specimen;** occasionally further treatment (radiotherapy, or more surgery if the margins are involved) is needed.
+- **Recurrence**, especially of a pleomorphic adenoma if the capsule is breached.
+!!
+## Before you start
+### The history
+- **Features of malignancy:** pain, facial weakness coming on gradually, rapid growth, fixation.
+- **Radiation exposure** raises the risk of mucoepidermoid carcinoma.
+- **Lymphoma or Sjögren syndrome** in the past makes lymphoma more likely.
+- **Skin cancer** of the face, scalp or ear, or a non-healing skin lesion: think of a metastatic node.
+- **A smoker with a cystic mass** in the tail: probably a Warthin tumour.
+- **A mass present for many years, or recurrent:** carcinoma ex pleomorphic adenoma becomes more likely (malignant change in 5% to 10%).
+- **Previous parotid surgery**, which makes the nerve harder to find.
+### The examination
+- A **mobile** mass suggests a benign tumour; a **fixed** one is worrying, though benign tumours can be fixed when they pass through the stylomandibular tunnel into the prestyloid parapharyngeal space, or when inflamed.
+- **Facial weakness** of one or more branches is a hallmark of malignancy.
+- Palpable **neck nodes** raise concern (occasionally inflammatory).
+- Look in the mouth at the tonsil and soft palate for **deep-lobe extension**.
+- Look for **scars** of previous surgery and **skin cancers**.
+### Imaging and cytology
+!table What the imaging tells you
+Finding | Suggests
+Irregular edge, infiltration of soft tissue, low T2 signal | Malignancy
+Early enhancement with little washout on dynamic MRI | Malignancy
+Heterogeneous mass with sharp scalloped edges, bright on T2 | Pleomorphic adenoma
+Cystic, high T2 signal, tail of gland, often bilateral | Warthin tumour
+Intraparotid node with normal architecture on ultrasound | May be observed
+!!
+- **FNA** is indicated for any suspicious mass; it can mislead (about 10% false positives), and frozen section is more reliable at surgery. FNA is especially useful in elderly or unfit patients.
+- **Open biopsy** risks the nerve and seeding, so use it sparingly. For a large mass in the tail more than 1 cm behind the ramus, where lymphoma is likely, a small incision parallel to and 1 cm behind the ramus safely obtains tissue for flow cytometry, even in clinic.
+
+# Anatomy you must see | Three landmarks to the main trunk.
+## Finding the main trunk
+- The **tragal pointer**: the cartilaginous tip of the external auditory canal points anteroinferiorly toward the nerve; the trunk lies about 1 cm deep and slightly inferior to it.
+- The **tympanomastoid suture**: palpable between the pointer and the mastoid tip; the nerve leaves the stylomastoid foramen just deep to its lower end. This is the most reliable landmark.
+- The **posterior belly of digastric**: the nerve lies at the level of its attachment to the mastoid, just medial to it; the muscle lies lateral to the nerve as it exits.
+- The **styloid process** lies deep to the nerve: dissecting straight down toward it takes you past the nerve.
+!mf 1 | A, the modified Blair incision, with the face-lift modification hiding the posterior limb at the hairline. B, dissection with a fine dissector over the tympanomastoid suture, moving toward the parotid. C, the main trunk exposed and followed along its branches. D, the digastric muscle inserting on the mastoid, lateral to the nerve as it leaves the stylomastoid foramen.
+## Other structures
+- The **great auricular nerve** runs up over the sternocleidomastoid to the lobule; it is usually divided, but its posterior branch can sometimes be kept, and it is a ready graft if needed.
+- The **spinal accessory nerve** enters the deep surface of the sternocleidomastoid; beware it if you rotate muscle fibres to fill the defect.
+- The **retromandibular vein** runs through the gland, often deep to the nerve's divisions.
+- The **superficial musculoaponeurotic system (SMAS)** lies beneath the skin flap and can be raised as a separate layer to fill the defect and reduce Frey syndrome.
+
+# The operation, stage by stage | Incision to closure.
+## Incision and skin flap
+Use a **modified Blair incision**: in the preauricular crease to the level of the canal, around the lobule, then down into a neck crease about two fingers below the mandible. For tumours at or above the lobule, it need not extend into the neck. A face-lift variant hides the posterior limb at the hairline. Raise the skin flap **with its subcutaneous fat** on top of the SMAS; if the SMAS is free of tumour, raise it as a separate, anteriorly based flap to use later.
+!see What you should see
+- A healthy, thick skin flap and the SMAS (or parotid fascia) intact over the gland.
+!!
+!danger The thin flap
+A flap raised without its fat, especially in a smoker, can die at its tip. Keep the fat on the skin.
+!!
+## Free the gland from behind
+Clear the front of the upper sternocleidomastoid. Divide the great auricular nerve (or preserve its posterior branch if you can). Dissect along the cartilaginous ear canal, find the **pointer**, and retract the gland forward. Work **parallel to the floor** (toward the parotid, not down into the bony canal); dissecting perpendicularly takes you to the styloid, deep to the nerve. Divide the parotidomasseteric fascia to reach the plane in which the nerve runs.
+!see What you should see
+- The pointer, the mastoid tip, the anterior border of the sternocleidomastoid and the posterior belly of digastric, with the gland lifted forward.
+!!
+## Find the main trunk
+Feel for the **tympanomastoid suture** between the pointer and the mastoid tip. Staying over the suture, divide small bites of fascia and parotid tissue by spreading parallel to where the nerve will run, until the trunk appears as a white, round cord with fine vessels on its surface. Large tumours can push the trunk into a more vertical course, parallel to the sternocleidomastoid. If you cannot find the trunk, find a **peripheral branch** (usually the marginal mandibular as it crosses the facial vessels, or the buccal along the duct) and follow it back.
+!see What you should see
+- The main trunk, about 1 cm deep to the pointer, at the level of the digastric, dividing a short distance on into its upper and lower divisions at the pes anserinus.
+!!
+!senior Senior's pearl
+Spread, never cut blindly, and spread along the line of the nerve. Use the stimulator sparingly: repeated stimulation and rough handling cause the very neuropraxia you are trying to avoid.
+!!
+## Follow the branches around the tumour
+Follow the trunk forward along its branches, dividing the gland tissue lateral to the visible nerve, until you are in soft tissue in front of the tumour. Keep a cuff of normal gland around a benign tumour where you can; on the nerve side there is often only the capsule, so dissect the tumour off the nerve carefully without breaching it. Then divide the remaining gland and remove the specimen. Control small vessels with bipolar or ties near the nerve; a harmonic scalpel speeds the operation.
+!see What you should see
+- Every branch running intact from the trunk to the front edge of the dissection, with the tumour lifted off them in its capsule.
+!!
+!danger Breaching the capsule
+A torn pleomorphic adenoma seeds multiple recurrences that are hard to clear. If the capsule ruptures, irrigate generously and remove every fragment you can see, and record it.
+!!
+## Close
+Stimulate the main trunk before closing to confirm that every branch still works. Irrigate and place a suction drain. Fill a visible hollow by sewing the SMAS flap to the sternocleidomastoid, or by rotating some upper sternocleidomastoid fibres forward (beware the accessory nerve); dermal grafts can cause infection and sialocele, and fat grafts partly resorb. Close the subcutaneous layer with 3-0 absorbable sutures and the skin with 6-0 absorbable sutures or glue, then strips and a light parotid dressing.
+!see What you should see
+- All branches contracting on stimulation, a dry bed, and a smooth contour.
+!!
+# Variations | Other ways to deal with a parotid tumour.
+## The options
+- **Extracapsular dissection:** removing a small benign tumour with a thin cuff, without formally dissecting the nerve. It grew out of enucleation (which recurred in over 40% because the capsule was left), and needs a microscope and careful selection.
+- **Accessory lobe tumours:** endoscopic assistance avoids large facial incisions.
+- **Chronic parotitis:** removing the whole superficial lobe, with or without tying the duct, cures nearly all.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path The face is weak after surgery
+Nerve seen intact | expect full recovery: neuropraxia in 4 to 6 weeks, traction injury up to 6 months ; steroids do not help ; eye care
+Nerve not identified | re-explore to find and repair it
+Eye | lubricants, taping at night, ophthalmic review if closure is poor
+!!
+!path A branch is cut during the operation
+Act | freshen both ends with a sharp cut ; repair the epineurium with 8-0 or 9-0 monofilament under magnification, without tension ; a conduit can support it
+Gap | interpose a great auricular graft ; at a delayed repair, sural or medial antebrachial cutaneous nerve
+Expect | at best House-Brackmann III, recovering over 6 to 12 months
+!!
+!path Sudden swelling or a drain filling with blood
+Act | return to theatre to evacuate the haematoma and control the vessel
+Why | prevents infection and death of the skin flap
+!!
+!path Swelling under the flap after drain removal
+Act | aspirate with a 16 to 20 gauge needle under aseptic conditions ; repeat as needed
+Then | botulinum toxin into the remaining gland for a persistent sialocele ; most settle within 4 to 6 weeks
+!!
+!path The tumour is malignant on final histology
+Margins clear | no further surgery is needed for a superficial lobe tumour
+Then | multidisciplinary review for neck treatment and radiotherapy by grade and stage
+!!
+
+# Aftercare | The drain and the face.
+## After the operation
+- Check facial movement on waking and record each branch.
+- **Drain** on bulb suction (avoid high suction near the nerve); remove when under 20 ml in 24 hours, then if under 5 ml over the next 8 hours.
+- Keep the dressing on for 24 hours after discharge.
+- No strenuous exercise for 2 weeks; no driving for 1 week.
+## Complications
+!table Complications of superficial parotidectomy
+Complication | Frequency or management
+Ear lobe and skin numbness | Common; great auricular nerve
+Temporary facial weakness | Common; usually recovers
+Permanent facial weakness | Uncommon; repair or reanimation
+Frey syndrome | Up to 60%, troubling about 10%; antiperspirant, botulinum toxin, interposed vascularised tissue
+Sialocele or seroma | About 5%; aspiration, botulinum toxin, time
+Infection | Under 5%
+Haematoma | Return to theatre
+Flap necrosis | Keep the fat on the flap; smoking increases risk
+Hypertrophic scar or keloid | Early triamcinolone injection with lidocaine
+Recurrence | About 2%, often multifocal, from capsule left behind or spillage; revision ± nerve sacrifice, radiotherapy for widespread disease
+!!
+## Frey syndrome
+After the gland is removed, parasympathetic secretomotor fibres from the auriculotemporal nerve (glossopharyngeal origin, via the otic ganglion) regrow into the sweat glands of the overlying skin, so eating causes sweating and flushing. Confirm with Minor's starch-iodine test. Prevent it by placing vascularised tissue (SMAS flap) between the bed and the skin; treat it with antiperspirant or botulinum toxin injections. Revision surgery for Frey syndrome risks the scarred nerve and is a last resort.
+## Alternatives
+A benign tumour in a patient unfit for surgery can be observed; radiotherapy can be considered for a malignancy in a patient who cannot have surgery.
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Dhingra: explains that pleomorphic adenomas have finger-like projections through the capsule, so enucleation leaves tumour behind and excision must include a cuff of normal gland, which in the parotid means a superficial parotidectomy; Warthin tumours (men, tail of gland, bilateral in 10%) are treated by superficial parotidectomy, though enucleation is acceptable for them; a severed facial nerve after trauma is found by superficial parotidectomy and repaired under magnification.
+Lee: explains Frey syndrome as auriculotemporal parasympathetic fibres reinnervating the sweat glands (about 20% after parotidectomy in children), and sets out when superficial parotidectomy is part of treating skin cancer and melanoma of the face, scalp and ear with nodal disease.
+Myers gives the operation itself: the three landmarks to the main trunk, the plane parallel to the floor, sparing use of the stimulator, drain removal criteria, the management of sialocele with aspiration and botulinum toxin, and when to sacrifice the nerve in a malignancy.
+!!
+## Deciding whether to sacrifice the nerve
+Preserve a normally working nerve whenever possible; FNA (with only about 52% sensitivity for suspicious and malignant lesions) must not decide its fate. The exceptions, which the patient should know about in advance, are a nerve encased by tumour, frozen section evidence of infiltration, or gross tumour that cannot otherwise be removed. A nerve that was already paralysed before surgery is resected with the tumour. Microscopic disease left on the nerve can be treated with radiotherapy.
+## Viva essentials
+!exam What the examiner is looking for
+- The **landmarks for the main trunk**: tragal pointer, tympanomastoid suture, posterior belly of digastric, styloid (deep).
+- The **retrograde approach** from a peripheral branch.
+- Why **enucleation** of a pleomorphic adenoma recurs.
+- The **commonest benign and malignant** salivary tumours (pleomorphic adenoma; mucoepidermoid carcinoma).
+- **Lymphoma** in the differential, and why it must not be operated on unnecessarily.
+- **Frey syndrome**: mechanism, Minor's test, prevention and treatment.
+- **Nerve repair**: technique, grafts, the expected best result (House-Brackmann III).
+- When to **sacrifice the nerve**.
+!!
+## Common pitfalls
+!pit
+- Not considering lymphoma before operating.
+- Dissecting perpendicular, down toward the styloid, past the nerve.
+- Pulling on the nerve, or stimulating it over and over.
+- Cutting rather than spreading over the nerve.
+- Breaching the capsule of a pleomorphic adenoma.
+- A thin skin flap without its fat.
+- Taking out a drain before the output has settled.
+!!
