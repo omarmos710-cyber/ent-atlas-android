@@ -1,0 +1,143 @@
+@src Myers, Operative Otolaryngology
+@stand Segmental mandibulectomy removes a full-thickness segment of the mandible, breaking its continuity from condyle to condyle. The old composite resection took bone with every oral cancer in the belief that tumour spread along periosteal lymphatics; Marchetta and colleagues disproved that, so today a segment is removed only when the cancer has entered the bone, or bone invasion cannot be excluded, or the mandible is too thin or irradiated to survive a marginal resection. The resection itself has barely changed in decades; what has changed is reconstruction, now usually with vascularised bone, most often the fibula. The defect's position relative to the mental foramen decides the cost: lateral defects are forgiving, anterior defects destroy chewing, oral competence, swallowing and the airway, and must be rebuilt. This chapter covers the types of mandibulectomy, how to judge bone invasion, planning with the reconstructive team, the incisions, the osteotomies, margins on bone that frozen section cannot read, and aftercare.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Segmental mandibulectomy
+ | Summary
+Definitions | **Mandibulotomy:** a cut for access, no bone removed. **Marginal:** alveolus or lingual plate removed, continuity kept. **Segmental:** a segment removed (ramus, angle, body or parasymphysis), continuity broken
+Indications | Cancer invading the **medullary space** (alveolar primary or from the floor of mouth); a hypoplastic, edentulous or irradiated mandible that rules out a safe marginal; benign tumours whose removal would leave an unstable bone; advanced osteoradionecrosis, bisphosphonate osteonecrosis or osteomyelitis; severe trauma with unstable or dead bone
+Contraindications | Unfit for anaesthesia (cardiac, haemodynamic, irreversible coagulopathy); tumour too extensive to remove; distant metastasis (palliative resection only in highly selected patients)
+Airway | Oral intubation converted to **tracheostomy** in most; nasal intubation for small lesions confined to the bone
+Anaesthesia | Paralysis only after the marginal mandibular and accessory nerves are found; arterial line for free flaps; discuss fluids and vasopressors, which can harm a flap
+Position | Head turned 180 degrees from the anaesthetist for two teams; reverse Trendelenburg about 20 degrees
+Antibiotics | Within 60 minutes of incision, redosed after two half-lives, covering skin, aerobes and anaerobes (for example clindamycin 600 mg then 4 doses 6-hourly; ampicillin-sulbactam 6-hourly; cefazolin 2 g then 3 doses 8-hourly); no benefit beyond 24 to 48 hours
+Tray | Soft tissue and head and neck sets; oral surgery and extraction set; nerve monitor if needed; bipolar; reciprocating and oscillating saws (or a Gigli saw); drill; reconstructive team with microscope, microvascular and plating sets
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to remove the cancer together with the part of the jawbone it has entered.
+- **The lower lip will be numb for good** on that side, because the nerve in the bone is cut.
+- **Reconstruction**, usually with bone from the leg (fibula) and its skin; or a plate.
+- **A tracheostomy** and a feeding tube for some days; possibly a gastrostomy.
+- **Speech, swallowing and chewing** will change; aspiration is a risk; dental rehabilitation may need implants.
+- **Bite and face shape** may change; the jaw joint may ache.
+- **Infection, a leak of saliva, removal of plates, failure of the flap or the bone to heal**, chronic pain.
+- **Another operation** if the margins are not clear.
+- **Radiotherapy or chemoradiotherapy** usually follows.
+!!
+## Before you start
+Look for comorbidity and habits that impair healing, and plan swallowing, speech and dental rehabilitation. About 25% of head and neck cancers and 60% of oropharyngeal cancers are HPV-positive, which may change adjuvant treatment. Bone invasion has been variably associated with inferior alveolar paraesthesia, loose teeth, age, sex, alcohol and tobacco chewing, the type of lesion, skin fixation, dental state and recurrence after radiotherapy.
+
+Examine the head and neck, and use **bimanual palpation** to judge whether the cancer is fixed to periosteum or bone. Test lower lip sensation for mental nerve involvement.
+!senior What protects the bone
+The periosteum and cortex resist invasion, but less so after radiotherapy, after previous surgery that stripped or removed periosteum, and with poor periodontal health. Cancers usually enter at the **occlusal surface**, but also at muscle attachments or along the mental or inferior alveolar nerve.
+!!
+## Imaging
+Clinical examination is sensitive, but best combined with imaging, and no technique is 100% accurate: **60 to 70% of the bone mineral must be lost** before radiographs change. CT, MRI and bone scintigraphy have sensitivity and specificity of about 85 to 95%. CT shows cortical erosion beside the tumour, aggressive periosteal reaction, abnormal marrow attenuation and pathological fracture, though dental artefact degrades the alveolar crest. MRI is more sensitive for marrow and the inferior alveolar canal but **overestimates** invasion because of oedema. FDG-PET may also help. Before a free flap, conventional or MR angiography is recommended in patients over 50 and those with diabetes, hypertension, trauma, arteriopathy or doubtful pulses. **3D planning and models** improve preparation.
+!mf 1 | (A) CT of carcinoma eroding the ramus; (B) 3D reconstruction for virtual planning; (C) a 3D model; (D) the virtual plan with fibula; (E) fibula resection plan; (F) postoperative CT after fibula reconstruction.
+## Planning with the team
+Agree expectations, outcomes and complications (especially after radiotherapy), incisions, tracheostomy and possible gastrostomy. Involve dentistry and maxillofacial surgery (extractions, primary implants), the reconstructive team (setup, instruments, plan, grafts or pedicled flaps), general surgery (gastrostomy), radiation and medical oncology and speech therapy. **Finalise the reconstruction before the resection.**
+!table Ways of restoring continuity
+Method | Notes
+Soft tissue only | Regional pedicled flap, skin graft
+Reconstruction plate | Alone, or with a regional pedicled flap
+THORP | A plate with bone-anchored hollow screws
+Vascularised bone free flap | **Preferred**: radius, fibula, scapula, iliac crest
+!!
+
+# Anatomy you must see | Lateral and anterior.
+## The mandible and its functions
+The mandible forms the outer boundary of the floor of mouth and the lower third of the face, and serves speech, swallowing, chewing and breathing.
+- **The mental foramen** divides defects into **anterior** and **lateral**.
+- **Anterior defects** remove the genioglossus and geniohyoid attachments: tongue control, chewing, oral competence, swallowing and the airway fail, and drooling follows. Symphyseal defects are the worst and **must be reconstructed**.
+- **Lateral defects** are more forgiving if muscle attachments survive, but the bite is unbalanced and the posterior face loses contour; the remaining mandible swings toward the defect, pulled down by the suprahyoid muscles and rotating around the remaining condyle.
+- **The inferior alveolar nerve** is cut with any segment, leaving the lip numb; nerve grafts (sural, lateral femoral cutaneous) have had variable success. Preserve the **opposite mental nerve**.
+- **The neck:** over 30% of oral squamous cancers have nodal metastasis; histological nodal disease is the strongest prognostic factor.
+
+# The operation, stage by stage | Expose, plate, cut, resect.
+## Airway and reassessment
+Perform the tracheostomy for exposure and the postoperative airway (nasal intubation may do for small resections). Re-examine the tumour under anaesthesia, confirm the resection and reconstruction plan, and mark mucosal margins **1 to 2 cm** from the cancer.
+## The incision
+The authors prefer a **lip split** carried down to about the hyoid and back to the mastoid tip, a modified half-H that gives excellent exposure of the mandible and neck and spares the opposite mental nerve; a submental trifurcation allows bilateral neck dissection. Align the vermilion carefully before cutting. Keep the neck limb at least **2 cm below the angle**, or two fingerbreadths below the lower border, to protect the marginal mandibular nerve, and do not let it communicate with the tracheostomy incision. A **visor flap** with intraoral gingivobuccal incisions looks better, but compromises the opposite mental nerve and gives poor views of the posterior and middle tongue and retromolar trigone.
+!mf 2 | The lip-splitting modified half-H incision, with a submental trifurcation for bilateral neck dissection.
+!mf 3 | (A) A pre-contoured reconstruction plate; (B) harvesting a fibula osteocutaneous flap; (C) a visor incision with the fibula inset; (D) sagittal view of the inset with good projection.
+## Raise the cheek flap
+Incise along the anterolateral gingivolabial and buccal sulcus to mobilise the lip. The mental nerve is sacrificed on the side of the resection, adding no morbidity since the inferior alveolar canal goes with the specimen. Dissect over the periosteum of the buccal plate in front of masseter, lifting the marginal mandibular nerve with the flap. If tumour extends lateral to the mandible, the facial artery and marginal branch may have to go.
+!mf 4 | A lip split extended along the buccogingival sulcus so the cheek flap can be retracted, without compromising the lateral margin.
+!mf 5 | Reflecting the cheek flap gives an excellent view of the cancer.
+!mf 6 | Dissecting the periosteum and masseter lateral to the mandible, without exposing the cancer by dissecting too high.
+## Pre-plate the mandible
+With the resection exposed, the reconstructive team may pre-bend a plate to the mandible and drill screw holes in the bone that will remain at each end, then remove and sterilise it for later.
+## The osteotomies
+Mark the cuts with a margin of **at least 2 cm**, extending forward to include the mental foramen. Extract teeth at the osteotomy sites, and any poor teeth or teeth left without bone support, since extraction later is difficult. Make the **anterior cut with a reciprocating saw**, retracting and protecting the floor of mouth. Section the **ramus with an oscillating saw**; a cut above the sigmoid notch takes the coronoid and requires dividing the temporalis tendon, and this placement reduces bleeding from the inferior alveolar artery. If reconstruction is planned and clearance allows, a vertical ramus cut leaves more bone for fixation.
+!mf 7 | Osteotomy of the condylar neck with an oscillating saw; it can also be made through the mid-ramus.
+!danger The saw and the nerves
+A misaligned reciprocating saw damages surrounding structures. When the cheek pushes the saw backward, the inferior alveolar and lingual nerves are at risk: make the posterior cut through an open approach, under direct vision.
+!!
+## Complete the resection
+Make the remaining mucosal cuts, helped by traction sutures on the tongue or the uvula, and mark the specimen with a suture for orientation. Control bleeding from the lingual, buccal and facial vessels with diathermy and ties; if the neck is dissected at the same time, the vessels are already controlled proximally. Smooth the bone edges with a drill.
+!mf 8 | Retracting the soft palate with a suture through the uvula for precise mucosal cuts.
+## Margins on bone
+Frozen section cannot assess bone, which needs decalcification, so send the **proximal and distal ends of the inferior alveolar neurovascular bundle** as surrogate margins, and talk the specimen through with the pathologist so it is correctly labelled.
+## The neck and the duct
+Perform the neck dissection, often as a separate specimen if there is no direct spread to the perifacial nodes: a supraomohyoid dissection (levels Ia, Ib, II, III), with level IV still debated; bilateral for advanced tongue, floor of mouth, lip and mandibular tumours crossing the midline, or with tongue base involvement or major ipsilateral nodes. If the submandibular gland is kept, reroute its duct by **sialodochoplasty** to the floor of mouth.
+## Reconstruct
+The goals are to restore the lower facial contour, tongue volume and floor of mouth for speech and swallowing, and mandibular continuity with proper occlusion and a base for implants. The authors' commonest choice is the **fibula osteocutaneous flap**.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Heavy bleeding during the resection
+Sources | lingual, buccal, facial vessels; branches of the external carotid and internal maxillary arteries
+Prepare | identify the vessels proximally during the neck dissection
+!!
+!path Positive margin on final pathology
+Act | return to theatre for further resection
+!!
+## Common errors in technique
+!pit
+- Poor access: you must see the osteotomy and the structures you are protecting.
+- A misaligned saw; a posterior cut made blind.
+- Forgetting the submandibular duct when the gland stays.
+- Being unprepared for bleeding from the lingual, buccal and facial vessels.
+!!
+
+# Aftercare | Flap, airway, mouth.
+## After the operation
+Intensive care for 24 to 48 hours: flap checks by Doppler, capillary refill, colour and turgor (a suture marks the pedicle site for everyone checking), fluid balance, tracheal suction and drains. Remove any bolster at about a week (with antibiotic cover while it is in), then consider decannulation. Oral care and rinses. Feed by nasogastric tube at least until the bolster is out and the patient decannulated. Reflux precautions with a proton pump inhibitor.
+## Complications
+!table Complications
+Complication | Notes
+Infection, fistula | May require removal of hardware
+Flap failure | Monitor closely in the first 48 hours
+Osteomyelitis, non-union | Of the bony reconstruction
+Malocclusion | In the dentate after segmental resection
+Jaw joint and chronic pain | After resection and reconstruction
+Positive margins | Further resection
+Dysphagia, dysarthria, aspiration | Functional consequences
+Lip numbness | Inferior alveolar nerve cut
+!!
+## Alternatives
+For patients who cannot have surgery: definitive radiotherapy (66 to 74 Gy, 2 Gy daily over 7 weeks) with concurrent chemotherapy, or induction chemotherapy to shrink the tumour; platinum-based chemotherapy for recurrent or metastatic cancer.
+
+# For the examination | What the examiner wants to hear.
+## Adjuvant treatment after bone invasion
+Bone invasion makes the tumour **T4**, and many patients also have nodal disease, so adjuvant chemoradiotherapy appears beneficial. The MACH-NC meta-analysis (Bourhis and colleagues, 93 randomised trials) established concurrent chemoradiotherapy as standard for locally advanced head and neck squamous cancer: compared with radiotherapy alone, a **6.5%** absolute survival gain at 5 years, with 12 to 13% better locoregional control and about 3% fewer distant metastases.
+## Viva essentials
+!exam What the examiner is looking for
+- Mandibulotomy, marginal and segmental mandibulectomy defined.
+- Why the composite resection is no longer routine (Marchetta).
+- How tumour enters the mandible and what weakens its defences.
+- The limits of imaging: 60 to 70% mineral loss; MRI overestimates.
+- Anterior versus lateral defects, and why anterior ones must be rebuilt.
+- Incision choices and the nerves they risk.
+- Bone margins of 2 cm; nerve ends as surrogate frozen sections.
+- Reconstruction options; the fibula as workhorse.
+!!
+## Common pitfalls
+!pit
+- Deciding the reconstruction after the resection.
+- Removing teeth too sparingly at the osteotomy.
+- A neck incision too close to the mandible.
+- No angiography before a fibula in an older or vascular patient.
+!!

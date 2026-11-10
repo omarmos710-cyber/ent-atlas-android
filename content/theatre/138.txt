@@ -1,0 +1,170 @@
+@src Myers, Operative Otolaryngology
+@stand The facial nerve is paralysed more often than any other nerve in the body, usually in its course through the temporal bone. Decompression removes the bone around a swollen nerve so that it can recover, but most paralysed faces recover without surgery, and the skill lies in finding the few that will not. That decision rests on three things: the cause, how long the paralysis has lasted, and electrical testing, which matters only when the paralysis is complete. In Bell's palsy the block lies at the meatal foramen, the narrowest point of the canal at the start of the labyrinthine segment, reached through the middle cranial fossa with the cochlea and superior canal on either side of the nerve. In chronic otitis media with cholesteatoma, surgery is urgent and transmastoid. After an operation, the question is whether to wait or explore. This chapter covers the nerve's structure and Sunderland's grades, electroneuronography and EMG, the indications and contraindications, the middle fossa decompression step by step, and its complications.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Facial nerve decompression
+ | Summary
+Bell's palsy | **90% or more CMAP reduction** on evoked EMG **and no voluntary motor units** on EMG, **within 14 days** of onset; through the **middle fossa** to reach the meatal foramen
+Chronic otitis media | Paralysis with chronic suppuration or **cholesteatoma**: **operate without delay**, whatever the degree or duration, to remove disease and explore the nerve (transmastoid)
+Iatrogenic injury | Immediate complete palsy when the nerve's integrity is unknown or it was roughly handled: explore; or, if observed, EEMG under 10% of normal within 5 days with no voluntary units: explore
+Contraindications | **Ramsay Hunt syndrome** (role of surgery limited); **acute otitis media** (myringotomy, tube, antibiotics instead); paralysis in an **only hearing ear**; unfit for general anaesthesia
+Anaesthesia | General, no relaxants beyond induction; dexamethasone; **mannitol** at incision; hyperventilation to PaCO2 about 25 mmHg
+Position | Supine, head turned, ear up; surgeon at the head; Mayfield pins if image guidance is used
+Antibiotics | First-generation cephalosporin
+Monitoring | Somatosensory evoked potentials; facial and cochlear nerve monitoring
+Tray | Microscope; otological drill and burs; fine otological instruments; craniotomy set; **middle fossa retractor**; facial nerve monitor and stimulator
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to remove the bone squeezing the swollen facial nerve, to improve the chance of good recovery.
+- **The face may still not recover fully.**
+- **Hearing loss**, sometimes total, and **dizziness**, because the inner ear lies right beside the nerve.
+- **Leak of brain fluid**, **brain swelling or bruising**, **bleeding over the brain** needing another operation, and **stroke**: uncommon but serious, as this is an operation through the skull.
+- **A night in intensive care** and a stay of 3 to 6 days.
+!!
+## Before you start
+Ask how long the paralysis has lasted; whether it came on suddenly or gradually; previous episodes on either side; hearing loss, ear pain or discharge, dizziness, head injury; chronic ear disease or previous Bell's palsy; previous ear surgery; anticoagulants. Examine which branches are affected and how much (House-Brackmann grade), other cranial nerves, a vesicular rash, discharge or cholesteatoma, and injury to the canal or drum.
+!table House-Brackmann grading
+Grade | Description
+I | Normal
+II | Mild: slight weakness on close inspection
+III | Moderate: obvious but not disfiguring; complete eye closure with effort; mild synkinesis
+IV | Moderately severe: obvious weakness or disfiguring asymmetry; **incomplete eye closure**; normal tone at rest
+V | Severe: barely perceptible movement; asymmetry at rest
+VI | Total paralysis
+!!
+!senior When to image
+Imaging adds little in Bell's palsy, though CT helps plan a middle fossa approach or image guidance. Paralysis with suppurative ear disease needs imaging. **Paralysis lasting over 6 months, facial twitching, slow progression over weeks or months, or recurrence** demand a search for a tumour. A forehead that is spared suggests a central cause. Not every sudden palsy is Bell's: an acute infection on a cholesteatoma can cause it.
+!!
+## The nerve and its injuries
+The nerve has about 10,000 fibres, 70% motor, the rest secretomotor, sensory and taste. Each fibre is wrapped in **endoneurium**, fascicles in **perineurium**, and the whole nerve in **epineurium**, which carries its vessels.
+!mf 1 | The nerve in cross-section: endoneurium, perineurium and epineurium.
+!table Sunderland's degrees of injury
+Degree | Injury | Recovery
+1st (neurapraxia) | Conduction block from oedema, structure intact | Normal once compression is relieved
+2nd (axonotmesis) | Axons injured, endoneurial sheaths intact | Complete if the cause is relieved
+3rd | Endoneurial tubes disrupted | Incomplete, with **synkinesis** from misdirected regrowth
+4th | Perineurium disrupted too | Very poor
+5th | Complete transection | None without repair
+!!
+Neurotmesis covers the third to fifth degrees.
+!mf 2 | Sunderland's degrees of nerve injury, from compression (first) to complete transection (fifth).
+## Electrical testing
+Testing is needed **only when the paralysis is complete**; incomplete paralysis recovers well.
+- **Evoked EMG (electroneuronography, EEMG):** stimulate at the stylomastoid foramen and record at the nasolabial fold; the injured side's CMAP as a percentage of the normal side estimates the excitable fibres. A **transected nerve can still give a normal response for 48 to 72 hours** until Wallerian degeneration passes the stimulation point, so test after that, then **every other day**. It becomes unreliable after 2 to 3 weeks, when recovering fibres fire out of step.
+- **Needle EMG:** records voluntary activity and can find **voluntary motor units** when no movement is visible, proving the nerve is intact. Their absence is not specific: neurapraxia can look identical. **Fibrillation potentials** at 2 to 3 weeks mean denervation; **polyphasic potentials** mean reinnervation.
+- **Why both:** when EEMG reaches the threshold for surgery, check EMG for early voluntary units, which predict good recovery without surgery: early recovery can desynchronise firing so the CMAP vanishes, a **false positive** on EEMG.
+!mf 3 | Evoked EMG on days 3, 4 and 5 showing a progressively falling response on the left from axonal degeneration; a masseter artefact with very short latency can mimic a small response.
+An **audiogram** helps the diagnosis and the choice of approach: in Bell's palsy hearing is symmetrical, with an absent stapedial reflex on the affected side.
+
+# Anatomy you must see | The meatal foramen.
+## Where Bell's palsy blocks the nerve
+The **meatal foramen**, where the nerve enters the fallopian canal from the fundus of the internal auditory canal to become the labyrinthine segment, is the narrowest part of the canal, about **0.68 mm**. **Bill's bar** and the **falciform (transverse) crest** meet there in dense bone; the nerve has no epineurium, only a periosteal band sealing the entrance, so a swollen nerve is trapped.
+!mf 4 | The lateral internal auditory canal, meatal foramen and first genu, left ear from above.
+## Middle fossa landmarks
+- **The arcuate eminence and superior semicircular canal:** usually the first landmark; the labyrinthine segment runs just in front of the ampullated end of the superior canal. The eminence can mislead: it may not lie over the canal.
+- **The greater superficial petrosal nerve:** runs forward across the floor of the middle fossa; confirm it by stimulating the facial nerve backwards. The angle between it and the superior canal is about **120 degrees**, bisected by the internal auditory canal, which lies about **60 degrees** in front of the superior canal.
+- **The middle ear:** the malleus head and incus body lead to the tympanic segment, which can be followed back to the geniculate ganglion and labyrinthine segment.
+- **The middle meningeal artery** marks the front of the dissection; the **superior petrosal sinus** runs along the petrous ridge.
+
+# The operation, stage by stage | Middle fossa decompression.
+## Prepare the brain
+Give dexamethasone and mannitol at incision, and hyperventilate to a PaCO2 of about 25 mmHg, to relax the temporal lobe.
+!note The mannitol dose
+The chapter prints the mannitol dose as 0.5 mg/kg. Mannitol for brain relaxation is normally dosed in grams per kilogram (for example 0.5 g/kg), so the printed unit appears to be a typographical error. Agree the dose with your anaesthetist.
+!!
+## Incision and muscle flap
+Incise in front of the tragus, up past the root of the helix, curving back then forward, about **10 to 12 cm**. Raise an **anteriorly based U-shaped temporalis flap** that keeps its nerve and blood supply; keep skin and muscle moist under sponges and retract them.
+!mf 5 | The incision for middle fossa exposure, from just in front of the tragus upward 10 to 12 cm.
+## The craniotomy
+Cut a window about **5 cm front to back and 4 cm high**, with **two thirds in front of the ear canal** (the petrous pyramid angles forward), its lower edge flush with the **root of the zygoma**, the level of the middle fossa floor, to limit retraction. Make the vertical cuts **parallel** so the retractor fits; too wide and the retractor cannot span it. Lift the dura off the bone flap and keep the flap for closure; control middle meningeal branches with irrigating bipolar. Lower the inferior edge with a Kerrison or drill if needed.
+!mf 6 | (A) Cutting the craniotomy; (B) freeing the bone flap from the dura; (C) lowering the inferior margin to the floor of the middle fossa; (D) elevating the dura from back to front.
+## Elevate the dura
+Lift the dura **from back to front**, so you do not lift the greater superficial petrosal nerve and tear a dehiscent geniculate ganglion. The middle meningeal artery marks the front; bleeding from the pterygoid plexus there is controlled with oxidised cellulose. Identify the superior petrosal sinus and seat the retractor atraumatically.
+## Find the superior canal
+The superior canal runs perpendicular to the petrous ridge. If the arcuate eminence is unclear, remove bone layer by layer with a large diamond bur and copious irrigation in the expected area, guided by the dense **yellow otic capsule bone**, until the canal shows blue. Estimate the internal auditory canal **60 degrees in front** of it.
+## Find the nerve
+Either **blue-line the internal auditory canal medially near the porus**, where there are no hazards, then follow it laterally to **Bill's bar** with the labyrinthine segment in front of it; or open the **tegmen tympani**, find the nerve at the first genu and follow it to the geniculate ganglion.
+!mf 7 | (A) Finding the nerve at the porus of the internal auditory canal, about 60 degrees in front of the superior canal; (B) the alternative: opening the tegmen, finding the tympanic segment and following it back to the geniculate ganglion and labyrinthine segment (arrow: the meatal foramen).
+## Decompress the meatal foramen
+Decompress with a **1 mm diamond bur** and copious irrigation (heat injures the nerve). Watch for a **blue line** in front of the nerve (the **cochlea**) and behind it (the **superior canal**). Remove the last shell over the labyrinthine segment and geniculate ganglion with fine picks, and open the periosteal sheath sharply to relieve the constriction at the foramen.
+!danger The cochlea and the canal
+Hearing is normal in Bell's palsy, yet the cochlea lies just in front of the labyrinthine segment and the superior canal just behind. Stray off the nerve and the ear is lost. If you open either, seal it at once with bone wax.
+!!
+## Close
+Wax opened petrous apex cells, lay temporalis muscle over the internal auditory canal and fascia over the middle fossa floor, remove the retractor, close the temporalis flap, replace and fix the bone flap, and close the skin in layers, watertight, with absorbable deep and nylon skin sutures.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Inner ear opened
+Act | seal the opening immediately with bone wax
+Expect | sensorineural loss and vertigo ; the drill touching the ossicles also causes sensorineural loss
+!!
+!path Dura torn
+Act | repair with fascia, muscle or homograft dura or pericardium
+Prevent | the right size bur, watch all its edges, diamond burs in tight places and near dura
+!!
+!path Confusion or neurological change after surgery
+Suspect | temporal lobe oedema or contusion, or epidural haematoma
+Act | CT of the head and a neurosurgeon ; urgent craniotomy for an epidural haematoma
+!!
+!path Complete palsy on waking after ear surgery
+First | wait for local anaesthetic to wear off ; remove tight packing
+Nerve seen and intact | observe
+Status unknown or roughly handled | explore
+Observing | EEMG after 48 to 72 hours ; under 10% of normal within 5 days and no voluntary units on EMG: explore
+Timing | results fall sharply beyond 30 days and are uniformly poor beyond a year ; delayed-onset palsy usually recovers well
+!!
+## Common errors in technique
+!pit
+- A craniotomy in the wrong place or of the wrong size.
+- Not lowering the lower edge to the floor of the middle fossa.
+- Injuring an exposed greater superficial petrosal nerve or geniculate ganglion.
+- Opening the cochlea or superior canal.
+- Missing a dural tear.
+- Poor haemostasis, leading to a haematoma.
+!!
+
+# Aftercare | Intensive care, then the ward.
+## After the operation
+Observe overnight in intensive care; use opioids sparingly, as they can mask intracranial complications. Next day move to the ward, mobilise and eat. Remove the drain when under 20 mL. Discharge usually at **3 to 6 days**.
+## Complications
+!table Complications of middle fossa decompression
+Complication | Notes
+Sensorineural hearing loss and vertigo | Opening the cochlea or labyrinth; drill on the ossicles
+CSF leak | Dural injury; repair
+Temporal lobe oedema or contusion | CT and neurosurgical advice
+Epidural haematoma | Urgent evacuation
+Persisting facial weakness | Despite decompression
+Stroke | Rare
+!!
+## Alternatives
+- **Transmastoid decompression** when the injury is limited to the tympanic and mastoid segments.
+- **Translabyrinthine decompression**, reaching the whole nerve, when hearing is not to be preserved.
+## Other causes
+- **Ramsay Hunt syndrome:** varicella zoster reactivated in the geniculate ganglion; complete paralysis is commoner and recovery poorer, worse with auditory and vestibular symptoms; electrical tests are unreliable; give **steroids and antivirals early**; surgery has a limited role.
+- **Acute otitis media:** now rare and almost only in children; urgent **myringotomy with a tube** and topical and systemic antibiotics; mastoidectomy for coalescent mastoiditis or intracranial spread; decompression is not recommended.
+- **Bell's palsy medicine:** guidelines support **prednisone 1 mg/kg/day with a taper plus valaciclovir 500 mg three times daily for 10 days** within 3 days of onset; common practice extends this to 7 days.
+
+# For the examination | What the examiner wants to hear.
+## Does decompression help Bell's palsy?
+Bell's palsy makes up **75%** of acute facial palsies (30 to 40 per 100,000 a year); over **80%** recover satisfactorily and 85% improve within 3 weeks; the timing of recovery and completeness of the palsy are the main prognostic factors. In Gantz and colleagues' prospective study, patients with **90% degeneration on ENoG and no voluntary units within 14 days** were offered middle fossa decompression: of 19 operated, **95% reached House-Brackmann I or II** (half normal), against a poor outcome in **66%** of 11 controls on steroids, none of whom became normal. Decompression **after 14 days** gave results no better than controls. Patients meeting these criteria have at least a **50% chance of poor recovery** without surgery. If 90% degeneration has not occurred within 2 weeks, further testing is unnecessary and the outlook is good.
+## Viva essentials
+!exam What the examiner is looking for
+- Sunderland's degrees and synkinesis.
+- House-Brackmann grading.
+- EEMG and EMG: timing, the 48 to 72 hour lag, every-other-day testing, the false positive, voluntary units.
+- The criteria for decompression in Bell's palsy, and the 14-day window.
+- The meatal foramen: why it traps the nerve, 0.68 mm.
+- Middle fossa landmarks: arcuate eminence, GSPN, the 60 and 120 degree angles, Bill's bar.
+- Urgent surgery for cholesteatoma palsy; no decompression for acute otitis media; limited role in Ramsay Hunt.
+- Managing a palsy after ear surgery.
+!!
+## Common pitfalls
+!pit
+- Testing too early, within 72 hours, and being falsely reassured.
+- Operating on EEMG alone without checking EMG for voluntary units.
+- Calling every sudden palsy Bell's palsy.
+- Trusting the arcuate eminence blindly.
+!!

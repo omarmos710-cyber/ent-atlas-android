@@ -1,0 +1,134 @@
+@src Myers, Operative Otolaryngology
+@stand A mandibulotomy splits a healthy mandible and swings it aside to open a corridor to the back of the mouth and oropharynx, and beyond to the parapharyngeal space and skull base. First described by Roux in 1836 and developed with a paralingual extension by Dubner and Spiro in 1959, it is a way in, not a resection: the bone is put back exactly where it was and healed. It is therefore only for a mandible free of cancer; once tumour touches the periosteum a marginal resection is needed, and once it enters the cortex or marrow, a segmental one. Transoral robotic surgery now reaches many tumours that once needed a split, but large, infiltrating cancers, trismus and full dentition still call for it. Its success depends on detail: a lip closed to its marked vermilion lines, a stair-step cut anterior to the mental foramen, plates bent and drilled before the bone is cut, a thin blade, and watertight soft tissue over the bone. This chapter covers selection, the anatomy of the lip and mandible, the paramedian stair-step osteotomy, reconstruction and the complications of fixation.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Mandibulotomy
+ | Summary
+Types | **Median** (between the central incisors, often needing an extraction with the cut through the middle of the socket); **paramedian** (between the lateral incisor and canine, the wider gap, usually without extraction)
+Indications | Tumours of the posterior mouth and oropharynx (soft palate, tonsil, tongue base, retromolar trigone) when the transoral route cannot give clear margins and the periosteum is not infiltrated; larger, infiltrative cancers; intact dentition or severe trismus blocking transoral access; access to the parapharyngeal space and skull base
+Not appropriate | Cancer invading the mandible (segmental mandibulectomy); periosteum involved with an intact cortex (marginal mandibulectomy); **never combine** a marginal mandibulectomy with an anterior mandibulotomy (pathological fracture)
+Alternative | Transoral robotic surgery when it can give clear margins; for tongue base, tonsil, soft palate and retromolar trigone the choice often rests on the surgeon's experience
+Airway | Oral intubation (fibreoptic nasal if trismus), surgeon in the room; then **tracheostomy** and remove the oral tube; awake tracheostomy for severe airway compromise
+Position | Supine, shoulder roll
+Antibiotics | Clindamycin 600 mg then 4 doses 6-hourly; or ampicillin-sulbactam; or cefazolin 2 g then 3 doses 8-hourly
+Tray | Head and neck set; **extra-thin** reciprocating and oscillating saws; mandibular plates and screws; high-speed drill
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to divide the lower lip and jawbone temporarily to reach a cancer at the back of the mouth or throat, then put the bone back with plates.
+- **A scar** down the middle of the lip and chin; rarely a notch in the lip.
+- **A tracheostomy** for a short time.
+- **The bone may heal slowly** or not unite (under 3% now), may need a further operation, or the plates may need removing if they become infected.
+- **Teeth** beside the cut may be injured or lost (uncommon).
+- **Numbness** of the lip or chin if the mental nerve is stretched.
+- **Soft food** for about 6 weeks.
+- **Radiotherapy** can be given safely over the plates.
+!!
+## Before you start
+Ask where the tumour is (tongue, tonsil, gum, soft palate), how long it has been there, and about dysphagia, trismus, breathlessness, dysphonia, aspiration, weight loss and a neck lump (a major prognostic factor; mandibulotomy is often combined with neck dissection). Ask about other cancers (lung and oesophagus share the risk factors), **dental disease** (which raises the risk of infection, malunion and non-union, and of osteoradionecrosis after radiotherapy: get an oral and maxillofacial opinion and treat it beforehand), craniofacial anomalies, previous radiotherapy, diabetes, previous facial trauma or orthognathic surgery (plates may change the plan), scars of the lip, vermilion and chin (document them), a previous tracheostomy or tracheal surgery (and how it was done), and tobacco and alcohol.
+
+Inspect for scars and radiation skin change. Assess the tumour's size, site, infiltration and cranial nerves by inspection and palpation; with severe trismus, rely more on imaging and use transnasal laryngoscopy for spread to the hypopharynx and larynx. Palpate the neck. Look at the teeth and gums: swollen, red, tender gums suggest periodontal disease.
+## Imaging and the bone decision
+- **Orthopantomogram:** the site of the cut, the angle and spacing of the roots, and (for a stair-step cut) the distance from the root apices to the lower border.
+- **CT:** cortical invasion, which rules out a mandibulotomy.
+- **MRI:** spread through the marrow.
+Imaging can miss subtle bone involvement and cannot always separate subperiosteal reaction from invasion; if a rim of normal tissue separates tumour from bone, the bone can be kept. The best examination is under anaesthesia; **frozen section of the periosteum** helps when tumour is close. Decide the approach beforehand (transoral, mandibulotomy or mandibulectomy), anticipate possible changes, and explain them to the patient.
+
+# Anatomy you must see | The lip and the mandible.
+## The lip
+A composite of skin, orbicularis oris and mucosa. The **vermilion** has two lines to mark for an exact repair: the **anterior vermilion line** (the mucocutaneous junction with the skin) and the **posterior vermilion line** (the wet-dry line with the mucosa, where the lips meet when closed). The **inferior labial artery**, from the facial, crosses the lip between muscle and mucosa at about the level of the anterior vermilion line.
+!mf 1 | Cadaver dissection: (A) the lip and chin incision with the vermilion lines marked; (B) the split mandible showing the floor of mouth.
+## The mandible
+The **inferior alveolar nerve** enters the mandibular foramen on the medial ramus, runs obliquely down and forward in its canal, then horizontally in the body, and leaves as the **mental nerve** through the mental foramen, usually below the gap between the first and second premolars, supplying the lip and chin; the inferior alveolar artery, from the maxillary, runs with it. On the inner symphysis, the anterior belly of digastric arises from the lower border, mylohyoid from the mylohyoid line (symphysis to third molar), geniohyoid from the inferior mental spine and genioglossus from the superior: all serve chewing, swallowing and speech.
+!mf 2 | The mandible: (A) lateral view with the coronoid, condyle, canal and mental foramen; (B) posterior view with the mental spines, digastric fossa, mylohyoid line and mandibular foramen.
+!senior Cut in front of the mental foramen
+A lateral mandibulotomy through the body has been largely abandoned: it risks the inferior alveolar nerve and, especially after or before radiotherapy, ischaemic necrosis. An osteotomy **anterior to the mental foramen** keeps the blood supply and heals best.
+!!
+
+# The operation, stage by stage | Paramedian stair-step mandibulotomy.
+## Secure the airway
+Intubate (surgeon present), perform the tracheostomy and take the tube out of the mouth.
+## Mark the lip
+Mark a vertical midline skin incision. Mark the **anterior vermilion line** with the back of the blade tip, and **tattoo the wet-dry line** with a needle and methylene blue, keeping the marks until closure.
+## Split the lip and chin
+Divide skin, orbicularis and mucosa, cauterising terminal branches of the inferior labial artery. Extend the incision down the chin and submental region to the hyoid, and in the midline down to periosteum. Incise the gingivobuccal sulcus laterally, leaving a **5 to 8 mm cuff of vestibular mucosa** on the bone for closure. Incise the periosteum sharply and elevate it for about 2 cm either side of the planned cut, exposing the front of the mandible, its lower border and the digastric origin. Avoid exposing the mental nerve if you can; if you must, free it sharply from the periosteum.
+## Pre-plate
+Mark a **stair-step** osteotomy beginning between the **lateral incisor and canine**. Bend two four-hole plates to match the bone exactly and drill the holes, two each side: **monocortical** screws for the upper plate and **bicortical** (measured with a depth gauge) for the lower plate near the border.
+!danger A poorly bent plate
+Take time to make the plate fit perfectly. A poor fit leads to unstable fixation and painful non-union.
+!!
+## Cut the bone
+Incise the gingiva between the lateral incisor and canine down to periosteum. With an **extra-thin oscillating saw** held perpendicular to the bone, cut vertically between the teeth; once past the roots (measured on the orthopantomogram or sagittal CT), turn 90 degrees laterally for **0.5 to 1 cm**, then 90 degrees down to the lower border. Complete every cut **with the saw**, never by fracturing.
+!danger The roots and the gap
+An angled alveolar cut injures a root and loses the tooth: cut straight down between the roots. A thick blade leaves a wide gap and invites malunion or non-union; use an extra-thin (about 0.5 mm) blade.
+!!
+## Open the corridor
+Incise the floor of mouth mucosa and swing the mandible laterally. Divide mylohyoid and retract the submandibular gland and duct medially with the tongue to open the posterior mouth and oropharynx. For the parapharyngeal space or skull base, extend the cut back to the anterior tonsillar pillar and soft palate. Ligate the **lingual artery**, which can bleed dangerously after surgery; control inferior alveolar bleeding at the cut with bone wax or diathermy.
+!mf 3 | A T3 floor of mouth cancer: (A) a paramedian stair-step mandibulotomy giving access, after resection and a selective neck dissection; (B) after reconstruction with a radial forearm flap, the pre-bent plates fixing well-aligned segments.
+## Reconstruct and close
+Return the mandible to position. Close the floor of mouth mucosa from back to front with absorbable sutures, repair mylohyoid, then fix the segments through the **pre-drilled holes**. Use a free flap for a large defect. Close soft tissue **watertight** over the bone, and close the lip in **three layers** (mucosa, orbicularis, skin) to the marked vermilion lines. Drain as needed, and apply a **bulky supportive dressing** to reduce swelling and immobilise.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Unstable fixation
+Recognise | movement at the osteotomy, pain
+Act | return to theatre for proper fixation
+After radiotherapy | non-union may become osteoradionecrosis with sequestrum: debridement, bone graft and fixation
+!!
+!path Persistent drainage over the plate
+Cause | saliva contaminating the osteotomy through poor cover or a leaking closure
+Beyond 2 months | a small procedure opening the labial sulcus to remove the plate
+!!
+## Common errors in technique
+!pit
+- Not marking the anterior and posterior vermilion lines.
+- Too small a cuff of vestibular mucosa (5 to 8 mm is enough).
+- A poorly bent plate.
+- A thick saw blade.
+- Finishing the cut by fracture rather than with the saw.
+- An osteotomy behind the mental foramen.
+- An angled alveolar cut damaging a root.
+- Poor soft tissue cover and a leaking closure.
+- Combining a marginal mandibulectomy with a mandibulotomy.
+!!
+
+# Aftercare | Soft food for six weeks.
+## After the operation
+Liquids or soft diet once the soft tissues heal; no intermaxillary fixation; no chewing of solids until about the **sixth week**. Check the osteotomy clinically. Remove the tracheostomy as soon as swelling settles and oropharyngeal function returns. **Radiotherapy** follows the usual criteria and can be given safely: the plate barely affects dose (slight shadowing and hot spots, no adjustment needed), though previously irradiated patients carry more risk of osteonecrosis.
+## Complications
+!table Complications of mandibulotomy
+Complication | Notes
+Overall | Fell from about 30% to 10% in recent series; minor or severe enough to delay radiotherapy
+Lip | Notching, sulcus stenosis, fistula, loss of chin pad contour, numbness, reduced mobility
+Teeth | Loss of one or both adjacent teeth; uncommon
+Fixation | Malunion, non-union, malocclusion, delayed union; now under 3%
+Plate infection | Removal if drainage persists beyond 2 months
+Bleeding | Inferior alveolar branches; lingual artery (life-threatening postoperatively)
+!!
+## Alternatives
+- **Transoral robotic surgery**, preferable whenever it can give clear margins, avoiding a split lip and mandible.
+- Radiotherapy and chemotherapy for inoperable cancer.
+
+# For the examination | What the examiner wants to hear.
+## Which osteotomy?
+In the edentulous mandible the site matters little. With teeth, an extraction and a cut through the middle of the socket preserves bone around the neighbouring teeth, but the trend is now to **avoid extraction**: keeping the teeth stabilises the occlusion, and a poorly healing extraction socket can expose bone and lead to malunion, osteomyelitis or osteoradionecrosis. Dental complications without extraction are uncommon with extra-thin (0.5 mm) saws. Because the gap between the lateral incisor and canine is wider, the **paramedian** osteotomy is preferred to the median.
+## Viva essentials
+!exam What the examiner is looking for
+- When to split, when to resect a margin or a segment.
+- The role of transoral robotic surgery.
+- Median versus paramedian; stair-step and why.
+- Cutting anterior to the mental foramen.
+- Marking the vermilion lines; three-layer lip closure.
+- Pre-plating; monocortical above, bicortical below.
+- The extra-thin blade; completing cuts with the saw.
+- Radiotherapy over plates.
+- Complication rates (30% to 10%; fixation under 3%).
+!!
+## Common pitfalls
+!pit
+- Splitting a mandible the tumour has reached.
+- Ignoring dental disease before radiotherapy.
+- Forgetting to ligate the lingual artery.
+- Letting the patient chew before six weeks.
+!!
