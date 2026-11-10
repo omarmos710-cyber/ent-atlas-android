@@ -1,0 +1,188 @@
+@src Myers, Operative Otolaryngology
+@stand Phonomicrosurgery is surgery for the voice, not for the lesion. It is always elective, it is done only after voice therapy has failed to give the patient the voice they need, and its whole art lies in removing the abnormal tissue while leaving the vibrating layers of the vocal fold as undisturbed as possible. Hirano's body-cover model explains why: the mucosa must glide over the deeper ligament and muscle to make the mucosal wave, and every millimetre of unnecessary dissection, especially into the vocal ligament, is paid for in scar and a stiff, hoarse fold that no later operation can cure. This chapter covers the layered anatomy, the lesions you will meet and which ones should never be operated on, exposure and ergonomics, the medial microflap and truncation, and the voice rest and therapy that decide the result as much as the knife does.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Phonomicrosurgery for benign vocal fold lesions
+ | Summary
+Indications | A benign lesion (polyp, cyst, fibrous mass, Reinke oedema) causing a voice limitation that still matters to the patient for work, leisure or social life **after all appropriate non-surgical treatment**, chiefly voice therapy
+Not an indication | Vocal nodules; a non-specific lesion whose voice has recovered with therapy; a lesion in a patient untroubled by the voice; the wish for "straight edges" alone
+Contraindications | Poor compliance with voice therapy or with healthy voice use afterwards; no time for voice rest and reduced voice use after surgery; severe comorbidity
+Anaesthesia | General, with **complete muscle relaxation throughout**; a small microlaryngoscopy tube (5.0 to 5.5), placed without a stylet; tracheal jet ventilation if the tube hides the lesion
+Premedication | Intravenous steroid, glycopyrrolate (unless contraindicated) to dry secretions, intravenous paracetamol, an antiemetic if needed
+Position | Supine, **neck flexed on the body and head extended on the neck**; ramp the obese patient until the tragus is level with the sternal notch; tape or Velcro over the cricoid or trachea for anterior counterpressure
+Antibiotics | Only for mucosal surgery in a patient with a cardiac or orthopaedic implant
+Tray | Dental guard; the largest laryngoscope that fits, plus special scopes for difficult anatomy; gallows suspension; 0, 30 and 70 degree telescopes (5 mm, about 22 cm); a microscope with adjustable eyepieces; microinstruments of 1 to 2 mm (knives, scissors, cupped and grasping forceps, triangular retractors, elevators, suctions); 1:10,000 adrenaline for injection and pledgets; video tower; an adjustable chair with arm supports
+Skills | Binocular high-power microscopy and bimanual surgery
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to improve the voice by removing a growth on the vocal cord. This is not a cancer operation and it is your choice to have it.
+- **The voice may not improve (about 1 to 2%) or may be worse (about 1 to 2%),** usually from scarring. There is no reliable cure for vocal fold scar. You must accept this risk before going ahead.
+- **Voice rest:** complete silence for about a week, then restricted, gentle voice use for another 7 to 10 days. Plan your work and life around it.
+- **Voice therapy** before and after the operation is part of the treatment.
+- **Tongue numbness or altered taste** from pressure of the laryngoscope on the lingual nerve: in 10 to 20%, usually gone within 4 weeks.
+- **Damage to the teeth** (higher with crowns, loose or missing teeth), to the jaw joint, or to the lips and gums.
+- General anaesthesia, bleeding and infection.
+!!
+## Before you start
+Take the voice history in detail: hoarseness and vocal fatigue in the speaking and the singing voice, loss of the upper or lower range or trouble at the *passaggio* (the transition from chest to head voice), strain and increased effort, and above all the patient's vocal demands at work, at leisure and at home. Ask about reflux (globus, throat clearing, excess mucus, cough, heartburn), smoking and anticoagulants.
+
+Examine the whole head and neck, then the larynx with **stroboscopy**, flexible for vocal fold movement and rigid per-oral for lesions, or both. Stroboscopy is indispensable: it shows the mucosal wave along the vibratory margin, how much the lesion disturbs it, how deep the lesion probably lies, and whether there is associated **scar**, a comorbidity that limits the outcome. Imaging is very rarely needed.
+
+The decision to operate is usually made over several weeks with the patient, the family, a speech and language therapist and sometimes a singing teacher. Prepare the patient: one or two sessions of voice therapy if they have had none, stop anticoagulants if medically possible, stop smoking, avoid voice abuse, start acid suppression several weeks before surgery if there are reflux symptoms, and book the time off for voice rest.
+!senior Senior's pearl
+The final diagnosis of a benign vocal fold lesion is made by you, in theatre, under the microscope: by its look, by palpation, and by the plane it sits in. Pathologists find these lesions hard to tell apart on histology. Write down what you found.
+!!
+
+# Anatomy you must see | The layers you are working in.
+## The layered vocal fold
+From the surface inwards the membranous fold has **epithelium**, the **lamina propria** in three layers (superficial, intermediate and deep), and **muscle**, the thyroarytenoid with the lateral cricoarytenoid; the most medial part of the thyroarytenoid, running from the vocal process to the thyroid cartilage, is the **vocalis**. The **mucosa** is the epithelium plus the superficial lamina propria: this is the cover that vibrates. The intermediate and deep layers together form the **vocal ligament**; surgically they are one.
+!mf 1 | The layers of the vocal fold in cross-section: epithelium, the superficial, intermediate and deep layers of the lamina propria, and muscle.
+## The two surgical planes
+- **The subepithelial space** (the superficial lamina propria): where most benign lesions lie, and where dissection heals with the least scar.
+- **The ligamentous region,** near or within the vocal ligament: the home of ligamentous cysts and fibrous masses. Its fibroblasts lay down more scar, so dissection here carries a much greater risk of a stiff fold.
+## Where lesions sit
+Most benign lesions arise at the **midpoint of the membranous fold**, halfway between the anterior commissure and the vocal process.
+## How the voice is made
+Subglottic air forces the closed folds apart and sets up a mucosal wave along the medial edge; elastic recoil and the Bernoulli effect close them again (the **myoelastic aerodynamic theory**), 100 to 1200 times a second. A mass on the edge disturbs this cycle, so anything that disrupts the mucosal wave, the lesion or your scar, makes the voice worse.
+## The lesions and what to do with them
+!table Benign vocal fold lesions
+Lesion | Recognise it | Treatment
+Vocal nodules | Bilateral (not always symmetrical) lesions of the lamina propria at the midpoint, normal epithelium, near-normal wave; breathy, raspy voice from incomplete closure; children, cheerleaders, aggressive voice users | **Never surgery.** They always resolve once the phonotrauma stops and voice therapy is done
+Non-specific lesion | Like nodules but persists after therapy, though the voice has recovered | No surgery
+Polyp | Usually unilateral, subepithelial, at the midpoint, sessile or pedunculated, often with a contralateral reactive lesion; from intense phonotrauma or haemorrhage, with dehydration, hormones and anti-inflammatory drugs as possible contributors | Microflap excision or truncation if the voice is still impaired after conservative treatment
+Cyst (subepithelial or ligamentous) | Often unilateral, at the edge of the midmembranous fold; encapsulated; from a blocked gland duct, phonotrauma, or congenital; the wave is more reduced when ligamentous | Voice care and therapy first; **microflap excision** if the voice still falls short
+Fibrous mass | Irregular fibrous tissue with no clear border, subepithelial or ligamentous, unilateral or bilateral, with a reactive lesion opposite; chronic phonotrauma or haemorrhage | Therapy first; microflap excision if it fails. The ligamentous type does worst
+Reactive lesion | A concave lesion opposite a convex primary lesion on stroboscopy | Remove with the primary, or leave to settle: surgeon's choice
+Reinke oedema | Gelatinous material in the subepithelial space, usually bilateral; low-pitched, rough voice; smoking above all, then reflux and phonotrauma; may obstruct the airway | Stop smoking, treat reflux, voice therapy; surgery only after several months of compliance (sooner for airway obstruction); KTP laser is an alternative
+!!
+
+# The operation, stage by stage | Exposure, microflap and truncation.
+## Intubate gently
+Talk to the anaesthetist before the case, and be in the room at intubation. A **5.0 or 5.5 microlaryngoscopy tube without a stylet** gives you a better view and is less likely to injure the folds. If the tube hides the lesion, use **tracheal** rather than supraglottic jet ventilation, which neither vibrates the field nor dries the folds.
+!danger An intubation injury
+A severe tube injury to the vocal folds can ruin the voice for good, far beyond the effect of the lesion. If a fold is injured at intubation, consider postponing the planned surgery.
+!!
+## Position the patient
+Flex the neck on the body and extend the head on the neck (the sniffing position). Ramp the obese patient with a pillow or rolled blankets under the shoulders and head until the **tragus is level with the sternal notch**. Protect the teeth and alveolus with a guard, an athletic mouthpiece or a moulded splint.
+!mf 2 | Positioning for microsuspension laryngoscopy: the neck flexed on the body and the head extended on the neck, with counterpressure over the front of the neck (arrow) to bring the anterior commissure into view.
+## Expose and suspend
+Place **the largest laryngoscope that will go in**: a large bore is what makes precise, controlled, two-handed microsurgery possible. Use a special laryngoscope for difficult anatomy or for the posterior commissure and subglottis. Suspend it, preferably from a **gallows**, whose vector of force lets you use a bigger scope with less risk to the teeth than a fulcrum device on the chest. Improve the anterior view with tape or Velcro across the neck at the level of the cricoid or trachea.
+!see What you should see
+- Both folds from the anterior commissure to the vocal processes, with the lesion at the centre of a wide field.
+!!
+!danger Pressure on the thyroid cartilage
+Counterpressure on the thyroid cartilage itself slackens the vocal folds and makes the dissection harder. Press on the cricoid or trachea instead.
+!!
+## Inspect with the telescopes
+Before you touch anything, look with the 0, 30 and 70 degree telescopes, and record the view: the angled scopes show the undersurface and the true extent of the lesion. Palpate the fold to feel whether the lesion is soft or firm, cystic or fibrous.
+!mf 3 | The same lesion before and after microflap surgery, seen with the 0, 30 and 70 degree telescopes (A, B and C before; A2, B2 and C2 after).
+## Set up your body
+Tilt the table head down and adjust the chair before you begin. The favourable position is a laryngoscope at about **40 degrees from the horizontal**, a **neutral neck**, forearms supported on the arms of the chair, and feet flat on the floor or a fixed step. It reduces strain on your body and may improve precision.
+## Inject and incise
+Inject 1:10,000 adrenaline at the base of the lesion: it controls bleeding and **hydrodissects** the subepithelial plane so you can see it. Make the incision with a sickle or straight knife through the mucosa **over, or immediately lateral to, the lesion**, not out on the superior surface. Make it long enough to give you exposure.
+!mf 4 | (A) The mucosal incision at the junction of the lesion and the superior surface of the fold. (B) The cordotomy at the lateral edge of the lesion with a sickle knife.
+!senior The three rules of the microflap
+1. Make the epithelial incision as close to the lesion as possible.
+2. Do not disturb the normal tissue around it.
+3. Stay in the most superficial plane possible.
+!!
+## Raise the microflap
+With a small curved elevator, develop the plane **between the mucosa and the lesion first**. It is often easiest to start in front of or behind the lesion and then carry the plane across it. This is the hardest step of the operation; do it slowly. Where the epithelium is badly thinned, as over a polyp, you cannot keep all of it: save as much healthy epithelium as you can.
+!mf 5 | (A, B) Developing the plane with a blunt dissector between the lesion and the deeper tissues.
+!see What you should see
+- A thin, translucent flap of mucosa lifting off the lesion, which stays intact beneath it.
+!!
+!danger Going deep too soon
+Dissecting deep to the lesion before the subepithelial dissection is done removes the countertension you need to separate the flap. Free the mucosa from the lesion first, then the lesion from the ligament.
+!!
+## Free and remove the lesion
+Then separate the lesion from the vocal ligament, usually the easier plane, except for ligamentous cysts and fibrous masses. Divide fibrous bands between flap and lesion, or between lesion and ligament, with small curved microscissors. Remove the lesion and send it for histology.
+!mf 6 | Removal of the lesion and of the redundant mucosa.
+!senior Senior's pearl
+With a cyst, lift the epithelium off it before you dissect deep to it. This keeps the epithelium from tearing. Deep dissection taking a cuff of muscle, stripping the whole epithelium first, or deliberately puncturing the cyst are all wrong.
+!!
+## Inspect, redrape and check the edge
+Retract the flap medially and look for any remaining abnormal tissue. Redrape the flap over the bed. Then palpate and look at the free edge: it should be **perfectly straight**, with no concavity and no mucosal tag. Hold adrenaline-soaked pledgets on the site for haemostasis.
+!mf 7 | The microflap redraped over the operative site.
+!see What you should see
+- A straight, smooth vibratory edge with the flap lying flat on its bed, as in the after views of figure 3.
+!!
+## Truncation, for a pedunculated polyp
+Truncation suits only a **pedunculated** polyp surrounded by epithelium too abnormal to be worth saving. Do **not** inject first: the fluid hides the line of excision. Grasp the polyp, draw it gently medially, and cut the stalk exactly at the junction of the lesion with the normal free edge, leaving a small epithelial defect. Hold adrenaline pledgets on it.
+!mf 8 | Truncation of a vocal fold polyp along the dashed line.
+!danger Cutting into the fold
+Cut flush with the free edge and no deeper. A cut into the deeper fold, or excess epithelium taken, leaves a notch and scar.
+!!
+## Reinke oedema
+Through a lateral cordotomy on the **superior surface** of the fold, suck out and remove most of the gelatinous material from the subepithelial space, then trim the redundant mucosa. Be conservative: overly aggressive removal of the superficial lamina propria leaves permanent scar and hoarseness. The KTP laser is a reasonable alternative.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Airway fire during laser work
+Stop | turn off the oxygen and remove the tube together
+Flood | saline into the airway
+Assess | bronchoscopy for injury, then reintubate
+Prevent | FiO2 under 40%, laser-resistant tube, wet pledget over the cuff, wet towels over the face, saline syringe in reach, eye protection for all
+!!
+!path Poor exposure of the anterior commissure
+Scope | change to the largest scope that fits, or a special one
+Neck | counterpressure on the cricoid or trachea, not the thyroid cartilage
+Position | check flexion of the neck and extension of the head ; ramp the obese patient
+!!
+## Common errors in technique
+!pit
+- A small-bore laryngoscope and a poor view of the glottis.
+- Taking too much epithelium.
+- An incision too far lateral, or too short.
+- Dissecting deep to the lesion before finishing the subepithelial plane.
+!!
+
+# Aftercare | The result is made in the weeks after.
+## Voice rest
+Strict voice rest is part of almost every phonomicrosurgical operation: anywhere from 2 to 14 days, usually about 7, depending on how much of the vibratory margin was disturbed, the patient's reliability and your experience. Strict means no talking, whispering, whistling, straining, Valsalva, coughing or sneezing. At the end of it, repeat stroboscopy; once the epithelium has covered the site, move to **relative voice rest**, typically 5 to 10 minutes of breathy, airy voicing an hour, building up over the following weeks with the speech therapist.
+## Supporting healing
+Continue acid suppression, keep well hydrated and stay off cigarettes. Postoperative **voice therapy** is indicated for most patients, both to get the best voice and to stop the phonotraumatic habits that made the lesion in the first place.
+## Outcomes
+Results are generally very good. In the series of Akbulut and colleagues, most patients with a midmembranous lesion reported a voice handicap back in the normal range after surgery, with 50 to 67% reaching a normal Voice Handicap Index-10 and a mean score under 11, the level of people with no voice complaint. The exception is the **ligamentous fibrous mass**, which does worse, most likely because of the deeper dissection and the nature of the lesion. Success depends on proper preparation, compliance, surgical precision, the patient's own healing and therapy after the operation.
+## Complications
+!table Complications of phonomicrosurgery
+Complication | Notes
+Dental injury | Rare; more likely with poor, missing or capped teeth and a difficult exposure; prevented by a good guard or moulded splint
+Lingual nerve injury | Numbness or altered taste in 10 to 20%, from laryngoscope pressure; usually resolves within 4 weeks; release the suspension at intervals
+No improvement or a worse voice | About 1 to 2% each; scar, or scar already present beside the lesion; deep dissection into the ligament makes it likely
+Epithelial ingrowth | When the flap is not draped back onto its bed and fails to stick; the flap must then be excised
+Flap necrosis | From oedema and rough handling; healing takes longer
+Postoperative stiffness | Several monthly submucosal steroid injections, usually under local anaesthesia, to modify healing
+Airway fire | Only with laser use; see the drill
+!!
+## Alternatives
+- **Observation**, with serial recorded examinations, for a patient whose voice does not trouble them.
+- **Voice therapy** with a specialist speech and language therapist, to reduce the forces of phonation.
+- **Prolonged voice rest is not an alternative.**
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Hirano's **body-cover** theory and the layers of the vocal fold; mucosa means epithelium plus superficial lamina propria.
+- The **two surgical planes** and why the ligament scars.
+- **Nodules are never operated on.**
+- The **three rules** of the microflap, and why the modern incision is medial, next to the lesion.
+- When to truncate, and why not to inject first.
+- Why stroboscopy is essential.
+- Voice rest: what strict means, how long, and when to move on.
+- Consent: 1 to 2% no better, 1 to 2% worse, lingual nerve 10 to 20%.
+!!
+!senior Why the incision moved
+The original microflap was a long incision far out on the superior surface with a large, medially based flap; stroboscopy later showed scar across the whole area of dissection. That is why the modern medial (mini) microflap starts right beside the lesion and dissects no healthy tissue.
+!!
+## Common pitfalls
+!pit
+- Operating on nodules, or on a patient who has not had voice therapy.
+- Rushing the patient to surgery before full assessment by you and the therapist.
+- Forgetting to discuss voice rest and the time off it needs.
+- A small laryngoscope, a short incision, or one placed too far laterally.
+- Dissecting into the vocal ligament when the lesion does not require it.
+- Aggressive removal of Reinke's tissue.
+!!

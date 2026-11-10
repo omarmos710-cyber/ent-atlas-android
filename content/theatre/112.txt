@@ -1,0 +1,154 @@
+@src Myers, Operative Otolaryngology
+@stand The frontal recess is the most demanding corner of endoscopic sinus surgery: a narrow, three-dimensional space under the skull base at its thinnest, reached only with angled telescopes and angled instruments, with the anterior ethmoid artery at its back and the lateral lamella of the cribriform plate at its side. What makes the operation safe is not boldness but a plan made at the scan: knowing, before you start, how the uncinate attaches, which cells (agger nasi, frontal cells, suprabullar and supraorbital cells) build the recess in this patient, and where the drainage pathway runs between them. The operation described here is a Draf IIa frontal sinusotomy: the partitions of the recess between the middle turbinate and the orbit are removed to give the largest natural opening while keeping the middle turbinate. This chapter covers selection, reading the scan, setting up a dry field, the dissection from back to front and medial to lateral, when to stent, the rescue of a lateralised turbinate stump, and the evidence on image guidance.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Endoscopic frontal sinusotomy (Draf IIa)
+ | Summary
+Indications | **Chronic frontal sinusitis refractory to maximal medical therapy**: eosinophilic or non-eosinophilic chronic rhinosinusitis with or without polyps; mechanical obstruction (anatomical variants of the recess, osteoma); mucocele. **Acute frontal sinusitis** that is severe and refractory to intravenous antibiotics or has intracranial or orbital complications. **Limited tumours** not needing an open approach
+Contraindications | Uncomplicated acute frontal sinusitis; extensive tumours better treated open; comorbidity raising the risk of general anaesthesia; inadequate instruments or expertise
+Anaesthesia | General, oral intubation, which protects the airway and stops unexpected movement; for a right-handed surgeon an oral RAE tube to the left of the tongue, taped to the left lower lip
+Position | Supine as for any sinus surgery, head slightly toward the surgeon, **head up 30 degrees**; the **eyes left undraped** to watch and palpate
+Antibiotics | No evidence for intraoperative antibiotics; often a first-generation cephalosporin (clindamycin in allergy) at induction; a first- or second-generation cephalosporin for a week if packing is left
+Tray | Basic sinus set and frontal sinus set; 0, 30, 45 and 70 degree telescopes (reverse-post angled scopes keep the light lead up and away); angled microdebrider blades or burs; navigation if used
+Skills | Advanced endoscopic sinus surgery, fluent with 45 and 70 degree telescopes; turning axial, coronal and sagittal CT into a 3D picture
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to open the drainage channel of the frontal sinus so it can drain and be treated with rinses and sprays.
+- **Forehead pain:** if pain is your main complaint, it may not improve even though the scan shows frontal disease.
+- **Bleeding,** including from the artery at the back of the channel (anterior ethmoid artery).
+- **Leak of brain fluid** and meningitis: rare.
+- **Injury to the eye socket:** rare.
+- **Scarring** that blocks the channel again, which may need further surgery; a stent is sometimes used.
+- Saline rinses several times a day and clinic cleaning afterwards.
+!!
+## Before you start
+Patients are selected by the same criteria as for any endoscopic sinus surgery: significant symptoms of chronic sinusitis by the American Academy of Otolaryngology criteria despite maximal medical therapy. Ask about aspirin sensitivity, asthma, atopy and eosinophilia. New or continuing frontal problems after previous surgery suggest chronic inflammatory mucosal disease or scarring in the recess, for example synechiae between the middle turbinate and the lateral nasal wall or the face of a suprabullar cell.
+!senior Frontal headache alone
+A patient whose main complaint is isolated or severe frontal pain should be told it may not improve, even when the scan shows frontal disease. Frontal headache on its own does not make a good candidate.
+!!
+On endoscopy look for inflammation and polyps in the middle meatus, scarring in the recess or anterior ethmoid after previous surgery, and where and what the secretions are. Examine the face: proptosis or orbital cellulitis means an orbital complication, and a soft swelling of the forehead suggests osteomyelitis with a subperiosteal abscess of the anterior table (**Pott's puffy tumour**).
+
+Every patient needs **CT of the sinuses**. Low-dose scanners give fine cuts of 0.6 to 1.0 mm, enough for multiplanar reconstruction and navigation, with little extra radiation. Review the scan with **multiplanar reconstruction** software, the three planes and crosshairs together as in theatre. MRI is not routine but helps with a suspected tumour or mucocele. Stop antiplatelet drugs; systemic steroids or antibiotics before surgery reduce bleeding and oedema in a space where a little blood stops the operation.
+!senior Acute frontal sinusitis
+Acute disease is usually a poor indication: the mucosa is hyperaemic and inflamed, and endoscopic surgery is likely to leave symptomatic scarring in the recess. When orbital or intracranial complications do not respond to intravenous antibiotics, choose between a classic trephine and an endoscopic approach case by case.
+!!
+
+# Anatomy you must see | Reading the recess.
+## How the uncinate decides the drainage
+In most patients the uncinate rises from its attachments to the inferior turbinate and lacrimal bone and blends with the **medial wall of the agger nasi cell**. Then, in about **85%**, the frontal sinus drains **between the uncinate and the middle turbinate**, that is medial and posterior to the agger nasi. In the rest the uncinate attaches to the middle turbinate or the skull base and the frontal sinus drains **directly into the infundibulum**. If the uncinate attaches both to the middle turbinate and to the agger nasi, the sinus drains **posteriorly**.
+!mf 1 | The superior attachment of the uncinate: its three patterns of attachment, which decide where the frontal sinus drains.
+## The walls of the recess
+- **In front and laterally:** the uncinate, the agger nasi and the Kuhn frontal cells; laterally, once the anterolateral cells are removed, the **lamina papyracea**.
+- **Behind:** the ethmoid bulla, suprabullar cells and supraorbital ethmoid cells.
+- **Medially:** the attachment of the middle turbinate and the thin **lateral lamella of the cribriform plate**.
+- **The axilla of the middle turbinate,** where it joins the lateral nasal wall, marks the front and lower limit of the agger nasi region.
+- **The slope of the posterior table** as it joins the ethmoid skull base decides the front-to-back depth you can achieve.
+## Cells and the artery
+- Learn the **Kuhn classification** of frontoethmoid cells, and the newer systems (the European position paper and the International Frontal Sinus Anatomy Classification).
+- **Supraorbital ethmoid cells** are suspected when the frontal sinus looks multiseptated on coronal CT. When present, the true frontal recess lies **medial and anterior** to the supraorbital cell's opening.
+- **The anterior ethmoid artery** usually lies at the **posterior margin of the recess**, often at the back of a supraorbital cell. Find it on the scan.
+!mf 2 | Navigation localising the anterior ethmoid artery (AEA) at the posterior border of the frontal sinus opening (FS) and the supraorbital ethmoid cell (SOE) in coronal, sagittal and axial planes, with the endoscopic view: the frontal recess lies medial and anterior to the supraorbital cell opening.
+## What to plan at the scan
+The most important part of planning is an accurate 3D picture of the size and arrangement of every cell around the recess. Look at the uncinate, the agger nasi, the size and depth of the frontal sinus, the anterior ethmoid artery, and supraorbital cells. Some surgeons build 3D models of the drainage pathway.
+
+# The operation, stage by stage | Draf IIa frontal sinusotomy.
+## Decongest and inject
+Spray 0.05% oxymetazoline every 10 minutes for 30 minutes in the holding area, or place oxymetazoline patties after induction while positioning. Inject **1% lidocaine with 1:100,000 adrenaline** into the superior attachment of the middle turbinate, the lower uncinate, and the junction of the basal lamella with the palatine bone. A 25 to 27 G needle on a 3 mL syringe suits the turbinate and uncinate; a **22 G spinal needle bent 45 degrees 1.5 cm from the tip** is stiff enough to reach the sphenopalatine branches as they leave the palatine bone. One author injects along the **maxillary line** with the bent needle, entering just above the inferior turbinate and advancing submucosally up toward the axilla, injecting as he withdraws: one puncture, low, away from the frontal recess. Place adrenaline or oxymetazoline patties in the middle meatus and over the septal swell body, and **wait 5 minutes**.
+## Uncinectomy and nasofrontal bone
+Remove the uncinate with a backbiter and 90 degree Blakesley forceps, a microdebrider or a sickle knife, as you prefer. Then take bone from the **nasofrontal process** between the front of the middle turbinate attachment and the lamina papyracea, the anterior wall of the agger nasi region, with a Hosemann or angled Stammberger mushroom punch. This lets you start with less angled telescopes, a simplified axillary flap approach without a flap.
+!mf 3 | Removing bone from the nasofrontal process with a Hosemann punch.
+## Ethmoidectomy first
+Perform an ethmoidectomy to the extent of the disease **before** you enter the recess. It gives room to work along the ethmoid skull base from back to front.
+## Enter the recess
+Work from **posterior to anterior and medial to lateral**, staying in front of, lateral to and below the lateral lamella of the cribriform plate and the posterior table. Start with a 30 degree reverse-post telescope at the back and bottom of the recess and move to more angled scopes as you go forward and up. Identify the **anterior ethmoid artery** at the posterior margin, at the back of a supraorbital cell if one is present.
+!danger The lateral lamella
+The medial wall of the recess is the thin lateral lamella of the cribriform plate, and the posterior table lies behind. Keep in front of, lateral to and below them; CSF leak is a recognised risk of this operation.
+!!
+## Confirm the pathway
+With navigation, gently slip a 70 or 90 degree seeker into the frontal sinus to confirm the drainage pathway, even before much dissection. It usually lies **medial and posterior to the back wall of the agger nasi**.
+!mf 4 | Triplanar CT navigation (A) and the 45 degree endoscopic view (B): an angled seeker in the frontal sinus shows the outflow pathway before major dissection.
+!see What you should see
+- The seeker passing up into the sinus, the crosshairs confirming it in all three planes.
+!!
+## Remove the partitions
+Remove the **medial and posterior walls of the agger nasi** and any type I or II frontal cells, which are not attached to the skull base: either sharply with angled frontal punches, or by fracturing them from back to front with a 55 or 90 degree curette under a 45 or 70 degree telescope. Remove the fragments with angled non-cutting giraffe forceps or an angled microdebrider, **taking care not to grab and strip the mucosa**.
+!mf 5 | An angled frontal sinus punch removing a bony partition.
+!mf 6 | Angled non-cutting forceps removing a bone fragment.
+!senior Change your view
+When the anatomy will not make sense, change the telescope (from 45 to 70 degrees, say). A new angle often shows you the anatomy in a new light. Angled scopes need not stay at 12 o'clock either: rotate the light post a little to turn the view.
+!!
+## Enlarge the opening
+With the agger nasi and frontal cells gone, enlarge the opening **anteriorly and laterally** with a Hosemann punch or an angled Kerrison (Bachert) punch. Then leave the frontal sinus itself alone.
+!mf 7 | Enlarging the frontal sinus opening with a Hosemann punch.
+!see What you should see
+- A wide, mucosa-lined opening from the recess into the sinus, the middle turbinate intact medially, the lamina papyracea laterally and the artery safe behind.
+!!
+## Stent only when needed
+Stenting is rarely needed. Relative indications:
+- An opening narrower than **5 mm**.
+- Extensive or circumferential mucosal trauma with bone exposed.
+- Severe polyposis or mucosal hyperplasia.
+- A destabilised or lateralised middle turbinate.
+- Frontoethmoid mucoceles, a sign of long-standing disease or previous failed surgery.
+## Frontal sinus rescue
+A common problem in revision surgery is a **lateralised middle turbinate stump** left when the lower turbinate was removed, scarred to the agger nasi, frontal cells or lamina papyracea. Kuhn's frontal sinus rescue deals with it: divide the synechiae and find and enter the recess; dissect the nasal mucosa off the medial side and the sinus mucosa off the lateral side of the bony remnant; resect the bone and nasal mucosa at the skull base; then rotate the **flap of sinus mucosa up and medially** to cover the roof of the nasal vault.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Oozing fills the recess
+Stop | do not dissect blind through blood in the tight recess
+Pack | oxymetazoline or adrenaline patties for a few minutes
+Resume | when the view is clear ; keeping the head up 30 degrees reduces bleeding
+!!
+## Common errors in technique
+!pit
+- Using grasping instead of through-cutting instruments, stripping mucosa.
+- Letting a Hosemann punch clog: clean it regularly so it stays sharp and does not drop bone and mucosa into the field.
+- Keeping angled scopes rigidly at 12 o'clock.
+- Dissecting on through oozing instead of packing.
+!!
+
+# Aftercare | Keep the recess clean.
+## After the operation
+Usually a day case. Leave no packing, an absorbable or non-absorbable dressing, or a steroid-eluting stent, as you prefer; the authors use none or an absorbable dressing in the middle meatus and anterior ethmoid, below the recess, adding one especially if the middle turbinate was destabilised or early topical steroid is wanted. Start frequent **low-pressure, high-volume (240 mL) saline irrigation** several times a day from **day 1**. Debride gently in clinic at about **1 and 2 weeks**, dividing early synechiae and removing fibrinous debris from the recess.
+## Complications
+!table Complications of endoscopic frontal sinus surgery
+Complication | Notes
+Haemorrhage | Including the anterior ethmoid artery
+Synechiae | More likely when mucosa is stripped; divided at early debridement
+CSF rhinorrhoea | Unintended entry into the cranial cavity
+Orbital entry | Through the lamina papyracea
+!!
+## Alternatives
+- **Balloon dilatation** for limited frontal disease.
+- **Trephination** for severe, complicated acute frontal sinusitis.
+- **Drill-out procedures** (Draf IIb, Draf III) for more severe chronic disease.
+- **Obliteration or cranialisation** in selected cases, now less often needed.
+- **Open surgery** when the disease, the surgeon's expertise or the instruments demand it.
+
+# For the examination | What the examiner wants to hear.
+## Does image guidance help?
+Navigation is widely used, and most single studies show no benefit. But a **meta-analysis of 14 studies** (Dalgorf and colleagues, 2013) found more **major complications** without it (inadvertent entry beyond the nose and sinuses, bleeding needing surgery or embolisation, abandoned procedures): relative risk 0.48 with guidance. Total complications were also higher without it (relative risk 0.66). So pooled data suggest guidance may reduce complications, though there is no evidence that it improves outcomes.
+## The Draf classification
+**Draf I** is an ethmoidectomy without touching the frontal recess. **Draf IIa**, this operation and the commonest frontal sinusotomy, removes the partitions of the recess between the middle turbinate and the orbit, keeping the turbinate. **Draf IIb and III** extend beyond the recess and remove part or all of the frontal sinus floor; there are few data on when they should be chosen over a IIa, even in severe polyposis.
+## Viva essentials
+!exam What the examiner is looking for
+- How the **uncinate attachment** determines drainage; the 85% rule.
+- The boundaries of the recess, and the **lateral lamella** as its weakest wall.
+- The **anterior ethmoid artery** at the back of the recess; supraorbital cells and where the true recess lies.
+- The order: uncinectomy, ethmoidectomy, then back to front and medial to lateral.
+- Which cells you remove (not attached to the skull base) and how, preserving mucosa.
+- **Indications for stenting.**
+- The **frontal sinus rescue** for a lateralised turbinate stump.
+- Draf I to III.
+- Why acute sinusitis and frontal headache alone are poor indications.
+!!
+## Common pitfalls
+!pit
+- Starting without a 3D plan of the cells from the scan.
+- Draping the eyes.
+- Entering the recess before doing the ethmoidectomy.
+- Mistaking a supraorbital cell for the frontal sinus.
+!!
