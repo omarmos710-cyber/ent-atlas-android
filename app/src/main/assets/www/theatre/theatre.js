@@ -25,7 +25,7 @@ async function needArt(n){if(!HAS(n))return null;if(!(window.THART||{})[n])await
  if(a&&a.st&&a.st.length&&!a._g){a._g=1;const G=window.THEATRE_AUTH=window.THEATRE_AUTH||{},g=G[n]=G[n]||{};const multi=new Set(a.st.map(x=>x.c)).size>1;g.steps=a.st.map(x=>({c:multi?x.c:"",t:x.t,d:x.d,f:x.f,see:x.see,risk:x.risk,pearl:x.pearl,id:x.id}))}return a}
 const paras=s=>String(s||"").split("\n").filter(Boolean).map(x=>`<p>${md(x)}</p>`).join("");
 function artView(n,d,a){const ks=myFigs(n,d),id=fsetId(ks);const ch=a.ch.map((x,i)=>({id:"a-c"+(i+1),n:i+1,t:x}));const mins=Math.max(4,Math.round(a.w/220));
- return `<div class="arw thart"><div class="armeta"><span><b>Reading</b> about ${mins} min</span><span><b>Stages</b> ${a.st.length}</span><span><b>Sources</b> Myers, Dhingra, Lee</span></div>
+ return `<div class="arw thart"><div class="armeta"><span><b>Reading</b> about ${mins} min</span><span><b>Stages</b> ${a.st.length}</span><span><b>Sources</b> ${e(a.src||"Myers, Dhingra, Lee")}</span></div>
  <nav class="artoc" aria-label="Chapters"><ol>${ch.map(c=>`<li data-c="${c.id}"><button type="button" data-artgo="${c.id}"><i>${c.n}</i>${e(c.t)}</button></li>`).join("")}</ol></nav>
  ${a.stand?`<p class="arstand">${md(a.stand)}</p>`:""}<div class="arart">${a.h.split('data-set="thm'+n+'"').join('data-set="'+id+'"')}</div>
  <p class="clsrc">Written for this app from Myers and Snyderman, Operative Otolaryngology, 3rd ed. (ch. ${n}), with Dhingra and K.J. Lee. Figures reproduced from Myers for private study. Study reference only: operate under supervision and follow local protocols.</p></div>`}

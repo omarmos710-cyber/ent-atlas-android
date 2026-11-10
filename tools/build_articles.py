@@ -223,6 +223,8 @@ def compile_one(tid, text):
             continue
         if ln.startswith('@stand '):
             meta['stand'] = ln[7:].strip(); words += len(meta['stand'].split()); continue
+        if ln.startswith('@src '):
+            meta['src'] = ln[5:].strip(); continue
         if ln.startswith('# '):
             close_sec()
             if c: out.append('</section>')
@@ -400,6 +402,7 @@ def build_ops():
         h, meta = compile_one('op%d' % n, open(os.path.join(OPDIR, f), encoding='utf-8').read())
         OPN[0] = 0
         rec = {'h': h, 'stand': meta['stand'], 'ch': meta['ch'], 'w': meta['w'], 'n': meta['n'], 'st': meta['st']}
+        if meta.get('src'): rec['src'] = meta['src']
         with open(os.path.join(OPOUT, '%d.js' % n), 'w', encoding='utf-8') as o:
             o.write('(window.THART=window.THART||{})[%d]=%s;\n' % (n, json.dumps(rec, ensure_ascii=False)))
         idx[n] = {'w': meta['w'], 's': len(meta['st']), 'f': sum(len(x['f']) for x in meta['st'])}
