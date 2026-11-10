@@ -1,0 +1,160 @@
+@src Myers, Operative Otolaryngology
+@stand Radical neck dissection removes the lymph nodes of levels I to V together with three non-lymphatic structures: the sternomastoid, the internal jugular vein and the accessory nerve. Modified radical and selective dissections give the same oncological results with far less morbidity, so the radical operation is now reserved for bulky, fixed nodes that involve those structures, usually high in level II or low in the posterior triangle, where it is safer to take them with the specimen than to peel them off the cancer. The price is real: a stiff, painful shoulder and facial swelling. The dangers lie in the floor and the depths of the neck: the phrenic nerve and brachial plexus, the vagus in the carotid sheath, the thoracic or right lymphatic duct, and the two ends of the jugular vein. This chapter covers selection and resectability, the landmarks that keep you safe in a distorted neck, the operation from the marginal nerve to the final release of the specimen, and the extended dissection when the carotid itself is involved.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Radical neck dissection
+ | Summary
+What is removed | Nodes of levels I to V, the **sternomastoid**, the **internal jugular vein** and the **accessory nerve**
+Indications | **Clinically apparent** bulky nodal metastasis involving the sternomastoid, jugular vein and accessory nerve, often high in level II or low in level V; never for an N0 neck
+Contraindications | Invasion of the prevertebral or paraspinal muscles; brachial plexus involvement; **complete encasement of the carotid** (relative: resection and grafting can be considered after balloon occlusion testing); skull base involvement; an uncontrollable primary; distant metastasis
+Anaesthesia | General, **avoiding paralysing agents** so motor nerves can be stimulated
+Position | Table turned 180 degrees; shoulder roll; arms tucked; chest prepared in case a pectoralis flap is needed
+Antibiotics | First-generation cephalosporin; broader if mucosa is opened with the primary; continue 24 to 48 hours
+Monitoring | Arterial line; central access for long cases; no routine nerve monitor, but a handheld stimulator
+Tray | Head and neck set; monopolar and bipolar diathermy; harmonic scalpel; handheld nerve stimulator; vessel loops
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to remove the cancer in the neck, together with the muscle, vein and nerve it involves.
+- **Shoulder:** cutting the accessory nerve weakens and stiffens the shoulder and causes pain (the "shoulder syndrome"); you will need physiotherapy.
+- **Swelling of the face** (lymphoedema).
+- **Lip weakness** from the nerve to the lower lip, usually temporary.
+- **Diaphragm weakness** (phrenic nerve), **arm weakness** (brachial plexus), **voice change** (vagus nerve): uncommon.
+- **Leak of lymph** (chyle), bleeding, a blood collection needing return to theatre, infection.
+- **Carotid artery rupture**: rare but life-threatening, more likely after radiotherapy or a wound breakdown.
+!!
+## Before you start
+Patients usually present with a large neck mass. Ask how long it has been there and how fast it has grown: rapid growth suggests an aggressive cancer needing urgent treatment. Ask about dysphagia, dysphonia, otalgia, epistaxis, haemoptysis and weight loss, which point to the primary. Identify comorbidity, especially previous venous thromboembolism or atrial fibrillation needing coordinated anticoagulation. Find out about previous FNA, open biopsy or neck dissection, read earlier operation and pathology reports, and talk to the previous surgeon if you can. **Previous radiotherapy** matters: plan incisions to avoid a three-point junction over the carotid and consider covering the carotid with vascularised tissue. Record alcohol, tobacco and drug use; heavy drinkers need close watching for withdrawal.
+
+Examine the whole head and neck, the cranial nerves and the larynx with a flexible scope. Look for temporal wasting, old scars and radiation skin changes.
+!senior Reading the neck mass
+- **Fixed, firm, ill-defined:** radical dissection is likely. **Mobile, well defined:** a modified radical dissection may be enough.
+- **Site:** large matted nodes high in level II or low in level V lie where the sternomastoid, jugular vein and accessory nerve overlap.
+- **Skin:** if the skin cannot be separated from the mass, plan an extended dissection with skin resection and a reconstruction.
+- **Cranial nerves VII and IX to XII:** their function shows the extent of the cancer, predicts morbidity and informs the prognosis.
+!!
+## Imaging and preparation
+Contrast CT of the neck in 1 mm sections shows the levels involved and the relation to the great vessels, skin and deep muscles; invasion of the prevertebral or paraspinal muscles or **encasement of the carotid** may steer you away from surgery. **PET-CT** excludes distant metastasis, which rules out neck surgery except for palliation. When the carotid is involved and resection is being considered, CT angiography or angiography with **balloon occlusion testing**. Optimise comorbidity and nutrition, with anaesthetic and medical assessment for cardiopulmonary disease.
+
+# Anatomy you must see | Landmarks in a distorted neck.
+## The landmarks
+- **The marginal mandibular nerve:** found about 1 cm below the antegonial notch where it leaves the parotid, freed and lifted with the flap; the facial vessels below it are tied and reflected up with it (the **Hayes Martin manoeuvre**).
+- **The posterior belly of digastric:** many critical structures lie deep to it. Dissecting over it (the "digastric tunnel") is safe; the only structure to tie there is the retromandibular vein.
+- **The accessory nerve,** found as the sternomastoid is unwrapped, if level II disease allows.
+- **The lateral process of C2:** a consistent, palpable landmark just below the skull base, where the accessory nerve crosses the jugular vein; the top of the vein lies just in front of it.
+- **The omohyoid:** the carotid sheath lies just deep to it in the lower neck, as it lies deep to the digastric in the upper neck.
+- **The phrenic nerve** on the anterior scalene, and the **brachial plexus** between anterior and middle scalenes: always identify and keep them in view, and stay **superficial to the deep cervical fascia**.
+- **The thoracic duct** on the left and the **right lymphatic duct** on the right.
+!mf 1 | Radical neck dissection: the sternomastoid, internal jugular vein and accessory nerve removed with the specimen (dotted outlines).
+!mf 2 | The right neck: the sternomastoid, jugular vein and accessory nerve closely associated in level II.
+
+# The operation, stage by stage | From the mandible to the clavicle.
+## Mark and incise
+Mark the mastoid tip, the angle of the mandible, the suprasternal notch and the cricoid. Use an extended **hockey stick** or half-apron incision from the mastoid tip down to a crease in the lower neck; for bilateral dissections continue it to the opposite mastoid as an **apron**.
+!mf 5 | The hockey stick incision for a unilateral radical or elective neck dissection.
+## Raise the flaps to the boundaries
+Raise subplatysmal flaps to the limits: above, the lower border of the mandible and a line from the angle to the mastoid tip; in front, the superior belly of omohyoid and anterior belly of digastric; below, the suprasternal notch and clavicle; behind, the **anterior border of trapezius**. Keep the great auricular nerve and external jugular vein unless involved.
+## Protect the marginal mandibular nerve
+Start blunt dissection about 1 cm below the antegonial notch, with loupes and the stimulator. Free the nerve and all its branches from the submandibular fascia, then tie the facial artery and vein below it and lift them with the flap.
+!mf 4 | (A) The marginal mandibular nerve leaving the parotid tail and crossing the lower border of the submandibular gland. (B) The nerve freed and lifted with the flap after the facial vessels are tied.
+## Level I
+Incise the fascia under the nerve, find the anterior belly of digastric and carry the submental fat and nodes down along it. Expose and retract the free edge of **mylohyoid**, cauterising submental branches of the facial vessels, and draw the submandibular gland down and back to show the **lingual nerve**, the submandibular ganglion and the duct. Clamp and tie the duct and ganglion, tie the facial vessels at the posterior belly, and deliver level Ib.
+!mf 6 | Mylohyoid retracted to show the lingual nerve, submandibular ganglion and Wharton's duct.
+## Over the digastric
+Continue over the posterior belly of digastric, tying the retromandibular vein and often the lowest part of the parotid tail, protecting the marginal branch again. Suture-ligate the parotid with silk to prevent a salivary leak or sialocele.
+## Level II
+Retract the digastric upward, find the accessory nerve and follow it to the sternomastoid (if it is not encased in tumour), isolate the top of the jugular vein, and identify and preserve the **hypoglossal nerve**.
+## Release the sternomastoid below
+Divide the sternal and clavicular heads about **1 cm above the clavicle** and lift the muscle. The **omohyoid** appears, just in front of the carotid sheath; divide it and follow it toward the midline as the front limit.
+!mf 7 | Dividing the clavicular head of the sternomastoid and the supraclavicular tissue lateral to the omohyoid; the plexus, carotid sheath and phrenic nerve lie safely deep to it.
+## Level IV
+Dissect bluntly until the **phrenic nerve** and **brachial plexus** are seen. With the phrenic nerve in view, clamp and tie the supraclavicular fat pad and draw it up with the specimen, clamping and tying carefully to avoid the thoracic duct on the left and the right lymphatic duct on the right. Identify the lower jugular vein and separate it from the common carotid and the **vagus**.
+!danger The ducts
+Clamp and tie level IV tissue rather than cutting it: an open thoracic or right lymphatic duct leaks chyle.
+!!
+## Level V
+Continue behind the sternomastoid, releasing the supraclavicular fossa and defining the transverse cervical vessels and brachial plexus, back to the **anterior border of trapezius**, then up along it toward the skull base. The accessory nerve is usually met here; divide it and bring it forward with the specimen.
+## Release the sternomastoid above
+Divide the muscle just below the mastoid tip and go down to the fascia over the deep muscles. With trapezius defined, sweep the fibrofatty, node-bearing tissue forward, **leaving fascia on the deep muscles** to spare as much of the cervical plexus as possible. Divide the cervical plexus branches from the specimen high in the neck, with the **phrenic nerve always in view**.
+!mf 8 | The cervical nerves (red) leaving the plexus; take care not to strip the plexus off the deep muscles.
+!danger The phrenic nerve
+It lies on the anterior scalene under the deep cervical fascia. Stay superficial to that fascia and keep the nerve in sight as you bring the specimen forward.
+!!
+## Divide the jugular vein
+As the specimen comes forward to the carotid sheath, **define the jugular vein and the vagus clearly** before ligation. Tie the vein first **below** in level IV: doubly clamp it and **suture-ligate** it, one of the ties being a suture ligature so it cannot slip. Clamp and tie the lymphatic pedicle. Then work up the sheath, lift the digastric, isolate the vein in level II, divide the accessory nerve there, and doubly clamp and suture-ligate the vein again. Tie its branches (common facial, lingual, superior thyroid), which vary. In a difficult neck with a large cancer, the lateral process of C2 finds the vein and the nerve where they cross.
+!danger The vagus and air embolism
+The vagus lies with the vein in the sheath; see it before you clamp. An open jugular vein can draw in air: control both ends securely.
+!!
+## Remove and close
+Join the specimen to the level I dissection, bring it to the lateral border of the strap muscles and remove it. Irrigate, and ask for a **Valsalva** to show bleeding or chyle. Place suction drains, close the platysma and staple the skin.
+!see What you should see
+- A clean neck from mandible to clavicle and from straps to trapezius, with carotid, vagus, phrenic nerve, brachial plexus and hypoglossal nerve intact, and no chyle on Valsalva.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Chyle in the wound
+During surgery | ligate the duct and its tributaries ; check with Valsalva
+Low output afterwards | medium-chain triglyceride diet, pressure dressing, medical treatment
+High output or not settling | re-explore
+!!
+!path Expanding haematoma
+Act | back to theatre: explore, irrigate, find the vessel
+If no vessel | still evacuate the haematoma and replace the drains, which will have clotted
+!!
+!path The carotid is encased
+Before surgery | angiography and balloon occlusion testing
+If collateral flow is adequate | resection with vein interposition graft can be offered, with full disclosure of stroke and death risk
+!!
+## Common errors in technique
+!pit
+- Not identifying the marginal mandibular nerve.
+- Not isolating and controlling the jugular vein or its branches.
+- Not ligating the lymphatic pedicle securely.
+- Not identifying the phrenic nerve and brachial plexus.
+!!
+
+# Aftercare | Drains, antibiotics, shoulder.
+## After the operation
+Admit to a monitored unit. Continue antibiotics for 24 to 48 hours, keep the drains on suction with accurate records, and start **physiotherapy early** for the shoulder.
+## Complications
+!table Complications of radical neck dissection
+Complication | Notes
+Infection | Commoner when the aerodigestive tract is open; broad-spectrum antibiotics and cultures, drainage if no improvement
+Haematoma | Usually poor intraoperative haemostasis; return to theatre
+Marginal mandibular weakness | May be neurapraxia or platysma weakness; most keep oral competence; expectant care
+Phrenic nerve injury | Usually tolerated, but a problem with lung disease
+Brachial plexus injury | Avoided by identifying it in level IV; early physiotherapy
+Chylous fistula | Diet, pressure, medical treatment, or re-exploration
+Shoulder syndrome | Accessory nerve sacrifice; physiotherapy
+Facial lymphoedema | From jugular and lymphatic removal
+Carotid rupture, vagus injury, air embolism, bleeding | Intraoperative and early risks
+!!
+!mf 3 | Shoulder syndrome after sacrifice of the accessory nerve.
+## Alternatives
+- **Modified radical dissection** when the findings allow: assess the sternomastoid and accessory nerve early, and preserve any non-lymphatic structure that can safely be kept.
+- **Extended dissection** when other nodes (paratracheal, suboccipital, mediastinal) or structures (skin, digastric, levator scapulae, hypoglossal or vagus nerve) must be included.
+- **Non-operative treatment** when the cancer is unresectable (skull base, deep muscles, carotid encasement, distant disease), or the patient cannot or will not have surgery.
+
+# For the examination | What the examiner wants to hear.
+## Surgery when the carotid is involved
+Carotid involvement was once an absolute bar, with complication and stroke rates over 50%. Angiography and balloon occlusion testing are now standard before resecting and reconstructing the carotid. In Freeman and colleagues' 58 patients who had ligation or resection with saphenous vein grafting, **stroke occurred in 20%**, median disease-specific and disease-free survival was only **12 months**, and 24% developed distant metastasis. Data are limited; surgery may be offered to patients with adequate collateral flow who understand the risks.
+!mf 9 | Extended dissection with resection of the common and internal carotid: (left) cancer on the internal carotid just above the bifurcation (star); (right) saphenous vein interposition graft (arrow).
+## Viva essentials
+!exam What the examiner is looking for
+- What a radical dissection removes, and the classification of modified, selective and extended dissections.
+- Indications today; no role in the N0 neck.
+- Contraindications, including carotid encasement and how it is assessed.
+- The landmarks: Hayes Martin manoeuvre, digastric, C2, omohyoid, phrenic nerve, brachial plexus.
+- Order of the dissection, and double ligation with a suture ligature at each end of the jugular vein.
+- The ducts and chyle; Valsalva.
+- Shoulder syndrome and early physiotherapy.
+!!
+## Common pitfalls
+!pit
+- A three-point junction over the carotid in an irradiated neck.
+- Paralysing the patient, so nerves cannot be stimulated.
+- Stripping the deep fascia and the cervical plexus.
+- Losing sight of the phrenic nerve as the specimen comes forward.
+!!

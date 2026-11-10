@@ -1,0 +1,149 @@
+@src Myers, Operative Otolaryngology
+@stand A horizontal partial laryngectomy removes the upper part of the larynx across a horizontal plane and keeps the parts that breathe, protect and speak. The classic form, the supraglottic laryngectomy, removes the epiglottis, false folds, aryepiglottic folds and pre-epiglottic space down to the ventricle, leaving the true folds and arytenoids, with the tongue base set back as a roof over the glottis. Its modern descendant, the supracricoid laryngectomy (covered in its own chapter), goes lower, removing both true folds and the thyroid cartilage. Both rest on the same foundations: the hyoid, the cricoid, at least one innervated cricoarytenoid unit, the recurrent laryngeal nerves and the internal branches of the superior laryngeal nerves. This chapter explains why open conservation surgery has returned, how to select patients who will survive the aspiration that every one of them will have, the supraglottic operation step by step, and the long recovery of swallowing and decannulation.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Horizontal partial laryngectomy
+ | Summary
+Supraglottic | Cancers of the **supraglottis**, and exophytic tongue base cancers confined to the vallecula; limited pre-epiglottic space invasion is not a contraindication
+Supracricoid | T1 to T3 glottic cancer extending onto the supraglottis or involving both folds but sparing one arytenoid; T3 glottic or supraglottic cancer with paraglottic spread fixing the fold but not the cricoarytenoid joint; T2 supraglottic cancer reaching the true fold; T2 to T3 with **under 10 mm** anterior subglottic extension; T3 with suspected inner cortex thyroid cartilage invasion; failure of primary radiotherapy if all criteria are met
+Not fit | Unable to undergo anaesthesia or withstand aspiration: **cannot climb two flights of stairs**, Karnofsky under 80
+Tumour limits | Interarytenoid or posterior commissure involvement; both arytenoids; the cricoarytenoid joint; the cricoid; **subglottic extension over 10 mm**; massive inferior paraglottic invasion to the pyriform apex, or pyriform involvement; **over 2 cm of tongue base**; extralaryngeal spread. Advanced age matters little
+Set-up | General; supine, head at the very top of the table, tube taped to the left lower lip for laryngoscopy, shoulder roll for neck dissection; upper lip, mastoid, trapezius and clavicles visible
+Antibiotics | Augmented penicillin for 24 hours; clindamycin in allergy
+Monitoring | Nerve monitoring by preference (no evidence either way); probes can confirm the hypoglossal, superior and recurrent laryngeal and accessory nerves
+Tray | Direct laryngoscopy set with Lewy arm; video tower with 30 and 70 degree telescopes; neck dissection set; headlight; reinforced tubes; three 2-0 non-absorbable sutures on large tapered needles for the pexy
+Skills | Transoral CO2 laser surgery (so as not to overtreat); selective, comprehensive and radical neck dissection; paratracheal dissection; total laryngectomy
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to remove the cancer and part of the voice box while keeping your voice and your natural breathing route.
+- **You will aspirate** after surgery: food and saliva will go the wrong way at first. Recovery needs intense swallowing therapy, coughing and expectoration.
+- **A temporary tracheostomy** and feeding tube; most patients have the tube out within about two weeks, some later.
+- **Consent for total laryngectomy** if the cancer is more extensive than expected.
+- **Chest infection, bleeding, wound infection, air under the skin**, and the repair breaking down if you vomit or have reflux.
+- **Nerve injury** to the tongue (hypoglossal) or larynx.
+- **Neck dissection** on both sides for supraglottic cancer.
+!!
+## Why conservation surgery came back
+Early (T1, T2) cancers are treated equally well by radiotherapy or surgery. After the VA Laryngeal Cancer Study in the 1980s, organ preservation with radiotherapy or chemoradiotherapy became popular for advanced disease, but Hoffman and colleagues later found that this shift coincided with **falling overall survival**, especially for **T3** cancers. Some patients are better treated with surgery first, and that has renewed interest in conservation laryngectomy. Today **supracricoid laryngectomy** is the commonest horizontal operation because its results are reproducible; supratracheal laryngectomy has been described but is less reproducible.
+## Before you start
+Ask what the first symptom was (dysphonia, dysphagia, odynophagia) and how the larynx works now: breathlessness at rest, lying flat or on exertion; whether the patient is easy to understand; aspiration of liquids or solids, **pneumonia in the past year**, and loss of over 10 pounds. Record previous biopsy, laser, surgery, radiotherapy or chemotherapy; recurrent bronchitis, COPD, heart disease, cirrhosis with varices or GI bleeding; thyroidectomy or anterior cervical discectomy (possible superior laryngeal nerve injury) and other neck surgery; cancer in first-degree relatives; pack-years, attempts to stop, alcohol volume and withdrawal; occupation and reliance on the voice; inhalers, oxygen, heart failure drugs and antiplatelets. The Charlson Comorbidity Index or Karnofsky Performance Status helps select patients; **can the patient climb two flights of stairs?**
+## Examination
+- **Flexible laryngoscopy** is the most important part: the subsites involved, laryngeal function and second primaries. Disease reaching the **anterior commissure** raises suspicion of thyroid cartilage invasion and poorer cure by radiotherapy. Judge fold and cricoarytenoid mobility; an **atrophic fold** suggests involvement of the joint or the recurrent nerve. Subglottic extension is best judged in theatre with angled telescopes.
+- **Videostroboscopy** for cancer on the true folds shows mucosal extent, helps plan margins and predicts arytenoid resection.
+- **Behaviour:** a patient who will not do intense swallowing therapy will not overcome the aspiration and may need a gastrostomy or a long tracheostomy.
+- Voice, breathing and aspiration; the mouth and oropharynx for second primaries and extension.
+- **The laryngotracheal complex:** fixed to the front soft tissues means extralaryngeal spread and total laryngectomy; fixed to the spine means unresectable.
+- **The thyroid:** extension needs total laryngectomy with lobectomy or thyroidectomy.
+- **Neck nodes:** palpable disease may need comprehensive dissection; a clinically negative neck needs selective dissection.
+## Imaging and preparation
+Thin-cut (1 mm) axial CT of the larynx with reconstructions shows pre-epiglottic and paraglottic spread and thyroid cartilage invasion with about **75%** accuracy, rising to **96%** when gross radiographic signs of anterior commissure involvement are added. CT is more sensitive than examination for nodes (over 1 cm, round, hypodense or without a fatty hilum). Chest imaging looks for lung cancer, the commonest second primary. MRI shows tongue base extent, deciding between an extended partial and a total laryngectomy. Pulmonary function and blood gases describe COPD, but no threshold defines suitability; the stairs test is practical. Perform direct laryngoscopy with 30 and 70 degree telescopes, **palpate the cricoarytenoid joints** (fixation is a contraindication) and biopsy, before or immediately before surgery. Review outside pathology. Speech, swallowing and nutritional assessment beforehand help but can be done after surgery.
+!senior After radiotherapy
+In an irradiated larynx the cancer's edges may be blurred by mucosal change, submucosal spread, scattered nests or deep extension. These patients may be better served by total laryngectomy, and if offered partial surgery must understand that a total laryngectomy may be needed.
+!!
+
+# Anatomy you must see | Spaces and structures to keep.
+## The pre-epiglottic space
+Bounded in front by the thyrohyoid membrane and above by the hyoepiglottic ligament. Cancer confined to it does not rule out supraglottic laryngectomy, but spread in front of it must be recognised and excised.
+!mf 1 | The pre-epiglottic space (shaded), bounded in front by the thyrohyoid membrane and above by the hyoepiglottic ligament.
+## The paraglottic space
+The submucosal tissue inside the thyroid cartilage. Supraglottic cancer can spread down it; if it extends **below the plane of the true fold**, a supraglottic laryngectomy would cut through it at the level of the fold and is contraindicated.
+!mf 2 | The paraglottic space (shaded): cancer extending below the plane of the true fold contraindicates supraglottic laryngectomy.
+## What must survive
+The **hyoid**, at least one **innervated cricoarytenoid unit**, the **cricoid**, the **recurrent laryngeal nerves** and the **internal branches of the superior laryngeal nerves**. The ability to keep the epiglottis decides between CHEP and CHP. Landmarks in the operation are the epiglottis, vocal folds, tongue base, thyroid cartilage and pyriform sinuses.
+
+# The operation, stage by stage | Supraglottic laryngectomy.
+## Tracheostomy, apron and neck
+Make the tracheostomy through a transverse incision that becomes part of the **apron**. Raise the apron flap and do the neck dissections: **both sides** for supraglottic cancer.
+## Choose the approach
+- **Transhyoid**, when the lingual surface of the epiglottis is free of cancer: free the hyoid laterally and divide the infrahyoid straps; open the vallecula, cross the pre-epiglottic space and enter the pharynx in the midline onto the epiglottis.
+- **Lateral pharyngotomy**, when the lingual surface is involved: divide the mylohyoid and the infrahyoid straps so the **hyoid comes with the specimen**, and enter the pharynx on the side opposite the cancer.
+## Prepare the thyroid cartilage
+Incise and elevate the perichondrium along the upper edge of the thyroid cartilage.
+## The endolaryngeal cuts
+Under direct vision, cut the aryepiglottic fold at the level of the **ventricle**, and posteriorly across the face of the arytenoids unless the cancer needs an extended procedure. Join the mucosal cut to the cartilage cut and divide the thyroid cartilage **at the level of the ventricle**.
+!mf 3 | The mucosal cuts made under direct vision: through the ventricle at the level of the true fold below, and across the face of the arytenoids behind.
+!danger What you must not cut
+Do not cut the true vocal folds or the arytenoids. Do not disturb the attachment of the **anterior commissure** to the thyroid cartilage.
+!!
+## Check the margins
+Remove the specimen, examine the margins and take frozen sections as needed. Place the nasogastric tube into the pharynx.
+## Set the tongue base back
+Place **three sutures** from the **external perichondrium of the cricoid** to the fibroadipose (fibroaponeurotic) layer of the tongue base **12 to 15 mm deep to its mucosa**, never through the tongue mucosa itself. Relieve the tension, tie them firmly, and close the lateral parts of the pharyngotomy mucosa separately. This sets the tongue base back as a **roof over the glottis** and reduces aspiration.
+!mf 4 | The cricoid external perichondrium brought to the fibroaponeurotic layer of the tongue base, placing the tongue base back over the glottis.
+## Isolate the tracheostomy and close
+Irrigate and place suction drains. Suture the **strap muscles to the platysma** of the apron flap around the tracheostomy so that tracheal air and secretions cannot track under the flap into the dissected neck.
+!mf 5 | (A) The tracheostomy isolated from the dead space of the flap and neck dissection. (B) Without isolation, contaminated air and secretions pass under the flap, causing surgical emphysema and wound infection.
+## The supracricoid impaction
+In supracricoid laryngectomy, the impaction sutures are tied tightly to bring the cricoid up to the hyoid, obliterating the space once filled by the thyroid cartilage and thyrohyoid membrane (see the supracricoid chapter).
+!mf 6 | Impaction sutures tied tightly to bring the cricoid complex to the hyoid, obliterating the space of the thyroid cartilage and membrane.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Pexy ruptured
+Who | patients with postoperative nausea and vomiting or uncontrolled reflux
+Act | return to theatre and revise the closure
+Prevent | antiemetics, careful advancement of feeds
+!!
+!path Bleeding after surgery
+Usual source | poorly controlled tongue base muscle and mucosa
+Vessel blowout | from a salivary fistula soaking major vessels: urgent surgery
+Prevent | meticulous haemostasis at the tongue base ; active suction drains ; early recognition of a fistula
+!!
+## Common errors in technique
+!pit
+- **Positive margins**, usually from unrecognised tongue base, pyriform, pre-epiglottic or subglottic spread. Prevent with recent imaging, laryngoscopy immediately before surgery, a pharyngotomy planned to let you cut under direct vision, and frozen sections.
+- **Suturing tongue mucosa to the glottis** instead of setting the tongue base back through its deep fibroadipose layer.
+- **Contralateral neck recurrence:** bilateral selective dissection in the N0 neck lowers it from about 20% to 9%.
+!!
+
+# Aftercare | Every patient aspirates.
+## The first two weeks
+Nurse on a monitored ward with staff skilled in fresh tracheostomies, with continuous oximetry. Nil by mouth with the nasogastric tube on low suction, then feeds and drugs through it once bowel sounds return. **Avoid vomiting**, which can disrupt the reconstruction: advance feeds cautiously and give antiemetics.
+- **Day 3:** try deflating the cuff; aspiration shows the oedema is settling, and the cuff is often reinflated. Encourage expectoration.
+- **Day 5:** flexible laryngoscopy with the cuff down; if oedema is better and aspiration not severe, change to an **uncuffed No. 4** tube, otherwise back to cuffed.
+- Once the uncuffed tube is tolerated lying down and overnight, **cap it**; after 24 hours capped, check the airway by laryngoscopy and **decannulate**, usually on **days 12 to 14**.
+## Swallowing
+Start therapy when the speaking valve or cap goes on: tongue base retraction, laryngeal elevation and adduction exercises, then the **supraglottic swallow** and the swallow-cough technique. Calorie counts start with oral feeding; about 2 to 3 days of therapy are needed to feed adequately. Aggressive inpatient dysphagia management achieves a safe swallow before discharge without the cost of a gastrostomy and home care.
+## Complications
+!table Complications of supraglottic laryngectomy
+Complication | Notes
+Aspiration pneumonia | The commonest; everyone aspirates. Minimise with technique (tongue base set back, well-placed pexy sutures), selection, expectoration, pulmonary toilet, early walking, coughing and intense swallow therapy
+Medical | Cardiac ischaemia, bleeding ulcer, delirium tremens, pneumothorax from ruptured blebs: avoided by selection and preparation
+Haemorrhage | Tongue base; vessel blowout from a fistula
+Subcutaneous emphysema | Straps not closed to the flap around the stoma; meticulous closure and pressure dressing
+Neck infection | Prophylactic antibiotics; close the dead space under the apron
+Ruptured pexy | Vomiting or reflux; revise
+Failure to decannulate | Usually **arytenoid oedema**: steroids and time; or scarred mucosal flaps, which some excise with the CO2 laser
+Delayed swallowing | Poor selection or surgery; older patients with prior dysphagia, the non-compliant, the irradiated, extended tongue base resections: consider early gastrostomy
+Regional recurrence | Untreated necks: bilateral dissection for supraglottic disease, central (paratracheal) dissection with subglottic involvement
+Delayed decannulation | Usually oedema after supracricoid surgery; discharged to rehabilitation with a nasogastric tube, most decannulated at the first clinic visit
+!!
+## Alternatives
+- Radiotherapy for early laryngeal cancer.
+- **Transoral partial laryngeal resection**, which has replaced horizontal partial laryngectomy in most centres.
+
+# For the examination | What the examiner wants to hear.
+## The evidence
+In the **VA study**, 332 patients with advanced (mostly T3) cancer were randomised to chemoradiotherapy or surgery with radiotherapy: two-year survival was **68%** in both, with salvage laryngectomy for failures, and 64% kept the larynx. Surgical series do better: Dufour and colleagues treated 118 T3 cancers by supracricoid laryngectomy with 3- and 5-year survival of **84% and 74%**, local control over 91%, and **89.8%** laryngeal preservation; Rizzotto and colleagues reported 5-year overall and disease-free survival of 95.6% and 90.9% in 399 patients.
+## Viva essentials
+!exam What the examiner is looking for
+- Supraglottic versus supracricoid laryngectomy: what each removes and leaves.
+- The structures that must survive.
+- The **stairs test** and Karnofsky under 80.
+- Tumour contraindications, especially subglottic extension over 10 mm and tongue base over 2 cm.
+- The pre-epiglottic and paraglottic spaces and their significance.
+- The transhyoid versus lateral pharyngotomy approach.
+- Cuts at the ventricle; protect the folds, arytenoids and anterior commissure.
+- Setting the tongue base back 12 to 15 mm deep; isolating the tracheostomy.
+- Bilateral neck dissection (20% to 9%).
+- The cuff, uncuffed tube, capping and decannulation timetable.
+!!
+## Common pitfalls
+!pit
+- Offering open surgery when transoral resection would do.
+- Selecting a patient with poor lungs or poor motivation.
+- Leaving one side of the neck untreated in supraglottic cancer.
+- Letting the patient vomit.
+!!
