@@ -1,0 +1,144 @@
+@src Myers, Operative Otolaryngology
+@stand Medial maxillectomy removes the lateral nasal wall and the medial part of the maxilla, up to the infraorbital nerve laterally, usually with a complete sphenoethmoidectomy. It is the operation for tumours of the nasal cavity, lateral nasal wall and medial maxillary sinus, and a corridor to the pterygopalatine fossa, nasopharynx, sphenoid and clivus. Three approaches lead to the same resection: the lateral rhinotomy, which gives the best exposure; the midfacial degloving, which avoids a facial scar and suits bilateral or midline disease but gives little exposure upward and backward; and the endonasal endoscopic route, which in carefully selected cases gives equal results. Whatever the route, the hazards are the same: the eye, the infraorbital nerve, the lacrimal duct, the ethmoid arteries, the cribriform plate and, deep in the sphenoid, the optic nerve and carotid. This chapter covers diagnosis and imaging of sinonasal tumours, the approaches, the osteotomies and the resection, and closure.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Medial maxillectomy
+ | Summary
+What is removed | Lateral nasal wall and medial maxilla, bounded laterally by the **infraorbital nerve**, usually with a complete **sphenoethmoidectomy**
+Indications | Tumours of the lateral nasal wall, nasal cavity, septum or medial maxillary wall; access to the pterygopalatine fossa, pterygoid plates, nasopharynx, sphenoid, clivus and medial infratemporal fossa; combined with an inferior maxillectomy (floor of nose, palate, upper gum) or a transcranial anterior skull base resection
+Not adequate | Tumour extending **lateral to the infraorbital nerve**, into the **palate**, or into the **facial soft tissue**
+Approaches | **Lateral rhinotomy** (best exposure); **midfacial degloving** (no facial scar, bilateral access, limited upward and backward reach); **endoscopic** endonasal (selected cases)
+Anaesthesia | General, reinforced oral tube taped to the opposite commissure
+Position | Supine, shoulder roll, head up about 30 degrees
+Antibiotics | Broad-spectrum (aerobic and anaerobic nasal and oral flora) 30 minutes before incision and for 24 hours; topical antibiotic irrigation of the field
+Tray | Soft tissue set; bone set with rongeurs and cutting and diamond irrigating drills; sinus set, with endoscopes if wanted
+Eye | Temporary **tarsorrhaphy** or a corneal shield
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to remove a growth from the side wall of the nose and the inner part of the cheekbone.
+- **A scar** beside the nose (lateral rhinotomy), or no facial scar with the degloving or endoscopic approach.
+- **Numbness** of the cheek or teeth.
+- **A watery eye** if the tear duct is involved; a new drainage opening is made.
+- **Eye problems:** double vision, bleeding around the eye, rarely injury to the nerve of sight.
+- **Leak of brain fluid** and meningitis.
+- **Widening between the eyes** if the corner of the eye is not reattached.
+- **Bleeding**, crusting, and rinses for some weeks.
+- **Radiotherapy or chemotherapy** may be part of treatment.
+!!
+## Before you start
+Small intranasal tumours are often silent or mimic chronic sinusitis, allergy or polyps. Obstruction, sinus pressure or pain, discharge (sometimes bloody), epistaxis and anosmia are common. Symptoms that do not respond to treatment, or **one-sided** symptoms, should prompt imaging. Tearing, double vision and proptosis suggest orbital spread; a neck mass usually means nodal metastasis.
+
+Examine the nose with a rigid or flexible scope after decongestion: a mass, ulcer or contact bleeding suggests malignancy, and a **unilateral "polyp" is more often neoplastic** than inflammatory. Some tumours are submucosal. Biopsy suspicious lesions **after imaging**, to avoid heavy bleeding from a vascular tumour or a CSF leak from one that reaches the cranium.
+!mf 1 | Endoscopic view of a tumour arising from the floor of the right nasal cavity; biopsy showed squamous cell carcinoma.
+!senior Signs of spread
+Facial swelling means the tumour has breached the front of the sinuses; a palatal or alveolar ulcer or mass, downward spread; a **middle ear effusion**, nasopharynx, Eustachian tube or tensor veli palatini; anosmia, blurred vision, diplopia or trigeminal numbness, the skull base. In the orbit, epiphora means the nasolacrimal duct; diplopia, compression of nerves or muscles; proptosis, displacement or invasion of the globe. Visual loss is late, but an afferent pupillary defect, poor colour vision or field loss come earlier, and orbital spread may be silent.
+!!
+## Imaging and preparation
+CT and MRI are often both needed, especially for the skull base, orbit, pterygopalatine and infratemporal fossae: **coronal** images for the orbital walls and cribriform plate, **axial** for the posterior maxillary wall and the fossae behind it, **sagittal** for the cribriform plate, planum and clivus. CT shows bone (destruction suggests malignancy; a widened or sclerotic infraorbital, vidian or trigeminal foramen suggests **perineural spread**). MRI is better for the primary tumour, soft tissue, dura (thickening or enhancement), brain, carotid and nerves, and above all it **separates tumour from retained secretions**. Angiography is reserved for vascular tumours such as juvenile angiofibroma, where it allows embolisation.
+!mf 2 | (A) Coronal CT: opacity of the right nose, maxillary and ethmoid sinuses with apparent destruction of the lateral wall and septum, unclear at the orbital floor and cribriform plate. (B) Coronal gadolinium T1 MRI of the same patient: tumour limited to the nose and ethmoids, retained secretions in the maxillary sinus, orbit and skull base not invaded.
+Map the tumour, examine the cranial nerves, and arrange an ophthalmological assessment. Most patients need a **maxillofacial prosthodontist** for impressions and an obturator or splint. Discuss neoadjuvant or adjuvant (chemo)radiotherapy at a multidisciplinary meeting. Routine bloods, coagulation, glucose, chest radiograph and ECG, with medical optimisation. Talk honestly with the patient and family about the disease, the risks, the stay, feeding, rehabilitation and adjuvant treatment.
+
+# Anatomy you must see | Landmarks around the nose and orbit.
+## Landmarks
+- **The infraorbital nerve:** the lateral limit of the resection.
+- **The nasolacrimal duct and sac**, in the fossa between the anterior and posterior lacrimal crests.
+- **The frontoethmoidal suture:** it marks the floor of the anterior cranial fossa and leads back to the **anterior and posterior ethmoidal foramina**.
+- **The anterior and posterior ethmoid arteries:** the **optic nerve** lies 4 to 5 mm behind the posterior artery.
+- **The cribriform plate and fovea ethmoidalis**, and the insertion of the middle turbinate.
+- **The opticocarotid recess** in the sphenoid; sphenoid septa often insert into it.
+
+# The operation, stage by stage | Lateral rhinotomy medial maxillectomy.
+## Protect the eye and mark the incision
+Place a temporary tarsorrhaphy. Mark the lateral rhinotomy by joining three points: **halfway between the nasion and the medial canthus**, the **start of the alar crease**, and the **base of the columella**. The basic incision is enough for a medial maxillectomy; a lip-splitting extension or a Lynch extension gives the exposure for a total maxillectomy.
+!mf 3 | The lateral rhinotomy (points 1 to 3) and its extensions: a lip split (4) and a Lynch extension (5), with a temporary tarsorrhaphy.
+## Raise the cheek and release the medial canthus
+Elevate the cheek soft tissue **subperiosteally** over the maxilla and around the infraorbital nerve. Release the medial canthal tendon from the nasal bone. Elevate the periorbita over the medial wall to expose the lacrimal crest, lamina papyracea and frontoethmoidal suture.
+## The ethmoid arteries
+Follow the frontoethmoidal suture back to the anterior and posterior ethmoidal foramina; bipolar, clip or tie the arteries and divide them. Remember the **optic nerve 4 to 5 mm behind the posterior artery**. Dissect the orbital floor as far laterally as the inferior orbital fissure.
+!danger Orbital haematoma
+An ethmoid artery that retracts into the orbit unsecured bleeds inside it. Coagulate or clip the arteries before you divide them.
+!!
+## The lacrimal sac
+Find the sac in its fossa. If the duct is divided, **marsupialise the sac** widely into the nose as a dacryocystorhinostomy, with silicone stents through the canaliculi into the nose, left for 3 to 6 months, to prevent stenosis and epiphora.
+!mf 4 | Medial maxillectomy: (A) subperiosteal elevation around the infraorbital nerve and over the lacrimal crest to the sac; (B) the anterior ethmoid artery at the frontoethmoidal suture; (C) the sac marsupialised with silicone stents; (D) the osteotomies; (E) the healed lateral rhinotomy.
+## The midfacial degloving alternative
+Make a complete **transfixion incision** and bilateral **intercartilaginous incisions**, and elevate over the dorsum to the nasal root. Add a **gingivobuccal incision** across the midline to both tuberosities. Deglove the nasal skeleton to the pyriform aperture, continue subperiosteally over both maxillae up to the infraorbital rims, and join the two by sharp dissection at the pyriform aperture. It needs familiarity with closed rhinoplasty incisions.
+## The osteotomies
+Cut **vertically just medial to the infraorbital foramen**, **horizontally above the tooth roots** into the pyriform aperture, and **obliquely along the nasomaxillary suture**, and remove the anterior maxillary wall medial to the nerve; lateral to the foramen the antrostomy can be widened to show the zygomatic recess. Begin the lateral wall resection with a cut along the **nasal floor below the inferior turbinate**, from the pyriform aperture back to the posterior maxillary wall.
+## The ethmoids and the turbinate
+Retract and protect the orbit laterally with a malleable retractor and resect the lamina papyracea if needed. Perform a **complete sphenoethmoidectomy**, staying **below the frontoethmoidal suture**. **Cut** the superior attachment of the middle turbinate along the roof of the nose with scissors; never fracture or pull it.
+!danger The cribriform plate
+The commonest site of CSF leak is the cribriform plate at the insertion of the middle turbinate. Study the skull base on the scan and divide the turbinate sharply.
+!!
+!danger The sphenoid
+Note the opticocarotid recess, any dehiscence of the carotid or optic canal, and where the septa insert. Septa inserting on the recess must not be fractured.
+!!
+## Deliver and check
+Join the lateral wall cuts behind the turbinates with right-angled scissors and deliver the specimen; check the margins with frozen sections. Add septal cuts if the septum is involved.
+!see What you should see
+- A wide cavity from the nasal floor to the skull base and back to the sphenoid face, the orbit intact behind its periorbita, the infraorbital nerve preserved laterally.
+!!
+## Close
+**Reattach the medial canthal tendon** to the nasal bone in its anatomical position. Close the rhinotomy in several careful layers; it usually heals very well. Close sublabial incisions with absorbable sutures. Non-adherent packing may stay for 1 to 2 days.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path CSF leak during the resection
+Prevent | study the cribriform plate ; cut the middle turbinate, do not pull it
+Afterwards | observe overnight for a CSF leak ; the risk is meningitis
+!!
+!path Bleeding around the eye
+Cause | an ethmoid artery not secured before division
+Prevent | bipolar or clip before cutting
+!!
+## Common errors in technique
+!pit
+- Not draining the lacrimal sac after dividing the duct.
+- Not reattaching the medial canthal tendon (telecanthus).
+- Excess traction on the infraorbital nerve (cheek numbness).
+- An incomplete sphenoethmoidectomy, leaving poorly drained sinuses and recurrent sinusitis.
+!!
+
+# Aftercare | Overnight watch, then rinses.
+## After the operation
+Keep the patient overnight to watch for bleeding, CSF leak and orbital complications. Analgesia; head up 30 degrees; no strenuous activity; broad-spectrum antibiotics for 24 hours; remove any pack at 24 to 48 hours; generous **saline irrigation** against crusting.
+## Complications
+!table Complications of medial maxillectomy
+Complication | Notes
+Bleeding | Postoperative haemorrhage
+Infraorbital nerve | Cheek or dental numbness, often temporary from traction
+Corneal injury | Tarsorrhaphy or shield
+Epiphora | Duct injury or stenosis; marsupialise the sac
+Telecanthus | Medial canthal tendon not reattached
+Orbital haematoma | Ethmoid arteries
+Diplopia | Swelling or injury of extraocular muscles
+Optic nerve injury | Sphenoid and posterior ethmoid dissection
+CSF leak and meningitis | Usually the cribriform plate
+!!
+## Alternatives
+Depending on the disease: observation of benign, symptomless lesions; embolisation or coiling of vascular lesions with recurrent epistaxis; palliative radiotherapy or chemotherapy for malignancy.
+
+# For the examination | What the examiner wants to hear.
+## Endoscopic or open?
+The lateral rhinotomy is the gold standard for safe, adequate resection of tumours of the nose, septum, lateral wall and sinuses, with lower recurrence than more limited approaches. In carefully selected cases centred on the medial maxillary wall, an **entirely endonasal endoscopic medial maxillectomy** gives equal oncological results. The principles are the same either way. The endoscopic operation was classically described for **inverted papilloma**, removing both the tumour and its bony attachment, and is now used for other benign tumours, access to the pterygopalatine and infratemporal fossae, and for **recalcitrant maxillary sinusitis** where mucociliary clearance has failed (cystic fibrosis, primary ciliary dyskinesia), because a middle meatal antrostomy depends on cilia to drain.
+## Viva essentials
+!exam What the examiner is looking for
+- What medial maxillectomy removes, and its lateral limit.
+- Indications and when it is not enough.
+- Lateral rhinotomy markings, and the extensions for total maxillectomy.
+- Midfacial degloving: incisions, advantages, limits.
+- The frontoethmoidal suture, the ethmoid arteries, and the optic nerve 4 to 5 mm behind the posterior artery.
+- The three osteotomies.
+- Managing the lacrimal sac and the medial canthal tendon.
+- CT versus MRI, and MRI's ability to separate tumour from secretions.
+- A unilateral polyp is a tumour until proven otherwise.
+!!
+## Common pitfalls
+!pit
+- Biopsying before imaging.
+- Drilling above the frontoethmoidal suture.
+- Fracturing sphenoid septa.
+- Forgetting the prosthodontist when the palate may be involved.
+!!

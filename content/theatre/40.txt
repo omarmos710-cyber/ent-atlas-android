@@ -1,0 +1,146 @@
+@src Myers, Operative Otolaryngology
+@stand The hypopharynx lies behind the larynx between the oropharynx and the oesophagus, in three sites: the two pyriform sinuses, the postcricoid mucosa (the back of the cricoid, which is also the front wall of the hypopharynx) and the posterior pharyngeal wall. Its squamous cancers are only 3 to 5% of head and neck cancers, but they are tobacco and alcohol cancers that present late, spread early and widely to the neck, and recur in about half of patients. Most are stage IV at diagnosis. Surgery means a partial or total pharyngectomy, usually with a total laryngectomy, then adjuvant (chemo)radiotherapy, and the pharynx that remains decides whether it can simply be closed or must be rebuilt. This chapter covers selection and the limits of resectability, the three operations (partial laryngopharyngectomy, laryngectomy with partial pharyngectomy, and total laryngopharyngectomy), the margins, reconstruction, and the complications that threaten life: the leak and the carotid blowout.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Pharyngectomy
+ | Summary
+Partial | Cancer limited to the **aryepiglottic fold** and the **medial or anterior wall** of the pyriform sinus, with good lung function; not if it reaches the apex or the lateral wall
+Larynx and partial pharynx | Pyriform cancer extending to the larynx medially, the **apex** below, or the **lateral wall**
+Total | **Postcricoid** cancer, advanced posterior wall cancer, pyriform cancer crossing the midline posteriorly; with oesophagectomy if it extends into the cervical oesophagus
+Not operable | Extension to the **prevertebral fascia** (MRI, barium swallow); **encasement of the common carotid**; distant metastasis (discuss palliative care)
+Set-up | General; awake fibreoptic intubation or awake tracheostomy if the tumour obstructs; supine, shoulder roll, arms tucked
+Antibiotics | Ampicillin-sulbactam; clindamycin or ciprofloxacin with metronidazole in allergy; for 24 hours
+Tray | Direct laryngoscopy set with rigid oesophagoscope; major head and neck set; microscope if a free flap is needed; tracheoesophageal puncture kit with prosthesis
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to remove a cancer of the lower throat, usually with the voice box, and the lymph nodes on both sides of the neck.
+- **Breathing** through a permanent stoma if the larynx is removed; **voice** restored by a valve, now or later.
+- **Reconstruction** with tissue from the chest, arm, thigh or bowel if not enough throat lining is left.
+- **A leak of saliva** into the neck, treated by tube feeding and drainage, sometimes another operation.
+- **Narrowing of the throat** later, which may need stretching.
+- **Rupture of the carotid artery**: rare, life-threatening, commoner after radiotherapy or with a leak.
+- **An underactive thyroid**, needing tablets.
+- **Radiotherapy or chemoradiotherapy** afterwards.
+- **The operation may be stopped** if the cancer is found to surround the carotid.
+!!
+## Before you start
+Ask about dysphagia, odynophagia, **referred otalgia** and a neck lump, and how long and how severe; choking or coughing with meals means aspiration; hoarseness or stridor means laryngeal involvement. Record lung and heart function, previous head and neck cancer or radiotherapy, immunosuppression, family history of cancer or blood disorders, anticoagulants, antiplatelets and herbal products, and smoking and alcohol (current drinkers risk withdrawal).
+
+Record oxygen saturation and BMI. Examine the mouth and oropharynx for a synchronous primary and the teeth (poor teeth are best extracted at the time of surgery, before radiotherapy). Flexible laryngoscopy confirms the tumour and its extent: does it involve the endolarynx, postcricoid region or posterior wall, and does it **obstruct the airway**?
+!senior Where the nodes go
+The hypopharynx drains to the upper deep cervical nodes (levels II and III), sometimes the **retropharyngeal** nodes, and often both sides. Nodal metastasis develops in **60 to 80%**, and occult nodes are present in at least **20 to 40%**. The risk is **bilateral** for postcricoid, medial pyriform and posterior wall cancers; pyriform cancers have about a **20%** risk to the other side, less from the lateral wall than the medial wall.
+!!
+## Imaging and preparation
+Contrast CT of the neck is quick and cheap and shows the nodes; CT of the chest looks for lung metastases. **MRI** shows soft tissue planes better and whether the **prevertebral fascia** is involved. A **barium swallow** with videofluoroscopy can show a pyriform sinus fixed to the prevertebral fascia or bone. **PET-CT** looks for distant disease. Obtain staging scans **within a month of surgery**, so you do not miss spread into critical structures. Get medical clearance (heart and lungs), check **prealbumin and TSH** (correctable causes of poor healing), consider a gastrostomy for a malnourished patient who cannot swallow, stop antiplatelets and anticoagulants, and have outside biopsies and scans reviewed.
+
+# Anatomy you must see | Landmarks for the resection.
+## Landmarks
+- **The hyoid bone:** skeletonise it; the pharynx is entered **above the hyoid on the side opposite the cancer**.
+- **The hypoglossal nerve:** deep to the **greater cornu of the hyoid**, just lateral and deep to it; its survival matters for swallowing. Find it during the neck dissection and follow it medially until its relation to the hyoid is clear.
+- **The pyriform sinuses:** in a partial pharyngectomy, peel the uninvolved sinus off the inner lamella of the thyroid cartilage and keep it whole.
+!mf 1 | Advanced laryngeal cancer needing resection of the medial wall of the same pyriform sinus for a deep margin; keeping the opposite sinus and the lateral wall allows primary closure.
+!mf 2 | Pyriform cancer involving the whole lateral wall; the opposite sinus was carefully preserved.
+
+# The operation, stage by stage | Three operations.
+## Endoscopy again
+Perform direct laryngoscopy and oesophagoscopy for diagnosis beforehand, and **again at the start** of the operation to plan the cuts. Entry into the pharynx is blind, so you must know exactly where the cancer is.
+## Partial laryngopharyngectomy
+1. Raise an apron flap and dissect **both** necks for medial wall cancer; an elective unilateral dissection may do for cancer confined to the lateral wall.
+2. Perform a **supraglottic laryngectomy**, removing the hypopharyngeal cancer with it, with at least a **15 mm** mucosal margin all round.
+3. Reconstruct by impacting the tongue base into the residual larynx.
+4. Pass a nasogastric tube if there is no gastrostomy.
+5. Close the residual mucosa indirectly, with a second layer of residual strap and digastric muscle, and drain with suction.
+## Laryngectomy with partial pharyngectomy
+1. Raise a superiorly based apron flap through the level of the stoma; dissect levels II to IV on both sides in most cases.
+2. Enter the pharynx through the **vallecula on the side opposite the cancer**.
+3. Keep **all** uninvolved pyriform mucosa: incise the constrictors along the thyroid lamella, release the sinus and peel it gently off the endolarynx.
+4. Cut from the vallecula down the aryepiglottic fold to the lateral side of the opposite arytenoid, then make the remaining cuts **under direct vision** with a **15 to 20 mm** margin.
+5. **Frozen section margins are mandatory.**
+!mf 3 | An extensive hypopharyngeal cancer crossing the midline posteriorly, needing laryngectomy and near-total pharyngectomy.
+## How much is left?
+With **3 cm** of pharyngeal mucosa across, the pharynx can usually be closed primarily, and a **primary puncture** can be made; with less, add a pedicled or free flap, and make the puncture later, after healing and adjuvant treatment. Mature the stoma and close over bilateral suction drains.
+!mf 4 | A narrow strip of residual hypopharynx that cannot be closed primarily: it must be augmented with a pedicled or free flap, or resected and replaced.
+## Total laryngopharyngectomy
+1. Apron flap and **bilateral** neck dissections, always.
+2. Enter through the opposite vallecula and release any uninvolved pyriform mucosa.
+3. Carry the dissection down beside the epiglottis until the cancer is seen; take a **15 to 20 mm** superior margin.
+4. Develop the plane between the **posterior pharyngeal wall and the prevertebral fascia** downward.
+5. Under direct vision, secure the inferior margin and divide the larynx and pharynx below.
+6. If the cancer enters the cervical oesophagus, a total laryngo-oesophagectomy is needed.
+!mf 5 | A circumferential postcricoid cancer needing total laryngopharyngectomy and reconstruction.
+## Reconstruct
+A circumferential defect needs free tissue: a **tubed radial forearm flap**, or for large defects the jejunum, now largely replaced by other flaps. A posterior wall defect suits the thin, pliable forearm flap as a patch. Pass a nasogastric tube, mature the stoma and close over suction drains.
+!mf 6 | A posterior pharyngeal wall cancer often needs free flap reconstruction; the radial forearm gives thin, pliable tissue.
+!mf 7 | The radial forearm flap for partial pharyngeal reconstruction; it can be tubed for total reconstruction.
+!mf 8 | The jejunum, whose arcades each supply about 25 cm of bowel, as a free flap donor.
+!danger Suspected carotid involvement
+Sometimes encasement only becomes clear in theatre. If you suspect it but cannot confirm it beforehand, **start with the neck dissection on that side**, so you can abandon the operation before the pharynx is opened.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Pharyngeal leak
+Small | nil by mouth, divert it with a drain, local wound care
+Persistent or large | return to theatre to repair it, often with local or free tissue, especially after radiotherapy
+Risk factors | previous radiotherapy, hypothyroidism
+!!
+!path Carotid blowout
+Who | after radiotherapy, radical neck dissection, a leak, or a wound infection
+Act | immediate return to theatre
+Prevent | cover the carotid with a pectoralis or free flap in high-risk necks
+!!
+!path Bleeding
+During surgery | identify and repair the injured vessel at once
+Later | a slipped clip, infection breaking down tissue, or persistent cancer
+!!
+## Common errors in technique
+!pit
+- Poor assessment of the cancer at laryngoscopy, so the blind entry cuts through it.
+- Inadequate skeletonisation of the hyoid: releasing it helps rotate the larynx and free the constrictors and sinuses, and exposing it protects the hypoglossal nerve.
+- Failing to identify inoperability (carotid, prevertebral fascia) before surgery.
+!!
+
+# Aftercare | Feeding, swallow, thyroid.
+## After the operation
+Antibiotics for 24 hours. Leave the stoma open to humidified air and clean it often; a soft Silastic laryngectomy tube if oedema or a flap obstructs it. Opioids through the tube or intravenously at first. Antiplatelet drugs can restart on day 1 after primary or local flap closure; after a free flap, as the reconstructive plan dictates. Feed through the nasogastric tube or gastrostomy once bowel sounds return. A **barium swallow at 7 to 10 days**: if intact, start clear fluids, remove the nasogastric tube and advance the diet.
+## Complications
+!table Complications of pharyngectomy
+Complication | Notes
+Hypothyroidism | Delays healing and raises the leak risk; thyroid tests at 5 to 7 days and levothyroxine
+Pharyngeal leak | Conservative for small leaks, surgery and flaps for persistent ones
+Pharyngeal stenosis | Late; barium swallow; dilatation
+Carotid blowout | The most devastating; radiotherapy, leak and infection; immediate surgery
+Hypoglossal injury | At the greater horn of the hyoid; impairs swallowing
+!!
+## Alternatives
+- **Radiotherapy** for early hypopharyngeal cancer, depending on access, function and expertise.
+- **Chemoradiotherapy** for advanced cancer, preserving the larynx but without a survival advantage over surgery.
+- **Palliative chemoradiotherapy** for inoperable or metastatic disease.
+!senior When to choose surgery
+If the larynx and pharynx already function poorly, or the patient is older with poor performance status or significant thyroid cartilage invasion, laryngopharyngectomy with adjuvant radiotherapy is often preferred to organ preservation.
+!!
+
+# For the examination | What the examiner wants to hear.
+## Chemoradiotherapy or surgery?
+Organ-preserving chemoradiotherapy has largely replaced laryngopharyngectomy with adjuvant radiotherapy for patients who can tolerate it, and ASCO guidelines recommend offering organ preservation to most patients where feasible. It preserves the larynx but **does not improve survival** over surgery with radiotherapy. Discuss every advanced case at a multidisciplinary meeting, with the patient's and family's goals, the toxicities and the possibility of salvage surgery.
+## Viva essentials
+!exam What the examiner is looking for
+- The three subsites and the postcricoid region as the front wall.
+- Nodal spread: 60 to 80%, occult 20 to 40%, when it is bilateral.
+- Contraindications: prevertebral fascia, carotid encasement, distant disease.
+- Which operation for which tumour.
+- Entry through the opposite vallecula; preserve the opposite pyriform sinus.
+- Margins of 15 to 20 mm and mandatory frozen sections.
+- The 3 cm rule for primary closure; primary or secondary puncture.
+- Reconstruction choices.
+- Leak, hypothyroidism and carotid blowout.
+!!
+## Common pitfalls
+!pit
+- Old staging scans.
+- Opening the pharynx before checking the carotid when its involvement is in doubt.
+- Closing a pharynx too narrow to swallow.
+- Missing postoperative hypothyroidism.
+!!
