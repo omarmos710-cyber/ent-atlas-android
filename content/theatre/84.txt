@@ -1,0 +1,243 @@
+@stand Primary hyperparathyroidism is usually found by accident, on a routine calcium, and surgery is its only cure. In eight or nine patients out of ten a single adenoma is to blame, so if imaging shows where it is and the hormone level falls after you remove it, a small focused operation is enough. The others have several overactive glands, and they need all four glands found. The difficulty is that parathyroids are the size of a lentil, vary in position, and look like fat, nodes and thyroid nodules. This chapter covers the biochemical diagnosis, who needs surgery, localisation, where the upper and lower glands hide, how to use the intraoperative PTH assay, and what to do when the hormone does not fall.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Parathyroidectomy for primary hyperparathyroidism
+ | Summary
+Indications | Symptomatic primary hyperparathyroidism, including parathyroid crisis; familial disease; suspected parathyroid cancer; thyroid disease that can be treated at the same operation; and asymptomatic disease with any one of: age under 50, calcium more than 1 mg/dl above the upper limit of normal, bone density T score below -2.5, a vertebral fracture, creatinine clearance under 60 ml/min, 24-hour urine calcium over 400 mg, or kidney stones or nephrocalcinosis on imaging
+Contraindications | A paralysed recurrent nerve on the opposite side; symptomatic cervical disc disease; comorbidity that rules out surgery
+Anaesthesia | General with an endotracheal tube; a superficial cervical plexus block with sedation is possible for a well-localised single adenoma in an unoperated neck, with a real chance of converting to general anaesthesia
+Position | Supine, head up 30 degrees, a small roll under the shoulder blades for slight neck extension
+Antibiotics | Not required for clean neck surgery; at most a single dose before the incision
+Monitoring | Standard; nerve monitoring is optional and has not been shown to reduce vocal fold weakness
+Imaging | Localisation is for planning, never for diagnosis: ultrasound (also screens the thyroid) and sestamibi scan, best when they agree; SPECT-CT, four-dimensional CT or MRI when they do not; selective venous sampling, arteriography or ultrasound-guided aspiration for PTH in difficult or reoperative cases
+Tray | Basic head and neck set; ultrasonic scalpel if thyroid surgery is planned; monopolar and bipolar diathermy; peanut swabs; Babcock forceps; McCabe dissector; clips; self-retaining retractor; rapid PTH assay arranged with the laboratory
+Before theatre | Confirm the biochemistry; stop lithium and thiazides for a month before confirming the diagnosis; stop antiplatelets and anticoagulants; laryngoscopy to record vocal fold movement (essential before reoperation)
+!!
+## Consent
+!consent What to tell the patient
+- **What it is:** removing the overactive parathyroid gland or glands through a small incision low in the neck.
+- **Cure** is achieved in about 95 to 97 in 100 at experienced centres; in up to 5 in 100 the high calcium persists or returns and further tests or surgery are needed.
+- **A larger operation** on both sides may be needed if the hormone level does not fall, or if more than one gland is abnormal.
+- **Low calcium** afterwards, causing tingling and cramps, treated with calcium and vitamin D tablets.
+- **Voice change** from the nerve to the voice box: uncommon, and usually temporary.
+- **Bleeding** needing a return to theatre in fewer than 1 in 100.
+- **Infection**, a scar, and a temporary change in thyroid function.
+- **Rarely, the breastbone must be opened** to reach a gland in the chest.
+!!
+## Before you start
+### The history
+- Most patients have **no symptoms**, or vague ones: tiredness, weakness of the thighs and upper arms, aching bones, poor appetite, constipation.
+- **Kidneys:** thirst, passing a lot of urine, stones.
+- **Bones:** osteopenia, osteoporosis, fractures, and rarely osteitis fibrosa cystica with bone pain and brown tumours.
+- **Gut:** peptic ulcer, pancreatitis, gallstones.
+- **Heart:** hypertension, arrhythmia.
+- **Mind:** depression, anxiety, poor concentration, psychosis.
+- Compressive symptoms from thyroid disease.
+- Previous neck surgery or neck irradiation.
+- **Family history:** MEN 1 or 2A, familial isolated hyperparathyroidism, familial hypocalciuric hypercalcaemia.
+- **Drugs:** lithium and thiazides cause mild hypercalcaemia.
+### The examination
+The neck is usually normal. Feel for thyroid nodules and nodes. A **palpable neck mass with a high calcium** suggests parathyroid carcinoma. Examine the vocal folds.
+### The biochemistry
+- Measure **calcium, PTH and vitamin D together**: a raised calcium with a raised or inappropriately normal PTH makes the diagnosis.
+- **24-hour urine calcium** separates it from **familial hypocalciuric hypercalcaemia**, which is not helped by surgery.
+- Low phosphate and a mild hyperchloraemic acidosis are common; check creatinine and urea.
+- After gastric bypass, check that the patient can absorb calcium.
+!table Causes of primary hyperparathyroidism
+Cause | Share | Operation
+Single adenoma | 80% to 90% | Focused removal with PTH assay
+Hyperplasia of all glands | 6% to 15% | Subtotal (three and a half glands) or total with autotransplantation
+Double adenoma | 2% to 5% | Remove both
+Carcinoma | Under 5% | Suspect a firm, white gland; needs specialist resection
+!!
+!flag Diagnose the family before you operate
+MEN 1, MEN 2A and familial hyperparathyroidism affect all the glands. A focused operation will fail. In MEN 1, do a subtotal or total parathyroidectomy **with thymectomy** (the thymus is the commonest home of extra glands); in MEN 2A, exclude a phaeochromocytoma first. These patients need only an ultrasound to check the thyroid, because all four glands will be explored anyway.
+!!
+!mf 3 | A sestamibi scan with increased uptake on the right: with a high calcium, this suggests a parathyroid adenoma.
+
+# Anatomy you must see | Where the glands hide.
+## Normal glands
+- About 85% of people have **four**: two superior (fourth pouch) and two inferior (third pouch, descending with the thymus). Up to 15% have more than four, and 1% to 3% of glands are ectopic.
+- A normal gland is the size of a grain of rice or a lentil, weighs **30 to 50 mg**, and is **light brown** against yellow fat. Glands move more freely than thyroid nodules or nodes.
+## The superior glands
+- On the **posterolateral surface of the upper two-thirds** of the thyroid lobe, near the cricothyroid joint, within about **1 cm of where the recurrent nerve crosses the inferior thyroid artery**.
+- They lie **behind** the plane of the recurrent nerve.
+- When they migrate, they fall **backward and down**: the tracheo-oesophageal groove, beside or behind the oesophagus, the piriform sinus, and the posterior mediastinum.
+## The inferior glands
+- More variable, because they travel further: at the **lower pole** of the thyroid or in the **thyrothymic tract**.
+- They lie **in front of** the plane of the recurrent nerve.
+- When they are missing, look in the **thymus and the front of the upper mediastinum**; less often they are undescended high in the neck, or inside the thyroid.
+!mf 4 | Ectopic sites: superior glands (B partly descended, D tracheo-oesophageal groove, G posterior mediastinum) and inferior glands (A undescended, C inside the thyroid, E at the mediastinal outlet, F in the thymus, H anterior mediastinum).
+## The recurrent laryngeal nerve
+The right nerve loops under the subclavian artery and runs obliquely to the tracheo-oesophageal groove; the left loops under the aortic arch and rises more vertically. Both enter the larynx near the first tracheal ring.
+
+# The operation, stage by stage | Find, remove, prove.
+## Baseline PTH and incision
+Take the **baseline PTH** before the incision, from a **peripheral** vein or artery: a central line on the side of the adenoma can give a falsely high level. Infiltrate local anaesthetic and make a Kocher incision in a skin crease between the cricoid and the sternal notch: 3 to 5 cm in the midline for a bilateral exploration, smaller and toward the suspected side for a focused operation. Raise subplatysmal flaps.
+!see What you should see
+- A baseline sample sent and timed, and clean flaps above the strap muscles.
+!!
+!danger The wrong sample site
+A baseline taken from a central vein on the side of the adenoma is falsely high, and makes every later level look like a cure.
+!!
+!senior Senior's pearl
+Agree the timings with the anaesthetist and the laboratory before you start. The assay is only as good as the labelling and timing of the samples.
+!!
+## Open the midline and mobilise the lobe
+Divide the midline raphe and separate the strap muscles, retracting them sideways and the thyroid toward the midline. Tie the **middle thyroid vein** so that the lobe rolls forward and medially, and you can see its whole posterior surface.
+!see What you should see
+- The back of the thyroid lobe turned toward you, with the carotid laterally and the paratracheal and retrothyroid spaces open.
+!!
+!danger Blood in the field
+The plane between the straps and the thyroid capsule bleeds easily, and blood stains everything the same colour as a parathyroid. Dissect bluntly and keep the field dry.
+!!
+!senior Senior's pearl
+You cannot find a tan gland in a red field. Haemostasis is the most useful localising technique you have.
+!!
+## Find the recurrent nerve
+Identify the recurrent laryngeal nerve and follow it down toward the carotid and up to the cricothyroid muscle. You need not dissect its whole length in a focused operation, but you must see and protect it whenever you explore beside or behind the oesophagus.
+!see What you should see
+- The nerve in the tracheo-oesophageal groove, crossing the inferior thyroid artery.
+!!
+!danger Exploring blind
+Searching the paraoesophageal and retro-oesophageal spaces without knowing where the nerve is risks dividing it.
+!!
+!senior Senior's pearl
+The nerve is your map: upper glands lie behind its plane, lower glands in front of it.
+!!
+## Search for the glands
+In a focused operation, go to the gland the imaging showed. In a bilateral exploration, search in the **same order every time**. Look and feel: upper glands near the nerve-artery crossing on the back of the upper lobe; lower glands at the lower pole and in the thyrothymic tract. If a gland is missing, open the pretracheal fascia to reach the spaces beside and behind the oesophagus (upper gland), or follow the thymus into the upper mediastinum (lower gland). **Never remove a normal gland**, even if you cannot find the abnormal one.
+!mf 1 | A parathyroid adenoma.
+!see What you should see
+- A soft, tan to reddish-brown, enlarged gland that slides within its fat, quite unlike a firm, fixed thyroid nodule.
+!!
+!danger The white, hard gland
+A firm, white parathyroid should make you suspect carcinoma. Do not cut into it; stop and get senior help before going further.
+!!
+!senior Senior's pearl
+A missing upper gland has usually fallen back and down behind the oesophagus; a missing lower gland is usually in the thymus. Search by embryology, not at random.
+!!
+## Help for a hidden gland
+- **Radio-guided probe:** sestamibi is given 2 hours before surgery and a hand-held gamma probe guides the incision and checks the bed; it cannot exclude several abnormal glands, and thyroid nodules can take up the tracer.
+- **Methylene blue** stains the glands, but is kept for reoperations because of neurotoxicity.
+- **Jugular vein sampling** for PTH on each side tells you which side to explore.
+!see What you should see
+- One clear signal, stain or lateralising level pointing you to a side or a site.
+!!
+## Remove the gland
+Dissect all round the enlarged gland before sealing its vessels, without rupturing its capsule. Send it for **frozen section**, to confirm only that it is parathyroid tissue. Do not stop the search until you have either seen one abnormal and one normal gland, or the PTH has fallen.
+!see What you should see
+- An intact gland on its pedicle, removed whole, and a report confirming parathyroid tissue.
+!!
+!danger Sealing before you can see
+Free the gland all the way round before you seal its vessels, so that you do not catch a nearby structure or leave part of the gland behind.
+!!
+## Prove the cure with PTH
+PTH has a half-life of **3 to 5 minutes**, and rapid assays report within about 20 minutes. Take levels at **10, 15 and 20 minutes** after removing the gland. A fall of **more than 50%** from the baseline at 10 minutes suggests cure, and the later levels should keep falling: a curve that flattens is worrying. You can close the wound while waiting, but keep the patient asleep until the result is satisfactory.
+!see What you should see
+- A PTH that has fallen by more than half at 10 minutes and is still falling at 15 and 20.
+!!
+!danger Stopping on a flat curve
+An unchanged level means that the abnormal tissue is still in the patient. A level that falls and then plateaus suggests a second abnormal gland.
+!!
+!senior Senior's pearl
+If the hormone has not fallen, look at the other gland on the same side first. If that is also enlarged, the patient has multigland disease: explore all four and do a subtotal parathyroidectomy.
+!!
+## If the PTH does not fall
+Explore the other gland on the same side, then the opposite side. For **hyperplasia**, remove three and a half glands, leaving a well-vascularised remnant marked with a **clip**, or remove all four and autotransplant minced tissue. Mark any glands left in place with clips to help a future surgeon. Over 95% of adenomas can be removed through the neck; a **median sternotomy** is needed only for a mediastinal gland that cannot be reached from above.
+!mf 2 | Parathyroid hyperplasia, with clips marking the glands.
+!see What you should see
+- All four glands accounted for, the remnant viable and clipped.
+!!
+!danger A normal gland devascularised
+A gland that turns dark has lost its blood supply. Confirm it is parathyroid on frozen section of a fragment, mince it into 1 mm pieces and implant it in the sternocleidomastoid or a strap muscle.
+!!
+## Close
+Bring the strap muscles and platysma together with interrupted absorbable sutures, and close the skin with a subcuticular suture or strips.
+!see What you should see
+- A dry bed and a neat closure, with the final PTH result in hand.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path The adenoma is not where the scan showed it
+Act | search the usual sites systematically on that side, then the ectopic sites by embryology
+Help | jugular sampling, gamma probe ; open the thyroid capsule or remove the lobe only as a last resort for a suspected intrathyroid gland
+Stop | if nothing is found after a thorough exploration: close, re-image, and plan a second operation, never removing normal glands
+!!
+!path Tingling, cramps or spasm after surgery
+Recognise | low calcium, sometimes from "hungry bones" taking up calcium after a long-standing adenoma is removed
+Act | oral calcium and calcitriol ; intravenous calcium if symptoms persist or are severe, with cardiac monitoring
+!!
+!path Stridor after extubation
+Suspect | both recurrent nerves injured, or a haematoma
+Act | reintubate ; emergency tracheostomy if that fails ; examine the vocal folds
+!!
+!path Neck swelling after surgery
+Act | open the wound and evacuate the clot ; return to theatre (needed in under 1%)
+!!
+!path Calcium is high again months later
+Confirm | repeat calcium and PTH, and exclude other causes
+Localise | two imaging methods that agree ; four-dimensional CT or MRI for ectopic glands ; venous sampling if needed ; check the vocal folds
+Operate | a focused approach if localised (a single adenoma is still the commonest cause), dissecting from lateral to medial to avoid scar
+!!
+
+# Aftercare | Calcium now, bones later.
+## After the operation
+- Simple analgesia is usually enough.
+- Review **within 2 weeks** with calcium, PTH and vitamin D; check TSH too, because handling the thyroid can disturb its function.
+- Repeat calcium and PTH at **6 months** to confirm cure (a normal calcium for at least 6 months).
+- Measure **bone density at about 18 months**.
+## Complications
+!table Complications of parathyroidectomy
+Complication | Notes
+Persistent or recurrent hyperparathyroidism | The commonest, up to 5%; missed adenoma, multigland disease, ectopic or extra glands
+Hypocalcaemia | Tingling and numbness, progressing to tetany, seizures and arrhythmia if untreated
+Recurrent laryngeal nerve injury | Voice therapy and medialisation for one side; airway emergency if both
+Neck haematoma | Under 1% need evacuation
+Wound infection | Open, drain, short course of antibiotics
+Thyroid dysfunction | Overactivity early, underactivity later
+!!
+## Alternatives
+Surgery is the only cure. For patients who cannot have it: bisphosphonates to protect bone density; calcimimetics such as cinacalcet to lower PTH and calcium; ablation by angiography, ethanol or laser, with temporary or lasting effect; and hydration, which lowers calcium but does not prevent osteoporosis. Patients not operated on need regular checks of calcium, bone density and kidney function.
+## Localisation: the evidence
+!table Localising studies compared
+Study | Strength | Limit
+Ultrasound | Cheap, no radiation, screens the thyroid; may beat planar sestamibi in expert hands | Depends on the operator, gland size and body habit
+Planar sestamibi | The traditional standard; lateralises in over 70% | Leaves many scans non-localising; thyroid nodules take up tracer
+Ultrasound and sestamibi together | Excellent accuracy when they agree | Both weaker in multigland disease and small adenomas
+Sestamibi SPECT or SPECT-CT | Three-dimensional; better for ectopic glands | Cost, radiation; can still miss multigland disease
+Four-dimensional CT | Localises to the correct quadrant | Radiation and contrast
+MRI | When others fail; glands dark on T1 and bright on T2 | Availability
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Dhingra: covers the parathyroids from the thyroid surgeon's side: they must be identified and preserved in thyroid surgery for benign disease, the superior glands are more constant in position than the inferior, the superior gland lies above the inferior thyroid artery near the cricoid along the posterior border of the thyroid, and both are supplied mainly by the inferior thyroid artery.
+Lee: notes that about 10 minutes after an adenoma is removed the PTH falls to within normal limits, which allows unilateral and minimally invasive surgery; for four-gland hyperplasia it offers subtotal (three and a half gland) resection or total resection with autotransplantation, matched to the severity of the disease; and it explains low calcium after an uneventful adenoma removal as hungry bone syndrome.
+Myers gives the surgical criteria for asymptomatic disease, the localisation strategy, where the upper and lower glands hide, the peripheral baseline sample, the 10-, 15- and 20-minute PTH protocol with the 50% rule, conversion to bilateral exploration, and the approach to reoperation.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- The **biochemical diagnosis** and why **familial hypocalciuric hypercalcaemia** must be excluded.
+- The **causes** and their proportions.
+- **Indications for surgery** in asymptomatic disease.
+- **Embryology** and the usual and ectopic sites of the **upper and lower glands**, and their relation to the **recurrent nerve**.
+- **Localising studies** and that they do not make the diagnosis.
+- The **intraoperative PTH** rule: more than a 50% fall at 10 minutes.
+- Management of **multigland disease and MEN** (thymectomy in MEN 1).
+- **Hungry bone syndrome** and the approach to **reoperation**.
+!!
+## Common pitfalls
+!pit
+- Operating on familial hypocalciuric hypercalcaemia.
+- A focused operation in undiagnosed MEN.
+- A baseline PTH from a central line on the adenoma's side.
+- A bloodstained field.
+- Removing a normal gland.
+- Rupturing an adenoma or a carcinoma.
+- Closing on a PTH that has not fallen, or has plateaued.
+- Leaving retained glands unmarked.
+!!
