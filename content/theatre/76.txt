@@ -79,6 +79,12 @@ Before you cut, list every pocket on the CT and decide how you will reach each o
 !senior Senior's pearl
 The commonest error is draining one pocket and leaving another. Count the loculations on the scan, then count them again in the wound.
 !!
+!see What you should see
+- On the scan: each rim-enhancing collection named by its space, the side and position of the carotid sheath relative to it, the airway's calibre, and whether the collection tracks down toward the mediastinum.
+!!
+!danger Mediastinal extension
+Collections in the retropharyngeal, danger and carotid spaces descend into the chest. A scan that stops at the clavicles misses mediastinitis; extend it and involve the thoracic surgeons.
+!!
 ## Choose the incisions
 - **Ludwig's angina:** a submental incision (often with bilateral submandibular incisions); the discharge is often thin and watery rather than frank pus.
 - **Submandibular space:** a skin incision below the mandible.
@@ -88,6 +94,9 @@ The commonest error is draining one pocket and leaving another. Count the locula
 !mf 4 | The external approach to the parapharyngeal space at the level of the hyoid, beneath the posterior belly of digastric.
 !danger The great vessels and nerves
 The carotid sheath, the vagus, the hypoglossal and accessory nerves and the marginal mandibular nerve all lie close to these spaces, distorted by swelling. Open the spaces bluntly with a finger or closed instrument, and do not use muscle relaxants.
+!!
+!see What you should see
+- A horizontal incision at least two fingerbreadths below the mandible for submandibular access, placed over the most dependent part of the pocket you are draining.
 !!
 ## Open, sample and break down the pockets
 When pus appears, take samples for Gram stain and aerobic, anaerobic and fungal culture, with the anaerobic sample protected from air. Using the CT as your guide, and gentle palpation inside the cavity, open every loculation.
@@ -99,8 +108,23 @@ A blood clot near the carotid in an infected field may mean the artery has ruptu
 !!
 ## Irrigate and drain
 Wash out the cavity with large volumes of saline until the fluid runs clear. Place half-inch Penrose drains into every incision and stitch them to the skin so they cannot fall out. Leave the wounds open to heal by secondary intention, and apply an absorbent dressing that protects the skin.
+!see What you should see
+- Clear effluent, a drain lying in the depth of every pocket you listed on the scan, and a patent airway with the swelling no longer tense.
+!!
+!danger Closing the wound
+A tightly closed wound over an infected space re-collects. Leave it open or loosely approximated around the drains.
+!!
+!senior Senior's pearl
+Send pus for aerobic and anaerobic culture before you irrigate; antibiotics chosen blindly are the reason some of these patients come back to theatre.
+!!
 ## Treat the source
 Extract the offending tooth or teeth (with the dental or maxillofacial team), drain an associated peritonsillar abscess, and plan treatment for any branchial anomaly or other cause.
+!see What you should see
+- The causative tooth out, or the tonsil, gland or tract identified and dealt with or planned.
+!!
+!senior Senior's pearl
+If the patient is not better in 48 hours (fever, white count, swelling), rescan before you blame the antibiotics: the usual cause is an undrained pocket.
+!!
 
 # When it goes wrong | Drills.
 ## Crisis drills
