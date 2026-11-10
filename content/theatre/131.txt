@@ -64,6 +64,7 @@ Multiple failed previous repairs, persistent Eustachian tube dysfunction, severe
 # The operation: myringoplasty | Small and traumatic perforations.
 ## Anaesthesia of the canal
 Inject 1% to 2% lidocaine with 1:100,000 adrenaline in four quadrants, just lateral to the bony-cartilaginous junction, through a Lempert speculum, until the skin blanches. Inject behind the ear too if you will take fascia or use a postauricular approach.
+!mf 1 | Local anaesthetic injected in four quadrants through a Lempert speculum.
 !see What you should see
 - The canal skin blanching all round, down to the annulus, without a bleb lifting the skin.
 !!
@@ -75,6 +76,7 @@ Inject slowly and wait ten minutes. A dry canal is made at this step, not later 
 !!
 ## The fresh traumatic tear
 Fold the edges out from the medial surface so no squamous epithelium is left inside, then lay them back together. Support them with Gelfoam soaked in ciprofloxacin (with or without dexamethasone) medially, and a cigarette paper, Steri-Strip or silk patch on the outer surface.
+!mf 2 3 | The edges of a fresh stellate tear everted from the medial surface, then laid together and supported with a patch.
 !see What you should see
 - Everted edges lying flat and touching, with no skin curled into the middle ear and the handle of the malleus in its normal position.
 !!
@@ -83,6 +85,7 @@ These mean the injury went deeper than the drum (stapes subluxation, perilymph f
 !!
 ## The small chronic perforation
 Touch the edges with phenol or trichloroacetic acid, then **freshen the margin all round with a sharp pick**, removing epithelium that has grown under the medial surface and making the edge bleed; then patch the outer surface.
+!mf 4 | The edge of the perforation freshened all round to remove epithelium from its medial surface.
 !danger Skin left inside
 Squamous epithelium left on the medial surface of the edge, or trapped under any graft, grows into a cholesteatoma. Rimming the perforation properly is the single most important step of every technique.
 !!
@@ -91,6 +94,7 @@ Squamous epithelium left on the medial surface of the edge, or trapped under any
 !!
 ## Fat or areolar tissue graft
 If patching fails, prepare the edges the same way, fill the middle ear behind the hole with Gelfoam, and pass a dumbbell of fat from the ear lobe through the perforation, or place compressed areolar tissue or fascia medial to it, held by Gelfoam on both sides.
+!mf 5 | Myringoplasty of a right posteroinferior perforation.
 !see What you should see
 - The fat plug bulging on both sides of the drum like a collar stud, filling the hole with no gap at its edge.
 !!
