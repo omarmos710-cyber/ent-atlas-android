@@ -1,0 +1,144 @@
+@src Myers, Operative Otolaryngology
+@stand Supracricoid partial laryngectomy removes both vocal folds, the paraglottic spaces and the whole thyroid cartilage, and sometimes the epiglottis and pre-epiglottic space, yet leaves the patient breathing, swallowing and speaking without a permanent stoma. What remains is the cricoid, the hyoid, the epiglottis or tongue base, and at least one mobile arytenoid, which closes against the epiglottis or tongue base to protect the airway. The cricoid is then impacted against the hyoid: a cricohyoidoepiglottopexy (CHEP) when the epiglottis is kept, a cricohyoidopexy (CHP) when it is removed. Local control is excellent and quality of life better than after total laryngectomy, but the road back is hard: weeks of tracheostomy, secretions and aspiration. Selection is everything, and no patient goes to theatre without consenting to a total laryngectomy if the margins demand it. This chapter covers who is and is not a candidate, the protection of the cricoarytenoid unit and its nerves, the two forms of entry, the pexy, and the recovery.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Supracricoid partial laryngectomy
+ | Summary
+Indications | T1, T2 and **selected T3**, N0 to N1 glottic and supraglottic squamous cell carcinoma, especially involving the **anterior commissure or the petiole** of the epiglottis; recurrent T1 to T2 (selected T3) disease after **narrow field** radiotherapy; a motivated patient able to take part in swallowing rehabilitation
+Reconstruction | **CHEP** for glottic cancer with limited supraglottic extension; **CHP** when the epiglottis must be resected
+Tumour limits | Vocal fold immobility **with arytenoid fixation**; subglottic extension; invasion of the **cricoid** or the **hyoid**; extralaryngeal spread
+Not suitable | Comorbidity raising the risk of anaesthesia; poor **pulmonary reserve**; previous **wide field** radiotherapy; dysphagia from earlier treatment or illness; expected need for postoperative (chemo)radiotherapy; active anxiety, depression or substance abuse; lack of motivation or support
+Still suitable | Vocal fold fixation alone; limited pre-epiglottic space invasion; previous laser surgery
+Anaesthesia | General; position supine
+Antibiotics | Cefazolin and metronidazole; clindamycin in penicillin allergy; continued for 24 hours
+Tray | Standard laryngectomy and tracheostomy sets
+Skills | Expertise in total laryngectomy and thyroid surgery
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to remove the cancer and much of the voice box while keeping your ability to speak and swallow without a permanent hole in the neck.
+- **Consent for a total laryngectomy** is required, in case the cancer is found to be more extensive during the operation.
+- **A tracheostomy for several weeks**, with copious secretions that can get into the lungs and cause pneumonia.
+- **Swallowing** will be difficult at first; you will need a feeding tube for some weeks and swallowing therapy. Most people do not need a long-term feeding tube.
+- **Your voice** will be understandable but will not sound like your old voice.
+- **Breakdown of the repair**, narrowing of the airway, wound infection, a fracture of the cricoid, which may lead to total laryngectomy.
+- **Injury to nerves** of the larynx and tongue.
+- **The alternatives:** total laryngectomy, whose recovery is usually far easier and quicker, or radiotherapy or chemoradiotherapy.
+!!
+## Before you start
+Ask about hoarseness, stridor, breathlessness, a neck lump, weight loss and **pneumonia**; previous treatment (especially radiotherapy and its field) and the original stage; medical illness, functional status and exercise tolerance; smoking, alcohol and other substances; antiplatelet drugs and thyroxine.
+
+Look at the whole patient: vitality, frailty, cooperation and behaviour, and **lung function**, because the patient must cope with some aspiration. Note voice, articulation and stridor. Exclude second primaries in the mouth and assess tongue movement; exclude tonsil and tongue base involvement; examine the neck for nodes. **Laryngoscopy** is mandatory: the movement of the vocal folds and of the **arytenoids**, supraglottic and subglottic extension, and arytenoid involvement.
+!senior Fold fixed, arytenoid mobile
+Paraglottic invasion usually fixes the vocal fold while the arytenoid still moves, and resecting that arytenoid usually gives a clear margin. A fold fixed **with** a fixed arytenoid usually means the cricoarytenoid joint is invaded, and resection rarely clears it. After radiotherapy the joint may be fixed without tumour in it.
+!!
+## Imaging and preparation
+CT with contrast or MRI with gadolinium is limited for mucosal extent but reliably shows contraindications such as extralaryngeal spread. **PET-CT** is most useful in restaging recurrence after radiotherapy, for nodes and distant disease. Arrange medical and oncology review, review the imaging, obtain consent **including for total laryngectomy**, involve speech and swallowing therapy, and plan an examination with **mapping biopsies** under anaesthesia: it may show subglottic extension missed on imaging, a contraindication. Confirm outside pathology. Pan-endoscopy may be done as a separate stage or just before the open operation.
+!senior Choose total laryngectomy for some
+For a patient with active mental illness, substance abuse or poor motivation, recovery from supracricoid laryngectomy is too demanding. Total laryngectomy usually lets them eat within weeks, and some patients prefer a free diet to a lung-powered voice.
+!!
+
+# Anatomy you must see | The unit you must keep.
+## The cricoarytenoid unit
+The residual larynx works only if **at least one cricoarytenoid unit** survives: the arytenoid, its joint and its recurrent laryngeal nerve supply. It swings forward against the epiglottis or tongue base when the patient swallows, closing the airway. Resecting both arytenoids means total laryngectomy.
+## The recurrent laryngeal nerve and the cricothyroid joint
+The **recurrent laryngeal nerve** lies immediately **posterior to the cricothyroid articulation**, which cannot be seen until the cricopharyngeus and inferior constrictor are released from the posterior thyroid lamina and inferior cornu. It is at risk when the joint is disarticulated.
+!mf 1 | The right side of the thyroid cartilage and trachea: the inferior constrictor and cricopharyngeus must be released from the posterior lamina and inferior cornu to expose the cricothyroid joint, with the recurrent laryngeal nerve just behind it.
+## The superior laryngeal nerve
+The external and internal branches relate to the **thyrohyoid membrane**. For glottic cancer, entering the larynx through the membrane **below the internal branch** preserves sensation to the remaining epiglottis and helps swallowing.
+
+# The operation, stage by stage | Expose, enter, resect, pexy.
+## Map, then open
+After pan-endoscopy and mapping, make an **apron incision centred on the cricoid** and raise subplatysmal flaps to 1 cm above the hyoid. Do neck dissections as indicated. Separate the straps in the midline; divide sternohyoid and omohyoid at the upper edge of the thyroid laminae and sternothyroid over the cartilage, and retract the strap flaps laterally. **Keep the straps**: they reinforce the pexy and separate the tracheostomy from the neck.
+## Free the thyroid cartilage
+Divide the thyroid isthmus and dissect the lobes off the trachea, keeping the superior thyroid pedicle. Finger-dissect the pretracheal plane down to the **carina**. Release the inferior constrictors from the posterior thyroid cartilage and divide the superior cornua at their bases to help delivery. Mobilise the pyriform mucosa from the inner laminae.
+## Disarticulate the cricothyroid joint
+Divide the joint sharply with a No. 15 blade angled **medially and superiorly, just under the inferior cornu**, to keep the recurrent laryngeal supply to the cricoarytenoid units.
+!danger The recurrent laryngeal nerve
+It sits just behind the joint. A blade angled outward or downward cuts it, and with it the function of the unit you came to save.
+!!
+## Inspect the subglottis
+Incise the cricothyroid membrane along the cricoid and look below. Cancer may reach the level of the cricoid but **not below it**; subglottic extension rules out the operation. Frozen section margins must be clear. Pass the tube through the cricothyrotomy.
+## Entry for CHEP: through the pre-epiglottic space
+For glottic cancer with little supraglottic extension, start an incision just above the thyroid notch and carry it through the **pre-epiglottic space**; a Deaver retractor in the mouth against the infrahyoid epiglottis keeps you oriented. Cut through the infrahyoid epiglottic cartilage and enter the airway through the **petiole**, then extend the opening laterally on the less involved side behind the top of the thyroid cartilage.
+!mf 2 | For carcinoma with minimal supraglottic involvement, entry through the pre-epiglottic space: an incision from just above the thyroid notch, through the infrahyoid epiglottis, into the larynx with the glottis in view.
+## Resect
+Carry the cut down to the cricothyrotomy through the aryepiglottic fold and the back of the false and true folds, **just in front of the arytenoid**. Once the upper and lower openings meet, fracture the thyroid cartilage vertically at the notch and open the larynx like a book; make the final cuts under direct vision and resect the paraglottic space. The opposite arytenoid may be taken if necessary, but keep the mucosa over the **posterior commissure and interarytenoid** region, or the arytenoid fixes and the glottis stenoses.
+!mf 3 | View from the head of the table after dividing the infrahyoid epiglottis: cuts just in front of the arytenoid, through the aryepiglottic fold and false and true folds, with cancer at the anterior commissure.
+!danger Dislocating the arytenoid
+An arytenoid dislocated during the resection cannot be saved. Cut in front of it and handle it gently.
+!!
+## Reposition the arytenoids
+With clear frozen sections, pull the arytenoids **forward** with 4-0 Vicryl. The arytenoid mucosa usually does not reach the anterior cricoid arch, so the sutures are tied as air knots.
+## The pexy
+Impact the cricoid against the hyoid with **three submucosal No. 1 Prolene sutures** on a TP-1 needle. Pass the first in the midline, submucosally under the cricoid, around the hyoid, under the epiglottis and the tongue base mucosa; place two more **1 cm either side of the midline**, avoiding the hypoglossal nerves, and tie them securely, snug enough to hold but not so tight as to crack the cricoid, which is fragile, especially after radiotherapy.
+!mf 4 | Reconstruction: cricohyoidopexy with three submucosal sutures around the hyoid and cricoid.
+!danger The pexy sutures
+Misplaced or wrongly tensioned sutures cause dehiscence or a cricoid fracture; a damaged cricoid leads to infection, rupture of the pexy and usually total laryngectomy.
+!!
+## Supraglottic cancer: CHP
+When the epiglottis and pre-epiglottic space must go, enter the **vallecula** by dissecting immediately below the hyoid, with a Deaver in the vallecula to guide you, instead of entering through the pre-epiglottic space. Make the epiglottic and lower cuts across the aryepiglottic fold and posterior false and true folds as before, removing the pre-epiglottic space with the specimen. The pexy impacts the cricoid and arytenoids against the **tongue base**.
+!mf 5 | View from the head of the table for a CHP: the infrahyoid epiglottis is removed with the specimen, the cuts made just in front of the arytenoid.
+!mf 6 | Infrahyoid dissection with resection of the supraglottis and glottis together with the paraglottic and pre-epiglottic spaces, to be reconstructed by cricohyoidopexy.
+## Tracheostomy and closure
+Only now make a **low tracheostomy** at the level of the neck incision, where it will not pull on the pexy. Advance and secure the skin flaps over the stoma to **isolate the neck from the tracheostoma**. Draw the pyriform mucosa forward with 4-0 Vicryl into a more natural position. **No cricopharyngeal myotomy.** Reinforce the pexy with the strap muscles and close in layers over suction drains.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Margins positive or both arytenoids involved
+Recognise | a positive frozen section that cannot be cleared, or both arytenoids needing resection
+Act | convert to total laryngectomy, as consented
+!!
+!path Tracheostomy tube dislodged in the first days
+Recognise | an emergency: reintubation from above may be very hard (swelling, secretions, a neck that will not extend)
+Prevent | suture and tie the tube for 5 days before the first change
+!!
+## Common errors in technique
+!pit
+- Not saving the strap muscles for the reconstruction.
+- Not saving at least one cricoarytenoid unit.
+- Poorly placed pexy sutures, or the wrong tension on them.
+- A tracheostomy placed where it pulls on the impaction.
+- Not separating the neck from the tracheostoma.
+!!
+
+# Aftercare | The long road to swallowing.
+## After the operation
+Antibiotics for 24 hours, meticulous tracheostomy care, coughing, deep breathing and walking, and speech rehabilitation. Feed by nasogastric tube or temporary gastrostomy. Deflate the cuff the next day and change to an uncuffed tube at the **first tube change**. Falling secretions mean swallowing is returning; once the patient can swallow saliva, start **thickened liquids** and a swallowing programme. Patients are usually decannulated before the feeding tube comes out.
+## Complications
+!table Complications of supracricoid partial laryngectomy
+Complication | Notes
+Subcutaneous air and wound infection | Tracheostomy not sutured to the muscle and skin flaps, letting secretions into the neck
+Dehiscence of the pexy | Poorly placed sutures; may lead to stenosis
+Aspiration pneumonia | Dysphagia is expected; poor pulmonary reserve predisposes; select carefully
+Tracheostomy dislodgement | An emergency; secure the tube for 5 days
+Laryngeal stenosis | After dehiscence or extended arytenoid resection
+Cricoid fracture | Infection and pexy rupture, usually ending in total laryngectomy
+Late | Neck fibrosis and variable dysphagia; most do not need a long-term gastrostomy
+!!
+## Alternatives
+- Total laryngectomy.
+- Radiotherapy or chemoradiotherapy.
+
+# For the examination | What the examiner wants to hear.
+## Outcomes
+Local control after supracricoid laryngectomy is extremely favourable compared with radiotherapy alone, and indications have widened to selected T3 and to recurrence after radiotherapy, with good local control and disease-specific survival in large series. **Salvage:** it works after **narrow field** radiotherapy, but after definitive **wide field** radiotherapy or chemoradiotherapy swallowing is poor and total laryngectomy is recommended. The editor reminds us that total laryngectomy, though it preserves life, carries a permanent stoma and the cost of valves, so conservation surgery should always be considered for suitable patients.
+## Viva essentials
+!exam What the examiner is looking for
+- What is removed and what remains; **CHEP versus CHP**.
+- The cricoarytenoid unit, and why one must survive.
+- Contraindications: fixed arytenoid, subglottic extension, cricoid or hyoid invasion, extralaryngeal spread, wide field radiotherapy, poor lungs.
+- The recurrent laryngeal nerve behind the cricothyroid joint, and how the joint is divided.
+- Entering below the internal branch of the superior laryngeal nerve.
+- Three Prolene pexy sutures; the low tracheostomy; no cricopharyngeal myotomy.
+- Consent for total laryngectomy.
+- The recovery: cuff down, uncuffed tube, thickened fluids, decannulation before the feeding tube.
+!!
+## Common pitfalls
+!pit
+- Offering it to a patient with poor lungs or poor motivation.
+- Missing subglottic extension by not inspecting through the cricothyrotomy.
+- Stripping the posterior commissure mucosa.
+- Overtightening the pexy on an irradiated cricoid.
+!!

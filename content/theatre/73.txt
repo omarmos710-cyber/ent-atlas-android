@@ -1,0 +1,146 @@
+@src Myers, Operative Otolaryngology
+@stand The carotid body tumour is the commonest paraganglioma of the head and neck, a vascular tumour that grows at the carotid bifurcation and splays the internal and external carotids apart. It is diagnosed by imaging, not by biopsy, and its relation to the artery, graded by Shamblin, decides whether it can be peeled off. Shamblin I and II tumours come away in the subadventitial plane, close to the muscular wall of the artery; Shamblin III tumours encase and invade the artery, and trying to peel them causes massive bleeding, so the artery must be resected and grafted by a vascular surgeon. Two other dangers lie outside the tumour: an unsuspected secreting paraganglioma or phaeochromocytoma, which can cause a fatal hypertensive crisis on the table, and the lower cranial nerves, whose loss leaves the patient hoarse and aspirating. This chapter covers diagnosis and the familial form, the catecholamine screen, the Shamblin grades, the subadventitial excision step by step, and the debate about embolisation.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Excision of carotid body tumour
+ | Summary
+Indications | Small, newly found tumours; tumours that are growing, steadily or fast, with or without cranial nerve involvement; tumours causing **neuropathy** (vocal fold or tongue paralysis), usually Shamblin III needing carotid resection and replacement; **secreting** tumours
+Observe instead | The elderly, severe comorbidity, refusal of surgery, or **failure of balloon occlusion testing**; yearly CT if observed
+Shamblin I and II | Excision in the subadventitial plane
+Shamblin III | Resection of the carotid with vein or synthetic graft, by a vascular surgeon
+Anaesthesia | General, usually without paralysis; arterial line for close blood pressure control. Secreting tumours: alpha and beta blockade for several weeks beforehand
+Position | Supine with a shoulder roll
+Antibiotics | Not indicated (clean surgery)
+Tray | Standard head and neck set; vessel loops for nerves and vessels; a vascular surgeon available on the day
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to remove a tumour growing on the main artery in the neck before it grows larger or affects the nerves.
+- **Bleeding**, which can be heavy; rarely the artery must be repaired or replaced with a graft by a vascular surgeon.
+- **Stroke**, especially if the artery has to be resected.
+- **Nerve injury:** hoarseness and swallowing trouble (vagus), tongue weakness (hypoglossal), voice and swallowing changes (superior laryngeal); worse if two nerves are injured.
+- **First bite syndrome:** a short sharp pain near the ear and jaw at the start of meals, usually tolerable, treatable with botulinum toxin.
+- **Blood pressure swings** if both sides are operated on.
+- **Genetics:** if it is the inherited type, other tumours may develop and relatives may need testing.
+!!
+## Before you start
+Most tumours of the **post-styloid parapharyngeal space** are neural, most of those are paragangliomas, and the commonest paraganglioma is the carotid body tumour. Ask about a lateral neck lump; labile or hard-to-control **hypertension**, flushing and palpitations; voice change, dysphagia and tongue weakness; and **tinnitus** on that side from the high flow. Record previous neck surgery, hypertension needing several drugs, phaeochromocytoma, carotid atheroma and TIAs; **familial paragangliomas** and bleeding or clotting disorders; antiplatelet drugs, herbal products and antibiotic allergies.
+
+Examine the neck for a mass on one or both sides and old scars, and the cranial nerves, especially the **vagus and hypoglossal**. Use a flexible scope to check superior and recurrent laryngeal nerve function and vocal fold movement.
+## Imaging
+- **Contrast CT** gives excellent detail: the tumour enhances intensely and **splays** the internal and external carotids (the lyre sign); it may show other paragangliomas. A carotid body tumour sits at the bifurcation, whereas a **glomus vagale** arises behind the carotid, from the vagus.
+- **MRI and MR angiography:** iso- or hypointense to muscle on T1, larger lesions with a **salt and pepper** pattern (slow flow and flow voids), intense gadolinium enhancement; hyperintense and speckled with flow voids on T2.
+- **Transfemoral angiography** remains the gold standard for identifying the tumour and its vascularity. The senior author once found that a presumed carotid body tumour, diagnosed on history, examination and an MR blush, was an **aneurysm of the internal carotid**.
+- **Octreotide or MIBG scintigraphy** is sensitive but not specific: other paragangliomas, other neuroendocrine tumours, lymphoma and Merkel cell carcinoma also take it up. It helps in looking for multiple lesions.
+!mf 2 | (A) A neck mass that grew over 10 years; (B) MRI showing a large carotid body tumour with many flow voids; (C) lateral view, the mass reaching the prevertebral fascia.
+!mf 3 | MR angiography in a 21-year-old woman with bilateral carotid body tumours (arrows).
+!mf 4 | Angiogram of the same patient showing a carotid body tumour.
+!mf 5 | MR angiogram of a neck mass mistaken for a carotid body tumour: transfemoral angiography showed an internal carotid aneurysm.
+## The catecholamine screen
+Every patient with a suspected paraganglioma needs a **24-hour urine for catecholamines** (vanillylmandelic acid) before surgery.
+- **Abnormal:** MRI of the abdomen for a phaeochromocytoma, which must be **removed first** to avoid a potentially fatal intraoperative hypertensive crisis.
+- **Abnormal but no phaeochromocytoma:** assume a rare secreting paraganglioma. Involve the anaesthetist early and plan for a hypertensive crisis, with alpha and beta blockade for several weeks to prevent both the crisis and circulatory collapse after removal.
+## Embolisation and the vascular surgeon
+The authors do **not** embolise most tumours: tumours not encasing the artery come off in the subadventitial plane, and they believe embolisation can provoke inflammation that obliterates that plane. Discuss every case with a **vascular surgeon**, and book the operation for a day when one is available, in case the internal carotid needs a patch or graft.
+
+# Anatomy you must see | The bifurcation and its branches.
+## The Shamblin grades
+- **Type I:** small, easily dissected.
+- **Type II:** medium, more intimately attached to the artery.
+- **Type III:** large, **encasing** and invading the muscular wall of the artery, needing resection and grafting.
+!mf 1 | The Shamblin classification of carotid body tumours, types I to III, with the vagus, hypoglossal and superior laryngeal nerves.
+## Landmarks
+- **The upper border of the thyroid cartilage** is the most reliable surface landmark for the level of the bifurcation.
+- **The internal carotid** rises lateral and posterior to the external and has **no branches** in the neck.
+- **The external carotid** is more medial and has eight branches; the superior thyroid, ascending pharyngeal, lingual, facial and occipital are the five you are most likely to meet.
+- **The vagus, hypoglossal and superior laryngeal nerves** must be found and protected before the tumour is touched.
+## The familial form
+Most tumours are sporadic, but some are inherited (**PGL1**): autosomal dominant, due to mutations in the **SDHD** gene (succinate dehydrogenase, a mitochondrial complex II enzyme) on chromosome **11q23**. Familial tumours are **multiple** (one or both carotid bodies, plus others on unnamed arteries nearby), more often **malignant**, and more often associated with **phaeochromocytoma**. Relatives should have **genetic testing**: a negative test is reassuring; a positive one needs MRI, with removal of any tumour found, and yearly MRI if negative.
+!note Inheritance through the father
+The disease is expressed when the gene comes from the father, whose children each have a 50% chance of inheriting it. The gene passes from mothers too, but because of genomic imprinting it is usually silent in their children. The chapter puts this as a woman being unable to pass the gene on, which is not strictly correct: she can pass it, and her sons can then transmit an active copy to the next generation.
+!!
+
+# The operation, stage by stage | Subadventitial excision.
+## Incision and exposure
+Make an incision in a natural skin crease at the level of the **upper border of the thyroid cartilage**, through the platysma, and raise subplatysmal flaps. Retract the sternomastoid; the submandibular triangle need not be dissected.
+## Find and loop the nerves and vessels
+Open the carotid sheath, dissect the jugular vein free of the carotid, and skeletonise the **vagus and hypoglossal nerves**, placing vessel loops around them for identification and retraction. Skeletonise the **common carotid** and pass a Penrose drain around it for **proximal control**.
+!mf 6 | The operative field: the carotid and the hypoglossal and vagus nerves identified and looped for safety, with the tumour.
+!danger Control before you dissect
+Proximal and distal control of the carotid with loops limits the risk of catastrophic bleeding; careful identification of the nerves before resection keeps the risk of nerve injury low.
+!!
+## Enter the subadventitial plane
+A large venous plexus usually runs down from the bifurcation about halfway to the clavicle. Where the carotid is clear of it, start the **subadventitial dissection** and carry it up to the bifurcation.
+## Divide the external carotid
+Continue up the **external carotid** about 1 to 2 cm above the bifurcation; clamp, divide and ligate it with a silk tie and a suture ligature. Larger tumours extend deep, even to the prevertebral fascia, and without ligating the external carotid it is very hard to reach that deep plane.
+!mf 7 | Subadventitial dissection along the carotid up to the bifurcation, then ligation of the external carotid.
+## Dissect off the internal carotid
+In the same plane, dissect the tumour off the **internal carotid** and remove it. With the nerves and jugular vein identified and retracted, removal is usually clean, safe and nearly bloodless.
+!see What you should see
+- A bare, intact internal carotid with its muscular wall, the external carotid ligated, and the vagus and hypoglossal nerves untouched in their loops.
+!!
+!danger Never peel a Shamblin III tumour
+When the tumour encases the artery and invades its muscular wall, even precise subadventitial dissection opens the wall and causes massive bleeding. Rule out encasement before surgery and plan resection and grafting instead.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Bleeding from the internal carotid
+Control | proximal and distal loops already in place
+Repair | the vascular surgeon repairs it with a patch or graft
+!!
+!path Hypertensive crisis on the table
+Cause | an unrecognised secreting paraganglioma or phaeochromocytoma
+Prevent | 24-hour urine catecholamines in every patient ; remove a phaeochromocytoma first ; alpha and beta blockade for secreting tumours
+!!
+!path Nerve divided
+Hypoglossal | not severe on its own ; repair by neurorrhaphy when possible
+Vagus | assess the paralysed fold ; medialise now or after assessing voice and aspiration ; a paramedian fold may not need it
+Both | expect substantial dysphagia and aspiration
+!!
+## Common errors in technique
+!pit
+- Attempting subadventitial removal of a Shamblin III tumour.
+- Not identifying and preserving the vagus and hypoglossal nerves.
+- Missing a secreting tumour.
+!!
+
+# Aftercare | Pain, pressure and follow-up.
+## After the operation
+**First bite syndrome:** a few seconds of pain around the parotid and jaw, worst with the first bite of the day, from sympathetic denervation when the carotid sheath is violated. Most tolerate it; **botulinum toxin A** into the parotid helps those who do not. After **bilateral** excision, **baroreceptor failure** leaves patients at risk of hypertensive crises when sympathetic drive rises: refer for blood pressure management and give anxiolytics. Most tumours are benign and need no long-term follow-up. **Malignancy** looks the same histologically and is diagnosed by tumour in cervical nodes, invasion of neighbouring structures or distant metastasis; discuss these at a multidisciplinary meeting and follow them long term.
+## Complications
+!table Complications
+Complication | Notes
+Bleeding | The key risk, with injury to nerves while controlling it
+Carotid injury | Patch or graft; avoid peeling Shamblin III tumours
+Hypoglossal injury | Repair when possible
+Vagus injury | Vocal fold paralysis; medialisation if needed
+Combined vagus and hypoglossal injury | Substantial dysphagia and aspiration
+First bite syndrome | Botulinum toxin if troublesome
+Baroreceptor failure | After bilateral excision
+!!
+## Alternatives
+**Definitive radiotherapy** for patients unfit for surgery, or for tumours that grow on CT or cause symptoms such as cranial nerve deficits or hypertension.
+
+# For the examination | What the examiner wants to hear.
+## Should you embolise first?
+Unresolved and never studied prospectively. Guidelines (Moore and colleagues) give no criteria; Litle and colleagues found no benefit for tumours under **5 cm**. Jackson and colleagues' meta-analysis, built from 8 non-randomised quantitative studies out of 2418 screened, found embolisation reduced estimated blood loss by **more than half** (295 tumours) and nearly **halved operative time** (174 tumours). The effect may be large, but only a randomised trial will settle it, and the authors of this chapter avoid embolisation for fear of losing the subadventitial plane.
+## Viva essentials
+!exam What the examiner is looking for
+- The post-styloid space and paragangliomas; carotid body versus glomus vagale versus schwannoma on CT.
+- The lyre sign, salt and pepper MRI, angiography as the gold standard; no biopsy.
+- The **Shamblin** grades and what each means for surgery.
+- **24-hour urine catecholamines** and phaeochromocytoma; alpha and beta blockade.
+- SDHD, paternal transmission and family screening.
+- The subadventitial plane; ligating the external carotid to reach deep tumour.
+- The nerves at risk, and first bite syndrome.
+- The embolisation debate.
+!!
+## Common pitfalls
+!pit
+- Biopsying a neck mass that is a carotid body tumour.
+- Operating without a vascular surgeon available.
+- Forgetting that the tumour may be bilateral or multiple.
+- Mistaking an aneurysm for a tumour.
+!!
