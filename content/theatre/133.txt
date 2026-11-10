@@ -1,0 +1,199 @@
+@src Myers, Operative Otolaryngology
+@stand Stapes surgery bypasses a footplate fixed by otosclerosis: the superstructure is removed, a small opening is made into the vestibule, and a piston carries sound from the incus to the inner ear. When it works, the hearing returns on the table; when it goes wrong, it can take the ear's hearing for good. Few operations reward discipline so directly. The flap must be long enough, the five landmarks must be in view before you touch the stapes, the incudostapedial joint is separated from back to front, a control hole goes into the footplate before the arch is fractured, and nothing is ever sucked over an open vestibule. This chapter covers who should and should not be offered surgery (and why present stapedial reflexes should make you think of superior canal dehiscence), laser stapedotomy with a bucket-handle or crimped piston, the floating footplate and the gusher, and what the evidence does and does not tell us about lasers, grafts and prostheses.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Stapedotomy and stapedectomy for otosclerosis
+ | Summary
+Indications | Progressive conductive loss with **absent stapedial reflexes**; an air-bone gap **over 20 dB in at least three frequencies**; tympanosclerotic footplate fixation; traumatic fracture or subluxation of the footplate
+Contraindications | **A perforation** (and grommets, which must be removed and the drum healed first); a gap under 20 dB; Ménière's disease (relative: more vertigo and sensorineural loss); active external or middle ear disease; **the only or better hearing ear**
+Anaesthesia | Local with sedation (you can test the hearing and hear about vertigo, but the patient may startle and move) or general (easier positioning, no unexpected movement, but no hearing check); decided by mobility and comorbidity
+Position | Supine, head turned away; table tilt, a horseshoe headrest or a bump under the torso and hip when the neck will not turn; pad arms and knees; prepare the other hand's dorsum if a vein graft is planned
+Antibiotics | Not indicated
+Monitoring | No facial monitor; under general anaesthesia avoid long-acting relaxants so the nerve can be stimulated if needed
+Tray | Otological set; stapes curettes, measuring rod, footplate picks; laser and micro drill (such as a Skeeter); crimper; microscope; stapes prostheses
+Success | Air-bone gap closed to **under 10 dB** (Committee on Hearing and Equilibrium)
+!!
+## Consent
+!consent What to tell the patient
+- **Hearing:** surgery may fail to help, and rarely hearing gets worse. In about **1%** the operated ear suffers a severe loss that cannot be corrected.
+- **Mixed loss:** improvement stops at the level of your nerve hearing.
+- **Tinnitus** may be louder afterwards, usually when the hearing is worse; surgery does not usually cure it.
+- **Dizziness** from irritation of the inner ear; some unsteadiness for weeks; rarely severe or prolonged.
+- **Taste disturbance and a dry mouth** are common for a few weeks, prolonged or permanent in about **5%**.
+- **Facial weakness:** rare and usually temporary.
+- **The prosthesis** may be rejected or move, needing another operation.
+- **A hole in the drum**, usually healing by itself.
+- **Infection**, rarely spreading to cause meningitis; a **leak of brain fluid**; meningitis, brain abscess and stroke are now very rare.
+- **Afterwards:** no flying until healed, no heavy lifting or nose blowing; plan time off work if your job involves flying or lifting.
+- **The alternative** is a hearing aid, which you can try first.
+!!
+## Before you start
+Otosclerosis is a disease of the otic capsule with resorption, new bone and new vessels; it fixes the ossicles, usually at the footplate or the incudostapedial joint. Most cases are familial, autosomal dominant with variable penetrance, twice as common in women, with a prevalence of 0.2 to 0.4% and onset usually in the third decade (teens to sixties). It is commonest in white people of European descent, increasingly diagnosed but milder in Japanese and Chinese patients, and found histologically ten times as often as it causes symptoms. Pregnancy can bring it on. The loss is usually conductive, unilateral or bilateral, rarely mixed or purely sensorineural from cochlear disease, often with tinnitus, and it **always progresses**.
+
+Ask about vertigo, especially suggesting **Ménière's disease** or **superior canal dehiscence** (vertigo with loud sound, the Tullio phenomenon); fitness for anaesthesia; alcohol or substance misuse; previous ear surgery (previous stapes surgery worsens hearing outcomes and raises the risk of vertigo); relatives with hearing loss starting in middle age or treated by surgery; anticoagulants (stop about 7 days before); seasonal allergies (time the surgery and treat them); ability to give consent; and a job involving frequent flying or heavy lifting.
+
+The ear usually looks normal. Examine both under the microscope to confirm normal canals and healthy drums and exclude other causes. A faint redness on the promontory (**Schwartze sign**) reflects active, vascular otospongiosis. With 256 and 512 Hz forks, a negative Rinne and a Weber to the worse ear imply a gap of at least 15 dB.
+!senior Reflexes present: think dehiscence
+In early otosclerosis the reflexes may still be present, but present stapedial reflexes with a conductive loss should make you think of **superior canal dehiscence**, a third window. Obtain a CT before operating.
+!!
+## Audiometry and imaging
+- **Air-bone gap:** at least 20 dB before you offer surgery; less, and you manage it conservatively and review later.
+- **Carhart notch:** a dip in bone conduction at 2000 Hz, thought to be from loss of the ossicular chain's resonance. It is suggestive, not diagnostic: effusion and malleus fixation can mimic it.
+- **Imaging** is not needed routinely. CT is indicated when the reflexes are present, to exclude dehiscence. CT may show lucency of the capsule near the oval or round window in active disease, and extensive cochlear demineralisation as the **double ring (halo) sign**, often with a mixed loss. Gadolinium MRI may enhance active foci.
+!mf 1 | Right conductive loss with a dip in bone conduction at 2000 Hz: the Carhart notch.
+!mf 2 | Extensive cochlear demineralisation giving the double ring or halo sign.
+## Preparation
+Check **neck mobility**, which you need to position the head. Check the canal: one that takes a **5 mm speculum** is enough; a narrower canal or a big anterior bulge may need a postauricular approach or a releasing incision at 12 o'clock in the incisura. Always operate on the **poorer hearing ear**, and never on the only hearing ear.
+
+# Anatomy you must see | Five landmarks before the stapes.
+## The five landmarks
+1. The **horizontal segment of the facial nerve**.
+2. The **pyramidal eminence**.
+3. The **promontory**.
+4. The **malleus and the cochleariform process**.
+5. The **round window**, if it can be seen.
+With all five in view, the stapes and the lenticular process of the incus are well enough exposed. Keep the **chorda tympani** in sight throughout.
+!mf 5 | Adequate middle ear exposure: the malleus handle, the facial nerve, the pyramidal process and the round window niche.
+
+# The operation, stage by stage | Laser stapedotomy with a bucket-handle prosthesis.
+## Inject the canal
+Inject 1% lidocaine with 1:100,000 adrenaline, or 2% with 1:50,000, through a 27 G needle, slowly so the skin does not balloon, circumferentially and **finishing with the anterior canal** so blood does not run into the field. Under the microscope you should see the blanch run down onto the drum. Inject even under general anaesthesia, for the vasoconstriction.
+## Make a long enough flap
+Incise at **12 and 6 o'clock** and join the incisions in the posterolateral canal. The flap must be long enough to cover the bone you will remove from the scutum. Elevate it, and lift the annulus **inferiorly** so you do not injure the chorda; identify the chorda.
+!mf 3 | The correct canal incision, which allows enough bone removal and exposure of the ossicular chain.
+!danger A short flap
+If the flap is too short it cannot cover the posterior canal wall once you have curetted the scutum.
+!!
+## Curette the scutum
+Curette the posterosuperior canal wall until the five landmarks are in view, protecting the chorda: leaving a thin lip of bone beside it until the end helps.
+!mf 4 | Curetting the posterosuperior bony canal wall, preserving the chorda tympani.
+## Palpate the chain
+Lift the malleus gently laterally and watch the incus; then press the distal incus and look for compression at the incudostapedial joint or movement of the stapes.
+## Separate the incudostapedial joint
+With a joint knife or angled pick, separate the joint **from posterior to anterior**, so that the stapedius tendon braces the stapes against your pull. Then palpate again to confirm that it is the stapes that is fixed and that the lateral chain moves.
+!mf 6 | Separating the incudostapedial joint while preserving the lenticular process of the incus.
+!danger Cutting the lenticular process
+Feel for the joint space before you cut. The novice assumes the joint is more lateral than it is and cuts through the lenticular process, which matters most when a bucket prosthesis will hang on it.
+!!
+## Harvest a graft if needed
+For a large stapedotomy or a stapedectomy, take soft tissue or a **vein graft** and let it dry. Mark and inject a straight, unbranched vein on the back of the opposite hand, cut through the dermis across its line, spread bluntly with tenotomy scissors along the vein, and tie it off with 4-0 Vicryl or chromic; **1 cm** gives room to spare. Clean off fat and adventitia, thread it over one blade of the scissors, open the lumen and lay it out to dry.
+!mf 7 | Vein graft: (A) a 2 cm transverse incision on the back of the hand; (B) removing connective tissue; (C) opening the vein.
+## Test the laser and make a control hole
+Test the laser on a tongue depressor: it should be focused, aligned with the aiming beam and burning well. Make a small **control hole** in the footplate. It shows you a gusher early, and it gives a hook or pick a way to retrieve the footplate if it floats.
+!mf 8 | Fenestrating the superior central footplate with the laser.
+!senior Why the control hole comes first
+A floating footplate follows down-fracture of the arch when the remaining annular ligament gives way. A hole made before the fracture lets you hook the footplate out with a right-angled pick.
+!!
+## Divide the tendon and the posterior crus
+Divide the stapedius tendon with the laser or Bellucci scissors, then vaporise the **posterior crus** with the laser.
+!mf 9 | Dividing the stapedius tendon.
+!mf 10 | Vaporising the posterior crus with the laser.
+## Down-fracture the superstructure
+With a Rosen pick, fracture the superstructure **inferiorly toward the promontory**, push it down onto the promontory and remove it with cup or alligator forceps.
+!mf 11 | Down-fracturing the stapes superstructure toward the promontory: (A) the surgeon's view; (B) in relation to the facial nerve.
+## Measure
+For the classic bucket-handle prosthesis, measure from the vestibule to the **medial edge of the incus**; if you measure before the stapedotomy, measure from the footplate to the **middle of the incus's thickness**.
+!mf 12 | Measuring from the vestibule to the undersurface of the incus for the Robinson prosthesis.
+## Make the stapedotomy
+Enlarge the control hole by vaporising its edges in a **rosette**, which avoids loose footplate fragments; remove fragments or widen the opening with a footplate pick or rasp.
+!mf 13 | Removing the central area of the footplate.
+!danger Never suck over the vestibule
+Even with blood in the niche, point the suction away from the open vestibule. Suction over the vestibule raises the risk of vertigo and sensorineural hearing loss.
+!!
+## Lay the vein graft
+Trim the graft to clean edges, about **5 × 4 mm**, so it covers the opening completely and drapes onto the facial nerve and promontory. Press its centre down over the hole, to show you where the prosthesis must go.
+!mf 14 | The vein graft over the stapedotomy.
+## Seat the prosthesis
+Hold the posterior lip of the bucket in alligator forceps with the handle below, and set the piston into the dimple in the graft. Rest the bucket against the incus and let go. Steady the incus with a right-angled hook, put a Rosen needle in the well of the bucket and push gently medially, so that the bucket slips under the lenticular process. Lift the handle over the distal incus; if the bail is loose, a small piece of vein over the handle secures it.
+!mf 15 | Placing the Robinson prosthesis two-handed.
+## Check and close
+Check that the prosthesis moves: look for a **round window reflex**. If the patient is awake, test the hearing. Replace the flap carefully with no curled edges, and lay Gelfoam soaked in ofloxacin over the incision.
+!see What you should see
+- A prosthesis seated in the graft and under the lenticular process, moving with the incus, and a round window reflex when you touch the malleus.
+!!
+## A crimped wire piston instead
+Steps up to the measurement are the same. Make the opening **0.1 mm larger than the piston**, set the piston in the fenestra, and crimp the wire or ribbon over the incus with a crimper; a Nitinol piston is tightened by heating its hook with the laser so it curls around the incus. Some surgeons seal the fenestra with a drop of fresh blood or Gelfoam. Check and close as above.
+!danger Crimping
+A loose crimp lets the prosthesis move and erode the long process; an overtight crimp causes necrosis of the long process.
+!!
+!mf 16 | A left ear: a crimp-on prosthesis that has eroded the long process of the incus.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Floating footplate
+Prevent | a control hole before down-fracture
+Retrieve | a right-angled hook through the control hole ; without one, drill a small rescue hole in the promontory edge to engage a large fragment
+Small fragments | leave them: they rarely affect hearing, though they may add positional vertigo
+Do not | make repeated attempts or suck over the vestibule
+Cannot remove it | lay the graft and prosthesis and finish
+!!
+!mf 17 | (A) A small rescue hole for a floating footplate; (B) a fine right-angled pick through it to retrieve the footplate.
+!path Perilymph gusher
+Cause | a widely patent cochlear aqueduct
+Reduce | head up (reverse Trendelenburg) ; some suck until the reservoir in the cerebellopontine cistern is exhausted
+Seal | fascia, fat or vein over the oval window, held by the prosthesis
+Rarely | a lumbar drain afterwards
+!!
+!mf 18 | (A) A gusher of perilymph through the fenestra; (B) head up to relieve it; (C) a piston with an adipose graft sealing it.
+!path Perforation of the drum during surgery
+Small | medial graft tympanoplasty now, and continue
+Large | repair the drum only, and come back for the stapes later, to avoid contaminating the vestibule
+!!
+!path Chorda tympani in the way or injured
+Tortuous and blocking the view | consider dividing it completely
+Divided or injured | lay the ends together at the end ; most patients have temporary taste change for some months
+!!
+## Common errors in technique
+!pit
+- A flap too short to cover the curetted canal wall.
+- Starting without all the landmarks in view.
+- Misidentifying the joint and cutting the lenticular process.
+- Moving the incus too much, which dislocates it.
+- Too loose or too tight a crimp.
+- Suction near the vestibule.
+!!
+
+# Aftercare | Quiet ear, quiet head.
+## After the operation
+Usually a day case; keep frail or immobile older patients overnight. Avoid brisk head movement, straining, heavy lifting and nose blowing, and do not fly until the ear has healed. Remove the packing at **1 to 2 weeks**. Test the hearing at **1 to 3 months**; it may keep improving a little after that. Tell the patient what prosthesis they have and whether it is **MRI-safe**. Low-dose paracetamol with an opioid if needed; no antibiotics.
+## Complications
+!table Complications of stapes surgery
+Complication | Notes
+Drum perforation | Small: graft now; large: repair and stage the stapes
+Chorda tympani injury | Temporary dysgeusia for months; avoid by careful flap, annulus and entry
+Facial nerve injury | Rare; a dehiscent or overhanging nerve can still be managed with careful technique
+Ossicular dislocation | Rough flap elevation or palpation; most often the incus pushed laterally while placing the prosthesis
+Vertigo and sensorineural loss | Rough handling of the stapes, a misplaced prosthesis, or loss of perilymph
+Floating footplate | Prevented by the control hole; see the drill
+Gusher | See the drill
+Reparative granuloma | About 0.1%, at 1 to 6 weeks, with vertigo, sensorineural loss and roaring tinnitus; steroids and antibiotics, or exploration with removal of the granulation, prosthesis and graft
+Prosthesis erosion or extrusion | Crimp problems; rejection
+!!
+## Alternatives
+- **A hearing aid**, which also lets an undecided patient function while deciding.
+- **Sodium fluoride**, and rarely bisphosphonates, for cochlear or progressive disease: without good level 1 evidence, but worth discussing.
+
+# For the examination | What the examiner wants to hear.
+## Stapedotomy, lasers, grafts and prostheses
+**Stapedectomy** strictly means removing the whole footplate; most surgeons now perform a **stapedotomy**, a small fenestra leaving most of it. The authors use a **CO2 laser**: entering the vestibule this way seems less traumatic and less likely to mobilise the footplate than a drill or a pick, and CO2 energy is absorbed by water so it does not penetrate deeply into the vestibule. Systematic reviews suggest lasers bring less sensorineural loss and fewer footplate fractures, though the studies are biased and varied, and no laser type has been shown better than another (Er:YAG and CO2 were similar). Teflon-wire pistons and stainless steel buckets gave similar hearing; a non-randomised study favoured vein grafts, but technique differed between the groups; fat, fascia and vein did equally well. **No method or prosthesis is clearly superior**; the surgeon's familiarity with a technique probably matters most.
+## Viva essentials
+!exam What the examiner is looking for
+- Pathology, genetics and epidemiology; Schwartze sign; the Carhart notch and why it is not diagnostic.
+- Indications (gap over 20 dB at three frequencies, absent reflexes) and contraindications (perforation, only or better hearing ear, Ménière's, active disease).
+- **Reflexes present: exclude superior canal dehiscence with CT.**
+- No imaging is required routinely.
+- The **five landmarks**; the Eustachian tube is not one of them.
+- Joint separation from back to front, and why.
+- The control hole; the floating footplate; the gusher.
+- Never suction over the vestibule.
+- Success: gap under 10 dB.
+!!
+## Common pitfalls
+!pit
+- Operating on the better or only hearing ear.
+- Missing a third window because the reflexes were not checked.
+- Operating with a perforation or a grommet in place.
+- Forgetting to warn a mixed-loss patient of the limits.
+- Chasing small footplate fragments.
+!!

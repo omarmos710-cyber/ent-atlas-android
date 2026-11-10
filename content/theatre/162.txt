@@ -1,0 +1,143 @@
+@src Myers, Operative Otolaryngology
+@stand Free tissue transfer restores form and function where nothing else can: the resected mandible, a large glossectomy, a total pharyngeal defect, a complex midface or skull base defect. Any tissue with a defined vascular supply can in theory be moved, but six flaps do most of the work in the head and neck: the radial forearm, the anterolateral thigh, the scapular and parascapular, the rectus abdominis and its perforator cousin the DIEP, the fibula and the jejunum. The guiding principle is to replace like with like: lining with thin epithelium, bulk and movement with muscle, and the palate and mandible with bone. Success is planned before the first incision (the defect from the tumour stage, the donor site from the examination, the recipient vessels from the neck dissection) and protected afterwards by hourly checks that catch a failing flap while it can still be saved. This chapter covers how to choose a flap for each defect, how each is raised, the errors that lose flaps, and how to monitor them.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Microvascular reconstruction of the head and neck
+ | Summary
+Indications | Mandibular defects (especially anterior); large glossectomy and base of tongue defects; total or near-total pharyngeal defects; maxillectomy and midface defects; skull base defects beyond local flaps
+Contraindications | Expected poor quality of life or very limited survival (which may change the recommendation); severe peripheral vascular disease; no recipient vessels left in the neck after previous surgery
+Anaesthesia | General
+Position | Supine with the bed turned 180 degrees so the resecting and reconstructive teams can work at once; compression stockings on the opposite leg for a fibula, on both legs for a thigh flap; lateral decubitus for scapular and latissimus flaps
+Antibiotics | First-generation cephalosporin for skin defects not open to the mouth or pharynx; ampicillin-sulbactam (or clindamycin in penicillin allergy) for oral and pharyngeal defects
+Tray | Microvascular set and operating microscope; Doppler for perforators and monitoring; craniofacial and mandibular plates; venous coupler; implantable Doppler (optional)
+Recipient vessels | Arteries: facial, superior thyroid, transverse cervical, external carotid. Veins: in zones I and V of the neck, and the external jugular
+Skills | Advanced microvascular training (head and neck or plastic surgery fellowship)
+Flap failure | Should be **well under 5%** in experienced hands
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to rebuild the part removed with tissue moved from elsewhere, with its blood vessels joined under the microscope.
+- **The flap can fail** (under 5% in experienced hands), usually from a clot at the join; a return to theatre may save it, and another flap may be needed.
+- **The donor site:** a scar, a skin graft that may not take, exposed tendon, swelling, weakness or stiffness of the wrist or ankle, a hernia after an abdominal flap, a blood clot in the leg.
+- **A leak of saliva** to the skin (fistula), deep neck infection, narrowing of the throat after pharyngeal reconstruction.
+- **Close monitoring** for several days, with frequent checks of the flap.
+- **Plates and screws** for bone reconstruction, which can later be exposed or break.
+!!
+## Before you start
+Reconstruction begins with planning the resection from the **TNM stage**, and thinking about what both resection and reconstruction will do to the patient's quality of life. Prognosis, dental rehabilitation, the need for radiotherapy and the planned neck dissection affect the choice of flap and recipient vessels.
+
+Cardiac, vascular and pulmonary disease and alcoholism are common in these patients, and may shorten survival and narrow the choices. **Previous radiotherapy** causes fibrosis, especially around vessels, which favours a pedicled or free flap over a skin graft. Previous surgery (an open abdomen, fixation of a radius or tibia) may rule out a donor site.
+!table Before you raise each flap
+Flap | Check
+Radial forearm | **Allen test**, to make sure the hand will survive
+Rectus, iliac crest, jejunum | An existing abdominal wall hernia
+Fibula | Palpable **dorsalis pedis and posterior tibial pulses**
+Anterolateral thigh | The thickness of the thigh, to judge suitability
+!!
+Image the tumour with CT and/or MRI. Pre-bent plates and CT-guided cutting templates can be made before surgery for bony flaps. Whether the leg vessels must be imaged before a fibula is **controversial**: large series without imaging report no harm, but peripheral vascular disease is common in these patients; ankle-brachial index and colour Doppler are cheaper and quicker than angiography or MR angiography.
+## Preparation
+- Plan for a **second or back-up flap**, free or pedicled, and protect a limb from venepuncture.
+- Make sure the **margins are clear** before finalising the flap design.
+- Decide on the likely recipient vessels; if the neck has none, be ready for **vein grafts** from a limb.
+
+# Anatomy you must see | Choosing the flap for the defect.
+## The mandible
+How much a mandibular resection disables the patient depends on the mouth before surgery (and whether useful teeth remain), how much bone goes, whether the defect is **anterior or lateral**, and the soft tissue removed. With a large soft tissue loss the bone may be "incidental": closing the soft tissue and covering the reconstruction come first.
+- **Lateral defects:** some patients function without continuity, but the face loses its lower contour and the opposite muscles pull the remaining mandible across, causing malocclusion in the dentate. Most surgeons therefore offer primary reconstruction with an osseous free flap (fibula or osteocutaneous radial forearm). A **plate with soft tissue cover** (pectoralis or a soft tissue free flap) has been used too, but delayed failure from plate exposure or fracture is **7 to 30%** with pectoralis cover alone, and would be higher if more patients lived beyond three years (three-year survival in that group was 11%).
+- **Anterior defects:** without reconstruction the segments collapse to the midline, giving the **Andy Gump deformity** with drooling and disfigurement. A composite osteocutaneous free flap is the method of choice.
+!mf 1 | Osteocutaneous radial forearm flap for a lateral mandibular defect: (A) lateral mandible and floor of mouth defect after resection of a T4 carcinoma; (B) design with the radius, skin paddle, cephalic vein and radial artery marked.
+!mf 2 | Scapular fasciocutaneous flap: (A) composite resection of the lateral mandible, floor of mouth and cheek skin; (B) continuity restored with a plate; (C) flap design; (D) inset with a de-epithelialised strip giving two paddles, for cheek skin and floor of mouth.
+## The tongue
+A reinnervated, unidirectional muscle such as the rectus cannot imitate the tongue. The realistic goals are to **keep the remaining tongue mobile** and to **restore bulk** so the neotongue meets the palate for speech and swallowing. The **mobile tongue** (articulation, chewing, the oral phase) needs thin, pliable, possibly sensate tissue: radial forearm or anterolateral thigh. The **base of tongue** (the pharyngeal phase) needs **volume** so it can meet the pharyngeal wall and drive the bolus. A segmental mandibulectomy with a glossectomy may need two flaps, such as a thigh (or forearm, rectus or pectoralis) flap with a fibula.
+!mf 3 | Near-total mandibulectomy and total glossectomy: (A) the defect; (B) fibula design with skin perforators marked; (C, D) a pectoralis flap for the posterior tongue; (E) closing wedge osteotomies; (F) fibula inset; (G) a saphenous vein graft into the internal jugular stump, both internal jugulars having been ligated; (H, I) final inset.
+## The pharynx
+The aim is to restore swallowing, with a flap **not too bulky** to obstruct. The main options are the anterolateral thigh, the radial forearm and the jejunum. Keeping the larynx with a large pharyngeal defect is especially hard because aspiration is inevitable, and whether aspiration can be minimised may decide whether a laryngectomy is needed; in most advanced cancers the larynx is removed. If the oesophageal resection goes below the thoracic inlet, a **gastric pull-up** remains the most reliable way to avoid a salivary leak in the chest.
+!mf 4 | Anterolateral thigh flap: (A) design over the perforator; (B) total pharyngeal reconstruction, with fascia lata wrapped around it as an extra layer.
+!mf 5 | Total pharyngeal reconstruction with a radial forearm flap harvested with a monitoring paddle.
+## Midface and skull base
+Midface reconstruction may need the palate, orbit, cheek and bony midface rebuilt separately. In the Cordeiro and Santamaria algorithm, palatal defects were closed with soft tissue, and the zygoma, maxilla and orbital floor rebuilt with non-vascularised (rib, calvarium) or vascularised bone (osteocutaneous radial forearm), using temporalis and soft tissue free flaps for bulk. A **fibula** in the midface allows osseointegrated implants; the thigh flap can carry several paddles on separate perforators; an **Abbe flap** can restore oral competence when the lip is resected too. At the skull base, small defects should be closed with local flaps (pericranial, temporoparietal fascia), but many need a free flap (rectus, anterolateral thigh, latissimus, serratus) to separate the cranial cavity from the upper aerodigestive tract, fill dead space, cover vital structures, prevent brain herniation and CSF leak, and restore appearance.
+
+# The operation, stage by stage | Raising the six flaps.
+## Radial forearm flap
+A fasciocutaneous flap on branches of the **radial artery** and its venae comitantes in the septum between brachioradialis and flexor carpi radialis. Its strength is a large area of **thin skin** for lining and external skin. The antebrachial cutaneous nerves can be included to make it sensate. A segment of **radius** up to about **10 cm**, between the insertions of pronator teres and brachioradialis, can come with it, supplied through the lateral septum and perforators through flexor pollicis longus. Use a **boat-shaped** osteotomy rather than right-angled cuts, and keep the periosteum on the volar and radial surfaces; one or two osteotomies from the medullary side can shape the bone for a symphyseal or parasymphyseal defect. It restores the forward projection of the anterior mandible but not its height, and the bone is usually too thin for implants.
+!danger Fracture of the radius
+The text advises taking no more than **30% of the cross-section** of the radius; the list of errors warns that taking more than **40%** risks a pathological fracture and advises prophylactic plating. Take as little as the defect needs.
+!!
+## Anterolateral thigh flap
+The commonest flap in head and neck reconstruction: a **perforator flap** from the **descending branch of the lateral circumflex femoral artery**. It has a long pedicle (8 to 16 cm) of good calibre, can include vastus lateralis, rectus femoris or tensor fasciae latae, or be made sensate with the lateral cutaneous nerve of the thigh, and can be raised while the tumour is being removed. Widen or lengthen it with several perforators, or supercharge it with vessels from the medial, superior or posterolateral thigh. Other thigh flaps (medial thigh, tensor fasciae latae) are alternatives.
+## Raising the thigh flap
+Mark the midpoint of a line from the **anterior superior iliac spine to the superolateral corner of the patella**, and draw a circle of **3 cm radius** around it: most perforators lie in its **inferolateral quadrant**. Find them with a pencil Doppler and centre the flap over them with its long axis along the thigh. Raise skin and fat until the perforator is seen, then follow it to the main pedicle: through vastus lateralis if it is musculocutaneous (most patients), or between vastus lateralis and rectus femoris if septocutaneous. A donor defect **under 9 cm wide closes primarily** without reported compartment syndrome; wider needs a graft. In heavier patients it is thick, but it can be thinned to the subdermal fat (about 4 mm). Quadriceps function is near normal even when vastus lateralis is taken.
+!see What you should see
+- A perforator traced to the descending branch, with the flap centred over the inferolateral quadrant of the circle.
+!!
+## Scapular and parascapular flaps
+The **circumflex scapular artery** gives a horizontal branch (scapular flap) and a descending branch (parascapular flap). Up to **14 cm** of the lateral border of the scapula can be taken on its periosteal branches, and, uniquely, the bone and two skin paddles can be **oriented independently** for complex three-dimensional defects. Latissimus dorsi and serratus anterior can be added on the common subscapular pedicle. Drawbacks: the lateral position, thin bone that may not hold implants, and a segmental periosteal supply that multiple osteotomies for an anterior defect may compromise.
+## Rectus abdominis and DIEP flaps
+The rectus musculocutaneous flap is based on **periumbilical perforators** from the deep inferior epigastric vessels, so the paddle can point almost any way from the midline. After finding the perforators, open the anterior sheath medial to the linea semilunaris and lateral to the linea alba; **do not take anterior sheath below the arcuate line**, to keep the abdominal wall strong. Free the muscle from the posterior sheath, and follow the pedicle (up to 15 cm) to the external iliac vessels. A **DIEP flap** takes only the skin and its perforator, dissected through the muscle, preserving the abdominal wall. Close the fascia directly. Losing one rectus matters little except to the very active.
+!danger A short pedicle
+The rectus pedicle may not reach the neck, especially when the mandible is intact. Plan the paddle carefully and dissect the pedicle out of the muscle for length.
+!!
+## Fibula flap
+The **first choice for the mandible**, as bone alone, with skin or with muscle. It gives up to **26 cm** of bone on the **peroneal artery** and its two venae comitantes, with both endosteal and periosteal supply, so it survives multiple osteotomies, and its cross-section suits **osseointegrated implants**. The lateral calf skin is supplied by septocutaneous perforators in the posterior crural septum (between soleus and gastrocnemius behind and the peronei in front), and sometimes by musculocutaneous perforators through flexor hallucis longus and soleus. Its weaknesses are a height mismatch with the native mandible, which a **double-barrel** fold can correct, and little soft tissue for large glossectomy or through-and-through defects, which a second flap (thigh or pectoralis) supplies. Most patients lose a little ankle movement and strength; taking flexor hallucis longus loses great toe movement; daily activities are rarely affected.
+!danger Peripheral vascular disease
+Even with three-vessel run-off, a patient with an ankle-brachial index under 1.0 may heal the fibula donor site slowly.
+!!
+## Jejunal flap
+The first free flap reported, in 1959, now partly replaced by fasciocutaneous flaps. Used as a tube or a patch, it matches the oesophagus in diameter, may show peristalsis and secretes. Drawbacks are abdominal complications in up to **5.8%** and wetter, less distinct tracheo-oesophageal speech. General surgeons usually harvest it, sometimes laparoscopically and at the same time as the resection; no bowel preparation is needed. A single jejunal vessel from the superior mesenteric artery feeding several arcades can supply a long segment. If the base of tongue end is too wide, open the antimesenteric border. Inset the **base of tongue end first**, then the anastomosis; once perfused the jejunum expands, so trim the redundancy before joining it to the oesophagus, or it folds and blocks the bolus.
+!danger Ischaemia of the jejunum
+The jejunum suffers irreversible ischaemia within about **2 hours**. Divide its vessels only when the defect and recipient vessels are ready for the anastomosis.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path The flap looks wrong
+Venous congestion | bluish, warm, swollen, quick dark bleeding on pinprick
+Arterial compromise | pale, cool, slow or no bright red bleeding on pinprick
+Either | back to theatre at once to explore the anastomoses and pedicle
+Leeches | only after the anastomoses and pedicle have been explored and found sound
+!!
+!mf 6 | Venous outflow obstruction on day 1 in the patient of figure 3: (A) congested fibula paddle with bluish blood on pinprick; (B) clotted saphenous graft and internal jugular; (C) clots in the venae comitantes cleared with a No. 3 Fogarty catheter.
+## Common errors in technique
+!pit
+- A rectus pedicle too short for the neck.
+- Taking too much radius (over 40%) without prophylactic plating.
+- Dividing the jejunal vessels before the recipient site is ready.
+- Missing venous congestion, which ends in total flap loss.
+- Using leeches before exploring the anastomosis.
+!!
+
+# Aftercare | Watch the flap.
+## Monitoring
+Clinical examination remains the most reliable monitor: the authors have nurses check every flap, with a Doppler on the pedicle, **every hour for 72 hours**, and a doctor every 6 hours. Look at colour, turgor, temperature, swelling, the amount and colour of bleeding on pinprick, and the Doppler sound: the **arterial signal should strengthen** over the following days and the **venous signal should augment**. A buried flap, as in the pharynx, can carry a small **monitor paddle** in the neck skin closure, removed later under local anaesthesia. Implantable Dopplers are also available.
+## Complications
+!table Complications
+Complication | Notes
+Flap failure | Thrombosis at an anastomosis, a kinked vessel, or a design beyond the perforator's territory (partial skin necrosis)
+Fistula and deep neck infection | Oro- or pharyngocutaneous
+Pharyngeal stenosis | After pharyngeal reconstruction
+Donor site | Exposed tendon, failed skin graft, hernia, limb swelling, DVT, reduced wrist or ankle movement
+Plate failure | Exposure or fracture with soft tissue cover alone
+!!
+
+# For the examination | What the examiner wants to hear.
+## Partial or circumferential pharyngeal defect?
+When a strip of hypopharyngeal mucosa remains after total laryngopharyngectomy, keeping it may reduce stenosis, but the extra suture lines may raise the fistula risk compared with a tubed flap. For circumferential defects the **jejunum** has been the most reliable: it needs no tubing, so one less suture line, and most studies show stenosis and fistula rates lower than or equal to tubed skin flaps. The main alternative, the **tubed radial forearm**, avoids the abdomen, gives better tracheo-oesophageal speech and can provide separate neck skin paddles; a Montgomery stent may lower fistula and stenosis. The thigh flap can add a fascia lata layer around the neopharynx.
+## Viva essentials
+!exam What the examiner is looking for
+- Like with like: epithelium for lining, muscle for bulk, bone for bone.
+- The six workhorse flaps, their pedicles and lengths: radius about 10 cm, scapula 14 cm, fibula 26 cm; thigh pedicle 8 to 16 cm, rectus up to 15 cm.
+- **Fibula first for the mandible**; why the anterior mandible must be rebuilt (Andy Gump).
+- Locating thigh perforators: the ASIS-patella midpoint, 3 cm circle, inferolateral quadrant.
+- Tongue goals: mobility for the front, bulk for the base.
+- The pre-harvest checks: Allen test, foot pulses, hernia, thigh thickness.
+- Signs of venous versus arterial failure, and why you return to theatre.
+- A perforator flap: the anterolateral thigh and the DIEP.
+!!
+## Common pitfalls
+!pit
+- Designing the flap before the margins are clear.
+- Forgetting a back-up flap and a protected limb.
+- A flap too bulky for the pharynx.
+- Infrequent monitoring.
+!!
