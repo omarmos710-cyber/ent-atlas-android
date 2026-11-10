@@ -1,0 +1,178 @@
+@src Myers, Operative Otolaryngology
+@stand Ossicular chain reconstruction rebuilds a mobile bridge from the drum, a graft or the malleus, across an aerated middle ear, to the stapes, the footplate or the vestibule. You will rarely know before you lift the flap exactly what is missing, so you must be ready for every combination: a fixed malleus, an eroded incus, a partial stapes, a bare footplate or an open vestibule. The tools are few (the patient's own incus, cortical bone or cartilage, and partial or total prostheses), and the rules that make them work are fewer still. The construct must be in slight tension under the drum, it must not touch the bony annulus or the promontory, and it must suit where the drum will finally rest. Above all, the result depends more on the health of the middle ear and the Eustachian tube than on the material you choose. This chapter covers the Wullstein and Farrior classifications, assessment, the flap that exposes the whole chain, reconstruction for each missing link, when to stage, and what counts as success.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Ossicular chain reconstruction
+ | Summary
+Indications | Conductive loss of known or suspected ossicular cause (erosion, fixation, dislocation, fracture, after trauma, chronic otitis media, cholesteatoma, tympanosclerosis, congenital anomaly, middle ear tumour); a chain that must be disarticulated to reach other disease; an extruding prosthesis from previous surgery; a large mixed loss, to bring hearing within reach of an aid
+Contraindications | An **only hearing ear**; conductive loss from tumour or infection involving the dura or brain; a contracted, poorly aerated middle ear where reconstruction will not help; a small air-bone gap in revision surgery; medical comorbidity
+Anaesthesia | Usually general; monitored anaesthesia care for a compliant patient with an experienced team, and for minor adjustment or replacement of a prosthesis
+Position | Supine, head turned away; table and microscope set so you sit comfortably with relaxed, not outstretched, arms
+Antibiotics | Routine: cefazolin; clindamycin in penicillin allergy
+Monitoring | Facial nerve monitoring not routine, unless combined with mastoidectomy or atresia repair
+Tray | Binocular microscope; complete middle ear and mastoid set; monopolar and bipolar diathermy; micro drill; a full stock of prostheses and a sizing set
+Skills | Microscopic otoscopy; temporal bone anatomy; tympanoplasty; stapedectomy and stapedotomy
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to rebuild the chain of hearing bones so that sound reaches the inner ear.
+- **Hearing may not improve,** may worsen, and rarely the ear may lose its hearing; tinnitus and dizziness.
+- **A second operation** may be planned (staging), or needed later for a prosthesis that moves or extrudes.
+- **Taste change** on that side of the tongue.
+- **Facial weakness:** rare.
+- **A hole in the drum,** infection, a leak of fluid from the inner ear or of brain fluid, narrowing of the ear canal.
+- **Success** still allows a small residual gap; a hearing aid may still be wanted.
+!!
+## Before you start
+Ask about risk factors: previous surgery, Eustachian tube dysfunction, trauma, inflammatory or granulomatous disease, congenital anomaly, cholesteatoma, middle ear tumour and tympanosclerosis. Characterise the loss: sudden or gradual and in what circumstances, stable or worsening, constant or fluctuating, and its type and degree. Ask about tinnitus, fullness, distortion, pain, discharge, infection, vertigo and imbalance, and about **autophony and the Tullio phenomenon**. Take the otological past (perforation, grommets, otitis externa or media, cholesteatoma), autoimmune or granulomatous disease, nasal disease that impairs the tube, previous operations (get the notes if you can; with past cholesteatoma think of recurrence; a previous canal wall down operation can leave the facial nerve exposed), the family history and smoking, which impairs ventilation and healing.
+
+Examine **both ears** with the binocular microscope: the opposite ear predicts how well this one will do when the Eustachian tube is poor. Use pneumatic otoscopy on both drums; reduced movement of the malleus suggests lateral chain fixation, though it is usually found at exploration. Test with 256, 512 and sometimes 1024 Hz forks. Obtain bilateral air and bone conduction audiometry with speech reception and recorded word discrimination.
+!senior Not every conductive loss is ossicular
+A conductive loss can arise in the inner ear. A **third window**, such as superior canal dehiscence, lets the inner ear fluid wave escape, giving a conductive loss with the acoustic reflexes still present. Ear canal obstruction and early Ménière's disease can also do it. A patient with an intact drum, no ear disease and a progressive conductive loss most likely has otosclerosis.
+!!
+Image with fine-cut (0.6 mm) axial CT of the temporal bone with coronal and sagittal reconstructions: the otic capsule, ossicles, aeration and erosion. MRI shows dura, brain and CSF, and diffusion-weighted imaging helps diagnose cholesteatoma in difficult cases. Treat inflammation of the canal or middle ear first, sometimes with a few weeks of topical and systemic antibiotics. Review the notes, images and earlier operation reports, make sure the prostheses you may need are in theatre, obtain medical clearance and stop anticoagulants if you can.
+
+# Anatomy you must see | Landmarks and the language of repair.
+## Landmarks
+The bony-cartilaginous junction of the canal; the annulus; the pars tensa and pars flaccida; the chorda tympani; the ossicles or any existing prosthesis; the horizontal facial nerve; the round and oval windows; the **jugular bulb** (beware a high or dehiscent one); the pyramidal eminence; and the cochleariform process.
+## The Wullstein classification
+!mf 1 | Wullstein's five types of tympanoplasty.
+Each type is named by the most lateral intact structure still connected to the inner ear on which the drum or chain is rebuilt.
+- **Type I:** all three ossicles present and mobile; no reconstruction.
+- **Type II:** drum grafted onto an intact incus and stapes; rarely needed.
+- **Type III:** drum or graft directly on a mobile stapes superstructure.
+- **Type IV:** drum or graft on a mobile footplate, the superstructure gone.
+- **Type V:** fenestration of the horizontal canal; no longer used.
+## Farrior's modification
+Farrior based the type on the anatomy at the end of surgery. **Type III** restores continuity from the stapes to the drum or malleus by interposing a sculpted ossicle, bone or a synthetic material. **Type IV** reconstructs from a mobile footplate to the malleus, drum, graft or, rarely, incus. **Type Va** is a true fenestration; **type Vb** means a fixed or absent footplate, the vestibule sealed with tissue and continuity restored from the oval window. Stapedectomy is technically a Vb, though the term is not used for otosclerosis.
+## Partial and total prostheses
+- **PORP (partial ossicular replacement prosthesis):** from the stapes superstructure to the drum, graft or malleus; also called an incus replacement prosthesis.
+- **TORP (total ossicular replacement prosthesis):** from the footplate or a grafted oval window to the malleus, drum or graft; also called an incus-stapes replacement prosthesis.
+- **Incus interposition** with the patient's own incus is the commonest type III. **Stapes augmentation** raises the stapes above the fallopian canal in a canal wall down cavity without a malleus.
+## The rules of a working construct
+- **Slight tension:** the prosthesis should not only touch the drum but tent it very slightly. Too short and it falls or moves; too long, or with a poor tube, and it extrudes.
+- **No contact with bone:** it must not touch the tympanic ring or the bony canal, nor rest on the promontory. Contact damps vibration.
+- **A precise connection** from the drum, graft or malleus to the stapes, footplate or vestibule.
+- **Anticipate the drum's final resting place,** and that the patient will be upright: you build lying flat with the ear facing the ceiling.
+!mf 2 | A hydroxylapatite partial prosthesis touching the drum, which is very slightly tented over it.
+
+# The operation, stage by stage | Expose the chain, then rebuild what is missing.
+## Raise a flap that shows everything
+Graft the drum by your usual technique (see the tympanoplasty chapter). Because the state of the chain is often unknown beforehand, make the tympanomeatal flap with its **superior limb above the pars flaccida, about 5 mm from the posterosuperior annulus**. That lets you remove bone to expose the neck of the malleus, the body of the incus and the whole footplate, and to extract the incus if you must.
+!see What you should see
+- The neck of the malleus, the incus body and long process, the stapes and its footplate, the chorda tympani and the round window.
+!!
+## Palpate every link
+Inspect and gently palpate the drum and every ossicle. Myringosclerosis and tympanosclerosis, alone or together, can cause the loss; lateral chain fixation is easily missed.
+!danger Lateral chain fixation
+Normal mobility of the malleus and incus must be confirmed by palpation: an inexperienced surgeon misses lateral chain fixation and reconstructs the wrong link.
+!!
+## A fixed malleus
+Fixation of the malleus and incus, the lateral chain, is uncommon: the malleus head and incus body ankylosed to the scutum, a stiff incudomalleolar joint or a calcified anterior malleolar ligament. Elevate the flap in front of the neck of the malleus and palpate to confirm it is immobile. **Separate the incudostapedial joint,** palpate the stapes again to exclude otosclerosis, then disarticulate the incudomalleolar joint with a curved pick and remove the incus. If the malleus is still fixed, divide its head from the handle at the neck with a 1 mm micro drill: the handle becomes mobile, held by the drum and the tensor tendon. Then interpose the sculpted incus between stapes head and malleus handle, or place a PORP from the stapes to the handle or the drum.
+!mf 4 | The incus body disarticulated from the malleus head and removed with cup forceps.
+## An absent or short malleus handle
+Decide whether enough handle remains. If it is shortened beyond **a third of its length**, closure of the gap suffers unless the prosthesis touches the drum directly. An interposed incus must be tall enough to connect the stapes to the drum, and turning its short process toward the centre of the drum improves transmission. Synthetic prostheses are commoner here: a **PORP** if the superstructure is present, a **TORP** if only a mobile footplate remains.
+!mf 5 | Type III tympanoplasty with a partial prosthesis when the malleus is absent: stapes to the drum or graft.
+## A total perforation and missing ossicles
+Graft the drum and place a TORP from the footplate to the graft. The difficulty is that you do not know where the graft will settle: it may medialise, or less often lateralise, so the right length is uncertain. Consider **staging**: graft the drum with thick (0.04 inch) Silastic sheeting in the middle ear, and reconstruct about **6 months** later.
+## A fractured malleus handle
+Rare. Pneumatic otoscopy may show a hypermobile drum and malleus. Reconstruct with incus interposition or a PORP.
+## An eroded incus: incus interposition
+The incus is the commonest failed link, usually its long and lenticular processes eroded or joined only by fibrous tissue. With a mobile malleus and stapes, interpose the incus. Note the mucosa and how the malleus relates to the stapes: directly lateral, or anterior to its vertical plane. Note the height of the stapes above the promontory and facial nerve, especially in a canal wall down cavity. No cartilage is needed between an incus and the drum.
+!mf 6 | Where the malleus lies relative to the stapes decides how the incus is sculpted: left, the malleus lateral to the stapes; right, both height and anterior span are needed.
+## Remove the incus
+Remove more posterosuperior canal bone if needed. Free remaining attachments to the malleus head with a right-angled hook or curved needle, grasp the proximal long process with cup forceps, and extract it from the attic with a **rotating, downward movement**, without displacing the stapes or injuring the chorda.
+## Sculpt the incus
+Hold it in a fine haemostat or ossicle-holding forceps and shape it with the mastoid drill or a battery micro drill.
+- **Stapes and malleus nearly in one vertical plane:** height is needed. Drill an acetabulum for the stapes head into the **short process**, and a groove for the malleus handle in the articular surface of the body.
+- **Malleus anterior to the stapes:** height and horizontal span are needed. Drill the acetabulum into the **body near the long process**; place it under the handle, then lift and roll the malleus-incus complex onto the stapes. An oval socket can fit over the shoulders of the crura.
+- **A large height to bridge:** a third configuration gains mostly height and some span.
+!mf 7 | Sculpting the incus: (A) for vertical height, (B) some height but mostly horizontal span, (C) mostly height with some span.
+!mf 8 | (A) Interposition gaining some height and mostly span. (B) The sculpted incus with an oval socket that fits snugly over the stapes (arrow). (C) In a left ear, the incus lying over the stapes and medial to the malleus handle, supported by the chorda (arrow).
+## Set the incus in place
+Make sure the undersurface of the short process does not rest on the promontory. Placing the incus above or below the **chorda tympani** gives it extra support.
+## Erosion only at the joint
+When only the incudostapedial joint is eroded, you need not remove the incus: an **Applebaum hydroxylapatite prosthesis** sits on the stapes and supports the remaining long process, or hydroxylapatite bone cement can reattach the long process to the stapes.
+!mf 9 | An Applebaum prosthesis between the stapes and an eroded long process of the incus.
+## A synthetic PORP
+Use a PORP when the incus is unusable, badly eroded or infiltrated by cholesteatoma. Hydroxylapatite heads against the drum and titanium against the stapes are well tolerated. A dense hydroxylapatite head needs no cartilage between it and the drum; **a titanium head does**. Adjustable PORPs can be shortened to fit.
+## The canal wall down cavity
+With the malleus head removed, the stapes must still be connected to the handle, by interposition or prosthesis. The membrane can be grafted directly onto the stapes as Wullstein described, but a prosthesis gives more surface contact. To **augment the stapes**, drill a dome for the superstructure from the incus body, the malleus head, or a small cortical graft from the root of the zygoma or the squamous temporal bone; the concave face of a conchal cartilage graft also works. A PORP or a hydroxylapatite mushroom cap raises the stapes head and broadens its contact with the drum.
+!mf 10 | Reconstruction in a canal wall down cavity: type III tympanoplasty with stapes augmentation, giving the stapes a larger area of contact with the drum or graft.
+## A partly eroded stapes: go to the footplate
+A construct on a partly eroded arch or one crus will probably fail. Reconstruct from the **undersurface of the malleus to the mobile footplate** instead. Measure the distance before you sculpt. An incus may be long enough, using its short or long process to reach the footplate, with a groove in its articular surface to lock onto the medial malleus. With the long process kept, remove the lenticular process and drill the groove on the upper surface. Place it on the footplate between the remaining crura, rotate it into position while lifting the handle, and use the chorda to steady it.
+!mf 11 | Sculpting the incus for a type IV tympanoplasty: (A) the short process flattened, the long process removed and a groove drilled for the malleus handle; (B) the long process flattened, with the notch for the handle on the upper surface.
+## A TORP to the footplate
+A deep, narrow niche often will not take an incus between promontory and facial nerve, so a **TORP** is usually needed; the authors use a dense hydroxylapatite head on an adjustable titanium shaft. Find the length with a **sizing set**. Steady the shaft with wet Gelfoam up to the level of the facial nerve if the handle is present, or around the whole prosthesis up to the drum when it touches the drum directly. Fascia or a footplate shoe can also support the base.
+!mf 12 | Type IV tympanoplasty from the footplate to the malleus with an incus-stapes replacement (total) prosthesis.
+## A fixed footplate
+The commonest cause is otosclerosis (see the otosclerosis chapter). If you find a fixed footplate while repairing a perforation, **stage it**: do not open the vestibule into a possibly contaminated ear. Tympanosclerosis of the footplate is managed the same way when there is a perforation or chronic otitis media: confirm fixation by gently palpating the stapes and watching for a **round window reflex**, repair the drum, and return in **4 to 6 months**. Options then are an aid, mobilisation, removal of the plaque by microdissection, or partial stapedectomy with a prosthesis. If the disease is stable, hearing after mobilisation is similar in the short and long term, so refixation seems unlikely; stapedectomy in a dry, sterile ear is also safe and effective.
+!danger The tympanosclerotic stapes
+Excessive manipulation of a stapes encased in tympanosclerosis can fracture it, pull it out or open the footplate.
+!!
+## An open vestibule
+Cholesteatoma can erode the footplate, and if the vestibule is open, by disease or by accident, reconstruct now. An intact incus is rare with such disease, so reconstruct from the vestibule to the malleus, drum or graft (type Vb). Cover the vestibule with a thin but strong graft: true temporalis fascia, air-dried and cut to about 3 to 4 mm. Seat the shaft in the centre of the graft and the head under the handle or against the grafted drum. A grafted drum may settle more medially under negative middle ear pressure, putting more load on the oval window graft; if the prosthesis might sink into the vestibule, use **perichondrium** from the back of the concha or the tragus instead.
+!mf 13 | Type Vb tympanoplasty with a total prosthesis: the shaft embedded in a graft over the vestibule, the head tenting the grafted drum, with no malleus handle.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Unexpected findings once the flap is up
+Fixed footplate with a perforation | repair the drum and stage the footplate at 4 to 6 months
+Unknown final graft position | stage with Silastic sheeting and reconstruct at about 6 months
+Partly eroded stapes | build to the footplate, not to the remaining crus
+Vestibule opened by disease or accident | seal with fascia or perichondrium and reconstruct now
+!!
+## Common errors in technique
+!pit
+- Missing lateral chain fixation because the malleus and incus were not palpated.
+- A PORP on a partly eroded stapes, which cannot support it.
+- Rough handling of a tympanosclerotic stapes.
+- Too little tension between the prosthesis and the drum or cartilage, so it moves.
+- Removing too much scutum without a cartilage block, inviting attic retraction and cholesteatoma.
+- A prosthesis resting on the promontory or touching the canal wall.
+!!
+
+# Aftercare | Protect the construct.
+## After the operation
+Keep the ear dry. No nose blowing or Valsalva, and no flying or other large pressure changes for several weeks. Limit vigorous head movement; keep children from gymnastics and similar activity. After a type V reconstruction to the vestibule, no heavy lifting.
+## Packing and review
+With an intact drum, pack with Gelfoam or a silk sleeve held by small cotton balls with ointment, removed at **7 to 10 days**. After a lateral graft tympanoplasty, an outer and an inner rosebud pack: remove the outer at 1 week and start drops, the inner a week later, and continue drops twice daily for another week. Review a few weeks later. When the drum is thin, mobile and no longer inflamed, test the hearing. In a type III or IV tympanoplasty, a **residual conductive loss of 15 to 20 dB still counts as success**.
+## Complications
+!table Complications
+Complication | Notes
+Hearing loss | Conductive or sensorineural, temporary or permanent; failure to improve
+Ossicular trauma | Dislocation, a fractured stapes, unresolved conductive loss
+Inner ear trauma | Perilymphatic fistula, sensorineural loss, tinnitus, vertigo and imbalance
+Prosthesis problems | Displacement or extrusion (too long, or a poor Eustachian tube)
+Drum and canal | Perforation, canal stenosis, middle ear infection, cholesteatoma
+Nerves | Altered or lost taste; facial weakness
+Other | Bleeding, infection, pain, CSF leak, revision surgery
+!!
+## Alternatives
+- Regular aural toilet for chronic otitis media with a perforation.
+- A conventional hearing aid or a bone-anchored hearing aid.
+
+# For the examination | What the examiner wants to hear.
+## The evidence
+In a retrospective review of 110 patients, success correlated with the **state of the middle ear**, not with the type of prosthesis or technique. Staging to let the drum settle and the middle ear heal has become more important in chronic otitis media and cholesteatoma, and Eustachian tube function governs the long-term result.
+## Viva essentials
+!exam What the examiner is looking for
+- The **Wullstein** types and **Farrior's** modification.
+- PORP versus TORP, and incus interposition.
+- The rules: slight tension, no bony contact, anticipate the drum's final position.
+- The flap that exposes the whole chain.
+- How to sculpt the incus for each malleus-stapes relationship.
+- Why a partly eroded stapes is bypassed to the footplate.
+- When to **stage**, and how long to wait (about 6 months; 4 to 6 months after drum repair).
+- Cartilage under a titanium head, not under hydroxylapatite.
+- Success: a residual gap of 15 to 20 dB in types III and IV.
+- **Superior canal dehiscence**: a conductive loss with the reflexes present.
+!!
+## Common pitfalls
+!pit
+- Not checking the other ear and the Eustachian tube.
+- Not having the right prostheses in theatre.
+- Opening the vestibule in a wet or contaminated ear.
+- Building for a drum position that will change.
+!!
