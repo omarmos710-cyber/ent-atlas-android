@@ -1,0 +1,148 @@
+@src Myers, Operative Otolaryngology
+@stand Total glossectomy removes the whole tongue, mobile part and base, for advanced cancer, mostly squamous, as primary surgery or as salvage after (chemo)radiotherapy when a partial glossectomy cannot clear it. Many centres treat these cancers with chemoradiotherapy and keep surgery for failure; this chapter's author, Johan Fagan, regards total glossectomy as a good primary treatment if patients are selected carefully and the reconstruction is done to restore function. Two decisions dominate: whether the larynx must go too (if the cancer reaches the pre-epiglottic space or epiglottis, or the patient cannot cope with aspiration), and how to rebuild a mouth with no tongue, with a flap bulky enough to fill the floor of mouth up to the palate, a marginal mandibulectomy to avoid a sump, and the hyoid suspended from the mandible. This chapter covers selection, the assessment of the mandible and nerves, the combined transcervical and transoral resection, the laryngectomy decision, reconstruction and the long recovery of speech and swallowing.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Total glossectomy
+ | Summary
+Indications | Advanced tongue cancer as primary surgery; when partial glossectomy cannot give clear margins; salvage after (chemo)radiotherapy
+Patient bars | Medically unfit; malnourished; cannot give informed consent or face the challenges to speech and swallowing; poor social support; unlikely to complete adjuvant treatment
+Tumour bars | Clear margins unachievable (especially in salvage); distant metastasis
+Surgical bars | Inadequate resecting or reconstructive expertise
+Add a laryngectomy | Cancer in the **pre-epiglottic space or epiglottis**; patient unlikely to tolerate aspiration
+Anaesthesia | **Nasal** intubation with the surgeon present at induction (bulky tumours can make intubation impossible); temporary **tracheostomy** always; nasogastric tube; no paralysis (to protect accessory and marginal nerves); temperature, fluids and haemoglobin optimised for a free flap; urinary catheter and rectal temperature probe
+Position | Supine, neck extended, set up for two teams at once; anaesthetic machine at the foot
+Antibiotics | At induction and for 24 hours: clindamycin, co-amoxiclav, or a cephalosporin with metronidazole
+Tray | Two sets of diathermy; head and neck set; oscillating saw; plates; power drill; tracheostomy tubes; microvascular set, sutures, clips, heparinised saline, loupes or microscope, tourniquet for a fibula
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to remove the whole tongue and the cancer, with the lymph nodes on both sides of the neck, and to rebuild the floor of the mouth.
+- **Speech** will be changed; **eating** will be re-learned with the speech therapist, at first by placing soft food at the back of the mouth.
+- **Aspiration**: food and saliva going into the airway; if the risk is too high, or the cancer reaches the voice box, the voice box will be removed too.
+- **A temporary tracheostomy** and a feeding tube.
+- **Part of the jawbone** will be removed along the top edge (marginal mandibulectomy), and the lower teeth may go.
+- **The flap** may fail, and a second operation may be needed.
+- **Radiotherapy or chemoradiotherapy** afterwards, usually within 6 weeks.
+- You are unlikely to return to full employment.
+!!
+## Before you start
+Ask about smoking, alcohol and HPV; weight loss and nutrition; whether pain is controlled; pointers to a synchronous primary; lung function and aspiration; deficits of the lingual, hypoglossal and mental nerves; dysphonia or stridor (laryngeal spread); previous cancers, radiotherapy, surgery, trauma or claudication (which affect flap choice); heart and lung disease (can the patient climb a flight of stairs?); immunosuppression; alcohol and substance misuse (withdrawal); anticoagulants; and whether the patient has the mental and social resources to cope.
+!senior Can this patient survive the operation and its aftermath?
+Most patients need surgery and then (chemo)radiotherapy, so there is no point operating on someone who will not complete adjuvant treatment. A patient keeping the larynx must have the cardiopulmonary reserve to cope with some aspiration; physical fitness, lung reserve, cognition and attitude all count.
+!!
+Pain, pooling, bleeding and trismus hamper examination; consider giving morphine first. Define the cancer's limits: back to the vallecula and supraglottis, the floor of mouth, the mandible (free, abutting, adherent or invaded), the extrinsic and suprahyoid muscles, and the nerves (lingual: numb anterior tongue and floor of mouth; inferior alveolar: numb mental area; hypoglossal, hard to judge). Assess the **height of the mandible** (a thin mandible may rule out a marginal and need a segmental resection with fibula), the teeth, both necks and old scars, the rest of the upper aerodigestive tract, and donor sites (obesity may rule out thigh and rectus; vein harvest or peripheral vascular disease may rule out the fibula; pectoralis and latissimus remain).
+## The mandible, the nerves and the larynx
+- **Mandible:** if only the periosteum is involved, a **marginal** mandibulectomy may suffice; once the cortex is invaded, **segmental**; once the medulla is invaded, segmental or hemimandibulectomy with at least **2 cm** of bone either side of visible cancer. Orthopantomogram or CT shows gross destruction; MRI is preferred for medullary invasion.
+- **Perineural spread:** a widened inferior alveolar canal on the orthopantomogram, or MRI changes, mean the nerve must be followed and resected proximally until frozen section is clear.
+- **Pre-epiglottic space:** look on sagittal CT or MRI, or in theatre by feeling for thickening between a finger in the vallecula and a finger on the neck just below the hyoid. If in doubt, consent for laryngectomy.
+!mf 1 | A second primary tongue cancer involving the vallecula and epiglottis, needing total glossectomy with laryngectomy.
+!mf 2 | The relations of the hyoid, epiglottis, vallecula and pre-epiglottic space.
+## Imaging and preparation
+Chest radiograph for metastases, lung cancer and cardiopulmonary status; contrast swallow if oesophageal cancer is suspected; orthopantomogram for teeth, bone invasion, mandibular height and the inferior alveolar canal. CT, MRI and PET-CT are not needed in everyone: CT for mandibular or pre-epiglottic involvement or an unclear chest; MRI for extrinsic and suprahyoid muscle invasion, marrow and perineural spread; PET-CT for distant disease. Neck imaging is not needed for nodes because both necks are always dissected. Arrange review by the oncological and reconstructive surgeons, oncologist, speech and swallowing therapist and anaesthetist; book intensive care; stop antiplatelets. Take dental radiographs and refer to a dentist, or remove carious teeth at surgery, to prevent osteoradionecrosis.
+
+# Anatomy you must see | The floor of the mouth.
+## Landmarks
+- **The mylohyoid line:** the attachment of mylohyoid, the floor of the mouth; mylohyoid and its attachment are resected for clearance.
+- **The genial tubercles:** genioglossus inserts on the superior, geniohyoid on the inferior.
+- **The anterior belly of digastric** insertion.
+- **The sublingual glands** between the submandibular duct and the mandible.
+- **The lingual arteries,** emerging behind hyoglossus to enter the tongue posterolaterally.
+- **The pre-epiglottic space and hyoid.**
+- **The superior laryngeal nerves** crossing the thyrohyoid membrane.
+- **The mental nerves** at the mental foramina, at risk in the edentulous elderly.
+!mf 3 | The mylohyoid line and the attachments of genioglossus and geniohyoid to the genial tubercles, and of digastric.
+
+# The operation, stage by stage | Transcervical and transoral.
+## Secure the airway
+Stand by at induction: if the tongue cannot be lifted to see the larynx, fibreoptic intubation may be needed, and failing that intubation through an operating laryngoscope, an emergency tracheostomy or cricothyroidotomy. A **temporary tracheostomy** is always done, because bleeding, swelling, a bulky flap and loss of the larynx's anterior suspension threaten the airway.
+## Endoscopy and reassessment
+Perform panendoscopy for synchronous cancers, and reassess the primary (especially its posterior and lateral limits) and the necks.
+## Neck dissections
+Open both necks. Advanced tongue cancer is very likely to have nodal disease, so perform bilateral selective (levels I to IV) or comprehensive dissections, completed **before** resecting the primary. The author combines transcervical and transoral approaches; others use a midline lip split with a median or paramedian mandibulotomy.
+!mf 4 | The skin incisions on both sides of the neck.
+!mf 5 | Exposure after bilateral selective neck dissections: mandibular periosteum, anterior belly of digastric, mylohyoid, hypoglossal nerve and hyoid.
+## The cervical dissection
+Incise the periosteum along the **lower border of the mandible from angle to angle**, divide the anterior bellies of digastric and mylohyoid with diathermy, and free them from the bone. Strip the soft tissue off the inner mandible subperiosteally; if the cancer reaches the lateral floor of mouth, strip up to the mylohyoid line. Free geniohyoid from the inferior mental spine.
+!mf 6 | Incising the periosteum along the lower border of the mandible (yellow) and dividing the anterior belly of digastric (green).
+## The marginal mandibulectomy
+When tumour abuts the mandible, do the marginal mandibulectomy first, which makes the tongue resection much easier. Incise the gingiva along the alveolar ridge, strip the soft tissue off the outer mandible **without exposing its lower half** (to keep its blood supply), and protect the mental nerves. Cut along the upper part of the horizontal ramus with a power saw, angled **obliquely to include the mylohyoid line**, especially if the cancer reaches the lateral floor of mouth.
+!mf 7 | The mylohyoid line and genial attachments; the broken line marks the marginal mandibulectomy.
+!mf 8 | Incising along the gingival margin.
+!mf 9 | The osteotomy along the dotted line with a power saw.
+!senior Why remove the alveolus?
+The marginal mandibulectomy matters for clearance, and it also prevents a **sump** along the inside of the mandible where food and saliva collect, by letting you sew the flap directly to the buccal and labial mucosa.
+!!
+## Deliver and resect
+Deliver the bone strip, floor of mouth and tongue **into the neck as one unit**, which shows the whole tongue, vallecula and epiglottis. Resect the cancer with monopolar diathermy and adequate margins. Keep as much **tongue base mucosa** as you safely can, and preserve the **superior laryngeal nerves**, both for swallowing. Ligate the lingual arteries as you meet them posterolaterally. Examine the specimen and send frozen sections, especially from the tongue base, where tumour and thick, irregular normal mucosa look alike.
+!mf 10 | The bone strip, floor of mouth and tongue dropped into the neck.
+!mf 11 | Transcervical resection with excellent exposure.
+!mf 12 | Total glossectomy with marginal mandibulectomy.
+## Laryngectomy or not?
+If planned, remove the larynx in continuity. If not, examine the posterior margin: if the **epiglottis and pre-epiglottic fat are free** and the patient is fit enough to tolerate some aspiration, keep the larynx and reconstruct.
+!mf 13 | The completed resection with a small amount of residual tongue base.
+## Reconstruct with bulk
+Choose a **bulky** flap that makes a **convex floor of mouth** bulging up to the hard palate, so the neotongue meets the palate for speech and swallowing and secretions do not pool. It will descend and lose muscle bulk with time, so it should almost touch the palate at the end of surgery. Pectoralis major or latissimus dorsi pedicled flaps, or anterolateral thigh or rectus free flaps, give enough volume; consider a sensate flap. **Avoid the radial forearm**: too thin, it leaves a concave floor, a sump, spillage and poor articulation. A fibula for the mandible also brings too little soft tissue. Sew the flap edges to the buccal and labial mucosa with continuous absorbable sutures.
+!mf 14 | A large flap making a convex floor of mouth.
+!mf 15 | Long-term result of a pectoralis major flap: a convex floor without the sump that keeping the lower teeth would have caused.
+## Suspend the larynx and close
+Dividing all the larynx's attachments to the mandible (digastrics, mylohyoids, geniohyoids, genioglossi) promotes aspiration, impairs swallowing and can cause obstructive sleep apnoea. **Suspend the hyoid from the anterior arch of the mandible** with two strong non-absorbable sutures. Close the necks over two suction drains and complete the tracheostomy.
+!mf 16 | Laryngeal suspension with non-absorbable sutures.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Cannot intubate
+Prevent | surgeon present at induction ; plan nasal fibreoptic intubation
+Fallback | intubation through an operating laryngoscope ; emergency tracheostomy or cricothyroidotomy
+!!
+!path Haematoma under the flap
+Act | return to theatre as soon as possible to save the flap
+!!
+!path Alcohol withdrawal
+When | onset on days 2 and 3
+Act | involve the physician or intensivist ; sedation and ventilation may be needed
+!!
+## Common errors in technique
+!pit
+- Keeping the lower teeth without a marginal mandibulectomy: the teeth have little value without a tongue, and the lateral floor becomes a sump.
+- A flap with too little bulk: it should almost touch the palate at the end.
+- Omitting a laryngectomy in a patient who then aspirates badly.
+!!
+
+# Aftercare | Airway, flap, swallow.
+## After the operation
+Antibiotics for 24 hours; monitor the flap; remove drains when under 50 mL in 24 hours. Keep the tracheostomy until you are sure no return to theatre is needed (for flap ischaemia, for example) and the airway is adequate, then cork it overnight and remove it if the airway holds. Start nasogastric feeding the morning after surgery. Delay oral feeding until decannulation; then the speech and swallowing therapist teaches the patient to swallow thickened liquids and purée placed at the **back of the mouth** with a syringe or spoon, until the patient learns to throw the head back and use gravity. Begin postoperative (chemo)radiotherapy within **6 weeks**.
+## Complications
+!table Complications of total glossectomy
+Complication | Notes
+Haematoma | Theatre quickly, to save the flap
+Alcohol withdrawal | Days 2 to 3; added morbidity, mortality and stay
+Tracheostomy | Blockage, dislodgement, delayed decannulation with a very bulky flap
+Flap | Loss from perfusion failure; too bulky (late decannulation) or too small (poor speech, pooling)
+Dysphagia and aspiration | Especially if the larynx was kept in an unsuitable patient
+!!
+## Alternatives
+Always offer non-surgical treatment to patients with advanced tongue cancer.
+
+# For the examination | What the examiner wants to hear.
+## Quality of life and survival
+Patients with advanced tongue cancer often have severe pain, poor speech and great weight loss, which may be why Dziegielewski and colleagues found speech and swallowing compared well with the preoperative state, and quality of life scores fell only a little; in the author's own series, **eight of eight** returned to a full oral diet. Van Lierop and colleagues reported 63%, 38% and 25% alive without disease at 2, 3 and 5 years after primary total glossectomy with radiotherapy for stage IV disease; a review by Navach and colleagues gave 5-year overall and disease-free survival of 79% and 61%. Series are small and selected. The editor would add a laryngectomy if much of the supraglottis must go or lung reserve is poor.
+## Viva essentials
+!exam What the examiner is looking for
+- Selection: fitness, nutrition, cognition, support, ability to complete adjuvant therapy.
+- When to add a laryngectomy, and how to judge pre-epiglottic involvement.
+- Marginal, segmental or hemimandibulectomy by depth of bone invasion.
+- Perineural spread and how to chase it.
+- The airway plan and the routine tracheostomy.
+- The marginal mandibulectomy to avoid a sump.
+- Flap choice for bulk; why not a radial forearm.
+- Hyoid suspension.
+- The swallowing technique after surgery.
+!!
+## Common pitfalls
+!pit
+- Operating on a patient who will not finish radiotherapy.
+- Losing the airway at induction.
+- Sacrificing the superior laryngeal nerves or excess tongue base.
+- A flat or concave floor of mouth.
+!!

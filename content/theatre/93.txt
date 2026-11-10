@@ -1,0 +1,133 @@
+@src Myers, Operative Otolaryngology
+@stand The deep lobe of the parotid is not a separate structure: it is simply the gland deep to the facial nerve, about a fifth to a third of the tissue. A tumour there pushes the nerve outward, so to remove it you must first find the main trunk and then lift the branches off the tumour, and if it grows through the stylomandibular tunnel into the parapharyngeal space it becomes a dumbbell that needs a neck approach as well. Most are benign, but malignancy is harder to clear so close to the nerve, so know the cytology beforehand, have consent for a mandibulotomy or nerve sacrifice if needed, and never cut a nerve on suspicion alone. This chapter covers the three parts of the deep lobe, imaging that predicts where the nerve lies, the approach to the trunk, the release of the branches, the dumbbell tumour, and the decisions in malignancy.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Deep lobe parotidectomy
+ | Summary
+Indications | Parotid neoplasms (surgical excision is the treatment); chronic parotitis refractory to treatment (remove all remaining gland, including deep lobe); biopsy or subtotal resection when the likely diagnosis is not surgical (lymphoma, sarcoidosis)
+Contraindications | Comorbidity with high anaesthetic risk, especially when imaging and FNA suggest a benign tumour (a Warthin tumour may be observed)
+Anaesthesia | General, **no long-acting paralysis**
+Monitoring | Facial nerve EMG is controversial in primary surgery (no proven reduction in weakness) but common and helpful in revisions
+Tray | Monopolar and bipolar diathermy, ultrasonic device if wanted; nerve stimulator; adrenaline pledgets; head and neck set; McCabe dissector; saw and plates if mandibulotomy is possible; loupes or microscope
+Skills | Superficial parotidectomy, parapharyngeal surgery, neck dissection
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to remove a lump deep in the salivary gland, under the facial nerve.
+- **Facial weakness** is commoner than in superficial surgery because the nerve must be lifted off the tumour; usually temporary.
+- **The nerve will not be cut** unless cancer is proven to involve it, and even then every effort is made to keep it.
+- **A cut through the jaw (mandibulotomy)** may be needed for a large or malignant tumour.
+- **Numbness of the ear lobe** from the great auricular nerve.
+- **Bleeding**, a collection of fluid or saliva, and **first bite syndrome** (pain at the angle of the jaw at the start of meals).
+- **Radiotherapy** may follow for some cancers.
+!!
+## Before you start
+Benign tumours (pleomorphic adenoma and Warthin tumour above all) predominate. Mucoepidermoid carcinoma is the commonest malignancy, with adenoid cystic nearly as common; others include acinic cell, adenocarcinoma, salivary duct carcinoma, primary squamous carcinoma, carcinoma ex pleomorphic adenoma, and metastases from facial and scalp skin cancers. Lymphoma occurs, especially with Sjögren's syndrome.
+
+Deep lobe masses are found on examination or incidentally on imaging. Most benign ones cause little but the lump; **significant or worsening pain, trismus, fixity, skin change and facial weakness** suggest malignancy, though even benign deep lobe tumours may feel fixed or be impalpable. Ask how the lump was found and how fast it has grown; about twitching or weakness of the face, dysphagia, otalgia, fullness, hearing loss, epistaxis, visual or voice change, and weight loss, fevers or night sweats. Record previous salivary surgery or infection, smoking (Warthin), previous head and neck cancer and radiotherapy (including radioiodine), skin cancers (squamous, melanoma), autoimmune disease and sarcoidosis, a pacemaker or defibrillator (can the patient have MRI?) and anticoagulants.
+
+Look for facial asymmetry and weakness, a muffled voice, poor secretion control or airway obstruction; suspicious skin lesions on the face, scalp and ear; a middle ear effusion (possible parapharyngeal extension); trismus, the teeth and mandibular height (if mandibulotomy is possible), and asymmetry of the soft palate, tonsillar fossa and lateral pharyngeal wall. Examine the mass (size, mobility, firmness, borders, depth, relation to the angle), each division of the facial nerve, and the neck nodes.
+!senior Know the cytology first
+FNA is safe and usually distinguishes benign from malignant. For deep lobe tumours it may need ultrasound or CT guidance, and it matters more, because malignancy may mean a mandibulotomy or nerve resection that the patient must consent to.
+!!
+## Imaging
+Cross-sectional imaging is recommended for any possible deep lobe tumour. **MRI** with contrast best shows the tumour, soft tissue and perineural spread; **CT** with contrast best shows bone (mandible, mastoid, styloid). PET-CT is rarely needed, as salivary tumours vary in FDG avidity, but helps with possible high-grade or metastatic disease.
+!senior Where is the nerve on the scan?
+The nerve cannot be seen, but the **retromandibular vein** can: follow it up from the external jugular (occasionally the common facial) vein on axial images. The nerve lies just superficial to it, so a deep lobe tumour typically pushes the vein **laterally and superficially**. The styloid, mastoid and posterior digastric are further clues.
+!!
+
+# Anatomy you must see | The gland and the nerve.
+## The gland
+The parotid lies in front of and below the ear lobe, invested by the superficial layer of deep cervical fascia, which becomes continuous with the SMAS in front. Its posterior and lower margin is the front of the upper sternomastoid; its deep surface touches the mastoid, the ear canal, the ramus and, lower, the posterior digastric and stylohyoid. **70 to 80%** of the gland is superficial to the nerve; there is no fascial plane between the "lobes", only the nerve.
+## The facial nerve
+It leaves the **stylomastoid foramen**, gives small branches to the postauricular muscles and posterior digastric, then divides at the **pes anserinus** into upper (temporofacial) and lower (cervicofacial) divisions. Landmarks for the trunk: the tragal **pointer**, the **tympanomastoid suture** and the **posterior belly of digastric**.
+## The three parts of the deep lobe
+1. **The main part,** deep to the nerve between the mastoid behind and the ramus in front: tumours here push the nerve outward.
+2. **Small anterior portions** between the distal branches and the masseter: tumours here look more superficial than they are.
+3. **A posteroinferior portion** joined to the parapharyngeal space through the **stylomandibular tunnel**: tumours here can grow into the prestyloid parapharyngeal space as a dumbbell.
+
+# The operation, stage by stage | Trunk first, then the branches.
+## Prepare and incise
+Prepare so the **whole face** can be watched, with the whole neck, and across the midline if a mandibulotomy is possible. Make a modified **Blair incision** from in front of and above the tragus around the ear lobe: extend it back behind the ear for posterior or high lesions, or forward into a transverse crease in the neck for anterior lesions and most deep lobe tumours. Hatch marks help closure.
+## Flap, sternomastoid and great auricular nerve
+Raise the anterior flap over the parotid fascia. Free the front of the sternomastoid. Keep the **great auricular nerve** and its branches if exposure allows; if you divide it, cut it sharply and **bury the proximal end in muscle** against a painful neuroma. The external jugular vein lies about 1 cm in front of it; keep it unless it limits exposure.
+## Find the trunk
+Retract the sternomastoid to show the posterior digastric. Open the avascular plane between parotid and tragal cartilage to the **pointer**, and divide the tail of the gland with bipolar diathermy, using the pointer and digastric as guides. Find the trunk by the pointer, the tympanomastoid suture and the digastric.
+!danger A displaced trunk
+A deep lobe tumour near the stylomastoid foramen may push the main trunk **laterally and superficially**, closer to you than you expect.
+!!
+## Keep the field dry near the nerve
+Use pressure, adrenaline pledgets, well-placed clips and careful bipolar diathermy. Never use **monopolar** diathermy over nerve branches: it carries current into the nerve.
+## Release the branches
+Follow the nerve to expose the branches needed for safe removal. The branches near the tumour usually have to be fully dissected and freed from it so the tumour can be mobilised. Divide parotid tissue over the nerve with bipolar, ultrasonic or cold knife. The superficial lobe can be released from back to front while left pedicled anteriorly.
+!mf 1 | A small left parotid tumour found incidentally on brain imaging: (A) just deep to a main branch of the upper division; (B) the nerve freed from it and the tumour removed (basal cell adenoma).
+!mf 2 | A large deep lobe pleomorphic adenoma: the main trunk lies just deep to the retractor and the tumour deep to the lower division, with superiorly and inferiorly based portions of the superficial lobe kept for closure.
+!see What you should see
+- The trunk and divisions draped over the tumour and freed from it, the tumour delivered intact.
+!!
+## Close
+Replace any preserved superficial lobe, which gives an excellent cosmetic result. Place a suction drain along the posterior digastric, away from the nerve.
+## The dumbbell tumour
+Tumours from the posteroinferior deep lobe can pass through the stylomandibular tunnel and widen in the parapharyngeal space. A purely parapharyngeal tumour is usually removed through the neck alone; a dumbbell needs both parotid and cervical exposure.
+!mf 3 | MRI (axial T1, fat-suppressed, contrast) of a dumbbell tumour of the deep lobe extending into the parapharyngeal space.
+1. Begin as for a deep lobe tumour, with an incision extended further into the neck.
+2. Once the trunk is found, feel or see the deep lobe part and free it gently.
+3. Approach the parapharyngeal part through the neck: skeletonise the posterior digastric. Leave the submandibular gland, or divide the facial vessels lateral to it to let it fall medially.
+4. Retract the digastric down to see the deep parotid and parapharyngeal space.
+5. To mobilise the medial part: divide the posterior digastric (at its medial tendinous part if you want to repair it, since cut muscle fibres will not hold sutures), divide the **stylomandibular ligament**, and press from medial to lateral through the oropharynx.
+!mf 4 | A large epithelial-myoepithelial carcinoma of the deep lobe and parapharyngeal space; the imprint of the stylomandibular ligament marks the junction between the two parts.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path The tumour may be malignant and involves the nerve
+Confirm | frozen section reliably separates high-grade from benign or low-grade tumours
+Before cutting a nerve | require pathological proof of malignancy, even if that means waiting for final histology
+Even then | in a patient with normal function, try hard to keep the nerve in continuity
+!!
+!path Expanding haematoma
+Small | most can be watched
+Expanding with airway compromise | return to theatre
+!!
+## Common errors in technique
+!pit
+- Poor selection: inadequate imaging of extent or metastatic work-up.
+- Operating on malignancy with perineural spread along several nerves that was not assessed or not resected.
+- Taking on deep lobe tumours without enough experience.
+- Resecting a facial nerve that could have been preserved.
+!!
+
+# Aftercare | Drain, wound, massage.
+## After the operation
+Watch the wound and drain overnight; remove the drain on day 1 unless the output is high (over 100 mL total or over 50 mL in the last shift). Antibiotic ointment on the sutures for 3 to 5 days, remembering that some patients react to it with redness. Remove sutures at about a week in a healthy, non-irradiated patient, and start **massaging** the scar at 2 weeks.
+## Complications
+!table Complications
+Complication | Notes
+Facial weakness | Commoner after the manipulation deep lobe tumours need
+Haematoma | Usually observed; theatre if expanding with airway compromise
+Seroma or sialocele | Resolve with conservative care and aspiration
+First bite syndrome | After dissection into the parapharyngeal space or mobilisation of the deep lobe
+Ear lobe numbness | Great auricular nerve
+!!
+## Outcomes
+Complete excision cures benign tumours; pleomorphic adenomas are controlled long term with close but clear margins. For malignancy, outcome depends on the histology, grade and margins. **Postoperative radiotherapy** is indicated for high-grade tumours, positive margins, high T stage and nodal disease, and for **adenoid cystic carcinoma** even with clear margins, because of its perineural spread and local recurrence.
+
+# For the examination | What the examiner wants to hear.
+## Is the great auricular nerve worth keeping?
+Numbness around the ear is common, sometimes the commonest complaint after parotidectomy. Preserving the posterior branch gives better sensation in the short term and some long-term improvement, but sensation never returns to normal, and long-term quality of life data **do not support** routine preservation.
+## Viva essentials
+!exam What the examiner is looking for
+- The deep lobe is defined by the nerve, not by a fascial plane; its three parts.
+- The retromandibular vein on imaging and what its displacement means.
+- The landmarks for the trunk.
+- Why FNA and imaging matter more for deep lobe tumours.
+- Freeing the branches; no monopolar diathermy near the nerve.
+- The dumbbell tumour and the manoeuvres to deliver it.
+- When to sacrifice the nerve, and postoperative radiotherapy.
+!!
+## Common pitfalls
+!pit
+- Expecting the trunk at its usual depth when the tumour has pushed it out.
+- Dividing the digastric through its muscle belly if you want to repair it.
+- Forgetting to prepare across the midline when a mandibulotomy may be needed.
+!!
