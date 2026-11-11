@@ -1,0 +1,165 @@
+@src Myers, Operative Otolaryngology
+@stand The pterygoid process is the gateway from the nose to the side of the skull base. Taking part or all of it, through the maxillary sinus and the pterygopalatine fossa, opens a corridor to the lateral recess of the sphenoid, Meckel's cave and the trigeminal branches, the cavernous sinus, the petrous and paraclival carotid, the infratemporal fossa and the fossa of Rosenmüller. The approach is graded from A to E by how much pterygoid comes away and where it leads, and every grade is planned on two fixed landmarks at the front of the pterygoid base: the foramen rotundum with V2, and the vidian canal, which leads straight back to the carotid at the foramen lacerum. The carotid's relation to the tumour decides how far you can safely go. This chapter covers planning with those landmarks, the five types, building the nasal and antral corridors, entering and clearing the pterygopalatine fossa, drilling the pterygoid, the infratemporal fossa landmarks, and the aftercare and complications.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Endoscopic endonasal transpterygoid approaches
+ | Summary
+Reaches | Meckel's cave and the trigeminal nerve and foramina; cavernous sinus; petrous and parasellar carotid; pterygopalatine fossa; infratemporal fossa; fossa of Rosenmüller
+Indications | Lateral sphenoid recess CSF leaks and meningoencephaloceles (the first use); selected lesions of the pterygopalatine fossa, petrous apex, anterior Meckel's cave, cavernous sinus, infratemporal fossa and medial middle cranial fossa: meningioma, chordoma, chondrosarcoma, trigeminal schwannoma; selected sinonasal cancers, angiofibroma, aggressive pituitary macroadenoma, metastases
+Contraindications | Comorbidity that would also bar an open approach; an approach that cannot give the resection the disease needs; **active sinonasal bacterial infection** before an intradural approach; a lesion attached to or **behind the carotid or a functioning cranial nerve**
+Carotid involvement | **Balloon occlusion testing**; hypoperfusion means bypass or stenting; elective stenting for benign tumours (needs 6 to 12 weeks of antiplatelets, so impractical for cancer); for encasement consider sacrifice, another approach or partial resection with adjuvant treatment
+Anaesthesia | General (preferably intravenous), sedation or local
+Position | Supine, head in a horseshoe, tilted slightly left and turned slightly right; three-pin fixation when EMG is used or the case is long
+Antibiotics | Third- or fourth-generation cephalosporin with good CSF penetration, for 48 to 72 hours
+Monitoring | SSEPs (the carotid is at risk), cranial nerve EMG, brainstem evoked responses as needed, EEG; navigation on **CT angiography**, fused with MRI; acoustic Doppler
+Tray | Endoscopic sinus set; extended insulated needle-tip diathermy; suction diathermy; endoscopic bipolar; high-speed drill; microsurgical instruments
+Prerequisites | Sphenoidotomy, sphenopalatine artery ligation, optic nerve decompression, CSF leak repair, nasoseptal flap
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to reach a tumour or leak at the side of the skull base through the nose and the back of the cheek sinus.
+- **The carotid artery** lies close: injury is rare but can be catastrophic or fatal.
+- **Numbness** of the cheek, teeth, palate or jaw (V2, V3); about 15% develop nerve pain needing medication such as gabapentin or carbamazepine.
+- **A dry eye** from cutting the vidian nerve; usually unnoticed, but dangerous if the eye is already dry or numb.
+- **Double vision** from irritation of the nerve to the eye muscles.
+- **Jaw stiffness** after infratemporal fossa work; exercises start early.
+- **Leak of brain fluid** (about 6%) and infection (under 2%).
+- **Ear fullness** if the Eustachian tube is disturbed.
+- **Further treatment**, such as radiotherapy, may follow.
+!!
+## Before you start
+Ask about mass effect or facial swelling, pain, **trismus**, double vision, dry eye or corneal ulcers, numbness and facial weakness; antiplatelets, herbal products, vitamin E and fish oil; previous surgery or radiotherapy. Examine the cranial nerves (especially I to VII), eye movements and function, mouth opening, the nose and nasopharynx with an endoscope, and smell.
+## Imaging and planning
+MRI and CT are complementary: MRI separates tumour from secretions and shows perineural spread and dural, brain or orbital involvement; CT shows bone. **CT angiography** maps the carotids and skull base for navigation. PET-CT stages malignancy.
+!mf 1 | The left sphenoid bone from the front; the shaded area is the pterygoid process, which every transpterygoid approach passes through in part or whole.
+!mf 2 | The foramen rotundum (R) and vidian canal (V) on the face of the pterygoid process. Vertical and horizontal lines through them divide the region into the sinonasal tract, pterygopalatine fossa, lateral sphenoid recess, middle cranial fossa, petrous carotid and infratemporal fossa.
+!senior Plan on the two foramina
+A vertical line through the **foramen rotundum** divides lesions reachable after removing the posterior antral wall (medial) from those needing the lateral antral wall as well (lateral). A horizontal line through the **vidian canal** divides those reachable through a wide nasoantral window (above) from those needing a full medial maxillectomy (below).
+!!
+!mf 3 | (A) Lesions medial to the line through the foramen rotundum (green) need only the posterior antral wall; lateral ones (pink) need the lateral wall too. (B) Lesions above the line through the vidian canal can be reached through a large nasoantral window (NAW); those below need a medial maxillectomy.
+Set goals honestly (cure, gross total resection, or decompression) and consider multimodality treatment at a tumour board: perineural spread, aggressive bone or dural invasion mean adjuvant (chemo)radiotherapy. Several smaller approaches can be gentler than one massive one. Plan for the social, financial and psychological consequences.
+
+# Anatomy you must see | Landmarks of the pterygoid region.
+## The pterygoid process
+Paired, with medial and lateral plates projecting backward from a common anterior wall and base, hanging down from the junction of the sphenoid body and greater wing. On its face: the **foramen rotundum** (V2) and the **vidian canal**, carrying preganglionic parasympathetic fibres to the sphenopalatine ganglion and postganglionic sympathetic fibres from the deep petrosal nerve.
+## The pterygopalatine fossa
+An inverted pyramid: an **anterior vascular compartment** (the internal maxillary artery and its terminal branches) and a **posterior neural compartment** (sphenopalatine ganglion, vidian nerve, greater and lesser palatine nerves, orbital branches, and a branch to the infraorbital nerve), wrapped in fat and a venous plexus.
+!mf 5 | The inverted pyramid of the pterygopalatine fossa: a vascular compartment in front of a neural one.
+!mf 6 | The right pterygopalatine fossa with its vascular compartment exposed (schematic and cadaver): internal maxillary, sphenopalatine and posterior nasal arteries, palatine bundle, pterygoid process, torus tubarius.
+## Infratemporal fossa landmarks
+- **V3 and the foramen ovale**, just behind the base of the lateral pterygoid plate.
+- **The tensor veli palatini**, in the interpterygoid fossa just in front of the Eustachian tube.
+- **The petrous carotid**, behind the foramen ovale and the Eustachian tube.
+- The lateral plate, foramen ovale and carotid canal lie in one sagittal line: the lateral plate is a proxy for the parapharyngeal carotid, but the artery can be tortuous, so confirm on imaging.
+!mf 11 | Basal view: the lateral pterygoid plate, foramen ovale (V3) and carotid canal in line; the lateral plate approximates the parapharyngeal carotid, which must be confirmed on imaging.
+!mf 12 | Basal view: the Eustachian tube (grey arrow) leads to the petrous carotid (red arrow); lateral plate shaded, foramen ovale circled.
+
+# The operation, stage by stage | Corridors, fossa, pterygoid.
+## The five types
+!table Transpterygoid approaches
+Type | What is removed | Target
+A | Part of the medial and/or lateral plates | Passage for a temporoparietal fascia flap
+B | Medial base of the pterygoid | Lateral sphenoid recess above the vidian canal (CSF leaks)
+C | Base of the plates along the vidian canal | Petrous apex, Meckel's cave, cavernous sinus
+D | Variable plates | Infratemporal fossa
+E | Medial plate or the whole process, plus the medial third of the Eustachian tube | Fossa of Rosenmüller, lateral craniocervical junction
+!!
+## Prepare
+Prepare the periumbilical skin for fat and, when the carotid is near, the lateral thigh for **muscle to patch the carotid**. Decongest with 1:10,000 adrenaline cottonoids and inject 1% lidocaine with adrenaline into the septum and middle meatus.
+## The nasal corridor
+Use both nostrils for a four-handed technique and a cross-court view. The 0 degree scope with straight instruments does most of the work; angled scopes look round corners but need angled instruments. Out-fracture both inferior turbinates and the opposite middle and superior turbinates. Do an uncinectomy and enlarge the maxillary ostium back to the posterior wall, up to the orbital floor and medial wall, down to the inferior turbinate. Take part of the middle turbinate (a free graft) and clear the ethmoids, preserving the lamina papyracea and skull base.
+## The flap from the other side
+Harvest the **nasoseptal flap from the opposite side**, because the approach endangers the ipsilateral pedicle; cover the donor septum with a **reverse flap** from the ipsilateral side, and protect both with silicone splints. Make wide bilateral sphenoidotomies to the roof and lateral wall, dissect the basopharyngeal fascia off the sphenoid floor to drill toward the clival recess and foramen lacerum, then cauterise and divide the ipsilateral sphenopalatine artery and its companions.
+## The antral corridor
+- **Types A to C** (targets above the vidian canal): a wide **nasoantral window**, from the nasolacrimal duct to the posterior wall and from the orbital floor to the top of the inferior turbinate, showing the upper half of the posterior wall.
+- **Types D and E** (below it): a **medial maxillectomy**, from the duct to the posterior wall and from orbital floor to nasal floor.
+- **Far lateral targets:** an endoscopic **Denker (Sturman-Canfield)** extension: remove the rest of the inferior turbinate and the front of the inferior meatus, cut onto the pyriform aperture just in front of the turbinate head, remove the aperture and ascending process of the maxilla (often only below the duct opening), divide the lacrimal duct sharply, and remove the anterior maxilla to expose the whole lateral antral wall.
+!mf 4 | The endoscopic Denker (Sturman-Canfield) extension: pyriform aperture and anterior maxilla removed for a straight line of sight into the infratemporal fossa.
+## Enter the pterygopalatine fossa
+Identify and clip or cauterise the sphenopalatine and posterior nasal arteries where they enter the nose; there are often more than two, through separate foramina. Enlarge the sphenopalatine foramen forward with a 1 to 2 mm Kerrison or Citelli. Remove the posterior antral wall as far as needed, out to the **inferior orbital fissure**, **keeping the periosteum** intact over the fossa. Find the **infraorbital nerve** as it leaves the fossa. Inferomedially, dissect carefully to free the **descending palatine artery and greater palatine nerve** in their canal down to the greater palatine foramen, which lets you mobilise the fossa laterally.
+!mf 7 | The left pterygopalatine fossa: the elevator reflects mucoperiosteum over the palatine bone and medial plate to expose the Eustachian tube.
+!mf 8 | The left fossa: the palatine neurovascular bundle (artery in front, greater and lesser palatine nerves behind).
+## Uncover the pterygoid
+Remove the orbital process and front of the perpendicular plate of the palatine bone, the walls of the greater palatine canal, then the sphenoid process of the palatine bone to expose the **palatovaginal canal**; sacrifice its artery to lateralise the fossa. The fossa contents can be kept in a periosteal sac. The **vidian bundle** tethers the fossa and usually must be cauterised and divided (it can sometimes be kept for infrapetrous carotid and Meckel's cave approaches). Further lateral and superior dissection exposes the base of the pterygoid with the **foramen rotundum and V2**.
+!mf 9 | The left fossa: the palatine bundle displaced laterally to expose the pterygoid process, with the vidian and rotundum foramina (V2).
+## Type B: the lateral recess
+Extend the sphenoidotomy laterally, removing the front of the lateral recess (the pneumatised pterygoid base) above the vidian canal; if pneumatisation reaches the greater wing, the vidian bundle may need sacrificing.
+## Type C: petrous apex and Meckel's cave
+Removing the medial pterygoid base is usually enough. Drill the sphenoid floor flush with the clival recess (4 mm hybrid or coarse diamond) and the medial plate (3 mm coarse diamond), and **follow the vidian canal**, drilling around it, to the **foramen lacerum**, identifying and protecting the horizontal petrous carotid. To keep the vidian nerve, thin its canal to eggshell and out-fracture the shell, keeping its periosteum to protect the nerve, then transpose it laterally.
+!senior Follow the vidian canal back
+Drill circumferentially around the vidian canal, never above and medial to it blindly: the canal leads to the foramen lacerum and the second genu of the carotid. It is your fixed guide to the artery.
+!!
+## Type D: the infratemporal fossa
+Divide the internal maxillary artery at the **pterygomaxillary fissure**, and the vidian bundle and the ganglion's branch to V2, so the fossa contents fall down and out to show the whole height of the pterygoid. Drill into the lateral plate until it is level with the middle fossa and foramen ovale, as far as needed.
+!mf 10 | The right pterygoid process after displacing the fossa contents (schematic and cadaver): vidian nerve, V2, V3, carotid, torus tubarius.
+## Type E: the whole pterygoid
+For extensive infratemporal disease, take the whole pterygoid: control the internal maxillary artery, detach the lateral and medial pterygoid muscles, and remove the lateral plate, staying **subperiosteal** to avoid the pterygoid plexus. Removing the **Eustachian tube** and its bony canal, laterally and upward, leads to the carotid canal just behind.
+!mf 13 | The right pterygoid process removed, showing tensor veli palatini just in front of the Eustachian tube, with V2, V3, the pterygoid muscles and temporalis.
+!mf 14 | Tensor veli palatini removed, showing the Eustachian tube and V3 in line, and the horizontal, vertical and parapharyngeal carotid.
+!see What you should see
+- V2 at the rotundum above, the vidian canal leading back to the lacerum and the petrous carotid, V3 at the foramen ovale behind the lateral plate, the Eustachian tube with the carotid behind it.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Carotid injury
+Control | immediate pressure with a crushed muscle patch
+Then | endovascular stenting or occlusion
+Prepare | thigh prepared for muscle ; two suctions ; four hands
+!!
+!path Heavy bleeding in the fossa
+Source | internal maxillary artery or pterygoid venous plexus
+Control | bipolar diathermy is most effective ; stay subperiosteal to avoid the plexus
+!!
+!path Suspected CSF leak after surgery
+Screen | clear drainage or salty taste ; the reservoir sign (chin to chest for a minute) at least daily
+Image | CT head: more intradural air than on the immediate scan suggests a fistula
+Act | explore and repair immediately ; beta-2 transferrin is slow and not always available
+!!
+## Common errors in technique
+!pit
+- Inadequate exposure.
+- Mistaking the superior orbital fissure for the foramen rotundum.
+- Inadequate instruments.
+!!
+
+# Aftercare | Watch for leak and air.
+## After the operation
+Intensive or step-down care for 24 hours; early mobilisation and chemical DVT prophylaxis unless contraindicated. Neurological checks after CSF loss or neurovascular manipulation; keep systolic pressure **below 160**; correct endocrine problems (diabetes insipidus needs hourly fluid balance and 6-hourly sodium, osmolality and urine specific gravity). Patients on **CPAP** may only have mask oxygen after transdural surgery, so monitor them. An immediate **non-contrast CT** catches tension pneumocephalus and haemorrhage; after tumour surgery, MRI within 24 hours shows the resection and the flap. Avoid bending, lifting, straining and squatting, take stool softeners, and cough and sneeze with the mouth open. Intravenous antibiotics for 24 to 48 hours, then oral while packing remains. Start **trismus exercises** early after infratemporal work. Saline sprays at once, lavage from day 3 to 5, debridement every 1 to 4 weeks; discharge usually after two or three nights.
+## Complications
+!table Complications
+Complication | Notes
+Bleeding | Internal maxillary artery, pterygoid plexus; bipolar
+Reduced tearing | Vidian nerve or ganglion sacrificed; corneal ulceration if the eye is already dry or V1/V2 is numb
+Facial numbness | V2 and V3; about 15% deafferentation pain (gabapentin, carbamazepine)
+Carotid injury | Muscle patch, then endovascular stent or occlusion
+CSF leak | Fewer since pedicled flaps; explore and repair at once
+Abducens palsy | Prism glasses or strabismus surgery if permanent
+Trismus | Early stretching exercises and devices
+!!
+!note A misprint about the nerve
+The chapter names this palsy "CN V1" and treats it with prisms or strabismus surgery. Prisms and squint surgery treat double vision from an eye muscle palsy, and the nerve vulnerable here is the **abducens (VI)**; "V1" appears to be a misprint for VI.
+!!
+## Alternatives
+Open approaches to the middle fossa (temporal, frontotemporal, subtemporal) and the transorbital approach; lateral (preauricular-subtemporal, postauricular-transtemporal) or anterior (Le Fort I, facial translocation, maxillary swing) approaches to the infratemporal fossa and nasopharynx; or combined multicorridor surgery.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- The pterygoid process and its two foramina; what passes through the vidian canal.
+- Planning with the rotundum and vidian lines; nasoantral window versus medial maxillectomy versus Denker.
+- Types A to E.
+- The contralateral nasoseptal flap and the reverse flap.
+- The compartments of the pterygopalatine fossa; keeping its periosteum.
+- The vidian canal as the guide to the carotid at the foramen lacerum.
+- Infratemporal landmarks: V3 behind the lateral plate, tensor veli palatini, the Eustachian tube in front of the carotid.
+- Managing a carotid injury; the reservoir sign and pneumocephalus.
+!!
+## Common pitfalls
+!pit
+- Using the ipsilateral nasoseptal flap.
+- Stripping the fossa periosteum and bleeding from its vessels.
+- Trusting the lateral plate for the carotid without imaging.
+- Delaying a leak repair.
+!!

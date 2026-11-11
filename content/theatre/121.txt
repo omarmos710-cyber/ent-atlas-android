@@ -1,0 +1,164 @@
+@src Myers, Operative Otolaryngology
+@stand The infratemporal fossa is a deep, hidden space beneath the skull base, behind the maxilla and inside the ramus, which no finger can reach and no eye can see in clinic. It holds the pterygoid muscles, V3 and its branches, the internal maxillary artery and the pterygoid venous plexus, and it borders the carotid and jugular vein, the middle cranial fossa and the temporal bone. Tumours arise in it or invade it from the parotid, the sinuses, the nasopharynx, the temporal bone and the parapharyngeal space. There is no single best way in: the preauricular subtemporal approach opens it from the side and above; the postauricular transtemporal approach adds the temporal bone, the facial nerve and the jugular bulb; Fisch's types A to D go through the temporal bone; facial translocation swings the midface aside for the largest tumours; and the endoscopic endonasal route reaches the medial fossa through the maxillary sinus. Choosing among them, and preserving the nerves along the way, is the craft. This chapter covers the boundaries, selection and biopsy, the carotid question, each approach step by step, and the function-sparing management of schwannomas.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Infratemporal fossa approaches
+ | Summary
+Indications | Benign tumours (schwannoma, pleomorphic adenoma, AVM, paraganglioma, meningioma); malignant tumours (rhabdomyosarcoma, salivary cancers, extension of oral, sinus or nasopharyngeal cancer); infection from teeth, sinuses or salivary glands not resolved by culture-directed antimicrobials; fibromatosis and soft tissue radionecrosis
+Contraindications | High anaesthetic risk; carotid involvement with a **failed balloon occlusion test**; extensive brain invasion by malignancy; disease not suited to surgery (lymphoma, plasmacytoma)
+Biopsy first | Confirm benign or malignant before major surgery (open, transnasal endoscopic, or image-guided FNA for deep tumours); not for typical vascular lesions such as glomus tumours
+Approaches | Preauricular subtemporal; postauricular transtemporal; Fisch types A to D; facial translocation; endoscopic endonasal
+Anaesthesia | General; plan the airway: trismus or expected airway compromise may need fibreoptic intubation or tracheostomy; no paralysis if nerves are monitored
+Position | Supine; head holder or Mayfield pins if intracranial work is expected; neck accessible for vascular control
+Antibiotics | Skin and aerodigestive cover; good CNS penetration if intracranial (the authors use cefazolin and metronidazole)
+Monitoring | Facial nerve EMG for open approaches; vagal monitoring (laryngeal EMG tube) as needed
+Tray | Open: Raney clips, drill, saw, osteotome, midface and cranial plates, vascular set, head and neck set. Endoscopic: navigation, 0 and angled scopes, sinus set, endoscopic bipolar and suction monopolar, clip appliers, extended drill, haemostatic agents
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to remove a growth deep in the side of the head, below the skull base.
+- **Numbness** of the face, teeth or tongue (trigeminal branches), sometimes permanent; a numb face can be bitten or cut without noticing.
+- **Facial weakness**, even if your face works normally now, especially if the nerve is moved; eye protection may be needed.
+- **Jaw stiffness** (trismus) and a change in bite; exercises are essential.
+- **Bleeding**, and rarely injury to the carotid artery with stroke or death.
+- **Leak of brain fluid.**
+- **Hollowing of the temple** if the temporalis muscle is moved, which can be filled later.
+- **Swallowing and voice problems** if the lower cranial nerves are involved; possibly a feeding tube or tracheostomy.
+- **Hearing loss** or a blocked ear if the Eustachian tube or temporal bone is involved.
+!!
+## Before you start
+Ask about every cranial nerve. **Trigeminal** symptoms are common: numbness or dysaesthesia in V1, V2 or V3, chewing problems, malocclusion or jaw deviation from mass effect or masseteric weakness. Facial weakness means compression or invasion, but **normal function does not guarantee the nerve will survive**. Tumours near the jugular foramen affect IX to XII; temporal bone or posterior fossa invasion causes sensorineural loss and imbalance. Dysphagia and aspiration may worsen after surgery: consider a feeding tube or tracheostomy. A unilateral **middle ear effusion** with conductive loss suggests Eustachian tube compression. Ask about vision and diplopia, previous tumours and their treatment, general fitness and smoking.
+
+Look for subtle swelling of the temple above the arch, test all cranial nerves, check for **trismus** (pterygoid or joint involvement, and the airway plan), record visual acuity and audiometry, and endoscope the nose if an endonasal route is considered.
+## Imaging and preparation
+CT shows bone and widened foramina; MRI shows soft tissue planes and perineural spread; both are often needed. Define the **carotid**: MR angiography or angiography if in doubt, a **balloon occlusion test** if it may be manipulated, and a neurovascular surgeon if bypass is possible. Stage metastatic disease by histology. Plan navigation, have blood products ready (internal maxillary artery, carotid), consider embolising the internal maxillary artery (which may limit reconstructive options), consult the microvascular surgeon early for large defects (Allen test, vascular studies), and place a **lumbar drain** if significant intradural dissection is expected. Involve neurosurgery for skull base or intracranial spread.
+
+# Anatomy you must see | Walls and contents.
+!table Boundaries of the infratemporal fossa
+Wall | Bone and foramina | Muscle | Nerves and vessels
+Superior | Temporal bone, greater wing of sphenoid; carotid canal, jugular foramen, foramina ovale, spinosum and lacerum | — | V3; carotid; jugular vein
+Medial | Lateral pterygoid plate, pterygopalatine fissure | Superior constrictor, pharyngobasilar fascia | —
+Lateral | Mandible, zygoma | Masseter, temporalis | —
+Contents | — | Medial and lateral pterygoids | Internal maxillary artery; pterygoid plexus
+Posterior | Articular tubercle, glenoid fossa, condyle, styloid; prevertebral fascia | — | IX to XI, sympathetic chain; carotid; jugular vein; parotid
+!!
+## Landmarks by approach
+- **Preauricular:** the **frontal branch of the facial nerve** in the superficial layer of the deep temporal fascia; the facial nerve trunk; the internal maxillary artery and carotid; IX to XII. Follow the **lateral pterygoid plate** back to the **foramen ovale** (V3), the **foramen spinosum** (middle meningeal artery) and the **spine of the sphenoid** (the carotid canal).
+- **Postauricular:** the spine of Henle; the intratemporal facial nerve and the stylomastoid foramen; the bony-cartilaginous junction of the canal if it will be closed; the great vessels and X, XI and XII in the neck.
+- **Endoscopic:** the maxillary antrostomy and orbital floor; the sphenopalatine and internal maxillary arteries and V2 behind the posterior antral wall.
+
+# The operation: preauricular subtemporal | From the side and above.
+## Indications
+Suits many tumours of the fossa and intracranial tumours of the greater wing or anterior temporal bone; it cannot remove the whole temporal bone or control the infratemporal facial nerve or jugular bulb.
+## Steps
+1. A **hemicoronal or bicoronal** incision across the vertex, extended in front of the ear; carry it across the midline for more rotation. Go through galea and pericranium and raise the flap forward **subpericranially**, Raney clips on the edges, keeping the anterior branches of the superficial temporal artery that feed the flap.
+2. Over temporalis, from back to front, make an **interfascial incision** through the superficial layer of the deep temporal fascia and continue down and forward **deep to the temporal fat pad**, which protects the **frontal branch**; reflect the fat pad and superficial fascia with the flap to the orbitozygomatic complex, exposed subperiosteally.
+3. Free the periosteum on both sides of the zygoma and the periorbita of the lateral orbit from roof to inferior orbital fissure. With a reciprocating saw, make **bevelled cuts** at the root of the zygoma, the zygomaticofrontal suture and the zygomaticomaxillary buttress to free the **orbitozygomatic** segment; pre-bend and drill the plates first, and keep the bone in saline.
+4. Find and protect the facial nerve trunk as in parotidectomy; divide other soft tissue in front of the temporal bone to rotate the flap further.
+5. Lift temporalis from its fossa on its **inferior pedicle**, protecting the deep temporal vessels from the internal maxillary artery near the coronoid; leave a fascial cuff above for reattachment.
+6. The fossa is now open. A **subtemporal craniectomy** helps find the foramina. To reach the **petrous carotid**, dislocate or resect the condyle to enter the glenoid fossa (the carotid lies **medial** to it), with a temporal craniotomy if needed.
+!mf 1 | The preauricular subtemporal approach: (A) bicoronal incision with temporalis and the orbitozygomatic bone; (B) temporalis reflected, bone removed, temporal craniotomy, and neck extension to the jugular vein, hypoglossal nerve and carotid, with tumour deep to V3; (C) the petrous carotid behind V3, the cut ends of V2; (D) coronal section: the fat pad between the layers of the deep temporal fascia, the frontal branch in the superficial layer.
+## Close
+Obliterate dead space and seal any communication with the aerodigestive tract; transpose all or the front of temporalis into the defect, any free part into the anterior temple for appearance. Replace the orbitozygomatic bone with midface plates. Use free tissue if temporalis is not viable or the defect is large (maxillectomy, orbital exenteration). Drain under the scalp flap.
+!senior In children
+The mandible sits closer to the skull base in children, so the infratemporal skull base can sometimes be reached through the neck alone, protecting the facial nerve.
+!!
+
+# The operation: postauricular transtemporal | Through the temporal bone.
+Suited to temporal bone lesions extending into the fossa.
+1. A **C-shaped or question-mark** postauricular incision from the temple, over the mastoid, into a mid-neck crease.
+2. **Transect and close the ear canal** if the middle ear will be sacrificed and there is a CSF leak risk; otherwise reflect the auricle forward with incisions around the tragus and conchal bowl, leaving the canal intact to avoid stenosis.
+3. Raise the cervicofacial flap below the platysma in the neck, above the SMAS over the parotid and on the deep layer of the deep temporal fascia over the skull, and reflect it forward.
+4. Find the facial nerve trunk and keep a **cuff of soft tissue** around it against traction.
+5. A **mastoidectomy** with dissection of the intratemporal nerve allows it to be mobilised for wider access to the fossa, jugular bulb and lower cranial nerves.
+6. Control the common, internal and external carotids and the jugular vein in the neck.
+7. Detach sternomastoid and posterior digastric from the mastoid; feel the **styloid**, divide stylohyoid and stylopharyngeus and remove it: IX may now be seen crossing the carotid.
+8. Add a temporal craniotomy and orbitozygomatic osteotomy as above, remove the tumour and reconstruct.
+!mf 2 | The postauricular approach: (A) the cervicofacial flap reflected, showing temporalis, the orbitozygomatic bone, the closed ear canal, the facial nerve entering the parotid, the hypoglossal nerve and the great vessels; (B) temporalis reflected, the bone removed and the temporal craniotomy completed.
+## Fisch's lateral approaches
+Ugo Fisch's transtemporal approaches drill through the temporal bone and reroute the facial nerve for subtemporal exposure. **Type A** suits glomus jugulare and middle ear cleft tumours. **Type B** reflects the arch and temporalis down, performs a subtotal petrosectomy and disarticulates the jaw joint to expose the carotid and foramen ovale. **Type C** adds the pterygoid plates for the Eustachian tube orifice, nasopharynx and posterior maxillary sinus. A later **type D** is essentially a preauricular approach without removing middle ear structures, rerouting the nerve or fully exposing the carotid.
+!mf 3 | The approximate cranial base access of the Fisch infratemporal approaches.
+
+# The operation: facial translocation | For the largest tumours.
+Reserved for very extensive tumours of the fossa, masticator space, pterygomaxillary fossa and paraclival region, and nasopharyngeal tumours reaching the fossa.
+1. A hemicoronal incision with preauricular extension, the scalp raised as before.
+2. A modified **Weber-Ferguson** incision to periosteum (a lip split only if needed), joined by a horizontal incision from the lateral canthus to the top of the ear.
+3. **Identify, tag and divide the frontal branches** (EMG helps) for repair at the end.
+4. Reflect the mid and lower face down; divide and tag the **infraorbital nerve** for repair if uninvolved.
+5. Raise the frontotemporal flap subpericranially and perform the orbitozygomatic osteotomies, plus a unilateral Le Fort I or II as needed to free the maxillary face with the complex.
+6. Reflect temporalis down; osteotomise the coronoid for more rotation, protecting the deep temporal arteries.
+7. The fossa is open; remove the pterygoid plates for the medial fossa or nasopharynx; add a temporal or subtemporal craniotomy for intracranial access.
+8. Reconstruct with transposed temporalis or free tissue. A temporary **tarsorrhaphy for 10 to 14 days** prevents ectropion; stent transected canaliculi with silicone into the nose. Close in layers.
+!mf 4 | Facial translocation: (A) the incisions; (B) the craniofacial skeleton exposed; (C) the orbitozygomaticomaxillary osteotomies; (D) the view through the fossa to the nasopharynx; (E) added frontotemporal craniotomy; (F) temporalis transposed into the skull base defect.
+
+# The operation: endoscopic endonasal | The medial fossa from the nose.
+For biopsy or resection of tumours of the **medial** fossa, with navigation on thin-cut CT.
+1. Prepare the face with the eyes lubricated but visible (pupils and globes), decongest, register navigation, endoscope both sides, inject, and correct a septal deviation if it blocks access.
+2. Make a generous **maxillary antrostomy** and remove the posterior wall to the pterygomaxillary fissure.
+3. Clip or cauterise the **sphenopalatine artery** and continue into the pterygopalatine fossa.
+4. Find **V3** at the foramen ovale with navigation, and navigate to the lesion.
+5. For more lateral or three-dimensional access, add a **Caldwell-Luc** antrostomy; removing the back of the inferior turbinate or a medial maxillectomy adds room.
+6. Continue back to the pterygoid plates and the Eustachian tube.
+!mf 5 | The endoscopic endonasal route to the right infratemporal fossa: (A) posterior antral wall and sphenopalatine foramen; (B) the fossa after removing the internal maxillary artery; (C, D) the pterygopalatine fossa and the distal internal maxillary branches; (E) the transected internal maxillary artery and the heads of lateral pterygoid; (F) V3 leaving the foramen ovale and dividing into lingual, inferior alveolar, buccal and pterygoid branches; (G, H) the pterygoid plates removed and the muscles reflected.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Carotid injury
+Know | ischaemic brain injury can occur even after a satisfactory balloon test
+Prepare | neck control, vascular set, neurovascular surgeon available
+!!
+!path The eye will not close
+Risk | exposure keratitis, even blindness
+Act | lubrication, humidity chamber, taping ; tarsorrhaphy or a gold or platinum weight
+!!
+!path Bleeding after an endoscopic approach
+Think | internal maxillary artery or its branches
+Act | evaluate carefully ; consider packing, which also steadies grafts
+!!
+## Common errors in technique
+!pit
+- Inadequate exposure.
+- Elevating in the wrong plane and injuring nerve branches (the frontal branch above all).
+- Sacrificing reconstructive tissue or its blood supply during exposure.
+- Failing to restore tissue planes at closure.
+- No vascular control.
+!!
+
+# Aftercare | Intensive care, eye, jaw.
+## After the operation
+Intensive care at least the first night. Watch facial nerve function and protect the eye. After endoscopic approaches, watch for epistaxis. When the dura was opened, catch a CSF leak early: lumbar drainage or re-operation may be needed.
+## Complications
+!table Complications
+Complication | Notes
+Trigeminal loss | V2/V3 numbness risks biting and shaving injuries; **V1 numbness risks corneal ulcer**, managed aggressively; V3 motor loss causes malocclusion and jaw drift
+Facial nerve injury | Transection or traction; protect the eye
+Trismus | Pain early, pterygoid scarring late; regular jaw-opening exercises
+Vascular injury | Bleeding; carotid injury and ischaemia
+CSF leak | Immediate or delayed
+Temple hollowing | From temporalis transposition; fill with a graft or implant
+!!
+## Alternatives
+External beam radiotherapy with or without chemotherapy for some tumours, decided at a multidisciplinary tumour board.
+
+# For the examination | What the examiner wants to hear.
+## Schwannomas: radical or function-sparing?
+Schwannomas are among the commonest tumours of the infratemporal and parapharyngeal spaces. Radical resection with the nerve of origin should lower recurrence but causes major morbidity for complex nerves such as the high vagus, facial or trigeminal. Netterville and Groom's **function-sparing intracapsular enucleation** in 43 cervical and parapharyngeal schwannomas used EMG mapping to spare the functional fibres, often on the tumour surface: most kept normal or near-normal voice with no recurrence at 36 months. Whether this extends to high infratemporal tumours is unclear, but the case for sparing function is compelling. The editor adds that there is no single best approach, combinations may give the best exposure with the least morbidity, and surgeons should enlist colleagues with complementary skills.
+## Viva essentials
+!exam What the examiner is looking for
+- The boundaries and contents of the infratemporal fossa.
+- Why biopsy first, and when not to (glomus tumours); why not to operate on lymphoma or plasmacytoma.
+- The carotid: angiography, balloon occlusion, bypass.
+- Protecting the frontal branch: the interfascial plane deep to the fat pad.
+- The orbitozygomatic osteotomies; reaching the petrous carotid through the glenoid fossa.
+- Landmarks: lateral plate to foramen ovale, spinosum and the sphenoid spine.
+- Fisch types A to D; facial translocation; the endoscopic route.
+- Trismus and eye care afterwards.
+!!
+## Common pitfalls
+!pit
+- Underestimating the airway in a patient with trismus.
+- Promising that a working facial nerve will be preserved.
+- Forgetting a lumbar drain for intradural work.
+- Leaving the temple hollow.
+!!
