@@ -1,0 +1,160 @@
+@src Myers, Operative Otolaryngology
+@stand Cancer of the ear canal is rare, about one case per million people a year, but it hides behind the commonest complaints in otology: a discharging, painful ear that does not get better. Squamous carcinoma predominates; basal cell, adenocarcinoma and adenoid cystic carcinoma also occur, and the temporal bone is invaded by cancers of the parotid, the periauricular skin and the neck. Radiotherapy alone cures few; complete resection with wide margins is the only real chance, and the margin, not the size of the operation, predicts survival. The temporal bone's anatomy decides how the cancer spreads and therefore how much must go: the cartilaginous canal with its fissures of Santorini leaks forward into the parotid, the bony canal sends cancer medially through the drum, and from the middle ear it can reach the carotid, the dura, the labyrinth and the jugular foramen. The modified Pittsburgh staging links extent to operation: lateral temporal bone resection for T1 and T2, subtotal for T3 and T4, total when the petrous apex is involved. This chapter covers diagnosis and staging, the pathways of spread, the three resections, reconstruction and aftercare.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Temporal bone resection
+ | Summary
+Suspect it | Long-standing otorrhoea, deep unrelenting pain, bloody discharge, facial palsy, a mass or ulcer in the canal, **an ear canal condition not responding to topical or systemic antibiotics**
+Sleeve resection | Very limited lesions of the meatus and lateral canal (but see the common errors)
+Lateral resection | Cancer confined to the canal: **T1, T2**
+Subtotal resection | Cancer in the middle ear and mastoid: **T3, T4**
+Total resection | Cancer in the petrous apex or the Eustachian tube
+Extensions | Jaw joint, neck, dura, infratemporal fossa as required
+Contraindications | Cavernous sinus or brain invasion (cure unlikely); unfitness for long anaesthesia and recovery; carotid canal involvement is a problem but **not an absolute** bar
+Biopsy | By **direct incision**; never a staging mastoidectomy (it spoils imaging and margins)
+Anaesthesia | General oral intubation; arterial line beyond a lateral resection; urinary catheter; **no neuromuscular block**; furosemide and mannitol 0.25 to 0.5 g/kg 30 minutes before intracranial dissection
+Position | Supine, ear up; Mayfield clamp for intracranial or extensive work; taped to the table at shoulders, hips and thighs; compression stockings; prepare neck and graft sites
+Antibiotics | Third-generation cephalosporin with CSF penetration (ceftriaxone)
+Monitoring | Facial nerve (orbicularis oris and oculi); IX and X in some cases
+Tray | Otological and plastic microscopes; otological drill; mastoid and middle ear set; head and neck set; diathermy for both teams; Prass or Kartush probe; fine straight and curved osteotomes with mallet; osseointegrated implants (bone conduction, auricular prosthesis)
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to remove the cancer with the bone of the ear around it; this is the only treatment that can cure it.
+- **Hearing** on that side will be reduced or lost; a bone-conduction device can help later.
+- **The outer ear** may need to be removed; a prosthetic ear can be fitted later. Glasses may be hard to wear if the upper ear goes.
+- **Facial weakness**, sometimes from removing the nerve; eye protection.
+- **Dizziness** after larger resections.
+- **Swallowing and voice** problems if the lower cranial nerves are removed; tracheostomy and vocal cord surgery may be needed.
+- **Leak of brain fluid**, meningitis, bleeding, stroke or brain swelling.
+- **Radiotherapy** about 6 weeks afterwards for most cancers.
+!!
+## Before you start
+Cancer can arise in the canal, middle ear, mastoid, and rarely the jugular foramen and petrous apex; it spreads into the bone from the concha, pinna, parotid and dura; metastases favour the **petrous apex**. It mimics chronic or malignant otitis externa, canal cholesteatoma, osteonecrosis and otitis media. Symptoms are deep, persistent pain, bloody otorrhoea, hearing loss, facial weakness, other cranial nerve palsies and a swollen or narrowed canal. Younger patients tend to have more aggressive disease.
+
+Look for a friable, necrotic, bleeding broad-based mass, polyp or ulcer, or diffuse thickening or stenosis of the canal; define cartilaginous and bony involvement under the microscope; test the facial and other cranial nerves; look for drum or annulus involvement, a middle ear mass or effusion, neck masses and **trismus** (the jaw joint). Obtain an audiogram.
+## Imaging and staging
+Both CT and MRI are usually needed: thin-cut temporal bone CT, skull base MRI with and without contrast, and neck CT or MRI. CT angiography, or angiography with **balloon occlusion**, if carotid resection is possible; venography for the dural sinuses. Chest radiograph and liver tests; for cancers prone to spread, such as melanoma, CT of chest, abdomen and pelvis and a bone scan; PET may help. Imaging tends to **underestimate** spread, especially backward, upward and medially.
+!table Modified Pittsburgh staging
+T | Extent
+T1 | Limited to the canal, no bone erosion or soft tissue extension
+T2 | Limited canal bone erosion, or under 0.5 cm of soft tissue
+T3 | Full-thickness canal bone erosion with under 0.5 cm soft tissue, or tumour in the middle ear or mastoid
+T4 | Cochlea, petrous apex, medial middle ear wall, carotid canal, jugular foramen or dura; over 0.5 cm soft tissue; or facial nerve paresis
+!!
+## Preparation
+Assemble the team: neurotologist, head and neck and reconstructive surgeons, neurosurgeon, pathologist, radiation oncologist, intensivist, experienced nurses. Decide whether to place osseointegrated implants for a hearing device or prosthetic ear now or later. Optimise heart, lung, diabetes, bleeding disorders and nutrition.
+
+# Anatomy you must see | How the cancer spreads.
+## Pathways
+- **The cartilaginous canal** is a poor barrier: cancer erodes into the parotid in front and the concha and postauricular sulcus behind, and through the **fissures of Santorini** straight into periparotid tissue.
+- **The bony canal** resists, so cancer tracks **medially through the drum** into the middle ear and mastoid.
+- **The foramen of Huschke**, a defect in the anteroinferior tympanic ring that usually closes by age 5, links the bony canal with the parotid and jaw joint.
+- From the middle ear, along the **Eustachian tube** to the carotid, Meckel's cave and cavernous sinus; upward through the **tegmen** to the middle fossa dura and temporal lobe.
+- The **otic capsule** resists, but the round and oval windows let cancer into the vestibule, internal auditory canal and posterior fossa.
+- **Along the facial nerve** intracranially, into the neck through the stylomastoid foramen, or to the infratemporal fossa via the greater superficial petrosal nerve.
+- Backward to the posterior fossa plate, dura and sigmoid; downward to the jugular foramen and neck.
+- **Lymphatics** of the canal drain forward to parotid and periparotid nodes, down to the internal jugular chain, back to the mastoid nodes; middle ear and mastoid disease rarely spreads to nodes.
+!mf 1 | Axial (A) and coronal (B) pathways of spread: (1) forward through the cartilaginous canal to the parotid, (2) through the concha, (3) through the drum, (4) into the mastoid, (5) to the carotid and Eustachian tube, (6) through the windows to the otic capsule, (7) along the facial nerve, (8) through the mastoid to the posterior fossa and sigmoid, (9) down to the jugular foramen and lower cranial nerves.
+!mf 2 | The resections on CT: sleeve (blue), lateral (green), total (pink), with dotted extensions as the disease requires.
+
+# The operation: lateral temporal bone resection | The canal en bloc.
+## What comes out
+For cancer limited to the canal without medial spread through the drum. The **canal, drum and malleus** are removed en bloc, bounded by the middle ear medially, the jaw joint capsule in front, the zygomatic root above, the mastoid behind and the infratemporal fossa below, with concha and pinna laterally as needed.
+## Incisions
+Inject 2% lidocaine with 1:100,000 adrenaline. Cut **around the concha** for a wide skin margin; keeping the upper third of the pinna helps those who wear glasses, otherwise saving fragments has little value. Make a wide incision **3 cm behind the postauricular sulcus**, into the neck if a neck dissection is planned.
+!mf 3 | A typical incision for a canal cancer: circumferential through the cartilaginous canal and a wide postauricular incision.
+## Free the soft tissue and seal the canal
+Elevate the skin a little forward, then go medially through the fibroperiosteal layer to the mastoid cortex. Raise the subperiosteal flap and join the conchal and postauricular incisions lateral to the temporalis and parotid fascia, continuing forward to masseter. Send the skin margin for frozen section. **Oversew the lateral canal** to prevent spill.
+## Mastoid and extended facial recess
+Perform a complete mastoidectomy **without thinning the canal enough to expose the cancer**. Open the facial recess and extend it by sacrificing the chorda tympani; inspect the middle ear to confirm the drum is not breached. Follow the facial nerve to the stylomastoid foramen. Separate the incudostapedial joint, remove the incus and cut the tensor tendon.
+## Free the canal below and above
+Inferiorly, drill between the facial nerve and the annulus toward the front of the canal until you reach the **jaw joint capsule** and the periosteum of the anterior tympanic ring. Superiorly, drill through the zygomatic root cells between the tegmen and the epitympanum to the endosteum of the glenoid fossa. Now only the thin **tympanic plate** holds the canal in front; extend the resection into the joint or infratemporal fossa if the cancer goes there.
+## The osteotomy
+Pass a fine osteotome through the extended facial recess to the bone **just lateral to the Eustachian tube orifice**; a few gentle taps complete the cut, and the canal comes off the joint capsule. Pack the Eustachian tube.
+!danger The carotid in front of the tube
+Stay oriented to the Eustachian tube orifice during the osteotomy: the carotid lies just medial and anterior.
+!!
+## Parotid, specimen and closure
+Perform a superficial parotidectomy with facial nerve dissection and remove the canal with the parotid; orient the specimen yourself for the pathologist. Do the neck dissection as a separate specimen. Fill the defect with an **inferiorly based temporalis flap**, helped by removing the zygomatic root, and close the conchal skin directly or with a split skin graft.
+
+# The operation: subtotal and total resection | Into the petrous bone.
+## What comes out
+For cancer through the drum into the middle ear, hypotympanum, otic capsule, facial nerve or mastoid. The main specimen usually includes the canal, drum, superficial or total parotid, mandibular condyle and facial nerve; the otic capsule, tegmen, posterior fossa plate and jugular bulb are usually drilled piecemeal (or taken en bloc), with dura, temporal lobe and infratemporal contents as needed. Margins: middle fossa dura above, posterior fossa dura and sigmoid behind, internal auditory canal anteromedially, skull base and jugular bulb below, petrous apex medially.
+## Neck control
+Complete a lateral resection. Expose and control the great vessels and lower cranial nerves in the neck and dissect the neck as the nodes require. Detach sternomastoid from the mastoid tip to show digastric and the transverse process of the atlas, exposing the jugular vein, carotid and nerves at the skull base.
+## The temporal bone
+Thin and resect the tegmen and posterior fossa plate to expose the jugular bulb. Decompress the whole facial nerve if keeping it. Open the internal auditory canal (translabyrinthine or middle fossa), divide the cochlear and vestibular nerves, and mobilise or divide the facial nerve. If cancer reaches the protympanum, resect the condyle and dissect the infratemporal fossa with total parotidectomy, carotid transposition, Eustachian tube resection and V3 as needed. Drill out the rest of the otic capsule and the vaginal process between bulb and carotid, leaving only the anterior petrous apex, and expose the vertical and horizontal carotid.
+## Sinus, bulb and dura
+If cancer is on the lateral wall of the sigmoid or bulb, ligate the jugular vein and sigmoid, open the bulb and pack it against inferior petrosal bleeding. Cancer on the **medial** bulb wall means entering the pars nervosa and taking IX, X and XI. Resect involved dura with margins and repair with fascia or pericranium; limited temporal lobe invasion can be resected, with little chance of cure. Cover the internal auditory canal with fascia and fibrin glue.
+!danger The vein of Labbé
+Injury causes temporal lobe infarction, with aphasia on the dominant side and seizures. When packing or ligating the sigmoid or transverse sinus, stay well forward of where the vein enters the transverse sinus.
+!!
+## Total resection
+For the Eustachian tube or petrous apex: after a subtotal resection, gain proximal and distal control of the intrapetrous carotid, mobilise it from the skull base, drill the remaining apex and resect or obliterate the tube.
+## Reconstruct
+Close the dura **watertight**, obliterate dead space, and use a **microvascular free flap**, the most flexible option for large defects. Avoid suction drains near the dural repair. Close the Eustachian tube completely. If a tracheostomy is made, keep it separate from the neck dissection, so CSF cannot track from the neck to the stoma.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Carotid laceration
+Options | primary repair ; patch ; saphenous vein bypass ; sacrifice without reconstruction
+Know beforehand | whether sacrifice is tolerated, from a balloon occlusion test
+!!
+!path Acute intracranial haemorrhage after surgery
+Recognise | altered consciousness ; focal signs, a fixed dilated pupil, bradycardia and hypertension
+Act | non-contrast CT ; mannitol 0.25 to 0.5 g/kg and hyperventilation if intubated
+Unstable or herniating | emergency exploration ; ventriculostomy for rapid decompression ; reopen, evacuate, find the source
+!!
+!path CSF leak
+Through the incision | horizontal mattress sutures and a pressure dressing
+Over 24 hours | lumbar drain
+Still leaking at 3 to 5 days | explore
+!!
+!path Flap in trouble
+Detect | pinprick, Doppler
+Act | back to theatre for revision or another flap ; dehiscence is commonest at the distal edge of a pedicled flap
+!!
+## Common errors in technique
+!pit
+- Lesser operations (sleeve resection, cartilaginous canal only, radical mastoidectomy) for canal cancer, which heal poorly with collapse, cholesteatoma and impaction: **a lateral temporal bone resection is the minimum**.
+- Breaching the bony canal or annulus during a lateral resection, exposing the field to cancer.
+- Losing orientation to the Eustachian tube during the osteotomy.
+- Poorly labelled frozen sections; not orienting the specimen yourself.
+- Not being prepared to extend the resection, especially for adenocarcinoma and adenoid cystic carcinoma.
+!!
+
+# Aftercare | Brain, wound, eye.
+## After the operation
+After intracranial surgery: neurointensive care, frequent neurological checks and CT next morning. Monitor heart, lungs and fluid balance; head up, stool softeners, no straining; diet as tolerated; antibiotics for 24 hours; compression stockings. Mastoid dressing for 3 to 5 days (check the wound at days 1 to 2); bolsters off at day 5; leave flaps uncovered for monitoring; watch for CSF leak and congestion of the remaining pinna or flap.
+## Eye and nerves
+For facial palsy: saline drops every 1 to 2 hours by day, lubricant and taping at night, tape slings for the lids, a moisture chamber. If recovery will be slow or absent, a gold or platinum lid weight and a lateral tarsal strip later. If working lower cranial nerves were divided, perform a **tracheostomy** and consider a **type I thyroplasty**. Gait and vestibular therapy after extensive resections.
+## Later
+Radiotherapy at about **6 weeks** or when healed. Imaging at 3 months, then every 6 months (PET helps see beneath flaps). A prosthetic ear by adhesive or osseointegrated implants after radiotherapy and healing; a bone-conduction device or CROS aid for hearing.
+## Complications
+Aspiration pneumonia, meningitis, CSF leak, intracranial haemorrhage, wound and flap problems, deformity, hearing loss, vertigo, facial and lower cranial nerve palsies, temporal lobe oedema or infarction, cerebral ischaemia.
+## Adjuvant treatment
+Postoperative radiotherapy for **T3 and T4**, strongly considered for **T2**, and for perineural invasion, close margins, nodal disease or extracapsular spread; surgery alone cures T1 with adequate margins. Radiotherapy alone gives poor survival. Chemotherapy is promising but unproven.
+
+# For the examination | What the examiner wants to hear.
+## What we do not know
+The roles of elective neck dissection, parotidectomy, primary radiotherapy and chemotherapy, and the limits of resectability (total and piecemeal resection with dural or brain involvement), remain unsettled. The disease is rare, series are small and heterogeneous, staging and treatment vary, and there is no AJCC-endorsed staging system. The editor stresses early recognition, a common staging system and long-term clinical and radiological surveillance.
+## Viva essentials
+!exam What the examiner is looking for
+- When to suspect cancer in a chronic ear.
+- The modified Pittsburgh staging and the operation for each stage.
+- Why biopsy is incisional and never a mastoidectomy.
+- The pathways: fissures of Santorini, foramen of Huschke, the drum, Eustachian tube, tegmen, windows, facial nerve.
+- The steps and boundaries of a lateral temporal bone resection; the osteotomy beside the Eustachian tube.
+- Subtotal and total resection: the carotid, the jugular bulb, the vein of Labbé.
+- Reconstruction, eye care, tracheostomy with lower cranial nerve loss.
+- Adjuvant radiotherapy by stage.
+!!
+## Common pitfalls
+!pit
+- Treating a bleeding, painful canal mass as otitis externa for months.
+- A sleeve resection for canal cancer.
+- Joining a tracheostomy to the neck dissection.
+- Active suction near the dural repair.
+!!
