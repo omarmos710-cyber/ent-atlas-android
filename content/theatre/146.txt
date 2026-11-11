@@ -1,0 +1,175 @@
+@src Myers, Operative Otolaryngology
+@stand Surgery for vertigo is a last resort. Most patients settle with medical treatment and vestibular rehabilitation, and the small number who do not can be helped only if two things are right: the diagnosis and the side. The operations fall into two families. Some address the disease while sparing function: occluding the posterior semicircular canal for intractable benign positional vertigo, or decompressing the endolymphatic sac for Ménière's disease. Others ablate the balance organ on one side and rely on the brain to compensate: vestibular nerve section, which keeps hearing, and labyrinthectomy, which destroys it. Ablation is safe only if the other ear's balance is working, because losing both sides leaves the patient with disabling oscillopsia. This chapter covers diagnosis and selection, posterior canal plugging, sac decompression and shunt, labyrinthectomy, and vestibular nerve section by the retrolabyrinthine, retrosigmoid, middle fossa and translabyrinthine routes, with a treatment ladder for Ménière's disease.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Surgery for vertigo
+ | Summary
+Principle | Only for **disabling** vestibular symptoms after failed maximal medical treatment and rehabilitation, with the **correct diagnosis and side**
+Canal plugging | Intractable posterior canal BPPV after repositioning by trained therapists or doctors; under 1% need surgery; success over 90%; not in the only hearing ear; caution in the elderly (vestibulitis and disequilibrium worse than the BPPV)
+Sac surgery | Ménière's disease after maximal medical treatment including intratympanic steroid; spares balance and usually hearing; vertigo relieved in about 60%
+Nerve section | Ménière's or uncompensated unilateral loss with **aidable hearing**; vertigo control over 95%, hearing preserved over 95%; retrolabyrinthine or retrosigmoid preferred; middle fossa an option
+Labyrinthectomy | Ménière's or uncompensated loss with **severe to profound** hearing loss; vertigo control over 95%; destroys hearing (can be combined with a cochlear implant)
+No ablation if | **Bilateral** peripheral or central vestibulopathy (oscillopsia)
+Anaesthesia | General, **no paralysis** (facial and other nerve monitoring)
+Position | Turned 180 degrees, surgeon on the operated side; pins and Mayfield for retrosigmoid, perhaps with shoulder and hip bolsters
+Medication | Cefazolin (clindamycin in allergy); dexamethasone 10 mg against postoperative vertigo and nausea
+Monitoring | Facial nerve; cochlear nerve for hearing-preservation surgery; SSEPs for intracranial procedures
+Tray | Microscope; mastoid set; otological drill; neurosurgical instruments; facial nerve dissector and stimulator
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to stop disabling attacks of vertigo after other treatment has failed.
+- **The chance of success** depends on the operation: about 60% for sac surgery, over 90% for canal plugging, over 95% for nerve section or labyrinthectomy.
+- **Hearing:** may be partly or totally lost; labyrinthectomy removes it deliberately.
+- **Imbalance** afterwards, sometimes permanent; you may struggle with heights, ladders and tasks needing fine balance, especially when older; rehabilitation is essential.
+- **Facial weakness**, taste change, tinnitus.
+- **For operations inside the skull:** leak of brain fluid, meningitis, bleeding, air inside the skull, headache, seizure, stroke, death.
+- **Ménière's symptoms** such as fluctuating hearing, fullness and tinnitus may continue after sac surgery.
+!!
+## Before you start
+Establish the frequency, duration, side and character of attacks and how long they have gone on; migraine, motion intolerance, visual symptoms and family history; seizures and cardiovascular disease; trauma; past and present drugs. Tinnitus matters mainly when **pulsatile**: think of glomus tumours, dural arteriovenous malformations, meningoceles, superior canal dehiscence, aneurysms, vascular loops and a dehiscent high jugular bulb.
+
+Office testing can identify BPPV (**Dix-Hallpike**), hypofunction, vestibulo-ocular reflex abnormalities, fistula and acute attacks. Exclude postural hypotension. Pneumatic otoscopy should not provoke vertigo or nystagmus; if it does, consider perilymph fistula or dehiscence.
+## Tests
+- **Audiogram:** early Ménière's gives a low-frequency sensorineural loss, later a flat loss; dehiscence may give a conductive loss (third window) and the **Tullio phenomenon**. Labyrinthectomy suits severe to profound loss.
+- **VNG** identifies the weak side, or **bilateral weakness**, which rules out ablation; rotary chair if available.
+- **VEMP** helps identify dehiscence or the side.
+- **MRI** with gadolinium for central lesions and nerve inflammation; **coronal CT** for superior canal dehiscence.
+- **Consult** cardiology (Holter, tilt table), neurology (headache, seizures, TIAs) and psychiatry (depression and anxiety are common).
+!senior Gentamicin and hearing
+Up to **30%** lose further hearing after intratympanic gentamicin; counsel patients with useful hearing carefully. The editor advises avoiding it in chronic ongoing vestibulopathy, which it may aggravate.
+!!
+
+# Anatomy you must see | Canals, sac and nerves.
+## Landmarks
+- **The lateral semicircular canal**, the key landmark; the **posterior canal** lies directly behind and perpendicular to it; the facial nerve and sigmoid sinus beside them.
+- **The endolymphatic sac** on the posterior fossa dura between the posterior canal and the sigmoid, always **below Donaldson's line** (a line extended backward along the plane of the lateral canal).
+- **The five vestibular end organs:** the three ampullae, utricle and saccule; the posterior ampulla lies **medial to the vertical facial nerve**.
+- **In the angle**, the vestibular part of VIII is superior to the cochlear part; in the internal auditory canal the cochlear nerve lies anterior and inferior to the facial nerve and the superior and inferior vestibular nerves lie behind. **Bill's bar** separates the facial nerve in front from the superior vestibular nerve behind.
+
+# The operation: posterior canal plugging | For intractable positional vertigo.
+## Expose the canal
+Confirm the affected canal. Through a postauricular incision, perform a cortical mastoidectomy, finding the lateral canal, incus, tegmen and sigmoid; a saline Gelfoam pledget in the antrum keeps blood and dust out of the middle ear.
+## Fenestrate and plug
+With a diamond bur, skeletonise and blue-line the posterior canal and open a **1 × 3 mm** window over its **mid-portion, midway between the ampulla and the common crus**, exposing but not breaching the membranous labyrinth. Plug the canal with bone wax, bone paste or connective tissue with a duckbill elevator, compressing and occluding the membranous duct, and cover it with fascia. If the membrane is breached, plug it anyway.
+!mf 1 | Posterior canal occlusion: (A) skeletonising the mid-portion with a small diamond bur; (B) fenestrating without breaching the membranous labyrinth; (C) packing with bone wax, paste or soft tissue; (D) the membranous labyrinth compressed and occluded.
+!danger No suction
+Suction near an opened or dehiscent canal can disrupt the membranous labyrinth and cause sensorineural loss.
+!!
+
+# The operation: endolymphatic sac decompression | Sparing balance and hearing.
+## Find the sac
+Through a cortical mastoidectomy (Gelfoam in the aditus), find the lateral canal, incus, tegmen and sigmoid, and the vertical facial nerve. Skeletonise and decompress the sigmoid as needed.
+## Decompress
+Remove the posterior fossa plate between the posterior canal and the sigmoid, following it up to and medial to the facial nerve as needed. The sac is a **fan-shaped thickening of dura**; follow it forward under the posterior canal to the operculum and duct. Decompression is then complete; Surgicel above and below can keep the sac tented off the bone.
+!mf 2 | The posterior fossa dura widely exposed, the endolymphatic sac a thickening fanning out from the posterior canal toward the sigmoid sinus.
+## Shunt, if used
+Open the sac with a Beaver blade, separate its walls and place a narrow strip of 0.005 inch Silastic sheeting.
+
+# The operation: labyrinthectomy | All five organs.
+## Open the canals in order
+After a mastoidectomy, remove the perilabyrinthine cells and identify the horizontal and vertical facial nerve. Open the **lateral canal** first, from above downward and back to the posterior canal, **leaving its inferior wall to protect the facial nerve**. Open the **posterior canal**, following it forward and down while protecting the vertical facial nerve medially; keeping its inferior wall protects a high jugular bulb. Follow it up to the common crus, then the **superior canal** up and forward, **leaving its superior wall to protect the tegmen**.
+!mf 3 | The superior wall of the lateral canal removed, the inferior wall left to protect the facial nerve.
+## Clear the vestibule
+Open the vestibule, exposing the superior and lateral ampullae, and remove the neuroepithelium of **all five end organs** with a round knife or microcurette. The **posterior ampulla lies medial to the vertical facial nerve** and needs a deliberate effort. Leave the medial vestibular wall to protect the internal auditory canal and avoid a CSF leak.
+!mf 4 | The five areas of neuroepithelium exposed and removed systematically.
+!danger The posterior ampulla
+Leaving neuroepithelium in the posterior ampulla is the commonest cause of persisting vertigo after labyrinthectomy.
+!!
+
+# The operation: retrolabyrinthine nerve section | Hearing kept.
+## Exposure
+Incise **2 to 3 cm** behind the ear crease from above the temporal line to the mastoid tip; raise an anterior skin flap and a large Palva or T-based flap. Perform a complete mastoidectomy exposing the canals, incus, tegmen and sigmoid; remove bone over the posterior fossa dura, sinodural angle and tegmen. **Preserve the endolymphatic sac.**
+## Into the angle
+Open the dura between the sigmoid and the posterior canal as a C or U flap. Protect the cerebellum with a ½ × 3 cm patty and open the cerebellopontine cistern to drain CSF; the cerebellum falls away to show the VII-VIII complex. Confirm the facial nerve by stimulation.
+!mf 5 | Retrolabyrinthine exposure of the posterior fossa: V, VII, VIII and IX to XI.
+## Find the plane and cut
+Find the cleavage plane between the cochlear and vestibular parts of VIII, marked by a **small vessel** or a slight groove, the cochlear part being **whiter**. Separate them with a ball dissector or Rhoton, divide the vestibular part with curved bayonet scissors or a nerve knife from the superodorsal surface, exposing the nervus intermedius, and **remove a short segment** so the ends cannot rejoin.
+!mf 6 | The perineural plane between cochlear and vestibular nerves, often marked by a small vessel or groove on the nerve's dorsal surface.
+!mf 7 | Separating the cochlear and vestibular nerves.
+!mf 8 | Dividing the vestibular nerve, starting from the superodorsal surface of VIII.
+## Close
+Secure haemostasis, remove the patty, close the dura (or patch with homograft) and seal with fibrin glue; seal the antrum with fascia and pack the mastoid with abdominal fat. Admit until the severe vertigo settles.
+
+# The operation: retrosigmoid nerve section | Behind the sinus.
+## Exposure
+Supine in pins, the head flexed about 45 degrees and turned away with a soft shoulder roll; some give mannitol. Make an oblique incision from posterosuperior toward the mastoid tip over the sigmoid (navigation helps), raise anterior and posterior flaps, and occlude the mastoid emissary vein.
+!mf 9 | The skin incision for a retrosigmoid vestibular nerve section.
+!mf 10 | Surface anatomy: the asterion, squamosal, lambdoid and occipitomastoid sutures and the estimated course of the transverse and sigmoid sinuses.
+## Craniotomy and section
+Make a **1.5 to 2 cm** craniotomy, sometimes exposing the back of the sigmoid; wax the cells, open a C or U dural flap, then proceed as for the retrolabyrinthine section.
+## Close against headache
+Fill the craniotomy with bone dust and chips wrapped in Surgicel or replace the bone flap (plates or hydroxyapatite cement are alternatives) to reduce headache.
+
+# The operation: middle fossa and translabyrinthine section | When others fall short.
+## Middle fossa
+Its advantage is identifying the superior, inferior and singular nerves for complete section; its disadvantages are temporal lobe retraction, greater risk to hearing and facial nerve, and headache. Make a **4 × 5 cm** craniotomy, two thirds in front of the ear canal, and keep the bone flap in antibiotic solution. Elevate the dura to see the middle meningeal artery in front, the petrous ridge medially and the arcuate eminence behind, **without stretching the greater superficial petrosal nerve**, the commonest cause of facial injury here. Find the canal by **bisecting the angle between the GSPN and the arcuate eminence** (or with navigation), drill from medial to lateral sparing the basal turn, and expose Bill's bar. Open the canal dura, section the superior vestibular nerve and reflect it medially to reach the inferior vestibular and singular nerves, and remove **Scarpa's ganglion**. Close the dura, plug with muscle, let the lobe re-expand and plate the flap.
+!mf 11 | Middle fossa craniotomy.
+!mf 12 | The floor of the middle fossa: middle meningeal artery, GSPN, facial, cochlear and vestibular nerves.
+!mf 13 | Exposure of the internal auditory canal from the middle fossa: GSPN, geniculate ganglion, arcuate eminence.
+## Translabyrinthine
+Very rare, after a failed labyrinthectomy, to remove Scarpa's ganglion. Begin as a labyrinthectomy, drill 270 degrees of the lateral canal up to the superior ampulla, identify the transverse crest, open the dura and section the nerves laterally to medially, separating the superior nerve from the facial nerve and removing segments of it and the inferior and singular nerves. Remove the incus, isolate the epitympanum from the antrum with fascia, and pack the mastoid with fat. It adds risk to the facial nerve and of CSF leak.
+!mf 14 | The fundus of the canal: the transverse crest and Bill's bar, with the facial, superior and inferior vestibular and singular nerves.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Facial paralysis
+Usual cause | stretching ; sometimes direct injury
+Act | high-dose steroids for 7 to 10 days ; repair a cut nerve at once ; reanimation if it does not recover
+!!
+!path CSF leak
+Early | lumbar drain and pressure dressing
+Persistent | reoperate to seal the defect
+!!
+!path Intracranial problems
+Bleeding | neurosurgery: evacuate and control
+Pneumocephalus | headache ; observe as it resolves, or evacuate with neurosurgical advice
+!!
+## Common errors in technique
+!pit
+- Operating on the wrong side or for the wrong diagnosis.
+- Ablating a patient with bilateral vestibular loss.
+- Fenestrating the posterior canal near the ampulla or common crus instead of its middle.
+- Suction near an open canal.
+- Leaving the posterior ampulla's neuroepithelium.
+!!
+
+# Aftercare | Rehabilitation.
+## After the operation
+Discharge extracranial cases when the patient walks safely and eats; after intracranial procedures, neurosurgical intensive care until stable. Treat vertigo with promethazine, diazepam or lorazepam (ondansetron and meclizine seem less effective). Antibiotics for 7 days or perioperatively only, by preference. **Vestibular rehabilitation** for every ablative procedure; some need short-term disability leave.
+## Complications
+!table Complications
+Complication | Notes
+Vertigo and disequilibrium | Common early; rehabilitation; lorazepam for acute vertigo
+CSF leak | Lumbar drain, pressure, reoperation
+Meningitis | Intravenous antibiotics
+Hearing loss | Aids, osseointegrated or cochlear implants
+Taste change | Chorda stretched or cut; recovers over 1 to 9 months, persists in about 2%
+Facial paralysis | Steroids, repair, reanimation
+Intracranial bleeding, pneumocephalus, headache | Neurosurgery; analgesia; pain or neurology services for chronic headache
+!!
+## Alternatives
+A **transcanal labyrinthectomy** is quicker for those who need a short anaesthetic. For those unfit or unwilling, vestibular suppressants, intratympanic steroid or gentamicin, and physiotherapy for safe walking.
+
+# For the examination | What the examiner wants to hear.
+## A ladder for Ménière's disease
+"Do no harm": choose the most likely success with the fewest complications. **Intratympanic steroid** controls about 90% at a year in a recent English study, a little better than gentamicin, which risks hearing (up to 30%). When steroid fails, weigh **sac surgery** (no significant risk to hearing or balance, success quoted at about 65% here and 60% earlier in the chapter) against office **gentamicin**. If sac surgery fails and hearing is to be kept, **vestibular nerve section** (under 5% risk of significant hearing loss, but intracranial) may be better than gentamicin. **Labyrinthectomy** comes last, destroying hearing and balance. The editor adds that canal occlusion has replaced singular neurectomy for BPPV, that Epley manoeuvres rarely fail, that the opposite ear's function must be known before ablation, and that the nerve orientation in the canal must be mastered.
+## Viva essentials
+!exam What the examiner is looking for
+- Selection: failed medical treatment, correct side and diagnosis, the other ear working.
+- Bilateral loss and oscillopsia.
+- Posterior canal occlusion: where to open it and why; no suction.
+- The endolymphatic sac and Donaldson's line.
+- Labyrinthectomy order; the walls left to protect the facial nerve, bulb and tegmen; the posterior ampulla.
+- Nerve section: the cochleovestibular plane (vessel, colour), nerve orientation in the angle and canal.
+- Middle fossa: finding the canal from the GSPN and arcuate eminence; Scarpa's ganglion.
+- Success rates and the Ménière's ladder.
+!!
+## Common pitfalls
+!pit
+- Plugging the wrong canal.
+- Gentamicin in a good-hearing ear without counselling.
+- Stretching the GSPN in middle fossa surgery.
+- Forgetting rehabilitation.
+!!

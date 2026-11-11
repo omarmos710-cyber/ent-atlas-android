@@ -1,0 +1,165 @@
+@src Myers, Operative Otolaryngology
+@stand Acoustic neuromas, vestibular schwannomas, are the commonest lesions of the posterior cranial fossa: benign, encapsulated tumours of the Schwann cells of the vestibular nerve, usually starting in the internal auditory canal and growing 1 to 2 mm a year, though some never grow and a few become life-threatening. Three strategies exist: watch with serial MRI, treat with stereotactic radiation to stop growth, or remove the tumour, the only cure. Surgery itself has three routes, chosen by tumour size and position, the patient's hearing, age and health, and the team's preference: the translabyrinthine approach, which sacrifices hearing but gives a direct path to the angle with almost no brain retraction and the facial nerve found where it is most reliable; the retrosigmoid approach, versatile and able to save hearing even when the tumour fills the angle; and the middle fossa approach, for small, lateral, hearing-preservation tumours. Throughout, tumour removal and the facial nerve come first, hearing second. This chapter covers diagnosis, the evidence for each strategy, the three operations, and their complications.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Acoustic neuroma
+ | Summary
+Strategies | Observation ("watch and scan"); stereotactic radiation; microsurgical resection (the only cure)
+Translabyrinthine | No serviceable hearing, or hearing preservation unlikely; little or no brain retraction, no intradural drilling, the facial nerve found reliably at the meatal foramen
+Retrosigmoid | Hearing preservation with limited lateral canal extension, including tumours extending **more than 0.5 cm into the angle**; when hearing is not to be saved, its choice over translabyrinthine for medium and large tumours is the surgeon's (the authors prefer translabyrinthine)
+Middle fossa | Hearing preservation for **small, laterally based** tumours; poor posterior fossa access, needs temporal lobe retraction; caution in the elderly
+Hearing worth saving | SRT (or PTA) of at least **50 dB** and discrimination of at least **50%**
+Contraindications | Medical unfitness (observe, and radiate if it grows, with CSF diversion for hydrocephalus); **brainstem or cerebellar compression contraindicates radiation** (tumours swell for about 18 months afterwards), so offer surgery
+Anaesthesia | General
+Position | Translabyrinthine: supine, head on a foam ring. Middle fossa: supine in pins, the retractor fixed to the pins so head and retractor move together. Retrosigmoid: lateral or prone in pins
+Medication | Cefazolin before incision, and in drill and wound irrigation; dexamethasone 10 mg; **famciclovir 500 mg three times daily** for 3 days before and 4 days after surgery against delayed facial palsy
+Monitoring | Facial nerve; ipsilateral ABR for hearing preservation; for large tumours contralateral ABR and vagal EMG tube
+Tray | Middle ear and skull base microsurgical sets; microscope allowing face-to-face four-handed work; otological drill; middle fossa retractor
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to remove a benign tumour on the balance nerve; the alternatives are watching it with scans or treating it with focused radiation.
+- **Hearing:** lost completely with the translabyrinthine approach; may be lost even when we try to save it.
+- **Facial weakness**, immediate or delayed, usually recovering; rarely permanent; eye protection meanwhile.
+- **Imbalance**, improving with vestibular therapy.
+- **Leak of brain fluid**, meningitis, bleeding inside the skull, stroke.
+- **Headache**, occasionally long-lasting, especially after the retrosigmoid approach.
+- **Rarely:** tracheostomy, feeding tube, locked-in syndrome or death.
+- **Radiation's risks** are similar but can appear years later, and include hydrocephalus and, very rarely, a radiation-induced cancer.
+!!
+## Before you start
+Hearing loss is usually gradual; **5% present with sudden loss**; **asymmetric hearing loss is an acoustic neuroma until proven otherwise**. Vestibular symptoms are usually motion intolerance rather than vertigo. Facial weakness is rarely a presenting sign. Large tumours cause trigeminal numbness, diplopia (VI), dysphagia, hoarseness and aspiration (IX, X), and raised pressure with headache and papilloedema. A previous schwannoma or meningioma, an opposite-side tumour or a family history suggests **NF2**, which is managed differently.
+
+Examine the ears under the microscope (a perforation raises the risk of CSF otorrhoea; an inflamed mastoid affects the choice of transtemporal route), all cranial nerves (VII especially), and look for **Bruns' nystagmus** in large tumours: coarse, slow nystagmus looking toward the tumour (brainstem) and fine, fast nystagmus looking away (vestibular). Test gait, Fukuda stepping and head thrust.
+## Tests and imaging
+- **Audiometry** (air, bone, speech).
+- **Vestibular battery:** rotational chair, VEMP and VNG as a baseline and a guide to therapy.
+- **ENoG** for subclinical facial compromise.
+- **ABR** in large tumours (baseline for contralateral brainstem monitoring) and to judge the cochlear nerve before hearing preservation.
+- **MRI with gadolinium** is the gold standard, near 100% sensitive (false positives occur), finding tumours of 1 to 2 mm; **T2** shows the nerve of origin and whether a **CSF cap at the fundus** may help hearing preservation.
+- Where MRI is impossible, **ABR with CT** (ABR sensitivity 82%, 95.6% for tumours over 1 cm).
+- **Non-contrast CT** for planning: mastoid pneumatisation, sigmoid-to-canal distance and jugular bulb height (translabyrinthine); arcuate eminence, superior canal and pneumatisation over the canal (middle fossa); petrous pneumatisation, sigmoid, bulb and canal height (retrosigmoid).
+## Choosing the strategy
+- **Observation:** avoid treatment that adds more harm than the natural course. In the Danish series, 17% of intrameatal and 28.9% of extrameatal tumours grew within 5 years, and 45% lost class A hearing regardless of growth. Growth cannot be predicted, so follow-up must be close.
+- **Stereotactic radiation:** single-dose radiosurgery or 3 to 5 fraction radiotherapy, now at lower doses (12 Gy single, 18 Gy fractionated) with similar control and fewer neuropathies. Control is 90 to 95% overall but **80 to 85% in growing tumours**; useful hearing falls to about **20% at 5 years** (Mayo); there is no specimen, and eight radiation-induced malignancies have been reported. The authors radiate only tumours that have grown, and rarely the young.
+- **Microsurgery** cures, controls mass effect and gives a diagnosis; results are best in high-volume centres.
+
+# Anatomy you must see | The canal and its nerves.
+## Landmarks
+- **The facial nerve**, intratemporal and intracranial, preserved throughout.
+- **The labyrinth:** the lateral canal for translabyrinthine orientation, the superior canal for the middle fossa.
+- **The fundus of the canal:** the **transverse crest** separates superior and inferior vestibular nerves; the **vertical crest (Bill's bar)** separates the superior vestibular nerve behind from the **facial nerve in front**.
+!mf 2 | The vestibular nerve and tumour separated from the facial nerve in the canal and dissected toward the porus and angle; Bill's bar, the transverse crest, and the cochlear, facial and vestibular nerves.
+
+# The operation: translabyrinthine | Through the labyrinth.
+## Expose the temporal bone
+A C-shaped postauricular incision with staggered periosteal incisions. Perform a complete mastoidectomy, uncovering the middle and posterior fossa dura and the sigmoid sinus.
+## Labyrinthectomy and the facial nerve
+Remove the labyrinth and identify the facial nerve in its mastoid segment.
+## Open the canal
+Drill an **inferior trough** between the canal and the jugular bulb, with the **cochlear aqueduct** as the anteroinferior limit, and a **superior trough** between the middle fossa dura and the canal, exposing **270 degrees** of the canal dura.
+!mf 1 | The canal skeletonised to 180 to 270 degrees; the facial nerve found as it leaves the canal at Bill's bar.
+## Obliterate the Eustachian tube
+Remove the incus, cut the tensor tendon and pack the tube with alternating temporalis muscle and fibrillar Surgicel.
+## Find the facial nerve in the canal
+Divide the superior vestibular nerve at **Bill's bar** to show the facial nerve in front of it, and dissect the tumour off the nerve medially until the plane is lost at the porus.
+!see What you should see
+- The transverse crest dividing the vestibular nerves, Bill's bar, and the facial nerve anterior to the divided superior vestibular nerve.
+!!
+## Debulk and remove
+Debulk large tumours fast with two surgeons and four hands. Remove the last tumour and capsule under continuous monitoring; if total removal would sacrifice the nerve, leave a little on it (**near-total removal**, low recurrence risk).
+!mf 3 | The two-surgeon, four-handed technique: surgeons face each other, both with instruments in the field.
+!danger A firing facial nerve
+When the monitor shows the nerve firing from irritation, stop: you cannot read changes while it fires, and pressing on harms it.
+!!
+## Close watertight
+Fill the dural defect with **abdominal fat** (left lower quadrant) or acellular dermis and reconstruct with **hydroxyapatite cement** for a watertight seal. Close the musculoperiosteal flaps, then the skin in two layers (2-0 Vicryl, then running locked 3-0 Vicryl Rapide); Steri-Strips and a cup dressing.
+
+# The operation: retrosigmoid | Behind the sinus.
+## Craniotomy
+A retromastoid incision to the nuchal muscles; musculoperiosteal flaps expose the retrosigmoid bone. Make a craniotomy bounded by the **sigmoid** in front and the **transverse sinus** above, and wax the mastoid cells.
+## Relax the cerebellum
+Open the dura over the cerebellum, support it with a Telfa strip and suction, and **open the cisterna magna**, releasing CSF patiently so the cerebellum relaxes without injury.
+## Drill the canal
+Debulk the angle tumour first if it blocks drilling. Reflect the canal dura down as a semicircular flap and drill **270 degrees** of the canal. In hearing preservation expose only the **medial two thirds**: further laterally you enter the inner ear.
+!mf 4 | After opening the dura, the canal exposed about 180 degrees by drilling troughs on either side.
+## Remove the tumour and seal
+Remove the tumour as in the translabyrinthine route. Wax the canal's air cells and plug the canal with muscle.
+!danger Opened air cells
+Unsealed petrous air cells around the canal let CSF escape to the middle ear and nose. Wax every opened cell.
+!!
+## Close
+Fill the subarachnoid space with saline, close the dura primarily or with a graft, reconstruct with hydroxyapatite cement, and close as before.
+
+# The operation: middle fossa | Above the canal.
+## Craniotomy on the zygomatic root
+A vertical preauricular incision to temporalis; divide it to expose the squama and find the **zygomatic root**, the level of the middle fossa floor. Make a **5 × 5 cm** craniotomy centred on it, flush with the floor.
+## Elevate the dura
+Raise the dura **from back to front** to protect the geniculate ganglion and facial nerve, **dehiscent in up to 15%**, forward to the foramen spinosum and medially to the superior petrosal sinus and petrous ridge. Fix the retractor (two spatulas on gooseneck arms) to the head frame.
+## Find the landmarks
+Find the geniculate ganglion by antidromic stimulation of the **greater superficial petrosal nerve**. Find the **superior canal** directly, or through the tegmen cells; blue-line it, and occlude it with wax if more room is needed.
+## Drill the canal
+Drill **from medial to lateral**; laterally the cochlea lies close in front and limits exposure.
+## Remove the tumour
+Open the canal dura and separate the **facial nerve, which lies anteriorly**, from the tumour first; dissect **medial to lateral** to protect the cochlear fibres at the habenula perforata.
+!mf 5 | An intracanalicular tumour dissected from the facial and cochlear nerves through the middle fossa.
+## Close
+Cover the bony defect with fat or acellular dermis, remove the retractors, replate the bone flap, and close the fascia and skin.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Facial weakness after surgery
+Nerve stimulates at low current at the end | good outlook ; delayed palsy also does well
+Eye | drops, night ointment, moisture chamber ; platinum lid weight if stimulation was poor or the palsy lasts over a month
+Nerve divided | immediate direct repair ; otherwise nerve substitution (V to VII, XII to VII)
+!!
+!path CSF leak
+From the wound | extra sutures and a tight mastoid dressing ; lumbar drain if it persists
+From the nose | lumbar drain first ; then surgery: reopen and wax air cells after middle fossa or retrosigmoid surgery ; if hearing is gone, obliterate the Eustachian tube with muscle, Surgicel or cement
+Recalcitrant | close the ear canal, remove all canal and drum skin, obliterate the tube, middle ear and mastoid
+!!
+## Common errors in technique
+!pit
+- Too little bone removed in translabyrinthine surgery.
+- A misplaced middle fossa or retrosigmoid craniotomy, limiting medial exposure.
+- Stimulating or dissecting a firing facial nerve.
+!!
+
+# Aftercare | Intensive care, then walking.
+## After the operation
+Intensive care for 1 to 2 days. **CT of the head and temporal bones** next morning; if there is no bleeding, start subcutaneous heparin. Blood count and chemistry. Walk early: early **vestibular physiotherapy** has cut the authors' average stay to 3.5 days.
+## Complications
+!table Complications
+Complication | Notes
+Facial paralysis | Immediate or delayed even with an intact nerve; eye care; repair or substitution if divided
+CSF leak | Wound or nose; cement has reduced it; see the drill
+Intracranial haemorrhage | Managed by site and size
+Hearing loss | Can occur even with good ABR at the end; CROS aids, bone-conduction implants
+Headache | Limit bone dust spread and muscle-dura adhesion; worst after retrosigmoid surgery
+Stroke, meningitis, wound infection | Uncommon
+!!
+
+# For the examination | What the examiner wants to hear.
+## The evidence
+- **Near-total versus total removal:** leaving small remnants on critical structures may reduce morbidity; prospective long-term trials are under way.
+- **Delayed facial palsy:** a retrospective House Clinic report suggests steroids and antivirals beforehand, as for Bell's palsy, prevent it.
+- **Trends:** in SEER (8330 patients, 2004 to 2011) 48% had surgery, 24% radiation alone and 29% observation; surgery fell and observation rose; younger patients and larger tumours were operated on. The senior author's 1709 tumours: observation 47%, translabyrinthine 32%, middle fossa 11%, retrosigmoid 7%, radiation 3%.
+## Viva essentials
+!exam What the examiner is looking for
+- Asymmetric loss is a schwannoma until proven otherwise; MRI is the gold standard.
+- Bruns' nystagmus.
+- The 50/50 rule for hearing worth saving.
+- The three strategies and their outcomes; why compression rules out radiation.
+- The three approaches: indications, advantages, limits.
+- Fundus anatomy: transverse crest, Bill's bar, the facial nerve in front.
+- Eustachian tube obliteration; fat and cement closure.
+- Managing a CSF leak and facial palsy.
+!!
+## Common pitfalls
+!pit
+- Missing NF2.
+- Radiating a tumour that compresses the brainstem.
+- Fixing the middle fossa retractor to the table instead of the pins.
+- Drilling the lateral third of the canal in hearing preservation retrosigmoid surgery.
+!!

@@ -1,0 +1,127 @@
+@src Myers, Operative Otolaryngology
+@stand Cancer of the tongue base used to mean an open operation (a suprahyoid pharyngotomy or a lip-split mandibulotomy) or, increasingly, chemoradiotherapy, whose long-term toll on swallowing became clear only with time. Transoral robotic surgery opened a third way: a precise resection through the mouth that preserves function and, unlike radiation, yields a specimen, so the true stage and histological risk factors decide who needs adjuvant treatment and how much. It is now the commonest approach to T1 and T2 tongue base cancers. Its two hardest parts are choosing the right patient and getting the exposure. Its one great danger is the lingual artery and its dorsal lingual branch at the lateral edge of the resection, which must be clipped in the mouth and, in the authors' practice, ligated in the neck beforehand. This chapter covers selection, the staged neck dissection, setting up the robot and retractor, the resection sequence, and the bleed after surgery.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Transoral robotic surgery for tongue base tumours
+ | Summary
+Indications | Any tongue base tumour resectable through the mouth; ideal candidates are those expected to avoid adjuvant chemotherapy or chemoradiotherapy while keeping speech and swallowing
+Contraindications | **Deep involvement of more than half the tongue base** (function, and the risk of devascularising the tongue by sacrificing both lingual arteries); invasion of the skull base, hyoid, great vessels or mandible; deep extrinsic muscle involvement; large glossotonsillar sulcus cancers risking carotid exposure
+Caution | Previous radiotherapy (planes obliterated, slow healing); severe heart or lung disease (chemoradiotherapy may suit better); inherited coagulopathy (wounds heal by secondary intention)
+Uncertain exposure | A staging examination under anaesthesia with the FK-WO retractor first
+Neck | The authors stage the neck dissection **before** the robotic resection, **ligating the lingual and facial arteries** and a third branch (named as the superior laryngeal artery in one place and the superior thyroid in another), which reduces oedema and avoids a pharyngocutaneous fistula
+Fire safety | FiO2 under 30%; a cuffed tube that does not leak; eye goggles
+Anaesthesia | Full paralysis for the retractor; GlideScope oral intubation (awake fibreoptic if difficult); **wire-reinforced** tube sutured through the nasolabial fold on the side away from the tumour
+Position | Table turned 180 degrees and lowered fully, the crown at the table edge; no shoulder roll
+Robot | Docked on the right at 30 degrees, its foot touching the table base, the camera pivot at the oral commissure; arms high and in a V
+Antibiotics | Cefazolin and metronidazole 1 hour before incision; clindamycin in allergy
+Tray | Feyh-Kastenbauer-Weinstein-O'Malley (FK-WO) retractor; curved laryngeal clip appliers; paediatric Yankauers; 5 mm spatula cautery and Maryland dissector; 0 and 30 degree **12 mm** scopes (the 8.5 mm scope is shorter and collides)
+Skills | Formal training, credentialing and proctoring in robotic surgery
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to remove the cancer at the back of the tongue through the mouth, so its true extent is known and further treatment matched to it.
+- **Bleeding** in 3 to 8%, from minor oozing to a life-threatening bleed into the airway that needs urgent intubation and theatre; the arteries are tied in the neck beforehand to reduce this.
+- **Pain** for some weeks; no anti-inflammatory painkillers for 2 weeks.
+- **Swallowing** difficulty; a feeding tube at first, sometimes at home.
+- **Tongue swelling**: you may stay on the breathing tube for a day or two.
+- **Damaged teeth**; close or positive margins needing more surgery; radiotherapy or chemoradiotherapy may still be needed.
+- **A leak into the neck** if the neck is operated on at the same time.
+!!
+## Before you start
+Note age; ask about dysphagia, otalgia, odynophagia, aspiration, weight loss and breathlessness. **Existing dysphagia or aspiration** may mean prolonged tube feeding and suggests deep submucosal spread; **otalgia** suggests perineural invasion or epiglottic involvement. Record previous radiotherapy, cardiopulmonary fitness and bleeding disorders; previous biopsies, cervical spine or jaw joint surgery; family bleeding or anaesthetic problems; smoking and alcohol. Stop anticoagulants (warfarin, clopidogrel, aspirin) before and ideally for **2 weeks after** surgery; ginkgo, fish oil and vitamin E also raise the risk; long-term steroids slow healing.
+## Examination and imaging
+Examine the tongue base directly and with a flexible scope (glossotonsillar sulcus, vallecula, epiglottis, extension to the midline) and **palpate** it to judge depth. Count neck nodes and note contralateral or fixed ones (extracapsular spread). Judge mouth opening, mandibular size and position, tongue size and teeth for exposure. **MRI** appears best for depth of invasion into the intrinsic and extrinsic muscles (CT also shows nodes and extracapsular spread); obvious deep parapharyngeal, extrinsic muscle or hyoid involvement may rule out transoral resection; sagittal images show anterior extent. PET-CT stages the disease.
+
+# Anatomy you must see | Landmarks at the tongue base.
+## Landmarks
+The **glossotonsillar sulcus**, the **vallecula**, the **epiglottis**, the **hyoid**, and the **lingual artery** with its **dorsal lingual branch**, met at the lateral edge of the resection about **1 to 2 cm deep**.
+
+# The operation, stage by stage | Lateral, anterior, medial, deep.
+## Set up the robot
+Turn and lower the table, the head at the edge. Dock the robot on the right at 30 degrees with its foot touching the table base and the camera pivot at the oral commissure. To avoid collisions, raise the camera arm's pivot inward and to maximum height, lower the scope fully into the mouth, then bring the arm down until the camera touches the posterior pharyngeal wall, and raise the scope for the best view. Set the instrument arms in a V and lower them until the cannula tips reach the retractor frame, then advance the instruments into view.
+!mf 1 | The robotic arms set up for a transoral resection.
+!note The first two figure captions
+In the book the captions of figures 36.1 and 36.2 appear exchanged: the text refers to the arm set-up as figure 36.1 and to the FK-WO retractor as figure 36.2, which matches the images. They are captioned here by what they show.
+!!
+## Examine and mark
+Examine under anaesthesia and palpate the tumour's site, size and mobility. **Paint endophytic tumours with methylene blue**, as retraction can hide them. Start with the 0 degree scope; use 5 mm instruments, the spatula cautery on the tumour side and the Maryland dissector opposite.
+## Retract
+Place a midline traction suture in the tongue and a guard on the upper teeth. With gentle forward traction, insert the FK-WO retractor, sliding the lateral tongue under the blade's straight edge with the slotted edge medial, and open it, keeping **a cuff of normal tongue between the blade tip and the tumour** for an anterior margin. Suspend it from a chest support and laterally from an endoscope holder. Move the tube away from the tumour and fix it with a suture between the lateral tongue and retromolar trigone.
+!mf 2 | The FK-WO retractor.
+!mf 3 | The endotracheal tube lateralised after the retraction suture is placed.
+## The lateral incision
+The bedside surgeon sits at the head with two baby Yankauers to retract, clear smoke and help with haemostasis. If the sulcus is free, start in the **tonsillar fossa** and extend to the lateral tongue base for a lateral mucosal margin; if cancer involves the sulcus, take the **constrictors and styloglossus** with it.
+!mf 4 | The initial incision through the glossotonsillar sulcus to set the lateral margin.
+## The anterior incision
+Cut **horizontally just below the retractor tip**, about **1 cm deep**, so the tumour falls back into the field.
+!mf 5 | The horizontal incision at the anterior margin.
+## The medial incision
+Swap the arms so the cautery is on the side away from the tumour, and cut **vertically in the midline** from the medial end of the horizontal incision down to the vallecula to set the depth, with strong lateral and medial retraction from the assistant. There is usually little bleeding here, and the epiglottis comes fully into view.
+!mf 6 | The midline vertical incision establishing the depth.
+## Resect medial to lateral, angled forward
+Resect from medial to lateral along the horizontal incision, angling the instruments **forward along an imaginary line from the retractor blade to the hyoid**: the tendency is to cut back too soon and truncate the specimen.
+!danger Undercutting the cancer
+Cutting straight down at the anterior line rather than angling toward the hyoid undercuts the tumour and thins the anterior muscle margin.
+!!
+## Clip the lingual artery
+At the lateral tongue base, at a depth of 1 to 2 cm, find the **lingual artery and its dorsal lingual branch**: isolate them and place a **string of clips** along the exposed vessel. Clip every vessel over 2 mm in several places. If an artery is cut, the assistant presses on the neck at the **greater horn of the hyoid**.
+!mf 7 | Exposing and clipping the lingual artery and its dorsal lingual branches.
+## Margins and finishing
+Orient the specimen with the pathologist; check equivocal margins by frozen section; ink close or positive areas on the patient with methylene blue and re-resect. Perform several Valsalvas, secure haemostasis with cautery and clips, and apply Arista powder. Pass a nasogastric tube under vision and fix it away from the wound. If tongue swelling is expected, keep the patient intubated, **exchanging the wire-reinforced tube** for an evacuation (Hi-Lo Evac) tube, because a biting patient can crush a reinforced tube irreversibly.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Major bleeding after surgery
+Danger | aspiration and airway loss rather than exsanguination
+Position | head down and dependent
+Press | externally near the greater horn of the hyoid
+Airway | intubate and pack the oropharynx with gauze ; cricothyrotomy if intubation fails
+Then | theatre at once to explore and control
+!!
+!path Teeth loosened by the retractor
+Act | remove loose teeth to prevent aspiration ; dental referral for chipped or avulsed teeth
+!!
+## Common errors in technique
+!pit
+- Poor exposure from the robot or retractor position.
+- Undercutting at the anterior line instead of angling toward the hyoid.
+- Not clipping the lingual artery and dorsal lingual branch in several places, and not ligating the lingual artery in the neck.
+!!
+
+# Aftercare | Airway, feeding, pain.
+## After the operation
+Keep at-risk patients intubated for **24 to 48 hours**; the authors now give a single 10 mg dose of dexamethasone in theatre and more only for oedema (previously 6 mg every 6 to 8 hours then a tapering course). A prophylactic fine-bore feeding tube goes in at surgery; the speech therapist assesses at the bedside, then clear fluids advancing to a soft diet; remove the tube before discharge if intake is adequate, otherwise send the patient home with tube feeds and reassess in 1 to 2 weeks. Involve a dietitian if nutrition is a concern. Expect significant pain: a PCA, then oral opioids; **no NSAIDs for 2 weeks**. Chlorhexidine (Peridex) swish and spit at least four times a day.
+## Complications
+!table Complications
+Complication | Notes
+Postoperative haemorrhage | 3 to 8%; prevent by neck ligation and multiple clips; see the drill
+Intraoperative bleeding | Lingual artery and dorsal lingual branch
+Close or positive margins | Re-resect
+Pharyngocutaneous fistula | With a concurrent neck dissection and extensive sulcus resection
+Airway oedema | Prolonged retraction; stay intubated
+Dental injury | Guards; remove loose teeth
+!!
+## Alternatives
+Primary chemoradiotherapy; open approaches (lip-split mandibulotomy, transhyoid pharyngotomy).
+
+# For the examination | What the examiner wants to hear.
+## Robotic or open?
+Ford and colleagues (2014) matched 130 cases by stage and adjuvant treatment, with similar HPV status: 3-year recurrence-free survival was **89%** after robotic surgery against **73%** after open surgery. The editor notes that since 2004 the robot has changed tongue base surgery from rare open procedures to the commonest approach for T1 and T2 cancer, with growing evidence for quality of life and cost, and that dual consoles have made it teachable in defined steps.
+## Viva essentials
+!exam What the examiner is looking for
+- Why a surgical specimen matters: staging and adjuvant decisions.
+- Selection and contraindications, especially more than half the tongue base.
+- Staged neck dissection and arterial ligation.
+- Fire safety and the airway.
+- Robot docking and retractor placement.
+- The incisions: lateral, anterior, medial, then medial to lateral angled to the hyoid.
+- The lingual artery: depth, clips, neck pressure point.
+- Managing a postoperative bleed.
+!!
+## Common pitfalls
+!pit
+- Forgetting methylene blue for an endophytic tumour.
+- Leaving a biting patient intubated with a reinforced tube.
+- NSAIDs in the first fortnight.
+!!

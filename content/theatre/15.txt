@@ -1,0 +1,125 @@
+@src Myers, Operative Otolaryngology
+@stand Early supraglottic cancer is cured as often by surgery as by radiotherapy, and surgery done through the mouth keeps the larynx without the morbidity of an open supraglottic laryngectomy. Transoral laser microsurgery proved that endoscopic resection controls disease as well as open surgery; transoral robotic surgery, introduced by Weinstein and colleagues in the mid-2000s, adds angled, wristed instruments and a magnified view that reach around corners the microscope's straight line cannot, with shorter operations and stays, and less need for tracheostomy and tube feeding. The operation suits superiorly placed T1 and T2 tumours of the epiglottis, aryepiglottic folds and false folds in patients whose anatomy lets a retractor expose them, and whose lungs can tolerate some aspiration. Its single most dangerous moment is the superior laryngeal artery in the lateral pre-epiglottic space, which must be clipped or coagulated deliberately, because a bleed after surgery can take the airway in minutes. This chapter covers selection, exposure, the resection sequence, and the airway and swallowing afterwards.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Supraglottic transoral robotic surgery
+ | Summary
+Indications | **T1 and T2** squamous carcinoma of the supraglottis; selected recurrent supraglottic or hypopharyngeal cancer; glottic cancer only in small series
+Contraindications | Inadequate exposure; **vocal fold fixation**; extralaryngeal soft tissue spread; cartilage destruction; bilateral glottic involvement; major tongue base invasion; **arytenoid fixation**; poor cardiopulmonary reserve; advanced neck disease needing concurrent chemoradiotherapy afterwards (relative)
+Consider open surgery | Significant pre-epiglottic or glottic involvement, where framework must come as a margin and the arytenoids repositioned
+Adjuvant treatment | 51% needed it in a large European series; N2/N3 or obvious extracapsular spread on imaging may be better treated with primary chemoradiotherapy
+Classification | Remacle's European Laryngological Society types for endoscopic supraglottic laryngectomy apply
+Anaesthesia | Airway plan agreed beforehand; a **small** tube; nasal intubation can help exposure; fibreoptic or otolaryngologist intubation for bulky tumours; paralysis helps exposure; arterial line if comorbid
+Position | Supine, bed turned 180 degrees, arms tucked; 0 silk through the junction of the anterior and middle thirds of the tongue for traction
+Antibiotics | Not routinely
+Tray | Feyh-Kastenbauer (FK) or Crowe-Davis retractor; 8 mm 0 degree scope (or 30 degree) with 5 mm instruments: Maryland retractor, monopolar cautery, or needle driver with a CO2 laser fibre; bedside paediatric Yankauer and laryngeal suctions, bipolar, endoscopic clip applier
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to remove the cancer from the upper voice box through the mouth with robotic instruments, keeping the voice box.
+- **Swallowing** will be difficult at first; food may go the wrong way; a nasogastric tube for up to 2 to 3 weeks, rarely a gastrostomy (about 1 in 10).
+- **Bleeding** from the voice box artery, which can block the airway and needs urgent return to theatre.
+- **Airway swelling**, sometimes delayed; rarely a tube or tracheostomy; seek help at once if breathing changes.
+- **Numb or tingling tongue** from pressure, which recovers; **damage to teeth**.
+- **Narrowing of the airway** later.
+- **Neck dissection** at the same time, and possibly radiotherapy or chemoradiotherapy afterwards.
+!!
+## Before you start
+Ask about pain, breathlessness, voice change, stridor, dysphagia and aspiration, how fast symptoms are progressing (impending airway compromise), nutrition and weight loss, and previous treatment. Record previous head and neck or lung cancer, COPD or asthma, heart disease, diabetes and renal disease, previous neck surgery (carotid endarterectomy, tracheostomy), aspirin, anticoagulants, nebulisers and steroids, and tobacco, cannabis and alcohol.
+## Will it be exposed?
+Examine walking and breathing; in the mouth, **trismus**, Mallampati grade and tongue size, the teeth and micrognathia; in the neck, nodes, scars, the hyomental distance and neck extension; listen for stridor, wheeze and hoarseness. On flexible laryngoscopy map the tumour (suprahyoid or infrahyoid epiglottis, false fold, glottis, hypopharynx, tongue base and vallecula), **check vocal fold movement** (fixation is a contraindication), and look for second primaries.
+## Imaging and preparation
+Contrast CT of the neck (pre-epiglottic and extralaryngeal spread, nodes); CT of the chest (metastases, lung primary, COPD, and a **high brachiocephalic artery** if a tracheostomy is planned), or PET-CT for stage III and IV; MRI if the tongue base may be involved. Assess swallowing: **significant dysphagia beforehand predicts poor swallowing afterwards**, and teaching the **supraglottic swallow** before surgery reduces it. Arrange dental review if adjuvant treatment is likely, stop aspirin and anticoagulants a week before, and continue COPD medication.
+
+# Anatomy you must see | The supraglottis.
+## Boundaries and barriers
+The supraglottis runs from the ventricle up to the tip of the epiglottis: the suprahyoid and infrahyoid epiglottis, aryepiglottic folds, arytenoid, corniculate and cuneiform cartilages, and false folds. The quadrangular membrane, epiglottic cartilage and hyoepiglottic ligament resist spread, but tumours reach the glottis quickly through the **paraglottic space**, continuous with the pre-epiglottic space. Cancer through the epiglottic cartilage reaches the vallecula and tongue base; with aryepiglottic fold involvement, check the pyriform sinus.
+## The superior laryngeal artery
+From the transoral view it runs **deep to the nerve**, beneath the mucosa near the **pharyngoepiglottic fold** in the pre-epiglottic space. It can be large and must be controlled definitively with **clips or bipolar**. Preserve the internal branch of the superior laryngeal nerve for sensation unless the tumour requires it.
+
+# The operation, stage by stage | Expose, incise, rotate, release.
+## Protect and map
+Protect the upper teeth (a thermoplastic splint moulded to them is thinner and tougher than standard guards), and the lower teeth too if the tongue is retracted with a suture, to avoid lacerating its underside. Map the cancer by direct laryngoscopy.
+## Expose and dock
+Place the FK retractor with the laryngeal or flat tongue base blade in the vallecula (or a Crowe-Davis), using the 0 or 30 degree scope as the anatomy suits. Bring the robot in at 30 to 45 degrees to the table, with the Maryland retractor and monopolar cautery (or laser) on either side of the camera in an isosceles triangle of 30 to 45 degrees, the black pivot marks on the ports near the oral commissures.
+!mf 1 | A supraglottic carcinoma of the midline suprahyoid and infrahyoid epiglottis (asterisk: its centre).
+!note Docking angle
+The chapter describes docking the robot at 30 degrees to the head of the bed in one place, and bringing its base in at 30 to 45 degrees to the foot of the table in another. Position it so the arms do not collide.
+!!
+## Mucosal incisions
+Incise the mucosa **5 mm to 1 cm** from the tumour, through the aryepiglottic and pharyngoepiglottic folds.
+!mf 2 | Monopolar incision of the right aryepiglottic and pharyngoepiglottic folds at a suitable distance from the tumour.
+## Into the vallecula
+Carry the incision into the vallecula to mobilise the tumour and, if needed, take the pre-epiglottic space down to the hyoid.
+!mf 3 | The incision continued into the vallecula, resecting the pre-epiglottic space to the hyoid if necessary.
+## Rotate, do not regrasp
+Rotate the epiglottis back and forth to make the circumferential mucosal and deep cuts without bisecting the specimen, or remove large cancers in carefully oriented pieces. Avoid repeatedly regrasping the epiglottis, which tears mucosa and cartilage.
+!mf 4 | The epiglottis grasped and rotated to continue the dissection with the mucosal surfaces in view.
+## Control the superior laryngeal artery
+Laterally, **positively identify** the superior laryngeal vessels and control them with bipolar or clips.
+!danger The superior laryngeal artery
+Failing to identify and control it leads to brisk bleeding in theatre or, worse, afterwards, with rapid loss of the airway.
+!!
+## The inferior cut
+With the anterior and ipsilateral incisions made, the whole tumour can be seen. When the specimen is free above and laterally, make the inferior incision. Keep talking with the bedside assistant to stay oriented, especially with small specimens.
+!mf 5 | With the epiglottis freed by right-sided and vallecular incisions, the extent of the left-sided tumour (asterisk) is visible.
+!mf 6 | The contralateral inferior mucosal incision mobilising the tumour.
+## Margins and haemostasis
+Take **circumferential frozen sections** while the patient is still asleep. Irrigate, inspect after a **Valsalva**, and apply a haemostatic agent if needed.
+!mf 7 | The defect after supraglottic partial laryngectomy of the suprahyoid and infrahyoid epiglottis down to the ventricles.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Bleeding into the airway after surgery
+Act | return to theatre for intubation and operative control
+Prevent | deliberate control of the superior laryngeal artery at the time of resection
+!!
+!path Delayed airway swelling
+Prevent | perioperative steroids, especially when the false folds are resected
+Act | intubation ; tracheostomy if needed
+!!
+## Common errors in technique
+!pit
+- An endotracheal tube not secured, dislodged by the robotic arms.
+- Poor docking, causing arm collisions.
+- Not identifying and controlling the superior laryngeal artery.
+- Inadequate exposure, leading to incomplete resection and positive margins.
+- Sacrificing the internal branch of the superior laryngeal nerve unnecessarily.
+!!
+
+# Aftercare | Airway and swallow.
+## After the operation
+A single perioperative steroid dose may suffice for an epiglottectomy; give 24 hours if oedema is a concern. Antibiotics are not routine. Most patients stay for observation and a swallowing assessment: if secretions are managed the next day, the speech therapist assesses at the bedside, by modified barium swallow or FEES. If not, or intake is inadequate, place a nasogastric tube until review. A reliable patient after a limited resection without significant comorbidity may go home after recovery. Warn every patient that delayed laryngeal swelling can occur and needs prompt attention.
+## Complications
+!table Complications
+Complication | Notes
+Airway bleeding | Return to theatre, intubate, control
+Delayed airway oedema | Intubation or tracheostomy
+Aspiration, prolonged dysphagia | Nasogastric feeding for up to 2 to 3 weeks; gastrostomy if prolonged
+Airway stenosis | Late
+Dental injury | Guards
+Lingual nerve neurapraxia | Temporary
+!!
+## Alternatives
+Transoral laser microsurgery, open partial laryngectomy, total laryngectomy, or (chemo)radiotherapy.
+
+# For the examination | What the examiner wants to hear.
+## Outcomes
+In Arshad and colleagues' SEER study of over 2600 patients, surgically treated T1 to T2 N0 supraglottic cancer had **81 to 86%** disease-specific survival. No prospective trial compares robotic, laser and open supraglottic laryngectomy, but retrospective outcomes are equivalent. When a tracheostomy is made, decannulation is usually possible within **2 weeks**; feeding is usually nasogastric, with **9.5%** needing gastrostomy in the largest European series. Complications range from **0 to 28%** (bleeding, delayed airway compromise, aspiration pneumonia). The editor notes the advantage over laser surgery when anatomy blocks the microscope's view, but also the high cost of the robot.
+## Viva essentials
+!exam What the examiner is looking for
+- Selection: T1 and T2, mobile folds and arytenoids, adequate exposure, adequate lungs.
+- Contraindications, and when to choose open surgery or chemoradiotherapy.
+- Spread through the pre-epiglottic and paraglottic spaces.
+- The superior laryngeal artery: where, and how to control it.
+- Setting up: retractor, robot angle, instrument triangle.
+- The resection sequence and frozen sections.
+- Steroids, swallowing assessment and delayed oedema.
+!!
+## Common pitfalls
+!pit
+- Operating on a patient who already aspirates badly.
+- Bisecting the specimen through repeated regrasping.
+- Discharging without warning about delayed swelling.
+!!
