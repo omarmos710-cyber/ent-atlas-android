@@ -1,0 +1,135 @@
+@src Myers, Operative Otolaryngology
+@stand For more than a century Kocher's midline collar incision has been the standard thyroidectomy: the most direct route, a complete view, and reliably preserved parathyroids and recurrent laryngeal nerves. Robotic thyroidectomy reaches the same gland from a hidden incision, behind the ear (the retroauricular or modified facelift approach) or in the axilla (the transaxillary approach), entering the thyroid bed from the side between the sternomastoid and the strap muscles, or from the midline through the bilateral axillo-breast approach. Its benefit is no scar on the neck, which matters a great deal to some patients, and a magnified three-dimensional view of the nerves and glands. Its costs are a long tunnel of dissection, no sense of touch at the console, and new injuries that the collar incision does not produce: perforated trachea, torn great vessels, a stretched brachial plexus. Everything depends on a wide working space before the robot comes in, the omohyoid before the gland, and a bloodless field at Berry's ligament. This chapter covers selection, the two lateral approaches, docking, the thyroidectomy step by step, and the evidence.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Robotic-assisted thyroidectomy
+ | Summary
+Indications | Nodule **under 5 cm**; **BMI under 35**; no previous neck surgery; small T1 to T2 well-differentiated papillary or follicular cancer
+Contraindications | **Graves' disease**; substernal extension; locally advanced cancer invading the recurrent nerve, tracheo-oesophageal complex or straps; known central or lateral nodal metastasis; **medullary cancer**
+Relative | Disease needing primary total thyroidectomy (sizeable bilateral multinodular goitre, cancer); suspected central nodes in cancer
+Approaches | Lateral: **retroauricular** (shorter distance, intuitive for head and neck surgeons, no brachial plexus risk, two working arms) or **transaxillary** (longer distance, a third arm possible, rare brachial neuropathy, about 2%); midline: bilateral axillo-breast
+Anaesthesia | Laryngeal nerve monitoring tube, placed to the side opposite the operation; circuit toward the feet
+Position | Transaxillary: arm extended, elbow flexed and internally rotated to open the axilla **without tension on the plexus**, pressure points padded. Retroauricular: arms tucked, head turned away. No shoulder roll
+Antibiotics | None; povidone-iodine skin preparation
+Robot | da Vinci Si; 10 mm 30 degree camera facing down; 8 mm harmonic shears and an 8 mm atraumatic ProGrasp (or 5 mm Maryland)
+Assistant | Countertraction; retracting sternomastoid (retroauricular); long-tip bipolar; smoke suction; preventing arm collisions
+Tray | Long-tip monopolar and bipolar; lighted retractors; headlight; Chung retractor; rolled cotton pledgets; Yankauer suction
+Skills | Experience of open thyroidectomy; robot credentialing or fellowship training; dry and wet lab training; first five cases proctored
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to remove half (or all) of the thyroid through a hidden incision behind the ear or in the armpit, avoiding a scar on the neck.
+- **Voice change** from injury to the recurrent or superior laryngeal nerve.
+- **Low calcium** if both sides are removed.
+- **Bleeding** or a collection under the skin.
+- **Numbness** of the chest wall (armpit approach) or around the ear (ear approach), usually temporary; swelling of the flap for 1 to 2 weeks.
+- **Rare injuries** to the windpipe, gullet or major neck vessels; arm weakness from stretching of the arm nerves (armpit approach).
+- **Conversion to a standard neck incision** if needed, which is rare with careful selection.
+- **The standard open operation** is always an alternative.
+!!
+## Before you start
+Ask about previous thyroid or neck surgery, thyroid status (hypo- or hyperthyroid), neck or shoulder problems and keloid or hypertrophic scarring. Record BMI, nodule size and whether nodules are on one or both sides, the range of movement of the neck and shoulder, and **vocal fold function by laryngoscopy**.
+## Investigations
+- **Ultrasound** by a specialist: gland size, number of nodules, suspicious features (taller than wide, hypoechoic, peripheral vascularity, microcalcifications, irregular margins) and suspicious central nodes.
+- **FNA** classified by the **Bethesda** system; molecular markers for indeterminate nodules (follicular lesion of undetermined significance, follicular neoplasm, suspicious for malignancy) can support an upfront total thyroidectomy rather than diagnostic lobectomy and a later completion.
+- **Thyroid scan** only for a suspected hot nodule causing thyrotoxicosis.
+Discuss the approach with the patient: the authors have no fixed preference.
+
+# Anatomy you must see | Landmarks from the side.
+## Landmarks
+- **The omohyoid:** find it first; the carotid sheath and internal jugular vein lie deep and medial to its plane.
+- **The trachea:** the medial limit of dissection.
+- **The cricothyroid muscle:** marks where the recurrent nerve enters the larynx.
+- **The inferior thyroid artery:** ligated distally to protect the parathyroid supply; its relation to the recurrent nerve is too inconsistent to use as a landmark.
+
+# The operation, stage by stage | Space, dock, dissect.
+## The transaxillary flap
+Make a **4 to 5 cm** incision **5 to 8 mm behind the anterior axillary fold** so the scar hides behind it. Raise the flap over pectoralis major to the clavicle, then subplatysmally over the clavicular and sternal heads of sternomastoid to the thyroid cartilage and just past the midline, **12 to 14 cm** from the incision.
+!mf 1 | The modified arm position for transaxillary thyroidectomy, the elbow flexed to avoid tension on the axilla.
+## The retroauricular flap
+Make a **4 to 5 cm** incision about **5 to 8 mm behind the hairline**, infiltrated with lidocaine and 1:80,000 adrenaline, and raise a subplatysmal flap toward the suprasternal notch (the future retractor axis) over sternomastoid, preserving the **great auricular nerve** and **external jugular vein**, medially past the midline raphe, down to the clavicle and up over the parotid tail to the ramus, **10 to 12 cm** from the incision, protecting the **marginal mandibular nerve**.
+!mf 2 | The planned retroauricular incision (arrow).
+## Build the working space
+Work under direct vision with a long-tip monopolar and a headlight; once the flap is about 5 cm long, bring in lighted retractors, with the Yankauer for smoke and countertraction.
+!danger Too deep too soon
+Going deep to the omohyoid prematurely risks the internal jugular vein and its branches. Find the omohyoid first.
+!!
+!danger Perforating the flap
+Inadequate countertraction while elevating the skin flap can buttonhole it.
+!!
+## Retract and check the height
+Lift sternohyoid off the thyroid bed and insert the **Chung retractor** under it, fixed to the table. When the flap is suspended, the vertical height from the base of the incision to the flap must be **over 5 cm**: the robot must not come in until the space is adequate.
+!mf 3 | Adequate working space in the retroauricular approach: the height of elevation over 5 cm (arrow); great auricular nerve (GAN), sternomastoid (SCM).
+## Dock
+Bring the robot in from the opposite side at **30 to 45 degrees** to the table, at about the level of the shoulder. Dock the 10 mm camera in the midline and the two working arms at **30 to 45 degrees** to it, an isosceles triangle that reduces collisions. The authors prefer the 8 mm atraumatic ProGrasp to the 5 mm Maryland, whose sharp tip can tear the thyroid and cause bleeding that hides the field. See the whole thyroid bed before starting.
+!mf 4 | Docking the robotic arms in the retroauricular approach.
+!mf 5 | The left thyroid bed exposed from the retroauricular approach.
+## The superior pole
+Start at the superior pole, dividing sternothyroid if needed. Define lateral and medial planes, **skeletonise** the superior thyroid artery and ligate it with the harmonic shears **close to the gland**; the external branch of the superior laryngeal nerve is not routinely sought, but the magnified view often shows it. Identify the **cricothyroid muscle**.
+!danger The superior pole
+Dividing a large bundle of tissue risks incomplete sealing of the vessel and injury to a low-lying external branch (Cernea type 2b). Skeletonise each vessel first.
+!!
+## The parathyroids
+Mobilise the gland from lateral to medial and reflect it toward the trachea, dividing the middle thyroid vein. Free the **superior parathyroid** with the harmonic shears, then at the inferior pole ligate the **inferior thyroid artery as distally as possible** and free the **inferior parathyroid** on its pedicle.
+## The recurrent nerve and Berry's ligament
+Expose the **trachea** to set the medial limit. With the gland reflected medially, find the **recurrent laryngeal nerve** in the tracheo-oesophageal groove, preferably **near the cricothyroid joint**, its most consistent position, avoiding the oesophagus. Trace it to **Berry's ligament**, ligating the small overlying vessels individually with the harmonic shears; lay a **wet rolled cotton pledget** over the nerve against heat, and use it to dissect bluntly. If the nerve is closely adherent, divide the ligament with fine bipolar. Mobilise the lobe off the trachea, divide the isthmus and remove the lobe.
+!danger Berry's ligament
+Divide it only after the whole lobe is mobilised, in a near-bloodless field: bleeding here threatens the nerve and leads to haematoma.
+!!
+!danger No sense of touch
+Without haptic feedback the console surgeon must positively identify the trachea and oesophagus; perforation of the trachea has been reported.
+!!
+## Confirm and close
+Irrigate with warm saline and **stimulate the nerve at 0.5 to 1 mA** to confirm function. Close over a drain brought out at the edge of the incision.
+!mf 6 | The right thyroid bed after robotic thyroidectomy: the recurrent laryngeal nerve (RLN) and common carotid (CCA).
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Carotid injury
+Act | direct external pressure on the carotid while the neck is opened conventionally to expose the sheath
+!!
+!path Internal jugular vein injury
+Minor tear | bipolar or clips
+Major | the vein may have to be sacrificed for haemostasis ; convert to open if needed
+!!
+!path Delayed haematoma
+Act | general anaesthesia ; reopen through the same remote incision, without the robot ; 10 mm 0 and 30 degree endoscopes ; bipolar or harmonic shears
+!!
+## Common errors in technique
+!pit
+- Too little countertraction, perforating the flap.
+- Going deep to the omohyoid too early.
+- Dividing a large bundle at the superior pole.
+- Dividing Berry's ligament before the lobe is fully mobilised.
+- Docking before the working space is adequate.
+!!
+
+# Aftercare | Drain and flap.
+## After the operation
+Remove the drain when under **20 mL in 24 hours**. No compression dressing is needed; some flap swelling settles within 1 to 2 weeks.
+## Complications
+Wound infection; haematoma; recurrent laryngeal nerve injury; temporary numbness of the anterior chest (transaxillary) or around the ear (retroauricular); tracheal, oesophageal and vascular injury; brachial plexopathy (transaxillary, avoided by careful positioning).
+## Alternatives
+Open thyroidectomy should always be discussed. Conversion is rarely needed with proper selection, mainly for vascular injury.
+
+# For the examination | What the examiner wants to hear.
+## The evidence
+There are no randomised trials; evidence comes from large series in high-volume centres, and there is a learning curve. Lang and colleagues' meta-analysis found **more temporary recurrent nerve palsy** after robotic surgery, with no difference in permanent morbidity; Son and colleagues, who excluded series under 40 patients, found **no differences** in temporary or permanent nerve injury or hypocalcaemia, which suggests experience matters. Postoperative thyroglobulin did not differ after robotic and open surgery for cancer, but long-term oncological conclusions are premature. The editor calls it the current pinnacle of technological advance in thyroid surgery, set against a century of safe, reproducible open technique.
+## Viva essentials
+!exam What the examiner is looking for
+- Selection criteria and contraindications (Graves', substernal, medullary, nodes, invasion).
+- Retroauricular versus transaxillary: distance, arms, brachial plexus risk.
+- Positioning to protect the plexus.
+- The working space: flap lengths, the 5 cm height, the Chung retractor.
+- Docking angles.
+- The omohyoid, cricothyroid and trachea as landmarks; why the inferior thyroid artery is not.
+- The recurrent nerve near the cricothyroid joint; protecting it at Berry's ligament; stimulation.
+- Managing vascular injury and haematoma.
+!!
+## Common pitfalls
+!pit
+- Offering it to a patient with a large goitre or high BMI.
+- Promising no scar at all rather than no neck scar.
+- Using a sharp grasper that tears the gland.
+!!

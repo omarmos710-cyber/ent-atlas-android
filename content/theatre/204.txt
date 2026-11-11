@@ -1,0 +1,138 @@
+@src Myers, Operative Otolaryngology
+@stand Congenital anomalies of the ear occur in about 1 in 11,000 to 15,000 people; isolated middle ear malformations behind a normal pinna and canal are a fraction of them, and about a quarter of middle ear anomalies come with a syndrome. They meet the surgeon in two ways: as a conductive hearing loss in a child that cannot be blamed on otitis media or trauma, or as a surprise during a tympanoplasty or stapes operation. Every ossicle can be malformed, the stapes most often, and the facial nerve and great vessels can lie where they should not, over the oval window, across the promontory, or rising into the hypotympanum. Some conductive losses are not middle ear problems at all: a large vestibular aqueduct, a dehiscent superior canal or the X-linked gusher ear produce an air-bone gap through a third window, and operating on them risks a perilymph gusher and a dead ear. So CT comes first, the surgeon must know the variants and how to reconstruct each, and must recognise when to stop. This chapter covers selection, CT, the anomalies of each ossicle, the nerve and the vessels, the reconstructions, and the evidence comparing congenital footplate fixation with juvenile otosclerosis.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Congenital middle ear malformations
+ | Summary
+Indications | Conductive loss with no cause on examination or CT (exploration); a CT finding that explains the loss and can be reconstructed
+Contraindications | Anaesthetic risk; **only hearing ear**; a vascular anomaly that cannot be corrected or raises the risk of vascular injury; an otitis-prone child; **inner ear causes** of conductive or mixed loss (risk of gusher)
+CT first | In every child with conductive loss not due to otitis media: ossicles, facial nerve course, vessels, and inner ear third windows
+Anaesthesia | General in children; local with sedation in selected adults (hearing tested on the table, immediate vestibular feedback); no long-acting relaxants if facial EMG is used
+Position | Supine, head turned, ear toward the surgeon
+Antibiotics | None
+Monitoring | Facial EMG when dissecting along the nerve or if an anomaly is suspected
+Tray | Tympanoplasty and mastoid set; microscope or otoendoscope; CO2 laser (adhesions or laser stapedotomy); drill for bony overhangs; ossicular prostheses
+Skills | Tympanoplasty, ossiculoplasty, stapedectomy
+!!
+## Consent
+!consent What to tell the patient and family
+- **Why:** to find and correct the cause of a hearing loss present since birth.
+- **The ear may be explored and nothing done** if the anatomy is unsafe, for example a facial nerve lying over the oval window.
+- **Hearing may not improve**, or may worsen, rarely to deafness, especially if inner ear fluid gushes out.
+- **Dizziness**, taste change, a hole in the eardrum.
+- **Facial weakness**, usually temporary from the local anaesthetic.
+- **Bleeding** from an abnormal vessel, rarely needing further intervention.
+- **Later:** the prosthesis may slip or extrude; a cholesteatoma can form.
+- **Hearing aids** are a good alternative.
+!!
+## Before you start
+Take an otological history: the newborn screen, how long the loss has been present (since childhood suggests congenital), otalgia, otorrhoea, tinnitus, vertigo, previous ear surgery, family hearing loss and surgery, speech, language and school, and systemic features suggesting a syndrome.
+
+Look for pinna anomalies, preauricular tags or pits, and first arch anomalies (Treacher Collins), which also warn of a difficult airway. Check that the canal is wide enough to work through, look for malleus or vascular anomalies through the drum, and confirm the audiogram with tuning forks.
+## Tests and CT
+Obtain an audiogram, which is hard in children: conductive loss from glue ear is common, so confirm that the air-bone gap **persists after the middle ear aerates**; tympanometry helps. **CT** of the temporal bones in any child with conductive loss not due to otitis media: look at each ossicle and the facial nerve course, and for **inner ear** causes, where surgery is **not** indicated.
+!mf 1 | CT of a child with left conductive loss and a large vestibular aqueduct (arrow); no surgery was recommended.
+!senior Third windows and the gusher
+A **large vestibular aqueduct** or **superior canal dehiscence** causes an air-bone gap through a third window. A dilated internal auditory canal (X-linked gusher syndrome, linked to **POU3F4**) or a patent cochlear aqueduct means perilymph may gush when the footplate is opened. None of these is corrected by middle ear surgery.
+!!
+
+# Anatomy you must see | Landmarks.
+## Landmarks
+The malleus; the incus and stapes superstructure; the footplate; the promontory and round window; the cochleariform process and horizontal facial nerve; and aberrant vessels: a **high jugular bulb**, an **aberrant carotid**, a **persistent stapedial artery**.
+
+# The operation, stage by stage | Open, feel, reconstruct.
+## Enter the middle ear
+Inject the four quadrants of the canal with local anaesthetic and adrenaline. Raise a tympanomeatal flap high enough to remove scutum if needed. **Beware a high jugular bulb** when entering posteroinferiorly. Identify the landmarks and **palpate the ossicles** to find the level of fixation.
+!mf 2 | The incision for the tympanomeatal flap.
+## Principles of reconstruction
+Use autologous material (incus interposition, cartilage) or prostheses (titanium, Plastipore, hydroxyapatite, bone cement) by preference, in an aerated ear. Size carefully: too short conducts poorly and slips; too long extrudes or subluxes into the vestibule. Some TORPs and PORPs need cartilage against extrusion.
+## The stapes
+The commonest ossicular anomaly, but significant only if hearing is affected (a monopedal stapes may be harmless). Assess the crura, obturator foramen, mobility and incudostapedial attachment.
+- **Bony bridges** to the promontory: fracture them or divide them with the CO2 laser.
+- **Superstructure separate from the footplate:** reconstruct with an ossicular or stapes prosthesis according to the remaining ossicles and footplate mobility.
+- **Congenital footplate fixation:** the footplate blends with the otic capsule with no visible annular ligament; isolated fixation does well, worse with incudomalleal anomalies. A thick footplate may need a **drill-out**: saucerise the oval window until it is blue-lined, fenestrate, and place a stapes prosthesis.
+- **Footplate defects:** rare, with inner ear anomalies, presenting with recurrent meningitis or CSF otorrhoea or rhinorrhoea; remove the remnant and obliterate the opening with soft tissue.
+!mf 3 | Stapes anomalies: (A) monopedal; (B) fused crura and a malformed footplate; (C) a bony bridge to the promontory; (D) superstructure separate from the footplate; (E) congenital footplate fixation without an annular ligament.
+!mf 4 | The stapes of a child with CSF rhinorrhoea and a footplate defect.
+## The incus
+- **Hypoplastic long or lenticular process** with a **fibrous incudostapedial joint**, the commonest: reattach with bone cement, or use an incus interposition or PORP.
+- **Incudomalleal fusion**, common in atresia but also isolated: divide bony attachments with a malleus nipper or laser; mobilising epitympanic fixation tends to refix, so separating the incudostapedial joint and using an interposition or PORP is an alternative.
+!mf 5 | A fibrous incudostapedial joint.
+!mf 6 | (A) Fused malleus and incus; (B) on CT (arrow).
+## The malleus
+Uncommon. Complete absence occurs only with multiple anomalies. An **absent manubrium**: separate the incudostapedial joint and place a PORP on the stapes. A malleus **detached from the drum**: graft medial to the malleus or run a PORP from stapes to drum. **Malleus fixation** at the scutum or to the incus refixes after simple division, so separate the incudostapedial joint, divide the manubrium from the head, and use a PORP or interposition.
+!mf 7 | (A) Absent manubrium; (B) repaired with a PORP.
+## The facial nerve
+A **dehiscent horizontal segment** is common enough to be a normal variant: recognise it and avoid it. A **prominent overhang** can be retracted gently, and a stapes prosthesis may even indent the epineurium. A nerve that **splits into branches**, lies outside its canal, or **crosses the oval window**: abandon the operation. The vertical segment may run forward across the hypotympanum.
+!mf 8 | (A) The facial nerve crossing the footplate; (B) on CT (arrow).
+!danger The nerve over the oval window
+If the facial nerve covers the footplate, stop. Hearing aids are safer than drilling past it.
+!!
+## The vessels
+- **Aberrant carotid:** a mass on the promontory on CT entering the horizontal carotid canal through a dehiscent lateral plate. Not correctable; mistaking it for a glomus tumour and puncturing or biopsying it causes major bleeding and neurological harm.
+- **High jugular bulb:** reaching above the floor of the canal, occasionally with a diverticulum; usually silent; if it causes pulsatile tinnitus or conductive loss, skeletonise it and push it below the round window with cartilage or cortical bone.
+- **Persistent stapedial artery:** small remnants stop bleeding on their own; with a large one, reach the footplate in front of or behind it.
+!mf 9 | (A) An aberrant carotid seen through the drum; (B) on CT; (C) a high jugular bulb seen through the drum; (D) a high bulb touching the stapes superstructure.
+!mf 10 | A large persistent stapedial artery.
+## The round window
+Congenital absence is rare (failure of the cartilaginous ring that stops bone forming there). **Do not drill a new window** in the promontory: the risk of sensorineural loss is high.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Perilymph gusher
+Act | head up ; **do not suction the vestibule** ; fascia graft over the opening ; consider an intraoperative lumbar drain if it continues
+Afterwards | head up at least 30 degrees ; stool softeners ; lumbar drain if drainage persists ; review CT for an inner ear anomaly
+!!
+!path Vascular injury
+Jugular bulb | packing with Surgicel usually stops it
+Carotid | potentially catastrophic: pack the ear, call interventional radiology urgently, cross-match blood
+!!
+!path Facial weakness after surgery
+Immediate, with local anaesthetic used | observe briefly: it wears off
+Delayed | expectant (oedema)
+Immediate, complete and unexplained | consider re-exploration
+!!
+!path Severe vertigo
+Think | fistula, subluxed footplate, a prosthesis too long in the vestibule ; sensorineural loss may follow
+Act | consider exploration
+!!
+## Common errors in technique
+!pit
+- Too small a flap and a poor view.
+- Not testing the mobility of each part of the chain.
+- A poorly sized prosthesis.
+!!
+
+# Aftercare | Keep it dry.
+## After the operation
+Ear dressing for 2 to 3 days; limited activity and **no water in the canal for 4 weeks** (an ear plug or cotton wool with petroleum jelly or antibiotic ointment from day 3). Expect a conductive loss from packing at first; test with a tuning fork.
+## Complications
+!table Complications
+Timing | Complication
+Early | Facial weakness; deafness; gusher; vertigo; drum perforation (fascia graft); vascular injury; CSF leak; taste change
+Late | Conductive loss from a displaced or extruded prosthesis; cholesteatoma from trapped epithelium
+!!
+## Alternatives
+Hearing aids for those unsuitable for surgery; observation for minimal loss.
+
+# For the examination | What the examiner wants to hear.
+## Congenital footplate fixation or juvenile otosclerosis?
+Stapes surgery in children is uncommon and debated, as aids work well and some prefer the child to share the decision. **Juvenile otosclerosis** presents later with progressive low-frequency loss and a family history in **53%**; **congenital footplate fixation** presents earlier with greater loss and a family history in only **9.8%**, and is the commoner cause. In a meta-analysis the air-bone gap closed to under 10 dB in **80.2%** of juvenile otosclerosis and **54%** of congenital fixation (69.9% overall); the two are usually told apart only at surgery. The editor notes how little attention congenital conductive loss has had compared with cochlear implantation, and that timing and technique remain unsettled.
+## Viva essentials
+!exam What the examiner is looking for
+- CT for every child with unexplained conductive loss.
+- Inner ear third windows and the gusher ear: when not to operate.
+- The anomalies of stapes, incus and malleus, and the reconstruction for each.
+- Facial nerve variants and when to abandon.
+- Aberrant carotid, high bulb and persistent stapedial artery.
+- No promontory fenestration for an absent round window.
+- Managing a gusher and a carotid injury.
+- Congenital fixation versus juvenile otosclerosis.
+!!
+## Common pitfalls
+!pit
+- Biopsying a red mass behind the drum before CT.
+- Operating on an only hearing ear.
+- Suctioning an open vestibule.
+!!

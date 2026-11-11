@@ -1,0 +1,130 @@
+@src Myers, Operative Otolaryngology
+@stand Feeding and swallowing problems are common in children, and aspiration, with chronic cough and pneumonia, is the danger. Most paediatric dysphagia is neurological and is managed by a team, but some children have an anatomical cause that surgery can correct: a posterior laryngeal cleft, a gap between the larynx and the oesophagus behind the arytenoids. Benjamin and Inglis classified them: type 1 in the interarytenoid region, type 2 into the upper cricoid, type 3 through the whole cricoid, type 4 into the thoracic trachea. Severe clefts present in the first days of life with aspiration and apnoea; mild ones present late, and with growing awareness of the subtle forms (a deep interarytenoid notch) they are diagnosed far more often than the old figure of 1 in 10,000 to 20,000. Treatment is a ladder: an injection that fills a mild cleft and also tests whether the cleft matters; an endoscopic two-layer repair for types 1 and 2 and some 3 and 4; an open repair for the largest or failed clefts; and, for intractable aspiration from any cause, laryngotracheal separation, which ends aspiration at the cost of the voice and the oral airway. This chapter covers assessment and each operation in turn.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Surgery for aspiration in children
+ | Summary
+Injection | Symptomatic type 1 cleft or deep interarytenoid notch not helped by feeding therapy and texture changes; also chronic aspiration with normal anatomy (50% improved in one study); a temporary material can **test** the diagnosis
+Endoscopic repair | Symptomatic type 1 and 2 clefts; some type 3 and 4 if exposure allows; a deep notch that improved after injection and relapsed when it dissolved
+Open repair | Type 3 and 4 clefts not exposable endoscopically; types 1 and 2 after failed endoscopic repair
+Laryngotracheal separation | **Intractable aspiration** despite maximal management (texture changes, tube or parenteral feeding, reflux treatment, fundoplication, treating comorbidities)
+Contraindications | Injection or endoscopic repair: **concomitant upper airway obstruction** (subglottic stenosis, laryngomalacia), which may worsen; an asymptomatic type 1 cleft. Open repair: use endoscopic repair first when feasible
+Team | Neurology, respiratory medicine, gastroenterology, speech and swallowing, otolaryngology
+!!
+## Consent
+!consent What to tell the parents
+- **Why:** to close a gap at the back of the voice box that lets food and drink into the lungs, or, in the last resort, to separate the windpipe from the voice box so nothing can be breathed in.
+- **Injection** may need repeating as the material dissolves; a lasting repair may follow.
+- **Airway swelling** after surgery: a night in intensive care, perhaps a breathing tube for a day or several days after open repair.
+- **The repair may break down** and aspiration continue, especially if the child also has a neurological swallowing problem.
+- **Open repair:** a neck incision, a possible fistula, scar tissue, a change in voice.
+- **Laryngotracheal separation:** the child will breathe only through a stoma in the neck and cannot be intubated through the mouth; voice is lost; it is a last resort.
+!!
+## Before you start
+Ask about the diet, coughing or choking and with which textures, what modifications have been tried, noisy or difficult breathing with feeds, weight gain, reflux (spitting up, vomiting, night cough); cyanosis or apnoea, pneumonia, bronchiolitis, chronic cough or recurrent croup, stridor; prematurity, NICU care and respiratory support; cardiac and pulmonary disease, previous intubations and cardiac procedures; reflux medication.
+
+Look for syndromes: **Opitz** (laryngeal malformations, ear anomalies, cleft lip and palate, hypertelorism, genitourinary and ventral midline defects), **Pallister-Hall** (laryngeal cleft, bifid epiglottis, genitourinary and neurological malformations, syndactyly), **CHARGE** and **VACTERL**. Look for failure to thrive, neck pits or masses, cleft or submucous cleft palate, respiratory distress and stridor.
+## Assessment
+- **Flexible laryngoscopy:** choanal patency, reflux changes or laryngomalacia; a cleft is hard to see this way.
+- **FEES:** anatomy, cord movement, premature spillage, residue, penetration and aspiration; but some discomfort, poor cooperation, white-out hiding the pharyngeal phase, and rarely laryngospasm or a vasovagal reaction.
+- **Modified barium swallow:** well tolerated and shows the pharyngeal phase, at the cost of radiation; a **posterior pattern of aspiration** suggests a cleft.
+- **Chest radiograph** for aspiration pneumonia.
+- **Direct laryngoscopy and bronchoscopy:** **palpate** the interarytenoid area to find and grade the cleft.
+!mf 1 | (A) Type 1 cleft, down to but not beyond the vocal cords; (B) type 2, into but not through the cricoid; (C) type 3, through the whole cricoid.
+
+# The operation: injection | Fill the notch.
+## Set up
+Spontaneous ventilation is ideal (apnoeic technique if not); no antibiotics; consider steroid. Suspension microlaryngoscopy with a shoulder roll if needed; an endoscopic needle; Radiesse, Prolaryn, Gelfoam or similar; microscope or 0 degree telescope.
+## Inject
+Prime the needle and, under direct vision, insert it into the **apex of the cleft with the bevel facing posteriorly**. Inject until the notch visibly fills, usually about **0.2 mL**; consider about **0.1 mL** into the medial surface of each arytenoid around the corniculate.
+!mf 2 | Injecting a laryngeal cleft: in suspension, the needle bevel facing back, about 0.2 mL until the notch fills.
+!danger Overinjection
+Material spreading into the subglottis or the cricopharyngeal surface can obstruct the airway or cause dysphagia. Keep the bevel posterior and watch the airway as you inject.
+!!
+## Afterwards
+Admit overnight for airway monitoring; steroids if concerned; a speech assessment of swallowing before feeding resumes; follow-up with a repeat modified barium swallow.
+
+# The operation: endoscopic repair | Two layers through the mouth.
+## Set up
+Spontaneous ventilation with carefully titrated intravenous anaesthesia for **30 to 40 minutes**; **room air** while the laser is used; no antibiotics; intraoperative steroids. Suspension with a vocal cord spreader to see the whole depth of the cleft, endoscopic needle driver and knot pusher, several 4-0 PDS on P2 needles, CO2 laser if used.
+## Create the flaps
+Incise along the cleft with the laser or a sickle knife (oxymetazoline pledgets first if using a knife) to create a **laryngeal flap** in front and an **oesophageal flap** behind, deepening with endoscopic scissors.
+## Close in two layers
+Suture the left **oesophageal** flap to the right with 4-0 PDS, using the spreader to see; then the left **laryngeal** flap to the right, with the **knots buried** away from the laryngeal mucosa, which they irritate. Deep clefts need several sutures on each side.
+!mf 3 | Endoscopic repair: (A) the laser incision creating anterior laryngeal and posterior oesophageal flaps; (B) suturing with a vocal cord spreader; (C) the completed repair.
+## Afterwards
+Intensive care overnight; steroids for 24 hours; intubate overnight only for significant oedema, and then **no nasal or oral feeding tube** (pressure on both sides of the repair); a swallowing assessment before oral feeds; home on day 1 if breathing is easy and feeding goes well; repeat swallow study.
+!danger Breakdown of the repair
+Avoid an oesophageal tube while intubated and exposed suture tails on the laryngeal side; cough and irritation contribute to breakdown. A persistent posterior aspiration pattern on follow-up suggests breakdown, though neurological dysphagia may also persist.
+!!
+
+# The operation: open repair | Through the larynx.
+## Exposure
+General anaesthesia, intubated; broad-spectrum antibiotics; shoulder roll. Through a horizontal neck incision, divide the straps in the midline (and the isthmus if needed) and expose the cricoid and thyroid cartilages. Open the airway vertically in the midline through the cricoid and thyroid cartilage, extending down through tracheal rings as needed and up **to but not through the anterior commissure**, dividing it only if exposure demands. Retract the halves to show the cleft.
+!mf 4 | Open repair: (A) the trachea, cricoid and lower thyroid cartilage opened; (B) the cleft divided into an anterior layer (future posterior tracheal wall) and a posterior layer (future anterior oesophageal wall); (C) closure of both layers with tracheal knots facing away from the airway; (D) an interposed cartilage graft.
+## Two layers and a graft
+Incise both edges of the cleft from the lower arytenoids to its apex and separate an anterior **laryngotracheal** mucosal layer from a posterior **pharyngo-oesophageal** layer with a round knife or iris scissors. Close the posterior layer with interrupted sutures from the apex upward, without tension. An **interposition graft** of costal cartilage may be placed, notched to sit between the cricoid remnants and reaching up to the aryepiglottic folds. Close the anterior layer from the apex upward with **buried knots**, then the laryngeal incision, straps and skin over a Penrose drain.
+## Afterwards
+Intensive care; extubate in theatre for mild clefts, or keep intubated **2 to 5 days** if oedema threatens the airway (steroids around extubation, reflux treatment meanwhile). Drain out at 24 to 48 hours; antibiotics. Feed by gastrostomy if present (oral trial at a week) or a small feeding tube; then a feeding trial or swallow study. **Endoscopy at 10 to 14 days** to check the repair and look for a residual fistula.
+
+# The operation: laryngotracheal separation | The last resort.
+## Divide the trachea
+General anaesthesia through the tube or existing tracheostomy; broad-spectrum antibiotics; prepare as for a tracheostomy. Make a horizontal incision that includes any stoma, separate the straps, divide the isthmus, and choose the level, usually between the **third and fourth rings** or at the stoma. Expose the trachea **hugging its wall** to protect the recurrent nerves, transect it, intubate the distal trachea, and divide the posterior wall without entering the oesophagus; free the trachea above and below.
+## Close the upper stump
+Expose and remove the cartilage of the lowest ring of the upper segment, **keeping its mucosa**; divide the next ring anteriorly so it folds and relieves tension; close the mucosa in a **running inverting** layer like a laryngectomy pharyngeal closure, reinforced with interrupted sutures through the divided ring.
+## Make the stoma
+Bring the distal trachea to the skin and mature a laryngectomy-style stoma with half-mattress sutures. Close the wound over a Penrose drain and replace the tube with a tracheostomy tube.
+!mf 5 | Laryngotracheal separation: (A) the lowest ring of the upper segment removed to leave mucosa for closure; (B) the mucosa closed in a running inverting layer; (C) the stoma; (D) the upper trachea closed as a blind pouch and the lower brought to the skin.
+## Afterwards
+Intensive care, sedated for the first days; antibiotics for **5 to 7 days**; drain out at 24 to 48 hours; oral feeding from about day 3 if tolerated (many still need tube feeds); daily stoma care. **Tell everyone** the child is now a **total neck breather** and cannot be intubated through the mouth: a sign over the bed.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Airway compromise after cleft surgery
+Cause | oedema from manipulation or injection spreading into the subglottis ; commoner after longer endoscopic repairs
+Prevent | short operations ; routine steroids ; posterior bevel
+Act | steroids ; overnight intubation if needed
+!!
+!path After laryngotracheal separation
+Fistula from the stump | inadequate mucosal closure
+Bleeding from the stoma | think of a tracheo-innominate fistula, often fatal
+!!
+## Common errors in technique
+!pit
+- Poor exposure of the interarytenoid area; overinjection.
+- Too shallow an incision; too much handling and oedema; loose sutures.
+- Inadequate exposure or closure in open repair; suture exposed in the airway.
+- Inadequate stump closure, or dissecting too far laterally and injuring the recurrent nerves.
+!!
+
+# Aftercare | Complications.
+## Complications
+!table Complications
+Operation | Complications
+Injection | Airway compromise; persistent aspiration
+Endoscopic repair | Airway compromise; breakdown; persistent aspiration; posterior glottic stenosis
+Open repair | Tracheo-oesophageal fistula; breakdown with residual cleft (revise with sternomastoid muscle flap or temporalis fascia); granuloma (knots on the oesophageal side); blunting of the anterior commissure
+Separation | Tracheocutaneous fistula from the stump; dysphagia (or the underlying neurological disease); tracheo-innominate fistula, often fatal
+!!
+
+# For the examination | What the examiner wants to hear.
+## Type 1 cleft or deep notch?
+Type 1 was classically an absent or hypoplastic interarytenoid muscle with a cleft reaching the vocal cords, but no upper limit was ever defined, so "deep interarytenoid notch" and "type 1 cleft" are now used interchangeably for a cleft deeper than normal. Even subtle clefts often respond to injection, so most paediatric otolaryngologists treat them alike when symptomatic, and injection has helped children with chronic aspiration and normal anatomy, suggesting functional rather than anatomical clefts. The editor notes the rising, beneficial use of injection, both to treat and to establish the diagnosis.
+## Viva essentials
+!exam What the examiner is looking for
+- The Benjamin-Inglis classification and how each type presents.
+- Associated syndromes.
+- FEES versus modified barium swallow; the posterior aspiration pattern.
+- Diagnosis by palpation at direct laryngoscopy.
+- The ladder: injection, endoscopic, open, separation, with indications.
+- Upper airway obstruction as a contraindication to injection.
+- Two-layer closure; buried knots; no feeding tube against an endoscopic repair.
+- Laryngotracheal separation and the "neck breather" warning.
+!!
+## Common pitfalls
+!pit
+- Missing a cleft by looking without palpating.
+- Injecting a child who also has subglottic stenosis.
+- Ignoring the neurological cause of persistent aspiration.
+!!
