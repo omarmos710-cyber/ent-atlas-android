@@ -1,0 +1,157 @@
+@src Myers, Operative Otolaryngology
+@stand The endoscopic endonasal approach to the sella is the keystone of endoscopic skull base surgery. The old microscopic sublabial and transseptal routes gave a narrow view, cramped instruments, incomplete resections and little chance of controlling a carotid injury; the purely endoscopic approach, described in the mid-1990s and done by an otolaryngologist and a neurosurgeon working four-handed, opens both sphenoid sinuses widely, shows the sella with the carotids and optic nerves on either side, and reaches the suprasellar space and the cavernous sinus. The otolaryngologist's part is to build the corridor and, above all, to protect and later use the nasoseptal flap, whose pedicle runs below the sphenoid ostium. This chapter covers selection and endocrine work-up, the landmarks of the sphenoid's posterior wall, the corridor, sellar, suprasellar and lateral recess exposure, layered reconstruction, and the complications that matter: CSF leak, the carotid, the optic nerve and the pituitary.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Endoscopic endonasal approach to the sella
+ | Summary
+Indications | Pituitary adenoma (functional tumours not controlled medically; macroadenomas with visual loss or growth); craniopharyngioma; Rathke's cleft or pituitary cysts with headache or visual loss; meningoceles and meningoencephaloceles; planum and tuberculum meningiomas; selected lesions of the medial or anterior cavernous sinus; medial optic nerve and orbital apex decompression; sphenoid inflammatory disease, sinonasal tumours and fibro-osseous lesions
+Never | Cardiopulmonary disease prohibiting surgery; pathology on the **far side of a nerve or vessel**
+Caution | Significant lateral extent; bleeding disorder; **prolactinoma not yet tried on medical treatment**; vascular encasement
+Emergency | Rapid headache and visual loss suggest **pituitary apoplexy**
+Anaesthesia | General; short-acting relaxant only if nerves are monitored; arterial line and good access for fragile or vascular cases; **no mask ventilation** once the dura is open; orogastric tube; **MAP above 80** with visual loss, plus steroid (methylprednisolone 100 mg or dexamethasone 10 mg); stress-dose steroids in hypopituitarism
+Position | Supine, pins or horseshoe; bed turned for two surgeons; reverse Trendelenburg
+Antibiotics | Ceftriaxone 2 g; clindamycin 600 mg or vancomycin 1 g in cephalosporin allergy
+Monitoring | Somatosensory evoked potentials in all cases; cranial nerve EMG for cavernous sinus work
+Tray | Oxymetazoline 0.05% or adrenaline 1:1000 pledgets (not once dura is open); 0 and 45 degree scopes; sinus and endoscopic neurosurgical instruments; 4 to 5 mm coarse diamond drill; transnasal Doppler; endoscopic bipolar; two suctions; navigation; needle-tip diathermy; suction monopolar
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to remove the tumour through the nose with a camera, without cuts on the face or opening the skull.
+- **Leak of brain fluid** and meningitis; it is repaired at once if it occurs.
+- **Hormone problems:** temporary or permanent need for hormone tablets; diabetes insipidus (passing large volumes of urine).
+- **Vision:** rarely worse, from injury to the optic nerve or its blood supply.
+- **Bleeding,** including, rarely, from the carotid artery, which can be life-threatening.
+- **Nose:** crusting, adhesions, a hole in the septum, sinusitis; regular cleaning in clinic for up to 3 months if a flap is used.
+- **Reduced smell.**
+- **Nerve palsies** of the eye muscles if the cavernous sinus is entered.
+!!
+## Before you start
+Ask about visual loss or double vision, endocrine symptoms (especially **Cushing's syndrome** and **acromegaly**), headache, clear rhinorrhoea and polyuria. Record previous medical treatment and radiotherapy for the tumour; heart disease; **intracranial hypertension** (often undiagnosed in the obese); diabetes mellitus and insipidus; recurrent sinusitis, polyps with chest disease, cystic fibrosis, allergic fungal sinusitis, Samter's triad; previous sellar or nasal surgery; bleeding disorders and **MEN 1** in the family; anticoagulants, dopamine agonists, diabetic drugs, steroids and decongestants (which blunt intraoperative decongestion); alcohol, tobacco and drugs (**cocaine** damages the septum, scars the mucosa and blunts decongestants).
+!note A misprint about medical treatment
+The chapter lists previous medical treatment of pituitary tumours as "dopamine antagonists". Prolactinomas are treated with dopamine **agonists** (such as cabergoline and bromocriptine), as the chapter itself says under alternatives.
+!!
+Look for Cushing's features (fat distribution, buffalo hump, moon face, striae, pigmentation, bruising) and acromegaly (frontal bossing, macroglossia, prognathism, large hands and feet). Test fields, acuity and globe position; refer to ophthalmology if imaging shows optic nerve, chiasm or orbital involvement. Examine cranial nerves III to VI. Endoscope the nose: septal deviation or perforation, polyps, pus, masses, and after previous surgery whether a **nasoseptal flap pedicle** survives.
+## Imaging and preparation
+- **CT** (with contrast, coronal and sagittal) for the sinuses, orbits and skull base: the slope of the skull base, the anterior ethmoid arteries, and **Onodi cells**; CT angiography shows the carotid and intracranial vessels.
+- **MRI with gadolinium:** tumour extent, the residual gland and stalk, cavernous sinus invasion, the carotid and the chiasm.
+Arrange otolaryngology, neurosurgery, endocrinology and (for visual loss) ophthalmology. Stop aspirin and anticoagulants. Treat acute bacterial sinusitis first.
+
+# Anatomy you must see | The back wall of the sphenoid.
+## Landmarks
+- **The sphenoid ostium:** about a third of the way from the choanal arch to the skull base, behind the superior turbinate.
+- **The rostrum:** the midline "keel" where the vomer attaches.
+- **The planum sphenoidale:** the roof, continuous in front with the ethmoid roof and cribriform plate.
+- **Pneumatisation:** conchal, presellar or sellar; it decides what you see first.
+- **The optic nerves**, superolateral, converging over the sella; the canal may lie in an **Onodi cell**, often dehiscent there.
+- **The clival recess** below the sella; the **tubercular strut** where sella meets planum, over the **superior intercavernous sinus**.
+- **The carotid:** from the lacerum segment it runs superomedially as the paraclival segment, enters the cavernous sinus beside the sella, then forms the **paraclinoid** segment, the most medial and prominent part (the anterior protuberance).
+- **The intersinus septum** often swings laterally onto the carotid's anterior protuberance.
+- **The lateral opticocarotid recess**, the pneumatised optic strut between the carotid and the optic nerve; the medial recess is less distinct.
+- **The vidian nerve** crosses the sinus floor toward the foramen lacerum, over the petrous carotid; **V2** bulges superolateral to it in a well-pneumatised lateral recess.
+!mf 1 | The sphenoid bone from the front; the sphenoidotomy extends between the foramen rotundum and the pterygoid canal and includes the lateral recess.
+!mf 2 | Cadaver dissection of the right side: optic nerve (ON), carotid (ICA), lateral and medial opticocarotid recesses (lOCR, mOCR) and sella (S).
+
+# The operation, stage by stage | Corridor, sella, beyond.
+## Decongest and make room
+Decongest with pledgets and inspect with the 0 degree scope. Medialise the right middle turbinate, or resect it at the junction of its upper and middle thirds below the skull base for room for the scope and the neurosurgeon's left hand, carefully cauterising the turbinate branch of the sphenopalatine artery without injuring the main trunk. Its mucosa can be kept as a free graft.
+## Decide about the flap now
+Before any sphenoidotomy, decide whether a **nasoseptal flap** may be needed (dural opening or carotid exposure) and raise it on either side, or at least preserve its pedicle as a **rescue flap**.
+!danger The pedicle
+Opening the sphenoid too low cuts the posterior septal artery, the pedicle of the nasoseptal flap.
+!!
+## Wide bilateral sphenoidotomy
+Lateralise or partly resect the superior turbinates and open both sphenoids widely, exposing the planum and both orbits. Remove the intersinus septum conservatively with cutting instruments until the two-surgeon team can drill it flush. Perform a **posterior septectomy**: separate the vomer from the rostrum with a Cottle, remove the rostrum (rongeur or drill) and take the back of the septum with backbiters, sparing the **olfactory mucosa** in the upper 1 cm of the septum. Remove posterior ethmoid cells, more on the right to let the scope sit above the neurosurgeon's corridor; go further forward when access beyond the planum is needed.
+!mf 4 | Both sphenoids opened widely with the intersinus septum removed; the right middle turbinate preserved; a rescue flap kept below the suction.
+!mf 3 | Bone removed from the sphenoid face, posterior septum and sella for standard sellar surgery.
+## Inferior exposure without losing the flap
+Drill the rostrum and sphenoid floor for more inferior access. Sacrificing one posterior septal artery may help but is not always needed; alternatively, cut a window in the posterior septum and push the sphenoid face mucosa below the ostium downward to keep the pedicle.
+## Expose the sella
+Confirm the sella, carotids and optic nerves with navigation, drill septations flush, and from now on work **three-handed**. Strip the mucosa off the sella with a Cottle and suction (and wider if the planum, lateral sphenoid or clivus must be drilled). Thin the sellar bone and lift it off with an elevator or a Kerrison used to **elevate, not bite**, near the carotid. Drill laterally to show the edge of the cavernous sinus dura on each side, the safest way to define the parasellar carotid.
+!mf 5 | The sella after the partitions are drilled; suction in the clival recess; the left carotid siphon (ICA) and both optic nerves (ON).
+!mf 6 | Sellar dura exposed, with the blue cavernous sinuses (CS) on each side.
+## Suprasellar exposure
+Drill the midline above under visual and navigational control of the carotid, which is most at risk at the **medial opticocarotid recess**. Thin the planum to eggshell and remove it from front to back; the **tuberculum** must be very thin before removal, to avoid a CSF leak or bleeding from the superior intercavernous sinus.
+!mf 7 | The planum and sella removed in continuity for suprasellar extension.
+## The lateral recess: transpterygoid
+A well-pneumatised lateral recess, bounded by the vidian nerve and V2, needs a transpterygoid approach; take the nasoseptal flap from the **other side**, since the sphenopalatine artery will be sacrificed. Feel the crista ethmoidalis, raise mucosa to the sphenopalatine foramen, cauterise and divide the artery, and remove the posterior maxillary wall from the foramen outward with a 1 mm then larger Kerrison. Displace the pterygopalatine contents laterally to find the vidian artery and nerve in the pterygoid canal; dividing the vidian nerve lets you retract further to see V2 at the foramen rotundum. Drill the sinus floor and pterygoid base as needed. The **vidian nerve leads back to the foramen lacerum and the petrous carotid** at its second genu. For more inferior access, add a medial maxillectomy (posterior two thirds of the inferior turbinate, antrostomy to the nasal floor), sparing the greater palatine bundle.
+!mf 8 | Coronal CT of the lateral recess, its opening bounded by the vidian nerve and V2.
+!mf 9 | The pterygoid canal (arrow), a reliable landmark for the petrous carotid at its second genu.
+!senior The vidian nerve finds the carotid
+The vidian nerve runs superolaterally over the petrous carotid to the foramen lacerum. Follow it, and drill below and lateral to it, and you will know where the artery is.
+!!
+
+# Reconstruction | Match the repair to the leak.
+## Small defects
+Pituitary surgery without significant vascular or arachnoid exposure can be closed with a **free mucosal graft** from the middle turbinate or nasal floor, its edges held with Surgicel and reinforced with Gelfoam; no packing is needed. With marked diaphragmatic herniation and possible benign intracranial hypertension, fat can support the defect, though it makes revision harder.
+## Larger defects: the nasoseptal flap
+With an exposed carotid, a significant dural defect or cavernous sinus dissection, use the **nasoseptal flap**. Lay it so its whole length touches dura and bone, choosing an oblique or midline arc to suit; put its thick distal end where the risk is greatest; if unsure which side is mucosa, lay it back in place and mark it; never twist the pedicle; hold the edges with Surgicel and Gelfoam.
+!mf 10 | A right nasoseptal flap held with Surgicel over the sellar defect; the pedicle with the nasoseptal artery (asterisk) is visible.
+## Layers and packing
+Close dural defects in layers: a collagen underlay, then the graft or flap; consider three layers for high-flow or large leaks (fascia lata, acellular dermis, porcine intestine or similar as the middle layer). After dural repair or a flap, leave packing for **5 to 7 days**: Merocel or a balloon for a leak, a risky repair or carotid exposure; with exposed optic nerves, Merocel placed gently and **no balloon**, with regular vision checks. Sew Doyle splints to the septum for **3 weeks** after a flap; a free graft on the denuded septum speeds healing.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path CSF leak after surgery
+Recognise | clear fluid increasing with straining or leaning forward ; test for beta-2 transferrin, but history counts
+Act | repair within 12 to 24 hours ; the authors favour emergency exploration and repair over lumbar drainage
+Meningitis | close the leak and give broad-spectrum intravenous antibiotics
+!!
+!path Bleeding after surgery
+Mild | mucosal ; expectant
+Brisk and immediate | a sphenopalatine branch or the middle turbinate stump
+Significant and delayed | may be a **sentinel bleed** from a carotid pseudoaneurysm: emergency angiography
+!!
+!path Arterial bleeding at the sella
+Think | the inferior hypophyseal artery: coagulate it rather than avulse it, or it can mimic a carotid injury
+Prevent carotid injury | take carotid canal bone with care ; beware dissectors and powerful drills
+!!
+## Common errors in technique
+!pit
+- Too high a trajectory into the sphenoid, breaching the skull base.
+- Opening the sphenoid too low, cutting the flap pedicle.
+- Too little superolateral posterior ethmoidectomy, so the two surgeons fight for space.
+- Leaving the rostrum, blocking the clival recess and lower sella.
+- Too small a sellar opening, limiting the cavernous sinus and tumour margins.
+!!
+
+# Aftercare | Vision, hormones, the nose.
+## After the operation
+Check vision as soon as the patient cooperates. Oral antibiotics while packing remains. Test pituitary function if the gland was handled. Start saline irrigation once a leak is no longer a concern. Debride in clinic, often in the first month and for up to 3 months after a flap, without disturbing the repair.
+## Complications
+!table Complications
+Complication | Notes
+CSF leak, meningitis | Repair early; antibiotics for meningitis
+Epistaxis | Mucosal, sphenopalatine branch, turbinate stump; delayed: think pseudoaneurysm
+Synechiae | Silastic splints; divide in clinic
+Septal perforation | A tear in the opposite mucosa during flap harvest
+Iatrogenic sinusitis | Medical treatment; occasionally further sinus surgery
+Diabetes insipidus, hypopituitarism | Gland or stalk injury; expected when the stalk is sacrificed (craniopharyngioma)
+Optic nerve injury | Direct, thermal (irrigate when drilling the canal) or vascular (superior hypophyseal or, rarely, ophthalmic artery)
+Cranial nerve injury | Identify nerves; monitor
+Carotid injury | Catastrophic; prevention is everything
+!!
+## Alternatives
+Medical treatment (growth hormone receptor antagonists or somatostatin analogues; dopamine agonists) and stereotactic radiotherapy.
+
+# For the examination | What the examiner wants to hear.
+## Endoscopic or microscopic?
+There are no randomised trials. Meta-analyses of retrospective series favour the endoscopic endonasal approach for **completeness of resection** and **septal perforation**, and over the sublabial approach for CSF leak and epistaxis; meningitis, diabetes insipidus and endocrine dysfunction did not differ. ACTH-secreting tumours have similar biochemical cure rates; for growth hormone-secreting tumours, often larger and invading the cavernous sinus, endoscopy appears equal or superior, though comparison is muddied by stricter cure criteria adopted in 2010.
+## Viva essentials
+!exam What the examiner is looking for
+- Indications and contraindications, including medical treatment first for prolactinoma.
+- Apoplexy as an emergency.
+- The anaesthetic points: no mask ventilation, MAP above 80, steroids.
+- Landmarks of the posterior sphenoid wall: optic nerves, carotid segments, opticocarotid recesses, Onodi cell.
+- Deciding on the nasoseptal flap before the sphenoidotomy; the rescue flap.
+- The vidian nerve as the guide to the petrous carotid.
+- Reconstruction by defect size; packing and optic nerves.
+- Managing a postoperative leak and a delayed bleed.
+!!
+## Common pitfalls
+!pit
+- Resecting olfactory mucosa high on the septum.
+- Biting sellar bone with a Kerrison near the carotid.
+- Balloon packing over exposed optic nerves.
+- Treating a postoperative leak with a lumbar drain alone and waiting.
+!!

@@ -1,0 +1,150 @@
+@src Myers, Operative Otolaryngology
+@stand When endoscopic skull base surgery began, its weak point was the hole it left: early free-graft repairs leaked in up to a third of patients. The vascularised nasoseptal flap, a sheet of septal mucoperiosteum on the posterior nasal artery, changed that, and multilayer closures with vascularised tissue are now the standard for complex defects and high-flow leaks. The principles are simple and unforgiving: plan the repair before you resect, so the flap's pedicle is never cut; measure the defect; strip every scrap of mucosa from its edges; make the surface flat; lay an inlay beneath the dura and an onlay over the bone; keep sealant out from between the layers; and hold it all in place with packing put in under direct vision. Afterwards, keep the pressure off: head up, no straining, no CPAP. This chapter covers the indications, the free mucosal graft, the design and harvest of the nasoseptal flap, layered repair, packing, aftercare, and the debate over lumbar drains.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Endoscopic skull base reconstruction
+ | Summary
+Indications | A dural defect after tumour or encephalocele surgery; a CSF leak after sinus surgery; large extradural defects (to promote healing, protect vital structures and reduce intracranial infection, especially before radiotherapy)
+Contraindications | Unacceptable anaesthetic risk (observation, medical treatment or radiotherapy instead); an unresectable tumour (medical management unless surgery is the last palliation)
+Workhorse | **Nasoseptal flap** on the posterior nasal artery from the sphenopalatine artery
+Alternatives | Free mucosal graft (nasal floor, middle turbinate, septum); extranasal flaps (pericranial, temporalis, temporoparietal fascia); free tissue (radial forearm); middle and inferior turbinate flaps (limited use)
+Anaesthesia | General with a secured airway (irrigation, blood and CSF run into the pharynx); warn the anaesthetist when near the optic nerves or carotid so the patient cannot move
+Position | Supine, turned 90 or 180 degrees, with access to the head, abdomen and thigh (iliac crest to patella) for fat or fascia; eyes protected but accessible
+Antibiotics | First-generation cephalosporin (clindamycin, with better bone penetration, in allergy) for extradural or sellar work without high-flow leak; third-generation cephalosporin (vancomycin in allergy) after significant intra-arachnoid dissection
+Tray | Sinus set; guarded monopolar (used cautiously near the skull base); endoscopic bipolars; microsurgical dissectors (Rhoton); navigation; allograft or collagen matrix sized beforehand; thrombin-gelatin; fibrin or biological glue; endoscopic suturing devices; carotid and aneurysm clips for catastrophe
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to seal the opening between the nose and the brain after the tumour is removed, to stop brain fluid leaking and infection.
+- **The repair may leak** (now under about 1 in 10); a further operation may be needed.
+- **Air inside the skull** is expected; rarely it builds up under pressure and needs urgent treatment.
+- **A lumbar drain** may be used, with its own small risks.
+- **Packing** for a few days, then cleaning in clinic.
+- **Crusting**, a blocked nose, reduced smell, and rarely a mucocele (a trapped sinus cyst) later.
+- **Fat or fascia** may be taken from the abdomen or thigh.
+- **Six weeks** without heavy activity, straining or CPAP.
+!!
+## Before you start
+Sinonasal disease presents with obstruction, discharge or epistaxis; planar and perisellar disease with headache or eye signs (field cuts, ophthalmoplegia, ptosis). A postoperative leak usually appears within a week as **clear, persistent, salty rhinorrhoea**; later leaks can come from encephaloceles. Ask about previous sinus, septal, head and neck, neurosurgical or facelift surgery and radiotherapy, which may have destroyed the vascular pedicles and planes a flap needs; known skull base disease and its treatment; antiplatelets, anticoagulants, herbal products and alcohol.
+## Examination
+Endoscopy before surgery shows the tumour and whether the **septum or rostrum** is involved, which decides the flap. After surgery, endoscopy watches for tumour and leaks: a positive **reservoir sign** and more rhinorrhoea on Valsalva suggest a leak; intermediate (2 to 6 weeks) and late (over 6 weeks) leaks are uncommon, usually intermittent and low-flow from a pinpoint dural hole, and can usually be seen. Record orbital and trigeminal function, and examine the neck (nodes, and the vessels if free tissue may be needed).
+## Imaging and preparation
+CT shows the bone and sizes the craniectomy; MRI shows intracranial extent and neurovascular relations; contrast shows the vessels; format both for navigation. Angiography is not needed for reconstruction. Make sure the whole team agrees on the resection and repair, consent for a lumbar drain if one is planned, load the images, and stop antiplatelets.
+!mf 1 | Types of endonasal defect: (A, B) a small left ethmoid encephalocele on CT and MRI; (C, D) a large pituitary adenoma; (E) after resection, a well-placed, enhancing nasoseptal flap with a Foley balloon; (F, G) a tuberculum and planum meningioma with the anterior communicating and A2 arteries along its upper edge; (H) the nasoseptal flap after resection.
+!mf 2 | A transclival defect after resection of a posterior fossa meningioma, the basilar artery visible through it.
+
+# Anatomy you must see | The pedicle and the bony edge.
+## The nasoseptal flap pedicle
+Blood comes from the external carotid through the **sphenopalatine artery** to the **posterior nasal (septal) branches**, which cross above the choana. The pedicle **always runs between the free edge of the choana and the sphenoid ostium**. Do not dissect the lower front of the sphenoid until the flap is raised.
+## The bony edge
+Measure the defect and define its bony edges: **inlay** grafts must sit behind them; **onlay** grafts must cover them.
+!mf 3 | The nasoseptal flap and its incisions (dotted): about 1.5 cm below the olfactory groove, extendable onto the nasal floor or forward to the mucocutaneous junction, on the posterior nasal artery (PNA) between the choana and the sphenoid ostium (SO).
+
+# The operation, stage by stage | Grafts, flap, layers, packing.
+## Decongest and open the view
+Decongest with 0.05% oxymetazoline, given time to work (topical adrenaline is an option, beware rebound bleeding); the authors do not inject. Out-fracture the inferior and middle turbinates to see the whole septum from the olfactory sulcus to the floor.
+## A free mucosal graft
+Measure the defect first and mark the graft's mucosal side so it faces the nose.
+- **Middle turbinate:** see it up to the axilla; cut from front to back just below the axilla (never upward into the skull base), divide the horizontal basal lamella, cauterise the turbinate branch without harming the main sphenopalatine trunk, and strip the mucosa on the back table, keeping the bone.
+- **Nasal floor:** between the septum and the inferior meatus, extendable along the lateral wall and septum; not behind the hard palate (soft palate muscle); beware Hasner's valve and the mucocutaneous junction; raise subperiosteally.
+Keep grafts in saline.
+## Choose the side of the flap
+Take the flap from the **opposite side** if the operation will clear the pterygoid recess or pterygopalatine fossa, or if tumour invades the rostrum or septal mucosa. For midline lesions, a sharp spur that risks perforation may decide; the right side is easier for a right-handed surgeon.
+## Harvest the nasoseptal flap
+1. Find and enter the sphenoid ostium on the harvest side.
+2. **Inferior incision** with needle-tip diathermy in one smooth line (suction at the nostril for smoke): from inferolateral to the ostium, below the sphenoid floor, across the choana, over the back of the septum curving down to the hard palate, then forward along the septum-floor junction as far as the defect needs. Include the floor for a wider flap. The whole septal lining can cover from the frontal sinus to the sella and orbit to orbit.
+3. **Superior incision** from the ostium across the sphenoid face, sloping up over the rostrum, then forward **10 to 15 mm below the top of the septum** to spare olfactory epithelium.
+4. Join them with a **vertical incision** in front of the head of the inferior turbinate, or as far forward as the mucocutaneous junction for a longer flap. Overestimate the size and trim later.
+5. **Complete every incision before elevating**, using scissors where diathermy did not go through. Elevate from the front in the **subperichondrial** plane with a Cottle or suction dissector, and free it from the sphenoid face, preserving the posterolateral pedicle.
+6. Park the flap in the **nasopharynx** or the **maxillary sinus** through an antrostomy, away from the drill.
+!danger Losing the flap
+Pedicles are cut while widening the sphenoid ostium, making the inferior choanal cut, or freeing the flap from the sphenoid face; confirm the ostium before the inferior cut and keep the field dry. A perforated flap loses its seal: stay in the subperichondrial plane, established at the front.
+!!
+## Prepare the defect
+After the resection, **remove all mucosa around the defect** (trapped mucosa means poor healing and a mucocele) and make a **planar surface**, filling dead space with fat if needed; dermal fat grafts give a smooth outer face.
+## Layer it
+1. **Subdural inlay** of collagen matrix or allograft, extending 5 to 10 mm beyond the dural edges, which also fills intradural dead space.
+2. A second **epidural inlay** between bone and dura if needed (the bony ledges are sometimes too thin).
+3. **Onlay** of the free graft or nasoseptal flap over the bony edges, every edge resting on bone, mucosal side out.
+**Never put sealant between the layers or under the flap**: it prevents tissue contact. If the flap is torn, keep the tear off the dural defect, or plug it with a dermal graft.
+!mf 4 | A right nasoseptal flap (asterisks) over a sellar and planar defect; the pedicle rotated so the flap lies above the clival recess (CR) on a flatter surface.
+## Pack under vision
+Bolster the flap edges with oxidised cellulose, **separate the repair from the packing** with a non-adherent layer (gelatin sponge or film) so removal does not drag it, and place a **12 Fr Foley balloon** (7 to 10 mL saline, tip first in the nasopharynx) or 10 cm expanding sponges **under direct endoscopic vision**, without over-inflating.
+!danger Packing moves the repair
+Packing can shift the inlay and onlay. Place and inflate it while watching the repair.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Postoperative leak
+Recognise | clear rhinorrhoea; reservoir sign
+Confirm | endoscopy, beta-2 transferrin, topical fluorescein pledgets, or intrathecal fluorescein
+Act | explore and repair
+!!
+!path Pneumocephalus
+Expected | some air; observe if asymptomatic
+Increasing on serial CT | a leak: explore early and repair
+Tension | usually with positive pressure ventilation: theatre to take down the repair and release the air
+!!
+!path Major vessel injury
+Act | pack to control temporarily
+Then | angiographic treatment ; a nasoseptal flap covers the injured vessel, sometimes as a delayed repair after packing is removed
+!!
+## Common errors in technique
+!pit
+- A graft over a non-planar surface or dead space.
+- Mucosa left around the defect.
+- A flap that does not cover all bony edges.
+- Packing placed blind, moving the flap.
+!!
+!mf 5 | A reconstruction displaced into a craniofacial defect after sinonasal cancer resection; though not leaking, it was revised to sit at the level of the skull base.
+
+# Aftercare | Pressure off.
+## After the operation
+1. **Bed rest for 48 hours** after a high-flow intraoperative leak.
+2. No routine lumbar drain.
+3. Head of bed **30 to 45 degrees**.
+4. **Stool softener**.
+5. Remove packing or balloon at **3 to 5 days**; start saline rinses.
+6. First debridement at **2 weeks** (gently, only non-adherent packing); second at **4 weeks** (most of the remaining packing).
+7. **No strenuous activity or CPAP for 6 weeks.**
+!note How long the packing stays
+The sella chapter in this book leaves packing for 5 to 7 days after a dural repair or flap; this chapter removes it at 3 to 5 days. Both are presented as the authors' practice.
+!!
+## Complications
+!table Complications
+Complication | Notes
+CSF leak | Confirm and repair
+Pneumocephalus | Observe if mild; explore if increasing; release if tension
+Haemorrhage | Pack, angiography, flap cover
+Mucocele | Mucosa left under the repair or a blocked sinus outflow: strip mucosa, open neighbouring sinuses widely (sphenoidotomy, posterior septectomy, modified Lothrop); later endoscopic marsupialisation
+Flap failure | Cut pedicle or perforation
+!!
+## Alternatives
+Extranasal flaps (pericranial, temporalis, temporoparietal fascia) or free tissue (radial forearm) for large defects or when the nasoseptal flap is unavailable, usually needing an open approach for the pedicle. Lumbar drainage to unload the repair, now used less for small, low-flow leaks because of its complications.
+
+# For the examination | What the examiner wants to hear.
+## Lumbar drains for high-flow leaks?
+High-flow leaks come from opening a basal cistern or the third ventricle. Lumbar drains carry about **5% minor and 3% major complications**, and Tien and colleagues found only non-randomised data, with no clear difference in leak rate when a drain is added to a multilayer vascularised repair. Decide case by case: consider a drain for **intracranial hypertension, an early postoperative leak, previous radiotherapy**, or the need for intrathecal fluorescein. The editor finds that large anterior and posterior fossa defects benefit from CSF diversion, while sellar and suprasellar defects do not.
+## Vascularised flap or free graft?
+Early free-graft repairs leaked in **5 to 35%**; recent reviews report about **8.5%**, largely thanks to vascularised flaps. Harvey and colleagues found leaks in **6.7%** with vascularised repair against **15.6%** with free grafts; Soudry and colleagues found 94% success with vascularised repair of high-flow leaks against 82% with free grafts.
+## Viva essentials
+!exam What the examiner is looking for
+- The nasoseptal flap's blood supply and where the pedicle runs.
+- Incisions: the olfactory margin of 10 to 15 mm, the vertical cut, extensions.
+- Which side to harvest, and why.
+- Measuring, stripping mucosa, making it planar.
+- Inlay, onlay, no sealant between layers.
+- Packing under vision; balloon volume.
+- Aftercare: head up, stool softener, no CPAP for 6 weeks.
+- Leak, pneumocephalus and mucocele.
+- The lumbar drain debate; flap versus free graft numbers.
+!!
+## Common pitfalls
+!pit
+- Drilling the sphenoid floor before the flap is raised.
+- Elevating the flap before completing the incisions.
+- Leaving the flap in the path of the drill.
+- Glue under the flap.
+!!

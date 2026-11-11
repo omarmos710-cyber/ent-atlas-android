@@ -1,0 +1,151 @@
+@src Myers, Operative Otolaryngology
+@stand Juvenile angiofibroma is a rare, benign, intensely vascular tumour of adolescent boys. It arises in the lateral nasopharynx near the sphenopalatine foramen, at the base of the pterygoid, and spreads along the paths of least resistance: into the nose, sinuses and oropharynx, into the orbit through the inferior orbital fissure, into the infratemporal fossa through the pterygomaxillary fissure, and into the skull through its foramina or by eroding bone. Its diagnosis is made on imaging, not by biopsy. Its treatment is surgical, now mostly endoscopic, and the enemy is blood: embolisation the day before, a staging system that counts the vascularity left after embolisation, dissection around the tumour before touching it, division of large tumours into vascular segments, and the readiness to stop and stage. The tumour recurs from the spaces of the pterygoid base, which must be drilled. This chapter covers diagnosis, embolisation and UPMC staging, the endoscopic, transmaxillary and infratemporal approaches, and the complications.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Juvenile angiofibroma
+ | Summary
+Suspect it | **Unilateral nasal obstruction and recurrent epistaxis in an adolescent boy**
+Diagnosis | **Imaging**, without biopsy in most cases; biopsy only for atypical features suggesting sarcoma, under general anaesthesia with the airway controlled
+Indications | Surgery is the treatment of choice for **all** angiofibromas, even with intracranial extension
+Contraindications | Residual or recurrent tumour that is **not growing** (observe); refusal of blood products (relative, for advanced tumours with residual vascularity); medical conditions precluding surgery
+Embolisation | Bilateral angiography and embolisation the **day before** (the authors prefer Onyx; coils in the proximal internal maxillary arteries); for small tumours, ligating the internal maxillary artery lateral to the tumour at the start is an alternative
+Approach by stage | UPMC I and II: endoscopic endonasal; larger tumours with residual vascularity: add a transmaxillary approach; lateral extension to the middle fossa or infratemporal area: combine with a lateral (infratemporal) approach
+Anaesthesia | General, oral intubation
+Position | Supine; Mayfield pins if navigation and drilling at the skull base
+Antibiotics | Second-generation cephalosporin; third-generation if the dura may be opened
+Monitoring | SSEPs when the carotid will be dissected; EMG of III, IV, VI and V3
+Tray | Sinus set; maxillofacial instruments; Doppler for the carotid; nerve stimulator; endoscopic bipolar; endoscopic drill; harmonic scalpel; navigation
+Blood | Cross-matched blood despite embolisation; directed donors, banked autologous blood in older patients, cell saver for large tumours
+!!
+## Consent
+!consent What to tell the patient and family
+- **Why:** to remove a non-cancerous but very bloody growth at the back of the nose, which will keep growing and bleeding if left.
+- **Embolisation** the day before to block its blood supply.
+- **Bleeding** can still be heavy; a transfusion may be needed, and the operation may be done in stages.
+- **Numbness** of the palate, cheek or teeth (the commonest problem), and of the lower face with jaw weakness if the tumour is large.
+- **A slightly dry eye** from cutting the vidian nerve, usually unnoticed.
+- **Double vision or, rarely, visual loss** if the tumour involves the orbit or optic canal.
+- **Jaw stiffness** for a while; stretching exercises help.
+- **Leak of brain fluid** (rare) and, very rarely, injury to the carotid artery.
+- **Leftover tumour** is possible; small pieces that do not grow can be watched.
+!!
+## Before you start
+Ask about nasal obstruction (one or both sides), recurrent epistaxis, facial swelling, diplopia, V2 numbness, facial or sinus pain and hearing loss. On endoscopy, a **reddish, smooth, lobulated mass** fills the back of the nasal cavity; look for cheek or temporal swelling, proptosis or globe displacement, a middle ear effusion with conductive loss, and V2 hypoaesthesia.
+## Imaging
+- **CT with contrast** first: it shows the vascular tumour and the bone, with the characteristic **widening of the pterygopalatine space and bowing of the posterior maxillary wall**; obtain a CT angiogram on the skull base and navigation protocol to show the carotid.
+- **MRI** shows the interface with orbit, masticator space and dura, and separates tumour from retained secretions; without it CT can suggest an aggressive tumour such as sarcoma. The carotids and tumour vessels appear as flow voids.
+- **Angiography** confirms the hypervascular tumour and shows its supply, usually the **internal maxillary and ascending pharyngeal** branches of the external carotid, often **bilateral** in large tumours; advanced tumours also draw from the **internal carotid** through the vidian and cavernous branches. With skull base involvement near the carotid, angiography assesses the circle of Willis; a **balloon occlusion test** guides management if the carotid is encased (most young patients tolerate sacrifice if necessary).
+!mf 1 | CT of an angiofibroma (UPMC stage V) with bone erosion and extension into the orbits and cranial cavity; CT is best for bone and for estimating vascularity.
+!mf 2 | MRI of the same stage: the soft tissue interfaces, with the carotids (arrows) and tumour vessels as flow voids.
+!mf 3 | Angiography after internal maxillary embolisation (coils in the proximal trunk) showing much residual supply from the internal carotid.
+## UPMC staging
+Bleeding is the greatest risk in surgery, and the **UPMC system** is the only one that counts **residual vascularity after embolisation**; it predicts blood loss and residual or recurrent tumour better than others.
+!table UPMC staging
+Stage | Extent | Residual vascularity
+I | Nasal cavity, medial pterygopalatine fossa | —
+II | Paranasal sinuses, lateral pterygopalatine fossa | None
+III | Skull base erosion, orbit, infratemporal fossa | None
+IV | Skull base erosion, orbit, infratemporal fossa | Present
+V | Intracranial extension (M medial, L lateral) | Present
+!!
+
+# Anatomy you must see | Where it starts, what it stretches.
+## Landmarks
+- **The pterygoid canal and pterygoid base:** the **site of origin**; tumour infiltrates the spaces of the bone and must be drilled out. The canal, carrying the vidian nerve and artery, lies inferomedial to the lateral recess of the sphenoid, immediately behind the sphenopalatine foramen, and leads to the **petrous carotid**.
+- **The greater palatine nerve:** descends in its canal just deep to the sphenopalatine foramen, often **stretched over the tumour surface**; injury numbs the palate.
+- **The infraorbital nerve:** often pushed up as the tumour erodes the orbital floor; injury numbs the cheek.
+- **The foramen rotundum** (V2), superolateral to the lateral recess; **the foramen ovale** (V3), below it and behind the lateral pterygoid plate.
+!mf 4 | Coronal CT showing the characteristic invasion of the pterygoid base around the pterygoid canal (circle); the normal canal and foramen rotundum are seen on the other side.
+
+# The operation: endoscopic endonasal | Expose all round, then deliver.
+## Open the corridor around the tumour
+Decongest with 0.05% oxymetazoline and assess the tumour. Make a large middle meatal antrostomy on the tumour side, enlarge it back to the sphenopalatine foramen and remove the overlying (often thin, remodelled) bone with 1 to 2 mm Kerrisons to expose the pterygopalatine space, lateral to the tumour's edge and up toward the foramen rotundum. Perform an ethmoidectomy, take the lower middle turbinate, clear the posterior ethmoids to the roof and medial orbital wall, and open the sphenoid **above** the tumour if possible. **Do not instrument the tumour**; its surface can be bluntly freed from the skull base and pushed down. Control surface bleeding with **bipolar**.
+## Binarial access
+On the other side, cauterise and cut the posterior septal mucosa, remove the rostrum and perform a sphenoidotomy for access through both nostrils. Incise the nasopharyngeal mucosal margins with a needle-tip diathermy, which eases final delivery into the nasopharynx.
+## Free the lateral margin
+With access all round, dissect the pterygopalatine space to expose the tumour's lateral margin, pushing the fossa contents **from medial to lateral** to save the greater palatine nerve, often displaced forward. Stay on the tumour surface and deliver nodules from the masticator space and from behind the maxilla.
+!danger Early violation of the capsule
+Dissecting into the tumour before its margins are fully exposed causes troublesome bleeding. Expose first, then mobilise.
+!!
+## The sphenoid and the pterygoid base
+Free the sphenoid component bluntly from the sinus walls with the **optic canal and carotid** clearly in view. The last attachment is the **pterygoid base**, where tumour fills the bony spaces and the vidian artery may feed it: dissect it bluntly off the bone and cauterise the vidian artery and nerve with bipolar.
+## Deliver
+Deliver the whole tumour through the mouth or in pieces; divide large tumours into **vascular segments** with the harmonic scalpel or coblation.
+## Drill the pterygoid base
+Finally, drill the pterygoid **circumferentially around the pterygoid canal** to remove all remnants, down to the plane of the petrous carotid if necessary. Control bleeding with bipolar, gelatin powder and warm saline, and cover raw surfaces with fibrin glue.
+!danger Remnants in the pterygoid base
+Small remnants hide in the spaces of the pterygoid base and are the commonest source of recurrence. Drill it completely.
+!!
+
+# The operation: transmaxillary | More room laterally.
+Perform an endoscopic **medial maxillectomy**: cauterise and cut the inferior turbinate, cauterise the posterior stump, resect the medial maxillary wall with backbiters and drill it to the nasal floor, **preserving the nasolacrimal duct**. For more lateral access, add an **anteromedial maxillotomy**: incise at the pyriform aperture, lift periosteum off the edge and the anterior wall, and remove 1 to 2 cm of the anteromedial maxilla, extending across the anterior wall; or use a **Caldwell-Luc**, which also lets bipolar forceps in. Remove posterolateral maxillary wall to reach the masticator space and the tumour's lateral limit, and dissect the tumour off the infraorbital nerve and orbital floor.
+
+# The operation: infratemporal skull base | For lateral extension.
+Through a hemicoronal incision extended in front of the ear, raise the scalp above the deep temporal fascia, protecting the temporal branches of the facial nerve. Incise the periosteum along the lateral orbital rim and arch, free masseter from the arch, lift the periorbita from the lateral orbital wall and find the inferior orbital fissure. Cut the arch behind, the lateral orbital wall, and finally across the malar eminence to the inferior orbital fissure, freeing the **orbitozygomatic** segment. Reflect temporalis down, perform a **subtemporal craniectomy** for the middle fossa, preserving V3 at the foramen ovale, and dissect the infratemporal extension deep to temporalis and the pterygoids. Transpose the front half of temporalis to cover the carotid or dura if needed.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Brisk bleeding (stages IV and V)
+Use | bipolar, not monopolar
+Strategy | take the vascular segments one at a time
+Too much | pack the cavity and stage the operation
+!!
+!path A hole in the carotid
+Prevent | never avulse tumour vessels near the artery ; keep the field clear
+Small hole | bipolar diathermy
+Afterwards | angiography to exclude a sentinel bleed if the carotid was injured
+!!
+!path Bleeding after surgery
+Cause | usually unembolised external carotid branches
+Act | nasal packing ; angiography if the carotid was injured during surgery
+!!
+## Common errors in technique
+!pit
+- Inadequate exposure (use a medial maxillectomy, bilateral sphenoidotomies, a Caldwell-Luc for instruments).
+- Entering the tumour before exposing its margins.
+- No plane in the pterygopalatine space, so V2 branches are lost.
+- Incomplete drilling of the pterygoid base.
+- Missing nodules behind and below the maxilla (palpate through the mouth to push them into view).
+!!
+
+# Aftercare | Packs out, crusts cleaned.
+## After the operation
+Remove packing at 1 to 2 days if there is no bleeding, with antibiotics while it remains. Remove silastic septal splints at 1 week. Eat from day 1 (chlorhexidine rinse after a Caldwell-Luc). Saline sprays at once, rinses from a week. Clean crusts in clinic from 1 week. Gentle stretching for trismus.
+## Complications
+!table Complications
+Complication | Notes
+Haemorrhage | Stages IV and V; segment, bipolar, stage if needed
+Carotid injury | Poor view from bleeding; avulsed vessels
+CSF leak | Dural invasion is rare; inlay and onlay fascia with fat support
+V2 hypoaesthesia | The commonest complication: palate and midface; find the greater palatine and infraorbital nerves early
+V3 injury | Lower face numbness and masticatory weakness with large tumours
+Orbital injury, visual loss | Infraorbital canal, inferior orbital fissure, optic canal; no diathermy near the nerve, irrigate when drilling
+Dry eye | Vidian nerve sacrifice reduces emotional tearing
+Trismus | Early inflammation; late scarring treated with stretching devices
+Residual tumour | Cavernous sinus, middle fossa, masticator space; linked to stage, bleeding, exposure, multilobulated tumours, prior treatment
+!!
+## Alternatives
+Surgery is preferred because the disease is benign and radiotherapy has long-term effects in the young; subtotal resection with observation of remnants is reasonable near critical structures. **Radiotherapy** is rarely indicated: for poor surgical candidates, those refusing surgery or blood with advanced tumours, or unresectable tumours (perhaps after subtotal resection to limit the field). Refer to experienced centres. **Chemotherapy and hormones are not effective.**
+
+# For the examination | What the examiner wants to hear.
+## Is endoscopic surgery better?
+Boghani and colleagues' systematic review of **1047 cases** compared endoscopic, endoscopic-assisted and open resection: endoscopic resection had **less blood loss** and **fewer recurrences**, but after adjusting for tumour stage (Radkowski or Sessions), recurrence rates **did not differ**. The editor stresses that bleeding, especially internal carotid supply left after embolisation, is the greatest challenge, best met by a two-surgeon team with one surgeon's hands free for dissection.
+## Viva essentials
+!exam What the examiner is looking for
+- The classic presentation; diagnosis by imaging; no biopsy in clinic.
+- Imaging findings: widened pterygopalatine fossa, bowed posterior antral wall, flow voids.
+- Blood supply, and internal carotid supply in advanced tumours.
+- Embolisation the day before; UPMC staging and why residual vascularity matters.
+- The site of origin and why the pterygoid base must be drilled.
+- The order: expose, free the margins, the pterygoid base last.
+- V2 branches and how to save them.
+- Recurrence sites; the role of radiotherapy.
+!!
+## Common pitfalls
+!pit
+- Biopsying a vascular mass in clinic.
+- Operating without embolisation or cross-matched blood.
+- Chasing the tumour piecemeal before exposing it.
+- Leaving tumour in the pterygoid base.
+!!
