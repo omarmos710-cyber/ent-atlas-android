@@ -125,7 +125,28 @@ async function render(arg){arg=arg||"home";window._thcur=arg;document.body.class
  if(sync)h=sync();else{const slow=setTimeout(()=>{if(my===tok)V().innerHTML=`<div class="thspin">Preparing…</div>`},120);
   try{if(k==="op")h=await vOp(p[1],p[2]);else if(k==="play")h=await vPlay(p[1]);else if(k==="reh"){await needAuth();h=vReh()}else if(k==="r")h=await vR(arg);else if(k==="sec")h=vSec(p[1]);else if(k==="stage")h=vStage(p[1]);else if(k==="zone")h=vZone(p[1]);else h=vHome()}catch(err){h=`<div class="thwrap">${bar("Theatre","th:home")}<h1 class="thh1">That page didn't load.</h1><p class="thlede">Check your connection if you're on the web version, then try again.</p></div>`}
   clearTimeout(slow)}
- if(my!==tok)return;V().innerHTML=h;if(window.clAfterTheatre)window.clAfterTheatre(arg)}
+ if(my!==tok)return;V().innerHTML=h;thArm(V());if(window.clAfterTheatre)window.clAfterTheatre(arg)}
+/* chapter tabs, active-tab tracking and figure zoom for operation articles (same behaviour as clinical articles) */
+let THOBS=null,THLB=null;
+function thArm(v){if(THOBS){THOBS.disconnect();THOBS=null}const toc=v.querySelector(".thart .artoc");if(!toc||!("IntersectionObserver" in window))return;
+ const lis=[...toc.querySelectorAll("li")];let cur="";
+ THOBS=new IntersectionObserver(es=>es.forEach(en=>{if(!en.isIntersecting||cur===en.target.id||Date.now()<(window._thlock||0))return;cur=en.target.id;lis.forEach(l=>l.classList.toggle("on",l.dataset.c===cur));const on=lis.find(l=>l.dataset.c===cur);if(on){const ol=toc.querySelector("ol");ol.scrollTo({left:on.offsetLeft-ol.clientWidth/2+on.offsetWidth/2,behavior:"smooth"})}}),{rootMargin:"-35% 0px -60% 0px"});
+ v.querySelectorAll(".thart .arch-c").forEach(s=>THOBS.observe(s));if(lis[0])lis[0].classList.add("on")}
+function thGo(id){const el=document.getElementById(id);if(!el)return;window._thlock=Date.now()+1500;document.querySelectorAll(".thart .artoc li").forEach(l=>l.classList.toggle("on",l.dataset.c===id));const d=el.closest("details");if(d)d.open=true;if(el.tagName==="DETAILS")el.open=true;el.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"})}
+function thLB(img,cap){if(THLB)THLB.remove();THLB=document.createElement("div");THLB.className="arlb";THLB.setAttribute("role","dialog");THLB.setAttribute("aria-modal","true");
+ THLB.innerHTML='<div class="arlbbar"><button type="button" data-thlb="zoom">Zoom</button><button type="button" data-thlb="close">Close</button></div><div class="stage"><img alt="" data-thlb="zoom"></div><p></p>';
+ THLB.querySelector("img").src=img;THLB.querySelector("p").textContent=cap;document.body.appendChild(THLB);document.body.style.overflow="hidden";THLB.querySelector('[data-thlb="close"]').focus({preventScroll:true})}
+function thLBclose(){if(!THLB)return;THLB.remove();THLB=null;document.body.style.overflow=""}
+document.addEventListener("keydown",ev=>{if(THLB&&ev.key==="Escape"){ev.stopPropagation();thLBclose()}},true);
+/* capture phase, so the clinical library's own handler (if it is loaded) does not act on Theatre pages as well */
+document.addEventListener("click",ev=>{if(!document.body.classList.contains("thm"))return;const T=x=>ev.target.closest(x);let b;
+ if(THLB){if(b=T("[data-thlb]")){ev.stopPropagation();if(b.dataset.thlb==="zoom"){THLB.classList.toggle("zoom");THLB.querySelector('.arlbbar [data-thlb="zoom"]').textContent=THLB.classList.contains("zoom")?"Fit":"Zoom"}else thLBclose();return}
+  if(ev.target===THLB){ev.stopPropagation();thLBclose();return}}
+ if(!T(".thart"))return;
+ if(b=T("[data-artgo]")){ev.preventDefault();ev.stopPropagation();thGo(b.dataset.artgo);return}
+ if(b=T("[data-arfig]")){ev.preventDefault();ev.stopPropagation();const f=b.closest("figure"),c=f?f.querySelector("figcaption"):null,im=b.querySelector("img")||b;
+  thLB(im.currentSrc||im.src,c?[...c.childNodes].filter(n=>n.nodeName!=="B"&&n.nodeName!=="CITE").map(n=>n.textContent).join("").trim()+(c.querySelector("cite")?" · "+c.querySelector("cite").textContent:""):"");return}
+},true);
 window.THEATRE={render};
 const rr=()=>render(window._thcur);
 document.addEventListener("input",ev=>{if(ev.target.id==="thq"){LQ=ev.target.value;clearTimeout(window._thqt);window._thqt=setTimeout(()=>{const l=$("#thlib");if(l)l.innerHTML=libBody()},120)}if(ev.target.id==="thnote"){const t=TH();t.notes=t.notes||{};t.notes[ev.target.dataset.n]=ev.target.value;clearTimeout(window._thnt);window._thnt=setTimeout(save,400)}});

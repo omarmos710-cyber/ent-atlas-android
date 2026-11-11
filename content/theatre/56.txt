@@ -1,0 +1,135 @@
+@src Myers, Operative Otolaryngology
+@stand Many patients with obstructive sleep apnoea cannot or will not use positive airway pressure, and traditional surgery only changes the shape of the airway. Hypoglossal nerve stimulation treats a different part of the problem: the failing neuromuscular reflex by which the genioglossus, the main dilator of the upper airway, should contract against negative pressure in sleep. A pulse generator in the chest, timed to breathing by a sensor between the ribs, stimulates the tongue's protrusor branches with each breath. The tongue comes forward, and through the palatoglossus and palatopharyngeus the palate follows, so both the retrolingual and retropalatal airway open; the hyoid moves forward too. The operation is external to the pharynx, alters no anatomy, is reversible and titratable, and avoids the pain, bleeding and swallowing problems of pharyngeal surgery. Success depends on selection (moderate to severe apnoea, not too obese, without concentric palatal collapse on sedated endoscopy), on placing the cuff on the protrusor branches and not the retractors, and on careful titration afterwards. This chapter covers the work-up, the three incisions and the components, and the follow-up.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Hypoglossal nerve stimulation
+ | Summary
+Indications | **Moderate to severe** OSA, not significantly obese, intolerant of or inadequately adherent to PAP or other first-line devices; willing to have an implant; no anticipated need for **MRI**; able to use a simple remote control
+DISE | Recommended: **anteroposterior** palatal collapse responds; **complete concentric** collapse does poorly
+Relative contraindications | High perioperative risk; anticoagulation; poor nutrition; **metal allergy**; occupations with repeated trauma to the neck or chest (contact sports, martial arts, heavy firearms; the generator can be moved away from a rifle stock); concentric collapse; **BMI over 32**
+Device | Three implanted parts: a **pulse generator** in a chest pocket, a **stimulation cuff** on the distal hypoglossal nerve, a **respiratory sensor** in an intercostal space facing the pleura
+Anaesthesia | General, oral intubation; videolaryngoscope and fibreoptic available; **no long-acting relaxants** (nerve monitoring)
+Position | Supine, head turned left, right face, neck and chest exposed; shoulder roll and right trunk roll
+Monitoring | Fine-wire electrodes in **genioglossus** and **hyoglossus**
+Antibiotics | A standard intravenous dose before incision
+Tray | Nerve monitor with bipolar stimulating probe; head and neck set (dissection like a parotidectomy); monopolar and bipolar; angled DeBakey forceps and right-angle clamp for the cuff; the three components; sterile telemetry and programmer
+Skills | Neck dissection; submandibular gland excision
+!!
+## Consent
+!consent What to tell the patient
+- **Why:** to implant a device that moves your tongue forward with each breath during sleep, keeping your airway open; it does not change the anatomy of your throat and can be removed.
+- **It is turned on about a month after surgery** and adjusted over the following months with a sleep study.
+- **About two thirds** respond well on sleep studies; more feel better.
+- **Bleeding, infection** (which may mean removing the device), a collection of fluid.
+- **Weakness of the tongue** affecting speech or swallowing, or of the lower lip.
+- **A collapsed lung** (pneumothorax) from the sensor.
+- **Tongue soreness**, discomfort or disturbed sleep from stimulation.
+- **No MRI** with this device; avoid heavy lifting with the right arm for 2 to 3 weeks.
+!!
+## Before you start
+A full sleep history is the cornerstone: snoring, witnessed apnoeas, gasping, waking, nocturia, morning headache, sleepiness, cognitive problems; when it began and what changed (nasal injury, jaw surgery, weight gain, stroke, change of sleeping position); other sleep disorders (insomnia, restless legs) that confound outcomes; previous treatment and **adherence**. Excellent PAP use with persisting sleepiness suggests another cause, and surgery may not help.
+
+Review the sleep study: home or laboratory; sleep efficiency (poor efficiency suggests unreliable results or insomnia); architecture and continuity (disturbed by drugs, pain or other disease); AHI, RDI, snoring and oxygen saturation; and exclude **central apnoea, Cheyne-Stokes respiration** and hypoventilation, where surgery may be contraindicated; look for limb movements, seizures and REM behaviour disorder.
+!senior Device-specific questions
+Does the patient need regular **MRI** (multiple sclerosis, a brain tumour)? Any **metal allergy**? Previous neck or upper chest surgery or radiotherapy (breast surgery, pectoralis flap, neck dissection)? A job or sport that strikes the neck or chest, or firing heavy guns from the shoulder?
+!!
+Also ask about OSA comorbidities (hypertension, diabetes, myocardial infarction, atrial fibrillation, stroke, depression, reflux, erectile dysfunction), pain syndromes, heart and lung disease, dysphagia, neuromuscular disease, previous nasal, pharyngeal, skeletal or bariatric surgery, anticoagulants, opioids, benzodiazepines, antidepressants, lithium and stimulants, family history, occupation (drivers, pilots and shift workers), alcohol, smoking and sleep duration.
+## Examination
+- **Nose:** deformity, septum, turbinates, rhinitis, polyps, valve problems; correct nasal obstruction before or with pharyngeal surgery.
+- **Face:** significant maxillary or mandibular hypoplasia may need orthodontic or orthognathic treatment first; occlusion (Angle class, overjet, overbite).
+- **Mouth and oropharynx:** tongue scalloping, teeth (for an oral appliance), palatal height and width, tori, soft palate configuration and length, Mallampati or Friedman tongue position, tonsils, lateral walls, uvula.
+- **Neck:** circumference, hyoid position (low means a longer airway). **Chest:** deformity, scars. **Cranial nerves:** XII and VII.
+- **Flexible laryngoscopy** awake and **DISE**.
+!mf 1 | Velopharyngeal collapse on DISE: (A) anteroposterior, favourable for stimulation; (B) circumferential, less likely to respond.
+## Imaging and preparation
+Chest radiograph (cardiopulmonary disease, a paralysed hemidiaphragm); facial imaging (cephalogram, orthopantomogram, 3D CT) after jaw surgery or with craniofacial abnormality; sinus imaging if nasal surgery is combined. Consult anaesthesia about a difficult airway; hold or bridge anticoagulants; ask the patient to bring CPAP or an oral appliance.
+
+# Anatomy you must see | The nerve's final branches.
+## The physiology
+Pharyngeal afferents run in the superior laryngeal nerve to the nucleus solitarius; efferents run from the hypoglossal nucleus to genioglossus, which normally contracts in response to negative airway pressure. This reflex appears dysfunctional in many with OSA; stimulating the efferent limb restores dilation, and the tongue and palate are coupled through palatoglossus and palatopharyngeus.
+## Landmarks
+- **For the cuff:** the junction of the digastric tendon with the anteroinferior border of the submandibular gland; the free edge of mylohyoid; the **breakpoint** between the lateral hypoglossal branches to the retractors (styloglossus, hyoglossus) and the medial branches to the protrusors (genioglossus, geniohyoid); the distal edge of hyoglossus.
+- **For the generator:** the pectoralis fascia.
+- **For the sensor:** the fifth or sixth intercostal space, the external intercostal muscle, and the **upper border of the lower rib** (away from the neurovascular bundle).
+!mf 2 | The implanted system: the pulse generator in the upper chest (asterisk), the cuff electrode on the medial hypoglossal branches (black arrow), and the sensing lead in the intercostal space (white arrow).
+!mf 5 | The hypoglossal branches: the protrusor branches (medial XII, oblique and horizontal genioglossus, geniohyoid) go inside the cuff; the lateral retractor branches (to styloglossus and hyoglossus) stay outside.
+
+# The operation, stage by stage | Neck, chest, ribs.
+## Plan the incisions
+Usually on the **right**. Neck: about **3 cm**, between the mandibular body and the hyoid in a skin crease, **more anterior and superior than a submandibular gland incision**. Chest: about **4 cm below the clavicle**, centred over pectoralis, medial to the deltopectoral groove so the generator does not restrict the shoulder. Sensor: over the fifth or sixth rib space where the anterior axillary line meets the nipple line.
+!mf 3 | The neck incision (red) in the submandibular triangle, more anterior and superior than for gland excision, ideally in a skin crease.
+!mf 4 | The chest incision about 4 cm below the clavicle, medial to the deltopectoral groove.
+## Prepare
+Place fine-wire electrodes in genioglossus and hyoglossus; prepare with an iodine-impregnated drape and keep the tongue visible through a clear sterile drape.
+## Find the nerve
+Through platysma, expose where the digastric tendon meets the front of the submandibular gland. Retract the gland **posterosuperiorly** and the free edge of mylohyoid **anterosuperiorly** to show the hypoglossal nerve on the floor of the triangle; clamp, divide and tie the **ranine vein**.
+## Place the cuff
+With the landmarks and the nerve monitor, **include the distal protrusor branches** to genioglossus and **exclude the retractor branches**. Place the cuff around them and fix it to the digastric tendon; include the **C1 branch** to geniohyoid along the nerve's lower edge if it can be reached.
+!danger The wrong branch
+Including a distal lateral retractor branch in the cuff pulls the tongue back. Check with the monitor and by watching the tongue, and reposition.
+!!
+## The generator pocket
+Make a subcutaneous pocket on the **pectoralis fascia** through the chest incision.
+## The respiratory sensor
+Through the lateral chest incision, dissect below pectoralis and in front of serratus to the external intercostal muscle. Tunnel between the **external and internal intercostals** in the fifth or sixth space, insert the sensor **facing the pleura**, and fix it to the chest wall.
+!danger The pleura and the bundle
+Work along the upper border of the lower rib to spare the intercostal neurovascular bundle; a breach of the pleura causes a pneumothorax.
+!!
+## Connect and test
+Tunnel both leads to the chest pocket, staying **in front of the external jugular vein**, connect them to the generator, and fix it to the pectoralis fascia. With the telemetry unit, confirm stimulation of the protrusor branches, a good respiratory waveform, and **visible tongue protrusion**. Close the three wounds in layers with absorbable sutures, apply Steri-Strips and pressure dressings; **no drains**.
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Poor tongue protrusion on testing
+Think | a retractor branch inside the cuff, or protrusor branches outside it
+Act | reposition the cuff guided by the monitor and the tongue
+!!
+!path Bleeding while tunnelling
+Cause | the external jugular vein
+Prevent | tunnel in front of it
+!!
+## Common errors in technique
+!pit
+- A neck incision too far back, like a gland excision: a long tunnel and poor access to the distal branches.
+- A retractor branch in the cuff.
+- Tunnelling through the external jugular vein.
+- A generator too close to the deltopectoral groove, limiting the shoulder.
+!!
+
+# Aftercare | Activation and titration.
+## After the operation
+Neck and chest radiographs in recovery to document the components. Most go home the **same day** (no airway surgery, little or no opioid, not obese), on a normal diet, with paracetamol or NSAIDs. Avoid strenuous activity and heavy, repetitive use of the right arm for **2 to 3 weeks**.
+## Follow-up
+- Wound check at **1 to 2 weeks**.
+- **Activation and programming** at about **1 month**.
+- A **sleep study** to assess and titrate at about **2 months** (a month after activation).
+- Long-term follow-up of adherence, symptoms and the device.
+## Complications
+!table Complications
+Complication | Notes
+Procedure | Bleeding; infection (possibly explanting the device); haematoma or seroma; hypoglossal injury (speech, swallowing); marginal mandibular injury (lower lip); pneumothorax
+Therapy | Tongue abrasion; discomfort or insomnia from stimulation; unfavourable protrusion and poor response
+!!
+## Alternatives
+PAP or other devices should always remain on offer; upper airway reconstructive surgery; and combinations, especially in severe disease.
+
+# For the examination | What the examiner wants to hear.
+## Does it last?
+In the multicentre **STAR trial**, about **two thirds** met objective responder criteria, more reported better snoring, alertness and sleep-related quality of life, and the results held at **2 and 3 years**, with high adherence, very few serious adverse events and no permanent nerve injury. Further work is needed on the ideal phenotype, the procedure and titration.
+## Viva essentials
+!exam What the examiner is looking for
+- The negative pressure reflex and why stimulating XII works on the palate too.
+- Selection: moderate to severe OSA, BMI, PAP failure, DISE pattern, MRI.
+- The three components and where each goes.
+- The protrusor and retractor branches; nerve monitoring; C1.
+- Landmarks for the sensor and how to avoid the pleura and bundle.
+- Activation at 1 month, titration study at 2 months.
+- STAR outcomes.
+!!
+## Common pitfalls
+!pit
+- Implanting a patient with concentric palatal collapse.
+- Missing central apnoea on the sleep study.
+- Forgetting the MRI restriction.
+!!

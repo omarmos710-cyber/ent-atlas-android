@@ -1,0 +1,147 @@
+@src Myers, Operative Otolaryngology
+@stand The soft palate is a muscular valve. Its levator veli palatini forms a sling that lifts the velum back against the posterior pharyngeal wall, and together with the lateral and posterior pharyngeal walls (and in children the adenoid) it closes the nose off from the mouth for every English sound except m, n and ng. A cleft of the secondary palate splits that sling into two halves attached wrongly to the back edge of the hard palate, so the child cannot suck, milk comes down the nose, the Eustachian tubes fail, and speech is hypernasal. Repair has two aims: close the oral-nasal communication and rebuild the muscle sling in its proper backward position. Even so, 5 to 50% have velopharyngeal insufficiency afterwards and about 20% need more surgery, and insufficiency also appears without an overt cleft: in submucous clefts, after adenoidectomy, after midface advancement, even with adolescent growth. The choice of speech operation, Furlow palatoplasty, pharyngeal flap or sphincter pharyngoplasty, follows how the patient's valve moves. This chapter covers assessment with the speech therapist, closure patterns, primary palatoplasty and the three secondary operations.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Cleft palate and velopharyngeal dysfunction
+ | Summary
+Primary palatoplasty | Usually at **10 to 14 months** (repair at 3 to 5 months is possible, but midface growth costs outweigh any measurable speech gain); delay for developmental or speech delay before verbal communication, or very wide clefts
+Fistula | Persistent symptomatic oral-nasal fistula after repair
+VPD surgery | Persistent, anatomical VPD, usually at **2.5 to 5 years** (younger children's language and cooperation limit assessment)
+Furlow palatoplasty | **Anteriorly placed levators**: a submucous cleft, or a previous repair that did not reposition the muscle
+Pharyngeal flap | Intact levator sling and **good lateral wall motion**, but a large anteroposterior gap or poor anteroposterior motion
+Sphincter pharyngoplasty | **Good anteroposterior motion, poor lateral wall motion**
+Contraindications | Anaesthetic risk; uncorrected bleeding disorder or nutritional deficiency; **severe OSA**, which these operations can worsen (assess and treat first)
+Preparation | Stop antiplatelets; change from bottle to cup or short-spouted sippy cup; counsel on pain, diet and arm restraints
+Anaesthesia and position | General, oral RAE tube taped in the midline; supine with a shoulder roll
+Antibiotics | Ampicillin-sulbactam; clindamycin in allergy
+Tray | Dingman or ratchet gag; marking pen or gentian violet; lidocaine with adrenaline (0.5% 1:200,000, or 1% 1:100,000 in older children); oral set with periosteal and Freer elevators, skin hooks, long tenotomy scissors; long-handled 15 or 15C blade; angled Beaver blade; 3-0 and 4-0 absorbable sutures; bipolar and insulated needle monopolar; optional 70 degree endoscope for viewing
+!!
+## Consent
+!consent What to tell the parents
+- **Why:** to close the gap between mouth and nose and rebuild the palate muscle so your child can feed and speak normally; or, later, to tighten the valve behind the palate for clearer speech.
+- **Bleeding**, and swelling that can affect breathing; a night or more in hospital.
+- **The repair may break down** or leave a small hole (fistula) that may need repair.
+- **Speech may still be nasal**; speech therapy continues, and another operation may be needed after at least a year.
+- **Snoring or sleep apnoea** after a pharyngeal flap or sphincter pharyngoplasty; rarely a narrowing behind the nose needing surgery.
+- **Arm restraints** for 2 weeks and a smooth liquid diet; no bottles or dummies.
+!!
+## Before you start
+Ask when the cleft was diagnosed (palate clefts are harder to see on prenatal ultrasound than lip clefts); breathing problems at birth (**micrognathia** with tongue-base obstruction), stridor, stertor, cyanosis or life-threatening events; feeding: breast milk or formula, its caloric density, the bottle (a **Haberman or Pigeon** teat that does not need suction), how easy and how long each feed takes (long feeds suggest poorly coordinated breathing and swallowing). In older children, speech development, therapy, whether speech is improving, plateauing or worsening, and fatigue through the day. Ask about **milk from the nose**, hearing screening, otitis media and tubes. Record previous oral, tonsil and **adenoid** surgery: adenoidectomy unmasks VPD in up to 1 in 1000 children, often improving within months; consider surgery if it lasts over 6 months. Ask about family clefts, heart disease and speech problems.
+## Examination
+- **The palate:** extent and side of the cleft (LAHSHAL or Veau classification); elevation pattern with a gag. A **submucous cleft** is the triad of bifid uvula, notched hard palate and **zona pellucida**; an occult submucous cleft shows only on activation (a vault-shaped elevation, a midline muscle deficiency, anterior levators).
+- **The airway:** stridor, stertor, work of breathing.
+- **Perceptual speech assessment** by an experienced speech therapist: still the gold standard; no objective measure correlates reliably with intelligibility.
+- **The ears:** effusions; tubes can be placed at palate repair.
+- **Nasendoscopy** above the inferior turbinate for a bird's-eye view of closure on test phrases: palatal, lateral and posterior wall movement, bubbling (a nasal rustle), and adenoid size (adenoidectomy is often useful before a pharyngeal flap).
+- **Syndromes:** Stickler, 22q11.2 deletion, Treacher Collins.
+## Closure patterns
+Imaging is not routine; **speech videofluoroscopy** with oral and nasal contrast, with the speech therapist present, suits children who will not tolerate endoscopy and also shows adenoid size.
+!table Velopharyngeal closure patterns
+Pattern | Normal population | With VPI
+Coronal (velum moves back, little lateral wall movement) | 55% | About 45%
+Sagittal (lateral walls close, little anteroposterior movement) | 10 to 15% | 10 to 15%
+Circular, with Passavant's ridge (all walls move) | 10 to 20% | 20 to 25%
+!!
+
+# Anatomy you must see | The sling and its attachments.
+## Landmarks
+- **Bone:** incisive foramen, palatine process of the maxilla, horizontal plate of the palatine bone, **greater and lesser palatine foramina**, **pterygoid hamulus**, vomer.
+- **Muscle:** in the normal palate the levators meet as a transverse sling; in a cleft they run forward to insert on the **posterior edge of the hard palate** (Veau's muscle, levator with palatopharyngeus).
+!mf 1 | The velopharyngeal valve: (A) normal anatomy (tensor and hamulus, palatoglossus, levator, superior constrictor, palatopharyngeus); (B) a unilateral cleft with the levators attached anteriorly to the hard palate edge.
+
+# The operation: common steps | Every palate and pharynx case.
+## Set up
+Oral RAE tube taped in the midline, sparing the lower lip; shoulder roll; face prepared with povidone-iodine and mouth with chlorhexidine. Insert the Dingman or ratchet gag for the best view, the tube held in the midline on the tongue, and **relax the gag every 20 to 30 minutes** for tongue perfusion. Mark incisions with a marking pen or a gentian violet stick. Inject submucosally and subperiosteally in the hard palate, avoiding the neurovascular bundles. A 70 degree endoscope on the Mayo stand lets the team watch. At the end, pass an orogastric tube to empty the stomach.
+
+# The operation: two-flap palatoplasty | With intravelar veloplasty.
+## Incise
+Medially, leave a strip of mucoperiosteum (**at least 2 mm**, more in wide clefts) on the cleft edge for the nasal layer, continuing to the uvula tip on each side. Laterally, include only oral mucoperiosteum, not gingiva.
+## Raise the flaps and free the pedicle
+Elevate subperiosteally from anterolateral, identify and **preserve the greater palatine neurovascular pedicle**, and on both sides of it detach all muscle and tendon from the posterior hard palate so the flaps hang on the pedicle and lateral attachment only. Blunt dissection in the **space of Ernst** medialises the soft palate further; infracture the hamulus if needed. Gentle traction draws the pedicle out of its foramen, and incising its periosteal cone gives more length.
+## Free Veau's muscle
+Elevate the nasal mucoperiosteum off the nasal floor. Dissect **Veau's muscle** off the posterior hard palate edge, the oral mucosa and the nasal mucosa with sharp scissors or a knife, without perforating either layer.
+## Close in three layers
+Close the **nasal layer** with 4-0 absorbable sutures from front to the base of the uvula, knots on the nasal side. Bring the muscle **back and to the midline** and suture it with 3-0 (the **intravelar veloplasty**). Join the uvula with horizontal mattress sutures. Close the **oral layer** from front to back with 4-0 or 5-0 interrupted or mattress sutures, knots on the oral side, tacking it to the nasal layer at its midpoint and to the gingiva anteriorly. A double-opposing Z-plasty may replace the veloplasty.
+!mf 2 | Two-flap palatoplasty: (A) incisions 1 to 2 mm lateral to the oral-nasal junction; (B) elevating the mucoperiosteal flap; (C) the greater palatine pedicle preserved; (D) the nasal flap elevated; (E, F, G) the levator freed from the hard palate, oral and nasal mucosa; (H) nasal closure; (I) levators sutured together; (J) oral closure, lateral donor sites left open.
+
+# The operation: Furlow palatoplasty | Double-opposing Z-plasty.
+## Mark
+Feel the **hamulus** on each side, a bony bump just medial and behind the maxillary tuberosity. Mark the oral incisions from the **left hamulus to the hard palate edge** and from the **right hamulus to the base of the uvula**, and the midline from the hard palate to the uvula (in an unrepaired cleft, 2 mm lateral to the cleft edge).
+## Oral flaps
+Cut the midline, then the left limb; free the clefted muscle from the hard palate and the nasal mucosa as a **posteriorly based oral myomucosal flap**. Cut the right limb and raise an **anteriorly based oral mucosal flap** to the hard palate edge, then free the right muscle from the hard palate, leaving a rim of nasal mucosa.
+## Nasal flaps
+Cut the left nasal layer from the uvula base to just medial to the torus tubarius (an **anteriorly based nasal mucosal flap**) and the right from the hard palate edge to the same point (a **posteriorly based nasal myomucosal flap**). Secure haemostasis.
+## Transpose and close
+Close the nasal layer from front to back: the left anteriorly based flap across to the right hard palate edge, then the right posteriorly based myomucosal flap across toward the left superior constrictor. Join the uvula. Close the oral layer: the right anteriorly based flap to the left hard palate edge, then the left posteriorly based myomucosal flap across to the right. The palate is **lengthened**, its muscle reoriented **transversely** and bulked **posteriorly**.
+!mf 3 | Furlow palatoplasty for a Veau II cleft: (A) the cleft; (B) the oral Z-plasty with the nasal cutbacks in blue; (C) nasal flaps transposed, the posteriorly based nasal myomucosal flap moved back; (D) oral closure with the posteriorly based oral myomucosal flap moved back.
+
+# The operation: superiorly based pharyngeal flap | A bridge to the palate.
+## Raise the flap
+Mark a flap on the posterior pharyngeal wall whose tip lies near the lowest point visible with the gag. Inject, split the palate in the midline (slightly more on the oral layer anteriorly), cut the flap to the **prevertebral fascia**, and raise it as a superiorly based myomucosal flap toward the skull base, its base at or above the level of the hard palate.
+## Inset and set the ports
+Secure haemostasis with bipolar, then sew the flap tip to the **nasal layer** at the front of the split palate with 4-0 sutures, continuing laterally with mattress sutures. Close the oral mucosa over it, adjusting each **lateral port** with the last sutures and with nasal trumpets as a guide. Check the base of the flap for bleeding, a common site. Pass a nasal trumpet or small tube through each side into the pharynx and secure them; close the donor site with 3-0.
+!mf 4 | Superiorly based pharyngeal flap: (A) elevation with the midline palatal split; (B) inset into the nasal side of the palate; (C) closure of the palate and the pharyngeal donor site; (D) the flap above the palate between its oral and nasal layers.
+
+# The operation: sphincter pharyngoplasty | A new muscular ridge.
+## Raise the pillar flaps
+Retract the uvula forward with a suture. Mark incisions along each **posterior tonsillar pillar** and a horizontal inset incision on the posterior pharyngeal wall. Inject, then raise myomucosal flaps from each pillar from below upward, taking as much **palatopharyngeus** as possible.
+## Inset
+Cut the inset incision to the prevertebral fascia and spread it slightly. Secure haemostasis and sew the flaps into it, end to end or overlapping, to create a single port whose size depends on flap length and overlap. Close the pillar defects.
+!mf 5 | Sphincter pharyngoplasty: (A) incisions on the posterior pillars and the posterior wall above the palate; (B) the flaps elevated and rotated; (C) flaps sutured together, muscle deep; (D) a single port with a new muscular ridge.
+!note Combined operations
+Some surgeons combine Furlow palatoplasty with sphincter pharyngoplasty with good results; the authors do not, for fear of nasopharyngeal stenosis.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Bleeding after surgery
+Minor | often stops, or with oxymetazoline spray
+Persistent | return to theatre ; the base of a pharyngeal flap is a common source
+!!
+!path Breakdown of the repair
+Act | continue liquids and wait ; repair a resulting fistula secondarily
+!!
+## Common errors in technique
+!pit
+- Inadequate flap elevation, so the closure is under tension.
+- Poor haemostasis, leading to bleeding or haematoma.
+- Not relaxing the gag, leaving a swollen tongue.
+!!
+
+# Aftercare | Arms, liquids, patience.
+## After the operation
+Admit until oral intake is adequate. **Arm restraints** at all times for 2 weeks except when supervised; a **smooth liquid diet** for 2 weeks; no dummies, bottles or long-spouted cups. Review at 1 to 2 weeks; optional antibiotics for 7 days. Young children sip water after meals; older ones use chlorhexidine twice daily for 14 days.
+## Complications
+!table Complications
+Complication | Notes
+Bleeding | Oxymetazoline; theatre if persistent
+Airway obstruction | Early swelling
+Dehiscence and fistula | Wait; repair later
+Persistent VPI | Speech therapy for at least a year before more surgery, as speech may keep improving
+Obstructive sleep apnoea | After flaps and pharyngoplasty
+Nasopharyngeal stenosis | Scarring of the ports; surgical repair
+!!
+## Alternatives
+A **speech obturator or palatal lift** for those unfit for surgery or with severe OSA; **posterior wall augmentation** (calcium hydroxylapatite or fat) for small gaps and for pressure VPI in woodwind and brass players.
+
+# For the examination | What the examiner wants to hear.
+## Clefts and sleep apnoea
+Children with clefts have more sleep-disordered breathing than other children, obviously with midface hypoplasia, micrognathia or glossoptosis, but also in non-syndromic clefts. Robison and Otteson found symptoms in **37.5%** of 459 cleft patients, of whom about half had surgery, usually adenotonsillectomy. Assess sleep before any operation that narrows the velopharynx.
+## Viva essentials
+!exam What the examiner is looking for
+- The velopharyngeal valve and how a cleft disrupts it.
+- Submucous cleft triad and the occult form.
+- Feeding with a cleft: why breast feeding fails, special bottles.
+- Timing: palatoplasty at 10 to 14 months, VPD surgery at 2.5 to 5 years.
+- Closure patterns and matching them to Furlow, pharyngeal flap or sphincter pharyngoplasty.
+- The greater palatine pedicle, the space of Ernst, intravelar veloplasty.
+- The Furlow flaps and what they achieve.
+- Aftercare and complications, including OSA and stenosis.
+!!
+## Common pitfalls
+!pit
+- Performing a pharyngeal flap in a child with untreated sleep apnoea.
+- Operating for VPD before a proper perceptual speech assessment.
+- Forgetting the adenoid before a pharyngeal flap.
+!!
