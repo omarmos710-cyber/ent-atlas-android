@@ -1,0 +1,35 @@
+@stand Dyes help ENT surgeons see what they cannot otherwise find: parathyroid glands, sentinel lymph nodes, fistula tracts and perfusion of flaps and parathyroids. Methylene blue was once given intravenously to stain abnormal parathyroids, but it causes serotonin syndrome in patients on serotonergic drugs and neurotoxicity, so it has been largely replaced by better imaging, near-infrared parathyroid autofluorescence and indocyanine green angiography.
+
+# At a glance | The dyes on one page.
+## Summary
+!table Methylene blue and other surgical dyes
+ | Summary
+Methylene blue (methylthioninium chloride) | Historic intravenous parathyroid localisation; oral or topical use to demonstrate fistulas (pharyngocutaneous, salivary, tracheo-oesophageal puncture leaks) and to mark tracts; treatment of methaemoglobinaemia (1 to 2 mg/kg intravenously)
+Indocyanine green (ICG) | Intravenous near-infrared fluorescent dye: assessing parathyroid perfusion after thyroidectomy, flap and skin perfusion, lymphatic mapping; contains iodide (caution in iodine allergy)
+Isosulfan blue and patent blue V | Lymphatic mapping for sentinel node biopsy, usually with a radioactive tracer (technetium-99m)
+Parathyroid autofluorescence | No dye needed: near-infrared light makes parathyroids glow, used to find and protect them at thyroidectomy
+!!
+
+# Using them in ENT | Practice.
+## Fistula detection
+After laryngectomy or pharyngeal surgery, oral methylene blue appearing in the neck drain or wound confirms a pharyngocutaneous fistula; around a voice prosthesis, coloured water shows whether leakage is through or around the device.
+## Sentinel node biopsy
+In early oral cavity cancer with a clinically negative neck, sentinel node biopsy uses a radioactive tracer injected around the tumour, lymphoscintigraphy, a gamma probe and sometimes a blue dye or fluorescent tracer.
+
+# Safety | What goes wrong.
+## Methylene blue
+**Serotonin syndrome** when given intravenously to patients on SSRIs, SNRIs, MAOIs, tricyclics, lithium or linezolid (it is a potent MAO-A inhibitor); confusion and neurotoxicity at high doses; haemolysis in G6PD deficiency; falsely low pulse oximetry readings; blue-green urine and skin.
+## Other dyes
+Anaphylaxis to patent and isosulfan blue (around 1%); ICG anaphylaxis rarely, with iodide content.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- The **serotonin syndrome** warning with methylene blue.
+- Modern parathyroid localisation and identification techniques.
+- How to confirm a pharyngocutaneous fistula.
+!!
+## Common pitfalls
+!pit
+- Intravenous methylene blue in a patient on an SSRI.
+!!

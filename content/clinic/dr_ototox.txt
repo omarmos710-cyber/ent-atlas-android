@@ -1,0 +1,39 @@
+@stand Ototoxic drugs damage the cochlea, the vestibular system, or both. The damage may be reversible (salicylates, loop diuretics, macrolides) or permanent (aminoglycosides, platinum compounds). ENT surgeons are asked to monitor patients receiving these drugs, to recognise ototoxic hearing loss and bilateral vestibular failure, and to advise on prevention and rehabilitation.
+
+# At a glance | The drugs on one page.
+## Summary
+!table Ototoxic drugs
+Drug or group | Mainly affects | Reversible? | Key points
+Aminoglycosides (gentamicin, streptomycin: vestibular; amikacin, neomycin, kanamycin, tobramycin: cochlear) | Hair cells, basal turn first | Usually permanent | Mitochondrial m.1555A>G mutation; loop diuretics add risk; topical drops through a perforation
+Cisplatin (and carboplatin at high doses) | Outer hair cells and stria vascularis | Permanent | Dose-related, worse in children; sodium thiosulfate protects in some children
+Loop diuretics (furosemide, bumetanide) | Stria vascularis | Usually reversible | Rapid intravenous doses, renal failure; strongly synergistic with aminoglycosides
+Salicylates (aspirin at high doses) | Outer hair cells (prestin) | Reversible | Tinnitus and flat mild loss at high levels
+Quinine, chloroquine, hydroxychloroquine | Cochlea | Often reversible (quinine) | Tinnitus, vertigo; cinchonism
+Macrolides (erythromycin, azithromycin) | Cochlea | Usually reversible | High intravenous doses, renal or hepatic impairment
+Vancomycin | Cochlea | Variable | Mainly with aminoglycosides
+Deferoxamine | Cochlea | Variable | Chelation in transfusion-dependent patients
+Phosphodiesterase-5 inhibitors (sildenafil) | Cochlea | Variable | Associated with sudden sensorineural hearing loss
+Topical agents in the middle ear | Inner ear through the round window | Variable | Aminoglycoside drops, chlorhexidine and alcohol preparations, some antiseptics
+!!
+
+# Recognising and monitoring | What ENT surgeons do.
+## Monitoring
+Record baseline pure-tone audiometry (with extended high frequencies 9 to 16 kHz where available, and otoacoustic emissions in children) before treatment, repeat during treatment and afterwards. Significant change by ASHA criteria is a threshold shift of 20 dB or more at one frequency, 10 dB or more at two adjacent frequencies, or loss of response at three consecutive frequencies where there was one before. Ask about tinnitus and imbalance.
+## Vestibular toxicity
+Bilateral vestibular loss causes oscillopsia and unsteadiness, especially in the dark or on uneven ground, without vertigo. Test with the head impulse test (bilateral catch-up saccades), a positive Romberg on foam, dynamic visual acuity, and video head impulse or caloric testing. Treat with vestibular rehabilitation.
+## Prevention
+Avoid ototoxic drugs where possible, use the lowest effective dose and shortest course, monitor drug levels and renal function, avoid combining ototoxic drugs, and test for the m.1555A>G mutation where available.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Which drugs are **cochleotoxic, vestibulotoxic, reversible or permanent**.
+- The **mechanisms** (hair cell entry, reactive oxygen species, stria vascularis).
+- **Monitoring** criteria and how bilateral vestibular loss presents.
+- The m.1555A>G mutation.
+!!
+## Common pitfalls
+!pit
+- No baseline audiogram before cisplatin or long aminoglycoside courses.
+- Missing bilateral vestibular failure after an ICU stay.
+!!
