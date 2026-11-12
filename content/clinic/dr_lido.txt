@@ -1,0 +1,56 @@
+@stand Lidocaine is the amide local anaesthetic ENT surgeons use every day: infiltrated with adrenaline for incisions and blocks, sprayed onto the nose, pharynx and larynx for endoscopy, gelled for the urethra of the airway, and injected into the ear canal. It works within minutes and lasts one to two hours (longer with adrenaline). Every resident must know its maximum dose and how to recognise and treat local anaesthetic systemic toxicity.
+
+# At a glance | The drug on one page.
+## Summary
+!table Lidocaine
+ | Summary
+Class | Amide local anaesthetic (also class Ib antiarrhythmic)
+How it works | Blocks voltage-gated sodium channels from inside the axon, stopping action potential conduction; small, unmyelinated pain fibres are blocked first
+Preparations | 0.5%, 1% and 2% injections, plain or with adrenaline (1:80,000 to 1:200,000); 4% topical solution; 10% spray (10 mg per spray); 2% gel; 5% with phenylephrine (co-phenylcaine)
+ENT uses | Infiltration for incisions, flaps, biopsies and ear canal blocks; regional nerve blocks (auricle, scalp, infraorbital, mental); topical anaesthesia for nasendoscopy, laryngoscopy, transnasal oesophagoscopy and awake fibreoptic intubation; intravenous adjunct to reduce coughing at extubation
+Maximum dose | Plain 3 mg/kg (maximum 200 mg); with adrenaline 7 mg/kg (maximum 500 mg); topical mucosal doses count toward the total and are absorbed rapidly
+Quick conversion | 1% = 10 mg/ml; 2% = 20 mg/ml. A 70 kg adult may receive up to 21 ml of 1% plain or 49 ml of 1% with adrenaline
+Onset and duration | Onset 2 to 5 minutes; duration 1 to 2 hours plain, 2 to 4 hours with adrenaline
+Pregnancy | Safe in normal doses
+!!
+
+# How it works | Mechanism and handling.
+## Mechanism
+Lidocaine is a weak base. The un-ionised form crosses the nerve membrane; inside, the ionised form blocks the sodium channel. In inflamed, acidic tissue (an abscess) less drug is un-ionised, which is why infiltration of infected tissue works poorly. Adding **sodium bicarbonate** (1 ml of 8.4% to 10 ml of lidocaine) reduces the sting of injection and speeds onset.
+## Handling
+Metabolised in the liver (CYP1A2 and 3A4) to active metabolites; clearance falls in liver disease and heart failure. **Adrenaline** slows absorption, prolongs the block, raises the safe dose and reduces bleeding.
+
+# Using it in ENT | Practice.
+## Infiltration
+Inject slowly through a fine needle, aspirating before each injection in vascular areas, and wait 7 to 10 minutes for adrenaline's vasoconstriction. Adrenaline in the ear, nose and digits is safe in healthy tissue; avoid it in compromised flaps and use with care in patients with severe cardiovascular disease.
+## Topical airway anaesthesia
+Spray or atomise onto the mucosa; for awake fibreoptic intubation, the total topical dose up to about 9 mg/kg has been used under anaesthetic supervision, but in the clinic keep well below the injection limits. After laryngeal anaesthesia the patient should not eat or drink for about an hour (loss of protective reflexes).
+
+# Safety | Local anaesthetic systemic toxicity.
+## Recognise it
+Early: circumoral numbness, metallic taste, tinnitus, light-headedness, slurred speech. Then: agitation, muscle twitching, **seizures** and loss of consciousness. Cardiovascular: bradycardia, arrhythmias, hypotension and cardiac arrest (more abrupt with bupivacaine). Toxicity can occur from inadvertent intravascular injection even at low doses.
+!path Local anaesthetic systemic toxicity
+Stop | stop injecting ; call for help
+Airway and breathing | 100% oxygen ; secure the airway ; avoid hypercapnia and acidosis
+Seizures | benzodiazepine (midazolam, lorazepam) or a small dose of propofol
+Cardiovascular | standard advanced life support ; arrhythmias may be refractory ; prolonged CPR may be needed
+Lipid emulsion | 20% lipid emulsion 1.5 ml/kg over 1 minute, then infusion 15 ml/kg/hour ; repeat boluses up to twice at 5-minute intervals and double the infusion rate if instability persists (maximum about 12 ml/kg in total)
+!!
+## Other adverse effects
+Allergy to amide anaesthetics is very rare (often a reaction to preservatives or to adrenaline); methaemoglobinaemia is rare with lidocaine but more frequent with prilocaine and benzocaine.
+## Interactions
+Beta blockers and cimetidine reduce clearance; other antiarrhythmics add cardiac effects.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Maximum doses** with and without adrenaline, and converting a percentage to milligrams.
+- Mechanism and why infiltration fails in infected tissue.
+- Signs and management of **local anaesthetic systemic toxicity**, including lipid emulsion.
+!!
+## Common pitfalls
+!pit
+- Forgetting to add topical doses to injected doses.
+- Injecting without aspirating in the scalp or face.
+- Allowing a patient to drink straight after laryngeal anaesthesia.
+!!
