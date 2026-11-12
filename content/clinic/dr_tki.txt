@@ -1,0 +1,35 @@
+@stand Targeted drugs have changed the outlook for thyroid cancers that surgery and radioiodine cannot cure. Multikinase inhibitors (lenvatinib, sorafenib) prolong progression-free survival in radioiodine-refractory differentiated cancer; selective RET inhibitors treat RET-altered medullary and other thyroid cancers; and dabrafenib with trametinib treats BRAF V600E anaplastic thyroid cancer, sometimes making an unresectable tumour operable. ENT surgeons must know when to request molecular testing and the airway and bleeding risks these drugs create.
+
+# At a glance | The drugs on one page.
+## Summary
+!table Targeted therapy for thyroid cancer
+ | Summary
+Multikinase inhibitors | Lenvatinib (24 mg daily) and sorafenib (400 mg twice daily) for progressive radioiodine-refractory differentiated thyroid cancer; cabozantinib after progression
+Medullary thyroid cancer | Selpercatinib and pralsetinib (selective RET inhibitors) for RET-mutant disease; vandetanib and cabozantinib (multikinase)
+Anaplastic thyroid cancer | Dabrafenib with trametinib for BRAF V600E disease (including neoadjuvant use before surgery); immunotherapy in some regimens
+Other targets | NTRK fusion (larotrectinib, entrectinib); RET fusion in differentiated cancer (selpercatinib)
+Testing | BRAF, RET, NTRK and other alterations on tumour tissue; germline RET testing in all medullary cancer
+!!
+
+# Using them in ENT | Practice.
+## Who receives them
+Patients with progressive, symptomatic or threatening disease that is refractory to radioiodine, after multidisciplinary discussion; asymptomatic, slowly progressive disease is often observed, because the drugs have significant toxicity. In **anaplastic thyroid cancer**, rapid BRAF testing at diagnosis matters, because treatment within days can change outcome.
+
+# Safety | What goes wrong.
+## Adverse effects
+- Multikinase inhibitors: **hypertension**, proteinuria, diarrhoea, fatigue, weight loss, hand-foot skin reaction, hypothyroidism (higher levothyroxine needs), impaired wound healing.
+- **Bleeding and fistula formation**: tumours invading the trachea, oesophagus or carotid can bleed or form fistulas as they respond (especially with anti-VEGF agents such as lenvatinib), so assess airway and vascular invasion before starting and plan surgery and drug holidays around each other.
+- Vandetanib: QT prolongation. RET inhibitors: hypertension, liver enzyme rise, QT prolongation. Dabrafenib and trametinib: fever, rash, cardiomyopathy, eye toxicity.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Definition of **radioiodine-refractory** disease.
+- Which drugs for which cancers and alterations.
+- The bleeding and fistula risk in invasive tumours.
+!!
+## Common pitfalls
+!pit
+- Delaying BRAF testing in anaplastic thyroid cancer.
+- Operating on a patient on lenvatinib without stopping it to allow healing.
+!!

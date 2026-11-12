@@ -1,0 +1,39 @@
+@stand Hypocalcaemia after total thyroidectomy (from parathyroid injury or devascularisation) and after parathyroidectomy (hungry bone syndrome) is the commonest complication of thyroid and parathyroid surgery. It ranges from tingling of the lips and fingers to tetany, laryngospasm, seizures and arrhythmia. Severe or symptomatic hypocalcaemia needs intravenous calcium gluconate; milder cases need oral calcium, often with active vitamin D.
+
+# At a glance | The drugs on one page.
+## Summary
+!table Calcium replacement
+ | Summary
+Intravenous | Calcium gluconate 10% (2.2 mmol of calcium per 10 ml): 10 to 20 ml in 50 to 100 ml of 5% glucose or saline over 10 minutes with ECG monitoring, then an infusion (for example 100 ml of 10% calcium gluconate in 1 litre, starting at about 50 ml/hour and titrated) for ongoing need
+Oral | Calcium carbonate (for example 1.25 to 1.5 g tablets, 500 to 600 mg elemental calcium) two or three times daily, increased as needed; calcium citrate is better absorbed with acid suppression
+Indications for intravenous calcium | Symptoms (tetany, carpopedal spasm, laryngospasm, seizures), ECG change (prolonged QT), or adjusted calcium below about 1.9 mmol/l
+Adjuncts | Check and correct **magnesium** (hypomagnesaemia prevents correction of calcium); alfacalcidol or calcitriol when PTH is low
+Avoid | Calcium chloride through a peripheral line (tissue necrosis on extravasation); rapid infusion; mixing with bicarbonate or phosphate
+!!
+
+# Using them in ENT | Practice.
+## After total thyroidectomy
+Units use protocols based on **PTH** and calcium. A low PTH in the hours after surgery predicts hypocalcaemia: start oral calcium (with or without alfacalcidol) early, which allows safe early discharge; a normal PTH allows discharge without supplements. Check adjusted calcium on the evening of surgery and the next morning, and examine for **Chvostek** (facial twitch on tapping the facial nerve) and **Trousseau** (carpal spasm with a blood pressure cuff) signs. Most hypocalcaemia is temporary; hypoparathyroidism lasting beyond 6 to 12 months is permanent.
+## After parathyroidectomy
+**Hungry bone syndrome** (rapid uptake of calcium into demineralised bone) follows surgery for severe primary or secondary hyperparathyroidism: calcium falls over days despite normal PTH and may need large doses of intravenous and oral calcium with alfacalcidol; low phosphate and magnesium accompany it.
+
+# Safety | What goes wrong.
+## Adverse effects
+Intravenous: arrhythmia and bradycardia if given too fast (especially with digoxin), venous irritation, calcinosis and necrosis on extravasation. Oral: constipation, nausea, hypercalcaemia and nephrocalcinosis or stones with overtreatment.
+## Interactions
+Separate oral calcium from levothyroxine (4 hours), quinolones and tetracyclines (2 to 3 hours), iron and bisphosphonates; thiazides raise calcium; digoxin toxicity is increased by hypercalcaemia.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Recognition of hypocalcaemia (symptoms, **Chvostek and Trousseau** signs, ECG).
+- Intravenous calcium gluconate regimen and monitoring.
+- The role of **magnesium** and of PTH-guided protocols.
+- Hungry bone syndrome.
+!!
+## Common pitfalls
+!pit
+- Giving calcium chloride peripherally.
+- Failing to correct magnesium.
+- Discharging after total thyroidectomy without a calcium or PTH check.
+!!

@@ -1,0 +1,43 @@
+@stand Levothyroxine (T4) replaces thyroid hormone after total thyroidectomy and in hypothyroidism, and in differentiated thyroid cancer it is also given in doses that keep TSH low, to reduce TSH-driven growth of residual cancer cells. Liothyronine (T3) acts faster and for a shorter time and is used in selected situations. Every thyroid surgeon must be able to start replacement, interpret the TSH and choose the TSH target by cancer risk.
+
+# At a glance | The drugs on one page.
+## Summary
+!table Levothyroxine and liothyronine
+ | Summary
+Levothyroxine | Synthetic T4, half-life about 7 days; converted in tissues to active T3
+Liothyronine | Synthetic T3, half-life about 1 day; quick onset and offset
+ENT uses | Replacement after total or completion thyroidectomy, and after lobectomy if hypothyroid; TSH suppression in differentiated thyroid cancer; bridging before radioiodine (liothyronine, now largely replaced by recombinant TSH)
+Starting dose | After total thyroidectomy in a healthy adult: about 1.6 micrograms/kg daily (for example 100 to 125 micrograms); elderly or with heart disease: 25 to 50 micrograms daily, increased every 4 to 6 weeks
+Monitoring | TSH (and free T4) 6 to 8 weeks after starting or changing the dose, then every 6 to 12 months
+Taking it | On an empty stomach, 30 to 60 minutes before breakfast, separate from calcium, iron and antacids by 4 hours
+Pregnancy | Essential; dose usually needs to rise by 25% to 30% from early pregnancy
+!!
+
+# Using them in ENT | Practice.
+## TSH targets in differentiated thyroid cancer
+Targets follow the risk of persistent or recurrent disease and the response to treatment (ATA and BTA guidance):
+- **High risk** or structural persistent disease: TSH below 0.1 mU/l.
+- **Intermediate risk** or biochemically incomplete response: TSH about 0.1 to 0.5 mU/l.
+- **Low risk** with excellent response: TSH in the low normal range (about 0.5 to 2 mU/l).
+Avoid long-term suppression where it is not needed, particularly in older patients, those with atrial fibrillation, heart disease or osteoporosis.
+## After lobectomy
+About one in five patients becomes hypothyroid after hemithyroidectomy; check TSH at 6 to 8 weeks.
+
+# Safety | What goes wrong.
+## Adverse effects
+Over-replacement or suppression: **atrial fibrillation**, palpitations, angina, tremor, weight loss, insomnia and, long-term, **osteoporosis** (particularly in post-menopausal women). Under-replacement: fatigue, weight gain, cold intolerance, raised cholesterol.
+## Interactions
+Absorption reduced by calcium carbonate, iron, aluminium and magnesium antacids, PPIs, sevelamer, bile acid sequestrants, soy and coffee; requirements increased by enzyme inducers (carbamazepine, rifampicin, phenytoin) and oestrogens; it increases the effect of warfarin.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Starting dose after **total thyroidectomy** and when to check the TSH.
+- TSH targets by cancer risk.
+- The calcium interaction after thyroidectomy (patients often take both).
+!!
+## Common pitfalls
+!pit
+- Taking levothyroxine with calcium supplements.
+- Suppressing TSH indefinitely in a low-risk patient with osteoporosis.
+!!

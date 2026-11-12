@@ -1,0 +1,39 @@
+@stand Radioactive iodine (iodine-131) is taken up by thyroid tissue and destroys it with beta radiation. After total thyroidectomy for differentiated thyroid cancer, it ablates the remnant, treats microscopic or metastatic disease, and allows surveillance with thyroglobulin and scans. It also treats Graves' disease and toxic nodules. ENT surgeons meet its side effects, above all radioiodine sialadenitis, dry mouth and nasolacrimal obstruction.
+
+# At a glance | The treatment on one page.
+## Summary
+!table Radioactive iodine
+ | Summary
+Agent | Iodine-131 (sodium iodide), given orally
+How it works | Taken up through the sodium-iodide symporter; beta emission (range about 1 to 2 mm) destroys cells; gamma emission allows imaging
+ENT uses | Remnant ablation after total thyroidectomy (selected low and intermediate risk patients); adjuvant treatment (intermediate and high risk); treatment of residual, nodal or distant metastatic disease; Graves' disease and toxic nodular goitre
+Doses | Remnant ablation commonly 1.1 GBq (30 mCi) in low-risk disease; 3.7 GBq (100 mCi) or more for adjuvant or metastatic treatment; lower doses for benign disease
+Preparation | Low-iodine diet for about 2 weeks; TSH stimulation (above 30 mU/l) by withdrawal of levothyroxine or recombinant TSH; avoid iodinated CT contrast in the preceding months; pregnancy test
+Contraindications | Pregnancy and breastfeeding; inability to follow radiation protection precautions
+!!
+
+# Using it in ENT | Practice.
+## Who needs it after thyroidectomy
+Decisions follow pathology and risk: not routinely in very low risk (unifocal tumours of 1 cm or less); considered in low to intermediate risk; recommended in high risk (gross extrathyroidal extension, distant metastases). Lobectomy alone is adequate for many low-risk cancers, and radioiodine requires a total thyroidectomy first.
+## Radioiodine refractory disease
+Disease that does not take up iodine, or progresses despite it, is treated by surgery, external beam radiotherapy or targeted therapy (see targeted therapy for thyroid cancer).
+
+# Safety | What goes wrong.
+## Adverse effects
+- **Radioiodine sialadenitis**: the salivary glands concentrate iodine; acute swelling and pain within days, and chronic sialadenitis with recurrent swelling, xerostomia and taste change in a proportion; risk rises with dose. Hydration and sialogogues around treatment may help; sialendoscopy can treat duct stenosis.
+- **Nasolacrimal duct obstruction** with epiphora; dental caries from dry mouth.
+- Nausea, neck swelling and pain (thyroiditis of remnant), transient bone marrow suppression, gonadal effects (avoid pregnancy for 6 months, conception for men for about 4 months), a small increase in second cancers with high cumulative doses, pulmonary fibrosis in diffuse lung metastases.
+- In Graves' disease, radioiodine can worsen **thyroid eye disease**: steroid cover, especially in smokers.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Indications after thyroidectomy by risk.
+- Preparation: low-iodine diet, TSH stimulation.
+- **Sialadenitis** and other ENT side effects.
+!!
+## Common pitfalls
+!pit
+- Giving iodinated contrast shortly before planned radioiodine.
+- Missing radioiodine sialadenitis in a patient with recurrent parotid swelling.
+!!

@@ -1,0 +1,35 @@
+@stand Cinacalcet is a calcimimetic: it increases the sensitivity of the parathyroid calcium-sensing receptor so that the glands secrete less PTH at a given calcium. It lowers calcium and PTH in primary hyperparathyroidism when surgery is not possible or has failed, in parathyroid carcinoma, and in secondary hyperparathyroidism in patients on dialysis. It does not improve bone density in primary disease, so surgery remains the definitive treatment.
+
+# At a glance | The drug on one page.
+## Summary
+!table Cinacalcet
+ | Summary
+Class | Calcimimetic (allosteric modulator of the calcium-sensing receptor)
+ENT uses | Primary hyperparathyroidism when parathyroidectomy is contraindicated, refused or has failed; parathyroid carcinoma with hypercalcaemia; secondary hyperparathyroidism in end-stage kidney disease (alongside or instead of parathyroidectomy); before surgery in severe hypercalcaemia
+Dose | Primary hyperparathyroidism and carcinoma: 30 mg twice daily, titrated up to 90 mg three or four times daily; secondary hyperparathyroidism: 30 mg once daily, titrated to a maximum of 180 mg daily
+Monitoring | Calcium within a week of starting or changing the dose, then regularly; PTH
+Etelcalcetide | An intravenous calcimimetic given at dialysis
+!!
+
+# Using it in ENT | Practice.
+## Primary hyperparathyroidism
+Surgery is recommended for patients who meet guideline criteria (symptomatic, calcium more than 0.25 mmol/l above the upper limit, osteoporosis or fragility fracture, renal stones or impaired renal function, age under 50) and is curative in about 95% with an experienced surgeon. Cinacalcet controls calcium but does not cure the disease or reverse bone loss.
+## Secondary hyperparathyroidism
+In dialysis patients, cinacalcet with vitamin D and phosphate binders controls PTH; parathyroidectomy (subtotal or total with autotransplantation) is used when medical treatment fails or causes intolerable effects.
+
+# Safety | What goes wrong.
+## Adverse effects
+Nausea and vomiting (common), **hypocalcaemia** (paraesthesia, cramps, seizures, prolonged QT), dizziness, rash; gastrointestinal bleeding reported.
+## Interactions
+A strong **CYP2D6 inhibitor** (raises levels of flecainide, tricyclics, metoprolol and others); levels raised by strong CYP3A4 inhibitors.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Mechanism (calcium-sensing receptor).
+- Why surgery remains first choice in primary hyperparathyroidism.
+!!
+## Common pitfalls
+!pit
+- Using cinacalcet in place of surgery in a fit patient with osteoporosis.
+!!

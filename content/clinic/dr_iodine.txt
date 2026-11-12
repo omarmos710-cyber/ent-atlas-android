@@ -1,0 +1,42 @@
+@stand Operating on a thyrotoxic patient risks thyroid storm, a life-threatening surge of thyroid hormone with fever, tachycardia, arrhythmia, heart failure and agitation. Patients are prepared with antithyroid drugs and beta blockers, and potassium iodide (as Lugol's iodine or tablets) is given for about 10 days before thyroidectomy for Graves' disease to reduce thyroid hormone release and gland vascularity. Thyroid storm itself is treated with a sequence of drugs given in a particular order.
+
+# At a glance | The drugs on one page.
+## Summary
+!table Preoperative preparation for thyroid surgery
+ | Summary
+Potassium iodide | Lugol's iodine (aqueous iodine oral solution, about 130 mg/ml total iodine) 0.1 to 0.3 ml three times daily in milk or water, or potassium iodide tablets, for 7 to 10 days before surgery in Graves' disease
+How iodine works | High iodide concentrations acutely inhibit hormone synthesis (Wolff-Chaikoff effect) and release, and reduce gland vascularity; the effect wanes after 10 to 14 days (escape)
+Beta blockers | Propranolol 40 mg three or four times daily (up to 80 mg four times daily) to control heart rate and tremor; also reduces peripheral T4 to T3 conversion at high doses; use cardioselective agents or diltiazem in asthma
+Steroids | Hydrocortisone or dexamethasone reduce T4 to T3 conversion and treat relative adrenal insufficiency in storm
+Cholestyramine | Binds thyroid hormone in the gut and reduces enterohepatic recirculation; an adjunct for rapid preparation
+Plasma exchange | For refractory cases before urgent surgery
+!!
+
+# Using them in ENT | Practice.
+## Elective surgery
+The patient should be clinically and biochemically euthyroid on carbimazole (or PTU), with beta blockade for symptoms. Iodine is then added for the last 7 to 10 days in Graves' disease. Toxic nodular goitre does not usually need iodine.
+## Thyroid storm
+Recognise it by fever, tachycardia or atrial fibrillation, heart failure, agitation or confusion and gastrointestinal upset (the Burch-Wartofsky score helps). Treat in critical care:
+!path Thyroid storm
+Block synthesis | PTU (loading 500 to 1,000 mg, then 250 mg every 4 hours) or carbimazole or methimazole
+Block release | iodine, given at least an hour after the thionamide, so it is not used to make more hormone
+Block peripheral effects | propranolol (or esmolol) ; hydrocortisone 300 mg then 100 mg every 8 hours
+Support | cooling, fluids, treatment of heart failure and arrhythmias, paracetamol (not aspirin, which displaces T4 from binding proteins) ; find and treat the trigger
+!!
+
+# Safety | What goes wrong.
+## Adverse effects
+Iodine: metallic taste, sialadenitis and salivary swelling ("iodide mumps"), rash, gastrointestinal upset, hypersensitivity. Beta blockers: bronchospasm, bradycardia, heart failure.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- The **Wolff-Chaikoff** effect and escape.
+- Preoperative preparation in Graves' disease.
+- The order of treatment in **thyroid storm**.
+!!
+## Common pitfalls
+!pit
+- Giving iodine before the thionamide in thyroid storm.
+- Proceeding with elective surgery in a thyrotoxic patient.
+!!

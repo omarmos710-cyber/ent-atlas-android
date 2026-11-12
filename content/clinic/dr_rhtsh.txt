@@ -1,0 +1,31 @@
+@stand Recombinant human TSH (thyrotropin alfa) stimulates residual thyroid tissue and cancer cells to take up iodine and release thyroglobulin without stopping levothyroxine. It spares patients the weeks of hypothyroidism that withdrawal causes, and is used to prepare for remnant ablation and for diagnostic scans and stimulated thyroglobulin testing.
+
+# At a glance | The drug on one page.
+## Summary
+!table Recombinant TSH
+ | Summary
+Agent | Thyrotropin alfa
+How it works | Binds TSH receptors on thyroid cells, increasing iodine uptake and thyroglobulin release
+ENT uses | Preparation for radioiodine remnant ablation in low and intermediate risk differentiated thyroid cancer; stimulated thyroglobulin and diagnostic whole-body scans in follow-up; patients who cannot tolerate hypothyroidism (heart failure, frailty, psychiatric illness) or cannot raise their own TSH (pituitary disease)
+Dose | 0.9 mg intramuscularly on 2 consecutive days; radioiodine on day 3; thyroglobulin measured on day 5
+Cautions | Bulky residual or metastatic disease (TSH-stimulated tumour swelling can cause airway, spinal or brain compression; consider steroid cover)
+!!
+
+# Using it in ENT | Practice.
+## Ablation and follow-up
+Trials (HiLo, ESTIMABL) showed that ablation with low-dose radioiodine after recombinant TSH is as successful as after withdrawal in low-risk patients, with better quality of life. A stimulated thyroglobulin after recombinant TSH is used to assess response in some follow-up protocols, although highly sensitive thyroglobulin assays have reduced the need.
+
+# Safety | What goes wrong.
+## Adverse effects
+Nausea, headache, fatigue, flu-like symptoms; transient tumour swelling and pain at metastatic sites.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- The advantage over **withdrawal**.
+- The dosing schedule and timing of radioiodine and thyroglobulin.
+!!
+## Common pitfalls
+!pit
+- Giving recombinant TSH to a patient with tracheal or spinal metastases without steroid cover.
+!!
