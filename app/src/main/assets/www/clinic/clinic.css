@@ -225,3 +225,32 @@ html[data-fsz="s"] .arw{--arfs:15px}html[data-fsz="l"] .arw{--arfs:18px}
 .ardraw .sy{fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .ardraw .r{stroke:var(--dr-r)}.ardraw .l{stroke:var(--dr-l)}.ardraw .k{stroke:var(--ink)}.ardraw .a{stroke:var(--dr-a)}
 .ardraw text.r{fill:var(--dr-r);stroke:none}.ardraw text.l{fill:var(--dr-l);stroke:none}.ardraw text.k{fill:var(--ink);stroke:none}.ardraw text.a{fill:var(--dr-a);stroke:none}
+/* dose calculator */
+.dchero{margin:0 0 14px}
+.dcin{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:10px;margin:6px 0 10px}.dcin.one{grid-template-columns:1fr}
+.dcin label{min-width:0;display:flex;flex-direction:column;gap:5px;font:700 11px var(--f-body);letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}
+.dcin span{box-sizing:border-box;min-width:0;display:flex;align-items:center;border:1px solid var(--line);border-radius:13px;background:var(--surface);padding:0 12px;min-height:50px}
+.dcin input{flex:1;min-width:0;border:0;background:none;color:var(--ink);font:500 20px var(--f-display);outline:none;padding:0}
+.dcin i{font:400 13px var(--f-body);color:var(--muted);text-transform:none;letter-spacing:0;font-style:normal}
+.dcsel{width:100%;min-height:50px;padding:0 12px;border:1px solid var(--line);border-radius:13px;background:var(--surface);color:var(--ink);font:15px var(--f-body);margin-bottom:16px}
+.dchd h2{font:500 26px/1.15 var(--f-display);margin:4px 0 2px}.dchd p{margin:0 0 12px;color:var(--muted);font-size:14.5px}
+.dcres{border:1px solid var(--line);border-radius:16px;background:var(--surface);overflow:hidden;margin:0 0 12px}
+.dcres>div{display:grid;grid-template-columns:minmax(110px,34%) 1fr;gap:12px;padding:12px 14px;border-bottom:1px solid var(--line)}.dcres>div:last-child{border-bottom:0}
+.dcres b{font:700 12px var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding-top:3px}
+.dcres span{font:500 17px/1.4 var(--f-display);color:var(--ink)}
+.dcres>div:first-child span{font-size:21px}
+.dcres.warn{border-color:#B9893A}.dcres.bad{border-color:var(--arred,#A33)}.dcres.bad>div:first-child span{color:var(--arred,#A33)}
+.dcres.lock span,.dcres.lock>div:first-child span{font:400 15px/1.45 var(--f-body)}
+.dcwarn{border-left:3px solid #B9893A;background:rgba(185,137,58,.09);border-radius:0 12px 12px 0;padding:8px 12px;margin:0 0 12px}.dcwarn p{margin:4px 0;font-size:14.5px}
+.dcrule{border-top:1px solid var(--line);padding:12px 0;margin:4px 0 8px}.dcrule b{font:700 11px var(--f-body);letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}.dcrule p{margin:6px 0;font-size:14.5px;line-height:1.5}.dcrule small{color:var(--arok,#2F6B4F);font-size:12.5px}
+.dcnote{color:var(--muted);font-size:13px;line-height:1.5;margin:8px 0 12px}
+.dcver{display:flex;flex-direction:column;gap:10px;border:1px solid var(--line);border-radius:16px;padding:14px;margin:0 0 12px}
+.dcver label{display:flex;flex-direction:column;gap:5px;font-size:14px}.dcver select{min-height:44px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);padding:0 10px;font:15px var(--f-body)}
+.dcver .dcchk{flex-direction:row;align-items:flex-start;gap:10px;line-height:1.4}.dcver .dcchk input{width:20px;height:20px;margin:0;flex:none}.dcchk.need{color:var(--arred,#A33)}
+.dcla .cltb{width:100%;border-collapse:collapse;margin:0 0 12px;font-size:14px}.dcla th{text-align:left;font:700 11px var(--f-body);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:6px 4px;border-bottom:1px solid var(--line)}
+.dcla td{padding:8px 4px;border-bottom:1px solid var(--line);vertical-align:middle}.dcla td small{color:var(--muted)}
+.dclap{width:58px;min-height:38px;border:1px solid var(--line);border-radius:9px;background:var(--surface);color:var(--ink);font:15px var(--f-body);padding:0 8px;box-sizing:border-box}
+.dcrrow{border-bottom:1px solid var(--line);padding:12px 0}.dcrrow b{display:block;font:500 18px/1.25 var(--f-display)}.dcrrow small{display:block;color:var(--muted);font-size:12.5px;margin-top:2px}
+.dcrrow p{margin:6px 0 8px;font-size:14px;line-height:1.5}.dcrrow .dcok{color:var(--arok,#2F6B4F)}.dclink{border:0;background:none;color:var(--accent);font-size:12.5px;text-decoration:underline;padding:0 4px}
+.dcfoot{margin:20px 0 8px}
+@media(max-width:420px){.dcin{grid-template-columns:1fr 1fr}.dcin label:first-child{grid-column:1/-1}}
