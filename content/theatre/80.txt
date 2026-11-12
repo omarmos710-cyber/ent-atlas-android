@@ -47,11 +47,20 @@ Discuss the approach with the patient: the authors have no fixed preference.
 ## The transaxillary flap
 Make a **4 to 5 cm** incision **5 to 8 mm behind the anterior axillary fold** so the scar hides behind it. Raise the flap over pectoralis major to the clavicle, then subplatysmally over the clavicular and sternal heads of sternomastoid to the thyroid cartilage and just past the midline, **12 to 14 cm** from the incision.
 !mf 1 | The modified arm position for transaxillary thyroidectomy, the elbow flexed to avoid tension on the axilla.
+!see What you should see
+- The flap raised on pectoralis fascia, then under platysma, to the midline of the neck.
+!!
 ## The retroauricular flap
 Make a **4 to 5 cm** incision about **5 to 8 mm behind the hairline**, infiltrated with lidocaine and 1:80,000 adrenaline, and raise a subplatysmal flap toward the suprasternal notch (the future retractor axis) over sternomastoid, preserving the **great auricular nerve** and **external jugular vein**, medially past the midline raphe, down to the clavicle and up over the parotid tail to the ramus, **10 to 12 cm** from the incision, protecting the **marginal mandibular nerve**.
 !mf 2 | The planned retroauricular incision (arrow).
+!see What you should see
+- The sternocleidomastoid, the great auricular nerve and the external jugular vein on its surface, under the flap.
+!!
 ## Build the working space
 Work under direct vision with a long-tip monopolar and a headlight; once the flap is about 5 cm long, bring in lighted retractors, with the Yankauer for smoke and countertraction.
+!see What you should see
+- The omohyoid, and the gap between the two heads of sternocleidomastoid (or its anterior border) leading to the straps.
+!!
 !danger Too deep too soon
 Going deep to the omohyoid prematurely risks the internal jugular vein and its branches. Find the omohyoid first.
 !!
@@ -61,19 +70,34 @@ Inadequate countertraction while elevating the skin flap can buttonhole it.
 ## Retract and check the height
 Lift sternohyoid off the thyroid bed and insert the **Chung retractor** under it, fixed to the table. When the flap is suspended, the vertical height from the base of the incision to the flap must be **over 5 cm**: the robot must not come in until the space is adequate.
 !mf 3 | Adequate working space in the retroauricular approach: the height of elevation over 5 cm (arrow); great auricular nerve (GAN), sternomastoid (SCM).
+!see What you should see
+- The thyroid lobe under the lifted straps, in a space more than 5 cm high.
+!!
 ## Dock
 Bring the robot in from the opposite side at **30 to 45 degrees** to the table, at about the level of the shoulder. Dock the 10 mm camera in the midline and the two working arms at **30 to 45 degrees** to it, an isosceles triangle that reduces collisions. The authors prefer the 8 mm atraumatic ProGrasp to the 5 mm Maryland, whose sharp tip can tear the thyroid and cause bleeding that hides the field. See the whole thyroid bed before starting.
 !mf 4 | Docking the robotic arms in the retroauricular approach.
 !mf 5 | The left thyroid bed exposed from the retroauricular approach.
+!see What you should see
+- The lobe centred in the camera view with all instruments meeting on it.
+!!
 ## The superior pole
 Start at the superior pole, dividing sternothyroid if needed. Define lateral and medial planes, **skeletonise** the superior thyroid artery and ligate it with the harmonic shears **close to the gland**; the external branch of the superior laryngeal nerve is not routinely sought, but the magnified view often shows it. Identify the **cricothyroid muscle**.
+!see What you should see
+- The superior vessels skeletonised on the gland with the cricothyroid muscle medial to them.
+!!
 !danger The superior pole
 Dividing a large bundle of tissue risks incomplete sealing of the vessel and injury to a low-lying external branch (Cernea type 2b). Skeletonise each vessel first.
 !!
 ## The parathyroids
 Mobilise the gland from lateral to medial and reflect it toward the trachea, dividing the middle thyroid vein. Free the **superior parathyroid** with the harmonic shears, then at the inferior pole ligate the **inferior thyroid artery as distally as possible** and free the **inferior parathyroid** on its pedicle.
+!see What you should see
+- Each parathyroid pink on its own pedicle, left on the bed.
+!!
 ## The recurrent nerve and Berry's ligament
 Expose the **trachea** to set the medial limit. With the gland reflected medially, find the **recurrent laryngeal nerve** in the tracheo-oesophageal groove, preferably **near the cricothyroid joint**, its most consistent position, avoiding the oesophagus. Trace it to **Berry's ligament**, ligating the small overlying vessels individually with the harmonic shears; lay a **wet rolled cotton pledget** over the nerve against heat, and use it to dissect bluntly. If the nerve is closely adherent, divide the ligament with fine bipolar. Mobilise the lobe off the trachea, divide the isthmus and remove the lobe.
+!see What you should see
+- The white nerve with its vasa nervorum in the groove, followed to its entry under the constrictor, with the trachea medial.
+!!
 !danger Berry's ligament
 Divide it only after the whole lobe is mobilised, in a near-bloodless field: bleeding here threatens the nerve and leads to haematoma.
 !!
@@ -83,6 +107,9 @@ Without haptic feedback the console surgeon must positively identify the trachea
 ## Confirm and close
 Irrigate with warm saline and **stimulate the nerve at 0.5 to 1 mA** to confirm function. Close over a drain brought out at the edge of the incision.
 !mf 6 | The right thyroid bed after robotic thyroidectomy: the recurrent laryngeal nerve (RLN) and common carotid (CCA).
+!see What you should see
+- A signal from the nerve at 0.5 to 1 mA and a dry bed.
+!!
 
 # When it goes wrong | Drills.
 ## Crisis drills

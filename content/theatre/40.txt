@@ -46,12 +46,18 @@ Contrast CT of the neck is quick and cheap and shows the nodes; CT of the chest 
 # The operation, stage by stage | Three operations.
 ## Endoscopy again
 Perform direct laryngoscopy and oesophagoscopy for diagnosis beforehand, and **again at the start** of the operation to plan the cuts. Entry into the pharynx is blind, so you must know exactly where the cancer is.
+!see What you should see
+- The tumour's upper and lower limits, the apex of the pyriform sinus, the postcricoid area and the cervical oesophagus.
+!!
 ## Partial laryngopharyngectomy
 1. Raise an apron flap and dissect **both** necks for medial wall cancer; an elective unilateral dissection may do for cancer confined to the lateral wall.
 2. Perform a **supraglottic laryngectomy**, removing the hypopharyngeal cancer with it, with at least a **15 mm** mucosal margin all round.
 3. Reconstruct by impacting the tongue base into the residual larynx.
 4. Pass a nasogastric tube if there is no gastrostomy.
 5. Close the residual mucosa indirectly, with a second layer of residual strap and digastric muscle, and drain with suction.
+!see What you should see
+- A 15 mm margin all round, with both arytenoids and true folds mobile and intact below the cut.
+!!
 ## Laryngectomy with partial pharyngectomy
 1. Raise a superiorly based apron flap through the level of the stoma; dissect levels II to IV on both sides in most cases.
 2. Enter the pharynx through the **vallecula on the side opposite the cancer**.
@@ -59,9 +65,15 @@ Perform direct laryngoscopy and oesophagoscopy for diagnosis beforehand, and **a
 4. Cut from the vallecula down the aryepiglottic fold to the lateral side of the opposite arytenoid, then make the remaining cuts **under direct vision** with a **15 to 20 mm** margin.
 5. **Frozen section margins are mandatory.**
 !mf 3 | An extensive hypopharyngeal cancer crossing the midline posteriorly, needing laryngectomy and near-total pharyngectomy.
+!see What you should see
+- The tumour seen from the opposite side before any cut is made near it, and a strip of healthy mucosa left.
+!!
 ## How much is left?
 With **3 cm** of pharyngeal mucosa across, the pharynx can usually be closed primarily, and a **primary puncture** can be made; with less, add a pedicled or free flap, and make the puncture later, after healing and adjuvant treatment. Mature the stoma and close over bilateral suction drains.
 !mf 4 | A narrow strip of residual hypopharynx that cannot be closed primarily: it must be augmented with a pedicled or free flap, or resected and replaced.
+!see What you should see
+- The width of remaining mucosa measured unstretched.
+!!
 ## Total laryngopharyngectomy
 1. Apron flap and **bilateral** neck dissections, always.
 2. Enter through the opposite vallecula and release any uninvolved pyriform mucosa.
@@ -70,11 +82,17 @@ With **3 cm** of pharyngeal mucosa across, the pharynx can usually be closed pri
 5. Under direct vision, secure the inferior margin and divide the larynx and pharynx below.
 6. If the cancer enters the cervical oesophagus, a total laryngo-oesophagectomy is needed.
 !mf 5 | A circumferential postcricoid cancer needing total laryngopharyngectomy and reconstruction.
+!see What you should see
+- The prevertebral fascia clean behind the specimen, and clear margins above and at the cervical oesophagus.
+!!
 ## Reconstruct
 A circumferential defect needs free tissue: a **tubed radial forearm flap**, or for large defects the jejunum, now largely replaced by other flaps. A posterior wall defect suits the thin, pliable forearm flap as a patch. Pass a nasogastric tube, mature the stoma and close over suction drains.
 !mf 6 | A posterior pharyngeal wall cancer often needs free flap reconstruction; the radial forearm gives thin, pliable tissue.
 !mf 7 | The radial forearm flap for partial pharyngeal reconstruction; it can be tubed for total reconstruction.
 !mf 8 | The jejunum, whose arcades each supply about 25 cm of bowel, as a free flap donor.
+!see What you should see
+- A tube or patch inset without tension, with a watertight suture line above and below.
+!!
 !danger Suspected carotid involvement
 Sometimes encasement only becomes clear in theatre. If you suspect it but cannot confirm it beforehand, **start with the neck dissection on that side**, so you can abandon the operation before the pharynx is opened.
 !!
