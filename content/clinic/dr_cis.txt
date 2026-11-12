@@ -1,0 +1,46 @@
+@stand Cisplatin is the most important chemotherapy drug in head and neck cancer. Given with radiotherapy, it improves survival in locally advanced squamous cell carcinoma of the oral cavity, pharynx and larynx, after surgery when margins are positive or nodes show extracapsular spread, and in organ preservation for laryngeal cancer. It is also the drug an ENT surgeon is most likely to see causing permanent hearing loss and tinnitus, so its ototoxicity is core knowledge.
+
+# At a glance | The drug on one page.
+## Summary
+!table Cisplatin
+ | Summary
+Class | Platinum compound (alkylating-like agent)
+How it works | Forms platinum-DNA cross-links (intrastrand adducts) that block replication and trigger apoptosis; sensitises tumour to radiation
+ENT uses | Concurrent chemoradiotherapy (definitive or adjuvant) in locally advanced squamous cell carcinoma; induction chemotherapy (TPF); nasopharyngeal carcinoma (with radiotherapy and induction or adjuvant chemotherapy); recurrent and metastatic disease with other agents
+Dose | Three-weekly 100 mg/m2 on days 1, 22 and 43 of radiotherapy (a cumulative dose of at least 200 mg/m2 matters for benefit), or weekly 40 mg/m2
+Requirements | Adequate renal function (eGFR usually above 50 to 60 ml/min), hearing, performance status and no significant neuropathy; pre- and post-hydration with magnesium and potassium; aggressive antiemetics
+!!
+
+# How it works | Mechanism and handling.
+## Chemoradiotherapy
+Cisplatin inhibits repair of radiation-induced DNA damage and kills hypoxic cells; meta-analysis (MACH-NC) shows about 6.5% absolute survival benefit at 5 years for concurrent chemoradiotherapy over radiotherapy alone, with the benefit falling in patients over 70.
+## De-escalation trials
+In HPV-positive oropharyngeal cancer, replacing cisplatin with cetuximab (De-ESCALaTE, RTOG 1016) reduced survival, so cisplatin remains standard even in HPV-positive disease.
+
+# Ototoxicity | What the ENT surgeon must know.
+## How and who
+Cisplatin enters the cochlea via the stria vascularis and outer hair cells, generating reactive oxygen species and causing apoptosis of **outer hair cells in the basal turn** first: bilateral, symmetrical, **high-frequency sensorineural loss**, often with tinnitus, that is **permanent** and may progress after treatment. It affects up to about half of adults and more children. Risk rises with cumulative dose (especially above 200 to 300 mg/m2), high single doses, young age, pre-existing hearing loss, renal impairment, cranial radiotherapy that includes the cochlea, noise and other ototoxic drugs, and genetic variants (for example TPMT, ACYP2).
+## Monitoring and protection
+Baseline audiometry (including extended high frequencies where available) and before each cycle or every few weeks; consider changing to carboplatin if significant loss develops. **Sodium thiosulfate**, given 6 hours after cisplatin, reduces hearing loss in children with localised solid tumours. Hearing aids and, for profound loss, cochlear implants rehabilitate.
+
+# Safety | What goes wrong.
+## Adverse effects
+- **Nephrotoxicity** (proximal tubule): hydration, magnesium replacement, avoid nephrotoxins.
+- Severe nausea and vomiting (highly emetogenic): 5-HT3 antagonist, NK1 antagonist, dexamethasone.
+- **Ototoxicity** and tinnitus.
+- Peripheral sensory neuropathy; myelosuppression; hypomagnesaemia, hypokalaemia; thrombosis.
+## Interactions
+Aminoglycosides, loop diuretics and vancomycin (ototoxicity and nephrotoxicity); NSAIDs (nephrotoxicity).
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Indications for concurrent chemoradiotherapy (including adjuvant: positive margins and extracapsular spread).
+- The **ototoxicity** pattern, risk factors and monitoring.
+- Why cetuximab is not a substitute in fit HPV-positive patients.
+!!
+## Common pitfalls
+!pit
+- No baseline audiogram before cisplatin.
+- Missing hypomagnesaemia.
+!!

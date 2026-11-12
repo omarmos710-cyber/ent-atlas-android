@@ -1,0 +1,34 @@
+@stand Fluorouracil (5-FU) is a pyrimidine antimetabolite. In head and neck oncology it forms part of induction chemotherapy (TPF), older first-line palliative regimens with a platinum and cetuximab, and some chemoradiotherapy schedules. Applied topically as a 5% cream, it treats actinic keratoses and superficial basal cell carcinoma of the face and ears. Patients with dihydropyrimidine dehydrogenase (DPD) deficiency can suffer fatal toxicity, so testing before systemic treatment is now required in the UK.
+
+# At a glance | The drug on one page.
+## Summary
+!table Fluorouracil
+ | Summary
+Class | Pyrimidine analogue antimetabolite (capecitabine is an oral prodrug)
+How it works | Its metabolite FdUMP inhibits thymidylate synthase, blocking DNA synthesis; also incorporated into RNA
+ENT uses | Induction TPF (docetaxel, cisplatin, 5-FU); platinum with 5-FU (with cetuximab or pembrolizumab) for recurrent or metastatic disease; some chemoradiotherapy regimens; topical 5% cream for actinic keratosis, Bowen's disease and superficial basal cell carcinoma
+Dose | Commonly 750 to 1,000 mg/m2 daily as a continuous infusion for 4 to 5 days every 3 weeks (regimen-specific); topical cream once or twice daily for 2 to 4 weeks
+Before treatment | DPD deficiency testing (DPYD genotyping)
+!!
+
+# Using it in ENT | Practice.
+## Skin cancer
+Topical 5-FU treats superficial lesions on the ears, nose and scalp; expect a brisk inflammatory reaction with redness, crusting and erosion before healing. It is not appropriate for nodular, infiltrative or recurrent basal cell carcinoma or for squamous cell carcinoma.
+
+# Safety | What goes wrong.
+## Adverse effects
+**Mucositis** and diarrhoea, myelosuppression, palmar-plantar erythrodysaesthesia (hand-foot syndrome), coronary vasospasm with chest pain, and severe or fatal toxicity in DPD deficiency. Topically, local inflammation and photosensitivity.
+## Interactions
+**Warfarin** (marked rise in INR); brivudine and sorivudine (fatal inhibition of DPD, contraindicated); phenytoin levels rise.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Mechanism (thymidylate synthase).
+- **DPD deficiency** testing.
+- Topical use in skin cancer and its limits.
+!!
+## Common pitfalls
+!pit
+- Using topical 5-FU for a nodular basal cell carcinoma.
+!!

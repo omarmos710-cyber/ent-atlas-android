@@ -1,0 +1,30 @@
+@stand Carboplatin is a platinum compound with the same DNA cross-linking action as cisplatin but a different toxicity profile: much less nephrotoxicity, neurotoxicity, ototoxicity and vomiting, and more myelosuppression, especially thrombocytopenia. In head and neck cancer it is used for patients who cannot receive cisplatin, in palliative combinations and in some induction regimens. Its dose is calculated from renal function.
+
+# At a glance | The drug on one page.
+## Summary
+!table Carboplatin
+ | Summary
+Class | Platinum compound
+ENT uses | Palliative chemotherapy for recurrent or metastatic squamous cell carcinoma (with 5-FU, a taxane, or immunotherapy as in KEYNOTE-048); concurrent chemoradiotherapy in patients unfit for cisplatin (less evidence); some nasopharyngeal and sinonasal regimens
+Dose | By the Calvert formula: dose (mg) = target AUC x (GFR + 25), commonly AUC 5 every 3 weeks, or lower weekly doses with radiotherapy
+Toxicity | Myelosuppression (platelets most), less renal, nerve and ear toxicity than cisplatin
+!!
+
+# Using it in ENT | Practice.
+## Choosing carboplatin
+When renal function is poor, hearing is already impaired, neuropathy is present or the patient is frail, carboplatin is substituted for cisplatin, accepting probably lower efficacy with radiotherapy. Ototoxicity is uncommon at standard doses but occurs with high doses and in children.
+
+# Safety | What goes wrong.
+## Adverse effects
+Thrombocytopenia, neutropenia and anaemia (nadir at 2 to 3 weeks); nausea; hypersensitivity after repeated cycles; hypomagnesaemia.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- How its toxicity differs from cisplatin.
+- The Calvert formula.
+!!
+## Common pitfalls
+!pit
+- Assuming carboplatin carries no ototoxic risk.
+!!

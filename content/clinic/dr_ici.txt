@@ -1,0 +1,41 @@
+@stand Pembrolizumab and nivolumab are antibodies against programmed death receptor 1 (PD-1). By blocking the brake on cytotoxic T cells, they let the immune system attack the tumour. Pembrolizumab, alone or with chemotherapy, is first-line treatment for recurrent or metastatic head and neck squamous cell carcinoma expressing PD-L1 (KEYNOTE-048); nivolumab improved survival after platinum failure (CheckMate 141); and perioperative pembrolizumab has improved event-free survival in resectable locally advanced disease (KEYNOTE-689). Their side effects are immune attacks on normal organs, which can appear months after starting.
+
+# At a glance | The drugs on one page.
+## Summary
+!table Pembrolizumab and nivolumab
+ | Summary
+Class | Immune checkpoint inhibitors (anti-PD-1)
+How they work | Block PD-1 on T cells so tumour PD-L1 cannot switch them off
+ENT uses | Recurrent or metastatic HNSCC first-line (pembrolizumab alone if PD-L1 combined positive score of 1 or more, or with platinum and 5-FU); after platinum failure (nivolumab, pembrolizumab); perioperative treatment of resectable locally advanced HNSCC (pembrolizumab, approved in some countries); cutaneous squamous cell carcinoma (cemiplimab); nasopharyngeal carcinoma (toripalimab and others with chemotherapy)
+Dose | Pembrolizumab 200 mg every 3 weeks or 400 mg every 6 weeks; nivolumab 240 mg every 2 weeks or 480 mg every 4 weeks
+Biomarker | PD-L1 **combined positive score** (CPS) on tumour tissue
+!!
+
+# Using them in ENT | Practice.
+## Response patterns
+Responses can be slow and durable; pseudoprogression (apparent growth from immune infiltration) occurs occasionally, so scans are interpreted in context. About a fifth of patients respond, and some have long-term control.
+
+# Safety | Immune-related adverse events.
+## Recognising them
+Any organ can be affected:
+- **Thyroid**: hypothyroidism (very common, particularly after neck radiotherapy) or thyroiditis with transient thyrotoxicosis; check thyroid function regularly.
+- **Skin**: rash, pruritus, vitiligo.
+- **Gut**: diarrhoea and colitis.
+- **Lung**: pneumonitis (cough, breathlessness).
+- **Liver**: hepatitis.
+- **Endocrine**: hypophysitis, adrenal insufficiency, type 1 diabetes.
+- Rarer: myocarditis (often fatal), myositis, neuropathy, nephritis, sicca.
+## Management
+Grade the toxicity, withhold the drug for moderate or severe events, and treat with corticosteroids (with other immunosuppressants for refractory cases) in discussion with oncology; replace hormones for endocrine failure, which is usually permanent.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Mechanism (PD-1 and PD-L1) and the **CPS** biomarker.
+- **KEYNOTE-048** and CheckMate 141.
+- Common immune-related adverse events, especially thyroid.
+!!
+## Common pitfalls
+!pit
+- Missing hypothyroidism or adrenal insufficiency in a tired patient on immunotherapy.
+!!

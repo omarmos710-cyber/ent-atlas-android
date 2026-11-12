@@ -1,0 +1,35 @@
+@stand Cetuximab is a chimeric monoclonal antibody against the epidermal growth factor receptor (EGFR), which is overexpressed in most head and neck squamous cell carcinomas. Given with radiotherapy, it improved survival over radiotherapy alone (Bonner trial), and it is used for patients who cannot receive cisplatin. In HPV-positive oropharyngeal cancer it was inferior to cisplatin, so it is not a de-escalation option for fit patients.
+
+# At a glance | The drug on one page.
+## Summary
+!table Cetuximab
+ | Summary
+Class | Anti-EGFR monoclonal antibody (IgG1, chimeric)
+How it works | Blocks ligand binding and EGFR signalling, reduces proliferation and radioresistance, and triggers antibody-dependent cellular cytotoxicity
+ENT uses | With radiotherapy in locally advanced squamous cell carcinoma when cisplatin is contraindicated; with platinum and 5-FU (EXTREME regimen) for recurrent or metastatic disease (largely replaced by pembrolizumab first-line); as a single agent in palliation
+Dose | Loading 400 mg/m2 intravenously one week before radiotherapy, then 250 mg/m2 weekly
+Premedication | Antihistamine and steroid before the first infusions
+!!
+
+# Using it in ENT | Practice.
+## Choosing it
+Cetuximab with radiotherapy suits patients with renal impairment, hearing loss, neuropathy or poor performance status who cannot have cisplatin. In fit patients with HPV-positive oropharyngeal cancer, cisplatin is better (RTOG 1016, De-ESCALaTE).
+
+# Safety | What goes wrong.
+## Adverse effects
+- **Acneiform rash** in most patients (its severity correlates with response); treat with emollients, topical and oral antibiotics (doxycycline).
+- **Infusion reactions**, including anaphylaxis, more frequent in regions where tick bites cause IgE against galactose-alpha-1,3-galactose (alpha-gal).
+- Worse **radiation dermatitis** and mucositis.
+- **Hypomagnesaemia**, diarrhoea, interstitial lung disease rarely.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- The target (EGFR) and the **Bonner** trial.
+- Why it is not used for de-escalation in HPV-positive disease.
+- Rash and infusion reactions.
+!!
+## Common pitfalls
+!pit
+- Choosing cetuximab over cisplatin in a fit HPV-positive patient.
+!!
