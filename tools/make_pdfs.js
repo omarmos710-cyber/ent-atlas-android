@@ -12,7 +12,7 @@ const IDX=fs.readFileSync(path.join(WWW,'index.html'),'utf8');const ci=IDX.index
 const CONDS=JSON.parse(IDX.slice(ci+12,IDX.indexOf('\n',ci)).trim().replace(/;$/,''));
 const AREAS=[['ear','Ear',['extear','midear','inner','temporal','facial','et']],['nose','Nose, sinuses and orbit',['nose','sinus','orbit']],['mouth','Mouth, throat and salivary glands',['oral','pharynx','salivary']],['neck','Larynx and neck',['larynx','neck','vessels','thyroid']]];
 const used=AREAS.flatMap(a=>a[2]);AREAS.push(['face','Face, jaw and skull base',[...new Set(CONDS.map(c=>c.r))].filter(r=>!used.includes(r))]);
-const VOL=[...D.t.map(t=>({id:'cl_'+t.id,kind:t.g==='imgl'?'Imaging':'Clinical',title:t.t,single:true,arts:[t.id],ids:t.g==='imgl'?null:((LINKS[t.id]||{}).im||[]).filter(x=>CONDS.some(c=>c.id===x))})),
+const VOL=[...D.t.map(t=>({id:'cl_'+t.id,kind:t.g==='imgl'?'Imaging':t.g==='drug'?'Drugs':'Clinical',title:t.t,single:true,arts:[t.id],ids:t.g==='imgl'?null:((LINKS[t.id]||{}).im||[]).filter(x=>CONDS.some(c=>c.id===x))})),
  ...AREAS.map(a=>({id:'imc_'+a[0],kind:'Imaging',title:'Imaging conditions: '+a[1],sub:'Key facts and case images for the core conditions, then the advanced and rare',conds:a[2]}))];
 const PCSS=`
 @font-face{font-family:"Newsreader";font-weight:400;font-style:normal;src:local("NewsreaderPDF Regular")}
