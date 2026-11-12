@@ -1,0 +1,38 @@
+@stand An increasing number of ENT patients take an anticoagulant (warfarin or a direct oral anticoagulant) or an antiplatelet drug. Around surgery, the question is always the balance between bleeding and thrombosis: how high is the bleeding risk of the operation, how high is the patient's thrombotic risk, and is there a way to reduce one without raising the other. In epistaxis, stopping these drugs is usually not necessary and may be dangerous.
+
+# At a glance | The drugs on one page.
+## Summary
+!table Anticoagulants and antiplatelets around ENT surgery
+ | Summary
+Warfarin | Vitamin K antagonist; stop 5 days before surgery with an INR check (aim below 1.5, or as the surgeon requires) the day before; bridge with low molecular weight heparin only in high thrombotic risk (mechanical mitral valve, older valves, recent venous thromboembolism within 3 months, recent stroke)
+DOACs | Apixaban, rivaroxaban, edoxaban (factor Xa inhibitors) and dabigatran (thrombin inhibitor); stop about 24 hours before low bleeding-risk and 48 hours before high bleeding-risk surgery with normal renal function; dabigatran needs longer (up to 4 days) as renal function falls; no bridging is needed
+Heparins | Therapeutic low molecular weight heparin: last dose 24 hours before surgery; unfractionated heparin infusion: stop 4 to 6 hours before
+Aspirin | Usually continued for most ENT surgery; consider stopping 7 days before procedures where bleeding is catastrophic or hard to control (for example some skull base, middle ear and microvascular operations) if prescribed for primary prevention
+Clopidogrel, prasugrel, ticagrelor | Stop 5 to 7 days before high bleeding-risk surgery, but **not** within the first 6 to 12 months after a coronary stent without cardiology advice (stent thrombosis is often fatal)
+Restarting | Usually 24 hours after low-risk and 48 to 72 hours after high-risk surgery, once haemostasis is secure; venous thromboembolism prophylaxis in the meantime
+!!
+
+# Using them in ENT | Practice.
+## Bleeding risk of ENT operations
+Higher risk: tonsillectomy, sinus and skull base surgery, septorhinoplasty, thyroid and neck surgery, free flaps, and procedures in closed spaces (orbit, middle ear). Lower risk: endoscopy, minor skin surgery, grommets, nasal cautery, FNA (which can be done on anticoagulants). Agree each plan with the patient, the anticoagulation clinic and, for stents and valves, cardiology.
+## Epistaxis in the anticoagulated patient
+Most epistaxis can be controlled without stopping the anticoagulant: treat locally (cautery, packing, absorbable materials), check the INR on warfarin, and consider reversal only for life-threatening bleeding or a markedly raised INR. ENT UK consensus discourages routine cessation, because the stroke risk of stopping often outweighs the benefit.
+
+# Safety | What goes wrong.
+## Key interactions
+Antibiotics (clarithromycin, metronidazole, co-trimoxazole, ciprofloxacin, fluconazole, miconazole gel) raise the INR on warfarin; enzyme inducers lower it. DOACs interact with strong CYP3A4 and P-glycoprotein inhibitors and inducers (azoles, clarithromycin, rifampicin, carbamazepine). NSAIDs add bleeding risk to all.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Stopping times for **warfarin, DOACs and clopidogrel**.
+- Who needs **bridging**.
+- The coronary stent warning.
+- Management of epistaxis on anticoagulants.
+!!
+## Common pitfalls
+!pit
+- Stopping clopidogrel in a patient with a recent stent without cardiology advice.
+- Bridging patients on DOACs.
+- Stopping warfarin for a minor nosebleed.
+!!

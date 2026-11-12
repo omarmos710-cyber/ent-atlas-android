@@ -1,0 +1,36 @@
+@stand Desmopressin (DDAVP) is a synthetic vasopressin analogue that releases von Willebrand factor and factor VIII from endothelial stores, raising their levels two to five times for several hours. It is used, with haematology advice and usually with tranexamic acid, to prepare patients with type 1 von Willebrand disease, mild haemophilia A and some platelet disorders for tonsillectomy and other surgery, and to treat their bleeding. Its main danger is hyponatraemia, especially in young children.
+
+# At a glance | The drug on one page.
+## Summary
+!table Desmopressin
+ | Summary
+Class | Synthetic vasopressin (V2 receptor) analogue
+How it works | Stimulates release of von Willebrand factor and factor VIII from endothelial Weibel-Palade bodies; also antidiuretic
+ENT uses | Prophylaxis and treatment of bleeding in type 1 von Willebrand disease, mild haemophilia A and carriers, uraemic and drug-induced platelet dysfunction; tonsillectomy, adenoidectomy and other surgery in these patients
+Dose | 0.3 micrograms/kg intravenously or subcutaneously (maximum about 20 to 27 micrograms) over 20 to 30 minutes, 30 to 60 minutes before surgery, repeated every 12 to 24 hours for a few doses; intranasal 300 micrograms (adults) as an alternative
+Effectiveness | A test dose beforehand shows whether the patient responds; tachyphylaxis after 2 to 3 doses
+Avoid | Type 2B von Willebrand disease (thrombocytopenia); children under 2 years (hyponatraemic seizures); cardiovascular disease; fluid overload; habitual high fluid intake
+!!
+
+# Using it in ENT | Practice.
+## Tonsillectomy in bleeding disorders
+Screen for bleeding disorders by **history** (family history, easy bruising, prolonged bleeding after dental extraction, menorrhagia); routine clotting tests miss mild von Willebrand disease. Plan surgery with haematology: desmopressin before surgery, tranexamic acid for 7 to 10 days, overnight admission, fluid restriction and sodium checks.
+
+# Safety | What goes wrong.
+## Adverse effects
+**Hyponatraemia** and water intoxication (fluid restriction to about two thirds of maintenance for 24 hours, sodium monitoring, particularly in children); facial flushing, headache, tachycardia, hypotension; rarely thrombosis.
+## Interactions
+Drugs that increase antidiuretic hormone effect or cause hyponatraemia (SSRIs, carbamazepine, NSAIDs, opioids).
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Mechanism (endothelial release of von Willebrand factor and factor VIII).
+- Use in **tonsillectomy** with bleeding disorders.
+- **Hyponatraemia** and fluid restriction.
+!!
+## Common pitfalls
+!pit
+- Using desmopressin in type 2B von Willebrand disease.
+- Free intravenous fluids after desmopressin in a child.
+!!

@@ -1,0 +1,37 @@
+@stand Reversal agents restore clotting when an anticoagulated patient has life-threatening bleeding or needs emergency surgery: a massive epistaxis, a secondary tonsillar haemorrhage, an expanding neck haematoma, a bleeding tumour. Each anticoagulant has its own reversal strategy, and haematology advice should be sought early.
+
+# At a glance | The agents on one page.
+## Summary
+!table Reversal of anticoagulation
+ | Summary
+Warfarin | Life-threatening bleeding: four-factor prothrombin complex concentrate (PCC) 25 to 50 units/kg (by INR and weight) plus vitamin K 5 to 10 mg intravenously; non-urgent high INR without bleeding: oral vitamin K 1 to 5 mg and withhold doses
+Dabigatran | Idarucizumab 5 g intravenously (two 2.5 g doses); haemodialysis removes it
+Apixaban, rivaroxaban, edoxaban | Andexanet alfa where available and indicated; otherwise PCC 25 to 50 units/kg; activated charcoal if taken within a few hours
+Unfractionated heparin | Protamine 1 mg per 100 units given in the previous 2 to 3 hours (maximum 50 mg)
+Low molecular weight heparin | Protamine gives partial reversal (about 60% of anti-Xa activity)
+Antiplatelets | No specific reversal; platelet transfusion in life-threatening bleeding or emergency surgery; desmopressin in some cases
+Adjuncts | Tranexamic acid; local measures; treat hypothermia, acidosis and hypocalcaemia in major haemorrhage
+!!
+
+# Using them in ENT | Practice.
+## The bleeding patient on an anticoagulant
+Resuscitate, control the bleeding locally (packing, pressure, theatre), take blood for full blood count, clotting, renal function and group and save or crossmatch, establish which drug was taken and when, and involve haematology. Restart anticoagulation once bleeding is controlled and the risk allows, usually within days, because the thrombotic risk persists.
+
+# Safety | What goes wrong.
+## Adverse effects
+- PCC and andexanet: **thrombosis**.
+- Vitamin K intravenously: rare anaphylactoid reactions; give slowly. High doses make re-warfarinisation difficult.
+- Protamine: hypotension, bradycardia, anaphylaxis (fish allergy, previous protamine-containing insulin, vasectomy).
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Warfarin reversal**: PCC plus intravenous vitamin K.
+- Specific reversal for **dabigatran** (idarucizumab) and the factor Xa inhibitors.
+- Protamine dosing.
+!!
+## Common pitfalls
+!pit
+- Using fresh frozen plasma alone for warfarin reversal in life-threatening bleeding.
+- Giving vitamin K without PCC in an emergency (it takes hours to work).
+!!
