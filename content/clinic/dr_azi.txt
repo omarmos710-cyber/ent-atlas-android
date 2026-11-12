@@ -1,0 +1,48 @@
+@stand Azithromycin is a macrolide with a very long tissue half-life, so short courses of 3 days give a week or more of tissue levels. It is an alternative to clarithromycin in penicillin allergy and an alternative long-term anti-inflammatory macrolide in chronic rhinosinusitis and bronchiectasis. It interacts less through CYP3A4 than clarithromycin but still prolongs the QT interval.
+
+# At a glance | The drug on one page.
+## Summary
+!table Azithromycin
+ | Summary
+Class | Macrolide (azalide)
+How it works | 50S ribosomal inhibition; immunomodulatory at low long-term doses
+Spectrum | As clarithromycin, with better activity against H. influenzae and Moraxella and less against streptococci and staphylococci; atypicals; Chlamydia trachomatis
+ENT uses | Penicillin allergy: respiratory infection; long-term anti-inflammatory therapy in chronic rhinosinusitis and in patients with bronchiectasis or cystic fibrosis; pertussis
+Adult dose | 500 mg once daily for 3 days; long-term 250 mg once daily or 500 mg three times a week
+Child dose | 10 mg/kg once daily for 3 days (maximum 500 mg)
+Avoid | QT prolongation; hepatic impairment
+Pregnancy | Use only if no alternative
+!!
+
+# How it works | Mechanism and handling.
+## Mechanism
+The 15-membered azalide ring improves acid stability and Gram-negative penetration. Its antibacterial and anti-inflammatory actions are those of other macrolides.
+## Handling
+Takes up into tissues and phagocytes, from which it is slowly released; terminal half-life is about 68 hours. Mostly excreted unchanged in bile. Antacids reduce absorption.
+
+# Using it in ENT | Indications and doses.
+## Acute infection
+A 3-day course is equivalent to longer courses of other agents for acute otitis media and sinusitis in penicillin allergy, but pneumococcal and streptococcal macrolide resistance is a real cause of failure.
+## Long-term use
+For chronic rhinosinusitis, especially with lower-airway disease, azithromycin three times a week is an option when clarithromycin interacts with other drugs. Long-term use selects macrolide resistance and has been linked to **hearing loss** (usually reversible), so check hearing if symptoms occur.
+
+# Safety | What goes wrong.
+## Adverse effects
+- Gastrointestinal upset; hepatitis; hearing loss and tinnitus with long-term use.
+- QT prolongation and increased risk of cardiovascular death in patients with cardiac disease.
+- Rarely, hypersensitivity including DRESS.
+## Interactions
+Weaker CYP3A4 effect than clarithromycin, but still caution with warfarin, ciclosporin, digoxin and other QT-prolonging drugs; antacids reduce absorption.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Why a 3-day course works (tissue half-life).
+- Differences from clarithromycin in spectrum and interactions.
+- Long-term macrolide risks: QT, resistance, hearing.
+!!
+## Common pitfalls
+!pit
+- Using azithromycin for streptococcal tonsillitis when penicillin can be given.
+- Long-term therapy without an ECG baseline in patients at cardiac risk.
+!!

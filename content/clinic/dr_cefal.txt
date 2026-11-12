@@ -1,0 +1,51 @@
+@stand Cefalexin (first generation) and cefuroxime (second generation) are the oral cephalosporins an ENT doctor uses. They are alternatives to penicillins for patients whose penicillin allergy was a non-severe rash, and cefalexin is a reliable drug for staphylococcal and streptococcal skin and wound infection. Cefuroxime adds better Haemophilus and Moraxella cover. Neither covers Pseudomonas, anaerobes, MRSA or enterococci, and both are associated with C. difficile.
+
+# At a glance | The drugs on one page.
+## Summary
+!table Cefalexin and cefuroxime
+ | Summary
+Class | Cephalosporins: cefalexin first generation, cefuroxime second generation
+How they work | Beta-lactams that inhibit cell wall cross-linking; more stable to staphylococcal penicillinase than penicillin
+Spectrum | Cefalexin: S. aureus (not MRSA), streptococci, some E. coli. Cefuroxime: adds H. influenzae and Moraxella, including beta-lactamase producers
+ENT uses | Cellulitis and wound infection (cefalexin); acute otitis media and sinusitis in non-severe penicillin allergy (cefuroxime); surgical prophylaxis (cefuroxime or cefazolin intravenously)
+Adult dose | Cefalexin 500 mg two or three times daily (up to 1 to 1.5 g three or four times daily); cefuroxime axetil 250 to 500 mg twice daily; intravenous cefuroxime 750 mg to 1.5 g three times daily
+Child dose | Cefalexin 12.5 mg/kg twice daily (25 mg/kg twice daily for severe infection); cefuroxime 15 mg/kg twice daily (maximum 250 mg per dose)
+Avoid | Previous immediate (anaphylactic) penicillin or cephalosporin allergy
+Pregnancy | Safe
+!!
+
+# How they work | Mechanism and handling.
+## Mechanism and generations
+Cephalosporins share the beta-lactam ring of penicillins but have a six-membered dihydrothiazine ring that resists many beta-lactamases. Moving from the first to the third generation, Gram-negative activity increases and Gram-positive activity falls; cefalexin is the best oral anti-staphylococcal cephalosporin, cefuroxime the best balanced for the respiratory organisms.
+## Absorption and handling
+Cefalexin is almost completely absorbed; cefuroxime axetil is a prodrug absorbed better with food. Both are excreted by the kidney: reduce the dose when renal function is poor.
+
+# Using them in ENT | Indications and doses.
+## Penicillin allergy
+Ask what actually happened. A **non-severe delayed rash** is not a contraindication to a cephalosporin; cross-reactivity is low (about 1% to 2%) and is driven mainly by similar side chains (cefalexin shares one with amoxicillin, cefuroxime does not). After **anaphylaxis, angioedema, or a severe cutaneous reaction** (Stevens-Johnson syndrome, DRESS), avoid all beta-lactams and choose a macrolide, doxycycline or clindamycin.
+## Skin, wound and soft tissue
+Cefalexin covers the staphylococci and streptococci of cellulitis, wound infection and infected epidermoid cysts, and is an option for prophylaxis after ear and facial plastic surgery where cover is wanted.
+## Surgical prophylaxis
+Intravenous cefazolin or cefuroxime at induction (with metronidazole if the pharynx is opened) is standard for clean-contaminated head and neck surgery; prophylaxis should not run beyond 24 hours.
+
+# Safety | What goes wrong.
+## Adverse effects
+- Diarrhoea and **C. difficile**, among the highest risks of any antibiotic class.
+- Hypersensitivity, including rash, serum sickness-like reactions (cefaclor especially) and anaphylaxis.
+- Rarely a positive Coombs test with haemolysis, and interstitial nephritis.
+## Interactions
+Mild potentiation of warfarin. Probenecid raises their levels.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- The **generations** and how the spectrum shifts.
+- Cross-reactivity with penicillin and which allergy histories rule them out.
+- That no oral cephalosporin covers **Pseudomonas** or anaerobes.
+!!
+## Common pitfalls
+!pit
+- Prescribing a cephalosporin after documented penicillin anaphylaxis.
+- Using them for necrotising otitis externa or a dental abscess without anaerobic cover.
+- Prolonged prophylaxis beyond 24 hours.
+!!

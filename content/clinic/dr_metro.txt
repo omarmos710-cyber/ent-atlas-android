@@ -1,0 +1,52 @@
+@stand Metronidazole is a nitroimidazole that kills anaerobic bacteria and some protozoa. In head and neck practice it is the anaerobic partner added to a penicillin or cephalosporin for dental, peritonsillar, deep neck, otogenic and sinogenic intracranial infection, and for prophylaxis when the pharynx is opened. Its classic warnings are alcohol and warfarin.
+
+# At a glance | The drug on one page.
+## Summary
+!table Metronidazole
+ | Summary
+Class | Nitroimidazole
+How it works | Reduced inside anaerobic cells to reactive nitro radicals that break DNA; bactericidal
+Spectrum | Obligate anaerobes (Bacteroides, Prevotella, Fusobacterium, Peptostreptococcus, Clostridia), protozoa (Trichomonas, Giardia, Entamoeba); no activity against aerobes or Actinomyces
+ENT uses | With a beta-lactam for quinsy, deep neck infection, dental abscess, Lemierre syndrome, otogenic and sinogenic intracranial abscess, chronic and complicated sinusitis, necrotising ulcerative gingivitis; head and neck surgical prophylaxis; C. difficile (oral) in mild disease where vancomycin is not available
+Adult dose | Oral 400 mg three times daily (or 500 mg three times daily); intravenous 500 mg every 8 hours; rectal 1 g every 8 hours
+Child dose | 7.5 mg/kg three times daily orally or intravenously (maximum 500 mg)
+Avoid | Alcohol during and for 48 hours after; caution in liver disease
+Pregnancy | Avoid high-dose regimens; normal doses used when needed
+!!
+
+# How it works | Mechanism and handling.
+## Mechanism
+A prodrug activated only in the low-redox environment of anaerobes, which is why it is selective. Resistance is rare.
+## Handling
+Almost completely absorbed orally (so intravenous use is only for patients who cannot swallow), penetrates abscesses and the brain very well, metabolised in the liver.
+
+# Using it in ENT | Indications and doses.
+## Mixed infections of the head and neck
+Odontogenic, peritonsillar, parapharyngeal and retropharyngeal infections and **Lemierre syndrome** (Fusobacterium necrophorum thrombophlebitis of the internal jugular vein) are mixed or anaerobic: give a penicillin or cephalosporin with metronidazole, and drain collections.
+## Intracranial complications
+For otogenic or sinogenic **brain abscess**, subdural empyema and venous sinus thrombosis, metronidazole with high-dose ceftriaxone is the standard empirical combination because of its excellent brain penetration.
+## Prophylaxis
+Given with cefuroxime or co-amoxiclav at induction for clean-contaminated surgery such as laryngectomy and oral cavity resection.
+
+# Safety | What goes wrong.
+## Adverse effects
+- Metallic taste, nausea, furred tongue, dark urine.
+- **Disulfiram-like reaction** with alcohol: flushing, vomiting and tachycardia.
+- **Peripheral and optic neuropathy** and encephalopathy with prolonged courses (beyond about 10 days or high totals); seizures.
+- Hepatotoxicity, severe in Cockayne syndrome.
+## Interactions
+**Warfarin** (marked rise in INR), alcohol, lithium (toxicity), phenytoin and busulfan; phenobarbital lowers its levels.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Selectivity for anaerobes and why that is.
+- Organisms of **Lemierre syndrome** and its treatment.
+- The **alcohol** and **warfarin** interactions; neuropathy with long courses.
+!!
+## Common pitfalls
+!pit
+- Giving intravenous metronidazole to a patient who can swallow.
+- Forgetting to warn about alcohol.
+- Long courses without review for neuropathy.
+!!

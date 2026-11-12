@@ -1,0 +1,54 @@
+@stand Ceftriaxone and cefotaxime are third-generation cephalosporins that cross the inflamed blood-brain barrier and cover the pneumococcus, Haemophilus, Moraxella, meningococcus and most community Gram-negative bacilli. They are the backbone of empirical treatment for the intracranial complications of otitis media and sinusitis, for orbital cellulitis, and for complicated mastoiditis and severe deep neck infection, combined with metronidazole when anaerobes matter.
+
+# At a glance | The drugs on one page.
+## Summary
+!table Ceftriaxone and cefotaxime
+ | Summary
+Class | Third-generation cephalosporins
+How they work | Cell wall synthesis inhibitors, stable to most beta-lactamases of respiratory pathogens
+Spectrum | S. pneumoniae (including many penicillin-resistant strains), H. influenzae, Moraxella, Neisseria, streptococci, Enterobacterales; poor against S. aureus compared with flucloxacillin; not Pseudomonas, not enterococci, not anaerobes, not MRSA, not Listeria
+ENT uses | Meningitis, subdural empyema and brain abscess from ear or sinus disease (with metronidazole); orbital cellulitis and abscess; acute mastoiditis; severe deep neck infection; acute epiglottitis and supraglottitis; Lyme disease with neurological involvement
+Adult dose | Ceftriaxone 2 g once daily; 2 g twice daily for meningitis and intracranial infection. Cefotaxime 1 to 2 g every 8 hours; 2 g every 6 hours for meningitis
+Child dose | Ceftriaxone 50 to 80 mg/kg once daily (80 mg/kg in meningitis, maximum 4 g); cefotaxime 50 mg/kg every 8 to 12 hours (every 6 hours in meningitis); cefotaxime is preferred in neonates
+Avoid | Previous anaphylaxis to beta-lactams; ceftriaxone with intravenous calcium in neonates
+Pregnancy | Safe
+!!
+
+# How they work | Mechanism and handling.
+## Mechanism
+Bactericidal inhibition of cell wall synthesis. Their stability to the beta-lactamases of Haemophilus and Moraxella, and good activity against pneumococci with reduced penicillin sensitivity, make them the reliable empirical choice for invasive respiratory-tract bacteria.
+## Handling
+Ceftriaxone has a long half-life (about 8 hours) that allows once-daily dosing and outpatient parenteral therapy; it is excreted in bile and urine, so it needs no adjustment in renal impairment alone. Cefotaxime is renally excreted and given more often. Both reach therapeutic levels in the cerebrospinal fluid when the meninges are inflamed.
+
+# Using them in ENT | Indications and doses.
+## Intracranial complications
+Meningitis, extradural or subdural abscess, brain abscess and venous sinus thrombosis from otitis media, mastoiditis or sinusitis need **high-dose ceftriaxone (2 g twice daily) with metronidazole**, often with vancomycin where penicillin-resistant pneumococcus or MRSA is a concern, plus neurosurgical drainage and treatment of the source. Courses are typically 4 to 8 weeks for abscesses.
+## Orbital and neck infection
+- **Orbital cellulitis** (Chandler II and above): intravenous ceftriaxone with metronidazole (or co-amoxiclav), decongestants and nasal steroid, with CT and drainage for an abscess or failing vision.
+- **Acute epiglottitis**: secure the airway first, then ceftriaxone.
+- **Deep neck infection** and **acute mastoiditis**: ceftriaxone with metronidazole is a common empirical choice.
+## Outpatient parenteral therapy
+Once-daily ceftriaxone allows patients to complete long courses at home, for example in skull base osteomyelitis caused by a sensitive organism.
+
+# Safety | What goes wrong.
+## Adverse effects
+- **C. difficile** infection and diarrhoea.
+- Ceftriaxone **biliary sludge** (pseudolithiasis), occasionally causing biliary colic, especially in children on high doses.
+- In neonates, ceftriaxone displaces bilirubin and precipitates with calcium (fatal lung and kidney deposits): avoid in jaundiced neonates and with calcium infusions.
+- Hypersensitivity; neutropenia and thrombocytopenia on long courses.
+## Interactions
+Calcium-containing infusions (ceftriaxone, neonates); minor effect on warfarin.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Empirical regimen for an **otogenic brain abscess**: ceftriaxone, metronidazole, and drainage of both the abscess and the ear.
+- What third-generation cephalosporins miss: **Pseudomonas** (except ceftazidime), anaerobes, enterococci, MRSA, Listeria.
+- Ceftriaxone in neonates and with calcium.
+!!
+## Common pitfalls
+!pit
+- Treating an intracranial complication without dealing with the ear or sinus source.
+- Omitting anaerobic cover in sinogenic and otogenic abscesses.
+- Choosing ceftriaxone for necrotising otitis externa.
+!!

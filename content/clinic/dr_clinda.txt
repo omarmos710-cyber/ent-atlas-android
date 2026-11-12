@@ -1,0 +1,51 @@
+@stand Clindamycin is a lincosamide that covers streptococci, methicillin-sensitive staphylococci (and many MRSA strains) and anaerobes, penetrates bone and abscess cavities well, and suppresses toxin production. It is the drug of choice for many head and neck infections in penicillin-allergic patients: tonsillitis, quinsy, dental and deep neck infection, and severe streptococcal soft tissue infection. Its weakness is Clostridioides difficile.
+
+# At a glance | The drug on one page.
+## Summary
+!table Clindamycin
+ | Summary
+Class | Lincosamide
+How it works | Binds the 50S ribosomal subunit; bacteriostatic at usual doses; inhibits toxin synthesis
+Spectrum | Streptococci, S. aureus (including some community MRSA), anaerobes (Bacteroides, Prevotella, Fusobacterium, Peptostreptococcus), Actinomyces; not Gram-negative aerobes (H. influenzae, Moraxella, Pseudomonas, Enterobacterales), not enterococci
+ENT uses | Tonsillitis and quinsy in penicillin allergy; deep neck and dental infection; recurrent tonsillitis with beta-lactamase producing flora; necrotising fasciitis and toxic shock (with a penicillin); osteomyelitis of the jaw; surgical prophylaxis in penicillin allergy
+Adult dose | Oral 150 to 300 mg four times daily (up to 450 mg four times daily); intravenous 600 mg to 1.2 g three or four times daily (up to 4.8 g a day)
+Child dose | Oral 3 to 6 mg/kg four times daily (maximum 450 mg); intravenous 3.75 to 6.25 mg/kg four times daily (up to 10 mg/kg in severe infection)
+Avoid | Previous C. difficile infection where possible; diarrhoea
+Pregnancy | Use if needed
+!!
+
+# How it works | Mechanism and handling.
+## Mechanism
+Clindamycin blocks peptide chain elongation at the 50S subunit, the same site as macrolides (so macrolide-resistant staphylococci may carry inducible clindamycin resistance, detected by the D-test). By stopping protein synthesis it reduces exotoxin production in streptococcal toxic shock and necrotising fasciitis.
+## Handling
+Well absorbed orally; distributes widely into bone, saliva, abscess fluid and tissues but not into cerebrospinal fluid; hepatically metabolised.
+
+# Using it in ENT | Indications and doses.
+## Throat and neck
+- **Quinsy and deep neck abscess in penicillin allergy**: intravenous clindamycin, often alone (it covers the streptococci and anaerobes), with drainage.
+- **Recurrent tonsillitis** with failure of penicillin: co-colonising beta-lactamase-producing anaerobes may protect streptococci; clindamycin or co-amoxiclav may work.
+## Necrotising soft tissue infection
+In cervical necrotising fasciitis, clindamycin is added to a beta-lactam for its anti-toxin action, alongside urgent radical debridement.
+## Surgical prophylaxis
+For penicillin-allergic patients in clean-contaminated head and neck surgery, intravenous clindamycin (600 mg) with or without gentamicin is used; prophylaxis stops within 24 hours.
+
+# Safety | What goes wrong.
+## Adverse effects
+- **C. difficile** colitis: clindamycin carries one of the highest risks of any antibiotic; stop it at the first sign of diarrhoea.
+- Diarrhoea, nausea, metallic taste; oesophageal ulceration if capsules are swallowed without water.
+- Rash, raised liver enzymes, blood dyscrasias.
+## Interactions
+Potentiates neuromuscular blockers. Erythromycin antagonises it at the ribosome.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Spectrum: **Gram-positive and anaerobes, no Gram-negative aerobes**.
+- Why it is used in necrotising fasciitis (toxin suppression).
+- C. difficile risk and patient warning.
+!!
+## Common pitfalls
+!pit
+- Using clindamycin alone where Haemophilus or Gram-negative cover is needed (sinusitis, otitis media).
+- Continuing it in a patient with new diarrhoea.
+!!

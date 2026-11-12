@@ -1,0 +1,51 @@
+@stand Ciprofloxacin is a fluoroquinolone and the only oral antibiotic that reliably covers Pseudomonas aeruginosa. That makes it essential in ENT: necrotising otitis externa, Pseudomonas perichondritis of the pinna, and Pseudomonas infection after ear surgery. Topically, it is the safest antibiotic ear drop. Systemically it carries serious, sometimes permanent, adverse effects on tendons, nerves, the aorta and the mind, and regulators restrict it to infections where other antibiotics are unsuitable.
+
+# At a glance | The drug on one page.
+## Summary
+!table Ciprofloxacin
+ | Summary
+Class | Fluoroquinolone
+How it works | Inhibits bacterial DNA gyrase (topoisomerase II) and topoisomerase IV; bactericidal, concentration-dependent
+Spectrum | Pseudomonas, Enterobacterales, H. influenzae, Moraxella, Neisseria, some staphylococci; weak against streptococci and pneumococci; no anaerobic cover
+ENT uses | Necrotising otitis externa (oral, for 6 weeks or more); perichondritis of the pinna after high piercing or ear surgery; Pseudomonas wound and cavity infection; topical drops (see quinolone ear drops)
+Adult dose | 500 to 750 mg twice daily orally (750 mg twice daily in necrotising otitis externa); intravenous 400 mg two or three times daily
+Child dose | 10 to 20 mg/kg twice daily orally (maximum 750 mg), used in children only where the benefit clearly outweighs risk (cystic fibrosis, Pseudomonas)
+Avoid | History of quinolone-associated tendon disorder; QT prolongation; caution with steroids, in the elderly, in epilepsy, in aneurysm risk
+Pregnancy | Avoid
+!!
+
+# How it works | Mechanism and handling.
+## Mechanism
+Quinolones trap gyrase and topoisomerase IV on DNA and produce lethal double-strand breaks. Killing is **concentration-dependent**, so adequate dosing reduces resistance; Pseudomonas readily becomes resistant during treatment, especially at low doses.
+## Handling
+Good oral bioavailability (about 70%), so oral therapy is equivalent to intravenous; reduced by **calcium, iron, zinc, magnesium, aluminium antacids and dairy** taken at the same time. Partly renally excreted.
+
+# Using it in ENT | Indications and doses.
+## Necrotising otitis externa
+After biopsy and deep cultures, high-dose oral ciprofloxacin (often after an intravenous anti-pseudomonal start) for at least **6 weeks**, with diabetic control and aural toilet. Rising quinolone resistance means cultures must guide treatment; recurrence occurs in up to a fifth, so follow patients for a year.
+## Perichondritis of the pinna
+**High (transcartilaginous) piercing** and ear surgery give Pseudomonas access to the avascular cartilage. Oral ciprofloxacin, with incision and drainage of any abscess, prevents cartilage necrosis and cauliflower deformity.
+
+# Safety | What goes wrong.
+## Adverse effects
+- **Tendinitis and tendon rupture** (Achilles especially), sometimes within 48 hours; higher with corticosteroids, age over 60 and renal or solid organ transplant.
+- **Aortic aneurysm and dissection**, heart valve regurgitation.
+- **QT prolongation**, dysglycaemia (in diabetics on insulin or sulfonylureas).
+- Peripheral neuropathy, confusion, seizures, psychiatric reactions; these may be long-lasting and disabling.
+- C. difficile; photosensitivity; crystalluria.
+## Interactions
+**Theophylline** and **tizanidine** (levels rise, contraindicated with tizanidine); **warfarin** (raised INR); cations (reduced absorption); other QT-prolonging drugs; NSAIDs (seizures).
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- The only **oral anti-pseudomonal** antibiotic.
+- Regimen and duration for **necrotising otitis externa**.
+- Serious harms: tendon, aorta, QT, nerves, and the warnings you give the patient.
+!!
+## Common pitfalls
+!pit
+- Using ciprofloxacin for streptococcal or pneumococcal infection.
+- Prescribing it with steroids to an elderly patient without warning about tendon rupture.
+- Taking it with calcium supplements or milk.
+!!

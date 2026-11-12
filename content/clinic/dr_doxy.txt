@@ -1,0 +1,49 @@
+@stand Doxycycline is a long-acting tetracycline given once or twice daily. In ENT it is an alternative for adults with penicillin allergy in acute sinusitis and lower respiratory infection, the treatment for Lyme disease including facial palsy, a cover for atypical organisms and some MRSA, and, injected directly, a sclerosant for lymphatic malformations. It must not be given to children under 12 or in pregnancy because it binds to developing teeth and bone.
+
+# At a glance | The drug on one page.
+## Summary
+!table Doxycycline
+ | Summary
+Class | Tetracycline
+How it works | Binds the 30S ribosomal subunit and blocks tRNA attachment; bacteriostatic; also inhibits matrix metalloproteinases
+Spectrum | Streptococci (variable), S. aureus including some community MRSA, H. influenzae, Moraxella, atypicals, Borrelia, Rickettsia, Chlamydia, Actinomyces
+ENT uses | Acute sinusitis in penicillin allergy (adults); Lyme disease and Lyme facial palsy; atypical pneumonia; acne-associated and rosacea conditions; MRSA skin infection; doxycycline sclerotherapy of macrocystic lymphatic malformations; long-term anti-inflammatory use in nasal polyps (a short course reduces polyp size)
+Adult dose | 200 mg on day 1 then 100 mg daily (sinusitis: total 5 days); Lyme disease 100 mg twice daily or 200 mg once daily for 21 days (28 days for some neurological presentations); nasal polyps 200 mg then 100 mg daily for 20 days in trials
+Child dose | Not under 12 years (except in specific severe infections such as Lyme or rickettsial disease on specialist advice); 12 to 17 years as adult
+Avoid | Children under 12, pregnancy and breastfeeding; with antacids, iron, calcium or milk at the same time
+!!
+
+# How it works | Mechanism and handling.
+## Mechanism
+It blocks aminoacyl-tRNA binding to the ribosome. The anti-matrix metalloproteinase and anti-inflammatory effects explain its use in rosacea and the reduction in polyp size and eosinophilic inflammatory mediators shown in polyposis trials.
+## Handling
+Well absorbed; absorption is reduced by **divalent and trivalent cations** (antacids, calcium, iron, zinc, milk). Excreted in bile and faeces, so no renal dose adjustment.
+
+# Using it in ENT | Indications and doses.
+## Lyme disease
+Lyme neuroborreliosis may present with isolated, sometimes bilateral, **facial palsy** in endemic areas. Treat with oral doxycycline for 21 days (amoxicillin or ceftriaxone are alternatives); steroids are not recommended for Lyme facial palsy.
+## Lymphatic malformations
+Interventional radiologists inject doxycycline (typically 10 to 20 mg/ml) into macrocystic lymphatic malformations; it causes inflammation and fibrosis of the cyst walls. Swelling after the injection can compromise an airway in neck and tongue lesions.
+
+# Safety | What goes wrong.
+## Adverse effects
+- **Oesophageal ulceration**: take with a full glass of water, sitting or standing, not just before bed.
+- **Photosensitivity**: warn about sun exposure.
+- Nausea; candidiasis; benign intracranial hypertension (stop it if headache and visual symptoms appear).
+- Permanent **tooth discolouration** and enamel hypoplasia in children; deposition in growing bone.
+## Interactions
+Absorption falls with antacids, iron, calcium and zinc (separate by 2 to 3 hours); it potentiates warfarin; carbamazepine, phenytoin and rifampicin increase its metabolism.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Why it is avoided in children under 12 and in pregnancy.
+- Lyme disease as a cause of facial palsy and its treatment.
+- Advice for taking it safely (water, upright, sun, antacids).
+!!
+## Common pitfalls
+!pit
+- Prescribing doxycycline to a child with sinusitis.
+- Taking it with milk or calcium supplements.
+- Giving steroids for Lyme facial palsy.
+!!

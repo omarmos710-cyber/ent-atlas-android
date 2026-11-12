@@ -1,0 +1,43 @@
+@stand Linezolid is an oxazolidinone active against Gram-positive bacteria, including MRSA and vancomycin-resistant enterococci, and it is almost fully absorbed by mouth. In ENT it is used, on microbiology advice, for MRSA infections of the neck, flaps and wounds when glycopeptides cannot be used or oral treatment is needed. Courses longer than two weeks cause myelosuppression, and it can trigger serotonin syndrome.
+
+# At a glance | The drug on one page.
+## Summary
+!table Linezolid
+ | Summary
+Class | Oxazolidinone
+How it works | Binds the 23S rRNA of the 50S subunit and prevents formation of the initiation complex; bacteriostatic for staphylococci
+Spectrum | MRSA, coagulase-negative staphylococci, streptococci including resistant pneumococci, enterococci including VRE, Nocardia, some mycobacteria; no Gram-negative activity
+ENT uses | MRSA soft tissue, wound and neck infection; resistant Gram-positive infection needing oral treatment; part of regimens for drug-resistant tuberculosis
+Adult dose | 600 mg twice daily orally or intravenously
+Child dose | Under 12 years 10 mg/kg every 8 hours (maximum 600 mg); 12 years and over as adult
+Duration | Usually up to 14 days without extra monitoring; longer courses need weekly blood counts
+Avoid | Within 2 weeks of an MAOI; uncontrolled hypertension, phaeochromocytoma, thyrotoxicosis unless monitored
+Pregnancy | Avoid unless essential
+!!
+
+# How it works | Mechanism and handling.
+## Mechanism
+A unique ribosomal site means no cross-resistance with other classes. It reduces toxin production, an advantage in toxin-mediated staphylococcal and streptococcal infection.
+## Handling
+About 100% oral bioavailability, so step-down from intravenous to oral therapy can happen early. Good soft tissue and bone penetration. Non-renal metabolism.
+
+# Safety | What goes wrong.
+## Adverse effects
+- **Myelosuppression** (thrombocytopenia, anaemia) with courses beyond 2 weeks: weekly full blood count.
+- **Peripheral and optic neuropathy** with courses over 28 days; check vision.
+- Lactic acidosis; hypoglycaemia in diabetics; C. difficile.
+## Interactions
+A weak, reversible **MAO inhibitor**: serotonin syndrome with SSRIs, SNRIs, tricyclics, triptans and pethidine; hypertensive reactions with sympathomimetics such as pseudoephedrine and large amounts of tyramine-rich food.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Its role in **MRSA** and VRE, and the advantage of oral bioavailability.
+- Monitoring: blood count, vision, lactate.
+- The **serotonin syndrome** and pseudoephedrine interactions.
+!!
+## Common pitfalls
+!pit
+- Starting linezolid in a patient on an SSRI without discussion and monitoring.
+- Prolonged courses without blood counts.
+!!

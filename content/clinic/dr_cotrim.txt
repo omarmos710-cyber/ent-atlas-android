@@ -1,0 +1,47 @@
+@stand Co-trimoxazole combines trimethoprim and sulfamethoxazole, two drugs that block successive steps in bacterial folate synthesis. Its ENT roles are specific: maintenance of remission in localised granulomatosis with polyangiitis (and reducing the nasal Staphylococcus aureus carriage that triggers relapse), Pneumocystis prophylaxis in immunosuppressed patients, and oral treatment of some MRSA and resistant infections. It is not a first-line drug for routine ENT infection because of its toxicity.
+
+# At a glance | The drug on one page.
+## Summary
+!table Co-trimoxazole
+ | Summary
+Class | Sulfonamide with a dihydrofolate reductase inhibitor
+How it works | Sulfamethoxazole blocks dihydropteroate synthase; trimethoprim blocks dihydrofolate reductase; synergistic and bactericidal
+Spectrum | S. aureus including many MRSA, H. influenzae, Moraxella, Enterobacterales, Stenotrophomonas, Pneumocystis jirovecii, Nocardia; streptococci variable; not Pseudomonas, not anaerobes
+ENT uses | Localised (limited) granulomatosis with polyangiitis, adjunct to maintenance; Pneumocystis prophylaxis during high-dose steroids, cyclophosphamide or rituximab; MRSA skin and soft tissue infection; Nocardia
+Adult dose | 960 mg twice daily for treatment; 960 mg twice daily in GPA maintenance (some use 480 mg twice daily); Pneumocystis prophylaxis 480 mg once daily or 960 mg three times a week
+Child dose | 24 mg/kg twice daily for treatment; prophylaxis by body surface area on specialist advice
+Avoid | Folate deficiency, blood disorders, severe liver or kidney disease, porphyria, first trimester pregnancy, G6PD deficiency (haemolysis)
+!!
+
+# How it works | Mechanism and handling.
+## Mechanism
+Bacteria must make their own folate; blocking two steps in the pathway gives synergy. Human dihydrofolate reductase is far less sensitive to trimethoprim, but toxicity rises in folate-deficient patients and with methotrexate.
+## Handling
+Well absorbed; renally excreted, so the dose is reduced and potassium monitored in renal impairment.
+
+# Using it in ENT | Indications and doses.
+## Granulomatosis with polyangiitis
+In limited sinonasal GPA, co-trimoxazole may help maintain remission and reduce relapses, possibly by eradicating nasal S. aureus; it does not replace immunosuppression in generalised disease. Patients on rituximab or cyclophosphamide receive it as Pneumocystis prophylaxis.
+
+# Safety | What goes wrong.
+## Adverse effects
+- Rash, including **Stevens-Johnson syndrome** and toxic epidermal necrolysis (stop at the first rash).
+- **Bone marrow suppression** (leucopenia, thrombocytopenia, megaloblastic anaemia), especially in the elderly and folate deficient.
+- **Hyperkalaemia** (trimethoprim acts like amiloride), raised creatinine without a true fall in renal function.
+- Hepatitis, aseptic meningitis, haemolysis in G6PD deficiency.
+## Interactions
+**Methotrexate** (severe, potentially fatal marrow toxicity), **warfarin** (raised INR), ACE inhibitors, spironolactone and other potassium-raising drugs, phenytoin, ciclosporin, azathioprine.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Its role in **GPA**: adjunct in limited disease and Pneumocystis prophylaxis.
+- Haematological, skin and potassium monitoring.
+- The **methotrexate** and **warfarin** interactions.
+!!
+## Common pitfalls
+!pit
+- Using co-trimoxazole for routine sinusitis or tonsillitis.
+- Combining it with methotrexate.
+- Ignoring hyperkalaemia in a patient on an ACE inhibitor.
+!!

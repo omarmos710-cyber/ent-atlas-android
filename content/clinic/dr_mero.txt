@@ -1,0 +1,49 @@
+@stand Meropenem is a carbapenem: the broadest beta-lactam in routine use, active against almost all Gram-negative bacilli including ESBL producers and Pseudomonas, most Gram-positives apart from MRSA, and anaerobes. In ENT it is reserved for resistant organisms and the critically ill: severe deep neck and mediastinal sepsis, hospital-acquired infection after major head and neck surgery, intracranial infection with resistant organisms, and necrotising otitis externa that has failed first-line treatment.
+
+# At a glance | The drug on one page.
+## Summary
+!table Meropenem
+ | Summary
+Class | Carbapenem (beta-lactam)
+How it works | Cell wall synthesis inhibitor, stable to almost all beta-lactamases including ESBL and AmpC
+Spectrum | Enterobacterales including ESBL producers, Pseudomonas, Acinetobacter (some), streptococci, methicillin-sensitive S. aureus, anaerobes; not MRSA, not Enterococcus faecium, not Stenotrophomonas, not carbapenemase producers
+ENT uses | Severe or hospital-acquired head and neck sepsis; descending mediastinitis; ESBL infection; meningitis and brain abscess with resistant Gram-negatives; failed treatment of skull base osteomyelitis
+Adult dose | 1 g every 8 hours intravenously; 2 g every 8 hours for meningitis and severe infection
+Child dose | 10 to 20 mg/kg every 8 hours; 40 mg/kg every 8 hours for meningitis (maximum 2 g per dose)
+Avoid | Beta-lactam anaphylaxis (cross-reactivity with penicillin is low, about 1%)
+Pregnancy | Use if needed
+!!
+
+# How it works | Mechanism and handling.
+## Mechanism
+Carbapenems bind multiple penicillin-binding proteins and resist hydrolysis by nearly all serine beta-lactamases. Resistance comes from **carbapenemases** (KPC, OXA-48, NDM) and porin loss, and it spreads; every unnecessary carbapenem prescription adds to the problem, which is why most hospitals restrict them to microbiology approval.
+## Handling
+Intravenous; renally excreted, so reduce the dose when the creatinine clearance is below 50 ml/min. It crosses the inflamed meninges and has a lower seizure risk than imipenem.
+
+# Using it in ENT | Indications and doses.
+## Severe neck and mediastinal sepsis
+**Descending necrotising mediastinitis** from a dental, pharyngeal or deep neck source carries a high mortality: secure the airway, drain the neck and mediastinum (with thoracic surgeons), and give broad cover such as meropenem with vancomycin or linezolid, narrowed by cultures.
+## Resistant and hospital organisms
+After major resection and free-flap reconstruction, fistula and wound infection may involve ESBL Enterobacterales or resistant Pseudomonas: meropenem is used when cultures demand it, not as a reflex.
+
+# Safety | What goes wrong.
+## Adverse effects
+- Diarrhoea, **C. difficile** and candidiasis; selection of resistant organisms.
+- Seizures (less than imipenem), particularly in renal failure or CNS disease.
+- Hypersensitivity, raised liver enzymes, thrombocytopenia.
+## Interactions
+**Sodium valproate**: carbapenems lower valproate levels profoundly within a day, and seizures follow; the combination should be avoided.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- What carbapenems cover and what they do not (**MRSA**, E. faecium, Stenotrophomonas).
+- The **valproate** interaction.
+- Antimicrobial stewardship: microbiology advice, cultures first, review at 48 to 72 hours.
+!!
+## Common pitfalls
+!pit
+- Using meropenem first-line for community-acquired head and neck infection.
+- Forgetting MRSA cover in the septic post-operative patient.
+- Giving it to a patient taking valproate.
+!!

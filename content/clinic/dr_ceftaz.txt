@@ -1,0 +1,48 @@
+@stand Ceftazidime is the third-generation cephalosporin with reliable activity against Pseudomonas aeruginosa. In ENT it is used intravenously for necrotising otitis externa and skull base osteomyelitis, for Pseudomonas wound and cartilage infection that oral ciprofloxacin cannot treat, and in the immunocompromised patient. Its Gram-positive activity is weak.
+
+# At a glance | The drug on one page.
+## Summary
+!table Ceftazidime
+ | Summary
+Class | Third-generation (anti-pseudomonal) cephalosporin
+How it works | Cell wall synthesis inhibitor with an affinity for pseudomonal penicillin-binding protein 3
+Spectrum | Pseudomonas aeruginosa, Enterobacterales, Haemophilus; poor against staphylococci and streptococci; not anaerobes, not MRSA, not enterococci
+ENT uses | Necrotising otitis externa; Pseudomonas perichondritis with abscess or failure of oral treatment; Pseudomonas infection in cystic fibrosis sinus disease; febrile neutropenia
+Adult dose | 1 to 2 g every 8 hours intravenously (2 g every 8 hours in severe infection)
+Child dose | 25 to 50 mg/kg every 8 hours (maximum 6 g a day); up to 50 mg/kg every 8 hours in cystic fibrosis
+Avoid | Beta-lactam anaphylaxis
+Pregnancy | Use if needed
+!!
+
+# How it works | Mechanism and handling.
+## Mechanism
+Like other cephalosporins it blocks peptidoglycan cross-linking; its side chain gives it good penetration and affinity in Pseudomonas. Resistance arises from AmpC derepression, efflux and ESBL production; avibactam (ceftazidime-avibactam) restores activity against many resistant Gram-negatives and is reserved for specialist use.
+## Handling
+Intravenous or intramuscular; renally excreted, so the dose falls with the eGFR.
+
+# Using it in ENT | Indications and doses.
+## Necrotising otitis externa
+Ceftazidime, or piperacillin-tazobactam, is the intravenous anti-pseudomonal choice, frequently with oral ciprofloxacin. After clinical response, falling CRP and ESR, and a resolving scan, therapy is continued orally with ciprofloxacin for a total of 6 weeks or more; recurrence is common in the first year. If cultures grow Aspergillus, add voriconazole.
+## Cartilage and wound infection
+Pseudomonas perichondritis of the pinna with abscess, or not responding to oral ciprofloxacin, needs drainage and intravenous ceftazidime.
+
+# Safety | What goes wrong.
+## Adverse effects
+- Diarrhoea and C. difficile; hypersensitivity.
+- Neurotoxicity (encephalopathy, myoclonus, seizures) if the dose is not reduced in renal failure.
+- Positive Coombs test, eosinophilia, raised liver enzymes.
+## Interactions
+Aminoglycosides (additive nephrotoxicity; do not mix in one bag); chloramphenicol (antagonism).
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- The intravenous and oral options for **Pseudomonas** in ENT.
+- How you monitor treatment of necrotising otitis externa: pain, granulation, CRP and ESR, imaging (gallium or MRI).
+- Why ceftazidime is not a good drug for streptococcal or staphylococcal infection.
+!!
+## Common pitfalls
+!pit
+- Using ceftazidime as general broad cover in head and neck sepsis (it misses Gram-positives and anaerobes).
+- Forgetting renal dose adjustment in elderly diabetics.
+!!

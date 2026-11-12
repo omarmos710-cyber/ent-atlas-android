@@ -1,0 +1,52 @@
+@stand Clarithromycin is the macrolide an ENT surgeon uses most: the usual alternative for penicillin-allergic patients with otitis media, sinusitis or tonsillitis, and, given at low dose for three months, an anti-inflammatory treatment for chronic rhinosinusitis without polyps. It is a potent inhibitor of the liver enzyme CYP3A4, so its interactions matter more than its spectrum.
+
+# At a glance | The drug on one page.
+## Summary
+!table Clarithromycin
+ | Summary
+Class | Macrolide
+How it works | Binds the 50S ribosomal subunit and blocks protein synthesis; bacteriostatic; also reduces neutrophil activity, mucus hypersecretion and biofilm formation
+Spectrum | Streptococci (resistance in a minority of pneumococci and group A streptococci), Moraxella, H. influenzae (moderate), atypicals (Mycoplasma, Chlamydophila, Legionella), Bordetella, non-tuberculous mycobacteria, Helicobacter
+ENT uses | Penicillin allergy: acute otitis media, sinusitis, tonsillitis; long-term macrolide therapy for chronic rhinosinusitis without polyps; non-tuberculous mycobacterial lymphadenitis (with rifampicin or rifabutin) when excision is not possible; pertussis
+Adult dose | 250 to 500 mg twice daily for 5 to 7 days; long-term CRS regimen 250 mg once daily (or twice daily) for 12 weeks
+Child dose | 7.5 mg/kg twice daily (maximum 500 mg), or by weight band: 8 to 11 kg 62.5 mg, 12 to 19 kg 125 mg, 20 to 29 kg 187.5 mg, 30 to 40 kg 250 mg, twice daily
+Avoid | QT prolongation, hypokalaemia; with simvastatin, lomitapide, colchicine in renal impairment, ergotamine, ticagrelor
+Pregnancy | Avoid, especially in the first trimester, unless benefit clearly outweighs risk; erythromycin is preferred
+!!
+
+# How it works | Mechanism and handling.
+## Antibacterial and anti-inflammatory action
+At usual doses it stops bacterial protein synthesis at the 50S subunit. At low doses given for months, macrolides reduce interleukin-8 and neutrophil recruitment, reduce goblet-cell mucus secretion and interfere with quorum sensing and biofilms; this immunomodulatory effect, not killing, is the rationale in chronic rhinosinusitis.
+## Handling
+Well absorbed, concentrates in tissues and macrophages; metabolised by CYP3A4 to an active metabolite and excreted partly in urine. Halve the dose when the eGFR is below 30 ml/min.
+
+# Using it in ENT | Indications and doses.
+## Acute infection in penicillin allergy
+NICE lists clarithromycin (or erythromycin, and doxycycline in adults) as the alternative in penicillin allergy for acute otitis media, acute sinusitis and sore throat.
+## Chronic rhinosinusitis
+Long-term low-dose macrolides are considered for **chronic rhinosinusitis without polyps** with low IgE and neutrophilic inflammation, after maximal medical therapy, as in the EPOS and BRS guidance: 250 mg once daily for 12 weeks, continued only if it helps. Benefit is modest and less clear in eosinophilic polyposis. Check an **ECG for QT** and a statin and drug history before starting.
+## Mycobacterial lymphadenitis
+Non-tuberculous mycobacterial node infection in young children is best treated by **complete excision**; where excision would risk the facial nerve, clarithromycin with rifampicin or rifabutin for 3 to 6 months is an alternative.
+
+# Safety | What goes wrong.
+## Adverse effects
+- Nausea, diarrhoea, abdominal pain and a metallic taste (common).
+- **QT prolongation** and torsades de pointes, especially with other QT-prolonging drugs or hypokalaemia.
+- Reversible hearing loss and tinnitus at high doses.
+- Hepatotoxicity; C. difficile; increased cardiovascular mortality was reported years after a course in patients with coronary heart disease, so use with caution in them.
+## Interactions
+A strong **CYP3A4 inhibitor**: contraindicated with simvastatin (rhabdomyolysis), and raises levels of atorvastatin, ciclosporin, tacrolimus, carbamazepine, theophylline, midazolam, DOACs, calcium-channel blockers and warfarin (raised INR). Additive QT effects with antipsychotics, quinolones, ondansetron and antiarrhythmics.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- The **anti-inflammatory macrolide** rationale and who benefits in chronic rhinosinusitis.
+- The key **interactions** (statins, warfarin, QT drugs) and the ECG before long-term use.
+- Management of **atypical mycobacterial lymphadenitis** in a child.
+!!
+## Common pitfalls
+!pit
+- Starting long-term clarithromycin in a patient on simvastatin.
+- No ECG before long-term therapy in a patient with cardiac disease or on QT drugs.
+- Expecting long-term macrolides to shrink eosinophilic nasal polyps.
+!!

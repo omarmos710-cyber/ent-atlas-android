@@ -1,0 +1,51 @@
+@stand Vancomycin and teicoplanin are glycopeptides, active only against Gram-positive bacteria, and the standard treatment for MRSA. In ENT they are used for MRSA wound and flap infection, MRSA in deep neck or intracranial infection, line infection, and in combination for meningitis where penicillin-resistant pneumococcus is possible. Intravenous vancomycin is nephrotoxic and potentially ototoxic, so levels are measured. Oral vancomycin is not absorbed and is used only for C. difficile.
+
+# At a glance | The drugs on one page.
+## Summary
+!table Vancomycin and teicoplanin
+ | Summary
+Class | Glycopeptides
+How they work | Bind the D-alanyl-D-alanine terminus of peptidoglycan precursors and block cell wall synthesis; slowly bactericidal
+Spectrum | MRSA and MSSA, coagulase-negative staphylococci, streptococci including resistant pneumococci, enterococci (not VRE), Clostridioides difficile (oral vancomycin); no Gram-negative activity
+ENT uses | MRSA infection of wounds, flaps and cartilage; MRSA or resistant pneumococcal meningitis and intracranial abscess (with ceftriaxone); deep neck infection with MRSA risk; surgical prophylaxis in MRSA carriers; oral vancomycin for C. difficile
+Adult dose | Vancomycin loading 25 to 30 mg/kg, then 15 to 20 mg/kg every 8 to 12 hours by slow infusion, adjusted to trough levels (target usually 10 to 20 mg/l, 15 to 20 mg/l in serious infection) or area-under-curve dosing; teicoplanin 6 to 12 mg/kg every 12 hours for 3 to 5 doses, then once daily; oral vancomycin 125 mg four times daily for 10 days for C. difficile
+Child dose | Vancomycin 15 mg/kg every 6 to 8 hours, guided by levels; teicoplanin 10 mg/kg every 12 hours for 3 doses, then 6 to 10 mg/kg daily
+Avoid | Previous severe reaction; take care in renal impairment, with other nephrotoxic or ototoxic drugs
+Pregnancy | Use only if benefit outweighs risk
+!!
+
+# How they work | Mechanism and handling.
+## Mechanism
+Glycopeptides are too large to pass the outer membrane of Gram-negatives, which explains their spectrum. Killing is slow and time-dependent; vancomycin penetrates the cerebrospinal fluid adequately only when the meninges are inflamed.
+## Handling
+Neither is absorbed orally. Both are renally excreted; vancomycin has a narrow therapeutic window. Teicoplanin's long half-life allows once-daily dosing and intramuscular use.
+
+# Using them in ENT | Indications and doses.
+## MRSA
+Screen and decolonise MRSA carriers (nasal mupirocin and chlorhexidine wash) before elective head and neck surgery; give glycopeptide prophylaxis when MRSA is known. Treat established MRSA wound, cartilage or neck infection with a glycopeptide (or linezolid), with drainage.
+## Intracranial infection
+Add vancomycin to ceftriaxone for meningitis and abscesses where resistant pneumococci or MRSA are possible, for example after neurosurgery or cochlear implantation.
+
+# Safety | What goes wrong.
+## Adverse effects
+- **Vancomycin flushing syndrome** (formerly red man syndrome): flushing, itch and hypotension when infused too fast; slow the rate (at least 60 minutes per gram).
+- **Nephrotoxicity**, especially with high troughs, piperacillin-tazobactam and aminoglycosides.
+- **Ototoxicity** (tinnitus, high-frequency loss), rare alone but more likely with aminoglycosides and loop diuretics.
+- Neutropenia, thrombocytopenia, DRESS; teicoplanin has fewer infusion and renal effects.
+## Interactions
+Additive toxicity with **aminoglycosides**, loop diuretics, ciclosporin, cisplatin and piperacillin-tazobactam.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Spectrum: **Gram-positive only**, MRSA.
+- Monitoring: trough or AUC levels, renal function, hearing.
+- Flushing syndrome and how to prevent it.
+- Why oral vancomycin only treats C. difficile.
+!!
+## Common pitfalls
+!pit
+- Using vancomycin alone for a mixed or Gram-negative infection.
+- Rapid infusion.
+- Not checking levels and renal function, especially with other nephrotoxins.
+!!
