@@ -1,0 +1,42 @@
+@stand Fluconazole is a well-absorbed, water-soluble triazole with excellent activity against most Candida species but none against Aspergillus or the Mucorales. In ENT it treats oropharyngeal and oesophageal candidiasis that topical agents have not cleared or that occurs in immunocompromised or irradiated patients, candidal infection of the larynx and voice prostheses, and Candida otomycosis resistant to topical treatment.
+
+# At a glance | The drug on one page.
+## Summary
+!table Fluconazole
+ | Summary
+Class | Triazole antifungal
+How it works | Inhibits fungal lanosterol 14-alpha-demethylase (CYP51), depleting ergosterol; fungistatic against Candida
+Spectrum | Candida albicans and most other Candida (C. krusei is resistant, C. glabrata often less sensitive), Cryptococcus; no activity against Aspergillus or Mucorales
+ENT uses | Oropharyngeal candidiasis in the immunocompromised, after radiotherapy or failing topical treatment; oesophageal candidiasis; laryngeal candidiasis; candidal colonisation of voice prostheses; refractory candidal otomycosis
+Adult dose | Oropharyngeal candidiasis 50 mg once daily for 7 to 14 days (100 to 200 mg in severe or immunocompromised cases); oesophageal 200 to 400 mg on day 1, then 100 to 200 mg daily for 14 to 21 days
+Child dose | 3 to 6 mg/kg on day 1, then 3 mg/kg daily
+Pregnancy | Avoid (high doses linked to fetal malformations)
+!!
+
+# How it works | Mechanism and handling.
+## Handling
+About 90% oral bioavailability, unaffected by food or acid; long half-life (about 30 hours) allows once-daily dosing; renally excreted (halve the dose when the creatinine clearance is under 50 ml/min).
+
+# Using it in ENT | Indications.
+## Oral and laryngeal candidiasis
+Topical nystatin or miconazole first for uncomplicated thrush. Use fluconazole for extensive disease, failure of topical treatment, during or after radiotherapy, in HIV and other immunosuppression, in steroid inhaler users with laryngeal candidiasis (with advice to rinse after inhaler use), and for oesophageal involvement (odynophagia).
+## Voice prostheses
+Candida biofilm shortens the life of tracheo-oesophageal voice prostheses; antifungal treatment (oral or topical) can extend device life in patients with frequent leaks.
+
+# Safety | What goes wrong.
+## Adverse effects
+Nausea, abdominal pain, rash, headache; hepatotoxicity (rare); QT prolongation; Stevens-Johnson syndrome rarely.
+## Interactions
+A moderate CYP3A4 and strong CYP2C9 and 2C19 inhibitor: raises **warfarin** (INR), phenytoin, sulfonylureas, ciclosporin, tacrolimus and some statins; additive QT effects with other QT-prolonging drugs.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Spectrum: Candida yes, **Aspergillus and Mucor no**.
+- Use in head and neck radiotherapy and voice prosthesis patients.
+- Warfarin and QT interactions.
+!!
+## Common pitfalls
+!pit
+- Using fluconazole for suspected invasive fungal sinusitis.
+!!

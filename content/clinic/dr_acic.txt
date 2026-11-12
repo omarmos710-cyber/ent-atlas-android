@@ -1,0 +1,38 @@
+@stand Aciclovir and its prodrug valaciclovir inhibit the DNA polymerase of herpes simplex and varicella zoster viruses. In ENT they are used for herpes zoster oticus (Ramsay Hunt syndrome), with steroids; for severe or recurrent herpes labialis and herpetic gingivostomatitis; for herpes zoster of the trigeminal or cervical dermatomes; and, though the evidence is weak, sometimes added to steroids in severe Bell's palsy.
+
+# At a glance | The drugs on one page.
+## Summary
+!table Aciclovir and valaciclovir
+ | Summary
+Class | Nucleoside analogue antivirals (famciclovir is similar)
+How they work | Phosphorylated by viral thymidine kinase, then by host kinases to aciclovir triphosphate, which inhibits viral DNA polymerase and terminates the DNA chain; active only in infected cells
+ENT uses | Ramsay Hunt syndrome (with prednisolone); herpes zoster of the head and neck; severe primary herpetic gingivostomatitis; herpes simplex in the immunocompromised; severe Bell's palsy (adjunct, weak evidence); herpes simplex encephalitis (intravenous)
+Adult dose | Zoster: aciclovir 800 mg five times daily or valaciclovir 1 g three times daily for 7 days, started within 72 hours; intravenous aciclovir 10 mg/kg every 8 hours for severe, disseminated, central or immunocompromised infection
+Child dose | Aciclovir by age and weight (for example 20 mg/kg four times daily for zoster in children over 2, maximum 800 mg)
+Pregnancy | Aciclovir has extensive safety data
+!!
+
+# Using them in ENT | Indications.
+## Ramsay Hunt syndrome
+Facial palsy with a vesicular eruption in the ear canal, concha or palate, often with hearing loss, tinnitus and vertigo. Start an antiviral and **prednisolone** within 72 hours, protect the eye, and arrange audiometry; recovery is worse than in Bell's palsy, so counsel accordingly.
+## Bell's palsy
+Steroids alone are the evidence-based treatment; adding an antiviral may slightly improve outcomes in severe palsy, but the evidence is low quality.
+
+# Safety | What goes wrong.
+## Adverse effects
+Nausea, headache, rash; with intravenous aciclovir, **crystal nephropathy** (hydrate well, infuse slowly) and neurotoxicity (confusion, tremor) in renal impairment.
+## Interactions
+Other nephrotoxins; probenecid raises levels; mycophenolate (both levels raised).
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Mechanism and selectivity (viral thymidine kinase).
+- Treatment of **Ramsay Hunt syndrome**.
+- Dose adjustment and hydration in renal impairment.
+!!
+## Common pitfalls
+!pit
+- Missing a vesicle in the ear canal in a "Bell's palsy".
+- Intravenous aciclovir without hydration in an elderly patient.
+!!

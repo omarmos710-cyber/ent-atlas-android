@@ -1,0 +1,37 @@
+@stand Voriconazole is the first-line drug for invasive aspergillosis, including acute and chronic invasive Aspergillus sinusitis and Aspergillus necrotising otitis externa. Posaconazole and isavuconazole are broader triazoles with activity against the Mucorales and are used as step-down or salvage treatment of mucormycosis after amphotericin. All need therapeutic drug monitoring or careful attention to interactions, and none replaces surgical debridement.
+
+# At a glance | The drugs on one page.
+## Summary
+!table Voriconazole and posaconazole
+ | Summary
+Spectrum | Voriconazole: Aspergillus, Candida (including fluconazole-resistant), Fusarium, Scedosporium; **no Mucorales activity**. Posaconazole and isavuconazole: Aspergillus, Candida and **Mucorales**
+ENT uses | Invasive fungal sinusitis caused by Aspergillus (voriconazole); invasive Aspergillus otitis externa and skull base osteomyelitis; mucormycosis step-down after amphotericin or salvage (posaconazole, isavuconazole)
+Voriconazole dose | Intravenously 6 mg/kg every 12 hours for 2 doses, then 4 mg/kg every 12 hours; orally 400 mg every 12 hours for 2 doses, then 200 mg every 12 hours (lower in patients under 40 kg); trough levels of about 1 to 5.5 mg/l
+Posaconazole dose | Tablets 300 mg twice daily on day 1, then 300 mg once daily, with level monitoring
+Isavuconazole dose | 200 mg every 8 hours for 6 doses, then 200 mg once daily
+!!
+
+# Using them in ENT | Indications.
+## Invasive fungal sinusitis
+In an immunocompromised patient (neutropenia, transplant, poorly controlled diabetes) with facial pain or numbness, nasal crusting or pale, insensate mucosa, take **urgent biopsies** of the middle turbinate and septum for histology and culture. Aspergillus: voriconazole. Mucor or not yet identified: liposomal amphotericin, which covers both. Combine with **aggressive surgical debridement** to bleeding tissue and correction of the immunosuppression. Mortality remains high.
+
+# Safety | What goes wrong.
+## Adverse effects
+- **Voriconazole**: visual disturbances in about a third (altered or bright vision, usually transient), hallucinations, hepatotoxicity, **photosensitivity and skin cancer** with long-term use, fluorosis and periostitis, QT prolongation.
+- Posaconazole: gastrointestinal upset, hepatotoxicity, QT prolongation, pseudo-hyperaldosteronism.
+- Isavuconazole shortens rather than prolongs the QT interval and has fewer interactions.
+## Interactions
+All are strong CYP3A4 inhibitors: contraindicated with some drugs (rifampicin, carbamazepine and others reduce levels; they raise levels of ciclosporin, tacrolimus, sirolimus, vincristine and midazolam).
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Which azole covers **Mucor** and which does not.
+- The treatment of acute invasive fungal sinusitis: debridement, antifungal, correct immunosuppression.
+- Voriconazole visual and skin toxicity.
+!!
+## Common pitfalls
+!pit
+- Starting voriconazole for suspected mucormycosis.
+- Relying on antifungal drugs without surgery.
+!!

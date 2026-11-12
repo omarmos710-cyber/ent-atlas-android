@@ -1,0 +1,35 @@
+@stand Itraconazole is a triazole active against Aspergillus and Candida. In ENT it has been used as an adjunct after surgery for allergic fungal rhinosinusitis and in chronic invasive (granulomatous) fungal sinusitis, although voriconazole has replaced it for invasive aspergillosis. Its absorption is erratic, and it is a strong CYP3A4 inhibitor with the potential for dangerous interactions, including Cushing syndrome with inhaled or nasal fluticasone.
+
+# At a glance | The drug on one page.
+## Summary
+!table Itraconazole
+ | Summary
+Class | Triazole antifungal
+Spectrum | Aspergillus, Candida, dermatophytes, dimorphic fungi (histoplasmosis, blastomycosis); not Mucorales reliably
+ENT uses | Adjunct after surgery in allergic fungal rhinosinusitis (evidence weak); chronic invasive and granulomatous fungal sinusitis (step-down or alternative); otomycosis resistant to topical treatment (rarely)
+Adult dose | 100 to 200 mg once or twice daily; levels are measured on long courses (therapeutic drug monitoring)
+Handling | Capsules need gastric acid: take with food or an acidic drink, not with PPIs or antacids; oral solution on an empty stomach
+Avoid | Heart failure (negative inotrope); pregnancy
+!!
+
+# Using it in ENT | Indications.
+## Allergic fungal rhinosinusitis
+The main treatment is complete surgical clearance of eosinophilic mucin followed by topical and systemic steroids and saline irrigation. Postoperative itraconazole may reduce recurrence and steroid needs in some patients, but trials are small; monitor liver function.
+
+# Safety | What goes wrong.
+## Adverse effects
+Hepatotoxicity, nausea, oedema and **heart failure**, hypokalaemia, peripheral neuropathy with long use, hypertension.
+## Interactions
+A **strong CYP3A4 inhibitor**: raises levels of simvastatin and lovastatin (contraindicated), midazolam, ciclosporin, DOACs and many others; with **fluticasone or budesonide** it can cause iatrogenic Cushing syndrome and adrenal suppression. Absorption falls with PPIs and H2 blockers.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Its role and weak evidence in **allergic fungal rhinosinusitis**.
+- The fluticasone interaction and heart failure warning.
+!!
+## Common pitfalls
+!pit
+- Itraconazole capsules with a PPI.
+- Combining it with fluticasone without warning.
+!!

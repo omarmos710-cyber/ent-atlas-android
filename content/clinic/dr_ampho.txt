@@ -1,0 +1,39 @@
+@stand Amphotericin B is a polyene that binds ergosterol and punches holes in fungal membranes. Liposomal amphotericin is the first-line drug for mucormycosis, the rapidly fatal angioinvasive fungal infection of the sinuses, orbit and brain seen in diabetic ketoacidosis, neutropenia, transplantation, high-dose steroids and, in recent years, after COVID-19. It is also the empirical choice for any acute invasive fungal sinusitis before the organism is identified.
+
+# At a glance | The drug on one page.
+## Summary
+!table Amphotericin B
+ | Summary
+Class | Polyene antifungal
+How it works | Binds ergosterol in the fungal cell membrane, forming pores that cause leakage and death; fungicidal
+Spectrum | Mucorales (Rhizopus, Mucor, Lichtheimia), Aspergillus, Candida, Cryptococcus and most pathogenic fungi
+ENT uses | Rhino-orbito-cerebral mucormycosis; acute invasive fungal sinusitis of unknown cause; severe invasive aspergillosis when azoles cannot be used
+Dose | Liposomal amphotericin 5 to 10 mg/kg once daily intravenously for mucormycosis (3 mg/kg for other indications); conventional (deoxycholate) amphotericin is far more toxic and is avoided where possible
+Pregnancy | Use if needed (liposomal preferred)
+!!
+
+# Using it in ENT | Indications.
+## Mucormycosis
+Suspect it in a diabetic with ketoacidosis or an immunocompromised patient with facial pain, swelling, numbness, nasal discharge or black eschar on the turbinate or palate, ophthalmoplegia or vision loss. Start **liposomal amphotericin at once**, before confirmation if the suspicion is high, and perform **urgent, repeated surgical debridement** to bleeding tissue, which may include orbital exenteration. Correct hyperglycaemia and acidosis, stop iron chelation with deferoxamine (a siderophore that feeds the fungus), and reduce immunosuppression. Step down to posaconazole or isavuconazole once stable. Mortality is high (often 30% to 50% or more).
+
+# Safety | What goes wrong.
+## Adverse effects
+- **Nephrotoxicity** (less with liposomal forms): monitor creatinine daily; hydrate with saline.
+- **Hypokalaemia and hypomagnesaemia** from tubular leak: monitor and replace.
+- Infusion reactions: fever, rigors, hypotension; slowing the infusion and premedication help.
+- Anaemia with long courses.
+## Interactions
+Other nephrotoxins (aminoglycosides, ciclosporin, vancomycin), drugs affected by hypokalaemia (digoxin, QT-prolonging drugs).
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Risk factors and signs of **mucormycosis**.
+- The triad of treatment: amphotericin, debridement, correcting the host.
+- Renal and electrolyte monitoring.
+!!
+## Common pitfalls
+!pit
+- Waiting for culture before starting amphotericin.
+- Giving deferoxamine to a patient with suspected mucormycosis.
+!!
