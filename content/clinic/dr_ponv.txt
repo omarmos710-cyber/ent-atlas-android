@@ -1,0 +1,35 @@
+@stand Post-operative nausea and vomiting is common after ENT surgery, particularly after tonsillectomy (swallowed blood and pain), middle ear surgery (vestibular stimulation), strabismus-like ear operations in children, and in young women and non-smokers. It delays discharge, causes dehydration and, after tonsillectomy, can provoke bleeding. Prevention uses risk scoring and a combination of drugs acting on different receptors.
+
+# At a glance | The drugs on one page.
+## Summary
+!table Antiemetics in ENT
+ | Summary
+Ondansetron | 5-HT3 antagonist; adult 4 mg intravenously at the end of surgery; child 100 micrograms/kg (maximum 4 mg); QT prolongation, headache, constipation
+Dexamethasone | Adult 4 to 8 mg at induction; child 150 micrograms/kg (maximum 8 to 10 mg) at tonsillectomy
+Cyclizine | H1 antihistamine; 50 mg up to three times daily; useful after ear surgery; tachycardia and dry mouth; sedation
+Prochlorperazine | D2 antagonist; 12.5 mg intramuscularly or 3 to 6 mg buccally; extrapyramidal effects
+Metoclopramide | D2 antagonist and prokinetic; 10 mg up to three times daily for up to 5 days; extrapyramidal reactions (young women and children; avoid under 1 year, restricted in under-18s); no use in bowel obstruction
+Droperidol | D2 antagonist; low dose (0.625 to 1.25 mg) for prophylaxis; QT prolongation
+Others | Aprepitant (NK1 antagonist) for high-risk patients; hyoscine patch for motion sickness and prolonged vestibular nausea; total intravenous anaesthesia reduces risk
+!!
+
+# Using them in ENT | Practice.
+## Assessing risk
+The **Apfel score** in adults counts female sex, non-smoking, history of PONV or motion sickness, and post-operative opioid use: each adds about 20% risk. In children, the risk is high after tonsillectomy and strabismus surgery, in those over 3 years, and with a history of PONV.
+## Prevention
+Give one or two prophylactic agents for moderate risk and three or more for high risk, with different mechanisms; reduce baseline risk with propofol-based anaesthesia, avoidance of nitrous oxide, opioid-sparing analgesia and good hydration. Treat breakthrough vomiting with a drug from a class not already given.
+
+# Safety | What goes wrong.
+## Key cautions
+QT prolongation with ondansetron and droperidol (check other QT drugs and electrolytes); dystonic reactions with metoclopramide and prochlorperazine (treat with procyclidine); sedation with cyclizine and hyoscine.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- The **Apfel score** and multimodal prophylaxis.
+- Why PONV matters after tonsillectomy and middle ear surgery.
+!!
+## Common pitfalls
+!pit
+- Repeating the same antiemetic class for breakthrough vomiting.
+!!

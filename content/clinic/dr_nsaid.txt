@@ -1,0 +1,41 @@
+@stand Non-steroidal anti-inflammatory drugs inhibit cyclo-oxygenase and reduce prostaglandin-mediated pain and inflammation. Ibuprofen is the standard partner to paracetamol after tonsillectomy and other ENT surgery, and a systematic review found that NSAIDs (other than ketorolac) do not increase the risk of post-tonsillectomy bleeding requiring a return to theatre. Their harms are on the stomach, the kidney, the heart, and in some patients with asthma.
+
+# At a glance | The drugs on one page.
+## Summary
+!table NSAIDs
+ | Summary
+Agents | Ibuprofen; naproxen; diclofenac; ketorolac (parenteral); celecoxib and etoricoxib (COX-2 selective)
+How they work | Inhibit cyclo-oxygenase 1 and 2, reducing prostaglandins and thromboxane; analgesic, anti-inflammatory and antipyretic
+ENT uses | Post-operative analgesia (tonsillectomy, ear, nasal, thyroid); acute otitis media and sore throat; inflammatory conditions (salivary, TMJ)
+Adult dose | Ibuprofen 400 mg three times daily (maximum 2.4 g a day); naproxen 250 to 500 mg twice daily; diclofenac 50 mg two or three times daily (maximum 150 mg a day)
+Child dose | Ibuprofen 5 to 10 mg/kg three or four times daily (maximum 30 mg/kg a day, up to 2.4 g), from 3 months and 5 kg
+Avoid | Active peptic ulcer or bleeding; severe heart failure; severe renal impairment; aspirin-exacerbated respiratory disease; third trimester of pregnancy; diclofenac in ischaemic heart, peripheral arterial or cerebrovascular disease; dehydration (renal injury); chickenpox (serious skin infection reported)
+!!
+
+# Using them in ENT | Practice.
+## Tonsillectomy and bleeding
+The Cochrane review and subsequent work show that ibuprofen and similar NSAIDs, given with paracetamol, give good analgesia after tonsillectomy without a significant increase in bleeding needing surgery, and reduce the need for opioids, which is particularly important in children with sleep apnoea. Many guidelines (including the AAO-HNS) support ibuprofen after tonsillectomy.
+## Asthma
+Most asthmatics tolerate NSAIDs. Those with **aspirin-exacerbated respiratory disease** (asthma, nasal polyps, and reactions to aspirin or NSAIDs) must avoid COX-1 inhibitors; COX-2 selective agents are usually tolerated.
+
+# Safety | What goes wrong.
+## Adverse effects
+- Dyspepsia, peptic ulceration and **gastrointestinal bleeding**: give a PPI with long-term use or in the elderly.
+- **Acute kidney injury**, particularly with dehydration, ACE inhibitors and diuretics (the "triple whammy").
+- Fluid retention, hypertension, heart failure, and increased cardiovascular events (diclofenac and COX-2 inhibitors more than naproxen and low-dose ibuprofen).
+- Bronchospasm in aspirin-sensitive asthma.
+## Interactions
+Warfarin, DOACs, SSRIs and steroids (bleeding); ACE inhibitors and diuretics (renal failure); methotrexate and lithium (toxicity).
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- The evidence on **NSAIDs and post-tonsillectomy bleeding**.
+- **Aspirin-exacerbated respiratory disease** and NSAIDs.
+- The triple whammy and other key cautions.
+!!
+## Common pitfalls
+!pit
+- Withholding ibuprofen after tonsillectomy and prescribing codeine instead.
+- NSAIDs in a dehydrated child who is not drinking.
+!!

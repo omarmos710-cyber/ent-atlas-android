@@ -1,0 +1,41 @@
+@stand Opioids treat severe pain but depress breathing, and the patients ENT surgeons operate on are often those most at risk: children and adults with obstructive sleep apnoea, patients with airway surgery, and the elderly. Codeine and tramadol depend on the liver enzyme CYP2D6 for activation; in ultra-rapid metabolisers they produce dangerous morphine levels, and deaths in children after tonsillectomy led regulators to contraindicate them in that setting.
+
+# At a glance | The drugs on one page.
+## Summary
+!table Opioids
+ | Summary
+Agents | Codeine and dihydrocodeine (weak); tramadol; morphine; oxycodone; fentanyl (anaesthesia); naloxone (antagonist)
+How they work | Mu-opioid receptor agonists in the brain and spinal cord; codeine is a prodrug converted to morphine by CYP2D6; tramadol also inhibits noradrenaline and serotonin reuptake
+ENT uses | Severe post-operative pain not controlled by regular paracetamol and NSAIDs; cancer pain in head and neck malignancy; pain from mucositis during radiotherapy
+Codeine | Contraindicated in children under 12 and in under-18s having tonsillectomy or adenoidectomy for obstructive sleep apnoea (MHRA and EMA); avoid in breastfeeding and known ultra-rapid metabolisers
+Morphine | Oral immediate-release adult 5 to 10 mg every 4 hours as needed (lower in the elderly and in sleep apnoea); child 1 to 12 years 200 to 300 micrograms/kg every 4 hours (specialist and monitored use)
+Naloxone | 100 to 200 micrograms intravenously, repeated every 2 to 3 minutes, titrated to breathing (larger doses in opioid overdose); it wears off before most opioids, so infusion or repeat doses may be needed
+!!
+
+# Using them in ENT | Practice.
+## After tonsillectomy
+Regular paracetamol and ibuprofen are the basis of analgesia; if more is needed, use a short course of an opioid other than codeine in adults, at the lowest dose, and in children only with monitoring in hospital. Children with obstructive sleep apnoea have increased sensitivity to opioids (possibly from intermittent hypoxia upregulating receptors), so doses should be reduced.
+## Sleep apnoea and airway surgery
+Patients with obstructive sleep apnoea need lower doses, CPAP on the ward, avoidance of other sedatives, and monitoring of oxygen saturation. Opioids with benzodiazepines or gabapentinoids sharply increase the risk of respiratory depression.
+## Head and neck cancer pain
+Follow the analgesic ladder, use liquid or transdermal preparations when swallowing is difficult, prescribe laxatives with every regular opioid, and involve palliative care.
+
+# Safety | What goes wrong.
+## Adverse effects
+**Respiratory depression**, sedation, nausea and vomiting, constipation, urinary retention, pruritus, confusion and falls; tolerance and dependence with longer use; serotonin syndrome and seizures with tramadol.
+## Interactions
+Benzodiazepines, gabapentinoids, alcohol and other sedatives (respiratory depression); SSRIs and MAOIs with tramadol (serotonin syndrome); CYP2D6 inhibitors (fluoxetine, paroxetine) block codeine and tramadol activation.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Why **codeine** is contraindicated after tonsillectomy in children (CYP2D6 ultra-rapid metabolism).
+- Opioid sensitivity in obstructive sleep apnoea.
+- Naloxone dosing and its short duration.
+!!
+## Common pitfalls
+!pit
+- Discharging a child after tonsillectomy with codeine.
+- Opioids plus gabapentin plus a benzodiazepine in an obese patient after airway surgery.
+- No laxative with a regular opioid.
+!!

@@ -1,0 +1,42 @@
+@stand Paracetamol is the foundation of analgesia after every ENT operation and for most painful ENT conditions. Given regularly, rather than as needed, with an NSAID, it controls pain after tonsillectomy in most children and adults without opioids. It is safe at the correct dose, but the margin between a therapeutic and a toxic dose is narrow in small, malnourished or liver-impaired patients, and overdose causes liver failure.
+
+# At a glance | The drug on one page.
+## Summary
+!table Paracetamol
+ | Summary
+Class | Non-opioid analgesic and antipyretic
+How it works | Not fully understood: central inhibition of cyclo-oxygenase (in a low-peroxide environment), activation of descending serotonergic pathways, and effects of its metabolite AM404 on cannabinoid and TRPV1 receptors; little peripheral anti-inflammatory effect
+ENT uses | Post-operative pain (tonsillectomy, ear, nasal and neck surgery); acute otitis media, pharyngitis, sinusitis; fever
+Adult dose | 1 g every 4 to 6 hours orally or intravenously (maximum 4 g in 24 hours); under 50 kg or with risk factors for toxicity, 15 mg/kg (maximum 60 mg/kg a day)
+Child dose | Oral by age band or 15 mg/kg every 4 to 6 hours (maximum 4 doses in 24 hours); intravenous 15 mg/kg (10 mg/kg in neonates and infants under 10 kg) with daily maxima by age
+Risk factors for toxicity | Low body weight, malnutrition, chronic alcohol use, liver disease, enzyme-inducing drugs, dehydration and prolonged fasting
+Pregnancy | First-choice analgesic
+!!
+
+# Using it in ENT | Practice.
+## After tonsillectomy
+Give paracetamol and ibuprofen **regularly**, alternating or together, for at least the first 5 to 7 days, with clear written instructions on doses and maximums for parents. Pain often peaks on days 3 to 6, and poor intake from pain causes dehydration and readmission.
+## Rectal and intravenous routes
+Rectal absorption is slow and variable; intravenous paracetamol gives reliable levels but must be dosed by weight to avoid tenfold errors in children (milligram and millilitre confusion).
+
+# Safety | What goes wrong.
+## Overdose
+Toxicity comes from the metabolite NAPQI, normally detoxified by glutathione. After overdose, measure levels from 4 hours after ingestion and treat with **acetylcysteine** according to the treatment line; staggered or uncertain-time overdoses are treated without waiting. Liver failure appears at 2 to 4 days.
+## Adverse effects
+Rare at therapeutic doses: rash, thrombocytopenia, and hepatotoxicity in at-risk patients; high anion gap metabolic acidosis (pyroglutamic acidosis) with flucloxacillin in septic, malnourished patients.
+## Interactions
+Warfarin effect may increase with regular use; enzyme inducers increase toxic metabolite formation.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Doses and maxima for adults, low-weight adults and children.
+- **Regular** analgesia after tonsillectomy.
+- Mechanism of toxicity and acetylcysteine.
+!!
+## Common pitfalls
+!pit
+- Prescribing "as required" analgesia after tonsillectomy.
+- Full adult doses in a frail 45 kg patient.
+- Combination products adding hidden paracetamol.
+!!
