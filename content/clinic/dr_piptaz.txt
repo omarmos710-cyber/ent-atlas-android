@@ -1,0 +1,53 @@
+@stand Piperacillin with tazobactam is a broad-spectrum ureidopenicillin protected by a beta-lactamase inhibitor. It covers Pseudomonas, most Enterobacterales, staphylococci (not MRSA), streptococci and anaerobes, which makes it a standard intravenous choice for necrotising otitis externa, hospital-acquired head and neck infection and sepsis after major surgery. It is a hospital drug, and every use should be reviewed at 48 to 72 hours.
+
+# At a glance | The drug on one page.
+## Summary
+!table Piperacillin with tazobactam
+ | Summary
+Class | Ureidopenicillin with a beta-lactamase inhibitor
+How it works | Cell wall synthesis inhibition; tazobactam protects against many beta-lactamases
+Spectrum | Pseudomonas aeruginosa, Enterobacterales, methicillin-sensitive S. aureus, streptococci, enterococci (some), anaerobes; not MRSA, not ESBL reliably, not atypicals
+ENT uses | Necrotising (malignant) otitis externa and skull base osteomyelitis; hospital-acquired and post-operative deep neck and wound infection; aspiration pneumonia after head and neck surgery; febrile neutropenia
+Adult dose | 4.5 g every 8 hours intravenously, increased to every 6 hours in severe infection; extended infusions over 3 to 4 hours improve time above the MIC
+Child dose | 90 mg/kg every 6 to 8 hours (maximum 4.5 g per dose)
+Duration | Review at 48 to 72 hours with cultures; necrotising otitis externa needs 6 weeks or more of anti-pseudomonal therapy, usually switched to oral ciprofloxacin
+Avoid | Penicillin allergy
+Pregnancy | Use if needed
+!!
+
+# How it works | Mechanism and handling.
+## Mechanism
+Piperacillin's side chain lets it penetrate the outer membrane of Gram-negative bacilli including Pseudomonas; tazobactam inhibits many plasmid-mediated beta-lactamases. Extended-spectrum beta-lactamase (ESBL) and AmpC producers are often resistant; use a carbapenem for proven ESBL infection.
+## Handling
+Given intravenously only; renally excreted, so reduce the dose when the creatinine clearance is below 40 ml/min.
+
+# Using it in ENT | Indications and doses.
+## Necrotising otitis externa
+An elderly diabetic or immunocompromised patient with severe otalgia out of proportion, granulation at the bony-cartilaginous junction and cranial nerve palsy (VII first). Take deep cultures and biopsy (to exclude carcinoma) **before** antibiotics if possible, control the diabetes, start intravenous anti-pseudomonal therapy (piperacillin-tazobactam or ceftazidime, often with ciprofloxacin), and convert to oral ciprofloxacin for a total of at least 6 weeks guided by clinical response, inflammatory markers and imaging.
+## Post-operative and hospital infection
+After major head and neck surgery, a wound or neck infection with a pharyngocutaneous fistula, or aspiration pneumonia, is often polymicrobial with Gram-negatives; piperacillin-tazobactam is a common empirical choice, narrowed when cultures return.
+
+# Safety | What goes wrong.
+## Adverse effects
+- Hypersensitivity; diarrhoea and C. difficile.
+- **Acute kidney injury**, especially in combination with vancomycin.
+- Hypokalaemia (sodium load), thrombocytopenia and neutropenia with prolonged courses, and hepatitis.
+## Contraindications and cautions
+- Penicillin allergy.
+- Renal impairment (dose reduction).
+## Interactions
+**Vancomycin** (additive nephrotoxicity: monitor renal function); methotrexate; aminoglycosides (inactivated if mixed in the same infusion: give separately).
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Organisms of **necrotising otitis externa** (Pseudomonas in most; Aspergillus in some) and the treatment plan.
+- Which beta-lactams cover Pseudomonas: piperacillin-tazobactam, ceftazidime, cefepime, carbapenems (not ertapenem).
+- Why to culture and biopsy before treatment.
+!!
+## Common pitfalls
+!pit
+- Starting antibiotics in necrotising otitis externa before taking deep cultures and a biopsy.
+- Stopping too early on clinical improvement.
+- Continuing broad-spectrum therapy without a 48-hour review.
+!!

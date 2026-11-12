@@ -1,0 +1,58 @@
+@stand Phenoxymethylpenicillin (penicillin V) and benzylpenicillin (penicillin G) are the original narrow-spectrum penicillins. Group A streptococcus has never developed resistance to them, which makes them the first-line drugs for streptococcal tonsillitis and pharyngitis, and, in NICE guidance, for acute sinusitis in adults. Penicillin V is the oral form; benzylpenicillin is given intravenously to patients who cannot swallow, with severe tonsillitis or quinsy.
+
+# At a glance | The drugs on one page.
+## Summary
+!table Phenoxymethylpenicillin and benzylpenicillin
+ | Summary
+Class | Natural penicillins (beta-lactam)
+How they work | Inhibit cell wall cross-linking; bactericidal, time-dependent
+Spectrum | Streptococci (group A, C, G and pneumococci), many oral anaerobes, Neisseria, Treponema, Actinomyces; not most staphylococci, not H. influenzae or Moraxella that produce beta-lactamase, not Gram-negative bacilli
+ENT uses | Streptococcal tonsillitis and pharyngitis (penicillin V); acute sinusitis in adults (NICE first choice); severe tonsillitis, quinsy (with metronidazole) and actinomycosis (benzylpenicillin); scarlet fever; prophylaxis after splenectomy
+Adult dose | Penicillin V 500 mg four times daily (or 1 g twice daily for sore throat), up to 1 g four times daily; benzylpenicillin 1.2 g four times daily intravenously, up to 2.4 g every 4 hours in severe infection
+Child dose | Penicillin V 1 to 11 months 62.5 mg, 1 to 5 years 125 mg, 6 to 11 years 250 mg, 12 to 17 years 500 mg, four times daily; benzylpenicillin 25 mg/kg every 6 hours (50 mg/kg in severe infection)
+Duration | Sore throat 5 to 10 days (10 days is still advised in many guidelines to eradicate the streptococcus); sinusitis 5 days
+Avoid | Penicillin allergy
+Pregnancy | Safe
+!!
+
+# How they work | Mechanism and handling.
+## Mechanism
+Like all penicillins they bind penicillin-binding proteins and stop peptidoglycan cross-linking. Their narrow spectrum is an advantage: less disruption of the gut and oral flora, less C. difficile and less resistance selection.
+## Absorption and handling
+Penicillin V is acid-stable and absorbed by mouth but best taken **on an empty stomach**, an hour before food. Benzylpenicillin is destroyed by gastric acid and must be given parenterally. Both have short half-lives (about 30 to 60 minutes), hence dosing four times a day; probenecid prolongs their levels.
+
+# Using them in ENT | Indications and doses.
+## Sore throat
+Use a clinical score to decide: **FeverPAIN** (fever, purulence, attend rapidly within 3 days, inflamed tonsils, no cough or coryza) or **Centor** (exudate, tender anterior nodes, fever, absent cough). With FeverPAIN 0 to 1 or Centor 0 to 2, no antibiotic; FeverPAIN 2 to 3, consider a back-up prescription; FeverPAIN 4 to 5 or Centor 3 to 4, consider an immediate antibiotic. Penicillin V is first-line; clarithromycin or erythromycin in allergy.
+## Severe tonsillitis and quinsy
+A patient who cannot swallow fluids or has a peritonsillar abscess is admitted: **intravenous benzylpenicillin** (often with **metronidazole** for anaerobes), fluids, analgesia, and drainage of any abscess; many units give a single dose of dexamethasone. Step down to oral penicillin V (with metronidazole) once swallowing.
+## Other uses
+- **Actinomycosis** of the jaw and neck: high-dose benzylpenicillin for weeks, then oral penicillin for months.
+- **Acute sinusitis in adults** where an antibiotic is indicated.
+
+# Safety | What goes wrong.
+## Adverse effects
+- Hypersensitivity: from rash to anaphylaxis; the commonest cause of drug anaphylaxis.
+- Diarrhoea and nausea, less than with broader agents.
+- Very high doses of benzylpenicillin in renal failure can cause **seizures** (encephalopathy).
+- The **Jarisch-Herxheimer reaction** in syphilis.
+## Contraindications and cautions
+- Penicillin allergy. About 10% of patients carry a label, but most are not truly allergic; formal de-labelling widens safe options.
+- Renal impairment with high-dose intravenous benzylpenicillin.
+## Interactions
+Methotrexate (reduced excretion); probenecid (raised levels).
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **FeverPAIN** and **Centor** scores and how they guide antibiotics.
+- Why penicillin V, not amoxicillin, is first-line for a sore throat.
+- Treatment of **quinsy**: drainage plus intravenous benzylpenicillin and metronidazole.
+- Group A streptococcus remains universally penicillin-sensitive.
+!!
+## Common pitfalls
+!pit
+- Prescribing penicillin V to be taken with meals.
+- Short courses that fail to eradicate streptococcus in a patient with recurrent tonsillitis.
+- Relying on antibiotics alone for a peritonsillar abscess.
+!!

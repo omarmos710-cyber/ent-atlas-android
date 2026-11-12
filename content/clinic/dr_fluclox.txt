@@ -1,0 +1,57 @@
+@stand Flucloxacillin is a penicillinase-resistant penicillin: its side chain shields the beta-lactam ring from staphylococcal penicillinase. It is the drug for infections caused by Staphylococcus aureus: furuncles of the ear canal and nasal vestibule, cellulitis of the face and pinna, infected wounds and haematomas, and acute suppurative parotitis. It does not cover MRSA, Pseudomonas or Haemophilus.
+
+# At a glance | The drug on one page.
+## Summary
+!table Flucloxacillin
+ | Summary
+Class | Penicillinase-resistant (antistaphylococcal) penicillin
+How it works | Cell wall synthesis inhibitor, stable against staphylococcal penicillinase
+Spectrum | Methicillin-sensitive S. aureus, streptococci; not MRSA, not Gram-negatives, not Pseudomonas
+ENT uses | Furunculosis of the ear canal and nasal vestibule; cellulitis of the face, pinna and neck; infected post-operative wounds; acute suppurative parotitis (with an anaerobic or broader agent if unwell); infected auricular haematoma; impetigo; with benzylpenicillin for severe cellulitis
+Adult dose | Oral 500 mg to 1 g four times daily; intravenous 1 to 2 g four times daily (up to 2 g every 4 hours in endocarditis or osteomyelitis)
+Child dose | Oral 1 month to 1 year 62.5 to 125 mg, 2 to 9 years 125 to 250 mg, 10 to 17 years 250 to 500 mg, four times daily; intravenous 25 to 50 mg/kg four times daily
+Duration | 5 to 7 days for cellulitis, by response
+Avoid | Penicillin allergy; previous flucloxacillin-associated jaundice
+Pregnancy | Safe
+!!
+
+# How it works | Mechanism and handling.
+## Mechanism
+An isoxazolyl penicillin whose bulky side chain prevents penicillinase from reaching the beta-lactam bond. **MRSA** resists it through a different penicillin-binding protein (PBP2a, encoded by mecA), so methicillin resistance means flucloxacillin resistance.
+## Absorption and handling
+Oral absorption is incomplete and reduced by food: take it **an hour before or two hours after meals**. It is highly protein-bound, excreted renally and partly by the liver.
+
+# Using it in ENT | Indications and doses.
+## Staphylococcal skin and soft tissue infection
+- **Furuncle of the ear canal**: a painful boil in the outer, hair-bearing canal; incise if pointing, give oral flucloxacillin for spreading infection, and a wick with antibiotic-steroid drops if the canal is shut.
+- **Nasal vestibulitis and furunculosis**: topical antiseptic or mupirocin for mild disease, oral flucloxacillin for a furuncle, and urgent assessment if there is spreading cellulitis (the danger triangle drains to the cavernous sinus).
+- **Cellulitis of the face, pinna and neck**: flucloxacillin, with benzylpenicillin or clindamycin in severe disease.
+## Perichondritis of the pinna
+Perichondritis after piercing of the upper ear cartilage is often caused by **Pseudomonas**, which flucloxacillin does not cover; ciprofloxacin is the oral choice. Use flucloxacillin for simple cellulitis of the lobule and staphylococcal wound infection.
+## Acute suppurative parotitis
+Usually S. aureus in a dehydrated, elderly or post-operative patient: rehydrate, massage, sialogogues and intravenous flucloxacillin (with metronidazole or as co-amoxiclav), and look for an abscess on ultrasound if it does not settle.
+
+# Safety | What goes wrong.
+## Adverse effects
+- **Cholestatic jaundice and hepatitis**, which may appear up to two months after stopping; commoner in the elderly and with courses longer than 14 days.
+- Gastrointestinal upset; phlebitis with intravenous use.
+- The hypersensitivity of all penicillins.
+## Contraindications and cautions
+- Penicillin allergy; previous flucloxacillin jaundice.
+- Hepatic impairment.
+## Interactions
+**Paracetamol** with flucloxacillin, in malnourished or septic patients, has been linked to high anion gap **metabolic acidosis** (pyroglutamic acidosis). Methotrexate excretion is reduced.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Why flucloxacillin resists penicillinase, and why MRSA resists flucloxacillin.
+- The organisms of **otitis externa (Pseudomonas, S. aureus)** and of **perichondritis (Pseudomonas)**, and which drug covers which.
+- Take on an **empty stomach**; delayed cholestatic jaundice.
+!!
+## Common pitfalls
+!pit
+- Treating a cartilage perichondritis with flucloxacillin alone.
+- Oral flucloxacillin taken with food.
+- Forgetting to drain a pointing furuncle or an abscess.
+!!

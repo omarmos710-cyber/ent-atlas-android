@@ -1,0 +1,61 @@
+@stand Amoxicillin is a broad-spectrum aminopenicillin and the antibiotic an ENT doctor prescribes most often: first-line for acute otitis media in children, a choice in acute bacterial sinusitis, and the base on which co-amoxiclav is built. It is cheap, well absorbed and safe, with two traps: it is inactivated by beta-lactamase, and in a patient with glandular fever it causes a widespread rash.
+
+# At a glance | The drug on one page.
+## Summary
+!table Amoxicillin
+ | Summary
+Class | Aminopenicillin (beta-lactam)
+How it works | Binds penicillin-binding proteins and blocks cross-linking of the bacterial cell wall; bactericidal
+Spectrum | Streptococcus pneumoniae, Streptococcus pyogenes, non-beta-lactamase Haemophilus influenzae and Moraxella, enterococci; not Staphylococcus aureus (most produce penicillinase), not Pseudomonas, not anaerobes of the beta-lactamase type
+ENT uses | Acute otitis media; acute bacterial sinusitis; early Lyme disease; dental and minor soft tissue infection; endocarditis prophylaxis in selected cases; Helicobacter eradication
+Adult dose | 500 mg three times daily by mouth; 1 g three times daily for severe infection
+Child dose | 1 to 11 months 125 mg, 1 to 4 years 250 mg, 5 to 17 years 500 mg, each three times daily (or 30 mg/kg up to 1 g three times daily for severe infection)
+Duration | 5 to 7 days for acute otitis media; 5 days for sinusitis
+Avoid | Penicillin allergy; suspected infectious mononucleosis
+Pregnancy | Safe; compatible with breastfeeding
+!!
+
+# How it works | Mechanism and handling.
+## Mechanism
+Amoxicillin inhibits the transpeptidases (penicillin-binding proteins) that cross-link peptidoglycan, so dividing bacteria lyse. Killing is **time-dependent**: what matters is how long the free drug stays above the minimum inhibitory concentration, which is why it is given three times a day and why higher doses overcome intermediate pneumococcal resistance. Resistance comes from **beta-lactamase** (about a fifth to a third of H. influenzae and almost all Moraxella catarrhalis) and from altered penicillin-binding proteins in pneumococci.
+## Absorption and handling
+Oral absorption is about 90% and is not reduced by food, unlike ampicillin. It is excreted unchanged by the kidney; reduce the dose when the eGFR is below 30 ml/min. It penetrates middle ear fluid and the sinuses well but crosses the uninflamed blood-brain barrier poorly.
+
+# Using it in ENT | Indications and doses.
+## Acute otitis media
+Most acute otitis media resolves without antibiotics, so NICE advises **no antibiotic or a delayed (back-up) prescription** for most children, with regular paracetamol or ibuprofen. Give an immediate antibiotic to children who are systemically unwell or at high risk of complications, those under 2 with bilateral disease, and children with otorrhoea from a perforation. Amoxicillin is first-line for **5 to 7 days**; clarithromycin or erythromycin if allergic; co-amoxiclav as second-line when symptoms do not improve after 2 to 3 days.
+## Acute sinusitis
+Symptoms for under 10 days need no antibiotic. For symptoms lasting more than 10 days, a back-up prescription can be considered; phenoxymethylpenicillin is the NICE first choice in adults, and amoxicillin is widely used elsewhere and in children. Co-amoxiclav is kept for patients who are systemically very unwell or have signs of a complication, who need assessment rather than a prescription.
+## Other uses
+- **Lyme disease** (erythema migrans, facial palsy): amoxicillin or doxycycline, for 14 to 21 days.
+- **Dental infection** with spreading cellulitis: often with metronidazole.
+- **Helicobacter pylori**: as part of triple therapy.
+
+# Safety | What goes wrong.
+## Adverse effects
+- **Diarrhoea**, nausea and candidiasis; Clostridioides difficile infection is less common than with co-amoxiclav or cephalosporins.
+- **Rash.** A delayed, itchy maculopapular rash appears in a few per cent of patients, often not true allergy. In **infectious mononucleosis** (and with cytomegalovirus and lymphatic leukaemia) a widespread maculopapular rash is common; it is not IgE-mediated and does not prove penicillin allergy, but it frightens patients and clinicians into lifelong labels.
+- **True hypersensitivity**: urticaria, angioedema and anaphylaxis (about 1 in 5,000 to 10,000 courses).
+- Rarely interstitial nephritis, seizures at high doses in renal failure, and haemolytic anaemia.
+## Contraindications and cautions
+- **Penicillin allergy** of any type (immediate or severe delayed).
+- **Glandular fever** suspected: avoid; use phenoxymethylpenicillin or clarithromycin for a sore throat with exudate when an antibiotic is truly needed.
+- Renal impairment: dose adjustment.
+## Interactions
+Increases the effect of **warfarin** (check the INR). Reduces the excretion of **methotrexate**. Allopurinol increases the risk of rash.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Spectrum and why it fails against **beta-lactamase producers**.
+- NICE approach to **acute otitis media**: no or back-up antibiotic for most; who needs one at once; 5 to 7 days.
+- Why amoxicillin is avoided in a sore throat that may be **glandular fever**.
+- Time-dependent killing and dosing frequency.
+!!
+## Common pitfalls
+!pit
+- Giving amoxicillin for an exudative tonsillitis in a teenager without considering mononucleosis.
+- Labelling a mononucleosis rash as lifelong penicillin allergy.
+- Prescribing amoxicillin for an otitis externa or a perichondritis (staphylococci and Pseudomonas).
+- Prescribing for a viral upper respiratory infection.
+!!

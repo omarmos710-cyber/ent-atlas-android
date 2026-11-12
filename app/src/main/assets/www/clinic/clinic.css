@@ -204,7 +204,7 @@ html[data-fsz="s"] .arw{--arfs:15px}html[data-fsz="l"] .arw{--arfs:18px}
 .arpath ul em{font-style:normal;font-weight:700;color:var(--ink);font-size:.92em}
 .arpath ul span{grid-column:2;color:color-mix(in srgb,var(--ink) 82%,var(--muted))}
 /* library switch: diseases / approach */
-.clseg{display:grid;grid-template-columns:1fr 1fr;gap:4px;padding:4px;border-radius:14px;background:var(--soft);margin:0 0 14px}
+.clseg{display:grid;grid-template-columns:repeat(auto-fit,minmax(0,1fr));gap:4px;padding:4px;border-radius:14px;background:var(--soft);margin:0 0 14px}
 .clseg button{min-height:42px;border:0;border-radius:10px;background:none;color:var(--muted);font:600 14px var(--f-body)}
 .clseg button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.08)}
 .clapl{font:italic 400 16px/1.5 var(--f-display);color:var(--muted);margin:-2px 0 14px}

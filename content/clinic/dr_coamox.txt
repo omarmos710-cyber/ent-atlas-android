@@ -1,0 +1,58 @@
+@stand Co-amoxiclav is amoxicillin combined with clavulanic acid, a beta-lactamase inhibitor. The combination restores activity against H. influenzae, Moraxella and many staphylococci, and adds the beta-lactamase-producing anaerobes of the mouth. It is the ENT surgeon's broad oral and intravenous antibiotic for peritonsillar and deep neck infection, complicated or failed sinusitis, mastoiditis and bites, and its price is diarrhoea, C. difficile and occasional cholestatic jaundice.
+
+# At a glance | The drug on one page.
+## Summary
+!table Co-amoxiclav
+ | Summary
+Class | Aminopenicillin with a beta-lactamase inhibitor
+How it works | Amoxicillin blocks cell wall synthesis; clavulanic acid binds and inactivates beta-lactamase
+Spectrum | As amoxicillin plus beta-lactamase producing H. influenzae, Moraxella, methicillin-sensitive S. aureus and anaerobes (Bacteroides, Prevotella, Fusobacterium); not Pseudomonas, not MRSA
+ENT uses | Second-line acute otitis media; sinusitis in a systemically unwell patient; peritonsillar abscess and deep neck space infection; acute mastoiditis (with or after intravenous therapy); dental abscess; human and animal bites; prophylaxis in clean-contaminated head and neck surgery; sialadenitis
+Adult dose | Oral 625 mg (500/125) three times daily; intravenous 1.2 g three times daily
+Child dose | Oral 0.25 ml/kg of 125/31 suspension three times daily (1 month to 5 years) or 5 ml of 250/62 suspension three times daily (6 to 11 years), doubled for severe infection; intravenous 30 mg/kg three times daily (maximum 1.2 g)
+Duration | Usually 5 to 7 days; longer for deep infection by clinical response
+Avoid | Penicillin allergy; previous cholestatic jaundice with co-amoxiclav or a penicillin
+Pregnancy | Generally safe; avoid near term in preterm rupture of membranes (necrotising enterocolitis)
+!!
+
+# How it works | Mechanism and handling.
+## Mechanism
+Clavulanic acid has little antibacterial action of its own; it is a **suicide inhibitor** of many class A beta-lactamases, so the amoxicillin survives to kill the organism. It does not inhibit the chromosomal AmpC enzymes of Enterobacter and Pseudomonas, so co-amoxiclav does not cover them.
+## Absorption and handling
+Both components are well absorbed and renally excreted; reduce the dose in severe renal impairment. Giving it with food improves the absorption of clavulanate and reduces nausea.
+
+# Using it in ENT | Indications and doses.
+## Infection of the throat and neck
+**Peritonsillar abscess** is a mixed aerobic-anaerobic infection: drain it, then give co-amoxiclav (or benzylpenicillin with metronidazole) intravenously until the patient can swallow, then orally to complete 7 to 10 days. In **deep neck space infection**, intravenous co-amoxiclav is a standard empirical choice, adding or changing for MRSA risk, diabetes or a hospital source.
+## Ear and sinus
+Second-line for **acute otitis media** that has not improved after 2 to 3 days of amoxicillin. For **acute mastoiditis**, an intravenous broad-spectrum regimen (co-amoxiclav, or ceftriaxone with metronidazole) is started with imaging and surgical review. For **acute sinusitis** in a patient who is systemically very unwell or at risk of complications.
+## Surgery and wounds
+Single-dose or 24-hour prophylaxis for **clean-contaminated** head and neck surgery (opening the pharynx), the choice for **bites** to the face and ear, and treatment of **acute suppurative sialadenitis** with hydration and massage.
+
+# Safety | What goes wrong.
+## Adverse effects
+- **Diarrhoea** is more common than with amoxicillin; co-amoxiclav is one of the antibiotics most associated with **C. difficile**.
+- **Cholestatic jaundice and hepatitis**: rare but up to six times more frequent than with amoxicillin, commoner in men over 65 and with courses over 14 days; it can appear up to 6 weeks after stopping.
+- Rash, candidiasis, and the hypersensitivity of any penicillin.
+## Contraindications and cautions
+- Penicillin allergy.
+- History of co-amoxiclav or penicillin-associated jaundice.
+- Hepatic impairment: monitor liver function on longer courses.
+## Interactions
+As amoxicillin: **warfarin** (monitor the INR), **methotrexate** (reduced excretion), and the oral contraceptive is no longer considered significantly affected.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Why clavulanate is added and which organisms it brings back into range.
+- What it still does not cover: **Pseudomonas, MRSA, atypicals**.
+- Its role in **quinsy, deep neck infection, mastoiditis and bites**.
+- Cholestatic jaundice and C. difficile as the important harms.
+!!
+## Common pitfalls
+!pit
+- Using co-amoxiclav first-line where amoxicillin or penicillin V would do.
+- Using it for necrotising otitis externa or a Pseudomonas perichondritis.
+- Long courses without liver function checks.
+- Forgetting that an abscess needs drainage, not a broader antibiotic.
+!!
