@@ -1,0 +1,49 @@
+@stand Dexamethasone is a potent, long-acting glucocorticoid with almost no mineralocorticoid effect. In ENT it is given intravenously or orally for airway oedema, croup and angioedema, in a single dose at tonsillectomy to reduce nausea and pain, at induction for many head and neck operations, with antibiotics in bacterial meningitis to protect hearing, and through the drum for sudden hearing loss and Ménière's disease.
+
+# At a glance | The drug on one page.
+## Summary
+!table Dexamethasone
+ | Summary
+Class | Long-acting glucocorticoid (about 25 times the anti-inflammatory potency of hydrocortisone, biological half-life 36 to 54 hours)
+How it works | Glucocorticoid receptor agonist; no salt retention
+ENT uses | Croup; airway oedema before extubation and after airway surgery; angioedema (allergic, as an adjunct); peritonsillar abscess (single dose); tonsillectomy (nausea and pain); post-operative oedema after facial and thyroid surgery; bacterial meningitis (with the first antibiotic); intratympanic treatment; cerebral oedema
+Adult dose | Airway oedema commonly 6 to 8 mg intravenously every 8 hours for 2 to 3 doses; nausea prophylaxis 4 to 8 mg at induction; quinsy 8 to 10 mg once; meningitis 10 mg every 6 hours for 4 days
+Child dose | Croup 150 micrograms/kg orally once (up to 600 micrograms/kg in severe croup); tonsillectomy 150 micrograms/kg intravenously (maximum 8 to 10 mg); meningitis 150 micrograms/kg every 6 hours for 4 days
+Pregnancy | Crosses the placenta (unlike prednisolone); use when indicated
+!!
+
+# How it works | Mechanism and handling.
+## Mechanism
+It reduces capillary permeability, mucosal oedema and cytokine release. Its long action means one dose covers the risk period of a tonsillectomy or an extubation. Its central antiemetic effect is not fully understood.
+
+# Using it in ENT | Indications and doses.
+## Croup and the airway
+A single oral dose of dexamethasone for **croup** reduces return visits, admissions and intubation, even in mild disease; nebulised adrenaline is added for severe stridor. Before extubation after prolonged intubation or airway surgery, steroids reduce post-extubation stridor in high-risk patients.
+## Tonsillectomy
+A single intravenous dose reduces post-operative vomiting and improves early oral intake, and is recommended by the AAO-HNS guideline; it has not been convincingly shown to increase bleeding.
+## Bacterial meningitis
+Dexamethasone given **just before or with the first antibiotic dose** reduces hearing loss and neurological sequelae in pneumococcal and Haemophilus meningitis; it is not started more than about 4 to 12 hours after antibiotics.
+## Intratympanic use
+Dexamethasone 10 to 24 mg/ml is injected through the drum for sudden hearing loss and Ménière's disease (see intratympanic steroids).
+
+# Safety | What goes wrong.
+## Adverse effects
+- Hyperglycaemia (even after a single dose in diabetics), insomnia, agitation, perineal burning or itch with rapid intravenous injection.
+- Long courses carry all glucocorticoid harms, with marked adrenal suppression.
+- Tumour lysis syndrome in undiagnosed lymphoma: avoid steroids before tissue diagnosis when lymphoma is suspected (they can also make the biopsy non-diagnostic).
+## Interactions
+Enzyme inducers (rifampicin, phenytoin, carbamazepine) reduce its effect; it reduces the effect of some drugs metabolised by CYP3A4.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Dexamethasone in **croup**: dose and evidence.
+- Timing in **bacterial meningitis** and why ENT surgeons care (hearing).
+- The tonsillectomy guideline position.
+- Why steroids before a lymph node biopsy can mislead.
+!!
+## Common pitfalls
+!pit
+- Giving dexamethasone to a child with a suspected lymphoma before the biopsy.
+- Forgetting glucose checks in diabetics.
+!!

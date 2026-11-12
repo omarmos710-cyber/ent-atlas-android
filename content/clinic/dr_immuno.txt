@@ -1,0 +1,37 @@
+@stand Allergen immunotherapy gives gradually increasing then maintenance doses of an allergen to induce tolerance. It is the only treatment that changes the natural history of allergic rhinitis: it reduces symptoms and medication use, can prevent new sensitisations and reduces the risk of children developing asthma, and its benefit persists for years after a 3-year course. It is given subcutaneously in specialist centres or as daily sublingual tablets or drops.
+
+# At a glance | The treatment on one page.
+## Summary
+!table Allergen immunotherapy
+ | Summary
+Forms | Subcutaneous immunotherapy (SCIT): injections in a specialist clinic; sublingual immunotherapy (SLIT): daily tablets or drops at home, first dose under supervision
+How it works | Induces regulatory T cells and IL-10 and TGF-beta, shifts responses from Th2 to Th1, raises allergen-specific IgG4 that blocks IgE, and reduces mast cell and eosinophil activity
+ENT uses | Moderate to severe IgE-mediated allergic rhinitis (grass and tree pollen, house dust mite) with symptoms despite optimal medication, confirmed by history plus skin prick test or specific IgE
+Course | Usually 3 years; SLIT pollen tablets started at least 2 to 4 months before the season and taken all year
+Avoid | Severe or uncontrolled asthma (FEV1 under 70%); active autoimmune disease or malignancy; starting during pregnancy; beta blockers (relative, as anaphylaxis is harder to treat); poor adherence
+!!
+
+# Using it in ENT | Selecting patients.
+## Who benefits
+A patient with clearly seasonal or perennial symptoms that correlate with one or two relevant allergens, confirmed by testing, whose symptoms persist despite nasal steroids, antihistamines and allergen avoidance, and who will commit to 3 years. Polysensitised patients may still benefit if the clinically relevant allergen is clear.
+## SCIT versus SLIT
+SCIT has a long track record but needs clinic visits and observation after each injection because of the risk of systemic reactions. SLIT is safer (local mouth itch and swelling are common, anaphylaxis rare) and convenient, but adherence falls with time.
+
+# Safety | What goes wrong.
+## Adverse effects
+- SCIT: local swelling; **systemic reactions and anaphylaxis**, so injections are given only where resuscitation is available, with 60 minutes of observation.
+- SLIT: oral itch and swelling, throat irritation, gastrointestinal upset; eosinophilic oesophagitis rarely.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Indications and contraindications.
+- Mechanism (IgG4 blocking antibodies, regulatory T cells).
+- The disease-modifying effect and course length.
+- Safety arrangements for SCIT.
+!!
+## Common pitfalls
+!pit
+- Offering immunotherapy without confirming IgE sensitisation to the relevant allergen.
+- Giving SCIT to a patient with uncontrolled asthma.
+!!

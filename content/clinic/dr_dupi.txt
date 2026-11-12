@@ -1,0 +1,45 @@
+@stand Dupilumab is a monoclonal antibody against the interleukin-4 receptor alpha subunit, blocking both IL-4 and IL-13 signalling, the core of type 2 inflammation. In severe chronic rhinosinusitis with nasal polyps it shrinks polyps, restores smell, and reduces the need for oral steroids and revision surgery, with larger effects than the other biologics in trials. It is given by subcutaneous injection every two weeks and is used when surgery and maximal medical therapy have not controlled the disease.
+
+# At a glance | The drug on one page.
+## Summary
+!table Dupilumab
+ | Summary
+Class | Monoclonal antibody against IL-4 receptor alpha (blocks IL-4 and IL-13)
+How it works | Inhibits type 2 inflammation: B-cell class switching to IgE, eosinophil recruitment, goblet cell hyperplasia and mucosal oedema
+ENT uses | Severe chronic rhinosinusitis with nasal polyps (in many countries as add-on to nasal steroids); also atopic dermatitis, asthma, eosinophilic oesophagitis
+Adult dose | 300 mg subcutaneously every 2 weeks for polyps (interval may be extended once controlled)
+Eligibility (EPOS 2020) | Bilateral polyps after previous surgery (or unfit for it) plus at least three of: type 2 inflammation (blood eosinophils of 150 per microlitre or more, tissue eosinophils of 10 or more per high-power field, or total IgE of 100 or more), need for systemic steroids (2 or more courses a year or long-term), significantly impaired quality of life (SNOT-22 of 40 or more), anosmia, comorbid asthma
+Response | Assess at 16 weeks and 1 year: polyp size, need for steroids, quality of life, smell, asthma
+Pregnancy | Limited data; use only if needed
+!!
+
+# How it works | Mechanism and handling.
+## Mechanism
+IL-4 and IL-13 share the IL-4 receptor alpha chain. Blocking it reduces IgE production, eosinophil trafficking through eotaxins and VCAM-1, mucus hypersecretion and tissue remodelling. Blood eosinophils may rise transiently because their tissue recruitment is blocked.
+
+# Using it in ENT | Selecting and monitoring patients.
+## Who gets it
+Patients with severe, type 2 polyposis who still have uncontrolled disease after appropriate surgery and continued nasal steroids and saline, especially with asthma or aspirin-exacerbated respiratory disease. National reimbursement criteria vary: in some health systems access is limited.
+## Monitoring
+Nasal endoscopy with polyp score, SNOT-22, smell testing and steroid use at baseline, 16 weeks and annually. Stop if there is no meaningful response.
+
+# Safety | What goes wrong.
+## Adverse effects
+- **Conjunctivitis** and keratitis (more in atopic dermatitis).
+- Injection-site reactions, arthralgia, transient eosinophilia.
+- Rarely **eosinophilic granulomatosis with polyangiitis** becomes apparent when oral steroids are reduced; check for vasculitic symptoms.
+## Interactions and vaccines
+Avoid live vaccines during treatment; treat helminth infection before starting.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- The **type 2** pathway and the target.
+- EPOS criteria for biologics in polyposis.
+- How you assess response.
+!!
+## Common pitfalls
+!pit
+- Starting a biologic without optimising nasal steroids and considering surgery.
+- Missing EGPA when steroids are withdrawn.
+!!

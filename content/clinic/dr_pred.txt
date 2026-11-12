@@ -1,0 +1,54 @@
+@stand Prednisolone is the oral corticosteroid ENT surgeons prescribe for sudden sensorineural hearing loss, Bell's palsy, nasal polyps, autoimmune inner ear disease, laryngeal and pharyngeal oedema, vasculitis and many other inflammatory conditions. Short courses are generally safe, but steroids raise blood glucose, disturb mood and sleep, mask infection and, rarely, cause avascular necrosis even after a short course. Each prescription is a balance, and each patient should know the risks.
+
+# At a glance | The drug on one page.
+## Summary
+!table Prednisolone
+ | Summary
+Class | Glucocorticoid
+How it works | Binds the intracellular glucocorticoid receptor, switching off inflammatory genes (NF-kappaB, AP-1) and switching on anti-inflammatory ones; reduces cytokines, oedema and immune cell activation
+ENT uses | Sudden sensorineural hearing loss; Bell's palsy and Ramsay Hunt syndrome; nasal polyps; allergic fungal sinusitis after surgery; autoimmune inner ear disease; laryngeal oedema, severe pharyngitis and post-operative swelling; acute vestibular neuritis (debated); granulomatosis with polyangiitis and other vasculitides; IgG4-related disease; sarcoidosis
+Doses | Sudden hearing loss: 1 mg/kg daily (maximum 60 mg) for 7 to 14 days, often with a taper; Bell's palsy: 50 mg daily for 10 days or 60 mg daily for 5 days then a taper (within 72 hours of onset); polyps: commonly 25 to 50 mg daily for 7 to 14 days, no more than one or two courses a year where possible
+Child dose | 1 to 2 mg/kg daily (maximum usually 40 to 60 mg) for the condition
+Equivalent doses | Prednisolone 5 mg = hydrocortisone 20 mg = methylprednisolone 4 mg = dexamethasone 0.75 mg
+Pregnancy | Acceptable when needed (largely inactivated by the placenta)
+!!
+
+# How it works | Mechanism and handling.
+## Mechanism
+Glucocorticoids act through gene transcription, so their full effect takes hours, although some membrane effects are faster. In the inner ear they may act on ion and water transport as well as on inflammation.
+## Handling
+Well absorbed orally; take in the morning with food to mimic the circadian peak and reduce insomnia and dyspepsia. Courses of more than 3 weeks, or repeated courses, suppress the hypothalamic-pituitary-adrenal axis and must be tapered.
+
+# Using it in ENT | Indications and doses.
+## Sudden sensorineural hearing loss
+Exclude a conductive cause with tuning forks and audiometry; give high-dose oral steroids as soon as possible, ideally within 2 weeks (benefit falls after that); arrange an MRI to exclude a vestibular schwannoma; offer intratympanic steroid as primary treatment when oral steroids are unsafe, or as salvage. The evidence for benefit is modest, so discuss it with the patient.
+## Bell's palsy
+Steroids started within 72 hours increase complete recovery; antivirals add little except perhaps in severe palsy. Protect the eye.
+## Nasal polyps
+A short course shrinks polyps and restores smell temporarily; use it for exacerbations and before surgery, while long-term control relies on topical steroid, saline, surgery and, for selected patients, biologics. Repeated courses accumulate harm: more than about 500 to 1,000 mg in a lifetime is associated with osteoporosis, cataract, diabetes and other effects.
+
+# Safety | What goes wrong.
+## Adverse effects
+- Short courses: hyperglycaemia, insomnia, mood change (euphoria, anxiety, depression, psychosis), dyspepsia, raised blood pressure, fluid retention, increased appetite.
+- **Avascular necrosis** of the femoral head, rare but reported even after short courses: warn about hip or groin pain.
+- Infection risk and masking of infection; reactivation of tuberculosis, varicella risk in non-immune patients.
+- Longer use: osteoporosis, Cushingoid features, myopathy, cataract and glaucoma, skin thinning, growth suppression in children, adrenal suppression.
+## Contraindications and cautions
+Systemic infection without cover; live vaccines during high doses. Take care with diabetes (monitor glucose), peptic ulcer disease (gastroprotection), psychiatric history, glaucoma, osteoporosis, hypertension and heart failure.
+## Interactions
+NSAIDs (peptic ulcer), anticoagulants (INR change), fluoroquinolones (tendon rupture), hypoglycaemics and insulin (higher doses needed), enzyme inducers such as rifampicin and phenytoin (lower steroid levels), and diuretics (hypokalaemia).
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Regimens for **sudden hearing loss** and **Bell's palsy**, and the time windows.
+- Steroid **equivalent doses**.
+- What you warn the patient about, including avascular necrosis and diabetes.
+- When to taper (over 3 weeks of treatment or repeated courses).
+!!
+## Common pitfalls
+!pit
+- Starting steroids in a diabetic patient without a plan for glucose.
+- Repeated courses for polyps without counting the cumulative dose.
+- Stopping a long course abruptly.
+!!

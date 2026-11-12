@@ -1,0 +1,37 @@
+@stand Omalizumab is a monoclonal antibody that binds free IgE and stops it attaching to mast cells and basophils. It is used in severe allergic asthma, chronic spontaneous urticaria and severe chronic rhinosinusitis with nasal polyps, where it reduces polyp size and improves symptoms and smell, though less dramatically than dupilumab in trials.
+
+# At a glance | The drug on one page.
+## Summary
+!table Omalizumab
+ | Summary
+Class | Anti-IgE monoclonal antibody
+How it works | Binds the Fc region of free IgE, reduces circulating IgE and downregulates high-affinity IgE receptors on mast cells and basophils
+ENT uses | Severe chronic rhinosinusitis with nasal polyps; severe allergic asthma; chronic spontaneous urticaria
+Dose | Subcutaneously every 2 or 4 weeks; for asthma and polyps the dose (75 to 600 mg) is set from a table by baseline total IgE and body weight; urticaria 300 mg every 4 weeks
+Pregnancy | Use if clearly needed
+!!
+
+# How it works | Mechanism and handling.
+## Mechanism
+By removing free IgE it blunts both allergen-triggered and non-specific type 2 activation. Total IgE measured during treatment rises (complexes) and cannot be used to adjust the dose.
+
+# Using it in ENT | Indications.
+## Polyposis
+Eligible patients are as for other biologics (EPOS criteria): severe, type 2 polyposis not controlled by surgery and medical therapy. Response is assessed at 16 to 24 weeks.
+
+# Safety | What goes wrong.
+## Adverse effects
+- **Anaphylaxis** in about 0.1% to 0.2%, sometimes delayed or after several doses: give the first doses where anaphylaxis can be treated, observe after injection, and consider an adrenaline auto-injector.
+- Injection-site reactions, headache, arthralgia.
+- Possible helminth infection risk; caution in parasitic areas.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- Mechanism (free IgE) and dosing by IgE and weight.
+- Anaphylaxis risk and precautions.
+!!
+## Common pitfalls
+!pit
+- Using total IgE during treatment to judge response.
+!!

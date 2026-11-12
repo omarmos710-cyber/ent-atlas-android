@@ -1,0 +1,42 @@
+@stand Montelukast blocks the cysteinyl leukotriene receptor. It is a modest treatment for allergic rhinitis, best suited to patients who also have asthma, and it has a role in aspirin-exacerbated respiratory disease and, as an alternative to surgery, in children with mild obstructive sleep-disordered breathing. It is a once-daily tablet with an important warning: neuropsychiatric reactions, including in children.
+
+# At a glance | The drug on one page.
+## Summary
+!table Montelukast
+ | Summary
+Class | Leukotriene receptor antagonist
+How it works | Blocks the CysLT1 receptor, reducing bronchoconstriction, mucosal oedema, mucus and eosinophil recruitment
+ENT uses | Allergic rhinitis with asthma; aspirin-exacerbated respiratory disease (Samter's triad) with nasal polyps; mild paediatric obstructive sleep apnoea (with nasal steroids) as an alternative or bridge to adenotonsillectomy
+Adult dose | 10 mg once daily in the evening
+Child dose | 6 months to 5 years 4 mg; 6 to 14 years 5 mg; 15 years and over 10 mg; once daily in the evening
+Pregnancy | Use if needed
+!!
+
+# How it works | Mechanism and handling.
+## Mechanism
+Cysteinyl leukotrienes (LTC4, LTD4, LTE4) are released by mast cells and eosinophils. In **aspirin-exacerbated respiratory disease**, inhibition of cyclo-oxygenase shunts arachidonic acid into the lipoxygenase pathway and floods the airways with leukotrienes, which is why leukotriene modifiers help these patients.
+
+# Using it in ENT | Indications.
+## Allergic rhinitis
+Less effective than nasal steroids and similar to oral antihistamines; most useful when asthma coexists.
+## Aspirin-exacerbated respiratory disease
+Asthma, nasal polyps and respiratory reactions to aspirin and NSAIDs: montelukast helps nasal and asthma symptoms alongside nasal steroids, surgery and, in selected patients, aspirin desensitisation or biologics.
+## Childhood sleep-disordered breathing
+Montelukast with a nasal steroid for 12 weeks reduces the apnoea-hypopnoea index in children with mild sleep apnoea and adenotonsillar hypertrophy; it is an option when surgery is not wanted or not yet possible.
+
+# Safety | What goes wrong.
+## Adverse effects
+- **Neuropsychiatric reactions**: sleep disturbance, nightmares, agitation, depression and, rarely, suicidal thoughts. Regulators (MHRA, FDA) require warnings; tell families and stop the drug if they occur.
+- Headache, abdominal pain; rarely eosinophilic granulomatosis with polyangiitis is unmasked as steroids are reduced.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- The leukotriene shunt in **aspirin-exacerbated respiratory disease**.
+- Its limited role compared with nasal steroids.
+- The **neuropsychiatric** warning.
+!!
+## Common pitfalls
+!pit
+- Starting montelukast in a child without warning the family about mood and sleep effects.
+!!
