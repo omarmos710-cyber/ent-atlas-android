@@ -1,0 +1,106 @@
+@stand Clear fluid dripping from one nostril when the head bends forward is CSF until proved otherwise, and a CSF leak is an open door to meningitis. Endoscopic repair has become the standard, closing about nine in ten leaks at the first attempt. The work is mostly done before the operation: prove the fluid is CSF, find the hole on imaging, recognise the obese patient with raised intracranial pressure whose leak will recur unless the pressure is treated, and plan a multilayer repair whose size matches the defect.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Endoscopic repair of a CSF leak
+ | Summary
+Causes | Trauma (most heal within 7 to 10 days); surgery (sinus or skull base); spontaneous (often obese women with idiopathic intracranial hypertension, lateral sphenoid recess and cribriform plate); tumours; congenital encephaloceles
+Indications | A confirmed leak that persists beyond about a week after trauma, any surgical leak recognised later, spontaneous leaks, encephaloceles, recurrent meningitis or pneumocephalus
+Confirm | Beta-2 transferrin (or beta-trace protein) on the fluid; glucose tests are unreliable
+Localise | Fine-cut CT in coronal and sagittal planes; CT cisternography (with a saline challenge) for intermittent leaks; MRI for meningocele or encephalocele; intrathecal fluorescein at surgery (with consent, low dose)
+Anaesthesia | General
+Tray | Endoscopes, navigation, sinus set, drills, graft materials (fascia lata, temporalis fascia, fat, cartilage, bone), nasoseptal or turbinate flap instruments, fibrin glue, Gelfoam, packing or a balloon
+!!
+## Consent
+!consent What to tell the patient
+- Success at the first attempt is about **90%**; a second repair succeeds in most of the rest.
+- **Meningitis,** recurrence of the leak, **headache,** and pneumocephalus.
+- Rare but serious: **bleeding** (including the carotid in sphenoid repairs), **vision loss or double vision**, brain injury.
+- **Smell** may be reduced; graft donor site from the thigh or abdomen.
+- Spontaneous leaks may need treatment of **raised pressure** (weight loss, acetazolamide, sometimes a shunt).
+!!
+## Before you start
+Confirm the fluid biochemically and localise the defect. Look for a large empty sella, arachnoid pits and multiple defects, which suggest raised intracranial pressure. Vaccinate against pneumococcus. Discuss with neurosurgery for large defects, encephaloceles with brain tissue, or frontal sinus posterior wall leaks that the endoscope cannot reach.
+!mf 1 | CT cisternogram: a post-traumatic leak through the right cribriform plate.
+!mf 3 | MRI: a large meningoencephalocele of the anterior cranial base.
+
+# The operation, stage by stage | Expose, prepare, layer, support.
+## Find the leak
+Decongest. If consented, give low-dose intrathecal fluorescein through a lumbar drain beforehand and look for green fluid with a blue-light filter. Open the sinuses needed to reach the site with navigation: ethmoidectomy for the fovea and cribriform plate, a wide sphenoidotomy (or a transpterygoid approach for a lateral recess defect), a frontal approach for the recess.
+!mf 4 | CT showing the limits of the sphenoid sinus and a lateral recess defect.
+!see What you should see
+- The defect with CSF or fluorescein flowing through it, and its full margins.
+!!
+## Prepare the bed
+Strip the mucosa for several millimetres around the defect so grafts stick to bone, not to mucosa. Reduce any encephalocele with bipolar cautery flush with the skull base (herniated brain is non-functional).
+!see What you should see
+- Bare bone all round the defect, with the dural edge visible.
+!!
+!danger Encephalocele vessels
+Coagulate the encephalocele stalk with bipolar before cutting; a torn vessel retracts intracranially and bleeds where you cannot reach it. Check the CT and MRI for vessels and the carotid before working in the sphenoid.
+!!
+## Inlay
+Undermine the dural edge and tuck a fascia graft (or a fat "bath plug" for small holes) between dura and bone, larger than the defect. Never place mucosa as an inlay.
+!see What you should see
+- A graft sitting snugly under the bony edges, with CSF flow stopped.
+!!
+## Onlay and flap
+Place a second graft or, for larger defects, a vascularised flap over the defect and the bare bone: a middle turbinate mucoperiosteal flap for small cribriform or fovea defects, or a nasoseptal flap pedicled on the posterior septal artery for large ones. In the sphenoid, a fat obliteration of the sinus is an alternative.
+!see What you should see
+- The defect covered in two or more layers, the flap lying flat on bone with its pedicle untwisted.
+!!
+!senior Senior's pearl
+Size decides the repair: small, low-flow defects close with free grafts; large or high-flow defects (skull base surgery, intracranial pressure) need a vascularised flap. Plan the nasoseptal flap at the start, before the septum or sphenopalatine area is damaged.
+!!
+## Support
+Lay Gelfoam over the repair so packing does not stick, then fibrin glue, then dissolvable packing or a Foley balloon or sponge packing, removed after 3 to 7 days.
+!see What you should see
+- A dry field with the repair held in place.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Sudden vision loss or a tight, proptosed eye
+Act | remove packing ; lateral canthotomy and cantholysis at the bedside
+Then | return to theatre for medial orbital decompression ; usually anterior ethmoidal artery bleeding
+!!
+!path Carotid injury in the sphenoid
+Act | pack with pressure ; crushed muscle patch ; control blood pressure
+Then | urgent angiography for pseudoaneurysm ; interventional radiology
+!!
+!path Leak recurs
+Check | raised pressure ; missed second defect ; graft displacement
+Act | measure pressure ; treat it ; re-image and revise
+!!
+
+# Aftercare | Low pressure, no straining.
+## After surgery
+Bed rest with the head up for a day or two, stool softeners, no nose blowing, no straining or heavy lifting for 6 weeks, sneeze with the mouth open. Lumbar drains are used selectively, not routinely. Measure intracranial pressure in spontaneous leaks and treat it with weight loss, acetazolamide or, if needed, a shunt.
+## Complications
+Recurrent leak, meningitis, pneumocephalus, headache, sinusitis, orbital injury, epistaxis, anosmia, carotid injury.
+!update Current evidence
+A systematic review of 55 studies (1,778 repairs) found endoscopic repair successful in 90% at the first attempt and 97% after a second, with very few complications; evidence for routine lumbar drains and antibiotics was limited (Psaltis et al., *Otolaryngol Head Neck Surg* 2012). Comparing 1,178 patients, open and endoscopic repairs had similar success (about 90%), but endoscopic repair had less meningitis (1.1% against 3.9%) and fewer wound infections (Komotar et al., *J Neurol Surg A* 2013). After extended endonasal skull base surgery, CSF leak rates have fallen markedly over two decades with multilayer and vascularised flap repair (Zamanipoor Najafabadi et al., *Acta Neurochir* 2021).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Myers: localise with high-resolution CT (and cisternography with a saline challenge), repair with inlay and onlay grafts or turbinate and nasoseptal flaps, obliterate the sphenoid with fat when needed.
+Dhingra: the causes and diagnosis of CSF rhinorrhoea, including the "reservoir sign" and the glucose test (now superseded by beta-2 transferrin).
+The literature: endoscopic repair is the standard, with about 90% primary success and fewer complications than open repair.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Confirming** CSF: beta-2 transferrin.
+- **Localising** the leak: CT, cisternography, MRI, fluorescein.
+- **Spontaneous leaks** and raised intracranial pressure.
+- The **multilayer repair** and the nasoseptal flap.
+- **Post-operative** care and the place of lumbar drains.
+!!
+## Common pitfalls
+!pit
+- Relying on a glucose test.
+- Placing mucosa as an inlay graft.
+- Missing raised intracranial pressure in a spontaneous leak.
+- Cutting an encephalocele without coagulation.
+!!
