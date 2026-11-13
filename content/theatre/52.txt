@@ -1,0 +1,97 @@
+@stand Awake examination cannot show how the airway collapses during sleep. Drug-induced sleep endoscopy (DISE) sedates the patient to a sleep-like state and watches the airway with a flexible scope as snoring and obstruction begin. It shows where the airway closes (palate, oropharyngeal walls, tongue base, epiglottis) and in which pattern, which decides who will benefit from palatal surgery, tongue base surgery, hypoglossal nerve stimulation or a mandibular advancement device. It is a planning test, not a treatment.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Drug-induced sleep endoscopy
+ | Summary
+Indications | Obstructive sleep apnoea or snoring in patients considering surgery or alternatives after failing or refusing CPAP; planning multilevel surgery; selection for hypoglossal nerve stimulation; assessing failed surgery; selected children with persistent apnoea after adenotonsillectomy
+Contraindications | Severe cardiorespiratory disease or very high anaesthetic risk; pregnancy; allergy to the sedative
+Prerequisites | Sleep study, history, examination including awake nasendoscopy, body mass index, and the patient's goals
+Sedation | Propofol (target-controlled infusion preferred) or midazolam, with or without dexmedetomidine, titrated to loss of response to voice with snoring; BIS monitoring optional
+Setting | Theatre or procedure room with anaesthetic support, full monitoring and airway equipment
+Reporting | VOTE classification: Velum, Oropharynx (lateral walls and tonsils), Tongue base, Epiglottis; degree (none, partial, complete) and direction (anteroposterior, lateral, concentric)
+Tray | Flexible nasolaryngoscope with recording, lidocaine gel, decongestant, demisting solution, jaw-thrust and mandibular advancement simulation, oxygen
+!!
+## Consent
+!consent What to tell the patient
+- It is a **diagnostic test** to plan treatment.
+- **Nose bleed** or discomfort from the scope.
+- **Oversedation** with low oxygen or a pause in breathing, managed by the anaesthetist.
+- **Aspiration** (rare).
+!!
+## Before you start
+Confirm a recent sleep study and awake examination. Decide what each finding would change: no test is needed if no surgery or device is being considered.
+
+# The operation, stage by stage | Sedate, watch, report.
+## Prepare the nose
+Place a cotton applicator with 2% lidocaine gel along the floor of one nostril and another between the inferior and middle turbinates, with the patient upright; avoid anaesthetising the pharynx or the other side, which can worsen collapse artificially.
+!mf 1 2 | Topical preparation and the scope with lubricant and demister.
+!see What you should see
+- A comfortable nostril without numbing of the throat.
+!!
+## Position and set up
+Lie the patient supine on one pillow (as in bed), dim the lights, start monitoring, and record the patient's identity on the video.
+!mf 3 | Room set-up with the surgeon, scope screen and anaesthetist.
+!see What you should see
+- A quiet room and a screen showing the scope view for both surgeon and anaesthetist.
+!!
+## Scope first, then sedate
+Pass the scope to the level of the soft palate before giving the sedative, so you see the airway change as sedation deepens. Titrate propofol until the patient stops responding to voice and begins to snore or obstruct.
+!see What you should see
+- Snoring and cycles of obstruction and arousal, as in natural sleep.
+!!
+!danger Too deep is not sleep
+Deep sedation causes collapse that does not happen in natural sleep and suggests surgery that will not work. Titrate slowly to the onset of snoring and obstruction, and use target-controlled infusion if possible.
+!!
+## Examine each level
+Watch through several cycles at the velum, the oropharynx (lateral walls and tonsils), the tongue base and the epiglottis. Record each site's degree and pattern of collapse, especially complete concentric collapse at the velum, which predicts poor response to hypoglossal nerve stimulation.
+!see What you should see
+- A clear record of which level closes first, how completely and in which direction.
+!!
+## Test manoeuvres
+Assess the effect of jaw thrust (simulating a mandibular advancement device) and, if relevant, mouth closure, head rotation or the lateral position, which can relieve positional obstruction.
+!mf 4 | Assessing the right lateral position.
+!mf 5 | A CPAP mask adapter allowing the scope to watch the airway on positive pressure.
+!see What you should see
+- Whether jaw thrust or lateral position opens the airway.
+!!
+!senior Senior's pearl
+Report with the VOTE system and record the video. The findings only matter if they change the plan: palate surgery for velum collapse, tongue base surgery or devices for tongue base collapse, and no stimulator for complete concentric palatal collapse.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Desaturation or apnoea under sedation
+Act | stop the infusion ; jaw thrust ; oxygen ; bag-mask ventilation if needed
+!!
+
+# Aftercare | Home the same day.
+## After the test
+Recover until fully awake; discuss findings and the treatment plan once the patient is alert, with the video.
+## Complications
+Epistaxis, oversedation, desaturation, aspiration, laryngospasm (rare).
+!update Current evidence
+The European position paper on DISE, updated in 2017, standardised the indications (selection for surgery or devices, failed treatment), the sedative technique (propofol, ideally target-controlled infusion, or midazolam), the depth of sedation and a common reporting language based on the level, degree and pattern of collapse (De Vito et al., *Sleep Breath* 2014; De Vito et al., *Clin Otolaryngol* 2018).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Myers: a practical DISE technique with careful nasal preparation, scope placement before sedation, and testing of jaw thrust and position.
+K. J. Lee: DISE within the evaluation of obstructive sleep apnoea and the multilevel surgical plan.
+The European position paper: standard indications, sedation and the VOTE reporting system.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Why** DISE adds to awake examination.
+- **Sedation** and the danger of going too deep.
+- **VOTE** classification.
+- **How findings change treatment**, including hypoglossal nerve stimulation.
+!!
+## Common pitfalls
+!pit
+- Over-sedating.
+- Anaesthetising the pharynx.
+- Not recording the examination.
+- Performing DISE when no treatment decision depends on it.
+!!
