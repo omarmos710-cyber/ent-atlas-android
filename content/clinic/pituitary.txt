@@ -1,0 +1,144 @@
+@stand The pituitary sits in the sella turcica on the roof of the sphenoid sinus, which is why the ENT surgeon now opens the door for most pituitary surgery. The disease is endocrine and neurosurgical, the access is rhinological. Know what the common sellar lesions are, which are treated with tablets and which with surgery, the anatomy that keeps the carotid arteries and optic nerves safe, and the sodium and water problems that follow the operation.
+
+# Anatomy | The sella and its neighbours.
+## The sella
+The pituitary lies in the *sella turcica*, a saddle in the body of the sphenoid, roofed by the *diaphragma sellae* through which the stalk passes up to the hypothalamus. The optic chiasm lies just above, so an expanding tumour presses on the crossing nasal fibres and causes a *bitemporal hemianopia*.
+## The cavernous sinuses
+On each side lies a cavernous sinus containing the internal carotid artery. Cranial nerves III, IV, V1 and V2 run in its lateral wall and VI runs free inside the sinus beside the carotid, which is why the abducens nerve is often the first to fail when a tumour spreads laterally.
+## The sphenoid sinus
+The sinus is the corridor. Its pneumatisation decides how easy access is: *sellar* (most adults, the sinus extends below the sella), *presellar* (stops in front of it) or *conchal* (little air, mostly in children), in which the bone has to be drilled. In the lateral wall lie the bulges of the carotid artery and optic nerve, with the *opticocarotid recess* between them. The *intersinus septum* is often off the midline and may insert on the carotid prominence, so it is never twisted or fractured off blindly. A posterior ethmoid (*Onodi*) cell can run above the sphenoid and carry the optic nerve in its wall.
+!pearl Read the CT before the operation
+Look at the pneumatisation, where the intersinus septa insert, whether the carotid or optic canals are dehiscent, and whether there is an Onodi cell. These four answers decide where it is safe to open bone.
+!!
+## Physiology
+The anterior pituitary secretes growth hormone, prolactin, ACTH, TSH, LH and FSH; the posterior pituitary stores ADH and oxytocin made in the hypothalamus. Prolactin is the only hormone under *tonic inhibition* by hypothalamic dopamine, so anything that compresses the stalk raises prolactin modestly (the *stalk effect*, usually under about 200 ng/ml), while the other hormones fall.
+
+# Pituitary adenoma | The commonest sellar tumour.
+## Epidemiology
+About 90% of sellar tumours and 10 to 15% of intracranial tumours. Benign (WHO grade 1). *Microadenomas* are under 10 mm and *macroadenomas* 10 mm or more; giant adenomas exceed 4 cm.
+## Functioning and non-functioning
+Most adenomas secrete a hormone. Prolactinomas are the commonest functioning type, followed by growth hormone and ACTH secreting adenomas; TSH secreting adenomas are rare. Non-functioning adenomas present late, as macroadenomas, through mass effect, and may raise prolactin slightly by the stalk effect. Adenomas can be part of *multiple endocrine neoplasia type 1* with parathyroid and pancreatic islet tumours.
+## Presentation
+!table How adenomas present
+Cause | Features
+Mass effect | Bitemporal hemianopia, headache, hypopituitarism (tiredness, low libido, amenorrhoea, hypothyroidism), cranial nerve palsies from cavernous sinus spread
+Prolactinoma | Amenorrhoea, galactorrhoea, loss of libido, infertility, later osteoporosis; women notice it earlier
+Growth hormone (acromegaly) | Enlarging hands, feet and jaw, coarse features, macroglossia, sweating, arthropathy, obstructive sleep apnoea, hypertension and diabetes
+ACTH (Cushing disease) | Weight gain, striae, bruising, hirsutism, hypertension, diabetes, poor wound healing
+TSH | Hyperthyroidism with a goitre and an unsuppressed TSH
+!!
+!pearl Acromegaly in the ENT clinic
+Acromegaly can present to ENT with snoring and sleep apnoea, a deepening voice, a large tongue or nasal obstruction from mucosal and turbinate hypertrophy. It also means a difficult airway at intubation.
+!!
+## Pituitary apoplexy
+Sudden haemorrhage or infarction of an adenoma: a thunderclap headache, vomiting, visual loss, ophthalmoplegia, drowsiness and acute hypopituitarism, which can look like a subarachnoid haemorrhage.
+!ward Suspected pituitary apoplexy
+1. Resuscitate and give intravenous hydrocortisone at once; an adrenal crisis kills.
+2. Check sodium, glucose, cortisol and the other pituitary hormones.
+3. Urgent MRI, or CT if MRI is not available.
+4. Formal visual acuity and fields, and eye movements.
+5. Neurosurgical and endocrine review; urgent decompression for falling vision or conscious level.
+!!
+
+# Other sellar lesions | Not every sellar mass is an adenoma.
+## Rathke cleft cyst
+A benign epithelium-lined cyst from the remnant of Rathke's pouch, found in about 15% of people at post mortem but symptomatic in only about 2%. Centrally placed, non-enhancing, with signal that varies with its contents. Most are watched with yearly MRI; surgery is for visual loss or endocrine failure.
+## Craniopharyngioma
+A tumour of the squamous remnant of Rathke's pouch along the stalk, with two age peaks (childhood and middle age). The *adamantinomatous* type of children is cystic, calcified (about 90%) and wraps around vessels and nerves; the *papillary* type of adults is solid. It presents with visual loss, hypopituitarism, growth failure and diabetes insipidus. Complete removal is often impossible, so radiotherapy is added. Afterwards diabetes insipidus is common and usually permanent, most patients need hydrocortisone and thyroxine, and hypothalamic damage can cause uncontrollable appetite.
+## Meningioma
+Arising from the tuberculum sellae, planum or diaphragma, it enhances uniformly and often shows a *dural tail*. It causes visual loss with relatively preserved pituitary function. Surgery is for a deficit or growth that threatens one.
+## Empty sella
+The sella is filled with CSF and the gland is flattened. *Primary* empty sella comes from a defect in the diaphragma, often with raised intracranial pressure, and is linked to spontaneous CSF leaks. *Secondary* empty sella follows surgery, radiotherapy or apoplexy.
+## Others
+Chordoma of the clivus, chondrosarcoma, metastases, lymphocytic hypophysitis, and an internal carotid aneurysm, which must never be mistaken for a tumour.
+
+# Investigation | Hormones, fields and MRI.
+## Blood tests
+Prolactin, morning cortisol and ACTH, growth hormone and IGF-1, TSH and free T4, LH, FSH, testosterone or oestradiol, and sodium; paired plasma and urine osmolality if there is thirst or polyuria. Dynamic tests (suppression and stimulation tests) are arranged by the endocrinologist.
+## Vision
+Visual acuity, colour vision and formal perimetry. A field defect is the commonest reason for surgery in a non-functioning adenoma and the baseline for follow-up.
+## Imaging
+- **MRI with gadolinium** is the key test. A *microadenoma* is a small area that enhances less than the normal gland, often seen only after contrast. A *macroadenoma* is usually iso- to hypointense on T1 and may be *dumbbell-shaped* where the diaphragma pinches it. Blood within it is bright on T1.
+- **CT** shows the sphenoid anatomy, septa and bony dehiscence for planning and navigation, and calcification in a craniopharyngioma.
+- **CT or MR angiography** if a lesion might be an aneurysm or the carotids are close together ("kissing carotids").
+
+# Treatment | Tablets, observation or surgery.
+## Prolactinoma
+Treated first with a *dopamine agonist*, cabergoline or bromocriptine, which shrinks the tumour and restores fertility in most patients. Surgery is for intolerance, resistance, or visual loss that does not improve rapidly.
+## Non-functioning adenoma
+Small, asymptomatic tumours are watched with MRI and visual fields. Surgery is indicated for visual compromise, growth, or apoplexy.
+## Growth hormone, ACTH and TSH adenomas
+Surgery is the first treatment. Medical therapy and radiotherapy are used for residual or recurrent disease.
+## Radiotherapy
+Fractionated radiotherapy or stereotactic radiosurgery for residual or recurrent tumour; hypopituitarism develops over the following years.
+!table First treatment by lesion
+Lesion | First treatment
+Prolactinoma | Dopamine agonist
+Non-functioning microadenoma, no symptoms | Observation with MRI
+Non-functioning macroadenoma with visual loss | Surgery
+Acromegaly, Cushing disease, TSH adenoma | Surgery
+Rathke cleft cyst, no symptoms | Yearly MRI
+Craniopharyngioma | Surgery, often with radiotherapy
+Apoplexy | Hydrocortisone, then decompression if vision or consciousness is affected
+!!
+
+# The operation | The endoscopic endonasal route.
+## The team
+Pituitary surgery is a two-surgeon operation: the otolaryngologist provides and closes the access, the neurosurgeon removes the tumour, working through both nostrils with four hands. The endoscopic endonasal approach has largely replaced the older microscopic sublabial and transseptal routes.
+## Steps in outline
+1. Decongest; in most cases raise a *nasoseptal flap* on the posterior septal artery, or keep a "rescue" flap available.
+2. Lateralise the turbinates, remove the posterior part of the septum and open both sphenoid ostia widely.
+3. Take down the intersinus septa carefully, with drills rather than twisting.
+4. Identify the sella, carotid and optic prominences and the opticocarotid recesses.
+5. Open the sellar floor and dura, and remove the tumour.
+6. Reconstruct: free grafts for small defects, the nasoseptal flap for larger ones or a high-flow CSF leak.
+## Extended approaches
+The *transplanum* and *transtuberculum* approaches reach suprasellar extension and giant adenomas compressing the optic nerves; the transcavernous and transclival routes go further. These are tertiary skull base procedures.
+## Outcomes
+Compared with the microscopic approaches, the endoscopic approach gives more complete removal and fewer septal perforations, with similar rates of meningitis, diabetes insipidus and endocrine problems.
+!ops
+
+# After the operation | Water, salt and steroids.
+## Diabetes insipidus
+Damage to the stalk or posterior pituitary stops ADH release: large volumes of dilute urine, thirst and a rising sodium. Monitor fluid balance, urine output and specific gravity, and serum sodium (for example every 6 hours at first). Urine specific gravity below 1.003 with a sodium above 145 mmol/l suggests it; treat with desmopressin.
+## SIADH
+Some patients develop delayed hyponatraemia about a week after surgery from release of stored ADH, sometimes after an initial phase of diabetes insipidus. Check sodium after discharge as well.
+## Steroid cover
+Give perioperative hydrocortisone to patients who are, or may become, ACTH deficient, and test the axis before stopping it.
+## The nose
+Advise against nose blowing, straining and drinking through straws while the repair heals. Nasal douching and debridement reduce crusting and synechiae.
+## Complications
+!table Complications to know
+Complication | Notes
+CSF leak and meningitis | The commonest serious problem; reduced by multilayer and flap repair
+Carotid injury | Pack with pressure, then a crushed muscle patch, then urgent angiography for a pseudoaneurysm
+Visual loss | From haematoma or chiasmal injury; urgent imaging
+Tension pneumocephalus | Sudden confusion and falling consciousness; CT shows the "Mount Fuji" sign
+Hypopituitarism, diabetes insipidus, SIADH | Endocrine follow-up
+Epistaxis | Often from the sphenopalatine or posterior septal artery
+Nasal morbidity | Crusting, synechiae, septal perforation, reduced smell
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+K. J. Lee: gives the clearest account of the sellar lesions (adenoma, Rathke cleft cyst, craniopharyngioma, meningioma, empty sella), the endocrine work-up and postoperative sodium monitoring.
+Oxford Textbook: describes the extended endonasal approaches and reserves the transplanum route for giant adenomas compressing the optic nerves.
+Dhingra: lists pituitary surgery among the advanced nasal endoscopic procedures, without the endocrine detail.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Relations** of the sella: chiasm above, cavernous sinuses with the carotid and nerves III to VI at the sides.
+- **Prolactinoma is treated with tablets**; other functioning adenomas with surgery.
+- The **stalk effect** and why prolactin rises with a non-functioning adenoma.
+- **Pituitary apoplexy** and the first dose of hydrocortisone.
+- The **sphenoid on CT**: pneumatisation, septa on the carotid, Onodi cell.
+- **Diabetes insipidus and SIADH** after surgery.
+!!
+## Common pitfalls
+!pit
+- Operating on a prolactinoma that tablets would have shrunk.
+- Twisting off an intersinus septum that inserts on the carotid.
+- Mistaking a carotid aneurysm for a sellar tumour.
+- Forgetting steroid cover and sodium checks after discharge.
+!!
