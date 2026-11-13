@@ -21,39 +21,119 @@ Object.assign(ICON,{
 /* ---------- state ---------- */
 const HS=()=>{const h=ST.hub=ST.hub||{};h.tq=h.tq||{};h.v=h.v||{};h.e=h.e||{};h.k=h.k||{};h.set=h.set||{};return h};
 const CLR=()=>ST.clr=ST.clr||{};const CLO=()=>ST.clo=ST.clo||{};
-/* ======================= The map: the whole app as one finite route ======================= */
-const MAPCH=[
- ["Foundations","How to read a scan, before anything else",[],["im_ct","im_mri","im_test","im_desc"],[]],
- ["The ear","Anatomy, then the scans, then the diseases",["temporal","extear","midear","et","inner","facial"],["im_tb","im_iac"],["ear"]],
- ["Nose and sinuses","",["nose","sinus","orbit"],["im_sin","im_orb"],["nose"]],
- ["Mouth and throat","",["oral","salivary","pharynx"],["im_oral"],["mouth"]],
- ["The larynx","",["larynx"],["im_lx"],["larynx"]],
- ["The neck","",["neck","vessels","thyroid"],["im_spaces","im_nodes","im_glands"],["neck"]],
- ["Skull base, face and bones","",["itf","trigeminal","embryo","skullbones","mandible","neckbones"],["im_skb"],[]],
- ["Putting it together","From the complaint to the plan",[],["im_ca","im_post","im_trauma","im_paeds"],["appr"]]];
-const MIN={a:3,l:18,c:14};
-function mapStops(){const q=QT(),r=CLR(),ids=Object.keys(q);
- return MAPCH.map(([t,sub,regs,les,grps])=>{const st=[];
-  regs.forEach(id=>{const R=typeof RMAP!=="undefined"&&RMAP[id];if(!R)return;const n=R.sections.length,d=R.sections.filter(s=>ST.read[s.id]).length;
-    st.push({k:"Anatomy",t:R.name,go:"region:"+id,done:n&&d===n,part:n?d/n:0,min:Math.max(0,n-d)*MIN.a,tot:n*MIN.a})});
-  les.forEach(id=>{if(!q[id])return;st.push({k:"Imaging",t:q[id][1],go:"cl:t-"+id,done:!!r[id],part:r[id]?1:0,min:r[id]?0:MIN.l,tot:MIN.l})});
-  grps.forEach(g=>ids.filter(id=>q[id][0]===g).forEach(id=>st.push({k:g==="appr"?"Approach":"Clinical",t:q[id][1],go:"cl:t-"+id,done:!!r[id],part:r[id]?1:0,min:r[id]?0:MIN.c,tot:MIN.c})));
-  return {t,sub,st}})}
+/* ======================= The map: the JCST Otolaryngology curriculum (August 2021), syllabus in its own order =======================
+   Each syllabus topic lists the parts of the app that teach it: r: anatomy region, c: clinical article or lesson, o: operation chapter.
+   cc: the curriculum's critical conditions (appendix 3) the topic covers. */
+const OPN={1:"Office-based laryngeal procedures",2:"Phonomicrosurgery for benign vocal fold lesions",4:"Vocal fold injection via microlaryngoscopy",5:"Medialisation laryngoplasty and arytenoid adduction",12:"Horizontal partial laryngectomy",14:"Supracricoid partial laryngectomy",15:"Supraglottic transoral robotic surgery",16:"Total laryngectomy",18:"Bronchoscopy",19:"Open tracheostomy",23:"Tracheocutaneous fistula and depressed scar",28:"Partial glossectomy",29:"Total glossectomy",30:"Excision of floor of mouth cancer",36:"Transoral robotic surgery, base of tongue",40:"Pharyngectomy",45:"Oesophagoscopy and hypopharyngoscopy",53:"Uvulopalatopharyngoplasty",56:"Hypoglossal nerve stimulation",60:"Fine-needle aspiration of a head and neck mass",64:"Selective neck dissection",65:"Modified radical neck dissection",66:"Radical neck dissection",67:"Central compartment neck dissection",73:"Excision of carotid body tumour",76:"Deep neck abscess",78:"Open thyroidectomy",80:"Robotic-assisted thyroidectomy",84:"Parathyroidectomy",88:"Salivary endoscopy",91:"Excision of the submandibular gland",92:"Superficial parotidectomy",93:"Deep lobe parotidectomy",95:"Septoplasty",97:"Surgery of the turbinates",98:"Sphenopalatine artery ligation",103:"Antral lavage, middle meatal antrostomy and antrochoanal polyp",106:"Medial maxillectomy",107:"Complete maxillectomy",108:"Endoscopic ethmoidectomy",110:"Endoscopic sphenoidotomy",112:"Endoscopic frontal sinus surgery",117:"Endonasal approach to the sella",119:"Endoscopic transpterygoid approaches",121:"Approaches to the infratemporal fossa",122:"Juvenile angiofibroma",124:"Reconstruction after skull base surgery",125:"Office procedures in otology",126:"Foreign bodies of the ear canal",129:"Myringotomy, grommets and balloon dilation",131:"Myringoplasty and tympanoplasty",132:"Ossicular chain reconstruction",133:"Stapes surgery",134:"Mastoid surgery",137:"Cochlear implantation",138:"Facial nerve decompression",140:"Acoustic neuroma surgery",141:"Temporal bone resection",142:"Glomus tumours",146:"Surgery for vertigo",149:"Dacryocystorhinostomy",155:"Rhinoplasty and nasal valve surgery",162:"Microvascular reconstruction",165:"Paramedian forehead flap",170:"Pectoralis major flap",171:"Cervicofacial transposition flaps",182:"Segmental mandibulectomy",183:"Mandibular osteotomy approaches",191:"Adenoidectomy",192:"Tonsillectomy",195:"Laryngeal cleft repair and laryngotracheal separation",198:"Paediatric airway endoscopy and foreign bodies",200:"Thyroglossal duct cyst",204:"Congenital middle ear malformations",206:"Cleft palate and velopharyngeal dysfunction"};
+const CRIT=["Adult airway obstruction","Paediatric airway obstruction","Foreign body and chemical injury of the upper aerodigestive tract, including batteries","Acute infections of the upper aerodigestive tract, including tonsillitis and supraglottitis","Deep neck space abscess and necrotising fasciitis","Tonsillar and other major upper aerodigestive tract haemorrhage","Blunt and penetrating trauma to the neck","Epistaxis, including sphenopalatine artery ligation","Complications of acute and chronic sinusitis, including orbital cellulitis","Complications of ear sepsis, including acute mastoiditis and necrotising otitis externa","Acute balance disorder, including vestibulopathy; brainstem stroke and multiple sclerosis","Sudden onset sensorineural hearing loss"];
+const INDEX=[["Mastoid operations","10 as main surgeon",["o:134"]],["Major neck operations","10 as main surgeon",["o:64","o:65","o:66","o:78","o:92"]],["Tracheostomies","10 as main surgeon",["o:19"]],["Paediatric endoscopies, including flexible","10 as main surgeon",["o:198"]],["Septorhinoplasties","10 as main surgeon",["o:155","o:95"]],["Functional endoscopic sinus surgery","10 as only scrubbed surgeon",["o:108","o:110","o:112"]],["Removal of foreign bodies from the airway, including nasal foreign bodies and fish bones","10 as main surgeon",["o:198","c:nfb","c:fbfood"]]];
+const SYL=[
+ ["Paediatric otolaryngology",[
+  ["Foreign bodies in the ear canal and UADT",[3],"r:extear c:canal c:nfb c:fb c:fbfood o:126 o:198 o:45"],
+  ["Trauma to the ear, upper aerodigestive tract and neck",[7],"c:pinna c:septum c:tmperf c:facefx c:lxtrauma o:19"],
+  ["Epistaxis in a child",[8],"r:nose c:epistaxis c:juv o:98 o:122"],
+  ["Rhinosinusitis; orbital and intracranial complications",[9],"r:sinus r:orbit c:abs c:im_orb o:108"],
+  ["Airway pathology in childhood",[2,4],"r:larynx c:stridor c:croup c:lxcong c:anaes o:198 o:195 o:19"],
+  ["The drooling child",[],"r:salivary c:salivary c:paeds_vs o:91"],
+  ["Acute tonsillitis, diseases of the adenoids and their complications",[4,6],"r:pharynx c:pharanat c:ap_sore c:tonsil c:adenoid c:pharyngitis o:192 o:191"],
+  ["ENT-related syndromes and cleft palate",[],"c:syndr c:cleft o:206"],
+  ["Congenital and acquired neck masses",[5],"r:embryo r:neck c:im_paeds c:paeds_neck c:deepneck o:200 o:76"],
+  ["Language delay and dysphonia in childhood",[],"c:paeds_vs c:voice c:deaf"],
+  ["Head and neck malignancy in childhood",[],"c:im_paeds c:neckmass c:hncprinc c:thyroid"],
+  ["Congenital abnormalities of the ear",[],"r:extear c:atresia c:pinna c:rehab o:204"],
+  ["Congenital deafness",[],"r:inner c:audio c:deaf c:rehab o:129 o:137"],
+  ["The dizzy child",[11],"c:ap_dizzy c:vest c:vertigo c:om"],
+  ["Otitis media (acute, chronic and with effusion), its complications, and the external auditory canal",[10],"r:midear r:et c:ap_otorr c:om c:mastoiditis c:csom c:chole c:icc c:oe c:et o:129 o:131 o:134"],
+  ["Facial palsy in childhood",[],"r:facial c:facial c:mastoiditis o:134 o:138"],
+  ["Rhinitis",[],"c:ap_rhin c:rhinitis c:atrophic o:97"],
+  ["Nasal obstruction",[],"c:ap_block c:congnose c:crs o:108"],
+  ["Obstructive sleep apnoea",[2],"c:osa o:191 o:192"]]],
+ ["Head and neck",[
+  ["Adenoid and tonsillar pathology in adults",[4,6],"r:pharynx c:pharanat c:tonsil c:pharyngitis o:192"],
+  ["Airway obstruction in adults",[1],"r:larynx c:stridor c:anaes c:trach o:19 o:18"],
+  ["Craniocervical trauma in adults",[7],"r:vessels r:neckbones c:im_trauma c:lxtrauma c:facefx o:19"],
+  ["Disorders of swallowing",[3],"c:ap_dysph c:ap_globus c:pouch c:oesoph c:fbfood o:45"],
+  ["Cervical sepsis",[5],"r:neck c:im_spaces c:deepneck o:76"],
+  ["Congenital abnormalities of the head and neck in adults",[],"r:embryo c:paeds_neck c:cleft c:pouch o:200"],
+  ["Cervical lymphadenopathy in adults",[],"c:im_nodes c:neckmass c:hivent o:60 o:64 o:65 o:66"],
+  ["Head and neck malignancy of the upper aerodigestive tract, excluding the oral cavity",[1],"c:im_ca c:hncprinc c:npc c:tonsil_ca c:hypoca c:lxca c:hnrt c:im_post c:hnrecon o:45 o:16 o:12 o:14 o:15 o:36 o:40 o:162 o:170"],
+  ["Investigation and management of the neck lump",[],"c:im_test c:im_desc c:neckmass c:vascneck o:60 o:64 o:73"],
+  ["Neoplastic salivary gland disease",[],"r:salivary c:im_glands c:saltum o:92 o:93 o:91"],
+  ["Non-neoplastic salivary gland disease",[],"c:ap_saliv c:salivary o:88 o:91"],
+  ["Thyroid and parathyroid disease",[],"r:thyroid c:thyroid c:para o:78 o:80 o:67 o:84"],
+  ["Oral pathology",[],"r:oral r:mandible c:im_oral c:oralanat c:ap_ulcer c:oraldis c:oralbenign c:oral_ca c:jaw o:28 o:29 o:30 o:182 o:183"],
+  ["Sleep-related breathing disorders",[],"c:osa o:53 o:56 o:97 o:95"],
+  ["Laryngology and voice disorders",[],"c:lxanat c:im_lx c:ap_hoarse c:benign c:vfp c:laryngitis c:voice c:laser o:1 o:2 o:4 o:5"],
+  ["Tracheostomy care (adult)",[1],"c:trach o:19 o:23"]]],
+ ["Otology",[
+  ["Non-infective, acquired lesions of the pinna and external ear",[],"r:extear c:pinna c:extca c:ko c:canal o:125 o:126"],
+  ["Infective conditions of the pinna and external ear canal",[10],"c:oe c:perich c:myring"],
+  ["Trauma",[],"r:temporal c:im_tb c:tmperf c:tbfx o:131 o:138"],
+  ["Acute otitis media and sequelae",[10],"r:midear c:otalgia c:om c:mastoiditis c:icc c:petrous c:fistula o:129 o:134"],
+  ["Chronic suppurative otitis media and sequelae",[10],"c:ap_otorr c:csom c:chole c:tbom c:eponym c:earsurg o:131 o:132 o:134"],
+  ["Adult hearing loss",[12],"r:inner c:hl c:audio c:ap_full c:otosc c:sensori c:ssnhl c:rehab o:133 o:137"],
+  ["Tinnitus",[],"c:tinnitus"],
+  ["Facial palsy",[],"r:facial c:ap_face c:facial c:hnrecon o:138"],
+  ["Disorders of balance",[11],"c:ap_dizzy c:vest c:vertigo c:meniere c:scd c:fistula o:146"],
+  ["Lateral skull base tumours",[],"c:im_mri c:im_iac c:vs c:tumear c:vascneck o:140 o:141 o:142"]]],
+ ["Rhinology",[
+  ["Epistaxis",[8],"r:nose c:epistaxis c:hht o:98"],
+  ["Nasal trauma and deformity",[],"c:facefx c:septum c:extnose o:95 o:155"],
+  ["Acute and chronic rhinosinusitis",[9],"r:sinus c:im_ct c:im_sin c:abs c:crs c:afs c:sinussurg o:103 o:108 o:110 o:112"],
+  ["Nose and sinus inflammation, including allergy",[],"c:ap_pnd c:ap_crust c:rhinitis c:atrophic c:gpa o:97"],
+  ["Congenital abnormalities of the nose and sinuses",[],"c:congnose"],
+  ["Facial pain",[],"r:trigeminal c:ap_pain"],
+  ["Pituitary disease",[],"c:skullbase o:117"],
+  ["Disorders of olfaction",[],"c:ap_smell c:nphys"]]],
+ ["Advanced rhinology",[
+  ["Sinonasal neoplasms, including anterior skull base tumours",[],"c:sinus_ca c:juv o:106 o:107 o:122"],
+  ["CSF leaks and skull base defects",[],"r:skullbones c:im_skb c:csf o:124"],
+  ["Extended endonasal skull base procedures",[],"r:itf c:skullbase o:117 o:119 o:121"],
+  ["Orbital disorders",[9],"r:orbit c:im_orb c:orbit"],
+  ["Surgical management of epiphora",[],"c:ap_epiph o:149"]]],
+ ["Facial plastics",[
+  ["Septorhinoplasty",[],"c:extnose o:95 o:155"],
+  ["Congenital abnormalities of the face",[],"c:cleft c:syndr o:206"],
+  ["Cosmetic surgery",[],"c:facplast"],
+  ["Skin cancer",[],"c:skinca o:171 o:165"],
+  ["Reconstruction",[],"c:hnrecon o:165 o:171 o:170 o:162"]]]];
+const MIN={a:3,l:18,c:14,o:20};
+const THR=()=>ST.thr=ST.thr||{};
+function stopOf(code){const [k,id]=code.split(":"),q=QT(),r=CLR();
+ if(k==="r"){const R=typeof RMAP!=="undefined"&&RMAP[id];if(!R)return null;const n=R.sections.length,d=R.sections.filter(s=>ST.read[s.id]).length;
+   return {id:code,k:"Anatomy",t:R.name,go:"region:"+id,done:n&&d===n,part:n?d/n:0,min:Math.max(0,n-d)*MIN.a,tot:n*MIN.a}}
+ if(k==="c"){if(!q[id])return null;const im=q[id][0]==="imgl",ap=q[id][0]==="appr",m=im?MIN.l:MIN.c;
+   return {id:code,k:im?"Imaging":ap?"Approach":"Clinical",t:q[id][1],go:"cl:t-"+id,done:!!r[id],part:r[id]?1:0,min:r[id]?0:m,tot:m}}
+ if(k==="o"){if(!OPN[id])return null;const d=!!THR()[id];return {id:code,k:"Operation",t:OPN[id],go:"th:op-"+id,done:d,part:d?1:0,min:d?0:MIN.o,tot:MIN.o}}
+ return null}
+function mapStops(){const seen=new Set();
+ return SYL.map(([t,tops])=>{const tp=tops.map(([tt,cc,codes])=>{const st=codes.split(" ").map(stopOf).filter(Boolean);
+    const fresh=st.filter(s=>!seen.has(s.id));fresh.forEach(s=>seen.add(s.id));return {t:tt,cc,st,fresh}});
+  return {t,tp,st:tp.flatMap(x=>x.fresh),all:tp.flatMap(x=>x.st)}})}
 function mapSum(){const ch=mapStops(),all=ch.flatMap(c=>c.st),done=all.filter(s=>s.done).length,tot=all.reduce((a,s)=>a+s.tot,0),left=all.reduce((a,s)=>a+s.min,0);
- let next=null,ci=-1;ch.some((c,i)=>{const s=c.st.find(s=>!s.done);if(s){next=s;ci=i;return true}});
- return {ch,all,done,pct:tot?Math.round(100*(tot-left)/tot):0,left,next,ci}}
+ let next=null,ci=-1,ti=-1;ch.some((c,i)=>c.tp.some((x,j)=>{const s=x.st.find(s=>!s.done);if(s){next=s;ci=i;ti=j;return true}}));
+ return {ch,all,done,pct:tot?Math.round(100*(tot-left)/tot):0,left,next,ci,ti}}
 const hrs=m=>m<60?m+" min":Math.round(m/60)+" h";
-function vMap(){const M=mapSum();
- V().innerHTML=`<div class="mmap"><header class="mhead"><span class="eyebrow">The map</span><h1>Finish the atlas</h1><p class="msub">Every part, in a sensible order. ${M.all.length} stops, one at a time.</p></header>
- ${M.next?`<button class="mhero" data-go="${E(M.next.go)}"><span class="eyebrow">Next stop · ${E(M.ch[M.ci].t)}</span><strong>${E(M.next.t)}</strong><span class="mhs">${E(M.next.k)} · about ${hrs(M.next.min||M.next.tot)}</span>
+const stopBtn=(s,M)=>`<button class="mps${s.done?" done":""}${M.next&&s.id===M.next.id?" here":""}" data-go="${E(s.go)}"><i></i><span><b>${E(s.t)}</b><small>${E(s.k)}${s.done?"":s.part&&s.part<1?` · ${Math.round(100*s.part)}% read`:` · ${s.tot} min`}</small></span></button>`;
+function vMap(){const M=mapSum(),nt=M.ch.reduce((a,c)=>a+c.tp.length,0);
+ V().innerHTML=`<div class="mmap"><header class="mhead"><span class="eyebrow">The map</span><h1>The curriculum</h1><p class="msub">The ${nt} topics of the JCST Otolaryngology syllabus (2021), in its own order, each with the parts of the app that teach it. ${M.all.length} stops in all.</p></header>
+ ${M.next?`<button class="mhero" data-go="${E(M.next.go)}"><span class="eyebrow">Next stop · ${E(M.ch[M.ci].tp[M.ti].t)}</span><strong>${E(M.next.t)}</strong><span class="mhs">${E(M.next.k)} · about ${hrs(M.next.min||M.next.tot)}</span>
    <span class="mapmeter"><b>${M.pct}<i>%</i></b><small>${M.done} of ${M.all.length} stops · about ${hrs(M.left)} left</small></span><span class="mhbar"><i style="width:${M.pct}%"></i></span></button>`
-  :`<div class="mhero"><span class="eyebrow">Complete</span><strong>You have walked the whole map.</strong><span class="mhs">Keep it fresh with cards, questions and the surgical ladder.</span></div>`}
+  :`<div class="mhero"><span class="eyebrow">Complete</span><strong>You have covered the whole syllabus.</strong><span class="mhs">Keep it fresh with cards, questions and the surgical ladder.</span></div>`}
  <ol class="mroute">${M.ch.map((c,i)=>{const d=c.st.filter(s=>s.done).length,n=c.st.length,state=d===n?"done":i===M.ci?"now":i<M.ci?"part":"todo";
    const left=c.st.reduce((a,s)=>a+s.min,0);
-   return `<li class="mpst ${state}"><span class="mpdot">${state==="done"?ic("check",14):i}</span>${fold("map-"+i,E(c.t),d===n?"Complete":`${d}/${n} · ${hrs(left)}`,
-    `${c.sub?`<p class="mchsub">${E(c.sub)}</p>`:""}<div class="mline">${c.st.map(s=>`<button class="mps${s.done?" done":""}${s===M.next?" here":""}" data-go="${E(s.go)}"><i></i><span><b>${E(s.t)}</b><small>${E(s.k)}${s.done?"":s.part?` · ${Math.round(100*s.part)}% read`:` · ${s.tot} min`}</small></span></button>`).join("")}</div>`,{open:i===M.ci})}</li>`}).join("")}
-  <li class="mpst after"><span class="mpdot">${ic("ops",14)}</span><button class="mrow" data-go="th:home"><span class="mt">Then into theatre<small>The surgical ladder, case by case</small></span></button></li></ol>
- <p class="mono csrc">Times are rough estimates: about ${MIN.a} min per anatomy section, ${MIN.c} min per clinical article and ${MIN.l} min per imaging lesson.</p></div>`}
+   return `<li class="mpst ${state}"><span class="mpdot">${state==="done"?ic("check",14):i+1}</span>${fold("map2-"+i,E(c.t),d===n?"Complete":`${c.tp.length} topics · ${d}/${n} · ${hrs(left)}`,
+    c.tp.map((x,j)=>{const xd=x.st.filter(s=>s.done).length;return `<div class="mtop${xd===x.st.length?" done":""}"><div class="mtoph"><b>${E(x.t)}</b><small>${xd}/${x.st.length}${x.cc.length?` · <span class="mcrit" title="Critical condition">Critical</span>`:""}</small></div><div class="mline">${x.st.map(s=>stopBtn(s,M)).join("")}</div></div>`}).join(""),{open:i===M.ci})}</li>`}).join("")}
+  <li class="mpst ${CRIT.every((_,k)=>critDone(M,k+1))?"done":"todo"}"><span class="mpdot">!</span>${fold("map2-crit","Critical conditions",`${CRIT.filter((_,k)=>critDone(M,k+1)).length}/${CRIT.length} covered`,
+    `<p class="mchsub">The twelve conditions the curriculum requires you to manage safely by certification. Each is complete when every stop of its topics is done.</p><div class="mline">${CRIT.map((t,k)=>{const tps=M.ch.flatMap(c=>c.tp).filter(x=>x.cc.includes(k+1)),dn=critDone(M,k+1);
+      return `<div class="mcritrow${dn?" done":""}"><b>${k+1}. ${E(t)}</b><small>${tps.map(x=>E(x.t)).join(" · ")}</small></div>`}).join("")}</div>`)}</li>
+  <li class="mpst ${INDEX.every(x=>x[2].every(c=>(stopOf(c)||{}).done))?"done":"todo"}"><span class="mpdot">${ic("ops",14)}</span>${fold("map2-idx","Index procedures","Logbook targets",
+    `<p class="mchsub">The seven procedure groups with indicative logbook numbers for certification. Read the chapters, then log your cases in Surgical.</p>${INDEX.map(([t,n,codes])=>`<div class="mtop"><div class="mtoph"><b>${E(t)}</b><small>${E(n)}</small></div><div class="mline">${codes.map(stopOf).filter(Boolean).map(s=>stopBtn(s,M)).join("")}</div></div>`).join("")}`)}</li></ol>
+ <p class="mono csrc">Structure from the Joint Committee on Surgical Training, Otolaryngology Curriculum, August 2021 (syllabus, appendix 2; critical conditions, appendix 3; index procedures, appendix 4). A stop that serves several topics is counted once. Times are rough: about ${MIN.a} min per anatomy section, ${MIN.c} min per article, ${MIN.l} min per imaging lesson and ${MIN.o} min per operation chapter.</p></div>`}
+function critDone(M,k){const tps=M.ch.flatMap(c=>c.tp).filter(x=>x.cc.includes(k));return tps.length&&tps.every(x=>x.st.every(s=>s.done))}
+/* an operation chapter counts as read once you reach its end */
+window.addEventListener("scroll",()=>{if(typeof cur!=="string"||!/^th:op-\d+$/.test(cur))return;const n=cur.slice(6);if(THR()[n]||!OPN[n])return;
+ const de=document.documentElement;if(de.scrollHeight>1.5*innerHeight&&scrollY+innerHeight>=de.scrollHeight*0.9){THR()[n]=Date.now();save()}},{passive:true});
 (function(){try{TABOF.map="home"}catch(e){}})();
 const tname=tp=>(QB[tp]&&QB[tp].t)||(QT()[tp]||[])[1]||tp;
 const tgroup=tp=>(QB[tp]&&QB[tp].g)||(QT()[tp]||[])[0]||"";
@@ -128,7 +208,7 @@ function vToday(){
  <div class="xsq big">${ic("search",20)}<input type="search" id="hx" autocomplete="off" enterkeyhint="search" placeholder="Search everything" aria-label="Search everything"></div>
  <div id="hxres" aria-live="polite"></div>
  <div id="hxrest">
-  ${(()=>{const M=mapSum();return M.next?`<button class="mapstrip" data-go="map"><span class="msr"><svg viewBox="0 0 36 36"><circle cx="18" cy="18" r="15.5"/><circle cx="18" cy="18" r="15.5" style="stroke-dasharray:${(M.pct*97.4/100).toFixed(1)} 97.4"/></svg><b>${M.pct}</b></span><span class="mst2"><small>The map · ${M.done} of ${M.all.length} stops</small><b>Next: ${E(M.next.t)}</b></span>${ic("chev",16)}</button>`:""})()}
+  ${(()=>{const M=mapSum();return M.next?`<button class="mapstrip" data-go="map"><span class="msr"><svg viewBox="0 0 36 36"><circle cx="18" cy="18" r="15.5"/><circle cx="18" cy="18" r="15.5" style="stroke-dasharray:${(M.pct*97.4/100).toFixed(1)} 97.4"/></svg><b>${M.pct}</b></span><span class="mst2"><small>The curriculum · ${M.done} of ${M.all.length} stops</small><b>Next: ${E(M.next.t)}</b></span>${ic("chev",16)}</button>`:""})()}
   <section class="h-plan"><div class="h-planh"><span class="eyebrow">Today</span><small>${P.length} step${P.length>1?"s":""}</small></div>
    <ol>${P.map((p,i)=>`<li><button data-hplan="${E(p.a)}"><span class="h-pn">${i+1}</span><span class="h-pt"><b>${E(p.t)}</b><small>${E(p.s)}</small></span>${ic("chev",16)}</button></li>`).join("")}</ol></section>
   ${cont1?`<div class="mrows mcont">${cont1}</div>`:""}
