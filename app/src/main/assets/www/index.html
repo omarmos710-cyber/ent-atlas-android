@@ -1364,6 +1364,7 @@ body{margin-top:0;margin-bottom:0}
 .pdgrp summary::-webkit-details-marker{display:none}.pdgrp summary small{font:500 12.5px var(--f-body);color:var(--muted)}.pdgrp[open] summary{color:var(--accent)}
 .pdgrp .mlist{margin:0 0 10px}.pdsub{font:700 11px var(--f-body);letter-spacing:.13em;text-transform:uppercase;color:var(--muted);padding:16px 2px 6px;border-bottom:1px solid var(--line)}.pdrow{min-height:52px!important}.pdrow .pt strong{font:500 16px/1.3 var(--f-display)!important}
 .mabout{color:var(--muted);font-size:13.5px;line-height:1.55;margin:14px 2px 0}.mabout b{color:var(--ink);font:500 17px var(--f-display)}
+.acct{display:flex;flex-direction:column;gap:10px;margin-bottom:6px}.acin{width:100%;min-height:48px;padding:0 14px;border:1px solid var(--line);border-radius:13px;background:var(--surface);color:var(--ink);font:16px var(--f-body);box-sizing:border-box}.acrow{display:flex;align-items:center;gap:12px}.acrow .pt{display:flex;flex-direction:column}.acrow strong{font:500 18px var(--f-display)}.acrow small{color:var(--muted);font-size:13px}.acmsg{color:var(--arred,#9b2c2c);font-size:13.5px;margin:0}
 </style>
 
 <div id="boot" role="status" aria-label="Loading The ENT Companion"><div class="bwrap"><div class="spin"></div><span>The ENT Companion</span></div></div>
@@ -6156,7 +6157,7 @@ function save(){ST.t=Date.now();try{localStorage.setItem(KEY,JSON.stringify(ST))
 async function push(){if(!DBREF)return;if(pushing){pushAgain=true;return}pushing=true;
   try{await DBREF.set({json:JSON.stringify(ST),t:ST.t});syncState="synced"}catch(e){syncState="error"}
   pushing=false;updateSync();if(pushAgain){pushAgain=false;push()}}
-function updateSync(){const el=$("#sync");if(el)el.textContent=syncState==="synced"?"Progress saved to your account":syncState==="error"?"Couldn't reach your account. Progress is kept on this device and will sync when you reopen the app.":"Progress is saved on this device"}
+function updateSync(){const el=$("#sync");if(el)el.textContent=syncState==="synced"?(typeof SBS!=="undefined"&&SBS?"Progress saved to your account"+(SBLAST?" · synced "+new Date(SBLAST).toLocaleTimeString([],{hour:"2-digit",minute:"2-digit"}):""):"Progress saved to your account"):syncState==="error"?"Couldn't reach your account. Progress is kept on this device and will sync when you reopen the app.":"Progress is saved on this device"}
 (async()=>{try{if(!window.claude||!window.claude.use)return;const [db,user]=await Promise.all([window.claude.use("db"),window.claude.use("user")]);
   if(!db||!user)return;const id=await user.id();if(!id)return;
   const ref=db.collection("data/users/"+id).doc("progress");const snap=await ref.get();const d=snap&&snap.data?snap.data():null;
@@ -6165,6 +6166,71 @@ function updateSync(){const el=$("#sync");if(el)el.textContent=syncState==="sync
     const base=cur.split(":")[0];if(["home","atlas","region","saved"].includes(base))go(cur,{keep:true})}
   else if(ST.t&&(!d||(ST.t||0)>(d.t||0)))push();
   updateSync()}catch(e){}})();
+
+/* ---------------- ACCOUNT: Supabase sign-in (email code) and progress sync ---------------- */
+const SB={url:"https://mpicxskfcchmceiposiw.supabase.co",key:"sb_publishable_yqaPeH9Ong6LgYIJj2aeLw_Fug-e1pa",SK:"ent-sb-session"};
+let SBS=null;try{SBS=JSON.parse(localStorage.getItem(SB.SK)||"null")}catch(e){}
+const sbSave=()=>{try{SBS?localStorage.setItem(SB.SK,JSON.stringify(SBS)):localStorage.removeItem(SB.SK)}catch(e){}};
+async function sbFetch(path,opt){opt=opt||{};const h=Object.assign({"apikey":SB.key,"Content-Type":"application/json"},opt.headers||{});
+  if(opt.auth){const t=await sbToken();if(!t)throw Object.assign(new Error("signed out"),{code:"auth"});h.Authorization="Bearer "+t}
+  const r=await fetch(SB.url+path,{method:opt.method||"GET",headers:h,body:opt.body?JSON.stringify(opt.body):undefined});
+  const txt=await r.text();let j=null;try{j=txt?JSON.parse(txt):null}catch(e){}
+  if(!r.ok){const m=(j&&(j.msg||j.message||j.error_description||j.error))||("HTTP "+r.status);throw Object.assign(new Error(m),{status:r.status})}return j}
+function sbSession(j){SBS={at:j.access_token,rt:j.refresh_token,exp:Date.now()+((j.expires_in||3600)*1000),uid:j.user&&j.user.id,email:j.user&&j.user.email};sbSave()}
+let sbRefreshing=null;
+async function sbToken(){if(!SBS)return null;if(Date.now()<SBS.exp-60000)return SBS.at;
+  sbRefreshing=sbRefreshing||sbFetch("/auth/v1/token?grant_type=refresh_token",{method:"POST",body:{refresh_token:SBS.rt}}).then(j=>{sbSession(j);return SBS.at})
+    .catch(e=>{if(e.status===400||e.status===401){SBS=null;sbSave();DBREF=null;syncState="local";updateSync()}return null}).finally(()=>{sbRefreshing=null});
+  return sbRefreshing}
+/* merge two progress states without losing anything: the newer wins a conflict, the older fills what the newer lacks */
+function mergeSt(newer,older){const plain=o=>o&&typeof o==="object"&&!Array.isArray(o);
+  const m=(a,b)=>{if(plain(a)&&plain(b)){const r=Object.assign({},a);for(const k in b)r[k]=k in a?m(a[k],b[k]):b[k];return r}
+    if(Array.isArray(a)&&Array.isArray(b)&&a.concat(b).every(x=>typeof x==="string"))return [...new Set(a.concat(b))].sort();return a};
+  return m(newer,older)}
+const SBREF={async get(){const r=await sbFetch("/rest/v1/progress?select=data,updated_at&user_id=eq."+SBS.uid,{auth:true});return r&&r[0]?r[0].data:null},
+  async set(v){await sbFetch("/rest/v1/progress?on_conflict=user_id",{method:"POST",auth:true,headers:{"Prefer":"resolution=merge-duplicates,return=minimal"},body:{user_id:SBS.uid,data:v,updated_at:new Date().toISOString()}})}};
+let sbPulling=false;
+async function sbSync(){if(!SBS||sbPulling)return;sbPulling=true;
+  try{const d=await SBREF.get();DBREF=SBREF;let changed=false;
+    if(d&&d.json){const R=Object.assign({},S0,JSON.parse(d.json)),rt=d.t||0,lt=ST.t||0;
+      const M=rt>=lt?mergeSt(R,ST):mergeSt(ST,R);M.t=Math.max(rt,lt);
+      const same=JSON.stringify(M)===d.json;if(JSON.stringify(M)!==JSON.stringify(ST)){ST=M;try{localStorage.setItem(KEY,JSON.stringify(ST))}catch(e){}changed=true}
+      if(!same)await SBREF.set({json:JSON.stringify(ST),t:ST.t})}
+    else await SBREF.set({json:JSON.stringify(ST),t:ST.t||Date.now()});
+    syncState="synced";SBLAST=Date.now();
+    if(changed){const base=cur.split(":")[0];if(base!=="cl"&&base!=="th"||cur==="cl:home")go(cur,{keep:true})}}
+  catch(e){syncState=e.code==="auth"?"local":"error"}
+  sbPulling=false;updateSync()}
+let SBLAST=0;
+if(SBS)sbSync();
+document.addEventListener("visibilitychange",()=>{if(!document.hidden&&SBS&&Date.now()-SBLAST>30000)sbSync()});
+window.addEventListener("online",()=>{if(SBS)sbSync()});
+/* the account card on the More page */
+let SBSTEP={email:"",sent:false,busy:false,msg:""};
+function acctHTML(){if(window.claude&&window.claude.use&&!SBS)return "";
+  if(SBS)return `<div class="acct"><div class="acrow"><span class="lico">${ic("check",18)}</span><span class="pt"><strong>Signed in</strong><small>${esc(SBS.email||"")}</small></span></div>
+   <div class="two"><button class="btn" data-sb="sync">Sync now</button><button class="btn" data-sb="out">Sign out</button></div></div>`;
+  const s=SBSTEP;return `<div class="acct"><p class="lede small">${s.sent?`We sent a 6-digit code to <b>${esc(s.email)}</b>. Enter it below.`:"Sign in with your email to keep your progress in your account and on every device. No password: we email you a code."}</p>
+   ${s.sent?`<input class="acin" id="sbcode" inputmode="numeric" autocomplete="one-time-code" maxlength="10" placeholder="6-digit code"><div class="two"><button class="btn primary" data-sb="verify"${s.busy?" disabled":""}>Sign in</button><button class="btn" data-sb="back">Use another email</button></div>`
+   :`<input class="acin" id="sbemail" type="email" inputmode="email" autocomplete="email" placeholder="Your email" value="${esc(s.email)}"><button class="btn primary" data-sb="send"${s.busy?" disabled":""}>Email me a code</button>`}
+   ${s.msg?`<p class="acmsg">${esc(s.msg)}</p>`:""}</div>`}
+function acctDraw(){const el=$("#acct");if(el)el.innerHTML=acctHTML();updateSync()}
+document.addEventListener("click",async e=>{const b=e.target.closest("[data-sb]");if(!b)return;const a=b.dataset.sb,S=SBSTEP;
+  if(a==="send"){const em=($("#sbemail")||{}).value||"";if(!/^\S+@\S+\.\S+$/.test(em.trim())){S.msg="Enter a valid email address.";return acctDraw()}
+    S.email=em.trim();S.busy=true;S.msg="";acctDraw();
+    try{await sbFetch("/auth/v1/otp",{method:"POST",body:{email:S.email,create_user:true}});S.sent=true;S.msg=""}
+    catch(err){S.msg=err.status===429?"Too many codes requested. Wait a few minutes and try again.":/signups?.*(not allowed|disabled)/i.test(err.message)?"This email isn't allowed to sign in.":"Couldn't send the code. Check your connection and try again."}
+    S.busy=false;return acctDraw()}
+  if(a==="verify"){const code=(($("#sbcode")||{}).value||"").replace(/\D/g,"");if(code.length<6){S.msg="Enter the code from the email.";return acctDraw()}
+    S.busy=true;S.msg="";acctDraw();
+    try{const j=await sbFetch("/auth/v1/verify",{method:"POST",body:{type:"email",email:S.email,token:code}});sbSession(j);SBSTEP={email:"",sent:false,busy:false,msg:""};
+      syncState="local";acctDraw();toast("Signed in");await sbSync();acctDraw()}
+    catch(err){S.busy=false;S.msg=/expired|invalid/i.test(err.message)?"That code is wrong or has expired. Check the latest email, or request a new code.":"Couldn't sign in. Try again.";acctDraw()}return}
+  if(a==="back"){SBSTEP={email:S.email,sent:false,busy:false,msg:""};return acctDraw()}
+  if(a==="sync"){b.disabled=true;await sbSync();toast(syncState==="synced"?"Progress synced":"Couldn't reach your account");return acctDraw()}
+  if(a==="out"){try{await push()}catch(err){}try{await sbFetch("/auth/v1/logout",{method:"POST",auth:true})}catch(err){}
+    SBS=null;sbSave();DBREF=null;syncState="local";toast("Signed out. Your progress stays on this device.");acctDraw()}});
+document.addEventListener("keydown",e=>{if(e.key==="Enter"&&(e.target.id==="sbemail"||e.target.id==="sbcode")){e.preventDefault();const b=$(e.target.id==="sbemail"?'[data-sb="send"]':'[data-sb="verify"]');if(b)b.click()}});
 
 function today(){const d=new Date();return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")}
 function dayStr(d){return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")}
@@ -8720,7 +8786,7 @@ vMore=function(){const native=!!(window.claude&&window.claude.use),web=!window.A
   <section><h2 class="msec">Reading</h2><div class="card set"><span class="slabel">Text size</span><div class="seg3" role="group" aria-label="Text size">${[["s","Small"],["m","Medium"],["l","Large"]].map(([v,l])=>`<button data-fs="${v}" aria-pressed="${PREF.fs===v}" class="fs-${v}">Aa ${l}</button>`).join("")}</div>
    <span class="slabel">Appearance</span><div class="themes" role="group" aria-label="Appearance">${[["light","Light"],["dark","Night"],["auto","Auto"]].map(([v,l])=>`<button data-theme-set="${v}" aria-pressed="${PREF.theme===v}"><i class="sw sw-${v}"></i>${l}</button>`).join("")}</div>
    <label class="srow">Show reading progress bar <input type="checkbox" data-pbar ${PREF.pbar?"checked":""}></label></div></section>
-  <section><h2 class="msec">Your progress</h2><div class="card set"><p class="sync" id="sync"></p>
+  <section><h2 class="msec">Your account</h2><div class="card set"><div id="acct">${acctHTML()}</div><p class="sync" id="sync"></p>
    ${native?"":`<p class="lede small">Back up to move your progress to another phone or browser.</p><div class="two"><button class="btn" id="bk2-exp">Back up my progress</button><label class="btn" style="cursor:pointer;text-align:center">Restore a backup<input type="file" id="bk2-imp" accept=".json,application/json,text/plain,*/*" hidden></label></div>`}</div></section>
   <section><h2 class="msec">About</h2><div class="mlist llist">
    ${web&&"serviceWorker" in navigator?mrowL("","check","Check for updates","Load the newest version now",'data-upd="1"'):""}
