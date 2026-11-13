@@ -1,0 +1,100 @@
+@stand Hereditary haemorrhagic telangiectasia is an autosomal dominant disorder of fragile blood vessels; for most patients the nose is the worst of it, with daily bleeds, anaemia and transfusions. Surgery cannot cure it, only reduce bleeding for a while, so the aim is the least destructive treatment that keeps the patient off transfusions: moisture and tranexamic acid, then repeated laser or coblation, then septodermoplasty, and as a last resort closure of the nostrils. Never cut or cauterise the septum aggressively: it perforates, and the perforation bleeds.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Surgery for HHT epistaxis
+ | Summary
+Diagnosis | Curaçao criteria: recurrent spontaneous epistaxis; mucocutaneous telangiectases; visceral AVMs (lung, brain, liver, gut); a first-degree relative. Three or four criteria are definite
+Medical first | Humidification, emollients, saline; oral tranexamic acid; iron replacement; systemic bevacizumab for severe transfusion-dependent bleeding (specialist)
+Ladder | Coagulation (KTP or Nd:YAG laser, coblation, bipolar) → septodermoplasty → closure of the nostrils (Young procedure)
+Avoid | Repeated chemical or monopolar cautery; aggressive packing (use non-traumatic, absorbable packs)
+Before anaesthesia | Screen for pulmonary AVMs (risk of paradoxical embolism and stroke: filter all intravenous lines) and brain AVMs
+Anaesthesia | General
+Tray | Endoscopes, KTP or Nd:YAG laser with fibre and suction, coblation wand, bipolar, eye protection, dermatome for skin graft, microdebrider, topical thrombin
+!!
+## Consent
+!consent What to tell the patient
+- Treatment **reduces** bleeding but does not cure HHT; most need **repeat** procedures.
+- **Bleeding** during the procedure, sometimes heavy.
+- **Septal perforation** and adhesions.
+- After septodermoplasty: **crusting, dryness, smell, graft loss.**
+- After nostril closure: **no nose breathing**, loss of smell, but often near-total control of bleeding; it can be reversed.
+!!
+## Before you start
+Confirm the diagnosis and screen for visceral AVMs; record the Epistaxis Severity Score, haemoglobin, ferritin and transfusion history. Optimise iron and haemoglobin. Plan with the HHT team, especially before systemic bevacizumab.
+!mf 1 | A cluster of telangiectases on the anterior septum.
+!mf 2 | Telangiectases on the middle turbinate.
+
+# The operation, stage by stage | Coagulation, grafting and closure.
+## Prepare the nose gently
+Protect the eyes and tube with moist gauze. Decongest with oxymetazoline on gently placed patties. Block the vessels: greater palatine foramen injection, a submucosal injection along the floor at the pyriform aperture, and an endoscopic injection over the sphenopalatine foramen, always aspirating first.
+!see What you should see
+- A quiet, decongested nose with no new bleeding from patty trauma.
+!!
+## Coagulate the telangiectases
+With the KTP laser (for example 8 W, 20 ms pulses) through a suction, or a low-setting coblation wand, treat every visible lesion on the septum, turbinates, lateral wall and floor. For raised, broad lesions, work from the surrounding mucosa and edges inwards rather than firing at the centre. Irrigate with saline at the end.
+!mf 3 | Radiofrequency ablation of telangiectases.
+!see What you should see
+- Blanched, flattened lesions without bleeding, and septal mucosa intact between them.
+!!
+!danger The septum
+Treat both sides of the septum at the same spot and you devascularise the cartilage between them. Stagger treatment across sides and sessions to avoid perforation.
+!!
+## Septodermoplasty
+When bleeding continues despite coagulation, replace the diseased anterior septal mucosa with split-thickness skin. Harvest a graft (about 6 by 3 cm per side), fenestrate it. With a 0 degree endoscope and a 4 mm microdebrider, remove septal mucosa from just in front of the middle turbinate forwards to the vestibule, keeping the perichondrium; control bleeding with adrenaline and thrombin. Lay the graft on the raw septum, suture it at the mucocutaneous junction and hold it with packing or a splint.
+!see What you should see
+- The anterior septum covered by skin graft from the vestibule back to the middle turbinate.
+!!
+## Closure of the nostrils (Young procedure)
+For intractable, transfusion-dependent bleeding, close the nostrils. Test acceptance first with Vaseline-coated cotton wool plugs, changed three times a day. Then make a circumferential incision at the mucocutaneous junction of the vestibule, raise three anteriorly based flaps towards the alar rim, secure perfect haemostasis and close them without tension with absorbable vertical mattress sutures. One or both sides can be closed.
+!see What you should see
+- A sealed vestibule with healthy flap edges and no bleeding behind it.
+!!
+!senior Senior's pearl
+The cotton wool plug trial tells you two things at once: whether stopping airflow stops the bleeding, and whether the patient can live without nose breathing. Do it before closing anything.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Brisk bleeding during coagulation
+Act | pressure with adrenaline patties ; bipolar to the bleeding point
+Still bleeding | absorbable non-traumatic packing ; transfuse ; avoid non-absorbable packs that tear the mucosa on removal
+!!
+!path Acute HHT bleed in the emergency department
+Act | resuscitate ; tranexamic acid ; lubricated absorbable or low-pressure packs
+Avoid | chemical cautery and traumatic packing ; arrange laser when stable
+!!
+
+# Aftercare | A long-term relationship.
+## After surgery
+Saline and emollients daily for life; humidify the home. Monitor haemoglobin and ferritin; continue iron. Repeat coagulation when bleeding returns, often every few months to a year. Coordinate care with an HHT centre.
+## Complications
+Bleeding, adhesions, septal perforation, crusting and dryness, graft loss, smell loss, closure dehiscence.
+!update Current evidence
+**International guidelines.** The Second International HHT Guidelines (GRADE methodology, experts from 15 countries) recommend moisturising treatments, oral tranexamic acid, ablative treatment such as laser or radiofrequency for persistent bleeding, septodermoplasty or nasal closure for refractory cases, and systemic antiangiogenic treatment such as intravenous bevacizumab for severe bleeding (Faughnan et al., *Ann Intern Med* 2020).
+**Tranexamic acid.** A randomised, placebo-controlled crossover trial of 118 patients found oral tranexamic acid (3 g a day) reduced the duration of epistaxis by about 17%, with no thrombotic events (Gaillard et al., *J Thromb Haemost* 2014).
+**Bevacizumab.** In 34 patients with severe HHT bleeding (82% previously transfused), intravenous bevacizumab reduced bleeding and transfusion needs (Iyer et al., *Mayo Clin Proc* 2018).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Myers: KTP or Nd:YAG laser and coblation for coagulation, septodermoplasty when coagulation fails, and the Young procedure as a last resort.
+Dhingra and K. J. Lee: HHT as a cause of recurrent epistaxis and the dangers of cautery and packing.
+The guidelines: tranexamic acid, ablation, and systemic bevacizumab before or alongside surgery.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- The **genetics** (ENG, ACVRL1) and **Curaçao criteria**.
+- **Screening** for pulmonary and brain AVMs, and filters on intravenous lines.
+- The **treatment ladder** from emollients to the Young procedure.
+- Why to **avoid cautery and traumatic packing.**
+- **Medical** options: tranexamic acid, bevacizumab.
+!!
+## Common pitfalls
+!pit
+- Chemical cautery of the septum on both sides.
+- Packing with materials that tear the mucosa on removal.
+- Anaesthetising without screening for pulmonary AVMs.
+- Closing the nostrils without a plug trial.
+!!
