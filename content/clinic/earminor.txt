@@ -1,0 +1,83 @@
+@stand Two small ear operations come up on almost every on-call rota and list: draining a pinna haematoma and excising a preauricular sinus. Both are simple in principle and both go wrong in the same way, by leaving something behind: blood that re-collects under the perichondrium and turns into a cauliflower ear, or a branch of epithelial tract that keeps the sinus discharging. Neither has a Myers chapter, so this one is built from the Oxford, Dhingra and Lee texts and the published series.
+
+# Pinna haematoma | Drain it and close the space.
+## What it is
+Blood collects between the auricular cartilage and its perichondrium after a shearing blow, usually in contact sports (wrestling, rugby, boxing, judo). The cartilage has no blood supply of its own; it is fed from the perichondrium. Lifted off by blood, it starves, becomes infected (perichondritis) or forms disorganised new cartilage, giving the *cauliflower ear*.
+!flag Look beyond the ear
+- A head injury may take priority.
+- A pinna haematoma in a baby who is not yet walking suggests non-accidental injury.
+- Redness, heat and severe pain mean infection: perichondritis needs antipseudomonal antibiotics and drainage.
+!!
+## Choosing the method
+!table Pinna haematoma: which treatment
+Situation | Treatment
+Small (under about a third of the pinna), fresh | Aspiration with a wide-bore needle, then a compressive dressing; review and repeat if it re-collects
+Large, recurrent after aspiration, or organised | Incision and drainage with a bolster (through-and-through sutures over dental rolls)
+Late presentation, infection, previous drainage | As above with antibiotics
+!!
+## Incision and drainage
+### Anaesthesia
+A ring block of the pinna (local anaesthetic without adrenaline is traditional, though adrenaline is safe in the ear) or general anaesthesia in children.
+### Steps
+- Incise along the inner curve of the helix (the scaphoid fossa side of the helical rim) or within the haematoma along a natural fold, where the scar hides.
+- Milk out and wash out the clot; curette organised clot gently.
+- Leave the wound open (or loosely closed) so blood can escape.
+- Close the dead space: through-and-through mattress sutures tied over dental rolls or silicone splints on each side of the ear, or packing every concavity with soaked cotton wool under a head bandage.
+!senior Senior's pearl
+Recurrence comes from the dead space, not from the method of evacuation. A bolster that holds skin and perichondrium against the cartilage on both sides is what prevents a second visit.
+!!
+### Aftercare
+Review at 4 to 7 days; bolsters are usually left for about a week (Lee advises 7 to 14 days). Give antibiotics for infection, delay or repeated drainage (most units give them routinely). Advise headgear for return to sport.
+## Complications
+Re-accumulation, infection and perichondritis, cartilage necrosis, cauliflower ear, pressure necrosis from a tight bolster.
+!update Current evidence
+In an institutional series of 87 cases, recurrence was lower when an otolaryngologist treated or advised on the first drainage and when a bolster dressing was applied (Dalal et al., *Laryngoscope* 2020). Untreated or recurrent haematoma leads to the cauliflower ear, whose correction requires excision of deformed cartilage and reshaping (Greywoode et al., *Facial Plast Surg* 2010).
+!!
+
+# Preauricular sinus | Excise widely, not by chasing the tract.
+## What it is
+A blind epithelial tract opening in front of the ascending crus of the helix, from incomplete fusion of the hillocks of His (first and second arch tubercles). It is distinct from a first branchial cleft anomaly, which runs towards the external canal and the facial nerve. The tract is fine, branches, runs close to or through the helical cartilage, and ends on the temporalis fascia above the parotid.
+## When to operate
+Asymptomatic pits need nothing. Treat infection with antibiotics (co-amoxiclav) and drain an abscess by aspiration or a small incision. Excise after recurrent infection, once the infection has settled.
+!pearl Bilateral pits and the kidneys
+Ask about hearing and the family. Preauricular pits with branchial cysts or fistulae and hearing loss suggest branchio-oto-renal syndrome; examine the neck and consider a renal ultrasound.
+!!
+## Excision
+### The supra-auricular approach
+Extend the elliptical incision around the opening upwards into the postauricular or temporal skin. Expose the temporalis fascia above the helical root and work downwards and forwards on the fascia, taking all the soft tissue between the fascia and skin as one block with the tract, including a sliver of helical cartilage where the tract touches it.
+### Classic sinectomy
+An ellipse around the opening and dissection of the tract, aided by a probe, methylene blue or the microscope.
+!danger Dye can mislead
+Probing and dye injection can create false passages and miss branches. The Oxford Specialist Handbook advises wide excision down to the temporalis fascia and the helical root rather than following the tract.
+!!
+### Closure
+Undermine the edges, close the deep layer with absorbable sutures and the skin with fine sutures; a pressure dressing reduces haematoma.
+## Complications
+Recurrence (the main one), wound infection, haematoma, scar, injury to the helical cartilage, and rarely the frontal branch of the facial nerve if dissection strays too far forwards and low over the zygomatic arch.
+!update Current evidence
+A systematic review of 14 studies found recurrence of 5.5% after sinectomy against 2.2% after the supra-auricular approach; using the microscope brought sinectomy recurrence down to about 1.9%, and drains increased wound infection without a clear benefit (Bruijnzeel et al., *Laryngoscope* 2016).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Oxford Specialist Handbook: aspiration for haematomas under a third of the pinna, drainage with bolsters otherwise; wide excision of preauricular sinus to the temporalis fascia without dye.
+Dhingra: aspiration first, incision and dental-roll bolsters if it fails, antibiotics for all.
+K. J. Lee: bolsters for 7 to 14 days, antibiotics, and suspicion of abuse in infants.
+Oxford Textbook: the preauricular tract ends superficial to the temporalis fascia and parotid; excise widely.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Why** a haematoma damages cartilage.
+- **Aspiration versus incision** and how to stop recurrence.
+- **Perichondritis** and its antibiotic cover.
+- **Embryology** of the preauricular sinus and its difference from a first cleft anomaly.
+- **Supra-auricular approach** and why it recurs less.
+!!
+## Common pitfalls
+!pit
+- Draining a haematoma without a bolster.
+- Missing a head injury or non-accidental injury.
+- Operating on an acutely infected sinus.
+- Chasing the tract instead of excising the block on the fascia.
+!!

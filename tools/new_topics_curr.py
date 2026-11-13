@@ -23,8 +23,26 @@ NEW = [
    'Oxford Textbook of Otolaryngology ch. 81, Oxford Specialist Handbook ch. 23 and K. J. Lee ch. 24, 34',
    ['Lymphoma is the commonest; squamous carcinoma is rare.', 'Chest X-ray before anaesthesia: the mediastinal mass.', 'Lymphoma node: excise it and send it fresh.', 'Rhabdomyosarcoma: orbital best, parameningeal worst; the bleeding aural polyp.', 'Neuroblastoma: Horner syndrome, heterochromia, raised HVA and VMA.'],
    ['Reactive lymphadenopathy', 'Atypical mycobacterial infection', 'Branchial cyst', 'Lymphatic malformation']),
+ T('earminor', 'ear', 'Pinna haematoma and preauricular sinus', 'OS15;D8;L53;OT85',
+   'Drain a pinna haematoma and hold the skin to the cartilage with a bolster so it cannot re-collect; excise a preauricular sinus widely down to the temporalis fascia rather than chasing its branches.',
+   ['extear'], ['pinna', 'perich', 'atresia', 'paeds_neck'], [],
+   'Oxford Specialist Handbook ch. 15, Dhingra ch. 8, K. J. Lee ch. 53, Oxford Textbook of Otolaryngology ch. 85 and the literature',
+   ['Haematoma under a third of the pinna: aspirate and compress; larger or recurrent: incise and bolster.', 'Bolsters for about a week; antibiotics for delay, infection or repeat drainage.', 'Infant with a pinna haematoma: think of non-accidental injury.', 'Preauricular sinus: excise only after recurrent infection, once settled.', 'Supra-auricular approach recurs less (about 2%) than simple sinectomy (about 5.5%).'],
+   ['Perichondritis', 'Relapsing polychondritis', 'First branchial cleft anomaly', 'Infected sebaceous cyst']),
+ T('mouthminor', 'mouth', 'Quinsy drainage, tongue-tie, lip biopsy and drooling', 'OH24;OS24;D43;L35;OT82',
+   'Small procedures with one safety rule each: guard the needle in the tonsil bed, stay clear of the submandibular ducts under the tongue, take mucosa only in a lip biopsy, and never redirect saliva backwards in a child who aspirates.',
+   ['oral', 'pharynx', 'salivary'], ['tonsil', 'deepneck', 'salivary', 'ap_saliv', 'oralanat', 'paeds_vs'], [[192, 'Tonsillectomy'], [91, 'Excision of the submandibular gland']],
+   'Oxford Handbook of ENT ch. 24, Oxford Specialist Handbook ch. 24, Dhingra ch. 43, K. J. Lee ch. 35, Oxford Textbook of Otolaryngology ch. 82 and the literature',
+   ['Quinsy: three-point aspiration with the needle guarded to 1 cm; incise if it fails or recurs.', 'Interval tonsillectomy after a second quinsy.', 'Frenotomy eases maternal nipple pain; evidence on feeding is weak.', 'Lip biopsy focus score of 1 or more scores 3 points in the Sjogren criteria.', 'Drooling: anterior or posterior; no duct relocation in children who aspirate.'],
+   ['Peritonsillar cellulitis', 'Parapharyngeal abscess', 'Sialadenitis', 'Ranula']),
+ T('fona', 'larynx', 'Emergency front-of-neck airway and arterial ligation', 'OH12;OT52;OS20;OT27;L33',
+   'In a can\'t intubate, can\'t oxygenate emergency, go through the cricothyroid membrane with scalpel, bougie and tube. For bleeding that will not stop, tie the artery nearest the bleed: sphenopalatine, ethmoidal, maxillary, and the external carotid only as a last resort.',
+   ['larynx', 'vessels'], ['stridor', 'anaes', 'trach', 'epistaxis', 'lxtrauma', 'tonsil'], [[19, 'Open tracheostomy'], [98, 'Sphenopalatine artery ligation'], [99, 'Ethmoid artery ligation']],
+   'Oxford Handbook of ENT ch. 12, Oxford Textbook of Otolaryngology ch. 27 and 52, Oxford Specialist Handbook ch. 20, K. J. Lee ch. 33 and the literature',
+   ['CICO: declare it; scalpel, bougie, 6.0 cuffed tube through the cricothyroid membrane.', 'Membrane impalpable: vertical midline incision and finger dissection.', 'Children under about 12: needle cricothyroidotomy; convert any emergency airway to a tracheostomy.', 'Ethmoidal arteries: 24-12-6 mm behind the anterior lacrimal crest to the optic nerve.', 'External carotid: identify by its branches; rebleeding up to about 45%.'],
+   ['Laryngeal tumour', 'Angio-oedema', 'Supraglottitis', 'Post-tonsillectomy haemorrhage']),
 ]
-LINKS = {'dizzychild': [], 'pituitary': [], 'paeds_ca': []}
+LINKS = {'dizzychild': [], 'pituitary': [], 'paeds_ca': [], 'earminor': [], 'mouthminor': [], 'fona': []}
 p = W + 'data.js'; s = open(p, encoding='utf-8').read()
 pre = 'window.CLINIC_DATA='; assert s.startswith(pre)
 D = json.loads(s[len(pre):].rstrip().rstrip(';'))

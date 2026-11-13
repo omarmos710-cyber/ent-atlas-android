@@ -1,0 +1,74 @@
+@stand Two operations an ENT surgeon may have to do at short notice with no time to look anything up: opening the airway through the front of the neck when no one can intubate or oxygenate, and tying an artery when bleeding from the nose or throat will not stop. Both depend on landmarks you can feel or find in minutes. The cricothyroid membrane is the fastest way into the airway; the ethmoidal, maxillary and external carotid arteries are the fall-backs when sphenopalatine ligation and embolisation are not enough or not available.
+
+# Emergency front-of-neck access | Scalpel, bougie, tube.
+## When
+*Can't intubate, can't oxygenate* (CICO): after failed intubation, failed supraglottic airway and failed face-mask oxygenation with falling saturations, in a fully paralysed patient. Also for upper airway obstruction where intubation is impossible: facial or laryngeal trauma, burns or angio-oedema, an obstructing tumour, an irretrievable foreign body, or bleeding or vomit obscuring the view. Declare the emergency out loud.
+## The landmarks
+Extend the neck. Run a finger down the midline from the thyroid notch over the prominence to the soft dip just above the cricoid ring: the cricothyroid membrane. In an obese or swollen neck where it cannot be felt, make an 8 to 10 cm vertical midline incision and find it by blunt finger dissection. Ultrasound before induction marks it in a planned difficult airway.
+## Scalpel cricothyroidotomy
+- Stand on the patient's left (for a right-handed operator) and stabilise the larynx with the left hand (the "laryngeal handshake").
+- Make a transverse stab incision through skin and membrane with a size 10 blade, blade facing you (caudally).
+- Rotate the blade 90 degrees so the sharp edge points towards the feet.
+- Slide a bougie along the blade into the trachea, then pass a lubricated 6.0 cuffed tube over it.
+- Inflate the cuff, ventilate and confirm with capnography; secure the tube.
+!danger The cricoid and the back wall
+Keep the incision above the cricoid: damaging the only complete ring causes subglottic stenosis. Do not push the blade deeply, which can perforate the back of the trachea and oesophagus.
+!!
+## Needle and kit techniques
+A 14G cannula through the membrane with jet or high-flow oxygen buys time, especially in children under about 12 years, where the membrane is tiny and surgical cricothyroidotomy is avoided. It gives oxygen but not ventilation (carbon dioxide rises after 30 to 45 minutes), needs an exit route for gas to avoid barotrauma, and kinks or displaces easily. Seldinger and guarded-blade kits (Mini-Trach, Melker) take longer under stress.
+## Then
+Convert to a formal tracheostomy within about 24 to 72 hours and assess the larynx; cricothyroidotomy is a bridge, not a long-term airway.
+## Complications
+Bleeding, false passage into the pretracheal tissue, posterior tracheal or oesophageal perforation, surgical emphysema, tube displacement or blockage, subglottic stenosis, voice change.
+!update Current evidence
+The Difficult Airway Society guidelines make scalpel cricothyroidotomy (scalpel, bougie and 6.0 cuffed tube) the recommended rescue technique in CICO, with a vertical midline incision when the membrane cannot be felt (Frerk et al., *Br J Anaesth* 2015). A systematic review of 21 studies found fewer late complications after emergency cricothyroidotomy than after emergency tracheostomy, with no difference in early complications (Zasso et al., *BMC Anesthesiol* 2020); a systematic review of kit and surgical methods found no technique clearly superior, on low-quality evidence (Langvad et al., *Scand J Trauma Resusc Emerg Med* 2013).
+!!
+
+# Arterial ligation for bleeding | The nearer the bleed, the better.
+## Where ligation fits
+For epistaxis that continues despite packing, the first surgical step is endoscopic sphenopalatine artery ligation (Myers ch. 98), with anterior ethmoidal ligation if the bleeding is high or follows trauma. Embolisation is the alternative where interventional radiology is available. Maxillary and external carotid ligation are reserved for when these fail or cannot be done; external carotid ligation also controls an uncontrollable post-tonsillectomy or tumour bleed.
+!table Choosing the vessel
+Vessel | Approach | Notes
+Sphenopalatine | Endoscopic, through a middle meatal antrostomy and mucosal flap | First choice for posterior epistaxis
+Anterior (and posterior) ethmoidal | External (Lynch-type) incision between the medial canthus and dorsum, subperiosteal behind the lacrimal sac; or endoscopic | For high or traumatic bleeds; the posterior ethmoidal artery lies a few millimetres in front of the optic nerve
+Maxillary | Transantral (Caldwell-Luc) through the posterior antral wall into the pterygopalatine fossa | Useful when active bleeding hides the sphenopalatine area; failure about 10 to 15%
+External carotid | Neck incision, ligated above the lingual or superior thyroid branch | Quick, but far from the bleed: collaterals refill, rebleeding up to about 45%
+!!
+## Anterior ethmoidal artery ligation
+Under general anaesthesia, protect the eye, and make a curved incision midway between the medial canthus and the nasal dorsum (with a small Z or W to avoid webbing). Elevate subperiosteally to the anterior lacrimal crest, lift the lacrimal sac laterally, and follow the frontoethmoidal suture back to the anterior ethmoidal artery, seen tethering the periosteum about 24 mm behind the crest. Clip it. The posterior ethmoidal artery is about 12 mm further back, and the optic nerve about 6 mm behind that (the 24-12-6 rule).
+## Maxillary artery ligation
+Through a Caldwell-Luc antrostomy, remove the mucosa and bone of the posterior antral wall under the microscope, open the periosteum, find the maxillary artery in the fat of the pterygopalatine fossa (it lies superficial, in front of the maxillary nerve), and clip the trunk and its branches.
+## External carotid artery ligation
+Under local or general anaesthesia, make a horizontal incision at the level of the greater horn of the hyoid, raise subplatysmal flaps, retract sternomastoid, divide the common facial vein, and expose the carotid bifurcation. Identify the external carotid by its branches (the internal carotid has none in the neck) and the hypoglossal nerve crossing it; preserve the vagus. Tie the external carotid twice above the superior thyroid or lingual artery, having seen at least two branches.
+!danger Never tie a vessel without branches
+Ligation of the internal carotid by mistake can cause a stroke. If you have not seen branches arising from the vessel, you have not identified the external carotid.
+!!
+## Complications
+Ethmoidal: canthal webbing, injury to the lacrimal sac, orbital haematoma, optic nerve injury (posterior artery). Maxillary: cheek numbness, oroantral fistula, dental injury, ophthalmoplegia. External carotid: rebleeding, nerve injury (hypoglossal, vagus, superior laryngeal), mistaken internal carotid ligation, haematoma.
+!update Current evidence
+A meta-analysis of 44 studies (1,664 patients) found embolisation for refractory epistaxis succeeded in 87%, but rebleeding occurred in about 16% and complications in about 14%, including stroke in about 2% and visual loss in about 2% (Hoffman et al., *Interv Neuroradiol* 2023). The Oxford Textbook notes rebleeding rates of up to 45% after external carotid ligation, because collaterals refill the territory.
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Oxford Handbook: needle cricothyroidotomy (14G cannula, jet insufflation, 30 to 45 minutes of oxygenation) preferred in children under 12; a 6 mm tube as the smallest for prolonged ventilation.
+Oxford Textbook: cricothyroidotomy is quicker and simpler than tracheostomy in the emergency; the DAS algorithms; ligation of maxillary and external carotid arteries is now rare.
+Oxford Specialist Handbook: step-by-step ethmoidal, maxillary and external carotid ligation, with external carotid ligation kept as a last resort.
+K. J. Lee: internal maxillary artery ligation through a gingivobuccal approach with a 10 to 15% failure rate.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **CICO** recognition and the scalpel-bougie-tube technique.
+- **Landmarks** of the cricothyroid membrane and what to do when it cannot be felt.
+- **Children:** why needle techniques are preferred.
+- **The ligation ladder** for epistaxis and why proximal ligation fails.
+- **24-12-6** and identifying the external carotid.
+!!
+## Common pitfalls
+!pit
+- Delaying front-of-neck access while repeating failed intubation attempts.
+- Cutting through the cricoid.
+- Leaving a cricothyroidotomy as a long-term airway.
+- Tying the external carotid without seeing its branches.
+!!

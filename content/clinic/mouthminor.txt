@@ -1,0 +1,97 @@
+@stand Four small procedures in the mouth and throat that every trainee is expected to do or plan without a textbook chapter of their own: draining a quinsy, dividing a tongue-tie, taking a lip biopsy of the minor salivary glands, and the injections and duct operations that control drooling. Each is quick, done under local anaesthetic or a short general anaesthetic, and each has one structure or one decision that makes it safe.
+
+# Quinsy drainage | Aspirate first, incise if it fails.
+## Recognising the abscess
+A peritonsillar abscess sits between the tonsil capsule and the superior constrictor. It gives a one-sided sore throat, fever, trismus, a muffled ("hot potato") voice, drooling and referred earache; the soft palate bulges above the tonsil and the uvula is pushed to the other side. Bilateral swelling without trismus is usually tonsillitis. Image (CT) if the patient is a young child, the diagnosis is unclear, or a parapharyngeal or deep neck extension is suspected.
+## Preparation
+Admit or treat in the ambulatory unit; give intravenous fluids, penicillin (with or without metronidazole) and often a single dose of steroid; analgesia. Sit the patient up at 45 degrees with head support, a headlight and a Yankauer sucker running. Spray the throat with lidocaine and infiltrate the mucosa over the swelling.
+## Aspiration
+Use a 5 ml syringe (2 ml if trismus is severe) with a 18G needle or a cannula. Wrap tape around it so only 1 cm protrudes. Aspirate at three points over the most prominent bulge, from upper (just above and lateral to the upper pole) downwards. Send pus for culture.
+!danger The carotid is lateral and behind
+The internal carotid lies deep to the tonsil bed, posterolateral to the abscess. Guard the needle or blade to 1 cm and keep the point directed slightly medially and never posterolaterally.
+!!
+## Incision and drainage
+If aspiration finds no pus, or the abscess recurs or fails to settle within 24 hours, incise. The classic point is level with the base of the uvula, a third of the way from the medial edge of the tonsil to its lateral extent, or wherever the abscess points; open with a guarded blade, then widen with sinus forceps and suction.
+!path Peritonsillar swelling
+Trismus, uvula pushed across? | yes: aspirate ; no: treat as tonsillitis, review
+Pus on aspiration? | yes: antibiotics, review at 24 h ; no: incise or image
+Not settling at 24 h? | incise ; CT for deep extension
+Second quinsy or tonsillitis history? | offer interval tonsillectomy
+!!
+## Aftercare
+Switch to oral antibiotics when swallowing; review if pain, trismus or fever return. Consider interval tonsillectomy after a second episode or a history of recurrent tonsillitis (hot or "quinsy" tonsillectomy is reserved for selected cases, such as airway compromise or failure to drain).
+!update Current evidence
+A Cochrane review of 11 trials (674 participants) found recurrence was higher after needle aspiration than after incision and drainage (risk ratio 3.74), but the evidence was of very low quality and adverse events were rare with both (Chang et al., *Cochrane Database Syst Rev* 2016). A systematic review of three randomised trials found no benefit from adding metronidazole to penicillin, with more side effects (Moen et al., *J Laryngol Otol* 2023).
+!!
+
+# Tongue-tie division | A snip for babies, a plasty for older children.
+## When it matters
+A short or thick lingual frenulum attaches near the tip of the tongue, giving a notched or heart-shaped tip on protrusion. It is present in about 4 to 11% of newborns; most cause no trouble. Indications are breastfeeding difficulty with maternal nipple pain (after assessment by a feeding specialist) in infants, and in older children restricted tongue protrusion and elevation affecting oral hygiene, eating or articulation of tongue-tip sounds. If the tongue protrudes beyond the lower incisors, speech is unlikely to be affected (Dhingra).
+## Frenotomy in infants
+In babies under a few months, no anaesthetic is needed. Swaddle the baby, elevate the tongue with a grooved director or two fingers, and divide the thin frenulum with blunt-ended scissors close to the tongue, short of the genioglossus and the submandibular ducts and veins. Pressure with gauze stops the few drops of blood; feed straight away.
+## Frenuloplasty in older children
+Under general anaesthesia, divide the thick band transversely, release fibres down to genioglossus, and close the diamond-shaped defect vertically with absorbable sutures (transverse release, vertical closure), or use a Z-plasty for a long band.
+!senior Senior's pearl
+Stay close to the tongue and look for the submandibular duct papillae before you cut. Dividing them, or the sublingual veins, turns a snip into a bleeding floor of mouth.
+!!
+## Complications
+Bleeding, ulcer, infection, re-attachment and scarring, injury to the submandibular ducts (ranula or swelling).
+!update Current evidence
+A Cochrane review of five randomised trials (302 infants) found frenotomy reduced maternal nipple pain in the short term, with inconsistent effects on objective breastfeeding scores and no reported adverse effects; the trials were small and at high risk of bias (O'Shea et al., *Cochrane Database Syst Rev* 2017). A systematic review found mother-reported improvements in breastfeeding but limited high-quality evidence (Francis et al., *Pediatrics* 2015).
+!!
+
+# Lip biopsy of the minor salivary glands | A small cut for a big diagnosis.
+## Why
+A biopsy of the minor salivary glands in the lower lip shows focal lymphocytic sialadenitis in Sjögren syndrome and can also diagnose sarcoidosis, amyloidosis and IgG4-related disease. In the 2016 ACR/EULAR classification criteria, a focus score of 1 or more and anti-Ro (SSA) antibodies each score 3 points, and abnormal Schirmer's test, ocular staining and unstimulated salivary flow 1 point each; 4 or more classifies as primary Sjögren syndrome (Shiboski et al., *Arthritis Rheumatol* 2017).
+## Technique
+Under local anaesthesia, evert the lower lip and hold it with a chalazion clamp or fingers. Make a 1.5 to 2 cm mucosal incision parallel to the vermilion, between the midline and the commissure, through mucosa only. The glands bulge into the wound; tease out four to six lobules (enough for at least 4 mm squared of gland) with fine scissors, avoiding the small sensory nerves running vertically. Close with absorbable sutures.
+## Complications
+Lower lip numbness or tingling (usually temporary), bleeding, haematoma, mucocele, swelling, and a non-diagnostic sample.
+
+# Drooling | Treat the child, then the glands.
+## Assess first
+Drooling is normal up to about 4 years. Beyond that it is mostly due to poor oral motor control in neurodevelopmental disability (cerebral palsy) or neurodegenerative disease (Parkinson's disease, motor neurone disease), rarely too much saliva. Distinguish *anterior* drooling (out of the mouth, social) from *posterior* drooling (into the pharynx, causing aspiration and chest infections). Grade severity and frequency, check dental disease, posture, nasal obstruction and medications that increase saliva.
+## The ladder
+!ladder
+Conservative | Positioning, oral motor therapy, treatment of dental disease and nasal obstruction
+Medication | Glycopyrronium or hyoscine patches, limited by anticholinergic side effects
+Botulinum toxin | Ultrasound-guided injection of the submandibular (largest effect) and parotid glands, lasting 3 to 6 months
+Surgery | Duct ligation, submandibular duct relocation, or submandibular gland excision, chosen by whether the child aspirates
+!!
+## Botulinum toxin injection
+Under ultrasound guidance (local anaesthetic, sedation or general anaesthesia), inject the submandibular glands and, if needed, the parotids. The Oxford Textbook suggests maximum doses of botulinum toxin A of about 20 units per submandibular gland and 10 units per parotid gland. The main risk is dysphagia from spread into the floor of mouth muscles, usually temporary.
+## Duct operations
+- **Duct ligation:** the submandibular ducts (two-duct), plus one or both parotid ducts (three- or four-duct), clipped or tied through the mouth; a day-case procedure, with temporary gland swelling.
+- **Submandibular duct relocation:** an island of mucosa containing both duct openings is raised, the ducts are mobilised and tunnelled back to the tonsillar fossa so saliva runs into the pharynx; usually with excision of the sublingual glands to avoid a ranula. Not for children who aspirate.
+- **Submandibular gland excision:** for children with posterior drooling and aspiration, with or without parotid duct ligation.
+!flag Not for the child who aspirates
+Duct relocation and any operation that redirects saliva backwards can worsen aspiration. In posterior drooling, reduce saliva production (gland excision, duct ligation, botulinum toxin) instead.
+!!
+## Complications
+Ranula, gland swelling and sialadenitis, dental caries from a dry mouth, thick saliva, bleeding, nerve injury in gland excision (marginal mandibular, lingual, hypoglossal), and recurrence.
+!update Current evidence
+A meta-analysis of eight placebo-controlled trials (181 patients) found botulinum toxin significantly reduced drooling severity in adults and children, with similar effects from types A and B (Vashishta et al., *Otolaryngol Head Neck Surg* 2013). A meta-analysis of 21 studies (708 patients) found very good to excellent control after submandibular gland excision in about 80 to 85%, with no added benefit from parotid duct ligation or rerouting (Schild et al., *Otolaryngol Head Neck Surg* 2021).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Oxford Handbook and Specialist Handbook: three-point aspiration with a guarded needle, incision only for failure or recurrence, and the landmarks for incision.
+Dhingra: tongue-tie is rarely symptomatic; transverse release and vertical closure.
+K. J. Lee: lip biopsy of the minor salivary glands as the simple tissue test for Sjögren syndrome.
+Oxford Textbook: the drooling ladder, botulinum toxin doses per gland, and duct ligation, relocation or gland excision chosen by aspiration risk.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Quinsy:** signs, aspiration versus incision, the carotid, and interval tonsillectomy.
+- **Tongue-tie:** who needs division and the evidence.
+- **Lip biopsy:** technique, focus score and the classification criteria.
+- **Drooling:** anterior versus posterior, the ladder, and why relocation is wrong for aspirators.
+!!
+## Common pitfalls
+!pit
+- An unguarded needle in the tonsil bed.
+- Calling bilateral tonsillar swelling a quinsy.
+- Dividing a tongue-tie through the submandibular duct papillae.
+- Relocating the ducts in a child who aspirates.
+!!
