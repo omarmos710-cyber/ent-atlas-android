@@ -1,0 +1,107 @@
+@stand Subglottic stenosis narrows the airway at the cricoid, the only complete ring in the airway, so any scar there cannot stretch. Most cases follow intubation of premature babies; some are congenital. Treatment climbs a ladder by the Myer-Cotton grade and the firmness of the scar: endoscopic balloon dilatation for fresh or mild stenosis, cricoid split, laryngotracheal reconstruction with cartilage grafts, and cricotracheal resection for severe or complete stenosis. The airway outcome depends as much on the child's lungs, swallowing, reflux and eosinophilic disease as on the operation.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Paediatric subglottic stenosis
+ | Summary
+Myer-Cotton grade | I: 0 to 50% obstruction; II: 51 to 70%; III: 71 to 99%; IV: no lumen (measured with endotracheal tube sizes)
+Endoscopic | Balloon dilatation (with radial incisions, steroid injection) for acute or grade I to II, soft stenosis
+Anterior cricoid split | Neonates failing extubation because of subglottic narrowing, with good lungs
+Laryngotracheal reconstruction | Grade II to III: anterior and/or posterior costal cartilage grafts; single-stage (endotracheal tube as stent) or double-stage (tracheostomy and stent)
+Cricotracheal resection | Grade III to IV, especially with a margin of 3 to 4 mm below the cords
+Work-up | Microlaryngoscopy and bronchoscopy with sizing; look for other airway lesions; MRSA swabs; lung function; swallow assessment; oesophagoscopy and biopsy (reflux, eosinophilic oesophagitis)
+Anaesthesia | General, spontaneous or tubeless ventilation for endoscopy
+Tray | Laryngoscopes, bronchoscopes, high-pressure airway balloons, sickle knife, steroid, rib cartilage harvest set, stents, neck set
+!!
+## Consent
+!consent What to tell the parents
+- **More than one procedure** is common; repeat endoscopies and dilatations are expected.
+- **Restenosis,** granulation, failure to decannulate.
+- **Voice change,** swallowing difficulty and aspiration (especially after posterior grafts).
+- **Airway loss** around the time of extubation; possible tracheostomy.
+- Rib harvest: **pneumothorax,** pain, scar.
+- Cricotracheal resection: **anastomotic breakdown,** recurrent laryngeal nerve injury.
+!!
+## Before you start
+Size the stenosis endoscopically and grade it. Look for laryngomalacia, vocal cord palsy, tracheomalacia and other problems that change the plan. Treat reflux and eosinophilic oesophagitis and optimise the lungs.
+
+# The operation, stage by stage | Up the ladder.
+## Endoscopic balloon dilatation
+Suspend the larynx with an appropriate laryngoscope. Inject triamcinolone into the stenosis if wished, make radial incisions in the scar (avoiding the posterior party wall), and inflate a balloon of appropriate size for about a minute or until desaturation, repeating as needed. Re-scope at 1 to 4 weeks.
+!see What you should see
+- A widened, round subglottis with split scar and no deep laceration.
+!!
+## Anterior cricoid split
+Endoscopically, divide the anterior cricoid ring in the midline with a sickle knife and balloon-dilate; or through a small neck incision, divide the anterior cricoid and first two tracheal rings and let them spring apart. Intubate with a tube half a size larger for about 7 days as a stent, then extubate and check.
+!see What you should see
+- The cut cricoid edges separating, with a tube passing easily through the subglottis.
+!!
+## Harvest cartilage
+Take costal cartilage (fifth or sixth rib) through an inframammary or overlying incision, keeping perichondrium on one side and the pleura intact (test under saline). A thyroid ala graft is an alternative for small anterior grafts.
+!mf 1 2 | A thyroid ala graft, and costal cartilage harvest.
+!see What you should see
+- A graft carved with a flange (boat shape), perichondrium facing the lumen.
+!!
+## Laryngotracheal reconstruction
+Through a midline neck incision divide the cricoid anteriorly (and the upper trachea and lower thyroid cartilage as needed). For posterior stenosis divide the posterior cricoid plate down to the oesophageal muscle and wedge a posterior graft in. Sew the anterior graft into the anterior split with the flange inside and perichondrium facing the lumen ("parachuting" it in). Stent with an endotracheal tube (single-stage) or a laryngeal stent with a tracheostomy (double-stage).
+!mf 3 4 | Anterior and posterior cartilage grafts.
+!mf 5 6 7 | Suturing and parachuting the anterior graft, and placing the posterior graft.
+!mf 8 | A laryngeal stent for double-stage reconstruction.
+!see What you should see
+- An expanded cricoid ring held open by grafts that do not protrude into the lumen.
+!!
+!danger The posterior split and the oesophagus
+Divide the posterior cricoid plate exactly in the midline down to, but not through, the oesophageal muscle. Too deep and you create a fistula; off-centre and you injure the arytenoid joint or the recurrent nerve.
+!!
+## Cricotracheal resection
+For severe stenosis with a margin below the cords, resect the anterior cricoid arch and the stenosed tracheal segment, keeping the posterior cricoid plate (with its mucosa removed) to protect the recurrent nerves, and anastomose the healthy trachea to the thyroid cartilage and posterior cricoid. Release tension with chin-to-chest sutures or a laryngeal release.
+!mf 9 10 | Retaining sutures in the distal trachea and the cricotracheal anastomosis.
+!mf 11 | An inferior thyrotomy with a tracheal wedge for size mismatch.
+!see What you should see
+- A tension-free, airtight anastomosis with mobile vocal cords.
+!!
+!senior Senior's pearl
+Choose the operation by the scar, not just the grade: soft, recent stenosis responds to dilatation; firm, mature or complete stenosis needs open expansion or resection. Fix reflux and eosinophilic disease first, or the best graft fails.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Failed extubation after single-stage reconstruction
+Act | reintubate (smaller tube) ; endoscopy for granulation, oedema or graft prolapse
+Then | steroids, treat granulation ; tracheostomy if repeated failure
+!!
+!path Air leak or surgical emphysema after cricotracheal resection
+Act | keep the neck flexed ; check the anastomosis endoscopically ; drain ; revise if dehisced
+!!
+
+# Aftercare | Repeated looks.
+## After surgery
+Intensive care with sedation for single-stage repairs; antibiotics (cover MRSA if carried); anti-reflux treatment; planned endoscopies to remove granulation and assess the lumen; speech and swallowing therapy; decannulation only after a stable, adequate airway is confirmed.
+## Complications
+Restenosis, granulation, graft failure, aspiration, voice change, failed extubation or decannulation, pneumothorax, wound infection, anastomotic breakdown, recurrent nerve palsy.
+!update Current evidence
+A meta-analysis of paediatric balloon dilatation (150 children) found that 65% avoided tracheostomy or open reconstruction in the short term, with failure more likely at higher grades (Lang and Brietzke, *Otolaryngol Head Neck Surg* 2014). Balloon laryngoplasty succeeded in all acute and 39% of chronic stenoses in 48 children, with success linked to recent onset, lower grade and younger age (Avelino et al., *Int J Pediatr Otorhinolaryngol* 2015). Endoscopic approaches have reduced the need for open surgery as neonatal intubation practice has improved (Myers, editorial comment).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Myers: the full ladder from balloon dilatation and cricoid split to single- and double-stage reconstruction and cricotracheal resection, with a thorough pre-operative work-up.
+Dhingra and K. J. Lee: congenital versus acquired stenosis, the cricoid as a complete ring, and the Myer-Cotton grading.
+The literature: balloon dilatation as first line for soft and acute stenosis.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Causes**, why the subglottis is vulnerable.
+- **Myer-Cotton** grading.
+- The **treatment ladder** and choosing a rung.
+- **Grafts**: harvest, carving, placement.
+- **Pre-operative** factors (lungs, reflux, eosinophilic oesophagitis, MRSA).
+!!
+## Common pitfalls
+!pit
+- Dilating a mature, firm scar again and again.
+- Ignoring reflux and eosinophilic disease.
+- A graft protruding into the lumen.
+- Missing a second airway lesion.
+!!
