@@ -6202,7 +6202,14 @@ async function sbSync(){if(!SBS||sbPulling)return;sbPulling=true;
   catch(e){syncState=e.code==="auth"?"local":"error"}
   sbPulling=false;updateSync()}
 let SBLAST=0;
-if(SBS)sbSync();
+/* signing in from the emailed link: the page opens with #access_token=…&refresh_token=… */
+let SBLINK=null;{const h=(location.hash||"").slice(1);if(/(^|&)(access_token|error_description)=/.test(h)){const q=new URLSearchParams(h);
+  try{history.replaceState(null,"",location.pathname+location.search)}catch(e){}
+  if(q.get("access_token"))SBLINK={access_token:q.get("access_token"),refresh_token:q.get("refresh_token"),expires_in:+q.get("expires_in")||3600};
+  else setTimeout(()=>toast(/expired|invalid/i.test(q.get("error_description")||"")?"That sign-in link has expired. Request a new one from More → Your account.":"Couldn't sign in from that link. Request a new one."),800)}}
+if(SBLINK)(async()=>{try{const u=await fetch(SB.url+"/auth/v1/user",{headers:{apikey:SB.key,Authorization:"Bearer "+SBLINK.access_token}}).then(r=>r.ok?r.json():Promise.reject(r));
+  sbSession(Object.assign({},SBLINK,{user:u}));setTimeout(()=>toast("Signed in as "+u.email),600);await sbSync();if(cur==="more")acctDraw()}catch(e){setTimeout(()=>toast("Couldn't sign in from that link. Request a new one."),600)}})();
+else if(SBS)sbSync();
 document.addEventListener("visibilitychange",()=>{if(!document.hidden&&SBS&&Date.now()-SBLAST>30000)sbSync()});
 window.addEventListener("online",()=>{if(SBS)sbSync()});
 /* the account card on the More page */
@@ -6210,15 +6217,15 @@ let SBSTEP={email:"",sent:false,busy:false,msg:""};
 function acctHTML(){if(window.claude&&window.claude.use&&!SBS)return "";
   if(SBS)return `<div class="acct"><div class="acrow"><span class="lico">${ic("check",18)}</span><span class="pt"><strong>Signed in</strong><small>${esc(SBS.email||"")}</small></span></div>
    <div class="two"><button class="btn" data-sb="sync">Sync now</button><button class="btn" data-sb="out">Sign out</button></div></div>`;
-  const s=SBSTEP;return `<div class="acct"><p class="lede small">${s.sent?`We sent a 6-digit code to <b>${esc(s.email)}</b>. Enter it below.`:"Sign in with your email to keep your progress in your account and on every device. No password: we email you a code."}</p>
-   ${s.sent?`<input class="acin" id="sbcode" inputmode="numeric" autocomplete="one-time-code" maxlength="10" placeholder="6-digit code"><div class="two"><button class="btn primary" data-sb="verify"${s.busy?" disabled":""}>Sign in</button><button class="btn" data-sb="back">Use another email</button></div>`
-   :`<input class="acin" id="sbemail" type="email" inputmode="email" autocomplete="email" placeholder="Your email" value="${esc(s.email)}"><button class="btn primary" data-sb="send"${s.busy?" disabled":""}>Email me a code</button>`}
+  const s=SBSTEP;return `<div class="acct"><p class="lede small">${s.sent?`We sent a sign-in link to <b>${esc(s.email)}</b>. Open it on this phone and you're signed in. If the email shows a code instead, enter it below.`:"Sign in with your email to keep your progress in your account and on every device. No password: we email you a sign-in link."}</p>
+   ${s.sent?`<input class="acin" id="sbcode" inputmode="numeric" autocomplete="one-time-code" maxlength="10" placeholder="Code from the email (if shown)"><div class="two"><button class="btn" data-sb="verify"${s.busy?" disabled":""}>Sign in with code</button><button class="btn" data-sb="back">Use another email</button></div>`
+   :`<input class="acin" id="sbemail" type="email" inputmode="email" autocomplete="email" placeholder="Your email" value="${esc(s.email)}"><button class="btn primary" data-sb="send"${s.busy?" disabled":""}>Email me a sign-in link</button>`}
    ${s.msg?`<p class="acmsg">${esc(s.msg)}</p>`:""}</div>`}
 function acctDraw(){const el=$("#acct");if(el)el.innerHTML=acctHTML();updateSync()}
 document.addEventListener("click",async e=>{const b=e.target.closest("[data-sb]");if(!b)return;const a=b.dataset.sb,S=SBSTEP;
   if(a==="send"){const em=($("#sbemail")||{}).value||"";if(!/^\S+@\S+\.\S+$/.test(em.trim())){S.msg="Enter a valid email address.";return acctDraw()}
     S.email=em.trim();S.busy=true;S.msg="";acctDraw();
-    try{await sbFetch("/auth/v1/otp",{method:"POST",body:{email:S.email,create_user:true}});S.sent=true;S.msg=""}
+    try{await sbFetch("/auth/v1/otp?redirect_to="+encodeURIComponent(location.origin+location.pathname),{method:"POST",body:{email:S.email,create_user:true}});S.sent=true;S.msg=""}
     catch(err){S.msg=err.status===429?"Too many codes requested. Wait a few minutes and try again.":/signups?.*(not allowed|disabled)/i.test(err.message)?"This email isn't allowed to sign in.":"Couldn't send the code. Check your connection and try again."}
     S.busy=false;return acctDraw()}
   if(a==="verify"){const code=(($("#sbcode")||{}).value||"").replace(/\D/g,"");if(code.length<6){S.msg="Enter the code from the email.";return acctDraw()}
