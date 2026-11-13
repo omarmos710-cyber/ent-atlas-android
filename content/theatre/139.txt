@@ -1,0 +1,113 @@
+@stand A tumour of the facial nerve, usually a schwannoma, grows slowly along the nerve and often leaves the face moving surprisingly well for years. That is the dilemma: removing it almost always means cutting and grafting the nerve, and a graft never gives better than a House-Brackmann grade III face. So most are watched, decompressed or irradiated while the face is good, and resection with grafting is kept for the face that is already failing, the tumour that is growing fast, or the diagnosis that is in doubt.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Surgery for facial nerve tumours
+ | Summary
+Tumours | Schwannoma (commonest, any segment, often the geniculate); haemangioma (geniculate, causes palsy while small); also neurofibroma, malignant invasion from parotid or skin cancer
+Indications | Facial function of House-Brackmann grade IV or worse, progressive weakness, rapid growth, brainstem compression, or doubt about the diagnosis
+Options | Observation with serial MRI; bony decompression; stereotactic radiosurgery; debulking; resection with nerve grafting
+Approach | Transmastoid (tympanic and mastoid segments); middle fossa (internal auditory canal, labyrinthine, geniculate) with hearing; translabyrinthine without hearing; parotidectomy for extratemporal tumours; combined as needed
+Anaesthesia | General; mannitol, furosemide and steroids for the middle fossa
+Monitoring | Facial nerve monitoring
+Tray | Mastoid and middle fossa sets, drill and diamond burrs, microsurgical instruments, nerve graft harvest set, fibrin glue
+!!
+## Consent
+!consent What to tell the patient
+- If the nerve has to be cut and grafted, the face will be **weak for 6 to 12 months** and recover at best to a **grade III** (good tone, movement with some synkinesis).
+- **Decompression** and **radiosurgery** aim to keep current function longer, not to remove the tumour.
+- **Hearing loss** and **imbalance** depending on the route; total deafness with the translabyrinthine approach.
+- **CSF leak, meningitis,** and the risks of a craniotomy.
+- **Eye care** for life if eye closure is poor: drops, taping, perhaps a gold weight.
+!!
+## Before you start
+Document facial function (House-Brackmann), hearing and balance. Get MRI with gadolinium for the extent along the nerve (a "tubular" enhancing lesion following the canal, or a dumbbell through the facial hiatus), and CT for the bony canal and middle ear. Electrophysiology helps when the face looks normal. Discuss the options openly: in many, observation is right.
+!mf 1 | Segments of the facial nerve involved by schwannomas and their frequency.
+
+# The operation, stage by stage | Resection and grafting.
+## Choose the strategy
+**Decompression** removes the bone of the Fallopian canal over the tumour to give it room and delay nerve failure. **Debulking** removes the part of the tumour outside the nerve's fibres, accepting regrowth. **Resection** removes the tumour with the involved nerve and grafts the gap. Size, site, hearing and the face decide the route.
+!see What you should see
+- A plan that reaches the whole involved segment with healthy nerve at both ends.
+!!
+## Transmastoid exposure
+Through a postauricular incision, perform a wide cortical mastoidectomy, identify the lateral canal and sinodural angle, thin the posterior canal wall and open the facial recess widely. Remove the incus (and the malleus head if the proximal tympanic segment is involved) to expose the tympanic segment. Sacrifice the chorda if the tumour extends to the lower vertical segment.
+!mf 2 | A complete mastoidectomy with facial recess exposes the tympanic and mastoid segments.
+!see What you should see
+- The nerve skeletonised to translucent bone over the whole tumour.
+!!
+## Middle fossa exposure
+Turn a 5 by 5 cm craniotomy two-thirds in front of and one-third behind the ear canal, as low as possible. Raise the dura from behind forwards, identify the middle meningeal artery, the greater superficial petrosal nerve and the arcuate eminence, place the retractor, blue-line the superior canal and open the internal auditory canal, labyrinthine segment and geniculate ganglion.
+!mf 3 | Middle fossa approach to a tumour at the geniculate ganglion.
+!mf 5 | Incision for a combined middle fossa and transmastoid approach.
+!see What you should see
+- The nerve from the internal auditory canal to the geniculate, with the cochlea and superior canal untouched.
+!!
+## Translabyrinthine exposure
+When the ear does not hear usefully, a translabyrinthine approach reaches the nerve from the cerebellopontine angle to the stylomastoid foramen without brain retraction, allowing the horizontal and vertical segments to be mobilised for a longer reach.
+!mf 6 7 | Translabyrinthine exposure and mobilisation of the horizontal and vertical segments.
+!see What you should see
+- Healthy nerve proximal to the tumour, usually in the internal auditory canal or cerebellopontine angle.
+!!
+## Remove and test the margins
+Try to separate the tumour from the nerve; if it cannot be separated, transect sharply proximal and distal to it, remove it, and send the nerve ends for frozen section to confirm clear margins.
+!see What you should see
+- Two clean, fascicular nerve ends with tumour-free frozen sections.
+!!
+!danger Cutting the nerve is final
+Once the nerve is transected the face will be paralysed for months and will never be normal. Make that decision before the operation with the patient, not on the table, unless the patient has agreed to it.
+!!
+## Graft the gap
+Harvest the greater auricular nerve (it runs across the sternomastoid, halfway between the mastoid tip and the angle of the jaw, parallel to the external jugular vein) or the sural nerve for a long graft. Lay it between the ends without tension and hold it with fascia or fibrin glue rather than sutures in the bony canal. Reconstruct the ossicles if the chain was disrupted.
+!mf 4 | Interposition cable graft from the internal auditory canal.
+!mf 8 9 | Greater auricular nerve graft and how to find the nerve.
+!see What you should see
+- A graft lying in the bony canal touching both ends, without tension or twisting.
+!!
+!senior Senior's pearl
+Tension is what kills a nerve repair. A slightly long graft lying loose does better than a short one pulled tight. Fibrin glue in the fallopian canal is enough; avoid crowding fascicles with sutures.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Clear fluid from the nose or wound
+Act | head up, avoid straining, consider a lumbar drain
+Persisting | re-explore and seal ; watch for meningitis
+!!
+!path Poor eye closure after surgery
+Act | lubricants day and night, taping, moisture chamber
+Longer term | gold or platinum eyelid weight ; ophthalmology review
+!!
+
+# Aftercare | Patience for the face.
+## After surgery
+Protect the cornea. Expect no movement for 6 to 12 months after grafting, then gradual return of tone and movement with synkinesis; facial physiotherapy helps. Follow with MRI for regrowth after decompression, debulking or radiosurgery.
+## Complications
+Facial paralysis, CSF leak, meningitis, hearing loss, vestibular loss, intracranial bleeding, corneal exposure.
+!update Current evidence
+**Management has shifted away from routine resection.** In 79 patients over 30 years, resection fell from 85% of cases before 1995 to 27% afterwards, replaced by decompression, observation and radiotherapy; facial grade was maintained or improved in 79% after decompression and 100% with observation or radiation, against 55% after resection and grafting (Wilkinson et al., *Laryngoscope* 2011).
+**Surgery or radiosurgery.** A meta-analysis of 519 patients with intracranial facial schwannoma found facial function worsened in 30% after surgery against 9% after stereotactic radiosurgery, and stayed stable in 41% against 66%; radiosurgery is recommended when treatment is needed and surgery kept for other indications such as brainstem compression (Rotter et al., *J Neurosurg* 2021).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Myers: treat only progressive tumours or failing nerves; decompression, debulking or resection with grafting through transmastoid, middle fossa, translabyrinthine or combined routes.
+K. J. Lee: the imaging (tubular enhancement, scalloped canal, dumbbell at the geniculate) and the haemangioma at the geniculate that causes early palsy.
+The literature: observation, decompression and radiosurgery preserve facial function better than resection for most schwannomas.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **When to treat** and why watching is often right.
+- The **options** and what each achieves.
+- **Approaches** by segment and hearing.
+- **Nerve grafting:** donors, technique, expected outcome (grade III at best).
+- **Eye protection.**
+!!
+## Common pitfalls
+!pit
+- Resecting a tumour in a patient with a normal face who was not warned of paralysis.
+- Grafting under tension.
+- Forgetting frozen sections of the margins.
+- Neglecting the cornea.
+!!

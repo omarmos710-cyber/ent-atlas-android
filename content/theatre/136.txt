@@ -1,0 +1,104 @@
+@stand An active middle ear implant drives the ossicles, or the round window, directly instead of blowing louder sound into the canal. It suits the patient whose hearing aid fails them for reasons other than the cochlea: a canal that cannot tolerate a mould (otitis externa, eczema, a canal that collapses or feeds back), or a conductive or mixed loss after failed middle ear surgery. The operation is a posterior tympanotomy with a delicate coupling step; success depends on a stable, well-seated transducer and an expert fitting.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Active middle ear implants
+ | Summary
+Devices | *Vibrant Soundbridge*: an external processor drives an implanted floating mass transducer (FMT) clipped to the incus or coupled to the stapes or round window. *Esteem*: fully implanted sensor on the incus body and driver on the stapes, with the incus long process removed. *Maxum*: a magnet on the incudostapedial joint driven by a deep canal processor
+Indications | Adults with stable moderate to severe sensorineural loss (roughly 40 to 90 dB) and word recognition of at least about 40%, who cannot use or benefit from hearing aids; conductive or mixed loss (FMT on the stapes or round window) when conventional surgery or aids have failed
+Contraindications | Active middle ear disease, retrocochlear loss, fluctuating hearing, Eustachian tube failure (Esteem), need for MRI with non-compatible devices, unrealistic expectations
+Anaesthesia | General
+Position | Supine, head turned
+Monitoring | Facial nerve monitoring
+Tray | Mastoid set, otology drill, middle ear instruments, device templates and crimping instruments, diode laser (Esteem), cement
+!!
+## Consent
+!consent What to tell the patient
+- **Facial nerve** risk from the facial recess, as with cochlear implantation.
+- **Taste change** if the chorda tympani is cut (often needed for the Esteem).
+- **Loss of residual hearing** or of the device's benefit; revision if the transducer moves.
+- **Drum perforation.**
+- **MRI** restrictions for some devices; battery replacement surgery every few years for a fully implanted device.
+!!
+## Before you start
+Document air and bone thresholds, speech recognition and a trial of the best possible hearing aids; the implant must offer something the aids cannot. Check the middle ear is healthy and aerated. Explain the external processor (or not) and the MRI implications of the chosen device.
+!mf 1 | The fully implanted Esteem system.
+!mf 6 | Placement of the Vibrant Soundbridge, with the floating mass transducer.
+
+# The operation, stage by stage | Vibrant Soundbridge on the incus.
+## Plan and open
+Mark the processor or receiver site on flat bone behind and above the mastoid with the template, and a postauricular incision well clear of it. Raise flaps, elevate periosteum to the spine of Henle, and drill a bed for the receiver with a shallow trough for the lead.
+!see What you should see
+- A seated receiver bed behind the planned mastoid cavity, the skin over it of healthy thickness.
+!!
+## Cortical mastoidectomy and posterior tympanotomy
+Perform a cortical mastoidectomy, thin the posterior canal wall, identify the short process of the incus, the lateral canal and the facial nerve, and open a *wide* facial recess between the facial nerve and the chorda tympani.
+!see What you should see
+- The long process of the incus, the stapes and the round window niche through the facial recess.
+!!
+!danger The facial nerve in a wide recess
+The floating mass transducer needs a generous recess, so the drilling goes closer to the nerve than in a routine tympanotomy. Keep a thin bone cover, use diamond burrs, irrigate, and keep the monitor on.
+!!
+## Couple the transducer
+Pass the FMT through the recess and crimp its clip around the long process of the incus so the transducer's axis points towards the stapes, sitting free of bone and the promontory. For conductive or mixed loss, couple it instead to the stapes head, the footplate or the round window membrane (with a coupler or fascia), according to what remains of the chain.
+!mf 7 | The floating mass transducer clipped to the long process of the incus.
+!see What you should see
+- A transducer firmly crimped, moving with the chain, touching nothing else.
+!!
+!senior Senior's pearl
+Coupling is everything. A loose crimp or a transducer that touches bone gives poor gain and early revision. Check it by gently moving the malleus and watching the FMT move with the chain.
+!!
+## Secure the lead and close
+Fix the receiver in its bed, lay the lead in its trough without tension, cover the recess with fascia or bone pâté, and close in layers. Activate and fit the processor after a few weeks.
+!see What you should see
+- A receiver flat to the skull, the lead lying slack, and the transducer still in position after closure.
+!!
+## The Esteem in outline
+Through a wide mastoidectomy and epitympanotomy, the incudostapedial joint is separated and part of the incus long process removed (diode laser), the sensor is cemented to the incus body, the driver to the stapes head, and the battery-powered processor is buried behind. No external part is worn; the battery is replaced every few years. The incus separation is permanent.
+!mf 4 | Positioning of the Esteem driver and sensor.
+!see What you should see
+- Sensor and driver cemented in line with their ossicles, with no contact between the two.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Poor gain at fitting
+Check | processor fitting and coupling ; imaging if needed
+Then | revise the coupling (the commonest reason for revision is round window coupling without a coupler)
+!!
+!path Facial monitor fires during the recess
+Stop | irrigate, find the nerve with a diamond burr
+Proceed | accept a narrower recess and couple to the incus from a safe angle
+!!
+
+# Aftercare | Fitting is half the result.
+## After surgery
+Head dressing for a day, wound care, and activation at about 4 to 6 weeks. Expert programming is essential, especially for the Esteem's feedback. Test aided thresholds and speech in quiet and noise.
+## Complications
+Facial nerve injury, chorda tympani injury, drum perforation, loss of residual hearing, device extrusion or failure, transducer displacement needing revision, wound infection.
+!update Current evidence
+Systematic reviews of the Vibrant Soundbridge found it safe and effective for conductive and mixed loss with its different couplings (Ernst et al., *Laryngoscope* 2016), and for mild to severe sensorineural loss in patients who cannot use hearing aids, with good satisfaction (Bruchhage et al., *Eur Arch Otorhinolaryngol* 2017). In 83 patients followed for a median of 27 months, 15.6% needed revision to improve performance, most often after round window coupling without a coupler, with a peak around 3 years (Schraven et al., *Otol Neurotol* 2016).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Myers: describes the fully implanted Esteem in detail, the Vibrant Soundbridge with incus coupling, and the Maxum, with the need for a wide facial recess and careful crimping.
+K. J. Lee and the Oxford books: place middle ear implants between hearing aids and cochlear implants, with bone conduction devices as the alternative for conductive loss.
+The literature: the Soundbridge is effective across conductive, mixed and sensorineural losses, but coupling determines durability.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Who** benefits, and why a hearing aid fails them.
+- **Types** of device and how each couples to the ear.
+- The **surgical steps**: posterior tympanotomy and coupling.
+- **Middle ear implant, bone conduction device or cochlear implant:** choosing by the loss.
+- **MRI** and battery issues.
+!!
+## Common pitfalls
+!pit
+- Implanting without a proper hearing aid trial.
+- A narrow facial recess that forces the transducer against bone.
+- A loose crimp on the incus.
+- Forgetting the device's MRI status.
+!!
