@@ -1,0 +1,105 @@
+@stand External ethmoidectomy reaches the ethmoid labyrinth through a small incision between the nose and the inner corner of the eye, by lifting the periorbita off the lamina papyracea. Endoscopic surgery has replaced it for routine sinus disease, but the approach remains valuable: for ligating the anterior and posterior ethmoidal arteries in epistaxis, draining a subperiosteal orbital abscess, as part of tumour resections, and where endoscopes are not available. Its landmarks are a fixed sequence along the medial orbital wall that leads, if ignored, to the optic nerve.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table External ethmoidectomy and ethmoidal artery ligation
+ | Summary
+Indications | Ethmoidal artery ligation for epistaxis not controlled by sphenopalatine ligation or from the upper nose; subperiosteal orbital abscess; access for sinonasal tumours, orbital decompression or trauma; ethmoid disease where endoscopy is unavailable
+Contraindications | Disease better treated endoscopically
+Anaesthesia | General
+Position | Supine, head up; protect the cornea (temporary tarsorrhaphy or shield)
+Tray | Lynch incision set, Freer and Cottle elevators, malleable retractors, bipolar and clips, Kerrison rongeurs, sinus forceps, endoscope
+!!
+## Consent
+!consent What to tell the patient
+- A small **scar** beside the nose (webbing is uncommon with a straight incision).
+- **Double vision** from medial rectus or trochlea injury, usually temporary.
+- **Watering eye** if the lacrimal sac is injured.
+- **Vision loss,** rare, from orbital haematoma or optic nerve injury.
+- **CSF leak** if the skull base is breached.
+!!
+## Before you start
+Measure on CT the position of the ethmoidal foramina along the frontoethmoidal suture and their distance from the anterior lacrimal crest.
+!table The medial orbital wall in millimetres (average adult)
+From | To | Distance
+Anterior lacrimal crest | Anterior ethmoidal foramen | About 24 mm
+Anterior ethmoidal foramen | Posterior ethmoidal foramen | About 12 mm
+Posterior ethmoidal foramen | Optic canal | About 6 mm
+!!
+
+# The operation, stage by stage | The Lynch approach.
+## Incise
+Inject the site. Make a straight incision halfway between the nasal dorsum and the medial canthus, from about 1 cm above to 1 cm below the canthus. Control the angular vessels with bipolar.
+!mf 1 | The incision halfway between the nasal dorsum and the medial canthus.
+!see What you should see
+- Periosteum over the frontal process of the maxilla and nasal bones.
+!!
+## Elevate the periorbita
+Incise and elevate the periosteum backwards off the medial orbital wall. Find the frontoethmoidal suture line, which marks the level of the skull base, and follow it back. Inferiorly elevate to the top of the lacrimal fossa and medial canthal tendon; keep the sac in the orbit.
+!see What you should see
+- The lamina papyracea with the frontoethmoidal suture running backwards above it.
+!!
+## Control the ethmoidal arteries
+Retract the orbital contents gently with a malleable retractor and find the anterior ethmoidal artery crossing from the orbit into its foramen on the suture line, about 24 mm behind the lacrimal crest. Coagulate it with bipolar (more secure than a clip) and divide it to continue. The posterior ethmoidal artery lies about 12 mm further back; the optic nerve about 6 mm behind that.
+!mf 2 | The periorbita elevated from the lamina papyracea with the ethmoidal arteries in view.
+!see What you should see
+- The anterior ethmoidal artery tented between the periorbita and its foramen, then coagulated.
+!!
+!danger Never beyond the posterior ethmoidal artery
+The optic nerve is only a few millimetres behind the posterior ethmoidal foramen. For epistaxis, ligating the anterior artery is usually enough; if the posterior must be controlled, coagulate it without dissecting past it.
+!!
+## Open the ethmoid
+Fracture the lamina papyracea with an elevator below the suture line and widen the opening with Kerrison rongeurs up to the suture and forward to the posterior lacrimal crest. Remove the ethmoid cells medially and backwards to the basal lamella or the sphenoid face, keeping the middle turbinate as the medial limit and its skull base attachment intact.
+!mf 3 | Removing the lamina papyracea to open the ethmoid.
+!see What you should see
+- The ethmoid cleared and communicating with the nose, the skull base above untouched.
+!!
+!senior Senior's pearl
+The frontoethmoidal suture is the skull base. Stay below it when removing bone and you will not enter the anterior cranial fossa.
+!!
+## Close
+Release the retractor, check the eye moves freely, and close periosteum and skin in layers.
+!see What you should see
+- A soft orbit, normal pupil, and a fine straight wound.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Retracted, bleeding anterior ethmoidal artery
+Act | bipolar the stump ; pressure ; do not pack the orbit blindly
+Tight orbit afterwards | lateral canthotomy and cantholysis ; ophthalmology
+!!
+!path Orbital fat herniates
+Act | shrink gently with bipolar ; do not pull on it
+!!
+
+# Aftercare | Watch the eye.
+## After surgery
+Eye observations (vision, pupils, proptosis, pain) for the first night. Ice packs. Remove skin sutures at about 5 days.
+## Complications
+Orbital haematoma, diplopia, epiphora, scar webbing, CSF leak, vision loss.
+!update Current evidence
+The 24-12-6 relationship (lacrimal crest to anterior ethmoidal foramen, to posterior foramen, to optic canal) is a standard guide to the medial orbital wall (Oxford Specialist Handbook of Otolaryngology). In refractory epistaxis without an obvious source, septal branches of the anterior ethmoidal artery may bleed and can be controlled endoscopically (Turri-Zanoni et al., *Eur Arch Otorhinolaryngol* 2018); the anterior ethmoidal artery can also be ligated by a transethmoidal endoscopic route after partial removal of the lamina (Araujo Filho et al., *Braz J Otorhinolaryngol* 2011).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Myers: the external route for epistaxis, orbital infection, tumours and where endoscopy is unavailable, with bipolar control of the anterior ethmoidal artery and no dissection beyond the posterior one.
+Dhingra: external ethmoidectomy for ethmoid disease and orbital abscess, and ethmoidal artery ligation in the epistaxis ladder.
+The literature: endoscopic routes can reach the anterior ethmoidal artery but the external approach remains the reliable fallback.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- The **incision** and the plane.
+- The **24-12-6 rule.**
+- The **frontoethmoidal suture** as the skull base.
+- Ethmoidal artery ligation in **epistaxis** management.
+!!
+## Common pitfalls
+!pit
+- Dissecting past the posterior ethmoidal artery.
+- Removing bone above the frontoethmoidal suture.
+- Injuring the lacrimal sac by elevating below the canthal tendon carelessly.
+- Not protecting the cornea.
+!!
