@@ -105,7 +105,7 @@ public class MainActivity extends Activity {
                 i.addCategory(Intent.CATEGORY_OPENABLE);
                 i.setType("*/*");
                 try {
-                    startActivityForResult(Intent.createChooser(i, "Choose your ENT Atlas backup"), REQ_PICK);
+                    startActivityForResult(Intent.createChooser(i, "Choose your ENT Companion backup"), REQ_PICK);
                 } catch (ActivityNotFoundException e) {
                     pickCallback = null;
                     return false;

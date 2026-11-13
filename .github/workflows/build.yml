@@ -38,6 +38,6 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v1.0.${{ github.run_number }}
-          name: ENT Atlas 1.0.${{ github.run_number }}
+          name: The ENT Companion 1.0.${{ github.run_number }}
           body: Download ENT-Atlas.apk below and open it on your Android phone to install or update.
           files: ENT-Atlas.apk

@@ -133,7 +133,7 @@ const want=process.argv.slice(2);
   await p.waitForTimeout(500);
   const f=path.join(OUT,V.id+'.pdf');
   await p.pdf({path:f,format:'A4',printBackground:true,margin:{top:'16mm',bottom:'16mm',left:'15mm',right:'15mm'},displayHeaderFooter:true,
-   headerTemplate:`<div style="width:100%;font:7px Helvetica,Arial;letter-spacing:.18em;color:#9a8a6a;padding:0 15mm;text-transform:uppercase">ENT Atlas · ${V.kind} · ${V.title.replace(/&/g,'&amp;')}</div>`,
+   headerTemplate:`<div style="width:100%;font:7px Helvetica,Arial;letter-spacing:.18em;color:#9a8a6a;padding:0 15mm;text-transform:uppercase">The ENT Companion · ${V.kind} · ${V.title.replace(/&/g,'&amp;')}</div>`,
    footerTemplate:`<div style="width:100%;font:7.5px Helvetica,Arial;color:#888;padding:0 15mm;display:flex;justify-content:space-between"><span>For personal study. Follow local protocols and senior advice for patients.</span><span class="pageNumber"></span></div>`});
   console.log(V.id,arts.length,'articles',(fs.statSync(f).size/1e6).toFixed(1)+' MB');
  }

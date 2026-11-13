@@ -10,8 +10,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="ENT Atlas">
-<title>ENT Anatomy Atlas</title>
+<meta name="apple-mobile-web-app-title" content="ENT Companion">
+<title>The ENT Companion</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&display=swap">
@@ -1355,17 +1355,19 @@ body{margin-top:0;margin-bottom:0}
 .icourse .cgroup small,.advgrp .cgroup small{display:block;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted);margin:3px 0 0;font-size:12.5px}
 .icourse .prow.done .pn{color:var(--accent)}
 .upbar{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(96px + env(safe-area-inset-bottom));z-index:9999;border:0;border-radius:999px;background:#151922;color:#F3F3EF;font:600 13.5px var(--f-body);padding:12px 18px;box-shadow:0 8px 24px rgba(0,0,0,.25);white-space:nowrap}
+@media(max-width:400px){.top .brand .bthe{display:none}.top .brand{font-size:17.5px;gap:8px}.top{gap:6px}}
+.top .iconbtn,.top .brand .mark{flex:none}.top .brand{min-width:0}
 </style>
 
-<div id="boot" role="status" aria-label="Loading ENT Atlas"><div class="bwrap"><div class="spin"></div><span>ENT Atlas</span></div></div>
+<div id="boot" role="status" aria-label="Loading The ENT Companion"><div class="bwrap"><div class="spin"></div><span>The ENT Companion</span></div></div>
 <div id="busy" aria-hidden="true"><i></i></div><div id="busypill" role="status" aria-live="polite"><span class="spin"></span>Loading</div>
 <div class="app">
   <aside class="side" id="side">
-    <div class="brand"><span class="mark">H&amp;N</span>ENT Atlas</div>
+    <div class="brand"><span class="mark">H&amp;N</span><span class="bthe">The </span>ENT Companion</div>
   </aside>
   <div style="min-width:0">
     <header class="top">
-      <div class="brand"><span class="mark">H&amp;N</span>ENT Atlas</div>
+      <div class="brand"><span class="mark">H&amp;N</span><span class="bthe">The </span>ENT Companion</div>
       <span class="sp"></span>
       <button class="iconbtn" data-go="search" aria-label="Search">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>Search</button>
@@ -7074,12 +7076,12 @@ function vMore(){const native=!!(window.claude&&window.claude.use);
 document.addEventListener("click",e=>{
   const f=e.target.closest("[data-fs]");if(f){PREF.fs=f.dataset.fs;savePrefs();document.querySelectorAll("[data-fs]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.fs===PREF.fs)));return}
   const t=e.target.closest("[data-theme-set]");if(t){PREF.theme=t.dataset.themeSet;savePrefs();document.querySelectorAll("[data-theme-set]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.themeSet===PREF.theme)));return}
-  if(e.target.closest("#bk2-exp")){const name="ent-atlas-progress-"+today()+".json",txt=JSON.stringify(ST);
+  if(e.target.closest("#bk2-exp")){const name="ent-companion-progress-"+today()+".json",txt=JSON.stringify(ST);
     if(window.Android&&Android.saveBackup){Android.saveBackup(name,txt);return}
     const u=URL.createObjectURL(new Blob([txt],{type:"application/json"})),a=document.createElement("a");a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),4000);toast("Backup saved")}});
 document.addEventListener("change",async e=>{
   if(e.target.matches("[data-pbar]")){PREF.pbar=e.target.checked;savePrefs();return}
-  if(e.target.id==="bk2-imp"&&e.target.files[0]){try{const d=JSON.parse(await e.target.files[0].text());if(typeof d!=="object"||!d.cards)throw 0;ST=Object.assign({},S0,d);save();toast("Progress restored");go("home")}catch(err){toast("That file isn't an ENT Atlas backup")}e.target.value=""}});
+  if(e.target.id==="bk2-imp"&&e.target.files[0]){try{const d=JSON.parse(await e.target.files[0].text());if(typeof d!=="object"||!d.cards)throw 0;ST=Object.assign({},S0,d);save();toast("Progress restored");go("home")}catch(err){toast("That file isn't an ENT Companion backup")}e.target.value=""}});
 
 /* drill figure: never taller than the screen */
 function fitDrill(){const w=$(".dwrap"),im=w&&w.querySelector(".dstage img");if(!im)return;
@@ -7441,7 +7443,7 @@ function vImaging(){const acc=ST.spot&&ST.spot.n?Math.round(100*ST.spot.r/ST.spo
   <div class="gchips" role="group" aria-label="Modality">${["all"].concat(mods).map(m=>`<button class="chip" data-hubmod="${m}" aria-pressed="${HUBMOD===m}">${m==="all"?"All":m}</button>`).join("")}</div>
   <div id="hublist">${hubList()}</div>
   <h2 class="msec">Offline PDFs <small>Each lesson also has its own PDF</small></h2>
-  ${fold("ipdf","Imaging conditions by area","5 PDFs",`<div class="mrows">${[["ear","Ear"],["nose","Nose, sinuses and orbit"],["mouth","Mouth, throat and salivary glands"],["neck","Larynx and neck"],["face","Face, jaw and skull base"]].map(([k,t])=>`<button class="mrow" data-pdf="imc_${k}" data-pdfname="ENT Atlas - Imaging conditions - ${t}"><span class="mn">${ic("pdf",14)}</span><span class="mt">${t}</span></button>`).join("")}</div>`)}
+  ${fold("ipdf","Imaging conditions by area","5 PDFs",`<div class="mrows">${[["ear","Ear"],["nose","Nose, sinuses and orbit"],["mouth","Mouth, throat and salivary glands"],["neck","Larynx and neck"],["face","Face, jaw and skull base"]].map(([k,t])=>`<button class="mrow" data-pdf="imc_${k}" data-pdfname="The ENT Companion - Imaging conditions - ${t}"><span class="mn">${ic("pdf",14)}</span><span class="mt">${t}</span></button>`).join("")}</div>`)}
   <h2 class="msec">Normal anatomy by area</h2>
   ${areas.map(([g,ids])=>fold("ia-"+g,esc(g),`${ids.length} areas`,`<div class="mrows">${ids.map(id=>{const cs=regConds(id),ss=regSeries(id);
     return `<button class="mrow" data-go="region:${id}" data-rtab-go="imaging"><span class="mt">${esc(RMAP[id].name)}<small>${ss.reduce((a,s)=>a+s.slices.length,0)} normal images · ${cs.length} conditions</small></span></button>`}).join("")}</div>`,{dot:GCOL[g]})).join("")}
@@ -8606,13 +8608,13 @@ document.addEventListener("click",e=>{if(!$("#results"))return;const t=e.target;
 
 <script>
 document.addEventListener("click",e=>{if(!e.target.closest("#bk-exp"))return;
-  const name="ent-atlas-progress-"+new Date().toISOString().slice(0,10)+".json",txt=JSON.stringify(ST);
+  const name="ent-companion-progress-"+new Date().toISOString().slice(0,10)+".json",txt=JSON.stringify(ST);
   if(window.Android){Android.saveBackup(name,txt);return}
   const u=URL.createObjectURL(new Blob([txt],{type:"application/json"})),a=document.createElement("a");
   a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),4000);toast("Backup saved")});
 document.addEventListener("change",async e=>{if(e.target.id!=="bk-imp"||!e.target.files[0])return;
   try{const d=JSON.parse(await e.target.files[0].text());if(typeof d!=="object"||!d.cards)throw 0;
-    ST=Object.assign({},S0,d);save();toast("Progress restored");go("home")}catch(err){toast("That file isn't an ENT Atlas backup")}
+    ST=Object.assign({},S0,d);save();toast("Progress restored");go("home")}catch(err){toast("That file isn't an ENT Companion backup")}
   e.target.value=""});
 </script>
 

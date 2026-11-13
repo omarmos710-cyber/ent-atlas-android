@@ -1,6 +1,6 @@
 {
- "name": "ENT Anatomy Atlas",
- "short_name": "ENT Atlas",
+ "name": "The ENT Companion",
+ "short_name": "ENT Companion",
  "start_url": "./",
  "scope": "./",
  "display": "standalone",

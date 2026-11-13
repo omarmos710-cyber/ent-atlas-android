@@ -311,8 +311,8 @@ def compile_one(tid, text):
                     raise FileNotFoundError('%s: drawing %s missing' % (tid, n))
                 svgs.append('<div class="ardsvg">%s</div>' % open(fp, encoding='utf-8').read())
             fign += 1
-            meta['fx'].append({'n': fign, 'd': names, 't': plain(cap.strip()), 'w': where(), 'c': 'Drawn for ENT Atlas'})
-            out.append('<figure class="arfig ardraw" id="a-f%d"><div class="%s">%s</div><figcaption><b>Figure %d</b>%s<cite>Drawn for ENT Atlas</cite></figcaption></figure>' % (
+            meta['fx'].append({'n': fign, 'd': names, 't': plain(cap.strip()), 'w': where(), 'c': 'Drawn for The ENT Companion'})
+            out.append('<figure class="arfig ardraw" id="a-f%d"><div class="%s">%s</div><figcaption><b>Figure %d</b>%s<cite>Drawn for The ENT Companion</cite></figcaption></figure>' % (
                 fign, 'pair' if len(names) > 1 else 'one', ''.join(svgs), fign, inline(cap.strip(), refs)))
             words += len(cap.split())
             continue
