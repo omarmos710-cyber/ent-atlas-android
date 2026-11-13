@@ -1,0 +1,109 @@
+@stand Percutaneous dilatational tracheostomy is done at the bedside in intensive care: a needle, a guidewire and a single tapered dilator replace the dissection of an open tracheostomy, with a bronchoscope watching from inside the trachea. It is quick and leaves a small, clean stoma, but it depends on a palpable, normal neck. The ENT surgeon is called when the neck is not normal, or when something goes wrong: a lost airway, bleeding or a misplaced tube.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Percutaneous dilatational tracheostomy
+ | Summary
+Indications | Intubated adults in intensive care needing prolonged ventilation or airway toilet; can be done in obesity and after a previous tracheostomy by experienced operators
+Contraindications | Cricoid not palpable above the sternal notch; midline neck mass or large goitre; high innominate artery; high ventilatory requirements (high PEEP or FiO2); uncorrected coagulopathy; unstable cervical spine; children; emergency airway (do a cricothyroidotomy or open tracheostomy)
+Setting | ICU, with an anaesthetist or intensivist at the head managing the tube and bronchoscope
+Anaesthesia | General (sedation and paralysis), FiO2 1.0
+Tray | Percutaneous kit (introducer needle, J-wire, 14F dilator, guiding catheter, single tapered dilator), tracheostomy tube with loading dilator, bronchoscope, open tracheostomy set on standby, ultrasound
+!!
+## Consent
+!consent What to tell the patient or family
+- **Bleeding,** usually minor; rarely major vessel injury.
+- **Loss of the airway** during the procedure (accidental extubation), needing reintubation or conversion to open tracheostomy.
+- **False passage** or a tube outside the trachea; **posterior tracheal wall** or oesophageal injury.
+- **Pneumothorax,** surgical emphysema.
+- Later: **stoma infection,** tracheal stenosis, scarring.
+!!
+## Before you start
+Palpate the neck with the head extended: thyroid and cricoid cartilages, sternal notch, and enough space between them. Ultrasound shows the trachea, the isthmus and any vessels in the path. Correct clotting, preoxygenate, and check the open set is ready.
+
+# The operation, stage by stage | Needle, wire, dilator, tube.
+## Prepare
+Lay out the kit in order on a tray, load the tracheostomy tube onto its dilator, and extend the neck. Plan the incision one to two fingerbreadths below the cricoid.
+!mf 1 | Instruments laid out in order of use.
+!see What you should see
+- The cricoid and first tracheal rings felt clearly in the midline.
+!!
+## Incise and spread
+Make a 1.5 to 2 cm horizontal skin incision and spread the fat and strap muscles bluntly in the midline with a curved clamp, without touching the thyroid isthmus. Feel the rings again.
+!see What you should see
+- The anterior tracheal wall palpable at the base of the wound.
+!!
+## Withdraw the tube under bronchoscopy
+The anaesthetist suctions the endotracheal tube, instils lidocaine, loosens the ties, passes the bronchoscope to the tube tip, deflates the cuff and withdraws tube and scope together until the light transilluminates the incision or your finger indentation is seen. Hold the tube firmly from now on.
+!see What you should see
+- The incision lit from inside, with the cuff just below the cords.
+!!
+!danger Accidental extubation
+The tube is now high, with a deflated cuff. One careless movement removes it. A named person holds the tube throughout and is ready to readvance it.
+!!
+## Puncture and pass the wire
+Insert the needle in the midline between the first and second or second and third rings, confirmed in the middle of the anterior wall on the bronchoscope. Pass the J-wire towards the carina, remove the needle and pass the 14F dilator over the wire.
+!mf 2 3 | The guidewire through the introducer needle, then the 14F dilator.
+!see What you should see
+- The needle entering at 12 o'clock between rings, the wire running down the trachea.
+!!
+## Dilate
+Wet the single tapered dilator and pass it with its guiding catheter over the wire in one smooth movement, following the curve, until the 36F mark is seen in the trachea; slight overdilatation helps. Expect some anterior wall collapse; a fractured calcified ring is not a concern.
+!mf 4 | The single tapered dilator advanced over the guiding catheter.
+!see What you should see
+- The dilator entering the lumen without tenting or tearing the posterior wall.
+!!
+## Insert the tube
+Remove the dilator and pass the tracheostomy tube on its loading dilator over the wire and catheter. Remove the loading dilator, catheter and wire, insert the inner cannula, inflate the cuff and ventilate. Confirm position with the bronchoscope through the tube and with capnography; then remove the endotracheal tube and secure the tracheostomy.
+!mf 5 | The tube passed over the guiding catheter and wire.
+!see What you should see
+- Carina seen through the tube, a normal end-tidal CO2 trace, and equal chest movement.
+!!
+!senior Senior's pearl
+Confirm with two methods: the bronchoscope down the new tube and a capnograph trace. Remove the endotracheal tube only when both are right.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Accidental extubation during the procedure
+Act | readvance the tube through the cords or reintubate ; if impossible, convert to open tracheostomy or cricothyroidotomy
+!!
+!path Tube not in the trachea (no CO2, high pressures, emphysema)
+Act | remove it ; ventilate through the oral tube or reintubate ; do not keep pushing through a false passage
+!!
+!path Bleeding
+Minor | pressure, local adrenaline, cuff inflation
+Major or persistent | open the wound and control vessels ; consider an anomalous vessel or innominate artery
+!!
+
+# Aftercare | As for any tracheostomy.
+## After surgery
+Chest X-ray if difficult; humidification, suction, inner cannula care, cuff pressure checks; first tube change at about a week only by skilled staff, since the tract is less formed than after an open tracheostomy and can close quickly if the tube falls out.
+## Complications
+Bleeding, accidental extubation, false passage, posterior wall injury, pneumothorax, surgical emphysema, stoma infection, tracheal stenosis, tracheo-innominate fistula (rare).
+!update Current evidence
+A meta-analysis of 14 randomised trials (973 patients) found percutaneous tracheostomy faster than surgical tracheostomy with fewer stoma infections and less inflammation, but more technical difficulty; among percutaneous methods, the multiple and single-step dilatational techniques carried the lowest procedural risk (Putensen et al., *Crit Care* 2014). A second meta-analysis of 24 trials (1,795 procedures) found no difference in life-threatening events or mortality between percutaneous and open techniques (Klotz et al., *Langenbecks Arch Surg* 2018).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Myers: single-dilator percutaneous tracheostomy under bronchoscopic guidance, with clear contraindications (impalpable cricoid, midline mass, high innominate, high PEEP).
+Dhingra and K. J. Lee: open tracheostomy as the standard, and percutaneous techniques as an ICU alternative.
+The literature: similar safety to open surgery, quicker, with fewer stoma infections.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Contraindications** and who should have an open tracheostomy instead.
+- The **steps** and the role of the bronchoscope.
+- **Confirmation** of placement.
+- **Complications** and their management.
+- Why the **first change** is riskier than after an open procedure.
+!!
+## Common pitfalls
+!pit
+- Attempting it in a neck where the landmarks cannot be felt.
+- Losing the endotracheal tube when withdrawing it.
+- Puncturing off the midline or through a ring.
+- Not having an open tracheostomy set ready.
+!!
