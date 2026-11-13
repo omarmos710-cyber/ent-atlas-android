@@ -1,0 +1,102 @@
+@stand An oroantral fistula is an epithelium-lined track between the mouth and the maxillary sinus, usually left after an upper molar or premolar extraction whose roots sat in the sinus floor. Small fresh communications under about 2 mm heal on their own; established fistulae do not, because the infected sinus keeps them open. Successful closure therefore does two things: clears and drains the sinus, usually by endoscopic middle meatal antrostomy, and covers the defect with healthy, well-vascularised tissue without tension.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Closure of an oroantral fistula
+ | Summary
+Symptoms | Fluid passing from mouth to nose when drinking, air leak on blowing or sucking, foul taste or discharge, pain, recurrent maxillary sinusitis
+Indications | A persisting fistula or a communication over about 2 mm that has not closed
+Assessment | Dental panoramic radiograph and CT for the bony defect, retained roots or foreign bodies, sinus disease and osteitis; biopsy any suspicious edge to exclude cancer
+Sinus | Treat sinusitis first; open the natural ostium endoscopically (middle meatal antrostomy) at the same time for larger defects or sinus disease
+Flaps | Buccal advancement flap (small to moderate); buccal fat pad flap (moderate, larger); palatal rotation flap (posterior, larger); combinations; free flaps for very large defects
+Anaesthesia | General (local for small buccal flaps)
+Tray | Oral surgery retractors, periosteal elevators, rongeurs and burrs, endoscopic sinus set, absorbable sutures
+!!
+## Consent
+!consent What to tell the patient
+- The fistula may **reopen,** needing another repair.
+- A buccal flap can make the **sulcus shallower,** affecting dentures.
+- A palatal flap leaves a raw area on the palate that heals over a few weeks.
+- **Swelling, bleeding, infection,** and numbness.
+- Sinus surgery may be done at the same time.
+!!
+## Before you start
+Identify and remove the cause: a retained root, a foreign body (such as dental filling material) or necrotic bone. Clear sinusitis with antibiotics and decongestion. Plan the flap by the size and position of the defect and the state of the surrounding tissue.
+!mf 1 2 | Dental filling material in the defect on a panoramic film, and the fistula with sinus disease on CT.
+!mf 4 | An overview of the treatment options by size.
+
+# The operation, stage by stage | Clean the sinus, then close the hole.
+## Treat the sinus
+Open the maxillary natural ostium endoscopically, remove polyps, pus and any foreign body, and irrigate. For the fistula, the sinus must drain into the nose so that pressure and infection do not reopen the repair.
+!mf 10 | A fistula with an obstructed maxillary sinus: drainage must be restored.
+!see What you should see
+- A wide middle meatal antrostomy and a clear sinus.
+!!
+## Excise the track
+Excise the epithelial lining of the fistula all round and freshen the edges. Remove necrotic bone back to bleeding bone, recessing it so the flap sits on healthy tissue.
+!mf 3 | Bone recessed to remove all necrotic bone.
+!mf 6 | The flap elevated, exposing the bony defect.
+!see What you should see
+- A clean, bleeding bony margin around the communication.
+!!
+## Buccal advancement flap
+Raise a broad-based trapezoidal mucoperiosteal flap from the buccal side, with releasing incisions angled outwards. Score the periosteum on its underside so the flap stretches across the defect, and suture it to the palatal mucosa without tension.
+!mf 7 | The buccal advancement flap.
+!see What you should see
+- The flap lying over the defect, reaching the palatal edge loosely.
+!!
+!senior Senior's pearl
+The periosteal release incision is what gives a buccal flap its length. Without it you will be pulling, and a flap under tension breaks down.
+!!
+## Buccal fat pad
+For larger defects, open the periosteum behind the zygomatic buttress, tease out the buccal fat pad on its pedicle and spread it over the defect, suturing it to the palatal mucosa; it mucosalises in a few weeks. A buccal flap can be laid over it as a second layer.
+!see What you should see
+- A well-perfused fat pad covering the defect without tension.
+!!
+## Palatal rotation flap
+For posterior defects, raise a full-thickness flap from the hard palate on the greater palatine artery, rotate it over the defect and suture it in. The exposed palatal bone heals by secondary intention under a protective plate.
+!mf 8 9 | Designing and rotating a posteriorly based palatal flap.
+!see What you should see
+- A rotated flap covering the defect, its pedicle untwisted.
+!!
+!danger The greater palatine artery
+The palatal flap lives on the greater palatine artery emerging medial to the second molar. Keep it in the flap and do not kink the pedicle at the pivot point.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path The repair opens
+Act | gentle saline irrigation ; antibiotics if infected
+Fully open | wait for healing ; plan a different flap and check the sinus drains
+!!
+
+# Aftercare | No pressure from below.
+## After surgery
+Soft diet, chlorhexidine mouthwash, antibiotics and decongestants, no nose blowing, sucking through straws or smoking for 2 weeks, sneeze with the mouth open; a palatal plate after a palatal flap; denture adjustment later.
+## Complications
+Haematoma, dehiscence and recurrence, infection, sulcus obliteration, numbness.
+!update Current evidence
+Communications smaller than about 2 mm may heal spontaneously, while larger ones need prompt closure to prevent sinusitis (Khandelwal and Hajira, *World J Plast Surg* 2017; Parvini et al., *Int J Implant Dent* 2019). In a randomised comparison, the pedicled buccal fat pad and the buccal advancement flap were equally successful in closing fistulae, with more early pain and reduced mouth opening after the fat pad (Nezafati et al., *Int J Oral Maxillofac Surg* 2012).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Myers: treat the sinus (often with endoscopic antrostomy) as well as the fistula; buccal, fat pad and palatal flaps by size; vascularised tissue for larger defects.
+Dhingra: oroantral fistula as a complication of dental extraction and the Caldwell-Luc operation, closed with buccal or palatal flaps.
+The literature: the buccal fat pad and the buccal flap give similar closure rates.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Causes** and the **2 mm** rule.
+- **Why the sinus must be treated** as well as the fistula.
+- The **flap options** and their blood supply.
+- **Post-operative** precautions.
+!!
+## Common pitfalls
+!pit
+- Closing the fistula without draining an infected sinus.
+- A flap under tension.
+- Leaving a root or foreign body in the sinus.
+- Missing a carcinoma presenting as a "fistula".
+!!
