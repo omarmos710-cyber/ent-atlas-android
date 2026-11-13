@@ -1,0 +1,109 @@
+@stand A newborn with bilateral choanal atresia turns blue when quiet and pink when crying, and needs an oral airway before anything else. The repair, now almost always endoscopic through the nose, perforates or drills the atretic plate, removes the back of the vomer to make one wide common choana, and covers bare bone with mucosal flaps. The enemy is restenosis, so the opening must be as wide as the tiny nose allows. Pyriform aperture stenosis mimics it at the front of the nose and needs a different operation.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Choanal atresia and pyriform aperture stenosis repair
+ | Summary
+Indications | Bilateral atresia: respiratory distress or failure to feed in the newborn, prolonged ventilation. Unilateral: persistent one-sided obstruction and discharge (repair electively in childhood). Pyriform aperture stenosis: distress or feeding problems not controlled conservatively
+Diagnosis | Failure to pass a 6 French catheter; endoscopy; CT after suction and decongestion (atretic plate, thick vomer, narrow posterior cavity; pyriform aperture width under about 11 mm in a term baby)
+Associations | CHARGE syndrome (about half of bilateral cases); for pyriform stenosis, a single central incisor and holoprosencephaly (check pituitary and brain)
+First aid | Oral airway or McGovern nipple, orogastric feeding; intubate if needed
+Approach | Endoscopic transnasal (standard); transpalatal for very thick bone or very narrow noses (older children)
+Anaesthesia | General
+Tray | 0 and 120 degree endoscopes (2.7 mm), urethral sounds or dilators, curved microdebrider drill, backbiters, sickle knife, bipolar, cut endotracheal tubes if stenting
+!!
+## Consent
+!consent What to tell the parents
+- **Restenosis** is common, especially in bilateral, bony atresia, syndromic babies and those operated very young; repeat dilatation or revision is often needed.
+- **Bleeding** from the sphenopalatine or posterior septal artery.
+- If stents are used: **nostril and columella injury,** blockage needing urgent care.
+- **Skull base injury** and CSF leak (rare) if instruments are misdirected.
+- The baby may still need breathing support, especially with CHARGE.
+!!
+## Before you start
+Stabilise the airway and feeding. Screen for CHARGE (heart, eyes, ears, genitalia, growth). Read the CT for the plate thickness, the vomer, the skull base height and the sphenoid.
+!mf 1 | Axial CT of choanal atresia: the atretic plate and thickened vomer.
+
+# The operation, stage by stage | Endoscopic choanoplasty.
+## Prepare and view
+Decongest with pledgets and inject the posterior septum, lateral wall and plate. Open the mouth with a Dingman retractor and place a 120 degree endoscope behind the palate to view the atresia from the nasopharynx; pass a 0 degree endoscope through the nose to the plate.
+!mf 2 | The atretic plate seen from the nasopharynx and from the nose.
+!see What you should see
+- The plate from both sides, with its thinnest point inferomedially.
+!!
+## Raise mucosal flaps
+Incise the mucosa over the plate with a sickle knife and elevate flaps to cover bone at the end (a laterally based flap or a small posterior septal flap where space allows).
+!mf 3 | Endonasal mucosal flap creation.
+!see What you should see
+- Mucosa lifted off the bony plate and preserved.
+!!
+## Perforate the plate
+Puncture the plate with a urethral sound (start at 8 to 10 French), directed *inferomedially* along the floor, under endoscopic view from behind. If the bone is too thick, start the opening with a curved diamond drill in the same inferomedial spot. Enlarge with progressively larger sounds.
+!mf 4 | Drilling the atretic plate under direct endoscopic view.
+!see What you should see
+- The instrument tip appearing in the nasopharynx on the 120 degree view, low and medial.
+!!
+!danger Up and back is the skull base
+Sounds or drills directed upwards follow the sloping skull base towards the sphenoid and brain. Keep low, medial and along the floor, with the tip seen from behind.
+!!
+## Remove the vomer and widen
+With a 2.7 mm endoscope, remove the posterior vomer with a backbiter and drill, creating one wide "neo-choana" across both sides; drill the lateral pterygoid and posterolateral wall if needed.
+!mf 5 | Removing the posterior vomer.
+!see What you should see
+- A single wide posterior opening, larger than the anterior nasal cavity will allow you to pass.
+!!
+!senior Senior's pearl
+Width beats stents. Removing the posterior vomer to make a common choana and covering raw bone with flaps prevent restenosis better than any tube.
+!!
+## Finish
+Lay the flaps over exposed bone, coagulate bleeding, irrigate and place oxymetazoline. Stents (cut 3.5 mm tubes sutured round the columella) are optional and used less often.
+!see What you should see
+- Flaps covering the bone, a clear airway on both sides, no active bleeding.
+!!
+## Transpalatal and pyriform repairs
+**Transpalatal:** raise a U-shaped palatal flap on both greater palatine arteries, divide the soft palate aponeurosis, remove the back third of the hard palate, the plate and the posterior vomer, then close; it risks palatal growth problems, so it is kept for exceptional cases. **Pyriform aperture stenosis:** through a sublabial incision, drill the bony aperture laterally and inferiorly, protecting the tooth buds and nasolacrimal ducts, and stent briefly.
+!see What you should see
+- A widened bony inlet admitting an age-appropriate tube.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Stent blocked or dislodged in a newborn
+Act | suction ; if obstructed and the baby desaturates, remove the stent and insert an oral airway
+!!
+!path Restenosis
+Act | endoscopic dilatation and revision ; widen the vomer resection
+Recurrent | consider topical mitomycin, steroid, or a stent for a short period
+!!
+
+# Aftercare | Clean, review, repeat if needed.
+## After surgery
+Neonatal intensive care monitoring; saline drops and suction; topical steroid drops; stent care if used (suction several times a day); endoscopic review and dilatation under anaesthesia as needed.
+## Complications
+Restenosis (the commonest), bleeding, stent injury to the nostril or columella, failed extubation, skull base injury, palatal fistula or growth problems after the transpalatal route.
+!update Current evidence
+**To stent or not.** A meta-analysis of bilateral atresia repair found similar success with stents (65%) and without (64%), with stent complications including alar injury, vestibular stenosis, columellar tears and blockage (Strychowsky et al., *Laryngoscope* 2016). In a comparison of 20 bilateral repairs, narrowing was commoner with stents (40% against 20%) and granulation was more frequent (Saafan, *Eur Arch Otorhinolaryngol* 2013). Endoscopic choanoplasty with a mucoperiosteal flap, wide vomer resection and no stent gives good patency (Ibrahim et al., *Int J Pediatr Otorhinolaryngol* 2010).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Myers: endoscopic repair with sounds, drill and vomer resection, mucosal flaps, optional stents, and the transpalatal route for thick bone; restenosis risk factors listed.
+Dhingra: the emergency airway (McGovern nipple), the diagnostic tests and the older transpalatal repair.
+The literature: stenting does not improve success and adds complications.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Presentation** and first aid in the newborn.
+- **CHARGE** and pyriform aperture stenosis with the single incisor.
+- The **steps** of endoscopic repair, including vomer resection.
+- **Stents:** the evidence.
+- **Restenosis** and its risk factors.
+!!
+## Common pitfalls
+!pit
+- Directing sounds upwards towards the skull base.
+- Leaving the posterior vomer.
+- Stripping all mucosa, leaving circumferential raw bone.
+- Missing pyriform aperture stenosis as the cause.
+!!
