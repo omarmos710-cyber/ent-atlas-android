@@ -1,0 +1,107 @@
+@stand Some babies are known before birth to have an airway that will not work once the cord is cut: a giant cervical teratoma or lymphatic malformation compressing the trachea, or a larynx that is closed from within (congenital high airway obstruction syndrome, CHAOS). The ex utero intrapartum treatment (EXIT) procedure delivers only the head and shoulders at caesarean section and keeps the baby on the placenta while the airway is secured by intubation, bronchoscopy or tracheostomy. Each step is familiar; the difficulty is doing them in sequence, within minutes, on a fetus whose oxygen depends on a relaxed uterus.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table The EXIT procedure
+ | Summary
+Indications | Prenatal imaging (ultrasound, fetal MRI) showing airway obstruction incompatible with life after delivery: large neck masses (teratoma, lymphatic malformation, rarer goitre or neuroblastoma), CHAOS (laryngeal atresia or web, subglottic stenosis), severe micrognathia; also EXIT-to-resection or EXIT-to-ECMO in selected cases
+Selection signs | Tracheal deviation or compression, polyhydramnios (the fetus cannot swallow), absent fluid-filled stomach, large echogenic lungs with flattened diaphragms in CHAOS
+Timing | Planned at about 35 to 38 weeks, or earlier if labour, polyhydramnios or fetal compromise intervene
+Team | Obstetricians, maternal and fetal anaesthetists, paediatric otolaryngologist and surgeons, neonatologists, scrub teams, a rehearsed plan
+Anaesthesia | Usually deep maternal general anaesthesia with high-dose volatile agent for uterine relaxation (regional techniques described); fetal analgesia and paralysis by intramuscular injection
+Time available | Usually 30 to 60 minutes of placental support; reported up to about 2.5 hours
+Tray | Neonatal laryngoscopes, 2.7 mm Hopkins telescopes (0 degree), ventilating bronchoscopes, endotracheal tubes (2.5 to 3.5, armoured), neonatal tracheostomy set and tubes, Mapleson circuit, fetal pulse oximeter, sterile ultrasound and echocardiography
+!!
+## Consent
+!consent What to tell the parents
+- The aim is to **secure the baby's airway** before the placenta is separated.
+- **The airway may not be achievable** by any route, and the baby may die.
+- **Tracheostomy** may be needed, with long-term care at home.
+- For the mother: **bleeding** from a relaxed uterus, possible **hysterectomy**, wound infection, and a classical or high uterine incision that affects **future pregnancies** (caesarean delivery advised).
+- **An alternative** is caesarean section with the airway team on the back table (lower risk for the mother, higher for the baby), or a decision not to resuscitate.
+!!
+## Before you start
+Review the fetal MRI with all teams: where the airway is, how far the mass displaces the larynx and trachea, and whether a tracheostomy site is accessible. Agree the airway ladder (laryngoscopy, then rigid bronchoscopy, then tracheostomy, then resection or ECMO) and who does each step. Rehearse; lay out two setups so that the airway can be attempted on a back table if placental support fails.
+!mf 1 | A large cervical teratoma with a tracheostomy secured during an EXIT procedure.
+
+# The operation, stage by stage | Deliver halfway, secure the airway, then cut the cord.
+## Uterine relaxation and exposure
+The obstetric team performs a wide low transverse laparotomy, maps the placental edge with sterile ultrasound, and opens the uterus at least 6 cm from it with a haemostatic stapling device. Warm crystalloid is infused into the uterus to keep amniotic volume and the baby warm.
+!mf 3 | The layout of the room for an EXIT procedure.
+!see What you should see
+- A soft, relaxed uterus and a hysterotomy away from the placenta.
+!!
+## Partial delivery and monitoring
+Deliver only the head, neck and an arm; full delivery triggers uterine contraction and placental separation. Place a fetal pulse oximeter on the hand, an intravenous line if possible, and run continuous sterile fetal echocardiography. Give fetal intramuscular analgesia and paralysis.
+!see What you should see
+- Fetal saturations around 50 to 70% (normal on the placenta) and a steady fetal heart rate.
+!!
+!danger Watch the cord and the mother
+Kinking or compression of the cord, loss of amniotic volume or placental separation causes sudden fetal bradycardia. Maternal hypotension from deep anaesthesia reduces placental flow. Fetal heart rate is the alarm: tell the team the moment it falls.
+!!
+## Laryngoscopy and intubation
+Attempt direct laryngoscopy and oral intubation first. If the larynx cannot be seen, use a 0 degree telescope or a ventilating bronchoscope to define the anatomy; a 3.0 tube loaded over a 2.7 mm telescope can be passed under vision (Seldinger-style). No ventilation is needed while the placenta supports the baby. Confirm position, secure the tube with great care, and ask for surfactant if the lungs are immature.
+!mf 2 | A cervicofacial lymphatic malformation intubated orally during an EXIT procedure.
+!mf 4 | Direct laryngoscopy and intubation on placental support.
+!see What you should see
+- A tube through the cords, confirmed by telescope or end-tidal carbon dioxide once ventilated.
+!!
+## Tracheostomy if intubation fails
+Make a transverse incision a finger's breadth or two above the sternal notch, expose the upper rings, confirm the cricoid and thyroid cartilages above, place vertical traction sutures either side of the midline, and incise the second and third rings vertically with the blade turned outwards to protect the back wall. Insert a neonatal tracheostomy tube, tie it, and test bag ventilation before the cord is touched.
+!mf 5 | Tracheostomy on placental support for a large teratoma.
+!see What you should see
+- Chest movement and a carbon dioxide trace with bag ventilation through the tube.
+!!
+!senior Senior's pearl
+Prove ventilation before the cord is clamped. Once the cord is cut there is no second chance on the placenta; the baby goes from a stable fetus to an apnoeic neonate. In a giant mass, the tracheostomy may need to go through or around the tumour, or the mass may need resecting on placental support.
+!!
+## Clamp the cord and close
+When the airway is secure and ventilation proven, clamp and divide the cord; the baby goes to the neonatal team. The anaesthetist reverses uterine relaxation (volatile agent reduced, uterotonics given) before the uterus is closed.
+!see What you should see
+- A ventilated neonate on the resuscitaire and a uterus contracting.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Fetal bradycardia on placental support
+Act | check cord for kinking ; restore amniotic volume ; raise maternal blood pressure ; deepen uterine relaxation
+Failing | clamp the cord ; airway attempt on the back table (intubation, bronchoscopy, tracheostomy)
+!!
+!path Cannot intubate, cannot reach the trachea
+Act | rigid ventilating bronchoscope past the obstruction ; tracheostomy through or below the mass ; resection of the mass on placental support ; ECMO if prepared
+!!
+!path Maternal haemorrhage after delivery
+Act | stop volatile agent ; oxytocin and other uterotonics ; uterine massage ; blood products ; surgical control
+!!
+
+# Aftercare | Two patients.
+## After surgery
+The baby goes to neonatal intensive care with the airway secured; plan definitive treatment of the mass (resection, sclerotherapy) and decannulation later. The mother is watched for bleeding and is advised that future deliveries should be by caesarean section.
+## Complications
+Fetal: hypoxia, death, failed airway, pneumothorax (the neonatal lung apex is high in the neck), injury to the larynx, trachea or oesophagus. Maternal: haemorrhage from uterine atony, infection, wound breakdown, uterine rupture in later pregnancies.
+!update Current evidence
+A systematic review of 235 EXIT procedures for oral or cervical tumours (most commonly teratoma, 46%) found postpartum haemorrhage in 4.7% of mothers and no maternal deaths; failed intubation or tracheostomy occurred in 3.4% of fetuses, and fetal or neonatal death in 17% (Novoa et al., *J Pediatr Surg* 2020). In a single-centre series of giant neck masses, the airway was secured in all 12 fetuses, mostly by rigid bronchoscopy (Lazar et al., *J Pediatr Surg* 2011). General anaesthesia was used in most reported cases, but regional techniques have also been successful (Kumar et al., *J Anaesthesiol Clin Pharmacol* 2019).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Myers: the step-by-step team procedure, the airway ladder from laryngoscopy to tracheostomy, and the back-table alternative.
+Oxford Textbook: EXIT among paediatric airway procedures, planned weeks in advance for large obstructing lesions and laryngeal atresia.
+K. J. Lee: EXIT in the management of congenital neck masses and CHAOS.
+The literature: substantial fetal mortality and low maternal morbidity in published series.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Indications** and prenatal signs (polyhydramnios, CHAOS).
+- **Why partial delivery** and uterine relaxation matter.
+- **The airway ladder** and who does what.
+- **Maternal risks** and the alternative of back-table delivery.
+!!
+## Common pitfalls
+!pit
+- Delivering the whole baby.
+- Clamping the cord before ventilation is proven.
+- No rehearsed plan for failed intubation.
+- Forgetting the mother: haemorrhage from atony.
+!!
