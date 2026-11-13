@@ -1,0 +1,98 @@
+@stand Balloon sinus dilation opens a natural sinus outflow tract by fracturing and pushing aside its bony walls instead of cutting them away. It keeps the mucosa, can be done in clinic under local anaesthetic, and suits mild disease confined to the maxillary, frontal or sphenoid drainage pathways. It does not remove polyps, open ethmoid cells or create the wide cavities needed for topical steroid delivery, so it is a tool for selected patients, not a replacement for endoscopic sinus surgery.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Balloon sinus dilation
+ | Summary
+Indications | Mild to moderate chronic rhinosinusitis of the maxillary, frontal or sphenoid sinus despite medical treatment; recurrent acute rhinosinusitis; scarred or stenosed ostia after previous surgery; patients unfit for general anaesthesia (anticoagulated, frail); with endoscopic surgery as a hybrid
+Contraindications | Headache or sleep apnoea without sinusitis; no CT evidence of disease; extensive polyps or ethmoid disease; osteitic or neo-osteogenic ostia; fungal sinusitis; tumour
+Must have | A CT scan before treatment
+Anaesthesia | Local (clinic) or general
+Position | Supine or semi-sitting
+Tray | 0 and 30 degree endoscopes, balloon system with bendable guide and light-guided wire or probe, inflation device, decongestants, dissolvable packs
+!!
+## Consent
+!consent What to tell the patient
+- Symptoms usually improve, but the evidence is weaker than for endoscopic sinus surgery and some need further surgery.
+- The risks are those of sinus surgery but less frequent: **bleeding, scarring, orbital injury and vision loss, CSF leak** (all rare).
+- Facial **pressure and congestion** for a few days.
+- If a sinus cannot be entered safely, it will be **left alone.**
+!!
+## Before you start
+Confirm chronic or recurrent rhinosinusitis by symptoms, endoscopy and CT. Study the CT for the uncinate attachment, frontal recess cells, the sphenoid ostium and its relation to the optic nerve and carotid, and any dehiscent lamina papyracea or skull base.
+!mf 1 | Balloon dilation of the maxillary, frontal and sphenoid outflow tracts.
+
+# The operation, stage by stage | Frontal, sphenoid, then maxillary.
+## Prepare
+Decongest and anaesthetise topically, and inject the lateral nasal wall and middle turbinate if working awake. Medialise the middle turbinate gently. Work in the order frontal, sphenoid, maxillary, bending the guide for each.
+!see What you should see
+- The uncinate process, bulla and middle meatus in view.
+!!
+## Frontal
+Bend the guide to the frontal angle. Stay **in front of the bulla ethmoidalis** to find the frontal recess, pass the light wire or probe up the recess and confirm placement by transillumination of the forehead (and navigation if used). Advance the balloon over it and inflate.
+!see What you should see
+- Bright transillumination of the frontal sinus before any inflation.
+!!
+!danger Never force a balloon
+If the wire or probe will not pass easily, it may be heading for the orbit or the skull base. Abandon that sinus rather than push.
+!!
+## Sphenoid
+Find the natural ostium medial to the superior turbinate in the sphenoethmoidal recess, enter it gently and dilate.
+!see What you should see
+- The guide passing into the sphenoid along the line of the ostium, not lateral towards the optic nerve and carotid.
+!!
+## Maxillary
+Probe the maxillary outflow tract behind the uncinate with a curved probe to make room, bend the guide to about 120 degrees, enter the ostium and confirm by transillumination of the cheek. Inflate to about 12 atmospheres for about 5 seconds, three times, angling the device forwards, downwards and backwards.
+!see What you should see
+- A widened maxillary ostium on the 30 degree endoscope.
+!!
+## Finish
+Inspect each opened ostium, suction blood and mucus, and pack only if oozing.
+!see What you should see
+- Patent, intact-mucosa ostia with little bleeding.
+!!
+!senior Senior's pearl
+Balloon dilation works on the natural ostium. If the disease is in the ethmoid cells or there are polyps, the balloon cannot treat it; choose endoscopic sinus surgery or a hybrid.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Bleeding during dilation
+Act | adrenaline-soaked patties
+Continuing | dissolvable middle meatal pack
+!!
+!path Orbital signs after a frontal or maxillary dilation
+Act | as for orbital injury in sinus surgery: check vision and pressure ; lateral canthotomy for a tense orbit ; ophthalmology now
+!!
+
+# Aftercare | Quick recovery.
+## After surgery
+Sneeze with the mouth open and avoid nose blowing for a week; start saline irrigation at a week; review at a week. Congestion responds to decongestants or a short course of oral steroid.
+## Complications
+Failure to cannulate, bleeding, scarring and restenosis, orbital injury, CSF leak, persistent symptoms needing endoscopic sinus surgery.
+!update Current evidence
+**Consensus.** An expert consensus statement agreed that dilation should not be done for headache or sleep apnoea without sinusitis criteria, and that a sinus CT is required beforehand; most other statements did not reach consensus, reflecting limited evidence (Piccirillo et al., *Otolaryngol Head Neck Surg* 2018).
+**Outcomes.** A systematic review of 17 studies, mostly of patients with limited disease, found improved quality of life (SNOT-20) and sinus opacification at a year, but called the evidence incomplete (Levy et al., *Otolaryngol Head Neck Surg* 2016). A randomised trial of maxillary disease without severe CT findings found similar quality of life gains after balloon dilation and endoscopic sinus surgery (Bizaki et al., *Rhinology* 2014).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Myers: balloon dilation for mild to moderate maxillary, frontal or sphenoid disease and stenosed ostia, alone or as a hybrid, with risks like those of endoscopic surgery but less frequent.
+K. J. Lee and the Oxford books: endoscopic sinus surgery remains the standard for chronic rhinosinusitis, particularly with polyps.
+The literature: benefit in selected limited disease; consensus that CT and a true sinusitis diagnosis come first.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Who** is suitable and who is not.
+- **How** it works (fracture and displacement of the ostial walls, mucosal preservation).
+- **Transillumination** to confirm placement.
+- **Evidence** and its limits compared with endoscopic sinus surgery.
+!!
+## Common pitfalls
+!pit
+- Dilating patients with headache but no sinusitis.
+- Forcing a guide that will not pass.
+- Using a balloon for polyps or ethmoid disease.
+- Treating without a CT.
+!!
