@@ -23,7 +23,7 @@ self.addEventListener("fetch",e=>{const req=e.request;if(req.method!=="GET")retu
   if(/fonts\.(googleapis|gstatic)\.com$/.test(url.hostname)){e.respondWith((async()=>{const c=await caches.open("ent-atlas-ext");
     const hit=await c.match(req);if(hit)return hit;try{const r=await fetch(req);c.put(req,r.clone());return r}catch(err){return Response.error()}})());return}
   if(url.origin!==location.origin)return;
-  if(req.mode==="navigate"){e.respondWith((async()=>{
+  if(req.mode==="navigate"&&!/\.[a-z0-9]{2,5}$/i.test(url.pathname.replace(/\/$/,""))||req.mode==="navigate"&&/\.html?$/i.test(url.pathname)){e.respondWith((async()=>{
     try{const ctl=new AbortController();const t=setTimeout(()=>ctl.abort(),3000);const r=await fetch(req,{signal:ctl.signal});clearTimeout(t);
       if(r.ok||r.type==="opaqueredirect")return r}catch(err){}
     return (await caches.match("./"))||Response.error()})());return}

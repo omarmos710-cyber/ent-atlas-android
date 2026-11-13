@@ -1357,6 +1357,13 @@ body{margin-top:0;margin-bottom:0}
 .upbar{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(96px + env(safe-area-inset-bottom));z-index:9999;border:0;border-radius:999px;background:#151922;color:#F3F3EF;font:600 13.5px var(--f-body);padding:12px 18px;box-shadow:0 8px 24px rgba(0,0,0,.25);white-space:nowrap}
 @media(max-width:600px){.top .brand{font-size:clamp(13px,calc((100vw - 200px) / 9.4),20px);gap:8px}.top{gap:4px;padding-left:max(16px,env(safe-area-inset-left,0px))!important;padding-right:max(16px,env(safe-area-inset-right,0px))!important}.top .iconbtn,.top .topicon{width:34px;height:34px;padding:0;font-size:0;gap:0;justify-content:center}}
 .top .iconbtn,.top .brand .mark{flex:none}.top .brand{flex:none}
+.pdfbusy{opacity:.55;pointer-events:none}
+.mv2 .mlist .lrow>svg:last-child{color:var(--muted);flex:none;opacity:.7}
+.mv2 .msec,.pdgrp+.pdgrp{margin-top:0}
+.pdgrp{border-bottom:1px solid var(--line)}.pdgrp summary{list-style:none;display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:16px 2px;cursor:pointer;font:500 18px/1.25 var(--f-display);color:var(--ink)}
+.pdgrp summary::-webkit-details-marker{display:none}.pdgrp summary small{font:500 12.5px var(--f-body);color:var(--muted)}.pdgrp[open] summary{color:var(--accent)}
+.pdgrp .mlist{margin:0 0 10px}.pdsub{font:700 11px var(--f-body);letter-spacing:.13em;text-transform:uppercase;color:var(--muted);padding:16px 2px 6px;border-bottom:1px solid var(--line)}.pdrow{min-height:52px!important}.pdrow .pt strong{font:500 16px/1.3 var(--f-display)!important}
+.mabout{color:var(--muted);font-size:13.5px;line-height:1.55;margin:14px 2px 0}.mabout b{color:var(--ink);font:500 17px var(--f-display)}
 </style>
 
 <div id="boot" role="status" aria-label="Loading The ENT Companion"><div class="bwrap"><div class="spin"></div><span>The ENT Companion</span></div></div>
@@ -6298,7 +6305,7 @@ function vRegion(id,opt){const r=RMAP[id];if(!r)return vAtlas();
   const st=regionStats(r),figs=regionFigs(id),i=REGIONS.indexOf(r),prev=REGIONS[i-1],next=REGIONS[i+1];
   V().innerHTML=`<div class="hero"><span class="eyebrow">${esc(r.g||"")} · region ${r.n} of ${REGIONS.length} · ${st.read}/${st.secs} read</span><h1>${esc(r.name)}</h1><p class="lede">${esc(r.blurb)}</p></div>
   <div class="actions"><button class="btn primary" data-deck="${r.id}" data-mode="smart">Study ${st.cards} cards</button>
-  <button class="btn" data-qregion="${r.id}">Quiz this region</button>${drillCount(r.id)?`<button class="btn" data-drill="${r.id}">Label drill (${drillCount(r.id)} figures)</button>`:""}<button class="btn" data-pdf="${r.id}">Download PDF summary</button></div>
+  <button class="btn" data-qregion="${r.id}">Quiz this region</button>${drillCount(r.id)?`<button class="btn" data-drill="${r.id}">Label drill (${drillCount(r.id)} figures)</button>`:""}${!APDF||APDF.has(r.id)?`<button class="btn" data-pdf="${r.id}">Download PDF summary</button>`:""}</div>
   <nav class="jump" aria-label="Sections">${r.sections.map(s=>`<a href="#${s.id}" data-jump="${s.id}" class="${ST.read[s.id]?"done":""}">${esc(s.t)}</a>`).join("")}</nav>
   ${figs.length?`<div class="h2row"><h2>Figures</h2><span class="eyebrow">${figs.length} from your handouts</span></div>
   <div class="strip">${figs.map(k=>`<button class="thumb" data-fig="${k}" data-set="${fsetId(figs)}" aria-label="${esc(FIG[k][0])}"><img src="${figThumb(k)}" alt="" loading="lazy" decoding="async"></button>`).join("")}</div>`:""}
@@ -6663,17 +6670,19 @@ document.addEventListener("click",e=>{if(!DR&&!e.target.closest("[data-drillmenu
 /* ---------------- PDF DOWNLOADS ---------------- */
 document.addEventListener("click",async e=>{const b=e.target.closest("[data-pdf]");if(!b)return;e.preventDefault();
   const id=b.dataset.pdf,r=RMAP[id],name=(b.dataset.pdfname||("ENT Anatomy - "+r.name)).replace(/[&]/g,"and").replace(/[^\w ,.-]/g,"")+".pdf";
-  const label=b.textContent;b.disabled=true;b.textContent="Preparing PDF…";
-  if(window.Android){try{Android.openPdf(id,name)}catch(err){toast("Couldn't open the PDF")}b.disabled=false;b.textContent=label;return}
+  const label=b.innerHTML;b.disabled=true;b.classList.add("pdfbusy");
+  if(window.Android){try{Android.openPdf(id,name)}catch(err){toast("Couldn't open the PDF")}b.disabled=false;b.classList.remove("pdfbusy");b.innerHTML=label;return}
   try{const dl=window.claude&&window.claude.use?await window.claude.use("downloads"):null;
-    if(!dl){const href="pdf/"+id+".pdf",ios=/iP(hone|ad|od)/.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1);
-      if(ios){if(!window.open(href,"_blank"))location.href=href}
-      else{const a=document.createElement("a");a.href=href;a.download=name;a.rel="noopener";document.body.appendChild(a);a.click();a.remove();toast("PDF downloading")}
-      b.disabled=false;b.textContent=label;return}
+    /* fetch the file first (from the offline copy when there is one), so a slow or failed download never navigates away from the app */
     const res=await fetch("pdf/"+id+".pdf");if(!res.ok)throw new Error("fetch");const blob=await res.blob();
-    await dl.save({filename:name,data:blob});toast("PDF saved")}
-  catch(err){const c=err&&err.code;toast(c==="declined"?"Download cancelled":c==="rate_limited"?"Another download is waiting for your answer":"Couldn't prepare the PDF. Try again in a moment.")}
-  b.disabled=false;b.textContent=label});
+    if(blob.size<1000||!/pdf/i.test(blob.type||"application/pdf"))throw new Error("fetch");
+    if(dl){await dl.save({filename:name,data:blob});toast("PDF saved")}
+    else{const file=new Blob([blob],{type:"application/pdf"}),u=URL.createObjectURL(file),ios=/iP(hone|ad|od)/.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1);
+      if(ios){if(!window.open(u,"_blank"))location.href=u}
+      else{const a=document.createElement("a");a.href=u;a.download=name;a.rel="noopener";document.body.appendChild(a);a.click();a.remove();toast("PDF saved to your downloads")}
+      setTimeout(()=>URL.revokeObjectURL(u),60000)}}
+  catch(err){const c=err&&err.code;toast(c==="declined"?"Download cancelled":c==="rate_limited"?"Another download is waiting for your answer":navigator.onLine===false?"This PDF isn't saved offline yet. Connect to the internet and try again.":"Couldn't prepare the PDF. Try again in a moment.")}
+  b.disabled=false;b.classList.remove("pdfbusy");b.innerHTML=label});
 
 /* ================= v8 FEATURES: zoom & pan, mistake notebook, tracer, build the order ================= */
 
@@ -7013,7 +7022,7 @@ vRegion=function(id,opt){const r=RMAP[id];if(!r)return vAtlas();
       ${row(`data-qregion="${id}"`,nq,"Quiz",`Single best answer${acc?` · average ${acc.pct}%`:""}`,"c3")}
       ${row(`data-mreg="${id}"`,mc.total,"My mistakes",mc.total?`${mc.q} MCQs · ${mc.c} cards · ${mc.df} drill figures`:"Nothing to redo yet","c4")}</div>
      ${ts.length||os.length?`<div class="h2row"><h2>Trace &amp; order</h2></div><div class="trchips">${ts.map(t=>`<button class="chip big" data-go="tracer:${t.id}" style="--k:${KIND[t.kind][1]}"><i class="dot"></i>${esc(t.name)}</button>`).join("")}${os.map(o=>`<button class="chip big" data-go="order:${o.id}"><i class="dot" style="--k:var(--vein)"></i>Order: ${esc(o.title)}</button>`).join("")}</div>`:""}
-     ${HAS_PDF?`<div class="h2row"><h2>Take it with you</h2></div><div class="prows"><button class="prow" data-pdf="${id}"><span class="pn c0">${ic("pdf",20)}</span><span class="pt"><strong>PDF summary</strong><small>Notes, tables and figures for ${esc(r.name)}</small></span></button></div>`:""}`}
+     ${HAS_PDF&&(!APDF||APDF.has(id))?`<div class="h2row"><h2>Take it with you</h2></div><div class="prows"><button class="prow" data-pdf="${id}"><span class="pn c0">${ic("pdf",20)}</span><span class="pt"><strong>PDF summary</strong><small>Notes, tables and figures for ${esc(r.name)}</small></span></button></div>`:""}`}
   else if(RTAB==="imaging"){body=imagingTabHTML(id)}
   else{const t=regionTablesHTML(id);body=t||`<p class="empty">No tables or mnemonics for this region yet.</p>`}
   V().innerHTML=`<div class="rhead" style="--gc:${col}"><button class="back" data-go="atlas" aria-label="Back to Atlas">${ic("back",20)}</button>
@@ -8691,6 +8700,59 @@ window.clAfterTheatre=function(arg){const m=/^op-(\d+)/.exec(arg||"");const w=do
 const vs=vSearch;vSearch=function(){vs.apply(this,arguments);const q=document.getElementById("q");if(!q)return;const hero=q;const box=document.createElement("div");box.id="clres";hero.insertAdjacentElement("afterend",box);const up=()=>{const t=q.value.trim().toLowerCase();if(t.length<2){box.innerHTML="";return}const c=TL.filter(x=>x[1].toLowerCase().includes(t)).slice(0,6),o=OPL.filter(x=>x[1].toLowerCase().includes(t)).slice(0,6);box.innerHTML=(c.length?`<div class="clgh" style="color:#1F4E6B">Clinical</div><div class="cllist">${rows(c)}</div>`:"")+(o.length?`<div class="clgh" style="color:#1F5B4A">Surgical</div><div class="cllist">${o.map(([n,x])=>`<button class="clrow op" data-go="th:op-${n}"><span class="m"><b>${esc(x)}</b></span>${ic("chev",16)}</button>`).join("")}</div>`:"")};q.addEventListener("input",up);up()};
 const vm=vMore;vMore=function(){vm.apply(this,arguments);const l=document.querySelector("#view .mlist");if(l)l.insertAdjacentHTML("afterbegin",`<button class="mrow" data-go="imaging">${ic("imaging",20)}<span class="pt"><strong>Imaging</strong><small>Scans, conditions and spot diagnosis</small></span>${ic("chev",18)}</button>`)};
 EXTRA.more=vMore;
+/* ================= More (v2): every part of the app, the PDF library, reading, progress and about ================= */
+ICON.calc='<rect x="5" y="3" width="14" height="18" rx="2.5"/><path d="M8.5 7h7M8.5 11.5h.01M12 11.5h.01M15.5 11.5h.01M8.5 15h.01M12 15h.01M15.5 15h.01M8.5 18h.01M12 18h3.5"/>';
+ICON.info='<circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/>';
+ICON.lib='<path d="M4 4.5h5v15H4zM10 4.5h4v15h-4z"/><path d="m15 5.2 3.8-1 3.2 14.8-3.8.9z"/>';
+const mrowL=(go,i,t,s,attr)=>`<button class="mrow lrow" ${attr||`data-go="${go}"`}><span class="lico">${ic(i,19)}</span><span class="pt"><strong>${t}</strong><small>${s}</small></span></button>`;
+vMore=function(){const native=!!(window.claude&&window.claude.use),web=!window.Android;
+  const nPdf=(HAS_PDF?REGIONS.filter(r=>APDF.has(r.id)).length:0)+(window.CLINIC_DATA?CLINIC_DATA.t.length:248)+5;
+  V().innerHTML=`<div class="hero"><span class="eyebrow">More</span><h1>More</h1></div><div class="tbody mv2">
+  <section><h2 class="msec">Library</h2><div class="mlist llist">
+   ${mrowL("pdfs","pdf","Offline PDFs",`${nPdf} PDFs: anatomy, diseases, approaches, drugs and imaging`)}
+   ${mrowL("cl:calc","calc","Dose calculator","Weight-based doses, local anaesthetic maximums and emergency drugs")}
+   ${mrowL("tables","tables","Tables &amp; mnemonics",`${TABLES.length} tables · ${MNEM.length} mnemonics`)}
+   ${mrowL("tracer","tracer","Nerve &amp; vessel tracer",`${TRACE.length} courses`)}
+   ${mrowL("figures","figures","Figures","Every figure in the app, by region")}
+   ${mrowL("saved","saved","Saved","Sections, cards, tables and figures you starred")}
+   ${mrowL("sources","lib","Sources","The books and handouts behind the app")}
+  </div></section>
+  <section><h2 class="msec">Reading</h2><div class="card set"><span class="slabel">Text size</span><div class="seg3" role="group" aria-label="Text size">${[["s","Small"],["m","Medium"],["l","Large"]].map(([v,l])=>`<button data-fs="${v}" aria-pressed="${PREF.fs===v}" class="fs-${v}">Aa ${l}</button>`).join("")}</div>
+   <span class="slabel">Appearance</span><div class="themes" role="group" aria-label="Appearance">${[["light","Light"],["dark","Night"],["auto","Auto"]].map(([v,l])=>`<button data-theme-set="${v}" aria-pressed="${PREF.theme===v}"><i class="sw sw-${v}"></i>${l}</button>`).join("")}</div>
+   <label class="srow">Show reading progress bar <input type="checkbox" data-pbar ${PREF.pbar?"checked":""}></label></div></section>
+  <section><h2 class="msec">Your progress</h2><div class="card set"><p class="sync" id="sync"></p>
+   ${native?"":`<p class="lede small">Back up to move your progress to another phone or browser.</p><div class="two"><button class="btn" id="bk2-exp">Back up my progress</button><label class="btn" style="cursor:pointer;text-align:center">Restore a backup<input type="file" id="bk2-imp" accept=".json,application/json,text/plain,*/*" hidden></label></div>`}</div></section>
+  <section><h2 class="msec">About</h2><div class="mlist llist">
+   ${web&&"serviceWorker" in navigator?mrowL("","check","Check for updates","Load the newest version now",'data-upd="1"'):""}
+  </div><p class="mabout"><b>The ENT Companion</b><br>Anatomy, clinical ENT, drugs, imaging and operative surgery for the ENT resident, in one offline reference. For personal study; check doses and decisions against your local guidance.</p></section></div>`;
+  updateSync()};
+EXTRA.more=vMore;
+/* the PDF library */
+var APDF=new Set("embryo et extear facial inner itf larynx mandible midear neck neckbones nose oral orbit pharynx salivary sinus skullbones temporal thyroid trigeminal vessels".split(" "));
+let PDFQ="";
+function pdfCat(){const C=window.CLINIC_DATA,G=[];
+  if(HAS_PDF)G.push(["Anatomy",REGIONS.filter(r=>APDF.has(r.id)).map(r=>[r.id,r.name,"ENT Anatomy - "+r.name])]);
+  if(C){const T=C.t,nm=t=>"The ENT Companion - "+t.t;
+    ["ear","nose","mouth","larynx","neck"].forEach(g=>{const l=T.filter(t=>t.g===g);if(l.length)G.push(["Diseases · "+C.g[g],l.map(t=>["cl_"+t.id,t.t,nm(t)])])});
+    G.push(["Approach to…",T.filter(t=>t.g==="appr").map(t=>["cl_"+t.id,t.t,nm(t)])]);
+    G.push(["Drugs",Object.keys(C.dc).flatMap(k=>{const l=T.filter(t=>t.g==="drug"&&t.dc===k);return l.length?[["#",C.dc[k]]].concat(l.map(t=>["cl_"+t.id,t.t,nm(t)])):[]})]);
+    G.push(["Imaging course",T.filter(t=>t.g==="imgl").map(t=>["cl_"+t.id,t.t,nm(t)])])}
+  G.push(["Imaging conditions by area",[["ear","Ear"],["nose","Nose, sinuses and orbit"],["mouth","Mouth, throat and salivary glands"],["neck","Larynx and neck"],["face","Face, jaw and skull base"]].map(([k,t])=>["imc_"+k,t,"The ENT Companion - Imaging conditions - "+t])]);
+  return G.filter(g=>g[1].length)}
+function pdfList(){const q=PDFQ.trim().toLowerCase(),G=pdfCat();
+  const row=([id,t,n])=>id==="#"?`<div class="pdsub">${esc(t)}</div>`:`<button class="mrow lrow pdrow" data-pdf="${id}" data-pdfname="${esc(n)}"><span class="lico">${ic("pdf",17)}</span><span class="pt"><strong>${esc(t)}</strong></span></button>`;
+  if(q){const l=G.flatMap(([g,r])=>r.filter(x=>x[0]!=="#"&&x[1].toLowerCase().includes(q)||g.toLowerCase().includes(q)).map(x=>[g,x]));
+    return l.length?`<div class="mlist llist">${l.map(([g,x])=>row(x).replace("</strong>",`</strong><small>${esc(g)}</small>`)).join("")}</div>`:`<p class="empty">No PDFs match.</p>`}
+  return G.map(([g,r])=>`<details class="pdgrp"><summary><span>${esc(g)}</span><small>${r.filter(x=>x[0]!=="#").length}</small></summary><div class="mlist llist">${r.map(row).join("")}</div></details>`).join("")}
+function vPdfs(){const draw=()=>{V().innerHTML=`<div class="hero"><span class="eyebrow">More</span><h1>Offline PDFs</h1><p class="lede">Every chapter as a printable PDF, laid out for reading away from the app.</p></div>
+  <div class="tbody"><input type="search" id="pdq" class="clsearch iq" aria-label="Search PDFs" placeholder="Search a PDF: otosclerosis, ciprofloxacin…" value="${esc(PDFQ)}"><div id="pdlist">${pdfList()}</div></div>`};
+  if(window.CLINIC_DATA)return draw();V().innerHTML=`<div style="padding:60px 0;color:var(--muted)">Opening…</div>`;
+  const s=document.createElement("script");s.src="clinic/data.js";s.onload=()=>{if(cur==="pdfs")draw()};s.onerror=()=>{if(cur==="pdfs")draw()};document.head.appendChild(s)}
+EXTRA.pdfs=vPdfs;TABOF.pdfs="more";
+document.addEventListener("input",e=>{if(e.target.id==="pdq"){PDFQ=e.target.value;$("#pdlist").innerHTML=pdfList()}});
+document.addEventListener("click",e=>{if(!e.target.closest("[data-upd]"))return;toast("Checking for updates…");
+  navigator.serviceWorker.getRegistration().then(r=>r?r.update().then(()=>{if(r.installing||r.waiting)toast("Downloading the new version…");else{toast("You have the newest version")}}):location.reload()).catch(()=>location.reload())});
+
 const tb=document.querySelector(".top");const more=document.createElement("button");more.className="topicon";more.setAttribute("aria-label","More");more.dataset.go="more";more.innerHTML=ic("more",18);if(tb)tb.appendChild(more);
 const h=window._h0||"";if(/^cl-/.test(h))go(h.replace("-",":"));
 })();
