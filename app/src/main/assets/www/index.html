@@ -1355,19 +1355,19 @@ body{margin-top:0;margin-bottom:0}
 .icourse .cgroup small,.advgrp .cgroup small{display:block;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted);margin:3px 0 0;font-size:12.5px}
 .icourse .prow.done .pn{color:var(--accent)}
 .upbar{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(96px + env(safe-area-inset-bottom));z-index:9999;border:0;border-radius:999px;background:#151922;color:#F3F3EF;font:600 13.5px var(--f-body);padding:12px 18px;box-shadow:0 8px 24px rgba(0,0,0,.25);white-space:nowrap}
-@media(max-width:400px){.top .brand .bthe{display:none}.top .brand{font-size:17.5px;gap:8px}.top{gap:6px}}
-.top .iconbtn,.top .brand .mark{flex:none}.top .brand{min-width:0}
+@media(max-width:600px){.top .brand{font-size:clamp(13px,calc((100vw - 200px) / 9.4),20px);gap:8px}.top{gap:4px;padding-left:max(16px,env(safe-area-inset-left,0px))!important;padding-right:max(16px,env(safe-area-inset-right,0px))!important}.top .iconbtn,.top .topicon{width:34px;height:34px;padding:0;font-size:0;gap:0;justify-content:center}}
+.top .iconbtn,.top .brand .mark{flex:none}.top .brand{flex:none}
 </style>
 
 <div id="boot" role="status" aria-label="Loading The ENT Companion"><div class="bwrap"><div class="spin"></div><span>The ENT Companion</span></div></div>
 <div id="busy" aria-hidden="true"><i></i></div><div id="busypill" role="status" aria-live="polite"><span class="spin"></span>Loading</div>
 <div class="app">
   <aside class="side" id="side">
-    <div class="brand"><span class="mark">H&amp;N</span><span class="bthe">The </span>ENT Companion</div>
+    <div class="brand"><span class="mark">H&amp;N</span><span class="bnm">The ENT Companion</span></div>
   </aside>
   <div style="min-width:0">
     <header class="top">
-      <div class="brand"><span class="mark">H&amp;N</span><span class="bthe">The </span>ENT Companion</div>
+      <div class="brand"><span class="mark">H&amp;N</span><span class="bnm">The ENT Companion</span></div>
       <span class="sp"></span>
       <button class="iconbtn" data-go="search" aria-label="Search">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>Search</button>
