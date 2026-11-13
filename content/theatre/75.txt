@@ -1,0 +1,105 @@
+@stand The neck packs the airway, the great vessels, the pharynx and oesophagus, and the nerves into a small space, so a stab or gunshot wound that breaches platysma can kill in minutes or hide an oesophageal tear that kills in days. Management has moved from mandatory exploration by zone to a "no zone" approach: operate at once on hard signs, image everyone else who is stable with CT angiography, and explore selectively. The ENT surgeon's role is the airway, the exploration and the aerodigestive repair.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Penetrating neck injury
+ | Summary
+Immediate exploration (hard signs) | Shock, pulsatile bleeding, expanding haematoma, absent pulse, stroke signs, bruit or thrill, airway compromise or hoarseness with stridor, air bubbling through the wound, extensive surgical emphysema
+Stable, soft signs or no signs | CT angiography of the neck (and chest if low); then endoscopy, contrast swallow or exploration guided by findings and trajectory
+Wound does not breach platysma | Local care and closure
+Zones (still useful for exposure) | I: clavicle to cricoid (thoracic outlet); II: cricoid to mandible angle; III: above the mandible angle to the skull base
+Airway | Secure early: intubation by an expert with a surgical airway ready; awake tracheostomy or intubation through a tracheal wound in laryngotracheal injury
+Antibiotics | For contaminated wounds and aerodigestive injury; tetanus prophylaxis
+Tray | Neck exploration and vascular sets, shunts, Fogarty catheters, rigid and flexible endoscopes, drains
+!!
+## Consent
+!consent What to tell the patient (often an emergency)
+- Life-saving surgery for bleeding or airway, sometimes a **tracheostomy.**
+- **Stroke** from carotid injury or its repair; ligation of a major vessel if repair is impossible.
+- **Nerve injury:** hoarseness (vagus, recurrent laryngeal), tongue weakness (hypoglossal), shoulder weakness (accessory), Horner syndrome.
+- **Leak** from a pharyngeal or oesophageal repair, neck infection, mediastinitis; feeding tube.
+- **Scarring;** further operations.
+!!
+## Before you start
+ATLS: airway with cervical spine care if blunt or gunshot, breathing, circulation (pressure on bleeding, not blind clamping). Do not probe the wound or remove an impaled object outside theatre. Examine for the hard signs and for hoarseness, dysphagia, haemoptysis and haematemesis.
+!mf 5 | A modern algorithm for penetrating neck injury.
+
+# The operation, stage by stage | Control, explore, repair.
+## Position and incise
+Supine, neck extended and turned away if the spine is cleared, prepare from the jaw to the chest so a sternotomy or clavicular approach can follow. Make an incision along the anterior border of sternomastoid (extend to a collar incision for bilateral injury).
+!see What you should see
+- The carotid sheath and the visceral compartment exposed through a long incision.
+!!
+## Get proximal and distal control
+Before opening a haematoma, control the common carotid low in the neck and the internal and external carotids above the injury. Zone I injuries may need the chest opened; zone III injuries may need mandibular subluxation, endovascular balloon occlusion or stenting.
+!see What you should see
+- Slings round the vessels above and below the injury before the haematoma is entered.
+!!
+!danger Opening the haematoma first
+A contained haematoma is tamponading the injury. Open it before proximal and distal control and you will meet torrential bleeding you cannot see.
+!!
+## Repair the vessels
+Repair the carotid if possible (primary repair or interposition graft, shunting if back-pressure is poor); ligation risks stroke and is kept for the moribund or unrepairable vessel. Repair or ligate the internal jugular vein (one side can be ligated safely). External carotid branches may be ligated.
+!see What you should see
+- Restored carotid flow with a distal pulse, and secure haemostasis.
+!!
+## Explore the airway and gullet
+Inspect the larynx, trachea, pharynx and oesophagus; flexible or rigid endoscopy on the table helps find small tears. Close pharyngeal and oesophageal tears in two layers, cover them with a muscle flap (sternomastoid), and drain widely; repair tracheal tears and consider a tracheostomy through or below the injury. Place a feeding tube.
+!see What you should see
+- Watertight aerodigestive repairs separated from vascular repairs by healthy muscle, with drains.
+!!
+!senior Senior's pearl
+A missed oesophageal injury is the commonest cause of late death. If trajectory, air in the tissues or dysphagia suggest it, look with both a contrast swallow and endoscopy, or explore.
+!!
+## Soft tissue wounds
+Irrigate generously, remove debris and devitalised tissue (scrape embedded particles to prevent tattooing), and close in layers without tension. Repair the facial nerve and parotid duct in facial lacerations at the time. Give antibiotics for bites and contaminated wounds.
+!mf 1 2 | A dog bite with multiple lacerations, and principles of suture placement.
+!mf 3 4 | Complex facial injuries and a deep preauricular laceration with facial palsy.
+!see What you should see
+- Clean, well-aligned closures, and any nerve or duct injury repaired.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Exsanguinating bleeding from the neck
+Act | finger pressure in the wound ; Foley catheter inserted and inflated as a tamponade
+Then | theatre for proximal control ; massive transfusion
+!!
+!path Airway compromise with a neck haematoma
+Act | expert intubation with a surgical airway ready ; avoid paralysing before you can secure the airway
+!!
+!path Leak after aerodigestive repair
+Act | nil by mouth, drainage, antibiotics, nutrition ; CT for collections
+!!
+
+# Aftercare | Watch for what was missed.
+## After surgery
+Neurological observations after carotid repair; nil by mouth and nasogastric feeding after pharyngeal or oesophageal repair, with a contrast swallow before oral intake; voice and swallowing assessment.
+## Complications
+Stroke, haemorrhage, airway compromise, leak and mediastinitis, wound infection, nerve palsies, fistula.
+!update Current evidence
+The traditional zone-based mandatory exploration has largely given way to the "no zone" approach, in which stable patients are triaged by examination and CT angiography regardless of zone (Shiroff et al., *Am Surg* 2013). A systematic review of CT angiography in this approach reported sensitivity of 83% to 100% and specificity of 61% to 100% for vascular and aerodigestive injuries (Ibraheem et al., *J Trauma Acute Care Surg* 2020). An evidence-based review for otolaryngologists set out care pathways from resuscitation to selective exploration (Burgess et al., *Clin Otolaryngol* 2012).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Myers: immediate exploration for hard signs, CT angiography for soft signs, the soft tissue principles and antibiotic choices for bites.
+Dhingra and K. J. Lee: the neck zones and the classic selective approach with endoscopy and angiography.
+The literature: the "no zone" approach with CT angiography for stable patients.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Primary survey** and airway management.
+- **Hard and soft signs.**
+- **Zones** and why they matter for exposure.
+- **Proximal and distal control** before entering a haematoma.
+- **Oesophageal injury**: how to find it and how to repair it.
+!!
+## Common pitfalls
+!pit
+- Probing the wound in the emergency department.
+- Paralysing for intubation without a surgical airway plan.
+- Entering a haematoma before vascular control.
+- Missing an oesophageal tear.
+!!
