@@ -1,0 +1,121 @@
+@stand For a child born deaf, a cochlear implant is a window that closes: the auditory brain needs sound in the first years of life to learn language, so the earlier the implant, the better the speech. The operation is the adult one done in a smaller, thinner, growing head, with the facial recess, the round window and a gentle electrode insertion as its core. Its two special dangers are an ossifying cochlea after meningitis, which must be implanted urgently, and an anomalous inner ear with a gusher waiting behind the round window.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Paediatric cochlear implantation
+ | Summary
+Indications | Bilateral severe to profound sensorineural loss with limited benefit from a hearing aid trial; unilateral profound loss with a progressive or at-risk other ear (for example enlarged vestibular aqueduct); expanding criteria for single-sided deafness and partial deafness
+Timing | As early as possible, commonly from about 9 to 12 months for congenital deafness; urgently after meningitis
+Contraindications | Absent cochlea or cochlear nerve (consider auditory brainstem implant); active middle ear infection (treat first); no family commitment to rehabilitation
+Work-up | Audiology including ABR and aided testing; high-resolution CT and MRI (cochlear nerve, malformation, ossification); genetic and CMV testing; eye review; vaccination against pneumococcus and Haemophilus
+Anaesthesia | General
+Monitoring | Facial nerve monitoring; intraoperative impedance and neural response telemetry
+Tray | Mastoid set, otology drill, templates, device-specific insertion tools, fascia and muscle for sealing
+!!
+## Consent
+!consent What to tell the family
+- **Facial nerve** injury (rare), **taste** change from the chorda tympani.
+- **Wound** problems or device exposure; **meningitis** (vaccinate); **device failure** needing reimplantation.
+- **Vertigo,** usually short-lived.
+- **Residual hearing** in the implanted ear will probably be lost.
+- **Outcomes** depend on age at implantation, cause, other disabilities and, above all, consistent use and therapy.
+- **MRI** restrictions and the magnet.
+!!
+## Before you start
+Confirm the cochlea and nerve on imaging: a hypoplastic or absent cochlear nerve changes the plan. Look for malformations (incomplete partition, common cavity, enlarged vestibular aqueduct), a CSF gusher risk, an abnormal facial nerve course, and early fibrosis or ossification after meningitis. Plan bilateral simultaneous implantation where offered. Mark the receiver site symmetrically for two sides.
+
+# The operation, stage by stage | Round window insertion.
+## Plan the site and the pocket
+Shave the scalp, mark the incision and use templates for the receiver and the processor, tattooing the bone with methylene blue. Angle the receiver at least 45 degrees above horizontal, and more vertical in infants so it does not lie over the occiput. Raise an anteriorly based flap to temporalis fascia, then a tight subperiosteal pocket for the receiver; check it with the dummy. Harvest fascia and muscle for sealing.
+!mf 1 | Marking the receiver well with the template and methylene blue.
+!mf 2 | Checking the subperiosteal pocket with a template.
+!see What you should see
+- A snug pocket that holds the dummy without sutures, well behind the processor position.
+!!
+## Mastoidectomy and facial recess
+Perform a simple mastoidectomy, identify the tegmen, the lateral canal and the short process of the incus, and thin the posterior canal wall to translucency. Open the facial recess: the short process points to it, the incus buttress is its upper limit, the facial nerve posteromedial and the chorda anterolateral.
+!mf 3 | The facial recess before and after opening.
+!see What you should see
+- The stapedial tendon, incudostapedial joint and round window niche through the recess.
+!!
+!danger The small child's facial nerve
+In infants the mastoid tip is undeveloped, so the facial nerve exits superficially at the stylomastoid foramen, and the facial recess is small. Keep the incision and dissection high and the drill on diamonds near the nerve.
+!!
+## Prepare the round window
+Clear the promontory mucosa around the niche (adrenaline-soaked Gelfoam stops bleeding), then drill the round window overhang with a 1 to 1.5 mm diamond at low speed until the membrane is seen.
+!mf 4 | Removing the round window overhang to expose the membrane.
+!see What you should see
+- The round window membrane facing you through the recess.
+!!
+## Seat the receiver
+Drill a shallow well if needed to lower the device profile; in infants the calvarium may be thin enough to expose dura, which is accepted but must not be breached. Secure the receiver with tie-down sutures or a tight pocket.
+!mf 5 | Tie-down sutures over the receiver.
+!see What you should see
+- A receiver that does not move, flush with the skull.
+!!
+## Insert the electrode
+Incise the round window membrane (or make a small cochleostomy anterior and inferior to it if the membrane is inaccessible) and insert the electrode slowly along the scala tympani to the device's depth, without force. Seal around the electrode with fascia or muscle. Check impedances and neural responses; take an X-ray if in doubt.
+!mf 6 | Electrode insertion through the round window.
+!mf 9 | A cochleostomy at the basal turn when the round window cannot be used.
+!see What you should see
+- Smooth insertion to the marker, sealed entry, and normal telemetry.
+!!
+!senior Senior's pearl
+Slow, gentle insertion saves the cochlea. Stop at resistance; never push through it. A kinked or buckled electrode belongs in the basal turn only in a malformed or ossified cochlea, never in a normal one.
+!!
+## The ossified or malformed cochlea
+After meningitis, drill through obliterated basal turn bone (cochlear drill-out) or use a split or short electrode; implant early before ossification advances. In a malformed cochlea, expect a gusher: prepare to pack the cochleostomy firmly with muscle and fascia, and use an electrode designed for common cavities.
+!mf 7 | Cochlear drill-out for an ossified basal turn.
+!see What you should see
+- An electrode inserted as fully as the anatomy allows, with any leak sealed.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path CSF gusher on opening the cochlea
+Act | head up ; wait for the flow to slow ; insert the electrode
+Seal | pack firmly with muscle and fascia around the electrode ; consider a lumbar drain if it persists
+!!
+!path Facial weakness on waking
+Check | local anaesthetic effect: observe 2 to 3 hours
+Persisting complete palsy | CT and re-exploration ; steroids for delayed weakness
+!!
+!path Device exposed or infected
+Act | antibiotics ; flap repair if small
+Not settling | explant, cutting the electrode and leaving it in the cochlea to keep the lumen for reimplantation
+!!
+
+# Aftercare | Switch-on is the beginning.
+## After surgery
+Pressure dressing for a day. Switch on at 2 to 4 weeks. The result depends on months to years of programming (mapping), auditory-verbal therapy and full-time use; the family is part of the team. Keep vaccinations up to date.
+## Complications
+Haematoma, infection, flap breakdown and device exposure, electrode malposition, facial palsy, vertigo, taste change, meningitis, device failure.
+!update Current evidence
+**Age matters.** Children with congenital deafness implanted before 12 months had better receptive language up to 2 years after implantation than those implanted between 12 and 24 months (Mitchell et al., *Laryngoscope* 2020).
+**Wound complications.** A meta-analysis of 21,838 implants found wound complications in 0% to 22% of series overall, slightly less often in children (2.4%) than adults (2.9%) (Ekman et al., *Laryngoscope* 2023).
+**After meningitis.** Among 95 children deafened by meningitis, 32% had cochlear ossification, more often with a longer interval to scanning; CT was 88% sensitive for obliteration found at surgery (Durisin et al., *Otol Neurotol* 2010), supporting urgent imaging and implantation.
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Myers: the paediatric technique with orientation of the receiver in infants, the round window approach, cochlear drill-out for ossification and management of the gusher.
+K. J. Lee and the Oxford books: candidacy, imaging for the cochlear nerve and malformations, vaccination, and outcomes by age.
+The literature: implantation before 12 months improves language outcomes.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Candidacy** and work-up in a child.
+- **Why early** implantation matters.
+- **Facial recess** boundaries and round window access.
+- The **meningitis** child: urgency and ossification.
+- **Malformations** and the gusher.
+- **Rehabilitation** as the deciding factor.
+!!
+## Common pitfalls
+!pit
+- Delaying implantation after meningitis.
+- Missing an absent cochlear nerve on MRI.
+- A low incision over a superficial facial nerve in an infant.
+- Forcing the electrode against resistance.
+!!
