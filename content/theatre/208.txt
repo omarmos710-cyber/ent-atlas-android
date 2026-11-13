@@ -1,0 +1,129 @@
+@stand A child born without an ear canal has a conductive loss of 50 to 60 dB on that side, often with microtia, and usually a working cochlea behind it. Atresiaplasty builds a canal and frees the ossicles to restore that hearing without a device, but only in well-chosen ears, after the microtia surgeon has finished, and with stenosis and drum lateralisation waiting to undo it. Bone conduction devices give more reliable hearing with less risk, so the decision is a family's informed choice, guided by the CT grading.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Atresiaplasty and canalplasty for stenosis
+ | Summary
+Indications | Congenital aural atresia with a good CT grade (Jahrsdoerfer 7 or more) and a family who prefer an unaided ear; congenital canal stenosis with cholesteatoma or a canal under 4 mm; acquired atresia from scarring after infection, trauma or surgery
+Contraindications | Poor CT grade; no identifiable stapes or oval window; uncontrolled ear disease; unfavourable facial nerve course; a family who would rather have a bone conduction device
+Timing | Usually from about 6 years, after rib-cartilage microtia reconstruction so the skin and blood supply are not compromised
+Anaesthesia | General
+Position | Supine, head turned away
+Monitoring | Facial nerve monitoring
+Tray | Microscope, otology drill and diamond burrs, ear set, fascia, dermatome for a split-thickness skin graft, Silastic discs, Merocel packs
+!!
+## Consent
+!consent What to tell the family
+- **Hearing gain** is variable: on average about 25 dB, less than with a bone conduction implant.
+- **Stenosis** of the new canal is the commonest problem (up to a quarter) and the commonest reason for revision; regular cleaning is lifelong.
+- **Lateralisation** of the new drum causing hearing to fall again, needing revision (up to about one in five).
+- **Facial nerve injury** (up to 7%), more likely in poorly formed ears.
+- **Sensorineural hearing loss** (up to about 7%), usually slight and high-pitched.
+- **Infection and discharge** from the new canal.
+- **Alternatives:** a bone conduction hearing device (softband, percutaneous or transcutaneous), or a hearing aid where a canal exists.
+!!
+## Before you start
+Confirm a normal cochlea with bone-conduction testing or ABR in young children; in bilateral cases fit a softband bone conduction aid early for language. Unilateral atresia is not trivial: many children have school difficulties, so monitor the good ear and consider rehabilitation. Obtain a high-resolution temporal bone CT and grade it. Watch congenital stenosis with serial CT even if no operation is planned, because cholesteatoma forms behind a narrow canal. Coordinate with the microtia surgeon: the canal must open where the new auricle will sit.
+!mf 1 | Grade 3 microtia with congenital aural atresia.
+!mf 2 | Coronal CT: the bony atretic plate, the middle ear and the ossicular mass behind it.
+!table The Jahrsdoerfer CT grading score (10 points)
+Feature | Points
+Stapes present | 2
+Oval window open | 1
+Middle ear space | 1
+Facial nerve course normal | 1
+Malleus-incus complex present | 1
+Mastoid pneumatised | 1
+Incus-stapes connection | 1
+Round window normal | 1
+Appearance of the external ear | 1
+!!
+A score of 8 or more predicts a good result, 7 a fair one and 6 a marginal one; 5 or less is a poor candidate.
+
+# The operation, stage by stage | The anterior (lateral) approach.
+## Open behind the ear and take fascia
+Make a postauricular incision (placed to protect the reconstructed auricle) and harvest a generous temporalis fascia graft. The canal wall-down mastoid approach used historically is avoided because of the lifelong mastoid cavity.
+!see What you should see
+- The linea temporalis, the glenoid fossa in front and the mastoid cortex behind, with no canal.
+!!
+## Drill the new canal
+Start at the level of the linea temporalis, just behind the glenoid fossa, and drill medially, keeping the middle fossa dura above and the jaw joint in front, and staying anterior to the mastoid air cells. Follow the dura and the glenoid towards the epitympanum until the atretic plate and the ossicular mass come into view.
+!see What you should see
+- The fused malleus-incus mass in the epitympanum, seen through the thinning atretic bone.
+!!
+!danger The facial nerve is not where you expect it
+In atresia the facial nerve often runs more anterior and lateral than normal, and its vertical segment can cross the area where the new canal is drilled. Use the monitor, drill with diamond burrs, and study the CT for its course beforehand.
+!!
+## Free the ossicles
+Thin the atretic plate with a diamond burr, then remove the last bone with fine curettes and picks, separating the plate from the ossicular mass without letting the drill touch the ossicles. Brace your hands. Keep the native chain if it moves well; if it is fixed or discontinuous, reconstruct.
+!mf 3 | The malleus-incus complex freed from the atretic plate.
+!see What you should see
+- A mobile ossicular mass with a visible stapes; if no stapes can be found, stop.
+!!
+!danger Drill energy reaches the cochlea
+Touching the ossicles with a turning burr transmits energy straight to the inner ear. Thin, then pick.
+!!
+## Build the drum and line the canal
+Lay the temporalis fascia over the ossicular mass as a new drum, tucked under the canal edges. Line the bony canal with a thin split-thickness skin graft, overlapping the fascia slightly to prevent lateralisation, and place a Silastic disc on the drum. Pack with Merocel and drops.
+!mf 4 | The canal lined with split-thickness skin graft, with a Silastic disc over the new drum.
+!see What you should see
+- A wide canal, 10 mm or more, fully lined with skin, and a fascia drum sitting on the ossicles.
+!!
+## Make the meatus
+Excise a disc of tissue from the reconstructed auricle, preserving a pedicled skin flap; bevel the meatus and bone into a smooth funnel; bring the skin graft out and suture it to the meatal skin. A generous meatus is the best defence against stenosis.
+!mf 5 | Final result of microtia reconstruction with rib grafts and atresiaplasty.
+!see What you should see
+- A large, round meatus in line with the new canal.
+!!
+## Congenital stenosis and acquired atresia
+For congenital stenosis use an endaural (Lempert) or postauricular approach: raise triangular canal flaps and a tympanomeatal flap, drill the bony canal wide, remove any partial atretic plate and canal cholesteatoma, enlarge the hypoplastic drum with an underlay fascia graft and reline bare bone with full- or split-thickness skin. For acquired atresia, excise the fibrous plug through a postauricular approach down to the plane on the drum, widen the canal until the whole drum is visible, and graft the canal, since little skin survives. Explore the middle ear if the conductive loss exceeds what the plug explains (more than 20 to 30 dB).
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path No stapes or oval window found
+Stop | do not fenestrate the lateral canal or open the labyrinth
+Plan | close and offer a bone conduction device
+!!
+!path Mastoid cells opened during an anterior approach
+Small opening | seal with fascia or cartilage
+Large | convert to a canal wall-down technique
+!!
+!path Facial monitor fires
+Stop | irrigate and identify the nerve with a diamond burr
+Proceed | redirect the canal away from it ; do not chase hearing at the nerve's expense
+!!
+
+# Aftercare | The canal wants to close.
+## After surgery
+Remove the packs at about 1 to 2 weeks, then keep the canal open with wicks, stents or moulds, sometimes for 6 months. Treat granulation early. Steroid (triamcinolone) injection into the meatus helps prevent or treat stenosis. Test hearing after healing and clean the canal regularly for life.
+## Complications
+Canal stenosis (up to 25%); drum lateralisation and recurrent conductive loss (up to 18%); chronic infection and discharge; facial nerve injury (up to 7%); sensorineural loss (up to 7.5%).
+!update Current evidence
+**Atresiaplasty or a bone conduction implant.** A systematic review comparing hearing outcomes found mean gains of about 24 dB after atresiaplasty against about 38 dB with osseointegrated bone conduction devices, with better and more consistent hearing and fewer complications for the implants (Nadaraja et al., *Otol Neurotol* 2013).
+**Transcutaneous active implants.** Active transcutaneous bone conduction implants in children with aural atresia give aided thresholds around 25 dB with good word recognition (Zernotti et al., *Int J Pediatr Otorhinolaryngol* 2019; Bravo-Torres et al., *Int J Audiol* 2018).
+**Revision.** In 75 ears undergoing revision atresiaplasty, stenosis, lateralisation and persistent conductive loss were the main indications (Oliver et al., *Otol Neurotol* 2011).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Myers: prefers the anterior (lateral) atresiaplasty to avoid a cavity, times it after microtia repair, and presents bone conduction devices as faster with better hearing but cosmetically less desirable.
+Dhingra and K. J. Lee: describe the embryology (first branchial groove and arch), the Jahrsdoerfer grading and the timing with microtia surgery.
+The literature: bone conduction devices give larger and more predictable hearing gains than atresiaplasty.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Embryology** and why the cochlea is usually normal.
+- The **Jahrsdoerfer score** and who is a candidate.
+- **Timing** in relation to microtia repair.
+- The **steps** of the anterior approach and the facial nerve's abnormal course.
+- **Complications** and why bone conduction devices are often preferred.
+!!
+## Common pitfalls
+!pit
+- Operating before the microtia reconstruction.
+- Drilling a narrow canal and meatus.
+- Touching the ossicles with the drill.
+- Continuing when no stapes is found.
+- Forgetting serial CT for cholesteatoma in congenital stenosis.
+!!
