@@ -1,0 +1,106 @@
+@stand A missing roof over the superior semicircular canal creates a third window into the inner ear. Sound and pressure now move the endolymph, so loud noises and straining spin the world, the patient hears their own voice, footsteps and eye movements, and the audiogram shows a low-frequency air-bone gap with normal stapes reflexes. Surgery plugs or resurfaces the canal through the middle fossa or the mastoid. It reliably stops the vertigo, but the patient decides when the symptoms are bad enough to accept the risk to hearing.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Repair of superior canal dehiscence
+ | Summary
+Indications | Disabling symptoms of the syndrome (sound- or pressure-induced vertigo, autophony, pulsatile tinnitus, oscillopsia) with matching CT and physiological tests; the patient chooses when
+Contraindications | A dehiscence on CT without symptoms or test evidence; an only-hearing ear (relative); bilateral disease without clear lateralisation
+Approaches | Middle fossa craniotomy (direct view, the classic route) or transmastoid (no brain retraction)
+Repair | Plugging the canal lumen, resurfacing (capping) the defect, or both
+Anaesthesia | General
+Position | Supine, head turned; head clamp if navigation is used
+Monitoring | Facial nerve monitoring; navigation optional
+Tray | Otology drill and diamond burrs, middle fossa retractor, small suction-irrigator, warmed bone wax, temporalis fascia, bone chips or pâté, haemostatics
+!!
+## Consent
+!consent What to tell the patient
+- Vertigo and sound or pressure sensitivity improve in most; **hearing is not usually improved**, though the air-bone gap often closes.
+- **Sensorineural hearing loss**, rarely total, and temporary imbalance afterwards.
+- **Facial weakness** (rare): the geniculate ganglion is often uncovered in these patients.
+- From the middle fossa route: **epidural haematoma, CSF leak, seizures or speech disturbance.**
+- **Persistent symptoms** if the plug is incomplete, needing revision.
+!!
+## Before you start
+Confirm the syndrome, not just the CT: a pseudo-conductive low-frequency gap with *preserved acoustic reflexes*, bone conduction thresholds better than 0 dB, and lowered cervical VEMP thresholds or raised ocular VEMP amplitudes. Look for Tullio and Hennebert signs and pressure- or sound-evoked nystagmus in the plane of the superior canal. Obtain thin-slice CT reformatted in the plane of the canal (Pöschl) and perpendicular to it (Stenvers): the standard axial and coronal cuts over-call dehiscence.
+!mf 1 | The audiogram of dehiscence: a low-frequency air-bone gap with bone thresholds better than normal.
+!mf 2 | CT in axial, coronal, Pöschl and Stenvers planes showing the uncovered superior canal.
+
+# The operation, stage by stage | The middle fossa repair.
+## Open the middle fossa
+Make a preauricular incision extending into the temporal region, reflect the temporalis muscle forward towards the zygoma and leave a cuff of fascia for closure. Cut a craniotomy of about 4 by 5 cm centred over, or slightly in front of, the ear canal, flush with the middle fossa floor; take the inner cortex with a diamond burr so the dura stays intact.
+!mf 3 | Skin incision and the craniotomy centred over the ear canal.
+!see What you should see
+- A bone flap lifted off intact dura, its lower edge at the floor of the middle fossa.
+!!
+## Elevate the dura and find the dehiscence
+Elevate the temporal lobe dura from the floor, sweeping **posterior to anterior**, and control venous ooze with haemostatic packing. Work medially to the arcuate eminence near the petrous ridge. The greater superficial petrosal nerve anteriorly, and navigation, help orientation if there are several small tegmen defects.
+!see What you should see
+- The blue line or open lumen of the superior canal on the arcuate eminence, just behind the internal auditory canal.
+!!
+!danger The uncovered geniculate ganglion
+These patients often have a thin or absent bony cover over the geniculate ganglion. Raising the dura from front to back can stretch the greater superficial petrosal nerve and injure the facial nerve. Check the CT and sweep from behind forwards.
+!!
+## Protect the labyrinth
+Once the dehiscence is open, never suction over it. Use a small, irrigating suction tip held away from the canal to keep the field moist and clear without drawing out perilymph or tearing the membranous labyrinth.
+!senior Senior's pearl
+The membranous labyrinth sits millimetres below your suction. Irrigate and let the fluid run off; touch the dehiscence only with the plug.
+!!
+## Plug and resurface
+Press a small pledget of warmed bone wax into the canal lumen on both sides of the dehiscence to occlude it, then cover the defect with fascia and a bone chip or bone pâté. Some surgeons resurface (cap) alone, but plugging gives a more durable seal.
+!mf 4 | Plugging the dehiscent superior canal through the middle fossa.
+!see What you should see
+- The canal lumen filled on both sides of the defect, covered with fascia and bone.
+!!
+## Close
+Let the dura settle, replace the bone flap, resuspend the temporalis and close. A transmastoid alternative opens the canal from below in a pneumatised mastoid: the canal is blue-lined, opened either side of the dehiscence and plugged with fascia and bone pâté, without lifting the brain.
+!see What you should see
+- A dry field, the flap in place, and no CSF.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Sudden hearing drop after surgery
+Act | audiogram ; high-dose steroids
+Then | vestibular rehabilitation for imbalance ; hearing rehabilitation if it does not recover
+!!
+!path Headache, drowsiness or focal signs after craniotomy
+Act | urgent CT
+Epidural haematoma | return to theatre for evacuation
+!!
+!path Symptoms persist
+Check | repeat CT and VEMP for an unplugged lumen or a second dehiscence
+Then | consider revision, often transmastoid
+!!
+
+# Aftercare | Expect a few unsteady days.
+## On the ward and after
+Observe neurologically after a craniotomy. Expect temporary imbalance as the canal is now blocked; mobilise early and start vestibular rehabilitation. Check hearing at a few weeks. Avoid straining and heavy lifting while the wound heals.
+## Complications
+Sensorineural hearing loss, temporary or persistent imbalance, facial palsy, epidural haematoma, CSF leak, and persistent or recurrent symptoms.
+!update Current evidence
+A systematic review of 20 studies (150 procedures) found symptomatic success in about 94%, with no significant difference between plugging, capping, resurfacing or combined repair, or between the middle fossa and transmastoid approaches (Gioacchini et al., *Laryngoscope* 2016). Another systematic review found surgery effective mainly for the vestibular symptoms, with no evidence that it improves hearing, and favoured transmastoid plugging for its lower complication and revision rates and shorter stay (Ziylan et al., *Otol Neurotol* 2017).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Myers: the middle fossa plugging technique, with dural elevation from behind forwards to protect a dehiscent geniculate ganglion, and the patient deciding when to intervene.
+K. J. Lee and the Oxford books: the third-window physiology, the audiometric and VEMP findings, and CT in the Pöschl and Stenvers planes.
+The literature: success rates are similar across repair types and approaches; transmastoid plugging may have fewer complications.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- The **third window** and how it produces each symptom.
+- The **audiogram**: low-frequency gap, supranormal bone conduction, normal reflexes (unlike otosclerosis).
+- **VEMPs** and **CT planes** for diagnosis.
+- **Middle fossa versus transmastoid**, plugging versus resurfacing.
+- Why the **geniculate ganglion** is at risk.
+!!
+## Common pitfalls
+!pit
+- Operating on a CT finding without the syndrome.
+- Calling it otosclerosis and doing a stapedotomy (reflexes are present in dehiscence).
+- Suctioning over the open canal.
+- Raising the dura from front to back.
+!!

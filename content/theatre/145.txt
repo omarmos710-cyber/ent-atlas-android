@@ -1,0 +1,120 @@
+@stand Temporal bone fractures come with head injuries, so the ear is assessed only after the patient has been resuscitated and the brain secured. Most of what goes wrong in the ear recovers by itself: the blood-filled middle ear clears, most CSF leaks stop, and most facial palsies come back. The operation that matters acutely is facial nerve decompression for the patient with an immediate, complete palsy and electrical evidence of severe degeneration, done within about two weeks, by a route chosen according to whether the ear still hears.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Facial nerve decompression after temporal bone fracture
+ | Summary
+Indications | Immediate-onset complete paralysis (or palsy progressing to paralysis) with more than 90 to 95% degeneration on electroneurography and no voluntary motor units on EMG, in a patient fit for surgery
+Timing | As early as possible, within about 12 to 14 days of injury
+Route | Hearing present: transmastoid plus middle fossa craniotomy. No useful hearing: translabyrinthine
+Contraindications | Unfit or unconscious patient through the window; incomplete or delayed-onset palsy (good prognosis)
+Anaesthesia | General, with neurosurgical support for the middle fossa
+Monitoring | Facial nerve monitoring
+Antibiotics | First-generation cephalosporin (clindamycin or vancomycin if allergic)
+Tray | Otology drill and diamond burrs, ear set, middle fossa retractor, craniotomy set, nerve graft instruments, fat graft
+!!
+## Consent
+!consent What to tell the patient
+- The palsy may recover **partly or fully either way**; the evidence for decompression is limited and comes from case series.
+- **Hearing:** the middle fossa route aims to keep it; the translabyrinthine route leaves the ear permanently deaf.
+- **Middle fossa risks:** bleeding inside the skull, seizures and speech disturbance from temporal lobe retraction.
+- **CSF leak and meningitis.**
+- **Dizziness,** usually temporary.
+- A **nerve graft** may be needed if the nerve is torn, with slower and less complete recovery.
+!!
+## Before you start
+Resuscitate under trauma protocols and image the brain. In the ear, look for blood behind the drum, a canal laceration or step, CSF otorrhoea (or rhinorrhoea through the Eustachian tube), Battle's sign, nystagmus, and test the facial nerve as early as possible: **was the palsy immediate or delayed, complete or incomplete?** Document it before sedation if you can. Test hearing with tuning forks at the bedside and audiometry when able. Obtain fine-cut temporal bone CT; add CT angiography if the fracture crosses the carotid canal.
+!table Reading the fracture
+Pattern | Typical injury
+Otic capsule sparing (most fractures; often "longitudinal") | Conductive loss from haemotympanum or ossicular disruption; facial palsy in a minority, usually near the geniculate and often delayed and incomplete
+Otic capsule violating (less common; often "transverse") | Sensorineural deafness and vertigo; higher rates of facial palsy and CSF leak
+!!
+!mf 4 | An otic capsule sparing fracture on CT.
+!table What the facial nerve tells you
+Finding | Meaning
+Delayed onset or incomplete palsy | Excellent prognosis: steroids if appropriate, observe
+Immediate complete palsy | Possible transection or severe injury: electrical testing from day 3
+ENoG over 90 to 95% degeneration within 14 days, no voluntary EMG | Poor prognosis: consider decompression
+!!
+
+# The operation, stage by stage | Total facial nerve decompression.
+## Choose the route
+Usable hearing and a fit patient: combined **transmastoid and middle fossa** approach, which preserves hearing. No useful hearing and a normal opposite labyrinth: **translabyrinthine** approach, which avoids brain retraction but leaves the ear dead.
+!see What you should see
+- A CT that shows where the fracture crosses the facial canal, usually near the geniculate ganglion.
+!!
+## Transmastoid: vertical and tympanic segments
+Perform a cortical mastoidectomy and open the facial recess. Separate the incudostapedial joint and dislocate or remove the incus if needed for access. Skeletonise the nerve from the second genu to the stylomastoid foramen, leaving a thin eggshell of bone, then flake it off with a curved pick. Do not open the epineurium.
+!mf 1 | The transmastoid approach exposes the tympanic and mastoid segments.
+!see What you should see
+- The nerve bared over its vertical and tympanic course, with any bony spicule or haematoma removed.
+!!
+## Middle fossa: geniculate, labyrinthine and meatal segments
+Turn a temporal craniotomy flap and elevate the dura from **posterior to anterior** up to the arcuate eminence and the meatal plane, so the greater superficial petrosal nerve is not pulled with it. Identify the superior semicircular canal (blue-line it if unsure) and the greater superficial petrosal nerve. Drill medial to them down to the internal auditory canal and follow it laterally to the meatal foramen, labyrinthine segment and geniculate ganglion with diamond burrs and copious irrigation. Open the tegmen to join the tympanic segment. Replace the incus if it was moved, fix the bone flap and close.
+!mf 2 | The combined middle fossa and transmastoid approach to decompress the whole intratemporal nerve.
+!see What you should see
+- The nerve exposed continuously from the internal auditory canal to the stylomastoid foramen.
+!!
+!danger The labyrinthine segment and the cochlea
+The labyrinthine segment is the narrowest part of the canal and lies immediately lateral to the basal turn of the cochlea. Drill with small diamonds, cool constantly and never let the burr wander medially.
+!!
+!senior Senior's pearl
+Raise the middle fossa dura from behind forwards. Lifting it front to back can drag the greater superficial petrosal nerve and tear the geniculate ganglion, injuring the very nerve you are trying to save.
+!!
+## Translabyrinthine route
+When the ear is dead, complete a labyrinthectomy and find the labyrinthine segment just medial to the ampulla of the superior canal; decompress the meatal, labyrinthine, geniculate, tympanic and mastoid segments without brain retraction. Avoid opening the internal auditory canal dura; close with a muscle plug in the aditus, wax the cells and fill the cavity with fat.
+!mf 3 | The translabyrinthine route to total decompression when there is no useful hearing.
+!see What you should see
+- The full nerve exposed with the internal auditory canal dura intact.
+!!
+## If the nerve is torn
+Excise the fibrosed or crushed segment and repair tension-free: a direct end-to-end repair if the ends meet, otherwise an interposition graft, usually the greater auricular nerve (the sural nerve if a long graft is needed).
+!see What you should see
+- Coaptation without tension, the graft lying in the bony canal.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Deterioration after a middle fossa craniotomy
+Act | urgent CT
+Haematoma | return to theatre or ventricular drain with neurosurgery
+!!
+!path CSF leak after injury or surgery
+First | head up, avoid straining, stool softeners ; most stop within 7 to 10 days
+Persisting | lumbar drain for about 3 days
+Still leaking | surgical repair ; consider meningitis risk and vaccination
+!!
+
+# Aftercare | Hearing, balance and the eye.
+## After surgery
+Protect the eye with lubricants, taping and a moisture chamber until blinking returns. Expect slow recovery over months; record House-Brackmann grades. Treat vertigo with short-term vestibular sedatives and then vestibular rehabilitation. Reassess conductive loss at about 3 months, when blood has cleared, and reconstruct the ossicles if a gap persists; offer aids, CROS or a bone conduction device for sensorineural loss.
+## Complications
+Intracranial haemorrhage, seizures, dysphasia, CSF leak, meningitis, sensorineural and conductive hearing loss, dizziness, and failure of the nerve to recover.
+!update Current evidence
+The evidence for decompression is weak and comes from small case series. In 24 patients, decompression within the first two months was associated with a better outcome than later surgery (Abbaszadeh-Kasbi et al., *Craniomaxillofac Trauma Reconstr* 2019), and in 13 patients with House-Brackmann V to VI palsy, delayed transmastoid decompression gave grade III or better in 12 (Gür et al., *J Int Adv Otol* 2021). Reviews agree on the order of repair: direct coaptation first, then an interposition graft, then nerve transfer while the motor end plates survive, and muscle transfer once they have atrophied (Gordin et al., *Craniomaxillofac Trauma Reconstr* 2015). Classifying fractures as otic capsule sparing or violating predicts sensorineural loss, facial palsy and CSF leak better than the old longitudinal and transverse system.
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Myers: decompress for immediate complete paralysis with more than 95% degeneration on ENoG and no voluntary EMG within 12 to 14 days, by the middle fossa plus transmastoid route if hearing is present.
+Dhingra: teaches the longitudinal and transverse fractures and their typical injuries.
+The literature: otic capsule sparing or violating is the more useful classification, and outcome data for decompression are limited.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Resuscitation first;** the ear comes later.
+- **Fracture types** and the injuries each causes.
+- **Immediate versus delayed** palsy and why it matters.
+- **Electroneurography** timing and the 90 to 95% threshold.
+- **Choosing the route** by hearing; the segments each approach reaches.
+- Management of **CSF leak** and of conductive loss.
+!!
+## Common pitfalls
+!pit
+- Not documenting facial function before sedation.
+- Operating on a delayed-onset or incomplete palsy.
+- Testing ENoG before day 3, when it is still normal.
+- Raising the middle fossa dura from front to back.
+- Repairing the ossicles before the haemotympanum has cleared.
+!!
