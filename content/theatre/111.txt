@@ -1,0 +1,89 @@
+@stand A frontal trephine is a small hole through the floor or front wall of the frontal sinus from the medial brow. Once the standard drainage for acute frontal sinusitis with complications, it is now mainly an adjunct: a port to irrigate saline or fluorescein down the frontal recess so the endoscopic surgeon can find it from below, or a "above and below" approach to disease that the endoscope alone cannot reach. It is quick; the danger lies in going too deep, through the thin posterior table, or too far out, into the orbit.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Frontal sinus trephination
+ | Summary
+Indications | Acute frontal sinusitis with impending complications when endoscopic drainage is not possible; an aid to finding the frontal recess during endoscopic surgery (irrigation from above); combined above-and-below access to lateral frontal disease, mucoceles, fungal balls, osteomas or tumours
+Contraindications | A small or absent frontal sinus (check CT: a hypoplastic sinus means the hole may enter the anterior cranial fossa); suspected tumour of the anterior table
+Site | Medial brow, on a flat part of the anterior table or floor, medial to the supraorbital notch, guided by CT and navigation
+Anaesthesia | General with the endoscopic procedure, or local
+Tray | Trephine kit with soft tissue sleeve, depth stop and irrigation cannula (or a drill with a guard), 15 blade, syringe and tubing, culture swab, fine absorbable sutures
+!!
+## Consent
+!consent What to tell the patient
+- A small **scar** in the eyebrow and temporary **numbness** of the forehead.
+- **Skin burn** from the drill (rare).
+- **CSF leak** if the back wall is breached; **eye injury** if irrigation reaches the orbit through a thin floor.
+- **Infection** of the bone; a small dent if a larger hole is made.
+!!
+## Before you start
+Measure the frontal sinus on CT: depth from the anterior to the posterior table, height and lateral extent, and look for dehiscence of the orbital roof or posterior table. Plan the depth limit for the drill.
+!mf 1 | Coronal CT: choosing the trephine site over a well-pneumatised sinus.
+
+# The operation, stage by stage | Mini-trephination.
+## Mark and incise
+Confirm the site with navigation or palpable landmarks. Inject 1 ml of local anaesthetic with adrenaline. Make a stab incision in the medial brow, on the line of the supraorbital foramina, over flat frontal bone. The mobile brow skin lets you slide the hole upward onto the anterior table.
+!mf 3 | The incision in the medial brow.
+!see What you should see
+- Brow skin elevated, with the periosteum intact beneath.
+!!
+## Drill the hole
+Dissect bluntly to bone. Seat the toothed soft tissue sleeve on the periosteum to protect the skin, set the depth stop from the CT, and drill slowly with irrigation into the sinus.
+!mf 2 | Trephination of the frontal sinus.
+!see What you should see
+- A sudden loss of resistance into the sinus, with mucus or pus returning.
+!!
+!danger Stop at the anterior table
+The posterior table is a few millimetres behind and often thin. Use the depth stop and never advance after the drill has entered the sinus.
+!!
+## Cannulate and irrigate
+Pass the stylet and insert the fluted cannula so it grips the bone. Send pus for culture. Irrigate with saline (or fluorescein-tinted saline during endoscopic surgery) and watch for it in the nose to identify the frontal recess.
+!see What you should see
+- Irrigant or dye appearing in the frontal recess on the endoscope, and none around the eye.
+!!
+!senior Senior's pearl
+Watch the eye while you irrigate. Swelling of the upper lid means the fluid is tracking into the orbit through a dehiscent floor: stop at once.
+!!
+## Finish
+Remove the cannula, or leave a drain for repeated irrigation in acute sinusitis, and close in two layers. A larger trephine can admit a small endoscope and instruments for lateral disease.
+!see What you should see
+- A neat brow wound, or a secured drain if irrigation will continue.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Clear fluid from the trephine
+Act | stop ; assess for posterior table breach ; repair endoscopically or through the trephine with fascia
+!!
+!path Skin burn
+Act | excise the burnt skin and close
+!!
+
+# Aftercare | A quick recovery.
+## After surgery
+Remove sutures (if non-absorbable) at a week; manage the drain if left. Continue the treatment of the sinusitis.
+## Complications
+Skin burn, scar, forehead numbness, osteitis, soft tissue depression into a large defect, CSF leak, orbital injury.
+!update Current evidence
+In patients with frontal sinus disease after bifrontal craniotomy, both endoscopic trephination and the osteoplastic flap were safe and effective, with trephination less invasive (Yu et al., *Br J Neurosurg* 2021). Combined endoscopic and mini-trephination (above and below) approaches are reported for isolated frontal fungal balls and lateral disease (Rinaldi et al., *Rev Laryngol Otol Rhinol* 2012).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Myers: mini-trephination mainly as an adjunct to endoscopic frontal surgery, with a kit that protects the skin and limits depth.
+Dhingra: trephination for acute frontal sinusitis not responding to treatment, through the floor of the sinus under the medial brow.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Indications** today versus in the past.
+- **Site** and why the CT matters.
+- **Risks**: posterior table, orbit, skin.
+!!
+## Common pitfalls
+!pit
+- Trephining a hypoplastic sinus.
+- Drilling beyond the anterior table.
+- Irrigating without watching the eye.
+!!
