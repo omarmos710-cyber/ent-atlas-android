@@ -1354,6 +1354,7 @@ body{margin-top:0;margin-bottom:0}
 .mod.core{background:var(--accent-soft);color:var(--accent)}.kfcard h3,.cpane>h3{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted,#888);margin:14px 0 6px}.kfcard h3:first-of-type,.cpane>h3:first-of-type{margin-top:4px}.lesbtn{margin:0 0 12px;width:100%}.lesbtn .pt small{display:block}.advgrp>summary{list-style:none;cursor:pointer}.advgrp>summary::-webkit-details-marker{display:none}.advgrp>summary h3:after{content:" ▾"}.advgrp[open]>summary h3:after{content:" ▴"}.icourse .icnext{display:flex;flex-direction:column;align-items:flex-start;gap:6px;width:100%;text-align:left;margin-top:6px}
 .icourse .cgroup small,.advgrp .cgroup small{display:block;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted);margin:3px 0 0;font-size:12.5px}
 .icourse .prow.done .pn{color:var(--accent)}
+.upbar{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(96px + env(safe-area-inset-bottom));z-index:9999;border:0;border-radius:999px;background:#151922;color:#F3F3EF;font:600 13.5px var(--f-body);padding:12px 18px;box-shadow:0 8px 24px rgba(0,0,0,.25);white-space:nowrap}
 </style>
 
 <div id="boot" role="status" aria-label="Loading ENT Atlas"><div class="bwrap"><div class="spin"></div><span>ENT Atlas</span></div></div>
@@ -8618,7 +8619,16 @@ document.addEventListener("change",async e=>{if(e.target.id!=="bk-imp"||!e.targe
 <script>
 if(!window.Android&&"serviceWorker" in navigator&&(location.protocol==="https:"||location.hostname==="localhost")){
   navigator.serviceWorker.addEventListener("message",ev=>{if(ev.data==="cached"&&typeof toast==="function")toast("Saved for offline use")});
-  window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
+  window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").then(reg=>{
+    /* look for a new version on open, whenever the app comes back to the foreground, and every 20 minutes */
+    const chk=()=>reg.update().catch(()=>{});document.addEventListener("visibilitychange",()=>{if(!document.hidden)chk()});setInterval(chk,12e5);
+  }).catch(()=>{}));
+  /* when a new version takes over: reload straight away if the app has only just opened or is in the background,
+     otherwise offer a one-tap reload so nothing the user is reading disappears */
+  {const had=!!navigator.serviceWorker.controller,t0=Date.now();let done=false;
+   navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!had||done)return;done=true;
+     if(Date.now()-t0<15000||document.hidden){location.reload();return}
+     const b=document.createElement("button");b.className="upbar";b.textContent="A new version is ready · Tap to update";b.onclick=()=>location.reload();document.body.appendChild(b)})}
 }
 </script>
 <script>
