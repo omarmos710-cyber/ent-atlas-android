@@ -1,0 +1,105 @@
+@stand Skin cancer is the commonest cancer, and most of it is on the head and neck, where every millimetre of tissue matters for function and appearance. Most basal and squamous cell carcinomas are small and can be excised under local anaesthetic with a margin chosen by the tumour's risk and closed directly or with a local flap. High-risk tumours, recurrences and those in the central face, eyelids, nose, ears and lips are best treated with margin control: Mohs micrographic surgery, or excision with frozen sections, before any flap is moved. Squamous carcinoma and melanoma also bring the parotid and neck nodes into play.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Excision of head and neck skin cancer
+ | Summary
+Basal cell carcinoma | Low-risk, well-defined, under 2 cm: about 4 mm clinical margin. High-risk (morphoeic, infiltrative, micronodular, recurrent, over 2 cm, central face): wider margins or margin control
+Squamous cell carcinoma | Low-risk (under 1 cm, thin, well differentiated): about 4 mm; moderate risk: about 6 mm; high-risk (2 cm or more, over 6 mm thick, invading fat, perineural invasion, temple, lip, scalp, ear): about 9 mm or Mohs; assess the parotid and neck
+Melanoma | Excision margin by Breslow thickness (in situ about 5 mm to 1 cm; thicker lesions 1 to 2 cm), sentinel node biopsy from about 0.8 to 1 mm or with ulceration; Mohs or staged excision for lentigo maligna
+Margin control | Mohs surgery or frozen sections for high-risk sites and recurrent tumours; delay reconstruction until margins are clear
+Anaesthesia | Local for most; general for large or nodal surgery
+Anticoagulants | Usually continued for small excisions
+Tray | Skin set, marking pen, fine instruments, bipolar, sutures; flap and graft instruments
+!!
+## Consent
+!consent What to tell the patient
+- **A scar,** and the possibility of a flap or skin graft.
+- **Incomplete excision** needing further surgery, and **recurrence.**
+- **Bleeding, infection,** wound breakdown, partial flap or graft loss.
+- **Nerve injury:** temporal and marginal mandibular branches of the facial nerve, greater auricular, accessory and sensory nerves of the forehead.
+- For squamous carcinoma or melanoma: possible **parotidectomy, neck dissection** or **radiotherapy.**
+!!
+## Before you start
+Biopsy anything uncertain. Examine with good light and dermoscopy for the true edge. Palpate the parotid and neck. Ask about previous treatment (recurrence means the margins were not clear), immunosuppression (transplant recipients get aggressive squamous carcinomas) and syndromes (basal cell naevus syndrome, xeroderma pigmentosum). Image the parotid and neck for high-risk squamous carcinoma or perineural symptoms.
+!mf 1 | A nodular basal cell carcinoma at the inner canthus.
+!mf 2 | Squamous cell carcinoma of the auricle.
+!mf 3 | Locally recurrent melanoma on the temple.
+
+# The operation, stage by stage | Mark, excise, check, close.
+## Mark the margins
+Mark the visible tumour edge, then the margin around it, and orient the ellipse along the relaxed skin tension lines (about three times as long as wide, with 30 degree points).
+!see What you should see
+- A margin of the planned width all round, lying in a natural crease.
+!!
+## Excise at the right depth
+Infiltrate local anaesthetic with adrenaline, incise vertically, and excise to a plane deep to the tumour: subcutaneous fat for most, including fascia or perichondrium where the tumour is deep. Orient the specimen with sutures for the pathologist.
+!see What you should see
+- A specimen of even thickness with a clean deep plane, marked for orientation.
+!!
+## Check the margins before reconstructing
+For high-risk tumours, use Mohs surgery (complete margin examination by horizontal sections, stage by stage) or frozen sections. If margins are uncertain, close simply or dress the wound and reconstruct when the margins are confirmed clear.
+!see What you should see
+- Clear margins reported before tissue is moved.
+!!
+!danger Never bury an unclear margin
+Rotating a flap over a defect with tumour still at its edge spreads the tumour under the flap, where recurrence is found late and deep. Confirm clearance first.
+!!
+## Close
+Undermine in the right plane (above the SMAS on the face, subgaleal on the scalp) and close in layers without tension. Choose secondary intention for concave sites (medial canthus, conchal bowl, temple), a local flap for convex sites with laxity nearby, and a full-thickness skin graft where flaps would distort (nasal tip, eyelids).
+!mf 4 | A helical rim advancement flap after excision on the ear.
+!see What you should see
+- A tension-free closure that does not pull on the eyelid, lip or nasal ala.
+!!
+!senior Senior's pearl
+Watch the free margins. A closure that pulls the lower eyelid, the lip or the alar rim will distort them as it contracts; choose the vector of closure so that tension runs parallel to the free edge.
+!!
+## Regional disease
+For squamous carcinoma with parotid or neck nodes, add parotidectomy and neck dissection, with adjuvant radiotherapy for high-risk features. For melanoma, sentinel node biopsy guides nodal treatment, and systemic therapy is discussed in the multidisciplinary team.
+!see What you should see
+- Staging of the parotid and neck completed and planned with the team.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Margin involved on final histology
+Act | re-excise, ideally with margin control ; or radiotherapy if surgery is unsuitable
+!!
+!path Expanding haematoma under a flap
+Act | open the wound, evacuate, find the vessel ; a flap under a haematoma will die
+!!
+!path Dark flap at a week
+Act | wait ; much dusky tissue survives ; debride only when necrosis has declared itself
+!!
+
+# Aftercare | Lifelong skin checks.
+## After surgery
+Wound care, suture removal at 5 to 7 days on the face, sun protection, and regular skin surveillance (new primaries are common); nodal follow-up for squamous carcinoma and melanoma.
+## Complications
+Bleeding, haematoma, infection, flap or graft necrosis, scarring, distortion of free margins, nerve injury, incomplete excision, recurrence.
+!update Current evidence
+In a randomised trial of high-risk facial basal cell carcinomas with 10-year follow-up, recurrence after Mohs surgery was 4.4% against 12.2% after standard excision for primary tumours, and 3.9% against 13.5% for recurrent tumours, where the difference was significant; over half of recurrences of primary tumours appeared after 5 years (van Loo et al., *Eur J Cancer* 2014).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Myers: margins by tumour type and risk (about 4 mm for low-risk basal cell carcinoma, 4, 6 and 9 mm for low, moderate and high-risk squamous carcinoma), Mohs surgery for high-risk and recurrent tumours and for head and neck melanoma, and reconstruction after clearance.
+K. J. Lee: risk factors, staging (including the AJCC 8 cutaneous squamous carcinoma staging), sentinel node biopsy and the parotid as the first echelon.
+The literature: Mohs surgery halves recurrence in high-risk facial basal cell carcinoma over 10 years.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Margins** for basal cell carcinoma, squamous carcinoma and melanoma.
+- **High-risk** features and sites.
+- **Mohs surgery**: what it is and when to use it.
+- **Reconstructive ladder** and the free margins.
+- **Regional disease**: parotid, neck, sentinel node.
+!!
+## Common pitfalls
+!pit
+- Moving a flap before margins are clear.
+- Ignoring perineural symptoms or parotid nodes.
+- Closures that distort the eyelid or lip.
+- Debriding a dusky flap too early.
+!!
