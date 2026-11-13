@@ -1,0 +1,99 @@
+@stand A midline mass on a child's nose, a pit with a hair in it, or a "polyp" in a baby's nose may connect with the brain through the foramen caecum. Dermoids, gliomas and encephaloceles are rare, but biopsying or excising one without imaging can cause a CSF leak and meningitis. So the rules are: image with MRI (and CT for bone) first, plan with neurosurgery if there is an intracranial tract, and remove the whole lesion with its tract in one go. Nasolacrimal duct cysts, the other congenital mass in a newborn's nose, are simpler: marsupialise them endoscopically.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Surgery for congenital midline nasal masses
+ | Summary
+Lesions | Nasal dermoid sinus cyst (commonest; pit, hair, infection); nasal glioma (glial heterotopia; firm, non-pulsatile); encephalocele (soft, pulsatile, enlarges with crying, Furstenberg positive); nasolacrimal duct cyst (newborn nasal obstruction, often with dacryocystocele)
+Indications | All midline masses (deformity, infection, meningitis risk); nasolacrimal duct cysts once diagnosed
+Imaging | MRI for intracranial extension; fine-cut CT for the foramen caecum, a bifid crista galli and bone defects
+Approaches | External (vertical midline ellipse, open rhinoplasty, or brow incision); endoscopic intranasal; combined with frontal craniotomy (bicoronal) or endoscopic skull base repair when the tract reaches the dura
+Anaesthesia | General
+Tray | Lacrimal probes, open rhinoplasty set, osteotomes, endoscopes and microdebrider, neurosurgical set if intracranial, dural repair materials
+!!
+## Consent
+!consent What to tell the parents
+- **Recurrence** if any of the cyst or tract is left (about 1 in 12 dermoids).
+- **Scar** on the nose, and possible changes to nasal shape.
+- If the tract enters the skull: **CSF leak, meningitis,** and the risks of craniotomy.
+- **Infection, bleeding,** loss of smell.
+- For a nasolacrimal duct cyst: recurrence and watering eye.
+!!
+## Before you start
+Examine the nose inside and out, look for a pit, hair, widening of the bridge (telecanthus) and pulsation, and test the Furstenberg sign. Never needle or biopsy the mass before imaging. Plan the approach on MRI and CT with neurosurgery if needed.
+!mf 2 | A child with drainage from a midline nasal sinus.
+!mf 3 4 5 | CT of the skull base, the prenasal space, and MRI showing the extent of a tract.
+
+# The operation, stage by stage | Remove it all, once.
+## Nasolacrimal duct cyst
+Decongest, examine both sides endoscopically (cysts are often bilateral), and marsupialise the cyst under the inferior turbinate with fine forceps or a small microdebrider blade. The ophthalmologist probes and irrigates the lacrimal system; a stent may be placed.
+!mf 1 | A large nasolacrimal duct cyst under the inferior turbinate.
+!mf 7 | A stent placed after removal of the cyst.
+!see What you should see
+- A wide opening of the cyst into the inferior meatus and free passage of the probe.
+!!
+## Dermoid: excise the pit and follow the tract
+Excise the pit with a vertical ellipse (or use an open rhinoplasty approach for a deep cyst without a pit), cannulate the tract and follow it down through the prenasal space under the nasal bones, removing it intact with a cuff of tissue. Mobilise or osteotomise the nasal bones if needed to follow it upwards.
+!mf 6 | A dermoid with its tract, marked with a suture, and the bony defect on CT.
+!see What you should see
+- The cyst and its tract removed whole, ending blind or reaching the skull base.
+!!
+!danger Do not cut the tract short
+A tract that continues through the foramen caecum must be followed to the dura. Cutting it at the skull base leaves epithelium to grow into an intracranial dermoid or cause meningitis. If imaging showed an intracranial component, do this as a combined procedure.
+!!
+## Intracranial extension
+For a tract to the dura, combine the external excision with a frontal craniotomy through a bicoronal incision (or an endoscopic endonasal skull base approach), remove the intradural or extradural part, and repair the dura and skull base.
+!mf 8 9 | The bicoronal incision and the intracranial part of the dissection.
+!see What you should see
+- The tract removed in continuity, with a watertight dural repair.
+!!
+## Glioma and encephalocele
+Extranasal gliomas are excised through an external incision; intranasal ones endoscopically, coagulating and dividing any fibrous stalk to the skull base and repairing the defect. Encephaloceles are reduced or amputated flush with the skull base after coagulation and the defect is closed in layers, endoscopically or with neurosurgery.
+!see What you should see
+- A sealed skull base with no CSF leak.
+!!
+!senior Senior's pearl
+A bifid crista galli or a widened foramen caecum on CT means the tract probably goes intracranially. That is the moment to bring in neurosurgery, not halfway through the operation.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path CSF leak during excision
+Act | identify the dural defect ; repair in layers (fascia, fat, flap)
+After | antibiotics per local protocol ; watch for meningitis
+!!
+!path Recurrence of a dermoid
+Act | re-image with MRI ; excise the residual tract completely, including any intracranial part
+!!
+
+# Aftercare | Follow for years.
+## After surgery
+Wound care, antibiotics if infected before, and long follow-up: dermoid recurrences appear years later (mean about 3 years).
+## Complications
+Recurrence, scarring and nasal deformity, infection, CSF leak, meningitis, anosmia, and the risks of craniotomy.
+!update Current evidence
+In 96 children with nasal dermoids over 44 years, 96% had preoperative imaging, 82% had no intracranial extension, 89% were excised extracranially and 11% needed a combined intracranial approach; recurrence occurred in 8%, on average 3.3 years later (Herrington et al., *Laryngoscope* 2016). Gliomas benefit from early multidisciplinary planning, sometimes from prenatal diagnosis (Ajose-Popoola et al., *Skull Base Rep* 2011).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Myers: imaging first, complete excision by external, endoscopic or combined intracranial approaches, and endoscopic marsupialisation of nasolacrimal duct cysts.
+Dhingra: the embryology (foramen caecum, fonticulus frontalis) and the clinical differences between dermoid, glioma and encephalocele.
+The literature: most dermoids can be removed extracranially, but imaging must exclude intracranial extension.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Embryology** of the prenasal space.
+- **Dermoid, glioma, encephalocele:** clinical differences and the Furstenberg sign.
+- **Why** never to biopsy first.
+- **Imaging** and the bifid crista galli.
+- **Complete excision** and when to involve neurosurgery.
+!!
+## Common pitfalls
+!pit
+- Biopsying or excising a midline mass without imaging.
+- Leaving the deep tract.
+- Taking an intranasal glioma for a polyp.
+- Missing a contralateral nasolacrimal duct cyst.
+!!
