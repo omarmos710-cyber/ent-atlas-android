@@ -1,0 +1,97 @@
+@stand A subperiosteal orbital abscess is pus trapped between the bony orbital wall and the periorbita, usually spreading from ethmoid sinusitis in a child. Many small medial abscesses in young children settle with intravenous antibiotics; others threaten the eye and must be drained, usually endoscopically through the ethmoid, with the sinus opened at the same time. The decision rests on vision, the size and site of the abscess, the child's age and the response in the first 24 to 48 hours.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Drainage of a subperiosteal orbital abscess
+ | Summary
+Chandler stages | I preseptal cellulitis; II orbital cellulitis; III subperiosteal abscess; IV orbital abscess; V cavernous sinus thrombosis
+Urgent surgery | Reduced vision or signs of optic neuropathy (colour vision, relative afferent pupillary defect); a large abscess; an abscess not in the medial position (superior, lateral); frontal sinusitis; intracranial spread; suspected anaerobic infection; older children and adults
+Trial of antibiotics | Small medial abscess with normal vision in a young child (under about 9 years), with frequent eye checks; drain if no improvement in 24 to 48 hours
+Approach | Endoscopic ethmoidectomy with removal of the lamina papyracea (medial abscess); external (Lynch or transcaruncular) if endoscopic access is poor; sub-brow or lid crease for superior abscesses
+Imaging | Contrast CT of sinuses and orbits; MRI if intracranial spread is suspected
+Anaesthesia | General
+Tray | Endoscopes, paediatric sinus set, culture swabs, external approach set, corneal protectors
+!!
+## Consent
+!consent What to tell the family
+- The aim is to **save sight** and clear the infection.
+- **Bleeding, orbital injury,** double vision, rarely **loss of vision.**
+- **CSF leak** (rare).
+- A small **scar** if an external approach is needed; eyelid or eye movement problems.
+- Antibiotics continue afterwards; the abscess can recur.
+!!
+## Before you start
+Examine vision, colour vision, pupils, eye movements and proptosis, with ophthalmology, and record them repeatedly. Read the CT for the abscess size, site and the sinuses involved. Start intravenous antibiotics covering streptococci, staphylococci and anaerobes.
+!mf 2 | A child with a subperiosteal orbital abscess.
+!mf 3 4 5 | Coronal and axial contrast CT of a right medial subperiosteal abscess.
+
+# The operation, stage by stage | Endoscopic medial drainage.
+## Check the eye under anaesthesia
+After intubation, test forced ductions in all directions and the pupils if the child could not cooperate before. Protect the cornea.
+!see What you should see
+- A baseline for comparison at the end of the operation.
+!!
+## Open the ethmoid
+Decongest the swollen mucosa well (expect bleeding), remove the uncinate, open the bulla and the anterior ethmoid cells, and identify the lamina papyracea, using navigation if available. Open the maxillary ostium and frontal recess if involved.
+!mf 1 | Medial orbital landmarks: lacrimal crests, lacrimal fossa and ethmoidal foramina.
+!see What you should see
+- The lamina papyracea, bulging or discoloured over the abscess.
+!!
+## Drain the abscess
+Fracture and remove a window of lamina papyracea over the abscess with an elevator, keeping the periorbita intact. Pus flows out; send it for culture. Widen the window enough for continued drainage.
+!see What you should see
+- Pus draining into the ethmoid and the orbit softening.
+!!
+!danger Stay outside the periorbita
+The abscess is outside the periorbita. Do not incise it unless there is a true orbital abscess within the cone: orbital fat and the medial rectus lie directly behind it.
+!!
+## External or superior approaches
+When endoscopic access is not possible, drain through a Lynch incision or transcaruncular conjunctival incision along the medial wall. For a superior abscess, use a sub-brow or upper lid crease incision, mark and protect the supraorbital bundle, incise periosteum along the rim and elevate it off the orbital roof to the abscess. Protect the levator and trochlea.
+!mf 6 7 8 | The supraorbital notch, the sub-brow incision and the approach to the superior orbit.
+!see What you should see
+- The abscess cavity opened and drained, and a free-moving globe on forced duction.
+!!
+!senior Senior's pearl
+Re-examine the eye after drainage and every few hours afterwards. Improvement in vision and proptosis should be quick; if it is not, re-image for an undrained collection or an orbital abscess within the cone.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Vision worsens on medical treatment
+Act | drain now ; ophthalmology ; consider steroids only with specialist advice
+!!
+!path Headache, drowsiness, seizures or bilateral eye signs
+Act | MRI for intracranial abscess or cavernous sinus thrombosis ; neurosurgery ; broaden antibiotics
+!!
+
+# Aftercare | Antibiotics and eye checks.
+## After surgery
+Intravenous antibiotics guided by culture, then oral to complete the course; saline douching; regular checks of vision and pupils; review of the sinuses.
+## Complications
+Persistent or recurrent abscess, orbital injury, diplopia, vision loss, CSF leak, intracranial spread.
+!update Current evidence
+Abscess size helps predict who needs surgery: in children with subperiosteal abscess, larger CT volumes and dimensions were associated with surgical management, supporting medical treatment of small medial abscesses with normal vision (Todman and Enzer, *Ophthalmic Plast Reconstr Surg* 2011; Gavriel et al., *Otolaryngol Head Neck Surg* 2011). In a ten-year paediatric series, CT was reserved for proptosis or failure to improve within 48 hours, and surgical drainage was needed in about 16% (Sciarretta et al., *Int J Pediatr Otorhinolaryngol* 2017).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Myers: criteria for immediate surgery (vision, size, non-medial site, frontal sinusitis, intracranial spread, age 9 or over) and endoscopic or external drainage.
+Dhingra and K. J. Lee: the Chandler classification and the spread of ethmoid infection through the lamina papyracea.
+The literature: small medial abscesses in young children with normal vision often resolve with antibiotics.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Chandler** stages.
+- **Indications** for surgery versus antibiotics.
+- **Eye examination** and how often.
+- **Endoscopic drainage** steps and the periorbita.
+- **Intracranial** complications.
+!!
+## Common pitfalls
+!pit
+- Treating with antibiotics while vision is falling.
+- Incising the periorbita for a subperiosteal collection.
+- Missing a superior or lateral abscess that the endoscope cannot reach.
+- Infrequent eye checks.
+!!

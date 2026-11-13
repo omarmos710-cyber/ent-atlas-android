@@ -1,0 +1,95 @@
+@stand A tense, proptosed eye after sinus surgery, a facial fracture or a blow is orbital compartment syndrome: the retina and optic nerve can die within about 90 minutes. Lateral canthotomy with inferior cantholysis lets the orbit decompress forwards, takes a few minutes, needs only a clamp, scissors and forceps, and can be done at the bedside. Every ENT surgeon must be able to do it without hesitation; it is also the first step of several orbital approaches.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Lateral canthotomy and inferior cantholysis
+ | Summary
+Emergency indication | Orbital compartment syndrome: proptosis with a tight orbit plus any of reduced vision, a relative afferent pupillary defect, raised intraocular pressure (over about 40 mmHg), ophthalmoplegia or severe pain; usually retrobulbar haemorrhage after sinus or orbital surgery, trauma or anticoagulation
+Elective uses | First step of lateral or inferior orbitotomy, eyelid tightening and lid reconstruction
+Do not wait for | CT, an ophthalmologist or theatre when vision is threatened; medical measures (mannitol, acetazolamide, steroids) must not delay it
+Anaesthesia | Local infiltration (lidocaine with adrenaline) at the bedside, or general
+Tray | Haemostat, straight sharp scissors (iris or Stevens), toothed forceps, gauze; sterile skin preparation
+!!
+## Consent
+!consent What to tell the patient (often in an emergency)
+- The aim is to **save sight**; vision may not recover if damage has already occurred.
+- **Bleeding** and a small scar at the outer corner of the eye.
+- **Eyelid malposition** (a lax lower lid or rounded outer corner), repairable later.
+- **Globe injury,** rare with care.
+!!
+## Before you start
+Recognise it: a hard, proptosed eye that will not retropulse, a dilated or sluggish pupil, falling vision, and pain. After sinus surgery, remove any nasal packing first. Check vision and pupils on both sides; measure intraocular pressure if a tonometer is to hand, but do not delay.
+!mf 1 | The lateral orbital rim and the superior and inferior crura of the lateral canthal tendon.
+
+# The operation, stage by stage | Canthotomy, then cantholysis.
+## Infiltrate and crush
+Clean the skin and inject a little local anaesthetic with adrenaline at the lateral canthus. Clamp the lateral canthus horizontally from the outer corner to the orbital rim with a haemostat for about a minute to crush the tissue and reduce bleeding.
+!see What you should see
+- A crushed, blanched line from the lateral canthus to the rim.
+!!
+## Canthotomy
+Cut along the crushed line with straight scissors, about 1 cm, from the canthus to the rim, dividing skin, orbicularis and conjunctiva.
+!mf 2 3 | Scissors placed for the canthotomy, and the incision.
+!see What you should see
+- The lateral canthus divided into upper and lower limbs down to the orbital rim.
+!!
+## Inferior cantholysis
+Grasp the lower lid with toothed forceps and pull it forwards and away from the globe. Point the scissors down and back towards the chin, and "strum" across the tissue between lid and rim: you can feel the inferior crus of the lateral canthal tendon as a tight band. Cut it.
+!mf 4 | Strumming the scissors to find and cut the inferior crus.
+!see What you should see
+- The lower lid swinging away freely from the globe.
+!!
+!danger The canthotomy alone does nothing
+Cutting the skin and canthus does not decompress the orbit. The pressure falls only when the inferior crus of the tendon is cut and the lower lid is free. If the lid is still tethered, you have not finished.
+!!
+## Reassess
+Check the eye: it should soften, the pressure fall and the pupil and vision improve. If the orbit remains tight, cut the superior crus as well.
+!mf 5 | Laxity of the lower eyelid after successful cantholysis.
+!see What you should see
+- A softer orbit, falling intraocular pressure and improving pupil response.
+!!
+!senior Senior's pearl
+Retropulse the eye before and after. If you cannot push the globe back before the cut and you can after it, you have decompressed the orbit. Then find the cause: a bleeding anterior ethmoidal artery after sinus surgery may need medial orbital decompression in theatre.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Eye still tight after canthotomy and cantholysis
+Act | cut the superior crus ; release the inferior septum
+Then | theatre for orbital decompression (endoscopic medial wall or external) ; ophthalmology
+!!
+!path Retrobulbar haematoma after endoscopic sinus surgery
+Act | remove packs ; canthotomy and cantholysis at once
+Then | find and coagulate the anterior ethmoidal artery ; consider medial orbital decompression
+!!
+
+# Aftercare | Let it heal open.
+## After surgery
+Leave the wound open to heal; it usually closes acceptably. Lubricate the eye. Check vision regularly. Repair any lasting lid malposition electively.
+## Complications
+Bleeding, incomplete release, eyelid malposition (ectropion, rounded canthus), globe injury (rare), infection.
+!update Current evidence
+Lateral canthotomy and cantholysis can be done at the bedside with simple instruments and can prevent irreversible blindness when performed promptly for orbital compartment syndrome (Rowh et al., *J Emerg Med* 2015). In a cadaver model, adding release of the inferior orbital septum lowered orbital pressure further than canthotomy and cantholysis alone (Oester et al., *Ophthalmic Plast Reconstr Surg* 2012).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Myers: canthotomy with inferior cantholysis as the emergency treatment, with medical measures never delaying it.
+Dhingra and K. J. Lee: orbital haematoma as a complication of endoscopic sinus surgery and the role of canthotomy.
+The literature: bedside decompression saves sight when done early; septal release adds further decompression.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Recognising** orbital compartment syndrome and the time window.
+- The **steps**, especially the inferior cantholysis.
+- **Causes** after ENT surgery (anterior ethmoidal artery).
+- What to do if the eye **remains tight.**
+!!
+## Common pitfalls
+!pit
+- Waiting for imaging or a specialist.
+- Doing only the canthotomy.
+- Forgetting to remove nasal packing.
+- Pointing the scissors towards the globe.
+!!
