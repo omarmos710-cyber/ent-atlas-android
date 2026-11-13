@@ -1,0 +1,98 @@
+@stand The optic nerve runs from the orbital apex through the optic canal in the lateral wall of the sphenoid, beside the carotid artery. When bone, tumour (fibrous dysplasia, meningioma) or a fracture compresses it, endoscopic decompression removes the bone over at least half its circumference. For tumour and fibrous dysplasia with progressive visual loss the case is clear; for traumatic optic neuropathy the evidence is weak and the decision is individual.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Endoscopic optic nerve decompression
+ | Summary
+Indications | Progressive compressive optic neuropathy from fibrous dysplasia, benign tumours (meningioma), mucocele or other bony compression; selected traumatic optic neuropathy with residual vision, especially with a canal fracture; part of skull base tumour surgery
+Uncertain | Traumatic optic neuropathy without compression; complete blindness from the moment of injury
+Assessment | Visual acuity, colour vision, fields, relative afferent pupillary defect, fundoscopy; fine-cut CT of the canal; MRI for tumours
+Anaesthesia | General
+Tray | Endoscopes (0 and 45 degree), navigation, sinus set, self-irrigating drill with 2 mm diamond burrs, fine dissectors, fibrin glue
+!!
+## Consent
+!consent What to tell the patient
+- Vision may **improve, stay the same or worsen;** the nerve can be injured by heat or handling.
+- **Bleeding,** including catastrophic bleeding from the **internal carotid artery** beside the nerve.
+- **CSF leak** if the sheath or dura is opened.
+- **Orbital injury,** double vision.
+!!
+## Before you start
+Document vision carefully. On CT, follow the canal, the carotid and its dehiscence, the anterior clinoid, the optic strut and any Onodi cell (the nerve may run in a posterior ethmoid cell rather than the sphenoid).
+!mf 1 | CT before and after decompression for fibrous dysplasia.
+
+# The operation, stage by stage | Apex to tuberculum.
+## Wide exposure
+Through one nostril (both for bilateral or tumour work), medialise or resect the middle turbinate, complete the ethmoidectomy along the medial orbital wall and skull base, and open the sphenoid widely from the planum to the floor, flush laterally with the orbital apex.
+!see What you should see
+- The medial orbital wall continuous with the lateral sphenoid wall.
+!!
+## Identify the landmarks
+In the lateral sphenoid wall find the optic prominence above, the carotid prominence below and behind it, and the opticocarotid recess between them; use navigation when anatomy is distorted.
+!mf 2 | The optic and carotid prominences and the opticocarotid recess in the right sphenoid.
+!see What you should see
+- The optic canal running back from the orbital apex to the tuberculum sellae.
+!!
+!danger The carotid is next door
+The internal carotid artery lies directly below and behind the optic canal, sometimes without a bony cover. Drill only where you have identified the nerve, on diamonds, and never use a cutting burr here.
+!!
+## Decompress the posterior medial orbit
+Fracture and remove the thin posterior lamina papyracea, keeping the periorbita intact so fat does not fall into the view (shrink small herniations with bipolar).
+!see What you should see
+- The orbital apex with intact periorbita.
+!!
+## Drill the canal
+Thin the thick bone of the apex and canal with a self-irrigating 2 mm diamond, then lift the eggshell bone off with a fine dissector, from the apex back to the tuberculum, optic strut and paraclinoid carotid. Aim for at least 180 degrees of the circumference (often 270 when the clinoid is pneumatised). Do not open the sheath.
+!mf 3 4 5 | Drilling the apex, the decompressed apex, and over 180 degrees of decompression on a 45 degree view.
+!see What you should see
+- The nerve sheath exposed along the length of the canal.
+!!
+!senior Senior's pearl
+Heat kills the nerve as surely as a burr. Irrigate constantly, thin the bone without touching the nerve, and finish with a dissector rather than the drill.
+!!
+## Finish
+Cover the nerve with fibrin glue if wished; avoid packing, which can compress the nerve.
+!see What you should see
+- A dry field and no pressure on the decompressed nerve.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Carotid bleeding
+Act | pack firmly with pressure ; hypotension avoided ; two suckers and a crushed muscle patch
+Then | urgent angiography and endovascular treatment
+!!
+!path CSF from the sheath
+Act | seal with a graft and fibrin glue ; no packing on the nerve
+!!
+
+# Aftercare | Vision checks.
+## After surgery
+Check vision and pupils frequently; continue steroids if part of the protocol; no nose blowing; saline douching.
+## Complications
+Worse vision, carotid injury, CSF leak, orbital haematoma, diplopia, sinusitis.
+!update Current evidence
+For traumatic optic neuropathy, a meta-analysis of 42 studies (2,859 patients) found visual improvement in about 26% after endoscopic optic canal decompression, with no difference between decompression with or without steroid pulses; benefit was greatest with residual vision and early surgery, but the evidence is mostly observational (Alomari et al., *Eur Arch Otorhinolaryngol* 2026). A systematic review of 16 studies of endoscopic decompression reported a mean visual recovery rate of 58% (Ganjeifar et al., *Rom J Ophthalmol* 2026); the difference reflects selection.
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Myers: wide sphenoidotomy, identification of the optic and carotid prominences, irrigated drilling and at least 180 degrees of decompression without opening the sheath.
+K. J. Lee: optic nerve decompression among the endoscopic orbital procedures, with the uncertain role in trauma.
+The literature: modest and variable benefit in traumatic optic neuropathy.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Indications** and the evidence in trauma.
+- **Landmarks** in the sphenoid, including the Onodi cell.
+- **Technique**: irrigation, eggshell, 180 degrees, sheath left closed.
+- **Carotid injury** management.
+!!
+## Common pitfalls
+!pit
+- Missing an Onodi cell carrying the nerve.
+- Drilling without irrigation.
+- Packing over the decompressed nerve.
+- Opening the sheath unnecessarily.
+!!
