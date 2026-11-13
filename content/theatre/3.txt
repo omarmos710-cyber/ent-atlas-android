@@ -1,0 +1,97 @@
+@stand Recurrent respiratory papillomatosis is a benign but relentless growth of HPV 6 and 11 papillomas in the airway, worst in children, where it can block the larynx. Surgery cannot cure it because the virus lives in normal-looking mucosa too; the aim is to remove enough to keep the airway open and the voice useful while doing no harm to the vocal folds, so that dozens of operations over the years do not leave a scarred, webbed larynx. Adjuvants such as the HPV vaccine and bevacizumab now lengthen the intervals between operations.
+
+# Operating note | The case on one page.
+## The case at a glance
+!table Surgery for recurrent respiratory papillomatosis
+ | Summary
+Presentation | Progressive hoarseness, stridor and breathlessness (children often misdiagnosed as asthma or croup); adult-onset disease is usually milder
+Aim | A safe airway and the best voice, preserving normal tissue; not complete removal at all costs
+Methods | Cold steel microsurgery, microdebrider (common in children), KTP or other angiolytic laser (also in clinic for adults), CO2 laser
+Adjuvants | HPV vaccination; intralesional or systemic bevacizumab for aggressive disease; cidofovir (less used now); treat reflux
+Avoid | Tracheostomy where possible (may seed disease into the trachea)
+Anaesthesia | General with a small laser-safe tube, or tubeless (jet or apnoeic) techniques; office procedures under topical anaesthesia in adults
+Tray | Laryngoscopes, telescopes (0, 30, 70 degree), microscope, microlaryngeal instruments, microdebrider with laryngeal blades, laser with safety equipment, wet towels and pledgets
+!!
+## Consent
+!consent What to tell the patient or family
+- **Repeated operations** are likely; the disease recurs.
+- **Scarring and webbing,** especially at the front of the vocal folds, which can worsen voice and airway.
+- **Airway fire** (rare) when a laser is used.
+- Dental and mucosal injury, sore throat, temporary tongue numbness or taste change from the laryngoscope.
+- Rarely, spread to the lungs or malignant change (more in adults and smokers).
+!!
+## Before you start
+Look at the whole airway in clinic with a flexible scope and stroboscopy if possible. Score the disease (for example the Derkay staging) to track it over time. Send tissue for HPV typing at the first operation. Plan the anaesthetic airway together, especially with obstructing disease.
+!mf 1 | Papillomas of the larynx.
+!mf 2 | A staging form for recording the extent of disease at each site.
+
+# The operation, stage by stage | Map, sample, remove, protect.
+## Expose and map
+Suspend the largest laryngoscope that fits. Examine the oral cavity, pharynx, larynx, subglottis and trachea with 0, 30 and 70 degree telescopes, map and photograph every site (the ventricles, undersurface of the folds and commissures are best seen with angled scopes), and score the disease.
+!see What you should see
+- A complete map of papilloma sites from the supraglottis to the trachea.
+!!
+## Sample
+Remove a small piece with cold instruments for histology (and HPV typing at the first operation) before using any energy device.
+!see What you should see
+- A clean specimen without thermal artefact.
+!!
+## Remove the papillomas
+Use the method suited to the site: a microdebrider shaves bulky disease quickly in children; an angiolytic (KTP) laser coagulates papillomas on the vocal folds with little damage to the vibrating layer; cold steel for discrete lesions. Treat to the surface, not through the vocal ligament.
+!mf 3 | KTP laser treatment of papillomas (here in the office).
+!see What you should see
+- An open airway and vocal folds with their smooth edges and underlying layers preserved.
+!!
+!danger The anterior commissure web
+Treating raw areas on both vocal folds at the anterior commissure in one session creates a web. Leave a small strip on one side and treat it at the next session.
+!!
+## Laser safety
+Use a laser-safe tube with a saline-filled cuff, saline pledgets in the subglottis above it, wet towels on the face, the lowest oxygen concentration the patient tolerates, and the laser on standby when not firing.
+!see What you should see
+- Wet protection in place and inspired oxygen kept low before the laser fires.
+!!
+!senior Senior's pearl
+This is a disease of decades. Every session, ask what the patient needs now (airway or voice) and leave everything that does not need treating today. Healthy, scar-free mucosa is worth more than a "clean" larynx.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Airway fire
+Act | stop the laser ; stop oxygen ; remove the tube ; pour saline
+Then | ventilate by mask, reintubate ; bronchoscopy to assess the injury
+!!
+!path Obstructing disease on induction
+Act | spontaneous ventilation induction ; debulk through a rigid scope or ventilating bronchoscope ; tracheostomy only as a last resort
+!!
+
+# Aftercare | Long-term surveillance.
+## After surgery
+Voice rest briefly, anti-reflux treatment, regular clinic reviews with endoscopy to plan the next session before the airway narrows. Offer HPV vaccination; refer aggressive or distal disease for systemic adjuvant therapy.
+## Complications
+Glottic and subglottic stenosis and webs, voice deterioration, airway fire, dental injury, distal spread into the trachea and lungs, malignant change.
+!update Current evidence
+A meta-analysis of 11 studies (133 patients) found that HPV vaccination given as an adjuvant reduced surgery from about 0.35 to 0.06 procedures per month and extended the interval between operations from about 7 to 34 months (Rosenberg et al., *J Infect Dis* 2019). A systematic review of 64 patients found systemic bevacizumab prolonged the surgical interval in 95%, with more than half needing no surgery over about 2 years; intralesional bevacizumab was less effective (Pogoda et al., *Eur Arch Otorhinolaryngol* 2022).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Where the books differ
+!differ
+Myers: staging at each operation, a biopsy first, and removal with KTP laser, microdebrider or cold steel, protecting the anterior commissure.
+Dhingra and K. J. Lee: juvenile and adult-onset forms, HPV 6 and 11, maternal transmission, and avoidance of tracheostomy.
+The literature: HPV vaccine and bevacizumab as effective adjuvants that reduce the number of operations.
+!!
+## Viva essentials
+!exam What the examiner is looking for
+- **Virology** and transmission.
+- **Presentation** in a child and why it is missed.
+- **Surgical principles**: airway and voice, preserve normal tissue, avoid webs.
+- **Laser safety** and airway fire drill.
+- **Adjuvants** and their evidence.
+!!
+## Common pitfalls
+!pit
+- Aggressive removal leaving bilateral raw anterior commissure.
+- Laser without fire precautions.
+- A tracheostomy that seeds the trachea.
+- No tissue for histology at the first operation.
+!!
