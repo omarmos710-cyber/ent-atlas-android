@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" font-family="Helvetica, Arial, sans-serif">
+<rect width="600" height="500" fill="#FBFAF7"/>
+<text x="20" y="34" font-size="22" font-weight="700" fill="#1F2A33">Three positions you will use every week</text>
+<!-- 1 neck extension -->
+<text x="20" y="72" font-size="16" font-weight="700" fill="#2F6F98">1. Neck extended</text>
+<text x="20" y="92" font-size="14" fill="#5B6670">thyroid, tracheostomy, neck</text>
+<rect x="250" y="120" width="320" height="16" rx="4" fill="#C9D3DB"/>
+<ellipse cx="335" cy="112" rx="34" ry="10" fill="#E9D7A6" stroke="#B59A68"/>
+<text x="335" y="160" font-size="13.5" text-anchor="middle" fill="#8A6A2E">shoulder roll</text>
+<ellipse cx="268" cy="113" rx="22" ry="7" fill="#C7B6E0" stroke="#8C77AE"/>
+<text x="250" y="160" font-size="13.5" text-anchor="end" fill="#6E5A92">head ring</text>
+<path d="M290 92 Q 300 80 330 86 L 560 86 L 560 106 L 340 106 Q 310 108 296 108 Z" fill="#CFE0EC" stroke="#8FA9BC"/>
+<circle cx="270" cy="88" r="22" fill="#F1D9C4" stroke="#B9967A"/>
+<path d="M248 92 l -14 4" stroke="#B9967A" stroke-width="3"/>
+<!-- 2 reverse trendelenburg -->
+<text x="20" y="214" font-size="16" font-weight="700" fill="#2F6F98">2. Head up 15 to 20 degrees</text>
+<text x="20" y="234" font-size="14" fill="#5B6670">sinus, skull base, thyroid</text>
+<g transform="rotate(12 420 300)">
+<rect x="250" y="292" width="320" height="16" rx="4" fill="#C9D3DB"/>
+<path d="M290 266 Q 300 254 330 260 L 560 260 L 560 286 L 300 286 Z" fill="#CFE0EC" stroke="#8FA9BC"/>
+<circle cx="272" cy="270" r="22" fill="#F1D9C4" stroke="#B9967A"/>
+</g>
+<line x1="250" y1="350" x2="580" y2="350" stroke="#9AA8B4" stroke-dasharray="5 5"/>
+
+<text x="250" y="372" font-size="14" fill="#B5454D">head above the heart: less venous bleeding</text>
+<!-- 3 head turned -->
+<text x="20" y="408" font-size="16" font-weight="700" fill="#2F6F98">3. Head turned away</text>
+<text x="20" y="428" font-size="14" fill="#5B6670">ear, parotid, neck dissection</text>
+<circle cx="330" cy="430" r="40" fill="#F1D9C4" stroke="#B9967A"/>
+<ellipse cx="300" cy="430" rx="9" ry="15" fill="#E2BFA3" stroke="#B9967A"/>
+<path d="M352 406 q 18 24 0 48" fill="none" stroke="#B9967A" stroke-width="2"/>
+<text x="390" y="420" font-size="14" fill="#1F2A33">turn only as far as the</text>
+<text x="390" y="440" font-size="14" fill="#1F2A33">neck moves when awake</text>
+<text x="20" y="485" font-size="14" fill="#5B6670">Check the tube, eyes, pressure points and arms after every change.</text>
+</svg>

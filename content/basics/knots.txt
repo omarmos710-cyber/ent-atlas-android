@@ -1,0 +1,88 @@
+@stand A knot is the weakest point of every suture and every tie, and closing a wound well is how most people will judge your surgery: the patient sees the scar for the rest of their life. You need three knots you can tie without looking (two-handed, one-handed and instrument), deep ties on a vessel in a narrow space, and a small set of stitches for skin and mucosa. Practise on a board until your hands do it automatically, then you can watch the tissue instead of your fingers.
+@src Oxford Textbook of Otolaryngology; K. J. Lee; Myers; Royal College of Surgeons Basic Surgical Skills; the literature
+
+# Knots | Square, surgeon's and secure.
+## Which knot {day}
+- **Square (reef) knot:** two throws in opposite directions, lying flat. The basic secure knot.
+- **Surgeon's knot:** a double first throw, which holds while you lay the second; useful under tension.
+- **Granny knot:** two throws in the same direction; it slips. If your knot does not lie flat, you have tied a granny.
+- **Slip (sliding) knot:** throws run down one strand; useful to snug a tie deep in a hole, but must be "locked" with square throws on top.
+## How many throws {day}
+Braided sutures (Vicryl, silk) hold with three flat throws. Monofilaments (nylon, polypropylene, PDS) are slippery and need four to six. Lay each throw square, pull the strands in opposite directions in the line of the knot, and do not saw one strand over the other, which weakens it.
+## Three ways to tie {day}
+!how Practise all three
+1. **Two-handed tie:** the most secure and controllable; use for ties on vessels and anything important.
+2. **One-handed tie:** fast, and leaves the other hand free to hold tension; learn it with both hands.
+3. **Instrument tie:** wrap the long end around the needle holder, grab the short end, pull through; alternate the direction of each wrap. Economical with suture and the standard for skin.
+!!
+## Ties deep in a wound {junior}
+For a vessel in the neck or tonsil fossa, pass the tie around the clip, lay the first throw, and push it down to the vessel with the tip of your index finger, keeping both strands in a straight line with the knot, so you do not pull the vessel out. Ask the assistant to release the clip slowly as the first throw tightens. Transfix (pass a needle through the vessel or pedicle) large vessels and pedicles so the tie cannot slip off.
+!danger Do not lift the vessel
+Pulling up on a tie in a deep wound tears the vessel at its origin, which you then cannot see. Push the knot down; do not pull the vessel up.
+!!
+
+# Stitches | Closing skin and mucosa.
+## Principles of closure {day}
+- **Close in layers:** deep tissue (platysma, galea, muscle) takes the tension; skin sutures only align the edges.
+- **No dead space:** cavities collect blood and serum; close them or drain them.
+- **No tension:** undermine if needed; a tight closure leaves a wide scar or necrosis.
+- **Slight eversion:** edges turned slightly outwards flatten as the scar contracts; inverted edges leave a groove.
+- **Equal bites:** the same depth and distance from the edge on both sides, so the edges meet at the same height.
+!dr stitches | The stitches you will use most, in cross-section.
+## The stitches {day}
+!table Stitches and when to use them
+Stitch | Use | Notes
+Simple interrupted | Most skin wounds, mucosa | Each stitch independent; adjust as you go
+Vertical mattress | Thin or lax skin that inverts, tension | Everts edges; can mark the skin if tight
+Horizontal mattress | Fragile skin, haemostasis, flap edges | Spreads tension; also for septal quilting and tonsil pillars
+Continuous (running) | Long, straight, low-tension wounds, mucosa | Fast; one break loosens the whole line
+Subcuticular | Neck and face incisions | No cross-hatching; usually absorbable Monocryl, or pull-out polypropylene
+Half-buried (corner) | Points of flaps | Protects the blood supply to the tip
+!!
+!how Subcuticular closure of a neck incision
+1. Close platysma with interrupted buried 3-0 or 4-0 Vicryl so the skin edges sit together without tension.
+2. Start at one end with a buried knot or an anchor outside the wound.
+3. Take horizontal bites in the dermis, alternating sides, each entering opposite where the last one left, slightly back.
+4. Keep every bite at the same depth so the edges stay level.
+5. Finish with a buried knot, then adhesive strips or glue.
+!!
+!senior Senior's pearl
+The best stitch is the one that brings the edges together without tension at the same height. If the edges do not meet before you put the skin stitch in, the problem is in the deep layer, not the skin.
+!!
+
+# When it goes wrong | Wound problems.
+## Recognising trouble {junior}
+- **Stitch marks** ("railroad tracks"): sutures tied too tight or left too long.
+- **Dehiscence:** tension, infection, haematoma or poor tissue (radiotherapy, steroids, diabetes).
+- **Inverted edges and step deformities:** unequal bites.
+- **Suture abscess or spitting stitch:** buried braided sutures too close to the surface.
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+In a laboratory study of sutures used in the mouth, surgeon's knots were the most secure; square and surgeon's knots needed at least four throws and sliding knots at least five, with nothing gained after five (Silver et al., *J Oral Maxillofac Surg* 2016). A Cochrane review of 33 trials found sutures better than tissue adhesive at preventing wound breakdown (one extra breakdown for every 43 wounds closed with glue), with no difference in infection or appearance (Dumville et al., *Cochrane Database Syst Rev* 2014).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Square versus granny knots** and the number of throws.
+- **Deep tie technique** and transfixion.
+- **Principles of wound closure.**
+- **When to use each stitch.**
+!!
+## Skills to sign off
+!skills
+- Tie square knots two-handed, one-handed (both hands) and with instruments {day}
+- Tie a secure deep tie on a vessel in a narrow space {junior}
+- Close skin with simple interrupted and vertical mattress sutures {day}
+- Close a neck incision in layers with a subcuticular stitch {junior}
+- Transfix a pedicle {junior}
+!!
+## Common pitfalls
+!pit
+- Granny knots that slip.
+- Too few throws on monofilament.
+- Pulling a vessel up to tie it.
+- Closing skin under tension instead of fixing the deep layer.
+!!

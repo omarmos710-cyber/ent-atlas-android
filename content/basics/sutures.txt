@@ -1,0 +1,81 @@
+@stand Choosing a suture means choosing four things: whether it should stay or dissolve, how long it must hold its strength, how it behaves in tissue (monofilament or braided), and its size and needle. In the head and neck you will close fine facial skin, thick neck skin, scalp, mucosa in a wet, contaminated mouth, cartilage, and vessels as small as a millimetre. The right choice heals with the least scar and infection; the wrong one leaves stitch marks, abscesses or a wound that opens.
+@src Oxford Textbook of Otolaryngology; Oxford Handbook of ENT; K. J. Lee; Myers; manufacturers' data; WHO and NICE surgical site infection guidance; the literature
+
+# The material | What a suture is made of.
+## The properties that matter {day}
+- **Absorbable or non-absorbable:** absorbable sutures lose strength and are broken down (by hydrolysis for synthetic materials); non-absorbable ones stay unless removed.
+- **Strength over time:** how long the suture holds the wound, which must match how fast that tissue heals.
+- **Monofilament or braided:** monofilaments slide easily, harbour fewer bacteria and cause less reaction but have "memory" and need more throws; braided sutures handle and knot easily but wick bacteria.
+- **Tissue reaction:** natural materials (silk, catgut) cause more inflammation than synthetic ones.
+- **Size:** in the USP system, the more zeros the finer: 2-0 is thicker than 4-0, which is thicker than 6-0.
+## The sutures you will use {day}
+!table Common sutures
+Suture | Type | Strength and absorption | Typical ENT uses
+Polyglactin 910 (Vicryl) | Absorbable, braided | About 50% strength at 3 weeks; absorbed in about 2 months | Ties, deep layers, platysma, mucosa
+Rapid polyglactin (Vicryl Rapide) | Absorbable, braided | About 50% at 5 days; gone in about 6 weeks | Mucosa, tonsil and septal quilting, children's skin
+Poliglecaprone 25 (Monocryl) | Absorbable, monofilament | Most strength lost by 2 to 3 weeks; absorbed in about 3 to 4 months | Subcuticular skin closure
+Polydioxanone (PDS) | Absorbable, monofilament | Holds for 4 to 6 weeks; absorbed in about 6 months | Tension-bearing deep layers, cartilage, pharyngeal repair, tracheal anastomosis
+Polypropylene (Prolene) | Non-absorbable, monofilament | Permanent | Skin, vessels, pull-out subcuticular closure
+Nylon (Ethilon) | Non-absorbable, monofilament | Permanent, slowly weakens | Facial skin, microvascular anastomosis (8-0 to 10-0)
+Silk | Non-absorbable, braided | Permanent but loses strength; high reaction | Securing drains and tracheostomy tubes, ties
+!!
+!senior Senior's pearl
+Match the suture to the tissue's healing, not to habit. Mucosa heals in days, so a rapidly absorbed suture is enough; fascia and cartilage take weeks, so they need something that holds for weeks. Skin needs the finest suture that will hold the edges.
+!!
+
+# The needle | Point, body and curve.
+## Needle types {day}
+!dr needles | Needle cross-sections and curves, and how to load the needle holder.
+- **Round-bodied (taper):** pushes tissue aside; for mucosa, vessels, fascia and anything that tears.
+- **Reverse cutting:** the third cutting edge is on the outer curve, so the needle track does not cut towards the wound edge; the standard skin needle.
+- **Conventional cutting:** for tough tissue such as cartilage and periosteum.
+- **Curvature:** 3/8 circle for skin, 1/2 circle for most deeper work, 5/8 circle for deep or confined spaces such as the oral cavity and pharynx.
+## Loading and passing {day}
+Grip the needle about a third of the way from the swaged end with the tips of the needle holder, at a right angle to the jaws. Enter the tissue at 90 degrees and follow the curve of the needle with your wrist, rather than pushing it straight. Hand needles back to the scrub practitioner on the needle holder, never loose.
+
+# The choice | Site by site.
+## Sutures by site {junior}
+!table A practical guide
+Site | Deep layer | Skin or surface | Removal
+Face | 5-0 absorbable (Monocryl or Vicryl) | 6-0 nylon or polypropylene, or 5-0 to 6-0 rapid absorbable | 5 days
+Neck | 3-0 or 4-0 Vicryl to platysma | 4-0 or 5-0 subcuticular Monocryl, or staples or clips | 5 to 7 days if non-absorbable
+Scalp | 2-0 or 3-0 Vicryl to galea | Staples or 3-0 non-absorbable | 7 to 10 days
+Ear (postauricular) | 4-0 Vicryl | 4-0 to 5-0 absorbable or non-absorbable | 7 days
+Oral and pharyngeal mucosa | 3-0 Vicryl or PDS (pharynx) | 3-0 or 4-0 rapid absorbable | Not removed
+Septum and nasal mucosa | 4-0 rapid absorbable quilting | | Not removed
+Vessels | 2-0 or 3-0 ties; 8-0 to 10-0 nylon for microvascular anastomosis | | Not removed
+Drains and tracheostomy tubes | Silk or nylon to the skin | | When the drain comes out
+!!
+!danger Infection and the suture
+A braided suture in a contaminated field (the mouth, an infected neck) carries bacteria into the depth of the wound. Prefer monofilaments where infection matters, and do not leave unnecessary buried sutures.
+!!
+## Alternatives to sutures {junior}
+Staples are quick on the scalp and neck. Skin adhesive (cyanoacrylate glue) and adhesive strips close small, low-tension wounds in children and support subcuticular closures. Triclosan-coated sutures reduce wound infection.
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+For facial wounds, a meta-analysis found no difference between absorbable and non-absorbable skin sutures in cosmetic results, infection, dehiscence or stitch marks (Gillanders et al., *J Plast Reconstr Aesthet Surg* 2018). A meta-analysis of 25 randomised trials (11,957 patients) found triclosan-coated sutures reduced surgical site infection (relative risk 0.73) in both clean and contaminated surgery (Ahmed et al., *BMJ Open* 2019), and the WHO recommends them.
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Classification** of sutures: absorbable and non-absorbable, monofilament and braided.
+- **Strength over time** of the common sutures.
+- **Needle types** and when to use them.
+- **Choice and removal times** for the face, neck and scalp.
+!!
+## Skills to sign off
+!skills
+- Name and choose the right suture for skin, mucosa, deep layers and ties {day}
+- Load and pass a needle correctly and return it safely {day}
+- Choose sutures for a flap inset and a pharyngeal repair {senior}
+!!
+## Common pitfalls
+!pit
+- Thick sutures on the face.
+- Braided sutures in an infected wound.
+- Leaving facial skin sutures longer than 5 days.
+- Pushing a curved needle straight.
+!!

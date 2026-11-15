@@ -1,0 +1,87 @@
+@stand ENT surgery happens through a lens. The operating microscope gives a magnified three-dimensional view of the ear and larynx, rigid endoscopes see round corners in the nose, sinuses, ear and airway, and the high-speed drill removes bone a fraction of a millimetre at a time next to the facial nerve, the dura and the inner ear. Setting up and handling these tools well is a skill in its own right, and a poorly set-up microscope or a fogged endoscope makes every step harder and less safe.
+@src Oxford Textbook of Otolaryngology; K. J. Lee; Myers; Dhingra; manufacturers' guidance; the literature
+
+# The operating microscope | Seeing in three dimensions.
+## The parts {day}
+- **Objective lens:** sets the working distance (the distance from the lens to the field): usually 200 to 250 mm for the ear, 400 mm for the larynx, leaving room for instruments.
+- **Eyepieces:** usually 10x or 12.5x, each with a dioptre setting for your eyes.
+- **Magnification changer:** steps or zoom, typically from about 4x to 40x total.
+- **Light:** coaxial halogen, xenon or LED, with a fibre-optic cable.
+- **Arm and brakes,** often with a balance setting and a foot or handle control; a camera and screen for the team.
+#!ph microscope | An operating microscope in use. Sit upright with the eyepieces brought to you, not your neck bent to them.
+## Setting it up {day}
+!how Set-up before scrubbing
+1. Choose the objective for the operation (250 mm for ear, 400 mm for larynx) and fit a sterile drape if you will handle it scrubbed.
+2. Set both eyepieces to zero dioptres, then set the interpupillary distance until you see a single round image.
+3. Focus on a flat object at the highest magnification, then drop to the lowest magnification and, without moving the focus, adjust each eyepiece's dioptre until it is sharp.
+4. Balance the head so it stays where you leave it with the brakes loose.
+5. Adjust the chair and the eyepiece angle so you sit upright with your forearms supported.
+!!
+!senior Senior's pearl
+Start every case at low magnification to orientate, increase it for fine work, and come back down when you lose your bearings. Most beginners work too high, lose depth of field, and spend their time refocusing.
+!!
+
+# Endoscopes | Seeing round corners.
+## Rigid endoscopes {day}
+Modern rigid endoscopes use the Hopkins rod-lens system: glass rods with air gaps as lenses, giving a bright, wide, sharp image. Adult nasal scopes are usually 4 mm, paediatric and ear scopes 2.7 to 3 mm. The angle of view (0, 30, 45 or 70 degrees) tells you where the scope looks relative to its shaft.
+!dr scope_angles | The angle of the lens decides where the scope looks.
+## Setting up the stack {day}
+- Connect the light cable and camera head; focus the camera on gauze.
+- **White balance** on white gauze before every case, or colours (especially the red of bleeding and the white of fat) will be wrong.
+- Prevent fogging with warm saline or anti-fog solution, and clean the lens with a moist swab.
+- Rotate the light post to change where an angled scope looks without moving the camera's horizon.
+!danger The light source burns
+Xenon and halogen light sources make the scope tip and cable end hot enough to burn skin and set drapes alight. Put the light on standby whenever the scope is out of the patient, and never lay the tip or cable on the drapes.
+!!
+## Handling the endoscope {junior}
+Hold the scope in the non-dominant hand with the camera held so the screen horizon is level, rest the hand on the patient's face or nose, and slide along the septum or floor without touching the mucosa. Instruments go in beside the scope, not across it. Keep the tip clean, step back when the view is lost, and never advance blind.
+
+# The drill | Removing bone safely.
+## The drill and its burrs {junior}
+High-speed electric or pneumatic drills run at up to about 80,000 revolutions a minute. Cutting burrs (fluted) remove bone quickly; diamond burrs (coated) polish and are used near the facial nerve, dura, sigmoid sinus and inner ear, where their slower bite and heat-sealing of bone bleeding are an advantage.
+!dr drill | Choose the burr for the bone and the neighbourhood; stroke parallel to important structures.
+!how Safe drilling
+1. Hold the handpiece like a pen, with the hand supported.
+2. Use the largest burr that fits: small burrs dig holes and slip.
+3. Move in long, even strokes using the side of the burr, not the tip, parallel to the structures you must protect.
+4. Irrigate constantly with suction to cool the bone and keep the view clear.
+5. Let the burr cut; do not press. Stop the drill before taking it out of the wound.
+6. Check the direction of rotation: the burr can run along a surface and jump if it rolls the wrong way.
+!!
+!danger Heat and noise
+A dry diamond burr can heat the facial nerve enough to injure it. The drill also transmits noise through the skull to both ears, and touching the ossicular chain with a running burr can cause sensorineural hearing loss.
+!!
+
+# Your body | Ergonomics.
+## Protecting yourself {junior}
+Neck and shoulder pain is common among ENT surgeons and usually starts in training. Sit or stand upright, bring the microscope and screen to your eye level, keep the screen straight ahead, support your forearms, change position between cases, and use foot pedals without leaning.
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+In a national survey of otolaryngologists, 63.9% reported work-related musculoskeletal symptoms, most often in the neck and shoulders and usually beginning in residency; only a third had been taught ergonomics, and 69.6% of those who applied ergonomic principles improved (Ho et al., *Laryngoscope* 2018).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Microscope** parts, working distance and set-up.
+- **Endoscope angles** and their uses.
+- **Cutting versus diamond burrs** and safe drilling.
+- **Risks:** light source burns, thermal nerve injury, drill noise.
+!!
+## Skills to sign off
+!skills
+- Set up the microscope: objective, interpupillary distance, dioptres, balance {day}
+- Set up the endoscopy stack with white balance and anti-fog {day}
+- Hold a 0 and 30 degree scope and examine the nose without touching the mucosa {day}
+- Drill a cortical mastoidectomy on a temporal bone {junior}
+- Use angled scopes for frontal recess and maxillary work {senior}
+!!
+## Common pitfalls
+!pit
+- Dioptres not set: blurred, tiring vision.
+- No white balance before endoscopy.
+- A hot light cable on the drapes.
+- Drilling towards a nerve with a small cutting burr.
+!!

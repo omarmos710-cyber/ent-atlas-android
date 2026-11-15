@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 530" font-family="Helvetica, Arial, sans-serif">
+<rect width="600" height="530" fill="#FBFAF7"/>
+<text x="20" y="34" font-size="22" font-weight="700" fill="#1F2A33">Needles: point, body and curve</text>
+<text x="20" y="66" font-size="16" font-weight="700" fill="#2F6F98">Cross-section near the point</text>
+<g font-size="14.5" fill="#1F2A33" text-anchor="middle">
+<circle cx="75" cy="122" r="26" fill="#C9D3DB" stroke="#5B6670" stroke-width="2"/>
+<text x="75" y="172" font-weight="700">Round (taper)</text><text x="75" y="190">mucosa, vessels,</text><text x="75" y="207">fascia, bowel</text>
+<polygon points="215,96 241,140 189,140" fill="#C9D3DB" stroke="#5B6670" stroke-width="2"/>
+<line x1="215" y1="96" x2="215" y2="86" stroke="#B5454D" stroke-width="3"/>
+<text x="215" y="172" font-weight="700">Cutting</text><text x="215" y="190">edge on the</text><text x="215" y="207">inside curve</text>
+<polygon points="355,148 381,104 329,104" fill="#C9D3DB" stroke="#5B6670" stroke-width="2"/>
+<line x1="355" y1="148" x2="355" y2="158" stroke="#2F8A63" stroke-width="3"/>
+<text x="355" y="180" font-weight="700">Reverse cutting</text><text x="355" y="198">skin, tough tissue;</text><text x="355" y="215">less cut-out</text>
+<path d="M470 122 L490 108 L530 108 L550 122 L530 136 L490 136 Z" fill="#C9D3DB" stroke="#5B6670" stroke-width="2"/>
+<text x="510" y="172" font-weight="700">Spatula</text><text x="510" y="190">eye and</text><text x="510" y="207">microsurgery</text>
+</g>
+<text x="20" y="262" font-size="16" font-weight="700" fill="#2F6F98">Curvature</text>
+<g fill="none" stroke="#1F2A33" stroke-width="3">
+<path d="M40 340 A 50 50 0 0 1 125 305"/>
+<path d="M170 350 A 45 45 0 0 1 260 350"/>
+<path d="M310 350 A 42 42 0 1 1 375 335"/>
+<path d="M440 330 L 560 330"/>
+</g>
+<g font-size="14.5" fill="#1F2A33" text-anchor="middle">
+<text x="85" y="380" font-weight="700">3/8 circle</text><text x="85" y="398">skin</text>
+<text x="215" y="380" font-weight="700">1/2 circle</text><text x="215" y="398">most work</text>
+<text x="350" y="380" font-weight="700">5/8 circle</text><text x="350" y="398">deep spaces</text>
+<text x="500" y="380" font-weight="700">Straight</text><text x="500" y="398">skin, by hand</text>
+</g>
+<text x="20" y="440" font-size="16" font-weight="700" fill="#2F6F98">Loading</text>
+<path d="M60 515 A 70 70 0 0 1 200 515" fill="none" stroke="#1F2A33" stroke-width="3"/>
+<rect x="172" y="470" width="12" height="40" rx="3" fill="#2F8A63" transform="rotate(30 178 490)"/>
+<text x="230" y="490" font-size="14.5" fill="#1F2A33">grip a third of the way from the swaged end,</text>
+<text x="230" y="509" font-size="14.5" fill="#1F2A33">at a right angle to the needle holder jaws</text>
+</svg>

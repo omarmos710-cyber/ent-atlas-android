@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440" font-family="Helvetica, Arial, sans-serif">
+<rect width="600" height="440" fill="#FBFAF7"/>
+<text x="20" y="34" font-size="22" font-weight="700" fill="#1F2A33">Lasers in ENT: what each one hits</text>
+<text x="20" y="58" font-size="14.5" fill="#5B6670">The wavelength decides the target (chromophore) and the depth</text>
+<g font-size="15" fill="#1F2A33">
+<rect x="20" y="80" width="560" height="74" rx="12" fill="#E6F0EA"/>
+<circle cx="52" cy="117" r="14" fill="#2F8A63"/>
+<text x="78" y="110" font-weight="700">KTP, 532 nm (green)</text>
+<text x="78" y="132">Haemoglobin. Angiolytic: papilloma, vascular lesions; office use</text>
+<rect x="20" y="164" width="560" height="74" rx="12" fill="#F5E9E9"/>
+<circle cx="52" cy="201" r="14" fill="#B5454D"/>
+<text x="78" y="194" font-weight="700">CO2, 10,600 nm (invisible, infrared)</text>
+<text x="78" y="216">Water. Precise cutting, shallow; larynx, transoral surgery</text>
+<rect x="20" y="248" width="560" height="74" rx="12" fill="#EEF0F6"/>
+<circle cx="52" cy="285" r="14" fill="#5B6670"/>
+<text x="78" y="278" font-weight="700">Nd:YAG, 1064 nm and diode, 800 to 980 nm</text>
+<text x="78" y="300">Deep coagulation; airway debulking, vascular malformations</text>
+<rect x="20" y="332" width="560" height="74" rx="12" fill="#F4EEE3"/>
+<circle cx="52" cy="369" r="14" fill="#9A6B1F"/>
+<text x="78" y="362" font-weight="700">Thulium, about 2,000 nm</text>
+<text x="78" y="384">Water. Cuts and coagulates; fibre-delivered, airway and larynx</text>
+</g>
+<text x="20" y="430" font-size="14" fill="#5B6670">Eye protection must match the wavelength in use.</text>
+</svg>

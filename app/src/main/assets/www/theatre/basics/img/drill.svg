@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440" font-family="Helvetica, Arial, sans-serif">
+<rect width="600" height="440" fill="#FBFAF7"/>
+<text x="20" y="34" font-size="22" font-weight="700" fill="#1F2A33">Drilling: burrs and strokes</text>
+<g font-size="15" fill="#1F2A33">
+<line x1="40" y1="96" x2="200" y2="96" stroke="#7B8792" stroke-width="6" stroke-linecap="round"/>
+<circle cx="214" cy="96" r="16" fill="#C9D3DB" stroke="#5B6670"/>
+<path d="M202 86 L226 106 M206 82 L230 102 M198 92 L222 112" stroke="#5B6670" stroke-width="2"/>
+<text x="250" y="90" font-weight="700">Cutting burr</text><text x="250" y="110">fluted; removes bone fast; away from nerves</text>
+<line x1="40" y1="176" x2="200" y2="176" stroke="#7B8792" stroke-width="6" stroke-linecap="round"/>
+<circle cx="214" cy="176" r="16" fill="#E9E2CF" stroke="#9A6B1F"/>
+<g fill="#9A6B1F"><circle cx="208" cy="170" r="2"/><circle cx="218" cy="168" r="2"/><circle cx="214" cy="178" r="2"/><circle cx="222" cy="182" r="2"/><circle cx="206" cy="182" r="2"/></g>
+<text x="250" y="170" font-weight="700">Diamond burr</text><text x="250" y="190">polishes; near the facial nerve, dura, sinus</text>
+<rect x="40" y="240" width="520" height="150" rx="14" fill="#EEF3F6"/>
+<path d="M70 372 Q 300 352 530 372" fill="none" stroke="#B5454D" stroke-width="5"/>
+<text x="420" y="350" fill="#B5454D" font-weight="700">facial nerve</text>
+<path d="M110 290 L 330 282 M110 312 L 330 304 M110 334 L 330 326" stroke="#2F6F98" stroke-width="4" stroke-linecap="round"/>
+<text x="110" y="268" fill="#2F6F98" font-weight="700">strokes</text>
+<text x="350" y="292" fill="#1F2A33">parallel to the nerve,</text>
+<text x="350" y="312" fill="#1F2A33">never towards it</text>
+<text x="20" y="420" fill="#5B6670">Use the largest burr that fits; irrigate all the time.</text>
+</g>
+</svg>

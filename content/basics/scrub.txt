@@ -1,0 +1,102 @@
+@stand Asepsis is a set of habits rather than a single act: clean hands, a sterile gown and gloves, a prepared and draped operative field, and a team that knows what is sterile and what is not. Head and neck surgery adds its own rules: the operative field is close to the eyes, the airway and the open middle ear, so the choice of skin preparation and the shape of the drapes matter. Master these in your first weeks; nobody will trust you with an instrument until they trust your sterility.
+@src WHO Guidelines on Hand Hygiene in Health Care and Global Guidelines for the Prevention of Surgical Site Infection; NICE NG125; Cochrane reviews; Oxford Textbook of Otolaryngology; the literature
+
+# Hands | Scrubbing and hand antisepsis.
+## Before you scrub {day}
+- Remove rings, watches and bracelets; nails short, no varnish or artificial nails.
+- Put on a theatre cap covering all hair and a mask covering nose and mouth; eye protection for anything that splashes (drilling, tonsils, neck).
+- Open your gown and gloves (or ask the circulating practitioner to) onto a clean surface before you start.
+- Check your hands for cuts or infection: do not scrub with an infected lesion.
+## The surgical scrub {day}
+!how The antiseptic scrub
+1. Wash hands and forearms with the antiseptic (chlorhexidine 4% or povidone-iodine 7.5%) and clean under each nail with a nail pick under running water at the first scrub of the day.
+2. Apply antiseptic and scrub each side of each finger, between the fingers, the palm and back of the hand, then the forearm to just below the elbow, for the time the product specifies (usually 2 to 5 minutes in total).
+3. Keep the hands above the elbows throughout so water runs off the elbows, not back onto the hands.
+4. Rinse from fingertips to elbows, one direction only, and turn off the tap with the elbow.
+5. Dry with a sterile towel: one end for one hand and forearm, moving from fingers to elbow, the other end for the other side.
+!!
+Brushes damage skin and are not needed for the skin itself; use a sponge or pick only for the nails. Alcohol-based surgical hand rubs are an equal alternative: wash with plain soap at the start of the day, then apply the rub to dry hands and forearms for the time stated by the manufacturer, and let it dry completely before gloving.
+!ph scrub_hands | Scrubbing with povidone-iodine: fingers, web spaces, palms and backs of the hands, then the forearms, with the hands kept above the elbows.
+## Gowning and gloving {day}
+!how Gown and closed gloving
+1. Pick up the folded gown by its inside, step back from the trolley, and let it unfold with the inside towards you.
+2. Slide your arms into the sleeves without pushing your hands out of the cuffs; the circulating practitioner ties the back.
+3. With your hands still inside the sleeves, pick up the first glove through the sleeve, lay it palm to palm on the opposite cuff, and pull it over the cuff as you push the hand through.
+4. Glove the other hand the same way, then pull the gloves up over the cuffs.
+5. Hand the tag of the waist tie to a scrubbed colleague (or the circulator using the tag card), turn, and tie it at the front.
+!!
+Many surgeons now wear two pairs of gloves (an indicator pair underneath shows a coloured spot when the outer glove is punctured). Change the outer gloves if they are punctured, after draping, and before handling implants.
+!dr gown_zone | Once gowned, only the front from chest to table level, the sleeves and the gloved hands are sterile.
+!danger Contaminated? Say so and change
+If a glove touches anything non-sterile, or you are unsure, say so and change it. Nobody minds a changed glove; everybody minds an infected wound.
+!!
+
+# The field | Preparing and draping the head and neck.
+## Skin preparation {day}
+Prepare from the incision outwards in widening circles or strips, covering any area that might become part of the field (including a possible extension of the incision or a drain site), and allow the solution to dry before draping.
+!table Skin preparation in the head and neck
+Site | Usual choice | Why
+Neck, scalp, trunk, donor sites | Chlorhexidine 2% in alcohol (or povidone-iodine in alcohol) | Lowest wound infection rates; must dry fully before diathermy
+Near the eyes, the face | Aqueous povidone-iodine 10% | Chlorhexidine and alcohol injure the cornea
+Ear, especially with a perforation or an open middle ear | Aqueous povidone-iodine 10% | Chlorhexidine is ototoxic if it reaches the middle and inner ear
+Mouth, nose and mucosa | Often none, or dilute aqueous povidone-iodine | Mucosa tolerates only aqueous agents
+!!
+!danger Alcohol and fire
+Alcohol-based preparations that pool under drapes, in the hair or in the ear can ignite with diathermy or a laser. Use the smallest volume, avoid pooling, and wait until it is fully dry (usually at least 3 minutes, longer in hair).
+!!
+## Hair {day}
+Do not remove hair routinely. If it is in the way, clip it (never shave with a razor, which raises infection rates) on the day of surgery. For ear surgery, a strip of clipped hair behind the ear is usually enough; tape or gel the rest back.
+## Protecting the eyes {day}
+Close the eyelids with tape (and lubricant if the operation is long), and cover them with pads if the face is not part of the field. In endoscopic sinus surgery, leave the eyes taped but visible through the drapes so that the orbit can be watched for proptosis or bruising and the eye can be ballotted.
+## Draping {day}
+Drape so that only the field needed is exposed, with the drapes fixed so they do not slip during the operation.
+- **Head drape (turban):** a towel wrapped around the head and secured, often under the patient's head with a split sheet over the body.
+- **Ear:** head turned away, an adhesive drape over the ear and the hair.
+- **Nose and sinuses:** the face from the brow to the upper lip exposed, eyes visible.
+- **Neck:** from the chin and mandible to the clavicles; leave the face visible under a clear drape when the facial nerve is monitored (parotid surgery) so you can see twitching.
+- **Flaps:** prepare and drape the donor site (forearm, thigh) at the same time.
+!senior Senior's pearl
+Think about everything you might need before you drape: a possible tracheostomy, a neck incision extended to the mastoid, a fat graft from the abdomen, a cartilage graft from the ear. Re-preparing a patient half-way through is slow and risks the field.
+!!
+
+# Keeping it sterile | The rules everyone follows.
+## Rules of the sterile field {day}
+- Sterile touches only sterile; when in doubt, it is contaminated.
+- A sterile person faces the sterile field, and two scrubbed people pass each other back to back or front to front.
+- Do not reach over a sterile field if you are unscrubbed, or behind your back if you are scrubbed.
+- The top of the instrument trolley and the drapes at table level are sterile; anything that falls below table level is not.
+- A wet drape lets bacteria through (strike-through): cover it with a dry one.
+- Hands stay in front of you, above the waist, and not folded under the arms.
+## Taking off the gown {day}
+Untie the gown, pull it off from the shoulders inside out, then remove gloves with the glove-to-glove and skin-to-skin technique so the dirty outer surface never touches your skin. Clean your hands afterwards.
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+A Cochrane review found no clear difference in wound infection between alcohol-based hand rubs and aqueous scrubs, and that the duration and products matter less than doing it properly (Tanner et al., *Cochrane Database Syst Rev* 2016). Skin preparation with chlorhexidine-alcohol reduced wound infection compared with aqueous povidone-iodine (9.5% vs 16.1%) in clean-contaminated surgery (Darouiche et al., *N Engl J Med* 2010), and the WHO recommends alcohol-based chlorhexidine for skin preparation. A systematic review of chlorhexidine on the head and neck found 14 cases of sensorineural hearing loss from chlorhexidine reaching the ear and 38 cases of eye injury, almost all under general anaesthesia (Shive et al., *Dermatol Surg* 2021). Double gloving reduced glove perforations (rate ratio 0.29) and blood on the skin (0.35) without affecting dexterity (Mischke et al., *Cochrane Database Syst Rev* 2014).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Steps** of the surgical scrub and closed gloving.
+- **What is sterile** on a gowned person.
+- **Skin preparation** choices near the eye and ear, and why.
+- **Fire risk** with alcohol preparations.
+- **Hair removal:** clip, don't shave.
+!!
+## Skills to sign off
+!skills
+- Perform a surgical scrub with antiseptic and with an alcohol rub {day}
+- Gown and glove using the closed technique without help {day}
+- Prepare the skin for ear, nose and neck surgery with the right agent {day}
+- Drape for ear, sinus and neck surgery {junior}
+- Recognise contamination and correct it without being told {day}
+!!
+## Common pitfalls
+!pit
+- Chlorhexidine in an open ear or near the eye.
+- Draping before alcohol preparation has dried.
+- Folding arms into the armpits while waiting.
+- Draping the eyes out of view in sinus surgery.
+!!

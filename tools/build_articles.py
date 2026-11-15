@@ -244,6 +244,8 @@ def compile_one(tid, text):
             else:
                 box[2].append(ln.strip())
             continue
+        if ln.startswith('#!'):
+            continue  # comment
         if ln.startswith('@stand '):
             meta['stand'] = ln[7:].strip(); words += len(meta['stand'].split()); continue
         if ln.startswith('@src '):

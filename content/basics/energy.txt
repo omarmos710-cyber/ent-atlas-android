@@ -1,0 +1,97 @@
+@stand Almost every ENT operation uses an energy device: diathermy in the neck and tonsils, Coblation in the adenoids and tonsils, an ultrasonic or vessel-sealing device in the thyroid and neck, and lasers in the larynx. Each works by heating tissue, and each can burn the patient, start a fire in the airway or damage a nerve if it is used without understanding where the energy goes. Know the physics well enough to choose the right device, set it safely and explain a burn if one happens.
+@src Oxford Textbook of Otolaryngology; K. J. Lee; Myers; MHRA and AAGBI guidance on diathermy and implanted devices; laser safety standards; the literature
+
+# Electrosurgery | Diathermy.
+## How diathermy works {day}
+High-frequency alternating current (about 300 kHz to 3 MHz, too fast to stimulate nerves and muscle) heats tissue where the current is concentrated. The effect depends on the current density and the waveform:
+- **Cut:** a continuous waveform at lower voltage vaporises cells; little coagulation.
+- **Coagulation:** an interrupted waveform at higher voltage dries and seals; more spread of heat.
+- **Blend:** a mixture.
+!dr mono_bi | Monopolar current passes through the patient to a return plate; bipolar current passes only between the tips.
+## Monopolar {day}
+The active electrode (pencil or needle) concentrates current at its tip; it returns through the body to a large plate, where the current density is low. Place the plate on dry, shaved, well-vascularised skin over muscle (thigh or upper arm), close to the field, away from metal implants and ECG electrodes.
+!danger Burns
+Burns happen where current concentrates unintentionally: a partly detached plate, contact with metal on the table, pooled alcohol skin preparation, or current running along a narrow pedicle (a finger, the penis, a narrow tissue bridge). In the head and neck, monopolar diathermy near the facial nerve, the recurrent laryngeal nerve or in the middle ear can injure nerves at a distance from the tip.
+!!
+## Bipolar {day}
+The current passes only between the two tips of the forceps, so very little spreads to the surrounding tissue. Use bipolar near nerves (facial, recurrent laryngeal, accessory), in the ear, on the flap pedicle, and in patients with pacemakers. Keep the tips clean and slightly apart, irrigate to reduce charring and sticking, and grip only the vessel.
+## Pacemakers and defibrillators {junior}
+Electromagnetic interference can inhibit a pacemaker or trigger an implanted defibrillator to shock.
+- Find out the device type, why it was fitted and whether the patient is pacing-dependent; arrange a check by the cardiac physiology team before and after.
+- Prefer bipolar; if monopolar is needed, use short bursts, the lowest effective power, and place the plate so the current path does not cross the device.
+- Defibrillator shock therapies are usually suspended for the operation, with external defibrillator pads on and the patient monitored, and restarted afterwards.
+- Head and neck surgery is often close to the device in the upper chest, which makes all of this more important.
+
+# Advanced energy devices | Sealing and dissecting.
+## Coblation {junior}
+Radiofrequency energy passed through saline creates a plasma field that breaks molecular bonds at about 40 to 70 degrees Celsius, lower than diathermy (about 400 degrees). It dissects and coagulates with less thermal spread. Used for tonsillectomy (including intracapsular tonsillotomy), adenoidectomy, turbinate reduction and some laryngeal and tongue base work.
+## Ultrasonic devices and vessel sealers {junior}
+!table Devices you will meet in the neck
+Device | How it works | Main uses | Notes
+Harmonic scalpel | Blade vibrating at about 55,000 times a second; coagulates proteins at 50 to 100 degrees | Thyroidectomy, neck dissection, transoral robotic surgery | Seals vessels up to about 5 mm; the active blade stays hot after use
+LigaSure | Bipolar current with pressure and feedback that fuses vessel walls | Thyroidectomy, neck dissection, flaps | Seals vessels up to about 7 mm
+Coblation | Plasma in saline | Tonsils, adenoids, turbinates | Low temperature, less spread
+Diathermy scissors and needles | Monopolar or bipolar cutting | Tonsils, flaps, neck | Cheap, more thermal spread
+!!
+!senior Senior's pearl
+Every device spreads heat. Keep the active jaw of an ultrasonic device away from the recurrent laryngeal nerve, let it cool before touching other tissue, and never use an energy device to "find" a bleeding point in a pool of blood.
+!!
+## Smoke {junior}
+Diathermy and laser smoke contains fine particles, hydrocarbons and sometimes viral material. Use local smoke extraction (a suction device near the tip) and masks; extraction matters most with lasers and in long cases.
+
+# Lasers | Light as a scalpel.
+## Laser physics in one minute {junior}
+A laser produces light of a single wavelength, in phase and in a narrow beam. The wavelength decides what absorbs it (the chromophore: water, haemoglobin or pigment) and so how deep it acts. Power density (watts per area) decides whether it cuts or coagulates: a small focused spot cuts, a defocused spot coagulates.
+!dr lasers | The main surgical lasers in ENT and their targets.
+## Laser safety {junior}
+- A trained laser protection supervisor, warning signs on the doors, and the key controlled.
+- **Eye protection** for everyone in the room, matched to the wavelength; the patient's eyes covered with wet pads.
+- **Laser-safe endotracheal tube** with the cuff filled with saline (often with methylene blue, so a puncture shows), or a tubeless technique.
+- Wet swabs around the field and in the subglottis, wet towels on the face.
+- **Lowest inspired oxygen** the patient tolerates (ideally under 30%), no nitrous oxide.
+- The laser on standby whenever it is not being fired, and fired only when the aiming beam is on target.
+!danger Airway fire
+Fire needs fuel (the tube, drapes, swabs), an oxidiser (oxygen, nitrous oxide) and an ignition source (laser or diathermy). In the airway, all three meet. If it happens: stop the laser, stop the gas flow, remove the tube, pour saline into the airway, then ventilate by mask, re-intubate and examine the airway with a bronchoscope.
+!!
+
+# When it goes wrong | Drills.
+## Crisis drills
+!path Fire in the airway
+Act | stop laser ; stop ventilation and oxygen ; remove the tube ; saline into the airway
+Then | mask ventilation with air, then oxygen ; re-intubate ; bronchoscopy ; keep the tube to examine
+!!
+!path Burn found under the return plate at the end
+Act | document and photograph ; check the plate and machine ; report as an incident ; tell the patient ; plastic surgery or dressings
+!!
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+In 15,734 tonsillectomies in the Swedish national register, every "hot" technique carried a higher risk of late haemorrhage than cold dissection with cold haemostasis: 2.8 times after cold dissection with diathermy haemostasis, 3.2 times after Coblation and 4.3 times after diathermy scissors (Söderman et al., *Clin Otolaryngol* 2015). In open thyroidectomy, a meta-analysis found the Harmonic Focus shortened operating time by about 22 minutes and reduced blood loss and hospital stay compared with conventional techniques, without more complications (Cannizzaro et al., *Head Neck* 2016). A systematic review found surgical smoke contains respirable ultrafine particles and potentially carcinogenic hydrocarbons, supporting smoke extraction (Mowbray et al., *Surg Endosc* 2013).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Monopolar versus bipolar:** the current path and when to use each.
+- **Causes of diathermy burns.**
+- **Pacemakers and defibrillators.**
+- **Laser wavelengths** and their uses in ENT.
+- **Laser safety** and the airway fire drill.
+!!
+## Skills to sign off
+!skills
+- Place a return plate correctly and check the diathermy settings {day}
+- Use bipolar diathermy cleanly, without charring or sticking {day}
+- Use Coblation for tonsillectomy or adenoidectomy {junior}
+- Use an ultrasonic or vessel-sealing device in the neck {senior}
+- Set up and use a laser with full safety precautions {senior}
+- Lead the airway fire drill {senior}
+!!
+## Common pitfalls
+!pit
+- Monopolar diathermy near nerves or in a patient with a pacemaker without precautions.
+- Firing a laser at high oxygen concentrations.
+- Wrong eye protection for the laser in use.
+- Touching tissue with a hot ultrasonic blade.
+!!

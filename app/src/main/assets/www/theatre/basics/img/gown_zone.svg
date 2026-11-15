@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 470" font-family="Helvetica, Arial, sans-serif">
+<rect width="600" height="470" fill="#FBFAF7"/>
+<text x="20" y="36" font-size="22" font-weight="700" fill="#1F2A33">What is sterile once you are gowned</text>
+<!-- figure -->
+<circle cx="210" cy="96" r="30" fill="#E7EDF2" stroke="#9AA8B4"/>
+<path d="M150 140 Q210 125 270 140 L290 300 L282 440 L138 440 L130 300 Z" fill="#E7EDF2" stroke="#9AA8B4"/>
+<!-- sterile front zone -->
+<path d="M156 160 Q210 148 264 160 L276 290 L144 290 Z" fill="#2F8A63" fill-opacity=".35" stroke="#2F8A63" stroke-width="2"/>
+<!-- arms -->
+<path d="M150 150 L96 250 L130 268 L168 190 Z" fill="#E7EDF2" stroke="#9AA8B4"/>
+<path d="M270 150 L324 250 L290 268 L252 190 Z" fill="#E7EDF2" stroke="#9AA8B4"/>
+<path d="M140 200 L100 248 L128 262 L162 210 Z" fill="#2F8A63" fill-opacity=".35" stroke="#2F8A63" stroke-width="2"/>
+<path d="M280 200 L320 248 L292 262 L258 210 Z" fill="#2F8A63" fill-opacity=".35" stroke="#2F8A63" stroke-width="2"/>
+<ellipse cx="108" cy="262" rx="16" ry="12" fill="#2F8A63" fill-opacity=".55"/>
+<ellipse cx="312" cy="262" rx="16" ry="12" fill="#2F8A63" fill-opacity=".55"/>
+<!-- labels -->
+<line x1="276" y1="220" x2="370" y2="170" stroke="#1F2A33"/><text x="375" y="160" font-size="16" fill="#1F2A33" font-weight="700">Sterile</text>
+<text x="375" y="180" font-size="15" fill="#1F2A33">front, chest to waist (table level)</text>
+<text x="375" y="200" font-size="15" fill="#1F2A33">sleeves to just above the cuff</text>
+<text x="375" y="220" font-size="15" fill="#1F2A33">gloved hands</text>
+<line x1="236" y1="128" x2="370" y2="268" stroke="#B5454D"/><text x="375" y="275" font-size="16" fill="#B5454D" font-weight="700">Not sterile</text>
+<text x="375" y="295" font-size="15" fill="#1F2A33">neck, shoulders, armpits</text>
+<text x="375" y="315" font-size="15" fill="#1F2A33">back (even with a wrap-around gown)</text>
+<text x="375" y="335" font-size="15" fill="#1F2A33">below the waist or table</text>
+<text x="375" y="355" font-size="15" fill="#1F2A33">the stockinette cuffs</text>
+<text x="20" y="455" font-size="14.5" fill="#5B6670">Keep hands in front, between waist and shoulders; never fold arms into the armpits.</text>
+</svg>
