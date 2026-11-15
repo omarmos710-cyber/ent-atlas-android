@@ -1,0 +1,75 @@
+@stand The hardest part of surgery is not the operation but the decisions around it: whether to operate at all, which operation, when, and what to do when something goes wrong. A specialist is judged less on the complications they have (every surgeon has them) than on how they choose patients, recognise complications early, rescue the patient, and talk honestly with patients and families. This chapter is about judgement, which grows from experience but can be shaped deliberately from the start of training.
+@src GMC Good Medical Practice and Decision making and consent; statutory duty of candour (Health and Social Care Act 2008 Regulation 20); Royal College of Surgeons Good Surgical Practice; the literature
+
+# Deciding to operate | The right operation for the right patient.
+## The questions to ask {spec}
+- **Is the diagnosis certain?** Imaging, histology and examination agree.
+- **Will the operation help this patient?** The expected benefit for their symptoms, quality of life or survival, compared with the alternatives (including watching and waiting).
+- **Can they withstand it?** Fitness, frailty, nutrition, the anaesthetic risk.
+- **What does the patient want?** Their goals and priorities, which may differ from yours.
+- **Am I the right surgeon, in the right place?** Volume, team, equipment and critical care.
+## Shared decision-making {junior}
+Set out the options, including doing nothing, with their likely benefits and harms in numbers the patient can understand; ask what matters most to them; decide together. Decision aids and the "BRAN" questions (Benefits, Risks, Alternatives, and what if I do Nothing?) help.
+## The multidisciplinary team {senior}
+Head and neck cancer, skull base and complex airway cases are discussed in a multidisciplinary meeting (surgeons, oncologists, radiologists, pathologists, specialist nurses, speech and language therapists, dietitians, restorative dentists). The decision is the patient's, informed by the team's recommendation.
+## When not to operate {spec}
+When the risks outweigh the benefits for this patient, when the operation cannot achieve the patient's goals, when the patient does not want it, or near the end of life when comfort matters more than cure. Saying no, and explaining why, is part of good surgery; offer a second opinion if the patient wants one.
+!senior Senior's pearl
+Ask yourself: "If this were my parent, would I advise this operation, from this surgeon, in this hospital?" If the answer is not a clear yes, slow down.
+!!
+
+# Complications | Recognise and rescue.
+## Failure to rescue {senior}
+Hospitals differ less in how many complications they have than in how well they rescue patients from them. Rescue depends on early recognition (observations, early warning scores, nurses who are heard), early senior review, decisive action (return to theatre, radiology, critical care) and a culture where concerns are escalated.
+## When your patient has a complication {senior}
+- See the patient yourself, early.
+- Be honest with the patient and family: what happened, what it means, what you are doing.
+- Involve senior colleagues and other specialties without delay; your pride is not a reason to wait.
+- Record it accurately, report it, and discuss it at the morbidity and mortality meeting.
+!danger Denial
+The most dangerous moment is believing your patient cannot have a complication because the operation went well. Tachycardia, fever, pain out of proportion or a patient who "isn't right" after surgery is a complication until proven otherwise.
+!!
+
+# Candour | Being open when things go wrong.
+## The duty of candour {junior}
+Every doctor has a professional duty to be open and honest with patients when something goes wrong with their care that causes, or could cause, harm or distress. In England there is also a statutory duty for organisations when a notifiable safety incident causes moderate or greater harm: tell the patient (or family) as soon as reasonably possible, apologise, explain what is known, say what further enquiries will happen, and follow up in writing.
+!how Saying sorry
+1. Find a quiet place and enough time; bring a senior and a nurse if appropriate.
+2. Explain what happened in plain language, without speculation or blame.
+3. Say sorry. An apology is not an admission of legal liability.
+4. Explain what will be done now and to prevent it happening again.
+5. Offer support and a named contact, and document the conversation.
+!!
+## Complaints {senior}
+Respond promptly and personally, listen, explain, apologise where appropriate, and learn. Most complaints are about communication rather than technical care.
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+In 84,730 patients having inpatient general and vascular surgery, hospitals with the highest and lowest mortality had similar complication rates (major complications 18.2% vs 16.2%), but patients with a major complication were almost twice as likely to die in high-mortality hospitals (21.4% vs 12.5%), showing that rescue, not avoidance, drives the difference (Ghaferi et al., *N Engl J Med* 2009). A systematic review of shared decision-making in elective surgery found it improved decision quality and knowledge and reduced decisional conflict (Boss et al., *Otolaryngol Head Neck Surg* 2016).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Shared decision-making** and the role of the MDT.
+- **When not to operate.**
+- **Failure to rescue.**
+- **Duty of candour** and how to apologise.
+- **Managing complaints.**
+!!
+## Skills to sign off
+!skills
+- Present options including no treatment in a way the patient understands {junior}
+- Escalate a deteriorating post-operative patient early {day}
+- Tell a patient about a complication and apologise, with a senior {senior}
+- Present a case at the multidisciplinary meeting {senior}
+- Decide not to operate and explain why {spec}
+!!
+## Common pitfalls
+!pit
+- Operating because you can, not because you should.
+- Delaying senior or other specialty help.
+- Avoiding the patient after a complication.
+- Treating an apology as an admission of liability.
+!!

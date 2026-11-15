@@ -1,0 +1,74 @@
+@stand The operation note is the only record of what happened while the patient was asleep. The ward team, the next surgeon who operates on the same ear or neck years later, the coroner and the court all rely on it. Write it immediately, completely and honestly, with enough detail that someone who was not there could understand what was found, what was done, any difficulties, and exactly what should happen next. Good documentation elsewhere (clinic letters, discharge summaries, consent and the notes of difficult conversations) follows the same rule.
+@src Royal College of Surgeons Good Surgical Practice; GMC Good Medical Practice; Academy of Medical Royal Colleges guidance on writing to patients; the literature
+
+# The operation note | What it must contain.
+## Required content {day}
+!table The contents of an operation note
+Item | Example
+Patient identity, date and time | Name, hospital number, date of birth
+Elective or emergency |
+Names | Operating surgeon, assistants, anaesthetist; who supervised
+Operation performed | Right modified radical mastoidectomy and type III tympanoplasty
+Indication and diagnosis | Right attic cholesteatoma
+Anaesthetic | General, local, or both; local anaesthetic agent and dose
+Position, preparation and antibiotics | Including timing of prophylaxis
+Incision | Postauricular
+Findings | Cholesteatoma in attic and antrum; eroded incus; dehiscent tympanic facial nerve; dura intact
+Procedure | Each step, in order, including what was removed, added or altered
+Complications and problems | Bleeding from emissary vein controlled with wax; anything unexpected and how it was dealt with
+Implants and grafts | Type, size, serial and lot numbers (stickers)
+Closure | Layers, sutures, drains, packs, dressings
+Blood loss | Estimated
+Specimens | What was sent, where
+Post-operative instructions | Observations, position, drains and packs, antibiotics, VTE prophylaxis, diet, specific checks, follow-up
+Signature | Name, grade, registration number
+!!
+!senior Senior's pearl
+Write the findings as if the next surgeon will open the ear in ten years with only your note: is the facial nerve dehiscent, where is the dura low, which ossicles were left, what is the state of the stapes? These details change their operation.
+!!
+## Writing it well {day}
+- Write it straight after the operation, before the next case.
+- Be factual and specific; avoid "uneventful" and "routine" instead of findings.
+- Record any deviation from the plan and the reason (for example, a planned partial thyroidectomy converted to total).
+- Draw a diagram if it helps (sinus findings, a tumour map).
+- Never alter a note later; add a dated, signed addendum.
+!danger Complications go in the note
+If something went wrong, record it accurately and what you did about it. An honest note is your protection; an incomplete or altered one is not.
+!!
+
+# Other documents | Letters, summaries and records.
+## Clinic letters {junior}
+Many units now write directly to the patient, copied to the family doctor, in plain language: what was found, what it means, what was agreed and what happens next. Avoid abbreviations and jargon, and put actions for others in clear bullet points.
+## Discharge summaries {day}
+Diagnosis, operation, complications, medicines (new, changed and stopped, including the duration of antibiotics and anticoagulants), follow-up, pending results, and what the family doctor should do.
+## Recording difficult conversations {junior}
+Document breaking bad news, consent discussions, refusals of treatment and complaints with the date, who was present, what was said (including risks and options), and the patient's understanding and decision.
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+A review of 1,092 operation notes in nine hospitals found operation titles and surgeons' names almost always recorded, but the diagnosis was missing in about a quarter, the findings in a fifth, and instructions on post-operative antibiotics and VTE prophylaxis in about half; typed proformas improved completeness (Severn Audit and Research Collaborative in Orthopaedics, *Patient Saf Surg* 2016).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Contents** of an operation note.
+- **Recording complications** and implants.
+- **Corrections** and addenda.
+- **Writing to patients.**
+!!
+## Skills to sign off
+!skills
+- Write a complete operation note straight after every case {day}
+- Write a discharge summary with clear medicine changes {day}
+- Write a plain-language clinic letter to a patient {junior}
+- Document a consent discussion and a complication honestly {junior}
+!!
+## Common pitfalls
+!pit
+- "Uneventful procedure" instead of findings.
+- No post-operative instructions.
+- Missing implant details.
+- Writing the note at the end of the list from memory.
+!!

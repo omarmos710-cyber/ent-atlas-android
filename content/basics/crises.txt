@@ -1,0 +1,89 @@
+@stand Crises in ENT theatre are rare but fast: anaphylaxis, malignant hyperthermia, local anaesthetic toxicity, airway fire, massive bleeding, a carotid blowout, a post-tonsillectomy bleed in a child, air drawn into an open neck vein. Each has a drill. The team that has rehearsed the drill, knows where the kit is, and has one clear leader does it in minutes; the team that has not loses those minutes deciding what to do. Learn the drills now, and practise them in simulation before you meet them for real.
+@src Resuscitation Council UK; Association of Anaesthetists quick reference handbook; NAP6 (perioperative anaphylaxis); Difficult Airway Society; British Society of Haematology major haemorrhage guidance; Oxford Textbook of Otolaryngology; the literature
+
+# Recognise | Early signs.
+## What should make you stop {day}
+Sudden fall in blood pressure, rising airway pressures, falling saturations, a rising end-tidal carbon dioxide, a rash or swelling, unexplained tachycardia, a flash or smoke in the airway, sudden pulsatile bleeding, or a gasp of air into an open vein. Say what you see out loud and stop operating until the team knows what is happening.
+
+# Drills | What to do.
+## Anaphylaxis {day}
+!path Anaphylaxis under anaesthesia
+Call | declare "anaphylaxis" ; call for help ; stop the suspected trigger (antibiotic, chlorhexidine, muscle relaxant, dye)
+ABC | 100% oxygen ; raise the legs ; fluid bolus
+Adrenaline | IV 50 micrograms boluses by the anaesthetist (or IM 0.5 mg if no IV) ; repeat ; infusion if needed
+Then | consider stopping or finishing surgery quickly ; mast cell tryptase at once, 1 to 2 hours and 24 hours ; allergy clinic referral
+!!
+Chlorhexidine (skin preparation, catheter gel, coated lines) is a hidden cause; ask about previous reactions.
+## Malignant hyperthermia {junior}
+An inherited reaction to volatile anaesthetics and suxamethonium. Signs: unexplained rise in end-tidal carbon dioxide, tachycardia, muscle rigidity (including jaw spasm), then rising temperature, acidosis and high potassium.
+!path Malignant hyperthermia
+Act | stop volatile agents ; call for help ; hyperventilate with 100% oxygen ; switch to intravenous anaesthesia
+Dantrolene | 2.5 mg/kg IV, then 1 mg/kg repeated until the signs settle (up to 10 mg/kg)
+Support | cool ; treat high potassium and arrhythmias ; finish surgery quickly ; critical care ; family testing
+!!
+## Massive haemorrhage {day}
+!path Massive bleeding in theatre
+Control | pressure with packs or fingers ; tell the team ; call a senior and vascular help if needed
+Activate | the major haemorrhage protocol ; two large-bore cannulas ; group and crossmatch
+Replace | red cells and plasma about 1:1 ; platelets and cryoprecipitate as guided by tests ; tranexamic acid 1 g IV ; calcium
+Prevent | hypothermia (warmed fluids) and acidosis ; monitor clotting with near-patient tests
+!!
+## Carotid blowout {senior}
+Rupture of the carotid artery, almost always after radiotherapy or surgery with wound breakdown, fistula or tumour. Often preceded by a "sentinel bleed" or exposed carotid.
+!path Carotid blowout
+Act | direct pressure (finger or pack) ; call for help ; head down
+Airway | protect it: cuffed tube or tracheostomy tube below the bleeding, cuff inflated
+Fluids | two large-bore cannulas ; major haemorrhage protocol
+Definitive | interventional radiology (stent graft or embolisation) if available ; surgical ligation if not
+!!
+!danger The sentinel bleed
+A small bleed from the neck or mouth in an irradiated patient with a fistula or exposed carotid can be the warning before a fatal blowout. Admit, crossmatch, keep pressure kits at the bedside, and arrange urgent imaging and interventional radiology.
+!!
+## Post-tonsillectomy haemorrhage {day}
+!path Bleeding after tonsillectomy
+First | sit the patient up ; suction ; IV access and bloods (count, crossmatch) ; fluids
+Local | remove clot; hydrogen peroxide gargle or adrenaline-soaked swab on the fossa ; pressure with a swab on a forceps
+Theatre | if it continues or is heavy: rapid sequence induction by a senior anaesthetist, two suctions ready
+In children | small blood volume, swallowed blood hides the loss, and a full stomach of blood at induction
+!!
+## Venous air embolism {junior}
+When a large neck vein (internal jugular, sigmoid sinus) is opened with the head up, air can be sucked in, causing a sudden fall in end-tidal carbon dioxide, hypotension and arrhythmia. Flood the field with saline, cover the vein, lower the head, compress the jugular veins if possible, tell the anaesthetist, and aspirate air through a central line if one is present.
+## Cardiac arrest in theatre {day}
+Stop surgery, start chest compressions, follow advanced life support, and look for the cause: bleeding, tension pneumothorax (after neck or tracheostomy surgery), anaphylaxis, local anaesthetic toxicity, air embolism, airway loss, potassium. Drape removal and access to the chest must be quick.
+
+# Prepare | Before it happens.
+## Readiness {junior}
+Know where the difficult airway trolley, the defibrillator, the dantrolene, the lipid emulsion and the major haemorrhage protocol are kept. Rehearse with your team in simulation. In every head and neck cancer case, keep a plan for the carotid and the airway.
+!senior Senior's pearl
+In a crisis, the person who leads should step back from the hands-on task so they can see the whole picture. If you are holding pressure on the carotid, someone else should be leading.
+!!
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+The national audit of perioperative anaphylaxis (NAP6) found an incidence of about 1 in 10,000 anaesthetics; antibiotics (especially teicoplanin), muscle relaxants, chlorhexidine and Patent Blue dye were the main causes, and hypotension was the commonest first sign (Harper et al., *Br J Anaesth* 2018). Among 1,554 patients having re-irradiation of the head and neck, carotid blowout occurred in 2.6%, and 76% were fatal (McDonald et al., *Int J Radiat Oncol Biol Phys* 2012). For acute blowout, both embolisation and stent grafts were effective, with more procedural strokes after embolisation of the internal or common carotid and more re-bleeding after stent grafts (Wong et al., *Head Neck* 2018).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Anaphylaxis** under anaesthesia and its common triggers.
+- **Malignant hyperthermia** signs and dantrolene.
+- **Major haemorrhage** protocol.
+- **Carotid blowout:** sentinel bleed and management.
+- **Post-tonsillectomy haemorrhage** in a child.
+!!
+## Skills to sign off
+!skills
+- Know the location of all emergency drugs and equipment in my theatre {day}
+- Manage a post-tonsillectomy bleed from the ward to theatre {junior}
+- Take part in a simulated anaphylaxis, airway fire and massive haemorrhage {junior}
+- Lead the response to a carotid blowout or sentinel bleed {senior}
+!!
+## Common pitfalls
+!pit
+- Continuing to operate during an unexplained deterioration.
+- Missing chlorhexidine as an allergen.
+- Ignoring a sentinel bleed.
+- The leader doing a hands-on task.
+!!

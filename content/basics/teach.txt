@@ -1,0 +1,82 @@
+@stand Every specialist is a teacher. You will train residents in theatre, teach medical students in clinic, supervise juniors on call, and assess them for their progression. Teaching surgery well is a skill of its own: it means letting a trainee operate while keeping the patient safe, giving feedback that changes what they do next time, and judging honestly when they are ready to work alone. The habits you form as a learner (preparing, asking for feedback, reflecting) are the same ones you will ask of your trainees.
+@src Royal College of Surgeons and Intercollegiate Surgical Curriculum Programme guidance; the BID model; the Zwisch scale; the literature
+
+# Teaching in theatre | Before, during and after.
+## The BID model {senior}
+!how Brief, teach, debrief
+1. **Brief (before the case, 2 minutes):** what does the trainee want to learn? Which part will they do? What should they watch out for?
+2. **Intraoperative teaching:** teach to the learning goal; let them do as much as is safe; talk through key steps, landmarks and decisions.
+3. **Debrief (after the case, 2 minutes):** one thing done well, one thing to work on, and a specific action for next time; record it.
+!!
+## Levels of supervision {senior}
+The Zwisch scale describes how much the trainer does:
+- **Show and tell:** the trainer operates and explains.
+- **Active help:** the trainee operates with the trainer leading, guiding each step.
+- **Passive help:** the trainee leads; the trainer assists and helps only when needed.
+- **Supervision only:** the trainee operates independently; the trainer watches or is nearby.
+Decide the level for each part of each case, and move the trainee up as they show they can.
+!senior Senior's pearl
+Say how you will take over before the case: "If I say stop, stop, and we'll swap." The trainee will operate more calmly if the rules are clear, and you will step in earlier and more gently.
+!!
+## Taking over {senior}
+Take over when patient safety needs it, not because the trainee is slower than you. Do it calmly, explain why afterwards, and give the case back when the difficult part is past.
+
+# Feedback | Changing what happens next time.
+## Good feedback {junior}
+- **Timely:** straight after, while it is fresh.
+- **Specific:** "Your bites in the platysma were uneven on the left," not "fine".
+- **Balanced:** what went well and what to improve.
+- **Actionable:** one or two clear things to try next time.
+- **Two-way:** ask the trainee first how they think it went.
+## Asking for feedback {day}
+As a trainee, ask for it: "Can you tell me one thing I could do better in that closure?" Specific questions get useful answers.
+
+# Assessment | Judging readiness.
+## Workplace-based assessments {junior}
+!table Common tools
+Tool | What it assesses
+Procedure-based assessment (PBA) | Performance of a whole operation, rated by level of independence
+Direct observation of procedural skills (DOPS) | Smaller procedures (nasendoscopy, packing, ear microsuction)
+Case-based discussion (CBD) | Clinical reasoning from a case the trainee managed
+Clinical evaluation exercise (CEX) | Clinical encounters such as history and examination
+Multi-source feedback (MSF) | Team-working and professional behaviour, from colleagues
+Logbook | Volume and level of involvement in operations
+!!
+Assessments are tools for learning as much as for judgement. Fill them in honestly; a falsely good assessment harms the trainee and future patients.
+## The trainee in difficulty {spec}
+Look for the cause (knowledge, skills, attitude, health, personal life, the training environment), talk early and privately, set clear goals with support, document, and involve the training programme director. Most trainees in difficulty recover with timely help.
+
+# Teaching outside theatre | Clinic, ward and lecture.
+## Everyday teaching {junior}
+Use real patients: one learning point per patient in clinic, a short teaching round on the ward, a five-minute "what would you do?" during on-call. The one-minute preceptor approach is quick: get a commitment, probe the reasoning, teach a general rule, praise what was right, correct mistakes.
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+A systematic review of 34 studies of intraoperative teaching found that effective teaching spans three phases (before, during and after the case), that trainers often rate their own teaching more highly than trainees do, and that training faculty in teaching techniques improved trainee ratings (Timberlake et al., *Ann Surg* 2017). The Zwisch scale, which grades how much autonomy the trainee is given in theatre, was shown to be reliable, valid and feasible (George et al., *J Surg Educ* 2014).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **BID** model and levels of supervision.
+- **Feedback** principles.
+- **Workplace-based assessments.**
+- **The trainee in difficulty.**
+!!
+## Skills to sign off
+!skills
+- Ask for specific feedback after every case {day}
+- Teach a medical student in clinic {junior}
+- Brief and debrief a junior trainee for a case {senior}
+- Supervise a junior through an operation at the right level of help {senior}
+- Complete honest workplace-based assessments {senior}
+- Support a trainee in difficulty {spec}
+!!
+## Common pitfalls
+!pit
+- Taking over too early, or too late.
+- Vague feedback ("good job").
+- Assessments filled in without observation.
+- No brief or debrief.
+!!

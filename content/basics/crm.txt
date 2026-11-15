@@ -1,0 +1,76 @@
+@stand Most crises are not lost because nobody knew the drug or the drill; they are lost because nobody took charge, the team fixated on the wrong problem, messages were not heard, help was called too late, or the person holding the information did not speak. Crisis resource management, borrowed from aviation, is the set of behaviours that make a team work under pressure. It can be learned and practised like a surgical skill, and as you become senior it becomes your job to lead it.
+@src Crisis resource management principles (Gaba and colleagues); NOTSS (non-technical skills for surgeons); Association of Anaesthetists quick reference handbook; the literature
+
+# The principles | How good teams behave.
+## Crisis resource management {senior}
+- **Know the environment:** where the kit, drugs and help are.
+- **Anticipate and plan:** brief for what could go wrong.
+- **Call for help early:** the cost of calling too soon is small; too late is large.
+- **Lead and follow:** one named leader; everyone else follows and speaks up.
+- **Communicate clearly:** names, closed loops, one voice at a time.
+- **Distribute the work:** give each person a task.
+- **Use all the resources:** people, cognitive aids, equipment, other specialties.
+- **Re-evaluate repeatedly:** "Is our diagnosis still right? What are we missing?"
+- **Avoid fixation:** stepping back stops the whole team chasing one wrong idea.
+## Situational awareness {junior}
+Three levels: perceiving what is happening (the numbers, the field, the people), understanding what it means, and predicting what will happen next. Fatigue, stress and fixation on one task (a bleeding point, a difficult intubation) narrow it.
+
+# Communication | Being heard.
+## Closed-loop communication {day}
+Address a person by name, give a clear instruction, and expect it repeated back and confirmed when done: "Sara, please give 1 g of tranexamic acid IV." "1 g of tranexamic acid IV, given." Messages shouted to "someone" are not received.
+## SBAR {day}
+!table SBAR handover or call for help
+Part | What to say
+Situation | Who you are, where, which patient, and the problem now
+Background | Operation, relevant history, what has happened
+Assessment | Your observations and what you think is going on
+Recommendation | What you need: come now, advice, a decision
+!!
+## Speaking up: graded assertiveness {day}
+If you are worried and not heard, escalate: **probe** ("Have you seen the saturation?"), **alert** ("I'm concerned the saturation is falling"), **challenge** ("Please stop; this is unsafe"), **emergency** ("Stop now"). Any member of the team, however junior, can and should stop a procedure that is unsafe.
+!senior Senior's pearl
+Make it easy for others to stop you. Say at the brief, "If anyone sees anything that worries them, tell me, and I'll listen." Then thank the first person who does.
+!!
+
+# Tools | Help for tired brains.
+## Cognitive aids {junior}
+Under stress, memory fails. Use emergency checklists (quick reference handbooks) for anaphylaxis, malignant hyperthermia, local anaesthetic toxicity and airway fire; assign one person to read them aloud. They do not insult your knowledge; they stop the team missing a step.
+## Ten seconds for ten minutes {junior}
+When the situation is unclear, take ten seconds to stop, share what you see, agree the problem and the plan, and allocate tasks. It saves minutes of uncoordinated activity.
+
+# After the crisis | Learning and looking after people.
+## The hot debrief {senior}
+Straight after the event, for a few minutes: what happened, what went well, what could be better, and does anyone need support. Report the incident, tell the patient (duty of candour) and follow up.
+## The second victim {senior}
+Surgeons and staff involved in a serious adverse event often suffer guilt, anxiety and sleeplessness. Check on your colleagues and yourself, and use support services; it is not weakness.
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+In 106 simulated operating-room crises, teams with crisis checklists missed 6% of life-saving steps compared with 23% without them (Arriaga et al., *N Engl J Med* 2013). A systematic review found crisis resource management simulation training improved team performance in simulation, with growing evidence of transfer to clinical care (Boet et al., *Can J Anaesth* 2014).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Principles** of crisis resource management.
+- **SBAR** and closed-loop communication.
+- **Graded assertiveness.**
+- **Cognitive aids** and their evidence.
+- **Debrief** and supporting colleagues.
+!!
+## Skills to sign off
+!skills
+- Hand over or call for help using SBAR {day}
+- Use closed-loop communication in theatre {day}
+- Speak up using graded assertiveness {day}
+- Lead a team through a simulated crisis {senior}
+- Run a hot debrief after a real event {senior}
+!!
+## Common pitfalls
+!pit
+- Calling for help too late.
+- Nobody leading, or two people leading.
+- Instructions to "someone".
+- Fixating on one problem.
+!!

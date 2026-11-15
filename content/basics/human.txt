@@ -1,0 +1,87 @@
+@stand Surgeons make errors because they are human: tired, hungry, rushed, distracted, overconfident or anchored on a first impression. Human factors is the study of how people, teams, equipment and systems interact, and how to design work so that ordinary human weaknesses do not harm patients. Alongside it sit two specialist habits: measuring your own results honestly (audit, morbidity and mortality review) and improving the system you work in (quality improvement). And none of it works if the surgeon is burnt out.
+@src NOTSS (Royal College of Surgeons of Edinburgh); Healthcare Quality Improvement Partnership; Institute for Healthcare Improvement model for improvement; GMC; the literature
+
+# Human factors | Why good people make mistakes.
+## Non-technical skills {senior}
+!table NOTSS: the four categories
+Category | Elements
+Situation awareness | Gathering information, understanding it, projecting ahead
+Decision-making | Considering options, selecting and communicating one, reviewing it
+Communication and teamwork | Exchanging information, shared understanding, coordinating
+Leadership | Setting standards, supporting others, coping with pressure
+!!
+## Fatigue and stress {day}
+After about 17 hours awake, performance falls to roughly the level of someone at the drink-drive limit, and after 24 hours it is worse. Check yourself with HALT (hungry, angry, late, tired) before a difficult task. Take breaks, eat, drink, hand over when you are not safe, and avoid scheduling complex elective cases after a night on call.
+## Cognitive biases {junior}
+!table Common biases in surgery
+Bias | What happens | Antidote
+Anchoring | Sticking with the first diagnosis | Ask "What else could it be?"
+Confirmation | Seeing only what supports your view | Look for evidence against it
+Availability | Overweighting a recent or memorable case | Use base rates and guidelines
+Sunk cost | Pushing on because you have come so far | Re-decide as if starting fresh
+Overconfidence | Not checking, not asking | Checklists, second opinions
+!!
+## Designing out error {senior}
+People are the weakest barrier; design is stronger. Standardise equipment and trays, use checklists and protocols, label everything, reduce interruptions at critical moments (a "sterile cockpit" during the time out and critical steps), and make the safe action the easy one.
+
+# Learning from outcomes | Audit and review.
+## Audit {junior}
+Audit measures practice against a standard, makes a change, and measures again (the audit cycle). Examples in ENT: post-tonsillectomy haemorrhage rates against national figures, post-thyroidectomy hypocalcaemia, time from referral to cancer diagnosis, documentation in operation notes.
+!how The audit cycle
+1. Choose a topic that matters and a published standard.
+2. Agree criteria and a target (for example, "95% of operation notes record VTE prophylaxis").
+3. Collect data on current practice.
+4. Compare with the standard and find the reasons for the gap.
+5. Make a change.
+6. Re-audit to close the loop.
+!!
+## Morbidity and mortality meetings {junior}
+Present complications and deaths openly to learn, not to blame: what happened, what was expected, what could be different, and what will change. Track your own complication rates throughout your career.
+## Incident reporting {day}
+Report incidents and near misses through your hospital's system. Near misses are free lessons; a culture that reports them is a safe culture.
+
+# Improvement | Changing the system.
+## Quality improvement {senior}
+Use the model for improvement: what are we trying to accomplish, how will we know a change is an improvement, and what changes can we make? Then test changes in small Plan-Do-Study-Act cycles, measure with run charts, and spread what works.
+## Audit, research and service evaluation {junior}
+Audit compares practice with a standard; research creates new knowledge and needs ethics approval; service evaluation describes current practice without a standard. Know which you are doing before you start.
+
+# Looking after yourself | The sustainable surgeon.
+## Wellbeing {day}
+Burnout (emotional exhaustion, cynicism, a reduced sense of achievement) is common in surgical training and affects patient care. Protect sleep and time off, keep up friendships and interests outside medicine, seek a mentor, talk about difficult cases, and use support services early. Ask colleagues how they are, and mean it.
+!senior Senior's pearl
+The surgeon who never admits to being tired, upset or out of their depth is the most dangerous one in the hospital. Saying "I need a break" or "I need help" is professional.
+!!
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+A systematic review of otolaryngology trainees found an average burnout rate of 58.6% (range about 30% to 86%), linked to long working hours; protected non-clinical time and formal mentorship reduced burnout (Lawlor et al., *World J Otorhinolaryngol Head Neck Surg* 2022). In a classic experiment, staying awake for 17 hours impaired performance as much as a blood alcohol concentration of 0.05%, and 24 hours as much as 0.1% (Dawson and Reid, *Nature* 1997).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **NOTSS** categories.
+- **Fatigue** and its effects.
+- **Cognitive biases** and how to counter them.
+- **The audit cycle** and the difference from research.
+- **Quality improvement** and PDSA.
+- **Burnout** and wellbeing.
+!!
+## Skills to sign off
+!skills
+- Recognise when I am too tired or stressed to work safely and act on it {day}
+- Report an incident or near miss {day}
+- Present at a morbidity and mortality meeting {junior}
+- Complete an audit cycle including re-audit {junior}
+- Lead a quality improvement project with PDSA cycles {senior}
+- Track and review my own outcomes {spec}
+!!
+## Common pitfalls
+!pit
+- Working on when unsafe through tiredness.
+- Anchoring on the first diagnosis.
+- Audits that never close the loop.
+- Blame instead of learning in morbidity meetings.
+!!

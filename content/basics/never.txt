@@ -1,0 +1,69 @@
+@stand Never events are serious, largely preventable incidents that should not happen if national safety measures are followed: wrong-site surgery, a retained foreign object, the wrong implant. ENT, with its paired ears, sinuses, parotids, neck sides and thyroid lobes, and its packs, patties and throat packs, has more opportunities for them than most specialties. Nerve monitoring is the other side of the same coin: a tool to protect the facial and recurrent laryngeal nerves that only works if you understand what it can and cannot tell you.
+@src NHS England Never Events framework; NatSSIPs 2; WHO Surgical Safety Checklist; International Neural Monitoring Study Group guidance; Oxford Textbook of Otolaryngology; the literature
+
+# Never events | The ones that matter in ENT.
+## The list {senior}
+!table Never events relevant to ENT
+Event | ENT examples | Main safeguard
+Wrong-site surgery | Wrong ear, wrong side of the nose or sinus, wrong parotid or thyroid lobe, wrong-side grommet, wrong patient | Marking, consent, imaging and audiogram check, time out
+Wrong implant | Wrong grommet, prosthesis length, cochlear implant side or model | Implant check before opening and at time out
+Retained foreign object | Throat pack, nasal pack or patty, neuro-patty, swab in the tonsil fossa or neck, guidewire | Counts, visual and written reminders, sign out
+Wrong route of medication | Intravenous drug given intrathecally or into an ear, topical drug injected | Labelled syringes, read-back
+Misplaced nasogastric tube | After head and neck surgery | Confirm position by aspirate pH or X-ray before use
+!!
+## Why they happen {senior}
+Almost never through one person's ignorance; usually a chain of small failures: the list says left, the consent says right, the mark has washed off, the team is rushed, the junior did not feel able to speak, and the time out was skipped. Each safeguard is a slice of cheese with holes; harm happens when the holes line up.
+!danger The bilateral operation that wasn't
+Grommets, sinus surgery and nasal operations are often bilateral, so a team gets used to not checking the side. When it is one side, say so at every check, and mark it.
+!!
+## Preventing them {senior}
+- Mark the site with the patient, before premedication, and check against the consent, letter and imaging.
+- Display the imaging, and the audiogram for ear surgery, in theatre.
+- Make the time out a real pause, with every person engaged.
+- Count everything that can be left: patties are counted like swabs, with tails left outside the nose.
+- Confirm removal of throat packs and nasal packs at sign out and before extubation.
+- Never skip a check because the list is behind.
+
+# Nerve monitoring | Facial and laryngeal nerves.
+## How it works {junior}
+Electrodes record muscle activity (electromyography): needle electrodes in the orbicularis oculi and oris for the facial nerve; surface electrodes on the endotracheal tube touching the vocal cords for the recurrent laryngeal nerve. A stimulating probe tells you whether a structure is the nerve, and an alarm warns of mechanical irritation.
+## Using it well {senior}
+- Tell the anaesthetist: no long-acting muscle relaxant after induction.
+- Check the system works at the start (tap the face; stimulate the vagus nerve before and after thyroid dissection).
+- Use the lowest current that identifies the nerve (often 0.5 to 1 mA for confirmation, 2 to 3 mA for searching).
+- In thyroid surgery, loss of signal on the first side should make you consider stopping and doing the second side later, to avoid bilateral palsy.
+!senior Senior's pearl
+The monitor helps you find the nerve and warns you, but it cannot see. A silent monitor does not prove the nerve is safe, and an alarm does not prove it is damaged. Anatomy comes first.
+!!
+## Where it is used {junior}
+Parotid and revision ear surgery, facial nerve surgery, acoustic neuroma and skull base surgery (facial nerve); thyroid and parathyroid surgery (recurrent laryngeal nerve, vagus); neck dissection (accessory nerve, in some units).
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+A systematic review of surgical never events in the USA estimated wrong-site surgery at about 0.09 and retained items at about 1.32 per 10,000 operations, with inadequate communication the commonest root cause (Hempel et al., *JAMA Surg* 2015). In primary parotidectomy, facial nerve monitoring reduced immediate post-operative weakness (22.5% vs 34.9%; one case prevented for every 9 monitored) but not permanent weakness (Sood et al., *Otolaryngol Head Neck Surg* 2015). In 9,203 thyroidectomies, monitoring reduced overall and transient recurrent laryngeal nerve palsy, without a significant difference in permanent palsy (Yang et al., *Int J Surg* 2017).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Never events** relevant to ENT and how to prevent them.
+- **The Swiss cheese model.**
+- **Nerve monitoring:** how it works and its limits.
+- **Loss of signal** in thyroid surgery and staged surgery.
+!!
+## Skills to sign off
+!skills
+- Check side against consent, letter and imaging for every case {day}
+- Confirm removal of all packs and patties at sign out {day}
+- Set up and test facial nerve monitoring {junior}
+- Use recurrent laryngeal nerve monitoring with vagal stimulation in thyroid surgery {senior}
+- Decide on staging after loss of signal {spec}
+!!
+## Common pitfalls
+!pit
+- Not checking the side in "usually bilateral" operations.
+- Patties without tails or counts.
+- A long-acting relaxant during nerve monitoring.
+- Trusting a silent monitor over your eyes.
+!!
