@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520" font-family="Helvetica, Arial, sans-serif">
+<rect width="600" height="520" fill="#FBFAF7"/>
+<text x="20" y="34" font-size="22" font-weight="700" fill="#1F2A33">Common head and neck incisions</text>
+<!-- front view -->
+<g>
+<ellipse cx="150" cy="140" rx="78" ry="92" fill="#F1D9C4" stroke="#B9967A"/>
+<path d="M100 205 Q150 250 200 205" fill="none" stroke="#B9967A"/>
+<path d="M95 210 L92 360 Q150 380 208 360 L205 210" fill="#F1D9C4" stroke="#B9967A"/>
+<path d="M40 420 Q60 370 92 360 M208 360 Q240 370 260 420" fill="none" stroke="#B9967A" stroke-width="2"/>
+<line x1="150" y1="248" x2="150" y2="262" stroke="#B9967A"/>
+<!-- Kocher -->
+<path d="M110 330 Q150 345 190 330" fill="none" stroke="#2F6F98" stroke-width="4"/>
+<!-- trach -->
+<path d="M135 300 L165 300" stroke="#9A6B1F" stroke-width="4"/>
+<!-- submandibular -->
+<path d="M100 248 Q120 262 140 262" fill="none" stroke="#2F8A63" stroke-width="4"/>
+<!-- apron -->
+<path d="M200 190 Q215 290 190 345 Q150 365 110 345" fill="none" stroke="#B5454D" stroke-width="3" stroke-dasharray="7 5"/>
+<text x="150" y="455" font-size="15" text-anchor="middle" font-weight="700" fill="#1F2A33">Front</text>
+</g>
+<!-- side view -->
+<g>
+<ellipse cx="440" cy="150" rx="88" ry="96" fill="#F1D9C4" stroke="#B9967A"/>
+<path d="M395 230 L385 360 L500 360 L490 225" fill="#F1D9C4" stroke="#B9967A"/>
+<ellipse cx="462" cy="160" rx="13" ry="24" fill="#E2BFA3" stroke="#B9967A"/>
+<!-- modified Blair -->
+<path d="M448 132 L448 178 Q455 200 470 200 Q478 212 470 240 Q462 262 430 268" fill="none" stroke="#7A3E8E" stroke-width="4"/>
+<!-- postauricular -->
+<path d="M482 130 Q492 160 482 192" fill="none" stroke="#B5454D" stroke-width="4"/>
+<text x="440" y="455" font-size="15" text-anchor="middle" font-weight="700" fill="#1F2A33">Side</text>
+</g>
+<g font-size="14.5" fill="#1F2A33">
+<rect x="20" y="468" width="14" height="5" fill="#2F6F98"/><text x="40" y="474">Collar (Kocher): thyroid</text>
+<rect x="20" y="490" width="14" height="5" fill="#9A6B1F"/><text x="40" y="496">Tracheostomy</text>
+<rect x="210" y="468" width="14" height="5" fill="#2F8A63"/><text x="230" y="474">Submandibular: 2 cm below jaw</text>
+<rect x="210" y="490" width="14" height="5" fill="#B5454D"/><text x="230" y="496">Apron; postauricular</text>
+<rect x="440" y="468" width="14" height="5" fill="#7A3E8E"/><text x="460" y="474">Modified Blair:</text><text x="460" y="492">parotid</text>
+</g>
+</svg>

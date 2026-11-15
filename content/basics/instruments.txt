@@ -1,0 +1,77 @@
+@stand You cannot ask for what you cannot name, and you cannot use well what you hold badly. ENT has more named instruments than most specialties, many of them small, delicate and designed for one task in one space. Learn the basic set first (scalpels, scissors, forceps, retractors, needle holders, haemostats), then each specialty tray as you meet it. Ask the scrub practitioner to show you the tray before the list; most will happily teach anyone who asks.
+@src Oxford Handbook of ENT; Dhingra; K. J. Lee; Myers; the literature
+#! photos: Wikimedia Commons, credited in each caption
+
+# The basic set | Instruments every operation uses.
+## Holding instruments {day}
+- **Scalpel:** pen grip for fine incisions, table-knife grip (index finger on the back) for long ones.
+- **Scissors and needle holders:** thumb and ring finger in the rings, index finger along the shaft for control (the tripod grip); turn from the wrist, not the elbow.
+- **Forceps:** like a pen, between thumb and index and middle fingers, never in the palm.
+- **Pass instruments** handle first, into the open hand, firmly enough that the receiver feels it, and sharp edges away from both of you.
+## Scalpel blades {day}
+!dr blades | The four blades used most in ENT.
+## The basic instruments {day}
+!table The basic set
+Instrument | Use
+Scalpel handle (No. 3 takes blades 10 to 15) | Skin and fine incisions
+McIndoe and Metzenbaum scissors | Fine, curved dissecting scissors for tissue; never for sutures
+Mayo scissors | Heavy tissue, cutting sutures and dressings
+Adson and Gillies toothed forceps | Holding skin and fascia
+DeBakey (atraumatic) forceps | Vessels and bowel-like tissue
+Artery forceps (Mosquito, Dunhill, Spencer Wells) | Clamping vessels, holding ties
+Needle holders (Mayo-Hegar, Crile-Wood, Halsey) | Holding needles; fine ones for the face
+Retractors: Langenbeck, Czerny, Kilner cat's paw, skin hooks, self-retaining (West, Weitlaner, Travers) | Exposure
+Bipolar forceps and diathermy pencil | Haemostasis
+Suction (Yankauer, Frazier, Zoellner) | Clearing the field; fine suction for the ear and nose
+!!
+
+# The ENT trays | By operation.
+## Ear {day}
+Aural specula, a microscope, fine suction (sizes 18 to 24 French and smaller), Jobson Horne probe and wax hook, crocodile (Hartmann) forceps, Rosen needle, round knife, sickle knife, Plester or House curettes, cup forceps, Bellucci scissors, Wullstein or Weitlaner self-retaining retractor, drill with cutting and diamond burrs, and Rosen or Fisch elevators.
+!ph aural_spec | An aural speculum.
+!ph jobson_horne | A Jobson Horne probe with a ring curette at one end, used for wax and debris.
+!ph hartmann_aural | Crocodile (Hartmann) aural forceps, for foreign bodies and dressings in the ear canal.
+## Nose and sinuses {day}
+Thudichum and Killian nasal specula, Tilley's nasal dressing forceps, Freer and Cottle elevators, Killian septal speculum, Ballenger swivel knife, Luc's or Tilley-Henckel forceps, Blakesley (straight and up-biting) forceps, through-cutting forceps, backbiter, sickle knife, microdebrider, Kerrison punch, Walsham and Asch forceps for nasal fractures, and endoscopes with suction (Frazier).
+!ph tilley | Tilley's nasal dressing forceps: angled so the hand stays out of the line of sight.
+## Tonsils and adenoids {day}
+Boyle-Davis mouth gag with tongue blades and Draffin rods, Denis Browne tonsil holding forceps, Mollison dissector and pillar retractor, Gwynne-Evans dissector, Eves tonsil snare, Negus or Birkett artery forceps and Negus knot pusher, adenoid curettes (St Clair Thomson), suction diathermy or Coblation wand.
+!ph denis_browne | Denis Browne tonsil holding forceps grip the tonsil without cutting it.
+!ph negus tonsil_artery | Curved artery forceps for the tonsil bed: Negus forceps (left) and a tonsil artery forceps (right).
+!ph eves_snare | The Eves tonsil snare, used to cut the lower pole.
+## Larynx and airway {junior}
+Laryngoscopes (Dedo, Kleinsasser, Lindholm, Benjamin for children), suspension and chest support, microlaryngeal cup forceps, scissors and suction, Hopkins rod telescopes, rigid bronchoscopes and oesophagoscopes with optical forceps, tracheostomy set (cricoid hook, tracheal dilator such as Trousseau, tracheostomy tubes of several sizes with introducers).
+## Neck {junior}
+Self-retaining neck retractors (Joll for thyroid), Langenbeck and Czerny retractors, Lahey or Kocher forceps, fine right-angled forceps (Lahey, Mixter) for passing ties, vessel loops, nerve stimulator, bipolar and energy devices.
+!senior Senior's pearl
+If you want something unusual, ask for it at the team brief, not when you need it. The circulating practitioner can find a Kerrison punch in two minutes before the start, but not in thirty seconds while you are bleeding.
+!!
+
+# Care of instruments | Keeping them working.
+## Looking after instruments {day}
+Fine instruments (ear, microlaryngeal, microvascular) bend and blunt easily: never use fine scissors on sutures or dressings, never grip a needle with fine forceps, and wipe instruments clean of blood during the case so they do not stick. Report any damaged instrument instead of putting it back on the tray.
+## Prion precautions {junior}
+Instruments used on tonsils and adenoids can carry prions (variant Creutzfeldt-Jakob disease) that survive normal sterilisation; follow your hospital's tracking policy, and single-use instruments are used in some countries.
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Name and use** of instruments from each ENT tray (a common viva and OSCE station).
+- **Blade numbers.**
+- **How to hold** scissors, forceps and needle holders.
+- **Instrument care** and prion precautions.
+!!
+## Skills to sign off
+!skills
+- Name every instrument on the basic, ear, nose and tonsil trays {day}
+- Hold scalpel, scissors, forceps and needle holder correctly {day}
+- Name the laryngoscopy, bronchoscopy and tracheostomy instruments {junior}
+- Name the neck dissection and thyroid instruments {junior}
+!!
+## Common pitfalls
+!pit
+- Cutting sutures with dissecting scissors.
+- Palming forceps.
+- Asking for unusual instruments only when you need them.
+- Using the wrong size of suction in the ear.
+!!

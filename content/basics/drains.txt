@@ -1,0 +1,70 @@
+@stand What you leave in or on the wound at the end of an operation matters as much as what you did inside it. A drain removes blood and serum from a dead space, a dressing protects the wound, a pack stops bleeding in the nose, a splint holds tissue in place while it heals, and a head bandage stops a haematoma forming under a pinna or mastoid flap. Each also has a cost (pain, infection, a longer stay), and the evidence now says that several routine habits, such as nasal packing after septoplasty and drains after thyroidectomy, do more harm than good for most patients.
+@src Oxford Textbook of Otolaryngology; Oxford Handbook of ENT; K. J. Lee; Myers; the literature
+
+# Drains | Removing blood and serum.
+## Types of drain {day}
+!table Drains in the head and neck
+Type | How it works | Typical uses
+Closed suction (Redivac, Jackson-Pratt) | Vacuum bottle or bulb pulls fluid out and the skin flap down onto the bed | Neck dissection, parotidectomy, free flap donor and recipient sites, large neck operations
+Passive (corrugated, Penrose, Yeates) | Fluid runs out by gravity and capillary action | Abscess cavities, infected or contaminated wounds
+!!
+## Using a suction drain {day}
+- Bring it out through a separate stab incision in a dependent, hidden position, away from the main incision and the great vessels.
+- Lay it where fluid collects, but not against a vascular anastomosis or directly over the carotid or a nerve.
+- Secure it with a non-absorbable suture to the skin.
+- Check it holds vacuum after closure; a drain that does not hold suction means an air leak (an open wound edge or a pharyngeal fistula).
+- Record the volume and character every shift.
+## When to remove it {day}
+Usually when the output falls below about 25 to 50 ml in 24 hours (units differ), or earlier for small operations. Chylous fluid (milky, rising on feeding, triglycerides high) after a left neck dissection means a chyle leak, and the drain stays.
+!danger The drain will not save you from a haematoma
+A blocked drain, or a clot faster than the drain can remove it, still causes a neck haematoma that can obstruct the airway. Watch the neck, not just the bottle.
+!!
+
+# Dressings and bandages | Protecting the wound.
+## Dressings {day}
+Most head and neck incisions need only a light, non-adherent dressing or adhesive strips and glue; keep them dry for 48 hours. Leave flap dressings loose so the flap can be seen and no pressure falls on the pedicle.
+## Head bandages {day}
+A firm mastoid or head bandage after ear surgery or otoplasty prevents haematoma under the flap or pinna; usually left for 24 hours after mastoid surgery and up to a week after otoplasty (with a lighter headband for several weeks at night). Check the patient is not in pain under it: severe pain means haematoma or a bandage that is too tight.
+
+# Packs and splints | The nose and the ear.
+## Nasal packs {day}
+- **Non-absorbable packs** (expanding sponge, inflatable, ribbon gauze with paraffin or BIPP) for epistaxis and sometimes after nasal surgery; usually removed after 24 to 48 hours.
+- **Absorbable or dissolvable packs** (gelatin, carboxymethylcellulose, chitosan, steroid-eluting stents) after sinus surgery.
+- **Quilting sutures** (a continuous trans-septal suture) instead of packs after septoplasty hold the flaps together.
+- **Septal splints** (silicone sheets) after septal surgery or with turbinate surgery to prevent adhesions; removed after about a week.
+!danger The pack that moves backwards
+A nasal pack, especially a posterior pack, can slip into the pharynx and obstruct the airway. Secure it with a string or tie at the nostril and check it is visible. Posterior packs cause hypoxia and need observation in hospital.
+!!
+## Ear packs {day}
+After tympanoplasty and canal surgery, gelatin sponge holds the graft in the middle ear and canal, with a ribbon gauze or antibiotic-soaked dressing in the canal (BIPP or antibiotic ointment), removed at 1 to 3 weeks.
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+A meta-analysis of 25 randomised trials (2,939 patients) found drains after thyroid surgery did not reduce reoperation for haematoma or wound collections, but did lengthen hospital stay, increase pain and more than double wound infection (relative risk 2.53) (Woods et al., *Br J Surg* 2014). After septoplasty, a meta-analysis of 16 studies found nasal packing did not reduce bleeding, haematoma, perforation, adhesions or residual deviation, but did increase infection (Banglawala et al., *Int Forum Allergy Rhinol* 2013). Trans-septal quilting sutures are an effective alternative with less pain (Certal et al., *Rhinology* 2012).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Indications** for drains, and the evidence after thyroidectomy.
+- **Drain types** and when to remove them.
+- **Nasal packing** after septoplasty and alternatives.
+- **Chyle leak** recognition.
+- **Dangers** of posterior nasal packs.
+!!
+## Skills to sign off
+!skills
+- Insert and secure a suction drain through a separate stab incision {day}
+- Apply a mastoid head bandage {day}
+- Insert anterior nasal packs for epistaxis {day}
+- Place a quilting suture and septal splints after septoplasty {junior}
+- Decide when a drain is needed and when to remove it {junior}
+!!
+## Common pitfalls
+!pit
+- Routine drains and packs without a reason.
+- A drain against an anastomosis or the carotid.
+- An unsecured posterior pack.
+- Trusting a drain bottle over the look of the neck.
+!!

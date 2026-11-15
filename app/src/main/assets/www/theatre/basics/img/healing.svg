@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="Helvetica, Arial, sans-serif">
+<rect width="600" height="400" fill="#FBFAF7"/>
+<text x="20" y="34" font-size="22" font-weight="700" fill="#1F2A33">The phases of wound healing</text>
+<g font-size="14.5" fill="#1F2A33">
+<rect x="20" y="70" width="70" height="44" rx="8" fill="#B5454D"/><text x="55" y="97" fill="#fff" text-anchor="middle" font-weight="700">Clot</text>
+<text x="20" y="134">minutes</text>
+<rect x="70" y="150" width="170" height="44" rx="8" fill="#D9822B"/><text x="155" y="177" fill="#fff" text-anchor="middle" font-weight="700">Inflammation</text>
+<text x="70" y="214">days 0 to 5: neutrophils, then macrophages</text>
+<rect x="160" y="230" width="230" height="44" rx="8" fill="#2F8A63"/><text x="275" y="257" fill="#fff" text-anchor="middle" font-weight="700">Proliferation</text>
+<text x="160" y="294">day 3 to week 3: granulation, collagen III,</text>
+<text x="160" y="312">epithelium, contraction</text>
+<rect x="330" y="320" width="250" height="44" rx="8" fill="#2F6F98"/><text x="455" y="347" fill="#fff" text-anchor="middle" font-weight="700">Remodelling</text>
+<text x="330" y="384">week 3 to 1 year or more: collagen I</text>
+</g>
+<g font-size="14" fill="#5B6670"><text x="380" y="88">Strength at 3 weeks:</text><text x="380" y="106">about 20% of normal</text><text x="380" y="130">Final: about 80%</text></g>
+</svg>

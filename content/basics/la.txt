@@ -1,0 +1,88 @@
+@stand A large share of ENT work is done under local anaesthesia: clinic procedures, nasal fractures, ear surgery, biopsies, skin cancer excisions, tracheostomy in a patient who cannot be intubated, and awake laryngeal procedures. Local anaesthetic is also injected in almost every operation under general anaesthesia for haemostasis and post-operative pain. You must know the maximum doses by heart, how to make the injection painless, the nerves to block for the ear, nose and neck, and how to recognise and treat toxicity.
+@src Oxford Handbook of ENT; Oxford Textbook of Otolaryngology; K. J. Lee; BNF; Association of Anaesthetists guidance on local anaesthetic toxicity; the literature
+
+# The drugs | Doses you must know.
+## How local anaesthetics work {day}
+They block voltage-gated sodium channels from inside the nerve, stopping conduction; small, unmyelinated pain fibres are blocked first. They are weak bases and work less well in acidic, infected tissue. Adding adrenaline slows absorption, prolongs the block, raises the safe dose and reduces bleeding.
+## Maximum doses {day}
+!table Maximum doses in adults (use lean body weight in obesity)
+Drug | Plain | With adrenaline | Notes
+Lidocaine | 3 mg/kg (maximum 200 mg) | 7 mg/kg (maximum 500 mg) | Fast onset, 1 to 2 hours
+Bupivacaine, levobupivacaine | 2 mg/kg (maximum 150 mg) | 2 mg/kg (maximum 150 mg) | Slow onset, 4 to 8 hours; most cardiotoxic
+Prilocaine | 6 mg/kg (maximum 400 mg) | 8 mg/kg | Methaemoglobinaemia at high doses
+Cocaine (topical) | 1.5 mg/kg (maximum 100 mg) | | Vasoconstrictor and anaesthetic; avoid in ischaemic heart disease and with adrenaline-type drugs
+!!
+!how Converting percent to milligrams
+1. A 1% solution contains 1 g in 100 ml, which is **10 mg per ml**.
+2. So 2% lidocaine is 20 mg/ml, and 0.5% bupivacaine is 5 mg/ml.
+3. Example: a 70 kg adult may have 7 x 70 = 490 mg of lidocaine with adrenaline, which is 49 ml of 1% or 24.5 ml of 2%.
+4. Adrenaline 1:200,000 is 5 micrograms per ml; 1:80,000 (dental cartridges) is 12.5 micrograms per ml.
+5. Doses of different local anaesthetics add together as fractions of their maximum.
+!!
+!danger Children and the frail
+Calculate the dose in milligrams for every child before you draw up, and write it down. A small child's maximum dose is a few millilitres of 1% lidocaine. Reduce doses in the elderly, in liver and heart failure, and for injections into very vascular areas.
+!!
+
+# Technique | Painless and effective.
+## A painless injection {day}
+- Warm the solution to body temperature and buffer lidocaine with bicarbonate (1 ml of 8.4% to 10 ml of 1% lidocaine) to reduce stinging.
+- Use the finest needle (27 to 30 gauge), inject slowly, and start in the dermis-subcutaneous junction.
+- In a wound, inject through the cut edge, not intact skin.
+- Advance into tissue that is already numb; aspirate before injecting near vessels.
+- Wait: adrenaline needs 7 to 10 minutes to blanch the field.
+## Blocks for the ear {day}
+!dr ear_block | The four sensory nerves of the ear and where to inject.
+Infiltrate in front of the tragus and helical root (auriculotemporal nerve), behind the pinna (great auricular and lesser occipital nerves), and into the four quadrants of the canal at the bony-cartilaginous junction (including Arnold's branch of the vagus on the posterior wall). For the tympanic membrane alone, a canal injection or topical phenol-based or EMLA-type preparations are used.
+## The nose {day}
+- **Topical:** cocaine paste or Moffett's solution (cocaine, adrenaline and bicarbonate), or co-phenylcaine spray (lidocaine with phenylephrine), on patties placed along the floor, under the middle turbinate (sphenopalatine area) and high anteriorly (anterior ethmoidal nerve).
+- **Infiltration:** lidocaine with adrenaline into the septum, the columella, the lateral wall and the base of the nasal bones for fractures; an infraorbital block for the side of the nose and upper lip.
+## Face and neck {junior}
+- **Supraorbital and supratrochlear** blocks for the forehead and scalp.
+- **Infraorbital** block (via the mouth or through the skin) for the cheek, side of the nose and upper lip; **mental** block for the lower lip and chin.
+- **Superficial cervical plexus** block at the midpoint of the posterior border of sternomastoid for neck skin (used in thyroid and carotid surgery and awake tracheostomy).
+## The airway {junior}
+For awake fibreoptic intubation and office laryngeal procedures: topical lidocaine to the pharynx, superior laryngeal nerve blocks at the greater horn of the hyoid, and transtracheal lidocaine through the cricothyroid membrane, which makes the patient cough and spreads it above and below the cords.
+
+# Toxicity | Recognise and treat.
+## Local anaesthetic systemic toxicity {day}
+Early signs: tingling around the mouth, a metallic taste, tinnitus, light-headedness, slurred speech. Then agitation, twitching and seizures, and then arrhythmia and cardiovascular collapse. Bupivacaine can stop the heart without warning signs first, and toxicity can appear up to an hour after injection.
+!path Suspected local anaesthetic toxicity
+Act | stop injecting ; call for help ; airway, 100% oxygen ; IV access ; benzodiazepine or propofol for seizures
+Lipid | 20% lipid emulsion 1.5 ml/kg IV over 1 minute ; then infusion 15 ml/kg/hour ; repeat bolus twice at 5 minute intervals and double the infusion if unstable (maximum 12 ml/kg in total)
+Arrest | CPR (may be prolonged, over an hour) ; amiodarone for arrhythmias, not lidocaine ; consider bypass
+!!
+!senior Senior's pearl
+Before you inject in a long case, say the total dose aloud to the anaesthetist; they may already have given lidocaine intravenously or in the airway spray, and the doses add up.
+!!
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+In 93 published cases of local anaesthetic toxicity over 30 years, 60% had the classic progression from nervous system symptoms to cardiac collapse, but the rest had delayed onset or cardiovascular signs alone, so toxicity can appear late and without warning (Di Gregorio et al., *Reg Anesth Pain Med* 2010). A review of later case reports and registries confirmed that a growing share of cases occur outside the operating theatre and many involve delayed presentation (Gitman et al., *Reg Anesth Pain Med* 2018). Lipid emulsion is now standard treatment in national guidance.
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Maximum doses** and the percent-to-milligram calculation.
+- **Mechanism** and the effect of adrenaline.
+- **Ear and nose** anaesthesia.
+- **Toxicity:** signs and the lipid regimen.
+- **Cocaine** in the nose: dose and cautions.
+!!
+## Skills to sign off
+!skills
+- Calculate maximum doses in mg and ml for an adult and a child {day}
+- Give a painless skin infiltration {day}
+- Anaesthetise the nose topically and by infiltration for a nasal fracture {day}
+- Perform a four-quadrant ear canal block and postauricular infiltration {junior}
+- Perform infraorbital, mental and superficial cervical plexus blocks {junior}
+- Lead the response to local anaesthetic toxicity {senior}
+!!
+## Common pitfalls
+!pit
+- Not calculating the dose for a child.
+- Forgetting lidocaine already given by the anaesthetist.
+- Not waiting for adrenaline to work.
+- Missing late toxicity after a large block.
+!!

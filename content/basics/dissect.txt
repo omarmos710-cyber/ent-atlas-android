@@ -1,0 +1,84 @@
+@stand Dissection is the art of separating tissues along the planes where they naturally come apart. Every head and neck operation is a sequence of planes: under the platysma, along the investing fascia, outside the capsule of the thyroid or the parotid, under the periosteum, along a nerve. Find the right plane and the operation is bloodless and quick; lose it and you bleed, get lost and put nerves at risk. Halsted's principles, written over a century ago, still describe how to handle tissue: gently, with sharp dissection, careful haemostasis, preserved blood supply, no tension, and no dead space.
+@src Oxford Textbook of Otolaryngology; K. J. Lee; Myers; Royal College of Surgeons Basic Surgical Skills; the literature
+
+# Principles | Handling tissue.
+## Halsted's principles {day}
+- Handle tissue gently.
+- Achieve meticulous haemostasis.
+- Preserve the blood supply.
+- Use strict asepsis.
+- Close without tension.
+- Bring tissue together accurately.
+- Obliterate dead space.
+## Holding tissue {day}
+Toothed forceps (Adson, Gillies) grip skin and fascia with less crushing than non-toothed forceps, which slip and tempt you to squeeze. Hold the dermis or the cut edge, never the epidermis, and never crush a nerve, a vessel you want to keep, or the tip of a flap. Fine skin hooks are kinder still for skin edges.
+## Traction and countertraction {day}
+Planes open when tissue is put under gentle tension in opposite directions: your forceps pull one way, the assistant's retractor or forceps the other. Without tension, scissors and diathermy push tissue around instead of separating it. Most of the time a stuck dissection needs better traction, not more force.
+
+# Techniques | Sharp and blunt.
+## Sharp dissection {day}
+With scalpel or scissors under direct vision. It is precise and causes the least tissue damage. Use the belly of the blade or the tips of the scissors, cutting only what you can see.
+## Blunt dissection {day}
+Separating tissue by spreading (scissors or artery forceps opened in the plane), pushing with a swab or finger, or stroking with a dissector or elevator. It finds and follows loose areolar planes and is safer around structures you cannot yet see, but it tears tissue if forced and can avulse small vessels.
+!how Spread and cut with scissors
+1. Insert the closed tips into the plane, parallel to important structures (nerves, vessels).
+2. Spread gently to open the plane and see what is in it.
+3. Withdraw slightly, then cut only the thin, clear tissue you have opened and seen.
+4. Repeat, keeping the tips in view at all times.
+!!
+## Subperiosteal and subperichondrial dissection {day}
+Under the periosteum and perichondrium, the plane is bloodless and safe, and it protects the soft tissues outside it. Use a Freer, Howarth or Cottle elevator against the bone or cartilage, keeping the edge in contact with the hard surface (septoplasty, mastoid, orbit, maxilla).
+
+# Nerves and vessels | Protecting what matters.
+## Finding and following a nerve {junior}
+- Know where the nerve should be, and find it at a reliable landmark before it is at risk (the facial nerve trunk at the tragal pointer and posterior belly of digastric, the recurrent laryngeal nerve in Beahrs' triangle, the accessory nerve at the jugular vein or Erb's point).
+- Dissect on top of the nerve and parallel to it, with the scissor tips spreading along its line.
+- Do not strip it of its surrounding tissue more than you need; it carries its blood supply.
+- Do not use monopolar diathermy close to it; use bipolar sparingly and away from it.
+- Use a nerve monitor where available, but trust your eyes over the beeps.
+!danger Never cut what you cannot identify
+In the neck, any cord-like structure could be a nerve, a duct or an artery. If you are not sure what it is, follow it until you are.
+!!
+## Vessels {junior}
+Dissect vessels in the adventitial plane, clear them enough to place a clip or tie with a margin, and tie in continuity before dividing. Large veins (internal jugular) tear easily under traction: hold them with gentle, broad pressure, not forceps.
+
+# The assistant | Two pairs of hands.
+## Assisting well {day}
+- Watch the operation, not the screen or the clock; anticipate the next step.
+- Retract to show, not to pull: steady, gentle, and moved only when asked.
+- Keep the field dry with suction or a swab, dabbing rather than wiping.
+- Cut sutures to the length asked (usually 3 to 5 mm for ties; longer for monofilament).
+- Say when you are tired or cannot see; a slipping retractor is dangerous.
+!senior Senior's pearl
+When you are lost, stop and go back to something you know. Enlarge the exposure, find a landmark you are sure of, and dissect from known to unknown. The dangerous moment is pushing on in the wrong plane because you think you are nearly there.
+!!
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+A meta-analysis of 14 randomised trials (2,541 patients) found skin incisions made with cutting diathermy were quicker and bled less than scalpel incisions, without more wound complications or pain (Ly et al., *Br J Surg* 2012). In a study of video-rated operative skill, surgeons in the lowest quartile of technical skill had nearly three times the complication rate of those in the highest quartile (14.5% vs 5.2%), showing that how tissue is handled affects outcomes (Birkmeyer et al., *N Engl J Med* 2013).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Halsted's principles.**
+- **Sharp versus blunt** dissection.
+- **Planes** of the neck and how to find them.
+- **How to find and protect a nerve.**
+!!
+## Skills to sign off
+!skills
+- Hold tissue with toothed forceps without crushing {day}
+- Assist with traction, suction and cutting sutures {day}
+- Raise subplatysmal flaps in the neck {junior}
+- Elevate subperichondrial and subperiosteal flaps {junior}
+- Identify and follow the facial, recurrent laryngeal and accessory nerves {senior}
+!!
+## Common pitfalls
+!pit
+- Dissecting without traction and countertraction.
+- Cutting tissue you have not seen.
+- Crushing tissue with non-toothed forceps.
+- Pushing on in the wrong plane.
+!!

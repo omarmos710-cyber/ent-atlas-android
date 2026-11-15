@@ -1,0 +1,76 @@
+@stand Surgical skill is learned, not inherited, and it is learned most efficiently by deliberate practice: focused repetition of a defined task at the edge of your ability, with immediate feedback, until it becomes automatic. Theatre time in training is limited and patients should not be the first place you try a manoeuvre. The temporal bone lab, knot board, sinus model, virtual reality simulator, video of your own operations and mental rehearsal at home all build the skill so that theatre time is spent refining it.
+@src Oxford Textbook of Otolaryngology; Royal College of Surgeons and ENT curriculum guidance; the literature
+
+# How skill is learned | From thinking to automatic.
+## The three stages {day}
+- **Cognitive:** you understand the steps and think about each movement; slow, error-prone, exhausting.
+- **Associative:** the steps link up; fewer errors, but you still need attention for each part.
+- **Autonomous:** the movement runs without conscious thought, so your attention is free for the anatomy, the bleeding and the team.
+The aim of practice outside theatre is to reach the autonomous stage for basic tasks (knots, instrument handling, drilling strokes, holding a scope) before you are asked to do them on a patient.
+## Deliberate practice {day}
+- Break the operation into tasks and practise the one you are worst at, not the one you enjoy.
+- Set a specific goal for each session ("ten square one-handed ties with the left hand under 60 seconds").
+- Get feedback: from a trainer, a video, a simulator score, or a checklist.
+- Practise a little often rather than a lot rarely.
+
+# Where to practise | Simulation for ENT.
+## The skills you can build outside theatre {day}
+!table Simulation in ENT
+Skill | How to practise
+Knots and suturing | Knot board, suture pads, pigs' feet; time yourself
+Microscope and microsurgery | Practising under the microscope with grains of rice, folding paper, cutting a grape skin; microvascular courses on chicken thigh vessels
+Temporal bone drilling | Cadaveric temporal bone lab, 3D-printed bones, virtual reality simulators
+Endoscopic sinus surgery | Sinus models, cadaver heads, sheep heads; scope handling with a box trainer
+Airway | Airway mannequins for rigid bronchoscopy and foreign bodies; front-of-neck access kits
+Flaps | Pig's feet and skin models for local flaps
+Teamwork and crises | High-fidelity simulation of airway fire, carotid blowout, can't intubate can't oxygenate
+!!
+## In the temporal bone lab {junior}
+Dissect with a plan: cortical mastoidectomy, then posterior tympanotomy, labyrinthectomy and facial nerve decompression, identifying each landmark in order. Drill one bone fully rather than many bones partly, and dissect the same steps you will be asked to do next in theatre.
+## Mental rehearsal {day}
+The night before an operation, close your eyes and walk through it step by step: the position, the incision, each landmark, the dangers and what you will do if they happen. Surgeons and athletes who rehearse mentally perform better and more calmly. This app's Theatre section ("Scrub in" and "What comes next?") is built for this.
+## Using video {junior}
+Watch expert videos of the operation before the case, and record your own (with consent and according to local policy) to watch afterwards with a trainer. Seeing your own wasted movements is the fastest way to remove them.
+
+# In theatre | Making the most of each case.
+## Before, during and after {day}
+!how One case, three conversations
+1. **Before:** read the chapter, rehearse it, and agree with your trainer which part you will do and what you want to learn.
+2. **During:** ask for the step you agreed, say what you are going to do before you do it, and accept being stopped.
+3. **After:** ask for one thing you did well and one to improve, record it, and log the case with your role.
+!!
+!senior Senior's pearl
+The best trainees prepare so thoroughly that the trainer only has to watch. Know the steps, the instruments and the dangers before you ask for the knife.
+!!
+## Learning curves {junior}
+Every operation has a learning curve: complication rates and operating time fall as the number of cases rises, then plateau. Recognise where you are on the curve for each operation, and stay supervised until you are past its steep part.
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+A meta-analysis found that virtual reality temporal bone simulation improved trainees' mastoidectomy performance (standardised mean difference 0.87) (Lui et al., *Otolaryngol Head Neck Surg* 2017). A systematic review identified 64 otolaryngology simulators (temporal bone, larynx and pharynx, sinus surgery), most with some validation but few with evidence of transfer to patient outcomes (Musbahi et al., *J Surg Educ* 2017). In another specialty, video-rated technical skill strongly predicted complication rates, supporting deliberate skills training (Birkmeyer et al., *N Engl J Med* 2013).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Stages** of motor learning and deliberate practice.
+- **Simulation** options in ENT and their evidence.
+- **Learning curves** and supervision.
+- **How to get feedback** in theatre.
+!!
+## Skills to sign off
+!skills
+- Tie ten one-handed square knots with each hand in under a minute {day}
+- Complete a cortical mastoidectomy on a temporal bone with all landmarks {junior}
+- Complete a sinus dissection on a model or cadaver {junior}
+- Rehearse each operation mentally before the list {day}
+- Review a video of my own operation with a trainer {junior}
+!!
+## Common pitfalls
+!pit
+- Practising only what you are already good at.
+- Arriving in theatre without having read or rehearsed the operation.
+- No feedback after the case.
+- Logging cases without reflecting on them.
+!!

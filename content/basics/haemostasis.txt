@@ -1,0 +1,85 @@
+@stand In the head and neck, blood is the enemy of vision. A few millilitres in the nose or middle ear hide the landmarks, and the field is close to the airway, so bleeding is both a technical and a safety problem. Good haemostasis starts before the incision (stopping anticoagulants, positioning, anaesthesia, vasoconstriction), continues with careful technique, and ends with a dry wound before closure. Knowing the full range of methods, from pressure to tranexamic acid, lets you choose the least damaging one that works.
+@src Oxford Textbook of Otolaryngology; Oxford Handbook of ENT; K. J. Lee; Myers; NICE NG24 (blood transfusion); the literature
+
+# Before the knife | Preventing bleeding.
+## Preparation {junior}
+- **Medicines:** stop or bridge anticoagulants and antiplatelets according to the bleeding risk of the operation and the reason for the drug (see the pre-operative assessment chapter); ask about herbal supplements (ginkgo, garlic, fish oil) and non-steroidal drugs.
+- **History:** easy bruising, heavy periods, bleeding after dental extraction or previous surgery, and family history suggest a bleeding disorder (von Willebrand disease is the commonest); test before elective surgery if the history is positive.
+- **Position:** head up 15 to 20 degrees for sinus, skull base and thyroid surgery.
+- **Anaesthesia:** controlled low-normal blood pressure, a slow heart rate, normocapnia, and total intravenous anaesthesia for endoscopic sinus surgery.
+- **Vasoconstriction:** topical adrenaline (1:1,000 to 1:10,000 on patties) or cocaine in the nose, and local anaesthetic with adrenaline (1:80,000 to 1:200,000) injected into the field, waiting 10 minutes for the effect.
+
+# During the operation | Methods from simple to strong.
+## The haemostasis ladder {day}
+!ladder
+Pressure | Firm pressure with a swab or patty for 2 to 5 minutes stops most capillary and venous oozing
+Position and patience | Head up, warm saline irrigation (about 40 degrees) in the nose and ear
+Diathermy | Bipolar for precision near nerves; monopolar or suction diathermy for larger raw surfaces
+Clips and ties | For named vessels: clip, tie in continuity, transfix large vessels and pedicles
+Sutures | Figure-of-eight or under-running suture for a bleeder in a tissue bed
+Topical agents | Oxidised cellulose, gelatin sponge, gelatin-thrombin matrix, bone wax
+Systemic | Tranexamic acid; correct coagulation; blood products
+Vessel control | Ligation or embolisation of the feeding artery
+!!
+## Topical haemostats {junior}
+!table Topical agents
+Agent | Examples | How it works | Uses and cautions
+Oxidised regenerated cellulose | Surgicel | A scaffold for clot; acidic, mildly antibacterial | Oozing beds (thyroid, tonsil, sinus); swells, avoid in tight bony canals near nerves
+Gelatin sponge | Gelfoam, Spongostan | Absorbs blood and provides a matrix | Middle ear packing, sinus, dural support
+Gelatin-thrombin matrix | Floseal, Surgiflo | Granules plus thrombin; fill irregular surfaces | Sinus and skull base bleeding, especially from mucosa and bone
+Bone wax | | Plugs bone channels mechanically | Bleeding from bone, emissary veins in the mastoid; keep small, it is a foreign body
+Adrenaline | Patties 1:1,000 to 1:10,000 | Vasoconstriction | Nose, ear; watch the heart rate and rhythm
+!!
+!how Controlling a bleeder you cannot see
+1. Press with a swab or finger to stop the bleeding.
+2. Tell the anaesthetist and ask for suction and a second suction if needed.
+3. Improve the exposure (retraction, light, enlarge the incision).
+4. Release slowly while suctioning, find the point, and pick it up precisely with forceps or a clip.
+5. Coagulate, clip or tie only what you can see; never clip or diathermy blindly in a pool of blood.
+!!
+!danger Blind clipping
+Blind clips and diathermy in the neck injure the recurrent laryngeal, vagus, hypoglossal and accessory nerves and tear larger vessels. Pressure first, then see, then control.
+!!
+
+# Blood loss | Measuring and replacing it.
+## Estimating loss {junior}
+Weigh swabs (1 g roughly equals 1 ml), measure suction (subtracting irrigation) and look at the drapes. In children, small volumes matter: blood volume is about 80 ml per kilogram (about 85 to 90 ml/kg in neonates), so a 15 kg child has about 1,200 ml, and 120 ml is 10% of it.
+## Transfusion {junior}
+Most patients tolerate a haemoglobin of 70 g/L (80 g/L in cardiovascular disease, often higher in head and neck free flap patients by local policy). Give tranexamic acid early when bleeding is significant. Massive haemorrhage is covered in the theatre emergencies chapter.
+
+# Before closing | The dry field.
+## Checking haemostasis {day}
+Before closure, ask the anaesthetist to bring the blood pressure back to normal and, in the neck, to perform a Valsalva manoeuvre (raising venous pressure to reveal open veins). Irrigate, wait, look again. Place a drain where dead space or oozing remains.
+!senior Senior's pearl
+The wound will bleed at the blood pressure the patient has in recovery, not the one they had under hypotensive anaesthesia. Test it at normal pressure before you close.
+!!
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+In endoscopic sinus surgery, tranexamic acid reduced blood loss and operating time and improved the surgical field without more thrombotic events (Kim et al., *Laryngoscope* 2019), and total intravenous anaesthesia gave a better field and less blood loss than inhalational anaesthesia in a meta-analysis of 15 trials (Lu et al., *Laryngoscope* 2020). In tonsillectomy, pooled data from ten studies showed tranexamic acid reduced intraoperative blood loss and post-operative haemorrhage (risk ratio 0.42), although higher-quality trials are still needed (Kuo et al., *Ann Otol Rhinol Laryngol* 2022).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Pre-operative** assessment of bleeding risk.
+- **Methods** of haemostasis, from pressure to ligation.
+- **Topical agents** and when to use them.
+- **Improving the field** in sinus surgery.
+- **Blood volume** and transfusion thresholds.
+!!
+## Skills to sign off
+!skills
+- Use pressure, bipolar and clips to control bleeding in a clear field {day}
+- Choose and use topical haemostats {junior}
+- Control a bleeding vessel in the neck under pressure without blind clipping {junior}
+- Optimise the field in sinus surgery with the anaesthetist {senior}
+!!
+## Common pitfalls
+!pit
+- Clipping or diathermying blindly in a pool of blood.
+- Closing at low blood pressure without a Valsalva test.
+- Bone wax in excess.
+- Forgetting how little blood a small child can lose.
+!!

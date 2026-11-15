@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="Helvetica, Arial, sans-serif">
+<rect width="600" height="400" fill="#FBFAF7"/>
+<text x="20" y="34" font-size="22" font-weight="700" fill="#1F2A33">Scalpel blades you will ask for</text>
+<g fill="#D6DDE3" stroke="#5B6670" stroke-width="2">
+<path d="M40 110 L150 110 Q 200 110 215 128 Q 190 140 150 140 L40 140 Z"/>
+<path d="M40 190 L150 190 L215 205 L150 220 L40 220 Z"/>
+<path d="M40 280 L140 280 Q 205 272 215 248 Q 222 280 180 300 L140 310 L40 310 Z"/>
+<path d="M40 350 L160 350 Q 185 350 192 362 Q 180 372 160 372 L40 372 Z"/>
+</g>
+<g font-size="15" fill="#1F2A33">
+<text x="250" y="120" font-weight="700">No. 10</text><text x="250" y="140">large curved belly: long skin incisions</text>
+<text x="250" y="200" font-weight="700">No. 11</text><text x="250" y="220">pointed: stab incisions, drains, abscesses,</text><text x="250" y="238">tracheostomy window</text>
+<text x="250" y="280" font-weight="700">No. 12</text><text x="250" y="300">hooked: palate and pharynx</text>
+<text x="250" y="360" font-weight="700">No. 15</text><text x="250" y="380">small belly: face, ear, fine skin incisions</text>
+</g>
+</svg>

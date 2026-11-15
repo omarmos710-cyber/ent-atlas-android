@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 470" font-family="Helvetica, Arial, sans-serif">
+<rect width="600" height="470" fill="#FBFAF7"/>
+<text x="20" y="34" font-size="22" font-weight="700" fill="#1F2A33">Blocking the ear: four nerves</text>
+<path d="M260 90 C 360 70, 400 170, 370 250 C 350 300, 330 330, 320 370 C 312 405, 270 410, 262 380 C 255 350, 280 330, 275 300 C 268 260, 230 250, 225 200 C 220 140, 225 100, 260 90 Z" fill="#F1D9C4" stroke="#B9967A" stroke-width="2"/>
+<path d="M265 120 C 330 110, 350 180, 330 240 C 318 275, 300 290, 290 300" fill="none" stroke="#B9967A" stroke-width="2"/>
+<ellipse cx="280" cy="240" rx="22" ry="30" fill="#E2BFA3" stroke="#B9967A"/>
+<circle cx="276" cy="244" r="8" fill="#7A5A40"/>
+<!-- injection points -->
+<g fill="#B5454D"><circle cx="215" cy="160" r="9"/><circle cx="232" cy="310" r="9"/><circle cx="392" cy="190" r="9"/><circle cx="340" cy="360" r="9"/><circle cx="276" cy="226" r="6"/></g>
+<g font-size="14.5" fill="#1F2A33">
+<line x1="215" y1="160" x2="180" y2="142" stroke="#1F2A33"/><text x="20" y="100" font-weight="700">Auriculotemporal</text><text x="20" y="118">front of the helix and</text><text x="20" y="136">upper canal (V3)</text>
+<line x1="232" y1="310" x2="120" y2="330" stroke="#1F2A33"/><text x="20" y="320" font-weight="700">Tragus and</text><text x="20" y="338">anterior canal</text>
+<line x1="392" y1="190" x2="425" y2="165" stroke="#1F2A33"/><text x="430" y="120" font-weight="700">Lesser occipital</text><text x="430" y="138">upper back of</text><text x="430" y="156">the pinna (C2)</text>
+<line x1="340" y1="360" x2="430" y2="380" stroke="#1F2A33"/><text x="430" y="372" font-weight="700">Great auricular</text><text x="430" y="390">lobule and lower</text><text x="430" y="408">back (C2, C3)</text>
+<line x1="276" y1="226" x2="200" y2="210" stroke="#1F2A33"/><text x="20" y="210" font-weight="700">Arnold's nerve</text><text x="20" y="228">(vagus) posterior canal:</text><text x="20" y="246">four-quadrant canal block</text>
+</g>
+<text x="20" y="455" font-size="14.5" fill="#5B6670">Ring block around the pinna, plus the canal at the bony-cartilaginous junction.</text>
+</svg>

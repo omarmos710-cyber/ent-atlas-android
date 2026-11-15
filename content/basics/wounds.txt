@@ -1,0 +1,83 @@
+@stand Every wound heals by the same sequence (clot, inflammation, new tissue, remodelling), and almost every wound problem comes from something that interferes with it: infection, tension, a haematoma, poor blood supply, radiotherapy, smoking, diabetes or steroids. Head and neck surgeons meet all of these, often in the same patient. Understanding healing tells you when to remove sutures, why an irradiated neck breaks down, why a keloid comes back, and what to tell a patient about their scar.
+@src Oxford Textbook of Otolaryngology; K. J. Lee; Bailey and Love principles; the literature
+
+# How wounds heal | Four overlapping phases.
+## The phases {day}
+!dr healing | The phases of wound healing and the strength of the scar over time.
+- **Haemostasis:** platelets and fibrin seal the wound within minutes and release growth factors.
+- **Inflammation (days 0 to 5):** neutrophils clear bacteria; macrophages, the key cells, clear debris and drive the next phase.
+- **Proliferation (day 3 to week 3):** fibroblasts lay down collagen (type III first), new vessels form granulation tissue, epithelium covers the surface (within 48 hours in a sutured wound), and myofibroblasts contract the wound.
+- **Remodelling (week 3 to a year or more):** type III collagen is replaced by stronger type I, cross-linked along lines of stress; the scar flattens and fades.
+A wound has only about 20% of its final strength at 3 weeks, and never regains more than about 80% of the strength of normal skin.
+## Primary, secondary and delayed closure {day}
+- **Primary intention:** edges brought together (most surgical wounds); quick, small scar.
+- **Secondary intention:** left open to granulate and contract (infected cavities, some concave facial defects such as the medial canthus and conchal bowl, which heal well this way).
+- **Delayed primary closure:** left open for a few days (contaminated wounds, bites) then closed.
+## Mucosa heals differently {day}
+Oral and nasal mucosa heal faster and with less scarring than skin, which is why rapidly absorbed sutures are enough there. But the mouth is contaminated, and saliva in a neck wound after pharyngeal surgery means a fistula until proven otherwise.
+
+# What gets in the way | Local and general factors.
+## Factors that impair healing {day}
+!table Factors that impair healing
+Local | General
+Infection | Smoking
+Haematoma and seroma | Diabetes
+Tension | Corticosteroids and immunosuppression
+Poor blood supply, tight sutures | Malnutrition, low albumin, vitamin C and zinc deficiency
+Previous radiotherapy | Age
+Foreign bodies, dead tissue | Anaemia, jaundice, uraemia
+Movement | Chemotherapy
+!!
+!danger The irradiated neck
+Radiotherapy causes progressive small-vessel damage (endarteritis), fibrosis and low oxygen in the tissue for life. Wounds heal slowly, flaps fail, fistulas form after pharyngeal surgery, and the carotid may be exposed if the skin breaks down. Plan incisions carefully, bring in vascularised tissue (a pectoralis major or free flap) and expect complications.
+!!
+
+# Scars | What the patient sees.
+## Hypertrophic scars and keloids {junior}
+!table Two kinds of raised scar
+Feature | Hypertrophic scar | Keloid
+Extent | Stays within the wound | Grows beyond the wound into normal skin
+Timing | Weeks after injury | Months, may keep growing
+Course | Often improves over 1 to 2 years | Rarely regresses; recurs after excision alone
+Sites | Across tension lines, over joints | Earlobes (piercing), jaw line, chest, shoulders
+Who | Anyone | Darker skin, family history, aged 10 to 30
+!!
+## Managing scars {junior}
+- **Prevention:** tension-free closure in skin creases, eversion, early suture removal on the face, sun protection for a year, silicone gel or sheets, massage after 2 to 3 weeks.
+- **Hypertrophic scars:** silicone, pressure, intralesional triamcinolone; revision if still poor after a year.
+- **Keloids:** intralesional triamcinolone (10 to 40 mg/ml every 4 to 6 weeks), excision (intramarginal, leaving a rim of keloid) combined with steroid injection or post-operative radiotherapy, pressure earrings for earlobe keloids, cryotherapy, 5-fluorouracil.
+!senior Senior's pearl
+Never excise a keloid without a plan to stop it coming back. Excision alone recurs in most cases and the new keloid is often bigger.
+!!
+## Removing sutures {day}
+Face 5 days, neck 5 to 7 days, scalp 7 to 10 days, and longer in irradiated tissue, steroids or tension. Support the wound with adhesive strips after removal.
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+A meta-analysis of 140 cohort studies (479,150 patients) found smokers had more wound necrosis (odds ratio 3.60), delayed healing and dehiscence (2.07) and wound infection (1.79) than non-smokers; stopping smoking before surgery reduced wound infection in randomised trials (odds ratio 0.43) (Sørensen, *Arch Surg* 2012). For ear keloids, a meta-analysis of 25 studies found recurrence after excision of about 15% with triamcinolone, similar to excision with radiotherapy (Shin et al., *Plast Reconstr Surg* 2016). A Cochrane review found silicone gel sheeting may help prevent abnormal scarring in high-risk patients, but the evidence is of poor quality (O'Brien et al., *Cochrane Database Syst Rev* 2013).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Phases of healing** and the cells involved.
+- **Factors** affecting healing, especially radiotherapy and smoking.
+- **Hypertrophic scar versus keloid.**
+- **Management of a keloid** of the earlobe.
+- **Suture removal times.**
+!!
+## Skills to sign off
+!skills
+- Remove sutures at the right time and support the wound {day}
+- Assess a wound for infection, dehiscence or haematoma {day}
+- Inject a keloid with triamcinolone {junior}
+- Plan excision and adjuvant treatment of an earlobe keloid {senior}
+!!
+## Common pitfalls
+!pit
+- Excising a keloid without adjuvant treatment.
+- Ignoring smoking before elective surgery.
+- Assuming an irradiated neck will heal like a normal one.
+- Leaving facial sutures too long.
+!!
