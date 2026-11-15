@@ -65,22 +65,16 @@
   "l": "CC BY-SA 4.0",
   "u": "https://commons.wikimedia.org/wiki/File:Hartman%27s_Aural_Forceps_ENT_Instrument_Medical.jpg"
  },
- "ent_set1": {
-  "t": "File:ENT surgery instruments 01.JPG",
+ "ent_set5": {
+  "t": "File:ENT surgery instruments 05.JPG",
   "a": "Netha Hussain",
   "l": "CC BY-SA 3.0",
-  "u": "https://commons.wikimedia.org/wiki/File:ENT_surgery_instruments_01.JPG"
+  "u": "https://commons.wikimedia.org/wiki/File:ENT_surgery_instruments_05.JPG"
  },
- "ent_set2": {
-  "t": "File:ENT surgery instruments 02.JPG",
-  "a": "Netha Hussain",
-  "l": "CC BY-SA 3.0",
-  "u": "https://commons.wikimedia.org/wiki/File:ENT_surgery_instruments_02.JPG"
- },
- "ent_set4": {
-  "t": "File:ENT surgery instruments 04.JPG",
-  "a": "Netha Hussain",
-  "l": "CC BY-SA 3.0",
-  "u": "https://commons.wikimedia.org/wiki/File:ENT_surgery_instruments_04.JPG"
+ "metzenbaum": {
+  "t": "File:Metzenbaum scissors 04.jpg",
+  "a": "Saltanat ebli",
+  "l": "CC0",
+  "u": "https://commons.wikimedia.org/wiki/File:Metzenbaum_scissors_04.jpg"
  }
 }

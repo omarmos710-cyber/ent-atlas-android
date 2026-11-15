@@ -479,7 +479,8 @@ def build_basics():
         rec = {'h': h, 'stand': meta['stand'], 'ch': meta['ch'], 'w': meta['w'], 'n': meta['n'], 'sk': meta.get('sk', 0), 'src': meta.get('src', '')}
         with open(os.path.join(BASOUT, cid + '.js'), 'w', encoding='utf-8') as o:
             o.write('(window.THB=window.THB||{})[%s]=%s;\n' % (json.dumps(cid), json.dumps(rec, ensure_ascii=False)))
-        parts[-1]['c'].append({'id': cid, 't': t, 'lv': lv, 'w': meta['w'], 'sk': meta.get('sk', 0), 'one': plain(meta['stand']).split('. ')[0] + '.'})
+        heads = [html.unescape(re.sub(r'<[^>]+>', '', x)).strip() for x in re.findall(r'<h3>(.*?)(?:<span class="lv|</h3>)', h)]
+        parts[-1]['c'].append({'id': cid, 't': t, 'lv': lv, 'w': meta['w'], 'sk': meta.get('sk', 0), 'one': plain(meta['stand']).split('. ')[0] + '.', 'k': ' · '.join(heads)})
         ids.append(cid)
         print('basics %-10s %5d words  %2d chapters  %2d skills  %2d figures' % (cid, meta['w'], len(meta['ch']), meta.get('sk', 0), len(meta['figs'])))
     with open(os.path.join(BASOUT, 'index.js'), 'w', encoding='utf-8') as o:

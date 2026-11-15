@@ -118,3 +118,4 @@ body.thm #view{padding-top:0}
 .ardr .arimg{background:#FBFAF7;border-radius:12px}
 .ardr .arimg img{object-fit:contain}
 .bnav{flex-wrap:wrap}.bnav .thbtn{display:inline-flex;align-items:center;justify-content:center;gap:6px;font-size:13px}
+.thfoot.bnav{position:static!important;background:none;margin:24px 0 8px}
