@@ -34,8 +34,8 @@ function regFig(n,f){const k=`m/${n}_${f[0]}`;if(!FIG[k])FIG[k]=[f[1],"M",f[2],"
 const thumb=k=>"fig2/t/"+k+".jpg";
 function dock(){let d=$("#thdock");if(!d){document.body.insertAdjacentHTML("beforeend",`<nav id="thdock" aria-label="Theatre">${[["home","home","Theatre"],["lib","lib","Library"],["dz","dz","Danger"],["reh","reh","Rehearse"],["log","log","Logbook"]].map(([r,i,t])=>`<button data-go="th:${r}">${ic(i)}<span>${t}</span></button>`).join("")}</nav>`);d=$("#thdock")}
  const a=(window._thcur||"home").split("-")[0],m={op:"lib",play:"lib",stage:"home",sec:"lib",zone:"dz",r:"reh"}[a]||a;d.querySelectorAll("button").forEach(b=>b.setAttribute("aria-current",String(b.dataset.go==="th:"+m)))}
-const SUBS=[["home","Theatre"],["lib","Library"],["dz","Danger"],["reh","Rehearse"],["log","Logbook"]];
-const subnav=()=>{const a=(window._thcur||"home").split("-")[0],m={op:"lib",play:"lib",stage:"home",sec:"lib",zone:"dz",r:"reh"}[a]||a;return `<nav class="thsub" aria-label="Theatre sections">${SUBS.map(([r,t])=>`<button data-go="th:${r}" aria-current="${r===m}">${t}</button>`).join("")}</nav>`};
+const SUBS=[["home","Theatre"],["basics","Basics"],["lib","Library"],["dz","Danger"],["reh","Rehearse"],["log","Logbook"]];
+const subnav=()=>{const a=(window._thcur||"home").split("-")[0],m={op:"lib",play:"lib",stage:"home",sec:"lib",zone:"dz",r:"reh",b:"basics"}[a]||a;return `<nav class="thsub" aria-label="Theatre sections">${SUBS.map(([r,t])=>`<button data-go="th:${r}" aria-current="${r===m}">${t}</button>`).join("")}</nav>`};
 const bar=(title,back)=>back?`<div class="thbar"><button class="thic" data-go="${back}" aria-label="Back">${ic("bk")}</button><span class="thmark">${e(title||"Theatre")}</span><span class="sp"></span></div>`:subnav();
 const row=(a,n,t,s,tag)=>`<button class="throw" ${a}>${n!=null?`<span class="thn">${n}</span>`:""}<span class="m"><b>${e(t)}</b>${s?`<small>${e(s)}</small>`:""}</span>${tag||""}${ic("ch",16)}</button>`;
 const tierTag=c=>c.a?`<span class="thtag">Guide</span>`:"";
@@ -48,6 +48,7 @@ function vHome(){const t=TH(),last=t.last&&BY[t.last],guides=CH.filter(c=>c.a),d
  return `<div class="thwrap">${bar("Theatre")}<span class="eyebrow mey">Surgical</span><h1 class="thh1">Scrub in.</h1>
  <button class="mhero" data-go="th:${cs.a?"play":"op"}-${cs.n}"><span class="eyebrow">${last?"Continue":"Today's case"}</span><strong>${e(cs.t)}</strong><span class="mhs">${last?e(last.s):"Walk through it step by step, then test yourself"}</span></button>
  ${last?`<div class="mrows"><button class="mrow" data-go="th:${day.a?"play":"op"}-${day.n}"><span class="mn">${ic("ops",15)}</span><span class="mt">${e(day.t)}<small>Today's case</small></span></button></div>`:""}
+ <div class="mrows"><button class="mrow" data-go="th:basics"><span class="mn">${ic("lib",15)}</span><span class="mt">Surgical basics<small>From first scrub to specialist: theatre, skills, perioperative care, crises</small></span></button></div>
  <h2 class="msec">Training ladder</h2><div class="mrows">${D.stages.map((s,i)=>`<button class="mrow" data-go="th:stage-${i}"><span class="mn">${i+1}</span><span class="mt">${e(s.t)}<small>${s.c.length} operations</small></span></button>`).join("")}</div>
  <h2 class="msec">By region <small>${CH.length} operations · ${guides.length} full guides</small></h2>
  ${window.fold?fold("th-reg","All regions",`${D.secs.length}`,`<div class="mrows">${D.secs.map((s,i)=>`<button class="mrow" data-go="th:sec-${i}"><span class="mt">${e(s)}<small>${CH.filter(c=>c.s===s).length} operations</small></span></button>`).join("")}</div>`):""}
@@ -119,11 +120,46 @@ async function vR(arg){await needAuth();const p=arg.split("-"),m=p[1],o=p[2];if(
  return vReh()}
 function vLog(){const t=TH(),rows=Object.keys(t.log).filter(n=>BY[n]);let o=0,a=0,p=0;rows.forEach(n=>{const l=t.log[n];o+=l.o||0;a+=l.a||0;p+=l.p||0});
  return `<div class="thwrap">${bar("Logbook")}<h1 class="thh1">Logbook</h1><div class="thnum"><div><b>${o}</b><small>observed</small></div><div><b>${a}</b><small>assisted</small></div><div><b>${p}</b><small>performed</small></div></div>${rows.length?`<div class="thlist">${rows.map(n=>opRow(BY[n])).join("")}</div>`:`<p class="thlede">Open any operation and use its Log tab to count your cases. Your supervisor's sign-off stays with your official logbook.</p>`}${typeof caches!=="undefined"&&location.protocol==="https:"&&!/appassets/.test(location.host)?`<h2 class="thh2">Offline</h2><p class="thlede">On the web version, figures download as you open them. You can save them all now (about 65 MB).</p><div class="thacts"><button class="thbtn" id="thsave">Save figures for offline</button></div>`:""}</div>`}
+
+/* Surgical basics: a from-scratch course, from the first day in theatre to specialist level */
+const LV={day:"Day one",junior:"Junior",senior:"Senior",spec:"Specialist"};
+const BS=()=>{ST.thb=ST.thb||{};ST.sk=ST.sk||{};return ST};
+let BLV="all";
+async function needBIdx(){if(!window.THB_IDX)await load("theatre/basics/index.js");return window.THB_IDX}
+async function needB(id){if(!(window.THB||{})[id])await load(`theatre/basics/${id}.js`);return window.THB[id]}
+function bStats(P){const all=P.flatMap(p=>p.c),ready=all.filter(c=>!c.soon),st=BS();const read=ready.filter(c=>st.thb[c.id]).length,skT=ready.reduce((a,c)=>a+(c.sk||0),0);
+ let skD=0;ready.forEach(c=>{for(let i=0;i<(c.sk||0);i++)if(st.sk[c.id+":"+i])skD++});return {all,ready,read,skT,skD}}
+async function vBasics(){const P=await needBIdx(),S=bStats(P),st=BS();
+ const lvOk=c=>BLV==="all"||c.lv===BLV;
+ return `<div class="thwrap">${bar("Basics")}<span class="eyebrow mey">Surgical basics</span><h1 class="thh1">From first scrub to specialist.</h1>
+ <p class="thlede">Everything around the operation: the theatre, the tools, the hands-on skills, the patient before and after, crises, and running your own list. Each chapter is tagged by level, so read what fits your stage now and come back as you grow.</p>
+ <div class="thnum"><div><b>${S.read}<small>/${S.ready.length}</small></b><small>chapters read</small></div><div><b>${S.skD}<small>/${S.skT}</small></b><small>skills signed off</small></div></div>
+ <div class="thchips">${[["all","All levels"]].concat(Object.entries(LV)).map(([k,t])=>`<button data-thblv="${k}" aria-pressed="${BLV===k}">${t}</button>`).join("")}</div>
+ ${P.map((p,i)=>{const L=p.c.filter(lvOk);if(!L.length)return "";return `<h2 class="msec"><span class="bpn">Part ${i+1}</span>${e(p.t)}<small>${e(p.d)}</small></h2><div class="thlist">${L.map(c=>{const done=st.thb[c.id];let sd=0;for(let j=0;j<(c.sk||0);j++)if(st.sk[c.id+":"+j])sd++;
+  return c.soon?`<div class="throw soon"><span class="m"><b>${e(c.t)}</b><small>Being written</small></span><span class="lv lv-${c.lv}">${LV[c.lv]}</span></div>`
+  :row(`data-go="th:b-${c.id}"`,null,c.t,`${Math.max(4,Math.round(c.w/220))} min${c.sk?` · ${sd}/${c.sk} skills`:""}${done?" · read":""}`,`<span class="lv lv-${c.lv}">${LV[c.lv]}</span>`)}).join("")}</div>`}).join("")}
+ <p class="thnote" style="margin-top:28px">Written for this app from the Oxford ENT texts, K. J. Lee, Dhingra, national guidelines and peer-reviewed literature. Photos from Wikimedia Commons, credited under each one. Follow your own hospital's protocols.</p></div>`}
+async function vBas(id){const P=await needBIdx(),c=P.flatMap(p=>p.c).find(x=>x.id===id);if(!c||c.soon)return vBasics();const a=await needB(id);
+ const all=P.flatMap(p=>p.c).filter(x=>!x.soon),i=all.findIndex(x=>x.id===id),nx=all[i+1],pv=all[i-1];
+ const ch=a.ch.map((x,j)=>({id:"a-c"+(j+1),n:j+1,t:x}));
+ setTimeout(bArmSk,0);
+ return `<div class="thwrap">${bar("Surgical basics","th:basics")}<span class="theb"><span class="lv lv-${c.lv}">${LV[c.lv]}</span></span><h1 class="thh1">${e(c.t)}</h1>
+ <div class="arw thart"><div class="armeta"><span><b>Reading</b> about ${Math.max(4,Math.round(a.w/220))} min</span>${a.sk?`<span><b>Skills</b> ${a.sk}</span>`:""}<span><b>Sources</b> ${e(a.src||"Oxford ENT texts, K. J. Lee, Dhingra, guidelines and the literature")}</span></div>
+ <nav class="artoc" aria-label="Chapters"><ol>${ch.map(x=>`<li data-c="${x.id}"><button type="button" data-artgo="${x.id}"><i>${x.n}</i>${e(x.t)}</button></li>`).join("")}</ol></nav>
+ ${a.stand?`<p class="arstand">${md(a.stand)}</p>`:""}<div class="arart">${a.h}</div>
+ <p class="clsrc">Written for this app. Photos are from Wikimedia Commons under the licence shown with each; drawings are original. Study reference only: follow your hospital's protocols and your seniors.</p></div>
+ <div class="thfoot bnav">${pv?`<button class="thbtn" data-go="th:b-${pv.id}">${ic("bk",16)} ${e(pv.t)}</button>`:"<span></span>"}${nx?`<button class="thbtn p" data-go="th:b-${nx.id}">${e(nx.t)} ${ic("ch",16)}</button>`:""}</div></div>`}
+function bArmSk(){const st=BS();document.querySelectorAll(".thart [data-sk]").forEach(b=>{const on=!!st.sk[b.dataset.sk];b.setAttribute("aria-pressed",on);b.classList.toggle("on",on)})}
+document.addEventListener("click",ev=>{if(!document.body.classList.contains("thm"))return;const b=ev.target.closest("[data-sk],[data-thblv]");if(!b)return;ev.preventDefault();ev.stopPropagation();
+ if(b.dataset.thblv){BLV=b.dataset.thblv;render("basics");return}
+ const st=BS(),k=b.dataset.sk;if(st.sk[k])delete st.sk[k];else st.sk[k]=Date.now();save();bArmSk()},true);
+window.addEventListener("scroll",()=>{const c=window._thcur||"";if(!document.body.classList.contains("thm")||!/^b-/.test(c))return;const id=c.slice(2),st=BS();if(st.thb[id])return;
+ const de=document.documentElement;if(de.scrollHeight>1.5*innerHeight&&scrollY+innerHeight>=de.scrollHeight*0.9){st.thb[id]=Date.now();save()}},{passive:true});
 let tok=0;
 async function render(arg){arg=arg||"home";window._thcur=arg;document.body.classList.add("thm");dock();const my=++tok;const p=arg.split("-"),k=p[0];let h;
  const sync={home:vHome,lib:vLib,dz:vDz,log:vLog}[k];
  if(sync)h=sync();else{const slow=setTimeout(()=>{if(my===tok)V().innerHTML=`<div class="thspin">Preparing…</div>`},120);
-  try{if(k==="op")h=await vOp(p[1],p[2]);else if(k==="play")h=await vPlay(p[1]);else if(k==="reh"){await needAuth();h=vReh()}else if(k==="r")h=await vR(arg);else if(k==="sec")h=vSec(p[1]);else if(k==="stage")h=vStage(p[1]);else if(k==="zone")h=vZone(p[1]);else h=vHome()}catch(err){h=`<div class="thwrap">${bar("Theatre","th:home")}<h1 class="thh1">That page didn't load.</h1><p class="thlede">Check your connection if you're on the web version, then try again.</p></div>`}
+  try{if(k==="basics")h=await vBasics();else if(k==="b")h=await vBas(arg.slice(2));else if(k==="op")h=await vOp(p[1],p[2]);else if(k==="play")h=await vPlay(p[1]);else if(k==="reh"){await needAuth();h=vReh()}else if(k==="r")h=await vR(arg);else if(k==="sec")h=vSec(p[1]);else if(k==="stage")h=vStage(p[1]);else if(k==="zone")h=vZone(p[1]);else h=vHome()}catch(err){h=`<div class="thwrap">${bar("Theatre","th:home")}<h1 class="thh1">That page didn't load.</h1><p class="thlede">Check your connection if you're on the web version, then try again.</p></div>`}
   clearTimeout(slow)}
  if(my!==tok)return;V().innerHTML=h;thArm(V());if(window.clAfterTheatre)window.clAfterTheatre(arg)}
 /* chapter tabs, active-tab tracking and figure zoom for operation articles (same behaviour as clinical articles) */

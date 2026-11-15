@@ -1,0 +1,91 @@
+@stand Most harm in theatre comes from a breakdown in communication, not from a lack of skill: the wrong side, the wrong patient, a missing implant, a swab left behind, an allergy nobody mentioned. The theatre team and its checks exist to catch these errors before they reach the patient. As a new resident your first job is to know who everyone is, where to stand, and what to say at each check; as a specialist you will lead those checks and set the tone for everyone in the room.
+@src WHO Surgical Safety Checklist; NatSSIPs 2 (Centre for Perioperative Care, 2023); DAS, BAOMS and ENT UK throat pack consensus; Oxford Textbook of Otolaryngology; the literature
+
+# The people | Who does what in the room.
+## The theatre team {day}
+!table Roles in an ENT theatre
+Role | What they do | What they need from you
+Operating surgeon | Leads the operation and the team brief; marks the site; decides the plan | A clear account of the patient, consent and imaging
+Assistant | Retracts, suctions, cuts sutures, holds the camera; learns | To be told what you want before you need it
+Anaesthetist | Anaesthesia, airway, analgesia, fluids; co-leads the brief | The plan for the airway, positioning, bleeding and duration
+Anaesthetic practitioner (ODP or nurse) | Helps with induction, airway equipment and monitoring | Notice of special tubes, throat packs, nerve monitoring
+Scrub practitioner | Prepares and controls the sterile instruments; counts | Instruments named correctly, sharps handed back safely
+Circulating practitioner | Unscrubbed; opens sterile items, records counts, fetches | Early warning of what extra kit you will need
+Recovery staff | Wake-up and early post-operative care | A handover: operation, packs, drains, analgesia, concerns
+!!
+Introduce yourself to every member by name and role at the start of the day. In many units names are written on a whiteboard; use them. A team that knows each other's names speaks up more readily when something is wrong.
+## Theatre etiquette {day}
+- **Before the list:** read the list, know each patient, check consent forms, imaging, blood results and that the site is marked.
+- **Arrive early** and help with positioning; leaving the patient's transfer to others is a bad habit.
+- **In the room:** keep conversation quiet and relevant during critical steps, phone silent, and never reach over the sterile field.
+- **Ask the scrub practitioner** before helping yourself to anything on the trolley, and say "sharp" when you pass back a blade or needle.
+- **Never leave** without handing over and writing the operation note.
+## The layout for head and neck surgery {day}
+For most ENT operations the operating table is turned 90 to 180 degrees so the patient's head is away from the anaesthetic machine, with a long breathing circuit. The surgeon sits or stands at the head, the screen or microscope sits in the surgeon's line of sight, and the scrub practitioner stands on the side of the operating hand. This takes the anaesthetist away from the airway, which is why airway checks and tube security at the start matter more in ENT than in most specialties.
+!dr layout_ent | A typical layout for head and neck surgery. The anaesthetist is away from the head, so the airway must be secure before the drapes go on.
+!ph team_or | Before the list: the anaesthetist prepares lines while the scrub practitioner opens a sterile set.
+
+# The safety system | Checks that catch errors before they reach the patient.
+## The team brief {day}
+A short meeting of the whole team at the start of the list, led by the lead surgeon and lead anaesthetist. For each patient: the plan, the side, the airway, any allergies, anticoagulants, special equipment (microscope, navigation, nerve monitor, laser), implants, expected blood loss and length, and the post-operative destination. Everyone states their name and role and is invited to raise concerns.
+## The WHO surgical safety checklist {day}
+!table The three pauses
+Pause | When | Key items
+Sign in | Before induction | Identity, procedure, site and consent confirmed with the patient; site marked; anaesthetic machine and drugs checked; allergies; airway and aspiration risk; expected blood loss
+Time out | Before the incision | Team introduced; patient, procedure and site confirmed aloud; antibiotics given in the last 60 minutes; critical steps and anticipated problems from surgeon, anaesthetist and scrub practitioner; imaging displayed
+Sign out | Before anyone leaves the room | Procedure recorded; instrument, swab and needle counts correct; specimens labelled; equipment problems; key concerns for recovery
+!!
+!senior Senior's pearl
+The checklist works only if people mean it. Stop, face each other, read it aloud, and make it safe for the most junior person to say "wait". A rushed time out that nobody listens to is worse than none, because it gives false reassurance.
+!!
+## Site marking and laterality {day}
+The operating surgeon (or a delegated member of the team who will be present) marks the site with an indelible arrow before the patient leaves the ward, with the patient awake and agreeing, and checks it against the consent form and imaging. Ears, parotids, neck dissections, thyroid lobes, sinus surgery on one side and tympanostomy tubes in one ear all carry a real risk of wrong-side surgery. Mark the side even for midline operations that are done on one side of the nose.
+!danger Check the side three times
+Wrong-site surgery is a never event. Check the side against the consent form, the clinic letter and the imaging or audiogram, not against memory or the list alone. If the mark has washed off under the drapes, stop and re-check before you start.
+!!
+## Counts, packs and items left behind {junior}
+The scrub and circulating practitioners count swabs, needles, blades and instruments before the start, before closing a cavity or the skin, and at the end; the count is recorded on a board. ENT has its own hazards: nasal packs, patties and neuro-patties in the sinuses and skull base, ear wicks, gauze in the tonsil fossa, and throat packs.
+- If a count is wrong, stop closing, search the field and the floor, and get an X-ray if the item is not found.
+- **Throat packs** are no longer routine. Use one only for a reason (for example, heavy oral bleeding). When one is used, record it with at least one visual reminder (a label on the patient or the tube) and one documentary check (the count board), and confirm its removal at sign out.
+## The debrief {junior}
+At the end of the list, two minutes: what went well, what did not, equipment problems, and who will act on them. This is how a team learns.
+
+# When it goes wrong | Speaking up.
+## Speaking up {day}
+If you see a risk (a contaminated instrument, a wrong side, a drug about to be given that the patient is allergic to), say so clearly, using the person's name: "*Mr Ahmed, I'm concerned: the consent says left ear*". Graded assertiveness escalates from a question to a concern to a firm "stop" if you are not heard.
+!path Count discrepancy at closure
+Act | stop closing ; tell the surgeon and team ; search field, drapes, bins and floor
+Not found | intra-operative X-ray ; record and report
+!!
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+In the original eight-hospital WHO study, introducing the checklist cut major complications from 11.0% to 7.0% and in-hospital deaths from 1.5% to 0.8% (Haynes et al., *N Engl J Med* 2009). A meta-analysis found reductions in any complication (risk ratio 0.59), surgical site infection (0.57) and mortality (0.77), with the greatest benefit where adherence was high (Bergs et al., *Br J Surg* 2014). In 44,814 patients in 27 countries, checklist use was associated with lower mortality (odds ratio 0.49), although this may partly reflect better hospitals (Abbott et al., *Br J Anaesth* 2018). A systematic review by the Difficult Airway Society, BAOMS and ENT UK found no good evidence for routine throat packs and recommended using them only for a specific reason, with visual and documentary checks (Athanassoglou et al., *Anaesthesia* 2018).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **The three pauses** of the WHO checklist and what is checked at each.
+- **Who marks the site** and when.
+- **Counts:** when, by whom, and what to do if one is wrong.
+- **Throat pack** policy.
+- **Never events** relevant to ENT.
+!!
+## Skills to sign off
+!skills
+- Introduce myself and learn every team member's name and role {day}
+- Check consent, marking and imaging for every patient before the list {day}
+- Mark an operative site correctly {day}
+- Take part in sign in, time out and sign out {day}
+- Lead the team brief and time out {senior}
+- Lead a debrief and act on what it finds {spec}
+!!
+## Common pitfalls
+!pit
+- Treating the time out as a formality.
+- Marking the side from the theatre list instead of the notes and imaging.
+- Forgetting the throat pack or nasal patties at the end.
+- Not speaking up because you are junior.
+!!

@@ -1,0 +1,36 @@
+#! Surgical basics: parts ("= title | subtitle") and chapters ("id | title | level"). Levels: day, junior, senior, spec.
+= Your first weeks in theatre | The room, the team and the tools.
+team | The theatre team and the WHO checklist | day
+scrub | Scrubbing, gowning, gloving and the sterile field | day
+position | Positioning the ENT patient | day
+instruments | ENT instruments and trays | day
+energy | Diathermy, energy devices and lasers | junior
+optics | Microscope, endoscopes and the drill | junior
+= Core hands-on skills | What your hands must learn.
+sutures | Sutures and needles | day
+knots | Knots and wound closure | day
+incisions | Incisions in the head and neck | junior
+dissect | Dissection and tissue handling | junior
+haemostasis | Haemostasis and blood loss | junior
+drains | Drains, dressings, packs and splints | junior
+la | Local anaesthesia and nerve blocks | junior
+wounds | Wound healing and scars | junior
+skilllab | Building surgical skill | junior
+= Around the operation | The patient before and after.
+preop | Pre-operative assessment | junior
+paeds | The child in theatre | junior
+consent | Consent | junior
+anaes | Anaesthesia and the shared airway | junior
+prophylaxis | Antibiotic and VTE prophylaxis | junior
+postop | Post-operative care | junior
+infection | Infection control and sharps injuries | day
+= When it goes wrong | Crises and how to lead them.
+crises | Theatre emergencies | senior
+crm | Leading in a crisis | senior
+= Becoming a specialist | Running your own list.
+opnote | Operation notes and documentation | junior
+list | Planning and running a list | senior
+decide | Decisions, complications and candour | spec
+never | Never events and nerve monitoring | senior
+teach | Teaching and assessing | spec
+human | Human factors, audit and improvement | spec
