@@ -1,0 +1,71 @@
+@stand Infection control protects patients from each other and from us, and protects us from them. ENT surgeons work in the upper airway, which sprays droplets and aerosols when we suction, drill, cough-provoke and use powered instruments; we handle blood and saliva every day; and we use sharp, small instruments in narrow spaces where needlestick injuries are common. The basic habits (hand hygiene, the right protective equipment, safe sharps handling and reporting injuries) are simple and save lives.
+@src WHO Five Moments for Hand Hygiene; UK Health Security Agency guidance on bloodborne virus exposure; NICE; Oxford Handbook of ENT; the literature
+
+# Everyday precautions | Standard for every patient.
+## Hand hygiene {day}
+Clean your hands at the five moments: before touching a patient, before a clean or aseptic procedure, after body fluid exposure, after touching a patient, and after touching the patient's surroundings. Use alcohol rub unless the hands are visibly soiled or after contact with Clostridioides difficile or norovirus, when soap and water are needed. Bare below the elbows on the ward.
+## Personal protective equipment {day}
+- **Gloves and apron** for contact with blood, body fluids, mucosa and broken skin.
+- **Eye protection** for anything that splashes: suction, irrigation, drilling, tonsillectomy, tracheostomy.
+- **Surgical mask** for routine work; **a fitted respirator (FFP3 or N95)** for aerosol-generating procedures in patients with airborne or high-risk respiratory infections.
+## Aerosol-generating procedures in ENT {junior}
+Tracheostomy insertion and open suction, high-speed drilling, powered instruments in the nose (microdebrider), laser and diathermy plume, and endoscopy that triggers coughing or sneezing generate aerosols. Use the protection your hospital specifies for the infection risk, keep the minimum number of staff in the room, and consider topical anaesthetic and vasoconstrictor sprays that provoke less sneezing.
+## Specific organisms {junior}
+- **MRSA:** screen before major and implant surgery, decolonise carriers (nasal mupirocin and chlorhexidine washes), and give prophylaxis that covers it when appropriate.
+- **Clostridioides difficile:** isolate, soap and water, review antibiotics.
+- **Prions (Creutzfeldt-Jakob disease):** standard sterilisation does not destroy them; instruments used on lymphoid tissue (tonsils, adenoids) are tracked or single-use according to national policy, and patients at increased risk need special handling of instruments.
+
+# Sharps | Avoiding and managing injuries.
+## Safe sharps practice {day}
+- Never re-sheath a needle by hand; use the needle holder or a sheathing device.
+- Use a neutral zone (a kidney dish) to pass sharps rather than hand to hand.
+- Load and unload blades with an instrument, never fingers.
+- Use blunt-tipped needles for fascia and muscle where possible, and double gloves.
+- Say "sharp" when passing one back, and dispose of sharps yourself into a sharps bin.
+- Never use your fingers to guide a needle in a deep space; retract with an instrument.
+## Transmission risk after a needlestick {day}
+!table Approximate risk after a single injury from a source with the virus
+Virus | Risk | What reduces it
+Hepatitis B | Up to about 1 in 3 if the source is e-antigen positive | Vaccination; immunoglobulin and booster after exposure
+Hepatitis C | About 1 in 50 | No prophylaxis; follow-up testing and early treatment
+HIV | About 1 in 300 | Post-exposure prophylaxis within hours; negligible if the source has an undetectable viral load
+!!
+!path After a needlestick or splash
+Now | encourage bleeding, wash with soap and running water (do not scrub or suck) ; wash eyes or mouth with water ; remove gloves
+Report | tell the theatre coordinator ; occupational health or emergency department immediately
+Assess | risk of the injury and the source (consent to test the source patient)
+Treat | HIV post-exposure prophylaxis ideally within 1 hour (up to 72 hours) if indicated ; hepatitis B booster or immunoglobulin as needed
+Follow up | blood tests at baseline and later ; support
+!!
+!danger Report every injury
+Reporting is how you get prophylaxis in time, how the source gets tested, and how the hospital changes what caused it. A quarter or more of surgical residents do not report their injuries.
+!!
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+In a national survey of 7,395 general surgery residents, 27.7% had a needlestick in the previous 6 months, mostly self-inflicted in theatre with solid suture needles; carelessness and feeling rushed were the common causes, long working hours increased the risk, and 28.7% did not report the injury (Yang et al., *J Am Coll Surg* 2019). Reviews during the COVID-19 pandemic identified tracheostomy, drilling, powered nasal instruments and endoscopy as the main aerosol-generating ENT procedures (Mick et al., *J Otolaryngol Head Neck Surg* 2020).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Hand hygiene** moments.
+- **Aerosol-generating procedures** in ENT and the right protection.
+- **Needlestick management** and transmission risks.
+- **Prions** and tonsil instruments.
+!!
+## Skills to sign off
+!skills
+- Clean hands at the five moments without reminders {day}
+- Choose protective equipment for routine work and aerosol-generating procedures {day}
+- Handle and pass sharps safely using a neutral zone {day}
+- Know the needlestick pathway in my hospital and how to reach occupational health {day}
+!!
+## Common pitfalls
+!pit
+- Re-sheathing needles by hand.
+- Guiding a needle with your fingers.
+- Not reporting a needlestick because you are busy.
+- No eye protection during drilling and suction.
+!!

@@ -1,0 +1,79 @@
+@stand Consent is not a signature on a form; it is a conversation in which a patient who has the capacity to decide is given the information they need, in a way they can understand, to choose freely between the options, including doing nothing. The law in most countries has moved from what a doctor thinks a patient should be told to what a reasonable patient, and this particular patient, would want to know. A good consent conversation also protects you: most complaints and claims after surgery are about what the patient was not told.
+@src GMC Decision making and consent (2020); Montgomery v Lanarkshire Health Board (UK Supreme Court, 2015); Mental Capacity Act 2005; Royal College of Surgeons consent guidance; the literature
+
+# The principles | What valid consent needs.
+## Three requirements {day}
+- **Capacity:** the patient can make this decision at this time.
+- **Information:** they have been told what they need to know.
+- **Voluntary:** no pressure from staff, family or circumstances.
+## What to tell the patient {day}
+- The diagnosis and what is likely to happen without treatment.
+- The options, including no treatment and non-surgical treatment, with their benefits and risks.
+- The operation: what it involves, the anaesthetic, the scar, the hospital stay and the recovery.
+- **Material risks:** common risks, and serious risks even if rare (for example facial weakness after parotidectomy, hearing loss and dizziness after stapes surgery, voice change after thyroidectomy, death after tonsillectomy haemorrhage), and anything this patient has said matters to them (a singer's voice, a musician's hearing, a pilot's balance).
+- Who will do the operation, and that trainees take part under supervision.
+- What happens if something unexpected is found during the operation.
+!senior Senior's pearl
+Ask, "Is there anything about your work or your life that would make a particular complication matter more to you?" That one question is how you find out what is material for this patient.
+!!
+## The Montgomery test {junior}
+In Montgomery v Lanarkshire (2015), the UK Supreme Court held that a doctor must take reasonable care to ensure the patient knows of any material risks and of reasonable alternatives. A risk is material if a reasonable person in the patient's position would attach significance to it, or if the doctor knows (or should know) that this patient would. Other countries' laws differ in detail, but the direction is the same: patient-centred disclosure.
+
+# Capacity | Can the patient decide?
+## Assessing capacity {junior}
+Assume capacity unless there is reason to doubt it. A patient has capacity for a decision if they can:
+- **Understand** the information relevant to the decision.
+- **Retain** it long enough to decide.
+- **Use or weigh** it as part of making the decision.
+- **Communicate** the decision (by any means).
+Capacity is specific to the decision and the time. An unwise decision does not mean lack of capacity.
+## When the patient lacks capacity {junior}
+Act in their best interests, consulting family, carers, any lasting power of attorney for health and welfare, or an independent advocate, and respecting any valid advance decision to refuse treatment. In an emergency, do what is necessary to save life or prevent serious harm.
+## Children {junior}
+Consent comes from a person with parental responsibility. In the UK, young people of 16 and 17 are presumed to have capacity, and a child under 16 may consent if they have enough understanding and maturity (Gillick competence). Involve the child in every decision in a way they understand.
+
+# The practice | Doing it well.
+## Who should take consent {day}
+The surgeon doing the operation, or someone who could do it, or someone trained and delegated to take consent for that procedure who knows its risks. If you cannot answer the patient's questions, you are not the right person to consent them.
+## When and how {day}
+- For elective surgery, discuss in clinic and confirm on the day; do not leave the first discussion to the morning of a major operation.
+- Use plain language and numbers ("about 1 in 100"), give written information, and check understanding by asking the patient to explain it back.
+- Use a professional interpreter, not a family member, when there is a language barrier.
+- Write the risks discussed on the form and in the notes, including any the patient was particularly concerned about.
+- Separate consent for photographs, video and teaching.
+## Withdrawal {day}
+A patient with capacity can withdraw consent at any time, even on the operating table before induction. Stop, discuss, and document.
+!danger Consent on the trolley
+Signing a form in the anaesthetic room, sedated, anxious and without time to think, is not valid consent for elective surgery. If the patient has not been properly consented, postpone.
+!!
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+A systematic review of 52 trials of interventions to improve patients' understanding of consent found that interactive approaches worked best: every study using verbal discussion with teach-back or test-and-feedback improved comprehension, compared with fewer than half of written interventions (Glaser et al., *Med Decis Making* 2020).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Valid consent:** capacity, information, voluntary.
+- **Montgomery** and material risk.
+- **Capacity assessment** and best interests.
+- **Gillick competence.**
+- **Material risks** for common ENT operations.
+!!
+## Skills to sign off
+!skills
+- Take consent for grommets, tonsillectomy and septoplasty, including all material risks {junior}
+- Assess capacity and document it {junior}
+- Consent using a professional interpreter {junior}
+- Consent for thyroidectomy, parotidectomy and ear surgery {senior}
+- Hold a consent conversation for major head and neck cancer surgery, including alternatives and no treatment {spec}
+!!
+## Common pitfalls
+!pit
+- Consenting for an operation you do not understand.
+- Leaving out the option of no treatment.
+- A signature in the anaesthetic room as the only consent.
+- Using family members as interpreters.
+!!

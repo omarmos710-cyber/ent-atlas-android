@@ -1,0 +1,79 @@
+@stand In most specialties the anaesthetist owns the airway and the surgeon works somewhere else. In ENT the surgeon and anaesthetist share the airway: the operation is in the mouth, larynx or trachea, the tube is in the surgeon's way, the anaesthetist is at the far end of the table, and blood, a laser or a dislodged tube can turn a routine case into an emergency in seconds. Knowing the anaesthetist's tools and plans, and agreeing them before induction, is one of the most important safety skills an ENT surgeon has.
+@src Difficult Airway Society guidelines (intubation, extubation, awake tracheal intubation); NAP4 (Royal College of Anaesthetists and DAS); Oxford Textbook of Otolaryngology; K. J. Lee; the literature
+
+# The shared airway | Agreeing the plan.
+## Before induction {day}
+Talk to the anaesthetist about: the lesion and where it is, the CT and the endoscopy findings, the best tube (type, size, route), whether the larynx can be seen, the plan if intubation fails (including who does a tracheostomy and whether the neck should be prepared and marked first), the use of lasers or nerve monitoring, blood loss, throat pack, and extubation. Stay in the anaesthetic room for induction in any airway case.
+## Airway devices {day}
+!table Tubes and airways in ENT
+Device | Use
+Oral RAE (south-facing) tube | Tonsils, mouth and oropharyngeal surgery; sits in the gag's tongue-blade groove
+Nasal RAE (north-facing) tube | Oral cavity, mandible and dental surgery
+Reinforced (armoured) tube | Head turned or flexed; resists kinking
+Microlaryngeal tube (5.0 to 6.0 mm) | Laryngeal surgery: small diameter, adult length
+Laser-safe tube | Laser surgery of the larynx and airway
+Nerve monitoring (EMG) tube | Thyroid and parathyroid surgery
+Flexible laryngeal mask | Tonsils and adenoids in selected children, nasal and ear surgery
+Tubeless: jet ventilation, high-flow nasal oxygen, intermittent apnoea | Laryngeal and tracheal surgery when a tube obstructs the view
+!!
+## Tubeless techniques {junior}
+- **Jet ventilation:** high-pressure oxygen pulses through a catheter above, through or below the vocal cords (supraglottic, subglottic, transtracheal). Gas must be able to escape: an obstructed outflow causes barotrauma and pneumothorax.
+- **High-flow nasal oxygen** (for example THRIVE, up to 70 litres per minute) extends safe apnoea while the anaesthetist steps away from the airway; carbon dioxide still rises.
+- **Intermittent apnoea:** the tube is removed for short periods of surgery and replaced.
+
+# The difficult airway | Planning for failure.
+## The obstructed airway {senior}
+Tumours of the larynx, pharynx and tongue base, supraglottitis, and deep neck abscesses can make intubation impossible after induction. Options include awake fibreoptic or videolaryngoscopic intubation, inhalational induction keeping spontaneous breathing, and awake tracheostomy (or front-of-neck access) under local anaesthetic. Decide before induction, with the surgeon scrubbed and the neck marked and prepared if failure is possible.
+!danger "Can't intubate, can't oxygenate"
+Know your hospital's Difficult Airway Society algorithm. If oxygenation fails, the surgeon may be asked to do front-of-neck access immediately (scalpel cricothyroidotomy). Be ready, and keep the kit in the room for every airway case.
+!!
+## Anaesthesia for the surgical field {junior}
+Total intravenous anaesthesia, controlled low-normal blood pressure, head-up tilt and a smooth heart rate give a better field in sinus and ear surgery. Avoid long-acting muscle relaxants when nerves are monitored. Ask for the blood pressure to be normalised and a Valsalva before closure.
+
+# Waking up | Extubation and recovery.
+## Extubation {junior}
+Extubation is as risky as intubation in ENT: blood, swelling, packs and airway surgery all threaten the airway at the end of the case.
+- Remove the throat pack and suck out the pharynx under direct vision.
+- Decide with the anaesthetist on awake or deep extubation; a smooth emergence without coughing protects a fresh thyroid bed or a reconstruction.
+- If the airway may swell (extensive surgery, laryngeal oedema, bilateral neck dissection), keep the tube, use an airway exchange catheter, or perform a tracheostomy.
+## Laryngospasm {day}
+Sudden closure of the vocal cords during light anaesthesia, typically at extubation, especially in children and after blood or secretions touch the larynx.
+!path Laryngospasm at extubation
+Act | call for help ; 100% oxygen with tight mask and CPAP ; jaw thrust (pressure at Larson's point behind the angle of the jaw)
+Not breaking | propofol ; then suxamethonium (with atropine in children) and reintubate if needed
+After | watch for negative-pressure pulmonary oedema
+!!
+!senior Senior's pearl
+Say aloud at the end of every airway case what is in the patient's mouth and nose (packs, gauze, patties, splints), and who checked it out. Nothing should stay behind and nothing should fall into the airway at extubation.
+!!
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+The Fourth National Audit Project collected a year of major airway complications in the UK: 133 events in about 2.9 million general anaesthetics (about 1 in 22,000), with 16 deaths; head and neck cases and obstructed airways were prominent, and airway management was judged good in only 19% (Cook et al., *Br J Anaesth* 2011). High-flow nasal oxygen (THRIVE) kept patients with difficult airways oxygenated during apnoea of a median of about 14 minutes (Patel and Nouraei, *Anaesthesia* 2015).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Shared airway** principles and the pre-induction discussion.
+- **Tubes** for each type of ENT operation.
+- **Jet ventilation** and high-flow nasal oxygen.
+- **Obstructing airway tumours:** awake options and awake tracheostomy.
+- **Laryngospasm** management.
+!!
+## Skills to sign off
+!skills
+- Discuss the airway plan with the anaesthetist before every case {day}
+- Choose the right tube for tonsil, laryngeal, thyroid and oral surgery {junior}
+- Check packs and airway clearance before extubation {day}
+- Plan the anaesthetic for an obstructing laryngeal tumour with the anaesthetist {senior}
+- Perform an awake tracheostomy under local anaesthetic {senior}
+!!
+## Common pitfalls
+!pit
+- Not being in the anaesthetic room for an airway case.
+- No plan B agreed before induction.
+- Jet ventilation without a route for gas to escape.
+- Coughing at extubation after thyroid or neck surgery.
+!!

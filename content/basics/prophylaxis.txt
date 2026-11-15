@@ -1,0 +1,70 @@
+@stand Two preventable complications follow surgery everywhere: wound infection and venous thromboembolism (deep vein thrombosis and pulmonary embolism). ENT surgery is unusual for both. Many operations open the mouth, pharynx or sinuses (clean-contaminated), yet most short ENT procedures need no antibiotics at all; and most ENT patients are at low risk of clots, yet the head and neck cancer patient having a free flap is one of the highest-risk surgical patients in the hospital. The skill is knowing which patient needs what.
+@src NICE NG125 (surgical site infection) and NG89 (venous thromboembolism); SIGN 104 (antibiotic prophylaxis in surgery); WHO surgical site infection guidelines; Oxford Textbook of Otolaryngology; the literature
+
+# Infection | Antibiotic prophylaxis.
+## Wound classes {day}
+!table Wound classification
+Class | Definition | ENT examples | Typical infection risk
+Clean | No mucosa of the aerodigestive tract opened, no inflammation | Thyroidectomy, parotidectomy, neck lump excision, otoplasty | Low (under 2%)
+Clean-contaminated | Mucosa of the mouth, pharynx, larynx or sinuses opened under controlled conditions | Laryngectomy, glossectomy with neck dissection, sinus surgery, tonsillectomy | Higher; up to 20 to 40% in major head and neck cancer surgery without prophylaxis
+Contaminated | Fresh trauma, major break in sterility, acute inflammation | Open fractures into the mouth | High
+Dirty | Established infection or pus | Neck abscess drainage | Treat, not prophylaxis
+!!
+## Who needs prophylaxis {day}
+- **Yes:** major clean-contaminated head and neck surgery (opening the pharynx or larynx with or without a flap), implants (cochlear implants, bone-anchored devices), and many clean operations with risk factors.
+- **Usually no:** tonsillectomy, adenoidectomy, routine sinus surgery, septoplasty, uncomplicated thyroid and parotid surgery, grommets, ear surgery without implants.
+- Follow local policy, which reflects local bacteria and resistance.
+## How to give it {day}
+- **Timing:** intravenously within 60 minutes before the incision, so tissue levels are high when the wound is opened.
+- **Duration:** a single dose for most operations; no more than 24 hours for major head and neck surgery. Longer courses add resistance and Clostridioides difficile, not protection.
+- **Repeat** the dose in long operations (for example, cefuroxime every 4 hours) or with major blood loss.
+- **Choice** for clean-contaminated head and neck surgery: co-amoxiclav, or cefuroxime or cefazolin with metronidazole, to cover mouth anaerobes and streptococci; follow local policy for penicillin allergy.
+!danger Clindamycin in free flap surgery
+Patients given clindamycin for "penicillin allergy" in head and neck free flap surgery have higher wound infection rates. Check whether the allergy is real; most patients labelled penicillin-allergic are not, and a cephalosporin is usually safe unless the reaction was severe.
+!!
+## Other ways to prevent infection {day}
+Skin preparation with alcohol-based chlorhexidine where safe, clipping not shaving, normal body temperature, glucose control, oxygen, stopping smoking, mouth care and chlorhexidine mouthwash before oral cancer surgery, and careful handling of tissue.
+
+# Thrombosis | VTE prophylaxis.
+## Assessing the risk {day}
+Assess every patient on admission and again if things change. Risk rises with major surgery over 90 minutes, cancer and chemotherapy, age over 60, obesity, previous or family VTE, immobility, oestrogens, pregnancy and dehydration; the Caprini score is widely used in surgery. Bleeding risk is assessed at the same time.
+## Who needs what {junior}
+!table A practical approach
+Patient | Prophylaxis
+Short ENT procedure, mobile the same day, low risk | Early mobilisation and hydration; no drugs
+Intermediate surgery with risk factors | Mechanical (intermittent pneumatic compression) during surgery; consider low molecular weight heparin
+Major head and neck cancer surgery, free flaps | Intermittent pneumatic compression plus low molecular weight heparin (started 6 to 12 hours after surgery when bleeding allows), continued until mobile
+!!
+Anti-embolism stockings are no longer used routinely in addition to heparin; they can damage skin in patients with arterial disease.
+!senior Senior's pearl
+Weigh the clot against the bleed. A neck haematoma after a thyroidectomy can kill quickly, while VTE after a day-case thyroidectomy is rare; the opposite balance applies to a 10-hour laryngectomy with a free flap.
+!!
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+A Cochrane review of ten trials (1,035 participants) found antibiotics after tonsillectomy did not reduce pain, analgesic use or secondary haemorrhage, though they reduced fever (Dhiwakar et al., *Cochrane Database Syst Rev* 2012). In free flap reconstruction, patients given clindamycin had significantly more surgical site infections than those given other regimens (Pool et al., *Otolaryngol Head Neck Surg* 2016). A meta-analysis of 618,264 otolaryngology patients found VTE in 0.4% overall; chemoprophylaxis did not reduce VTE in lower-risk patients but increased bleeding (odds ratio 3.78), while cancer and free flap patients had a much higher risk (odds ratio 6.28) (Moubayed et al., *Head Neck* 2017). The GAPS trial showed stockings added nothing to heparin in elective surgery (Shalhoub et al., *BMJ* 2020).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Wound classes** with ENT examples.
+- **Which ENT operations** need antibiotic prophylaxis, the timing and duration.
+- **Penicillin allergy** and clindamycin.
+- **VTE risk** assessment and prophylaxis for head and neck cancer surgery.
+!!
+## Skills to sign off
+!skills
+- Classify the wound for any ENT operation {day}
+- Prescribe prophylactic antibiotics with correct timing and duration {day}
+- Complete a VTE risk assessment and prescribe prophylaxis {day}
+- Plan antibiotic and VTE prophylaxis for a free flap reconstruction {senior}
+!!
+## Common pitfalls
+!pit
+- Routine antibiotics after tonsillectomy or septoplasty.
+- Antibiotic given after the incision, or continued for a week.
+- Clindamycin for an unverified penicillin allergy.
+- Heparin given too early after neck surgery.
+!!

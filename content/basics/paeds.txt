@@ -1,0 +1,78 @@
+@stand Children make up a large share of ENT operations (tonsils, adenoids, grommets, airway endoscopy, foreign bodies), and they are not small adults. Their airways are narrower and react more, their blood volume is small, their drug doses depend on weight, their fluid balance tips quickly, and their families need as much care as they do. A safe children's list depends on the whole team, from the play specialist to the anaesthetist, and on the surgeon knowing when to postpone.
+@src Association of Paediatric Anaesthetists guidance; NICE; MHRA drug safety updates; AAO-HNS tonsillectomy guideline (2019); Oxford Handbook of ENT; the literature
+
+# Before the operation | Is the child fit today?
+## The child with a cold {day}
+Children often arrive with a runny nose. A mild upper respiratory infection without fever, cough or chest signs is usually not a reason to cancel short procedures such as grommets. Postpone (usually 2 to 4 weeks) if there is fever, a productive cough, wheeze or chest signs, a recent lower respiratory infection, or if the child is unwell. Airway operations and sleep apnoea surgery need a lower threshold. Make the decision with the anaesthetist.
+## What to check {day}
+- **Weight** on the day, written on the chart: every drug and fluid depends on it.
+- **Loose teeth** (ages about 6 to 12): note them, warn the family, and remove a very loose tooth under anaesthesia to stop it being inhaled.
+- **Bleeding history** before tonsillectomy (family history, easy bruising).
+- **Sleep apnoea severity**, syndromes (Down syndrome, craniofacial), obesity, prematurity and age, which decide whether the child can go home the same day.
+- **Safeguarding:** bruises, inconsistent stories, or a parent who does not have parental responsibility.
+## Fasting {day}
+Solid food 6 hours, breast milk 4 hours, clear fluids until 1 hour before anaesthesia. Encourage clear fluids up to that point; children fasted for too long arrive dehydrated and distressed.
+
+# Numbers | Weight-based care.
+## Blood volume {day}
+About 80 ml/kg in children (about 85 to 90 ml/kg in neonates). A 20 kg child has about 1,600 ml; a loss of 160 ml is 10% of their blood. Children compensate well and then decompensate suddenly: a rising heart rate is the early sign, and low blood pressure is a late one.
+## Fluids {day}
+Maintenance by the 4-2-1 rule: 4 ml/kg/hour for the first 10 kg, 2 ml/kg/hour for the next 10 kg, and 1 ml/kg/hour for each kg above 20 kg. Use isotonic fluids (such as Hartmann's or 0.9% saline with glucose as needed); hypotonic fluids after tonsillectomy, combined with the stress response, have caused fatal hyponatraemia. A bolus for shock is 10 ml/kg of isotonic crystalloid, repeated as needed.
+## Analgesia {day}
+!table Common doses
+Drug | Dose | Notes
+Paracetamol | 15 mg/kg every 4 to 6 hours | Maximum 60 to 75 mg/kg/day depending on age and route
+Ibuprofen | 10 mg/kg every 6 to 8 hours | Maximum 30 mg/kg/day; widely used after tonsillectomy
+Dexamethasone | 0.15 mg/kg once (maximum 8 to 10 mg) | Reduces vomiting and swelling after tonsillectomy
+Morphine | By weight, in hospital only | For severe pain; caution in sleep apnoea
+Codeine | Do not use | Contraindicated under 12, and after tonsillectomy or adenoidectomy for sleep apnoea under 18
+!!
+!danger Codeine and children
+Codeine is converted to morphine in the liver at very different rates. Ultra-rapid metabolisers have died after tonsillectomy from respiratory depression. Use paracetamol and ibuprofen, with short courses of oral morphine in hospital only when needed.
+!!
+
+# On the day | The family and the team.
+## Consent and the family {day}
+Consent comes from someone with parental responsibility, and from the child too when they understand (in the UK, a child under 16 may consent if they have sufficient understanding, known as Gillick competence). Explain what will happen in words the child understands. Most units let a parent stay for induction, and play specialists help a frightened child.
+## The children's theatre {junior}
+- Equipment sized for children: tubes, laryngoscopes, bronchoscopes, tracheostomy tubes.
+- Warmers and blankets: small children lose heat quickly.
+- Smaller doses, smaller syringes, and a weight-based drug chart for emergencies.
+- Separate recovery space with parents brought in early.
+
+# After the operation | Who can go home?
+## Day case or overnight {junior}
+Most children go home the same day. Keep overnight (with monitoring) children under about 3 years having tonsillectomy, those with severe sleep apnoea, significant comorbidities (Down syndrome, craniofacial syndromes, neuromuscular or cardiac disease, obesity), bleeding disorders, those who live far from hospital, and any child with airway concerns. Children with severe sleep apnoea may need a high-dependency bed.
+!senior Senior's pearl
+The child who is quiet and sleepy in recovery after tonsillectomy for sleep apnoea may be obstructing or narcotised, not comfortable. Watch saturations, not just the pain score.
+!!
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+In 9,297 children having anaesthesia, a positive respiratory history (night cough, wheeze on exercise, recurrent wheeze or eczema) greatly increased the risk of bronchospasm (relative risk 8.46) and other respiratory adverse events, which can be anticipated at pre-operative assessment (von Ungern-Sternberg et al., *Lancet* 2010). A meta-analysis found a small increase in bleeding after tonsillectomy with ibuprofen (odds ratio 1.38) (Stokes et al., *Otolaryngol Head Neck Surg* 2019), while the American tonsillectomy guideline still recommends ibuprofen and paracetamol as first-line analgesia and a single dose of dexamethasone (Mitchell et al., *Otolaryngol Head Neck Surg* 2019).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **The child with a cold:** proceed or postpone.
+- **Blood volume and fluids**, including hyponatraemia after tonsillectomy.
+- **Analgesia doses** and why codeine is banned.
+- **Who stays overnight** after tonsillectomy.
+- **Consent** in children.
+!!
+## Skills to sign off
+!skills
+- Assess a child on the morning of surgery, including teeth and respiratory symptoms {day}
+- Calculate blood volume, maintenance fluids and analgesia by weight {day}
+- Decide day case or overnight stay after tonsillectomy {junior}
+- Take consent from parents and involve the child {junior}
+!!
+## Common pitfalls
+!pit
+- Not weighing the child on the day.
+- Hypotonic fluids after tonsillectomy.
+- Prescribing codeine.
+- Sending home a young child with severe sleep apnoea.
+!!

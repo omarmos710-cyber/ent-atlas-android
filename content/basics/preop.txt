@@ -1,0 +1,100 @@
+@stand The pre-operative assessment decides whether an operation should happen, when and where, and what has to be done first to make it safe. For the ENT resident it means a focused history and examination, the right tests (and no unnecessary ones), a plan for every medicine (especially anticoagulants and diabetes drugs), recognising the patient whose airway or sleep apnoea will make anaesthesia difficult, and talking early with the anaesthetist. Most cancelled operations and many complications trace back to something missed at this stage.
+@src NICE NG45 (routine preoperative tests); NICE NG180 (perioperative care); Centre for Perioperative Care guidelines on diabetes and anaemia; Association of Anaesthetists guidance; Oxford Handbook of ENT; the literature
+
+# The assessment | History, examination and risk.
+## What to cover {day}
+- **The ENT problem:** confirm the diagnosis, the side, the indication and the plan; check imaging, audiograms and biopsies are available.
+- **Cardiorespiratory:** exercise tolerance (can they climb two flights of stairs?), angina, heart failure, valve disease, pacemakers, asthma, COPD.
+- **Airway:** previous difficult intubation, mouth opening, neck movement, stridor, tumours of the larynx or pharynx; tell the anaesthetist early.
+- **Sleep apnoea:** STOP-BANG questions (snoring, tiredness, observed apnoea, high blood pressure, BMI over 35, age over 50, neck over 40 cm, male); a score of 5 or more suggests high risk.
+- **Bleeding:** personal and family history of bleeding, anticoagulants, antiplatelets, supplements.
+- **Medicines and allergies:** including latex, chlorhexidine, iodine and previous anaesthetic reactions (malignant hyperthermia, suxamethonium apnoea in the family).
+- **Social:** smoking, alcohol, who is at home, transport after day surgery.
+## ASA grade {day}
+!table ASA physical status
+Grade | Description | Example
+ASA 1 | Normal healthy patient | Fit adult for septoplasty
+ASA 2 | Mild systemic disease | Controlled hypertension or asthma, smoker, BMI 30 to 40
+ASA 3 | Severe systemic disease | Poorly controlled diabetes, COPD, BMI over 40, stable angina
+ASA 4 | Severe disease that is a constant threat to life | Recent heart attack, severe heart failure
+ASA 5 | Moribund, not expected to survive without the operation | Ruptured aneurysm
+ASA 6 | Brain-dead organ donor |
+!!
+Add "E" for an emergency operation.
+
+# Tests | Only what changes the plan.
+## Routine tests by risk {day}
+NICE advises tests according to the ASA grade and the size of the operation, not by habit.
+!table A simplified guide (adults)
+Operation | ASA 1 | ASA 2 | ASA 3 or 4
+Minor (skin lesion excision, nasal cautery) | None | None | Consider kidney function if at risk of kidney injury
+Intermediate (tonsillectomy, septoplasty, sinus surgery) | None | Consider kidney function if at risk | Blood count and kidney function; ECG if cardiac, renal or diabetic disease
+Major or complex (thyroidectomy, neck dissection, laryngectomy, free flaps) | Blood count; consider kidney function and ECG over 65 | Blood count, kidney function, ECG | Blood count, kidney function, ECG; consider clotting and lung function
+!!
+- **Group and save or crossmatch** for major head and neck surgery, according to local blood loss policies.
+- **HbA1c** for people with diabetes if not done in the last 3 months.
+- **Pregnancy test** on the day for women who could be pregnant.
+- **Sickle cell test** when the history suggests it and status is unknown.
+- **Clotting tests** only when there is a history of bleeding, liver disease or anticoagulation.
+
+# Medicines | Stop, continue or bridge.
+## Anticoagulants and antiplatelets {junior}
+!table Common plans (always weigh the bleeding risk of the operation against the reason for the drug)
+Drug | Usual plan before elective surgery with significant bleeding risk
+Warfarin | Stop 5 days before; INR checked the day before (under 1.5); bridge with low molecular weight heparin only for high thrombotic risk (mechanical mitral valve, VTE in the last 3 months)
+Apixaban, rivaroxaban, edoxaban | Stop 2 days before (longer in kidney impairment); no bridging
+Dabigatran | Stop 2 to 4 days before depending on kidney function; no bridging
+Aspirin | Usually continued; stop 7 days before only where bleeding would be disastrous and the indication allows
+Clopidogrel, prasugrel, ticagrelor | Stop 5 to 7 days before; never stop within the first months after a coronary stent without cardiology advice
+!!
+!danger The recent stent
+Stopping dual antiplatelet therapy early after a coronary stent can cause stent thrombosis and a heart attack. Defer elective surgery or discuss with the cardiologist; never stop it on your own.
+!!
+## Diabetes {junior}
+- Aim for HbA1c under about 69 mmol/mol (8.5%) before elective surgery; refer for optimisation if higher.
+- Put people with diabetes first on the list to shorten fasting.
+- **SGLT2 inhibitors** (dapagliflozin, empagliflozin): omit the day before and the day of surgery because of the risk of ketoacidosis with normal glucose.
+- **Insulin:** usually continue long-acting insulin at about 80% of the dose; omit short-acting while fasting; use a variable-rate insulin infusion if more than one meal will be missed or control is poor.
+- Most other oral drugs are omitted on the morning of surgery (metformin is often continued if only one meal is missed).
+## Other medicines {junior}
+Continue most cardiac drugs, inhalers and antiepileptics on the morning of surgery. Patients on long-term steroids need cover. Stop combined oral contraceptives and HRT about 4 weeks before major surgery only if VTE risk is high, otherwise use prophylaxis.
+## Fasting {day}
+Adults: no food for 6 hours, clear fluids allowed until 2 hours before. Children: food 6 hours, breast milk 4 hours, clear fluids until 1 hour before (current UK and European paediatric guidance). Prolonged fasting makes children and the elderly dehydrated and unwell.
+
+# Optimising | Making the patient fitter.
+## Before major head and neck surgery {senior}
+Stop smoking and reduce alcohol (withdrawal after a laryngectomy is dangerous), correct anaemia (iron), improve nutrition (dietitian, feeding tube if needed), treat dental disease before radiotherapy, assess frailty and swallowing, and plan for post-operative critical care. Prehabilitation (exercise and nutrition) improves fitness before major surgery.
+!senior Senior's pearl
+The best time to find a problem is the clinic where you list the patient, not the morning of surgery. Book the anaesthetic assessment, the sleep study or the cardiology opinion when you decide to operate.
+!!
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+In the BRIDGE trial of 1,884 patients with atrial fibrillation whose warfarin was stopped for surgery, no bridging was as safe as bridging for arterial thromboembolism (0.4% vs 0.3%) and caused much less major bleeding (1.3% vs 3.2%) (Douketis et al., *N Engl J Med* 2015). In the PAUSE study of 3,007 patients on direct oral anticoagulants, a simple standard interruption plan without bridging or blood tests gave low rates of major bleeding (about 1 to 2%) and stroke (under 1%) (Douketis et al., *JAMA Intern Med* 2019).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **ASA grades.**
+- **Which tests** for which patient.
+- **Anticoagulant and antiplatelet** plans, and the recent stent.
+- **Diabetes** management, including SGLT2 inhibitors.
+- **Sleep apnoea** screening and fasting times.
+!!
+## Skills to sign off
+!skills
+- Take a focused pre-operative history and assign an ASA grade {day}
+- Request only the tests NICE recommends {day}
+- Plan anticoagulant and antiplatelet management for an ENT operation {junior}
+- Plan diabetes management for a day case and a major case {junior}
+- Optimise a patient for major head and neck surgery {senior}
+!!
+## Common pitfalls
+!pit
+- Routine blood tests in fit patients for minor surgery.
+- Stopping antiplatelets after a recent stent.
+- Forgetting SGLT2 inhibitors.
+- Missing sleep apnoea or a difficult airway until the day.
+!!

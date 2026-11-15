@@ -1,0 +1,76 @@
+@stand The operation finishes in theatre, but the outcome is decided on the ward. Post-operative care means clear instructions, enough analgesia without oversedation, the right fluids, preventing sickness, recognising the deteriorating patient early, and knowing the complications specific to each ENT operation (the neck haematoma, the low calcium, the facial weakness, the failing flap, the blocked tracheostomy). The resident who reviews patients properly after the list prevents more harm than any single operative step.
+@src NICE CG174 (intravenous fluids) and NG180 (perioperative care); Royal College of Physicians NEWS2; Fourth consensus guidelines on PONV; ERAS Society head and neck recommendations; Oxford Handbook of ENT; the literature
+
+# Instructions | What the ward needs from you.
+## The post-operative plan {day}
+Write it in the operation note: observations (frequency and what to escalate), position (head up 30 degrees after neck surgery), drains and packs (when to remove), diet and fluids, analgesia and antiemetics, antibiotics and VTE prophylaxis, specific checks (voice, calcium, facial movement, flap observations, tracheostomy care), and follow-up.
+## The early warning score {day}
+NEWS2 scores breathing rate, oxygen saturation, oxygen use, blood pressure, pulse, consciousness or new confusion, and temperature. A total of 5 or more, or 3 in any single parameter, needs urgent medical review; 7 or more needs an emergency response, usually with critical care. A rising score is often the first sign of bleeding, sepsis or airway trouble.
+
+# Comfort | Pain, nausea and fluids.
+## Analgesia {day}
+- **Multimodal:** regular paracetamol plus an NSAID (ibuprofen) unless contraindicated, local anaesthetic infiltration at the end of the operation, and opioids only for breakthrough pain.
+- **Sleep apnoea:** opioids worsen obstruction; use the lowest dose, monitor saturations, and prefer non-opioid analgesia.
+- **Tonsillectomy pain** peaks around days 5 to 7 and is often referred to the ears; give regular analgesia for a week or more and advise eating normally.
+## Nausea and vomiting {day}
+Risk factors (Apfel): female sex, non-smoker, previous PONV or motion sickness, and post-operative opioids; ENT and especially middle ear and tonsil surgery add risk. Give prophylaxis according to risk: dexamethasone at induction and ondansetron at the end are common; add cyclizine or another class for high-risk patients. Vomiting after tonsillectomy can cause bleeding; after neck surgery, a haematoma.
+## Fluids {day}
+Encourage eating and drinking early. If intravenous fluid is needed for maintenance in adults: about 25 to 30 ml/kg/day of water, with about 1 mmol/kg/day of sodium, potassium and chloride and 50 to 100 g/day of glucose. Check electrolytes daily while on intravenous fluids, and watch for hyponatraemia, especially in children and the elderly.
+
+# Operation-specific checks | What to look for.
+## The checks you must not miss {day}
+!table Post-operative checks by operation
+Operation | Check | Why
+Thyroid and parathyroid | Neck swelling, stridor, voice; calcium or parathyroid hormone | Haematoma, nerve palsy, hypocalcaemia
+Parotid | Facial movement in each branch | Facial nerve injury
+Neck dissection | Drain volume and character, shoulder movement | Haematoma, chyle leak, accessory nerve
+Free flap | Colour, capillary refill, temperature, Doppler signal, every hour at first | Failing flap, salvageable if found early
+Tracheostomy | Humidification, suction, inner tube, tapes, spare tubes and obturator at the bedside | Blocked or displaced tube
+Tonsillectomy | Bleeding, swallowing, drinking | Primary haemorrhage, dehydration
+Sinus surgery | Vision, eye movement, proptosis, clear watery discharge | Orbital haematoma, CSF leak
+Ear surgery | Facial movement, vertigo, nystagmus, hearing (tuning fork) | Facial nerve or inner ear injury
+Laryngectomy | Flap, drain, feeding, stoma, alcohol withdrawal | Fistula, delirium
+!!
+!danger The neck haematoma
+After thyroid, parathyroid or neck surgery, increasing neck swelling, pain, difficulty breathing or swallowing, or stridor means an expanding haematoma until proven otherwise. Call for help, open the wound at the bedside (skin, subcutaneous tissue and strap muscles) to release the pressure, and return to theatre. Do not wait for imaging.
+!!
+## The deteriorating patient {day}
+Assess with ABCDE, give oxygen, check the observations and NEWS2, look at the wound, drains and airway, send bloods (including a gas and lactate), and escalate early with an SBAR handover. Do not leave an unwell post-operative patient without a plan and a review time.
+!senior Senior's pearl
+On the evening ward round after a big list, see every patient, not just the notes. Look at the neck, the flap, the tracheostomy and the drain bottle yourself.
+!!
+
+# Going home | Discharge.
+## Discharge criteria {day}
+Eating and drinking, pain controlled on oral analgesia, observations normal, wound and drains checked, specific checks done (calcium after total thyroidectomy, voice, facial nerve), and written advice: what is normal, what to watch for (bleeding, fever, breathing problems), who to call, and when to come back.
+
+# Evidence | What the studies show.
+## Current evidence
+!evidence
+A meta-analysis of 18 studies (2,630 patients) found enhanced recovery protocols for head and neck free flap surgery shortened hospital stay by about 4 days and reduced readmissions (odds ratio 0.64) and wound complications (relative risk 0.41), without more reoperations or deaths (Chorath et al., *Oral Oncol* 2021). The ERAS Society recommendations for major head and neck cancer surgery include carbohydrate loading, multimodal analgesia, early mobilisation, early feeding and avoiding unnecessary drains and lines (Dort et al., *JAMA Otolaryngol Head Neck Surg* 2017). International consensus guidelines recommend risk-based PONV prophylaxis using drugs from different classes (Gan et al., *Anesth Analg* 2020).
+!!
+
+# For the examination | What the examiner wants to hear.
+## Viva essentials
+!exam What the examiner is looking for
+- **Post-operative instructions** for common ENT operations.
+- **NEWS2** and escalation.
+- **Analgesia and PONV**, including sleep apnoea.
+- **Neck haematoma:** recognition and bedside management.
+- **Operation-specific** checks.
+!!
+## Skills to sign off
+!skills
+- Write clear post-operative instructions in the operation note {day}
+- Prescribe multimodal analgesia, antiemetics and maintenance fluids {day}
+- Recognise and escalate a deteriorating patient with NEWS2 and SBAR {day}
+- Open a neck wound at the bedside for an expanding haematoma {junior}
+- Monitor a free flap and recognise failure {senior}
+!!
+## Common pitfalls
+!pit
+- Heavy opioids in sleep apnoea.
+- Waiting for imaging in a neck haematoma.
+- Forgetting calcium after total thyroidectomy.
+- Reviewing notes instead of patients.
+!!
