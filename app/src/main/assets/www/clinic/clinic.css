@@ -254,3 +254,6 @@ html[data-fsz="s"] .arw{--arfs:15px}html[data-fsz="l"] .arw{--arfs:18px}
 .dcrrow p{margin:6px 0 8px;font-size:14px;line-height:1.5}.dcrrow .dcok{color:var(--arok,#2F6B4F)}.dclink{border:0;background:none;color:var(--accent);font-size:12.5px;text-decoration:underline;padding:0 4px}
 .dcfoot{margin:20px 0 8px}
 @media(max-width:420px){.dcin{grid-template-columns:1fr 1fr}.dcin label:first-child{grid-column:1/-1}}
+/* numbered steps: counter sits in the gutter so bold or italic words stay inline */
+.arbox.k-ward ol>li,.arbox.k-how ol>li{display:block!important;position:relative;padding-left:34px}
+.arbox.k-ward ol>li::before,.arbox.k-how ol>li::before{position:absolute;left:0;top:0}
