@@ -71,10 +71,22 @@
   "l": "CC BY-SA 3.0",
   "u": "https://commons.wikimedia.org/wiki/File:ENT_surgery_instruments_05.JPG"
  },
- "metzenbaum": {
-  "t": "File:Metzenbaum scissors 04.jpg",
-  "a": "Saltanat ebli",
+ "needle_holder": {
+  "t": "File:Naaldvoerder Mayo-hegar.jpg",
+  "a": "Rschiedon at Dutch Wikipedia (Original text: Rschiedon)",
+  "l": "CC BY-SA 3.0",
+  "u": "https://commons.wikimedia.org/wiki/File:Naaldvoerder_Mayo-hegar.jpg"
+ },
+ "adson": {
+  "t": "File:Adson 00.jpg",
+  "a": "SnowBink",
   "l": "CC0",
-  "u": "https://commons.wikimedia.org/wiki/File:Metzenbaum_scissors_04.jpg"
+  "u": "https://commons.wikimedia.org/wiki/File:Adson_00.jpg"
+ },
+ "microscope": {
+  "t": "File:US Navy 080607-N-9689V-011 Cmdr. Kenneth Kubis, director of surgical services aboard the Military Sealift Command hospital ship USNS Mercy (T-AH 19), uses an operating microscope.jpg",
+  "a": "U.S. Navy photo by Mass Communication Specialist 3rd Class Joshua Valcarcel",
+  "l": "Public domain",
+  "u": "https://commons.wikimedia.org/wiki/File:US_Navy_080607-N-9689V-011_Cmdr._Kenneth_Kubis,_director_of_surgical_services_aboard_the_Military_Sealift_Command_hospital_ship_USNS_Mercy_(T-AH_19),_uses_an_operating_microscope.jpg"
  }
 }
