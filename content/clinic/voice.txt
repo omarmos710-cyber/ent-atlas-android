@@ -58,13 +58,21 @@ Voice tremor often coexists. Exclude Parkinson disease, essential tremor, multip
 - **Voice therapy** helps alongside toxin but not alone; psychotherapy is ineffective.
 - **Surgery:** recurrent nerve section (abandoned because symptoms return); selective adductor denervation–reinnervation; type II (lateralisation) thyroplasty; thyroarytenoid myectomy.
 !ops 1 | Office-based laryngeal procedures, including botulinum toxin injection.
-!update Movement disorders of the larynx (Oxford Textbook)
-**Laryngeal dystonia** is the term a recent multidisciplinary consensus proposed to replace "spasmodic dysphonia". It is task-specific: speaking is affected, but whispering, laughing and crying are not. *Adductor* dystonia, the commonest, gives strained-strangled breaks on voiced sounds; *abductor* dystonia gives breathy breaks on voiceless consonants; mixed forms occur. Newer variants are *singer's* dystonia, affecting only singing, and *adductor respiratory* dystonia, with adductor spasms on inspiration causing stridor. A simple bedside test is to count from 80 to 90 (voiced sounds, worse in adductor dystonia) and from 60 to 70 (voiceless sounds, worse in abductor dystonia).
-
-**Vocal tremor** may be isolated or part of essential tremor of the head and hands, and is seen as rhythmic movement of the larynx and pharynx at rest phonation. **Parkinson's disease** gives a quiet, breathy, monotonous voice with bursts of rapid speech, usually after the limb signs; intensive loudness-focused voice therapy helps.
-
-**Inducible laryngeal obstruction** (formerly paradoxical vocal fold movement or vocal cord dysfunction) is inappropriate adduction of the folds on inspiration, triggered by exercise, irritants or cough, and often mistaken for asthma. Laryngoscopy is usually normal unless done during symptoms or provocation, and many patients have sensations of tightness and altered breathing rather than visible closure. It often coexists with **chronic refractory cough** (cough over eight weeks, affecting 5 to 10% of adults), and both are best managed in a multidisciplinary upper airway clinic with breathing and laryngeal control techniques taught by speech and language therapists.
+## Newer terms and variants
+*Laryngeal dystonia* is the term a recent multidisciplinary consensus proposed to replace "spasmodic dysphonia". It is task-specific: speaking is affected, but whispering, laughing and crying are not. Newer variants are *singer's* dystonia, affecting only singing, and *adductor respiratory* dystonia, with adductor spasms on inspiration causing stridor.
+!pearl Bedside test
+Ask the patient to count from 80 to 90 (voiced sounds, worse in adductor dystonia) and from 60 to 70 (voiceless sounds, worse in abductor dystonia).
 !!
+
+# Other movement disorders | Tremor, Parkinson's and inducible obstruction.
+## Vocal tremor
+May be isolated or part of essential tremor of the head and hands, and is seen as rhythmic movement of the larynx and pharynx on sustained phonation. Botulinum toxin reduces it partly.
+## Parkinson's disease
+A quiet, breathy, monotonous voice with bursts of rapid speech, usually after the limb signs. Intensive loudness-focused voice therapy (such as the Lee Silverman programme) helps.
+## Inducible laryngeal obstruction
+Formerly paradoxical vocal fold movement or vocal cord dysfunction: inappropriate adduction of the folds on inspiration, triggered by exercise, irritants or cough, and often mistaken for asthma. Laryngoscopy is usually normal unless done during symptoms or provocation (continuous laryngoscopy during exercise for the exercise-induced form), and many patients describe throat tightness and altered breathing rather than visible closure.
+## Chronic refractory cough
+Cough over eight weeks, affecting 5 to 10% of adults, often coexisting with inducible laryngeal obstruction. Both are best managed in a multidisciplinary upper airway clinic, with breathing and laryngeal control techniques taught by speech and language therapists; low-dose gabapentin or pregabalin helps some patients with refractory cough.
 
 # Resonance and fluency | Beyond the larynx.
 ## Hyponasality (rhinolalia clausa)
@@ -95,6 +103,9 @@ Dysarthria is a motor disorder of speech production (flaccid, spastic, ataxic, h
 - Use amplification in noisy rooms and classrooms.
 !!
 Voice therapy by a speech and language therapist retrains breathing, onset, pitch, resonance and muscle tension; it is the first treatment for nodules, muscle tension dysphonia, functional disorders and many benign lesions, and supports surgery.
+!update Current evidence
+**Hoarseness.** The American guideline recommends laryngoscopy when hoarseness has not settled within four weeks, or at once if a serious cause is suspected (smoking, a neck mass, recent surgery, airway symptoms); advises against antibiotics, steroids and antireflux drugs for hoarseness without a laryngeal examination; and recommends voice therapy for hoarseness that impairs quality of life (Stachler et al., *Otolaryngol Head Neck Surg* 2018). **Laryngeal dystonia.** Botulinum toxin is the treatment of choice: the American Academy of Neurology rated it probably effective for adductor spasmodic dysphonia (Simpson et al., *Neurology* 2008), and a multidisciplinary panel convened by the US National Institutes of Health proposed the term "laryngeal dystonia" (Simonyan et al., *Neurology* 2021). **Refractory cough.** In a randomised trial, gabapentin improved cough-specific quality of life over placebo (Ryan et al., *Lancet* 2012).
+!!
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials

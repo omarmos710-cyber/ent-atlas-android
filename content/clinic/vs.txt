@@ -36,9 +36,9 @@ One-sided and persistent.
 ### Balance
 Unsteadiness rather than true vertigo, because the brain compensates as slowly as the tumour grows.
 ## Fifth nerve
-At around 2.5 cm: reduced corneal reflex, often the earliest sign, then facial numbness.
+At around 2.5 cm: reduced corneal reflex, often the earliest sign, then facial numbness, which is present in only 7 to 9% of patients at diagnosis.
 ## Seventh nerve
-The sensory fibres fail first: numbness of the posterior meatal wall (*Hitselberger's sign*), loss of taste and reduced lacrimation. Motor weakness of the face comes late.
+The sensory fibres fail first: numbness of the posterior meatal wall (*Hitselberger's sign*), loss of taste and reduced lacrimation. Motor weakness of the face comes late, in only about 5% at presentation, even with large tumours; a schwannoma with early facial palsy should make you think of another diagnosis, such as a facial nerve schwannoma, a meningioma or a malignant tumour.
 ## Lower cranial nerves
 Ninth and tenth: dysphagia, hoarseness and a reduced gag.
 ## Cerebellum and brainstem
@@ -79,26 +79,29 @@ Arachnoid cyst | Follows CSF on all sequences
 # Management | Watch, radiate, or remove.
 ## Choosing
 The decision rests on tumour size and growth, hearing in both ears, age and health, and the patient's wishes.
+- **Small tumours (mostly in the canal, up to about 1.5 to 2 cm):** observation, radiosurgery or surgery are all reasonable; most are watched first.
+- **Medium tumours:** radiosurgery or surgery.
+- **Large tumours compressing the brainstem (over about 3 cm):** surgery, sometimes planned as near-total removal followed by radiosurgery to the remnant.
 !differ First choice
 Dhingra: Favours surgical removal.
 Lee: Presents observation, radiosurgery and microsurgery as equal options, chosen by patient and tumour.
 Modern practice follows Lee: many small tumours are simply watched.
 !!
 ## Observation
-For small tumours, older or unfit patients, and those with good hearing: serial MRI at 6 to 12 months, then less often. Treat if it grows.
+For small tumours, older or unfit patients, and those with good hearing. The first repeat MRI is at six months, to catch a fast-growing tumour or a wrong diagnosis, then yearly while stable, then less often. Treat if it grows. In large series only about 17% of intracanalicular and 29% of extrameatal tumours grew over four years, and growing tumours usually enlarge by 1 to 2 mm a year, so waiting rarely makes later treatment harder. The cost of waiting is hearing, which may decline even when the tumour does not grow.
 ## Stereotactic radiosurgery
-A single high dose (around 12 to 13 Gy at the margin), usually for tumours under 2.5 to 3 cm. Growth is controlled in 90 to 95%. Hearing is not reliably preserved; the facial nerve risk is about 1%; malignant change is very rare, about 1 in 1000. Conventional external beam radiotherapy has no role.
+A single session, usually 11 to 14 Gy at the margin (commonly 12 to 13 Gy), for tumours up to about 2.5 to 3 cm. Growth is controlled in 90 to 95%. A transient swelling of the tumour in the first year is expected and is not failure. Hearing is not reliably preserved and declines over the years; the facial nerve risk is about 1%; malignant change is very rare, about 1 in 1000. Surgery after failed radiosurgery carries a worse facial nerve outcome than primary surgery. Conventional external beam radiotherapy has no role.
 ## Microsurgery
 !table Surgical approaches
 Approach | Best for | Hearing | Main risk
 Translabyrinthine | Any size | Lost | CSF leak
 Retrosigmoid (suboccipital) | Medial, small or large tumours | May be preserved | Headache, cerebellar retraction
-Middle fossa | Canal tumours under 1.5 cm | Preserved in 60–70% | Temporal lobe retraction, facial nerve
+Middle fossa | Canal tumours up to about 1.5 cm | Preserved in 60–70% | Temporal lobe retraction, facial nerve
 !!
 ### Translabyrinthine
-Through the mastoid and labyrinth: no brain retraction and the best view of the facial nerve, but hearing is sacrificed.
+Through the mastoid and labyrinth: no brain retraction and the best view of the facial nerve, but hearing is sacrificed. It removes a tumour of any size, with good facial outcomes (House–Brackmann I or II) in most tumours under about 3.5 cm.
 ### Retrosigmoid
-Through the posterior fossa behind the sigmoid sinus: hearing can be preserved for tumours that spare the lateral canal; postoperative headache is commoner.
+Through the posterior fossa behind the sigmoid sinus: hearing can be preserved for tumours under about 2 cm that do not fill the lateral third of the canal; postoperative headache is commoner. In a large review, useful hearing (class A or B) was kept in 57% of intracanalicular tumours, 37% under 2 cm and 12% over 2 cm. No approach has been shown clearly superior for facial function.
 ### Middle fossa
 Above the temporal bone: for small intracanalicular tumours with good hearing. The facial nerve lies over the tumour and is at greater risk.
 !ops
@@ -113,12 +116,8 @@ Bevacizumab may shrink tumours and improve hearing. An auditory brainstem implan
 - CSF leak and meningitis.
 - Chronic headache, especially after the retrosigmoid route.
 - Hydrocephalus and brainstem compression with large tumours.
-!update Choosing between waiting, radiosurgery and surgery (Oxford Textbook)
-**Observation first** is now common for small tumours. In a large series followed for four years, only 17% of intracanalicular and 29% of extrameatal tumours grew, and growing tumours usually enlarge by 1 to 2 mm a year, so waiting rarely makes later treatment harder. The first repeat MRI is at six months, to catch a fast-growing tumour or a wrong diagnosis, then yearly while stable. The cost of waiting is hearing, which may decline even when the tumour does not grow.
-
-**Stereotactic radiosurgery**, usually a single session of 11 to 14 Gy at the margin, controls most small and medium tumours. Surgery after failed radiosurgery carries a worse facial nerve outcome than primary surgery.
-
-**Surgical approach** follows size and hearing. The *middle fossa* approach suits intracanalicular tumours up to about 1.5 cm with serviceable hearing. The *retrosigmoid* approach suits tumours under about 2 cm, not filling more than two-thirds of the internal meatus, with serviceable hearing; in a large review, class A or B hearing was kept in 57% of intracanalicular tumours, 37% under 2 cm and 12% over 2 cm. The *translabyrinthine* approach sacrifices hearing but gives direct access without brain retraction and can remove a tumour of any size; facial nerve outcomes at House–Brackmann I or II are high for tumours under about 3.5 cm. Guidelines find no approach clearly superior for facial function. Presenting features are mostly asymmetric hearing loss and tinnitus; facial numbness occurs in 7 to 9% and facial weakness in only about 5%, even with large tumours.
+!update Current evidence
+**Natural history.** In a Danish national cohort of more than 700 patients followed with MRI, 17% of intracanalicular and 29% of extrameatal tumours grew, and most growth showed in the first years of follow-up (Stangerup et al., *Otol Neurotol* 2006). **Upfront radiosurgery or wait and scan?** In the V-REX trial, 100 patients with small or medium tumours were randomised: at four years tumour volume fell with upfront radiosurgery and rose with wait and scan (42% of the waiting group needed radiosurgery for growth), but 25 of 26 secondary outcomes, including hearing, balance and quality of life, did not differ, and no radiation complications occurred (Dhayalan et al., *JAMA* 2023). **Guidelines.** The European (EANO) guideline recommends observation for small asymptomatic tumours, radiosurgery for small to medium tumours that grow or cause symptoms, and surgery for large tumours with mass effect, with a team approach (Goldbrunner et al., *Neuro Oncol* 2020). The American Congress of Neurological Surgeons guidelines find no approach superior for facial nerve outcome and support MRI with gadolinium as the diagnostic standard (Olson et al., *Neurosurgery* 2018).
 !!
 
 # For the examination | What the examiner wants to hear.

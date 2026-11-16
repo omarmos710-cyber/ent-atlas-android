@@ -133,7 +133,7 @@ Universal **newborn hearing screening** uses automated otoacoustic emissions, fo
 ## Age-related hearing loss
 Presbycusis is a symmetrical high-frequency sensorineural loss. Untreated hearing loss in mid-life is the largest single modifiable risk factor for dementia identified by the Lancet Commission, and hearing aids are associated with reduced cognitive decline in those at risk; this is a strong reason to offer amplification early.
 ## Implantable hearing
-**Cochlear implants** are offered in the UK to adults and children whose hearing thresholds are 80 dB HL or worse at two or more frequencies between 500 and 4000 Hz in both ears and who gain inadequate benefit from hearing aids, measured by a sentence test score of 50% or less. **Bone-conduction implants**, **middle ear implants** and implants for single-sided deafness extend the options.
+**Cochlear implants** are offered in the UK to adults and children whose hearing thresholds are 80 dB HL or worse at two or more frequencies between 500 and 4000 Hz in both ears and who gain inadequate benefit from hearing aids, defined in adults as a score of 50% or less on the Arthur Boothroyd word test at 70 dB SPL (NICE, 2019). **Bone-conduction implants**, **middle ear implants** and implants for single-sided deafness extend the options.
 ## Single-sided deafness
 Poor sound localisation and difficulty in noise, even with normal speech elsewhere. Bone-anchored devices, CROS aids or a cochlear implant help; the only hearing ear must be protected.
 !ward In clinic
@@ -142,6 +142,9 @@ Poor sound localisation and difficulty in noise, even with normal speech elsewhe
 3. Asymmetric sensorineural loss needs MRI.
 4. Look for treatable causes before fitting an aid.
 5. Warn anyone with one hearing ear to protect it.
+!!
+!update Current evidence
+**Adults.** NICE (NG98, 2018) recommends offering hearing aids to adults whose hearing loss affects their ability to communicate, without a threshold cut-off; same-day referral for unexplained sudden loss that developed over three days or less within the past 30 days, and referral within two weeks if it was longer ago; and MRI for asymmetric sensorineural loss. Hearing loss is the largest modifiable risk factor for dementia, accounting for about 7% of cases (Livingston et al., *Lancet* 2024). In the ACHIEVE trial of 977 adults aged 70 to 84, a hearing intervention did not slow cognitive decline overall over three years, but slowed it by about 48% in the subgroup at higher risk of dementia (Lin et al., *Lancet* 2023). **Implants.** NICE (TA566, 2019) widened cochlear implant criteria to 80 dB HL at two or more frequencies with Arthur Boothroyd word scores of 50% or less. **Children.** The American Joint Committee on Infant Hearing keeps the 1-3-6 targets (screen by one month, diagnose by three, intervene by six) and encourages 1-2-3 months where possible (*J Early Hear Detect Interv* 2019).
 !!
 
 # Pathway | From complaint to plan.

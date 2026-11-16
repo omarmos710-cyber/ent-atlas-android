@@ -119,12 +119,14 @@ Contrast MRI of the whole course, and CT of the temporal bone for fractures and 
 ## Eye protection
 Lubricating drops by day, ointment and taping at night, sunglasses or a moisture chamber. If closure stays poor, a gold or platinum weight in the upper lid, a lateral tarsal strip or tarsorrhaphy.
 ## Bell's palsy
-Oral steroids started within 72 hours, for example prednisolone 60 mg daily for five days followed by a five-day taper. An antiviral may add a small benefit in severe palsy.
+Oral steroids started within 72 hours of onset, for example prednisolone 50 mg daily for ten days, or 60 mg daily for five days followed by a five-day taper. With steroids, about 83% recover fully by three months, against 64% without. An antiviral alone does not help; added to steroids it may give a small benefit, so it is an option, not a rule, mainly in severe or complete palsy. Steroids are recommended in patients aged 16 and over; children recover well spontaneously, and the evidence in them is weaker.
 !differ Steroids in Bell's palsy
 Dhingra: Prednisolone 1 mg/kg/day, extended if the palsy stays complete; notes that benefit is not proved beyond doubt.
 Lee: Recommends steroids within 48 to 72 hours.
-Current practice gives early steroids.
+Current practice: two large trials have settled the question; early steroids are standard.
 !!
+## What not to do in Bell's palsy
+The American guideline advises against routine laboratory tests and imaging at presentation, and against electrodiagnostic testing in incomplete palsy. Image, or refer, if the palsy is atypical: slow onset, no recovery at all by three to four months, recurrence on the same side, other cranial nerve signs, or a parotid mass.
 Be cautious with steroids in diabetes, hypertension, peptic ulcer, tuberculosis, glaucoma and pregnancy.
 ## Ramsay Hunt syndrome
 High-dose steroids with an antiviral such as aciclovir or valaciclovir, and analgesia.
@@ -160,6 +162,9 @@ Brow lift, fascia lata sling and lid procedures.
 !fig d14-13 | Hemifacial spasm: all the facial muscles and platysma contract together.
 ## Hemifacial spasm
 Usually from a vascular loop compressing the nerve at the brainstem. Treated with botulinum toxin, or microvascular decompression.
+!update Current evidence
+**Steroids work, antivirals add little.** In the Scottish trial of 551 patients treated within 72 hours, prednisolone raised complete recovery at three months from 64% to 83%, and aciclovir gave no benefit (Sullivan et al., *NEJM* 2007). A Swedish and Finnish trial of more than 800 patients confirmed the benefit of prednisolone and found none from valaciclovir (Engström et al., *Lancet Neurol* 2008). A Cochrane review found that steroids reduce incomplete recovery by about a third, with moderate-certainty evidence (Madhok et al., 2016); another found that adding an antiviral to steroids may slightly reduce incomplete recovery, with low-certainty evidence, and that antivirals alone are no better than placebo (Gagyor et al., 2019). The American guideline recommends steroids within 72 hours for patients aged 16 and over, allows an antiviral only alongside steroids, and advises against routine tests, imaging and electrodiagnosis in incomplete palsy, and against surgical decompression outside research or selected cases (Baugh et al., *Otolaryngol Head Neck Surg* 2013).
+!!
 
 # For the examination | What the examiner wants to hear.
 ## On call
