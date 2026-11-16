@@ -21,7 +21,7 @@ Treacher Collins, Goldenhar and hemifacial microsomia, Crouzon, and branchio-oto
 - **Grade III:** a soft-tissue remnant, the *peanut ear*.
 - **Grade IV:** anotia.
 !fig d8-3 | Grade III microtia of the right ear (peanut ear).
-## Middle ear (Lee)
+## Middle ear
 - **Class I:** normal pinna with an ossicular defect, the commonest.
 - **Class II:** microtia and atresia with an aerated middle ear and mastoid.
 - **Class III:** poorly aerated, underdeveloped middle ear and mastoid.
@@ -50,23 +50,30 @@ Renal ultrasound when preauricular pits accompany neck fistulae (branchio-oto-re
 # Management | Hearing, then the ear.
 ## Hearing
 - **Bilateral atresia:** a bone-conduction aid on a headband within the first months, by six months at the latest.
-- **Unilateral atresia with a normal other ear:** speech usually develops normally; preferential seating at school and monitoring; amplification is optional.
+- **Unilateral atresia with a normal other ear:** speech usually develops normally, but these children have more educational difficulty than once thought. Preferential seating at school and monitoring; early bone-conduction amplification is increasingly offered.
 - A bone-anchored implant from around five or six years.
 ## The pinna
-Reconstruction with autologous rib cartilage in stages, usually at about five to eight years when there is enough cartilage, or a porous polyethylene framework, or an osseointegrated prosthesis.
+Reconstruction with autologous rib cartilage in stages, once there is enough cartilage, or a porous polyethylene framework, or an osseointegrated prosthesis. The pinna is reconstructed before any canal surgery.
+!differ Age for rib cartilage reconstruction
+Some texts: About five to eight years.
+Others: About eight to ten years.
+In practice: Plan rib cartilage reconstruction for about eight to ten years, when there is enough cartilage; some centres start earlier.
+!!
 ## The canal
 ### Selection
-Canal surgery suits ears with a conductive loss over 30 dB, bone conduction better than 20 dB, and a well-aerated middle ear with a favourable facial nerve on CT. The pinna is reconstructed first so the canal can be placed correctly.
+Canal surgery suits ears with a conductive loss over 30 dB, bone conduction better than 20 dB, and a well-aerated middle ear with a favourable facial nerve on CT. The *Jahrsdoerfer score* (10 points from CT and the appearance of the pinna) predicts hearing results: a score of 7 or more gives a good chance of a useful result. The pinna is reconstructed first so the canal can be placed correctly.
+### Results
+Even in good hands, only about half of patients reach an air–bone gap under 30 dB long term, and canal restenosis and facial nerve risk are real, so **bone-conduction devices** (headband in infancy, then an implant) are now chosen by most families ([[t:rehab]]).
 ### Risks
 Facial nerve injury, restenosis of the new canal, lateralisation of the graft and sensorineural loss.
 !ops
 ## Preauricular sinus
-Leave it alone unless it becomes infected; then excise the whole tract.
+Leave it alone unless it becomes infected; then excise the whole tract ([[t:earminor]]).
 !flag The facial nerve
 In atresia the facial nerve often runs more anteriorly and laterally than usual, crossing the area where the canal would be drilled. First branchial cleft anomalies also run close to it.
 !!
 !update Current evidence
-**Candidacy for atresia repair.** The Jahrsdoerfer score (10 points from CT and the appearance of the pinna) predicts hearing results: a score of 7 or more gives a good chance of a useful result (Jahrsdoerfer et al., *Am J Otol* 1992). Even in good hands, only about half of patients reach an air–bone gap under 30 dB long term, and canal restenosis and facial nerve risk are real, so **bone-conduction devices** (headband in infancy, then an implant) are now chosen by most families. **Unilateral atresia.** Children with one atretic ear and normal hearing in the other have more educational difficulty than once thought, and early bone-conduction amplification is increasingly offered. **Microtia.** Reconstruction with rib cartilage is usually done at about eight to ten years, and the pinna is reconstructed before any canal surgery.
+**Candidacy for atresia repair.** The Jahrsdoerfer score comes from Jahrsdoerfer et al. (*Am J Otol* 1992). Long-term series confirm the modest hearing results of canal surgery, which is why most families now choose bone-conduction devices. **Unilateral atresia.** Educational difficulty in these children is now recognised, and early amplification is increasingly offered.
 !!
 
 # For the examination | What the examiner wants to hear.

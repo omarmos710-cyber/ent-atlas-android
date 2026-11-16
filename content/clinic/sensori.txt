@@ -24,6 +24,7 @@ Others include deferoxamine, some ear drops (aminoglycosides and polymyxin) thro
 !differ Tobramycin
 Dhingra: Mainly vestibulotoxic.
 Lee: Mainly cochleotoxic.
+In practice: Treat tobramycin as able to damage both, and monitor hearing and balance.
 !!
 ## Aminoglycosides
 Hair cells are damaged from the basal turn upwards, so high frequencies go first. Hearing loss may appear during or after treatment. Risk is higher with renal impairment, age over 65, high blood levels, long courses, previous exposure, loop diuretics, and genetic susceptibility: mitochondrial 12S rRNA mutations make even a single dose dangerous, so ask about family members who went deaf after these drugs.
@@ -35,42 +36,37 @@ Avoid ototoxic drugs where alternatives exist, monitor levels and renal function
 New tinnitus, hearing loss or imbalance on an aminoglycoside or cisplatin: alert the treating team, check levels and renal function, and test hearing.
 !!
 ## Deliberate use
-Gentamicin's vestibular toxicity is used therapeutically in Ménière's disease.
+Gentamicin's vestibular toxicity is used therapeutically in Ménière's disease ([[t:meniere]]).
 
 # Noise-induced hearing loss | Loud sound over time.
 ## Mechanism
-Outer hair cells in the basal turn fail first, around the region that responds to 4 kHz.
+Noise first stiffens and then kills the **outer hair cells** of the basal turn, around the region that responds to 4 kHz; 3, 4 and 6 kHz are affected first.
 ### Temporary threshold shift
 Hearing dulls after loud exposure and recovers.
 !differ Recovery from a temporary shift
 Dhingra: Up to two weeks.
 Lee: Within 24 hours.
+In practice: Most temporary shifts recover within a day, but allow up to two weeks before calling a loss permanent.
 !!
 ### Permanent threshold shift
-Repeated exposure leads to irreversible loss.
-### Acoustic trauma
-A single blast or explosion (around 140 dB or more) can rupture the drum, disrupt the ossicles and damage the cochlea at once.
+Repeated exposure turns the temporary shift into irreversible loss.
+### Acute acoustic trauma
+A single blast or impulse (around 140 dB or more) causes immediate loss without a preceding temporary shift, often with tinnitus. It can rupture the drum, disrupt the ossicles and damage the cochlea at once. Treat the inner ear loss like sudden sensorineural loss, with early steroids ([[t:ssnhl]]).
 !anat s78_13 | The organ of Corti: outer hair cells are the first casualties of noise and ototoxic drugs.
 ## Clinical picture
 High-pitched tinnitus and difficulty hearing in noise. The audiogram shows a symmetrical *notch at 4 kHz*, which deepens and widens into the speech frequencies with continued exposure.
 !fig d5-7 | Early noise-induced hearing loss, with a dip at 4000 Hz.
 ## Safe limits
-!pearl Noise exposure rules
-- Dhingra's occupational limit: 90 dBA for 8 hours; no continuous exposure over 115 dBA; no impulse over 140 dBA.
-- The *5 dB rule*: each 5 dB rise halves the safe duration.
-- Hearing conservation (protection and audiometry) starts at 85 dBA.
-- Limits differ by country; check local regulations.
+Limits differ by country, so check local regulations.
+!differ Exposure limits and the exchange rate
+Dhingra: Occupational limit of 90 dBA for 8 hours; no continuous exposure over 115 dBA; no impulse over 140 dBA. The *5 dB rule*: each 5 dB rise halves the safe duration. Hearing conservation (protection and audiometry) starts at 85 dBA.
+Oxford: The UK Control of Noise at Work Regulations 2005 set a lower action value of 80 dB(A), when protection must be offered and information given, and an upper action value of 85 dB(A), when protection is compulsory and hearing surveillance required, with an absolute limit of 87 dB(A) at the ear allowing for protection. European and UK practice uses a 3 dB exchange rate (each 3 dB doubles the energy and halves the safe time); the 5 dB rule is the older American occupational convention.
+In practice: In the UK, offer protection from 80 dB(A) and make it compulsory, with hearing surveillance, from 85 dB(A). Know the 90 dBA limit and the 5 dB rule for the examination.
 !!
 ## Prevention and management
 Remove from exposure, reduce noise at source, and use hearing protection: earplugs give about 15 to 30 dB, earmuffs 30 to 40 dB, and both together more. Protectors work better at high than low frequencies. Pre-employment and annual audiograms. Hearing aids for established loss.
-!differ Exposure limits and the exchange rate
-Dhingra: Occupational limit of 90 dBA for 8 hours, with each 5 dB rise halving the safe duration.
-Oxford: The UK Control of Noise at Work Regulations 2005 set a lower action value of 80 dB(A), when protection must be offered and information given, and an upper action value of 85 dB(A), when protection is compulsory and hearing surveillance required, with an absolute limit of 87 dB(A) at the ear allowing for protection. European and UK practice uses a 3 dB exchange rate (each 3 dB doubles the energy and halves the safe time); the 5 dB rule is the older American occupational convention.
-!!
 ## Medicolegal diagnosis
-Noise first stiffens and then kills the **outer hair cells**, producing a temporary threshold shift that becomes permanent with continued exposure; 3, 4 and 6 kHz are affected first. The **Coles, Lutman and Buffin (CLB) guidelines** require high-frequency loss beyond that expected for age, a cumulative noise immission level of at least 100 dB (roughly 85 dB(A) daily for many years), and a notch or bulge at 3 to 6 kHz at least 10 dB deeper than the thresholds at 1 or 2 kHz and at 6 or 8 kHz.
-## Acute acoustic trauma
-A single blast or impulse causes immediate loss without a preceding temporary shift, often with tinnitus, and may rupture the drum. Treat the inner ear loss like sudden sensorineural loss, with early steroids.
+The **Coles, Lutman and Buffin (CLB) guidelines** require high-frequency loss beyond that expected for age, a cumulative noise immission level of at least 100 dB (roughly 85 dB(A) daily for many years), and a notch or bulge at 3 to 6 kHz at least 10 dB deeper than the thresholds at 1 or 2 kHz and at 6 or 8 kHz.
 ## Hidden hearing loss
 Animal work showed that noise can destroy the synapses between inner hair cells and the cochlear nerve while thresholds recover (**cochlear synaptopathy**), which may explain difficulty hearing in noise with a normal audiogram; in humans the effect appears variable and is still debated. Recreational noise, from personal music players, concerts and shooting, is an increasingly important cause in young people.
 
@@ -86,7 +82,7 @@ Strial (metabolic) | Stria vascularis | Flat | Good
 Cochlear conductive | Stiff basilar membrane | Gently sloping | Moderate
 !!
 ## Management
-Hearing aids, assistive listening devices, speech reading and communication tactics; cochlear implants for severe loss. Untreated hearing loss is linked with isolation and cognitive decline.
+Hearing aids, assistive listening devices, speech reading and communication tactics; cochlear implants for severe loss ([[t:rehab]]). Untreated hearing loss is linked with isolation and cognitive decline.
 !ops
 
 # Immune-mediated inner ear disease | The treatable one.
@@ -99,12 +95,12 @@ Bilateral loss of 30 dB or more with progression on serial audiograms within thr
 ## Treatment
 Prednisolone 1 mg/kg/day, up to 60 mg, for four weeks. Responders (an improvement of 15 dB at one frequency or 10 dB at consecutive frequencies, or better discrimination) continue to a plateau and taper to the lowest maintenance dose over months. For steroid intolerance or dependence: methotrexate, cyclophosphamide (more toxic), biological agents or intratympanic steroids; note that in a randomised trial methotrexate was no better than placebo at maintaining the hearing gained with steroids (Harris et al., *JAMA* 2003), so steroid-sparing drugs are given on specialist advice only. Cochlear implantation if hearing is lost.
 !update Current evidence
-**Cisplatin.** In the SIOPEL 6 trial in children with standard-risk hepatoblastoma, sodium thiosulfate after cisplatin cut hearing loss from 63% to 33% without reducing survival (Brock et al., *NEJM* 2018); the American ACCL0431 trial found a similar reduction (Freyer et al., *Lancet Oncol* 2017). **Aminoglycosides.** The m.1555A>G variant, carried by about 1 in 500 people, can cause profound deafness after a single dose; a point-of-care test in neonatal intensive care identified carriers within about 26 minutes without delaying antibiotics (McDermott et al., *JAMA Pediatr* 2022), and NICE has recommended it (2023). **Noise.** Kujawa and Liberman showed in mice that noise causing only a temporary threshold shift destroys cochlear synapses permanently (*J Neurosci* 2009). The World Health Organization estimates that more than a billion young people are at risk from unsafe listening, and its global standard for safe listening venues (2022) sets an average limit of 100 dB(A) over 15 minutes. **Autoimmune inner ear disease.** In a randomised trial, methotrexate was no better than placebo in maintaining the hearing gained with steroids (Harris et al., *JAMA* 2003).
+**Cisplatin.** In the SIOPEL 6 trial in children with standard-risk hepatoblastoma, sodium thiosulfate after cisplatin cut hearing loss from 63% to 33% without reducing survival (Brock et al., *NEJM* 2018); the American ACCL0431 trial found a similar reduction (Freyer et al., *Lancet Oncol* 2017). **Aminoglycosides.** The m.1555A>G variant, carried by about 1 in 500 people, can cause profound deafness after a single dose; a point-of-care test in neonatal intensive care identified carriers within about 26 minutes without delaying antibiotics (McDermott et al., *JAMA Pediatr* 2022), and NICE has recommended it (2023). **Noise.** Kujawa and Liberman showed in mice that noise causing only a temporary threshold shift destroys cochlear synapses permanently (*J Neurosci* 2009). The World Health Organization estimates that more than a billion young people are at risk from unsafe listening, and its global standard for safe listening venues (2022) sets an average limit of 100 dB(A) over 15 minutes.
 !!
 
 # Differential diagnosis | Others to exclude.
-- Vestibular schwannoma.
-- Ménière's disease.
+- Vestibular schwannoma ([[t:vs]]).
+- Ménière's disease ([[t:meniere]]).
 - Syphilis.
 - Multiple sclerosis.
 - Familial progressive sensorineural loss.
