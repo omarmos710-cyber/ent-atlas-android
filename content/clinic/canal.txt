@@ -15,20 +15,24 @@ Wax (cerumen) is a mixture of secretions of the ceruminous and sebaceous glands 
 A narrow or tortuous canal, stiff hairs, exostoses, overactive glands, and pushing wax deeper with cotton buds or hearing aid moulds.
 ## Clinical picture
 A blocked ear and hearing loss, sometimes tinnitus or giddiness, and occasionally a reflex cough through the auricular branch of the vagus (*Arnold's nerve*). Sudden blockage after bathing happens when water swells dry wax.
+## When to remove it
+Treat wax only when it causes symptoms or hides the drum that needs to be seen; wax that does neither is left alone. Cotton buds and ear candling are not recommended.
 ## Removal
-### Softening
-Hard wax is softened first with sodium bicarbonate glycerine drops, olive or almond oil, or hydrogen peroxide for a few days.
-### Syringing (irrigation)
-Pull the pinna up and back and direct a stream of water at body temperature along the posterosuperior canal wall, so that it flows behind the wax and pushes it out. Dry the ear and inspect the drum afterwards.
+There are three methods, and the choice depends on where you are and on the ear.
+### Softening drops
+Hard wax is softened first, for a few days, with sodium bicarbonate glycerine drops, olive or almond oil, or hydrogen peroxide. Any drops, even water or saline, work better than none, with no clear winner among them.
+### Irrigation (syringing)
+Irrigation is the usual method in primary care and community services. Pull the pinna up and back and direct a stream of water at body temperature along the posterosuperior canal wall, so that it flows behind the wax and pushes it out. Dry the ear and inspect the drum afterwards.
 !fig d8-13 | (A) Irrigation of the ear canal. (B) The jet passes behind the wax or foreign body and pushes it out.
-!flag Do not syringe when
-- There is a perforation, or a history of discharge or ear surgery.
+!flag Do not irrigate when
+- There is a perforation, a grommet, or a history of discharge or ear surgery.
 - The patient has had a previous perforation that may be thin.
-- The foreign body is vegetable matter that will swell.
-- The patient has an only hearing ear (relative).
+- There has been a complication from irrigation before.
+- The patient has an only hearing ear.
+- The canal holds vegetable matter, which swells, or a button battery.
 !!
 ### Under the microscope
-Suction or instruments (a wax hook, Jobson-Horne probe or crocodile forceps) under direct vision, when syringing is unsuitable.
+In the ENT clinic, wax is removed under direct vision with the microscope: suction, or instruments such as a wax hook, Jobson-Horne probe or crocodile forceps. This is the method whenever irrigation is unsuitable.
 !fig d8-14 | Other methods of removal: (A) suction and (B) forceps.
 ## Complications of removal
 Perforation, canal laceration and bleeding, otitis externa, and vertigo if the water is not at body temperature.
@@ -42,36 +46,47 @@ Insects (flies, cockroaches, ants), which cause intense discomfort and noise, an
 !fig d8-15 | An insect in the ear canal, seen with an endoscope (arrow).
 ## Removal
 ### General principles
-Use good light, the microscope and the right instrument. A cooperative patient, or a general anaesthetic for children and for impacted objects or a failed first attempt.
+Remove under direct vision, with good light, the microscope and the right instrument. A cooperative patient is essential; use a general anaesthetic for children, for impacted objects, and after a failed first attempt. Most foreign bodies can wait for the right setting, because a bad first attempt makes the second harder.
+### Graspable objects
+Paper, cotton and other soft or irregular objects are taken with crocodile forceps.
 ### Smooth, round objects
-Do not grasp with forceps: they slip and are pushed deeper past the isthmus. Use a hook passed beyond the object, suction, or syringing (if not vegetable).
+Never grasp a bead, pea or stone with forceps: it slips and is pushed past the isthmus towards the drum. Pass an angled hook or curette beyond the object and roll it out from behind, or use suction.
+!differ Irrigation for a foreign body
+Dhingra: Syringing is an option for a smooth object that is not vegetable matter.
+Oxford texts: Irrigation is not recommended in the ENT clinic; hook the object out from behind instead.
+In practice: Use the microscope and a hook or suction in the ENT clinic. Never irrigate vegetable matter or a button battery, or an ear with a perforation.
+!!
 ### Insects
-Kill first by filling the canal with oil or spirit, then remove by forceps or syringing.
+Kill the insect first by filling the canal with oil or spirit, then remove it with forceps or suction.
 ### Maggots
-Instil chloroform water or turpentine to kill them, then remove with forceps over several sittings; do not syringe. Treat the underlying ear disease.
+Instil chloroform water or turpentine to kill them, then remove them with forceps over several sittings; do not irrigate. Treat the underlying ear disease.
 ### Button batteries
-Remove urgently: they leak alkali and cause rapid tissue necrosis. Do not instil drops or water.
+Remove urgently: they leak alkali and cause rapid liquefactive necrosis. Do not instil drops or water.
 ### Impacted deep objects
-A post-aural approach may be needed for objects medial to the isthmus.
-!pearl Pearls
-- Most foreign bodies can wait for the right setting; a bad first attempt makes the second harder.
-- Always inspect the drum and the other ear (and the nostrils in a child) afterwards.
+An object pushed medial to the isthmus may need a postaural approach.
+!pearl After any removal
+Inspect the drum, then the other ear, and in a child the nostrils as well.
 !!
 !ops
 
-# Canal stenosis | Narrowing after injury.
-## Causes
-Acquired from chronic otitis externa, trauma, burns, surgery or radiation; congenital stenosis and atresia are covered separately.
+# Narrowing and bony growths | Stenosis, exostoses and osteoma.
+## Acquired canal stenosis
+Fibrous narrowing after chronic otitis externa, trauma, burns, surgery or radiation; congenital stenosis and atresia are covered in [[t:atresia]]. It is treated by meatoplasty, excising the fibrous tissue and resurfacing with skin flaps or grafts, with a stent while the canal heals.
 !imaging | Canal stenosis and exostoses.
+## Exostoses and osteoma
+Both are bony swellings of the bony canal, and they are told apart by number, shape, site and cause.
+!table Exostoses or osteoma?
+ | Exostoses | Osteoma
+Number and sides | Multiple, usually both ears | Single, one ear
+Shape | Broad-based (sessile) | Pedunculated
+Site | Deep in the bony canal, near the drum | Outer bony canal, at a suture line (tympanosquamous or tympanomastoid)
+Cause | Repeated cold water and wind ("surfer's ear") | A true benign tumour, unrelated to cold water
+!!
+Both are usually symptomless, but they can trap wax and debris, causing recurrent otitis externa, a conductive loss and, rarely, canal cholesteatoma.
 ## Treatment
-Meatoplasty with excision of the fibrous tissue and skin flaps or grafts, and canal stenting while it heals.
-# Exostoses and osteomas | Bony swellings of the canal.
-## Exostoses and osteomas
-**Exostoses** are broad-based, usually multiple and bilateral bony swellings deep in the bony canal, caused by repeated exposure to cold water and wind ("surfer's ear"). **Osteomas** are single, pedunculated lesions arising at the tympanomastoid or tympanosquamous suture lines, unrelated to cold water. Both are usually symptomless but can trap wax and debris, causing recurrent otitis externa, a conductive loss and, rarely, canal cholesteatoma. Symptomatic patients are managed with regular microsuction and drops, and surgery is offered when that fails: a postauricular or endaural approach with a posterior meatal skin flap and removal of bone with a drill or chisel, protecting the canal skin, the drum and, posteriorly, the facial nerve. Cold-water ear protection reduces recurrence. In a child, an apparent bony stenosis may be a mild congenital atresia, so CT is advised before operating.
-## Removing foreign bodies safely
-**Foreign bodies** in the canal are removed under direct vision. Graspable objects are taken with forceps; round or smooth objects are hooked from behind with an angled hook, curette or suction rather than grasped, because forceps push them towards the drum. Irrigation is not recommended in the ENT clinic, and must never be used for vegetable matter, which swells, or for button batteries, which need urgent removal because they cause liquefactive necrosis.
+Regular microsuction and drops first. Surgery when that fails: a postauricular or endaural approach, a posterior meatal skin flap, and removal of bone with a drill, protecting the canal skin, the drum and, posteriorly, the facial nerve. An osteoma can often be removed by fracturing its pedicle. Cold-water ear protection reduces the recurrence of exostoses, which return in surfers who keep swimming without it. In a child, an apparent bony stenosis may be a mild congenital atresia, so obtain a CT before operating. Tumours of the canal skin and glands are covered in [[t:extca]].
 !update Current evidence
-**Earwax.** The American guideline recommends treating wax only when it causes symptoms or blocks the examination, using drops, irrigation or manual removal (including microsuction), and advises against cotton buds, ear candling and routine removal in asymptomatic patients (Schwartz et al., *Otolaryngol Head Neck Surg* 2017). NICE (NG98, 2018) advises against cotton buds and recommends microsuction or irrigation, in primary care or community services, when wax causes hearing loss or blocks the view. A Cochrane review found that any drops, including water or saline, are better than none, with no clear winner among them (Aaron et al., 2018). **Irrigation** is avoided with a perforation, previous ear surgery, a grommet, an only hearing ear or a history of complications. **Exostoses** recur in surfers who continue cold-water exposure without ear protection.
+**Earwax.** The American guideline recommends treating wax only when it causes symptoms or blocks the examination, using drops, irrigation or manual removal (including microsuction), and advises against cotton buds, ear candling and routine removal in asymptomatic patients (Schwartz et al., *Otolaryngol Head Neck Surg* 2017). NICE (NG98, 2018) advises against cotton buds and recommends microsuction or irrigation, in primary care or community services, when wax causes hearing loss or blocks the view. A Cochrane review found that any drops, including water or saline, are better than none, with no clear winner among them (Aaron et al., 2018).
 !!
 
 # For the examination | What the examiner wants to hear.
@@ -86,14 +101,15 @@ Meatoplasty with excision of the fibrous tissue and skin flaps or grafts, and ca
 ## Viva essentials
 !exam What the examiner is looking for
 - **Anatomy:** cartilaginous and bony parts, the isthmus, the anterior recess.
-- **Technique of syringing** and its contraindications.
+- **Irrigation:** technique, where it is used, and when not to irrigate.
 - **Removal of foreign bodies,** living and non-living.
+- **Exostoses versus osteoma.**
 - **Arnold's nerve** and the ear cough reflex.
 !!
 ## Common pitfalls
 !pit
-- Syringing an ear with a perforation.
+- Irrigating an ear with a perforation.
 - Grasping a bead with forceps.
-- Syringing vegetable matter.
+- Irrigating vegetable matter.
 - Delaying removal of a button battery.
 !!
