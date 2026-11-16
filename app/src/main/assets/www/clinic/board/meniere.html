@@ -38,10 +38,11 @@ th{font:700 15px Kalam;color:var(--c)}
 .gcol>.card:first-child{margin-top:4px}
 h1{font-size:64px}
 </style></head><body>
+<style>.grid.even{align-items:stretch}.even>.gcol{display:flex;flex-direction:column}.even>.gcol>.card:last-child{flex:1}.st{display:inline-flex;align-items:center;gap:2px}</style>
 <h1>MÉNIÈRE'S DISEASE</h1>
 <div class="sub">an ear that fills and fades ✎</div>
 
-<div class="grid"><div class="gcol">
+<div class="grid even" style="grid-template-columns:1.293fr 0.975fr 0.732fr"><div class="gcol">
 
 <div class="card" style="--c:var(--blue)">
 <h2><span class="n">1</span>Idiopathic endolymphatic hydrops</h2>
@@ -87,8 +88,6 @@ h1{font-size:64px}
 <div class="mini"><b>Theories:</b> poor sac absorption (small, poorly pneumatised sac / duct) · vasomotor spasm · allergy, autoimmunity · salt + water retention · hypothyroidism · virus</div>
 </div>
 
-</div><div class="gcol">
-
 <div class="card" style="--c:var(--red)">
 <h2><span class="n">3</span>The attack and the interval</h2>
 <ul class="mini" style="--c:var(--red)">
@@ -104,6 +103,8 @@ h1{font-size:64px}
 <tr><td><b>Tumarkin crisis</b></td><td>sudden <b>drop attacks</b>, no LOC (otolith) → definitive treatment</td></tr></table>
 </div>
 
+</div><div class="gcol">
+
 <div class="card" style="--c:var(--purple)">
 <h2><span class="n">4</span>Criteria (Bárány / AAO-HNS 2015)</h2>
 <table style="--c:var(--purple)"><tr><th></th><th>Needs</th></tr>
@@ -112,8 +113,6 @@ h1{font-size:64px}
 <div class="warn mini"><b>12-hour limit</b> separates it from <b>vestibular migraine</b>: about ten times commoner, overlaps, commonest misdiagnosis</div>
 <div class="mini" style="margin-top:4px">1995 categories replaced · <b>Stage</b> by mean 0.5, 1, 2, 3 kHz (worst audiogram, last six months): <b>1</b> ≤25 · <b>2</b> 26–40 · <b>3</b> 41–70 · <b>4</b> &gt;70 dB</div>
 </div>
-
-</div><div class="gcol">
 
 <div class="card" style="--c:var(--orange)">
 <h2><span class="n">5</span>Tests</h2>
@@ -149,19 +148,27 @@ h1{font-size:64px}
 <tr><td rowspan="2"><b>useful</b></td><td><b>preserve</b>: intratympanic steroid, sac surgery, pressure-pulse</td></tr>
 <tr><td><b>destroy vestibule</b>: IT gentamicin, vestibular neurectomy</td></tr>
 <tr><td><b>lost</b></td><td><b>labyrinthectomy</b> (± cochlear implant)</td></tr></table>
-<ul class="mini" style="--c:var(--ink);margin-top:4px">
+</div>
+
+<div class="card" style="--c:var(--ink)">
+<h2><span class="n">8</span>The options in detail</h2>
+<ul class="mini" style="--c:var(--ink);">
 <li><b>IT steroid</b> usually first: = gentamicin for vertigo, no hearing risk (Patel 2016: 90% vs 87% fewer attacks at two years)</li>
 <li><b>IT gentamicin</b> titrated: vertigo control <b>80–90%</b>, hearing loss 4–30%</li>
 <li><b>Meniett</b> pressure pulses: no clear benefit; US guideline advises against</li>
 <li><b>Sac surgery</b> (decompression = shunt): ≥75% control after failed medical (Sood 2014), but no placebo proof</li>
 <li><b>Neurectomy</b>: high control, hearing kept, needs craniotomy</li>
 </ul>
+</div>
+
+<div class="card" style="--c:var(--ink)">
+<h2><span class="n">9</span>Before you destroy</h2>
 <div class="warn mini"><b>Before destroying one ear, check the other:</b> up to half get the second ear over twenty years; bilateral ablation → <b>oscillopsia</b></div>
 <div class="mini" style="margin-top:4px">Recruitment makes aids hard to fit · sacculotomy, Cody tack = historical · US guideline 2020: IT steroid for active disease, gentamicin / labyrinthectomy after failure</div>
 </div>
 
 <div class="card" style="--c:var(--red)">
-<h2><span class="n">8</span>Exam traps ✗</h2>
+<h2><span class="n">10</span>Exam traps ✗</h2>
 <ul class="mini" style="--c:var(--red)">
 <li>Every dizzy patient called Ménière's <b>without documented hearing loss</b></li>
 <li>No <b>MRI</b> to exclude schwannoma</li>

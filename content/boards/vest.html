@@ -1,7 +1,8 @@
+<style>.grid.even{align-items:stretch}.even>.gcol{display:flex;flex-direction:column}.even>.gcol>.card:last-child{flex:1}.st{display:inline-flex;align-items:center;gap:2px}</style>
 <h1>VESTIBULAR TESTING</h1>
 <div class="sub">bedside and laboratory: which side, and peripheral or central? ✎</div>
 
-<div class="grid"><div class="gcol">
+<div class="grid even" style="grid-template-columns:1.132fr 1.131fr 0.737fr"><div class="gcol">
 
 <div class="card" style="--c:var(--blue)">
 <h2><span class="n">1</span>The parts and the tests</h2>
@@ -29,8 +30,6 @@
 <tr><td><b>Posturography</b></td><td>use of vestibular, visual, proprioceptive input</td></tr></table>
 </div>
 
-</div><div class="gcol">
-
 <div class="card" style="--c:var(--teal)">
 <h2><span class="n">2</span>Bedside: first, often enough</h2>
 <ul class="mini" style="--c:var(--teal)">
@@ -41,7 +40,13 @@
 <li>Romberg, tandem, <b>Unterberger</b>, past-pointing: fall + past-point towards the <b>slow phase</b> · cerebellar hemisphere: dysmetria, dysdiadochokinesia, rebound · midline: wide gait, truncal ataxia</li>
 </ul>
 <div class="box" style="margin-top:6px"><h3>Dix-Hallpike</h3><div class="mini">sitting, head turned 45° → lie back quickly, head 30° below horizontal → watch latency, duration, direction, fatigue</div></div>
-<table style="--c:var(--teal);margin-top:6px"><tr><th>Positional</th><th>Peripheral</th><th>Central</th></tr>
+</div>
+
+</div><div class="gcol">
+
+<div class="card" style="--c:var(--teal)">
+<h2><span class="n">3</span>Positional: peripheral or central?</h2>
+<table style="--c:var(--teal);"><tr><th>Positional</th><th>Peripheral</th><th>Central</th></tr>
 <tr><td>latency</td><td>2–20 s</td><td>none</td></tr>
 <tr><td>duration</td><td>&lt; a minute</td><td>&gt; a minute</td></tr>
 <tr><td>direction</td><td>fixed, to undermost ear</td><td>changes</td></tr>
@@ -50,17 +55,19 @@
 <div class="warn mini"><b>Fistula test</b> (tragus / Siegle): lateral canal erosion, fenestration cavity, SCD, window leak · <b>false negative</b> in a dead ear or when cholesteatoma seals it · <b>Hennebert</b>: positive without a fistula (congenital syphilis, some Ménière's)</div>
 </div>
 
-</div><div class="gcol">
-
 <div class="card" style="--c:var(--orange)">
-<h2><span class="n">3</span>Caloric test</h2>
+<h2><span class="n">4</span>Caloric test</h2>
 <div class="mini">Lying, head up <b>30°</b> → lateral canal vertical · warm <b>44 °C</b> and cool <b>30 °C</b> water or air (Dhingra 40 s; Lee 30 s) · peak slow-phase velocity °/s</div>
 <div class="flow" style="--c:var(--orange)">
 <span class="chip"><b>COWS</b>: Cold → Opposite</span><span class="chip">Warm → Same</span>
 </div>
 <div class="box"><h3>Jongkees</h3><div class="mini">canal paresis = [(RW + RC) − (LW + LC)] ÷ (RW + RC + LW + LC) × 100<br>e.g. RW 30, RC 28, LW 12, LC 10 → (58 − 22) ÷ 80 × 100 = <b>45% left canal paresis</b> (cut-off ~20–25%)<br>DP: right-beating (RW + LC) vs left-beating (LW + RC)</div></div>
-<ul class="mini" style="--c:var(--orange);margin-top:4px">
-<li>Paresis <li>Paresis &gt;~15–30% · DPgt;~20–25% in most labs (texts 15–30%) · DP &gt;~25–30% (Lee: questionable value)</li>
+</div>
+
+<div class="card" style="--c:var(--orange)">
+<h2><span class="n">5</span>Reading the calorics</h2>
+<ul class="mini" style="--c:var(--orange);">
+<li>Paresis &gt;~20–25% in most labs (texts 15–30%) · DP &gt;~25–30% (Lee: questionable value)</li>
 <li>Very small total (&lt;~6–8°/s each) = <b>bilateral weakness</b> → chair / vHIT</li>
 <li><b>Fixation fails to suppress</b> = central</li>
 <li>Paresis + DP <u>away</u> → Ménière's? · DP <u>towards</u> same side → schwannoma?</li>
@@ -73,7 +80,7 @@
 </div><div class="gcol">
 
 <div class="card" style="--c:var(--purple)">
-<h2><span class="n">4</span>vHIT, VEMP, chair</h2>
+<h2><span class="n">6</span>vHIT, VEMP, chair</h2>
 <ul class="mini" style="--c:var(--purple)">
 <li><b>vHIT gain</b> = eye ÷ head velocity · normal ≥ ~0.8 lateral, ~0.7 vertical · weak canal: low gain + <b>overt</b> (visible) / <b>covert</b> (video only) saccades</li>
 <li><span class="hl">Ménière's: abnormal calorics, normal vHIT</span> · <b>normal vHIT in acute continuous vertigo = think central</b></li>
@@ -89,12 +96,12 @@
 </div>
 
 <div class="card" style="--c:var(--green)">
-<h2><span class="n">5</span>When to order</h2>
+<h2><span class="n">7</span>When to order</h2>
 <div class="mini">side / site unclear · <b>before a destructive procedure</b> (check other ear) · plan + track rehab · gentamicin (daily head impulse + visual acuity) · Bárány ICVD gives the definitions</div>
 </div>
 
 <div class="card" style="--c:var(--red)">
-<h2><span class="n">6</span>Exam traps ✗</h2>
+<h2><span class="n">8</span>Exam traps ✗</h2>
 <ul class="mini" style="--c:var(--red)">
 <li><b>Water calorics</b> with a perforation</li>
 <li>Normal tests taken as <b>no vestibular disease</b></li>
