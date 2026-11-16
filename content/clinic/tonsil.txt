@@ -30,12 +30,12 @@ The crypts and their specialised epithelium (M cells, antigen-presenting cells) 
 - **Membranous:** exudate from the crypts coalesces into a membrane over the surface.
 !fig d51-4 d51-5 | First, acute follicular tonsillitis. Second, acute membranous tonsillitis.
 ## Cause
-School children mostly, and young adults; uncommon in infants and over fifty. Group A beta-haemolytic streptococcus is the commonest bacterial cause; staphylococci, pneumococci and *H. influenzae* also, often after a virus. Most episodes overall are viral.
+School children mostly, and young adults; uncommon in infants and over fifty. Group A beta-haemolytic streptococcus is the commonest bacterial cause; staphylococci, pneumococci and *H. influenzae* also, often after a virus. Most episodes overall are viral; viral and chronic pharyngitis are covered in [[t:pharyngitis]].
 ## Clinical features
 Sore throat, painful swallowing (a child may refuse food), fever of 38 to 40°C with rigors, referred earache or true otitis media, malaise, and in children abdominal pain from mesenteric adenitis that can mimic appendicitis. The breath is foul, the tongue coated, the pillars and palate red; the tonsils are swollen with spots of pus or a membrane that wipes off easily; the jugulodigastric nodes are enlarged and tender.
 !fig d51-6 | Acute follicular tonsillitis: pus beads on the left tonsil; on the right they have coalesced into a membrane.
 ## Treatment
-Rest, fluids and analgesia (paracetamol or ibuprofen; aspirin is avoided in children). For bacterial tonsillitis, penicillin for ten days (erythromycin in allergy); amoxicillin is best avoided when glandular fever is possible.
+Rest, fluids and analgesia (paracetamol or ibuprofen; aspirin is avoided in children). For bacterial tonsillitis, penicillin for five to ten days, the full ten where rheumatic fever is common (erythromycin in allergy; who needs an antibiotic is covered in [[t:pharyngitis]]); amoxicillin is best avoided when glandular fever is possible.
 ## Complications
 - Chronic tonsillitis with recurrent attacks.
 - Peritonsillar abscess, parapharyngeal abscess, cervical abscess from suppurating nodes.
@@ -103,31 +103,31 @@ Neck tilted to the affected side (torticollis) | Muscle spasm
 !!
 !fig d52-4 | A left peritonsillar abscess.
 !pearl Trismus is the key
-Lee calls trismus the best single indicator of an abscess rather than peritonsillar cellulitis. If you are unsure, aspirate with a needle: pus settles the question and gives a culture.
+Trismus is the best single indicator of an abscess rather than peritonsillar cellulitis. If you are unsure, aspirate with a needle: pus settles the question and gives a culture.
 !!
 ## Investigation
 Diagnosis is clinical. Needle aspiration confirms pus. Contrast-enhanced CT when the diagnosis is uncertain, trismus prevents examination, or spread to the parapharyngeal space is suspected.
 ## Treatment
 1. Admit; intravenous fluids.
-2. High-dose intravenous antibiotics covering aerobes and anaerobes (penicillin with metronidazole, or co-amoxiclav); a single dose of steroid reduces pain and trismus.
+2. High-dose intravenous antibiotics covering aerobes and anaerobes (penicillin with metronidazole, or co-amoxiclav; in trials, adding metronidazole to penicillin brought side effects without clear benefit); a single dose of steroid reduces pain and trismus.
 3. Analgesia; avoid aspirin. Saline or peroxide mouthwashes.
-4. **Drain the pus:** needle aspiration, or incision at the point of maximum bulge, which lies just lateral to where a horizontal line through the base of the uvula meets a vertical line along the anterior pillar. A guarded blade makes a small stab and sinus forceps open the cavity; the forceps may be reinserted the next day.
-5. **Tonsillectomy:** an *interval* tonsillectomy four to six weeks later is advised after a second quinsy in adults (Lee quotes recurrence of about 17%), and more readily in children or those with recurrent tonsillitis. *Quinsy (hot) tonsillectomy* during the acute illness is preferred by some, at the cost of more bleeding and the risk of rupture at induction.
+4. **Drain the pus:** needle aspiration, or incision at the point of maximum bulge, which lies just lateral to where a horizontal line through the base of the uvula meets a vertical line along the anterior pillar. A guarded blade makes a small stab and sinus forceps open the cavity; the forceps may be reinserted the next day. The procedure step by step is in [[t:mouthminor]].
+5. **Tonsillectomy:** an *interval* tonsillectomy four to six weeks later is advised after a second quinsy in adults (recurrence is about 17%), and more readily in children or those with recurrent tonsillitis. *Quinsy (hot) tonsillectomy* during the acute illness is preferred by some, at the cost of more bleeding and the risk of rupture at induction.
 !fig d52-5 | The site of drainage: just lateral to the junction of a vertical line along the anterior pillar and a horizontal line through the base of the uvula.
 !imaging | A tonsillar abscess on imaging.
 ## Complications
-Parapharyngeal abscess (a quinsy is a potential parapharyngeal abscess), laryngeal oedema needing tracheostomy, aspiration pneumonia or lung abscess after spontaneous rupture, septicaemia with endocarditis, nephritis or brain abscess, internal jugular vein thrombosis (Lemierre syndrome), and haemorrhage from erosion of the carotid or jugular vessels.
+Parapharyngeal abscess (a quinsy is a potential parapharyngeal abscess; [[t:deepneck]]), laryngeal oedema needing tracheostomy, aspiration pneumonia or lung abscess after spontaneous rupture, septicaemia with endocarditis, nephritis or brain abscess, internal jugular vein thrombosis (Lemierre syndrome), and haemorrhage from erosion of the carotid or jugular vessels.
 
 # Tonsillectomy | Indications, technique and complications.
 ## Indications
 ### Recurrent tonsillitis (SIGN and the Paradise criteria)
-Seven or more well-documented, clinically significant episodes in one year, five a year for two years, or three a year for three years, with the episodes disabling and preventing normal function. Below these thresholds, watchful waiting is advised, because many children improve with age. Obstructive sleep-disordered breathing is now the commonest indication in children. In adults, the NATTINA trial showed that tonsillectomy roughly halves sore-throat days over two years compared with conservative management, so adults meeting these criteria should be offered surgery (Wilson et al., *Lancet* 2023).
-### Absolute (the traditional list, Dhingra)
+Seven or more well-documented, clinically significant episodes in one year, five a year for two years, or three a year for three years, with the episodes disabling and preventing normal function. Below these thresholds, watchful waiting is advised, because many children improve with age. Obstructive sleep-disordered breathing is now the commonest indication in children ([[t:osa]]). In adults, the NATTINA trial showed that tonsillectomy roughly halves sore-throat days over two years compared with conservative management, so adults meeting these criteria should be offered surgery (Wilson et al., *Lancet* 2023).
+### Absolute (the traditional list)
 - **Recurrent throat infection** as above, or two weeks or more of school or work lost in a year.
 - **Peritonsillar abscess:** in children four to six weeks after treatment; in adults after a second attack.
 - **Tonsillitis causing febrile seizures.**
 - **Hypertrophy** causing obstructive sleep apnoea, difficulty swallowing or interference with speech.
-- **Suspicion of malignancy:** a one-sided enlarged tonsil may be lymphoma in a child or squamous carcinoma in an adult; excisional biopsy. Also in the search for an unknown primary.
+- **Suspicion of malignancy:** a one-sided enlarged tonsil may be lymphoma in a child or squamous carcinoma in an adult ([[t:tonsil_ca]]); excisional biopsy. Also in the search for an unknown primary.
 ### Relative
 Diphtheria or streptococcal carriers unresponsive to antibiotics, chronic tonsillitis with halitosis unresponsive to treatment, and recurrent streptococcal tonsillitis in valvular heart disease.
 ### As part of another operation

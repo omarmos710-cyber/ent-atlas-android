@@ -4,7 +4,7 @@
 ## Classification
 - **Benign tumours:** solid (papilloma, fibroma, haemangioma, lymphangioma, torus, pyogenic granuloma, granular cell tumour, minor salivary gland adenoma) and cystic (mucocele, ranula, dermoid).
 - **Premalignant lesions and conditions:** leukoplakia, erythroplakia, submucous fibrosis and others.
-- **Malignant lesions:** squamous cell carcinoma and the non-squamous cancers (see the oral and oropharyngeal cancer topic).
+- **Malignant lesions:** squamous cell carcinoma and the non-squamous cancers ([[t:tonsil_ca]], [[t:oral_ca]]).
 ## The rule
 Any lump that is growing, ulcerated, indurated or fixed, or any patch that is red, speckled or nodular, is biopsied.
 
@@ -42,7 +42,7 @@ A retention or extravasation cyst of a minor salivary gland, almost always on th
 A cystic, translucent, bluish swelling in the floor of mouth to one side of the frenulum, pushing the tongue up, from obstruction of the ducts of the *sublingual gland*. A *plunging ranula* passes through or behind the mylohyoid into the neck and presents as a soft submandibular or submental swelling.
 !fig d44-6 | A ranula: a translucent swelling under the tongue.
 ### Treatment
-Dhingra describes excision for small ranulas and marsupialisation for large ones, noting that the thin wall makes complete removal difficult. Recurrence after marsupialisation alone is common; excision of the ranula *with the sublingual gland* through the mouth, protecting the submandibular duct and lingual nerve, is now preferred and also cures most plunging ranulas.
+Older texts describe excision for small ranulas and marsupialisation for large ones, noting that the thin wall makes complete removal difficult. Recurrence after marsupialisation alone is common; excision of the ranula *with the sublingual gland* through the mouth, protecting the submandibular duct and lingual nerve, is now preferred and also cures most plunging ranulas.
 !imaging ranula-of-the-sublingual-gland | Ranula of the sublingual gland.
 !ops 89 | Ranula surgery.
 ## Dermoid
@@ -57,7 +57,7 @@ Other | May plunge into the neck | Present from youth | Pain and swelling with m
 
 # Premalignant lesions | White and red patches.
 ## Definitions
-A *premalignant lesion* is altered tissue in which cancer is more likely to develop (leukoplakia, erythroplakia); a *premalignant condition* is a general state with increased risk (submucous fibrosis, lichen planus, iron deficiency).
+A *premalignant lesion* is altered tissue in which cancer is more likely to develop (leukoplakia, erythroplakia); a *premalignant condition* is a general state with increased risk (submucous fibrosis, lichen planus, iron deficiency). The WHO now groups both as *oral potentially malignant disorders* ([[t:oral_ca]]); submucous fibrosis and lichen planus are described in [[t:oraldis]].
 !note Precancerous lesions and conditions of the oral cavity
 - Leukoplakia and erythroplakia.
 - Oral submucous fibrosis.
@@ -80,7 +80,7 @@ Smoking, tobacco and areca chewing, alcohol (especially with smoking), chronic t
 - **Proliferative verrucous leukoplakia:** multifocal, warty and relentlessly progressive, often in older women without the usual risk factors; a very high risk of carcinoma.
 !fig d44-9 | Leukoplakia at the site where a quid of tobacco and lime was held.
 ### Malignant potential
-About a quarter show some dysplasia, and the higher the grade the greater the risk. Quoted rates of malignant change range from under 1% to 17.5%, averaging about 5%; speckled, erosive and verrucous forms, the floor of mouth and ventral tongue, and long follow-up carry the highest risk.
+About a quarter show some dysplasia, and the higher the grade the greater the risk. Quoted rates of malignant change range from under 1% to 17.5%, averaging about 5% in older series and about 9.5% in a recent meta-analysis (see Current evidence); speckled, erosive and verrucous forms, the floor of mouth and ventral tongue, and long follow-up carry the highest risk.
 ### Management
 - Stop tobacco, areca and alcohol, and remove sharp teeth: many lesions regress.
 - Biopsy, from the reddest or most nodular area, to grade any dysplasia.

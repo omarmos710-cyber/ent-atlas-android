@@ -31,7 +31,7 @@ Rest, plenty of fluids, warm saline gargles and analgesics (paracetamol or ibupr
 ### Streptococcal pharyngitis
 Penicillin V orally for ten days (American guidance) or five to ten days (NICE), or a single intramuscular injection of benzathine penicillin; clarithromycin or another macrolide for penicillin allergy. Where rheumatic fever is common, as in Egypt and much of the developing world, the full ten days or benzathine penicillin is what prevents it.
 ### Others
-Diphtheria with antitoxin and penicillin or erythromycin; gonococcal pharyngitis with appropriate antibiotics according to local guidance.
+Diphtheria with antitoxin and penicillin or erythromycin ([[t:tonsil]]); gonococcal pharyngitis with appropriate antibiotics according to local guidance.
 
 # Viral pharyngitis | Recognisable patterns.
 ## Infectious mononucleosis
@@ -70,7 +70,7 @@ Drooling, inability to swallow saliva, a muffled voice, stridor or a patient who
 - **Infection nearby:** chronic rhinitis and sinusitis with postnasal drip; dental and tonsillar sepsis.
 - **Mouth breathing:** from nasal obstruction (polyps, rhinitis, septal deviation, turbinate hypertrophy), adenoids, protruding teeth or habit, so the throat receives unfiltered, unwarmed, dry air.
 - **Irritants:** smoking, tobacco and pan chewing, alcohol, highly spiced food, dust and industrial fumes.
-- **Laryngopharyngeal reflux.**
+- **Laryngopharyngeal reflux** ([[t:laryngitis]]).
 - **Faulty voice use and habitual throat clearing**, which keep the hypertrophic form going.
 ## Symptoms
 Discomfort, worse in the morning; a foreign body or lump sensation with a constant urge to swallow or clear the throat; a voice that tires and cracks; an irritable cough; gagging on opening the mouth.
@@ -96,7 +96,7 @@ An *elongated styloid process* (normal about 25 mm; over 30 mm is elongated) or 
 ## Glossopharyngeal neuralgia
 Brief, severe, electric pain in the tonsil, tongue base and ear, triggered by swallowing or yawning; carbamazepine, and microvascular decompression for resistant cases.
 ## Globus
-A persistent lump feeling in the throat between meals, with normal swallowing of food. Examine fully and endoscopically; reflux and anxiety are common associations, and red flags (pain, dysphagia, weight loss, voice change, neck mass) call for investigation.
+A persistent lump feeling in the throat between meals, with normal swallowing of food. Examine fully and endoscopically; reflux and anxiety are common associations ([[t:pouch]] covers dysphagia), and red flags (pain, dysphagia, weight loss, voice change, neck mass) call for investigation.
 !update Current evidence
 **Who needs an antibiotic.** NICE (NG84, 2018) uses FeverPAIN or Centor scores: FeverPAIN 0 to 1 or Centor 0 to 2, no antibiotic; FeverPAIN 2 to 3, consider no or a back-up prescription; FeverPAIN 4 to 5 or Centor 3 to 4, consider an immediate antibiotic, phenoxymethylpenicillin for five to ten days. The American guideline recommends a rapid antigen test or culture before treating, and penicillin or amoxicillin for ten days for confirmed group A streptococcus (Shulman et al., *Clin Infect Dis* 2012). **Benefit.** A Cochrane review found that antibiotics shorten symptoms by about 16 hours on average and reduce suppurative complications and rheumatic fever, but the absolute benefit is small in high-income settings (Spinks et al., 2021). **Course length.** In a Swedish trial, penicillin V four times daily for five days was non-inferior to three times daily for ten days in confirmed streptococcal pharyngotonsillitis (Skoog Ståhlgren et al., *BMJ* 2019). **Steroids.** In the TOAST trial, a single 10 mg dose of oral dexamethasone did not increase complete resolution at 24 hours but did at 48 hours (Hayward et al., *JAMA* 2017).
 !!

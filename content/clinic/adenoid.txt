@@ -48,14 +48,14 @@ A large adenoid in a large nasopharynx may cause no symptoms; a modest one in a 
 ### Medical
 For milder symptoms: intranasal steroid sprays, with montelukast in some children, treatment of allergy, saline and decongestant drops for short periods, and breathing exercises. Many children improve as the adenoid regresses.
 ### Adenoidectomy
-For marked symptoms. Dhingra's indications:
-- Adenoid hypertrophy causing snoring, mouth breathing, sleep apnoea or hyponasal speech.
+For marked symptoms. The traditional indications:
+- Adenoid hypertrophy causing snoring, mouth breathing, sleep apnoea ([[t:osa]]) or hyponasal speech.
 - Recurrent rhinosinusitis.
-- Otitis media with effusion associated with adenoid hyperplasia (usually with grommets).
+- Otitis media with effusion associated with adenoid hyperplasia, usually with grommets; NICE now advises considering it alongside grommets unless there is a palatal abnormality ([[t:om]]).
 - Recurrent ear discharge in chronic otitis media associated with adenoiditis.
 - Dental malocclusion: adenoidectomy does not correct it but helps prevent relapse after orthodontic treatment.
 !flag Contraindications
-- **Cleft palate or submucous cleft:** removing the adenoid that helps close the velopharynx causes velopharyngeal insufficiency. Look for a bifid uvula, a notch in the hard palate and a translucent midline zone (*zona pellucida*).
+- **Cleft palate or submucous cleft:** removing the adenoid that helps close the velopharynx causes velopharyngeal insufficiency ([[t:cleft]]). Look for a bifid uvula, a notch in the hard palate and a translucent midline zone (*zona pellucida*).
 - **Bleeding disorders.**
 - **Acute upper respiratory infection.**
 !!
@@ -74,7 +74,7 @@ Suction diathermy, a microdebrider or coblation under endoscopic or mirror visio
 - **Grisel syndrome:** neck pain and torticollis from inflammatory subluxation of the atlantoaxial joint, needing a collar or traction.
 - **Velopharyngeal insufficiency:** hypernasal speech and nasal regurgitation, usually transient, but persistent with an unrecognised submucous cleft.
 - **Nasopharyngeal stenosis** from scarring.
-- **Regrowth** of tissue left behind; Lee advises biopsy of recurrent regrowth to exclude lymphoma.
+- **Regrowth** of tissue left behind; biopsy recurrent regrowth to exclude lymphoma.
 
 # Other nasopharyngeal inflammations | Nasopharyngitis and Thornwaldt disease.
 ## Acute nasopharyngitis
@@ -89,7 +89,7 @@ Infection of the *pharyngeal bursa*, the midline recess within the adenoid marki
 A cystic, fluctuant midline swelling sits on the posterior nasopharyngeal wall. Antibiotics, then marsupialisation and removal of the lining. Asymptomatic Thornwaldt cysts found on MRI need no treatment.
 !imaging thornwaldt-cyst | A Thornwaldt cyst.
 !flag The adult with a one-sided nasopharyngeal problem
-An adult with unilateral otitis media with effusion, a nasopharyngeal mass or a neck node is examined and, if needed, biopsied for nasopharyngeal carcinoma. Adenoid tissue in an adult is unusual; consider HIV and lymphoma.
+An adult with unilateral otitis media with effusion, a nasopharyngeal mass or a neck node is examined and, if needed, biopsied for nasopharyngeal carcinoma ([[t:npc]]). Adenoid tissue in an adult is unusual; consider HIV and lymphoma.
 !!
 !update Current evidence
 **Otitis media.** An individual patient data meta-analysis of ten trials found that adenoidectomy, with or without grommets, gives a small benefit in children with recurrent acute otitis media or glue ear, mainly in children aged two years and over, and not as a first operation in younger children (Boonacker et al., *Health Technol Assess* 2014). NICE (NG233, 2023) now advises considering adenoidectomy alongside grommets for glue ear, unless there is a palatal abnormality, because it reduces the need for repeat surgery. **Sleep-disordered breathing.** Adenotonsillectomy is first-line for children with obstructive sleep apnoea and enlarged tonsils; adenoidectomy alone suits those with small tonsils, and partial (intracapsular) tonsillectomy is increasingly used in young children. **Medical treatment.** A Cochrane review found that intranasal steroids may improve nasal obstruction symptoms and adenoid size in the short term, with limited, low-quality evidence (Chadha et al., 2009); montelukast may help, but carries a warning about neuropsychiatric side effects.

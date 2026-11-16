@@ -33,7 +33,7 @@ All elevate the pharynx and larynx during swallowing.
 - **Below the inferior constrictor:** the recurrent laryngeal nerve and inferior laryngeal vessels.
 !anat s205_17 d171_72 | The gaps between the constrictors and the structures passing through them.
 ## Killian's dehiscence
-A weak triangle in the posterior wall between thyropharyngeus above and cricopharyngeus below. Mucosa herniates through it to form a *pharyngeal pouch* (Zenker diverticulum), and an oesophagoscope can perforate it, hence its old name, the *gateway of tears*. Below cricopharyngeus lie Laimer's triangle and the lateral Killian–Jamieson area.
+A weak triangle in the posterior wall between thyropharyngeus above and cricopharyngeus below. Mucosa herniates through it to form a *pharyngeal pouch* (Zenker diverticulum; [[t:pouch]]), and an oesophagoscope can perforate it, hence its old name, the *gateway of tears*. Below cricopharyngeus lie Laimer's triangle and the lateral Killian–Jamieson area.
 !anat s199_7 s226_54 | Killian's dehiscence and the pharyngeal pouch, and Killian's and Laimer's triangles.
 
 # Waldeyer's ring | Sentinels at the portals.
@@ -56,7 +56,7 @@ Behind the nasal cavities, from the skull base to the level of the hard palate.
 - **Roof and posterior wall:** basisphenoid and basiocciput, curving down onto the arch of the atlas.
 - **Floor:** the upper surface of the soft palate in front; behind it the *nasopharyngeal isthmus*, closed by the palate in swallowing and speech.
 - **Anterior wall:** the choanae and the posterior ends of the turbinates.
-- **Lateral wall:** the Eustachian tube opening, about 1.25 cm behind the inferior turbinate, capped above and behind by the *torus tubarius*; behind the torus, the *fossa of Rosenmüller*, the commonest site of nasopharyngeal carcinoma; and the salpingopharyngeal fold descending from it.
+- **Lateral wall:** the Eustachian tube opening, about 1.25 cm behind the inferior turbinate, capped above and behind by the *torus tubarius*; behind the torus, the *fossa of Rosenmüller*, the commonest site of nasopharyngeal carcinoma ([[t:npc]]); and the salpingopharyngeal fold descending from it.
 !fig d47-4 d47-5 | First, the nasopharynx in sagittal section with the adenoids, nasopharyngeal bursa and Rathke's pouch. Second, an endoscopic view of the torus tubarius and the fossa of Rosenmüller behind it.
 !anat s204_14 s204_15 | The lateral wall of the nasopharynx with the torus tubarius and fossa of Rosenmüller, and an endoscopic view.
 ## Special features
@@ -94,7 +94,7 @@ Musculus uvulae | Shortens the uvula | Vagus
 With a unilateral vagal (pharyngeal plexus) palsy the uvula and palate are pulled towards the healthy side on saying "aah". The tensor alone is supplied by the trigeminal nerve.
 !!
 ## The palatine tonsil
-Its anatomy, blood supply and bed are described with tonsillitis; it drains to the *jugulodigastric (tonsillar) node*.
+Its anatomy, blood supply and bed are described in [[t:tonsil]]; it drains to the *jugulodigastric (tonsillar) node*.
 ## Lymphatic drainage
 To the upper jugular chain, especially the jugulodigastric node; the soft palate, pharyngeal walls and base of tongue also drain through the retropharyngeal and parapharyngeal nodes, and the base of tongue drains to both sides.
 ## Functions
@@ -104,7 +104,7 @@ A passage for air and food, the pharyngeal phase of swallowing, shaping of speec
 ## Boundaries and subsites
 From the plane of the hyoid bone to the lower border of the cricoid, in front of C3 to C6.
 - **Piriform sinus (fossa):** on each side of the larynx, from the pharyngoepiglottic fold to the oesophagus; bounded laterally by the thyrohyoid membrane and thyroid cartilage, medially by the aryepiglottic fold, arytenoid and cricoid. It is the lateral food channel where fish bones lodge. The *internal laryngeal nerve* runs under its mucosa, so it can be anaesthetised there, and through it a piriform cancer refers pain to the ear.
-- **Postcricoid region:** the anterior wall behind the cricoid lamina; the site of carcinoma in women with Plummer–Vinson syndrome.
+- **Postcricoid region:** the anterior wall behind the cricoid lamina; the site of carcinoma in women with Plummer–Vinson syndrome ([[t:hypoca]]).
 - **Posterior pharyngeal wall:** from the hyoid to the level of the cricoarytenoid joints.
 !fig d47-8 d47-9 | First, the right piriform fossa with its lateral and medial walls, apex and the postcricoid area. Second, the pharynx opened from behind, showing the nasopharynx, oropharynx and laryngopharynx.
 !anat s221_43 s222_46 | The three subsites of the hypopharynx, and the internal laryngeal nerve under the mucosa of the piriform fossa.
@@ -121,9 +121,9 @@ The glossopharyngeal nerve supplies the middle ear through Jacobson's nerve, and
 ## Blood supply
 The ascending pharyngeal artery, the tonsillar and ascending palatine branches of the facial artery, branches of the maxillary and lingual arteries, and below, the inferior thyroid artery. Veins form a pharyngeal plexus draining to the pterygoid plexus and internal jugular vein.
 ## Pharyngeal spaces
-- **Retropharyngeal space:** behind the pharynx, in front of the prevertebral fascia, from the skull base to the bifurcation of the trachea; contains the retropharyngeal nodes, which regress after childhood.
+- **Retropharyngeal space:** behind the pharynx, in front of the prevertebral fascia, from the skull base into the superior mediastinum (to about T2, or to the tracheal bifurcation in some texts); contains the retropharyngeal nodes, which regress after childhood.
 - **Parapharyngeal space:** beside the pharynx, an inverted pyramid from the skull base to the hyoid; its post-styloid part contains the carotid vessels, internal jugular vein, the last four cranial nerves and the sympathetic chain.
-Their infections are described with deep neck space infection.
+Their infections are described in [[t:deepneck]].
 !anat s199_5 s278_76 | The parapharyngeal and retropharyngeal spaces, and the retropharyngeal, danger and prevertebral spaces.
 
 # Swallowing | Three phases.
@@ -142,7 +142,7 @@ A primary peristaltic wave carries the bolus to the stomach in three to six seco
 Sensation by V, IX and X; muscles by V (jaw, mylohyoid, tensor), VII (lips, face), IX (stylopharyngeus), X (palate, pharynx, larynx, cricopharyngeus) and XII (tongue). Incoordination between pharyngeal contraction and cricopharyngeal relaxation is thought to underlie the pharyngeal pouch.
 !!
 !update Current evidence
-**HPV and the oropharynx.** HPV-positive oropharyngeal cancer arises in the reticulated crypt epithelium of the tonsils and tongue base, which explains its small primaries and early cystic nodal metastases; it now accounts for most oropharyngeal cancer in many Western countries and carries a better prognosis, recognised by separate AJCC eighth edition staging. **Killian's dehiscence**, between the thyropharyngeus and cricopharyngeus, is where a pharyngeal pouch forms. **Parapharyngeal space** anatomy (pre- and post-styloid) predicts the likely tumour type on imaging.
+**HPV and the oropharynx.** HPV-positive oropharyngeal cancer arises in the reticulated crypt epithelium of the tonsils and tongue base, which explains its small primaries and early cystic nodal metastases; it now accounts for most oropharyngeal cancer in many Western countries and carries a better prognosis, recognised by separate AJCC eighth edition staging. **Parapharyngeal space** anatomy (pre- and post-styloid) predicts the likely tumour type on imaging ([[t:skullbase]]).
 !!
 
 # For the examination | What the examiner wants to hear.

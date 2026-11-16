@@ -11,7 +11,12 @@ Use a 5 ml syringe (2 ml if trismus is severe) with a 18G needle or a cannula. W
 The internal carotid lies deep to the tonsil bed, posterolateral to the abscess. Guard the needle or blade to 1 cm and keep the point directed slightly medially and never posterolaterally.
 !!
 ## Incision and drainage
-If aspiration finds no pus, or the abscess recurs or fails to settle within 24 hours, incise. The classic point is level with the base of the uvula, a third of the way from the medial edge of the tonsil to its lateral extent, or wherever the abscess points; open with a guarded blade, then widen with sinus forceps and suction.
+If aspiration finds no pus, or the abscess recurs or fails to settle within 24 hours, incise. Open with a guarded blade, then widen with sinus forceps and suction.
+!differ Where to incise
+Oxford handbooks: Level with the base of the uvula, a third of the way from the medial edge of the tonsil to its lateral extent, or wherever the abscess points.
+Classic textbook landmark: Just lateral to where a horizontal line through the base of the uvula meets a vertical line along the anterior pillar ([[t:tonsil]]).
+In practice: Both put the cut level with the base of the uvula, above and lateral to the tonsil; incise where the abscess points most, with the blade guarded to 1 cm.
+!!
 !path Peritonsillar swelling
 Trismus, uvula pushed across? | yes: aspirate ; no: treat as tonsillitis, review
 Pus on aspiration? | yes: antibiotics, review at 24 h ; no: incise or image
@@ -26,7 +31,7 @@ A Cochrane review of 11 trials (674 participants) found recurrence was higher af
 
 # Tongue-tie division | A snip for babies, a plasty for older children.
 ## When it matters
-A short or thick lingual frenulum attaches near the tip of the tongue, giving a notched or heart-shaped tip on protrusion. It is present in about 4 to 11% of newborns; most cause no trouble. Indications are breastfeeding difficulty with maternal nipple pain (after assessment by a feeding specialist) in infants, and in older children restricted tongue protrusion and elevation affecting oral hygiene, eating or articulation of tongue-tip sounds. If the tongue protrudes beyond the lower incisors, speech is unlikely to be affected (Dhingra).
+A short or thick lingual frenulum attaches near the tip of the tongue, giving a notched or heart-shaped tip on protrusion. It is present in about 4 to 11% of newborns; most cause no trouble. Indications are breastfeeding difficulty with maternal nipple pain (after assessment by a feeding specialist) in infants, and in older children restricted tongue protrusion and elevation affecting oral hygiene, eating or articulation of tongue-tip sounds. If the tongue protrudes beyond the lower incisors, speech is unlikely to be affected.
 ## Frenotomy in infants
 In babies under a few months, no anaesthetic is needed. Swaddle the baby, elevate the tongue with a grooved director or two fingers, and divide the thin frenulum with blunt-ended scissors close to the tongue, short of the genioglossus and the submandibular ducts and veins. Pressure with gauze stops the few drops of blood; feed straight away.
 ## Frenuloplasty in older children
@@ -59,7 +64,7 @@ Botulinum toxin | Ultrasound-guided injection of the submandibular (largest effe
 Surgery | Duct ligation, submandibular duct relocation, or submandibular gland excision, chosen by whether the child aspirates
 !!
 ## Botulinum toxin injection
-Under ultrasound guidance (local anaesthetic, sedation or general anaesthesia), inject the submandibular glands and, if needed, the parotids. The Oxford Textbook suggests maximum doses of botulinum toxin A of about 20 units per submandibular gland and 10 units per parotid gland. The main risk is dysphagia from spread into the floor of mouth muscles, usually temporary.
+Under ultrasound guidance (local anaesthetic, sedation or general anaesthesia), inject the submandibular glands and, if needed, the parotids. Suggested maximum doses of botulinum toxin A are about 20 units per submandibular gland and 10 units per parotid gland. The main risk is dysphagia from spread into the floor of mouth muscles, usually temporary.
 ## Duct operations
 - **Duct ligation:** the submandibular ducts (two-duct), plus one or both parotid ducts (three- or four-duct), clipped or tied through the mouth; a day-case procedure, with temporary gland swelling.
 - **Submandibular duct relocation:** an island of mucosa containing both duct openings is raised, the ducts are mobilised and tunnelled back to the tonsillar fossa so saliva runs into the pharynx; usually with excision of the sublingual glands to avoid a ranula. Not for children who aspirate.
@@ -74,13 +79,6 @@ A meta-analysis of eight placebo-controlled trials (181 patients) found botulinu
 !!
 
 # For the examination | What the examiner wants to hear.
-## Where the books differ
-!differ
-Oxford Handbook and Specialist Handbook: three-point aspiration with a guarded needle, incision only for failure or recurrence, and the landmarks for incision.
-Dhingra: tongue-tie is rarely symptomatic; transverse release and vertical closure.
-K. J. Lee: lip biopsy of the minor salivary glands as the simple tissue test for Sjögren syndrome.
-Oxford Textbook: the drooling ladder, botulinum toxin doses per gland, and duct ligation, relocation or gland excision chosen by aspiration risk.
-!!
 ## Viva essentials
 !exam What the examiner is looking for
 - **Quinsy:** signs, aspiration versus incision, the carotid, and interval tonsillectomy.

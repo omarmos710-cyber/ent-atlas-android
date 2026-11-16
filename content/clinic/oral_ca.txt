@@ -2,7 +2,7 @@
 
 # Potentially malignant disorders | Before the cancer.
 ## The term and the lesions
-In 2005 the WHO replaced "precancer" with **oral potentially malignant disorders**, because these lesions carry a risk of cancer but do not always precede it. **Leukoplakia** is a white patch that cannot be characterised as any other definable lesion; it is the commonest, and smoking increases its risk. **Erythroplakia**, a red velvety patch, is much rarer but carries the highest risk, and most erythroplakias already show severe dysplasia or carcinoma when biopsied. **Proliferative verrucous leukoplakia** is a multifocal, relentlessly spreading white lesion, typically in older women who do not smoke, with a very high lifetime cancer risk. **Oral submucous fibrosis**, from areca nut chewing, and **oral lichen planus**, especially the erosive form, complete the main list.
+In 2005 the WHO replaced "precancer" with **oral potentially malignant disorders**, because these lesions carry a risk of cancer but do not always precede it. **Leukoplakia** is a white patch that cannot be characterised as any other definable lesion; it is the commonest, and smoking increases its risk. **Erythroplakia**, a red velvety patch, is much rarer but carries the highest risk, and most erythroplakias already show severe dysplasia or carcinoma when biopsied. **Proliferative verrucous leukoplakia** is a multifocal, relentlessly spreading white lesion, typically in older women who do not smoke, with a very high lifetime cancer risk. **Oral submucous fibrosis**, from areca nut chewing, and **oral lichen planus**, especially the erosive form, complete the main list; their clinical pictures are described in [[t:oraldis]] and [[t:oralbenign]].
 !flag Features that raise the risk of transformation
 - Red or mixed red-and-white lesions (erythroleukoplakia), and proliferative verrucous leukoplakia.
 - Sites on the lateral and ventral tongue and floor of mouth.
@@ -21,10 +21,10 @@ Stop tobacco, alcohol and areca nut. Moderate and severe dysplasia, erythroplaki
 More than 90% of oral cancers are squamous cell carcinomas. The main risk factors are **tobacco** (smoked and chewed), **alcohol**, which multiplies the risk of tobacco, and **betel quid with areca nut**, which makes oral cancer one of the commonest cancers in South Asia. HPV plays only a small part, unlike in the oropharynx. An increasing number of young non-smokers, often women, develop tongue cancer without the usual risk factors, and patients with Fanconi anaemia have a very high risk.
 !fig d44-9 | Leukoplakia where a quid of tobacco and lime was held.
 ## Sites and presentation
-In Western countries the lateral border of the **tongue** and the **floor of mouth** are the commonest sites; in South Asia the **buccal mucosa** and gingivobuccal sulcus, where the quid is held, predominate. Patients present with a non-healing ulcer, a lump, a red or white patch, pain referred to the ear, bleeding, loose teeth or ill-fitting dentures, trismus, numbness of the lip (mental nerve involvement) or a neck lump. Any single ulcer that has not healed in three weeks must be biopsied.
+In Western countries the lateral border of the **tongue** and the **floor of mouth** are the commonest intraoral sites (the lip leads only when lip cancers are counted as oral); in South Asia the **buccal mucosa** and gingivobuccal sulcus, where the quid is held, predominate. Patients present with a non-healing ulcer, a lump, a red or white patch, pain referred to the ear, bleeding, loose teeth or ill-fitting dentures, trismus, numbness of the lip (mental nerve involvement) or a neck lump. Any single ulcer that has not healed in three weeks must be biopsied.
 !table Oral cavity subsites and their particular problems
 Subsite | Particular points
-Oral tongue | Commonest site in the West; depth of invasion drives nodal spread; may cross the midline
+Oral tongue | Commonest intraoral site in the West; depth of invasion drives nodal spread; may cross the midline
 Floor of mouth | Early spread to the mandible and both sides of the neck; can obstruct the submandibular ducts
 Buccal mucosa and gingivobuccal sulcus | Commonest in betel users; spread to skin, mandible, maxilla and infratemporal fossa
 Lower alveolus and retromolar trigone | Early bone invasion; retromolar disease spreads to the pterygoid region
@@ -32,6 +32,7 @@ Hard palate and upper alveolus | Minor salivary tumours are common here; maxille
 Lip | Usually lower lip, sun-exposed; excellent prognosis; treated by surgery or radiotherapy
 !!
 !fig d42-1 | The subsites of the oral cavity.
+Each subsite, and oropharyngeal cancer, is described in detail in [[t:tonsil_ca]].
 
 # Staging and investigation | Depth, bone and nodes.
 ## Investigation

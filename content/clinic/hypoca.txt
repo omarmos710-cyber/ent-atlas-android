@@ -2,19 +2,20 @@
 
 # Overview | The gutter beside the larynx.
 ## Subsites
+Their anatomy is described in [[t:pharanat]].
 - **Piriform sinus:** on each side of the larynx, from the pharyngoepiglottic fold to the oesophagus.
 - **Postcricoid region:** the anterior wall behind the cricoid lamina.
 - **Posterior pharyngeal wall:** from the level of the hyoid to the cricoarytenoid joints.
 !anat s221_43 s222_44 | The three subsites of the hypopharynx, and an endoscopic view of the hypopharynx and larynx.
 ## Frequency and causes
-Common in India. More than 90% are squamous cell carcinomas. In Dhingra's series the piriform sinus accounts for about 60%, the postcricoid region 30% and the posterior wall 10%; piriform sinus cancers predominate in North America, postcricoid cancers in parts of Europe. Tobacco and alcohol are the main causes; *Plummer–Vinson (Paterson–Brown–Kelly) syndrome* (iron deficiency anaemia, dysphagia, upper oesophageal webs, glossitis and koilonychia, in women of thirty to fifty) predisposes to postcricoid cancer.
+Common in India. More than 90% are squamous cell carcinomas. In one large Indian series the piriform sinus accounts for about 60%, the postcricoid region 30% and the posterior wall 10%; piriform sinus cancers predominate in North America, postcricoid cancers in parts of Europe. Tobacco and alcohol are the main causes; *Plummer–Vinson (Paterson–Brown–Kelly) syndrome* (iron deficiency anaemia, dysphagia, upper oesophageal webs, glossitis and koilonychia, in women of thirty to fifty) predisposes to postcricoid cancer.
 ## Benign tumours
 Exceptionally rare: papilloma, adenoma, lipoma, fibroma, leiomyoma, appearing as smooth, sometimes pedunculated masses.
 ## Behaviour
 - **Silent growth:** the piriform sinus is roomy, so tumours become large before they obstruct.
 - **Submucosal spread:** tumours extend well beyond their visible edge, so resection margins must be generous.
 - **Early lymphatic spread:** 60 to 75% have palpable nodes at presentation, often bilateral, including retropharyngeal and paratracheal nodes.
-- **Second primaries:** a synchronous oesophageal cancer is found in a significant minority; always examine the oesophagus.
+- **Second primaries:** a synchronous oesophageal cancer is found in a significant minority; always examine the oesophagus ([[t:oesoph]]).
 - **Distant metastasis** in about a fifth.
 
 # Carcinoma of the piriform sinus | The commonest.
@@ -72,21 +73,21 @@ The decision balances cure against the larynx and swallowing: subsite, stage, no
 - **Larger T2 and T3, or any node-positive disease:** concurrent chemoradiation; induction chemotherapy with response-guided treatment; or total laryngopharyngectomy with neck dissection and adjuvant therapy.
 - **T4a:** usually total laryngopharyngectomy with neck dissection and postoperative (chemo)radiation; chemoradiation where the patient declines laryngectomy.
 - **Postcricoid tumours** usually need laryngopharyngectomy, with oesophagectomy if the oesophagus is involved.
+!differ Surgery or larynx preservation
+Dhingra: Advises total laryngectomy with partial pharyngectomy for piriform tumours, laryngopharyngectomy when the postcricoid region is involved, with routine postoperative radiotherapy, and radiotherapy for early tumours.
+Lee: Gives a wider menu following the NCCN guidelines (induction chemotherapy, chemoradiation, transoral surgery, Ogura's partial laryngopharyngectomy) and notes that many prefer non-surgical treatment for larynx preservation.
+In practice: Offer larynx preservation (induction chemotherapy or concurrent chemoradiation) to suitable patients with T2 to T3 disease who would otherwise need laryngectomy, and primary total laryngopharyngectomy for T4a disease with cartilage invasion or a non-functioning larynx.
+!!
 ## Reconstruction
 - **Partial pharyngeal defects:** primary closure, or a pectoralis major, radial forearm or anterolateral thigh flap patch.
 - **Circumferential defects:** a tubed fasciocutaneous free flap or a free jejunal graft.
 - **With oesophagectomy:** gastric pull-up (or colon interposition).
-Voice is restored by tracheoesophageal puncture and valve after laryngectomy.
+Voice is restored by tracheoesophageal puncture and valve after laryngectomy ([[t:lxca]]).
 !ops 17 40 48 49 45 | Total laryngopharyngectomy, pharyngectomy, partial pharyngectomy, reconstruction of hypopharyngeal defects and oesophagoscopy.
 ## Outcome
-Five-year survival is poor: roughly 20 to 50% for piriform sinus cancer, about a third for postcricoid cancer, and around a fifth for the posterior wall. Dhingra quotes a gross five-year cure rate of only 19% for posterior wall tumours. Distant metastases and second primaries cause many late deaths.
-!differ Where the books differ
-Dhingra: Advises total laryngectomy with partial pharyngectomy for piriform tumours, laryngopharyngectomy when the postcricoid region is involved, with routine postoperative radiotherapy, and radiotherapy for early tumours.
-Lee: Gives a wider menu following the NCCN guidelines (induction chemotherapy, chemoradiation, transoral surgery, Ogura's partial laryngopharyngectomy) and notes that many prefer non-surgical treatment for larynx preservation.
-Both agree on the late presentation, early nodal spread and poor prognosis.
-!!
+Five-year survival is poor: roughly 20 to 50% for piriform sinus cancer, about a third for postcricoid cancer, and around a fifth for the posterior wall. One series reports a gross five-year cure rate of only 19% for posterior wall tumours. Distant metastases and second primaries cause many late deaths.
 !update Current evidence
-**Larynx preservation.** In the EORTC 24891 trial in piriform sinus and aryepiglottic fold cancers, induction cisplatin and fluorouracil followed by radiotherapy in responders gave survival equivalent to laryngectomy with postoperative radiotherapy, preserving the larynx in about a third of survivors at ten years (Lefebvre et al., *J Natl Cancer Inst* 1996; *Ann Oncol* 2012). Adding docetaxel (TPF) to induction chemotherapy improved the larynx preservation rate over PF in the GORTEC 2000-01 trial (Pointreau et al., *J Natl Cancer Inst* 2009). **Guidelines.** NCCN and European guidelines offer larynx preservation (induction chemotherapy or concurrent chemoradiation) to suitable patients with T2 to T3 disease who would otherwise need laryngectomy, and primary total laryngopharyngectomy for T4a disease with cartilage invasion or a non-functioning larynx. **Survival.** Hypopharyngeal cancer still has the worst survival of the head and neck subsites, around 30 to 40% at five years overall, because most patients present with stage III or IV disease.
+**Larynx preservation.** In the EORTC 24891 trial in piriform sinus and aryepiglottic fold cancers, induction cisplatin and fluorouracil followed by radiotherapy in responders gave survival equivalent to laryngectomy with postoperative radiotherapy, preserving the larynx in about a third of survivors at ten years (Lefebvre et al., *J Natl Cancer Inst* 1996; *Ann Oncol* 2012). Adding docetaxel (TPF) to induction chemotherapy improved the larynx preservation rate over PF in the GORTEC 2000-01 trial (Pointreau et al., *J Natl Cancer Inst* 2009). **Guidelines.** The In practice line above follows the NCCN and European guidelines. **Survival.** Hypopharyngeal cancer still has the worst survival of the head and neck subsites, around 30 to 40% at five years overall, because most patients present with stage III or IV disease.
 !!
 
 # For the examination | What the examiner wants to hear.

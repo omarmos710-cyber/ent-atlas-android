@@ -56,10 +56,10 @@ Recurrent aphthous-like oral ulcers with genital ulcers and uveitis, sometimes w
 ## Erythema multiforme
 A hypersensitivity reaction, often to herpes simplex or drugs (sulphonamides, anticonvulsants): bullae rupture into ulcers under a pseudomembrane, the lips form *haemorrhagic crusts*, and target lesions appear on the skin; the severe form merges into Stevens–Johnson syndrome. Supportive care; steroids for severe disease.
 ## Lichen planus
-A T-cell mediated disease. The *reticular* form shows lace-like white Wickham striae on both buccal mucosae and needs no treatment; the *erosive* form produces painful ulcers with a keratotic edge and responds to topical steroids. Erosive and atrophic forms carry a small risk of carcinoma, so they are followed up.
+A T-cell mediated disease. The *reticular* form shows lace-like white Wickham striae on both buccal mucosae and needs no treatment; the *erosive* form produces painful ulcers with a keratotic edge and responds to topical steroids. Erosive and atrophic forms carry a small risk of carcinoma, so they are followed up ([[t:oral_ca]]).
 ## Pemphigus and pemphigoid
-- **Pemphigus vulgaris:** autoantibodies to desmoglein 3 split the epithelium above the basal layer; fragile blisters break into painful erosions, often before skin lesions appear, in patients of fifty to seventy. Systemic steroids and immunosuppression.
-- **Mucous membrane pemphigoid:** the split is beneath the epithelium; blisters on the gums, cheek and palate, and scarring of the conjunctiva. Steroids and dapsone.
+- **Pemphigus vulgaris:** autoantibodies to desmoglein 3 split the epithelium above the basal layer (intercellular "chicken-wire" immunofluorescence); fragile blisters break into painful erosions, often before skin lesions appear, in patients of fifty to seventy. Systemic steroids and immunosuppression.
+- **Mucous membrane pemphigoid:** the split is beneath the epithelium (linear basement membrane immunofluorescence); blisters on the gums, cheek and palate, and scarring of the conjunctiva. Steroids and dapsone.
 ## Blood disorders and drugs
 Leukaemia swells and ulcerates the gums; agranulocytosis and cyclic neutropenia cause ulceration as defences fail. A blood film, counts and marrow examination are needed.
 !fig d43-4 | Palatal ulceration in a patient whose white cell count fell to 2,500 per cubic millimetre on cisplatin and fluorouracil chemotherapy.
@@ -83,7 +83,7 @@ Smooth the tooth or adjust the denture and look again in two to three weeks. A t
 - **Leukoedema:** a milky film on the buccal mucosa that disappears when the cheek is stretched, unlike leukoplakia.
 !fig d43-5 d43-6 | First, geographic tongue. Second, tongue-tie.
 ## Tongue-tie (ankyloglossia)
-A short frenulum. If the tongue can be protruded beyond the lower incisors it rarely affects speech; symptomatic ties are released (frenotomy, or transverse release with vertical closure).
+A short frenulum. If the tongue can be protruded beyond the lower incisors it rarely affects speech; symptomatic ties are released (frenotomy, or transverse release with vertical closure; [[t:mouthminor]]).
 ## Systemic clues
 - **Smooth, red tongue:** iron, B12 or folate deficiency; ash-grey mucosa and atrophy in iron deficiency (Plummer–Vinson syndrome).
 - **Angular cheilitis:** riboflavin or iron deficiency, candida.
@@ -106,7 +106,13 @@ Activated T-lymphocytes and macrophages release fibrogenic cytokines that drive 
 Usually between twenty and forty. Intolerance of chillies and spicy food, a burning mouth, recurrent vesicles on the palate and pillars, then difficulty in opening the mouth and protruding the tongue. The soft palate, pillars and buccal mucosa blanch and lose their suppleness, with palpable fibrous bands; trismus becomes progressive until the patient cannot brush the teeth.
 !fig d43-8 | Submucous fibrosis: (A) blanching of the soft palate and faucial pillars; (B) marked trismus.
 !flag A premalignant condition
-Carcinoma develops in about 3 to 7.6% (some series report more). Trismus makes examination difficult, so look carefully for leukoplakia and early cancer, and biopsy anything suspicious.
+Trismus makes examination difficult, so look carefully for leukoplakia and early cancer ([[t:oral_ca]]), and biopsy anything suspicious.
+!!
+!differ Malignant change in submucous fibrosis
+Most series: About 3 to 7.6%.
+Lee: 7 to 30%.
+Meta-analysis (Iocca et al., *Head Neck* 2020): About 5%.
+In practice: The figures differ because the series differ; treat it as premalignant and follow it up.
 !!
 ## Treatment
 - Stop areca nut, pan, tobacco and spicy food; correct anaemia and vitamin deficiency.
@@ -115,18 +121,14 @@ Carcinoma develops in about 3 to 7.6% (some series report more). Trismus makes e
 - **Surgery** for advanced trismus: release of the bands with cover by skin graft, buccal fat pad, nasolabial or tongue flaps, a palatal island flap or radial forearm free flaps, with coronoidectomy and temporalis myotomy where needed; recurrence is common.
 
 # Odontogenic cysts | Cysts in the jaws.
+Other jaw cysts and tumours are covered in [[t:jaw]].
 ## Dentigerous cyst
 A developmental cyst around the crown of an unerupted or impacted tooth, usually the third molar or the upper canine, presenting in the second or third decade as a painless swelling of the jaw. Radiographs show a unilocular cyst containing the crown; in the maxilla the tooth may be pushed up to the orbital floor. Small cysts are removed with the tooth; large ones are first marsupialised to avoid a fracture. Ameloblastoma or carcinoma can arise in the wall, so the lining is always examined.
 !fig d43-9 | Dentigerous cyst in a 14-year-old boy: (A) swelling of the left cheek; (B) radiograph; (C) the specimen with its tooth.
 ## Dental (radicular) cyst
 An inflammatory cyst at the apex (periapical) or side (lateral radicular) of a dead tooth. Enucleated when the tooth is extracted; lining left behind forms a residual cyst.
-!differ Where the books differ
-Dhingra: Groups the commoner ulcers, tongue lesions and submucous fibrosis in one chapter, with a strong Indian emphasis on areca nut and reverse smoking.
-Lee: Adds the immunofluorescence patterns that separate pemphigus (intercellular "chicken-wire") from pemphigoid (linear basement membrane), and quotes a higher malignant risk for submucous fibrosis (7 to 30%).
-The figures differ because the series differ; both treat submucous fibrosis as premalignant.
-!!
 !update Current evidence
-**Referral.** NICE suggested-cancer guidance (NG12) recommends urgent referral for unexplained oral ulceration lasting more than three weeks, and for a persistent unexplained lump in the mouth or red or red-and-white patch. **Recurrent aphthous stomatitis.** Topical steroids and chlorhexidine reduce pain and healing time; severe or atypical ulcers need tests for Behçet disease, coeliac disease, inflammatory bowel disease and haematinic deficiency. **Areca nut.** The International Agency for Research on Cancer classifies areca nut, with or without tobacco, as a group 1 carcinogen; oral submucous fibrosis transforms to cancer in about 5% (Iocca et al., *Head Neck* 2020). **Oral lichen planus** is managed with topical steroids and periodic review because of its small malignant potential.
+**Referral.** NICE suggested-cancer guidance (NG12) recommends urgent referral for unexplained oral ulceration lasting more than three weeks, and for a persistent unexplained lump in the mouth or red or red-and-white patch. **Recurrent aphthous stomatitis.** Topical steroids and chlorhexidine reduce pain and healing time; severe or atypical ulcers need tests for Behçet disease, coeliac disease, inflammatory bowel disease and haematinic deficiency. **Areca nut.** The International Agency for Research on Cancer classifies areca nut, with or without tobacco, as a group 1 carcinogen; (see the box on malignant change above). **Oral lichen planus** is managed with topical steroids and periodic review because of its small malignant potential.
 !!
 
 # For the examination | What the examiner wants to hear.
