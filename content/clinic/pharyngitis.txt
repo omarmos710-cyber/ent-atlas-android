@@ -27,9 +27,9 @@ One point each for fever, tonsillar exudate, tender anterior cervical nodes and 
 A throat swab culture detects about 90% of group A streptococci; a rapid antigen test gives an answer in minutes. Diphtheria needs special media and gonococcal swabs must be plated at once. No growth suggests a viral cause. Monospot or EBV serology and a blood film when glandular fever is suspected.
 ## Treatment
 ### General
-Rest, plenty of fluids, warm saline gargles and analgesics; viscous lidocaine before meals for severe pain.
+Rest, plenty of fluids, warm saline gargles and analgesics (paracetamol or ibuprofen); viscous lidocaine before meals for severe pain. A single dose of oral dexamethasone shortens severe pain in some adults but is not routine.
 ### Streptococcal pharyngitis
-Penicillin V orally for ten days, or a single intramuscular injection of benzathine penicillin; erythromycin or another macrolide for penicillin allergy. The full course is what prevents rheumatic fever.
+Penicillin V orally for ten days (American guidance) or five to ten days (NICE), or a single intramuscular injection of benzathine penicillin; clarithromycin or another macrolide for penicillin allergy. Where rheumatic fever is common, as in Egypt and much of the developing world, the full ten days or benzathine penicillin is what prevents it.
 ### Others
 Diphtheria with antitoxin and penicillin or erythromycin; gonococcal pharyngitis with appropriate antibiotics according to local guidance.
 
@@ -97,6 +97,9 @@ An *elongated styloid process* (normal about 25 mm; over 30 mm is elongated) or 
 Brief, severe, electric pain in the tonsil, tongue base and ear, triggered by swallowing or yawning; carbamazepine, and microvascular decompression for resistant cases.
 ## Globus
 A persistent lump feeling in the throat between meals, with normal swallowing of food. Examine fully and endoscopically; reflux and anxiety are common associations, and red flags (pain, dysphagia, weight loss, voice change, neck mass) call for investigation.
+!update Current evidence
+**Who needs an antibiotic.** NICE (NG84, 2018) uses FeverPAIN or Centor scores: FeverPAIN 0 to 1 or Centor 0 to 2, no antibiotic; FeverPAIN 2 to 3, consider no or a back-up prescription; FeverPAIN 4 to 5 or Centor 3 to 4, consider an immediate antibiotic, phenoxymethylpenicillin for five to ten days. The American guideline recommends a rapid antigen test or culture before treating, and penicillin or amoxicillin for ten days for confirmed group A streptococcus (Shulman et al., *Clin Infect Dis* 2012). **Benefit.** A Cochrane review found that antibiotics shorten symptoms by about 16 hours on average and reduce suppurative complications and rheumatic fever, but the absolute benefit is small in high-income settings (Spinks et al., 2021). **Course length.** In a Swedish trial, penicillin V four times daily for five days was non-inferior to three times daily for ten days in confirmed streptococcal pharyngotonsillitis (Skoog Ståhlgren et al., *BMJ* 2019). **Steroids.** In the TOAST trial, a single 10 mg dose of oral dexamethasone did not increase complete resolution at 24 hours but did at 48 hours (Hayward et al., *JAMA* 2017).
+!!
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials

@@ -4,7 +4,7 @@
 ## Definition
 Otosclerosis, also called *otospongiosis*, is a primary disease of the otic capsule. Normal dense enchondral bone is replaced by vascular, spongy bone that later hardens again. When a focus reaches the oval window it fixes the stapes footplate and causes a conductive hearing loss; when it involves the cochlea it can add a sensorineural loss.
 ## Epidemiology
-The histological disease is far commoner than the clinical one. Lee quotes histological foci in 8 to 12% of white adults, but clinical otosclerosis in only 0.5 to 2%. It is less common in Black and Asian populations. Women are affected about twice as often as men, and hearing loss usually begins between 20 and 30 years of age; onset before 10 or after 40 is unusual.
+The histological disease is far commoner than the clinical one. Histological foci are found in about 3 to 4% of temporal bones (Lee quotes up to 8 to 12% in white adults), but clinical otosclerosis affects only about 0.5 to 2% of adults, rising to 3% over 60. It is less common in Black and Asian populations. Women outnumber men about two to one in surgical series, although population data suggest similar prevalence with more severe disease in women; the familial form (25 to 50%) is autosomal dominant with incomplete penetrance, and hearing loss usually begins between 20 and 30 years of age; onset before 10 or after 40 is unusual.
 ## Why it matters
 Otosclerosis is the classic cause of progressive conductive deafness behind an intact, normal-looking drum. It is entirely treatable, with a hearing aid or with surgery that restores hearing in nine patients out of ten. But the operation opens the inner ear, and a small number of patients lose the hearing in that ear altogether, so the decision to operate is a careful one.
 
@@ -107,15 +107,17 @@ Suitable gap | Stapes surgery | closes the gap in 90–95%
 Far advanced | Cochlear implant | when aids no longer help
 !!
 Each is legitimate. The patient chooses after an honest account of the benefits and the small risk of losing the hearing in the operated ear.
+## Natural history
+Untreated, the air-bone gap widens by about 1 dB a year, with a further 1 dB a year of sensorineural decline.
 ## Medical treatment
 No drug reverses fixation. *Sodium fluoride* has been used to hasten maturation of active foci and slow sensorineural progression in cochlear otosclerosis.
 !differ Sodium fluoride
 Dhingra: Controversial, and not generally recommended.
 Lee: Widely accepted for progressive cochlear disease, though not FDA approved.
-In practice it is considered for active disease with progressive sensorineural loss, a positive Schwartze sign or a halo on CT.
+Current practice: considered by some for active disease with progressive sensorineural loss, a positive Schwartze sign or a halo on CT; not used routinely in the UK because the evidence is weak. Bisphosphonates remain experimental.
 !!
 ## Hearing aid
-An excellent alternative for patients who do not want surgery or are unfit for it, and the treatment of choice for an only hearing ear. Conductive losses aid particularly well.
+Offer one to every patient before surgery: an excellent alternative for those who do not want surgery or are unfit for it, and the treatment of choice for an only hearing ear. Conductive losses aid particularly well. A bone-conduction device suits those who cannot wear an aid and decline surgery.
 ## Stapes surgery
 The fixed stapes is removed, wholly or in part, and a prosthesis is placed between the long process of the incus and the inner ear.
 ### Selection
@@ -147,17 +149,20 @@ The operation is usually done under local anaesthesia through the ear canal.
 !fig d13-6 | Steps of stapedectomy, from elevation of the tympanomeatal flap to placement of the prosthesis.
 !fig d13-4 d13-5 | First, the fixed stapes before removal, and a Teflon piston in its place afterwards. Second, stapes prostheses: Teflon, platinum–Teflon and titanium–Teflon pistons.
 ### Results
-The air-bone gap closes to within 10 dB in about 90 to 95% of experienced hands. Carhart's notch disappears with it.
+Small fenestra stapedotomy closes the air-bone gap to within 10 dB in 80% to over 95% of ears, about 90% in experienced hands. Carhart's notch disappears with it. Pre-existing tinnitus improves in about three-quarters and worsens in about 5%.
 !ops
 ## Far-advanced otosclerosis
-When combined loss is so severe that aids no longer help, a cochlear implant gives good results. Stapes surgery plus a powerful aid is an alternative in selected patients. Otosclerotic bone can cause facial nerve stimulation by the implant.
+Thresholds worse than about 85 dB with unmeasurable bone conduction. Stapedotomy with a powerful hearing aid is tried first in selected patients, then a cochlear implant if that fails; an active middle ear implant coupled to a stapedotomy piston suits patients whose hearing is too good for an implant. Otosclerotic bone can cause facial nerve stimulation by the implant.
 ## Historical operations
 Stapes mobilisation gave only temporary benefit, as the stapes refixed. Lempert's fenestration created a new window in the lateral semicircular canal; it left a mastoid cavity and an inherent loss of about 25 dB, and is now obsolete.
+!update Current evidence
+**Surgery.** Large series of small fenestra stapedotomy report closure of the air-bone gap to within 10 dB in about 90% and total sensorineural loss in under 1%, with laser and microdrill techniques giving similar results; stapedotomy has better high-frequency and safety results than stapedectomy in comparative series. **Far-advanced disease.** A review-based strategy recommends stapedotomy with a hearing aid first when speech discrimination with an aid is reasonable, and cochlear implantation otherwise, noting a higher risk of facial nerve stimulation in otosclerotic ears (Merkus et al., *Laryngoscope* 2011). **Fluoride.** A systematic review found only limited, low-quality evidence that sodium fluoride slows hearing deterioration (Hentschel et al., *Otol Neurotol* 2014); a 2026 meta-analysis of ten mostly observational studies (2352 patients) found fluoride associated with hearing stabilisation, but randomised evidence remains thin (Hughes et al., *Otolaryngol Head Neck Surg* 2026).
+!!
 
 # Complications of stapes surgery | Rare, but the patient must hear about them beforehand.
 ## During the operation
 - **Tear of the tympanomeatal flap,** which can leave a perforation.
-- **Chorda tympani injury,** causing a metallic taste in 5–10%, worse if the opposite chorda was already damaged.
+- **Chorda tympani injury,** causing a metallic taste in 5–10% long term (up to 30% briefly), worse if the opposite chorda was already damaged.
 - **Incus dislocation.**
 - **Floating footplate,** which drops into the vestibule if pushed.
 - **Perilymph gusher,** about 1 in 300, more likely with a wide cochlear aqueduct, especially in X-linked deafness.
@@ -173,22 +178,13 @@ A short, loose or displaced prosthesis, or erosion of the incus (the commonest f
 ### Perilymph fistula
 Fluctuating hearing and vertigo, often after straining or barotrauma.
 ### Sensorineural loss
-About 2% have some sensorineural loss; about 1 in 200 lose all hearing in the operated ear (a *dead ear*). A slow high-frequency loss may appear over the years.
+About 2% have some sensorineural loss; about 0.5 to 1% lose all hearing in the operated ear (a *dead ear*). A slow high-frequency loss may appear over the years.
 !ward After stapes surgery
 1. Lie the patient with the operated ear up for the first hours; expect mild unsteadiness.
-2. Vertigo with nystagmus, sudden hearing loss or facial weakness needs same-day senior review.
+2. Vertigo with nystagmus, sudden hearing loss or facial weakness needs same-day senior review. A delayed facial palsy usually recovers fully within about six weeks on oral steroids.
 3. Advise against straining, nose blowing, heavy lifting and flying for about two to four weeks.
 4. Avoid water in the ear until the flap has healed.
 5. Book an audiogram at about six weeks.
-!!
-!update Numbers and current practice (Oxford Textbook)
-Clinical otosclerosis affects about 2% of adults, rising to 3% over 60, although histological foci are found in about 3.4% of temporal bones; the familial form (25 to 50%) is autosomal dominant with incomplete penetrance, and the measles link remains unproven. Population data show similar prevalence in men and women, with women more severely affected, which may explain the 2:1 female excess in surgical series. Untreated, the air–bone gap widens by about 1 dB a year, with a further 1 dB a year of sensorineural decline.
-
-**Hearing aids** give excellent results and should be offered to every patient before surgery; a bone-conduction device suits those who cannot wear an aid and decline surgery. **Fluoride** is not used in the UK because its evidence is weak, and bisphosphonates remain experimental.
-
-**Small fenestra stapedotomy** closes the air–bone gap to within 10 dB in 80% to over 95% of ears. Total sensorineural loss occurs in about 0.4 to 2%, taste disturbance from chorda tympani handling in up to 30% (usually temporary), and vertigo is now uncommon. Pre-existing tinnitus improves in about three-quarters and worsens in 5%. A delayed facial palsy after surgery usually recovers fully within six weeks on oral steroids.
-
-**Far-advanced otosclerosis** (thresholds worse than 85 dB with unmeasurable bone conduction) is treated first by stapedotomy with a hearing aid, then by cochlear implantation if that fails; an active middle ear implant coupled to a stapedotomy piston suits patients too good for an implant.
 !!
 
 # For the examination | What the examiner wants to hear.

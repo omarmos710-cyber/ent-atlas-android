@@ -116,10 +116,13 @@ Intravenous antibiotics, changed according to culture, with oral step-down to co
 - No improvement after 48 hours of adequate treatment.
 - Any complication, or cholesteatoma.
 ### Small children
-A small subperiosteal abscess may be aspirated or incised, but cortical mastoidectomy is generally advised. The infant mastoid is small and vascular, landmarks are poor, and the facial nerve exits superficially.
+A small subperiosteal abscess may be aspirated or incised with myringotomy and antibiotics, an approach that succeeds in most children in recent series; cortical mastoidectomy is advised if it fails or the abscess recurs. The infant mastoid is small and vascular, landmarks are poor, and the facial nerve exits superficially.
 ### The operation
 Cortical (Schwartze) mastoidectomy removes the diseased cells and opens the antrum to the middle ear, leaving the canal wall and ossicles intact.
 !ops
+!update Current evidence
+**Conservative or surgical?** A systematic review of 21 studies (564 children) found cure rates of 96% with medical treatment, 96% with conservative surgery (myringotomy with or without grommet, abscess drainage) and 89% with mastoidectomy, supporting conservative first-line treatment for uncomplicated mastoiditis (Loh et al., *J Laryngol Otol* 2018). Immediate needle aspiration of a subperiosteal abscess, with myringotomy and intravenous antibiotics, avoided mastoidectomy in most children in an Israeli series (Bartov et al., *Otol Neurotol* 2019). **Imaging.** Contrast CT is reserved for suspected complications or failure to improve within 48 hours; MRI with venography is better for sigmoid sinus thrombosis and intracranial spread. **Prevention.** Mastoiditis is rare, and avoiding antibiotics for uncomplicated otitis media raises its incidence only slightly in large population studies, so it is not a reason to treat every ear infection.
+!!
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials

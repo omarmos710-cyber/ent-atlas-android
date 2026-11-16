@@ -6,12 +6,16 @@ Inflammation of the nose and paranasal sinuses. The term *rhinosinusitis* is pre
 ## Classification by time
 !table Classification of rhinosinusitis
 Type | Duration
-Acute | Under 4 weeks, with complete resolution
-Subacute | 4 to 12 weeks
+Acute | Under 12 weeks, with complete resolution (older American texts: under 4 weeks)
 Chronic | 12 weeks or more
-Recurrent acute | 4 or more episodes a year, each lasting 7 to 10 days or more, with full recovery between
+Recurrent acute | 4 or more episodes a year, with symptom-free intervals
 Acute on chronic | Sudden worsening of chronic disease, returning to baseline
 !!
+EPOS 2020 dropped the term "subacute". Within acute rhinosinusitis it separates three phases:
+- **Common cold** (acute viral rhinosinusitis): symptoms for less than 10 days.
+- **Acute post-viral rhinosinusitis:** symptoms that worsen after five days or persist beyond ten.
+- **Acute bacterial rhinosinusitis:** at least three of discoloured discharge (often one-sided), severe local pain (often one-sided), fever above 38 °C, raised ESR or CRP, and "double sickening" (worsening after initial improvement).
+Only 0.5 to 2% of viral episodes become bacterial, and discoloured mucus alone does not mean bacteria.
 ## Symptoms
 Nasal blockage, anterior or posterior discharge, facial pain or pressure, and reduced smell, with cough, fever, fatigue, dental pain, halitosis, headache or ear fullness.
 
@@ -66,10 +70,10 @@ Not needed for uncomplicated acute disease. CT of the sinuses (with contrast and
 
 # Management | Most need no antibiotic.
 ## Viral rhinosinusitis
-Symptomatic: saline, analgesics (non-aspirin), short-term decongestants and fluids. Antibiotics are not needed.
+Symptomatic: saline, analgesics (non-aspirin), short-term decongestants and fluids. Antibiotics are not needed. For post-viral symptoms beyond ten days, a nasal steroid spray helps.
 ## Bacterial rhinosinusitis
 - **Analgesics:** NSAIDs or paracetamol.
-- **Antibiotics:** amoxicillin, with or without clavulanate, first line; doxycycline or a respiratory quinolone in penicillin allergy. Watchful waiting is reasonable in mild disease with a safety net.
+- **Antibiotics:** amoxicillin, with or without clavulanate, first line; doxycycline or a respiratory quinolone in penicillin allergy. Watchful waiting is reasonable in mild disease with a safety net. Antibiotics are greatly overused (given to over 90% of patients in UK primary care in some series), and early antibiotics do not prevent complications; keep them for severe or clearly bacterial disease. The usual organisms are *Streptococcus pneumoniae*, *Haemophilus influenzae* and *Moraxella catarrhalis*, with rising resistance to penicillin and macrolides. *Streptococcus anginosus* (milleri group) is the commonest organism in complicated sinusitis in older children and adolescents, with a tendency to form intracranial abscesses.
 - **Saline irrigation.**
 - **Intranasal steroids:** reduce oedema and shorten the illness.
 - **Decongestants:** topical for a few days only; oral ones where safe.
@@ -84,6 +88,9 @@ If pain, fever or lid swelling worsen despite 48 hours of treatment, *trephine* 
 ### Ethmoid
 Drain an orbital abscess and the ethmoids, endoscopically or through an external ethmoidectomy.
 !ops
+!update Current evidence
+**Guidelines.** EPOS 2020 recommends symptomatic treatment for the common cold and post-viral rhinosinusitis, nasal steroids for post-viral symptoms, and antibiotics only for acute bacterial rhinosinusitis (Fokkens et al., *Rhinology* 2020). NICE (NG79, 2017) advises no antibiotic for symptoms under ten days, a nasal steroid and a back-up antibiotic prescription for symptoms beyond ten days, and an immediate antibiotic only for the systemically very unwell or those at high risk of complications; first choice is phenoxymethylpenicillin for five days. The American guideline allows watchful waiting for uncomplicated bacterial sinusitis with a safety net, and amoxicillin with or without clavulanate for five to ten days when treating (Rosenfeld et al., *Otolaryngol Head Neck Surg* 2015). **Antibiotics.** A Cochrane review of 15 trials in adults found that antibiotics cure about one extra patient in 19 at 7 to 14 days, but cause side effects in one in eight (Lemiengre et al., 2018). **Nasal steroids.** A Cochrane review found a modest benefit in symptom resolution, greater with higher doses (Zalmanovici Trestioreanu and Yaphe, 2013).
+!!
 
 # Complications | Local, orbital and intracranial.
 !fig d38-1 | Complications of sinusitis.
@@ -140,11 +147,6 @@ General state | Unwell | Toxic, very ill
 !!
 ## Descending and focal infections
 Infected discharge running down the pharynx causes pharyngitis, laryngitis and bronchitis; sinus infection can also act as a focus for distant disease.
-!update EPOS 2020 and antibiotic stewardship (Oxford Textbook)
-EPOS 2020 defines three phases of acute rhinosinusitis (symptoms for less than 12 weeks). The **common cold** (acute viral rhinosinusitis) lasts less than 10 days. **Acute post-viral rhinosinusitis** is when symptoms worsen after five days or persist beyond ten. **Acute bacterial rhinosinusitis** is suggested by at least three of: discoloured discharge (often one-sided), severe local pain (often one-sided), fever above 38 °C, raised ESR or CRP, and "double sickening" (worsening after an initial improvement). Only 0.5 to 2% of viral episodes become bacterial, and discoloured mucus alone does not mean bacteria. EPOS 2020 dropped the term "subacute". **Recurrent acute rhinosinusitis** means four or more episodes a year with symptom-free intervals.
-
-Antibiotics are greatly overused, given on the first day in many episodes and to over 90% of patients in UK primary care, although early antibiotics do not prevent complications. Most patients need only analgesia, saline and, for post-viral symptoms, a nasal steroid spray; antibiotics are kept for severe or bacterial disease. The usual organisms remain *Streptococcus pneumoniae*, *Haemophilus influenzae* and *Moraxella catarrhalis*, but resistance to penicillin and macrolides has risen sharply. *Streptococcus anginosus* (milleri group) is the commonest organism in complicated sinusitis in children and adolescents, with a tendency to form intracranial abscesses.
-!!
 
 # For the examination | What the examiner wants to hear.
 ## On call
