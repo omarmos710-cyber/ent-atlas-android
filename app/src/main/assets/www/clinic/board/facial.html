@@ -38,10 +38,11 @@ th{font:700 15px Kalam;color:var(--c)}
 .gcol>.card:first-child{margin-top:4px}
 h1{font-size:64px}
 </style></head><body>
+<style>.grid.even{align-items:stretch}.even>.gcol{display:flex;flex-direction:column}.even>.gcol>.card:last-child{flex:1}.st{display:inline-flex;align-items:center;gap:2px}</style>
 <h1>FACIAL NERVE PALSY</h1>
 <div class="sub">forehead? ear? parotid? protect the eye today ✎</div>
 
-<div class="grid"><div class="gcol">
+<div class="grid even" style="grid-template-columns:1.273fr 0.716fr 1.287fr 0.724fr"><div class="gcol">
 
 <div class="card" style="--c:var(--blue)">
 <h2><span class="n">1</span>Upper or lower?</h2>
@@ -91,8 +92,6 @@ h1{font-size:64px}
 <tr><td>5</td><td>whole nerve</td><td>none without repair</td></tr></table>
 </div>
 
-</div><div class="gcol">
-
 <div class="card" style="--c:var(--red)">
 <h2><span class="n">3</span>Think beyond Bell's</h2>
 <table style="--c:var(--red)"><tr><th>Group</th><th>Causes</th></tr>
@@ -102,10 +101,20 @@ h1{font-size:64px}
 <tr><td><b>Tumour</b></td><td>parotid cancer, facial schwannoma, haemangioma, glomus, VS, temporal bone cancer</td></tr>
 <tr><td><b>Systemic</b></td><td>diabetes, sarcoid (Heerfordt), Guillain-Barré, leukaemia, granulomatosis</td></tr>
 <tr><td><b>Congenital</b></td><td>Möbius, birth injury</td></tr></table>
-<div class="box" style="margin-top:6px"><h3>Bell's palsy</h3><div class="mini">acute idiopathic LMN palsy = <b>60–75%</b> · likely HSV reactivation; swelling in the labyrinthine segment · ↑ in diabetes, pregnancy · peaks <b>within 72 h</b>, often after pain behind the ear · full recovery <b>85–90%</b> (95% if never complete) · <span class="hl">a diagnosis of exclusion</span></div></div>
+</div>
+
+</div><div class="gcol">
+
+<div class="card" style="--c:var(--red)">
+<h2><span class="n">4</span>Bell's and Ramsay Hunt</h2>
+<div class="box" style=""><h3>Bell's palsy</h3><div class="mini">acute idiopathic LMN palsy = <b>60–75%</b> · likely HSV reactivation; swelling in the labyrinthine segment · ↑ in diabetes, pregnancy · peaks <b>within 72 h</b>, often after pain behind the ear · full recovery <b>85–90%</b> (95% if never complete) · <span class="hl">a diagnosis of exclusion</span></div></div>
 <div class="box" style="margin-top:8px"><h3>Ramsay Hunt</h3><div class="mini">zoster: <b>vesicles</b> (concha, canal, palate), severe pain, palsy ± SNHL, vertigo · worse outlook than Bell's</div></div>
 <div class="mini" style="margin-top:6px"><b>OM</b> inflames a dehiscent nerve · <b>cholesteatoma</b> erodes (tympanic segment) → urgent otology</div>
-<table style="--c:var(--red);margin-top:6px"><tr><th>Fracture</th><th>Longitudinal</th><th>Transverse</th></tr>
+</div>
+
+<div class="card" style="--c:var(--red)">
+<h2><span class="n">5</span>Fractures, tumours, both sides</h2>
+<table style="--c:var(--red);"><tr><th>Fracture</th><th>Longitudinal</th><th>Transverse</th></tr>
 <tr><td>share</td><td>~80%</td><td>~20%</td></tr>
 <tr><td>blow</td><td>side of head</td><td>back of head</td></tr>
 <tr><td>ear bleeding</td><td>common</td><td>usually absent</td></tr>
@@ -119,7 +128,7 @@ h1{font-size:64px}
 </div><div class="gcol">
 
 <div class="card" style="--c:var(--purple)">
-<h2><span class="n">4</span>Where, how bad, why</h2>
+<h2><span class="n">6</span>Where, how bad, why</h2>
 <div class="mini">Onset speed, pain, vesicles, hearing, vertigo, discharge, trauma / surgery, previous episodes · brows, eyes shut tight, smile, puff · <b>Bell's phenomenon</b> (eye rolls up and out)</div>
 <table style="--c:var(--purple)"><tr><th>HB</th><th>Face</th></tr>
 <tr><td>I</td><td>normal</td></tr>
@@ -129,7 +138,11 @@ h1{font-size:64px}
 <tr><td>V</td><td>barely perceptible</td></tr>
 <tr><td>VI</td><td>none</td></tr></table>
 <div class="mini" style="margin-top:4px">+ VI → brainstem · V, VIII, lower nerves → CPA · motor only → parotid</div>
-<table style="--c:var(--purple);margin-top:6px"><tr><th>Lost</th><th>Lesion lies</th></tr>
+</div>
+
+<div class="card" style="--c:var(--purple)">
+<h2><span class="n">7</span>Topography and nerve tests</h2>
+<table style="--c:var(--purple);"><tr><th>Lost</th><th>Lesion lies</th></tr>
 <tr><td>tears (<b>Schirmer</b>)</td><td>at / above geniculate</td></tr>
 <tr><td>stapedial reflex</td><td>above nerve to stapedius</td></tr>
 <tr><td>taste, submandibular flow</td><td>above chorda</td></tr>
@@ -141,16 +154,16 @@ h1{font-size:64px}
 </ul>
 </div>
 
-
 <div class="card" style="--c:var(--green)">
-<h2><span class="n">5</span>Eye first, then steroids</h2>
+<h2><span class="n">8</span>Eye first, then steroids</h2>
 <div class="warn mini"><b>Eye:</b> drops by day, ointment + taping at night, sunglasses / moisture chamber · poor closure → gold / platinum lid weight, lateral tarsal strip, tarsorrhaphy</div>
 <div class="box" style="margin-top:6px"><h3>Bell's: steroids within 72 h</h3><div class="mini">prednisolone 50 mg daily × ten days, or 60 mg × five days + five-day taper · full recovery at three months <b>83% vs 64%</b> · age 16 and over · antiviral alone useless; with steroids = option (severe / complete) · caution: diabetes, hypertension, ulcer, TB, glaucoma, pregnancy<br><b>Don't</b> routinely test, image, or do electrodiagnosis in incomplete palsy · image if atypical</div></div>
 </div>
+
 </div><div class="gcol">
 
 <div class="card" style="--c:var(--green)">
-<h2><span class="n">6</span>Other causes, surgery, repair</h2>
+<h2><span class="n">9</span>Other causes, surgery, repair</h2>
 <ul class="mini" style="--c:var(--green);margin-top:4px">
 <li><b>Ramsay Hunt:</b> high-dose steroid + aciclovir / valaciclovir + analgesia</li>
 <li><b>AOM:</b> antibiotics + myringotomy · <b>chronic:</b> urgent exploration; leave granulation that has invaded the nerve</li>
@@ -162,12 +175,12 @@ h1{font-size:64px}
 </div>
 
 <div class="card" style="--c:var(--ink)">
-<h2><span class="n">7</span>Incomplete recovery</h2>
+<h2><span class="n">10</span>Incomplete recovery</h2>
 <div class="mini">exposure keratitis · <b>synkinesis</b> (physio, botox) · contracture · <b>crocodile tears</b> (Bogorad) · distress · <b>hemifacial spasm</b>: vascular loop → botox or microvascular decompression</div>
 </div>
 
 <div class="card" style="--c:var(--red)">
-<h2><span class="n">8</span>Exam traps ✗</h2>
+<h2><span class="n">11</span>Exam traps ✗</h2>
 <ul class="mini" style="--c:var(--red)">
 <li>Bell's without looking in the <b>ear</b> or feeling the <b>parotid</b></li>
 <li>Forgetting <b>eye care</b></li>

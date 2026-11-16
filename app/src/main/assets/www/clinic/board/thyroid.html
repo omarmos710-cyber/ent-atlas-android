@@ -38,15 +38,16 @@ th{font:700 15px Kalam;color:var(--c)}
 .gcol>.card:first-child{margin-top:4px}
 h1{font-size:64px}
 </style></head><body>
+<style>.grid.even{align-items:stretch}.even>.gcol{display:flex;flex-direction:column}.even>.gcol>.card:last-child{flex:1}.st{display:inline-flex;align-items:center;gap:2px}</style>
 <h1>THE THYROID</h1>
 <div class="sub">the whole topic on one board ✎</div>
 
-<div class="grid"><div class="gcol">
+<div class="grid even" style="grid-template-columns:0.909fr 0.898fr 1.092fr 1.101fr"><div class="gcol">
 
 <div class="card" style="--c:var(--blue)">
 <h2><span class="n">1</span>Applied anatomy</h2>
 <div class="row" style="flex-direction:column;align-items:center">
-<svg width="330" height="358" viewBox="0 0 230 250" style="flex:none">
+<svg width="330" height="370" viewBox="0 0 230 258" style="flex:none">
  <defs><filter id="w"><feTurbulence baseFrequency=".03" numOctaves="2" seed="3"/><feDisplacementMap in="SourceGraphic" scale="2.2"/></filter></defs>
  <g filter="url(#w)" stroke-linecap="round" stroke-linejoin="round">
  <!-- larynx / trachea -->
@@ -69,7 +70,7 @@ h1{font-size:64px}
  <path d="M96 99 C80 70 52 62 46 92 C40 124 52 150 76 150 C90 150 96 130 104 112 L126 112 C134 130 140 150 154 150 C178 150 190 124 184 92 C178 62 150 70 134 99 Z" fill="#f4b4a6" fill-opacity=".93" stroke="#b5372a" stroke-width="2.6"/>
  </g>
  <text x="115" y="176" text-anchor="middle" font-family="Caveat" font-size="17" fill="#b5372a">isthmus = rings 2–4</text>
- <text x="115" y="193" text-anchor="middle" font-family="Caveat" font-size="16" fill="#1f5fbf">15–25 g · lobe 5×3×2 cm</text>
+ <text x="115" y="197" text-anchor="middle" font-family="Caveat" font-size="16" fill="#1f5fbf">15–25 g · lobe 5×3×2 cm</text>
 </svg>
 <div class="col" style="--c:var(--blue);font-size:16.5px">
 <ul>
@@ -82,7 +83,11 @@ h1{font-size:64px}
 </ul>
 </div>
 </div>
-<div class="split" style="margin-top:6px">
+</div>
+
+<div class="card" style="--c:var(--blue)">
+<h2><span class="n">2</span>Embryology and vessels</h2>
+<div class="split" style="">
 <div class="box"><h3>Embryology</h3>
 <div class="mini">foramen caecum (wk 4) → thyroglossal tract → neck (wk 7)<br>
 • stops → <b>lingual thyroid</b><br>• pyramidal lobe ≤40%<br>• C cells: upper/middle ⅓ → <span class="hl">MTC</span></div></div>
@@ -90,8 +95,12 @@ h1{font-size:64px}
 <div class="mini">Sup. thyroid a. = 1st ECA branch<br>Inf. thyroid a. (thyrocervical) → parathyroids<br><b>Middle vein</b> = first divided<br>Lymph: <b>VI</b> → VII &amp; II–IV</div></div>
 </div>
 <div class="warn mini"><b>Lingual thyroid</b> (1 in 3000–4000, women): scan + US <u>before</u> any treatment — may be the only thyroid!</div>
-</div></div><div class="gcol"><div class="card" style="--c:var(--teal)">
-<h2><span class="n">2</span>Physiology &amp; tests</h2>
+</div>
+
+</div><div class="gcol">
+
+<div class="card" style="--c:var(--teal)">
+<h2><span class="n">3</span>Physiology &amp; tests</h2>
 <div class="flow" style="--c:var(--teal)">
 <span class="chip">trap I⁻</span><span class="ar">→</span><span class="chip">TPO: MIT/DIT</span><span class="ar">→</span><span class="chip">couple T4/T3</span><span class="ar">→</span><span class="chip">colloid</span><span class="ar">→</span><span class="chip">release</span>
 </div>
@@ -108,8 +117,10 @@ h1{font-size:64px}
 <li><b>Calcitonin + CEA</b> → MTC</li>
 </ul></div>
 </div>
-</div><div class="card" style="--c:var(--green)">
-<h2><span class="n">3</span>Benign disease</h2>
+</div>
+
+<div class="card" style="--c:var(--green)">
+<h2><span class="n">4</span>Benign disease</h2>
 <div class="split">
 <div class="box"><h3>Hypo ↓</h3><div class="mini">iodine def. / <b>Hashimoto</b> / surgery, RAI, <b>neck RT (~½!)</b><br>ENT: hoarse low voice, big tongue, SNHL<br><span style="color:var(--red)">GA → myxoedema coma</span></div></div>
 <div class="box"><h3>Hyper ↑</h3><div class="mini"><b>Graves</b> (commonest)<br>toxic MNG (elderly)<br>toxic adenoma (1 hot nodule)<br>thyroiditis → <u>low</u> uptake</div></div>
@@ -117,14 +128,22 @@ h1{font-size:64px}
 <div class="box" style="margin-top:8px"><h3>Graves</h3><div class="mini">TRAb · F 5–10:1 · diffuse goitre + bruit · eyes · pretibial myxoedema<br>
 <span class="tag">1</span>ATDs (<span style="color:var(--red)">agranulocytosis → sore throat!</span>) <span class="tag">2</span>RAI (not pregnant) <span class="tag">3</span>total thyroidectomy<br>
 Pre-op: <b>euthyroid</b> (avoid storm) + <b>Lugol's ~10 days</b></div></div>
+</div>
+
+<div class="card" style="--c:var(--green)">
+<h2><span class="n">5</span>Thyroiditis and goitre</h2>
 <table style="--c:var(--green)"><tr><th>Thyroiditis</th><th>Clue</th></tr>
 <tr><td><b>Hashimoto</b></td><td>firm rubbery goitre, TPO Ab; fast growth → <span class="hl">lymphoma?</span></td></tr>
 <tr><td><b>de Quervain</b></td><td>painful, post-viral, ↑ESR, toxic → hypo → recovery</td></tr>
 <tr><td><b>Acute suppurative</b></td><td>child, <u>left</u> → pyriform sinus fistula</td></tr>
 <tr><td><b>Riedel</b></td><td>woody, fixed (IgG4) mimics anaplastic</td></tr></table>
 <div class="mini" style="margin-top:6px"><b>Goitre</b>: 5–10% hide cancer · <b>Pemberton</b> + · retrosternal → almost always via the neck · Pendred = goitre + SNHL + EVA</div>
-</div></div><div class="gcol"><div class="card" style="--c:var(--orange)">
-<h2><span class="n">4</span>The nodule: find the cancer</h2>
+</div>
+
+</div><div class="gcol">
+
+<div class="card" style="--c:var(--orange)">
+<h2><span class="n">6</span>The nodule: find the cancer</h2>
 <div class="flow" style="--c:var(--orange)">
 <span class="chip"><b>TSH</b></span><span class="ar">→</span><span class="chip">low → scan: <u>hot</u> = no FNA</span>
 </div>
@@ -140,8 +159,10 @@ Pre-op: <b>euthyroid</b> (avoid storm) + <b>Lugol's ~10 days</b></div></div>
 <tr><td>V suspicious</td><td>4</td><td>74%</td><td>surgery</td></tr>
 <tr><td>VI malignant</td><td>5</td><td>97%</td><td>surgery</td></tr></table>
 <div class="warn mini"><b>Why FNA can't call follicular cancer:</b> needs <u>capsular or vascular invasion</u> → the whole capsule → lobectomy.<br>Cyst fluid: brown = old blood · <b>water-clear = parathyroid</b> (PTH) · bloody & recurs = papillary?</div>
-</div><div class="card" style="--c:var(--red)">
-<h2><span class="n">5</span>Five cancers</h2>
+</div>
+
+<div class="card" style="--c:var(--red)">
+<h2><span class="n">7</span>Five cancers</h2>
 <table style="--c:var(--red)"><tr><th></th><th>%</th><th>Hallmark</th><th>Spread</th></tr>
 <tr><td><b>Papillary</b></td><td>70–85</td><td>Orphan Annie nuclei, psammoma; radiation; BRAF</td><td>lymph</td></tr>
 <tr><td><b>Follicular</b></td><td>10–15</td><td>capsular/vascular invasion; RAS</td><td>blood → lung, bone</td></tr>
@@ -154,8 +175,12 @@ Pre-op: <b>euthyroid</b> (avoid storm) + <b>Lugol's ~10 days</b></div></div>
 <div class="box"><h3>MEN</h3><div class="mini"><b>1</b>: parathyroid, pituitary, pancreas<br><b>2A</b>: MTC, phaeo, HPT<br><b>2B</b>: MTC, phaeo, mucosal neuromas, marfanoid — <u>no</u> HPT</div></div>
 </div>
 <div class="mini" style="margin-top:6px">Anaplastic: biopsy enough tissue to <b>exclude lymphoma</b> · BRAF+ → dabrafenib + trametinib · airway decisions</div>
-</div></div><div class="gcol"><div class="card" style="--c:var(--purple)">
-<h2><span class="n">6</span>Treating differentiated cancer</h2>
+</div>
+
+</div><div class="gcol">
+
+<div class="card" style="--c:var(--purple)">
+<h2><span class="n">8</span>Treating differentiated cancer</h2>
 <div class="flow" style="--c:var(--purple)">
 <span class="chip">surgery</span><span class="ar">→</span><span class="chip">± RAI</span><span class="ar">→</span><span class="chip">TSH suppression</span><span class="ar">→</span><span class="chip">Tg + US follow-up</span>
 </div>
@@ -168,8 +193,10 @@ Pre-op: <b>euthyroid</b> (avoid storm) + <b>Lugol's ~10 days</b></div></div>
 <li><b>TSH</b>: &lt;0.1 high risk · low-normal low risk · re-grade at 9–12 months</li>
 <li>Rising <b>Tg</b> = recurrence; Tg+ iodine− → PET-CT</li>
 </ul>
-</div><div class="card" style="--c:var(--ink)">
-<h2><span class="n">7</span>Thyroidectomy</h2>
+</div>
+
+<div class="card" style="--c:var(--ink)">
+<h2><span class="n">9</span>Thyroidectomy</h2>
 <div class="mini">Indications = <b>4 Cs + 1</b>: cancer, suspicion, compression, cosmesis + hyperthyroid · Pre-op: euthyroid, Ca/vit D, <span class="hl">check cords</span>, US/FNA, CT if retrosternal</div>
 <div class="flow" style="--c:var(--ink)">
 <span class="chip">collar</span><span class="ar">→</span><span class="chip">flaps</span><span class="ar">→</span><span class="chip">straps</span><span class="ar">→</span><span class="chip">middle v.</span><span class="ar">→</span><span class="chip">sup. pole on capsule</span><span class="ar">→</span><span class="chip">find RLN</span><span class="ar">→</span><span class="chip">save parathyroids</span><span class="ar">→</span><span class="chip">Berry</span><span class="ar">→</span><span class="chip">Valsalva, close</span>
@@ -180,8 +207,10 @@ Pre-op: <b>euthyroid</b> (avoid storm) + <b>Lugol's ~10 days</b></div></div>
 <tr><td><b>RLN</b></td><td>temp 5–10%, perm ~1% · unilateral = hoarse · <u>bilateral = stridor</u> on extubation</td></tr>
 <tr><td><b>EBSLN</b></td><td>loses high pitch (singers!)</td></tr>
 <tr><td><b>Hypocalcaemia</b></td><td>24–72 h · tingling, Chvostek, Trousseau, long QT · perm 1–3%</td></tr></table>
-</div><div class="card" style="--c:var(--red)">
-<h2><span class="n">8</span>Exam traps ✗</h2>
+</div>
+
+<div class="card" style="--c:var(--red)">
+<h2><span class="n">10</span>Exam traps ✗</h2>
 <ul class="mini" style="--c:var(--red)">
 <li>MTC surgery without excluding <b>phaeo</b></li>
 <li>Cystic lateral neck node in a young adult = <b>papillary</b> until proven otherwise (not "branchial cyst")</li>
@@ -189,6 +218,8 @@ Pre-op: <b>euthyroid</b> (avoid storm) + <b>Lugol's ~10 days</b></div></div>
 <li>Iodinated contrast just before <b>RAI</b></li>
 <li>Not checking the <b>cords</b> before and after</li>
 </ul>
-</div></div></div>
+</div>
+
+</div></div>
 <div class="foot">ENT Atlas · Clinical · Thyroid nodules, cancer and goitre · summary of the article</div>
 </body></html>
