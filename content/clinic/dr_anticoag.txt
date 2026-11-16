@@ -21,6 +21,9 @@ Most epistaxis can be controlled without stopping the anticoagulant: treat local
 # Safety | What goes wrong.
 ## Key interactions
 Antibiotics (clarithromycin, metronidazole, co-trimoxazole, ciprofloxacin, fluconazole, miconazole gel) raise the INR on warfarin; enzyme inducers lower it. DOACs interact with strong CYP3A4 and P-glycoprotein inhibitors and inducers (azoles, clarithromycin, rifampicin, carbamazepine). NSAIDs add bleeding risk to all.
+!update Current evidence
+**Bridging.** In the BRIDGE trial, patients with atrial fibrillation who stopped warfarin for surgery had no fewer clots without heparin bridging, and had less bleeding (Douketis et al., *NEJM* 2015); bridging is now kept for very high-risk patients such as those with mechanical mitral valves or recent clots. **DOACs.** The PAUSE protocol stopped apixaban, rivaroxaban or dabigatran one to two days (low bleeding risk) or two to four days (high risk, depending on drug and kidney function) before surgery, without bridging or level testing, with low rates of bleeding and stroke (Douketis et al., *JAMA Intern Med* 2019). **Antiplatelets.** Do not stop dual antiplatelet therapy after a recent coronary stent without the cardiologist.
+!!
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials
