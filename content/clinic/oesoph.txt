@@ -43,7 +43,7 @@ Typical causes | Stroke, Parkinson disease, motor neurone disease, myasthenia, m
 First test | Examination, flexible endoscopy, videofluoroscopy or FEES | Endoscopy (upper GI), barium swallow, manometry
 !!
 ## Causes by site
-It helps to think of the tube from the inside out. **In the lumen** lies a foreign body or food bolus. **In the wall** are inflammation (reflux, infection, caustic, eosinophilic, radiation or pill oesophagitis), strictures, webs and rings, tumours, and motility disorders. **Outside the wall** are the pharyngeal pouch, goitre and thyroid tumours, cervical *osteophytes* in diffuse idiopathic skeletal hyperostosis, mediastinal nodes and tumours, an enlarged left atrium, aortic aneurysm, and vascular rings causing *dysphagia lusoria*.
+It helps to think of the tube from the inside out. **In the lumen** lies a foreign body or food bolus ([[t:fbfood]]). **In the wall** are inflammation (reflux, infection, caustic, eosinophilic, radiation or pill oesophagitis), strictures, webs and rings, tumours, and motility disorders. **Outside the wall** are the pharyngeal pouch, goitre and thyroid tumours, cervical *osteophytes* in diffuse idiopathic skeletal hyperostosis, mediastinal nodes and tumours, an enlarged left atrium, aortic aneurysm, and vascular rings causing *dysphagia lusoria*.
 !fig d69-1 | (A and B) Large cervical osteophytes pressing on the oesophagus on barium swallow.
 ## History
 The **tempo** points to the cause. Sudden dysphagia means a foreign body or bolus, often stuck on an existing stricture or tumour; progression over weeks to months means cancer; intermittent symptoms suggest a ring or spasm; and long-standing dysphagia suggests achalasia or a web.
@@ -63,7 +63,7 @@ The **barium swallow** shows pouches, strictures, webs, rings, achalasia, spasm 
 ## Gastro-oesophageal reflux disease
 Reflux disease is a failure of the barrier, through weakness or transient relaxation of the lower sphincter, hiatus hernia, obesity, pregnancy, smoking, alcohol, fatty meals, scleroderma, and drugs that relax smooth muscle such as calcium-channel blockers, nitrates and anticholinergics. Its typical symptoms are heartburn and regurgitation.
 
-For the ENT surgeon the extra-oesophageal effects matter as much. *Laryngopharyngeal reflux* causes hoarseness, throat clearing, globus and chronic cough, with posterior laryngitis, contact ulcers and granulomas; reflux also contributes to subglottic stenosis, asthma, dental erosion and, in children, otitis media with effusion.
+For the ENT surgeon the extra-oesophageal effects matter as much. *Laryngopharyngeal reflux* ([[t:laryngitis]]) causes hoarseness, throat clearing, globus and chronic cough, with posterior laryngitis, contact ulcers and granulomas; reflux also contributes to subglottic stenosis, asthma, dental erosion and, in children, otitis media with effusion.
 
 The complications are erosive oesophagitis, peptic stricture and *Barrett's oesophagus*, in which columnar *intestinal metaplasia* replaces the squamous lining of the distal oesophagus. It appears as salmon-pink mucosa, is premalignant for *adenocarcinoma*, and needs endoscopic surveillance.
 
@@ -99,7 +99,7 @@ Strictures are treated by repeated dilatation, retrograde dilatation through a g
 !differ Corrosive burns: neutralisation and steroids
 Dhingra: Neutralisation with a weak acid or alkali within six hours, a nasogastric tube to keep the lumen open, and steroids from 48 to 96 hours for four to six weeks to prevent stricture.
 Lee: Supportive care, early endoscopic grading, airway protection when the larynx is involved, and management of later strictures, with no routine neutralisation or steroids.
-Current practice avoids neutralisation, because the heat of the reaction adds injury and vomiting re-exposes the oesophagus. Steroids are not routinely given, because trials have not shown that they prevent stricture.
+In practice: Avoid neutralisation, because the heat of the reaction adds injury and vomiting re-exposes the oesophagus. Do not give steroids routinely, because trials have not shown that they prevent stricture.
 !!
 ## Perforation
 Instrumentation is the commonest cause of perforation: rigid oesophagoscopy, dilatation and the removal of foreign bodies, usually just above or at the cricopharyngeus at Killian's dehiscence, or in the distal oesophagus. Foreign bodies, trauma and malignancy are other causes, and *Boerhaave syndrome* is a spontaneous full-thickness rupture after vomiting, usually of the left lower oesophagus. It must be distinguished from the **Mallory–Weiss** tear, a mucosal tear at the gastro-oesophageal junction after retching that presents with haematemesis and is not a perforation.
@@ -128,11 +128,11 @@ Here the upper sphincter fails to relax or open, from fibrosis of the muscle, ne
 
 # Structural disorders | Webs, rings, pouches, hernias.
 ## Plummer–Vinson (Paterson–Brown-Kelly) syndrome
-This syndrome affects middle-aged women and combines iron-deficiency anaemia with dysphagia from a *postcricoid web*, glossitis, angular stomatitis, koilonychia, atrophic mucosa and sometimes achlorhydria. It carries an increased risk of *postcricoid* and oesophageal carcinoma, about 10% in the older literature. It is treated with iron, with B12 and B6 if deficient, dilatation of the web, and surveillance.
+This syndrome affects middle-aged women and combines iron-deficiency anaemia with dysphagia from a *postcricoid web*, glossitis, angular stomatitis, koilonychia, atrophic mucosa and sometimes achlorhydria. It carries an increased risk of *postcricoid* ([[t:hypoca]]) and oesophageal carcinoma, about 10% in the older literature. It is treated with iron, with B12 and B6 if deficient, dilatation of the web, and surveillance.
 ## Schatzki ring
 A Schatzki ring is a thin mucosal ring at the squamocolumnar junction, often with a small hiatus hernia, in people over 50. It causes intermittent dysphagia to solids and, once the lumen is under 13 mm, the "steakhouse syndrome" of bolus impaction. It is treated by dilatation and a PPI.
 ## Diverticula
-The **pharyngeal (Zenker's) pouch** is a pulsion diverticulum through Killian's dehiscence and is covered with the other pharyngeal conditions. A **mid-oesophageal traction diverticulum** is pulled out by inflamed mediastinal nodes, classically tuberculous, and an **epiphrenic diverticulum** is a pulsion diverticulum just above the lower sphincter, usually secondary to a motility disorder.
+The **pharyngeal (Zenker's) pouch** is a pulsion diverticulum through Killian's dehiscence and is covered in [[t:pouch]]. A **mid-oesophageal traction diverticulum** is pulled out by inflamed mediastinal nodes, classically tuberculous, and an **epiphrenic diverticulum** is a pulsion diverticulum just above the lower sphincter, usually secondary to a motility disorder.
 !imaging zenker-diverticulum-1 | A pharyngeal (Zenker) diverticulum on barium swallow.
 ## Hiatus hernia
 In the **sliding** hernia, about 90% of the total, the gastro-oesophageal junction slides up into the chest, and reflux is common. In the **para-oesophageal (rolling)** hernia the junction stays below the diaphragm while the fundus rolls up beside it; reflux is slight, but the hernia can bleed, obstruct or strangulate, and repair is recommended.
@@ -181,7 +181,7 @@ Biopsy of the upper sphincter region | Excellent | Can miss the postcricoid area
 Setting | Inpatient theatre | Day case or office
 !!
 !update Current evidence
-**Eosinophilic oesophagitis** presents with food bolus impaction in young men; biopsies from at least two levels (15 or more eosinophils per high-power field) confirm it. Proton pump inhibitors, swallowed topical steroids (budesonide orodispersible tablets) and an elimination diet are first line, and dupilumab improved histology and dysphagia in a phase 3 trial (Dellon et al., *NEJM* 2022). **Barrett's oesophagus.** The British Society of Gastroenterology guideline recommends endoscopic surveillance according to length and dysplasia, and endoscopic resection and ablation for dysplasia (Fitzgerald et al., *Gut* 2014). **Caustic ingestion.** Endoscopy within 12 to 48 hours grades the injury (Zargar classification) and predicts stricture; CT is increasingly used to decide who needs surgery. **Food bolus.** Most impactions pass; endoscopy within 24 hours (sooner if the patient cannot swallow saliva), and do not use carbonated drinks or glucagon in place of it.
+**Eosinophilic oesophagitis.** Biopsies are taken from at least two levels; budesonide orodispersible tablets are a swallowed steroid option, and dupilumab improved histology and dysphagia in a phase 3 trial (Dellon et al., *NEJM* 2022). **Barrett's oesophagus.** The British Society of Gastroenterology guideline recommends endoscopic surveillance according to length and dysplasia, and endoscopic resection and ablation for dysplasia (Fitzgerald et al., *Gut* 2014). **Caustic ingestion.** Endoscopy within 12 to 48 hours grades the injury (Zargar classification) and predicts stricture; CT is increasingly used to decide who needs surgery. **Food bolus.** Most impactions pass; endoscopy within 24 hours (sooner if the patient cannot swallow saliva), and do not use carbonated drinks or glucagon in place of it.
 !!
 
 # For the examination | What the examiner wants to hear.

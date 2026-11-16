@@ -2,7 +2,7 @@
 
 # Boundaries | Where the mouth ends and the pharynx begins.
 ## Extent
-The oral cavity runs from the vermilion border of the lips in front to the *oropharyngeal isthmus* behind: the junction of the hard and soft palate above, the line of the circumvallate papillae below, and the anterior tonsillar pillars and retromolar trigones at the sides. Everything behind this ring (soft palate, tonsils, base of tongue, valleculae) is oropharynx, a distinction that matters because the two regions are staged and treated differently.
+The oral cavity runs from the vermilion border of the lips in front to the *oropharyngeal isthmus* behind: the junction of the hard and soft palate above, the line of the circumvallate papillae below, and the anterior tonsillar pillars and retromolar trigones at the sides. Everything behind this ring (soft palate, tonsils, base of tongue, valleculae) is oropharynx, a distinction that matters because the two regions are staged and treated differently ([[t:oral_ca]], [[t:tonsil_ca]]).
 !anat s165_8 s166_11 | The vestibule and the oral cavity proper, and the boundary between the oral cavity and the oropharynx.
 ## Subsites
 !fig d42-1 | The subsites of the oral cavity: lip, buccal mucosa, gingiva, retromolar trigone, hard palate, oral tongue and floor of mouth.
@@ -52,7 +52,7 @@ Infiltration of these muscles by infection or cancer produces *trismus*.
 
 # The tongue | The busiest muscle in the head.
 ## Surface
-The *sulcus terminalis* and the V of circumvallate papillae divide the oral tongue in front from the base of tongue behind. At the apex of the V lies the *foramen caecum*, from which the thyroid descends in the embryo; a lingual thyroid or thyroglossal cyst begins here. Behind lie the lingual tonsil and the valleculae, both oropharynx.
+The *sulcus terminalis* and the V of circumvallate papillae divide the oral tongue in front from the base of tongue behind. At the apex of the V lies the *foramen caecum*, from which the thyroid descends in the embryo; a lingual thyroid or thyroglossal cyst begins here ([[t:paeds_neck]]). Behind lie the lingual tonsil and the valleculae, both oropharynx.
 !anat s174_30 d181_1 | The dorsum of the tongue with its papillae, sulcus terminalis and lingual tonsil, and its undersurface with the floor of mouth.
 ## Papillae
 - **Filiform:** the most numerous; texture, temperature and pain; no taste.
@@ -96,7 +96,7 @@ Sensation is from the nasopalatine and greater palatine nerves (V2); blood from 
 The mylohyoid muscle forms the diaphragm of the floor. Above it lie the sublingual glands, the submandibular duct, the lingual nerve looping beneath the duct, and the hypoglossal nerve; below it, the submandibular space. The anterior floor drains to the submandibular nodes and crosses the midline freely; the posterior floor drains to the upper deep cervical nodes.
 !anat s170_19 d125_84 | The floor of the mouth with the sublingual papillae and folds, and the openings of the ducts.
 ## Saliva
-One to one and a half litres a day. At rest about two-thirds comes from the submandibular glands; when stimulated, more than half comes from the parotids. The parotid (Stensen) duct opens opposite the upper second molar; the submandibular (Wharton) duct beside the frenulum; the sublingual glands by many small ducts into the floor. Minor salivary glands line the lips, cheeks, palate and tongue, and are the source of the palate's salivary tumours.
+One to one and a half litres a day. At rest about two-thirds comes from the submandibular glands; when stimulated, more than half comes from the parotids. The parotid (Stensen) duct opens opposite the upper second molar; the submandibular (Wharton) duct beside the frenulum; the sublingual glands by many small ducts into the floor. Minor salivary glands line the lips, cheeks, palate and tongue, and are the source of the palate's salivary tumours. Diseases of the glands are covered in [[t:salivary]].
 !anat s194_69 | Distribution of serous and mucous minor salivary glands.
 
 # Lymphatic drainage | The map for the neck.

@@ -48,9 +48,6 @@ Loud snoring disturbs the partner (the snoring spouse syndrome); witnessed choki
 - **Perioperative risk:** difficult airways and sensitivity to opioids and sedatives.
 ## Social
 Road traffic and workplace accidents. Ask every patient about sleepiness while driving; in some jurisdictions the doctor must advise the patient about notifying the licensing authority.
-!flag Children are different
-In children the commonest cause is adenotonsillar hypertrophy. They show snoring, pauses and gasping, restless sleep with the neck hyperextended, sweating, bedwetting, morning headache, and by day hyperactivity, poor attention and school performance, and sometimes failure to thrive, rather than sleepiness. An AHI above 1 is abnormal in a child, and adenotonsillectomy is first-line treatment.
-!!
 
 # Evaluation | Finding the cause and the level.
 ## History
@@ -106,14 +103,14 @@ A *mandibular advancement device* holds the jaw forward and draws the tongue and
 ## Indications
 Failure of or intolerance to CPAP, favourable anatomy, patient preference, and serious cardiovascular disease. Surgery is tailored to the level(s) of obstruction; multilevel procedures may be combined or staged.
 ## Nasal surgery
-Septoplasty, turbinate reduction, polypectomy, valve surgery and adenoidectomy. Nasal surgery seldom cures apnoea, because the nose is not a collapsing segment, but it improves sleep quality and CPAP tolerance and can lower the pressure needed.
+Septoplasty, turbinate reduction, polypectomy, valve surgery and adenoidectomy ([[t:septum]], [[t:sinussurg]]). Nasal surgery seldom cures apnoea, because the nose is not a collapsing segment, but it improves sleep quality and CPAP tolerance and can lower the pressure needed.
 ## Palate and oropharynx
-- **Tonsillectomy (with adenoidectomy):** the main treatment in children; in adults with grade 3 or 4 tonsils, isolated tonsillectomy can be very effective.
+- **Tonsillectomy (with adenoidectomy):** the main treatment in children ([[t:tonsil]], [[t:adenoid]]); in adults with grade 3 or 4 tonsils, isolated tonsillectomy can be very effective.
 - **Uvulopalatopharyngoplasty (UPPP):** introduced by Fujita in 1981; tonsillectomy with trimming of the uvula and free edge of the palate and suturing of the pillars to widen the oropharynx. Overall success is about 50%, rising above 80% in well-selected patients (Friedman tonsils 3 to 4, palate I to II). Complications: pain, bleeding, velopharyngeal insufficiency, nasopharyngeal stenosis and voice change.
 - **Uvulopalatal flap:** the uvula is folded back onto the denuded palate, sparing the muscle.
 - **Expansion sphincter pharyngoplasty:** the palatopharyngeus is rerouted superolaterally to widen the lateral dimension.
 - **Uvulopalatoplasty (UPP, laser or radiofrequency assisted) and palatal stiffening (cautery-assisted or implants):** useful for snoring, much less for apnoea.
-Dhingra notes that palatal surgery relieves snoring in about 80% but apnoea in only about half, with relapse when another level takes over.
+Palatal surgery relieves snoring in about 80% but apnoea in only about half, with relapse when another level takes over.
 ## Tongue base and hypopharynx
 Radiofrequency reduction of the tongue base in repeated sessions, lingual tonsillectomy, midline glossectomy (coblation, laser, robotic), tongue suspension, hyoid suspension (to the mandible or thyroid cartilage), genioglossus advancement, and supraglottoplasty for epiglottic collapse.
 ## Skeletal surgery
@@ -123,19 +120,21 @@ An implanted stimulator fires the hypoglossal nerve with inspiration, protruding
 ## Transoral robotic surgery
 Tongue base reduction by robot requires a BMI below about 35 (ideally near 30) and a mouth opening of at least 2.5 cm.
 ## Tracheostomy
-The only operation that reliably cures obstructive apnoea, by bypassing every level; reserved for life-threatening disease, severe cardiopulmonary complications and failure of everything else, because of its personal and social cost.
+The only operation that reliably cures obstructive apnoea, by bypassing every level; reserved for life-threatening disease, severe cardiopulmonary complications and failure of everything else, because of its personal and social cost ([[t:trach]]).
 !ops | Operations for sleep-disordered breathing.
 !imaging | Adenoid hypertrophy on imaging.
 ## Perioperative care
 Patients with apnoea are sensitive to opioids and sedatives and may have difficult airways. Monitor oxygen saturation overnight after surgery in severe apnoea, with cardiovascular disease, after tongue base surgery, and in young children or those with comorbidities; restart CPAP after surgery when appropriate.
-!differ Where the books differ
+!differ The gold standard
 Dhingra: Calls tracheostomy the gold standard of surgical treatment, lists uvulopalatoplasty as the commonest procedure and quotes 80% success for snoring but 50% for apnoea.
 Lee: Places CPAP as the gold standard of therapy, emphasises patient selection by Friedman stage and DISE, reporting UPPP success above 85% in favourable anatomy, and names maxillomandibular advancement the most effective operation short of tracheostomy.
-They agree that surgery must be matched to the level of collapse.
-Current practice: CPAP is first line for moderate and severe apnoea; surgery is matched to the site of collapse on drug-induced sleep endoscopy, with multilevel surgery (MacKay et al., *JAMA* 2020) and hypoglossal nerve stimulation (Strollo et al., *NEJM* 2014) for selected CPAP failures, and tracheostomy as a last resort.
+In practice: Both agree that surgery must be matched to the level of collapse. CPAP is first line for moderate and severe apnoea; surgery is matched to the site of collapse on drug-induced sleep endoscopy, with multilevel surgery (MacKay et al., *JAMA* 2020) and hypoglossal nerve stimulation (Strollo et al., *NEJM* 2014) for selected CPAP failures, and tracheostomy as a last resort.
 !!
 
 # Children | Big tonsils, small airway.
+!flag Children are different
+In children the commonest cause is adenotonsillar hypertrophy. They show snoring, pauses and gasping, restless sleep with the neck hyperextended, sweating, bedwetting, morning headache, and by day hyperactivity, poor attention and school performance, and sometimes failure to thrive, rather than sleepiness. An AHI above 1 is abnormal in a child, and adenotonsillectomy is first-line treatment.
+!!
 ## Who and why
 About 10 to 15% of children snore, and 1 to 4% have obstructive sleep apnoea, more in obese and Black children. It usually begins between two and six years, when the tonsils and adenoids are largest relative to the airway (tonsils grade 3 or more on the Brodsky scale). Prematurity is a risk factor, and apnoea can cause failure to thrive, poor behaviour and attention, and enuresis.
 ## Assessment

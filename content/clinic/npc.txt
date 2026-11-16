@@ -11,7 +11,7 @@ Pleomorphic adenoma, craniopharyngioma | Chordoma, plasmacytoma
 Paraganglioma, hamartoma | Adenoid cystic and other salivary carcinomas
 Hairy polyp, teratoma (congenital) | Melanoma, haemangiopericytoma
 !!
-Angiofibroma has its own topic; this one is about carcinoma.
+Angiofibroma is covered in [[t:juv]]; this topic is about carcinoma.
 ## Epidemiology
 The highest incidence in the world is in southern China, Hong Kong and Taiwan, with high rates in South-East Asia, North Africa, the Mediterranean and among the Inuit and Aleut peoples. It is uncommon in India except in the North-East. Chinese born in North America have a lower risk than those born in China but still higher than other Americans, showing the interplay of genes and environment. Males outnumber females about three to one; the peak is in the fifth and sixth decades, but about one in five patients is under thirty, and these younger patients usually have undifferentiated tumours.
 ## Aetiology
@@ -28,7 +28,7 @@ I | Keratinising squamous cell carcinoma | About 25% | Weaker association; least
 II | Non-keratinising, differentiated | About 12% | Strong association
 III | Non-keratinising, undifferentiated (lymphoepithelioma; Regaud and Schmincke types) | About 63% | Strongest association; most radiosensitive
 !!
-The current WHO scheme groups types II and III as non-keratinising carcinoma (differentiated and undifferentiated). Under the electron microscope all are squamous; immunohistochemistry for epithelial (cytokeratin) and lymphoid markers separates undifferentiated carcinoma from lymphoma. In endemic areas the non-keratinising types predominate even more.
+The current WHO scheme groups types II and III as non-keratinising carcinoma (differentiated and undifferentiated). Under the electron microscope all are squamous; immunohistochemistry for epithelial (cytokeratin) and lymphoid markers separates undifferentiated carcinoma from lymphoma. In endemic areas the non-keratinising types predominate even more; non-keratinising, EBV-associated carcinoma is the commonest type everywhere, and EBV is shown in tissue by EBER in-situ hybridisation.
 ## Gross forms
 Proliferative (a polypoid mass causing nasal obstruction), ulcerative (bleeding), and infiltrative (submucosal, easily missed).
 
@@ -45,7 +45,7 @@ The commonest site of origin is the *fossa of Rosenmüller* in the lateral wall.
 ## Lymphatic
 The nasopharynx is rich in lymphatics and nodal spread is early and often bilateral: to the lateral retropharyngeal node (of Rouvière), the upper jugular (level II) nodes high under the mastoid, and the spinal accessory chain in the posterior triangle (level V). Retropharyngeal nodes cause neck stiffness and press on the lower cranial nerves.
 ## Distant
-Bone, lung and liver. Nasopharyngeal carcinoma has the highest rate of distant metastasis of any head and neck cancer, present or developing in about a quarter to a third of patients.
+Bone, lung and liver. Nasopharyngeal carcinoma has the highest rate of distant metastasis of any head and neck cancer: present in about 4% at diagnosis, and developing in about a quarter after IMRT (a quarter to a third in older series).
 
 # Clinical features | The four groups of symptoms.
 ## Cervical nodes
@@ -81,7 +81,7 @@ Rigid or flexible nasendoscopy under local anaesthesia shows a proliferative, ul
 - **CT:** bone erosion of the skull base, clivus and pterygoid plates.
 - **PET-CT:** distant metastases and detection of residual or recurrent disease after treatment; chest and abdominal imaging if PET is unavailable.
 ## Other tests
-A baseline *audiogram* (radiation and cisplatin both damage hearing), dental assessment before radiotherapy, and *EBV serology*: IgA antibodies to the early antigen are highly specific and those to the viral capsid antigen more sensitive, so both are used; plasma EBV DNA load is now used for screening in endemic areas, for prognosis and to monitor for recurrence.
+A baseline *audiogram* (radiation and cisplatin both damage hearing), dental assessment before radiotherapy, and *EBV serology*: IgA antibodies to the early antigen are highly specific and those to the viral capsid antigen more sensitive, so both are used; plasma EBV DNA load is now used for screening high-risk populations, for risk stratification and to monitor for recurrence, although assays still need standardisation.
 !imaging | Nasopharyngeal carcinoma and a Thornwaldt cyst on imaging.
 ## Staging
 !table TNM staging of nasopharyngeal carcinoma (AJCC)
@@ -94,18 +94,18 @@ N1 | Unilateral cervical, or unilateral or bilateral retropharyngeal, nodes 6 cm
 N2 | Bilateral cervical nodes 6 cm or less, above the caudal border of the cricoid
 N3 | Node over 6 cm, or extension below the caudal border of the cricoid
 !!
-Dhingra quotes the older AJCC definitions, in which T1 was confined to the nasopharynx and N3b meant any node in the supraclavicular fossa (Ho's triangle, bounded by the medial and lateral ends of the clavicle and the point where neck meets shoulder). In every edition the nodal staging differs from other head and neck sites: low neck nodes carry the worst prognosis whatever their size.
+Older AJCC editions defined T1 as confined to the nasopharynx and N3b as any node in the supraclavicular fossa (Ho's triangle, bounded by the medial and lateral ends of the clavicle and the point where neck meets shoulder). In every edition the nodal staging differs from other head and neck sites: low neck nodes carry the worst prognosis whatever their size.
 !fig d49-10 | Ho's triangle (the supraclavicular fossa): the medial (A) and lateral (B) ends of the clavicle and the point where the neck meets the shoulder (C).
 
 # Treatment | Radiation first.
 ## Primary treatment
 The nasopharynx is hard to reach surgically, and these tumours are radiosensitive, so *radiotherapy is the treatment of choice*.
 - **Stage I:** radiotherapy alone to the nasopharynx and both sides of the neck, about 70 Gy.
-- **Stage II to IVA:** concurrent chemoradiation with cisplatin, which improves survival over radiotherapy alone, with or without induction or adjuvant chemotherapy (cisplatin, fluorouracil, gemcitabine).
-- **Intensity-modulated radiotherapy (IMRT)** delivers a high dose to the tumour while sparing the brainstem, spinal cord, optic apparatus, temporal lobes, cochleae and parotids.
+- **Stage II to IVA:** concurrent chemoradiation with cisplatin, which improves survival over radiotherapy alone; the cumulative cisplatin dose matters more than the schedule, with about 200 mg/m² as the effective threshold (160 mg/m² after induction). **Induction gemcitabine and cisplatin** before chemoradiotherapy improves survival in high-risk patients, and **adjuvant metronomic capecitabine** improves failure-free survival in high-risk disease.
+- **Intensity-modulated radiotherapy (IMRT)** delivers a high dose to the tumour while sparing the brainstem, spinal cord, optic apparatus, temporal lobes, cochleae and parotids. Proton and carbon-ion therapy have dosimetric advantages without proven better outcomes yet.
 - **Metastatic disease:** platinum-based chemotherapy, now with immunotherapy, and local treatment in selected cases.
 ## Residual and recurrent disease
-- **Neck:** persistent or recurrent nodes after radiation are treated by neck dissection. Dhingra advises a radical dissection because disease is often more extensive than it seems; current practice is a comprehensive (modified radical) dissection, sacrificing structures only where tumour involves them.
+- **Neck:** persistent or recurrent nodes after radiation are treated by neck dissection. Older texts advise a radical dissection because disease is often more extensive than it seems; current practice is a comprehensive (modified radical) dissection, sacrificing structures only where tumour involves them.
 - **Nasopharynx:** after restaging with MRI and PET-CT, resectable recurrences are treated by *nasopharyngectomy*; in a randomised trial from China, endoscopic nasopharyngectomy gave better overall survival and fewer severe late effects than re-irradiation with IMRT (Liu et al., *Lancet Oncol* 2021). Approaches are endoscopic for limited central tumours, or open through a maxillary swing, transpalatal, Le Fort I, midfacial degloving or infratemporal fossa approach. Extension around the internal carotid, intracranially or widely into the parapharyngeal space contraindicates surgery.
 - **Re-irradiation:** IMRT, proton therapy or brachytherapy (interstitial implants, gold grains), at greater risk of necrosis of the skull base and temporal lobe, cranial nerve palsies and carotid rupture.
 !ops | Salvage nasopharyngectomy approaches.
@@ -113,13 +113,8 @@ The nasopharynx is hard to reach surgically, and these tumours are radiosensitiv
 Xerostomia and dental caries, otitis media with effusion and sensorineural hearing loss, trismus, hypothyroidism and pituitary failure, osteoradionecrosis of the skull base, temporal lobe necrosis, cranial neuropathy, carotid stenosis, and second cancers. Grommets in irradiated ears often discharge chronically.
 ## Outcome
 With concurrent chemoradiation, local and regional control is about 70 to 80% and five-year survival about 70 to 80%; distant metastasis is now the commonest mode of failure.
-
-## Systemic treatment
-Nonkeratinising, EBV-associated carcinoma is the commonest type everywhere; EBV is shown in tissue by EBER in-situ hybridisation. Distant metastases are present in about 4% at diagnosis and develop in about a quarter after IMRT. For locoregionally advanced disease, concurrent cisplatin-based chemoradiotherapy improves survival over radiotherapy alone; the cumulative cisplatin dose matters more than the schedule, with about 200 mg/m² as the effective threshold (160 mg/m² after induction). **Induction gemcitabine and cisplatin** before chemoradiotherapy improves survival in high-risk patients, and **adjuvant metronomic capecitabine** improves failure-free survival in high-risk disease. Proton and carbon-ion therapy have dosimetric advantages without proven better outcomes yet.
-## Plasma EBV DNA
-A marker for screening high-risk populations, risk stratification and surveillance; assays still need standardisation.
-## Follow-up and recurrence
-Every three to four months for two years, six-monthly to five years, then yearly, with yearly CT or MRI for five years. Isolated nodal recurrence is treated by salvage neck dissection, and small local recurrences by endoscopic nasopharyngectomy or re-irradiation.
+## Follow-up
+Every three to four months for two years, six-monthly to five years, then yearly, with yearly CT or MRI for five years.
 !update Current evidence
 In a phase 3 trial of 480 patients with locoregionally advanced disease, induction gemcitabine and cisplatin before chemoradiotherapy improved three-year recurrence-free survival (85.3% vs 76.5%) and overall survival (Zhang et al., *N Engl J Med* 2019). Adjuvant metronomic capecitabine for a year after chemoradiotherapy improved failure-free survival in high-risk patients (Chen et al., *Lancet* 2021). Screening 20,174 men in Hong Kong with plasma EBV DNA detected nasopharyngeal carcinoma earlier, with a sensitivity of 97.1% and specificity of 98.6% (Chan et al., *N Engl J Med* 2017).
 !!
