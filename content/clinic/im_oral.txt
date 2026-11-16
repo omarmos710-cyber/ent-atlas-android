@@ -18,7 +18,7 @@ Behind the circumvallate papillae and the anterior tonsillar pillars lies the or
 
 # Oral cancer | What the surgeon needs.
 ## Oral tongue
-Report the **depth of invasion** (or tumour thickness on MRI), which drives the T stage and the decision to treat the neck; whether the tumour **crosses the lingual septum**; its relation to the **neurovascular bundle** (lingual artery and hypoglossal nerve) on each side, because involvement of both bundles rules out tongue preservation; extension to the floor of mouth, tongue base and mandible; and the nodes. Tongue tumours often spread to level II and III and may skip levels.
+The disease is described in [[t:oral_ca]]. Report the **depth of invasion** (or tumour thickness on MRI), which drives the T stage and the decision to treat the neck; whether the tumour **crosses the lingual septum**; its relation to the **neurovascular bundle** (lingual artery and hypoglossal nerve) on each side, because involvement of both bundles rules out tongue preservation; extension to the floor of mouth, tongue base and mandible; and the nodes. Tongue tumours often spread to level II and III and may skip levels.
 !fig di531-2 | Oral tongue carcinoma. Left: post-gadolinium MRI, a wedge-shaped enhancing ulcer at the lateral tongue, well seen despite the amalgam. Right: the clinical lesion. Imaging measured its depth and showed no nodes.
 ## Floor of mouth and gum
 **Floor of mouth** cancers involve the sublingual gland and the submandibular duct (obstructing the gland), cross the midline easily, and reach the inner cortex of the mandible early. **Alveolar** and **retromolar trigone** cancers lie on the bone: the question is whether the **mandible** is invaded and how far. Cortical erosion is seen on CT or cone-beam CT; marrow replacement (loss of bright fat on T1) on MRI, which is sensitive but can overcall. Spread along the **inferior alveolar canal** is perineural spread to the skull base. The retromolar trigone also leads along the pterygomandibular raphe up to the masticator space and skull base.
@@ -27,17 +27,17 @@ Report the **depth of invasion** (or tumour thickness on MRI), which drives the 
 
 # Oropharyngeal cancer | Small primaries, cystic nodes.
 ## HPV and the cystic node
-HPV-related oropharyngeal carcinoma typically affects younger patients, has a **small primary** in the tonsil or tongue base that may be invisible on CT, and presents with large, often **cystic** level II nodes. A cystic level II mass in an adult should be treated as a metastasis until proven otherwise, not as a branchial cyst. Look carefully at both tonsils and the tongue base for asymmetry, and use PET-CT before panendoscopy when the primary is not seen.
+HPV-related oropharyngeal carcinoma ([[t:tonsil_ca]]) typically affects younger patients, has a **small primary** in the tonsil or tongue base that may be invisible on CT, and presents with large, often **cystic** level II nodes. A cystic level II mass in an adult should be treated as a metastasis until proven otherwise, not as a branchial cyst. Look carefully at both tonsils and the tongue base for asymmetry, and use PET-CT before panendoscopy when the primary is not seen.
 !fig di525-2 | HPV-related tonsillar carcinoma. Left: a small enhancing mass in the right palatine tonsil, easily called normal. Right: a large necrotic level IIA node on the same side, the reason the patient presented.
 ## What to report
 For tonsillar tumours report spread to the soft palate, tongue base, **parapharyngeal space**, medial pterygoid and mandible, and the relation to the internal carotid. For tongue base tumours report extension to the vallecula, pre-epiglottic space and larynx, and midline crossing. Encasement of the carotid or invasion of the prevertebral muscles or skull base makes the tumour T4b.
 
 # Infection and cysts | The floor of the mouth.
 ## Abscess and Ludwig's angina
-Most oral cavity infections start in a tooth. The roots of the first molar and the teeth in front of it lie **above** the mylohyoid line, so their infections enter the **sublingual** space; the roots of the second and third molars lie **below** it, so their infections enter the **submandibular** space. **Ludwig's angina** is a spreading cellulitis of both sublingual and submandibular spaces on both sides that elevates the tongue and threatens the airway. Contrast CT shows the extent, any drainable collection, the airway, the source tooth and spread to the parapharyngeal space and mediastinum.
+Most oral cavity infections start in a tooth. The roots of the first molar and the teeth in front of it lie **above** the mylohyoid line, so their infections enter the **sublingual** space; the roots of the second and third molars lie **below** it, so their infections enter the **submandibular** space. **Ludwig's angina** ([[t:deepneck]]) is a spreading cellulitis of both sublingual and submandibular spaces on both sides that elevates the tongue and threatens the airway. Contrast CT shows the extent, any drainable collection, the airway, the source tooth and spread to the parapharyngeal space and mediastinum.
 !fig di435-1 | Sublingual space abscess. Left: drawing of a horseshoe-shaped collection in both sublingual spaces joined beneath the frenulum. Right: contrast CT, the rim-enhancing collection above the mylohyoid on both sides.
 ## Ranula
-A **simple ranula** is a mucus retention cyst of the sublingual gland confined to the sublingual space. A **diving (plunging) ranula** passes behind the free edge of the mylohyoid, or through a gap in it, into the submandibular space, leaving a characteristic **tail** in the sublingual space that shows its origin.
+A **simple ranula** ([[t:oralbenign]]) is a mucus retention cyst of the sublingual gland confined to the sublingual space. A **diving (plunging) ranula** passes behind the free edge of the mylohyoid, or through a gap in it, into the submandibular space, leaving a characteristic **tail** in the sublingual space that shows its origin.
 !fig di427-1 | Diving ranula. Left: drawing of a ranula herniating backwards from the sublingual space. Right: contrast CT, a cystic mass in the submandibular space against the back of the mylohyoid, displacing the submandibular gland.
 ## The denervated tongue
 After hypoglossal nerve injury, one half of the tongue changes: at first it is **swollen, bright on T2 and enhancing**; later it becomes **fatty and atrophic**, and the normal side can then look like a mass. The sharp midline border gives it away. Always follow the hypoglossal nerve back to the skull base to find the cause.
@@ -53,7 +53,7 @@ Infection | collection ; above or below the mylohyoid ; airway ; source tooth or
 Nodes | levels I to III both sides ; cystic or necrotic nodes
 !!
 !update Current evidence
-**Depth of invasion.** The AJCC eighth edition added depth of invasion to T staging of oral cancer, and MRI (or intraoral ultrasound) estimates it before surgery, helping decide on elective neck dissection; in a randomised trial, elective neck dissection improved survival over watchful waiting in early oral cancer (D'Cruz et al., *NEJM* 2015). **Bone.** CT or cone-beam CT shows cortical erosion of the mandible better; MRI shows marrow invasion. **Dental artefact** limits CT; MRI or angled CT helps.
+**Depth of invasion.** The AJCC eighth edition added depth of invasion to T staging of oral cancer, and MRI (or intraoral ultrasound) estimates it before surgery, helping decide on elective neck dissection; in a randomised trial, elective neck dissection improved survival over watchful waiting in early oral cancer (D'Cruz et al., *NEJM* 2015).
 !!
 
 # For the examination | What the examiner wants to hear.

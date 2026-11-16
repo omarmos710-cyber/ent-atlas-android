@@ -9,7 +9,7 @@ On a **T2-weighted** image, **fluid is bright**. CSF, oedema, cysts, retained se
 ## Fat suppression
 Fat is bright on T1 and fairly bright on T2, so it can hide oedema and enhancing tumour lying in fat (in the orbit, neck, skull base marrow). **Fat suppression** removes its signal. **STIR** (short tau inversion recovery) is a robust fat-suppressed T2 for oedema and inflammation; **fat-saturated T2** and **fat-saturated post-contrast T1** are standard in head and neck protocols, because enhancing tumour and perineural spread show as bright against dark fat.
 ## Gadolinium
-Intravenous gadolinium shortens T1, so tissues with a blood supply or a broken blood–brain barrier become bright on T1. **Post-gadolinium T1 with fat suppression** is the workhorse for tumours, inflammation, meningeal and **perineural spread**, and for schwannomas in the IAC. Always compare with the pre-contrast T1: something bright *before* contrast is not enhancing.
+Intravenous gadolinium shortens T1, so tissues with a blood supply or a broken blood–brain barrier become bright on T1. **Post-gadolinium T1 with fat suppression** is the workhorse for tumours, inflammation, meningeal and **perineural spread**, and for schwannomas in the IAC ([[t:vs]]). Always compare with the pre-contrast T1: something bright *before* contrast is not enhancing.
 !fig di1252-1 | A small vestibular schwannoma in the internal auditory canal. Left: post-gadolinium T1 with fat suppression, the tumour enhances, with a cap of CSF lateral to it at the fundus. Right: CISS, the tumour is a dark filling defect in bright CSF; the screening sequence for asymmetric hearing loss.
 
 # Special sequences for ENT | The ones you will meet.
@@ -19,13 +19,13 @@ Intravenous gadolinium shortens T1, so tissues with a blood supply or a broken b
 ## Diffusion-weighted imaging
 **DWI** shows how freely water molecules move. Water that cannot move (in thick pus, keratin, or densely packed tumour cells) is **bright on DWI** and **dark on the ADC map**; checking the ADC map confirms true *restricted diffusion* rather than "T2 shine-through". In ENT, restricted diffusion means:
 - **Abscess**, including orbital, intracranial, neck and periauricular collections.
-- **Cholesteatoma**: **non-echo-planar (non-EPI) DWI** has few artefacts at the skull base and detects residual or recurrent cholesteatoma down to about 3 mm.
+- **[[t:chole|Cholesteatoma]]**: **non-echo-planar (non-EPI) DWI** has few artefacts at the skull base and detects residual or recurrent cholesteatoma down to about 3 mm.
 - **Highly cellular tumours**, especially **lymphoma** and undifferentiated carcinoma, and epidermoid cysts.
 !fig di1069-2 | Coalescent otomastoiditis with a periauricular abscess. Left: post-gadolinium T1 with fat suppression, an enhancing mastoid with thickened enhancing meninges and a dehiscent outer cortex. Right: DWI, the abscess is bright (restricted diffusion).
 !fig di1057-1 | A congenital cholesteatoma read across modalities, part 1. Left: CT, a smooth expansile lesion of the mastoid and lateral clivus. Right: T2, bright and sharply marginated.
 !fig di1057-2 | Part 2, the same lesion. Left: post-gadolinium T1, no enhancement. Right: DWI, bright. Expansion, no enhancement and restricted diffusion together mean cholesteatoma.
 ## Vessels and blood
-**MR angiography** (time-of-flight or contrast-enhanced) and **MR venography** show arteries and venous sinuses without radiation, for pulsatile tinnitus, paragangliomas and sinus thrombosis. **Susceptibility sequences** (T2* gradient echo or SWI) show old blood as dark blooming, as in superficial siderosis or microhaemorrhage in a schwannoma.
+**MR angiography** (time-of-flight or contrast-enhanced) and **MR venography** show arteries and venous sinuses without radiation, for pulsatile tinnitus ([[t:tinnitus]]), paragangliomas ([[t:vascneck]]) and sinus thrombosis ([[t:icc]]). **Susceptibility sequences** (T2* gradient echo or SWI) show old blood as dark blooming, as in superficial siderosis or microhaemorrhage in a schwannoma.
 
 # Reading an MRI study | A routine.
 ## Find each sequence first
@@ -52,7 +52,7 @@ Lipoma or dermoid fat | Bright | Bright, suppresses with fat-sat | None | No res
 
 # Practicalities | Safety and limitations.
 ## When MRI is not the answer
-MRI is slow, so motion degrades it, and children often need sedation. It shows **cortical bone poorly**, so fine bony detail (ossicles, the otic capsule, sinus walls, fractures) belongs to CT; the two are complementary in the skull base and in cancer. Check for pacemakers, some cochlear implants and other implants, metal foreign bodies in the orbit, and claustrophobia. Cochlear implant magnets cause large artefacts and may need removal or a special protocol. Gadolinium is avoided in pregnancy and in severe renal impairment.
+MRI is slow, so motion degrades it, and children often need sedation. It shows **cortical bone poorly**, so fine bony detail (ossicles, the otic capsule, sinus walls, fractures) belongs to CT; the two are complementary in the skull base and in cancer. Check for pacemakers, some cochlear implants and other implants, metal foreign bodies in the orbit, and claustrophobia. Cochlear implant magnets ([[t:rehab]]) cause large artefacts and may need removal or a special protocol. Gadolinium is avoided in pregnancy and in severe renal impairment.
 !flag Do not miss
 - Calling a bright-on-T1 lesion "enhancing" without looking at the pre-contrast T1.
 - Calling high DWI signal "restricted" without checking the ADC map.
@@ -74,7 +74,7 @@ MRI is slow, so motion degrades it, and children often need sedation. It shows *
 !!
 ## Common pitfalls
 !pit
-- Thinking that dark on T2 in a sinus excludes disease: thick secretions and fungus are dark.
+- Thinking that dark on T2 in a sinus excludes disease: thick secretions and fungus ([[t:afs]]) are dark.
 - Ordering MRI to look at ossicles or a fracture.
 - Forgetting cochlear implants and other implants on the safety form.
 !!

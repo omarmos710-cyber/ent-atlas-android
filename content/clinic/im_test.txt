@@ -9,18 +9,18 @@ Chronic rhinosinusitis, planning sinus surgery | Non-contrast CT sinuses (or con
 Unilateral sinus opacification or suspected tumour | CT and contrast MRI | CT for bone; MRI separates tumour from secretions and shows orbit and dura
 Orbital or intracranial complication of sinusitis | Contrast-enhanced CT; MRI if intracranial | Abscess, cavernous sinus, empyema
 Chronic otitis media, cholesteatoma, conductive loss | Non-contrast thin-section CT temporal bones | Ossicles, scutum, tegmen, lateral canal, facial canal
-Residual or recurrent cholesteatoma | Non-EPI diffusion MRI | Detects keratin down to about 3 mm
-Asymmetric sensorineural loss or tinnitus | MRI of the internal auditory meatus (high-resolution T2 ± gadolinium) | Vestibular schwannoma and other CPA lesions
+Residual or recurrent cholesteatoma ([[t:chole]]) | Non-EPI diffusion MRI | Detects keratin down to about 3 mm
+Asymmetric sensorineural loss or tinnitus ([[t:vs]]) | MRI of the internal auditory meatus (high-resolution T2 ± gadolinium) | Vestibular schwannoma and other CPA lesions
 Pulsatile tinnitus | CT temporal bone with CT angiography and venography, or MRI with MRA and MRV | Paraganglioma, dehiscent jugular bulb, sinus stenosis, dural fistula
-Facial palsy, atypical or not recovering | Contrast MRI from brainstem to parotid; CT for the canal | Tumour, perineural spread, fracture
-Neck lump in an adult | Ultrasound with FNA, then contrast CT or MRI if malignant | Characterise, sample, stage
+Facial palsy, atypical or not recovering ([[t:ap_face]]) | Contrast MRI from brainstem to parotid; CT for the canal | Tumour, perineural spread, fracture
+Neck lump in an adult ([[t:neckmass]]) | Ultrasound with FNA, then contrast CT or MRI if malignant | Characterise, sample, stage
 Neck lump in a child | Ultrasound | No radiation; most are nodes or congenital cysts
-Thyroid nodule | Ultrasound (U or TI-RADS grading) with FNA | Risk grading and sampling
-Salivary lump | Ultrasound with FNA or core; MRI for deep lobe or malignancy | Site, extent, facial nerve relation
+Thyroid nodule ([[t:thyroid]]) | Ultrasound (U or TI-RADS grading) with FNA | Risk grading and sampling
+Salivary lump ([[t:saltum]]) | Ultrasound with FNA or core; MRI for deep lobe or malignancy | Site, extent, facial nerve relation
 Head and neck cancer staging | Contrast CT or MRI of primary and neck, chest CT; PET-CT for advanced disease | Local extent, nodes, distant spread
-Unknown primary | PET-CT before panendoscopy | Finds the primary in a proportion
+Unknown primary ([[t:hncprinc]]) | PET-CT before panendoscopy | Finds the primary in a proportion
 Response after chemoradiotherapy | PET-CT at about 12 weeks | Avoids unnecessary neck dissection (PET-NECK)
-Dysphagia or suspected pouch | Barium swallow; videofluoroscopy for aspiration | Structure and function
+Dysphagia or suspected pouch ([[t:ap_dysph]]) | Barium swallow; videofluoroscopy for aspiration | Structure and function
 Deep neck infection | Contrast-enhanced CT | Abscess versus phlegmon, airway, mediastinum
 Facial or laryngeal fracture | Non-contrast thin CT | Fracture lines and displacement
 !!
@@ -33,7 +33,7 @@ Ultrasound is quick, cheap, free of radiation and dynamic, and in skilled hands 
 Plain radiographs have a small, specific role: a lateral soft-tissue neck film for a radio-opaque foreign body or for the thumb sign of supraglottitis (only if the airway is safe and it will not delay care), an orthopantomogram for dental disease, osteoradionecrosis and mandibular fractures, and a chest film. Sinus X-rays are no longer used to diagnose sinusitis.
 !im es35 es36 | Plain films that still help. Left: lateral neck in acute supraglottitis, the swollen epiglottis narrowing the airway. Right: orthopantomogram showing osteoradionecrosis of the mandible.
 ## CT and MRI
-CT and MRI are covered in their own lessons. In short, CT is fast, widely available and best for bone and air, acute infection and trauma; MRI is best for soft-tissue extent, nerves, the labyrinth, the skull base and recurrence, but is slow, sensitive to motion and contraindicated with some implants. In cancer of the skull base, sinuses and nasopharynx the two are complementary.
+CT and MRI are covered in their own lessons ([[t:im_ct]], [[t:im_mri]]). In short, CT is fast, widely available and best for bone and air, acute infection and trauma; MRI is best for soft-tissue extent, nerves, the labyrinth, the skull base and recurrence, but is slow, sensitive to motion and contraindicated with some implants. In cancer of the skull base, sinuses and nasopharynx the two are complementary.
 ## PET-CT
 PET-CT combines a CT with fluorodeoxyglucose (FDG) uptake, which is high in most cancers but also in inflammation, infection, recent surgery, brown fat and normal lymphoid tissue (tonsils, adenoids). It is used for advanced-stage cancer and distant metastases, for the unknown primary, for suspected recurrence, and to assess response at about **12 weeks** after chemoradiotherapy: the PET-NECK trial showed that surveillance by PET-CT, operating only on residual uptake, was as safe as planned neck dissection and spared most patients the operation. Too early a scan gives false positives from radiation inflammation.
 !im es46 | PET shows widespread disease in a child with lymphoma: the metabolic picture that CT alone would miss.
@@ -41,7 +41,7 @@ PET-CT combines a CT with fluorodeoxyglucose (FDG) uptake, which is high in most
 A **barium swallow** shows the anatomy of the pharynx and oesophagus: pouch, web, stricture, ring, achalasia and tumour. **Videofluoroscopy** (modified barium swallow) with a speech therapist shows the dynamics of the oral and pharyngeal phases and aspiration with different textures. Water-soluble contrast is used when perforation or a leak is suspected.
 !im bk8_19a bk8_19b bk8_19c | Contrast swallow images of the pharynx and oesophagus: a dynamic study shows both structure and transit.
 ## Angiography and nuclear medicine
-Catheter angiography is now used mainly for treatment: embolisation of juvenile angiofibroma, paraganglioma and epistaxis, and balloon occlusion testing before carotid sacrifice. **Nuclear medicine** offers sestamibi and SPECT-CT for parathyroid adenoma, iodine and technetium scans for the thyroid, and salivary scintigraphy for function.
+Catheter angiography is now used mainly for treatment: embolisation of juvenile angiofibroma, paraganglioma and epistaxis, and balloon occlusion testing before carotid sacrifice. **Nuclear medicine** offers sestamibi and SPECT-CT for parathyroid adenoma ([[t:para]]), iodine and technetium scans for the thyroid, and salivary scintigraphy for function.
 
 # Safety and stewardship | Fewer, better scans.
 ## Radiation, contrast and children
@@ -55,7 +55,7 @@ Is it a child? | prefer ultrasound or MRI ; CT for bone questions and emergencie
 Is it cancer? | primary and neck by CT or MRI ; chest CT ; PET-CT for advanced, unknown primary or response at 12 weeks
 !!
 !update Current evidence
-**Choosing the test.** The ACR Appropriateness Criteria and the Royal College of Radiologists' iRefer guidance rate imaging for common clinical problems; in the UK, the Ionising Radiation (Medical Exposure) Regulations 2017 require every exposure to be justified. **Asking well.** A clear question and relevant clinical details on the request improve the report. **Incidental findings** are common (thyroid nodules, sinus mucosal thickening, small vestibular-region lesions) and should be managed by agreed pathways rather than repeated scanning.
+**Choosing the test.** The ACR Appropriateness Criteria and the Royal College of Radiologists' iRefer guidance rate imaging for common clinical problems; in the UK, the Ionising Radiation (Medical Exposure) Regulations 2017 require every exposure to be justified. **Incidental findings** are common (thyroid nodules, sinus mucosal thickening, small vestibular-region lesions) and should be managed by agreed pathways rather than repeated scanning.
 !!
 
 # For the examination | What the examiner wants to hear.

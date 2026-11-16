@@ -16,6 +16,7 @@ The **medial wall** is the paper-thin lamina papyracea over the ethmoid sinuses;
 !fig ia235-3 | Axial bone CT of the upper orbit: the optic canals angling back towards the chiasm, with the superior orbital fissure lateral to them.
 
 # Infection | The complications of sinusitis.
+The clinical management is in [[t:orbit]] and [[t:abs]].
 ## Chandler's stages on imaging
 !table Orbital complications of sinusitis
 Stage | Imaging | What to look for
@@ -35,6 +36,7 @@ Look for an **enlarged superior ophthalmic vein** containing a filling defect, a
 
 # Trauma | Floors, walls and the optic nerve.
 ## Blowout fractures
+The fractures are described clinically in [[t:facefx]].
 A **pure blowout fracture** breaks the floor or medial wall without involving the rim. Coronal CT shows the fracture, herniation of fat and of the inferior or medial rectus, and the volume of the defect. A rounded, displaced inferior rectus or muscle caught in the fracture, especially the **trapdoor** fracture of a child with little visible on CT but marked restriction and pain on upgaze, is a surgical emergency. Large defects risk enophthalmos.
 !fig di1007-1 | Orbital floor blowout fractures. Left: coronal CT, a mildly depressed floor fracture. Right: an older floor fracture with herniation of fat and part of the inferior rectus through the defect.
 !fig di1007-2 | Left: a lamina papyracea fracture with the medial rectus deformed into the defect. Right: retrobulbar air and blood with proptosis and tenting of the back of the globe, the warning sign of a compartment syndrome.
@@ -43,7 +45,7 @@ Proptosis with **tenting** of the posterior globe (the globe drawn into a cone a
 
 # The muscles and masses | Conal and intraconal disease.
 ## Thyroid eye disease
-Thyroid eye disease enlarges the **muscle bellies** while sparing their tendons, usually on both sides, most often the inferior and medial recti (the mnemonic "I'M SLow": inferior, medial, superior, lateral). It also increases orbital fat. Crowding of the enlarged muscles at the **apex** compresses the optic nerve and is an indication for urgent treatment, sometimes endoscopic decompression of the medial wall and floor. STIR signal in the muscles suggests active inflammation.
+[[t:thyroid|Thyroid eye disease]] enlarges the **muscle bellies** while sparing their tendons, usually on both sides, most often the inferior and medial recti (the mnemonic "I'M SLow": inferior, medial, superior, lateral). It also increases orbital fat. Crowding of the enlarged muscles at the **apex** compresses the optic nerve and is an indication for urgent treatment, sometimes endoscopic decompression of the medial wall and floor. STIR signal in the muscles suggests active inflammation.
 !fig di849-1 | Thyroid eye disease. Left: drawing of symmetric muscle enlargement. Right: coronal CT, enlarged inferior, medial and superior recti on both sides.
 ## Idiopathic orbital inflammation and lymphoma
 **Idiopathic orbital inflammation** (pseudotumour) is usually unilateral and painful, involves the muscle **including its tendon**, the fat, the lacrimal gland or the sclera, and responds to steroids. **Lymphoma** is painless, moulds itself around the globe and orbital structures without destroying them, enhances uniformly and restricts strongly on diffusion; the lacrimal gland is a common site. Biopsy is often needed to separate them.
@@ -52,7 +54,7 @@ Thyroid eye disease enlarges the **muscle bellies** while sparing their tendons,
 The commonest benign orbital mass in adults is the **cavernous venous malformation** (formerly cavernous haemangioma): a well-defined, oval, intraconal mass that is bright on T2 and fills in with contrast progressively from a point. It pushes the globe forwards and seldom threatens vision unless it sits at the apex.
 !fig di831-1 | Cavernous venous malformation. Left: drawing of an oval intraconal mass displacing the optic nerve. Right: CT, a well-defined, slightly dense intraconal mass with the lateral rectus draped around it.
 ## Sinonasal tumours and the orbit
-For a sinonasal malignancy the key question is whether the **periorbita** has been breached. Thinning or loss of the lamina papyracea alone does not mean invasion; obliteration of the extraconal fat next to the tumour, nodular contact with the medial rectus, or tumour within the muscle does. MRI answers this best, and it often decides between preserving and removing the eye.
+For a [[t:sinus_ca|sinonasal malignancy]] the key question is whether the **periorbita** has been breached. Thinning or loss of the lamina papyracea alone does not mean invasion; obliteration of the extraconal fat next to the tumour, nodular contact with the medial rectus, or tumour within the muscle does. MRI answers this best, and it often decides between preserving and removing the eye.
 
 !path Reading an orbit scan
 Septum | preseptal or postseptal ; lids and fat
@@ -63,7 +65,7 @@ Intraconal | optic nerve and sheath ; superior ophthalmic vein ; mass
 Globe and apex | proptosis ; tenting ; optic canal ; superior orbital fissure ; cavernous sinus
 !!
 !update Current evidence
-**Orbital cellulitis.** Contrast CT of the orbits and sinuses is needed when there is proptosis, ophthalmoplegia, reduced vision or colour vision, inability to examine the eye, or failure to improve in 24 to 48 hours; MRI is better for orbital apex and intracranial spread and for cavernous sinus thrombosis. **Thyroid eye disease.** CT shows muscle enlargement sparing the tendons and apical crowding; MRI with STIR shows active inflammation, helping decide on steroids or teprotumumab.
+**Orbital cellulitis.** Contrast CT of the orbits and sinuses is needed when there is proptosis, ophthalmoplegia, reduced vision or colour vision, inability to examine the eye, or failure to improve in 24 to 48 hours; MRI is better for orbital apex and intracranial spread and for cavernous sinus thrombosis. **Thyroid eye disease.** STIR activity helps decide on steroids or teprotumumab.
 !!
 
 # For the examination | What the examiner wants to hear.
