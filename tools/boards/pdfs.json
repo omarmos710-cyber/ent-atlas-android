@@ -38,6 +38,9 @@
  "ko": "461aa068ae732d08e5d41874a6171dfa",
  "laryngitis": "30ad7a80374419b8c41a0244296feb0c",
  "lxanat": "f22d61c5072c0229d817031f1f61467d",
+ "lxca": "6c41caacf9d61baa95d960f1af3cae04",
+ "lxcong": "ea55a4e56c4e0f836970da6e25cb1a78",
+ "lxtrauma": "4cf7207b196440de2ba73b9f1772dc32",
  "mastoiditis": "eb9655f0d9570937115a5b7cf4956a3e",
  "meniere": "7d74fb68468bf83177c7418a37ee1534",
  "mouthminor": "057c2a52f6c5315d41144103aa8cfd0f",
@@ -78,9 +81,11 @@
  "tmperf": "e23424f8788f75fb6001aa4dbb97e538",
  "tonsil": "b096a6c6d533160fd000ebf953e8425f",
  "tonsil_ca": "29e27de165fe0cf8f7b063a219099e11",
+ "trach": "41f6e2c555df530febfefb280e1c9948",
  "tumear": "23bd24d2ee5fd8fa4cbe2eb699f7dfb6",
  "vertigo": "32689560e095c9335ae81a5c50ef230c",
  "vest": "23f2fdbe69e9e99fe2fe751ff638f522",
  "vfp": "287d74e711c78f83f20ca0b0bc5f9372",
+ "voice": "66694041c14dee161359f9060b6afc74",
  "vs": "27b952ba4afd2c7481d4ca7a857a087f"
 }
