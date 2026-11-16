@@ -78,6 +78,8 @@ Submucosal reduction (microdebrider, radiofrequency, coblation), outfracture, pa
 *Functional* endoscopic sinus surgery removes disease in the ostiomeatal complex and enlarges the natural ostia, so that ventilation and mucociliary clearance recover; the mucosa is preserved.
 ## Indications
 Chronic rhinosinusitis with or without polyps after failed medical treatment, recurrent acute sinusitis, complications of sinusitis (orbital abscess, mucocele), fungal sinusitis, antrochoanal polyp, and access for extended procedures: CSF leak repair, orbital and optic nerve decompression, dacryocystorhinostomy, sphenopalatine artery ligation, choanal atresia, tumours and the skull base.
+### Who should have surgery
+An international appropriateness consensus (RAND method) defined a minimum below which endoscopic sinus surgery is unlikely to help: in adults with uncomplicated chronic rhinosinusitis ([[t:crs]]), a CT Lund–Mackay score of at least 1, a trial of at least eight weeks of topical nasal steroid plus a short course of systemic steroid (with polyps) or antibiotics (without polyps), and a SNOT-22 score of 20 or more after that treatment. Up to one in three patients do not achieve a clinically meaningful improvement after surgery, and the **preoperative SNOT-22** is the best predictor of benefit, so selection matters. Equally, repeated rounds of medical treatment that delay surgery in patients who meet the criteria may worsen the final result.
 ## Preparation
 CT of the sinuses reviewed systematically before every operation (the *CLOSE* checklist: cribriform plate, lamina papyracea, Onodi cell, sphenoid and carotid, ethmoidal artery); topical decongestion and infiltration.
 !anat s109_55 s143_29 | The lateral nasal wall with the middle turbinate removed (uncinate, bulla and hiatus), and the ground lamella separating anterior from posterior ethmoid cells.
@@ -90,13 +92,15 @@ CT of the sinuses reviewed systematically before every operation (the *CLOSE* ch
 6. **Frontal recess clearance and frontal sinusotomy** if diseased: the opening lies lateral to the middle turbinate attachment, medial to the orbit, in front of the anterior ethmoidal artery and behind the agger nasi; respect the mucosa to prevent stenosis.
 7. **Sphenoidotomy** through the natural ostium, about 1 cm above the choana, medial to the superior turbinate.
 The posterior-to-anterior (*Wigand*) technique starts at the sphenoid and follows the skull base forwards, for extensive polyposis and revisions.
+### Doing it well
+Revision cases most often show a residual uncinate process, a missed natural ostium with a separate antrostomy (causing mucus recirculation) and residual anterior ethmoid cells, so the basic steps done well prevent many revisions. Polyp disease does better with more complete surgery (wide antrostomies, clearing all ethmoid partitions, extended frontal and sphenoid surgery) to give topical steroids access. Total intravenous anaesthesia gives a drier field; routine preoperative steroids and antibiotics are not needed. Image guidance is useful in revisions and abnormal anatomy, but has not been shown to reduce complications, and over-reliance can mislead. Steroid-eluting stents may help selected patients.
 !fig d90-1 | Endoscopic surgery in progress, with instruments passed through the nose and the view on a monitor.
 ## Frontal sinus procedures
 Draf I (frontal recess clearance), Draf IIa and IIb (enlarging the frontal ostium), and Draf III (the endoscopic modified Lothrop, joining both frontal sinuses across the midline). External options: trephination, Lynch-Howarth frontoethmoidectomy, the osteoplastic flap with obliteration, and cranialisation after posterior wall fractures.
 ## Balloon sinuplasty
-Dilatation of the natural ostia with a balloon catheter, for selected patients with limited disease.
+Dilatation of the natural ostia with a balloon catheter. It cannot treat the ethmoids, and suits only limited disease without polyps.
 ## After surgery
-Saline irrigation, steroid sprays for polyposis or allergy, antibiotics as needed, and endoscopic cleaning of crusts and division of adhesions at weekly visits until the cavity heals.
+Saline irrigation, steroid sprays for polyposis or allergy, antibiotics as needed, and endoscopic cleaning of crusts and division of adhesions at weekly visits until the cavity heals. Revision rates are about 11% at three years, 19% at five and 17% at ten.
 ## Complications
 !table Complications of endoscopic sinus surgery
 Type | Examples
@@ -107,12 +111,12 @@ Vascular | Internal carotid artery injury, sphenopalatine and ethmoidal haemorrh
 Other | Anosmia, frontal sinus stenosis and mucocele
 !!
 !flag Orbital haematoma during surgery
-Proptosis, a tense eye and falling vision: stop, remove packs, and perform a lateral canthotomy and cantholysis; consider medical treatment and orbital decompression.
+Proptosis during or after surgery needs urgent assessment of vision, pupils and intraocular pressure. A tense eye with raised pressure and falling vision: stop, remove packs, and perform a lateral canthotomy and cantholysis at once; consider medical treatment and orbital decompression ([[t:orbit]]).
 !!
 !ops
 
 # Endoscopic skull base surgery | Through the nose to the brain.
-Extended endonasal approaches reach the sella (pituitary tumours), the anterior skull base and cribriform plate (olfactory neuroblastoma, meningioma), the clivus and the pterygopalatine and infratemporal fossae. The defect is closed in layers, and the *nasoseptal flap* on the posterior septal artery has greatly reduced postoperative CSF leaks (see the CSF rhinorrhoea topic).
+Extended endonasal approaches reach the sella (pituitary tumours), the anterior skull base and cribriform plate (olfactory neuroblastoma, meningioma), the clivus and the pterygopalatine and infratemporal fossae. The defect is closed in layers, and the *nasoseptal flap* on the posterior septal artery has greatly reduced postoperative CSF leaks ([[t:csf]]). Pituitary surgery is covered in [[t:pituitary]], and the wider skull base in [[t:skullbase]].
 !imaging dural-defect-after-sinonasal-surgery mucocele-of-the-frontal-recess pituitary-gland-pathology | A dural defect after sinus surgery, a frontal recess mucocele, and pituitary pathology.
 
 # Oroantral fistula | A hole between mouth and sinus.
@@ -124,12 +128,6 @@ Fluids and food regurgitate into the nose; a foul discharge from the infected si
 ## Treatment
 - **Fresh, small fistula** without infection or a retained root: suture the gum margins and give antibiotics.
 - **Chronic or large fistula:** treat the sinusitis (endoscopic antrostomy, removal of any root), excise the epithelialised track and close it with a buccal advancement or palatal rotation flap; or an obturator after cancer surgery.
-# Selection and outcomes | Who benefits, and why revisions happen.
-## Selection and outcomes
-**Who should have surgery.** An international appropriateness consensus (RAND method) defined a minimum below which endoscopic sinus surgery is unlikely to help: in adults with uncomplicated chronic rhinosinusitis, a CT Lund–Mackay score of at least 1, a trial of at least eight weeks of topical nasal steroid plus a short course of systemic steroid (with polyps) or antibiotics (without polyps), and a SNOT-22 score of 20 or more after that treatment. Up to one in three patients do not achieve a clinically meaningful improvement after surgery, and the **preoperative SNOT-22** is the best predictor of benefit, so selection matters. Equally, repeated rounds of medical treatment that delay surgery in patients who meet the criteria may worsen the final result.
-## Technique and revisions
-**Technique.** Revision cases most often show a residual uncinate process, a missed natural ostium with a separate antrostomy (causing mucus recirculation) and residual anterior ethmoid cells, so the basic steps done well prevent many revisions. Polyp disease does better with more complete surgery (wide antrostomies, clearing all ethmoid partitions, extended frontal and sphenoid surgery) to give topical steroids access. Balloon dilatation cannot treat the ethmoids and suits only limited disease without polyps. Total intravenous anaesthesia gives a drier field; routine preoperative steroids and antibiotics are not needed. Image guidance is useful in revisions and abnormal anatomy, but has not been shown to reduce complications, and over-reliance can mislead. Steroid-eluting stents may help selected patients.
-**Revision rates** are about 11% at three years, 19% at five and 17% at ten. A patient who develops proptosis during or after surgery needs urgent assessment of vision, pupils and intraocular pressure, and immediate decompression of an orbital haematoma (lateral canthotomy and cantholysis) if pressure is raised.
 !update Current evidence
 **Appropriateness.** The international RAND consensus defined the minimum criteria for endoscopic sinus surgery in adults with uncomplicated chronic rhinosinusitis given above (Rudmik et al., *Int Forum Allergy Rhinol* 2016). **Surgery or medicines.** In the UK MACRO trial of about 500 adults with persistent chronic rhinosinusitis, compared with placebo, surgery improved symptoms and quality of life at six months, while three months of clarithromycin did not (Philpott et al., *Lancet* 2025). **Balloon dilatation.** A Cochrane review found no good-quality evidence comparing balloon sinuplasty with conventional surgery (Ahmed et al., 2011). **Septoplasty.** In the UK NAIROS trial of more than 300 adults, septoplasty improved SNOT-22 scores by 20 points more than a nasal steroid and saline at six months (Carrie et al., *Health Technol Assess* 2024); a Dutch trial reached the same conclusion (van Egmond et al., *Lancet* 2019).
 !!

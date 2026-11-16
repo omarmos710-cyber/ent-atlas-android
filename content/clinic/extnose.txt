@@ -19,7 +19,7 @@ A small, exquisitely tender red swelling in the vestibule, with redness and swel
 ### Treatment
 Warm compresses, analgesia, and topical and systemic antistaphylococcal antibiotics; incise only when fluctuant.
 !flag Never squeeze a nasal furuncle
-Squeezing or early incision can spread infection through the angular and ophthalmic veins to the cavernous sinus. Other complications: cellulitis of the upper lip and septal abscess. Recurrent furuncles mean checking for diabetes and nasal staphylococcal carriage.
+Squeezing or early incision can spread infection through the angular and ophthalmic veins to the cavernous sinus. Other complications: cellulitis of the upper lip and septal abscess. Cavernous sinus thrombosis is described in [[t:abs]]. Recurrent furuncles mean checking for diabetes and nasal staphylococcal carriage.
 !!
 ## Vestibulitis
 ### Cause
@@ -32,20 +32,20 @@ Clean the crusts with hydrogen peroxide, apply an antibiotic-steroid ointment an
 ## Cellulitis
 Streptococcal or staphylococcal infection making the nose red, swollen and tender, sometimes spreading from the vestibule; systemic antibiotics, warmth and analgesia.
 ## Specific infections
-Lupus vulgaris (apple-jelly nodules), leprosy and syphilis also affect the external nose (see the granulomatous disease topic).
+Lupus vulgaris (apple-jelly nodules), leprosy and syphilis also affect the external nose ([[t:gpa]]).
 
 # Deformities | Shape and function.
 !fig d25-1 | Deformities of the nose.
 ## Saddle nose
 A depressed dorsum, bony, cartilaginous or both.
 ### Causes
-Depressed fractures (the commonest), excessive removal of septal cartilage at submucous resection, septal haematoma or abscess, granulomatosis with polyangiitis, cocaine, leprosy, tuberculosis, syphilis and relapsing polychondritis.
+Depressed fractures (the commonest; [[t:facefx]]), excessive removal of septal cartilage at submucous resection, septal haematoma or abscess ([[t:septum]]), granulomatosis with polyangiitis, cocaine, leprosy, tuberculosis, syphilis and relapsing polychondritis.
 ### Treatment
 *Augmentation rhinoplasty*: septal, auricular or rib cartilage for a cartilaginous depression; bone (iliac crest or calvarial) for bony and cartilaginous loss. Autografts are preferred; synthetic implants tend to extrude.
 ## Hump nose
 A dorsal hump of bone, cartilage or both, corrected by *reduction rhinoplasty*: removal of the hump and lateral osteotomies to close the open roof.
 ## Crooked and deviated nose
-In a *crooked* nose, the dorsum from the root to the tip is C- or S-shaped; in a *deviated* nose, the dorsum is straight but lies to one side. Both usually follow injury, often in childhood. Correction by *septorhinoplasty* restores both appearance and airway.
+In a *crooked* nose, the dorsum from the root to the tip is C- or S-shaped; in a *deviated* nose, the dorsum is straight but lies to one side. Both usually follow injury, often in childhood. Correction by *septorhinoplasty* restores both appearance and airway ([[t:facplast]]).
 !fig d25-2 | The nasal bridge is S-shaped in a crooked nose, and straight but displaced in a deviated nose.
 ## Nasal valve collapse
 Weak or scarred lateral walls collapse on inspiration; Cottle's test is positive. Spreader grafts, alar batten grafts or functional rhinoplasty.
@@ -53,7 +53,7 @@ Weak or scarred lateral walls collapse on inspiration; Cottle's test is positive
 
 # Tumours of the external nose | Benign and malignant.
 ## Benign
-Papilloma (wart), haemangioma, pigmented naevus, seborrhoeic keratosis, neurofibroma and sweat gland tumours. Congenital masses (dermoid, glioma, encephalocele) are covered in their own topic.
+Papilloma (wart), haemangioma, pigmented naevus, seborrhoeic keratosis, neurofibroma and sweat gland tumours. Congenital masses (dermoid, glioma, encephalocele) are covered in [[t:congnose]].
 ## Rhinophyma
 The *potato nose*: a slow, lobulated, pink overgrowth of sebaceous glands and connective tissue over the tip and alae, with dilated vessels, in men past middle age with long-standing acne rosacea. It is cosmetic, but may block breathing or vision. Treatment is shaving it down with a scalpel, dermabrasion or carbon dioxide laser, letting the surface re-epithelialise from the remaining glands.
 !fig d25-4b | Rhinophyma.

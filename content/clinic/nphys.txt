@@ -13,7 +13,7 @@ Understanding normal function explains the symptoms of nasal disease: dryness an
 
 # Respiration | The natural airway.
 ## Nose breathing
-Breathing through the nose is the natural route; mouth breathing is learned. A newborn with bilateral choanal atresia can asphyxiate. The nose also lets us breathe and eat at the same time.
+Breathing through the nose is the natural route; mouth breathing is learned. A newborn with bilateral choanal atresia can asphyxiate ([[t:congnose]]). The nose also lets us breathe and eat at the same time.
 ## The airflow
 In quiet breathing, inspired air passes mainly through the middle of the nose, between the turbinates and septum; little goes through the inferior meatus or the olfactory cleft, which is why weak odours must be sniffed. On expiration, friction at the limen nasi creates eddies beneath the turbinates that ventilate the sinuses.
 !fig d24-1 | Nasal airflow during (A) inspiration and (B) expiration.
@@ -66,19 +66,19 @@ The olfactory epithelium lies high in the nose, over the cribriform plate, the u
 - **Phantosmia:** smelling an odour that is not there; intracranial causes (tumour, temporal lobe epilepsy) must be excluded.
 - **Ageusia, hypogeusia, dysgeusia:** absent, reduced and distorted taste.
 ## Epidemiology
-Smell declines with age: in Lee's figures, most people over 80 have impaired smell and about half are anosmic. Smoking and poor nutrition add to the risk.
+Smell declines with age: most people over 80 have impaired smell and about half are anosmic. Smoking and poor nutrition add to the risk.
 
 # Disorders of smell | Conductive or sensorineural.
 ## Conductive loss
 Odorants cannot reach the olfactory cleft:
-- Chronic rhinosinusitis with polyps (the commonest treatable cause), allergic and viral rhinitis.
+- Chronic rhinosinusitis with polyps (the commonest treatable cause; [[t:crs]]), allergic and viral rhinitis.
 - Septal deviation, turbinate hypertrophy, tumours.
 - Atrophic rhinitis.
 ## Sensorineural loss
 Damage to the receptors or the pathway:
 - **Post-viral:** after a cold or influenza (parainfluenza 3 especially), and COVID-19, often sudden.
 - **Head injury:** up to 15% of significant head injuries, from shearing of olfactory fibres at the cribriform plate or frontal contusion; usually anosmia, and only about 10% recover.
-- **Tumours:** olfactory groove meningioma, olfactory neuroblastoma, frontal lobe tumours.
+- **Tumours:** olfactory groove meningioma, olfactory neuroblastoma ([[t:sinus_ca]]), frontal lobe tumours.
 - **Neurodegenerative disease:** Parkinson's and Alzheimer's disease, where smell loss may be the first sign.
 - **Congenital:** *Kallmann syndrome* (anosmia with hypogonadotropic hypogonadism, from failed migration of olfactory and gonadotropin-releasing neurons).
 - **Toxins, drugs, radiation, endocrine and metabolic disease:** smoking, hypothyroidism, diabetes, zinc or B12 deficiency.
