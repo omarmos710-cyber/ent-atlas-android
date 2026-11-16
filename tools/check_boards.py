@@ -9,6 +9,7 @@ import os, re, sys, html
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 def text(s):
+    s = re.sub(r'<span class="n">\d+</span>', ' ', s)  # card number badges are labels, not facts
     s = re.sub(r'<style.*?</style>|<svg.*?</svg>', ' ', s, flags=re.S) if '<svg' in s or '<style' in s else s
     s = html.unescape(re.sub(r'<[^>]+>', ' ', s))
     return s

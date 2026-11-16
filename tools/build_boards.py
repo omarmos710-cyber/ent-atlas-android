@@ -25,7 +25,7 @@ VIEWER = r'''
  function open(id,title){close();Z=false;H=0;OV=document.createElement("div");OV.className="bdov";OV.setAttribute("role","dialog");OV.setAttribute("aria-modal","true");OV.setAttribute("aria-label","Summary board");
   OV.innerHTML='<div class="bdbar"><b></b><button type="button" data-bd="zoom">Zoom</button><button type="button" data-bd="close">Close</button></div><div class="bdsc"><div class="bdwrap"><iframe title="Summary board" tabindex="-1"></iframe></div></div><p class="bdhint">Tap Zoom, or double-tap the board, to read it closely. Turn the phone sideways for a wider view.</p>';
   OV.querySelector("b").textContent=title||"Summary board";const fr=OV.querySelector("iframe");
-  fr.onload=()=>{try{H=fr.contentDocument.documentElement.scrollHeight;fr.style.height=H+"px"}catch(e){}fit()};
+  fr.onload=()=>{try{H=Math.ceil(fr.contentDocument.body.getBoundingClientRect().height);fr.style.height=H+"px"}catch(e){}fit()};
   fr.src="clinic/board/"+id+".html";document.body.appendChild(OV);document.body.style.overflow="hidden";fit();
   OV.querySelector('[data-bd="close"]').focus({preventScroll:true})}
  function close(){if(OV&&OV.isConnected)OV.remove();if(OV)document.body.style.overflow="";OV=null}
