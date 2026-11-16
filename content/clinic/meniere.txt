@@ -37,6 +37,7 @@ The drum is normal. During an attack there is horizontal-rotatory nystagmus.
 !differ Direction of nystagmus in an attack
 Dhingra: Fast phase towards the healthy ear.
 Lee: Towards the affected ear at the start (irritative), away from it later (paretic), and back towards it during recovery.
+In practice: The direction can change during an attack, so do not rely on it alone to tell which ear is affected.
 !!
 !pearl Tullio phenomenon
 Vertigo provoked by loud sound may occur when the distended saccule lies against the stapes footplate.
@@ -62,7 +63,7 @@ Probable | Two or more episodes of vertigo or dizziness, each 20 minutes to 24 h
 The 12-hour upper limit helps separate Ménière's disease from **vestibular migraine**, which is about ten times more common, overlaps with it in many patients, and is the commonest misdiagnosis.
 !differ The older AAO-HNS categories (1995)
 Dhingra and older texts: certain (with histology), definite, probable and possible, based on two or more episodes of 20 minutes or longer and documented hearing loss.
-Current practice: definite and probable only (2015 criteria).
+In practice: Use the 2015 definite and probable categories.
 !!
 ## Staging
 By the average of thresholds at 0.5, 1, 2 and 3 kHz in the worst audiogram of the previous six months: stage 1 up to 25 dB, stage 2 26 to 40 dB, stage 3 41 to 70 dB, stage 4 over 70 dB.
@@ -77,6 +78,7 @@ The summating potential grows relative to the action potential in a hydropic ear
 !differ Raised SP/AP ratio
 Dhingra: Above 30%.
 Lee: Above 0.35.
+In practice: A ratio above roughly a third supports hydrops.
 !!
 !fig d15-4 | Electrocochleography: (A) normal ear, (B) Ménière's disease with an enlarged summating potential relative to the action potential.
 ## Glycerol test
@@ -87,11 +89,11 @@ Reduced response on the affected side in about three-quarters.
 Essential to exclude a vestibular schwannoma or other retrocochlear lesion. Delayed contrast MRI can now show hydrops directly in specialist centres.
 !imaging | An endolymphatic sac tumour and an enlarged vestibular aqueduct, two causes of secondary hydrops.
 ## Differential diagnosis
-- Vestibular schwannoma.
-- Vestibular migraine.
+- [[t:vs|Vestibular schwannoma]].
+- Vestibular migraine ([[t:vertigo]]).
 - Recurrent vestibulopathy.
-- Superior canal dehiscence.
-- Autoimmune inner ear disease and otosyphilis.
+- [[t:scd|Superior canal dehiscence]].
+- Autoimmune inner ear disease ([[t:sensori]]) and otosyphilis ([[t:tbom]]).
 - Transient ischaemic attacks in the vertebrobasilar territory.
 
 # Management | Most are controlled medically.
@@ -112,6 +114,7 @@ Betahistine (with caution in asthma) and a thiazide diuretic are widely used, al
 Dhingra: Betahistine and a diuretic as the standard long-term medical treatment.
 Oxford: A large randomised trial (BEMED, 2016) found no benefit of betahistine over placebo in reducing attacks, even at high dose. Many units still offer it as a low-risk first step, but patients with frequent attacks should not be held on it for long before moving to intratympanic steroids.
 American guideline (2020): betahistine and diuretics are options; offer intratympanic steroids for active disease not controlled by medical treatment, and intratympanic gentamicin for those who fail non-ablative treatment.
+In practice: A trial of betahistine is reasonable, but move on to intratympanic steroids promptly if attacks continue.
 !!
 ## When medical treatment fails
 The choice depends on whether hearing in the ear is still useful.
@@ -132,7 +135,7 @@ Decompression of the sac, or a shunt to the mastoid, preserves hearing. A meta-a
 !differ Sac surgery
 Dhingra: Listed among the operations that preserve hearing.
 Lee: Controversial.
-Current evidence: vertigo control in at least 75% in a meta-analysis (Sood et al., *Otol Neurotol* 2014), but no placebo-controlled proof; the American guideline lists it as an option.
+In practice: An option that preserves hearing, listed by the American guideline; its benefit over the natural course is unproven.
 !!
 ### Vestibular neurectomy
 Section of the vestibular nerve through the middle or posterior cranial fossa: high vertigo control with hearing preserved, at the price of a craniotomy.
@@ -152,7 +155,7 @@ In the BEMED trial of 221 patients, betahistine at 48 mg or 144 mg a day for nin
 ## Viva essentials
 !exam What the examiner is looking for
 - **The tetrad,** and the pathology of hydrops.
-- **AAO-HNS criteria** and staging.
+- **Bárány Society and AAO-HNS (2015) criteria** and staging.
 - **Audiogram:** low-frequency, fluctuating, rising curve.
 - **Electrocochleography** and the glycerol test.
 - **Variants:** Lermoyez and Tumarkin.
