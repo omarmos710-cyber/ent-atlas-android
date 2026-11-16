@@ -21,13 +21,13 @@ A harsh, noisy breathing sound produced by turbulent airflow through a narrowed 
 Site | Congenital | Acquired
 Nose | Choanal atresia | Severe nasal obstruction in neonates
 Tongue and jaw | Macroglossia, lingual thyroid, micrognathia (Pierre Robin) | Haemangioma, lymphangioma, Ludwig's angina
-Pharynx | Dermoid, cysts | Adenotonsillar hypertrophy, retropharyngeal abscess, tumours
+Pharynx | Dermoid, cysts | Adenotonsillar hypertrophy, retropharyngeal abscess ([[t:deepneck]]), tumours
 Larynx | Laryngomalacia, web, cysts, vocal fold paralysis, subglottic stenosis, haemangioma, cleft | Epiglottitis, croup, diphtheria, oedema, foreign body, trauma, papillomas, carcinoma, bilateral palsy, post-intubation stenosis, tetany, laryngospasm
 Trachea and bronchi | Tracheomalacia, stenosis, atresia | Bacterial tracheitis, foreign body, stenosis after intubation or tracheostomy, tumours
 Outside the airway | Vascular rings, oesophageal atresia and fistula, congenital goitre, cystic hygroma | Oesophageal foreign body, goitre, mediastinal and neck masses
 !!
 ## In adults
-Laryngeal and tracheal tumours, bilateral vocal fold paralysis (after thyroidectomy), post-intubation and tracheostomy stenosis, laryngeal trauma, angioedema, epiglottitis, deep neck infection, goitre and foreign bodies.
+Laryngeal ([[t:lxca]]) and tracheal tumours, bilateral vocal fold paralysis (after thyroidectomy), post-intubation and tracheostomy stenosis, laryngeal trauma, angioedema, epiglottitis, deep neck infection, goitre and foreign bodies.
 
 # Assessment | How bad, and what.
 ## Severity
@@ -46,7 +46,7 @@ Diminishing stridor with tiring, drowsiness or a falling oxygen saturation means
 - **Fever and toxicity:** epiglottitis, tracheitis, retropharyngeal abscess, diphtheria.
 - **Feeding:** choking, cyanosis and aspiration (cleft, paralysis, fistula, vascular ring, oesophageal foreign body).
 - **Cyanotic spells** and apnoeas: need for airway support.
-- **Witnessed choking** on a toy, nut or food.
+- **Witnessed choking** on a toy, nut or food ([[t:fb]]).
 - **Previous intubation,** surgery (thyroid, cardiac) or trauma.
 - **Voice and cry** quality.
 ## Examination
@@ -65,10 +65,11 @@ Chosen by the history, and only when the airway allows:
 The definitive assessment of the paediatric airway, in theatre with full resuscitation facilities and an experienced anaesthetist. Inhalational induction maintains spontaneous breathing; a quick laryngoscopy is followed by bronchoscopy of the subglottis, trachea and bronchi, collection of secretions and removal of crusts or foreign bodies; then the child is intubated if needed. Look at the whole airway: a second lesion is common.
 !imaging | Laryngocele, supraglottic tumour and laryngeal trauma on imaging.
 
+# Common causes in children | The ones you will meet.
 ## The common paediatric causes
-**Laryngomalacia** is the commonest cause of stridor in infants, accounting for well over half of congenital cases. Inspiratory stridor begins in the first weeks, is worse with feeding, crying and lying supine, and usually resolves by 18 to 24 months. Short aryepiglottic folds, an omega-shaped epiglottis and prolapsing arytenoid mucosa are seen on awake flexible laryngoscopy. Most infants need only reassurance and treatment of reflux; poor weight gain, apnoeas, cyanosis or pectus excavatum are indications for **supraglottoplasty**.
+The congenital lesions are described in full in [[t:lxcong]]. **Laryngomalacia** is the commonest cause of stridor in infants, accounting for well over half of congenital cases. Inspiratory stridor begins in the first weeks, is worse with feeding, crying and lying supine, and usually resolves by 18 to 24 months. Short aryepiglottic folds, an omega-shaped epiglottis and prolapsing arytenoid mucosa are seen on awake flexible laryngoscopy. Most infants need only reassurance and treatment of reflux; poor weight gain, apnoeas, cyanosis or pectus excavatum are indications for **supraglottoplasty**.
 
-**Vocal fold paralysis** is the second commonest congenital cause; bilateral paralysis is associated with Arnold–Chiari malformation and hydrocephalus. **Subglottic stenosis** is congenital or, more often, acquired after intubation, and is graded by the **Cotton–Myer** system by the percentage of lumen obstructed: grade I up to 50%, grade II 51 to 70%, grade III 71 to 99%, grade IV no lumen. **Subglottic haemangioma** typically presents at a few weeks of age with biphasic stridor that worsens over the first months, often with a cutaneous haemangioma in a beard distribution, and responds to **propranolol**. **Croup** (viral laryngotracheobronchitis) produces a barking cough and stridor in children aged six months to three years and is treated with a single dose of oral dexamethasone, 0.15 mg/kg, with nebulised adrenaline for severe distress. Recurrent or atypical croup, or croup under six months, warrants airway endoscopy.
+**[[t:vfp|Vocal fold paralysis]]** is the second commonest congenital cause; bilateral paralysis is associated with Arnold–Chiari malformation and hydrocephalus. **Subglottic stenosis** is congenital or, more often, acquired after intubation ([[t:lxtrauma]]), and is graded by the **Cotton–Myer** system by the percentage of lumen obstructed: grade I up to 50%, grade II 51 to 70%, grade III 71 to 99%, grade IV no lumen. **Subglottic haemangioma** typically presents at a few weeks of age with biphasic stridor that worsens over the first months, often with a cutaneous haemangioma in a beard distribution, and responds to **propranolol**. **[[t:croup|Croup]]** (viral laryngotracheobronchitis) produces a barking cough and stridor in children aged six months to three years and is treated with a single dose of oral dexamethasone, 0.15 mg/kg, with nebulised adrenaline for severe distress. Recurrent or atypical croup, or croup under six months, warrants airway endoscopy.
 
 # Management | Airway first.
 ## Immediate
@@ -78,12 +79,12 @@ The definitive assessment of the paediatric airway, in theatre with full resusci
 4. Treat the cause where possible: antibiotics, removal of a foreign body.
 ## Securing the airway
 - **Intubation:** in theatre, by the most experienced anaesthetist, with an ENT surgeon scrubbed and ready.
-- **Tracheostomy:** when intubation is impossible or unsafe, for prolonged obstruction, laryngeal trauma, and for long-term airway management (bilateral paralysis, stenosis, severe congenital anomalies).
-- **Cricothyroidotomy:** the emergency surgical airway in adults and older children when the patient can neither be intubated nor oxygenated; needle cricothyroidotomy with jet ventilation in young children.
+- **[[t:trach|Tracheostomy]]:** when intubation is impossible or unsafe, for prolonged obstruction, laryngeal trauma, and for long-term airway management (bilateral paralysis, stenosis, severe congenital anomalies).
+- **Cricothyroidotomy** ([[t:fona]]): the emergency surgical airway in adults and older children when the patient can neither be intubated nor oxygenated; needle cricothyroidotomy with jet ventilation in young children.
 ## The adult threatened airway
-The Difficult Airway Society guidelines end with **front-of-neck access** when the patient "can't intubate, can't oxygenate": the recommended technique is a **scalpel–bougie–tube** cricothyroidotomy through the cricothyroid membrane, identified beforehand by palpation or ultrasound. In a patient with a known obstructing laryngeal tumour, the safest plan is often an **awake tracheostomy under local anaesthesia**, or awake fibreoptic intubation, agreed between surgeon and anaesthetist before any sedation. **High-flow humidified nasal oxygen** extends the time before desaturation during induction and airway surgery. Heliox and steroids buy time but do not treat the cause.
+The Difficult Airway Society guidelines end with **front-of-neck access** when the patient "can't intubate, can't oxygenate": the recommended technique is a **scalpel–bougie–tube** cricothyroidotomy through the cricothyroid membrane, identified beforehand by palpation or ultrasound. In a patient with a known obstructing laryngeal tumour, the safest plan is often an **awake tracheostomy under local anaesthesia**, or awake fibreoptic intubation, agreed between surgeon and anaesthetist before any sedation ([[t:anaes]]). **High-flow humidified nasal oxygen** extends the time before desaturation during induction and airway surgery. Heliox and steroids buy time but do not treat the cause.
 !update Current evidence
-**Airway emergencies.** The UK fourth national audit of major airway complications found that head and neck patients were heavily over-represented, that awake tracheostomy under local anaesthesia or awake fibreoptic intubation should be planned in advance, and that failed emergency front-of-neck access was common with needle techniques (Cook et al., *Br J Anaesth* 2011). The Difficult Airway Society guidelines recommend scalpel-bougie-tube cricothyroidotomy as the rescue technique in the "can't intubate, can't oxygenate" situation in adults (Frerk et al., *Br J Anaesth* 2015); in small children, needle cricothyroidotomy or surgical tracheostomy is preferred because the cricothyroid membrane is tiny. **Heliox** can buy time by improving flow through a narrowed airway, but does not treat the cause. **Children.** Endoscopy under general anaesthesia, with spontaneous ventilation, is the standard way to assess persistent stridor, and a synchronous second airway lesion is found in a substantial minority of infants with laryngomalacia.
+**Airway emergencies.** The UK fourth national audit of major airway complications found that head and neck patients were heavily over-represented, that awake tracheostomy under local anaesthesia or awake fibreoptic intubation should be planned in advance, and that failed emergency front-of-neck access was common with needle techniques (Cook et al., *Br J Anaesth* 2011). The Difficult Airway Society guidelines are the source of the scalpel-bougie-tube technique above (Frerk et al., *Br J Anaesth* 2015); in small children surgical tracheostomy is the alternative to needle cricothyroidotomy, because the cricothyroid membrane is tiny. **Children.** A synchronous second airway lesion is found in a substantial minority of infants with laryngomalacia.
 !!
 
 # Pathway | Assess, stabilise, secure.
@@ -98,14 +99,14 @@ Adult | tumour: awake tracheostomy or planned intubation, then biopsy ; post-thy
 # For the examination | What the examiner wants to hear.
 ## Viva essentials
 !exam What the examiner is looking for
-- **Laryngomalacia:** features, natural history and indications for supraglottoplasty.
-- **Cotton–Myer grading** and subglottic haemangioma with propranolol.
-- **Front-of-neck access** and the awake tracheostomy.
 - **Definition** of stridor, and stertor and wheeze.
 - **Inspiratory, biphasic, expiratory** and their sites.
 - **Causes** in children by site, congenital and acquired.
 - **History points** and severity signs.
+- **Laryngomalacia:** features, natural history and indications for supraglottoplasty.
+- **Cotton–Myer grading** and subglottic haemangioma with propranolol.
 - **Management:** airway first, then diagnosis by endoscopy.
+- **Front-of-neck access** and the awake tracheostomy.
 !!
 ## Common pitfalls
 !pit

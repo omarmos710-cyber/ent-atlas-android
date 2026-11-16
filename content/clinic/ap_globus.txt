@@ -4,7 +4,7 @@
 ## The pattern
 Typical globus is felt in the midline, usually around the level of the cricoid or the thyroid notch. It is present **between meals** and when swallowing saliva, and often **improves when eating or drinking**. It is not painful and does not cause true dysphagia, odynophagia, weight loss or regurgitation. It fluctuates, worsens with stress, tiredness and throat clearing, and has often been present for months. It is most common in middle age and slightly more common in women.
 ## What lies behind it
-The cause is usually multifactorial. Suggested contributors include **laryngopharyngeal reflux**, raised cricopharyngeal tone, postnasal drip, throat clearing, muscle tension around the larynx, stress and anxiety, and heightened sensitivity of the pharynx. Thyroid swelling, cervical osteophytes, a long uvula and tongue-base lymphoid hypertrophy are occasionally relevant.
+The cause is usually multifactorial. Suggested contributors include **laryngopharyngeal reflux** ([[t:laryngitis]]), raised cricopharyngeal tone, postnasal drip, throat clearing, muscle tension around the larynx, stress and anxiety, and heightened sensitivity of the pharynx. Thyroid swelling ([[t:thyroid]]), cervical osteophytes, a long uvula and tongue-base lymphoid hypertrophy are occasionally relevant.
 !flag Features that are not globus
 - **Pain, odynophagia or referred otalgia.**
 - **True dysphagia,** food sticking, regurgitation or weight loss.
@@ -12,7 +12,7 @@ The cause is usually multifactorial. Suggested contributors include **laryngopha
 - **Hoarseness,** haemoptysis or a neck lump.
 - **A smoker or heavy drinker over 50.**
 !!
-Any of these features calls for investigation for malignancy and other causes, not a diagnosis of globus.
+Any of these features calls for investigation for malignancy ([[t:hypoca]], [[t:lxca]], [[t:tonsil_ca]]) and other causes ([[t:ap_dysph]]), not a diagnosis of globus.
 !fig d47-3 | Divisions of the pharynx and their vertebral levels.
 
 # Assessment | Examine, then stop.
@@ -36,7 +36,7 @@ Full examination | flexible endoscopy, neck and thyroid ; abnormal: investigate 
 Treat | explanation and reassurance ; reduce throat clearing, hydrate, stop smoking ; speech therapy ; trial of reflux treatment if reflux features ; discharge with safety-net advice
 !!
 !update Current evidence
-**Reassurance is evidence-based.** Isolated globus without red flags (pain, dysphagia, odynophagia, weight loss, hoarseness, a neck lump, unilateral symptoms) is very rarely due to cancer, and NICE suggested-cancer guidance does not list it as a red flag. Flexible nasendoscopy in clinic reassures and excludes structural disease. **Treatment.** Explanation, treatment of coexisting reflux, and speech and language therapy (relaxation, laryngeal and swallowing exercises) help many patients; trials of proton pump inhibitors for globus alone have been disappointing. Low-dose amitriptyline is used in persistent cases on limited evidence.
+**Reassurance is evidence-based.** Isolated globus without the features listed above is very rarely due to cancer, and NICE suggested-cancer guidance does not list it as a red flag. **Treatment.** Trials of proton pump inhibitors for globus alone have been disappointing.
 !!
 
 # For the examination | What the examiner wants to hear.

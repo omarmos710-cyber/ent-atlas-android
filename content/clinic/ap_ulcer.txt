@@ -13,11 +13,11 @@ With gut symptoms or anaemia | Crohn's disease, coeliac disease, haematinic defi
 Blisters, erosions and desquamative gingivitis | Pemphigus vulgaris, mucous membrane pemphigoid, lichen planus | Nikolsky sign, skin or eye involvement, white striae
 Target lesions and crusted lips | Erythema multiforme | Recent herpes or drug
 Drug-related | Nicorandil, NSAIDs, methotrexate, chemotherapy, bisphosphonates | Timing with the drug
-Immunosuppressed | Neutropenia, HIV, CMV, fungal | Systemic disease or treatment
+Immunosuppressed | Neutropenia, HIV ([[t:hivent]]), CMV, fungal | Systemic disease or treatment
 !!
 !flag Do not miss
 - **A single ulcer over three weeks,** especially indurated, with a raised edge, on the lateral tongue or floor of mouth, or with a neck node: urgent biopsy for squamous cell carcinoma.
-- **Leukoplakia or erythroplakia** next to an ulcer.
+- **Leukoplakia or erythroplakia** ([[t:oralbenign]]) next to an ulcer.
 - **Widespread erosions with skin blisters:** pemphigus vulgaris — urgent dermatology.
 - **Ulcers with eye involvement:** pemphigoid or Behçet's disease — ophthalmology.
 - **Ulcers with sore throat and fever in a patient on carbimazole or clozapine:** neutropenia.
@@ -30,11 +30,12 @@ Ask how long each ulcer lasts and how often they come, the age of onset, the num
 Note the site, size, number, base and edge of each ulcer, and feel it: induration and fixity suggest malignancy. Look for a sharp tooth or ill-fitting denture, white or red patches, blisters, gingival involvement and lichenoid striae. Examine the neck, skin, eyes and, when relevant, genitalia.
 
 # Key causes | Recognising each.
+The oral diseases are described in full in [[t:oraldis]].
 ## Recurrent aphthous stomatitis
 This is the commonest cause of recurrent ulcers, beginning in childhood or adolescence. **Minor** aphthae are under 1 cm, on non-keratinised mucosa, and heal in 10 to 14 days without scarring. **Major** aphthae are larger, deeper and last weeks, healing with scarring. **Herpetiform** ulcers are crops of many pinhead ulcers that coalesce. Triggers include trauma, stress, hormonal changes, sodium lauryl sulphate toothpastes, and deficiencies of iron, vitamin B12 and folate. Patients with recurrent ulcers should have a full blood count, ferritin, B12, folate and coeliac serology.
 !fig d43-1 | Multiple aphthous ulcers on the uvula and faucial pillars.
 ## Malignancy
-Oral squamous cell carcinoma presents as a non-healing ulcer, often painless at first, with induration and a raised everted edge. Risk factors are smoking, alcohol, betel quid and chewing tobacco. Biopsy is taken from the edge, including normal tissue. The tongue and the floor of mouth are the highest-risk sites.
+[[t:oral_ca|Oral squamous cell carcinoma]] presents as a non-healing ulcer, often painless at first, with induration and a raised everted edge. Risk factors are smoking, alcohol, betel quid and chewing tobacco. Biopsy is taken from the edge, including normal tissue. The tongue and the floor of mouth are the highest-risk sites.
 !fig d43-2 d43-3 | First, a traumatic ulcerated mass of the tongue from sharp teeth. Second, a carcinoma to compare.
 ## Mucocutaneous disease
 **Lichen planus** produces white lacy striae with erosions, often bilateral on the buccal mucosa; erosive lichen planus carries a small risk of malignant change and needs follow-up. **Pemphigus vulgaris** produces fragile blisters that rupture into painful erosions, often starting in the mouth; **mucous membrane pemphigoid** produces tougher blisters and desquamative gingivitis and can scar the eyes and larynx. Both need biopsy of perilesional tissue for **direct immunofluorescence**, as well as routine histology.
@@ -55,7 +56,7 @@ Blisters, erosions or desquamative gingivitis? | biopsy with immunofluorescence 
 Acute with fever | herpes or other viral infection — supportive care, antiviral if severe ; on carbimazole or clozapine: blood count
 !!
 !update Current evidence
-**Referral.** NICE suggested-cancer guidance (NG12) recommends urgent referral for unexplained oral ulceration lasting more than three weeks, or a persistent lump or red or red-and-white patch. **Recurrent aphthae.** Topical steroids and chlorhexidine reduce pain and healing time; severe recurrent ulcers need blood tests (haematinics, coeliac serology) and consideration of Behçet disease, inflammatory bowel disease and HIV. **Potentially malignant lesions.** Erythroplakia transforms in about a third and leukoplakia in about one in ten (Iocca et al., *Head Neck* 2020), so biopsy any unexplained red or white patch.
+**Referral.** NICE suggested-cancer guidance (NG12) recommends urgent referral for unexplained oral ulceration lasting more than three weeks, or a persistent lump or red or red-and-white patch. **Potentially malignant lesions.** Erythroplakia transforms in about a third and leukoplakia in about one in ten (Iocca et al., *Head Neck* 2020), so biopsy any unexplained red or white patch.
 !!
 
 # For the examination | What the examiner wants to hear.

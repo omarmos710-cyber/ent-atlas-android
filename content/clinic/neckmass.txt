@@ -60,6 +60,8 @@ Palpate the neck from behind, level by level, noting the size, consistency, fixi
 An open biopsy of a node that turns out to be metastatic squamous carcinoma breaches the fascial planes and contaminates the field. It raises rates of local recurrence and complications. If open biopsy is unavoidable after negative FNA and endoscopy (for example, to type a suspected lymphoma), plan it so that the incision can be included in a neck dissection, with frozen section, and be ready to proceed to dissection.
 !!
 !ops 60 61 | Fine-needle aspiration, and management of the unknown primary.
+## Referral
+In the UK, NICE (NG12) advises a suspected cancer pathway referral (seen within two weeks) for an unexplained lump in the neck in adults, persistent unexplained hoarseness in those aged 45 or over, and unexplained oral ulceration lasting more than three weeks. One-stop neck lump clinics, with ultrasound and needle sampling at the first visit, shorten the time to diagnosis.
 
 # Inflammatory causes | The commonest masses.
 ## Reactive lymphadenitis
@@ -75,14 +77,14 @@ The diagnosis rests on FNA or biopsy showing caseating granulomas, acid-fast bac
 ## Atypical mycobacteria
 Atypical mycobacterial infection affects children aged one to five as a painless node, usually submandibular or preauricular, with violaceous, thin overlying skin and a tendency to form sinuses. The chest film is normal and the tuberculin reaction weak. Complete excision is the treatment, or curettage where the facial nerve is at risk, with clarithromycin as an alternative; incision and drainage leaves a chronic sinus.
 ## Other infections
-**Cat-scratch disease** from *Bartonella henselae* causes a tender, often suppurating node after a cat scratch; it is diagnosed by serology and treated with azithromycin when severe. **Toxoplasmosis** causes posterior cervical nodes in young adults and is diagnosed by serology. **Infectious mononucleosis** from EBV gives generalised nodes, exudative tonsillitis and splenomegaly. **HIV** causes persistent generalised lymphadenopathy, and its nodes may harbour tuberculosis, lymphoma or Kaposi sarcoma. **Actinomycosis** produces a woody swelling with sinuses near the jaw.
+**Cat-scratch disease** from *Bartonella henselae* causes a tender, often suppurating node after a cat scratch; it is diagnosed by serology and treated with azithromycin when severe. **Toxoplasmosis** causes posterior cervical nodes in young adults and is diagnosed by serology. **Infectious mononucleosis** from EBV gives generalised nodes, exudative tonsillitis and splenomegaly. **HIV** ([[t:hivent]]) causes persistent generalised lymphadenopathy, and its nodes may harbour tuberculosis, lymphoma or Kaposi sarcoma. **Actinomycosis** produces a woody swelling with sinuses near the jaw.
 !imaging lymphadenopathy-hiv | Cervical lymphadenopathy in HIV.
 ## Non-infective inflammatory causes
 **Sarcoidosis** produces non-caseating granulomas. **Kikuchi–Fujimoto disease**, histiocytic necrotising lymphadenitis, affects young women with tender nodes and fever and settles on its own. **Kimura disease** affects young Asian men with a preauricular mass, eosinophilia and a high IgE. **Castleman disease** is unicentric or multicentric, and **Rosai–Dorfman disease** causes massive painless nodes.
 
 # Neoplastic causes | Metastases and lymphoma.
 ## Metastatic squamous carcinoma
-The typical patient has a hard, painless, enlarging node, often in level II or III. He may be an older smoker and drinker, or a younger non-smoker with HPV-positive oropharyngeal cancer, whose nodes are often cystic. A node fixed to deep structures or to the skin means extranodal spread. The primary is sought in the tonsil, tongue base, nasopharynx, pyriform sinus, larynx and oral cavity, by examination, endoscopy, imaging and panendoscopy. Supraclavicular nodes may come from below the clavicle: from the lung, breast, oesophagus, stomach, pancreas, kidney, testis or ovary.
+The typical patient has a hard, painless, enlarging node, often in level II or III. He may be an older smoker and drinker, or a younger non-smoker with HPV-positive oropharyngeal cancer, whose nodes are often cystic. A node fixed to deep structures or to the skin means extranodal spread. The primary is sought in the tonsil and tongue base ([[t:tonsil_ca]]), nasopharynx ([[t:npc]]), pyriform sinus ([[t:hypoca]]), larynx ([[t:lxca]]) and oral cavity ([[t:oral_ca]]), by examination, endoscopy, imaging and panendoscopy. Supraclavicular nodes may come from below the clavicle: from the lung, breast, oesophagus, stomach, pancreas, kidney, testis or ovary.
 ## Carcinoma of unknown primary
 When a squamous metastasis has no primary on examination, endoscopy and imaging, the search proceeds in a set order:
 1. PET-CT.
@@ -90,18 +92,18 @@ When a squamous metastasis has no primary on examination, endoscopy and imaging,
 3. Ipsilateral (or bilateral) tonsillectomy and transoral tongue-base mucosectomy.
 4. p16 and EBV staining of the node, which point to the oropharynx or nasopharynx.
 
-Treatment is neck dissection with radiotherapy to the neck and the likely mucosal sites, or primary chemoradiotherapy. The outcome is better than many expect, especially with HPV-positive disease.
+Treatment is neck dissection with radiotherapy to the neck and the likely mucosal sites, or primary chemoradiotherapy ([[t:hnrt]]). The outcome is better than many expect, especially with HPV-positive disease.
 ## Lymphoma
 **Hodgkin lymphoma** affects young adults, with rubbery, painless, discrete nodes, often low in the neck or supraclavicular, sometimes with a mediastinal mass, B symptoms and pain after alcohol; the diagnostic cell is the Reed–Sternberg cell. **Non-Hodgkin lymphoma** affects older adults and involves both nodes and extranodal sites, including Waldeyer's ring (tonsil, nasopharynx, tongue base), the thyroid, the salivary glands and the sinonasal tract, where NK/T-cell lymphoma occurs.
 
 FNA with flow cytometry may suggest lymphoma, but a *core or excision biopsy* is usually needed to classify it, and fresh tissue must be sent. Treatment follows staging, with chemotherapy with or without radiotherapy.
 !imaging lymphoma-non-hodgkin | Non-Hodgkin lymphoma in the neck.
 ## Other neoplasms
-Thyroid carcinoma, including cystic nodal metastases of papillary carcinoma, salivary tumours, paragangliomas and schwannomas, lipomas and, rarely, sarcomas complete the neoplastic list.
+Thyroid carcinoma, including cystic nodal metastases of papillary carcinoma, salivary tumours ([[t:saltum]]), paragangliomas and schwannomas ([[t:vascneck]]), lipomas and, rarely, sarcomas complete the neoplastic list.
 
 # Other masses | Not nodes.
 ## Swellings that are not nodes
-A **laryngocele** is an air-filled dilatation of the laryngeal saccule. An *external* laryngocele pierces the thyrohyoid membrane to form a lateral neck swelling that enlarges on a Valsalva manoeuvre, coughing or blowing, as in trumpeters and glassblowers; infection turns it into a *laryngopyocele*, and a ventricular or supraglottic carcinoma obstructing the saccule must always be excluded. A **pharyngeal pouch** forms a soft swelling low in the left neck that gurgles, with regurgitation. A **plunging ranula** is a soft, transilluminant submandibular swelling from the sublingual gland, cured by removing that gland.
+A **laryngocele** ([[t:benign]]) is an air-filled dilatation of the laryngeal saccule. An *external* laryngocele pierces the thyrohyoid membrane to form a lateral neck swelling that enlarges on a Valsalva manoeuvre, coughing or blowing, as in trumpeters and glassblowers; infection turns it into a *laryngopyocele*, and a ventricular or supraglottic carcinoma obstructing the saccule must always be excluded. A **[[t:pouch|pharyngeal pouch]]** forms a soft swelling low in the left neck that gurgles, with regurgitation. A **plunging ranula** ([[t:oralbenign]]) is a soft, transilluminant submandibular swelling from the sublingual gland, cured by removing that gland.
 
 A **cervical rib** is a hard supraclavicular lump with thoracic outlet symptoms: arm paraesthesia from pressure on the lower trunk of the brachial plexus, and coldness, claudication, aneurysm or emboli from compression of the subclavian artery. It is excised if it causes symptoms. A **lipoma** is soft and lobulated with a slipping edge, commonly in the posterior triangle and nape, and **sebaceous and epidermoid cysts** lie in the skin with a punctum. Finally, a **carotid aneurysm**, or an ectatic, tortuous carotid in an elderly hypertensive patient, can present as a pulsatile lump.
 !imaging lipoma-of-the-neck | Lipoma of the neck.
@@ -121,12 +123,12 @@ Ask about pressure: cough, choking, positional or nocturnal breathlessness, stri
 !!
 Examine the larynx in every thyroid patient, because a paralysed vocal fold can coexist with a normal voice. Some lumps only look thyroid: a lymph node, a parathyroid cyst, a thyroglossal cyst or a laryngocele.
 !pearl The thyroid pathway
-TSH comes first. If it is low, an isotope scan follows, and a hot nodule is not aspirated; if it is normal or high, the patient has an ultrasound of the thyroid and neck, graded U1 to U5. U3 to U5 nodules and suspicious nodes are aspirated under ultrasound, and the cytology is reported in Bethesda categories (UK Thy1 to Thy5); Thy3 and above go to the thyroid multidisciplinary team. CT shows retrosternal extension and tracheal compression. The details are in the thyroid topic.
+TSH comes first. If it is low, an isotope scan follows, and a hot nodule is not aspirated; if it is normal or high, the patient has an ultrasound of the thyroid and neck, graded U1 to U5. U3 to U5 nodules and suspicious nodes are aspirated under ultrasound, and the cytology is reported in Bethesda categories (UK Thy1 to Thy5); Thy3 and above go to the thyroid multidisciplinary team. CT shows retrosternal extension and tracheal compression. The details are in [[t:thyroid]].
 !!
 
 # Children | A different list.
 ## Neck lumps in children
-Most neck lumps in children are reactive lymph nodes, which are common, small, mobile and settle within weeks. Congenital lesions follow: **thyroglossal duct cysts** in the midline, moving with tongue protrusion; **branchial cysts, sinuses and fistulae**, most from the second arch along the anterior border of sternocleidomastoid; **dermoid cysts**; **lymphatic malformations** (cystic hygroma), which are soft, transilluminate and may respond to sclerotherapy; and **haemangiomas**. Infection gives acute suppurative lymphadenitis and abscess, and **non-tuberculous mycobacterial** infection gives a violaceous, painless node in a toddler, often in the submandibular region, which is best treated by excision when feasible.
+The congenital masses are described in [[t:paeds_neck]] and the malignancies in [[t:paeds_ca]]. Most neck lumps in children are reactive lymph nodes, which are common, small, mobile and settle within weeks. Congenital lesions follow: **thyroglossal duct cysts** in the midline, moving with tongue protrusion; **branchial cysts, sinuses and fistulae**, most from the second arch along the anterior border of sternocleidomastoid; **dermoid cysts**; **lymphatic malformations** (cystic hygroma), which are soft, transilluminate and may respond to sclerotherapy; and **haemangiomas**. Infection gives acute suppurative lymphadenitis and abscess, and **non-tuberculous mycobacterial** infection gives a violaceous, painless node in a toddler, often in the submandibular region, which is best treated by excision when feasible.
 
 Malignancy is uncommon but must be considered. Features that call for urgent assessment are a node larger than 2 cm or growing, a hard, fixed or matted node, a supraclavicular node, nodes persisting beyond six weeks, and systemic symptoms (fever, night sweats, weight loss, bruising, pallor, hepatosplenomegaly). Lymphoma is the commonest head and neck malignancy in children, followed by rhabdomyosarcoma, neuroblastoma and thyroid cancer. Ultrasound is the first test, avoiding radiation; a chest X-ray excludes a mediastinal mass before any anaesthetic, and an excision biopsy is often needed for diagnosis.
 
@@ -138,28 +140,26 @@ Ultrasound with FNA or core | squamous carcinoma: CT or MRI, PET-CT, panendoscop
 Still no diagnosis | repeat core biopsy ; open biopsy planned for possible neck dissection, with frozen section
 !!
 
-## Referral
-In the UK, NICE (NG12) advises a suspected cancer pathway referral (seen within two weeks) for an unexplained lump in the neck in adults, persistent unexplained hoarseness in those aged 45 or over, and unexplained oral ulceration lasting more than three weeks. One-stop neck lump clinics, with ultrasound and needle sampling at the first visit, shorten the time to diagnosis.
 !update Current evidence
 Ultrasound-guided core biopsy diagnosed malignancy in head and neck lesions with 96% accuracy and gave a specific diagnosis in 87%, outperforming fine-needle aspiration, with very rare needle-track seeding (Novoa et al., *Head Neck* 2012; Shah et al., *Br J Oral Maxillofac Surg* 2016). For squamous carcinoma of unknown primary, transoral tongue base mucosectomy or lingual tonsillectomy found the primary in about two-thirds of patients in whom examination, imaging and panendoscopy had found nothing (Fu et al., *J Otolaryngol Head Neck Surg* 2016). After chemoradiotherapy for nodal disease, PET-CT surveillance gave the same survival as planned neck dissection with far fewer operations (Mehanna et al., *N Engl J Med* 2016).
 !!
 
 # Neck dissection | The principle.
 ## Types and indications
-Neck dissection removes the lymph nodes and fat of the neck en bloc. A **radical** dissection removes levels I to V with the accessory nerve, internal jugular vein and sternomastoid; a **modified radical** dissection removes the same levels while preserving one or more of those structures; a **selective** dissection removes only the levels at risk, such as the supraomohyoid dissection (I to III) for the oral cavity and the lateral dissection (II to IV) for the larynx and pharynx; and an **extended** dissection removes additional nodes or structures. A **therapeutic** dissection treats clinically positive nodes, while an **elective** dissection treats a clinically negative neck when the risk of occult metastases exceeds about 15 to 20%.
+Neck dissection removes the lymph nodes and fat of the neck en bloc. A **radical** dissection removes levels I to V with the accessory nerve, internal jugular vein and sternomastoid; a **modified radical** dissection removes the same levels while preserving one or more of those structures; a **selective** dissection removes only the levels at risk, such as the supraomohyoid dissection (I to III) for the oral cavity and the lateral dissection (II to IV) for the larynx and pharynx; and an **extended** dissection removes additional nodes or structures. A **therapeutic** dissection treats clinically positive nodes, while an **elective** dissection treats a clinically negative neck when the risk of occult metastases exceeds about 15 to 20% ([[t:hncprinc]]).
 !ops 64 65 66 | Selective, modified radical and radical neck dissection.
 !anat s272_68 s273_69 | Contents of the anterior and posterior triangles.
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials
 !exam What the examiner is looking for
-- **Neck lumps in children** and the features that call for biopsy.
 - **A systematic approach:** age, duration and site.
 - **Node levels and drainage;** Virchow node.
 - **The work-up of an adult neck mass:** full examination and endoscopy, then ultrasound and FNA, then imaging, then panendoscopy. Why open biopsy is avoided.
 - **Unknown primary:** PET-CT before panendoscopy, tonsillectomy and tongue-base mucosectomy, p16 and EBV.
 - **Tuberculous lymphadenitis:** stages, diagnosis and treatment.
 - **Lymphoma:** needs tissue for typing.
+- **Neck lumps in children** and the features that call for biopsy.
 !!
 ## Common pitfalls
 !pit

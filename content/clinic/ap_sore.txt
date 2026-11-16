@@ -21,7 +21,7 @@ Most acute sore throats are viral, and antibiotics shorten symptoms by only abou
 
 Admission is needed for patients who cannot swallow fluids, are dehydrated, have a suspected collection or airway compromise, or are systemically unwell. They need intravenous fluids, analgesia, intravenous benzylpenicillin and often a single dose of dexamethasone.
 ## The important acute causes
-**Acute tonsillitis** is viral or bacterial (group A streptococcus is the commonest bacterium). **Infectious mononucleosis** from Epstein–Barr virus gives a severe exudative tonsillitis with palatal petechiae, generalised lymphadenopathy and splenomegaly; it is confirmed by a monospot or EBV serology and atypical lymphocytes. Patients avoid contact sports for several weeks because of splenic rupture, and steroids are used for airway compromise. **Peritonsillar abscess (quinsy)** produces trismus, a hot potato voice, unilateral swelling above the tonsil and a deviated uvula; it is drained by needle aspiration or incision. **Supraglottitis** produces severe odynophagia with relatively normal oropharynx, a muffled voice and drooling. **Deep neck space infections** need contrast CT and drainage. **Lemierre's syndrome** is a septic thrombophlebitis of the internal jugular vein, usually with *Fusobacterium necrophorum*, after a sore throat. Other causes include HIV seroconversion, diphtheria in the unvaccinated, gonococcal pharyngitis, and herpangina or hand, foot and mouth disease in children.
+**[[t:tonsil|Acute tonsillitis]]** is viral or bacterial (group A streptococcus is the commonest bacterium). **Infectious mononucleosis** from Epstein–Barr virus gives a severe exudative tonsillitis with palatal petechiae, generalised lymphadenopathy and splenomegaly; it is confirmed by a monospot or EBV serology and atypical lymphocytes. Patients avoid contact sports for several weeks because of splenic rupture, and steroids are used for airway compromise. **Peritonsillar abscess (quinsy)** ([[t:tonsil]], [[t:mouthminor]]) produces trismus, a hot potato voice, unilateral swelling above the tonsil and a deviated uvula; it is drained by needle aspiration or incision. **Supraglottitis** ([[t:croup]]) produces severe odynophagia with relatively normal oropharynx, a muffled voice and drooling. **[[t:deepneck|Deep neck space infections]]** need contrast CT and drainage. **Lemierre's syndrome** is a septic thrombophlebitis of the internal jugular vein, usually with *Fusobacterium necrophorum*, after a sore throat. Other causes ([[t:pharyngitis]]) include HIV seroconversion, diphtheria in the unvaccinated, gonococcal pharyngitis, and herpangina or hand, foot and mouth disease in children.
 !fig d52-6 d52-9 | First, the spaces around the pharynx where abscesses form. Second, the deep spaces of the head and neck.
 
 # The chronic sore throat | A different list.
@@ -30,12 +30,12 @@ Admission is needed for patients who cannot swallow fluids, are dehydrated, have
 Cause | Clues
 Chronic or recurrent tonsillitis | Repeated episodes, halitosis, enlarged nodes
 Tonsilloliths | Halitosis, white stones, foreign body sensation
-Laryngopharyngeal reflux | Throat clearing, hoarseness, globus, morning symptoms
-Postnasal drip | Nasal symptoms, throat clearing
+Laryngopharyngeal reflux ([[t:laryngitis]]) | Throat clearing, hoarseness, globus, morning symptoms
+Postnasal drip ([[t:ap_pnd]]) | Nasal symptoms, throat clearing
 Smoking, alcohol, dry mouth | History; mouth breathing; drugs
 Voice misuse and muscle tension | Pain with voice use
-Glossopharyngeal neuralgia and Eagle syndrome | Sharp pain triggered by swallowing; elongated styloid
-Malignancy | Unilateral, progressive, otalgia, dysphagia, neck node, smoker
+Glossopharyngeal neuralgia and Eagle syndrome ([[t:otalgia]]) | Sharp pain triggered by swallowing; elongated styloid
+Malignancy ([[t:tonsil_ca]]) | Unilateral, progressive, otalgia, dysphagia, neck node, smoker
 !!
 !fig d53-6 | An elongated styloid process (Eagle syndrome): (A) on radiograph, (B) excised.
 ## Assessment
@@ -52,7 +52,7 @@ Glandular fever features? | monospot, avoid amoxicillin, no contact sport, stero
 Chronic, beyond three weeks | full endoscopic examination ; asymmetric tonsil, unilateral pain or neck node: biopsy and imaging ; recurrent tonsillitis meeting criteria: tonsillectomy ; reflux or postnasal drip: treat the cause
 !!
 !update Current evidence
-**Who needs antibiotics.** NICE (NG84) recommends FeverPAIN or Centor scoring, with no antibiotic for low scores, a back-up prescription for intermediate scores and an immediate antibiotic (phenoxymethylpenicillin) for high scores; analgesia (paracetamol or ibuprofen) for all. **Red flags.** Trismus, unilateral swelling and uvular deviation (quinsy), drooling and stridor (epiglottitis), and a septic patient with neck swelling (Lemierre syndrome or deep neck infection) need urgent ENT assessment. **Steroids.** A single dose of oral dexamethasone speeds recovery modestly in some adults (Hayward et al., *JAMA* 2017).
+**Who needs antibiotics.** The scoring above follows NICE (NG84), which also advises analgesia (paracetamol or ibuprofen) for all. **Steroids.** A single dose of oral dexamethasone speeds recovery modestly in some adults (Hayward et al., *JAMA* 2017).
 !!
 
 # For the examination | What the examiner wants to hear.
