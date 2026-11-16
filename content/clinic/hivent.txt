@@ -99,8 +99,11 @@ Sharps are passed in a dish through a "hands-free" zone, needles are never recap
 4. Take baseline blood from the injured worker.
 5. *Post-exposure prophylaxis (PEP)*: start as soon as possible, ideally within hours and no later than 72 hours. Take three drugs for 28 days, typically tenofovir with emtricitabine (or lamivudine) plus dolutegravir or raltegravir.
 6. Follow-up HIV testing at about 6 weeks and 3 to 4 months. Protect sexual partners and avoid blood donation meanwhile.
-!update PEP regimens
+!pearl PEP regimens have changed
 Older texts give two NRTIs (such as zidovudine and lamivudine) for low-risk exposures and add a third drug for high-risk ones. Current guidance uses a three-drug regimen built around an integrase inhibitor for every exposure that warrants PEP, because it is better tolerated and more often completed. Diagnosis has moved from ELISA and Western blot to fourth-generation antigen and antibody assays.
+!!
+!update Current evidence
+**Post-exposure prophylaxis.** UK (BHIVA) and WHO guidance recommend a three-drug regimen for 28 days, started as soon as possible and within 72 hours, for significant exposures to a source with HIV who is not known to have an undetectable viral load; PEP is not recommended when the source has a sustained undetectable viral load, because transmission does not occur (*undetectable equals untransmittable*). **Treatment changes the ENT picture.** Effective antiretroviral therapy has made oral candidiasis, hairy leukoplakia, Kaposi sarcoma and parotid lymphoepithelial cysts much less common; persistent or new lesions should prompt a check of adherence and viral load. **HPV.** People with HIV have higher rates of HPV-related oropharyngeal and anal cancer, and HPV vaccination is recommended for them.
 !!
 
 # For the examination | What the examiner wants to hear.
