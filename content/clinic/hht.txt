@@ -67,7 +67,7 @@ Humidification and emollients | Saline sprays, ointments and humidified air keep
 Iron and transfusion | Correct anaemia; intravenous iron when oral iron fails.
 Tranexamic acid | Oral antifibrinolytic reduces the frequency and severity of bleeds.
 Hormonal treatment | Oestrogen or tamoxifen convert the mucosa to a thicker squamous type.
-Bevacizumab | An anti-VEGF antibody, given topically, by submucosal injection or intravenously, reduces bleeding in severe disease.
+Systemic anti-angiogenic drugs | Intravenous bevacizumab or oral pomalidomide reduce bleeding and transfusion needs in severe disease; topical bevacizumab spray does not work.
 !!
 ## Procedures
 ### Photocoagulation
@@ -75,7 +75,7 @@ KTP, argon, Nd:YAG or diode laser, bipolar diathermy or coblation, aimed at indi
 ### Septodermoplasty
 The bleeding anterior septal mucosa is replaced with a split- or full-thickness skin graft, which is tougher. It halves the number of later laser treatments.
 ### Young's procedure
-Closure of the nostrils, one or both sides, by suturing flaps inside the vestibule. Bleeding stops in about 83%, at the price of nasal breathing and smell. Rebleeding after reopening is troublesome.
+Closure of the nostrils, one or both sides, by suturing flaps inside the vestibule. Bleeding stops in most patients, often permanently, at the price of nasal breathing and smell; it is offered to transfusion-dependent patients who accept that. The Lund modification uses three vestibular flaps. Rebleeding after reopening is troublesome.
 ### Embolisation
 Gives only temporary benefit because new collaterals form; reserved for emergencies.
 !ops
@@ -84,10 +84,11 @@ Gives only temporary benefit because new collaterals form; reserved for emergenc
 - Resorbable packs, never conventional ribbon gauze, if packing is unavoidable.
 - Treat the nose and the haemoglobin together.
 !!
-!update A staged approach (Oxford Textbook)
+## A staged approach
 Treatment is stepped up by severity, judged by bleeding frequency, the haemoglobin and transfusion needs; the Epistaxis Severity Score helps track it. The first intervention is usually an examination under anaesthesia with **KTP or argon laser** to stage and treat the disease: these green wavelengths are absorbed by haemoglobin, each lesion is circled and then ablated, tranexamic acid and antibiotic cover are given at induction, and no pack is needed. Bipolar diathermy works better than laser in a bloody field. If laser controls bleeding for less than about three months, move to **septodermoplasty** or systemic treatment; benefit lasts months after laser, years after septodermoplasty, and permanently after **nasal closure** (the Lund-modified Young's procedure with three vestibular flaps), which is offered to transfusion-dependent patients who accept the loss of nasal breathing and smell.
-
 In an acute bleed, bleeding is almost always from the anterior third, so posterior packs are rarely needed. Use resorbable packs such as Nasopore or Surgicel, or a haemostatic matrix, rather than expanding sponges that tear other lesions; give antibiotic cover for any pack; and if packing fails, embolise the facial and maxillary feeders without coils. Recent trials of systemic anti-angiogenic drugs, including intravenous bevacizumab and oral pomalidomide, have reduced bleeding in severe disease, and these are now used by specialist HHT centres.
+!update Current evidence
+**Guidelines.** The Second International HHT Guidelines recommend moisturising topical therapies, oral tranexamic acid for epistaxis not controlled by moisturisers, laser or radiofrequency ablation, septodermoplasty or nasal closure for refractory bleeding, and systemic anti-angiogenic treatment (intravenous bevacizumab) for severe disease; they advise screening every patient for pulmonary and cerebral arteriovenous malformations (Faughnan et al., *Ann Intern Med* 2020). **Topical drugs.** In the NOSE trial, topical bevacizumab, oestriol and tranexamic acid sprays were no better than placebo (Whitehead et al., *JAMA* 2016). **Pomalidomide.** In the PATH-HHT trial of 144 patients, oral pomalidomide reduced epistaxis severity scores significantly more than placebo over 24 weeks (Al-Samkari et al., *NEJM* 2024).
 !!
 
 # For the examination | What the examiner wants to hear.
