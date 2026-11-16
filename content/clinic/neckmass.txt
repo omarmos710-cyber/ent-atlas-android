@@ -11,6 +11,7 @@ Duration is almost as informative as age. A mass present for days is usually inf
 Site | Common causes
 Midline, above the hyoid | Submental nodes, sublingual dermoid, thyroglossal cyst (suprahyoid), plunging ranula
 Midline, below the hyoid | Thyroglossal cyst (commonest at the hyoid), thyroid isthmus, Delphian and pretracheal nodes, laryngocele, suprasternal dermoid, thymic cyst
+Low in the neck, beside the trachea (one side or both) | Thyroid lobe nodule, asymmetric or multinodular goitre; moves with swallowing
 Submandibular triangle | Submandibular nodes and gland (sialadenitis, stone, tumour), plunging ranula
 Carotid triangle | Jugulodigastric and deep cervical nodes, branchial cyst, carotid body tumour, vagal schwannoma, laryngocele, carotid aneurysm
 Parotid region and angle of the jaw | Parotid tumour or node, parapharyngeal mass, sebaceous cyst
@@ -104,6 +105,24 @@ A **laryngocele** is an air-filled dilatation of the laryngeal saccule. An *exte
 
 A **cervical rib** is a hard supraclavicular lump with thoracic outlet symptoms: arm paraesthesia from pressure on the lower trunk of the brachial plexus, and coldness, claudication, aneurysm or emboli from compression of the subclavian artery. It is excised if it causes symptoms. A **lipoma** is soft and lobulated with a slipping edge, commonly in the posterior triangle and nape, and **sebaceous and epidermoid cysts** lie in the skin with a punctum. Finally, a **carotid aneurysm**, or an ectatic, tortuous carotid in an elderly hypertensive patient, can present as a pulsatile lump.
 !imaging lipoma-of-the-neck | Lipoma of the neck.
+## Thyroid swellings
+A thyroid swelling rises on swallowing, because the ligament of Berry binds each lobe to the cricoid and upper trachea; a thyroglossal cyst also rises on tongue protrusion, which the thyroid does not. The isthmus lies in the midline over the second to fourth tracheal rings, but each lobe lies beside the trachea, so a nodule in one lobe or an asymmetric goitre presents low in the neck to one side rather than in the midline.
+
+Three pictures cover most patients. A **diffuse goitre** follows iodine deficiency, goitrogens, puberty and pregnancy, inherited defects of hormone synthesis (*Pendred syndrome*, with sensorineural deafness) and autoimmunity: Graves disease gives a diffuse vascular goitre with a bruit, Hashimoto thyroiditis a firm, rubbery, symmetrical goitre, and rapid painless enlargement in Hashimoto suggests lymphoma. A **multinodular goitre** evolves slowly and may become toxic; sudden painful enlargement means haemorrhage into a nodule, and about 5 to 10% harbour a carcinoma. A **solitary nodule** is usually benign, but carcinoma accounts for about 5 to 15%.
+
+Ask about pressure: cough, choking, positional or nocturnal breathlessness, stridor and dysphagia. A goitre may extend behind the sternum, and superior vena caval obstruction then gives a positive *Pemberton sign*: raising the arms brings on facial plethora, distended neck veins and breathlessness.
+!flag Features raising concern for thyroid cancer
+- Age under 20 to 30 or over 60, and male sex.
+- Childhood neck irradiation, or a family history of thyroid cancer or MEN 2.
+- Rapid growth or pain.
+- A hard, fixed nodule, or a nodule over 4 cm.
+- Cervical lymphadenopathy.
+- Vocal fold palsy, stridor or dysphagia.
+!!
+Examine the larynx in every thyroid patient, because a paralysed vocal fold can coexist with a normal voice. Some lumps only look thyroid: a lymph node, a parathyroid cyst, a thyroglossal cyst or a laryngocele.
+!pearl The thyroid pathway
+TSH comes first. If it is low, an isotope scan follows, and a hot nodule is not aspirated; if it is normal or high, the patient has an ultrasound of the thyroid and neck, graded U1 to U5. U3 to U5 nodules and suspicious nodes are aspirated under ultrasound, and the cytology is reported in Bethesda categories (UK Thy1 to Thy5); Thy3 and above go to the thyroid multidisciplinary team. CT shows retrosternal extension and tracheal compression. The details are in the thyroid topic.
+!!
 
 # Children | A different list.
 ## Neck lumps in children
@@ -113,9 +132,9 @@ Malignancy is uncommon but must be considered. Features that call for urgent ass
 
 # Pathway | Lump to diagnosis.
 !path The adult neck lump
-Clinical picture | acute, tender, with infection: antibiotics and review in two to three weeks ; midline moving with swallowing: thyroid pathway ; any red flag or persisting over three weeks: step 2
+Clinical picture | acute, tender, with infection: antibiotics and review in two to three weeks ; moves with swallowing: TSH, ultrasound and FNA (the thyroid pathway) ; any red flag or persisting over three weeks: step 2
 Full head and neck examination | flexible endoscopy, skin, oral cavity, tonsils and tongue base ; obvious primary: biopsy it and stage
-Ultrasound with FNA or core | squamous carcinoma: CT or MRI, PET-CT, panendoscopy, tonsillectomy and tongue-base mucosectomy if no primary ; lymphoma suspected: core biopsy or planned excision for flow cytometry ; thyroid: thyroid pathway ; tuberculosis: culture, treat
+Ultrasound with FNA or core | squamous carcinoma: CT or MRI, PET-CT, panendoscopy, tonsillectomy and tongue-base mucosectomy if no primary ; lymphoma suspected: core biopsy or planned excision for flow cytometry ; thyroid cytology: Bethesda or Thy grade, thyroid multidisciplinary team ; tuberculosis: culture, treat
 Still no diagnosis | repeat core biopsy ; open biopsy planned for possible neck dissection, with frozen section
 !!
 
