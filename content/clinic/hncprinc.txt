@@ -70,15 +70,13 @@ IVB | Any T N3, or T4b any N, M0
 IVC | Any M1
 !!
 HPV-positive oropharyngeal cancer has its own clinical groups: stage I is T0 to T2 with N0 to N1, stage II is T0 to T2 with N2 or T3 with N0 to N2, stage III is T4 or N3, and stage IV is M1. Many patients are downstaged compared with the seventh edition, which reflects their better prognosis.
-!update The eighth edition changes
+## The eighth edition changes
 The 2017 AJCC eighth edition introduced:
 - *Depth of invasion* for oral cancer.
 - *Extranodal extension* in nodal staging.
 - A separate staging system for *p16-positive oropharyngeal cancer*.
 - Separate staging for unknown primaries by EBV and HPV status.
-
-Older texts and exam questions based on the seventh edition will give different stages for the same tumour.
-!!
+Older texts and exam questions based on the seventh edition will give different stages for the same tumour. Newer versions have begun to appear (AJCC version 9 for nasopharyngeal cancer, and the UICC ninth edition in 2025), so always state which edition you are using.
 
 # Work-up | Before the decision.
 ## Assessment
@@ -113,6 +111,9 @@ Most recurrences occur within the first *two years*, so patients are seen every 
 Swallowing is rehabilitated with exercises, dilatation of strictures, and a gastrostomy for those who cannot eat safely. After laryngectomy, voice is restored with a *tracheo-oesophageal valve*, an electrolarynx or oesophageal speech. Shoulder dysfunction after accessory nerve injury needs physiotherapy and lymphoedema manual drainage, and trismus, xerostomia, hearing loss and osteoradionecrosis are the other late effects to manage.
 
 Depression, fear of recurrence, alcohol relapse and suicide are all common in this group, so patients are screened and referred. Palliative care controls symptoms, manages a fungating tumour, and plans for *carotid blow-out*, airway obstruction and bleeding, with a crisis plan of dark towels and sedation.
+!update Current evidence
+**Staging.** The AJCC eighth edition separated HPV-positive oropharyngeal cancer because its prognosis is so much better: most patients previously staged IV now fall into stages I to II (Lydiatt et al., *CA Cancer J Clin* 2017). **Chemotherapy.** The MACH-NC meta-analysis of 107 trials showed an absolute survival gain of about 6.5% at five years from concurrent chemoradiation, with no benefit from adjuvant chemotherapy and less from induction (Pignon et al., *Radiother Oncol* 2009). **Immunotherapy around surgery.** In KEYNOTE-689, pembrolizumab before and after surgery improved event-free survival in resectable locally advanced squamous carcinoma (hazard ratio 0.73), and in NIVOPOSTOP, nivolumab added to postoperative chemoradiation improved disease-free survival in high-risk patients (reviewed by Imamura et al., *Cancer Treat Rev* 2025); overall survival data are awaited. **Surveillance.** PET-CT at 12 weeks after chemoradiation safely avoided planned neck dissection in most patients with nodal disease in the PET-NECK trial (Mehanna et al., *NEJM* 2016).
+!!
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials

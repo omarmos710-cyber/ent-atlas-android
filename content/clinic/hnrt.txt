@@ -76,8 +76,8 @@ Chemotherapy is given to sensitise the tumour to radiation and so improve locore
 **Cetuximab** is a monoclonal antibody against EGFR, which is overexpressed in over 90% of these tumours. Combined with radiotherapy it improved survival over radiotherapy alone in the Bonner trial, at the cost of an acneiform rash and infusion reactions, and it is now used for patients unfit for cisplatin. With platinum and 5-FU it was the first-line treatment for metastatic disease in the EXTREME regimen.
 
 The **PD-1 checkpoint inhibitors** nivolumab and pembrolizumab improved survival in recurrent or metastatic disease after platinum (CheckMate 141, KEYNOTE-040), and pembrolizumab, alone for PD-L1-positive tumours or with platinum and 5-FU, is now first-line treatment for recurrent or metastatic disease (KEYNOTE-048). Their immune-related side effects include thyroiditis, pneumonitis, colitis, hepatitis, adrenal insufficiency and rash.
-!update Cetuximab is not a substitute for cisplatin
-In HPV-positive oropharyngeal cancer, radiotherapy with cetuximab gave worse survival and control than radiotherapy with cisplatin, without less toxicity (RTOG 1016, De-ESCALaTE HPV). Cisplatin remains the standard partner. Cetuximab is reserved for patients who cannot receive platinum.
+!pearl Cetuximab is not a substitute for cisplatin
+In HPV-positive oropharyngeal cancer, radiotherapy with cetuximab gave worse survival and control than radiotherapy with cisplatin, without less toxicity. Cisplatin remains the standard partner; cetuximab is reserved for patients who cannot receive platinum.
 !!
 !table Drugs and their characteristic toxicities
 Drug | Use | Key toxicity
@@ -98,6 +98,9 @@ Pembrolizumab, nivolumab | Recurrent and metastatic disease | Immune-related: th
 - **Fitness for hydration:** check cardiac function.
 
 Children and patients with existing hearing loss deserve monitoring during treatment. Sodium thiosulfate protects hearing in children.
+!!
+!update Current evidence
+**Concurrent chemotherapy.** MACH-NC: about 6.5% absolute survival gain at five years from concurrent chemoradiation (Pignon et al., *Radiother Oncol* 2009). **Postoperative chemoradiation.** A pooled analysis of EORTC 22931 and RTOG 9501 showed benefit only for positive margins and extranodal extension (Bernier et al., *Head Neck* 2005). Weekly cisplatin (40 mg/m²) was non-inferior to three-weekly in the postoperative setting (Kiyota et al., *J Clin Oncol* 2022, JCOG1008). **Cetuximab.** Radiotherapy with cetuximab improved survival over radiotherapy alone (Bonner et al., *NEJM* 2006), but in HPV-positive oropharyngeal cancer it was inferior to cisplatin (Gillison et al., *Lancet* 2019, RTOG 1016; Mehanna et al., *Lancet* 2019, De-ESCALaTE). **IMRT.** Parotid-sparing IMRT halved severe xerostomia compared with conventional radiotherapy (Nutting et al., *Lancet Oncol* 2011, PARSPORT). **Recurrent or metastatic disease.** Pembrolizumab, alone for PD-L1-positive tumours or with chemotherapy, improved survival over the EXTREME regimen (Burtness et al., *Lancet* 2019, KEYNOTE-048).
 !!
 
 # Toxicity | Early and late.
