@@ -8,7 +8,7 @@ The vocal fold has a layered structure. The **cover** (epithelium and the jelly-
 - **Stridor or breathlessness:** airway assessment first.
 - **Hoarseness with dysphagia, odynophagia, referred otalgia, haemoptysis, weight loss or a neck lump.**
 - **A breathy voice and weak cough after thyroid, chest, neck or cardiac surgery, or with no obvious cause:** vocal fold paralysis — image the vagus and recurrent laryngeal nerve course.
-- **Hoarseness in a child with breathing difficulty:** recurrent respiratory papillomatosis.
+- **Hoarseness in a child with breathing difficulty:** recurrent respiratory papillomatosis ([[t:paeds_vs]]).
 !!
 !anat s247_29 | Layers of the vocal fold: the cover (epithelium and Reinke's space) over the vocal ligament and muscle.
 
@@ -22,6 +22,7 @@ Listen to the voice: breathy (a gap), rough (irregular vibration), strained (mus
 !fig d62-6 | Flexible laryngoscopy in clinic.
 
 # Causes | By mechanism.
+The causes are described in full in [[t:voice]], [[t:benign]], [[t:laryngitis]], [[t:vfp]] and [[t:lxca]].
 !table Causes of hoarseness
 Group | Causes | Clues
 Inflammatory | Acute laryngitis, chronic laryngitis, laryngopharyngeal reflux, inhaled steroid laryngitis | Infection, smoking, reflux, inhalers
@@ -42,7 +43,7 @@ Other | Hypothyroidism, ageing (presbyphonia), arthritis of the cricoarytenoid j
 ## For all patients
 Voice hygiene and **voice therapy** with a speech and language therapist are central to most benign and functional voice problems. Smoking cessation, hydration, treatment of reflux when its features are present, and review of inhaled steroid technique are also important.
 ## Surgery
-**Phonosurgery** under general anaesthesia uses cold steel or lasers to remove lesions while preserving the superficial lamina propria. Suspicious lesions are biopsied or excised for histology. Vocal fold paralysis that does not recover is treated with **injection medialisation** (temporary or long-lasting), **medialisation thyroplasty**, arytenoid adduction or laryngeal reinnervation. Cancer is staged and treated on the head and neck pathway.
+**Phonosurgery** under general anaesthesia uses cold steel or lasers to remove lesions while preserving the superficial lamina propria. Suspicious lesions are biopsied or excised for histology. Vocal fold paralysis that does not recover is treated with **injection medialisation** (temporary or long-lasting), **medialisation thyroplasty**, arytenoid adduction or laryngeal reinnervation. Cancer is staged and treated on the head and neck pathway ([[t:hncprinc]]).
 
 !path The hoarse voice
 Red flags or over three weeks? | yes: laryngoscopy, urgently if smoker, over 45, stridor or other head and neck symptoms ; recent cold, improving: wait and review
@@ -51,7 +52,7 @@ Mobility | fold paralysed: CT skull base to aortic arch, injection or thyroplast
 !!
 !fig d61-4 d61-5 | First, a pedunculated vocal fold polyp. Second, bilateral Reinke's oedema in a smoker.
 !update Current evidence
-**Guideline.** The American hoarseness guideline recommends laryngoscopy for hoarseness lasting over four weeks, or sooner when a serious cause is suspected; advises against antibiotics, steroids and antireflux drugs without laryngoscopy and signs of their indication; and recommends voice therapy for hoarseness that affects quality of life (Stachler et al., *Otolaryngol Head Neck Surg* 2018). **Referral.** NICE suggested-cancer guidance (NG12) recommends a suspected-cancer referral for people aged 45 and over with persistent unexplained hoarseness.
+**Guidelines.** The American guideline uses four weeks rather than three, or sooner when a serious cause is suspected, and advises against antibiotics, steroids and antireflux drugs before laryngoscopy (Stachler et al., *Otolaryngol Head Neck Surg* 2018); NICE (NG12) sets the suspected-cancer referral at 45 and over. The rules are compared in [[t:voice]].
 !!
 
 # For the examination | What the examiner wants to hear.

@@ -33,11 +33,12 @@ CT neck and chest | Malignancy and staging | Suspected cancer
 In eosinophilic oesophagitis, biopsies are taken even when the oesophagus looks normal.
 
 # Causes | Structural, neuromuscular, oesophageal.
+The oesophageal causes are described in full in [[t:oesoph]], and swallowing in children in [[t:paeds_vs]].
 ## Pharyngeal pouch
-A **pharyngeal pouch (Zenker's diverticulum)** is a pulsion diverticulum through **Killian's dehiscence**, between the thyropharyngeus and cricopharyngeus parts of the inferior constrictor, with failure of cricopharyngeal relaxation. It affects older adults and causes dysphagia, regurgitation of undigested food, halitosis, gurgling, aspiration and weight loss. A barium swallow confirms it. Symptomatic pouches are treated by **endoscopic stapling or laser diverticulotomy**, which divides the wall between pouch and oesophagus together with the cricopharyngeus, or by open excision or inversion with cricopharyngeal myotomy for small or difficult pouches.
+A **[[t:pouch|pharyngeal pouch (Zenker's diverticulum)]]** is a pulsion diverticulum through **Killian's dehiscence**, between the thyropharyngeus and cricopharyngeus parts of the inferior constrictor, with failure of cricopharyngeal relaxation. It affects older adults and causes dysphagia, regurgitation of undigested food, halitosis, gurgling, aspiration and weight loss. A barium swallow confirms it. Symptomatic pouches are treated by **endoscopic stapling or laser diverticulotomy**, which divides the wall between pouch and oesophagus together with the cricopharyngeus, or by open excision or inversion with cricopharyngeal myotomy for small or difficult pouches.
 !anat s199_7 | Killian's dehiscence and a pharyngeal pouch.
 ## Other structural causes
-**Cricopharyngeal dysfunction** without a pouch may respond to dilatation, botulinum toxin or myotomy. **Post-cricoid webs** with iron-deficiency anaemia form the Plummer–Vinson (Paterson–Brown-Kelly) syndrome, a risk factor for post-cricoid cancer. **Cervical osteophytes**, an enlarged thyroid and head and neck cancer, or the fibrosis that follows its treatment by radiotherapy, also narrow the pharynx.
+**Cricopharyngeal dysfunction** without a pouch may respond to dilatation, botulinum toxin or myotomy. **Post-cricoid webs** with iron-deficiency anaemia form the Plummer–Vinson (Paterson–Brown-Kelly) syndrome, a risk factor for [[t:hypoca|post-cricoid cancer]]. **Cervical osteophytes**, an enlarged thyroid and head and neck cancer, or the fibrosis that follows its treatment by radiotherapy, also narrow the pharynx.
 !fig d69-1 | Large cervical osteophytes pressing on the oesophagus on barium swallow.
 ## Neuromuscular causes
 Stroke is the commonest cause of oropharyngeal dysphagia; most patients improve in the first weeks. Progressive neurological diseases (Parkinson's disease, motor neurone disease, multiple sclerosis, myasthenia gravis, inclusion body myositis, oculopharyngeal muscular dystrophy) need neurological diagnosis and long-term swallow management.
@@ -47,7 +48,7 @@ Stroke is the commonest cause of oropharyngeal dysphagia; most patients improve 
 
 # Management | Safety, cause, function.
 ## Principles
-Every patient needs an assessment of whether oral intake is safe, by a **speech and language therapist**, who can advise on texture modification, postures (chin tuck, head turn), exercises and compensatory manoeuvres. Nutrition and hydration are protected, by nasogastric or gastrostomy feeding when necessary. The cause is then treated. A **food bolus obstruction** in the oesophagus needs endoscopic removal if it does not pass, and every patient needs subsequent endoscopy to exclude a stricture, eosinophilic oesophagitis or cancer.
+Every patient needs an assessment of whether oral intake is safe, by a **speech and language therapist**, who can advise on texture modification, postures (chin tuck, head turn), exercises and compensatory manoeuvres. Nutrition and hydration are protected, by nasogastric or gastrostomy feeding when necessary. The cause is then treated. A **[[t:fbfood|food bolus obstruction]]** in the oesophagus needs endoscopic removal if it does not pass, and every patient needs subsequent endoscopy to exclude a stricture, eosinophilic oesophagitis or cancer.
 
 !path Difficulty swallowing
 Red flags? | progressive, weight loss, odynophagia, anaemia: urgent OGD ; hoarseness, otalgia, neck lump: head and neck examination and imaging ; cannot swallow saliva: food bolus — urgent endoscopy
@@ -56,7 +57,7 @@ Oropharyngeal | flexible endoscopy, FEES or videofluoroscopy ; regurgitation and
 Unsafe swallow | speech therapy, texture changes, postures ; non-oral feeding if needed
 !!
 !update Current evidence
-**Referral.** NICE suggested-cancer guidance (NG12) recommends urgent direct-access upper gastrointestinal endoscopy (within two weeks) for dysphagia at any age, and a suspected-cancer referral for persistent unexplained neck lumps or hoarseness. **Stroke.** Guidelines recommend a validated swallow screen before any oral intake after stroke, followed by specialist assessment, because early screening reduces pneumonia. **Instrumental assessment.** Videofluoroscopy and fibreoptic endoscopic evaluation of swallowing (FEES) are complementary; FEES can be done at the bedside. **Eosinophilic oesophagitis** is a common cause of food impaction in young men and needs biopsies even when the oesophagus looks normal.
+**Referral.** NICE suggested-cancer guidance (NG12) recommends urgent direct-access upper gastrointestinal endoscopy (within two weeks) for dysphagia at any age, and a suspected-cancer referral for persistent unexplained neck lumps or hoarseness ([[t:neckmass]], [[t:ap_hoarse]]). **Stroke.** Guidelines recommend a validated swallow screen before any oral intake after stroke, followed by specialist assessment, because early screening reduces pneumonia.
 !!
 
 # For the examination | What the examiner wants to hear.
