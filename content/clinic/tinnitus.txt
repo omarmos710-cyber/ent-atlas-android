@@ -22,7 +22,7 @@ Can be heard by the examiner with a stethoscope or a Toynbee tube.
 
 # Causes | Ear, body and blood vessels.
 ## Otological
-Wax, middle ear fluid, otitis media, otosclerosis, Ménière's disease, presbycusis, noise-induced hearing loss, sudden hearing loss, ototoxicity and vestibular schwannoma.
+Wax, middle ear fluid, [[t:om|otitis media]], [[t:otosc|otosclerosis]], [[t:meniere|Ménière's disease]], presbycusis and noise-induced hearing loss ([[t:sensori]]), [[t:ssnhl|sudden hearing loss]], ototoxicity and [[t:vs|vestibular schwannoma]].
 ## General
 Anaemia, hypertension, thyroid disease, hyperlipidaemia, vitamin B12 deficiency, head injury and multiple sclerosis.
 ## Drugs
@@ -30,15 +30,15 @@ Aspirin and other salicylates, quinine, aminoglycosides, loop diuretics and some
 ## Pulsatile tinnitus
 !tree Causes of pulsatile tinnitus
 Arterial | Carotid stenosis, dissection, aneurysm | aberrant internal carotid artery, persistent stapedial artery
-Venous | High or dehiscent jugular bulb | sigmoid sinus diverticulum or dehiscence, idiopathic intracranial hypertension
-Tumour | Glomus tympanicum or jugulare | other vascular tumours
+Venous | High or dehiscent jugular bulb | sigmoid sinus diverticulum or dehiscence ([[t:scd]]), idiopathic intracranial hypertension
+Tumour | Glomus tympanicum or jugulare ([[t:tumear]]) | other vascular tumours ([[t:vascneck]])
 Shunt | Dural arteriovenous fistula | arteriovenous malformation
 High output | Anaemia, thyrotoxicosis, pregnancy | conductive hearing loss makes body sounds louder
 !!
 ## How it arises
 Reduced input from a damaged cochlea leads to reorganisation and increased spontaneous activity in the central auditory pathways. Everyone has some random activity in these pathways: in a silent room most people soon hear a faint hum or ringing. Normally, subconscious filters ignore it. When the brain labels the sound as a threat, the limbic and autonomic systems respond, attention is drawn to it, and a vicious circle of awareness, anxiety and amplification follows. This model explains why the loudness of tinnitus predicts distress so poorly, and why treatment aims at the reaction rather than the sound.
 ## Disorders of sound tolerance
-**Hyperacusis** is intolerance of everyday sounds that others find comfortable, often with tinnitus. **Misophonia** is a strong emotional reaction to specific sounds, often mouth sounds such as chewing, regardless of loudness. **Phonophobia** is fear of particular sounds, and **recruitment** is the abnormally rapid growth of loudness in a cochlear hearing loss. Facial palsy, by removing the stapedial reflex, can cause hyperacusis. Sound tolerance is treated with explanation, graded sound exposure and cognitive behavioural therapy; ear plugs worn constantly make it worse.
+**Hyperacusis** is intolerance of everyday sounds that others find comfortable, often with tinnitus. **Misophonia** is a strong emotional reaction to specific sounds, often mouth sounds such as chewing, regardless of loudness. **Phonophobia** is fear of particular sounds, and **recruitment** is the abnormally rapid growth of loudness in a cochlear hearing loss. [[t:facial|Facial palsy]], by removing the stapedial reflex, can cause hyperacusis. Sound tolerance is treated with explanation, graded sound exposure and cognitive behavioural therapy; ear plugs worn constantly make it worse.
 
 # Assessment | Character, side, and mood.
 ## History
@@ -50,7 +50,7 @@ Severe tinnitus is linked with anxiety and depression. Ask directly how the pati
 Otoscopy under the microscope (a red mass behind the drum, a blue drum, wax), tuning forks, cranial nerves, and auscultation over the ear, orbit and neck. Pressing on the carotid stops arterial tinnitus; pressing on the jugular vein or turning the head stops a venous hum. A rhythm with breathing points to a patulous tube; clicks with palatal movement mean myoclonus.
 ## Investigations
 ### Audiometry
-Pure-tone and speech audiometry, tympanometry, and tinnitus matching for pitch and loudness. Loudness and pitch do not predict how distressing it is.
+Pure-tone and speech audiometry, tympanometry ([[t:audio]]), and tinnitus matching for pitch and loudness. Loudness and pitch do not predict how distressing it is.
 ### Imaging
 - **One-sided tinnitus or asymmetric hearing:** MRI of the internal auditory canals.
 - **Pulsatile tinnitus:** CT angiography, MR angiography and venography; formal angiography if a dural fistula is suspected.
@@ -65,7 +65,7 @@ Shows rhythmic compliance changes in myoclonus or a patulous tube.
 ## Treat the cause
 Remove wax, treat otitis media, operate on otosclerosis, stop ototoxic drugs where possible, and treat anaemia or thyroid disease.
 ## Hearing aids
-The first step whenever there is hearing loss: restoring external sound reduces the contrast with the tinnitus.
+The first step whenever there is hearing loss ([[t:rehab]]): restoring external sound reduces the contrast with the tinnitus.
 !ops
 ## Explanation and counselling
 Explaining that tinnitus is common, real and not a sign of a brain tumour (once excluded) relieves much of the distress.
@@ -77,21 +77,21 @@ Directive counselling plus low-level broadband sound, aiming at habituation: the
 !differ Retraining sound exposure
 Dhingra: At least 8 hours a day for 18 to 24 months.
 Lee: Up to 16 hours a day for about a year.
-Current evidence: in the Tinnitus Retraining Therapy Trial, TRT was no more effective than standard care with counselling, so sound therapy is now offered as part of stepped care rather than as a fixed long programme (Tinnitus Retraining Therapy Trial Research Group, *JAMA Otolaryngol Head Neck Surg* 2019).
+In practice: in the Tinnitus Retraining Therapy Trial, TRT was no more effective than standard care with counselling, so sound therapy is now offered as part of stepped care rather than as a fixed long programme (Tinnitus Retraining Therapy Trial Research Group, *JAMA Otolaryngol Head Neck Surg* 2019).
 !!
 ## Psychological therapy
-Cognitive behavioural therapy has the strongest evidence: a Cochrane review found it reduces the impact of tinnitus on quality of life, though not its loudness (Fuller et al., 2020). NICE (NG155) recommends stepping up from digital tinnitus-specific CBT to group and then individual CBT. Relaxation and biofeedback also help. Treat anxiety, depression and insomnia, and refer immediately anyone at risk of suicide.
+Cognitive behavioural therapy has the strongest evidence: a Cochrane review of 28 trials found it reduces the impact of tinnitus on quality of life, with low-certainty evidence, though not its loudness (Fuller et al., 2020). NICE (NG155) recommends stepping up from digital tinnitus-specific CBT to group and then individual CBT. Relaxation and biofeedback also help. Treat anxiety, depression and insomnia, and refer immediately anyone at risk of suicide.
 ## Specific objective causes
 - **Dural arteriovenous fistula:** embolisation, surgery or radiosurgery; fistulas with cortical venous drainage can bleed.
 - **Palatal myoclonus:** muscle relaxants or botulinum toxin.
 - **Stapedial or tensor spasm:** muscle relaxants, or division of the tendon.
-- **Patulous tube:** see the Eustachian tube topic.
+- **Patulous tube:** see [[t:et]].
 ## Treatments without proven benefit
 No drug reliably suppresses tinnitus, and betahistine is not recommended for it. Transcranial magnetic stimulation and implanted stimulators remain investigational. A cochlear implant often reduces tinnitus in patients who qualify for it because of their hearing loss.
 ## Stepped care
 Severity is measured with a validated questionnaire such as the **Tinnitus Handicap Inventory** or the Tinnitus Functional Index. Most patients need only explanation, hearing care and self-help; those with greater distress move to audiologist-led tinnitus support and sound therapy, and then to cognitive behavioural therapy delivered by a psychologist, with access to mental health services for those at risk.
 !update Current evidence
-**Guidelines.** NICE (NG155, 2020) recommends a full audiological assessment, immediate referral for tinnitus with suicidal risk or with acute neurological signs, and imaging for pulsatile or unilateral tinnitus when indicated; it offers psychological therapies (digital CBT first, then group and individual CBT) and hearing aids for those with hearing loss, and advises against drugs, dietary supplements, transcranial magnetic stimulation and electrical stimulation. The American guideline (Tunkel et al., *Otolaryngol Head Neck Surg* 2014) recommends against routine imaging for non-pulsatile, symmetrical tinnitus and against drugs and supplements, and recommends CBT. A European multidisciplinary guideline reached the same conclusions (Cima et al., *HNO* 2019). **CBT.** A Cochrane review of 28 trials found that CBT reduces the impact of tinnitus on quality of life, with low-certainty evidence, but does not make it quieter (Fuller et al., 2020). **Bimodal neuromodulation.** Sound combined with tongue stimulation reduced tinnitus handicap in uncontrolled trials (Conlon et al., *Sci Transl Med* 2020); without a sham control its place remains uncertain.
+**Guidelines.** NICE (NG155, 2020) recommends a full audiological assessment, immediate referral for tinnitus with suicidal risk or with acute neurological signs, and imaging for pulsatile or unilateral tinnitus when indicated; it offers psychological therapies (digital CBT first, then group and individual CBT) and hearing aids for those with hearing loss, and advises against drugs, dietary supplements, transcranial magnetic stimulation and electrical stimulation. The American guideline (Tunkel et al., *Otolaryngol Head Neck Surg* 2014) recommends against routine imaging for non-pulsatile, symmetrical tinnitus and against drugs and supplements, and recommends CBT. A European multidisciplinary guideline reached the same conclusions (Cima et al., *HNO* 2019). **Bimodal neuromodulation.** Sound combined with tongue stimulation reduced tinnitus handicap in uncontrolled trials (Conlon et al., *Sci Transl Med* 2020); without a sham control its place remains uncertain.
 !!
 
 # Pathway | From symptom to plan.

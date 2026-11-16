@@ -33,7 +33,8 @@ Complete or total | 95 dB or more
 !!
 !differ Grading systems
 Dhingra: Uses the older WHO scale averaged over 500, 1000 and 2000 Hz, with 0 to 25 dB counted as normal and 91 dB or more as profound.
-The 2021 World Report on Hearing lowered the threshold for normal hearing to under 20 dB, added 4000 Hz to the average and added a complete hearing loss grade, because even mild losses affect communication. Many British services use the British Society of Audiology bands, in which normal hearing is up to 20 dB.
+WHO 2021: The World Report on Hearing lowered the threshold for normal hearing to under 20 dB, added 4000 Hz to the average and added a complete hearing loss grade, because even mild losses affect communication. Many British services use the British Society of Audiology bands, in which normal hearing is up to 20 dB.
+In practice: grade with the 2021 WHO table above, and know the older scale because older texts and exam questions still use it.
 !!
 !fig d5-8 | Classification of hearing loss by threshold. Most people with normal hearing have thresholds between −10 and +10 dB.
 
@@ -41,9 +42,9 @@ The 2021 World Report on Hearing lowered the threshold for normal hearing to und
 ## Causes
 !anat s52_19 | The drum, ossicular chain and intratympanic muscles: every conductive loss interrupts this chain somewhere.
 ### Congenital
-Canal atresia, fixation of the stapes or malleus head, ossicular discontinuity, and congenital cholesteatoma.
+Canal [[t:atresia|atresia]], fixation of the stapes or malleus head, ossicular discontinuity, and congenital cholesteatoma.
 ### Acquired
-- **Canal:** wax, foreign body, otitis externa, stenosis, tumours.
+- **Canal:** wax, foreign body, [[t:oe|otitis externa]], stenosis, tumours ([[t:extca]]).
 - **Drum:** perforation, scarring.
 - **Middle ear:** fluid, blood, pus, mass, cholesteatoma, tympanosclerosis.
 - **Ossicles:** disruption (trauma, erosion) or fixation (otosclerosis, tympanosclerosis).
@@ -59,9 +60,9 @@ Low tones are affected more; speech discrimination is good; the patient may hear
 !!
 !fig d5-1 | Audiogram of a right ear with a conductive loss and an air-bone gap, with the standard audiogram symbols.
 ## Conductive loss behind an intact drum
-When the drum looks normal, the list is **otosclerosis** (the commonest, with a family history, onset in early adult life, worsening in pregnancy, a Carhart notch at 2 kHz and absent stapedial reflexes), **ossicular discontinuity** after trauma, **malleus or incus fixation**, **tympanosclerosis**, **congenital cholesteatoma** (a white mass behind an intact drum in a child), a small **effusion**, and **congenital ossicular anomalies**. A **third-window lesion** such as superior canal dehiscence produces an air–bone gap at low frequencies that is not truly conductive: bone conduction is better than normal, and the stapedial reflexes are present. Present reflexes with an apparent conductive loss should therefore stop a surgeon from operating on the stapes until a CT has excluded dehiscence.
+When the drum looks normal, the list is **[[t:otosc|otosclerosis]]** (the commonest, with a family history, onset in early adult life, worsening in pregnancy, a Carhart notch at 2 kHz and absent stapedial reflexes), **ossicular discontinuity** after trauma, **malleus or incus fixation**, **tympanosclerosis**, **congenital cholesteatoma** (a white mass behind an intact drum in a child), a small **effusion**, and **congenital ossicular anomalies**. A **third-window lesion** such as [[t:scd|superior canal dehiscence]] produces an air–bone gap at low frequencies that is not truly conductive: bone conduction is better than normal, and the stapedial reflexes are present. Present reflexes with an apparent conductive loss should therefore stop a surgeon from operating on the stapes until a CT has excluded dehiscence.
 ## Management
-Clear the canal, drain fluid, remove a mass, repair the drum and chain (tympanoplasty), stapes surgery, or a hearing aid; bone-conduction devices suit patients who cannot wear an air-conduction aid, such as those with chronic discharge or canal atresia.
+Clear the canal, drain fluid, remove a mass, repair the drum and chain (tympanoplasty; [[t:earsurg]]), stapes surgery, or a hearing aid; bone-conduction devices suit patients who cannot wear an air-conduction aid, such as those with chronic discharge or canal atresia.
 !ops
 
 # Sensorineural loss | Damage at or beyond the cochlea.
@@ -107,7 +108,7 @@ Weber | To the poorer ear | To the better ear
 Absolute bone conduction | Normal | Reduced
 !!
 ## Audiometry
-Pure-tone audiogram with masking, speech audiometry, tympanometry and stapedial reflexes; otoacoustic emissions and ABR when needed.
+Pure-tone audiogram with masking, speech audiometry, tympanometry and stapedial reflexes; otoacoustic emissions and ABR when needed ([[t:audio]]).
 ## Further tests by suspicion
 MRI with contrast for asymmetric or retrocochlear loss; CT for conductive loss with a normal drum, trauma or malformation; blood glucose, thyroid and renal function, full blood count and syphilis serology.
 !imaging | Ossicular fixation and luxation, and vestibular schwannoma.
@@ -123,17 +124,17 @@ MRI with contrast for asymmetric or retrocochlear loss; CT for conductive loss w
 
 # Special situations | When to act fast.
 ## Sudden sensorineural loss
-An emergency: steroids the same day and MRI (see the sudden hearing loss topic).
+An emergency: steroids the same day and MRI ([[t:ssnhl]]).
 ## Asymmetric sensorineural loss
-MRI to exclude a vestibular schwannoma.
+MRI to exclude a [[t:vs|vestibular schwannoma]].
 ## Treatable causes
-Syphilis, hypothyroidism, autoimmune inner ear disease, serous labyrinthitis, perilymph fistula and ototoxic drugs.
+Syphilis, hypothyroidism, autoimmune inner ear disease and ototoxic drugs ([[t:sensori]]), serous labyrinthitis, and perilymph fistula ([[t:fistula]]).
 ## Hearing loss in children
-Universal **newborn hearing screening** uses automated otoacoustic emissions, followed by automated auditory brainstem responses for babies who do not pass, and all babies who spend time in neonatal intensive care have both. Permanent childhood hearing loss affects about 1 to 2 per 1000 births; about half is genetic (most often *GJB2*, connexin 26), and congenital cytomegalovirus is the commonest non-genetic cause, tested within the first three weeks of life when antiviral treatment may help. Every child with permanent loss needs an aetiological work-up: imaging, genetics, CMV, ophthalmology, ECG for Jervell and Lange-Nielsen syndrome, and renal assessment when indicated. **Otitis media with effusion** is the commonest cause of acquired hearing loss in children and is managed by watchful waiting for three months, then hearing aids or ventilation tubes if a bilateral loss persists.
+Universal **newborn hearing screening** uses automated otoacoustic emissions, followed by automated auditory brainstem responses for babies who do not pass, and all babies who spend time in neonatal intensive care have both. Permanent childhood hearing loss affects about 1 to 2 per 1000 births; about half is genetic (most often *GJB2*, connexin 26), and congenital cytomegalovirus is the commonest non-genetic cause, tested within the first three weeks of life when antiviral treatment may help. Every child with permanent loss needs an aetiological work-up ([[t:deaf]]): imaging, genetics, CMV, ophthalmology, ECG for Jervell and Lange-Nielsen syndrome, and renal assessment when indicated. **[[t:om|Otitis media with effusion]]** is the commonest cause of acquired hearing loss in children and is managed by watchful waiting for three months, then hearing aids or ventilation tubes if a bilateral loss persists.
 ## Age-related hearing loss
 Presbycusis is a symmetrical high-frequency sensorineural loss. Untreated hearing loss in mid-life is the largest single modifiable risk factor for dementia identified by the Lancet Commission, and hearing aids are associated with reduced cognitive decline in those at risk; this is a strong reason to offer amplification early.
 ## Implantable hearing
-**Cochlear implants** are offered in the UK to adults and children whose hearing thresholds are 80 dB HL or worse at two or more frequencies between 500 and 4000 Hz in both ears and who gain inadequate benefit from hearing aids, defined in adults as a score of 50% or less on the Arthur Boothroyd word test at 70 dB SPL (NICE, 2019). **Bone-conduction implants**, **middle ear implants** and implants for single-sided deafness extend the options.
+**Cochlear implants** are offered in the UK to adults and children whose hearing thresholds are 80 dB HL or worse at two or more frequencies between 500 and 4000 Hz in both ears and who gain inadequate benefit from hearing aids, defined in adults as a score of 50% or less on the Arthur Boothroyd word test at 70 dB SPL (NICE TA566, 2019; [[t:rehab]]). **Bone-conduction implants**, **middle ear implants** and implants for single-sided deafness extend the options.
 ## Single-sided deafness
 Poor sound localisation and difficulty in noise, even with normal speech elsewhere. Bone-anchored devices, CROS aids or a cochlear implant help; the only hearing ear must be protected.
 !ward In clinic
@@ -144,7 +145,7 @@ Poor sound localisation and difficulty in noise, even with normal speech elsewhe
 5. Warn anyone with one hearing ear to protect it.
 !!
 !update Current evidence
-**Adults.** NICE (NG98, 2018) recommends offering hearing aids to adults whose hearing loss affects their ability to communicate, without a threshold cut-off; same-day referral for unexplained sudden loss that developed over three days or less within the past 30 days, and referral within two weeks if it was longer ago; and MRI for asymmetric sensorineural loss. Hearing loss is the largest modifiable risk factor for dementia, accounting for about 7% of cases (Livingston et al., *Lancet* 2024). In the ACHIEVE trial of 977 adults aged 70 to 84, a hearing intervention did not slow cognitive decline overall over three years, but slowed it by about 48% in the subgroup at higher risk of dementia (Lin et al., *Lancet* 2023). **Implants.** NICE (TA566, 2019) widened cochlear implant criteria to 80 dB HL at two or more frequencies with Arthur Boothroyd word scores of 50% or less. **Children.** The American Joint Committee on Infant Hearing keeps the 1-3-6 targets (screen by one month, diagnose by three, intervene by six) and encourages 1-2-3 months where possible (*J Early Hear Detect Interv* 2019).
+**Adults.** NICE (NG98, 2018) recommends offering hearing aids to adults whose hearing loss affects their ability to communicate, without a threshold cut-off; same-day referral for unexplained sudden loss that developed over three days or less within the past 30 days, and referral within two weeks if it was longer ago; and MRI for asymmetric sensorineural loss. The Lancet Commission puts hearing loss at about 7% of dementia cases (Livingston et al., *Lancet* 2024). In the ACHIEVE trial of 977 adults aged 70 to 84, a hearing intervention did not slow cognitive decline overall over three years, but slowed it by about 48% in the subgroup at higher risk of dementia (Lin et al., *Lancet* 2023). **Children.** The American Joint Committee on Infant Hearing keeps the 1-3-6 targets (screen by one month, diagnose by three, intervene by six) and encourages 1-2-3 months where possible (*J Early Hear Detect Interv* 2019).
 !!
 
 # Pathway | From complaint to plan.
