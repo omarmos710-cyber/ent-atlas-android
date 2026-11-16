@@ -6,7 +6,7 @@ Inflammation confined to the tympanic membrane, sometimes with the adjacent deep
 !anat s37_43 | Parts of the tympanic membrane.
 ## Forms
 ### Acute bullous myringitis
-Blebs or bullae on the outer surface of the drum and the deep canal. Dhingra describes the same picture as *otitis externa haemorrhagica*.
+Blebs or bullae on the outer surface of the drum and the deep canal. The same picture is also described as *otitis externa haemorrhagica* ([[t:oe]]).
 ### Chronic granular myringitis
 The epithelium of the drum is replaced by granulation tissue, without a perforation.
 
@@ -16,6 +16,7 @@ It follows an upper respiratory infection. The organisms are those of acute otit
 !differ Mycoplasma
 Dhingra: Lists it as a possible cause.
 Lee: The link is unproven.
+In practice: Treat it as acute otitis media; *Mycoplasma* is rarely responsible.
 !!
 ## Clinical picture
 Sudden, intense ear pain for three or four days that then settles, sometimes with a little bloody discharge when the blebs burst. Haemorrhagic bullae sit on the drum and deep canal. A third to two-fifths have a middle ear effusion as well.
@@ -30,6 +31,7 @@ Usually *Staphylococcus*, *Pseudomonas* or *Proteus*.
 !differ Predisposing factors
 Dhingra: Links it to wax, foreign bodies and external ear infection.
 Lee: No predisposing factor has been identified.
+In practice: Look for wax, a foreign body or canal infection and treat any you find.
 !!
 ## Clinical picture
 Itching, fullness and a foul, painless discharge. Granulation tissue covers part of the drum, often posterosuperiorly; the drum may perforate and heal repeatedly. Hearing is normal or slightly reduced.
@@ -41,10 +43,10 @@ Regular cleaning, dilute vinegar irrigation and topical drops; cauterising the g
 Late fibrosis can blunt the anterior angle between the drum and canal wall, causing a conductive loss.
 
 # Differential diagnosis | Other painful or wet drums.
-- **Acute otitis media:** bulging drum with poor mobility.
-- **Chronic otitis media:** a perforation and middle ear disease.
-- **Herpes zoster oticus:** vesicles on the concha and canal, facial palsy.
-- **Otitis externa:** canal swelling and tragal tenderness.
+- [[t:om|Acute otitis media]]: bulging drum with poor mobility.
+- [[t:csom|Chronic otitis media]]: a perforation and middle ear disease.
+- [[t:perich|Herpes zoster oticus]]: vesicles on the concha and canal, facial palsy.
+- [[t:oe|Otitis externa]]: canal swelling and tragal tenderness.
 !update Current evidence
 **Bullous myringitis** is now regarded as a variant of acute otitis media: the same organisms (*Streptococcus pneumoniae* first) are found in the middle ear fluid, and *Mycoplasma* is rarely responsible. Treat it as acute otitis media, with analgesia and an antibiotic when indicated. It causes a sensorineural hearing loss in a minority, which usually recovers (Drendel et al., *Auris Nasus Larynx* 2012); evidence for steroids in that setting is limited to small series. **Granular myringitis** is treated with careful debridement and topical antibiotic–steroid drops, with cautery or laser for resistant cases; evidence is from case series only.
 !!

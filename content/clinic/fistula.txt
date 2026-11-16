@@ -3,7 +3,7 @@
 # Overview | When infection reaches the inner ear.
 ## Definitions
 ### Labyrinthine fistula
-Erosion of the bony labyrinth, usually the lateral semicircular canal, exposing the membranous labyrinth without infecting it. Dhingra calls it *circumscribed labyrinthitis*.
+Erosion of the bony labyrinth, usually the lateral semicircular canal, exposing the membranous labyrinth without infecting it. Also called *circumscribed labyrinthitis*.
 ### Serous labyrinthitis
 Diffuse irritation of the labyrinth by bacterial toxins through the windows or a fistula, without bacteria in the inner ear. Reversible.
 ### Suppurative labyrinthitis
@@ -17,13 +17,13 @@ Viral labyrinthitis (mumps, measles, rubella, cytomegalovirus) and syphilitic la
 ## From the middle ear
 Cholesteatoma eroding the lateral canal (the commonest), through the oval or round window in acute or chronic otitis media, and after surgery or trauma.
 ## From the meninges
-Bacteria spread from the subarachnoid space through the cochlear aqueduct or the internal auditory canal. *Streptococcus pneumoniae*, *Haemophilus influenzae* and *Neisseria meningitidis* are the organisms; pneumococcus carries the highest risk of deafness, around 20%.
+Bacteria spread from the subarachnoid space ([[t:icc]]) through the cochlear aqueduct or the internal auditory canal. *Streptococcus pneumoniae*, *Haemophilus influenzae* and *Neisseria meningitidis* are the organisms; pneumococcus carries the highest risk of deafness, around 20%.
 ## Blood-borne
 Viral and syphilitic infections.
 
 # Labyrinthine fistula | The eroded lateral canal.
 ## Causes
-Cholesteatoma in most cases, then tumours, trauma and surgery. About 7 to 10% of cholesteatomas have a fistula, 90% of them in the lateral canal.
+[[t:chole|Cholesteatoma]] in most cases, then tumours, trauma and surgery. About 7 to 10% of cholesteatomas have a fistula (5 to 10% in some reviews), 90% of them in the lateral canal.
 !anat s65_1 | The bony labyrinth: the lateral semicircular canal bulges into the medial wall of the attic and antrum, where cholesteatoma erodes it.
 ## Clinical picture
 Brief vertigo provoked by pressure on the ear: pressing the tragus, cleaning the ear, or nose blowing. Hearing is often preserved.
@@ -33,11 +33,11 @@ Pressure applied to the canal (tragal pressure or a Siegle speculum) moves the e
 It is specific but insensitive: positive in only 30 to 50% of fistulae. A negative test does not exclude one; it may also be negative in a dead labyrinth or if cholesteatoma seals the fistula. Assume a fistula in every cholesteatoma.
 !!
 ## Other positive fistula tests
-Ménière's disease (Hennebert's sign), superior canal dehiscence, perilymph fistula and congenital syphilis.
+[[t:meniere|Ménière's disease]] (Hennebert's sign), [[t:scd|superior canal dehiscence]], perilymph fistula and congenital syphilis.
 ## Investigations
 HRCT shows only about 60% of fistulae before surgery.
 ## Management
-Surgery for the cholesteatoma; the matrix over a small fistula may be removed carefully at the end of the operation and the defect sealed with fascia or bone pâté; over a large fistula, or in an only hearing ear, the matrix is left and the ear exteriorised.
+Surgery for the cholesteatoma; the matrix over a small fistula may be removed carefully at the end of the operation and the defect sealed with fascia or bone pâté; over a large fistula, or in an only hearing ear, the matrix is left and the ear exteriorised. Whether to remove the matrix at the first operation or leave it for a second stage is debated; in experienced hands, removal with immediate sealing preserves hearing in most patients, and steroids are often given.
 
 # Serous and suppurative labyrinthitis | Irritation or destruction.
 ## Serous labyrinthitis
@@ -64,7 +64,7 @@ Outcome | Recovery | Dead ear, ossification
 After suppurative labyrinthitis, especially meningitic, fibrous tissue and new bone fill the cochlea, starting in the basal turn near the round window, within weeks to months.
 !flag Deafness after meningitis
 - Test hearing in every patient after bacterial meningitis.
-- Bilateral profound loss: image urgently (MRI and CT) for ossification and refer for early cochlear implantation.
+- Bilateral profound loss: image urgently (MRI and CT) for ossification and refer for early cochlear implantation ([[t:rehab]]).
 - Steroids reduce hearing loss in *H. influenzae* and pneumococcal meningitis.
 !!
 !imaging | Labyrinthine fistula, labyrinthitis ossificans, labyrinthitis with meningitis, and otosyphilis.
@@ -80,11 +80,11 @@ Bed rest for 7 to 10 days with the head raised, no straining, and stool softener
 
 # Viral and syphilitic labyrinthitis | The other causes.
 ## Viral
-Mumps (usually one-sided profound loss), measles, rubella and cytomegalovirus. CMV is the commonest non-syndromic cause of congenital sensorineural hearing loss, and the loss may progress after a normal newborn screen.
+Mumps (usually one-sided profound loss), measles, rubella and cytomegalovirus. CMV is the commonest non-syndromic cause of congenital sensorineural hearing loss, and the loss may progress after a normal newborn screen ([[t:deaf]]).
 ## Syphilis
-Congenital or acquired. Late congenital syphilis may first appear at 8 to 20 years as bilateral sudden or fluctuating loss with vertigo, and Hennebert's sign. Test with VDRL or RPR and FTA-ABS; treat with penicillin and steroids.
+Congenital or acquired. Late congenital syphilis may first appear at 8 to 20 years as bilateral sudden or fluctuating loss with vertigo, and Hennebert's sign. Test with VDRL or RPR and FTA-ABS; treat with penicillin and steroids. Syphilitic otitis media is covered in [[t:tbom]].
 !update Current evidence
-**Labyrinthine fistula** complicates about 5 to 10% of cholesteatomas, almost always on the lateral canal. High-resolution CT predicts most fistulas but misses some, so the surgeon should expect one when the patient has vertigo or a positive fistula test. Whether to remove the cholesteatoma matrix from the fistula at the first operation or leave it (and remove it at a second stage) is debated; in experienced hands, removal with immediate sealing (bone pâté, fascia) preserves hearing in most patients, and steroids are often given. **Labyrinthitis.** Serous labyrinthitis usually recovers with treatment of the otitis; suppurative labyrinthitis leaves a dead ear and, after meningitis, needs early imaging for cochlear ossification because a cochlear implant must be placed before the cochlea fills with bone.
+**Labyrinthine fistula.** High-resolution CT predicts most fistulas but misses some, so the surgeon should expect one when the patient has vertigo or a positive fistula test.
 !!
 
 # For the examination | What the examiner wants to hear.

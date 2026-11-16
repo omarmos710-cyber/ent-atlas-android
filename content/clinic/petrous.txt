@@ -2,7 +2,7 @@
 
 # Overview | Infection at the tip of the temporal bone.
 ## Definition
-Inflammation, and sometimes abscess, of the air cells of the petrous apex, spreading from acute or chronic otitis media and mastoiditis.
+Inflammation, and sometimes abscess, of the air cells of the petrous apex, spreading from acute or chronic otitis media and [[t:mastoiditis|mastoiditis]].
 ## Why only some people get it
 Only about 30% of petrous apices are pneumatised; the rest are diploic (marrow-filled) or sclerotic. Infection can only track into an aerated apex.
 !fig d1-15 | A pneumatised petrous apex.
@@ -38,7 +38,7 @@ Persistent discharge or deep pain despite an adequate mastoidectomy, or new pain
 ## High-resolution CT
 Shows the pneumatisation of the apex, breakdown of the cell septa and erosion of the bone.
 ## MRI with contrast
-Separates marrow from fluid or pus, shows dural enhancement and intracranial spread, and assesses the carotid and cavernous sinus.
+Separates marrow from fluid or pus (diffusion-weighted imaging separates apicitis from cholesterol granuloma, cholesteatoma and effusion), shows dural enhancement and intracranial spread, and assesses the carotid and cavernous sinus. MR venography looks for venous sinus thrombosis.
 !imaging | Petrositis, Gradenigo syndrome and apical pseudotumours.
 ## Differential diagnosis
 - **Apical effusion:** fluid in an aerated apex, usually asymptomatic.
@@ -46,7 +46,7 @@ Separates marrow from fluid or pus, shows dural enhancement and intracranial spr
 - **Cholesterol granuloma:** bright on both T1 and T2, expanding slowly.
 - **Cholesteatoma** of the apex.
 - **Nasopharyngeal carcinoma** and other skull base tumours.
-!table Petrous apex lesions on MRI (Oxford Textbook)
+!table Petrous apex lesions on MRI
 Lesion | T1 | T2 | Diffusion and enhancement | CT
 Asymmetric marrow (fat) | Bright, suppresses with fat saturation | Intermediate | No restriction | Normal bone, non-pneumatised apex
 Trapped fluid or effusion | Dark | Bright | No restriction, no enhancement | Intact septa
@@ -64,15 +64,16 @@ Admission, prolonged intravenous antibiotics that cover the organisms of otitis 
 For an abscess, bone necrosis, or failure of medical treatment. The route follows the cell tracts and the state of the hearing:
 - **Hearing preserved:** through the mastoid via Trautmann's triangle or the subarcuate cells, infralabyrinthine or infracochlear routes, or through the middle cranial fossa.
 - **Dead ear:** translabyrinthine or transcochlear routes, which give the widest access.
+- **Medially placed lesions:** endoscopic transsphenoidal drainage is increasingly used.
 !ops
 
 # Complications | Neighbours at risk.
-- Meningitis and other intracranial infection.
+- Meningitis and other intracranial infection ([[t:icc]]).
 - Injury to or thrombosis of the internal carotid artery.
 - Skull base osteomyelitis.
 - Cavernous sinus thrombosis.
 !update Current evidence
-**Imaging.** Both CT and MRI are needed: CT shows bone erosion and pneumatisation, MRI with diffusion-weighted imaging separates petrous apicitis from cholesterol granuloma, cholesteatoma and effusion, and MR venography looks for venous sinus thrombosis. **Treatment.** Modern case series show that most petrous apicitis responds to intravenous antibiotics with myringotomy or grommet, or cortical mastoidectomy; apical drainage is kept for failure of medical treatment, and endoscopic transsphenoidal drainage is increasingly used for medially placed lesions. Gradenigo's full triad is present in only a minority.
+**Treatment.** Modern case series show that most petrous apicitis responds to intravenous antibiotics with myringotomy or grommet, or cortical mastoidectomy; apical drainage is kept for failure of medical treatment. Gradenigo's full triad is present in only a minority.
 !!
 
 # For the examination | What the examiner wants to hear.

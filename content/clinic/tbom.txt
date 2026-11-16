@@ -6,7 +6,7 @@ Infection of the middle ear cleft by *Mycobacterium tuberculosis*. Syphilitic ot
 ## Epidemiology
 Uncommon in low-burden countries, but important where tuberculosis is endemic, and rising with drug-resistant strains and immunosuppression, particularly HIV.
 ## Routes of infection
-- Through the Eustachian tube, from active pulmonary disease, which most patients have.
+- Through the Eustachian tube, from pulmonary disease, classically present in most patients, although the chest film is normal in many.
 - Through the blood, from a distant focus.
 - In infants, through the tube from infected milk.
 
@@ -37,11 +37,11 @@ Chest imaging, tuberculin skin test or interferon-gamma release assay, and HIV t
 Often looks like ordinary chronic otitis media, with more bone erosion and sequestra.
 !imaging | Otomastoiditis on CT.
 ## Differential diagnosis
-Ordinary chronic suppurative otitis media, carcinoma of the middle ear, granulomatosis with polyangiitis, and fungal infection.
+Ordinary [[t:csom|chronic suppurative otitis media]], carcinoma of the middle ear ([[t:tumear]]), granulomatosis with polyangiitis, and fungal infection.
 
 # Management | Drugs first, repair later.
 ## Antituberculous chemotherapy
-Standard multidrug therapy with isoniazid, rifampicin, pyrazinamide and ethambutol, guided by sensitivities, for at least six months.
+Standard multidrug therapy, guided by sensitivities, for at least six months: two months of isoniazid, rifampicin, pyrazinamide and ethambutol, then four of isoniazid and rifampicin (the WHO regimen for most extrapulmonary tuberculosis), with longer courses for bone or central nervous system involvement.
 ## Surgery
 Limited to biopsy, removal of sequestra and drainage of abscesses or complications. Reconstruction is delayed until treatment is complete, because healing is slow and fistulae are common during active disease; afterwards, repair succeeds in most.
 !ops
@@ -49,9 +49,9 @@ Limited to biopsy, removal of sequestra and drainage of abscesses or complicatio
 Usually recovers well with medical treatment.
 
 # Syphilitic otitis | Rare, destructive.
-Congenital or acquired syphilis can cause osteitis of the temporal bone with necrosis, and labyrinthitis with profound, often fluctuating sensorineural loss and vertigo. Diagnose with treponemal tests (FTA-ABS) and treat with penicillin and steroids.
+Congenital or acquired syphilis can cause osteitis of the temporal bone with necrosis, and labyrinthitis with profound, often fluctuating sensorineural loss and vertigo. Diagnose with treponemal tests (FTA-ABS) and treat with penicillin and steroids. Syphilitic labyrinthitis is covered in [[t:fistula]].
 !update Current evidence
-**Diagnosis.** Tuberculous otitis is easily missed: biopsy of granulations with histology, culture and a rapid nucleic acid test (Xpert MTB/RIF Ultra) on tissue gives the best yield, and a chest film is normal in many patients. **Treatment.** The WHO recommends the standard six-month regimen (two months of isoniazid, rifampicin, pyrazinamide and ethambutol, then four of isoniazid and rifampicin) for most extrapulmonary tuberculosis, with longer courses for bone or central nervous system involvement; surgery is reserved for complications, sequestra or diagnosis.
+**Diagnosis.** Tuberculous otitis is easily missed: biopsy of granulations with histology, culture and a rapid nucleic acid test (Xpert MTB/RIF Ultra) on tissue gives the best yield. 
 !!
 
 # For the examination | What the examiner wants to hear.

@@ -15,7 +15,7 @@ The cartilage of the pinna has no blood supply of its own and lives on its peric
 
 # Perichondritis | Cartilage under threat.
 ## Causes
-Blunt trauma with an infected haematoma, lacerations and burns, high (cartilage) piercing, ear surgery, and spread from otitis externa. *Pseudomonas aeruginosa* is the usual organism, with staphylococci.
+Blunt trauma with an infected haematoma ([[t:earminor]]), lacerations and burns, high (cartilage) piercing, ear surgery, and spread from [[t:oe|otitis externa]]. *Pseudomonas aeruginosa* is the usual organism, with staphylococci.
 ## Clinical picture
 ### Early
 Pain and a red, hot, tender, thickened pinna, sparing the lobule.
@@ -46,18 +46,18 @@ Severe, burning ear pain, followed by vesicles in the concha, canal and sometime
 ## Treatment
 High-dose prednisolone (about 1 mg/kg for 14 days) with an antiviral such as valaciclovir, analgesia, and eye protection. Gabapentin for post-herpetic neuralgia. Surgical decompression is not advised, because the nerve damage is diffuse.
 ## Outlook
-Worse than Bell's palsy: only about 60% regain normal facial function.
+Worse than Bell's palsy: only about 60% regain normal facial function. Facial palsy in general is covered in [[t:facial]].
 !ops
 
 # Inflammatory conditions | Not infections.
 ## Relapsing polychondritis
 An autoimmune disease of cartilage: recurrent painful red swelling of the pinna sparing the lobule, often both ears, with nasal (saddle nose), laryngeal and tracheal cartilage involvement that can threaten the airway. Treated with high-dose steroids and immunosuppression.
 ## Chondrodermatitis nodularis helicis
-A painful, tender nodule on the rim of the helix, usually in older men who sleep on that side. Relieve pressure; excise if persistent, and send for histology to exclude skin cancer.
+A painful, tender nodule on the rim of the helix, usually in older men who sleep on that side. Relieve pressure; excise if persistent, and send for histology to exclude skin cancer ([[t:extca]]).
 ## Differential diagnosis
 Gout (tophi on the helix), lymphoma and skin tumours.
 !update Current evidence
-**Perichondritis.** *Pseudomonas aeruginosa* is the commonest organism, especially after high (cartilage) piercing, so oral ciprofloxacin is first line, with intravenous anti-pseudomonal treatment and drainage of any abscess for severe cases. **Ramsay Hunt syndrome.** Cochrane reviews found no randomised evidence that antivirals improve facial recovery (Uscategui et al., 2008) and insufficient evidence on steroids, so combined steroid and antiviral treatment, started early, rests on observational studies and on the analogy with zoster elsewhere. **Relapsing polychondritis** affects the cartilage but spares the lobule; it needs rheumatological assessment because airway cartilage may also be involved.
+**Perichondritis.** The link between *Pseudomonas* and high (cartilage) piercing is why oral ciprofloxacin is first line. **Ramsay Hunt syndrome.** Cochrane reviews found no randomised evidence that antivirals improve facial recovery (Uscategui et al., 2008) and insufficient evidence on steroids, so combined steroid and antiviral treatment, started early, rests on observational studies and on the analogy with zoster elsewhere. **Relapsing polychondritis** affects the cartilage but spares the lobule; it needs rheumatological assessment because airway cartilage may also be involved.
 !!
 
 # For the examination | What the examiner wants to hear.

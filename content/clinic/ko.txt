@@ -23,6 +23,7 @@ Acute, severe pain, conductive hearing loss and sometimes otorrhoea. A dense, wh
 !differ Age and pain
 Dhingra: Typically 5 to 20 years; pain is among the presenting symptoms.
 Lee: Typically 30 to 60 years; severe pain is characteristic.
+In practice: Ages vary between texts, but keratosis obturans is the younger patient's disease, and severe pain is its hallmark.
 !!
 ## Treatment
 Removal of the plug under the microscope, which may need a general anaesthetic in children, treatment of any secondary otitis externa, and regular cleaning. Salicylic acid 2% in alcohol reduces reaccumulation. Follow-up is lifelong.
@@ -38,16 +39,16 @@ A dull, chronic ache and a foul, scanty discharge, with normal hearing. A locali
 CT shows the extent of the erosion and its relation to the mastoid and facial nerve. Biopsy granulation tissue to exclude carcinoma.
 !imaging | Canal cholesteatoma with canal atresia.
 ## Treatment
-Regular debridement and topical drops; when the disease keeps returning, surgery removes the matrix and dead bone and covers the defect with fascia or a skin graft.
+Regular debridement and topical drops for limited disease; when it keeps returning or is extensive, surgery (canalplasty) removes the matrix and dead bone and covers the defect with fascia or a skin graft.
 !ops
 
 # Differential diagnosis | What else causes a canal plug or erosion.
-- Impacted wax.
-- Necrotising otitis externa.
-- Squamous cell carcinoma of the canal.
-- Middle ear cholesteatoma eroding the canal wall.
+- Impacted wax ([[t:canal]]).
+- [[t:oe|Necrotising otitis externa]].
+- Squamous cell carcinoma of the canal ([[t:extca]]).
+- Middle ear [[t:chole|cholesteatoma]] eroding the canal wall.
 !update Current evidence
-**Two conditions.** Keratosis obturans (a bilateral, painful plug of keratin with a widened canal, often in younger patients with bronchiectasis or sinusitis) and external canal cholesteatoma (unilateral, older patients, with localised bone erosion, usually on the floor of the canal) are now accepted as distinct. CT shows the bony erosion of canal cholesteatoma. **Treatment.** Regular microsuction and softening drops control keratosis obturans; limited canal cholesteatoma can be managed by regular debridement, while extensive disease needs canalplasty with removal of diseased bone. Evidence comes from case series.
+**Two conditions.** Keratosis obturans and external canal cholesteatoma are now accepted as distinct diseases. **Treatment.** Regular microsuction and softening drops control keratosis obturans. Evidence comes from case series.
 !!
 
 # For the examination | What the examiner wants to hear.
