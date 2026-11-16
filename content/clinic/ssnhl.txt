@@ -4,7 +4,7 @@
 ## Definition
 A sensorineural hearing loss of 30 dB or more over at least three contiguous frequencies, developing within three days.
 ## Epidemiology
-About 5 to 20 per 100,000 people a year, most often in middle age (median 40 to 54), equally in men and women. It is almost always one-sided.
+About 5 to 27 per 100,000 people a year, rising with age and commonest in middle and later life, equally in men and women. It is almost always one-sided; simultaneous loss in both ears is rare and points to a systemic or central cause.
 ## Why it matters
 Time matters: treatment works best in the first two weeks. And a minority have a serious underlying cause, including vestibular schwannoma and posterior circulation stroke.
 
@@ -52,7 +52,7 @@ Normal, which excludes middle ear fluid.
 MRI of the internal auditory canals and cerebellopontine angles with gadolinium, to exclude vestibular schwannoma and other retrocochlear lesions. If MRI is impossible, auditory brainstem response.
 !imaging | Retrocochlear and labyrinthine causes: schwannoma, labyrinthitis and otosyphilis.
 ## Blood tests by history
-Not routine for everyone. Full blood count, ESR, glucose, lipids, thyroid function and syphilis serology when the history suggests them; autoimmune screens for bilateral or fluctuating loss.
+Not routine for everyone: the American guideline advises against routine laboratory tests, because they rarely change management. Request them when the history suggests them: glucose (before steroids), full blood count and ESR, syphilis serology, and autoimmune tests for bilateral or fluctuating loss.
 ## Exploration
 Exploratory tympanotomy only when a fistula is strongly suspected, after trauma or straining.
 ## Differential diagnosis
@@ -70,24 +70,26 @@ Exploratory tympanotomy only when a fistula is strongly suspected, after trauma 
 3. Arrange an audiogram the same or the next day.
 4. Offer steroids early.
 5. Facial weakness, vertigo with ataxia, or vascular risk factors: treat as a posterior circulation stroke.
+6. Loss in both ears at once: urgent investigation for systemic, infective, autoimmune or central causes.
 !!
 ## Steroids
 ### Oral
-High-dose prednisolone, for example 1 mg/kg (up to about 60 mg) a day for a week, then tapered. Dhingra gives prednisolone 40 to 60 mg each morning for a week, tapered over three weeks.
+Prednisolone 1 mg/kg (up to about 60 mg) a day for 7 to 14 days, then tapered, started as early as possible and ideally within two weeks (benefit is unlikely after six weeks). Check glucose and blood pressure, and warn about mood, sleep and stomach effects. Dhingra gives prednisolone 40 to 60 mg each morning for a week, tapered over three weeks. Higher doses do not help: in the HODOKORT trial, very high-dose glucocorticoids gave no better hearing than the standard dose and caused more side effects.
 ### Intratympanic
-Dexamethasone or methylprednisolone injected through the drum. Used first-line when systemic steroids are unsafe (poorly controlled diabetes, for example), or as salvage when oral treatment has failed.
+Dexamethasone or methylprednisolone injected through the drum, usually several injections over one to two weeks. As first-line treatment it works as well as oral steroids, so it suits patients in whom systemic steroids are unsafe (poorly controlled diabetes, for example). As salvage, within two to six weeks of onset when oral treatment has failed, it adds a modest further gain. Risks: pain, transient vertigo, and a persistent perforation in a few.
 ## Other treatments
-Antivirals have no proven benefit. Older adjuncts, such as bed rest, carbogen inhalation, vasodilators, dextran, a low-salt diet with diuretics and hyperbaric oxygen, have not clearly beaten natural recovery. Dextran is contraindicated in heart failure and bleeding disorders.
+Antivirals, vasodilators, vasoactive drugs and antioxidants have no proven benefit and are not recommended. **Hyperbaric oxygen** is an option alongside steroids if it can be started within two weeks of onset (or within a month as salvage), and meta-analyses show a modest gain in hearing; access and cost limit it. Older adjuncts such as bed rest, carbogen, dextran and a low-salt diet have not beaten natural recovery.
 !differ Adjunct treatments
 Dhingra: Lists carbogen, low salt and hyperbaric oxygen among the options, while noting that no treatment has proven better than spontaneous recovery.
 Lee: Recommends steroids, orally or intratympanically; finds no evidence for antivirals.
+American guideline (2019): steroids may be offered within two weeks; intratympanic steroid as salvage within two to six weeks; hyperbaric oxygen as an option; antivirals, vasodilators and routine CT not recommended.
 !!
 ## Rehabilitation
 If recovery is poor: a hearing aid for a partial loss, or a CROS aid, bone-conduction device or cochlear implant for single-sided deafness. Tinnitus counselling as needed.
 !ops
 
 # Prognosis | What predicts recovery.
-About half recover by two weeks; recovery after a month is unusual.
+Between a third and two-thirds of patients recover partly or fully, much of it spontaneously and mostly within the first two weeks; recovery after three months is unusual.
 !table Prognosis in sudden hearing loss
 Factor | Better | Worse
 Severity | Mild | Severe or total
@@ -99,6 +101,9 @@ Early recovery | Within two weeks | None by two weeks
 !!
 ## Follow-up
 Repeat the audiogram during treatment and at the end. Counsel the patient to protect the other ear from noise and ototoxic drugs.
+!update Current evidence
+The American clinical practice guideline (Chandrasekhar et al., *Otolaryngol Head Neck Surg* 2019) recommends audiometry and MRI for retrocochlear causes, steroids as an option within two weeks, intratympanic steroids for salvage within two to six weeks, and hyperbaric oxygen as an option; it advises against routine laboratory tests, CT and antivirals. In the HODOKORT trial of 325 patients in Germany, higher-dose glucocorticoids were no better than the standard dose at 30 days and caused more hyperglycaemia and hypertension (Plontke et al., *NEJM Evid* 2024). A Cochrane review found the evidence for systemic steroids weak and of low quality (Wei et al., 2013). As first-line treatment, intratympanic and systemic steroids gave similar hearing gains in a meta-analysis of seven trials (Mirian and Ovesen, *JAMA Otolaryngol Head Neck Surg* 2020). Adding hyperbaric oxygen to medical therapy improved hearing by about 10 dB in a meta-analysis of three trials (Joshua et al., *JAMA Otolaryngol Head Neck Surg* 2022).
+!!
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials
@@ -107,7 +112,8 @@ Repeat the audiogram during treatment and at the end. Counsel the patient to pro
 - **Tuning forks:** Weber to the good ear, Rinne positive.
 - **Theories:** viral, vascular, membrane rupture.
 - **MRI** to exclude a schwannoma.
-- **Steroids,** oral and intratympanic.
+- **Steroids,** oral and intratympanic (first-line and salvage), and why higher doses do not help.
+- **Hyperbaric oxygen** as an option.
 - **Prognostic factors.**
 !!
 ## Common pitfalls

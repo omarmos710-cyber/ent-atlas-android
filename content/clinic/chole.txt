@@ -84,7 +84,9 @@ Measures conductive and sensorineural components before surgery.
 ## High-resolution CT
 Shows the extent of disease and the state of the scutum, ossicles, tegmen, lateral semicircular canal, facial canal and sigmoid plate, and the anatomy for surgery.
 ## Non-echo-planar diffusion-weighted MRI
-Keratin restricts diffusion and shows bright. It detects residual or recurrent disease after canal wall up surgery, often replacing a second look, and helps when an intracranial complication is suspected.
+Keratin restricts diffusion and shows bright. Sensitivity and specificity are both about 90%, but pearls smaller than about 3 mm can be missed. It detects residual or recurrent disease after canal wall up surgery and can replace a planned second look when suspicion is low (a negative scan does not cancel a second look when suspicion is high). It also helps when an intracranial complication is suspected.
+## Endoscopy in clinic
+A rigid 0 degree endoscope shows the full depth of a retraction pocket and documents it with photographs for comparison over time.
 !imaging | Acquired and congenital cholesteatoma, a labyrinthine fistula, intracranial extension and canal cholesteatoma.
 
 # Management | Surgery is the treatment.
@@ -106,7 +108,9 @@ Cavity care | None | Regular cleaning
 Swimming | Allowed | Limited
 Hearing aid | Easy | Harder
 !!
-Choose canal wall up only when the patient can return for long-term follow-up.
+Choose canal wall up only when the patient can return for long-term follow-up. Neither is a gold standard, and evidence on hearing is equivocal; canal wall up surgery is often staged, with a second look 6 to 12 months later (the Oxford Textbook suggests 3 to 6).
+### Mastoid obliteration
+About 40% of open cavities discharge or cannot tolerate water. Obliterating the mastoid (bone pâté, muscle flaps or bioactive glass, with cartilage reconstruction of the canal wall) avoids a cavity and lowers recidivism, and is increasingly used with both canal wall up and canal wall down techniques.
 ### Endoscopic ear surgery
 Transcanal endoscopes suit limited attic and mesotympanic disease, and see around corners into the sinus tympani and anterior attic without a postauricular incision. Disease reaching the antrum or mastoid needs a combined approach. The surgeon works one-handed, and bleeding and heat from the light source are drawbacks. Residual disease found by the endoscope after apparent microscopic clearance ranges from 17 to 38%.
 !ops
@@ -118,6 +122,8 @@ Present in 7 to 10% of cholesteatomas, 90% of them in the lateral canal; only ab
 - Never strip the matrix off a cochlear fistula.
 ## Hearing reconstruction
 Ossiculoplasty, at the first stage or the second look.
+## Staging and recidivism
+The EAONO/JOS system divides the middle ear and mastoid into sites, with the *sinus tympani* and *protympanum* as difficult-access sites where residual disease is most often left. Stage I occupies one site, stage II two or more, stage III has an extracranial complication (facial palsy, labyrinthine fistula, postauricular abscess, canal wall destruction), and stage IV intracranial spread. Recidivism is either **residual** (incompletely removed) or **recurrent** (a new retraction); both demand follow-up for at least five years, longer in children.
 
 # Complications | Why it is called unsafe.
 ## Intratemporal
@@ -130,14 +136,8 @@ Extradural and subdural abscess, meningitis, brain abscess, lateral sinus thromb
 !pearl At surgery
 Facial canal dehiscence and tegmen dehiscence often accompany a fistula. The epineurium does not need opening unless disease has invaded the nerve.
 !!
-!update Current practice (Oxford Textbook)
-**Staging.** The EAONO/JOS system, from European and Japanese otological societies, divides the middle ear and mastoid into sites, with the *sinus tympani* and *protympanum* counted as difficult-access sites where residual disease is most often left. Stage I disease occupies one site, stage II two or more, stage III has an extracranial complication (facial palsy, labyrinthine fistula, postauricular abscess, canal wall destruction), and stage IV has intracranial spread. Using it allows outcomes to be compared between surgeons and techniques.
-
-**Endoscopes.** A rigid 0° endoscope in clinic shows the full depth of a retraction pocket and documents it photographically. *Total endoscopic ear surgery* through the canal suits disease confined to the middle ear and attic: the wide angle shows the sinus tympani, facial recess and anterior attic better than the microscope, without a postauricular incision, but it is more demanding and its long-term recidivism figures are still emerging.
-
-**Canal wall up or down.** Neither is a gold standard, and evidence on hearing outcomes is equivocal. Canal wall up surgery is often staged, with a planned second stage some months later (the Oxford Textbook suggests 3 to 6) to remove residual disease and rebuild the ossicular chain. About 40% of open cavities discharge or are intolerant of water, which is why *mastoid obliteration* (bone pâté, muscle flaps or bioactive glass, with cartilage canal wall reconstruction) is increasingly used: it avoids a cavity and lowers recidivism.
-
-**Follow-up imaging.** *Non-echo-planar diffusion-weighted MRI* has a sensitivity of about 90% and specificity of about 95% for residual cholesteatoma, but disease smaller than about 3 mm can be missed. It can replace a planned second look when clinical suspicion is low, but a negative scan does not cancel a second look when suspicion is high. Recidivism is either **residual** (incompletely removed) or **recurrent** (a new retraction), and both demand long-term follow-up.
+!update Current evidence
+A meta-analysis of 26 studies found non-echo-planar diffusion-weighted MRI had a sensitivity of 91% and specificity of 92% for cholesteatoma, before and after surgery and in children and adults (Lingam et al., *Otol Neurotol* 2017). In 13 studies, endoscopic ear surgery had lower residual and recurrent disease than microscopic surgery (risk ratios 0.68 and 0.51), with similar graft take and hearing, though the studies were mostly non-randomised and in selected disease (Li et al., *Am J Otolaryngol* 2021). Across 1,534 patients, single-stage mastoid obliteration was followed by recurrent disease in 4.6% and residual disease in 5.4% (van der Toom et al., *JAMA Otolaryngol Head Neck Surg* 2018).
 !!
 
 # For the examination | What the examiner wants to hear.

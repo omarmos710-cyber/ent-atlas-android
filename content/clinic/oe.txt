@@ -73,7 +73,7 @@ Fibrous narrowing of the deep canal. Treated by excising the thick skin, widenin
 
 # Necrotising otitis externa | The dangerous one.
 ## What it is
-An invasive *Pseudomonas* infection (about 90% of cases) that spreads from the canal to the bone of the skull base: a skull base osteomyelitis. It affects older diabetics and the immunocompromised. *Aspergillus* causes a minority.
+An invasive infection that spreads from the canal floor through the **fissures of Santorini** into the infratemporal fossa and the bone of the skull base: a skull base osteomyelitis. Most patients are older and diabetic, but about 1 in 10 has no obvious immunosuppression. *Pseudomonas aeruginosa* is the usual organism (about 60% of cultures in recent series, with rising resistance); fungi such as *Aspergillus* grow in a significant minority, more often in HIV with low CD4 counts, and some cultures grow nothing.
 ## Clinical picture
 ### Symptoms
 Severe, deep, unrelenting pain, worse at night and out of proportion to what is seen, with a persistent discharge despite treatment.
@@ -87,14 +87,14 @@ Gallium or indium scan | Follows response; repeated every few weeks | Less anato
 CT | Bone erosion | Changes appear late
 MRI | Soft tissue, marrow and dura | Not a guide to cure
 !!
-Add ESR or CRP (useful to follow), glucose, culture, and biopsy of the granulation to exclude carcinoma.
+CT shows erosion only after about 30% demineralisation, so a normal early CT is falsely reassuring. Contrast MRI with fat suppression and diffusion shows soft tissue and marrow disease earlier and detects intracranial spread; **FDG PET-CT** is increasingly used to diagnose and monitor. CT and MRI changes persist for up to a year after cure, so they cannot decide when to stop. Add ESR or CRP (useful to follow), glucose and HbA1c, and send both a swab and a **granulation biopsy** for bacterial and fungal culture and histology, because squamous carcinoma of the temporal bone is the key differential.
 !differ Monitoring and duration
 Dhingra: Gallium repeated every three weeks; treatment for six to eight weeks, including intravenous aminoglycoside combinations.
 Lee: Gallium every four weeks; oral fluoroquinolone for about six weeks as first line.
 !!
 !imaging | Necrotising otitis externa, canal stenosis and canal carcinoma.
 ## Treatment
-Admit; control the diabetes; regular cleaning; high-dose oral ciprofloxacin, or intravenous anti-pseudomonal antibiotics for advanced disease; voriconazole for *Aspergillus*. Continue until the examination, inflammatory markers and scans have normalised. Surgery is limited to biopsy and removal of sequestra or abscesses. Hyperbaric oxygen is unproven.
+Admit for multidisciplinary care (otology, diabetes, microbiology, radiology, elderly care). Control the diabetes, clean the canal regularly, and start empirical intravenous antipseudomonal treatment at once, often **dual therapy** (piperacillin-tazobactam or ceftazidime with a fluoroquinolone), adjusted to cultures; oral ciprofloxacin alone suits only early, limited disease; voriconazole for *Aspergillus*. There is no agreed duration, but consensus favours at least **six weeks**, often completed at home, guided by symptoms, inflammatory markers and imaging. Surgery is limited to biopsy, deep sampling (for example at cortical mastoidectomy when there is no tissue in the canal) and drainage of abscesses or sequestra; debridement and nerve decompression have no proven benefit, and hyperbaric oxygen is unproven.
 ## Outcome
 Mortality remains around 5 to 20%, from sepsis, sinus thrombosis and cranial neuropathies. Quinolone resistance is rising.
 !flag Suspect it when
@@ -102,12 +102,8 @@ Mortality remains around 5 to 20%, from sepsis, sinus thrombosis and cranial neu
 - Otitis externa fails to respond after a week of proper treatment.
 - A cranial nerve palsy appears with ear pain.
 !!
-!update Necrotising otitis externa: current practice (Oxford Textbook)
-Infection spreads from the canal floor through the **fissures of Santorini** into the infratemporal fossa and skull base. Between 65 and 100% of patients are diabetic, but the classic "elderly diabetic with a painful discharging ear" is not always present, especially in other forms of immunosuppression. *Pseudomonas aeruginosa* is the usual organism, about a quarter of isolates are resistant, and fungi are cultured in over 20% of cases, more often in HIV with low CD4 counts and with a worse prognosis. Surface swabs may grow nothing, so send both a swab and a **granulation biopsy** for bacterial and fungal culture and for histology, because squamous carcinoma of the temporal bone is the key differential; if there is no tissue in the canal, deep samples may be taken at cortical mastoidectomy.
-
-**Imaging.** CT shows erosion only after about 30% demineralisation, so a normal early CT is falsely reassuring. Contrast MRI with fat suppression and diffusion shows soft tissue and marrow disease earlier and detects intracranial spread. Gallium and technetium scans have largely been replaced by MRI, and **FDG PET-CT** is increasingly used to diagnose and to monitor response. CT and MRI changes persist for up to a year after successful treatment, so they cannot be used to decide when to stop.
-
-**Treatment.** Admit for multidisciplinary care (otology, diabetes, microbiology, radiology, elderly care), start empirical intravenous antipseudomonal therapy at once, and give **dual therapy**, typically piperacillin–tazobactam or ceftazidime with a fluoroquinolone, adjusted to cultures. There is no agreed guideline, but consensus favours at least **six weeks** of intravenous treatment, often completed at home, guided by clinical response, inflammatory markers and imaging. Surgery is now limited to biopsy, deep sampling and drainage of abscesses; debridement and nerve decompression have no proven benefit.
+!update Current evidence
+For acute otitis externa, the American guideline recommends topical drops as first-line treatment and advises against oral antibiotics unless infection spreads beyond the canal or the patient is at risk (Rosenfeld et al., *Otolaryngol Head Neck Surg* 2014), supported by a Cochrane review (Kaushik et al., 2010). For necrotising otitis externa, a systematic review of 70 studies (2,274 patients, mostly retrospective) found 84% were diabetic, *Pseudomonas* grew in 62%, 14% grew no organism, and there was no evidence for the best imaging, regimen or duration (median 7.2 weeks) (Takata et al., *Clin Otolaryngol* 2023). Cure rates have fallen and culture-negative cases risen over time (Byun et al., *Otol Neurotol* 2020). A UK multidisciplinary guideline identifies high-risk patients for early intensive treatment (Hopkins et al., *J Laryngol Otol* 2020).
 !!
 
 # For the examination | What the examiner wants to hear.

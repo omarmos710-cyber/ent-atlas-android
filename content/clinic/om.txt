@@ -59,38 +59,42 @@ Otalgia, fever, irritability, ear pulling and poor feeding, often after a cold. 
 ### Pain relief for everyone
 Paracetamol or ibuprofen, whatever is decided about antibiotics.
 ### Observation or antibiotics
-Many children recover without antibiotics. Watchful waiting for 48 to 72 hours, with a safety net, suits children over two with mild symptoms or an uncertain diagnosis, provided the parents can return. It does not raise the rate of mastoiditis.
-!table When to give antibiotics
-Age | Severe | Non-severe, both ears | Non-severe, one ear
-6–23 months | Antibiotic | Antibiotic | Antibiotic or observe
-2 years and over | Antibiotic | Antibiotic or observe | Antibiotic or observe
+Most acute otitis media settles without antibiotics in three days to a week, and antibiotics make only a small difference to pain (about 1 in 20 children benefits at two to three days, while about 1 in 14 gets diarrhoea, rash or vomiting). They do not meaningfully prevent mastoiditis: thousands of children would need treating to prevent one case. So the default is analgesia, safety-netting, and either no antibiotic or a back-up prescription to use if not better in three days or worse at any time.
+!table When to give an immediate antibiotic (NICE)
+Situation | Plan
+Systemically very unwell, or signs of a complication | Immediate antibiotic; admit if a complication is suspected
+Under 3 months with fever | Urgent paediatric assessment
+High risk (immunocompromised, cochlear implant, significant heart, lung, kidney or neuromuscular disease) | Immediate antibiotic
+Under 2 years with infection in both ears | Consider immediate antibiotic, or a back-up prescription
+Any age with otorrhoea (a perforation) | Consider immediate antibiotic, or a back-up prescription
+All others | No antibiotic or a back-up prescription; analgesia; review if worse
 !!
-Severe means fever over 39°C or moderate to severe pain for more than 48 hours.
+!differ When to treat
+NICE (2018): analgesia for all; immediate antibiotics only for the groups above; back-up prescriptions otherwise.
+American Academy of Pediatrics (2013): antibiotics for severe disease (fever 39°C or more, or moderate to severe pain for over 48 hours) and for non-severe bilateral disease under two; observation is an option for non-severe unilateral disease from six months, and for non-severe disease of either kind from two years.
+Know the UK scheme for practice and both for examinations.
+!!
 ### Choice of antibiotic
-- **First line:** high-dose amoxicillin.
-- **Amoxicillin-clavulanate:** if amoxicillin was given in the last 30 days, with purulent conjunctivitis, or after recurrent failure.
-- **Failure at 48 to 72 hours:** step up to amoxicillin-clavulanate, then intramuscular ceftriaxone for three days, then tympanocentesis for culture.
+- **First line:** amoxicillin for 5 to 7 days (the UK uses standard doses; the American guideline uses high-dose 80 to 90 mg/kg/day to cover resistant pneumococci).
+- **Penicillin allergy:** clarithromycin (or erythromycin).
+- **Not improving after 2 to 3 days of amoxicillin:** co-amoxiclav.
+- **Failure of second-line treatment** in a child who is unwell: specialist review, consider tympanocentesis or myringotomy for culture, and intravenous treatment (for example ceftriaxone).
 !differ Dose and duration of amoxicillin
 Dhingra: 40 mg/kg/day for at least 10 days.
 Lee: 90 mg/kg/day (high dose, to overcome resistant pneumococci), with duration by age.
-Current guidelines follow the high-dose regimen; know both for examinations.
+NICE: 5 to 7 days at standard doses. Know all three for examinations; follow local guidance in practice.
 !!
 ### Myringotomy
 Indicated for a bulging drum with severe pain, incomplete resolution with persisting hearing loss, or effusion beyond 12 weeks, and in the child who fails second-line treatment, when the fluid is sent for culture.
 !fig d10-1 | Treatment of acute otitis media, matched to its stage.
 ## Recurrent acute otitis media
-Prophylactic antibiotics are no longer recommended; grommets reduce the number of episodes, and adenoidectomy is added in older children or for repeat surgery.
+Three or more episodes in six months, or four or more in a year. Reduce risk factors (smoke exposure, dummies, day care where possible), encourage breastfeeding, and check vaccinations (pneumococcal and Hib); children who keep having infections despite vaccination may have poor antibody responses. The options are:
+- **Watchful management,** treating each episode promptly; many children grow out of it.
+- **Grommets,** which reduce episodes in the following six months and let infections be treated with antibiotic drops instead of oral antibiotics; the usual choice when effusion persists between attacks.
+- **Antibiotic prophylaxis** (for example amoxicillin at half dose, or azithromycin three times a week, for two to three months) roughly halves episodes while it is taken, but the effect stops with the drug and resistance is a concern; it is rarely used in the UK.
 !differ Recurrent otitis media
 Dhingra: Mentions amoxicillin prophylaxis, while noting its drawbacks and that many prefer grommets; grommets for 4 episodes in 6 months or 6 in a year.
 Lee: Does not recommend prophylaxis; defines recurrence as 3 in 6 months or 4 in 12 months.
-!!
-
-!update Acute and recurrent otitis media: guidance and evidence (Oxford Textbook)
-**Antibiotics.** NICE (2018) advises analgesia and self-care for non-severe acute otitis media, including unilateral disease from 6 to 23 months, because most cases resolve and the number of children treated to prevent one case of mastoiditis is about 4,800. Immediate antibiotics are reserved for children under two with bilateral disease, those with otorrhoea, the systemically unwell, those under six months and the immunocompromised: amoxicillin first, a macrolide in penicillin allergy, and high-dose co-amoxiclav if symptoms persist. The American Academy of Pediatrics allows shared decision-making with a 48 to 72 hour wait-and-see option.
-
-**Recurrent acute otitis media** is three or more episodes in six months or four or more in a year. Risk factors include day care, parental smoking and dummies; breastfeeding protects, and pneumococcal and Hib vaccination reduce episodes. Children who keep having infections despite vaccination may have poor antibody responses and benefit from a booster with the 23-valent vaccine. A meta-analysis of 14 trials found that long-term **antibiotic prophylaxis** (amoxicillin at half dose twice daily, or azithromycin 10 mg/kg three times a week, for two to three months) cut episodes from about three to 1.5 a year, with about five children treated to prevent one child having an attack, although the effect stops with the drug and resistance is a concern. **Grommets** reduce episodes by about one in the following six months, with little effect by a year, and allow infections to be treated with quinolone drops; they are the usual choice when effusion persists between attacks. Direct comparisons of prophylaxis and grommets are inconclusive.
-
-**Complications** now occur in only 0.05 to 0.25% of episodes. Acute mastoiditis follows fewer than 0.4%, mostly under two years; intravenous antibiotics alone succeed in about 73%, with myringotomy, grommet, drainage of a subperiosteal abscess or cortical mastoidectomy for the rest.
 !!
 
 # Otitis media with effusion | The quiet ear that cannot hear.
@@ -117,40 +121,42 @@ Lee: The value of endoscopy is clearest in high-risk patients.
 !!
 !imaging | Adenoid enlargement, and otomastoiditis with its complications.
 ## Natural history
-Most effusions clear on their own: about 70% within three months, and around 90% after treated acute otitis media.
+Most effusions clear on their own: screen-detected effusions clear in about 63% by three months and 88% by a year, and around 90% of effusions after treated acute otitis media resolve. But once a **bilateral** effusion has lasted three months, only about a quarter clear by six months. It affects 60 to 85% of children with Down syndrome or cleft palate.
 ## Management
-### Watchful waiting
-Review every three months with a hearing test. Antibiotics, steroids, antihistamines and decongestants have no lasting benefit and are not recommended. Autoinflation with a nasal balloon helps some children.
+NICE's 2023 guideline (NG233) recommends shared decisions at each step.
+### Monitoring
+Children with effusion but no hearing loss need reassurance only. With hearing loss (thresholds worse than 20 dB HL), reassess hearing after three months for bilateral disease, and consider it for unilateral disease. Antibiotics, steroids, antihistamines, decongestants and anti-reflux drugs have no lasting benefit and are not recommended.
+### Autoinflation
+Consider a nasal balloon in children old enough to use it; it can speed clearance.
+### Hearing aids and devices
+Air-conduction hearing aids are an equal alternative to surgery when the loss is stable; **bone-conduction devices** (on a soft band) when the hearing fluctuates or air-conduction aids are unsuitable (narrow canals, otorrhoea). Preferred in many children with Down syndrome.
+### Grommets
+Consider grommets for persistent effusion with hearing loss, especially bilateral loss affecting speech, learning, behaviour or quality of life, or in children at risk (speech delay, sensory or learning difficulty, cleft palate, Down syndrome). Discuss the risks: otorrhoea, perforation, atrophy and tympanosclerosis. Thick glue may need two incisions, one to let air in behind the fluid.
+!fig d10-3 d10-4 | First, two incisions in the drum let thick mucus be aspirated. Second, a grommet in place.
+!ops
+### Adenoidectomy
+NICE now advises **considering adenoidectomy alongside grommets** for children having them, unless there is a palatal abnormality (cleft or submucous cleft, which risks velopharyngeal insufficiency). It reduces the chance of needing grommets again. The American guideline offers tubes alone under four years, and tubes, adenoidectomy or both from four years.
 !differ Medical treatment of effusion
 Dhingra: Lists decongestants, antihistamines and antibiotics among the medical options.
 Lee: Guidelines find no role for them.
 Follow current guidelines in practice.
 !!
-### Grommets
-For effusion lasting three months or more with hearing loss, or in a child at risk (speech delay, learning or sensory difficulty, cleft palate, Down syndrome). Thick glue may need two incisions, one to let air in behind the fluid.
-!fig d10-3 d10-4 | First, two incisions in the drum let thick mucus be aspirated. Second, a grommet in place.
-!ops
-### Adenoidectomy
-Added for children over about four, for repeat tube insertion, or when there are nasal or sleep symptoms. It reduces the chance of needing tubes again.
-### Hearing aids
-An alternative to surgery, especially in Down syndrome where the canals are narrow and effusion persists.
-!update Guidelines and numbers (Oxford Textbook)
-Effusion peaks at about two years, when around one in five screened children have it, with a second peak at five; up to 90% of children have at least one episode before school. It affects 60 to 85% of children with Down syndrome or cleft palate. Screen-detected effusions clear in about 63% by three months and 88% by a year, but once a **bilateral** effusion has lasted three months, only about a quarter clear by six months and half persist three years later.
-
-**NICE** advises three months of watchful waiting, then ventilation tubes for persistent bilateral effusion with a hearing level in the better ear of 25 to 30 dB HL or worse (averaged over 0.5, 1, 2 and 4 kHz), or with significant developmental, educational or behavioural effects; **hearing aids** are an equal alternative, and are preferred in Down syndrome. NICE does not recommend adenoidectomy with the first set of tubes unless there are persistent or frequent upper respiratory symptoms, whereas the American guideline offers tubes alone under four years and tubes, adenoidectomy or both from four years. Otoscopy by an experienced examiner, pneumatic otoscopy and tympanometry each detect over 90% of effusions; tympanometry is the least specific.
-
-**Tube sequelae:** otorrhoea in about 16% soon after surgery and 26% later; blockage up to 7%; granulation 5%; tympanosclerosis about 32% and focal atrophy 25%; persistent perforation about 2%, rising to about 17% with long-stay tubes. Otorrhoea is best treated with topical antibiotic or antibiotic–steroid drops rather than oral antibiotics, and water precautions make little difference for most children.
-!!
+### After grommets
+Otorrhoea occurs in about 16% soon after surgery and 26% later; treat it with topical antibiotic or antibiotic-steroid drops rather than oral antibiotics. Blockage occurs in up to 7%, granulation in 5%, tympanosclerosis in about 32% and focal atrophy in 25%; persistent perforation in about 2%, rising to about 17% with long-stay tubes. Most children need no water precautions. Children with craniofacial anomalies or learning disability need a planned follow-up, because recurrent effusion is easily missed.
 !pearl Pearls
 - Almost every child with a cleft palate has effusion: offer earlier tubes, and keep watching after palate repair.
 - Grommet otorrhoea is treated with topical drops, not oral antibiotics.
 - Propping an infant up during feeds reduces reflux up the tube.
 !!
+!update Current evidence
+A Cochrane review of 13 trials found that antibiotics did not reduce pain at 24 hours and reduced it at two to three days in only 1 child in 20, while causing side effects in about 1 in 14 (Venekamp et al., *Cochrane Database Syst Rev* 2015). In a randomised trial of 250 children with recurrent acute otitis media, grommets did not reduce the rate of episodes over two years compared with medical management (1.48 vs 1.56 a year), though the first episode came later (Hoberman et al., *N Engl J Med* 2021). For effusion, a Cochrane review found grommets improved hearing by about 10 dB in the first months, with the benefit fading by a year (Browning et al., 2010). NICE's 2023 guideline on effusion (NG233) added autoinflation, bone-conduction devices and consideration of adenoidectomy with grommets.
+!!
 
 # Complications and sequelae | Acute and long term.
 ## Of acute otitis media
+- Complications now follow only 0.05 to 0.25% of episodes.
 - Perforation in about 5%; around 90% heal.
-- Acute mastoiditis and subperiosteal abscess.
+- Acute mastoiditis (fewer than 0.4% of episodes, mostly under two years) and subperiosteal abscess; intravenous antibiotics alone succeed in about three-quarters.
 - Facial palsy and labyrinthitis.
 - Meningitis and other intracranial complications.
 ## Of chronic effusion
@@ -168,7 +174,7 @@ Inadequate antibiotic courses can leave a smouldering ear that becomes a persist
 1. Look for complications first: face, balance, mastoid, neck and conscious level.
 2. Give analgesia to every child.
 3. Perform pneumatic otoscopy; a red drum alone is not enough.
-4. Decide antibiotics or observation by age, severity and laterality.
+4. Decide antibiotics, a back-up prescription or no antibiotic by risk, age, both ears and otorrhoea.
 5. Safety-net: return if worse at 48–72 hours, with neck swelling, weakness or drowsiness.
 !!
 ## Viva essentials
@@ -177,7 +183,7 @@ Inadequate antibiotic courses can leave a smouldering ear that becomes a persist
 - **Why children:** the Eustachian tube and the adenoid.
 - **The three bacteria,** and beta-lactamase production.
 - **Effusion:** drum appearance, type B tympanogram, 20–40 dB conductive loss.
-- **Indications for grommets,** and when to add adenoidectomy.
+- **Indications for grommets,** hearing aids as an alternative, and when to add adenoidectomy (NICE 2023).
 - **Unilateral effusion in an adult:** examine the nasopharynx.
 !!
 ## Common pitfalls

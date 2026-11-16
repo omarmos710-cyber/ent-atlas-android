@@ -83,18 +83,20 @@ For granulation that persists despite treatment, to exclude tuberculosis and mal
 Drops cannot work through pus. Clean the ear under the microscope by suction, dry mopping or gentle saline irrigation; never use forceful syringing.
 ## Topical treatment
 ### Drops
-Quinolone drops are preferred when the drum is perforated. Continue for four to six weeks after debridement when the ear is persistently active.
+Topical antibiotic drops are the main treatment once the ear is clean; they reach far higher concentrations than oral antibiotics. Quinolone drops (ciprofloxacin or ofloxacin, with or without a steroid) are preferred when the drum is perforated, because they are not ototoxic. Continue for one to two weeks after debridement, longer for a persistently active ear, and review.
 ### Technique
 Tragal pumping after instilling the drops pushes them through the perforation into the middle ear.
 ### Acidifying drops
 Acetic acid 1.5% helps against *Pseudomonas*.
+### Aminoglycoside drops and a perforation
+Gentamicin and neomycin-containing drops are ototoxic in animals, and manufacturers advise against them with an open middle ear. National specialist bodies, including ENT UK, have concluded that the risk from active infection outweighs the small risk from the drops: they may be used for active infection for up to about two weeks, with the patient warned to stop if hearing worsens or dizziness develops, and ideally a hearing test before treatment. Quinolone resistance in *Pseudomonas* is a growing concern, which is why aminoglycosides still have a role.
 !differ Ototoxic drops
 Dhingra: Advises avoiding aminoglycoside and polymyxin drops with a perforation.
 Lee: Lists neomycin and polymyxin preparations among the options.
-Quinolone drops are the safer choice with an open middle ear.
+Current UK practice: quinolones first; short courses of aminoglycoside drops are acceptable for active infection, with warnings.
 !!
 ## Systemic antibiotics
-Mainly for acute flares, chosen by culture.
+Mainly for spreading infection, complications or failure of topical treatment, chosen by culture; topical treatment works better than oral antibiotics for a discharging ear.
 ## Treating the source
 Treat infected tonsils, adenoids and sinuses, and allergy; avoid hard nose blowing.
 ## Keep water out
@@ -113,6 +115,9 @@ For patients unfit for or unwilling to have surgery, ideally once the ear is dry
 - No treatment of the Eustachian tube has proven benefit.
 !!
 !ops
+!update Current evidence
+A series of Cochrane reviews in 2020 and 2021 found the evidence for treatments of chronic suppurative otitis media limited and largely old, but suggested that topical antibiotics improve resolution of discharge compared with placebo and are probably more effective than systemic antibiotics (Brennan-Jones et al., 2020; Chong et al., 2021). Quinolone and aminoglycoside drops could not be separated on effectiveness, and adverse effects were poorly reported; antibiotic drops may be more effective than antiseptics such as boric acid (Head et al., 2020). Results of tympanoplasty and the place of mastoidectomy are covered in the operation chapters.
+!!
 
 # Complications | Uncommon in the safe ear, but real.
 ## Ossicular erosion
