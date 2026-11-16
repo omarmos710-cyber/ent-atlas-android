@@ -4,7 +4,7 @@
 ## Definition and mechanism
 Normally, a litre or so of mucus a day is carried backwards by the cilia and swallowed without being noticed. A sensation of postnasal drip arises when the volume rises, when the mucus becomes thicker or more irritant, when mucociliary clearance slows, or when the sensory nerves of the pharynx become hypersensitive. Many patients have more than one of these. In chest medicine, a cough attributed to the nose is called *upper airway cough syndrome*, but many patients with postnasal drip have no cough, and many with chronic cough have a sensitised cough reflex rather than a nasal cause.
 !flag Do not miss
-- **Unilateral nasal symptoms, blood-stained mucus or a neck lump:** nasopharyngeal and sinonasal tumour.
+- **Unilateral nasal symptoms, blood-stained mucus or a neck lump:** nasopharyngeal ([[t:npc]]) and sinonasal ([[t:sinus_ca]]) tumour.
 - **Hoarseness, dysphagia, weight loss or pain on swallowing:** laryngeal or pharyngeal malignancy.
 - **A smoker with a cough that has changed, haemoptysis or breathlessness:** chest X-ray and respiratory referral.
 - **Persistent cough in a patient taking an ACE inhibitor:** the drug.
@@ -25,17 +25,17 @@ Source | Examples | Clue
 Nose | Allergic and non-allergic rhinitis, rhinitis of the elderly | Sneezing, watery discharge, triggers
 Sinuses | Chronic rhinosinusitis, dental sinusitis, fungal ball | Pus in the meatus, smell loss, unilateral
 Nasopharynx | Adenoiditis, Thornwaldt cyst, tumour | Endoscopic findings
-Clearance | Primary ciliary dyskinesia, cystic fibrosis, dry atrophic nose, after sinus surgery | Thick mucus, crusting, lifelong symptoms
-Throat and reflux | Laryngopharyngeal reflux, globus | Throat clearing, hoarseness, normal nose
+Clearance | Primary ciliary dyskinesia, cystic fibrosis, dry atrophic nose ([[t:atrophic]]), after sinus surgery | Thick mucus, crusting, lifelong symptoms
+Throat and reflux | Laryngopharyngeal reflux, globus ([[t:ap_globus]]) | Throat clearing, hoarseness, normal nose
 Sensory | Cough hypersensitivity, laryngeal hypersensitivity | Cough triggered by talking, cold air, scents
 Drugs | ACE inhibitors, drying drugs | Medication history
 !!
 
 # Management | Treat what is found.
 ## When a cause is found
-**Rhinitis** is treated with saline irrigation and a steroid spray, with an antihistamine for allergy and ipratropium for watery discharge. **Chronic rhinosinusitis** follows its own pathway: saline, steroids, a long course of a macrolide in selected patients, and surgery if medical treatment fails. **Reflux** symptoms are managed with diet and lifestyle changes, alginates and, for typical acid symptoms, a proton pump inhibitor trial; evidence for proton pump inhibitors in throat symptoms alone is weak. Any drying or causative medication is reviewed with the prescriber.
+**[[t:rhinitis|Rhinitis]]** is treated with saline irrigation and a steroid spray, with an antihistamine for allergy and ipratropium for watery discharge. **[[t:crs|Chronic rhinosinusitis]]** follows its own pathway: saline, steroids, a long course of a macrolide in selected patients, and surgery if medical treatment fails. **Reflux** symptoms ([[t:laryngitis]]) are managed with diet and lifestyle changes, alginates and, for typical acid symptoms, a proton pump inhibitor trial; evidence for proton pump inhibitors in throat symptoms alone is weak. Any drying or causative medication is reviewed with the prescriber.
 ## When the sensation persists
-Many patients have a normal nose and larynx and still feel the drip. Explanation, reassurance that nothing serious has been found, adequate hydration and steam inhalation help. Throat clearing perpetuates the irritation, so **speech and language therapy** for laryngeal hygiene and cough suppression techniques is effective. In refractory chronic cough, a neuromodulator such as low-dose amitriptyline or **gabapentin** may be tried under specialist care.
+Many patients have a normal nose and larynx and still feel the drip. Explanation, reassurance that nothing serious has been found, adequate hydration and steam inhalation help. Throat clearing perpetuates the irritation, so **speech and language therapy** for laryngeal hygiene and cough suppression techniques is effective (chronic refractory cough is described in [[t:voice]]). In refractory chronic cough, a neuromodulator such as low-dose amitriptyline or **gabapentin** may be tried under specialist care.
 
 !path Postnasal drip
 Red flags? | unilateral symptoms, blood, neck lump, hoarseness or dysphagia: full endoscopic examination and imaging ; smoker with changed cough: chest X-ray
@@ -44,7 +44,7 @@ Throat and larynx | reflux features: lifestyle, alginate, trial of proton pump i
 Normal nose and larynx | review drugs ; explanation and hydration ; speech therapy for throat clearing ; neuromodulator for refractory cough
 !!
 !update Current evidence
-**Mechanisms.** Postnasal drip and catarrh usually reflect rhinitis or chronic rhinosinusitis, but many patients with persistent catarrh have normal endoscopy and CT, and their symptom reflects altered sensation rather than excess mucus. **Treatment.** Saline irrigation and intranasal steroids help when rhinitis or rhinosinusitis is present (EPOS 2020); where examination is normal, explanation and reassurance, avoiding repeated throat clearing and ineffective courses of antibiotics, are recommended. **Cough.** Upper airway cough syndrome is one of the commonest causes of chronic cough, along with asthma and reflux.
+**Mechanisms.** Postnasal drip and catarrh usually reflect rhinitis or chronic rhinosinusitis, but many patients with persistent catarrh have normal endoscopy and CT, and their symptom reflects altered sensation rather than excess mucus. **Treatment.** The nasal treatment above follows EPOS 2020, which also advises against repeated courses of antibiotics when examination is normal. **Cough.** Upper airway cough syndrome is one of the commonest causes of chronic cough, along with asthma and reflux.
 !!
 
 # For the examination | What the examiner wants to hear.

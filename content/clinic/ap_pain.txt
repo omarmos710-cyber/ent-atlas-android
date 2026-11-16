@@ -9,8 +9,8 @@ Rhinosinusitis pain accompanies an attack of nasal symptoms and settles when the
 - **Thunderclap headache**, new headache with fever, neck stiffness, confusion or focal neurological signs: emergency imaging and neurology.
 - **New headache over 50 with jaw claudication, scalp tenderness or visual symptoms:** giant cell arteritis — ESR, CRP and steroids the same day.
 - **Headache worse lying down, on waking or with straining, with visual obscurations or pulsatile tinnitus:** raised intracranial pressure.
-- **Facial numbness, diplopia, proptosis, a loose tooth or a nasal mass:** sinonasal malignancy.
-- **Acute sinusitis with periorbital swelling, reduced vision or severe headache:** orbital or intracranial complication.
+- **Facial numbness, diplopia, proptosis, a loose tooth or a nasal mass:** [[t:sinus_ca|sinonasal malignancy]].
+- **Acute sinusitis with periorbital swelling, reduced vision or severe headache:** orbital or intracranial complication ([[t:abs]], [[t:orbit]]).
 !!
 
 # Examination and tests | Endoscopy first.
@@ -24,7 +24,7 @@ CT of the sinuses is not a screening test for facial pain, because incidental mu
 # The causes | Recognising each.
 !table Facial pain and headache — features
 Condition | Pain and timing | Associated features | First-line treatment
-Rhinosinusitis | Pressure with nasal symptoms; settles when they do | Blockage, discharge, smell loss; pus on endoscopy | Treat the sinuses
+Rhinosinusitis | Pressure with nasal symptoms; settles when they do | Blockage, discharge, smell loss; pus on endoscopy | Treat the sinuses ([[t:crs]])
 Migraine | Unilateral, throbbing, 4 to 72 hours | Nausea, photophobia, aura in about a quarter; may cause nasal congestion | Triptan acutely; propranolol, topiramate or amitriptyline to prevent
 Tension-type headache | Bilateral, band-like pressing, mild to moderate | Few; stress, poor sleep | Simple analgesia, amitriptyline
 Midfacial segment pain | Symmetrical pressure over the nasal bridge, cheeks or between the eyes | Normal endoscopy; hyperaesthesia of the skin | Low-dose amitriptyline
@@ -33,14 +33,14 @@ Paroxysmal hemicrania | Like cluster but 2 to 30 minutes, many a day | Autonomic
 SUNCT and SUNA | Seconds to minutes, very frequent | Conjunctival injection and tearing | Lamotrigine
 Trigeminal neuralgia | Electric shocks for seconds, usually V2 or V3 | Triggered by touch, chewing, washing | Carbamazepine; MRI; microvascular decompression
 Giant cell arteritis | Temporal, new, over 50 | Jaw claudication, visual loss, raised ESR | Steroids at once
-Temporomandibular disorder | Preauricular, with chewing | Clicking, tender joint and muscles | Soft diet, splint, physiotherapy
+Temporomandibular disorder ([[t:otalgia]]) | Preauricular, with chewing | Clicking, tender joint and muscles | Soft diet, splint, physiotherapy
 !!
 ## Midfacial segment pain
 Midfacial segment pain is a form of tension-type headache affecting the middle third of the face. Patients describe a symmetrical pressure or tightness across the bridge of the nose, behind the eyes or over the cheeks, often feel their nose is blocked although it is not, and may have tender skin over the area. Endoscopy is normal, and the CT is normal or shows incidental changes. It responds to low-dose amitriptyline, starting at 10 mg at night and increased if needed, given for at least six weeks before its effect is judged and continued for about six months. Sinus surgery does not help.
 ## Migraine and the nose
 Migraine affects about one in seven people. Attacks can cause nasal congestion, discharge and tearing, and facial pain may be the only symptom, so migraine is commonly misdiagnosed as sinusitis. Acute attacks are treated with analgesics and triptans, used on no more than a few days a week to avoid medication-overuse headache. Prevention uses propranolol, topiramate (contraindicated in pregnancy) or amitriptyline, then candesartan, botulinum toxin for chronic migraine, or CGRP-targeted antibodies for refractory cases.
 ## Contact point headache
-The idea that a septal spur touching a turbinate causes pain is controversial. Most patients with contact points have no pain, and most with pain and contact points improve with medical treatment for midfacial segment pain. Surgery is considered only when a temporary local anaesthetic block abolishes the pain and other causes have been treated.
+The idea that a septal spur ([[t:septum]]) touching a turbinate causes pain is controversial. Most patients with contact points have no pain, and most with pain and contact points improve with medical treatment for midfacial segment pain. Surgery is considered only when a temporary local anaesthetic block abolishes the pain and other causes have been treated.
 
 # Pathway | Sinus or not?
 !path Facial pain
@@ -50,7 +50,7 @@ Pattern of the pain | unilateral throbbing with nausea: migraine ; symmetrical p
 Not improving | review analgesic overuse ; refer to neurology or a pain clinic
 !!
 !update Current evidence
-**Most "sinus headache" is migraine.** In a large study of patients with self-reported or physician-diagnosed sinus headache, 88% met criteria for migraine (Schreiber et al., *Arch Intern Med* 2004). EPOS 2020 states that facial pain without nasal symptoms, a normal endoscopy and a normal CT is unlikely to be rhinosinusitis. **Midfacial segment pain** (a tension-type pain of the midface) and other facial pain respond to low-dose amitriptyline, not sinus surgery. **Red flags:** a new headache over 50 (giant cell arteritis), neurological signs, cranial nerve palsy, or pain with a unilateral mass.
+**Most "sinus headache" is migraine.** In a large study of patients with self-reported or physician-diagnosed sinus headache, 88% met criteria for migraine (Schreiber et al., *Arch Intern Med* 2004). EPOS 2020 states that facial pain without nasal symptoms, a normal endoscopy and a normal CT is unlikely to be rhinosinusitis.
 !!
 
 # For the examination | What the examiner wants to hear.
