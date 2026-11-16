@@ -37,7 +37,7 @@ Sudden haemorrhage or infarction of an adenoma: a thunderclap headache, vomiting
 2. Check sodium, glucose, cortisol and the other pituitary hormones.
 3. Urgent MRI, or CT if MRI is not available.
 4. Formal visual acuity and fields, and eye movements.
-5. Neurosurgical and endocrine review; urgent decompression for falling vision or conscious level.
+5. Neurosurgical and endocrine review; urgent decompression for reduced acuity, severe field loss or falling conscious level. Eye movement palsies alone often recover without surgery.
 !!
 
 # Other sellar lesions | Not every sellar mass is an adenoma.
@@ -48,7 +48,7 @@ A tumour of the squamous remnant of Rathke's pouch along the stalk, with two age
 ## Meningioma
 Arising from the tuberculum sellae, planum or diaphragma, it enhances uniformly and often shows a *dural tail*. It causes visual loss with relatively preserved pituitary function. Surgery is for a deficit or growth that threatens one.
 ## Empty sella
-The sella is filled with CSF and the gland is flattened. *Primary* empty sella comes from a defect in the diaphragma, often with raised intracranial pressure, and is linked to spontaneous CSF leaks. *Secondary* empty sella follows surgery, radiotherapy or apoplexy.
+The sella is filled with CSF and the gland is flattened. *Primary* empty sella comes from a defect in the diaphragma, often with raised intracranial pressure, and is linked to spontaneous CSF leaks ([[t:csf]]). *Secondary* empty sella follows surgery, radiotherapy or apoplexy.
 ## Others
 Chordoma of the clivus, chondrosarcoma, metastases, lymphocytic hypophysitis, and an internal carotid aneurysm, which must never be mistaken for a tumour.
 
@@ -64,7 +64,7 @@ Visual acuity, colour vision and formal perimetry. A field defect is the commone
 
 # Treatment | Tablets, observation or surgery.
 ## Prolactinoma
-Treated first with a *dopamine agonist*, cabergoline or bromocriptine, which shrinks the tumour and restores fertility in most patients. Surgery is for intolerance, resistance, or visual loss that does not improve rapidly.
+Treated first with a *dopamine agonist*, cabergoline first or bromocriptine, which shrinks the tumour and restores fertility in most patients, even for macroadenomas with visual loss. Surgery is for intolerance, resistance, visual loss that does not improve rapidly, or patient choice, and is increasingly offered as a first option for small, well-placed adenomas.
 ## Non-functioning adenoma
 Small, asymptomatic tumours are watched with MRI and visual fields. Surgery is indicated for visual compromise, growth, or apoplexy.
 ## Growth hormone, ACTH and TSH adenomas
@@ -93,7 +93,7 @@ Pituitary surgery is a two-surgeon operation: the otolaryngologist provides and 
 5. Open the sellar floor and dura, and remove the tumour.
 6. Reconstruct: free grafts for small defects, the nasoseptal flap for larger ones or a high-flow CSF leak.
 ## Extended approaches
-The *transplanum* and *transtuberculum* approaches reach suprasellar extension and giant adenomas compressing the optic nerves; the transcavernous and transclival routes go further. These are tertiary skull base procedures.
+The *transplanum* and *transtuberculum* approaches reach suprasellar extension and giant adenomas compressing the optic nerves; the transcavernous and transclival routes go further. These are tertiary skull base procedures ([[t:skullbase]]); the endoscopic technique in general is covered in [[t:sinussurg]].
 ## Outcomes
 Compared with the microscopic approaches, the endoscopic approach gives more complete removal and fewer septal perforations, with similar rates of meningitis, diabetes insipidus and endocrine problems.
 !ops
@@ -119,16 +119,10 @@ Epistaxis | Often from the sphenopalatine or posterior septal artery
 Nasal morbidity | Crusting, synechiae, septal perforation, reduced smell
 !!
 !update Current evidence
-**Prolactinoma.** Dopamine agonists, cabergoline first, are first-line treatment even for macroadenomas with visual loss; surgery is for intolerance, resistance or patient choice, and is increasingly offered as a first option for small, well-placed adenomas (Pituitary Society consensus, Petersenn et al., *Nat Rev Endocrinol* 2023). **Non-functioning adenomas.** Surgery is indicated for visual compromise or growth; small incidental lesions without symptoms are observed with MRI and visual fields. **Apoplexy.** The UK guideline recommends immediate hydrocortisone, and surgery for reduced visual acuity, severe field loss or falling consciousness; many patients with eye movement palsies alone recover with conservative treatment (Rajasekaran et al., *Clin Endocrinol* 2011). **Endoscopic or microscopic.** Meta-analyses show similar or slightly better resection with the endoscope, fewer nasal complications and a shorter stay.
+**Prolactinoma.** Pituitary Society consensus (Petersenn et al., *Nat Rev Endocrinol* 2023). **Apoplexy.** UK guideline (Rajasekaran et al., *Clin Endocrinol* 2011). **Endoscopic or microscopic.** Meta-analyses show similar or slightly better resection with the endoscope, fewer nasal complications and a shorter stay.
 !!
 
 # For the examination | What the examiner wants to hear.
-## Where the books differ
-!differ
-K. J. Lee: gives the clearest account of the sellar lesions (adenoma, Rathke cleft cyst, craniopharyngioma, meningioma, empty sella), the endocrine work-up and postoperative sodium monitoring.
-Oxford Textbook: describes the extended endonasal approaches and reserves the transplanum route for giant adenomas compressing the optic nerves.
-Dhingra: lists pituitary surgery among the advanced nasal endoscopic procedures, without the endocrine detail.
-!!
 ## Viva essentials
 !exam What the examiner is looking for
 - **Relations** of the sella: chiasm above, cavernous sinuses with the carotid and nerves III to VI at the sides.
