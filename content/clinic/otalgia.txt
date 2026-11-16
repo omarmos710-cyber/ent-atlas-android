@@ -6,11 +6,11 @@
 ## The rule
 If the canal, drum and hearing are normal, examine everything that shares the ear's nerves before calling the pain idiopathic or psychogenic, and keep the patient under review.
 !flag Red flags in earache
-- **An elderly or diabetic patient with severe pain, discharge and granulation on the canal floor:** necrotising otitis externa.
+- **An elderly or diabetic patient with severe pain, discharge and granulation on the canal floor:** [[t:oe|necrotising otitis externa]].
 - **A normal ear with dysphagia, odynophagia, hoarseness, weight loss or a neck lump, especially in a smoker or drinker:** referred pain from upper aerodigestive tract cancer.
-- **Facial weakness, vertigo or hearing loss with ear pain:** Ramsay Hunt syndrome, a complication of otitis media, or a tumour.
+- **Facial weakness, vertigo or hearing loss with ear pain:** Ramsay Hunt syndrome ([[t:facial]]), a complication of otitis media ([[t:icc]]), or a tumour ([[t:extca]]).
 - **Pain with jaw claudication or scalp tenderness in an older patient:** giant cell arteritis.
-- **Swelling behind the ear pushing the pinna forward:** mastoiditis.
+- **Swelling behind the ear pushing the pinna forward:** [[t:mastoiditis]].
 !!
 
 # Nerve supply | Why pain travels to the ear.
@@ -28,7 +28,7 @@ C2 and C3 | Back of the pinna and mastoid skin | Cervical spine, neck injury
 
 # Primary otalgia | The ear is abnormal.
 ## Causes in the ear
-The **pinna** gives perichondritis, cellulitis, trauma, frostbite, chondrodermatitis nodularis helicis (a tender nodule on the helix that wakes the patient when lying on that side) and skin cancer. The **canal** gives acute otitis externa, furunculosis (exquisite pain, a swelling in the outer canal), otomycosis, impacted wax or foreign body, necrotising otitis externa, keratosis obturans and carcinoma. The **middle ear** gives acute otitis media, which in adults is less common and should prompt a look at the nasopharynx, bullous myringitis, barotrauma, Eustachian tube dysfunction, mastoiditis and its complications, and carcinoma.
+The **pinna** ([[t:pinna]]) gives perichondritis, cellulitis, trauma, frostbite, chondrodermatitis nodularis helicis (a tender nodule on the helix that wakes the patient when lying on that side) and skin cancer. The **canal** ([[t:oe]], [[t:canal]]) gives acute otitis externa, furunculosis (exquisite pain, a swelling in the outer canal), otomycosis, impacted wax or foreign body, necrotising otitis externa, keratosis obturans and carcinoma. The **middle ear** gives acute [[t:om|otitis media]], which in adults is less common and should prompt a look at the [[t:npc|nasopharynx]], bullous myringitis, barotrauma, Eustachian tube dysfunction, mastoiditis and its complications, and carcinoma.
 ## Herpes zoster oticus
 Ramsay Hunt syndrome begins with deep, burning ear pain, often days before the vesicles in the concha, canal or palate, and is accompanied by facial palsy and sometimes hearing loss and vertigo. Early pain without a rash is easily mistaken for otitis externa or Bell's palsy.
 
@@ -36,9 +36,9 @@ Ramsay Hunt syndrome begins with deep, burning ear pain, often days before the v
 ## Through the trigeminal nerve
 **Dental disease** (caries, apical abscess, impacted third molars, cracked teeth) and **temporomandibular disorders** are the commonest causes of referred earache. Temporomandibular disorders cause preauricular pain worse with chewing, clicking, limited opening, bruxism and tender masticatory muscles; *Costen syndrome* links a faulty bite with earache, a blocked feeling, tinnitus and headache. Sinusitis, parotitis, oral ulcers and cancers of the tongue and floor of mouth also refer pain this way.
 ## Through the glossopharyngeal nerve
-Tonsillitis, quinsy, the days after tonsillectomy, cancer of the tonsil and tongue base, and an elongated styloid process or calcified stylohyoid ligament (**Eagle syndrome**), which causes throat and ear pain on swallowing and turning the head, with a palpable styloid in the tonsillar fossa. **Glossopharyngeal neuralgia** causes paroxysmal stabbing pain in the throat and ear triggered by swallowing or talking.
+[[t:tonsil|Tonsillitis, quinsy]], the days after tonsillectomy, cancer of the tonsil and tongue base ([[t:tonsil_ca]]), and an elongated styloid process or calcified stylohyoid ligament (**Eagle syndrome**), which causes throat and ear pain on swallowing and turning the head, with a palpable styloid in the tonsillar fossa. **Glossopharyngeal neuralgia** causes paroxysmal stabbing pain in the throat and ear triggered by swallowing or talking.
 ## Through the vagus
-Cancer or inflammation of the vallecula, epiglottis, larynx, piriform fossa and oesophagus, and reflux. Pain from the hypopharynx is classically felt in the ear, sometimes before any other symptom.
+Cancer or inflammation of the vallecula, epiglottis, larynx ([[t:lxca]]), piriform fossa ([[t:hypoca]]) and oesophagus, and reflux ([[t:laryngitis]]). Pain from the hypopharynx is classically felt in the ear, sometimes before any other symptom.
 ## Through C2 and C3
 Cervical spondylosis, whiplash injury and other neck disease refer pain behind the ear.
 ## Other causes
@@ -55,7 +55,7 @@ An adult smoker or drinker with one-sided ear pain, a normal ear, and any throat
 ## Investigations
 Investigations follow the findings: an orthopantomogram and dental review, imaging of the temporomandibular joint or styloid, CT or MRI of the neck and skull base, ESR and CRP for suspected arteritis, and biopsy of any lesion. In suspected necrotising otitis externa, CT and MRI with inflammatory markers and biopsy.
 !update Current evidence
-**Referred pain in adults.** Temporomandibular joint disorders and dental disease are the commonest causes of referred otalgia; cervical spine disease and pharyngeal or laryngeal inflammation follow. Persistent otalgia with a normal ear in an adult over about 45, especially a smoker or drinker, needs full examination of the upper aerodigestive tract, with flexible endoscopy, because cancer of the tongue base, tonsil, piriform sinus or larynx may present this way. NICE NG12 recommends a suspected-cancer referral for persistent unexplained hoarseness or neck lump in people aged 45 and over. **Neuralgias.** Glossopharyngeal neuralgia responds to carbamazepine; MRI looks for vascular compression or a tumour.
+**Referred pain in adults.** After dental and jaw causes, cervical spine disease and pharyngeal or laryngeal inflammation follow. The cancer search applies especially over about 45, and NICE NG12 recommends a suspected-cancer referral for persistent unexplained hoarseness or neck lump in people aged 45 and over. **Neuralgias.** MRI looks for vascular compression or a tumour.
 !!
 
 # Pathway | From pain to source.

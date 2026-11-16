@@ -44,9 +44,9 @@ Examine the ear under the microscope for cholesteatoma, otitis media, a mass beh
 ## The common causes
 **Bell's palsy** accounts for about 70% of acute lower motor neuron palsies. It affects about 30 people per 100,000 per year, peaks around 40 years and recurs in about 7%. **Ramsay Hunt syndrome**, caused by reactivation of varicella zoster in the geniculate ganglion, is the second commonest and carries a worse prognosis, with only about 20% recovering completely. The vesicles may appear late or not at all (*zoster sine herpete*), so a "Bell's palsy" with severe pain, hearing loss or vertigo deserves antiviral treatment.
 
-**Otological causes** include acute otitis media in children, where the canal is often dehiscent and the prognosis is excellent with antibiotics and a myringotomy; cholesteatoma, which causes a palsy in under 1% of cases but in up to 50% of petrous apex disease and needs surgery; and necrotising otitis externa, with pain, discharge and progressive cranial neuropathies in an elderly diabetic. **Trauma** includes temporal bone fractures, especially those crossing the otic capsule, and surgical injury in the middle ear, the mastoid, the cerebellopontine angle and the parotid.
+**Otological causes** include acute [[t:om|otitis media]] in children, where the canal is often dehiscent and the prognosis is excellent with antibiotics and a myringotomy; [[t:chole|cholesteatoma]], which causes a palsy in under 1% of cases but in up to 50% of [[t:petrous|petrous apex]] disease and needs surgery; and [[t:oe|necrotising otitis externa]], with pain, discharge and progressive cranial neuropathies in an elderly diabetic. **Trauma** includes [[t:tbfx|temporal bone fractures]], especially those crossing the otic capsule, and surgical injury in the middle ear, the mastoid, the cerebellopontine angle and the parotid.
 
-**Tumours** may arise in the nerve (schwannoma and haemangioma), press on it (paraganglioma, meningioma, vestibular schwannoma) or invade it (parotid cancer, cutaneous squamous cell carcinoma with perineural spread). **Neurological and systemic causes** include stroke, Guillain–Barré syndrome, Lyme disease, sarcoidosis and, in children, congenital palsies such as Möbius syndrome and CHARGE.
+**Tumours** may arise in the nerve (schwannoma and haemangioma), press on it (paraganglioma, meningioma, [[t:vs|vestibular schwannoma]]) or invade it ([[t:saltum|parotid cancer]], [[t:skinca|cutaneous squamous cell carcinoma]] with perineural spread). **Neurological and systemic causes** include stroke, Guillain–Barré syndrome, Lyme disease, sarcoidosis and, in children, congenital palsies such as Möbius syndrome and CHARGE.
 !table Where the lesion lies
 Site | Clues | Examples
 Supranuclear | Forehead spared; limb or speech signs | Stroke, tumour
@@ -75,6 +75,7 @@ Not recovering by three to four months, slow, twitching or recurrent | MRI with 
 !!
 
 # Management | Principles for each group.
+Each cause is described in full in [[t:facial]].
 ## Bell's palsy
 Prednisolone started within 72 hours improves the chance of full recovery; a typical adult course is 50 to 60 mg daily for 5 to 10 days, with or without a taper. Antivirals alone do not help, and adding them to steroids offers at most a small benefit, so they are reserved for severe palsy or suspected zoster. Every patient with incomplete closure needs eye protection. About 85% begin to recover within three weeks and most recover fully; complete palsy at onset, age over 60, severe pain, diabetes, hypertension and no recovery by three weeks predict a worse outcome. Surgical decompression of the labyrinthine segment, the narrowest part of the canal at about 0.6 mm, remains controversial.
 ## Ramsay Hunt syndrome
@@ -82,9 +83,9 @@ Treat with steroids and an antiviral such as aciclovir or valaciclovir, protect 
 ## Trauma
 An immediate complete palsy after a temporal bone fracture, with CT evidence of disruption of the canal or more than 90% degeneration on electroneuronography, is considered for exploration and repair. A delayed or incomplete palsy almost always recovers with steroids and eye care. A nerve known to have been cut at surgery is repaired at once.
 ## Long-term weakness
-Patients left with weakness need facial therapy, protection of the eye with gold or platinum weights in the upper lid and lower lid tightening, and botulinum toxin for synkinesis. Reanimation depends on whether the muscles are still viable, which is unlikely after 18 to 24 months: nerve repair, grafting or nerve transfer (masseteric or hypoglossal) while they are, and muscle transposition or free gracilis transfer once they are not.
+Patients left with weakness need facial therapy, protection of the eye with gold or platinum weights in the upper lid and lower lid tightening, and botulinum toxin for synkinesis. Reanimation ([[t:hnrecon]]) depends on whether the muscles are still viable, which is unlikely after 18 to 24 months: nerve repair, grafting or nerve transfer (masseteric or hypoglossal) while they are, and muscle transposition or free gracilis transfer once they are not.
 !update Current evidence
-**Bell's palsy guideline.** The American guideline recommends steroids within 72 hours, an antiviral only alongside steroids, no routine laboratory tests or imaging, no electrodiagnosis in incomplete palsy, eye protection for incomplete closure, and referral if recovery is incomplete at three months (Baugh et al., *Otolaryngol Head Neck Surg* 2013). **Evidence.** Prednisolone raised full recovery at three months from 64% to 83% (Sullivan et al., *NEJM* 2007). **Grading.** House–Brackmann remains standard; the Sunnybrook and eFACE scales capture recovery and synkinesis better.
+**Bell's palsy guideline.** The American guideline underlies the management above, including no electrodiagnosis in incomplete palsy and referral if recovery is incomplete at three months (Baugh et al., *Otolaryngol Head Neck Surg* 2013). **Evidence.** Prednisolone raised full recovery at three months from 64% to 83% (Sullivan et al., *NEJM* 2007). **Grading.** House–Brackmann remains standard; the Sunnybrook and eFACE scales capture recovery and synkinesis better.
 !!
 
 # For the examination | What the examiner wants to hear.
