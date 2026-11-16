@@ -8,7 +8,7 @@ The second commonest cancer of the upper aerodigestive tract and about 1 to 5% o
 - **Alcohol:** especially for supraglottic cancer; with tobacco the effects multiply (about fifteenfold).
 - **Others:** previous radiation to the neck, papillomatosis (HPV 6 and 11, rarely malignant), occupational exposures (asbestos, nickel, mustard gas, wood dust, paints, diesel fumes), reflux, and genetic susceptibility.
 ## Premalignant lesions
-Hyperplasia, keratosis, mild, moderate and severe dysplasia and carcinoma in situ form a spectrum. Mild to moderate dysplasia progresses in about 7 to 11%, severe dysplasia in 18 to 30%; severe dysplasia and carcinoma in situ behave alike. Excisional biopsy (microflap or laser) is the diagnosis and usually the treatment; radiotherapy for multifocal disease or the frail; lifelong follow-up.
+Hyperplasia, keratosis, mild, moderate and severe dysplasia and carcinoma in situ form a spectrum (the white patch is described in [[t:benign]]). Mild to moderate dysplasia progresses in about 7 to 11%, severe dysplasia in 18 to 30%; severe dysplasia and carcinoma in situ behave alike. Excisional biopsy (microflap or laser) is the diagnosis and usually the treatment; radiotherapy for multifocal disease or the frail; lifelong follow-up.
 
 # Pathology and regions | Where it starts determines how it behaves.
 ## Histology
@@ -67,16 +67,16 @@ T3 | Fold fixation, or postcricoid area, pre-epiglottic space, paraglottic space
 T4a | Through the thyroid cartilage or beyond the larynx (trachea, soft tissues, deep tongue muscle, strap muscles, thyroid, oesophagus) | As supraglottis | Cricoid or thyroid cartilage, or beyond the larynx
 T4b | Prevertebral space, encasing the carotid, or mediastinum | As supraglottis | As supraglottis
 !!
-N staging follows the general head and neck rules, now including *extranodal extension*, which upstages nodes (N2a and N3b); Dhingra prints the earlier (6th edition) tables, based on size alone.
+N staging follows the general head and neck rules, now including *extranodal extension*, which upstages nodes (N2a and N3b); Older texts print the earlier (6th edition) tables, based on size alone.
 !imaging | Glottic and supraglottic tumours, pharyngeal tumours and synchronous malignancies on imaging.
 
 # Treatment | Cure, then function.
 ## Principles
 Early cancers (stage I and II) are treated by a single modality, radiotherapy or surgery, with similar control; the choice turns on voice, swallowing, access, fitness and preference. Advanced cancers (stage III and IV) need combined treatment, with organ preservation where it is safe and total laryngectomy where it is not.
 ## Radiotherapy
-For early tumours with mobile folds and no cartilage invasion or nodes: about 60 to 70 Gy over six weeks. T1 glottic cancer is controlled in about 90% or more with good voice; T2 in about 85% with normal mobility but much less (about 63 to 70%) when mobility is impaired. It spares the voice and avoids surgery but causes mucositis, oedema, dryness and occasional chondronecrosis, makes recurrence harder to detect, and cannot be repeated. Poor results with fixed folds, subglottic extension, cartilage invasion and nodes.
+For early tumours with mobile folds and no cartilage invasion or nodes: about 60 to 70 Gy over six weeks ([[t:hnrt]]). T1 glottic cancer is controlled in about 90% or more with good voice; T2 in about 85% with normal mobility but much less (about 63 to 70%) when mobility is impaired. It spares the voice and avoids surgery but causes mucositis, oedema, dryness and occasional chondronecrosis, makes recurrence harder to detect, and cannot be repeated. Poor results with fixed folds, subglottic extension, cartilage invasion and nodes.
 ## Transoral surgery
-*Transoral laser microsurgery* (CO2 laser under the microscope), and more recently transoral robotic surgery, has largely replaced open partial laryngectomy for T1, T2 and selected T3 tumours: cordectomy for glottic cancer, supraglottic resection for supraglottic cancer. It is cheaper and quicker, avoids tracheostomy, keeps radiotherapy in reserve, and gives similar control to radiotherapy, but the voice may be poorer after wide cordectomy. It needs good exposure, and is contraindicated by fold fixation, interarytenoid involvement and poor lung function.
+*Transoral laser microsurgery* (CO2 laser under the microscope; [[t:laser]]), and more recently transoral robotic surgery, has largely replaced open partial laryngectomy for T1, T2 and selected T3 tumours: cordectomy for glottic cancer, supraglottic resection for supraglottic cancer. It is cheaper and quicker, avoids tracheostomy, keeps radiotherapy in reserve, and gives similar control to radiotherapy, but the voice may be poorer after wide cordectomy. It needs good exposure, and is contraindicated by fold fixation, interarytenoid involvement and poor lung function.
 ## Open conservation surgery
 Now used mainly in selected patients and after radiotherapy failure:
 - **Cordectomy through a laryngofissure.**
@@ -84,7 +84,7 @@ Now used mainly in selected patients and after radiotherapy failure:
 - **Supraglottic (horizontal partial) laryngectomy:** removes the epiglottis, pre-epiglottic space, false folds and aryepiglottic folds above the ventricles; for T1 and T2 supraglottic cancer with mobile folds, clear of the anterior commissure, with good lung function, because every patient aspirates at first and must relearn swallowing.
 - **Supracricoid partial laryngectomy:** removes both folds, the paraglottic spaces and the thyroid cartilage, rebuilt by cricohyoidopexy or cricohyoidoepiglottopexy; for selected T2 and T3 tumours with at least one mobile arytenoid.
 ## Total laryngectomy
-Removal of the whole larynx with the hyoid, pre-epiglottic space and upper trachea; the pharynx is closed and the trachea brought out as a permanent end stoma. Dhingra's indications:
+Removal of the whole larynx with the hyoid, pre-epiglottic space and upper trachea; the pharynx is closed and the trachea brought out as a permanent end stoma. The classic indications:
 - T3 and T4 tumours (fold fixed, cartilage invaded, extralaryngeal spread).
 - Invasion of the thyroid or cricoid cartilage; both arytenoids; posterior commissure.
 - Transglottic tumours with fold fixation.

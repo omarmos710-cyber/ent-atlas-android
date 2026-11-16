@@ -13,7 +13,7 @@ Cysts: ductal, epidermoid, saccular | Rhabdomyoma, lipoma, fibroma
 Laryngocele; sulcus vocalis |
 !!
 ## Assessment of the hoarse voice
-Any hoarseness lasting more than three weeks, or sooner in a smoker or with pain, dysphagia, otalgia, stridor or a neck mass, needs laryngoscopy. *Videostroboscopy* shows the mucosal wave, which distinguishes superficial lesions (nodules, polyps) from those that stiffen the fold (cysts, scar, sulcus, carcinoma). Perceptual rating, acoustic analysis and voice handicap indices measure the voice before and after treatment.
+Any hoarseness lasting more than three weeks (four weeks in the American guideline), or sooner in a smoker or with pain, dysphagia, otalgia, stridor or a neck mass, needs laryngoscopy. *Videostroboscopy* shows the mucosal wave, which distinguishes superficial lesions (nodules, polyps) from those that stiffen the fold (cysts, scar, sulcus, carcinoma). Perceptual rating, acoustic analysis and voice handicap indices measure the voice before and after treatment.
 ## Surgery
 *Phonomicrosurgery* under suspension microlaryngoscopy with cold instruments or laser: a *microflap* is raised through a small incision on the upper surface, the lesion dissected from beneath, and the epithelium laid back, preserving the superficial lamina propria and the vocal ligament. The anterior commissure is never stripped on both sides at once, to avoid a web. Voice therapy before and after prevents recurrence.
 !fig d61-3 | The set-up for microlaryngeal surgery.
@@ -25,7 +25,7 @@ Singers', screamers' or teachers' nodes. *Bilateral, symmetrical* swellings on t
 !fig d61-1 d61-2 | First, the site of vocal nodules at the junction of the anterior third and posterior two-thirds of the folds. Second, vocal nodules on laryngoscopy.
 - **Symptoms:** hoarseness, a breathy voice that tires, loss of the upper range in singers, and neck pain after prolonged speaking.
 - **Stroboscopy:** an hourglass closure with a preserved mucosal wave.
-- **Treatment:** *voice therapy* is the cornerstone; most children's nodules disappear, and many adults'. Lee goes further: lesions that do not shrink after good, compliant therapy are by definition not nodules. Microsurgical excision for large, fibrotic nodules persisting after therapy, with care not to injure the vocal ligament, and continued therapy afterwards; intralesional steroid may help.
+- **Treatment:** *voice therapy* ([[t:voice]]) is the cornerstone; most children's nodules disappear, and many adults'. Some go further: lesions that do not shrink after good, compliant therapy are by definition not nodules. Microsurgical excision for large, fibrotic nodules persisting after therapy, with care not to injure the vocal ligament, and continued therapy afterwards; intralesional steroid may help.
 ## Vocal polyp
 Usually a *unilateral*, soft, smooth, often pedunculated swelling at the same site, after sudden shouting causing haemorrhage into the fold, with smoking and allergy contributing; mostly men of thirty to fifty. It may be haemorrhagic, gelatinous or fibrous. Hoarseness, *diplophonia* (two pitches from two differently vibrating folds), and if large and pedunculated, choking or stridor as it flops through the glottis. Treatment is microsurgical excision followed by voice therapy.
 !fig d61-4 | A pedunculated polyp on the right vocal fold.
@@ -35,7 +35,7 @@ Bilateral, diffuse, symmetrical, pale, translucent swelling of the whole membran
 
 # Granulomas and keratosis | The back of the fold and the white patch.
 ## Contact ulcer and granuloma
-On the *vocal processes* of the arytenoids, where they hammer together with hard glottal attacks, forceful low-pitched speech and habitual throat clearing; laryngopharyngeal reflux is a major factor, and intubation another. Hoarseness, pain on speaking radiating to the ear, a foreign-body feeling and constant throat clearing. Ulcers or granulomas sit on one or both vocal processes with red arytenoid mucosa.
+On the *vocal processes* of the arytenoids, where they hammer together with hard glottal attacks, forceful low-pitched speech and habitual throat clearing; laryngopharyngeal reflux is a major factor ([[t:laryngitis]]), and intubation another ([[t:lxtrauma]]). Hoarseness, pain on speaking radiating to the ear, a foreign-body feeling and constant throat clearing. Ulcers or granulomas sit on one or both vocal processes with red arytenoid mucosa.
 - Anti-reflux treatment (twice-daily proton pump inhibitor), even without heartburn.
 - Voice therapy to stop throat clearing and correct pitch.
 - Inhaled or injected steroid.
@@ -46,7 +46,7 @@ Injury to the vocal processes from rough intubation, a large tube or prolonged i
 ## Leukoplakia and keratosis
 White plaques or warty thickening on the upper surface of one or both folds with normal mobility, in smokers. Histology ranges from simple keratosis through dysplasia to carcinoma in situ and invasive carcinoma, so it is a *precancerous condition*. Biopsy or *excisional microflap stripping* for histology, stop smoking, treat reflux, and follow up for recurrence and new lesions; avoid repeated deep stripping that scars the voice.
 !flag The white patch on a smoker's fold
-A keratotic or red lesion with a reduced mucosal wave on stroboscopy, irregular surface, or impaired mobility is suspicious for invasive carcinoma: biopsy rather than repeated observation.
+A keratotic or red lesion with a reduced mucosal wave on stroboscopy, irregular surface, or impaired mobility is suspicious for invasive carcinoma ([[t:lxca]]): biopsy rather than repeated observation.
 !!
 ## Amyloid
 Men of fifty to seventy: a yellow or orange submucosal mass in the false fold, ventricle, true fold or subglottis, causing hoarseness or dyspnoea; apple-green birefringence with Congo red. Exclude myeloma and systemic amyloidosis; remove localised deposits endoscopically; the outlook is good.
@@ -84,7 +84,7 @@ The aim is a safe airway and a useful voice with as few scars as possible; surge
 ## Chondroma
 Usually from the posterior lamina of the cricoid, also the thyroid, arytenoid or epiglottis; men of forty to sixty. A slow, hard, submucosal mass causing dyspnoea when subglottic, or a lump feeling and dysphagia when growing back into the hypopharynx. CT shows a calcified cartilaginous mass; biopsy (with the laser through hard tissue) to exclude chondrosarcoma. Excision through a laryngofissure or lateral pharyngotomy, preserving as much cricoid as possible; laryngectomy for large or recurrent tumours.
 ## Haemangioma
-- **Infantile:** subglottic, capillary, presenting with stridor in the first six months, half with skin haemangiomas; involutes, and is treated with propranolol (see congenital lesions).
+- **Infantile:** subglottic, capillary, presenting with stridor in the first six months, half with skin haemangiomas; involutes, and is treated with propranolol ([[t:lxcong]]).
 - **Adult:** cavernous, on the fold or supraglottis; left alone if silent, treated with steroids, laser or excision if symptomatic.
 ## Granular cell tumour
 From Schwann cells, submucosal, usually on the posterior fold; the overlying *pseudoepitheliomatous hyperplasia* can be mistaken for well-differentiated carcinoma. Complete excision prevents recurrence.

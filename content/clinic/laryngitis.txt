@@ -1,4 +1,4 @@
-@stand A voice that has been hoarse for months, in a smoker who clears his throat all day, is the classic picture of chronic laryngitis. Lee warns that the term is not a diagnosis but a description: behind it lie reflux, smoking, voice misuse, infection, allergy and, occasionally, systemic disease, and on the vocal folds some of these can look exactly like cancer. Find the cause, and biopsy anything that does not behave.
+@stand A voice that has been hoarse for months, in a smoker who clears his throat all day, is the classic picture of chronic laryngitis. The term is a description rather than a diagnosis: behind it lie reflux, smoking, voice misuse, infection, allergy and, occasionally, systemic disease, and on the vocal folds some of these can look exactly like cancer. Find the cause, and biopsy anything that does not behave.
 
 # Overview | Prolonged laryngeal inflammation.
 ## Causes
@@ -14,13 +14,18 @@
 !anat s239_14 | Coronal section of the larynx: vestibular and vocal folds, ventricle and saccule.
 ## Approach
 Stroboscopic or high-quality endoscopic examination of the larynx; treat reflux, irritants and voice use; biopsy any lesion that persists, is asymmetric, ulcerated or exophytic, or occurs in a smoker, because tuberculosis, granulomas and carcinoma can look alike.
+!differ Chronic laryngitis as a diagnosis
+Dhingra: Describes chronic laryngitis as an entity, in hyperaemic and hypertrophic forms, with treatment centred on voice rest, steam and removal of irritants.
+Lee: Advises abandoning "chronic laryngitis" as a diagnosis, replacing it with "prolonged laryngeal inflammation" and a named cause, and gives reflux a central place.
+In practice: Use "chronic laryngitis" as a description, name the cause (reflux, smoking, voice misuse), and biopsy anything that might be cancer or tuberculosis; both books insist on that.
+!!
 !fig d62-6 | Flexible laryngoscopy in clinic.
 
 # Chronic non-specific laryngitis | Hyperaemic and hypertrophic.
 ## Chronic hyperaemic laryngitis
 A diffuse, symmetrical inflammation of the whole larynx. Hoarseness is the commonest complaint: the voice tires and fails by evening. Constant hawking and clearing of the throat, dryness and tickling, discomfort and a dry cough. The folds look dull red and rounded with flecks of sticky mucus on them and between the arytenoids.
 ## Chronic hypertrophic (hyperplastic) laryngitis
-Mostly men of thirty to fifty. Diffuse thickening that begins at the glottis and spreads to the false folds, epiglottis and subglottis: the respiratory epithelium changes to squamous, the vocal fold epithelium becomes hyperplastic and keratinised, glands first enlarge then atrophy. The mucosa is dusky red and thick, the folds red, rounded and later bulky and nodular, the false folds swollen (they may be mistaken for prolapse of the ventricle), and fold movement may become sluggish. It can be localised, as vocal nodules, polyps, Reinke's oedema and contact ulcers (described with benign lesions).
+Mostly men of thirty to fifty. Diffuse thickening that begins at the glottis and spreads to the false folds, epiglottis and subglottis: the respiratory epithelium changes to squamous, the vocal fold epithelium becomes hyperplastic and keratinised, glands first enlarge then atrophy. The mucosa is dusky red and thick, the folds red, rounded and later bulky and nodular, the false folds swollen (they may be mistaken for prolapse of the ventricle), and fold movement may become sluggish. It can be localised, as vocal nodules, polyps, Reinke's oedema and contact ulcers ([[t:benign]]).
 ## Treatment
 1. Treat infection in the sinuses, teeth, tonsils and chest.
 2. Stop smoking and alcohol; avoid dust and fumes.
@@ -62,14 +67,9 @@ Now rare; the tertiary gumma forms a smooth swelling that ulcerates and heals wi
 ## Leprosy
 With nasal and skin leprosy: nodular infiltration of the epiglottis, aryepiglottic folds and arytenoids, ulceration, and deformity and stenosis on healing. Dapsone and multidrug therapy.
 ## Scleroma
-*Klebsiella rhinoscleromatis*, endemic in parts of Africa, the Middle East, Asia and Latin America, usually with nasal disease: a smooth red subglottic swelling causing hoarseness, wheeze and dyspnoea, passing through catarrhal, granulomatous and sclerotic stages to subglottic stenosis. Long courses of tetracycline or ciprofloxacin with steroids; reconstruction for stenosis.
+*Klebsiella rhinoscleromatis* ([[t:gpa]]), endemic in parts of Africa, the Middle East, Asia and Latin America, usually with nasal disease: a smooth red subglottic swelling causing hoarseness, wheeze and dyspnoea, passing through catarrhal, granulomatous and sclerotic stages to subglottic stenosis. Long courses of tetracycline or ciprofloxacin with steroids; reconstruction for stenosis.
 ## Fungal
 Candidiasis in inhaled steroid users, after antibiotics and in immunosuppression: white plaques on red mucosa that can mimic leukoplakia; systemic antifungals (topical nystatin does not reach), and biopsy if they persist. Blastomycosis and histoplasmosis are rare and mimic carcinoma.
-!differ Where the books differ
-Dhingra: Describes chronic laryngitis as an entity, in hyperaemic and hypertrophic forms, with treatment centred on voice rest, steam and removal of irritants.
-Lee: Advises abandoning "chronic laryngitis" as a diagnosis, replacing it with "prolonged laryngeal inflammation" and a named cause, and gives reflux a central place.
-Both insist on biopsy for anything that might be cancer or tuberculosis.
-!!
 
 # Systemic diseases | The larynx as a window.
 - **Sarcoidosis:** pale, turban-like submucosal swelling of the supraglottis (epiglottis and aryepiglottic folds); non-caseating granulomas on biopsy; steroids systemically or by injection.
