@@ -438,7 +438,10 @@ def main():
     build_hub()
     import build_search
     build_search.main()
-    update_sw(ids, ops, bas)
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import build_boards
+    boards = build_boards.build()
+    update_sw(ids, ops, bas, boards)
 
 
 def build_ops():
@@ -513,7 +516,7 @@ def build_hub():
     open(p, 'w', encoding='utf-8').write(h)
 
 
-def update_sw(ids, ops=(), bas=()):
+def update_sw(ids, ops=(), bas=(), boards=()):
     """Precache the articles in the web build and bump the offline cache version."""
     import hashlib
     sw = os.path.join(ROOT, 'web', 'sw.js')
@@ -523,6 +526,9 @@ def update_sw(ids, ops=(), bas=()):
     # book figures used by the articles go into the offline media cache too
     s = re.sub(r'"clinic/fig/[^"]+",', '', s)
     add += ''.join('"clinic/fig/%s",' % f for f in sorted(os.listdir(FIGDIR)) if f.lower().endswith(('.jpg', '.jpeg', '.png', '.webp')))
+    # whiteboard summaries (tools/build_boards.py)
+    s = re.sub(r'"clinic/board/[^"]+",', '', s)
+    add += ''.join('"%s",' % f for f in boards)
     s = s.replace('"clinic/links.js",', '"clinic/links.js",' + add, 1)
     s = re.sub(r'"theatre/art/[^"]+",', '', s)
     s = re.sub(r'"theatre/basics/[^"]+",', '', s)
@@ -535,7 +541,7 @@ def update_sw(ids, ops=(), bas=()):
     s = re.sub(r'"search/[^"]+",', '', s)
     s = s.replace('"xsearch.js",', '"xsearch.js","search/full.js",' + ''.join('"%s",' % f for f in pre + post), 1)
     h = hashlib.md5()
-    for f in ['index.html', 'xsearch.js', 'search/full.js', 'clinic/clinic.js', 'clinic/clinic.css', 'clinic/data.js', 'theatre/theatre.js', 'theatre/theatre.css'] + sum(hub_files(), []) + ['clinic/art/%s.js' % i for i in ['index', 'figs'] + ids] + ['theatre/art/%s.js' % i for i in ['index'] + list(ops)] + ['theatre/basics/%s.js' % i for i in (['index'] + list(bas) if bas else [])]:
+    for f in ['index.html', 'xsearch.js', 'search/full.js', 'clinic/clinic.js', 'clinic/clinic.css', 'clinic/data.js', 'theatre/theatre.js', 'theatre/theatre.css'] + sum(hub_files(), []) + ['clinic/art/%s.js' % i for i in ['index', 'figs'] + ids] + ['theatre/art/%s.js' % i for i in ['index'] + list(ops)] + ['theatre/basics/%s.js' % i for i in (['index'] + list(bas) if bas else [])] + list(boards):
         h.update(open(os.path.join(WWW, f), 'rb').read())
     s = re.sub(r'const CACHE="ent-atlas-[0-9a-f]+"', 'const CACHE="ent-atlas-%s"' % h.hexdigest()[:10], s)
     if 'clinic\\/fig' not in s:
