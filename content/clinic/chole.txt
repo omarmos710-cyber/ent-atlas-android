@@ -44,6 +44,7 @@ Collagenases and other enzymes from the matrix and perimatrix, osteoclast activa
 !differ How bone is eroded
 Dhingra: Attributes erosion to enzymes from osteoclasts and inflammatory cells, and rejects pressure necrosis.
 Lee: Includes pressure along with the inflammatory mediators.
+In practice: Describe erosion as enzymatic and osteoclast-driven, promoted by infection; pressure is at most a contributor.
 !!
 ## Routes of spread
 The cholesteatoma follows the path of least resistance: from Prussak's space into the attic, then through the aditus to the antrum and mastoid; or posteriorly into the sinus tympani and facial recess, the sites hardest to clear at surgery.
@@ -98,7 +99,7 @@ Regular microscopic cleaning suits small accessible disease, patients over 65 or
 ### Canal wall up
 The posterior canal wall is kept (combined approach tympanoplasty). The ear looks normal, swimming is allowed and hearing aids are easy to fit, but residual disease is commoner, so a planned second look or, increasingly, non-echo-planar diffusion-weighted MRI (about 91% sensitive) at about one year is needed.
 ### Canal wall down
-The posterior canal wall is removed and the attic, antrum and mastoid are exteriorised into one cavity (modified radical or radical mastoidectomy). Exposure is better and recurrence lower, but the cavity needs lifelong cleaning, water precautions, and aids are harder to fit.
+The posterior canal wall is removed and the attic, antrum and mastoid are exteriorised into one cavity (modified radical or radical mastoidectomy, [[t:earsurg]]). Exposure is better and recurrence lower, but the cavity needs lifelong cleaning, water precautions, and aids are harder to fit.
 !table Canal wall up or down
  | Canal wall up | Canal wall down
 Appearance | Normal meatus | Wide meatus and cavity
@@ -108,14 +109,19 @@ Cavity care | None | Regular cleaning
 Swimming | Allowed | Limited
 Hearing aid | Easy | Harder
 !!
-Choose canal wall up only when the patient can return for long-term follow-up. Neither is a gold standard: in adults, a 2023 meta-analysis found lower recurrence after canal wall down with obliteration than after canal wall up, while in children recurrence did not differ and hearing was better with canal wall up; canal wall up surgery is often staged, with a second look 6 to 12 months later (the Oxford Textbook suggests 3 to 6).
+Choose canal wall up only when the patient can return for long-term follow-up. Neither is a gold standard: in adults, a 2023 meta-analysis found lower recurrence after canal wall down with obliteration than after canal wall up, while in children recurrence did not differ and hearing was better with canal wall up; canal wall up surgery is often staged.
+!differ Timing of the second look
+Most texts: 6 to 12 months after the first operation.
+Oxford Textbook: 3 to 6 months.
+In practice: Plan the second look, or non-echo-planar diffusion-weighted MRI, at about 6 to 12 months.
+!!
 ### Mastoid obliteration
 About 40% of open cavities discharge or cannot tolerate water. Obliterating the mastoid (bone pâté, muscle flaps or bioactive glass, with cartilage reconstruction of the canal wall) avoids a cavity and lowers recidivism, and is increasingly used with both canal wall up and canal wall down techniques.
 ### Endoscopic ear surgery
 Transcanal endoscopes suit limited attic and mesotympanic disease, and see around corners into the sinus tympani and anterior attic without a postauricular incision. Disease reaching the antrum or mastoid needs a combined approach. The surgeon works one-handed, and bleeding and heat from the light source are drawbacks. Residual disease found by the endoscope after apparent microscopic clearance ranges from 17 to 38%.
 !ops
 ## Lateral canal fistula
-Present in 7 to 10% of cholesteatomas, 90% of them in the lateral canal; only about 60% are seen on preoperative CT. Assume one in every case.
+Present in 7 to 10% of cholesteatomas ([[t:fistula]]), 90% of them in the lateral canal; only about 60% are seen on preoperative CT. Assume one in every case.
 - Small fistula: the matrix is often removed at the end of the operation and the fistula sealed.
 - Large fistula or one in an only hearing ear: leave the matrix on it and convert to canal wall down.
 - If the endosteum tears, cover it immediately.
@@ -129,10 +135,10 @@ The EAONO/JOS system divides the middle ear and mastoid into sites, with the *si
 ## Intratemporal
 - Ossicular erosion, usually the incus first.
 - Labyrinthine fistula and labyrinthitis.
-- Facial palsy, usually from the tympanic segment.
+- Facial palsy, usually from the tympanic segment ([[t:facial]]).
 - Mastoiditis and abscesses.
 ## Intracranial
-Extradural and subdural abscess, meningitis, brain abscess, lateral sinus thrombosis and otitic hydrocephalus, through an eroded tegmen or sinus plate.
+Extradural and subdural abscess, meningitis, brain abscess, lateral sinus thrombosis and otitic hydrocephalus, through an eroded tegmen or sinus plate ([[t:icc]]).
 !pearl At surgery
 Facial canal dehiscence and tegmen dehiscence often accompany a fistula. The epineurium does not need opening unless disease has invaded the nerve.
 !!

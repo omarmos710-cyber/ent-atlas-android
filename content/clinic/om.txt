@@ -36,7 +36,7 @@ Adenoid | Bacterial reservoir | and tubal obstruction
 
 # Acute otitis media | Pain, fever and a bulging drum.
 ## Stages
-Dhingra describes acute suppurative otitis media as a sequence, and the drum changes at each stage.
+Acute suppurative otitis media runs through a sequence of stages, and the drum changes at each.
 ### Tubal occlusion
 The drum is retracted with a foreshortened handle of malleus; there is deafness and fullness, and little fever.
 ### Presuppuration
@@ -46,7 +46,7 @@ Pus collects under pressure: the drum is red and bulging, landmarks vanish, and 
 ### Resolution
 The drum ruptures, usually with a small anteroinferior perforation, discharge appears and pain and fever settle. Most perforations heal.
 ### Complication
-If infection spreads beyond the cleft: mastoiditis, facial palsy, labyrinthitis or intracranial disease.
+If infection spreads beyond the cleft: mastoiditis ([[t:mastoiditis]]), facial palsy, labyrinthitis or intracranial disease ([[t:icc]]).
 ## Clinical picture
 Otalgia, fever, irritability, ear pulling and poor feeding, often after a cold. These symptoms are non-specific on their own; the diagnosis rests on the drum.
 ## Diagnosis
@@ -72,7 +72,7 @@ All others | No antibiotic or a back-up prescription; analgesia; review if worse
 !differ When to treat
 NICE (2018): analgesia for all; immediate antibiotics only for the groups above; back-up prescriptions otherwise.
 American Academy of Pediatrics (2013): antibiotics for severe disease (fever 39°C or more, or moderate to severe pain for over 48 hours) and for non-severe bilateral disease under two; observation is an option for non-severe unilateral disease from six months, and for non-severe disease of either kind from two years.
-Know the UK scheme for practice and both for examinations.
+In practice: Follow the UK scheme; know both for examinations.
 !!
 ### Choice of antibiotic
 - **First line:** amoxicillin for 5 to 7 days (the UK uses standard doses; the American guideline uses high-dose 80 to 90 mg/kg/day to cover resistant pneumococci).
@@ -82,20 +82,21 @@ Know the UK scheme for practice and both for examinations.
 !differ Dose and duration of amoxicillin
 Dhingra: 40 mg/kg/day for at least 10 days.
 Lee: 90 mg/kg/day (high dose, to overcome resistant pneumococci), with duration by age.
-NICE: 5 to 7 days at standard doses. Know all three for examinations; follow local guidance in practice.
+NICE: 5 to 7 days at standard doses.
+In practice: Follow local guidance; in the UK, standard-dose amoxicillin for 5 to 7 days. Know all three for examinations.
 !!
 ### Myringotomy
 Indicated for a bulging drum with severe pain, incomplete resolution with persisting hearing loss, or effusion beyond 12 weeks, and in the child who fails second-line treatment, when the fluid is sent for culture.
 !fig d10-1 | Treatment of acute otitis media, matched to its stage.
 ## Recurrent acute otitis media
-Three or more episodes in six months, or four or more in a year. Reduce risk factors (smoke exposure, dummies, day care where possible), encourage breastfeeding, and check vaccinations (pneumococcal and Hib); children who keep having infections despite vaccination may have poor antibody responses. The options are:
+Defined above as three or more episodes in six months, or four or more in a year. Reduce risk factors (smoke exposure, dummies, day care where possible), encourage breastfeeding, and check vaccinations (pneumococcal and Hib); children who keep having infections despite vaccination may have poor antibody responses. The options are:
 - **Watchful management,** treating each episode promptly; many children grow out of it.
 - **Grommets,** which let infections be treated with antibiotic drops instead of oral antibiotics and may reduce episodes in the first six months; but in the largest randomised trial they did not reduce the number of episodes over two years compared with medical management (Hoberman et al., *NEJM* 2021). They are the usual choice when effusion persists between attacks.
 - **Antibiotic prophylaxis** (for example amoxicillin at half dose, or azithromycin three times a week, for two to three months) roughly halves episodes while it is taken, but the effect stops with the drug and resistance is a concern; it is rarely used in the UK.
 !differ Recurrent otitis media
 Dhingra: Mentions amoxicillin prophylaxis, while noting its drawbacks and that many prefer grommets; grommets for 4 episodes in 6 months or 6 in a year.
 Lee: Does not recommend prophylaxis; defines recurrence as 3 in 6 months or 4 in 12 months.
-Current practice: prophylaxis is rarely used because of resistance; grommets are offered when effusion persists between attacks, though in the largest trial they did not reduce episodes over two years (Hoberman et al., *NEJM* 2021).
+In practice: Prophylaxis is rarely used because of resistance; grommets are offered when effusion persists between attacks, though they do not reduce episodes over two years.
 !!
 
 # Otitis media with effusion | The quiet ear that cannot hear.
@@ -119,7 +120,7 @@ Always examine the nasopharynx: nasopharyngeal carcinoma can first present this 
 !differ Scoping the nasopharynx
 Dhingra: Always exclude a nasopharyngeal tumour in an adult with one-sided effusion.
 Lee: The value of endoscopy is clearest in high-risk patients.
-Current practice: examine the postnasal space in every adult with a persistent one-sided effusion, and biopsy if anything is abnormal; the threshold is lowest in smokers and people from endemic regions.
+In practice: Examine the postnasal space in every adult with a persistent one-sided effusion, and biopsy if anything is abnormal; the threshold is lowest in smokers and people from endemic regions.
 !!
 !imaging | Adenoid enlargement, and otomastoiditis with its complications.
 ## Natural history
@@ -128,21 +129,21 @@ Most effusions clear on their own: screen-detected effusions clear in about 63% 
 NICE's 2023 guideline (NG233) recommends shared decisions at each step.
 ### Monitoring
 Children with effusion but no hearing loss need reassurance only. With hearing loss (thresholds worse than 20 dB HL), reassess hearing after three months for bilateral disease, and consider it for unilateral disease. Antibiotics, steroids, antihistamines, decongestants and anti-reflux drugs have no lasting benefit and are not recommended.
+!differ Medical treatment of effusion
+Dhingra: Lists decongestants, antihistamines and antibiotics among the medical options.
+Lee: Guidelines find no role for them.
+In practice: Do not use them; follow current guidelines (NICE NG233).
+!!
 ### Autoinflation
 Consider a nasal balloon in children old enough to use it; it can speed clearance.
 ### Hearing aids and devices
 Air-conduction hearing aids are an equal alternative to surgery when the loss is stable; **bone-conduction devices** (on a soft band) when the hearing fluctuates or air-conduction aids are unsuitable (narrow canals, otorrhoea). Preferred in many children with Down syndrome.
 ### Grommets
-Consider grommets for persistent effusion with hearing loss, especially bilateral loss affecting speech, learning, behaviour or quality of life, or in children at risk (speech delay, sensory or learning difficulty, cleft palate, Down syndrome). Discuss the risks: otorrhoea, perforation, atrophy and tympanosclerosis. Thick glue may need two incisions, one to let air in behind the fluid.
+Consider grommets for persistent effusion with hearing loss, especially bilateral loss affecting speech, learning, behaviour or quality of life, or in children at risk (speech delay, sensory or learning difficulty, cleft palate, Down syndrome). Discuss the risks: otorrhoea, perforation, atrophy and tympanosclerosis (the operation is described in [[t:earsurg]]). Thick glue may need two incisions, one to let air in behind the fluid.
 !fig d10-3 d10-4 | First, two incisions in the drum let thick mucus be aspirated. Second, a grommet in place.
 !ops
 ### Adenoidectomy
 NICE now advises **considering adenoidectomy alongside grommets** for children having them, unless there is a palatal abnormality (cleft or submucous cleft, which risks velopharyngeal insufficiency). It reduces the chance of needing grommets again. The American guideline offers tubes alone under four years, and tubes, adenoidectomy or both from four years.
-!differ Medical treatment of effusion
-Dhingra: Lists decongestants, antihistamines and antibiotics among the medical options.
-Lee: Guidelines find no role for them.
-Follow current guidelines in practice.
-!!
 ### After grommets
 Otorrhoea occurs in about 16% soon after surgery and 26% later; treat it with topical antibiotic or antibiotic-steroid drops rather than oral antibiotics. Blockage occurs in up to 7%, granulation in 5%, tympanosclerosis in about 32% and focal atrophy in 25%; persistent perforation in about 2%, rising to about 17% with long-stay tubes. Most children need no water precautions. Children with craniofacial anomalies or learning disability need a planned follow-up, because recurrent effusion is easily missed.
 !pearl Pearls
@@ -158,14 +159,14 @@ A Cochrane review of 13 trials found that antibiotics did not reduce pain at 24 
 ## Of acute otitis media
 - Complications now follow only 0.05 to 0.25% of episodes.
 - Perforation in about 5%; around 90% heal.
-- Acute mastoiditis (fewer than 0.4% of episodes, mostly under two years) and subperiosteal abscess; intravenous antibiotics alone succeed in about three-quarters.
+- Acute mastoiditis ([[t:mastoiditis]]; fewer than 0.4% of episodes, mostly under two years) and subperiosteal abscess; intravenous antibiotics alone succeed in about three-quarters.
 - Facial palsy and labyrinthitis.
-- Meningitis and other intracranial complications.
+- Meningitis and other intracranial complications ([[t:icc]]).
 ## Of chronic effusion
 - Atrophic, retracted drum and atelectasis.
 - Necrosis of the long process of the incus.
 - Tympanosclerosis.
-- Retraction pockets and cholesteatoma.
+- Retraction pockets ([[t:tmperf]]) and cholesteatoma ([[t:chole]]).
 - Cholesterol granuloma.
 ## Masked disease
 Inadequate antibiotic courses can leave a smouldering ear that becomes a persistent effusion or masked mastoiditis.

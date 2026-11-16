@@ -11,7 +11,7 @@ Infants with acute otitis media tend to develop meningitis by blood-borne spread
 !differ How often there is more than one
 Dhingra: About one-third of patients with otogenic meningitis have another intracranial lesion.
 Lee: About half.
-Either way, look for a second complication in every patient.
+In practice: Look for a second complication in every patient.
 !!
 
 # Pathogenesis | Three routes into the skull.
@@ -47,14 +47,14 @@ Turbid, under raised pressure, with many polymorphs, high protein and low sugar.
 ### Treatment
 Intravenous antibiotics that penetrate the CSF, and steroids. Treat the ear: myringotomy for acute otitis media, mastoidectomy for chronic disease once the patient is fit.
 !pearl After meningitis
-Check hearing early. Labyrinthitis ossificans can close the cochlea within weeks, and a cochlear implant must go in before it does.
+Check hearing early. Labyrinthitis ossificans can close the cochlea within weeks, and a cochlear implant must go in before it does ([[t:rehab]]).
 !!
 ## Brain abscess
 ### Stages
 !differ Stages of an otogenic brain abscess
 Dhingra: Four stages: invasion (initial encephalitis), localisation (the latent, quiet stage), enlargement, and termination by rupture into the ventricle or subarachnoid space.
 Lee: Three stages: encephalitis, a quiet period, and rupture.
-The quiet stage is the trap: the patient seems better while the abscess is forming.
+In practice: The quiet stage is the trap: the patient seems better while the abscess is forming.
 !!
 ### Raised intracranial pressure
 Morning headache, projectile vomiting, papilloedema, a slow pulse and a subnormal temperature, with drowsiness.
@@ -66,10 +66,11 @@ Suboccipital headache, nystagmus, ipsilateral ataxia with past-pointing, intenti
 ### CSF
 Moderately raised cells and protein with normal sugar; but a lumbar puncture is dangerous and is avoided while there is mass effect.
 ### Treatment
-Broad-spectrum intravenous antibiotics with anaerobic cover, steroids or mannitol for raised pressure, and neurosurgical drainage by aspiration through a burr hole or excision. The ear is then made safe through a separate operative field.
+Broad-spectrum intravenous antibiotics with anaerobic cover for six to eight weeks, steroids or mannitol for raised pressure, and neurosurgical drainage by aspiration through a burr hole or excision. The ear is then made safe through a separate operative field.
 !differ Timing of ear surgery with an abscess
 Dhingra: Operate on the ear once the abscess is controlled.
 Lee: Timing is debated; some treat both at one sitting when the patient is stable.
+In practice: Drain and control the abscess first; make the ear safe as soon as the patient is stable.
 !!
 ## Lateral sinus thrombophlebitis
 ### Picture
@@ -83,7 +84,7 @@ Inflammation of the sigmoid sinus wall, mural thrombus, then an infected clot. T
 ### Investigations
 Blood culture during a rigor, a smear to exclude malaria, and contrast CT (the *empty delta sign*) or MR venography.
 ### Treatment
-Intravenous antibiotics and mastoidectomy with exposure of the sinus. If it is needle-aspirated and yields pus or no blood, it is opened between packs placed above and below, and infected clot is removed; healthy clot is left alone. Anticoagulation is debated. Ligation of the internal jugular vein is kept for septic emboli or clot spreading down the neck.
+Intravenous antibiotics and mastoidectomy with exposure of the sinus. If it is needle-aspirated and yields pus or no blood, it is opened between packs placed above and below, and infected clot is removed; healthy clot is left alone. Anticoagulation is increasingly used: systematic reviews find it safe in otogenic thrombosis and associated with recanalisation, but there are no randomised trials. Ligation of the internal jugular vein, or thrombectomy, is rarely needed: it is kept for septic emboli or clot spreading down the neck.
 ## Otitic hydrocephalus
 ### Picture
 Raised intracranial pressure with normal CSF and normal-sized ventricles, usually after lateral sinus thrombosis that blocks venous outflow. Headache, vomiting, blurred vision, papilloedema and a sixth nerve palsy.
@@ -135,7 +136,7 @@ Acute otitis media: myringotomy and grommet. Chronic disease or cholesteatoma: m
 ## Outcomes
 Deafness, epilepsy, focal deficits, loss of vision and death. Rupture of an abscess into the ventricle carries a mortality of about 80%.
 !update Current evidence
-**Imaging.** Contrast-enhanced CT and MRI with MR venography are complementary: CT shows bone erosion and abscesses, MRI shows meningitis, cerebritis and sinus thrombosis better; image before lumbar puncture when there are focal signs or reduced consciousness. **Sigmoid sinus thrombosis.** Treatment combines intravenous antibiotics, mastoidectomy and, increasingly, anticoagulation; systematic reviews find anticoagulation safe in otogenic thrombosis and associated with recanalisation, but there are no randomised trials, and thrombectomy or ligation of the jugular vein is rarely needed. **Brain abscess.** Aspiration or excision by neurosurgeons, six to eight weeks of antibiotics, and mastoid surgery when the patient is stable. **Prevention.** Mastoiditis and intracranial complications have become rare since antibiotics; most cases now arise from cholesteatoma or untreated chronic disease.
+**Imaging.** CT and MRI with MR venography are complementary; image before lumbar puncture when there are focal signs or reduced consciousness. **Sigmoid sinus thrombosis.** Evidence for anticoagulation comes from systematic reviews of observational series. **Prevention.** Mastoiditis and intracranial complications have become rare since antibiotics; most cases now arise from cholesteatoma or untreated chronic disease.
 !!
 
 # For the examination | What the examiner wants to hear.
