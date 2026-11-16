@@ -25,7 +25,7 @@ Full abduction | 9.5 mm | Deep inspiration | None
 ## Why the paralysed cord lies near the midline
 - **Semon's law:** in progressive organic lesions the abductor fibres, phylogenetically newer, are affected before the adductors, so the fold first lies near the midline.
 - **Wagner–Grossman hypothesis:** with the recurrent nerve cut and the superior nerve intact, the cricothyroid still adducts the fold slightly into the paramedian position; with both nerves lost the fold lies in the cadaveric position.
-Lee adds that the position also reflects partial or misdirected *regeneration*, which restores tone (and synkinesis) without useful movement; a fold often lies laterally at first and medialises over months.
+The position also reflects partial or misdirected *regeneration*, which restores tone (and synkinesis) without useful movement; a fold often lies laterally at first and medialises over months.
 
 # Causes | Along the whole course.
 ## By level
@@ -44,7 +44,7 @@ Chest | Carcinoma of the right lung apex, tuberculosis of the pleura | Bronchoge
 Bronchogenic carcinoma must be excluded in every unexplained left-sided paralysis: image the whole course of the nerve from the skull base to the aortic arch with contrast CT (or MRI and CT), and examine the thyroid, oesophagus and neck.
 !!
 ## Commonest causes overall
-Malignancy (lung, thyroid, oesophagus) and surgery (thyroid, cervical spine through an anterior approach, cardiothoracic) lead the list; thyroidectomy is the commonest cause of bilateral paralysis.
+Malignancy (lung, thyroid [[t:thyroid]], oesophagus) and surgery (thyroid, cervical spine through an anterior approach, cardiothoracic) lead the list; thyroidectomy is the commonest cause of bilateral paralysis.
 
 # Recurrent nerve paralysis | One or both.
 ## Unilateral
@@ -82,7 +82,7 @@ The aim is to close the glottic gap.
 - **Reinnervation:** ansa cervicalis to recurrent nerve anastomosis restores bulk and tone (not movement); useful when the nerve is known to be cut and in children, who would outgrow an implant. In a randomised trial against thyroplasty, overall results were similar, but reinnervation did better under 52 years and thyroplasty better over 52 (Paniello et al., *Laryngoscope* 2011).
 ## Bilateral abductor paralysis
 The aim is an airway without ruining the voice; any procedure that widens the glottis worsens the voice.
-- **Tracheostomy:** the safest, the gold standard; the voice is preserved with finger occlusion or a speaking valve.
+- **Tracheostomy** ([[t:trach]])**:** the safest, the gold standard; the voice is preserved with finger occlusion or a speaking valve.
 - **Endoscopic glottic widening:** *posterior transverse cordotomy* (Kashima), cutting the fold off the vocal process with the laser; *partial medial arytenoidectomy*; suture *lateralisation* of the fold; repeated if needed.
 - Older external procedures: arytenoidectomy and arytenoidopexy (Woodman), and type II thyroplasty.
 - Botulinum toxin to the adductors (temporary); reinnervation and laryngeal pacing (selected, experimental).
@@ -94,11 +94,11 @@ The aim is an airway without ruining the voice; any procedure that widens the gl
 - **Type III:** shortening and relaxation, to lower the pitch (mutational falsetto, female-to-male voice).
 - **Type IV:** lengthening and tensing, to raise the pitch (male-to-female voice, bowed or lax folds).
 !update Current evidence
-**Early injection.** Early temporary injection laryngoplasty, within six months of onset, was associated with fewer later open framework procedures in a retrospective series (Friedman et al., *Laryngoscope* 2010). **Reinnervation versus thyroplasty.** In a randomised trial of ansa cervicalis to recurrent nerve reinnervation against medialisation laryngoplasty, overall voice results were similar at one year, but reinnervation was better in patients under 52 and thyroplasty better in those over 52 (Paniello et al., *Laryngoscope* 2011). **Assessment.** An international consensus recommends a minimum voice assessment for unilateral paralysis: videolaryngostroboscopy, perceptual rating (GRBAS), maximum phonation time and the Voice Handicap Index (Mattei et al., *Eur Ann Otorhinolaryngol Head Neck Dis* 2018). **Thyroid surgery.** The American guideline recommends documenting voice before thyroidectomy, laryngoscopy before surgery if voice is impaired or there is a cancer with possible extrathyroidal spread, and laryngoscopy after surgery when the voice has changed (Chandrasekhar et al., *Otolaryngol Head Neck Surg* 2013). Intraoperative nerve monitoring helps identify the nerve and, with staged surgery when signal is lost on the first side, avoids most bilateral palsies.
+**Early injection.** Early temporary injection laryngoplasty, within six months of onset, was associated with fewer later open framework procedures in a retrospective series (Friedman et al., *Laryngoscope* 2010). **Assessment.** An international consensus recommends a minimum voice assessment for unilateral paralysis: videolaryngostroboscopy, perceptual rating (GRBAS), maximum phonation time and the Voice Handicap Index (Mattei et al., *Eur Ann Otorhinolaryngol Head Neck Dis* 2018). **Thyroid surgery.** The American guideline recommends documenting voice before thyroidectomy, laryngoscopy before surgery if voice is impaired or there is a cancer with possible extrathyroidal spread, and laryngoscopy after surgery when the voice has changed (Chandrasekhar et al., *Otolaryngol Head Neck Surg* 2013). Intraoperative nerve monitoring helps identify the nerve and, with staged surgery when signal is lost on the first side, avoids most bilateral palsies.
 !!
 
 # Congenital paralysis | In infants.
-Unilateral (birth trauma, cardiac and great vessel anomalies, cardiac surgery) gives a weak cry and feeding problems; bilateral (Arnold–Chiari malformation, hydrocephalus, birth haemorrhage, meningocele) gives stridor needing tracheostomy. Many recover; definitive surgery is delayed (see congenital lesions of the larynx).
+Unilateral (birth trauma, cardiac and great vessel anomalies, cardiac surgery) gives a weak cry and feeding problems; bilateral (Arnold–Chiari malformation, hydrocephalus, birth haemorrhage, meningocele) gives stridor needing tracheostomy. Many recover; definitive surgery is delayed ([[t:lxcong]]).
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials

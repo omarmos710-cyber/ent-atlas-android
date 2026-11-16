@@ -9,7 +9,7 @@ Extend the neck. Run a finger down the midline from the thyroid notch over the p
 - Stand on the patient's left (for a right-handed operator) and stabilise the larynx with the left hand (the "laryngeal handshake").
 - Make a transverse stab incision through skin and membrane with a size 10 blade, blade facing you (caudally).
 - Rotate the blade 90 degrees so the sharp edge points towards the feet.
-- Slide a bougie along the blade into the trachea, then pass a lubricated 6.0 cuffed tube over it.
+- Slide a bougie along the blade into the trachea, then pass a lubricated 6.0 cuffed tube over it (6 mm is the smallest tube that allows prolonged ventilation).
 - Inflate the cuff, ventilate and confirm with capnography; secure the tube.
 !danger The cricoid and the back wall
 Keep the incision above the cricoid: damaging the only complete ring causes subglottic stenosis. Do not push the blade deeply, which can perforate the back of the trachea and oesophagus.
@@ -17,7 +17,7 @@ Keep the incision above the cricoid: damaging the only complete ring causes subg
 ## Needle and kit techniques
 A 14G cannula through the membrane with jet or high-flow oxygen buys time, especially in children under about 12 years, where the membrane is tiny and surgical cricothyroidotomy is avoided. It gives oxygen but not ventilation (carbon dioxide rises after 30 to 45 minutes), needs an exit route for gas to avoid barotrauma, and kinks or displaces easily. Seldinger and guarded-blade kits (Mini-Trach, Melker) take longer under stress.
 ## Then
-Convert to a formal tracheostomy within about 24 to 72 hours and assess the larynx; cricothyroidotomy is a bridge, not a long-term airway.
+Convert to a formal tracheostomy ([[t:trach]]) within about 24 to 72 hours and assess the larynx; cricothyroidotomy is a bridge, not a long-term airway.
 ## Complications
 Bleeding, false passage into the pretracheal tissue, posterior tracheal or oesophageal perforation, surgical emphysema, tube displacement or blockage, subglottic stenosis, voice change.
 !update Current evidence
@@ -26,7 +26,7 @@ The Difficult Airway Society guidelines make scalpel cricothyroidotomy (scalpel,
 
 # Arterial ligation for bleeding | The nearer the bleed, the better.
 ## Where ligation fits
-For epistaxis that continues despite packing, the first surgical step is endoscopic sphenopalatine artery ligation (Myers ch. 98), with anterior ethmoidal ligation if the bleeding is high or follows trauma. Embolisation is the alternative where interventional radiology is available. Maxillary and external carotid ligation are reserved for when these fail or cannot be done; external carotid ligation also controls an uncontrollable post-tonsillectomy or tumour bleed.
+For epistaxis that continues despite packing, the first surgical step is endoscopic sphenopalatine artery ligation ([[t:epistaxis]]), with anterior ethmoidal ligation if the bleeding is high or follows trauma. Embolisation is the alternative where interventional radiology is available. Maxillary and external carotid ligation are now rare, reserved for when these fail or cannot be done; external carotid ligation also controls an uncontrollable post-tonsillectomy or tumour bleed.
 !table Choosing the vessel
 Vessel | Approach | Notes
 Sphenopalatine | Endoscopic, through a middle meatal antrostomy and mucosal flap | First choice for posterior epistaxis
@@ -37,7 +37,7 @@ External carotid | Neck incision, ligated above the lingual or superior thyroid 
 ## Anterior ethmoidal artery ligation
 Under general anaesthesia, protect the eye, and make a curved incision midway between the medial canthus and the nasal dorsum (with a small Z or W to avoid webbing). Elevate subperiosteally to the anterior lacrimal crest, lift the lacrimal sac laterally, and follow the frontoethmoidal suture back to the anterior ethmoidal artery, seen tethering the periosteum about 24 mm behind the crest. Clip it. The posterior ethmoidal artery is about 12 mm further back, and the optic nerve about 6 mm behind that (the 24-12-6 rule).
 ## Maxillary artery ligation
-Through a Caldwell-Luc antrostomy, remove the mucosa and bone of the posterior antral wall under the microscope, open the periosteum, find the maxillary artery in the fat of the pterygopalatine fossa (it lies superficial, in front of the maxillary nerve), and clip the trunk and its branches.
+Through a Caldwell-Luc antrostomy (or a gingivobuccal approach), remove the mucosa and bone of the posterior antral wall under the microscope, open the periosteum, find the maxillary artery in the fat of the pterygopalatine fossa (it lies superficial, in front of the maxillary nerve), and clip the trunk and its branches.
 ## External carotid artery ligation
 Under local or general anaesthesia, make a horizontal incision at the level of the greater horn of the hyoid, raise subplatysmal flaps, retract sternomastoid, divide the common facial vein, and expose the carotid bifurcation. Identify the external carotid by its branches (the internal carotid has none in the neck) and the hypoglossal nerve crossing it; preserve the vagus. Tie the external carotid twice above the superior thyroid or lingual artery, having seen at least two branches.
 !danger Never tie a vessel without branches
@@ -46,17 +46,10 @@ Ligation of the internal carotid by mistake can cause a stroke. If you have not 
 ## Complications
 Ethmoidal: canthal webbing, injury to the lacrimal sac, orbital haematoma, optic nerve injury (posterior artery). Maxillary: cheek numbness, oroantral fistula, dental injury, ophthalmoplegia. External carotid: rebleeding, nerve injury (hypoglossal, vagus, superior laryngeal), mistaken internal carotid ligation, haematoma.
 !update Current evidence
-A meta-analysis of 44 studies (1,664 patients) found embolisation for refractory epistaxis succeeded in 87%, but rebleeding occurred in about 16% and complications in about 14%, including stroke in about 2% and visual loss in about 2% (Hoffman et al., *Interv Neuroradiol* 2023). The Oxford Textbook notes rebleeding rates of up to 45% after external carotid ligation, because collaterals refill the territory.
+A meta-analysis of 44 studies (1,664 patients) found embolisation for refractory epistaxis succeeded in 87%, but rebleeding occurred in about 16% and complications in about 14%, including stroke in about 2% and visual loss in about 2% (Hoffman et al., *Interv Neuroradiol* 2023).
 !!
 
 # For the examination | What the examiner wants to hear.
-## Where the books differ
-!differ
-Oxford Handbook: needle cricothyroidotomy (14G cannula, jet insufflation, 30 to 45 minutes of oxygenation) preferred in children under 12; a 6 mm tube as the smallest for prolonged ventilation.
-Oxford Textbook: cricothyroidotomy is quicker and simpler than tracheostomy in the emergency; the DAS algorithms; ligation of maxillary and external carotid arteries is now rare.
-Oxford Specialist Handbook: step-by-step ethmoidal, maxillary and external carotid ligation, with external carotid ligation kept as a last resort.
-K. J. Lee: internal maxillary artery ligation through a gingivobuccal approach with a 10 to 15% failure rate.
-!!
 ## Viva essentials
 !exam What the examiner is looking for
 - **CICO** recognition and the scalpel-bougie-tube technique.

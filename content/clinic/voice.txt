@@ -11,10 +11,10 @@ Hoarseness (dysphonia) is roughness of voice from irregularity of the period or 
 !table Causes of hoarseness
 Group | Examples
 Inflammation | Acute viral laryngitis, diphtheria, irritant gases; chronic laryngitis from smoking, reflux, occupation and inhaled steroids; tuberculosis, syphilis, leprosy, fungi
-Benign lesions | Nodules, polyp, Reinke's oedema, cyst, contact granuloma, laryngocele, amyloid, sulcus
+Benign lesions ([[t:benign]]) | Nodules, polyp, Reinke's oedema, cyst, contact granuloma, laryngocele, amyloid, sulcus
 Neoplasms | Papilloma, haemangioma, chondroma, granular cell tumour; leukoplakia; carcinoma and sarcoma
 Trauma | Shouting with fold haemorrhage, external injury, foreign body, intubation
-Neurological | Recurrent, superior laryngeal or combined paralysis; spasmodic dysphonia; Parkinson disease, myasthenia, motor neurone disease, multiple sclerosis, essential tremor
+Neurological | Recurrent, superior laryngeal or combined paralysis ([[t:vfp]]); spasmodic dysphonia; Parkinson disease, myasthenia, motor neurone disease, multiple sclerosis, essential tremor
 Joint fixation | Cricoarytenoid arthritis, dislocation
 Congenital | Web, cyst, laryngocele, paralysis, sulcus
 Systemic and hormonal | Hypothyroidism, acromegaly, virilising hormones, sarcoidosis, granulomatosis with polyangiitis, amyloidosis
@@ -87,7 +87,7 @@ Adenoids, nasopharyngeal mass | Congenitally short palate, large nasopharynx
 Choanal atresia | Palatal paralysis
 Habitual or familial | After adenoidectomy, oronasal fistula; habitual or familial
 !!
-Hypernasality is assessed by perceptual rating, nasometry, nasendoscopy and videofluoroscopy of velopharyngeal closure, and treated by speech therapy, prosthetic palatal lifts, or surgery (pharyngeal flap, sphincter pharyngoplasty, palate repair, posterior wall augmentation).
+Hypernasality is assessed by perceptual rating, nasometry, nasendoscopy and videofluoroscopy of velopharyngeal closure, and treated by speech therapy, prosthetic palatal lifts, or surgery (pharyngeal flap, sphincter pharyngoplasty, palate repair, posterior wall augmentation; [[t:cleft]]).
 !ops 206 | Cleft palate and velopharyngeal dysfunction.
 ## Stuttering
 A disorder of fluency: hesitation, repetitions, prolongations and blocks, with secondary mannerisms such as grimacing, blinking and head jerks. Normal dysfluency is common between two and four years; parental overreaction may fix it. Prevention by educating parents; treatment by speech therapy and psychological support to reduce the fear of speaking.
@@ -104,7 +104,7 @@ Dysarthria is a motor disorder of speech production (flaccid, spastic, ataxic, h
 !!
 Voice therapy by a speech and language therapist retrains breathing, onset, pitch, resonance and muscle tension; it is the first treatment for nodules, muscle tension dysphonia, functional disorders and many benign lesions, and supports surgery.
 !update Current evidence
-**Hoarseness.** The American guideline recommends laryngoscopy when hoarseness has not settled within four weeks, or at once if a serious cause is suspected (smoking, a neck mass, recent surgery, airway symptoms); advises against antibiotics, steroids and antireflux drugs for hoarseness without a laryngeal examination; and recommends voice therapy for hoarseness that impairs quality of life (Stachler et al., *Otolaryngol Head Neck Surg* 2018). **Laryngeal dystonia.** Botulinum toxin is the treatment of choice: the American Academy of Neurology rated it probably effective for adductor spasmodic dysphonia (Simpson et al., *Neurology* 2008), and a multidisciplinary panel convened by the US National Institutes of Health proposed the term "laryngeal dystonia" (Simonyan et al., *Neurology* 2021). **Refractory cough.** In a randomised trial, gabapentin improved cough-specific quality of life over placebo (Ryan et al., *Lancet* 2012).
+**Hoarseness.** The American guideline quoted under Evaluation also recommends voice therapy for hoarseness that impairs quality of life (Stachler et al., *Otolaryngol Head Neck Surg* 2018). **Laryngeal dystonia.** Botulinum toxin is the treatment of choice: the American Academy of Neurology rated it probably effective for adductor spasmodic dysphonia (Simpson et al., *Neurology* 2008), and a multidisciplinary panel convened by the US National Institutes of Health proposed the term "laryngeal dystonia" (Simonyan et al., *Neurology* 2021). **Refractory cough.** In a randomised trial, gabapentin improved cough-specific quality of life over placebo (Ryan et al., *Lancet* 2012).
 !!
 
 # For the examination | What the examiner wants to hear.
