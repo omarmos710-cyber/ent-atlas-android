@@ -18,7 +18,8 @@ Authoring format (one file per topic, file name = topic id):
   !tree Root ... !!     rows "Key | Bold | rest"
   !ladder ... !!        rows "Title | text"
   !path Title ... !!    decision pathway: rows "Step or question | branch: outcome ; branch: outcome"
-  Inline: **bold**, *term*, [[4.1]] cross-reference to a numbered heading.
+  Inline: **bold**, *term*, [[4.1]] cross-reference to a numbered heading,
+          [[t:thyroid]] or [[t:thyroid|label]] link to another Clinical topic (title by default).
 """
 import html, json, os, re, sys
 
@@ -70,10 +71,30 @@ def inline(s, refs):
         if n not in refs:
             raise ValueError('unknown cross-reference [[%s]]' % n)
         return '<button type="button" class="arx" data-artgo="%s">%s</button>' % (refs[n], n)
+    s = re.sub(r'\[\[t:([a-z0-9_]+)(?:\|([^\]]+))?\]\]', topic_link, s)
     return re.sub(r'\[\[([\d.]+)\]\]', xr, s)
 
 
+_TOPICS = None
+def topic_titles():
+    """Clinical topic titles from clinic/data.js, for [[t:id]] links between articles."""
+    global _TOPICS
+    if _TOPICS is None:
+        d = open(os.path.join(WWW, 'clinic', 'data.js'), encoding='utf-8').read()
+        d = json.loads(d[d.index('{'):d.rstrip().rstrip(';').rindex('}') + 1])
+        _TOPICS = {t['id']: t['t'] for t in d['t']}
+    return _TOPICS
+
+
+def topic_link(m):
+    tid, label = m.group(1), m.group(2)
+    if tid not in topic_titles():
+        raise ValueError('unknown topic link [[t:%s]]' % tid)
+    return '<button type="button" class="arx arxt" data-go="cl:t-%s">%s</button>' % (tid, label or html.escape(topic_titles()[tid], quote=False))
+
+
 def plain(s):
+    s = re.sub(r'\[\[t:([a-z0-9_]+)(?:\|([^\]]+))?\]\]', lambda m: m.group(2) or topic_titles().get(m.group(1), ''), s)
     s = re.sub(r'\[\[[\d.]+\]\]|\s*\{(?:day|junior|senior|spec)\}', '', s)
     return re.sub(r'\s+', ' ', s.replace('**', '').replace('*', '')).strip()
 
