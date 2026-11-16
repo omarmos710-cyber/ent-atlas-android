@@ -42,7 +42,7 @@ VIEWER = r'''
    '<div class="bdctl"><button type="button" data-bd="out" aria-label="Zoom out">−</button><button type="button" data-bd="pct" aria-label="Fit to screen">Fit</button><button type="button" data-bd="in" aria-label="Zoom in">+</button>'+
    (pdf?'<button type="button" class="bddl" data-pdf="bd_'+id+'">Download PDF</button>':'')+'</div>';
   q("b").textContent=title||"Summary board";
-  if(pdf)q(".bddl").dataset.pdfname="The ENT Companion - "+(title||id)+" - summary board";
+  if(pdf)q(".bddl").dataset.pdfname="The ENT Companion - "+(title||id).normalize("NFD").replace(/[\u0300-\u036f]/g,"")+" - summary board";
   const fr=q("iframe");
   fr.onload=()=>{try{H=Math.ceil(fr.contentDocument.body.getBoundingClientRect().height);fr.style.height=H+"px"}catch(e){}setScale(F=fitScale())};
   fr.src="clinic/board/"+id+".html";document.body.appendChild(OV);document.body.style.overflow="hidden";setScale(fitScale());
