@@ -1,0 +1,179 @@
+<!doctype html><html><head><meta charset="utf-8"><title>EPISTAXIS · summary board</title>
+<style>
+@font-face{font-family:Caveat;src:url(fonts/Caveat.ttf)}
+@font-face{font-family:Hand;src:url(fonts/PatrickHand.ttf)}
+@font-face{font-family:Kalam;src:url(fonts/KalamBold.ttf)}
+:root{--ink:#1d2330;--blue:#1f5fbf;--red:#d33a2c;--green:#1f8a4c;--orange:#e07b1a;--purple:#7b44b8;--teal:#138a8a;--hl:rgba(255,226,74,.65)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1760px;background:#fbfbf7;color:var(--ink);font:17px/1.32 Hand,sans-serif;padding:22px 16px 26px;
+ background-image:radial-gradient(rgba(0,0,0,.035) 1px,transparent 1px);background-size:18px 18px}
+h1{font:700 52px/1 Caveat;text-align:center;letter-spacing:.5px}
+.sub{text-align:center;font:22px Caveat;color:#555;margin:4px 0 14px}
+.hl{background:linear-gradient(transparent 45%,var(--hl) 45%,var(--hl) 88%,transparent 88%);padding:0 2px}
+b{font-family:Kalam;font-weight:700;font-size:.95em}
+.card{position:relative;border:2.4px solid var(--c,var(--ink));border-radius:255px 18px 225px 16px/16px 225px 18px 255px;padding:12px 14px 12px;margin:20px 0 0;background:#fff}
+.card h2{font:700 30px/1 Caveat;color:var(--c);display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.n{display:inline-grid;place-items:center;width:34px;height:34px;border:2.4px solid var(--c);border-radius:50% 46% 52% 48%;font:700 22px Kalam;color:var(--c);flex:none}
+.row{display:flex;gap:10px;align-items:flex-start}
+.col{flex:1;min-width:0}
+ul{list-style:none;margin:2px 0}
+li{position:relative;padding-left:16px;margin:3px 0}
+li:before{content:"";position:absolute;left:2px;top:.55em;width:7px;height:7px;border-radius:50%;background:var(--c,var(--ink))}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:4px 2px;margin:6px 0}
+.chip{border:2px solid var(--c);border-radius:12px 6px 14px 7px;padding:1px 7px;background:#fff;font-size:15.5px}
+.ar{font:700 22px Caveat;color:var(--c);padding:0 2px}
+.note{font:23px/1.05 Caveat;color:var(--red)}
+.warn{border:2.4px dashed var(--red);border-radius:14px 8px 16px 9px;padding:6px 10px;margin:8px 0 2px;background:#fff5f3}
+.warn b{color:var(--red)}
+.mini{font-size:15px;color:#333}
+table{border-collapse:collapse;width:100%;font-size:15px;margin-top:4px}
+td,th{border-bottom:1.6px solid #d9d6cc;padding:3px 4px;text-align:left;vertical-align:top}
+th{font:700 15px Kalam;color:var(--c)}
+.tag{display:inline-block;font:700 13px Kalam;color:#fff;background:var(--c);border-radius:8px 4px 9px 5px;padding:0 6px;margin-right:3px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.box{border:2px solid var(--c);border-radius:16px 8px 18px 9px;padding:6px 8px;background:#fff}
+.box h3{font:700 22px/1 Caveat;color:var(--c);margin-bottom:2px}
+.foot{text-align:center;font:20px Caveat;color:#777;margin-top:18px}
+.grid{display:grid;grid-template-columns:1.05fr 1fr 1fr 1fr;gap:18px;align-items:start}
+.gcol>.card:first-child{margin-top:4px}
+h1{font-size:64px}
+</style></head><body>
+<style>.grid.even{align-items:stretch}.even>.gcol{display:flex;flex-direction:column}.even>.gcol>.card:last-child{flex:1}.st{display:inline-flex;align-items:center;gap:2px}</style>
+<h1>EPISTAXIS</h1>
+<div class="sub">a sign, not a diagnosis · resuscitate, find the point, ask why ✎</div>
+
+<div class="grid even"><div class="gcol">
+
+<div class="card" style="--c:var(--blue)">
+<h2><span class="n">1</span>Two carotids meet in the nose</h2>
+<svg width="400" height="178" viewBox="0 0 400 178" style="display:block;margin:0 auto">
+ <g font-family="Hand" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M70 142 L96 50 Q102 34 122 32 L300 26 Q318 26 322 42 L344 140 Z" fill="#f3f1ea" stroke="#1d2330" stroke-width="2.4"/>
+  <text x="214" y="96" text-anchor="middle" font-size="13" fill="#999">septum (left side view)</text>
+  <circle cx="104" cy="122" r="17" fill="#fbe1dc" stroke="#d33a2c" stroke-width="2.4"/>
+  <path d="M128 34 C124 70 116 92 110 104" stroke="#1f5fbf" stroke-width="2.6" fill="none"/>
+  <path d="M336 110 C250 116 170 120 122 121" stroke="#1f8a4c" stroke-width="2.6" fill="none"/>
+  <path d="M150 168 C140 152 126 142 117 136" stroke="#1f8a4c" stroke-width="2.6" fill="none"/>
+  <path d="M30 150 C52 144 72 136 88 129" stroke="#1f8a4c" stroke-width="2.6" fill="none"/>
+  <text x="134" y="22" font-size="13" fill="#1f5fbf">anterior ethmoidal (ICA)</text>
+  <text x="230" y="136" font-size="13" fill="#1f8a4c">SPA septal branch</text>
+  <text x="160" y="168" font-size="13" fill="#1f8a4c">greater palatine</text>
+  <text x="4" y="170" font-size="13" fill="#1f8a4c">superior labial</text>
+  <text x="34" y="118" font-size="13" fill="#d33a2c">Little's</text>
+ </g>
+</svg>
+<div class="mini" style="text-align:center;color:#666">schematic · <span style="color:var(--blue)">blue</span> = internal carotid · <span style="color:var(--green)">green</span> = external carotid</div>
+<ul class="mini" style="--c:var(--blue);margin-top:4px">
+<li><b>Kiesselbach's plexus</b> in <b>Little's area</b>: anteroinferior septum · dry air, thin bound mucosa, fingernail reach → <span class="hl">about nine in ten bleeds</span></li>
+<li><b>Sphenopalatine</b> (maxillary): main supply, dominant in ~85% · enters just behind the <b>crista ethmoidalis</b> → classic posterior bleed</li>
+<li><b>Woodruff's plexus</b>: lateral wall below the back of the inferior turbinate</li>
+<li>Bleeding <b>above the middle turbinate</b> = ethmoidal = internal carotid</li>
+<li>Young: <b>retrocolumellar vein</b> (venous)</li>
+</ul>
+</div>
+
+<div class="card" style="--c:var(--teal)">
+<h2><span class="n">2</span>Local, systemic, or neither</h2>
+<table style="--c:var(--teal)"><tr><th>Group</th><th>Examples</th></tr>
+<tr><td><b>Local</b></td><td>trauma (picking: commonest) · dry air, rhinitis, sinusitis · spur, perforation · tumour · surgery, tubes, sprays, cocaine</td></tr>
+<tr><td><b>Systemic</b></td><td>anticoagulants, antiplatelets, NSAIDs, supplements · haemophilia, von Willebrand, low platelets · HHT · hypertension · liver, renal failure</td></tr>
+<tr><td><b>Idiopathic</b></td><td>earned only <u>after</u> the search</td></tr></table>
+<div class="warn mini"><b>Teenage boy</b>, unilateral bleed + block = <b>angiofibroma</b>, no biopsy in clinic · <b>adult</b> unilateral + crusts / pain → endoscopy for tumour · <b>under two</b> → bleeding disorder or non-accidental injury · <b>late massive bleed after trauma</b> → carotid pseudoaneurysm</div>
+</div>
+
+</div><div class="gcol">
+
+<div class="card" style="--c:var(--red)">
+<h2><span class="n">3</span>Anterior or posterior?</h2>
+<table style="--c:var(--red)"><tr><th></th><th>Anterior</th><th>Posterior</th></tr>
+<tr><td><b>How often</b></td><td>common, ~90%</td><td>less common</td></tr>
+<tr><td><b>Site</b></td><td>Little's area, front of lateral wall</td><td>posterosuperior, hard to find</td></tr>
+<tr><td><b>Age</b></td><td>children, young adults</td><td>usually over 40</td></tr>
+<tr><td><b>Cause</b></td><td>trauma, dryness</td><td>spontaneous · hypertension, atherosclerosis, anticoagulants</td></tr>
+<tr><td><b>Severity</b></td><td>mild: pressure, cautery, anterior pack</td><td>often severe: admit, posterior pack, surgery</td></tr></table>
+<div class="mini" style="margin-top:4px">Posterior blood runs <b>back into the throat</b>, often both sides · <b>Minor</b> = stops with first aid, stable, home · <b>Major</b> = needs a pack, falling Hb, frail or anticoagulated → admit · <b>recurrent</b> one side → endoscopy; both sides + family → <b>HHT</b></div>
+</div>
+
+<div class="card" style="--c:var(--orange)">
+<h2><span class="n">4</span>Resuscitate first</h2>
+<div class="flow" style="--c:var(--orange)">
+<span class="chip">sit up, lean forward</span><span class="st"><span class="ar">→</span><span class="chip">pulse, BP, sats · IV, FBC, G&amp;S ± clotting</span></span><span class="st"><span class="ar">→</span><span class="chip">pinch soft nose <b>≥5 min</b> (10–15), no peeking</span></span><span class="st"><span class="ar">→</span><span class="chip">suction, vasoconstrictor, look</span></span>
+</div>
+<ul class="mini" style="--c:var(--orange)">
+<li><b>Trotter's method:</b> leaning over a basin, mouth breathing · ice in the mouth helps a little; ice on the bridge: no proof</li>
+<li>Swallowed blood hides loss · dark vomit ≠ haematemesis</li>
+<li><b>Endoscopy</b>: recurrent, not localised, or suspicious unilateral bleed</li>
+<li>Bloods only for significant bleeds · CT / MRI if tumour · <b>angiography</b>: pseudoaneurysm, vascular tumour, before embolisation</li>
+</ul>
+</div>
+
+</div><div class="gcol">
+
+<div class="card" style="--c:var(--green)">
+<h2><span class="n">5</span>The ladder, one rung at a time</h2>
+<div class="flow" style="--c:var(--green)">
+<span class="chip">first aid + topical</span><span class="st"><span class="ar">→</span><span class="chip">cautery of the point</span></span><span class="st"><span class="ar">→</span><span class="chip">anterior pack</span></span><span class="st"><span class="ar">→</span><span class="chip">posterior pack</span></span><span class="st"><span class="ar">→</span><span class="chip">endoscopic cautery</span></span><span class="st"><span class="ar">→</span><span class="chip">ligation / embolisation</span></span>
+</div>
+<ul class="mini" style="--c:var(--green)">
+<li>Anaesthetise first · treat <b>only the bleeding point</b></li>
+<li><b>Silver nitrate:</b> ring around the vessel, edge first, then inwards · wipe the vestibule after</li>
+<li><b>Bipolar</b> (endoscopic) fails less: fewer packs, admissions, less pain</li>
+<li><b>Ribbon gauze</b> 2.5 cm (child 12 mm), paraffin or BIPP, in layers · out at 24 h</li>
+<li><b>Sponge / balloon</b> = ED standard · <b>resorbable</b> if anticoagulated or bleeding disorder</li>
+</ul>
+<div class="warn mini"><b>Never cauterise both sides of the septum</b> at one sitting → perforation</div>
+</div>
+
+<div class="card" style="--c:var(--purple)">
+<h2><span class="n">6</span>Posterior pack, packed patient</h2>
+<ul class="mini" style="--c:var(--purple)">
+<li><b>Postnasal gauze:</b> three ties · two over a dental roll at the columella · <b>third</b> taped to the cheek to pull it out</li>
+<li><b>Foley</b> 12–14 F, balloon in the nasopharynx with <b>saline</b>, not air · protect ala + columella · or a <b>dual balloon</b></li>
+<li><span class="hl">Admit: posterior packs fail in about a third</span></li>
+<li><b>Oxygen</b>: nasopulmonary reflex → hypoxia in the elderly</li>
+<li>Watch: alar necrosis, sinusitis, otitis media, aspiration, <b>toxic shock</b></li>
+</ul>
+<div class="mini" style="margin-top:4px"><b>Hypertension:</b> treat pain + anxiety first, no sharp drops · <b>topical TXA</b>: NoPAC (496 pts) 43.7% vs 41.3% packed = no benefit · oral TXA helps in HHT</div>
+<div class="mini" style="margin-top:4px;border-top:1.6px solid #d9d6cc;padding-top:4px">US guideline (Tunkel 2020) · UK audit 1,826 cases: <b>1 in 7</b> back within 30 days, 3.4% dead at 30 days</div>
+</div>
+
+</div><div class="gcol">
+
+<div class="card" style="--c:var(--ink)">
+<h2><span class="n">7</span>The vessel follows the site</h2>
+<table style="--c:var(--ink)"><tr><th>Bleed</th><th>Operation</th></tr>
+<tr><td>source seen</td><td><b>endoscopic cautery</b></td></tr>
+<tr><td>posterior, below MT</td><td><b>sphenopalatine ligation</b> or embolisation</td></tr>
+<tr><td>above MT</td><td><b>ethmoidal ligation</b>, <u>not</u> embolisation</td></tr>
+<tr><td>septal deviation</td><td><b>septal surgery</b> to reach it</td></tr></table>
+<ul class="mini" style="--c:var(--ink);margin-top:4px">
+<li><b>TESPAL:</b> flap back to the crista, clip every branch · control <span class="hl">95–98%</span> · fails → accessory branch or ethmoidal source</li>
+<li><b>Ethmoidal</b> via Lynch incision · <b>24-12-6 mm</b>: lacrimal crest → anterior → posterior foramen → optic canal</li>
+<li><b>Embolisation</b> (internal maxillary) ~88% · unfit, tumours, pseudoaneurysm · risks stroke, blindness</li>
+<li>Historical: maxillary ligation (fails 10–15%), external carotid ligation</li>
+</ul>
+</div>
+
+<div class="card" style="--c:var(--teal)">
+<h2><span class="n">8</span>Special patients</h2>
+<ul class="mini" style="--c:var(--teal)">
+<li><b>Child:</b> antiseptic cream twice daily × four weeks (no arachis oil in peanut allergy) · bruising or family history → clotting + von Willebrand</li>
+<li><b>Anticoagulated:</b> local control first, resorbable pack, INR · reverse only if life-threatening, with the prescriber</li>
+<li><b>HHT:</b> repeated packing + cautery make it worse</li>
+</ul>
+</div>
+
+<div class="card" style="--c:var(--red)">
+<h2><span class="n">9</span>Exam traps ✗</h2>
+<ul class="mini" style="--c:var(--red)">
+<li>Underestimating loss in an elderly patient <b>swallowing blood</b></li>
+<li><b>Blind packing</b> before suction and a look</li>
+<li>Stopping anticoagulants for a bleed a pack would stop</li>
+<li>Embolising an <b>ethmoidal</b> bleed</li>
+<li>Repacking recurrent bilateral bleeds that are really <b>HHT</b></li>
+</ul>
+</div>
+
+</div></div>
+<div class="foot">ENT Atlas · Clinical · Epistaxis · summary of the article</div>
+</body></html>
