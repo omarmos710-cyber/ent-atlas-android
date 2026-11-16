@@ -17,13 +17,14 @@ Salivary malignancy | Older children | Solitary parotid mass, rapid growth
 Oxford Textbook: lymphoma 27%, neural tumours 23%, thyroid tumours 21%, soft tissue sarcomas 12% of childhood head and neck malignancies.
 Oxford Specialist Handbook: lymphoma about 50%, rhabdomyosarcoma 20%, neuroblastoma 6%, nasopharyngeal carcinoma 6%, thyroid carcinoma 4%; rhabdomyosarcoma and neuroblastoma are the commonest under 2.
 Both agree that lymphoma leads and squamous carcinoma is rare; the difference reflects the series and the age range counted.
+In practice: think of lymphoma first in a child's malignant neck mass, and of rhabdomyosarcoma and neuroblastoma under 2.
 !!
 
 # Assessment | The lump that does not behave.
 ## History
 Duration and growth, fever, night sweats, weight loss, itching, pain, nasal obstruction or bleeding, one-sided hearing loss or ear discharge, change in the voice or breathing, swallowing, and contact with tuberculosis, travel or HIV.
 ## Examination
-Ears, nose, mouth and teeth, and the whole neck, then the axillae, groins, abdomen (liver and spleen) and skin. In the eye look for proptosis, Horner syndrome and heterochromia. Re-examine once fever, pain and dehydration have been corrected, as the signs often change.
+Ears, nose, mouth and teeth, and the whole neck, then the axillae, groins, abdomen (liver and spleen) and skin. In the eye look for proptosis, Horner syndrome and heterochromia. Re-examine once fever, pain and dehydration have been corrected, as the signs often change. The benign and congenital masses are in [[t:paeds_neck]].
 !flag Features that need urgent investigation
 - A node larger than about 2 cm, or one that keeps growing or has not shrunk after about 6 weeks.
 - A supraclavicular node at any size.
@@ -39,7 +40,7 @@ Any large, rapidly growing or unusual lump needs urgent imaging and tissue.
 - **Full blood count and film, LDH and liver function**; urine catecholamines (HVA and VMA) if neuroblastoma is possible; EBV serology in suspected nasopharyngeal carcinoma.
 - **MRI** (or CT) of the primary and neck to define the extent; staging CT, bone scan, MIBG scan or bone marrow as the oncologist directs.
 !flag The mediastinal mass and the anaesthetic
-A child with lymphoma may have a large anterior mediastinal mass that compresses the trachea. Induction of general anaesthesia can cause complete airway or cardiovascular collapse. Get a chest X-ray first; if there is a mass, discuss with the anaesthetist and oncologist, and consider biopsy under local anaesthetic or sampling another site.
+A child with lymphoma may have a large anterior mediastinal mass that compresses the trachea. Induction of general anaesthesia can cause complete airway or cardiovascular collapse. Get a chest X-ray first; if there is a mass, discuss with the anaesthetist ([[t:anaes]]) and oncologist, and consider biopsy under local anaesthetic or sampling another site.
 !!
 ## Taking tissue
 Talk to the oncologist and the pathologist *before* the biopsy so that the sample answers the question.
@@ -55,7 +56,7 @@ Commonest in adolescents and young adults. Enlarged, rubbery, non-tender nodes, 
 ## Non-Hodgkin lymphoma
 The commonest lymphoma between 2 and 12 years. More often widespread at presentation, it may involve Waldeyer's ring (a unilateral enlarged tonsil) and grow very fast, as in Burkitt lymphoma. Immunophenotyping separates B-cell and T-cell types. Combination chemotherapy is the mainstay; prognosis is poorer than Hodgkin lymphoma but good for early disease.
 !pearl The asymmetrical tonsil
-A child with one tonsil much larger than the other, especially if it grows quickly, looks abnormal, or comes with nodes or systemic symptoms, needs the tonsil removed for histology to exclude lymphoma. Send it fresh.
+A child with one tonsil much larger than the other, especially if it grows quickly, looks abnormal, or comes with nodes or systemic symptoms, needs the tonsil removed ([[t:tonsil]]) for histology to exclude lymphoma. Send it fresh.
 !!
 ## Rhabdomyosarcoma
 The commonest soft tissue sarcoma of childhood; about 43% occur under 5 years and the head and neck is the commonest site. Histological types are *embryonal* (about 60%, better prognosis, including the botryoid type), *alveolar* (about 20%, worse) and others. Sites are grouped as:
@@ -69,13 +70,13 @@ An aural polyp with bleeding, facial weakness or rapid regrowth in a young child
 ## Neuroblastoma
 The commonest malignancy of infants under 1 year, from neural crest cells of the sympathetic chain. Only about 5% arise in the neck, where it presents as a firm, fixed, non-tender mass with ipsilateral *Horner syndrome* and *heterochromia of the iris*, and sometimes stridor, dysphagia or cranial nerve palsies. Urinary HVA and VMA are raised in about 90%. It is staged with MRI or CT, MIBG and bone scans and bone marrow biopsy. Localised disease is excised; unresectable or metastatic disease is treated with chemotherapy. Cervical neuroblastoma does better than other sites because it is noticed early, and infants under 1 often do well whatever the stage.
 ## Thyroid carcinoma
-Mostly papillary carcinoma. A thyroid nodule in a child is more likely to be malignant than one in an adult, and children more often present with cervical node and lung metastases, yet survival is excellent. Previous radiation to the neck is a risk factor. *Medullary carcinoma* occurs in multiple endocrine neoplasia type 2, where children with a RET mutation are offered prophylactic thyroidectomy. Management is by a specialist thyroid team: total thyroidectomy with the appropriate neck dissection, and radioiodine for selected patients.
+Mostly papillary carcinoma ([[t:thyroid]]). A thyroid nodule in a child is more likely to be malignant than one in an adult, and children more often present with cervical node and lung metastases, yet survival is excellent. Previous radiation to the neck is a risk factor. *Medullary carcinoma* occurs in multiple endocrine neoplasia type 2, where children with a RET mutation are offered prophylactic thyroidectomy. Management is by a specialist thyroid team: total thyroidectomy with the appropriate neck dissection, and radioiodine for selected patients.
 ## Nasopharyngeal carcinoma
-Rare in children, mainly in adolescents, and usually the undifferentiated type associated with Epstein-Barr virus. It presents as in adults with neck nodes, a unilateral middle ear effusion, nasal obstruction or epistaxis and cranial nerve palsies. In a child with a nasopharyngeal mass the differential is rhabdomyosarcoma, non-Hodgkin lymphoma and, in an adolescent boy, angiofibroma. Treatment is chemoradiotherapy.
+Rare in children ([[t:npc]]), mainly in adolescents, and usually the undifferentiated type associated with Epstein-Barr virus. It presents as in adults with neck nodes, a unilateral middle ear effusion, nasal obstruction or epistaxis and cranial nerve palsies. In a child with a nasopharyngeal mass the differential is rhabdomyosarcoma, non-Hodgkin lymphoma and, in an adolescent boy, [[t:juv|angiofibroma]]. Treatment is chemoradiotherapy.
 ## Salivary gland tumours
-At least two thirds of salivary swellings in children are not neoplastic, most commonly mucoceles and sialadenitis, and benign tumours are more often haemangiomas or vascular malformations than adenomas. But a *solitary solid salivary mass* in a child is malignant in more than half (against about a quarter in adults). *Mucoepidermoid carcinoma* is the commonest malignancy (about half), followed by acinic cell carcinoma. The parotid is affected more than the submandibular gland, and rapid growth without infection suggests malignancy. Management follows adult principles: imaging, fine-needle aspiration or core biopsy, and parotidectomy with facial nerve preservation.
+At least two thirds of salivary swellings in children are not neoplastic, most commonly mucoceles and sialadenitis, and benign tumours are more often haemangiomas or vascular malformations than adenomas. But a *solitary solid salivary mass* in a child is malignant in more than half (against about a quarter in adults); series that count all solid salivary tumours give up to half ([[t:saltum]]). *Mucoepidermoid carcinoma* is the commonest malignancy (about half), followed by acinic cell carcinoma. The parotid is affected more than the submandibular gland, and rapid growth without infection suggests malignancy. Management follows adult principles: imaging, fine-needle aspiration or core biopsy, and parotidectomy with facial nerve preservation.
 ## Other tumours
-Langerhans cell histiocytosis (lytic skull and temporal bone lesions, otorrhoea, nodes), teratomas and other germ cell tumours, Ewing sarcoma, osteosarcoma, chondrosarcoma, and olfactory neuroblastoma are rare.
+Langerhans cell histiocytosis (lytic skull and temporal bone lesions, otorrhoea, nodes; [[t:jaw]]), teratomas and other germ cell tumours, Ewing sarcoma, osteosarcoma, chondrosarcoma, and olfactory neuroblastoma are rare.
 
 # Treatment and after | The team and the long view.
 ## The multidisciplinary team
@@ -83,7 +84,7 @@ Childhood cancer is treated in a paediatric oncology centre under national or in
 ## Late effects
 Survivors live for decades with the consequences of treatment, so follow-up is long term.
 - **Radiotherapy to the head and neck:** impaired growth of bone and teeth, facial asymmetry, Eustachian tube dysfunction and glue ear, sensorineural hearing loss, cataract, hypothyroidism, pituitary dysfunction, osteoradionecrosis and second cancers.
-- **Cisplatin:** permanent high-frequency hearing loss, worse in young children; monitor hearing during and after treatment.
+- **Cisplatin:** permanent high-frequency hearing loss, worse in young children; monitor hearing during and after treatment ([[t:hnrt]]).
 - **Surgery:** cosmetic deformity, cranial nerve deficits, swallowing and speech problems.
 - **Psychological and educational** effects for the child and family.
 !update Current evidence
