@@ -89,17 +89,17 @@ Sudden, severe, continuous vertigo with nausea and vomiting, lasting days and se
 ### Treatment
 Short-course vestibular sedatives for the first few days, then early mobilisation and vestibular rehabilitation. Steroids started early speed recovery of caloric function in the short term, but do not clearly improve long-term symptoms. Failure to improve at two to three weeks means a central lesion, such as a cerebellar infarct, must be excluded.
 ## Labyrinthitis
-As neuritis, but with hearing loss, from viral or bacterial infection of the labyrinth itself.
+As neuritis, but with hearing loss, from viral or bacterial infection of the labyrinth itself ([[t:fistula]]).
 ## Ménière's disease
-Attacks of vertigo lasting hours with fluctuating hearing loss, tinnitus and fullness.
+Attacks of vertigo lasting hours with fluctuating hearing loss, tinnitus and fullness ([[t:meniere]]).
 ## Recurrent vestibulopathy
 Ménière-like spells without hearing symptoms. About 60% remit; a minority become Ménière's disease or BPPV.
 ## Perilymph fistula
-Episodic vertigo and fluctuating hearing after stapes surgery, barotrauma, heavy lifting or coughing. Bed rest with the head up and laxatives; explore if worsening.
+Episodic vertigo and fluctuating hearing after stapes surgery, barotrauma, heavy lifting or coughing. Bed rest with the head up and laxatives; explore if worsening ([[t:fistula]]).
 ## Superior canal dehiscence
-Vertigo provoked by sound and pressure, autophony and a low-frequency conductive loss with intact reflexes (see the separate topic).
+Vertigo provoked by sound and pressure, autophony and a low-frequency conductive loss with intact reflexes ([[t:scd]]).
 ## Bilateral vestibular loss
-Oscillopsia and unsteadiness in the dark, without true vertigo, most often from aminoglycosides. Cerebellar ataxia with bilateral vestibular loss is called *CABV*, or *CANVAS* when sensory neuropathy is added.
+Oscillopsia and unsteadiness in the dark, without true vertigo, most often from aminoglycosides ([[t:sensori]]). Cerebellar ataxia with bilateral vestibular loss is called *CABV*, or *CANVAS* when sensory neuropathy is added.
 
 # Central causes | The ones not to miss.
 ## Posterior circulation stroke
@@ -140,11 +140,11 @@ Vague floating or swaying, with anxiety, no nystagmus and normal tests. Persiste
 5. Give antiemetics or vestibular sedatives for a few days only.
 !!
 ## Vestibular rehabilitation
-Head and eye exercises that drive central compensation, the mainstay after any peripheral loss.
+Head and eye exercises that drive central compensation, the mainstay after any peripheral loss. Formal vestibular tests are covered in [[t:vest]].
 ## Avoid long-term sedatives
 They slow compensation.
 !pearl Pearls
-- An acoustic neuroma usually causes unsteadiness, not severe vertigo.
+- An acoustic neuroma ([[t:vs]]) usually causes unsteadiness, not severe vertigo.
 - Fatigable, delayed, torsional positional nystagmus is peripheral; immediate, persistent or vertical nystagmus is central.
 - A positive fistula test: perilymph fistula, cholesteatoma with a fistula, Ménière's disease, superior canal dehiscence, or syphilis.
 !!

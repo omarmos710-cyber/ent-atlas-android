@@ -50,6 +50,7 @@ A negative Rinne at 256 Hz only suggests a gap of about 20 to 30 dB; at 256 and 
 !differ Gap that turns each fork negative
 Dhingra: 15 dB at 256, 30 dB at 512 and 45 dB at 1024 Hz.
 Lee: 15, 25 and 35 dB.
+In practice: The figures differ, but the order does not: the more forks that turn negative, the bigger the gap, and a negative Rinne at 1024 Hz means a large one.
 !!
 !pearl False-negative Rinne
 In a severe one-sided sensorineural loss, the fork on the mastoid is heard by the other cochlea, so bone seems louder. Mask the good ear with a Barany noise box, and use the Weber.
@@ -79,7 +80,7 @@ Sound presented to one ear can cross the skull and be heard by the other, so the
 The usual method is the **plateau (Hood) technique**: noise in the non-test ear is raised in 10 dB steps while the threshold in the test ear is re-measured; while the threshold keeps rising with the noise, the other ear was answering, and once it stays the same across several steps (the plateau), the true threshold has been found. Without masking, a dead ear produces a **shadow curve**, a threshold that mirrors the good ear about 40 to 60 dB lower for air and almost level with it for bone. The **masking dilemma** arises in large bilateral conductive losses, as in bilateral atresia, when the noise needed to mask one ear crosses over and masks the test ear too; insert earphones and ABR by bone conduction help.
 !draw aud-dead | A right dead ear. Unmasked, the right ear seems to have a 65 to 80 dB loss with near-normal bone conduction: a shadow of the left ear. With the left ear masked, there is no response by bone conduction at the limits of the machine.
 ## Repeatability
-Normal repeat audiograms agree within about 5 dB, so a change of 10 dB or more at two frequencies is significant. Grades of loss use the average of 500, 1000, 2000 and 4000 Hz in the better ear (see the hearing loss article).
+Normal repeat audiograms agree within about 5 dB, so a change of 10 dB or more at two frequencies is significant. Grades of loss use the average of 500, 1000, 2000 and 4000 Hz in the better ear (the WHO grades are under Current evidence below).
 
 # Patterns on the audiogram | Worked examples.
 ## Conductive and mixed losses
@@ -181,13 +182,14 @@ Look at three things. **Wave latencies:** wave V normally appears at about 5.5 t
 !differ Abnormal interaural wave V difference
 Dhingra: Over 0.2 ms.
 Lee: 0.4 to 0.5 ms.
+In practice: Treat a clearly prolonged difference as suspicious and get an MRI, which has replaced ABR for finding tumours ([[t:vs]]).
 !!
 ## Auditory steady-state response
 Frequency-specific thresholds into the profound range, beyond the reach of ABR (about 80 dB).
 ## Electrocochleography
-Records the summating potential, action potential and cochlear microphonic. An enlarged SP to AP ratio suggests Ménière's disease (see that topic).
+Records the summating potential, action potential and cochlear microphonic. An enlarged SP to AP ratio suggests [[t:meniere|Ménière's disease]].
 !fig d4-9 | Electrocochleography: normal ear and an ear with Ménière's disease.
-!draw ecochg | Reading electrocochleography: the summating potential (SP) is the shoulder before the sharp action potential (AP). An SP/AP ratio above about 0.4 to 0.5 suggests endolymphatic hydrops; a normal result does not exclude it.
+!draw ecochg | Reading electrocochleography: the summating potential (SP) is the shoulder before the sharp action potential (AP). A raised SP/AP ratio suggests endolymphatic hydrops (texts put the cut-off between about 0.3 and 0.4 to 0.5); a normal result does not exclude it.
 ## Auditory neuropathy
 Present otoacoustic emissions and cochlear microphonic with an absent or abnormal ABR: the hair cells work but the nerve does not carry the signal synchronously.
 
