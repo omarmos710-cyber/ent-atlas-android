@@ -93,7 +93,7 @@ Lateral cephalometry for craniofacial skeletal anomalies and the posterior airwa
 
 # Non-surgical treatment | First-line.
 ## Lifestyle
-- Weight loss; bariatric surgery for morbid obesity.
+- Weight loss; bariatric surgery for morbid obesity. **Tirzepatide** reduced the apnoea–hypopnoea index by about half in obese adults in the SURMOUNT-OSA trials (Malhotra et al., *NEJM* 2024) and is now licensed for moderate to severe sleep apnoea with obesity in some countries.
 - Avoid alcohol in the evening, sedatives and hypnotics; stop smoking.
 - **Positional therapy:** sleeping on the side, with a device (or a ball sewn into the back of a shirt) when apnoea is supine-dependent.
 - Treat nasal obstruction and allergy.
@@ -132,6 +132,7 @@ Patients with apnoea are sensitive to opioids and sedatives and may have difficu
 Dhingra: Calls tracheostomy the gold standard of surgical treatment, lists uvulopalatoplasty as the commonest procedure and quotes 80% success for snoring but 50% for apnoea.
 Lee: Places CPAP as the gold standard of therapy, emphasises patient selection by Friedman stage and DISE, reporting UPPP success above 85% in favourable anatomy, and names maxillomandibular advancement the most effective operation short of tracheostomy.
 They agree that surgery must be matched to the level of collapse.
+Current practice: CPAP is first line for moderate and severe apnoea; surgery is matched to the site of collapse on drug-induced sleep endoscopy, with multilevel surgery (MacKay et al., *JAMA* 2020) and hypoglossal nerve stimulation (Strollo et al., *NEJM* 2014) for selected CPAP failures, and tracheostomy as a last resort.
 !!
 
 # Children | Big tonsils, small airway.

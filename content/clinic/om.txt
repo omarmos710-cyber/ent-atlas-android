@@ -90,11 +90,12 @@ Indicated for a bulging drum with severe pain, incomplete resolution with persis
 ## Recurrent acute otitis media
 Three or more episodes in six months, or four or more in a year. Reduce risk factors (smoke exposure, dummies, day care where possible), encourage breastfeeding, and check vaccinations (pneumococcal and Hib); children who keep having infections despite vaccination may have poor antibody responses. The options are:
 - **Watchful management,** treating each episode promptly; many children grow out of it.
-- **Grommets,** which reduce episodes in the following six months and let infections be treated with antibiotic drops instead of oral antibiotics; the usual choice when effusion persists between attacks.
+- **Grommets,** which let infections be treated with antibiotic drops instead of oral antibiotics and may reduce episodes in the first six months; but in the largest randomised trial they did not reduce the number of episodes over two years compared with medical management (Hoberman et al., *NEJM* 2021). They are the usual choice when effusion persists between attacks.
 - **Antibiotic prophylaxis** (for example amoxicillin at half dose, or azithromycin three times a week, for two to three months) roughly halves episodes while it is taken, but the effect stops with the drug and resistance is a concern; it is rarely used in the UK.
 !differ Recurrent otitis media
 Dhingra: Mentions amoxicillin prophylaxis, while noting its drawbacks and that many prefer grommets; grommets for 4 episodes in 6 months or 6 in a year.
 Lee: Does not recommend prophylaxis; defines recurrence as 3 in 6 months or 4 in 12 months.
+Current practice: prophylaxis is rarely used because of resistance; grommets are offered when effusion persists between attacks, though in the largest trial they did not reduce episodes over two years (Hoberman et al., *NEJM* 2021).
 !!
 
 # Otitis media with effusion | The quiet ear that cannot hear.
@@ -118,6 +119,7 @@ Always examine the nasopharynx: nasopharyngeal carcinoma can first present this 
 !differ Scoping the nasopharynx
 Dhingra: Always exclude a nasopharyngeal tumour in an adult with one-sided effusion.
 Lee: The value of endoscopy is clearest in high-risk patients.
+Current practice: examine the postnasal space in every adult with a persistent one-sided effusion, and biopsy if anything is abnormal; the threshold is lowest in smokers and people from endemic regions.
 !!
 !imaging | Adenoid enlargement, and otomastoiditis with its complications.
 ## Natural history
