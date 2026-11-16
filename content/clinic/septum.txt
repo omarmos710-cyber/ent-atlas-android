@@ -11,7 +11,7 @@ The septum has three parts: the *columellar septum* (the columella, with the med
 !fig d26-1 | Anatomy of the nasal septum: septal cartilage, perpendicular plate of the ethmoid and vomer.
 !anat s105_43 | The septal cartilage and bones of the septum.
 ### Blood supply
-Little's area on the anteroinferior septum, where four arteries meet, is the commonest site of epistaxis (see the epistaxis topic).
+Little's area on the anteroinferior septum, where four arteries meet, is the commonest site of epistaxis ([[t:epistaxis]]).
 ## Why it matters
 Septal problems cause nasal obstruction, sinusitis, epistaxis and external deformity, and septal surgery is one of the commonest operations in ENT.
 
@@ -23,7 +23,7 @@ Blows from the front, side or below buckle, fracture, dislocate or crush the sep
 - **Chevallet fracture:** from a blow from below, running vertically from the anterior nasal spine up to the junction of the bony and cartilaginous dorsum.
 !fig d26-2 | Septal fractures: (A) Jarjaway type, (B) Chevallet type.
 ## Treatment
-Drain any haematoma; reposition dislocated or fractured fragments, support them between the flaps with mattress sutures and packing, and treat any nasal bone fracture at the same time. Ignored septal injuries leave a deviated cartilaginous nose and an asymmetric tip, columella or nostril.
+Drain any haematoma; reposition dislocated or fractured fragments, support them between the flaps with mattress sutures and packing, and treat any nasal bone fracture at the same time ([[t:facefx]]). Ignored septal injuries leave a deviated cartilaginous nose and an asymmetric tip, columella or nostril.
 
 # Deviated nasal septum | When the partition is crooked.
 ## Causes
@@ -68,7 +68,7 @@ Minor, symptomless deviations need nothing. Treat coexisting rhinitis first. Ope
 ### Septoplasty
 The conservative operation: only the most deviated parts are removed; the rest is straightened (by scoring, morselising or repositioning) and put back. A flap is usually raised on one side only. It has largely replaced submucous resection, and can be done in children with severe obstruction because it preserves growth centres.
 ### Submucous resection
-Flaps are raised on both sides and the deviated cartilage and bone are removed, leaving dorsal and caudal struts; now mostly historical (see the nose and sinus operations topic).
+Flaps are raised on both sides and the deviated cartilage and bone are removed, leaving dorsal and caudal struts; now mostly historical ([[t:sinussurg]]).
 ### Associated procedures
 Turbinate reduction for hypertrophy, and septorhinoplasty when the external nose is deviated.
 !ops
@@ -91,7 +91,7 @@ Severe obstruction, pain and tenderness over the bridge, fever and chills, a red
 ### Treatment
 Drain urgently at the most dependent point, excise a piece of mucosa, remove pus and dead cartilage, reopen daily for two or three days if needed, and give antibiotics guided by culture for at least ten days.
 ## Complications
-- Cartilage necrosis and *saddle nose* (supratip depression), corrected by augmentation rhinoplasty after two or three months.
+- Cartilage necrosis and *saddle nose* (supratip depression), corrected by augmentation rhinoplasty after two or three months ([[t:facplast]]).
 - Septal perforation.
 - Meningitis and cavernous sinus thrombosis, rare but serious.
 !flag Never send home a swollen septum
@@ -107,21 +107,19 @@ Destructive disease | Granulomatosis with polyangiitis | NK/T-cell lymphoma, car
 Drugs and chemicals | Cocaine | long-term steroid sprays, chromium, arsenic, soda ash
 Unknown | Idiopathic |
 !!
-Lupus, tuberculosis and leprosy perforate the cartilaginous septum; syphilis perforates the bony septum.
+Lupus, tuberculosis and leprosy perforate the cartilaginous septum; syphilis perforates the bony septum. Ask about cocaine use at any age. The granulomatous causes are covered in [[t:gpa]].
 !fig d26-10 d26-11 | First, a septal perforation. Second, a septum deliberately perforated for an ornament.
 ## Clinical picture
-Small anterior perforations whistle with breathing. Larger ones crust, obstruct and bleed when crusts are removed; very large ones can cause a saddle nose.
+Small anterior perforations whistle with breathing. Larger ones crust, obstruct and bleed when crusts are removed; very large ones can cause a saddle nose. Posterior perforations at the bony–cartilaginous junction are the ones that bleed heavily.
 ## Investigations
 Look for the cause: blood tests (ANCA, ACE, syphilis serology), urine drug screen where relevant, and biopsy of granulation or of the edge of the perforation (taken from the posterosuperior edge, away from the healed anterior rim).
 ## Treatment
 - **Conservative:** saline or alkaline douches and bland ointment to keep the nose free of crusts.
-- **Septal button:** a silicone obturator.
-- **Surgical closure:** for small, inactive perforations, with local rotation or advancement flaps and an interposition graft.
-## Current practice
-Practice has moved away from the routine "trial" of a silastic button: some patients find it irritating and obstructive, and a button can enlarge the perforation. Custom-made obturators are more comfortable but lack strong evidence. Perforations larger than about 2 cm are hard to close with local advancement flaps, but techniques borrowed from endoscopic skull base surgery, such as a pedicled flap based on the **anterior ethmoidal artery**, now allow closure of larger defects. Cocaine use should be asked about at any age, and posterior perforations at the bony–cartilaginous junction are the ones that bleed heavily.
+- **Septal button:** a silicone obturator. Practice has moved away from a routine "trial" of a button: some patients find it irritating and obstructive, and a button can enlarge the perforation. Custom-made obturators are more comfortable but lack strong evidence.
+- **Surgical closure:** for small, inactive perforations, with local rotation or advancement flaps and an interposition graft. Perforations larger than about 2 cm are hard to close with local advancement flaps, but techniques borrowed from endoscopic skull base surgery, such as a pedicled flap based on the **anterior ethmoidal artery**, now allow closure of larger defects.
 !fig d26-12 | A silicone septal button closing a perforation.
 !update Current evidence
-**Septoplasty works.** Two randomised trials have shown that septoplasty, with or without turbinate reduction, beats medical treatment for nasal obstruction with a deviated septum. In the Dutch trial, septoplasty improved quality of life at 12 and 24 months (van Egmond et al., *Lancet* 2019); in the UK NAIROS trial, SNOT-22 scores at six months were 20 points better after septoplasty than after nasal steroid spray and saline (Carrie et al., *Health Technol Assess* 2024). **Septal haematoma.** Prompt drainage and a packed or quilted septum prevent abscess and saddle deformity; children with nasal trauma need the septum examined. **Perforation.** Closure with endoscopic, pedicled flaps (such as the anterior ethmoidal artery flap) succeeds in most perforations under about 2 cm in published series, but evidence is from case series.
+**Septoplasty works.** Two randomised trials have shown that septoplasty, with or without turbinate reduction, beats medical treatment for nasal obstruction with a deviated septum. In the Dutch trial, septoplasty improved quality of life at 12 and 24 months (van Egmond et al., *Lancet* 2019); in the UK NAIROS trial, SNOT-22 scores at six months were 20 points better after septoplasty than after nasal steroid spray and saline (Carrie et al., *Health Technol Assess* 2024). **Perforation.** Closure with endoscopic, pedicled flaps (such as the anterior ethmoidal artery flap) succeeds in most perforations under about 2 cm in published series, but evidence is from case series.
 !!
 
 # For the examination | What the examiner wants to hear.

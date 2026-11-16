@@ -2,13 +2,14 @@
 
 # Overview | Inflammation of the nasal lining.
 ## Definition
-Rhinitis is inflammation of the nasal mucosa, defined clinically by two or more of nasal obstruction, rhinorrhoea, sneezing and itching. *Rhinosinusitis* adds sinus involvement (see the sinusitis topics).
+Rhinitis is inflammation of the nasal mucosa, defined clinically by two or more of nasal obstruction, rhinorrhoea, sneezing and itching. *Rhinosinusitis* adds sinus involvement ([[t:abs]], [[t:crs]]).
 ## Classification
 !tree Rhinitis
 Allergic | Seasonal or perennial | intermittent or persistent (ARIA)
 Non-allergic, non-infective | Vasomotor (idiopathic) | drug-induced, rhinitis medicamentosa, hormonal, NARES, gustatory, emotional, occupational
-Infective | Acute and chronic rhinitis | atrophic rhinitis and specific infections (separate topics)
+Infective | Acute and chronic rhinitis | atrophic rhinitis and specific infections
 !!
+Infective and atrophic rhinitis are covered in [[t:atrophic]].
 ## Why it matters
 Allergic rhinitis affects about one person in five in Western countries (up to a quarter in some populations), disturbs sleep, school and work, and travels with asthma: rhinitis patients are about four times more likely to develop asthma, 20 to 30% of patients with rhinitis have asthma, and most with allergic asthma have rhinitis. Treating the nose often improves asthma control (the *united airway*). Non-allergic rhinitis typically begins in early adulthood and is linked to adult-onset asthma.
 
@@ -97,12 +98,12 @@ Gradually increasing doses of the allergen, by subcutaneous injection or subling
 A non-allergic rhinitis that mimics allergy, with negative allergy tests, from autonomic imbalance with parasympathetic overactivity and a hyperreactive mucosa. Emotions influence it through the hypothalamus.
 ## Clinical features
 - Paroxysmal sneezing on getting out of bed.
-- Profuse, watery rhinorrhoea, sometimes the main complaint; dripping on leaning forward must be distinguished from CSF rhinorrhoea.
+- Profuse, watery rhinorrhoea, sometimes the main complaint; dripping on leaning forward must be distinguished from CSF rhinorrhoea ([[t:csf]]).
 - Blockage alternating from side to side, worse at night and on the dependent side.
 - Postnasal drip.
 The turbinate mucosa is congested and hypertrophic, or normal.
 ## Complications
-Hypertrophic rhinitis, polyps and sinusitis.
+Hypertrophic rhinitis, polyps and sinusitis ([[t:crs]]).
 ## Treatment
 ### Medical
 Avoid triggers; antihistamines and oral decongestants; topical steroids; ipratropium for rhinorrhoea; a short systemic steroid course in severe cases; address psychological factors.

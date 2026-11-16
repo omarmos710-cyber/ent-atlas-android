@@ -4,7 +4,7 @@
 ## Classification
 !tree Granulomatous diseases of the nose
 Bacterial | Rhinoscleroma | tuberculosis, lupus vulgaris, leprosy, syphilis
-Fungal | Aspergillosis, mucormycosis | see the fungal sinusitis topic
+Fungal | Aspergillosis, mucormycosis | covered in [[t:afs]]
 Parasitic | Rhinosporidiosis | leishmaniasis
 Inflammatory | Granulomatosis with polyangiitis | sarcoidosis, eosinophilic granulomatosis
 Neoplastic mimic | NK/T-cell lymphoma | the old lethal midline granuloma
@@ -21,7 +21,7 @@ Crusting, bloodstained discharge, nasal obstruction, granulations, septal perfor
 ### Spread
 Starts in the nose and spreads to the nasopharynx, oropharynx, larynx (especially the subglottis), trachea and bronchi.
 ### Stages
-- **Atrophic (catarrhal):** like atrophic rhinitis, with foul purulent discharge and crusts.
+- **Atrophic (catarrhal):** like [[t:atrophic|atrophic rhinitis]], with foul purulent discharge and crusts.
 - **Granulomatous (proliferative):** painless, non-ulcerating nodules; infiltration of the lower external nose and upper lip gives a *woody* feel (the *Hebra nose*).
 - **Cicatricial (sclerotic):** stenosis of the nostrils, distortion of the lip, adhesions in the nose and pharynx, and subglottic stenosis with stridor.
 !fig d28-1 | Rhinoscleroma of the nose.
@@ -33,6 +33,7 @@ Long antibiotic courses until two consecutive biopsy cultures are negative.
 !differ Antibiotics for rhinoscleroma
 Dhingra: Streptomycin 1 g/day with tetracycline 2 g/day for at least four to six weeks, repeated if needed; steroids to reduce fibrosis.
 Lee: Fluoroquinolones such as ciprofloxacin, or tetracyclines, for months.
+In practice: A long course of a fluoroquinolone or a tetracycline, guided by culture, until two consecutive biopsy cultures are negative.
 !!
 Surgery restores the airway (including tracheostomy for subglottic stenosis) and corrects deformity.
 ## Tuberculosis
@@ -82,7 +83,7 @@ Fatigue, night sweats, arthralgia, anaemia; cough and haemoptysis with cavitatin
 ### Diagnosis
 *c-ANCA* (anti-proteinase 3) is positive in most active systemic disease; raised ESR and CRP; urinalysis and creatinine; chest imaging. Nasal biopsy shows necrosis, granulomas and vasculitis, though often non-specific.
 ### Treatment
-Steroids with cyclophosphamide or rituximab to induce remission, then azathioprine or methotrexate to maintain it, with the rheumatology and renal teams. Nasal douching for crusts; reconstruction only when quiescent.
+Steroids with cyclophosphamide or rituximab to induce remission, then rituximab, azathioprine or methotrexate to maintain it (rituximab gives fewer relapses than azathioprine), with the rheumatology and renal teams. Nasal douching for crusts; reconstruction only when quiescent.
 !imaging | Granulomatosis with polyangiitis in the nose, sinuses and orbit.
 ## Eosinophilic granulomatosis with polyangiitis
 Churg-Strauss syndrome: asthma, nasal polyps, peripheral eosinophilia and vasculitis, often p-ANCA positive.

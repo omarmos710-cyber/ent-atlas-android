@@ -20,7 +20,7 @@ Whether polyps are present says little about the disease underneath, so EPOS 202
 - **Secondary:** arising from something else: odontogenic sinusitis, a tumour, immunodeficiency, primary ciliary dyskinesia, cystic fibrosis, or eosinophilic granulomatosis with polyangiitis.
 Localised non-type 2 disease has the best prognosis; diffuse type 2 disease is part of a wider airway disorder and tends to recur. **Central compartment atopic disease** is allergic inflammation centred on the middle turbinate head, superior septum and posterosuperior nasal cavity, in contrast to polyps from the middle meatus. Thick "chewing gum" eosinophilic mucin suggests eosinophilic or allergic fungal disease. A blood eosinophil count above 0.25 x 10⁹/L supports a type 2 endotype, and above 0.45 x 10⁹/L predicts recurrence.
 ## Acute exacerbation
-A sudden worsening that returns to the chronic baseline after treatment.
+A sudden worsening that returns to the chronic baseline after treatment. Acute rhinosinusitis and its complications are covered in [[t:abs]].
 
 # Causes and pathogenesis | A vicious cycle.
 ## Predisposing factors
@@ -63,7 +63,7 @@ Endoscopic removal including its antral attachment, which prevents recurrence. C
 - Asthma (about 7% of asthmatics have polyps).
 - Aspirin intolerance: about a third; *Samter's triad* (aspirin-exacerbated respiratory disease) is polyps, asthma and aspirin sensitivity.
 - Cystic fibrosis (about 20%); polyps in a child should prompt a sweat test.
-- Allergic fungal sinusitis (almost all).
+- Allergic fungal sinusitis (almost all; [[t:afs]]).
 - Kartagener and Young syndromes, Churg-Strauss syndrome (eosinophilic granulomatosis with polyangiitis), and nasal mastocytosis.
 ### Pathology
 Oedematous mucosa of the middle meatus and turbinate prolapses into the nose; sessile polyps become pedunculated with gravity and sneezing. Large fluid-filled spaces and eosinophils lie in the stroma; the surface may become squamous where exposed.
@@ -75,7 +75,7 @@ Progressive bilateral blockage, loss of smell, headache from sinusitis, sneezing
 ### Differential diagnosis
 A blob of mucus (disappears on blowing), a hypertrophied middle turbinate (pink and bony on probing), angiofibroma (bleeds, firm), inverted papilloma and malignancy (one-sided, fleshy, friable).
 !flag One-sided polyp in an adult
-A unilateral polyp is not simple polyposis until histology says so: inverted papilloma, carcinoma, esthesioneuroblastoma and encephalocele all present this way.
+A unilateral polyp is not simple polyposis until histology says so: inverted papilloma, carcinoma, esthesioneuroblastoma ([[t:sinus_ca]]) and encephalocele ([[t:congnose]]) all present this way.
 !!
 
 # Assessment | Endoscopy and CT.
@@ -85,7 +85,7 @@ Before and after decongestion: oedema, polyps and pus in the middle meatus and s
 Non-contrast CT in three planes is the gold standard: it shows the extent of disease (scored by the Lund-Mackay system), anatomical variants and bony erosion, and maps the anatomy for surgery. Use it to confirm disease when endoscopy is unclear and before any operation. Incidental changes are common: retention cysts in 10 to 15% and mucosal thickening in a quarter of normal people, who score up to about 4 on Lund-Mackay; a score above 5 strongly suggests disease. MRI is too sensitive to diagnose chronic rhinosinusitis, showing thickening in about half the general population.
 !imaging | Nasal and unilateral polyps, cystic fibrosis and mucoceles.
 ## Other tests
-Allergy testing, a sweat test or genetics for cystic fibrosis in children, ciliary studies, immunoglobulins, eosinophil count and ANCA when vasculitis is suspected, and culture from the middle meatus.
+Allergy testing, a sweat test or genetics for cystic fibrosis in children, ciliary studies, immunoglobulins, eosinophil count and ANCA when vasculitis is suspected ([[t:gpa]]), and culture from the middle meatus.
 ## Symptom scores
 Patient-reported scores such as SNOT-22 measure the burden and the response to treatment.
 
@@ -108,7 +108,7 @@ Patient-reported scores such as SNOT-22 measure the burden and the response to t
 For patients whose symptoms persist despite adequate medical treatment (usually at least eight weeks of saline and intranasal steroids). It removes polyps and diseased tissue, opens the natural ostia, corrects obstructing anatomy, and makes a cavity that saline and steroids can reach. For diffuse type 2 disease the aim is a complete, wide cavity (a "neo-sinus") for topical steroid access; limited opening of the ostia suits localised disease. Medical treatment continues afterwards. Revision is common in polyposis. In cystic fibrosis and ciliary disease, wide dependent drainage of the maxillary and sphenoid sinuses is made.
 !fig d37-4 d37-5 | Functional endoscopic sinus surgery, without and with a camera and monitor.
 ## Historical operations
-Intranasal polypectomy alone, Caldwell-Luc operation, intranasal and external ethmoidectomy, and external frontoethmoidectomy (Howarth or Lynch); now largely replaced by endoscopic surgery. See the nose and sinus operations topic.
+Intranasal polypectomy alone, Caldwell-Luc operation, intranasal and external ethmoidectomy, and external frontoethmoidectomy (Howarth or Lynch); now largely replaced by endoscopic surgery ([[t:sinussurg]]).
 !ops
 
 # Chronic sinusitis by sinus | Old names, still examined.

@@ -24,7 +24,7 @@ The commonest and earliest feature: recurrent, spontaneous bleeding from childho
 Small red spots that blanch with pressure, on the lips, tongue, palate, fingertips, face and nasal mucosa. About 80 to 90% develop them by their thirties or forties.
 !fig d33-3 | A patient with recurrent epistaxis from HHT, with telangiectasias on the nasal septum, tongue, palate and fingertips (arrows).
 ## Visceral arteriovenous malformations
-!table Organ involvement in HHT (Lee)
+!table Organ involvement in HHT
 Organ | Frequency | What it causes
 Lungs | About 30% | Hypoxia, paradoxical emboli, stroke, brain abscess, haemoptysis
 Brain | 5–15% | Haemorrhage, seizures
@@ -60,33 +60,31 @@ Bleeding disorders (von Willebrand disease, platelet disorders), anticoagulant u
 ## Principles
 The goal is fewer and smaller bleeds and a better haemoglobin, not cure. Avoid trauma to the mucosa: repeated packing and aggressive cautery destroy healthy mucosa, encourage new telangiectasias and can cause septal perforation.
 ## The acute bleed
-Gentle pressure; resorbable packing if needed, because removing a conventional pack tears lesions and restarts bleeding; avoid cautery of large areas.
+Bleeding is almost always from the anterior third, so posterior packs are rarely needed. Gentle pressure; if packing is needed, resorbable packs such as Nasopore or Surgicel, or a haemostatic matrix, because removing a conventional pack, or an expanding sponge, tears other lesions and restarts bleeding. Give antibiotic cover for any pack, and avoid cautery of large areas. If packing fails, embolise the facial and maxillary feeders without coils.
 ## Conservative and medical treatment
 !ladder
 Humidification and emollients | Saline sprays, ointments and humidified air keep the mucosa moist.
 Iron and transfusion | Correct anaemia; intravenous iron when oral iron fails.
 Tranexamic acid | Oral antifibrinolytic reduces the frequency and severity of bleeds.
 Hormonal treatment | Oestrogen or tamoxifen convert the mucosa to a thicker squamous type.
-Systemic anti-angiogenic drugs | Intravenous bevacizumab or oral pomalidomide reduce bleeding and transfusion needs in severe disease; topical bevacizumab spray does not work.
+Systemic anti-angiogenic drugs | Intravenous bevacizumab or oral pomalidomide reduce bleeding and transfusion needs in severe disease, and are now used by specialist HHT centres; topical bevacizumab spray does not work.
 !!
 ## Procedures
+Treatment is stepped up by severity, judged by bleeding frequency, the haemoglobin and transfusion needs; the Epistaxis Severity Score helps track it. Benefit lasts months after laser, years after septodermoplasty, and permanently after nasal closure.
 ### Photocoagulation
-KTP, argon, Nd:YAG or diode laser, bipolar diathermy or coblation, aimed at individual lesions and repeated every few months as new ones appear.
+KTP, argon, Nd:YAG or diode laser, bipolar diathermy or coblation, aimed at individual lesions and repeated every few months as new ones appear. The first intervention is usually an examination under anaesthesia with **KTP or argon laser** to stage and treat the disease: these green wavelengths are absorbed by haemoglobin, each lesion is circled and then ablated, tranexamic acid and antibiotic cover are given at induction, and no pack is needed. Bipolar diathermy works better than laser in a bloody field. If laser controls bleeding for less than about three months, move to septodermoplasty or systemic treatment.
 ### Septodermoplasty
 The bleeding anterior septal mucosa is replaced with a split- or full-thickness skin graft, which is tougher. It halves the number of later laser treatments.
 ### Young's procedure
 Closure of the nostrils, one or both sides, by suturing flaps inside the vestibule. Bleeding stops in most patients, often permanently, at the price of nasal breathing and smell; it is offered to transfusion-dependent patients who accept that. The Lund modification uses three vestibular flaps. Rebleeding after reopening is troublesome.
 ### Embolisation
-Gives only temporary benefit because new collaterals form; reserved for emergencies.
+Gives only temporary benefit because new collaterals form; reserved for emergencies (see the acute bleed, above).
 !ops
 !pearl Pearls
 - Repeated cautery makes HHT worse.
 - Resorbable packs, never conventional ribbon gauze, if packing is unavoidable.
 - Treat the nose and the haemoglobin together.
 !!
-## A staged approach
-Treatment is stepped up by severity, judged by bleeding frequency, the haemoglobin and transfusion needs; the Epistaxis Severity Score helps track it. The first intervention is usually an examination under anaesthesia with **KTP or argon laser** to stage and treat the disease: these green wavelengths are absorbed by haemoglobin, each lesion is circled and then ablated, tranexamic acid and antibiotic cover are given at induction, and no pack is needed. Bipolar diathermy works better than laser in a bloody field. If laser controls bleeding for less than about three months, move to **septodermoplasty** or systemic treatment; benefit lasts months after laser, years after septodermoplasty, and permanently after **nasal closure** (the Lund-modified Young's procedure with three vestibular flaps), which is offered to transfusion-dependent patients who accept the loss of nasal breathing and smell.
-In an acute bleed, bleeding is almost always from the anterior third, so posterior packs are rarely needed. Use resorbable packs such as Nasopore or Surgicel, or a haemostatic matrix, rather than expanding sponges that tear other lesions; give antibiotic cover for any pack; and if packing fails, embolise the facial and maxillary feeders without coils. Recent trials of systemic anti-angiogenic drugs, including intravenous bevacizumab and oral pomalidomide, have reduced bleeding in severe disease, and these are now used by specialist HHT centres.
 !update Current evidence
 **Guidelines.** The Second International HHT Guidelines recommend moisturising topical therapies, oral tranexamic acid for epistaxis not controlled by moisturisers, laser or radiofrequency ablation, septodermoplasty or nasal closure for refractory bleeding, and systemic anti-angiogenic treatment (intravenous bevacizumab) for severe disease; they advise screening every patient for pulmonary and cerebral arteriovenous malformations (Faughnan et al., *Ann Intern Med* 2020). **Topical drugs.** In the NOSE trial, topical bevacizumab, oestriol and tranexamic acid sprays were no better than placebo (Whitehead et al., *JAMA* 2016). **Pomalidomide.** In the PATH-HHT trial of 144 patients, oral pomalidomide reduced epistaxis severity scores significantly more than placebo over 24 weeks (Al-Samkari et al., *NEJM* 2024).
 !!

@@ -18,7 +18,7 @@ Sinonasal cancer is rare (well under 1% of all cancers). The maxillary sinus is 
 - **Snuff** rich in nickel and chromium (Bantu populations).
 - **Smoking** and HPV for some squamous carcinomas.
 ## Histology
-More than 80% of malignant tumours are squamous cell carcinoma; the rest are adenocarcinoma, adenoid cystic carcinoma, melanoma, olfactory neuroblastoma, lymphoma and sarcomas.
+More than 80% of malignant tumours are squamous cell carcinoma; the rest are adenocarcinoma, adenoid cystic carcinoma, melanoma, olfactory neuroblastoma, lymphoma and sarcomas. The WHO classification (fourth edition 2017, fifth edition 2022) reorganised sinonasal tumours and added new entities, such as SMARCB1-deficient and HPV-related multiphenotypic carcinoma, so histology now carries more weight than ever.
 !fig d40-4a | Adenocarcinoma with gland formation and intracytoplasmic mucin.
 
 # Benign tumours of the nasal cavity | And the one that isn't quite benign.
@@ -31,7 +31,7 @@ A Schneiderian papilloma in which the epithelium grows inwards into the stroma. 
 ### Three warnings
 - It destroys bone by pressure.
 - It recurs if incompletely removed.
-- It is associated with squamous cell carcinoma in about 10%.
+- It harbours dysplasia or squamous cell carcinoma in about 5 to 10%, so the whole specimen must be examined; carcinoma arising in it behaves like de novo squamous carcinoma.
 ### Clinical picture
 One-sided obstruction, discharge and bleeding, with a firm, greyish, irregular mass that can masquerade as a simple polyp.
 !fig d39-2 d39-3 | First, inverted papilloma in a 79-year-old man, with its CT. Second, an inverted papilloma in the right nose looking like a simple polyp.
@@ -43,8 +43,8 @@ Complete removal including the mucoperiosteum and drilling of the bone at the si
 ## Vascular and other benign tumours
 - **Haemangioma** (lobular capillary haemangioma, *bleeding polyp of the septum*): a red, friable mass on the anterior septum, often in pregnancy; excised with its base.
 - **Schwannoma, meningioma, chondroma, pleomorphic adenoma** of the septum.
-- **Angiofibroma** (see its own topic).
-- **Encephalocele, glioma and dermoid** (see the congenital nasal masses topic).
+- **Angiofibroma** ([[t:juv]]).
+- **Encephalocele, glioma and dermoid** ([[t:congnose]]).
 !fig d39-5a | A bleeding polyp arising from the right side of the septum.
 
 # Benign bony tumours | Usually found by chance.
@@ -102,21 +102,21 @@ Resection with clear margins, followed by radiotherapy for most stages:
 - **Medial maxillectomy** (endoscopic or open) for medial tumours.
 - **Total maxillectomy** through a *Weber-Fergusson* incision (lateral rhinotomy with lip split, extended below the eye), with **orbital exenteration** when the orbit is invaded beyond the periosteum.
 - **Craniofacial resection** when the cribriform plate or anterior skull base is involved.
-- Endoscopic resection is increasingly used for selected tumours.
+- **Endoscopic resection** now achieves oncological outcomes equivalent to open surgery for most tumours, with less morbidity, provided clear margins can be obtained.
 !fig d40-9 d40-10 | First, the Weber-Fergusson incision. Second, maxillectomy with orbital exenteration, before and after rehabilitation.
 ### Reconstruction and rehabilitation
 A dental obturator closes the palatal defect, or a free flap reconstructs it; orbital prostheses after exenteration.
 ### Radiotherapy and chemotherapy
-Postoperative radiotherapy for most; primary chemoradiotherapy for unresectable tumours; neoadjuvant chemotherapy in selected cases.
+Postoperative radiotherapy for most; primary chemoradiotherapy for unresectable tumours; neoadjuvant chemotherapy in selected cases: advanced tumours involving the orbit or skull base may first have induction chemotherapy, with the response guiding radiotherapy or surgery.
 ### Neck
-Neck dissection or irradiation for nodal disease, and elective treatment in some advanced tumours.
+Neck dissection or irradiation for nodal disease, and elective treatment in some advanced tumours. Nodal metastases at presentation suggest a high-grade tumour such as squamous carcinoma or SNUC.
 !ops
 ## Prognosis
 Five-year survival is around a third to a half overall, worse with orbital apex, skull base or intracranial spread.
 
 # Tumours of the ethmoid, frontal and sphenoid | Rarer sites.
 ## Ethmoid
-Often adenocarcinoma in woodworkers. Nasal obstruction, bloodstained discharge, a mass in the medial canthus, proptosis with lateral displacement of the eye, and early skull base spread. Craniofacial or endoscopic resection with radiotherapy.
+Often adenocarcinoma in woodworkers. **Intestinal-type adenocarcinoma**, linked to hardwood dust, looks like bowel cancer under the microscope but is not a metastasis; it is often multifocal, so wide removal of the sinus mucosa is advised. Low-grade non-intestinal adenocarcinoma may need surgery alone; high-grade disease needs radiotherapy too. Nasal obstruction, bloodstained discharge, a mass in the medial canthus, proptosis with lateral displacement of the eye, and early skull base spread. Craniofacial or endoscopic resection with radiotherapy.
 !fig d40-11 | Carcinoma of the ethmoid.
 ## Frontal
 Very rare: forehead swelling, frontal pain, displacement of the eye downwards, and early intracranial spread.
@@ -125,20 +125,21 @@ Usually secondary or from the nasopharynx; presents with cranial nerve palsies (
 
 # Other malignant tumours | Each with its clue.
 ## Olfactory neuroblastoma
-*Esthesioneuroblastoma*, from the olfactory epithelium at the roof of the nose, at any age with peaks in the second and sixth decades. One-sided obstruction, epistaxis and loss of smell, with a mass high in the nose that may extend through the cribriform plate (a *dumb-bell* shape). Staged by the Kadish system (A nasal cavity, B sinuses, C beyond); treated by craniofacial or endoscopic resection with radiotherapy. Late neck metastases occur.
+*Esthesioneuroblastoma*, from the olfactory epithelium at the roof of the nose, at any age with peaks in the second and sixth decades. One-sided obstruction, epistaxis and loss of smell, with a mass high in the nose that may extend through the cribriform plate (a *dumb-bell* shape). Staged by the Kadish system (A nasal cavity, B sinuses, C beyond), which discriminates poorly, so the Dulguerov TNM-based system is often preferred. Somatostatin-receptor PET (DOTATATE) helps stage and follow it, as it does neuroendocrine tumours. Treated by craniofacial or endoscopic resection with radiotherapy. Up to 20% spread to the neck, sometimes late, so long-term neck surveillance is needed.
 !imaging meningioma-with-skull-base-destruction | A meningioma destroying the skull base, a differential of olfactory neuroblastoma.
 ## Mucosal melanoma
 Older adults, on the septum or lateral wall; pigmented or amelanotic, bleeding; spreads by blood and lymph and has a poor prognosis; wide excision and radiotherapy.
 ## Lymphoma, plasmacytoma and sarcomas
-NK/T-cell lymphoma (see the granulomatous disease topic), extramedullary plasmacytoma, and rhabdomyosarcoma in children.
+NK/T-cell lymphoma ([[t:gpa]]), extramedullary plasmacytoma, and rhabdomyosarcoma in children.
 !fig d39-7 | Rhabdomyosarcoma of the nose in a two-and-a-half-year-old boy.
-# Classification and current treatment | Histology leads.
-## Newer entities and their treatment
-The WHO classification (fourth edition 2017, fifth edition 2022) reorganised sinonasal tumours and added new entities, such as SMARCB1-deficient and HPV-related multiphenotypic carcinoma, so histology now carries more weight than ever. **Sinonasal undifferentiated carcinoma (SNUC)** is aggressive, often presents with intracranial and nodal spread, and responds well to **induction chemotherapy** followed by chemoradiotherapy, with surgery when the response is poor. **NUT carcinoma**, defined by a *NUTM1* rearrangement, affects young adults and has a very poor prognosis. **Neuroendocrine carcinoma** (small and large cell types) is treated with combined chemotherapy and radiotherapy. **Intestinal-type adenocarcinoma**, linked to hardwood dust, looks like bowel cancer under the microscope but is not a metastasis; it is often multifocal, so wide removal of the sinus mucosa is advised. Low-grade non-intestinal adenocarcinoma may need surgery alone; high-grade disease needs radiotherapy too. SCC arising in an inverted papilloma behaves like de novo SCC; about 5% of inverted papillomas harbour dysplasia or carcinoma, so the whole specimen must be examined.
-## Endoscopic resection and staging
-**Endoscopic resection** now achieves oncological outcomes equivalent to open surgery for most tumours, with less morbidity, provided clear margins can be obtained; advanced tumours involving the orbit or skull base may first have induction chemotherapy, with the response guiding radiotherapy or surgery. Nodal metastases at presentation suggest a high-grade tumour such as SCC or SNUC, and up to 20% of olfactory neuroblastomas spread to the neck, so long-term neck surveillance is needed. Somatostatin-receptor PET (DOTATATE) helps stage and follow olfactory neuroblastoma and neuroendocrine tumours. The Kadish system for olfactory neuroblastoma discriminates poorly, and the Dulguerov TNM-based system is often preferred.
+## Sinonasal undifferentiated carcinoma (SNUC)
+Aggressive, often presenting with intracranial and nodal spread; it responds well to **induction chemotherapy** followed by chemoradiotherapy, with surgery when the response is poor.
+## NUT carcinoma
+Defined by a *NUTM1* rearrangement; affects young adults and has a very poor prognosis.
+## Neuroendocrine carcinoma
+Small and large cell types, treated with combined chemotherapy and radiotherapy.
 !update Current evidence
-**Endoscopic surgery.** The European position paper on endoscopic management of sinonasal and skull base tumours concluded that, in selected patients and experienced hands, endoscopic resection gives survival comparable to open surgery with less morbidity (Lund et al., *Rhinology Suppl* 2010); later large series and database studies support this for appropriately selected T1 to T3 tumours. **SNUC.** In a multicentre study, patients whose SNUC responded to induction chemotherapy did best with definitive chemoradiotherapy, whereas non-responders did best with surgery followed by chemoradiotherapy (Amit et al., *J Clin Oncol* 2019). **Inverted papilloma.** Endoscopic resection with drilling of the attachment site gives lower recurrence than older open surgery; malignant change occurs in about 5 to 10%.
+**Endoscopic surgery.** The European position paper on endoscopic management of sinonasal and skull base tumours concluded that, in selected patients and experienced hands, endoscopic resection gives survival comparable to open surgery with less morbidity (Lund et al., *Rhinology Suppl* 2010); later large series and database studies support this for appropriately selected T1 to T3 tumours. **SNUC.** In a multicentre study, patients whose SNUC responded to induction chemotherapy did best with definitive chemoradiotherapy, whereas non-responders did best with surgery followed by chemoradiotherapy (Amit et al., *J Clin Oncol* 2019). **Inverted papilloma.** Endoscopic resection with drilling of the attachment site gives lower recurrence than older open surgery.
 !!
 
 # For the examination | What the examiner wants to hear.
