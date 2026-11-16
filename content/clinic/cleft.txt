@@ -24,7 +24,7 @@ Side | 80% unilateral, two-thirds of these on the left | —
 !!
 Clefting is multifactorial. The risk to a sibling is about 4% and rises as more relatives are affected. Smoking and alcohol, anticonvulsants such as phenytoin and valproate, retinoids, steroids, folate deficiency and amniotic bands all contribute.
 
-Several syndromes must be recognised. **Van der Woude syndrome**, autosomal dominant through IRF6, combines *lower lip pits* with cleft lip or palate and is the commonest syndromic cleft. The **Pierre Robin sequence** runs from micrognathia to glossoptosis to a wide U-shaped cleft palate, with airway obstruction and feeding difficulty. **Stickler syndrome** is the commonest syndrome underlying Robin sequence; it is a collagen disorder with high myopia, *retinal detachment* (so eye screening is essential), hearing loss and joint problems. The **22q11.2 deletion (velocardiofacial or DiGeorge) syndrome** brings cleft palate or velopharyngeal insufficiency with heart defects, hypocalcaemia, immune deficiency and learning difficulty, and its carotids may lie *medially* behind the pharynx, a danger at pharyngeal surgery. Treacher Collins syndrome, hemifacial microsomia, the CHARGE association and Apert syndrome complete the list.
+Several syndromes must be recognised. **Van der Woude syndrome**, autosomal dominant through IRF6, combines *lower lip pits* with cleft lip or palate and is the commonest syndromic cleft. The **Pierre Robin sequence** runs from micrognathia to glossoptosis to a wide U-shaped cleft palate, with airway obstruction and feeding difficulty. **Stickler syndrome** is the commonest syndrome underlying Robin sequence; it is a collagen disorder with high myopia, *retinal detachment* (so eye screening is essential), hearing loss and joint problems. The **22q11.2 deletion (velocardiofacial or DiGeorge) syndrome** brings cleft palate or velopharyngeal insufficiency with heart defects, hypocalcaemia, immune deficiency and learning difficulty, and its carotids may lie *medially* behind the pharynx, a danger at pharyngeal surgery. Treacher Collins syndrome, hemifacial microsomia, the CHARGE association and Apert syndrome complete the list ([[t:syndr]]).
 
 # Classification | Describing a cleft.
 ## Lip and palate
@@ -34,7 +34,7 @@ A cleft palate is *unilateral* when one palatal shelf remains attached to the vo
 ## The submucous cleft
 In a submucous cleft the mucosa is intact but the muscles are separated beneath it. The classic signs form *Calnan's triad*: a *bifid uvula*, a *zona pellucida* (a translucent bluish strip in the midline of the soft palate), and a *notch in the posterior edge of the hard palate* that can be felt with a finger. An *occult* submucous cleft has none of these signs and is seen only on nasendoscopy, as a missing muscle bulge on the nasal surface of the velum.
 !flag Check the palate before adenoidectomy
-A bifid uvula, a palpable notch or hypernasal speech means a possible submucous cleft or velopharyngeal weakness. A full adenoidectomy can unmask *velopharyngeal insufficiency*, because the adenoid was helping the palate seal. Avoid adenoidectomy, or do a limited (superior) one, and involve the cleft team.
+A bifid uvula, a palpable notch or hypernasal speech means a possible submucous cleft or velopharyngeal weakness. A full adenoidectomy can unmask *velopharyngeal insufficiency*, because the adenoid was helping the palate seal. Avoid adenoidectomy, or do a limited (superior) one, and involve the cleft team ([[t:adenoid]]).
 !!
 
 # Early care | Feeding, airway, ears.
@@ -43,7 +43,7 @@ Many clefts are now diagnosed by antenatal ultrasound, which allows the family t
 
 The airway matters most in Robin sequence. Prone or side positioning and a nasopharyngeal airway manage most babies; severe obstruction needs a tongue–lip adhesion, *mandibular distraction osteogenesis* or a tracheostomy, guided by sleep studies. Every baby is examined for other anomalies, especially cardiac and syndromic, reviewed by a geneticist, and given a *hearing screen*. Presurgical orthopaedics, by lip taping or *nasoalveolar moulding*, narrows a wide cleft and shapes the nose before lip repair.
 ## The ears
-Because the tensor and levator insert abnormally, the Eustachian tube cannot open, and otitis media with effusion affects *almost every child (over 90%)* with a cleft palate. Hearing is tested from birth and throughout childhood, and persistent hearing loss is treated with ventilation tubes or hearing aids, the tubes often being inserted at the time of lip or palate repair. The ears usually improve after palate repair and with growth, but the long-term risks of chronic otitis media, retraction pockets and cholesteatoma remain.
+Because the tensor and levator insert abnormally, the Eustachian tube cannot open, and otitis media with effusion ([[t:om]]) affects *almost every child (over 90%)* with a cleft palate. Hearing is tested from birth and throughout childhood, and persistent hearing loss is treated with ventilation tubes or hearing aids, the tubes often being inserted at the time of lip or palate repair. The ears usually improve after palate repair and with growth, but the long-term risks of chronic otitis media, retraction pockets and cholesteatoma remain.
 !ops 202 | Mandibular distraction.
 
 # Surgery | To a timetable.
@@ -68,7 +68,7 @@ In the **Millard rotation–advancement repair**, the *non-cleft (medial) side* 
 
 The **bilateral cleft lip** is harder, because of a protruding premaxilla, a prolabium without muscle and a short columella; it is repaired in one or two stages, building the muscle across behind the prolabium. The complications of lip repair are dehiscence, a vermilion notch (the "whistle deformity"), a mismatched white roll, scar hypertrophy and nasal asymmetry.
 ## Cleft palate repair
-The palate is repaired at about 9 to 12 months, and certainly before 18 months. The timing balances *better speech with early repair* against *better maxillary growth with later repair*. The aims are to separate the mouth from the nose and, above all, to *rebuild the levator sling* by intravelar veloplasty and lengthen the palate for normal speech, because in a cleft the levator runs front to back and inserts into the back of the hard palate instead of meeting its partner in the midline.
+The palate is repaired between about 6 and 12 months (often 9 to 12), and certainly before 18 months; in the TOPS trial, repair at 6 months left less velopharyngeal insufficiency than at 12 (see Current evidence). The timing balances *better speech with early repair* against *better maxillary growth with later repair*. The aims are to separate the mouth from the nose and, above all, to *rebuild the levator sling* by intravelar veloplasty and lengthen the palate for normal speech, because in a cleft the levator runs front to back and inserts into the back of the hard palate instead of meeting its partner in the midline.
 
 The **two-flap palatoplasty (Bardach)** raises mucoperiosteal flaps on the greater palatine pedicles, closes the nasal and oral layers and adds an intravelar veloplasty; it is used for complete clefts. The **von Langenbeck repair** uses bipedicled flaps with lateral relaxing incisions. The **Furlow double-opposing Z-plasty** places opposite Z-plasties on the oral and nasal layers, which *lengthens the palate and realigns the levator*, and is used for soft palate clefts, submucous clefts and velopharyngeal insufficiency. The older **Veau–Wardill–Kilner V–Y pushback** leaves more raw bone and restricts growth.
 
@@ -87,7 +87,7 @@ Surgery corrects structure and therapy corrects articulation, so speech therapy 
 
 For a **large central gap with good lateral wall movement**, a *superiorly based pharyngeal flap* is raised from the posterior wall and attached to the velum, leaving two lateral ports. For a **circular or bow-tie gap with poor lateral wall movement**, a *sphincter pharyngoplasty* (Orticochea, Jackson or Hynes) transposes the posterior tonsillar pillars with palatopharyngeus and sutures them to the posterior wall, narrowing the port while leaving a central opening. A speech bulb or palatal lift helps poor surgical candidates.
 
-The main risks of pharyngeal surgery are *obstructive sleep apnoea* and hyponasality, so oxygen saturation is monitored after the operation.
+The main risks of pharyngeal surgery are *obstructive sleep apnoea* ([[t:osa]]) and hyponasality, so oxygen saturation is monitored after the operation.
 !ops 54 | Advanced palatal surgery: expansion sphincter and transpalatal advancement pharyngoplasty.
 
 # Later care | Bone, jaws, nose.
