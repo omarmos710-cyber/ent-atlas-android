@@ -62,6 +62,23 @@ def app_fig_keys():
     return _FIGKEYS
 
 
+
+def cells_of(r, maxsplit=-1):
+    """Split a table/tree row on '|', ignoring pipes inside [[...]] links."""
+    out, buf, depth, n = [], '', 0, 0
+    i = 0
+    while i < len(r):
+        if r.startswith('[[', i): depth += 1; buf += '[['; i += 2; continue
+        if r.startswith(']]', i) and depth: depth -= 1; buf += ']]'; i += 2; continue
+        c = r[i]
+        if c == '|' and not depth and (maxsplit < 0 or n < maxsplit):
+            out.append(buf); buf = ''; n += 1
+        else:
+            buf += c
+        i += 1
+    out.append(buf)
+    return out
+
 def inline(s, refs):
     s = html.escape(s, quote=False)
     s = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', s)
@@ -182,7 +199,7 @@ def compile_one(tid, text):
     def render_box(kind, title, rows):
         nonlocal words
         if kind == 'table':
-            cells = [[x.strip() for x in r.split('|')] for r in rows if r.strip()]
+            cells = [[x.strip() for x in cells_of(r)] for r in rows if r.strip()]
             h = '<div class="artw"><table class="artb">%s<thead><tr>%s</tr></thead><tbody>%s</tbody></table></div>' % (
                 '<caption>%s</caption>' % inline(title, refs) if title else '',
                 ''.join('<th scope="col">%s</th>' % inline(x, refs) for x in cells[0]),
@@ -193,20 +210,20 @@ def compile_one(tid, text):
             items = []
             for r in rows:
                 if not r.strip(): continue
-                p = [x.strip() for x in r.split('|')] + ['', '']
+                p = [x.strip() for x in cells_of(r)] + ['', '']
                 items.append('<li>%s<b>%s</b> <span>%s</span></li>' % ('<span class="k">%s</span>' % inline(p[0], refs) if p[0] else '', inline(p[1], refs), inline(p[2], refs)))
             return '<div class="artree"><span class="root">%s</span><ul>%s</ul></div>' % (inline(title or '', refs), ''.join(items))
         if kind == 'ladder':
             items = []
             for i, r in enumerate([r for r in rows if r.strip()]):
-                p = [x.strip() for x in r.split('|')] + ['']
+                p = [x.strip() for x in cells_of(r)] + ['']
                 items.append('<li><span class="dot">%d</span><div><b>%s</b><span>%s</span></div></li>' % (i + 1, inline(p[0], refs), inline(p[1], refs)))
             n = len(items)
             return '<ol class="arlad" style="--n:%d">%s</ol>' % (n, ''.join(items))
         if kind == 'path':
             items = []
             for i, r in enumerate([r for r in rows if r.strip()]):
-                p = [x.strip() for x in r.split('|', 1)] + ['']
+                p = [x.strip() for x in cells_of(r, 1)] + ['']
                 br = []
                 for b in [x.strip() for x in p[1].split(';') if x.strip()]:
                     m = re.match(r'([^:]{1,60}):\s*(.*)', b)
