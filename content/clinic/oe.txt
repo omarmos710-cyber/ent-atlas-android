@@ -49,6 +49,7 @@ Think of contact allergy to neomycin, fungal superinfection, or an underlying ne
 ## Picture
 A staphylococcal infection of a hair follicle, so it occurs only in the hair-bearing outer cartilaginous canal. Pain is out of proportion to its size and worse on chewing; it can swell the postauricular groove and mimic mastoiditis.
 ## Distinguishing from mastoiditis
+See also [[t:mastoiditis]].
 The drum is normal, there is no preceding otitis media and no mucoid discharge, and pinna movement is painful.
 ## Treatment
 Analgesia, oral antistaphylococcal antibiotics, heat, and an ichthammol-glycerine pack; incise when it points. Recurrent furuncles call for testing for diabetes and treating nasal staphylococcal carriage.
@@ -68,9 +69,9 @@ Long-standing itch and irritation with thick, dry, scaling skin, which may narro
 ## Reactive forms
 Eczematous otitis externa from drops or hearing-aid moulds, seborrhoeic dermatitis with scalp involvement, and neurodermatitis from habitual scratching.
 ## Otitis externa haemorrhagica
-Blood blisters on the deep canal and drum, often with influenza.
+Blood blisters on the deep canal and drum, often with influenza (bullous myringitis, [[t:myring]]).
 ## Chronic stenosing otitis externa
-Fibrous narrowing of the deep canal. Treated by excising the thick skin, widening the bony canal and grafting.
+Fibrous narrowing of the deep canal ([[t:canal]]). Treated by excising the thick skin, widening the bony canal and grafting.
 
 # Necrotising otitis externa | The dangerous one.
 ## What it is
@@ -88,15 +89,15 @@ Gallium or indium scan | Follows response; repeated every few weeks | Less anato
 CT | Bone erosion | Changes appear late
 MRI | Soft tissue, marrow and dura | Not a guide to cure
 !!
-CT shows erosion only after about 30% demineralisation, so a normal early CT is falsely reassuring. Contrast MRI with fat suppression and diffusion shows soft tissue and marrow disease earlier and detects intracranial spread; **FDG PET-CT** is increasingly used to diagnose and monitor. CT and MRI changes persist for up to a year after cure, so they cannot decide when to stop. Add ESR or CRP (useful to follow), glucose and HbA1c, and send both a swab and a **granulation biopsy** for bacterial and fungal culture and histology, because squamous carcinoma of the temporal bone is the key differential.
-!differ Monitoring and duration
-Dhingra: Gallium repeated every three weeks; treatment for six to eight weeks, including intravenous aminoglycoside combinations.
-Lee: Gallium every four weeks; oral fluoroquinolone for about six weeks as first line.
-Current practice: there is no agreed regimen or duration; most units start intravenous anti-pseudomonal treatment, often dual, step down to oral ciprofloxacin, and treat for at least six weeks guided by pain, CRP and MRI or PET-CT, with gallium scanning now used less.
-!!
+CT shows erosion only after about 30% demineralisation, so a normal early CT is falsely reassuring. Contrast MRI with fat suppression and diffusion shows soft tissue and marrow disease earlier and detects intracranial spread; **FDG PET-CT** is increasingly used to diagnose and monitor. CT and MRI changes persist for up to a year after cure, so they cannot decide when to stop. Add ESR or CRP (useful to follow), glucose and HbA1c, and send both a swab and a **granulation biopsy** for bacterial and fungal culture and histology, because squamous carcinoma of the temporal bone ([[t:tumear]]) is the key differential.
 !imaging | Necrotising otitis externa, canal stenosis and canal carcinoma.
 ## Treatment
 Admit for multidisciplinary care (otology, diabetes, microbiology, radiology, elderly care). Control the diabetes, clean the canal regularly, and start empirical intravenous antipseudomonal treatment at once, often **dual therapy** (piperacillin-tazobactam or ceftazidime with a fluoroquinolone), adjusted to cultures; oral ciprofloxacin alone suits only early, limited disease; voriconazole for *Aspergillus*. There is no agreed duration, but consensus favours at least **six weeks**, often completed at home, guided by symptoms, inflammatory markers and imaging. Surgery is limited to biopsy, deep sampling (for example at cortical mastoidectomy when there is no tissue in the canal) and drainage of abscesses or sequestra; debridement and nerve decompression have no proven benefit, and hyperbaric oxygen is unproven.
+!differ Monitoring and duration
+Dhingra: Gallium repeated every three weeks; treatment for six to eight weeks, including intravenous aminoglycoside combinations.
+Lee: Gallium every four weeks; oral fluoroquinolone for about six weeks as first line.
+In practice: There is no agreed regimen; most units follow the treatment above for at least six weeks, guided by pain, CRP and MRI or PET-CT, and use gallium scanning less.
+!!
 ## Outcome
 Mortality remains around 5 to 20%, from sepsis, sinus thrombosis and cranial neuropathies. Quinolone resistance is rising.
 !flag Suspect it when

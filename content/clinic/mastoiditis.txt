@@ -6,7 +6,7 @@ Every acute otitis media inflames the mastoid air cells to some degree, because 
 ## Who gets it
 Half of children with acute mastoiditis are four years old or younger, and only about 30% have a history of recurrent otitis media; often it is the first severe ear infection.
 ## Why it matters
-Mastoiditis is the gateway to the other complications of otitis media: neck and facial abscesses, facial palsy, labyrinthitis and intracranial infection. Up to one in ten develop an intracranial complication, even on intravenous antibiotics.
+Mastoiditis is the gateway to the other complications of otitis media: neck and facial abscesses, facial palsy, labyrinthitis ([[t:fistula]]) and intracranial infection ([[t:icc]]). Up to one in ten develop an intracranial complication, even on intravenous antibiotics.
 
 # Pathology | From inflamed mucosa to destroyed bone.
 ## Organisms
@@ -14,7 +14,7 @@ Mastoiditis is the gateway to the other complications of otitis media: neck and 
 !differ Commonest organism
 Dhingra: Beta-haemolytic streptococcus.
 Lee: Streptococcus pneumoniae.
-Lee reflects more recent series.
+In practice: Cover *Streptococcus pneumoniae* first; more recent series find it the commonest.
 !!
 ## How the bone is destroyed
 Two processes run together. Pus under pressure in the cells causes ischaemic necrosis of the thin bony septa, and inflamed mucosa activates osteoclasts that resorb bone (*hyperaemic decalcification*). The cells coalesce into an abscess cavity, which then looks for a way out.
@@ -55,7 +55,7 @@ Repeated or inadequate antibiotic courses can sterilise the middle ear while bon
 !differ Symptoms of masked mastoiditis
 Dhingra: Painless, without discharge; mild ache at most.
 Lee: Persistent, chronic otalgia after antibiotics.
-Either way, a patient whose ear never quite settles after antibiotics needs a CT.
+In practice: A patient whose ear never quite settles after antibiotics needs a CT.
 !!
 
 # Abscesses | Where the pus comes out.
@@ -74,7 +74,7 @@ Pus from the antrum tracks between the posterior canal wall and the periosteum, 
 ## Citelli abscess
 Pus from the tip tracks along the posterior belly of digastric to form an abscess behind the mastoid or in the digastric triangle.
 ## Deep neck
-Parapharyngeal and retropharyngeal abscesses via the tip cells or petrous cells.
+Parapharyngeal and retropharyngeal abscesses via the tip cells or petrous cells (petrous infection: [[t:petrous]]).
 !fig d12-4 d12-5 | First, abscesses around the mastoid: postauricular, zygomatic and Bezold, with Citelli's abscess. Second, a Bezold abscess, where pus bursts through the medial side of the tip into the neck.
 !fig d12-3 | A mastoid abscess that has burst through the skin.
 
@@ -83,7 +83,7 @@ Parapharyngeal and retropharyngeal abscesses via the tip cells or petrous cells.
 Full blood count with raised white cells, inflammatory markers, and blood cultures. Pus from the ear or myringotomy is sent for culture.
 ## Imaging
 ### CT temporal bone with contrast
-Shows coalescence (loss of the septa), cortical erosion and abscesses, and looks for intracranial spread. An opaque mastoid alone is not mastoiditis.
+For a suspected complication (including an abscess) or failure to improve within 48 hours; it is not needed in every child. Shows coalescence (loss of the septa), cortical erosion and abscesses, and looks for intracranial spread. An opaque mastoid alone is not mastoiditis.
 !imaging | Otomastoiditis, petrositis and skull base infection on CT and MRI.
 ### MRI and MR venography
 When an intracranial complication or sinus thrombosis is suspected.
@@ -102,7 +102,7 @@ Infected sebaceous cyst | Superficial, punctum, ear normal
 1. Admit; take blood and ear cultures.
 2. Start intravenous third-generation cephalosporin, with anti-pseudomonal cover in chronic ears.
 3. Examine the facial nerve, balance, neck and neurology.
-4. Request contrast CT of the temporal bones and brain; MRI and MRV if intracranial spread is possible.
+4. Request contrast CT of the temporal bones and brain if a complication is suspected or there is no improvement in 48 hours; MRI and MRV if intracranial spread is possible.
 5. Perform a wide myringotomy with a grommet, and send the pus for culture.
 6. Call your senior for an abscess, coalescence, or no response at 24–48 hours.
 !!
@@ -121,7 +121,7 @@ A small subperiosteal abscess may be aspirated or incised with myringotomy and a
 Cortical (Schwartze) mastoidectomy removes the diseased cells and opens the antrum to the middle ear, leaving the canal wall and ossicles intact.
 !ops
 !update Current evidence
-**Conservative or surgical?** A systematic review of 21 studies (564 children) found cure rates of 96% with medical treatment, 96% with conservative surgery (myringotomy with or without grommet, abscess drainage) and 89% with mastoidectomy, supporting conservative first-line treatment for uncomplicated mastoiditis (Loh et al., *J Laryngol Otol* 2018). Immediate needle aspiration of a subperiosteal abscess, with myringotomy and intravenous antibiotics, avoided mastoidectomy in most children in an Israeli series (Bartov et al., *Otol Neurotol* 2019). **Imaging.** Contrast CT is reserved for suspected complications or failure to improve within 48 hours; MRI with venography is better for sigmoid sinus thrombosis and intracranial spread. **Prevention.** Mastoiditis is rare, and avoiding antibiotics for uncomplicated otitis media raises its incidence only slightly in large population studies, so it is not a reason to treat every ear infection.
+**Conservative or surgical?** A systematic review of 21 studies (564 children) found cure rates of 96% with medical treatment, 96% with conservative surgery (myringotomy with or without grommet, abscess drainage) and 89% with mastoidectomy, supporting conservative first-line treatment for uncomplicated mastoiditis (Loh et al., *J Laryngol Otol* 2018). Immediate needle aspiration of a subperiosteal abscess, with myringotomy and intravenous antibiotics, avoided mastoidectomy in most children in an Israeli series (Bartov et al., *Otol Neurotol* 2019). **Imaging.** MRI with venography is better than CT for sigmoid sinus thrombosis and intracranial spread. **Prevention.** Mastoiditis is rare, and avoiding antibiotics for uncomplicated otitis media raises its incidence only slightly in large population studies, so it is not a reason to treat every ear infection.
 !!
 
 # For the examination | What the examiner wants to hear.

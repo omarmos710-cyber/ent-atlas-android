@@ -73,10 +73,10 @@ CT is not routine for mucosal disease, where it shows no bone erosion. It is use
 ## Biopsy
 For granulation that persists despite treatment, to exclude tuberculosis and malignancy.
 ## Differential diagnosis
-- **Cholesteatoma:** scanty foul discharge, attic or marginal defect, white flakes.
-- **Tuberculous otitis media:** painless thin discharge, pale granulation, multiple perforations, early facial palsy.
-- **Granular myringitis:** granulation on the drum itself, without a perforation.
-- **Carcinoma of the temporal bone:** pain, bleeding, and granulation that does not settle.
+- **Cholesteatoma** ([[t:chole]])**:** scanty foul discharge, attic or marginal defect, white flakes.
+- **Tuberculous otitis media** ([[t:tbom]])**:** painless thin discharge, pale granulation, multiple perforations, early facial palsy.
+- **Granular myringitis** ([[t:myring]])**:** granulation on the drum itself, without a perforation.
+- **Carcinoma of the temporal bone** ([[t:tumear]])**:** pain, bleeding, and granulation that does not settle.
 
 # Management | Dry the ear, then decide on repair.
 ## Aural toilet
@@ -93,7 +93,7 @@ Gentamicin and neomycin-containing drops are ototoxic in animals, and manufactur
 !differ Ototoxic drops
 Dhingra: Advises avoiding aminoglycoside and polymyxin drops with a perforation.
 Lee: Lists neomycin and polymyxin preparations among the options.
-Current UK practice: quinolones first; short courses of aminoglycoside drops are acceptable for active infection, with warnings.
+In practice: Quinolones first; short courses of aminoglycoside drops are acceptable for active infection, with warnings.
 !!
 ## Systemic antibiotics
 Mainly for spreading infection, complications or failure of topical treatment, chosen by culture; topical treatment works better than oral antibiotics for a discharging ear.
@@ -116,7 +116,7 @@ For patients unfit for or unwilling to have surgery, ideally once the ear is dry
 !!
 !ops
 !update Current evidence
-A series of Cochrane reviews in 2020 and 2021 found the evidence for treatments of chronic suppurative otitis media limited and largely old, but suggested that topical antibiotics improve resolution of discharge compared with placebo and are probably more effective than systemic antibiotics (Brennan-Jones et al., 2020; Chong et al., 2021). Quinolone and aminoglycoside drops could not be separated on effectiveness, and adverse effects were poorly reported; antibiotic drops may be more effective than antiseptics such as boric acid (Head et al., 2020). Results of tympanoplasty and the place of mastoidectomy are covered in the operation chapters.
+A series of Cochrane reviews in 2020 and 2021 found the evidence for treatments of chronic suppurative otitis media limited and largely old, but suggested that topical antibiotics improve resolution of discharge compared with placebo and are probably more effective than systemic antibiotics (Brennan-Jones et al., 2020; Chong et al., 2021). Quinolone and aminoglycoside drops could not be separated on effectiveness, and adverse effects were poorly reported; antibiotic drops may be more effective than antiseptics such as boric acid (Head et al., 2020). Results of tympanoplasty and the place of mastoidectomy are covered in [[t:earsurg]].
 !!
 
 # Complications | Uncommon in the safe ear, but real.
@@ -127,7 +127,7 @@ Toxins crossing the round window can damage the basal turn of the cochlea, produ
 ## Tympanosclerosis
 Chalky hyaline plaques in the drum and middle ear, which may fix the ossicles.
 ## Others
-Rarely, mastoiditis, facial palsy, labyrinthitis or intracranial infection in an acute flare.
+Rarely, mastoiditis ([[t:mastoiditis]]), facial palsy, labyrinthitis or intracranial infection ([[t:icc]]) in an acute flare.
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials
