@@ -2,7 +2,7 @@
 
 # Levels from landmarks | Translating the neck dissection to the scan.
 ## The landmarks
-The surgical levels are drawn on imaging from fixed landmarks that can be found on any axial slice: the **mylohyoid** and the **posterior edge of the submandibular gland**, the **hyoid bone**, the lower edge of the **cricoid cartilage**, the **posterior edge of the sternocleidomastoid**, the **internal jugular vein**, the **carotid arteries** and the top of the **manubrium**.
+The surgical levels ([[t:neckmass]]) are drawn on imaging from fixed landmarks that can be found on any axial slice: the **mylohyoid** and the **posterior edge of the submandibular gland**, the **hyoid bone**, the lower edge of the **cricoid cartilage**, the **posterior edge of the sternocleidomastoid**, the **internal jugular vein**, the **carotid arteries** and the top of the **manubrium**.
 !table Imaging levels
 Level | Boundaries on axial imaging
 IA | Submental: between the anterior bellies of the digastrics, below the mylohyoid
@@ -20,7 +20,7 @@ VII | Between the carotids, below the top of the manubrium, above the brachiocep
 !fig ia448-2 | Just below the hyoid: level III nodes along the internal jugular vein in front of the line along the back of the sternocleidomastoid, level VA nodes behind it.
 !fig ia449-3 | At the top of the manubrium: the line between level VI above and level VII (the superior mediastinum) below.
 ## Nodes without a number
-Some groups are named, not numbered, and are easily missed: the **retropharyngeal** nodes (lateral, or nodes of Rouvière, at the level of C1–C2 beside the longus capitis, and medial), the **parotid** and **facial** nodes, the **occipital** and **supraclavicular** nodes. Retropharyngeal nodes cannot be felt and are the first station for the nasopharynx and a common one for the oropharynx, hypopharynx and thyroid.
+Some groups are named, not numbered, and are easily missed: the **retropharyngeal** nodes (lateral, or nodes of Rouvière, at the level of C1–C2 beside the longus capitis, and medial), the **parotid** and **facial** nodes, the **occipital** and **supraclavicular** nodes. Retropharyngeal nodes cannot be felt and are the first station for the [[t:npc|nasopharynx]] and a common one for the oropharynx, hypopharynx and thyroid.
 !fig ia452-2 | Axial fat-suppressed T2: the lateral retropharyngeal nodes (of Rouvière) anterolateral to the prevertebral muscles, and the medial retropharyngeal nodes.
 
 # Is this node abnormal? | Use all the features together.
@@ -48,11 +48,11 @@ IIA (jugulodigastric) | Oropharynx (tonsil, tongue base), oral tongue, supraglot
 Retropharyngeal and VA | Nasopharynx; also oropharynx and hypopharynx
 III and IV | Larynx, hypopharynx, thyroid
 VI | Thyroid, subglottis, cervical oesophagus
-Parotid and preauricular | Skin of the scalp, ear and face (squamous carcinoma, melanoma)
+Parotid and preauricular | Skin of the scalp, ear and face (squamous carcinoma, melanoma; [[t:skinca]])
 Left supraclavicular (Virchow) | Chest and abdomen
 !!
 ## The cystic node
-A cystic or largely necrotic node in an adult is a **metastasis until proven otherwise**. A **thick-walled** necrotic node most often comes from the tonsil or tongue base; a cystic node with a thin wall in a young adult suggests HPV-related oropharyngeal cancer; a cystic node with **calcification**, bright T1 signal (thyroglobulin) or avid enhancement suggests **papillary thyroid carcinoma**, even when the thyroid looks normal.
+A cystic or largely necrotic node in an adult is a **metastasis until proven otherwise**. A **thick-walled** necrotic node most often comes from the tonsil or tongue base; a cystic node with a thin wall in a young adult suggests HPV-related oropharyngeal cancer ([[t:tonsil_ca]]); a cystic node with **calcification**, bright T1 signal (thyroglobulin) or avid enhancement suggests **[[t:thyroid|papillary thyroid carcinoma]]**, even when the thyroid looks normal.
 !fig di367-1 | Papillary thyroid carcinoma in a node. Left: contrast CT, a large heterogeneous level III node displacing the jugular vein, with calcification lower down. Right: ultrasound, marked internal heterogeneity; FNA confirmed papillary carcinoma.
 
 # Not every abnormal node is cancer | The common mimics.
@@ -70,7 +70,7 @@ Pattern | expected drainage of the primary ; contralateral nodes ; nodes outside
 Next step | ultrasound and FNA ; PET-CT for unknown primary or advanced disease
 !!
 !update Current evidence
-**Ultrasound** with fine-needle aspiration is the most accurate way to assess neck nodes in experienced hands, and is used for surveillance of the N0 neck. **Signs of malignancy** on CT and MRI include necrosis, a rounded shape, loss of the fatty hilum, size over about 10 to 15 mm (level-dependent), and extranodal extension, which the AJCC eighth edition added to nodal staging. **PET-CT** is used for advanced disease and response assessment.
+**Ultrasound** with fine-needle aspiration is also used for surveillance of the N0 neck. **Size thresholds** in published series range from about 10 to 15 mm depending on level. **Extranodal extension** was added to nodal staging in the AJCC eighth edition ([[t:hncprinc]]). **PET-CT** is also used for response assessment.
 !!
 
 # For the examination | What the examiner wants to hear.

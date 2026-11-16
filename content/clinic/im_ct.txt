@@ -28,15 +28,15 @@ On the workstation, anatomy is learnt by scrolling through the stack and followi
 ## Iodinated contrast
 Intravenous iodinated contrast opacifies vessels and enhances tissues with a blood supply. **Contrast-enhanced CT** is the standard for neck masses, cancer staging, nodes, abscesses and suspected vascular lesions. Many neck protocols use a **split bolus** or a delay of 60 to 90 seconds after injection, so that both arteries and mucosa enhance and tumours stand out from muscle. **CT angiography** times the scan to the arterial phase to show vessels, for trauma, paragangliomas, pulsatile tinnitus and bleeding.
 
-Contrast is *not* needed for routine sinus or temporal bone imaging, where the question is about bone and air. Before contrast, ask about previous reactions, renal function and metformin, and remember that iodine interferes with radioactive iodine treatment of thyroid cancer for weeks.
+Contrast is *not* needed for routine sinus or temporal bone imaging, where the question is about bone and air. Before contrast, ask about previous reactions, renal function and metformin, and remember that iodine interferes with radioactive iodine treatment of [[t:thyroid|thyroid cancer]] for weeks.
 !table What to request
 Question | Study
-Chronic rhinosinusitis before surgery | Non-contrast CT sinuses, thin bone algorithm, three planes (or cone-beam CT)
-Cholesteatoma, conductive loss, trauma to the ear | Non-contrast thin-section CT temporal bones
-Neck mass, cancer staging, nodes | Contrast-enhanced CT neck (or MRI)
-Deep neck abscess or orbital complication | Contrast-enhanced CT
-Pulsatile tinnitus, vascular tumour, trauma to vessels | CT angiography (and venography)
-Facial fracture | Non-contrast thin CT with 3D reconstructions
+Chronic rhinosinusitis before surgery ([[t:crs]]) | Non-contrast CT sinuses, thin bone algorithm, three planes (or cone-beam CT)
+Cholesteatoma ([[t:chole]]), conductive loss, trauma to the ear ([[t:tbfx]]) | Non-contrast thin-section CT temporal bones
+Neck mass ([[t:neckmass]]), cancer staging, nodes | Contrast-enhanced CT neck (or MRI)
+Deep neck abscess ([[t:deepneck]]) or orbital complication ([[t:orbit]]) | Contrast-enhanced CT
+Pulsatile tinnitus ([[t:tinnitus]]), vascular tumour, trauma to vessels | CT angiography (and venography)
+Facial fracture ([[t:facefx]]) | Non-contrast thin CT with 3D reconstructions
 !!
 
 # Cone-beam CT and dose | Lower dose, fewer uses.
@@ -57,7 +57,7 @@ Positioning | Head tilted | Asymmetry that mimics disease; compare like with lik
 !!
 !im es43 | Dental amalgam artefact hiding a left oral tongue cancer on CT; MRI showed the tumour.
 !flag Do not over-call a dehiscence
-Thin bony plates such as the tegmen, the bone over the superior semicircular canal and the lamina papyracea can disappear on CT through partial volume averaging. Confirm on thin slices in more than one plane, and ideally on reformats along the structure (Pöschl view for the superior canal), before diagnosing a dehiscence.
+Thin bony plates such as the tegmen, the bone over the superior semicircular canal and the lamina papyracea can disappear on CT through partial volume averaging. Confirm on thin slices in more than one plane, and ideally on reformats along the structure (Pöschl view for the superior canal), before diagnosing a dehiscence ([[t:scd]]).
 !!
 
 !path Reading any CT, every time
@@ -68,7 +68,7 @@ Use the planes | axial, coronal and sagittal for every finding
 Measure | Hounsfield units for fat, fluid, blood or enhancement ; size in two or three planes
 !!
 !update Current evidence
-**Radiation risk.** In a UK cohort, children who received a cumulative CT dose of about 50 mGy to the marrow or 60 mGy to the brain had roughly three times the risk of leukaemia or brain tumour, though the absolute risk remained small (Pearce et al., *Lancet* 2012). Justify every scan, use the lowest-dose protocol and avoid repeat CT where ultrasound or MRI will answer the question. **Cone-beam CT** gives high-resolution sinus and temporal bone images at a fraction of the dose of conventional CT and is increasingly used in clinic.
+**Radiation risk.** In a UK cohort, children who received a cumulative CT dose of about 50 mGy to the marrow or 60 mGy to the brain had roughly three times the risk of leukaemia or brain tumour, though the absolute risk remained small (Pearce et al., *Lancet* 2012). Cone-beam CT is increasingly used in clinic for that reason.
 !!
 
 # For the examination | What the examiner wants to hear.

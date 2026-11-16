@@ -11,7 +11,7 @@ Normal marrow in the clivus, petrous apex, sphenoid and crista galli is fatty an
 ## Anterior skull base
 The floor of the anterior cranial fossa is formed by the orbital plates of the frontal bone, the **cribriform plate** and ethmoid roof, and the planum sphenoidale. The cribriform plate sits lower than the **fovea ethmoidalis** (the ethmoid roof), and the two are joined by the thin **lateral lamella**, the weakest point and a common site of iatrogenic and spontaneous CSF leaks. Below it lie the nose, sinuses and orbits, so most anterior skull base lesions start there: sinonasal carcinoma, olfactory neuroblastoma, mucocele, osteoma and meningioma.
 ## Central skull base
-The central skull base is the sphenoid bone and the temporal bone in front of the petrous ridge: the **sella**, the clivus above the synchondrosis, and the greater wings with their foramina. Below it lie the masticator, parotid and pharyngeal mucosal spaces, which is why nasopharyngeal carcinoma and masticator space tumours reach the middle cranial fossa through it.
+The central skull base is the sphenoid bone and the temporal bone in front of the petrous ridge: the **sella**, the clivus above the synchondrosis, and the greater wings with their foramina. Below it lie the masticator, parotid and pharyngeal mucosal spaces, which is why [[t:npc|nasopharyngeal carcinoma]] and masticator space tumours reach the middle cranial fossa through it.
 !fig ia53-3 | Coronal bone CT through the sphenoid: the foramen rotundum (maxillary nerve) above and lateral to the vidian canal (nerve of the pterygoid canal), with the pterygoid plates below. Two round holes in the sphenoid on each side.
 !fig ia52-2 | Axial bone CT: the foramen ovale in the greater wing of the sphenoid, the route of the mandibular nerve and of perineural spread from the masticator space.
 ## Posterior skull base
@@ -36,11 +36,11 @@ Jugular foramen | IX, X, XI, jugular bulb | Paraganglioma, schwannoma, meningiom
 Hypoglossal canal | Hypoglossal nerve | Schwannoma, metastasis, clival tumours
 !!
 ## The pterygopalatine fossa: the crossroads
-The pterygopalatine fossa is a small fat-filled space behind the maxillary antrum, and on axial CT and T1 MRI it should contain **fat**. It connects medially to the nose through the **sphenopalatine foramen**, laterally to the infratemporal fossa through the **pterygomaxillary fissure**, upwards to the orbit through the inferior orbital fissure, backwards to the middle cranial fossa through the **foramen rotundum** and to the foramen lacerum through the **vidian canal**, and downwards to the palate through the palatine canals. Loss of its fat on either side is a key sign of perineural tumour, juvenile angiofibroma, invasive fungal disease or lymphoma.
+The pterygopalatine fossa is a small fat-filled space behind the maxillary antrum, and on axial CT and T1 MRI it should contain **fat**. It connects medially to the nose through the **sphenopalatine foramen**, laterally to the infratemporal fossa through the **pterygomaxillary fissure**, upwards to the orbit through the inferior orbital fissure, backwards to the middle cranial fossa through the **foramen rotundum** and to the foramen lacerum through the **vidian canal**, and downwards to the palate through the palatine canals. Loss of its fat on either side is a key sign of perineural tumour, [[t:juv|juvenile angiofibroma]], invasive fungal disease or lymphoma.
 !fig ia27-3 | Axial bone CT: the pterygopalatine fossa behind the maxillary antrum, opening medially through the sphenopalatine foramen and laterally through the pterygomaxillary fissure.
 !fig di767-2 | Juvenile angiofibroma. Left: post-gadolinium T1, an enhancing mass in the nasal cavity and nasopharynx arising near the sphenopalatine foramen. Right: the same tumour with flow voids, widening the pterygopalatine fossa, destroying the pterygoid base and entering the masticator space.
 ## Perineural spread
-Tumour can travel along nerves through the skull base, often silently. Look for an enlarged, enhancing nerve, **loss of fat** at the opening of a foramen (pterygopalatine fossa, foramen ovale, stylomastoid foramen), **widening** of the foramen, filling of **Meckel's cave**, and denervation of the muscles supplied (atrophy of the muscles of mastication with V3, of the tongue with XII). Adenoid cystic carcinoma, squamous carcinoma of the skin and lip, and lymphoma are the common culprits.
+Tumour can travel along nerves through the skull base, often silently. Look for an enlarged, enhancing nerve, **loss of fat** at the opening of a foramen (pterygopalatine fossa, foramen ovale, stylomastoid foramen), **widening** of the foramen, filling of **Meckel's cave**, and denervation of the muscles supplied (atrophy of the muscles of mastication with V3, of the tongue with XII). Adenoid cystic carcinoma ([[t:saltum]]), squamous carcinoma of the skin and lip ([[t:skinca]]), and lymphoma are the common culprits.
 
 # The petrous apex | A short list, sorted by signal.
 ## Normal variation first
@@ -59,21 +59,21 @@ Mucocele | Variable | Bright | Rim | No restriction | Expanded air cell
 !!
 !fig di1179-1 | Cholesterol granuloma of the petrous apex. Left: drawing of an expansile cystic lesion. Right: axial CT, smooth expansion of the left apex with thinned, partly dehiscent cortex; the other apex is well pneumatised.
 ## Apicitis
-Infection spreading from the middle ear into a pneumatised apex causes **petrous apicitis**, classically with Gradenigo's triad of otorrhoea, deep facial pain (V) and a sixth nerve palsy. CT shows destruction of the apical trabeculae, and MRI shows enhancing marrow and dura and any abscess.
+Infection spreading from the middle ear into a pneumatised apex causes **[[t:petrous|petrous apicitis]]**, classically with Gradenigo's triad of otorrhoea, deep facial pain (V) and a sixth nerve palsy. CT shows destruction of the apical trabeculae, and MRI shows enhancing marrow and dura and any abscess.
 
 # The clivus and the jugular foramen | Signature lesions.
 ## Chordoma and chondrosarcoma
-**Chordoma** arises in the **midline clivus**, destroys bone, contains fragments of bone, is **very bright on T2** and often "thumbs" the pons. **Chondrosarcoma** arises **off the midline**, at the **petrooccipital fissure**, contains **chondroid rings and arcs** of calcification on CT, and is also very bright on T2. Position, more than signal, separates them.
+**Chordoma** ([[t:skullbase]]) arises in the **midline clivus**, destroys bone, contains fragments of bone, is **very bright on T2** and often "thumbs" the pons. **Chondrosarcoma** arises **off the midline**, at the **petrooccipital fissure**, contains **chondroid rings and arcs** of calcification on CT, and is also very bright on T2. Position, more than signal, separates them.
 !fig di901-1 | Clival chordoma. Left: drawing of an expansile destructive midline mass indenting the pons. Right: sagittal T1, low-signal tumour replacing the clivus, with the classic "thumb" against the pons.
 !fig di979-1 | Chondrosarcoma. Left: drawing of the lesion centred on the petrooccipital fissure with chondroid calcification. Right: T2, a very bright off-midline mass compressing the petrous carotid.
 ## The jugular foramen
-Three tumours make up nearly all jugular foramen masses, and the **bone margin** on CT separates them. A **paraganglioma** (glomus jugulare) gives **permeative, moth-eaten** erosion, spreads superolaterally into the middle ear, and on MRI shows **"salt and pepper"** (flow voids and slow flow) with intense enhancement. A **schwannoma** **smoothly enlarges and scallops** the foramen, often extending along the nerve, without flow voids. A **meningioma** causes **sclerotic, permeative** change or hyperostosis and spreads along the dura with a dural tail. A high or dehiscent jugular bulb and asymmetric foramina are normal variants.
+Three tumours make up nearly all jugular foramen masses, and the **bone margin** on CT separates them. A **paraganglioma** (glomus jugulare; [[t:tumear]], [[t:vascneck]]) gives **permeative, moth-eaten** erosion, spreads superolaterally into the middle ear, and on MRI shows **"salt and pepper"** (flow voids and slow flow) with intense enhancement. A **schwannoma** **smoothly enlarges and scallops** the foramen, often extending along the nerve, without flow voids. A **meningioma** causes **sclerotic, permeative** change or hyperostosis and spreads along the dura with a dural tail. A high or dehiscent jugular bulb and asymmetric foramina are normal variants.
 !fig di919-1 | Glomus jugulare paraganglioma on MRI. Left: T1, a jugular foramen mass with salt-and-pepper flow voids. Right: post-gadolinium T1, intense enhancement with intracranial extension against the medulla.
 !fig di919-2 | The same tumour on CT. Left: drawing of its spread from the jugular foramen into the middle ear. Right: coronal CT, permeative-destructive margins and extension up into the middle ear.
 
 # CSF leaks and encephaloceles | Finding the hole.
 ## Imaging a leak
-A **thin-section bone CT** of the anterior and middle skull base finds most defects: the cribriform plate and lateral lamella, the ethmoid roof, the sphenoid (especially a pneumatised **lateral recess**), the frontal sinus, and the tegmen in the ear. **MRI** (heavily T2-weighted) then shows whether the defect contains CSF, meninges or brain (meningocele or **meningoencephalocele**), and separates fluid from retained mucus in an opacified sinus. CT cisternography is kept for difficult cases. In spontaneous leaks, look for signs of raised intracranial pressure: an empty sella, multiple defects and arachnoid pits.
+The clinical side is in [[t:csf]]. A **thin-section bone CT** of the anterior and middle skull base finds most defects: the cribriform plate and lateral lamella, the ethmoid roof, the sphenoid (especially a pneumatised **lateral recess**), the frontal sinus, and the tegmen in the ear. **MRI** (heavily T2-weighted) then shows whether the defect contains CSF, meninges or brain (meningocele or **meningoencephalocele**), and separates fluid from retained mucus in an opacified sinus. CT cisternography is kept for difficult cases. In spontaneous leaks, look for signs of raised intracranial pressure: an empty sella, multiple defects and arachnoid pits.
 !fig di947-1 | CSF leak. Left: coronal CT, a bony defect in the ethmoid roof lateral to the middle turbinate attachment with ethmoid opacification; MRI showed a meningoencephalocele. Right: CT after intrathecal contrast, contrast passing through a sphenoid defect.
 
 !path Reading a skull base study
@@ -85,7 +85,7 @@ Lesion by site | anterior: sinonasal, olfactory, meningioma ; clivus midline: ch
 Intracranial | dura, cavernous sinus, Meckel's cave, brain ; carotid and venous sinuses
 !!
 !update Current evidence
-**CT and MRI together.** CT shows bone erosion, foramina and calcification; MRI shows soft tissue extent, dural and perineural spread and separates retained secretions from tumour. **Perineural spread** along V2, V3 and the facial nerve is easily missed and changes treatment; contrast MRI with fat suppression is the test. **Characteristic lesions.** Chordoma (bright on T2, midline clivus), chondrosarcoma (off midline, petroclival) and cholesterol granuloma (bright on T1 and T2) have typical appearances.
+**Perineural spread** along V2, V3 and the facial nerve is easily missed and changes treatment; contrast MRI with fat suppression is the test.
 !!
 
 # For the examination | What the examiner wants to hear.

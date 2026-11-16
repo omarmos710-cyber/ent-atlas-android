@@ -13,7 +13,7 @@ Read the operation note before the scan. A **selective neck dissection** may lea
 In the first months after radiotherapy, everything in the field swells: the **skin and platysma thicken**, the **subcutaneous and deep fat becomes streaky**, the **mucosa and submucosa** of the pharynx and larynx are oedematous and enhance, the **retropharyngeal space** fills with fluid (oedema, not a mass), and the salivary glands enhance and later shrink. Over months to years, swelling turns into **fibrosis and atrophy**: the tissues become thin, dark on T2 and enhance little. Expected changes are **symmetric, smooth, diffuse and without a discrete mass**.
 !fig di583-1 | Expected changes after chemoradiotherapy. Left: a supraglottic carcinoma before treatment. Right: three months later, no residual tumour or nodes, but every fat plane and the aryepiglottic folds are swollen and hazy: expected oedema, not disease.
 ## After reconstruction
-Free and pedicled **flaps** bring fat, muscle and sometimes bone. The fat component is easy to recognise; the muscle component is **denervated**, so it looks striated, may enhance at first and then wastes and becomes fatty. Bone flaps (fibula, iliac crest, scapula) show osteotomies and plates. The edges of a flap, where it meets native tissue, are where recurrence most often appears.
+Free and pedicled **flaps** ([[t:hnrecon]]) bring fat, muscle and sometimes bone. The fat component is easy to recognise; the muscle component is **denervated**, so it looks striated, may enhance at first and then wastes and becomes fatty. Bone flaps (fibula, iliac crest, scapula) show osteotomies and plates. The edges of a flap, where it meets native tissue, are where recurrence most often appears.
 !fig di579-1 | A radial forearm free flap. Left: axial contrast CT, a well-defined, rounded fatty flap filling the defect, with surgical clips. Right: coronal CT, the flap restoring the contour of the tongue.
 
 # Is it recurrence? | Patterns that worry.
@@ -33,12 +33,12 @@ Category | Primary site | Neck | Usual action
 
 # Complications | Not every change is tumour.
 ## Osteoradionecrosis and chondronecrosis
-**Osteoradionecrosis** of the mandible appears on CT as mixed lysis and sclerosis, **cortical breaks**, **gas** in the bone, fragmentation and sequestra, and sometimes a pathological fracture, usually in the body of the mandible within the radiation field and often after a dental extraction. MRI shows marrow oedema and enhancement of the bone and surrounding soft tissue, which can look like tumour; the pattern of bone and gas on CT, and biopsy when doubtful, separate them. **Chondronecrosis** of the laryngeal cartilages shows fragmentation, collapse and gas.
+**Osteoradionecrosis** of the mandible ([[t:hnrt]], [[t:jaw]]) appears on CT as mixed lysis and sclerosis, **cortical breaks**, **gas** in the bone, fragmentation and sequestra, and sometimes a pathological fracture, usually in the body of the mandible within the radiation field and often after a dental extraction. MRI shows marrow oedema and enhancement of the bone and surrounding soft tissue, which can look like tumour; the pattern of bone and gas on CT, and biopsy when doubtful, separate them. **Chondronecrosis** of the laryngeal cartilages shows fragmentation, collapse and gas.
 !fig di591-1 | Osteoradionecrosis of the mandible. Left: bone CT, mixed lytic and sclerotic change with cortical interruption and gas bubbles in the bone. Right: a predominantly lytic pattern in another patient.
 ## Other late effects
 Radiotherapy can also cause **temporal lobe necrosis** after nasopharyngeal treatment, **carotid stenosis**, hypothyroidism, fibrosis of the pharynx with dysphagia and aspiration, and, rarely, a **radiation-induced sarcoma** years later.
 ## After laryngectomy
-After total laryngectomy the **neopharynx** is a midline tube of muscle and mucosa from the tongue base to the oesophagus, in front of the spine. Recurrence appears as soft tissue thickening, often at the upper or lower anastomosis, the stoma or the paratracheal region.
+After total laryngectomy ([[t:lxca]]) the **neopharynx** is a midline tube of muscle and mucosa from the tongue base to the oesophagus, in front of the spine. Recurrence appears as soft tissue thickening, often at the upper or lower anastomosis, the stoma or the paratracheal region.
 !fig di595-1 | Total laryngectomy. Left: contrast CT of a T4 laryngeal carcinoma with subglottic and prelaryngeal extension. Right: drawing of the expected anatomy after laryngectomy: the neopharynx joins the oral cavity to the oesophagus, and the trachea ends at the stoma.
 
 !path Reading a post-treatment scan
@@ -50,7 +50,7 @@ Complications | osteoradionecrosis ; chondronecrosis ; carotid ; temporal lobes
 Grade | NI-RADS for primary and neck ; the action that goes with it
 !!
 !update Current evidence
-**NI-RADS.** The ACR Neck Imaging Reporting and Data System grades post-treatment scans from 1 to 4 and links each grade to a step: routine surveillance, direct inspection, short-interval follow-up or biopsy (Aiken et al., *J Am Coll Radiol* 2018). **PET-CT at 12 weeks** after chemoradiation is the standard response assessment, and a complete metabolic response allows neck dissection to be avoided (Mehanna et al., *NEJM* 2016). Scanning earlier than about 12 weeks gives false positives from inflammation.
+**NI-RADS** was introduced by the American College of Radiology (Aiken et al., *J Am Coll Radiol* 2018). **PET-NECK** is the trial behind the 12-week PET-CT (Mehanna et al., *NEJM* 2016).
 !!
 
 # For the examination | What the examiner wants to hear.

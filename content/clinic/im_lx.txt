@@ -27,22 +27,23 @@ The thyroid, cricoid and arytenoid cartilages ossify irregularly with age, and u
 
 # Cancer by site | What to report.
 ## Supraglottic, glottic and subglottic
+The disease and its staging are in [[t:lxca]].
 **Supraglottic** cancers have a rich lymphatic supply and often present with nodes, frequently on both sides. Look at the pre-epiglottic and paraglottic fat, the vallecula and tongue base, the aryepiglottic fold and pyriform sinus, and the cartilage. **Glottic** cancers seldom spread to nodes early; report the anterior commissure (and spread across it to the other cord), the posterior commissure, subglottic extension, the paraglottic space, cord movement on the breath-hold images, and the cartilage. **Subglottic** cancers are rare, spread to paratracheal nodes and are often advanced at presentation.
 !fig di553-2 | Supraglottic carcinoma. Left: a small epiglottic tumour staged T3 because it invades the pre-epiglottic fat; the epiglottis should never be this thick. Right: a small aryepiglottic fold tumour with a collapsed pyriform sinus but no hypopharyngeal tumour.
 ## Hypopharynx
-The hypopharynx has three subsites: the **pyriform sinuses**, the **posterior pharyngeal wall** and the **postcricoid** region. The **pyriform apex** reaches down to the level of the cricoid and is a clinical blind spot, a common hiding place for the primary when a patient presents with a neck node. Hypopharyngeal cancers spread submucosally, invade the thyroid and cricoid cartilages, the thyroid gland and the cervical oesophagus, and present with nodes. Report the lowest extent of tumour (oesophageal involvement changes the operation) and the relation to the prevertebral fascia (invasion makes it unresectable).
+The hypopharynx ([[t:hypoca]]) has three subsites: the **pyriform sinuses**, the **posterior pharyngeal wall** and the **postcricoid** region. The **pyriform apex** reaches down to the level of the cricoid and is a clinical blind spot, a common hiding place for the primary when a patient presents with a neck node. Hypopharyngeal cancers spread submucosally, invade the thyroid and cricoid cartilages, the thyroid gland and the cervical oesophagus, and present with nodes. Report the lowest extent of tumour (oesophageal involvement changes the operation) and the relation to the prevertebral fascia (invasion makes it unresectable).
 !fig di545-1 | Pyriform sinus carcinoma. Left: drawing of the tumour in the pyriform sinus. Right: contrast CT, a mass filling the right pyriform sinus and spreading along all its walls.
 !fig ia406-1 | Axial CT in left vocal cord paralysis: the left arytenoid is rotated medially; the left pyriform sinus and ventricle are widened.
 
 # Other common questions | Palsy, laryngocele, trauma, stenosis.
 ## Vocal cord paralysis
-A paralysed cord produces a recognisable picture on CT: the ipsilateral **arytenoid rotates medially**, the **ventricle** and **pyriform sinus** dilate, the **aryepiglottic fold** thickens and moves medially, and the posterior cricoarytenoid muscle atrophies. The search for the cause follows the nerve: from the **skull base** (jugular foramen) down the carotid space, through the thyroid bed, to the **aortopulmonary window** on the left and the subclavian on the right. A scan that stops at the clavicles misses a left-sided cause in the chest.
+A paralysed cord ([[t:vfp]]) produces a recognisable picture on CT: the ipsilateral **arytenoid rotates medially**, the **ventricle** and **pyriform sinus** dilate, the **aryepiglottic fold** thickens and moves medially, and the posterior cricoarytenoid muscle atrophies. The search for the cause follows the nerve: from the **skull base** (jugular foramen) down the carotid space, through the thyroid bed, to the **aortopulmonary window** on the left and the subclavian on the right. A scan that stops at the clavicles misses a left-sided cause in the chest.
 !fig di323-1 | Left vocal cord paralysis. Left: a medially rotated left arytenoid with a dilated ventricle. Right: an enlarged left pyriform sinus and a thickened, medially placed aryepiglottic fold.
 ## Laryngocele
-A **laryngocele** is a dilated saccule of the ventricle, filled with air or fluid. An **internal** one stays within the paraglottic space; an **external** or mixed one passes through the thyrohyoid membrane into the neck. Because a carcinoma at the ventricle can block the saccule, every laryngocele in an adult needs the ventricle examined for tumour.
+A **laryngocele** ([[t:benign]]) is a dilated saccule of the ventricle, filled with air or fluid. An **internal** one stays within the paraglottic space; an **external** or mixed one passes through the thyrohyoid membrane into the neck. Because a carcinoma at the ventricle can block the saccule, every laryngocele in an adult needs the ventricle examined for tumour.
 !fig di319-1 | Laryngocele. Left: drawing of a laryngocele squeezing through the thyrohyoid membrane into the neck. Right: coronal CT of a mixed laryngocele with internal and external components.
 ## Trauma and stenosis
-In **laryngeal trauma**, thin non-contrast CT shows fractures of the thyroid and cricoid cartilages, arytenoid dislocation, haematoma and air; a displaced fracture or one involving the cricoid usually needs repair. **Subglottic and tracheal stenosis** after intubation or tracheostomy is measured on CT with sagittal and coronal reformats: its level below the cords, its length and its narrowest diameter.
+In **[[t:lxtrauma|laryngeal trauma]]**, thin non-contrast CT shows fractures of the thyroid and cricoid cartilages, arytenoid dislocation, haematoma and air; a displaced fracture or one involving the cricoid usually needs repair. **Subglottic and tracheal stenosis** after intubation or tracheostomy is measured on CT with sagittal and coronal reformats: its level below the cords, its length and its narrowest diameter.
 
 !path Reading a laryngeal and hypopharyngeal CT
 Level each slice | hyoid and pre-epiglottic fat ; false cords and paraglottic fat ; true cords and arytenoids ; cricoid ring
@@ -54,7 +55,7 @@ Movement | cords on the breath-hold images ; signs of paralysis
 Beyond | thyroid gland, strap muscles, prevertebral fascia, carotid ; nodes both sides
 !!
 !update Current evidence
-**CT or MRI.** CT is fast and less affected by swallowing and breathing; MRI is more sensitive for early thyroid cartilage invasion and paraglottic spread but can overcall it because of reactive inflammation. Combining both, with endoscopy, gives the most accurate T stage for larynx preservation decisions. **PET-CT** is used for stage III to IV disease, nodal staging and response assessment after chemoradiation (Mehanna et al., *NEJM* 2016).
+**CT or MRI.** MRI can overcall cartilage invasion because of reactive inflammation; combining both with endoscopy gives the most accurate T stage for larynx preservation decisions. **PET-CT** response assessment after chemoradiation rests on the PET-NECK trial (Mehanna et al., *NEJM* 2016).
 !!
 
 # For the examination | What the examiner wants to hear.

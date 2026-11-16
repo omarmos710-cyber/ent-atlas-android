@@ -6,7 +6,7 @@
 
 # The primary | Where it is, how big, what it touches.
 ## The core questions
-Describe the **subsite** of origin, the **size** in three planes (and, in the oral cavity, the depth of invasion), and then go through the **structures that change the stage or the operation** for that site. These are the T4 structures: for a T4a tumour the disease is still usually resectable; for a **T4b** tumour (encasing the carotid, invading the prevertebral fascia or muscles, the skull base or the mediastinum, or the masticator space and pterygoid plates for some sites) it usually is not.
+The staging rules themselves are in [[t:hncprinc]]. Describe the **subsite** of origin, the **size** in three planes (and, in the oral cavity, the depth of invasion), and then go through the **structures that change the stage or the operation** for that site. These are the T4 structures: for a T4a tumour the disease is still usually resectable; for a **T4b** tumour (encasing the carotid, invading the prevertebral fascia or muscles, the skull base or the mediastinum, or the masticator space and pterygoid plates for some sites) it usually is not.
 !table Key structures to report by site
 Site | Report specifically
 Nasopharynx | Parapharyngeal space, skull base (clivus, foramen lacerum, foramen ovale), cavernous sinus, intracranial spread, retropharyngeal nodes
@@ -25,7 +25,7 @@ Perineural tumour often causes no symptoms and is easily missed, but it changes 
 
 # The nodes and beyond | N and M.
 ## Nodes
-Go through every level on both sides and the retropharyngeal nodes, as in the nodes lesson, and report the **number, size, side and level** of abnormal nodes, any **necrosis**, and any **extranodal extension**. Radiological extranodal extension (ill-defined margins, infiltration of fat, muscle or skin) matters: in the eighth edition of the TNM, clinically and radiologically overt extranodal extension makes HPV-negative nodal disease N3b. Report **carotid contact** in degrees: 270° or more suggests encasement. HPV-positive oropharyngeal cancer is staged with its own, more favourable system.
+Go through every level on both sides and the retropharyngeal nodes, as in the nodes lesson ([[t:im_nodes]]), and report the **number, size, side and level** of abnormal nodes, any **necrosis**, and any **extranodal extension**. Radiological extranodal extension (ill-defined margins, infiltration of fat, muscle or skin) matters: in the eighth edition of the TNM, clinically and radiologically overt extranodal extension makes HPV-negative nodal disease N3b. Report **carotid contact** in degrees: 270° or more suggests encasement. HPV-positive oropharyngeal cancer is staged with its own, more favourable system.
 !fig di571-2 | Extranodal extension. Left: pathological left neck nodes from a tongue base primary, the level IIB node with ill-defined contours. Right: a large level II nodal mass from a tongue cancer infiltrating the surrounding soft tissues.
 !fig di571-3 | Advanced extranodal disease. Left: tumour surrounding the left common carotid and thickening the skin. Right: CT angiography showing outpouchings of a weakened carotid wall, a warning of carotid blowout.
 ## Distant disease and second primaries
@@ -46,7 +46,7 @@ Beyond the neck | lung apices and chest CT ; bones ; mediastinum ; second primar
 Summary | TNM stage ; resectability ; what would change the plan (biopsy, PET-CT, MRI)
 !!
 !update Current evidence
-**Staging.** NCCN and UK multidisciplinary guidance recommend contrast CT or MRI of the primary and neck, chest CT for advanced disease, and FDG PET-CT for stage III to IV disease, unknown primaries and suspected recurrence. **Unknown primary.** PET-CT before panendoscopy finds the primary in about a third of patients whose examination is negative, and should precede biopsies to avoid false positives. **After chemoradiation.** PET-CT at 12 weeks safely avoided planned neck dissection in most patients in the PET-NECK trial, with equivalent survival (Mehanna et al., *NEJM* 2016).
+**Staging.** NCCN and UK multidisciplinary guidance recommend contrast CT or MRI of the primary and neck, chest CT for advanced disease, and FDG PET-CT for stage III to IV disease, unknown primaries and suspected recurrence. **Unknown primary.** PET-CT before panendoscopy finds the primary in about a third of patients whose examination is negative. **After treatment.** The 12-week PET-CT is covered in the post-treatment lesson ([[t:im_post]]).
 !!
 
 # For the examination | What the examiner wants to hear.

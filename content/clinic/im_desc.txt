@@ -1,8 +1,8 @@
-@stand Radiology is a language. A good description lets a colleague picture the lesion without seeing the scan, and the act of describing it in a fixed order is what stops you missing things. The authors of *Diagnostic Imaging: Head and Neck* teach one idea above all others: **find the space or structure the lesion comes from, and the differential diagnosis follows**. This lesson gives you the order and the words, and a way of reading a radiology report critically.
+@stand Radiology is a language. A good description lets a colleague picture the lesion without seeing the scan, and the act of describing it in a fixed order is what stops you missing things. One idea matters above all others: **find the space or structure the lesion comes from, and the differential diagnosis follows**. This lesson gives you the order and the words, and a way of reading a radiology report critically.
 
 # Where is it? | Site comes first.
 ## Space or structure of origin
-Every lesion is described first by where it arises: a mucosal surface (pharynx, larynx, sinus lining), a deep space of the neck, a gland, a bone, a nerve, a vessel or a node. In the neck, the deep spaces are separated by layers of deep cervical fascia, and each space contains a limited set of structures, so each has a short list of possible lesions. The *neck by spaces* lesson teaches the map; here, the principle is enough: a mass is assumed to arise from the space it is centred in, and the way it displaces the surrounding fat and muscle confirms the space.
+Every lesion is described first by where it arises: a mucosal surface (pharynx, larynx, sinus lining), a deep space of the neck, a gland, a bone, a nerve, a vessel or a node. In the neck, the deep spaces are separated by layers of deep cervical fascia, and each space contains a limited set of structures, so each has a short list of possible lesions. The neck-by-spaces lesson ([[t:im_spaces]]) teaches the map; here, the principle is enough: a mass is assumed to arise from the space it is centred in, and the way it displaces the surrounding fat and muscle confirms the space.
 !fig di70-1 | A masticator space tumour. Left: T1 MRI, the mass replaces the fat planes of the muscles of mastication and pushes the parapharyngeal fat posteromedially. Right: the same pattern drawn: knowing which way the fat moves tells you where the mass began.
 ## Laterality, size and extent
 Give the side, the maximum size in three planes, and the borders the lesion reaches or crosses: the midline, the skull base, the orbit, the larynx's framework, the carotid. Size matters for staging, and extent for surgery.
@@ -17,7 +17,7 @@ Describe whether the lesion enhances, how much and in what pattern: **none** (si
 
 # What is it doing? | Effect on neighbours.
 ## Bone: remodelling or destruction
-The behaviour of adjacent bone is one of the most useful clues on CT. **Remodelling** means the bone is expanded, thinned and bowed but still present, with a smooth margin; it implies slow growth (mucocoele, polyposis, schwannoma, juvenile angiofibroma, many benign tumours). **Destruction** means the bone is eroded and missing, with irregular, permeative or moth-eaten margins; it implies aggressive disease (carcinoma, aggressive infection such as invasive fungal sinusitis or necrotising otitis externa, metastasis). Smooth enlargement of a foramen suggests a nerve sheath tumour; irregular erosion of the foramen suggests malignancy.
+The behaviour of adjacent bone is one of the most useful clues on CT. **Remodelling** means the bone is expanded, thinned and bowed but still present, with a smooth margin; it implies slow growth (mucocoele, polyposis, schwannoma, juvenile angiofibroma, many benign tumours). **Destruction** means the bone is eroded and missing, with irregular, permeative or moth-eaten margins; it implies aggressive disease (carcinoma, aggressive infection such as invasive fungal sinusitis ([[t:afs]]) or necrotising otitis externa ([[t:oe]]), metastasis). Smooth enlargement of a foramen suggests a nerve sheath tumour; irregular erosion of the foramen suggests malignancy.
 !fig di743-1 | Remodelling. A large ethmoid mucocele expands the sinus and thins and bows its walls, including the lamina papyracea, without aggressive destruction.
 !fig di781-1 | Destruction. Squamous cell carcinoma of the maxillary antrum breaks through the sinus walls into the cheek and the infratemporal fossa.
 !fig di83-2 | Smooth enlargement of the foramen ovale by a trigeminal (V3) schwannoma, with an enhancing tubular tumour following the nerve. A benign nerve sheath tumour widens a foramen; carcinoma erodes it irregularly.
@@ -25,7 +25,7 @@ The behaviour of adjacent bone is one of the most useful clues on CT. **Remodell
 Look for **perineural spread**: enlargement and enhancement of a nerve, loss of the fat pad at its foramen (pterygopalatine fossa, stylomastoid foramen, foramen ovale), widening of the foramen, and denervation changes in the muscles it supplies (atrophy and fatty change, or acute oedema and enhancement). Describe the **carotid**: displaced, abutted or encased (more than 270° of contact suggests encasement and usually unresectability). Note any narrowing of the **airway**.
 !fig di70-2 | Perineural spread along the mandibular nerve. Left: post-gadolinium fat-suppressed T1, the nerve is thickened and enhancing and the foramen ovale widened. Right: the pattern drawn, tumour passing through the skull base along the nerve.
 ## Nodes
-Every head and neck study includes the nodes. Name the level, size (short axis), shape, and features of malignancy: **necrosis** (the most reliable sign), round shape, loss of the fatty hilum, extranodal extension (irregular margins, fat stranding, invasion of muscle), and, in thyroid cancer, cystic change and calcification.
+Every head and neck study includes the nodes ([[t:im_nodes]]). Name the level, size (short axis), shape, and features of malignancy: **necrosis** (the most reliable sign), round shape, loss of the fatty hilum, extranodal extension (irregular margins, fat stranding, invasion of muscle), and, in thyroid cancer, cystic change and calcification.
 
 # Building the differential | From description to diagnosis.
 ## The three filters
@@ -55,7 +55,7 @@ Nodes | levels, size, necrosis, extranodal extension
 Differential | two to four diagnoses by likelihood ; what would separate them
 !!
 !update Current evidence
-**Structured reporting.** Structured templates and lexicons improve completeness and reduce ambiguity; the ACR Neck Imaging Reporting and Data System (NI-RADS) scores post-treatment scans from 1 (no evidence of recurrence) to 4 (definite recurrence), each linked to a management step (Aiken et al., *J Am Coll Radiol* 2018). Thyroid nodules (TI-RADS, U grading) and salivary cytology (Milan system) have similar systems. Learning to describe a lesion systematically (site, size, margins, density or signal, enhancement, relations, nodes) is the best preparation for viva image stations.
+**Structured reporting.** Structured templates and lexicons improve completeness and reduce ambiguity; the ACR Neck Imaging Reporting and Data System (NI-RADS) scores post-treatment scans from 1 (no evidence of recurrence) to 4 (definite recurrence), each linked to a management step (Aiken et al., *J Am Coll Radiol* 2018). Thyroid nodules (TI-RADS, U grading) and salivary cytology (Milan system) have similar systems.
 !!
 
 # For the examination | What the examiner wants to hear.
