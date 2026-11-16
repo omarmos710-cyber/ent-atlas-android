@@ -2,9 +2,9 @@
 
 # Overview | A common bleed with an uncommon tail.
 ## Definition
-Epistaxis is bleeding from inside the nose. The blood may run forward out of the nostril, backward into the nasopharynx and throat, or both. It is always a sign of something else, never a final diagnosis, and Dhingra's rule holds on every shift: an attempt should always be made to find its local or systemic cause.
+Epistaxis is bleeding from inside the nose. The blood may run forward out of the nostril, backward into the nasopharynx and throat, or both. It is always a sign of something else, never a final diagnosis, and one rule holds on every shift: an attempt should always be made to find its local or systemic cause.
 ## Epidemiology
-Most people have at least one nosebleed in their lives, and Lee estimates that around one in six of the population bleeds in any given year. Only a small fraction ever seek medical help. The distribution is bimodal: children and young adults, who bleed from the front of the septum, and adults past middle age, who make up most hospital admissions and most posterior bleeds.
+Most people have at least one nosebleed in their lives, and around one in six of the population is estimated to bleed in any given year. Only a small fraction ever seek medical help. The distribution is bimodal: children and young adults, who bleed from the front of the septum, and adults past middle age, who make up most hospital admissions and most posterior bleeds.
 ## Why it matters
 The patients who reach the emergency department are older, often hypertensive, frequently on an anticoagulant or antiplatelet drug, and bleeding from further back in the nose, where blood runs silently down the pharynx and is easy to underestimate. In them, epistaxis is as much a resuscitation problem as a nasal one.
 
@@ -38,13 +38,13 @@ A plexus on the lateral wall below the posterior end of the inferior turbinate, 
 ### Ethmoidal territory
 Bleeding above the level of the middle turbinate points to the ethmoidal arteries and therefore to the internal carotid system, which matters because embolisation cannot safely reach it.
 !/
-!differ
+!differ Woodruff's plexus
 Dhingra: Woodruff's plexus is a plexus of veins below the posterior end of the inferior turbinate.
 Lee: Woodruff's is the naso-nasopharyngeal plexus over the posterior centimetre of the nasal floor, inferior meatus and middle meatus.
-For the exam, give Dhingra's definition, and add that posterior arterial bleeds come from sphenopalatine branches.
+In practice: For the exam, give the first definition, and add that posterior arterial bleeds come from sphenopalatine branches.
 !!
 ## Venous drainage
-Veins follow the arteries. Dhingra highlights the *retrocolumellar vein*, running vertically just behind the columella across the floor of the nose, as a common source of venous bleeding in young people.
+Veins follow the arteries. The *retrocolumellar vein*, running vertically just behind the columella across the floor of the nose, is a common source of venous bleeding in young people.
 
 # Aetiology | Local, systemic, or neither.
 !tree Causes of epistaxis
@@ -68,11 +68,11 @@ Nasal and sinus surgery, nasogastric and nasotracheal tubes, nasal oxygen cannul
 ## Systemic causes
 The logic is simple: anything that impairs clotting, platelets or vessel walls will show up in the nose.
 ### Drugs and supplements
-Warfarin and the direct oral anticoagulants, aspirin, clopidogrel and other antiplatelets, NSAIDs, and, as Lee reminds us, over-the-counter vitamin E, fish oil, garlic, ginkgo and ginseng.
+Warfarin and the direct oral anticoagulants, aspirin, clopidogrel and other antiplatelets, NSAIDs, and over-the-counter vitamin E, fish oil, garlic, ginkgo and ginseng.
 ### Coagulation and platelet disorders
 Haemophilia, von Willebrand disease (the commonest inherited bleeding disorder), thrombocytopenia, leukaemia and aplastic anaemia.
 ### Vascular disorders
-Hereditary haemorrhagic telangiectasia (see [[8.3]]), scurvy, and the vessel fragility of old age.
+Hereditary haemorrhagic telangiectasia ([[t:hht]]), scurvy, and the vessel fragility of old age.
 ### Cardiovascular
 Hypertension and atherosclerosis are associated with posterior bleeds in older adults. Whether raised pressure causes the bleed or simply keeps it going is still debated; either way, it should be measured and treated.
 ### Organ failure
@@ -81,8 +81,8 @@ Liver failure (reduced clotting factors) and renal failure (uraemic platelet dys
 In a large share of patients no specific cause is found despite a careful history, examination and blood tests. The label is earned only after the search, not instead of it.
 !fig d33-3 | Hereditary haemorrhagic telangiectasia: lesions on the nasal septum, tongue, palate and fingertips (arrows). Always look at the lips, tongue and fingers of a recurrent bleeder.
 !flag Red flags
-- **Adolescent boy, unilateral bleeding and obstruction:** juvenile angiofibroma until proven otherwise. No biopsy in clinic.
-- **Adult with unilateral bleeding, obstruction, crusting or facial pain:** endoscopy for a sinonasal tumour.
+- **Adolescent boy, unilateral bleeding and obstruction:** juvenile angiofibroma until proven otherwise ([[t:juv]]). No biopsy in clinic.
+- **Adult with unilateral bleeding, obstruction, crusting or facial pain:** endoscopy for a sinonasal tumour ([[t:sinus_ca]]).
 - **A child under two:** rare; think of non-accidental injury or a bleeding disorder.
 - **Massive or recurrent bleeding after trauma or skull base surgery:** carotid pseudoaneurysm; needs angiography.
 !!
@@ -207,7 +207,7 @@ Posterior bleeding that persists or recurs despite adequate packing. TESPAL is n
 ### Technique
 Under general anaesthesia, a mucosal incision on the lateral wall in front of the crista ethmoidalis; a mucoperiosteal flap is raised back to the crista, behind which the artery and its branches emerge from the foramen. They are clipped or coagulated, and the flap is replaced.
 ### Outcomes and complications
-Lee quotes control in 95 to 98%, usually with discharge the next day; all branches emerging from the foramen must be controlled, and failure should prompt a search for an accessory branch or an ethmoidal source. Complications are minor: crusting, adhesions, epiphora and numbness of the palate or nose; visual loss is very rare.
+Control is reported in 95 to 98%, usually with discharge the next day; all branches emerging from the foramen must be controlled, and failure should prompt a search for an accessory branch or an ethmoidal source. Complications are minor: crusting, adhesions, epiphora and numbness of the palate or nose; visual loss is very rare.
 ## Ethmoidal artery ligation
 ### Approach
 An external (Lynch) incision at the medial canthus, raising the periosteum of the medial orbital wall, usually for high bleeds after trauma.
@@ -221,7 +221,7 @@ Patients unfit for anaesthesia, vascular tumours and traumatic pseudoaneurysms. 
 ### Outcomes and risks
 Success around 88%. Complications include stroke, blindness, facial pain and skin necrosis.
 ## Septal surgery
-Raising a mucoperichondrial flap divides the vessels feeding a recurrent septal bleed; septoplasty also straightens a deviation that hides a bleeding point or prevents adequate packing.
+Raising a mucoperichondrial flap divides the vessels feeding a recurrent septal bleed; septoplasty also straightens a deviation that hides a bleeding point or prevents adequate packing ([[t:septum]]).
 ## Historical operations
 ### Maxillary artery ligation
 Through a Caldwell-Luc approach and the posterior antral wall. Failure in 10 to 15%, with infraorbital numbness, oroantral fistula and dental injury.
@@ -245,7 +245,7 @@ Recurrent bleeding with easy bruising or a family history needs a clotting scree
 ## The anticoagulated patient
 Patients on warfarin, a direct oral anticoagulant or dual antiplatelets bleed longer and re-bleed more often, but stopping their drugs risks stroke or stent thrombosis. Control the bleed locally first with resorbable packing and check the INR in warfarinised patients. Reversal and withholding are for life-threatening bleeds, decided with the prescribing team: for warfarin with major bleeding, intravenous vitamin K and prothrombin complex concentrate (fresh frozen plasma only if that is unavailable); for a high INR with minor bleeding, withhold warfarin and give oral vitamin K. Ask about "natural blood thinners" such as garlic, ginger, ginkgo, turmeric and vitamin E.
 ## Hereditary haemorrhagic telangiectasia
-Recurrent bleeding from multiple telangiectasias, usually from childhood, with a family history. Repeated packing and aggressive cautery make things worse; laser, bevacizumab, septodermoplasty and Young's procedure are the tools. See the HHT topic for the full account.
+Recurrent bleeding from multiple telangiectasias, usually from childhood, with a family history. Repeated packing and aggressive cautery make things worse; laser, bevacizumab, septodermoplasty and Young's procedure are the tools. The full account is in [[t:hht]].
 ## Trauma and pseudoaneurysm
 Delayed, massive or recurrent bleeding days to weeks after head injury or skull base surgery suggests a pseudoaneurysm of the internal carotid artery. It is a neurovascular emergency: pack, resuscitate and arrange urgent angiography.
 

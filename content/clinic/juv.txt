@@ -39,7 +39,7 @@ Tumour left in the vidian canal or the basisphenoid is the commonest source of r
 
 # Clinical features | Epistaxis and obstruction in a boy.
 ## Nasal and nasopharyngeal
-- **Profuse, recurrent, spontaneous epistaxis:** the commonest presentation, often with anaemia.
+- **Profuse, recurrent, spontaneous epistaxis:** the commonest presentation, often with anaemia ([[t:epistaxis]]).
 - **Progressive nasal obstruction** with a hyponasal voice.
 - **Nasal discharge** from obstruction and sinusitis.
 ## Ear
@@ -61,16 +61,16 @@ The investigation of choice. It shows the enhancing mass, bone erosion and the e
 ## MRI
 Complements CT for soft tissue extension: intracranial, cavernous sinus, orbit, infratemporal fossa. Flow voids give a *salt and pepper* appearance.
 ## Angiography and embolisation
-Digital subtraction angiography shows the feeders, mainly from the external carotid (the internal maxillary artery's sphenopalatine and posterior nasal branches, the ascending pharyngeal and ascending palatine arteries), and from the internal carotid in large or intracranial tumours. External carotid feeders can be embolised; surgery should follow within 24 to 48 hours, before collaterals develop. Embolisation carries risks of stroke, blindness and cranial nerve palsy, so some surgeons omit it for small tumours.
+Digital subtraction angiography shows the feeders, mainly from the external carotid (the internal maxillary artery's sphenopalatine and posterior nasal branches, the ascending pharyngeal and ascending palatine arteries), and from the internal carotid in large or intracranial tumours. External carotid feeders can be embolised; surgery should follow within 24 to 48 hours (up to 72 in some series), before collaterals develop. Embolisation carries risks of stroke, blindness and cranial nerve palsy, so some surgeons omit it for small tumours.
 !fig d49-6 d49-7 | First, the specimen of an extensive angiofibroma and its CT, showing bone destruction and spread into the pterygopalatine fossa. Second, angiography before and after embolisation.
 !imaging | Juvenile angiofibroma on CT, MRI and angiography.
 ## Preparation
 Group and cross-match two to three units of blood.
 ## Differential diagnosis
-Antrochoanal polyp, enlarged adenoids, olfactory neuroblastoma, rhabdomyosarcoma, lobular capillary haemangioma and haemangiopericytoma.
+Antrochoanal polyp ([[t:crs]]), enlarged adenoids, olfactory neuroblastoma ([[t:sinus_ca]]), rhabdomyosarcoma, lobular capillary haemangioma and haemangiopericytoma.
 
 # Staging | Extent decides the approach.
-Several systems exist (Sessions, Fisch, Chandler, Radkowski, Andrews, and newer endoscopic systems), all based on extension into the sinuses, pterygopalatine and infratemporal fossae, orbit and cranial cavity, and on residual vascularity after embolisation.
+Several systems exist (Sessions, Fisch, Chandler, Radkowski, Andrews, and newer endoscopic systems). The older ones (Fisch, Radkowski, Andrews) stage by extent only: extension into the sinuses, pterygopalatine and infratemporal fossae, orbit and cranial cavity. The **University of Pittsburgh Medical Center (UPMC)** system adds residual vascularity from the internal carotid artery after embolisation, and predicts blood loss and recurrence better.
 !table UPMC staging of angiofibroma
 Stage | Extent
 I | Nasal cavity, medial pterygopalatine fossa
@@ -82,7 +82,7 @@ V | Intracranial extension with residual vascularity (medial or lateral)
 
 # Treatment | Surgery is the treatment.
 ## Principles
-Complete surgical removal is the treatment of choice; the tumour does not regress with age. Embolisation reduces blood loss. Hormonal treatment is no longer used.
+Complete surgical removal is the treatment of choice; the tumour does not regress with age. Embolisation reduces blood loss: early tumours are removed endoscopically, often without embolisation; advanced tumours with internal carotid supply have the external carotid branches embolised first. Hormonal treatment is no longer used.
 ## Approaches by extent
 !table Extent and approach
 Extent | Approach
@@ -95,19 +95,16 @@ Residual or recurrent | Observation, revision surgery, or radiotherapy
 !!
 !fig d49-8 | Angiofibroma exposed through a transpalatal approach.
 ### Endoscopic surgery
-Now used for most tumours, including many with infratemporal and limited intracranial extension, with less bleeding, no facial scars and fewer recurrences.
+Now used for most tumours, including many with infratemporal and limited intracranial extension, with less bleeding and no facial scars; recurrence rates are similar to open surgery once tumour stage is accounted for.
 ### Open approaches
 Transpalatal (with Sardana's sublabial extension), lateral rhinotomy and midfacial degloving with medial maxillectomy, the Le Fort I approach, the maxillary swing (Wei's facial translocation), the infratemporal fossa approach, and combined intracranial-extracranial resection.
 !ops
 ## Radiotherapy
 For unresectable intracranial disease, residual tumour next to critical structures, and recurrence; stereotactic radiosurgery for small residuals. Long-term risks include growth disturbance, cataract and radiation-induced malignancy in young patients.
 ## Recurrence
-Up to about a third, usually within two years, from residual tumour in the basisphenoid and vidian canal. Follow with contrast MRI.
-## Current management
-Older staging systems (Fisch, Radkowski, Andrews) stage angiofibroma by extent only. The **University of Pittsburgh Medical Center (UPMC)** system adds residual vascularity from the internal carotid artery after embolisation, and predicts blood loss and recurrence better.
-Surgery is the preferred treatment. Early tumours are removed endoscopically, often without embolisation; advanced tumours with internal carotid supply have the external carotid branches embolised first. Recurrence rates are similar after open and endoscopic surgery. Small residual tumour may be watched for growth; accessible recurrence is removed endoscopically, and disease in high-risk sites such as the cavernous sinus may be observed or treated with stereotactic radiosurgery. Follow-up with imaging continues for at least three years.
+Up to about a third, usually within two years, from residual tumour in the basisphenoid and vidian canal. Follow with contrast MRI for at least three years. Small residual tumour may be watched for growth; accessible recurrence is removed endoscopically, and disease in high-risk sites such as the cavernous sinus may be observed or treated with stereotactic radiosurgery.
 !update Current evidence
-**Endoscopic or open.** A systematic review of 1047 cases found that endoscopic resection had less blood loss (about 540 ml against 1580 ml) and fewer recurrences than open surgery, although the recurrence difference disappeared once tumour stage was accounted for (Boghani et al., *Laryngoscope* 2013). **Staging.** The UPMC system, which adds residual internal carotid vascularity after embolisation, predicts blood loss, the need for staged surgery and recurrence better than extent-based systems (Snyderman et al., *Arch Otolaryngol Head Neck Surg* 2010). **Embolisation** 24 to 72 hours before surgery reduces blood loss in larger tumours; its value in small tumours removed endoscopically is debated. **Hormones** such as flutamide shrink some tumours but are not standard treatment.
+**Endoscopic or open.** A systematic review of 1047 cases found that endoscopic resection had less blood loss (about 540 ml against 1580 ml) and fewer recurrences than open surgery, although the recurrence difference disappeared once tumour stage was accounted for (Boghani et al., *Laryngoscope* 2013). **Staging.** The UPMC system also predicts the need for staged surgery (Snyderman et al., *Arch Otolaryngol Head Neck Surg* 2010). **Embolisation** 24 to 72 hours before surgery reduces blood loss in larger tumours; its value in small tumours removed endoscopically is debated. **Hormones** such as flutamide shrink some tumours but are not standard treatment.
 !!
 
 # For the examination | What the examiner wants to hear.

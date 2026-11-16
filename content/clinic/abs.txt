@@ -2,7 +2,7 @@
 
 # Overview | A cold that reaches the sinuses.
 ## Definition
-Inflammation of the nose and paranasal sinuses. The term *rhinosinusitis* is preferred, because the nasal mucosa is always involved too.
+Inflammation of the nose and paranasal sinuses; chronic disease is covered in [[t:crs]]. The term *rhinosinusitis* is preferred, because the nasal mucosa is always involved too.
 ## Classification by time
 !table Classification of rhinosinusitis
 Type | Duration
@@ -14,7 +14,7 @@ Acute on chronic | Sudden worsening of chronic disease, returning to baseline
 EPOS 2020 dropped the term "subacute". Within acute rhinosinusitis it separates three phases:
 - **Common cold** (acute viral rhinosinusitis): symptoms for less than 10 days.
 - **Acute post-viral rhinosinusitis:** symptoms that worsen after five days or persist beyond ten.
-- **Acute bacterial rhinosinusitis:** at least three of discoloured discharge (often one-sided), severe local pain (often one-sided), fever above 38 °C, raised ESR or CRP, and "double sickening" (worsening after initial improvement).
+- **Acute bacterial rhinosinusitis:** at least three of discoloured discharge (often one-sided), severe local pain (often one-sided), fever above 38 °C, raised ESR or CRP, and "double sickening" (worsening after initial improvement). Severe symptoms from the start (high fever and purulent discharge) also suggest it.
 Only 0.5 to 2% of viral episodes become bacterial, and discoloured mucus alone does not mean bacteria.
 ## Symptoms
 Nasal blockage, anterior or posterior discharge, facial pain or pressure, and reduced smell, with cough, fever, fatigue, dental pain, halitosis, headache or ear fullness.
@@ -34,10 +34,8 @@ The ethmoids are separated from the orbit only by the paper-thin *lamina papyrac
 Rhinoviruses, influenza and parainfluenza viruses, spread by droplets, with an incubation of one to four days. Congestion, rhinorrhoea, sneezing and low fever improve within seven to ten days.
 !fig d36-1 | Pathophysiology of acute viral rhinosinusitis.
 ## Acute bacterial rhinosinusitis
-The virus damages cilia and epithelium; oedema blocks the ostia; secretions stagnate and bacteria multiply: *Streptococcus pneumoniae*, *Haemophilus influenzae*, *Moraxella catarrhalis* and *Staphylococcus aureus*. Anaerobes accompany dental infection.
+The virus damages cilia and epithelium; oedema blocks the ostia; secretions stagnate and bacteria multiply: *Streptococcus pneumoniae*, *Haemophilus influenzae*, *Moraxella catarrhalis* and *Staphylococcus aureus*, with rising resistance to penicillin and macrolides. Anaerobes accompany dental infection. *Streptococcus anginosus* (milleri group) is the commonest organism in complicated sinusitis in older children and adolescents, with a tendency to form intracranial abscesses.
 !fig d36-2 | The sequence from acute viral to acute bacterial rhinosinusitis.
-## Diagnosing bacterial infection
-Suspect it when symptoms persist beyond ten days without improvement, or worsen after initial improvement (*double worsening*), or with severe symptoms (high fever and purulent discharge) from the start.
 ## Predisposing factors
 Viral infections, swimming and diving, dental infection, trauma, a deviated septum or concha bullosa, polyps, allergy, adenoids, immune deficiency and cystic fibrosis.
 
@@ -73,12 +71,17 @@ Not needed for uncomplicated acute disease. CT of the sinuses (with contrast and
 Symptomatic: saline, analgesics (non-aspirin), short-term decongestants and fluids. Antibiotics are not needed. For post-viral symptoms beyond ten days, a nasal steroid spray helps.
 ## Bacterial rhinosinusitis
 - **Analgesics:** NSAIDs or paracetamol.
-- **Antibiotics:** amoxicillin, with or without clavulanate, first line; doxycycline or a respiratory quinolone in penicillin allergy. Watchful waiting is reasonable in mild disease with a safety net. Antibiotics are greatly overused (given to over 90% of patients in UK primary care in some series), and early antibiotics do not prevent complications; keep them for severe or clearly bacterial disease. The usual organisms are *Streptococcus pneumoniae*, *Haemophilus influenzae* and *Moraxella catarrhalis*, with rising resistance to penicillin and macrolides. *Streptococcus anginosus* (milleri group) is the commonest organism in complicated sinusitis in older children and adolescents, with a tendency to form intracranial abscesses.
+- **Antibiotics:** watchful waiting is reasonable in mild disease with a safety net. Antibiotics are greatly overused (given to over 90% of patients in UK primary care in some series), and early antibiotics do not prevent complications; keep them for severe or clearly bacterial disease. Doxycycline or a respiratory quinolone in penicillin allergy.
 - **Saline irrigation.**
 - **Intranasal steroids:** reduce oedema and shorten the illness.
 - **Decongestants:** topical for a few days only; oral ones where safe.
 - **Antihistamines:** only with coexisting allergy, as they thicken mucus.
 - **Steam inhalation:** symptomatic relief.
+!differ First-line antibiotic
+Textbooks and the American guideline: Amoxicillin, with or without clavulanate, for five to ten days.
+NICE (NG79, 2017): Phenoxymethylpenicillin for five days; a back-up prescription for symptoms beyond ten days, and an immediate antibiotic only for the systemically very unwell or those at high risk.
+In practice: Follow local guidance; in the UK, phenoxymethylpenicillin for five days when an antibiotic is needed.
+!!
 ## Surgery for acute disease
 ### Maxillary
 Antral washout is rarely needed now; endoscopic middle meatal antrostomy if drainage is required.
@@ -89,7 +92,7 @@ If pain, fever or lid swelling worsen despite 48 hours of treatment, *trephine* 
 Drain an orbital abscess and the ethmoids, endoscopically or through an external ethmoidectomy.
 !ops
 !update Current evidence
-**Guidelines.** EPOS 2020 recommends symptomatic treatment for the common cold and post-viral rhinosinusitis, nasal steroids for post-viral symptoms, and antibiotics only for acute bacterial rhinosinusitis (Fokkens et al., *Rhinology* 2020). NICE (NG79, 2017) advises no antibiotic for symptoms under ten days, a nasal steroid and a back-up antibiotic prescription for symptoms beyond ten days, and an immediate antibiotic only for the systemically very unwell or those at high risk of complications; first choice is phenoxymethylpenicillin for five days. The American guideline allows watchful waiting for uncomplicated bacterial sinusitis with a safety net, and amoxicillin with or without clavulanate for five to ten days when treating (Rosenfeld et al., *Otolaryngol Head Neck Surg* 2015). **Antibiotics.** A Cochrane review of 15 trials in adults found that antibiotics cure about one extra patient in 19 at 7 to 14 days, but cause side effects in one in eight (Lemiengre et al., 2018). **Nasal steroids.** A Cochrane review found a modest benefit in symptom resolution, greater with higher doses (Zalmanovici Trestioreanu and Yaphe, 2013).
+**Guidelines.** EPOS 2020 recommends symptomatic treatment for the common cold and post-viral rhinosinusitis, nasal steroids for post-viral symptoms, and antibiotics only for acute bacterial rhinosinusitis (Fokkens et al., *Rhinology* 2020). NICE (NG79, 2017) advises no antibiotic for symptoms under ten days, and a nasal steroid for symptoms beyond ten days. The American guideline allows watchful waiting for uncomplicated bacterial sinusitis with a safety net (Rosenfeld et al., *Otolaryngol Head Neck Surg* 2015). **Antibiotics.** A Cochrane review of 15 trials in adults found that antibiotics cure about one extra patient in 19 at 7 to 14 days, but cause side effects in one in eight (Lemiengre et al., 2018). **Nasal steroids.** A Cochrane review found a modest benefit in symptom resolution, greater with higher doses (Zalmanovici Trestioreanu and Yaphe, 2013).
 !!
 
 # Complications | Local, orbital and intracranial.
@@ -100,7 +103,7 @@ An expanding, mucus-filled sinus, from long-standing ostial obstruction, that sl
 - **Frontal:** a non-tender cystic swelling above the medial canthus (90%), pushing the eye forward, down and out; sometimes a forehead swelling; egg-shell crackling.
 - **Ethmoid:** expands the medial orbital wall and bulges into the middle meatus.
 - **Sphenoid:** presents with superior orbital fissure or orbital apex syndrome and proptosis.
-Treatment is endoscopic marsupialisation into the nose, which has replaced external operations.
+Treatment is endoscopic marsupialisation into the nose, which has replaced external operations ([[t:sinussurg]]).
 !fig d38-2 d38-3 | First, a frontal mucocele presenting above the left medial canthus. Second, CT of a frontoethmoid mucocele displacing the eye down and out.
 ### Retention cyst
 A cyst of an obstructed mucous gland, usually in the maxillary sinus, found incidentally; it does not erode bone and needs no treatment.
@@ -109,7 +112,7 @@ A cyst of an obstructed mucous gland, usually in the maxillary sinus, found inci
 - **Frontal bone:** in adults; pus under the pericranium forms a soft, doughy forehead swelling, *Pott's puffy tumour*, and often an extradural abscess beneath. Antibiotics, drainage, trephination and removal of sequestra.
 !fig d38-4 d38-5a | First, osteomyelitis of the maxilla with an infraorbital fistula. Second, chronic frontal sinusitis with a fistula in the floor of the sinus.
 ## Orbital complications
-Most come from the ethmoids, through the lamina papyracea or by thrombophlebitis of the ethmoidal veins.
+Most come from the ethmoids, through the lamina papyracea or by thrombophlebitis of the ethmoidal veins. Other causes of proptosis are covered in [[t:orbit]].
 !table Chandler classification
 Stage | Name | Features
 I | Preseptal cellulitis | Lid oedema; vision and eye movements normal

@@ -62,7 +62,7 @@ Urgent endoscopic biopsy of the middle turbinate or suspicious mucosa, with froz
 ## Treatment
 !ward Suspected invasive fungal sinusitis
 1. Urgent endoscopy and biopsy with frozen section.
-2. Start liposomal amphotericin B (about 5 mg/kg/day) immediately; monitor renal function.
+2. Start high-dose liposomal amphotericin B (about 5 mg/kg/day; the global guideline allows 5 to 10) immediately; monitor renal function.
 3. Correct ketoacidosis and glucose; stop or reduce immunosuppression; support neutropenia.
 4. Urgent surgical debridement back to bleeding tissue, endoscopic or open, repeated as needed.
 5. Involve ophthalmology, infectious diseases and the medical team.
@@ -80,12 +80,12 @@ Slowly progressive invasion over months, often in diabetics or patients on long-
 In immunocompetent patients in Sudan, India and Pakistan, usually *Aspergillus flavus*: a slowly enlarging mass of the cheek, orbit or nose with non-caseating granulomas and giant cells. Surgery and long-term azoles.
 
 # Differential diagnosis | Mimics.
-- Bacterial chronic rhinosinusitis with polyps.
-- Inverted papilloma and sinonasal malignancy (one-sided mass with bone erosion).
-- Granulomatosis with polyangiitis and NK/T-cell lymphoma (destructive, crusted nose).
+- Bacterial chronic rhinosinusitis with polyps ([[t:crs]]).
+- Inverted papilloma and sinonasal malignancy (one-sided mass with bone erosion; [[t:sinus_ca]]).
+- Granulomatosis with polyangiitis and NK/T-cell lymphoma (destructive, crusted nose; [[t:gpa]]).
 - Mucocele (expansion without the hyperdense mucin).
 !update Current evidence
-**Mucormycosis.** The global guideline recommends early complete surgical debridement plus high-dose liposomal amphotericin B (5 to 10 mg/kg/day) as first-line treatment, isavuconazole or posaconazole as alternatives and for step-down, and urgent control of the underlying condition, especially diabetic ketoacidosis (Cornely et al., *Lancet Infect Dis* 2019). During the COVID-19 pandemic India saw a surge of rhino-orbital-cerebral mucormycosis linked to uncontrolled diabetes and steroid use, a reminder to check glucose and limit steroids. **Aspergillosis.** The American guideline recommends voriconazole as primary treatment for invasive aspergillosis, with surgical debridement for invasive sinus disease (Patterson et al., *Clin Infect Dis* 2016). **Non-invasive disease.** A fungal ball is cured by endoscopic removal and needs no antifungal. Allergic fungal rhinosinusitis is diagnosed by the Bent and Kuhn criteria; complete endoscopic clearance plus long-term topical and short courses of systemic steroids is standard, while evidence for antifungal drugs and immunotherapy is weak.
+**Mucormycosis.** The global guideline recommends early complete surgical debridement plus high-dose liposomal amphotericin B (5 to 10 mg/kg/day) as first-line treatment, isavuconazole or posaconazole as alternatives and for step-down, and urgent control of the underlying condition, especially diabetic ketoacidosis (Cornely et al., *Lancet Infect Dis* 2019). **Aspergillosis.** The American guideline recommends voriconazole as primary treatment for invasive aspergillosis, with surgical debridement for invasive sinus disease (Patterson et al., *Clin Infect Dis* 2016). **Non-invasive disease.** Evidence for antifungal drugs and immunotherapy in allergic fungal rhinosinusitis is weak.
 !!
 
 # For the examination | What the examiner wants to hear.
