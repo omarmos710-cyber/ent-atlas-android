@@ -19,7 +19,7 @@ Inflammatory and infective | Orbital cellulitis and abscess, idiopathic orbital 
 Neoplastic | Primary orbital tumours, spread from the sinuses or cranium, metastases
 !!
 ## From the sinuses
-Mucoceles of the frontal and ethmoid sinuses, allergic fungal polyposis, inverted papilloma, angiofibroma, olfactory neuroblastoma and sinus carcinoma, and orbital complications of sinusitis (see those topics).
+Mucoceles of the frontal and ethmoid sinuses, allergic fungal polyposis, inverted papilloma, angiofibroma, olfactory neuroblastoma and sinus carcinoma, and orbital complications of sinusitis: see [[t:abs]], [[t:afs]], [[t:juv]] and [[t:sinus_ca]].
 !fig d41-2a d41-2b | First, proptosis with lateral displacement of the eye from allergic fungal polyposis. Second, a left ethmoid mucocele displacing the eye.
 ## Clues from the history and examination
 - **Unilateral or bilateral:** thyroid eye disease is the commonest cause of both bilateral and unilateral proptosis in adults; orbital cellulitis is the commonest cause in children.
@@ -67,7 +67,9 @@ Removal of the bone of the optic canal through the sphenoid in traumatic or comp
 For epiphora from obstruction of the nasolacrimal duct: a window is made from the lacrimal sac into the middle meatus, through the lacrimal bone and frontal process of the maxilla, endoscopically or through an external skin incision, sometimes with silicone tubes.
 !anat s101_33 nd96_4 | The lacrimal drainage system, and the lacrimal apparatus.
 ## Drainage of orbital abscess
-Endoscopic or external drainage of a subperiosteal or orbital abscess complicating sinusitis.
+Endoscopic or external drainage of a subperiosteal or orbital abscess complicating sinusitis ([[t:abs]]).
+### Who needs drainage in children
+Most children with orbital complications are treated medically at first, with intravenous antibiotics covering *Streptococcus anginosus* (milleri), the commonest organism in complicated sinusitis in young people, plus nasal decongestant, and with vision, pupils, colour vision and eye movements checked at least every few hours. A small **medial subperiosteal abscess** in a child with normal vision often resolves without surgery. Features that favour early drainage (based on the criteria of Garcia and Harris) are age nine years or older, frontal sinusitis, a non-medial or large abscess, gas in the abscess, a dental source, any reduction in visual acuity or colour vision, an afferent pupillary defect, intracranial complications, or failure to improve within 24 to 48 hours. Adolescents with frontal sinusitis and orbital involvement need imaging of the brain as well, because *S. anginosus* readily forms intracranial abscesses and Pott's puffy tumour.
 ## Lateral canthotomy and cantholysis
 An emergency release for retrobulbar haemorrhage after trauma or sinus surgery: a tense, proptosed eye with rising pressure and falling vision. Cut the lateral canthal tendon and its inferior crus within minutes.
 !flag Retrobulbar haemorrhage
@@ -76,8 +78,6 @@ Pain, tense proptosis, a hard globe, ophthalmoplegia and loss of vision after in
 ## Orbital exenteration
 Removal of the orbital contents for malignancy invading beyond the periorbita.
 !ops
-## Who needs drainage in children
-Most children with orbital complications are treated medically at first, with intravenous antibiotics covering *Streptococcus anginosus* (milleri), the commonest organism in complicated sinusitis in young people, plus nasal decongestant, and with vision, pupils, colour vision and eye movements checked at least every few hours. A small **medial subperiosteal abscess** in a child with normal vision often resolves without surgery. Features that favour early drainage (based on the criteria of Garcia and Harris) are age nine years or older, frontal sinusitis, a non-medial or large abscess, gas in the abscess, a dental source, any reduction in visual acuity or colour vision, an afferent pupillary defect, intracranial complications, or failure to improve within 24 to 48 hours. Adolescents with frontal sinusitis and orbital involvement need imaging of the brain as well, because *S. anginosus* readily forms intracranial abscesses and Pott's puffy tumour.
 !update Current evidence
 **Orbital complications of sinusitis.** Chandler's classification (1970) remains the standard. The criteria of Garcia and Harris, under which children under nine with a small medial subperiosteal abscess and normal vision were treated medically, avoided surgery in most such children (*Ophthalmology* 2000); EPOS 2020 endorses initial medical treatment for small medial abscesses with close monitoring. **Traumatic optic neuropathy.** The International Optic Nerve Trauma Study found no clear benefit from high-dose steroids or surgical decompression over observation (Levin et al., *Ophthalmology* 1999), and the CRASH trial showed that high-dose steroids increase death after head injury (*Lancet* 2004), so steroids are now avoided in this setting. **Thyroid eye disease.** The European (EUGOGO) guideline recommends intravenous methylprednisolone for active moderate to severe disease and urgent decompression for optic neuropathy not responding to steroids (Bartalena et al., *Eur J Endocrinol* 2021); teprotumumab, an IGF-1 receptor antibody, reduced proptosis in randomised trials (Douglas et al., *NEJM* 2020).
 !!

@@ -9,7 +9,7 @@ Cysts | Nasolacrimal duct cyst | nasoalveolar cyst
 Other | Haemangioma | proboscis lateralis, arhinia (rare)
 !!
 ## Why it matters
-Obligate nasal breathing in the first weeks of life makes bilateral obstruction an emergency; midline masses carry a risk of meningitis and CSF leak.
+Newborns breathe preferentially, though not obligatorily, through the nose for the first weeks to months, so bilateral obstruction presents with distress at birth and is an emergency; midline masses carry a risk of meningitis and CSF leak.
 
 # Choanal atresia | The closed back door.
 ## Embryology
@@ -17,9 +17,9 @@ Persistence of the *bucconasal membrane* (or abnormal mesoderm) between the nasa
 ## Types
 - One-sided or both; one-sided is commoner and may go unnoticed until adulthood.
 - Complete or incomplete.
-- Bony (about 90% in Dhingra; modern series show most are mixed bony and membranous) or purely membranous.
+- Bony (about 90% in older texts; modern series show most are mixed bony and membranous) or purely membranous.
 ## Associations
-Associated anomalies are common, especially with bilateral atresia: *CHARGE* syndrome (coloboma, heart defects, choanal atresia, retarded growth and development, genital and ear anomalies), Treacher Collins and Crouzon syndromes.
+Associated anomalies are common, especially with bilateral atresia: *CHARGE* syndrome (coloboma, heart defects, choanal atresia, retarded growth and development, genital and ear anomalies), in which about half have bilateral atresia; Treacher Collins syndrome; and, more rarely, craniosynostoses such as Crouzon and Apert. Unilateral atresia is usually isolated.
 ## Clinical picture
 ### Bilateral
 Respiratory distress at birth: *cyclical cyanosis*, blue at rest or when feeding and pink when crying (the baby breathes through the mouth while crying), with difficulty feeding.
@@ -30,7 +30,7 @@ One-sided nasal obstruction and persistent thick discharge from that side, often
 - Failure to pass a soft catheter (a size 6 to 8 French) more than about 3 cm into the nose.
 - Methylene blue in the nose fails to reach the pharynx; a wisp of cotton under the nostril does not move.
 - Flexible nasal endoscopy.
-- **CT** in the axial plane is the definitive test: it shows the atretic plate, narrowing of the posterior nasal cavity and thickening of the vomer, and separates bony from membranous atresia.
+- **CT** in the axial plane is the definitive test: it shows the atretic plate, narrowing of the posterior nasal cavity and thickening of the vomer, and separates bony from membranous atresia. In unilateral atresia, CT is best kept for planning once surgery is decided, to avoid repeated radiation and sedation.
 !imaging choanal-atresia piriform-aperture-malformation | Choanal atresia and pyriform aperture stenosis on CT.
 ## Management
 ### Emergency airway in bilateral atresia
@@ -46,10 +46,10 @@ An oral airway, or a feeding nipple with the end cut off taped in the mouth (*Mc
 - **Transpalatal repair:** better exposure, historically at about 18 months, but risks palatal growth disturbance.
 - Unilateral atresia can be repaired electively in childhood.
 ### After repair
-Restenosis is common, so regular review, dilatation and revision may be needed.
+Restenosis is common, so regular review, dilatation and revision may be needed. Postoperative suction, saline and topical steroids reduce granulation and early scarring. Some surgeons stent bilateral repairs for two to six weeks with cut endotracheal tubes, but recent series show no difference in revision rates with or without stents, and because stents need intensive care by parents and sometimes removal under anaesthesia, their use is declining; unilateral stenting is not worthwhile.
 !ops
 ## Pyriform aperture stenosis
-Narrowing of the bony nasal entrance from overgrowth of the nasal processes of the maxilla, presenting like bilateral choanal atresia but at the front of the nose. A single central maxillary incisor suggests holoprosencephaly and pituitary problems. Mild cases are managed medically; severe cases by drilling through a sublabial approach.
+Narrowing of the bony nasal entrance from overgrowth of the nasal processes of the maxilla, presenting like bilateral choanal atresia (a catheter cannot be passed) but at the front of the nose; endoscopy and CT tell them apart. *Mid-nasal stenosis* can coexist. A single central maxillary incisor suggests holoprosencephaly, so pituitary and brain assessment is needed. Mild cases are managed medically; sublabial drilling of the aperture is reserved for persistent respiratory distress or problems with sleep, growth or feeding.
 
 # Congenital midline nasal masses | Dermoid, glioma and encephalocele.
 ## Embryology
@@ -78,7 +78,7 @@ A herniation of meninges (meningocele), or meninges with brain (meningoencephalo
 - **Basal, presenting inside the nose or nasopharynx:** transethmoidal, sphenoethmoidal, transsphenoidal and sphenomaxillary, often mistaken for a polyp.
 !imaging meningoencephalocele | Meningoencephalocele through the skull base.
 ### Treatment
-Neurosurgical or endoscopic: dividing the stalk, excising the extracranial part and repairing the dural and bony defect.
+Neurosurgical or endoscopic: dividing the stalk, excising the extracranial part and repairing the dural and bony defect, as for CSF leaks ([[t:csf]]).
 !flag Image before you touch
 A midline nasal mass in a child may connect with the brain. Biopsy or simple removal can cause CSF leak and meningitis. Obtain MRI (with CT for the bone) first.
 !!
@@ -99,13 +99,10 @@ A cystic dilatation of the lower nasolacrimal duct when Hasner's valve fails to 
 A strawberry swelling of the nasal tip that grows in the first year and regresses over several years; propranolol for problem lesions.
 ## Rare anomalies
 Arhinia (absent nose), proboscis lateralis, bifid nose and congenital atresia of the nares.
-# Current paediatric practice | Stents, stenosis and the growing nose.
-## Current practice
-Neonates breathe preferentially, not obligatorily, through the nose for the first weeks to months, which is why bilateral nasal obstruction presents with distress at birth. About half of children with CHARGE syndrome have bilateral choanal atresia, and craniosynostoses such as Crouzon and Apert are rarer associations. Unilateral atresia is commoner, usually isolated and presents later with a one-sided discharge; CT is best kept for planning once surgery is decided, to avoid repeated radiation and sedation.
-**Stents.** After endoscopic repair of bilateral atresia some surgeons stent for two to six weeks with cut endotracheal tubes, but recent series show no difference in revision rates with or without stents, and because stents need intensive care by parents and sometimes removal under anaesthesia, their use is declining; unilateral stenting is not worthwhile. Postoperative suction, saline and topical steroids reduce granulation and early scarring.
-**Piriform aperture stenosis**, an overgrowth of the nasal process of the maxilla, mimics bilateral choanal atresia (a catheter cannot be passed) but is anterior; it may accompany a single central maxillary incisor and holoprosencephaly, so pituitary and brain assessment is needed. Endoscopy and CT distinguish the two. Surgery, a sublabial drilling of the aperture, is reserved for persistent respiratory distress or problems with sleep, growth or feeding. **Mid-nasal stenosis** can coexist. **Septal surgery** in children was long avoided for fear of affecting facial growth, but conservative septoplasty for significant obstruction appears safe. Adenoids are largest in absolute terms at 6 to 10 years, but largest relative to the nasopharynx, and so most obstructive, at 2 to 6 years.
+## The growing nose
+Septal surgery in children was long avoided for fear of affecting facial growth, but conservative septoplasty for significant obstruction appears safe ([[t:septum]]). Adenoids are largest in absolute terms at 6 to 10 years, but largest relative to the nasopharynx, and so most obstructive, at 2 to 6 years.
 !update Current evidence
-**Stents.** A meta-analysis of bilateral choanal atresia repair found success of 65% with stents and 64% without, while stents caused alar injury, vestibular stenosis and blockage, so routine stenting is no longer justified (Strychowsky et al., *Laryngoscope* 2016). **Endoscopic transnasal repair** with mucosal flaps and wide posterior septectomy is the standard approach; topical mitomycin C has not been shown to prevent restenosis. **Midline masses.** MRI is needed before any biopsy of a midline nasal mass in a child, because an intracranial connection (dermoid sinus, glioma or encephalocele) can lead to meningitis or a CSF leak.
+**Stents.** A meta-analysis of bilateral choanal atresia repair found success of 65% with stents and 64% without, while stents caused alar injury, vestibular stenosis and blockage, so routine stenting is no longer justified (Strychowsky et al., *Laryngoscope* 2016). **Endoscopic transnasal repair** with mucosal flaps and wide posterior septectomy is the standard approach; topical mitomycin C has not been shown to prevent restenosis.
 !!
 
 # For the examination | What the examiner wants to hear.
