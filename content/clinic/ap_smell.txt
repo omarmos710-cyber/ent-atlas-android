@@ -1,13 +1,14 @@
 @stand Loss of smell was a neglected symptom until COVID-19 made it famous. It matters more than patients and doctors once thought: it removes a warning system for smoke, gas and spoiled food, flattens the taste of food (most "taste" is smell reaching the nose from the mouth), affects mood and relationships, and in older people predicts both neurodegenerative disease and death. The approach divides causes into **conductive** loss, where odours cannot reach the olfactory cleft, and **sensorineural** loss, where the receptors or their central pathways are damaged, and looks for the treatable causes of each.
 
 # Terms and anatomy | What can go wrong, and where.
+The physiology of smell is described in [[t:nphys]].
 ## Definitions
 **Anosmia** is total loss of smell; **hyposmia** is a reduced sense of smell. **Parosmia** is a distorted perception of a familiar odour, usually unpleasant (coffee smells of sewage); **phantosmia** is perceiving a smell that is not there. Parosmia is often a sign that the olfactory nerve is regenerating and carries a reasonable prognosis.
 ## How smell works
 The olfactory epithelium lies in the narrow olfactory clefts, on the upper septum, the superior turbinate and the cribriform plate. About 10 to 15% of inspired air reaches it with each breath, more with sniffing. The receptor neurons send axons through the cribriform plate to the olfactory bulb and regenerate throughout life from basal stem cells, which is why recovery is possible. **Retronasal** smell, from food in the mouth reaching the nose, makes up most of what patients call flavour, so a patient with anosmia often complains of losing taste.
 !flag Do not miss
-- **Unilateral loss with nasal blockage or bleeding:** a sinonasal tumour, including olfactory neuroblastoma.
-- **Loss with headache, personality change or visual symptoms:** a frontal or olfactory groove meningioma.
+- **Unilateral loss with nasal blockage or bleeding:** a [[t:sinus_ca|sinonasal tumour]], including olfactory neuroblastoma.
+- **Loss with headache, personality change or visual symptoms:** a frontal or olfactory groove meningioma ([[t:skullbase]]).
 - **Phantosmia in brief episodes:** temporal lobe seizures.
 - **Gradual loss in an older adult with tremor or memory problems:** Parkinson's disease or dementia, in which smell loss can come years first.
 - **Absent smell from birth with delayed puberty:** Kallmann syndrome.
@@ -27,7 +28,7 @@ MRI of the anterior skull base and brain is indicated for unexplained loss, unil
 # Causes | Conductive and sensorineural.
 !table Causes of smell loss
 Type | Cause | Features
-Conductive | Chronic rhinosinusitis with polyps | Fluctuating, improves with steroids; commonest cause in clinic
+Conductive | Chronic rhinosinusitis with polyps ([[t:crs]]) | Fluctuating, improves with steroids; commonest cause in clinic
 Conductive | Allergic rhinitis, septal deviation, tumours | Blockage; unilateral if a mass
 Sensorineural | Post-viral, including COVID-19 | Sudden after infection; parosmia common
 Sensorineural | Head injury | Shearing of olfactory fibres at the cribriform plate; worse with occipital blows
@@ -44,7 +45,7 @@ Head injury shears the olfactory fibres at the cribriform plate or bruises the o
 
 # Management | Treat the cause; train the nose.
 ## Conductive loss
-Chronic rhinosinusitis with polyps is treated with saline and topical steroids, preferably as drops in the head-down position, with a short course of oral steroids that also shows whether the loss is reversible. Endoscopic sinus surgery opens the olfactory clefts, and biologics (such as dupilumab) can restore smell in severe polyp disease.
+Chronic rhinosinusitis with polyps is treated with saline and topical steroids, preferably as drops in the head-down position, with a short course of oral steroids that also shows whether the loss is reversible. Endoscopic sinus surgery ([[t:sinussurg]]) opens the olfactory clefts, and biologics (such as dupilumab) can restore smell in severe polyp disease.
 ## Sensorineural loss
 **Olfactory training** is the best-supported treatment: the patient sniffs four strong odours (traditionally rose, lemon, eucalyptus and clove) for about 20 seconds each, twice a day, for at least three to six months. Changing the odours every few months may improve results. Oral steroids are most likely to help early after a viral or traumatic loss, and topical steroids when the olfactory cleft is swollen. Other treatments, including omega-3 supplements, vitamin A drops and platelet-rich plasma, have limited evidence.
 
@@ -57,7 +58,7 @@ Measure smell | anosmia or hyposmia confirmed: identify the cause — viral, tra
 Sensorineural loss | olfactory training for at least three to six months ; oral and topical steroids early ; safety advice ; MRI if no clear cause
 !!
 !update Current evidence
-**Guidance.** The 2023 international position paper recommends psychophysical testing (such as Sniffin' Sticks or UPSIT) rather than self-report, endoscopy, and MRI only when the cause is unclear or other neurological features exist; it recommends olfactory training for post-viral and other smell loss, and advises against routine systemic steroids except in chronic rhinosinusitis (Whitcroft et al., *Rhinology* 2023). **Why it matters.** Smell loss predicts Parkinson's disease and dementia and is associated with higher mortality in older adults. **COVID-19.** Most patients recovered within months, but a minority have persistent loss or parosmia.
+**Guidance.** The 2023 international position paper recommends psychophysical testing (such as Sniffin' Sticks or UPSIT) rather than self-report, endoscopy, and MRI only when the cause is unclear or other neurological features exist; it recommends olfactory training for post-viral and other smell loss, and advises against routine systemic steroids except in chronic rhinosinusitis (Whitcroft et al., *Rhinology* 2023).
 !!
 
 # For the examination | What the examiner wants to hear.

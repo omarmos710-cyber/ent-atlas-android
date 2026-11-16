@@ -2,20 +2,20 @@
 
 # Oversupply or poor drainage? | The first question.
 ## Two mechanisms
-**Hypersecretion** comes from an irritated ocular surface: dry eye with reflex tearing (the cause in up to 40% of referrals), blepharitis, trichiasis, entropion, ectropion, allergy, foreign bodies and, rarely, gustatory tearing ("crocodile tears") after facial nerve regeneration. **Impaired drainage** comes from a failure of the lid pump (facial palsy, lax lower lid), a malpositioned or stenosed punctum, a canalicular block, or an obstruction of the sac or nasolacrimal duct. Nasolacrimal obstruction is common in older adults and in women, and becomes more frequent with age.
+**Hypersecretion** comes from an irritated ocular surface: dry eye with reflex tearing (the cause in up to 40% of referrals), blepharitis, trichiasis, entropion, ectropion, allergy, foreign bodies and, rarely, gustatory tearing ("crocodile tears") after facial nerve regeneration ([[t:facial]]). **Impaired drainage** comes from a failure of the lid pump (facial palsy, lax lower lid), a malpositioned or stenosed punctum, a canalicular block, or an obstruction of the sac or nasolacrimal duct. Nasolacrimal obstruction is common in older adults and in women, and becomes more frequent with age.
 ## Lacrimal anatomy
 Tears drain through the upper and lower **puncta** into the **canaliculi**, which run vertically for about 2 mm and then horizontally for about 8 to 10 mm before joining as the **common canaliculus**, which enters the **lacrimal sac** in the lacrimal fossa. The **nasolacrimal duct** runs down from the sac for about 12 mm and opens beneath the inferior turbinate, about 1 to 1.5 cm behind its anterior end, under the mucosal fold called the **valve of Hasner**. The lower canaliculus carries most of the flow. In the nose, the sac lies deep to the frontal process of the maxilla, in front of the attachment of the middle turbinate and the uncinate process.
 !flag Do not miss
 - **A firm mass above the medial canthal tendon, blood-stained tears or bloody reflux on syringing:** lacrimal sac tumour — image and biopsy.
-- **A watering eye with nasal blockage, bleeding or numbness:** sinonasal tumour invading the duct.
-- **Acute dacryocystitis with orbital cellulitis signs:** urgent treatment.
+- **A watering eye with nasal blockage, bleeding or numbness:** [[t:sinus_ca|sinonasal tumour]] invading the duct.
+- **Acute dacryocystitis with orbital cellulitis signs:** urgent treatment ([[t:orbit]]).
 - **A neonate with a blue swelling at the medial canthus:** dacryocystocele, which can extend into the nose and obstruct the airway.
 !!
 !anat s101_33 | Lacrimal drainage: canaliculi, sac, nasolacrimal duct and Hasner's valve.
 
 # Assessment | Find the level.
 ## History and examination
-Ask whether the watering is constant or intermittent, unilateral or bilateral, and associated with stickiness, discharge, swelling at the inner canthus, pain or a red eye. Ask about previous facial trauma, nasal or sinus surgery, radiotherapy, sarcoidosis, granulomatosis with polyangiitis and drugs (topical glaucoma drops, docetaxel).
+Ask whether the watering is constant or intermittent, unilateral or bilateral, and associated with stickiness, discharge, swelling at the inner canthus, pain or a red eye. Ask about previous facial trauma, nasal or sinus surgery, radiotherapy, sarcoidosis, [[t:gpa|granulomatosis with polyangiitis]] and drugs (topical glaucoma drops, docetaxel).
 
 Examine the lids for position and laxity, the puncta for size and position, and the ocular surface for dryness and inflammation. Press over the lacrimal sac: mucus or pus regurgitating from the puncta indicates a mucocoele or dacryocystitis with a blocked duct. Examine the nose with an endoscope for septal deviation, turbinate or polyp disease, previous surgery, tumours and access to the lacrimal region.
 ## Tests
@@ -37,7 +37,7 @@ About 20% of newborns have a watering eye from an imperforate valve of Hasner. M
 
 # Management | Matching treatment to level.
 ## Dacryocystorhinostomy
-**Dacryocystorhinostomy (DCR)** creates a permanent opening from the lacrimal sac into the nose, bypassing an obstructed nasolacrimal duct. The **endonasal** approach raises a mucosal flap over the frontal process of the maxilla and the lacrimal bone, removes bone with a drill or punches to expose the whole sac, opens the sac widely and lays its flaps against the nasal mucosa. It avoids a skin scar, preserves the lacrimal pump and allows simultaneous treatment of nasal disease. Silicone stents are used selectively, especially for canalicular disease. Success rates for endonasal DCR are comparable to the external approach, at about 90% for nasolacrimal duct obstruction when the sac is fully exposed.
+**Dacryocystorhinostomy (DCR)** ([[t:sinussurg]]) creates a permanent opening from the lacrimal sac into the nose, bypassing an obstructed nasolacrimal duct. The **endonasal** approach raises a mucosal flap over the frontal process of the maxilla and the lacrimal bone, removes bone with a drill or punches to expose the whole sac, opens the sac widely and lays its flaps against the nasal mucosa. It avoids a skin scar, preserves the lacrimal pump and allows simultaneous treatment of nasal disease. Silicone stents are used selectively, especially for canalicular disease. Success rates for endonasal DCR are comparable to the external approach, at about 90% for nasolacrimal duct obstruction when the sac is fully exposed.
 
 The **external** approach through a skin incision remains widely used by ophthalmologists. Failure is usually from an opening that is too small or too high, scarring, or synechiae to the middle turbinate or septum.
 ## Other treatments
@@ -50,7 +50,7 @@ Sac or duct obstruction | endoscopy of the nose ; mass, bloody tears or sinus di
 Infant | massage and wait to one year ; persisting: probing, then intubation ; intranasal cyst with breathing difficulty: endoscopic marsupialisation
 !!
 !update Current evidence
-**Assessment.** Dye disappearance testing, lacrimal syringing and probing, and dacryocystography or scintigraphy separate functional from anatomical obstruction; nasal endoscopy excludes intranasal disease. **Endonasal or external DCR.** Modern endonasal dacryocystorhinostomy with a wide ostium and mucosal flaps achieves success rates (about 85 to 95%) close to external surgery, without a skin scar, though randomised comparisons are few. **Mitomycin C** applied at surgery improved success in meta-analyses (Xue et al., *Orbit* 2014). **Congenital obstruction** usually resolves by the first birthday; probing is advised if it persists.
+**Endonasal or external DCR.** Published success rates for modern endonasal surgery range from about 85 to 95%, though randomised comparisons with external surgery are few. **Mitomycin C** applied at surgery improved success in meta-analyses (Xue et al., *Orbit* 2014).
 !!
 
 # For the examination | What the examiner wants to hear.

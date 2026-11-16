@@ -21,7 +21,7 @@ Unilateral, blood-stained | Tumour | Obstruction, pain, numbness, proptosis
 
 # Bilateral rhinorrhoea | Mostly mucosal.
 ## Allergic rhinitis
-Allergic rhinitis is an IgE-mediated inflammation producing sneezing, watery discharge, itch of the nose and eyes, and blockage. The **ARIA** classification divides it by duration into *intermittent* (fewer than four days a week or for less than four consecutive weeks) and *persistent*, and by severity into *mild* and *moderate to severe*, depending on effects on sleep, daily activities, work and troublesome symptoms. It is diagnosed from the history and confirmed with skin-prick tests or specific IgE. A subgroup has *local allergic rhinitis*, with typical symptoms and negative skin tests but IgE in the nasal mucosa.
+Allergic rhinitis ([[t:rhinitis]]) is an IgE-mediated inflammation producing sneezing, watery discharge, itch of the nose and eyes, and blockage. The **ARIA** classification divides it by duration into *intermittent* (fewer than four days a week or for less than four consecutive weeks) and *persistent*, and by severity into *mild* and *moderate to severe*, depending on effects on sleep, daily activities, work and troublesome symptoms. It is diagnosed from the history and confirmed with skin-prick tests or specific IgE. A subgroup has *local allergic rhinitis*, with typical symptoms and negative skin tests but IgE in the nasal mucosa.
 
 Treatment follows the ARIA steps: allergen avoidance and saline; a non-sedating oral or topical antihistamine for mild intermittent disease; an intranasal steroid, or combined steroid and antihistamine spray, for persistent or moderate to severe disease; and **allergen immunotherapy**, sublingual or subcutaneous, for selected patients whose allergy is confirmed and who do not respond. Leukotriene antagonists help some patients with asthma. Depot and intranasal steroid injections are not recommended.
 ## Non-allergic rhinitis
@@ -29,18 +29,18 @@ Non-allergic rhinitis produces similar symptoms without atopy. It includes **vas
 
 When watery discharge dominates, **ipratropium bromide** spray, an anticholinergic, used before meals or triggers, is the drug of choice. Intranasal steroids help NARES and congestion. For intractable cases, the parasympathetic supply can be interrupted surgically: **vidian neurectomy** is effective but risks a dry eye, so the more selective **posterior nasal nerve** procedures (neurectomy, cryoablation or radiofrequency) are now preferred.
 ## Infective rhinitis and rhinosinusitis
-The common cold is the commonest cause of all and settles in about ten days. Discoloured discharge with blockage, facial pain or smell loss for more than twelve weeks is chronic rhinosinusitis and is managed on its own pathway.
+The common cold is the commonest cause of all and settles in about ten days. Discoloured discharge with blockage, facial pain or smell loss for more than twelve weeks is [[t:crs|chronic rhinosinusitis]] and is managed on its own pathway; shorter episodes are [[t:abs|acute rhinosinusitis]].
 
 # Unilateral rhinorrhoea | Leak or lesion?
 ## CSF rhinorrhoea
-CSF rhinorrhoea is a communication between the subarachnoid space and the nose. About 80 to 90% are **traumatic**, from head injury or surgery; the rest are **non-traumatic**, and many of these are *spontaneous* leaks in women with obesity and raised intracranial pressure (idiopathic intracranial hypertension), often through the cribriform plate or a lateral sphenoid recess. Spontaneous leaks have the highest recurrence rates.
+CSF rhinorrhoea ([[t:csf]]) is a communication between the subarachnoid space and the nose. About 80 to 90% are **traumatic**, from head injury or surgery; the rest are **non-traumatic**, and many of these are *spontaneous* leaks in women with obesity and raised intracranial pressure (idiopathic intracranial hypertension), often through the cribriform plate or a lateral sphenoid recess. Spontaneous leaks have the highest recurrence rates.
 
 The discharge is clear, watery and unilateral, worse on bending forward (the *teapot sign*) or straining, and may run backwards when lying down. It does not cause sneezing or itchy eyes. Diagnosis is confirmed by **beta-2 transferrin** or **beta-trace protein** in the fluid; the "halo" and glucose tests are unreliable. **High-resolution CT** shows the bony defect, MRI shows any encephalocele or herniated meninges, and CT cisternography or intrathecal fluorescein at surgery helps find small or intermittent leaks.
 
 Traumatic leaks are first treated conservatively, with bed rest, head elevation, stool softeners and avoidance of nose blowing, and a lumbar drain if needed; many close within a week. Persistent and spontaneous leaks are repaired endoscopically with a graft or a nasoseptal flap, and spontaneous leaks need their raised pressure treated to prevent recurrence. Pneumococcal vaccination is recommended.
 !fig d29-4 d29-5 | Sites of CSF leakage into the nose and ear.
 ## Other unilateral causes
-A **foreign body** in a child, or after dental or sinus surgery in an adult, gives a foul unilateral discharge. **Dental (odontogenic) sinusitis** and a **fungal ball** affect one maxillary sinus, often with a foul smell. **Choanal atresia** occasionally presents with unilateral discharge. **Tumours**, inverted papilloma and sinonasal malignancy, produce discharge with blockage, bleeding and pain. Unilateral watery discharge with tearing during attacks of severe orbital pain is **cluster headache**.
+A **[[t:nfb|foreign body]]** in a child, or after dental or sinus surgery in an adult, gives a foul unilateral discharge. **Dental (odontogenic) sinusitis** and a **fungal ball** ([[t:afs]]) affect one maxillary sinus, often with a foul smell. **Choanal atresia** ([[t:congnose]]) occasionally presents with unilateral discharge. **Tumours**, inverted papilloma and sinonasal malignancy ([[t:sinus_ca]]), produce discharge with blockage, bleeding and pain. Unilateral watery discharge with tearing during attacks of severe orbital pain is **cluster headache**.
 
 # Pathway | Discharge to diagnosis.
 !path The runny nose
@@ -50,7 +50,7 @@ Unilateral — clear and watery? | yes: collect for beta-2 transferrin, CT for d
 CSF leak confirmed | traumatic: conservative first, repair if persisting ; spontaneous: endoscopic repair and treat raised pressure
 !!
 !update Current evidence
-**Allergic rhinitis.** The ARIA guidelines recommend intranasal steroids or an azelastine–fluticasone combination for moderate to severe or persistent symptoms, oral second-generation antihistamines for mild disease, and allergen immunotherapy for patients not controlled on drugs (Bousquet et al., *J Allergy Clin Immunol* 2020). **Clear unilateral watery rhinorrhoea,** especially after trauma or surgery, needs beta-2 transferrin testing to exclude a CSF leak. **Non-allergic rhinitis** with watery discharge responds to ipratropium spray.
+**Allergic rhinitis.** The ARIA steps above follow the 2020 update, whose combined spray is azelastine–fluticasone (Bousquet et al., *J Allergy Clin Immunol* 2020).
 !!
 
 # For the examination | What the examiner wants to hear.

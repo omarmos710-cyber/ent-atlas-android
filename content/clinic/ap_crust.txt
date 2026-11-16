@@ -6,7 +6,7 @@ Crusts form when mucus dries faster than it is cleared. This happens when the mu
 !flag Do not miss
 - **Crusting with systemic symptoms** (cough, haemoptysis, arthralgia, rash, red eyes, deafness, kidney disease, weight loss): granulomatosis with polyangiitis, EGPA or sarcoidosis — ANCA, ACE, urinalysis, chest imaging, biopsy.
 - **Crusting with a perforation or palatal defect in a cocaine user:** cocaine-induced midline destructive lesion; levamisole adds a vasculitis.
-- **Unilateral crusting with ulceration, a mass or bleeding:** NK/T-cell lymphoma, squamous carcinoma.
+- **Unilateral crusting with ulceration, a mass or bleeding:** NK/T-cell lymphoma, squamous carcinoma ([[t:sinus_ca]]).
 - **Collapse of the nasal bridge (saddle nose):** granulomatosis with polyangiitis, relapsing polychondritis, cocaine, previous surgery.
 !!
 
@@ -33,15 +33,17 @@ Malignancy | NK/T-cell lymphoma, squamous carcinoma | Unilateral, progressive, u
 Clearance | Primary ciliary dyskinesia, cystic fibrosis | Lifelong symptoms, chest disease
 !!
 ## Atrophic rhinitis
+Described in full in [[t:atrophic]].
 **Primary atrophic rhinitis (ozaena)** occurs mainly in women in tropical and low-income settings. The mucosa and turbinates atrophy, the cavities widen, and greenish, foul-smelling crusts form, with anosmia, so the patient does not notice the odour that others do. *Klebsiella ozaenae* is often cultured. **Secondary atrophic rhinitis** follows excessive surgery, radiotherapy, trauma and granulomatous disease. **Empty nose syndrome** is a related condition after over-resection of the turbinates: the cavity is wide and clear, yet the patient feels blocked and short of breath.
 ## Granulomatosis with polyangiitis
+Described in full, with sarcoidosis and the other granulomatous diseases, in [[t:gpa]].
 This necrotising vasculitis of small vessels affects the upper airway in most patients and may be limited to it. Nasal features are crusting, bleeding, obstruction, septal perforation and saddle collapse; there may also be otitis media with effusion, sensorineural hearing loss, subglottic stenosis, lung nodules and glomerulonephritis. c-ANCA supports the diagnosis, which is confirmed by biopsy and managed with rheumatology and renal teams.
 
 # Management | Irrigate, treat the cause.
 ## General measures
 Regular high-volume **saline irrigation**, several times a day, is the foundation for every cause. Lubricating ointments or oils and humidification help, and glucose-glycerine drops or warm alkaline douches soften crusts in atrophic rhinitis. Topical antibiotic ointment helps when the crusts are infected or *Staphylococcus aureus* carriage is a problem. Decongestant and steroid sprays are reviewed and stopped if they worsen crusting.
 ## Specific treatment
-**Septal perforations** that cause symptoms are treated with irrigation, a silicone button or surgical repair. **Atrophic rhinitis** is treated with irrigation and, for Klebsiella infection, appropriate antibiotics; surgery to narrow the cavity (Young's operation, closing the nostrils for months, or submucosal implants) is reserved for severe cases. **Vasculitis and sarcoidosis** are treated systemically with steroids and immunosuppression or biologics such as rituximab. **Cocaine-related disease** requires abstinence before any reconstruction. **Malignancy** is treated on oncological principles.
+**Septal perforations** ([[t:septum]]) that cause symptoms are treated with irrigation, a silicone button or surgical repair. **Atrophic rhinitis** is treated with irrigation and, for Klebsiella infection, appropriate antibiotics; surgery to narrow the cavity (Young's operation, closing the nostrils for months, or submucosal implants) is reserved for severe cases. **Vasculitis and sarcoidosis** are treated systemically with steroids and immunosuppression or biologics such as rituximab. **Cocaine-related disease** requires abstinence before any reconstruction. **Malignancy** is treated on oncological principles.
 
 !path Nasal crusting
 Red flags? | systemic symptoms, saddle nose or perforation: ANCA, ACE, urinalysis, chest imaging, biopsy ; unilateral ulceration or mass: biopsy and imaging
@@ -50,7 +52,7 @@ Treat | saline irrigation for all ; treat the cause ; stop drugs that worsen cru
 !!
 !fig d26-12 | A silicone septal button closing a perforation.
 !update Current evidence
-**Work-up.** Persistent crusting needs endoscopy, and often ANCA, ACE, syphilis serology, a full blood count and biopsy, because granulomatosis with polyangiitis, sarcoidosis, NK/T-cell lymphoma and cocaine-induced midline destructive lesions all present this way. The ACR/EULAR 2022 classification criteria for GPA give heavy weight to nasal crusting, bloody discharge and septal perforation with a positive PR3-ANCA (Robson et al., *Ann Rheum Dis* 2022). **Cocaine** cut with levamisole can produce ANCA positivity that mimics vasculitis. **Treatment.** Large-volume saline douching is the mainstay for symptomatic crusting whatever the cause.
+**Classification.** The ACR/EULAR 2022 classification criteria for GPA give heavy weight to nasal crusting, bloody discharge and septal perforation with a positive PR3-ANCA (Robson et al., *Ann Rheum Dis* 2022). **Cocaine** cut with levamisole can produce ANCA positivity that mimics vasculitis.
 !!
 
 # For the examination | What the examiner wants to hear.
