@@ -1,0 +1,147 @@
+<!doctype html><html><head><meta charset="utf-8"><title>VESTIBULAR TESTING · summary board</title>
+<style>
+@font-face{font-family:Caveat;src:url(fonts/Caveat.ttf)}
+@font-face{font-family:Hand;src:url(fonts/PatrickHand.ttf)}
+@font-face{font-family:Kalam;src:url(fonts/KalamBold.ttf)}
+:root{--ink:#1d2330;--blue:#1f5fbf;--red:#d33a2c;--green:#1f8a4c;--orange:#e07b1a;--purple:#7b44b8;--teal:#138a8a;--hl:rgba(255,226,74,.65)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1760px;background:#fbfbf7;color:var(--ink);font:17px/1.32 Hand,sans-serif;padding:22px 16px 26px;
+ background-image:radial-gradient(rgba(0,0,0,.035) 1px,transparent 1px);background-size:18px 18px}
+h1{font:700 52px/1 Caveat;text-align:center;letter-spacing:.5px}
+.sub{text-align:center;font:22px Caveat;color:#555;margin:4px 0 14px}
+.hl{background:linear-gradient(transparent 45%,var(--hl) 45%,var(--hl) 88%,transparent 88%);padding:0 2px}
+b{font-family:Kalam;font-weight:700;font-size:.95em}
+.card{position:relative;border:2.4px solid var(--c,var(--ink));border-radius:255px 18px 225px 16px/16px 225px 18px 255px;padding:12px 14px 12px;margin:20px 0 0;background:#fff}
+.card h2{font:700 30px/1 Caveat;color:var(--c);display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.n{display:inline-grid;place-items:center;width:34px;height:34px;border:2.4px solid var(--c);border-radius:50% 46% 52% 48%;font:700 22px Kalam;color:var(--c);flex:none}
+.row{display:flex;gap:10px;align-items:flex-start}
+.col{flex:1;min-width:0}
+ul{list-style:none;margin:2px 0}
+li{position:relative;padding-left:16px;margin:3px 0}
+li:before{content:"";position:absolute;left:2px;top:.55em;width:7px;height:7px;border-radius:50%;background:var(--c,var(--ink))}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:4px 2px;margin:6px 0}
+.chip{border:2px solid var(--c);border-radius:12px 6px 14px 7px;padding:1px 7px;background:#fff;font-size:15.5px}
+.ar{font:700 22px Caveat;color:var(--c);padding:0 2px}
+.note{font:23px/1.05 Caveat;color:var(--red)}
+.warn{border:2.4px dashed var(--red);border-radius:14px 8px 16px 9px;padding:6px 10px;margin:8px 0 2px;background:#fff5f3}
+.warn b{color:var(--red)}
+.mini{font-size:15px;color:#333}
+table{border-collapse:collapse;width:100%;font-size:15px;margin-top:4px}
+td,th{border-bottom:1.6px solid #d9d6cc;padding:3px 4px;text-align:left;vertical-align:top}
+th{font:700 15px Kalam;color:var(--c)}
+.tag{display:inline-block;font:700 13px Kalam;color:#fff;background:var(--c);border-radius:8px 4px 9px 5px;padding:0 6px;margin-right:3px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.box{border:2px solid var(--c);border-radius:16px 8px 18px 9px;padding:6px 8px;background:#fff}
+.box h3{font:700 22px/1 Caveat;color:var(--c);margin-bottom:2px}
+.foot{text-align:center;font:20px Caveat;color:#777;margin-top:18px}
+.grid{display:grid;grid-template-columns:1.05fr 1fr 1fr 1fr;gap:18px;align-items:start}
+.gcol>.card:first-child{margin-top:4px}
+h1{font-size:64px}
+</style></head><body>
+<h1>VESTIBULAR TESTING</h1>
+<div class="sub">bedside and laboratory: which side, and peripheral or central? ✎</div>
+
+<div class="grid"><div class="gcol">
+
+<div class="card" style="--c:var(--blue)">
+<h2><span class="n">1</span>The parts and the tests</h2>
+<svg width="390" height="170" viewBox="0 0 390 170" style="display:block;margin:0 auto">
+ <g font-family="Hand" stroke-linecap="round" stroke-linejoin="round">
+ <rect x="8" y="64" width="86" height="40" rx="10" fill="#e8f0fb" stroke="#1f5fbf" stroke-width="2.2"/>
+ <text x="51" y="82" text-anchor="middle" font-size="13" fill="#1d2330">vestibular</text><text x="51" y="98" text-anchor="middle" font-size="13" fill="#1d2330">nerve</text>
+ <path d="M94 76 L140 40 M94 92 L140 128" stroke="#1f5fbf" stroke-width="2.4" fill="none"/>
+ <text x="146" y="34" font-size="14" fill="#1f5fbf">superior → lateral + superior canals, utricle</text>
+ <text x="146" y="54" font-size="13" fill="#7b44b8">oVEMP (utricle)</text>
+ <text x="146" y="126" font-size="14" fill="#1f5fbf">inferior → posterior canal, saccule</text>
+ <text x="146" y="146" font-size="13" fill="#7b44b8">cVEMP (saccule)</text>
+ </g>
+</svg>
+<ul class="mini" style="--c:var(--blue)">
+<li>Canals: <b>angular</b> acceleration · utricle + saccule: <b>linear</b> + tilt</li>
+<li>Right labyrinth fails → eyes drift slowly right, flick left: <span class="hl">nystagmus beats <b>away</b> from a dead labyrinth</span>, towards an irritated one</li>
+<li><b>Ewald:</b> eyes move in the stimulated canal's plane · lateral canal: ampullopetal stimulates more; vertical canals the reverse</li>
+</ul>
+<table style="--c:var(--blue);margin-top:4px"><tr><th>Test</th><th>Measures</th></tr>
+<tr><td><b>Caloric</b></td><td>each lateral canal, <b>low</b> frequency</td></tr>
+<tr><td><b>Rotary chair</b></td><td>both lateral canals together</td></tr>
+<tr><td><b>vHIT</b></td><td>each of six canals, <b>high</b> frequency</td></tr>
+<tr><td><b>cVEMP / oVEMP</b></td><td>saccule + inferior nerve / utricle + superior nerve</td></tr>
+<tr><td><b>Posturography</b></td><td>use of vestibular, visual, proprioceptive input</td></tr></table>
+</div>
+
+</div><div class="gcol">
+
+<div class="card" style="--c:var(--teal)">
+<h2><span class="n">2</span>Bedside: first, often enough</h2>
+<ul class="mini" style="--c:var(--teal)">
+<li>Nystagmus in primary + each gaze, <b>with and without fixation</b> (Frenzel) · peripheral: horizontal-torsional, suppressed by fixation</li>
+<li><b>Alexander's degrees:</b> 1st only looking to the fast phase · 2nd also straight ahead · 3rd every direction</li>
+<li><b>Central:</b> downbeat (craniocervical: Chiari, cerebellar degeneration) · upbeat, pure torsional (brainstem) · pendular (MS, congenital)</li>
+<li><b>Head impulse</b>: catch-up saccade = failed VOR · <b>dynamic visual acuity</b> &gt; five lines lost = bilateral loss</li>
+<li>Romberg, tandem, <b>Unterberger</b>, past-pointing: fall + past-point towards the <b>slow phase</b> · cerebellar hemisphere: dysmetria, dysdiadochokinesia, rebound · midline: wide gait, truncal ataxia</li>
+</ul>
+<div class="box" style="margin-top:6px"><h3>Dix-Hallpike</h3><div class="mini">sitting, head turned 45° → lie back quickly, head 30° below horizontal → watch latency, duration, direction, fatigue</div></div>
+<table style="--c:var(--teal);margin-top:6px"><tr><th>Positional</th><th>Peripheral</th><th>Central</th></tr>
+<tr><td>latency</td><td>2–20 s</td><td>none</td></tr>
+<tr><td>duration</td><td>&lt; a minute</td><td>&gt; a minute</td></tr>
+<tr><td>direction</td><td>fixed, to undermost ear</td><td>changes</td></tr>
+<tr><td>fatigue</td><td>yes</td><td>no</td></tr>
+<tr><td>vertigo</td><td>severe</td><td>none / slight</td></tr></table>
+<div class="warn mini"><b>Fistula test</b> (tragus / Siegle): lateral canal erosion, fenestration cavity, SCD, window leak · <b>false negative</b> in a dead ear or when cholesteatoma seals it · <b>Hennebert</b>: positive without a fistula (congenital syphilis, some Ménière's)</div>
+</div>
+
+</div><div class="gcol">
+
+<div class="card" style="--c:var(--orange)">
+<h2><span class="n">3</span>Caloric test</h2>
+<div class="mini">Lying, head up <b>30°</b> → lateral canal vertical · warm <b>44 °C</b> and cool <b>30 °C</b> water or air (Dhingra 40 s; Lee 30 s) · peak slow-phase velocity °/s</div>
+<div class="flow" style="--c:var(--orange)">
+<span class="chip"><b>COWS</b>: Cold → Opposite</span><span class="chip">Warm → Same</span>
+</div>
+<div class="box"><h3>Jongkees</h3><div class="mini">canal paresis = [(RW + RC) − (LW + LC)] ÷ (RW + RC + LW + LC) × 100<br>e.g. RW 30, RC 28, LW 12, LC 10 → (58 − 22) ÷ 80 × 100 = <b>45% left canal paresis</b> (cut-off ~20–25%)<br>DP: right-beating (RW + LC) vs left-beating (LW + RC)</div></div>
+<ul class="mini" style="--c:var(--orange);margin-top:4px">
+<li>Paresis &gt;~15–30% · DP &gt;~25–30% (Lee: questionable value)</li>
+<li>Very small total (&lt;~6–8°/s each) = <b>bilateral weakness</b> → chair / vHIT</li>
+<li><b>Fixation fails to suppress</b> = central</li>
+<li>Paresis + DP <u>away</u> → Ménière's? · DP <u>towards</u> same side → schwannoma?</li>
+<li><b>Kobrak:</b> iced water from 5 mL; no response = dead labyrinth</li>
+</ul>
+<div class="warn mini"><b>Perforation → air, never water</b></div>
+<div class="mini" style="margin-top:4px"><b>ENG / VNG</b> central signs: direction-changing nystagmus, no fixation suppression, abnormal saccades + pursuit, hyperactive calorics</div>
+</div>
+
+</div><div class="gcol">
+
+<div class="card" style="--c:var(--purple)">
+<h2><span class="n">4</span>vHIT, VEMP, chair</h2>
+<ul class="mini" style="--c:var(--purple)">
+<li><b>vHIT gain</b> = eye ÷ head velocity · normal ≥ ~0.8 lateral, ~0.7 vertical · weak canal: low gain + <b>overt</b> (visible) / <b>covert</b> (video only) saccades</li>
+<li><span class="hl">Ménière's: abnormal calorics, normal vHIT</span> · <b>normal vHIT in acute continuous vertigo = think central</b></li>
+</ul>
+<table style="--c:var(--purple);margin-top:4px"><tr><th>VEMP</th><th>cVEMP</th><th>oVEMP</th></tr>
+<tr><td><b>SCD</b></td><td>low threshold (&lt;70 dB nHL)</td><td><b>large, low threshold: best screen</b> (enlarged at 4 kHz)</td></tr>
+<tr><td>neuritis, superior</td><td>preserved</td><td>absent</td></tr>
+<tr><td>neuritis, inferior</td><td>absent</td><td>preserved</td></tr>
+<tr><td>Ménière's</td><td>↓ / absent / tuning shift up</td><td>variable</td></tr>
+<tr><td>schwannoma</td><td>often ↓</td><td>often ↓</td></tr>
+<tr><td>conductive loss</td><td colspan="2">air VEMP lost, bone VEMP kept</td></tr></table>
+<div class="mini" style="margin-top:4px">VEMPs work in deaf ears · <b>chair</b>: bilateral loss, children, can't irrigate · <b>posturography</b>: rehab, non-organic</div>
+</div>
+
+<div class="card" style="--c:var(--green)">
+<h2><span class="n">5</span>When to order</h2>
+<div class="mini">side / site unclear · <b>before a destructive procedure</b> (check other ear) · plan + track rehab · gentamicin (daily head impulse + visual acuity) · Bárány ICVD gives the definitions</div>
+</div>
+
+<div class="card" style="--c:var(--red)">
+<h2><span class="n">6</span>Exam traps ✗</h2>
+<ul class="mini" style="--c:var(--red)">
+<li><b>Water calorics</b> with a perforation</li>
+<li>Normal tests taken as <b>no vestibular disease</b></li>
+<li>Eyes tested only <b>with fixation</b> → central signs missed</li>
+</ul>
+</div>
+
+</div></div>
+<div class="foot">ENT Atlas · Clinical · Vestibular testing: bedside and laboratory · summary of the article</div>
+</body></html>
