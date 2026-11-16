@@ -1,5 +1,7 @@
 /* ENT Atlas v21: one search for everything, and the minimal launcher Home.
-   Also indexes every figure placed in the clinical articles (clinic/art/figs.js).
+   Also indexes every figure placed in the clinical articles (clinic/art/figs.js), the full text of every
+   article, operation and surgical-basics section and evidence box (search/full.js, built by tools/build_search.py),
+   and the whole question bank (single best answers, viva, essays and cases).
    Indexes clinical topics, operations (with their guides), anatomy notes, labelled figures, figures,
    imaging cases, tables, flashcards, mnemonics, tracer routes and danger structures.
    Understands lay symptoms, abbreviations, British/American spelling, plurals and small typos. */
@@ -12,11 +14,13 @@ const fold=s=>strip(s).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g
 function canon(s){s=fold(s);for(const [a,b] of CANON)s=s.replace(a,b);return s}
 const STOP=new Set("a an the of and or in on at to for with by from as is are be its it this that into than then also not no but if".split(" "));
 function stem(w){if(w.length>5&&w.endsWith("ies"))return w.slice(0,-3)+"y";if(w.length>4&&/(ss|us|is|os)$/.test(w))return w;if(w.length>4&&/(xes|ches|shes|sses)$/.test(w))return w.slice(0,-2);if(w.length>3&&w.endsWith("s"))return w.slice(0,-1);return w}
-function toks(s){return canon(s).split(/[^a-z0-9]+/).filter(w=>w&&!STOP.has(w)).map(stem)}
+/* words are normalised once each and cached: the full-text index has millions of words but only tens of thousands of distinct ones */
+const WC=new Map();function cw(w){let c=WC.get(w);if(c===undefined){let x=w;for(const [a,b] of CANON)x=x.replace(a,b);c=STOP.has(x)?"":stem(x);WC.set(w,c)}return c}
+function toks(s){const out=[];for(const w of fold(s).split(/[^a-z0-9]+/)){if(!w||STOP.has(w))continue;const c=cw(w);if(c)out.push(c)}return out}
 
 /* ---------- lay symptoms, abbreviations and synonyms (expanded at query time) ---------- */
 const SYN={
-"nosebleed":["epistaxis"],"nose bleed":["epistaxis"],"bleeding nose":["epistaxis"],
+"nosebleed":["epistaxis"],"nose bleed":["epistaxis"],"bleeding nose":["epistaxis"],"bleeding":["hemorrhage"],"bleed":["hemorrhage"],"hemorrhage":["bleeding"],"haemorrhage":["bleeding"],"guideline":["recommends"],"trial":["randomised","randomized"],"evidence":["current evidence"],
 "dizzy":["vertigo"],"dizziness":["vertigo"],"giddiness":["vertigo"],"spinning":["vertigo"],"imbalance":["vertigo","balance"],
 "ringing":["tinnitus"],"ringing in the ear":["tinnitus"],"buzzing":["tinnitus"],
 "deaf":["hearing loss"],"deafness":["hearing loss"],"cant hear":["hearing loss"],"hard of hearing":["hearing loss"],
@@ -52,9 +56,9 @@ const SYMS=[["Ear pain or discharge","otalgia otorrhea ear pain earache ear disc
 
 /* ---------- index ---------- */
 let IX=null,BUILDING=null;
-const TYPES={cl:["Clinical",1.3],sym:["Symptom",1.5],op:["Surgical",1.12],note:["Anatomy notes",1],cond:["Imaging",1.06],tab:["Tables",.95],fig:["Figures",.82],afig:["Clinical figures",.9],card:["Flashcards",.78],mn:["Mnemonics",.8],tr:["Tracer",.95],dz:["Danger structures",1],lbl:["Labelled on figures",1]};
+const TYPES={cl:["Clinical",1.3],sec:["In articles",1.0],ev:["Evidence",1.04],osec:["In operations",.96],bsec:["Surgical basics",.96],q:["Questions",.86],viva:["Viva and essays",.86],sym:["Symptom",1.5],op:["Surgical",1.12],note:["Anatomy notes",1],cond:["Imaging",1.06],tab:["Tables",.95],fig:["Figures",.82],afig:["Clinical figures",.9],card:["Flashcards",.78],mn:["Mnemonics",.8],tr:["Tracer",.95],dz:["Danger structures",1],lbl:["Labelled on figures",1]};
 const loadJS=u=>new Promise((ok,no)=>{const s=document.createElement("script");s.src=u;s.onload=ok;s.onerror=no;document.head.appendChild(s)});
-async function needData(){const w=[];if(!window.CLINIC_DATA)w.push(loadJS("clinic/data.js").catch(()=>0));if(!window.THEATRE_INDEX)w.push(loadJS("theatre/index.js").catch(()=>0));if(!window.THEATRE_AUTH)w.push(loadJS("theatre/auth.js").catch(()=>0));if(!window.CLART_FIGS)w.push(loadJS("clinic/art/figs.js").catch(()=>0));if(!window.THB_IDX)w.push(loadJS("theatre/basics/index.js").catch(()=>0));await Promise.all(w)}
+async function needData(){const w=[];if(!window.CLINIC_DATA)w.push(loadJS("clinic/data.js").catch(()=>0));if(!window.THEATRE_INDEX)w.push(loadJS("theatre/index.js").catch(()=>0));if(!window.THEATRE_AUTH)w.push(loadJS("theatre/auth.js").catch(()=>0));if(!window.CLART_FIGS)w.push(loadJS("clinic/art/figs.js").catch(()=>0));if(!window.THB_IDX)w.push(loadJS("theatre/basics/index.js").catch(()=>0));if(!window.XFULL)w.push(loadJS("search/full.js").catch(()=>0));await Promise.all(w)}
 const rn=r=>((typeof RMAP!=="undefined"?RMAP:undefined)&&RMAP[r]&&RMAP[r].name)||"";
 const J=a=>(a||[]).map(x=>Array.isArray(x)?x.join(" — "):x).join(" · ");
 function build(){const items=[];const add=(o)=>{o.i=items.length;items.push(o)};
@@ -70,13 +74,20 @@ function build(){const items=[];const add=(o)=>{o.i=items.length;items.push(o)};
  const CT={};if(C)C.t.forEach(t=>CT[t.id]=t.t);(window.CLART_FIGS||[]).forEach(x=>{const top=CT[x.a]||x.a;add({ty:"afig",t:x.t,k:top+" "+x.w+" "+x.c,b:"",path:"Clinical figure · "+top.replace(/\s*:.*$/,""),sub:x.c+(x.w?" · "+x.w:""),go:`data-go="cl:t-${x.a}~f${x.n}"`,th:x.f?{src:"clinic/fig/"+x.f[0]+".jpg"}:x.k&&x.k[0]?{fig:x.k[0]}:null})});
  ((typeof CARDS!=="undefined"?CARDS:undefined)||[]).forEach(c=>add({ty:"card",t:c.q,k:rn(c.r),b:c.a,path:"Flashcard · "+rn(c.r),card:c}));
  ((typeof MNEM!=="undefined"?MNEM:undefined)||[]).forEach(m=>add({ty:"mn",t:m.topic,k:m.m,b:m.x,path:"Mnemonic · "+rn(m.r),mn:m}));
+ /* full text: every section of every article, operation and basics chapter, and every evidence box */
+ (window.XFULL||[]).forEach(x=>{const [ty,route,t,where,b]=x;add({ty,t,k:where,b,path:TYPES[ty][0]+" · "+where,go:`data-go="${route}"`,base:route.split("~")[0]})});
+ /* the question bank: single best answers, viva and essay questions, and cases */
+ const tpName=tp=>{const B=window.QB&&QB[tp];return (B&&B.t)||tp||""};
+ ((typeof QUIZ!=="undefined"?QUIZ:undefined)||[]).forEach(q=>{if(!q||!q.q||!q.o)return;const ans=q.o[q.c||0];add({ty:"q",t:q.q,k:tpName(q.tp)+" "+(q.r?rn(q.r):""),b:ans+" · "+(q.x||""),path:"Question · "+(q.tp?tpName(q.tp):rn(q.r)||"Single best answer"),qz:q})});
+ if(window.QB)Object.values(QB).forEach(B=>{["v","e"].forEach(kind=>(B[kind]||[]).forEach(x=>add({ty:"viva",t:x.q,k:B.t||"",b:(x.p||[]).join(" · "),path:(kind==="v"?"Viva · ":"Short essay · ")+(B.t||""),qb:x})));
+  (B.k||[]).forEach(c=>add({ty:"viva",t:(c.t||"Case")+": "+String(c.s||"").slice(0,90),k:B.t||"",b:c.s+" · "+c.q.map(y=>y.q+" "+(y.o?y.o[y.c||0]:"")).join(" · "),path:"Case · "+(B.t||""),qc:c}))});
  ((typeof TRACE!=="undefined"?TRACE:undefined)||[]).forEach(t=>add({ty:"tr",t:t.name,k:(t.kind||"")+" "+(t.regions||[]).map(rn).join(" "),b:t.intro||"",path:"Tracer · nerve and vessel course",go:`data-go="tracer:${t.id}"`}));
  return items}
 /* postings are built in small chunks so the page never freezes */
 async function post(items){const V=new Map();const W={t:10,k:5,b:2};let n=0;
- for(const it of items){if(++n%120===0)await new Promise(r=>setTimeout(r,0));it.ct=canon(it.t);it.cb=canon(it.k+" "+it.b);const seen=new Map();
-  for(const f of ["t","k","b"]){for(const w of toks(it[f])){const prev=seen.get(w)||0;if(W[f]>prev)seen.set(w,W[f])}}
-  seen.forEach((wt,w)=>{let l=V.get(w);if(!l){l=[];V.set(w,l)}l.push(it.i,wt)});it.nt=toks(it.t).length}
+ for(const it of items){if(++n%400===0)await new Promise(r=>setTimeout(r,0));const seen=new Map();const T={};
+  for(const f of ["t","k","b"]){T[f]=toks(it[f]);for(const w of T[f]){const prev=seen.get(w)||0;if(W[f]>prev)seen.set(w,W[f])}}it.tt=T.t.join(" ");it.tb=T.k.concat(T.b).join(" ");
+  seen.forEach((wt,w)=>{let l=V.get(w);if(!l){l=[];V.set(w,l)}l.push(it.i,wt)});it.nt=T.t.length}
  const vocab=[...V.keys()].sort();IX={items,V,vocab};return IX}
 async function ready(){if(IX)return IX;if(!BUILDING)BUILDING=needData().then(build).then(post);return BUILDING}
 
@@ -93,7 +104,7 @@ function variants(q){const base=toks(q).join(" ");const vs=[[base,1]];for(const 
 function scoreVariant(qs){const tks=qs.split(" ").filter(Boolean);if(!tks.length)return new Map();const per=tks.map(tk=>{const m=new Map();for(const [w,qual] of expand(tk)){const l=IX.V.get(w);for(let i=0;i<l.length;i+=2){const s=l[i+1]*qual;if(s>(m.get(l[i])||0))m.set(l[i],s)}}return m});
  const res=new Map();const need=tks.length>=3?tks.length-1:tks.length;const counts=new Map();per.forEach(m=>m.forEach((s,i)=>{res.set(i,(res.get(i)||0)+s);counts.set(i,(counts.get(i)||0)+1)}));
  const phrase=tks.join(" ");res.forEach((s,i)=>{const c=counts.get(i);if(c<need){res.delete(i);return}const it=IX.items[i];let sc=s*(c<tks.length?.55:1);
-  if(tks.length>1){if(toks(it.t).join(" ").includes(phrase))sc+=14;else if(toks(it.k+" "+it.b).join(" ").includes(phrase))sc+=5}
+  if(tks.length>1){if(it.tt.includes(phrase))sc+=14;else if(it.tb.includes(phrase))sc+=5}
   if(c===tks.length&&it.nt&&it.nt<=tks.length+2)sc+=3;res.set(i,sc*TYPES[it.ty][1])});return res}
 function search(q){if(!IX)return null;const vs=variants(q);const all=new Map();for(const [v,w] of vs){scoreVariant(v).forEach((s,i)=>{const x=s*w;if(x>(all.get(i)||0))all.set(i,x)})}
  const list=[...all.entries()].sort((a,b)=>b[1]-a[1]).map(([i,s])=>({it:IX.items[i],s}));
@@ -107,6 +118,7 @@ function hl(text,words){let t=E(strip(text));if(!words.length)return t;const re=
 function snippet(it,words){if(!it.b)return "";const src=strip(it.b);if(!words.length)return src.slice(0,140);const lw=src.toLowerCase();let best=-1;for(const w of words){const i=lw.search(new RegExp("\\b"+w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")));if(i>=0&&(best<0||i<best))best=i}
  if(best<0)return src.slice(0,140)+(src.length>140?"…":"");let s=Math.max(0,src.lastIndexOf(" ",Math.max(0,best-50)));const e=Math.min(src.length,s+170);return (s>0?"…":"")+src.slice(s,e).trim()+(e<src.length?"…":"")}
 const thumb=it=>it.th?(it.th.src?`<img class="xth" src="${it.th.src}" alt="" loading="lazy" decoding="async">`:it.th.fig?(typeof FIG!=="undefined"&&FIG[it.th.fig]?`<img class="xth" src="${figThumb(it.th.fig)}" alt="" loading="lazy" decoding="async">`:""):(typeof imSrc==="function"?`<img class="xth" src="${imSrc(it.th.im)}" alt="" loading="lazy" decoding="async">`:"")):"";
+function qzHTML(q,words){const ans=q.o[q.c||0];return `<p><b>Answer:</b> ${hl(ans,words)}</p>${q.x?`<p>${hl(q.x,words)}</p>`:""}${q.tp?`<button class="xlink" data-go="cl:t-${q.tp}">Open the topic</button>`:""}`}
 function rowHTML(r,words,figset){const it=r.it;const ty=TYPES[it.ty][0];
  const attrs=it.go?it.go:it.fig?`data-fig="${it.fig}" data-set="${figset}"`:`data-xexp="${it.i}"`;
  const sn=it.ty==="fig"?"":it.ty==="afig"?it.sub:snippet(it,words);
@@ -119,7 +131,7 @@ let SF="all",RES=null,LBL=[];const PER=6;
 function groups(){const g={};RES.list.forEach(r=>{(g[r.it.ty]=g[r.it.ty]||[]).push(r)});return g}
 function labelRows(q){LBL=[];try{if(q.trim().length>=4&&typeof findLabels==="function")LBL=findLabels(q.trim())||[]}catch(e){}return LBL}
 function renderResults(box,q){if(!RES){box.innerHTML=`<p class="xnote">Building the index…</p>`;return}
- const words=RES.words,g=groups();labelRows(q);const order=["cl","afig","op","note","cond","lbl","fig","tab","card","mn","tr","dz"];
+ const words=RES.words,g=groups();labelRows(q);const order=["cl","sec","ev","op","osec","bsec","afig","note","cond","q","viva","card","lbl","fig","tab","mn","tr","dz"];
  const counts=order.map(k=>[k,k==="lbl"?LBL.length:(g[k]||[]).length]).filter(x=>x[1]);
  if(!counts.length&&!RES.syms.length){box.innerHTML=`<p class="xnote">Nothing found for “${E(q)}”. Try fewer words, or a different spelling.</p>`;return}
  if(SF!=="all"&&!counts.some(c=>c[0]===SF))SF="all";const total=counts.reduce((a,c)=>a+c[1],0);
@@ -127,7 +139,7 @@ function renderResults(box,q){if(!RES){box.innerHTML=`<p class="xnote">Building 
  const figset=typeof fsetId==="function"?fsetId((g.fig||[]).map(r=>r.it.fig)):"";
  let html=chips;
  if(SF==="all"){html+=RES.syms.map(s=>symHTML(s,words)).join("");
-  const top=RES.list.slice(0,6);if(top.length)html+=`<section class="xg"><h2>Best matches</h2><div class="xl">${top.map(r=>rowHTML(r,words,figset)).join("")}</div></section>`}
+  const top=[],per={};for(const r of RES.list){const b=r.it.base||r.it.go||r.it.i;if((per[b]=(per[b]||0)+1)>2)continue;top.push(r);if(top.length>=6)break}if(top.length)html+=`<section class="xg"><h2>Best matches</h2><div class="xl">${top.map(r=>rowHTML(r,words,figset)).join("")}</div></section>`}
  for(const [k] of counts){if(SF!=="all"&&SF!==k)continue;if(k==="lbl"){html+=`<section class="xg"><h2>Labelled on figures<small>${LBL.length}</small></h2><div class="xl">${LBL.slice(0,SF==="lbl"?40:PER).map((m,j)=>`<div class="xr"><button class="xrh" data-xlbl="${j}"><img class="xth" src="${figThumb(m.k)}" alt="" loading="lazy"><span class="xm"><span class="xp"><i class="xt xt-lbl">Label</i>${E(rn(FIG[m.k][3]))}</span><b>${hl(m.t,words)}</b><small>${E(FIG[m.k][0])} · opens zoomed on the label</small></span>${ic("chev",16)}</button></div>`).join("")}</div></section>`;continue}
   const L=g[k];const n=SF===k?Math.min(L.length,60):PER;html+=`<section class="xg"><h2>${E(TYPES[k][0])}<small>${L.length}</small></h2><div class="xl" data-xg="${k}">${L.slice(0,n).map(r=>rowHTML(r,words,figset)).join("")}</div>${L.length>n?`<button class="xmore" data-xmore="${k}">Show all ${L.length}</button>`:""}</section>`}
  box.innerHTML=html;if(typeof linkTerms==="function"){}}
@@ -163,6 +175,8 @@ let T=0;
 document.addEventListener("input",e=>{const id=e.target.id;if(id==="xq"){if(typeof QTXT!=="undefined")QTXT=e.target.value;clearTimeout(T);T=setTimeout(()=>run(e.target.value,document.getElementById("xres")),110)}
  else if(id==="hx"){clearTimeout(T);T=setTimeout(()=>homeLive(e.target.value),110)}});
 /* Build the index only when the person reaches for search, never at launch */
+/* build the index quietly once the app is idle, so the first search is instant */
+setTimeout(()=>{const go=()=>ready().catch(()=>0);if("requestIdleCallback" in window)requestIdleCallback(go,{timeout:8000});else go()},6000);
 document.addEventListener("focusin",e=>{const id=e.target&&e.target.id;if(id==="hx"||id==="xq")ready()});
 document.addEventListener("pointerdown",e=>{if(e.target.closest&&e.target.closest('[data-go="search"]'))ready()},true);
 document.addEventListener("keydown",e=>{if(e.key==="Enter"&&e.target.id==="hx"&&e.target.value.trim()){QTXT=e.target.value.trim();go("search")}});
@@ -173,7 +187,7 @@ document.addEventListener("click",e=>{const T2=x=>e.target.closest(x);let b;
  if(b=T2("[data-xmore]")){SF=b.dataset.xmore;renderResults(document.getElementById("xres"),currentQ());window.scrollTo(0,0);return}
  if(b=T2("[data-xlbl]")){e.preventDefault();e.stopPropagation();if(typeof openLabel==="function")openLabel(LBL,+b.dataset.xlbl);return}
  if(b=T2("[data-xexp]")){const it=IX.items[+b.dataset.xexp],body=b.nextElementSibling,open=!body.hidden;
-  if(!open&&!body.dataset.f){const words=RES?RES.words:[];body.innerHTML=it.card?`<p>${hl(it.card.a,words)}</p><button class="xlink" data-go="region:${it.card.r}">Open ${E(rn(it.card.r))} notes</button>`:it.mn?`<p><b>${E(it.mn.m)}</b>: ${hl(it.mn.x,words)}</p><button class="xlink" data-go="region:${it.mn.r}">Open ${E(rn(it.mn.r))} notes</button>`:"";body.dataset.f="1"}
+  if(!open&&!body.dataset.f){const words=RES?RES.words:[];body.innerHTML=it.qz?qzHTML(it.qz,words):it.qb?`<ul>${(it.qb.p||[]).map(p=>`<li>${hl(p,words)}</li>`).join("")}</ul>${it.qb.tp?`<button class="xlink" data-go="cl:t-${it.qb.tp}">Open the topic</button>`:""}`:it.qc?`<p>${hl(it.qc.s,words)}</p><ul>${it.qc.q.map(y=>`<li>${hl(y.q,words)} <b>${hl(y.o?y.o[y.c||0]:"",words)}</b></li>`).join("")}</ul>${it.qc.tp?`<button class="xlink" data-go="cl:t-${it.qc.tp}">Open the topic</button>`:""}`:it.card?`<p>${hl(it.card.a,words)}</p><button class="xlink" data-go="region:${it.card.r}">Open ${E(rn(it.card.r))} notes</button>`:it.mn?`<p><b>${E(it.mn.m)}</b>: ${hl(it.mn.x,words)}</p><button class="xlink" data-go="region:${it.mn.r}">Open ${E(rn(it.mn.r))} notes</button>`:"";body.dataset.f="1"}
   body.hidden=open;b.classList.toggle("on",!open);return}},true);
 window.XSEARCH={ready,search};
 if(typeof cur!=="undefined"){if(cur==="home")vHome();else if(cur==="search")vSearch()}

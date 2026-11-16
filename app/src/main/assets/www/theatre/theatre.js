@@ -156,12 +156,17 @@ document.addEventListener("click",ev=>{if(!document.body.classList.contains("thm
 window.addEventListener("scroll",()=>{const c=window._thcur||"";if(!document.body.classList.contains("thm")||!/^b-/.test(c))return;const id=c.slice(2),st=BS();if(st.thb[id])return;
  const de=document.documentElement;if(de.scrollHeight>1.5*innerHeight&&scrollY+innerHeight>=de.scrollHeight*0.9){st.thb[id]=Date.now();save()}},{passive:true});
 let tok=0;
-async function render(arg){arg=arg||"home";window._thcur=arg;document.body.classList.add("thm");dock();const my=++tok;const p=arg.split("-"),k=p[0];let h;
+async function render(arg){arg=arg||"home";let ANC="";if(arg.includes("~")){[arg,ANC]=arg.split("~")}window._thcur=arg;document.body.classList.add("thm");dock();const my=++tok;const p=arg.split("-"),k=p[0];let h;
  const sync={home:vHome,lib:vLib,dz:vDz,log:vLog}[k];
  if(sync)h=sync();else{const slow=setTimeout(()=>{if(my===tok)V().innerHTML=`<div class="thspin">Preparing…</div>`},120);
   try{if(k==="basics")h=await vBasics();else if(k==="b")h=await vBas(arg.slice(2));else if(k==="op")h=await vOp(p[1],p[2]);else if(k==="play")h=await vPlay(p[1]);else if(k==="reh"){await needAuth();h=vReh()}else if(k==="r")h=await vR(arg);else if(k==="sec")h=vSec(p[1]);else if(k==="stage")h=vStage(p[1]);else if(k==="zone")h=vZone(p[1]);else h=vHome()}catch(err){h=`<div class="thwrap">${bar("Theatre","th:home")}<h1 class="thh1">That page didn't load.</h1><p class="thlede">Check your connection if you're on the web version, then try again.</p></div>`}
   clearTimeout(slow)}
- if(my!==tok)return;V().innerHTML=h;thArm(V());if(window.clAfterTheatre)window.clAfterTheatre(arg)}
+ if(my!==tok)return;V().innerHTML=h;thArm(V());if(window.clAfterTheatre)window.clAfterTheatre(arg);if(ANC)thToAnchor(ANC)}
+/* open an article at a section (from search): open its collapsible and scroll it under the header */
+function thToAnchor(a){const f=V().querySelector("#a-"+a);if(!f)return;const d=f.closest("details");if(d)d.open=true;
+ let moved=false;const stop=()=>moved=true;addEventListener("touchstart",stop,{once:true,passive:true});addEventListener("wheel",stop,{once:true,passive:true});
+ const to=()=>{if(!moved&&f.isConnected){window._thlock=Date.now()+600;f.scrollIntoView({block:"start"})}};
+ requestAnimationFrame(()=>{to();f.classList.add("arflash");setTimeout(()=>f.classList.remove("arflash"),2400)});[250,700,1400].forEach(t=>setTimeout(to,t))}
 /* chapter tabs, active-tab tracking and figure zoom for operation articles (same behaviour as clinical articles) */
 let THOBS=null,THLB=null;
 function thArm(v){if(THOBS){THOBS.disconnect();THOBS=null}const toc=v.querySelector(".thart .artoc");if(!toc||!("IntersectionObserver" in window))return;

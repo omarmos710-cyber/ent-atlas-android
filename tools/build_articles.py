@@ -436,6 +436,8 @@ def main():
     ops = build_ops()
     bas = build_basics()
     build_hub()
+    import build_search
+    build_search.main()
     update_sw(ids, ops, bas)
 
 
@@ -530,9 +532,10 @@ def update_sw(ids, ops=(), bas=()):
     s = s.replace('"theatre/index.js",', '"theatre/index.js",' + ''.join('"theatre/art/%s.js",' % i for i in ['index'] + list(ops)) + badd, 1)
     pre, post = hub_files()
     s = re.sub(r'"hub/[^"]+",', '', s)
-    s = s.replace('"xsearch.js",', '"xsearch.js",' + ''.join('"%s",' % f for f in pre + post), 1)
+    s = re.sub(r'"search/[^"]+",', '', s)
+    s = s.replace('"xsearch.js",', '"xsearch.js","search/full.js",' + ''.join('"%s",' % f for f in pre + post), 1)
     h = hashlib.md5()
-    for f in ['index.html', 'xsearch.js', 'clinic/clinic.js', 'clinic/clinic.css', 'clinic/data.js', 'theatre/theatre.js', 'theatre/theatre.css'] + sum(hub_files(), []) + ['clinic/art/%s.js' % i for i in ['index', 'figs'] + ids] + ['theatre/art/%s.js' % i for i in ['index'] + list(ops)] + ['theatre/basics/%s.js' % i for i in (['index'] + list(bas) if bas else [])]:
+    for f in ['index.html', 'xsearch.js', 'search/full.js', 'clinic/clinic.js', 'clinic/clinic.css', 'clinic/data.js', 'theatre/theatre.js', 'theatre/theatre.css'] + sum(hub_files(), []) + ['clinic/art/%s.js' % i for i in ['index', 'figs'] + ids] + ['theatre/art/%s.js' % i for i in ['index'] + list(ops)] + ['theatre/basics/%s.js' % i for i in (['index'] + list(bas) if bas else [])]:
         h.update(open(os.path.join(WWW, f), 'rb').read())
     s = re.sub(r'const CACHE="ent-atlas-[0-9a-f]+"', 'const CACHE="ent-atlas-%s"' % h.hexdigest()[:10], s)
     if 'clinic\\/fig' not in s:
