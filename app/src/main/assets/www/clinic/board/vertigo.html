@@ -1,0 +1,147 @@
+<!doctype html><html><head><meta charset="utf-8"><title>VERTIGO · summary board</title>
+<style>
+@font-face{font-family:Caveat;src:url(fonts/Caveat.ttf)}
+@font-face{font-family:Hand;src:url(fonts/PatrickHand.ttf)}
+@font-face{font-family:Kalam;src:url(fonts/KalamBold.ttf)}
+:root{--ink:#1d2330;--blue:#1f5fbf;--red:#d33a2c;--green:#1f8a4c;--orange:#e07b1a;--purple:#7b44b8;--teal:#138a8a;--hl:rgba(255,226,74,.65)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1760px;background:#fbfbf7;color:var(--ink);font:17px/1.32 Hand,sans-serif;padding:22px 16px 26px;
+ background-image:radial-gradient(rgba(0,0,0,.035) 1px,transparent 1px);background-size:18px 18px}
+h1{font:700 52px/1 Caveat;text-align:center;letter-spacing:.5px}
+.sub{text-align:center;font:22px Caveat;color:#555;margin:4px 0 14px}
+.hl{background:linear-gradient(transparent 45%,var(--hl) 45%,var(--hl) 88%,transparent 88%);padding:0 2px}
+b{font-family:Kalam;font-weight:700;font-size:.95em}
+.card{position:relative;border:2.4px solid var(--c,var(--ink));border-radius:255px 18px 225px 16px/16px 225px 18px 255px;padding:12px 14px 12px;margin:20px 0 0;background:#fff}
+.card h2{font:700 30px/1 Caveat;color:var(--c);display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.n{display:inline-grid;place-items:center;width:34px;height:34px;border:2.4px solid var(--c);border-radius:50% 46% 52% 48%;font:700 22px Kalam;color:var(--c);flex:none}
+.row{display:flex;gap:10px;align-items:flex-start}
+.col{flex:1;min-width:0}
+ul{list-style:none;margin:2px 0}
+li{position:relative;padding-left:16px;margin:3px 0}
+li:before{content:"";position:absolute;left:2px;top:.55em;width:7px;height:7px;border-radius:50%;background:var(--c,var(--ink))}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:4px 2px;margin:6px 0}
+.chip{border:2px solid var(--c);border-radius:12px 6px 14px 7px;padding:1px 7px;background:#fff;font-size:15.5px}
+.ar{font:700 22px Caveat;color:var(--c);padding:0 2px}
+.note{font:23px/1.05 Caveat;color:var(--red)}
+.warn{border:2.4px dashed var(--red);border-radius:14px 8px 16px 9px;padding:6px 10px;margin:8px 0 2px;background:#fff5f3}
+.warn b{color:var(--red)}
+.mini{font-size:15px;color:#333}
+table{border-collapse:collapse;width:100%;font-size:15px;margin-top:4px}
+td,th{border-bottom:1.6px solid #d9d6cc;padding:3px 4px;text-align:left;vertical-align:top}
+th{font:700 15px Kalam;color:var(--c)}
+.tag{display:inline-block;font:700 13px Kalam;color:#fff;background:var(--c);border-radius:8px 4px 9px 5px;padding:0 6px;margin-right:3px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.box{border:2px solid var(--c);border-radius:16px 8px 18px 9px;padding:6px 8px;background:#fff}
+.box h3{font:700 22px/1 Caveat;color:var(--c);margin-bottom:2px}
+.foot{text-align:center;font:20px Caveat;color:#777;margin-top:18px}
+.grid{display:grid;grid-template-columns:1.05fr 1fr 1fr 1fr;gap:18px;align-items:start}
+.gcol>.card:first-child{margin-top:4px}
+h1{font-size:64px}
+</style></head><body>
+<h1>VERTIGO</h1>
+<div class="sub">BPPV, neuritis and the central minority not to miss ✎</div>
+
+<div class="grid"><div class="gcol">
+
+<div class="card" style="--c:var(--blue)">
+<h2><span class="n">1</span>A symptom, not a diagnosis</h2>
+<ul class="mini" style="--c:var(--blue)">
+<li><b>Vertigo:</b> false sense of rotation / movement, from vestibular asymmetry · peripheral ~<b>85%</b></li>
+<li><b>Disequilibrium</b> (unsteady, no spin) · <b>oscillopsia</b> (bilateral loss) · <b>presyncope</b> (cardiac, orthostatic, glucose) · physiological (motion, height)</li>
+</ul>
+<table style="--c:var(--blue)"><tr><th></th><th>Causes</th></tr>
+<tr><td><b>Peripheral</b></td><td><b>BPPV, neuritis</b>, labyrinthitis, Ménière's, fistula, SCD, ototoxicity, trauma, syphilis</td></tr>
+<tr><td><b>Central</b></td><td><b>posterior circulation stroke</b>, VBI, Wallenberg, vestibular migraine, MS, tumours, epilepsy</td></tr>
+<tr><td><b>Other</b></td><td>cervical, ocular, psychogenic, cardiovascular</td></tr></table>
+</div>
+
+<div class="card" style="--c:var(--teal)">
+<h2><span class="n">2</span>Timing is everything</h2>
+<svg width="400" height="96" viewBox="0 0 400 96" style="display:block;margin:0 auto">
+ <g font-family="Hand" stroke-linecap="round">
+ <path d="M10 40 L390 40" stroke="#138a8a" stroke-width="3"/><path d="M390 40 l-10 -6 M390 40 l-10 6" stroke="#138a8a" stroke-width="3"/>
+ <g fill="#138a8a"><circle cx="40" cy="40" r="6"/><circle cx="135" cy="40" r="6"/><circle cx="240" cy="40" r="6"/><circle cx="345" cy="40" r="6"/></g>
+ <g font-size="14" fill="#1d2330" text-anchor="middle"><text x="40" y="24">seconds</text><text x="135" y="24">minutes</text><text x="240" y="24">min–hours</text><text x="345" y="24">days–weeks</text></g>
+ <g font-size="13" fill="#138a8a" text-anchor="middle"><text x="40" y="64">BPPV</text><text x="135" y="64">VBI,</text><text x="135" y="80">migraine</text><text x="240" y="64">Ménière's,</text><text x="240" y="80">migraine</text><text x="345" y="64">neuritis,</text><text x="345" y="80">stroke</text></g>
+ </g>
+</svg>
+<ul class="mini" style="--c:var(--teal)">
+<li><b>Triggers:</b> head position (BPPV) · sound / pressure (SCD, fistula) · straining · neck · standing (orthostatic) · migraine triggers</li>
+<li><b>Hearing</b> affected → labyrinth, CPA or <b>AICA stroke</b></li>
+<li><b>Diplopia, dysarthria, numbness, weakness, dysphagia, new severe headache</b> → central until proven otherwise</li>
+</ul>
+</div>
+
+</div><div class="gcol">
+
+<div class="card" style="--c:var(--purple)">
+<h2><span class="n">3</span>Eyes, head and gait</h2>
+<ul class="mini" style="--c:var(--purple)">
+<li><b>Peripheral nystagmus:</b> horizontal-torsional, beats <u>away</u> from the bad side, suppressed by fixation (Frenzel), stronger looking towards the fast phase (<b>Alexander's law</b>)</li>
+<li><b>Head impulse:</b> catch-up saccade = that side's VOR failed (peripheral)</li>
+<li>Dix-Hallpike (posterior canal) · supine roll (lateral) · Romberg, tandem, head shake, dynamic visual acuity (&gt; five lines = bilateral loss), fistula test, neuro + cranial nerves</li>
+</ul>
+<div class="warn mini"><b>HINTS</b> in continuous vertigo + nystagmus: <b>normal head impulse</b>, <b>direction-changing</b> nystagmus or <b>skew</b> = stroke · + new hearing loss = AICA ("HINTS plus") · beats early MRI (misses up to 1 in 5 in the first 48 h) but only in trained hands (sens 95.5%, spec 71%)</div>
+<table style="--c:var(--purple);margin-top:6px"><tr><th></th><th>Peripheral</th><th>Central</th></tr>
+<tr><td>nystagmus</td><td>horizontal-torsional</td><td>pure vertical / torsional, direction-changing</td></tr>
+<tr><td>fixation</td><td>suppresses</td><td>doesn't</td></tr>
+<tr><td>head impulse</td><td><b>abnormal</b></td><td><b>normal</b></td></tr>
+<tr><td>pursuit · saccades</td><td>normal</td><td>saccadic · dysmetric</td></tr>
+<tr><td>gait</td><td>can walk</td><td>often can't stand</td></tr>
+<tr><td>other CNS signs</td><td>absent</td><td>often present</td></tr></table>
+</div>
+
+</div><div class="gcol">
+
+<div class="card" style="--c:var(--green)">
+<h2><span class="n">4</span>BPPV</h2>
+<div class="mini">Utricular otoconia fall into a canal (<b>canalolithiasis</b>) · after head injury, ear infection, or old age · brief vertigo (&lt; a minute) lying down, rolling, looking up · <b>no hearing loss</b></div>
+<div class="mini" style="margin-top:4px"><b>Dix-Hallpike:</b> rotatory, <b>geotropic</b>, latency of seconds, crescendo then fades within a minute, reverses on sitting, <b>fatigues</b></div>
+<table style="--c:var(--green);margin-top:4px"><tr><th>Canal</th><th>Share</th><th>Treat</th></tr>
+<tr><td><b>Posterior</b></td><td>90–95%</td><td><b>Epley</b>: ~80% one go, &gt;90% after up to four · Semont equal · Brandt-Daroff less</td></tr>
+<tr><td><b>Horizontal</b></td><td>5–15%</td><td>supine roll: geotropic → stronger side affected; apogeotropic → weaker · <b>Lempert 360° roll</b> to healthy side, Gufoni</td></tr>
+<tr><td><b>Anterior</b></td><td>very few</td><td>down-beating + torsional · <b>Yacovino</b></td></tr></table>
+<ul class="mini" style="--c:var(--green);margin-top:4px">
+<li>No post-manoeuvre restrictions · recurs in up to a third within four years · self-treatment</li>
+<li><span style="color:var(--red)"><b>No sedatives / benzodiazepines</b></span>: slow compensation, falls</li>
+<li>Persistent down-beating, atypical, failed manoeuvres, frequent recurrence → <b>image</b></li>
+</ul>
+<table style="--c:var(--green);margin-top:4px"><tr><th>Positional</th><th>Peripheral</th><th>Central</th></tr>
+<tr><td>latency</td><td>present</td><td>often none</td></tr>
+<tr><td>duration</td><td>&lt; a minute</td><td>persists</td></tr>
+<tr><td>fatigue</td><td>yes</td><td>no</td></tr>
+<tr><td>direction</td><td>fixed, torsional</td><td>changing / vertical</td></tr>
+<tr><td>vertigo</td><td>marked</td><td>often mild</td></tr></table>
+</div>
+
+</div><div class="gcol">
+
+<div class="card" style="--c:var(--orange)">
+<h2><span class="n">5</span>Other peripheral</h2>
+<ul class="mini" style="--c:var(--orange)">
+<li><b>Vestibular neuritis:</b> sudden severe continuous vertigo + vomiting for days, settles over two to three weeks, <b>no hearing loss</b> · nystagmus away, head impulse abnormal towards, calorics ↓ · BPPV follows in up to 15% · short sedatives → mobilise, rehab · steroids help calorics at one month, not 12 months · <span class="hl">not better at two to three weeks → exclude central</span></li>
+<li><b>Labyrinthitis</b> = neuritis + hearing loss</li>
+<li><b>Recurrent vestibulopathy:</b> Ménière-like, no hearing symptoms · ~60% remit</li>
+<li><b>Fistula, SCD, Ménière's</b> (own boards) · <b>bilateral loss:</b> oscillopsia, unsteady in the dark (aminoglycosides) · CABV / CANVAS</li>
+</ul>
+</div>
+
+<div class="card" style="--c:var(--red)">
+<h2><span class="n">6</span>Central: don't miss</h2>
+<table style="--c:var(--red)"><tr><th>Stroke</th><th>PICA</th><th>AICA</th><th>SCA</th></tr>
+<tr><td>vertigo, nystagmus, ataxia</td><td>✓</td><td>✓</td><td>✓</td></tr>
+<tr><td>hearing loss, tinnitus</td><td>–</td><td>✓</td><td>–</td></tr>
+<tr><td>facial palsy</td><td>some</td><td>✓</td><td>–</td></tr>
+<tr><td>dysphagia, hoarseness</td><td>✓</td><td>–</td><td>–</td></tr>
+<tr><td>contralateral vibration / position loss</td><td>–</td><td>–</td><td>✓</td></tr></table>
+<ul class="mini" style="--c:var(--red);margin-top:4px">
+<li><b>Wallenberg</b> (PICA): violent vertigo, hoarseness, dysphagia, ipsilateral Horner, ipsilateral face + contralateral body pain/temperature loss, ataxia</li>
+<li><b>VBI:</b> minutes, &gt;50, visual symptoms, diplopia, drop attacks · <b>vestibular migraine:</b> minutes–hours, young women, family history · <b>MS:</b> pendular / dissociated nystagmus</li>
+<li>Also tumours, Chiari, IIH, encephalitis, epilepsy · cervical (over-diagnosed), presyncope, psychogenic, <b>PPPD</b> after an acute event</li>
+</ul>
+<div class="warn mini"><b>On call:</b> focal sign, new severe headache, can't stand, or <b>normal head impulse with nystagmus</b> = stroke until proven otherwise · sedatives a few days only · <b>rehab</b> drives compensation (Cochrane: Epley 56% vs sham 21%)</div>
+</div>
+
+</div></div>
+<div class="foot">ENT Atlas · Clinical · Vertigo: BPPV, neuritis and central causes · summary of the article</div>
+</body></html>

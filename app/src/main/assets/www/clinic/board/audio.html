@@ -1,0 +1,216 @@
+<!doctype html><html><head><meta charset="utf-8"><title>HEARING TESTS · summary board</title>
+<style>
+@font-face{font-family:Caveat;src:url(fonts/Caveat.ttf)}
+@font-face{font-family:Hand;src:url(fonts/PatrickHand.ttf)}
+@font-face{font-family:Kalam;src:url(fonts/KalamBold.ttf)}
+:root{--ink:#1d2330;--blue:#1f5fbf;--red:#d33a2c;--green:#1f8a4c;--orange:#e07b1a;--purple:#7b44b8;--teal:#138a8a;--hl:rgba(255,226,74,.65)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1760px;background:#fbfbf7;color:var(--ink);font:17px/1.32 Hand,sans-serif;padding:22px 16px 26px;
+ background-image:radial-gradient(rgba(0,0,0,.035) 1px,transparent 1px);background-size:18px 18px}
+h1{font:700 52px/1 Caveat;text-align:center;letter-spacing:.5px}
+.sub{text-align:center;font:22px Caveat;color:#555;margin:4px 0 14px}
+.hl{background:linear-gradient(transparent 45%,var(--hl) 45%,var(--hl) 88%,transparent 88%);padding:0 2px}
+b{font-family:Kalam;font-weight:700;font-size:.95em}
+.card{position:relative;border:2.4px solid var(--c,var(--ink));border-radius:255px 18px 225px 16px/16px 225px 18px 255px;padding:12px 14px 12px;margin:20px 0 0;background:#fff}
+.card h2{font:700 30px/1 Caveat;color:var(--c);display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.n{display:inline-grid;place-items:center;width:34px;height:34px;border:2.4px solid var(--c);border-radius:50% 46% 52% 48%;font:700 22px Kalam;color:var(--c);flex:none}
+.row{display:flex;gap:10px;align-items:flex-start}
+.col{flex:1;min-width:0}
+ul{list-style:none;margin:2px 0}
+li{position:relative;padding-left:16px;margin:3px 0}
+li:before{content:"";position:absolute;left:2px;top:.55em;width:7px;height:7px;border-radius:50%;background:var(--c,var(--ink))}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:4px 2px;margin:6px 0}
+.chip{border:2px solid var(--c);border-radius:12px 6px 14px 7px;padding:1px 7px;background:#fff;font-size:15.5px}
+.ar{font:700 22px Caveat;color:var(--c);padding:0 2px}
+.note{font:23px/1.05 Caveat;color:var(--red)}
+.warn{border:2.4px dashed var(--red);border-radius:14px 8px 16px 9px;padding:6px 10px;margin:8px 0 2px;background:#fff5f3}
+.warn b{color:var(--red)}
+.mini{font-size:15px;color:#333}
+table{border-collapse:collapse;width:100%;font-size:15px;margin-top:4px}
+td,th{border-bottom:1.6px solid #d9d6cc;padding:3px 4px;text-align:left;vertical-align:top}
+th{font:700 15px Kalam;color:var(--c)}
+.tag{display:inline-block;font:700 13px Kalam;color:#fff;background:var(--c);border-radius:8px 4px 9px 5px;padding:0 6px;margin-right:3px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.box{border:2px solid var(--c);border-radius:16px 8px 18px 9px;padding:6px 8px;background:#fff}
+.box h3{font:700 22px/1 Caveat;color:var(--c);margin-bottom:2px}
+.foot{text-align:center;font:20px Caveat;color:#777;margin-top:18px}
+.grid{display:grid;grid-template-columns:1.05fr 1fr 1fr 1fr;gap:18px;align-items:start}
+.gcol>.card:first-child{margin-top:4px}
+h1{font-size:64px}
+</style></head><body>
+<h1>HEARING TESTS</h1>
+<div class="sub">how to do them and read them: each test answers a different question ✎</div>
+
+<div class="grid"><div class="gcol">
+
+<div class="card" style="--c:var(--blue)">
+<h2><span class="n">1</span>Which test, which question</h2>
+<table style="--c:var(--blue)"><tr><th>Group</th><th>Tests</th><th>Answers</th></tr>
+<tr><td><b>Bedside</b></td><td>voice, forks</td><td>conductive or SN, roughly how much</td></tr>
+<tr><td><b>Behavioural</b></td><td>pure-tone, speech</td><td>thresholds, understanding</td></tr>
+<tr><td><b>Middle ear</b></td><td>tympanometry, reflexes</td><td>drum, ossicles, tube, reflex arc</td></tr>
+<tr><td><b>Objective</b></td><td>OAE, ABR, ASSR, ECochG</td><td>cochlea + pathway without a response</td></tr></table>
+<ul class="mini" style="--c:var(--blue);margin-top:4px">
+<li><b>dB HL</b>: 0 = average normal at each frequency · dB SPL re 20 µPa · dB SL re own threshold</li>
+<li>Whisper ~30 · talk ~60 · shout ~90 · discomfort ~120 · pain ~130 dB</li>
+<li>Middle ear gain: area 17 : 1 × lever 1.3 : 1 ≈ 22 times ≈ <b>25 dB</b> · base = high tones, apex = low · canal resonates ~3000 Hz</li>
+</ul>
+</div>
+
+<div class="card" style="--c:var(--teal)">
+<h2><span class="n">2</span>Voice &amp; tuning forks</h2>
+<div class="mini">Whisper heard at 6 m = normal (mask other ear by rubbing tragus) · <b>512 Hz</b> fork routine</div>
+<table style="--c:var(--teal);margin-top:4px"><tr><th>Test</th><th>Normal</th><th>Conductive</th><th>SN</th></tr>
+<tr><td><b>Rinne</b></td><td>air louder (+)</td><td><b>bone louder (−)</b></td><td>air louder (+)</td></tr>
+<tr><td><b>Weber</b></td><td>central</td><td>to <b>poorer</b> ear</td><td>to <b>better</b> ear</td></tr>
+<tr><td><b>ABC</b></td><td>= examiner</td><td>same</td><td>reduced</td></tr>
+<tr><td><b>Schwabach</b></td><td>equal</td><td>lengthened</td><td>shortened</td></tr></table>
+<ul class="mini" style="--c:var(--teal);margin-top:4px">
+<li>Negative Rinne = gap ≥ ~20 dB · neg at 256 only ≈ 20–30 · 256 + 512 ≈ 30–45 · all three ≈ 45–60 dB (Dhingra 15/30/45 at 256/512/1024; Lee 15/25/35)</li>
+<li><b>Bing:</b> occlusion louder in normal + SN, not conductive · <b>Gellé</b>: replaced by tympanometry</li>
+</ul>
+<div class="warn mini"><b>False-negative Rinne:</b> severe one-sided SNHL → the other cochlea hears the mastoid fork → mask the good ear (Barany box), use Weber</div>
+</div>
+
+<div class="card" style="--c:var(--red)">
+<h2><span class="n">3</span>Pure-tone audiogram</h2>
+<div class="mini">250–8000 Hz, air (headphones) then bone (mastoid vibrator) · <b>worse = lower</b> on the chart · right <span style="color:var(--red)"><b>red ○</b></span>, left <span style="color:var(--blue)"><b>blue ✕</b></span> · bone &lt; (R) &gt; (L), [ ] masked · arrow = no response at max (~120 dB air, only 60–70 bone)</div>
+<div class="flow" style="--c:var(--red)">
+<span class="chip">check chart, masking, reliability</span><span class="ar">→</span><span class="chip"><b>air</b>: ≤20 dB normal; degree; shape</span><span class="ar">→</span><span class="chip"><b>bone</b> = cochlea</span><span class="ar">→</span><span class="chip">compare ears</span><span class="ar">→</span><span class="chip">fits the clinic?</span>
+</div>
+<ul class="mini" style="--c:var(--red)">
+<li>Bone = air: <b>SN</b> · bone better than air by &gt;10 dB: <b>conductive</b> · both raised + gap: <b>mixed</b></li>
+<li>Gap max ~<b>60 dB</b> from the middle ear (discontinuity, intact drum) · bigger → wrong bone or mixed</li>
+<li>Bone <b>better than normal</b> → third window (SCD): apparent conductive, normal tymp, reflexes present</li>
+<li><span class="hl">Asymmetry ≥15 dB at two adjacent frequencies, or 20 dB at one → MRI IAM</span></li>
+<li>Repeat agrees within ~5 dB → change ≥10 dB at two frequencies is real · grade by 500/1000/2000/4000 Hz better ear</li>
+</ul>
+</div>
+
+</div><div class="gcol">
+
+<div class="card" style="--c:var(--red)">
+<h2><span class="n">4</span>Masking</h2>
+<div class="mini">interaural attenuation 40–65 dB air (more with inserts), <b>~0 for bone</b> · mask when ears differ ≥40 dB on air, and for bone whenever there's a gap · <b>plateau (Hood)</b>: raise noise in 10 dB steps until the threshold stops moving · unmasked dead ear → <b>shadow curve</b> (40–60 dB below the good ear on air, near-level on bone) · <b>masking dilemma</b>: big bilateral conductive (atresia) → inserts, bone ABR</div>
+</div>
+
+<div class="card" style="--c:var(--orange)">
+<h2><span class="n">5</span>Shapes and what they mean</h2>
+<table style="--c:var(--orange)"><tr><th>Shape</th><th>Think</th></tr>
+<tr><td>conductive, low-tone worse, bone dip ~10–15 dB at 2 kHz</td><td><b>otosclerosis</b> (Carhart notch: mechanical, goes after surgery)</td></tr>
+<tr><td>raised bone + gap</td><td><b>mixed</b>: surgery closes the gap; bone sets the best result</td></tr>
+<tr><td>symmetrical high-tone slope</td><td>presbycusis, ototoxicity</td></tr>
+<tr><td>notch 3, 4 or 6 kHz, recovers at 8</td><td><b>noise</b></td></tr>
+<tr><td>low-frequency, rising, fluctuating</td><td><b>Ménière's</b>, early hydrops</td></tr>
+<tr><td>mid-frequency "cookie-bite"</td><td>genetic, congenital</td></tr>
+<tr><td>flat, severe, sudden</td><td>SSNHL (within 72 hours)</td></tr>
+<tr><td>asymmetric</td><td><b>schwannoma</b> until proven otherwise → MRI</td></tr>
+<tr><td>dead ear</td><td>labyrinthitis, meningitis, fracture, surgery</td></tr></table>
+<div class="warn mini"><b>Non-organic:</b> thresholds vary · converses despite "severe" loss · SRT much better than PTA · dead ear with <b>no shadow curve</b> · reflexes near / below claimed threshold → OAE, ABR, cortical ERA · <b>Stenger</b> for feigned one-sided loss</div>
+</div>
+
+<div class="card" style="--c:var(--purple)">
+<h2><span class="n">6</span>Speech audiometry</h2>
+<ul class="mini" style="--c:var(--purple)">
+<li><b>SRT:</b> half of spondees correct; within 10 dB of the PTA</li>
+<li><b>Discrimination</b> 30–40 dB above SRT: good conductive · ↓ cochlear · <b>very poor retrocochlear</b></li>
+<li>Curve: conductive shifted but reaches 100% · cochlear shifted, lower maximum · retrocochlear poor maximum + <b>roll-over</b></li>
+<li>Predicts aid benefit, selects implant candidates</li>
+</ul>
+</div>
+
+</div><div class="gcol">
+
+<div class="card" style="--c:var(--green)">
+<h2><span class="n">7</span>Tympanometry</h2>
+<svg width="390" height="150" viewBox="0 0 390 150" style="display:block;margin:0 auto">
+ <g font-family="Hand" stroke-linecap="round" stroke-linejoin="round" fill="none">
+ <g stroke="#bbb" stroke-width="1.2"><path d="M10 110 L380 110"/><path d="M195 18 L195 112" stroke-dasharray="3 4"/></g>
+ <path d="M10 108 C140 108 170 60 195 60 C220 60 250 108 380 108" stroke="#1f8a4c" stroke-width="3"/>
+ <path d="M10 108 C150 108 175 88 195 88 C215 88 240 108 380 108" stroke="#e07b1a" stroke-width="2.6"/>
+ <path d="M10 108 C150 108 172 20 195 20 C218 20 240 108 380 108" stroke="#7b44b8" stroke-width="2.6" stroke-dasharray="6 4"/>
+ <path d="M10 102 L380 100" stroke="#d33a2c" stroke-width="2.6"/>
+ <path d="M10 108 C40 108 60 66 85 66 C110 66 130 108 250 108" stroke="#1f5fbf" stroke-width="2.6"/>
+ </g>
+ <g font-family="Hand" font-size="13">
+ <text x="200" y="56" fill="#1f8a4c">A</text><text x="214" y="86" fill="#e07b1a">As</text><text x="204" y="18" fill="#7b44b8">Ad</text>
+ <text x="330" y="96" fill="#d33a2c">B flat</text><text x="60" y="60" fill="#1f5fbf">C negative</text>
+ <text x="10" y="132" fill="#555">− pressure</text><text x="186" y="132" fill="#555">0</text><text x="326" y="132" fill="#555">+ pressure</text>
+ </g>
+</svg>
+<div class="mini" style="text-align:center;color:#666">schematic: height = compliance, position = middle ear pressure</div>
+<table style="--c:var(--green)"><tr><th>Type</th><th>Think</th></tr>
+<tr><td><b>A</b></td><td>normal</td></tr>
+<tr><td><b>As</b> low</td><td>otosclerosis, malleus fixation</td></tr>
+<tr><td><b>Ad</b> high</td><td>discontinuity, lax drum</td></tr>
+<tr><td><b>B</b> flat</td><td>fluid, thick drum · <b>high volume</b> = perforation / patent grommet</td></tr>
+<tr><td><b>C</b></td><td>peak below −100 mm H₂O: retraction, tube dysfunction</td></tr></table>
+<div class="mini" style="margin-top:4px"><b>Read three numbers:</b> peak pressure −100 to +50 daPa · compliance 0.3–1.5 ml · <b>ear canal volume</b> 0.6–1.5 ml adult, 0.3–0.9 child</div>
+<div class="warn mini"><b>Flat trace? check the volume:</b> normal → fluid / thick drum · high (&gt;~2 ml adult, 1 ml child; &gt;2.5 strongly) → perforation / grommet · low → wax, probe on wall</div>
+<div class="mini" style="margin-top:4px">Under six months: <b>1000 Hz</b> probe (226 Hz unreliable) · moves with breathing = patulous tube · pulsations = glomus</div>
+</div>
+
+<div class="card" style="--c:var(--teal)">
+<h2><span class="n">8</span>Stapedial reflex</h2>
+<div class="mini">70–100 dB above threshold contracts both stapedii · four conditions (ipsi + contra each ear) · record <b>stimulus</b> and <b>probe</b> ear</div>
+<table style="--c:var(--teal);margin-top:4px"><tr><th>Finding</th><th>Site</th></tr>
+<tr><td>absent whenever <b>probe</b> in the ear</td><td>middle ear that side</td></tr>
+<tr><td>absent whenever that ear is <b>stimulated</b></td><td>severe cochlear / VIII that side</td></tr>
+<tr><td>absent with probe there, normal hearing</td><td>VII above nerve to stapedius</td></tr>
+<tr><td>ipsi present, both contra absent</td><td>brainstem (crossing)</td></tr>
+<tr><td>present with severe "loss"</td><td><b>non-organic</b></td></tr>
+<tr><td>at 40–60 dB above threshold</td><td>recruitment = cochlear</td></tr>
+<tr><td>decays to half in 10 s</td><td>VIII lesion</td></tr></table>
+<div class="mini" style="margin-top:4px">Older site-of-lesion tests (ABLB, SISI, tone decay &gt;25 dB, Bekesy) largely replaced by MRI</div>
+</div>
+
+</div><div class="gcol">
+
+<div class="card" style="--c:var(--purple)">
+<h2><span class="n">9</span>Objective tests</h2>
+<ul class="mini" style="--c:var(--purple)">
+<li><b>OAE</b> (outer hair cells): lost &gt;~30 dB (transient), &gt;~50 dB (distortion product) · absent with fluid / debris · <b>present in auditory neuropathy</b> · pass / <b>refer</b> (≠ deaf: vernix, noise) · early noise / cisplatin damage</li>
+<li><b>ABR:</b> five to seven waves within 10 ms · <b>E. COLI</b>: I–II VIII nerve, III cochlear nucleus, IV superior olive, V lateral lemniscus + inferior colliculus · infant pass ~30–40 dB nHL · unaffected by sleep, sedation · misses small tumours</li>
+</ul>
+<table style="--c:var(--purple);margin-top:4px"><tr><th>ABR</th><th>Finding</th></tr>
+<tr><td>normal</td><td>V at ~5.5–6 ms · I–III ~2, III–V ~2, <b>I–V ~4 ms</b> (independent of middle ear)</td></tr>
+<tr><td>conductive</td><td>all waves delayed, I–V normal</td></tr>
+<tr><td>cochlear</td><td>I small / absent; V latency falls steeply with loudness</td></tr>
+<tr><td>retrocochlear</td><td><b>I–V prolonged</b> or later waves lost; V delayed vs other ear (Dhingra &gt;0.2 ms, Lee 0.4–0.5)</td></tr></table>
+<ul class="mini" style="--c:var(--purple);margin-top:4px">
+<li><b>ASSR</b>: frequency-specific into the profound range (beyond ABR ~80 dB)</li>
+<li><b>ECochG</b>: SP/AP above ~0.4–0.5 → hydrops; normal doesn't exclude</li>
+<li><span class="hl"><b>Auditory neuropathy</b></span>: OAE + cochlear microphonic present, ABR absent / abnormal</li>
+</ul>
+</div>
+
+<div class="card" style="--c:var(--orange)">
+<h2><span class="n">10</span>Battery &amp; children</h2>
+<table style="--c:var(--orange)"><tr><th>Condition</th><th>Tymp</th><th>Reflex</th><th>Key</th></tr>
+<tr><td>OME / wax</td><td>B, normal vol</td><td>absent</td><td>OAE absent</td></tr>
+<tr><td>perforation</td><td>B, high vol</td><td>absent</td><td>—</td></tr>
+<tr><td>otosclerosis</td><td>A / As</td><td>absent</td><td>Carhart</td></tr>
+<tr><td>discontinuity</td><td>Ad</td><td>absent</td><td>gap to 60 dB</td></tr>
+<tr><td>SCD</td><td>A</td><td><b>present</b></td><td>low VEMP, CT</td></tr>
+<tr><td>Ménière's</td><td>A</td><td>recruitment</td><td>SP/AP ↑</td></tr>
+<tr><td>schwannoma</td><td>A</td><td>absent / decay</td><td>roll-over, I–V ↑, MRI</td></tr>
+<tr><td>neuropathy</td><td>A</td><td>absent</td><td>OAE +, ABR −</td></tr>
+<tr><td>non-organic</td><td>A</td><td>near claimed threshold</td><td>SRT &gt; PTA</td></tr></table>
+<div class="mini" style="margin-top:4px"><b>Children:</b> to six months observation, OAE, ABR · six to thirty months <b>VRA</b> (free field = better ear) · from ~thirty months <b>play</b> · normal ≤15 dB</div>
+<div class="mini" style="margin-top:4px"><b>WHO 2021</b> (better ear, 0.5–4 kHz): normal &lt;20 · mild 20–35 · moderate 35–50 · mod-severe 50–65 · severe 65–80 · profound 80–95 · complete ≥95 dB</div>
+</div>
+
+<div class="card" style="--c:var(--red)">
+<h2><span class="n">11</span>Exam traps ✗</h2>
+<ul class="mini" style="--c:var(--red)">
+<li><b>False-negative Rinne</b> called conductive · forgetting to <b>mask</b></li>
+<li>Flat tymp called fluid <b>without the volume</b></li>
+<li>A <b>shadow curve</b> taken as a real loss</li>
+<li>Stapes surgery for a gap with <b>present reflexes</b> (third window?)</li>
+<li>A "severe" loss in someone following quiet talk</li>
+</ul>
+</div>
+
+</div></div>
+<div class="foot">ENT Atlas · Clinical · Hearing tests: how to do and read them · summary of the article</div>
+</body></html>
