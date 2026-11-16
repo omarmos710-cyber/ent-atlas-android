@@ -35,7 +35,7 @@ function vArticle(id){const t=BY[id],A=(window.CLART||{})[id];
   <p class="clsrc">Written for this app from ${e(t.srcs)}. Figures reproduced from the books for private study. Study reference only: follow local protocols and senior advice for patients.</p></section>`;
  return `<div class="clw arw"><span class="cle">${e(kick(t))}</span><h1>${e(t.t)}</h1>
  ${A.stand?`<p class="arstand">${md(A.stand)}</p>`:`<p class="arstand">${md(t.one)}</p>`}
- <div class="armeta"><span><b>Reading</b> about ${mins} min</span><span><b>Outline</b> ${ch.length} chapters · ${A.n} sections</span><span><b>Sources</b> ${e(t.srcs)}</span></div>
+ <div class="armeta"><span><b>Reading</b> about ${mins} min</span><span><b>Outline</b> ${ch.length} chapters · ${A.n} sections</span><span><b>Sources</b> ${e(t.srcs)}</span></div>  ${(window.BOARDS||{})[id]?`<button type="button" class="arboardbtn" data-arboard="${id}" data-title="${e(t.t)}"><span class="bdi" aria-hidden="true"></span><span><b>Summary board</b><small>The whole topic on one whiteboard</small></span></button>`:""}
  <nav class="artoc" aria-label="Chapters"><ol>${ch.map(c=>`<li data-c="${c.id}"><button type="button" data-artgo="${c.id}"><i>${c.n}</i>${e(c.t)}</button></li>`).join("")}<li data-c="a-end"><button type="button" data-artgo="a-end"><i>${ch.length+1}</i>Continue</button></li></ol></nav>
  ${t.sum&&t.sum.length?`<div class="arglance"><h4>At a glance</h4><ul>${t.sum.map(x=>`<li>${md(x)}</li>`).join("")}</ul></div>`:""}
  <div class="arcont"><div class="arconth"><h4>Contents</h4><div><button type="button" data-arall="1">Expand all</button><button type="button" data-arall="0">Collapse all</button></div></div>
