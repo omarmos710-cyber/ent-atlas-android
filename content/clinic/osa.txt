@@ -119,7 +119,9 @@ Radiofrequency reduction of the tongue base in repeated sessions, lingual tonsil
 ## Skeletal surgery
 *Maxillomandibular advancement* (Le Fort I osteotomy of the maxilla and sagittal split of the mandible, fixed forwards with plates) enlarges the whole skeletal framework of the airway and is the most effective operation apart from tracheostomy, especially in retrognathic patients and after failed soft tissue surgery; it changes facial appearance and needs orthodontic care.
 ## Hypoglossal nerve stimulation
-An implanted stimulator fires the hypoglossal nerve with inspiration, protruding the tongue; for moderate to severe apnoea in patients who cannot use CPAP, with a suitable BMI and without concentric palatal collapse on DISE.
+An implanted stimulator fires the hypoglossal nerve with inspiration, protruding the tongue; for moderate to severe apnoea in patients who cannot use CPAP, with a suitable BMI (usually under 32 to 35) and without complete concentric palatal collapse on DISE.
+## Transoral robotic surgery
+Tongue base reduction by robot requires a BMI below about 35 (ideally near 30) and a mouth opening of at least 2.5 cm.
 ## Tracheostomy
 The only operation that reliably cures obstructive apnoea, by bypassing every level; reserved for life-threatening disease, severe cardiopulmonary complications and failure of everything else, because of its personal and social cost.
 !ops | Operations for sleep-disordered breathing.
@@ -131,12 +133,17 @@ Dhingra: Calls tracheostomy the gold standard of surgical treatment, lists uvulo
 Lee: Places CPAP as the gold standard of therapy, emphasises patient selection by Friedman stage and DISE, reporting UPPP success above 85% in favourable anatomy, and names maxillomandibular advancement the most effective operation short of tracheostomy.
 They agree that surgery must be matched to the level of collapse.
 !!
-!update Sleep-disordered breathing in children and selection for surgery (Oxford Textbook)
-About 10 to 15% of children snore, and 1 to 4% have obstructive sleep apnoea, more in obese and Black children. It usually begins between two and six years, when the tonsils and adenoids are largest relative to the airway; tonsillar hypertrophy is grade 3 or more on the Brodsky scale. Prematurity is a risk factor, and sleep apnoea can cause failure to thrive, poor behaviour and attention, and enuresis. Most children can be treated on a careful history and examination, ideally with a parental video; overnight **oximetry** helps triage (a normal trace does not exclude apnoea), and **polysomnography** is kept for uncertain cases and high-risk children: those under two, with obesity, Down syndrome, craniofacial or neuromuscular disease, or cardiac complications.
 
-The **Childhood Adenotonsillectomy Trial (CHAT, 2013)** randomised children aged five to nine with non-severe apnoea to early adenotonsillectomy or watchful waiting for seven months. Surgery did not improve attention and executive function, but it improved symptoms, behaviour, quality of life and sleep study results; even so, about 45% of the waiting group normalised spontaneously, less often in obese and Black children and those with more severe disease. Watchful waiting is therefore reasonable for snoring and mild disease, with intranasal steroids and **montelukast** helping in the short term, especially with rhinitis or residual symptoms after surgery. Weight loss is recommended for obese children. Children with persistent apnoea after adenotonsillectomy, or without large tonsils, need drug-induced sleep endoscopy or MRI to find other levels of obstruction.
-
-In adults, **transoral robotic** tongue base surgery requires a BMI below about 35 (ideally near 30) and a mouth opening of at least 2.5 cm; up to 30% of adults with apnoea are not overweight, and nasal surgery helps by easing CPAP use and reducing negative airway pressure.
+# Children | Big tonsils, small airway.
+## Who and why
+About 10 to 15% of children snore, and 1 to 4% have obstructive sleep apnoea, more in obese and Black children. It usually begins between two and six years, when the tonsils and adenoids are largest relative to the airway (tonsils grade 3 or more on the Brodsky scale). Prematurity is a risk factor, and apnoea can cause failure to thrive, poor behaviour and attention, and enuresis.
+## Assessment
+Most children can be treated on a careful history and examination, ideally with a parental video. Overnight **oximetry** helps triage (a normal trace does not exclude apnoea), and **polysomnography** is kept for uncertain cases and high-risk children: those under two, with obesity, Down syndrome, craniofacial or neuromuscular disease, or cardiac complications.
+## Treatment
+Adenotonsillectomy is the main treatment. Watchful waiting is reasonable for snoring and mild disease, because many children improve; intranasal steroids and **montelukast** help in the short term, especially with rhinitis or residual symptoms after surgery. Weight loss is recommended for obese children. Children with persistent apnoea after adenotonsillectomy, or without large tonsils, need drug-induced sleep endoscopy or MRI to find other levels of obstruction. Children under three, with severe apnoea or comorbidities, are monitored overnight after surgery.
+!update Current evidence
+**Children.** In the CHAT trial, children aged five to nine with non-severe apnoea who had early adenotonsillectomy did not improve in attention or executive function compared with watchful waiting, but did improve in symptoms, behaviour, quality of life and sleep studies; 46% of the waiting group normalised spontaneously (Marcus et al., *N Engl J Med* 2013). The PATS trial of 458 children with snoring and mild apnoea found the same: no difference in executive function or attention at a year, but better behaviour, sleepiness and quality of life after surgery (Redline et al., *JAMA* 2023).
+**Adults.** In 2,717 adults with cardiovascular disease and moderate to severe apnoea, CPAP (used a mean of 3.3 hours a night) did not prevent cardiovascular events, though it improved sleepiness, mood and quality of life (McEvoy et al., *N Engl J Med* 2016). In the SAMS trial of 102 adults in whom CPAP had failed, combined palatal and tongue surgery lowered the apnoea-hypopnoea index from 47.9 to 20.8, compared with 45.3 to 34.5 on medical management, and improved sleepiness (MacKay et al., *JAMA* 2020). Hypoglossal nerve stimulation reduced the median index by 68% (29.3 to 9.0) at a year in selected patients (Strollo et al., *N Engl J Med* 2014). NICE recommends CPAP for moderate and severe disease, and for mild disease with symptoms affecting daily life (NG202, 2021).
 !!
 
 # For the examination | What the examiner wants to hear.

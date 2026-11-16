@@ -60,7 +60,7 @@ Radiograph | Steeple sign on an AP view | Thumb sign on a lateral view
 Treatment | Steroids, nebulised adrenaline, humidified oxygen | Airway in theatre, intravenous antibiotics
 !!
 ## Treatment
-- **Mild:** a single dose of oral dexamethasone (or nebulised budesonide) and observation; most go home.
+- **Mild:** a single dose of oral dexamethasone 0.15 mg/kg (doses up to 0.6 mg/kg are used; the lower dose appears as effective) or nebulised budesonide, and observation; most go home.
 - **Moderate to severe:** humidified oxygen, steroids and *nebulised adrenaline*, which works within minutes but wears off in about two hours, so observe for rebound; admit.
 - **Severe or failing:** intubation in theatre with a tube smaller than usual for age; tracheostomy rarely now.
 - Antibiotics only for suspected secondary bacterial infection.
@@ -70,6 +70,9 @@ A child with repeated attacks, attacks under six months, or croup that will not 
 !imaging | Supraglottic swelling on imaging.
 ## Spasmodic croup
 Sudden nocturnal attacks of barking cough and stridor in an otherwise well child without fever, settling by morning; often allergic or reflux-related.
+!update Current evidence
+A Cochrane review of 43 trials (4,565 children) found glucocorticoids improved croup within two hours, with the effect lasting at least 24 hours, halved return visits and readmissions (risk ratio 0.52) and shortened hospital stay by about 15 hours (Gates et al., 2018). Nebulised adrenaline improved croup scores at 30 minutes but not at two to six hours, so children are observed for rebound (Bjornson et al., 2013). In adult epiglottitis, a meta-analysis of 30 studies (10,148 patients) found about 1 in 9 need an airway intervention since Hib vaccination, with an epiglottic abscess, stridor or diabetes predicting the need (Sideris et al., *Laryngoscope* 2020).
+!!
 
 # Bacterial tracheitis | Croup that is not croup.
 A rare, serious bacterial infection (*Staphylococcus aureus*, streptococci, pneumococcus), often following viral croup: high fever, toxicity, stridor and a cough with thick secretions, failing to respond to croup treatment. Bronchoscopy shows purulent tracheitis with oedema, sloughed mucosa and membranes that must be removed, often repeatedly; intubation and intravenous antibiotics; pneumonia frequently follows.

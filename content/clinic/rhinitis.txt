@@ -10,7 +10,7 @@ Non-allergic, non-infective | Vasomotor (idiopathic) | drug-induced, rhinitis me
 Infective | Acute and chronic rhinitis | atrophic rhinitis and specific infections (separate topics)
 !!
 ## Why it matters
-Allergic rhinitis affects up to a quarter of many populations, disturbs sleep, school and work, and travels with asthma: rhinitis patients are about four times more likely to develop asthma, and 20 to 30% of patients with rhinitis have asthma.
+Allergic rhinitis affects about one person in five in Western countries (up to a quarter in some populations), disturbs sleep, school and work, and travels with asthma: rhinitis patients are about four times more likely to develop asthma, 20 to 30% of patients with rhinitis have asthma, and most with allergic asthma have rhinitis. Treating the nose often improves asthma control (the *united airway*). Non-allergic rhinitis typically begins in early adulthood and is linked to adult-onset asthma.
 
 # Applied physiology | Why the nose runs and blocks.
 ## The erectile mucosa
@@ -38,7 +38,7 @@ Mucosa sensitised by one allergen reacts to smaller doses later, and to non-spec
 !fig d30-2 d30-3 | First, mediators released from a mast cell. Second, allergic and non-specific stimuli acting through the same mast cells.
 ## Clinical features
 ### Symptoms
-Usually starting at 12 to 16 years, though any age is possible. Seasonal disease: paroxysmal sneezing (10 to 20 at a time), watery discharge, blockage and itching of the nose, eyes, palate or throat. Perennial disease is milder but persistent: frequent colds, a stuffy nose, reduced smell, postnasal drip, cough and ear symptoms.
+It usually starts in childhood, around three years of age, after atopic dermatitis and before allergic asthma (the *allergic march*), and is rare before two because sensitisation needs prolonged exposure; seasonal symptoms often peak in adolescence. Seasonal disease: paroxysmal sneezing (10 to 20 at a time), watery discharge, blockage and itching of the nose, eyes, palate or throat. Perennial disease is milder but persistent: frequent colds, a stuffy nose, reduced smell, postnasal drip, cough and ear symptoms.
 ### Signs
 - **Nose:** pale, oedematous, sometimes bluish mucosa; swollen turbinates; watery discharge; a transverse nasal crease from the *allergic salute*.
 - **Eyes:** lid oedema, cobblestone conjunctiva, dark circles (*allergic shiners*).
@@ -60,19 +60,22 @@ Moderate to severe | One or more of these
 - **Specific IgE in serum** (formerly RAST): correlates well with skin tests; useful when skin testing is impossible.
 - **Nasal provocation test:** reproducing symptoms with allergen.
 - **Nasal endoscopy:** to exclude polyps and structural causes.
+### Interpreting allergy tests
+A skin-prick wheal more than 3 mm larger than the negative control is positive, but only about half of people with positive tests have allergic disease, so tests are interpreted with the history and requested mainly when immunotherapy or targeted avoidance is planned. A small panel (house dust mite, grass, tree and weed pollen, cat, dog and moulds) covers most allergy. Serum specific IgE is a little less sensitive than skin testing.
 ## Complications
 Recurrent sinusitis, nasal polyps (in about 2%), otitis media with effusion, dental and facial growth problems from mouth breathing, and asthma.
 ## Treatment
 ### Avoidance
-Most effective with a single allergen: remove the pet, encase pillows and mattresses, reduce dust mites, change work if necessary.
+Most effective with a single allergen: remove the pet, reduce dust mites, change work if necessary. Allergen-impermeable mattress and pillow covers are the best-studied measure for house dust mite, though alone they help little.
 ### Drugs
-- **Intranasal corticosteroids:** the most effective single treatment for persistent or moderate to severe disease. Teach technique: aim away from the septum.
+- **Intranasal corticosteroids:** the most effective single treatment for persistent or moderate to severe disease. They take days to start working and about two weeks to reach full effect; prefer modern sprays with low systemic bioavailability (mometasone, fluticasone furoate) in children. Teach technique: aim away from the septum.
+- **Combined steroid-antihistamine spray** (fluticasone with azelastine): for patients not controlled by either alone.
 - **Antihistamines:** oral non-sedating or intranasal, for sneezing, itch and rhinorrhoea; less effect on blockage.
 - **Decongestants:** a short course only; oral ones are combined with antihistamines.
 - **Sodium cromoglycate:** stabilises mast cells; useful before exposure.
 - **Ipratropium bromide:** for watery rhinorrhoea.
 - **Leukotriene receptor antagonists:** montelukast, especially with asthma.
-- **Oral steroids:** a short course for severe, uncontrolled episodes only.
+- **Oral steroids:** a short course for severe, uncontrolled episodes only. Depot steroid injections are not recommended.
 - **Anti-IgE (omalizumab):** for severe allergic asthma; not a routine treatment for rhinitis.
 ### Step care (ARIA)
 !ladder
@@ -82,7 +85,7 @@ Severe | Intranasal steroid with a non-sedating antihistamine.
 Uncontrolled | Short oral steroid course; consider immunotherapy.
 !!
 ### Immunotherapy
-Gradually increasing doses of the allergen, by subcutaneous injection or sublingually, until a maintenance dose is reached; it raises specific IgG (blocking antibody) and reduces IgE. Continued for about three years; stopped if no benefit after uninterrupted treatment. The only treatment that alters the course of the disease, for patients whose symptoms are not controlled by drugs or who are sensitised to a single dominant allergen.
+Gradually increasing doses of the allergen, by subcutaneous injection or sublingually, until a maintenance dose is reached; it raises specific IgG (blocking antibody) and reduces IgE. Continued for about three years; stopped if no benefit after uninterrupted treatment. The only treatment that alters the course of the disease, for patients whose symptoms are not controlled by drugs or who are sensitised to a single dominant allergen. The sublingual route avoids injections and has an almost negligible risk of anaphylaxis; subcutaneous injections must be given where anaphylaxis can be treated. It can be offered earlier in patients with asthma as well.
 !pearl Pearls
 - Rhinitis and asthma are one airway: treat both.
 - Most steroid-spray failures are technique failures.
@@ -130,16 +133,10 @@ Allergy-like symptoms with negative skin and blood tests but specific IgE produc
 ## Indications
 Persistent obstruction from inferior turbinate hypertrophy despite a proper trial of topical steroids, or rhinitis medicamentosa with fixed hypertrophy.
 ## Methods
-Submucosal reduction (microdebrider or radiofrequency), outfracture, partial turbinectomy, laser or cryosurgery. Preserve the mucosa: excessive removal leaves an *empty nose*, with crusting and paradoxical blockage.
+Submucosal reduction (microdebrider or radiofrequency), outfracture, partial turbinectomy, laser or cryosurgery. Reducing the **conchal bone** gives the longest-lasting effect. Preserve the mucosa: excessive removal leaves an *empty nose*, with crusting and paradoxical blockage.
 !ops
-!update Allergy testing, treatment and the united airway (Oxford Textbook)
-Allergic rhinitis affects about one person in five in Western countries and usually starts around three years of age, after atopic dermatitis and before allergic asthma, the sequence known as the **allergic march**; it is rare before two because sensitisation needs prolonged exposure. Non-allergic rhinitis typically begins in early adulthood and is linked to adult-onset asthma, whereas vasomotor rhinitis is not.
-
-**Testing.** A skin-prick wheal more than 3 mm larger than the negative control is positive, but only about half of people with positive tests have allergic disease, so tests are interpreted with the history and requested mainly when immunotherapy or targeted avoidance is planned. A small panel (house dust mite, grass, tree and weed pollen, cat, dog and moulds) covers most allergy. Serum specific IgE is a little less sensitive than skin testing because tissue IgE levels are much higher than serum levels.
-
-**Treatment.** Intranasal steroids take days to start working and about two weeks to reach full effect; modern sprays with low bioavailability are preferred in children. Steroid sprays combine well with oral antihistamines, and a combined steroid–azelastine spray helps patients not controlled by either. Depot steroid injections are not recommended. **Immunotherapy**, subcutaneous or sublingual, is the only disease-modifying treatment and is given for about three years; the sublingual route avoids injections and has an almost negligible anaphylaxis risk. Allergen-impermeable mattress and pillow covers are the best-studied avoidance measure for house dust mite. In turbinate surgery, reducing the **conchal bone** gives the longest-lasting effect.
-
-**The united airway.** Most patients with allergic asthma have allergic rhinitis, and treating the nose often improves asthma control, so immunotherapy and turbinate reduction can be offered earlier in patients with both conditions.
+!update Current evidence
+The British Society for Allergy and Clinical Immunology guideline recommends intranasal steroids as first-line treatment for persistent symptoms, adding an antihistamine or a combined steroid-azelastine spray when control is poor, and immunotherapy for uncontrolled disease with a confirmed allergen (Scadding et al., *Clin Exp Allergy* 2017). The ARIA 2020 care pathways follow the same steps, using patient-reported control to guide treatment (Bousquet et al., *J Allergy Clin Immunol* 2020). A Cochrane review of 49 trials found sublingual immunotherapy reduced symptoms and medication use in allergic rhinitis, with no serious systemic reactions (Radulovic et al., 2010).
 !!
 
 # For the examination | What the examiner wants to hear.

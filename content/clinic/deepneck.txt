@@ -43,7 +43,13 @@ Usually mixed aerobic and anaerobic mouth flora: viridans and group A streptococ
 3. **Intravenous antibiotics** at once, broad-spectrum with anaerobic cover: co-amoxiclav or ampicillin–sulbactam, or a third-generation cephalosporin with metronidazole; clindamycin in penicillin allergy and in small children; vancomycin for MRSA; antipseudomonal agents in the immunosuppressed. Adjust to cultures.
 4. **Drainage** when there is an abscess in a fascial space, gas, a threatened airway, or no improvement after 48 to 72 hours of antibiotics. Small contained abscesses and phlegmon, especially in children, often settle with antibiotics alone.
 5. **Remove the source:** extract the tooth, remove the foreign body.
+6. **Control diabetes:** diabetic patients have more multi-space spread and complications, and more often grow *Klebsiella pneumoniae*.
 !ops | Drainage of deep neck abscesses and tracheostomy.
+## Image-guided aspiration
+Ultrasound- or CT-guided needle aspiration, repeated if needed, suits a single unilocular abscess in a stable patient, avoids an incision and gives pus for culture. Multi-space, multiloculated or gas-forming collections and a threatened airway need open drainage.
+!update Current evidence
+A systematic review of 60 studies of deep neck infection in adults found contrast CT used for diagnosis in 78% and open drainage as the usual treatment, with almost no randomised evidence (Sheikh et al., *Clin Otolaryngol* 2023). In children, pooled studies suggest antibiotics alone may safely treat selected deep neck abscesses, although the evidence is weak (Carbone et al., *Int J Pediatr Otorhinolaryngol* 2012). In a meta-analysis of 20 studies, diabetes doubled the risk of multi-space spread (risk ratio 1.96) and complications (2.42), with more *Klebsiella* and fewer streptococci and anaerobes (Hidaka et al., *Head Neck* 2015).
+!!
 
 # Ludwig's angina | The floor of the mouth on fire.
 ## Applied anatomy

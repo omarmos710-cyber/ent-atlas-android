@@ -32,7 +32,7 @@ On the anteroinferior septum, just above the vestibule, four arteries meet to fo
 It sits exactly where inspired air dries and cracks the mucosa, where the mucosa is thin and closely bound to cartilage, and where a fingernail reaches. About nine in ten bleeds start here.
 ## The posterior territory
 ### Sphenopalatine artery
-It enters the nose through the sphenopalatine foramen, just behind the *crista ethmoidalis* of the palatine bone, and divides into the posterior lateral nasal and posterior septal arteries. Bleeding from these branches is the classic posterior epistaxis.
+It enters the nose through the sphenopalatine foramen, just behind and below the *crista ethmoidalis* of the palatine bone, near the posterior end of the middle turbinate, and often divides into several branches before emerging. It is the dominant supply to the nose in about 85% of people (the rest are anterior ethmoid-dominant). Bleeding from its posterior lateral nasal and posterior septal branches is the classic posterior epistaxis.
 ### Woodruff's plexus
 A plexus on the lateral wall below the posterior end of the inferior turbinate, and the other classic posterior bleeding site in adults.
 ### Ethmoidal territory
@@ -151,13 +151,13 @@ Endoscopic cautery | Directed at the source under local or general anaesthesia.
 Ligation or embolisation | For bleeding that persists despite packing.
 !!
 ## First aid
-*Trotter's method*: the patient sits up, leaning slightly forward over a basin, breathing through the mouth, while the soft part of the nose is pinched firmly against the septum. Leaning forward stops blood being swallowed and lets you see how much is lost. Cold compresses add reflex vasoconstriction.
+*Trotter's method*: the patient sits up, leaning slightly forward over a basin, breathing through the mouth, while the soft part of the nose is pinched firmly against the septum. Leaning forward stops blood being swallowed and lets you see how much is lost. Sucking ice may add a little reflex vasoconstriction; ice packs on the nasal bridge have no proven benefit.
 ## Cautery
 Cautery works when you can see what you are treating. Anaesthetise first, and treat only the bleeding point.
 ### Chemical
 Roll a silver nitrate stick over a small ring around the vessel, edge first and then inwards, before touching the vessel itself. Best for small, visible anterior points in a field that is not actively pouring.
 ### Electrocautery
-Bipolar diathermy, usually under endoscopic view, is more effective for brisker or deeper points and for posterior sites.
+Bipolar diathermy, usually under endoscopic view, is more effective for brisker or deeper points and for posterior sites. Where available it is preferred to silver nitrate, because it fails less often and reduces packing, admission and pain. After silver nitrate, wipe or irrigate the vestibule with saline to prevent skin burns.
 !pearl
 Never cauterise both sides of the septum at the same sitting: the mucoperichondrium on both sides may necrose and leave a perforation.
 !!
@@ -188,9 +188,9 @@ Commercial catheters with a posterior and an anterior balloon, and a central tub
 ### Blood pressure
 Treat pain and anxiety first; control persistent hypertension, but avoid dropping the pressure sharply.
 ### Tranexamic acid
-Topical tranexamic acid did not reduce the need for packing in the NoPAC trial; it should not delay standard treatment.
-!update Guideline update
-The **AAO-HNS Nosebleed guideline (2020)**: compression for at least five minutes; packing if the site cannot be seen; resorbable packs on anticoagulants or antiplatelets; endoscopy for recurrent or difficult bleeds; cautery confined to the bleeding site; ligation or embolisation when these fail; and first-line local treatment before transfusion, reversal or stopping anticoagulants unless the bleed is life-threatening.
+Topical tranexamic acid did not reduce the need for packing in the NoPAC trial; it should not delay standard treatment. Some smaller trials suggest a benefit, especially in patients on antiplatelet drugs, and oral tranexamic acid helps in HHT.
+!update Current evidence
+The American nosebleed guideline (Tunkel et al., *Otolaryngol Head Neck Surg* 2020) recommends compression for at least five minutes, packing if the site cannot be seen, resorbable packs in patients on anticoagulants or antiplatelets, nasal endoscopy for recurrent or difficult bleeds, cautery confined to the bleeding site, ligation or embolisation when these fail, and local treatment before transfusion, reversal or stopping anticoagulants unless the bleed is life-threatening. In the NoPAC trial of 496 patients in UK emergency departments, topical tranexamic acid did not reduce the need for anterior packing (43.7% vs 41.3% with placebo) (Reuben et al., *Ann Emerg Med* 2021). A UK national audit of 1,826 cases found 30-day re-presentation in 13.9% and all-cause 30-day mortality of 3.4%, and wide variation from consensus guidance (National ENT Trainee Research Network, *J Laryngol Otol* 2017).
 !!
 
 # Surgery and intervention | Taking out the supply: the vessel follows the site.
@@ -207,7 +207,7 @@ Posterior bleeding that persists or recurs despite adequate packing. TESPAL is n
 ### Technique
 Under general anaesthesia, a mucosal incision on the lateral wall in front of the crista ethmoidalis; a mucoperiosteal flap is raised back to the crista, behind which the artery and its branches emerge from the foramen. They are clipped or coagulated, and the flap is replaced.
 ### Outcomes and complications
-Lee quotes control in 95 to 98%, usually with discharge the next day. Complications are minor: crusting, adhesions and numbness of the palate or nose.
+Lee quotes control in 95 to 98%, usually with discharge the next day; all branches emerging from the foramen must be controlled, and failure should prompt a search for an accessory branch or an ethmoidal source. Complications are minor: crusting, adhesions, epiphora and numbness of the palate or nose; visual loss is very rare.
 ## Ethmoidal artery ligation
 ### Approach
 An external (Lynch) incision at the medial canthus, raising the periosteum of the medial orbital wall, usually for high bleeds after trauma.
@@ -243,7 +243,7 @@ Antiseptic cream such as chlorhexidine with neomycin to the vestibule twice dail
 ### When to investigate
 Recurrent bleeding with easy bruising or a family history needs a clotting screen including von Willebrand studies. Under two years of age, think of a bleeding disorder or non-accidental injury.
 ## The anticoagulated patient
-Patients on warfarin, a direct oral anticoagulant or dual antiplatelets bleed longer and re-bleed more often, but stopping their drugs risks stroke or stent thrombosis. Control the bleed locally first with resorbable packing and check the INR in warfarinised patients. Reversal and withholding are for life-threatening bleeds, decided with the prescribing team.
+Patients on warfarin, a direct oral anticoagulant or dual antiplatelets bleed longer and re-bleed more often, but stopping their drugs risks stroke or stent thrombosis. Control the bleed locally first with resorbable packing and check the INR in warfarinised patients. Reversal and withholding are for life-threatening bleeds, decided with the prescribing team: for warfarin with major bleeding, intravenous vitamin K and prothrombin complex concentrate (fresh frozen plasma only if that is unavailable); for a high INR with minor bleeding, withhold warfarin and give oral vitamin K. Ask about "natural blood thinners" such as garlic, ginger, ginkgo, turmeric and vitamin E.
 ## Hereditary haemorrhagic telangiectasia
 Recurrent bleeding from multiple telangiectasias, usually from childhood, with a family history. Repeated packing and aggressive cautery make things worse; laser, bevacizumab, septodermoplasty and Young's procedure are the tools. See the HHT topic for the full account.
 ## Trauma and pseudoaneurysm
@@ -257,12 +257,7 @@ Hypovolaemic shock, anaemia, aspiration, and myocardial ischaemia in patients wi
 - **Packing:** pressure necrosis, sinusitis, otitis media, hypoxia, toxic shock syndrome.
 - **Surgery and embolisation:** see [[7.2]] to [[7.4]].
 ## Prognosis
-Most bleeds settle with simple measures. Recurrence is common in the elderly, the anticoagulated and those with HHT, which is why the cause matters as much as the cure.
-!update Practical points (Oxford Textbook)
-About 95% of bleeds arise from Little's area, but the **sphenopalatine artery** is the dominant supply to the nose in about 85% of people (the rest are anterior ethmoid-dominant), which is why endoscopic sphenopalatine ligation works so well for posterior bleeds. At surgery the foramen lies just behind and below the **crista ethmoidalis**, a bony ridge on the lateral wall near the posterior end of the middle turbinate, and the artery often divides into several branches before emerging, all of which must be controlled. Risks to explain include rebleeding, crusting, palatal numbness, adhesions, epiphora and, very rarely, visual loss.
-
-Where available, **electrocautery** is preferred to silver nitrate because it fails less often and reduces packing, admission and pain; after silver nitrate, irrigate with saline to prevent skin burns. Ice on the nasal bridge has no proven benefit. A patient whose anterior bleed is stopped by cautery can go home with antiseptic or antibiotic cream for two weeks; after a significant posterior bleed, observe for 6 to 12 hours; anyone with a pack is admitted. Many specialists give antibiotics when a pack stays more than 48 hours. For warfarin with major bleeding, give intravenous vitamin K and prothrombin complex concentrate (fresh frozen plasma only if that is unavailable); for minor bleeding with a high INR, withhold warfarin and give oral vitamin K. Ask about "natural blood thinners" such as garlic, ginger, ginkgo, turmeric and vitamin E.
-!!
+Most bleeds settle with simple measures. A patient whose anterior bleed is stopped by cautery can go home with antiseptic or antibiotic cream for two weeks; after a significant posterior bleed, observe for 6 to 12 hours; anyone with a pack is admitted. Recurrence is common in the elderly, the anticoagulated and those with HHT, and patients admitted with epistaxis are often frail: in a UK national audit, 1 in 7 re-presented within 30 days and 3.4% died within 30 days of any cause.
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials

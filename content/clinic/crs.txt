@@ -13,6 +13,12 @@ Endoscopy showing oedema or polyps in the middle meatus, or mucopus there; or CT
 ## Two phenotypes
 - **CRS without nasal polyps:** more often infective and neutrophilic.
 - **CRS with nasal polyps:** usually type 2 (eosinophilic) inflammation driven by IL-4, IL-5 and IL-13, often with asthma.
+## The EPOS 2020 classification
+Whether polyps are present says little about the disease underneath, so EPOS 2020 classifies chronic rhinosinusitis by mechanism.
+- **Primary, localised** (one side or one sinus system): for example isolated sphenoid disease or allergic fungal rhinosinusitis.
+- **Primary, diffuse** (both sides): split into **type 2** (eosinophilic, polyps, asthma, recurrence) and **non-type 2** endotypes.
+- **Secondary:** arising from something else: odontogenic sinusitis, a tumour, immunodeficiency, primary ciliary dyskinesia, cystic fibrosis, or eosinophilic granulomatosis with polyangiitis.
+Localised non-type 2 disease has the best prognosis; diffuse type 2 disease is part of a wider airway disorder and tends to recur. **Central compartment atopic disease** is allergic inflammation centred on the middle turbinate head, superior septum and posterosuperior nasal cavity, in contrast to polyps from the middle meatus. Thick "chewing gum" eosinophilic mucin suggests eosinophilic or allergic fungal disease. A blood eosinophil count above 0.25 x 10⁹/L supports a type 2 endotype, and above 0.45 x 10⁹/L predicts recurrence.
 ## Acute exacerbation
 A sudden worsening that returns to the chronic baseline after treatment.
 
@@ -76,7 +82,7 @@ A unilateral polyp is not simple polyposis until histology says so: inverted pap
 ## Nasal endoscopy
 Before and after decongestion: oedema, polyps and pus in the middle meatus and sphenoethmoidal recess. Polyps are graded by extent (for example the Lund-Kennedy score).
 ## CT of the sinuses
-Non-contrast CT in three planes is the gold standard: it shows the extent of disease (scored by the Lund-Mackay system), anatomical variants and bony erosion, and maps the anatomy for surgery. Not for diagnosis alone, but before any operation.
+Non-contrast CT in three planes is the gold standard: it shows the extent of disease (scored by the Lund-Mackay system), anatomical variants and bony erosion, and maps the anatomy for surgery. Use it to confirm disease when endoscopy is unclear and before any operation. Incidental changes are common: retention cysts in 10 to 15% and mucosal thickening in a quarter of normal people, who score up to about 4 on Lund-Mackay; a score above 5 strongly suggests disease. MRI is too sensitive to diagnose chronic rhinosinusitis, showing thickening in about half the general population.
 !imaging | Nasal and unilateral polyps, cystic fibrosis and mucoceles.
 ## Other tests
 Allergy testing, a sweat test or genetics for cystic fibrosis in children, ciliary studies, immunoglobulins, eosinophil count and ANCA when vasculitis is suspected, and culture from the middle meatus.
@@ -87,7 +93,7 @@ Patient-reported scores such as SNOT-22 measure the burden and the response to t
 ## CRS without polyps
 - **Saline irrigation:** high-volume rinses clear mucus, bacteria and allergens and disrupt biofilms.
 - **Intranasal corticosteroids:** sprays or drops; better after decongestion and with correct technique.
-- **Antibiotics:** culture-guided for exacerbations; long-term low-dose macrolides (over 12 weeks) for their anti-inflammatory effect in selected patients.
+- **Antibiotics:** culture-guided for exacerbations only. Long-term low-dose macrolides were once used for their anti-inflammatory effect, but in the MACRO trial three months of clarithromycin was no better than placebo, so they are no longer recommended routinely (some units still try them in non-type 2 disease with normal IgE).
 - **Treat allergy:** antihistamines, leukotriene antagonists, immunotherapy.
 ## CRS with polyps
 - **Steroid sprays or drops,** long-term.
@@ -95,11 +101,11 @@ Patient-reported scores such as SNOT-22 measure the burden and the response to t
 - **Doxycycline** for a few weeks reduces polyp size modestly.
 - **Treat asthma** with the respiratory team.
 - **Aspirin-exacerbated disease:** leukotriene modifiers, and aspirin desensitisation after surgery.
-- **Biologics:** monoclonal antibodies against type 2 inflammation (anti-IL-4 receptor, anti-IgE, anti-IL-5) for severe, recurrent polyposis despite surgery and steroids, especially with asthma.
+- **Biologics:** monoclonal antibodies against type 2 inflammation (dupilumab against the IL-4 receptor, omalizumab against IgE, mepolizumab against IL-5). EPOS 2020 indicates them for bilateral polyps after sinus surgery (or in patients unfit for it) with at least three of: evidence of type 2 disease (tissue eosinophils 10 or more per high-power field, blood eosinophils 0.25 x 10⁹/L or more, or total IgE 100 or more), need for systemic steroids (two or more courses a year or long-term use), SNOT-22 of 40 or more, anosmia on testing, and asthma needing inhaled steroids. Response is reviewed at 16 weeks and one year. Availability is limited by cost and national approval.
 
 # Surgery | Opening the sinuses for the medicine.
 ## Endoscopic sinus surgery
-For patients whose symptoms persist despite adequate medical treatment. It removes polyps and diseased tissue, opens the natural ostia, corrects obstructing anatomy, and makes a cavity that saline and steroids can reach. Medical treatment continues afterwards. Revision is common in polyposis. In cystic fibrosis and ciliary disease, wide dependent drainage of the maxillary and sphenoid sinuses is made.
+For patients whose symptoms persist despite adequate medical treatment (usually at least eight weeks of saline and intranasal steroids). It removes polyps and diseased tissue, opens the natural ostia, corrects obstructing anatomy, and makes a cavity that saline and steroids can reach. For diffuse type 2 disease the aim is a complete, wide cavity (a "neo-sinus") for topical steroid access; limited opening of the ostia suits localised disease. Medical treatment continues afterwards. Revision is common in polyposis. In cystic fibrosis and ciliary disease, wide dependent drainage of the maxillary and sphenoid sinuses is made.
 !fig d37-4 d37-5 | Functional endoscopic sinus surgery, without and with a camera and monitor.
 ## Historical operations
 Intranasal polypectomy alone, Caldwell-Luc operation, intranasal and external ethmoidectomy, and external frontoethmoidectomy (Howarth or Lynch); now largely replaced by endoscopic surgery. See the nose and sinus operations topic.
@@ -112,16 +118,8 @@ Purulent discharge, postnasal drip, cacosmia, often dental in origin; endoscopic
 Frontal headache and discharge; endoscopic frontal sinusotomy, extended to a Draf III (modified Lothrop) procedure when needed; external frontoethmoidectomy and osteoplastic obliteration are reserved for failures.
 ## Chronic ethmoiditis and sphenoiditis
 Usually part of pansinusitis; endoscopic ethmoidectomy and sphenoidotomy.
-!update EPOS 2020: endotypes, imaging and biologics (Oxford Textbook)
-**Classification.** Whether polyps are present says little about the disease underneath, so EPOS 2020 classifies chronic rhinosinusitis by mechanism. *Primary* disease is split into **localised** (one side or one sinus system, such as isolated sphenoid disease or allergic fungal rhinosinusitis) and **diffuse** (both sides), and each into **type 2** (eosinophilic) and **non-type 2** endotypes. *Secondary* disease arises from something else: odontogenic sinusitis, a tumour, immunodeficiency, primary ciliary dyskinesia, cystic fibrosis or eosinophilic granulomatosis with polyangiitis. Localised non-type 2 disease has the best prognosis; diffuse type 2 disease is part of a wider airway disorder and tends to recur.
-
-**Central compartment atopic disease** is a pattern of allergic inflammation centred on the middle turbinate head, superior septum and posterosuperior nasal cavity, in contrast to the true polyps from the middle meatus seen in eosinophilic disease. Thick "chewing gum" eosinophilic mucin suggests eosinophilic chronic rhinosinusitis or allergic fungal disease. A blood eosinophil count above 0.25 × 10⁹/L supports a type 2 endotype, and above 0.45 × 10⁹/L predicts recurrence.
-
-**Imaging.** Incidental changes are common: mucous retention cysts in 10 to 15% and mucosal thickening in a quarter of normal people, who score up to about 4 on Lund–Mackay; EPOS 2020 takes a score above 5 as strongly suggestive of disease. MRI is too sensitive to diagnose chronic rhinosinusitis, showing thickening in about half the general population.
-
-**Biologics.** Monoclonal antibodies against type 2 inflammation (dupilumab against the IL-4 receptor, omalizumab against IgE, and mepolizumab against IL-5) are indicated by EPOS 2020 for bilateral polyps after sinus surgery (or in patients unfit for it) with at least three of: evidence of type 2 disease (tissue eosinophils ≥10 per high-power field, blood eosinophils ≥0.25 × 10⁹/L or total IgE ≥100), need for systemic steroids (two or more courses a year or long-term use), SNOT-22 of 40 or more, anosmia on testing, and asthma needing inhaled steroids. Response is reviewed at 16 weeks and one year.
-
-**Surgery** for diffuse type 2 disease aims for a complete, wide "neo-sinus" cavity that gives topical steroids access, rather than a limited opening of ostia, which suits localised disease. Long-term macrolides help selected non-type 2 patients with normal IgE.
+!update Current evidence
+The European position paper EPOS 2020 defines the classification by endotype, the place of biologics and the care pathway (Fokkens et al., *Rhinology* 2020). In the UK MACRO trial of about 500 adults with persistent chronic rhinosinusitis on saline and steroids, endoscopic sinus surgery improved symptoms and quality of life compared with placebo at six months, while three months of clarithromycin did not (Philpott et al., *Lancet* 2025). Dupilumab reduced polyp size, nasal blockage and the need for systemic steroids or surgery in two phase 3 trials (Bachert et al., *Lancet* 2019). A Cochrane review supports large-volume saline irrigation as a low-cost adjunct (Chong et al., 2016).
 !!
 
 # For the examination | What the examiner wants to hear.
