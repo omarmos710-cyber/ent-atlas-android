@@ -34,6 +34,9 @@ Add vancomycin to ceftriaxone for meningitis and abscesses where resistant pneum
 - Neutropenia, thrombocytopenia, DRESS; teicoplanin has fewer infusion and renal effects.
 ## Interactions
 Additive toxicity with **aminoglycosides**, loop diuretics, ciclosporin, cisplatin and piperacillin-tazobactam.
+!update Current evidence
+**Dosing.** The 2020 American consensus guideline recommends area-under-the-curve (AUC)-guided dosing, aiming for an AUC of 400 to 600 mg·h/l, rather than trough levels alone, because high troughs increase kidney injury without improving outcomes (Rybak et al., *Am J Health Syst Pharm* 2020). **Kidneys.** The risk of acute kidney injury rises when combined with piperacillin–tazobactam or other nephrotoxins.
+!!
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials
