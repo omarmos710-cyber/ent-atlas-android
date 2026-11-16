@@ -6,9 +6,9 @@
 ## Risk factors
 **Ultraviolet radiation** is the dominant cause, but in two patterns: cumulative exposure drives BCC and SCC, while intense intermittent exposure and *blistering sunburn in childhood* drive melanoma. Tanning beds add to both. Fair skin of Fitzpatrick types I and II, red or blond hair, freckling and many or atypical naevi mark the susceptible patient.
 
-**Immunosuppression** transforms the risk of SCC. Organ transplant recipients have up to a hundredfold increase, and their tumours are aggressive; HIV and chronic lymphocytic leukaemia have a similar effect. Reducing immunosuppression where possible, or switching to an mTOR inhibitor such as sirolimus, helps.
+**Immunosuppression** transforms the risk of SCC. Organ transplant recipients have up to a hundredfold increase, and their tumours are aggressive; HIV ([[t:hivent]]) and chronic lymphocytic leukaemia have a similar effect. Reducing immunosuppression where possible, or switching to an mTOR inhibitor such as sirolimus, helps.
 
-Radiation, arsenic, and chronic scars and ulcers also predispose; SCC arising in a burn scar is a *Marjolin ulcer*. Among the inherited syndromes, *xeroderma pigmentosum* impairs DNA repair and produces skin cancers in childhood; *naevoid BCC (Gorlin) syndrome*, a *PTCH1* mutation in the hedgehog pathway, gives multiple BCCs with jaw keratocysts, palmar pits and a calcified falx, and radiotherapy must be avoided; the *familial atypical mole and melanoma syndrome* is linked to *CDKN2A*; and albinism removes the protection of pigment. The *Merkel cell polyomavirus* is found in most Merkel cell carcinomas.
+Radiation, arsenic, and chronic scars and ulcers also predispose; SCC arising in a burn scar is a *Marjolin ulcer*. Among the inherited syndromes, *xeroderma pigmentosum* impairs DNA repair and produces skin cancers in childhood; *naevoid BCC (Gorlin) syndrome*, a *PTCH1* mutation in the hedgehog pathway, gives multiple BCCs with jaw keratocysts ([[t:jaw]]), palmar pits and a calcified falx, and radiotherapy must be avoided; the *familial atypical mole and melanoma syndrome* is linked to *CDKN2A*; and albinism removes the protection of pigment. The *Merkel cell polyomavirus* is found in most Merkel cell carcinomas.
 
 # Assessment | History, examination, biopsy.
 ## Examination
@@ -39,12 +39,12 @@ An SCC is high risk if it is 2 cm or more across, *more than 2 mm deep* or invad
 ## Treatment of the primary
 Field change and SCC in situ are treated with cryotherapy, topical 5-FU or imiquimod, photodynamic therapy or curettage. Low-risk invasive SCC is excised with *4 to 6 mm margins*. High-risk SCC needs wider margins of 6 to 10 mm or Mohs surgery with complete margin assessment, resection of underlying bone, cartilage or parotid as required, and *adjuvant radiotherapy* for perineural invasion, close or positive margins, recurrence and T3 to T4 tumours.
 ## Nodes and the parotid
-About 5% of high-risk SCCs metastasise, mostly to the *parotid* from primaries on the scalp, forehead, temple, ear and cheek, and to the neck. Nodal disease is treated by superficial or total parotidectomy with dissection of the at-risk neck levels, followed by postoperative radiotherapy, with cisplatin or a trial for extranodal extension and positive margins. Primaries on the *posterior scalp and neck* need a *posterolateral neck dissection*, which takes levels II to V together with the postauricular and suboccipital nodes. Sentinel node biopsy may be considered for selected high-risk tumours with a node-negative neck.
+About 5% of high-risk SCCs metastasise, mostly to the *parotid* from primaries on the scalp, forehead, temple, ear and cheek, and to the neck. Nodal disease is treated by superficial or total [[t:saltum|parotidectomy]] with dissection of the at-risk neck levels, followed by postoperative radiotherapy, with cisplatin or a trial for extranodal extension and positive margins. Primaries on the *posterior scalp and neck* need a *posterolateral neck dissection*, which takes levels II to V together with the postauricular and suboccipital nodes. Sentinel node biopsy may be considered for selected high-risk tumours with a node-negative neck.
 
 For advanced, unresectable or metastatic disease, the PD-1 inhibitor *cemiplimab*, and also pembrolizumab, give high response rates and have replaced platinum and EGFR inhibitors as first-line systemic treatment.
 !ops 161 71 92 | Management of skin cancer, posterolateral neck dissection, and superficial parotidectomy.
 ## Lip cancer
-Most lip SCCs arise on the vermilion of the *lower lip* of outdoor workers; upper lip and commissure tumours are more aggressive. Lesions up to a third of the lip are removed by V or W wedge excision, and larger defects are closed with the Abbe, Estlander, Karapandzic or Bernard–Burow flaps. Actinic cheilitis is treated by vermilionectomy (a lip shave), and radiotherapy or brachytherapy is an alternative to surgery. Submental and submandibular nodes are treated when involved.
+Most lip SCCs ([[t:oral_ca]]) arise on the vermilion of the *lower lip* of outdoor workers; upper lip and commissure tumours are more aggressive. Lesions up to a third of the lip are removed by V or W wedge excision, and larger defects are closed with the Abbe, Estlander, Karapandzic or Bernard–Burow flaps. Actinic cheilitis is treated by vermilionectomy (a lip shave), and radiotherapy or brachytherapy is an alternative to surgery. Submental and submandibular nodes are treated when involved.
 !ops 27 | Cancer of the lip.
 
 # Merkel cell carcinoma | Fast and neuroendocrine.
@@ -77,7 +77,7 @@ T4 | Over 4.0 mm | a: absent; b: present
 !!
 Stages I and II are localised disease, stage III is nodal, satellite or in-transit disease, and stage IV is distant metastasis, with the LDH forming part of the M stage. Thin melanomas need no imaging; thick or ulcerated tumours and stage III and IV disease are staged with CT or PET-CT and brain MRI, with an LDH.
 ## Treatment of the primary
-Wide local excision margins depend on thickness: 0.5 to 1 cm for melanoma in situ, 1 cm up to 1 mm thick, 1 to 2 cm for 1 to 2 mm, and 2 cm beyond 2 mm, often modified on the face to preserve function. The depth of excision depends on site: down to the periosteum on the scalp, or the outer table if it is involved; a partial or total auriculectomy on the ear, or a lateral temporal bone resection if the canal is involved; deep to the mimetic muscles on the face if needed; and to the parotid fascia, or including a superficial parotidectomy, over the parotid. Lentigo maligna is excised in stages with margin control, by the "spaghetti" technique or Mohs with immunostains, or treated with imiquimod or radiotherapy in the frail.
+Wide local excision margins depend on thickness: 0.5 to 1 cm for melanoma in situ, 1 cm up to 1 mm thick, 1 to 2 cm for 1 to 2 mm, and 2 cm beyond 2 mm, often modified on the face to preserve function. The depth of excision depends on site: down to the periosteum on the scalp, or the outer table if it is involved; a partial or total auriculectomy on the ear, or a lateral temporal bone resection if the canal is involved ([[t:tumear]]); deep to the mimetic muscles on the face if needed; and to the parotid fascia, or including a superficial parotidectomy, over the parotid. Lentigo maligna is excised in stages with margin control, by the "spaghetti" technique or Mohs with immunostains, or treated with imiquimod or radiotherapy in the frail.
 !flag Do not reconstruct before the margins are known
 Complex flaps should wait until the final pathology confirms clear margins. Otherwise residual tumour is buried under a flap. Use a temporary dressing or skin graft and reconstruct afterwards (*delayed reconstruction*).
 !!
@@ -87,17 +87,12 @@ Complex flaps should wait until the final pathology confirms clear margins. Othe
 2. An intraoperative gamma probe, with or without blue dye.
 3. Facial nerve monitoring in the parotid.
 
-A positive sentinel node is now usually followed by *ultrasound surveillance* rather than completion dissection, because MSLT-II showed no survival benefit from completion dissection, only better regional control. Clinically or radiologically involved nodes need a therapeutic neck dissection, adding a superficial parotidectomy for primaries of the anterior scalp, temple, forehead, ear and cheek, and a posterolateral dissection with postauricular and suboccipital nodes for the posterior scalp. Adjuvant radiotherapy, often hypofractionated, improves regional control after extranodal extension or multiple or large nodes.
+A positive sentinel node is now usually followed by *ultrasound surveillance* rather than completion dissection, because the MSLT-II and DeCOG-SLT trials showed no survival benefit from completion dissection, only better regional control. Clinically or radiologically involved nodes need a therapeutic neck dissection, adding a superficial parotidectomy for primaries of the anterior scalp, temple, forehead, ear and cheek, and a posterolateral dissection with postauricular and suboccipital nodes for the posterior scalp. Adjuvant radiotherapy, often hypofractionated, improves regional control after extranodal extension or multiple or large nodes.
 !ops 62 | Sentinel lymph node biopsy.
 ## Systemic therapy
 **Checkpoint inhibitors**, anti-PD-1 agents (nivolumab, pembrolizumab) alone or with the anti-CTLA-4 agent ipilimumab, are first-line treatment for unresectable and metastatic melanoma and give durable responses in about half of patients, at the cost of immune side effects: colitis, hepatitis, pneumonitis, thyroiditis and hypophysitis. **BRAF with MEK inhibitors**, dabrafenib with trametinib or encorafenib with binimetinib, give rapid responses in BRAF-mutant disease. After resection of stage III and high-risk stage II melanoma, adjuvant anti-PD-1 therapy, or BRAF/MEK inhibitors for BRAF-mutant tumours, reduces relapse. Intralesional oncolytic virus (T-VEC) treats in-transit disease, while dacarbazine and interferon are now historical.
-## The neck after a positive sentinel node
-Older practice was completion neck dissection for every positive sentinel node. Since the MSLT-II and DeCOG-SLT trials, most patients are followed with nodal ultrasound instead, and adjuvant anti-PD-1 or BRAF/MEK treatment is standard for resected stage III disease.
-!update Current evidence
-In MSLT-II (1,939 patients with a positive sentinel node), immediate completion lymph node dissection did not improve melanoma-specific survival compared with ultrasound surveillance, though it improved regional control (Faries et al., *N Engl J Med* 2017); DeCOG-SLT found the same (Leiter et al., *Lancet Oncol* 2016). Adjuvant nivolumab (Weber et al., *N Engl J Med* 2017) and pembrolizumab (Eggermont et al., *N Engl J Med* 2018) improved recurrence-free survival after resection of high-risk melanoma. For advanced cutaneous squamous cell carcinoma not suitable for surgery or radiotherapy, cemiplimab produced responses in about half of patients (Migden et al., *N Engl J Med* 2018). For high-risk facial basal cell carcinoma, Mohs surgery halved recurrence over ten years compared with standard excision (van Loo et al., *Eur J Cancer* 2014).
-!!
 ## Mucosal melanoma
-Mucosal melanoma makes up only about 1% of melanomas, but the head and neck is its commonest site: the nasal septum and turbinates, the sinuses, the palate and gingiva, and the nasopharynx. It is often amelanotic and presents late with unilateral obstruction, epistaxis or a pigmented palatal lesion. Breslow depth does not apply, and every mucosal melanoma is at least T3.
+Mucosal melanoma makes up only about 1% of melanomas, but the head and neck is its commonest site ([[t:sinus_ca]]): the nasal septum and turbinates, the sinuses, the palate and gingiva, and the nasopharynx. It is often amelanotic and presents late with unilateral obstruction, epistaxis or a pigmented palatal lesion. Breslow depth does not apply, and every mucosal melanoma is at least T3.
 
 Treatment is complete endoscopic or open resection with postoperative radiotherapy for local control, and therapeutic rather than elective neck dissection. The prognosis is poor, with five-year survival of 20 to 30% because of distant metastasis, and immunotherapy and KIT inhibitors have a role.
 ## Melanoma of unknown primary
@@ -113,8 +108,12 @@ Defects are closed by the simplest reliable method on the *reconstructive ladder
 5. Regional flaps: cervicofacial, deltopectoral, pectoralis major, trapezius.
 6. Free tissue transfer.
 
-Scalp defects can also be closed by tissue expansion.
+Scalp defects can also be closed by tissue expansion. The flaps themselves are described in [[t:hnrecon]].
 !ops 173 171 165 164 162 | Skin grafting, cervicofacial and paramedian forehead flaps, scalp reconstruction, and free flaps.
+
+!update Current evidence
+In MSLT-II (1,939 patients with a positive sentinel node), immediate completion lymph node dissection did not improve melanoma-specific survival compared with ultrasound surveillance, though it improved regional control (Faries et al., *N Engl J Med* 2017); DeCOG-SLT found the same (Leiter et al., *Lancet Oncol* 2016). Adjuvant nivolumab (Weber et al., *N Engl J Med* 2017) and pembrolizumab (Eggermont et al., *N Engl J Med* 2018) improved recurrence-free survival after resection of high-risk melanoma. For advanced cutaneous squamous cell carcinoma not suitable for surgery or radiotherapy, cemiplimab produced responses in about half of patients (Migden et al., *N Engl J Med* 2018). For high-risk facial basal cell carcinoma, Mohs surgery halved recurrence over ten years compared with standard excision (van Loo et al., *Eur J Cancer* 2014).
+!!
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials

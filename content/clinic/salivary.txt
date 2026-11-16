@@ -26,7 +26,7 @@ Which gland, one or both sides; acute or recurrent; pain and swelling with meals
 - **Plain radiographs:** about 80% of submandibular stones (fewer parotid stones) are radio-opaque; an occlusal film shows duct stones.
 - **Non-contrast CT:** detects stones reliably; contrast CT for abscess.
 - **Sialography** (conventional or MR sialography): ducts, strictures, sialectasis and radiolucent stones; contraindicated in acute infection.
-- **MRI:** the best study for masses.
+- **MRI:** the best study for masses ([[t:saltum]]).
 - **Sialendoscopy:** both diagnosis and treatment.
 - **Scintigraphy (technetium pertechnetate):** gland function; uptake in Warthin tumour and oncocytoma.
 
@@ -34,7 +34,7 @@ Which gland, one or both sides; acute or recurrent; pain and swelling with meals
 ## Mumps (epidemic parotitis)
 A paramyxovirus spread by droplets, saliva and urine; mostly children of four to six years in unvaccinated populations; incubation two to three weeks, infectious from before the swelling to about a week after.
 - **Features:** fever, malaise and muscle pains, then painful swelling of one parotid and usually, within days, the other; sometimes the submandibular glands; swelling settles in about a week.
-- **Complications:** orchitis (painful testis, usually one-sided; sterility rare), oophoritis, pancreatitis, aseptic meningitis and encephalitis, *unilateral sensorineural deafness*, sometimes sudden, thyroiditis, myocarditis, nephritis and arthritis.
+- **Complications:** orchitis (painful testis, usually one-sided; sterility rare), oophoritis, pancreatitis, aseptic meningitis and encephalitis, *unilateral sensorineural deafness*, sometimes sudden ([[t:ssnhl]]), thyroiditis, myocarditis, nephritis and arthritis.
 - **Diagnosis:** clinical; raised serum and urinary amylase; IgM or rising IgG serology, or PCR.
 - **Treatment:** supportive: fluids, rest, analgesics, warm or cold compresses, avoiding sour foods; support for orchitis.
 - **Prevention:** MMR vaccine.
@@ -49,7 +49,7 @@ Neonatal suppurative parotitis in premature babies (staphylococcal). *Juvenile r
 Recurrent painful swelling with pus during attacks and a firm, slightly enlarged gland between them, from duct obstruction, strictures, stones and reduced flow. Sialography shows ductal dilatation (punctate, globular or cavitary *sialectasis*) or strictures. Treat attacks with antibiotics; between them, hydration, oral hygiene, sialogogues and avoiding drying drugs; sialendoscopy to dilate strictures and wash out plugs; gland excision for persistent symptoms. The *Küttner tumour* (chronic sclerosing sialadenitis, part of IgG4-related disease) can mimic a submandibular neoplasm.
 ## Granulomatous infections
 - **Tuberculosis:** of the parotid (often its intraglandular nodes) or submandibular gland, as an acute sialadenitis or a chronic mass mimicking tumour, sometimes with skin changes or sinuses. Diagnosis by FNA (granulomas, acid-fast bacilli, culture) and tuberculin testing; antituberculous treatment.
-- **Atypical mycobacteria:** in children of one to three years, a painless mass with a violaceous skin and sinus formation, a negative chest film and weak tuberculin reaction; excision or curettage.
+- **Atypical mycobacteria:** in children of one to three years (one to five in some texts; [[t:neckmass]]), a painless mass with a violaceous skin and sinus formation, a negative chest film and weak tuberculin reaction; excision or curettage.
 - **Actinomycosis:** after dental infection; a woody swelling with sinuses discharging sulphur granules; prolonged penicillin.
 - **Cat-scratch disease** (*Bartonella*) and **toxoplasmosis** cause periparotid and cervical lymphadenitis.
 !imaging sialadenitis | Sialadenitis on imaging.
@@ -81,9 +81,9 @@ An autoimmune exocrinopathy with lymphocytic destruction of the salivary and lac
 The risk of non-Hodgkin lymphoma (usually MALT lymphoma of the parotid) is greatly increased. A new, firm or enlarging mass in a Sjögren gland is biopsied.
 !!
 ## Sarcoidosis
-Bilateral painless parotid swelling; *Heerfordt syndrome* (uveoparotid fever) combines parotitis, uveitis, fever and facial palsy. Steroids.
+Bilateral painless parotid swelling; *Heerfordt syndrome* (uveoparotid fever) combines parotitis, uveitis, fever and facial palsy ([[t:facial]]). Steroids.
 ## HIV
-Bilateral parotid enlargement from *benign lymphoepithelial cysts* and lymphoid hyperplasia, sometimes the presenting sign of HIV; a sicca picture (diffuse infiltrative lymphocytosis syndrome). Antiretroviral treatment, aspiration or sclerotherapy for cosmetically troublesome cysts; a solid mass needs biopsy because of the risk of lymphoma.
+Bilateral parotid enlargement ([[t:hivent]]) from *benign lymphoepithelial cysts* and lymphoid hyperplasia, sometimes the presenting sign of HIV; a sicca picture (diffuse infiltrative lymphocytosis syndrome). Antiretroviral treatment, aspiration or sclerotherapy for cosmetically troublesome cysts; a solid mass needs biopsy because of the risk of lymphoma.
 ## Sialadenosis (sialosis)
 Painless, symmetrical, non-inflammatory enlargement of the parotids from acinar hypertrophy, with diabetes, alcoholism, malnutrition, bulimia, obesity and drugs. Distinguish from other causes of bilateral swelling by FNA or biopsy; treat the cause.
 ## Necrotising sialometaplasia
@@ -97,15 +97,15 @@ Neoplastic | Warthin tumour (bilateral in some), lymphoma, acinic cell carcinoma
 Drugs | Iodides, phenylbutazone and others
 !!
 
+# Dry and wet mouths | Xerostomia and sialorrhoea.
+## Xerostomia
+From drugs (anticholinergics, antidepressants, antihistamines, diuretics), radiotherapy (irreversible damage above about 25 Gy), Sjögren syndrome, dehydration, diabetes and age. Effects: difficulty chewing, swallowing and speaking, caries, candida and altered taste. Treat with water, saliva substitutes, sugar-free gum, pilocarpine, fluoride and dental care; prevent radiation xerostomia with parotid-sparing IMRT and submandibular gland transfer ([[t:hnrt]]).
+## Sialorrhoea (drooling)
+Drooling is normal up to about four years. Beyond that it is usually caused by poor oral and pharyngeal control, open lips and poor posture, as in cerebral palsy and adult neurological disease, rather than by too much saliva. At rest about 70% of saliva comes from the submandibular glands, the main target of treatment. Separate **anterior drooling** (spilling from the lips) from **posterior drooling** (pooling in the pharynx and aspiration, with cough, night choking and chest infections), because the choice of surgery depends on it. Treatment is stepwise: oral motor training and posture; glycopyrronium or a hyoscine patch; ultrasound-guided botulinum toxin into the submandibular and parotid glands; then surgery: duct ligation, submandibular duct relocation (not in children who aspirate), or bilateral submandibular gland excision for posterior drooling. The techniques are in [[t:mouthminor]].
+
 !update Current evidence
 A systematic review of sialendoscopy found gland preservation and symptom relief in about 86% of patients with obstructive salivary disease, with few complications, making it the first-line approach for accessible stones and strictures (Strychowsky et al., *Arch Otolaryngol Head Neck Surg* 2012). The 2016 ACR/EULAR criteria classify primary Sjögren syndrome by weighted points for focal lymphocytic sialadenitis on lip biopsy and anti-Ro antibodies (3 each) and for ocular staining, Schirmer's test and unstimulated salivary flow (1 each), with 4 or more classifying the disease (Shiboski et al., *Arthritis Rheumatol* 2017).
 !!
-
-# Dry and wet mouths | Xerostomia and sialorrhoea.
-## Xerostomia
-From drugs (anticholinergics, antidepressants, antihistamines, diuretics), radiotherapy (irreversible damage above about 25 Gy), Sjögren syndrome, dehydration, diabetes and age. Effects: difficulty chewing, swallowing and speaking, caries, candida and altered taste. Treat with water, saliva substitutes, sugar-free gum, pilocarpine, fluoride and dental care; prevent radiation xerostomia with parotid-sparing IMRT and submandibular gland transfer.
-## Sialorrhoea (drooling)
-Drooling is normal up to about four years. Beyond that it is usually caused by poor oral and pharyngeal control, open lips and poor posture, as in cerebral palsy and adult neurological disease, rather than by too much saliva. At rest about 70% of saliva comes from the submandibular glands, the main target of treatment. Separate **anterior drooling** (spilling from the lips) from **posterior drooling** (pooling in the pharynx and aspiration, with cough, night choking and chest infections), because the choice of surgery depends on it. Treatment is stepwise: oral motor training and posture; glycopyrronium or a hyoscine patch; ultrasound-guided botulinum toxin into the submandibular and parotid glands; then surgery: duct ligation, submandibular duct relocation (not in children who aspirate), or bilateral submandibular gland excision for posterior drooling. See the minor procedures topic for the techniques.
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials

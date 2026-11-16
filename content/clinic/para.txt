@@ -19,7 +19,7 @@ Total calcium varies with albumin and is corrected by adding about 0.8 mg/dL (0.
 
 # Hyperparathyroidism | Primary, secondary, tertiary.
 ## Primary hyperparathyroidism
-Primary hyperparathyroidism affects about 1 in 500 women and 1 in 2000 men, mostly after the menopause. About 85% of cases are due to *a single adenoma*, 10 to 15% to *four-gland hyperplasia* (sporadic, familial, or part of MEN 1 or MEN 2A), 2 to 5% to *double adenomas*, mostly in the elderly, and under 1% to *carcinoma*. Neck irradiation and lithium are risk factors.
+Primary hyperparathyroidism affects about 1 in 500 women and 1 in 2000 men, mostly after the menopause. About 85% of cases are due to *a single adenoma*, 10 to 15% to *four-gland hyperplasia* (sporadic, familial, or part of MEN 1 or MEN 2A; the syndromes are tabulated in [[t:thyroid]]), 2 to 5% to *double adenomas*, mostly in the elderly, and under 1% to *carcinoma*. Neck irradiation and lithium are risk factors.
 
 The biochemistry is high calcium with a raised or *inappropriately normal* PTH, a low phosphate, and a high or high-normal urinary calcium. Vitamin D is measured and replaced if low, because deficiency both confuses the picture and worsens bone disease.
 ## Clinical features
@@ -53,7 +53,7 @@ Lithium | Thyrotoxicosis, adrenal insufficiency, immobilisation, Paget disease; 
 ## Parathyroid carcinoma
 Carcinoma is suspected when calcium and PTH are very high (calcium often over 14 mg/dL), when there is a palpable neck mass or a recurrent laryngeal nerve palsy, and when bone and renal disease are present together. At surgery the gland is hard, grey-white and adherent, invading the thyroid or muscle. It must be resected *en bloc* with the thyroid lobe and adjacent tissue without rupturing the capsule. Recurrence is common, and death usually comes from uncontrollable hypercalcaemia.
 ## Indications for surgery
-Parathyroidectomy is the only cure, and it is recommended for every symptomatic patient. In asymptomatic patients it is recommended when the serum calcium is more than 1 mg/dL (0.25 mmol/L) above the upper limit of normal, when the patient is under 50, when there is osteoporosis (a T-score of −2.5 or less) or a vertebral fracture, when creatinine clearance is under 60 mL/min or there are kidney stones, nephrocalcinosis or high urinary calcium, and when the patient cannot be followed up. Many surgeons also offer surgery to fit asymptomatic patients, because of the benefits to bone and cognition.
+Parathyroidectomy is the only cure, and it is recommended for every symptomatic patient. In asymptomatic patients it is recommended when the serum calcium is more than 1 mg/dL (0.25 mmol/L) above the upper limit of normal, when the patient is under 50, when there is osteoporosis (a T-score of −2.5 or less) or a vertebral fracture, when creatinine clearance (eGFR) is under 60 mL/min or there are kidney stones, nephrocalcinosis or high urinary calcium, and when the patient cannot be followed up. Many surgeons also offer surgery to fit asymptomatic patients, because of the benefits to bone and cognition.
 
 # Localisation | Before a focused operation.
 ## The tests
@@ -61,7 +61,7 @@ Localisation does not make the diagnosis; the biochemistry does. Its purpose is 
 
 **Ultrasound** is cheap but operator-dependent. It shows a hypoechoic oval nodule behind the thyroid, often with a polar feeding vessel, but is poor for retrotracheal and mediastinal glands. **Sestamibi (technetium-99m MIBI) scintigraphy** relies on the fact that both thyroid and parathyroid take up the tracer but the mitochondria-rich adenoma *retains* it after the thyroid has washed out. It detects about 85 to 90% of single adenomas, less reliably small adenomas, double adenomas and hyperplasia, and SPECT or SPECT-CT gives a three-dimensional position.
 
-**Four-dimensional CT** shows the typical behaviour of an adenoma, with arterial enhancement and early washout, and is useful when the other scans disagree and before reoperation. Choline PET-CT is increasingly used, and MRI and selective venous sampling for PTH help in difficult reoperations.
+**Four-dimensional CT** shows the typical behaviour of an adenoma, with arterial enhancement and early washout, and is useful when the other scans disagree and before reoperation. ¹⁸F-fluorocholine PET-CT is increasingly used, finding more adenomas when the first-line scans are negative or discordant, and MRI and selective venous sampling for PTH help in difficult reoperations.
 !flag Concordance matters
 A *concordant* ultrasound and sestamibi scan localise a single adenoma in most patients and permit a focused approach. *Discordant* or negative scans suggest multigland disease or an ectopic gland. These patients need bilateral exploration by an experienced surgeon.
 !!
@@ -83,7 +83,7 @@ Persistent or recurrent hyperparathyroidism has a short list of causes: a missed
 
 # Hypoparathyroidism and hypocalcaemia | After thyroid and parathyroid surgery.
 ## Causes and features
-Hypoparathyroidism usually follows removal or devascularisation of the parathyroids during thyroidectomy or central neck dissection. Rarer causes are autoimmune disease, DiGeorge syndrome (absent third and fourth pouch derivatives), magnesium deficiency and infiltration.
+Hypoparathyroidism usually follows removal or devascularisation of the parathyroids during [[t:thyroid|thyroidectomy]] or central neck dissection. Rarer causes are autoimmune disease, DiGeorge syndrome (absent third and fourth pouch derivatives; [[t:paeds_neck]]), magnesium deficiency and infiltration.
 
 Symptoms usually appear 24 to 72 hours after surgery, starting with perioral and fingertip tingling and cramps and progressing to carpopedal spasm and tetany, laryngospasm with stridor, seizures, confusion, and a prolonged QT with arrhythmia. *Chvostek's sign* is twitching of the face when the facial nerve is tapped in front of the ear; because 5 to 10% of normal people have it, it should be recorded before surgery. *Trousseau's sign* is carpal spasm when a blood-pressure cuff is inflated above systolic pressure for three minutes.
 ## Management
@@ -91,7 +91,7 @@ Calcium is measured after total thyroidectomy, and a PTH level a few hours after
 
 Hypoparathyroidism lasting beyond six months is permanent and needs lifelong calcium and active vitamin D, aiming for a low-normal calcium to avoid hypercalciuria, with recombinant PTH in selected cases. It is prevented by capsular dissection, by identifying and preserving the glands with their blood supply, by autotransplanting any gland that is devascularised or removed by mistake, and by near-infrared autofluorescence to identify the glands.
 !update Current evidence
-**Who to operate on.** The Fifth International Workshop on asymptomatic primary hyperparathyroidism recommends surgery for all symptomatic patients, and for asymptomatic patients with serum calcium more than 0.25 mmol/l (1 mg/dl) above normal, osteoporosis or a vertebral fracture, eGFR below 60, kidney stones or nephrocalcinosis, hypercalciuria, or age under 50 (Bilezikian et al., *J Bone Miner Res* 2022). The American Association of Endocrine Surgeons guideline adds that surgery is reasonable even in patients who do not meet these criteria, because it is the only cure (Wilhelm et al., *JAMA Surg* 2016). **Localisation.** Ultrasound and sestamibi are first line; 4D-CT and ¹⁸F-fluorocholine PET-CT find more adenomas when these are negative or discordant. **Focused parathyroidectomy** with intraoperative PTH (a fall of more than 50% at ten minutes) cures about 95 to 98%.
+**Who to operate on.** The criteria under Indications for surgery are those of the Fifth International Workshop on asymptomatic primary hyperparathyroidism (Bilezikian et al., *J Bone Miner Res* 2022); the American Association of Endocrine Surgeons guideline is the basis for offering surgery to patients who do not meet them, because it is the only cure (Wilhelm et al., *JAMA Surg* 2016). **Focused parathyroidectomy** with intraoperative PTH cures about 95 to 98%.
 !!
 
 # For the examination | What the examiner wants to hear.

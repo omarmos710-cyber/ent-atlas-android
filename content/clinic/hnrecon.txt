@@ -2,7 +2,7 @@
 
 # Principles | Defect analysis and the ladder.
 ## What is missing
-Every defect is analysed in the same way. First, which tissues have gone: skin, mucosal lining, muscle, bone, cartilage or nerve. Second, what each did, because the reconstruction must restore function as well as form: a skeleton for occlusion, contour and *dental implants*; cover for vital structures such as the carotid, dura and brain; oral competence and a lip sphincter; pliable, mobile tissue for tongue movement, speech and swallowing; and volume, sensation and secreting mucosa. Third, the state of the bed: irradiation, infection, a fistula and the vessels available, remembering that irradiated or infected beds need *vascularised* tissue. Finally, the patient's health, prognosis and wishes.
+Every defect is analysed in the same way; skin cancer defects follow the same ladder ([[t:skinca]]). First, which tissues have gone: skin, mucosal lining, muscle, bone, cartilage or nerve. Second, what each did, because the reconstruction must restore function as well as form: a skeleton for occlusion, contour and *dental implants*; cover for vital structures such as the carotid, dura and brain; oral competence and a lip sphincter; pliable, mobile tissue for tongue movement, speech and swallowing; and volume, sensation and secreting mucosa. Third, the state of the bed: irradiation, infection, a fistula and the vessels available, remembering that irradiated or infected beds need *vascularised* tissue. Finally, the patient's health, prognosis and wishes.
 ## The reconstructive ladder (and the elevator)
 1. **Healing by secondary intention:** good for *concave* sites (medial canthus, temple, conchal bowl, nasolabial groove, glabella); bad near *free margins* (eyelid, ala, lip), which contract and distort.
 2. **Primary closure:** along relaxed skin tension lines, as a fusiform excision about three times as long as it is wide.
@@ -20,7 +20,7 @@ A skin graft survives for about 48 hours by plasmatic *imbibition*, and then by 
 
 **Split-thickness grafts**, taken with a dermatome from the thigh or buttock, take more reliably but *contract more* and match colour poorly; they line the mouth and maxillectomy cavities and cover the scalp over periosteum and free flap donor sites. **Full-thickness grafts**, defatted and taken from postauricular, preauricular, upper eyelid or supraclavicular skin, contract less and match better, so they are used on the nose, eyelids and ear.
 ## Cartilage, bone and nerve grafts
-**Septal cartilage** is harvested leaving an L-strut of 1 to 1.5 cm; curved **conchal cartilage** suits the ala and ear; and **costal cartilage** is plentiful for the dorsum and microtia but can warp. **Composite** skin–cartilage grafts from the ear repair alar rim and columella defects up to about 1 to 1.5 cm.
+**Septal cartilage** is harvested leaving an L-strut of 1 to 1.5 cm; curved **conchal cartilage** suits the ala and ear; and **costal cartilage** is plentiful for the dorsum and microtia ([[t:atresia]]) but can warp. **Composite** skin–cartilage grafts from the ear repair alar rim and columella defects up to about 1 to 1.5 cm.
 
 **Cortical bone** from split calvaria, rib or iliac crest rebuilds the orbital floor, nasal dorsum and facial buttresses, and **cancellous bone** from the iliac crest fills alveolar clefts and small mandibular gaps. Every free bone graft needs a well-vascularised, unirradiated bed and rigid fixation, and all resorb to some degree.
 
@@ -33,7 +33,7 @@ Random-pattern local flaps live on the subdermal plexus. On the well-vascularise
 ## Types
 **Advancement** flaps include the V-Y and the unipedicle and bipedicle flaps of the forehead and of the lip with a crescentic perialar excision. **Rotation** flaps include the cervicofacial and scalp flaps. **Transposition** flaps include the *rhomboid (Limberg)* flap, the *bilobed (Zitelli)* flap for defects up to about 1.5 cm on the lower third of the nose, the *nasolabial (melolabial)* flap for the ala, and the note flap.
 
-**Interpolated** flaps pass over or under intact skin and are divided later. The *paramedian forehead flap*, on the *supratrochlear artery* and divided at three weeks, is the workhorse for large or full-thickness nasal defects; the interpolated nasolabial flap and the *Abbe* cross-lip flap are the others. A full-thickness nasal defect needs all *three layers* rebuilt: lining from local mucosal flaps or a turnover flap, a framework of cartilage grafts, and cover from the forehead flap.
+**Interpolated** flaps pass over or under intact skin and are divided later. The *paramedian forehead flap*, on the *supratrochlear artery* and divided at three weeks, is the workhorse for large or full-thickness nasal defects ([[t:facplast]]); the interpolated nasolabial flap and the *Abbe* cross-lip flap are the others. A full-thickness nasal defect needs all *three layers* rebuilt: lining from local mucosal flaps or a turnover flap, a framework of cartilage grafts, and cover from the forehead flap.
 !ops 165 171 164 163 | Paramedian forehead, cervicofacial and scalp flaps, and nasal reconstruction.
 ## Lip reconstruction
 !table Full-thickness lip defects
@@ -58,16 +58,16 @@ Submental island | Submental branch of the facial artery | Oral cavity and face 
 Sternocleidomastoid | Occipital, superior thyroid, transverse cervical | Small buttress; parotid contour
 Trapezius (lateral, lower island) | Transverse cervical and dorsal scapular arteries | Posterior neck, scalp
 Latissimus dorsi (pedicled) | Thoracodorsal artery | Large defects of neck and scalp
-Nasoseptal, turbinate, pericranial | Septal artery, sphenopalatine branches, supraorbital and supratrochlear | Skull base
+Nasoseptal, turbinate, pericranial | Septal artery, sphenopalatine branches, supraorbital and supratrochlear | Skull base ([[t:skullbase]])
 Palatal island | Greater palatine artery | Palate and nasopharynx
 !!
 !ops 170 169 172 167 168 | Pectoralis major, deltopectoral, trapezius and latissimus, temporoparietal fascia and temporalis flaps.
 
 # Free flaps | Microvascular transfer.
 ## Principles
-Free flaps are joined to recipient arteries such as the facial, superior thyroid, lingual or transverse cervical, and to the internal jugular vein end-to-side or the external jugular or facial veins; a previously treated neck may need a contralateral approach or vein grafts. Two teams work together, ischaemia time is kept short (bowel is the most sensitive, then muscle, then bone), and the pedicle is laid out without kinking, twisting or tension. Success rates are about 95 to 99%.
+Free flaps are joined to recipient arteries such as the facial, superior thyroid, lingual or transverse cervical, and to the internal jugular vein end-to-side or the external jugular or facial veins; a previously treated neck may need a contralateral approach or vein grafts. Two teams work together, ischaemia time is kept short (bowel is the most sensitive, then muscle, then bone), and the pedicle is laid out without kinking, twisting or tension. Success rates are about 95 to 99% in experienced units.
 
-*Most failures occur within 72 hours*, usually from venous thrombosis, so the flap is checked hourly at first for colour, capillary refill, temperature and pinprick bleeding, with a hand-held or implantable Doppler. The patient is kept warm, well filled and normotensive, vasoconstrictors are avoided where possible, and aspirin or heparin is given according to unit policy. **Venous congestion** makes the flap purple and swollen with brisk dark bleeding; **arterial insufficiency** makes it pale and cool with no bleeding. Either means an urgent return to theatre, because salvage is far more likely within hours.
+*Most failures occur within 48 to 72 hours*, usually from venous thrombosis, so the flap is checked hourly at first for colour, capillary refill, temperature and pinprick bleeding, with a hand-held or implantable Doppler. The patient is kept warm, well filled and normotensive, vasoconstrictors are avoided where possible, and aspirin or heparin is given according to unit policy. **Venous congestion** makes the flap purple and swollen with brisk dark bleeding; **arterial insufficiency** makes it pale and cool with no bleeding. Either means an urgent return to theatre, because salvage is far more likely within hours.
 ## The workhorse flaps
 !table Common free flaps
 Flap | Pedicle | Tissue | Typical use
@@ -89,14 +89,14 @@ The **tongue** needs thin, mobile tissue after partial glossectomy, so a radial 
 
 # Facial reanimation | Time decides the method.
 ## Questions to ask
-1. What caused the palsy, and is the nerve in continuity?
+1. What caused the palsy ([[t:facial]]), and is the nerve in continuity?
 2. Is the proximal stump available?
 3. *How long has the face been paralysed?* Facial muscles survive denervation for about 18 to 24 months, after which motor end plates are lost and muscle atrophies.
 4. Which regions are affected, and what does the patient want: eye protection, symmetry at rest, a smile?
 ## Protect the eye first
 Whatever else is planned, the cornea is protected first: lubricating drops by day and ointment at night, taping and a moisture chamber. A *gold or platinum weight* in the upper lid helps it close, a lateral tarsal strip or canthoplasty tightens a lax lower lid, a brow lift corrects brow ptosis, and a tarsorrhaphy is done if the cornea is at risk. Botulinum toxin to the levator produces a temporary protective ptosis.
 ## Restoring the nerve (within about 18 to 24 months)
-A nerve cut at the time of injury is repaired at once by tension-free epineurial **neurorrhaphy**, and any transection in the temporal bone or at parotidectomy is repaired immediately. Where the gap is 1 cm or more, an **interposition graft** of great auricular or sural nerve is used; function returns at 6 to 12 months, usually with some *synkinesis*. Branches medial to a vertical line through the lateral canthus are usually not repaired, because of cross-innervation.
+A nerve cut at the time of injury is repaired at once by tension-free epineurial **neurorrhaphy**, and any transection in the temporal bone or at [[t:saltum|parotidectomy]] is repaired immediately. Where the gap is 1 cm or more, an **interposition graft** of great auricular or sural nerve is used; function returns at 6 to 12 months, usually with some *synkinesis*. Branches medial to a vertical line through the lateral canthus are usually not repaired, because of cross-innervation.
 
 When the proximal stump is unavailable but the distal nerve and muscle are still viable, a **nerve transfer** is used. The *masseteric-to-facial* (V to VII) transfer is now the commonest: fast, strong and with little morbidity, though the smile is driven by biting and is usually not spontaneous. The *hypoglossal-to-facial* (XII to VII) transfer, done as a partial split or jump-graft technique to limit tongue atrophy, gives good tone but synkinesis. *Cross-face nerve grafting* carries axons from the contralateral buccal branches through a sural graft, with a second stage once Tinel's sign shows they have crossed at about 8 to 12 months. It is the only method that gives a *spontaneous, emotional smile*, but it is weaker, so it is often combined with a masseteric transfer acting as a "*babysitter*" to keep the muscles alive.
 ## Long-standing palsy (muscle lost)
@@ -109,7 +109,7 @@ Aberrant regeneration after Bell's palsy or nerve repair produces involuntary co
 ## Beyond tissue transfer
 Auricular, nasal and orbital **prostheses** retained by *osseointegrated implants* or adhesives, and palatal *obturators* after maxillectomy, suit the elderly and the irradiated, follow failed reconstruction, and allow the cavity to be inspected for recurrence. **Tissue expansion** recruits skin for the scalp and neck. **Virtual surgical planning** uses CT-based 3D models, cutting guides and custom plates for mandibular and maxillary reconstruction. **Facial allotransplantation** of composite tissue has been done for devastating defects, but lifelong immunosuppression, rejection and ethical questions still limit it.
 !update Current evidence
-**Free flaps** succeed in about 95 to 99% in experienced units; most failures are venous and occur in the first 48 to 72 hours, so hourly flap checks in that period and early return to theatre are the keys to salvage. **The anterolateral thigh flap** became a workhorse after a series of 672 flaps showed it to be reliable and versatile, with low donor morbidity (Wei et al., *Plast Reconstr Surg* 2002). **Virtual surgical planning** with cutting guides improves the accuracy of fibula reconstruction of the mandible and shortens operating time in comparative studies. **Facial reanimation.** For palsies of under about 18 months with viable facial muscles, nerve transfer (masseteric or hypoglossal) gives tone and movement; for long-standing palsy, a free functional muscle transfer (usually gracilis) is needed.
+**The anterolateral thigh flap** became a workhorse after a series of 672 flaps showed it to be reliable and versatile, with low donor morbidity (Wei et al., *Plast Reconstr Surg* 2002). **Virtual surgical planning** with cutting guides improves the accuracy of fibula reconstruction of the mandible and shortens operating time in comparative studies.
 !!
 
 # For the examination | What the examiner wants to hear.
