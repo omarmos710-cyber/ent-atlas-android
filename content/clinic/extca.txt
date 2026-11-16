@@ -9,7 +9,7 @@ Canal, benign | Osteoma, exostoses | ceruminous adenoma, papilloma
 Canal, malignant | Squamous cell carcinoma | basal cell carcinoma, adenoid cystic and ceruminous carcinoma, melanoma
 !!
 ## Where ear cancers arise
-About 85% on the pinna, 10% in the canal and 5% in the middle ear.
+About 85% on the pinna, 10% in the canal and 5% in the middle ear ([[t:tumear]]).
 
 # Benign lesions of the pinna | Lumps that are not cancer.
 ## Keloid
@@ -18,6 +18,7 @@ Overgrowth of scar after piercing, more common in darker skin. Excision alone re
 !differ Radiotherapy for keloid
 Dhingra: Postoperative radiation is an option.
 Lee: Radiation is rarely used.
+In practice: Combine excision with steroid injection or pressure clips; radiotherapy is used rarely.
 !!
 ## Haemangioma and vascular malformations
 A *strawberry haemangioma* grows in the first year and regresses by about five years; a *port-wine stain* does not. Venolymphatic malformations may need excision.
@@ -38,6 +39,7 @@ A nodule with a pearly, rolled, beaded edge and central crusting, usually behind
 !differ The commonest ear malignancy
 Dhingra: Emphasises squamous carcinoma on the helix.
 Lee: Basal cell carcinoma is the commonest, at about 45%.
+In practice: Basal cell carcinoma is the commonest; squamous carcinoma is the typical helical ulcer and the one that spreads to nodes.
 !!
 ## Melanoma
 A pigmented, irregular lesion; spreads early to the parotid and neck nodes.
@@ -53,16 +55,12 @@ A pigmented, irregular lesion; spreads early to the parotid and neck nodes.
 Number | Single | Multiple
 Sides | One | Usually both
 Shape | Smooth, pedunculated | Sessile, broad-based
-Site | Outer canal, at the bony-cartilaginous junction | Deep canal, near the drum
+Site | Outer bony canal, near the bony-cartilaginous junction, at a suture line | Deep bony canal, near the drum, from the anterior and posterior walls
 Cause | True benign tumour | Reaction to cold water (swimmers, surfers)
 !!
 !fig d16-4 | An osteoma arising from the anterior wall of the right ear canal (arrow).
-!differ Site of exostoses
-Dhingra: Deep in the canal, near the drum.
-Lee: On the anterior and posterior canal walls.
-!!
 ## Treatment
-None if small. When they block the canal, trap wax or cause recurrent otitis externa: an osteoma can be removed by fracturing its pedicle or drilling; exostoses are drilled away through the canal or a postauricular approach.
+None if small. When they block the canal, trap wax or cause recurrent otitis externa: an osteoma can be removed by fracturing its pedicle or drilling; exostoses are drilled away through the canal or a postauricular approach. Their effect on the canal, and recurrence after cold water, are covered in [[t:canal]].
 !pearl Pearl
 Use a drill, not a gouge and hammer, for exostoses: the facial nerve lies close to the posterior canal wall.
 !!
@@ -86,7 +84,7 @@ Sleeve or lateral temporal bone resection, with parotidectomy and neck dissectio
 !imaging | Canal carcinoma and exostoses.
 - Examine the anterior and posterior auricular, parotid and upper cervical nodes.
 ## Differential diagnosis
-Chondrodermatitis nodularis helicis, perichondritis, necrotising otitis externa and granulation from chronic otitis.
+Chondrodermatitis nodularis helicis, perichondritis ([[t:perich]]), necrotising otitis externa ([[t:oe]]) and granulation from chronic otitis ([[t:csom]]).
 !update Current evidence
 **Skin cancer of the ear.** The ear is a high-risk site for both basal and squamous cell carcinoma; NCCN and British Association of Dermatologists guidelines recommend wider margins (or Mohs micrographic surgery) for high-risk tumours, with SCC of the ear carrying a higher risk of nodal spread to the parotid and neck than other sites. **Melanoma** of the ear is managed by wide local excision with sentinel node biopsy for tumours over 0.8 mm thick, following general melanoma guidelines. **Chondrodermatitis nodularis** responds in most cases to pressure relief (a pillow with a hole), with excision of cartilage for persistent lesions.
 !!

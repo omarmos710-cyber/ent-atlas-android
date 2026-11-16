@@ -2,7 +2,7 @@
 
 # Overview | A fracture through the hearing bone.
 ## Epidemiology
-Most fractures follow road traffic accidents, then assaults and falls. Young adult men in their second to fourth decades are affected about three times as often as women. A fracture is found in a substantial share of patients with significant head injury.
+The temporal bone is involved in 30 to 70% of head injuries, but only 14 to 22% of these produce a true fracture. Most fractures follow road traffic accidents, then assaults and falls. Young adult men in their second to fourth decades are affected about three times as often as women.
 ## Why it matters
 The temporal bone contains the cochlea, the labyrinth, the facial nerve, the ossicles, the carotid artery and the dura. A fracture can damage any of them, and early documentation of facial function and hearing shapes every later decision.
 
@@ -22,14 +22,14 @@ Blow | Side of the head | Back of the head
 Drum | Torn, bleeding from the ear | Intact, haemotympanum
 Hearing | Conductive | Sensorineural
 Vertigo | Less common | Severe
-Facial palsy | About 20%, often delayed | About 50%, often immediate
+Facial palsy | 10 to 20%, often delayed | About 50%, often immediate
 !!
 ## Modern: does it involve the otic capsule?
-*Otic capsule sparing* fractures are by far the commonest; *otic capsule violating* fractures, only about 6%, are much more likely to cause facial palsy, sensorineural hearing loss, CSF leak and meningitis. This system predicts outcome better.
+The old longitudinal–transverse scheme fails to describe the many mixed fractures. The modern scheme asks one question instead: is the otic capsule broken? *Otic capsule sparing* fractures are by far the commonest; *otic capsule violating* fractures, only about 6%, are much more likely to cause facial palsy, sensorineural hearing loss, CSF leak and meningitis. This system predicts outcome better.
 !differ Longitudinal or transverse
 Dhingra: Teaches conductive loss with longitudinal and sensorineural loss with transverse fractures.
 Lee: Modern series do not fit the old categories neatly; the otic capsule system predicts outcome better.
-Know both: the old table is still examined.
+In practice: Describe the fracture as otic capsule sparing or violating to predict outcome, and know the old table, which is still examined.
 !!
 
 # Clinical features | Look, listen, test the face.
@@ -39,15 +39,15 @@ Signs of head injury and of a base of skull fracture: *Battle's sign* (bruising 
 Bleeding from the ear with a torn drum or a step in the canal wall (longitudinal), or a blue-black drum from blood in the middle ear (*haemotympanum*) behind an intact drum (transverse).
 ## Hearing
 ### Conductive loss
-From haemotympanum (the commonest early cause), a perforation, or ossicular injury: incudostapedial joint separation first, then dislocation of the incus, then fracture of the stapes crura.
+From haemotympanum (the commonest early cause), a perforation, or ossicular injury: incudostapedial joint separation first (about 80% of ossicular injuries), then dislocation of the incus, then fracture of the stapes crura. An ossicular injury gives a conductive loss of at least 30 dB.
 ### Sensorineural loss
 From fracture through the cochlea or a labyrinthine concussion; often permanent. Mixed losses are common.
 ## Vertigo
 Severe vertigo with spontaneous nystagmus after a transverse fracture through the labyrinth; milder, positional vertigo after concussion or BPPV.
 ## Facial nerve
-Record whether the palsy was immediate or delayed, and complete or incomplete. An immediate complete palsy suggests transection or a bone spicule in the nerve; a delayed palsy suggests oedema and usually recovers.
+About a quarter of fractures cause facial palsy: about half of transverse fractures and 10 to 20% of longitudinal ones (texts give anywhere from a tenth to a fifth). Record whether the palsy was immediate or delayed, and complete or incomplete. An immediate complete palsy suggests transection or a bone spicule in the nerve. In about three-quarters the onset is delayed, by one to sixteen days; a delayed palsy suggests oedema and predicts a good recovery.
 ## CSF leak
-Clear fluid from the ear (CSF otorrhoea) through a torn drum, or from the nose (CSF otorhinorrhoea) via the Eustachian tube behind an intact drum.
+A CSF leak complicates about 17% of fractures: clear fluid from the ear (CSF otorrhoea) through a torn drum, or from the nose (CSF otorhinorrhoea) via the Eustachian tube behind an intact drum.
 
 # Investigations | Image the bone and confirm the fluid.
 ## High-resolution CT of the temporal bones
@@ -56,7 +56,7 @@ Shows the fracture line, the otic capsule, the ossicles, the facial canal and th
 ## Beta-2 transferrin
 Confirms that the fluid is CSF.
 ## Audiogram
-As soon as practical, and repeated at six to eight weeks when blood has cleared from the middle ear.
+Best done two to three days after injury, once the patient is awake, and repeated at six to eight weeks when blood has cleared from the middle ear.
 ## Electroneuronography
 For a complete facial palsy, to guide decisions on exploration.
 
@@ -70,9 +70,9 @@ For a complete facial palsy, to guide decisions on exploration.
 5. Arrange HRCT of the temporal bones, and CT angiography if the carotid canal is involved.
 !!
 ## CSF leak
-Most stop within a week or two with the head raised, bed rest, stool softeners and avoiding nose blowing and straining. Routine prophylactic antibiotics are not recommended. A persistent leak, or meningitis, needs a lumbar drain or surgical repair.
+Most stop within a week or two with the head raised, bed rest, stool softeners and avoiding nose blowing and straining. Routine prophylactic antibiotics are not recommended. A persistent leak, or meningitis, needs a lumbar drain or surgical repair. Patients with otic capsule violating fractures need pneumococcal vaccination and advice to seek help for fever and headache (see Complications below).
 ## Facial palsy
-Immediate complete palsy with evidence of nerve injury is explored and decompressed or repaired. Delayed palsy is managed with steroids and observation, with serial ENoG (see the facial nerve topic).
+Immediate complete palsy with evidence of nerve injury is explored and decompressed or repaired. Delayed palsy is managed with steroids and observation, with serial ENoG ([[t:facial]]). During recovery, the Sunnybrook scale records synkinesis better than House–Brackmann.
 ## Hearing
 Haemotympanum clears in weeks. A conductive loss persisting at six to eight weeks suggests ossicular injury and is explored and reconstructed. Sensorineural loss is rehabilitated with aids or, if profound, a cochlear implant.
 !ops
@@ -86,9 +86,8 @@ Short-term vestibular sedatives, then vestibular rehabilitation; treat post-trau
 - **Late cholesteatoma,** from skin trapped in the fracture line.
 - **Chronic vertigo** and perilymph fistula.
 - **Carotid injury** and dissection.
-## Figures and late problems
-The temporal bone is involved in 30 to 70% of head injuries, but only 14 to 22% of these produce a true fracture, mostly from road traffic accidents and falls. The old longitudinal–transverse scheme fails to describe the many mixed fractures, which is why *otic capsule-sparing* versus *otic capsule-violating* is now preferred: it predicts sensorineural loss, facial palsy and CSF leak better. Ossicular injury most often dislocates the incudostapedial joint (about 80%) and gives a conductive loss of at least 30 dB. About a quarter of fractures cause facial palsy (half of transverse and a tenth of longitudinal), and in about three-quarters of these the onset is delayed by one to sixteen days, which predicts a good recovery. A CSF leak complicates about 17%.
-Bone of the otic capsule heals only by fibrous union, so capsule-violating fractures leave a weak barrier: CSF leaks can recur with coughing or straining, meningitis can occur years later, and meningoceles or encephaloceles may present long after the injury with a conductive loss, an effusion or meningitis. Patients with these fractures need pneumococcal vaccination and advice to seek help for fever and headache. Audiometry is best done two to three days after injury (after the patient wakes) and repeated; the Sunnybrook scale records synkinesis better than House–Brackmann during recovery.
+## Why capsule-violating fractures cause late problems
+Bone of the otic capsule heals only by fibrous union, so these fractures leave a weak barrier: CSF leaks can recur with coughing or straining, meningitis can occur years later, and meningoceles or encephaloceles may present long after the injury with a conductive loss, an effusion or meningitis.
 !update Current evidence
 **Classification.** In a review of 820 temporal bone fractures, otic capsule-violating fractures were far more likely to cause facial palsy, CSF leak and sensorineural loss than capsule-sparing ones (Brodie and Thompson, *Am J Otol* 1997); later comparisons confirmed that this scheme predicts complications better than the longitudinal–transverse system (Little and Kesser, *Arch Otolaryngol Head Neck Surg* 2006). **CSF leak.** A Cochrane review found no evidence that prophylactic antibiotics prevent meningitis after basal skull fracture (Ratilal et al., 2015). **Facial palsy.** Delayed or incomplete palsies have an excellent prognosis with conservative management; evidence for decompression in immediate complete palsy comes from case series using ENoG thresholds (degeneration over 90% within two weeks).
 !!

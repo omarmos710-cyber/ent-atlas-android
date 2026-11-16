@@ -11,7 +11,7 @@ Severe to profound loss with poor speech understanding | Cochlear implant
 No cochlear nerve, NF2 | Auditory brainstem implant
 !!
 ## Beyond devices
-Assistive listening devices (loop systems, FM and remote microphones), alerting devices, speech reading, auditory training and speech conservation.
+Assistive listening devices (loop systems, FM and remote microphones), alerting devices, speech reading, auditory training and speech conservation. In adults, treating hearing loss may slow cognitive decline.
 ## Two ears are better than one
 Bilateral fitting gives the *head shadow* effect, *binaural summation* (sound seems about 3 dB louder) and *squelch* (better hearing in noise), and restores sound localisation.
 
@@ -38,24 +38,30 @@ Whistling from sound leaking back to the microphone; better moulds and feedback 
 ## How they work
 Sound vibrates the skull directly and reaches both cochleas, bypassing the canal and middle ear.
 ## Types
-Conventional bone-conduction aids on a headband or spectacles; *percutaneous* bone-anchored devices fixed to an osseointegrated titanium implant through the skin; and *transcutaneous* (magnetic) devices under intact skin.
+- **Conventional bone-conduction aids** on a headband or spectacles.
+- **Skin-drive** (passive transcutaneous, magnetic) devices, such as Baha Attract and the adhesive Adhear: the vibration passes through intact skin and loses energy on the way, so they are being superseded.
+- **Direct-drive** devices, either *percutaneous*, with an abutment through the skin onto an osseointegrated titanium implant (Baha Connect, Ponto), or *active transcutaneous*, with the vibrator implanted under intact skin (Bonebridge, Osia).
 !fig d20-2 d20-3 | First, a bone-anchored device: titanium fixture, abutment and sound processor. Second, the device worn.
 ## Indications
 - Chronic discharging ears that cannot tolerate an aid.
 - Canal atresia and microtia.
 - Conductive or mixed loss where surgery is unsuitable.
 - Single-sided deafness with a good other ear (about 20 dB or better), sending sound across the skull.
+- In aural atresia, a headband aid is started by about six months, with a definitive implant at about four to five years ([[t:atresia]]).
+### UK criteria
+A conductive or mixed loss, or single-sided deafness, with bone conduction in the fitting range and stable (no more than 15 dB change at two or more frequencies over two years); failure or unsuitability of a conventional or CROS aid after at least four weeks; and benefit from a trial on a headband for at least 14 days.
 ## Practical points
 Osseointegration takes about three months, longer in children. Complications include failed integration and skin reactions around the abutment. A bone-anchored device does not restore localisation.
+## CROS and BiCROS aids
+A microphone on the deaf side sends sound wirelessly to the better ear; BiCROS adds amplification for a better ear that also has some loss.
 !differ Single-sided deafness
 Dhingra: Bone-anchored devices have replaced CROS aids.
 Lee: CROS aids remain an option.
+In practice: A CROS aid is tried first (at least four weeks under the UK criteria); a bone-conduction device follows a headband trial; a cochlear implant, which gives better localisation and speech in noise, is increasingly offered.
 !!
-## CROS and BiCROS aids
-A microphone on the deaf side sends sound wirelessly to the better ear; BiCROS adds amplification for a better ear that also has some loss.
 
 # Middle ear implants | Driving the ossicles directly.
-A transducer fixed to an ossicle or the round window, driven electromagnetically or piezoelectrically. For adults with moderate to severe sensorineural or mixed loss who are unhappy with conventional aids, and some conductive losses. The canal is left open.
+A transducer fixed to an ossicle or the round window, driven electromagnetically or piezoelectrically. The commonest is the Vibrant Soundbridge, whose *floating mass transducer* drives the incus, stapes or round window. For adults with moderate to severe sensorineural or mixed loss who are unhappy with or cannot wear conventional aids but have a cochlea worth amplifying, and some conductive losses. The canal is left open.
 
 # Cochlear implants | Bypassing the cochlea.
 ## Principle
@@ -64,12 +70,15 @@ An external microphone and processor convert sound into electrical patterns, sen
 !anat s70_5 | Cross-section of the cochlea: the electrode lies in the scala tympani, next to the spiral ganglion.
 ## Candidates
 ### Adults
-Severe to profound bilateral sensorineural loss with limited benefit from well-fitted aids. Lee gives moderate to profound loss with an aided sentence score of 50% or less in the ear to be implanted and 60% or less best-aided.
+Severe to profound bilateral sensorineural loss with limited benefit from well-fitted aids.
+- **UK (NICE TA566, 2019):** severe to profound loss (80 dB HL at two or more frequencies) with inadequate benefit from aids (Arthur Boothroyd words 50% or less).
+- **Another widely used set:** moderate to profound loss with an aided sentence score of 50% or less in the ear to be implanted and 60% or less best-aided.
 ### Children
-From about twelve months, with severe to profound loss and little benefit after a three to six month trial of aids. The trial is waived after meningitis, when ossification threatens.
+Severe to profound loss with little benefit after a three to six month trial of aids. The trial is waived after meningitis, when ossification threatens. Children with profound bilateral loss are implanted on both sides, simultaneously (NICE recommends bilateral simultaneous implants for children, and for adults with additional disabilities such as blindness).
 !differ Age of implantation
 Dhingra: From twelve months.
 Lee: Earlier implantation is safe and may help language.
+In practice: Implant ideally between 9 and 12 months, and on both sides at once for profound bilateral loss.
 !!
 ### Outcomes
 Duration of deafness and pre-operative speech scores explain most of the variation. Postlingually deafened adults often achieve high sentence scores; children implanted early commonly join mainstream schools; prelingually deaf adults gain mostly sound awareness, because the window for language (birth to about two years) has passed.
@@ -79,10 +88,11 @@ Medical review; audiology with an aid trial; MRI to show the cochlear nerve and 
 ## Contraindications
 Complete cochlear or labyrinthine aplasia (Michel), complete ossification, and an absent cochlear nerve. Retrocochlear disease is a relative contraindication.
 ## The operation
-Cortical mastoidectomy, posterior tympanotomy through the facial recess, entry into the scala tympani through the round window or a cochleostomy, slow insertion of the array, sealing, and testing of the device. *Soft surgery* (a flexible array, the round window route, slow insertion, no suction of perilymph, and steroids) preserves residual hearing. In an ossified cochlea, the basal turn is drilled out or a split array used.
+Cortical mastoidectomy, posterior tympanotomy through the facial recess, entry into the scala tympani through the round window or a cochleostomy, slow insertion of the array, sealing, and testing of the device. Implantation now aims to preserve the cochlea and any residual hearing: *soft surgery* uses a flexible array, the round window route, slow insertion over minutes to avoid basilar membrane rupture, no suction of perilymph, and steroids. In an ossified cochlea, the basal turn is drilled out or a split array used.
 !differ Route into the cochlea
 Dhingra: Describes a cochleostomy.
 Lee: Prefers the round window.
+In practice: Both reach the scala tympani; the round window route is part of soft surgery to save residual hearing.
 !!
 !ops
 ## After surgery
@@ -104,14 +114,9 @@ Implant recipients are vaccinated against pneumococcus (PCV13, then PPSV23 at le
 !!
 
 # Auditory brainstem implant | When there is no nerve.
-An electrode placed on the cochlear nucleus, through the lateral recess of the fourth ventricle, for patients without a usable cochlear nerve: neurofibromatosis type 2, nerve aplasia, or complete cochlear ossification. Results are more modest than with cochlear implants.
-# The implant family today | Devices at each level.
-## Bone-conduction and middle ear implants
-Implantable devices act at different levels of the pathway. **Bone-conduction hearing devices** bypass the outer and middle ear. *Skin-drive* (passive transcutaneous) devices, such as Baha Attract and the adhesive Adhear, lose energy through the skin and are being superseded. *Direct-drive* devices are either *percutaneous*, with an abutment through the skin (Baha Connect, Ponto), or *active transcutaneous*, with the vibrator implanted under intact skin (Bonebridge, Osia). UK criteria require a conductive or mixed loss, or single-sided deafness, with bone conduction in the fitting range and stable (no more than 15 dB change at two or more frequencies over two years), failure or unsuitability of a conventional or CROS aid after at least four weeks, and benefit from a trial on a headband for at least 14 days. **Active middle ear implants**, most often the Vibrant Soundbridge, drive the incus, stapes or round window with a floating mass transducer, and suit patients who cannot wear an aid but have a cochlea worth amplifying.
-## Cochlear and brainstem implants
-**Cochlear implantation** now aims to preserve the cochlea and any residual hearing: a round window or cochleostomy approach into the scala tympani, slow insertion over minutes to avoid basilar membrane rupture, and steroids. Children with profound bilateral loss are implanted on both sides, simultaneously, ideally between 9 and 12 months. In aural atresia, a headband bone-conduction aid is started by about six months, with a definitive implant at about four to five years. **Auditory brainstem implants** stimulate the cochlear nucleus when a cochlear implant cannot work: neurofibromatosis type 2, cochlear or nerve aplasia, and severe cochlear ossification after meningitis or fracture. In adults, treating hearing loss may slow cognitive decline.
+An electrode placed on the cochlear nucleus, through the lateral recess of the fourth ventricle, when a cochlear implant cannot work: neurofibromatosis type 2, cochlear or nerve aplasia, or severe or complete cochlear ossification after meningitis or fracture. Results are more modest than with cochlear implants.
 !update Current evidence
-**Hearing aids.** A Cochrane review found that hearing aids improve hearing-specific quality of life, listening ability and communication in adults with mild to moderate loss, with high-certainty evidence (Ferguson et al., 2017). **Cochlear implants.** NICE (TA566, 2019) recommends implants for severe to profound loss (80 dB HL at two or more frequencies) with inadequate benefit from aids (Arthur Boothroyd words 50% or less), and bilateral simultaneous implants for children and for adults with additional disabilities such as blindness. **Cognition.** In the ACHIEVE trial, hearing intervention slowed cognitive decline in older adults at higher risk of dementia (Lin et al., *Lancet* 2023). **Single-sided deafness.** Cochlear implantation gives better localisation and speech in noise than CROS or bone-conduction devices in randomised and comparative studies, and is increasingly offered.
+**Hearing aids.** A Cochrane review found that hearing aids improve hearing-specific quality of life, listening ability and communication in adults with mild to moderate loss, with high-certainty evidence (Ferguson et al., 2017). **Cognition.** In the ACHIEVE trial, hearing intervention slowed cognitive decline in older adults at higher risk of dementia (Lin et al., *Lancet* 2023). **Single-sided deafness.** Cochlear implantation gives better localisation and speech in noise than CROS or bone-conduction devices in randomised and comparative studies, and is increasingly offered.
 !!
 
 # For the examination | What the examiner wants to hear.
