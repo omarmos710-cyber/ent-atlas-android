@@ -25,7 +25,7 @@ Tumour | Vestibular schwannoma | other cerebellopontine angle tumours, metastase
 Other | Ototoxic drugs | multiple sclerosis, hypothyroidism, sarcoidosis, autoimmune disease, non-organic loss
 !!
 !pearl Perilymph fistula
-A leak at the oval or round window may follow stapes surgery, barotrauma, heavy lifting or straining. Spontaneous fistula is possible but probably over-diagnosed.
+A leak at the oval or round window may follow stapes surgery, barotrauma, heavy lifting or straining. Spontaneous fistula is possible but probably over-diagnosed ([[t:fistula]]).
 !!
 
 # Clinical features | One ear, often on waking.
@@ -57,8 +57,8 @@ Not routine for everyone: the American guideline advises against routine laborat
 Exploratory tympanotomy only when a fistula is strongly suspected, after trauma or straining.
 ## Differential diagnosis
 - Wax or middle ear effusion: forks and tympanometry.
-- Ménière's disease: fluctuation, low-frequency loss, attacks of vertigo.
-- Vestibular schwannoma: MRI.
+- [[t:meniere|Ménière's disease]]: fluctuation, low-frequency loss, attacks of vertigo.
+- [[t:vs|Vestibular schwannoma]]: MRI.
 - Anterior inferior cerebellar artery stroke: vertigo, ataxia, facial weakness.
 - Non-organic hearing loss: inconsistent results, objective tests normal.
 
@@ -74,7 +74,7 @@ Exploratory tympanotomy only when a fistula is strongly suspected, after trauma 
 !!
 ## Steroids
 ### Oral
-Prednisolone 1 mg/kg (up to about 60 mg) a day for 7 to 14 days, then tapered, started as early as possible and ideally within two weeks (benefit is unlikely after six weeks). Check glucose and blood pressure, and warn about mood, sleep and stomach effects. Dhingra gives prednisolone 40 to 60 mg each morning for a week, tapered over three weeks. Higher doses do not help: in the HODOKORT trial, very high-dose glucocorticoids gave no better hearing than the standard dose and caused more side effects.
+Prednisolone 1 mg/kg (up to about 60 mg) a day for 7 to 14 days, then tapered, started as early as possible and ideally within two weeks (benefit is unlikely after six weeks). Check glucose and blood pressure, and warn about mood, sleep and stomach effects. An alternative regimen is 40 to 60 mg each morning for a week, tapered over three weeks. Higher doses do not help: in the HODOKORT trial, very high-dose glucocorticoids gave no better hearing than the standard dose and caused more side effects.
 ### Intratympanic
 Dexamethasone or methylprednisolone injected through the drum, usually several injections over one to two weeks. As first-line treatment it works as well as oral steroids, so it suits patients in whom systemic steroids are unsafe (poorly controlled diabetes, for example). As salvage, within two to six weeks of onset when oral treatment has failed, it adds a modest further gain. Risks: pain, transient vertigo, and a persistent perforation in a few.
 ## Other treatments
@@ -83,9 +83,10 @@ Antivirals, vasodilators, vasoactive drugs and antioxidants have no proven benef
 Dhingra: Lists carbogen, low salt and hyperbaric oxygen among the options, while noting that no treatment has proven better than spontaneous recovery.
 Lee: Recommends steroids, orally or intratympanically; finds no evidence for antivirals.
 American guideline (2019): steroids may be offered within two weeks; intratympanic steroid as salvage within two to six weeks; hyperbaric oxygen as an option; antivirals, vasodilators and routine CT not recommended.
+In practice: Steroids (oral, or intratympanic when oral steroids are unsafe) within two weeks; intratympanic salvage at two to six weeks; hyperbaric oxygen if available; no antivirals or vasodilators.
 !!
 ## Rehabilitation
-If recovery is poor: a hearing aid for a partial loss, or a CROS aid, bone-conduction device or cochlear implant for single-sided deafness. Tinnitus counselling as needed.
+If recovery is poor: a hearing aid for a partial loss, or a CROS aid, bone-conduction device or cochlear implant for single-sided deafness ([[t:rehab]]). Tinnitus counselling as needed.
 !ops
 
 # Prognosis | What predicts recovery.

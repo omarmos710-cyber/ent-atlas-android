@@ -55,10 +55,10 @@ An acute idiopathic lower motor neurone palsy, 60 to 75% of all facial palsies. 
 Weakness comes on over hours and peaks within 72 hours, often after a day of pain behind the ear. About 85 to 90% recover fully, and 95% if the palsy never becomes complete.
 !fig d14-7a d14-7b | First, the features of a left-sided facial palsy. Second, Bell's palsy on the left in (A) an adult and (B) a child.
 ## Ramsay Hunt syndrome
-Herpes zoster oticus: vesicles in the concha, canal or palate, severe ear pain, facial palsy, and often sensorineural hearing loss and vertigo. The outlook for the face is worse than in Bell's palsy.
+Herpes zoster oticus: vesicles in the concha, canal or palate, severe ear pain, facial palsy, and often sensorineural hearing loss and vertigo. The outlook for the face is worse than in Bell's palsy. Zoster of the ear is also covered in [[t:perich]].
 !fig d14-9 | Ramsay Hunt syndrome: facial palsy with vesicles in the concha.
 ## Otitis media and cholesteatoma
-Acute otitis media can inflame a dehiscent nerve; cholesteatoma erodes the canal, usually in the tympanic segment. Both need urgent otological care.
+Acute otitis media can inflame a dehiscent nerve; cholesteatoma ([[t:chole]]) erodes the canal, usually in the tympanic segment. Both need urgent otological care.
 ## Trauma
 !table Temporal bone fractures and the facial nerve
  | Longitudinal | Transverse
@@ -67,8 +67,9 @@ Blow | Side of the head | Back of the head
 Bleeding from the ear | Common | Usually absent
 Hearing | Conductive | Sensorineural
 Vertigo | Less often | Severe
-Facial palsy | About 20%, often delayed | About 50%, often immediate
+Facial palsy | 10 to 20%, often delayed | About 50%, often immediate
 !!
+The fractures themselves are covered in [[t:tbfx]].
 !fig d14-10 | Longitudinal and transverse fractures of the temporal bone.
 ## Tumours
 A slowly progressive palsy, a recurrent palsy on the same side, or palsy with twitching suggests a tumour. A facial palsy with a parotid lump is almost always malignant.
@@ -124,7 +125,7 @@ Oral steroids started within 72 hours of onset, for example prednisolone 50 mg d
 !differ Steroids in Bell's palsy
 Dhingra: Prednisolone 1 mg/kg/day, extended if the palsy stays complete; notes that benefit is not proved beyond doubt.
 Lee: Recommends steroids within 48 to 72 hours.
-Current practice: two large trials have settled the question; early steroids are standard.
+In practice: Early steroids are standard; two large trials have settled the question.
 !!
 ## What not to do in Bell's palsy
 The American guideline advises against routine laboratory tests and imaging at presentation, and against electrodiagnostic testing in incomplete palsy. Image, or refer, if the palsy is atypical: slow onset, no recovery at all by three to four months, recurrence on the same side, other cranial nerve signs, or a parotid mass.
@@ -138,7 +139,7 @@ An immediate, complete palsy with a fracture through the canal is explored and d
 !differ Delayed traumatic palsy
 Dhingra: Conservative treatment.
 Lee: Serial ENoG; decompress if the response falls below 10% of normal.
-Current practice: delayed or incomplete palsy is observed with steroids, because recovery is usually good; exploration is kept for immediate complete palsy with over 90% degeneration on ENoG.
+In practice: Delayed or incomplete palsy is observed with steroids, because recovery is usually good; exploration is kept for immediate complete palsy with over 90% degeneration on ENoG.
 !!
 ## Palsy after ear surgery
 Remove the packing and any tight dressing first. If the nerve was not seen and the palsy is complete, explore unless continuity is certain.

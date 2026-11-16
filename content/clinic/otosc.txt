@@ -4,7 +4,7 @@
 ## Definition
 Otosclerosis, also called *otospongiosis*, is a primary disease of the otic capsule. Normal dense enchondral bone is replaced by vascular, spongy bone that later hardens again. When a focus reaches the oval window it fixes the stapes footplate and causes a conductive hearing loss; when it involves the cochlea it can add a sensorineural loss.
 ## Epidemiology
-The histological disease is far commoner than the clinical one. Histological foci are found in about 3 to 4% of temporal bones (Lee quotes up to 8 to 12% in white adults), but clinical otosclerosis affects only about 0.5 to 2% of adults, rising to 3% over 60. It is less common in Black and Asian populations. Women outnumber men about two to one in surgical series, although population data suggest similar prevalence with more severe disease in women; the familial form (25 to 50%) is autosomal dominant with incomplete penetrance, and hearing loss usually begins between 20 and 30 years of age; onset before 10 or after 40 is unusual.
+The histological disease is far commoner than the clinical one. Histological foci are found in about 3 to 4% of temporal bones (up to 8 to 12% in white adults in some series), but clinical otosclerosis affects only about 0.5 to 2% of adults, rising to 3% over 60. It is less common in Black and Asian populations. Hearing loss usually begins between 20 and 30 years of age; onset before 10 or after 40 is unusual.
 ## Why it matters
 Otosclerosis is the classic cause of progressive conductive deafness behind an intact, normal-looking drum. It is entirely treatable, with a hearing aid or with surgery that restores hearing in nine patients out of ten. But the operation opens the inner ear, and a small number of patients lose the hearing in that ear altogether, so the decision to operate is a careful one.
 
@@ -35,9 +35,9 @@ Foci that touch neither the stapes nor the cochlea remain silent and are found o
 
 # Aetiology | Genes, hormones, and perhaps a virus.
 ## Heredity
-About half of patients have a family history. Inheritance is autosomal dominant with incomplete penetrance, and several genetic loci have been described.
+A family history is found in 25 to 50% of patients, about half in many series. Inheritance is autosomal dominant with incomplete penetrance, and several genetic loci have been described.
 ## Sex and hormones
-Women are affected about twice as often, and the hearing loss may begin or accelerate during pregnancy, around the menopause, or after an accident or major operation.
+Women outnumber men about two to one in surgical series, although population data suggest similar prevalence with more severe disease in women. The hearing loss may begin or accelerate during pregnancy, around the menopause, or after an accident or major operation.
 ## Associations
 ### Osteogenesis imperfecta
 Brittle bones, blue sclerae and conductive deafness form *van der Hoeve syndrome*. The otic capsule lesions look identical to otosclerosis under the microscope, and both involve genes for type I collagen.
@@ -57,7 +57,7 @@ Because the patient hears their own voice loudly by bone conduction, they speak 
 ## Signs
 The tympanic membrane is normal and mobile, and Eustachian tube function is normal. In about one in ten, a pink blush shows through the drum over the promontory: *Schwartze sign*, which reflects increased vascularity in an active focus.
 !pearl Clinical pearl
-A conductive loss with a normal drum has a short differential: otosclerosis, ossicular discontinuity, malleus head fixation, and superior canal dehiscence. The stapedial reflex separates the last of these (see [[5.4]]).
+A conductive loss with a normal drum has a short differential: otosclerosis, ossicular discontinuity, malleus head fixation, and superior canal dehiscence. The stapedial reflex separates the last of these (see [[5.4]] and [[t:scd]]).
 !!
 
 # Investigations | Forks, audiogram and impedance tell the story.
@@ -66,7 +66,7 @@ Rinne turns negative first at 256 Hz, then at 512 Hz and finally at 1024 Hz as f
 !differ Air-bone gap that turns each fork negative
 Dhingra: 256 Hz at about 15 dB, 512 Hz at about 30 dB, 1024 Hz at about 45 dB.
 Lee: 15, 25 and 35 dB respectively.
-Both describe the same sequence: negative Rinne at 1024 Hz means a large gap.
+In practice: Both describe the same sequence; a negative Rinne at 1024 Hz means a large gap.
 !!
 ## Pure-tone audiometry
 Air conduction is reduced, most at the lower frequencies early on. Bone conduction is normal, but often shows a dip at 2000 Hz: *Carhart's notch*, about 5 dB at 500 Hz, 10 dB at 1000 Hz, 15 dB at 2000 Hz and 5 dB at 4000 Hz. The notch is a mechanical artefact of stapes fixation, not a cochlear loss, and it disappears after successful surgery. A pure conductive loss rarely exceeds about 60 dB; anything worse means cochlear involvement.
@@ -103,7 +103,7 @@ Otitis media with effusion, adhesive otitis media and tympanosclerosis are separ
 !tree Otosclerosis
 Mild loss | Observation | review hearing yearly
 Any loss | Hearing aid | effective, no risk; the choice for an only hearing ear
-Suitable gap | Stapes surgery | closes the gap in 90–95%
+Suitable gap | Stapes surgery | closes the gap in about 90%
 Far advanced | Cochlear implant | when aids no longer help
 !!
 Each is legitimate. The patient chooses after an honest account of the benefits and the small risk of losing the hearing in the operated ear.
@@ -114,22 +114,22 @@ No drug reverses fixation. *Sodium fluoride* has been used to hasten maturation 
 !differ Sodium fluoride
 Dhingra: Controversial, and not generally recommended.
 Lee: Widely accepted for progressive cochlear disease, though not FDA approved.
-Current practice: considered by some for active disease with progressive sensorineural loss, a positive Schwartze sign or a halo on CT; not used routinely in the UK because the evidence is weak. Bisphosphonates remain experimental.
+In practice: Considered by some for active disease with progressive sensorineural loss, a positive Schwartze sign or a halo on CT; not used routinely in the UK because the evidence is weak. Bisphosphonates remain experimental.
 !!
 ## Hearing aid
-Offer one to every patient before surgery: an excellent alternative for those who do not want surgery or are unfit for it, and the treatment of choice for an only hearing ear. Conductive losses aid particularly well. A bone-conduction device suits those who cannot wear an aid and decline surgery.
+Offer one to every patient before surgery: an excellent alternative for those who do not want surgery or are unfit for it, and the treatment of choice for an only hearing ear. Conductive losses aid particularly well. A bone-conduction device suits those who cannot wear an aid and decline surgery ([[t:rehab]]).
 ## Stapes surgery
 The fixed stapes is removed, wholly or in part, and a prosthesis is placed between the long process of the incus and the inner ear.
 ### Selection
 The patient should feel the handicap (air conduction around 30 dB or worse), have a real air-bone gap with Rinne negative at 256 and 512 Hz, and keep good speech discrimination.
 !differ Criteria for surgery
 Dhingra: Air-bone gap at least 15 dB, discrimination 60% or more, ideal age 20–30.
-Lee: Air-bone gap 20 dB or more (25–30 dB in the rehabilitation chapter), discrimination 70% or better, typical age 30–50.
-Operate on the poorer-hearing ear first.
+Lee: Air-bone gap 20 dB or more (elsewhere 25–30 dB), discrimination 70% or better, typical age 30–50.
+In practice: Operate when the gap is real (Rinne negative at 256 and 512 Hz) and discrimination is good, on the poorer-hearing ear first.
 !!
 ### Contraindications
 - **Only or better-hearing ear:** use a hearing aid.
-- **Active Ménière's disease:** a hydropic ear is at higher risk of sensorineural loss.
+- [[t:meniere|Active Ménière's disease]]: a hydropic ear is at higher risk of sensorineural loss.
 - **Active middle ear disease or perforation:** treat first.
 - **Children:** recurrent Eustachian tube problems and fast regrowth of the focus.
 - **Occupations:** divers, pilots and frequent flyers, roofers and athletes (balance), and noisy workplaces, since the stapedius reflex is lost.
@@ -176,7 +176,7 @@ Rising sensorineural loss and vertigo at one to two weeks; needs urgent re-explo
 ### Conductive loss returning
 A short, loose or displaced prosthesis, or erosion of the incus (the commonest finding at revision, in about 5%).
 ### Perilymph fistula
-Fluctuating hearing and vertigo, often after straining or barotrauma.
+Fluctuating hearing and vertigo, often after straining or barotrauma ([[t:fistula]]).
 ### Sensorineural loss
 About 2% have some sensorineural loss; about 0.5 to 1% lose all hearing in the operated ear (a *dead ear*). A slow high-frequency loss may appear over the years.
 !ward After stapes surgery
@@ -196,7 +196,7 @@ About 2% have some sensorineural loss; about 0.5 to 1% lose all hearing in the o
 - **Carhart's notch:** 2000 Hz dip in bone conduction, mechanical, disappears after surgery.
 - **Selection criteria and contraindications** for stapes surgery, especially the only hearing ear.
 - **van der Hoeve syndrome:** osteogenesis imperfecta, blue sclerae, deafness.
-- **Dead ear** risk of about 1 in 200, and gusher in X-linked deafness.
+- **Dead ear** risk of about 0.5 to 1% (about 1 in 200), and gusher in X-linked deafness.
 !!
 ## Common pitfalls
 !pit

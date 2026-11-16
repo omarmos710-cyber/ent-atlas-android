@@ -19,18 +19,19 @@ Two patterns: *Antoni A*, compact spindle cells with palisading nuclei (Verocay 
 Autosomal dominant, from loss of the NF2 gene on chromosome 22. Bilateral vestibular schwannomas, often with meningiomas and other schwannomas, present in young adults.
 ## Size
 !table Size and spread
-Stage | Size (Dhingra) | What it affects
+Stage | Size | What it affects
 Intracanalicular | In the canal | Eighth nerve
 Small | Up to 1.5 cm | Into the angle
 Medium | 1.5 to 4 cm | Fifth nerve, cerebellum
 Large | Over 4 cm | Brainstem, fourth ventricle, hydrocephalus
 !!
+Cut-offs vary between texts: for treatment decisions, small usually means up to about 1.5 to 2 cm and large over about 3 cm (see Management).
 !fig d18-2 | Expansion of an acoustic neuroma: (A) intracanalicular, (B) into the cerebellopontine angle, (C) pressing on the fifth nerve, (D) onwards to the brainstem and lower cranial nerves.
 
 # Clinical features | A stepwise spread.
 ## Eighth nerve
 ### Hearing loss
-Progressive, one-sided sensorineural loss with poor speech discrimination, often far worse than the pure-tone thresholds suggest. About one in ten presents as sudden hearing loss.
+Progressive, one-sided sensorineural loss with poor speech discrimination, often far worse than the pure-tone thresholds suggest. About one in ten presents as sudden hearing loss ([[t:ssnhl]]).
 ### Tinnitus
 One-sided and persistent.
 ### Balance
@@ -58,6 +59,7 @@ Used when MRI is not possible. A prolonged inter-aural wave V latency or I–V i
 !differ Abnormal wave V difference
 Dhingra: More than 0.2 ms.
 Lee: 0.4 to 0.5 ms.
+In practice: Treat a clearly prolonged difference as suspicious and get an MRI whenever possible, because ABR misses small tumours.
 !!
 ## Caloric test
 Reduced on the affected side in most, normal in very small tumours.
@@ -85,7 +87,7 @@ The decision rests on tumour size and growth, hearing in both ears, age and heal
 !differ First choice
 Dhingra: Favours surgical removal.
 Lee: Presents observation, radiosurgery and microsurgery as equal options, chosen by patient and tumour.
-Modern practice follows Lee: many small tumours are simply watched.
+In practice: Modern practice follows the second view: most small tumours are watched first.
 !!
 ## Observation
 For small tumours, older or unfit patients, and those with good hearing. The first repeat MRI is at six months, to catch a fast-growing tumour or a wrong diagnosis, then yearly while stable, then less often. Treat if it grows. In large series only about 17% of intracanalicular and 29% of extrameatal tumours grew over four years, and growing tumours usually enlarge by 1 to 2 mm a year, so waiting rarely makes later treatment harder. The cost of waiting is hearing, which may decline even when the tumour does not grow.
@@ -108,10 +110,10 @@ Above the temporal bone: for small intracanalicular tumours with good hearing. T
 ## Subtotal removal
 Leaving a little tumour on the facial nerve preserves facial function; the remnant often stays stable and can be watched or irradiated.
 ## NF2
-Bevacizumab may shrink tumours and improve hearing. An auditory brainstem implant or cochlear implant can restore some hearing.
+Bevacizumab may shrink tumours and improve hearing. An auditory brainstem implant or cochlear implant can restore some hearing ([[t:rehab]]).
 
 # Complications | Of the tumour and of treatment.
-- Facial palsy.
+- Facial palsy ([[t:facial]]).
 - Hearing loss.
 - CSF leak and meningitis.
 - Chronic headache, especially after the retrosigmoid route.
