@@ -1,4 +1,4 @@
-window.BOARDS={"chole":2,"csom":2,"mastoiditis":2,"oe":2,"om":2,"otosc":2,"thyroid":2};
+window.BOARDS={"chole":2,"csom":2,"facial":2,"icc":2,"mastoiditis":2,"meniere":2,"oe":2,"om":2,"otosc":2,"ssnhl":2,"thyroid":2,"tmperf":2,"vs":2};
 
 /* Full-screen viewer for the whiteboard summaries (opened from the button at the top of an article).
    Zoom: pinch, the − / + buttons, Fit, double-tap, or ctrl/trackpad wheel; any level from fit to 2x. */
@@ -24,7 +24,7 @@ window.BOARDS={"chole":2,"csom":2,"mastoiditis":2,"oe":2,"om":2,"otosc":2,"thyro
    '<div class="bdctl"><button type="button" data-bd="out" aria-label="Zoom out">−</button><button type="button" data-bd="pct" aria-label="Fit to screen">Fit</button><button type="button" data-bd="in" aria-label="Zoom in">+</button>'+
    (pdf?'<button type="button" class="bddl" data-pdf="bd_'+id+'">Download PDF</button>':'')+'</div>';
   q("b").textContent=title||"Summary board";
-  if(pdf)q(".bddl").dataset.pdfname="The ENT Companion - "+(title||id)+" - summary board";
+  if(pdf)q(".bddl").dataset.pdfname="The ENT Companion - "+(title||id).normalize("NFD").replace(/[\u0300-\u036f]/g,"")+" - summary board";
   const fr=q("iframe");
   fr.onload=()=>{try{H=Math.ceil(fr.contentDocument.body.getBoundingClientRect().height);fr.style.height=H+"px"}catch(e){}setScale(F=fitScale())};
   fr.src="clinic/board/"+id+".html";document.body.appendChild(OV);document.body.style.overflow="hidden";setScale(fitScale());

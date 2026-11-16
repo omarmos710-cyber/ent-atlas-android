@@ -1,9 +1,15 @@
 {
  "chole": "43f63cd2420504b49099100db95652f5",
  "csom": "5fe3e1a92f1483de0991d0639fa234d6",
+ "facial": "4574b1346676f84239f45372ac4d9caa",
+ "icc": "b3297933987dca29405c0c7520a985bb",
  "mastoiditis": "4c11663825608ba891c909d3aca4c0e2",
+ "meniere": "b1bd2fd8df2fd998bf638b0f59cf553f",
  "oe": "031029ed66d5242833a2465d0af44d77",
  "om": "d3b90e58525436a5f81e9b023ff645ec",
  "otosc": "d9380e6d9282dcd759deabc39b7cf28c",
- "thyroid": "43406b78cfd60c2305a76e6b78f6528f"
+ "ssnhl": "9c6ea9dc2f928ca2ad279ac6cdad2bf7",
+ "thyroid": "43406b78cfd60c2305a76e6b78f6528f",
+ "tmperf": "016e13fab7d2679d0bba21194990e2a3",
+ "vs": "84b1f16d050fa703bc3a21cef6abbd83"
 }
