@@ -1,0 +1,127 @@
+<!doctype html><html><head><meta charset="utf-8"><title>MYRINGITIS · summary board</title>
+<style>
+@font-face{font-family:Caveat;src:url(fonts/Caveat.ttf)}
+@font-face{font-family:Hand;src:url(fonts/PatrickHand.ttf)}
+@font-face{font-family:Kalam;src:url(fonts/KalamBold.ttf)}
+:root{--ink:#1d2330;--blue:#1f5fbf;--red:#d33a2c;--green:#1f8a4c;--orange:#e07b1a;--purple:#7b44b8;--teal:#138a8a;--hl:rgba(255,226,74,.65)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1760px;background:#fbfbf7;color:var(--ink);font:17px/1.32 Hand,sans-serif;padding:22px 16px 26px;
+ background-image:radial-gradient(rgba(0,0,0,.035) 1px,transparent 1px);background-size:18px 18px}
+h1{font:700 52px/1 Caveat;text-align:center;letter-spacing:.5px}
+.sub{text-align:center;font:22px Caveat;color:#555;margin:4px 0 14px}
+.hl{background:linear-gradient(transparent 45%,var(--hl) 45%,var(--hl) 88%,transparent 88%);padding:0 2px}
+b{font-family:Kalam;font-weight:700;font-size:.95em}
+.card{position:relative;border:2.4px solid var(--c,var(--ink));border-radius:255px 18px 225px 16px/16px 225px 18px 255px;padding:12px 14px 12px;margin:20px 0 0;background:#fff}
+.card h2{font:700 30px/1 Caveat;color:var(--c);display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.n{display:inline-grid;place-items:center;width:34px;height:34px;border:2.4px solid var(--c);border-radius:50% 46% 52% 48%;font:700 22px Kalam;color:var(--c);flex:none}
+.row{display:flex;gap:10px;align-items:flex-start}
+.col{flex:1;min-width:0}
+ul{list-style:none;margin:2px 0}
+li{position:relative;padding-left:16px;margin:3px 0}
+li:before{content:"";position:absolute;left:2px;top:.55em;width:7px;height:7px;border-radius:50%;background:var(--c,var(--ink))}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:4px 2px;margin:6px 0}
+.chip{border:2px solid var(--c);border-radius:12px 6px 14px 7px;padding:1px 7px;background:#fff;font-size:15.5px}
+.ar{font:700 22px Caveat;color:var(--c);padding:0 2px}
+.note{font:23px/1.05 Caveat;color:var(--red)}
+.warn{border:2.4px dashed var(--red);border-radius:14px 8px 16px 9px;padding:6px 10px;margin:8px 0 2px;background:#fff5f3}
+.warn b{color:var(--red)}
+.mini{font-size:15px;color:#333}
+table{border-collapse:collapse;width:100%;font-size:15px;margin-top:4px}
+td,th{border-bottom:1.6px solid #d9d6cc;padding:3px 4px;text-align:left;vertical-align:top}
+th{font:700 15px Kalam;color:var(--c)}
+.tag{display:inline-block;font:700 13px Kalam;color:#fff;background:var(--c);border-radius:8px 4px 9px 5px;padding:0 6px;margin-right:3px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.box{border:2px solid var(--c);border-radius:16px 8px 18px 9px;padding:6px 8px;background:#fff}
+.box h3{font:700 22px/1 Caveat;color:var(--c);margin-bottom:2px}
+.foot{text-align:center;font:20px Caveat;color:#777;margin-top:18px}
+.grid{display:grid;grid-template-columns:1.05fr 1fr 1fr 1fr;gap:18px;align-items:start}
+.gcol>.card:first-child{margin-top:4px}
+h1{font-size:64px}
+</style></head><body>
+<h1>MYRINGITIS</h1>
+<div class="sub">disease of the drum, not the middle ear ✎</div>
+
+<div class="grid"><div class="gcol">
+
+<div class="card" style="--c:var(--blue)">
+<h2><span class="n">1</span>Two forms</h2>
+<div class="mini">Inflammation confined to the <b>tympanic membrane</b> (± deep canal skin), without primary middle ear or mastoid disease</div>
+<svg width="380" height="170" viewBox="0 0 380 170" style="display:block;margin:6px auto 0">
+ <g font-family="Hand" stroke-linecap="round" stroke-linejoin="round">
+ <ellipse cx="95" cy="76" rx="70" ry="64" fill="#eef0f2" stroke="#1d2330" stroke-width="2.4"/>
+ <path d="M100 24 L88 72" stroke="#8a8f99" stroke-width="3"/>
+ <g fill="#c0392b" stroke="#7a1f16" stroke-width="1.6"><circle cx="58" cy="52" r="13"/><circle cx="128" cy="96" r="16"/><circle cx="70" cy="108" r="10"/></g>
+ <text x="95" y="162" text-anchor="middle" font-size="15" fill="#d33a2c">bullous: blood blisters</text>
+ <ellipse cx="285" cy="76" rx="70" ry="64" fill="#eef0f2" stroke="#1d2330" stroke-width="2.4"/>
+ <path d="M290 24 L278 72" stroke="#8a8f99" stroke-width="3"/>
+ <path d="M300 22 C340 26 352 60 340 76 C326 70 312 56 300 22 Z" fill="#f2a28f" stroke="#c0392b" stroke-width="1.6"/>
+ <g fill="#c0392b"><circle cx="318" cy="40" r="2.2"/><circle cx="330" cy="52" r="2.2"/><circle cx="324" cy="62" r="2.2"/><circle cx="338" cy="64" r="2.2"/><circle cx="312" cy="48" r="2.2"/></g>
+ <text x="285" y="162" text-anchor="middle" font-size="15" fill="#1f8a4c">granular: wet granulation</text>
+ </g>
+</svg>
+<div class="mini" style="text-align:center;color:#666">schematic · granulation often posterosuperior · no perforation</div>
+</div>
+
+<div class="card" style="--c:var(--ink)">
+<h2><span class="n">2</span>Bullous vs granular</h2>
+<table style="--c:var(--ink)"><tr><th></th><th>Bullous</th><th>Granular</th></tr>
+<tr><td><b>Pain</b></td><td>sudden, intense</td><td>none</td></tr>
+<tr><td><b>Drum</b></td><td>blood blisters</td><td>granulation</td></tr>
+<tr><td><b>Discharge</b></td><td>a little blood</td><td>foul, chronic</td></tr>
+<tr><td><b>Hearing</b></td><td>SNHL possible</td><td>normal / slight ↓</td></tr></table>
+</div>
+
+</div><div class="gcol">
+
+<div class="card" style="--c:var(--red)">
+<h2><span class="n">3</span>Bullous myringitis</h2>
+<ul class="mini" style="--c:var(--red)">
+<li>After a URTI · organisms of <b>AOM</b>: S. pneumoniae, H. influenzae, Moraxella · Mycoplasma classic but <b>unproven</b> (Dhingra: possible; Lee: unproven)</li>
+<li>Dhingra's <i>otitis externa haemorrhagica</i> = same picture</li>
+<li><b>Sudden, intense pain</b> for three or four days, then settles · a little bloody discharge when blebs burst</li>
+<li>Haemorrhagic bullae on drum + deep canal · <b>effusion</b> too in a third to two-fifths</li>
+</ul>
+<div class="warn mini"><b>Always check hearing:</b> sensorineural or mixed loss, often high-frequency, common; usually recovers</div>
+<div class="mini" style="margin-top:4px"><b>Rx:</b> analgesia · lance blebs for pain · keep dry · topical drops vs secondary infection · treat AOM if present</div>
+<div class="box" style="margin-top:6px"><h3>Now seen as</h3><div class="mini">a <span class="hl">variant of AOM</span> (same organisms in the fluid; Mycoplasma rare) → analgesia + antibiotic when indicated · SNHL in a minority (Drendel 2012) · steroids: small series only</div></div>
+</div>
+
+</div><div class="gcol">
+
+<div class="card" style="--c:var(--green)">
+<h2><span class="n">4</span>Granular myringitis</h2>
+<ul class="mini" style="--c:var(--green)">
+<li>Staph, Pseudomonas, Proteus · predisposition: Dhingra wax, FB, OE; Lee none identified</li>
+<li><b>Itch, fullness, foul painless discharge</b></li>
+<li>Granulation over part of the drum, often <b>posterosuperior</b>; may perforate and heal repeatedly · hearing normal or slightly ↓</li>
+<li>Diagnosis <b>clinical, under the microscope</b> · CT only to exclude COM / cholesteatoma</li>
+</ul>
+<div class="flow" style="--c:var(--green)">
+<span class="chip">clean + vinegar + drops</span><span class="ar">→</span><span class="chip">cautery (silver nitrate, TCA) / laser</span><span class="ar">→</span><span class="chip">tympanoplasty + canalplasty</span>
+</div>
+<div class="mini">recurrence common after surgery · evidence from case series only</div>
+<div class="warn mini"><b>Late fibrosis</b> blunts the anterior drum–canal angle → conductive loss</div>
+</div>
+
+</div><div class="gcol">
+
+<div class="card" style="--c:var(--purple)">
+<h2><span class="n">5</span>Other painful or wet drums</h2>
+<table style="--c:var(--purple)"><tr><th>Think</th><th>Clue</th></tr>
+<tr><td><b>AOM</b></td><td>bulging drum, poor mobility</td></tr>
+<tr><td><b>COM</b></td><td>perforation, middle ear disease</td></tr>
+<tr><td><b>Zoster oticus</b></td><td>vesicles on concha + canal, facial palsy</td></tr>
+<tr><td><b>Otitis externa</b></td><td>canal swelling, tragal tenderness</td></tr></table>
+</div>
+
+<div class="card" style="--c:var(--red)">
+<h2><span class="n">6</span>Exam traps ✗</h2>
+<ul class="mini" style="--c:var(--red)">
+<li>No <b>hearing test</b> in bullous myringitis</li>
+<li>Granular myringitis called COM <b>without the microscope</b></li>
+</ul>
+</div>
+
+</div></div>
+<div class="foot">ENT Atlas · Clinical · Myringitis · summary of the article</div>
+</body></html>
