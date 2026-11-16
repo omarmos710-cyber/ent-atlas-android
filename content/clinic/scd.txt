@@ -25,7 +25,7 @@ The eye movements induced lie in the plane of the superior canal.
 ## Audiogram
 A low-frequency air-bone gap, with bone conduction thresholds that may be better than 0 dB (supranormal). Stapedial reflexes are *present*, which an otosclerotic or other middle ear conductive loss would abolish.
 ## Vestibular evoked myogenic potentials
-The cervical VEMP threshold is abnormally low and the ocular VEMP amplitude abnormally high. A true middle ear conductive loss normally abolishes VEMPs, so their presence with a gap is a strong clue.
+The cervical VEMP threshold is abnormally low and the ocular VEMP amplitude abnormally high ([[t:vest]]). A true middle ear conductive loss normally abolishes VEMPs, so their presence with a gap is a strong clue.
 ## Electrocochleography
 May show a raised SP to AP ratio.
 ## CT
@@ -34,10 +34,10 @@ High-resolution CT reformatted in the plane of the superior canal (Pöschl view)
 # Differential diagnosis | Mimics.
 !table How to tell them apart
 Condition | Distinguishing features
-Otosclerosis | Stapedial reflexes absent, VEMPs absent, no vestibular symptoms with sound
-Patulous Eustachian tube | Autophony with breathing, drum moves with respiration, no air-bone gap
-Perilymph fistula | Follows surgery, trauma or straining; fluctuating hearing
-Ménière's disease | Attacks of vertigo for hours, fluctuating low-frequency sensorineural loss
+[[t:otosc|Otosclerosis]] | Stapedial reflexes absent, VEMPs absent, no vestibular symptoms with sound
+[[t:et|Patulous Eustachian tube]] | Autophony with breathing, drum moves with respiration, no air-bone gap
+[[t:fistula|Perilymph fistula]] | Follows surgery, trauma or straining; fluctuating hearing
+[[t:meniere|Ménière's disease]] | Attacks of vertigo for hours, fluctuating low-frequency sensorineural loss
 Otosyphilis | Positive serology, Hennebert's sign
 !!
 
@@ -45,7 +45,7 @@ Otosyphilis | Positive serology, Hennebert's sign
 ## Conservative
 Reassurance and explanation; avoiding triggers such as loud noise and straining. Many patients need nothing more.
 ## Surgery
-For disabling vertigo or autophony: *plugging* the canal or *resurfacing* the defect, through the middle cranial fossa or a transmastoid approach. Plugging is more reliable for vestibular symptoms but sacrifices the canal. Round window reinforcement is an alternative in some centres.
+For disabling vertigo or autophony: *plugging* the canal or *resurfacing* the defect, through the middle cranial fossa or a transmastoid approach. Plugging is more reliable for vestibular symptoms but sacrifices the canal; a systematic review favoured transmastoid plugging for disabled patients, because of lower complication and revision rates and a shorter stay. Surgery helps the vestibular symptoms more than the hearing loss. Round window reinforcement is an alternative in some centres.
 !ops
 ## Risks
 Sensorineural hearing loss and vestibular loss after repair, and the usual risks of a middle fossa craniotomy.
@@ -53,7 +53,7 @@ Sensorineural hearing loss and vestibular loss after repair, and the usual risks
 A conductive loss with a normal drum and present stapedial reflexes is not otosclerosis. Operating on the stapes in superior canal dehiscence does not help and may harm.
 !!
 !update Current evidence
-**Original description.** Minor described superior canal dehiscence in 1998, with sound- and pressure-induced vertigo and a dehiscence on CT (*Arch Otolaryngol Head Neck Surg* 1998). **Diagnosis.** Thin-slice CT reformatted in the plane of the superior canal (Pöschl view) overcalls dehiscence, so it must be matched with symptoms and physiological tests: low-threshold, high-amplitude cervical VEMPs and raised ocular VEMPs at 4 kHz are the most specific. **Surgery.** A systematic review found surgery effective for vestibular symptoms but not for hearing loss, and recommended transmastoid plugging for disabled patients because of its lower complication and revision rates and shorter stay (Ziylan et al., *Otol Neurotol* 2017).
+**Original description.** Minor described superior canal dehiscence in 1998, with sound- and pressure-induced vertigo and a dehiscence on CT (*Arch Otolaryngol Head Neck Surg* 1998). **Diagnosis.** Low-threshold, high-amplitude cervical VEMPs and raised ocular VEMPs at 4 kHz are the most specific physiological tests. **Surgery.** The systematic review favouring transmastoid plugging is Ziylan et al. (*Otol Neurotol* 2017).
 !!
 
 # For the examination | What the examiner wants to hear.

@@ -18,26 +18,26 @@ Feeling faint on standing | Orthostatic hypotension | Rapid growth around pubert
 
 # Causes | From the common to the dangerous.
 ## Benign paroxysmal vertigo of childhood
-The commonest cause between 2 and 6 years, accounting for up to a third of dizzy children in that age group. A *migraine precursor*: sudden, intense spells of vertigo lasting seconds to minutes, often with pallor, fear, nystagmus and unsteadiness, sometimes nausea or vomiting, without a trigger and *without* hearing symptoms. The child is entirely normal between spells. About half go on to have migraine in adolescence, and most have a family history of migraine. The outlook is excellent and it resolves.
+The commonest cause between 2 and 6 years, accounting for up to a third of dizzy children in that age group. A *migraine precursor*: sudden, intense spells of vertigo lasting seconds to minutes, often with pallor, fear, nystagmus and unsteadiness, sometimes nausea or vomiting, without a trigger and *without* hearing symptoms. The child is entirely normal between spells. About half go on to have migraine in adolescence, and most have a family history of migraine. The outlook is excellent and it resolves. Newer Bárány Society criteria (2021) call it *recurrent vertigo of childhood*, or *vestibular migraine of childhood* when migraine features accompany at least half of the attacks (see Current evidence below).
 !pearl Other childhood migraine variants
 *Benign paroxysmal torticollis* (episodic head tilt in infants under 2), *cyclical vomiting* and *motion sickness* (most marked between 4 and 10 years) belong to the same family and often precede vestibular migraine.
 !!
 ## Vestibular migraine
 The commonest cause in older children and adolescents: attacks of rotatory vertigo lasting minutes to hours, accompanied or followed by headache and often vomiting, with sensitivity to light and sound. A family history of migraine is present in most. It must be told apart from *basilar-type migraine*, in which vertigo is part of an aura with paraesthesia, ataxia or loss of consciousness, because the treatment differs: ergot preparations are contraindicated in basilar migraine.
 ## Otitis media with effusion
-Probably the commonest cause of balance complaints in young children overall. The child is unsteady and clumsy rather than spinning, with a conductive hearing loss. Proposed mechanisms are pressure changes at the oval and round windows and toxins from the middle ear fluid crossing into the inner ear. Balance often improves once the effusion clears or grommets are inserted.
+Probably the commonest cause of balance complaints in young children overall. The child is unsteady and clumsy rather than spinning, with a conductive hearing loss. Proposed mechanisms are pressure changes at the oval and round windows and toxins from the middle ear fluid crossing into the inner ear. Balance often improves once the effusion clears or grommets are inserted ([[t:om]]).
 ## Vestibular neuritis and labyrinthitis
-As in adults: acute severe rotatory vertigo for days, with nausea, vomiting, imbalance and oscillopsia, often after a viral illness. Hearing is normal in neuritis and reduced in labyrinthitis. Children recover faster than adults because they compensate well, but they are often admitted and a central cause is considered first.
+As in adults: acute severe rotatory vertigo for days, with nausea, vomiting, imbalance and oscillopsia, often after a viral illness. Hearing is normal in neuritis and reduced in labyrinthitis. The adult picture is in [[t:vertigo]]. Children recover faster than adults because they compensate well, but they are often admitted and a central cause is considered first.
 ## Chronic ear disease
-Cholesteatoma can erode the lateral semicircular canal and cause a fistula, with vertigo on pressure (a positive fistula test). Suppurative labyrinthitis is a complication of acute or chronic otitis media and leaves a dead ear.
+Cholesteatoma can erode the lateral semicircular canal and cause a fistula, with vertigo on pressure (a positive fistula test). Suppurative labyrinthitis is a complication of acute or chronic otitis media and leaves a dead ear ([[t:fistula]]).
 ## Inner ear malformations and syndromes
-Vestibular abnormalities accompany up to 70% of permanent sensorineural hearing losses in children. These children present with late motor milestones and imbalance rather than vertigo. Some malformations, especially the *enlarged vestibular aqueduct* and the incomplete partition anomalies, cause episodic vertigo with stepwise hearing loss after minor head injury, and are easily mistaken for Ménière's disease. Syndromic associations include Pendred, branchio-oto-renal and Waardenburg syndromes, and *Usher syndrome*, in which deafness and absent vestibular function are joined later by retinitis pigmentosa. A profoundly deaf child with absent vestibular function needs an eye examination with electroretinography. Meningitis and congenital cytomegalovirus can destroy both cochlear and vestibular function.
+Vestibular abnormalities accompany up to 70% of permanent sensorineural hearing losses in children. These children present with late motor milestones and imbalance rather than vertigo. Some malformations, especially the *enlarged vestibular aqueduct* and the incomplete partition anomalies, cause episodic vertigo with stepwise hearing loss after minor head injury, and are easily mistaken for Ménière's disease. Syndromic associations include Pendred, branchio-oto-renal and Waardenburg syndromes, and *Usher syndrome*, in which deafness and absent vestibular function are joined later by retinitis pigmentosa. A profoundly deaf child with absent vestibular function needs an eye examination with electroretinography. Meningitis and congenital cytomegalovirus can destroy both cochlear and vestibular function ([[t:deaf]]).
 ## Head injury
-A temporal bone fracture through the labyrinth, or a perilymph fistula, causes vertigo with tinnitus and hearing loss. *Post-concussion syndrome* causes dizziness without hearing loss, and *BPPV* in children is almost always post-traumatic or after ear surgery such as cochlear implantation.
+A [[t:tbfx|temporal bone fracture]] through the labyrinth, or a perilymph fistula, causes vertigo with tinnitus and hearing loss. *Post-concussion syndrome* causes dizziness without hearing loss, and *BPPV* in children is almost always post-traumatic or after ear surgery such as cochlear implantation.
 ## Third-window disorders
-Superior canal dehiscence is rare in children but presents as in adults, with sound-induced vertigo (*Tullio phenomenon*), pressure-induced vertigo (*Hennebert sign*) and chronic disequilibrium.
+[[t:scd|Superior canal dehiscence]] is rare in children but presents as in adults, with sound-induced vertigo (*Tullio phenomenon*), pressure-induced vertigo (*Hennebert sign*) and chronic disequilibrium.
 ## Drugs
-Aminoglycosides, including gentamicin drops into a perforated ear, are vestibulotoxic and cause ataxia and oscillopsia, often without hearing loss. Cisplatin and antimalarials are mainly cochleotoxic.
+Aminoglycosides, including gentamicin drops into a perforated ear, are vestibulotoxic and cause ataxia and oscillopsia, often without hearing loss. Cisplatin and antimalarials are mainly cochleotoxic ([[t:sensori]]).
 ## Vision
 Refractive errors and convergence problems cause brief vertigo in about 10% of dizzy children over 5, usually at the end of the day or after long screen time, often with headache and nausea. An optometry review is part of the work-up.
 ## Psychological causes
@@ -83,7 +83,7 @@ Other signs | Hearing loss may accompany it | Ataxia, cranial nerve or long trac
 !!
 ## Investigations
 - **Audiometry and tympanometry** in every child: play audiometry, pure tones with reflexes, or auditory brainstem response depending on age. This single test separates the glue ear, the sensorineural loss and the normal-hearing groups.
-- **Vestibular tests** where available: video-oculography with calorics, video head impulse testing, rotational chair testing (in infants on a parent's lap), cervical VEMPs adapted to children, and posturography from about 3 years. They show whether there is a unilateral or bilateral loss and separate vestibular from visual and proprioceptive causes.
+- **Vestibular tests** where available: video-oculography with calorics, video head impulse testing, rotational chair testing (in infants on a parent's lap), cervical VEMPs adapted to children, and posturography from about 3 years. They show whether there is a unilateral or bilateral loss and separate vestibular from visual and proprioceptive causes ([[t:vest]]).
 - **MRI** of the brain and internal auditory meati when there are red flags, an unexplained or asymmetric sensorineural loss, or symptoms that do not settle; it may need a general anaesthetic in young children. **CT** of the temporal bones for chronic ear disease, trauma or suspected malformation.
 - **Bloods** are rarely useful unless the history points to anaemia, diabetes or infection.
 - **Optometry, ECG and EEG** guided by the history.
@@ -117,11 +117,6 @@ Refer to a tertiary paediatric audiovestibular or neuro-otology service when sym
 !!
 
 # For the examination | What the examiner wants to hear.
-## Where the books differ
-!differ
-Oxford Textbook: calls glue ear the commonest cause of balance complaints in children, BPVC the commonest cause of true vertigo between 2 and 6 years, and vestibular migraine the commonest cause in older children; it stresses milestones, the one-foot standing test and the head impulse test.
-Adult texts (Dhingra and K. J. Lee) mention childhood vertigo only briefly; their vestibular chapters apply to children for neuritis, BPPV and Ménière's disease, which behave as in adults.
-!!
 ## Viva essentials
 !exam What the examiner is looking for
 - The causes **by duration of attack**, with BPVC, vestibular migraine and glue ear first.
