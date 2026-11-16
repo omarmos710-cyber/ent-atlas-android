@@ -10,6 +10,7 @@ real width and reports:
         then stretches the last card of each column so all four end on one line)
   over  anything wider than the box it sits in (cards, tables, chips, drawings)
   svg   labels inside a drawing that overlap each other or run outside it
+  and an unclosed <div> that pulls the footer into the grid
 Exit status 1 if any board fails.
 """
 import os, sys
@@ -47,6 +48,8 @@ JS = r'''() => {
   }
  });
  r.h = Math.ceil(document.body.getBoundingClientRect().height);
+ const f = document.querySelector('.foot');
+ if (!f || f.parentElement !== document.body) r.over.push('footer is not after the grid (an unclosed <div>?)');
  return r;
 }'''
 
