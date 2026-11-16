@@ -11,6 +11,7 @@ The pinna develops from six *hillocks of His* around the first branchial cleft. 
 !differ Hillocks
 Dhingra: The tragus from the first arch; the rest from the second arch.
 Lee: The first three hillocks from the first arch, the last three from the second.
+In practice: Both put the tragus on the first arch and most of the pinna on the second.
 !!
 
 # Congenital anomalies | From a tag to an absent ear.
@@ -19,7 +20,7 @@ Lee: The first three hillocks from the first arch, the last three from the secon
 ### Anotia
 Complete absence of the pinna, often with an absent canal.
 ### Microtia
-A small, malformed pinna, graded from mild deformity to a peanut-shaped vestige. It is often associated with canal atresia and middle ear anomalies, so hearing must be tested (see the microtia and atresia topic).
+A small, malformed pinna, graded from mild deformity to a peanut-shaped vestige. It is often associated with canal atresia and middle ear anomalies, so hearing must be tested ([[t:atresia]]).
 !fig d8-2n d8-3 | First, anotia: no pinna or canal on the left. Second, microtia of the right ear (a peanut ear).
 ## Abnormal shape
 - **Bat ear (prominent ear):** the commonest anomaly, from an underdeveloped antihelical fold or deep concha. The normal angle between the pinna and the head is about 15 to 30 degrees.
@@ -37,7 +38,7 @@ A small, malformed pinna, graded from mild deformity to a peanut-shaped vestige.
 ## Treatment
 - **Bat ear:** otoplasty, usually after age six, before teasing at school.
 - **Stahl's and other shape anomalies:** a mould in the first six weeks of life, while the cartilage is soft, can correct them without surgery.
-- **Preauricular sinus:** antibiotics for infection; excision of the whole tract when it has been repeatedly infected.
+- **Preauricular sinus:** antibiotics for infection; excision of the whole tract when it has been repeatedly infected ([[t:earminor]]).
 !ops
 
 # Haematoma | The boxer's ear.
@@ -46,7 +47,7 @@ Blunt trauma from boxing, wrestling or rugby shears the perichondrium from the c
 ## Picture
 A tense, fluctuant, smooth swelling on the lateral surface that obliterates the landmarks.
 ## Treatment
-Drain early: aspiration for small, fresh collections, or incision for larger or recurrent ones. Then apply a pressure bolster with the concavities packed, through-and-through sutures or a moulded dressing, give antibiotics, and recheck for reaccumulation.
+Drain early: aspiration for small, fresh collections, or incision for larger or recurrent ones. Then apply a pressure bolster with the concavities packed, through-and-through sutures or a moulded dressing, give antibiotics, and recheck for reaccumulation. The choice of method, the bolster and aftercare are covered in detail in [[t:earminor]].
 ## Complication
 Untreated or infected, the cartilage necroses and new cartilage forms irregularly, giving a *cauliflower ear*.
 !fig d8-7 | A cauliflower (boxer's) ear.
@@ -64,9 +65,10 @@ The pinna is exposed and thin. Rewarm with moist pledgets at 38 to 42°C, give a
 !differ Rewarming
 Dhingra: Moist pledgets at 38 to 42°C, noting that rapid rewarming is painful.
 Lee: Favours slow rewarming.
+In practice: Rewarm with moist pledgets at 38 to 42°C and give good analgesia, because rewarming hurts.
 !!
 ## Keloid
-After piercing, often in darker skin. Excision alone recurs; combine with steroid injection, pressure or radiotherapy.
+After piercing, often in darker skin. Excision alone recurs; combine with steroid injection, pressure or radiotherapy ([[t:extca]]).
 !update Current evidence
 **Haematoma.** A Cochrane review found no randomised trials comparing needle aspiration with incision and drainage, or different pressure dressings (Jones and Mahendran, 2004); case series favour incision and drainage with a bolster or through-and-through sutures, which reduce reaccumulation. **Microtia.** Autologous rib cartilage reconstruction, usually from about age eight to ten, remains the standard; porous polyethylene frameworks allow earlier, single-stage reconstruction but carry a higher risk of exposure. **Prominent ears.** Ear moulding in the first weeks of life corrects many deformities without surgery.
 !!
@@ -76,7 +78,7 @@ After piercing, often in darker skin. Excision alone recurs; combine with steroi
 !ward A swollen pinna after a blow
 1. Aspirate or incise the haematoma.
 2. Pressure bolster with the concavities packed.
-3. Antibiotics, and review within a day or two for reaccumulation.
+3. Antibiotics; check for reaccumulation within a day or two, and review the bolster at 4 to 7 days.
 4. Lacerations: repair early, covering the cartilage.
 !!
 ## Viva essentials

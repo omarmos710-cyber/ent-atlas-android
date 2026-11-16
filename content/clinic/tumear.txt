@@ -25,6 +25,7 @@ Some are familial, from mutations in the succinate dehydrogenase genes. SDHD mut
 !differ How often
 Dhingra: About 10% familial, about 3% secrete catecholamines, about 4% metastasise.
 Lee: Up to 30% familial, 5% or fewer secrete, 2–4% metastasise.
+In practice: Current series find about a third hereditary, so offer every patient genetic testing, and check for secretion before any anaesthetic.
 !!
 ## Types
 ### Glomus tympanicum
@@ -67,7 +68,7 @@ Colour | Think of | Key test
 Red, pulsatile | Glomus tumour | CT and MRI
 Pink, anterior | Aberrant internal carotid artery | CT, MR angiography
 Blue, inferior | High jugular bulb | CT, MRI
-Blue with dark fluid | Cholesterol granuloma | CT, MRI
+Blue with dark fluid | Cholesterol granuloma ([[t:petrous]]) | CT, MRI
 White | Congenital cholesteatoma | CT
 !!
 ## Treatment
@@ -89,7 +90,7 @@ Adults of 40 to 60, about three-quarters with a long history of chronic ear disc
 ## Clinical features
 Bloodstained, foul discharge; deep, boring pain, especially at night; friable granulation or a polyp that bleeds on touch; and later facial palsy, vertigo, trismus and a neck or parotid mass. It is easily mistaken for chronic otitis media or otitis externa.
 ## Investigations
-Biopsy of any non-healing granulation in the canal or middle ear. CT of the temporal bone and neck, MRI for soft tissue and dura, and chest imaging.
+Staged by the modified Pittsburgh system, as for canal carcinoma ([[t:extca]]). Biopsy of any non-healing granulation in the canal or middle ear. CT of the temporal bone and neck, MRI for soft tissue and dura, and chest imaging.
 ## Treatment
 - **Limited to the canal without bone involvement:** sleeve resection of the canal.
 - **Bony canal involved:** lateral temporal bone resection.
@@ -103,9 +104,9 @@ Outlook is poor once the middle ear and beyond are involved. The dura usually re
 The commonest malignant ear tumour in children: a polyp in a child's ear with early facial palsy. Treated with chemoradiation, with resection when feasible.
 !fig d17-2 | A four-year-old child with rhabdomyosarcoma of the right middle ear and mastoid, with facial palsy on the same side.
 ## Endolymphatic sac tumour
-A locally aggressive papillary tumour of the sac, sporadic or with von Hippel-Lindau disease (about 11% of patients, often bilateral). It mimics Ménière's disease, or causes sudden hearing loss from bleeding into the inner ear. Removed with the dura around the sac; VHL patients are screened by MRI every one to three years.
+A locally aggressive papillary tumour of the sac, sporadic or with von Hippel-Lindau disease (about 11% of patients, often bilateral). It mimics [[t:meniere|Ménière's disease]], or causes sudden hearing loss from bleeding into the inner ear. Removed with the dura around the sac; VHL patients are screened by MRI every one to three years.
 ## Facial nerve schwannoma and haemangioma
-A schwannoma causes slowly progressive facial palsy or hearing loss; a haemangioma near the geniculate ganglion causes a palsy out of proportion to its small size and should be removed early. Facial schwannomas arise most often near the geniculate ganglion, and many patients keep good facial function for years. Because removal means sacrificing and grafting the nerve, and the best result after a graft is House–Brackmann III, surgery is reserved for weakness worse than grade III; enlarging tumours with good function are treated by radiosurgery (control in about 90% at five years, with function preserved in 90%) or by bony decompression of the canal.
+A schwannoma causes slowly progressive facial palsy ([[t:facial]]) or hearing loss; a haemangioma near the geniculate ganglion causes a palsy out of proportion to its small size and should be removed early. Facial schwannomas arise most often near the geniculate ganglion, and many patients keep good facial function for years. Because removal means sacrificing and grafting the nerve, and the best result after a graft is House–Brackmann III, surgery is reserved for weakness worse than grade III; enlarging tumours with good function are treated by radiosurgery (control in about 90% at five years, with function preserved in 90%) or by bony decompression of the canal.
 ## Adenomatous neuroendocrine tumour
 A benign middle ear tumour presenting as a mass behind an intact drum with conductive loss.
 !imaging adenoma-of-the-middle-ear endolymphatic-sac-tumor malignancy-of-the-external-auditory-canal-squamo fibrous-dysplasia-1 pseudotumors-in-the-apex-of-the-petrous-bone | Middle ear adenoma, endolymphatic sac tumour, canal carcinoma, fibrous dysplasia and apical pseudotumours.
