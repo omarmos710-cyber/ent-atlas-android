@@ -29,11 +29,11 @@ The ear canals are narrow and fill with wax, and Eustachian tube dysfunction mak
 ## The airway
 Midfacial hypoplasia, relative macroglossia, hypotonia, obesity and adenotonsillar hypertrophy give **obstructive sleep apnoea in about 60%**. Oximetry or, ideally, polysomnography is done before adenotonsillectomy, because up to three-quarters need breathing support afterwards and surgery alone often does not cure it; CPAP or further surgery may follow. A mild congenital **subglottic stenosis** is common, so the endotracheal tube is usually half a size smaller than predicted for age.
 ## The neck
-**Atlantoaxial instability** is present in about one in five, and neck hyperextension during surgery such as adenotonsillectomy can injure the cord. Plain films do not predict who is at risk, so the neck of every child with Down syndrome is handled with care. Grisel syndrome, non-traumatic atlantoaxial subluxation after inflammation, has been linked to excessive diathermy during adenoidectomy.
+**Atlantoaxial instability** is present in about one in five (10 to 20% in other texts), and neck hyperextension during surgery such as adenotonsillectomy can injure the cord. Plain films do not predict who is at risk, so the neck of every child with Down syndrome is handled with care. Grisel syndrome, non-traumatic atlantoaxial subluxation after inflammation, has been linked to excessive diathermy during adenoidectomy.
 
 # First and second arch syndromes | The face, the ear and the jaw.
 ## Treacher Collins syndrome
-Treacher Collins syndrome (mandibulofacial dysostosis) affects about 1 in 50,000. It is autosomal dominant, usually from mutations in *TCOF1* (the "treacle" gene), with half arising as new mutations. It is **bilateral and symmetrical**: down-slanting palpebral fissures, **lower lid colobomas**, absent or hypoplastic zygomas, micrognathia, and microtia with canal atresia and a conductive loss, usually managed with **bone-conduction hearing devices**. About a third have a cleft palate. The small mandible, especially with choanal atresia, can cause airway obstruction at birth that needs a tracheostomy; distraction osteogenesis may later lengthen the mandible. Intubation is difficult throughout life.
+Treacher Collins syndrome (mandibulofacial dysostosis) affects about 1 in 50,000. It is autosomal dominant, usually from mutations in *TCOF1* (the "treacle" gene), with half arising as new mutations. It is **bilateral and symmetrical**: down-slanting palpebral fissures, **lower lid colobomas**, absent or hypoplastic zygomas, micrognathia, and microtia with canal atresia and a conductive loss, usually managed with **bone-conduction hearing devices** ([[t:atresia]]). About a third have a cleft palate. The small mandible, especially with choanal atresia, can cause airway obstruction at birth that needs a tracheostomy; distraction osteogenesis may later lengthen the mandible. Intubation is difficult throughout life.
 !fig d8-2n d8-3 | First, anotia. Second, microtia (a "peanut" ear), seen in first and second arch syndromes.
 ## Goldenhar syndrome (hemifacial microsomia)
 Goldenhar syndrome is the commonest first and second arch anomaly, affecting about 1 in 5,600 to 26,500, usually sporadically. It is **unilateral and asymmetrical**, more often on the right: hypoplasia of the mandible, temporomandibular joint, muscles and orbit, preauricular tags, microtia or anotia with canal atresia, ossicular anomalies, and sometimes facial nerve and inner ear anomalies. Associated features include **epibulbar dermoids, upper lid colobomas**, and cervical vertebral fusion. The OMENS+ system grades the orbit, mandible, ear, nerves and soft tissues.
@@ -41,9 +41,10 @@ Goldenhar syndrome is the commonest first and second arch anomaly, affecting abo
 A coloboma of the **lower** lid suggests Treacher Collins syndrome (bilateral and symmetrical). A coloboma of the **upper** lid, with an epibulbar dermoid, suggests Goldenhar syndrome (unilateral and asymmetrical).
 !!
 ## Pierre Robin sequence and Stickler syndrome
-The Pierre Robin sequence combines micrognathia, glossoptosis and a U-shaped cleft palate. Airway obstruction is managed by prone positioning, a nasopharyngeal airway, tongue–lip adhesion, mandibular distraction or tracheostomy, and feeding often needs support. **Stickler syndrome**, a collagen disorder, is the commonest associated syndrome and adds high myopia with a risk of retinal detachment, joint problems and sensorineural or mixed hearing loss; every child with Robin sequence should have an eye examination.
+The Pierre Robin sequence combines micrognathia, glossoptosis and a U-shaped cleft palate ([[t:cleft]]). Airway obstruction is managed by prone positioning, a nasopharyngeal airway, tongue–lip adhesion, mandibular distraction or tracheostomy, and feeding often needs support. **Stickler syndrome**, a collagen disorder, is the commonest associated syndrome and adds high myopia with a risk of retinal detachment, joint problems and sensorineural or mixed hearing loss; every child with Robin sequence should have an eye examination.
 
 # Syndromes with sensorineural loss | Look beyond the ear.
+The work-up of the deaf child is covered in [[t:deaf]].
 ## The ones to know
 !table Syndromic sensorineural hearing loss
 Syndrome | Inheritance and gene | Features that matter
@@ -56,7 +57,7 @@ Alport | Mostly X-linked; *COL4A5* | Haematuria and renal failure; progressive h
 CHARGE | *CHD7* | Coloboma, heart defects, choanal atresia, retardation of growth, genital and ear anomalies, with absent semicircular canals
 !!
 ## CHARGE syndrome in ENT
-CHARGE stands for coloboma, heart defects, choanal atresia, retarded growth and development, genital hypoplasia and ear anomalies. The ears are typically short and wide with a small or absent lobe; the inner ear often lacks semicircular canals, so balance and motor milestones are delayed; and cranial nerve palsies, including facial palsy and swallowing problems, are common. **Bilateral choanal atresia** can be the presenting emergency.
+CHARGE stands for coloboma, heart defects, choanal atresia, retarded growth and development, genital hypoplasia and ear anomalies. The ears are typically short and wide with a small or absent lobe; the inner ear often lacks semicircular canals, so balance and motor milestones are delayed; and cranial nerve palsies, including facial palsy and swallowing problems, are common. **Bilateral choanal atresia** can be the presenting emergency ([[t:congnose]]).
 
 # Other syndromes ENT surgeons meet | Airway, palate and skull.
 ## 22q11.2 deletion syndrome
