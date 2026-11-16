@@ -67,6 +67,9 @@ Scroll the whole stack | follow structures slice to slice ; compare left with ri
 Use the planes | axial, coronal and sagittal for every finding
 Measure | Hounsfield units for fat, fluid, blood or enhancement ; size in two or three planes
 !!
+!update Current evidence
+**Radiation risk.** In a UK cohort, children who received a cumulative CT dose of about 50 mGy to the marrow or 60 mGy to the brain had roughly three times the risk of leukaemia or brain tumour, though the absolute risk remained small (Pearce et al., *Lancet* 2012). Justify every scan, use the lowest-dose protocol and avoid repeat CT where ultrasound or MRI will answer the question. **Cone-beam CT** gives high-resolution sinus and temporal bone images at a fraction of the dose of conventional CT and is increasingly used in clinic.
+!!
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials

@@ -69,6 +69,9 @@ Relations | carotid contact in degrees ; jugular vein ; prevertebral muscles ; s
 Pattern | expected drainage of the primary ; contralateral nodes ; nodes outside the pattern
 Next step | ultrasound and FNA ; PET-CT for unknown primary or advanced disease
 !!
+!update Current evidence
+**Ultrasound** with fine-needle aspiration is the most accurate way to assess neck nodes in experienced hands, and is used for surveillance of the N0 neck. **Signs of malignancy** on CT and MRI include necrosis, a rounded shape, loss of the fatty hilum, size over about 10 to 15 mm (level-dependent), and extranodal extension, which the AJCC eighth edition added to nodal staging. **PET-CT** is used for advanced disease and response assessment.
+!!
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials

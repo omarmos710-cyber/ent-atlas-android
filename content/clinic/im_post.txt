@@ -49,6 +49,9 @@ Neck | new or enlarging nodes ; new necrosis or extranodal extension ; the other
 Complications | osteoradionecrosis ; chondronecrosis ; carotid ; temporal lobes
 Grade | NI-RADS for primary and neck ; the action that goes with it
 !!
+!update Current evidence
+**NI-RADS.** The ACR Neck Imaging Reporting and Data System grades post-treatment scans from 1 to 4 and links each grade to a step: routine surveillance, direct inspection, short-interval follow-up or biopsy (Aiken et al., *J Am Coll Radiol* 2018). **PET-CT at 12 weeks** after chemoradiation is the standard response assessment, and a complete metabolic response allows neck dissection to be avoided (Mehanna et al., *NEJM* 2016). Scanning earlier than about 12 weeks gives false positives from inflammation.
+!!
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials

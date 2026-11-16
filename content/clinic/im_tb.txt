@@ -76,6 +76,9 @@ In congenital aural atresia, CT answers the questions that decide whether recons
 ## The vestibular aqueduct
 A **large vestibular aqueduct** is the commonest imaging finding in children with sensorineural loss. The aqueduct is measured at its midpoint on axial images (the Cincinnati criteria: more than 1 mm at the midpoint or more than 2 mm at the operculum) and is often associated with an incomplete partition of the cochlea.
 !fig ia107-2 | Transverse oblique reformat profiling the vestibular aqueduct along its length, the plane in which its width is best judged.
+!update Current evidence
+**HRCT** of the temporal bones remains the standard for chronic ear disease, trauma and cochlear implant planning. **Non-echo-planar diffusion-weighted MRI** detects cholesteatoma with a sensitivity of about 94% (Li et al., *Laryngoscope* 2013) and is used instead of second-look surgery. **Cone-beam CT** gives excellent bone detail at low dose and can confirm cochlear implant electrode position. **Superior canal dehiscence** is overcalled on standard CT; reformats in the plane of the canal and VEMP testing confirm it.
+!!
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials

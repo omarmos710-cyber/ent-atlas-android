@@ -58,6 +58,9 @@ MRI is slow, so motion degrades it, and children often need sedation. It shows *
 - Calling high DWI signal "restricted" without checking the ADC map.
 - Missing perineural spread because post-contrast images were not fat-suppressed.
 !!
+!update Current evidence
+**Cholesteatoma.** In a meta-analysis, non-echo-planar diffusion-weighted MRI detected cholesteatoma with a sensitivity of about 94% (Li et al., *Laryngoscope* 2013), and it now replaces many second-look operations for residual or recurrent disease, though lesions under about 3 mm can be missed. **Gadolinium safety.** Nephrogenic systemic fibrosis is now very rare with macrocyclic agents; the FDA (2017) warned of gadolinium retention in the brain after repeated doses. **Implants.** Check MRI compatibility of cochlear implants and other devices; most modern implants are conditional at 1.5 T.
+!!
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials

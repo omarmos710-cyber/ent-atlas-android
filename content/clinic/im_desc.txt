@@ -54,6 +54,9 @@ What it does | bone remodelled or destroyed ; nerves and foramina ; carotid and 
 Nodes | levels, size, necrosis, extranodal extension
 Differential | two to four diagnoses by likelihood ; what would separate them
 !!
+!update Current evidence
+**Structured reporting.** Structured templates and lexicons improve completeness and reduce ambiguity; the ACR Neck Imaging Reporting and Data System (NI-RADS) scores post-treatment scans from 1 (no evidence of recurrence) to 4 (definite recurrence), each linked to a management step (Aiken et al., *J Am Coll Radiol* 2018). Thyroid nodules (TI-RADS, U grading) and salivary cytology (Milan system) have similar systems. Learning to describe a lesion systematically (site, size, margins, density or signal, enhancement, relations, nodes) is the best preparation for viva image stations.
+!!
 
 # For the examination | What the examiner wants to hear.
 ## Viva essentials
