@@ -99,15 +99,19 @@ function smartLoad(){if(SMARTP)return SMARTP;SMARTP=(async()=>{try{
   const [a,b]=await Promise.all(["search/sm_tok.bin","search/sm_vec.bin"].map(u=>fetch(u).then(r=>{if(!r.ok)throw new Error(u);return r.arrayBuffer()})));
   XSMART.setModel(window.XSM,a,b);window.XSM.vocab=null;await new Promise(r=>setTimeout(r,0));SMX=(window.XFULL||[]).concat(window.XSMQ||[]);if(XSMART.buildDocs(SMX))SMART=XSMART;
   const box=document.getElementById("xres");if(box&&box.isConnected&&currentQ().trim().length>=2)run(currentQ(),box)}catch(e){SMART=null}})();return SMARTP}
-function smartFor(q){if(!SMART||q.trim().split(/\s+/).length<2)return null;try{return SMART.search(q,{n:5,perArticle:2})}catch(e){return null}}
+function smartFor(q){if(!SMART||q.trim().split(/\s+/).length<2)return null;try{const S=SMART.search(q,{n:5,perArticle:2});try{S.ans=SMART.answer?SMART.answer(S):null}catch(e){S.ans=null}return S}catch(e){return null}}
+/* the quick answer: the lines of the best sections that answer the question, word for word, each linked to its place */
+function ansHTML(A,hw){if(!A||!A.items.length)return "";const one=new Set(A.items.map(x=>x.route)).size===1;
+ return `<div class="xans"><p class="xans-h">Quick answer<small>quoted from your articles · tap a line to see it in place</small></p><ul>${A.items.map(x=>`<li><button class="xansi" data-go="${E(x.route)}" data-needle="${E(x.needle||x.text)}"><span>${x.label?`<b>${E(x.label)}:</b> `:""}${hl(x.text,hw)}</span>${one?"":`<small>${E(x.where.split(" · ")[0])} › ${E(x.title)}</small>`}</button></li>`).join("")}</ul>${one?`<button class="xans-src" data-go="${E(A.items[0].route)}" data-needle="${E(A.items[0].needle||A.items[0].text)}">${E(A.items[0].where.split(" · ")[0])} › ${E(A.items[0].title)}${ic("chev",14)}</button>`:""}</div>`}
 function smartHTML(S,words){if(!S||!S.list.length)return "";const X=SMX;const P=S.P;
  const hw=[...new Set(words.concat(SMART.toks(P.topic+" "+(P.soft||"")).filter(t=>t.length>=3)))];
  const asp=P.aspects.map(a=>`<i class="xt xt-sec">${E(a.label)}</i>`).join("");
  const head=`<p class="xsmq">Understood as ${asp}<b>${E(P.topic)}</b>${P.abbr&&P.abbr.length?` <small>(${P.abbr.map(([a,b])=>E(a.toUpperCase())+" = "+E(b)).join(", ")})</small>`:""}${P.fixed&&P.fixed.length?` <small>(spelling: ${P.fixed.map(([a,b])=>E(a)+" → "+E(b)).join(", ")})</small>`:""}</p>`;
+ const box=ansHTML(S.ans,hw);
  const rows=S.list.map(r=>{const x=X[r.i];if(!x)return "";const [ty,route,t,where]=x;const sn=(r.snip||"").trim();const sn2=sn.length>230?sn.slice(0,230).replace(/\s+\S*$/,"")+"…":sn;
   if(route.startsWith("qb:")){const k=ixq(route.slice(3));if(k===undefined)return "";return `<div class="xr"><button class="xrh" data-xexp="${k}"><span class="xm"><span class="xp"><i class="xt xt-${ty}">${E(TYPES[ty]?TYPES[ty][0]:"")}</i>${E(where.replace(/^(Questions|Flashcards) · /,""))}</span><b>${hl(t,hw)}</b>${sn2?`<small>${hl(sn2,hw)}</small>`:""}</span><span class="xplus" aria-hidden="true">+</span></button><div class="xb" hidden></div></div>`}
   return `<div class="xr"><button class="xrh" data-go="${E(route)}"><span class="xm"><span class="xp"><i class="xt xt-${ty}">${E(TYPES[ty]?TYPES[ty][0]:"")}</i>${E(where)}</span><b>${hl(t,hw)}</b>${sn2?`<small>${hl(sn2,hw)}</small>`:""}</span>${ic("chev",16)}</button></div>`}).join("");
- return `<section class="xg xsmart"><h2>Answers</h2>${head}<div class="xl">${rows}</div></section>`}
+ return `<section class="xg xsmart"><h2>Answers</h2>${head}${box}<div class="xl">${rows}</div></section>`}
 
 /* ---------- matching ---------- */
 function ed(a,b,max){if(Math.abs(a.length-b.length)>max)return max+1;const m=a.length,n=b.length;let p=new Array(n+1),c=new Array(n+1);for(let j=0;j<=n;j++)p[j]=j;
@@ -147,7 +151,7 @@ function symHTML(s,words){const C=window.CLINIC_DATA;if(!C)return "";const by={}
 /* ---------- highlight on arrival: after opening a result, the matching text glows for a few seconds ---------- */
 let XHL=null;
 const normWS=t=>t.replace(/\s+/g," ");
-function xhlArm(btn){const sm=btn.querySelector("small");let needle=sm?sm.textContent.replace(/^…|…$/g,"").trim():"";
+function xhlArm(btn){const sm=btn.querySelector("small");let needle=btn.dataset.needle||(sm?sm.textContent.replace(/^…|…$/g,"").trim():"");
  const go=btn.dataset.go||"",sec=btn.dataset.sec||"";XHL={needle,words:(RES&&RES.words)||[],go,sec,t:Date.now()};setTimeout(xhlRun,120)}
 function xhlTarget(){const H=XHL;if(!H)return null;const anc=H.go.includes("~")?H.go.split("~")[1]:"";
  if(anc&&!/^f\d/.test(anc))return document.getElementById("a-"+anc);
@@ -178,7 +182,7 @@ function xhlRun(){const H=XHL;if(!H)return;if(Date.now()-H.t>6000){XHL=null;retu
  setTimeout(()=>{const m=marks[0];if(!m.isConnected)return;const b=m.getBoundingClientRect();if(b.top<70||b.bottom>innerHeight-90)m.scrollIntoView({block:"center",behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"})},H.go.includes("~")?1500:200);
  setTimeout(()=>marks.forEach(m=>m.classList.add("out")),5200);
  setTimeout(()=>marks.forEach(m=>{if(!m.isConnected)return;const p=m.parentNode;while(m.firstChild)p.insertBefore(m.firstChild,m);p.removeChild(m);p.normalize()}),6600)}
-document.addEventListener("click",e=>{const b=e.target.closest("#xres .xrh[data-go], #hxres .xrh[data-go]");if(b)xhlArm(b)},true);
+document.addEventListener("click",e=>{const b=e.target.closest("#xres .xrh[data-go], #hxres .xrh[data-go], #xres .xans [data-go], #hxres .xans [data-go]");if(b)xhlArm(b)},true);
 
 /* ---------- search page ---------- */
 let SF="all",RES=null,LBL=[];const PER=6;

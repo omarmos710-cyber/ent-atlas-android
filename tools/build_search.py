@@ -29,10 +29,25 @@ SVG = re.compile(r'<svg.*?</svg>', re.S)
 FIGCAP = re.compile(r'<figure.*?</figure>', re.S)
 
 
-def text(h):
+def text(h, blocks=False):
+    """Plain text. With blocks=True every paragraph, list item, heading or cell ends in a newline,
+    so the offline answer box can tell sentences from headings (shown as spaces everywhere else)."""
     h = SVG.sub(' ', h)
-    h = re.sub(r'</(p|li|h\d|tr|td|th|div|summary)>', ' ', h)
-    return WS.sub(' ', html.unescape(TAG.sub(' ', h))).strip()
+    if blocks:
+        # table cells and the parts of labelled rows (term + explanation, step number + step) end in a tab,
+        # header cells in a vertical tab; rows, paragraphs and headings in a newline
+        h = re.sub(r'</th>', '\x03', h)
+        h = re.sub(r'</td>', '\x02', h)
+        h = re.sub(r'(<span class="root">[^<]*</span>)', lambda m: m.group(1)[:-7] + '\x01', h)
+        h = re.sub(r'</(b|em|strong|span|i)>\s*(?=<(span|b|div|ul|em|strong)\b)', '\x02', h)
+        h = re.sub(r'(<span class="(?:n|dot|k)">[^<]*</span>)', lambda m: m.group(1) + '\x02', h)
+    h = re.sub(r'</(p|li|h\d|tr|td|th|div|summary|dt|dd|figcaption|caption)>', '\x01' if blocks else ' ', h)
+    t = WS.sub(' ', html.unescape(TAG.sub(' ', h)))
+    if blocks:
+        t = re.sub(r' *\x03[ \x02\x03]*', '\t\t', t)  # header cells: a double tab
+        t = re.sub(r' *\x02[ \x02]*', '\t', t).replace('\t\t\t', '\t\t')
+        t = re.sub(r'[ \t\v\x01]*\x01[ \t\v\x01]*', '\n', t)
+    return t.strip()
 
 
 def load(path, var):
@@ -65,7 +80,7 @@ def entries_for(h, article, route, kind):
         for anchor, title, seg in segs:
             # evidence boxes become their own entries
             for bm in BOX.finditer(seg):
-                body = text(bm.group(2))
+                body = text(bm.group(2), True)
                 body = re.sub(r'^(Current evidence|Evidence)\s*', '', body)
                 if len(body) > 40:
                     out.append(['ev', f'{route}~{anchor}', f'{article}: current evidence',
@@ -73,7 +88,7 @@ def entries_for(h, article, route, kind):
             seg_wo = LEVEL.sub(' ', BOX.sub(' ', seg))
             # drop the chapter heading block from the chapter-intro segment
             seg_wo = re.sub(r'<div class="archd">.*?</div>\s*</div>', ' ', seg_wo, flags=re.S)
-            body = text(seg_wo)
+            body = text(seg_wo, True)
             if anchor == chap_id:
                 body = re.sub(r'^\d+\s+Chapter \w+\s+' + re.escape(chap_t) + r'\s*', '', body)
                 if len(body) < 60:
