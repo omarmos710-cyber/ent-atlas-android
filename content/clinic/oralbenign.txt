@@ -1,14 +1,34 @@
+@layout amboss
 @stand Lumps in the mouth are common and mostly benign: a fibrous polyp where the cheek is bitten, a pyogenic granuloma on the gum, a mucocele on the lower lip, a ranula under the tongue. Between these and cancer sits a group of patches, white and red, that are not yet malignant but may become so. Recognise each, excise what needs excising, and keep the premalignant patient under watch.
 
-# Overview | Three groups.
-## Classification
+# Summary | Three groups.
 - **Benign tumours:** solid (papilloma, fibroma, haemangioma, lymphangioma, torus, pyogenic granuloma, granular cell tumour, minor salivary gland adenoma) and cystic (mucocele, ranula, dermoid).
 - **Premalignant lesions and conditions:** leukoplakia, erythroplakia, submucous fibrosis and others.
 - **Malignant lesions:** squamous cell carcinoma and the non-squamous cancers ([[t:tonsil_ca]], [[t:oral_ca]]).
 ## The rule
 Any lump that is growing, ulcerated, indurated or fixed, or any patch that is red, speckled or nodular, is biopsied.
 
-# Solid benign tumours | The common lumps.
+# Differential diagnosis | Telling them apart.
+## Oral white patches
+!table Oral white patches
+Lesion | Wipes off? | Clue
+Thrush | Yes, leaving a red base | Infant, antibiotics, steroids, diabetes
+Leukoedema | Disappears on stretching | Bilateral buccal mucosa, a normal variant
+Lichen planus | No | Lace-like Wickham striae, both cheeks
+Hairy leukoplakia | No | Lateral tongue borders, HIV
+Hyperplastic candidiasis | No | Commissures; responds partly to antifungals
+Leukoplakia | No | Tobacco site; a diagnosis of exclusion
+!!
+## Swellings in the floor of mouth
+!table Swellings in the floor of mouth
+Feature | Ranula | Sublingual dermoid | Submandibular calculus
+Colour | Bluish, translucent | White, opaque | Normal mucosa over the duct
+Consistency | Soft, fluctuant | Doughy | Hard, palpable along the duct
+Position | One side of the frenulum | Midline or near it | Along Wharton's duct
+Other | May plunge into the neck | Present from youth | Pain and swelling with meals
+!!
+
+# Solid benign tumours {dz} | The common lumps.
 ## Papilloma
 Common, usually in the third to fifth decades, on the palate, uvula, tongue and lips: a small (under 1 cm), white, pedunculated growth with finger-like projections, linked to HPV 6 and 11. Excisional biopsy; recurrence is rare.
 ## Fibroma (fibroepithelial polyp)
@@ -34,29 +54,24 @@ Pleomorphic adenoma is the commonest benign tumour, usually a painless submucosa
 Neurofibroma and schwannoma (the tongue is a favoured site), lipoma (soft, yellow, in the cheek or floor), solitary fibrous tumour and verruciform xanthoma, all treated by excision.
 !imaging schwannomas-of-the-oral-cavity-and-neck cystic-hygroma-lymphangioma | Schwannoma of the oral cavity, and lymphangioma.
 
-# Cysts | Mucocele, ranula, dermoid.
-## Mucocele
+# Mucocele {dz} | The lower lip.
 A retention or extravasation cyst of a minor salivary gland, almost always on the *lower lip*, after a bite: a soft, bluish, translucent swelling that may burst and refill. Excision with the underlying gland.
 !fig d44-5 | (A) A mucocele of the lower lip. (B) A mucocele on the ventral surface of the tongue tip.
-## Ranula
+
+# Ranula {dz} | The floor of mouth.
+## Clinical features
 A cystic, translucent, bluish swelling in the floor of mouth to one side of the frenulum, pushing the tongue up, from obstruction of the ducts of the *sublingual gland*. A *plunging ranula* passes through or behind the mylohyoid into the neck and presents as a soft submandibular or submental swelling.
 !fig d44-6 | A ranula: a translucent swelling under the tongue.
-### Treatment
+## Management
 Older texts describe excision for small ranulas and marsupialisation for large ones, noting that the thin wall makes complete removal difficult. Recurrence after marsupialisation alone is common; excision of the ranula *with the sublingual gland* through the mouth, protecting the submandibular duct and lingual nerve, is now preferred and also cures most plunging ranulas.
 !imaging ranula-of-the-sublingual-gland | Ranula of the sublingual gland.
 !ops 89 | Ranula surgery.
-## Dermoid
-A sublingual dermoid lies above the mylohyoid, in or beside the midline, and shines white through the mucosa, unlike the translucent ranula; a submental dermoid lies below the mylohyoid and bulges under the chin. Excised through the mouth or the neck according to its relation to the muscle.
-!table Swellings in the floor of mouth
-Feature | Ranula | Sublingual dermoid | Submandibular calculus
-Colour | Bluish, translucent | White, opaque | Normal mucosa over the duct
-Consistency | Soft, fluctuant | Doughy | Hard, palpable along the duct
-Position | One side of the frenulum | Midline or near it | Along Wharton's duct
-Other | May plunge into the neck | Present from youth | Pain and swelling with meals
-!!
 
-# Premalignant lesions | White and red patches.
-## Definitions
+# Dermoid {dz} | Above or below the mylohyoid.
+A sublingual dermoid lies above the mylohyoid, in or beside the midline, and shines white through the mucosa, unlike the translucent ranula; a submental dermoid lies below the mylohyoid and bulges under the chin. Excised through the mouth or the neck according to its relation to the muscle.
+
+# Leukoplakia {dz} | The white patch.
+## Premalignant lesions and conditions
 A *premalignant lesion* is altered tissue in which cancer is more likely to develop (leukoplakia, erythroplakia); a *premalignant condition* is a general state with increased risk (submucous fibrosis, lichen planus, iron deficiency). The WHO now groups both as *oral potentially malignant disorders* ([[t:oral_ca]]); submucous fibrosis and lichen planus are described in [[t:oraldis]].
 !note Precancerous lesions and conditions of the oral cavity
 - Leukoplakia and erythroplakia.
@@ -67,51 +82,41 @@ A *premalignant lesion* is altered tissue in which cancer is more likely to deve
 - Sideropenic anaemia (Plummer–Vinson syndrome).
 - Pigmented lesions and melanosis; discoid lupus.
 !!
-## Leukoplakia
-### Definition
+## Definition
 The WHO defines leukoplakia as a white patch that cannot be characterised clinically or pathologically as any other disease. It is a clinical term that says nothing about histology; lichen planus, candidiasis, leukoedema and white sponge naevus must be excluded.
-### Causes and sites
+## Etiology and sites
 Smoking, tobacco and areca chewing, alcohol (especially with smoking), chronic trauma from teeth or dentures, candida, submucous fibrosis and Plummer–Vinson syndrome. In India the buccal mucosa and commissures are the commonest sites, at the place where the quid is held; the floor of mouth, tongue, gingivobuccal sulcus and lips are also affected. Mostly men in their forties.
 !fig d44-7 d44-8 | First, leukoplakia of the cheek after pan and tobacco use. Second, leukoplakia on the lateral border of the tongue.
-### Types
+## Subtypes and variants
 - **Homogeneous:** a uniform, smooth or wrinkled white plaque; the lowest risk.
 - **Speckled (nodular):** white nodules on a red base.
 - **Erosive (erythroleukoplakia):** white mixed with red, with erosions and fissures.
 - **Proliferative verrucous leukoplakia:** multifocal, warty and relentlessly progressive, often in older women without the usual risk factors; a very high risk of carcinoma.
 !fig d44-9 | Leukoplakia at the site where a quid of tobacco and lime was held.
-### Malignant potential
-About a quarter show some dysplasia, and the higher the grade the greater the risk. Quoted rates of malignant change range from under 1% to 17.5%, averaging about 5% in older series and about 9.5% in a recent meta-analysis (see Current evidence); speckled, erosive and verrucous forms, the floor of mouth and ventral tongue, and long follow-up carry the highest risk.
-### Management
+## Management
 - Stop tobacco, areca and alcohol, and remove sharp teeth: many lesions regress.
 - Biopsy, from the reddest or most nodular area, to grade any dysplasia.
 - Mild or no dysplasia: review regularly, and excise if it persists or changes.
 - Moderate dysplasia or worse: excise, or ablate with laser or cryotherapy.
 - Retinoids and beta-carotene can induce remission, but lesions tend to return when they are stopped.
-## Erythroplakia
+### Chemoprevention
+Vitamin A, beta-carotene, vitamin E and retinoids such as 13-cis-retinoic acid can make leukoplakia regress in a quarter to a half of patients and may reduce second primary cancers, but the benefit lasts only as long as the drug is taken; stopping tobacco remains the most effective prevention.
+!update Current evidence
+**Malignant transformation.** A meta-analysis of potentially malignant oral disorders found transformation rates of about 1.4% for lichen planus, 5% for submucous fibrosis, 9.5% for leukoplakia, 33% for erythroplakia and 50% for proliferative verrucous leukoplakia, with moderate or severe dysplasia carrying a much higher risk than mild (Iocca et al., *Head Neck* 2020). **Terminology.** A 2020 WHO workshop updated the list and definitions of oral potentially malignant disorders and recommended biopsy of any lesion that cannot be explained, with lifelong review (Warnakulasuriya et al., *Oral Dis* 2021). **Management.** Stopping tobacco, areca nut and alcohol is the most effective measure; excision of dysplastic lesions has not been shown in trials to prevent cancer, so surveillance continues after removal.
+!!
+## Prognosis: malignant potential
+About a quarter show some dysplasia, and the higher the grade the greater the risk. Quoted rates of malignant change range from under 1% to 17.5%, averaging about 5% in older series and about 9.5% in a recent meta-analysis (see Current evidence); speckled, erosive and verrucous forms, the floor of mouth and ventral tongue, and long follow-up carry the highest risk.
+
+# Erythroplakia {dz} | Red is worse than white.
 A velvety red patch or plaque that cannot be characterised as any other disease, often slightly depressed with a sharp edge, on the floor of mouth, ventral tongue, soft palate and gingivobuccal sulcus. The redness is the vascular submucosa shining through thin, poorly keratinised epithelium. Most already show severe dysplasia, carcinoma in situ or invasive cancer when first seen, and the risk is many times that of leukoplakia. Excision biopsy and close follow-up.
 !pearl Red is worse than white
 Erythroplakia and the red parts of a speckled leukoplakia are where carcinoma is found. Biopsy the red.
 !!
-## Pigmented lesions
+
+# Pigmented lesions {dz} | Exclude melanoma.
 Benign melanotic macules and naevi are common; about a quarter of mucosal melanomas look benign at first, so a new, enlarging or irregular pigmented lesion on the palate or gum is biopsied.
-## Chemoprevention
-Vitamin A, beta-carotene, vitamin E and retinoids such as 13-cis-retinoic acid can make leukoplakia regress in a quarter to a half of patients and may reduce second primary cancers, but the benefit lasts only as long as the drug is taken; stopping tobacco remains the most effective prevention.
 
-# Clinical comparison | Telling them apart.
-!table Oral white patches
-Lesion | Wipes off? | Clue
-Thrush | Yes, leaving a red base | Infant, antibiotics, steroids, diabetes
-Leukoedema | Disappears on stretching | Bilateral buccal mucosa, a normal variant
-Lichen planus | No | Lace-like Wickham striae, both cheeks
-Hairy leukoplakia | No | Lateral tongue borders, HIV
-Hyperplastic candidiasis | No | Commissures; responds partly to antifungals
-Leukoplakia | No | Tobacco site; a diagnosis of exclusion
-!!
-!update Current evidence
-**Malignant transformation.** A meta-analysis of potentially malignant oral disorders found transformation rates of about 1.4% for lichen planus, 5% for submucous fibrosis, 9.5% for leukoplakia, 33% for erythroplakia and 50% for proliferative verrucous leukoplakia, with moderate or severe dysplasia carrying a much higher risk than mild (Iocca et al., *Head Neck* 2020). **Terminology.** A 2020 WHO workshop updated the list and definitions of oral potentially malignant disorders and recommended biopsy of any lesion that cannot be explained, with lifelong review (Warnakulasuriya et al., *Oral Dis* 2021). **Management.** Stopping tobacco, areca nut and alcohol is the most effective measure; excision of dysplastic lesions has not been shown in trials to prevent cancer, so surveillance continues after removal.
-!!
-
-# For the examination | What the examiner wants to hear.
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Definition of leukoplakia,** its types and malignant potential.
@@ -127,3 +132,15 @@ Leukoplakia | No | Tobacco site; a diagnosis of exclusion
 - Biopsying the white part of a speckled leukoplakia instead of the red.
 - Excising a pregnancy granuloma during pregnancy.
 !!
+## Related topics
+- [[t:oral_ca]], [[t:oraldis]], [[t:tonsil_ca]], [[t:salivary]], [[t:saltum]], [[t:jaw]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 57.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 6.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapter 44.
+- K. J. Lee, *Essential Otolaryngology*, chapter 36.
+## Studies cited
+- Iocca et al., *Head Neck* 2020: malignant transformation.
+- Warnakulasuriya et al., *Oral Dis* 2021: WHO workshop on oral potentially malignant disorders.

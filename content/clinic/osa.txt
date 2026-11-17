@@ -1,7 +1,32 @@
+@layout amboss
 @stand Every patient with obstructive sleep apnoea snores, but not every snorer has apnoea. The difference matters: primary snoring is a social nuisance, while apnoea, with its repeated nightly suffocation, raises blood pressure, strains the heart, causes strokes and puts sleepy drivers on the road. The bed partner gives the history, the sleep study gives the diagnosis, positive airway pressure is the first treatment, and surgery is chosen by finding where the airway collapses.
 
-# Definitions | Words of the sleep study.
-## Terms
+# Summary | Snoring is not the same as apnoea.
+Obstructive sleep apnoea is repeated collapse of the upper airway in sleep, with continued breathing effort, fragmenting sleep and lowering oxygen. The bed partner gives the history, polysomnography (or a home study) gives the diagnosis and its severity by the apnoea–hypopnoea index, positive airway pressure is the first treatment, and surgery is chosen by finding where the airway collapses. Children are different: adenotonsillar hypertrophy is the usual cause and adenotonsillectomy the usual cure.
+
+# Epidemiology | Who snores.
+Snoring affects about a quarter of men and fifteen per cent of women, and increases with age. In children, about 10 to 15% snore, and 1 to 4% have obstructive sleep apnoea ([[@Subtypes and variants/Children]]).
+
+# Pathophysiology | Why the throat closes in sleep.
+## Snoring
+In sleep the pharyngeal muscles relax and the airway narrows; breathing through the narrowing sets the soft palate, uvula, pillars and tongue base vibrating, at up to 90 dB.
+## Obstruction
+The pharynx has no bony support between the palate and the larynx; its patency depends on muscle tone against the suction of inspiration. Tone falls most in REM sleep and stage 2 sleep, when events are most frequent. Each apnoea ends with an arousal that restores tone, fragmenting sleep.
+## Sites
+Obstruction may be at more than one level, and may differ from night to night:
+- **Level I:** nose and nasopharynx: septal deviation, turbinate hypertrophy, valve collapse, polyps, adenoids, tumours.
+- **Level II:** palate and tonsils: a long soft palate and uvula, large tonsils, bulky lateral walls.
+- **Level III:** tongue base, hypopharynx and larynx: macroglossia, retrognathia, lingual tonsils, an omega-shaped or floppy epiglottis, tumours.
+Obesity and a thick neck (collar over about 42 cm in men) narrow every level; alcohol, sedatives and hypnotics relax the muscles further.
+!anat s200_8 s209_23 | Waldeyer's ring seen through the mouth, and the adenoids compared with the palatine tonsils.
+## Sleep architecture
+An adult sleeps seven to eight hours in three to five cycles of 90 to 120 minutes. Non-REM sleep (75 to 80%) moves from light stages to deep slow-wave sleep; REM sleep (20 to 25%) brings dreaming, irregular breathing and heart rate, and near-paralysis of skeletal muscle, which is why obstruction is worst then.
+
+# Clinical features | Night and day.
+Loud snoring disturbs the partner (the snoring spouse syndrome); witnessed choking and gasping, restless unrefreshing sleep, excessive daytime sleepiness, morning headaches, fatigue, poor memory and concentration, irritability and depression, reduced libido, nocturia.
+
+# Diagnosis | Finding the cause and the level.
+## Definitions: words of the sleep study
 - **Apnoea:** cessation of airflow for 10 seconds or more during sleep.
 - **Hypopnoea:** a reduction in airflow (commonly by 30 to 50%) with a fall in oxygen saturation of 3 to 4% or an arousal.
 - **Apnoea–hypopnoea index (AHI):** apnoeas and hypopnoeas per hour of sleep; also called the respiratory disturbance index. Under 5 is normal.
@@ -15,41 +40,6 @@ Mild | 5 to 14
 Moderate | 15 to 29
 Severe | 30 or more
 !!
-## Types of apnoea
-- **Obstructive:** the upper airway collapses while breathing effort continues.
-- **Central:** the airway is open but the brain does not signal breathing; no effort is made.
-- **Mixed:** a central start followed by obstruction.
-## Spectrum of sleep-disordered breathing
-**Primary snoring** (no arousals, AHI under 5, no daytime sleepiness), **upper airway resistance** (effort-related arousals and sleepiness without frank apnoeas), and **obstructive sleep apnoea**.
-
-# Mechanism | Why the throat closes in sleep.
-## Snoring
-In sleep the pharyngeal muscles relax and the airway narrows; breathing through the narrowing sets the soft palate, uvula, pillars and tongue base vibrating, at up to 90 dB. Snoring affects about a quarter of men and fifteen per cent of women, and increases with age.
-## Obstruction
-The pharynx has no bony support between the palate and the larynx; its patency depends on muscle tone against the suction of inspiration. Tone falls most in REM sleep and stage 2 sleep, when events are most frequent. Each apnoea ends with an arousal that restores tone, fragmenting sleep.
-## Sites
-Obstruction may be at more than one level, and may differ from night to night:
-- **Level I:** nose and nasopharynx: septal deviation, turbinate hypertrophy, valve collapse, polyps, adenoids, tumours.
-- **Level II:** palate and tonsils: a long soft palate and uvula, large tonsils, bulky lateral walls.
-- **Level III:** tongue base, hypopharynx and larynx: macroglossia, retrognathia, lingual tonsils, an omega-shaped or floppy epiglottis, tumours.
-Obesity and a thick neck (collar over about 42 cm in men) narrow every level; alcohol, sedatives and hypnotics relax the muscles further.
-!anat s200_8 s209_23 | Waldeyer's ring seen through the mouth, and the adenoids compared with the palatine tonsils.
-## Sleep architecture
-An adult sleeps seven to eight hours in three to five cycles of 90 to 120 minutes. Non-REM sleep (75 to 80%) moves from light stages to deep slow-wave sleep; REM sleep (20 to 25%) brings dreaming, irregular breathing and heart rate, and near-paralysis of skeletal muscle, which is why obstruction is worst then.
-
-# Consequences | More than noise.
-## Personal
-Loud snoring disturbs the partner (the snoring spouse syndrome); witnessed choking and gasping, restless unrefreshing sleep, excessive daytime sleepiness, morning headaches, fatigue, poor memory and concentration, irritability and depression, reduced libido, nocturia.
-## Medical
-- **Hypertension:** apnoea is an independent risk factor; treatment lowers blood pressure, even resistant hypertension.
-- **Heart:** arrhythmias, ischaemia, heart failure, pulmonary hypertension and cor pulmonale; untreated severe apnoea increases mortality.
-- **Brain:** stroke.
-- **Metabolic:** insulin resistance; polycythaemia.
-- **Perioperative risk:** difficult airways and sensitivity to opioids and sedatives.
-## Social
-Road traffic and workplace accidents. Ask every patient about sleepiness while driving; in some jurisdictions the doctor must advise the patient about notifying the licensing authority.
-
-# Evaluation | Finding the cause and the level.
 ## History
 Take it from the bed partner as well as the patient: snoring, pauses, gasping, choking, restlessness and sweating at night; sleepiness, fatigue, headaches, memory and mood by day. Ask about sleep habits and shift work, alcohol, sedatives and caffeine, sleep position, nasal obstruction, menopause and weight change, and driving.
 !note Epworth sleepiness scale
@@ -88,7 +78,28 @@ Lateral cephalometry for craniofacial skeletal anomalies and the posterior airwa
 ## Sleep studies
 *Polysomnography* is the gold standard. A full attended study (level 1) records EEG, electro-oculogram and chin and leg EMG (sleep staging), ECG, nasal and oral airflow, thoracic and abdominal effort, oxygen saturation, body position and snoring; it separates obstructive from central apnoea and primary snoring from apnoea. Home studies (level 3: airflow, effort, oximetry, position) are now widely used for uncomplicated adults; oximetry alone is insufficient. A split-night study diagnoses in the first half and titrates CPAP in the second, though events may be under-counted.
 
-# Non-surgical treatment | First-line.
+# Subtypes and variants | Types, spectrum and children.
+## Types of apnoea
+- **Obstructive:** the upper airway collapses while breathing effort continues.
+- **Central:** the airway is open but the brain does not signal breathing; no effort is made.
+- **Mixed:** a central start followed by obstruction.
+## Spectrum of sleep-disordered breathing
+**Primary snoring** (no arousals, AHI under 5, no daytime sleepiness), **upper airway resistance** (effort-related arousals and sleepiness without frank apnoeas), and **obstructive sleep apnoea**.
+## Children
+!flag Children are different
+In children the commonest cause is adenotonsillar hypertrophy. They show snoring, pauses and gasping, restless sleep with the neck hyperextended, sweating, bedwetting, morning headache, and by day hyperactivity, poor attention and school performance, and sometimes failure to thrive, rather than sleepiness. An AHI above 1 is abnormal in a child, and adenotonsillectomy is first-line treatment.
+!!
+### Who and why
+About 10 to 15% of children snore, and 1 to 4% have obstructive sleep apnoea, more in obese and Black children. It usually begins between two and six years, when the tonsils and adenoids are largest relative to the airway (tonsils grade 3 or more on the Brodsky scale). Prematurity is a risk factor, and apnoea can cause failure to thrive, poor behaviour and attention, and enuresis.
+### Assessment
+Most children can be treated on a careful history and examination, ideally with a parental video. Overnight **oximetry** helps triage (a normal trace does not exclude apnoea), and **polysomnography** is kept for uncertain cases and high-risk children: those under two, with obesity, Down syndrome, craniofacial or neuromuscular disease, or cardiac complications.
+### Treatment
+Adenotonsillectomy is the main treatment. Watchful waiting is reasonable for snoring and mild disease, because many children improve; intranasal steroids and **montelukast** help in the short term, especially with rhinitis or residual symptoms after surgery. Weight loss is recommended for obese children. Children with persistent apnoea after adenotonsillectomy, or without large tonsils, need drug-induced sleep endoscopy or MRI to find other levels of obstruction. Children under three, with severe apnoea or comorbidities, are monitored overnight after surgery.
+!update Current evidence
+**Children.** In the CHAT trial, children aged five to nine with non-severe apnoea who had early adenotonsillectomy did not improve in attention or executive function compared with watchful waiting, but did improve in symptoms, behaviour, quality of life and sleep studies; 46% of the waiting group normalised spontaneously (Marcus et al., *N Engl J Med* 2013). The PATS trial of 458 children with snoring and mild apnoea found the same: no difference in executive function or attention at a year, but better behaviour, sleepiness and quality of life after surgery (Redline et al., *JAMA* 2023).
+!!
+
+# Management | Non-surgical first, then surgery matched to the level.
 ## Lifestyle
 - Weight loss; bariatric surgery for morbid obesity. **Tirzepatide** reduced the apnoea–hypopnoea index by about half in obese adults in the SURMOUNT-OSA trials (Malhotra et al., *NEJM* 2024) and is now licensed for moderate to severe sleep apnoea with obesity in some countries.
 - Avoid alcohol in the evening, sedatives and hypnotics; stop smoking.
@@ -98,9 +109,7 @@ Lateral cephalometry for craniofacial skeletal anomalies and the posterior airwa
 *Continuous positive airway pressure* (CPAP) is a pneumatic splint that holds the airway open, usually at 5 to 20 cm of water, through a nasal, nasal-pillow or full-face mask. Bilevel (BiPAP) delivers a higher inspiratory and lower expiratory pressure for those who need high pressures; auto-titrating devices adjust continuously. It is the most effective non-surgical treatment and the standard for moderate to severe apnoea, but only about half of patients use it adequately (at least four hours a night, five nights a week) in the long term, because of discomfort, claustrophobia, dryness, leaks and inconvenience. Coaching and follow-up improve adherence.
 ## Oral appliances
 A *mandibular advancement device* holds the jaw forward and draws the tongue and soft tissues away from the posterior wall; a *tongue-retaining device* holds the tongue forward. Effective for snoring and mild to moderate apnoea, and useful in retrognathia; side effects are jaw pain, dental movement and dryness.
-
-# Surgery | Matched to the level.
-## Indications
+## Surgery: indications
 Failure of or intolerance to CPAP, favourable anatomy, patient preference, and serious cardiovascular disease. Surgery is tailored to the level(s) of obstruction; multilevel procedures may be combined or staged.
 ## Nasal surgery
 Septoplasty, turbinate reduction, polypectomy, valve surgery and adenoidectomy ([[t:septum]], [[t:sinussurg]]). Nasal surgery seldom cures apnoea, because the nose is not a collapsing segment, but it improves sleep quality and CPAP tolerance and can lower the pressure needed.
@@ -130,23 +139,21 @@ Dhingra: Calls tracheostomy the gold standard of surgical treatment, lists uvulo
 Lee: Places CPAP as the gold standard of therapy, emphasises patient selection by Friedman stage and DISE, reporting UPPP success above 85% in favourable anatomy, and names maxillomandibular advancement the most effective operation short of tracheostomy.
 In practice: Both agree that surgery must be matched to the level of collapse. CPAP is first line for moderate and severe apnoea; surgery is matched to the site of collapse on drug-induced sleep endoscopy, with multilevel surgery (MacKay et al., *JAMA* 2020) and hypoglossal nerve stimulation (Strollo et al., *NEJM* 2014) for selected CPAP failures, and tracheostomy as a last resort.
 !!
-
-# Children | Big tonsils, small airway.
-!flag Children are different
-In children the commonest cause is adenotonsillar hypertrophy. They show snoring, pauses and gasping, restless sleep with the neck hyperextended, sweating, bedwetting, morning headache, and by day hyperactivity, poor attention and school performance, and sometimes failure to thrive, rather than sleepiness. An AHI above 1 is abnormal in a child, and adenotonsillectomy is first-line treatment.
-!!
-## Who and why
-About 10 to 15% of children snore, and 1 to 4% have obstructive sleep apnoea, more in obese and Black children. It usually begins between two and six years, when the tonsils and adenoids are largest relative to the airway (tonsils grade 3 or more on the Brodsky scale). Prematurity is a risk factor, and apnoea can cause failure to thrive, poor behaviour and attention, and enuresis.
-## Assessment
-Most children can be treated on a careful history and examination, ideally with a parental video. Overnight **oximetry** helps triage (a normal trace does not exclude apnoea), and **polysomnography** is kept for uncertain cases and high-risk children: those under two, with obesity, Down syndrome, craniofacial or neuromuscular disease, or cardiac complications.
-## Treatment
-Adenotonsillectomy is the main treatment. Watchful waiting is reasonable for snoring and mild disease, because many children improve; intranasal steroids and **montelukast** help in the short term, especially with rhinitis or residual symptoms after surgery. Weight loss is recommended for obese children. Children with persistent apnoea after adenotonsillectomy, or without large tonsils, need drug-induced sleep endoscopy or MRI to find other levels of obstruction. Children under three, with severe apnoea or comorbidities, are monitored overnight after surgery.
 !update Current evidence
-**Children.** In the CHAT trial, children aged five to nine with non-severe apnoea who had early adenotonsillectomy did not improve in attention or executive function compared with watchful waiting, but did improve in symptoms, behaviour, quality of life and sleep studies; 46% of the waiting group normalised spontaneously (Marcus et al., *N Engl J Med* 2013). The PATS trial of 458 children with snoring and mild apnoea found the same: no difference in executive function or attention at a year, but better behaviour, sleepiness and quality of life after surgery (Redline et al., *JAMA* 2023).
 **Adults.** In 2,717 adults with cardiovascular disease and moderate to severe apnoea, CPAP (used a mean of 3.3 hours a night) did not prevent cardiovascular events, though it improved sleepiness, mood and quality of life (McEvoy et al., *N Engl J Med* 2016). In the SAMS trial of 102 adults in whom CPAP had failed, combined palatal and tongue surgery lowered the apnoea-hypopnoea index from 47.9 to 20.8, compared with 45.3 to 34.5 on medical management, and improved sleepiness (MacKay et al., *JAMA* 2020). Hypoglossal nerve stimulation reduced the median index by 68% (29.3 to 9.0) at a year in selected patients (Strollo et al., *N Engl J Med* 2014). NICE recommends CPAP for moderate and severe disease, and for mild disease with symptoms affecting daily life (NG202, 2021).
 !!
 
-# For the examination | What the examiner wants to hear.
+# Complications | More than noise.
+## Medical
+- **Hypertension:** apnoea is an independent risk factor; treatment lowers blood pressure, even resistant hypertension.
+- **Heart:** arrhythmias, ischaemia, heart failure, pulmonary hypertension and cor pulmonale; untreated severe apnoea increases mortality.
+- **Brain:** stroke.
+- **Metabolic:** insulin resistance; polycythaemia.
+- **Perioperative risk:** difficult airways and sensitivity to opioids and sedatives.
+## Social
+Road traffic and workplace accidents. Ask every patient about sleepiness while driving; in some jurisdictions the doctor must advise the patient about notifying the licensing authority.
+
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Definitions:** apnoea, hypopnoea, AHI and severity grades.
@@ -164,3 +171,19 @@ Adenotonsillectomy is the main treatment. Watchful waiting is reasonable for sno
 - Giving opioids freely after surgery to a patient with severe apnoea.
 - Promising that nasal surgery will cure apnoea.
 !!
+## Related topics
+- [[t:tonsil]], [[t:adenoid]], [[t:septum]], [[t:trach]], [[t:cleft]], [[t:syndr]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapters 51 and 75.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 6.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 16.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapter 55.
+- K. J. Lee, *Essential Otolaryngology*, chapter 2.
+## Studies cited
+- Marcus et al., *N Engl J Med* 2013: the CHAT trial; Redline et al., *JAMA* 2023: the PATS trial.
+- McEvoy et al., *N Engl J Med* 2016: the SAVE trial of CPAP.
+- MacKay et al., *JAMA* 2020: the SAMS trial; Strollo et al., *N Engl J Med* 2014: hypoglossal nerve stimulation.
+- Malhotra et al., *NEJM* 2024: tirzepatide (SURMOUNT-OSA).
+- NICE guideline NG202 (2021): obstructive sleep apnoea.

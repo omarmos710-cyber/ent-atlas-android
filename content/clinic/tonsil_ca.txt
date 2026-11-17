@@ -1,14 +1,19 @@
+@layout amboss
 @stand Two cancers share this chapter and differ in almost everything except their histology. Oral cancer is visible, tied to tobacco, areca nut and alcohol, common in South Asia, and treated first by surgery. Oropharyngeal cancer hides behind the tongue and in the tonsil, presents with a lump in the neck, is increasingly caused by human papillomavirus in younger non-smokers, and is often treated by radiation. Both demand an examination that includes palpation, and both punish delay.
 
-# Overview | Two regions, one disease.
+# Summary | Two regions, one disease.
+Oral and oropharyngeal cancers share squamous histology and a work-up, but differ in cause, presentation and first treatment. Each has its own chapter after the shared chapters: [[@Oral cavity cancer]] and [[@Oropharyngeal cancer]], with [[@Non-squamous cancers]] and [[@Benign tumours of the oropharynx]].
 ## Subsites
 - **Oral cavity:** mucosal lip, buccal mucosa, oral tongue (anterior two-thirds), floor of mouth, upper and lower alveolus (gingiva), retromolar trigone and hard palate.
 - **Oropharynx:** base of tongue, tonsil and tonsillar fossa with the pillars, soft palate and uvula (the faucial arch), and the posterior and lateral pharyngeal walls.
 
 The potentially malignant disorders, margins and adjuvant therapy for oral cancer are covered in more depth in [[t:oral_ca]].
 !anat s166_10 s211_28 | The subsites of the oral cavity, and the oropharynx through the open mouth.
-## Epidemiology
+
+# Epidemiology | Geography and HPV.
 India carries one of the highest burdens of oral cancer in the world: lip, tongue and mouth together make up about a fifth of all male cancers there, with buccal mucosa and tongue the leading sites, driven by tobacco chewing with lime, pan and areca nut, bidi smoking and alcohol. In the West the lip is the commonest oral subsite when lip cancers are counted (many series group them with skin cancer); among intraoral sites the tongue and floor of mouth lead, and tongue cancer is rising in young adults. Oropharyngeal cancer is rising rapidly in Europe and North America because of HPV.
+
+# Etiology | Tobacco, alcohol, areca nut and HPV.
 ## Causes
 - **Tobacco:** smoking increases oral cancer about sixfold; chewing tobacco places carcinogen at the site where the quid is held; *reverse smoking* (the burning end inside the mouth) causes palatal cancer.
 - **Alcohol:** multiplies, rather than adds to, the effect of tobacco.
@@ -17,12 +22,14 @@ India carries one of the highest burdens of oral cancer in the world: lip, tongu
 - **Others:** chronic trauma from jagged teeth and dentures, poor oral hygiene, Plummer–Vinson syndrome, immunosuppression, sunlight (lower lip), and rare syndromes (Fanconi anaemia).
 ## Field cancerisation
 Tobacco and alcohol alter the whole mucosa of the upper aerodigestive tract, so dysplasia and cancer arise in more than one place. About 15% of patients have, or will develop, a second primary in the head and neck, oesophagus or lung.
+
+# Pathophysiology | Pathology and gross forms.
 ## Pathology
 Squamous cell carcinoma in about 90%; minor salivary gland carcinomas (adenoid cystic, mucoepidermoid, adenocarcinoma), lymphoma (especially tonsil and base of tongue), melanoma (palate and gum) and Kaposi sarcoma make up the rest. Verrucous carcinoma is a slow, warty, well-differentiated variant of the buccal mucosa that rarely metastasises.
-
-# Clinical picture | Look, feel, and feel the neck.
 ## Gross forms
 Exophytic, ulcerative (a non-healing ulcer with raised, rolled, everted edges, a shaggy base and induration), infiltrative, and superficially spreading (often arising in leukoplakia or erythroplakia).
+
+# Clinical features | Look, feel, and feel the neck.
 ## Symptoms
 - An ulcer or lump that does not heal; bleeding.
 - Pain, often *referred to the ear* through the lingual and auriculotemporal nerves (V3) or the glossopharyngeal nerve.
@@ -35,7 +42,50 @@ A mouth ulcer or white or red patch that persists beyond three weeks, an unexpla
 ## Examination
 Inspect every subsite with good light, palpate the lesion for induration and depth, palpate bimanually the floor of mouth and tongue, examine the tongue base and tonsils by palpation and endoscopy, and examine both sides of the neck level by level. Cranial nerves V, VII and XII; mouth opening; teeth.
 
-# Oral cavity cancer | Site by site.
+# Diagnosis | Evaluation and staging.
+## Investigations
+- **Biopsy** of the primary; fine-needle aspiration of nodes; p16 immunohistochemistry (and HPV testing) for every oropharyngeal cancer.
+- **CT and MRI** of the primary and neck: depth, bone invasion (CT and orthopantomogram for the mandible), extension into the pterygoids, parapharyngeal space, pre-epiglottic space and skull base; nodes, including retropharyngeal.
+- **Chest CT or PET-CT** for distant metastases and second primaries; PET-CT also for the unknown primary.
+- **Panendoscopy** under anaesthesia (laryngoscopy, pharyngoscopy, oesophagoscopy) to map the tumour and look for synchronous cancers.
+- Dental assessment before radiotherapy; nutrition and swallowing assessment.
+## TNM essentials
+!table T staging (AJCC 8th edition)
+Category | Oral cavity | Oropharynx
+T1 | 2 cm or less, depth of invasion 5 mm or less | 2 cm or less
+T2 | 2 cm or less with depth over 5 mm, or 2 to 4 cm with depth 10 mm or less | Over 2 cm, up to 4 cm
+T3 | Over 4 cm, or depth over 10 mm | Over 4 cm, or extension to the lingual surface of the epiglottis
+T4a | Cortical bone, maxillary sinus, skin of face (and, for lip, inferior alveolar nerve or floor of mouth) | Larynx, extrinsic tongue muscle, medial pterygoid, hard palate or mandible
+T4b | Masticator space, pterygoid plates, skull base, or encasing the internal carotid | Lateral pterygoid, pterygoid plates, lateral nasopharynx, skull base, or encasing the carotid
+!!
+For oral cavity and HPV-negative oropharyngeal cancer, N staging follows node size, number and side, and *extranodal extension* (which upstages); for HPV-positive oropharyngeal cancer the N categories are simpler and the stages lower, reflecting the better prognosis. Older texts print the 6th edition tables, based on size alone.
+
+# Management | By site, stage and the person.
+## Principles
+Treatment is planned by a multidisciplinary team (surgeons, radiation and medical oncologists, radiologists, pathologists, reconstructive surgeons, dentists, speech and swallowing therapists, dietitians), balancing cure against speech, swallowing and appearance.
+- **Oral cavity:** surgery first. Early (stage I and II): excision with a margin, with elective neck treatment according to depth. Advanced (III and IV): resection, reconstruction and neck dissection, followed by radiotherapy, or chemoradiation when margins are positive or there is extranodal extension.
+- **Oropharynx:** early: radiotherapy (IMRT) or transoral surgery (robotic or laser) with neck dissection, both treating the neck. Surgery alone suits T1 and T2 tumours with no or a single node when margins are clear and there are no adverse features; patients must accept that adjuvant treatment may be needed, and those with gross extranodal extension on imaging are better treated by chemoradiotherapy to avoid triple therapy. Dental extractions needed before radiotherapy are best done at the staging anaesthetic. Advanced: concurrent chemoradiation with cisplatin (organ preservation), or surgery with adjuvant (chemo)radiation; surgery through a mandibulotomy is mostly reserved for salvage. Radiosensitive lymphoepithelioma and lymphoma are treated by radiotherapy or chemotherapy.
+- **Systemic agents:** cisplatin is the standard radiosensitiser; cetuximab (an EGFR antibody) is an alternative for those unfit for cisplatin, though inferior in HPV-positive disease; immunotherapy (pembrolizumab, alone or with chemotherapy) as first-line treatment for recurrent and metastatic disease (KEYNOTE-048), and, since 2025, pembrolizumab before and after surgery for resectable locally advanced disease (KEYNOTE-689).
+## The neck
+- **N0:** elective selective neck dissection (levels I to III for oral cavity, II to IV for oropharynx) or elective radiotherapy when the risk of occult metastasis exceeds about 20%; sentinel node biopsy in early oral cancer.
+- **N+:** comprehensive (modified radical) neck dissection, followed by radiotherapy for multiple nodes or extranodal extension.
+!anat s286_80 | The lymph node levels of the neck.
+## Reconstruction
+Primary closure, skin grafts, local flaps (nasolabial, tongue, facial artery musculomucosal), regional flaps (pectoralis major, deltopectoral) and free flaps (radial forearm for the tongue and floor, anterolateral thigh for bulk, fibula for the mandible). Tracheostomy protects the airway after major resections.
+!ops | Glossectomy, floor of mouth and tonsil surgery, base of tongue resection, neck dissection and free flaps.
+!imaging | Tonsillar carcinoma, base of tongue tumour, oral and oropharyngeal squamous carcinoma, and synchronous malignancies.
+## Palliation
+Radiotherapy or chemotherapy for pain and bleeding, tracheostomy and gastrostomy for airway and nutrition, and good analgesia and palliative care.
+## Chemoprevention
+Retinoids, beta-carotene and vitamin E can induce regression of leukoplakia and reduce second primaries while taken, but no agent has replaced stopping tobacco, areca nut and alcohol.
+!update Current evidence
+HPV-positive oropharyngeal cancer has much better survival than HPV-negative disease, and smoking worsens it whatever the HPV status (Ang et al., *N Engl J Med* 2010). In the De-ESCALaTE trial of 334 low-risk HPV-positive patients, replacing cisplatin with cetuximab did not reduce toxicity and worsened two-year survival (97.5% vs 89.4%) (Mehanna et al., *Lancet* 2019), and RTOG 1016 found the same (Gillison et al., *Lancet* 2019), so cisplatin remains standard and de-escalation belongs in trials. In the ORATOR trial, transoral robotic surgery with neck dissection and primary radiotherapy gave similar swallowing quality of life for early oropharyngeal cancer, with different toxicity profiles (Nichols et al., *Lancet Oncol* 2019). For early oral cancer, elective neck dissection improved three-year survival compared with waiting (80% vs 67.5%) (D'Cruz et al., *N Engl J Med* 2015), and pooled trials suggest sentinel node biopsy gives similar survival with better shoulder function (Gupta et al., *Oral Oncol* 2022).
+!!
+
+# Prognosis | Margins, nodes and HPV.
+Early oral cancer is cured in most patients; advanced disease in roughly a third to a half. Extranodal extension, nodes low in the neck, positive margins and perineural invasion worsen survival. HPV-positive oropharyngeal cancer has markedly better survival than HPV-negative. Lifelong follow-up looks for recurrence (most in the first two years) and second primaries, and stopping smoking improves outcome.
+
+# Oral cavity cancer {dz} | Site by site.
 ## Lip
 The commonest oral subsite in the West when lip cancers are counted; more than 95% squamous, 95% on the *lower lip*, between the midline and the commissure, in older men with outdoor occupations; basal cell carcinoma is relatively commoner on the upper lip. Early blistering, crusting or ulceration on a background of actinic cheilitis. Nodes (submental and submandibular, bilateral near the midline) are late and occur in only about 10%.
 !fig d44-10 | Carcinoma of the upper lip and oral commissure, with leukoplakia of the buccal mucosa.
@@ -71,7 +121,7 @@ Squamous or, more often, minor salivary gland carcinoma (adenoid cystic, mucoepi
 ## The mandible
 Tumour reaches the mandible through the alveolar crest in the dentate jaw and through the occlusal surface in the edentulous jaw. Periosteal involvement needs at least a *marginal (rim) mandibulectomy*, preserving the lower border; invasion of the medulla, or an edentulous atrophic mandible, needs a *segmental* resection, reconstructed with a fibula free flap. Radiotherapy to a mandible already invaded leads to osteoradionecrosis.
 
-# Oropharyngeal cancer | Behind the tongue.
+# Oropharyngeal cancer {dz} | Behind the tongue.
 ## HPV and the changing disease
 !table HPV-positive and HPV-negative oropharyngeal cancer
 Feature | HPV-positive | HPV-negative
@@ -105,58 +155,17 @@ Usually well-differentiated, superficially spreading squamous carcinoma on the o
 !fig d53-5 | An ulcerative lesion of the palatine arch: a well-differentiated squamous cell carcinoma.
 ## Posterior and lateral pharyngeal walls
 Silent, spreading submucosally up to the nasopharynx and down to the hypopharynx, and back to the prevertebral fascia; nodes in about 60%, often bilateral and retropharyngeal. Radiotherapy or excision through a lateral pharyngotomy, often with mandibulotomy, and neck dissection.
-## Benign tumours of the oropharynx
-Papilloma (pedunculated, on the tonsil, palate or pillars; excised), haemangioma (treated only if growing or bleeding), pleomorphic adenoma of the palate (excised completely), vallecular mucous cysts (excised or marsupialised), and rarely lipoma, fibroma and neuroma. Parapharyngeal tumours (deep-lobe parotid, schwannoma, paraganglioma, lipoma, carotid aneurysm) push the tonsil and palate medially and mimic oropharyngeal tumours: never biopsy through the mouth without imaging.
 
-# Evaluation and staging | Before treatment.
-## Investigations
-- **Biopsy** of the primary; fine-needle aspiration of nodes; p16 immunohistochemistry (and HPV testing) for every oropharyngeal cancer.
-- **CT and MRI** of the primary and neck: depth, bone invasion (CT and orthopantomogram for the mandible), extension into the pterygoids, parapharyngeal space, pre-epiglottic space and skull base; nodes, including retropharyngeal.
-- **Chest CT or PET-CT** for distant metastases and second primaries; PET-CT also for the unknown primary.
-- **Panendoscopy** under anaesthesia (laryngoscopy, pharyngoscopy, oesophagoscopy) to map the tumour and look for synchronous cancers.
-- Dental assessment before radiotherapy; nutrition and swallowing assessment.
-## TNM essentials
-!table T staging (AJCC 8th edition)
-Category | Oral cavity | Oropharynx
-T1 | 2 cm or less, depth of invasion 5 mm or less | 2 cm or less
-T2 | 2 cm or less with depth over 5 mm, or 2 to 4 cm with depth 10 mm or less | Over 2 cm, up to 4 cm
-T3 | Over 4 cm, or depth over 10 mm | Over 4 cm, or extension to the lingual surface of the epiglottis
-T4a | Cortical bone, maxillary sinus, skin of face (and, for lip, inferior alveolar nerve or floor of mouth) | Larynx, extrinsic tongue muscle, medial pterygoid, hard palate or mandible
-T4b | Masticator space, pterygoid plates, skull base, or encasing the internal carotid | Lateral pterygoid, pterygoid plates, lateral nasopharynx, skull base, or encasing the carotid
-!!
-For oral cavity and HPV-negative oropharyngeal cancer, N staging follows node size, number and side, and *extranodal extension* (which upstages); for HPV-positive oropharyngeal cancer the N categories are simpler and the stages lower, reflecting the better prognosis. Older texts print the 6th edition tables, based on size alone.
-
-# Treatment | By site, stage and the person.
-## Principles
-Treatment is planned by a multidisciplinary team (surgeons, radiation and medical oncologists, radiologists, pathologists, reconstructive surgeons, dentists, speech and swallowing therapists, dietitians), balancing cure against speech, swallowing and appearance.
-- **Oral cavity:** surgery first. Early (stage I and II): excision with a margin, with elective neck treatment according to depth. Advanced (III and IV): resection, reconstruction and neck dissection, followed by radiotherapy, or chemoradiation when margins are positive or there is extranodal extension.
-- **Oropharynx:** early: radiotherapy (IMRT) or transoral surgery (robotic or laser) with neck dissection, both treating the neck. Surgery alone suits T1 and T2 tumours with no or a single node when margins are clear and there are no adverse features; patients must accept that adjuvant treatment may be needed, and those with gross extranodal extension on imaging are better treated by chemoradiotherapy to avoid triple therapy. Dental extractions needed before radiotherapy are best done at the staging anaesthetic. Advanced: concurrent chemoradiation with cisplatin (organ preservation), or surgery with adjuvant (chemo)radiation; surgery through a mandibulotomy is mostly reserved for salvage. Radiosensitive lymphoepithelioma and lymphoma are treated by radiotherapy or chemotherapy.
-- **Systemic agents:** cisplatin is the standard radiosensitiser; cetuximab (an EGFR antibody) is an alternative for those unfit for cisplatin, though inferior in HPV-positive disease; immunotherapy (pembrolizumab, alone or with chemotherapy) as first-line treatment for recurrent and metastatic disease (KEYNOTE-048), and, since 2025, pembrolizumab before and after surgery for resectable locally advanced disease (KEYNOTE-689).
-## The neck
-- **N0:** elective selective neck dissection (levels I to III for oral cavity, II to IV for oropharynx) or elective radiotherapy when the risk of occult metastasis exceeds about 20%; sentinel node biopsy in early oral cancer.
-- **N+:** comprehensive (modified radical) neck dissection, followed by radiotherapy for multiple nodes or extranodal extension.
-!anat s286_80 | The lymph node levels of the neck.
-## Reconstruction
-Primary closure, skin grafts, local flaps (nasolabial, tongue, facial artery musculomucosal), regional flaps (pectoralis major, deltopectoral) and free flaps (radial forearm for the tongue and floor, anterolateral thigh for bulk, fibula for the mandible). Tracheostomy protects the airway after major resections.
-!ops | Glossectomy, floor of mouth and tonsil surgery, base of tongue resection, neck dissection and free flaps.
-!imaging | Tonsillar carcinoma, base of tongue tumour, oral and oropharyngeal squamous carcinoma, and synchronous malignancies.
-## Palliation
-Radiotherapy or chemotherapy for pain and bleeding, tracheostomy and gastrostomy for airway and nutrition, and good analgesia and palliative care.
-## Prognosis
-Early oral cancer is cured in most patients; advanced disease in roughly a third to a half. Extranodal extension, nodes low in the neck, positive margins and perineural invasion worsen survival. HPV-positive oropharyngeal cancer has markedly better survival than HPV-negative. Lifelong follow-up looks for recurrence (most in the first two years) and second primaries, and stopping smoking improves outcome.
-## Chemoprevention
-Retinoids, beta-carotene and vitamin E can induce regression of leukoplakia and reduce second primaries while taken, but no agent has replaced stopping tobacco, areca nut and alcohol.
-
-# Non-squamous cancers | The others.
+# Non-squamous cancers {dz} | The others.
 - **Minor salivary gland carcinoma:** 80 to 90% of minor salivary tumours are malignant in some series; the palate is the commonest site; adenoid cystic (about 40%, with perineural spread), adenocarcinoma and mucoepidermoid. Wide excision with neck dissection for nodes, and radiotherapy.
 - **Mucosal melanoma:** palate and gum, sixth decade, men twice as often; pigmented, later ulcerated, sometimes amelanotic; wide excision including bone; five-year survival around 15%.
 - **Lymphoma:** mostly non-Hodgkin, in the tonsil and tongue base, as a smooth bulky submucosal mass, with neck nodes in many; chemotherapy and radiotherapy.
 - **Kaposi sarcoma:** reddish-purple palatal plaques, mainly in AIDS; responds to antiretroviral treatment, radiotherapy or chemotherapy.
-!update Current evidence
-HPV-positive oropharyngeal cancer has much better survival than HPV-negative disease, and smoking worsens it whatever the HPV status (Ang et al., *N Engl J Med* 2010). In the De-ESCALaTE trial of 334 low-risk HPV-positive patients, replacing cisplatin with cetuximab did not reduce toxicity and worsened two-year survival (97.5% vs 89.4%) (Mehanna et al., *Lancet* 2019), and RTOG 1016 found the same (Gillison et al., *Lancet* 2019), so cisplatin remains standard and de-escalation belongs in trials. In the ORATOR trial, transoral robotic surgery with neck dissection and primary radiotherapy gave similar swallowing quality of life for early oropharyngeal cancer, with different toxicity profiles (Nichols et al., *Lancet Oncol* 2019). For early oral cancer, elective neck dissection improved three-year survival compared with waiting (80% vs 67.5%) (D'Cruz et al., *N Engl J Med* 2015), and pooled trials suggest sentinel node biopsy gives similar survival with better shoulder function (Gupta et al., *Oral Oncol* 2022).
-!!
 
-# For the examination | What the examiner wants to hear.
+# Benign tumours of the oropharynx {dz} | And the parapharyngeal mimics.
+Papilloma (pedunculated, on the tonsil, palate or pillars; excised), haemangioma (treated only if growing or bleeding), pleomorphic adenoma of the palate (excised completely), vallecular mucous cysts (excised or marsupialised), and rarely lipoma, fibroma and neuroma. Parapharyngeal tumours (deep-lobe parotid, schwannoma, paraganglioma, lipoma, carotid aneurysm) push the tonsil and palate medially and mimic oropharyngeal tumours: never biopsy through the mouth without imaging.
+
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Risk factors,** field cancerisation and second primaries.
@@ -174,3 +183,17 @@ HPV-positive oropharyngeal cancer has much better survival than HPV-negative dis
 - Excising a cystic neck lump as a branchial cyst in an adult without looking for a primary.
 - Irradiating a mandible already invaded by tumour.
 !!
+## Related topics
+- [[t:oral_ca]], [[t:oralbenign]], [[t:oraldis]], [[t:neckmass]], [[t:hncprinc]], [[t:hnrt]], [[t:hnrecon]], [[t:skullbase]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 56.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 6.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapters 44 and 53.
+- K. J. Lee, *Essential Otolaryngology*, chapter 45.
+## Studies cited
+- Ang et al., *N Engl J Med* 2010: HPV and survival.
+- Mehanna et al., *Lancet* 2019: De-ESCALaTE; Gillison et al., *Lancet* 2019: RTOG 1016.
+- Nichols et al., *Lancet Oncol* 2019: the ORATOR trial.
+- D'Cruz et al., *N Engl J Med* 2015: elective neck dissection; Gupta et al., *Oral Oncol* 2022: sentinel node biopsy.

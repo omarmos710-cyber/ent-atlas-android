@@ -1,42 +1,47 @@
+@layout amboss
 @stand A child who breathes through the mouth, snores, has a constant wet nose and a dull, hearing-impaired look is the classic child with adenoids. Size alone does not matter; what matters is the adenoid relative to the nasopharynx it fills, and what it does to the nose, the ears and sleep. Most children outgrow the problem; those who do not, and whose ears or breathing suffer, are helped by a short operation.
 
-# The adenoid | The nasopharyngeal tonsil.
+# Summary | Too big for the space.
+Adenoid hypertrophy blocks the nose, the Eustachian tubes and the airway in sleep. What matters is the adenoid relative to the nasopharynx it fills. Most children outgrow it; those whose ears or breathing suffer are helped by [[@Adenoidectomy]]. [[@Acute nasopharyngitis]], [[@Chronic nasopharyngitis]] and [[@Thornwaldt disease]] follow as their own chapters.
+
+# Applied anatomy | The nasopharyngeal tonsil.
 ## Anatomy
 The adenoid lies at the junction of the roof and posterior wall of the nasopharynx, as vertical ridges of lymphoid tissue separated by deep clefts. It is covered by ciliated columnar, stratified squamous and transitional epithelium and, unlike the palatine tonsil, has *no crypts and no capsule*.
 !fig d48-1 | An adenoid mass after removal with a curette: ridges of lymphoid tissue separated by deep clefts.
 !anat s201_10 s209_23 | The nasopharynx in sagittal section, and the adenoids compared with the palatine tonsils.
-## Growth and regression
-Present at birth, it enlarges physiologically to a peak at about three to seven years, regresses from puberty and has largely gone by twenty; allergy or infection can keep it large beyond fifteen.
-!fig d48-2 | Size of the adenoid with age: maximum at six to seven years, regressing at puberty; persistence beyond fifteen with allergy or infection.
 ## Supply
 - **Arteries:** ascending palatine (facial), ascending pharyngeal, the pharyngeal branch of the maxillary artery, and the ascending cervical branch of the inferior thyroid.
 - **Lymph:** to the upper jugular nodes, directly or through the retropharyngeal and parapharyngeal nodes.
 - **Nerves:** glossopharyngeal and vagus, which explains the earache of adenoiditis.
 
-# Adenoid hypertrophy | Too big for the space.
-## Causes
+# Epidemiology | Growth and regression.
+Present at birth, it enlarges physiologically to a peak at about three to seven years, regresses from puberty and has largely gone by twenty; allergy or infection can keep it large beyond fifteen.
+!fig d48-2 | Size of the adenoid with age: maximum at six to seven years, regressing at puberty; persistence beyond fifteen with allergy or infection.
+
+# Etiology | Why it stays big.
 Physiological enlargement in childhood, a general tendency to lymphoid hyperplasia, recurrent rhinitis, sinusitis and tonsillitis, and allergy.
-## Clinical features
-### Nasal
+
+# Clinical features | Nose, ears and sleep.
+## Nasal
 - **Obstruction:** the commonest symptom, with mouth breathing; infants struggle to feed because they cannot breathe and suck at once, and fail to thrive.
 - **Discharge:** secretions cannot drain back through the blocked choanae, and chronic rhinitis adds to them: the "wet, bubbly nose".
 - **Sinusitis:** chronic maxillary sinusitis and adenoid infection feed each other.
 - **Epistaxis** when the adenoid is inflamed.
 - **Voice:** hyponasal (*rhinolalia clausa*), losing the nasal consonants.
-### Aural
+## Aural
 - **Eustachian tube obstruction:** a retracted drum and conductive deafness.
 - **Recurrent acute otitis media** from spread of infection up the tube.
 - **Otitis media with effusion:** the adenoid is an important cause; the fluctuating size gives a fluctuating hearing loss.
 - **Chronic suppurative otitis media** that will not settle while the adenoid is infected.
-### General
+## General
 - **Adenoid facies:** an elongated face with a dull expression, open mouth, prominent crowded upper teeth, short upper lip, pinched nose from disuse of the alae, and a high-arched palate because the tongue no longer moulds it.
 - **Sleep-disordered breathing:** snoring and obstructive sleep apnoea, with daytime tiredness and poor concentration (*aprosexia*).
-- **Pulmonary hypertension and cor pulmonale** with long-standing severe obstruction.
 !fig d48-3 | Adenoid facies: the open mouth of the mouth breather.
 !pearl Size is relative
 A large adenoid in a large nasopharynx may cause no symptoms; a modest one in a small nasopharynx can block it completely. Judge the airway, not the adenoid.
 !!
-## Diagnosis
+
+# Diagnosis | Judge the airway.
 - **Flexible nasendoscopy** in a cooperative child: the best view of the adenoid, the choanae and the tube openings, without radiation.
 - **Lateral soft tissue radiograph** of the nasopharynx: shows the adenoid and the remaining airway; useful in children who will not tolerate a scope, though crying lifts the palate and can exaggerate the size.
 - Mirror examination is possible in some older children.
@@ -44,10 +49,16 @@ A large adenoid in a large nasopharynx may cause no symptoms; a modest one in a 
 !fig d48-4 | Enlarged adenoids (arrows) on a lateral radiograph of a seven-year-old girl, leaving very little airway.
 !anat s208_22 | Endoscopic grading of adenoids.
 !imaging adenoid-hypertrophy | Adenoid hypertrophy on imaging.
-## Treatment
-### Medical
+
+# Differential diagnosis | Not every nasopharyngeal mass is adenoid.
+!flag The adult with a one-sided nasopharyngeal problem
+An adult with unilateral otitis media with effusion, a nasopharyngeal mass or a neck node is examined and, if needed, biopsied for nasopharyngeal carcinoma ([[t:npc]]). Adenoid tissue in an adult is unusual; consider HIV and lymphoma.
+!!
+
+# Management | Medical first, then the curette.
+## Medical
 For milder symptoms: intranasal steroid sprays, with montelukast in some children, treatment of allergy, saline and decongestant drops for short periods, and breathing exercises. Many children improve as the adenoid regresses.
-### Adenoidectomy
+## Adenoidectomy
 For marked symptoms. The traditional indications:
 - Adenoid hypertrophy causing snoring, mouth breathing, sleep apnoea ([[t:osa]]) or hyponasal speech.
 - Recurrent rhinosinusitis.
@@ -59,15 +70,21 @@ For marked symptoms. The traditional indications:
 - **Bleeding disorders.**
 - **Acute upper respiratory infection.**
 !!
-
-# The operation | Adenoidectomy.
-## Technique
+### Technique
 General anaesthesia with an oral tube; the same position as tonsillectomy, but never hyperextend the neck. With the Boyle–Davis gag in place, the nasopharynx is examined by retracting the palate and by palpation (feeling also for a submucous cleft). An adenoid curette with a guard is passed until it touches the back of the septum, pressed back and swept down, with the head slightly flexed to protect the atlas; lateral tags are removed with smaller curettes or punch forceps, taking care of the Eustachian tube openings. Bleeding is stopped by packing, with diathermy for persistent points; rarely a postnasal pack is left for 24 hours. When the tonsils are also to come out, the adenoid is removed first and the nasopharynx packed.
 !fig d95-1 | Adenoidectomy with the curette.
-## Endoscopic techniques
+### Endoscopic techniques
 Suction diathermy, a microdebrider or coblation under endoscopic or mirror vision remove the adenoid more completely, including tissue around the tube openings and choanae.
 !ops 191 | Adenoidectomy.
-## Complications
+!update Current evidence
+**Otitis media.** An individual patient data meta-analysis of ten trials found that adenoidectomy, with or without grommets, gives a small benefit in children with recurrent acute otitis media or glue ear, mainly in children aged two years and over, and not as a first operation in younger children (Boonacker et al., *Health Technol Assess* 2014). NICE (NG233, 2023) now advises considering adenoidectomy alongside grommets for glue ear, unless there is a palatal abnormality, because it reduces the need for repeat surgery. **Sleep-disordered breathing.** Adenotonsillectomy is first-line for children with obstructive sleep apnoea and enlarged tonsils; adenoidectomy alone suits those with small tonsils, and partial (intracapsular) tonsillectomy is increasingly used in young children. **Medical treatment.** A Cochrane review found that intranasal steroids may improve nasal obstruction symptoms and adenoid size in the short term, with limited, low-quality evidence (Chadha et al., 2009); montelukast may help, but carries a warning about neuropsychiatric side effects.
+!!
+
+# Complications | Of the disease and of the operation.
+## Of adenoid hypertrophy
+- **Pulmonary hypertension and cor pulmonale** with long-standing severe obstruction.
+- Otitis media with effusion, recurrent acute otitis media and persistent chronic suppurative otitis media (see [[@Clinical features]]).
+## Of adenoidectomy
 - **Haemorrhage:** usually primary; watch for a rising pulse and the vomiting of dark swallowed blood. A postnasal pack under general anaesthesia may be needed.
 - **Injury to the Eustachian tube openings.**
 - **Injury to the pharyngeal muscles and cervical spine** from hyperextension or pressure; 10 to 20% of children with Down syndrome have atlantoaxial instability.
@@ -76,26 +93,35 @@ Suction diathermy, a microdebrider or coblation under endoscopic or mirror visio
 - **Nasopharyngeal stenosis** from scarring.
 - **Regrowth** of tissue left behind; biopsy recurrent regrowth to exclude lymphoma.
 
-# Other nasopharyngeal inflammations | Nasopharyngitis and Thornwaldt disease.
-## Acute nasopharyngitis
-Part of a common cold or influenza, or a bacterial infection (streptococcus, pneumococcus, *Haemophilus*). Dryness and burning behind the nose, then pain and difficulty in swallowing; in severe cases fever and nodes. The mucosa is red, swollen and covered in exudate. Most settle with analgesia; antibiotics for severe bacterial infection; decongestant drops for the associated adenoiditis of children.
-## Chronic nasopharyngitis
-Adults with chronic nasal, sinus and pharyngeal infection, heavy smokers and drinkers, and those exposed to dust and fumes. Postnasal discharge and crusting, constant hawking and snorting back of secretions; congested mucosa with mucopus or crusts. Treat the source, stop smoking and drinking, and use alkaline douches and steam inhalation.
-## Thornwaldt disease
+# Acute nasopharyngitis {dz} | Part of a cold.
+## Etiology
+Part of a common cold or influenza, or a bacterial infection (streptococcus, pneumococcus, *Haemophilus*).
+## Clinical features
+Dryness and burning behind the nose, then pain and difficulty in swallowing; in severe cases fever and nodes. The mucosa is red, swollen and covered in exudate.
+## Management
+Most settle with analgesia; antibiotics for severe bacterial infection; decongestant drops for the associated adenoiditis of children.
+
+# Chronic nasopharyngitis {dz} | Hawking and crusting.
+## Etiology
+Adults with chronic nasal, sinus and pharyngeal infection, heavy smokers and drinkers, and those exposed to dust and fumes.
+## Clinical features
+Postnasal discharge and crusting, constant hawking and snorting back of secretions; congested mucosa with mucopus or crusts.
+## Management
+Treat the source, stop smoking and drinking, and use alkaline douches and steam inhalation.
+
+# Thornwaldt disease {dz} | The pharyngeal bursa.
+## Etiology
 Infection of the *pharyngeal bursa*, the midline recess within the adenoid marking the embryonic attachment of the notochord.
+## Clinical features
 - Persistent postnasal discharge with crusting.
 - Nasal obstruction, Eustachian tube blockage and otitis media with effusion.
 - A dull occipital headache, recurrent sore throat and low fever.
-A cystic, fluctuant midline swelling sits on the posterior nasopharyngeal wall. Antibiotics, then marsupialisation and removal of the lining. Asymptomatic Thornwaldt cysts found on MRI need no treatment.
+A cystic, fluctuant midline swelling sits on the posterior nasopharyngeal wall.
+## Management
+Antibiotics, then marsupialisation and removal of the lining. Asymptomatic Thornwaldt cysts found on MRI need no treatment.
 !imaging thornwaldt-cyst | A Thornwaldt cyst.
-!flag The adult with a one-sided nasopharyngeal problem
-An adult with unilateral otitis media with effusion, a nasopharyngeal mass or a neck node is examined and, if needed, biopsied for nasopharyngeal carcinoma ([[t:npc]]). Adenoid tissue in an adult is unusual; consider HIV and lymphoma.
-!!
-!update Current evidence
-**Otitis media.** An individual patient data meta-analysis of ten trials found that adenoidectomy, with or without grommets, gives a small benefit in children with recurrent acute otitis media or glue ear, mainly in children aged two years and over, and not as a first operation in younger children (Boonacker et al., *Health Technol Assess* 2014). NICE (NG233, 2023) now advises considering adenoidectomy alongside grommets for glue ear, unless there is a palatal abnormality, because it reduces the need for repeat surgery. **Sleep-disordered breathing.** Adenotonsillectomy is first-line for children with obstructive sleep apnoea and enlarged tonsils; adenoidectomy alone suits those with small tonsils, and partial (intracapsular) tonsillectomy is increasingly used in young children. **Medical treatment.** A Cochrane review found that intranasal steroids may improve nasal obstruction symptoms and adenoid size in the short term, with limited, low-quality evidence (Chadha et al., 2009); montelukast may help, but carries a warning about neuropsychiatric side effects.
-!!
 
-# For the examination | What the examiner wants to hear.
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Adenoid versus palatine tonsil:** no crypts, no capsule.
@@ -111,3 +137,17 @@ An adult with unilateral otitis media with effusion, a nasopharyngeal mass or a 
 - Hyperextending the neck of a child with Down syndrome.
 - Calling a nasopharyngeal mass in an adult "adenoids" without a biopsy.
 !!
+## Related topics
+- [[t:tonsil]], [[t:osa]], [[t:om]], [[t:cleft]], [[t:npc]], [[t:juv]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapters 87 and 88.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 6.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 10.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapters 48 and 95.
+- K. J. Lee, *Essential Otolaryngology*, chapter 53.
+## Studies cited
+- Boonacker et al., *Health Technol Assess* 2014: adenoidectomy for otitis media, individual patient data meta-analysis.
+- NICE guideline NG233 (2023): otitis media with effusion.
+- Chadha et al., *Cochrane Database Syst Rev* 2009: intranasal steroids for adenoid hypertrophy.
