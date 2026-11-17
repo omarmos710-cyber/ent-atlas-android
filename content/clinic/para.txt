@@ -1,4 +1,8 @@
+@layout amboss
 @stand Primary hyperparathyroidism used to be the disease of "bones, stones, abdominal groans and psychic moans". Today most patients are found by a raised calcium on a routine blood test. Usually one gland is at fault, a single adenoma, and a localised, focused operation cures it. The art is to confirm the biochemistry, localise the gland, and remember the exceptions: multigland disease, the ectopic gland and familial hypocalciuric hypercalcaemia.
+
+# Summary | Bones, stones, groans and moans.
+Most primary hyperparathyroidism is a single adenoma, found by a routine calcium and cured by a focused operation. Each condition has its own chapter: [[@Primary hyperparathyroidism]], [[@Secondary and tertiary hyperparathyroidism]], [[@Parathyroid carcinoma]] and [[@Hypoparathyroidism and hypocalcaemia]].
 
 # Applied anatomy | Four small glands, two journeys.
 ## Embryology
@@ -10,18 +14,15 @@ The **superior gland** lies at the level of the cricothyroid joint on the back o
 
 Adenomas can lie in ectopic sites: retro-oesophageal and retrotracheal, in the anterior mediastinum within the thymus, inside the thyroid, in the carotid sheath, or undescended high in the neck.
 !anat d158_52 d130_92 | The inferior thyroid arteries and recurrent laryngeal nerves, landmarks for the parathyroids; and the relations of the thyroid lobe.
-
-# Calcium physiology | PTH and vitamin D.
-## Parathyroid hormone
+## Calcium physiology
+### Parathyroid hormone
 Parathyroid hormone raises serum calcium in four ways: it mobilises calcium from bone through osteoclast activity; it increases renal tubular reabsorption of calcium while increasing excretion of phosphate; it stimulates renal 1α-hydroxylation of vitamin D; and, through vitamin D, it increases absorption of calcium from the gut. Calcitonin from the thyroid C cells has only a minor opposing role in humans. PTH has a half-life of only a few minutes, which is what makes *intraoperative PTH monitoring* possible.
-## Measuring calcium
+### Measuring calcium
 Total calcium varies with albumin and is corrected by adding about 0.8 mg/dL (0.2 mmol/L) for each 1 g/dL fall in albumin below normal. When albumin is abnormal, ionised calcium is measured instead.
 
-# Hyperparathyroidism | Primary, secondary, tertiary.
-## Primary hyperparathyroidism
+# Primary hyperparathyroidism {dz} | Usually one adenoma.
+## Epidemiology and etiology
 Primary hyperparathyroidism affects about 1 in 500 women and 1 in 2000 men, mostly after the menopause. About 85% of cases are due to *a single adenoma*, 10 to 15% to *four-gland hyperplasia* (sporadic, familial, or part of MEN 1 or MEN 2A; the syndromes are tabulated in [[t:thyroid]]), 2 to 5% to *double adenomas*, mostly in the elderly, and under 1% to *carcinoma*. Neck irradiation and lithium are risk factors.
-
-The biochemistry is high calcium with a raised or *inappropriately normal* PTH, a low phosphate, and a high or high-normal urinary calcium. Vitamin D is measured and replaced if low, because deficiency both confuses the picture and worsens bone disease.
 ## Clinical features
 !table Manifestations of hypercalcaemia
 System | Features
@@ -31,8 +32,19 @@ Gut | Constipation, nausea, peptic ulcer, pancreatitis
 Mind and muscle | Fatigue, weakness, depression, poor memory, confusion
 Other | Hypertension, short QT, band keratopathy, gout and pseudogout
 !!
-A **hypercalcaemic crisis**, with dehydration, confusion and arrhythmia at very high calcium levels, is treated with intravenous saline, a bisphosphonate or denosumab, and calcitonin, followed by urgent surgery.
-## Differential diagnosis of hypercalcaemia
+## Diagnosis
+### Biochemistry
+The biochemistry is high calcium with a raised or *inappropriately normal* PTH, a low phosphate, and a high or high-normal urinary calcium. Vitamin D is measured and replaced if low, because deficiency both confuses the picture and worsens bone disease.
+### Localisation
+Localisation does not make the diagnosis; the biochemistry does. Its purpose is to plan a focused operation, and it is essential before any reoperation.
+
+**Ultrasound** is cheap but operator-dependent. It shows a hypoechoic oval nodule behind the thyroid, often with a polar feeding vessel, but is poor for retrotracheal and mediastinal glands. **Sestamibi (technetium-99m MIBI) scintigraphy** relies on the fact that both thyroid and parathyroid take up the tracer but the mitochondria-rich adenoma *retains* it after the thyroid has washed out. It detects about 85 to 90% of single adenomas, less reliably small adenomas, double adenomas and hyperplasia, and SPECT or SPECT-CT gives a three-dimensional position.
+
+**Four-dimensional CT** shows the typical behaviour of an adenoma, with arterial enhancement and early washout, and is useful when the other scans disagree and before reoperation. ¹⁸F-fluorocholine PET-CT is increasingly used, finding more adenomas when the first-line scans are negative or discordant, and MRI and selective venous sampling for PTH help in difficult reoperations.
+!flag Concordance matters
+A *concordant* ultrasound and sestamibi scan localise a single adenoma in most patients and permit a focused approach. *Discordant* or negative scans suggest multigland disease or an ectopic gland. These patients need bilateral exploration by an experienced surgeon.
+!!
+## Differential diagnosis
 !table Causes of hypercalcaemia
 PTH raised or normal | PTH suppressed
 Primary hyperparathyroidism | Malignancy (PTH-related peptide from lung, breast, kidney cancers; bone metastases; myeloma)
@@ -46,55 +58,57 @@ Lithium | Thyrotoxicosis, adrenal insufficiency, immobilisation, Paget disease; 
 - **Course:** benign.
 - **Surgery:** does not help. Always check the 24-hour urinary calcium before operating.
 !!
-## Secondary and tertiary hyperparathyroidism
-**Secondary** hyperparathyroidism is a hyperplastic response of all the glands to low calcium, mostly in *chronic kidney disease*, where phosphate is retained and active vitamin D is lacking, but also in vitamin D deficiency and malabsorption. PTH is high and calcium low or normal. It is treated medically with phosphate binders, active vitamin D and *calcimimetics* such as cinacalcet. Refractory disease with bone pain, pruritus or calciphylaxis needs *subtotal (three-and-a-half gland) parathyroidectomy*, or total parathyroidectomy with autotransplantation into the forearm, together with thymectomy.
-
-**Tertiary** hyperparathyroidism is autonomous hypersecretion that persists after the cause has been corrected, typically after renal transplantation, and produces hypercalcaemia.
-## Parathyroid carcinoma
-Carcinoma is suspected when calcium and PTH are very high (calcium often over 14 mg/dL), when there is a palpable neck mass or a recurrent laryngeal nerve palsy, and when bone and renal disease are present together. At surgery the gland is hard, grey-white and adherent, invading the thyroid or muscle. It must be resected *en bloc* with the thyroid lobe and adjacent tissue without rupturing the capsule. Recurrence is common, and death usually comes from uncontrollable hypercalcaemia.
-## Indications for surgery
+## Management
+### Indications for surgery
 Parathyroidectomy is the only cure, and it is recommended for every symptomatic patient. In asymptomatic patients it is recommended when the serum calcium is more than 1 mg/dL (0.25 mmol/L) above the upper limit of normal, when the patient is under 50, when there is osteoporosis (a T-score of −2.5 or less) or a vertebral fracture, when creatinine clearance (eGFR) is under 60 mL/min or there are kidney stones, nephrocalcinosis or high urinary calcium, and when the patient cannot be followed up. Many surgeons also offer surgery to fit asymptomatic patients, because of the benefits to bone and cognition.
-
-# Localisation | Before a focused operation.
-## The tests
-Localisation does not make the diagnosis; the biochemistry does. Its purpose is to plan a focused operation, and it is essential before any reoperation.
-
-**Ultrasound** is cheap but operator-dependent. It shows a hypoechoic oval nodule behind the thyroid, often with a polar feeding vessel, but is poor for retrotracheal and mediastinal glands. **Sestamibi (technetium-99m MIBI) scintigraphy** relies on the fact that both thyroid and parathyroid take up the tracer but the mitochondria-rich adenoma *retains* it after the thyroid has washed out. It detects about 85 to 90% of single adenomas, less reliably small adenomas, double adenomas and hyperplasia, and SPECT or SPECT-CT gives a three-dimensional position.
-
-**Four-dimensional CT** shows the typical behaviour of an adenoma, with arterial enhancement and early washout, and is useful when the other scans disagree and before reoperation. ¹⁸F-fluorocholine PET-CT is increasingly used, finding more adenomas when the first-line scans are negative or discordant, and MRI and selective venous sampling for PTH help in difficult reoperations.
-!flag Concordance matters
-A *concordant* ultrasound and sestamibi scan localise a single adenoma in most patients and permit a focused approach. *Discordant* or negative scans suggest multigland disease or an ectopic gland. These patients need bilateral exploration by an experienced surgeon.
-!!
-
-# Surgery | Focused or bilateral.
-## Approaches
+### Approaches
 In **focused (minimally invasive) parathyroidectomy**, a small incision over the localised gland allows the adenoma to be removed by controlling its vascular pedicle while keeping clear of the recurrent nerve. *Intraoperative PTH* is measured before and 10 minutes after excision, and a fall of more than 50% from the highest value into the normal range (the *Miami criterion*) confirms cure.
 
 **Bilateral neck exploration** identifies all four glands. It is used when the scans do not localise, in multigland disease, in MEN and familial disease, and when the PTH fails to fall after a focused excision.
 
 When a gland is missing, the search follows embryology. A missing superior gland is sought in the tracheo-oesophageal groove and retro-oesophageal space along the inferior thyroid artery; a missing inferior gland in the thymus and thyrothymic ligament, by cervical thymectomy, and in the carotid sheath. Intrathyroidal ultrasound or a lobectomy on that side follows, but a blind sternotomy is not performed at the first operation.
-
 Hyperplasia is treated by subtotal parathyroidectomy, leaving a well-vascularised remnant of about 50 mg marked with a clip, or by total parathyroidectomy with autotransplantation; thymectomy is added in MEN 1.
 !ops 84 83 85 86 | Parathyroidectomy for primary and secondary disease, intraoperative PTH, and reoperation.
-## Complications
-Temporary hypocalcaemia is common. *Hungry bone syndrome*, a severe and prolonged hypocalcaemia with low phosphate and magnesium, follows removal of a long-standing adenoma in a patient with bone disease, as the starved skeleton takes up calcium, and needs large doses of calcium and calcitriol. Permanent hypoparathyroidism follows about 1 to 5% of adenoma operations and more after surgery for hyperplasia or secondary disease. Recurrent laryngeal nerve palsy occurs in 0.4 to 4%, and haematoma can occur.
-
-Persistent or recurrent hyperparathyroidism has a short list of causes: a missed or second adenoma, unrecognised hyperplasia, a supernumerary or ectopic gland, parathyromatosis from rupture of the capsule, carcinoma, and a wrong diagnosis such as FHH.
-
-# Hypoparathyroidism and hypocalcaemia | After thyroid and parathyroid surgery.
-## Causes and features
-Hypoparathyroidism usually follows removal or devascularisation of the parathyroids during [[t:thyroid|thyroidectomy]] or central neck dissection. Rarer causes are autoimmune disease, DiGeorge syndrome (absent third and fourth pouch derivatives; [[t:paeds_neck]]), magnesium deficiency and infiltration.
-
-Symptoms usually appear 24 to 72 hours after surgery, starting with perioral and fingertip tingling and cramps and progressing to carpopedal spasm and tetany, laryngospasm with stridor, seizures, confusion, and a prolonged QT with arrhythmia. *Chvostek's sign* is twitching of the face when the facial nerve is tapped in front of the ear; because 5 to 10% of normal people have it, it should be recorded before surgery. *Trousseau's sign* is carpal spasm when a blood-pressure cuff is inflated above systolic pressure for three minutes.
-## Management
-Calcium is measured after total thyroidectomy, and a PTH level a few hours after surgery predicts who will become hypocalcaemic and who can safely go home. Mild symptoms are treated with oral calcium carbonate and calcitriol or alfacalcidol. Severe symptoms or tetany need intravenous 10% calcium gluconate, 10 to 20 mL over ten minutes followed by an infusion, with cardiac monitoring and correction of magnesium.
-
-Hypoparathyroidism lasting beyond six months is permanent and needs lifelong calcium and active vitamin D, aiming for a low-normal calcium to avoid hypercalciuria, with recombinant PTH in selected cases. It is prevented by capsular dissection, by identifying and preserving the glands with their blood supply, by autotransplanting any gland that is devascularised or removed by mistake, and by near-infrared autofluorescence to identify the glands.
 !update Current evidence
 **Who to operate on.** The criteria under Indications for surgery are those of the Fifth International Workshop on asymptomatic primary hyperparathyroidism (Bilezikian et al., *J Bone Miner Res* 2022); the American Association of Endocrine Surgeons guideline is the basis for offering surgery to patients who do not meet them, because it is the only cure (Wilhelm et al., *JAMA Surg* 2016). **Focused parathyroidectomy** with intraoperative PTH cures about 95 to 98%.
 !!
+## Complications
+### Hypercalcaemic crisis
+A **hypercalcaemic crisis**, with dehydration, confusion and arrhythmia at very high calcium levels, is treated with intravenous saline, a bisphosphonate or denosumab, and calcitonin, followed by urgent surgery.
+### Of surgery
+Temporary hypocalcaemia is common. *Hungry bone syndrome*, a severe and prolonged hypocalcaemia with low phosphate and magnesium, follows removal of a long-standing adenoma in a patient with bone disease, as the starved skeleton takes up calcium, and needs large doses of calcium and calcitriol. Permanent hypoparathyroidism follows about 1 to 5% of adenoma operations and more after surgery for hyperplasia or secondary disease. Recurrent laryngeal nerve palsy occurs in 0.4 to 4%, and haematoma can occur.
+### Persistent or recurrent disease
+Persistent or recurrent hyperparathyroidism has a short list of causes: a missed or second adenoma, unrecognised hyperplasia, a supernumerary or ectopic gland, parathyromatosis from rupture of the capsule, carcinoma, and a wrong diagnosis such as FHH.
 
-# For the examination | What the examiner wants to hear.
+# Secondary and tertiary hyperparathyroidism {dz} | Kidney disease and after transplant.
+## Secondary
+**Secondary** hyperparathyroidism is a hyperplastic response of all the glands to low calcium, mostly in *chronic kidney disease*, where phosphate is retained and active vitamin D is lacking, but also in vitamin D deficiency and malabsorption. PTH is high and calcium low or normal.
+### Management
+It is treated medically with phosphate binders, active vitamin D and *calcimimetics* such as cinacalcet. Refractory disease with bone pain, pruritus or calciphylaxis needs *subtotal (three-and-a-half gland) parathyroidectomy*, or total parathyroidectomy with autotransplantation into the forearm, together with thymectomy.
+## Tertiary
+**Tertiary** hyperparathyroidism is autonomous hypersecretion that persists after the cause has been corrected, typically after renal transplantation, and produces hypercalcaemia.
+
+# Parathyroid carcinoma {dz} | Very high calcium and a hard gland.
+## Clinical features
+Carcinoma is suspected when calcium and PTH are very high (calcium often over 14 mg/dL), when there is a palpable neck mass or a recurrent laryngeal nerve palsy, and when bone and renal disease are present together.
+## Management
+At surgery the gland is hard, grey-white and adherent, invading the thyroid or muscle.
+It must be resected *en bloc* with the thyroid lobe and adjacent tissue without rupturing the capsule.
+## Prognosis
+Recurrence is common, and death usually comes from uncontrollable hypercalcaemia.
+
+# Hypoparathyroidism and hypocalcaemia {dz} | After thyroid and parathyroid surgery.
+## Etiology
+Hypoparathyroidism usually follows removal or devascularisation of the parathyroids during [[t:thyroid|thyroidectomy]] or central neck dissection. Rarer causes are autoimmune disease, DiGeorge syndrome (absent third and fourth pouch derivatives; [[t:paeds_neck]]), magnesium deficiency and infiltration.
+## Clinical features
+Symptoms usually appear 24 to 72 hours after surgery, starting with perioral and fingertip tingling and cramps and progressing to carpopedal spasm and tetany, laryngospasm with stridor, seizures, confusion, and a prolonged QT with arrhythmia. *Chvostek's sign* is twitching of the face when the facial nerve is tapped in front of the ear; because 5 to 10% of normal people have it, it should be recorded before surgery. *Trousseau's sign* is carpal spasm when a blood-pressure cuff is inflated above systolic pressure for three minutes.
+## Management
+Calcium is measured after total thyroidectomy, and a PTH level a few hours after surgery predicts who will become hypocalcaemic and who can safely go home. Mild symptoms are treated with oral calcium carbonate and calcitriol or alfacalcidol. Severe symptoms or tetany need intravenous 10% calcium gluconate, 10 to 20 mL over ten minutes followed by an infusion, with cardiac monitoring and correction of magnesium.
+Hypoparathyroidism lasting beyond six months is permanent and needs lifelong calcium and active vitamin D, aiming for a low-normal calcium to avoid hypercalciuria, with recombinant PTH in selected cases.
+## Prevention
+It is prevented by capsular dissection, by identifying and preserving the glands with their blood supply, by autotransplanting any gland that is devascularised or removed by mistake, and by near-infrared autofluorescence to identify the glands.
+
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Embryology and anatomy:** fourth pouch superior glands deep to the RLN, third pouch inferior glands superficial to it, and the ectopic sites.
@@ -111,3 +125,16 @@ Hypoparathyroidism lasting beyond six months is permanent and needs lifelong cal
 - Stopping after one adenoma in MEN 1, where all glands are abnormal.
 - Rupturing the capsule of a suspected carcinoma or adenoma, which seeds parathyromatosis.
 !!
+## Related topics
+- [[t:thyroid]], [[t:paeds_neck]], [[t:neckmass]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 63.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 11.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 15.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapter 66.
+- K. J. Lee, *Essential Otolaryngology*, chapters 38 and 51.
+## Studies cited
+- Bilezikian et al., *J Bone Miner Res* 2022: Fifth International Workshop on asymptomatic primary hyperparathyroidism.
+- Wilhelm et al., *JAMA Surg* 2016: American Association of Endocrine Surgeons guideline.

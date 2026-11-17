@@ -1,6 +1,13 @@
+@layout amboss
 @stand Most jaw lesions are found by chance on a dental radiograph, and the radiograph does most of the diagnostic work. Is the lesion radiolucent or radio-opaque? Single or multiple? Well defined or ragged? Unilocular or multilocular? Related to a tooth crown, a root apex, or neither? A periapical cyst on a dead tooth needs a root canal treatment. A keratocyst in a young adult raises the question of Gorlin syndrome. A multilocular "soap-bubble" lesion at the angle is an ameloblastoma until biopsy says otherwise.
 
-# Approach | Reading the jaw.
+# Summary | Reading the jaw.
+The radiograph does most of the diagnostic work. Each lesion has its own chapter: the cysts (from the [[@Radicular (periapical) cyst]] to the [[@Odontogenic keratocyst]]), the odontogenic tumours led by [[@Ameloblastoma]], the non-odontogenic lesions, and dead bone in the jaw.
+
+# Pathophysiology | Where odontogenic cysts come from.
+A true cyst has an epithelial lining. Odontogenic cysts arise from the remnants of tooth-forming epithelium, and each remnant gives its own cyst: the *rests of Malassez* give radicular cysts, the *reduced enamel epithelium* gives dentigerous cysts, and the *dental lamina (rests of Serres)* gives keratocysts and lateral periodontal cysts.
+
+# Diagnosis | Clinical assessment and imaging.
 ## Clinical assessment
 Most lesions present as a painless bony expansion of the jaw. When the cortex has thinned it gives a characteristic "egg-shell crackling" on pressure, and the teeth over it may be displaced, loose or, if they never erupted, missing. Pain and infection usually mean that a benign lesion has become secondarily infected, but *numbness of the lower lip* from involvement of the inferior alveolar nerve points towards malignancy or osteomyelitis and should never be dismissed.
 
@@ -21,74 +28,112 @@ Mixed | Ossifying fibroma, calcifying odontogenic cyst, adenomatoid tumour, ceme
 !!
 !anat s173_27 s130_3 | The teeth, palate and retromolar trigone, and the maxilla with its alveolar process.
 
-# Cysts of the jaws | Odontogenic and non-odontogenic.
-A true cyst has an epithelial lining. Odontogenic cysts arise from the remnants of tooth-forming epithelium, and each remnant gives its own cyst: the *rests of Malassez* give radicular cysts, the *reduced enamel epithelium* gives dentigerous cysts, and the *dental lamina (rests of Serres)* gives keratocysts and lateral periodontal cysts.
-## Radicular (periapical) cyst
-The radicular cyst is the *commonest jaw cyst*. It follows death of the pulp of a tooth, which leads to a periapical granuloma that then becomes cystic. On the radiograph it is a well-defined, round lucency *at the root apex* of the non-vital tooth, and it may announce itself with a sinus onto the gum or skin. It is treated by root canal treatment, or by extraction with enucleation of the cyst. A cyst that persists after the tooth has gone is a **residual cyst**, and is enucleated.
-## Dentigerous (follicular) cyst
+# Radicular (periapical) cyst {dz} | The commonest jaw cyst.
+## Pathophysiology
+The radicular cyst is the *commonest jaw cyst*. It follows death of the pulp of a tooth, which leads to a periapical granuloma that then becomes cystic.
+## Diagnosis
+On the radiograph it is a well-defined, round lucency *at the root apex* of the non-vital tooth, and it may announce itself with a sinus onto the gum or skin.
+## Management
+It is treated by root canal treatment, or by extraction with enucleation of the cyst. A cyst that persists after the tooth has gone is a **residual cyst**, and is enucleated.
+
+# Dentigerous (follicular) cyst {dz} | Around an unerupted crown.
+## Clinical features
 The dentigerous cyst is the second commonest. It forms around the *crown of an unerupted tooth*, attached at the amelocemental junction, usually a lower third molar or an upper canine, in patients aged 10 to 30. It expands painlessly and may push the tooth a long way, into the ramus or the antrum.
+## Management
+Most are enucleated with the tooth. Large cysts in children are better *marsupialised* or decompressed, which lets the cyst shrink and the tooth erupt.
+## Complications
+Rarely an ameloblastoma or carcinoma arises in the wall, which is why the lining is always sent for histology.
+## Subtypes and variants
+Its soft-tissue counterpart in a child, the **eruption cyst**, is a bluish swelling of the gum over an erupting tooth that resolves as the tooth comes through.
 
-Most are enucleated with the tooth. Large cysts in children are better *marsupialised* or decompressed, which lets the cyst shrink and the tooth erupt. Rarely an ameloblastoma or carcinoma arises in the wall, which is why the lining is always sent for histology. Its soft-tissue counterpart in a child, the **eruption cyst**, is a bluish swelling of the gum over an erupting tooth that resolves as the tooth comes through.
-## Odontogenic keratocyst (OKC)
+# Odontogenic keratocyst {dz} | Behaves aggressively.
+## Clinical features
 The keratocyst was renamed a "keratocystic odontogenic tumour" in 2005 and reclassified as a cyst in 2017 (and again in 2022), but whatever its label it behaves aggressively. It usually occupies the *posterior body and ramus of the mandible* of a young adult, and because it extends along the medulla with little expansion it is often large by the time it is found.
+## Pathophysiology
+Histology shows a thin, *parakeratinised* lining with a palisaded, hyperchromatic basal layer and *daughter cysts* in the wall, and the aspirate is cheesy keratin.
+## Management
+The friable lining and satellite cysts explain recurrence rates of up to 30%. Large cysts are first decompressed, then enucleated with a *peripheral ostectomy* or Carnoy solution; multiple recurrences need resection, and follow-up is long.
+## Gorlin syndrome
+Multiple keratocysts, especially in a child, mean **Gorlin syndrome** (naevoid basal cell carcinoma syndrome), an autosomal dominant condition caused by a *PTCH1* mutation. Look for multiple basal cell carcinomas ([[t:skinca]]), palmar and plantar pits, a calcified falx, bifid ribs, frontal bossing with hypertelorism, and medulloblastoma, and avoid radiation in these patients.
+## Differential diagnosis
+The **orthokeratinised odontogenic cyst** looks similar but has an orthokeratinised lining without palisading, rarely recurs and carries no syndrome.
 
-Histology shows a thin, *parakeratinised* lining with a palisaded, hyperchromatic basal layer and *daughter cysts* in the wall, and the aspirate is cheesy keratin. The friable lining and satellite cysts explain recurrence rates of up to 30%. Large cysts are first decompressed, then enucleated with a *peripheral ostectomy* or Carnoy solution; multiple recurrences need resection, and follow-up is long.
-
-Multiple keratocysts, especially in a child, mean **Gorlin syndrome** (naevoid basal cell carcinoma syndrome), an autosomal dominant condition caused by a *PTCH1* mutation. Look for multiple basal cell carcinomas ([[t:skinca]]), palmar and plantar pits, a calcified falx, bifid ribs, frontal bossing with hypertelorism, and medulloblastoma, and avoid radiation in these patients. The **orthokeratinised odontogenic cyst** looks similar but has an orthokeratinised lining without palisading, rarely recurs and carries no syndrome.
-## Other odontogenic cysts
+# Other odontogenic cysts {dz} | Lateral periodontal, glandular, calcifying, paradental.
 The **lateral periodontal cyst** is a small lucency between the roots of vital lower premolars and canines in adults. The **glandular odontogenic cyst** of the anterior mandible can be confused with central mucoepidermoid carcinoma, recurs, and may need resection. The **calcifying odontogenic (Gorlin) cyst** contains "ghost cells" with calcification, and the **paradental (buccal bifurcation) cyst** lies buccal to an erupting lower molar in a child.
-## Non-odontogenic cysts
-The **nasopalatine (incisive canal) cyst** is the commonest non-odontogenic cyst. It appears as a *heart-shaped* lucency between vital upper central incisors, with a swelling behind them, and is enucleated. The **nasolabial (nasoalveolar) cyst** lies in soft tissue beneath the ala, filling the nasolabial fold and lifting the nasal floor, mostly in women; it is lined by respiratory epithelium and is removed through a sublabial approach or marsupialised endoscopically into the nose.
 
+# Non-odontogenic cysts and pseudocysts {dz} | Nasopalatine, nasolabial and the pseudocysts.
+The **nasopalatine (incisive canal) cyst** is the commonest non-odontogenic cyst. It appears as a *heart-shaped* lucency between vital upper central incisors, with a swelling behind them, and is enucleated. The **nasolabial (nasoalveolar) cyst** lies in soft tissue beneath the ala, filling the nasolabial fold and lifting the nasal floor, mostly in women; it is lined by respiratory epithelium and is removed through a sublabial approach or marsupialised endoscopically into the nose.
+## Pseudocysts
 Three lesions are pseudocysts, without an epithelial lining. The **traumatic (simple) bone cavity** is an empty space in a teenager that scallops between the roots and heals after surgical exploration. The **aneurysmal bone cyst** is a blood-filled expansile "soap bubble" treated by curettage. The **Stafne defect** is a lingual depression below the inferior alveolar canal at the angle, filled by submandibular gland, and needs no treatment.
 !imaging odontogenic-sinusitis | Odontogenic disease extending into the maxillary sinus.
 
-# Odontogenic tumours | Most are benign.
-## Ameloblastoma
+# Ameloblastoma {dz} | Benign but locally aggressive.
+## Epidemiology and clinical features
 The ameloblastoma is the commonest clinically significant odontogenic tumour: benign, but *locally aggressive*. It affects adults in the third to fifth decades, and about 80% arise in the mandible, mostly in the *molar–ramus region*. It grows slowly and painlessly, displacing and loosening teeth and resorbing their roots.
-
+## Diagnosis
 The radiograph shows a *multilocular "soap-bubble"* or honeycomb lucency with cortical expansion and *knife-edge root resorption*. Histologically there are islands of odontogenic epithelium whose peripheral columnar cells palisade with *reverse polarisation* of their nuclei away from the basement membrane, in follicular, plexiform, acanthomatous or desmoplastic patterns. Most mandibular tumours carry *BRAF V600E*, and BRAF-targeted therapy is now used for unresectable or recurrent disease.
-
+## Subtypes and variants
 Several variants matter. The **unicystic** ameloblastoma of young patients often mimics a dentigerous cyst; its luminal type can be enucleated with close follow-up, but the mural type behaves like a solid tumour. The **peripheral** form is a gum mass. The **metastasising ameloblastoma** has benign histology yet spreads to lung or nodes, and **ameloblastic carcinoma** is frankly malignant.
-
+## Management
 Treatment is *resection with about 1 to 1.5 cm margins beyond the radiological edge*, including a soft-tissue margin wherever the cortex has been breached: a marginal or segmental mandibulectomy, or a partial maxillectomy, with reconstruction by a fibula free flap and dental implants. Enucleation and curettage give recurrence rates of 50 to 90%. Maxillary tumours are the more dangerous because they can reach the skull base, and follow-up is lifelong because recurrence may appear after decades.
 !ops 181 182 162 | Marginal and segmental mandibulectomy, and microvascular reconstruction.
-## Other odontogenic tumours
+
+# Other odontogenic tumours {dz} | Odontoma and the rest.
 The **odontoma** is the commonest odontogenic tumour overall, though really a hamartoma. *Compound* odontomas in the anterior maxilla contain small tooth-like structures, and *complex* odontomas in the posterior mandible are a disorganised mass of enamel and dentine. Both are radio-opaque with a lucent rim, often stop a tooth from erupting, and are enucleated.
 
 The **adenomatoid odontogenic tumour** occurs in teenage girls in the anterior maxilla around an unerupted canine, as a lucency with fine calcifications, and is enucleated. The **calcifying epithelial odontogenic (Pindborg) tumour** of adults in the posterior mandible contains amyloid with concentric *Liesegang ring* calcifications and is resected with a margin. The **ameloblastic fibroma** of young patients is enucleated. The **odontogenic myxoma**, with its "soap bubble" or "tennis racket" lucency of stellate cells in myxoid stroma, is unencapsulated and infiltrative, and recurs in about a quarter even after resection. The **cementoblastoma** is a radio-opaque mass fused to a lower molar root with a lucent halo, removed with the tooth.
 
-# Non-odontogenic lesions | Bone, fibro-osseous, systemic.
-## Fibro-osseous lesions
-In **fibrous dysplasia** bone is replaced by fibrous tissue and woven bone as a result of a *GNAS* mutation. About 80% is monostotic; polyostotic disease with café-au-lait macules and endocrine overactivity such as precocious puberty is *McCune–Albright syndrome*. It causes painless facial asymmetry in a child or teenager, the maxilla more often than the mandible, and growth usually slows after puberty. The radiograph shows an ill-defined *ground-glass* expansion blending into normal bone. Most patients are observed, recontouring is done for deformity once growth stops, and the optic canal is decompressed if vision is threatened ([[t:orbit]]).
-
-The **ossifying fibroma**, by contrast, is a true, well-demarcated neoplasm of mixed lucency and opacity, typically in the mandible of young women; its juvenile trabecular and psammomatoid forms are aggressive in children and in the sinuses. It is enucleated or resected. **Cemento-osseous dysplasia**, periapical, focal or florid, occurs in middle-aged women of African or Asian descent and is best left alone, because extraction is followed by infection.
+# Fibrous dysplasia {dz} | Ground glass.
+## Clinical features and diagnosis
+In **fibrous dysplasia** bone is replaced by fibrous tissue and woven bone as a result of a *GNAS* mutation. About 80% is monostotic; polyostotic disease with café-au-lait macules and endocrine overactivity such as precocious puberty is *McCune–Albright syndrome*. It causes painless facial asymmetry in a child or teenager, the maxilla more often than the mandible, and growth usually slows after puberty. The radiograph shows an ill-defined *ground-glass* expansion blending into normal bone.
+## Management
+Most patients are observed, recontouring is done for deformity once growth stops, and the optic canal is decompressed if vision is threatened ([[t:orbit]]).
 !imaging fibrous-dysplasia-monostotic fibrous-dysplasia-1 | Fibrous dysplasia on imaging.
-## Giant cell lesions
-The **central giant cell granuloma** affects patients under 30 in the anterior mandible and may cross the midline. Its multinucleated giant cells are indistinguishable from those of a *brown tumour of hyperparathyroidism*, so calcium and PTH must always be checked ([[t:para]]). It is treated by curettage or with intralesional steroids, calcitonin or denosumab.
 
+# Ossifying fibroma and cemento-osseous dysplasia {dz} | The other fibro-osseous lesions.
+The **ossifying fibroma**, unlike fibrous dysplasia, is a true, well-demarcated neoplasm of mixed lucency and opacity, typically in the mandible of young women; its juvenile trabecular and psammomatoid forms are aggressive in children and in the sinuses. It is enucleated or resected. **Cemento-osseous dysplasia**, periapical, focal or florid, occurs in middle-aged women of African or Asian descent and is best left alone, because extraction is followed by infection.
+
+# Giant cell lesions {dz} | Exclude hyperparathyroidism.
+## Central giant cell granuloma
+The **central giant cell granuloma** affects patients under 30 in the anterior mandible and may cross the midline. Its multinucleated giant cells are indistinguishable from those of a *brown tumour of hyperparathyroidism*, so calcium and PTH must always be checked ([[t:para]]).
+### Management
+It is treated by curettage or with intralesional steroids, calcitonin or denosumab.
+## Cherubism
 **Cherubism** is autosomal dominant and produces painless *bilateral* swelling of the mandibular angles, and often the maxillae, from the age of two to five, giving the "cherub" face with upturned eyes. The radiograph shows multilocular lucencies, and the condition regresses after puberty.
-## Bone tumours
+
+# Bone tumours and metastases {dz} | The numb chin.
+## Benign bone tumours
 An **osteoma** is a dense, well-defined mass. Multiple osteomas with colonic polyposis and soft-tissue tumours make up *Gardner syndrome* (an APC mutation), and colonoscopy is mandatory because the polyps become malignant. The **osteoblastoma** is painful, and any cartilaginous jaw tumour, even one called a chondroma, should be treated as a possible chondrosarcoma.
-
+## Sarcomas
 **Osteosarcoma of the jaw** occurs a decade or two later than in the limbs, in the third and fourth decades, and also follows radiotherapy and Paget disease. It presents with swelling, pain, loose teeth and lip numbness, and the radiograph shows a *sunburst* periosteal reaction and *symmetrical widening of the periodontal ligament space* (Garrington sign). It needs radical resection with clear margins and chemotherapy. **Chondrosarcoma** affects older adults, the anterior maxilla more than the mandible, and needs radical resection because it resists radiotherapy and chemotherapy.
-
+## Metastases and infiltrative lesions
 **Metastases** from breast, lung, prostate, kidney and thyroid usually land in the posterior mandible and present with pain, lip numbness or an extraction socket that will not heal; the "*numb chin*" can be the first sign of cancer. Myeloma and lymphoma give punched-out lesions, and **Langerhans cell histiocytosis** in children produces punched-out lucencies around the roots so that the teeth seem to float ("*floating teeth*"); it is treated by curettage, steroids, low-dose radiotherapy or chemotherapy. Finally, **squamous carcinoma** of the overlying mucosa ([[t:oral_ca]]) invades the mandible through the occlusal ridge or the tooth sockets.
-## Paget disease
+
+# Paget disease {dz} | Cotton wool.
 Paget disease is disordered bone remodelling in older people. The maxilla and skull enlarge with "*cotton-wool*" radiodensities, the roots show hypercementosis, the alkaline phosphatase rises, and bony overgrowth can compress cranial nerves and cause hearing loss. It is treated with bisphosphonates.
 
-# Osteonecrosis and infection | Dead bone in the jaw.
-## Osteomyelitis
-Osteomyelitis usually affects the mandible after dental infection or a fracture, and diabetes and immunosuppression predispose to it. It causes pain, swelling, pus and sequestra, and numbness of the lower lip (*Vincent sign*). Treatment is debridement, sequestrectomy and prolonged antibiotics.
-## Osteoradionecrosis
+# Osteomyelitis {dz} | After dental infection or fracture.
+## Clinical features
+Osteomyelitis usually affects the mandible after dental infection or a fracture, and diabetes and immunosuppression predispose to it. It causes pain, swelling, pus and sequestra, and numbness of the lower lip (*Vincent sign*).
+## Management
+Treatment is debridement, sequestrectomy and prolonged antibiotics.
+
+# Osteoradionecrosis {dz} | After radiotherapy.
 Osteoradionecrosis follows radiotherapy, especially above 60 Gy, and is described fully in [[t:hnrt]]. It is prevented by dental treatment before radiotherapy, and treated along a ladder from debridement and pentoxifylline–tocopherol to resection with a free fibula flap.
-## Medication-related osteonecrosis (MRONJ)
-MRONJ is exposed bone for more than eight weeks in a patient taking antiresorptive drugs such as bisphosphonates or denosumab, or antiangiogenic drugs, who has never had radiotherapy to the jaw. The risk is highest with intravenous treatment for cancer, and it usually follows an extraction, so dental treatment should be completed before the drugs are started. It is managed with chlorhexidine, antibiotics and conservative debridement, with resection for advanced disease.
 !update Current evidence
-**Medication-related osteonecrosis of the jaw (MRONJ).** The AAOMS definition used above also counts bone that can be probed through a fistula; risk is about 1% with oncological doses and below 0.1% with osteoporosis doses, and drug holidays are not routinely recommended for osteoporosis doses (Ruggiero et al., *J Oral Maxillofac Surg* 2022). **Osteoradionecrosis.** In the HOPON trial, hyperbaric oxygen ([[t:laser]]) did not reduce the risk of osteoradionecrosis after dental extractions in irradiated jaws (Shaw et al., *Int J Radiat Oncol Biol Phys* 2019); pentoxifylline with tocopherol is widely used, on observational evidence.
+**Osteoradionecrosis.** In the HOPON trial, hyperbaric oxygen ([[t:laser]]) did not reduce the risk of osteoradionecrosis after dental extractions in irradiated jaws (Shaw et al., *Int J Radiat Oncol Biol Phys* 2019); pentoxifylline with tocopherol is widely used, on observational evidence.
 !!
 
-# For the examination | What the examiner wants to hear.
+# Medication-related osteonecrosis (MRONJ) {dz} | Antiresorptive drugs.
+## Definition and etiology
+MRONJ is exposed bone for more than eight weeks in a patient taking antiresorptive drugs such as bisphosphonates or denosumab, or antiangiogenic drugs, who has never had radiotherapy to the jaw. The risk is highest with intravenous treatment for cancer, and it usually follows an extraction, so dental treatment should be completed before the drugs are started.
+## Management
+It is managed with chlorhexidine, antibiotics and conservative debridement, with resection for advanced disease.
+!update Current evidence
+**Medication-related osteonecrosis of the jaw (MRONJ).** The AAOMS definition used above also counts bone that can be probed through a fistula; risk is about 1% with oncological doses and below 0.1% with osteoporosis doses, and drug holidays are not routinely recommended for osteoporosis doses (Ruggiero et al., *J Oral Maxillofac Surg* 2022).
+!!
+
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Systematic reading of a jaw radiograph,** and why aspiration comes before biopsy.
@@ -108,3 +153,12 @@ MRONJ is exposed bone for more than eight weeks in a patient taking antiresorpti
 - Calling a central giant cell lesion without checking calcium and PTH.
 - Extracting teeth in an irradiated jaw or in a patient on intravenous bisphosphonates without precautions.
 !!
+## Related topics
+- [[t:oral_ca]], [[t:skinca]], [[t:para]], [[t:hnrt]], [[t:vascneck]], [[t:orbit]], [[t:oraldis]]
+
+# Sources | Where this topic comes from.
+## Books
+- K. J. Lee, *Essential Otolaryngology*, chapter 39.
+## Studies cited
+- Ruggiero et al., *J Oral Maxillofac Surg* 2022: AAOMS position paper on MRONJ.
+- Shaw et al., *Int J Radiat Oncol Biol Phys* 2019: the HOPON trial.
