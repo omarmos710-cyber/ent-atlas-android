@@ -110,6 +110,17 @@ def main():
         return
     s = open(os.path.join(OUT, 'full.js'), encoding='utf-8').read()
     X = json.loads(s[s.index('['):s.rindex(']') + 1])
+    # the clinical question bank joins the sections: [type, "qb:<id>", question, where, answer]
+    import subprocess
+    Q = []
+    try:
+        raw = subprocess.run(['node', os.path.join(ROOT, 'tools', 'dump_qbank.js')], capture_output=True, text=True, check=True).stdout
+        Q = [[t, 'qb:' + i, q, w, b] for i, t, q, w, b in json.loads(raw)]
+    except Exception as e:
+        print('WARNING smart search: question bank not indexed (%s)' % e)
+    open(os.path.join(OUT, 'sm_q.js'), 'w', encoding='utf-8').write(
+        'window.XSMQ=' + json.dumps(Q, ensure_ascii=False, separators=(',', ':')) + ';\n')
+    X = X + Q
     E, tok, vocab = load_model()
     dim = E.shape[1]
 
@@ -148,7 +159,7 @@ def main():
     }
     js = 'window.XSM=' + json.dumps(meta, ensure_ascii=False, separators=(',', ':')) + ';\n'
     open(os.path.join(OUT, 'sm_meta.js'), 'w', encoding='utf-8').write(js)
-    print(f'smart search: {len(owners)} chunks from {len(X)} sections, dim {dim}, '
+    print(f'smart search: {len(owners)} chunks from {len(X)} sections ({len(Q)} questions), dim {dim}, '
           f'{len(abbr)} abbreviations, vec {vq.nbytes//1024} KB, tok {tq.nbytes//1024} KB, meta {len(js)//1024} KB')
 
 
