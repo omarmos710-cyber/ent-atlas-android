@@ -606,6 +606,14 @@ def update_sw(ids, ops=(), bas=(), boards=()):
             return '%s?v=%s' % (f, hashlib.md5(open(os.path.join(WWW, f), 'rb').read()).hexdigest()[:8])
         return f
     add += ''.join('"%s",' % vers(f) for f in boards)
+    # every other PDF (clinical, imaging) is regenerated when its article changes:
+    # version it the same way, or the media cache keeps serving the old copy
+    def pver(m):
+        f = m.group(1)
+        fp = os.path.join(WWW, f)
+        if not os.path.exists(fp): return m.group(0)
+        return '"%s?v=%s"' % (f, hashlib.md5(open(fp, 'rb').read()).hexdigest()[:8])
+    s = re.sub(r'"(pdf/(?!bd_)[^"?]+\.pdf)(?:\?v=[0-9a-f]+)?"', pver, s)
     s = s.replace('"clinic/links.js",', '"clinic/links.js",' + add, 1)
     s = re.sub(r'"theatre/art/[^"]+",', '', s)
     s = re.sub(r'"theatre/basics/[^"]+",', '', s)
