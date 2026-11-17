@@ -1,22 +1,28 @@
+@layout amboss
 @stand A swallowed coin in a toddler, a fish bone in an adult's throat, a meat bolus in an elderly man, a denture after a seizure. Most swallowed objects pass harmlessly. The ENT surgeon's job is to find the ones that will not: those stuck in the pharynx or oesophagus, and those that are sharp, large, multiple magnets or button batteries. Remove them under direct vision before they ulcerate, perforate or block the airway. A button battery in the oesophagus is an emergency measured in hours.
 
-# Where they lodge | Pharynx and oesophagus.
+# Summary | Find the ones that will not pass.
+Most swallowed objects pass. Those stuck in the pharynx or oesophagus, and sharp objects, multiple magnets and button batteries, are removed under direct vision. The shared chapters cover all foreign bodies; [[@Button (disc) batteries]], [[@Magnets]], [[@Sharp and long objects]], [[@Objects beyond the stomach]] and [[@Food bolus impaction]] have their own chapters.
+
+# Epidemiology | Who swallows things.
+About 80% of patients are children under five, who swallow coins, toys, beads, *button batteries* and magnets. Adults swallow food boluses, especially meat, and fish and chicken bones; they swallow dentures, partly because an upper denture dulls palatal sensation; and they are predisposed by hasty eating, poor chewing, alcohol, sleep, seizures and unconsciousness. Psychiatric patients and prisoners may swallow objects deliberately. In an older adult, a sudden bolus obstruction may be the first sign of a *narrowed oesophagus* from stricture or carcinoma.
+
+# Pathophysiology | Where they lodge.
 ## The pharynx
 In the pharynx, fish bones and needles lodge in the **tonsil**, often in a crypt, where they can be seen and lifted out with forceps. Fish bones also catch in the **tongue base and vallecula**, where they are found with a mirror or endoscope and removed under topical anaesthesia with curved forceps; a needle buried in the tongue base may migrate and need imaging and an open pharyngotomy. Wires, pins and staples stick to the **posterior pharyngeal wall**. In the **pyriform fossa**, fish and chicken bones, needles and dentures are common; small objects can be removed in clinic, but large or impacted ones, and all objects in children, are removed under general anaesthesia.
 !anat s222_44 s211_27 | The hypopharynx and larynx as seen endoscopically, and the vallecula with the hyoepiglottic ligament.
 ## The oesophagus
 By far the commonest site, about 70%, is *at or just below the cricopharyngeus*, and coins are typically held at the sphincter itself. Objects that pass it may stop at the crossing of the aorta and left bronchus (about 20%) or at the cardia (about 10%), while sharp objects catch anywhere. An object that lodges below the cricopharyngeus in an adult suggests an underlying stricture, ring, eosinophilic oesophagitis or cancer, and the oesophagus should be endoscoped or imaged once the oedema settles ([[t:oesoph]]).
-## Who swallows things
-About 80% of patients are children under five, who swallow coins, toys, beads, *button batteries* and magnets. Adults swallow food boluses, especially meat, and fish and chicken bones; they swallow dentures, partly because an upper denture dulls palatal sensation; and they are predisposed by hasty eating, poor chewing, alcohol, sleep, seizures and unconsciousness. Psychiatric patients and prisoners may swallow objects deliberately. In an older adult, a sudden bolus obstruction may be the first sign of a *narrowed oesophagus* from stricture or carcinoma.
 
-# Assessment | History, signs, films.
+# Clinical features | History and signs.
 ## Symptoms
 The patient usually describes choking or gagging at the time, followed by pain or a pricking feeling localised in the neck, often beside the trachea, and worse on swallowing. Pain localises well in the pharynx and cervical oesophagus but poorly lower down. Dysphagia may begin as partial and become complete as oedema develops, and drooling with inability to swallow saliva means complete obstruction and a risk of aspiration.
 
 In small children the respiratory tract may dominate (inhaled foreign bodies are covered in [[t:fb]]): stridor or cough from compression of the soft posterior tracheal wall or from laryngeal oedema, or wheeze and recurrent chest infection from a long-standing oesophageal object. Chest, back or abdominal pain, fever and emphysema warn of perforation. Some patients, especially children, have few symptoms at all, so normal eating and a normal X-ray do not exclude a foreign body.
 ## Signs
 The signs are tenderness low in the neck beside the trachea (*Jackson's sign*), pain on rocking the larynx against the spine, *pooling of saliva in the pyriform fossae* that does not clear with swallowing, and sometimes the object itself in the postcricoid region. Surgical emphysema, fever and tachycardia mean perforation.
-## Imaging
+
+# Diagnosis | Films, and CT when in doubt.
 Plain posteroanterior and lateral films are taken of the neck, chest and abdomen, and in children from mouth to anus so that every object is found. A coin in the *oesophagus* lies *flat (en face) on the PA view* and edge-on on the lateral; a coin in the *trachea* lies the other way, edge-on on the PA view, because the glottis is a sagittal slit. A button battery shows a *double ring ("halo") on the PA view* and a *step-off* on the lateral, so every apparent coin must be looked at carefully.
 
 Many fish bones, wood, plastic, aluminium and glass are invisible on X-ray. On the lateral neck film their presence is suggested indirectly by air in the cervical oesophagus, *prevertebral soft-tissue thickening*, loss of the cervical lordosis, or air in the tissues from perforation. CT is the most sensitive test for bones, perforation and abscess, and should be used freely when symptoms persist despite a negative film. Barium is avoided because it coats the object and mucosa, can be aspirated and makes endoscopy harder; a water-soluble study is used only if perforation is suspected and CT is unavailable.
@@ -24,7 +30,7 @@ Many fish bones, wood, plastic, aluminium and glass are invisible on X-ray. On t
 !fig d70-3 | Two metallic foreign bodies: a large ring at the cricopharyngeus and a small piece in the abdomen (arrows).
 !imaging foreign-bodies | Foreign bodies of the food and air passages on imaging.
 
-# Removal | Under direct vision.
+# Management | Under direct vision.
 ## Timing
 Some objects must come out **within hours**: a *button battery in the oesophagus*, any object causing complete obstruction with drooling or airway compromise, sharp or pointed objects in the oesophagus, and any case with signs of perforation. Other oesophageal foreign bodies, including coins and food boluses that do not pass, should come out **within 24 hours**, because prolonged impaction increases ulceration, perforation and stricture. A smooth coin in the lower oesophagus of a well child can be **observed** for 12 to 24 hours with a repeat film, since it may pass into the stomach.
 ## Methods
@@ -41,29 +47,7 @@ Some objects must come out **within hours**: a *button battery in the oesophagus
 !!
 ## After removal
 After removal the mucosa is re-examined for ulceration, perforation and an underlying cause. Oral fluids start if the procedure was uneventful, the patient is watched for pain, fever and emphysema, and follow-up endoscopy or a contrast study is arranged if a stricture or tumour is suspected.
-
-# Special objects | Batteries, magnets, sharps.
-## Button (disc) batteries
-A button battery lodged against moist mucosa passes a current that *hydrolyses tissue fluid and generates hydroxide at the negative pole*, producing an alkaline, liquefactive burn, to which leakage of the contents and pressure add. The injury is fast: the mucosa is damaged within an hour, the muscle within two to four hours, and the wall can perforate within 8 to 12 hours. Lithium cells of 20 mm or more are the most dangerous. Late complications include tracheo-oesophageal fistula, mediastinitis, stricture, vocal fold palsy and an *aorto-oesophageal fistula with fatal haemorrhage*, which can appear days or weeks later.
-
-A battery in the oesophagus is removed *endoscopically at once*, at any hour. If ingestion was within 12 hours, honey (in children over one year) or sucralfate is given on the way to theatre to coat and protect the mucosa, provided it does not delay removal. Afterwards CT or MRI looks for deep injury, and significant injuries are observed in hospital.
-
-Once past the oesophagus, most batteries in the stomach pass. They are removed if the child has symptoms, if a large battery has been swallowed by a young child, or if it remains in the stomach on a repeat film at about 48 hours; One textbook threshold is a child under six with a battery of 1.5 cm or more. Batteries in the nose ([[t:nfb]]) and ear are emergencies too.
-!pearl The halo sign
-Any round radio-opaque object in the oesophagus of a child is a button battery until a careful look excludes it. Look for the double contour (halo) on the frontal film and the step at the edge on the lateral. Remove it now, not on tomorrow's list.
-!!
-## Magnets
-A single magnet usually passes. Two or more magnets, or a magnet with a metal object, attract each other across loops of bowel and cause pressure necrosis, fistulae and perforation. Remove them while they can be reached endoscopically, and seek early surgical advice if they have passed beyond.
-## Sharp and long objects
-Pins, needles, bones, open safety pins and denture fragments with hooks carry the highest risk of perforation and are removed from the oesophagus urgently. Beyond the stomach, sharp objects and long objects (over about 5 cm in a small child and 6 cm or more in adults) may not negotiate the duodenum; they are removed endoscopically if reachable, or followed with daily films, and surgery is needed for pain, tenderness, failure to progress or perforation.
-## Objects beyond the stomach
-Most objects that reach the stomach pass within a week on a normal diet, without purgatives, while the stools are checked and films repeated. Operation is needed for abdominal pain or tenderness, an object that does not progress on serial films, a sharp object likely to perforate, a long object in a small child, and pyloric stenosis or other obstruction.
-## Food bolus impaction
-If the patient can swallow saliva and is comfortable, a short wait may allow the bolus to pass. If saliva cannot be swallowed, or impaction lasts beyond 12 to 24 hours, the bolus is removed endoscopically, gently pushed on if there is no stricture or removed piecemeal. Almost every adult then needs investigation, usually *biopsy for eosinophilic oesophagitis* and a search for rings, strictures and cancer.
-
-# Complications | Why we do not wait.
-## What a neglected object does
-A foreign body can obstruct the airway through laryngeal oedema or, in children, tracheal compression. Perforation leads to *retropharyngeal or parapharyngeal abscess* ([[t:deepneck]]) and *mediastinitis*, and a sharp object can erode into the *aorta* to form an aorto-oesophageal fistula, announced by a sentinel bleed before exsanguination; pericarditis and empyema can also follow. Periesophageal cellulitis and neck abscess, tracheo-oesophageal fistula, ulceration and stricture from a neglected object, and migration of needles and bones into the neck, sometimes needing open exploration, complete the list.
+## At a glance
 !table Pharyngeal and oesophageal foreign bodies at a glance
 Situation | Action
 Fish bone seen in tonsil or tongue base | Remove under topical anaesthesia with forceps
@@ -77,10 +61,47 @@ Two or more magnets | Remove while reachable; surgical review
 Pain, fever, emphysema | Suspect perforation: nil by mouth, antibiotics, CT, surgical opinion
 !!
 !update Current evidence
-**Guidelines.** The European Society of Gastrointestinal Endoscopy recommends emergency endoscopy (ideally within 6 hours, at most 24) for complete oesophageal obstruction, button batteries and sharp objects in the oesophagus, and urgent endoscopy within 24 hours for other oesophageal foreign bodies; it advises CT rather than plain films when perforation or a bone is suspected, and against barium swallow (Birk et al., *Endoscopy* 2016). **Button batteries.** Remove within two hours; honey or sucralfate while waiting, in children over one year who swallowed it within 12 hours (Mubarak et al., *J Pediatr Gastroenterol Nutr* 2021). The honey dose is 10 ml every ten minutes, up to six doses; it reduced injury in animal studies (Anfang et al., *Laryngoscope* 2019), but a systematic review found the human evidence limited (Schmidt et al., *Front Pediatr* 2023). **Coins.** An asymptomatic coin in the distal oesophagus passes spontaneously in about a quarter to a third of children within 8 to 16 hours, so a short period of observation with a repeat film is reasonable before endoscopy.
+**Guidelines.** The European Society of Gastrointestinal Endoscopy recommends emergency endoscopy (ideally within 6 hours, at most 24) for complete oesophageal obstruction, button batteries and sharp objects in the oesophagus, and urgent endoscopy within 24 hours for other oesophageal foreign bodies; it advises CT rather than plain films when perforation or a bone is suspected, and against barium swallow (Birk et al., *Endoscopy* 2016).
+**Coins.** An asymptomatic coin in the distal oesophagus passes spontaneously in about a quarter to a third of children within 8 to 16 hours, so a short period of observation with a repeat film is reasonable before endoscopy.
 !!
 
-# For the examination | What the examiner wants to hear.
+# Complications | Why we do not wait.
+A foreign body can obstruct the airway through laryngeal oedema or, in children, tracheal compression. Perforation leads to *retropharyngeal or parapharyngeal abscess* ([[t:deepneck]]) and *mediastinitis*, and a sharp object can erode into the *aorta* to form an aorto-oesophageal fistula, announced by a sentinel bleed before exsanguination; pericarditis and empyema can also follow. Periesophageal cellulitis and neck abscess, tracheo-oesophageal fistula, ulceration and stricture from a neglected object, and migration of needles and bones into the neck, sometimes needing open exploration, complete the list.
+
+# Button (disc) batteries {dz} | An emergency measured in hours.
+## Pathophysiology
+A button battery lodged against moist mucosa passes a current that *hydrolyses tissue fluid and generates hydroxide at the negative pole*, producing an alkaline, liquefactive burn, to which leakage of the contents and pressure add. The injury is fast: the mucosa is damaged within an hour, the muscle within two to four hours, and the wall can perforate within 8 to 12 hours. Lithium cells of 20 mm or more are the most dangerous.
+## Diagnosis
+!pearl The halo sign
+Any round radio-opaque object in the oesophagus of a child is a button battery until a careful look excludes it. Look for the double contour (halo) on the frontal film and the step at the edge on the lateral. Remove it now, not on tomorrow's list.
+!!
+## Management
+A battery in the oesophagus is removed *endoscopically at once*, at any hour. If ingestion was within 12 hours, honey (in children over one year) or sucralfate is given on the way to theatre to coat and protect the mucosa, provided it does not delay removal. Afterwards CT or MRI looks for deep injury, and significant injuries are observed in hospital.
+
+Once past the oesophagus, most batteries in the stomach pass. They are removed if the child has symptoms, if a large battery has been swallowed by a young child, or if it remains in the stomach on a repeat film at about 48 hours; One textbook threshold is a child under six with a battery of 1.5 cm or more. Batteries in the nose ([[t:nfb]]) and ear are emergencies too.
+!update Current evidence
+**Button batteries.** Remove within two hours; honey or sucralfate while waiting, in children over one year who swallowed it within 12 hours (Mubarak et al., *J Pediatr Gastroenterol Nutr* 2021). The honey dose is 10 ml every ten minutes, up to six doses; it reduced injury in animal studies (Anfang et al., *Laryngoscope* 2019), but a systematic review found the human evidence limited (Schmidt et al., *Front Pediatr* 2023).
+!!
+## Complications
+Late complications include tracheo-oesophageal fistula, mediastinitis, stricture, vocal fold palsy and an *aorto-oesophageal fistula with fatal haemorrhage*, which can appear days or weeks later.
+
+# Magnets {dz} | Two or more attract across the bowel.
+## Pathophysiology
+A single magnet usually passes.
+Two or more magnets, or a magnet with a metal object, attract each other across loops of bowel and cause pressure necrosis, fistulae and perforation.
+## Management
+Remove them while they can be reached endoscopically, and seek early surgical advice if they have passed beyond.
+
+# Sharp and long objects {dz} | The highest risk of perforation.
+Pins, needles, bones, open safety pins and denture fragments with hooks carry the highest risk of perforation and are removed from the oesophagus urgently. Beyond the stomach, sharp objects and long objects (over about 5 cm in a small child and 6 cm or more in adults) may not negotiate the duodenum; they are removed endoscopically if reachable, or followed with daily films, and surgery is needed for pain, tenderness, failure to progress or perforation.
+
+# Objects beyond the stomach {dz} | Most pass within a week.
+Most objects that reach the stomach pass within a week on a normal diet, without purgatives, while the stools are checked and films repeated. Operation is needed for abdominal pain or tenderness, an object that does not progress on serial films, a sharp object likely to perforate, a long object in a small child, and pyloric stenosis or other obstruction.
+
+# Food bolus impaction {dz} | Look for the cause.
+If the patient can swallow saliva and is comfortable, a short wait may allow the bolus to pass. If saliva cannot be swallowed, or impaction lasts beyond 12 to 24 hours, the bolus is removed endoscopically, gently pushed on if there is no stricture or removed piecemeal. Almost every adult then needs investigation, usually *biopsy for eosinophilic oesophagitis* and a search for rings, strictures and cancer.
+
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Commonest site** (just below the cricopharyngeus) and the three narrowings.
@@ -98,3 +119,18 @@ Pain, fever, emphysema | Suspect perforation: nil by mouth, antibiotics, CT, sur
 - Using barium as the first study.
 - Forgetting to look for an underlying stricture, eosinophilic oesophagitis or cancer in an adult with bolus impaction.
 !!
+## Related topics
+- [[t:oesoph]], [[t:fb]], [[t:nfb]], [[t:deepneck]], [[t:pouch]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 48.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 10.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 25.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapter 70.
+- K. J. Lee, *Essential Otolaryngology*, chapter 36.
+## Studies cited
+- Birk et al., *Endoscopy* 2016: ESGE guideline on foreign bodies in the upper gastrointestinal tract.
+- Mubarak et al., *J Pediatr Gastroenterol Nutr* 2021: ESPGHAN position paper on button batteries.
+- Anfang et al., *Laryngoscope* 2019: honey and sucralfate in button battery injury.
+- Schmidt et al., *Front Pediatr* 2023: systematic review of honey for button battery ingestion.

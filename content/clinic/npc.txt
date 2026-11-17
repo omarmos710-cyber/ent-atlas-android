@@ -1,26 +1,19 @@
+@layout amboss
 @stand Nasopharyngeal carcinoma hides in the one part of the throat no one sees without an endoscope. It shows itself instead through its neighbours: a lump high in the neck, a blocked ear with fluid in an adult, a bloodstained nose, a squint from a sixth nerve palsy. It is linked to Epstein–Barr virus, common in southern China and South-East Asia, and treated not with the knife but with radiation and chemotherapy, to which it responds well.
 
-# Overview | A cancer of geography and virus.
-## Tumours of the nasopharynx
-!table Tumours of the nasopharynx
-Benign | Malignant
-Juvenile angiofibroma (the commonest benign tumour) | Nasopharyngeal carcinoma (the commonest malignancy)
-Antrochoanal polyp, squamous papilloma | Lymphoma (mostly B-cell non-Hodgkin)
-Thornwaldt cyst | Rhabdomyosarcoma (children)
-Pleomorphic adenoma, craniopharyngioma | Chordoma, plasmacytoma
-Paraganglioma, hamartoma | Adenoid cystic and other salivary carcinomas
-Hairy polyp, teratoma (congenital) | Melanoma, haemangiopericytoma
-!!
-Angiofibroma is covered in [[t:juv]]; this topic is about carcinoma.
-## Epidemiology
+# Summary | A cancer of geography and virus.
+Nasopharyngeal carcinoma is the commonest malignancy of the nasopharynx. It is linked to Epstein–Barr virus, genetics and salted fish, and is commonest in southern China and South-East Asia. It presents through its neighbours: a neck node, a one-sided effusion in an adult, a bloodstained nose or a sixth nerve palsy. Endoscopy and biopsy make the diagnosis, MRI stages it, and radiotherapy, with concurrent cisplatin for stage II to IVA, is the treatment. Angiofibroma is covered in [[t:juv]].
+
+# Epidemiology | Geography, sex and age.
 The highest incidence in the world is in southern China, Hong Kong and Taiwan, with high rates in South-East Asia, North Africa, the Mediterranean and among the Inuit and Aleut peoples. It is uncommon in India except in the North-East. Chinese born in North America have a lower risk than those born in China but still higher than other Americans, showing the interplay of genes and environment. Males outnumber females about three to one; the peak is in the fifth and sixth decades, but about one in five patients is under thirty, and these younger patients usually have undifferentiated tumours.
-## Aetiology
+
+# Etiology | Genes, virus and diet.
 - **Genetic:** HLA haplotypes confer susceptibility; the risk persists after migration.
 - **Epstein–Barr virus:** EBV DNA and EBV-encoded RNA are found in virtually every tumour cell of the non-keratinising types; clonal EBV in premalignant lesions suggests infection is an early, possibly initiating, event.
 - **Environmental:** nitrosamines in salted, preserved fish eaten from childhood, with a diet low in vitamin C; smoke from burning incense and wood; tobacco, opium and occupational fumes.
 - **Tobacco and alcohol:** linked to the keratinising (sporadic) type.
 
-# Pathology | Three types.
+# Pathophysiology | Pathology and spread.
 ## WHO classification
 !table WHO types of nasopharyngeal carcinoma
 Type | Description | North American frequency | EBV and radiosensitivity
@@ -31,8 +24,6 @@ III | Non-keratinising, undifferentiated (lymphoepithelioma; Regaud and Schminck
 The current WHO scheme groups types II and III as non-keratinising carcinoma (differentiated and undifferentiated). Under the electron microscope all are squamous; immunohistochemistry for epithelial (cytokeratin) and lymphoid markers separates undifferentiated carcinoma from lymphoma. In endemic areas the non-keratinising types predominate even more; non-keratinising, EBV-associated carcinoma is the commonest type everywhere, and EBV is shown in tissue by EBER in-situ hybridisation.
 ## Gross forms
 Proliferative (a polypoid mass causing nasal obstruction), ulcerative (bleeding), and infiltrative (submucosal, easily missed).
-
-# Spread | Through every exit of the skull base.
 ## Local
 The commonest site of origin is the *fossa of Rosenmüller* in the lateral wall.
 - **Forwards:** into the choanae and nasal cavity.
@@ -73,7 +64,7 @@ Cranial nerve palsy | Sixth nerve most often
 Headache, earache, neck pain | Skull base and retropharyngeal involvement
 !!
 
-# Diagnosis and staging | See it, sample it, map it.
+# Diagnosis | See it, sample it, map it.
 ## Endoscopy and biopsy
 Rigid or flexible nasendoscopy under local anaesthesia shows a proliferative, ulcerative or submucosal lesion, and allows biopsy. If nodes suggest the diagnosis but nothing is seen, take biopsies from the fossa of Rosenmüller and posterior wall under general anaesthesia, sometimes through a transpalatal exposure. Fine-needle aspiration of a neck node, with EBV testing of the cells, points to a nasopharyngeal primary.
 ## Imaging
@@ -83,7 +74,28 @@ Rigid or flexible nasendoscopy under local anaesthesia shows a proliferative, ul
 ## Other tests
 A baseline *audiogram* (radiation and cisplatin both damage hearing), dental assessment before radiotherapy, and *EBV serology*: IgA antibodies to the early antigen are highly specific and those to the viral capsid antigen more sensitive, so both are used; plasma EBV DNA load is now used for screening high-risk populations, for risk stratification and to monitor for recurrence, although assays still need standardisation.
 !imaging | Nasopharyngeal carcinoma and a Thornwaldt cyst on imaging.
-## Staging
+!update Current evidence
+Screening 20,174 men in Hong Kong with plasma EBV DNA detected nasopharyngeal carcinoma earlier, with a sensitivity of 97.1% and specificity of 98.6% (Chan et al., *N Engl J Med* 2017).
+!!
+
+# Differential diagnosis | Tumours of the nasopharynx.
+!table Tumours of the nasopharynx
+Benign | Malignant
+Juvenile angiofibroma (the commonest benign tumour) | Nasopharyngeal carcinoma (the commonest malignancy)
+Antrochoanal polyp, squamous papilloma | Lymphoma (mostly B-cell non-Hodgkin)
+Thornwaldt cyst | Rhabdomyosarcoma (children)
+Pleomorphic adenoma, craniopharyngioma | Chordoma, plasmacytoma
+Paraganglioma, hamartoma | Adenoid cystic and other salivary carcinomas
+Hairy polyp, teratoma (congenital) | Melanoma, haemangiopericytoma
+!!
+Angiofibroma is covered in [[t:juv]]; this topic is about carcinoma.
+## Other malignancies
+- **Lymphoma:** a bulky submucosal mass, usually B-cell non-Hodgkin, often with disease elsewhere in Waldeyer's ring; sinonasal NK/T-cell lymphoma in Asian patients.
+- **Rhabdomyosarcoma:** the embryonal type in children, as a polypoid mass with rapid growth and cranial nerve involvement; chemotherapy and radiotherapy.
+- **Chordoma:** from notochordal remnants in the clivus, destroying bone and presenting in the nasopharynx; surgery and proton therapy.
+- **Plasmacytoma, adenoid cystic carcinoma and melanoma** are rare.
+
+# Subtypes and variants | Staging.
 !table TNM staging of nasopharyngeal carcinoma (AJCC)
 Category | Definition
 T1 | Confined to the nasopharynx, or extending to the oropharynx or nasal cavity without parapharyngeal involvement
@@ -97,7 +109,7 @@ N3 | Node over 6 cm, or extension below the caudal border of the cricoid
 Older AJCC editions defined T1 as confined to the nasopharynx and N3b as any node in the supraclavicular fossa (Ho's triangle, bounded by the medial and lateral ends of the clavicle and the point where neck meets shoulder). In every edition the nodal staging differs from other head and neck sites: low neck nodes carry the worst prognosis whatever their size.
 !fig d49-10 | Ho's triangle (the supraclavicular fossa): the medial (A) and lateral (B) ends of the clavicle and the point where the neck meets the shoulder (C).
 
-# Treatment | Radiation first.
+# Management | Radiation first.
 ## Primary treatment
 The nasopharynx is hard to reach surgically, and these tumours are radiosensitive, so *radiotherapy is the treatment of choice*.
 - **Stage I:** radiotherapy alone to the nasopharynx and both sides of the neck, about 70 Gy.
@@ -109,23 +121,19 @@ The nasopharynx is hard to reach surgically, and these tumours are radiosensitiv
 - **Nasopharynx:** after restaging with MRI and PET-CT, resectable recurrences are treated by *nasopharyngectomy*; in a randomised trial from China, endoscopic nasopharyngectomy gave better overall survival and fewer severe late effects than re-irradiation with IMRT (Liu et al., *Lancet Oncol* 2021). Approaches are endoscopic for limited central tumours, or open through a maxillary swing, transpalatal, Le Fort I, midfacial degloving or infratemporal fossa approach. Extension around the internal carotid, intracranially or widely into the parapharyngeal space contraindicates surgery.
 - **Re-irradiation:** IMRT, proton therapy or brachytherapy (interstitial implants, gold grains), at greater risk of necrosis of the skull base and temporal lobe, cranial nerve palsies and carotid rupture.
 !ops | Salvage nasopharyngectomy approaches.
-## Effects of treatment
-Xerostomia and dental caries, otitis media with effusion and sensorineural hearing loss, trismus, hypothyroidism and pituitary failure, osteoradionecrosis of the skull base, temporal lobe necrosis, cranial neuropathy, carotid stenosis, and second cancers. Grommets in irradiated ears often discharge chronically.
-## Outcome
-With concurrent chemoradiation, local and regional control is about 70 to 80% and five-year survival about 70 to 80%; distant metastasis is now the commonest mode of failure.
+!update Current evidence
+In a phase 3 trial of 480 patients with locoregionally advanced disease, induction gemcitabine and cisplatin before chemoradiotherapy improved three-year recurrence-free survival (85.3% vs 76.5%) and overall survival (Zhang et al., *N Engl J Med* 2019). Adjuvant metronomic capecitabine for a year after chemoradiotherapy improved failure-free survival in high-risk patients (Chen et al., *Lancet* 2021).
+!!
 ## Follow-up
 Every three to four months for two years, six-monthly to five years, then yearly, with yearly CT or MRI for five years.
-!update Current evidence
-In a phase 3 trial of 480 patients with locoregionally advanced disease, induction gemcitabine and cisplatin before chemoradiotherapy improved three-year recurrence-free survival (85.3% vs 76.5%) and overall survival (Zhang et al., *N Engl J Med* 2019). Adjuvant metronomic capecitabine for a year after chemoradiotherapy improved failure-free survival in high-risk patients (Chen et al., *Lancet* 2021). Screening 20,174 men in Hong Kong with plasma EBV DNA detected nasopharyngeal carcinoma earlier, with a sensitivity of 97.1% and specificity of 98.6% (Chan et al., *N Engl J Med* 2017).
-!!
 
-# Other malignancies | Not all are carcinoma.
-- **Lymphoma:** a bulky submucosal mass, usually B-cell non-Hodgkin, often with disease elsewhere in Waldeyer's ring; sinonasal NK/T-cell lymphoma in Asian patients.
-- **Rhabdomyosarcoma:** the embryonal type in children, as a polypoid mass with rapid growth and cranial nerve involvement; chemotherapy and radiotherapy.
-- **Chordoma:** from notochordal remnants in the clivus, destroying bone and presenting in the nasopharynx; surgery and proton therapy.
-- **Plasmacytoma, adenoid cystic carcinoma and melanoma** are rare.
+# Complications | Effects of treatment.
+Xerostomia and dental caries, otitis media with effusion and sensorineural hearing loss, trismus, hypothyroidism and pituitary failure, osteoradionecrosis of the skull base, temporal lobe necrosis, cranial neuropathy, carotid stenosis, and second cancers. Grommets in irradiated ears often discharge chronically.
 
-# For the examination | What the examiner wants to hear.
+# Prognosis | Distant failure.
+With concurrent chemoradiation, local and regional control is about 70 to 80% and five-year survival about 70 to 80%; distant metastasis is now the commonest mode of failure.
+
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Aetiology:** EBV, genetics and salted fish.
@@ -141,3 +149,17 @@ In a phase 3 trial of 480 patients with locoregionally advanced disease, inducti
 - Excising a high level II neck node before endoscopy and needle aspiration.
 - Missing a sixth nerve palsy as the sign of skull base invasion.
 !!
+## Related topics
+- [[t:juv]], [[t:om]], [[t:et]], [[t:neckmass]], [[t:hnrt]], [[t:skullbase]], [[t:adenoid]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 61.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 20.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapter 49.
+- K. J. Lee, *Essential Otolaryngology*, chapter 45.
+## Studies cited
+- Zhang et al., *N Engl J Med* 2019: induction gemcitabine and cisplatin.
+- Chen et al., *Lancet* 2021: adjuvant metronomic capecitabine.
+- Chan et al., *N Engl J Med* 2017: plasma EBV DNA screening.
+- Liu et al., *Lancet Oncol* 2021: endoscopic nasopharyngectomy versus re-irradiation.
