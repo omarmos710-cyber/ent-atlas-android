@@ -1,8 +1,47 @@
+@layout amboss
 @stand Most acute rhinosinusitis is a cold that has reached the sinuses, and most of it settles without antibiotics. The rhinologist's real job is to recognise the minority that turn bacterial, and the few that break out of the sinuses into the orbit, the bone or the brain. A swollen eye in a child with a cold is an emergency until the orbit has been assessed.
 
-# Overview | A cold that reaches the sinuses.
-## Definition
-Inflammation of the nose and paranasal sinuses; chronic disease is covered in [[t:crs]]. The term *rhinosinusitis* is preferred, because the nasal mucosa is always involved too.
+# Summary | A cold that reaches the sinuses.
+Acute rhinosinusitis is inflammation of the nose and paranasal sinuses lasting under 12 weeks with complete resolution; chronic disease is covered in [[t:crs]]. The term *rhinosinusitis* is preferred, because the nasal mucosa is always involved too. Most is viral and settles without antibiotics; only 0.5 to 2% of viral episodes become bacterial. Diagnosis is clinical, with CT kept for complications. The danger lies in the complications ([[@Complications]]), above all a swollen eye in a child with a cold.
+
+# Epidemiology | How often it turns bacterial.
+Only 0.5 to 2% of viral episodes become bacterial, and discoloured mucus alone does not mean bacteria. The maxillary and ethmoid sinuses are present at birth and the frontal appears around the sixth year, so ethmoiditis is the sinusitis of infants, and frontal sinusitis an adult disease.
+
+# Etiology | Viruses, then bacteria.
+## Viruses
+Rhinoviruses, influenza and parainfluenza viruses, spread by droplets, with an incubation of one to four days.
+## Bacteria
+*Streptococcus pneumoniae*, *Haemophilus influenzae*, *Moraxella catarrhalis* and *Staphylococcus aureus*, with rising resistance to penicillin and macrolides. Anaerobes accompany dental infection. *Streptococcus anginosus* (milleri group) is the commonest organism in complicated sinusitis in older children and adolescents, with a tendency to form intracranial abscesses.
+## Predisposing factors
+Viral infections, swimming and diving, dental infection, trauma, a deviated septum or concha bullosa, polyps, allergy, adenoids, immune deficiency and cystic fibrosis.
+
+# Pathophysiology | Anatomy, and from virus to bacteria.
+## Drainage
+The frontal, anterior ethmoid and maxillary sinuses drain into the middle meatus through the *ostiomeatal complex*; the posterior ethmoids drain into the superior meatus and the sphenoid into the sphenoethmoidal recess. Mucociliary clearance in each sinus follows a fixed path towards its natural ostium.
+!fig d35-1 d35-4 | First, a coronal section showing the maxillary and ethmoid sinuses in relation to the orbit and nasal cavity. Second, mucociliary clearance patterns of the sinuses.
+!anat s109_53 s102_35 | The ostiomeatal complex in coronal section, and the drainage of each sinus into its meatus.
+## Development
+The maxillary and ethmoid sinuses are present at birth; the frontal sinus appears around the sixth year and the sphenoid later in childhood. So ethmoiditis is the sinusitis of infants, and frontal sinusitis an adult disease.
+## The thin walls
+The ethmoids are separated from the orbit only by the paper-thin *lamina papyracea*, and the frontal, ethmoid and sphenoid sinuses all border the anterior cranial fossa. This is why complications go to the eye and the brain.
+## Acute viral rhinosinusitis
+Rhinoviruses, influenza and parainfluenza viruses, spread by droplets, with an incubation of one to four days. Congestion, rhinorrhoea, sneezing and low fever improve within seven to ten days.
+!fig d36-1 | Pathophysiology of acute viral rhinosinusitis.
+## Acute bacterial rhinosinusitis
+The virus damages cilia and epithelium; oedema blocks the ostia; secretions stagnate and bacteria multiply: *Streptococcus pneumoniae*, *Haemophilus influenzae*, *Moraxella catarrhalis* and *Staphylococcus aureus*, with rising resistance to penicillin and macrolides. Anaerobes accompany dental infection. *Streptococcus anginosus* (milleri group) is the commonest organism in complicated sinusitis in older children and adolescents, with a tendency to form intracranial abscesses.
+!fig d36-2 | The sequence from acute viral to acute bacterial rhinosinusitis.
+
+# Clinical features | Symptoms.
+Nasal blockage, anterior or posterior discharge, facial pain or pressure, and reduced smell, with cough, fever, fatigue, dental pain, halitosis, headache or ear fullness.
+
+# Diagnosis | Clinical first, imaging for complications.
+## Examination
+Nasal endoscopy shows pus in the middle meatus; a swab from the middle meatus can be cultured.
+## Imaging
+Not needed for uncomplicated acute disease. CT of the sinuses (with contrast and of the orbits and brain) is requested when a complication is suspected or treatment fails. Plain radiographs (Waters' view) and transillumination are historical.
+!imaging | Maxillary, frontal and odontogenic sinusitis, and the orbital and intracranial complications on CT and MRI.
+
+# Subtypes and variants | By time, by phase, by sinus.
 ## Classification by time
 !table Classification of rhinosinusitis
 Type | Duration
@@ -16,32 +55,8 @@ EPOS 2020 dropped the term "subacute". Within acute rhinosinusitis it separates 
 - **Acute post-viral rhinosinusitis:** symptoms that worsen after five days or persist beyond ten.
 - **Acute bacterial rhinosinusitis:** at least three of discoloured discharge (often one-sided), severe local pain (often one-sided), fever above 38 °C, raised ESR or CRP, and "double sickening" (worsening after initial improvement). Severe symptoms from the start (high fever and purulent discharge) also suggest it.
 Only 0.5 to 2% of viral episodes become bacterial, and discoloured mucus alone does not mean bacteria.
-## Symptoms
-Nasal blockage, anterior or posterior discharge, facial pain or pressure, and reduced smell, with cough, fever, fatigue, dental pain, halitosis, headache or ear fullness.
-
-# Applied anatomy | The sinuses and their drainage.
-## Drainage
-The frontal, anterior ethmoid and maxillary sinuses drain into the middle meatus through the *ostiomeatal complex*; the posterior ethmoids drain into the superior meatus and the sphenoid into the sphenoethmoidal recess. Mucociliary clearance in each sinus follows a fixed path towards its natural ostium.
-!fig d35-1 d35-4 | First, a coronal section showing the maxillary and ethmoid sinuses in relation to the orbit and nasal cavity. Second, mucociliary clearance patterns of the sinuses.
-!anat s109_53 s102_35 | The ostiomeatal complex in coronal section, and the drainage of each sinus into its meatus.
-## Development
-The maxillary and ethmoid sinuses are present at birth; the frontal sinus appears around the sixth year and the sphenoid later in childhood. So ethmoiditis is the sinusitis of infants, and frontal sinusitis an adult disease.
-## The thin walls
-The ethmoids are separated from the orbit only by the paper-thin *lamina papyracea*, and the frontal, ethmoid and sphenoid sinuses all border the anterior cranial fossa. This is why complications go to the eye and the brain.
-
-# Pathogenesis | From virus to bacteria.
-## Acute viral rhinosinusitis
-Rhinoviruses, influenza and parainfluenza viruses, spread by droplets, with an incubation of one to four days. Congestion, rhinorrhoea, sneezing and low fever improve within seven to ten days.
-!fig d36-1 | Pathophysiology of acute viral rhinosinusitis.
-## Acute bacterial rhinosinusitis
-The virus damages cilia and epithelium; oedema blocks the ostia; secretions stagnate and bacteria multiply: *Streptococcus pneumoniae*, *Haemophilus influenzae*, *Moraxella catarrhalis* and *Staphylococcus aureus*, with rising resistance to penicillin and macrolides. Anaerobes accompany dental infection. *Streptococcus anginosus* (milleri group) is the commonest organism in complicated sinusitis in older children and adolescents, with a tendency to form intracranial abscesses.
-!fig d36-2 | The sequence from acute viral to acute bacterial rhinosinusitis.
-## Predisposing factors
-Viral infections, swimming and diving, dental infection, trauma, a deviated septum or concha bullosa, polyps, allergy, adenoids, immune deficiency and cystic fibrosis.
-
-# Clinical picture by sinus | Where it hurts tells you where it is.
 ## Acute maxillary sinusitis
-### Causes
+### Etiology
 Spread from a cold; swimming in contaminated water; dental infection from the premolar and molar roots, which lie close to the sinus floor, or a root pushed into the sinus, or an oroantral fistula after extraction; trauma.
 ### Clinical features
 Fever and malaise; pain over the cheek, often referred to the teeth or gums (so the patient may see a dentist first), worse on stooping, coughing or chewing; tenderness over the anterior wall; redness and swelling of the cheek in children; pus in the middle meatus and postnasal discharge.
@@ -58,13 +73,6 @@ The sinusitis of infants and young children. Pain over the bridge of the nose an
 ## Acute sphenoiditis
 ### Clinical features
 Rarely isolated. Headache at the occiput or vertex, sometimes referred to the mastoid, with postnasal discharge seen on the roof of the nasopharynx. Isolated sphenoid opacity needs a mucocele or tumour excluded.
-
-# Diagnosis | Clinical first, imaging for complications.
-## Examination
-Nasal endoscopy shows pus in the middle meatus; a swab from the middle meatus can be cultured.
-## Imaging
-Not needed for uncomplicated acute disease. CT of the sinuses (with contrast and of the orbits and brain) is requested when a complication is suspected or treatment fails. Plain radiographs (Waters' view) and transillumination are historical.
-!imaging | Maxillary, frontal and odontogenic sinusitis, and the orbital and intracranial complications on CT and MRI.
 
 # Management | Most need no antibiotic.
 ## Viral rhinosinusitis
@@ -96,6 +104,7 @@ Drain an orbital abscess and the ethmoids, endoscopically or through an external
 !!
 
 # Complications | Local, orbital and intracranial.
+These are sequelae of rhinosinusitis, not separate diagnoses.
 !fig d38-1 | Complications of sinusitis.
 ## Local complications
 ### Mucocele and pyocele
@@ -132,6 +141,13 @@ Posterior ethmoid or sphenoid infection: deep orbital pain and paralysis of the 
 - Involve ophthalmology early; examine both eyes for cavernous sinus spread.
 !!
 ### Treatment
+!ward On call: swollen eye with sinusitis
+1. Check vision, colour vision, pupils, movements and proptosis, and examine the other eye.
+2. Admit; start intravenous antibiotics and nasal decongestion.
+3. Contrast CT of the sinuses, orbits and brain.
+4. Involve ophthalmology; drain an abscess if vision is threatened or there is no improvement.
+5. Headache, drowsiness or meningism: image the brain and involve neurosurgery.
+!!
 Admission, intravenous antibiotics and nasal decongestion; contrast CT. Drain a subperiosteal or orbital abscess (endoscopically or externally) when vision is threatened, there is no improvement in 24 to 48 hours, or the abscess is large.
 !anat nd105_16 | Orbital veins draining to the cavernous sinus and pterygoid plexus: the valveless route for spread.
 ## Intracranial complications
@@ -151,15 +167,7 @@ General state | Unwell | Toxic, very ill
 ## Descending and focal infections
 Infected discharge running down the pharynx causes pharyngitis, laryngitis and bronchitis; sinus infection can also act as a focus for distant disease.
 
-# For the examination | What the examiner wants to hear.
-## On call
-!ward Swollen eye with sinusitis
-1. Check vision, colour vision, pupils, movements and proptosis, and examine the other eye.
-2. Admit; start intravenous antibiotics and nasal decongestion.
-3. Contrast CT of the sinuses, orbits and brain.
-4. Involve ophthalmology; drain an abscess if vision is threatened or there is no improvement.
-5. Headache, drowsiness or meningism: image the brain and involve neurosurgery.
-!!
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Definitions** by duration, and when to diagnose bacterial infection.
@@ -176,3 +184,19 @@ Infected discharge running down the pharynx causes pharyngitis, laryngitis and b
 - Calling an orbital abscess preseptal cellulitis without checking vision and movement.
 - Missing the extradural abscess beneath a Pott's puffy tumour.
 !!
+## Related topics
+- [[t:crs]], [[t:orbit]], [[t:afs]], [[t:sinussurg]], [[t:icc]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 36.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 21.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 9.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapters 36 and 38.
+- K. J. Lee, *Essential Otolaryngology*, chapter 28.
+## Studies cited
+- Fokkens et al., *Rhinology* 2020: EPOS 2020.
+- NICE guideline NG79 (2017): sinusitis (acute).
+- Rosenfeld et al., *Otolaryngol Head Neck Surg* 2015: American guideline.
+- Lemiengre et al., Cochrane review, 2018: antibiotics for acute rhinosinusitis.
+- Zalmanovici Trestioreanu and Yaphe, Cochrane review, 2013: nasal steroids.

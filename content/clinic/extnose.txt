@@ -1,7 +1,10 @@
+@layout amboss
 @stand The external nose sits in the middle of the face, so its problems are seen by everyone: infections of the skin and vestibule, deformities after injury, the bulbous rhinophyma of rosacea, and skin cancers that love the sun-exposed tip and ala. Two rules stand out: never squeeze a nasal furuncle, and biopsy any lesion that does not heal.
 
-# Overview | Skin, cartilage and the vestibule.
-## Applied anatomy
+# Summary | Skin, cartilage and the vestibule.
+The external nose sits in the middle of the face. This topic covers its conditions, each in its own chapter: [[@Furuncle of the vestibule]], [[@Vestibulitis]], [[@Other skin infections|cellulitis and specific infections]], [[@Deformities]], [[@Rhinophyma]], [[@Skin tumours]] and [[@Conditions of the vestibule]].
+
+# Applied anatomy | The framework and the danger area.
 The upper third of the nose is bony (paired nasal bones and the frontal processes of the maxillae); the lower two-thirds is cartilaginous (upper lateral cartilages, lower lateral or alar cartilages, and the septal cartilage). The skin is thin and mobile over the dorsum and thick and sebaceous over the tip and alae. The *vestibule* is the skin-lined entrance, with hairs (vibrissae), up to the limen nasi.
 !fig d23-1 d23-2 | First, the parts of the nose and related facial structures. Second, the osteocartilaginous framework.
 !anat s94_11 s97_18 | The osteocartilaginous framework of the nose, and the change in skin thickness from nasion to tip.
@@ -9,32 +12,37 @@ The upper third of the nose is bony (paired nasal bones and the frontal processe
 Veins of the upper lip and nose drain through the facial and angular veins and the ophthalmic veins to the cavernous sinus, without valves. Infection here can spread to the cavernous sinus.
 !anat s97_22 | The danger area of the face and its venous drainage to the cavernous sinus.
 
-# Infections | Skin and vestibule.
-## Furuncle of the vestibule
-### Cause
+# Furuncle of the vestibule {dz} | Never squeeze it.
+## Etiology
 Acute staphylococcal infection of a hair follicle, usually after nose picking or plucking hairs.
-### Clinical picture
+## Clinical features
 A small, exquisitely tender red swelling in the vestibule, with redness and swelling spreading to the tip and dorsum; it may point and rupture.
 !fig d25-9 | Furuncle of the right nasal vestibule.
-### Treatment
+## Management
 Warm compresses, analgesia, and topical and systemic antistaphylococcal antibiotics; incise only when fluctuant.
 !flag Never squeeze a nasal furuncle
 Squeezing or early incision can spread infection through the angular and ophthalmic veins to the cavernous sinus. Other complications: cellulitis of the upper lip and septal abscess. Cavernous sinus thrombosis is described in [[t:abs]]. Recurrent furuncles mean checking for diabetes and nasal staphylococcal carriage.
 !!
-## Vestibulitis
-### Cause
+
+# Vestibulitis {dz} | Dermatitis of the vestibular skin.
+## Etiology
 Diffuse dermatitis of the vestibular skin, usually *Staphylococcus aureus*, encouraged by nasal discharge from rhinitis or sinusitis and the trauma of wiping.
-### Clinical picture
+## Clinical features
 Acute: red, swollen, tender skin with crusts over erosions, sometimes involving the upper lip. Chronic: thickened skin with painful fissures and crusts.
 !fig d25-10 | Acute vestibulitis on the left side.
-### Treatment
+## Management
 Clean the crusts with hydrogen peroxide, apply an antibiotic-steroid ointment and continue it for several days after apparent cure; cauterise a chronic fissure with silver nitrate; treat the source of discharge.
+!update Current evidence
+**Vestibulitis and furunculosis.** *Staphylococcus aureus* is the usual cause; topical mupirocin or fusidic acid for mild disease and an oral anti-staphylococcal antibiotic for spreading infection. Recurrent cases suggest nasal carriage, which is decolonised with mupirocin.
+!!
+
+# Other skin infections {dz} | Cellulitis and specific infections.
 ## Cellulitis
 Streptococcal or staphylococcal infection making the nose red, swollen and tender, sometimes spreading from the vestibule; systemic antibiotics, warmth and analgesia.
 ## Specific infections
 Lupus vulgaris (apple-jelly nodules), leprosy and syphilis also affect the external nose ([[t:gpa]]).
 
-# Deformities | Shape and function.
+# Deformities {dz} | Shape and function.
 !fig d25-1 | Deformities of the nose.
 ## Saddle nose
 A depressed dorsum, bony, cartilaginous or both.
@@ -51,12 +59,19 @@ In a *crooked* nose, the dorsum from the root to the tip is C- or S-shaped; in a
 Weak or scarred lateral walls collapse on inspiration; Cottle's test is positive. Spreader grafts, alar batten grafts or functional rhinoplasty.
 !ops
 
-# Tumours of the external nose | Benign and malignant.
+# Rhinophyma {dz} | The potato nose.
+## Clinical features
+The *potato nose*: a slow, lobulated, pink overgrowth of sebaceous glands and connective tissue over the tip and alae, with dilated vessels, in men past middle age with long-standing acne rosacea. It is cosmetic, but may block breathing or vision.
+## Management
+Treatment is shaving it down with a scalpel, dermabrasion or carbon dioxide laser, letting the surface re-epithelialise from the remaining glands.
+!fig d25-4b | Rhinophyma.
+!update Current evidence
+**Rhinophyma** is treated by surgical shaving, CO₂ laser or electrosurgery, with good long-term results in case series; doxycycline and isotretinoin treat the underlying rosacea.
+!!
+
+# Skin tumours {dz} | Benign and malignant.
 ## Benign
 Papilloma (wart), haemangioma, pigmented naevus, seborrhoeic keratosis, neurofibroma and sweat gland tumours. Congenital masses (dermoid, glioma, encephalocele) are covered in [[t:congnose]].
-## Rhinophyma
-The *potato nose*: a slow, lobulated, pink overgrowth of sebaceous glands and connective tissue over the tip and alae, with dilated vessels, in men past middle age with long-standing acne rosacea. It is cosmetic, but may block breathing or vision. Treatment is shaving it down with a scalpel, dermabrasion or carbon dioxide laser, letting the surface re-epithelialise from the remaining glands.
-!fig d25-4b | Rhinophyma.
 ## Basal cell carcinoma
 The commonest malignant tumour of the nasal skin (about 87%), at 40 to 60 years, on the tip and ala: a pearly nodule or an ulcer with rolled edges (*rodent ulcer*). Slow, locally destructive, almost never metastasises. Excision with 3 to 5 mm margins, Mohs surgery for high-risk sites and recurrences, or radiotherapy or cryotherapy for early lesions; reconstruction with local flaps.
 !fig d25-6 | Basal cell carcinoma of the nose.
@@ -67,8 +82,11 @@ The second commonest (about 11%), an infiltrating nodule or ulcer with everted e
 The least common: superficial spreading or nodular; wide excision.
 ## Total rhinectomy
 For advanced cancers, followed by a prosthesis or a forehead flap reconstruction.
+!update Current evidence
+**Skin cancer of the nose** is the commonest site of basal cell carcinoma on the face; Mohs surgery gives the lowest recurrence for high-risk and recurrent lesions, with reconstruction by local flaps (bilobed, nasolabial, paramedian forehead).
+!!
 
-# The vestibule | Narrowing and swellings.
+# Conditions of the vestibule {dz} | Narrowing and swellings.
 ## Stenosis and atresia of the nares
 Trauma, burns, surgery, destructive inflammation (formerly smallpox) and Young's operation can narrow the nostrils; congenital atresia from failure of canalisation is rare. Corrected by excision of scar with flaps or grafts and stenting.
 !fig d25-11 | Stenosis of the left naris after smallpox (A) and after trauma (B).
@@ -77,11 +95,8 @@ A smooth swelling in the floor and lateral wall of the vestibule, raising the al
 !fig d25-12 | A nasoalveolar cyst at operation (arrow).
 ## Vestibular papilloma and carcinoma
 Warts are excised. Squamous carcinoma of the vestibule may spread to the floor, columella and upper lip, and to the parotid and submandibular nodes.
-!update Current evidence
-**Vestibulitis and furunculosis.** *Staphylococcus aureus* is the usual cause; topical mupirocin or fusidic acid for mild disease and an oral anti-staphylococcal antibiotic for spreading infection. Recurrent cases suggest nasal carriage, which is decolonised with mupirocin. **Rhinophyma** is treated by surgical shaving, CO₂ laser or electrosurgery, with good long-term results in case series; doxycycline and isotretinoin treat the underlying rosacea. **Skin cancer of the nose** is the commonest site of basal cell carcinoma on the face; Mohs surgery gives the lowest recurrence for high-risk and recurrent lesions, with reconstruction by local flaps (bilobed, nasolabial, paramedian forehead).
-!!
 
-# For the examination | What the examiner wants to hear.
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Furuncle:** the danger area, and why not to squeeze.
@@ -97,3 +112,12 @@ Warts are excised. Squamous carcinoma of the vestibule may spread to the floor, 
 - Treating a non-healing ulcer with creams without biopsy.
 - Using synthetic implants that later extrude.
 !!
+## Related topics
+- [[t:facefx]], [[t:septum]], [[t:facplast]], [[t:skinca]], [[t:congnose]], [[t:gpa]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 35.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 22.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapter 25.
+- K. J. Lee, *Essential Otolaryngology*, chapters 31 and 54.

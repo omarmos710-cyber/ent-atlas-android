@@ -1,74 +1,65 @@
+@layout amboss
 @stand The nose is the lungs' air conditioner: in a quarter of a second it warms, humidifies and filters every breath, and it carries trapped dust and microbes away on a moving sheet of mucus. It is also the organ of smell, whose loss takes much of the pleasure from food and can be the first sign of disease elsewhere.
 
-# Overview | What the nose does.
-## Functions
+# Summary | What the nose does, and loss of smell.
+The functions of the nose are:
 - Respiration.
 - Air conditioning: filtering, warming and humidifying.
 - Protection of the lower airway.
 - Vocal resonance.
 - Nasal reflexes.
 - Olfaction.
-## Why it matters
-Understanding normal function explains the symptoms of nasal disease: dryness and crusting after excessive turbinate surgery, hypoxia with nasal packs, sinusitis when cilia fail, and loss of smell with polyps.
 
-# Respiration | The natural airway.
-## Nose breathing
+Understanding normal function explains the symptoms of nasal disease: dryness and crusting after excessive turbinate surgery, hypoxia with nasal packs, sinusitis when cilia fail, and loss of smell with polyps. The first chapter covers normal physiology; the rest of the topic covers disorders of smell in the AMBOSS order.
+
+# Applied physiology | Respiration, air conditioning, protection, resonance.
+## Respiration
+### Nose breathing
 Breathing through the nose is the natural route; mouth breathing is learned. A newborn with bilateral choanal atresia can asphyxiate ([[t:congnose]]). The nose also lets us breathe and eat at the same time.
-## The airflow
+### The airflow
 In quiet breathing, inspired air passes mainly through the middle of the nose, between the turbinates and septum; little goes through the inferior meatus or the olfactory cleft, which is why weak odours must be sniffed. On expiration, friction at the limen nasi creates eddies beneath the turbinates that ventilate the sinuses.
 !fig d24-1 | Nasal airflow during (A) inspiration and (B) expiration.
-## The nasal valve and turbinates
+### The nasal valve and turbinates
 The swelling and shrinking of the anterior end of the inferior turbinate regulate inflow; the nasal valve is the narrowest point and the main resistance.
-## The nasal cycle
+### The nasal cycle
 Rhythmic alternating congestion and decongestion of the two sides every 2.5 to 4 hours; total airflow stays constant because the open side compensates.
-## Measuring the airway
+### Measuring the airway
 *Rhinomanometry* measures pressure and flow to give nasal resistance; *acoustic rhinometry* uses reflected sound to map the cross-sectional area along the nose; peak nasal inspiratory flow is a simple bedside measure.
-
-# Air conditioning | The lungs' radiator.
-## Filtration
+## Air conditioning
+### Filtration
 Vibrissae at the entrance catch large particles; the mucus traps particles down to about 0.5 µm; smaller particles pass on to the lungs.
-## Temperature
+### Temperature
 The vascular turbinate and septal mucosa, with its cavernous sinusoids, acts as a radiator: air at 0°C or below reaches nearly body temperature by the time it reaches the nasopharynx, about a quarter of a second later; hot air is cooled.
-## Humidification
+### Humidification
 Relative humidity is raised to 75% or more, using about a litre of water a day from the mucosal glands. At 50% relative humidity cilia stop working within minutes, so dry air predisposes to infection.
-## The lungs depend on it
+### The lungs depend on it
 Nasal obstruction alters gas exchange: packing both sides lowers oxygen tension (the *nasopulmonary reflex*), and long-standing obstruction from adenotonsillar hypertrophy can cause pulmonary hypertension in children.
-
-# Protection | The mucociliary conveyor belt.
-## The mucous blanket
+## Protection
+### The mucous blanket
 Goblet cells and glands secrete a two-layer blanket: thick mucus on top, a thin serous layer beneath. Cilia beat 10 to 20 times a second in the serous layer, with a fast effective stroke that reaches the mucus and a slow recovery stroke within the serous layer, moving the blanket in one direction towards the nasopharynx at 5 to 10 mm a minute. The whole sheet is cleared every 10 to 20 minutes and swallowed. About 600 to 700 mL of secretion is made each day.
 !fig d24-2 | The conveyor belt of the mucous blanket, carrying trapped organisms and dust to the nasopharynx.
-## Sinus clearance
+### Sinus clearance
 In each sinus, cilia sweep mucus along fixed paths towards the natural ostium, even if a second opening has been made; this is why endoscopic surgery enlarges natural ostia.
 !fig d35-4 | Mucociliary clearance of the sinuses: (A) maxillary, (B) frontal, (C) ethmoid and sphenoid.
-## What harms the cilia
+### What harms the cilia
 Drying, heat or cold, smoking, infection, noxious gases, some drugs (including topical adrenaline and preservatives), and a change in pH from the normal of about 7. In *primary ciliary dyskinesia* the cilia are immotile, causing chronic rhinosinusitis, otitis media and bronchiectasis.
-## Chemical defences
+### Chemical defences
 Lysozyme (muramidase), secretory IgA, IgE and interferon in the secretions.
-## Sneezing
+### Sneezing
 A protective reflex that expels irritants, followed by a flood of secretions to wash them out. The *saccharin test* measures mucociliary transit: a particle placed on the inferior turbinate is normally tasted within about 20 minutes.
-
-# Resonance and reflexes | Voice and neural links.
-## Vocal resonance
+## Resonance and reflexes
+### Vocal resonance
 The nasal consonants M, N and NG pass through the nose. A blocked nose or nasopharynx causes *hyponasal* (denasal) speech, so M, N and NG sound like B, D and G; velopharyngeal insufficiency causes the opposite, *hypernasal* speech.
-## Reflexes
+### Reflexes
 Sneezing; salivary and gastric secretion at the smell of food; and nasobronchial and nasopulmonary reflexes linking nasal obstruction with bronchial resistance and lower oxygen levels.
+!update Current evidence
+**Nasal airflow and sensation.** The feeling of a clear nose depends on trigeminal cool receptors (TRPM8) sensing airflow, not only on the size of the airway, which explains why menthol makes the nose feel clearer and why radical turbinate surgery can cause *empty nose syndrome*, assessed with the ENS6Q questionnaire. **Nitric oxide** from the sinuses is antiviral and improves ventilation–perfusion matching; it is low in primary ciliary dyskinesia, where nasal nitric oxide is a screening test. **Smell.** Olfactory loss predicts Parkinson's disease and dementia (Whitcroft et al., *Rhinology* 2023).
+!!
 
-# Olfaction | The sense of smell.
-## The olfactory pathway
-The olfactory epithelium lies high in the nose, over the cribriform plate, the upper septum and the superior turbinate. Bipolar receptor neurons carry cilia into the mucus; their axons gather into olfactory nerve bundles that pass through the cribriform plate to the olfactory bulb, then along the olfactory tract to the piriform cortex, amygdala and entorhinal cortex. Olfactory receptor neurons regenerate throughout life.
-!anat s98_25 | The vestibule, respiratory and olfactory regions of the nasal cavity.
-## Smell and flavour
-*Taste* (sweet, salty, sour, bitter, umami) comes from taste buds supplied by the seventh, ninth and tenth nerves; *flavour* is taste plus smell, so patients who lose smell often complain that food has no taste. Ammonia is not used to test smell, because it stimulates the trigeminal nerve.
-## Terms
-- **Anosmia:** total loss of smell; **hyposmia:** partial loss.
-- **Parosmia:** a smell present but perceived wrongly, often as unpleasant; common during recovery from post-viral loss, from misdirected regeneration.
-- **Phantosmia:** smelling an odour that is not there; intracranial causes (tumour, temporal lobe epilepsy) must be excluded.
-- **Ageusia, hypogeusia, dysgeusia:** absent, reduced and distorted taste.
-## Epidemiology
+# Epidemiology | Smell and age.
 Smell declines with age: most people over 80 have impaired smell and about half are anosmic. Smoking and poor nutrition add to the risk.
 
-# Disorders of smell | Conductive or sensorineural.
+# Etiology | Conductive or sensorineural.
 ## Conductive loss
 Odorants cannot reach the olfactory cleft:
 - Chronic rhinosinusitis with polyps (the commonest treatable cause; [[t:crs]]), allergic and viral rhinitis.
@@ -83,7 +74,20 @@ Damage to the receptors or the pathway:
 - **Congenital:** *Kallmann syndrome* (anosmia with hypogonadotropic hypogonadism, from failed migration of olfactory and gonadotropin-releasing neurons).
 - **Toxins, drugs, radiation, endocrine and metabolic disease:** smoking, hypothyroidism, diabetes, zinc or B12 deficiency.
 
-# Assessment | History, endoscopy, testing, imaging.
+# Pathophysiology | The sense of smell.
+## The olfactory pathway
+The olfactory epithelium lies high in the nose, over the cribriform plate, the upper septum and the superior turbinate. Bipolar receptor neurons carry cilia into the mucus; their axons gather into olfactory nerve bundles that pass through the cribriform plate to the olfactory bulb, then along the olfactory tract to the piriform cortex, amygdala and entorhinal cortex. Olfactory receptor neurons regenerate throughout life.
+!anat s98_25 | The vestibule, respiratory and olfactory regions of the nasal cavity.
+## Smell and flavour
+*Taste* (sweet, salty, sour, bitter, umami) comes from taste buds supplied by the seventh, ninth and tenth nerves; *flavour* is taste plus smell, so patients who lose smell often complain that food has no taste. Ammonia is not used to test smell, because it stimulates the trigeminal nerve.
+
+# Clinical features | Terms for what the patient reports.
+- **Anosmia:** total loss of smell; **hyposmia:** partial loss.
+- **Parosmia:** a smell present but perceived wrongly, often as unpleasant; common during recovery from post-viral loss, from misdirected regeneration.
+- **Phantosmia:** smelling an odour that is not there; intracranial causes (tumour, temporal lobe epilepsy) must be excluded.
+- **Ageusia, hypogeusia, dysgeusia:** absent, reduced and distorted taste.
+
+# Diagnosis | History, endoscopy, testing, imaging.
 ## History
 Timing points to the cause: sudden after a cold or injury, gradual or fluctuating with sinus disease and allergy, lifelong in congenital loss. Separate true taste loss from flavour loss.
 ## Examination
@@ -105,11 +109,8 @@ Treat the inflammation: topical steroids (drops in the head-down position reach 
 - Parosmia during recovery is often a good sign.
 - Unexplained phantosmia or smell loss with neurological signs needs MRI.
 !!
-!update Current evidence
-**Nasal airflow and sensation.** The feeling of a clear nose depends on trigeminal cool receptors (TRPM8) sensing airflow, not only on the size of the airway, which explains why menthol makes the nose feel clearer and why radical turbinate surgery can cause *empty nose syndrome*, assessed with the ENS6Q questionnaire. **Nitric oxide** from the sinuses is antiviral and improves ventilation–perfusion matching; it is low in primary ciliary dyskinesia, where nasal nitric oxide is a screening test. **Smell.** Olfactory loss predicts Parkinson's disease and dementia (Whitcroft et al., *Rhinology* 2023).
-!!
 
-# For the examination | What the examiner wants to hear.
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Functions of the nose,** with numbers: humidity, temperature, mucus speed.
@@ -125,3 +126,14 @@ Treat the inflammation: topical steroids (drops in the head-down position reach 
 - Missing polyps as a treatable cause of anosmia.
 - Forgetting imaging in unexplained phantosmia.
 !!
+## Related topics
+- [[t:crs]], [[t:ap_smell]], [[t:sinus_ca]], [[t:congnose]], [[t:atrophic]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapters 26 and 33.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 20.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapters 24 and 35.
+- K. J. Lee, *Essential Otolaryngology*, chapter 27.
+## Studies cited
+- Whitcroft et al., *Rhinology* 2023: olfactory dysfunction.

@@ -1,12 +1,16 @@
+@layout amboss
 @stand Facial fractures arrive with the drama of trauma: bleeding, swelling and a frightened patient. The order of work never changes. Airway, breathing, circulation and the cervical spine come first; then the eye and any CSF leak; then the septum, looking for a haematoma; and only then the shape of the nose and face, much of which can wait for the swelling to settle.
 
-# Overview | Thirds of the face.
-## Regions
+# Summary | Thirds of the face.
+Facial fractures are grouped by thirds, and each fracture has its own chapter below.
 - **Upper third:** frontal bone, frontal sinus and supraorbital ridges.
 - **Middle third:** nasal bones and septum, naso-orbito-ethmoid complex, zygoma, orbital floor and maxilla.
 - **Lower third:** mandible.
-## General management
-!ward Facial injury in the emergency department
+The order of work never changes: airway, breathing, circulation and the cervical spine first; then the eye and any CSF leak; then the septum; then the shape of the face.
+
+# Diagnosis and management | The general approach.
+## Approach
+!ward On call: facial injury in the emergency department
 1. Airway (with cervical spine control), breathing and circulation; a midface fracture can drop back and block the airway.
 2. Control bleeding: packs, and reduction of a mobile maxilla.
 3. Examine the eyes now: acuity, pupils, movements, proptosis; retrobulbar haemorrhage needs a lateral canthotomy within minutes.
@@ -14,11 +18,23 @@
 5. Examine the septum for a haematoma in every nasal injury.
 6. CT of the face (with 3D reconstruction) for anything beyond a simple nasal fracture.
 !!
+## Imaging
+!update Current evidence
+**Imaging.** Thin-slice CT with three-dimensional reconstruction is the standard for all fractures except isolated nasal ones.
+!!
 ## Soft tissue injuries
 Clean and close lacerations early, preserving tissue; look for injury to the parotid duct and the facial nerve in cheek wounds and repair them primarily.
 
-# Nasal fractures | The commonest facial fracture.
-## Mechanism and types
+# Complications | Early and late.
+- Airway obstruction and haemorrhage.
+- Retrobulbar haemorrhage and blindness.
+- CSF leak, meningitis and loss of smell.
+- Diplopia, enophthalmos and epiphora.
+- Malocclusion and trismus.
+- Facial asymmetry, saddle or crooked nose, and nasal obstruction.
+
+# Nasal fractures {dz} | The commonest facial fracture.
+## Pathophysiology and types
 The projecting nose is the most frequently fractured bone of the face.
 - **Frontal blow:** depressed fracture of the thinner lower nasal bones; with more force, an *open-book* fracture (septum collapsed, nasal bones splayed) and comminution with a flat, wide dorsum.
 - **Lateral blow:** depression of one nasal bone, or fracture of both with the septum, deviating the bridge.
@@ -31,7 +47,7 @@ Swelling within hours, periorbital bruising, tenderness, deformity, crepitus and
 Clinical. Radiographs are not needed for an isolated nasal fracture and may miss it; CT is used when other facial fractures are suspected.
 !fig d34-3 | A fractured nasal bone (arrow) on a radiograph.
 !imaging fracture-of-the-nasal-bone-and-retention-cysts | A nasal bone fracture on imaging.
-## Treatment
+## Management
 ### Timing
 Reduce before swelling develops, or after it settles at about 5 to 7 days. After about two weeks the bones have set and reduction becomes difficult; healing is faster in children, so reduce them sooner.
 ### Closed reduction
@@ -41,21 +57,23 @@ When closed reduction fails, and for severe septal fractures; late deformity is 
 !pearl Pearl
 Always look inside the nose. A septal haematoma missed today becomes a septal abscess and a saddle nose ([[t:septum]]).
 !!
+!update Current evidence
+**Nasal fractures.** Closed reduction is best done within about two weeks, after swelling settles and before the bones set; local and general anaesthesia give similar results in trials.
+!!
 
-# Naso-orbito-ethmoid fractures | The flattened midline.
-## Mechanism
+# Naso-orbito-ethmoid fractures {dz} | The flattened midline.
+## Pathophysiology
 A blow over the nasion drives the nasal bones, perpendicular plate of the ethmoid, ethmoid cells and medial orbital walls backwards. The cribriform plate, frontal sinus outflow, lacrimal system, medial canthal tendon and eye may all be injured.
 ## Clinical features
 *Telecanthus* (widened distance between the medial canthi), a flattened bridge with an upturned *pug* tip, periorbital bruising, orbital haematoma from the ethmoidal arteries, CSF rhinorrhoea, epiphora and displacement of the eye.
-## Treatment
+## Management
 CT to map the injury; open reduction and fixation with miniplates through existing lacerations, a coronal or local incision, with repair of the medial canthal tendon and the lacrimal system as a priority over the nasal contour. Treat CSF leaks ([[t:csf]]).
 
-# Zygoma and orbital floor | Cheek and eye.
-## Zygomatic (tripod) fracture
-### Mechanism
+# Zygomatic (tripod) fracture {dz} | The cheek.
+## Pathophysiology
 The second commonest facial fracture. The zygoma separates at its frontal, temporal and maxillary attachments, usually rotated inwards and backwards.
 !fig d34-4 | A fractured left zygoma.
-### Clinical features
+## Clinical features
 - Flattening of the cheek.
 - Step at the infraorbital margin.
 - Numbness of the cheek, side of the nose and upper lip (infraorbital nerve).
@@ -63,30 +81,31 @@ The second commonest facial fracture. The zygoma separates at its frontal, tempo
 - A slanted palpebral fissure from displacement of the lateral canthus.
 - Diplopia from entrapment of the inferior rectus.
 - Surgical emphysema of the lid after nose blowing.
-### Diagnosis
+## Diagnosis
 CT in axial and coronal planes, or 3D reconstruction; Waters' view in the past.
-### Treatment
+## Management
 Only displaced fractures need treatment: elevation through a temporal (Gillies) or intraoral approach, and open reduction with plate fixation at the frontozygomatic suture, infraorbital rim and zygomaticomaxillary buttress, repairing the orbital floor if needed.
-## Zygomatic arch fracture
+## Subtypes and variants: zygomatic arch fracture
 The arch breaks in three places, depressing two fragments: a dimple over the arch, pain on chewing and trismus as fragments touch the coronoid. Elevated through a temporal (*Gillies*) incision with an elevator passed deep to the temporalis fascia; usually stable without fixation.
-## Orbital floor blow-out fracture
-### Mechanism
+
+# Orbital floor blow-out fracture {dz} | The eye.
+## Pathophysiology
 A blunt object larger than the orbit (a fist or ball) raises orbital pressure, and the thin floor gives way; orbital fat and the inferior rectus herniate into the maxillary sinus while the rim stays intact.
 !fig d34-5 d34-6 | First, a blow-out fracture with orbital contents herniating into the maxillary sinus. Second, CT of a blow-out fracture of the right orbital floor.
-### Clinical features
+## Clinical features
 - Bruising of the lid, conjunctiva and sclera.
 - *Diplopia*, especially on looking up, from entrapment or swelling of the inferior rectus and oblique.
 - *Enophthalmos* and downward displacement of the eye, apparent once the swelling settles.
 - Numbness of the cheek and upper lip.
-### Diagnosis
+## Diagnosis
 CT in coronal planes. A *forced duction (traction) test* distinguishes mechanical entrapment from nerve or muscle injury. Ophthalmology review for globe injury. In children, a *white-eyed* blow-out with a trapped muscle and vagal symptoms (vomiting, nausea, bradycardia), a trapdoor fracture, needs release within 24 to 48 hours.
 !imaging blow-out-fracture anterior-skull-fractures | Blow-out fracture, and anterior skull base fractures.
-### Treatment
+## Management
 Surgery, within about two weeks in adults, for persistent diplopia with entrapment, enophthalmos over about 2 mm, or a large floor defect (over half the floor): the floor is explored through a lower lid or transconjunctival incision (or endoscopically through the maxillary sinus), herniated tissue is freed, and the floor is reconstructed with titanium mesh, bone or a synthetic plate.
 !anat nd94_0 | The bony orbit, its walls, fissures and foramina.
 
-# Maxillary fractures | Le Fort's lines.
-## Classification
+# Maxillary fractures {dz} | Le Fort's lines.
+## Subtypes and variants
 !table Le Fort fractures
 Type | Line | Moves on testing
 Le Fort I (transverse) | Above and parallel to the palate, across the lower septum, maxillary sinuses and pterygoid plates | Tooth-bearing segment only
@@ -96,32 +115,31 @@ Le Fort III (craniofacial dysjunction) | Root of nose, ethmofrontal junction, or
 !fig d34-7 | Fractures of the maxilla: (A) Le Fort I, (B) Le Fort II, (C) Le Fort III.
 ## Clinical features
 Malocclusion with an anterior open bite, elongation and flattening of the midface (*dish face*), mobility of the maxilla, CSF rhinorrhoea in Le Fort II and III (the cribriform plate is involved), bilateral periorbital bruising, numbness, and airway compromise as the maxilla slides back.
-## Treatment
+## Management
 Secure the airway (tracheostomy may be needed); restore occlusion with maxillomandibular fixation; open reduction and internal fixation with plates along the facial buttresses.
 !ops
 
-# Mandible and frontal sinus | Lower and upper thirds.
-## Mandibular fractures
-The condyle is the commonest site, then the angle, body and symphysis, often fractured in two places. Malocclusion, pain, trismus, step deformity, numbness of the lower lip (inferior alveolar nerve) and sublingual haematoma. Orthopantomogram and CT; treated by open reduction and plating or maxillomandibular fixation.
+# Mandibular fractures {dz} | The lower third.
+## Subtypes and variants: site
+The condyle is the commonest site, then the angle, body and symphysis, often fractured in two places.
 !fig d34-8 | Fractures of the mandible by site (Dingman classification); condylar fractures are the commonest.
-## Frontal sinus fractures
+## Clinical features
+Malocclusion, pain, trismus, step deformity, numbness of the lower lip (inferior alveolar nerve) and sublingual haematoma.
+## Diagnosis
+Orthopantomogram and CT.
+## Management
+Open reduction and plating or maxillomandibular fixation.
+!update Current evidence
+**Mandible.** Miniplate fixation (Champy lines) allows early function; antibiotics beyond 24 hours after surgery do not reduce infection in randomised studies.
+!!
+
+# Frontal sinus fractures {dz} | The upper third.
 - **Anterior table:** cosmetic depression; reduce and plate if displaced.
 - **Frontal sinus outflow injury:** risk of mucocele; obliteration or endoscopic drainage.
 - **Posterior table:** dura and brain at risk, with CSF leak; cranialisation of the sinus with neurosurgery for displaced fractures.
 Supraorbital ridge and frontal bone fractures are managed with the neurosurgeons.
 
-# Complications | Early and late.
-- Airway obstruction and haemorrhage.
-- Retrobulbar haemorrhage and blindness.
-- CSF leak, meningitis and loss of smell.
-- Diplopia, enophthalmos and epiphora.
-- Malocclusion and trismus.
-- Facial asymmetry, saddle or crooked nose, and nasal obstruction.
-!update Current evidence
-**Nasal fractures.** Closed reduction is best done within about two weeks, after swelling settles and before the bones set; local and general anaesthesia give similar results in trials. **Mandible.** Miniplate fixation (Champy lines) allows early function; antibiotics beyond 24 hours after surgery do not reduce infection in randomised studies. **Imaging.** Thin-slice CT with three-dimensional reconstruction is the standard for all fractures except isolated nasal ones.
-!!
-
-# For the examination | What the examiner wants to hear.
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Nasal fracture:** timing of reduction, Walsham's and Asch's forceps, septal haematoma.
@@ -137,3 +155,13 @@ Supraorbital ridge and frontal bone fractures are managed with the neurosurgeons
 - Missing a trapdoor fracture in a child with vomiting and a quiet eye.
 - Forgetting the cervical spine and the airway in a midface fracture.
 !!
+## Related topics
+- [[t:septum]], [[t:csf]], [[t:orbit]], [[t:facplast]], [[t:extnose]], [[t:tbfx]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 53.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 22.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 25.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapter 34.
+- K. J. Lee, *Essential Otolaryngology*, chapters 56 and 57.
