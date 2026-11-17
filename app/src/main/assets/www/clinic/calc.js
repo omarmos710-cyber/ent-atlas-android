@@ -79,7 +79,7 @@ const RULES=[
  {id:"lipid",g:"Emergency",d:"Lipid emulsion 20%",art:"dr_lido",ind:"Local anaesthetic toxicity",k:"fn",
   rule:"1.5 ml/kg bolus over 1 minute, then 15 ml/kg/hour; up to two further boluses at 5-minute intervals and the rate may be doubled; maximum cumulative 12 ml/kg.",
   fn:kg=>({lines:[["Bolus",rm(1.5*kg)+" ml over 1 minute"],["Infusion",rm(15*kg)+" ml/hour"],["Doubled rate",rm(30*kg)+" ml/hour"],["Cumulative maximum",rm(12*kg)+" ml"]]})},
- {id:"cagluc",g:"Emergency",d:"Calcium gluconate 10%",art:"dr_calc",ind:"Acute symptomatic hypocalcaemia, intravenous",k:"fn",
+ {id:"cagluc",g:"Emergency",d:"Calcium gluconate 10%",art:"dr_calc",ind:"Acute symptomatic hypocalcaemia, intravenous",k:"fn",requiresAge:true,
   rule:"Child: 0.5 ml/kg of 10% (0.11 mmol/kg), maximum 20 ml, over 5 to 10 minutes with ECG monitoring. Adult: 10 to 20 ml of 10% diluted in 50 to 100 ml over 10 minutes, then infusion by protocol.",
   fn:(kg,m)=>kg>=40&&m>=216?{lines:[["Bolus","10 to 20 ml of 10% diluted in 50 to 100 ml of 5% glucose or saline over 10 minutes"],["Then","infusion by local protocol (for example 100 ml of 10% in 1 litre, titrated)"]]}:{lines:[["Bolus",rm(Math.min(0.5*kg,20))+" ml of 10%"+(0.5*kg>20?" (capped at 20 ml)":"")],["Calcium",r1(Math.min(0.11*kg,4.4))+" mmol"],["Rate","over 5 to 10 minutes, ECG monitoring"]]}},
  {id:"txa_iv",g:"Bleeding",d:"Tranexamic acid",art:"dr_txa",ind:"Intravenous",k:"kg",per:15,u:"mg",max:1000,freq:"slowly; repeat every 8 hours if needed",conc:[["100 mg/ml",100]],
@@ -103,22 +103,54 @@ const RULES=[
 ];
 const LA=[["lido","Lidocaine plain",3,200],["lidoa","Lidocaine with adrenaline",7,500],["bupi","Bupivacaine",2,150],["levo","Levobupivacaine",2,150],["prilo","Prilocaine",6,400],["coc","Cocaine (topical)",1.5,100]];
 const BY={};RULES.forEach(r=>BY[r.id]=r);
-const fp=r=>{let h=0;const s=r.rule;for(let i=0;i<s.length;i++)h=(h*31+s.charCodeAt(i))|0;return (h>>>0).toString(36)};
+function fp(r){
+ const data=JSON.stringify({version:2, rule:r, agents:r.k==="la"?LA:null,
+   calculation:compute.toString(), volume:vols.toString(), local:r.k==="la"?laHTML.toString():null,
+   formatting:[fmt,r1,rm].map(fn=>fn.toString())}, (_,value)=>typeof value==="function"?value.toString():value);
+ let a=2166136261,b=5381;
+ for(let i=0;i<data.length;i++){const c=data.charCodeAt(i);a=Math.imul(a^c,16777619);b=Math.imul(b,33)^c}
+ return "v2-"+(a>>>0).toString(36)+"-"+(b>>>0).toString(36);
+}
 const DV=()=>(ST.dver=ST.dver||{});
 const ver=r=>{const v=DV()[r.id];return v&&v.f===fp(r)?v:null};
 const P=window.DCSTATE=window.DCSTATE||{kg:"",y:"",mo:"",sel:"",inr:"",hep:"",la:{}};
 
-/* plausibility: APLS weight estimate for children */
+function number(value){
+ const text=String(value??"").trim();
+ return /^\d+(?:[.,]\d+)?$/.test(text)?Number(text.replace(",",".")):NaN;
+}
+
+/* Plausibility check. A clinically unusual weight can still be within the supported range. */
 function est(m){return m<12?0.5*m+4:m<72?2*(m/12)+8:m<=144?3*(m/12)+7:null}
-function checks(kg,m,r){const w=[];
- if(!(kg>0))return ["Enter a weight."];
- if(kg<0.5||kg>250)w.push("The weight looks wrong. Check it.");
- const e=est(m);if(m!=null&&e&&(kg<0.6*e||kg>1.8*e))w.push("The weight is far from the expected weight for this age (about "+Math.round(e)+" kg). Check both.");
- if(r.minAge!=null&&m!=null&&m<r.minAge)w.push("Below the minimum age for this rule ("+(r.minAge<12?r.minAge+" months":r.minAge/12+" years")+").");
- if(r.maxAge!=null&&m!=null&&m>r.maxAge)w.push("Above the age range this rule is written for.");
- if(r.minWt&&kg<r.minWt)w.push("Below the minimum weight for this rule ("+r.minWt+" kg).");
- if(m==null&&(r.k==="band"||r.minAge!=null))w.push("Enter the age.");
- return w}
+function validate(r,p){
+ const kg=number(p.kg),y=number(p.y),mo=number(p.mo);
+ const suppliedY=String(p.y??"").trim()!=="",suppliedMo=String(p.mo??"").trim()!=="";
+ const m=suppliedY||suppliedMo?(suppliedY?y*12:0)+(suppliedMo?mo:0):null;
+ const x={inr:number(p.inr),hep:number(p.hep)};
+ const errors=[],warnings=[];
+ if(!Number.isFinite(kg))errors.push("Enter a valid weight.");
+ else if(kg<0.5||kg>250)errors.push("Weight is outside the calculator’s supported range.");
+ if(m==null){
+   if(r.k==="band"||r.minAge!=null||r.maxAge!=null||r.requiresAge)errors.push("Enter the age.");
+ }else if((suppliedY&&!Number.isInteger(y))||(suppliedMo&&(!Number.isInteger(mo)||mo>11))||!Number.isSafeInteger(m)){
+   errors.push("Enter age as whole years and 0 to 11 months.");
+ }else{
+   if(r.minAge!=null&&m<r.minAge)errors.push("Below the minimum age for this rule.");
+   if(r.maxAge!=null&&m>r.maxAge)errors.push("Above the age range this rule is written for.");
+   if(r.k==="band"&&!r.bands.some(([low,high])=>m>=low&&m<high))errors.push("Age is outside the bands of this rule.");
+   const expected=est(m);
+   if(kg>=0.5&&kg<=250&&expected&&(kg<0.6*expected||kg>1.8*expected))warnings.push("The weight is far from the expected weight for this age. Check both.");
+ }
+ if(r.minWt!=null&&kg<r.minWt)errors.push("Below the minimum weight for this rule.");
+ if(r.k==="wb"&&Number.isFinite(kg)&&!r.bands.some(([low,high])=>kg>=low&&kg<high))errors.push("Weight is outside the bands of this rule.");
+ if(r.inr&&(!Number.isFinite(x.inr)||x.inr<=0))errors.push("Enter a valid INR.");
+ if(r.hep&&(!Number.isFinite(x.hep)||!Number.isInteger(x.hep)||x.hep<=0))errors.push("Enter a valid number of heparin units.");
+ if(r.k==="la"&&LA.some(([key])=>{
+  const {pct="",ml=""}=p.la[key]||{};
+  return (pct!==""||ml!=="")&&(!Number.isFinite(number(pct))||number(pct)<=0||!Number.isFinite(number(ml)));
+ }))errors.push("Enter a valid concentration and volume for every agent used.");
+ return {kg,m,x,errors,warnings};
+}
 function vols(dose,r){if(!r.conc||typeof dose!=="number")return [];return r.conc.map(([l,c])=>["Volume of "+l,fmt(dose/c,"ml")])}
 function compute(r,kg,m,x){
  if(r.k==="kg"){const raw=r.per*kg,d=r.max!=null?Math.min(raw,r.max):raw;const L=[["Dose",fmt(d,r.u)+(r.max!=null&&raw>r.max?" (capped at the "+fmt(r.max,r.u)+" maximum)":"")+" "+"("+r.per+" "+(r.u==="microgram"?"micrograms":r.u)+"/kg)"],...vols(d,r),["Frequency",r.freq]];
@@ -134,24 +166,24 @@ function inputs(){return `<div class="dcin"><label>Weight<span><input id="dckg" 
  <label>&nbsp;<span><input id="dcmo" inputmode="numeric" value="${esc(P.mo)}" placeholder="0"><i>months</i></span></label></div>`}
 function picker(){const groups=[...new Set(RULES.map(r=>r.g))];
  return `<select id="dcsel" class="dcsel" aria-label="Drug"><option value="">Choose a drug and indication</option>${groups.map(g=>`<optgroup label="${esc(g)}">${RULES.filter(r=>r.g===g).map(r=>`<option value="${r.id}"${P.sel===r.id?" selected":""}>${esc(r.d)}: ${esc(r.ind)}${ver(r)?"":" (not yet verified)"}</option>`).join("")}</optgroup>`).join("")}</select>`}
-function laHTML(kg){const used=LA.map(([k,n,per,max])=>{const v=P.la[k]||{pct:"",ml:""};const mg=(parseFloat(v.pct)||0)*10*(parseFloat(v.ml)||0);const lim=Math.min(per*kg,max);return {k,n,per,max,v,mg,lim}});
+function laHTML(kg,showResults){const used=LA.map(([k,n,per,max])=>{const v=P.la[k]||{pct:"",ml:""};const mg=(number(v.pct)||0)*10*(number(v.ml)||0);const lim=Math.min(per*kg,max);return {k,n,per,max,v,mg,lim}});
  const frac=used.reduce((a,u)=>a+(u.mg&&u.lim?u.mg/u.lim:0),0);
- return `<div class="dcla"><table class="cltb"><thead><tr><th>Agent</th><th>Maximum for ${r1(kg)} kg</th><th>%</th><th>ml</th></tr></thead><tbody>${used.map(u=>`<tr><td>${esc(u.n)}</td><td>${fmt(u.lim,"mg")}<br><small>${u.per} mg/kg, max ${u.max} mg</small></td><td><input class="dclap" data-la="${u.k}:pct" inputmode="decimal" value="${esc(u.v.pct)}" placeholder="1"></td><td><input class="dclap" data-la="${u.k}:ml" inputmode="decimal" value="${esc(u.v.ml)}" placeholder="0"></td></tr>`).join("")}</tbody></table>
- <div class="dcres ${frac>1?"bad":frac>0.8?"warn":""}"><div><b>Used so far</b><span>${Math.round(frac*100)}% of the combined maximum</span></div>
+ return `<div class="dcla"><table class="cltb"><thead><tr><th>Agent</th><th>Maximum for ${r1(kg)} kg</th><th>%</th><th>ml</th></tr></thead><tbody>${used.map(u=>`<tr><td>${esc(u.n)}</td><td>${showResults?fmt(u.lim,"mg"):"—"}</td><td><input class="dclap" data-la="${u.k}:pct" inputmode="decimal" value="${esc(u.v.pct)}" placeholder="1"></td><td><input class="dclap" data-la="${u.k}:ml" inputmode="decimal" value="${esc(u.v.ml)}" placeholder="0"></td></tr>`).join("")}</tbody></table>
+ ${showResults?`<div class="dcres ${frac>1?"bad":frac>0.8?"warn":""}"><div><b>Used so far</b><span>${Math.round(frac*100)}% of the combined maximum</span></div>
  ${used.filter(u=>u.mg).map(u=>`<div><b>${esc(u.n)}</b><span>${r1(u.mg)} mg given</span></div>`).join("")}
  <div><b>Still available</b><span>${frac>=1?"None: the maximum has been reached or exceeded":LA.slice(0,3).map(([k,n,per,max])=>{const lim=Math.min(per*kg,max);const a=(1-frac)*lim;return `${n}: ${r1(a)} mg = `+(k==="bupi"?`${rm(a/2.5)} ml of 0.25% or ${rm(a/5)} ml of 0.5%`:`${rm(a/10)} ml of 1% or ${rm(a/20)} ml of 2%`)}).join("<br>")}</span></div></div>
- <p class="dcnote">1% = 10 mg/ml. Topical doses count. Use lean or ideal body weight in obesity. Aspirate before injecting.</p></div>`}
+ `:""}<p class="dcnote">1% = 10 mg/ml. Topical doses count. Use lean or ideal body weight in obesity. Aspirate before injecting.</p></div>`}
 
-function result(){const kg=parseFloat(P.kg),y=parseFloat(P.y),mo=parseFloat(P.mo);const m=(isNaN(y)&&isNaN(mo))?null:(y||0)*12+(mo||0);
- const r=BY[P.sel];if(!r)return `<p class="dcnote">Enter the weight and age, then choose a drug.</p>`;
+function result(){const r=BY[P.sel];if(!r)return `<p class="dcnote">Enter the weight and age, then choose a drug.</p>`;
  const v=ver(r);
  const head=`<div class="dchd"><span class="cle">${esc(r.g)}</span><h2>${esc(r.d)}</h2><p>${esc(r.ind)}</p></div>`;
  const ruleBox=`<div class="dcrule"><b>Rule used</b><p>${esc(r.rule)}</p>${v?`<small>Verified against ${esc(v.s)} on ${esc(v.d)}</small>`:""}</div>`;
  if(!v)return head+`<div class="dcres lock"><div><b>Not verified yet</b><span>This rule is shown below. Check it against the BNF, BNF for Children or your formulary, then mark it verified to use it.</span></div></div>`+ruleBox+verifyForm(r)+`<button class="btn" data-go="cl:t-${r.art}">Read the drug article</button>`;
- const w=checks(kg,m,r);const block=!(kg>0)||(r.k==="band"&&m==null);
- let out="";if(!block){const x={inr:parseFloat(P.inr),hep:parseFloat(P.hep)};
-  out=r.k==="la"?laHTML(kg):`<div class="dcres">${compute(r,kg,m,x).lines.map(([a,b])=>`<div><b>${esc(a)}</b><span>${esc(b)}</span></div>`).join("")}</div>`}
- return head+(w.length?`<div class="dcwarn">${w.map(x=>`<p>${esc(x)}</p>`).join("")}</div>`:"")+
+ const {kg,m,x,errors,warnings}=validate(r,P);
+ let out=r.k==="la"?laHTML(kg,false):"";if(!errors.length){
+  out=r.k==="la"?laHTML(kg,true):`<div class="dcres">${compute(r,kg,m,x).lines.map(([a,b])=>`<div><b>${esc(a)}</b><span>${esc(b)}</span></div>`).join("")}</div>`}
+ const messages=errors.concat(warnings);
+ return head+(messages.length?`<div class="dcwarn" aria-live="polite">${messages.map(msg=>`<p>${esc(msg)}</p>`).join("")}</div>`:"")+
   (r.inr?`<div class="dcin one"><label>INR<span><input id="dcinr" inputmode="decimal" value="${esc(P.inr)}"></span></label></div>`:"")+
   (r.hep?`<div class="dcin one"><label>Heparin given in last 2 to 3 hours<span><input id="dchep" inputmode="numeric" value="${esc(P.hep)}"><i>units</i></span></label></div>`:"")+
   out+ruleBox+`<p class="dcnote">Check the result against the patient, the indication and renal and hepatic function. Use the dose your senior or pharmacist confirms.</p><button class="btn" data-go="cl:t-${r.art}">Read the drug article</button>`}
@@ -181,5 +213,5 @@ document.addEventListener("click",ev=>{const b=ev.target.closest("[data-dcver],[
  const r=BY[b.dataset.dcver];const ok=document.getElementById("dcok");if(!ok||!ok.checked){ok&&ok.closest("label").classList.add("need");return}
  DV()[r.id]={f:fp(r),s:document.getElementById("dcsrc").value,d:new Date().toISOString().slice(0,10)};(typeof save==="function"&&save());
  const s=document.getElementById("view");s.innerHTML=vCalc();arm(s)});
-window.DOSECALC={render,RULES,compute,fp};
+window.DOSECALC={render,RULES,compute,fp,validate};
 })();

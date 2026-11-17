@@ -12,6 +12,9 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="ENT Companion">
 <title>The ENT Companion</title>
+<script src="progress.js"></script>
+<script src="release-assets.js"></script>
+<script src="offline.js" defer></script>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&display=swap">
@@ -6138,9 +6141,14 @@ GROUPS.forEach(([g,ids])=>ids.forEach(id=>RMAP[id]&&(RMAP[id].g=g)));
 {const FIXF={"temporal-s6": ["s22_14", "s24_17", "g504_0"], "extear-s3": ["d199_21", "g525_0"], "extear-s5": ["s30_28", "g540_0", "e062"], "extear-s6": ["g544_0", "g500_0"], "midear-s8": ["g541_0", "e064"], "et-s3": ["ns205_3", "s204_14", "s54_20"], "et-s4": ["g600_2", "ns205_3"], "et-s5": ["s201_10", "ns205_5"], "et-s6": ["s204_15", "s204_14", "g540_0"], "et-s7": ["g590_0"], "inner-s10": ["s47_12", "g543_0", "g539_2"], "facial-s4": ["g523_0", "e016"], "facial-s5": ["d153_43", "g544_0", "g544_1"], "facial-s6": ["s188_56", "s186_50", "d153_43"], "sinus-s7": ["s102_35", "s113_66", "g554_0"], "orbit-s2": ["nd105_16", "nd92_2", "nd94_0"], "orbit-s7": ["nd94_0", "g537_1", "g529_1"], "oral-s7": ["e025", "g599_2", "g598_0"], "oral-s8": ["g593_2", "g599_2", "g599_1"], "larynx-s10": ["dl_cricoid", "s237_9"], "larynx-s12": ["s237_9", "s234_5", "s244_25"], "vessels-s10": ["e029", "d141_16", "e037"], "thyroid-s5": ["d128_89", "g599_0"], "thyroid-s7": ["s274_71", "g557_1"], "itf-s7": ["g552_0", "nd69_46", "g550_0"], "trigeminal-s6": ["nd65_42", "g589_3", "g590_1"], "embryo-s3": ["g591_0"], "embryo-s4": ["g598_1", "g599_0"], "embryo-s6": ["s127_1", "e010"], "embryo-s7": ["s182_44", "s188_56", "s30_28"], "mandible-s7": ["g595_1", "g551_0"]};REGIONS.forEach(r=>r.sections.forEach(x=>{if(FIXF[x.id]&&!(x.f||[]).some(k=>FIG[k]))x.f=FIXF[x.id].filter(k=>FIG[k])}))}
 const SECTIONS=REGIONS.flatMap(r=>r.sections);
 const SRC={S:"ENT Steps Anatomy",D:"Dr. Sameh Doss handout",G:"Gray's Atlas of Anatomy, 2nd ed.",F:"Dr. Mohamed El-Fiky, Mini Atlas of Anatomy Part V: Head & Neck"};
-const figSrc=k=>(typeof GURL!=="undefined"&&GURL[k])||"fig2/"+k+".jpg";
+const releaseAssets=window.ENT_RELEASE_ASSETS;
+const restrictedMedia=!!releaseAssets?.restrictedMedia;
+const availablePdfs=new Set(releaseAssets?.pdfs||[]);
+const hasPdf=id=>!restrictedMedia||availablePdfs.has(id);
+const unavailableFigure="media-unavailable.svg";
+const figSrc=k=>restrictedMedia?unavailableFigure:(typeof GURL!=="undefined"&&GURL[k])||"fig2/"+k+".jpg";
 /* small copies for cards, carousels and lists: full-size figures decode to 5–11 MB each */
-const figThumb=k=>(typeof GURL!=="undefined"&&GURL[k])||"fig2/t/"+k+".jpg";
+const figThumb=k=>restrictedMedia?unavailableFigure:(typeof GURL!=="undefined"&&GURL[k])||"fig2/t/"+k+".jpg";
 const figCite=k=>`${SRC[FIG[k][1]]}, p. ${FIG[k][2]}`;
 const SRCS={S:"ENT Steps",D:"Doss",G:"Gray's Atlas",F:"El-Fiky"};
 const figShort=k=>`${SRCS[FIG[k][1]]} p. ${FIG[k][2]}`;
@@ -6149,20 +6157,32 @@ const ALLFIGS=Object.keys(FIG);
 
 /* ---------------- STATE & SYNC ---------------- */
 const KEY="ent-atlas-v1";
-let S0={cards:{},read:{},stars:{},notes:{},quiz:[],days:[],t:0};
-let ST=Object.assign({},S0);
-try{const j=localStorage.getItem(KEY);if(j)ST=Object.assign({},S0,JSON.parse(j))}catch(e){}
+const defaultProgress=()=>({cards:{},read:{},stars:{},notes:{},quiz:[],days:[],t:0});
+let ST=defaultProgress(),lastSaved=defaultProgress();
+try{const raw=localStorage.getItem(KEY);if(raw){ST=ENT_PROGRESS.decode(raw,defaultProgress());lastSaved=JSON.parse(JSON.stringify(ST))}}catch(e){}
+function persistProgress(){
+ try{const json=JSON.stringify(ST);localStorage.setItem(KEY,json);lastSaved=JSON.parse(json);return true}
+ catch(e){toast("Couldn’t save progress on this device. Export a backup to keep it.");return false}
+}
 let DBREF=null,pushT=null,pushing=false,pushAgain=false,syncState="local";
-function save(){ST.t=Date.now();try{localStorage.setItem(KEY,JSON.stringify(ST))}catch(e){}if(DBREF){clearTimeout(pushT);pushT=setTimeout(push,1500)}}
-async function push(){if(!DBREF)return;if(pushing){pushAgain=true;return}pushing=true;
-  try{await DBREF.set({json:JSON.stringify(ST),t:ST.t});syncState="synced"}catch(e){syncState="error"}
-  pushing=false;updateSync();if(pushAgain){pushAgain=false;push()}}
+function save(){
+ ST=ENT_PROGRESS.track(ST,lastSaved,Date.now());persistProgress();
+ if(DBREF){clearTimeout(pushT);pushT=setTimeout(push,1500)}
+}
+function quizAttemptId(){return typeof crypto.randomUUID==="function"?crypto.randomUUID():Date.now().toString(36)+Math.random().toString(36).slice(2)}
+async function push(){
+ if(!DBREF)return;
+ if(DBREF===SBREF){await sbSync();return}
+ if(pushing){pushAgain=true;return}pushing=true;
+ try{await DBREF.set({json:JSON.stringify(ST),t:ST.t});syncState="synced"}catch(e){syncState="error"}
+ pushing=false;updateSync();if(pushAgain){pushAgain=false;push()}
+}
 function updateSync(){const el=$("#sync");if(el)el.textContent=syncState==="synced"?(typeof SBS!=="undefined"&&SBS?"Progress saved to your account"+(SBLAST?" · synced "+new Date(SBLAST).toLocaleTimeString([],{hour:"2-digit",minute:"2-digit"}):""):"Progress saved to your account"):syncState==="error"?"Couldn't reach your account. Progress is kept on this device and will sync when you reopen the app.":"Progress is saved on this device"}
 (async()=>{try{if(!window.claude||!window.claude.use)return;const [db,user]=await Promise.all([window.claude.use("db"),window.claude.use("user")]);
   if(!db||!user)return;const id=await user.id();if(!id)return;
   const ref=db.collection("data/users/"+id).doc("progress");const snap=await ref.get();const d=snap&&snap.data?snap.data():null;
   DBREF=ref;syncState="synced";
-  if(d&&d.json&&(d.t||0)>(ST.t||0)){ST=Object.assign({},S0,JSON.parse(d.json));try{localStorage.setItem(KEY,JSON.stringify(ST))}catch(e){}
+  if(d&&d.json&&(d.t||0)>(ST.t||0)){ST=ENT_PROGRESS.merge(ST,ENT_PROGRESS.decode(d.json,defaultProgress()),defaultProgress());persistProgress()
     const base=cur.split(":")[0];if(["home","atlas","region","saved"].includes(base))go(cur,{keep:true})}
   else if(ST.t&&(!d||(ST.t||0)>(d.t||0)))push();
   updateSync()}catch(e){}})();
@@ -6182,25 +6202,53 @@ async function sbToken(){if(!SBS)return null;if(Date.now()<SBS.exp-60000)return 
   sbRefreshing=sbRefreshing||sbFetch("/auth/v1/token?grant_type=refresh_token",{method:"POST",body:{refresh_token:SBS.rt}}).then(j=>{sbSession(j);return SBS.at})
     .catch(e=>{if(e.status===400||e.status===401){SBS=null;sbSave();DBREF=null;syncState="local";updateSync()}return null}).finally(()=>{sbRefreshing=null});
   return sbRefreshing}
-/* merge two progress states without losing anything: the newer wins a conflict, the older fills what the newer lacks */
-function mergeSt(newer,older){const plain=o=>o&&typeof o==="object"&&!Array.isArray(o);
-  const m=(a,b)=>{if(plain(a)&&plain(b)){const r=Object.assign({},a);for(const k in b)r[k]=k in a?m(a[k],b[k]):b[k];return r}
-    if(Array.isArray(a)&&Array.isArray(b)&&a.concat(b).every(x=>typeof x==="string"))return [...new Set(a.concat(b))].sort();return a};
-  return m(newer,older)}
-const SBREF={async get(){const r=await sbFetch("/rest/v1/progress?select=data,updated_at&user_id=eq."+SBS.uid,{auth:true});return r&&r[0]?r[0].data:null},
-  async set(v){await sbFetch("/rest/v1/progress?on_conflict=user_id",{method:"POST",auth:true,headers:{"Prefer":"resolution=merge-duplicates,return=minimal"},body:{user_id:SBS.uid,data:v,updated_at:new Date().toISOString()}})}};
-let sbPulling=false;
-async function sbSync(){if(!SBS||sbPulling)return;sbPulling=true;
-  try{const d=await SBREF.get();DBREF=SBREF;let changed=false;
-    if(d&&d.json){const R=Object.assign({},S0,JSON.parse(d.json)),rt=d.t||0,lt=ST.t||0;
-      const M=rt>=lt?mergeSt(R,ST):mergeSt(ST,R);M.t=Math.max(rt,lt);
-      const same=JSON.stringify(M)===d.json;if(JSON.stringify(M)!==JSON.stringify(ST)){ST=M;try{localStorage.setItem(KEY,JSON.stringify(ST))}catch(e){}changed=true}
-      if(!same)await SBREF.set({json:JSON.stringify(ST),t:ST.t})}
-    else await SBREF.set({json:JSON.stringify(ST),t:ST.t||Date.now()});
-    syncState="synced";SBLAST=Date.now();
-    if(changed){const base=cur.split(":")[0];if(base!=="cl"&&base!=="th"||cur==="cl:home")go(cur,{keep:true})}}
-  catch(e){syncState=e.code==="auth"?"local":"error"}
-  sbPulling=false;updateSync()}
+/* Only replace the row we just read. If another device writes first, merge against its update. */
+const SBREF={
+ async get(uid){
+  const r=await sbFetch("/rest/v1/progress?select=data,updated_at&user_id=eq."+encodeURIComponent(uid),{auth:true});
+  return r&&r[0]||null;
+ },
+ async set(uid,row,data){
+  const updated_at=new Date(Math.max(Date.now(),row?Date.parse(row.updated_at)+1:0)).toISOString();
+  const query="/rest/v1/progress";
+  const response=row?
+   await sbFetch(query+"?user_id=eq."+encodeURIComponent(uid)+"&updated_at=eq."+encodeURIComponent(row.updated_at),
+    {method:"PATCH",auth:true,headers:{Prefer:"return=representation"},body:{data,updated_at}}):
+   await sbFetch(query+"?on_conflict=user_id",
+    {method:"POST",auth:true,headers:{Prefer:"resolution=ignore-duplicates,return=representation"},body:{user_id:uid,data,updated_at}});
+  return Array.isArray(response)&&response.length===1;
+ }
+};
+let sbPulling=false,sbQueued=false;
+async function sbSync(){
+ if(!SBS)return;
+ if(sbPulling){sbQueued=true;return}
+ sbPulling=true;
+ const uid=SBS.uid;
+ try{
+  let saved=false,changed=false;
+  for(let attempt=0;attempt<4&&SBS&&SBS.uid===uid;attempt++){
+   const row=await SBREF.get(uid);
+   if(!SBS||SBS.uid!==uid)return;
+   DBREF=SBREF;
+   const remote=row&&row.data&&row.data.json;
+   const before=JSON.stringify(ST);
+   const base=remote?ENT_PROGRESS.decode(remote,defaultProgress()):defaultProgress();
+   const merged=ENT_PROGRESS.merge(ST,base,defaultProgress());
+   const json=JSON.stringify(merged);
+   if(json!==before){ST=merged;persistProgress();changed=true}
+   if(json===remote||await SBREF.set(uid,row,{json,t:merged.t})){saved=true;break}
+  }
+  if(!SBS||SBS.uid!==uid)return;
+  syncState=saved?"synced":"error";
+  if(saved)SBLAST=Date.now();
+  if(changed){const base=cur.split(":")[0];if(base!=="cl"&&base!=="th"||cur==="cl:home")go(cur,{keep:true})}
+ }catch(e){if(SBS&&SBS.uid===uid)syncState=e.code==="auth"?"local":"error"}
+ finally{
+  sbPulling=false;updateSync();
+  if(sbQueued){sbQueued=false;clearTimeout(pushT);pushT=setTimeout(sbSync,1500)}
+ }
+}
 let SBLAST=0;
 /* signing in from the emailed link: the page opens with #access_token=…&refresh_token=… */
 let SBLINK=null;{const h=(location.hash||"").slice(1);if(/(^|&)(access_token|error_description)=/.test(h)){const q=new URLSearchParams(h);
@@ -6378,7 +6426,7 @@ function vRegion(id,opt){const r=RMAP[id];if(!r)return vAtlas();
   const st=regionStats(r),figs=regionFigs(id),i=REGIONS.indexOf(r),prev=REGIONS[i-1],next=REGIONS[i+1];
   V().innerHTML=`<div class="hero"><span class="eyebrow">${esc(r.g||"")} · region ${r.n} of ${REGIONS.length} · ${st.read}/${st.secs} read</span><h1>${esc(r.name)}</h1><p class="lede">${esc(r.blurb)}</p></div>
   <div class="actions"><button class="btn primary" data-deck="${r.id}" data-mode="smart">Study ${st.cards} cards</button>
-  <button class="btn" data-qregion="${r.id}">Quiz this region</button>${drillCount(r.id)?`<button class="btn" data-drill="${r.id}">Label drill (${drillCount(r.id)} figures)</button>`:""}${!APDF||APDF.has(r.id)?`<button class="btn" data-pdf="${r.id}">Download PDF summary</button>`:""}</div>
+  <button class="btn" data-qregion="${r.id}">Quiz this region</button>${drillCount(r.id)?`<button class="btn" data-drill="${r.id}">Label drill (${drillCount(r.id)} figures)</button>`:""}${HAS_PDF&&(!APDF||APDF.has(r.id))?`<button class="btn" data-pdf="${r.id}">Download PDF summary</button>`:""}</div>
   <nav class="jump" aria-label="Sections">${r.sections.map(s=>`<a href="#${s.id}" data-jump="${s.id}" class="${ST.read[s.id]?"done":""}">${esc(s.t)}</a>`).join("")}</nav>
   ${figs.length?`<div class="h2row"><h2>Figures</h2><span class="eyebrow">${figs.length} from your handouts</span></div>
   <div class="strip">${figs.map(k=>`<button class="thumb" data-fig="${k}" data-set="${fsetId(figs)}" aria-label="${esc(FIG[k][0])}"><img src="${figThumb(k)}" alt="" loading="lazy" decoding="async"></button>`).join("")}</div>`:""}
@@ -6458,7 +6506,7 @@ function vQuiz(){
     $("#qreg").value=QSEL;$("#qreg").onchange=e=>QSEL=e.target.value;$("#qgo").onclick=()=>startQuiz(QSEL,QLEN);return}
   if(QZ.i>=QZ.qs.length){const s=QZ.ans.filter((a,i)=>a===QZ.qs[i].c).length;
     if(!QZ.saved){const by={};QZ.qs.forEach((q,i)=>{by[q.r]=by[q.r]||[0,0];by[q.r][1]++;if(QZ.ans[i]===q.c)by[q.r][0]++});
-      ST.quiz.push({r:QZ.r,s,n:QZ.qs.length,t:Date.now(),by});ST.quiz=ST.quiz.slice(-300);QZ.saved=1;studied()}
+      ST.quiz.push({id:quizAttemptId(),r:QZ.r,s,n:QZ.qs.length,t:Date.now(),by});ST.quiz=ST.quiz.slice(-300);QZ.saved=1;studied()}
     const miss=QZ.qs.filter((q,i)=>QZ.ans[i]!==q.c);
     V().innerHTML=`<div class="hero"><span class="eyebrow">Result · ${QZ.r==="all"?"All regions":esc(RMAP[QZ.r].name)}</span><div class="score">${s}/${QZ.qs.length}</div><p class="lede">${Math.round(100*s/QZ.qs.length)}% correct</p></div>
     ${miss.length?`<div class="h2row"><h2>Review what you missed</h2></div>${miss.map(q=>`<div class="qcard" style="margin:10px 0"><span class="eyebrow">${esc(RMAP[q.r].name)}</span><p class="q">${esc(q.q)}</p><p><b>Answer:</b> ${esc(q.o[q.c])}</p><div class="explain">${esc(q.x)}</div><button class="linkbtn" data-go="region:${q.r}">Open the notes</button></div>`).join("")}`:`<p class="lede">Perfect score.</p>`}
@@ -6691,7 +6739,7 @@ function vTables(arg,opt){
   if(opt&&opt.sec)setTimeout(()=>{const el=document.getElementById(opt.sec);if(el)el.scrollIntoView({block:"start"})},40)}
 
 /* ---------------- LABEL DRILLS ---------------- */
-const DRILLKEYS=Object.keys(OCC).filter(k=>FIG[k]);
+const DRILLKEYS=restrictedMedia?[]:Object.keys(OCC).filter(k=>FIG[k]);
 const drillCount=id=>DRILLKEYS.filter(k=>FIG[k][3]===id).length;
 const drillDue=k=>{const s=ST.drill&&ST.drill[k];return !s||s.d<=Date.now()};
 const drillNew=k=>!(ST.drill&&ST.drill[k]);
@@ -6742,7 +6790,9 @@ document.addEventListener("click",e=>{if(!DR&&!e.target.closest("[data-drillmenu
 
 /* ---------------- PDF DOWNLOADS ---------------- */
 document.addEventListener("click",async e=>{const b=e.target.closest("[data-pdf]");if(!b)return;e.preventDefault();
-  const id=b.dataset.pdf,r=RMAP[id],name=(b.dataset.pdfname||("ENT Anatomy - "+r.name)).replace(/[&]/g,"and").replace(/[^\w ,.-]/g,"")+".pdf";
+  const id=b.dataset.pdf;
+  if(!hasPdf(id))return toast("This PDF is unavailable in this edition.");
+  const r=RMAP[id],name=(b.dataset.pdfname||("ENT Anatomy - "+r.name)).replace(/[&]/g,"and").replace(/[^\w ,.-]/g,"")+".pdf";
   const label=b.innerHTML;b.disabled=true;b.classList.add("pdfbusy");
   if(window.Android){try{Android.openPdf(id,name)}catch(err){toast("Couldn't open the PDF")}b.disabled=false;b.classList.remove("pdfbusy");b.innerHTML=label;return}
   try{const dl=window.claude&&window.claude.use?await window.claude.use("downloads"):null;
@@ -6999,7 +7049,7 @@ check:'<path d="M5 12.5l4.5 4.5L19 7.5"/>',
  pdf:'<path d="M12 3v12M7 10l5 5 5-5M5 21h14"/>',
  back:'<path d="M15 18l-6-6 6-6"/>',chev:'<path d="M9 6l6 6-6 6"/>'};
 const ic=(n,s=22)=>`<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON[n]}</svg>`;
-const HAS_PDF=typeof FIGDATA==="undefined";
+const HAS_PDF=!restrictedMedia&&typeof FIGDATA==="undefined";
 
 /* ---------- navigation ---------- */
 const TABS5=[["home","Today"],["atlas","Anatomy"],["cl:home","Clinical"],["imaging","Imaging"],["th:home","Surgical"],["study","Study"]];
@@ -7158,12 +7208,17 @@ function vMore(){const native=!!(window.claude&&window.claude.use);
 document.addEventListener("click",e=>{
   const f=e.target.closest("[data-fs]");if(f){PREF.fs=f.dataset.fs;savePrefs();document.querySelectorAll("[data-fs]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.fs===PREF.fs)));return}
   const t=e.target.closest("[data-theme-set]");if(t){PREF.theme=t.dataset.themeSet;savePrefs();document.querySelectorAll("[data-theme-set]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.themeSet===PREF.theme)));return}
-  if(e.target.closest("#bk2-exp")){const name="ent-companion-progress-"+today()+".json",txt=JSON.stringify(ST);
+  if(e.target.closest("#bk2-exp")){const name="ent-companion-progress-"+today()+".json",txt=ENT_PROGRESS.encode(ST);
     if(window.Android&&Android.saveBackup){Android.saveBackup(name,txt);return}
     const u=URL.createObjectURL(new Blob([txt],{type:"application/json"})),a=document.createElement("a");a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),4000);toast("Backup saved")}});
+async function restoreProgress(file){
+ if(file.size>ENT_PROGRESS.MAX_BYTES)throw Error("Backup is too large");
+ const restored=ENT_PROGRESS.decode(await file.text(),defaultProgress());
+ ST=restored;save();toast("Progress restored");
+}
 document.addEventListener("change",async e=>{
   if(e.target.matches("[data-pbar]")){PREF.pbar=e.target.checked;savePrefs();return}
-  if(e.target.id==="bk2-imp"&&e.target.files[0]){try{const d=JSON.parse(await e.target.files[0].text());if(typeof d!=="object"||!d.cards)throw 0;ST=Object.assign({},S0,d);save();toast("Progress restored");go("home")}catch(err){toast("That file isn't an ENT Companion backup")}e.target.value=""}});
+  if(e.target.id==="bk2-imp"&&e.target.files[0]){try{await restoreProgress(e.target.files[0]);go("home")}catch(err){toast("That file isn't an ENT Companion backup")}e.target.value=""}});
 
 /* drill figure: never taller than the screen */
 function fitDrill(){const w=$(".dwrap"),im=w&&w.querySelector(".dstage img");if(!im)return;
@@ -7356,7 +7411,7 @@ function loadPack(n){if(PACKLOAD[n])return;PACKLOAD[n]=fetch("im/pack"+n+".json"
   document.querySelectorAll('img[src^="'+BLANKIMG+'#"]').forEach(im=>{const k=im.getAttribute("src").split("#")[1];if(IMDATAX[k])im.src=IMDATAX[k]});
   if(LB){clearTimeout(window._prt);window._prt=setTimeout(drawLB,60)}}).catch(()=>{delete PACKLOAD[n]})}
 new MutationObserver(()=>{document.querySelectorAll('img[src^="'+BLANKIMG+'#"]').forEach(im=>{const k=im.getAttribute("src").split("#")[1];if(IMDATAX[k])im.src=IMDATAX[k]})}).observe(document.documentElement,{childList:true,subtree:true});
-const imSrc=k=>(typeof FIGDATA!=="undefined"&&FIGDATA[k])||IMDATAX[k]||(typeof IMPACK!=="undefined"&&IMPACK[k]!=null?(loadPack(IMPACK[k]),BLANKIMG+"#"+k):(GURL[k]||"im/"+k+".jpg"));
+const imSrc=k=>restrictedMedia?unavailableFigure:(typeof FIGDATA!=="undefined"&&FIGDATA[k])||IMDATAX[k]||(typeof IMPACK!=="undefined"&&IMPACK[k]!=null?(loadPack(IMPACK[k]),BLANKIMG+"#"+k):(GURL[k]||"im/"+k+".jpg"));
 if(typeof IMPACK==="undefined")Object.keys(IMG).forEach(k=>{if(!GURL[k]&&!(typeof FIGDATA!=="undefined"&&FIGDATA[k]))GURL[k]="im/"+k+".jpg"});
 const CMAP2={};CONDS.forEach(c=>CMAP2[c.id]=c);const SMAP={};SERIES.forEach(s=>SMAP[s.id]=s);
 const inReg=(o,r)=>o.r===r||(o.also||[]).includes(r);
@@ -7516,16 +7571,17 @@ function vImaging(){const acc=ST.spot&&ST.spot.n?Math.round(100*ST.spot.r/ST.spo
   ${courseHTML()}
   <h2 class="msec">Practise</h2>
   <div class="mrows">
-   <button class="mrow" data-spot="all" data-mode="dx"><span class="mn">${ic("quiz",16)}</span><span class="mt">Spot diagnosis<small>${acc!=null?`${acc}% of ${ST.spot.n} so far`:"Ten scans, four choices each"}</small></span></button>
+   ${restrictedMedia?"":`   <button class="mrow" data-spot="all" data-mode="dx"><span class="mn">${ic("quiz",16)}</span><span class="mt">Spot diagnosis<small>${acc!=null?`${acc}% of ${ST.spot.n} so far`:"Ten scans, four choices each"}</small></span></button>
    <button class="mrow" data-spot="all" data-mode="anat"><span class="mn">${ic("drill",16)}</span><span class="mt">Name the structure<small>Numbered normal CT and MRI</small></span></button>
+` }
    <button class="mrow" data-go="howto:mri"><span class="mn">${ic("tables",16)}</span><span class="mt">MRI signal table<small>What is bright, what is dark</small></span></button>
   </div>
   <h2 class="msec">Conditions <small>${CONDS.filter(c=>c.core).length} core · ${CONDS.length} in all</small></h2>
   <label class="vh" for="hq">Search conditions</label><input type="search" id="hq" class="iq" placeholder="Search conditions" value="${esc(HUBQ)}">
   <div class="gchips" role="group" aria-label="Modality">${["all"].concat(mods).map(m=>`<button class="chip" data-hubmod="${m}" aria-pressed="${HUBMOD===m}">${m==="all"?"All":m}</button>`).join("")}</div>
   <div id="hublist">${hubList()}</div>
-  <h2 class="msec">Offline PDFs <small>Each lesson also has its own PDF</small></h2>
-  ${fold("ipdf","Imaging conditions by area","5 PDFs",`<div class="mrows">${[["ear","Ear"],["nose","Nose, sinuses and orbit"],["mouth","Mouth, throat and salivary glands"],["neck","Larynx and neck"],["face","Face, jaw and skull base"]].map(([k,t])=>`<button class="mrow" data-pdf="imc_${k}" data-pdfname="The ENT Companion - Imaging conditions - ${t}"><span class="mn">${ic("pdf",14)}</span><span class="mt">${t}</span></button>`).join("")}</div>`)}
+  ${HAS_PDF?`<h2 class="msec">Offline PDFs <small>Each lesson also has its own PDF</small></h2>
+  ${fold("ipdf","Imaging conditions by area","5 PDFs",`<div class="mrows">${[["ear","Ear"],["nose","Nose, sinuses and orbit"],["mouth","Mouth, throat and salivary glands"],["neck","Larynx and neck"],["face","Face, jaw and skull base"]].map(([k,t])=>`<button class="mrow" data-pdf="imc_${k}" data-pdfname="The ENT Companion - Imaging conditions - ${t}"><span class="mn">${ic("pdf",14)}</span><span class="mt">${t}</span></button>`).join("")}</div>`)}`:""}
   <h2 class="msec">Normal anatomy by area</h2>
   ${areas.map(([g,ids])=>fold("ia-"+g,esc(g),`${ids.length} areas`,`<div class="mrows">${ids.map(id=>{const cs=regConds(id),ss=regSeries(id);
     return `<button class="mrow" data-go="region:${id}" data-rtab-go="imaging"><span class="mt">${esc(RMAP[id].name)}<small>${ss.reduce((a,s)=>a+s.slices.length,0)} normal images · ${cs.length} conditions</small></span></button>`}).join("")}</div>`,{dot:GCOL[g]})).join("")}
@@ -7541,7 +7597,7 @@ document.addEventListener("click",e=>{const m=e.target.closest("[data-hubmod]");
 /* ---------- spot quiz ---------- */
 let SPOT=null;
 function shuffle7(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
-function startSpot(r,mode){const qs=[];const cs=CONDS.filter(c=>c.imgs.length&&(r==="all"||inReg(c,r)));
+function startSpot(r,mode){if(restrictedMedia)return toast("Scan practice needs figures that are unavailable in this edition.");const qs=[];const cs=CONDS.filter(c=>c.imgs.length&&(r==="all"||inReg(c,r)));
   const sl=[];SERIES.forEach(s=>{if(r!=="all"&&!inReg(s,r))return;s.slices.forEach(x=>{if(x.leg&&x.leg.length>=4)sl.push([s,x])})});
   const nDx=mode==="anat"?0:mode==="dx"?10:Math.min(7,cs.length),nAn=mode==="dx"?0:10-nDx;
   const pickC=n=>{const co=shuffle7(cs.filter(c=>c.core)),ad=shuffle7(cs.filter(c=>!c.core)),nc=Math.min(co.length,Math.round(n*.7));return shuffle7(co.slice(0,nc).concat(ad.slice(0,n-nc)).concat(co.slice(nc)).slice(0,n))};
@@ -8260,7 +8316,7 @@ function benchWeak(){const h=(ST.lab&&ST.lab.st)||{};return BENCH.filter(b=>h[b.
 function stopLab(){if(LAB.tick){clearInterval(LAB.tick);LAB.tick=null}}
 function startTick(fn){stopLab();LAB.tick=setInterval(()=>{if(!document.getElementById("labtime")){stopLab();return}fn()},1000)}
 const fmtT=s=>Math.floor(s/60)+":"+String(s%60).padStart(2,"0");
-function saveLabQuiz(r,by,s,n){ST.quiz.push({r,s,n,t:Date.now(),by});ST.quiz=ST.quiz.slice(-300);studied();save()}
+function saveLabQuiz(r,by,s,n){ST.quiz.push({id:quizAttemptId(),r,s,n,t:Date.now(),by});ST.quiz=ST.quiz.slice(-300);studied();save()}
 
 function vPractical(){stopLab();const h=(ST.lab&&ST.lab.st)||{},done=BENCH.filter(b=>h[b.id]).length,weak=benchWeak().length;
  V().innerHTML=`${studySwitch("practical")}<div class="hero"><span class="eyebrow">Practical anatomy</span><h1>Bench exam</h1><p class="lede">One pinned structure at a time, against the clock.</p></div>
@@ -8690,37 +8746,22 @@ document.addEventListener("click",e=>{if(!$("#results"))return;const t=e.target;
 
 <script>
 document.addEventListener("click",e=>{if(!e.target.closest("#bk-exp"))return;
-  const name="ent-companion-progress-"+new Date().toISOString().slice(0,10)+".json",txt=JSON.stringify(ST);
+  const name="ent-companion-progress-"+new Date().toISOString().slice(0,10)+".json",txt=ENT_PROGRESS.encode(ST);
   if(window.Android){Android.saveBackup(name,txt);return}
   const u=URL.createObjectURL(new Blob([txt],{type:"application/json"})),a=document.createElement("a");
   a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),4000);toast("Backup saved")});
 document.addEventListener("change",async e=>{if(e.target.id!=="bk-imp"||!e.target.files[0])return;
-  try{const d=JSON.parse(await e.target.files[0].text());if(typeof d!=="object"||!d.cards)throw 0;
-    ST=Object.assign({},S0,d);save();toast("Progress restored");go("home")}catch(err){toast("That file isn't an ENT Companion backup")}
+  try{await restoreProgress(e.target.files[0]);go("home")}catch(err){toast("That file isn't an ENT Companion backup")}
   e.target.value=""});
 </script>
 
-<script>
-if(!window.Android&&"serviceWorker" in navigator&&(location.protocol==="https:"||location.hostname==="localhost")){
-  navigator.serviceWorker.addEventListener("message",ev=>{if(ev.data==="cached"&&typeof toast==="function")toast("Saved for offline use")});
-  window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").then(reg=>{
-    /* look for a new version on open, whenever the app comes back to the foreground, and every 20 minutes */
-    const chk=()=>reg.update().catch(()=>{});document.addEventListener("visibilitychange",()=>{if(!document.hidden)chk()});setInterval(chk,12e5);
-  }).catch(()=>{}));
-  /* when a new version takes over: reload straight away if the app has only just opened or is in the background,
-     otherwise offer a one-tap reload so nothing the user is reading disappears */
-  {const had=!!navigator.serviceWorker.controller,t0=Date.now();let done=false;
-   navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!had||done)return;done=true;
-     if(Date.now()-t0<15000||document.hidden){location.reload();return}
-     const b=document.createElement("button");b.className="upbar";b.textContent="A new version is ready · Tap to update";b.onclick=()=>location.reload();document.body.appendChild(b)})}
-}
-</script>
 <script>
 /* v17.7 waiting states */
 (function(){const H=document.documentElement;
   {const tp=document.querySelector(".top");if(tp){const set=()=>H.style.setProperty("--toph",tp.offsetHeight+"px");set();if(window.ResizeObserver)new ResizeObserver(set).observe(tp)}}
   /* thumbnails are always visible; if one cannot be loaded, fall back to the full-size figure */
   document.addEventListener("error",e=>{const t=e.target;if(!t||t.tagName!=="IMG"||t.dataset.fb)return;const src=t.getAttribute("src")||"";
+    if(restrictedMedia&&/^(?:fig2\/|im\/|clinic\/fig\/)/.test(src)){t.dataset.fb="1";t.src=unavailableFigure;return}
     if(src.indexOf("fig2/t/")>=0){t.dataset.fb="1";t.src=src.replace("fig2/t/","fig2/")}},true);
   /* busy bar: armed on touch, so it is already running on the compositor if the tap's work blocks the page;
      it only becomes visible after 0.15 s (the pill after 0.5 s), so quick taps never show it */
@@ -8779,31 +8820,41 @@ ICON.info='<circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/>';
 ICON.lib='<path d="M4 4.5h5v15H4zM10 4.5h4v15h-4z"/><path d="m15 5.2 3.8-1 3.2 14.8-3.8.9z"/>';
 const mrowL=(go,i,t,s,attr)=>`<button class="mrow lrow" ${attr||`data-go="${go}"`}><span class="lico">${ic(i,19)}</span><span class="pt"><strong>${t}</strong><small>${s}</small></span></button>`;
 vMore=function(){const native=!!(window.claude&&window.claude.use),web=!window.Android;
-  const nPdf=(HAS_PDF?REGIONS.filter(r=>APDF.has(r.id)).length:0)+(window.CLINIC_DATA?CLINIC_DATA.t.length:248)+5;
+  const nPdf=restrictedMedia?availablePdfs.size:(HAS_PDF?REGIONS.filter(r=>APDF.has(r.id)).length:0)+(window.CLINIC_DATA?CLINIC_DATA.t.length:248)+5;
   V().innerHTML=`<div class="hero"><span class="eyebrow">More</span><h1>More</h1></div><div class="tbody mv2">
   <section><h2 class="msec">Library</h2><div class="mlist llist">
-   ${mrowL("pdfs","pdf","Offline PDFs",`${nPdf} PDFs: anatomy, diseases, approaches, drugs and imaging`)}
+   ${nPdf?mrowL("pdfs","pdf","Printable boards",`${nPdf} clinical summaries`):""}
    ${mrowL("cl:calc","calc","Dose calculator","Weight-based doses, local anaesthetic maximums and emergency drugs")}
    ${mrowL("tables","tables","Tables &amp; mnemonics",`${TABLES.length} tables · ${MNEM.length} mnemonics`)}
    ${mrowL("tracer","tracer","Nerve &amp; vessel tracer",`${TRACE.length} courses`)}
-   ${mrowL("figures","figures","Figures","Every figure in the app, by region")}
+   ${restrictedMedia?"":mrowL("figures","figures","Figures","Every figure in the app, by region")}
    ${mrowL("saved","saved","Saved","Sections, cards, tables and figures you starred")}
    ${mrowL("sources","lib","Sources","The books and handouts behind the app")}
   </div></section>
   <section><h2 class="msec">Reading</h2><div class="card set"><span class="slabel">Text size</span><div class="seg3" role="group" aria-label="Text size">${[["s","Small"],["m","Medium"],["l","Large"]].map(([v,l])=>`<button data-fs="${v}" aria-pressed="${PREF.fs===v}" class="fs-${v}">Aa ${l}</button>`).join("")}</div>
    <span class="slabel">Appearance</span><div class="themes" role="group" aria-label="Appearance">${[["light","Light"],["dark","Night"],["auto","Auto"]].map(([v,l])=>`<button data-theme-set="${v}" aria-pressed="${PREF.theme===v}"><i class="sw sw-${v}"></i>${l}</button>`).join("")}</div>
    <label class="srow">Show reading progress bar <input type="checkbox" data-pbar ${PREF.pbar?"checked":""}></label></div></section>
-  <section><h2 class="msec">Your account</h2><div class="card set"><div id="acct">${acctHTML()}</div><p class="sync" id="sync"></p>
+  ${releaseAssets?.web&&"serviceWorker" in navigator?`<section><h2 class="msec">Offline downloads</h2><div class="card set">
+    <p id="offline-status" class="sync" role="status">Checking offline storage…</p><div id="offline-packs"></div></div></section>`:""}
+  <section><h2 class="msec">${web?"Your account":"Study progress"}</h2><div class="card set">
+   ${web?`<div id="acct">${acctHTML()}</div><p class="sync" id="sync"></p>`:`<p class="lede small">Study progress is stored on this phone.</p>`}
    ${native?"":`<p class="lede small">Back up to move your progress to another phone or browser.</p><div class="two"><button class="btn" id="bk2-exp">Back up my progress</button><label class="btn" style="cursor:pointer;text-align:center">Restore a backup<input type="file" id="bk2-imp" accept=".json,application/json,text/plain,*/*" hidden></label></div>`}</div></section>
   <section><h2 class="msec">About</h2><div class="mlist llist">
    ${web&&"serviceWorker" in navigator?mrowL("","check","Check for updates","Load the newest version now",'data-upd="1"'):""}
-  </div><p class="mabout"><b>The ENT Companion</b><br>Anatomy, clinical ENT, drugs, imaging and operative surgery for the ENT resident, in one offline reference. For personal study; check doses and decisions against your local guidance.</p></section></div>`;
-  updateSync()};
+  </div><p class="mabout"><b>The ENT Companion</b><br>Anatomy, clinical ENT, drugs, imaging and operative surgery for the ENT resident, in one offline reference. For personal study. Check doses and decisions against your local guidance.</p>
+   ${restrictedMedia?`<p class="lede small">This edition includes study notes and approved figures. Some atlas plates, scans and PDFs are unavailable. <a href="credits/distribution.md">Media credits</a></p>`:""}
+  </section></div>`;
+  updateSync();window.ENT_SHOW_OFFLINE?.()};
 EXTRA.more=vMore;
 /* the PDF library */
 var APDF=new Set("embryo et extear facial inner itf larynx mandible midear neck neckbones nose oral orbit pharynx salivary sinus skullbones temporal thyroid trigeminal vessels".split(" "));
 let PDFQ="";
 function pdfCat(){const C=window.CLINIC_DATA,G=[];
+  if(restrictedMedia){
+    if(!C)return [];
+    return Object.keys(C.g).map(group=>[C.g[group],C.t.filter(topic=>topic.g===group&&hasPdf("bd_"+topic.id))
+      .map(topic=>["bd_"+topic.id,topic.t,"The ENT Companion - "+topic.t])]).filter(([,rows])=>rows.length);
+  }
   if(HAS_PDF)G.push(["Anatomy",REGIONS.filter(r=>APDF.has(r.id)).map(r=>[r.id,r.name,"ENT Anatomy - "+r.name])]);
   if(C){const T=C.t,nm=t=>"The ENT Companion - "+t.t;
     ["ear","nose","mouth","larynx","neck"].forEach(g=>{const l=T.filter(t=>t.g===g);if(l.length)G.push(["Diseases · "+C.g[g],l.map(t=>["cl_"+t.id,t.t,nm(t)])])});
@@ -8817,7 +8868,7 @@ function pdfList(){const q=PDFQ.trim().toLowerCase(),G=pdfCat();
   if(q){const l=G.flatMap(([g,r])=>r.filter(x=>x[0]!=="#"&&x[1].toLowerCase().includes(q)||g.toLowerCase().includes(q)).map(x=>[g,x]));
     return l.length?`<div class="mlist llist">${l.map(([g,x])=>row(x).replace("</strong>",`</strong><small>${esc(g)}</small>`)).join("")}</div>`:`<p class="empty">No PDFs match.</p>`}
   return G.map(([g,r])=>`<details class="pdgrp"><summary><span>${esc(g)}</span><small>${r.filter(x=>x[0]!=="#").length}</small></summary><div class="mlist llist">${r.map(row).join("")}</div></details>`).join("")}
-function vPdfs(){const draw=()=>{V().innerHTML=`<div class="hero"><span class="eyebrow">More</span><h1>Offline PDFs</h1><p class="lede">Every chapter as a printable PDF, laid out for reading away from the app.</p></div>
+function vPdfs(){const draw=()=>{V().innerHTML=`<div class="hero"><span class="eyebrow">More</span><h1>Printable boards</h1><p class="lede">Clinical summaries you can save or print.</p></div>
   <div class="tbody"><input type="search" id="pdq" class="clsearch iq" aria-label="Search PDFs" placeholder="Search a PDF: otosclerosis, ciprofloxacin…" value="${esc(PDFQ)}"><div id="pdlist">${pdfList()}</div></div>`};
   if(window.CLINIC_DATA)return draw();V().innerHTML=`<div style="padding:60px 0;color:var(--muted)">Opening…</div>`;
   const s=document.createElement("script");s.src="clinic/data.js";s.onload=()=>{if(cur==="pdfs")draw()};s.onerror=()=>{if(cur==="pdfs")draw()};document.head.appendChild(s)}
