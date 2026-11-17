@@ -1,15 +1,15 @@
+@layout amboss
 @stand Petrous apicitis is infection that has tracked from the middle ear deep into the tip of the petrous bone. The classic picture is Gradenigo's triad: a discharging ear, deep pain behind the eye and a sixth nerve palsy. It is rare now, but it can appear just as the ear seems to be improving.
 
-# Overview | Infection at the tip of the temporal bone.
-## Definition
-Inflammation, and sometimes abscess, of the air cells of the petrous apex, spreading from acute or chronic otitis media and [[t:mastoiditis|mastoiditis]].
-## Why only some people get it
-Only about 30% of petrous apices are pneumatised; the rest are diploic (marrow-filled) or sclerotic. Infection can only track into an aerated apex.
-!fig d1-15 | A pneumatised petrous apex.
-## Why it matters
-The apex lies against the sixth nerve, the trigeminal ganglion, the internal carotid artery and the meninges. Infection there can cause meningitis, carotid injury and skull base osteomyelitis.
+# Summary | Infection at the tip of the temporal bone.
+Petrous apicitis is inflammation, and sometimes abscess, of the air cells of the petrous apex, spreading from acute or chronic otitis media and [[t:mastoiditis|mastoiditis]]. The apex lies against the sixth nerve, the trigeminal ganglion, the internal carotid artery and the meninges, which explains Gradenigo's triad and the dangerous complications. CT and MRI are both needed. Most acute cases now settle on intravenous antibiotics with treatment of the middle ear; surgery is kept for an abscess or failure.
 
-# Applied anatomy | Tracts into the apex.
+# Etiology | Why only some people get it.
+- **Source:** acute or chronic otitis media and mastoiditis.
+- **Pneumatisation:** only about 30% of petrous apices are pneumatised; the rest are diploic (marrow-filled) or sclerotic. Infection can only track into an aerated apex.
+!fig d1-15 | A pneumatised petrous apex.
+
+# Pathophysiology | Tracts into the apex, and its neighbours.
 ## Air cell tracts
 The middle ear and mastoid connect with the apex by perilabyrinthine cell tracts:
 - **Posterosuperior:** from the mastoid and antrum, above and behind the labyrinth, through *Trautmann's triangle* and the subarcuate region.
@@ -34,18 +34,21 @@ Fever, headache, neck stiffness and vomiting suggest meningeal spread; the seven
 Persistent discharge or deep pain despite an adequate mastoidectomy, or new pain after the ear has apparently settled.
 !!
 
-# Investigations | You need both CT and MRI.
+# Diagnosis | You need both CT and MRI.
 ## High-resolution CT
 Shows the pneumatisation of the apex, breakdown of the cell septa and erosion of the bone.
 ## MRI with contrast
 Separates marrow from fluid or pus (diffusion-weighted imaging separates apicitis from cholesterol granuloma, cholesteatoma and effusion), shows dural enhancement and intracranial spread, and assesses the carotid and cavernous sinus. MR venography looks for venous sinus thrombosis.
 !imaging | Petrositis, Gradenigo syndrome and apical pseudotumours.
-## Differential diagnosis
+
+# Differential diagnosis | Other lesions of the apex.
+## The list
 - **Apical effusion:** fluid in an aerated apex, usually asymptomatic.
 - **Asymmetric marrow:** a non-pneumatised apex full of fat that looks abnormal on MRI; a common false alarm.
 - **Cholesterol granuloma:** bright on both T1 and T2, expanding slowly.
 - **Cholesteatoma** of the apex.
-- **Nasopharyngeal carcinoma** and other skull base tumours.
+- **Nasopharyngeal carcinoma** and other skull base tumours. Lower cranial nerve palsies with an apex lesion raise concern for malignancy.
+## On MRI and CT
 !table Petrous apex lesions on MRI
 Lesion | T1 | T2 | Diffusion and enhancement | CT
 Asymmetric marrow (fat) | Bright, suppresses with fat saturation | Intermediate | No restriction | Normal bone, non-pneumatised apex
@@ -55,7 +58,8 @@ Cholesteatoma or epidermoid | Dark | Bright | Restricted diffusion | Smooth eros
 Apicitis | Dark | Bright | Enhancing, with dural reaction | Destroyed septa
 Chordoma or chondrosarcoma | Intermediate | Very bright | Heterogeneous enhancement | Bone destruction; clivus or petroclival fissure
 !!
-Cholesterol granuloma is the commonest primary apex lesion, about ten times commoner than apical cholesteatoma, and forms when bleeding fills an obstructed air cell. Asymptomatic lesions are watched with serial imaging; symptomatic ones are drained, preserving hearing where possible, through an infracochlear or infralabyrinthine route, or endoscopically through the sphenoid when the lesion abuts it. Lower cranial nerve palsies with an apex lesion raise concern for malignancy.
+## Cholesterol granuloma
+The commonest primary apex lesion, about ten times commoner than apical cholesteatoma, and forms when bleeding fills an obstructed air cell. Asymptomatic lesions are watched with serial imaging; symptomatic ones are drained, preserving hearing where possible, through an infracochlear or infralabyrinthine route, or endoscopically through the sphenoid when the lesion abuts it.
 
 # Management | Antibiotics first.
 ## Medical treatment
@@ -66,17 +70,17 @@ For an abscess, bone necrosis, or failure of medical treatment. The route follow
 - **Dead ear:** translabyrinthine or transcochlear routes, which give the widest access.
 - **Medially placed lesions:** endoscopic transsphenoidal drainage is increasingly used.
 !ops
+!update Current evidence
+**Treatment.** Modern case series show that most petrous apicitis responds to intravenous antibiotics with myringotomy or grommet, or cortical mastoidectomy; apical drainage is kept for failure of medical treatment. Gradenigo's full triad is present in only a minority.
+!!
 
 # Complications | Neighbours at risk.
 - Meningitis and other intracranial infection ([[t:icc]]).
 - Injury to or thrombosis of the internal carotid artery.
 - Skull base osteomyelitis.
 - Cavernous sinus thrombosis.
-!update Current evidence
-**Treatment.** Modern case series show that most petrous apicitis responds to intravenous antibiotics with myringotomy or grommet, or cortical mastoidectomy; apical drainage is kept for failure of medical treatment. Gradenigo's full triad is present in only a minority.
-!!
 
-# For the examination | What the examiner wants to hear.
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Gradenigo's triad,** and the anatomy behind each part: Meckel's cave and Dorello's canal.
@@ -90,3 +94,14 @@ For an abscess, bone necrosis, or failure of medical treatment. The route follow
 - Missing the diagnosis because the ear seemed to be getting better.
 - Waiting for the full triad.
 !!
+## Related topics
+- **The source:** [[t:mastoiditis]], [[t:om]], [[t:chole]]
+- **Intracranial spread:** [[t:icc]]
+- **Other apex and skull base lesions:** [[t:skullbase]], [[t:tumear]], [[t:npc]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 18.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 19.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapters 1 and 12.
+- K. J. Lee, *Essential Otolaryngology*, chapters 13 and 22.

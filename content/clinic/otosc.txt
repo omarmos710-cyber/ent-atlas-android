@@ -1,14 +1,27 @@
+@layout amboss
 @stand Otosclerosis is a disease of the bony capsule of the inner ear, in which dense bone is remodelled into spongy bone that can lock the stapes in the oval window. The patient is usually a young adult with slowly worsening hearing and a perfectly normal drum; the cure, when it is needed, is one of the most satisfying operations in otology.
 
-# Overview | A young adult, a normal drum, and a hearing loss that keeps creeping on.
-## Definition
-Otosclerosis, also called *otospongiosis*, is a primary disease of the otic capsule. Normal dense enchondral bone is replaced by vascular, spongy bone that later hardens again. When a focus reaches the oval window it fixes the stapes footplate and causes a conductive hearing loss; when it involves the cochlea it can add a sensorineural loss.
-## Epidemiology
-The histological disease is far commoner than the clinical one. Histological foci are found in about 3 to 4% of temporal bones (up to 8 to 12% in white adults in some series), but clinical otosclerosis affects only about 0.5 to 2% of adults, rising to 3% over 60. It is less common in Black and Asian populations. Hearing loss usually begins between 20 and 30 years of age; onset before 10 or after 40 is unusual.
-## Why it matters
-Otosclerosis is the classic cause of progressive conductive deafness behind an intact, normal-looking drum. It is entirely treatable, with a hearing aid or with surgery that restores hearing in nine patients out of ten. But the operation opens the inner ear, and a small number of patients lose the hearing in that ear altogether, so the decision to operate is a careful one.
+# Summary | A young adult, a normal drum, and a hearing loss that keeps creeping on.
+Otosclerosis, also called *otospongiosis*, is a primary disease of the otic capsule. Normal dense enchondral bone is replaced by vascular, spongy bone that later hardens again. When a focus reaches the oval window it fixes the stapes footplate and causes a conductive hearing loss; when it involves the cochlea it can add a sensorineural loss. It is the classic cause of progressive conductive deafness behind an intact, normal-looking drum. It is entirely treatable, with a hearing aid or with surgery that restores hearing in nine patients out of ten. But the operation opens the inner ear, and a small number of patients lose the hearing in that ear altogether, so the decision to operate is a careful one.
 
-# Pathology | A remodelling disease of the otic capsule.
+# Epidemiology | Common in the bone, less common in the clinic.
+- **Histological disease** is far commoner than the clinical one: foci are found in about 3 to 4% of temporal bones (up to 8 to 12% in white adults in some series).
+- **Clinical otosclerosis** affects only about 0.5 to 2% of adults, rising to 3% over 60. It is less common in Black and Asian populations.
+- **Age:** hearing loss usually begins between 20 and 30 years of age; onset before 10 or after 40 is unusual.
+- **Sex:** women outnumber men about two to one in surgical series, although population data suggest similar prevalence with more severe disease in women.
+
+# Etiology | Genes, hormones, and perhaps a virus.
+## Heredity
+A family history is found in 25 to 50% of patients, about half in many series. Inheritance is autosomal dominant with incomplete penetrance, and several genetic loci have been described.
+## Hormones and triggers
+The hearing loss may begin or accelerate during pregnancy, around the menopause, or after an accident or major operation.
+## Associations
+### Osteogenesis imperfecta
+Brittle bones, blue sclerae and conductive deafness form *van der Hoeve syndrome*. The otic capsule lesions look identical to otosclerosis under the microscope, and both involve genes for type I collagen.
+### Measles virus
+Measles RNA and antigens have been found in active foci, and some argue for a viral cause, as has been proposed for Paget's disease.
+
+# Pathophysiology | A remodelling disease of the otic capsule.
 ## The otic capsule
 The bony labyrinth is formed from three layers: an outer periosteal layer, an inner endosteal layer, and a middle enchondral layer that normally stays dense and inert throughout life. Otosclerosis is a disease of that middle layer. Its favourite site is the *fissula ante fenestram*, a small cleft of fibrous tissue just in front of the oval window.
 !fig d13-1 | The bony and membranous labyrinth. The otosclerotic focus usually begins just in front of the oval window, where it can fix the stapes footplate.
@@ -19,30 +32,11 @@ Grossly, a focus may look chalky white, grey or yellow; a red, vascular focus is
 Immature lesions are full of marrow and vascular spaces, with osteoclasts resorbing bone and osteoblasts laying down new bone. Cement substance around the vessels stains blue with haematoxylin and eosin, forming the *blue mantles of Manasse*, the histological mark of activity.
 ### Mature (sclerotic) phase
 Older foci are less vascular, with more laminated bone and fibrillar matrix that stains red. Hearing loss reflects where the focus sits, not how active it is.
-## Types of otosclerosis
-### Stapedial otosclerosis
-The commonest clinical form, causing stapes fixation and conductive loss. The focus may be:
-- **Anterior:** at the fissula ante fenestram, the site of predilection.
-- **Posterior:** behind the oval window.
-- **Circumferential:** around the margin of the footplate.
-- **Biscuit type:** within a thickened footplate, the annular ligament still free.
-- **Obliterative:** filling the whole oval window niche.
-!fig d13-2 | Types of stapedial otosclerosis: (A) anterior focus, (B) posterior focus, (C) circumferential, (D) biscuit type with a thick footplate, (E) obliterative.
-### Cochlear otosclerosis
-Foci around the round window or elsewhere in the cochlear capsule cause sensorineural loss, probably from enzymes and toxic products released into the inner ear fluids. It is often combined with stapedial disease, giving a mixed loss.
-### Histological otosclerosis
-Foci that touch neither the stapes nor the cochlea remain silent and are found only at post-mortem.
-
-# Aetiology | Genes, hormones, and perhaps a virus.
-## Heredity
-A family history is found in 25 to 50% of patients, about half in many series. Inheritance is autosomal dominant with incomplete penetrance, and several genetic loci have been described.
-## Sex and hormones
-Women outnumber men about two to one in surgical series, although population data suggest similar prevalence with more severe disease in women. The hearing loss may begin or accelerate during pregnancy, around the menopause, or after an accident or major operation.
-## Associations
-### Osteogenesis imperfecta
-Brittle bones, blue sclerae and conductive deafness form *van der Hoeve syndrome*. The otic capsule lesions look identical to otosclerosis under the microscope, and both involve genes for type I collagen.
-### Measles virus
-Measles RNA and antigens have been found in active foci, and some argue for a viral cause, as has been proposed for Paget's disease.
+## How the hearing is lost
+- **Stapes fixation:** a focus at the oval window gives a conductive loss.
+- **Cochlear involvement:** enzymes and toxic products released into the inner ear fluids probably cause a sensorineural loss ([[8.2]]).
+## Natural history
+Untreated, the air-bone gap widens by about 1 dB a year, with a further 1 dB a year of sensorineural decline.
 
 # Clinical features | The history usually tells you; the drum does not.
 ## Symptoms
@@ -56,11 +50,14 @@ Tinnitus is common, especially with cochlear involvement and active disease. Ver
 Because the patient hears their own voice loudly by bone conduction, they speak softly, in a monotonous, well-modulated voice.
 ## Signs
 The tympanic membrane is normal and mobile, and Eustachian tube function is normal. In about one in ten, a pink blush shows through the drum over the promontory: *Schwartze sign*, which reflects increased vascularity in an active focus.
-!pearl Clinical pearl
-A conductive loss with a normal drum has a short differential: otosclerosis, ossicular discontinuity, malleus head fixation, and superior canal dehiscence. The stapedial reflex separates the last of these (see [[5.4]] and [[t:scd]]).
-!!
 
-# Investigations | Forks, audiogram and impedance tell the story.
+# Diagnosis | Forks, audiogram and impedance tell the story.
+## Approach
+- **Tuning forks:** Rinne negative, Weber to the worse ear.
+- **Pure-tone audiogram:** air-bone gap with Carhart's notch.
+- **Speech audiometry:** good discrimination unless the cochlea is involved.
+- **Impedance:** As tympanogram; stapedial reflex absent.
+- **CT:** not routine; only for the indications below.
 ## Tuning forks
 Rinne turns negative first at 256 Hz, then at 512 Hz and finally at 1024 Hz as fixation progresses, so the forks give a rough measure of the air-bone gap. Weber lateralises to the ear with the greater conductive loss. Absolute bone conduction is normal, unless the cochlea is involved.
 !differ Air-bone gap that turns each fork negative
@@ -87,6 +84,7 @@ High-resolution CT is not needed routinely. It is useful when the loss progresse
 
 # Differential diagnosis | Other causes of a conductive loss.
 ## Conductive loss with a normal drum
+A conductive loss with a normal drum has a short differential: otosclerosis, ossicular discontinuity, malleus head fixation, and superior canal dehiscence. The stapedial reflex separates the last of these ([[6.5.2]] and [[t:scd]]).
 !table How to tell them apart
  | Clue | Key test
 Otosclerosis | Young adult, progressive, family history | Absent reflex, Carhart's notch
@@ -96,10 +94,26 @@ Ossicular discontinuity | Trauma or previous infection | Hypermobile drum, Ad ty
 Congenital stapes fixation | Childhood onset, non-progressive | Flat 50–60 dB loss, no Carhart's notch
 !!
 ## Conductive loss with an abnormal drum
-Otitis media with effusion, adhesive otitis media and tympanosclerosis are separated by otoscopy and tympanometry.
+Otitis media with effusion, adhesive otitis media and tympanosclerosis are separated by otoscopy and tympanometry ([[t:om]], [[t:tmperf]]).
+
+# Subtypes and variants | Where the focus sits.
+## Stapedial otosclerosis
+The commonest clinical form, causing stapes fixation and conductive loss. The focus may be:
+- **Anterior:** at the fissula ante fenestram, the site of predilection.
+- **Posterior:** behind the oval window.
+- **Circumferential:** around the margin of the footplate.
+- **Biscuit type:** within a thickened footplate, the annular ligament still free.
+- **Obliterative:** filling the whole oval window niche.
+!fig d13-2 | Types of stapedial otosclerosis: (A) anterior focus, (B) posterior focus, (C) circumferential, (D) biscuit type with a thick footplate, (E) obliterative.
+## Cochlear otosclerosis
+Foci around the round window or elsewhere in the cochlear capsule cause sensorineural loss, probably from enzymes and toxic products released into the inner ear fluids. It is often combined with stapedial disease, giving a mixed loss.
+## Histological otosclerosis
+Foci that touch neither the stapes nor the cochlea remain silent and are found only at post-mortem.
+## Far-advanced otosclerosis
+Thresholds worse than about 85 dB with unmeasurable bone conduction; managed as in [[9.6]].
 
 # Management | Watch, aid, or operate.
-## The three options
+## Approach
 !tree Otosclerosis
 Mild loss | Observation | review hearing yearly
 Any loss | Hearing aid | effective, no risk; the choice for an only hearing ear
@@ -107,14 +121,15 @@ Suitable gap | Stapes surgery | closes the gap in about 90%
 Far advanced | Cochlear implant | when aids no longer help
 !!
 Each is legitimate. The patient chooses after an honest account of the benefits and the small risk of losing the hearing in the operated ear.
-## Natural history
-Untreated, the air-bone gap widens by about 1 dB a year, with a further 1 dB a year of sensorineural decline.
 ## Medical treatment
 No drug reverses fixation. *Sodium fluoride* has been used to hasten maturation of active foci and slow sensorineural progression in cochlear otosclerosis.
 !differ Sodium fluoride
 Dhingra: Controversial, and not generally recommended.
 Lee: Widely accepted for progressive cochlear disease, though not FDA approved.
 In practice: Considered by some for active disease with progressive sensorineural loss, a positive Schwartze sign or a halo on CT; not used routinely in the UK because the evidence is weak. Bisphosphonates remain experimental.
+!!
+!update Current evidence
+**Fluoride.** A systematic review found only limited, low-quality evidence that sodium fluoride slows hearing deterioration (Hentschel et al., *Otol Neurotol* 2014); a 2026 meta-analysis of ten mostly observational studies (2352 patients) found fluoride associated with hearing stabilisation, but randomised evidence remains thin (Hughes et al., *Otolaryngol Head Neck Surg* 2026).
 !!
 ## Hearing aid
 Offer one to every patient before surgery: an excellent alternative for those who do not want surgery or are unfit for it, and the treatment of choice for an only hearing ear. Conductive losses aid particularly well. A bone-conduction device suits those who cannot wear an aid and decline surgery ([[t:rehab]]).
@@ -151,34 +166,10 @@ The operation is usually done under local anaesthesia through the ear canal.
 ### Results
 Small fenestra stapedotomy closes the air-bone gap to within 10 dB in 80% to over 95% of ears, about 90% in experienced hands. Carhart's notch disappears with it. Pre-existing tinnitus improves in about three-quarters and worsens in about 5%.
 !ops
-## Far-advanced otosclerosis
-Thresholds worse than about 85 dB with unmeasurable bone conduction. Stapedotomy with a powerful hearing aid is tried first in selected patients, then a cochlear implant if that fails; an active middle ear implant coupled to a stapedotomy piston suits patients whose hearing is too good for an implant. Otosclerotic bone can cause facial nerve stimulation by the implant.
-## Historical operations
-Stapes mobilisation gave only temporary benefit, as the stapes refixed. Lempert's fenestration created a new window in the lateral semicircular canal; it left a mastoid cavity and an inherent loss of about 25 dB, and is now obsolete.
 !update Current evidence
-**Surgery.** Large series of small fenestra stapedotomy report closure of the air-bone gap to within 10 dB in about 90% and total sensorineural loss in under 1%, with laser and microdrill techniques giving similar results; stapedotomy has better high-frequency and safety results than stapedectomy in comparative series. **Far-advanced disease.** A review-based strategy recommends stapedotomy with a hearing aid first when speech discrimination with an aid is reasonable, and cochlear implantation otherwise, noting a higher risk of facial nerve stimulation in otosclerotic ears (Merkus et al., *Laryngoscope* 2011). **Fluoride.** A systematic review found only limited, low-quality evidence that sodium fluoride slows hearing deterioration (Hentschel et al., *Otol Neurotol* 2014); a 2026 meta-analysis of ten mostly observational studies (2352 patients) found fluoride associated with hearing stabilisation, but randomised evidence remains thin (Hughes et al., *Otolaryngol Head Neck Surg* 2026).
+**Surgery.** Large series of small fenestra stapedotomy report closure of the air-bone gap to within 10 dB in about 90% and total sensorineural loss in under 1%, with laser and microdrill techniques giving similar results; stapedotomy has better high-frequency and safety results than stapedectomy in comparative series.
 !!
-
-# Complications of stapes surgery | Rare, but the patient must hear about them beforehand.
-## During the operation
-- **Tear of the tympanomeatal flap,** which can leave a perforation.
-- **Chorda tympani injury,** causing a metallic taste in 5–10% long term (up to 30% briefly), worse if the opposite chorda was already damaged.
-- **Incus dislocation.**
-- **Floating footplate,** which drops into the vestibule if pushed.
-- **Perilymph gusher,** about 1 in 300, more likely with a wide cochlear aqueduct, especially in X-linked deafness.
-- **Facial nerve injury,** more likely with a dehiscent or overhanging nerve.
-## Early after surgery
-### Vertigo
-Usually from surgical trauma, serous labyrinthitis or a prosthesis that is too long. Persistent severe vertigo needs urgent review.
-### Reparative granuloma
-Rising sensorineural loss and vertigo at one to two weeks; needs urgent re-exploration.
-## Late complications
-### Conductive loss returning
-A short, loose or displaced prosthesis, or erosion of the incus (the commonest finding at revision, in about 5%).
-### Perilymph fistula
-Fluctuating hearing and vertigo, often after straining or barotrauma ([[t:fistula]]).
-### Sensorineural loss
-About 2% have some sensorineural loss; about 0.5 to 1% lose all hearing in the operated ear (a *dead ear*). A slow high-frequency loss may appear over the years.
+## After stapes surgery
 !ward After stapes surgery
 1. Lie the patient with the operated ear up for the first hours; expect mild unsteadiness.
 2. Vertigo with nystagmus, sudden hearing loss or facial weakness needs same-day senior review. A delayed facial palsy usually recovers fully within about six weeks on oral steroids.
@@ -186,8 +177,38 @@ About 2% have some sensorineural loss; about 0.5 to 1% lose all hearing in the o
 4. Avoid water in the ear until the flap has healed.
 5. Book an audiogram at about six weeks.
 !!
+## Far-advanced otosclerosis
+Thresholds worse than about 85 dB with unmeasurable bone conduction. Stapedotomy with a powerful hearing aid is tried first in selected patients, then a cochlear implant if that fails; an active middle ear implant coupled to a stapedotomy piston suits patients whose hearing is too good for an implant. Otosclerotic bone can cause facial nerve stimulation by the implant.
+!update Current evidence
+**Far-advanced disease.** A review-based strategy recommends stapedotomy with a hearing aid first when speech discrimination with an aid is reasonable, and cochlear implantation otherwise, noting a higher risk of facial nerve stimulation in otosclerotic ears (Merkus et al., *Laryngoscope* 2011).
+!!
+## Historical operations
+Stapes mobilisation gave only temporary benefit, as the stapes refixed. Lempert's fenestration created a new window in the lateral semicircular canal; it left a mastoid cavity and an inherent loss of about 25 dB, and is now obsolete.
 
-# For the examination | What the examiner wants to hear.
+# Complications | Of the disease and of stapes surgery.
+## Of the disease
+Progressive conductive loss, with sensorineural decline when the cochlea is involved ([[4.4]]).
+## Of stapes surgery: during the operation
+- **Tear of the tympanomeatal flap,** which can leave a perforation.
+- **Chorda tympani injury,** causing a metallic taste in 5–10% long term (up to 30% briefly), worse if the opposite chorda was already damaged.
+- **Incus dislocation.**
+- **Floating footplate,** which drops into the vestibule if pushed.
+- **Perilymph gusher,** about 1 in 300, more likely with a wide cochlear aqueduct, especially in X-linked deafness.
+- **Facial nerve injury,** more likely with a dehiscent or overhanging nerve.
+## Of stapes surgery: early
+### Vertigo
+Usually from surgical trauma, serous labyrinthitis or a prosthesis that is too long. Persistent severe vertigo needs urgent review.
+### Reparative granuloma
+Rising sensorineural loss and vertigo at one to two weeks; needs urgent re-exploration.
+## Of stapes surgery: late
+### Conductive loss returning
+A short, loose or displaced prosthesis, or erosion of the incus (the commonest finding at revision, in about 5%).
+### Perilymph fistula
+Fluctuating hearing and vertigo, often after straining or barotrauma ([[t:fistula]]).
+### Sensorineural loss
+About 2% have some sensorineural loss; about 0.5 to 1% lose all hearing in the operated ear (a *dead ear*). A slow high-frequency loss may appear over the years.
+
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Site of predilection:** the fissula ante fenestram.
@@ -198,6 +219,10 @@ About 2% have some sensorineural loss; about 0.5 to 1% lose all hearing in the o
 - **van der Hoeve syndrome:** osteogenesis imperfecta, blue sclerae, deafness.
 - **Dead ear** risk of about 0.5 to 1% (about 1 in 200), and gusher in X-linked deafness.
 !!
+## Pearls
+!pearl Clinical pearl
+A conductive loss with a normal drum has a short differential: otosclerosis, ossicular discontinuity, malleus head fixation, and superior canal dehiscence. The stapedial reflex separates the last of these ([[t:scd]]).
+!!
 ## Common pitfalls
 !pit
 - Operating on the only or better-hearing ear.
@@ -205,3 +230,20 @@ About 2% have some sensorineural loss; about 0.5 to 1% lose all hearing in the o
 - Reading Carhart's notch as a true cochlear loss and turning a good candidate away.
 - Forgetting to ask about occupation, flying and diving before offering surgery.
 !!
+## Related topics
+- **Look-alike:** [[t:scd]]
+- **Hearing tests:** [[t:audio]]
+- **Aids and implants:** [[t:rehab]]
+- **Operations:** [[t:earsurg]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 20.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 16.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 6.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapter 13.
+- K. J. Lee, *Essential Otolaryngology*, chapters 19 and 23.
+## Studies cited
+- Merkus et al., *Laryngoscope* 2011: far-advanced otosclerosis.
+- Hentschel et al., *Otol Neurotol* 2014: sodium fluoride, systematic review.
+- Hughes et al., *Otolaryngol Head Neck Surg* 2026: sodium fluoride, meta-analysis.

@@ -1,20 +1,13 @@
+@layout amboss
 @stand A patient who wakes with one ear suddenly dull, and a drum that looks completely normal, has an otological emergency until the tuning forks and an audiogram say otherwise. Treat early with steroids, then look for a cause: most cases are idiopathic, but a few hide a tumour, a stroke or an infection.
 
-# Overview | Deafness overnight.
-## Definition
-A sensorineural hearing loss of 30 dB or more over at least three contiguous frequencies, developing within three days.
-## Epidemiology
-About 5 to 27 per 100,000 people a year, rising with age and commonest in middle and later life, equally in men and women. It is almost always one-sided; simultaneous loss in both ears is rare and points to a systemic or central cause.
-## Why it matters
-Time matters: treatment works best in the first two weeks. And a minority have a serious underlying cause, including vestibular schwannoma and posterior circulation stroke.
+# Summary | Deafness overnight.
+Sudden sensorineural hearing loss is a loss of 30 dB or more over at least three contiguous frequencies, developing within three days. It is almost always one-sided, with a normal drum; tuning forks (Weber to the good ear, Rinne positive) separate it from wax and fluid. Time matters: treatment works best in the first two weeks, so steroids are offered early, orally or intratympanically. Most cases are idiopathic, but a minority have a serious underlying cause, including vestibular schwannoma and posterior circulation stroke, so every patient has an MRI.
 
-# Causes | Usually idiopathic, but exclude the rest.
-## Idiopathic
-Most cases have no identifiable cause. Three theories compete, and each may be right for some patients:
-- **Viral:** cochleitis or neuritis, supported by seasonal clusters and viral serology.
-- **Vascular:** thrombosis, embolism, spasm or haemorrhage in the labyrinthine artery, an end artery.
-- **Membrane rupture:** of the cochlear membranes or the round window, letting perilymph leak.
-!anat s83_20 | Branches of the labyrinthine artery, an end artery, which explains the vascular theory.
+# Epidemiology | Who gets it.
+About 5 to 27 per 100,000 people a year, rising with age and commonest in middle and later life, equally in men and women. It is almost always one-sided; simultaneous loss in both ears is rare and points to a systemic or central cause.
+
+# Etiology | Usually idiopathic, but exclude the rest.
 ## Identifiable causes
 !tree Causes to exclude
 Infection | Mumps, measles, herpes zoster | meningitis, syphilis, acute otitis media, HIV
@@ -27,6 +20,15 @@ Other | Ototoxic drugs | multiple sclerosis, hypothyroidism, sarcoidosis, autoim
 !pearl Perilymph fistula
 A leak at the oval or round window may follow stapes surgery, barotrauma, heavy lifting or straining. Spontaneous fistula is possible but probably over-diagnosed ([[t:fistula]]).
 !!
+## Idiopathic
+Most cases have no identifiable cause; the theories are in [[4]].
+
+# Pathophysiology | Three theories of the idiopathic loss.
+Three theories compete, and each may be right for some patients:
+- **Viral:** cochleitis or neuritis, supported by seasonal clusters and viral serology.
+- **Vascular:** thrombosis, embolism, spasm or haemorrhage in the labyrinthine artery, an end artery.
+- **Membrane rupture:** of the cochlear membranes or the round window, letting perilymph leak.
+!anat s83_20 | Branches of the labyrinthine artery, an end artery, which explains the vascular theory.
 
 # Clinical features | One ear, often on waking.
 ## Symptoms
@@ -42,7 +44,12 @@ The canal and drum are normal. Tuning forks are the key bedside test: Weber late
 A blocked ear after a cold, a swim or a flight can be sudden sensorineural loss. If you assume wax or fluid without doing forks, the window for treatment can close.
 !!
 
-# Investigations | Confirm, then search.
+# Diagnosis | Confirm, then search.
+## Approach
+- **Every patient:** tuning forks, then a pure-tone audiogram the same or the next day, and tympanometry.
+- **Every patient:** MRI of the internal auditory canals once the acute phase allows.
+- **Blood tests** only when the history suggests them.
+- **Exploration** only when a fistula is strongly suspected.
 ## Audiometry
 Pure-tone audiogram with masking, and speech discrimination. The pattern (low-frequency, high-frequency, flat or total) helps prognosis.
 !fig d5-6 | Audiogram of a right ear with sensorineural loss: air and bone conduction fall together, with no air-bone gap.
@@ -55,16 +62,17 @@ MRI of the internal auditory canals and cerebellopontine angles with gadolinium,
 Not routine for everyone: the American guideline advises against routine laboratory tests, because they rarely change management. Request them when the history suggests them: glucose (before steroids), full blood count and ESR, syphilis serology, and autoimmune tests for bilateral or fluctuating loss.
 ## Exploration
 Exploratory tympanotomy only when a fistula is strongly suspected, after trauma or straining.
-## Differential diagnosis
-- Wax or middle ear effusion: forks and tympanometry.
+
+# Differential diagnosis | Other causes of a sudden dull ear.
+- **Wax or middle ear effusion:** forks and tympanometry.
 - [[t:meniere|Ménière's disease]]: fluctuation, low-frequency loss, attacks of vertigo.
 - [[t:vs|Vestibular schwannoma]]: MRI.
-- Anterior inferior cerebellar artery stroke: vertigo, ataxia, facial weakness.
-- Non-organic hearing loss: inconsistent results, objective tests normal.
+- **Anterior inferior cerebellar artery stroke:** vertigo, ataxia, facial weakness.
+- **Non-organic hearing loss:** inconsistent results, objective tests normal.
 
 # Management | Early steroids, then rehabilitation.
-## On the day
-!ward Sudden hearing loss in clinic or the emergency department
+## Approach
+!ward On call: sudden hearing loss in clinic or the emergency department
 1. Do the forks: Weber to the good ear, Rinne positive in the bad ear.
 2. Look for wax; don't accept a blocked ear without testing.
 3. Arrange an audiogram the same or the next day.
@@ -76,18 +84,28 @@ Exploratory tympanotomy only when a fistula is strongly suspected, after trauma 
 ### Oral
 Prednisolone 1 mg/kg (up to about 60 mg) a day for 7 to 14 days, then tapered, started as early as possible and ideally within two weeks (benefit is unlikely after six weeks). Check glucose and blood pressure, and warn about mood, sleep and stomach effects. An alternative regimen is 40 to 60 mg each morning for a week, tapered over three weeks. Higher doses do not help: in the HODOKORT trial, very high-dose glucocorticoids gave no better hearing than the standard dose and caused more side effects.
 ### Intratympanic
-Dexamethasone or methylprednisolone injected through the drum, usually several injections over one to two weeks. As first-line treatment it works as well as oral steroids, so it suits patients in whom systemic steroids are unsafe (poorly controlled diabetes, for example). As salvage, within two to six weeks of onset when oral treatment has failed, it adds a modest further gain. Risks: pain, transient vertigo, and a persistent perforation in a few.
-## Other treatments
-Antivirals, vasodilators, vasoactive drugs and antioxidants have no proven benefit and are not recommended. **Hyperbaric oxygen** is an option alongside steroids if it can be started within two weeks of onset (or within a month as salvage), and meta-analyses show a modest gain in hearing; access and cost limit it. Older adjuncts such as bed rest, carbogen, dextran and a low-salt diet have not beaten natural recovery.
+Dexamethasone or methylprednisolone injected through the drum, usually several injections over one to two weeks.
+- **First line:** works as well as oral steroids, so it suits patients in whom systemic steroids are unsafe (poorly controlled diabetes, for example).
+- **Salvage:** within two to six weeks of onset when oral treatment has failed, it adds a modest further gain.
+- **Risks:** pain, transient vertigo, and a persistent perforation in a few.
+## Hyperbaric oxygen
+An option alongside steroids if it can be started within two weeks of onset (or within a month as salvage), and meta-analyses show a modest gain in hearing; access and cost limit it.
+## Treatments not recommended
+Antivirals, vasodilators, vasoactive drugs and antioxidants have no proven benefit and are not recommended. Older adjuncts such as bed rest, carbogen, dextran and a low-salt diet have not beaten natural recovery.
 !differ Adjunct treatments
 Dhingra: Lists carbogen, low salt and hyperbaric oxygen among the options, while noting that no treatment has proven better than spontaneous recovery.
 Lee: Recommends steroids, orally or intratympanically; finds no evidence for antivirals.
 American guideline (2019): steroids may be offered within two weeks; intratympanic steroid as salvage within two to six weeks; hyperbaric oxygen as an option; antivirals, vasodilators and routine CT not recommended.
 In practice: Steroids (oral, or intratympanic when oral steroids are unsafe) within two weeks; intratympanic salvage at two to six weeks; hyperbaric oxygen if available; no antivirals or vasodilators.
 !!
+!update Current evidence
+The American clinical practice guideline (Chandrasekhar et al., *Otolaryngol Head Neck Surg* 2019) recommends audiometry and MRI for retrocochlear causes, steroids as an option within two weeks, intratympanic steroids for salvage within two to six weeks, and hyperbaric oxygen as an option; it advises against routine laboratory tests, CT and antivirals. In the HODOKORT trial of 325 patients in Germany, higher-dose glucocorticoids were no better than the standard dose at 30 days and caused more hyperglycaemia and hypertension (Plontke et al., *NEJM Evid* 2024). A Cochrane review found the evidence for systemic steroids weak and of low quality (Wei et al., 2013). As first-line treatment, intratympanic and systemic steroids gave similar hearing gains in a meta-analysis of seven trials (Mirian and Ovesen, *JAMA Otolaryngol Head Neck Surg* 2020). Adding hyperbaric oxygen to medical therapy improved hearing by about 10 dB in a meta-analysis of three trials (Joshua et al., *JAMA Otolaryngol Head Neck Surg* 2022).
+!!
 ## Rehabilitation
 If recovery is poor: a hearing aid for a partial loss, or a CROS aid, bone-conduction device or cochlear implant for single-sided deafness ([[t:rehab]]). Tinnitus counselling as needed.
 !ops
+## Follow-up
+Repeat the audiogram during treatment and at the end. Counsel the patient to protect the other ear from noise and ototoxic drugs.
 
 # Prognosis | What predicts recovery.
 Between a third and two-thirds of patients recover partly or fully, much of it spontaneously and mostly within the first two weeks; recovery after three months is unusual.
@@ -100,13 +118,8 @@ Age | Younger | Older
 Treatment | Early | Late
 Early recovery | Within two weeks | None by two weeks
 !!
-## Follow-up
-Repeat the audiogram during treatment and at the end. Counsel the patient to protect the other ear from noise and ototoxic drugs.
-!update Current evidence
-The American clinical practice guideline (Chandrasekhar et al., *Otolaryngol Head Neck Surg* 2019) recommends audiometry and MRI for retrocochlear causes, steroids as an option within two weeks, intratympanic steroids for salvage within two to six weeks, and hyperbaric oxygen as an option; it advises against routine laboratory tests, CT and antivirals. In the HODOKORT trial of 325 patients in Germany, higher-dose glucocorticoids were no better than the standard dose at 30 days and caused more hyperglycaemia and hypertension (Plontke et al., *NEJM Evid* 2024). A Cochrane review found the evidence for systemic steroids weak and of low quality (Wei et al., 2013). As first-line treatment, intratympanic and systemic steroids gave similar hearing gains in a meta-analysis of seven trials (Mirian and Ovesen, *JAMA Otolaryngol Head Neck Surg* 2020). Adding hyperbaric oxygen to medical therapy improved hearing by about 10 dB in a meta-analysis of three trials (Joshua et al., *JAMA Otolaryngol Head Neck Surg* 2022).
-!!
 
-# For the examination | What the examiner wants to hear.
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **The definition:** 30 dB, three frequencies, three days.
@@ -124,3 +137,22 @@ The American clinical practice guideline (Chandrasekhar et al., *Otolaryngol Hea
 - Forgetting MRI once the acute phase has passed.
 - Missing a stroke in a patient with vertigo and ataxia.
 !!
+## Related topics
+- **Causes to exclude:** [[t:vs]], [[t:meniere]], [[t:fistula]]
+- **Other inner ear loss:** [[t:sensori]]
+- **Approach:** [[t:hl]]
+- **Rehabilitation:** [[t:rehab]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 11.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 18.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 7.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapter 5.
+- K. J. Lee, *Essential Otolaryngology*, chapter 23.
+## Studies cited
+- Chandrasekhar et al., *Otolaryngol Head Neck Surg* 2019: American clinical practice guideline.
+- Plontke et al., *NEJM Evid* 2024: the HODOKORT trial.
+- Wei et al., Cochrane review, 2013: systemic steroids.
+- Mirian and Ovesen, *JAMA Otolaryngol Head Neck Surg* 2020: intratympanic versus systemic steroids.
+- Joshua et al., *JAMA Otolaryngol Head Neck Surg* 2022: hyperbaric oxygen.

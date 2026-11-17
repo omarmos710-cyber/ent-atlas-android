@@ -1,20 +1,69 @@
+@layout amboss
 @stand Speech and language are built between birth and five years, and they are built on hearing. A child who does not speak has usually not heard. Children identified and helped before six months of age do far better, which is why every newborn is screened, and why a failed screen is never brushed aside.
 
-# Overview | The critical years.
-## Why early matters
-The auditory pathways develop in response to sound during the first years of life. Without input, the auditory cortex is taken over by other functions and language develops late or not at all. Early fitting of hearing aids or a cochlear implant allows near-normal language in many children.
-## Prelingual and postlingual
-*Prelingual* deafness occurs before speech has developed and has the greatest effect on language; *postlingual* deafness occurs after.
-## The 1-3-6 rule
-Screen by one month, diagnose by three months, and start intervention by six months.
+# Summary | The critical years.
+Congenital and early-childhood hearing loss is about half genetic, a quarter environmental and a quarter unexplained. Because language is built on hearing in the first years, every newborn is screened, following the *1-3-6 rule*: screen by one month, diagnose by three months, and start intervention by six months. A cause is sought with imaging, ECG, CMV testing and genetics. Management is hearing first (aids or a cochlear implant), then language and education.
 
-# Causes | Genes, infection and the newborn period.
-## Proportions
-About half of congenital sensorineural loss is genetic, about a quarter environmental and about a quarter unexplained. Of the genetic cases, about 70% are non-syndromic (mostly autosomal recessive) and 30% syndromic.
-## Genetic
-### Non-syndromic
+# Epidemiology | Proportions.
+About half of congenital sensorineural loss is genetic, about a quarter environmental and about a quarter unexplained. Of the genetic cases, about 70% are non-syndromic (mostly autosomal recessive) and 30% syndromic. Half of children with sensorineural loss have no risk factor at all, which is why screening must be universal.
+
+# Etiology | Genes, infection and the newborn period.
+## Genetic: non-syndromic
 *GJB2* mutations affecting connexin 26 (DFNB1) account for up to half of recessive non-syndromic deafness. Mitochondrial mutations (12S rRNA, 1555A>G) cause deafness after even a single dose of an aminoglycoside ([[t:sensori]]).
-### Syndromic
+## Genetic: syndromic
+The syndromes are listed in [[@Subtypes and variants/Syndromes]].
+## Inner ear malformations
+Listed in [[@Subtypes and variants/Inner ear malformations]].
+## Environmental
+!tree Environmental causes
+Prenatal | TORCH infections | cytomegalovirus, rubella, toxoplasmosis, syphilis, Zika; aminoglycosides, quinine, thalidomide, alcohol, radiation
+Perinatal | Hypoxia, prematurity | birth weight under 1500 g, jaundice (bilirubin over 20 mg%), sepsis, NICU stay, ventilation
+Postnatal | Meningitis | viral infections, otitis media with effusion, ototoxic drugs, trauma, noise
+!!
+### Cytomegalovirus
+The commonest non-genetic cause. The loss can be absent at birth and appear later, so a normal newborn screen does not exclude it.
+### Meningitis
+Labyrinthitis ossificans can close the cochlea within weeks; test hearing and image quickly ([[t:fistula]]).
+## Risk factors
+Family history, craniofacial anomaly or syndrome stigmata, NICU stay of five days or more, ventilation, low Apgar scores, severe jaundice, congenital infection, and meningitis.
+
+# Pathophysiology | Why early matters.
+The auditory pathways develop in response to sound during the first years of life. Without input, the auditory cortex is taken over by other functions and language develops late or not at all. Early fitting of hearing aids or a cochlear implant allows near-normal language in many children. *Prelingual* deafness occurs before speech has developed and has the greatest effect on language; *postlingual* deafness occurs after.
+
+# Clinical features | Signs at home.
+No startle to loud sound, sleeping through noise, no babbling or no words by one to two years, and poor school performance.
+
+# Diagnosis | Screen, confirm, find the cause.
+## Approach
+!ward On call: a failed newborn hearing screen
+1. Repeat the screen; if it fails again, arrange a diagnostic ABR. Don't reassure.
+2. A deaf child with fainting: urgent ECG for long QT.
+3. After meningitis: audiology and imaging quickly, before ossification closes the implant window.
+!!
+## Newborn screening
+### Otoacoustic emissions
+How these tests work is covered in [[t:audio]]. They test the outer hair cells; quick and cheap. Absent with fluid or debris, or a cochlear loss. Normal in auditory neuropathy, which they therefore miss.
+### Automated ABR
+Tests the pathway to the brainstem; used for NICU babies, who are at risk of auditory neuropathy.
+## Diagnostic audiology
+### ABR
+Ear-specific thresholds, under natural sleep or sedation.
+### Behavioural tests by age
+Exact ages vary between services; the tests themselves are described in [[t:audio]].
+- Under six months: behavioural observation.
+- Six to eighteen months: distraction testing.
+- Six months to two years: visual reinforcement audiometry.
+- Two to five years: play audiometry.
+- Older: conventional and speech audiometry.
+## Finding the cause
+Imaging (CT and MRI) before implantation; ECG for long QT; urinalysis; thyroid function; eye examination; CMV PCR on newborn saliva, urine or dried blood spot (within 21 days); and genetic testing (GJB2, GJB6 and gene panels). Comprehensive gene panels find a cause in about 40% of children with non-syndromic loss, most often *GJB2*.
+!flag Long QT
+A deaf child who faints needs an urgent ECG: Jervell and Lange-Nielsen syndrome can cause sudden death. Treat with beta-blockers.
+!!
+!imaging | Inner ear and ossicular malformations, an enlarged vestibular aqueduct, Treacher Collins syndrome, and a gusher ear.
+
+# Subtypes and variants | Syndromes and malformations.
+## Syndromes
 !table Syndromes to know
 Syndrome | Clue | Hearing loss
 Waardenburg | White forelock, odd-coloured eyes, dystopia canthorum (type 1) | Sensorineural
@@ -37,6 +86,7 @@ Down | Effusion, narrow canals | Conductive
 - Waardenburg type 1 has dystopia canthorum; type 2 does not.
 - Treacher Collins: lower lid coloboma; Goldenhar: upper lid.
 !!
+More on the syndromal child is in [[t:syndr]].
 ## Inner ear malformations
 - **Michel:** complete absence of the inner ear; no aid or implant can help.
 - **Mondini:** a cochlea of only one and a half turns, often with an enlarged aqueduct.
@@ -50,43 +100,6 @@ Lee: 1.5 mm or more.
 In practice: Treat an aqueduct of 1.5 mm or more as suspicious. Advise avoiding contact sports and head injury; surgical closure of the aqueduct causes hearing loss.
 !!
 !anat s73_8 | The membranous labyrinth within the bony labyrinth, the structure that fails to form in these malformations.
-## Environmental
-!tree Environmental causes
-Prenatal | TORCH infections | cytomegalovirus, rubella, toxoplasmosis, syphilis, Zika; aminoglycosides, quinine, thalidomide, alcohol, radiation
-Perinatal | Hypoxia, prematurity | birth weight under 1500 g, jaundice (bilirubin over 20 mg%), sepsis, NICU stay, ventilation
-Postnatal | Meningitis | viral infections, otitis media with effusion, ototoxic drugs, trauma, noise
-!!
-### Cytomegalovirus
-The commonest non-genetic cause. The loss can be absent at birth and appear later, so a normal newborn screen does not exclude it.
-### Meningitis
-Labyrinthitis ossificans can close the cochlea within weeks; test hearing and image quickly ([[t:fistula]]).
-## Risk factors
-Family history, craniofacial anomaly or syndrome stigmata, NICU stay of five days or more, ventilation, low Apgar scores, severe jaundice, congenital infection, and meningitis. Half of children with sensorineural loss have no risk factor at all, which is why screening must be universal.
-
-# Evaluation | Screen, confirm, find the cause.
-## Newborn screening
-### Otoacoustic emissions
-How these tests work is covered in [[t:audio]]. They test the outer hair cells; quick and cheap. Absent with fluid or debris, or a cochlear loss. Normal in auditory neuropathy, which they therefore miss.
-### Automated ABR
-Tests the pathway to the brainstem; used for NICU babies, who are at risk of auditory neuropathy.
-## Diagnostic audiology
-### ABR
-Ear-specific thresholds, under natural sleep or sedation.
-### Behavioural tests by age
-Exact ages vary between services; the tests themselves are described in [[t:audio]].
-- Under six months: behavioural observation.
-- Six to eighteen months: distraction testing.
-- Six months to two years: visual reinforcement audiometry.
-- Two to five years: play audiometry.
-- Older: conventional and speech audiometry.
-## Finding the cause
-Imaging (CT and MRI) before implantation; ECG for long QT; urinalysis; thyroid function; eye examination; CMV PCR on newborn saliva, urine or dried blood spot (within 21 days); and genetic testing (GJB2, GJB6 and gene panels).
-!flag Long QT
-A deaf child who faints needs an urgent ECG: Jervell and Lange-Nielsen syndrome can cause sudden death. Treat with beta-blockers.
-!!
-!imaging | Inner ear and ossicular malformations, an enlarged vestibular aqueduct, Treacher Collins syndrome, and a gusher ear.
-## Signs at home
-No startle to loud sound, sleeping through noise, no babbling or no words by one to two years, and poor school performance.
 
 # Management | Hearing first, then language.
 ## Counselling
@@ -111,13 +124,7 @@ Children with risk factors need continued hearing checks even after passing the 
 **Timing.** The Joint Committee on Infant Hearing position statement keeps the 1-3-6 targets and encourages 1-2-3 months in well-performing programmes; children with risk factors such as congenital CMV, ECMO, meningitis or a family history need ongoing surveillance even after passing the screen (*J Early Hear Detect Interv* 2019). **Cochlear implants.** Implantation before about 12 to 18 months gives better spoken language than later implantation, and bilateral implants are standard for bilateral profound loss; NICE (TA566, 2019) uses 80 dB HL at two or more frequencies with inadequate benefit from aids. **Congenital CMV.** An international consensus recommends treatment, started within the first month, for moderately to severely symptomatic infants, including those with isolated hearing loss in some centres (Rawlinson et al., *Lancet Infect Dis* 2017). **Genetics.** Comprehensive gene panels find a cause in about 40% of children with non-syndromic loss, most often *GJB2*.
 !!
 
-# For the examination | What the examiner wants to hear.
-## On call
-!ward A failed newborn hearing screen
-1. Repeat the screen; if it fails again, arrange a diagnostic ABR. Don't reassure.
-2. A deaf child with fainting: urgent ECG for long QT.
-3. After meningitis: audiology and imaging quickly, before ossification closes the implant window.
-!!
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Causes:** genetic, prenatal, perinatal, postnatal.
@@ -134,3 +141,18 @@ Children with risk factors need continued hearing checks even after passing the 
 - Missing late-onset CMV loss after a normal newborn screen.
 - Forgetting the ECG.
 !!
+## Related topics
+- [[t:audio]], [[t:rehab]], [[t:syndr]], [[t:atresia]], [[t:sensori]], [[t:hl]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapters 16 and 83.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 23.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 17.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapters 1 and 19.
+- K. J. Lee, *Essential Otolaryngology*, chapters 14 and 17.
+## Studies cited
+- Kimberlin et al., *NEJM* 2015: valganciclovir for congenital CMV.
+- Joint Committee on Infant Hearing, *J Early Hear Detect Interv* 2019: position statement.
+- NICE technology appraisal TA566 (2019): cochlear implants.
+- Rawlinson et al., *Lancet Infect Dis* 2017: congenital CMV consensus.

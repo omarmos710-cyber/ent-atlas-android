@@ -1,10 +1,16 @@
+@layout amboss
 @stand A face that will not move is frightening for the patient and a test of method for the doctor. First decide whether the forehead is spared; then remember that Bell's palsy is a diagnosis of exclusion, examine the ear, parotid, neck and other cranial nerves, and protect the eye today.
 
-# Overview | One nerve, a long course, many causes.
-## Definition
-Facial nerve palsy is weakness of the muscles of facial expression from a lesion anywhere between the motor cortex and the muscles. The approach depends on where the lesion is, how complete it is, and whether the nerve is likely to recover.
-## Why it matters
-The eye is at risk within hours, the face carries a person's expression and identity, and a palsy may be the first sign of a tumour, a cholesteatoma or a fracture.
+# Summary | One nerve, a long course, many causes.
+Facial nerve palsy is weakness of the muscles of facial expression from a lesion anywhere between the motor cortex and the muscles. The approach depends on where the lesion is, how complete it is, and whether the nerve is likely to recover. The eye is at risk within hours, the face carries a person's expression and identity, and a palsy may be the first sign of a tumour, a cholesteatoma or a fracture. The chapters up to Complications apply to every facial palsy; each cause then has its own chapter.
+!tree Causes of facial palsy
+Central | Stroke, tumour | forehead spared
+Infection | [[@Bell's palsy]], [[@Ramsay Hunt syndrome]] | [[@Otitis media and cholesteatoma|otitis media, cholesteatoma]], necrotising otitis externa, Lyme disease
+Trauma | [[@Traumatic facial palsy|Temporal bone fracture]] | surgery, birth (forceps), facial wounds
+Tumour | [[@Tumours|Parotid cancer]] | facial schwannoma, haemangioma, glomus, vestibular schwannoma, temporal bone cancer
+Systemic | Diabetes | sarcoid (Heerfordt), Guillain-Barré, leukaemia, granulomatosis
+Congenital | Möbius syndrome | birth injury
+!!
 
 # Applied anatomy | A long and narrow course.
 ## Central connections
@@ -25,11 +31,12 @@ Through the parotid gland, dividing into temporal, zygomatic, buccal, marginal m
 - **Greater superficial petrosal nerve:** lacrimation.
 - **Nerve to stapedius:** the stapedial reflex.
 - **Chorda tympani:** taste from the anterior two-thirds of the tongue and submandibular and sublingual secretion.
-These allow a lesion to be localised (see [[4.3]]).
+These allow a lesion to be localised ([[@Topodiagnosis]]).
 !anat d153_43 s54_20 | The course of the facial nerve through the temporal bone, and the petrosal nerves and tympanic plexus of the middle ear.
 ## Surgical landmarks
 !fig d14-4 d14-5 | First, landmarks for finding the nerve in parotid surgery. Second, variations in its course, including bony dehiscence.
-## Nerve injury
+
+# Pathophysiology | Grades of nerve injury.
 !table Sunderland classification
 Degree | What is damaged | Outcome
 1 | Conduction block (neurapraxia) | Full recovery
@@ -39,49 +46,22 @@ Degree | What is damaged | Outcome
 5 | Whole nerve (neurotmesis) | No recovery without repair
 !!
 
-# Causes | Think beyond Bell's palsy.
-!tree Causes of facial palsy
-Central | Stroke, tumour | forehead spared
-Infection | Bell's palsy, Ramsay Hunt | otitis media, cholesteatoma, necrotising otitis externa, Lyme disease
-Trauma | Temporal bone fracture | surgery, birth (forceps), facial wounds
-Tumour | Parotid cancer | facial schwannoma, haemangioma, glomus, vestibular schwannoma, temporal bone cancer
-Systemic | Diabetes | sarcoid (Heerfordt), Guillain-Barré, leukaemia, granulomatosis
-Congenital | Möbius syndrome | birth injury
+# Diagnosis | Where, how bad, and why.
+## Approach
+!ward On call: acute facial weakness
+1. Forehead spared with emotional movement kept: central; follow the stroke pathway if acute.
+2. Protect the eye now: drops by day, ointment and tape at night.
+3. Look in the ear: vesicles mean Ramsay Hunt, so add an antiviral; a foul ear or cholesteatoma needs urgent otology review.
+4. Examine the parotid, neck and other cranial nerves.
+5. After trauma, record whether the palsy was immediate or delayed.
+6. Start steroids within 72 hours for Bell's palsy.
 !!
-## Bell's palsy
-### What it is
-An acute idiopathic lower motor neurone palsy, 60 to 75% of all facial palsies. Reactivation of herpes simplex virus is the likely cause; the nerve swells inside the tight labyrinthine segment. It is commoner in diabetes and pregnancy.
-### Course
-Weakness comes on over hours and peaks within 72 hours, often after a day of pain behind the ear. About 85 to 90% recover fully, and 95% if the palsy never becomes complete.
-!fig d14-7a d14-7b | First, the features of a left-sided facial palsy. Second, Bell's palsy on the left in (A) an adult and (B) a child.
-## Ramsay Hunt syndrome
-Herpes zoster oticus: vesicles in the concha, canal or palate, severe ear pain, facial palsy, and often sensorineural hearing loss and vertigo. The outlook for the face is worse than in Bell's palsy. Zoster of the ear is also covered in [[t:perich]].
-!fig d14-9 | Ramsay Hunt syndrome: facial palsy with vesicles in the concha.
-## Otitis media and cholesteatoma
-Acute otitis media can inflame a dehiscent nerve; cholesteatoma ([[t:chole]]) erodes the canal, usually in the tympanic segment. Both need urgent otological care.
-## Trauma
-!table Temporal bone fractures and the facial nerve
- | Longitudinal | Transverse
-Frequency | About 80% | About 20%
-Blow | Side of the head | Back of the head
-Bleeding from the ear | Common | Usually absent
-Hearing | Conductive | Sensorineural
-Vertigo | Less often | Severe
-Facial palsy | 10 to 20%, often delayed | About 50%, often immediate
-!!
-The fractures themselves are covered in [[t:tbfx]].
-!fig d14-10 | Longitudinal and transverse fractures of the temporal bone.
-## Tumours
-A slowly progressive palsy, a recurrent palsy on the same side, or palsy with twitching suggests a tumour. A facial palsy with a parotid lump is almost always malignant.
-## Bilateral or recurrent palsy
-Bilateral: Lyme disease, Guillain-Barré, sarcoidosis, leukaemia, Möbius syndrome, HIV, neurofibromatosis 2 and bilateral fractures. Recurrent on the same side: a tumour in about a third; *Melkersson-Rosenthal syndrome* combines recurrent palsy, lip swelling and a fissured tongue.
-
-# Assessment | Where, how bad, and why.
 ## History
 Speed of onset, pain, vesicles, hearing loss and vertigo, ear discharge, trauma or surgery, previous episodes, and systemic illness.
 ## Examination
 ### The face
 Ask the patient to raise the eyebrows, close the eyes tightly, smile and puff the cheeks. On attempted eye closure the eye rolls up and out (*Bell's phenomenon*). Note drooling and tearing.
+!fig d14-7a d14-7b | First, the features of a left-sided facial palsy. Second, Bell's palsy on the left in (A) an adult and (B) a child.
 ### Grading
 !table House-Brackmann grading
 Grade | Description
@@ -120,29 +100,8 @@ Contrast MRI of the whole course, and CT of the temporal bone for fractures and 
 # Management | Eye first, then the nerve.
 ## Eye protection
 Lubricating drops by day, ointment and taping at night, sunglasses or a moisture chamber. If closure stays poor, a gold or platinum weight in the upper lid, a lateral tarsal strip or tarsorrhaphy.
-## Bell's palsy
-Oral steroids started within 72 hours of onset, for example prednisolone 50 mg daily for ten days, or 60 mg daily for five days followed by a five-day taper. With steroids, about 83% recover fully by three months, against 64% without. An antiviral alone does not help; added to steroids it may give a small benefit, so it is an option, not a rule, mainly in severe or complete palsy. Steroids are recommended in patients aged 16 and over; children recover well spontaneously, and the evidence in them is weaker.
-!differ Steroids in Bell's palsy
-Dhingra: Prednisolone 1 mg/kg/day, extended if the palsy stays complete; notes that benefit is not proved beyond doubt.
-Lee: Recommends steroids within 48 to 72 hours.
-In practice: Early steroids are standard; two large trials have settled the question.
-!!
-## What not to do in Bell's palsy
-The American guideline advises against routine laboratory tests and imaging at presentation, and against electrodiagnostic testing in incomplete palsy. Image, or refer, if the palsy is atypical: slow onset, no recovery at all by three to four months, recurrence on the same side, other cranial nerve signs, or a parotid mass.
-Be cautious with steroids in diabetes, hypertension, peptic ulcer, tuberculosis, glaucoma and pregnancy.
-## Ramsay Hunt syndrome
-High-dose steroids with an antiviral such as aciclovir or valaciclovir, and analgesia.
-## Otitis media and cholesteatoma
-Acute otitis media: antibiotics with myringotomy. Chronic disease: urgent exploration, clearing disease from the nerve; granulation that has invaded the nerve is left alone.
-## Trauma
-An immediate, complete palsy with a fracture through the canal is explored and decompressed or repaired. A delayed palsy is managed conservatively, with serial ENoG.
-!differ Delayed traumatic palsy
-Dhingra: Conservative treatment.
-Lee: Serial ENoG; decompress if the response falls below 10% of normal.
-In practice: Delayed or incomplete palsy is observed with steroids, because recovery is usually good; exploration is kept for immediate complete palsy with over 90% degeneration on ENoG.
-!!
-## Palsy after ear surgery
-Remove the packing and any tight dressing first. If the nerve was not seen and the palsy is complete, explore unless continuity is certain.
+## Treating the cause
+Each cause has its own treatment, in its chapter below.
 ## Decompression
 Opening the bony canal, and sometimes the sheath, at the site of compression. For Bell's palsy it is controversial and, if done, must include the labyrinthine segment within two weeks.
 ## Repair and reanimation
@@ -159,26 +118,101 @@ Brow lift, fascia lata sling and lid procedures.
 # Complications | When recovery is incomplete.
 - **Exposure keratitis.**
 - **Synkinesis:** the eye closes when the patient smiles, from aberrant regeneration; treated with physiotherapy and botulinum toxin.
-- **Contracture and hemifacial spasm.**
+- **Contracture and hemifacial spasm** ([[@Hemifacial spasm]]).
 - **Crocodile tears (Bogorad syndrome):** tearing while eating, as salivary fibres regrow into the lacrimal pathway.
 - **Psychological distress.**
-!fig d14-13 | Hemifacial spasm: all the facial muscles and platysma contract together.
-## Hemifacial spasm
-Usually from a vascular loop compressing the nerve at the brainstem. Treated with botulinum toxin, or microvascular decompression.
+
+# Bell's palsy {dz} | A diagnosis of exclusion.
+## Epidemiology
+60 to 75% of all facial palsies. It is commoner in diabetes and pregnancy.
+## Etiology and pathophysiology
+An acute idiopathic lower motor neurone palsy. Reactivation of herpes simplex virus is the likely cause; the nerve swells inside the tight labyrinthine segment.
+## Clinical features
+Weakness comes on over hours and peaks within 72 hours, often after a day of pain behind the ear.
+## Diagnosis
+A diagnosis of exclusion: examine the ear, parotid, neck and other cranial nerves first. The American guideline advises against routine laboratory tests and imaging at presentation, and against electrodiagnostic testing in incomplete palsy. Image, or refer, if the palsy is atypical: slow onset, no recovery at all by three to four months, recurrence on the same side, other cranial nerve signs, or a parotid mass.
+## Management
+### Steroids
+Oral steroids started within 72 hours of onset, for example prednisolone 50 mg daily for ten days, or 60 mg daily for five days followed by a five-day taper. With steroids, about 83% recover fully by three months, against 64% without. Steroids are recommended in patients aged 16 and over; children recover well spontaneously, and the evidence in them is weaker. Be cautious with steroids in diabetes, hypertension, peptic ulcer, tuberculosis, glaucoma and pregnancy.
+!differ Steroids in Bell's palsy
+Dhingra: Prednisolone 1 mg/kg/day, extended if the palsy stays complete; notes that benefit is not proved beyond doubt.
+Lee: Recommends steroids within 48 to 72 hours.
+In practice: Early steroids are standard; two large trials have settled the question.
+!!
+### Antivirals
+An antiviral alone does not help; added to steroids it may give a small benefit, so it is an option, not a rule, mainly in severe or complete palsy.
+### Eye care and decompression
+Eye protection as for every palsy ([[@Management/Eye protection]]); decompression is controversial ([[@Management/Decompression]]).
 !update Current evidence
 **Steroids work, antivirals add little.** In the Scottish trial of 551 patients treated within 72 hours, prednisolone raised complete recovery at three months from 64% to 83%, and aciclovir gave no benefit (Sullivan et al., *NEJM* 2007). A Swedish and Finnish trial of more than 800 patients confirmed the benefit of prednisolone and found none from valaciclovir (Engström et al., *Lancet Neurol* 2008). A Cochrane review found that steroids reduce incomplete recovery by about a third, with moderate-certainty evidence (Madhok et al., 2016); another found that adding an antiviral to steroids may slightly reduce incomplete recovery, with low-certainty evidence, and that antivirals alone are no better than placebo (Gagyor et al., 2019). The American guideline recommends steroids within 72 hours for patients aged 16 and over, allows an antiviral only alongside steroids, and advises against routine tests, imaging and electrodiagnosis in incomplete palsy, and against surgical decompression outside research or selected cases (Baugh et al., *Otolaryngol Head Neck Surg* 2013).
 !!
+## Prognosis
+About 85 to 90% recover fully, and 95% if the palsy never becomes complete.
 
-# For the examination | What the examiner wants to hear.
-## On call
-!ward Acute facial weakness
-1. Forehead spared with emotional movement kept: central; follow the stroke pathway if acute.
-2. Protect the eye now: drops by day, ointment and tape at night.
-3. Look in the ear: vesicles mean Ramsay Hunt, so add an antiviral; a foul ear or cholesteatoma needs urgent otology review.
-4. Examine the parotid, neck and other cranial nerves.
-5. After trauma, record whether the palsy was immediate or delayed.
-6. Start steroids within 72 hours for Bell's palsy.
+# Ramsay Hunt syndrome {dz} | Herpes zoster oticus.
+## Clinical features
+Vesicles in the concha, canal or palate, severe ear pain, facial palsy, and often sensorineural hearing loss and vertigo. Zoster of the ear is also covered in [[t:perich]].
+!fig d14-9 | Ramsay Hunt syndrome: facial palsy with vesicles in the concha.
+## Management
+High-dose steroids with an antiviral such as aciclovir or valaciclovir, and analgesia.
+## Prognosis
+The outlook for the face is worse than in Bell's palsy.
+
+# Otitis media and cholesteatoma {dz} | An ear emergency.
+## Pathophysiology
+Acute otitis media can inflame a dehiscent nerve; cholesteatoma ([[t:chole]]) erodes the canal, usually in the tympanic segment.
+## Management
+Both need urgent otological care.
+- **Acute otitis media:** antibiotics with myringotomy.
+- **Chronic disease:** urgent exploration, clearing disease from the nerve; granulation that has invaded the nerve is left alone.
+
+# Traumatic facial palsy {dz} | Fractures and surgery.
+## Temporal bone fractures
+!table Temporal bone fractures and the facial nerve
+ | Longitudinal | Transverse
+Frequency | About 80% | About 20%
+Blow | Side of the head | Back of the head
+Bleeding from the ear | Common | Usually absent
+Hearing | Conductive | Sensorineural
+Vertigo | Less often | Severe
+Facial palsy | 10 to 20%, often delayed | About 50%, often immediate
 !!
+The fractures themselves are covered in [[t:tbfx]].
+!fig d14-10 | Longitudinal and transverse fractures of the temporal bone.
+## Management after a fracture
+An immediate, complete palsy with a fracture through the canal is explored and decompressed or repaired. A delayed palsy is managed conservatively, with serial ENoG.
+!differ Delayed traumatic palsy
+Dhingra: Conservative treatment.
+Lee: Serial ENoG; decompress if the response falls below 10% of normal.
+In practice: Delayed or incomplete palsy is observed with steroids, because recovery is usually good; exploration is kept for immediate complete palsy with over 90% degeneration on ENoG.
+!!
+## Palsy after ear surgery
+Remove the packing and any tight dressing first. If the nerve was not seen and the palsy is complete, explore unless continuity is certain.
+
+# Tumours {dz} | The slow or recurrent palsy.
+## Clinical features
+A slowly progressive palsy, a recurrent palsy on the same side, or palsy with twitching suggests a tumour. A facial palsy with a parotid lump is almost always malignant.
+## Diagnosis
+Contrast MRI of the whole course ([[@Diagnosis/Imaging]]).
+## Related topics
+Parotid tumours ([[t:saltum]]), vestibular schwannoma ([[t:vs]]) and temporal bone tumours ([[t:tumear]]).
+
+# Bilateral or recurrent palsy {dz} | Look for a systemic cause.
+## Bilateral
+Lyme disease, Guillain-Barré, sarcoidosis, leukaemia, Möbius syndrome, HIV, neurofibromatosis 2 and bilateral fractures.
+## Recurrent on the same side
+A tumour in about a third; *Melkersson-Rosenthal syndrome* combines recurrent palsy, lip swelling and a fissured tongue.
+
+# Hemifacial spasm {dz} | Twitching, not weakness.
+## Clinical features
+All the facial muscles and platysma contract together.
+!fig d14-13 | Hemifacial spasm: all the facial muscles and platysma contract together.
+## Etiology
+Usually from a vascular loop compressing the nerve at the brainstem.
+## Management
+Botulinum toxin, or microvascular decompression.
+
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Upper versus lower motor neurone** palsy, and why the forehead is spared.
@@ -196,3 +230,20 @@ Usually from a vascular loop compressing the nerve at the brainstem. Treated wit
 - Missing a slowly progressive or recurrent palsy that needs imaging.
 - Not recording the timing of a post-traumatic palsy.
 !!
+## Related topics
+- **Approach:** [[t:ap_face]]
+- **Causes in the ear:** [[t:chole]], [[t:om]], [[t:tbfx]], [[t:perich]]
+- **Tumours:** [[t:saltum]], [[t:vs]], [[t:tumear]]
+- **Reanimation:** [[t:hnrecon]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 10.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 17.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapter 14.
+- K. J. Lee, *Essential Otolaryngology*, chapter 21.
+## Studies cited
+- Sullivan et al., *NEJM* 2007: the Scottish Bell's palsy trial.
+- Engström et al., *Lancet Neurol* 2008: prednisolone and valaciclovir.
+- Madhok et al., Cochrane review, 2016: steroids; Gagyor et al., Cochrane review, 2019: antivirals.
+- Baugh et al., *Otolaryngol Head Neck Surg* 2013: American clinical practice guideline.

@@ -1,74 +1,87 @@
+@layout amboss
 @stand A red, hot, swollen pinna that spares the lobule is a disease of the cartilage, because the lobule has none. Perichondritis needs anti-pseudomonal cover and early drainage of any pus; otherwise the cartilage dies and the ear crumples. Vesicles in the concha with facial weakness are a different emergency: Ramsay Hunt syndrome.
 
-# Overview | Infections and inflammation of the pinna.
-## The conditions
+# Summary | Infections and inflammation of the pinna.
+Each condition of the red, painful pinna has its own chapter below.
 !tree Red, painful pinna
-Skin | Cellulitis, erysipelas | staphylococci and streptococci
-Cartilage | Perichondritis and chondritis | Pseudomonas
-Virus | Herpes zoster oticus | Ramsay Hunt syndrome
-Autoimmune | Relapsing polychondritis | also the nose, larynx and trachea
-Degenerative | Chondrodermatitis nodularis helicis | painful nodule on the helix
+Skin | [[@Cellulitis and erysipelas|Cellulitis, erysipelas]] | staphylococci and streptococci
+Cartilage | [[@Perichondritis|Perichondritis and chondritis]] | Pseudomonas
+Virus | [[@Herpes zoster oticus]] | Ramsay Hunt syndrome
+Autoimmune | [[@Relapsing polychondritis]] | also the nose, larynx and trachea
+Degenerative | [[@Chondrodermatitis nodularis helicis]] | painful nodule on the helix
 !!
-## Applied anatomy
+
+# Applied anatomy | Why the lobule is spared.
 The cartilage of the pinna has no blood supply of its own and lives on its perichondrium. When pus or blood separates the two, the cartilage starves and necroses. The lobule has no cartilage, so a cartilage disease spares it.
 !anat s30_29 | The auricular cartilage: everything except the lobule.
 
-# Perichondritis | Cartilage under threat.
-## Causes
-Blunt trauma with an infected haematoma ([[t:earminor]]), lacerations and burns, high (cartilage) piercing, ear surgery, and spread from [[t:oe|otitis externa]]. *Pseudomonas aeruginosa* is the usual organism, with staphylococci.
-## Clinical picture
-### Early
-Pain and a red, hot, tender, thickened pinna, sparing the lobule.
-### Late
-Fluctuant swelling as pus collects between perichondrium and cartilage, then necrosis.
-!fig d8-10 | Perichondritis of the pinna: the whole pinna is red and swollen.
-## Treatment
-### Early, without abscess
-An oral fluoroquinolone such as ciprofloxacin, or intravenous anti-pseudomonal antibiotics for severe infection; cool aluminium acetate compresses.
-### Abscess
-Incise along a natural fold, remove dead cartilage, irrigate, and apply a bolster dressing for several days to keep the skin against the cartilage. Antibiotics continue for two to four weeks.
-## Outcome
-Loss of cartilage leaves a shrivelled, deformed *cauliflower ear*.
-!fig d8-7 | A cauliflower ear, the end result of cartilage necrosis after haematoma or perichondritis.
-
-# Cellulitis and erysipelas | Skin infections.
-## Cellulitis
-Spreading skin infection, usually staphylococcal or streptococcal, often after a scratch, piercing or otitis externa. Unlike perichondritis, it may involve the lobule.
-## Erysipelas
-Streptococcal infection with a sharply defined, raised red edge, which can spread onto the face. Treated with penicillin.
-
-# Herpes zoster oticus | Ramsay Hunt syndrome.
-## Cause
-Reactivation of varicella-zoster virus in the geniculate ganglion.
-## Clinical picture
-Severe, burning ear pain, followed by vesicles in the concha, canal and sometimes the palate and tongue, then facial palsy. The eighth nerve is often involved, with tinnitus, sensorineural hearing loss and vertigo.
-!fig d14-9 | Ramsay Hunt syndrome: facial palsy with small vesicles in the right concha.
-## Treatment
-High-dose prednisolone (about 1 mg/kg for 14 days) with an antiviral such as valaciclovir, analgesia, and eye protection. Gabapentin for post-herpetic neuralgia. Surgical decompression is not advised, because the nerve damage is diffuse.
-## Outlook
-Worse than Bell's palsy: only about 60% regain normal facial function. Facial palsy in general is covered in [[t:facial]].
-!ops
-
-# Inflammatory conditions | Not infections.
-## Relapsing polychondritis
-An autoimmune disease of cartilage: recurrent painful red swelling of the pinna sparing the lobule, often both ears, with nasal (saddle nose), laryngeal and tracheal cartilage involvement that can threaten the airway. Treated with high-dose steroids and immunosuppression.
-## Chondrodermatitis nodularis helicis
-A painful, tender nodule on the rim of the helix, usually in older men who sleep on that side. Relieve pressure; excise if persistent, and send for histology to exclude skin cancer ([[t:extca]]).
-## Differential diagnosis
-Gout (tophi on the helix), lymphoma and skin tumours.
-!update Current evidence
-**Perichondritis.** The link between *Pseudomonas* and high (cartilage) piercing is why oral ciprofloxacin is first line. **Ramsay Hunt syndrome.** Cochrane reviews found no randomised evidence that antivirals improve facial recovery (Uscategui et al., 2008) and insufficient evidence on steroids, so combined steroid and antiviral treatment, started early, rests on observational studies and on the analogy with zoster elsewhere. **Relapsing polychondritis** affects the cartilage but spares the lobule; it needs rheumatological assessment because airway cartilage may also be involved.
-!!
-
-# For the examination | What the examiner wants to hear.
-## On call
-!ward A red, swollen ear
+# Management | The first steps.
+!ward On call: a red, swollen ear
 1. Does it spare the lobule? Then it is cartilage.
 2. Fluctuant: drain under anaesthesia and bolster.
 3. Start anti-pseudomonal antibiotics.
 4. Vesicles with facial weakness: steroids, antivirals and eye protection.
 5. Eye symptoms: check the cornea.
 !!
+
+# Differential diagnosis | Other red or nodular pinnae.
+Gout (tophi on the helix), lymphoma and skin tumours ([[t:extca]]).
+
+# Perichondritis {dz} | Cartilage under threat.
+## Etiology
+Blunt trauma with an infected haematoma ([[t:earminor]]), lacerations and burns, high (cartilage) piercing, ear surgery, and spread from [[t:oe|otitis externa]]. *Pseudomonas aeruginosa* is the usual organism, with staphylococci.
+## Clinical features
+### Early
+Pain and a red, hot, tender, thickened pinna, sparing the lobule.
+### Late
+Fluctuant swelling as pus collects between perichondrium and cartilage, then necrosis.
+!fig d8-10 | Perichondritis of the pinna: the whole pinna is red and swollen.
+## Management
+### Early, without abscess
+An oral fluoroquinolone such as ciprofloxacin, or intravenous anti-pseudomonal antibiotics for severe infection; cool aluminium acetate compresses.
+### Abscess
+Incise along a natural fold, remove dead cartilage, irrigate, and apply a bolster dressing for several days to keep the skin against the cartilage. Antibiotics continue for two to four weeks.
+!update Current evidence
+**Perichondritis.** The link between *Pseudomonas* and high (cartilage) piercing is why oral ciprofloxacin is first line.
+!!
+## Complications
+Loss of cartilage leaves a shrivelled, deformed *cauliflower ear*.
+!fig d8-7 | A cauliflower ear, the end result of cartilage necrosis after haematoma or perichondritis.
+
+# Cellulitis and erysipelas {dz} | Skin infections.
+## Cellulitis
+Spreading skin infection, usually staphylococcal or streptococcal, often after a scratch, piercing or otitis externa. Unlike perichondritis, it may involve the lobule.
+## Erysipelas
+Streptococcal infection with a sharply defined, raised red edge, which can spread onto the face. Treated with penicillin.
+
+# Herpes zoster oticus {dz} | Ramsay Hunt syndrome.
+## Etiology
+Reactivation of varicella-zoster virus in the geniculate ganglion.
+## Clinical features
+Severe, burning ear pain, followed by vesicles in the concha, canal and sometimes the palate and tongue, then facial palsy. The eighth nerve is often involved, with tinnitus, sensorineural hearing loss and vertigo.
+!fig d14-9 | Ramsay Hunt syndrome: facial palsy with small vesicles in the right concha.
+## Management
+High-dose prednisolone (about 1 mg/kg for 14 days) with an antiviral such as valaciclovir, analgesia, and eye protection. Gabapentin for post-herpetic neuralgia. Surgical decompression is not advised, because the nerve damage is diffuse.
+!ops
+!update Current evidence
+**Ramsay Hunt syndrome.** Cochrane reviews found no randomised evidence that antivirals improve facial recovery (Uscategui et al., 2008) and insufficient evidence on steroids, so combined steroid and antiviral treatment, started early, rests on observational studies and on the analogy with zoster elsewhere.
+!!
+## Prognosis
+Worse than Bell's palsy: only about 60% regain normal facial function. Facial palsy in general is covered in [[t:facial]].
+
+# Relapsing polychondritis {dz} | Autoimmune disease of cartilage.
+## Clinical features
+Recurrent painful red swelling of the pinna sparing the lobule, often both ears, with nasal (saddle nose), laryngeal and tracheal cartilage involvement that can threaten the airway.
+## Management
+High-dose steroids and immunosuppression; it needs rheumatological assessment because airway cartilage may also be involved.
+
+# Chondrodermatitis nodularis helicis {dz} | A painful nodule on the helix.
+## Clinical features
+A painful, tender nodule on the rim of the helix, usually in older men who sleep on that side.
+## Management
+Relieve pressure; excise if persistent, and send for histology to exclude skin cancer ([[t:extca]]).
+
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Why the lobule is spared.**
@@ -83,3 +96,18 @@ Gout (tophi on the helix), lymphoma and skin tumours.
 - Leaving pus under the perichondrium.
 - Calling Ramsay Hunt syndrome Bell's palsy because nobody looked in the ear.
 !!
+## Related topics
+- **Haematoma and trauma:** [[t:earminor]], [[t:pinna]]
+- **The canal:** [[t:oe]]
+- **The face:** [[t:facial]]
+- **Skin tumours:** [[t:extca]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 13.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 15.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 5.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapter 8.
+- K. J. Lee, *Essential Otolaryngology*, chapter 22.
+## Studies cited
+- Uscategui et al., Cochrane review, 2008: antivirals for Ramsay Hunt syndrome.

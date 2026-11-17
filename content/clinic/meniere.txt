@@ -1,20 +1,14 @@
+@layout amboss
 @stand Ménière's disease is a disorder of the inner ear fluids: attacks of spinning vertigo lasting hours, with fluctuating low-tone hearing loss, roaring tinnitus and a feeling of fullness. It is a diagnosis made by criteria after other causes are excluded, and most patients are controlled without ever needing an operation.
 
-# Overview | Episodes of vertigo, an ear that fills and fades.
-## Definition
-An idiopathic disorder of the inner ear characterised by *endolymphatic hydrops*: distension of the endolymphatic system. It produces the classic tetrad of episodic vertigo, fluctuating sensorineural hearing loss, tinnitus and aural fullness.
-## Epidemiology
-Onset is usually between 35 and 60 years. It begins in one ear, but the other ear becomes involved in a substantial minority over the years.
-## Ménière's disease or Ménière's syndrome
-*Ménière's disease* is idiopathic hydrops. *Ménière's syndrome*, or secondary hydrops, has an identifiable cause: head injury, viral labyrinthitis, syphilis, Cogan syndrome, autoimmune disease, or *delayed hydrops* years after a profound loss in that ear.
+# Summary | Episodes of vertigo, an ear that fills and fades.
+Ménière's disease is an idiopathic disorder of the inner ear characterised by *endolymphatic hydrops*: distension of the endolymphatic system. It produces the classic tetrad of episodic vertigo, fluctuating sensorineural hearing loss, tinnitus and aural fullness. The diagnosis is made by the Bárány Society criteria, with an audiogram showing low-frequency loss and an MRI to exclude a schwannoma. Most patients are controlled medically; when they are not, the choice of procedure depends on whether the ear still hears.
 
-# Pathology | Too much endolymph.
-## Hydrops
-The cochlear duct and saccule distend, bowing Reissner's membrane into the scala vestibuli. Small ruptures let potassium-rich endolymph mix with perilymph, poisoning hair cells and nerve fibres and producing an attack; as the membrane heals, function partly recovers.
-!fig d15-1 | (A) The normal cochlear duct. (B) In hydrops the duct is distended with endolymph and Reissner's membrane bulges into the scala vestibuli.
-!anat s75_10 s76_11 | The membranous labyrinth with the endolymphatic sac, and the composition of endolymph and perilymph.
-## Why it happens
-The cause is unknown; several theories may each be true in some patients.
+# Epidemiology | Who gets it.
+Onset is usually between 35 and 60 years. It begins in one ear, but the other ear becomes involved in a substantial minority over the years: up to half over twenty years.
+
+# Etiology | The cause is unknown.
+Several theories may each be true in some patients.
 - **Defective absorption** by the endolymphatic sac, or a small, poorly pneumatised sac and duct.
 - **Vasomotor disturbance** with spasm of the internal auditory artery.
 - **Allergy** and **autoimmunity.**
@@ -22,6 +16,11 @@ The cause is unknown; several theories may each be true in some patients.
 - **Hypothyroidism.**
 - **Viral infection.**
 !fig d15-2 | Aetiological factors and symptoms of endolymphatic hydrops.
+
+# Pathophysiology | Too much endolymph.
+The cochlear duct and saccule distend, bowing Reissner's membrane into the scala vestibuli. Small ruptures let potassium-rich endolymph mix with perilymph, poisoning hair cells and nerve fibres and producing an attack; as the membrane heals, function partly recovers.
+!fig d15-1 | (A) The normal cochlear duct. (B) In hydrops the duct is distended with endolymph and Reissner's membrane bulges into the scala vestibuli.
+!anat s75_10 s76_11 | The membranous labyrinth with the endolymphatic sac, and the composition of endolymph and perilymph.
 
 # Clinical features | The attack and the interval.
 ## Vertigo
@@ -42,17 +41,12 @@ In practice: The direction can change during an attack, so do not rely on it alo
 !pearl Tullio phenomenon
 Vertigo provoked by loud sound may occur when the distended saccule lies against the stapes footplate.
 !!
-## Variants
-### Cochlear hydrops
-Hearing symptoms without vertigo.
-### Vestibular hydrops
-Vertigo without hearing symptoms.
-### Lermoyez syndrome
-Hearing gets worse before an attack and improves with the vertigo, the reverse of the usual pattern.
-### Tumarkin's otolithic crisis
-Sudden drop attacks without warning or loss of consciousness, from abrupt otolith stimulation. Dangerous falls make it an indication for definitive treatment.
 
 # Diagnosis | Criteria, audiogram, and exclusion.
+## Approach
+- **Criteria:** apply the 2015 definite or probable criteria.
+- **Every patient:** pure-tone audiogram (documented low- to mid-frequency loss) and **MRI with contrast** to exclude a retrocochlear lesion.
+- **Supporting tests:** speech audiometry and recruitment, electrocochleography, glycerol test, caloric test.
 ## Diagnostic criteria
 The Bárány Society criteria (2015), now used internationally and accepted in the American guideline, have two categories.
 !table Diagnostic criteria (Bárány Society and AAO-HNS, 2015)
@@ -60,13 +54,11 @@ Category | Requirements
 Definite | Two or more spontaneous episodes of vertigo, each 20 minutes to 12 hours; audiometrically documented low- to mid-frequency sensorineural loss in the affected ear on at least one occasion before, during or after an attack; fluctuating aural symptoms (hearing, tinnitus or fullness) in that ear; not better explained by another diagnosis
 Probable | Two or more episodes of vertigo or dizziness, each 20 minutes to 24 hours; fluctuating aural symptoms in the affected ear; not better explained by another diagnosis
 !!
-The 12-hour upper limit helps separate Ménière's disease from **vestibular migraine**, which is about ten times more common, overlaps with it in many patients, and is the commonest misdiagnosis.
+The 12-hour upper limit helps separate Ménière's disease from **vestibular migraine** ([[7]]).
 !differ The older AAO-HNS categories (1995)
 Dhingra and older texts: certain (with histology), definite, probable and possible, based on two or more episodes of 20 minutes or longer and documented hearing loss.
 In practice: Use the 2015 definite and probable categories.
 !!
-## Staging
-By the average of thresholds at 0.5, 1, 2 and 3 kHz in the worst audiogram of the previous six months: stage 1 up to 25 dB, stage 2 26 to 40 dB, stage 3 41 to 70 dB, stage 4 over 70 dB.
 ## Audiometry
 ### Pure-tone audiogram
 Sensorineural loss affecting the low frequencies, giving a rising curve; later the curve flattens.
@@ -88,17 +80,32 @@ Reduced response on the affected side in about three-quarters.
 ## MRI with contrast
 Essential to exclude a vestibular schwannoma or other retrocochlear lesion. Delayed contrast MRI can now show hydrops directly in specialist centres.
 !imaging | An endolymphatic sac tumour and an enlarged vestibular aqueduct, two causes of secondary hydrops.
-## Differential diagnosis
+
+# Differential diagnosis | Other episodic vertigo.
+- **Vestibular migraine** ([[t:vertigo]]): about ten times more common than Ménière's disease, overlaps with it in many patients, and is the commonest misdiagnosis.
 - [[t:vs|Vestibular schwannoma]].
-- Vestibular migraine ([[t:vertigo]]).
 - Recurrent vestibulopathy.
 - [[t:scd|Superior canal dehiscence]].
 - Autoimmune inner ear disease ([[t:sensori]]) and otosyphilis ([[t:tbom]]).
 - Transient ischaemic attacks in the vertebrobasilar territory.
 
+# Subtypes and variants | Disease, syndrome and atypical forms.
+## Ménière's disease or Ménière's syndrome
+*Ménière's disease* is idiopathic hydrops. *Ménière's syndrome*, or secondary hydrops, has an identifiable cause: head injury, viral labyrinthitis, syphilis, Cogan syndrome, autoimmune disease, or *delayed hydrops* years after a profound loss in that ear.
+## Cochlear hydrops
+Hearing symptoms without vertigo.
+## Vestibular hydrops
+Vertigo without hearing symptoms.
+## Lermoyez syndrome
+Hearing gets worse before an attack and improves with the vertigo, the reverse of the usual pattern.
+## Tumarkin's otolithic crisis
+Sudden drop attacks without warning or loss of consciousness, from abrupt otolith stimulation. Dangerous falls make it an indication for definitive treatment.
+## Staging
+By the average of thresholds at 0.5, 1, 2 and 3 kHz in the worst audiogram of the previous six months: stage 1 up to 25 dB, stage 2 26 to 40 dB, stage 3 41 to 70 dB, stage 4 over 70 dB.
+
 # Management | Most are controlled medically.
 ## The acute attack
-!ward An acute attack
+!ward On call: an acute attack
 1. Reassure; let the patient lie still with the head supported.
 2. Check the neurology and the head impulse test: new neurological signs mean stroke imaging, not sedatives.
 3. Give an antiemetic or vestibular sedative: prochlorperazine, dimenhydrinate, or diazepam.
@@ -116,6 +123,8 @@ Oxford: A large randomised trial (BEMED, 2016) found no benefit of betahistine o
 American guideline (2020): betahistine and diuretics are options; offer intratympanic steroids for active disease not controlled by medical treatment, and intratympanic gentamicin for those who fail non-ablative treatment.
 In practice: A trial of betahistine is reasonable, but move on to intratympanic steroids promptly if attacks continue.
 !!
+### Hearing aids
+Recruitment makes hearing aids hard to fit.
 ## When medical treatment fails
 The choice depends on whether hearing in the ear is still useful.
 !tree Intractable vertigo
@@ -123,6 +132,7 @@ Hearing useful | Preserve the labyrinth | intratympanic steroid, endolymphatic s
 Hearing useful | Destroy vestibular function | intratympanic gentamicin, vestibular neurectomy
 Hearing lost | Labyrinthectomy | removes all inner ear function
 !!
+Before destroying one ear, make sure the other ear is healthy.
 ### Intratympanic steroid
 Repeated injections of methylprednisolone or dexamethasone. In a randomised trial, intratympanic methylprednisolone controlled vertigo as well as gentamicin, without the risk of gentamicin to hearing, so it is now usually tried first.
 ### Intratympanic gentamicin
@@ -141,17 +151,20 @@ In practice: An option that preserves hearing, listed by the American guideline;
 Section of the vestibular nerve through the middle or posterior cranial fossa: high vertigo control with hearing preserved, at the price of a craniotomy.
 ### Labyrinthectomy
 For an ear with no useful hearing: removal of the membranous labyrinth through the canal or the mastoid. A cochlear implant can follow in the same or another sitting.
-!pearl Pearls
-- Recruitment makes hearing aids hard to fit.
-- Sacculotomy and the Cody tack are historical.
-- Before destroying one ear, make sure the other ear is healthy.
-!!
+### Historical operations
+Sacculotomy and the Cody tack are historical.
 !ops
 !update Current evidence
 In the BEMED trial of 221 patients, betahistine at 48 mg or 144 mg a day for nine months was no better than placebo at reducing attacks (Adrion et al., *BMJ* 2016). In a double-blind trial of 60 patients, intratympanic methylprednisolone reduced vertigo attacks by 90% and gentamicin by 87% at two years, with no difference between them (Patel et al., *Lancet* 2016). The American guideline (Basura et al., *Otolaryngol Head Neck Surg* 2020) recommends audiometry and MRI to exclude retrocochlear lesions, offers intratympanic steroids for active disease and gentamicin or labyrinthectomy after other treatments fail, and advises against positive-pressure therapy.
 !!
 
-# For the examination | What the examiner wants to hear.
+# Complications | Over the years.
+- **Permanent hearing loss:** the loss becomes permanent and flat.
+- **Second ear involvement:** up to half over twenty years.
+- **Drop attacks** (Tumarkin's crisis) with dangerous falls.
+- **Of treatment:** hearing loss after gentamicin in 4 to 30%; oscillopsia after bilateral ablation.
+
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **The tetrad,** and the pathology of hydrops.
@@ -161,6 +174,12 @@ In the BEMED trial of 221 patients, betahistine at 48 mg or 144 mg a day for nin
 - **Variants:** Lermoyez and Tumarkin.
 - **Ladder of treatment** by hearing status.
 !!
+## Pearls
+!pearl Pearls
+- Recruitment makes hearing aids hard to fit.
+- Sacculotomy and the Cody tack are historical.
+- Before destroying one ear, make sure the other ear is healthy.
+!!
 ## Common pitfalls
 !pit
 - Labelling every dizzy patient as Ménière's without documented hearing loss.
@@ -168,3 +187,20 @@ In the BEMED trial of 221 patients, betahistine at 48 mg or 144 mg a day for nin
 - Keeping patients on vestibular sedatives for months.
 - Using gentamicin when the other ear may also be affected.
 !!
+## Related topics
+- **Other vertigo:** [[t:vertigo]], [[t:vest]]
+- **Look-alikes:** [[t:vs]], [[t:scd]], [[t:sensori]], [[t:tbom]]
+- **Sudden loss:** [[t:ssnhl]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 14.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 18.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 7.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapters 7 and 15.
+- K. J. Lee, *Essential Otolaryngology*, chapter 16.
+## Studies cited
+- Adrion et al., *BMJ* 2016: the BEMED trial of betahistine.
+- Patel et al., *Lancet* 2016: intratympanic methylprednisolone versus gentamicin.
+- Basura et al., *Otolaryngol Head Neck Surg* 2020: American clinical practice guideline.
+- Sood et al., *Otol Neurotol* 2014: endolymphatic sac surgery meta-analysis.

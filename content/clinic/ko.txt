@@ -1,9 +1,8 @@
+@layout amboss
 @stand A hard plug of keratin in the deep canal can be one of two conditions. In keratosis obturans the plug fills the canal all round, presses on it and widens it, painfully. In canal cholesteatoma the problem is a focal patch of eroded, dead bone on the canal floor. Both come from skin that has stopped migrating outwards.
 
-# Overview | When the canal stops cleaning itself.
-## Normal self-cleaning
-The skin of the drum and deep canal migrates outwards, carrying keratin and wax to the entrance of the canal. When this migration fails, keratin builds up in the deep canal.
-## Two conditions
+# Summary | When the canal stops cleaning itself.
+Both conditions come from skin that has stopped migrating outwards, and they are now accepted as distinct diseases, each in its own chapter. [[@Keratosis obturans]] is a painful plug that fills and widens the whole canal; [[@Canal cholesteatoma]] is a focal patch of eroded, dead bone.
 !table Keratosis obturans or canal cholesteatoma?
  | Keratosis obturans | Canal cholesteatoma
 Keratin | Plug filling the whole canal | Focal, over an area of eroded bone
@@ -15,43 +14,46 @@ Age | Younger | Older
 Associations | Bronchiectasis, chronic sinusitis | Previous surgery, trauma, radiation
 !!
 
-# Keratosis obturans | The circumferential plug.
-## Cause
-Failure of outward migration, possibly from inflammation of the canal skin. In young people it is associated with bronchiectasis and chronic sinusitis, which should be looked for.
-## Clinical picture
-Acute, severe pain, conductive hearing loss and sometimes otorrhoea. A dense, white, laminated keratin plug fills the deep canal; once removed, the canal is widened and the drum may be thickened.
-!differ Age and pain
-Dhingra: Typically 5 to 20 years; pain is among the presenting symptoms.
-Lee: Typically 30 to 60 years; severe pain is characteristic.
-In practice: Ages vary between texts, but keratosis obturans is the younger patient's disease, and severe pain is its hallmark.
-!!
-## Treatment
-Removal of the plug under the microscope, which may need a general anaesthetic in children, treatment of any secondary otitis externa, and regular cleaning. Salicylic acid 2% in alcohol reduces reaccumulation. Follow-up is lifelong.
-## Complication
-Progressive widening of the canal can erode into the mastoid (an *auto-mastoidectomy*) and expose the facial nerve.
-
-# Canal cholesteatoma | Focal bone erosion.
-## Cause
-Spontaneous in older patients, or after surgery, trauma, radiation or canal stenosis.
-## Clinical picture
-A dull, chronic ache and a foul, scanty discharge, with normal hearing. A localised ulcer on the floor or posterior wall of the bony canal, with keratin debris and exposed, necrotic bone.
-## Investigations
-CT shows the extent of the erosion and its relation to the mastoid and facial nerve. Biopsy granulation tissue to exclude carcinoma.
-!imaging | Canal cholesteatoma with canal atresia.
-## Treatment
-Regular debridement and topical drops for limited disease; when it keeps returning or is extensive, surgery (canalplasty) removes the matrix and dead bone and covers the defect with fascia or a skin graft.
-!ops
+# Pathophysiology | Normal self-cleaning.
+The skin of the drum and deep canal migrates outwards, carrying keratin and wax to the entrance of the canal. When this migration fails, keratin builds up in the deep canal.
 
 # Differential diagnosis | What else causes a canal plug or erosion.
 - Impacted wax ([[t:canal]]).
 - [[t:oe|Necrotising otitis externa]].
 - Squamous cell carcinoma of the canal ([[t:extca]]).
 - Middle ear [[t:chole|cholesteatoma]] eroding the canal wall.
-!update Current evidence
-**Two conditions.** Keratosis obturans and external canal cholesteatoma are now accepted as distinct diseases. **Treatment.** Regular microsuction and softening drops control keratosis obturans. Evidence comes from case series.
-!!
 
-# For the examination | What the examiner wants to hear.
+# Keratosis obturans {dz} | The circumferential plug.
+## Etiology
+Failure of outward migration, possibly from inflammation of the canal skin. In young people it is associated with bronchiectasis and chronic sinusitis, which should be looked for.
+## Clinical features
+Acute, severe pain, conductive hearing loss and sometimes otorrhoea. A dense, white, laminated keratin plug fills the deep canal; once removed, the canal is widened and the drum may be thickened.
+!differ Age and pain
+Dhingra: Typically 5 to 20 years; pain is among the presenting symptoms.
+Lee: Typically 30 to 60 years; severe pain is characteristic.
+In practice: Ages vary between texts, but keratosis obturans is the younger patient's disease, and severe pain is its hallmark.
+!!
+## Management
+Removal of the plug under the microscope, which may need a general anaesthetic in children, treatment of any secondary otitis externa, and regular cleaning. Salicylic acid 2% in alcohol reduces reaccumulation. Follow-up is lifelong.
+!update Current evidence
+**Treatment.** Regular microsuction and softening drops control keratosis obturans. Evidence comes from case series.
+!!
+## Complications
+Progressive widening of the canal can erode into the mastoid (an *auto-mastoidectomy*) and expose the facial nerve.
+
+# Canal cholesteatoma {dz} | Focal bone erosion.
+## Etiology
+Spontaneous in older patients, or after surgery, trauma, radiation or canal stenosis.
+## Clinical features
+A dull, chronic ache and a foul, scanty discharge, with normal hearing. A localised ulcer on the floor or posterior wall of the bony canal, with keratin debris and exposed, necrotic bone.
+## Diagnosis
+CT shows the extent of the erosion and its relation to the mastoid and facial nerve. Biopsy granulation tissue to exclude carcinoma.
+!imaging | Canal cholesteatoma with canal atresia.
+## Management
+Regular debridement and topical drops for limited disease; when it keeps returning or is extensive, surgery (canalplasty) removes the matrix and dead bone and covers the defect with fascia or a skin graft.
+!ops
+
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Failure of epithelial migration** as the cause.
@@ -64,3 +66,13 @@ Regular debridement and topical drops for limited disease; when it keeps returni
 - Syringing a keratin plug repeatedly instead of removing it under the microscope.
 - Missing carcinoma in canal granulation.
 !!
+## Related topics
+- [[t:canal]], [[t:oe]], [[t:extca]], [[t:chole]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 13.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 15.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 5.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapter 8.
+- K. J. Lee, *Essential Otolaryngology*, chapters 22 and 23.

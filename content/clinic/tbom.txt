@@ -1,60 +1,63 @@
+@layout amboss
 @stand Tuberculous otitis media hides in plain sight as an ordinary chronic ear that simply will not get better. The clues are a painless, thin discharge, several holes in a thickened drum, pale granulation, and a hearing loss worse than the symptoms suggest. Send the tissue to the laboratory, because the treatment is medical, not surgical.
 
-# Overview | The chronic ear that refuses to heal.
-## Definition
-Infection of the middle ear cleft by *Mycobacterium tuberculosis*. Syphilitic otitis media, much rarer, is included here because it shares the picture of bone destruction and a disproportionate hearing loss.
+# Summary | The chronic ear that refuses to heal.
+This topic covers two granulomatous infections of the middle ear, each in its own chapter. [[@Tuberculous otitis media]] is infection of the middle ear cleft by *Mycobacterium tuberculosis*: a painless, thin discharge, multiple perforations, pale granulation and early facial palsy; it is proved by PCR, histology and culture, and treated with antituberculous drugs. [[@Syphilitic otitis]], much rarer, is included because it shares the picture of bone destruction and a disproportionate hearing loss.
+
+# Tuberculous otitis media {dz} | Painless, thin, and resistant.
 ## Epidemiology
 Uncommon in low-burden countries, but important where tuberculosis is endemic, and rising with drug-resistant strains and immunosuppression, particularly HIV.
-## Routes of infection
+## Etiology: routes of infection
 - Through the Eustachian tube, from pulmonary disease, classically present in most patients, although the chest film is normal in many.
 - Through the blood, from a distant focus.
 - In infants, through the tube from infected milk.
-
-# Clinical features | Painless, thin, and resistant.
-## Symptoms
+## Clinical features
+### Symptoms
 - **Discharge:** painless, thin and cloudy, persisting despite treatment.
 - **Hearing loss:** out of proportion to the symptoms, often mixed, from early ossicular and cochlear involvement.
-## Signs
+### Signs
 - A thickened drum early on, then *multiple perforations* that merge into one large defect.
 - Pale, thick mucosa and abundant pale granulation.
 - Bone sequestra in the mastoid.
 - Non-tender enlarged cervical and preauricular nodes.
 - Facial palsy in about 10%, sometimes the presenting feature in a child.
-## Complications
-Facial palsy, sequestrum, postauricular fistula, Bezold abscess and labyrinthitis.
 !pearl Suspect it when
 A chronic ear fails ordinary treatment, a mastoidectomy fails, granulation is pale, or facial palsy appears early in a painless ear.
 !!
-
-# Investigations | Prove it.
-## From the ear
+## Diagnosis
+### From the ear
 - **PCR of the discharge or tissue:** gives an answer within days.
 - **Histology:** caseating granulomas with Langhans giant cells.
 - **Acid-fast smear and culture:** a negative smear does not exclude it.
-## General
+!update Current evidence
+**Diagnosis.** Tuberculous otitis is easily missed: biopsy of granulations with histology, culture and a rapid nucleic acid test (Xpert MTB/RIF Ultra) on tissue gives the best yield.
+!!
+### General
 Chest imaging, tuberculin skin test or interferon-gamma release assay, and HIV testing.
-## CT
+### CT
 Often looks like ordinary chronic otitis media, with more bone erosion and sequestra.
 !imaging | Otomastoiditis on CT.
 ## Differential diagnosis
-Ordinary [[t:csom|chronic suppurative otitis media]], carcinoma of the middle ear ([[t:tumear]]), granulomatosis with polyangiitis, and fungal infection.
-
-# Management | Drugs first, repair later.
-## Antituberculous chemotherapy
+Ordinary [[t:csom|chronic suppurative otitis media]], carcinoma of the middle ear ([[t:tumear]]), granulomatosis with polyangiitis ([[t:gpa]]), and fungal infection.
+## Management
+### Antituberculous chemotherapy
 Standard multidrug therapy, guided by sensitivities, for at least six months: two months of isoniazid, rifampicin, pyrazinamide and ethambutol, then four of isoniazid and rifampicin (the WHO regimen for most extrapulmonary tuberculosis), with longer courses for bone or central nervous system involvement.
-## Surgery
+### Surgery
 Limited to biopsy, removal of sequestra and drainage of abscesses or complications. Reconstruction is delayed until treatment is complete, because healing is slow and fistulae are common during active disease; afterwards, repair succeeds in most.
 !ops
-## Facial palsy
-Usually recovers well with medical treatment.
+## Complications
+- **Facial palsy:** usually recovers well with medical treatment ([[t:facial]]).
+- Sequestrum, postauricular fistula, Bezold abscess and labyrinthitis.
 
-# Syphilitic otitis | Rare, destructive.
-Congenital or acquired syphilis can cause osteitis of the temporal bone with necrosis, and labyrinthitis with profound, often fluctuating sensorineural loss and vertigo. Diagnose with treponemal tests (FTA-ABS) and treat with penicillin and steroids. Syphilitic labyrinthitis is covered in [[t:fistula]].
-!update Current evidence
-**Diagnosis.** Tuberculous otitis is easily missed: biopsy of granulations with histology, culture and a rapid nucleic acid test (Xpert MTB/RIF Ultra) on tissue gives the best yield. 
-!!
+# Syphilitic otitis {dz} | Rare, destructive.
+## Clinical features
+Congenital or acquired syphilis can cause osteitis of the temporal bone with necrosis, and labyrinthitis with profound, often fluctuating sensorineural loss and vertigo.
+## Diagnosis
+Treponemal tests (FTA-ABS).
+## Management
+Penicillin and steroids. Syphilitic labyrinthitis is covered in [[t:fistula]].
 
-# For the examination | What the examiner wants to hear.
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **The features:** painless discharge, multiple perforations, pale granulation, early facial palsy, disproportionate hearing loss.
@@ -67,3 +70,12 @@ Congenital or acquired syphilis can cause osteitis of the temporal bone with nec
 - Being reassured by a negative acid-fast smear.
 - Reconstructing during active treatment.
 !!
+## Related topics
+- [[t:csom]], [[t:tumear]], [[t:fistula]], [[t:hivent]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapters 8 and 24.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 16.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapter 11.
+- K. J. Lee, *Essential Otolaryngology*, chapter 22.

@@ -1,23 +1,20 @@
+@layout amboss
 @stand A vestibular schwannoma is a slow, benign tumour of the eighth nerve sheath that announces itself through the ear: one-sided hearing loss and tinnitus, with speech understanding worse than the audiogram predicts. An MRI makes the diagnosis; the choice to watch, irradiate or remove depends on size, hearing, age and growth.
 
-# Overview | The ear is the first to know.
-## Definition
-A benign tumour of Schwann cells, usually arising from the vestibular division of the eighth nerve in the internal auditory canal. *Acoustic neuroma* is the traditional, inaccurate name: it is rarely acoustic and never a neuroma.
-## Epidemiology
-It accounts for 8 to 10% of intracranial tumours and about 80% of cerebellopontine angle tumours, usually presenting between 40 and 60. Most are sporadic and one-sided. Bilateral tumours mean *neurofibromatosis type 2*.
-## Why it matters
-It is the commonest serious cause of asymmetric sensorineural hearing loss, and every asymmetric loss is screened for it. Untreated large tumours compress the brainstem and cause hydrocephalus.
+# Summary | The ear is the first to know.
+A vestibular schwannoma is a benign tumour of Schwann cells, usually arising from the vestibular division of the eighth nerve in the internal auditory canal. *Acoustic neuroma* is the traditional, inaccurate name: it is rarely acoustic and never a neuroma. It is the commonest serious cause of asymmetric sensorineural hearing loss, and every asymmetric loss is screened for it with MRI. It presents with one-sided hearing loss, tinnitus and unsteadiness, and later involves the fifth and seventh nerves. Small tumours are mostly watched; growing ones are irradiated or removed. Untreated large tumours compress the brainstem and cause hydrocephalus.
 
-# Pathology | Slow growth from inside the canal.
+# Epidemiology | Who gets it.
+It accounts for 8 to 10% of intracranial tumours and about 80% of cerebellopontine angle tumours, usually presenting between 40 and 60. Most are sporadic and one-sided. Bilateral tumours mean *neurofibromatosis type 2* ([[@Neurofibromatosis type 2]]).
+
+# Pathophysiology | Slow growth from inside the canal.
 ## Origin and growth
 The tumour arises near the glial-Schwann cell junction in the internal auditory canal, widening the canal before it grows into the cerebellopontine angle. Growth is slow, around 1 to 2 mm a year, and some tumours never grow at all.
 !fig d18-1 | The fundus of the internal auditory canal, showing the position of the facial, cochlear and superior and inferior vestibular nerves.
 !anat s84_21 s84_22 | The fundus of the internal auditory canal, with Bill's bar and the transverse crest separating the facial, cochlear and vestibular nerves.
 ## Histology
 Two patterns: *Antoni A*, compact spindle cells with palisading nuclei (Verocay bodies), and *Antoni B*, loose, cystic tissue.
-## Neurofibromatosis type 2
-Autosomal dominant, from loss of the NF2 gene on chromosome 22. Bilateral vestibular schwannomas, often with meningiomas and other schwannomas, present in young adults.
-## Size
+## Size and spread
 !table Size and spread
 Stage | Size | What it affects
 Intracanalicular | In the canal | Eighth nerve
@@ -25,7 +22,7 @@ Small | Up to 1.5 cm | Into the angle
 Medium | 1.5 to 4 cm | Fifth nerve, cerebellum
 Large | Over 4 cm | Brainstem, fourth ventricle, hydrocephalus
 !!
-Cut-offs vary between texts: for treatment decisions, small usually means up to about 1.5 to 2 cm and large over about 3 cm (see Management).
+Cut-offs vary between texts: for treatment decisions, small usually means up to about 1.5 to 2 cm and large over about 3 cm ([[@Management/Choosing]]).
 !fig d18-2 | Expansion of an acoustic neuroma: (A) intracanalicular, (B) into the cerebellopontine angle, (C) pressing on the fifth nerve, (D) onwards to the brainstem and lower cranial nerves.
 
 # Clinical features | A stepwise spread.
@@ -39,7 +36,7 @@ Unsteadiness rather than true vertigo, because the brain compensates as slowly a
 ## Fifth nerve
 At around 2.5 cm: reduced corneal reflex, often the earliest sign, then facial numbness, which is present in only 7 to 9% of patients at diagnosis.
 ## Seventh nerve
-The sensory fibres fail first: numbness of the posterior meatal wall (*Hitselberger's sign*), loss of taste and reduced lacrimation. Motor weakness of the face comes late, in only about 5% at presentation, even with large tumours; a schwannoma with early facial palsy should make you think of another diagnosis, such as a facial nerve schwannoma, a meningioma or a malignant tumour.
+The sensory fibres fail first: numbness of the posterior meatal wall (*Hitselberger's sign*), loss of taste and reduced lacrimation. Motor weakness of the face comes late, in only about 5% at presentation, even with large tumours; a schwannoma with early facial palsy should make you think of another diagnosis ([[@Differential diagnosis]]).
 ## Lower cranial nerves
 Ninth and tenth: dysphagia, hoarseness and a reduced gag.
 ## Cerebellum and brainstem
@@ -48,7 +45,12 @@ Ataxia, nystagmus, and finally raised intracranial pressure with headache, vomit
 Headache, vomiting, ataxia or papilloedema with a large tumour means hydrocephalus or brainstem compression: urgent neurosurgical review.
 !!
 
-# Investigations | MRI first.
+# Diagnosis | MRI first.
+## Approach
+- **Every asymmetric sensorineural loss:** MRI with gadolinium.
+- **Audiometry:** retrocochlear signs support the diagnosis.
+- **ABR or CT** only when MRI is not possible.
+- **No lumbar puncture.**
 ## Audiometry
 Asymmetric sensorineural loss, poor discrimination, *roll-over* (discrimination falls as loudness rises), absent or decaying stapedial reflex, and abnormal tone decay: the signs of a retrocochlear lesion.
 ## MRI with gadolinium
@@ -67,7 +69,8 @@ Reduced on the affected side in most, normal in very small tumours.
 If MRI cannot be done, and to show the bony canal and approach anatomy.
 ## Avoid lumbar puncture
 CSF protein is raised, but a puncture with a large tumour risks herniation.
-## Differential diagnosis
+
+# Differential diagnosis | Other cerebellopontine angle lesions.
 !table Other cerebellopontine angle lesions
 Lesion | Distinguishing features
 Meningioma | Broad dural base, dural tail, eccentric to the canal, calcification, hyperostosis
@@ -77,6 +80,11 @@ Lipoma | Bright on T1 before contrast; suppresses with fat saturation
 Haemangioma | Ground-glass erosion; palsy out of proportion to size
 Arachnoid cyst | Follows CSF on all sequences
 !!
+Early facial palsy points away from a vestibular schwannoma, towards a facial nerve schwannoma, a meningioma or a malignant tumour.
+
+# Subtypes and variants | Sporadic and NF2.
+## Neurofibromatosis type 2
+Autosomal dominant, from loss of the NF2 gene on chromosome 22. Bilateral vestibular schwannomas, often with meningiomas and other schwannomas, present in young adults. Management is in [[@Management/NF2]].
 
 # Management | Watch, radiate, or remove.
 ## Choosing
@@ -89,8 +97,14 @@ Dhingra: Favours surgical removal.
 Lee: Presents observation, radiosurgery and microsurgery as equal options, chosen by patient and tumour.
 In practice: Modern practice follows the second view: most small tumours are watched first.
 !!
+!update Current evidence
+**Upfront radiosurgery or wait and scan?** In the V-REX trial, 100 patients with small or medium tumours were randomised: at four years tumour volume fell with upfront radiosurgery and rose with wait and scan (42% of the waiting group needed radiosurgery for growth), but 25 of 26 secondary outcomes, including hearing, balance and quality of life, did not differ, and no radiation complications occurred (Dhayalan et al., *JAMA* 2023). **Guidelines.** The European (EANO) guideline recommends observation for small asymptomatic tumours, radiosurgery for small to medium tumours that grow or cause symptoms, and surgery for large tumours with mass effect, with a team approach (Goldbrunner et al., *Neuro Oncol* 2020). The American Congress of Neurological Surgeons guidelines find no approach superior for facial nerve outcome and support MRI with gadolinium as the diagnostic standard (Olson et al., *Neurosurgery* 2018).
+!!
 ## Observation
 For small tumours, older or unfit patients, and those with good hearing. The first repeat MRI is at six months, to catch a fast-growing tumour or a wrong diagnosis, then yearly while stable, then less often. Treat if it grows. In large series only about 17% of intracanalicular and 29% of extrameatal tumours grew over four years, and growing tumours usually enlarge by 1 to 2 mm a year, so waiting rarely makes later treatment harder. The cost of waiting is hearing, which may decline even when the tumour does not grow.
+!update Current evidence
+**Natural history.** In a Danish national cohort of more than 700 patients followed with MRI, 17% of intracanalicular and 29% of extrameatal tumours grew, and most growth showed in the first years of follow-up (Stangerup et al., *Otol Neurotol* 2006).
+!!
 ## Stereotactic radiosurgery
 A single session, usually 11 to 14 Gy at the margin (commonly 12 to 13 Gy), for tumours up to about 2.5 to 3 cm. Growth is controlled in 90 to 95%. A transient swelling of the tumour in the first year is expected and is not failure. Hearing is not reliably preserved and declines over the years; the facial nerve risk is about 1%; malignant change is very rare, about 1 in 1000. Surgery after failed radiosurgery carries a worse facial nerve outcome than primary surgery. Conventional external beam radiotherapy has no role.
 ## Microsurgery
@@ -113,16 +127,16 @@ Leaving a little tumour on the facial nerve preserves facial function; the remna
 Bevacizumab may shrink tumours and improve hearing. An auditory brainstem implant or cochlear implant can restore some hearing ([[t:rehab]]).
 
 # Complications | Of the tumour and of treatment.
-- Facial palsy ([[t:facial]]).
+## Of the tumour
 - Hearing loss.
+- Hydrocephalus and brainstem compression with large tumours.
+## Of treatment
+- Facial palsy ([[t:facial]]): about 1% after radiosurgery; worse after surgery that follows failed radiosurgery.
+- Hearing loss: sacrificed by the translabyrinthine route; declines over the years after radiosurgery.
 - CSF leak and meningitis.
 - Chronic headache, especially after the retrosigmoid route.
-- Hydrocephalus and brainstem compression with large tumours.
-!update Current evidence
-**Natural history.** In a Danish national cohort of more than 700 patients followed with MRI, 17% of intracanalicular and 29% of extrameatal tumours grew, and most growth showed in the first years of follow-up (Stangerup et al., *Otol Neurotol* 2006). **Upfront radiosurgery or wait and scan?** In the V-REX trial, 100 patients with small or medium tumours were randomised: at four years tumour volume fell with upfront radiosurgery and rose with wait and scan (42% of the waiting group needed radiosurgery for growth), but 25 of 26 secondary outcomes, including hearing, balance and quality of life, did not differ, and no radiation complications occurred (Dhayalan et al., *JAMA* 2023). **Guidelines.** The European (EANO) guideline recommends observation for small asymptomatic tumours, radiosurgery for small to medium tumours that grow or cause symptoms, and surgery for large tumours with mass effect, with a team approach (Goldbrunner et al., *Neuro Oncol* 2020). The American Congress of Neurological Surgeons guidelines find no approach superior for facial nerve outcome and support MRI with gadolinium as the diagnostic standard (Olson et al., *Neurosurgery* 2018).
-!!
 
-# For the examination | What the examiner wants to hear.
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Origin:** the vestibular nerve in the internal auditory canal.
@@ -140,3 +154,21 @@ Bevacizumab may shrink tumours and improve hearing. An auditory brainstem implan
 - Doing a lumbar puncture with a large tumour.
 - Promising hearing preservation after radiosurgery.
 !!
+## Related topics
+- **Presentations:** [[t:ssnhl]], [[t:hl]], [[t:tinnitus]]
+- **The facial nerve:** [[t:facial]]
+- **Other skull base lesions:** [[t:skullbase]], [[t:petrous]]
+- **Hearing after treatment:** [[t:rehab]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 18.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 19.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 8.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapter 18.
+- K. J. Lee, *Essential Otolaryngology*, chapter 24.
+## Studies cited
+- Stangerup et al., *Otol Neurotol* 2006: natural history in a Danish cohort.
+- Dhayalan et al., *JAMA* 2023: the V-REX trial.
+- Goldbrunner et al., *Neuro Oncol* 2020: EANO guideline.
+- Olson et al., *Neurosurgery* 2018: Congress of Neurological Surgeons guidelines.

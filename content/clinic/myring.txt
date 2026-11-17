@@ -1,57 +1,61 @@
+@layout amboss
 @stand Myringitis is inflammation of the drum itself. In the bullous form, blood-filled blisters on the drum cause sudden, intense pain that settles in a few days. In the granular form, the drum's skin is replaced by wet granulation tissue that discharges without pain, and the middle ear behind it is healthy.
 
-# Overview | Disease of the drum, not the middle ear.
-## Definition
-Inflammation confined to the tympanic membrane, sometimes with the adjacent deep canal skin, without primary disease of the middle ear or mastoid.
+# Summary | Disease of the drum, not the middle ear.
+Myringitis is inflammation confined to the tympanic membrane, sometimes with the adjacent deep canal skin, without primary disease of the middle ear or mastoid. It takes two forms, each in its own chapter:
+- [[@Bullous myringitis|Acute bullous myringitis]]: blebs or bullae on the outer surface of the drum and the deep canal. The same picture is also described as *otitis externa haemorrhagica* ([[t:oe]]).
+- [[@Granular myringitis|Chronic granular myringitis]]: the epithelium of the drum is replaced by granulation tissue, without a perforation.
 !anat s37_43 | Parts of the tympanic membrane.
-## Forms
-### Acute bullous myringitis
-Blebs or bullae on the outer surface of the drum and the deep canal. The same picture is also described as *otitis externa haemorrhagica* ([[t:oe]]).
-### Chronic granular myringitis
-The epithelium of the drum is replaced by granulation tissue, without a perforation.
-
-# Bullous myringitis | Blisters and pain.
-## Cause
-It follows an upper respiratory infection. The organisms are those of acute otitis media: *Streptococcus pneumoniae*, *Haemophilus influenzae* and *Moraxella*. *Mycoplasma* is the classic association, but it has not been proven.
-!differ Mycoplasma
-Dhingra: Lists it as a possible cause.
-Lee: The link is unproven.
-In practice: Treat it as acute otitis media; *Mycoplasma* is rarely responsible.
-!!
-## Clinical picture
-Sudden, intense ear pain for three or four days that then settles, sometimes with a little bloody discharge when the blebs burst. Haemorrhagic bullae sit on the drum and deep canal. A third to two-fifths have a middle ear effusion as well.
-## Hearing
-A sensorineural or mixed loss, often in the high frequencies, is common and usually recovers. Always check hearing.
-## Treatment
-Analgesia; lancing the blebs relieves pain; keep the ear dry; topical drops to prevent secondary infection; treat acute otitis media if present.
-
-# Granular myringitis | A wet, painless drum.
-## Cause
-Usually *Staphylococcus*, *Pseudomonas* or *Proteus*.
-!differ Predisposing factors
-Dhingra: Links it to wax, foreign bodies and external ear infection.
-Lee: No predisposing factor has been identified.
-In practice: Look for wax, a foreign body or canal infection and treat any you find.
-!!
-## Clinical picture
-Itching, fullness and a foul, painless discharge. Granulation tissue covers part of the drum, often posterosuperiorly; the drum may perforate and heal repeatedly. Hearing is normal or slightly reduced.
-## Diagnosis
-Clinical, under the microscope. CT only if chronic otitis media or cholesteatoma has to be excluded.
-## Treatment
-Regular cleaning, dilute vinegar irrigation and topical drops; cauterising the granulation with silver nitrate or trichloroacetic acid, or laser; removal of the granulation. Severe or recurrent cases need tympanoplasty with canalplasty. Recurrence is common after surgery.
-## Complication
-Late fibrosis can blunt the anterior angle between the drum and canal wall, causing a conductive loss.
 
 # Differential diagnosis | Other painful or wet drums.
 - [[t:om|Acute otitis media]]: bulging drum with poor mobility.
 - [[t:csom|Chronic otitis media]]: a perforation and middle ear disease.
 - [[t:perich|Herpes zoster oticus]]: vesicles on the concha and canal, facial palsy.
 - [[t:oe|Otitis externa]]: canal swelling and tragal tenderness.
-!update Current evidence
-**Bullous myringitis** is now regarded as a variant of acute otitis media: the same organisms (*Streptococcus pneumoniae* first) are found in the middle ear fluid, and *Mycoplasma* is rarely responsible. Treat it as acute otitis media, with analgesia and an antibiotic when indicated. It causes a sensorineural hearing loss in a minority, which usually recovers (Drendel et al., *Auris Nasus Larynx* 2012); evidence for steroids in that setting is limited to small series. **Granular myringitis** is treated with careful debridement and topical antibiotic–steroid drops, with cautery or laser for resistant cases; evidence is from case series only.
-!!
 
-# For the examination | What the examiner wants to hear.
+# Bullous myringitis {dz} | Blisters and pain.
+## Etiology
+It follows an upper respiratory infection. The organisms are those of acute otitis media: *Streptococcus pneumoniae*, *Haemophilus influenzae* and *Moraxella*. *Mycoplasma* is the classic association, but it has not been proven. It is now regarded as a variant of acute otitis media: the same organisms (*Streptococcus pneumoniae* first) are found in the middle ear fluid.
+!differ Mycoplasma
+Dhingra: Lists it as a possible cause.
+Lee: The link is unproven.
+In practice: Treat it as acute otitis media; *Mycoplasma* is rarely responsible.
+!!
+## Clinical features
+Sudden, intense ear pain for three or four days that then settles, sometimes with a little bloody discharge when the blebs burst. Haemorrhagic bullae sit on the drum and deep canal. A third to two-fifths have a middle ear effusion as well.
+## Diagnosis
+Always check hearing: a sensorineural or mixed loss, often in the high frequencies, is common.
+## Management
+Analgesia; lancing the blebs relieves pain; keep the ear dry; topical drops to prevent secondary infection; treat acute otitis media if present, with an antibiotic when indicated.
+!update Current evidence
+**Bullous myringitis** is now regarded as a variant of acute otitis media, and *Mycoplasma* is rarely responsible. Treat it as acute otitis media, with analgesia and an antibiotic when indicated. It causes a sensorineural hearing loss in a minority, which usually recovers (Drendel et al., *Auris Nasus Larynx* 2012); evidence for steroids in that setting is limited to small series.
+!!
+## Complications
+Sensorineural hearing loss, in a minority, which usually recovers.
+
+# Granular myringitis {dz} | A wet, painless drum.
+## Etiology
+Usually *Staphylococcus*, *Pseudomonas* or *Proteus*.
+!differ Predisposing factors
+Dhingra: Links it to wax, foreign bodies and external ear infection.
+Lee: No predisposing factor has been identified.
+In practice: Look for wax, a foreign body or canal infection and treat any you find.
+!!
+## Clinical features
+Itching, fullness and a foul, painless discharge. Granulation tissue covers part of the drum, often posterosuperiorly; the drum may perforate and heal repeatedly. Hearing is normal or slightly reduced.
+## Diagnosis
+Clinical, under the microscope. CT only if chronic otitis media or cholesteatoma has to be excluded.
+## Management
+- **First:** regular cleaning, dilute vinegar irrigation and topical antibiotic–steroid drops.
+- **Resistant cases:** cauterising the granulation with silver nitrate or trichloroacetic acid, or laser; removal of the granulation.
+- **Severe or recurrent cases:** tympanoplasty with canalplasty. Recurrence is common after surgery.
+!update Current evidence
+**Granular myringitis** is treated with careful debridement and topical antibiotic–steroid drops, with cautery or laser for resistant cases; evidence is from case series only.
+!!
+## Complications
+Late fibrosis can blunt the anterior angle between the drum and canal wall, causing a conductive loss.
+
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Bullous versus granular,** and the symptoms of each.
@@ -63,3 +67,14 @@ Late fibrosis can blunt the anterior angle between the drum and canal wall, caus
 - Not checking hearing in bullous myringitis.
 - Calling granular myringitis chronic otitis media without examining under the microscope.
 !!
+## Related topics
+- [[t:om]], [[t:oe]], [[t:csom]], [[t:tmperf]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 13.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 15.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapter 8.
+- K. J. Lee, *Essential Otolaryngology*, chapter 22.
+## Studies cited
+- Drendel et al., *Auris Nasus Larynx* 2012: hearing loss in bullous myringitis.
