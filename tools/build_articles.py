@@ -90,6 +90,13 @@ def inline(s, refs):
             raise ValueError('unknown cross-reference [[%s]]' % n)
         return '<button type="button" class="arx" data-artgo="%s">%s</button>' % (refs[n], lab if lab else html.escape(AMB['rt'].get(n, n), quote=False) if AMB['on'] else n)
     s = re.sub(r'\[\[t:([a-z0-9_]+)(?:\|([^\]]+))?\]\]', topic_link, s)
+    def named(m):
+        key, lab = m.group(1).strip().lower(), m.group(2)
+        n = AMB['by'].get(key)
+        if not n:
+            raise ValueError('unknown heading reference [[@%s]]' % m.group(1))
+        return xr(type('M', (), {'group': lambda self, i: (None, n, lab)[i]})())
+    s = re.sub(r'\[\[@([^\]|]+)(?:\|([^\]]+))?\]\]', named, s)
     return re.sub(r'\[\[([\d.]+)(?:\|([^\]]+))?\]\]', xr, s)
 
 
@@ -150,6 +157,11 @@ def compile_one(tid, text):
             s += 1; b = 0; refs['%d.%d' % (c, s)] = 'a-s%d-%d' % (c, s); rt['%d.%d' % (c, s)] = T(ln[3:])
         elif ln.startswith('# '):
             c += 1; s = 0; b = 0; refs[str(c)] = 'a-c%d' % c; rt[str(c)] = T(ln[2:])
+    # [[@Title]], [[@Chapter/Section]] or [[@Chapter/Section/Branch]]: reference a heading by its title
+    by = AMB['by'] = {}
+    for n in sorted(rt, key=lambda k: [int(x) for x in k.split('.')]):
+        parts = n.split('.'); path = '/'.join(rt['.'.join(parts[:i + 1])] for i in range(len(parts))).lower()
+        by.setdefault(path, n); by.setdefault(rt[n].lower(), n)
     out, meta = [], {'stand': '', 'ch': [], 'figs': [], 'fx': []}
     here = {'c': '', 's': ''}
     where = lambda: ' › '.join(x for x in (here['c'], here['s']) if x)

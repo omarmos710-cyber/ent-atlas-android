@@ -1,39 +1,51 @@
+@layout amboss
 @stand Tumours of the middle ear and temporal bone are rare, and two of them must never be missed. The first is a red, pulsating mass behind the drum, a glomus tumour that bleeds torrentially if biopsied in clinic. The second is the chronic, painful, bleeding ear that is really a squamous cell carcinoma.
 
-# Overview | Rare, but two are not to be missed.
-## The tumours
+# Summary | Rare, but two are not to be missed.
+Both key tumours present to the ear clinic looking like something common: pulsatile tinnitus or a polyp, and a discharging ear. Each tumour has its own chapter below.
 !tree Tumours of the middle ear and temporal bone
-Benign | Paraganglioma (glomus) | tympanicum, jugulare, vagale
-Benign | Others | adenomatous neuroendocrine tumour, facial schwannoma, haemangioma, choristoma, endolymphatic sac tumour
-Malignant | Squamous cell carcinoma | the commonest
-Malignant | Others | adenoid cystic carcinoma, adenocarcinoma, rhabdomyosarcoma (children), metastases
-Skull base | Chordoma, chondrosarcoma | petrous apex and clivus
+Benign | [[@Paraganglioma|Paraganglioma (glomus)]] | tympanicum, jugulare, vagale
+Benign | Others | [[@Adenomatous neuroendocrine tumour]], [[@Facial nerve schwannoma and haemangioma|facial schwannoma, haemangioma]], choristoma, [[@Endolymphatic sac tumour]]
+Malignant | [[@Squamous cell carcinoma]] | the commonest
+Malignant | Others | adenoid cystic carcinoma, adenocarcinoma, [[@Rhabdomyosarcoma|rhabdomyosarcoma (children)]], metastases
+Skull base | [[@Chordoma and chondrosarcoma|Chordoma, chondrosarcoma]] | petrous apex and clivus
 !!
-## Why it matters
-Both key tumours present to the ear clinic looking like something common: pulsatile tinnitus or a polyp, and a discharging ear.
 
-# Paraganglioma | The glomus tumour.
-## Origin
-Paragangliomas arise from neural-crest *glomus bodies* along the tympanic branch of the glossopharyngeal nerve (Jacobson's nerve) and the auricular branch of the vagus (Arnold's nerve), and on the dome of the jugular bulb. They are benign, slow-growing and highly vascular.
-!anat s54_20 s25_19 | The tympanic plexus on the promontory (Jacobson's nerve), and the keel of bone between the carotid canal and jugular fossa.
-## Who gets them
+# Diagnosis | The first steps for any ear mass.
+!ward On call: a mass or granulation in the ear
+1. Pulsatile red mass: do not biopsy; arrange CT and MRI.
+2. Non-healing, bleeding granulation in a chronic ear: biopsy it.
+3. Hypertension, sweating or palpitations with a glomus tumour: check catecholamines before any anaesthetic.
+!!
+!imaging adenoma-of-the-middle-ear endolymphatic-sac-tumor malignancy-of-the-external-auditory-canal-squamo fibrous-dysplasia-1 pseudotumors-in-the-apex-of-the-petrous-bone | Middle ear adenoma, endolymphatic sac tumour, canal carcinoma, fibrous dysplasia and apical pseudotumours.
+
+# Differential diagnosis | Red, white or blue behind the drum.
+!table Red, white or blue behind the drum
+Colour | Think of | Key test
+Red, pulsatile | Glomus tumour | CT and MRI
+Pink, anterior | Aberrant internal carotid artery | CT, MR angiography
+Blue, inferior | High jugular bulb | CT, MRI
+Blue with dark fluid | Cholesterol granuloma ([[t:petrous]]) | CT, MRI
+White | Congenital cholesteatoma | CT
+!!
+Pain is more typical of carcinoma than of a glomus tumour.
+
+# Paraganglioma {dz} | The glomus tumour.
+## Epidemiology
 Usually in the fourth and fifth decades, with a strong female predominance (about 5 to 1).
-## Pathology
-Nests of chief cells (*zellballen*) surrounded by sustentacular cells in a vascular stroma.
-## Genetics
+## Etiology
+### Origin
+Paragangliomas arise from neural-crest *glomus bodies* along the tympanic branch of the glossopharyngeal nerve (Jacobson's nerve) and the auricular branch of the vagus (Arnold's nerve), and on the dome of the jugular bulb.
+!anat s54_20 s25_19 | The tympanic plexus on the promontory (Jacobson's nerve), and the keel of bone between the carotid canal and jugular fossa.
+### Genetics
 Some are familial, from mutations in the succinate dehydrogenase genes. SDHD mutations cause multiple tumours and are expressed only when inherited from the father; SDHB mutations carry a higher risk of malignancy.
 !differ How often
 Dhingra: About 10% familial, about 3% secrete catecholamines, about 4% metastasise.
 Lee: Up to 30% familial, 5% or fewer secrete, 2–4% metastasise.
 In practice: Current series find about a third hereditary, so offer every patient genetic testing, and check for secretion before any anaesthetic.
 !!
-## Types
-### Glomus tympanicum
-Arises on the promontory and fills the middle ear.
-### Glomus jugulare
-Arises in the jugular bulb, eroding upwards into the middle ear and medially to the jugular foramen and skull base.
-### Glomus vagale
-Arises on the vagus below the skull base, presenting in the neck.
+## Pathophysiology
+They are benign, slow-growing and highly vascular. Histology: nests of chief cells (*zellballen*) surrounded by sustentacular cells in a vascular stroma.
 ## Clinical features
 ### Symptoms
 Pulsatile tinnitus (about 80%), conductive hearing loss (about 60%), fullness, and later bleeding from the ear. Jugulare tumours add lower cranial nerve palsies (ninth to twelfth: hoarseness, dysphagia, wasting of the tongue and trapezius) and facial weakness.
@@ -45,7 +57,8 @@ A red, pulsatile mass behind the drum, or a polyp with pulsatile tinnitus, is a 
 !!
 ### Secreting tumours
 Hypertension, headache, palpitations and sweating mean catecholamine secretion: measure urinary or plasma metanephrines before any anaesthetic.
-## Investigations
+## Diagnosis
+A glomus tympanicum is only certain when its whole rim is visible; otherwise image.
 ### CT
 Erosion of the *caroticojugular spine* separates a jugulare tumour from a tympanicum. CT also excludes an aberrant carotid artery and a high jugular bulb.
 ### MRI
@@ -53,7 +66,16 @@ A *salt-and-pepper* appearance from flow voids; defines intracranial and neck ex
 !imaging glomus-tympanicum-paraganglioma glomus-jugulare-tumor-paraganglioma | Glomus tympanicum and glomus jugulare on CT and MRI.
 ### Angiography
 Shows the feeding vessels (mainly the ascending pharyngeal artery), looks for multiple tumours, and allows embolisation. Balloon occlusion testing if the carotid may need to be sacrificed.
-## Staging
+### Catecholamines and genetic testing
+Urinary or plasma metanephrines before any anaesthetic; genetic testing for every patient.
+## Subtypes and variants
+### Glomus tympanicum
+Arises on the promontory and fills the middle ear.
+### Glomus jugulare
+Arises in the jugular bulb, eroding upwards into the middle ear and medially to the jugular foramen and skull base.
+### Glomus vagale
+Arises on the vagus below the skull base, presenting in the neck ([[t:vascneck]]).
+### Staging
 !table Glasscock-Jackson classification
 Stage | Glomus tympanicum | Glomus jugulare
 I | Limited to the promontory | Jugular bulb, middle ear and mastoid
@@ -62,16 +84,7 @@ III | Into the mastoid | Into the petrous apex
 IV | Through the drum into the canal, or beyond | Beyond the apex into the clivus or infratemporal fossa
 !!
 The *Fisch* classification grades A (middle ear), B (tympanomastoid), C (infralabyrinthine and apex, C1 to C4 by carotid involvement) and D (intracranial).
-## Differential diagnosis
-!table Red, white or blue behind the drum
-Colour | Think of | Key test
-Red, pulsatile | Glomus tumour | CT and MRI
-Pink, anterior | Aberrant internal carotid artery | CT, MR angiography
-Blue, inferior | High jugular bulb | CT, MRI
-Blue with dark fluid | Cholesterol granuloma ([[t:petrous]]) | CT, MRI
-White | Congenital cholesteatoma | CT
-!!
-## Treatment
+## Management
 ### Surgery
 The treatment of choice for most, after embolisation 24 to 48 hours before and alpha-blockade if the tumour secretes. Small tympanicum tumours whose whole margin can be seen are removed through the canal; larger tumours need hypotympanic, extended facial recess or mastoid-neck approaches; jugulare tumours need the Fisch infratemporal fossa approach.
 !ops
@@ -79,50 +92,73 @@ The treatment of choice for most, after embolisation 24 to 48 hours before and a
 Stereotactic radiosurgery or fractionated radiotherapy arrests growth in about 90 to 94%, though the tumour remains. For the elderly, the unfit, residual disease and tumours where surgery would cost lower cranial nerves.
 ### Observation
 Slow-growing tumours in elderly patients may simply be watched.
-!pearl Pearls
-- A glomus tympanicum is only certain when its whole rim is visible; otherwise image.
-- Pain is more typical of carcinoma than of a glomus tumour.
+!update Current evidence
+**Genetics.** About a third of head and neck paragangliomas are hereditary, so guidelines recommend genetic testing (SDHx and related genes) for every patient, with screening of relatives who carry a mutation. **Radiosurgery.** A meta-analysis found tumour control in about 95% of jugular paragangliomas after radiosurgery, with fewer new cranial neuropathies than surgery (Guss et al., *Int J Radiat Oncol Biol Phys* 2011), so radiosurgery or observation is increasingly preferred for large jugular tumours in older patients, and surgery for tympanic tumours and selected young patients.
 !!
+## Complications
+- **Catastrophic bleeding** after biopsy in clinic.
+- **Lower cranial nerve palsies** from jugulare tumours, or from surgery.
+- **Metastasis** in a few, more often with SDHB mutations.
 
-# Squamous cell carcinoma | The chronic ear that bleeds.
-## Who gets it
+# Squamous cell carcinoma {dz} | The chronic ear that bleeds.
+## Epidemiology
 Adults of 40 to 60, about three-quarters with a long history of chronic ear discharge.
 ## Clinical features
-Bloodstained, foul discharge; deep, boring pain, especially at night; friable granulation or a polyp that bleeds on touch; and later facial palsy, vertigo, trismus and a neck or parotid mass. It is easily mistaken for chronic otitis media or otitis externa.
-## Investigations
-Staged by the modified Pittsburgh system, as for canal carcinoma ([[t:extca]]). Biopsy of any non-healing granulation in the canal or middle ear. CT of the temporal bone and neck, MRI for soft tissue and dura, and chest imaging.
-## Treatment
+Bloodstained, foul discharge; deep, boring pain, especially at night; friable granulation or a polyp that bleeds on touch; and later facial palsy, vertigo, trismus and a neck or parotid mass. It is easily mistaken for chronic otitis media ([[t:csom]]) or otitis externa ([[t:oe]]).
+## Diagnosis
+Biopsy of any non-healing granulation in the canal or middle ear. CT of the temporal bone and neck, MRI for soft tissue and dura, and chest imaging.
+## Staging
+Staged by the modified Pittsburgh system, as for canal carcinoma ([[t:extca]]).
+## Management
 - **Limited to the canal without bone involvement:** sleeve resection of the canal.
 - **Bony canal involved:** lateral temporal bone resection.
 - **Middle ear involved:** subtotal temporal bone resection.
 - **Parotidectomy and neck dissection** according to spread.
 - **Postoperative radiotherapy** for most stages beyond the earliest, with chemotherapy for advanced disease.
+!update Current evidence
+**Temporal bone SCC.** The modified Pittsburgh staging system guides treatment (Moody et al., *Am J Otol* 2000): lateral temporal bone resection for early tumours, subtotal resection with parotidectomy and neck dissection for advanced ones, and postoperative radiotherapy for all but the earliest.
+!!
+## Prognosis
 Outlook is poor once the middle ear and beyond are involved. The dura usually resists invasion.
 
-# Other tumours | Rarer, each with a clue.
-## Rhabdomyosarcoma
-The commonest malignant ear tumour in children: a polyp in a child's ear with early facial palsy. Treated with chemoradiation, with resection when feasible.
+# Rhabdomyosarcoma {dz} | The child with a polyp and a palsy.
+## Epidemiology
+The commonest malignant ear tumour in children.
+## Clinical features
+A polyp in a child's ear with early facial palsy.
 !fig d17-2 | A four-year-old child with rhabdomyosarcoma of the right middle ear and mastoid, with facial palsy on the same side.
-## Endolymphatic sac tumour
-A locally aggressive papillary tumour of the sac, sporadic or with von Hippel-Lindau disease (about 11% of patients, often bilateral). It mimics [[t:meniere|Ménière's disease]], or causes sudden hearing loss from bleeding into the inner ear. Removed with the dura around the sac; VHL patients are screened by MRI every one to three years.
-## Facial nerve schwannoma and haemangioma
-A schwannoma causes slowly progressive facial palsy ([[t:facial]]) or hearing loss; a haemangioma near the geniculate ganglion causes a palsy out of proportion to its small size and should be removed early. Facial schwannomas arise most often near the geniculate ganglion, and many patients keep good facial function for years. Because removal means sacrificing and grafting the nerve, and the best result after a graft is House–Brackmann III, surgery is reserved for weakness worse than grade III; enlarging tumours with good function are treated by radiosurgery (control in about 90% at five years, with function preserved in 90%) or by bony decompression of the canal.
-## Adenomatous neuroendocrine tumour
-A benign middle ear tumour presenting as a mass behind an intact drum with conductive loss.
-!imaging adenoma-of-the-middle-ear endolymphatic-sac-tumor malignancy-of-the-external-auditory-canal-squamo fibrous-dysplasia-1 pseudotumors-in-the-apex-of-the-petrous-bone | Middle ear adenoma, endolymphatic sac tumour, canal carcinoma, fibrous dysplasia and apical pseudotumours.
-## Chordoma and chondrosarcoma
-Chordoma arises in the midline clivus in older patients, with headache and sixth nerve palsy; it is bright on T2 MRI and contains physaliferous cells. Chondrosarcoma arises off the midline at the petroclival junction. Both are treated by maximal resection followed by high-dose or proton radiotherapy.
-!update Current evidence
-**Genetics.** About a third of head and neck paragangliomas are hereditary, so guidelines recommend genetic testing (SDHx and related genes) for every patient, with screening of relatives who carry a mutation. **Radiosurgery.** A meta-analysis found tumour control in about 95% of jugular paragangliomas after radiosurgery, with fewer new cranial neuropathies than surgery (Guss et al., *Int J Radiat Oncol Biol Phys* 2011), so radiosurgery or observation is increasingly preferred for large jugular tumours in older patients, and surgery for tympanic tumours and selected young patients. **Temporal bone SCC.** The modified Pittsburgh staging system guides treatment (Moody et al., *Am J Otol* 2000): lateral temporal bone resection for early tumours, subtotal resection with parotidectomy and neck dissection for advanced ones, and postoperative radiotherapy for all but the earliest.
-!!
+## Management
+Chemoradiation, with resection when feasible ([[t:paeds_ca]]).
 
-# For the examination | What the examiner wants to hear.
-## On call
-!ward A mass or granulation in the ear
-1. Pulsatile red mass: do not biopsy; arrange CT and MRI.
-2. Non-healing, bleeding granulation in a chronic ear: biopsy it.
-3. Hypertension, sweating or palpitations with a glomus tumour: check catecholamines before any anaesthetic.
-!!
+# Endolymphatic sac tumour {dz} | A Ménière's mimic.
+## Etiology
+A locally aggressive papillary tumour of the sac, sporadic or with von Hippel-Lindau disease (about 11% of patients, often bilateral).
+## Clinical features
+It mimics [[t:meniere|Ménière's disease]], or causes sudden hearing loss from bleeding into the inner ear.
+## Management
+Removed with the dura around the sac; VHL patients are screened by MRI every one to three years.
+
+# Facial nerve schwannoma and haemangioma {dz} | Tumours of the nerve itself.
+## Clinical features
+A schwannoma causes slowly progressive facial palsy ([[t:facial]]) or hearing loss; facial schwannomas arise most often near the geniculate ganglion, and many patients keep good facial function for years. A haemangioma near the geniculate ganglion causes a palsy out of proportion to its small size.
+## Management
+- **Haemangioma:** should be removed early.
+- **Schwannoma:** removal means sacrificing and grafting the nerve, and the best result after a graft is House–Brackmann III, so surgery is reserved for weakness worse than grade III; enlarging tumours with good function are treated by radiosurgery (control in about 90% at five years, with function preserved in 90%) or by bony decompression of the canal.
+
+# Adenomatous neuroendocrine tumour {dz} | A mass behind an intact drum.
+## Clinical features
+A benign middle ear tumour presenting as a mass behind an intact drum with conductive loss.
+
+# Chordoma and chondrosarcoma {dz} | The skull base.
+## Clinical features
+- **Chordoma:** arises in the midline clivus in older patients, with headache and sixth nerve palsy.
+- **Chondrosarcoma:** arises off the midline at the petroclival junction.
+## Diagnosis
+Chordoma is bright on T2 MRI and contains physaliferous cells.
+## Management
+Both are treated by maximal resection followed by high-dose or proton radiotherapy ([[t:skullbase]]).
+
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Origin of glomus tumours:** Jacobson's and Arnold's nerves, jugular bulb.
@@ -131,9 +167,29 @@ Chordoma arises in the midline clivus in older patients, with headache and sixth
 - **Staging** and treatment options.
 - **Squamous carcinoma:** who, symptoms, and the types of temporal bone resection.
 !!
+## Pearls
+!pearl Pearls
+- A glomus tympanicum is only certain when its whole rim is visible; otherwise image.
+- Pain is more typical of carcinoma than of a glomus tumour.
+!!
 ## Common pitfalls
 !pit
 - Biopsying a red mass behind the drum in clinic.
 - Treating a bleeding, painful ear as chronic otitis media for months.
 - Forgetting catecholamines before surgery.
 !!
+## Related topics
+- **Canal tumours:** [[t:extca]]
+- **Neck paragangliomas:** [[t:vascneck]]
+- **Skull base and apex:** [[t:skullbase]], [[t:petrous]], [[t:vs]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 18.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 19.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 8.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapters 16 and 17.
+- K. J. Lee, *Essential Otolaryngology*, chapter 24.
+## Studies cited
+- Guss et al., *Int J Radiat Oncol Biol Phys* 2011: radiosurgery for jugular paragangliomas.
+- Moody et al., *Am J Otol* 2000: modified Pittsburgh staging.

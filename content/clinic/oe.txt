@@ -1,30 +1,40 @@
+@layout amboss
 @stand Most otitis externa is a painful, swollen canal that needs cleaning and the right drops, not oral antibiotics. The exception changes everything: an older diabetic with severe night pain and granulation in the canal has skull base osteomyelitis until proven otherwise.
 
-# Overview | Infection of the ear canal skin.
-## Definition
-Inflammation of the skin of the external auditory canal, bacterial, fungal or reactive. The canal is a blind, warm, dark tube lined by thin skin over bone and cartilage, and anything that breaks its defences (moisture, scratching, loss of wax) lets infection in.
-## Forms
+# Summary | Infection of the ear canal skin.
+Otitis externa is inflammation of the skin of the external auditory canal, bacterial, fungal or reactive. Each form has its own chapter below.
 !tree Otitis externa
-Bacterial | Acute diffuse otitis externa | furuncle (localised)
-Fungal | Otomycosis | Aspergillus, Candida
-Reactive | Eczematous, seborrhoeic | contact dermatitis from drops or moulds, neurodermatitis
-Chronic | Chronic otitis externa | stenosis of the canal
-Invasive | Necrotising (malignant) otitis externa | skull base osteomyelitis
+Bacterial | [[3|Acute diffuse otitis externa]] | [[4|furuncle]] (localised)
+Fungal | [[5|Otomycosis]] | Aspergillus, Candida
+Reactive | [[6|Eczematous, seborrhoeic]] | contact dermatitis from drops or moulds, neurodermatitis
+Chronic | [[6|Chronic otitis externa]] | stenosis of the canal
+Invasive | [[7|Necrotising (malignant) otitis externa]] | skull base osteomyelitis
 !!
+
+# Etiology and applied anatomy | Common to all forms.
+## Why the canal gets infected
+The canal is a blind, warm, dark tube lined by thin skin over bone and cartilage, and anything that breaks its defences (moisture, scratching, loss of wax) lets infection in.
 ## Applied anatomy
 The outer third of the canal is cartilaginous, with hair follicles and sebaceous and ceruminous glands; the inner two-thirds is bony with thin, gland-free skin. Infection spreads from the canal through the *fissures of Santorini* in the cartilage and the tympanomastoid suture to the parotid, the skull base and the temporomandibular joint.
 !fig d8-12 | Skin of the cartilaginous canal, with its hair follicles and sebaceous and ceruminous glands.
 !anat s33_35 | Fissures of Santorini and the foramen of Huschke, routes from the canal to the parotid and skull base.
 
-# Acute diffuse otitis externa | Swimmer's ear.
-## Causes
+# Acute diffuse otitis externa {dz} | Swimmer's ear.
+## Etiology
 Moisture (swimming, humid climates), trauma from cotton buds and fingernails, hearing aids and earbuds, eczema and loss of protective wax. *Pseudomonas aeruginosa* and *Staphylococcus aureus* are the usual organisms.
-## Clinical picture
+## Clinical features
 ### Symptoms
 Pain that develops over a day or two, itching, a feeling of blockage and a scanty discharge.
 ### Signs
 Pain on moving the tragus or pinna; a red, swollen canal with debris; tender nodes in front of or behind the ear. When visible, the drum moves normally on pneumatic otoscopy, unlike otitis media.
 ## Management
+### Approach
+!ward On call: a painful, swollen ear canal
+1. Clean under vision; insert a wick if the canal is closed.
+2. Antibiotic-steroid drops; analgesia; keep dry.
+3. Check glucose in diabetics and anyone with recurrent infection.
+4. Diabetic or immunocompromised with severe pain and granulation: biopsy, ESR, imaging and admit ([[7]]).
+!!
 ### Aural toilet
 Clean the canal under vision by suction or dry mopping. Debris collects in the anteroinferior recess, so look there.
 !ops
@@ -41,31 +51,39 @@ Antibiotic-steroid drops for a week to ten days. Acidifying with dilute vinegar 
 Not needed, unless there is spreading cellulitis or the patient is diabetic or immunocompromised.
 ### Keep it dry
 No swimming until healed; cotton wool with petroleum jelly when bathing.
+!update Current evidence
+For acute otitis externa, the American guideline recommends topical drops as first-line treatment and advises against oral antibiotics unless infection spreads beyond the canal or the patient is at risk (Rosenfeld et al., *Otolaryngol Head Neck Surg* 2014), supported by a Cochrane review (Kaushik et al., 2010).
+!!
+### When drops fail
 !pearl When drops fail
-Think of contact allergy to neomycin, fungal superinfection, or an underlying necrotising infection.
+Think of contact allergy to neomycin, fungal superinfection ([[5]]), or an underlying necrotising infection ([[7]]).
 !!
 
-# Furuncle | A boil in the canal.
-## Picture
-A staphylococcal infection of a hair follicle, so it occurs only in the hair-bearing outer cartilaginous canal. Pain is out of proportion to its size and worse on chewing; it can swell the postauricular groove and mimic mastoiditis.
-## Distinguishing from mastoiditis
-See also [[t:mastoiditis]].
-The drum is normal, there is no preceding otitis media and no mucoid discharge, and pinna movement is painful.
-## Treatment
+# Furuncle {dz} | A boil in the canal.
+## Etiology
+A staphylococcal infection of a hair follicle, so it occurs only in the hair-bearing outer cartilaginous canal.
+## Clinical features
+Pain is out of proportion to its size and worse on chewing; it can swell the postauricular groove and mimic mastoiditis.
+## Differential diagnosis
+Distinguishing it from [[t:mastoiditis]]: the drum is normal, there is no preceding otitis media and no mucoid discharge, and pinna movement is painful.
+## Management
 Analgesia, oral antistaphylococcal antibiotics, heat, and an ichthammol-glycerine pack; incise when it points. Recurrent furuncles call for testing for diabetes and treating nasal staphylococcal carriage.
 
-# Otomycosis | Itch and spores.
-## Organisms
+# Otomycosis {dz} | Itch and spores.
+## Etiology
 *Aspergillus niger* (black-headed spores), *Aspergillus fumigatus* (pale blue or green) and *Candida* (creamy white). Repeated antibiotic drops, humidity and swimming predispose.
-## Picture
+## Clinical features
 Intense itching, discomfort, blockage and a watery discharge with a musty smell. The canal contains a mass like *wet newspaper*, with black, grey or white spores.
 !fig d8-11 | Endoscopic view of otomycosis with yellow (A) and black (B) fungal spores.
-## Treatment
+## Management
 Meticulous cleaning, then a topical antifungal, continued for a week beyond apparent cure: clotrimazole for most, nystatin for *Candida*. Salicylic acid in alcohol and povidone iodine are alternatives.
 
-# Chronic and reactive otitis externa | Itch, scaling and narrowing.
+# Chronic and reactive otitis externa {dz} | Itch, scaling and narrowing.
 ## Chronic otitis externa
-Long-standing itch and irritation with thick, dry, scaling skin, which may narrow the canal. Treat underlying eczema or seborrhoeic dermatitis, use steroid drops or ointment, and stop the patient scratching.
+### Clinical features
+Long-standing itch and irritation with thick, dry, scaling skin, which may narrow the canal.
+### Management
+Treat underlying eczema or seborrhoeic dermatitis, use steroid drops or ointment, and stop the patient scratching.
 ## Reactive forms
 Eczematous otitis externa from drops or hearing-aid moulds, seborrhoeic dermatitis with scalp involvement, and neurodermatitis from habitual scratching.
 ## Otitis externa haemorrhagica
@@ -73,15 +91,29 @@ Blood blisters on the deep canal and drum, often with influenza (bullous myringi
 ## Chronic stenosing otitis externa
 Fibrous narrowing of the deep canal ([[t:canal]]). Treated by excising the thick skin, widening the bony canal and grafting.
 
-# Necrotising otitis externa | The dangerous one.
-## What it is
-An invasive infection that spreads from the canal floor through the **fissures of Santorini** into the infratemporal fossa and the bone of the skull base: a skull base osteomyelitis. Most patients are older and diabetic, but about 1 in 10 has no obvious immunosuppression. *Pseudomonas aeruginosa* is the usual organism (about 60% of cultures in recent series, with rising resistance); fungi such as *Aspergillus* grow in a significant minority, more often in HIV with low CD4 counts, and some cultures grow nothing.
-## Clinical picture
+# Necrotising otitis externa {dz} | The dangerous one.
+## Epidemiology
+Most patients are older and diabetic, but about 1 in 10 has no obvious immunosuppression.
+## Etiology
+*Pseudomonas aeruginosa* is the usual organism (about 60% of cultures in recent series, with rising resistance); fungi such as *Aspergillus* grow in a significant minority, more often in HIV with low CD4 counts, and some cultures grow nothing.
+## Pathophysiology
+An invasive infection that spreads from the canal floor through the **fissures of Santorini** into the infratemporal fossa and the bone of the skull base: a skull base osteomyelitis.
+## Clinical features
 ### Symptoms
 Severe, deep, unrelenting pain, worse at night and out of proportion to what is seen, with a persistent discharge despite treatment.
 ### Signs
 Granulation tissue on the floor of the canal at the bony-cartilaginous junction. Cranial nerve palsies mark spread: the facial nerve first at the stylomastoid foramen, then the ninth, tenth and eleventh at the jugular foramen, and the twelfth. Multiple palsies carry a worse prognosis.
-## Investigations
+!flag Suspect it when
+- A diabetic or immunocompromised patient has severe pain and granulation in the canal.
+- Otitis externa fails to respond after a week of proper treatment.
+- A cranial nerve palsy appears with ear pain.
+!!
+## Diagnosis
+### Approach
+- **Bloods:** ESR or CRP (useful to follow), glucose and HbA1c.
+- **Swab and granulation biopsy** for bacterial and fungal culture and histology.
+- **Imaging:** contrast MRI or FDG PET-CT; CT for bone erosion; nuclear scans as below.
+### Imaging
 !table Which scan?
 Test | Use | Limitation
 Technetium-99 bone scan | Confirms early bone involvement | Stays positive for months
@@ -89,34 +121,33 @@ Gallium or indium scan | Follows response; repeated every few weeks | Less anato
 CT | Bone erosion | Changes appear late
 MRI | Soft tissue, marrow and dura | Not a guide to cure
 !!
-CT shows erosion only after about 30% demineralisation, so a normal early CT is falsely reassuring. Contrast MRI with fat suppression and diffusion shows soft tissue and marrow disease earlier and detects intracranial spread; **FDG PET-CT** is increasingly used to diagnose and monitor. CT and MRI changes persist for up to a year after cure, so they cannot decide when to stop. Add ESR or CRP (useful to follow), glucose and HbA1c, and send both a swab and a **granulation biopsy** for bacterial and fungal culture and histology, because squamous carcinoma of the temporal bone ([[t:tumear]]) is the key differential.
+CT shows erosion only after about 30% demineralisation, so a normal early CT is falsely reassuring. Contrast MRI with fat suppression and diffusion shows soft tissue and marrow disease earlier and detects intracranial spread; **FDG PET-CT** is increasingly used to diagnose and monitor. CT and MRI changes persist for up to a year after cure, so they cannot decide when to stop.
 !imaging | Necrotising otitis externa, canal stenosis and canal carcinoma.
-## Treatment
-Admit for multidisciplinary care (otology, diabetes, microbiology, radiology, elderly care). Control the diabetes, clean the canal regularly, and start empirical intravenous antipseudomonal treatment at once, often **dual therapy** (piperacillin-tazobactam or ceftazidime with a fluoroquinolone), adjusted to cultures; oral ciprofloxacin alone suits only early, limited disease; voriconazole for *Aspergillus*. There is no agreed duration, but consensus favours at least **six weeks**, often completed at home, guided by symptoms, inflammatory markers and imaging. Surgery is limited to biopsy, deep sampling (for example at cortical mastoidectomy when there is no tissue in the canal) and drainage of abscesses or sequestra; debridement and nerve decompression have no proven benefit, and hyperbaric oxygen is unproven.
+## Differential diagnosis
+Squamous carcinoma of the temporal bone ([[t:tumear]]) is the key differential, which is why granulation is always biopsied.
+## Management
+Admit for multidisciplinary care (otology, diabetes, microbiology, radiology, elderly care). Control the diabetes, clean the canal regularly, and start empirical intravenous antipseudomonal treatment at once.
+### Antimicrobials
+- **Empirical:** often **dual therapy** (piperacillin-tazobactam or ceftazidime with a fluoroquinolone), adjusted to cultures.
+- **Early, limited disease:** oral ciprofloxacin alone.
+- **Aspergillus:** voriconazole.
+- **Duration:** no agreed duration, but consensus favours at least **six weeks**, often completed at home, guided by symptoms, inflammatory markers and imaging.
 !differ Monitoring and duration
 Dhingra: Gallium repeated every three weeks; treatment for six to eight weeks, including intravenous aminoglycoside combinations.
 Lee: Gallium every four weeks; oral fluoroquinolone for about six weeks as first line.
 In practice: There is no agreed regimen; most units follow the treatment above for at least six weeks, guided by pain, CRP and MRI or PET-CT, and use gallium scanning less.
 !!
-## Outcome
-Mortality remains around 5 to 20%, from sepsis, sinus thrombosis and cranial neuropathies. Quinolone resistance is rising.
-!flag Suspect it when
-- A diabetic or immunocompromised patient has severe pain and granulation in the canal.
-- Otitis externa fails to respond after a week of proper treatment.
-- A cranial nerve palsy appears with ear pain.
-!!
+### Surgery
+Limited to biopsy, deep sampling (for example at cortical mastoidectomy when there is no tissue in the canal) and drainage of abscesses or sequestra; debridement and nerve decompression have no proven benefit, and hyperbaric oxygen is unproven.
 !update Current evidence
-For acute otitis externa, the American guideline recommends topical drops as first-line treatment and advises against oral antibiotics unless infection spreads beyond the canal or the patient is at risk (Rosenfeld et al., *Otolaryngol Head Neck Surg* 2014), supported by a Cochrane review (Kaushik et al., 2010). For necrotising otitis externa, a systematic review of 70 studies (2,274 patients, mostly retrospective) found 84% were diabetic, *Pseudomonas* grew in 62%, 14% grew no organism, and there was no evidence for the best imaging, regimen or duration (median 7.2 weeks) (Takata et al., *Clin Otolaryngol* 2023). Cure rates have fallen and culture-negative cases risen over time (Byun et al., *Otol Neurotol* 2020). A UK multidisciplinary guideline identifies high-risk patients for early intensive treatment (Hopkins et al., *J Laryngol Otol* 2020).
+For necrotising otitis externa, a systematic review of 70 studies (2,274 patients, mostly retrospective) found 84% were diabetic, *Pseudomonas* grew in 62%, 14% grew no organism, and there was no evidence for the best imaging, regimen or duration (median 7.2 weeks) (Takata et al., *Clin Otolaryngol* 2023). Cure rates have fallen and culture-negative cases risen over time (Byun et al., *Otol Neurotol* 2020). A UK multidisciplinary guideline identifies high-risk patients for early intensive treatment (Hopkins et al., *J Laryngol Otol* 2020).
 !!
+## Complications and outcome
+- **Cranial neuropathies:** VII, then IX, X, XI and XII.
+- **Sigmoid sinus thrombosis** and **sepsis**.
+- **Mortality** remains around 5 to 20%. Quinolone resistance is rising.
 
-# For the examination | What the examiner wants to hear.
-## On call
-!ward A painful, swollen ear canal
-1. Clean under vision; insert a wick if the canal is closed.
-2. Antibiotic-steroid drops; analgesia; keep dry.
-3. Check glucose in diabetics and anyone with recurrent infection.
-4. Diabetic or immunocompromised with severe pain and granulation: biopsy, ESR, imaging and admit.
-!!
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Tragal tenderness** and a mobile drum versus otitis media.
@@ -131,3 +162,21 @@ For acute otitis externa, the American guideline recommends topical drops as fir
 - Neomycin contact allergy mistaken for treatment failure.
 - Drops into a canal full of debris.
 !!
+## Related topics
+- **Other canal disease:** [[t:canal]], [[t:ko]], [[t:myring]]
+- **The key differential:** [[t:tumear]]
+- **Look-alike:** [[t:mastoiditis]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapters 8 and 13.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 15.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 5.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapter 8.
+- K. J. Lee, *Essential Otolaryngology*, chapter 22.
+## Studies cited
+- Rosenfeld et al., *Otolaryngol Head Neck Surg* 2014: guideline on acute otitis externa.
+- Kaushik et al., Cochrane review, 2010: interventions for acute otitis externa.
+- Takata et al., *Clin Otolaryngol* 2023: systematic review of necrotising otitis externa.
+- Byun et al., *Otol Neurotol* 2020: trends in necrotising otitis externa.
+- Hopkins et al., *J Laryngol Otol* 2020: UK multidisciplinary guideline.

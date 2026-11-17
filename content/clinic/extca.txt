@@ -1,17 +1,25 @@
+@layout amboss
 @stand The pinna faces the sun every day of a person's life, and most cancers of the ear start there. Any lesion of the pinna that does not heal deserves a biopsy. In the canal, a hard lump is often just bone, an osteoma or exostoses, while a painful, bleeding canal may be carcinoma.
 
-# Overview | Tumours of the pinna and canal.
-## Classification
+# Summary | Tumours of the pinna and canal.
+About 85% of ear cancers arise on the pinna, 10% in the canal and 5% in the middle ear ([[t:tumear]]). Each group has its own chapter.
 !tree External ear tumours
-Pinna, benign | Cysts, keloid | haemangioma, papilloma, cutaneous horn, keratoacanthoma, neurofibroma
-Pinna, malignant | Basal cell carcinoma, squamous cell carcinoma | melanoma
-Canal, benign | Osteoma, exostoses | ceruminous adenoma, papilloma
-Canal, malignant | Squamous cell carcinoma | basal cell carcinoma, adenoid cystic and ceruminous carcinoma, melanoma
+Pinna, benign | [[@Benign lesions of the pinna|Cysts, keloid]] | haemangioma, papilloma, cutaneous horn, keratoacanthoma, neurofibroma
+Pinna, malignant | [[@Malignant tumours of the pinna|Basal cell carcinoma, squamous cell carcinoma]] | melanoma
+Canal, benign | [[@Osteoma and exostoses|Osteoma, exostoses]] | ceruminous adenoma, papilloma
+Canal, malignant | [[@Squamous cell carcinoma of the canal|Squamous cell carcinoma]] | basal cell carcinoma, adenoid cystic and [[@Ceruminous gland tumours|ceruminous carcinoma]], melanoma
 !!
-## Where ear cancers arise
-About 85% on the pinna, 10% in the canal and 5% in the middle ear ([[t:tumear]]).
 
-# Benign lesions of the pinna | Lumps that are not cancer.
+# Diagnosis | Biopsy and image.
+- Biopsy any non-healing lesion of the pinna or canal.
+- CT and MRI for deep or canal tumours.
+- Examine the anterior and posterior auricular, parotid and upper cervical nodes.
+!imaging | Canal carcinoma and exostoses.
+
+# Differential diagnosis | Lesions that mimic tumours.
+Chondrodermatitis nodularis helicis, [[t:perich|perichondritis]], [[t:oe|necrotising otitis externa]] and granulation from chronic otitis ([[t:csom]]). **Chondrodermatitis nodularis** responds in most cases to pressure relief (a pillow with a hole), with excision of cartilage for persistent lesions.
+
+# Benign lesions of the pinna {dz} | Lumps that are not cancer.
 ## Keloid
 Overgrowth of scar after piercing, more common in darker skin. Excision alone recurs; combine with steroid injection, pressure clips or, rarely, radiotherapy.
 !fig d16-1 | Keloid after ear piercing.
@@ -28,28 +36,34 @@ A rapidly growing crater with a keratin plug that may regress on its own; it loo
 ## Others
 Sebaceous and dermoid cysts, papillomas, cutaneous horns and neurofibromas.
 
-# Malignant tumours of the pinna | Sun-exposed skin.
-## Risk factors
+# Malignant tumours of the pinna {dz} | Sun-exposed skin.
+## Etiology
 Sun exposure, fair skin, male sex, older age and immunosuppression.
-## Squamous cell carcinoma
+## Subtypes and variants
+### Squamous cell carcinoma
 An ulcer, usually on the helix, with raised, everted edges. It spreads to the preauricular, postauricular, parotid and upper cervical nodes.
 !fig d16-3 | Squamous cell carcinoma of the pinna.
-## Basal cell carcinoma
+### Basal cell carcinoma
 A nodule with a pearly, rolled, beaded edge and central crusting, usually behind the ear or on the helix; it rarely spreads to nodes but invades locally.
 !differ The commonest ear malignancy
 Dhingra: Emphasises squamous carcinoma on the helix.
 Lee: Basal cell carcinoma is the commonest, at about 45%.
 In practice: Basal cell carcinoma is the commonest; squamous carcinoma is the typical helical ulcer and the one that spreads to nodes.
 !!
-## Melanoma
+### Melanoma
 A pigmented, irregular lesion; spreads early to the parotid and neck nodes.
-## Treatment
+## Management
 - **Squamous carcinoma:** excision with about 1 cm margins for small lesions; larger lesions, those within 1 cm of the canal, or with nodes need partial or total amputation of the pinna with parotidectomy and neck dissection.
 - **Basal cell carcinoma:** radiotherapy for superficial lesions not involving cartilage; excision (Mohs surgery where available) for deeper lesions.
 - **Melanoma:** wedge excision if small on the helix; wider resection with parotid and neck surgery as staged.
 !ops
+!update Current evidence
+**Skin cancer of the ear.** The ear is a high-risk site for both basal and squamous cell carcinoma; NCCN and British Association of Dermatologists guidelines recommend wider margins (or Mohs micrographic surgery) for high-risk tumours, with SCC of the ear carrying a higher risk of nodal spread to the parotid and neck than other sites. **Melanoma** of the ear is managed by wide local excision with sentinel node biopsy for tumours over 0.8 mm thick, following general melanoma guidelines.
+!!
+More on skin cancer of the head and neck is in [[t:skinca]].
 
-# Bony growths of the canal | Often just bone.
+# Osteoma and exostoses {dz} | Often just bone.
+## Differential diagnosis
 !table Osteoma or exostoses?
  | Osteoma | Exostoses
 Number | Single | Multiple
@@ -59,37 +73,32 @@ Site | Outer bony canal, near the bony-cartilaginous junction, at a suture line 
 Cause | True benign tumour | Reaction to cold water (swimmers, surfers)
 !!
 !fig d16-4 | An osteoma arising from the anterior wall of the right ear canal (arrow).
-## Treatment
+## Management
 None if small. When they block the canal, trap wax or cause recurrent otitis externa: an osteoma can be removed by fracturing its pedicle or drilling; exostoses are drilled away through the canal or a postauricular approach. Their effect on the canal, and recurrence after cold water, are covered in [[t:canal]].
 !pearl Pearl
 Use a drill, not a gouge and hammer, for exostoses: the facial nerve lies close to the posterior canal wall.
 !!
 
-# Tumours of the canal | Glands and skin.
-## Ceruminous gland tumours
-A firm, skin-covered mass in the outer canal. Malignant ones (adenoid cystic carcinoma, ceruminous adenocarcinoma) outnumber benign ones about two to one. Treated by wide excision, with radiotherapy for malignant tumours.
-## Squamous cell carcinoma of the canal
-Often follows long-standing chronic discharge. It presents with bloody discharge, pain and granulation that will not heal; facial palsy means advanced disease.
-### Staging (Pittsburgh)
+# Ceruminous gland tumours {dz} | Glands of the canal.
+## Clinical features
+A firm, skin-covered mass in the outer canal. Malignant ones (adenoid cystic carcinoma, ceruminous adenocarcinoma) outnumber benign ones about two to one.
+## Management
+Wide excision, with radiotherapy for malignant tumours.
+
+# Squamous cell carcinoma of the canal {dz} | The painful, bleeding canal.
+## Etiology
+Often follows long-standing chronic discharge.
+## Clinical features
+Bloody discharge, pain and granulation that will not heal; facial palsy means advanced disease.
+## Staging (Pittsburgh)
 - **T1:** confined to the canal, without bone erosion.
 - **T2:** limited bone erosion, or soft tissue extension under 0.5 cm.
 - **T3:** full-thickness bone erosion with soft tissue under 0.5 cm, or middle ear or mastoid involvement.
 - **T4:** cochlea, petrous apex, medial wall, carotid canal, jugular foramen, dura, soft tissue over 0.5 cm, or facial palsy.
-### Treatment
-Sleeve or lateral temporal bone resection, with parotidectomy and neck dissection as needed, and postoperative radiotherapy.
+## Management
+Sleeve or lateral temporal bone resection, with parotidectomy and neck dissection as needed, and postoperative radiotherapy ([[t:tumear]]).
 
-# Assessment | Biopsy and image.
-- Biopsy any non-healing lesion of the pinna or canal.
-- CT and MRI for deep or canal tumours.
-!imaging | Canal carcinoma and exostoses.
-- Examine the anterior and posterior auricular, parotid and upper cervical nodes.
-## Differential diagnosis
-Chondrodermatitis nodularis helicis, [[t:perich|perichondritis]], [[t:oe|necrotising otitis externa]] and granulation from chronic otitis ([[t:csom]]).
-!update Current evidence
-**Skin cancer of the ear.** The ear is a high-risk site for both basal and squamous cell carcinoma; NCCN and British Association of Dermatologists guidelines recommend wider margins (or Mohs micrographic surgery) for high-risk tumours, with SCC of the ear carrying a higher risk of nodal spread to the parotid and neck than other sites. **Melanoma** of the ear is managed by wide local excision with sentinel node biopsy for tumours over 0.8 mm thick, following general melanoma guidelines. **Chondrodermatitis nodularis** responds in most cases to pressure relief (a pillow with a hole), with excision of cartilage for persistent lesions.
-!!
-
-# For the examination | What the examiner wants to hear.
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Squamous versus basal cell carcinoma** of the pinna, and their treatment.
@@ -103,3 +112,12 @@ Chondrodermatitis nodularis helicis, [[t:perich|perichondritis]], [[t:oe|necroti
 - Using a gouge on exostoses.
 - Missing canal carcinoma in a patient with chronic discharge and new pain.
 !!
+## Related topics
+- [[t:tumear]], [[t:canal]], [[t:skinca]], [[t:perich]], [[t:pinna]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapters 13 and 18.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 15.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapter 16.
+- K. J. Lee, *Essential Otolaryngology*, chapter 23.

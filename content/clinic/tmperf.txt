@@ -1,50 +1,55 @@
+@layout amboss
 @stand The drum is thin, and it records what happens around it. A traumatic hole usually heals by itself; a retracted drum is a sign of a failing Eustachian tube; and a sudden pressure injury can reach through the middle ear into the inner ear. In every case, check for vertigo, facial weakness and sensorineural hearing loss.
 
-# Overview | Injuries and scars of the drum.
-## The normal drum
+# Summary | Injuries and scars of the drum.
+This topic covers four conditions of the tympanic membrane, each in its own chapter:
+- [[3|Traumatic perforation]]: most heal on their own.
+- [[4|Retraction and atelectasis]]: the drum sucked in by a failing Eustachian tube.
+- [[5|Atrophy and tympanosclerosis]]: scars of past disease.
+- [[6|Barotrauma]] of the middle ear: the locked tube.
+
+# Applied anatomy | The normal drum.
 A three-layered membrane: outer squamous epithelium, a middle fibrous layer, and inner mucosa. The fibrous layer gives it strength and shape; when it is lost after healing, the drum becomes thin and floppy. On otoscopy the normal right drum shows the handle of malleus, the lateral process and a bright cone of light at five o'clock.
 !fig d8-17 | A normal right tympanic membrane, with the cone of light at five o'clock.
 !anat s37_42 s37_43 | A normal tympanic membrane seen through the otoscope, and its parts.
-## Conditions covered
-- Traumatic perforation.
-- Retraction, atelectasis and retraction pockets.
-- Atrophic drum and tympanosclerosis.
-- Barotrauma of the middle ear.
 
-# Traumatic perforation | Most heal on their own.
-## Causes
+# Traumatic perforation {dz} | Most heal on their own.
+## Etiology
 - **Direct:** cotton buds, hairpins, matchsticks, careless syringing or instrument use.
 - **Pressure:** a slap on the ear, blast injury, a fall onto water, a kiss on the ear.
 - **Temporal bone fracture** ([[t:tbfx]]).
 - **Thermal:** welding sparks or hot slag, which heal poorly.
-## Clinical picture
+## Clinical features
 Sudden pain, a little bleeding, deafness and tinnitus. The perforation is irregular or slit-like, often with blood clot and with its edges turned inwards.
 !fig d8-19 | A traumatic perforation from blast, with ecchymosis (white arrow head) and tears of the drum (black arrows).
 !flag Look deeper
 Vertigo, sensorineural hearing loss or facial weakness suggests stapes subluxation, perilymph fistula ([[t:fistula]]) or a temporal bone fracture. Arrange urgent assessment and consider exploration.
 !!
-## Management
-### Assess
+## Diagnosis
 Tuning forks, nystagmus and the facial nerve; an audiogram when practical. CT if a fracture is suspected.
+!imaging | Ossicular luxation after trauma.
+## Management
 ### Keep dry, keep out
 No drops, no syringing and no water in the ear. Antibiotics only if the ear becomes infected.
 ### Repair
 Most perforations heal within weeks. Large ones with in-turned edges may be repositioned and splinted with a paper patch under the microscope. Those that persist beyond about three months are repaired by myringoplasty ([[t:earsurg]]).
 !ops
+!update Current evidence
+**Spontaneous healing.** In a prospective series of traumatic perforations, most healed spontaneously within three months; small perforations closed faster than large ones, and a dry ear healed better than a wet one (Lou et al., *Clin Otolaryngol* 2011). In a randomised trial of perforations with inverted or everted edges, healing rates were similar with observation, gelfoam patching, and edge approximation plus patching, but closure was faster with intervention (Lou et al., *Clin Otolaryngol* 2011).
+!!
 ## Complications
 Persistent perforation, infection, ossicular dislocation, perilymph fistula, and implantation cholesteatoma from squamous epithelium driven into the middle ear.
-!imaging | Ossicular luxation after trauma.
 
-# Retraction and atelectasis | The drum sucked in.
-## Why it happens
+# Retraction and atelectasis {dz} | The drum sucked in.
+## Etiology and pathophysiology
 When the Eustachian tube fails ([[t:et]]), middle ear gas is absorbed and negative pressure draws the drum inwards. Healed or atrophic areas, which lack the fibrous layer, retract first.
-## Signs of a retracted drum
+## Clinical features
 - A dull drum with a broken or absent light reflex.
 - A prominent lateral process of the malleus.
 - A foreshortened handle of malleus.
 - Prominent anterior and posterior malleolar folds.
 !fig d8-18 | Features of a retracted tympanic membrane.
-## Retraction pockets and atelectasis
+## Subtypes and variants: staging
 !table Stages of pars tensa retraction
 Stage | Appearance
 I | Retracted, not touching the incus
@@ -54,32 +59,44 @@ IV | Adherent to the promontory (adhesive otitis), no middle ear space
 !!
 !fig d8-20 d8-21 | First, an atrophic drum with a retraction pocket and an adhesion from the malleus. Second, atelectasis with retraction pockets in the attic (white arrow) and the pars tensa (black arrow).
 ## Management
-Treat the cause of tubal failure (adenoids, sinusitis, allergy). A grommet re-aerates the middle ear while the drum can still be lifted (stage III). Deep pockets that collect keratin, or that cannot be cleaned, are excised and reinforced with cartilage before they become cholesteatoma ([[t:chole]]).
+- **Treat the cause** of tubal failure (adenoids, sinusitis, allergy).
+- **Grommet:** re-aerates the middle ear while the drum can still be lifted (stage III).
+- **Deep pockets** that collect keratin, or that cannot be cleaned, are excised and reinforced with cartilage.
+!update Current evidence
+**Retraction pockets.** Grommets, cartilage reinforcement or excision are used for progressive or unstable pockets, but there are no good randomised trials.
+!!
+## Complications
+A deep pocket that collects keratin becomes a cholesteatoma ([[t:chole]]).
 
-# Atrophy and tympanosclerosis | Scars of past disease.
+# Atrophy and tympanosclerosis {dz} | Scars of past disease.
 ## Atrophic drum
 A thin, transparent segment without a fibrous layer, after healed perforations or long-standing effusion. It moves excessively and retracts easily.
 ## Tympanosclerosis
-Chalky white hyaline and calcified plaques in the fibrous layer of the drum and sometimes in the middle ear around the ossicles, after recurrent otitis media or grommets. Plaques on the drum usually cause no symptoms; deposits around the ossicles can fix them and cause a conductive loss that is difficult to correct surgically.
+### Etiology and pathology
+Chalky white hyaline and calcified plaques in the fibrous layer of the drum and sometimes in the middle ear around the ossicles, after recurrent otitis media or grommets.
+### Clinical features
+Plaques on the drum usually cause no symptoms; deposits around the ossicles can fix them and cause a conductive loss that is difficult to correct surgically.
 !fig d8-22 | Tympanosclerosis with a central perforation: chalky plaques lie in front of and behind the hole.
 
-# Barotrauma | Aero-otitis media.
-## Mechanism
-On descent in an aircraft or when diving, outside pressure rises. If the Eustachian tube does not open, middle ear pressure falls relative to it. Once the difference reaches about 90 mm Hg, the soft tissues at the pharyngeal end of the tube are pushed together and the tube *locks*, so swallowing and Valsalva can no longer open it. A cold, allergy or sleeping through descent make this more likely.
-## Clinical picture
+# Barotrauma {dz} | Aero-otitis media.
+## Etiology
+A cold, allergy or sleeping through descent in an aircraft make it more likely.
+## Pathophysiology
+On descent in an aircraft or when diving, outside pressure rises. If the Eustachian tube does not open, middle ear pressure falls relative to it. Once the difference reaches about 90 mm Hg, the soft tissues at the pharyngeal end of the tube are pushed together and the tube *locks*, so swallowing and Valsalva can no longer open it.
+## Clinical features
 Severe pain, deafness, tinnitus and sometimes vertigo. The drum is retracted and congested, with haemorrhage into it, and later an effusion or blood (haemotympanum), or a perforation.
-## Inner ear barotrauma
-Forceful Valsalva against a locked tube can rupture the round or oval window, causing sensorineural loss and vertigo: a perilymph fistula that may need exploration.
-## Treatment
-Mild cases: decongestant drops or spray, analgesia and gentle Valsalva. Persistent effusion or failure: politzerisation or myringotomy, and a grommet for recurrent problems.
+## Management
+- **Mild cases:** decongestant drops or spray, analgesia and gentle Valsalva.
+- **Persistent effusion or failure:** politzerisation or myringotomy, and a grommet for recurrent problems.
+## Prevention
 !pearl Prevention
 Avoid flying with a cold, use a decongestant spray before descent, stay awake on descent, and swallow, yawn or perform Valsalva repeatedly.
 !!
-!update Current evidence
-**Spontaneous healing.** In a prospective series of traumatic perforations, most healed spontaneously within three months; small perforations closed faster than large ones, and a dry ear healed better than a wet one (Lou et al., *Clin Otolaryngol* 2011). In a randomised trial of perforations with inverted or everted edges, healing rates were similar with observation, gelfoam patching, and edge approximation plus patching, but closure was faster with intervention (Lou et al., *Clin Otolaryngol* 2011). **Retraction pockets.** Grommets, cartilage reinforcement or excision are used for progressive or unstable pockets, but there are no good randomised trials.
-!!
+## Complications
+### Inner ear barotrauma
+Forceful Valsalva against a locked tube can rupture the round or oval window, causing sensorineural loss and vertigo: a perilymph fistula ([[t:fistula]]) that may need exploration.
 
-# For the examination | What the examiner wants to hear.
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Traumatic perforation:** causes, keep dry, most heal.
@@ -94,3 +111,18 @@ Avoid flying with a cold, use a decongestant spray before descent, stay awake on
 - Missing a perilymph fistula in a patient with vertigo after a slap or a dive.
 - Ignoring a deep retraction pocket until it becomes a cholesteatoma.
 !!
+## Related topics
+- **The tube:** [[t:et]]
+- **Where retraction leads:** [[t:chole]]
+- **Inner ear injury:** [[t:fistula]], [[t:tbfx]]
+- **Repair:** [[t:earsurg]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 21.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 16.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 6.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapters 8 and 10.
+- K. J. Lee, *Essential Otolaryngology*, chapter 22.
+## Studies cited
+- Lou et al., *Clin Otolaryngol* 2011: spontaneous healing of traumatic perforations, and a randomised trial of patching.

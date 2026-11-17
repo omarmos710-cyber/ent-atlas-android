@@ -1,13 +1,18 @@
+@layout amboss
 @stand In superior canal dehiscence, loud sounds or pressure make the world move, and the patient may hear their own eyes moving, their footsteps and their pulse. The audiogram can look exactly like otosclerosis, but the stapedial reflexes are normal: check them before any stapes operation.
 
-# Overview | A third window into the inner ear.
-## Definition
-A defect in the bone over the superior semicircular canal, where it rises towards the floor of the middle cranial fossa, leaving the membranous canal covered only by dura.
-!anat s22_14 | The anterior surface of the petrous bone with the arcuate eminence, over the superior canal.
-## Cause
+# Summary | A third window into the inner ear.
+Superior canal dehiscence is a defect in the bone over the superior semicircular canal, where it rises towards the floor of the middle cranial fossa, leaving the membranous canal covered only by dura. It acts as a third window: sound and pressure cause vertigo (Tullio phenomenon, Hennebert's sign), and the patient hears their own body loudly. The audiogram shows a conductive gap with *present* stapedial reflexes; VEMP thresholds are low; CT in the plane of the canal confirms it. Surgery is only for disabling symptoms. Minor described it in 1998.
+
+# Etiology | Thin bone, then a defect.
 Probably a developmental thinness of the bone, with the final layer lost later in life through minor trauma, straining or the pulsation of the brain. It is often bilateral on CT, though usually symptomatic on one side.
-## The third window
-Normally the inner ear has two mobile windows, the oval and the round. The dehiscence adds a third, so sound and pressure energy escape through it. Pressure in the middle ear or the cranial cavity now moves endolymph in the superior canal, causing vertigo; sound energy is diverted away from the cochlea, causing an apparent conductive loss; and bone-conducted sound is heard more loudly.
+!anat s22_14 | The anterior surface of the petrous bone with the arcuate eminence, over the superior canal.
+
+# Pathophysiology | The third window.
+Normally the inner ear has two mobile windows, the oval and the round. The dehiscence adds a third, so sound and pressure energy escape through it.
+- **Vertigo:** pressure in the middle ear or the cranial cavity now moves endolymph in the superior canal.
+- **Apparent conductive loss:** sound energy is diverted away from the cochlea.
+- **Bone-conduction hyperacusis:** bone-conducted sound is heard more loudly.
 
 # Clinical features | Sound, pressure and the patient's own body.
 ## Vestibular
@@ -21,11 +26,11 @@ The eye movements induced lie in the plane of the superior canal.
 - Pulsatile and gaze-evoked tinnitus.
 - Aural fullness.
 
-# Investigations | The clues.
+# Diagnosis | The clues.
 ## Audiogram
 A low-frequency air-bone gap, with bone conduction thresholds that may be better than 0 dB (supranormal). Stapedial reflexes are *present*, which an otosclerotic or other middle ear conductive loss would abolish.
 ## Vestibular evoked myogenic potentials
-The cervical VEMP threshold is abnormally low and the ocular VEMP amplitude abnormally high ([[t:vest]]). A true middle ear conductive loss normally abolishes VEMPs, so their presence with a gap is a strong clue.
+The cervical VEMP threshold is abnormally low and the ocular VEMP amplitude abnormally high ([[t:vest]]). A true middle ear conductive loss normally abolishes VEMPs, so their presence with a gap is a strong clue. Low-threshold, high-amplitude cervical VEMPs and raised ocular VEMPs at 4 kHz are the most specific physiological tests.
 ## Electrocochleography
 May show a raised SP to AP ratio.
 ## CT
@@ -40,6 +45,9 @@ Condition | Distinguishing features
 [[t:meniere|Ménière's disease]] | Attacks of vertigo for hours, fluctuating low-frequency sensorineural loss
 Otosyphilis | Positive serology, Hennebert's sign
 !!
+!flag Before stapes surgery
+A conductive loss with a normal drum and present stapedial reflexes is not otosclerosis. Operating on the stapes in superior canal dehiscence does not help and may harm.
+!!
 
 # Management | Only if it is disabling.
 ## Conservative
@@ -47,16 +55,14 @@ Reassurance and explanation; avoiding triggers such as loud noise and straining.
 ## Surgery
 For disabling vertigo or autophony: *plugging* the canal or *resurfacing* the defect, through the middle cranial fossa or a transmastoid approach. Plugging is more reliable for vestibular symptoms but sacrifices the canal; a systematic review favoured transmastoid plugging for disabled patients, because of lower complication and revision rates and a shorter stay. Surgery helps the vestibular symptoms more than the hearing loss. Round window reinforcement is an alternative in some centres.
 !ops
-## Risks
-Sensorineural hearing loss and vestibular loss after repair, and the usual risks of a middle fossa craniotomy.
-!flag Before stapes surgery
-A conductive loss with a normal drum and present stapedial reflexes is not otosclerosis. Operating on the stapes in superior canal dehiscence does not help and may harm.
-!!
 !update Current evidence
 **Original description.** Minor described superior canal dehiscence in 1998, with sound- and pressure-induced vertigo and a dehiscence on CT (*Arch Otolaryngol Head Neck Surg* 1998). **Diagnosis.** Low-threshold, high-amplitude cervical VEMPs and raised ocular VEMPs at 4 kHz are the most specific physiological tests. **Surgery.** The systematic review favouring transmastoid plugging is Ziylan et al. (*Otol Neurotol* 2017).
 !!
 
-# For the examination | What the examiner wants to hear.
+# Complications | Of repair.
+Sensorineural hearing loss and vestibular loss after repair, and the usual risks of a middle fossa craniotomy.
+
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **The third window** and how it explains each symptom.
@@ -70,3 +76,14 @@ A conductive loss with a normal drum and present stapedial reflexes is not otosc
 - Offering stapes surgery for a conductive loss with present reflexes.
 - Diagnosing from CT alone, without symptoms and VEMPs.
 !!
+## Related topics
+- [[t:otosc]], [[t:vest]], [[t:vertigo]], [[t:fistula]], [[t:et]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapters 7 and 12.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 18.
+- K. J. Lee, *Essential Otolaryngology*, chapters 1, 16 and 19.
+## Studies cited
+- Minor et al., *Arch Otolaryngol Head Neck Surg* 1998: the original description.
+- Ziylan et al., *Otol Neurotol* 2017: systematic review of surgical approaches.

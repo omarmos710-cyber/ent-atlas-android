@@ -1,6 +1,10 @@
+@layout amboss
 @stand The pinna is all cartilage and skin, and the cartilage depends entirely on its perichondrium. A haematoma after a blow must be drained early, because blood trapped under the perichondrium becomes a cauliflower ear. Congenital anomalies are many, and most are cosmetic; the one to examine fully is microtia, which may hide a deaf ear.
 
-# Overview | Shape, development and injury.
+# Summary | Shape, development and injury.
+This topic covers the conditions of the pinna, each in its own chapter: [[@Congenital anomalies]], [[@Haematoma]], [[@Wounds, bites and cold]], and [[@Keloid]]. Infections and inflammation of the pinna are in [[t:perich]].
+
+# Applied anatomy and development | Cartilage and skin.
 ## Applied anatomy
 A single plate of elastic cartilage covered by skin that is tightly adherent on the lateral surface. The lobule has no cartilage. The *incisura terminalis*, between the tragus and the crus of the helix, also has no cartilage, which is why an endaural incision there avoids cutting it.
 !fig d1-1 | (A) The divisions of the ear. (B) Elevations and depressions of the lateral surface of the pinna. (C) The auricular cartilage.
@@ -14,7 +18,7 @@ Lee: The first three hillocks from the first arch, the last three from the secon
 In practice: Both put the tragus on the first arch and most of the pinna on the second.
 !!
 
-# Congenital anomalies | From a tag to an absent ear.
+# Congenital anomalies {dz} | From a tag to an absent ear.
 !fig d8-1n | A normal pinna.
 ## Absent or small
 ### Anotia
@@ -35,24 +39,37 @@ A small, malformed pinna, graded from mild deformity to a peanut-shaped vestige.
 - **Preauricular tags:** may contain cartilage.
 - **Preauricular pit or sinus:** a small opening in front of the crus of the helix, from faulty fusion of the hillocks. It may become repeatedly infected.
 !fig d8-5 d8-6 | First, preauricular appendages. Second, an infected preauricular sinus discharging pus.
-## Treatment
+## Management
 - **Bat ear:** otoplasty, usually after age six, before teasing at school.
 - **Stahl's and other shape anomalies:** a mould in the first six weeks of life, while the cartilage is soft, can correct them without surgery.
+- **Microtia:** autologous rib cartilage reconstruction, usually from about age eight to ten, remains the standard; porous polyethylene frameworks allow earlier, single-stage reconstruction but carry a higher risk of exposure.
 - **Preauricular sinus:** antibiotics for infection; excision of the whole tract when it has been repeatedly infected ([[t:earminor]]).
 !ops
+!update Current evidence
+**Microtia.** Autologous rib cartilage reconstruction, usually from about age eight to ten, remains the standard; porous polyethylene frameworks allow earlier, single-stage reconstruction but carry a higher risk of exposure. **Prominent ears.** Ear moulding in the first weeks of life corrects many deformities without surgery.
+!!
 
-# Haematoma | The boxer's ear.
-## Cause
+# Haematoma {dz} | The boxer's ear.
+## Etiology
 Blunt trauma from boxing, wrestling or rugby shears the perichondrium from the cartilage, and blood collects between them.
-## Picture
+## Clinical features
 A tense, fluctuant, smooth swelling on the lateral surface that obliterates the landmarks.
-## Treatment
+## Management
+!ward On call: a swollen pinna after a blow
+1. Aspirate or incise the haematoma.
+2. Pressure bolster with the concavities packed.
+3. Antibiotics; check for reaccumulation within a day or two, and review the bolster at 4 to 7 days.
+4. Lacerations: repair early, covering the cartilage.
+!!
 Drain early: aspiration for small, fresh collections, or incision for larger or recurrent ones. Then apply a pressure bolster with the concavities packed, through-and-through sutures or a moulded dressing, give antibiotics, and recheck for reaccumulation. The choice of method, the bolster and aftercare are covered in detail in [[t:earminor]].
-## Complication
+!update Current evidence
+**Haematoma.** A Cochrane review found no randomised trials comparing needle aspiration with incision and drainage, or different pressure dressings (Jones and Mahendran, 2004); case series favour incision and drainage with a bolster or through-and-through sutures, which reduce reaccumulation.
+!!
+## Complications
 Untreated or infected, the cartilage necroses and new cartilage forms irregularly, giving a *cauliflower ear*.
 !fig d8-7 | A cauliflower (boxer's) ear.
 
-# Other injuries | Wounds, bites and cold.
+# Wounds, bites and cold {dz} | Other injuries.
 ## Lacerations
 Repair early, covering the cartilage with skin and keeping the perichondrium attached.
 !fig d8-8 | A laceration of the left pinna.
@@ -67,20 +84,14 @@ Dhingra: Moist pledgets at 38 to 42°C, noting that rapid rewarming is painful.
 Lee: Favours slow rewarming.
 In practice: Rewarm with moist pledgets at 38 to 42°C and give good analgesia, because rewarming hurts.
 !!
-## Keloid
-After piercing, often in darker skin. Excision alone recurs; combine with steroid injection, pressure or radiotherapy ([[t:extca]]).
-!update Current evidence
-**Haematoma.** A Cochrane review found no randomised trials comparing needle aspiration with incision and drainage, or different pressure dressings (Jones and Mahendran, 2004); case series favour incision and drainage with a bolster or through-and-through sutures, which reduce reaccumulation. **Microtia.** Autologous rib cartilage reconstruction, usually from about age eight to ten, remains the standard; porous polyethylene frameworks allow earlier, single-stage reconstruction but carry a higher risk of exposure. **Prominent ears.** Ear moulding in the first weeks of life corrects many deformities without surgery.
-!!
 
-# For the examination | What the examiner wants to hear.
-## On call
-!ward A swollen pinna after a blow
-1. Aspirate or incise the haematoma.
-2. Pressure bolster with the concavities packed.
-3. Antibiotics; check for reaccumulation within a day or two, and review the bolster at 4 to 7 days.
-4. Lacerations: repair early, covering the cartilage.
-!!
+# Keloid {dz} | After piercing.
+## Epidemiology
+After piercing, often in darker skin.
+## Management
+Excision alone recurs; combine with steroid injection, pressure or radiotherapy ([[t:extca]]).
+
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Development** from the hillocks of His.
@@ -95,3 +106,15 @@ After piercing, often in darker skin. Excision alone recurs; combine with steroi
 - Draining without a pressure dressing.
 - Excising a keloid without adjuvant treatment.
 !!
+## Related topics
+- [[t:earminor]], [[t:perich]], [[t:atresia]], [[t:extca]], [[t:facplast]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 13.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 15.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 5.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapters 1 and 8.
+- K. J. Lee, *Essential Otolaryngology*, chapters 13 and 23.
+## Studies cited
+- Jones and Mahendran, Cochrane review, 2004: interventions for auricular haematoma.

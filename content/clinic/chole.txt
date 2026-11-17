@@ -1,32 +1,17 @@
+@layout amboss
 @stand A cholesteatoma is skin in the wrong place: keratinising squamous epithelium growing inside the middle ear and mastoid, shedding keratin it cannot clear, expanding and eroding bone as it goes. Drops will not cure it. The operation aims for a safe, dry ear first and hearing second, and the follow-up lasts for years.
 
-# Overview | Skin in the wrong place.
-## Definition
-A cholesteatoma is a three-dimensional collection of keratinising stratified squamous epithelium in the middle ear cleft, with accumulated keratin debris in its centre. Despite the name it contains no cholesterol and is not a tumour; *keratoma* would be a better word.
-## Structure
-### Matrix
-The living wall: keratinising squamous epithelium resting on a layer of inflamed connective tissue, the *perimatrix*.
-### Contents
-White, flaky or pearly keratin debris, often infected and foul smelling.
-!fig d11-1 | Structure of a cholesteatoma: a matrix of keratinising epithelium and perimatrix, enclosing keratin debris.
-## Why it matters
-It is the *unsafe* chronic ear. Cholesteatoma destroys the ossicles, the labyrinth, the facial canal and the bony plates over the dura and sigmoid sinus, and it causes most of the serious complications of chronic otitis media.
+# Summary | Skin in the wrong place.
+A cholesteatoma is a three-dimensional collection of keratinising stratified squamous epithelium in the middle ear cleft, with accumulated keratin debris in its centre. Despite the name it contains no cholesterol and is not a tumour; *keratoma* would be a better word. It is the *unsafe* chronic ear: it destroys the ossicles, the labyrinth, the facial canal and the bony plates over the dura and sigmoid sinus, and it causes most of the serious complications of chronic otitis media ([[9]]). It presents with a scanty, foul discharge and an attic or posterosuperior marginal defect. High-resolution CT maps it and diffusion-weighted MRI finds residual disease. Surgery is the treatment, followed for at least five years.
 
-# Classification and genesis | Where it comes from.
-## Congenital cholesteatoma
-A white mass behind an intact drum, usually anterosuperior, in a child with no history of otitis media. It arises from epithelial rests left in the temporal bone, and may also occur in the petrous apex and the cerebellopontine angle.
-## Primary acquired cholesteatoma
-The commonest type. A retraction pocket of the pars flaccida, drawn in by negative middle ear pressure, deepens into the attic; keratin accumulates in it, the neck narrows, and it becomes a self-perpetuating sac.
-!fig d11-2 d11-3 | First, the theories of genesis: a retraction pocket, basal cell hyperplasia and epithelial invasion through a posterosuperior perforation. Second, the sequence leading to primary acquired cholesteatoma.
-## Secondary acquired cholesteatoma
-Squamous epithelium grows into the middle ear through a marginal or posterosuperior perforation, or is implanted by trauma or surgery.
-!fig d11-4 | Pathways to secondary acquired cholesteatoma: metaplasia of the middle ear mucosa, and epithelial migration through a large central or marginal perforation.
+# Etiology | Where it comes from.
 ## Theories of genesis
 - **Cell rests:** for congenital cholesteatoma.
 - **Invagination or retraction (Wittmaack):** for primary acquired.
 - **Basal cell hyperplasia (Ruedi):** prickle cells of the pars flaccida invade the subepithelial tissue.
 - **Epithelial invasion or migration (Habermann):** through a marginal perforation.
 - **Squamous metaplasia (Sade):** of the middle ear mucosa after chronic inflammation.
+!fig d11-2 d11-3 | First, the theories of genesis: a retraction pocket, basal cell hyperplasia and epithelial invasion through a posterosuperior perforation. Second, the sequence leading to primary acquired cholesteatoma.
 ## Retraction pockets
 Retraction of the pars tensa is staged by how deep it goes.
 - **Stage I:** retracted, not touching the incus.
@@ -38,7 +23,13 @@ Retraction of the pars tensa is staged by how deep it goes.
 The attic is ventilated through the narrow anterior and posterior tympanic isthmus. When the isthmus is blocked by swollen mucosa, the attic and Prussak's space become isolated and the pars flaccida retracts, which is why attic cholesteatoma can coexist with a normally ventilated mesotympanum.
 !!
 
-# Pathology | How it destroys bone.
+# Pathophysiology | How it grows and destroys bone.
+## Structure
+### Matrix
+The living wall: keratinising squamous epithelium resting on a layer of inflamed connective tissue, the *perimatrix*.
+### Contents
+White, flaky or pearly keratin debris, often infected and foul smelling.
+!fig d11-1 | Structure of a cholesteatoma: a matrix of keratinising epithelium and perimatrix, enclosing keratin debris.
 ## Bone erosion
 Collagenases and other enzymes from the matrix and perimatrix, osteoclast activation by inflammatory cytokines, and infection all contribute. The mastoid is usually sclerotic.
 !differ How bone is eroded
@@ -63,7 +54,7 @@ Pus may have been blocked and may be tracking inwards. Ask about headache, fever
 ### Hearing loss
 Conductive, or mixed when the cochlea is involved. A cholesteatoma that bridges an eroded chain can transmit sound well: the *cholesteatoma hearer*, who must be warned that hearing may worsen after surgery.
 ### Symptoms of complications
-Earache, headache, vertigo, facial weakness, fever and vomiting, neck stiffness, double vision or unsteadiness, or a listless child who will not feed.
+Earache, headache, vertigo, facial weakness, fever and vomiting, neck stiffness, double vision or unsteadiness, or a listless child who will not feed ([[9]]).
 ## Signs
 - An attic perforation or posterosuperior marginal perforation.
 - White keratin flakes or a pearly mass.
@@ -71,11 +62,13 @@ Earache, headache, vertigo, facial weakness, fever and vomiting, neck stiffness,
 - A red, fleshy polyp that bleeds when touched.
 - A positive fistula test in some.
 !fig d11-13 | (A) An attic retraction pocket. (B) A double perforation, in the pars tensa and in the attic.
-!pearl A blue drum
-A blue drum with dark fluid behind it suggests cholesterol granuloma, not cholesteatoma.
-!!
 
-# Investigations | Map the disease before you operate.
+# Diagnosis | Map the disease before you operate.
+## Approach
+- **Every patient:** microscope examination, fistula test and audiogram.
+- **Before surgery:** high-resolution CT.
+- **Non-echo-planar diffusion-weighted MRI:** for residual or recurrent disease after canal wall up surgery, and when an intracranial complication is suspected.
+- **Retraction pockets:** rigid endoscopy with photographs, to follow them over time.
 ## Examination under the microscope
 Clean with suction; look for keratin, the extent of the defect and polyps.
 ## Fistula test
@@ -86,9 +79,32 @@ Measures conductive and sensorineural components before surgery.
 Shows the extent of disease and the state of the scutum, ossicles, tegmen, lateral semicircular canal, facial canal and sigmoid plate, and the anatomy for surgery.
 ## Non-echo-planar diffusion-weighted MRI
 Keratin restricts diffusion and shows bright. Sensitivity and specificity are both about 90%, but pearls smaller than about 3 mm can be missed. It detects residual or recurrent disease after canal wall up surgery and can replace a planned second look when suspicion is low (a negative scan does not cancel a second look when suspicion is high). It also helps when an intracranial complication is suspected.
+!update Current evidence
+A meta-analysis of 26 studies found non-echo-planar diffusion-weighted MRI had a sensitivity of 91% and specificity of 92% for cholesteatoma, before and after surgery and in children and adults (Lingam et al., *Otol Neurotol* 2017).
+!!
 ## Endoscopy in clinic
 A rigid 0 degree endoscope shows the full depth of a retraction pocket and documents it with photographs for comparison over time.
 !imaging | Acquired and congenital cholesteatoma, a labyrinthine fistula, intracranial extension and canal cholesteatoma.
+
+# Differential diagnosis | Other chronic ears.
+- **Mucosal (safe) chronic otitis media:** profuse, non-foul discharge through a central perforation ([[t:csom]]); the two are compared there.
+- **Cholesterol granuloma:** a blue drum with dark fluid behind it suggests cholesterol granuloma, not cholesteatoma.
+- **Canal cholesteatoma and keratosis obturans:** keratin in the canal, not the middle ear ([[t:ko]]).
+
+# Subtypes and variants | Congenital, primary and secondary acquired.
+## Congenital cholesteatoma
+A white mass behind an intact drum, usually anterosuperior, in a child with no history of otitis media. It arises from epithelial rests left in the temporal bone, and may also occur in the petrous apex and the cerebellopontine angle.
+## Primary acquired cholesteatoma
+The commonest type. A retraction pocket of the pars flaccida, drawn in by negative middle ear pressure, deepens into the attic; keratin accumulates in it, the neck narrows, and it becomes a self-perpetuating sac.
+## Secondary acquired cholesteatoma
+Squamous epithelium grows into the middle ear through a marginal or posterosuperior perforation, or is implanted by trauma or surgery.
+!fig d11-4 | Pathways to secondary acquired cholesteatoma: metaplasia of the middle ear mucosa, and epithelial migration through a large central or marginal perforation.
+## Staging (EAONO/JOS)
+The system divides the middle ear and mastoid into sites, with the *sinus tympani* and *protympanum* as difficult-access sites where residual disease is most often left.
+- **Stage I:** occupies one site.
+- **Stage II:** two or more sites.
+- **Stage III:** an extracranial complication (facial palsy, labyrinthine fistula, postauricular abscess, canal wall destruction).
+- **Stage IV:** intracranial spread.
 
 # Management | Surgery is the treatment.
 ## Aims
@@ -120,40 +136,42 @@ About 40% of open cavities discharge or cannot tolerate water. Obliterating the 
 ### Endoscopic ear surgery
 Transcanal endoscopes suit limited attic and mesotympanic disease, and see around corners into the sinus tympani and anterior attic without a postauricular incision. Disease reaching the antrum or mastoid needs a combined approach. The surgeon works one-handed, and bleeding and heat from the light source are drawbacks. Residual disease found by the endoscope after apparent microscopic clearance ranges from 17 to 38%.
 !ops
-## Lateral canal fistula
-Present in 7 to 10% of cholesteatomas ([[t:fistula]]), 90% of them in the lateral canal; only about 60% are seen on preoperative CT. Assume one in every case.
+!update Current evidence
+In 13 studies, endoscopic ear surgery had lower residual and recurrent disease than microscopic surgery (risk ratios 0.68 and 0.51), with similar graft take and hearing, though the studies were mostly non-randomised and in selected disease (Li et al., *Am J Otolaryngol* 2021). Across 1,534 patients, single-stage mastoid obliteration was followed by recurrent disease in 4.6% and residual disease in 5.4% (van der Toom et al., *JAMA Otolaryngol Head Neck Surg* 2018).
+!!
+## A fistula found at surgery
+Handled as in [[9.1.2]].
+## Hearing reconstruction
+Ossiculoplasty, at the first stage or the second look.
+## Follow-up and recidivism
+Recidivism is either **residual** (incompletely removed) or **recurrent** (a new retraction); both demand follow-up for at least five years, longer in children.
+
+# Complications | Why it is called unsafe.
+## Intratemporal
+### Ossicular erosion
+Usually the incus first.
+### Labyrinthine fistula and labyrinthitis
+Present in 7 to 10% of cholesteatomas ([[t:fistula]]), 90% of them in the lateral canal; only about 60% are seen on preoperative CT. Assume one in every case. At surgery:
 - Small fistula: the matrix is often removed at the end of the operation and the fistula sealed.
 - Large fistula or one in an only hearing ear: leave the matrix on it and convert to canal wall down.
 - If the endosteum tears, cover it immediately.
 - Never strip the matrix off a cochlear fistula.
-## Hearing reconstruction
-Ossiculoplasty, at the first stage or the second look.
-## Staging and recidivism
-The EAONO/JOS system divides the middle ear and mastoid into sites, with the *sinus tympani* and *protympanum* as difficult-access sites where residual disease is most often left. Stage I occupies one site, stage II two or more, stage III has an extracranial complication (facial palsy, labyrinthine fistula, postauricular abscess, canal wall destruction), and stage IV intracranial spread. Recidivism is either **residual** (incompletely removed) or **recurrent** (a new retraction); both demand follow-up for at least five years, longer in children.
-
-# Complications | Why it is called unsafe.
-## Intratemporal
-- Ossicular erosion, usually the incus first.
-- Labyrinthine fistula and labyrinthitis.
-- Facial palsy, usually from the tympanic segment ([[t:facial]]).
-- Mastoiditis and abscesses.
+Facial canal dehiscence and tegmen dehiscence often accompany a fistula.
+### Facial palsy
+Usually from the tympanic segment ([[t:facial]]). The epineurium does not need opening unless disease has invaded the nerve.
+### Mastoiditis and abscesses
+([[t:mastoiditis]]).
 ## Intracranial
 Extradural and subdural abscess, meningitis, brain abscess, lateral sinus thrombosis and otitic hydrocephalus, through an eroded tegmen or sinus plate ([[t:icc]]).
-!pearl At surgery
-Facial canal dehiscence and tegmen dehiscence often accompany a fistula. The epineurium does not need opening unless disease has invaded the nerve.
-!!
-!update Current evidence
-A meta-analysis of 26 studies found non-echo-planar diffusion-weighted MRI had a sensitivity of 91% and specificity of 92% for cholesteatoma, before and after surgery and in children and adults (Lingam et al., *Otol Neurotol* 2017). In 13 studies, endoscopic ear surgery had lower residual and recurrent disease than microscopic surgery (risk ratios 0.68 and 0.51), with similar graft take and hearing, though the studies were mostly non-randomised and in selected disease (Li et al., *Am J Otolaryngol* 2021). Across 1,534 patients, single-stage mastoid obliteration was followed by recurrent disease in 4.6% and residual disease in 5.4% (van der Toom et al., *JAMA Otolaryngol Head Neck Surg* 2018).
-!!
-
-# For the examination | What the examiner wants to hear.
-## On call
-!ward Chronic ear with a new symptom
+## Approach to a suspected complication
+!ward On call: chronic ear with a new symptom
 1. New vertigo, facial weakness, headache, fever or neck stiffness: treat as a complication until proven otherwise.
 2. Examine the facial nerve and do a fistula test.
 3. Request CT, and MRI if intracranial spread is possible.
 4. Start intravenous antibiotics and inform your senior.
 !!
+
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Definition** and structure: matrix, perimatrix, keratin.
@@ -163,6 +181,13 @@ A meta-analysis of 26 studies found non-echo-planar diffusion-weighted MRI had a
 - **Fistula:** test, incidence and management.
 - **Non-EPI diffusion MRI** for residual disease.
 !!
+## Pearls
+!pearl At surgery
+Facial canal dehiscence and tegmen dehiscence often accompany a fistula. The epineurium does not need opening unless disease has invaded the nerve.
+!!
+!pearl A blue drum
+A blue drum with dark fluid behind it suggests cholesterol granuloma, not cholesteatoma.
+!!
 ## Common pitfalls
 !pit
 - Treating an attic crust with drops and never lifting it.
@@ -170,3 +195,20 @@ A meta-analysis of 26 studies found non-echo-planar diffusion-weighted MRI had a
 - Choosing canal wall up for a patient who cannot attend follow-up.
 - Stripping matrix off a large fistula in an only hearing ear.
 !!
+## Related topics
+- **The safe ear:** [[t:csom]]
+- **Retraction and atelectasis:** [[t:tmperf]]
+- **Complications:** [[t:fistula]], [[t:facial]], [[t:mastoiditis]], [[t:icc]]
+- **Operations:** [[t:earsurg]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 19.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 16.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 6.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapter 11.
+- K. J. Lee, *Essential Otolaryngology*, chapters 22 and 25.
+## Studies cited
+- Lingam et al., *Otol Neurotol* 2017: diffusion-weighted MRI for cholesteatoma.
+- Li et al., *Am J Otolaryngol* 2021: endoscopic versus microscopic ear surgery.
+- van der Toom et al., *JAMA Otolaryngol Head Neck Surg* 2018: mastoid obliteration.

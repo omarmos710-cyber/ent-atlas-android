@@ -1,23 +1,22 @@
+@layout amboss
 @stand Vertigo is the illusion of movement, usually spinning, and in most patients it comes from the inner ear. Peripheral causes account for about 85%, but the duty of the doctor is to catch the dangerous central minority. Four questions sort most cases: how long the attacks last, what triggers them, whether hearing is affected, and whether there are neurological signs.
 
-# Overview | A symptom, not a diagnosis.
-## Definitions
-### Vertigo
-A false sense of rotation or movement of oneself or the surroundings, from asymmetry in the vestibular system.
-### Other kinds of dizziness
+# Summary | A symptom, not a diagnosis.
+*Vertigo* is a false sense of rotation or movement of oneself or the surroundings, from asymmetry in the vestibular system. Peripheral causes account for about 85%. The history (duration, triggers, hearing, neurological symptoms) and the bedside examination (nystagmus, head impulse, HINTS, Dix-Hallpike) sort most cases. The general approach comes first; each cause then has its own chapter.
+!tree Causes of vertigo
+Peripheral | [[@Benign paroxysmal positional vertigo|BPPV]], [[@Vestibular neuritis]] | labyrinthitis, Ménière's disease, perilymph fistula, superior canal dehiscence, ototoxicity, trauma, syphilis ([[@Other peripheral causes]])
+Central | [[@Posterior circulation stroke]] | vertebrobasilar insufficiency, Wallenberg syndrome, [[@Vestibular migraine]], multiple sclerosis, cerebellar and brainstem tumours, epilepsy
+Other | [[@Other causes|Cervical]] | ocular, psychogenic, cardiovascular
+!!
+## Other kinds of dizziness
 - **Disequilibrium:** unsteadiness without a sense of rotation.
 - **Oscillopsia:** the visual world jumps with head movement, typical of bilateral vestibular loss.
 - **Presyncope:** light-headedness from reduced cerebral perfusion (cardiac, orthostatic, hypoglycaemic).
 - **Physiological:** motion sickness and height vertigo.
-## Peripheral or central
-!tree Causes of vertigo
-Peripheral | BPPV, vestibular neuritis | labyrinthitis, Ménière's disease, perilymph fistula, superior canal dehiscence, ototoxicity, trauma, syphilis
-Central | Posterior circulation stroke | vertebrobasilar insufficiency, Wallenberg syndrome, vestibular migraine, multiple sclerosis, cerebellar and brainstem tumours, epilepsy
-Other | Cervical | ocular, psychogenic, cardiovascular
-!!
 
-# The history | Timing is everything.
-## Duration
+# Diagnosis | Timing is everything; then eyes, head and gait.
+## History
+### Duration
 !table Duration of attacks
 Duration | Typical causes
 Seconds | Benign paroxysmal positional vertigo
@@ -26,24 +25,27 @@ Minutes to hours | Ménière's disease, recurrent vestibulopathy, vestibular mig
 Days to weeks | Vestibular neuritis, labyrinthitis, stroke
 Variable | Perilymph fistula, superior canal dehiscence
 !!
-## Triggers
+### Triggers
 Head position (BPPV), loud sound or pressure (superior canal dehiscence, fistula), straining, neck movement, standing up (orthostatic hypotension), and migraine triggers.
-## Hearing
+### Hearing
 Hearing loss or tinnitus points to the labyrinth (labyrinthitis, Ménière's disease, fistula) or the cerebellopontine angle, or to an AICA stroke.
-## Neurological symptoms
+### Neurological symptoms
 Double vision, slurred speech, numbness, weakness, difficulty swallowing, new severe headache: central until proven otherwise.
-
-# Examination | Eyes, head and gait.
-## Nystagmus
+## Examination
+### Nystagmus
 Look in the primary position and on gaze, with and without fixation (Frenzel glasses). Peripheral nystagmus is horizontal-torsional, beats away from the affected side and is suppressed by fixation; it is stronger looking towards the fast phase (*Alexander's law*).
-## Head impulse test
+### Head impulse test
 A rapid head turn: a catch-up saccade means the vestibulo-ocular reflex on that side has failed, a peripheral lesion.
-## HINTS
+### HINTS
 In acute continuous vertigo with nystagmus (the acute vestibular syndrome): a *normal* head impulse, direction-changing nystagmus, or a vertical skew deviation points to a stroke. New hearing loss with acute vertigo ("HINTS plus") also raises concern for an anterior inferior cerebellar artery stroke. HINTS is more sensitive than early MRI, which misses up to 1 in 5 posterior circulation strokes in the first 48 hours, but it is reliable only in the hands of someone trained to do it, and only in patients with continuous vertigo and nystagmus.
-## Positional tests
+!update Current evidence
+In acute vestibular syndrome, HINTS had a pooled sensitivity of 95.5% and specificity of 71% for posterior circulation stroke (Krishnan et al., *Eur Stroke J* 2019).
+!!
+### Positional tests
 The Dix-Hallpike manoeuvre for posterior canal BPPV, and the supine roll test for the lateral canal.
-## Other bedside tests
-Romberg and tandem gait, head shake, dynamic visual acuity (losing more than five lines suggests bilateral loss), fistula test, and a full neurological and cranial nerve examination.
+### Other bedside tests
+Romberg and tandem gait, head shake, dynamic visual acuity (losing more than five lines suggests bilateral loss), fistula test, and a full neurological and cranial nerve examination. A positive fistula test: perilymph fistula, cholesteatoma with a fistula, Ménière's disease, superior canal dehiscence, or syphilis. Formal vestibular tests are covered in [[t:vest]].
+## Peripheral or central?
 !table Peripheral or central findings
 Finding | Acute peripheral | Central
 Nystagmus | Mixed horizontal-torsional | Pure vertical or torsional, direction-changing
@@ -55,24 +57,38 @@ Gait | Can walk | Often cannot stand
 Other CNS signs | Absent | Often present
 !!
 
-# Peripheral causes | The common ones.
-## Benign paroxysmal positional vertigo
-### Mechanism
-Otoconia dislodged from the utricle settle in a semicircular canal, most often the posterior canal, and move with gravity when the head changes position (*canalolithiasis*). It often follows head injury or ear infection, or occurs in older people without cause.
+# Management | Principles.
+## Approach
+!ward On call: acute vertigo
+1. Ask about timing, triggers, hearing and neurological symptoms.
+2. Examine nystagmus, head impulse, skew and gait (HINTS).
+3. Any focal sign, new severe headache, inability to stand, or a normal head impulse with nystagmus: treat as stroke until proven otherwise.
+4. Dix-Hallpike only once the neck and the patient's condition allow it.
+5. Give antiemetics or vestibular sedatives for a few days only.
+!!
+## Vestibular rehabilitation
+Head and eye exercises that drive central compensation, the mainstay after any peripheral loss.
+!update Current evidence
+A Cochrane review found moderate to strong evidence that vestibular rehabilitation is safe and effective for unilateral peripheral vestibular loss (McDonnell and Hillier, 2015).
+!!
+## Avoid long-term sedatives
+They slow compensation.
+!ops
+
+# Benign paroxysmal positional vertigo {dz} | Seconds, on lying down.
+## Etiology
+It often follows head injury or ear infection, or occurs in older people without cause.
+## Pathophysiology
+Otoconia dislodged from the utricle settle in a semicircular canal, most often the posterior canal, and move with gravity when the head changes position (*canalolithiasis*).
 !anat s79_14 s81_18 | The crista ampullaris with its cupula, and the macula of the utricle and saccule whose otoconia cause BPPV.
-### Picture
+## Clinical features
 Brief vertigo, under a minute, on lying down, rolling over or looking up. No hearing loss.
+## Diagnosis
 ### Dix-Hallpike nystagmus
 Rotatory and geotropic, after a latency of a few seconds, rising then fading within a minute, reversing on sitting up, and fatiguing on repetition.
-### Treatment
-The *Epley manoeuvre* repositions the debris into the utricle; about 80% are cured by one manoeuvre and over 90% after up to four. The Semont manoeuvre is an equal alternative; Brandt-Daroff exercises are less effective. Most cases resolve in months anyway. Surgery (posterior canal occlusion or singular neurectomy) is rarely needed.
-!fig d7-1 | The Epley manoeuvre for posterior canal BPPV, with the position of the patient and of the otolith debris in the canal at each step.
-### Other canals
-The **posterior canal** causes about 90 to 95% of BPPV because it is the lowest canal when lying down; the **horizontal (lateral) canal** causes 5 to 15%, and the anterior canal very few. The occasional Epley manoeuvre converts posterior into horizontal canal BPPV.
-- **Horizontal canal:** diagnosed with the supine roll test, which produces horizontal nystagmus on turning to either side. In the commoner *geotropic* form (beating towards the ground), the side with the stronger nystagmus is affected; in the *apogeotropic* form (beating away from the ground, thought to be cupulolithiasis), the weaker side is affected. Treat with the **Lempert 360 degree (barbecue) roll** towards the healthy side, the **Gufoni manoeuvre**, or prolonged lying on one side; evidence for the apogeotropic form is weak.
-- **Anterior canal:** down-beating nystagmus with a torsional component, treated by the **Yacovino (deep head-hanging) manoeuvre**. Down-beating positional nystagmus that does not settle must be imaged to exclude a cerebellar lesion.
-### After repositioning
-No postural restrictions are needed. Recurrence is common, in up to a third of patients within four years, and patients can be taught to treat themselves. Vestibular sedatives and benzodiazepines have no role in BPPV: they slow compensation and increase falls in the elderly. Atypical nystagmus, failure after several manoeuvres and frequent recurrence call for imaging.
+### No routine tests
+No routine imaging or vestibular testing. Atypical nystagmus, failure after several manoeuvres and frequent recurrence call for imaging.
+## Differential diagnosis
 !table Positional vertigo: peripheral or central
 Feature | Peripheral | Central
 Latency | Present | Often none
@@ -81,13 +97,47 @@ Fatigue | Yes | No
 Direction | Fixed, torsional | Changing or vertical
 Vertigo | Marked | Often mild
 !!
-## Vestibular neuritis
-### Mechanism
+## Subtypes and variants: which canal
+The **posterior canal** causes about 90 to 95% of BPPV because it is the lowest canal when lying down; the **horizontal (lateral) canal** causes 5 to 15%, and the anterior canal very few. The occasional Epley manoeuvre converts posterior into horizontal canal BPPV.
+### Horizontal canal
+Diagnosed with the supine roll test, which produces horizontal nystagmus on turning to either side. In the commoner *geotropic* form (beating towards the ground), the side with the stronger nystagmus is affected; in the *apogeotropic* form (beating away from the ground, thought to be cupulolithiasis), the weaker side is affected. Treat with the **Lempert 360 degree (barbecue) roll** towards the healthy side, the **Gufoni manoeuvre**, or prolonged lying on one side; evidence for the apogeotropic form is weak.
+### Anterior canal
+Down-beating nystagmus with a torsional component, treated by the **Yacovino (deep head-hanging) manoeuvre**. Down-beating positional nystagmus that does not settle must be imaged to exclude a cerebellar lesion.
+## Management
+### Repositioning
+The *Epley manoeuvre* repositions the debris into the utricle; about 80% are cured by one manoeuvre and over 90% after up to four. The Semont manoeuvre is an equal alternative; Brandt-Daroff exercises are less effective. Most cases resolve in months anyway.
+!fig d7-1 | The Epley manoeuvre for posterior canal BPPV, with the position of the patient and of the otolith debris in the canal at each step.
+### After repositioning
+No postural restrictions are needed. Patients can be taught to treat themselves.
+### No sedatives
+Vestibular sedatives and benzodiazepines have no role in BPPV: they slow compensation and increase falls in the elderly.
+### Surgery
+Posterior canal occlusion or singular neurectomy is rarely needed.
+!update Current evidence
+The American BPPV guideline recommends diagnosis with the Dix-Hallpike and supine roll tests, repositioning manoeuvres as treatment, and no routine imaging, vestibular testing or vestibular suppressants (Bhattacharyya et al., *Otolaryngol Head Neck Surg* 2017). A Cochrane review found the Epley manoeuvre resolved vertigo in 56% compared with 21% after a sham manoeuvre (Hilton and Pinder, 2014).
+!!
+## Prognosis
+Recurrence is common, in up to a third of patients within four years.
+
+# Vestibular neuritis {dz} | Days of continuous vertigo, hearing intact.
+## Etiology
 Probably viral inflammation of the vestibular nerve or ganglion.
-### Picture
-Sudden, severe, continuous vertigo with nausea and vomiting, lasting days and settling over two to three weeks, without hearing loss. Nystagmus beats away from the affected side; the head impulse is abnormal towards it; calorics are reduced. BPPV follows in up to 15%.
-### Treatment
-Short-course vestibular sedatives for the first few days, then early mobilisation and vestibular rehabilitation. Steroids started early speed recovery of caloric function in the short term, but do not clearly improve long-term symptoms. Failure to improve at two to three weeks means a central lesion, such as a cerebellar infarct, must be excluded.
+## Clinical features
+Sudden, severe, continuous vertigo with nausea and vomiting, lasting days and settling over two to three weeks, without hearing loss.
+## Diagnosis
+Nystagmus beats away from the affected side; the head impulse is abnormal towards it; calorics are reduced.
+## Differential diagnosis
+- **Labyrinthitis:** as neuritis, but with hearing loss ([[@Other peripheral causes/Labyrinthitis]]).
+- **Cerebellar infarct:** failure to improve at two to three weeks means a central lesion must be excluded ([[@Posterior circulation stroke]]).
+## Management
+Short-course vestibular sedatives for the first few days, then early mobilisation and vestibular rehabilitation. Steroids started early speed recovery of caloric function in the short term, but do not clearly improve long-term symptoms.
+!update Current evidence
+Steroids for vestibular neuritis improved caloric recovery at one month but not at 12 months (Fishman et al., 2011).
+!!
+## Complications
+BPPV follows in up to 15%.
+
+# Other peripheral causes {dz} | The rest of the inner ear.
 ## Labyrinthitis
 As neuritis, but with hearing loss, from viral or bacterial infection of the labyrinth itself ([[t:fistula]]).
 ## Ménière's disease
@@ -100,9 +150,11 @@ Episodic vertigo and fluctuating hearing after stapes surgery, barotrauma, heavy
 Vertigo provoked by sound and pressure, autophony and a low-frequency conductive loss with intact reflexes ([[t:scd]]).
 ## Bilateral vestibular loss
 Oscillopsia and unsteadiness in the dark, without true vertigo, most often from aminoglycosides ([[t:sensori]]). Cerebellar ataxia with bilateral vestibular loss is called *CABV*, or *CANVAS* when sensory neuropathy is added.
+## Vestibular schwannoma
+An acoustic neuroma ([[t:vs]]) usually causes unsteadiness, not severe vertigo.
 
-# Central causes | The ones not to miss.
-## Posterior circulation stroke
+# Posterior circulation stroke {dz} | The one not to miss.
+## Clinical features
 !table Posterior circulation stroke syndromes
 Feature | PICA | AICA | SCA
 Vertigo, nystagmus, ataxia | Yes | Yes | Yes
@@ -112,18 +164,26 @@ Dysphagia, hoarseness | Yes | No | No
 Contralateral loss of vibration and position | No | No | Yes
 !!
 !fig d7-2 | Lateral medullary (Wallenberg) syndrome from occlusion of the posterior inferior cerebellar artery.
-### Wallenberg syndrome
+## Wallenberg syndrome
 Violent vertigo with hoarseness, dysphagia, ipsilateral Horner syndrome, ipsilateral facial and contralateral body loss of pain and temperature, and ataxia.
+## Diagnosis
+HINTS at the bedside ([[@Diagnosis/Examination/HINTS]]); early MRI misses up to 1 in 5 posterior circulation strokes in the first 48 hours.
 ## Vertebrobasilar insufficiency
 Attacks lasting minutes in patients over 50, with visual disturbance, diplopia or drop attacks, sometimes on neck movement.
-## Vestibular migraine
-Attacks of vertigo, minutes to hours, with or near migraine headache, often in young women with a family history; response to migraine treatment supports the diagnosis.
+
+# Vestibular migraine {dz} | Vertigo with migraine.
+## Clinical features
+Attacks of vertigo, minutes to hours, with or near migraine headache, often in young women with a family history.
+## Diagnosis
+Response to migraine treatment supports the diagnosis. It is the commonest misdiagnosis of Ménière's disease ([[t:meniere]]).
+
+# Other central causes {dz} | Rarer, but central.
 ## Multiple sclerosis
 Young adults with vertigo and pendular or dissociated nystagmus, and other neurological episodes.
-## Other central causes
+## Others
 Cerebellar and brainstem tumours, Chiari malformation, idiopathic intracranial hypertension, encephalitis and epilepsy.
 
-# Other causes | When it isn't the ear or the brain.
+# Other causes {dz} | When it isn't the ear or the brain.
 ## Cervical vertigo
 Vertigo with neck movement after a neck injury; controversial and probably over-diagnosed.
 ## Cardiovascular
@@ -131,29 +191,7 @@ Presyncope from arrhythmia, orthostatic hypotension or hypoglycaemia; not true r
 ## Psychogenic
 Vague floating or swaying, with anxiety, no nystagmus and normal tests. Persistent postural-perceptual dizziness often follows an acute vestibular event.
 
-# Management | Principles.
-!ward Acute vertigo on call
-1. Ask about timing, triggers, hearing and neurological symptoms.
-2. Examine nystagmus, head impulse, skew and gait (HINTS).
-3. Any focal sign, new severe headache, inability to stand, or a normal head impulse with nystagmus: treat as stroke until proven otherwise.
-4. Dix-Hallpike only once the neck and the patient's condition allow it.
-5. Give antiemetics or vestibular sedatives for a few days only.
-!!
-## Vestibular rehabilitation
-Head and eye exercises that drive central compensation, the mainstay after any peripheral loss. Formal vestibular tests are covered in [[t:vest]].
-## Avoid long-term sedatives
-They slow compensation.
-!pearl Pearls
-- An acoustic neuroma ([[t:vs]]) usually causes unsteadiness, not severe vertigo.
-- Fatigable, delayed, torsional positional nystagmus is peripheral; immediate, persistent or vertical nystagmus is central.
-- A positive fistula test: perilymph fistula, cholesteatoma with a fistula, Ménière's disease, superior canal dehiscence, or syphilis.
-!!
-!ops
-!update Current evidence
-The American BPPV guideline recommends diagnosis with the Dix-Hallpike and supine roll tests, repositioning manoeuvres as treatment, and no routine imaging, vestibular testing or vestibular suppressants (Bhattacharyya et al., *Otolaryngol Head Neck Surg* 2017). A Cochrane review found the Epley manoeuvre resolved vertigo in 56% compared with 21% after a sham manoeuvre (Hilton and Pinder, 2014). In acute vestibular syndrome, HINTS had a pooled sensitivity of 95.5% and specificity of 71% for posterior circulation stroke (Krishnan et al., *Eur Stroke J* 2019). A Cochrane review found moderate to strong evidence that vestibular rehabilitation is safe and effective for unilateral peripheral vestibular loss (McDonnell and Hillier, 2015), while steroids for vestibular neuritis improved caloric recovery at one month but not at 12 months (Fishman et al., 2011).
-!!
-
-# For the examination | What the examiner wants to hear.
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Peripheral versus central** vertigo and nystagmus.
@@ -162,6 +200,12 @@ The American BPPV guideline recommends diagnosis with the Dix-Hallpike and supin
 - **HINTS** in acute vertigo.
 - **Wallenberg syndrome.**
 !!
+## Pearls
+!pearl Pearls
+- An acoustic neuroma ([[t:vs]]) usually causes unsteadiness, not severe vertigo.
+- Fatigable, delayed, torsional positional nystagmus is peripheral; immediate, persistent or vertical nystagmus is central.
+- A positive fistula test: perilymph fistula, cholesteatoma with a fistula, Ménière's disease, superior canal dehiscence, or syphilis.
+!!
 ## Common pitfalls
 !pit
 - Labelling a stroke as neuritis because the patient is vomiting.
@@ -169,3 +213,21 @@ The American BPPV guideline recommends diagnosis with the Dix-Hallpike and supin
 - Keeping patients on vestibular sedatives for weeks.
 - Diagnosing BPPV without seeing the nystagmus.
 !!
+## Related topics
+- **Approach:** [[t:ap_dizzy]]
+- **Tests:** [[t:vest]]
+- **Causes:** [[t:meniere]], [[t:fistula]], [[t:scd]], [[t:vs]], [[t:dizzychild]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapters 7 and 15.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 18.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 7.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapter 7.
+- K. J. Lee, *Essential Otolaryngology*, chapter 16.
+## Studies cited
+- Bhattacharyya et al., *Otolaryngol Head Neck Surg* 2017: American BPPV guideline.
+- Hilton and Pinder, Cochrane review, 2014: the Epley manoeuvre.
+- Krishnan et al., *Eur Stroke J* 2019: HINTS meta-analysis.
+- McDonnell and Hillier, Cochrane review, 2015: vestibular rehabilitation.
+- Fishman et al., Cochrane review, 2011: steroids for vestibular neuritis.
