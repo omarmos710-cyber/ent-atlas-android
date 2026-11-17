@@ -141,6 +141,42 @@ function rowHTML(r,words,figset){const it=r.it;const ty=TYPES[it.ty][0];
 function symHTML(s,words){const C=window.CLINIC_DATA;if(!C)return "";const by={};C.t.forEach(t=>by[t.id]=t);
  return `<div class="xsym"><span class="xp"><i class="xt xt-sym">Symptom</i>Think of</span><b>${E(s.n)}</b><div class="xchips">${s.ids.map(i=>by[i]).filter(Boolean).map(t=>`<button data-go="cl:t-${t.id}">${E(t.t.replace(/\s*:.*$/,""))}</button>`).join("")}</div></div>`}
 
+/* ---------- highlight on arrival: after opening a result, the matching text glows for a few seconds ---------- */
+let XHL=null;
+const normWS=t=>t.replace(/\s+/g," ");
+function xhlArm(btn){const sm=btn.querySelector("small");let needle=sm?sm.textContent.replace(/^…|…$/g,"").trim():"";
+ const go=btn.dataset.go||"",sec=btn.dataset.sec||"";XHL={needle,words:(RES&&RES.words)||[],go,sec,t:Date.now()};setTimeout(xhlRun,120)}
+function xhlTarget(){const H=XHL;if(!H)return null;const anc=H.go.includes("~")?H.go.split("~")[1]:"";
+ if(anc&&!/^f\d/.test(anc))return document.getElementById("a-"+anc);
+ if(anc)return document.getElementById("a-"+anc);
+ if(H.sec)return document.getElementById(H.sec);
+ return typeof V==="function"?V():document.querySelector("main")}
+/* text nodes of a container (skipping figures, svg and buttons), with their offsets in the joined text */
+function xhlNodes(root){const out=[];let pos=0;const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode:n=>{const p=n.parentElement;if(!p||p.closest("svg,script,style,figure,.xhlskip,button.arpdf,.armode,.artoc"))return NodeFilter.FILTER_REJECT;return n.nodeValue.trim()?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_SKIP}});
+ let n;while((n=w.nextNode())){out.push([n,pos]);pos+=n.nodeValue.length}return out}
+function xhlFind(nodes,needle){if(!needle)return null;const full=nodes.map(([n])=>n.nodeValue).join("");
+ /* compare with whitespace and case folded; map folded positions back to the raw text */
+ const map=[];let f="";let prevSp=false;for(let i=0;i<full.length;i++){const c=full[i];const sp=/\s/.test(c);if(sp&&prevSp)continue;f+=sp?" ":c.toLowerCase();map.push(i);prevSp=sp}
+ const tries=[];const nd=normWS(needle).toLowerCase().trim();tries.push(nd.slice(0,160));const fs=nd.split(/(?<=[.;:])\s/)[0];if(fs&&fs.length>25)tries.push(fs.slice(0,160));tries.push(nd.slice(0,70));tries.push(nd.slice(0,40));
+ for(const t of tries){if(t.length<12)continue;const i=f.indexOf(t);if(i>=0){const a=map[i],b=map[Math.min(map.length-1,i+t.length-1)]+1;return [a,b]}}
+ return null}
+function xhlWrap(nodes,a,b){const marks=[];for(const [n,p] of nodes){const L=n.nodeValue.length;if(p+L<=a||p>=b)continue;const s0=Math.max(0,a-p),e0=Math.min(L,b-p);if(e0<=s0)continue;
+  let t=n;if(s0>0)t=t.splitText(s0);if(e0-s0<t.nodeValue.length)t.splitText(e0-s0);const m=document.createElement("mark");m.className="xhl";t.parentNode.insertBefore(m,t);m.appendChild(t);marks.push(m)}return marks}
+function xhlWords(root,words){const marks=[];if(!words.length)return marks;const re=new RegExp("\\b("+words.filter(w=>w.length>=3).map(w=>w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")).join("|")+")[a-z]*","gi");if(re.source.length<12)return marks;
+ for(const [n] of xhlNodes(root)){if(marks.length>=6)break;const m=re.exec(n.nodeValue);re.lastIndex=0;if(!m)continue;const r=xhlNodes(n.parentNode).find(x=>x[0]===n);if(!r)continue;marks.push(...xhlWrap([[n,0]],m.index,m.index+m[0].length))}return marks}
+function xhlRun(){const H=XHL;if(!H)return;if(Date.now()-H.t>6000){XHL=null;return}
+ const el=xhlTarget();if(!el||!el.textContent||el.textContent.trim().length<20||(el===V()&&/Opening…|Preparing…/.test(el.textContent))){setTimeout(xhlRun,150);return}
+ /* articles load in a moment: wait until the body text is there */
+ if(H.go.startsWith("cl:t-")&&!el.closest(".arart")&&!document.querySelector(".arart")&&Date.now()-H.t<2500){setTimeout(xhlRun,150);return}
+ XHL=null;const d=el.closest&&el.closest("details");if(d)d.open=true;if(el.tagName==="DETAILS")el.open=true;
+ const nodes=xhlNodes(el);const r=xhlFind(nodes,H.needle);let marks=r?xhlWrap(nodes,r[0],r[1]):[];
+ if(!marks.length)marks=xhlWords(el,H.words);if(!marks.length)return;
+ /* the page scrolls its section to the top first; then bring the highlight into view if it is off screen */
+ setTimeout(()=>{const m=marks[0];if(!m.isConnected)return;const b=m.getBoundingClientRect();if(b.top<70||b.bottom>innerHeight-90)m.scrollIntoView({block:"center",behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"})},H.go.includes("~")?1500:200);
+ setTimeout(()=>marks.forEach(m=>m.classList.add("out")),5200);
+ setTimeout(()=>marks.forEach(m=>{if(!m.isConnected)return;const p=m.parentNode;while(m.firstChild)p.insertBefore(m.firstChild,m);p.removeChild(m);p.normalize()}),6600)}
+document.addEventListener("click",e=>{const b=e.target.closest("#xres .xrh[data-go], #hxres .xrh[data-go]");if(b)xhlArm(b)},true);
+
 /* ---------- search page ---------- */
 let SF="all",RES=null,LBL=[];const PER=6;
 function groups(){const g={};RES.list.forEach(r=>{(g[r.it.ty]=g[r.it.ty]||[]).push(r)});return g}
