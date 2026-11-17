@@ -1,26 +1,41 @@
+@layout amboss
 @stand Newborns breathe through the nose. A baby who turns blue when quiet or feeding and pink when crying has bilateral choanal atresia until proven otherwise, and needs an oral airway now. A midline mass on a child's nose may connect to the brain: it is imaged, never biopsied or probed, before a plan is made.
 
-# Overview | Developmental anomalies of the nose.
-## The conditions
+# Summary | Developmental anomalies of the nose.
+Newborns breathe preferentially, though not obligatorily, through the nose for the first weeks to months, so bilateral obstruction presents with distress at birth and is an emergency; midline masses carry a risk of meningitis and CSF leak. Each anomaly has its own chapter below.
 !tree Congenital nasal anomalies
-Airway | Choanal atresia | pyriform aperture stenosis, atresia of the nares
-Midline masses | Nasal dermoid | glioma, encephalocele
-Cysts | Nasolacrimal duct cyst | nasoalveolar cyst
+Airway | [[@Choanal atresia]] | [[@Pyriform aperture stenosis|pyriform aperture stenosis]], atresia of the nares
+Midline masses | [[@Nasal dermoid]] | [[@Nasal glioma|glioma]], [[@Encephalocele|encephalocele]]
+Cysts | [[@Nasolacrimal duct cyst]] | nasoalveolar cyst
 Other | Haemangioma | proboscis lateralis, arhinia (rare)
 !!
-## Why it matters
-Newborns breathe preferentially, though not obligatorily, through the nose for the first weeks to months, so bilateral obstruction presents with distress at birth and is an emergency; midline masses carry a risk of meningitis and CSF leak.
 
-# Choanal atresia | The closed back door.
-## Embryology
+# Embryology of the midline masses | Foramen caecum and fonticulus frontalis.
+In early development a projection of dura passes through the *foramen caecum* (between the frontal and ethmoid bones) into the prenasal space, or between the frontal and nasal bones through the *fonticulus frontalis*. Normally it regresses. If it does not, ectodermal elements (a dermoid), isolated glial tissue (a glioma) or a herniation of brain and meninges (an encephalocele) remain, sometimes with an intracranial connection. Incidence is about 1 in 20,000 to 40,000 births.
+
+# Differential diagnosis | Telling the midline masses apart.
+!table Telling the midline masses apart
+ | Dermoid | Glioma | Encephalocele
+Consistency | Firm | Firm | Soft
+Pulsatile or compressible | No | No | Yes
+Furstenberg sign | Negative | Negative | Positive
+Pit or hair | Often | No | No
+Intracranial connection | Sometimes | About 15 to 20%, fibrous stalk | Always, with CSF
+!!
+!flag Image before you touch
+A midline nasal mass in a child may connect with the brain. Biopsy or simple removal can cause CSF leak and meningitis. Obtain MRI (with CT for the bone) first.
+!!
+
+# Choanal atresia {dz} | The closed back door.
+## Etiology: embryology
 Persistence of the *bucconasal membrane* (or abnormal mesoderm) between the nasal cavity and the nasopharynx.
-## Types
+## Subtypes and variants
 - One-sided or both; one-sided is commoner and may go unnoticed until adulthood.
 - Complete or incomplete.
 - Bony (about 90% in older texts; modern series show most are mixed bony and membranous) or purely membranous.
 ## Associations
 Associated anomalies are common, especially with bilateral atresia: *CHARGE* syndrome (coloboma, heart defects, choanal atresia, retarded growth and development, genital and ear anomalies), in which about half have bilateral atresia; Treacher Collins syndrome; and, more rarely, craniosynostoses such as Crouzon and Apert. Unilateral atresia is usually isolated.
-## Clinical picture
+## Clinical features
 ### Bilateral
 Respiratory distress at birth: *cyclical cyanosis*, blue at rest or when feeding and pink when crying (the baby breathes through the mouth while crying), with difficulty feeding.
 ### Unilateral
@@ -35,7 +50,7 @@ One-sided nasal obstruction and persistent thick discharge from that side, often
 ## Management
 ### Emergency airway in bilateral atresia
 An oral airway, or a feeding nipple with the end cut off taped in the mouth (*McGovern's technique*), keeps the mouth open and avoids tracheostomy; orogastric feeding. Intubation if needed.
-!ward Newborn with cyclical cyanosis
+!ward On call: newborn with cyclical cyanosis
 1. Insert an oral airway or McGovern nipple.
 2. Try to pass a catheter through each side of the nose.
 3. Arrange CT of the nasal cavity after suction and decongestion.
@@ -48,64 +63,54 @@ An oral airway, or a feeding nipple with the end cut off taped in the mouth (*Mc
 ### After repair
 Restenosis is common, so regular review, dilatation and revision may be needed. Postoperative suction, saline and topical steroids reduce granulation and early scarring. Some surgeons stent bilateral repairs for two to six weeks with cut endotracheal tubes, but recent series show no difference in revision rates with or without stents, and because stents need intensive care by parents and sometimes removal under anaesthesia, their use is declining; unilateral stenting is not worthwhile.
 !ops
-## Pyriform aperture stenosis
+!update Current evidence
+**Stents.** A meta-analysis of bilateral choanal atresia repair found success of 65% with stents and 64% without, while stents caused alar injury, vestibular stenosis and blockage, so routine stenting is no longer justified (Strychowsky et al., *Laryngoscope* 2016). **Endoscopic transnasal repair** with mucosal flaps and wide posterior septectomy is the standard approach; topical mitomycin C has not been shown to prevent restenosis.
+!!
+
+# Pyriform aperture stenosis {dz} | The narrow front door.
 Narrowing of the bony nasal entrance from overgrowth of the nasal processes of the maxilla, presenting like bilateral choanal atresia (a catheter cannot be passed) but at the front of the nose; endoscopy and CT tell them apart. *Mid-nasal stenosis* can coexist. A single central maxillary incisor suggests holoprosencephaly, so pituitary and brain assessment is needed. Mild cases are managed medically; sublabial drilling of the aperture is reserved for persistent respiratory distress or problems with sleep, growth or feeding.
 
-# Congenital midline nasal masses | Dermoid, glioma and encephalocele.
-## Embryology
-In early development a projection of dura passes through the *foramen caecum* (between the frontal and ethmoid bones) into the prenasal space, or between the frontal and nasal bones through the *fonticulus frontalis*. Normally it regresses. If it does not, ectodermal elements (a dermoid), isolated glial tissue (a glioma) or a herniation of brain and meninges (an encephalocele) remain, sometimes with an intracranial connection. Incidence is about 1 in 20,000 to 40,000 births.
-## Nasal dermoid
-### Picture
+# Nasal dermoid {dz} | The commonest midline mass.
+## Clinical features
 The commonest midline nasal mass: a firm, non-tender, non-pulsatile, non-compressible swelling anywhere from the glabella to the columella, often with a *midline pit* that may sprout a hair. It may become infected repeatedly.
-### Types
+## Subtypes and variants
 - Simple dermoid beneath the skin, in front of the nasal bones, without an opening.
 - Dermoid with a sinus, whose tract runs under the nasal bones to the upper septum.
 - Dermoid with a tract through the foramen caecum or cribriform plate to the dura, or intradural extension, which risks meningitis.
 !fig d25-3 | Types of nasal dermoid: (A) simple, (B) with an external pit, lying deep to the nasal bones, (C) with a connection to the dura, (D) intradural.
-### Treatment
+## Management
 Complete excision of the cyst, the tract and any involved bone, cartilage and septum, often by an open rhinoplasty approach; combined neurosurgical repair when the tract reaches the dura.
-## Nasal glioma
-### Picture
+
+# Nasal glioma {dz} | Ectopic glial tissue.
+## Clinical features
 A mass of ectopic glial tissue, not a true tumour, sometimes called a nasal glial heterotopia. About 60% are extranasal (firm, reddish swelling on the bridge or side of the nose with telangiectasias), 30% intranasal (a pale, firm polypoid mass, mistaken for a polyp) and 10% both. About 15 to 20% have a fibrous stalk to the dura. Non-pulsatile and non-compressible.
 !fig d25-4a | Extranasal glioma on the right side of a child's nose.
-### Treatment
+## Management
 Complete excision by an external approach; craniotomy if there is an intracranial connection.
-## Encephalocele
-### Picture
+
+# Encephalocele {dz} | Brain and meninges through the skull base.
+## Clinical features
 A herniation of meninges (meningocele), or meninges with brain (meningoencephalocele), through a skull base defect, communicating with the subarachnoid space. It is soft, bluish, *pulsatile* and *compressible*, enlarges on crying, straining or jugular compression (*Furstenberg sign*), and may transilluminate.
-### Types by site
+## Subtypes and variants: by site
 - **Sincipital (frontoethmoid), presenting outside the nose:** nasofrontal (glabella), nasoethmoidal (side of the nose) and naso-orbital (medial orbit).
 - **Basal, presenting inside the nose or nasopharynx:** transethmoidal, sphenoethmoidal, transsphenoidal and sphenomaxillary, often mistaken for a polyp.
 !imaging meningoencephalocele | Meningoencephalocele through the skull base.
-### Treatment
+## Management
 Neurosurgical or endoscopic: dividing the stalk, excising the extracranial part and repairing the dural and bony defect, as for CSF leaks ([[t:csf]]).
-!flag Image before you touch
-A midline nasal mass in a child may connect with the brain. Biopsy or simple removal can cause CSF leak and meningitis. Obtain MRI (with CT for the bone) first.
-!!
-!table Telling the midline masses apart
- | Dermoid | Glioma | Encephalocele
-Consistency | Firm | Firm | Soft
-Pulsatile or compressible | No | No | Yes
-Furstenberg sign | Negative | Negative | Positive
-Pit or hair | Often | No | No
-Intracranial connection | Sometimes | About 15 to 20%, fibrous stalk | Always, with CSF
-!!
 
-# Other congenital anomalies | Less common.
-## Nasolacrimal duct cyst
+# Nasolacrimal duct cyst {dz} | Under the inferior turbinate.
 A cystic dilatation of the lower nasolacrimal duct when Hasner's valve fails to open, seen as a bluish swelling under the inferior turbinate; bilateral cysts can obstruct a newborn's breathing. Endoscopic marsupialisation.
 !anat s101_33 | The lacrimal drainage system and Hasner's valve in the inferior meatus.
+
+# Other anomalies {dz} | Haemangioma, rare anomalies, the growing nose.
 ## Haemangioma
 A strawberry swelling of the nasal tip that grows in the first year and regresses over several years; propranolol for problem lesions.
 ## Rare anomalies
 Arhinia (absent nose), proboscis lateralis, bifid nose and congenital atresia of the nares.
 ## The growing nose
 Septal surgery in children was long avoided for fear of affecting facial growth, but conservative septoplasty for significant obstruction appears safe ([[t:septum]]). Adenoids are largest in absolute terms at 6 to 10 years, but largest relative to the nasopharynx, and so most obstructive, at 2 to 6 years.
-!update Current evidence
-**Stents.** A meta-analysis of bilateral choanal atresia repair found success of 65% with stents and 64% without, while stents caused alar injury, vestibular stenosis and blockage, so routine stenting is no longer justified (Strychowsky et al., *Laryngoscope* 2016). **Endoscopic transnasal repair** with mucosal flaps and wide posterior septectomy is the standard approach; topical mitomycin C has not been shown to prevent restenosis.
-!!
 
-# For the examination | What the examiner wants to hear.
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Choanal atresia:** embryology, cyclical cyanosis, tests, McGovern nipple, repair.
@@ -120,3 +125,15 @@ Septal surgery in children was long avoided for fear of affecting facial growth,
 - Taking a nasal mass in a child for a polyp.
 - Forgetting the associated anomalies of CHARGE.
 !!
+## Related topics
+- [[t:csf]], [[t:septum]], [[t:extnose]], [[t:syndr]], [[t:stridor]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 78.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 23.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 17.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapters 25 and 29.
+- K. J. Lee, *Essential Otolaryngology*, chapters 31 and 53.
+## Studies cited
+- Strychowsky et al., *Laryngoscope* 2016: stents in choanal atresia repair.

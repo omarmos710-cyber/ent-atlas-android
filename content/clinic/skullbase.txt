@@ -1,4 +1,8 @@
+@layout amboss
 @stand The skull base is the floor of the brain and the roof of the nose, sinuses, nasopharynx, ear and neck. Tumours here present to the ENT surgeon as a blocked nose, a unilateral middle ear effusion, facial numbness, diplopia, hoarseness or a lump behind the tonsil. Modern skull base surgery is a team effort with neurosurgeons. Endoscopic endonasal routes now reach the sella, clivus and much of the anterior skull base without a facial incision. The parapharyngeal space, just below, has a logic of its own: decide whether the mass lies in front of or behind the styloid.
+
+# Summary | The floor of the brain, the roof of the face.
+Skull base tumours present through whichever structure they reach first, and are assessed with CT and MRI together and, usually, tissue. Endoscopic endonasal routes now reach the sella, clivus and much of the anterior skull base; open approaches remain for lateral and extensive disease, and multilayer reconstruction with a vascularised flap closes the defect. Each group of tumours, and the parapharyngeal space, has its own chapter after the shared chapters.
 
 # Applied anatomy | Three fossae and the spaces below.
 ## Anterior skull base
@@ -17,55 +21,13 @@ The **infratemporal fossa** lies below the middle cranial fossa, behind the maxi
 The **pterygopalatine fossa** is a small inverted cone behind the maxillary sinus that opens in every direction: to the orbit through the inferior orbital fissure, to the infratemporal fossa through the pterygomaxillary fissure, to the nose through the sphenopalatine foramen, to the middle cranial fossa through the foramen rotundum and vidian canal, and to the mouth through the greater palatine canal. It is therefore the crossroads by which juvenile angiofibroma and perineural cancer spread.
 !anat s153_58 nd89_0 | Foramina of the skull base and their contents, and the cavernous sinus with its contents.
 !anat s161_71 nd58_29 | The pterygopalatine fossa, and the infratemporal fossa after removal of the ramus.
-
-# The parapharyngeal space | An inverted pyramid.
-## Boundaries and compartments
+## The parapharyngeal space
 The parapharyngeal space is an inverted pyramid with its base on the skull base and its apex at the greater cornu of the hyoid. Medially lie the buccopharyngeal fascia and superior constrictor, and so the tonsil; laterally the medial pterygoid, the ramus and the deep lobe of the parotid; posteriorly the prevertebral fascia; and anteriorly the pterygomandibular raphe.
 
 The *tensor–styloid fascia*, formed by the styloid process and its muscles, divides the space into two compartments. The **prestyloid compartment** contains fat, the deep lobe of the parotid, minor salivary rests, the maxillary artery and branches of V3. The **poststyloid (carotid) compartment** contains the internal carotid artery, the internal jugular vein, nerves IX to XII, the sympathetic chain and nodes.
 !anat s199_5 | The parapharyngeal and retropharyngeal spaces.
-## Tumours
-!table Parapharyngeal space tumours by compartment
-Compartment | Common tumours | Imaging hint
-Prestyloid | *Pleomorphic adenoma* (deep lobe or minor salivary), other salivary tumours, lipoma | Fat plane between tumour and parotid lost (deep lobe origin) or preserved (minor salivary); carotid pushed *posteriorly*
-Poststyloid | *Schwannoma* (vagus, sympathetic chain), *paraganglioma* (vagal, carotid body), neurofibroma, nodes (metastases, lymphoma), meningioma | Carotid pushed *anteriorly* or splayed; flow voids in paragangliomas
-!!
-About half of parapharyngeal tumours are salivary, mostly pleomorphic adenoma, a fifth to a third are neurogenic, and the rest are paragangliomas and others; about 80% are benign. They are often silent until large, then appear as a smooth bulge pushing the *tonsil and soft palate medially* under normal mucosa, or as fullness behind the angle of the jaw, with a muffled voice, sleep apnoea, Eustachian tube obstruction or dysphagia. Cranial nerve palsies, Horner syndrome or pain suggest malignancy or a neural tumour.
 
-MRI, with CT, places the tumour in its compartment and shows the vessels; metanephrines are measured whenever a paraganglioma is possible, and prestyloid and nodal masses can be sampled by image-guided FNA. A *transoral biopsy is never done*, because it seeds a pleomorphic adenoma and makes a paraganglioma bleed.
-
-The **transcervical** approach through the submandibular triangle, dividing the stylomandibular ligament, is the workhorse. Deep lobe tumours need a **transparotid–transcervical** approach, large tumours reaching the skull base a **transcervical approach with mandibulotomy**, and selected prestyloid tumours can be removed by **transoral robotic** surgery. The old blind transoral enucleation risks rupture, bleeding and incomplete excision.
-!ops 69 70 72 | Tumours of the prestyloid parapharyngeal space, the transoral approach, and excision of neural tumours.
-
-# Skull base tumours | What arises here.
-## Anterior skull base
-The malignant tumours of the anterior skull base are mostly sinonasal ([[t:sinus_ca]]): squamous carcinoma, adenocarcinoma in woodworkers, adenoid cystic carcinoma, *olfactory neuroblastoma*, *sinonasal undifferentiated carcinoma*, neuroendocrine carcinoma and mucosal melanoma, together with sarcomas and lymphoma. The benign lesions are meningioma, inverted papilloma, juvenile angiofibroma, fibro-osseous lesions, mucoceles and encephaloceles.
-## Sella and parasellar region
-The **pituitary adenoma** is the commonest sellar tumour; microadenomas are under 10 mm and macroadenomas larger. Mass effect produces *bitemporal hemianopia*, headache and hypopituitarism, and hormone excess produces the prolactinoma, with amenorrhoea, galactorrhoea and impotence, acromegaly or Cushing disease. A prolactinoma is treated first with *cabergoline or bromocriptine*, not surgery. The endocrine work-up measures prolactin, IGF-1, cortisol and ACTH, thyroid function, gonadotropins and sodium, with formal visual fields. The sellar lesions are covered fully in [[t:pituitary]].
-
-A **Rathke cleft cyst** is usually incidental and observed. The **craniopharyngioma** has two peaks, in children and in late middle age, is calcified and cystic, and is hard to remove completely. **Meningiomas** arise from the tuberculum, planum and olfactory groove and show a "dural tail". An **empty sella** is associated with idiopathic intracranial hypertension and spontaneous CSF leaks.
-## Clivus and petrous apex
-The **chordoma** arises from notochordal remnants at the spheno-occipital synchondrosis in the midline. It is bright on T2 with bone destruction, causes diplopia from a VI palsy and headache, and is treated by maximal resection followed by high-dose, often proton, radiotherapy; recurrence is common. The **chondrosarcoma** arises at the petroclival synchondrosis, off the midline, and has a better prognosis.
-
-At the petrous apex, the cholesterol granuloma is bright on both T1 and T2; cholesteatoma, mucocele and petrous apicitis also occur, the last producing *Gradenigo syndrome* of otorrhoea, VI palsy and retro-orbital pain ([[t:petrous]]). Asymmetric pneumatisation or retained fluid can only *look* like a lesion, and MRI settles the question.
-!imaging pseudotumors-in-the-apex-of-the-petrous-bone | Petrous apex lesions and pseudotumours on imaging.
-## Lateral skull base and posterior fossa
-Here lie the paragangliomas (glomus jugulare, tympanicum and vagale) and temporal bone carcinoma ([[t:tumear]]), vestibular schwannoma and other cerebellopontine angle lesions ([[t:vs]]), schwannomas of the facial and lower cranial nerves, meningiomas, and the endolymphatic sac tumours of von Hippel–Lindau syndrome.
-!table MRI signal of cerebellopontine angle and petrous apex lesions
-Lesion | T1 | T1 with gadolinium | T2 | Diffusion
-Vestibular schwannoma | Iso or low | Marked enhancement | Moderately high | —
-Meningioma | Iso or low | Marked, with a dural tail | Variable | —
-Epidermoid (cholesteatoma) | Low | None | High | *Restricted* (bright)
-Arachnoid cyst | Low (like CSF) | None | High (like CSF) | Not restricted
-Cholesterol granuloma | *High* | None | High | —
-Lipoma | High (suppressed by fat saturation) | None | Intermediate | —
-!!
-## Infratemporal fossa
-Primary infratemporal tumours are sarcomas, neurogenic tumours and salivary tumours, but more often the fossa is invaded from its neighbours by nasopharyngeal carcinoma, maxillary sinus cancer, juvenile angiofibroma or parotid cancer. The signs are *trismus* from invasion of the pterygoids, *numbness of V3* over the lower lip and chin, serous otitis media from Eustachian tube invasion, and a mass deep to the ramus.
-!imaging malignancy-of-the-pterygopalatine-and-infratempo meningioma-with-skull-base-destruction | Malignancy of the pterygopalatine and infratemporal fossae, and a meningioma destroying the skull base.
-
-# Assessment | Nerves, images, tissue.
-## Clinical picture
+# Clinical features | Nerves first.
 Skull base disease announces itself through whichever structure it reaches first. In the nose it causes unilateral obstruction, bleeding and anosmia; in the eye proptosis, diplopia and visual loss; in the face numbness of V2 or V3 and pain, which suggest *perineural spread*; and in the jaw trismus. In the ear, a unilateral conductive loss from a *middle ear effusion* in an adult means the nasopharynx must be examined and biopsied, and pulsatile tinnitus suggests a vascular tumour. In the throat, hoarseness, dysphagia and aspiration mean IX to XI are involved, and tongue weakness means XII. CSF rhinorrhoea and headache complete the picture.
 
 The examination is a complete cranial nerve examination, nasal and nasopharyngeal endoscopy, otomicroscopy, and examination of the larynx and neck.
@@ -74,6 +36,8 @@ The examination is a complete cranial nerve examination, nasal and nasopharyngea
 - **Collet–Sicard syndrome:** adds XII.
 - **Villaret syndrome:** adds Horner syndrome, from the retroparotid space.
 !!
+
+# Diagnosis | Images, then tissue.
 ## Imaging and tissue
 CT and MRI are complementary and both are needed. **CT** shows bone detail: erosion, remodelling and widening of foramina. **MRI** with gadolinium and fat suppression shows soft tissue, dura, brain, orbit and perineural spread. Dural invasion is suggested by dural thickening of more than 5 mm or nodular thickening, and periorbital invasion by enhancement or enlargement of the extraocular muscles, stranding of the orbital fat and a nodular interface. **Angiography** is used for vascular tumours and embolisation, and *balloon test occlusion* of the internal carotid when it may have to be sacrificed; **PET-CT** stages disease and detects recurrence.
 
@@ -81,7 +45,7 @@ Most lesions need tissue, often by *endoscopic biopsy*, but not all: paraganglio
 ## Unresectability
 A tumour is generally unresectable when it invades the brainstem or spinal cord, both internal carotids, both cavernous sinuses or extensive brain parenchyma. Involvement of the optic chiasm, distant metastases and poor general health are relative contraindications. Lymphoma and other chemo- or radiosensitive tumours are not resected at all.
 
-# Approaches | Endoscopic and open.
+# Management | Approaches and reconstruction.
 ## Endoscopic endonasal surgery
 Endoscopic skull base surgery works through both nostrils with the "*binostril, four-handed*" technique, using a wide sphenoidotomy and removal of the posterior septum, with ethmoidectomy, medial maxillectomy, transpterygoid access or a Draf III as needed. The **transsphenoidal** route reaches the sella and is the standard for pituitary surgery; the **transplanum and transtuberculum** routes reach the suprasellar region; the **transcribriform** route exposes the anterior skull base from the frontal sinus to the planum between the orbits; the **transclival** route reaches the clivus down to the foramen magnum and odontoid; and the **transpterygoid** route opens the pterygopalatine and infratemporal fossae, Meckel's cave and the petrous apex.
 
@@ -94,24 +58,74 @@ Fisch's **infratemporal fossa approaches** close the ear canal and remove the mi
 
 Other routes include the lateral (preauricular) subtemporal–infratemporal approach, which removes the zygoma and condyle; the far lateral approach to the foramen magnum and lower clivus; the translabyrinthine, retrosigmoid, middle fossa, transotic and transcochlear approaches to the temporal bone and cerebellopontine angle, described with vestibular schwannoma and temporal bone tumours; and the maxillary swing, transpalatal and midface degloving routes to the nasopharynx.
 !ops 121 43 41 | Approaches to the infratemporal fossa, the maxillary swing and transpalatal routes, and endoscopic nasopharyngectomy.
-# Reconstruction | Closing the skull base.
-## Principles
+!update Current evidence
+**Endoscopic or open.** For selected anterior skull base tumours, endoscopic resection gives oncological results comparable to craniofacial resection with less morbidity, provided clear margins are achieved (Lund et al., *Rhinology Suppl* 2010).
+!!
+## Reconstruction: principles
 The aim is a durable barrier between the nose and the intradural space to prevent CSF leak, pneumocephalus and meningitis. **Multilayer closure** is standard: an *inlay* graft (usually fascia lata, sometimes with fat) tucked 5 to 10 mm under the dural edges for a watertight seal, then an *onlay* of free mucosa or, preferably, a **vascularised flap**, secured with sealant and supported by dressings or a balloon. Mucosa is stripped from the bone under the onlay so that it adheres and no mucocoele forms. Afterwards the patient avoids nose blowing, straining and mask ventilation.
-## Choosing the repair
+## Reconstruction: choosing the repair
 The choice depends on defect size and site, whether the intraoperative leak is **low-flow** (dura opened without entering a cistern or ventricle) or **high-flow** (a cistern or ventricle opened), and patient factors such as previous radiotherapy, long-term steroids and malnutrition. Small, low-flow leaks close reliably with free grafts, for example the *bath-plug* technique with a fat plug and a free mucosal onlay. Large or high-flow defects, high-risk sites and poor healers need a vascularised flap. The **Hadad–Bassagasteguy nasoseptal flap**, on the posterior septal branch of the sphenopalatine artery, transformed endoscopic skull base surgery by cutting leak rates from over 20% to about 5%; it should be planned before the sphenoidotomy, or a "rescue flap" incision made at the start of surgery to preserve its pedicle in case it is needed. Alternatives on sphenopalatine branches are inferior and middle turbinate flaps and lateral nasal wall flaps; regional options are the **pericranial flap**, on the supraorbital and supratrochlear vessels and passed through a window above the frontal sinus, and the temporoparietal fascia flap; free flaps close open defects.
 !ops 124 116 | Reconstruction after skull base surgery, and endoscopic repair of CSF leaks.
 ## Lumbar drains
 **Lumbar drains** reduce pressure on the repair, but with reliable multilayer closure and flaps many surgeons now use them only to treat a postoperative leak, for high-flow defects or in patients with raised intracranial pressure, or to give intrathecal fluorescein.
+!update Current evidence
+**Nasoseptal flap.** Described by Hadad and colleagues (*Laryngoscope* 2006), the vascularised nasoseptal flap reduced postoperative CSF leak after extended endoscopic approaches from double figures to around 5% in later series. **Lumbar drains.** In a randomised trial of high-risk defects (large dural openings or opening of a cistern or ventricle), a lumbar drain for three days reduced postoperative CSF leak from 21% to 8% (Zwagerman et al., *J Neurosurg* 2019), so many units now drain only high-flow defects.
+!!
+
 # Complications and outcome | What can go wrong.
 ## Complications
 CSF leak is the commonest complication, and meningitis may follow. **Tension pneumocephalus** presents with sudden confusion and a falling conscious level, and CT shows the "*Mount Fuji sign*". **Carotid injury** is managed by packing with pressure, then a crushed muscle patch, then urgent angiography to look for a pseudoaneurysm. Stroke, cranial nerve deficits and visual loss can occur, sellar surgery can cause hypopituitarism and diabetes insipidus (so sodium and urine output are monitored), and the nose is left with crusting, synechiae and anosmia. Trismus and wound or flap failure complete the list.
 ## Outcome
 Overall five-year survival for skull base malignancy is about 50%. Clear margins are the strongest predictor of survival, and postoperative radiotherapy is given for high-risk features.
-!update Current evidence
-**Nasoseptal flap.** Described by Hadad and colleagues (*Laryngoscope* 2006), the vascularised nasoseptal flap reduced postoperative CSF leak after extended endoscopic approaches from double figures to around 5% in later series. **Lumbar drains.** In a randomised trial of high-risk defects (large dural openings or opening of a cistern or ventricle), a lumbar drain for three days reduced postoperative CSF leak from 21% to 8% (Zwagerman et al., *J Neurosurg* 2019), so many units now drain only high-flow defects. **Endoscopic or open.** For selected anterior skull base tumours, endoscopic resection gives oncological results comparable to craniofacial resection with less morbidity, provided clear margins are achieved (Lund et al., *Rhinology Suppl* 2010).
+
+# Parapharyngeal space tumours {dz} | Prestyloid or poststyloid.
+## Subtypes and variants
+!table Parapharyngeal space tumours by compartment
+Compartment | Common tumours | Imaging hint
+Prestyloid | *Pleomorphic adenoma* (deep lobe or minor salivary), other salivary tumours, lipoma | Fat plane between tumour and parotid lost (deep lobe origin) or preserved (minor salivary); carotid pushed *posteriorly*
+Poststyloid | *Schwannoma* (vagus, sympathetic chain), *paraganglioma* (vagal, carotid body), neurofibroma, nodes (metastases, lymphoma), meningioma | Carotid pushed *anteriorly* or splayed; flow voids in paragangliomas
+!!
+## Epidemiology
+About half of parapharyngeal tumours are salivary, mostly pleomorphic adenoma, a fifth to a third are neurogenic, and the rest are paragangliomas and others; about 80% are benign.
+## Clinical features
+They are often silent until large, then appear as a smooth bulge pushing the *tonsil and soft palate medially* under normal mucosa, or as fullness behind the angle of the jaw, with a muffled voice, sleep apnoea, Eustachian tube obstruction or dysphagia. Cranial nerve palsies, Horner syndrome or pain suggest malignancy or a neural tumour.
+## Diagnosis
+MRI, with CT, places the tumour in its compartment and shows the vessels; metanephrines are measured whenever a paraganglioma is possible, and prestyloid and nodal masses can be sampled by image-guided FNA. A *transoral biopsy is never done*, because it seeds a pleomorphic adenoma and makes a paraganglioma bleed.
+## Management
+The **transcervical** approach through the submandibular triangle, dividing the stylomandibular ligament, is the workhorse. Deep lobe tumours need a **transparotid–transcervical** approach, large tumours reaching the skull base a **transcervical approach with mandibulotomy**, and selected prestyloid tumours can be removed by **transoral robotic** surgery. The old blind transoral enucleation risks rupture, bleeding and incomplete excision.
+!ops 69 70 72 | Tumours of the prestyloid parapharyngeal space, the transoral approach, and excision of neural tumours.
+
+# Anterior skull base tumours {dz} | Mostly sinonasal.
+The malignant tumours of the anterior skull base are mostly sinonasal ([[t:sinus_ca]]): squamous carcinoma, adenocarcinoma in woodworkers, adenoid cystic carcinoma, *olfactory neuroblastoma*, *sinonasal undifferentiated carcinoma*, neuroendocrine carcinoma and mucosal melanoma, together with sarcomas and lymphoma. The benign lesions are meningioma, inverted papilloma, juvenile angiofibroma, fibro-osseous lesions, mucoceles and encephaloceles.
+
+# Sellar and parasellar tumours {dz} | The pituitary and its neighbours.
+The **pituitary adenoma** is the commonest sellar tumour; microadenomas are under 10 mm and macroadenomas larger. Mass effect produces *bitemporal hemianopia*, headache and hypopituitarism, and hormone excess produces the prolactinoma, with amenorrhoea, galactorrhoea and impotence, acromegaly or Cushing disease. A prolactinoma is treated first with *cabergoline or bromocriptine*, not surgery. The endocrine work-up measures prolactin, IGF-1, cortisol and ACTH, thyroid function, gonadotropins and sodium, with formal visual fields. The sellar lesions are covered fully in [[t:pituitary]].
+
+A **Rathke cleft cyst** is usually incidental and observed. The **craniopharyngioma** has two peaks, in children and in late middle age, is calcified and cystic, and is hard to remove completely. **Meningiomas** arise from the tuberculum, planum and olfactory groove and show a "dural tail". An **empty sella** is associated with idiopathic intracranial hypertension and spontaneous CSF leaks.
+
+# Clivus and petrous apex lesions {dz} | Chordoma, chondrosarcoma and the apex.
+The **chordoma** arises from notochordal remnants at the spheno-occipital synchondrosis in the midline. It is bright on T2 with bone destruction, causes diplopia from a VI palsy and headache, and is treated by maximal resection followed by high-dose, often proton, radiotherapy; recurrence is common. The **chondrosarcoma** arises at the petroclival synchondrosis, off the midline, and has a better prognosis.
+
+At the petrous apex, the cholesterol granuloma is bright on both T1 and T2; cholesteatoma, mucocele and petrous apicitis also occur, the last producing *Gradenigo syndrome* of otorrhoea, VI palsy and retro-orbital pain ([[t:petrous]]). Asymmetric pneumatisation or retained fluid can only *look* like a lesion, and MRI settles the question.
+!imaging pseudotumors-in-the-apex-of-the-petrous-bone | Petrous apex lesions and pseudotumours on imaging.
+
+# Lateral skull base and posterior fossa tumours {dz} | The jugular foramen and the angle.
+Here lie the paragangliomas (glomus jugulare, tympanicum and vagale) and temporal bone carcinoma ([[t:tumear]]), vestibular schwannoma and other cerebellopontine angle lesions ([[t:vs]]), schwannomas of the facial and lower cranial nerves, meningiomas, and the endolymphatic sac tumours of von Hippel–Lindau syndrome.
+!table MRI signal of cerebellopontine angle and petrous apex lesions
+Lesion | T1 | T1 with gadolinium | T2 | Diffusion
+Vestibular schwannoma | Iso or low | Marked enhancement | Moderately high | —
+Meningioma | Iso or low | Marked, with a dural tail | Variable | —
+Epidermoid (cholesteatoma) | Low | None | High | *Restricted* (bright)
+Arachnoid cyst | Low (like CSF) | None | High (like CSF) | Not restricted
+Cholesterol granuloma | *High* | None | High | —
+Lipoma | High (suppressed by fat saturation) | None | Intermediate | —
 !!
 
-# For the examination | What the examiner wants to hear.
+# Infratemporal fossa tumours {dz} | Usually invaded from next door.
+Primary infratemporal tumours are sarcomas, neurogenic tumours and salivary tumours, but more often the fossa is invaded from its neighbours by nasopharyngeal carcinoma, maxillary sinus cancer, juvenile angiofibroma or parotid cancer. The signs are *trismus* from invasion of the pterygoids, *numbness of V3* over the lower lip and chin, serous otitis media from Eustachian tube invasion, and a mass deep to the ramus.
+!imaging malignancy-of-the-pterygopalatine-and-infratempo meningioma-with-skull-base-destruction | Malignancy of the pterygopalatine and infratemporal fossae, and a meningioma destroying the skull base.
+
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Contents of the cavernous sinus;** why VI fails first; the skull base foramina.
@@ -130,3 +144,15 @@ Overall five-year survival for skull base malignancy is about 50%. Clear margins
 - Missing a VI palsy or facial numbness as signs of skull base spread.
 - Calling an asymmetric petrous apex "a lesion" without MRI.
 !!
+## Related topics
+- [[t:pituitary]], [[t:sinus_ca]], [[t:juv]], [[t:npc]], [[t:vs]], [[t:tumear]], [[t:petrous]], [[t:csf]], [[t:saltum]], [[t:vascneck]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapters 44 and 45.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 19.
+- K. J. Lee, *Essential Otolaryngology*, chapters 34 and 49.
+## Studies cited
+- Hadad et al., *Laryngoscope* 2006: the nasoseptal flap.
+- Zwagerman et al., *J Neurosurg* 2019: lumbar drains after endoscopic skull base surgery.
+- Lund et al., *Rhinology Suppl* 2010: endoscopic management of sinonasal and skull base tumours.

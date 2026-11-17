@@ -1,53 +1,61 @@
+@layout amboss
 @stand Tumours of the nose and sinuses hide behind the symptoms of ordinary sinusitis until they break out of their bony box into the cheek, palate, orbit or skull base. The warning is a one-sided story: blockage, bloodstained discharge, numbness or a loose tooth on one side in a middle-aged or older adult. Every one-sided nasal mass is sent for histology.
 
-# Overview | Silent until they escape.
-## The range
+# Summary | Silent until they escape.
+Sinonasal tumours hide behind the symptoms of ordinary sinusitis until they break out of their bony box into the cheek, palate, orbit or skull base. Every one-sided nasal mass is sent for histology. Each tumour has its own chapter below.
 !tree Sinonasal tumours
-Benign epithelial | Papillomas | squamous, inverted, oncocytic, exophytic
-Benign other | Haemangioma, schwannoma, meningioma | pleomorphic adenoma, chondroma, angiofibroma
-Benign bony | Osteoma, fibrous dysplasia | ossifying fibroma, ameloblastoma
-Malignant epithelial | Squamous cell carcinoma | adenocarcinoma, adenoid cystic carcinoma, undifferentiated carcinoma
-Malignant other | Melanoma, olfactory neuroblastoma | lymphoma, plasmacytoma, sarcomas, haemangiopericytoma
+Benign epithelial | Papillomas | [[@Squamous papilloma|squamous]], [[@Inverted papilloma|inverted]], oncocytic, exophytic
+Benign other | [[@Vascular and other benign tumours|Haemangioma, schwannoma, meningioma]] | pleomorphic adenoma, chondroma, angiofibroma
+Benign bony | [[@Benign bony tumours|Osteoma, fibrous dysplasia]] | ossifying fibroma, ameloblastoma
+Malignant epithelial | [[@Carcinoma of the maxillary sinus|Squamous cell carcinoma]] | adenocarcinoma, adenoid cystic carcinoma, undifferentiated carcinoma
+Malignant other | [[@Mucosal melanoma|Melanoma]], [[@Olfactory neuroblastoma|olfactory neuroblastoma]] | lymphoma, plasmacytoma, sarcomas, haemangiopericytoma
 !!
-## Epidemiology
+
+# Epidemiology | Rare.
 Sinonasal cancer is rare (well under 1% of all cancers). The maxillary sinus is the commonest site, then the ethmoids; frontal and sphenoid primaries are rare.
-## Risk factors
+
+# Etiology | Risk factors.
 - **Hardwood dust** (furniture workers): adenocarcinoma of the ethmoids and upper nose.
 - **Nickel refining:** squamous and anaplastic carcinoma.
 - **Leather work, chromium, mustard gas, formaldehyde.**
 - **Snuff** rich in nickel and chromium (Bantu populations).
 - **Smoking** and HPV for some squamous carcinomas.
-## Histology
+
+# Pathophysiology | Histology.
 More than 80% of malignant tumours are squamous cell carcinoma; the rest are adenocarcinoma, adenoid cystic carcinoma, melanoma, olfactory neuroblastoma, lymphoma and sarcomas. The WHO classification (fourth edition 2017, fifth edition 2022) reorganised sinonasal tumours and added new entities, such as SMARCB1-deficient and HPV-related multiphenotypic carcinoma, so histology now carries more weight than ever.
 !fig d40-4a | Adenocarcinoma with gland formation and intracytoplasmic mucin.
 
-# Benign tumours of the nasal cavity | And the one that isn't quite benign.
-## Squamous papilloma
+# Squamous papilloma {dz} | Of the vestibule.
 A warty lesion of the vestibule or anterior septum; excised.
 !fig d39-1 | Squamous papilloma of the left nasal vestibule.
-## Inverted papilloma
-### What it is
+
+# Inverted papilloma {dz} | The one that isn't quite benign.
+## Etiology and pathology
 A Schneiderian papilloma in which the epithelium grows inwards into the stroma. Typically in men of 40 to 70, almost always one-sided, arising from the lateral wall near the middle meatus and extending into the maxillary and ethmoid sinuses. HPV is found in some.
-### Three warnings
+## Behaviour: three warnings
 - It destroys bone by pressure.
 - It recurs if incompletely removed.
 - It harbours dysplasia or squamous cell carcinoma in about 5 to 10%, so the whole specimen must be examined; carcinoma arising in it behaves like de novo squamous carcinoma.
-### Clinical picture
+## Clinical features
 One-sided obstruction, discharge and bleeding, with a firm, greyish, irregular mass that can masquerade as a simple polyp.
 !fig d39-2 d39-3 | First, inverted papilloma in a 79-year-old man, with its CT. Second, an inverted papilloma in the right nose looking like a simple polyp.
 !fig d39-4 | Histology of a Schneiderian papilloma: ribbons of thickened epithelium growing into the stroma.
-### Imaging
+## Diagnosis
 CT shows a one-sided mass and focal hyperostosis at the site of attachment; MRI shows a *convoluted cerebriform* pattern.
-### Treatment
+## Management
 Complete removal including the mucoperiosteum and drilling of the bone at the site of attachment, now usually endoscopic (endoscopic medial maxillectomy) and formerly by lateral rhinotomy or midfacial degloving. Long-term endoscopic follow-up.
-## Vascular and other benign tumours
+!update Current evidence
+**Inverted papilloma.** Endoscopic resection with drilling of the attachment site gives lower recurrence than older open surgery.
+!!
+
+# Vascular and other benign tumours {dz} | Rarer benign masses.
 - **Haemangioma** (lobular capillary haemangioma, *bleeding polyp of the septum*): a red, friable mass on the anterior septum, often in pregnancy; excised with its base.
 - **Schwannoma, meningioma, chondroma, pleomorphic adenoma** of the septum.
 - **Angiofibroma** ([[t:juv]]).
 - **Encephalocele, glioma and dermoid** ([[t:congnose]]).
 !fig d39-5a | A bleeding polyp arising from the right side of the septum.
 
-# Benign bony tumours | Usually found by chance.
+# Benign bony tumours {dz} | Usually found by chance.
 ## Osteoma
 The commonest benign sinus tumour, usually in the frontal sinus, then ethmoid; often an incidental finding on CT. Symptoms arise when it blocks drainage (mucocele, sinusitis), bulges into the orbit or erodes the skull base. Multiple osteomas suggest *Gardner syndrome* (with colonic polyposis). Removed endoscopically or through an external approach when symptomatic.
 !fig d40-1 d40-2 | First, a frontoethmoidal osteoma invading the orbit. Second, an osteoma of the right frontal sinus.
@@ -60,8 +68,8 @@ A well-defined, expansile lesion with a bony rim, more aggressive in its juvenil
 An odontogenic tumour of the jaw, commonest in the mandible, that may invade the maxillary sinus; locally aggressive and recurrent unless widely excised.
 !imaging osteoma fibrous-dysplasia-monostotic myxoma inverted-papilloma | Inverted papilloma, osteoma, fibrous dysplasia and myxoma.
 
-# Carcinoma of the maxillary sinus | The classic sinonasal cancer.
-## Clinical picture
+# Carcinoma of the maxillary sinus {dz} | The classic sinonasal cancer.
+## Clinical features
 Usually men of 40 to 60. Early symptoms are easily mistaken for sinusitis: nasal stuffiness, bloodstained discharge, facial pain or numbness, and epiphora. Late features depend on the direction of spread.
 !table Spread of maxillary carcinoma
 Direction | Structures | Features
@@ -73,15 +81,15 @@ Posterior | Pterygoid plates and muscles, infratemporal fossa | Trismus, spread 
 Intracranial | Through the ethmoids, cribriform plate or foramen lacerum | Neurological signs
 !!
 !fig d40-6 | Carcinoma of the left maxilla in a 75-year-old man: (A) swelling and redness of the cheek, (B) expansion of the upper alveolus with an intraoral growth, (C) CT showing destruction of the maxilla and orbital floor.
-## Lymph node and distant spread
+## Pathophysiology: lymph node and distant spread
 Nodes are uncommon and late (submandibular and upper jugular); the first-echelon retropharyngeal nodes cannot be felt. Distant metastases go to the lungs and bone.
-## Investigations
+## Diagnosis
 - **CT** in three planes: bone destruction and staging.
 - **MRI:** separates tumour from retained secretions, and shows orbital, perineural and intracranial spread.
 - **Biopsy:** endoscopic, or from the mouth or nose when the tumour presents there; the Caldwell-Luc route is no longer preferred.
 - **Staging:** chest CT or PET-CT.
 !imaging sinonasal-tumours malignancy-of-the-pterygopalatine-and-infratempo | Sinonasal malignancy and spread into the pterygopalatine and infratemporal fossae.
-## Classifications
+## Subtypes and variants: classifications
 ### Ohngren's line
 An imaginary line from the medial canthus to the angle of the mandible. Tumours above and behind it (suprastructure) have a worse prognosis than those below and in front of it.
 ### Lederman's classification
@@ -96,7 +104,7 @@ T3 | Posterior wall, subcutaneous tissue, floor or medial wall of the orbit, pte
 T4a | Anterior orbit, cheek skin, pterygoid plates, infratemporal fossa, cribriform plate, sphenoid or frontal sinus
 T4b | Orbital apex, dura, brain, middle cranial fossa, cranial nerves other than V2, nasopharynx, clivus
 !!
-## Treatment
+## Management
 ### Surgery
 Resection with clear margins, followed by radiotherapy for most stages:
 - **Medial maxillectomy** (endoscopic or open) for medial tumours.
@@ -111,10 +119,13 @@ Postoperative radiotherapy for most; primary chemoradiotherapy for unresectable 
 ### Neck
 Neck dissection or irradiation for nodal disease, and elective treatment in some advanced tumours. Nodal metastases at presentation suggest a high-grade tumour such as squamous carcinoma or SNUC.
 !ops
+!update Current evidence
+**Endoscopic surgery.** The European position paper on endoscopic management of sinonasal and skull base tumours concluded that, in selected patients and experienced hands, endoscopic resection gives survival comparable to open surgery with less morbidity (Lund et al., *Rhinology Suppl* 2010); later large series and database studies support this for appropriately selected T1 to T3 tumours.
+!!
 ## Prognosis
 Five-year survival is around a third to a half overall, worse with orbital apex, skull base or intracranial spread.
 
-# Tumours of the ethmoid, frontal and sphenoid | Rarer sites.
+# Tumours of the ethmoid, frontal and sphenoid {dz} | Rarer sites.
 ## Ethmoid
 Often adenocarcinoma in woodworkers. **Intestinal-type adenocarcinoma**, linked to hardwood dust, looks like bowel cancer under the microscope but is not a metastasis; it is often multifocal, so wide removal of the sinus mucosa is advised. Low-grade non-intestinal adenocarcinoma may need surgery alone; high-grade disease needs radiotherapy too. Nasal obstruction, bloodstained discharge, a mass in the medial canthus, proptosis with lateral displacement of the eye, and early skull base spread. Craniofacial or endoscopic resection with radiotherapy.
 !fig d40-11 | Carcinoma of the ethmoid.
@@ -123,26 +134,28 @@ Very rare: forehead swelling, frontal pain, displacement of the eye downwards, a
 ## Sphenoid
 Usually secondary or from the nasopharynx; presents with cranial nerve palsies (second to sixth) and headache.
 
-# Other malignant tumours | Each with its clue.
-## Olfactory neuroblastoma
+# Olfactory neuroblastoma {dz} | Esthesioneuroblastoma.
 *Esthesioneuroblastoma*, from the olfactory epithelium at the roof of the nose, at any age with peaks in the second and sixth decades. One-sided obstruction, epistaxis and loss of smell, with a mass high in the nose that may extend through the cribriform plate (a *dumb-bell* shape). Staged by the Kadish system (A nasal cavity, B sinuses, C beyond), which discriminates poorly, so the Dulguerov TNM-based system is often preferred. Somatostatin-receptor PET (DOTATATE) helps stage and follow it, as it does neuroendocrine tumours. Treated by craniofacial or endoscopic resection with radiotherapy. Up to 20% spread to the neck, sometimes late, so long-term neck surveillance is needed.
 !imaging meningioma-with-skull-base-destruction | A meningioma destroying the skull base, a differential of olfactory neuroblastoma.
-## Mucosal melanoma
+
+# Mucosal melanoma {dz} | Pigmented or amelanotic.
 Older adults, on the septum or lateral wall; pigmented or amelanotic, bleeding; spreads by blood and lymph and has a poor prognosis; wide excision and radiotherapy.
+
+# Other malignant tumours {dz} | Each with its clue.
 ## Lymphoma, plasmacytoma and sarcomas
 NK/T-cell lymphoma ([[t:gpa]]), extramedullary plasmacytoma, and rhabdomyosarcoma in children.
 !fig d39-7 | Rhabdomyosarcoma of the nose in a two-and-a-half-year-old boy.
 ## Sinonasal undifferentiated carcinoma (SNUC)
 Aggressive, often presenting with intracranial and nodal spread; it responds well to **induction chemotherapy** followed by chemoradiotherapy, with surgery when the response is poor.
+!update Current evidence
+**SNUC.** In a multicentre study, patients whose SNUC responded to induction chemotherapy did best with definitive chemoradiotherapy, whereas non-responders did best with surgery followed by chemoradiotherapy (Amit et al., *J Clin Oncol* 2019).
+!!
 ## NUT carcinoma
 Defined by a *NUTM1* rearrangement; affects young adults and has a very poor prognosis.
 ## Neuroendocrine carcinoma
 Small and large cell types, treated with combined chemotherapy and radiotherapy.
-!update Current evidence
-**Endoscopic surgery.** The European position paper on endoscopic management of sinonasal and skull base tumours concluded that, in selected patients and experienced hands, endoscopic resection gives survival comparable to open surgery with less morbidity (Lund et al., *Rhinology Suppl* 2010); later large series and database studies support this for appropriately selected T1 to T3 tumours. **SNUC.** In a multicentre study, patients whose SNUC responded to induction chemotherapy did best with definitive chemoradiotherapy, whereas non-responders did best with surgery followed by chemoradiotherapy (Amit et al., *J Clin Oncol* 2019). **Inverted papilloma.** Endoscopic resection with drilling of the attachment site gives lower recurrence than older open surgery.
-!!
 
-# For the examination | What the examiner wants to hear.
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Occupational risks:** wood dust and adenocarcinoma, nickel and squamous carcinoma.
@@ -158,3 +171,16 @@ Small and large cell types, treated with combined chemotherapy and radiotherapy.
 - Removing a one-sided polyp without sending it for histology.
 - Calling numbness of the cheek sinusitis.
 !!
+## Related topics
+- [[t:juv]], [[t:congnose]], [[t:gpa]], [[t:crs]], [[t:skullbase]], [[t:jaw]], [[t:hncprinc]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 39.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 21.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 9.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapters 39 and 40.
+- K. J. Lee, *Essential Otolaryngology*, chapter 32.
+## Studies cited
+- Lund et al., *Rhinology Suppl* 2010: European position paper on endoscopic management of sinonasal and skull base tumours.
+- Amit et al., *J Clin Oncol* 2019: induction chemotherapy for SNUC.

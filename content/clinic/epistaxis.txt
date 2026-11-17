@@ -1,52 +1,13 @@
+@layout amboss
 @stand Bleeding from the nose is a sign, not a diagnosis. Most bleeds are small, anterior and self-limiting; a few are posterior, brisk and dangerous. The skill lies in telling the two apart, and in climbing the ladder of treatment one rung at a time.
 
-# Overview | A common bleed with an uncommon tail.
-## Definition
-Epistaxis is bleeding from inside the nose. The blood may run forward out of the nostril, backward into the nasopharynx and throat, or both. It is always a sign of something else, never a final diagnosis, and one rule holds on every shift: an attempt should always be made to find its local or systemic cause.
-## Epidemiology
-Most people have at least one nosebleed in their lives, and around one in six of the population is estimated to bleed in any given year. Only a small fraction ever seek medical help. The distribution is bimodal: children and young adults, who bleed from the front of the septum, and adults past middle age, who make up most hospital admissions and most posterior bleeds.
-## Why it matters
-The patients who reach the emergency department are older, often hypertensive, frequently on an anticoagulant or antiplatelet drug, and bleeding from further back in the nose, where blood runs silently down the pharynx and is easy to underestimate. In them, epistaxis is as much a resuscitation problem as a nasal one.
+# Summary | A common bleed with an uncommon tail.
+Epistaxis is bleeding from inside the nose. The blood may run forward out of the nostril, backward into the nasopharynx and throat, or both. It is always a sign of something else, never a final diagnosis, and one rule holds on every shift: an attempt should always be made to find its local or systemic cause. About nine in ten bleeds start anteriorly in Little's area and stop with first aid or cautery; posterior bleeds in older, hypertensive or anticoagulated patients are a resuscitation problem as much as a nasal one. Treatment climbs a ladder: first aid, cautery, anterior packing, posterior packing, then endoscopic cautery, ligation or embolisation.
 
-# Applied anatomy | Two carotid systems meeting in the nose.
-## Arterial supply
-The nasal cavity draws blood from both the internal and the external carotid arteries, and the two systems anastomose freely on the septum and the lateral wall. That double supply is why nosebleeds can be persistent, and why ligating one vessel sometimes isn't enough.
-### Internal carotid system
-- **Anterior ethmoidal artery,** from the ophthalmic artery, entering the nose through the roof.
-- **Posterior ethmoidal artery,** also from the ophthalmic, smaller and further back.
-These supply the upper septum and lateral wall above the middle turbinate.
-### External carotid system
-- **Sphenopalatine artery,** terminal branch of the maxillary artery: the main supply of the nose.
-- **Greater palatine artery,** from the maxillary, reaching the septum through the incisive canal.
-- **Superior labial artery,** from the facial, supplying the front of the septum and vestibule.
-!fig d33-1 d33-2 | Arterial supply of the nasal septum (first) and the lateral nasal wall (second). The anterior ethmoidal, septal branch of the sphenopalatine, greater palatine and superior labial arteries converge on Little's area.
-!anat nd104_14 | The ophthalmic artery giving off the anterior and posterior ethmoidal arteries in the orbit, on their way to the roof of the nose.
-## Little's area and Kiesselbach's plexus
-On the anteroinferior septum, just above the vestibule, four arteries meet to form *Kiesselbach's plexus*; the region it occupies is *Little's area*.
-### The four contributors
-- Anterior ethmoidal (internal carotid)
-- Septal branch of the sphenopalatine (external carotid)
-- Greater palatine (external carotid)
-- Septal branch of the superior labial (external carotid)
-### Why it bleeds
-It sits exactly where inspired air dries and cracks the mucosa, where the mucosa is thin and closely bound to cartilage, and where a fingernail reaches. About nine in ten bleeds start here.
-## The posterior territory
-### Sphenopalatine artery
-It enters the nose through the sphenopalatine foramen, just behind and below the *crista ethmoidalis* of the palatine bone, near the posterior end of the middle turbinate, and often divides into several branches before emerging. It is the dominant supply to the nose in about 85% of people (the rest are anterior ethmoid-dominant). Bleeding from its posterior lateral nasal and posterior septal branches is the classic posterior epistaxis.
-### Woodruff's plexus
-A plexus on the lateral wall below the posterior end of the inferior turbinate, and the other classic posterior bleeding site in adults.
-### Ethmoidal territory
-Bleeding above the level of the middle turbinate points to the ethmoidal arteries and therefore to the internal carotid system, which matters because embolisation cannot safely reach it.
-!/
-!differ Woodruff's plexus
-Dhingra: Woodruff's plexus is a plexus of veins below the posterior end of the inferior turbinate.
-Lee: Woodruff's is the naso-nasopharyngeal plexus over the posterior centimetre of the nasal floor, inferior meatus and middle meatus.
-In practice: For the exam, give the first definition, and add that posterior arterial bleeds come from sphenopalatine branches.
-!!
-## Venous drainage
-Veins follow the arteries. The *retrocolumellar vein*, running vertically just behind the columella across the floor of the nose, is a common source of venous bleeding in young people.
+# Epidemiology | Bimodal.
+Most people have at least one nosebleed in their lives, and around one in six of the population is estimated to bleed in any given year. Only a small fraction ever seek medical help. The distribution is bimodal: children and young adults, who bleed from the front of the septum, and adults past middle age, who make up most hospital admissions and most posterior bleeds. The patients who reach the emergency department are older, often hypertensive, frequently on an anticoagulant or antiplatelet drug, and bleeding from further back in the nose, where blood runs silently down the pharynx and is easy to underestimate. In them, epistaxis is as much a resuscitation problem as a nasal one.
 
-# Aetiology | Local, systemic, or neither.
+# Etiology | Local, systemic, or neither.
 !tree Causes of epistaxis
 Local | Trauma | inflammation and drying, structural, neoplastic, iatrogenic
 Systemic | Drugs | coagulation and platelet disorders, vascular disorders, cardiovascular, organ failure
@@ -87,36 +48,46 @@ In a large share of patients no specific cause is found despite a careful histor
 - **Massive or recurrent bleeding after trauma or skull base surgery:** carotid pseudoaneurysm; needs angiography.
 !!
 
-# Classification | The distinction that drives everything that follows.
-## By site: anterior or posterior
-With the patient sitting up, an anterior bleed runs mostly out of the nostril. A posterior bleed runs back into the throat, often from both sides, and no source is seen on anterior rhinoscopy.
-!table
- | Anterior | Posterior
-Frequency | Common, about 90% | Less common
-Site | Little's area or the front of the lateral wall | Posterosuperior cavity; often hard to localise
-Age | Children and young adults | Usually over 40
-Cause | Mostly trauma, dryness | Often spontaneous; hypertension, atherosclerosis, anticoagulation
-Severity | Usually mild; pressure, cautery or an anterior pack | Often severe; admission, posterior pack or surgery
+# Pathophysiology | Two carotid systems meeting in the nose.
+## Arterial supply
+The nasal cavity draws blood from both the internal and the external carotid arteries, and the two systems anastomose freely on the septum and the lateral wall. That double supply is why nosebleeds can be persistent, and why ligating one vessel sometimes isn't enough.
+### Internal carotid system
+- **Anterior ethmoidal artery,** from the ophthalmic artery, entering the nose through the roof.
+- **Posterior ethmoidal artery,** also from the ophthalmic, smaller and further back.
+These supply the upper septum and lateral wall above the middle turbinate.
+### External carotid system
+- **Sphenopalatine artery,** terminal branch of the maxillary artery: the main supply of the nose.
+- **Greater palatine artery,** from the maxillary, reaching the septum through the incisive canal.
+- **Superior labial artery,** from the facial, supplying the front of the septum and vestibule.
+!fig d33-1 d33-2 | Arterial supply of the nasal septum (first) and the lateral nasal wall (second). The anterior ethmoidal, septal branch of the sphenopalatine, greater palatine and superior labial arteries converge on Little's area.
+!anat nd104_14 | The ophthalmic artery giving off the anterior and posterior ethmoidal arteries in the orbit, on their way to the roof of the nose.
+## Little's area and Kiesselbach's plexus
+On the anteroinferior septum, just above the vestibule, four arteries meet to form *Kiesselbach's plexus*; the region it occupies is *Little's area*.
+### The four contributors
+- Anterior ethmoidal (internal carotid)
+- Septal branch of the sphenopalatine (external carotid)
+- Greater palatine (external carotid)
+- Septal branch of the superior labial (external carotid)
+### Why it bleeds
+It sits exactly where inspired air dries and cracks the mucosa, where the mucosa is thin and closely bound to cartilage, and where a fingernail reaches. About nine in ten bleeds start here.
+## The posterior territory
+### Sphenopalatine artery
+It enters the nose through the sphenopalatine foramen, just behind and below the *crista ethmoidalis* of the palatine bone, near the posterior end of the middle turbinate, and often divides into several branches before emerging. It is the dominant supply to the nose in about 85% of people (the rest are anterior ethmoid-dominant). Bleeding from its posterior lateral nasal and posterior septal branches is the classic posterior epistaxis.
+### Woodruff's plexus
+A plexus on the lateral wall below the posterior end of the inferior turbinate, and the other classic posterior bleeding site in adults.
+### Ethmoidal territory
+Bleeding above the level of the middle turbinate points to the ethmoidal arteries and therefore to the internal carotid system, which matters because embolisation cannot safely reach it.
+!/
+!differ Woodruff's plexus
+Dhingra: Woodruff's plexus is a plexus of veins below the posterior end of the inferior turbinate.
+Lee: Woodruff's is the naso-nasopharyngeal plexus over the posterior centimetre of the nasal floor, inferior meatus and middle meatus.
+In practice: For the exam, give the first definition, and add that posterior arterial bleeds come from sphenopalatine branches.
 !!
-## By severity
-There is no universal scale; in practice the useful split is whether first aid is enough.
-### Minor
-Stops with pressure or a single cautery, haemodynamically stable, can go home.
-### Major
-Continues despite first aid, needs packing, shows haemodynamic change or a falling haemoglobin, or occurs in a frail or anticoagulated patient. These patients are admitted.
-## By pattern: single or recurrent
-Recurrence changes the question from how to stop it to why it keeps happening. Recurrent unilateral bleeding needs endoscopy; recurrent bilateral bleeding, especially with a family history, needs HHT to be considered.
+## Venous drainage
+Veins follow the arteries. The *retrocolumellar vein*, running vertically just behind the columella across the floor of the nose, is a common source of venous bleeding in young people.
 
-# Clinical evaluation | Resuscitate first, then find the bleeding point, then ask why.
-## Immediate assessment
-The first question is not where the blood is coming from, but how much has been lost and whether the airway is safe. A posterior bleed can fill the stomach before it fills a basin, and swallowed blood that returns as dark vomit is easily mistaken for haematemesis.
-!ward On the ward: the first five minutes
-1. Sit the patient up and leaning forward. Check pulse, blood pressure and saturation; secure IV access and send a full blood count, group and save, and clotting if anticoagulated or bleeding heavily.
-2. Firm pressure on the soft lower third of the nose for at least five minutes without peeking; many units ask for 10 to 15. Ice in the mouth adds a little reflex vasoconstriction.
-3. Suction the clots, spray topical vasoconstrictor and anaesthetic, and look with a headlight and speculum.
-4. Ask about anticoagulants, antiplatelets, previous bleeds, family history and alcohol, and which side bled first.
-5. Don't stop or reverse anticoagulants for a bleed that local measures can control. Discuss with the prescribing team if it is life-threatening.
-!!
+# Diagnosis | Resuscitate first, then find the bleeding point, then ask why.
+The first question is not where the blood is coming from, but how much has been lost and whether the airway is safe. A posterior bleed can fill the stomach before it fills a basin, and swallowed blood that returns as dark vomit is easily mistaken for haematemesis. The first five minutes are set out in [[@Management/Approach]].
 ## History
 ### The bleed
 Side of onset, duration, estimated volume, whether it runs forward or into the throat, and previous episodes and their treatment.
@@ -140,7 +111,48 @@ CT or MRI when a tumour is suspected; for juvenile angiofibroma, contrast imagin
 Diagnostic and therapeutic: for suspected pseudoaneurysm, vascular tumours, and as the first step of embolisation.
 !imaging | Juvenile angiofibroma, the tumour to think of in a teenage boy with one-sided bleeding.
 
-# Local management | The ladder of control.
+# Subtypes and variants | Site, severity and pattern; special groups.
+## Anterior or posterior
+With the patient sitting up, an anterior bleed runs mostly out of the nostril. A posterior bleed runs back into the throat, often from both sides, and no source is seen on anterior rhinoscopy.
+!table
+ | Anterior | Posterior
+Frequency | Common, about 90% | Less common
+Site | Little's area or the front of the lateral wall | Posterosuperior cavity; often hard to localise
+Age | Children and young adults | Usually over 40
+Cause | Mostly trauma, dryness | Often spontaneous; hypertension, atherosclerosis, anticoagulation
+Severity | Usually mild; pressure, cautery or an anterior pack | Often severe; admission, posterior pack or surgery
+!!
+## By severity
+There is no universal scale; in practice the useful split is whether first aid is enough.
+### Minor
+Stops with pressure or a single cautery, haemodynamically stable, can go home.
+### Major
+Continues despite first aid, needs packing, shows haemodynamic change or a falling haemoglobin, or occurs in a frail or anticoagulated patient. These patients are admitted.
+## Single or recurrent
+Recurrence changes the question from how to stop it to why it keeps happening. Recurrent unilateral bleeding needs endoscopy; recurrent bilateral bleeding, especially with a family history, needs HHT to be considered.
+## Children
+### Typical picture
+Bleeding from Little's area, from crusting and picking, that stops on its own.
+### Treatment
+Antiseptic cream such as chlorhexidine with neomycin to the vestibule twice daily for four weeks settles most cases; silver nitrate for a visible vessel that keeps bleeding. Avoid creams containing arachis oil in peanut allergy.
+### When to investigate
+Recurrent bleeding with easy bruising or a family history needs a clotting screen including von Willebrand studies. Under two years of age, think of a bleeding disorder or non-accidental injury.
+## The anticoagulated patient
+Patients on warfarin, a direct oral anticoagulant or dual antiplatelets bleed longer and re-bleed more often, but stopping their drugs risks stroke or stent thrombosis. Control the bleed locally first with resorbable packing and check the INR in warfarinised patients. Reversal and withholding are for life-threatening bleeds, decided with the prescribing team: for warfarin with major bleeding, intravenous vitamin K and prothrombin complex concentrate (fresh frozen plasma only if that is unavailable); for a high INR with minor bleeding, withhold warfarin and give oral vitamin K. Ask about "natural blood thinners" such as garlic, ginger, ginkgo, turmeric and vitamin E.
+## Hereditary haemorrhagic telangiectasia
+Recurrent bleeding from multiple telangiectasias, usually from childhood, with a family history. Repeated packing and aggressive cautery make things worse; laser, bevacizumab, septodermoplasty and Young's procedure are the tools. The full account is in [[t:hht]].
+## Trauma and pseudoaneurysm
+Delayed, massive or recurrent bleeding days to weeks after head injury or skull base surgery suggests a pseudoaneurysm of the internal carotid artery. It is a neurovascular emergency: pack, resuscitate and arrange urgent angiography.
+
+# Management | The ladder of control.
+## Approach
+!ward On the ward: the first five minutes
+1. Sit the patient up and leaning forward. Check pulse, blood pressure and saturation; secure IV access and send a full blood count, group and save, and clotting if anticoagulated or bleeding heavily.
+2. Firm pressure on the soft lower third of the nose for at least five minutes without peeking; many units ask for 10 to 15. Ice in the mouth adds a little reflex vasoconstriction.
+3. Suction the clots, spray topical vasoconstrictor and anaesthetic, and look with a headlight and speculum.
+4. Ask about anticoagulants, antiplatelets, previous bleeds, family history and alcohol, and which side bled first.
+5. Don't stop or reverse anticoagulants for a bleed that local measures can control. Discuss with the prescribing team if it is life-threatening.
+!!
 ## The treatment ladder
 !ladder
 First aid and topical vasoconstriction | Pressure on the soft nose, leaning forward; pledgets of vasoconstrictor and local anaesthetic.
@@ -192,8 +204,6 @@ Topical tranexamic acid did not reduce the need for packing in the NoPAC trial; 
 !update Current evidence
 The American nosebleed guideline (Tunkel et al., *Otolaryngol Head Neck Surg* 2020) recommends compression for at least five minutes, packing if the site cannot be seen, resorbable packs in patients on anticoagulants or antiplatelets, nasal endoscopy for recurrent or difficult bleeds, cautery confined to the bleeding site, ligation or embolisation when these fail, and local treatment before transfusion, reversal or stopping anticoagulants unless the bleed is life-threatening. In the NoPAC trial of 496 patients in UK emergency departments, topical tranexamic acid did not reduce the need for anterior packing (43.7% vs 41.3% with placebo) (Reuben et al., *Ann Emerg Med* 2021). A UK national audit of 1,826 cases found 30-day re-presentation in 13.9% and all-cause 30-day mortality of 3.4%, and wide variation from consensus guidance (National ENT Trainee Research Network, *J Laryngol Otol* 2017).
 !!
-
-# Surgery and intervention | Taking out the supply: the vessel follows the site.
 ## Choosing the vessel
 !tree Persistent bleeding
 Source seen | Endoscopic cautery | under local or general anaesthesia
@@ -234,32 +244,18 @@ Above the origin of the superior thyroid artery. Too proximal to be reliable, gi
 !!
 !ops
 
-# Special situations | Children, the anticoagulated, HHT, and the bleed after trauma.
-## Children
-### Typical picture
-Bleeding from Little's area, from crusting and picking, that stops on its own.
-### Treatment
-Antiseptic cream such as chlorhexidine with neomycin to the vestibule twice daily for four weeks settles most cases; silver nitrate for a visible vessel that keeps bleeding. Avoid creams containing arachis oil in peanut allergy.
-### When to investigate
-Recurrent bleeding with easy bruising or a family history needs a clotting screen including von Willebrand studies. Under two years of age, think of a bleeding disorder or non-accidental injury.
-## The anticoagulated patient
-Patients on warfarin, a direct oral anticoagulant or dual antiplatelets bleed longer and re-bleed more often, but stopping their drugs risks stroke or stent thrombosis. Control the bleed locally first with resorbable packing and check the INR in warfarinised patients. Reversal and withholding are for life-threatening bleeds, decided with the prescribing team: for warfarin with major bleeding, intravenous vitamin K and prothrombin complex concentrate (fresh frozen plasma only if that is unavailable); for a high INR with minor bleeding, withhold warfarin and give oral vitamin K. Ask about "natural blood thinners" such as garlic, ginger, ginkgo, turmeric and vitamin E.
-## Hereditary haemorrhagic telangiectasia
-Recurrent bleeding from multiple telangiectasias, usually from childhood, with a family history. Repeated packing and aggressive cautery make things worse; laser, bevacizumab, septodermoplasty and Young's procedure are the tools. The full account is in [[t:hht]].
-## Trauma and pseudoaneurysm
-Delayed, massive or recurrent bleeding days to weeks after head injury or skull base surgery suggests a pseudoaneurysm of the internal carotid artery. It is a neurovascular emergency: pack, resuscitate and arrange urgent angiography.
-
-# Complications and outcome | Of the bleed and of its treatment.
+# Complications | Of the bleed and of its treatment.
 ## Of the bleed
 Hypovolaemic shock, anaemia, aspiration, and myocardial ischaemia in patients with coronary disease.
 ## Of treatment
 - **Cautery:** septal perforation.
 - **Packing:** pressure necrosis, sinusitis, otitis media, hypoxia, toxic shock syndrome.
-- **Surgery and embolisation:** see [[7.2]] to [[7.4]].
-## Prognosis
+- **Surgery and embolisation:** see [[@Endoscopic sphenopalatine artery ligation]], [[@Ethmoidal artery ligation]] and [[@Embolisation]].
+
+# Prognosis | Recurrence and frailty.
 Most bleeds settle with simple measures. A patient whose anterior bleed is stopped by cautery can go home with antiseptic or antibiotic cream for two weeks; after a significant posterior bleed, observe for 6 to 12 hours; anyone with a pack is admitted. Recurrence is common in the elderly, the anticoagulated and those with HHT, and patients admitted with epistaxis are often frail: in a UK national audit, 1 in 7 re-presented within 30 days and 3.4% died within 30 days of any cause.
 
-# For the examination | What the examiner wants to hear.
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Little's area:** the four arteries, their parent vessels, and why it bleeds.
@@ -277,3 +273,19 @@ Most bleeds settle with simple measures. A patient whose anterior bleed is stopp
 - Stopping anticoagulation reflexively for a bleed a pack would have controlled.
 - Repeated packing in recurrent bilateral bleeds that are really HHT.
 !!
+## Related topics
+- **Causes:** [[t:hht]], [[t:juv]], [[t:sinus_ca]], [[t:septum]], [[t:facefx]]
+- **Drugs:** [[t:dr_anticoag]], [[t:dr_eacid]]
+- **Approach:** [[t:ap_rhin]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapters 27 and 77.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 20.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapters 9 and 25.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapter 33.
+- K. J. Lee, *Essential Otolaryngology*, chapter 31.
+## Studies cited
+- Tunkel et al., *Otolaryngol Head Neck Surg* 2020: American nosebleed guideline.
+- Reuben et al., *Ann Emerg Med* 2021: the NoPAC trial of topical tranexamic acid.
+- National ENT Trainee Research Network, *J Laryngol Otol* 2017: UK national epistaxis audit.

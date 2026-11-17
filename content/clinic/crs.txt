@@ -1,28 +1,10 @@
+@layout amboss
 @stand Chronic rhinosinusitis is a long-standing inflammation of the nose and sinuses that lasts beyond twelve weeks, with or without polyps. It is not simply an infection that refuses to clear: anatomy, cilia, allergy, asthma, biofilms and the patient's own immune pattern all play their part. Most patients are controlled with saline and steroid sprays used properly; surgery opens the sinuses so that the medicine can reach them.
 
-# Overview | Inflammation beyond twelve weeks.
-## Definition
-Inflammation of the nose and sinuses lasting 12 weeks or more, with at least two cardinal symptoms, one of which must be blockage or discharge, plus objective evidence on endoscopy or CT.
-### Cardinal symptoms
-- Nasal blockage or congestion.
-- Anterior or posterior (postnasal) discharge, often purulent.
-- Facial pain or pressure.
-- Reduced or lost sense of smell.
-### Objective signs
-Endoscopy showing oedema or polyps in the middle meatus, or mucopus there; or CT showing mucosal changes in the ostiomeatal complex or sinuses.
-## Two phenotypes
-- **CRS without nasal polyps:** more often infective and neutrophilic.
-- **CRS with nasal polyps:** usually type 2 (eosinophilic) inflammation driven by IL-4, IL-5 and IL-13, often with asthma.
-## The EPOS 2020 classification
-Whether polyps are present says little about the disease underneath, so EPOS 2020 classifies chronic rhinosinusitis by mechanism.
-- **Primary, localised** (one side or one sinus system): for example isolated sphenoid disease or allergic fungal rhinosinusitis.
-- **Primary, diffuse** (both sides): split into **type 2** (eosinophilic, polyps, asthma, recurrence) and **non-type 2** endotypes.
-- **Secondary:** arising from something else: odontogenic sinusitis, a tumour, immunodeficiency, primary ciliary dyskinesia, cystic fibrosis, or eosinophilic granulomatosis with polyangiitis.
-Localised non-type 2 disease has the best prognosis; diffuse type 2 disease is part of a wider airway disorder and tends to recur. **Central compartment atopic disease** is allergic inflammation centred on the middle turbinate head, superior septum and posterosuperior nasal cavity, in contrast to polyps from the middle meatus. Thick "chewing gum" eosinophilic mucin suggests eosinophilic or allergic fungal disease. A blood eosinophil count above 0.25 x 10⁹/L supports a type 2 endotype, and above 0.45 x 10⁹/L predicts recurrence.
-## Acute exacerbation
-A sudden worsening that returns to the chronic baseline after treatment. Acute rhinosinusitis and its complications are covered in [[t:abs]].
+# Summary | Inflammation beyond twelve weeks.
+Chronic rhinosinusitis is inflammation of the nose and sinuses lasting 12 weeks or more, with at least two cardinal symptoms, one of which must be blockage or discharge, plus objective evidence on endoscopy or CT. It occurs with or without nasal polyps, and EPOS 2020 classifies it by mechanism. Diagnosis rests on endoscopy and CT. Most patients are controlled with saline and steroid sprays used properly; endoscopic sinus surgery opens the sinuses so that the medicine can reach them, and biologics are kept for severe type 2 polyposis.
 
-# Causes and pathogenesis | A vicious cycle.
+# Etiology | Predisposing factors and organisms.
 ## Predisposing factors
 ### Anatomical
 Structural variants that narrow the ostiomeatal complex: septal deviation, *concha bullosa* (a pneumatised middle turbinate), a paradoxical middle turbinate, Haller (infraorbital ethmoid) cells, prominent agger nasi cells, and a pneumatised or medially bent uncinate process.
@@ -35,12 +17,48 @@ Allergy, asthma (about half of CRS patients), aspirin sensitivity, immune defici
 Colonies of bacteria in a protective polysaccharide matrix that resists antibiotics and keeps the disease going.
 ## Organisms
 Polymicrobial: *Staphylococcus aureus* (sometimes methicillin-resistant), *Pseudomonas*, *Klebsiella*, *E. coli* and anaerobes, unlike the organisms of acute disease.
-## The cycle
+
+# Pathophysiology | A vicious cycle.
 Ostial obstruction leads to stasis, low oxygen and infection; infection and inflammation damage cilia and swell the mucosa further, which blocks the ostium more.
 !fig d37-1 d37-2 | First, the sequence of events after sinus ostial obstruction. Second, the factors in the vicious cycle of chronic sinusitis.
 
-# Nasal polyps | Grapes in the nose.
-## Two kinds
+# Clinical features | Symptoms and signs.
+## Cardinal symptoms
+- Nasal blockage or congestion.
+- Anterior or posterior (postnasal) discharge, often purulent.
+- Facial pain or pressure.
+- Reduced or lost sense of smell.
+## Objective signs
+Endoscopy showing oedema or polyps in the middle meatus, or mucopus there; or CT showing mucosal changes in the ostiomeatal complex or sinuses.
+
+# Diagnosis | Endoscopy and CT.
+## Nasal endoscopy
+Before and after decongestion: oedema, polyps and pus in the middle meatus and sphenoethmoidal recess. Polyps are graded by extent (for example the Lund-Kennedy score).
+## CT of the sinuses
+Non-contrast CT in three planes is the gold standard: it shows the extent of disease (scored by the Lund-Mackay system), anatomical variants and bony erosion, and maps the anatomy for surgery. Use it to confirm disease when endoscopy is unclear and before any operation. Incidental changes are common: retention cysts in 10 to 15% and mucosal thickening in a quarter of normal people, who score up to about 4 on Lund-Mackay; a score above 5 strongly suggests disease. MRI is too sensitive to diagnose chronic rhinosinusitis, showing thickening in about half the general population.
+!imaging | Nasal and unilateral polyps, cystic fibrosis and mucoceles.
+## Other tests
+Allergy testing, a sweat test or genetics for cystic fibrosis in children, ciliary studies, immunoglobulins, eosinophil count and ANCA when vasculitis is suspected ([[t:gpa]]), and culture from the middle meatus.
+## Symptom scores
+Patient-reported scores such as SNOT-22 measure the burden and the response to treatment.
+
+# Differential diagnosis | What else looks like polyps.
+A blob of mucus (disappears on blowing), a hypertrophied middle turbinate (pink and bony on probing), angiofibroma (bleeds, firm), inverted papilloma and malignancy (one-sided, fleshy, friable).
+!flag One-sided polyp in an adult
+A unilateral polyp is not simple polyposis until histology says so: inverted papilloma, carcinoma, esthesioneuroblastoma ([[t:sinus_ca]]) and encephalocele ([[t:congnose]]) all present this way.
+!!
+
+# Subtypes and variants | Phenotypes, endotypes and polyps.
+## Two phenotypes
+- **CRS without nasal polyps:** more often infective and neutrophilic.
+- **CRS with nasal polyps:** usually type 2 (eosinophilic) inflammation driven by IL-4, IL-5 and IL-13, often with asthma.
+## The EPOS 2020 classification
+Whether polyps are present says little about the disease underneath, so EPOS 2020 classifies chronic rhinosinusitis by mechanism.
+- **Primary, localised** (one side or one sinus system): for example isolated sphenoid disease or allergic fungal rhinosinusitis.
+- **Primary, diffuse** (both sides): split into **type 2** (eosinophilic, polyps, asthma, recurrence) and **non-type 2** endotypes.
+- **Secondary:** arising from something else: odontogenic sinusitis, a tumour, immunodeficiency, primary ciliary dyskinesia, cystic fibrosis, or eosinophilic granulomatosis with polyangiitis.
+Localised non-type 2 disease has the best prognosis; diffuse type 2 disease is part of a wider airway disorder and tends to recur. **Central compartment atopic disease** is allergic inflammation centred on the middle turbinate head, superior septum and posterosuperior nasal cavity, in contrast to polyps from the middle meatus. Thick "chewing gum" eosinophilic mucin suggests eosinophilic or allergic fungal disease. A blood eosinophil count above 0.25 x 10⁹/L supports a type 2 endotype, and above 0.45 x 10⁹/L predicts recurrence.
+## Nasal polyps: two kinds
 !table Antrochoanal or ethmoidal polyps?
  | Antrochoanal polyp | Ethmoidal polyps
 Age | Children and young adults | Adults
@@ -55,8 +73,7 @@ Recurrence | Uncommon after complete removal | Common
 Also called *Killian's polyp*. It arises near the accessory ostium of the maxillary sinus and has three parts: a thin antral stalk, a round choanal part, and a flattened nasal part. It causes one-sided blockage that may become bilateral when the choanal part fills the nasopharynx, with a hyponasal voice. It can be missed on anterior rhinoscopy and is seen with an endoscope or hanging behind the soft palate. CT shows an opaque antrum and the mass passing through the ostium.
 !fig d32-1 d32-2 | First, an antrochoanal polyp at the left nostril of a 14-year-old. Second, one hanging into the oropharynx behind the soft palate, and the polyp after removal.
 !fig d32-3 | Endoscopic view of a choanal polyp.
-### Treatment
-Endoscopic removal including its antral attachment, which prevents recurrence. Caldwell-Luc surgery is avoided, especially in children, because it damages the developing teeth.
+**Treatment:** Endoscopic removal including its antral attachment, which prevents recurrence. Caldwell-Luc surgery is avoided, especially in children, because it damages the developing teeth.
 ## Ethmoidal (bilateral) polyps
 ### Associations
 - Chronic rhinosinusitis, allergic and non-allergic, and NARES.
@@ -72,24 +89,15 @@ Always from the lateral wall, usually the middle meatus (uncinate, bulla, sinus 
 ### Clinical picture
 Progressive bilateral blockage, loss of smell, headache from sinusitis, sneezing and watery discharge. Polyps are smooth, glistening, pale, grape-like, insensitive to probing and do not bleed. Long-standing polyposis broadens the nose and widens the intercanthal distance (the *frog face*, or Woakes syndrome in its destructive form).
 !fig d32-4 d32-5 | First, multiple polyps on endoscopy. Second, a polyp protruding from the left nostril.
-### Differential diagnosis
-A blob of mucus (disappears on blowing), a hypertrophied middle turbinate (pink and bony on probing), angiofibroma (bleeds, firm), inverted papilloma and malignancy (one-sided, fleshy, friable).
-!flag One-sided polyp in an adult
-A unilateral polyp is not simple polyposis until histology says so: inverted papilloma, carcinoma, esthesioneuroblastoma ([[t:sinus_ca]]) and encephalocele ([[t:congnose]]) all present this way.
-!!
+## Chronic sinusitis by sinus: old names, still examined
+### Chronic maxillary sinusitis
+Purulent discharge, postnasal drip, cacosmia, often dental in origin; endoscopic middle meatal antrostomy has replaced antral washouts, inferior meatal antrostomy and Caldwell-Luc operations.
+### Chronic frontal sinusitis
+Frontal headache and discharge; endoscopic frontal sinusotomy, extended to a Draf III (modified Lothrop) procedure when needed; external frontoethmoidectomy and osteoplastic obliteration are reserved for failures.
+### Chronic ethmoiditis and sphenoiditis
+Usually part of pansinusitis; endoscopic ethmoidectomy and sphenoidotomy.
 
-# Assessment | Endoscopy and CT.
-## Nasal endoscopy
-Before and after decongestion: oedema, polyps and pus in the middle meatus and sphenoethmoidal recess. Polyps are graded by extent (for example the Lund-Kennedy score).
-## CT of the sinuses
-Non-contrast CT in three planes is the gold standard: it shows the extent of disease (scored by the Lund-Mackay system), anatomical variants and bony erosion, and maps the anatomy for surgery. Use it to confirm disease when endoscopy is unclear and before any operation. Incidental changes are common: retention cysts in 10 to 15% and mucosal thickening in a quarter of normal people, who score up to about 4 on Lund-Mackay; a score above 5 strongly suggests disease. MRI is too sensitive to diagnose chronic rhinosinusitis, showing thickening in about half the general population.
-!imaging | Nasal and unilateral polyps, cystic fibrosis and mucoceles.
-## Other tests
-Allergy testing, a sweat test or genetics for cystic fibrosis in children, ciliary studies, immunoglobulins, eosinophil count and ANCA when vasculitis is suspected ([[t:gpa]]), and culture from the middle meatus.
-## Symptom scores
-Patient-reported scores such as SNOT-22 measure the burden and the response to treatment.
-
-# Medical treatment | Saline and steroids first.
+# Management | Saline and steroids first, then surgery.
 ## CRS without polyps
 - **Saline irrigation:** high-volume rinses clear mucus, bacteria and allergens and disrupt biofilms.
 - **Intranasal corticosteroids:** sprays or drops; better after decongestion and with correct technique.
@@ -102,27 +110,20 @@ Patient-reported scores such as SNOT-22 measure the burden and the response to t
 - **Treat asthma** with the respiratory team.
 - **Aspirin-exacerbated disease:** leukotriene modifiers, and aspirin desensitisation after surgery.
 - **Biologics:** monoclonal antibodies against type 2 inflammation (dupilumab against the IL-4 receptor, omalizumab against IgE, mepolizumab against IL-5). EPOS 2020 indicates them for bilateral polyps after sinus surgery (or in patients unfit for it) with at least three of: evidence of type 2 disease (tissue eosinophils 10 or more per high-power field, blood eosinophils 0.25 x 10⁹/L or more, or total IgE 100 or more), need for systemic steroids (two or more courses a year or long-term use), SNOT-22 of 40 or more, anosmia on testing, and asthma needing inhaled steroids. Response is reviewed at 16 weeks and one year. Availability is limited by cost and national approval.
-
-# Surgery | Opening the sinuses for the medicine.
 ## Endoscopic sinus surgery
 For patients whose symptoms persist despite adequate medical treatment (usually at least eight weeks of saline and intranasal steroids). It removes polyps and diseased tissue, opens the natural ostia, corrects obstructing anatomy, and makes a cavity that saline and steroids can reach. For diffuse type 2 disease the aim is a complete, wide cavity (a "neo-sinus") for topical steroid access; limited opening of the ostia suits localised disease. Medical treatment continues afterwards. Revision is common in polyposis. In cystic fibrosis and ciliary disease, wide dependent drainage of the maxillary and sphenoid sinuses is made.
 !fig d37-4 d37-5 | Functional endoscopic sinus surgery, without and with a camera and monitor.
 ## Historical operations
 Intranasal polypectomy alone, Caldwell-Luc operation, intranasal and external ethmoidectomy, and external frontoethmoidectomy (Howarth or Lynch); now largely replaced by endoscopic surgery ([[t:sinussurg]]).
 !ops
-
-# Chronic sinusitis by sinus | Old names, still examined.
-## Chronic maxillary sinusitis
-Purulent discharge, postnasal drip, cacosmia, often dental in origin; endoscopic middle meatal antrostomy has replaced antral washouts, inferior meatal antrostomy and Caldwell-Luc operations.
-## Chronic frontal sinusitis
-Frontal headache and discharge; endoscopic frontal sinusotomy, extended to a Draf III (modified Lothrop) procedure when needed; external frontoethmoidectomy and osteoplastic obliteration are reserved for failures.
-## Chronic ethmoiditis and sphenoiditis
-Usually part of pansinusitis; endoscopic ethmoidectomy and sphenoidotomy.
 !update Current evidence
 The European position paper EPOS 2020 defines the classification by endotype, the place of biologics and the care pathway (Fokkens et al., *Rhinology* 2020). In the UK MACRO trial of about 500 adults with persistent chronic rhinosinusitis on saline and steroids, endoscopic sinus surgery improved symptoms and quality of life compared with placebo at six months, while three months of clarithromycin did not (Philpott et al., *Lancet* 2025). Dupilumab reduced polyp size, nasal blockage and the need for systemic steroids or surgery in two phase 3 trials (Bachert et al., *Lancet* 2019). A Cochrane review supports large-volume saline irrigation as a low-cost adjunct (Chong et al., 2016).
 !!
 
-# For the examination | What the examiner wants to hear.
+# Complications | Acute exacerbation.
+A sudden worsening that returns to the chronic baseline after treatment. Acute rhinosinusitis and its complications are covered in [[t:abs]].
+
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Definition** and diagnostic criteria.
@@ -139,3 +140,19 @@ The European position paper EPOS 2020 defines the classification by endotype, th
 - Operating before medical treatment has been tried properly.
 - Forgetting the sweat test in a child with polyps.
 !!
+## Related topics
+- [[t:abs]], [[t:afs]], [[t:rhinitis]], [[t:gpa]], [[t:sinussurg]], [[t:sinus_ca]]
+- **Drugs:** [[t:dr_dupi]], [[t:dr_omal]], [[t:dr_mepo]], [[t:dr_itster]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapters 37 and 38.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 21.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 9.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapters 32 and 37.
+- K. J. Lee, *Essential Otolaryngology*, chapter 29.
+## Studies cited
+- Fokkens et al., *Rhinology* 2020: EPOS 2020.
+- Philpott et al., *Lancet* 2025: the MACRO trial.
+- Bachert et al., *Lancet* 2019: dupilumab phase 3 trials.
+- Chong et al., Cochrane review, 2016: saline irrigation.

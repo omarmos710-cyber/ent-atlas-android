@@ -1,31 +1,37 @@
+@layout amboss
 @stand Rhinitis is the commonest complaint in the nose clinic: sneezing, a running nose, itch and a blocked nose. The history sorts allergic from non-allergic. Steroid sprays used properly control most patients, and turbinate surgery helps only when medicines have genuinely been tried. One-sided symptoms are never rhinitis until the nose has been examined.
 
-# Overview | Inflammation of the nasal lining.
-## Definition
-Rhinitis is inflammation of the nasal mucosa, defined clinically by two or more of nasal obstruction, rhinorrhoea, sneezing and itching. *Rhinosinusitis* adds sinus involvement ([[t:abs]], [[t:crs]]).
-## Classification
+# Summary | Inflammation of the nasal lining.
+Rhinitis is inflammation of the nasal mucosa, defined clinically by two or more of nasal obstruction, rhinorrhoea, sneezing and itching. *Rhinosinusitis* adds sinus involvement ([[t:abs]], [[t:crs]]). The history sorts allergic from non-allergic; each has its own chapter. Infective and atrophic rhinitis are covered in [[t:atrophic]].
 !tree Rhinitis
-Allergic | Seasonal or perennial | intermittent or persistent (ARIA)
-Non-allergic, non-infective | Vasomotor (idiopathic) | drug-induced, rhinitis medicamentosa, hormonal, NARES, gustatory, emotional, occupational
+Allergic | [[@Allergic rhinitis|Seasonal or perennial]] | intermittent or persistent (ARIA)
+Non-allergic, non-infective | [[@Vasomotor rhinitis|Vasomotor (idiopathic)]] | [[@Other non-allergic rhinitis|drug-induced]], rhinitis medicamentosa, hormonal, NARES, gustatory, emotional, occupational
 Infective | Acute and chronic rhinitis | atrophic rhinitis and specific infections
 !!
-Infective and atrophic rhinitis are covered in [[t:atrophic]].
-## Why it matters
+
+# Epidemiology | One airway.
 Allergic rhinitis affects about one person in five in Western countries (up to a quarter in some populations), disturbs sleep, school and work, and travels with asthma: rhinitis patients are about four times more likely to develop asthma, 20 to 30% of patients with rhinitis have asthma, and most with allergic asthma have rhinitis. Treating the nose often improves asthma control (the *united airway*). Non-allergic rhinitis typically begins in early adulthood and is linked to adult-onset asthma.
 
-# Applied physiology | Why the nose runs and blocks.
+# Pathophysiology | Why the nose runs and blocks.
 ## The erectile mucosa
 The turbinate mucosa contains venous sinusoids surrounded by smooth muscle that fill and empty them. Sympathetic stimulation empties them and opens the airway; parasympathetic stimulation fills them and drives the glands to secrete. Their alternating congestion from side to side is the *nasal cycle*.
 ## Hyperreactivity
 In both allergic and non-allergic rhinitis the mucosa over-reacts to ordinary stimuli: temperature change, dust, smoke, perfume, cold air.
 
-# Allergic rhinitis | IgE in the nose.
-## Types
-- **Seasonal:** symptoms in the season of the pollen the patient reacts to (tree, grass or weed pollens).
-- **Perennial:** symptoms throughout the year, from house dust mite, moulds, cockroaches and animal dander.
-## Genetic predisposition
+# Management | Turbinate surgery, when medicines are not enough.
+## Indications
+Persistent obstruction from inferior turbinate hypertrophy despite a proper trial of topical steroids, or rhinitis medicamentosa with fixed hypertrophy.
+## Methods
+Submucosal reduction (microdebrider or radiofrequency), outfracture, partial turbinectomy, laser or cryosurgery. Reducing the **conchal bone** gives the longest-lasting effect. Preserve the mucosa: excessive removal leaves an *empty nose*, with crusting and paradoxical blockage.
+!ops
+
+# Allergic rhinitis {dz} | IgE in the nose.
+## Etiology
+### Genetic predisposition
 The chance of a child developing allergy is about 20% with one allergic parent and 47% with two.
-## Pathogenesis
+### Allergens
+Tree, grass or weed pollens (seasonal); house dust mite, moulds, cockroaches and animal dander (perennial).
+## Pathophysiology
 ### Sensitisation
 In predisposed people, inhaled allergens drive production of specific IgE, which binds by its Fc end to mast cells and basophils.
 ### Re-exposure
@@ -46,15 +52,7 @@ It usually starts in childhood, around three years of age, after atopic dermatit
 - **Ears:** retracted drum or effusion.
 - **Pharynx and larynx:** granular pharyngitis, hoarseness.
 - **Children:** the long face and open mouth of chronic mouth breathing.
-## ARIA classification
-!table ARIA classification
-Category | Definition
-Intermittent | Symptoms less than 4 days a week, or for less than 4 weeks
-Persistent | Symptoms more than 4 days a week and for more than 4 weeks
-Mild | None of: disturbed sleep, impaired daily activities or sport, impaired school or work, troublesome symptoms
-Moderate to severe | One or more of these
-!!
-## Investigations
+## Diagnosis
 - **Nasal smear:** eosinophils, best taken during active symptoms (also seen in NARES).
 - **Blood count:** peripheral eosinophilia, inconsistent.
 - **Skin prick test:** allergen pricked into the skin of the forearm or back; a wheal and flare at 10 to 15 minutes is positive, with histamine and diluent as controls.
@@ -63,9 +61,19 @@ Moderate to severe | One or more of these
 - **Nasal endoscopy:** to exclude polyps and structural causes.
 ### Interpreting allergy tests
 A skin-prick wheal more than 3 mm larger than the negative control is positive, but only about half of people with positive tests have allergic disease, so tests are interpreted with the history and requested mainly when immunotherapy or targeted avoidance is planned. A small panel (house dust mite, grass, tree and weed pollen, cat, dog and moulds) covers most allergy. Serum specific IgE is a little less sensitive than skin testing.
-## Complications
-Recurrent sinusitis, nasal polyps (in about 2%), otitis media with effusion, dental and facial growth problems from mouth breathing, and asthma.
-## Treatment
+## Subtypes and variants
+### Seasonal or perennial
+- **Seasonal:** symptoms in the season of the pollen the patient reacts to (tree, grass or weed pollens).
+- **Perennial:** symptoms throughout the year, from house dust mite, moulds, cockroaches and animal dander.
+### ARIA classification
+!table ARIA classification
+Category | Definition
+Intermittent | Symptoms less than 4 days a week, or for less than 4 weeks
+Persistent | Symptoms more than 4 days a week and for more than 4 weeks
+Mild | None of: disturbed sleep, impaired daily activities or sport, impaired school or work, troublesome symptoms
+Moderate to severe | One or more of these
+!!
+## Management
 ### Avoidance
 Most effective with a single allergen: remove the pet, reduce dust mites, change work if necessary. Allergen-impermeable mattress and pillow covers are the best-studied measure for house dust mite, though alone they help little.
 ### Drugs
@@ -87,14 +95,19 @@ Uncontrolled | Short oral steroid course; consider immunotherapy.
 !!
 ### Immunotherapy
 Gradually increasing doses of the allergen, by subcutaneous injection or sublingually, until a maintenance dose is reached; it raises specific IgG (blocking antibody) and reduces IgE. Continued for about three years; stopped if no benefit after uninterrupted treatment. The only treatment that alters the course of the disease, for patients whose symptoms are not controlled by drugs or who are sensitised to a single dominant allergen. The sublingual route avoids injections and has an almost negligible risk of anaphylaxis; subcutaneous injections must be given where anaphylaxis can be treated. It can be offered earlier in patients with asthma as well.
+!update Current evidence
+The British Society for Allergy and Clinical Immunology guideline recommends intranasal steroids as first-line treatment for persistent symptoms, adding an antihistamine or a combined steroid-azelastine spray when control is poor, and immunotherapy for uncontrolled disease with a confirmed allergen (Scadding et al., *Clin Exp Allergy* 2017). The ARIA 2020 care pathways follow the same steps, using patient-reported control to guide treatment (Bousquet et al., *J Allergy Clin Immunol* 2020). A Cochrane review of 49 trials found sublingual immunotherapy reduced symptoms and medication use in allergic rhinitis, with no serious systemic reactions (Radulovic et al., 2010).
+!!
 !pearl Pearls
 - Rhinitis and asthma are one airway: treat both.
 - Most steroid-spray failures are technique failures.
 - Allergic children with blocked noses may also have big adenoids.
 !!
+## Complications
+Recurrent sinusitis, nasal polyps (in about 2%), otitis media with effusion, dental and facial growth problems from mouth breathing, and asthma.
 
-# Vasomotor rhinitis | Non-allergic, hyperreactive.
-## What it is
+# Vasomotor rhinitis {dz} | Non-allergic, hyperreactive.
+## Pathophysiology
 A non-allergic rhinitis that mimics allergy, with negative allergy tests, from autonomic imbalance with parasympathetic overactivity and a hyperreactive mucosa. Emotions influence it through the hypothalamus.
 ## Clinical features
 - Paroxysmal sneezing on getting out of bed.
@@ -102,15 +115,15 @@ A non-allergic rhinitis that mimics allergy, with negative allergy tests, from a
 - Blockage alternating from side to side, worse at night and on the dependent side.
 - Postnasal drip.
 The turbinate mucosa is congested and hypertrophic, or normal.
-## Complications
-Hypertrophic rhinitis, polyps and sinusitis ([[t:crs]]).
-## Treatment
+## Management
 ### Medical
 Avoid triggers; antihistamines and oral decongestants; topical steroids; ipratropium for rhinorrhoea; a short systemic steroid course in severe cases; address psychological factors.
 ### Surgical
 Reduce the turbinates when obstruction persists; correct a deviated septum or polyps. *Vidian neurectomy*, cutting the parasympathetic secretomotor fibres, for intractable rhinorrhoea; now largely replaced by endoscopic posterior nasal nerve procedures.
+## Complications
+Hypertrophic rhinitis, polyps and sinusitis ([[t:crs]]).
 
-# Other non-allergic rhinitis | Named causes.
+# Other non-allergic rhinitis {dz} | Named causes.
 ## Drug-induced
 Antihypertensives that block sympathetic activity (reserpine, methyldopa, beta-blockers), anticholinesterases, oral contraceptives, and aspirin or NSAIDs in sensitive patients.
 ## Rhinitis medicamentosa
@@ -130,17 +143,7 @@ After laryngectomy or tracheostomy, when air no longer passes through the nose.
 ## Local allergic rhinitis
 Allergy-like symptoms with negative skin and blood tests but specific IgE produced in the nasal mucosa, shown by nasal provocation; managed like allergic rhinitis.
 
-# Turbinate surgery | When medicines are not enough.
-## Indications
-Persistent obstruction from inferior turbinate hypertrophy despite a proper trial of topical steroids, or rhinitis medicamentosa with fixed hypertrophy.
-## Methods
-Submucosal reduction (microdebrider or radiofrequency), outfracture, partial turbinectomy, laser or cryosurgery. Reducing the **conchal bone** gives the longest-lasting effect. Preserve the mucosa: excessive removal leaves an *empty nose*, with crusting and paradoxical blockage.
-!ops
-!update Current evidence
-The British Society for Allergy and Clinical Immunology guideline recommends intranasal steroids as first-line treatment for persistent symptoms, adding an antihistamine or a combined steroid-azelastine spray when control is poor, and immunotherapy for uncontrolled disease with a confirmed allergen (Scadding et al., *Clin Exp Allergy* 2017). The ARIA 2020 care pathways follow the same steps, using patient-reported control to guide treatment (Bousquet et al., *J Allergy Clin Immunol* 2020). A Cochrane review of 49 trials found sublingual immunotherapy reduced symptoms and medication use in allergic rhinitis, with no serious systemic reactions (Radulovic et al., 2010).
-!!
-
-# For the examination | What the examiner wants to hear.
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Pathogenesis** of allergic rhinitis, and early versus late phase.
@@ -158,3 +161,18 @@ The British Society for Allergy and Clinical Immunology guideline recommends int
 - Sending a patient for turbinate surgery before a proper trial of steroid spray.
 - Missing CSF rhinorrhoea in a patient with clear, one-sided dripping.
 !!
+## Related topics
+- [[t:atrophic]], [[t:abs]], [[t:crs]], [[t:csf]], [[t:ap_rhin]], [[t:ap_block]]
+- **Drugs:** [[t:dr_itster]], [[t:dr_ahist]], [[t:dr_ipra]], [[t:dr_cromo]], [[t:dr_montel]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapters 29 and 42.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 20.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 9.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapters 27, 30 and 31.
+- K. J. Lee, *Essential Otolaryngology*, chapters 27, 31 and 59.
+## Studies cited
+- Scadding et al., *Clin Exp Allergy* 2017: BSACI guideline.
+- Bousquet et al., *J Allergy Clin Immunol* 2020: ARIA 2020 care pathways.
+- Radulovic et al., Cochrane review, 2010: sublingual immunotherapy.
