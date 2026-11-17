@@ -1,15 +1,28 @@
+@layout amboss
 @stand A toddler with a peanut in his mouth laughs, gasps and coughs; the coughing stops, and for days or weeks he seems well except for a wheeze that is treated as asthma. Inhaled foreign bodies are a leading cause of accidental death in small children, and a missed one slowly destroys a lung. Suspect it from the story, look for the triad of cough, wheeze and reduced air entry, do not trust a normal chest film, and remember the rule of airway foreign bodies: a negative bronchoscopy is far better than a missed foreign body.
 
-# Overview | Who, what and where.
-## Who
+# Summary | Suspect it from the story.
+Inhaled foreign bodies are a leading cause of accidental death in small children. Suspect one from the history, look for the triad of cough, wheeze and reduced air entry, do not trust a normal chest film, and remove it by rigid bronchoscopy. Swallowed objects are covered in [[t:fbfood]].
+
+# Epidemiology | Who.
 Children, more than half under four, who inhale suddenly while laughing, crying, playing or running with something in the mouth; infants have no molars to grind nuts and a weak cough. In adults, aspiration occurs in coma, sleep, intoxication, seizures, under anaesthesia (teeth, dentures), with neurological disease, and in the elderly.
-## What
+
+# Etiology | What.
 - **Vegetable (organic):** peanuts above all, also seeds (watermelon, pumpkin), beans, peas, grains, nuts, pieces of carrot or apple; regional patterns follow diet (areca nut in parts of India, watermelon seeds in Egypt). They absorb water and swell, and their oils provoke an intense *vegetal bronchitis* with oedema, granulation and suppuration.
 - **Non-vegetable:** plastic toys and whistles, beads, pins and needles, nails, wires, ball bearings, coins, pen caps and springs; inert ones may stay silent for long periods.
 - **Food boluses** that obstruct the larynx in adults (the "café coronary").
 !fig d65-1 | Laryngeal foreign bodies: (1) safety pin, (2) pin, (3, 4) twisted wire, (5) a fruit seed.
+
+# Pathophysiology | Where it lodges and what it does.
 ## Where
 Large objects lodge above the glottis; small ones pass to the trachea and bronchi, most often into the *right main bronchus*, which is wider, shorter and more vertical than the left (in young children the difference is less). Sharp objects stick anywhere.
+## Patterns of bronchial obstruction
+!fig d65-2 | Types of bronchial obstruction: (A) partial (bypass valve) with wheeze; (B) check-valve with obstructive emphysema; (C) complete (stop valve) with collapse; (D) ball valve.
+- **Bypass valve:** air passes both ways; only a wheeze.
+- **Check valve:** air enters but cannot leave; *obstructive emphysema* of the lobe or lung, with hyper-resonance, reduced breath sounds and mediastinal shift to the other side.
+- **Stop valve:** complete obstruction; air is absorbed and the segment collapses (*atelectasis*), with dullness and shift towards the affected side.
+- **Ball valve:** a mobile object enters on inspiration but blocks on expiration.
+A mobile object may shift sides, changing the signs.
 
 # Clinical features | Three stages.
 ## Stage 1: the event
@@ -24,13 +37,6 @@ Larynx | Complete obstruction: aphonia, inability to cough or breathe, rapid dea
 Trachea | Choking, cough, biphasic stridor and wheeze heard at the open mouth; a mobile object gives an *audible slap* and *palpable thud* as it strikes the undersurface of the folds
 Bronchus | The triad of *cough, wheeze and reduced air entry* on one side; later collapse, emphysema, pneumonia, bronchiectasis, lung abscess
 !!
-## Patterns of bronchial obstruction
-!fig d65-2 | Types of bronchial obstruction: (A) partial (bypass valve) with wheeze; (B) check-valve with obstructive emphysema; (C) complete (stop valve) with collapse; (D) ball valve.
-- **Bypass valve:** air passes both ways; only a wheeze.
-- **Check valve:** air enters but cannot leave; *obstructive emphysema* of the lobe or lung, with hyper-resonance, reduced breath sounds and mediastinal shift to the other side.
-- **Stop valve:** complete obstruction; air is absorbed and the segment collapses (*atelectasis*), with dullness and shift towards the affected side.
-- **Ball valve:** a mobile object enters on inspiration but blocks on expiration.
-An emphysematous bulla may rupture into a pneumothorax, and a mobile object may shift sides, changing the signs.
 !flag The asthmatic child who is not asthmatic
 New wheeze that is one-sided, does not respond to bronchodilators, or follows a choking episode; recurrent pneumonia in the same lobe; a persistent cough after eating nuts: think foreign body and arrange bronchoscopy.
 !!
@@ -72,17 +78,20 @@ Removed by *rigid ventilating bronchoscopy* under general anaesthesia, ideally w
 - Steroids reduce oedema; physiotherapy and antibiotics treat secondary infection.
 - Fluoroscopy (C-arm) for peripheral metallic objects; flexible bronchoscopy in selected adults; tracheostomy and bronchoscopy through the stoma for large objects; *thoracotomy and bronchotomy* for objects that cannot be reached.
 !ops | Tracheoscopy, bronchoscopy and airway foreign bodies.
-## Complications of removal
-Oedema of the subglottis, bronchospasm, bleeding from granulations, pneumothorax and pneumomediastinum, fragmentation of nuts with distal spread, and complete obstruction if the object is dropped in the glottis: push it back into a main bronchus and ventilate the other lung, then retrieve it.
-## Late complications of a retained object
-Recurrent pneumonia, bronchiectasis, lung abscess, granulation tissue and stenosis.
 ## Prevention
 No nuts, popcorn, hard sweets or whole grapes for children under four or five; supervise meals and play; age-appropriate toys without small parts; never hold pins or small objects in the mouth.
 !update Current evidence
 **First aid.** The European Resuscitation Council guidelines (2021) keep five back blows then five abdominal thrusts for children over one and adults, five back blows then five chest thrusts for infants, encouragement to cough while the cough is effective, and no blind finger sweeps. **Imaging.** Low-dose CT has a high negative predictive value when the history is doubtful. **Swallowed objects** and button batteries in the oesophagus are covered in [[t:fbfood]].
 !!
 
-# For the examination | What the examiner wants to hear.
+# Complications | Of the object and of its removal.
+## Of a retained object
+Recurrent pneumonia, bronchiectasis, lung abscess, granulation tissue and stenosis.
+An emphysematous bulla may rupture into a pneumothorax.
+## Of removal
+Oedema of the subglottis, bronchospasm, bleeding from granulations, pneumothorax and pneumomediastinum, fragmentation of nuts with distal spread, and complete obstruction if the object is dropped in the glottis: push it back into a main bronchus and ventilate the other lung, then retrieve it.
+
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Three stages** of symptoms and the silent interval.
@@ -99,3 +108,15 @@ No nuts, popcorn, hard sweets or whole grapes for children under four or five; s
 - Performing back blows or the Heimlich manoeuvre on a patient who is coughing effectively.
 - Attempting removal without the right-sized instruments checked and ready.
 !!
+## Related topics
+- [[t:fbfood]], [[t:croup]], [[t:trach]], [[t:lxanat]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 74.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 23.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 25.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapter 65.
+- K. J. Lee, *Essential Otolaryngology*, chapters 50 and 53.
+## Studies cited
+- European Resuscitation Council guidelines 2021: choking.

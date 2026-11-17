@@ -1,6 +1,13 @@
+@layout amboss
 @stand A paralysed vocal fold is a sign that something has happened along a very long nerve: in the brainstem, at the skull base, in the neck or deep in the chest. One fold paralysed costs the voice and sometimes the swallow; both paralysed near the midline cost the airway while sparing the voice. Find the cause, especially the lung or thyroid cancer that may be hiding behind a hoarse voice, and then choose between voice, airway and safe swallowing.
 
-# Nerve supply | Two nerves, one long way round.
+# Summary | Voice, airway and swallow.
+A paralysed fold is a sign, not a diagnosis: find the cause along the whole nerve. Each pattern of paralysis has its own chapter: [[@Unilateral recurrent nerve paralysis]], [[@Bilateral abductor paralysis]], [[@Superior laryngeal nerve paralysis]], [[@Combined paralysis]] and [[@Congenital paralysis]].
+!pearl The paradox
+Bilateral recurrent palsy gives a good voice and a bad airway; bilateral combined palsy gives a bad voice, no airway problem and dangerous aspiration.
+!!
+
+# Applied anatomy | Two nerves, one long way round.
 ## Motor
 Every muscle that moves the vocal fold is supplied by the *recurrent laryngeal nerve*, except the *cricothyroid* (a tensor), which is supplied by the *external laryngeal nerve*, a branch of the superior laryngeal nerve. The interarytenoid receives fibres from both sides.
 ## Sensory
@@ -12,23 +19,10 @@ Above the vocal folds, the internal laryngeal nerve; below them, the recurrent l
 !fig d60-1 | The recurrent and superior laryngeal nerves and their course: the left recurrent nerve loops around the arch of the aorta, the right around the subclavian artery.
 !anat dl_nerves s252_34 | The nerve supply of the larynx, and the nerves with their relations.
 
-# Positions of the cord | What the folds show.
-!fig d60-2 | Positions of the vocal folds: median, paramedian, intermediate (cadaveric), slight abduction and full abduction.
-!table Positions of the vocal fold
-Position | Distance from midline | In health | In disease
-Median | 0 | Phonation | Recurrent nerve paralysis
-Paramedian | 1.5 mm | Strong whisper | Recurrent nerve paralysis
-Intermediate (cadaveric) | 3.5 mm | Neutral resting position | Combined recurrent and superior nerve paralysis
-Gentle abduction | 7 mm | Quiet breathing | Paralysis of adductors
-Full abduction | 9.5 mm | Deep inspiration | None
-!!
-## Why the paralysed cord lies near the midline
-- **Semon's law:** in progressive organic lesions the abductor fibres, phylogenetically newer, are affected before the adductors, so the fold first lies near the midline.
-- **Wagner–Grossman hypothesis:** with the recurrent nerve cut and the superior nerve intact, the cricothyroid still adducts the fold slightly into the paramedian position; with both nerves lost the fold lies in the cadaveric position.
-The position also reflects partial or misdirected *regeneration*, which restores tone (and synkinesis) without useful movement; a fold often lies laterally at first and medialises over months.
+# Epidemiology | Commonest causes overall.
+Malignancy (lung, thyroid [[t:thyroid]], oesophagus) and surgery (thyroid, cervical spine through an anterior approach, cardiothoracic) lead the list; thyroidectomy is the commonest cause of bilateral paralysis.
 
-# Causes | Along the whole course.
-## By level
+# Etiology | Along the whole course.
 - **Supranuclear:** rare (bilateral cortical lesions).
 - **Nuclear (nucleus ambiguus, medulla):** stroke (lateral medullary syndrome), tumours, motor neurone disease, polio, syringobulbia, multiple sclerosis, Arnold–Chiari malformation; other cranial nerves are involved.
 - **High vagal (with superior laryngeal involvement, a combined paralysis):** posterior fossa tumours and basal meningitis; skull base fractures, nasopharyngeal carcinoma, glomus tumours; parapharyngeal tumours, metastatic nodes, lymphoma and penetrating injury.
@@ -43,27 +37,23 @@ Chest | Carcinoma of the right lung apex, tuberculosis of the pleura | Bronchoge
 !flag Left vocal fold palsy
 Bronchogenic carcinoma must be excluded in every unexplained left-sided paralysis: image the whole course of the nerve from the skull base to the aortic arch with contrast CT (or MRI and CT), and examine the thyroid, oesophagus and neck.
 !!
-## Commonest causes overall
-Malignancy (lung, thyroid [[t:thyroid]], oesophagus) and surgery (thyroid, cervical spine through an anterior approach, cardiothoracic) lead the list; thyroidectomy is the commonest cause of bilateral paralysis.
 
-# Recurrent nerve paralysis | One or both.
-## Unilateral
-All intrinsic muscles on that side are paralysed except cricothyroid, and the fold lies median or paramedian. About a third of patients have no symptoms; others have a weak, breathy voice that tires, diplophonia, loss of projection and range, and sometimes aspiration of thin liquids. The voice often improves over months as the healthy fold learns to cross the midline.
-## Bilateral (bilateral abductor paralysis)
-Usually after thyroidectomy, or neuritis. Both folds lie median or paramedian, held by the unopposed cricothyroids: *the voice is good but the airway is poor*, with stridor and dyspnoea that worsen on exertion and with any respiratory infection, sometimes requiring an emergency tracheostomy.
-!pearl The paradox
-Bilateral recurrent palsy gives a good voice and a bad airway; bilateral combined palsy gives a bad voice, no airway problem and dangerous aspiration.
+# Pathophysiology | Positions of the cord.
+!fig d60-2 | Positions of the vocal folds: median, paramedian, intermediate (cadaveric), slight abduction and full abduction.
+!table Positions of the vocal fold
+Position | Distance from midline | In health | In disease
+Median | 0 | Phonation | Recurrent nerve paralysis
+Paramedian | 1.5 mm | Strong whisper | Recurrent nerve paralysis
+Intermediate (cadaveric) | 3.5 mm | Neutral resting position | Combined recurrent and superior nerve paralysis
+Gentle abduction | 7 mm | Quiet breathing | Paralysis of adductors
+Full abduction | 9.5 mm | Deep inspiration | None
 !!
+## Why the paralysed cord lies near the midline
+- **Semon's law:** in progressive organic lesions the abductor fibres, phylogenetically newer, are affected before the adductors, so the fold first lies near the midline.
+- **Wagner–Grossman hypothesis:** with the recurrent nerve cut and the superior nerve intact, the cricothyroid still adducts the fold slightly into the paramedian position; with both nerves lost the fold lies in the cadaveric position.
+The position also reflects partial or misdirected *regeneration*, which restores tone (and synkinesis) without useful movement; a fold often lies laterally at first and medialises over months.
 
-# Superior laryngeal and combined paralysis | Tension and sensation.
-## Superior laryngeal nerve paralysis
-Paralysis of the cricothyroid with numbness of the supraglottis on that side; usually part of a combined lesion, or the external branch injured in thyroid surgery. The voice is weak and cannot be raised in pitch, which singers notice at once. The glottis looks *askew*, with the anterior commissure rotated to the healthy side; the paralysed fold is shorter, lax and wavy, and flaps (sagging on inspiration, bulging on expiration). Electromyography of the cricothyroid confirms it. Voice therapy.
-- **Bilateral:** paralysis with anaesthesia of the upper larynx causes repeated aspiration, cough and choking, and a weak, husky voice; it may recover after neuritis; tracheostomy with a cuffed tube and tube feeding, and epiglottopexy for persistent aspiration; cricothyroid approximation raises the pitch.
-## Combined (complete) paralysis
-- **Unilateral:** after thyroidectomy injuring both nerves, or with lesions of the nucleus ambiguus or vagus above the origin of the superior laryngeal nerve. The fold lies in the *cadaveric position*, the healthy fold cannot meet it, and the result is a hoarse, breathy voice, aspiration of liquids and a weak cough.
-- **Bilateral:** both folds cadaveric with an insensitive larynx: aphonia, aspiration, inability to cough and recurrent pneumonia. Tracheostomy and gastrostomy, then procedures that protect the lungs: epiglottopexy, vocal fold plication (both reversible), laryngotracheal separation or diversion, and, as a last resort, laryngectomy.
-
-# Evaluation | Paralysis or fixation?
+# Diagnosis | Paralysis or fixation?
 - **Laryngoscopy:** flexible and stroboscopic, observing movement, position, the glottic gap, the level of the folds and arytenoid tilt; confirm with phonation, sniffing and coughing.
 - **Fixation versus paralysis:** posterior glottic scarring, cricoarytenoid arthritis or dislocation and tumour can fix a fold; at direct laryngoscopy the arytenoid is *palpated* for passive mobility.
 - **Laryngeal electromyography:** distinguishes paralysis from fixation, shows synkinesis and helps predict recovery (absent or synkinetic activity predicts poor recovery).
@@ -72,35 +62,78 @@ Paralysis of the cricothyroid with numbness of the supraglottis on that side; us
 - **Blood tests** where indicated (glucose, serology).
 !imaging | Recurrent laryngeal nerve paralysis and thyroid cancer on imaging.
 
-# Treatment | Voice, airway, swallow.
-## Unilateral paralysis
+# Management | Principles and the thyroplasties.
+## Isshiki's thyroplasties
+- **Type I:** medialisation.
+- **Type II:** lateralisation, for the airway.
+- **Type III:** shortening and relaxation, to lower the pitch (mutational falsetto, female-to-male voice).
+- **Type IV:** lengthening and tensing, to raise the pitch (male-to-female voice, bowed or lax folds).
+!ops | Injection, medialisation, intraoperative medialisation, bilateral immobility and protection of the nerve.
+## Protecting the nerve
+!update Current evidence
+**Thyroid surgery.** The American guideline recommends documenting voice before thyroidectomy, laryngoscopy before surgery if voice is impaired or there is a cancer with possible extrathyroidal spread, and laryngoscopy after surgery when the voice has changed (Chandrasekhar et al., *Otolaryngol Head Neck Surg* 2013). Intraoperative nerve monitoring helps identify the nerve and, with staged surgery when signal is lost on the first side, avoids most bilateral palsies.
+!!
+
+# Unilateral recurrent nerve paralysis {dz} | The breathy voice.
+## Pathophysiology
+All intrinsic muscles on that side are paralysed except cricothyroid, and the fold lies median or paramedian.
+## Clinical features
+About a third of patients have no symptoms; others have a weak, breathy voice that tires, diplophonia, loss of projection and range, and sometimes aspiration of thin liquids. The voice often improves over months as the healthy fold learns to cross the midline.
+## Management
 The aim is to close the glottic gap.
 - **Voice therapy** early, while awaiting recovery or compensation over six to twelve months.
 - **Injection laryngoplasty** (medialisation by injection, through the mouth or the neck, awake or under anaesthesia): temporary fillers (carboxymethylcellulose 2 to 3 months, hyaluronic acid 4 to 9 months, collagen) early, even within weeks, especially if aspiration is a problem; longer-lasting calcium hydroxylapatite (about 18 months) and autologous fat (variable survival). Teflon is abandoned because of granulomas.
 - **Type I thyroplasty (medialisation laryngoplasty):** a window in the thyroid lamina and a silastic or Gore-Tex implant in the paraglottic space push the fold medially; done under local anaesthesia so that the voice can be tuned; for permanent paralysis with a gap of a few millimetres and symmetrical arytenoids.
 - **Arytenoid adduction:** a suture through the muscular process rotates the arytenoid inwards, mimicking the lateral cricoarytenoid; for a wide posterior gap, a lateralised vocal process or a level difference; usually with thyroplasty.
 - **Reinnervation:** ansa cervicalis to recurrent nerve anastomosis restores bulk and tone (not movement); useful when the nerve is known to be cut and in children, who would outgrow an implant. In a randomised trial against thyroplasty, overall results were similar, but reinnervation did better under 52 years and thyroplasty better over 52 (Paniello et al., *Laryngoscope* 2011).
-## Bilateral abductor paralysis
+!update Current evidence
+**Early injection.** Early temporary injection laryngoplasty, within six months of onset, was associated with fewer later open framework procedures in a retrospective series (Friedman et al., *Laryngoscope* 2010). **Assessment.** An international consensus recommends a minimum voice assessment for unilateral paralysis: videolaryngostroboscopy, perceptual rating (GRBAS), maximum phonation time and the Voice Handicap Index (Mattei et al., *Eur Ann Otorhinolaryngol Head Neck Dis* 2018).
+!!
+
+# Bilateral abductor paralysis {dz} | Good voice, poor airway.
+## Etiology
+Usually after thyroidectomy, or neuritis.
+## Clinical features
+Both folds lie median or paramedian, held by the unopposed cricothyroids: *the voice is good but the airway is poor*, with stridor and dyspnoea that worsen on exertion and with any respiratory infection, sometimes requiring an emergency tracheostomy.
+## Management
 The aim is an airway without ruining the voice; any procedure that widens the glottis worsens the voice.
 - **Tracheostomy** ([[t:trach]])**:** the safest, the gold standard; the voice is preserved with finger occlusion or a speaking valve.
 - **Endoscopic glottic widening:** *posterior transverse cordotomy* (Kashima), cutting the fold off the vocal process with the laser; *partial medial arytenoidectomy*; suture *lateralisation* of the fold; repeated if needed.
 - Older external procedures: arytenoidectomy and arytenoidopexy (Woodman), and type II thyroplasty.
 - Botulinum toxin to the adductors (temporary); reinnervation and laryngeal pacing (selected, experimental).
 - In the first months after thyroidectomy, a temporary tracheostomy and waiting is wise, since many palsies recover.
-!ops | Injection, medialisation, intraoperative medialisation, bilateral immobility and protection of the nerve.
-## Isshiki's thyroplasties
-- **Type I:** medialisation.
-- **Type II:** lateralisation, for the airway.
-- **Type III:** shortening and relaxation, to lower the pitch (mutational falsetto, female-to-male voice).
-- **Type IV:** lengthening and tensing, to raise the pitch (male-to-female voice, bowed or lax folds).
-!update Current evidence
-**Early injection.** Early temporary injection laryngoplasty, within six months of onset, was associated with fewer later open framework procedures in a retrospective series (Friedman et al., *Laryngoscope* 2010). **Assessment.** An international consensus recommends a minimum voice assessment for unilateral paralysis: videolaryngostroboscopy, perceptual rating (GRBAS), maximum phonation time and the Voice Handicap Index (Mattei et al., *Eur Ann Otorhinolaryngol Head Neck Dis* 2018). **Thyroid surgery.** The American guideline recommends documenting voice before thyroidectomy, laryngoscopy before surgery if voice is impaired or there is a cancer with possible extrathyroidal spread, and laryngoscopy after surgery when the voice has changed (Chandrasekhar et al., *Otolaryngol Head Neck Surg* 2013). Intraoperative nerve monitoring helps identify the nerve and, with staged surgery when signal is lost on the first side, avoids most bilateral palsies.
-!!
 
-# Congenital paralysis | In infants.
-Unilateral (birth trauma, cardiac and great vessel anomalies, cardiac surgery) gives a weak cry and feeding problems; bilateral (Arnold–Chiari malformation, hydrocephalus, birth haemorrhage, meningocele) gives stridor needing tracheostomy. Many recover; definitive surgery is delayed ([[t:lxcong]]).
+# Superior laryngeal nerve paralysis {dz} | Tension and sensation.
+## Etiology and pathophysiology
+Paralysis of the cricothyroid with numbness of the supraglottis on that side; usually part of a combined lesion, or the external branch injured in thyroid surgery.
+## Clinical features
+The voice is weak and cannot be raised in pitch, which singers notice at once. The glottis looks *askew*, with the anterior commissure rotated to the healthy side; the paralysed fold is shorter, lax and wavy, and flaps (sagging on inspiration, bulging on expiration).
+## Diagnosis
+Electromyography of the cricothyroid confirms it.
+## Management
+Voice therapy.
+## Bilateral superior laryngeal paralysis
+Paralysis with anaesthesia of the upper larynx causes repeated aspiration, cough and choking, and a weak, husky voice; it may recover after neuritis.
+### Management
+Tracheostomy with a cuffed tube and tube feeding, and epiglottopexy for persistent aspiration; cricothyroid approximation raises the pitch.
 
-# For the examination | What the examiner wants to hear.
+# Combined paralysis {dz} | Both nerves on a side.
+## Unilateral
+After thyroidectomy injuring both nerves, or with lesions of the nucleus ambiguus or vagus above the origin of the superior laryngeal nerve. The fold lies in the *cadaveric position*, the healthy fold cannot meet it, and the result is a hoarse, breathy voice, aspiration of liquids and a weak cough.
+## Bilateral
+Both folds cadaveric with an insensitive larynx: aphonia, aspiration, inability to cough and recurrent pneumonia.
+### Management
+Tracheostomy and gastrostomy, then procedures that protect the lungs: epiglottopexy, vocal fold plication (both reversible), laryngotracheal separation or diversion, and, as a last resort, laryngectomy.
+
+# Congenital paralysis {dz} | In infants.
+## Unilateral
+Unilateral (birth trauma, cardiac and great vessel anomalies, cardiac surgery) gives a weak cry and feeding problems.
+## Bilateral
+Bilateral (Arnold–Chiari malformation, hydrocephalus, birth haemorrhage, meningocele) gives stridor needing tracheostomy.
+## Management
+Many recover; definitive surgery is delayed ([[t:lxcong]]).
+
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Nerve supply** and why the left recurrent nerve is more often paralysed.
@@ -116,3 +149,18 @@ Unilateral (birth trauma, cardiac and great vessel anomalies, cardiac surgery) g
 - Treating a fixed arytenoid as a paralysis without palpation or electromyography.
 - Doing an irreversible glottic widening soon after thyroidectomy when the nerve may recover.
 !!
+## Related topics
+- [[t:lxanat]], [[t:thyroid]], [[t:trach]], [[t:voice]], [[t:lxcong]], [[t:ap_hoarse]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapters 47 and 71.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 8.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 12.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapter 60.
+- K. J. Lee, *Essential Otolaryngology*, chapter 50.
+## Studies cited
+- Paniello et al., *Laryngoscope* 2011: reinnervation versus thyroplasty.
+- Friedman et al., *Laryngoscope* 2010: early injection laryngoplasty.
+- Mattei et al., *Eur Ann Otorhinolaryngol Head Neck Dis* 2018: consensus on voice assessment.
+- Chandrasekhar et al., *Otolaryngol Head Neck Surg* 2013: AAO-HNS guideline on voice and thyroid surgery.
