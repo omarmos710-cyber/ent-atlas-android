@@ -91,18 +91,21 @@ async function post(items){const V=new Map();const W={t:10,k:5,b:2};let n=0;
  const vocab=[...V.keys()].sort();IX={items,V,vocab};return IX}
 async function ready(){if(IX)return IX;if(!BUILDING)BUILDING=needData().then(build).then(post).then(ix=>{smartLoad();return ix});return BUILDING}
 /* ---------- smart search (search/xsmart.js): questions such as "hashimoto treatment", answered offline ---------- */
-let SMART=null,SMARTP=null;
+let SMART=null,SMARTP=null,SMX=[],IXQ=null;
+/* question-bank answers open inline, like the question rows below them */
+function ixq(id){if(!IXQ){IXQ=new Map();for(const it of IX.items){const o=it.qz||it.qb||it.qc||it.card;if(o&&o.id)IXQ.set(o.id,it.i)}}return IXQ.get(id)}
 function smartLoad(){if(SMARTP)return SMARTP;SMARTP=(async()=>{try{
-  if(!window.XSMART)await loadJS("search/xsmart.js");if(!window.XSM)await loadJS("search/sm_meta.js");
+  if(!window.XSMART)await loadJS("search/xsmart.js");if(!window.XSM)await loadJS("search/sm_meta.js");if(!window.XSMQ)await loadJS("search/sm_q.js").catch(()=>{window.XSMQ=[]});
   const [a,b]=await Promise.all(["search/sm_tok.bin","search/sm_vec.bin"].map(u=>fetch(u).then(r=>{if(!r.ok)throw new Error(u);return r.arrayBuffer()})));
-  XSMART.setModel(window.XSM,a,b);window.XSM.vocab=null;await new Promise(r=>setTimeout(r,0));if(XSMART.buildDocs(window.XFULL||[]))SMART=XSMART;
+  XSMART.setModel(window.XSM,a,b);window.XSM.vocab=null;await new Promise(r=>setTimeout(r,0));SMX=(window.XFULL||[]).concat(window.XSMQ||[]);if(XSMART.buildDocs(SMX))SMART=XSMART;
   const box=document.getElementById("xres");if(box&&box.isConnected&&currentQ().trim().length>=2)run(currentQ(),box)}catch(e){SMART=null}})();return SMARTP}
 function smartFor(q){if(!SMART||q.trim().split(/\s+/).length<2)return null;try{return SMART.search(q,{n:5,perArticle:2})}catch(e){return null}}
-function smartHTML(S,words){if(!S||!S.list.length)return "";const X=window.XFULL||[];const P=S.P;
+function smartHTML(S,words){if(!S||!S.list.length)return "";const X=SMX;const P=S.P;
  const hw=[...new Set(words.concat(SMART.toks(P.topic+" "+(P.soft||"")).filter(t=>t.length>=3)))];
  const asp=P.aspects.map(a=>`<i class="xt xt-sec">${E(a.label)}</i>`).join("");
- const head=`<p class="xsmq">Understood as ${asp}<b>${E(P.topic)}</b>${P.abbr&&P.abbr.length?` <small>(${P.abbr.map(([a,b])=>E(a.toUpperCase())+" = "+E(b)).join(", ")})</small>`:""}</p>`;
+ const head=`<p class="xsmq">Understood as ${asp}<b>${E(P.topic)}</b>${P.abbr&&P.abbr.length?` <small>(${P.abbr.map(([a,b])=>E(a.toUpperCase())+" = "+E(b)).join(", ")})</small>`:""}${P.fixed&&P.fixed.length?` <small>(spelling: ${P.fixed.map(([a,b])=>E(a)+" → "+E(b)).join(", ")})</small>`:""}</p>`;
  const rows=S.list.map(r=>{const x=X[r.i];if(!x)return "";const [ty,route,t,where]=x;const sn=(r.snip||"").trim();const sn2=sn.length>230?sn.slice(0,230).replace(/\s+\S*$/,"")+"…":sn;
+  if(route.startsWith("qb:")){const k=ixq(route.slice(3));if(k===undefined)return "";return `<div class="xr"><button class="xrh" data-xexp="${k}"><span class="xm"><span class="xp"><i class="xt xt-${ty}">${E(TYPES[ty]?TYPES[ty][0]:"")}</i>${E(where.replace(/^(Questions|Flashcards) · /,""))}</span><b>${hl(t,hw)}</b>${sn2?`<small>${hl(sn2,hw)}</small>`:""}</span><span class="xplus" aria-hidden="true">+</span></button><div class="xb" hidden></div></div>`}
   return `<div class="xr"><button class="xrh" data-go="${E(route)}"><span class="xm"><span class="xp"><i class="xt xt-${ty}">${E(TYPES[ty]?TYPES[ty][0]:"")}</i>${E(where)}</span><b>${hl(t,hw)}</b>${sn2?`<small>${hl(sn2,hw)}</small>`:""}</span>${ic("chev",16)}</button></div>`}).join("");
  return `<section class="xg xsmart"><h2>Answers</h2>${head}<div class="xl">${rows}</div></section>`}
 

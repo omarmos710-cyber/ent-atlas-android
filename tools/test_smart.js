@@ -5,7 +5,7 @@ const fs=require("fs"),path=require("path");
 const W=path.join(__dirname,"..","app","src","main","assets","www","search");
 const S=require(path.join(W,"xsmart.js"));
 const lj=(f,o,c)=>{const s=fs.readFileSync(path.join(W,f),"utf8");return JSON.parse(s.slice(s.indexOf(o),s.lastIndexOf(c)+1))};
-const X=lj("full.js","[","]");
+const X=lj("full.js","[","]").concat(lj("sm_q.js","[","]"));
 S.setModel(lj("sm_meta.js","{","}"),fs.readFileSync(path.join(W,"sm_tok.bin")).buffer,fs.readFileSync(path.join(W,"sm_vec.bin")).buffer);
 if(!S.buildDocs(X)){console.log("smart search vectors do not match search/full.js: run tools/build_smart.py");process.exit(1)}
 const T=[
@@ -42,6 +42,12 @@ const T=[
  ["nerve supply of the larynx",["Recurrent laryngeal nerve","Nerve supply"]],
  ["dizzy when turning in bed",["BPPV"]],
  ["nosebleed in a child",["Epistaxis"]],
+ ["hashimto tretment",["Thyroiditis"]],
+ ["sings of acute otitis media",["Acute otitis media › Clinical picture"]],
+ ["complciations of tonsilectomy",["Tonsillectomy"]],
+ ["tretment of alergic rinitis",["Allergic rhinitis › Treatment"]],
+ ["symptons of nasopharyngel carcinoma",["Nasopharyngeal carcinoma"]],
+ ["viva questions on facial palsy",["viva › How do you manage Bell's palsy"]],
 ];
 let ok=0;
 for(const [q,want] of T){const r=S.search(q,{n:3});const got=r.list.map(x=>{const d=S.doc(x.i);return d.where+" › "+d.title});

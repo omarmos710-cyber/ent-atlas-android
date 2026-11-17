@@ -85,7 +85,7 @@ const LAY=[["nose bleed","epistaxis"],["nosebleed","epistaxis"],["nosebleeds","e
 const CONCEPT=[[/recurrent laryngeal nerve (injury|palsy|damage|paralysis|lesion|trauma)|(injury|palsy|damage) (of|to) (the )?recurrent laryngeal nerve/,"vocal fold paralysis recurrent nerve paralysis hoarseness"],
  [/facial nerve (injury|damage|lesion|paralysis|weakness)/,"facial palsy"],[/post ?tonsillectomy (bleed|bleeding|haemorrhage|hemorrhage)|bleeding after tonsillectomy/,"post-tonsillectomy haemorrhage secondary haemorrhage"],
  [/hypocalcaemia after thyroidectomy|post ?thyroidectomy hypocalc/,"hypoparathyroidism calcium"],[/swallowed|ingested/,"foreign body"],[/sinusitis/,"rhinosinusitis"],[/vocal cord/,"vocal fold"],[/(cancer|carcinoma|tumou?r) of the (\w+)/,"$2 cancer"]];
-const FILLER=new Set("a an the of and or in on at to for with by from please tell me about give list explain describe ent its this that those these patient patients case cases is are was were be does do did when where which who whom what how much many can could should would will must best most more get gets got usually commonly common typical typically important main".split(" "));
+const FILLER=new Set("a an the of and or in on at to for with by from please tell me about give list explain describe ent its this that those these patient patients case cases is are was were be does do did when where which who whom what how much many can could should would will must best most more get gets got usually commonly common typical typically important main you your would i we me us".split(" "));
 
 /* ---------- model ---------- */
 let M=null;
@@ -133,7 +133,12 @@ function bm25(qt,soft){const {docs,inv,avg}=D;const sc=new Map(),hit=new Map();c
 
 /* ---------- question parsing ---------- */
 const ASPQ=ASPECTS.flatMap(a=>a.q.map(p=>[fold(p),a])).sort((x,y)=>y[0].length-x[0].length);
-function parse(q){let s=" "+fold(q).replace(/[?.,;:!]/g," ").replace(/\s+/g," ").trim()+" ";const aspects=[];
+/* misspelt aspect words ("sings", "managment", "complciations") are put right before parsing */
+const ASPW=[...new Set(ASPECTS.flatMap(a=>a.q).filter(p=>!p.includes(" ")&&p.length>=5))];
+function fixAspectWords(s,fixed){return s.split(" ").map(w=>{if(w.length<4||ASPW.includes(w))return w;let best=null,bd=9;
+ for(const a of ASPW){const max=a.length>=8?2:1;if(Math.abs(a.length-w.length)>max)continue;const e=edit(w,a,max);if(e<=max&&e<bd){bd=e;best=a}}
+ if(best&&!(D&&(surface(),SURFW.has(w)))){fixed.push([w,best]);return best}return w}).join(" ")}
+function parse(q){const fixedA=[];let s=" "+fixAspectWords(fold(q).replace(/[?.,;:!]/g," ").replace(/\s+/g," ").trim(),fixedA)+" ";const aspects=[];
  for(const [a,b] of LAY){const re=new RegExp(" "+a.replace(/[-'\/\\^$*+?.()|[\]{}]/g,"\\$&")+" ","g");s=s.replace(re," "+b+" ")}
  for(const [p,a] of ASPQ){const re=new RegExp(" "+p.replace(/[-\/\\^$*+?.()|[\]{}]/g,"\\$&")+" ","g");if(re.test(s)){if(!aspects.includes(a))aspects.push(a);if(!a.keep)s=s.replace(re," ")}}
  let words=s.split(" ").filter(w=>w&&!FILLER.has(w));
@@ -143,7 +148,7 @@ function parse(q){let s=" "+fold(q).replace(/[?.,;:!]/g," ").replace(/\s+/g," ")
  let topic=expanded.join(" ").trim();
  if(!topic&&aspects.length){topic=aspects.map(a=>a.label).join(" ");aspects.length=0}
  const soft=[];for(const [re,x] of CONCEPT){const m=topic.match(re);if(m)soft.push(x.replace(/\$(\d)/g,(_,k)=>m[+k]||""))}
- return {topic,soft:soft.join(" "),aspects,abbr:abbrUsed,raw:q}}
+ return {topic,soft:soft.join(" "),aspects,abbr:abbrUsed,raw:q,fixed:fixedA}}
 
 /* ---------- search ---------- */
 function core(P,topic,softText){
@@ -164,7 +169,7 @@ function core(P,topic,softText){
   sm*=.45+.55*Math.min(1,cov*1.2);
   let asp=0;if(P.aspects.length){for(const a of P.aspects){let x=0;if(d.exam)x=0;else if(a.h.test(fold(d.title)))x=1;else if(a.h.test(fold(d.chap)))x=.85;if(x>asp)asp=x}}
   let pen=1;if(/^(viva essentials|common pitfalls|consent|crisis drills|skills to sign off|before you start|the case at a glance|where the books differ|summary)$/i.test(d.title))pen=.72;
-  if(d.ty==="ev")pen*=.85;
+  if(d.ty==="ev")pen*=.85;if(d.ty==="q"||d.ty==="viva"||d.ty==="card")pen*=.82;
   out.push({i:d.i,j,s:(.42*l*(.6+.4*cov)+.40*sm+(P.aspects.length?.30*asp:0))*pen,lex:l,sem:sm,asp,cov,pen,chunk:best.get(j)})}
  out.sort((a,b)=>b.s-a.s);
  /* passages: in the leading sections, find where the topic words and the aspect meet (a window of two chunks),
@@ -178,7 +183,21 @@ function core(P,topic,softText){
   let ah=0;qset.forEach(t=>{if(d.at.has(t))ah+=qw.get(t)});r.art=ah/qwt;
   r.pas=pbest;r.focus=focus;if(pbest>0)r.chunk=pj;r.s+=(.12*Math.min(2,pbest)+.18*focus+.25*r.art)*r.pen}
  return out}
+/* spelling: a topic word that is in no section is replaced by the closest word that is (one or two letters off) */
+let SURF=null,SURFW=null;
+function surface(){if(SURF)return SURF;SURF=new Map();const seen=new Map();SURFW=seen;
+ for(const d of D.docs)for(const w of fold(d.title+" "+d.body).split(/[^a-z0-9]+/)){if(w.length<3||seen.has(w))continue;seen.set(w,1);const c=cw(w);if(!c)continue;const l=SURF.get(c[0])||SURF.set(c[0],new Map()).get(c[0]);if(!l.has(c))l.set(c,w)}
+ return SURF}
+function edit(a,b,max){if(Math.abs(a.length-b.length)>max)return max+1;const n=b.length;let pp=null,p=[...Array(n+1).keys()],c;
+ for(let i=1;i<=a.length;i++){c=new Array(n+1);c[0]=i;let mn=i;for(let j=1;j<=n;j++){let v=Math.min(p[j]+1,c[j-1]+1,p[j-1]+(a[i-1]===b[j-1]?0:1));
+  if(pp&&i>1&&j>1&&a[i-1]===b[j-2]&&a[i-2]===b[j-1])v=Math.min(v,pp[j-2]+1);c[j]=v;if(v<mn)mn=v}if(mn>max)return max+1;pp=p;p=c}return p[n]}
+function correct(topic){const fixed=[];const words=topic.split(" ").map(w=>{const t=toks(w);if(t.length!==1)return w;const k=t[0];if(k.length<4||D.inv.has(k)||/\d/.test(k))return w;
+  const S=surface();const max=k.length>=8?2:1;let best=null,bd=9,bn=0;
+  for(const first of new Set([k[0],k[1]])){const l=S.get(first);if(!l)continue;for(const [c,surf] of l){if(Math.abs(c.length-k.length)>max)continue;const e=edit(k,c,max);if(e>max)continue;const n=(D.inv.get(c)||[]).length;if(e<bd||(e===bd&&n>bn)){bd=e;bn=n;best=surf}}}
+  if(best){fixed.push([w,best]);return best}return w});
+ return {topic:words.join(" "),fixed}}
 function search(q,opt){opt=opt||{};if(!M||!D)return null;const P=parse(q);if(!P.topic)return {P,list:[]};
+ {const c=correct(P.topic);if(c.fixed.length){P.topic=c.topic;P.fixed=(P.fixed||[]).concat(c.fixed);const re=CONCEPT;const soft=[];for(const [r,x] of re){const m=P.topic.match(r);if(m)soft.push(x.replace(/\$(\d)/g,(_,k)=>m[+k]||""))}P.soft=soft.join(" ")}}
  let out=core(P,P.topic,P.soft);
  /* a clinical equivalent ("RLN injury" = "vocal fold paralysis") is searched as a second topic and the better score kept */
  if(P.soft){const by=new Map(out.map(r=>[r.j,r]));for(const r of core(P,P.soft,P.topic)){r.s*=.95;const o=by.get(r.j);if(!o||r.s>o.s)by.set(r.j,r)}out=[...by.values()]}
