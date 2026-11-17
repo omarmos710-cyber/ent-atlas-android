@@ -1,4 +1,8 @@
+@layout amboss
 @stand Most salivary swellings are not tumours. A child with painful, swollen cheeks has mumps; an old, dehydrated patient after surgery with a hot, tender parotid and pus at the duct has suppurative parotitis; a man whose submandibular gland swells every time he eats has a stone. Know the glands and their ducts, recognise the patterns of swelling (acute or recurrent, painful or painless, one gland or all), and remember that a persistent, firm lump in one gland is a tumour until proved otherwise.
+
+# Summary | Most salivary swellings are not tumours.
+Recognise the patterns: acute or recurrent, painful or painless, one gland or all. Each condition has its own chapter, from [[@Mumps]] and [[@Sialolithiasis]] to [[@Sjögren syndrome]]. Tumours are covered in [[t:saltum]].
 
 # Applied anatomy | Three pairs of glands and hundreds of small ones.
 ## Parotid gland
@@ -15,10 +19,10 @@ In the digastric triangle, wrapped round the back of the mylohyoid: a large supe
 ## Sublingual and minor glands
 The sublingual glands lie under the floor of mouth mucosa above the mylohyoid, draining by many small ducts (of Rivinus), some into Wharton's duct (Bartholin's duct). Six hundred to a thousand minor salivary glands line the mouth, palate (most), pharynx, larynx and sinuses.
 !anat s177_35 s192_67 | The major salivary glands and their ducts, and the sublingual and submandibular glands with their ducts.
-## Saliva
+## Physiology: saliva
 About a litre to a litre and a half a day. At rest, most comes from the submandibular glands (more mucinous, richer in calcium); when stimulated by taste or smell, the parotids (serous, watery) supply most. Saliva lubricates, begins starch digestion (amylase), buffers acid (bicarbonate), protects teeth and kills microbes (IgA, lysozyme, lactoferrin). Flow is driven mainly by parasympathetic stimulation; dehydration, anticholinergic drugs, radiotherapy and age reduce it.
 
-# Assessment | History, examination, imaging.
+# Diagnosis | History, examination, imaging.
 ## History and examination
 Which gland, one or both sides; acute or recurrent; pain and swelling with meals (obstruction); fever and pus (infection); dry eyes and mouth (Sjögren); drugs, alcohol, diabetes; and red flags for tumour (persistent mass, facial weakness, pain, skin fixation, nodes). Inspect and milk the duct orifices, and palpate *bimanually* the submandibular gland and floor of mouth (stones are often felt along the duct). Test the facial nerve.
 ## Imaging
@@ -30,64 +34,7 @@ Which gland, one or both sides; acute or recurrent; pain and swelling with meals
 - **Sialendoscopy:** both diagnosis and treatment.
 - **Scintigraphy (technetium pertechnetate):** gland function; uptake in Warthin tumour and oncocytoma.
 
-# Infections | Viral and bacterial.
-## Mumps (epidemic parotitis)
-A paramyxovirus spread by droplets, saliva and urine; mostly children of four to six years in unvaccinated populations; incubation two to three weeks, infectious from before the swelling to about a week after.
-- **Features:** fever, malaise and muscle pains, then painful swelling of one parotid and usually, within days, the other; sometimes the submandibular glands; swelling settles in about a week.
-- **Complications:** orchitis (painful testis, usually one-sided; sterility rare), oophoritis, pancreatitis, aseptic meningitis and encephalitis, *unilateral sensorineural deafness*, sometimes sudden ([[t:ssnhl]]), thyroiditis, myocarditis, nephritis and arthritis.
-- **Diagnosis:** clinical; raised serum and urinary amylase; IgM or rising IgG serology, or PCR.
-- **Treatment:** supportive: fluids, rest, analgesics, warm or cold compresses, avoiding sour foods; support for orchitis.
-- **Prevention:** MMR vaccine.
-## Acute suppurative sialadenitis
-Usually the parotid, in the elderly, dehydrated and debilitated, after abdominal or hip surgery, and with a dry mouth from drugs: stasis of saliva lets mouth bacteria ascend Stensen's duct. *Staphylococcus aureus* (including MRSA), streptococci and anaerobes.
-- Sudden, severe pain and swelling, worse on chewing, fever and toxicity; the duct orifice is red and swollen and pus can be milked from it.
-- Treatment: rehydration, intravenous antibiotics covering staphylococci and anaerobes, sialogogues (lemon drops), massage from back to front, oral hygiene. Ultrasound or CT if it does not settle; an abscess (often hard to feel through the fascia) is drained through a parotidectomy incision with radial incisions in the line of the facial nerve branches.
-!fig d45-1 | Acute suppurative parotitis on the left in a 58-year-old woman.
-## Neonatal and childhood parotitis
-Neonatal suppurative parotitis in premature babies (staphylococcal). *Juvenile recurrent parotitis*: recurrent swelling, often one-sided, in children aged three to ten without pus, with punctate sialectasis on imaging; usually remits at puberty; antibiotics during attacks, and sialendoscopic lavage with steroid.
-## Chronic recurrent sialadenitis and sialectasis
-Recurrent painful swelling with pus during attacks and a firm, slightly enlarged gland between them, from duct obstruction, strictures, stones and reduced flow. Sialography shows ductal dilatation (punctate, globular or cavitary *sialectasis*) or strictures. Treat attacks with antibiotics; between them, hydration, oral hygiene, sialogogues and avoiding drying drugs; sialendoscopy to dilate strictures and wash out plugs; gland excision for persistent symptoms. The *Küttner tumour* (chronic sclerosing sialadenitis, part of IgG4-related disease) can mimic a submandibular neoplasm.
-## Granulomatous infections
-- **Tuberculosis:** of the parotid (often its intraglandular nodes) or submandibular gland, as an acute sialadenitis or a chronic mass mimicking tumour, sometimes with skin changes or sinuses. Diagnosis by FNA (granulomas, acid-fast bacilli, culture) and tuberculin testing; antituberculous treatment.
-- **Atypical mycobacteria:** in children of one to three years (one to five in some texts; [[t:neckmass]]), a painless mass with a violaceous skin and sinus formation, a negative chest film and weak tuberculin reaction; excision or curettage.
-- **Actinomycosis:** after dental infection; a woody swelling with sinuses discharging sulphur granules; prolonged penicillin.
-- **Cat-scratch disease** (*Bartonella*) and **toxoplasmosis** cause periparotid and cervical lymphadenitis.
-!imaging sialadenitis | Sialadenitis on imaging.
-
-# Sialolithiasis | Stones.
-## Pathology
-Calcium phosphate (hydroxyapatite) deposited on a nidus of mucus or debris. About 80 to 90% occur in the *submandibular* system, because its saliva is more alkaline, viscous and calcium-rich and its duct is long and runs uphill; about 10% in the parotid (often in the gland), rarely the sublingual.
-## Features
-Pain and swelling of the gland at mealtimes (*salivary colic*), subsiding over an hour or two; recurrent infection with pus at the orifice; a stone may be seen at the papilla or felt along the duct bimanually.
-!fig d45-2 d45-3 | First, (A) an adult with submandibular sialadenitis (arrow) and (B) a radio-opaque stone in the submandibular gland on a lateral radiograph. Second, a radio-opaque stone in the right submandibular duct on an occlusal film.
-## Diagnosis
-Plain and occlusal films (radio-opaque stones), ultrasound, non-contrast CT, and sialography or MR sialography for radiolucent stones and strictures.
-## Treatment
-- **Small stones near the orifice:** conservative (hydration, sialogogues, massage) may pass them.
-- **Stones in the anterior or middle duct:** intraoral *sialolithotomy*: a stay suture behind the stone to stop it slipping back, an incision over it along the duct, protecting the lingual nerve, and marsupialisation.
-- **Sialendoscopy:** small stones (under about 5 mm) retrieved with a basket; larger ones fragmented by laser or extracorporeal lithotripsy; combined endoscopic and transoral approaches remove many hilar stones while keeping the gland.
-- **Gland excision:** for stones in the hilum or parenchyma that cannot be reached, and for a gland destroyed by recurrent infection.
-!imaging sialolith-of-the-submandibular-gland | A submandibular sialolith on imaging.
-!ops 88 91 | Sialendoscopy, and excision of the submandibular gland.
-
-# Systemic and autoimmune | Bilateral swelling and a dry mouth.
-## Sjögren syndrome
-An autoimmune exocrinopathy with lymphocytic destruction of the salivary and lacrimal glands, mostly in women.
-- **Primary:** dry mouth (xerostomia) and dry eyes (keratoconjunctivitis sicca), with parotid enlargement.
-- **Secondary:** sicca features with another connective tissue disease, usually rheumatoid arthritis or lupus.
-- **Diagnosis:** Schirmer test, anti-Ro (SS-A) and anti-La (SS-B) antibodies, rheumatoid factor and ANA, and *labial minor salivary gland biopsy* showing focal lymphocytic infiltrates; the gland shows a benign lymphoepithelial lesion (formerly Mikulicz disease).
-- **Treatment:** saliva substitutes, frequent sips, sialogogues (pilocarpine, cevimeline), dental care, artificial tears.
-!flag Lymphoma in Sjögren syndrome
-The risk of non-Hodgkin lymphoma (usually MALT lymphoma of the parotid) is greatly increased. A new, firm or enlarging mass in a Sjögren gland is biopsied.
-!!
-## Sarcoidosis
-Bilateral painless parotid swelling; *Heerfordt syndrome* (uveoparotid fever) combines parotitis, uveitis, fever and facial palsy ([[t:facial]]). Steroids.
-## HIV
-Bilateral parotid enlargement ([[t:hivent]]) from *benign lymphoepithelial cysts* and lymphoid hyperplasia, sometimes the presenting sign of HIV; a sicca picture (diffuse infiltrative lymphocytosis syndrome). Antiretroviral treatment, aspiration or sclerotherapy for cosmetically troublesome cysts; a solid mass needs biopsy because of the risk of lymphoma.
-## Sialadenosis (sialosis)
-Painless, symmetrical, non-inflammatory enlargement of the parotids from acinar hypertrophy, with diabetes, alcoholism, malnutrition, bulimia, obesity and drugs. Distinguish from other causes of bilateral swelling by FNA or biopsy; treat the cause.
-## Necrotising sialometaplasia
-An ulcer or swelling of the hard palate (minor salivary glands) after ischaemic injury, mostly in men in their forties, whose pseudoepitheliomatous hyperplasia mimics squamous or mucoepidermoid carcinoma; it heals spontaneously in five to six weeks. Biopsy and wait.
+# Differential diagnosis | Bilateral parotid swelling.
 !table Causes of bilateral parotid swelling
 Group | Examples
 Infective | Mumps, HIV, recurrent parotitis of childhood
@@ -97,17 +44,114 @@ Neoplastic | Warthin tumour (bilateral in some), lymphoma, acinic cell carcinoma
 Drugs | Iodides, phenylbutazone and others
 !!
 
-# Dry and wet mouths | Xerostomia and sialorrhoea.
-## Xerostomia
-From drugs (anticholinergics, antidepressants, antihistamines, diuretics), radiotherapy (irreversible damage above about 25 Gy), Sjögren syndrome, dehydration, diabetes and age. Effects: difficulty chewing, swallowing and speaking, caries, candida and altered taste. Treat with water, saliva substitutes, sugar-free gum, pilocarpine, fluoride and dental care; prevent radiation xerostomia with parotid-sparing IMRT and submandibular gland transfer ([[t:hnrt]]).
-## Sialorrhoea (drooling)
-Drooling is normal up to about four years. Beyond that it is usually caused by poor oral and pharyngeal control, open lips and poor posture, as in cerebral palsy and adult neurological disease, rather than by too much saliva. At rest about 70% of saliva comes from the submandibular glands, the main target of treatment. Separate **anterior drooling** (spilling from the lips) from **posterior drooling** (pooling in the pharynx and aspiration, with cough, night choking and chest infections), because the choice of surgery depends on it. Treatment is stepwise: oral motor training and posture; glycopyrronium or a hyoscine patch; ultrasound-guided botulinum toxin into the submandibular and parotid glands; then surgery: duct ligation, submandibular duct relocation (not in children who aspirate), or bilateral submandibular gland excision for posterior drooling. The techniques are in [[t:mouthminor]].
+# Mumps {dz} | Epidemic parotitis.
+## Etiology and epidemiology
+A paramyxovirus spread by droplets, saliva and urine; mostly children of four to six years in unvaccinated populations; incubation two to three weeks, infectious from before the swelling to about a week after.
+## Clinical features
+- **Features:** fever, malaise and muscle pains, then painful swelling of one parotid and usually, within days, the other; sometimes the submandibular glands; swelling settles in about a week.
+## Diagnosis
+- **Diagnosis:** clinical; raised serum and urinary amylase; IgM or rising IgG serology, or PCR.
+## Management
+- **Treatment:** supportive: fluids, rest, analgesics, warm or cold compresses, avoiding sour foods; support for orchitis.
+- **Prevention:** MMR vaccine.
+## Complications
+- **Complications:** orchitis (painful testis, usually one-sided; sterility rare), oophoritis, pancreatitis, aseptic meningitis and encephalitis, *unilateral sensorineural deafness*, sometimes sudden ([[t:ssnhl]]), thyroiditis, myocarditis, nephritis and arthritis.
 
+# Acute suppurative sialadenitis {dz} | The dehydrated elderly patient.
+## Etiology
+Usually the parotid, in the elderly, dehydrated and debilitated, after abdominal or hip surgery, and with a dry mouth from drugs: stasis of saliva lets mouth bacteria ascend Stensen's duct. *Staphylococcus aureus* (including MRSA), streptococci and anaerobes.
+## Clinical features
+Sudden, severe pain and swelling, worse on chewing, fever and toxicity; the duct orifice is red and swollen and pus can be milked from it.
+!fig d45-1 | Acute suppurative parotitis on the left in a 58-year-old woman.
+## Management
+Treatment: rehydration, intravenous antibiotics covering staphylococci and anaerobes, sialogogues (lemon drops), massage from back to front, oral hygiene. Ultrasound or CT if it does not settle; an abscess (often hard to feel through the fascia) is drained through a parotidectomy incision with radial incisions in the line of the facial nerve branches.
+
+# Neonatal and juvenile recurrent parotitis {dz} | In children.
+Neonatal suppurative parotitis in premature babies (staphylococcal). *Juvenile recurrent parotitis*: recurrent swelling, often one-sided, in children aged three to ten without pus, with punctate sialectasis on imaging; usually remits at puberty; antibiotics during attacks, and sialendoscopic lavage with steroid.
+
+# Chronic recurrent sialadenitis and sialectasis {dz} | Recurrent attacks.
+## Clinical features
+Recurrent painful swelling with pus during attacks and a firm, slightly enlarged gland between them, from duct obstruction, strictures, stones and reduced flow.
+## Diagnosis
+Sialography shows ductal dilatation (punctate, globular or cavitary *sialectasis*) or strictures.
+## Differential diagnosis
+The *Küttner tumour* (chronic sclerosing sialadenitis, part of IgG4-related disease) can mimic a submandibular neoplasm.
+## Management
+Treat attacks with antibiotics; between them, hydration, oral hygiene, sialogogues and avoiding drying drugs; sialendoscopy to dilate strictures and wash out plugs; gland excision for persistent symptoms.
+
+# Granulomatous infections {dz} | Tuberculosis and its mimics.
+- **Tuberculosis:** of the parotid (often its intraglandular nodes) or submandibular gland, as an acute sialadenitis or a chronic mass mimicking tumour, sometimes with skin changes or sinuses. Diagnosis by FNA (granulomas, acid-fast bacilli, culture) and tuberculin testing; antituberculous treatment.
+- **Atypical mycobacteria:** in children of one to three years (one to five in some texts; [[t:neckmass]]), a painless mass with a violaceous skin and sinus formation, a negative chest film and weak tuberculin reaction; excision or curettage.
+- **Actinomycosis:** after dental infection; a woody swelling with sinuses discharging sulphur granules; prolonged penicillin.
+- **Cat-scratch disease** (*Bartonella*) and **toxoplasmosis** cause periparotid and cervical lymphadenitis.
+!imaging sialadenitis | Sialadenitis on imaging.
+
+# Sialolithiasis {dz} | Stones.
+## Pathophysiology
+Calcium phosphate (hydroxyapatite) deposited on a nidus of mucus or debris. About 80 to 90% occur in the *submandibular* system, because its saliva is more alkaline, viscous and calcium-rich and its duct is long and runs uphill; about 10% in the parotid (often in the gland), rarely the sublingual.
+## Clinical features
+Pain and swelling of the gland at mealtimes (*salivary colic*), subsiding over an hour or two; recurrent infection with pus at the orifice; a stone may be seen at the papilla or felt along the duct bimanually.
+!fig d45-2 d45-3 | First, (A) an adult with submandibular sialadenitis (arrow) and (B) a radio-opaque stone in the submandibular gland on a lateral radiograph. Second, a radio-opaque stone in the right submandibular duct on an occlusal film.
+## Diagnosis
+Plain and occlusal films (radio-opaque stones), ultrasound, non-contrast CT, and sialography or MR sialography for radiolucent stones and strictures.
+## Management
+- **Small stones near the orifice:** conservative (hydration, sialogogues, massage) may pass them.
+- **Stones in the anterior or middle duct:** intraoral *sialolithotomy*: a stay suture behind the stone to stop it slipping back, an incision over it along the duct, protecting the lingual nerve, and marsupialisation.
+- **Sialendoscopy:** small stones (under about 5 mm) retrieved with a basket; larger ones fragmented by laser or extracorporeal lithotripsy; combined endoscopic and transoral approaches remove many hilar stones while keeping the gland.
+- **Gland excision:** for stones in the hilum or parenchyma that cannot be reached, and for a gland destroyed by recurrent infection.
+!imaging sialolith-of-the-submandibular-gland | A submandibular sialolith on imaging.
+!ops 88 91 | Sialendoscopy, and excision of the submandibular gland.
 !update Current evidence
-A systematic review of sialendoscopy found gland preservation and symptom relief in about 86% of patients with obstructive salivary disease, with few complications, making it the first-line approach for accessible stones and strictures (Strychowsky et al., *Arch Otolaryngol Head Neck Surg* 2012). The 2016 ACR/EULAR criteria classify primary Sjögren syndrome by weighted points for focal lymphocytic sialadenitis on lip biopsy and anti-Ro antibodies (3 each) and for ocular staining, Schirmer's test and unstimulated salivary flow (1 each), with 4 or more classifying the disease (Shiboski et al., *Arthritis Rheumatol* 2017).
+A systematic review of sialendoscopy found gland preservation and symptom relief in about 86% of patients with obstructive salivary disease, with few complications, making it the first-line approach for accessible stones and strictures (Strychowsky et al., *Arch Otolaryngol Head Neck Surg* 2012).
 !!
 
-# For the examination | What the examiner wants to hear.
+# Sjögren syndrome {dz} | Dry eyes and dry mouth.
+An autoimmune exocrinopathy with lymphocytic destruction of the salivary and lacrimal glands, mostly in women.
+## Subtypes and variants
+- **Primary:** dry mouth (xerostomia) and dry eyes (keratoconjunctivitis sicca), with parotid enlargement.
+- **Secondary:** sicca features with another connective tissue disease, usually rheumatoid arthritis or lupus.
+## Diagnosis
+- **Diagnosis:** Schirmer test, anti-Ro (SS-A) and anti-La (SS-B) antibodies, rheumatoid factor and ANA, and *labial minor salivary gland biopsy* showing focal lymphocytic infiltrates; the gland shows a benign lymphoepithelial lesion (formerly Mikulicz disease).
+!update Current evidence
+The 2016 ACR/EULAR criteria classify primary Sjögren syndrome by weighted points for focal lymphocytic sialadenitis on lip biopsy and anti-Ro antibodies (3 each) and for ocular staining, Schirmer's test and unstimulated salivary flow (1 each), with 4 or more classifying the disease (Shiboski et al., *Arthritis Rheumatol* 2017).
+!!
+## Management
+- **Treatment:** saliva substitutes, frequent sips, sialogogues (pilocarpine, cevimeline), dental care, artificial tears.
+## Complications
+!flag Lymphoma in Sjögren syndrome
+The risk of non-Hodgkin lymphoma (usually MALT lymphoma of the parotid) is greatly increased. A new, firm or enlarging mass in a Sjögren gland is biopsied.
+!!
+
+# Sarcoidosis {dz} | Heerfordt syndrome.
+Bilateral painless parotid swelling; *Heerfordt syndrome* (uveoparotid fever) combines parotitis, uveitis, fever and facial palsy ([[t:facial]]). Steroids.
+
+# HIV-associated salivary disease {dz} | Lymphoepithelial cysts.
+## Clinical features
+Bilateral parotid enlargement ([[t:hivent]]) from *benign lymphoepithelial cysts* and lymphoid hyperplasia, sometimes the presenting sign of HIV; a sicca picture (diffuse infiltrative lymphocytosis syndrome).
+## Management
+Antiretroviral treatment, aspiration or sclerotherapy for cosmetically troublesome cysts; a solid mass needs biopsy because of the risk of lymphoma.
+
+# Sialadenosis {dz} | Painless, symmetrical, non-inflammatory.
+Painless, symmetrical, non-inflammatory enlargement of the parotids from acinar hypertrophy, with diabetes, alcoholism, malnutrition, bulimia, obesity and drugs. Distinguish from other causes of bilateral swelling by FNA or biopsy; treat the cause.
+
+# Necrotising sialometaplasia {dz} | The palatal mimic.
+An ulcer or swelling of the hard palate (minor salivary glands) after ischaemic injury, mostly in men in their forties, whose pseudoepitheliomatous hyperplasia mimics squamous or mucoepidermoid carcinoma; it heals spontaneously in five to six weeks. Biopsy and wait.
+
+# Xerostomia {dz} | The dry mouth.
+## Etiology
+From drugs (anticholinergics, antidepressants, antihistamines, diuretics), radiotherapy (irreversible damage above about 25 Gy), Sjögren syndrome, dehydration, diabetes and age.
+## Clinical features
+Effects: difficulty chewing, swallowing and speaking, caries, candida and altered taste.
+## Management
+Treat with water, saliva substitutes, sugar-free gum, pilocarpine, fluoride and dental care; prevent radiation xerostomia with parotid-sparing IMRT and submandibular gland transfer ([[t:hnrt]]).
+
+# Sialorrhoea {dz} | Drooling.
+## Pathophysiology and clinical features
+Drooling is normal up to about four years. Beyond that it is usually caused by poor oral and pharyngeal control, open lips and poor posture, as in cerebral palsy and adult neurological disease, rather than by too much saliva. At rest about 70% of saliva comes from the submandibular glands, the main target of treatment. Separate **anterior drooling** (spilling from the lips) from **posterior drooling** (pooling in the pharynx and aspiration, with cough, night choking and chest infections), because the choice of surgery depends on it.
+## Management
+Treatment is stepwise: oral motor training and posture; glycopyrronium or a hyoscine patch; ultrasound-guided botulinum toxin into the submandibular and parotid glands; then surgery: duct ligation, submandibular duct relocation (not in children who aspirate), or bilateral submandibular gland excision for posterior drooling. The techniques are in [[t:mouthminor]].
+
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - **Parotid anatomy:** the facial nerve and its landmarks; the course of Stensen's and Wharton's ducts.
@@ -123,3 +167,16 @@ A systematic review of sialendoscopy found gland preservation and symptom relief
 - Calling a firm, persistent parotid lump "chronic parotitis" without imaging and FNA.
 - Injuring the lingual nerve when removing a duct stone.
 !!
+## Related topics
+- [[t:saltum]], [[t:mouthminor]], [[t:hivent]], [[t:neckmass]], [[t:facial]], [[t:hnrt]], [[t:ap_saliv]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 82.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 7.
+- *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 11.
+- Dhingra, *Diseases of Ear, Nose and Throat*, chapter 45.
+- K. J. Lee, *Essential Otolaryngology*, chapter 35.
+## Studies cited
+- Strychowsky et al., *Arch Otolaryngol Head Neck Surg* 2012: systematic review of sialendoscopy.
+- Shiboski et al., *Arthritis Rheumatol* 2017: ACR/EULAR classification criteria for Sjögren syndrome.

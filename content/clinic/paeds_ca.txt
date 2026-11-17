@@ -1,7 +1,7 @@
+@layout amboss
 @stand Most lumps in a child's neck are reactive nodes, and cancer is rare. But when it comes, it is not the squamous carcinoma of adults: it is lymphoma, a sarcoma, a neural tumour or a thyroid cancer, and diagnostic delay is common. The ENT surgeon's job is to recognise the lump that does not behave, image it, take the right tissue in the right way after talking to the oncologist and the pathologist, and keep the airway safe while doing it.
 
-# Overview | Different tumours, different rules.
-## How common
+# Summary | Different tumours, different rules.
 Cancer is still the second commonest cause of death in childhood after trauma, and around 12% of childhood malignancies arise in the head and neck. Squamous cell carcinoma is extremely rare in children.
 !table The malignancies of the child's head and neck
 Tumour | Typical age | Typical presentation
@@ -19,8 +19,9 @@ Oxford Specialist Handbook: lymphoma about 50%, rhabdomyosarcoma 20%, neuroblast
 Both agree that lymphoma leads and squamous carcinoma is rare; the difference reflects the series and the age range counted.
 In practice: think of lymphoma first in a child's malignant neck mass, and of rhabdomyosarcoma and neuroblastoma under 2.
 !!
+Each tumour has its own chapter, starting with [[@Hodgkin lymphoma]].
 
-# Assessment | The lump that does not behave.
+# Clinical features | The lump that does not behave.
 ## History
 Duration and growth, fever, night sweats, weight loss, itching, pain, nasal obstruction or bleeding, one-sided hearing loss or ear discharge, change in the voice or breathing, swallowing, and contact with tuberculosis, travel or HIV.
 ## Examination
@@ -34,6 +35,11 @@ Ears, nose, mouth and teeth, and the whole neck, then the axillae, groins, abdom
 - A one-sided nasal or nasopharyngeal mass, or an aural polyp with facial weakness.
 Any large, rapidly growing or unusual lump needs urgent imaging and tissue.
 !!
+!update Current evidence
+**Referral.** NICE NG12 recommends a very urgent referral for children with unexplained lymphadenopathy that is enlarging, hard, fixed or associated with fever, night sweats, weight loss or hepatosplenomegaly.
+!!
+
+# Diagnosis | Imaging and tissue.
 ## Investigations
 - **Ultrasound** first: it tells cystic from solid, shows the architecture of nodes and guides biopsy.
 - **Chest X-ray** before any general anaesthetic, to look for a **mediastinal mass**.
@@ -50,48 +56,94 @@ Talk to the oncologist and the pathologist *before* the biopsy so that the sampl
 - A deep primary (nasopharynx, sinuses, ear) is biopsied endoscopically or under anaesthetic.
 !ops
 
-# The tumours | What each looks like and how it is treated.
-## Hodgkin lymphoma
-Commonest in adolescents and young adults. Enlarged, rubbery, non-tender nodes, especially supraclavicular; up to a third have fever, night sweats, weight loss or itching. Staged by the Ann Arbor system after CT of the neck, chest, abdomen and pelvis. Treatment is chemotherapy, sometimes with radiotherapy, and the ENT role is the diagnostic biopsy. Early disease is cured in about 90%.
-## Non-Hodgkin lymphoma
-The commonest lymphoma between 2 and 12 years. More often widespread at presentation, it may involve Waldeyer's ring (a unilateral enlarged tonsil) and grow very fast, as in Burkitt lymphoma. Immunophenotyping separates B-cell and T-cell types. Combination chemotherapy is the mainstay; prognosis is poorer than Hodgkin lymphoma but good for early disease.
-!pearl The asymmetrical tonsil
-A child with one tonsil much larger than the other, especially if it grows quickly, looks abnormal, or comes with nodes or systemic symptoms, needs the tonsil removed ([[t:tonsil]]) for histology to exclude lymphoma. Send it fresh.
-!!
-## Rhabdomyosarcoma
-The commonest soft tissue sarcoma of childhood; about 43% occur under 5 years and the head and neck is the commonest site. Histological types are *embryonal* (about 60%, better prognosis, including the botryoid type), *alveolar* (about 20%, worse) and others. Sites are grouped as:
-- **Orbital:** proptosis; the best outlook.
-- **Parameningeal:** nasopharynx, sinuses, middle ear and mastoid, infratemporal fossa; spread to the skull base and meninges is common, so these are unfavourable.
-- **Other head and neck sites:** face, scalp, mouth, neck, larynx.
-In the ear it mimics chronic otitis media with an aural polyp, discharge, bleeding and facial palsy. Treatment is multimodal under a paediatric oncology protocol: biopsy, chemotherapy and radiotherapy, with surgery when the tumour can be removed without disabling loss of function. Five-year survival ranges from about 90% for completely resected disease to about 40% for metastatic disease.
-!flag The aural polyp in a young child
-An aural polyp with bleeding, facial weakness or rapid regrowth in a young child is a rhabdomyosarcoma until proved otherwise. Send every aural polyp for histology.
-!!
-## Neuroblastoma
-The commonest malignancy of infants under 1 year, from neural crest cells of the sympathetic chain. Only about 5% arise in the neck, where it presents as a firm, fixed, non-tender mass with ipsilateral *Horner syndrome* and *heterochromia of the iris*, and sometimes stridor, dysphagia or cranial nerve palsies. Urinary HVA and VMA are raised in about 90%. It is staged with MRI or CT, MIBG and bone scans and bone marrow biopsy. Localised disease is excised; unresectable or metastatic disease is treated with chemotherapy. Cervical neuroblastoma does better than other sites because it is noticed early, and infants under 1 often do well whatever the stage.
-## Thyroid carcinoma
-Mostly papillary carcinoma ([[t:thyroid]]). A thyroid nodule in a child is more likely to be malignant than one in an adult, and children more often present with cervical node and lung metastases, yet survival is excellent. Previous radiation to the neck is a risk factor. *Medullary carcinoma* occurs in multiple endocrine neoplasia type 2, where children with a RET mutation are offered prophylactic thyroidectomy. Management is by a specialist thyroid team: total thyroidectomy with the appropriate neck dissection, and radioiodine for selected patients.
-## Nasopharyngeal carcinoma
-Rare in children ([[t:npc]]), mainly in adolescents, and usually the undifferentiated type associated with Epstein-Barr virus. It presents as in adults with neck nodes, a unilateral middle ear effusion, nasal obstruction or epistaxis and cranial nerve palsies. In a child with a nasopharyngeal mass the differential is rhabdomyosarcoma, non-Hodgkin lymphoma and, in an adolescent boy, [[t:juv|angiofibroma]]. Treatment is chemoradiotherapy.
-## Salivary gland tumours
-At least two thirds of salivary swellings in children are not neoplastic, most commonly mucoceles and sialadenitis, and benign tumours are more often haemangiomas or vascular malformations than adenomas. But a *solitary solid salivary mass* in a child is malignant in more than half (against about a quarter in adults); series that count all solid salivary tumours give up to half ([[t:saltum]]). *Mucoepidermoid carcinoma* is the commonest malignancy (about half), followed by acinic cell carcinoma. The parotid is affected more than the submandibular gland, and rapid growth without infection suggests malignancy. Management follows adult principles: imaging, fine-needle aspiration or core biopsy, and parotidectomy with facial nerve preservation.
-## Other tumours
-Langerhans cell histiocytosis (lytic skull and temporal bone lesions, otorrhoea, nodes; [[t:jaw]]), teratomas and other germ cell tumours, Ewing sarcoma, osteosarcoma, chondrosarcoma, and olfactory neuroblastoma are rare.
-
-# Treatment and after | The team and the long view.
-## The multidisciplinary team
+# Management | The multidisciplinary team.
 Childhood cancer is treated in a paediatric oncology centre under national or international protocols, with paediatric oncologists, radiation oncologists, surgeons, pathologists, radiologists, nurses, psychologists, dietitians and speech therapists. The ENT surgeon diagnoses, secures the airway, provides surgical resection or access when needed, and manages the ear, nose and throat effects of treatment.
-## Late effects
+
+# Complications | Late effects.
 Survivors live for decades with the consequences of treatment, so follow-up is long term.
 - **Radiotherapy to the head and neck:** impaired growth of bone and teeth, facial asymmetry, Eustachian tube dysfunction and glue ear, sensorineural hearing loss, cataract, hypothyroidism, pituitary dysfunction, osteoradionecrosis and second cancers.
 - **Cisplatin:** permanent high-frequency hearing loss, worse in young children; monitor hearing during and after treatment ([[t:hnrt]]).
 - **Surgery:** cosmetic deformity, cranial nerve deficits, swallowing and speech problems.
 - **Psychological and educational** effects for the child and family.
 !update Current evidence
-**Referral.** NICE NG12 recommends a very urgent referral for children with unexplained lymphadenopathy that is enlarging, hard, fixed or associated with fever, night sweats, weight loss or hepatosplenomegaly. **Thyroid cancer in children.** The ATA paediatric guideline recommends total thyroidectomy for most differentiated cancers because they are more often multifocal and node-positive than in adults, with radioactive iodine selected by risk, and genetic testing for medullary carcinoma (*RET*) in at-risk families, with prophylactic thyroidectomy timed by the mutation (Francis et al., *Thyroid* 2015). **Late effects.** Children treated with head and neck radiotherapy need lifelong follow-up for growth, dental, endocrine, hearing (especially after cisplatin) and second cancers.
+**Late effects.** Children treated with head and neck radiotherapy need lifelong follow-up for growth, dental, endocrine, hearing (especially after cisplatin) and second cancers.
 !!
 
-# For the examination | What the examiner wants to hear.
+# Hodgkin lymphoma {dz} | Adolescents.
+## Clinical features
+Commonest in adolescents and young adults. Enlarged, rubbery, non-tender nodes, especially supraclavicular; up to a third have fever, night sweats, weight loss or itching.
+## Diagnosis
+Staged by the Ann Arbor system after CT of the neck, chest, abdomen and pelvis.
+## Management
+Treatment is chemotherapy, sometimes with radiotherapy, and the ENT role is the diagnostic biopsy.
+## Prognosis
+Early disease is cured in about 90%.
+
+# Non-Hodgkin lymphoma {dz} | 2 to 12 years.
+## Clinical features
+The commonest lymphoma between 2 and 12 years. More often widespread at presentation, it may involve Waldeyer's ring (a unilateral enlarged tonsil) and grow very fast, as in Burkitt lymphoma. Immunophenotyping separates B-cell and T-cell types.
+!pearl The asymmetrical tonsil
+A child with one tonsil much larger than the other, especially if it grows quickly, looks abnormal, or comes with nodes or systemic symptoms, needs the tonsil removed ([[t:tonsil]]) for histology to exclude lymphoma. Send it fresh.
+!!
+## Management and prognosis
+Combination chemotherapy is the mainstay; prognosis is poorer than Hodgkin lymphoma but good for early disease.
+
+# Rhabdomyosarcoma {dz} | The commonest soft tissue sarcoma.
+## Epidemiology
+The commonest soft tissue sarcoma of childhood; about 43% occur under 5 years and the head and neck is the commonest site.
+## Subtypes and variants
+Histological types are *embryonal* (about 60%, better prognosis, including the botryoid type), *alveolar* (about 20%, worse) and others. Sites are grouped as:
+- **Orbital:** proptosis; the best outlook.
+- **Parameningeal:** nasopharynx, sinuses, middle ear and mastoid, infratemporal fossa; spread to the skull base and meninges is common, so these are unfavourable.
+- **Other head and neck sites:** face, scalp, mouth, neck, larynx.
+## Clinical features
+In the ear it mimics chronic otitis media with an aural polyp, discharge, bleeding and facial palsy.
+!flag The aural polyp in a young child
+An aural polyp with bleeding, facial weakness or rapid regrowth in a young child is a rhabdomyosarcoma until proved otherwise. Send every aural polyp for histology.
+!!
+## Management
+Treatment is multimodal under a paediatric oncology protocol: biopsy, chemotherapy and radiotherapy, with surgery when the tumour can be removed without disabling loss of function.
+## Prognosis
+Five-year survival ranges from about 90% for completely resected disease to about 40% for metastatic disease.
+
+# Neuroblastoma {dz} | Infants, Horner syndrome.
+## Clinical features
+The commonest malignancy of infants under 1 year, from neural crest cells of the sympathetic chain. Only about 5% arise in the neck, where it presents as a firm, fixed, non-tender mass with ipsilateral *Horner syndrome* and *heterochromia of the iris*, and sometimes stridor, dysphagia or cranial nerve palsies.
+## Diagnosis
+Urinary HVA and VMA are raised in about 90%. It is staged with MRI or CT, MIBG and bone scans and bone marrow biopsy.
+## Management
+Localised disease is excised; unresectable or metastatic disease is treated with chemotherapy.
+## Prognosis
+Cervical neuroblastoma does better than other sites because it is noticed early, and infants under 1 often do well whatever the stage.
+
+# Thyroid carcinoma {dz} | Excellent survival despite spread.
+## Clinical features
+Mostly papillary carcinoma ([[t:thyroid]]). A thyroid nodule in a child is more likely to be malignant than one in an adult, and children more often present with cervical node and lung metastases, yet survival is excellent. Previous radiation to the neck is a risk factor. *Medullary carcinoma* occurs in multiple endocrine neoplasia type 2, where children with a RET mutation are offered prophylactic thyroidectomy.
+## Management
+Management is by a specialist thyroid team: total thyroidectomy with the appropriate neck dissection, and radioiodine for selected patients.
+!update Current evidence
+**Thyroid cancer in children.** The ATA paediatric guideline recommends total thyroidectomy for most differentiated cancers because they are more often multifocal and node-positive than in adults, with radioactive iodine selected by risk, and genetic testing for medullary carcinoma (*RET*) in at-risk families, with prophylactic thyroidectomy timed by the mutation (Francis et al., *Thyroid* 2015).
+!!
+
+# Nasopharyngeal carcinoma {dz} | Adolescents.
+## Clinical features
+Rare in children ([[t:npc]]), mainly in adolescents, and usually the undifferentiated type associated with Epstein-Barr virus.
+It presents as in adults with neck nodes, a unilateral middle ear effusion, nasal obstruction or epistaxis and cranial nerve palsies.
+## Differential diagnosis
+In a child with a nasopharyngeal mass the differential is rhabdomyosarcoma, non-Hodgkin lymphoma and, in an adolescent boy, [[t:juv|angiofibroma]].
+## Management
+Treatment is chemoradiotherapy.
+
+# Salivary gland tumours {dz} | The solitary solid mass.
+## Clinical features
+At least two thirds of salivary swellings in children are not neoplastic, most commonly mucoceles and sialadenitis, and benign tumours are more often haemangiomas or vascular malformations than adenomas. But a *solitary solid salivary mass* in a child is malignant in more than half (against about a quarter in adults); series that count all solid salivary tumours give up to half ([[t:saltum]]). *Mucoepidermoid carcinoma* is the commonest malignancy (about half), followed by acinic cell carcinoma. The parotid is affected more than the submandibular gland, and rapid growth without infection suggests malignancy.
+## Management
+Management follows adult principles: imaging, fine-needle aspiration or core biopsy, and parotidectomy with facial nerve preservation.
+
+# Other tumours {dz} | Rare.
+Langerhans cell histiocytosis (lytic skull and temporal bone lesions, otorrhoea, nodes; [[t:jaw]]), teratomas and other germ cell tumours, Ewing sarcoma, osteosarcoma, chondrosarcoma, and olfactory neuroblastoma are rare.
+
+# Tips and links | For the examination and the ward.
 ## Viva essentials
 !exam What the examiner is looking for
 - The **commonest malignancies** in a child's neck, and that squamous carcinoma is rare.
@@ -111,3 +163,14 @@ Survivors live for decades with the consequences of treatment, so follow-up is l
 - Calling a bleeding aural polyp in a toddler chronic otitis media.
 - Fine-needle aspiration as the only test for suspected lymphoma.
 !!
+## Related topics
+- [[t:paeds_neck]], [[t:neckmass]], [[t:thyroid]], [[t:npc]], [[t:saltum]], [[t:tonsil]], [[t:anaes]]
+
+# Sources | Where this topic comes from.
+## Books
+- Phillips and Bhalla, *Oxford Textbook of Otolaryngology* (2025), chapter 81.
+- *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 23.
+- K. J. Lee, *Essential Otolaryngology*, chapters 24 and 34.
+## Studies cited
+- NICE guideline NG12: suspected cancer, recognition and referral.
+- Francis et al., *Thyroid* 2015: ATA guidelines for paediatric thyroid nodules and cancer.
