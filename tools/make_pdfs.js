@@ -54,6 +54,7 @@ body.pbody #view,body.pbody main{all:unset}
 .part details>summary::-webkit-details-marker{display:none}
 .part details>summary :is(svg,.arsi,i){display:none!important}
 .part button{all:unset;display:block}
+.part button.arx{display:inline;font-weight:600;color:#1F4E6B}
 .part figure,.part tr,.part .arglance{break-inside:avoid}
 .part .archd,.part .arintro,.part .chead,.part summary{break-after:avoid}
 .part .tbl [hidden]{display:block!important}
