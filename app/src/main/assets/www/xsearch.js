@@ -97,12 +97,17 @@ function ixq(id){if(!IXQ){IXQ=new Map();for(const it of IX.items){const o=it.qz|
 function smartLoad(){if(SMARTP)return SMARTP;SMARTP=(async()=>{try{
   if(!window.XSMART)await loadJS("search/xsmart.js");if(!window.XSM)await loadJS("search/sm_meta.js");if(!window.XSMQ)await loadJS("search/sm_q.js").catch(()=>{window.XSMQ=[]});
   const [a,b]=await Promise.all(["search/sm_tok.bin","search/sm_vec.bin"].map(u=>fetch(u).then(r=>{if(!r.ok)throw new Error(u);return r.arrayBuffer()})));
-  XSMART.setModel(window.XSM,a,b);window.XSM.vocab=null;await new Promise(r=>setTimeout(r,0));SMX=(window.XFULL||[]).concat(window.XSMQ||[]);if(XSMART.buildDocs(SMX))SMART=XSMART;
+  XSMART.setModel(window.XSM,a,b);window.XSM.vocab=null;await new Promise(r=>setTimeout(r,0));SMX=(window.XFULL||[]).concat(window.XSMQ||[]);if(XSMART.buildDocs(SMX)){SMART=XSMART;try{if(!window.XSMA)await loadJS("search/sm_ans.js");XSMART.setAnswers(window.XSMA)}catch(e){}}
   const box=document.getElementById("xres");if(box&&box.isConnected&&currentQ().trim().length>=2)run(currentQ(),box)}catch(e){SMART=null}})();return SMARTP}
 function smartFor(q){if(!SMART||q.trim().split(/\s+/).length<2)return null;try{const S=SMART.search(q,{n:5,perArticle:2});try{S.ans=SMART.answer?SMART.answer(S):null}catch(e){S.ans=null}return S}catch(e){return null}}
 /* the quick answer: the lines of the best sections that answer the question, word for word, each linked to its place */
-function ansHTML(A,hw){if(!A||!A.items.length)return "";const one=new Set(A.items.map(x=>x.route)).size===1;
- return `<div class="xans"><p class="xans-h">Quick answer<small>quoted from your articles · tap a line to see it in place</small></p><ul>${A.items.map(x=>`<li><button class="xansi" data-go="${E(x.route)}" data-needle="${E(x.needle||x.text)}"><span>${x.label?`<b>${E(x.label)}:</b> `:""}${hl(x.text,hw)}</span>${one?"":`<small>${E(x.where.split(" · ")[0])} › ${E(x.title)}</small>`}</button></li>`).join("")}</ul>${one?`<button class="xans-src" data-go="${E(A.items[0].route)}" data-needle="${E(A.items[0].needle||A.items[0].text)}">${E(A.items[0].where.split(" · ")[0])} › ${E(A.items[0].title)}${ic("chev",14)}</button>`:""}</div>`}
+function ansHTML(A,hw){if(!A||!A.items.length)return "";
+ const src=x=>`${E(x.where.split(" · ")[0])} › ${E(x.title)}`;
+ const li=x=>`<li><button class="xansi" data-go="${E(x.route)}" data-needle="${E(x.needle||x.text)}"><span>${x.label?`<b>${E(x.label)}:</b> `:""}${hl(x.text,hw)}</span></button></li>`;
+ /* lines gathered from several sections are grouped under the section they come from */
+ const groups=[];for(const x of A.items){const g=groups[groups.length-1];if(g&&g.route===x.route)g.items.push(x);else groups.push({route:x.route,items:[x]})}
+ const body=groups.map(g=>`<div class="xans-g"><ul>${g.items.map(li).join("")}</ul><button class="xans-src" data-go="${E(g.route)}" data-needle="${E(g.items[0].needle||g.items[0].text)}">${src(g.items[0])}${ic("chev",14)}</button></div>`).join("");
+ return `<div class="xans"><p class="xans-h">${A.entity?`${E(A.entity)}`:"Quick answer"}<small>quoted from your articles · tap a line to see it in place</small></p>${body}</div>`}
 function smartHTML(S,words){if(!S||!S.list.length)return "";const X=SMX;const P=S.P;
  const hw=[...new Set(words.concat(SMART.toks(P.topic+" "+(P.soft||"")).filter(t=>t.length>=3)))];
  const asp=P.aspects.map(a=>`<i class="xt xt-sec">${E(a.label)}</i>`).join("");

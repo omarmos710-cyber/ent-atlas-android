@@ -59,14 +59,14 @@ const SKIPABBR=new Set(["it","on","so","cs","cr","ap","sp","an","as","at","or","
 /* ---------- aspects of a question ---------- */
 /* q: phrases in the question (longest first); h: heading words that answer it; c: cue words in the text */
 const ASPECTS=[
- {id:"tx",label:"Treatment",q:["how to treat","how do you treat","how to manage","how do you manage","line of treatment","drug of choice","drugs for","medication for","medical treatment","dose of","dosage","dose","surgical treatment","treatment options","treatment","treatments","treat","treated","management","managing","manage","therapy","tx","rx","cure"],h:/\b(treatment|management|manag|therap|medical|surgery|surgical|operation|drug|antibiotic|steroid|repair|what to do|options?|choosing)\b/,c:/\b(treat\w*|manag\w*|therap\w*|steroid|antibiotic|surgery|excis\w*|drain\w*|repair\w*)\b/,cx:/\b(treat\w*|manag\w*|therap\w*|steroids?|antibiotics?|surgery|surgical|excis\w*|drain\w*|repair\w*|drugs?|first[- ]line|medical\w*|\w+ectomy|\w+otomy|\w+plasty|radioiodine|radiotherapy|chemo\w*|cautery|packing|ligation|embolis\w*|antivirals?|analgesi\w*|decongestants?|antihistamines?|resect\w*|remov\w*)\b/},
+ {id:"tx",label:"Treatment",q:["how to treat","how do you treat","how to manage","how do you manage","line of treatment","drug of choice","drugs for","medication for","medical treatment","dose of","dosage","dose","surgical treatment","treatment options","treatment","treatments","treat","treated","management","managing","manage","therapy","tx","rx","cure"],h:/\b(treatment|management|manag\w*|therap\w*|medical|surgery|surgical|operation|drug|antibiotic|steroid|repair|what to do|options?|choosing)\b/,c:/\b(treat\w*|manag\w*|therap\w*|steroid|antibiotic|surgery|excis\w*|drain\w*|repair\w*)\b/,cx:/\b(treat\w*|manag\w*|therap\w*|steroids?|antibiotics?|surgery|surgical|excis\w*|drain\w*|repair\w*|drugs?|first[- ]line|medical\w*|\w+ectomy|\w+otomy|\w+plasty|radioiodine|radiotherapy|chemo\w*|cautery|packing|ligation|embolis\w*|antivirals?|analgesi\w*|decongestants?|antihistamines?|resect\w*|remov\w*)\b/},
  {id:"cf",label:"Clinical picture",q:["clinical picture","clinical features","clinical presentation","presenting features","signs and symptoms","clinical findings","on examination","presentation","picture","features","feature","signs","sign","symptoms","symptom","manifestations","presents","present with","presenting","findings","clinically","clinical","examination","examine","on examination","looks like","recognise","recognize"],h:/\b(clinical|features?|picture|presentation|presents?|symptoms?|signs?|(?<!natural )history|examination|findings|recognising|recognition|manifestation)\b/,c:/\b(present\w*|symptom\w*|sign\w*|complain\w*|feature\w*|pain\w*|hoarse\w*|breath\w*|stridor|fever\w*|swell\w*|discharg\w*|weak\w*|loss|bleed\w*|tender\w*|red|bulging|cough\w*|aspirat\w*)\b/,cx:/\b(present\w*|symptom\w*|sign\w*|complain\w*|feature\w*|pain\w*|hoarse\w*|breath\w*|stridor|fever\w*|swell\w*|discharg\w*|weak\w*|loss|bleed\w*|tender\w*|red|bulging|cough\w*|aspirat\w*|worse|better|onset|otalgia|vertigo|tinnitus|deafness|hearing|nausea|vomit\w*|itch\w*|obstruct\w*|dysphagia|odynophagia|lump|mass|ulcer\w*|numb\w*|palsy|diplopia|proptosis|headache|snor\w*|drool\w*|cry|voice|epistaxis)\b/},
- {id:"dx",label:"Investigation",q:["how to diagnose","how do you diagnose","how to investigate","work up","workup","work-up","investigations","investigation","investigate","diagnosis","diagnose","diagnostic","tests","test","imaging","scan","assessment","assess","evaluation","evaluate","confirm"],h:/\b(investigat|diagnos|tests?|imaging|scans?|assessment|evaluation|work-?up|audiometry|ct|mri|ultrasound|biopsy|confirm)\b/,c:/\b(ct|mri|ultrasound|audiogram|biopsy|test\w*|imag\w*|scan\w*|confirm\w*)\b/},
- {id:"why",label:"Causes",q:["what causes","causes of","risk factors","aetiology","etiology","pathogenesis","pathophysiology","pathology","causes","cause","caused","why","mechanism","risk","due to"],h:/\b(causes?|aetiolog|etiolog|risk|pathogenesis|pathophysiolog|mechanism|why|pathology|organisms?|who gets)\b/,c:/\b(caus\w*|due to|risk|result\w* from|follow\w*)\b/},
+ {id:"dx",label:"Investigation",q:["how to diagnose","how do you diagnose","how to investigate","work up","workup","work-up","investigations","investigation","investigate","diagnosis","diagnose","diagnostic","tests","test","imaging","scan","assessment","assess","evaluation","evaluate","confirm"],h:/\b(investigat\w*|diagnos\w*|tests?|imaging|scans?|assessment|evaluation|work-?up|audiometry|ct|mri|ultrasound|biopsy|confirm)\b/,c:/\b(ct|mri|ultrasound|audiogram|biopsy|test\w*|imag\w*|scan\w*|confirm\w*)\b/},
+ {id:"why",label:"Causes",q:["what causes","causes of","risk factors","aetiology","etiology","pathogenesis","pathophysiology","pathology","causes","cause","caused","why","mechanism","risk","due to"],h:/\b(causes?|aetiolog\w*|etiolog\w*|risk|pathogenesis|pathophysiolog\w*|mechanism|why|pathology|organisms?|who gets)\b/,c:/\b(caus\w*|due to|risk|result\w* from|follow\w*)\b/},
  {id:"cx",label:"Complications",q:["complications","complication","sequelae","side effects","adverse effects","risks of","dangers"],h:/\b(complications?|sequelae|adverse|side effects|risks?|dangers?|cautions?|crisis)\b/,c:/\b(complicat\w*|risk|injur\w*|fistula|bleed\w*|haemorrhage|infection)\b/},
  {id:"ddx",label:"Differential diagnosis",q:["differential diagnosis","differential diagnoses","differentials","differential","ddx","mimics","versus","vs","distinguish","difference between"],h:/\b(differential|mimics?|versus|distinguish|or\b)/,c:/\b(differential|mimic\w*|distinguish\w*)\b/},
  {id:"cls",label:"Classification",q:["classification","classify","types","type","staging","stage","grading","grade","grades","stages","scale","scoring","score"],h:/\b(classification|types?|staging|stages?|grading|grades?|scale|score|kinds)\b/,c:/\b(type|grade|stage|class\w*)\b/},
- {id:"an",keep:1,label:"Anatomy",q:["anatomy","course","relations","blood supply","nerve supply","supply","drainage","landmarks","boundaries","embryology"],h:/\b(anatomy|course|relations|supply|drainage|landmarks?|boundaries|embryolog|nerves?|vessels)\b/,c:/\b(lies|runs|supplied|drains?|between|relation\w*)\b/},
+ {id:"an",keep:1,label:"Anatomy",q:["anatomy","course","relations","blood supply","nerve supply","supply","drainage","landmarks","boundaries","embryology"],h:/\b(anatomy|course|relations|supply|drainage|landmarks?|boundaries|embryolog\w*|nerves?|vessels)\b/,c:/\b(lies|runs|supplied|drains?|between|relation\w*)\b/},
  {id:"ind",label:"Indications",q:["indications for","indications","indication","when to operate","when to refer","when to do","contraindications","contraindication","criteria"],h:/\b(indications?|contraindications?|criteria|when|who needs|selection|choosing)\b/,c:/\b(indicat\w*|criteria)\b/},
  {id:"how",label:"Technique",q:["how to do","how is it done","technique","procedure","steps","step by step","operation","operative steps","surgical steps","approach"],h:/\b(technique|steps?|procedure|operation|approach|incision|exposure|stage by stage)\b/,c:/\b(incis\w*|elevat\w*|dissect\w*|expos\w*)\b/},
  {id:"px",label:"Prognosis",q:["prognosis","outcome","outcomes","survival","recurrence rate","natural history","recovery"],h:/\b(prognosis|outcomes?|survival|natural history|recovery|follow-?up)\b/,c:/\b(prognos\w*|survival|recover\w*|outcome\w*)\b/},
@@ -232,13 +232,70 @@ function units(body){const out=[];let label="",head=null,skip=false;const lines=
 const XREF=/\b(is|are) in [A-Z][a-z]|\b(are|is) (described|covered|discussed|dealt with)( in full| in detail| fully)? (in|under)\b|\bare in [A-Z]|^see /i;
 function tidy(t){return t.replace(/\s+([,.;:)])/g,"$1").replace(/\(\s+/g,"(").replace(/\s+/g," ").trim()}
 function cos(a,b){let s=0;for(let k=0;k<a.length;k++)s+=a[k]*b[k];return s}
-const STRICT={tx:/\b(treatment|management|therap\w*|medical|what to do)\b/,ind:/\b(indications?|criteria|who needs|selection)\b/,cx:/\b(complications?|sequelae|adverse|side effects)\b/,why:/\b(causes?|aetiolog\w*|etiolog\w*|risk factors?|pathogenesis)\b/,how:/\b(technique|steps?|stage by stage)\b/};
+const STRICT={tx:/\b(treatment|management|therap\w*|medical|what to do|removal)\b/,ind:/\b(indications?|criteria|who needs|selection)\b/,cx:/\b(complications?|sequelae|adverse|side effects)\b/,why:/\b(causes?|aetiolog\w*|etiolog\w*|risk factors?|pathogenesis)\b/,how:/\b(technique|steps?|stage by stage)\b/};
 const HS=a=>STRICT[a.id]||a.h;
+/* words that change which disease is meant: they must agree between the question and the section */
+const QUAL=new Set("acute chronic recurrent necrotising necrotizing malignant benign pulsatile subjective objective unilateral bilateral congenital acquired paediatric pediatric child children infant infants neonatal adult primary secondary allergic nonallergic viral bacterial fungal invasive noninvasive suppurative secretory serous atrophic hypertrophic sudden progressive central peripheral conductive sensorineural mixed anterior posterior superior inferior external middle inner internal".split(" ").map(w=>cw(w)).filter(Boolean));
 const PRON=/^(it|its|they|their|this|these|the (disease|condition|lesion|tumour|patient|operation|procedure|nerve|drug))\b/i;
-function answer(S,opt){opt=opt||{};if(!S||!S.list||!M)return null;const P=S.P;if(/\b(viva|questions?|mcqs?|essays?|flashcards?|quiz)\b/i.test(P.raw||""))return null;const asp=P.aspects;
+/* ---------- the answer map (built by tools/build_answers.js from tools/answers/*.json) ----------
+   Every line is labelled with the condition it is about and what it answers, so the lines that answer
+   "treatment of Bell's palsy" are gathered from every article, the condition's own article first. */
+let AM=null;
+function setAnswers(m){AM=null;if(m&&m.asp)m.asp=m.asp;if(!m||!D)return false;const [n,len]=String(m.fp).split(":").map(Number);let c=0;for(let i=0;i<n&&i<D.docs.length;i++)c+=D.docs[i].body.length;if(c!==len)return false;
+ const ab=M?M.abbr:ABBR;const ali=[];m.e.forEach((names,i)=>{for(const a of new Set(names)){const t=toks(a);if(t.length)ali.push({i,t,n:t.length});
+   /* the same name with its abbreviations spelt out, as the question is ("tb lymphadenitis" -> "tuberculosis lymphadenitis") */
+   const x=fold(a).split(/\s+/).map(w=>ab[w]&&w.length>1?ab[w]:w).join(" ");if(x!==fold(a)){const t2=toks(x);if(t2.length)ali.push({i,t:t2,n:t2.length})}}});ali.sort((a,b)=>b.n-a.n);
+ const by=new Map(),cnt=new Map(),home=new Map();const L=m.l;
+ for(let j=0;j<L.length;j+=5){const [doc,k,e,a,w]=[L[j],L[j+1],L[j+2],L[j+3],L[j+4]];const key=e+"|"+m.asp[a];let l=by.get(key);if(!l)by.set(key,l=[]);l.push([doc,k,w/10]);
+  const ar=D.docs[doc].route.split("~")[0];const hk=e+"|"+ar;cnt.set(hk,(cnt.get(hk)||0)+1)}
+ cnt.forEach((v,hk)=>{const [e,ar]=hk.split("|");const h=home.get(+e);if(!h||v>h[1])home.set(+e,[ar,v])});(m.h||[]).forEach((r,e)=>{if(r)home.set(e,[r,1e9])});
+ AM={names:m.e,ali,by,home,asp:[...new Set(m.asp)],par:m.p||[]};return true}
+let ENTFOCUS=[];const KIDS=new Set(["child","children","infant","infants","paediatric","pediatric","childhood","neonate","neonatal","baby","babies"].map(w=>cw(w)).filter(Boolean));
+const AGEW=new Set(["child","children","infant","infants","paediatric","pediatric","adult","neonatal"].map(w=>cw(w)).filter(Boolean));
+function entityOf(topic){if(!AM)return null;const T=new Set(toks(topic));let best=null;
+ for(const a of AM.ali){if(best&&a.n<best.n)break;if(a.t.every(x=>T.has(x))){if(!best||(AM.by.has(a.i+"|def")&&!AM.by.has(best.i+"|def")))best=a}}
+ if(!best)return null;
+ /* every word of the condition's name must be in the question, and a word that changes the disease (acute, chronic, necrotising) must not be left over */
+ for(const t of T)if(QUAL.has(t)&&!AGEW.has(t)&&!best.t.includes(t))return null;
+ ENTFOCUS=[...T].filter(t=>!best.t.includes(t)&&t.length>2);
+ return best.i}
+function answerMap(P,opt){if(!AM)return null;const e=entityOf(P.topic);if(e===null)return null;
+ const asp=P.aspects.length?P.aspects.map(a=>a.id):["def"];let lab=[];for(const a of asp)lab=lab.concat(AM.by.get(e+"|"+a)||[]);
+ /* words left over after the condition's name ("in a child") pick out the lines that mention them */
+ const focus=ENTFOCUS.slice();if(/contra-?indicat/i.test(P.raw||""))focus.push(...toks("contraindication contraindicated contraindications"));if(focus.length){let all=lab;if(!P.aspects.length){all=[];for(const id of AM.asp)all=all.concat(AM.by.get(e+"|"+id)||[])}
+  const hit=all.filter(([doc,k])=>{const u=units(D.docs[doc].body)[k];if(!u)return false;const tk=new Set(toks(u.t+" "+(u.label||"")+" "+D.docs[doc].title));return focus.some(f=>tk.has(f)||(KIDS.has(f)&&[...KIDS].some(x=>tk.has(x))))});
+  if(hit.length)lab=hit.map(([d,k,w])=>[d,k,Math.min(1,w+.2)])}
+ if(!lab.length&&!P.aspects.length){for(const id of ["cf","why"])lab=lab.concat(AM.by.get(e+"|"+id)||[])}
+ /* a subtype with little of its own ("treatment of papillary carcinoma") also takes its parent's lines ("thyroid cancer") */
+ const par=AM.par[e];let parName=null;if(par>=0&&P.aspects.length&&lab.reduce((m,x)=>Math.max(m,x[2]),0)<.8){let pl=[];for(const a of asp)pl=pl.concat(AM.by.get(par+"|"+a)||[]);if(pl.length){lab=lab.concat(pl.map(([d,k,w])=>[d,k,w*.85]));parName=AM.names[par][0]}}
+ /* nothing labelled for this aspect: the condition's own section, if it has one */
+ if(P.aspects.length&&lab.reduce((m,x)=>Math.max(m,x[2]),0)<.5){const own=new Set((AM.by.get(e+"|def")||[]).filter(x=>x[2]>=.8).map(x=>x[0]));
+  if(own.size){const seenK=new Set();for(const id of AM.asp)for(const [d,k] of AM.by.get(e+"|"+id)||[])if(own.has(d)&&!seenK.has(d+"|"+k)){seenK.add(d+"|"+k);lab.push([d,k,.55])}}}
+ if(!lab.length)return null;const home=(AM.home.get(e)||[""])[0];
+ const groups=new Map();for(const [doc,k,w] of lab){const d=D.docs[doc];let g=groups.get(doc);if(!g)groups.set(doc,g={doc,d,u:new Map(),max:0});const o=g.u.get(k);if(!o||w>o)g.u.set(k,w);if(w>g.max)g.max=w}
+ const G=[...groups.values()].map(g=>{const ar=g.d.route.split("~")[0];g.ar=ar;g.home=ar===home;const side=/^(cl:t-dr_|th:)/.test(ar)&&!g.home;g.score=g.max+(g.home?.35:0)+Math.min(.1,.02*g.u.size)+(g.d.ty==="ev"?-.2:0)+(side?-.1:0);return g}).sort((a,b)=>b.score-a.score||a.doc-b.doc);
+ const top=G[0].max;const n=opt.n||6;
+ /* sections that answer well; the condition's own article first, in its own order, then the others */
+ const Q=G.filter((g,j)=>j===0||g.max>=Math.max(.6,top*.75)).slice(0,5);const lead=Q[0].ar;
+ const topS=Math.max(...Q.map(g=>g.score));const tier=g=>g.score>=topS*.85?1:0;
+ Q.sort((a,b)=>tier(b)-tier(a)||(b.ar===lead)-(a.ar===lead)||(a.ar===lead&&b.ar===lead?a.doc-b.doc:b.score-a.score));
+ const quota=Math.max(1,Math.min(4,Math.ceil(n/Q.length)));const items=[],seen=[];let gi=0;
+ for(const g of Q){if(items.length>=n)break;
+  const U=units(g.d.body);const keep=[...g.u.entries()].filter(([k,w])=>w>=Math.max(.5,g.max*.7)).sort((a,b)=>a[0]-b[0]);
+  const lim=Math.min(n-items.length,keep.some(([k])=>U[k]&&U[k].row)?Math.max(quota,gi===0?5:quota):quota);let added=0;
+  for(const [k,w] of keep){if(added>=lim)break;const u=U[k];if(!u)continue;const t=tidy(u.t);const tk=new Set(toks(t));
+   if(seen.some(o=>{let c=0;for(const x of tk)if(o.has(x))c++;return c/Math.max(1,Math.min(tk.size,o.size))>.7}))continue;seen.push(tk);
+   items.push({i:g.doc,route:g.d.route,text:t,needle:u.needle||t,label:u.row?"":(u.label&&u.label.length<40&&!P.aspects.some(a=>a.h.test(fold(u.label)))?u.label:""),title:g.d.title,where:g.d.where,s:w,g:gi});added++}
+  if(added)gi++}
+ if(!items.length||top<.55)return null;
+ return {map:true,entity:AM.names[e][0]+(parName?" (with "+parName+")":""),conf:top,best:top,items}}
+
+function answer(S,opt){opt=opt||{};if(!S||!S.list||!M)return null;const P=S.P;if(/\b(viva|questions?|mcqs?|essays?|flashcards?|quiz)\b/i.test(P.raw||""))return null;
+ if(!opt.noMap){const A=answerMap(P,opt);if(A)return A}const asp=P.aspects;
  const okd=d=>d.ty!=="q"&&d.ty!=="card"&&d.ty!=="viva"&&!d.exam;
  const list=S.list.filter(r=>okd(D.docs[r.i]));const pool=(S.pool||[]).filter(r=>okd(D.docs[r.i]));if(!list.length)return null;
  const qt=toks(P.topic),st=toks(P.soft||"");const qw=new Map();let qwt=0;for(const t of new Set(qt)){const w=idf(t);qw.set(t,w);qwt+=w}for(const t of new Set(st))if(!qw.has(t))qw.set(t,idf(t)*.6);qwt=qwt||1;
+ const qset=new Set(qt),qsoft=new Set(st);const qmain=[...qset].filter(q=>!QUAL.has(q)&&q.length>2);
  const qv=encode(P.topic+(asp.length?" "+asp.map(a=>a.label).join(" "):""));
  const covOf=(text,ctx,actx,aw)=>{const tk=new Set(toks(text));let h=0;qw.forEach((w,k)=>{if(tk.has(k))h+=w;else if(ctx&&ctx.has(k))h+=w;else if(actx&&actx.has(k))h+=(aw||.5)*w});return Math.min(1,h/qwt)};
  const cache=new Map();
@@ -247,6 +304,10 @@ function answer(S,opt){opt=opt||{};if(!S||!S.list||!M)return null;const P=S.P;if
   const own=d.ty==="ev"||fold(d.title).includes(fold(d.art))?"":fold(d.title);
   const secAsp=asp.length?(own&&asp.some(a=>HS(a).test(own))?1:d.ty!=="ev"&&asp.some(a=>HS(a).test(fold(d.chap)))?.7:0):0;
   const sa=covOf("",ctx,actx,aw);const out=[];let carry=0,line=-1;
+  if(d.ty==="ev"&&asp.length&&!asp.some(a=>/^(tx|px|cx|ind)$/.test(a.id))){const res={d,secAsp:0,sa,items:[],best:0};cache.set(r.i,res);return res}
+  const pathT=new Set(toks(d.title+" "+d.chap+" "+d.art));
+  /* a qualifier the question has but the section lacks, or one the section's own heading has but the question lacks, points to another disease */
+  let qf=1;for(const q of qset){if(QUAL.has(q)&&!pathT.has(q))qf*=.55}for(const h of [d.title,d.chap]){const ht=toks(h);if(!ht.some(t=>qmain.includes(t)))continue;for(const t of ht){if(QUAL.has(t)&&!qset.has(t)&&!qsoft.has(t))qf*=.55}}
   for(const u of units(d.body)){const t=tidy(u.t);if(u.line!==line){carry=0;line=u.line}
    let cov=covOf(t+" "+u.label,ctx,actx,aw);const ownCov=covOf(t+" "+u.label);cov=Math.max(cov,carry);
    const subj=covOf(t.split(" ").slice(0,6).join(" "));carry=Math.max(subj*.9,PRON.test(t)?cov*.9:0);
@@ -254,12 +315,14 @@ function answer(S,opt){opt=opt||{};if(!S||!S.list||!M)return null;const P=S.P;if
    let a;if(asp.length){const lab=fold(u.label);if(lab&&asp.some(x=>HS(x).test(lab)))a=1;else{const m=asp.reduce((n,x)=>n+((fold(t).match(new RegExp((x.cx||x.c).source,"g"))||[]).length),0);a=secAsp?Math.min(1,secAsp*.8+m*.15):Math.min(1,m*.3)}}
    else a=u.k===0?1:.5;
    const v=encode(t),vc=encode(d.chap+" "+d.title+" "+(u.label||"")+" "+t);const sem=vc&&qv?Math.max(0,cos(vc,qv)):0;
-   const rel=(.3+.7*cov)*(.35+.65*a)*(.6+.4*Math.min(1,sem/.6))*(.7+.3*sa);
+   let comp=1;const lt=new Set(toks(t+" "+u.label));for(const q of qmain){if(!lt.has(q)&&!pathT.has(q)&&!(carry>0&&cov>=.5))comp*=.5}
+   for(const q of qset)if(QUAL.has(q)&&!pathT.has(q)&&lt.has(q))comp/=.55*1; /* the line itself carries the qualifier */
+   const rel=(.3+.7*cov)*(.35+.65*a)*(.6+.4*Math.min(1,sem/.6))*(.7+.3*sa)*Math.min(1,qf*comp);
    out.push({i:r.i,route:d.route,label:u.label,row:u.row,k:u.k,t,needle:u.needle||t,v,rel,cov,a,secAsp})}
   const res={d,secAsp,sa,items:out.filter(c=>c.cov>=.3&&(!asp.length||c.a>0)),best:0};res.best=res.items.reduce((m,c)=>Math.max(m,c.rel),0);cache.set(r.i,res);return res}
  /* the main section: the search's own ranking, unless a section just below it answers clearly better */
- let prim=null,pv=-1;const P0=(pool.length?pool:list);P0.slice(0,4).forEach((r,k)=>{const L=lines(r);const v=L.best*Math.pow(r.s/P0[0].s,2)*(asp.length?.6+.4*L.secAsp:1);if(opt.debug)opt.debug([v.toFixed(2),L.best.toFixed(2),L.secAsp,L.d.title,L.items.length]);if(v>pv){pv=v;prim=r}});
- const L=lines(prim);if(!L.items.length||L.best<.2)return null;const n=opt.n||4;let pick=[];
+ let prim=null,pv=-1;const P0=(pool.length?pool:list);P0.slice(0,8).forEach((r,k)=>{const L=lines(r);const v=L.best*Math.pow(r.s/P0[0].s,2)*(asp.length?.6+.4*L.secAsp:1)*(.65+.35*L.sa);if(opt.debug)opt.debug([v.toFixed(2),L.best.toFixed(2),L.secAsp,L.d.title,L.items.length]);if(v>pv){pv=v;prim=r}});
+ const L=lines(prim);if(!L.items.length||L.best<.2||pv<(opt.min===undefined?.2:opt.min))return null;const n=opt.n||4;let pick=[];
  const take=(L,lim,pw)=>{pw=pw||.02;const top=L.best;const ok=L.items.filter(c=>c.rel>=top*.65);
   /* a list or table that is itself the answer is read in the author's order */
   if(L.secAsp===1&&ok.filter(c=>c.row).length>=lim)return ok.filter(c=>c.row).sort((x,y)=>x.k-y.k).slice(0,lim);
@@ -273,8 +336,8 @@ function answer(S,opt){opt=opt||{};if(!S||!S.list||!M)return null;const P=S.P;if
  const ord=new Map();pick.forEach(p=>{if(!ord.has(p.i))ord.set(p.i,p.i===prim.i?-1:ord.size)});
  pick.sort((x,y)=>ord.get(x.i)-ord.get(y.i)||x.k-y.k);
  const lab=l=>l&&l.length<40&&!asp.some(a=>a.h.test(fold(l)))?l:"";
- return {items:pick.map(p=>({i:p.i,route:p.route,text:p.t,needle:p.needle,label:p.row?"":lab(p.label),title:D.docs[p.i].title,where:D.docs[p.i].where,s:p.rel}))}}
+ return {conf:pv,best:L.best,items:pick.map(p=>({i:p.i,route:p.route,text:p.t,needle:p.needle,label:p.row?"":lab(p.label),title:D.docs[p.i].title,where:D.docs[p.i].where,s:p.rel}))}}
 
-const API={setModel,buildDocs,search,answer,_units:units,parse,encode,toks,stem,wordpiece,ASPECTS,get ready(){return !!(M&&D)},doc:i=>D&&D.docs[i]};
+const API={setModel,buildDocs,search,answer,setAnswers,entityOf,_units:units,_x:{HS,QUAL,PRON,XREF,tidy,cw,fold,STRICT},parse,encode,toks,stem,wordpiece,ASPECTS,get ready(){return !!(M&&D)},doc:i=>D&&D.docs[i]};
 if(typeof module!=="undefined"&&module.exports)module.exports=API;else root.XSMART=API;
 })(typeof window!=="undefined"?window:this);

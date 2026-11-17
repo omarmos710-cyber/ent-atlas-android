@@ -1,0 +1,990 @@
+{
+ "about": "Answer map, drugs. A disease named under 'Using it in ENT' gets the page's lines as its treatment; the drug itself gets uses (treatment), adverse effects (complications) and summary (definition).",
+ "entities": {
+  "dr_5fu": [
+   "Fluorouracil",
+   "fluorouracil",
+   "fluorouracil"
+  ],
+  "dr_acic": [
+   "Aciclovir and valaciclovir",
+   "aciclovir and valaciclovir",
+   "aciclovir",
+   "valaciclovir",
+   "acyclovir",
+   "valacyclovir",
+   "antivirals",
+   "antiviral"
+  ],
+  "dr_adren": [
+   "Adrenaline",
+   "adrenaline",
+   "adrenaline"
+  ],
+  "dr_agno": [
+   "Silver nitrate",
+   "silver nitrate",
+   "silver nitrate"
+  ],
+  "dr_ahist": [
+   "Oral antihistamines",
+   "oral antihistamines",
+   "oral antihistamines",
+   "antihistamines",
+   "antihistamine",
+   "cetirizine",
+   "loratadine",
+   "fexofenadine",
+   "chlorphenamine"
+  ],
+  "dr_algin": [
+   "Alginates",
+   "alginates",
+   "alginates"
+  ],
+  "dr_amox": [
+   "Amoxicillin",
+   "amoxicillin",
+   "amoxicillin"
+  ],
+  "dr_ampho": [
+   "Amphotericin B",
+   "amphotericin b",
+   "amphotericin b"
+  ],
+  "dr_anticoag": [
+   "Anticoagulants and antiplatelets around ENT surgery",
+   "anticoagulants and antiplatelets around ent surgery",
+   "anticoagulants",
+   "antiplatelets around ent surgery"
+  ],
+  "dr_azel": [
+   "Azelastine and combination sprays",
+   "azelastine and combination sprays",
+   "azelastine"
+  ],
+  "dr_azi": [
+   "Azithromycin",
+   "azithromycin",
+   "azithromycin"
+  ],
+  "dr_benzo": [
+   "Benzodiazepines for vertigo",
+   "benzodiazepines for vertigo",
+   "benzodiazepines for vertigo",
+   "benzodiazepines",
+   "diazepam"
+  ],
+  "dr_benzy": [
+   "Benzydamine and mucosal analgesics",
+   "benzydamine and mucosal analgesics",
+   "benzydamine",
+   "mucosal analgesics"
+  ],
+  "dr_beta": [
+   "Betahistine",
+   "betahistine",
+   "betahistine",
+   "serc"
+  ],
+  "dr_bev": [
+   "Bevacizumab",
+   "bevacizumab",
+   "bevacizumab"
+  ],
+  "dr_budir": [
+   "Steroid drops and irrigations",
+   "steroid drops and irrigations",
+   "steroid drops",
+   "irrigations"
+  ],
+  "dr_bupi": [
+   "Bupivacaine and levobupivacaine",
+   "bupivacaine and levobupivacaine",
+   "bupivacaine",
+   "levobupivacaine"
+  ],
+  "dr_calc": [
+   "Calcium replacement",
+   "calcium replacement",
+   "calcium replacement"
+  ],
+  "dr_carbi": [
+   "Carbimazole and propylthiouracil",
+   "carbimazole and propylthiouracil",
+   "carbimazole",
+   "propylthiouracil"
+  ],
+  "dr_carbo": [
+   "Carboplatin",
+   "carboplatin",
+   "carboplatin"
+  ],
+  "dr_cefal": [
+   "Oral cephalosporins: cefalexin and cefuroxime",
+   "oral cephalosporins: cefalexin and cefuroxime",
+   "oral cephalosporins",
+   "cefalexin",
+   "cefuroxime"
+  ],
+  "dr_ceftaz": [
+   "Ceftazidime",
+   "ceftazidime",
+   "ceftazidime"
+  ],
+  "dr_ceftri": [
+   "Ceftriaxone and cefotaxime",
+   "ceftriaxone and cefotaxime",
+   "ceftriaxone",
+   "cefotaxime"
+  ],
+  "dr_cetux": [
+   "Cetuximab",
+   "cetuximab",
+   "cetuximab"
+  ],
+  "dr_cido": [
+   "Cidofovir",
+   "cidofovir",
+   "cidofovir"
+  ],
+  "dr_cina": [
+   "Cinacalcet",
+   "cinacalcet",
+   "cinacalcet"
+  ],
+  "dr_cipro": [
+   "Ciprofloxacin (systemic)",
+   "ciprofloxacin (systemic)",
+   "ciprofloxacin"
+  ],
+  "dr_cis": [
+   "Cisplatin",
+   "cisplatin",
+   "cisplatin",
+   "cisplatin chemotherapy"
+  ],
+  "dr_clari": [
+   "Clarithromycin",
+   "clarithromycin",
+   "clarithromycin"
+  ],
+  "dr_clinda": [
+   "Clindamycin",
+   "clindamycin",
+   "clindamycin"
+  ],
+  "dr_coamox": [
+   "Co-amoxiclav",
+   "co-amoxiclav",
+   "co-amoxiclav",
+   "augmentin",
+   "amoxicillin clavulanate",
+   "amoxicillin-clavulanate"
+  ],
+  "dr_cocaine": [
+   "Cocaine (topical)",
+   "cocaine (topical)",
+   "cocaine"
+  ],
+  "dr_cophen": [
+   "Co-phenylcaine and topical nasal anaesthesia",
+   "co-phenylcaine and topical nasal anaesthesia",
+   "co-phenylcaine",
+   "topical nasal anaesthesia"
+  ],
+  "dr_cotrim": [
+   "Co-trimoxazole",
+   "co-trimoxazole",
+   "co-trimoxazole"
+  ],
+  "dr_cromo": [
+   "Sodium cromoglicate",
+   "sodium cromoglicate",
+   "sodium cromoglicate"
+  ],
+  "dr_ddavp": [
+   "Desmopressin",
+   "desmopressin",
+   "desmopressin"
+  ],
+  "dr_decon": [
+   "Topical nasal decongestants",
+   "topical nasal decongestants",
+   "topical nasal decongestants",
+   "xylometazoline",
+   "oxymetazoline",
+   "decongestant spray",
+   "nasal decongestant"
+  ],
+  "dr_dexa": [
+   "Dexamethasone",
+   "dexamethasone",
+   "dexamethasone"
+  ],
+  "dr_diur": [
+   "Diuretics in Ménière's disease",
+   "diuretics in ménière's disease",
+   "diuretics in ménière's disease"
+  ],
+  "dr_doxy": [
+   "Doxycycline",
+   "doxycycline",
+   "doxycycline"
+  ],
+  "dr_dupi": [
+   "Dupilumab",
+   "dupilumab",
+   "dupilumab"
+  ],
+  "dr_eacid": [
+   "Acidifying and astringent ear preparations",
+   "acidifying and astringent ear preparations",
+   "acidifying",
+   "astringent ear preparations"
+  ],
+  "dr_eaf": [
+   "Antifungal ear preparations",
+   "antifungal ear preparations",
+   "antifungal ear preparations",
+   "clotrimazole ear drops",
+   "antifungal ear drops",
+   "clotrimazole"
+  ],
+  "dr_eamg": [
+   "Aminoglycoside and combination ear drops",
+   "aminoglycoside and combination ear drops",
+   "aminoglycoside",
+   "combination ear drops",
+   "gentamicin ear drops",
+   "sofradex",
+   "otomize",
+   "neomycin",
+   "aminoglycoside ear drops"
+  ],
+  "dr_eqc": [
+   "Quinolone ear drops: ciprofloxacin and ofloxacin",
+   "quinolone ear drops: ciprofloxacin and ofloxacin",
+   "quinolone ear drops",
+   "ofloxacin",
+   "ciprofloxacin ear drops",
+   "ofloxacin ear drops"
+  ],
+  "dr_ester": [
+   "Steroid ear drops",
+   "steroid ear drops",
+   "steroid ear drops"
+  ],
+  "dr_fluc": [
+   "Fluconazole",
+   "fluconazole",
+   "fluconazole"
+  ],
+  "dr_fluclox": [
+   "Flucloxacillin",
+   "flucloxacillin",
+   "flucloxacillin"
+  ],
+  "dr_fluor": [
+   "Intrathecal fluorescein",
+   "intrathecal fluorescein",
+   "intrathecal fluorescein"
+  ],
+  "dr_gent": [
+   "Gentamicin (systemic)",
+   "gentamicin (systemic)",
+   "gentamicin"
+  ],
+  "dr_glyco": [
+   "Glycopyrronium and hyoscine for drooling",
+   "glycopyrronium and hyoscine for drooling",
+   "glycopyrronium",
+   "hyoscine for drooling",
+   "glycopyrrolate",
+   "hyoscine"
+  ],
+  "dr_h2": [
+   "H2 receptor antagonists",
+   "h2 receptor antagonists",
+   "h2 receptor antagonists",
+   "ranitidine",
+   "famotidine",
+   "h2 blockers"
+  ],
+  "dr_hae": [
+   "Drugs for angioedema",
+   "drugs for angioedema",
+   "drugs for angioedema",
+   "icatibant",
+   "c1 esterase inhibitor",
+   "hereditary angioedema"
+  ],
+  "dr_heliox": [
+   "Heliox",
+   "heliox",
+   "heliox"
+  ],
+  "dr_ici": [
+   "Pembrolizumab and nivolumab",
+   "pembrolizumab and nivolumab",
+   "pembrolizumab",
+   "nivolumab"
+  ],
+  "dr_immuno": [
+   "Allergen immunotherapy",
+   "allergen immunotherapy",
+   "allergen immunotherapy"
+  ],
+  "dr_ins": [
+   "Intranasal corticosteroids",
+   "intranasal corticosteroids",
+   "intranasal corticosteroids",
+   "nasal steroid",
+   "nasal steroids",
+   "steroid nasal spray",
+   "fluticasone",
+   "mometasone",
+   "beclometasone",
+   "budesonide nasal"
+  ],
+  "dr_iodine": [
+   "Potassium iodide and preoperative preparation for thyroid surgery",
+   "potassium iodide and preoperative preparation for thyroid surgery",
+   "potassium iodide"
+  ],
+  "dr_ipra": [
+   "Ipratropium nasal spray",
+   "ipratropium nasal spray",
+   "ipratropium nasal spray"
+  ],
+  "dr_itgent": [
+   "Intratympanic gentamicin",
+   "intratympanic gentamicin",
+   "intratympanic gentamicin"
+  ],
+  "dr_itra": [
+   "Itraconazole",
+   "itraconazole",
+   "itraconazole"
+  ],
+  "dr_itster": [
+   "Intratympanic steroids",
+   "intratympanic steroids",
+   "intratympanic steroids",
+   "intratympanic steroid",
+   "intratympanic dexamethasone"
+  ],
+  "dr_levo": [
+   "Levothyroxine and liothyronine",
+   "levothyroxine and liothyronine",
+   "levothyroxine",
+   "liothyronine"
+  ],
+  "dr_lido": [
+   "Lidocaine",
+   "lidocaine",
+   "lidocaine"
+  ],
+  "dr_linez": [
+   "Linezolid",
+   "linezolid",
+   "linezolid"
+  ],
+  "dr_mblue": [
+   "Methylene blue and other surgical dyes",
+   "methylene blue and other surgical dyes",
+   "methylene blue"
+  ],
+  "dr_mepo": [
+   "Mepolizumab and anti-IL-5 biologics",
+   "mepolizumab and anti-il-5 biologics",
+   "mepolizumab",
+   "anti-il-5 biologics"
+  ],
+  "dr_mero": [
+   "Meropenem",
+   "meropenem",
+   "meropenem"
+  ],
+  "dr_metro": [
+   "Metronidazole",
+   "metronidazole",
+   "metronidazole"
+  ],
+  "dr_migr": [
+   "Vestibular migraine prophylaxis",
+   "vestibular migraine prophylaxis",
+   "vestibular migraine prophylaxis"
+  ],
+  "dr_mmc": [
+   "Mitomycin C",
+   "mitomycin c",
+   "mitomycin c",
+   "mitomycin"
+  ],
+  "dr_montel": [
+   "Montelukast",
+   "montelukast",
+   "montelukast"
+  ],
+  "dr_mpred": [
+   "Methylprednisolone and hydrocortisone",
+   "methylprednisolone and hydrocortisone",
+   "methylprednisolone",
+   "hydrocortisone",
+   "iv steroids"
+  ],
+  "dr_mtx": [
+   "Methotrexate",
+   "methotrexate",
+   "methotrexate"
+  ],
+  "dr_naseptin": [
+   "Naseptin and mupirocin",
+   "naseptin and mupirocin",
+   "naseptin",
+   "mupirocin",
+   "nasal antiseptic cream"
+  ],
+  "dr_neuro": [
+   "Drugs for neuropathic and facial pain",
+   "drugs for neuropathic and facial pain",
+   "neuropathic pain",
+   "carbamazepine",
+   "amitriptyline",
+   "gabapentin",
+   "pregabalin",
+   "trigeminal neuralgia drugs"
+  ],
+  "dr_nsaid": [
+   "NSAIDs: ibuprofen and diclofenac",
+   "nsaids: ibuprofen and diclofenac",
+   "nsaids",
+   "ibuprofen",
+   "diclofenac"
+  ],
+  "dr_omal": [
+   "Omalizumab",
+   "omalizumab",
+   "omalizumab"
+  ],
+  "dr_opioid": [
+   "Opioids: codeine, morphine, oxycodone and tramadol",
+   "opioids: codeine, morphine, oxycodone and tramadol",
+   "opioids",
+   "codeine",
+   "morphine",
+   "oxycodone",
+   "tramadol"
+  ],
+  "dr_oralaf": [
+   "Nystatin and miconazole oral gel",
+   "nystatin and miconazole oral gel",
+   "nystatin",
+   "miconazole oral gel",
+   "miconazole"
+  ],
+  "dr_para": [
+   "Paracetamol",
+   "paracetamol",
+   "paracetamol"
+  ],
+  "dr_penv": [
+   "Phenoxymethylpenicillin and benzylpenicillin",
+   "phenoxymethylpenicillin and benzylpenicillin",
+   "phenoxymethylpenicillin",
+   "benzylpenicillin",
+   "penicillin v",
+   "penicillin"
+  ],
+  "dr_piptaz": [
+   "Piperacillin with tazobactam",
+   "piperacillin with tazobactam",
+   "piperacillin",
+   "tazobactam"
+  ],
+  "dr_ponv": [
+   "Antiemetics: ondansetron and others",
+   "antiemetics: ondansetron and others",
+   "antiemetics",
+   "ondansetron"
+  ],
+  "dr_ppi": [
+   "Proton pump inhibitors",
+   "proton pump inhibitors",
+   "proton pump inhibitors",
+   "omeprazole",
+   "lansoprazole",
+   "esomeprazole",
+   "ppi",
+   "ppis"
+  ],
+  "dr_pred": [
+   "Prednisolone",
+   "prednisolone",
+   "prednisolone",
+   "oral steroids",
+   "oral steroid",
+   "oral prednisolone"
+  ],
+  "dr_propr": [
+   "Propranolol for infantile haemangioma",
+   "propranolol for infantile haemangioma",
+   "propranolol for infantile haemangioma",
+   "propranolol"
+  ],
+  "dr_pseudo": [
+   "Oral decongestants",
+   "oral decongestants",
+   "oral decongestants"
+  ],
+  "dr_rev": [
+   "Reversal of anticoagulation",
+   "reversal of anticoagulation",
+   "reversal of anticoagulation"
+  ],
+  "dr_rhinmed": [
+   "Drug-induced rhinitis and smell loss",
+   "drug-induced rhinitis and smell loss",
+   "drug-induced rhinitis"
+  ],
+  "dr_rhtsh": [
+   "Recombinant TSH",
+   "recombinant tsh",
+   "recombinant tsh"
+  ],
+  "dr_saline": [
+   "Saline irrigation",
+   "saline irrigation",
+   "saline irrigation",
+   "nasal douching",
+   "nasal irrigation",
+   "saline nasal irrigation",
+   "sinus rinse"
+  ],
+  "dr_scler": [
+   "Sclerosants",
+   "sclerosants",
+   "sclerosants",
+   "bleomycin",
+   "ok-432",
+   "picibanil",
+   "sclerotherapy",
+   "doxycycline sclerotherapy"
+  ],
+  "dr_taxane": [
+   "Docetaxel and paclitaxel",
+   "docetaxel and paclitaxel",
+   "docetaxel",
+   "paclitaxel"
+  ],
+  "dr_tb": [
+   "Antituberculous drugs",
+   "antituberculous drugs",
+   "antituberculous drugs"
+  ],
+  "dr_tki": [
+   "Targeted therapy for thyroid cancer",
+   "targeted therapy for thyroid cancer",
+   "targeted therapy for thyroid cancer",
+   "lenvatinib",
+   "sorafenib",
+   "selpercatinib",
+   "tyrosine kinase inhibitors"
+  ],
+  "dr_topear": [
+   "Topical anaesthesia of the ear: phenol, EMLA and tetracaine",
+   "topical anaesthesia of the ear: phenol, emla and tetracaine",
+   "topical anaesthesia of the ear",
+   "phenol",
+   "emla"
+  ],
+  "dr_tophaem": [
+   "Topical haemostatic agents",
+   "topical haemostatic agents",
+   "topical haemostatic agents"
+  ],
+  "dr_triam": [
+   "Triamcinolone injection",
+   "triamcinolone injection",
+   "triamcinolone injection"
+  ],
+  "dr_txa": [
+   "Tranexamic acid",
+   "tranexamic acid",
+   "tranexamic acid",
+   "txa"
+  ],
+  "dr_vanc": [
+   "Vancomycin and teicoplanin",
+   "vancomycin and teicoplanin",
+   "vancomycin",
+   "teicoplanin"
+  ],
+  "dr_vitd": [
+   "Active vitamin D: alfacalcidol and calcitriol",
+   "active vitamin d: alfacalcidol and calcitriol",
+   "active vitamin d",
+   "alfacalcidol",
+   "calcitriol"
+  ],
+  "dr_vori": [
+   "Voriconazole and posaconazole",
+   "voriconazole and posaconazole",
+   "voriconazole",
+   "posaconazole"
+  ],
+  "dr_vsupp": [
+   "Vestibular sedatives and antiemetics",
+   "vestibular sedatives and antiemetics",
+   "vestibular sedatives",
+   "prochlorperazine",
+   "cyclizine",
+   "betahistine for vertigo"
+  ],
+  "dr_wax": [
+   "Cerumenolytics",
+   "cerumenolytics",
+   "cerumenolytics",
+   "olive oil",
+   "wax softeners",
+   "sodium bicarbonate ear drops",
+   "ear wax drops"
+  ],
+  "dr_xero": [
+   "Pilocarpine and saliva substitutes",
+   "pilocarpine and saliva substitutes",
+   "pilocarpine",
+   "saliva substitutes"
+  ]
+ },
+ "articles": {
+  "cl:t-dr_5fu": {
+   "e": "dr_5fu"
+  },
+  "cl:t-dr_acic": {
+   "e": "dr_acic"
+  },
+  "cl:t-dr_adren": {
+   "e": "dr_adren"
+  },
+  "cl:t-dr_agno": {
+   "e": "dr_agno"
+  },
+  "cl:t-dr_ahist": {
+   "e": "dr_ahist"
+  },
+  "cl:t-dr_algin": {
+   "e": "dr_algin"
+  },
+  "cl:t-dr_amox": {
+   "e": "dr_amox"
+  },
+  "cl:t-dr_ampho": {
+   "e": "dr_ampho"
+  },
+  "cl:t-dr_anticoag": {
+   "e": "dr_anticoag"
+  },
+  "cl:t-dr_azel": {
+   "e": "dr_azel"
+  },
+  "cl:t-dr_azi": {
+   "e": "dr_azi"
+  },
+  "cl:t-dr_benzo": {
+   "e": "dr_benzo"
+  },
+  "cl:t-dr_benzy": {
+   "e": "dr_benzy"
+  },
+  "cl:t-dr_beta": {
+   "e": "dr_beta"
+  },
+  "cl:t-dr_bev": {
+   "e": "dr_bev"
+  },
+  "cl:t-dr_botox": {
+   "e": "botox"
+  },
+  "cl:t-dr_budir": {
+   "e": "dr_budir"
+  },
+  "cl:t-dr_bupi": {
+   "e": "dr_bupi"
+  },
+  "cl:t-dr_calc": {
+   "e": "dr_calc"
+  },
+  "cl:t-dr_carbi": {
+   "e": "dr_carbi"
+  },
+  "cl:t-dr_carbo": {
+   "e": "dr_carbo"
+  },
+  "cl:t-dr_cefal": {
+   "e": "dr_cefal"
+  },
+  "cl:t-dr_ceftaz": {
+   "e": "dr_ceftaz"
+  },
+  "cl:t-dr_ceftri": {
+   "e": "dr_ceftri"
+  },
+  "cl:t-dr_cetux": {
+   "e": "dr_cetux"
+  },
+  "cl:t-dr_cido": {
+   "e": "dr_cido"
+  },
+  "cl:t-dr_cina": {
+   "e": "dr_cina"
+  },
+  "cl:t-dr_cipro": {
+   "e": "dr_cipro"
+  },
+  "cl:t-dr_cis": {
+   "e": "dr_cis"
+  },
+  "cl:t-dr_clari": {
+   "e": "dr_clari"
+  },
+  "cl:t-dr_clinda": {
+   "e": "dr_clinda"
+  },
+  "cl:t-dr_coamox": {
+   "e": "dr_coamox"
+  },
+  "cl:t-dr_cocaine": {
+   "e": "dr_cocaine"
+  },
+  "cl:t-dr_cophen": {
+   "e": "dr_cophen"
+  },
+  "cl:t-dr_cotrim": {
+   "e": "dr_cotrim"
+  },
+  "cl:t-dr_cromo": {
+   "e": "dr_cromo"
+  },
+  "cl:t-dr_ddavp": {
+   "e": "dr_ddavp"
+  },
+  "cl:t-dr_decon": {
+   "e": "dr_decon"
+  },
+  "cl:t-dr_dexa": {
+   "e": "dr_dexa"
+  },
+  "cl:t-dr_diur": {
+   "e": "dr_diur"
+  },
+  "cl:t-dr_doxy": {
+   "e": "dr_doxy"
+  },
+  "cl:t-dr_dupi": {
+   "e": "dr_dupi"
+  },
+  "cl:t-dr_eacid": {
+   "e": "dr_eacid"
+  },
+  "cl:t-dr_eaf": {
+   "e": "dr_eaf"
+  },
+  "cl:t-dr_eamg": {
+   "e": "dr_eamg"
+  },
+  "cl:t-dr_eqc": {
+   "e": "dr_eqc"
+  },
+  "cl:t-dr_ester": {
+   "e": "dr_ester"
+  },
+  "cl:t-dr_fluc": {
+   "e": "dr_fluc"
+  },
+  "cl:t-dr_fluclox": {
+   "e": "dr_fluclox"
+  },
+  "cl:t-dr_fluor": {
+   "e": "dr_fluor"
+  },
+  "cl:t-dr_gent": {
+   "e": "dr_gent"
+  },
+  "cl:t-dr_glyco": {
+   "e": "dr_glyco"
+  },
+  "cl:t-dr_h2": {
+   "e": "dr_h2"
+  },
+  "cl:t-dr_hae": {
+   "e": "dr_hae"
+  },
+  "cl:t-dr_heliox": {
+   "e": "dr_heliox"
+  },
+  "cl:t-dr_ici": {
+   "e": "dr_ici"
+  },
+  "cl:t-dr_immuno": {
+   "e": "dr_immuno"
+  },
+  "cl:t-dr_ins": {
+   "e": "dr_ins"
+  },
+  "cl:t-dr_iodine": {
+   "e": "dr_iodine"
+  },
+  "cl:t-dr_ipra": {
+   "e": "dr_ipra"
+  },
+  "cl:t-dr_itgent": {
+   "e": "dr_itgent"
+  },
+  "cl:t-dr_itra": {
+   "e": "dr_itra"
+  },
+  "cl:t-dr_itster": {
+   "e": "dr_itster"
+  },
+  "cl:t-dr_levo": {
+   "e": "dr_levo"
+  },
+  "cl:t-dr_lido": {
+   "e": "dr_lido"
+  },
+  "cl:t-dr_linez": {
+   "e": "dr_linez"
+  },
+  "cl:t-dr_mblue": {
+   "e": "dr_mblue"
+  },
+  "cl:t-dr_mepo": {
+   "e": "dr_mepo"
+  },
+  "cl:t-dr_mero": {
+   "e": "dr_mero"
+  },
+  "cl:t-dr_metro": {
+   "e": "dr_metro"
+  },
+  "cl:t-dr_migr": {
+   "e": "dr_migr"
+  },
+  "cl:t-dr_mmc": {
+   "e": "dr_mmc"
+  },
+  "cl:t-dr_montel": {
+   "e": "dr_montel"
+  },
+  "cl:t-dr_mpred": {
+   "e": "dr_mpred"
+  },
+  "cl:t-dr_mtx": {
+   "e": "dr_mtx"
+  },
+  "cl:t-dr_naseptin": {
+   "e": "dr_naseptin"
+  },
+  "cl:t-dr_neuro": {
+   "e": "dr_neuro"
+  },
+  "cl:t-dr_nsaid": {
+   "e": "dr_nsaid"
+  },
+  "cl:t-dr_omal": {
+   "e": "dr_omal"
+  },
+  "cl:t-dr_opioid": {
+   "e": "dr_opioid"
+  },
+  "cl:t-dr_oralaf": {
+   "e": "dr_oralaf"
+  },
+  "cl:t-dr_ototox": {
+   "e": "ototox"
+  },
+  "cl:t-dr_para": {
+   "e": "dr_para"
+  },
+  "cl:t-dr_penv": {
+   "e": "dr_penv"
+  },
+  "cl:t-dr_piptaz": {
+   "e": "dr_piptaz"
+  },
+  "cl:t-dr_ponv": {
+   "e": "dr_ponv"
+  },
+  "cl:t-dr_ppi": {
+   "e": "dr_ppi"
+  },
+  "cl:t-dr_pred": {
+   "e": "dr_pred"
+  },
+  "cl:t-dr_propr": {
+   "e": "dr_propr"
+  },
+  "cl:t-dr_pseudo": {
+   "e": "dr_pseudo"
+  },
+  "cl:t-dr_rai": {
+   "e": "rai"
+  },
+  "cl:t-dr_rev": {
+   "e": "dr_rev"
+  },
+  "cl:t-dr_rhinmed": {
+   "e": "dr_rhinmed"
+  },
+  "cl:t-dr_rhtsh": {
+   "e": "dr_rhtsh"
+  },
+  "cl:t-dr_saline": {
+   "e": "dr_saline"
+  },
+  "cl:t-dr_scler": {
+   "e": "dr_scler"
+  },
+  "cl:t-dr_taxane": {
+   "e": "dr_taxane"
+  },
+  "cl:t-dr_tb": {
+   "e": "dr_tb"
+  },
+  "cl:t-dr_tki": {
+   "e": "dr_tki"
+  },
+  "cl:t-dr_topear": {
+   "e": "dr_topear"
+  },
+  "cl:t-dr_tophaem": {
+   "e": "dr_tophaem"
+  },
+  "cl:t-dr_triam": {
+   "e": "dr_triam"
+  },
+  "cl:t-dr_txa": {
+   "e": "dr_txa"
+  },
+  "cl:t-dr_vanc": {
+   "e": "dr_vanc"
+  },
+  "cl:t-dr_vitd": {
+   "e": "dr_vitd"
+  },
+  "cl:t-dr_vori": {
+   "e": "dr_vori"
+  },
+  "cl:t-dr_vsupp": {
+   "e": "dr_vsupp"
+  },
+  "cl:t-dr_wax": {
+   "e": "dr_wax"
+  },
+  "cl:t-dr_xero": {
+   "e": "dr_xero"
+  }
+ }
+}

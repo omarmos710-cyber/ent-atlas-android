@@ -1,0 +1,1114 @@
+{
+ "about": "Answer map, mouth, pharynx and oesophagus. Format as in ear.json.",
+ "entities": {
+  "adenoid": [
+   "Adenoid hypertrophy",
+   "adenoids",
+   "adenoid",
+   "adenoid hypertrophy",
+   "enlarged adenoids",
+   "adenoid facies",
+   "adenoid face"
+  ],
+  "adenoidectomy": [
+   "Adenoidectomy",
+   "adenoidectomy",
+   "adenoid surgery"
+  ],
+  "nasopharyngitis": [
+   "Nasopharyngitis",
+   "nasopharyngitis",
+   "acute nasopharyngitis",
+   "chronic nasopharyngitis"
+  ],
+  "thornwaldt": [
+   "Thornwaldt disease",
+   "thornwaldt",
+   "thornwaldt cyst",
+   "tornwaldt cyst",
+   "thornwaldt disease"
+  ],
+  "cleft": [
+   "Cleft lip and palate",
+   "cleft lip",
+   "cleft palate",
+   "cleft lip and palate",
+   "orofacial cleft",
+   "submucous cleft"
+  ],
+  "vpi": [
+   "Velopharyngeal insufficiency",
+   "velopharyngeal insufficiency",
+   "velopharyngeal dysfunction",
+   "vpi",
+   "hypernasality",
+   "pharyngoplasty"
+  ],
+  "dnsi": [
+   "Deep neck space infection",
+   "deep neck space infection",
+   "deep neck infection",
+   "deep neck abscess",
+   "neck abscess",
+   "deep neck spaces",
+   "fascial spaces of the neck",
+   "deep cervical fascia"
+  ],
+  "ludwig": [
+   "Ludwig's angina",
+   "ludwig angina",
+   "ludwigs angina",
+   "ludwig's angina",
+   "submandibular space infection"
+  ],
+  "rpa": [
+   "Retropharyngeal abscess",
+   "retropharyngeal abscess",
+   "acute retropharyngeal abscess",
+   "chronic retropharyngeal abscess",
+   "prevertebral abscess"
+  ],
+  "ppa": [
+   "Parapharyngeal abscess",
+   "parapharyngeal abscess",
+   "lateral pharyngeal abscess",
+   "parapharyngeal space infection"
+  ],
+  "lemierre": [
+   "Lemierre syndrome",
+   "lemierre",
+   "lemierre syndrome",
+   "lemierre's syndrome",
+   "internal jugular vein thrombophlebitis"
+  ],
+  "mediastinitis": [
+   "Mediastinitis",
+   "mediastinitis",
+   "descending mediastinitis"
+  ],
+  "nf": [
+   "Necrotising fasciitis of the neck",
+   "necrotising fasciitis",
+   "necrotizing fasciitis",
+   "cervical necrotising fasciitis"
+  ],
+  "fbswallow": [
+   "Swallowed foreign bodies",
+   "swallowed foreign body",
+   "swallowed foreign bodies",
+   "ingested foreign body",
+   "foreign body in the oesophagus",
+   "oesophageal foreign body",
+   "foreign body oesophagus",
+   "foreign body in the throat",
+   "fish bone",
+   "fishbone",
+   "coin",
+   "swallowed coin",
+   "foreign body in the pharynx"
+  ],
+  "battery": [
+   "Button battery",
+   "button battery",
+   "button batteries",
+   "disc battery",
+   "disc batteries"
+  ],
+  "magnets": [
+   "Swallowed magnets",
+   "magnets",
+   "swallowed magnets"
+  ],
+  "bolus": [
+   "Food bolus impaction",
+   "food bolus",
+   "food bolus impaction",
+   "food bolus obstruction",
+   "meat bolus"
+  ],
+  "hypoca": [
+   "Carcinoma of the hypopharynx",
+   "carcinoma of the hypopharynx",
+   "hypopharyngeal carcinoma",
+   "hypopharyngeal cancer",
+   "hypopharynx cancer",
+   "cancer of the hypopharynx"
+  ],
+  "pyrca": [
+   "Carcinoma of the piriform sinus",
+   "carcinoma of the piriform sinus",
+   "piriform sinus carcinoma",
+   "pyriform fossa carcinoma",
+   "pyriform sinus carcinoma",
+   "piriform fossa cancer"
+  ],
+  "pcca": [
+   "Postcricoid carcinoma",
+   "postcricoid carcinoma",
+   "post cricoid carcinoma",
+   "carcinoma of the postcricoid region"
+  ],
+  "quinsy": [
+   "Quinsy",
+   "quinsy",
+   "peritonsillar abscess",
+   "peritonsillar cellulitis"
+  ],
+  "tonguetie": [
+   "Tongue-tie",
+   "tongue tie",
+   "tongue-tie",
+   "ankyloglossia",
+   "frenotomy",
+   "frenuloplasty"
+  ],
+  "lipbiopsy": [
+   "Lip biopsy",
+   "lip biopsy",
+   "minor salivary gland biopsy",
+   "labial gland biopsy"
+  ],
+  "drooling": [
+   "Drooling",
+   "drooling",
+   "sialorrhoea",
+   "sialorrhea",
+   "hypersalivation"
+  ],
+  "npc": [
+   "Nasopharyngeal carcinoma",
+   "nasopharyngeal carcinoma",
+   "nasopharyngeal cancer",
+   "npc",
+   "cancer of the nasopharynx",
+   "carcinoma of the nasopharynx",
+   "trotter triad",
+   "trotter's triad"
+  ],
+  "oesophagus": [
+   "Oesophagus",
+   "oesophagus",
+   "esophagus",
+   "oesophageal anatomy",
+   "constrictions of the oesophagus"
+  ],
+  "dysphagia": [
+   "Dysphagia",
+   "dysphagia",
+   "difficulty swallowing",
+   "swallowing difficulty",
+   "odynophagia"
+  ],
+  "gord": [
+   "Gastro-oesophageal reflux disease",
+   "gord",
+   "gerd",
+   "gastro-oesophageal reflux disease",
+   "gastroesophageal reflux",
+   "reflux oesophagitis",
+   "heartburn",
+   "barrett oesophagus"
+  ],
+  "oesophagitis": [
+   "Oesophagitis",
+   "oesophagitis",
+   "esophagitis",
+   "infective oesophagitis",
+   "pill oesophagitis",
+   "radiation oesophagitis"
+  ],
+  "eoe": [
+   "Eosinophilic oesophagitis",
+   "eosinophilic oesophagitis",
+   "eosinophilic esophagitis",
+   "eoe"
+  ],
+  "caustic": [
+   "Caustic injury",
+   "caustic injury",
+   "corrosive injury",
+   "caustic ingestion",
+   "corrosive ingestion",
+   "lye ingestion",
+   "acid ingestion",
+   "alkali ingestion",
+   "caustic oesophagitis"
+  ],
+  "oesperf": [
+   "Oesophageal perforation",
+   "oesophageal perforation",
+   "esophageal perforation",
+   "perforation of the oesophagus",
+   "boerhaave"
+  ],
+  "achalasia": [
+   "Achalasia",
+   "achalasia",
+   "achalasia cardia",
+   "cardiospasm"
+  ],
+  "spastic": [
+   "Spastic oesophageal disorders",
+   "diffuse oesophageal spasm",
+   "nutcracker oesophagus",
+   "oesophageal spasm"
+  ],
+  "cpd": [
+   "Cricopharyngeal dysfunction",
+   "cricopharyngeal dysfunction",
+   "cricopharyngeal achalasia",
+   "cricopharyngeal bar",
+   "cricopharyngeal spasm",
+   "cricopharyngeal myotomy"
+  ],
+  "pvs": [
+   "Plummer-Vinson syndrome",
+   "plummer vinson",
+   "plummer-vinson syndrome",
+   "paterson brown kelly",
+   "paterson-brown-kelly syndrome",
+   "sideropenic dysphagia",
+   "post cricoid web",
+   "oesophageal web"
+  ],
+  "schatzki": [
+   "Schatzki ring",
+   "schatzki ring",
+   "schatzki"
+  ],
+  "diverticula": [
+   "Oesophageal diverticula",
+   "oesophageal diverticulum",
+   "oesophageal diverticula",
+   "epiphrenic diverticulum",
+   "traction diverticulum"
+  ],
+  "hiatus": [
+   "Hiatus hernia",
+   "hiatus hernia",
+   "hiatal hernia"
+  ],
+  "stricture": [
+   "Oesophageal stricture",
+   "oesophageal stricture",
+   "esophageal stricture",
+   "benign stricture"
+  ],
+  "toef": [
+   "Tracheo-oesophageal fistula",
+   "tracheo-oesophageal fistula",
+   "tracheoesophageal fistula",
+   "oesophageal atresia",
+   "tof",
+   "h-type fistula"
+  ],
+  "oesca": [
+   "Oesophageal cancer",
+   "oesophageal cancer",
+   "esophageal cancer",
+   "carcinoma of the oesophagus",
+   "oesophageal carcinoma",
+   "cancer of the oesophagus"
+  ],
+  "oesoscopy": [
+   "Oesophagoscopy",
+   "oesophagoscopy",
+   "esophagoscopy",
+   "rigid oesophagoscopy",
+   "flexible oesophagoscopy",
+   "transnasal oesophagoscopy"
+  ],
+  "opmd": [
+   "Oral potentially malignant disorders",
+   "oral potentially malignant disorders",
+   "potentially malignant disorders",
+   "premalignant oral lesions",
+   "oral premalignant lesions",
+   "precancerous lesions of the mouth"
+  ],
+  "oralca": [
+   "Oral cancer",
+   "oral cancer",
+   "mouth cancer",
+   "oral squamous cell carcinoma",
+   "oral cavity cancer",
+   "carcinoma of the oral cavity",
+   "cancer of the mouth",
+   "oral carcinoma"
+  ],
+  "tongueca": [
+   "Carcinoma of the tongue",
+   "carcinoma of the tongue",
+   "tongue cancer",
+   "cancer of the tongue",
+   "oral tongue cancer"
+  ],
+  "lipca": [
+   "Carcinoma of the lip",
+   "carcinoma of the lip",
+   "lip cancer",
+   "cancer of the lip"
+  ],
+  "buccalca": [
+   "Carcinoma of the buccal mucosa",
+   "buccal mucosa cancer",
+   "carcinoma of the buccal mucosa",
+   "cheek cancer",
+   "buccal carcinoma"
+  ],
+  "fomca": [
+   "Carcinoma of the floor of the mouth",
+   "floor of mouth cancer",
+   "carcinoma of the floor of the mouth"
+  ],
+  "oropca": [
+   "Oropharyngeal cancer",
+   "oropharyngeal cancer",
+   "oropharyngeal carcinoma",
+   "carcinoma of the oropharynx",
+   "cancer of the oropharynx",
+   "hpv oropharyngeal cancer",
+   "hpv positive oropharyngeal cancer",
+   "tonsil cancer",
+   "carcinoma of the tonsil",
+   "tonsillar carcinoma",
+   "base of tongue cancer",
+   "carcinoma of the base of tongue"
+  ],
+  "oralanat": [
+   "Anatomy of the oral cavity",
+   "oral cavity",
+   "anatomy of the oral cavity",
+   "oral cavity anatomy",
+   "mouth anatomy"
+  ],
+  "tongue": [
+   "The tongue",
+   "tongue",
+   "anatomy of the tongue",
+   "tongue anatomy",
+   "nerve supply of the tongue",
+   "taste",
+   "papillae"
+  ],
+  "teeth": [
+   "Teeth and jaws",
+   "teeth",
+   "dentition",
+   "tooth",
+   "gums",
+   "gingiva",
+   "muscles of mastication"
+  ],
+  "palate": [
+   "The palate",
+   "palate",
+   "hard palate",
+   "soft palate",
+   "floor of mouth"
+  ],
+  "papilloma_oral": [
+   "Oral papilloma",
+   "oral papilloma"
+  ],
+  "fibroma": [
+   "Fibroepithelial polyp",
+   "fibroma",
+   "fibroepithelial polyp",
+   "irritation fibroma"
+  ],
+  "torus": [
+   "Torus",
+   "torus",
+   "torus palatinus",
+   "torus mandibularis"
+  ],
+  "pyogenic": [
+   "Pyogenic granuloma",
+   "pyogenic granuloma",
+   "epulis",
+   "pregnancy epulis"
+  ],
+  "mucocele": [
+   "Mucocele",
+   "mucocele",
+   "mucous retention cyst",
+   "mucous extravasation cyst"
+  ],
+  "ranula": [
+   "Ranula",
+   "ranula",
+   "plunging ranula"
+  ],
+  "leukoplakia": [
+   "Leukoplakia",
+   "leukoplakia",
+   "leucoplakia",
+   "white patch",
+   "white patches",
+   "oral leukoplakia"
+  ],
+  "erythroplakia": [
+   "Erythroplakia",
+   "erythroplakia",
+   "red patch",
+   "erythroplasia"
+  ],
+  "oralulcer": [
+   "Oral ulcers",
+   "oral ulcer",
+   "oral ulcers",
+   "mouth ulcer",
+   "mouth ulcers",
+   "ulcer in the mouth"
+  ],
+  "herpesoral": [
+   "Viral infections of the mouth",
+   "herpes simplex stomatitis",
+   "herpetic gingivostomatitis",
+   "herpangina",
+   "hand foot and mouth disease"
+  ],
+  "candida": [
+   "Oral candidiasis",
+   "oral candidiasis",
+   "oral thrush",
+   "thrush",
+   "candidiasis",
+   "candida",
+   "oral candida",
+   "moniliasis"
+  ],
+  "aphthous": [
+   "Aphthous ulcers",
+   "aphthous ulcers",
+   "aphthous ulcer",
+   "aphthae",
+   "recurrent aphthous stomatitis",
+   "canker sore",
+   "canker sores",
+   "minor aphthous ulcers",
+   "major aphthous ulcers"
+  ],
+  "behcet": [
+   "Behçet syndrome",
+   "behcet",
+   "behcets",
+   "behcet syndrome",
+   "behcet disease",
+   "behçet syndrome"
+  ],
+  "em": [
+   "Erythema multiforme",
+   "erythema multiforme",
+   "stevens johnson",
+   "stevens-johnson syndrome"
+  ],
+  "lichen": [
+   "Oral lichen planus",
+   "lichen planus",
+   "oral lichen planus"
+  ],
+  "pemphigus": [
+   "Pemphigus and pemphigoid",
+   "pemphigus",
+   "pemphigoid",
+   "pemphigus vulgaris",
+   "mucous membrane pemphigoid"
+  ],
+  "mucositis": [
+   "Mucositis",
+   "mucositis",
+   "oral mucositis",
+   "radiation mucositis"
+  ],
+  "geotongue": [
+   "Geographic tongue",
+   "geographic tongue",
+   "black hairy tongue",
+   "hairy tongue",
+   "fissured tongue",
+   "median rhomboid glossitis",
+   "glossitis"
+  ],
+  "macroglossia": [
+   "Macroglossia",
+   "macroglossia",
+   "enlarged tongue"
+  ],
+  "osmf": [
+   "Oral submucous fibrosis",
+   "submucous fibrosis",
+   "oral submucous fibrosis",
+   "osmf",
+   "osf"
+  ],
+  "odontcyst": [
+   "Odontogenic cysts",
+   "odontogenic cyst",
+   "odontogenic cysts",
+   "dentigerous cyst",
+   "radicular cyst",
+   "dental cyst",
+   "periapical cyst"
+  ],
+  "osa": [
+   "Obstructive sleep apnoea",
+   "obstructive sleep apnoea",
+   "obstructive sleep apnea",
+   "osa",
+   "sleep apnoea",
+   "sleep apnea",
+   "osas",
+   "sleep disordered breathing",
+   "sleep-disordered breathing"
+  ],
+  "snoring": [
+   "Snoring",
+   "snoring",
+   "simple snoring",
+   "primary snoring"
+  ],
+  "paedosa": [
+   "Obstructive sleep apnoea in children",
+   "paediatric osa",
+   "osa in children",
+   "sleep apnoea in children",
+   "obstructive sleep apnoea in children"
+  ],
+  "cpap": [
+   "CPAP",
+   "cpap",
+   "positive airway pressure",
+   "continuous positive airway pressure"
+  ],
+  "uppp": [
+   "Palatal surgery for sleep apnoea",
+   "uppp",
+   "uvulopalatopharyngoplasty",
+   "palatal surgery",
+   "uvulopalatoplasty"
+  ],
+  "hns": [
+   "Hypoglossal nerve stimulation",
+   "hypoglossal nerve stimulation",
+   "hypoglossal nerve stimulator",
+   "inspire"
+  ],
+  "polysomnography": [
+   "Sleep studies",
+   "sleep study",
+   "sleep studies",
+   "polysomnography",
+   "psg",
+   "ahi",
+   "apnoea hypopnoea index",
+   "epworth sleepiness scale"
+  ],
+  "pharynx": [
+   "Pharynx (anatomy)",
+   "pharynx",
+   "anatomy of the pharynx",
+   "pharyngeal anatomy",
+   "pharyngeal constrictors",
+   "pharyngeal wall"
+  ],
+  "killian": [
+   "Killian's dehiscence",
+   "killian's dehiscence",
+   "killian dehiscence",
+   "killians dehiscence"
+  ],
+  "waldeyer": [
+   "Waldeyer's ring",
+   "waldeyer's ring",
+   "waldeyer ring",
+   "waldeyers ring"
+  ],
+  "nasopharynx": [
+   "Nasopharynx",
+   "nasopharynx",
+   "fossa of rosenmuller",
+   "fossa of rosenmüller",
+   "pharyngeal recess"
+  ],
+  "oropharynx": [
+   "Oropharynx",
+   "oropharynx"
+  ],
+  "hypopharynx": [
+   "Hypopharynx",
+   "hypopharynx",
+   "piriform fossa",
+   "pyriform fossa",
+   "laryngopharynx"
+  ],
+  "swallowing": [
+   "Swallowing",
+   "swallowing",
+   "deglutition",
+   "phases of swallowing",
+   "stages of swallowing"
+  ],
+  "pharyngitis": [
+   "Pharyngitis",
+   "pharyngitis",
+   "acute pharyngitis",
+   "viral pharyngitis",
+   "bacterial pharyngitis",
+   "strep throat"
+  ],
+  "chronphar": [
+   "Chronic pharyngitis",
+   "chronic pharyngitis",
+   "granular pharyngitis",
+   "atrophic pharyngitis",
+   "pharyngitis sicca",
+   "chronic sore throat"
+  ],
+  "glandular": [
+   "Infectious mononucleosis",
+   "infectious mononucleosis",
+   "glandular fever",
+   "ebv",
+   "epstein barr",
+   "mono"
+  ],
+  "angioedema": [
+   "Angioedema",
+   "angioedema",
+   "quincke disease",
+   "quincke oedema",
+   "uvular oedema"
+  ],
+  "kerpharyngis": [
+   "Keratosis pharyngis",
+   "keratosis pharyngis"
+  ],
+  "eagle": [
+   "Eagle syndrome",
+   "eagle syndrome",
+   "styalgia",
+   "elongated styloid process",
+   "stylalgia"
+  ],
+  "gpn": [
+   "Glossopharyngeal neuralgia",
+   "glossopharyngeal neuralgia"
+  ],
+  "globus": [
+   "Globus",
+   "globus",
+   "globus pharyngeus",
+   "globus sensation",
+   "lump in the throat"
+  ],
+  "pouch": [
+   "Pharyngeal pouch",
+   "pharyngeal pouch",
+   "zenker diverticulum",
+   "zenker's diverticulum",
+   "zenkers diverticulum",
+   "hypopharyngeal diverticulum",
+   "pharyngo-oesophageal diverticulum"
+  ],
+  "down": [
+   "Down syndrome",
+   "down syndrome",
+   "trisomy 21",
+   "down's syndrome"
+  ],
+  "treacher": [
+   "Treacher Collins syndrome",
+   "treacher collins",
+   "treacher collins syndrome",
+   "mandibulofacial dysostosis"
+  ],
+  "goldenhar": [
+   "Goldenhar syndrome",
+   "goldenhar",
+   "goldenhar syndrome",
+   "hemifacial microsomia"
+  ],
+  "pierrerobin": [
+   "Pierre Robin sequence",
+   "pierre robin",
+   "pierre robin sequence",
+   "robin sequence",
+   "stickler syndrome"
+  ],
+  "charge": [
+   "CHARGE syndrome",
+   "charge syndrome",
+   "charge association"
+  ],
+  "22q": [
+   "22q11.2 deletion syndrome",
+   "22q11 deletion",
+   "digeorge",
+   "velocardiofacial syndrome",
+   "22q11.2 deletion syndrome"
+  ],
+  "usher": [
+   "Syndromes with sensorineural hearing loss",
+   "usher syndrome",
+   "pendred syndrome",
+   "waardenburg syndrome",
+   "alport syndrome",
+   "jervell lange-nielsen",
+   "jervell and lange-nielsen syndrome",
+   "syndromic hearing loss"
+  ],
+  "tonsillitis": [
+   "Acute tonsillitis",
+   "tonsillitis",
+   "acute tonsillitis",
+   "tonsilitis",
+   "acute follicular tonsillitis",
+   "streptococcal tonsillitis",
+   "centor criteria",
+   "centor",
+   "feverpain"
+  ],
+  "chrtonsil": [
+   "Chronic tonsillitis",
+   "chronic tonsillitis",
+   "recurrent tonsillitis",
+   "tonsillolith",
+   "tonsil stones",
+   "intratonsillar abscess"
+  ],
+  "membrane": [
+   "Membrane on the tonsil",
+   "membrane on the tonsil",
+   "membranous tonsillitis",
+   "white membrane on tonsil",
+   "tonsillar membrane"
+  ],
+  "diphtheria": [
+   "Diphtheria",
+   "diphtheria",
+   "faucial diphtheria"
+  ],
+  "tonsillectomy": [
+   "Tonsillectomy",
+   "tonsillectomy",
+   "tonsil surgery",
+   "removal of tonsils",
+   "coblation tonsillectomy",
+   "tonsillotomy",
+   "intracapsular tonsillectomy"
+  ],
+  "ptb": [
+   "Post-tonsillectomy haemorrhage",
+   "post-tonsillectomy haemorrhage",
+   "post tonsillectomy haemorrhage",
+   "post tonsillectomy bleeding",
+   "post-tonsillectomy bleeding",
+   "tonsillectomy bleeding",
+   "secondary haemorrhage after tonsillectomy",
+   "primary haemorrhage after tonsillectomy",
+   "reactionary haemorrhage",
+   "tonsillar haemorrhage",
+   "bleeding tonsil",
+   "bleeding after tonsillectomy"
+  ],
+  "palatine": [
+   "Palatine tonsil",
+   "palatine tonsil",
+   "tonsil",
+   "tonsils",
+   "anatomy of the tonsil",
+   "tonsillar bed",
+   "tonsil blood supply"
+  ],
+  "lingualtonsil": [
+   "Lingual tonsil",
+   "lingual tonsil",
+   "lingual tonsillitis"
+  ],
+  "pfapa": [
+   "PFAPA",
+   "pfapa",
+   "periodic fever",
+   "periodic fever aphthous stomatitis pharyngitis adenitis"
+  ]
+ },
+ "articles": {
+  "cl:t-adenoid": {
+   "e": "adenoid",
+   "c": {
+    "The adenoid": "adenoid",
+    "The operation": "adenoidectomy"
+   },
+   "s": {
+    "Endoscopic techniques": "adenoidectomy",
+    "Acute nasopharyngitis": "nasopharyngitis",
+    "Chronic nasopharyngitis": "nasopharyngitis",
+    "Thornwaldt disease": "thornwaldt"
+   }
+  },
+  "cl:t-cleft": {
+   "e": "cleft",
+   "c": {
+    "Velopharyngeal dysfunction": "vpi"
+   }
+  },
+  "cl:t-deepneck": {
+   "e": "dnsi",
+   "c": {
+    "Fascia and spaces": "dnsi"
+   },
+   "s": {
+    "Acute retropharyngeal abscess": "rpa",
+    "Chronic retropharyngeal (prevertebral) abscess": "rpa",
+    "Parotid abscess": "-",
+    "Masticator space": "dnsi",
+    "Carotid erosion": "dnsi",
+    "Cavernous sinus thrombosis": "dnsi"
+   }
+  },
+  "cl:t-fbfood": {
+   "e": "fbswallow",
+   "s": {
+    "Button (disc) batteries": "battery",
+    "Magnets": "magnets",
+    "Food bolus impaction": "bolus",
+    "Sharp and long objects": "fbswallow",
+    "Objects beyond the stomach": "fbswallow",
+    "The pharynx": "fbswallow",
+    "The oesophagus": "fbswallow"
+   }
+  },
+  "cl:t-hypoca": {
+   "e": "hypoca",
+   "c": {
+    "Carcinoma of the piriform sinus": "pyrca",
+    "Carcinoma of the postcricoid region": "pcca",
+    "Posterior pharyngeal wall": "hypoca"
+   }
+  },
+  "cl:t-mouthminor": {
+   "e": "-",
+   "c": {
+    "Quinsy drainage": "quinsy",
+    "Tongue-tie division": "tonguetie",
+    "Lip biopsy of the minor salivary glands": "lipbiopsy",
+    "Drooling": "drooling"
+   }
+  },
+  "cl:t-npc": {
+   "e": "npc",
+   "s": {
+    "Tumours of the nasopharynx": "npc",
+    "Ear": "npc",
+    "Nose": "npc",
+    "Eye and nerves": "npc",
+    "Cervical nodes": "npc"
+   }
+  },
+  "cl:t-oesoph": {
+   "e": "oesophagus",
+   "c": {
+    "Swallowing": "swallowing",
+    "Approach to dysphagia": "dysphagia",
+    "Inflammation and injury": "oesophagitis",
+    "Motility disorders": "-",
+    "Structural disorders": "-",
+    "Tumours": "-",
+    "Oesophagoscopy": "oesoscopy"
+   },
+   "s": {
+    "Gastro-oesophageal reflux disease": "gord",
+    "Caustic (corrosive) injury": "caustic",
+    "Perforation": "oesperf",
+    "Spastic disorders": "spastic",
+    "Plummer–Vinson (Paterson–Brown-Kelly) syndrome": "pvs",
+    "Diverticula": "diverticula",
+    "Strictures": "stricture",
+    "Congenital anomalies": "toef",
+    "Benign tumours": "-",
+    "Oesophageal cancer": "oesca",
+    "Rigid oesophagoscopy": "oesoscopy",
+    "Flexible and transnasal oesophagoscopy": "oesoscopy"
+   }
+  },
+  "cl:t-oral_ca": {
+   "e": "oralca",
+   "c": {
+    "Potentially malignant disorders": "opmd",
+    "Oral squamous cell carcinoma": "oralca"
+   }
+  },
+  "cl:t-oralanat": {
+   "e": "oralanat",
+   "c": {
+    "The tongue": "tongue",
+    "Teeth, gums and jaws": "teeth",
+    "Palate and floor": "palate"
+   },
+   "s": {
+    "Muscles of mastication": "teeth"
+   }
+  },
+  "cl:t-oralbenign": {
+   "e": "-",
+   "s": {
+    "Papilloma": "papilloma_oral",
+    "Fibroma (fibroepithelial polyp)": "fibroma",
+    "Dermoid": "-",
+    "Haemangioma": "-",
+    "Lymphangioma": "-",
+    "Granular cell tumour": "-",
+    "Minor salivary gland tumours": "-",
+    "Pigmented lesions": "-",
+    "Chemoprevention": "leukoplakia"
+   }
+  },
+  "cl:t-oraldis": {
+   "e": "oralulcer",
+   "c": {
+    "The tongue": "tongue",
+    "Submucous fibrosis": "osmf",
+    "Odontogenic cysts": "odontcyst",
+    "Infections": "oralulcer"
+   },
+   "s": {
+    "Viral": "herpesoral",
+    "Fungal: candidiasis": "candida",
+    "Bacterial": "oralulcer",
+    "Mucositis": "mucositis",
+    "Variants": "geotongue",
+    "Tongue-tie (ankyloglossia)": "tonguetie",
+    "Macroglossia": "macroglossia",
+    "Systemic clues": "tongue",
+    "Pigmentation": "-",
+    "Nicotine stomatitis": "-",
+    "Blood disorders and drugs": "oralulcer",
+    "Dentigerous cyst": "odontcyst",
+    "Dental (radicular) cyst": "odontcyst"
+   }
+  },
+  "cl:t-osa": {
+   "e": "osa",
+   "c": {
+    "Children": "paedosa"
+   },
+   "s": {
+    "Snoring": "snoring",
+    "Sleep studies": "polysomnography",
+    "Positive airway pressure": "cpap",
+    "Palate and oropharynx": "uppp",
+    "Hypoglossal nerve stimulation": "hns",
+    "Who and why": "paedosa"
+   }
+  },
+  "cl:t-pharanat": {
+   "e": "pharynx",
+   "c": {
+    "Waldeyer's ring": "waldeyer",
+    "Nasopharynx": "nasopharynx",
+    "Oropharynx": "oropharynx",
+    "Hypopharynx": "hypopharynx",
+    "Swallowing": "swallowing"
+   },
+   "s": {
+    "Killian's dehiscence": "killian",
+    "The palatine tonsil": "palatine",
+    "Soft palate": "palate"
+   }
+  },
+  "cl:t-pharyngitis": {
+   "e": "pharyngitis",
+   "c": {
+    "Acute pharyngitis": "pharyngitis",
+    "Viral pharyngitis": "pharyngitis",
+    "Chronic pharyngitis": "chronphar",
+    "Throat pain without inflammation": "-"
+   },
+   "s": {
+    "Infectious mononucleosis": "glandular",
+    "Candida": "candida",
+    "Quincke disease": "angioedema",
+    "Angioedema": "angioedema",
+    "Keratosis pharyngis": "kerpharyngis",
+    "Eagle syndrome (styalgia)": "eagle",
+    "Glossopharyngeal neuralgia": "gpn",
+    "Globus": "globus"
+   }
+  },
+  "cl:t-pouch": {
+   "e": "-",
+   "c": {
+    "Dysphagia": "dysphagia",
+    "Pharyngeal pouch": "pouch"
+   }
+  },
+  "cl:t-syndr": {
+   "e": "-",
+   "c": {
+    "Down syndrome": "down",
+    "Syndromes with sensorineural loss": "usher"
+   },
+   "s": {
+    "Treacher Collins syndrome": "treacher",
+    "Goldenhar syndrome (hemifacial microsomia)": "goldenhar",
+    "Pierre Robin sequence and Stickler syndrome": "pierrerobin",
+    "CHARGE syndrome in ENT": "charge",
+    "22q11.2 deletion syndrome": "22q",
+    "The ears": "down",
+    "The airway": "down",
+    "The neck": "down"
+   }
+  },
+  "cl:t-tonsil": {
+   "e": "tonsillitis",
+   "c": {
+    "Applied anatomy": "palatine",
+    "Acute tonsillitis": "tonsillitis",
+    "The membrane on the tonsil": "membrane",
+    "Chronic tonsillitis": "chrtonsil",
+    "Peritonsillar abscess": "quinsy",
+    "Tonsillectomy": "tonsillectomy"
+   },
+   "s": {
+    "Position and surfaces": "palatine",
+    "Bed and relations": "palatine",
+    "Blood supply": "palatine",
+    "Lymph and nerves": "palatine",
+    "Function": "palatine",
+    "Faucial diphtheria": "diphtheria",
+    "Lingual tonsil": "lingualtonsil",
+    "Periodic fever (PFAPA)": "pfapa",
+    "Contraindications": "tonsillectomy",
+    "Who needs a specialist centre": "tonsillectomy"
+   }
+  },
+  "cl:t-tonsil_ca": {
+   "e": "-",
+   "c": {
+    "Oral cavity cancer": "oralca",
+    "Oropharyngeal cancer": "oropca",
+    "Non-squamous cancers": "-"
+   },
+   "s": {
+    "Lip": "lipca",
+    "Buccal mucosa": "buccalca",
+    "Oral tongue": "tongueca",
+    "Floor of mouth": "fomca",
+    "Alveolus (gingiva)": "oralca",
+    "Retromolar trigone": "oralca",
+    "Hard palate": "oralca",
+    "The mandible": "oralca",
+    "Base of tongue": "oropca",
+    "Tonsil and tonsillar fossa": "oropca",
+    "Faucial arch (soft palate, uvula, anterior pillar)": "oropca",
+    "Posterior and lateral pharyngeal walls": "oropca",
+    "Benign tumours of the oropharynx": "-",
+    "Field cancerisation": "oralca",
+    "Gross forms": "oralca",
+    "Subsites": "oralca"
+   }
+  }
+ }
+}

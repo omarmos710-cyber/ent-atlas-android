@@ -1,0 +1,783 @@
+{
+ "about": "Answer map, larynx, trachea and airway. Format as in ear.json.",
+ "entities": {
+  "sharedairway": [
+   "Anaesthesia and the shared airway",
+   "shared airway",
+   "anaesthesia for ent",
+   "laser safety",
+   "throat pack",
+   "jet ventilation"
+  ],
+  "nodules": [
+   "Vocal nodules",
+   "vocal nodules",
+   "vocal fold nodules",
+   "vocal cord nodules",
+   "singer's nodules",
+   "singers nodules",
+   "screamer's nodules",
+   "nodules"
+  ],
+  "polyp_vf": [
+   "Vocal fold polyp",
+   "vocal polyp",
+   "vocal fold polyp",
+   "vocal cord polyp"
+  ],
+  "reinke": [
+   "Reinke's oedema",
+   "reinke",
+   "reinke's oedema",
+   "reinkes oedema",
+   "reinke oedema",
+   "polypoid degeneration",
+   "polypoid corditis"
+  ],
+  "contactulcer": [
+   "Contact ulcer and granuloma",
+   "contact ulcer",
+   "contact granuloma",
+   "vocal process granuloma",
+   "intubation granuloma",
+   "laryngeal granuloma"
+  ],
+  "lxleuko": [
+   "Laryngeal leukoplakia and keratosis",
+   "laryngeal leukoplakia",
+   "keratosis of the larynx",
+   "vocal fold leukoplakia",
+   "laryngeal keratosis",
+   "laryngeal dysplasia"
+  ],
+  "vfcyst": [
+   "Vocal fold cyst",
+   "vocal fold cyst",
+   "vocal cord cyst",
+   "intracordal cyst",
+   "retention cyst of the vocal fold"
+  ],
+  "laryngocele": [
+   "Laryngocele",
+   "laryngocele",
+   "saccular cyst",
+   "laryngeal saccule"
+  ],
+  "sulcus": [
+   "Sulcus vocalis",
+   "sulcus vocalis",
+   "vocal fold sulcus"
+  ],
+  "rrp": [
+   "Recurrent respiratory papillomatosis",
+   "recurrent respiratory papillomatosis",
+   "laryngeal papillomatosis",
+   "juvenile papillomatosis",
+   "laryngeal papilloma",
+   "rrp",
+   "papillomatosis"
+  ],
+  "benignvf": [
+   "Benign vocal fold lesions",
+   "benign vocal fold lesions",
+   "benign lesions of the larynx",
+   "benign laryngeal lesions",
+   "phonotraumatic lesions"
+  ],
+  "acutelaryngitis": [
+   "Acute laryngitis",
+   "acute laryngitis",
+   "laryngitis"
+  ],
+  "epiglottitis": [
+   "Acute epiglottitis",
+   "epiglottitis",
+   "acute epiglottitis",
+   "supraglottitis",
+   "acute supraglottitis"
+  ],
+  "croup": [
+   "Croup",
+   "croup",
+   "laryngotracheobronchitis",
+   "acute laryngotracheobronchitis",
+   "spasmodic croup",
+   "westley score",
+   "westley croup score"
+  ],
+  "tracheitis": [
+   "Bacterial tracheitis",
+   "bacterial tracheitis",
+   "membranous croup",
+   "acute membranous laryngitis"
+  ],
+  "lxdiphth": [
+   "Laryngeal diphtheria",
+   "laryngeal diphtheria"
+  ],
+  "lxoedema": [
+   "Laryngeal oedema",
+   "laryngeal oedema",
+   "laryngeal edema",
+   "oedema of the larynx"
+  ],
+  "airwayfb": [
+   "Foreign body in the airway",
+   "airway foreign body",
+   "foreign body in the airway",
+   "inhaled foreign body",
+   "foreign body aspiration",
+   "aspirated foreign body",
+   "bronchial foreign body",
+   "laryngeal foreign body",
+   "tracheobronchial foreign body",
+   "inhaled peanut"
+  ],
+  "fona": [
+   "Emergency front-of-neck access",
+   "front of neck access",
+   "front-of-neck access",
+   "fona",
+   "cricothyroidotomy",
+   "cricothyrotomy",
+   "emergency cricothyroidotomy",
+   "needle cricothyroidotomy",
+   "cannot intubate cannot oxygenate",
+   "cico"
+  ],
+  "arterialligation": [
+   "Arterial ligation for bleeding",
+   "arterial ligation",
+   "external carotid artery ligation",
+   "maxillary artery ligation",
+   "anterior ethmoidal artery ligation",
+   "ligation of the external carotid"
+  ],
+  "chlaryngitis": [
+   "Chronic laryngitis",
+   "chronic laryngitis",
+   "chronic non-specific laryngitis",
+   "chronic hypertrophic laryngitis",
+   "chronic hyperplastic laryngitis",
+   "pachydermia laryngis",
+   "atrophic laryngitis",
+   "laryngitis sicca"
+  ],
+  "lpr": [
+   "Laryngopharyngeal reflux",
+   "laryngopharyngeal reflux",
+   "lpr",
+   "reflux laryngitis",
+   "laryngeal reflux",
+   "silent reflux",
+   "reflux symptom index"
+  ],
+  "lxtb": [
+   "Tuberculosis of the larynx",
+   "tuberculosis of the larynx",
+   "laryngeal tuberculosis",
+   "tb larynx",
+   "tuberculous laryngitis"
+  ],
+  "lxspecific": [
+   "Specific infections of the larynx",
+   "laryngeal syphilis",
+   "lupus of the larynx",
+   "leprosy of the larynx",
+   "scleroma of the larynx",
+   "fungal laryngitis",
+   "laryngeal candidiasis"
+  ],
+  "laser": [
+   "Lasers in ENT",
+   "laser",
+   "lasers",
+   "co2 laser",
+   "ktp laser",
+   "laser surgery"
+  ],
+  "coblation": [
+   "Radiofrequency and coblation",
+   "coblation",
+   "radiofrequency",
+   "radiofrequency ablation"
+  ],
+  "cryo": [
+   "Cryosurgery",
+   "cryosurgery",
+   "cryotherapy"
+  ],
+  "hbo": [
+   "Hyperbaric oxygen",
+   "hyperbaric oxygen",
+   "hbo",
+   "hbot",
+   "hyperbaric oxygen therapy"
+  ],
+  "larynx": [
+   "Larynx (anatomy)",
+   "larynx",
+   "anatomy of the larynx",
+   "laryngeal anatomy",
+   "laryngeal cartilages",
+   "cartilages of the larynx",
+   "intrinsic muscles of the larynx",
+   "laryngeal muscles",
+   "functions of the larynx",
+   "phonation",
+   "glottis",
+   "vocal folds",
+   "vocal cords"
+  ],
+  "lxnerves": [
+   "Nerve supply of the larynx",
+   "nerve supply of the larynx",
+   "nerves of the larynx",
+   "laryngeal nerves",
+   "superior laryngeal nerve",
+   "recurrent laryngeal nerve",
+   "external laryngeal nerve",
+   "internal laryngeal nerve"
+  ],
+  "lxspaces": [
+   "Spaces of the larynx",
+   "pre-epiglottic space",
+   "paraglottic space",
+   "reinke's space",
+   "spaces of the larynx",
+   "laryngeal spaces"
+  ],
+  "lxlymph": [
+   "Lymphatic drainage of the larynx",
+   "lymphatic drainage of the larynx",
+   "lymphatics of the larynx"
+  ],
+  "childlarynx": [
+   "The child's larynx",
+   "infant larynx",
+   "child larynx",
+   "paediatric larynx",
+   "differences between infant and adult larynx"
+  ],
+  "lxca": [
+   "Cancer of the larynx",
+   "laryngeal cancer",
+   "cancer of the larynx",
+   "carcinoma of the larynx",
+   "laryngeal carcinoma",
+   "larynx cancer",
+   "laryngeal scc"
+  ],
+  "supraglotca": [
+   "Supraglottic cancer",
+   "supraglottic cancer",
+   "supraglottic carcinoma"
+  ],
+  "glotca": [
+   "Glottic cancer",
+   "glottic cancer",
+   "glottic carcinoma",
+   "carcinoma of the vocal cord",
+   "vocal cord cancer",
+   "vocal fold cancer"
+  ],
+  "subglotca": [
+   "Subglottic cancer",
+   "subglottic cancer",
+   "subglottic carcinoma"
+  ],
+  "laryngectomy": [
+   "Total laryngectomy",
+   "laryngectomy",
+   "total laryngectomy",
+   "laryngectomee",
+   "partial laryngectomy"
+  ],
+  "voicerest": [
+   "Voice restoration after laryngectomy",
+   "voice restoration",
+   "voice prosthesis",
+   "tracheoesophageal puncture",
+   "tracheo-oesophageal puncture",
+   "tep",
+   "oesophageal speech",
+   "electrolarynx"
+  ],
+  "lxpreserv": [
+   "Organ preservation for laryngeal cancer",
+   "organ preservation",
+   "larynx preservation",
+   "chemoradiotherapy for laryngeal cancer"
+  ],
+  "laryngomalacia": [
+   "Laryngomalacia",
+   "laryngomalacia",
+   "congenital laryngeal stridor",
+   "supraglottoplasty",
+   "aryepiglottoplasty"
+  ],
+  "sgs": [
+   "Subglottic stenosis",
+   "subglottic stenosis",
+   "sgs",
+   "myer cotton",
+   "myer-cotton grading",
+   "congenital subglottic stenosis",
+   "acquired subglottic stenosis"
+  ],
+  "lxweb": [
+   "Laryngeal web",
+   "laryngeal web",
+   "glottic web",
+   "congenital web"
+  ],
+  "sgh": [
+   "Subglottic haemangioma",
+   "subglottic haemangioma",
+   "subglottic hemangioma",
+   "airway haemangioma"
+  ],
+  "lxcleft": [
+   "Laryngeal cleft",
+   "laryngeal cleft",
+   "laryngotracheo-oesophageal cleft"
+  ],
+  "lxcong": [
+   "Congenital lesions of the larynx",
+   "congenital lesions of the larynx",
+   "congenital laryngeal anomalies",
+   "congenital anomalies of the larynx"
+  ],
+  "tracheomalacia": [
+   "Tracheomalacia",
+   "tracheomalacia",
+   "vascular ring",
+   "complete tracheal rings"
+  ],
+  "lxtrauma": [
+   "Laryngeal trauma",
+   "laryngeal trauma",
+   "laryngotracheal trauma",
+   "laryngeal fracture",
+   "blunt laryngeal trauma",
+   "laryngeal injury",
+   "schaefer classification"
+  ],
+  "lts": [
+   "Laryngotracheal stenosis",
+   "laryngotracheal stenosis",
+   "tracheal stenosis",
+   "acquired laryngotracheal stenosis",
+   "post intubation stenosis"
+  ],
+  "penneck": [
+   "Penetrating neck injury",
+   "penetrating neck injury",
+   "penetrating neck trauma",
+   "neck stab wound",
+   "zones of the neck",
+   "neck zones"
+  ],
+  "hoarsechild": [
+   "The hoarse child",
+   "hoarse child",
+   "hoarseness in children",
+   "paediatric hoarseness"
+  ],
+  "paedsdysph": [
+   "The child who cannot swallow",
+   "paediatric dysphagia",
+   "dysphagia in children",
+   "aspiration in children",
+   "feeding difficulty"
+  ],
+  "trach": [
+   "Tracheostomy",
+   "tracheostomy",
+   "tracheotomy",
+   "surgical tracheostomy",
+   "elective tracheostomy",
+   "emergency tracheostomy",
+   "paediatric tracheostomy"
+  ],
+  "pdt": [
+   "Percutaneous tracheostomy",
+   "percutaneous tracheostomy",
+   "percutaneous dilatational tracheostomy",
+   "pdt"
+  ],
+  "trachtube": [
+   "Tracheostomy tubes",
+   "tracheostomy tube",
+   "tracheostomy tubes",
+   "cuffed tube",
+   "fenestrated tube",
+   "inner cannula"
+  ],
+  "decannulation": [
+   "Decannulation",
+   "decannulation",
+   "difficult decannulation"
+  ],
+  "endoscopy_airway": [
+   "Airway endoscopy",
+   "airway endoscopy",
+   "direct laryngoscopy",
+   "microlaryngoscopy",
+   "bronchoscopy",
+   "rigid bronchoscopy",
+   "laryngoscopy"
+  ],
+  "vfp": [
+   "Vocal fold paralysis",
+   "vocal fold paralysis",
+   "vocal cord paralysis",
+   "vocal cord palsy",
+   "vocal fold palsy",
+   "laryngeal paralysis",
+   "recurrent laryngeal nerve palsy",
+   "recurrent laryngeal nerve injury",
+   "recurrent laryngeal nerve paralysis",
+   "rln palsy",
+   "rln injury",
+   "recurrent nerve paralysis",
+   "recurrent nerve palsy",
+   "recurrent laryngeal nerve damage"
+  ],
+  "uvfp": [
+   "Unilateral vocal fold paralysis",
+   "unilateral vocal fold paralysis",
+   "unilateral vocal cord paralysis",
+   "unilateral recurrent laryngeal nerve palsy",
+   "unilateral rln palsy"
+  ],
+  "bvfp": [
+   "Bilateral vocal fold paralysis",
+   "bilateral vocal fold paralysis",
+   "bilateral vocal cord paralysis",
+   "bilateral abductor paralysis",
+   "bilateral recurrent laryngeal nerve palsy",
+   "bilateral rln palsy"
+  ],
+  "slnpalsy": [
+   "Superior laryngeal nerve paralysis",
+   "superior laryngeal nerve paralysis",
+   "superior laryngeal nerve palsy",
+   "superior laryngeal nerve injury",
+   "external laryngeal nerve injury"
+  ],
+  "cordpos": [
+   "Positions of the vocal cord",
+   "positions of the cord",
+   "positions of the vocal cord",
+   "cadaveric position",
+   "paramedian position",
+   "semon's law",
+   "wagner grossman",
+   "wagner-grossman theory"
+  ],
+  "thyroplasty": [
+   "Thyroplasty",
+   "thyroplasty",
+   "medialisation thyroplasty",
+   "isshiki thyroplasty",
+   "injection laryngoplasty",
+   "injection medialisation",
+   "arytenoidectomy",
+   "cordotomy",
+   "posterior cordotomy"
+  ],
+  "hoarseness": [
+   "Hoarseness",
+   "hoarseness",
+   "dysphonia",
+   "hoarse voice",
+   "change in voice",
+   "voice change"
+  ],
+  "mtd": [
+   "Muscle tension dysphonia",
+   "muscle tension dysphonia",
+   "mtd",
+   "functional dysphonia",
+   "functional voice disorders",
+   "hyperfunctional dysphonia"
+  ],
+  "ventdysph": [
+   "Ventricular dysphonia",
+   "ventricular dysphonia",
+   "dysphonia plicae ventricularis",
+   "false cord phonation"
+  ],
+  "funcaphonia": [
+   "Functional aphonia",
+   "functional aphonia",
+   "psychogenic aphonia",
+   "hysterical aphonia",
+   "conversion aphonia"
+  ],
+  "puberphonia": [
+   "Puberphonia",
+   "puberphonia",
+   "mutational falsetto"
+  ],
+  "phonasthenia": [
+   "Phonasthenia",
+   "phonasthenia",
+   "voice fatigue"
+  ],
+  "sd": [
+   "Spasmodic dysphonia",
+   "spasmodic dysphonia",
+   "laryngeal dystonia",
+   "adductor spasmodic dysphonia",
+   "abductor spasmodic dysphonia"
+  ],
+  "ilo": [
+   "Inducible laryngeal obstruction",
+   "inducible laryngeal obstruction",
+   "ilo",
+   "vocal cord dysfunction",
+   "paradoxical vocal fold motion"
+  ],
+  "chroniccough": [
+   "Chronic refractory cough",
+   "chronic cough",
+   "chronic refractory cough"
+  ],
+  "rhinolalia": [
+   "Rhinolalia",
+   "rhinolalia",
+   "hyponasality",
+   "rhinolalia clausa",
+   "rhinolalia aperta",
+   "hypernasal speech",
+   "hyponasal speech"
+  ],
+  "stuttering": [
+   "Stuttering",
+   "stuttering",
+   "stammering"
+  ],
+  "voicecare": [
+   "Voice care",
+   "voice care",
+   "vocal hygiene",
+   "voice therapy"
+  ]
+ },
+ "articles": {
+  "cl:t-anaes": {
+   "e": "sharedairway",
+   "s": {
+    "The bleeding tonsil": "ptb"
+   },
+   "a": {
+    "The bleeding tonsil": "tx"
+   }
+  },
+  "cl:t-benign": {
+   "e": "benignvf",
+   "s": {
+    "Intubation granuloma": "contactulcer",
+    "Leukoplakia and keratosis": "lxleuko",
+    "Ductal (retention) cysts": "vfcyst",
+    "Saccular cysts and laryngocele": "laryngocele",
+    "Amyloid": "-",
+    "Chondroma": "-",
+    "Haemangioma": "-",
+    "Granular cell tumour": "-"
+   }
+  },
+  "cl:t-croup": {
+   "e": "-",
+   "c": {
+    "Acute laryngitis": "acutelaryngitis",
+    "Acute epiglottitis": "epiglottitis",
+    "Croup": "croup",
+    "Bacterial tracheitis": "tracheitis",
+    "Laryngeal diphtheria": "lxdiphth",
+    "Laryngeal oedema": "lxoedema"
+   },
+   "s": {
+    "Acute membranous laryngitis": "tracheitis",
+    "Spasmodic croup": "croup"
+   }
+  },
+  "cl:t-fb": {
+   "e": "airwayfb",
+   "s": {
+    "Laryngeal foreign bodies": "airwayfb",
+    "Tracheobronchial foreign bodies": "airwayfb"
+   }
+  },
+  "cl:t-fona": {
+   "e": "-",
+   "c": {
+    "Emergency front-of-neck access": "fona",
+    "Arterial ligation for bleeding": "arterialligation"
+   },
+   "s": {
+    "Anterior ethmoidal artery ligation": "arterialligation",
+    "Maxillary artery ligation": "arterialligation",
+    "External carotid artery ligation": "arterialligation"
+   }
+  },
+  "cl:t-laryngitis": {
+   "e": "chlaryngitis",
+   "c": {
+    "Laryngopharyngeal reflux": "lpr",
+    "Special forms": "chlaryngitis",
+    "Specific infections": "lxspecific",
+    "Systemic diseases": "-"
+   },
+   "s": {
+    "Polypoid degeneration (Reinke's oedema)": "reinke",
+    "Tuberculosis": "lxtb",
+    "Lupus": "lxspecific",
+    "Syphilis": "lxspecific",
+    "Leprosy": "lxspecific",
+    "Scleroma": "lxspecific",
+    "Fungal": "lxspecific"
+   }
+  },
+  "cl:t-laser": {
+   "e": "-",
+   "c": {
+    "Lasers": "laser",
+    "Radiofrequency and coblation": "coblation",
+    "Cryosurgery": "cryo",
+    "Hyperbaric oxygen": "hbo"
+   },
+   "s": {
+    "Laser safety": "laser"
+   }
+  },
+  "cl:t-lxanat": {
+   "e": "larynx",
+   "c": {
+    "Nerves, vessels and lymph": "lxnerves",
+    "The child's larynx": "childlarynx"
+   },
+   "s": {
+    "Spaces": "lxspaces",
+    "Lymphatic drainage": "lxlymph",
+    "Vessels": "larynx",
+    "Embryology": "larynx"
+   }
+  },
+  "cl:t-lxca": {
+   "e": "lxca",
+   "c": {
+    "Supraglottic cancer": "supraglotca",
+    "Glottic cancer": "glotca",
+    "Subglottic cancer": "subglotca",
+    "After laryngectomy": "laryngectomy"
+   },
+   "s": {
+    "Total laryngectomy": "laryngectomy",
+    "Organ preservation": "lxpreserv",
+    "Voice restoration": "voicerest",
+    "Premalignant lesions": "lxleuko"
+   }
+  },
+  "cl:t-lxcong": {
+   "e": "lxcong",
+   "c": {
+    "Laryngomalacia": "laryngomalacia",
+    "Vocal fold paralysis": "vfp",
+    "Subglottic stenosis": "sgs",
+    "Webs, cysts and haemangioma": "lxcong",
+    "Laryngeal cleft": "lxcleft",
+    "The trachea and beyond": "tracheomalacia"
+   },
+   "s": {
+    "Laryngeal web": "lxweb",
+    "Subglottic haemangioma": "sgh",
+    "Laryngocele": "laryngocele",
+    "Congenital": "sgs",
+    "Acquired": "sgs"
+   }
+  },
+  "cl:t-lxtrauma": {
+   "e": "lxtrauma",
+   "c": {
+    "Laryngotracheal stenosis": "lts",
+    "Penetrating neck injury": "penneck"
+   },
+   "s": {
+    "Zones": "penneck"
+   }
+  },
+  "cl:t-paeds_vs": {
+   "e": "-",
+   "c": {
+    "The developing larynx": "childlarynx",
+    "The hoarse child": "hoarsechild",
+    "The child who cannot swallow safely": "paedsdysph"
+   },
+   "s": {
+    "Vocal fold nodules": "hoarsechild",
+    "Recurrent respiratory papillomatosis": "hoarsechild",
+    "Vocal fold paralysis": "hoarsechild",
+    "Laryngeal cleft": "paedsdysph"
+   }
+  },
+  "cl:t-trach": {
+   "e": "trach",
+   "c": {
+    "Tracheostomy tubes": "trachtube",
+    "Airway endoscopy": "endoscopy_airway",
+    "Emergency airway": "fona"
+   },
+   "s": {
+    "Percutaneous dilatational tracheostomy": "pdt",
+    "Decannulation": "decannulation",
+    "Difficult decannulation": "decannulation",
+    "Direct laryngoscopy": "endoscopy_airway",
+    "Bronchoscopy": "endoscopy_airway"
+   }
+  },
+  "cl:t-vfp": {
+   "e": "vfp",
+   "c": {
+    "Nerve supply": "lxnerves",
+    "Positions of the cord": "cordpos",
+    "Superior laryngeal and combined paralysis": "vfp",
+    "Congenital paralysis": "vfp"
+   },
+   "s": {
+    "Unilateral": "uvfp",
+    "Bilateral (bilateral abductor paralysis)": "bvfp",
+    "Superior laryngeal nerve paralysis": "slnpalsy",
+    "Combined (complete) paralysis": "vfp",
+    "Unilateral paralysis": "uvfp",
+    "Bilateral abductor paralysis": "bvfp",
+    "Isshiki's thyroplasties": "thyroplasty"
+   }
+  },
+  "cl:t-voice": {
+   "e": "hoarseness",
+   "c": {
+    "Functional voice disorders": "mtd",
+    "Spasmodic dysphonia": "sd",
+    "Resonance and fluency": "-",
+    "Voice care": "voicecare"
+   },
+   "s": {
+    "Ventricular dysphonia (dysphonia plicae ventricularis)": "ventdysph",
+    "Functional (psychogenic) aphonia": "funcaphonia",
+    "Puberphonia (mutational falsetto)": "puberphonia",
+    "Phonasthenia": "phonasthenia",
+    "Inducible laryngeal obstruction": "ilo",
+    "Chronic refractory cough": "chroniccough",
+    "Hyponasality (rhinolalia clausa)": "rhinolalia",
+    "Hypernasality (rhinolalia aperta)": "rhinolalia",
+    "Stuttering": "stuttering",
+    "Vocal tremor": "sd",
+    "Parkinson's disease": "-",
+    "Dysarthria and aphasia": "-"
+   }
+  }
+ }
+}
