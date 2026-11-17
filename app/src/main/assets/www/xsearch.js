@@ -89,7 +89,22 @@ async function post(items){const V=new Map();const W={t:10,k:5,b:2};let n=0;
   for(const f of ["t","k","b"]){T[f]=toks(it[f]);for(const w of T[f]){const prev=seen.get(w)||0;if(W[f]>prev)seen.set(w,W[f])}}it.tt=T.t.join(" ");it.tb=T.k.concat(T.b).join(" ");
   seen.forEach((wt,w)=>{let l=V.get(w);if(!l){l=[];V.set(w,l)}l.push(it.i,wt)});it.nt=T.t.length}
  const vocab=[...V.keys()].sort();IX={items,V,vocab};return IX}
-async function ready(){if(IX)return IX;if(!BUILDING)BUILDING=needData().then(build).then(post);return BUILDING}
+async function ready(){if(IX)return IX;if(!BUILDING)BUILDING=needData().then(build).then(post).then(ix=>{smartLoad();return ix});return BUILDING}
+/* ---------- smart search (search/xsmart.js): questions such as "hashimoto treatment", answered offline ---------- */
+let SMART=null,SMARTP=null;
+function smartLoad(){if(SMARTP)return SMARTP;SMARTP=(async()=>{try{
+  if(!window.XSMART)await loadJS("search/xsmart.js");if(!window.XSM)await loadJS("search/sm_meta.js");
+  const [a,b]=await Promise.all(["search/sm_tok.bin","search/sm_vec.bin"].map(u=>fetch(u).then(r=>{if(!r.ok)throw new Error(u);return r.arrayBuffer()})));
+  XSMART.setModel(window.XSM,a,b);window.XSM.vocab=null;await new Promise(r=>setTimeout(r,0));if(XSMART.buildDocs(window.XFULL||[]))SMART=XSMART;
+  const box=document.getElementById("xres");if(box&&box.isConnected&&currentQ().trim().length>=2)run(currentQ(),box)}catch(e){SMART=null}})();return SMARTP}
+function smartFor(q){if(!SMART||q.trim().split(/\s+/).length<2)return null;try{return SMART.search(q,{n:5,perArticle:2})}catch(e){return null}}
+function smartHTML(S,words){if(!S||!S.list.length)return "";const X=window.XFULL||[];const P=S.P;
+ const hw=[...new Set(words.concat(SMART.toks(P.topic+" "+(P.soft||"")).filter(t=>t.length>=3)))];
+ const asp=P.aspects.map(a=>`<i class="xt xt-sec">${E(a.label)}</i>`).join("");
+ const head=`<p class="xsmq">Understood as ${asp}<b>${E(P.topic)}</b>${P.abbr&&P.abbr.length?` <small>(${P.abbr.map(([a,b])=>E(a.toUpperCase())+" = "+E(b)).join(", ")})</small>`:""}</p>`;
+ const rows=S.list.map(r=>{const x=X[r.i];if(!x)return "";const [ty,route,t,where]=x;const sn=(r.snip||"").trim();const sn2=sn.length>230?sn.slice(0,230).replace(/\s+\S*$/,"")+"…":sn;
+  return `<div class="xr"><button class="xrh" data-go="${E(route)}"><span class="xm"><span class="xp"><i class="xt xt-${ty}">${E(TYPES[ty]?TYPES[ty][0]:"")}</i>${E(where)}</span><b>${hl(t,hw)}</b>${sn2?`<small>${hl(sn2,hw)}</small>`:""}</span>${ic("chev",16)}</button></div>`}).join("");
+ return `<section class="xg xsmart"><h2>Answers</h2>${head}<div class="xl">${rows}</div></section>`}
 
 /* ---------- matching ---------- */
 function ed(a,b,max){if(Math.abs(a.length-b.length)>max)return max+1;const m=a.length,n=b.length;let p=new Array(n+1),c=new Array(n+1);for(let j=0;j<=n;j++)p[j]=j;
@@ -133,19 +148,19 @@ function labelRows(q){LBL=[];try{if(q.trim().length>=4&&typeof findLabels==="fun
 function renderResults(box,q){if(!RES){box.innerHTML=`<p class="xnote">Building the index…</p>`;return}
  const words=RES.words,g=groups();labelRows(q);const order=["cl","sec","ev","op","osec","bsec","afig","note","cond","q","viva","card","lbl","fig","tab","mn","tr","dz"];
  const counts=order.map(k=>[k,k==="lbl"?LBL.length:(g[k]||[]).length]).filter(x=>x[1]);
- if(!counts.length&&!RES.syms.length){box.innerHTML=`<p class="xnote">Nothing found for “${E(q)}”. Try fewer words, or a different spelling.</p>`;return}
+ if(!counts.length&&!RES.syms.length&&!(RES.smart&&RES.smart.list.length)){box.innerHTML=`<p class="xnote">Nothing found for “${E(q)}”. Try fewer words, or a different spelling.</p>`;return}
  if(SF!=="all"&&!counts.some(c=>c[0]===SF))SF="all";const total=counts.reduce((a,c)=>a+c[1],0);
  const chips=`<div class="xchipsf" role="group" aria-label="Show results from"><button data-xsf="all" aria-pressed="${SF==="all"}">All <small>${total}</small></button>${counts.map(([k,n])=>`<button data-xsf="${k}" aria-pressed="${SF===k}">${E(TYPES[k][0])} <small>${n}</small></button>`).join("")}</div>`;
  const figset=typeof fsetId==="function"?fsetId((g.fig||[]).map(r=>r.it.fig)):"";
  let html=chips;
- if(SF==="all"){html+=RES.syms.map(s=>symHTML(s,words)).join("");
+ if(SF==="all"){html+=smartHTML(RES.smart,words);html+=RES.syms.map(s=>symHTML(s,words)).join("");
   const top=[],per={};for(const r of RES.list){const b=r.it.base||r.it.go||r.it.i;if((per[b]=(per[b]||0)+1)>2)continue;top.push(r);if(top.length>=6)break}if(top.length)html+=`<section class="xg"><h2>Best matches</h2><div class="xl">${top.map(r=>rowHTML(r,words,figset)).join("")}</div></section>`}
  for(const [k] of counts){if(SF!=="all"&&SF!==k)continue;if(k==="lbl"){html+=`<section class="xg"><h2>Labelled on figures<small>${LBL.length}</small></h2><div class="xl">${LBL.slice(0,SF==="lbl"?40:PER).map((m,j)=>`<div class="xr"><button class="xrh" data-xlbl="${j}"><img class="xth" src="${figThumb(m.k)}" alt="" loading="lazy"><span class="xm"><span class="xp"><i class="xt xt-lbl">Label</i>${E(rn(FIG[m.k][3]))}</span><b>${hl(m.t,words)}</b><small>${E(FIG[m.k][0])} · opens zoomed on the label</small></span>${ic("chev",16)}</button></div>`).join("")}</div></section>`;continue}
   const L=g[k];const n=SF===k?Math.min(L.length,60):PER;html+=`<section class="xg"><h2>${E(TYPES[k][0])}<small>${L.length}</small></h2><div class="xl" data-xg="${k}">${L.slice(0,n).map(r=>rowHTML(r,words,figset)).join("")}</div>${L.length>n?`<button class="xmore" data-xmore="${k}">Show all ${L.length}</button>`:""}</section>`}
  box.innerHTML=html;if(typeof linkTerms==="function"){}}
 function run(q,box){q=String(q||"");if(q.trim().length<2){box.innerHTML=emptyState();return}
  if(!IX){box.innerHTML=`<p class="xnote">Building the index…</p>`;ready().then(()=>{if(box.isConnected)run(currentQ(),box)});return}
- RES=search(q);renderResults(box,q);remember(q)}
+ RES=search(q);if(RES)RES.smart=smartFor(q);renderResults(box,q);remember(q)}
 const currentQ=()=>{const i=document.getElementById("xq")||document.getElementById("hx");return i?i.value:""};
 function recent(){try{return JSON.parse(localStorage.getItem("xs_recent")||"[]")}catch(e){return []}}
 let RT=0;function remember(q){clearTimeout(RT);RT=setTimeout(()=>{q=q.trim();if(q.length<3)return;try{const r=recent().filter(x=>x.toLowerCase()!==q.toLowerCase());r.unshift(q);localStorage.setItem("xs_recent",JSON.stringify(r.slice(0,8)))}catch(e){}},1500)}
