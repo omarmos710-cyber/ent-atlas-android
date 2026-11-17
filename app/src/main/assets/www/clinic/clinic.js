@@ -26,13 +26,15 @@ function vArticle(id){const t=BY[id],A=(window.CLART||{})[id];
  const mins=Math.max(3,Math.round(A.w/220));const nq=QUIZ.filter(q=>q.tp===id).length,nc=CARDS.filter(c=>c.tp===id).length,L=LK(id);
  const subs=c=>{const m=[...A.h.matchAll(new RegExp('<details class="arsub" id="a-s'+c+'-(\\d+)"[^>]*><summary><span class="arsn">([\\d.]+)</span><h3>(.*?)</h3>','g'))];return m.map(x=>({id:"a-s"+c+"-"+x[1],n:x[2],t:x[3]}))};
  const ch=A.ch.map((x,i)=>({id:"a-c"+(i+1),n:i+1,t:x,s:subs(i+1)}));
- const more=`<section class="arend arch-c" id="a-end" data-t="Continue"><div class="archd"><span class="arnum">${ch.length+1}</span><div class="arkick">In the atlas</div><h2>Continue from here</h2></div>
-  <div class="clprac" data-clend="${id}">${window.hubPrac?hubPrac(id):`${nq?`<button class="btn primary wide" data-cltq="${id}">Quiz this topic (${nq})</button>`:""}${nc?`<button class="btn wide" data-deck="cl-${t.g}" data-mode="smart">${e(GN[t.g])} flashcards</button>`:""}`}</div>
+ const endBody=`<div class="clprac" data-clend="${id}">${window.hubPrac?hubPrac(id):`${nq?`<button class="btn primary wide" data-cltq="${id}">Quiz this topic (${nq})</button>`:""}${nc?`<button class="btn wide" data-deck="cl-${t.g}" data-mode="smart">${e(GN[t.g])} flashcards</button>`:""}`}</div>
   ${t.ops.length&&!A.h.includes("data-arops")?`<div class="clh3" style="color:#1F5B4A">Operations in Theatre</div><div class="cllist">${t.ops.map(([n,w])=>row(`data-clop="${n}"`,D.ops[n]||("Myers ch. "+n),w,"op")).join("")}</div>`:""}
   ${A.h.includes("data-arcases")?notesOnly(id):dxExtra(id)}
   ${t.an.length?`<div class="clh3" style="color:var(--accent)">Related anatomy</div><div class="cllist">${t.an.map(r=>RMAP[r]?row(`data-go="region:${r}"`,RMAP[r].name,"","an"):"").join("")}</div>`:""}
   ${t.rel.length?`<div class="clgh">Related diseases</div><div class="cllist">${t.rel.map(r=>BY[r]?row(`data-go="cl:t-${r}"`,BY[r].t):"").join("")}</div>`:""}
-  <p class="clsrc">Written for this app from ${e(t.srcs)}. Figures reproduced from the books for private study. Study reference only: follow local protocols and senior advice for patients.</p></section>`;
+  <p class="clsrc">Written for this app from ${e(t.srcs)}. Figures reproduced from the books for private study. Study reference only: follow local protocols and senior advice for patients.</p>`;
+ const more=`<section class="arend arch-c" id="a-end" data-t="Continue"><div class="archd"><span class="arnum">${ch.length+1}</span><div class="arkick">In the atlas</div><h2>Continue from here</h2></div>
+  ${endBody}</section>`;
+ if(A.lay==="amboss")return vAmb(id,t,A,ch,mins,endBody);
  return `<div class="clw arw"><span class="cle">${e(kick(t))}</span><h1>${e(t.t)}</h1>
  ${A.stand?`<p class="arstand">${md(A.stand)}</p>`:`<p class="arstand">${md(t.one)}</p>`}
  <div class="armeta"><span><b>Reading</b> about ${mins} min</span><span><b>Outline</b> ${ch.length} chapters · ${A.n} sections</span><span><b>Sources</b> ${e(t.srcs)}</span></div>  ${(window.BOARDS||{})[id]?`<button type="button" class="arboardbtn" data-arboard="${id}" data-title="${e(t.t)}"><span class="bdi" aria-hidden="true"></span><span><b>Summary board</b><small>The whole topic on one whiteboard</small></span></button>`:""}
@@ -41,6 +43,49 @@ function vArticle(id){const t=BY[id],A=(window.CLART||{})[id];
  <div class="arcont"><div class="arconth"><h4>Contents</h4><div><button type="button" data-arall="1">Expand all</button><button type="button" data-arall="0">Collapse all</button></div></div>
  <ol class="artree0">${ch.map(c=>`<li><button type="button" data-artgo="${c.id}"><i>${c.n}</i>${e(c.t)}</button><ul>${c.s.map(x=>`<li><button type="button" data-artgo="${x.id}">${x.n}&ensp;${x.t}</button></li>`).join("")}</ul></li>`).join("")}</ol></div>
  <div class="arart">${A.h}</div>${more}</div>`}
+/* AMBOSS-style layout ("@layout amboss" articles): a list of chapter titles that open in place,
+   a bottom toolbar (back, forward, expand/collapse, find text, outline) and an outline sheet */
+const AMI=d=>`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
+const AMCH='<svg class="arch" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>';
+const AMIC={back:'<path d="M15 18l-6-6 6-6"/>',fwd:'<path d="M9 6l6 6-6 6"/>',all:'<path d="M12 3v6M9 6l3 3 3-3M12 21v-6M9 18l3-3 3 3M5 12h14"/>',
+ find:'<path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><circle cx="11.5" cy="13.5" r="3"/><path d="M13.7 15.7L16.5 18.5"/>',outline:'<rect x="3.5" y="4" width="17" height="16" rx="2"/><path d="M14.5 4v16"/>',
+ up:'<path d="M6 15l6-6 6 6"/>',down:'<path d="M6 9l6 6 6-6"/>',x:'<path d="M6 6l12 12M18 6L6 18"/>'};
+function vAmb(id,t,A,ch,mins,endBody){
+ const strip=x=>x.replace(/<[^>]+>/g,"");
+ return `<div class="clw arw amb"><span class="cle">${e(kick(t))}</span><h1>${e(t.t)}</h1>
+ ${A.stand?`<p class="arstand">${md(A.stand)}</p>`:`<p class="arstand">${md(t.one)}</p>`}
+ <div class="armeta"><span><b>Reading</b> about ${mins} min</span><span><b>Outline</b> ${ch.length} chapters · ${A.n} sections</span><span><b>Sources</b> ${e(t.srcs)}</span></div>  ${(window.BOARDS||{})[id]?`<button type="button" class="arboardbtn" data-arboard="${id}" data-title="${e(t.t)}"><span class="bdi" aria-hidden="true"></span><span><b>Summary board</b><small>The whole topic on one whiteboard</small></span></button>`:""}
+ <div class="amlist"><div class="arart">${A.h}</div>
+ <section class="arend arch-c amc" id="a-end" data-t="Practice and related"><details class="amch"><summary><h2>Practice and related</h2>${AMCH}</summary><div class="amchb">${endBody}</div></details></section></div>
+ <nav class="amtool" aria-label="Article tools">${[["back","Back"],["fwd","Forward"],["all","Expand"],["find","Find text"],["outline","Outline"]].map(([k,l])=>`<button type="button" data-amt="${k}">${AMI(AMIC[k])}<span>${l}</span></button>`).join("")}</nav>
+ <div class="amfind" hidden><input type="search" id="amfq" placeholder="Find in this article" autocomplete="off" enterkeyhint="search" aria-label="Find in this article"><output aria-live="polite"></output><button type="button" data-amt="fprev" aria-label="Previous match">${AMI(AMIC.up)}</button><button type="button" data-amt="fnext" aria-label="Next match">${AMI(AMIC.down)}</button><button type="button" data-amt="fx" aria-label="Close search">${AMI(AMIC.x)}</button></div>
+ <div class="amout" hidden><div class="amsheet" role="dialog" aria-label="Outline"><h4>Outline<button type="button" data-amt="outx" aria-label="Close outline">${AMI(AMIC.x)}</button></h4>
+ <ol>${ch.map(c=>`<li><button type="button" data-artgo="${c.id}">${e(c.t)}</button>${c.s.length?`<ul>${c.s.map(x=>`<li><button type="button" data-artgo="${x.id}">${strip(x.t)}</button></li>`).join("")}</ul>`:""}</li>`).join("")}<li><button type="button" data-artgo="a-end">Practice and related</button></li></ol></div></div></div>`}
+function amArm(v){const w=v.querySelector(".amb");if(!w)return;
+ const place=()=>{let h=0;document.querySelectorAll("nav,.dock,#tabs,.tabs").forEach(n=>{if(w.contains(n))return;const cs=getComputedStyle(n);if(cs.position!=="fixed"||cs.display==="none"||cs.visibility==="hidden")return;const r=n.getBoundingClientRect();if(r.height&&r.height<140&&r.bottom>=innerHeight-40)h=Math.max(h,innerHeight-r.top+6)});w.style.setProperty("--amtb",h+"px")};
+ place();setTimeout(place,300);amSync()}
+function amSync(){const w=document.querySelector(".amb");if(!w)return;const any=[...w.querySelectorAll(".amch")].some(d=>d.open),b=w.querySelector('[data-amt="all"]');if(b){b.querySelector("span").textContent=any?"Collapse":"Expand";b.classList.toggle("on",any)}}
+let AMF={h:[],i:-1};
+function openUp(el){for(let x=el;x;x=x.parentElement)if(x.tagName==="DETAILS")x.open=true;const c=el.matches&&el.matches(".amc")?el.querySelector(".amch"):null;if(c)c.open=true;amSync()}
+function amClear(){AMF.h.forEach(m=>{if(m.isConnected){const p=m.parentNode;m.replaceWith(document.createTextNode(m.textContent));p.normalize()}});AMF={h:[],i:-1};amCount()}
+function amCount(){const o=document.querySelector(".amfind output");if(o)o.textContent=AMF.h.length?(AMF.i+1)+" of "+AMF.h.length:(document.getElementById("amfq")||{}).value?"0":""}
+function amFind(q){amClear();q=(q||"").trim().toLowerCase();const root=document.querySelector(".amb .amlist");if(!root||q.length<2)return;
+ const tw=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode:n=>n.parentElement.closest("svg,script,style,.amtool")?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT});const ns=[];while(tw.nextNode())ns.push(tw.currentNode);
+ ns.forEach(n=>{const t=n.nodeValue,l=t.toLowerCase();let i=l.indexOf(q);if(i<0)return;const f=document.createDocumentFragment();let p=0;
+  while(i>=0){f.append(t.slice(p,i));const m=document.createElement("mark");m.className="amhit";m.textContent=t.slice(i,i+q.length);f.append(m);AMF.h.push(m);p=i+q.length;i=l.indexOf(q,p)}f.append(t.slice(p));n.replaceWith(f)});
+ if(AMF.h.length)amStep(1);else amCount()}
+function amStep(d){if(!AMF.h.length)return;if(AMF.h[AMF.i])AMF.h[AMF.i].classList.remove("on");AMF.i=(AMF.i+d+AMF.h.length)%AMF.h.length;const m=AMF.h[AMF.i];m.classList.add("on");openUp(m);m.scrollIntoView({block:"center",behavior:"smooth"});amCount()}
+function amTool(k){const w=document.querySelector(".amb");if(!w)return;
+ if(k==="back")history.back();else if(k==="fwd")history.forward();
+ else if(k==="all"){const ds=[...w.querySelectorAll(".amch")],any=ds.some(d=>d.open);ds.forEach(d=>d.open=!any);if(any)w.querySelector(".amlist").scrollIntoView({block:"start"});amSync()}
+ else if(k==="find"){const f=w.querySelector(".amfind");f.hidden=!f.hidden;if(!f.hidden)f.querySelector("input").focus();else amClear()}
+ else if(k==="outline")w.querySelector(".amout").hidden=false;
+ else if(k==="outx")w.querySelector(".amout").hidden=true;
+ else if(k==="fnext")amStep(1);else if(k==="fprev")amStep(-1);
+ else if(k==="fx"){w.querySelector(".amfind").hidden=true;const q=document.getElementById("amfq");if(q)q.value="";amClear()}}
+document.addEventListener("toggle",ev=>{if(ev.target.classList&&ev.target.classList.contains("amch"))amSync()},true);
+document.addEventListener("input",ev=>{if(ev.target.id==="amfq"){clearTimeout(window._amt);window._amt=setTimeout(()=>amFind(ev.target.value),180)}});
+document.addEventListener("keydown",ev=>{if(ev.target.id==="amfq"&&ev.key==="Enter"){ev.preventDefault();amStep(ev.shiftKey?-1:1)}});
 function caseCards(list){const C=typeof CONDS!=="undefined"?CONDS:[];const cs=list.map(i=>C.find(c=>c.id===i||c.id.replace(/\s+/g,"-")===i)).filter(Boolean);if(!cs.length)return "";
  return `<div class="climgs">${cs.map(c=>`<button class="climc" data-go="cond:${c.id}">${c.imgs&&c.imgs[0]?`<img src="${imgOf(c.imgs[0])}" alt="" loading="lazy" decoding="async">`:`<i></i>`}<span><b>${e(c.t)}</b><small>${e(c.cat||"")}${c.imgs&&c.imgs.length?` · ${c.imgs.length} image${c.imgs.length>1?"s":""}`:""}</small></span></button>`).join("")}</div>`}
 function notesOnly(id){const S=typeof SECTIONS!=="undefined"?SECTIONS:[],rs=LK(id).rd.map(i=>S.find(s=>s.id===i)).filter(Boolean);
@@ -60,7 +105,7 @@ function armRead(v){if(ROBS){ROBS.disconnect();ROBS=null}const end=v.querySelect
 function armArticle(v){if(AOBS){AOBS.disconnect();AOBS=null}const toc=v.querySelector(".artoc");if(!toc)return;const lis=[...toc.querySelectorAll("li")];let cur="";
  AOBS=new IntersectionObserver(es=>es.forEach(en=>{if(!en.isIntersecting||cur===en.target.id)return;cur=en.target.id;lis.forEach(l=>l.classList.toggle("on",l.dataset.c===cur));const on=lis.find(l=>l.dataset.c===cur);if(on){const ol=toc.querySelector("ol");ol.scrollTo({left:on.offsetLeft-ol.clientWidth/2+on.offsetWidth/2,behavior:"smooth"})}}),{rootMargin:"-35% 0px -60% 0px"});
  v.querySelectorAll(".arch-c").forEach(s=>AOBS.observe(s));if(lis[0])lis[0].classList.add("on")}
-function artGo(id){const el=document.getElementById(id);if(!el)return;const d=el.closest("details");if(d)d.open=true;if(el.tagName==="DETAILS")el.open=true;el.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"})}
+function artGo(id){const el=document.getElementById(id);if(!el)return;openUp(el);el.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"})}
 let ALB=null;
 function arLB(img,cap){if(ALB)ALB.remove();ALB=document.createElement("div");ALB.className="arlb";ALB.setAttribute("role","dialog");ALB.setAttribute("aria-modal","true");
  ALB.innerHTML=`<div class="arlbbar"><button type="button" data-arlb="zoom">Zoom</button><button type="button" data-arlb="close">Close</button></div><div class="stage"><img alt="" data-arlb="zoom"></div><p></p>`;
@@ -106,11 +151,11 @@ function vQuick(id){const t=BY[id],o=OPEN[id]=OPEN[id]||{};
  <p class="clsrc">Written for this app from ${e(t.srcs)}. Study summary only: follow local protocols and senior advice for patients.</p></div>`}
 function render(arg){arg=arg||"home";const v=document.getElementById("view");if(arg==="home"){v.innerHTML=vHome();return}
  if(arg==="calc"||arg==="calc-rules"){const go2=()=>window.DOSECALC.render(arg==="calc"?"":"rules");if(window.DOSECALC)go2();else{v.innerHTML='<div style="padding:60px 0;color:var(--muted)">Opening…</div>';const sc=document.createElement("script");sc.src="clinic/calc.js";sc.onload=go2;document.head.appendChild(sc)}return}
- if(arg.startsWith("t-")){const [tp,fg]=arg.split("~"),id=tp.slice(2);if(BY[id]){ST.cll=id;OP()[id]=OP()[id]||Date.now();save()}v.innerHTML=vTopic(id);if(typeof linkTerms==="function")linkTerms(v.querySelector(".arart")?v.querySelector(".arend")||v:v,(BY[id]&&BY[id].an[0])||"");if(v.querySelector(".arart"))fillArticle(v,id);{const m=v.querySelector(".armeta");if(m&&BY[id]&&!m.querySelector("[data-pdf]"))m.insertAdjacentHTML("beforeend",`<button class="arpdf" data-pdf="cl_${id}" data-pdfname="The ENT Companion - ${e(BY[id].t)}">${ic("pdf",14)}PDF</button>`)}armArticle(v);armRead(v);if(fg)toFig(v,fg);
+ if(arg.startsWith("t-")){const [tp,fg]=arg.split("~"),id=tp.slice(2);if(BY[id]){ST.cll=id;OP()[id]=OP()[id]||Date.now();save()}v.innerHTML=vTopic(id);if(typeof linkTerms==="function")linkTerms(v.querySelector(".arart")?v.querySelector(".arend")||v:v,(BY[id]&&BY[id].an[0])||"");if(v.querySelector(".arart"))fillArticle(v,id);amArm(v);{const m=v.querySelector(".armeta");if(m&&BY[id]&&!m.querySelector("[data-pdf]"))m.insertAdjacentHTML("beforeend",`<button class="arpdf" data-pdf="cl_${id}" data-pdfname="The ENT Companion - ${e(BY[id].t)}">${ic("pdf",14)}PDF</button>`)}armArticle(v);armRead(v);if(fg)toFig(v,fg);
   if(hasArt(id)&&!(window.CLART||{})[id])loadArt(id).then(()=>{const w=v.querySelector(".arw");if(w&&!w.querySelector(".arart")&&(window.CL_LAST||{}).id===id)render(arg)}).catch(()=>{const w=v.querySelector(".arw .armeta");if(w)w.textContent="The article could not load. Check your connection and try again."});return}
  v.innerHTML=vHome()}
 /* open an article at one of its figures (from the app-wide search): t-<id>~f<n> */
-function toFig(v,fg){const f=v.querySelector("#a-"+fg);if(!f)return;const d=f.closest("details");if(d)d.open=true;
+function toFig(v,fg){const f=v.querySelector("#a-"+fg);if(!f)return;openUp(f);
  let moved=false;const stop=()=>moved=true;addEventListener("touchstart",stop,{once:true,passive:true});addEventListener("wheel",stop,{once:true,passive:true});
  const to=()=>{if(!moved&&f.isConnected)f.scrollIntoView({block:"start"})};
  /* images above load lazily and push the figure down, so settle the position a few times */
@@ -121,7 +166,9 @@ document.addEventListener("click",ev=>{const b=ev.target.closest("[data-clmode]"
 document.addEventListener("input",ev=>{if(ev.target.id==="clq"){QQ=ev.target.value;clearTimeout(window._clt);window._clt=setTimeout(()=>{const l=document.getElementById("cllist");if(l)l.innerHTML=list()},120)}});
 document.addEventListener("click",ev=>{const T=x=>ev.target.closest(x);let b;
  if(b=T("[data-cls]")){const [id,k]=b.dataset.cls.split(":"),o=OPEN[id];const t=BY[id],cur=o[k]!==undefined?o[k]:(k==="tx"||(k==="cls"&&!(t.tx||[]).length));o[k]=!cur;const y=scrollY;render("t-"+id);scrollTo(0,y);return}
- if(b=T("[data-artgo]")){ev.preventDefault();artGo(b.dataset.artgo);return}
+ if(b=T("[data-amt]")){amTool(b.dataset.amt);return}
+ if(ev.target.classList&&ev.target.classList.contains("amout")){ev.target.hidden=true;return}
+ if(b=T("[data-artgo]")){ev.preventDefault();const o=document.querySelector(".amout");if(o)o.hidden=true;artGo(b.dataset.artgo);return}
  if(b=T("[data-arall]")){const o=b.dataset.arall==="1";document.querySelectorAll(".arsub").forEach(d=>d.open=o);return}
  if(b=T("[data-arfig]")){const f=b.closest("figure"),c=f?f.querySelector("figcaption"):null;arLB(b.querySelector("img").src,c?[...c.childNodes].filter(n=>n.nodeName!=="B"&&n.nodeName!=="CITE").map(n=>n.textContent).join("").trim()+(c.querySelector("cite")?" · "+c.querySelector("cite").textContent:""):"");return}
  if(ALB&&(b=T("[data-arlb]"))){if(b.dataset.arlb==="zoom"){ALB.classList.toggle("zoom");ALB.querySelector(".arlbbar [data-arlb=zoom]").textContent=ALB.classList.contains("zoom")?"Fit":"Zoom"}else arLBclose();return}

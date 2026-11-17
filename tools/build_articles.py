@@ -49,6 +49,7 @@ MFIG = os.path.join(WWW, 'fig2', 'm')
 OPN = [0]  # Myers chapter number of the operation being compiled (for !mf figures)
 WORDS = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen']
 BOOK = {'d': 'Dhingra', 'l': 'K.J. Lee'}
+AMB = {'on': False, 'rt': {}}  # '@layout amboss' articles: collapsible chapter list, cross-references by title
 _FIGKEYS = None
 
 
@@ -84,12 +85,12 @@ def inline(s, refs):
     s = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', s)
     s = re.sub(r'(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?![\w*])', r'<em class="term">\1</em>', s)
     def xr(m):
-        n = m.group(1)
+        n, lab = m.group(1), m.group(2)
         if n not in refs:
             raise ValueError('unknown cross-reference [[%s]]' % n)
-        return '<button type="button" class="arx" data-artgo="%s">%s</button>' % (refs[n], n)
+        return '<button type="button" class="arx" data-artgo="%s">%s</button>' % (refs[n], lab if lab else html.escape(AMB['rt'].get(n, n), quote=False) if AMB['on'] else n)
     s = re.sub(r'\[\[t:([a-z0-9_]+)(?:\|([^\]]+))?\]\]', topic_link, s)
-    return re.sub(r'\[\[([\d.]+)\]\]', xr, s)
+    return re.sub(r'\[\[([\d.]+)(?:\|([^\]]+))?\]\]', xr, s)
 
 
 _TOPICS = None
@@ -140,13 +141,15 @@ def compile_one(tid, text):
     lines = text.split('\n')
     # pass 1: numbering and cross-reference table
     refs, c, s, b = {}, 0, 0, 0
+    AMB['on'] = any(ln.strip() == '@layout amboss' for ln in lines); AMB['rt'] = rt = {}
+    T = lambda x: re.sub(r'\[\[t:[a-z0-9_]+\|([^\]]+)\]\]', r'\1', x.partition('|')[0].replace('{dz}', '').strip()).replace('*', '')
     for ln in lines:
         if ln.startswith('### '):
-            b += 1; refs['%d.%d.%d' % (c, s, b)] = 'a-b%d-%d-%d' % (c, s, b)
+            b += 1; refs['%d.%d.%d' % (c, s, b)] = 'a-b%d-%d-%d' % (c, s, b); rt['%d.%d.%d' % (c, s, b)] = T(ln[4:])
         elif ln.startswith('## '):
-            s += 1; b = 0; refs['%d.%d' % (c, s)] = 'a-s%d-%d' % (c, s)
+            s += 1; b = 0; refs['%d.%d' % (c, s)] = 'a-s%d-%d' % (c, s); rt['%d.%d' % (c, s)] = T(ln[3:])
         elif ln.startswith('# '):
-            c += 1; s = 0; b = 0; refs[str(c)] = 'a-c%d' % c
+            c += 1; s = 0; b = 0; refs[str(c)] = 'a-c%d' % c; rt[str(c)] = T(ln[2:])
     out, meta = [], {'stand': '', 'ch': [], 'figs': [], 'fx': []}
     here = {'c': '', 's': ''}
     where = lambda: ' › '.join(x for x in (here['c'], here['s']) if x)
@@ -286,14 +289,22 @@ def compile_one(tid, text):
             continue  # comment
         if ln.startswith('@stand '):
             meta['stand'] = ln[7:].strip(); words += len(meta['stand'].split()); continue
+        if ln.strip() == '@layout amboss':
+            meta['lay'] = 'amboss'; continue
         if ln.startswith('@src '):
             meta['src'] = ln[5:].strip(); continue
         if ln.startswith('# '):
             close_sec()
-            if c: out.append('</section>')
+            if c: out.append('</div></details></section>' if AMB['on'] else '</section>')
             c += 1; s = b = 0
+            dz = '{dz}' in ln; ln = ln.replace('{dz}', '').rstrip()
             t, _, intro = ln[2:].partition('|')
             meta['ch'].append(t.strip()); here['c'] = t.strip(); here['s'] = ''; stage[0] = None
+            if AMB['on']:
+                out.append('<section class="arch-c amc%s" id="a-c%d" data-t="%s"><details class="amch"><summary><h2>%s%s</h2>%s</summary><div class="amchb">%s' % (
+                    ' amdz' if dz else '', c, html.escape(t.strip()), '<small>Disease</small>' if dz else '', inline(t.strip(), refs), CHEV,
+                    '<p class="arintro">%s</p>' % inline(intro.strip(), refs) if intro.strip() else ''))
+                continue
             out.append('<section class="arch-c" id="a-c%d" data-t="%s"><div class="archd"><span class="arnum">%d</span><div class="arkick">Chapter %s</div><h2>%s</h2></div>%s' % (
                 c, html.escape(t.strip()), c, WORDS[c - 1] if c <= len(WORDS) else c, inline(t.strip(), refs),
                 '<p class="arintro">%s</p>' % inline(intro.strip(), refs) if intro.strip() else ''))
@@ -442,7 +453,7 @@ def compile_one(tid, text):
         if lst or olst: flush()
         para.append(ln.strip())
     close_sec()
-    if c: out.append('</section>')
+    if c: out.append('</div></details></section>' if AMB['on'] else '</section>')
     out = [re.sub(r'\s*\{(day|junior|senior|spec)\}(</h3>)', lambda m: ' <span class="lv lv-%s">%s</span>%s' % (m.group(1), LEVELS[m.group(1)], m.group(2)), x) for x in out]
     meta['w'] = len(re.sub(r'<[^>]+>', ' ', ''.join(out)).split())
     meta['n'] = sum(1 for k in refs if k.count('.') == 1)
@@ -457,6 +468,7 @@ def main():
         tid = f[:-4]
         h, meta = compile_one(tid, open(os.path.join(SRC, f), encoding='utf-8').read())
         rec = {'h': h, 'stand': meta['stand'], 'ch': meta['ch'], 'w': meta['w'], 'n': meta['n']}
+        if meta.get('lay'): rec['lay'] = meta['lay']
         with open(os.path.join(OUT, tid + '.js'), 'w', encoding='utf-8') as o:
             o.write('(window.CLART=window.CLART||{})[%s]=%s;\n' % (json.dumps(tid), json.dumps(rec, ensure_ascii=False)))
         idx[tid] = {'w': meta['w'], 'n': meta['n'], 'c': len(meta['ch']), 'f': len(meta['figs'])}
