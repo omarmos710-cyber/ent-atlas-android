@@ -1,0 +1,198 @@
+{
+ "about": "Answer map, imaging course. Every section answers 'investigation' (imaging) of the condition its heading names.",
+ "entities": {
+  "keros": [
+   "Keros classification",
+   "keros",
+   "keros classification",
+   "olfactory fossa depth"
+  ],
+  "lundmackay": [
+   "Lund-Mackay score",
+   "lund mackay",
+   "lund-mackay",
+   "lund-mackay score",
+   "lund mackay score"
+  ],
+  "omu": [
+   "Ostiomeatal unit",
+   "ostiomeatal unit",
+   "ostiomeatal complex",
+   "omu",
+   "omc"
+  ],
+  "sinusct": [
+   "Sinus CT",
+   "sinus ct",
+   "ct of the sinuses",
+   "ct paranasal sinuses",
+   "ct pns",
+   "preoperative sinus ct"
+  ],
+  "tbct": [
+   "CT of the temporal bone",
+   "ct temporal bone",
+   "temporal bone ct",
+   "hrct temporal bone",
+   "high resolution ct of the temporal bone"
+  ],
+  "mri": [
+   "MRI",
+   "mri",
+   "magnetic resonance imaging",
+   "t1 and t2",
+   "gadolinium"
+  ],
+  "ct": [
+   "CT",
+   "ct scan",
+   "computed tomography",
+   "hounsfield units",
+   "hounsfield unit",
+   "cone beam ct"
+  ],
+  "imgchoice": [
+   "Choosing an imaging test",
+   "choosing the test",
+   "which imaging test",
+   "imaging in ent",
+   "ultrasound",
+   "pet-ct",
+   "pet ct"
+  ],
+  "nirads": [
+   "NI-RADS",
+   "ni-rads",
+   "nirads"
+  ],
+  "agger": [
+   "Agger nasi and sinus variants",
+   "agger nasi",
+   "haller cell",
+   "onodi cell",
+   "concha bullosa",
+   "paradoxical middle turbinate",
+   "frontal cells",
+   "kuhn cells"
+  ]
+ },
+ "articles": {
+  "cl:t-im_ca": {
+   "e": "-",
+   "a": {
+    "*": "dx"
+   }
+  },
+  "cl:t-im_ct": {
+   "e": "ct",
+   "a": {
+    "*": "dx"
+   }
+  },
+  "cl:t-im_desc": {
+   "e": "-",
+   "a": {
+    "*": "dx"
+   }
+  },
+  "cl:t-im_glands": {
+   "e": "-",
+   "a": {
+    "*": "dx"
+   }
+  },
+  "cl:t-im_iac": {
+   "e": "-",
+   "a": {
+    "*": "dx"
+   }
+  },
+  "cl:t-im_lx": {
+   "e": "-",
+   "a": {
+    "*": "dx"
+   }
+  },
+  "cl:t-im_mri": {
+   "e": "mri",
+   "a": {
+    "*": "dx"
+   }
+  },
+  "cl:t-im_nodes": {
+   "e": "-",
+   "a": {
+    "*": "dx"
+   }
+  },
+  "cl:t-im_oral": {
+   "e": "-",
+   "a": {
+    "*": "dx"
+   }
+  },
+  "cl:t-im_orb": {
+   "e": "-",
+   "a": {
+    "*": "dx"
+   }
+  },
+  "cl:t-im_paeds": {
+   "e": "-",
+   "a": {
+    "*": "dx"
+   }
+  },
+  "cl:t-im_post": {
+   "e": "-",
+   "a": {
+    "*": "dx"
+   },
+   "s": {
+    "NI-RADS": "nirads"
+   }
+  },
+  "cl:t-im_sin": {
+   "e": "sinusct",
+   "a": {
+    "*": "dx"
+   },
+   "s": {
+    "Scoring: Lund–Mackay": "lundmackay",
+    "The skull base: Keros": "keros",
+    "The ostiomeatal unit": "omu",
+    "Cells and turbinates": "agger"
+   }
+  },
+  "cl:t-im_skb": {
+   "e": "-",
+   "a": {
+    "*": "dx"
+   }
+  },
+  "cl:t-im_spaces": {
+   "e": "-",
+   "a": {
+    "*": "dx"
+   }
+  },
+  "cl:t-im_tb": {
+   "e": "tbct",
+   "a": {
+    "*": "dx"
+   }
+  },
+  "cl:t-im_test": {
+   "e": "imgchoice",
+   "a": {
+    "*": "dx"
+   }
+  },
+  "cl:t-im_trauma": {
+   "e": "-",
+   "a": {
+    "*": "dx"
+   }
+  }
+ }
+}

@@ -1,0 +1,1231 @@
+{
+ "about": "Answer map, ear. entities: id -> [display name, aliases...]. articles: route -> {e: default entity, c: {chapter: entity}, s: {section: entity}, a: {section: aspect}}. '-' means no entity. Section and chapter titles that equal or contain an alias are matched automatically; list here only what the automatic match gets wrong.",
+ "entities": {
+  "microtia": [
+   "Microtia",
+   "microtia",
+   "anotia"
+  ],
+  "atresia": [
+   "Congenital aural atresia",
+   "aural atresia",
+   "canal atresia",
+   "congenital canal atresia",
+   "congenital aural atresia"
+  ],
+  "preauricular": [
+   "Preauricular sinus",
+   "preauricular sinus",
+   "preauricular pit",
+   "preauricular fistula"
+  ],
+  "hearingtests": [
+   "Hearing tests",
+   "hearing tests",
+   "hearing test",
+   "audiological tests",
+   "audiometry"
+  ],
+  "tuning": [
+   "Tuning fork tests",
+   "tuning fork tests",
+   "tuning fork",
+   "tuning forks",
+   "rinne",
+   "rinne test",
+   "weber",
+   "weber test",
+   "absolute bone conduction",
+   "abc test"
+  ],
+  "pta": [
+   "Pure-tone audiometry",
+   "pure tone audiometry",
+   "pure-tone audiometry",
+   "pta",
+   "audiogram",
+   "pure tone audiogram"
+  ],
+  "speechaud": [
+   "Speech audiometry",
+   "speech audiometry",
+   "speech discrimination",
+   "speech reception threshold",
+   "roll-over",
+   "rollover"
+  ],
+  "tymp": [
+   "Tympanometry",
+   "tympanometry",
+   "tympanogram",
+   "impedance audiometry",
+   "type b tympanogram"
+  ],
+  "reflex": [
+   "Stapedial reflex",
+   "stapedial reflex",
+   "acoustic reflex",
+   "stapedial acoustic reflex"
+  ],
+  "oae": [
+   "Otoacoustic emissions",
+   "otoacoustic emissions",
+   "otoacoustic emission",
+   "oae",
+   "oaes"
+  ],
+  "abr": [
+   "Auditory brainstem response",
+   "auditory brainstem response",
+   "abr",
+   "bera",
+   "brainstem evoked response audiometry"
+  ],
+  "ecog": [
+   "Electrocochleography",
+   "electrocochleography",
+   "ecochg",
+   "ecog"
+  ],
+  "assr": [
+   "Auditory steady-state response",
+   "auditory steady state response",
+   "assr"
+  ],
+  "anpathy": [
+   "Auditory neuropathy",
+   "auditory neuropathy",
+   "auditory neuropathy spectrum disorder",
+   "ansd"
+  ],
+  "wax": [
+   "Ear wax",
+   "wax",
+   "ear wax",
+   "earwax",
+   "cerumen",
+   "impacted wax",
+   "wax impaction"
+  ],
+  "fbear": [
+   "Foreign body in the ear",
+   "foreign body in ear",
+   "foreign body in the ear",
+   "ear foreign body",
+   "foreign body ear",
+   "aural foreign body",
+   "foreign body in the ear canal",
+   "insect in ear"
+  ],
+  "canalstenosis": [
+   "Acquired canal stenosis",
+   "canal stenosis",
+   "acquired canal stenosis",
+   "stenosis of the ear canal"
+  ],
+  "exostosis": [
+   "Exostoses of the ear canal",
+   "exostosis",
+   "exostoses",
+   "surfer's ear",
+   "surfers ear"
+  ],
+  "osteoma": [
+   "Osteoma of the ear canal",
+   "osteoma",
+   "canal osteoma"
+  ],
+  "chole": [
+   "Cholesteatoma",
+   "cholesteatoma",
+   "atticoantral disease",
+   "unsafe ear",
+   "squamous chronic otitis media",
+   "acquired cholesteatoma"
+  ],
+  "cholecong": [
+   "Congenital cholesteatoma",
+   "congenital cholesteatoma"
+  ],
+  "retraction": [
+   "Retraction pocket",
+   "retraction pocket",
+   "retraction pockets",
+   "atelectasis",
+   "retracted drum",
+   "tympanic membrane retraction",
+   "attic retraction"
+  ],
+  "csom": [
+   "Chronic suppurative otitis media",
+   "chronic suppurative otitis media",
+   "csom",
+   "tubotympanic disease",
+   "safe ear",
+   "mucosal chronic otitis media",
+   "chronic otitis media",
+   "com"
+  ],
+  "tympanosclerosis": [
+   "Tympanosclerosis",
+   "tympanosclerosis",
+   "myringosclerosis"
+  ],
+  "deafchild": [
+   "Congenital hearing loss",
+   "congenital hearing loss",
+   "deaf child",
+   "hearing loss in children",
+   "childhood hearing loss",
+   "congenital deafness",
+   "newborn hearing screening",
+   "neonatal hearing screening"
+  ],
+  "hearingaid": [
+   "Hearing aids",
+   "hearing aid",
+   "hearing aids"
+  ],
+  "ci": [
+   "Cochlear implant",
+   "cochlear implant",
+   "cochlear implants",
+   "cochlear implantation"
+  ],
+  "baha": [
+   "Bone-conduction devices",
+   "bone conduction device",
+   "bone-conduction device",
+   "baha",
+   "bone anchored hearing aid",
+   "bone-anchored hearing aid"
+  ],
+  "mei": [
+   "Middle ear implants",
+   "middle ear implant",
+   "middle ear implants"
+  ],
+  "abi": [
+   "Auditory brainstem implant",
+   "auditory brainstem implant",
+   "abi"
+  ],
+  "cros": [
+   "CROS aids",
+   "cros",
+   "bicros",
+   "cros aid"
+  ],
+  "dizzychild": [
+   "The dizzy child",
+   "dizzy child",
+   "vertigo in children",
+   "dizziness in children",
+   "childhood vertigo"
+  ],
+  "bpvc": [
+   "Benign paroxysmal vertigo of childhood",
+   "benign paroxysmal vertigo of childhood"
+  ],
+  "vm": [
+   "Vestibular migraine",
+   "vestibular migraine",
+   "migrainous vertigo",
+   "migraine associated vertigo"
+  ],
+  "pinnahaem": [
+   "Pinna haematoma",
+   "pinna haematoma",
+   "auricular haematoma",
+   "haematoma of the pinna",
+   "haematoma auris",
+   "cauliflower ear"
+  ],
+  "pinnatrauma": [
+   "Pinna injuries",
+   "pinna injury",
+   "pinna laceration",
+   "ear laceration",
+   "pinna trauma",
+   "ear trauma",
+   "avulsion of the pinna",
+   "frostbite of the ear",
+   "ear bite"
+  ],
+  "pinnaanom": [
+   "Congenital anomalies of the pinna",
+   "congenital anomalies of the pinna",
+   "prominent ears",
+   "bat ears",
+   "bat ear",
+   "protruding ears",
+   "accessory auricle",
+   "accessory tragus"
+  ],
+  "grommet": [
+   "Myringotomy and grommets",
+   "grommet",
+   "grommets",
+   "myringotomy",
+   "ventilation tube",
+   "ventilation tubes",
+   "tympanostomy tube",
+   "tympanostomy tubes"
+  ],
+  "myringoplasty": [
+   "Myringoplasty",
+   "myringoplasty",
+   "repair of perforation"
+  ],
+  "tympanoplasty": [
+   "Tympanoplasty",
+   "tympanoplasty",
+   "types of tympanoplasty",
+   "wullstein"
+  ],
+  "ossiculoplasty": [
+   "Ossiculoplasty",
+   "ossiculoplasty",
+   "ossicular reconstruction"
+  ],
+  "mastoidectomy": [
+   "Mastoidectomy",
+   "mastoidectomy",
+   "mastoid surgery",
+   "mastoid operation",
+   "cortical mastoidectomy",
+   "schwartze operation",
+   "modified radical mastoidectomy",
+   "radical mastoidectomy",
+   "canal wall down",
+   "canal wall up",
+   "canal wall down mastoidectomy",
+   "canal wall up mastoidectomy"
+  ],
+  "meatoplasty": [
+   "Meatoplasty",
+   "meatoplasty"
+  ],
+  "etd": [
+   "Eustachian tube dysfunction",
+   "eustachian tube dysfunction",
+   "etd",
+   "obstructive eustachian tube dysfunction",
+   "blocked eustachian tube",
+   "eustachian tube obstruction"
+  ],
+  "et": [
+   "Eustachian tube",
+   "eustachian tube",
+   "pharyngotympanic tube",
+   "auditory tube"
+  ],
+  "patulous": [
+   "Patulous Eustachian tube",
+   "patulous eustachian tube",
+   "patulous tube"
+  ],
+  "barotrauma": [
+   "Barotrauma",
+   "barotrauma",
+   "otitic barotrauma",
+   "aerotitis",
+   "aural barotrauma",
+   "ear barotrauma"
+  ],
+  "innerbaro": [
+   "Inner ear barotrauma",
+   "inner ear barotrauma"
+  ],
+  "keloid": [
+   "Keloid of the ear",
+   "keloid",
+   "keloid of the ear",
+   "ear keloid",
+   "earlobe keloid"
+  ],
+  "pinnacancer": [
+   "Cancer of the pinna",
+   "cancer of the pinna",
+   "pinna cancer",
+   "carcinoma of the pinna",
+   "squamous cell carcinoma of the pinna",
+   "basal cell carcinoma of the pinna",
+   "skin cancer of the ear"
+  ],
+  "earmelanoma": [
+   "Melanoma of the ear",
+   "melanoma of the ear",
+   "melanoma of the pinna"
+  ],
+  "canalcancer": [
+   "Carcinoma of the ear canal",
+   "carcinoma of the ear canal",
+   "ear canal cancer",
+   "canal carcinoma",
+   "carcinoma of the external auditory canal",
+   "squamous cell carcinoma of the canal"
+  ],
+  "ceruminous": [
+   "Ceruminous gland tumours",
+   "ceruminous gland tumours",
+   "ceruminous adenoma"
+  ],
+  "facialpalsy": [
+   "Facial nerve palsy",
+   "facial palsy",
+   "facial nerve palsy",
+   "facial nerve paralysis",
+   "facial paralysis",
+   "facial weakness",
+   "facial nerve injury",
+   "facial nerve damage",
+   "lower motor neurone facial palsy",
+   "seventh nerve palsy",
+   "facial nerve lesion"
+  ],
+  "facialnerve": [
+   "Facial nerve (anatomy)",
+   "facial nerve",
+   "course of the facial nerve",
+   "seventh nerve",
+   "facial nerve anatomy",
+   "branches of facial nerve"
+  ],
+  "bells": [
+   "Bell's palsy",
+   "bell palsy",
+   "bells palsy",
+   "bell's palsy",
+   "idiopathic facial palsy"
+  ],
+  "rhs": [
+   "Ramsay Hunt syndrome",
+   "ramsay hunt",
+   "ramsay hunt syndrome",
+   "herpes zoster oticus",
+   "zoster oticus",
+   "rhs"
+  ],
+  "hemifacial": [
+   "Hemifacial spasm",
+   "hemifacial spasm"
+  ],
+  "labfistula": [
+   "Labyrinthine fistula",
+   "labyrinthine fistula",
+   "lateral canal fistula",
+   "fistula sign"
+  ],
+  "labyrinthitis": [
+   "Labyrinthitis",
+   "labyrinthitis",
+   "serous labyrinthitis",
+   "suppurative labyrinthitis",
+   "viral labyrinthitis"
+  ],
+  "labossif": [
+   "Labyrinthitis ossificans",
+   "labyrinthitis ossificans"
+  ],
+  "plf": [
+   "Perilymph fistula",
+   "perilymph fistula",
+   "perilymphatic fistula"
+  ],
+  "icc": [
+   "Intracranial complications of otitis media",
+   "intracranial complications of otitis media",
+   "intracranial complications",
+   "otogenic intracranial complications",
+   "intracranial complications of csom"
+  ],
+  "extradural": [
+   "Extradural abscess",
+   "extradural abscess",
+   "epidural abscess"
+  ],
+  "subdural": [
+   "Subdural empyema",
+   "subdural empyema",
+   "subdural abscess"
+  ],
+  "otomening": [
+   "Otogenic meningitis",
+   "otogenic meningitis",
+   "otitic meningitis",
+   "meningitis"
+  ],
+  "brainabscess": [
+   "Otogenic brain abscess",
+   "brain abscess",
+   "otogenic brain abscess",
+   "temporal lobe abscess",
+   "cerebellar abscess"
+  ],
+  "lst": [
+   "Lateral sinus thrombophlebitis",
+   "lateral sinus thrombophlebitis",
+   "lateral sinus thrombosis",
+   "sigmoid sinus thrombosis",
+   "sigmoid sinus thrombophlebitis"
+  ],
+  "otitichydro": [
+   "Otitic hydrocephalus",
+   "otitic hydrocephalus"
+  ],
+  "ko": [
+   "Keratosis obturans",
+   "keratosis obturans"
+  ],
+  "canalchole": [
+   "Canal cholesteatoma",
+   "canal cholesteatoma",
+   "external auditory canal cholesteatoma",
+   "external canal cholesteatoma"
+  ],
+  "mastoiditis": [
+   "Acute mastoiditis",
+   "mastoiditis",
+   "acute mastoiditis",
+   "coalescent mastoiditis",
+   "acute coalescent mastoiditis"
+  ],
+  "masked": [
+   "Masked mastoiditis",
+   "masked mastoiditis",
+   "latent mastoiditis"
+  ],
+  "mastabsc": [
+   "Abscesses around the mastoid",
+   "mastoid abscess",
+   "subperiosteal abscess",
+   "postauricular abscess",
+   "bezold abscess",
+   "citelli abscess",
+   "luc abscess",
+   "zygomatic abscess",
+   "abscesses around the mastoid"
+  ],
+  "meniere": [
+   "Ménière's disease",
+   "meniere",
+   "menieres",
+   "meniere disease",
+   "menieres disease",
+   "meniere's disease",
+   "endolymphatic hydrops",
+   "menieres syndrome",
+   "meniere syndrome"
+  ],
+  "myringitis": [
+   "Myringitis",
+   "myringitis"
+  ],
+  "bullous": [
+   "Bullous myringitis",
+   "bullous myringitis",
+   "myringitis bullosa"
+  ],
+  "granmyr": [
+   "Granular myringitis",
+   "granular myringitis"
+  ],
+  "oe": [
+   "Otitis externa",
+   "otitis externa",
+   "acute otitis externa",
+   "diffuse otitis externa",
+   "acute diffuse otitis externa",
+   "swimmer's ear",
+   "swimmers ear",
+   "external otitis"
+  ],
+  "furuncle": [
+   "Furunculosis of the ear canal",
+   "furuncle",
+   "furunculosis",
+   "localised otitis externa",
+   "circumscribed otitis externa"
+  ],
+  "otomycosis": [
+   "Otomycosis",
+   "otomycosis",
+   "fungal otitis externa",
+   "fungal ear infection"
+  ],
+  "chronicoe": [
+   "Chronic otitis externa",
+   "chronic otitis externa",
+   "eczematous otitis externa",
+   "reactive otitis externa",
+   "chronic stenosing otitis externa"
+  ],
+  "noe": [
+   "Necrotising otitis externa",
+   "necrotising otitis externa",
+   "necrotizing otitis externa",
+   "malignant otitis externa",
+   "skull base osteomyelitis"
+  ],
+  "om": [
+   "Otitis media",
+   "otitis media",
+   "middle ear infection",
+   "ear infection"
+  ],
+  "aom": [
+   "Acute otitis media",
+   "acute otitis media",
+   "aom",
+   "acute suppurative otitis media",
+   "asom"
+  ],
+  "ome": [
+   "Otitis media with effusion",
+   "otitis media with effusion",
+   "ome",
+   "glue ear",
+   "secretory otitis media",
+   "serous otitis media",
+   "middle ear effusion"
+  ],
+  "raom": [
+   "Recurrent acute otitis media",
+   "recurrent acute otitis media",
+   "recurrent otitis media"
+  ],
+  "otosc": [
+   "Otosclerosis",
+   "otosclerosis",
+   "otospongiosis"
+  ],
+  "stapes": [
+   "Stapes surgery",
+   "stapes surgery",
+   "stapedotomy",
+   "stapedectomy"
+  ],
+  "perich": [
+   "Perichondritis of the pinna",
+   "perichondritis",
+   "perichondritis of the pinna",
+   "auricular perichondritis"
+  ],
+  "pinnacell": [
+   "Cellulitis and erysipelas of the pinna",
+   "cellulitis of the pinna",
+   "erysipelas"
+  ],
+  "relpoly": [
+   "Relapsing polychondritis",
+   "relapsing polychondritis"
+  ],
+  "cnh": [
+   "Chondrodermatitis nodularis helicis",
+   "chondrodermatitis nodularis helicis",
+   "chondrodermatitis",
+   "cnh"
+  ],
+  "petrous": [
+   "Petrous apicitis",
+   "petrous apicitis",
+   "gradenigo syndrome",
+   "gradenigo",
+   "petrositis"
+  ],
+  "scd": [
+   "Superior canal dehiscence",
+   "superior canal dehiscence",
+   "superior semicircular canal dehiscence",
+   "sscd",
+   "third window"
+  ],
+  "ototox": [
+   "Ototoxicity",
+   "ototoxicity",
+   "ototoxic drugs",
+   "ototoxic",
+   "drug induced hearing loss",
+   "aminoglycoside ototoxicity",
+   "cisplatin ototoxicity"
+  ],
+  "nihl": [
+   "Noise-induced hearing loss",
+   "noise induced hearing loss",
+   "nihl",
+   "noise trauma",
+   "acoustic trauma",
+   "noise exposure"
+  ],
+  "presby": [
+   "Presbycusis",
+   "presbycusis",
+   "presbyacusis",
+   "age related hearing loss"
+  ],
+  "aied": [
+   "Autoimmune inner ear disease",
+   "autoimmune inner ear disease",
+   "immune mediated inner ear disease",
+   "aied"
+  ],
+  "ssnhl": [
+   "Sudden sensorineural hearing loss",
+   "sudden hearing loss",
+   "sudden sensorineural hearing loss",
+   "ssnhl",
+   "sudden deafness"
+  ],
+  "tbfx": [
+   "Temporal bone fracture",
+   "temporal bone fracture",
+   "temporal bone fractures",
+   "fracture of the temporal bone",
+   "longitudinal fracture",
+   "transverse fracture"
+  ],
+  "csfotor": [
+   "CSF otorrhoea",
+   "csf otorrhoea",
+   "csf otorrhea",
+   "csf leak from the ear"
+  ],
+  "tbom": [
+   "Tuberculous otitis media",
+   "tuberculous otitis media",
+   "tb otitis media",
+   "tuberculosis of the ear",
+   "tuberculous otitis"
+  ],
+  "syphotitis": [
+   "Syphilitic otitis",
+   "syphilitic otitis",
+   "syphilis of the ear",
+   "otosyphilis"
+  ],
+  "tmperf": [
+   "Traumatic perforation of the eardrum",
+   "traumatic perforation",
+   "traumatic tympanic membrane perforation",
+   "perforated eardrum",
+   "eardrum perforation",
+   "tympanic membrane perforation",
+   "ruptured eardrum"
+  ],
+  "atrophicdrum": [
+   "Atrophic drum",
+   "atrophic drum",
+   "atrophic tympanic membrane",
+   "dimeric membrane"
+  ],
+  "paraganglioma": [
+   "Glomus tumour (paraganglioma)",
+   "glomus",
+   "glomus tumour",
+   "glomus tumor",
+   "glomus jugulare",
+   "glomus tympanicum",
+   "paraganglioma",
+   "jugulotympanic paraganglioma"
+  ],
+  "mecancer": [
+   "Carcinoma of the middle ear",
+   "carcinoma of the middle ear",
+   "middle ear carcinoma",
+   "middle ear cancer",
+   "temporal bone carcinoma",
+   "temporal bone cancer",
+   "squamous cell carcinoma of the temporal bone"
+  ],
+  "rhabdo": [
+   "Rhabdomyosarcoma",
+   "rhabdomyosarcoma"
+  ],
+  "elst": [
+   "Endolymphatic sac tumour",
+   "endolymphatic sac tumour"
+  ],
+  "vertigo": [
+   "Vertigo",
+   "vertigo",
+   "dizziness",
+   "giddiness",
+   "dizzy"
+  ],
+  "bppv": [
+   "BPPV",
+   "bppv",
+   "benign paroxysmal positional vertigo",
+   "positional vertigo",
+   "benign positional vertigo"
+  ],
+  "vneuritis": [
+   "Vestibular neuritis",
+   "vestibular neuritis",
+   "vestibular neuronitis",
+   "acute vestibular neuritis"
+  ],
+  "recvest": [
+   "Recurrent vestibulopathy",
+   "recurrent vestibulopathy"
+  ],
+  "bvl": [
+   "Bilateral vestibular loss",
+   "bilateral vestibular loss",
+   "bilateral vestibulopathy",
+   "bilateral vestibular hypofunction"
+  ],
+  "pcstroke": [
+   "Posterior circulation stroke",
+   "posterior circulation stroke",
+   "cerebellar stroke",
+   "cerebellar infarct",
+   "brainstem stroke"
+  ],
+  "vbi": [
+   "Vertebrobasilar insufficiency",
+   "vertebrobasilar insufficiency",
+   "vbi"
+  ],
+  "hints": [
+   "HINTS examination",
+   "hints",
+   "hints exam",
+   "hints examination",
+   "head impulse test",
+   "head thrust test"
+  ],
+  "vestrehab": [
+   "Vestibular rehabilitation",
+   "vestibular rehabilitation",
+   "cawthorne cooksey exercises",
+   "vestibular exercises"
+  ],
+  "vesttest": [
+   "Vestibular function tests",
+   "vestibular tests",
+   "vestibular testing",
+   "vestibular function tests",
+   "caloric test",
+   "caloric testing",
+   "calorics",
+   "videonystagmography",
+   "vng",
+   "electronystagmography",
+   "eng",
+   "vemp",
+   "vestibular evoked myogenic potentials",
+   "rotary chair",
+   "posturography"
+  ],
+  "vs": [
+   "Vestibular schwannoma",
+   "vestibular schwannoma",
+   "acoustic neuroma",
+   "acoustic neurinoma",
+   "cpa tumour",
+   "cp angle tumour",
+   "cerebellopontine angle tumour",
+   "eighth nerve schwannoma"
+  ],
+  "nf2": [
+   "Neurofibromatosis type 2",
+   "nf2",
+   "neurofibromatosis type 2",
+   "neurofibromatosis 2"
+  ]
+ },
+ "articles": {
+  "cl:t-atresia": {
+   "e": "atresia",
+   "s": {
+    "Microtia": "microtia",
+    "Preauricular sinus": "preauricular"
+   }
+  },
+  "cl:t-audio": {
+   "e": "hearingtests",
+   "c": {
+    "Bedside tests": "tuning",
+    "Pure-tone audiometry": "pta",
+    "Patterns on the audiogram": "pta",
+    "Speech audiometry": "speechaud",
+    "Impedance audiometry": "tymp"
+   },
+   "s": {
+    "Voice tests": "-",
+    "Stapedial (acoustic) reflex": "reflex",
+    "Otoacoustic emissions": "oae",
+    "Auditory brainstem response": "abr",
+    "Reading an ABR": "abr",
+    "Auditory steady-state response": "assr",
+    "Electrocochleography": "ecog",
+    "Auditory neuropathy": "anpathy"
+   },
+   "a": {
+    "Reading it, step by step": "dx",
+    "Reading a tympanogram": "dx",
+    "Reading an ABR": "dx",
+    "Reading the speech audiogram": "dx",
+    "Putting the tests together": "dx",
+    "Conductive and mixed losses": "dx",
+    "Sensorineural patterns": "dx"
+   }
+  },
+  "cl:t-canal": {
+   "e": "-",
+   "c": {
+    "Wax": "wax",
+    "Foreign bodies": "fbear",
+    "Narrowing and bony growths": "-"
+   },
+   "s": {
+    "Acquired canal stenosis": "canalstenosis",
+    "Exostoses and osteoma": "exostosis"
+   }
+  },
+  "cl:t-chole": {
+   "e": "chole"
+  },
+  "cl:t-csom": {
+   "e": "csom",
+   "s": {
+    "Tympanosclerosis": "tympanosclerosis"
+   }
+  },
+  "cl:t-deaf": {
+   "e": "deafchild",
+   "s": {
+    "Hearing aids": "deafchild",
+    "Cochlear implant": "deafchild"
+   }
+  },
+  "cl:t-dizzychild": {
+   "e": "dizzychild",
+   "s": {
+    "Otitis media with effusion": "dizzychild",
+    "Vestibular neuritis and labyrinthitis": "dizzychild",
+    "Chronic ear disease": "dizzychild",
+    "Head injury": "dizzychild",
+    "Drugs": "dizzychild",
+    "Vision": "dizzychild"
+   }
+  },
+  "cl:t-earminor": {
+   "e": "-",
+   "c": {
+    "Pinna haematoma": "pinnahaem",
+    "Preauricular sinus": "preauricular"
+   }
+  },
+  "cl:t-earsurg": {
+   "e": "-",
+   "c": {
+    "Myringotomy and grommets": "grommet",
+    "Mastoid operations": "mastoidectomy"
+   },
+   "s": {
+    "Myringoplasty": "myringoplasty",
+    "Tympanoplasty": "tympanoplasty",
+    "Ossicular reconstruction (ossiculoplasty)": "ossiculoplasty",
+    "Meatoplasty": "meatoplasty",
+    "Complications of mastoid surgery": "mastoidectomy",
+    "What hearing needs": "tympanoplasty",
+    "Approaches": "-"
+   },
+   "a": {
+    "Complications of mastoid surgery": "cx",
+    "Cortical (Schwartze) mastoidectomy": "how",
+    "Modified radical mastoidectomy": "how",
+    "Radical mastoidectomy": "how",
+    "Canal wall up and canal wall down": "how"
+   }
+  },
+  "cl:t-eponym": {
+   "e": "-",
+   "a": {
+    "*": "cf"
+   },
+   "s": {
+    "Abscesses around the mastoid": "mastabsc",
+    "Otosclerosis": "otosc",
+    "Mastoiditis": "mastoiditis",
+    "Signs of intracranial spread": "icc"
+   }
+  },
+  "cl:t-et": {
+   "e": "et",
+   "c": {
+    "Obstructive dysfunction": "etd",
+    "Patulous tube": "patulous",
+    "Barotrauma": "barotrauma"
+   }
+  },
+  "cl:t-extca": {
+   "e": "-",
+   "c": {
+    "Bony growths of the canal": "exostosis",
+    "Tumours of the canal": "canalcancer",
+    "Malignant tumours of the pinna": "pinnacancer"
+   },
+   "s": {
+    "Squamous cell carcinoma": "pinnacancer",
+    "Basal cell carcinoma": "pinnacancer",
+    "Melanoma": "earmelanoma",
+    "Keloid": "keloid",
+    "Where ear cancers arise": "pinnacancer"
+   }
+  },
+  "cl:t-facial": {
+   "e": "facialpalsy",
+   "c": {
+    "Applied anatomy": "facialnerve"
+   },
+   "s": {
+    "Central connections": "facialnerve",
+    "The course of the nerve": "facialnerve",
+    "Branches inside the temporal bone": "facialnerve",
+    "Hemifacial spasm": "hemifacial",
+    "Eye protection": "facialpalsy",
+    "Decompression": "facialpalsy",
+    "Repair and reanimation": "facialpalsy"
+   }
+  },
+  "cl:t-fistula": {
+   "e": "-",
+   "c": {
+    "Labyrinthine fistula": "labfistula",
+    "Serous and suppurative labyrinthitis": "labyrinthitis",
+    "Perilymph fistula": "plf",
+    "Viral and syphilitic labyrinthitis": "labyrinthitis",
+    "Pathways": "labyrinthitis"
+   }
+  },
+  "cl:t-icc": {
+   "e": "icc"
+  },
+  "cl:t-ko": {
+   "e": "-",
+   "c": {
+    "Keratosis obturans": "ko",
+    "Canal cholesteatoma": "canalchole"
+   }
+  },
+  "cl:t-mastoiditis": {
+   "e": "mastoiditis",
+   "c": {
+    "Abscesses": "mastabsc"
+   }
+  },
+  "cl:t-meniere": {
+   "e": "meniere"
+  },
+  "cl:t-myring": {
+   "e": "myringitis"
+  },
+  "cl:t-oe": {
+   "e": "oe",
+   "c": {
+    "Chronic and reactive otitis externa": "chronicoe"
+   },
+   "s": {
+    "Distinguishing from mastoiditis": "noe",
+    "Otitis externa haemorrhagica": "bullous"
+   }
+  },
+  "cl:t-om": {
+   "e": "om"
+  },
+  "cl:t-otosc": {
+   "e": "otosc",
+   "c": {
+    "Complications of stapes surgery": "stapes"
+   },
+   "s": {
+    "During the operation": "stapes",
+    "Historical operations": "stapes"
+   }
+  },
+  "cl:t-perich": {
+   "e": "-",
+   "c": {
+    "Perichondritis": "perich",
+    "Cellulitis and erysipelas": "pinnacell",
+    "Herpes zoster oticus": "rhs"
+   }
+  },
+  "cl:t-petrous": {
+   "e": "petrous"
+  },
+  "cl:t-pinna": {
+   "e": "-",
+   "c": {
+    "Congenital anomalies": "pinnaanom",
+    "Haematoma": "pinnahaem",
+    "Other injuries": "pinnatrauma"
+   },
+   "s": {
+    "Keloid": "keloid",
+    "Applied anatomy": "-",
+    "Development": "pinnaanom"
+   }
+  },
+  "cl:t-rehab": {
+   "e": "-",
+   "c": {
+    "Hearing aids": "hearingaid",
+    "Bone-conduction devices": "baha",
+    "Middle ear implants": "mei",
+    "Cochlear implants": "ci",
+    "Auditory brainstem implant": "abi"
+   },
+   "s": {
+    "CROS and BiCROS aids": "cros"
+   }
+  },
+  "cl:t-scd": {
+   "e": "scd"
+  },
+  "cl:t-sensori": {
+   "e": "-",
+   "c": {
+    "Ototoxicity": "ototox",
+    "Noise-induced hearing loss": "nihl",
+    "Presbycusis": "presby",
+    "Immune-mediated inner ear disease": "aied"
+   }
+  },
+  "cl:t-ssnhl": {
+   "e": "ssnhl"
+  },
+  "cl:t-tbfx": {
+   "e": "tbfx",
+   "s": {
+    "CSF leak": "csfotor",
+    "Beta-2 transferrin": "csfotor"
+   }
+  },
+  "cl:t-tbom": {
+   "e": "tbom",
+   "c": {
+    "Syphilitic otitis": "syphotitis"
+   }
+  },
+  "cl:t-tmperf": {
+   "e": "-",
+   "c": {
+    "Traumatic perforation": "tmperf",
+    "Retraction and atelectasis": "retraction",
+    "Barotrauma": "barotrauma",
+    "Atrophy and tympanosclerosis": "-"
+   },
+   "s": {
+    "Atrophic drum": "atrophicdrum",
+    "Tympanosclerosis": "tympanosclerosis",
+    "Inner ear barotrauma": "innerbaro"
+   }
+  },
+  "cl:t-tumear": {
+   "e": "-",
+   "c": {
+    "Paraganglioma": "paraganglioma",
+    "Squamous cell carcinoma": "mecancer"
+   },
+   "s": {
+    "Rhabdomyosarcoma": "rhabdo",
+    "Endolymphatic sac tumour": "elst"
+   }
+  },
+  "cl:t-vertigo": {
+   "e": "vertigo",
+   "s": {
+    "Vestibular rehabilitation": "vestrehab",
+    "Head impulse test": "hints",
+    "HINTS": "hints"
+   }
+  },
+  "cl:t-vest": {
+   "e": "vesttest"
+  },
+  "cl:t-vs": {
+   "e": "vs",
+   "s": {
+    "NF2": "nf2"
+   }
+  }
+ },
+ "parents": {
+  "ptc": "thyroidca",
+  "ftc": "thyroidca",
+  "mtc": "thyroidca",
+  "atc": "thyroidca",
+  "thyroidlymphoma": "thyroidca",
+  "pleomorphic": "saltum",
+  "warthin": "saltum",
+  "mec": "salca",
+  "acc": "salca",
+  "acinic": "salca",
+  "caexpa": "salca",
+  "salca": "saltum",
+  "aom": "om",
+  "ome": "om",
+  "raom": "aom",
+  "glotca": "lxca",
+  "supraglotca": "lxca",
+  "subglotca": "lxca",
+  "maxca": "sinonasaltum",
+  "ethmoidca": "sinonasaltum",
+  "ip": "sinonasaltum",
+  "onb": "sinonasaltum",
+  "mucmel": "sinonasaltum",
+  "snuc": "sinonasaltum",
+  "tongueca": "oralca",
+  "lipca": "oralca",
+  "buccalca": "oralca",
+  "fomca": "oralca",
+  "pyrca": "hypoca",
+  "pcca": "hypoca",
+  "uvfp": "vfp",
+  "bvfp": "vfp",
+  "slnpalsy": "vfp",
+  "cholecong": "chole",
+  "bells": "facialpalsy",
+  "rhs": "facialpalsy",
+  "afrs": "fungal",
+  "aifs": "fungal",
+  "cifs": "fungal",
+  "fungusball": "fungal",
+  "noe": "oe",
+  "chronicoe": "oe",
+  "furuncle": "oe",
+  "otomycosis": "oe",
+  "maxsin": "ars",
+  "frontsin": "ars",
+  "ethmoiditis": "ars",
+  "sphenoiditis": "ars",
+  "arsviral": "ars",
+  "polyps": "crs",
+  "acp": "polyps",
+  "ludwig": "dnsi",
+  "rpa": "dnsi",
+  "ppa": "dnsi",
+  "graves": "hyperthyroid",
+  "hashimoto": "thyroiditis",
+  "bppv": "vertigo",
+  "vneuritis": "vertigo",
+  "pyriform": "choanal",
+  "dermoid": "midlinemass",
+  "glioma": "midlinemass",
+  "encephalocele": "midlinemass",
+  "tgdc": "congneck",
+  "branchial": "congneck",
+  "septalabscess": "septalhaem",
+  "cbt": "paraganglioma_neck",
+  "vagalpg": "paraganglioma_neck",
+  "laryngectomy": "lxca",
+  "bcc": "skinca",
+  "cscc": "skinca",
+  "merkel": "skinca"
+ }
+}

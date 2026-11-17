@@ -1,0 +1,636 @@
+{
+ "about": "Answer map, operations and theatre basics. Operation pages whose titles name a condition or procedure are matched automatically; these are the rest.",
+ "entities": {
+  "officelx": [
+   "Office-based laryngeal procedures",
+   "office based laryngeal procedures",
+   "office laryngeal procedures",
+   "in-office laryngeal procedures"
+  ],
+  "maxillectomy": [
+   "Maxillectomy",
+   "maxillectomy",
+   "medial maxillectomy",
+   "total maxillectomy",
+   "complete maxillectomy",
+   "partial maxillectomy"
+  ],
+  "ethmoidectomy": [
+   "Ethmoidectomy",
+   "ethmoidectomy",
+   "endoscopic ethmoidectomy",
+   "external ethmoidectomy"
+  ],
+  "sphenoidotomy": [
+   "Sphenoidotomy",
+   "sphenoidotomy",
+   "endoscopic sphenoidotomy"
+  ],
+  "csfrepair": [
+   "Repair of CSF leak",
+   "csf leak repair",
+   "repair of csf leak",
+   "endoscopic csf leak repair"
+  ],
+  "officeoto": [
+   "Office-based procedures in otology",
+   "office procedures in otology",
+   "office otology"
+  ],
+  "tbresection": [
+   "Temporal bone resection",
+   "temporal bone resection",
+   "lateral temporal bone resection"
+  ],
+  "tors": [
+   "Transoral robotic surgery",
+   "transoral robotic surgery",
+   "tors",
+   "robotic surgery"
+  ],
+  "foreheadflap": [
+   "Paramedian forehead flap",
+   "paramedian forehead flap",
+   "forehead flap"
+  ],
+  "cervicofacialflap": [
+   "Cervicofacial flap",
+   "cervicofacial flap",
+   "cervicofacial transposition flap"
+  ],
+  "mandibulectomy": [
+   "Mandibulectomy",
+   "mandibulectomy",
+   "segmental mandibulectomy",
+   "marginal mandibulectomy"
+  ],
+  "mandibulotomy": [
+   "Mandibulotomy",
+   "mandibulotomy",
+   "mandibular osteotomy",
+   "mandibular swing"
+  ],
+  "aspirationsurg": [
+   "Surgery for aspiration",
+   "surgery for aspiration",
+   "laryngotracheal separation",
+   "laryngeal cleft repair"
+  ],
+  "exit": [
+   "EXIT procedure",
+   "exit procedure",
+   "ex utero intrapartum treatment"
+  ],
+  "congme": [
+   "Congenital malformations of the middle ear",
+   "congenital malformations of the middle ear",
+   "congenital ossicular anomalies",
+   "congenital middle ear anomalies"
+  ],
+  "tcfistula": [
+   "Tracheocutaneous fistula",
+   "tracheocutaneous fistula"
+  ],
+  "glossectomy": [
+   "Glossectomy",
+   "glossectomy",
+   "partial glossectomy",
+   "total glossectomy",
+   "hemiglossectomy"
+  ],
+  "pharyngectomy": [
+   "Pharyngectomy",
+   "pharyngectomy",
+   "pharyngolaryngectomy",
+   "total pharyngolaryngectomy"
+  ],
+  "uesdys": [
+   "Upper oesophageal sphincter dysfunction",
+   "upper oesophageal sphincter dysfunction",
+   "upper esophageal sphincter dysfunction",
+   "ues dysfunction"
+  ],
+  "medlaryngo": [
+   "Medialisation laryngoplasty",
+   "medialisation laryngoplasty",
+   "medialization laryngoplasty",
+   "arytenoid adduction",
+   "type i thyroplasty"
+  ],
+  "dise": [
+   "Drug-induced sedation endoscopy",
+   "dise",
+   "drug induced sedation endoscopy",
+   "drug-induced sleep endoscopy",
+   "sleep endoscopy",
+   "sleep nasendoscopy"
+  ],
+  "fna": [
+   "Fine-needle aspiration",
+   "fine needle aspiration",
+   "fna",
+   "fnac",
+   "fine needle aspiration cytology",
+   "core biopsy",
+   "ultrasound guided fna"
+  ],
+  "neckinjury": [
+   "Neck trauma",
+   "neck trauma",
+   "neck injury",
+   "vascular injury of the neck",
+   "soft tissue injury of the neck"
+  ],
+  "robothyroid": [
+   "Robotic thyroidectomy",
+   "robotic thyroidectomy",
+   "remote access thyroidectomy",
+   "transoral thyroidectomy"
+  ],
+  "parathyroidectomy": [
+   "Parathyroidectomy",
+   "parathyroidectomy",
+   "minimally invasive parathyroidectomy",
+   "bilateral neck exploration"
+  ],
+  "sialendoscopy": [
+   "Salivary endoscopy",
+   "sialendoscopy",
+   "salivary endoscopy"
+  ],
+  "deeplobe": [
+   "Deep lobe parotidectomy",
+   "deep lobe parotidectomy",
+   "deep lobe parotid tumour",
+   "deep lobe tumour"
+  ],
+  "septalperfrepair": [
+   "Repair of septal perforation",
+   "septal perforation repair",
+   "repair of septal perforation",
+   "septal button"
+  ],
+  "consent": [
+   "Consent",
+   "consent",
+   "informed consent",
+   "montgomery",
+   "capacity",
+   "gillick competence"
+  ],
+  "crises": [
+   "Theatre emergencies",
+   "theatre emergencies",
+   "airway fire",
+   "anaphylaxis",
+   "malignant hyperthermia",
+   "local anaesthetic toxicity",
+   "last"
+  ],
+  "crm": [
+   "Leading in a crisis",
+   "crisis resource management",
+   "crm",
+   "leading in a crisis"
+  ],
+  "candour": [
+   "Duty of candour",
+   "duty of candour",
+   "candour",
+   "complications and candour"
+  ],
+  "dissection": [
+   "Dissection and tissue handling",
+   "tissue handling",
+   "dissection technique"
+  ],
+  "drains": [
+   "Drains, dressings, packs and splints",
+   "drain",
+   "drains",
+   "dressings",
+   "nasal splints",
+   "packs"
+  ],
+  "diathermy": [
+   "Diathermy",
+   "diathermy",
+   "monopolar diathermy",
+   "bipolar diathermy",
+   "electrosurgery",
+   "energy devices",
+   "harmonic scalpel"
+  ],
+  "haemostasis": [
+   "Haemostasis and blood loss",
+   "haemostasis",
+   "blood loss",
+   "hemostasis",
+   "transfusion"
+  ],
+  "humanfactors": [
+   "Human factors",
+   "human factors",
+   "audit",
+   "quality improvement"
+  ],
+  "incisions": [
+   "Incisions in the head and neck",
+   "incisions",
+   "neck incisions",
+   "skin incisions",
+   "relaxed skin tension lines",
+   "langer lines"
+  ],
+  "infcontrol": [
+   "Infection control and sharps injuries",
+   "infection control",
+   "sharps injury",
+   "sharps injuries"
+  ],
+  "instruments": [
+   "ENT instruments",
+   "ent instruments",
+   "instruments",
+   "surgical instruments"
+  ],
+  "knots": [
+   "Knots and wound closure",
+   "knots",
+   "knot tying",
+   "wound closure",
+   "surgical knots"
+  ],
+  "la": [
+   "Local anaesthesia and nerve blocks",
+   "local anaesthesia",
+   "local anesthesia",
+   "nerve block",
+   "nerve blocks",
+   "maximum dose of lidocaine",
+   "local anaesthetic dose"
+  ],
+  "list": [
+   "Planning a theatre list",
+   "theatre list",
+   "operating list",
+   "list planning"
+  ],
+  "never": [
+   "Never events and nerve monitoring",
+   "never events",
+   "nerve monitoring",
+   "nim",
+   "facial nerve monitoring",
+   "wrong site surgery"
+  ],
+  "opnote": [
+   "Operation notes",
+   "operation note",
+   "op note",
+   "operation notes",
+   "documentation"
+  ],
+  "optics": [
+   "Microscope, endoscopes and the drill",
+   "operating microscope",
+   "microscope",
+   "endoscopes",
+   "drill",
+   "otological drill"
+  ],
+  "paedstheatre": [
+   "The child in theatre",
+   "child in theatre",
+   "paediatric anaesthesia",
+   "children in theatre"
+  ],
+  "positioning": [
+   "Positioning the ENT patient",
+   "positioning",
+   "patient positioning"
+  ],
+  "postop": [
+   "Post-operative care",
+   "post-operative care",
+   "postoperative care",
+   "post op care"
+  ],
+  "preop": [
+   "Pre-operative assessment",
+   "pre-operative assessment",
+   "preoperative assessment",
+   "pre op assessment",
+   "fasting"
+  ],
+  "prophylaxis": [
+   "Antibiotic and VTE prophylaxis",
+   "antibiotic prophylaxis",
+   "vte prophylaxis",
+   "thromboprophylaxis",
+   "dvt prophylaxis"
+  ],
+  "scrub": [
+   "Scrubbing and the sterile field",
+   "scrubbing",
+   "gowning",
+   "gloving",
+   "sterile field",
+   "scrubbing up"
+  ],
+  "sutures": [
+   "Sutures and needles",
+   "sutures",
+   "suture",
+   "needles",
+   "suture materials",
+   "absorbable sutures"
+  ],
+  "teaching": [
+   "Teaching and assessing",
+   "teaching",
+   "assessment of trainees",
+   "workplace based assessment"
+  ],
+  "whochecklist": [
+   "The WHO checklist",
+   "who checklist",
+   "who surgical safety checklist",
+   "theatre team",
+   "team brief"
+  ],
+  "wounds": [
+   "Wound healing and scars",
+   "wound healing",
+   "scars",
+   "hypertrophic scar",
+   "scar"
+  ],
+  "skilllab": [
+   "Building surgical skill",
+   "surgical skill",
+   "simulation",
+   "skills lab"
+  ]
+ },
+ "articles": {
+  "th:op-1": {
+   "e": "officelx"
+  },
+  "th:op-103": {
+   "e": "acp"
+  },
+  "th:op-106": {
+   "e": "maxillectomy"
+  },
+  "th:op-107": {
+   "e": "maxillectomy"
+  },
+  "th:op-108": {
+   "e": "ethmoidectomy"
+  },
+  "th:op-109": {
+   "e": "ethmoidectomy"
+  },
+  "th:op-110": {
+   "e": "sphenoidotomy"
+  },
+  "th:op-111": {
+   "e": "frontalproc"
+  },
+  "th:op-112": {
+   "e": "frontalproc"
+  },
+  "th:op-113": {
+   "e": "frontalproc"
+  },
+  "th:op-114": {
+   "e": "frontalproc"
+  },
+  "th:op-116": {
+   "e": "csfrepair"
+  },
+  "th:op-117": {
+   "e": "pituitary"
+  },
+  "th:op-118": {
+   "e": "eesb"
+  },
+  "th:op-119": {
+   "e": "eesb"
+  },
+  "th:op-124": {
+   "e": "nasoseptalflap"
+  },
+  "th:op-125": {
+   "e": "officeoto"
+  },
+  "th:op-126": {
+   "e": "fbear"
+  },
+  "th:op-127": {
+   "e": "exostosis"
+  },
+  "th:op-129": {
+   "e": "grommet"
+  },
+  "th:op-135": {
+   "e": "baha"
+  },
+  "th:op-136": {
+   "e": "mei"
+  },
+  "th:op-141": {
+   "e": "tbresection"
+  },
+  "th:op-145": {
+   "e": "tbfx"
+  },
+  "th:op-15": {
+   "e": "tors"
+  },
+  "th:op-165": {
+   "e": "foreheadflap"
+  },
+  "th:op-170": {
+   "e": "regflap"
+  },
+  "th:op-171": {
+   "e": "cervicofacialflap"
+  },
+  "th:op-182": {
+   "e": "mandibulectomy"
+  },
+  "th:op-183": {
+   "e": "mandibulotomy"
+  },
+  "th:op-186": {
+   "e": "facefx"
+  },
+  "th:op-195": {
+   "e": "aspirationsurg"
+  },
+  "th:op-197": {
+   "e": "exit"
+  },
+  "th:op-204": {
+   "e": "congme"
+  },
+  "th:op-208": {
+   "e": "atresia"
+  },
+  "th:op-23": {
+   "e": "tcfistula"
+  },
+  "th:op-28": {
+   "e": "glossectomy"
+  },
+  "th:op-29": {
+   "e": "glossectomy"
+  },
+  "th:op-36": {
+   "e": "tors"
+  },
+  "th:op-40": {
+   "e": "pharyngectomy"
+  },
+  "th:op-46": {
+   "e": "cpd"
+  },
+  "th:op-5": {
+   "e": "medlaryngo"
+  },
+  "th:op-52": {
+   "e": "dise"
+  },
+  "th:op-53": {
+   "e": "uppp"
+  },
+  "th:op-60": {
+   "e": "fna"
+  },
+  "th:op-75": {
+   "e": "neckinjury"
+  },
+  "th:op-80": {
+   "e": "robothyroid"
+  },
+  "th:op-84": {
+   "e": "parathyroidectomy"
+  },
+  "th:op-88": {
+   "e": "sialendoscopy"
+  },
+  "th:op-89": {
+   "e": "ranula"
+  },
+  "th:op-93": {
+   "e": "deeplobe"
+  },
+  "th:op-95": {
+   "e": "septoplasty"
+  },
+  "th:op-99": {
+   "e": "epistaxis"
+  },
+  "th:op-96": {
+   "e": "septalperfrepair"
+  },
+  "th:op-133": {
+   "e": "stapes"
+  },
+  "th:b-consent": {
+   "e": "consent"
+  },
+  "th:b-crises": {
+   "e": "crises",
+   "a": {
+    "Post-tonsillectomy haemorrhage": "tx"
+   }
+  },
+  "th:b-crm": {
+   "e": "crm"
+  },
+  "th:b-decide": {
+   "e": "candour"
+  },
+  "th:b-dissect": {
+   "e": "dissection"
+  },
+  "th:b-drains": {
+   "e": "drains"
+  },
+  "th:b-energy": {
+   "e": "diathermy"
+  },
+  "th:b-haemostasis": {
+   "e": "haemostasis"
+  },
+  "th:b-human": {
+   "e": "humanfactors"
+  },
+  "th:b-incisions": {
+   "e": "incisions"
+  },
+  "th:b-infection": {
+   "e": "infcontrol"
+  },
+  "th:b-instruments": {
+   "e": "instruments"
+  },
+  "th:b-knots": {
+   "e": "knots"
+  },
+  "th:b-la": {
+   "e": "la"
+  },
+  "th:b-list": {
+   "e": "list"
+  },
+  "th:b-never": {
+   "e": "never"
+  },
+  "th:b-opnote": {
+   "e": "opnote"
+  },
+  "th:b-optics": {
+   "e": "optics"
+  },
+  "th:b-paeds": {
+   "e": "paedstheatre"
+  },
+  "th:b-position": {
+   "e": "positioning"
+  },
+  "th:b-postop": {
+   "e": "postop"
+  },
+  "th:b-preop": {
+   "e": "preop"
+  },
+  "th:b-prophylaxis": {
+   "e": "prophylaxis"
+  },
+  "th:b-scrub": {
+   "e": "scrub"
+  },
+  "th:b-skilllab": {
+   "e": "skilllab"
+  },
+  "th:b-sutures": {
+   "e": "sutures"
+  },
+  "th:b-teach": {
+   "e": "teaching"
+  },
+  "th:b-team": {
+   "e": "whochecklist"
+  },
+  "th:b-wounds": {
+   "e": "wounds"
+  },
+  "th:b-anaes": {
+   "e": "sharedairway"
+  }
+ }
+}
