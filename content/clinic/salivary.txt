@@ -33,6 +33,15 @@ Which gland, one or both sides; acute or recurrent; pain and swelling with meals
 - **MRI:** the best study for masses ([[t:saltum]]).
 - **Sialendoscopy:** both diagnosis and treatment.
 - **Scintigraphy (technetium pertechnetate):** gland function; uptake in Warthin tumour and oncocytoma.
+## Investigations: what and when
+!table Salivary gland disease: investigations
+Role | Test | When and what it shows
+First line imaging | Ultrasound | Stones, dilated ducts, abscess, masses; guides FNA
+Stones | Non-contrast CT (or occlusal and plain films) | Stone size and site for sialendoscopy or lithotripsy
+Ducts | Sialography or MR sialography; diagnostic sialendoscopy | Strictures, sialectasis
+Mass | MRI with ultrasound-guided FNA or core biopsy | See salivary tumours
+Bilateral swelling | Mumps IgM or saliva PCR; HIV; anti-Ro and La; ACE; IgG4; glucose | Systemic causes
+!!
 
 # Differential diagnosis | Bilateral parotid swelling.
 !table Causes of bilateral parotid swelling
@@ -65,6 +74,15 @@ Sudden, severe pain and swelling, worse on chewing, fever and toxicity; the duct
 !fig d45-1 | Acute suppurative parotitis on the left in a 58-year-old woman.
 ## Management
 Treatment: rehydration, intravenous antibiotics covering staphylococci and anaerobes, sialogogues (lemon drops), massage from back to front, oral hygiene. Ultrasound or CT if it does not settle; an abscess (often hard to feel through the fascia) is drained through a parotidectomy incision with radial incisions in the line of the facial nerve branches.
+### Drugs and doses
+!table Acute suppurative sialadenitis: drugs and doses
+Patient | Drug and dose | Course and notes
+Adults, oral | Co-amoxiclav 625 mg three times a day; or flucloxacillin 500 mg to 1 g four times a day with metronidazole 400 mg three times a day | 7 to 10 days
+Adults, IV (unwell, elderly, dehydrated) | Co-amoxiclav 1.2 g every 8 hours | Switch to oral when improving
+Penicillin allergy | Clindamycin 300 to 450 mg four times a day (oral) | MRSA: per microbiology
+Every patient | Rehydration, sialogogues (sugar-free sweets), gland massage, oral hygiene; review drying drugs | Ultrasound or CT if no response in 48 hours (abscess)
+!!
+Doses from the BNF; regimens from NHS antimicrobial guidance.
 
 # Neonatal and juvenile recurrent parotitis {dz} | In children.
 Neonatal suppurative parotitis in premature babies (staphylococcal). *Juvenile recurrent parotitis*: recurrent swelling, often one-sided, in children aged three to ten without pus, with punctate sialectasis on imaging; usually remits at puberty; antibiotics during attacks, and sialendoscopic lavage with steroid.
@@ -115,8 +133,26 @@ An autoimmune exocrinopathy with lymphocytic destruction of the salivary and lac
 !update Current evidence
 The 2016 ACR/EULAR criteria classify primary Sjögren syndrome by weighted points for focal lymphocytic sialadenitis on lip biopsy and anti-Ro antibodies (3 each) and for ocular staining, Schirmer's test and unstimulated salivary flow (1 each), with 4 or more classifying the disease (Shiboski et al., *Arthritis Rheumatol* 2017).
 !!
+### Investigations: what and when
+!table Sjögren syndrome: investigations
+Role | Test | When and what it shows
+First line | Anti-Ro (SSA) and anti-La (SSB), ANA, rheumatoid factor; immunoglobulins, complement, ESR | Autoimmunity
+Dryness | Schirmer test; unstimulated salivary flow | Reduced tears and saliva
+Confirmation (gold standard when antibodies are negative) | Labial minor salivary gland biopsy | Focal lymphocytic sialadenitis (focus score 1 or more)
+Imaging | Salivary ultrasound | Heterogeneous glands; lymphoma surveillance
+Lymphoma risk | Cryoglobulins, low C4, monoclonal band | 
+!!
 ## Management
 - **Treatment:** saliva substitutes, frequent sips, sialogogues (pilocarpine, cevimeline), dental care, artificial tears.
+### Drugs and doses
+!table Sjögren syndrome and xerostomia: drugs and doses
+Step | Drug and dose | Course and notes
+Every patient | Frequent sips, saliva substitutes, sugar-free gum; high-fluoride toothpaste (5000 ppm); dental review; artificial tears | Prevents caries
+Residual gland function | Pilocarpine 5 mg three times a day (maximum 30 mg a day) | Takes weeks; sweating and flushing; avoid in uncontrolled asthma and narrow-angle glaucoma
+Systemic disease (rheumatology) | Hydroxychloroquine for arthralgia and fatigue; immunosuppression for organ involvement | 
+Watch for | Persistent firm parotid swelling | MALT lymphoma: biopsy
+!!
+Based on the British Society for Rheumatology guideline on Sjögren's syndrome (Price et al., *Rheumatology* 2017) and the BNF.
 ## Complications
 !flag Lymphoma in Sjögren syndrome
 The risk of non-Hodgkin lymphoma (usually MALT lymphoma of the parotid) is greatly increased. A new, firm or enlarging mass in a Sjögren gland is biopsied.
@@ -150,6 +186,16 @@ Treat with water, saliva substitutes, sugar-free gum, pilocarpine, fluoride and 
 Drooling is normal up to about four years. Beyond that it is usually caused by poor oral and pharyngeal control, open lips and poor posture, as in cerebral palsy and adult neurological disease, rather than by too much saliva. At rest about 70% of saliva comes from the submandibular glands, the main target of treatment. Separate **anterior drooling** (spilling from the lips) from **posterior drooling** (pooling in the pharynx and aspiration, with cough, night choking and chest infections), because the choice of surgery depends on it.
 ## Management
 Treatment is stepwise: oral motor training and posture; glycopyrronium or a hyoscine patch; ultrasound-guided botulinum toxin into the submandibular and parotid glands; then surgery: duct ligation, submandibular duct relocation (not in children who aspirate), or bilateral submandibular gland excision for posterior drooling. The techniques are in [[t:mouthminor]].
+### Drugs and doses
+!table Sialorrhoea: drugs and doses
+Patient | Drug and dose | Course and notes
+Children (neurodisability) | Glycopyrronium oral, starting 20 micrograms/kg three times a day, increased gradually to a maximum of 100 micrograms/kg (no more than 1.5 to 3 mg) three times a day | Constipation, urinary retention, thick secretions
+Alternative | Hyoscine hydrobromide 1 mg patch every 72 hours (part patch in young children per BNF for Children) | Drowsiness, confusion
+Adults (Parkinson's, motor neurone disease) | Glycopyrronium; or botulinum toxin | 
+Botulinum toxin | Incobotulinumtoxin A, adults 100 units (30 units each parotid, 20 units each submandibular) under ultrasound | Every 16 weeks
+Refractory | Duct ligation or relocation, gland excision | 
+!!
+Doses from NICE NG62 (cerebral palsy in under 25s), the BNF and BNF for Children, and the incobotulinumtoxin A product licence.
 
 # Tips and links | For the examination and the ward.
 ## Viva essentials
@@ -180,3 +226,7 @@ Treatment is stepwise: oral motor training and posture; glycopyrronium or a hyos
 ## Studies cited
 - Strychowsky et al., *Arch Otolaryngol Head Neck Surg* 2012: systematic review of sialendoscopy.
 - Shiboski et al., *Arthritis Rheumatol* 2017: ACR/EULAR classification criteria for Sjögren syndrome.
+## Guidelines and dosing
+- Price et al., *Rheumatology* 2017: BSR guideline for Sjögren's syndrome.
+- NICE NG62: Cerebral palsy in under 25s.
+- BNF and BNF for Children: co-amoxiclav, flucloxacillin, clindamycin, pilocarpine, glycopyrronium, hyoscine, botulinum toxin.

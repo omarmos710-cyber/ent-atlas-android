@@ -37,6 +37,17 @@ T3 | Over 4 cm, or extraparenchymal extension
 T4a | Skin, mandible, ear canal or facial nerve
 T4b | Skull base, pterygoid plates, or encasing the carotid
 !!
+## Investigations: what and when
+!table Salivary gland tumours: investigations
+Role | Test | When and what it shows
+First line | Ultrasound with FNA (Milan system) or ultrasound-guided core biopsy | Benign versus malignant; type
+Extent | MRI | Deep lobe, parapharyngeal extension, perineural spread
+Bone | CT | Mandible, skull base erosion
+Staging (high-grade cancer) | CT chest or PET-CT | Distant spread
+Every patient before surgery | Facial nerve grading (House–Brackmann) | Baseline
+Definitive | Histology of the excised specimen | Type and grade; margins, perineural invasion
+Not done | Open incision biopsy of a parotid lump | Seeds tumour; risks the facial nerve
+!!
 
 # Management | Surgery first.
 ## Treatment principles
@@ -45,6 +56,15 @@ T4b | Skull base, pterygoid plates, or encasing the carotid
 - **Neck:** therapeutic dissection (levels I to V) for clinical nodes; elective dissection for high-grade tumours, T3 and T4 tumours, extraglandular extension and facial nerve involvement.
 - **Postoperative radiotherapy:** high-grade histology, close or positive margins, perineural invasion, extraglandular extension, nodes, and recurrent tumours; neutrons and protons have special roles.
 - **Systemic treatment:** for metastatic disease; targeted agents for HER2, androgen receptor and NTRK-driven tumours.
+### Treatment regimens
+!table Salivary gland cancer: treatment
+Setting | Treatment | Notes
+Resectable | Parotidectomy (or gland excision) with clear margins; preserve a functioning facial nerve not encased by tumour | 
+Neck | Neck dissection for nodal disease and for high-grade tumours with an N0 neck | 
+Adverse features (high grade, T3–T4, close or positive margins, perineural invasion, nodes) | Postoperative radiotherapy about 60 to 66 Gy | Chemotherapy has no proven routine adjuvant role
+Recurrent or metastatic | Targeted drugs by marker: anti-HER2 therapy (salivary duct carcinoma), androgen deprivation (AR-positive), NTRK or RET inhibitors | Molecular profiling
+!!
+Based on the UK national multidisciplinary guidelines for salivary gland tumours (Sood et al., *J Laryngol Otol* 2016) and ASCO guidance (Geiger et al., *J Clin Oncol* 2021).
 ## Parotidectomy: technique
 A modified Blair (lazy S, preauricular-cervical) incision or a facelift incision; a skin flap raised superficial to the parotid fascia; the great auricular nerve identified (its posterior branch preserved where possible); the gland mobilised off the ear cartilage and sternomastoid; the *facial nerve trunk* found using the tragal pointer, tympanomastoid suture and posterior belly of digastric, then followed forwards along its branches, lifting the superficial lobe off them. Nerve monitoring is widely used. Retrograde dissection from a peripheral branch helps in revision surgery.
 !ops 92 93 | Superficial and deep lobe parotidectomy.
@@ -171,3 +191,6 @@ Primary MALT lymphoma of the parotid (especially in Sjögren syndrome; [[t:saliv
 - Shah et al., *Br J Oral Maxillofac Surg* 2016: needle-track seeding.
 - Foresta et al., *Oral Surg Oral Med Oral Pathol Oral Radiol* 2014: extracapsular dissection.
 - Sood et al., *Otolaryngol Head Neck Surg* 2015: facial nerve monitoring in parotidectomy.
+## Guidelines and dosing
+- Sood et al., *J Laryngol Otol* 2016: UK national guidelines, salivary gland tumours.
+- Geiger et al., *J Clin Oncol* 2021: ASCO guideline for salivary gland malignancy.

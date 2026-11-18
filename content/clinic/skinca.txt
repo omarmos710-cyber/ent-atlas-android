@@ -20,6 +20,16 @@ Record the lesion's size, borders, colour, ulceration and fixation, and then exa
 A shave biopsy suits superficial, non-pigmented lesions, and a punch or incisional biopsy through the thickest part suits larger ones. A small suspicious pigmented lesion is removed by excision biopsy with narrow margins of 1 to 3 mm. Two errors are avoided: a shave biopsy of a suspected melanoma, which loses the depth on which staging depends, and a wide excision before diagnosis, which distorts the lymphatics needed for sentinel node mapping and may be the wrong size.
 ## Imaging
 CT or MRI is used for large, recurrent or high-risk tumours, suspected bone invasion, nodes and perineural spread, with MRI following V and VII to the skull base. Nodes are assessed with ultrasound and FNA, and PET-CT stages advanced disease.
+## Investigations: what and when
+!table Head and neck skin cancer: investigations
+Role | Test | When and what it shows
+Diagnosis (gold standard) | Biopsy: shave for superficial lesions, punch or incisional through the thickest part; excision biopsy with 2 mm margins for a suspected melanoma | Type, subtype, depth (Breslow thickness)
+Every patient | Whole skin examination; parotid and neck nodes; dermoscopy | Other lesions, nodes
+Palpable node or high-risk tumour | Ultrasound with FNA | Nodal spread
+Large, recurrent, bone or nerve involvement | CT (bone) and MRI (perineural spread along V and VII) | Extent
+Melanoma stage IB and above | Sentinel lymph node biopsy; CT or PET-CT for stage IIC and above; BRAF mutation testing for stage III–IV | Staging; eligibility for targeted therapy
+Merkel cell carcinoma | Sentinel node biopsy; PET-CT | Staging
+!!
 
 # Management | Reconstruction after excision.
 Defects are closed by the simplest reliable method on the *reconstructive ladder*:
@@ -35,6 +45,17 @@ Scalp defects can also be closed by tissue expansion. The flaps themselves are d
 !flag Do not reconstruct before the margins are known
 Complex flaps should wait until the final pathology confirms clear margins. Otherwise residual tumour is buried under a flap. Use a temporary dressing or skin graft and reconstruct afterwards (*delayed reconstruction*).
 !!
+## Drugs and doses
+!table Skin cancer: non-surgical and drug treatment
+Situation | Drug and dose | Course and notes
+SCC in situ (Bowen's), actinic keratoses | Fluorouracil 5% cream once or twice daily | 3 to 4 weeks; brisk inflammation expected
+Superficial BCC (small, low risk, off the H-zone) | Imiquimod 5% cream once daily, 5 days a week | 6 weeks
+Advanced or metastatic cutaneous SCC, not curable by surgery or radiotherapy | Cemiplimab 350 mg IV every 3 weeks | NICE TA802
+Locally advanced or metastatic BCC | Hedgehog inhibitor (vismodegib 150 mg daily) in specialist care | Availability varies; NICE did not recommend vismodegib
+Melanoma stage III after resection | Nivolumab (480 mg every 4 weeks) or pembrolizumab (400 mg every 6 weeks); dabrafenib 150 mg twice a day with trametinib 2 mg daily if BRAF V600 | 1 year
+Advanced Merkel cell carcinoma | Avelumab 800 mg IV every 2 weeks | Specialist oncology
+!!
+Doses from product licences, the BNF and NICE technology appraisals (TA802, TA684, TA766, TA544, TA691).
 
 # Basal cell carcinoma {dz} | Locally destructive, rarely spreading.
 ## Clinical features
@@ -164,3 +185,8 @@ Melanoma may present in the parotid or neck nodes with no primary, which has per
 - Weber et al., *N Engl J Med* 2017 and Eggermont et al., *N Engl J Med* 2018: adjuvant nivolumab and pembrolizumab.
 - Migden et al., *N Engl J Med* 2018: cemiplimab for cutaneous squamous cell carcinoma.
 - van Loo et al., *Eur J Cancer* 2014: Mohs surgery versus excision for facial basal cell carcinoma.
+## Guidelines and dosing
+- NICE NG14: Melanoma: assessment and management.
+- Keohane et al., *Br J Dermatol* 2021: BAD guidelines for cutaneous squamous cell carcinoma.
+- Nasr et al., *Br J Dermatol* 2021: BAD guidelines for basal cell carcinoma.
+- NICE TA802: Cemiplimab for advanced cutaneous squamous cell carcinoma.

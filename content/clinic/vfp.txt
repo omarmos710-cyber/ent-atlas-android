@@ -61,6 +61,15 @@ The position also reflects partial or misdirected *regeneration*, which restores
 - **Swallowing assessment:** FEES or videofluoroscopy for aspiration.
 - **Blood tests** where indicated (glucose, serology).
 !imaging | Recurrent laryngeal nerve paralysis and thyroid cancer on imaging.
+## Investigations: what and when
+!table Vocal fold paralysis: investigations
+Role | Test | When and what it shows
+Diagnosis (first line) | Flexible laryngoscopy, with stroboscopy | Immobile fold, position, glottic gap
+Every unexplained left (or any) paralysis | Contrast CT from the skull base to the aortic arch (MRI for high vagal lesions) | Tumour of lung, thyroid, oesophagus, skull base; aortic aneurysm
+Paralysis or fixation | Palpation of the arytenoid at direct laryngoscopy; laryngeal EMG | Cricoarytenoid fixation; prognosis for recovery
+Every patient | Swallowing assessment (FEES or videofluoroscopy) | Aspiration
+Selected | Thyroid ultrasound; chest X-ray; glucose; Lyme or other serology | 
+!!
 
 # Management | Principles and the thyroplasties.
 ## Isshiki's thyroplasties
@@ -88,6 +97,14 @@ The aim is to close the glottic gap.
 - **Reinnervation:** ansa cervicalis to recurrent nerve anastomosis restores bulk and tone (not movement); useful when the nerve is known to be cut and in children, who would outgrow an implant. In a randomised trial against thyroplasty, overall results were similar, but reinnervation did better under 52 years and thyroplasty better over 52 (Paniello et al., *Laryngoscope* 2011).
 !update Current evidence
 **Early injection.** Early temporary injection laryngoplasty, within six months of onset, was associated with fewer later open framework procedures in a retrospective series (Friedman et al., *Laryngoscope* 2010). **Assessment.** An international consensus recommends a minimum voice assessment for unilateral paralysis: videolaryngostroboscopy, perceptual rating (GRBAS), maximum phonation time and the Voice Handicap Index (Mattei et al., *Eur Ann Otorhinolaryngol Head Neck Dis* 2018).
+!!
+### Treatment: what and when
+!table Unilateral vocal fold paralysis: treatment
+Stage | Treatment | Notes
+Every patient | Voice therapy; manage aspiration (posture, texture) | 
+Early (nerve may recover), symptomatic | Temporary injection medialisation (hyaluronic acid or carboxymethylcellulose gel) | Lasts weeks to months; early injection may reduce the need for later surgery
+Permanent (after about 9 to 12 months, or nerve cut) | Longer-lasting injection (calcium hydroxylapatite, fat), thyroplasty with or without arytenoid adduction, or laryngeal reinnervation (ansa cervicalis to recurrent nerve) | Reinnervation suits younger patients
+Aspiration with high vagal lesion | Medialisation early | Swallowing therapy
 !!
 
 # Bilateral abductor paralysis {dz} | Good voice, poor airway.

@@ -51,6 +51,18 @@ The gland releases mostly T4, with a half-life of about a week, and most T3, sev
 **TPO (antimicrosomal) antibodies** are present in almost all Hashimoto disease and most Graves disease; **thyroglobulin antibodies** occur in autoimmune thyroiditis and interfere with thyroglobulin assays; and stimulating **TSH-receptor antibodies** cause Graves disease. **Thyroglobulin** is made only by thyroid tissue; it is useless for diagnosing a nodule, but after total thyroidectomy and ablation it should be undetectable, so a rising level means recurrence. **Calcitonin and CEA** are the markers of medullary carcinoma.
 
 **Ultrasound** is the essential imaging study. **Scintigraphy** with technetium or I-123 shows hot and cold nodules, and **CT**, with non-iodinated contrast if radioiodine may follow, shows retrosternal extension and invasion.
+## Investigations: what and when
+!table Thyroid disease: investigations
+Role | Test | When and what it shows
+First line (every patient) | TSH, with free T4 (and free T3 if TSH is suppressed) | Hypo- or hyperthyroidism
+Cause | TPO antibodies; TSH-receptor antibodies (TRAb) | Hashimoto; Graves
+Imaging of choice for nodules and goitre | Ultrasound with a risk classification (BTA U1–U5 or TI-RADS) | Which nodules need FNA
+Diagnosis of a nodule (gold standard before surgery) | Ultrasound-guided FNA cytology (Thy1–Thy5, or Bethesda I–VI) | Benign, indeterminate, malignant
+Toxic nodule or uncertain thyrotoxicosis | Scintigraphy (technetium or I-123) | Hot nodule, low-uptake thyroiditis
+Retrosternal goitre, invasion, staging | CT neck and chest (non-iodinated contrast if radioiodine is planned) or MRI | Tracheal compression, extent
+Medullary carcinoma suspected | Serum calcitonin and CEA; RET testing; exclude phaeochromocytoma (metanephrines) before surgery | 
+Before and after thyroidectomy | Laryngoscopy of vocal fold movement; calcium and PTH after surgery | Nerve injury; hypoparathyroidism
+!!
 
 # Management | Thyroidectomy.
 ## Types
@@ -110,6 +122,16 @@ Iodine deficiency is the commonest cause of hypothyroidism worldwide and *Hashim
 The patient is tired, intolerant of cold, gains weight, has dry coarse skin and hair, constipation, menorrhagia, slow thinking, bradycardia and non-pitting *myxoedema*. In ENT terms the voice becomes hoarse and low from oedematous cords, the tongue enlarges, and sensorineural hearing loss and serous otitis occur. Congenital hypothyroidism (cretinism), with stunted growth, intellectual disability and deafness, is prevented by neonatal screening.
 ## Management
 Treatment is levothyroxine, started low in the elderly and in heart disease. Anaesthesia and sedatives can precipitate *myxoedema coma* in untreated patients.
+### Drugs and doses
+!table Hypothyroidism: drugs and doses
+Patient | Drug and dose | Course and notes
+Adults under 65 without heart disease | Levothyroxine about 1.6 micrograms/kg daily, on an empty stomach | Recheck TSH every 3 months until stable, then yearly
+Over 65 or heart disease | Levothyroxine 25 to 50 micrograms daily, increased by 25 micrograms every 3 to 4 weeks | Slow titration
+Pregnancy | Increase the dose (about 25 to 50 micrograms) as soon as pregnancy is confirmed; trimester-specific TSH targets | Endocrine advice
+Myxoedema coma | IV liothyronine (5 to 20 micrograms, repeated) with hydrocortisone 100 mg IV every 6 to 8 hours, warming and support | Intensive care
+Not recommended routinely | Liothyronine for primary hypothyroidism | NICE NG145
+!!
+Doses from NICE NG145 (Thyroid disease: assessment and management) and the BNF.
 
 # Hyperthyroidism {dz} | Overactive.
 ## Clinical features
@@ -134,6 +156,17 @@ It produces a diffuse vascular goitre with a bruit, thyrotoxicosis, *ophthalmopa
 **Antithyroid drugs** are first line: carbimazole or methimazole, or propylthiouracil in the first trimester despite its risk of liver failure. All carry a risk of agranulocytosis, so the patient is told to report a sore throat, and relapse after stopping is common. **Beta-blockers** control symptoms. **Radioiodine** is definitive but usually leads to hypothyroidism; it is avoided in pregnancy and breastfeeding, conception is deferred for at least six months, and it can worsen eye disease, especially in smokers. **Total thyroidectomy** is chosen for drug failure or side effects, a large goitre or nodules, active eye disease, pregnancy planning, or the patient's preference.
 Before surgery the patient must be made euthyroid on drugs to avoid *thyroid storm*, and Lugol's iodine for about ten days reduces vascularity through the Wolff–Chaikoff effect. Severe orbitopathy is treated by endoscopic transnasal orbital decompression ([[t:orbit]]).
 !imaging orbital-decompression-in-graves-disease | Endoscopic orbital decompression in Graves disease.
+### Drugs and doses
+!table Hyperthyroidism and Graves disease: drugs and doses
+Step | Drug and dose | Course and notes
+Symptoms | Propranolol 40 mg three or four times a day | Until euthyroid
+First line (Graves) | Carbimazole 20 to 40 mg daily, titrated down to 5 to 15 mg daily (or block-and-replace with levothyroxine) | 12 to 18 months; warn about sore throat (agranulocytosis): stop and check a blood count
+First trimester or carbimazole intolerance | Propylthiouracil 200 to 400 mg daily in divided doses, maintenance 50 to 150 mg daily | Liver failure risk; switch back after the first trimester
+Definitive (relapse, choice) | Radioactive iodine (not in pregnancy, active orbitopathy needs steroid cover) or total thyroidectomy | NICE NG145 offers radioiodine first for most adults with Graves
+Before thyroidectomy | Euthyroid on drugs; aqueous iodine oral solution (Lugol's) 0.1 to 0.3 ml three times a day | About 10 days before surgery
+Thyroid storm | Propylthiouracil 500 to 1000 mg loading, then 250 mg every 4 hours; propranolol 60 to 80 mg every 4 hours; iodine 1 hour after the thionamide; hydrocortisone 300 mg IV then 100 mg every 8 hours | Intensive care
+!!
+Doses from NICE NG145, the American Thyroid Association hyperthyroidism guideline (Ross et al., *Thyroid* 2016) and the BNF.
 
 # Thyroiditis {dz} | Painless, painful and fibrotic.
 ## Hashimoto thyroiditis
@@ -146,6 +179,16 @@ Before surgery the patient must be made euthyroid on drugs to avoid *thyroid sto
 **Acute suppurative thyroiditis** is rare: a bacterial infection with a tender red swelling and sometimes an abscess. In children it is usually *left-sided* and comes from a *pyriform sinus fistula*, a third or fourth branchial remnant ([[t:paeds_neck]]); after antibiotics and drainage, the fistula is sought with barium swallow, CT or endoscopy and excised or its opening cauterised.
 ## Riedel thyroiditis
 **Riedel thyroiditis** is very rare: fibrosis spreading out of the gland, part of the IgG4-related spectrum, making it woody, fixed and non-tender, compressing the trachea and paralysing the recurrent nerve, and mimicking anaplastic carcinoma or lymphoma. It is biopsied, often by isthmusectomy, which also relieves tracheal compression, and treated with steroids or tamoxifen.
+## Drugs and doses
+!table Thyroiditis: drugs and doses
+Type | Drug and dose | Course and notes
+Subacute (de Quervain), mild pain | NSAID (for example ibuprofen 400 mg three times a day) | 
+Subacute, severe or NSAID failure | Prednisolone 40 mg daily, tapered over 2 to 4 weeks | Relapse needs re-treatment
+Thyrotoxic phase of any thyroiditis | Propranolol for symptoms | No antithyroid drugs (no excess synthesis)
+Hypothyroid phase | Levothyroxine if symptomatic or prolonged | Often temporary
+Hashimoto | Levothyroxine when hypothyroid | Watch for lymphoma if the gland enlarges fast
+!!
+Based on the ATA thyroiditis recommendations (Ross et al., *Thyroid* 2016) and the BNF.
 
 # Goitre {dz} | Diffuse or nodular.
 ## Etiology
@@ -249,6 +292,16 @@ A functioning recurrent nerve with tumour on its surface is shaved and kept, whi
 !update Current evidence
 In the ESTIMABL2 trial of 776 patients with low-risk differentiated thyroid cancer after total thyroidectomy, omitting radioiodine was non-inferior to ablation at three years (95.6% vs 95.9% event-free) (Leboulleux et al., *N Engl J Med* 2022); the HiLo and ESTIMABL trials had already shown a low ablation dose (1.1 GBq) works as well as a high dose. The 2015 ATA guidelines set out risk-adapted surgery (lobectomy for low-risk tumours up to 4 cm), radioiodine and TSH suppression (Haugen et al., *Thyroid* 2016).
 !!
+### Drugs and doses
+!table Differentiated thyroid cancer: radioiodine and drugs
+Setting | Regimen | Notes
+Low risk after total thyroidectomy | No radioiodine (ESTIMABL2, IoN), or low-activity ablation 1.1 GBq | Per MDT
+Intermediate or high risk | Radioiodine 1.1 to 3.7 GBq (higher for known metastases) | After thyroid hormone withdrawal or recombinant TSH (thyrotropin alfa 0.9 mg IM on 2 consecutive days)
+Before radioiodine | Low-iodine diet for 1 to 2 weeks; no iodinated contrast for about 2 months; pregnancy excluded | 
+TSH suppression | Levothyroxine: TSH below 0.1 mU/L for high risk; 0.5 to 2 mU/L for low risk with excellent response | Watch bone and heart in suppressed patients
+Radioiodine-refractory progressive disease | Lenvatinib 24 mg daily or sorafenib 400 mg twice daily; selpercatinib for RET fusion | NICE TA535, specialist oncology
+!!
+Based on the British Thyroid Association guidelines (Perros et al., *Clin Endocrinol* 2014), the ATA guideline (Haugen et al., *Thyroid* 2016), the HiLo and ESTIMABL2 trials, and NICE NG230 (Thyroid cancer, 2022).
 
 # Medullary carcinoma {dz} | C cells, calcitonin and RET.
 ## Pathophysiology
@@ -268,6 +321,16 @@ It spreads early to central and lateral nodes, then to lung, liver and bone, and
 The work-up measures calcitonin and CEA, tests *every* patient for RET, excludes a *phaeochromocytoma* with plasma or urinary metanephrines before any surgery (removing it first to avoid a hypertensive crisis), and checks serum calcium for hyperparathyroidism ([[t:para]]).
 ## Management
 Treatment is total thyroidectomy with central (level VI) neck dissection, adding a lateral dissection for nodal disease or according to the calcitonin level. Radioiodine does not work, and RET and multikinase inhibitors such as selpercatinib, vandetanib and cabozantinib treat progressive metastatic disease. RET carriers have a prophylactic thyroidectomy *within the first year* for the highest-risk (MEN 2B) mutations, *by about five years* for high-risk MEN 2A mutations, and later, guided by calcitonin, for moderate-risk mutations.
+### Drugs and doses
+!table Medullary carcinoma: drugs
+Setting | Regimen | Notes
+Before surgery | Calcitonin, CEA; RET germline test; plasma metanephrines (treat phaeochromocytoma first) | MEN2
+Prophylactic surgery in RET carriers | Total thyroidectomy by age according to the RET risk class | Highest-risk (M918T) in the first year
+Advanced, progressive, RET-mutant | Selpercatinib (160 mg twice daily at 50 kg and over) | Specialist oncology
+Advanced, progressive | Cabozantinib or vandetanib | Specialist
+After surgery | Levothyroxine replacement (no TSH suppression needed) | Calcitonin and CEA follow-up
+!!
+Based on the ATA medullary thyroid cancer guideline (Wells et al., *Thyroid* 2015) and product licences.
 
 # Anaplastic carcinoma {dz} | One of the most lethal.
 ## Epidemiology
@@ -276,6 +339,15 @@ Anaplastic carcinoma is one of the most lethal cancers, with a median survival o
 It presents as a rapidly enlarging, hard, often painful mass fixed to its surroundings, with hoarseness, stridor, dysphagia and nodes, and half the patients have distant metastases.
 ## Diagnosis and management
 A core or open biopsy must provide enough tissue to exclude *lymphoma*, which is curable. The tumour is resected only if resection can be complete; otherwise it is treated with radiotherapy and chemotherapy, and BRAF-mutant tumours respond to dabrafenib with trametinib. Palliating the airway, including the hard decision about tracheostomy through tumour, and supportive and palliative care are central.
+### Treatment regimens
+!table Anaplastic carcinoma: treatment
+Setting | Regimen | Notes
+Every patient | Urgent core biopsy with BRAF testing; airway assessment; MDT within days | Exclude lymphoma
+Resectable | Complete resection, then chemoradiotherapy | 
+BRAF V600E | Dabrafenib 150 mg twice a day with trametinib 2 mg once daily | Rapid response; may allow later surgery
+Other | Radiotherapy with or without chemotherapy; palliative care | Tracheostomy is avoided where possible
+!!
+Based on the ATA anaplastic thyroid cancer guideline (Bible et al., *Thyroid* 2021).
 
 # Thyroid lymphoma {dz} | In Hashimoto thyroiditis.
 ## Clinical features
@@ -322,3 +394,11 @@ Metastases reach the thyroid from the kidney, breast, lung, melanoma and head an
 - Leboulleux et al., *N Engl J Med* 2022: the ESTIMABL2 trial.
 - Haugen et al., *Thyroid* 2016: 2015 American Thyroid Association guidelines.
 - Perros et al., *Clin Endocrinol* 2014: British Thyroid Association guidelines.
+## Guidelines and dosing
+- NICE NG145: Thyroid disease: assessment and management (2019).
+- NICE NG230: Thyroid cancer: assessment and management (2022).
+- Ross et al., *Thyroid* 2016: ATA guidelines for hyperthyroidism and other causes of thyrotoxicosis.
+- Haugen et al., *Thyroid* 2016: ATA guidelines for differentiated thyroid cancer.
+- Wells et al., *Thyroid* 2015: ATA guidelines for medullary thyroid cancer.
+- Bible et al., *Thyroid* 2021: ATA guidelines for anaplastic thyroid cancer.
+- BNF: levothyroxine, carbimazole, propylthiouracil, propranolol, iodine, lenvatinib, selpercatinib, dabrafenib, trametinib.

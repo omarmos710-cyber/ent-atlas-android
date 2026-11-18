@@ -20,6 +20,15 @@ Any hoarseness lasting more than three weeks (four weeks in the American guideli
 !update Current evidence
 **Hoarseness guideline.** Laryngoscopy for hoarseness lasting over four weeks, and voice therapy for hoarseness that affects quality of life (Stachler et al., *Otolaryngol Head Neck Surg* 2018).
 !!
+## Investigations: what and when
+!table Hoarseness and benign vocal fold lesions: investigations
+Role | Test | When and what it shows
+Every persistent hoarseness (over 3 to 4 weeks, sooner in smokers or with red flags) | Flexible laryngoscopy (urgent if over 45 with unexplained hoarseness, NICE NG12) | Lesion, mobility
+Benign lesions (gold standard for the vibrating fold) | Videostroboscopy | Mucosal wave: nodules, cysts, sulcus, scar
+Voice outcome | Voice Handicap Index; perceptual rating (GRBAS); acoustic analysis | Baseline and response
+Leukoplakia, atypical or unilateral lesion | Microlaryngoscopy and excision biopsy | Dysplasia, carcinoma
+Laryngocele or saccular cyst | CT of the neck | Internal or external extension; exclude a ventricular carcinoma
+!!
 
 # Management | Phonomicrosurgery.
 *Phonomicrosurgery* under suspension microlaryngoscopy with cold instruments or laser: a *microflap* is raised through a small incision on the upper surface, the lesion dissected from beneath, and the epithelium laid back, preserving the superficial lamina propria and the vocal ligament. The anterior commissure is never stripped on both sides at once, to avoid a web. Voice therapy before and after prevents recurrence.
@@ -71,6 +80,14 @@ Hoarseness, pain on speaking radiating to the ear, a foreign-body feeling and co
 - Inhaled or injected steroid.
 - Botulinum toxin to the adductors (lateral cricoarytenoid and thyroarytenoid) for recurrent granulomas.
 - Surgery only for airway obstruction, failure of treatment or suspicion of tumour; recurrence after excision is common. Send tissue for histology to exclude carcinoma and granular cell tumour.
+### Drugs and doses
+!table Contact and intubation granuloma: drugs and doses
+Step | Drug and dose | Course and notes
+First line | PPI twice daily (for example omeprazole 20 to 40 mg twice daily) with alginate after meals and at bedtime | 3 months, then review
+Every patient | Voice therapy: stop throat clearing and hard glottal attack | 
+Persistent | Botulinum toxin into the adductors (low dose) to rest the vocal process; inhaled or injected steroid in some units | Specialist
+Surgery | Only for airway obstruction, doubt about the diagnosis, or failure of the above | Recurs if the cause persists
+!!
 
 # Intubation granuloma {dz} | After the tube.
 ## Etiology and clinical features
@@ -145,6 +162,16 @@ The aim is a safe airway and a useful voice with as few scars as possible; surge
 !update Current evidence
 **Recurrent respiratory papillomatosis.** In a systematic review of systemic bevacizumab for severe juvenile-onset disease, every patient improved and more than half needed no further surgery, but disease returned when treatment stopped (Ryan et al., *Laryngoscope* 2021). Prophylactic HPV vaccination is expected to reduce juvenile-onset disease, as seen in Australia after its national programme.
 !!
+### Drugs and doses
+!table Recurrent respiratory papillomatosis: adjuvant treatment
+Step | Drug and dose | Course and notes
+Primary | Surgical debulking (microdebrider, CO₂ or KTP laser) | Repeated as needed; avoid tracheostomy
+Adjuvant, frequent recurrence | Intralesional cidofovir | Off-label; specialist centres
+Severe or distal (pulmonary) disease | Systemic bevacizumab IV (published regimens about 5 to 10 mg/kg every 2 to 3 weeks, then longer intervals) | Disease often returns after stopping; blood pressure and urine protein
+Prevention | HPV vaccination (9-valent) in the national programme | Population prevention; therapeutic use after surgery is under study
+Every patient | Treat reflux if present | 
+!!
+Based on published systematic reviews of systemic bevacizumab and cidofovir in recurrent respiratory papillomatosis; no adjuvant is licensed.
 
 # Chondroma {dz} | From the cricoid.
 ## Clinical features
@@ -196,3 +223,6 @@ Pleomorphic adenoma, oncocytoma, neurilemmoma and neurofibroma, rhabdomyoma, lip
 - Alegria et al., *Eur Arch Otorhinolaryngol* 2020: voice therapy for vocal nodules.
 - Stachler et al., *Otolaryngol Head Neck Surg* 2018: AAO-HNS hoarseness guideline.
 - Ryan et al., *Laryngoscope* 2021: systemic bevacizumab for recurrent respiratory papillomatosis.
+## Guidelines and dosing
+- Ivancic et al., *Laryngoscope Investig Otolaryngol* 2020: current and future management of recurrent respiratory papillomatosis.
+- Stachler et al., *Otolaryngol Head Neck Surg* 2018: clinical practice guideline, hoarseness (dysphonia) update.

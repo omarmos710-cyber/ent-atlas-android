@@ -58,9 +58,25 @@ The thyroglossal cyst is the commonest congenital neck mass. It usually presents
 It can lie anywhere along the tract: lingual, suprahyoid, at the hyoid, subhyoid (the commonest) or suprasternal.
 ## Diagnosis
 Two rarities matter. The cyst may contain the *only functioning thyroid tissue*, and about 1% contain carcinoma, almost always papillary. Ultrasound therefore confirms not only the cyst but also a *normal thyroid gland*, with thyroid function tests; scintigraphy is done if the gland is not seen, and solid areas in adults are sampled by FNA.
+### Investigations: what and when
+!table Congenital neck masses: investigations
+Role | Test | When and what it shows
+First line (every child) | Ultrasound of the neck | Cystic or solid; thyroglossal cyst and a normal thyroid; branchial cyst; vascular lesion
+Thyroglossal cyst with no normal thyroid on ultrasound | Thyroid function and scintigraphy | Ectopic (only) thyroid tissue: do not excise blindly
+Lymphatic or vascular malformation | MRI | Extent, macro- or microcystic, airway relation
+Third or fourth pouch sinus (recurrent left neck abscess or thyroiditis) | Barium swallow, CT, then direct pharyngoscopy | Sinus opening in the piriform fossa
+Solid, firm, growing or adult cystic mass | FNA or core biopsy | Lymphoma, metastatic (often HPV-positive) carcinoma in adults
+!!
 ## Management
 The treatment is the **Sistrunk operation**: excision of the cyst and tract *together with the central body of the hyoid bone* and a core of tongue-base muscle along the tract up to the foramen caecum. Simple cystectomy recurs in up to half of cases; the Sistrunk operation brings recurrence below 5 to 10% (under 5% in most series). Infection is first settled with aspiration or antibiotics, and the operation done afterwards.
 !ops 200 | The Sistrunk operation.
+### Drugs and doses
+!table Infected congenital neck cyst: drugs and doses
+Situation | Drug and dose | Course and notes
+Infected thyroglossal or branchial cyst (adults) | Co-amoxiclav 625 mg three times a day (IV 1.2 g every 8 hours if unwell) | 7 to 10 days; aspirate rather than incise
+Children | Co-amoxiclav by age or weight (BNF for Children) | 
+After infection settles | Definitive excision (Sistrunk for thyroglossal cyst) | Usually 6 weeks later
+!!
 ## Complications
 The cyst may become infected after an upper respiratory infection ([[t:thyroid]] covers the gland itself), and if it ruptures or is incised it leaves a thyroglossal sinus or "fistula".
 
@@ -112,6 +128,15 @@ Macrocystic disease responds to *sclerotherapy* with bleomycin, doxycycline, OK-
 !update Current evidence
 **Lymphatic malformations.** Sirolimus for complex disease is supported by a phase 2 trial (Adams et al., *Pediatrics* 2016).
 !!
+### Drugs and doses
+!table Lymphatic malformation: treatment and doses
+Type | Treatment | Notes
+Macrocystic | Sclerotherapy: doxycycline, bleomycin, OK-432 or ethanol, under imaging guidance | Several sessions; bleomycin has a lifetime dose limit
+Microcystic or complex, airway or function threatened | Sirolimus 0.8 mg/m² twice a day, adjusted to a trough level of about 10 to 15 ng/ml | Months to years; infection and mouth ulcer risks; *Pneumocystis* prophylaxis in some protocols
+Localised, accessible | Surgical excision preserving nerves | 
+Airway threatened at birth | EXIT procedure | Planned from antenatal imaging
+!!
+Sirolimus dosing from the phase 2 trial (Adams et al., *Pediatrics* 2016).
 
 # Infantile haemangioma {dz} | Proliferates, then involutes.
 The infantile haemangioma, the commonest tumour of infancy, appears after birth, proliferates for about a year and then slowly involutes. A lesion in a *beard distribution* means a subglottic haemangioma until proved otherwise, and a large segmental facial lesion suggests *PHACES syndrome*. Propranolol is the treatment. Subglottic haemangioma is described with [[t:lxcong|congenital lesions of the larynx]]; venous malformations, capillary malformations and AVMs, which grow with the child, are covered with the [[t:vascneck|vascular anomalies]].

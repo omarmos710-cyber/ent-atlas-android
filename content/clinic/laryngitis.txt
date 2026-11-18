@@ -27,6 +27,14 @@ In practice: Use "chronic laryngitis" as a description, name the cause (reflux, 
 !update Current evidence
 **Smoking and dysplasia.** Leukoplakia needs biopsy, because dysplasia cannot be judged by eye; stopping smoking is the most effective treatment for chronic laryngitis and Reinke's oedema.
 !!
+## Investigations: what and when
+!table Chronic laryngitis: investigations
+Role | Test | When and what it shows
+Every patient | Laryngoscopy with stroboscopy | Pattern of inflammation; lesions
+Persistent, asymmetric, ulcerated or exophytic lesion, or a smoker | Microlaryngoscopy and biopsy | Dysplasia, carcinoma, tuberculosis, fungal infection
+Tuberculosis suspected | Chest X-ray; sputum smear, culture and nucleic acid test; HIV | Pulmonary source (usually present)
+Granulomatous disease | ACE, ANCA, syphilis serology | Sarcoidosis, vasculitis, syphilis
+!!
 
 # Chronic non-specific laryngitis {dz} | Hyperaemic and hypertrophic.
 ## Subtypes and variants
@@ -49,12 +57,29 @@ Hoarseness, globus, chronic cough, throat clearing, excess mucus and dysphagia; 
 Oedema and redness of the posterior larynx and interarytenoid area, *subglottic oedema* (pseudosulcus), diffuse vocal fold oedema, thick endolaryngeal mucus, and granulomas or contact ulcers.
 ## Diagnosis
 Usually clinical, confirmed by response to treatment. Combined multichannel *pH and impedance* monitoring (detecting acid and non-acid reflux) is the most accurate test; oesophagoscopy excludes Barrett oesophagus.
+### Investigations: what and when
+!table Laryngopharyngeal reflux: investigations
+Role | Test | When and what it shows
+Diagnosis (usual) | Symptoms (Reflux Symptom Index) and laryngoscopy (Reflux Finding Score), then treatment trial | Response supports the diagnosis
+Most accurate | 24-hour multichannel pH–impedance (hypopharyngeal sensors in some units) | Acid and non-acid reflux events
+Alarm features (dysphagia, weight loss, age over 55) | Upper GI endoscopy or transnasal oesophagoscopy | Oesophagitis, Barrett's, cancer
+Persistent lesion | Biopsy | Exclude carcinoma
+!!
 ## Management
 Diet and behaviour changes (no late meals, less fat, coffee, chocolate and alcohol, weight loss, head of the bed raised), a *twice-daily proton pump inhibitor* half an hour before breakfast and dinner for at least two to three months, an H2 blocker or alginate at night, and fundoplication for proven refractory reflux.
 Evidence for proton pump inhibitors is mixed: trials show a modest symptom benefit at best, so treat for a defined period, review, and stop if there is no response.
 !update Current evidence
 **Laryngopharyngeal reflux.** A meta-analysis of 14 placebo-controlled trials found that proton pump inhibitors improved reflux symptoms modestly (a 15% higher response rate) but not the laryngoscopic findings (Guo et al., *J Clin Gastroenterol* 2016). The American hoarseness guideline advises against antireflux medication for hoarseness without signs of reflux laryngitis or gastro-oesophageal reflux (Stachler et al., *Otolaryngol Head Neck Surg* 2018). **Diagnosis.** Laryngoscopic signs of reflux are non-specific and poorly reproducible; 24-hour multichannel impedance-pH monitoring is the reference test when the diagnosis matters.
 !!
+### Drugs and doses
+!table Laryngopharyngeal reflux: drugs and doses
+Step | Drug and dose | Course and notes
+Every patient | Diet and behaviour change; weight loss; no meals 3 hours before bed; head of bed raised | 
+First line (mild, or many UK units) | Alginate liquid (sodium alginate–potassium bicarbonate) 10 ml after meals and at bedtime | 8 to 12 weeks
+With typical reflux symptoms or signs | PPI twice daily, 30 minutes before breakfast and dinner (for example omeprazole 20 to 40 mg or lansoprazole 30 mg twice daily) | 8 to 12 weeks, then review; step down or stop if no benefit
+Not responding | pH–impedance monitoring before escalating; consider other causes | Fundoplication only for proven reflux
+!!
+Doses from the BNF; evidence for PPIs in LPR is modest (meta-analyses of placebo-controlled trials).
 
 # Reinke's oedema {dz} | Polypoid degeneration.
 ## Etiology and pathophysiology
@@ -89,6 +114,14 @@ Almost always secondary to active pulmonary tuberculosis, mostly in middle-aged 
 - **Diagnosis:** chest radiograph, sputum, and laryngeal biopsy, essential to exclude carcinoma.
 ## Management
 - **Treatment:** antituberculous chemotherapy and voice rest; lesions heal, sometimes with stenosis.
+### Drugs and doses
+!table Laryngeal tuberculosis: drugs and doses
+Phase | Drug and dose | Course and notes
+Intensive | Isoniazid 5 mg/kg (maximum 300 mg), rifampicin (450 mg under 50 kg, 600 mg from 50 kg), pyrazinamide (1.5 g under 50 kg, 2 g from 50 kg), ethambutol 15 mg/kg, daily | 2 months
+Continuation | Isoniazid and rifampicin | 4 months
+Every patient | Pyridoxine; liver and renal function, visual acuity; HIV test; airborne isolation (laryngeal TB is highly infectious) | Notify
+!!
+Doses from NICE NG33 and the BNF.
 
 # Lupus {dz} | The anterior larynx.
 An indolent tuberculous infection accompanying lupus of the nose and pharynx, attacking the *anterior larynx*: the epiglottis first, which may be destroyed, then the aryepiglottic and false folds. Painless and often found incidentally; no lung disease; responds well to antituberculous drugs.
@@ -107,6 +140,14 @@ Long courses of tetracycline or ciprofloxacin with steroids; reconstruction for 
 
 # Fungal laryngitis {dz} | Candida and the rarer fungi.
 Candidiasis in inhaled steroid users, after antibiotics and in immunosuppression: white plaques on red mucosa that can mimic leukoplakia; systemic antifungals (topical nystatin does not reach), and biopsy if they persist. Blastomycosis and histoplasmosis are rare and mimic carcinoma.
+## Drugs and doses
+!table Laryngeal candidiasis: drugs and doses
+Step | Drug and dose | Course and notes
+First line | Fluconazole 200 mg on day 1, then 100 to 200 mg daily | 14 to 21 days; topical nystatin does not reach the larynx
+Inhaled steroid users | Spacer, rinse and spit after each dose; review steroid dose | Prevention
+Doubt about the diagnosis | Biopsy | Leukoplakia and carcinoma look similar
+!!
+Doses from the BNF and IDSA candidiasis guideline (Pappas et al., *Clin Infect Dis* 2016, oesophageal regimens).
 
 # Systemic diseases {dz} | The larynx as a window.
 - **Sarcoidosis:** pale, turban-like submucosal swelling of the supraglottis (epiglottis and aryepiglottic folds); non-caseating granulomas on biopsy; steroids systemically or by injection.
@@ -144,3 +185,7 @@ Candidiasis in inhaled steroid users, after antibiotics and in immunosuppression
 ## Studies cited
 - Guo et al., *J Clin Gastroenterol* 2016: meta-analysis of proton pump inhibitors for laryngopharyngeal reflux.
 - Stachler et al., *Otolaryngol Head Neck Surg* 2018: AAO-HNS hoarseness guideline.
+## Guidelines and dosing
+- NICE NG33: Tuberculosis.
+- Pappas et al., *Clin Infect Dis* 2016: IDSA guideline for candidiasis.
+- BNF: sodium alginate, omeprazole, lansoprazole, isoniazid, rifampicin, fluconazole.

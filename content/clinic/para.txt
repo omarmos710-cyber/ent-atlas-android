@@ -44,6 +44,15 @@ Localisation does not make the diagnosis; the biochemistry does. Its purpose is 
 !flag Concordance matters
 A *concordant* ultrasound and sestamibi scan localise a single adenoma in most patients and permit a focused approach. *Discordant* or negative scans suggest multigland disease or an ectopic gland. These patients need bilateral exploration by an experienced surgeon.
 !!
+### Investigations: what and when
+!table Primary hyperparathyroidism: investigations
+Role | Test | When and what it shows
+Diagnosis (first line) | Albumin-adjusted calcium with PTH (same sample) | High calcium with raised or unsuppressed PTH
+Exclude FHH and vitamin D effects | Urine calcium–creatinine clearance ratio; 25-OH vitamin D; eGFR | Ratio under 0.01 suggests FHH
+End-organ assessment | DEXA (including forearm); renal ultrasound for stones | Surgical indications
+Localisation (after biochemical diagnosis, before surgery) | Ultrasound and sestamibi SPECT-CT; 4D-CT or 18F-fluorocholine PET-CT if discordant | Single adenoma or multigland disease
+Young, family history, multigland | Genetic testing (MEN1, CDC73, CASR, RET) | Familial syndromes
+!!
 ## Differential diagnosis
 !table Causes of hypercalcaemia
 PTH raised or normal | PTH suppressed
@@ -72,6 +81,16 @@ Hyperplasia is treated by subtotal parathyroidectomy, leaving a well-vascularise
 !update Current evidence
 **Who to operate on.** The criteria under Indications for surgery are those of the Fifth International Workshop on asymptomatic primary hyperparathyroidism (Bilezikian et al., *J Bone Miner Res* 2022); the American Association of Endocrine Surgeons guideline is the basis for offering surgery to patients who do not meet them, because it is the only cure (Wilhelm et al., *JAMA Surg* 2016). **Focused parathyroidectomy** with intraoperative PTH cures about 95 to 98%.
 !!
+### Drugs and doses
+!table Hypercalcaemia and hyperparathyroidism: drugs and doses
+Situation | Drug and dose | Course and notes
+Severe or symptomatic hypercalcaemia | IV 0.9% saline (often 3 to 4 litres in 24 hours as tolerated) | First step; watch fluid balance
+After rehydration | Zoledronic acid 4 mg IV over at least 15 minutes (or pamidronate 30 to 90 mg) | Reduce for renal impairment; effect in 2 to 4 days
+Refractory or renal failure | Calcitonin; denosumab; dialysis | Specialist
+Surgery not suitable, high calcium | Cinacalcet 30 mg twice a day, titrated (maximum 90 mg four times a day) | NICE NG132
+Every patient | Correct vitamin D deficiency (colecalciferol) cautiously; avoid dehydration and thiazides | 
+!!
+Doses from NICE NG132 (Hyperparathyroidism, primary), the Society for Endocrinology emergency guidance on acute hypercalcaemia, and the BNF.
 ## Complications
 ### Hypercalcaemic crisis
 A **hypercalcaemic crisis**, with dehydration, confusion and arrhythmia at very high calcium levels, is treated with intravenous saline, a bisphosphonate or denosumab, and calcitonin, followed by urgent surgery.
@@ -105,6 +124,16 @@ Symptoms usually appear 24 to 72 hours after surgery, starting with perioral and
 ## Management
 Calcium is measured after total thyroidectomy, and a PTH level a few hours after surgery predicts who will become hypocalcaemic and who can safely go home. Mild symptoms are treated with oral calcium carbonate and calcitriol or alfacalcidol. Severe symptoms or tetany need intravenous 10% calcium gluconate, 10 to 20 mL over ten minutes followed by an infusion, with cardiac monitoring and correction of magnesium.
 Hypoparathyroidism lasting beyond six months is permanent and needs lifelong calcium and active vitamin D, aiming for a low-normal calcium to avoid hypercalciuria, with recombinant PTH in selected cases.
+### Drugs and doses
+!table Hypocalcaemia after neck surgery: drugs and doses
+Severity | Drug and dose | Course and notes
+Severe (tetany, laryngospasm, seizures, long QT) or calcium under about 1.9 mmol/L | Calcium gluconate 10%, 10 to 20 ml IV in 50 to 100 ml 5% glucose over 10 minutes, with ECG monitoring | Repeat until symptoms settle
+Then | Infusion: 100 ml of 10% calcium gluconate in 1 litre of 0.9% saline or 5% glucose at 50 to 100 ml per hour, adjusted to calcium | Check magnesium and correct
+Mild symptoms, oral | Calcium carbonate or similar, about 1 to 1.5 g of elemental calcium a day in divided doses | Monitor calcium daily
+Low PTH (hypoparathyroidism) | Alfacalcidol 0.25 to 1 microgram daily (or calcitriol), with oral calcium | Aim for low-normal calcium; check urine calcium
+Permanent, uncontrolled | Recombinant PTH (palopegteriparatide) | Specialist endocrinology
+!!
+Doses from the Society for Endocrinology emergency guidance on acute hypocalcaemia and the BNF.
 ## Prevention
 It is prevented by capsular dissection, by identifying and preserving the glands with their blood supply, by autotransplanting any gland that is devascularised or removed by mistake, and by near-infrared autofluorescence to identify the glands.
 
@@ -138,3 +167,7 @@ It is prevented by capsular dissection, by identifying and preserving the glands
 ## Studies cited
 - Bilezikian et al., *J Bone Miner Res* 2022: Fifth International Workshop on asymptomatic primary hyperparathyroidism.
 - Wilhelm et al., *JAMA Surg* 2016: American Association of Endocrine Surgeons guideline.
+## Guidelines and dosing
+- NICE NG132: Hyperparathyroidism (primary): diagnosis, assessment and initial management (2019).
+- Society for Endocrinology emergency endocrine guidance: acute hypercalcaemia and acute hypocalcaemia (2016).
+- BNF: zoledronic acid, cinacalcet, calcium gluconate, alfacalcidol.
