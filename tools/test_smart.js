@@ -20,7 +20,7 @@ const T=[
  ["management of epistaxis",["Epistaxis ·"]],
  ["signs of mastoiditis",["mastoiditis · Clinical features"]],
  ["treatment of bell palsy",["Bell's palsy"]],
- ["staging of laryngeal cancer",["Cancer of the larynx · Diagnosis and staging","Cancer of the larynx · Diagnosis › T staging"]],
+ ["staging of laryngeal cancer",["Cancer of the larynx · Diagnosis and staging","Cancer of the larynx · Diagnosis › T staging","Cancer of the larynx · Diagnosis › Staging (UICC TNM 9 and AJCC; T unchanged from the eighth edition)"]],
  ["treatment of acute sinusitis",["Acute rhinosinusitis and orbital complications · Management"]],
  ["symptoms of nasopharyngeal carcinoma",["Nasopharyngeal carcinoma · Clinical features"]],
  ["indications for tracheostomy",["Tracheostomy › Indications"]],

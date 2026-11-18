@@ -39,7 +39,7 @@ Any patient of cancer age with hoarseness for more than two to three weeks needs
 When cancer is suspected and the airway is safe, **cross-sectional imaging is done before biopsy**, because post-biopsy swelling can distort staging. Speech and language therapy assesses voice and swallowing before treatment decisions.
 ## Endoscopy under anaesthesia
 Direct laryngoscopy shows the *hidden areas* (infrahyoid epiglottis, anterior commissure, ventricle, subglottis), maps the extent and allows biopsy; microlaryngoscopy for small fold lesions; panendoscopy for second primaries. Toluidine blue staining once guided biopsy of keratotic patches.
-## T staging (AJCC 8th edition)
+## Staging (UICC TNM 9 and AJCC; T unchanged from the eighth edition)
 !table T staging of laryngeal cancer
 Category | Supraglottis | Glottis | Subglottis
 T1 | One subsite, normal fold mobility | Folds only, normal mobility (T1a one fold, T1b both) | Limited to the subglottis
@@ -48,7 +48,18 @@ T3 | Fold fixation, or postcricoid area, pre-epiglottic space, paraglottic space
 T4a | Through the thyroid cartilage or beyond the larynx (trachea, soft tissues, deep tongue muscle, strap muscles, thyroid, oesophagus) | As supraglottis | Cricoid or thyroid cartilage, or beyond the larynx
 T4b | Prevertebral space, encasing the carotid, or mediastinum | As supraglottis | As supraglottis
 !!
-N staging follows the general head and neck rules, now including *extranodal extension*, which upstages nodes (N2a and N3b); Older texts print the earlier (6th edition) tables, based on size alone.
+!table Laryngeal cancer: N categories and stage groups (UICC TNM 9)
+Category | Definition
+cN1 | Single ipsilateral node 3 cm or less, no ENE
+cN2a / b / c | Single ipsilateral node over 3 to 6 cm / multiple ipsilateral nodes / bilateral or contralateral nodes, none over 6 cm, no ENE
+cN3a / cN3b | Node over 6 cm without ENE / any node with clinical or unequivocal imaging ENE
+Stage I / II | T1 N0 / T2 N0
+Stage III | T3 N0, or T1–T3 N1
+Stage IVA | T4a N0–N1, or T1–T4a N2
+Stage IVB | T4b any N, or any T N3
+Stage IVC | M1
+!!
+N staging follows the general head and neck rules, now including *extranodal extension*, which upstages nodes (N2a and N3b; in TNM 9 unequivocal ENE on imaging also counts for cN3b); Older texts print the earlier (6th edition) tables, based on size alone.
 !imaging | Glottic and supraglottic tumours, pharyngeal tumours and synchronous malignancies on imaging.
 ## Investigations: what and when
 !table Laryngeal cancer: investigations
@@ -203,3 +214,5 @@ Stridor and dyspnoea are often the first symptoms; hoarseness is late, meaning s
 - Jones et al., *J Laryngol Otol* 2016: UK national multidisciplinary guidelines, laryngeal cancer.
 - Forastiere et al., *J Clin Oncol* 2013: long-term results of RTOG 91-11.
 - Burtness et al., *Lancet* 2019: KEYNOTE-048.
+- Brierley et al. (eds), *TNM Classification of Malignant Tumours*, 9th edition, UICC 2025.
+- NHS England NDRS: TNM 9 staging data sheets (2025).

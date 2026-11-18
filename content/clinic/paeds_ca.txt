@@ -95,6 +95,17 @@ Survivors live for decades with the consequences of treatment, so follow-up is l
 Commonest in adolescents and young adults. Enlarged, rubbery, non-tender nodes, especially supraclavicular; up to a third have fever, night sweats, weight loss or itching.
 ## Diagnosis
 Staged by the Ann Arbor system after CT of the neck, chest, abdomen and pelvis.
+### Staging
+!table Lymphoma: Lugano staging (Cheson et al., *J Clin Oncol* 2014; modified Ann Arbor)
+Stage | Extent
+I | One node or a group of adjacent nodes; IE a single extranodal lesion without nodal disease
+II | Two or more nodal groups on the same side of the diaphragm; IIE with limited contiguous extranodal involvement
+II bulky | Stage II with bulky disease (single mass 10 cm or more, or over a third of the thoracic diameter); treated as limited or advanced according to histology and risk factors
+III | Nodes on both sides of the diaphragm, or nodes above the diaphragm with the spleen
+IV | Additional non-contiguous extranodal involvement
+A / B | B symptoms (fever over 38 °C, drenching night sweats, loss of more than 10% of body weight in 6 months); recorded only for Hodgkin lymphoma
+!!
+PET-CT stages FDG-avid lymphomas and replaces routine bone marrow biopsy in Hodgkin lymphoma. Treatment is grouped as limited (I–II) or advanced (III–IV). Children are staged with the same system in Hodgkin lymphoma; childhood non-Hodgkin lymphoma uses the International Paediatric NHL Staging System (2015), which replaced the St Jude (Murphy) system.
 ## Management
 Treatment is chemotherapy, sometimes with radiotherapy, and the ENT role is the diagnostic biopsy.
 ## Prognosis
@@ -122,6 +133,22 @@ In the ear it mimics chronic otitis media with an aural polyp, discharge, bleedi
 !flag The aural polyp in a young child
 An aural polyp with bleeding, facial weakness or rapid regrowth in a young child is a rhabdomyosarcoma until proved otherwise. Send every aural polyp for histology.
 !!
+### Staging
+!table Rhabdomyosarcoma: pretreatment TNM stage (IRS/COG)
+Stage | Site | T, size | N | M
+1 | Favourable: orbit, head and neck excluding parameningeal, genitourinary (not bladder or prostate), biliary | T1 or T2, any size | N0, N1 or Nx | M0
+2 | Unfavourable: parameningeal, bladder or prostate, extremity, trunk and others | T1 or T2, 5 cm or less (a) | N0 or Nx | M0
+3 | Unfavourable | T1 or T2, 5 cm or less with N1; or over 5 cm (b) with any N | N0, N1 or Nx | M0
+4 | Any | Any | Any | M1
+!!
+!table Rhabdomyosarcoma: IRS clinical group (after surgery)
+Group | Definition
+I | Localised, completely resected
+II | Grossly resected with microscopic residual (IIA), resected nodes (IIB), or both (IIC)
+III | Incomplete resection or biopsy only, with gross residual disease
+IV | Distant metastases at diagnosis
+!!
+T1 is confined to the site of origin and T2 extends beyond it. Parameningeal sites (nasopharynx, nasal cavity, sinuses, middle ear and mastoid, pterygopalatine and infratemporal fossae) are unfavourable. Stage, group, histology (fusion status, PAX3 or PAX7–FOXO1) and age together give the risk group (low, intermediate, high) that decides treatment; European protocols use the EpSSG risk grouping.
 ## Management
 Treatment is multimodal under a paediatric oncology protocol: biopsy, chemotherapy and radiotherapy, with surgery when the tumour can be removed without disabling loss of function.
 ## Prognosis
@@ -132,6 +159,15 @@ Five-year survival ranges from about 90% for completely resected disease to abou
 The commonest malignancy of infants under 1 year, from neural crest cells of the sympathetic chain. Only about 5% arise in the neck, where it presents as a firm, fixed, non-tender mass with ipsilateral *Horner syndrome* and *heterochromia of the iris*, and sometimes stridor, dysphagia or cranial nerve palsies.
 ## Diagnosis
 Urinary HVA and VMA are raised in about 90%. It is staged with MRI or CT, MIBG and bone scans and bone marrow biopsy.
+### Staging
+!table Neuroblastoma: International Neuroblastoma Risk Group Staging System (INRGSS, pretreatment)
+Stage | Definition
+L1 | Localised tumour confined to one compartment, without image-defined risk factors
+L2 | Locoregional tumour with one or more image-defined risk factors (in the neck: encasing the carotid, vertebral artery or jugular vein; extending to the skull base; compressing the trachea)
+M | Distant metastasis (except MS)
+MS | Under 18 months, with metastases confined to skin, liver and/or bone marrow (marrow under 10%)
+!!
+The INRGSS is decided from imaging before any surgery, unlike the older surgical INSS (in which the equivalent of MS, stage 4S, applied under 12 months). Stage combines with age, histology, MYCN and other genetic features in the INRG risk classification.
 ## Management
 Localised disease is excised; unresectable or metastatic disease is treated with chemotherapy.
 ## Prognosis
@@ -195,3 +231,8 @@ Langerhans cell histiocytosis (lytic skull and temporal bone lesions, otorrhoea,
 ## Studies cited
 - NICE guideline NG12: suspected cancer, recognition and referral.
 - Francis et al., *Thyroid* 2015: ATA guidelines for paediatric thyroid nodules and cancer.
+## Guidelines and dosing
+- Cheson et al., *J Clin Oncol* 2014: the Lugano classification for staging and response in lymphoma.
+- Monclair et al., *J Clin Oncol* 2009: the International Neuroblastoma Risk Group staging system.
+- Intergroup Rhabdomyosarcoma Study and COG: pretreatment TNM staging and clinical grouping.
+- Rosolen et al., *J Clin Oncol* 2015: revised International Paediatric NHL Staging System.

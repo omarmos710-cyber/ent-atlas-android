@@ -76,6 +76,22 @@ For high-risk facial basal cell carcinoma, Mohs surgery halved recurrence over t
 SCC develops along a spectrum. *Actinic keratoses* are premalignant rough scaly patches on sun-damaged skin, and *Bowen's disease* is SCC in situ. The *keratoacanthoma* is a fast-growing crateriform nodule with a keratin plug that may regress, but it is treated as a well-differentiated SCC and excised. Invasive SCC is a keratotic nodule or ulcer that grows over months, most often on the lip, ear, scalp, temple and cheek.
 ## High-risk features
 An SCC is high risk if it is 2 cm or more across, *more than 2 mm deep* or invading beyond the subcutaneous fat, poorly differentiated or of the desmoplastic, acantholytic or adenosquamous variant, or shows *perineural invasion*, especially of named nerves, or lymphovascular invasion. Site on the ear or lip, recurrence, origin in a scar and *immunosuppression* all add to the risk.
+### Staging (UICC TNM 9)
+!table Skin carcinoma of the head and neck (cutaneous SCC and other non-melanoma carcinoma): TNM
+Category | Definition
+T1 / T2 | 2 cm or less / over 2 cm up to 4 cm
+T3 | Over 4 cm, or minor bone erosion, perineural invasion or deep invasion
+T4a | Gross invasion of cortical bone or marrow
+T4b | Invasion of the skull base or axial skeleton including foramina, or the epidural space
+Deep invasion | Beyond the subcutaneous fat, or over 6 mm from the granular layer of adjacent normal epidermis to the tumour base
+Perineural invasion | Tumour in the sheath of a nerve deeper than the dermis that is 0.1 mm or more in calibre, or in five or more nerves (without foramen or skull base involvement)
+N | As for HPV-independent mucosal sites: cN1 to cN3b, with ENE
+Stage I / II | T1 N0 / T2 N0
+Stage III | T3 N0, or T1–T3 N1
+Stage IVA | T1–T3 N2–N3, or T4 any N
+Stage IVB | M1
+!!
+In TNM 9 the vermilion of the lip and the commissure are staged here, as skin, rather than with the oral cavity.
 ## Management of the primary
 Field change and SCC in situ are treated with cryotherapy, topical 5-FU or imiquimod, photodynamic therapy or curettage. Low-risk invasive SCC is excised with *4 to 6 mm margins*. High-risk SCC needs wider margins of 6 to 10 mm or Mohs surgery with complete margin assessment, resection of underlying bone, cartilage or parotid as required, and *adjuvant radiotherapy* for perineural invasion, close or positive margins, recurrence and T3 to T4 tumours.
 ## Management of nodes and the parotid
@@ -99,6 +115,14 @@ Lesions up to a third of the lip are removed by V or W wedge excision, and large
 Merkel cell carcinoma affects the elderly, the sun-damaged and the immunosuppressed, and is associated with the *Merkel cell polyomavirus*. It is a rapidly growing, painless, firm, red-violet dome-shaped nodule, remembered by *AEIOU*: asymptomatic, expanding rapidly, immunosuppressed, older than 50, and on a UV-exposed site.
 ## Diagnosis
 Histology shows small round blue cells that are *CK20 positive* in a perinuclear dot pattern and positive for neuroendocrine markers but *TTF-1 negative*, which distinguishes it from metastatic small-cell lung cancer.
+### Staging
+!table Merkel cell carcinoma: TNM and stage (AJCC eighth edition; UICC TNM 9)
+Category | Definition
+T1 / T2 / T3 | 2 cm or less / over 2 cm up to 5 cm / over 5 cm
+T4 | Invades fascia, muscle, cartilage or bone
+Clinical stage | I T1 N0; IIA T2–T3 N0; IIB T4 N0; III any T with clinical nodes; IV M1
+Pathological stage | I T1 N0; IIA T2–T3 N0; IIB T4 N0; IIIA T1–T4 with clinically occult nodal disease (N1a) or T0 with clinically detected nodes (N1b); IIIB T1–T4 with clinically detected nodes or in-transit disease; IV M1
+!!
 ## Pathophysiology: spread
 It spreads early to nodes, so that about a third of patients whose nodes feel normal have occult nodal disease, and it recurs locally and metastasises.
 ## Management
@@ -117,7 +141,7 @@ The ABCDE rule describes a suspicious lesion: **A**symmetry, **B**order irregula
 The mimics are seborrhoeic keratosis, pigmented BCC, blue naevus, Spitz naevus and naevus of Ota.
 ## Diagnosis: pathology and staging
 **Breslow thickness**, the depth from the granular layer to the deepest tumour cell, is together with *ulceration* the key prognostic factor and defines the T stage. Clark's levels of anatomical invasion are now historical. The report also gives the mitotic rate, microsatellites, lymphovascular and perineural invasion and the margins. Immunohistochemistry uses S-100, SOX10, HMB-45 and Melan-A, and tumours are tested for *BRAF V600* (about half of cutaneous melanomas), NRAS, and c-KIT in mucosal and acral types.
-!table T stage of cutaneous melanoma (AJCC 8th edition)
+!table T stage of cutaneous melanoma (AJCC eighth edition; same in UICC TNM 9)
 T | Breslow thickness | Ulceration
 Tis | In situ | —
 T1a | Under 0.8 mm | Absent
@@ -126,7 +150,15 @@ T2 | Over 1.0 to 2.0 mm | a: absent; b: present
 T3 | Over 2.0 to 4.0 mm | a: absent; b: present
 T4 | Over 4.0 mm | a: absent; b: present
 !!
-Stages I and II are localised disease, stage III is nodal, satellite or in-transit disease, and stage IV is distant metastasis, with the LDH forming part of the M stage. Thin melanomas need no imaging; thick or ulcerated tumours and stage III and IV disease are staged with CT or PET-CT and brain MRI, with an LDH.
+Stages I and II are localised disease, stage III is nodal, satellite or in-transit disease, and stage IV is distant metastasis, with the LDH forming part of the M stage.
+!table Melanoma: M categories (AJCC eighth edition; UICC TNM 9)
+M | Site of distant metastasis
+M1a | Skin, soft tissue or nodes beyond the regional nodes
+M1b | Lung
+M1c | Other non-CNS viscera
+M1d | Central nervous system
+Suffix (0) / (1) | LDH normal / raised
+!! Thin melanomas need no imaging; thick or ulcerated tumours and stage III and IV disease are staged with CT or PET-CT and brain MRI, with an LDH.
 ## Management of the primary
 Wide local excision margins depend on thickness: 0.5 to 1 cm for melanoma in situ, 1 cm up to 1 mm thick, 1 to 2 cm for 1 to 2 mm, and 2 cm beyond 2 mm, often modified on the face to preserve function. The depth of excision depends on site: down to the periosteum on the scalp, or the outer table if it is involved; a partial or total auriculectomy on the ear, or a lateral temporal bone resection if the canal is involved ([[t:tumear]]); deep to the mimetic muscles on the face if needed; and to the parotid fascia, or including a superficial parotidectomy, over the parotid. Lentigo maligna is excised in stages with margin control, by the "spaghetti" technique or Mohs with immunostains, or treated with imiquimod or radiotherapy in the frail.
 ## Management of the neck
@@ -148,6 +180,14 @@ Head and neck melanomas carry a worse prognosis than those of the trunk and limb
 # Mucosal melanoma {dz} | Nose, sinuses and palate.
 ## Clinical features
 Mucosal melanoma makes up only about 1% of melanomas, but the head and neck is its commonest site ([[t:sinus_ca]]): the nasal septum and turbinates, the sinuses, the palate and gingiva, and the nasopharynx. It is often amelanotic and presents late with unilateral obstruction, epistaxis or a pigmented palatal lesion. Breslow depth does not apply, and every mucosal melanoma is at least T3.
+## Staging
+!table Mucosal melanoma of the head and neck: TNM (UICC TNM 9, unchanged)
+Category | Definition
+T3 | Mucosal disease (epithelium and/or submucosa); there is no T1 or T2
+T4a | Deep soft tissue, cartilage, bone or overlying skin
+T4b | Brain, dura, skull base, lower cranial nerves, masticator space, carotid artery, prevertebral space or mediastinum
+Stage | III T3 N0; IVA T4a N0 or T3–T4a N1; IVB T4b; IVC M1
+!!
 ## Management
 Treatment is complete endoscopic or open resection with postoperative radiotherapy for local control, and therapeutic rather than elective neck dissection.
 ## Prognosis
@@ -190,3 +230,6 @@ Melanoma may present in the parotid or neck nodes with no primary, which has per
 - Keohane et al., *Br J Dermatol* 2021: BAD guidelines for cutaneous squamous cell carcinoma.
 - Nasr et al., *Br J Dermatol* 2021: BAD guidelines for basal cell carcinoma.
 - NICE TA802: Cemiplimab for advanced cutaneous squamous cell carcinoma.
+- Brierley et al. (eds), *TNM Classification of Malignant Tumours*, 9th edition, UICC 2025: skin carcinoma of the head and neck, melanoma, Merkel cell carcinoma.
+- NHS England NDRS: TNM 9 staging sheets, skin carcinoma of the head and neck and mucosal melanoma (2025).
+- Gershenwald et al., *CA Cancer J Clin* 2017: melanoma staging, AJCC eighth edition.

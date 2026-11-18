@@ -28,15 +28,22 @@ Rapid growth, pain, fixation to skin or deep structures, ulceration, *facial ner
 !update Current evidence
 A meta-analysis of ultrasound-guided core biopsy in head and neck lesions found an accuracy of 96% for malignancy and a correct specific diagnosis in 87%, better than fine-needle aspiration (Novoa et al., *Head Neck* 2012); tumour seeding along the needle track is very rare after either (Shah et al., *Br J Oral Maxillofac Surg* 2016). The Milan system grades salivary cytology by risk of malignancy, which helps with the up to 30% of aspirates that are indeterminate.
 !!
-## T staging
-!table T staging of major salivary gland cancer (AJCC)
+## Staging (UICC TNM 9)
+!table Salivary gland carcinoma (major and minor): TNM (UICC TNM 9; AJCC version 9 from 2026)
 Category | Definition
 T1 | 2 cm or less, no extraparenchymal extension
 T2 | Over 2 cm up to 4 cm, no extraparenchymal extension
-T3 | Over 4 cm, or extraparenchymal extension
-T4a | Skin, mandible, ear canal or facial nerve
-T4b | Skull base, pterygoid plates, or encasing the carotid
+T3 | Over 4 cm, or gross extraparenchymal or adjacent mucosal soft tissue extension, without invasion of structures
+T4a | Invades immediately adjacent structures: skin, bone, cartilage, oesophagus, trachea, a named nerve (such as the facial nerve)
+T4b | Beyond them: skull base, spine, intracranial, orbital apex, prevertebral space, mediastinum, masticator space, or encasing the carotid
+N1 | Metastasis in one to three nodes, without ENE
+N2 | More than three nodes, or any node with ENE (unequivocal imaging or clinical ENE for cN, definitive pathological ENE for pN)
+Stage I / II | T1 N0 / T2 N0
+Stage IIIA | T3–T4 N0, or T1–T2 N1
+Stage IIIB | T1–T2 N2, or T3–T4 N1–N2
+Stage IV | M1 only
 !!
+The ninth edition stages major and minor salivary carcinomas together, replaces the size-based N categories with node counts and ENE, and keeps stage IV for distant metastasis. The eighth edition (still in many texts) used the general head and neck N categories and stage groups I to IVC.
 ## Investigations: what and when
 !table Salivary gland tumours: investigations
 Role | Test | When and what it shows
@@ -194,3 +201,5 @@ Primary MALT lymphoma of the parotid (especially in Sjögren syndrome; [[t:saliv
 ## Guidelines and dosing
 - Sood et al., *J Laryngol Otol* 2016: UK national guidelines, salivary gland tumours.
 - Geiger et al., *J Clin Oncol* 2021: ASCO guideline for salivary gland malignancy.
+- Brierley et al. (eds), *TNM Classification of Malignant Tumours*, 9th edition, UICC 2025.
+- NHS England NDRS: TNM 9 staging data sheets (2025).

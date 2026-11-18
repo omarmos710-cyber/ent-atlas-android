@@ -113,7 +113,7 @@ An imaginary line from the medial canthus to the angle of the mandible. Tumours 
 ### Lederman's classification
 Two horizontal lines of Sebileau, through the floors of the orbits and the floors of the antra, divide the region into *suprastructure* (ethmoid, sphenoid, frontal sinuses and olfactory area), *mesostructure* (maxillary sinus and respiratory nose) and *infrastructure* (alveolus).
 !fig d40-7 d40-8 | First, Ohngren's line. Second, Lederman's classification.
-### AJCC TNM for the maxillary sinus
+### TNM for the sinuses (UICC TNM 9; T unchanged from the eighth edition)
 !table T staging of maxillary sinus carcinoma
 T | Extent
 T1 | Limited to the mucosa, no bone erosion
@@ -122,6 +122,23 @@ T3 | Posterior wall, subcutaneous tissue, floor or medial wall of the orbit, pte
 T4a | Anterior orbit, cheek skin, pterygoid plates, infratemporal fossa, cribriform plate, sphenoid or frontal sinus
 T4b | Orbital apex, dura, brain, middle cranial fossa, cranial nerves other than V2, nasopharynx, clivus
 !!
+!table T staging of nasal cavity and ethmoid carcinoma (UICC TNM 9)
+T | Extent
+T1 | One subsite of the nasal cavity or ethmoid, with or without bone invasion
+T2 | Two subsites of one site, or an adjacent site within the nasoethmoidal complex, with or without bone invasion
+T3 | Medial wall or floor of the orbit, maxillary sinus, palate or cribriform plate
+T4a | Anterior orbital contents, skin of nose or cheek, minimal extension into the anterior cranial fossa, pterygoid plates, sphenoid or frontal sinus
+T4b | Orbital apex, dura, brain, middle cranial fossa, cranial nerves other than V2, nasopharynx or clivus
+!!
+!table Sinonasal carcinoma: stage groups (UICC TNM 9)
+Stage | TNM
+I / II | T1 N0 / T2 N0
+III | T3 N0, or T1–T3 N1
+IVA | T1–T3 N2, or T4a N0–N2
+IVB | T4b any N, or any T N3
+IVC | M1
+!!
+N categories are those of the other HPV-independent head and neck sites (cN1 to cN3b), with unequivocal ENE on imaging counting for cN3b in TNM 9.
 ## Management
 ### Surgery
 Resection with clear margins, followed by radiotherapy for most stages:
@@ -164,10 +181,29 @@ Usually secondary or from the nasopharynx; presents with cranial nerve palsies (
 
 # Olfactory neuroblastoma {dz} | Esthesioneuroblastoma.
 *Esthesioneuroblastoma*, from the olfactory epithelium at the roof of the nose, at any age with peaks in the second and sixth decades. One-sided obstruction, epistaxis and loss of smell, with a mass high in the nose that may extend through the cribriform plate (a *dumb-bell* shape). Staged by the Kadish system (A nasal cavity, B sinuses, C beyond), which discriminates poorly, so the Dulguerov TNM-based system is often preferred. Somatostatin-receptor PET (DOTATATE) helps stage and follow it, as it does neuroendocrine tumours. Treated by craniofacial or endoscopic resection with radiotherapy. Up to 20% spread to the neck, sometimes late, so long-term neck surveillance is needed.
+!table Olfactory neuroblastoma: staging and grading
+System | Categories
+Modified Kadish (Morita 1993) | A nasal cavity; B nasal cavity and paranasal sinuses; C beyond them (orbit, skull base, intracranial); D cervical nodes or distant metastasis
+Dulguerov TNM | T1 nasal cavity and/or sinuses (not the sphenoid), sparing the uppermost ethmoid cells; T2 including the sphenoid, or extending to or eroding the cribriform plate; T3 into the orbit or the anterior cranial fossa without dural invasion; T4 into the brain; N1 any cervical node; M1 distant
+Hyams grade | I to IV from the histology; I–II low grade, III–IV high grade, with worse survival and recurrence
+UICC/AJCC | No separate classification; the nasal cavity and ethmoid TNM can be applied
+!!
+Neither Kadish nor Dulguerov includes grade; adding the Hyams grade to either improved prediction of recurrence in a 2023 multicentre series (Choby et al., *JAMA Otolaryngol Head Neck Surg* 2023), but this is not yet an official system.
 !imaging meningioma-with-skull-base-destruction | A meningioma destroying the skull base, a differential of olfactory neuroblastoma.
 
 # Mucosal melanoma {dz} | Pigmented or amelanotic.
 Older adults, on the septum or lateral wall; pigmented or amelanotic, bleeding; spreads by blood and lymph and has a poor prognosis; wide excision and radiotherapy.
+!table Mucosal melanoma of the upper aerodigestive tract: TNM (UICC TNM 9, unchanged; AJCC eighth edition)
+Category | Definition
+T3 | Limited to the epithelium and/or submucosa (mucosal disease); T1 and T2 do not exist
+T4a | Deep soft tissue, cartilage, bone or overlying skin
+T4b | Brain, dura, skull base, lower cranial nerves (IX to XII), masticator space, carotid artery, prevertebral space or mediastinum
+N1 | Any regional node
+Stage III | T3 N0
+Stage IVA | T4a N0, or T3–T4a N1
+Stage IVB | T4b any N
+Stage IVC | M1
+!!
 
 # Other malignant tumours {dz} | Each with its clue.
 ## Lymphoma, plasmacytoma and sarcomas
@@ -215,3 +251,7 @@ Small and large cell types, treated with combined chemotherapy and radiotherapy.
 ## Guidelines and dosing
 - Lund et al., *J Laryngol Otol* 2016: UK national guidelines for sinonasal tumours.
 - Lund et al., *Rhinol Suppl* 2010: European position paper on endoscopic management of tumours of the nose, sinuses and skull base.
+- Choby et al., *JAMA Otolaryngol Head Neck Surg* 2023: olfactory neuroblastoma staging incorporating Hyams grade.
+- Morita et al., *Neurosurgery* 1993: esthesioneuroblastoma, modified Kadish staging.
+- Dulguerov and Calcaterra, *Laryngoscope* 1992: esthesioneuroblastoma TNM staging.
+- Brierley et al. (eds), *TNM Classification of Malignant Tumours*, 9th edition, UICC 2025.

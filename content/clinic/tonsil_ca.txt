@@ -50,15 +50,35 @@ Inspect every subsite with good light, palpate the lesion for induration and dep
 - **Panendoscopy** under anaesthesia (laryngoscopy, pharyngoscopy, oesophagoscopy) to map the tumour and look for synchronous cancers.
 - Dental assessment before radiotherapy; nutrition and swallowing assessment.
 ## TNM essentials
-!table T staging (AJCC 8th edition)
-Category | Oral cavity | Oropharynx
+!table T staging (UICC TNM 9 and AJCC)
+Category | Oral cavity and mucosal lip | Oropharynx
 T1 | 2 cm or less, depth of invasion 5 mm or less | 2 cm or less
-T2 | 2 cm or less with depth over 5 mm, or 2 to 4 cm with depth 10 mm or less | Over 2 cm, up to 4 cm
-T3 | Over 4 cm, or depth over 10 mm | Over 4 cm, or extension to the lingual surface of the epiglottis
-T4a | Cortical bone, maxillary sinus, skin of face (and, for lip, inferior alveolar nerve or floor of mouth) | Larynx, extrinsic tongue muscle, medial pterygoid, hard palate or mandible
+T2 | 2 cm or less with depth over 5 mm, or over 2 to 4 cm with depth 10 mm or less | Over 2 cm, up to 4 cm
+T3 | Over 2 to 4 cm with depth over 10 mm, or over 4 cm with depth 10 mm or less | Over 4 cm, or extension to the lingual surface of the epiglottis
+T4a | Over 4 cm with depth over 10 mm; cortical bone into spongiosa, maxillary sinus, skin of face | Larynx, extrinsic tongue muscle, medial pterygoid, hard palate or mandible (HPV-associated: all T4, no a/b split)
 T4b | Masticator space, pterygoid plates, skull base, or encasing the internal carotid | Lateral pterygoid, pterygoid plates, lateral nasopharynx, skull base, or encasing the carotid
 !!
-For oral cavity and HPV-negative oropharyngeal cancer, N staging follows node size, number and side, and *extranodal extension* (which upstages); for HPV-positive oropharyngeal cancer the N categories are simpler and the stages lower, reflecting the better prognosis. Older texts print the 6th edition tables, based on size alone.
+For oral cavity and HPV-negative oropharyngeal cancer, N staging follows node size, number and side, and *extranodal extension* (which upstages; unequivocal ENE on imaging counts in TNM 9); for HPV-positive oropharyngeal cancer the N categories are simpler and the stages lower, reflecting the better prognosis. Older texts print the 6th edition tables, based on size alone.
+!table HPV-associated (p16-positive) oropharyngeal cancer: N and stage (UICC TNM 9; AJCC version 9, 2026)
+Category | Definition
+T0 | No primary found, p16-positive node
+cN1 | Ipsilateral nodes, all 6 cm or less, no unequivocal clinical or imaging ENE
+cN2 | Contralateral or bilateral nodes, all 6 cm or less, no ENE (ENE moves the node one category up)
+cN3 | Node over 6 cm, or contralateral or bilateral nodes with unequivocal ENE
+pN1a / pN1b | One node / two to four nodes, without pathological ENE
+pN2 | One to four nodes with pathological ENE, or more than four without
+pN3 | More than four nodes with pathological ENE
+Clinical stage | I: T0–T2 N0–N1; II: T0–T2 N2 or T3 N0–N2; III: T4 or N3; IV: M1
+Pathological stage | I: T0–T2 N0–N1b; II: T0–T2 N2–N3 or T3 N0–N2; III: T3 N3 or T4; IV: M1
+!!
+!table HPV-independent oropharyngeal and hypopharyngeal cancer: stage groups (UICC TNM 9)
+Stage | TNM
+I / II | T1 N0 / T2 N0
+III | T3 N0, or T1–T3 N1
+IVA | T1–T3 N2, or T4a N0–N2
+IVB | T4b any N, or any T N3
+IVC | M1
+!!
 ## Investigations: what and when
 !table Oral and oropharyngeal cancer: investigations
 Role | Test | When and what it shows
@@ -122,7 +142,7 @@ Usually men of fifty to seventy, though increasingly young adults; may arise in 
 !fig d44-12 d44-13 | First, carcinoma of the lateral border of the tongue (arrow) with leukoplakia of the floor of mouth (double arrows). Second, an ulcerative squamous carcinoma of the tongue in a 40-year-old woman.
 !fig d44-14 d44-15 | First, an exophytic growth on the right lateral border of the tongue. Second, cancer of the undersurface of the tongue.
 !pearl Depth of invasion
-The thickness of a tongue cancer predicts nodal spread better than its width: occult metastases rise sharply beyond about 4 mm. Current staging (AJCC 8th edition) therefore includes depth of invasion in the T category, and elective neck dissection is advised for tumours deeper than about 3 to 4 mm.
+The thickness of a tongue cancer predicts nodal spread better than its width: occult metastases rise sharply beyond about 4 mm. Current staging (AJCC eighth edition and UICC TNM 9) therefore includes depth of invasion in the T category, and elective neck dissection is advised for tumours deeper than about 3 to 4 mm.
 !!
 ### Treatment
 T1 and T2: partial glossectomy (transoral or with a pull-through), healing by secondary intention, primary closure, graft or free flap; radiotherapy (external beam with brachytherapy) is an alternative. Elective selective neck dissection of levels I to III (supraomohyoid) for an N0 neck when depth exceeds the threshold, bilateral for midline lesions; sentinel node biopsy is an alternative in early cancers. Advanced lesions: hemiglossectomy or total glossectomy with the floor of mouth, mandibulectomy and neck dissection (the *commando operation*), free flap reconstruction and postoperative radiotherapy or chemoradiation; total glossectomy may require laryngectomy to prevent aspiration.
@@ -150,7 +170,7 @@ Cause | HPV 16; oral sexual exposure | Tobacco and alcohol
 Marker | p16 overexpression on immunohistochemistry | p16 negative
 Primary | Often small, in the tonsil or tongue base crypts | Often larger, infiltrative
 Nodes | Early, often large and *cystic* | Solid
-Prognosis | Much better; staged separately (AJCC 8th) | Worse
+Prognosis | Much better; staged separately (AJCC 8th and TNM 9) | Worse
 !!
 The viral E6 and E7 oncoproteins inactivate p53 and Rb, and p16 is overexpressed as a result. Vaccination against HPV is expected to prevent most of these cancers. Local and regional failure is less common in HPV-positive disease, but distant metastases (mostly lung) occur at similar rates, so chest surveillance still matters. The **AJCC eighth edition** stages p16-positive and p16-negative tumours separately, with a separate pathological staging after surgery; but treatment is not yet changed on HPV status alone. Neck aspirates and biopsies are tested for p16 (and confirmed by HPV testing).
 !flag The cystic neck lump in an adult
@@ -222,3 +242,5 @@ Papilloma (pedunculated, on the tonsil, palate or pillars; excised), haemangioma
 - Mehanna et al., *N Engl J Med* 2016: PET-CT surveillance versus neck dissection (PET-NECK).
 - Burtness et al., *Lancet* 2019: KEYNOTE-048.
 - Homer et al., *J Laryngol Otol* 2016: UK national multidisciplinary guidelines, head and neck cancer.
+- Brierley et al. (eds), *TNM Classification of Malignant Tumours*, 9th edition, UICC 2025.
+- NHS England NDRS: TNM 9 staging sheets, oral cavity and pharynx (2025).

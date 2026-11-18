@@ -33,8 +33,8 @@ Flexible laryngoscopy of the piriform sinuses, postcricoid region and posterior 
 - **Panendoscopy** under anaesthesia: biopsy, mapping of the extent (including submucosal spread) and a search for synchronous primaries, including oesophagoscopy.
 - Thyroid function, haemoglobin and iron studies; nutrition and swallowing assessment.
 !imaging supraglottic-and-pharyngeal-tumors | Supraglottic and pharyngeal tumours on imaging.
-## T staging
-!table T staging of hypopharyngeal cancer (AJCC 8th edition)
+## Staging (UICC TNM 9)
+!table T staging of hypopharyngeal cancer (UICC TNM 9 and AJCC; unchanged from the eighth edition)
 Category | Definition
 T1 | One subsite and 2 cm or less
 T2 | More than one subsite or an adjacent site, or over 2 cm up to 4 cm, without fixation of the hemilarynx
@@ -42,6 +42,18 @@ T3 | Over 4 cm, or fixation of the hemilarynx, or extension to the oesophageal m
 T4a | Thyroid or cricoid cartilage, hyoid, thyroid gland, oesophageal muscle or central compartment soft tissue
 T4b | Prevertebral fascia, encasement of the carotid artery, or mediastinal structures
 !!
+!table Hypopharyngeal cancer: N categories and stage groups (UICC TNM 9)
+Category | Definition
+cN1 | Single ipsilateral node 3 cm or less, no ENE
+cN2a / b / c | Single ipsilateral node over 3 to 6 cm / multiple ipsilateral nodes / bilateral or contralateral nodes, none over 6 cm, no ENE
+cN3a / cN3b | Node over 6 cm without ENE / any node with clinical or unequivocal imaging ENE
+Stage I / II | T1 N0 / T2 N0
+Stage III | T3 N0, or T1–T3 N1
+Stage IVA | T1–T3 N2, or T4a N0–N2
+Stage IVB | T4b any N, or any T N3
+Stage IVC | M1
+!!
+TNM 9 changed no hypopharyngeal T category; it added unequivocal ENE on imaging as a criterion for cN3b.
 ## Investigations: what and when
 !table Hypopharyngeal cancer: investigations
 Role | Test | When and what it shows
@@ -157,3 +169,5 @@ Exceptionally rare: papilloma, adenoma, lipoma, fibroma, leiomyoma, appearing as
 ## Guidelines and dosing
 - Pointreau et al., *J Natl Cancer Inst* 2009: induction TPF versus PF for larynx preservation (GORTEC 2000-01).
 - Homer et al., *J Laryngol Otol* 2016: UK national multidisciplinary guidelines, head and neck cancer.
+- Brierley et al. (eds), *TNM Classification of Malignant Tumours*, 9th edition, UICC 2025.
+- NHS England NDRS: TNM 9 staging data sheets (2025).

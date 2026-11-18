@@ -115,6 +115,16 @@ At surgery the gland is hard, grey-white and adherent, invading the thyroid or m
 It must be resected *en bloc* with the thyroid lobe and adjacent tissue without rupturing the capsule.
 ## Prognosis
 Recurrence is common, and death usually comes from uncontrollable hypercalcaemia.
+## Staging (UICC TNM 9, new in 2025)
+!table Parathyroid carcinoma: T categories
+T | Definition
+T1 | Limited to the parathyroid, or minimal extension into soft tissue outside it, without invasion of the thyroid
+T2 | Any size, invading the thyroid gland
+T3 | Any size, invading adjacent skeletal muscle, recurrent laryngeal nerve, trachea, oesophagus, thymus, or directly invading an adjacent node
+T4 | Any size, invading major blood vessels or the spine
+N1 / M1 | Regional node metastasis / distant metastasis
+!!
+There are no stage groups: the data are too few. The AJCC eighth edition (2017) has the same T definitions and adds Tis for atypical parathyroid neoplasm.
 
 # Hypoparathyroidism and hypocalcaemia {dz} | After thyroid and parathyroid surgery.
 ## Etiology
@@ -171,3 +181,5 @@ It is prevented by capsular dissection, by identifying and preserving the glands
 - NICE NG132: Hyperparathyroidism (primary): diagnosis, assessment and initial management (2019).
 - Society for Endocrinology emergency endocrine guidance: acute hypercalcaemia and acute hypocalcaemia (2016).
 - BNF: zoledronic acid, cinacalcet, calcium gluconate, alfacalcidol.
+- Brierley et al. (eds), *TNM Classification of Malignant Tumours*, 9th edition, UICC 2025: parathyroid carcinoma.
+- Royal College of Pathologists: dataset for parathyroid carcinoma, appendix A (UICC TNM 9), 2025.

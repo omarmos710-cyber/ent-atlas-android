@@ -272,6 +272,36 @@ RAS mutations and the PAX8/PPARγ rearrangement are characteristic, and the prog
 Hürthle cell carcinoma consists of large eosinophilic cells packed with mitochondria. It is more aggressive than follicular carcinoma, more often multifocal and with nodal and distant spread, and because it takes up *radioiodine poorly*, surgery is all-important.
 
 # Management of differentiated cancer | Surgery, iodine, suppression.
+## Staging and risk of recurrence
+!table Thyroid carcinoma: TNM (AJCC eighth edition; unchanged in UICC TNM 9)
+Category | Definition
+T1a / T1b | 1 cm or less / over 1 cm up to 2 cm, limited to the thyroid
+T2 | Over 2 cm up to 4 cm, limited to the thyroid
+T3a | Over 4 cm, limited to the thyroid
+T3b | Any size with gross extrathyroidal extension into strap muscles only (microscopic extension does not count)
+T4a | Subcutaneous soft tissue, larynx, trachea, oesophagus or recurrent laryngeal nerve
+T4b | Prevertebral fascia, mediastinal vessels, or encasing the carotid artery
+N1a | Level VI or VII (central and upper mediastinal) nodes
+N1b | Lateral neck (levels I to V) or retropharyngeal nodes
+!!
+!table Differentiated (papillary, follicular, oncocytic) carcinoma: stage groups
+Age | Stage | TNM
+Under 55 | I | Any T, any N, M0
+Under 55 | II | Any T, any N, M1
+55 and over | I | T1–T2 N0
+55 and over | II | T1–T2 N1, or T3a–T3b any N
+55 and over | III | T4a any N
+55 and over | IVA | T4b any N
+55 and over | IVB | M1
+!!
+!table ATA 2025 risk of structural recurrence (Ringel et al., *Thyroid* 2025)
+Category | Estimated recurrence | Use
+Low | Under 10% | Lobectomy or total thyroidectomy without radioiodine is usual
+Low-intermediate | 10 to 15% | Radioiodine considered case by case
+Intermediate-high | 16 to 30% | Radioiodine usually favoured
+High | Over 30% | Total thyroidectomy, radioiodine, closer surveillance
+!!
+The 2025 American Thyroid Association guideline replaced the three-tier system of 2015 (low, intermediate, high) with these four tiers, split the old intermediate group, and assesses follicular and oncocytic carcinoma separately; features such as vascular invasion, extrathyroidal extension, the number and size of nodes and nodal ENE, histological subtype and molecular markers add together. After treatment, *dynamic risk stratification* reclassifies the response as excellent, indeterminate, biochemically incomplete or structurally incomplete.
 ## Extent of thyroidectomy
 Thyroid cancer incidence has risen sharply over three decades while mortality has changed much less, a sign that imaging finds many indolent cancers. **Lobectomy with isthmusectomy** is enough for low-risk, unifocal, intrathyroidal tumours up to about 4 cm without nodes or extrathyroidal extension. A solitary **papillary microcarcinoma** under 1 cm without adverse features needs only hemithyroidectomy without TSH suppression, and **active surveillance** is an option in selected patients. **NIFTP** (non-invasive follicular thyroid neoplasm with papillary-like nuclear features) is now regarded as benign and needs no further treatment after lobectomy. **Total thyroidectomy** is needed for tumours over 4 cm, gross extrathyroidal extension, nodal or distant metastases, bilateral disease, previous irradiation, and whenever radioiodine is planned. **Completion thyroidectomy** follows when lobectomy histology shows a higher-risk tumour.
 !differ Size cut-offs and lobectomy
@@ -319,6 +349,16 @@ MEN 2B | RET (M918T) | Medullary carcinoma (early, aggressive), phaeochromocytom
 It spreads early to central and lateral nodes, then to lung, liver and bone, and its hormones cause diarrhoea and flushing.
 ## Diagnosis
 The work-up measures calcitonin and CEA, tests *every* patient for RET, excludes a *phaeochromocytoma* with plasma or urinary metanephrines before any surgery (removing it first to avoid a hypertensive crisis), and checks serum calcium for hyperparathyroidism ([[t:para]]).
+### Staging
+!table Medullary carcinoma: stage groups (AJCC eighth edition, UICC TNM 9; no age split)
+Stage | TNM
+I | T1 N0 M0
+II | T2–T3 N0 M0
+III | T1–T3 N1a M0
+IVA | T4a any N, or T1–T3 N1b
+IVB | T4b any N
+IVC | M1
+!!
 ## Management
 Treatment is total thyroidectomy with central (level VI) neck dissection, adding a lateral dissection for nodal disease or according to the calcitonin level. Radioiodine does not work, and RET and multikinase inhibitors such as selpercatinib, vandetanib and cabozantinib treat progressive metastatic disease. RET carriers have a prophylactic thyroidectomy *within the first year* for the highest-risk (MEN 2B) mutations, *by about five years* for high-risk MEN 2A mutations, and later, guided by calcitonin, for moderate-risk mutations.
 ### Drugs and doses
@@ -348,6 +388,13 @@ BRAF V600E | Dabrafenib 150 mg twice a day with trametinib 2 mg once daily | Rap
 Other | Radiotherapy with or without chemotherapy; palliative care | Tracheostomy is avoided where possible
 !!
 Based on the ATA anaplastic thyroid cancer guideline (Bible et al., *Thyroid* 2021).
+### Staging
+!table Anaplastic carcinoma: stage groups (always stage IV)
+Stage | TNM
+IVA | T1–T3a N0 M0
+IVB | T1–T3a N1, or T3b–T4 any N, M0
+IVC | M1
+!!
 
 # Thyroid lymphoma {dz} | In Hashimoto thyroiditis.
 ## Clinical features
@@ -402,3 +449,5 @@ Metastases reach the thyroid from the kidney, breast, lung, melanoma and head an
 - Wells et al., *Thyroid* 2015: ATA guidelines for medullary thyroid cancer.
 - Bible et al., *Thyroid* 2021: ATA guidelines for anaplastic thyroid cancer.
 - BNF: levothyroxine, carbimazole, propylthiouracil, propranolol, iodine, lenvatinib, selpercatinib, dabrafenib, trametinib.
+- Ringel et al., *Thyroid* 2025: American Thyroid Association management guidelines for adult patients with differentiated thyroid cancer.
+- Brierley et al. (eds), *TNM Classification of Malignant Tumours*, 9th edition, UICC 2025 (thyroid unchanged).
