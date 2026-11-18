@@ -173,19 +173,11 @@
   "consent": [
    "Consent",
    "consent",
-   "informed consent",
-   "montgomery",
-   "capacity",
-   "gillick competence"
+   "informed consent"
   ],
   "crises": [
    "Theatre emergencies",
-   "theatre emergencies",
-   "airway fire",
-   "anaphylaxis",
-   "malignant hyperthermia",
-   "local anaesthetic toxicity",
-   "last"
+   "theatre emergencies"
   ],
   "crm": [
    "Leading in a crisis",
@@ -238,9 +230,7 @@
    "Incisions in the head and neck",
    "incisions",
    "neck incisions",
-   "skin incisions",
-   "relaxed skin tension lines",
-   "langer lines"
+   "skin incisions"
   ],
   "infcontrol": [
    "Infection control and sharps injuries",
@@ -267,8 +257,7 @@
    "local anesthesia",
    "nerve block",
    "nerve blocks",
-   "maximum dose of lidocaine",
-   "local anaesthetic dose"
+   "maximum dose of lidocaine"
   ],
   "list": [
    "Planning a theatre list",
@@ -320,8 +309,7 @@
    "Pre-operative assessment",
    "pre-operative assessment",
    "preoperative assessment",
-   "pre op assessment",
-   "fasting"
+   "pre op assessment"
   ],
   "prophylaxis": [
    "Antibiotic and VTE prophylaxis",
@@ -363,7 +351,6 @@
    "Wound healing and scars",
    "wound healing",
    "scars",
-   "hypertrophic scar",
    "scar"
   ],
   "skilllab": [
@@ -371,6 +358,286 @@
    "surgical skill",
    "simulation",
    "skills lab"
+  ],
+  "malhyper": [
+   "Malignant hyperthermia",
+   "malignant hyperthermia",
+   "dantrolene"
+  ],
+  "anaphylaxisth": [
+   "Anaphylaxis in theatre",
+   "anaphylaxis",
+   "anaphylaxis in theatre",
+   "anaphylactic reaction"
+  ],
+  "massivehaem": [
+   "Massive haemorrhage",
+   "massive haemorrhage",
+   "major haemorrhage",
+   "massive transfusion",
+   "major haemorrhage protocol"
+  ],
+  "carotidblowout": [
+   "Carotid blowout",
+   "carotid blowout",
+   "carotid blow-out",
+   "carotid rupture",
+   "sentinel bleed"
+  ],
+  "airembolism": [
+   "Venous air embolism",
+   "venous air embolism",
+   "air embolism"
+  ],
+  "arrestth": [
+   "Cardiac arrest in theatre",
+   "cardiac arrest in theatre",
+   "cardiac arrest"
+  ],
+  "airwayfire": [
+   "Airway fire",
+   "airway fire",
+   "laser fire",
+   "airway fire drill"
+  ],
+  "sbar": [
+   "SBAR",
+   "sbar",
+   "situation background assessment recommendation",
+   "handover"
+  ],
+  "closedloop": [
+   "Closed-loop communication",
+   "closed-loop communication",
+   "closed loop communication",
+   "graded assertiveness",
+   "speaking up"
+  ],
+  "halsted": [
+   "Halsted's principles",
+   "halsted's principles",
+   "halsted principles",
+   "halsted",
+   "principles of tissue handling"
+  ],
+  "laryngospasm": [
+   "Laryngospasm",
+   "laryngospasm"
+  ],
+  "extubation": [
+   "Extubation",
+   "extubation",
+   "deep extubation",
+   "awake extubation"
+  ],
+  "jetvent": [
+   "Tubeless techniques",
+   "tubeless techniques",
+   "tubeless anaesthesia",
+   "high-flow nasal oxygen",
+   "hfno",
+   "thrive",
+   "spontaneous ventilation"
+  ],
+  "last": [
+   "Local anaesthetic systemic toxicity",
+   "local anaesthetic systemic toxicity",
+   "local anaesthetic toxicity",
+   "lidocaine toxicity",
+   "lipid emulsion",
+   "intralipid"
+  ],
+  "lamax": [
+   "Maximum doses of local anaesthetic",
+   "maximum dose of local anaesthetic",
+   "maximum doses of local anaesthetic",
+   "maximum dose of local anaesthetics",
+   "local anaesthetic maximum dose"
+  ],
+  "asa": [
+   "ASA grade",
+   "asa grade",
+   "asa",
+   "asa classification",
+   "asa physical status"
+  ],
+  "fasting": [
+   "Fasting before surgery",
+   "fasting",
+   "fasting times",
+   "nil by mouth",
+   "starvation times",
+   "fasting before surgery"
+  ],
+  "woundclass": [
+   "Wound classes",
+   "wound classes",
+   "wound classification",
+   "clean-contaminated",
+   "clean contaminated wound",
+   "contaminated wound"
+  ],
+  "keloidscar": [
+   "Keloids and hypertrophic scars",
+   "keloids and hypertrophic scars",
+   "keloid scar",
+   "keloid scars",
+   "hypertrophic scars"
+  ],
+  "sutureremoval": [
+   "Removing sutures",
+   "removing sutures",
+   "suture removal",
+   "when to remove sutures",
+   "removal of sutures"
+  ],
+  "montgomery": [
+   "The Montgomery test",
+   "montgomery test",
+   "montgomery ruling",
+   "montgomery v lanarkshire",
+   "material risk"
+  ],
+  "capacity": [
+   "Assessing capacity",
+   "mental capacity",
+   "assessing capacity",
+   "lacks capacity",
+   "best interests"
+  ],
+  "gillick": [
+   "Consent in children",
+   "gillick competence",
+   "gillick",
+   "consent in children",
+   "fraser guidelines"
+  ],
+  "suturetypes": [
+   "The sutures you will use",
+   "vicryl",
+   "prolene",
+   "monocryl",
+   "nylon suture",
+   "silk suture",
+   "pds"
+  ],
+  "needletypes": [
+   "Needle types",
+   "needle types",
+   "cutting needle",
+   "round-bodied needle",
+   "reverse cutting needle",
+   "taper needle"
+  ],
+  "rstl": [
+   "Relaxed skin tension lines",
+   "relaxed skin tension lines",
+   "rstl",
+   "langer lines",
+   "facial aesthetic units"
+  ],
+  "newsscore": [
+   "Early warning score",
+   "early warning score",
+   "news2",
+   "national early warning score"
+  ],
+  "ponvbasic": [
+   "Post-operative nausea and vomiting",
+   "post-operative nausea and vomiting",
+   "postoperative nausea and vomiting",
+   "ponv"
+  ],
+  "lasersafe": [
+   "Laser safety in theatre",
+   "laser physics",
+   "laser hazards",
+   "laser eye protection"
+  ],
+  "pacemaker": [
+   "Pacemakers and diathermy",
+   "pacemakers and defibrillators",
+   "pacemaker and diathermy",
+   "implantable defibrillator"
+  ],
+  "handhyg": [
+   "Hand hygiene and PPE",
+   "hand hygiene",
+   "personal protective equipment",
+   "ppe",
+   "aerosol-generating procedures",
+   "aerosol generating procedures"
+  ],
+  "needlestick": [
+   "Needlestick injury",
+   "needlestick injury",
+   "needlestick",
+   "needle-stick injury",
+   "sharps injury transmission"
+  ],
+  "prion": [
+   "Prion precautions",
+   "prion precautions",
+   "prions",
+   "cjd",
+   "variant cjd"
+  ],
+  "burrs": [
+   "The drill and its burrs",
+   "drill burrs",
+   "burrs",
+   "cutting burr",
+   "diamond burr"
+  ],
+  "whosteps": [
+   "WHO checklist steps",
+   "sign in",
+   "time out",
+   "sign out",
+   "site marking",
+   "swab count"
+  ],
+  "candour2": [
+   "Failure to rescue",
+   "failure to rescue"
+  ],
+  "mdtb": [
+   "The multidisciplinary team",
+   "multidisciplinary team",
+   "mdt",
+   "tumour board"
+  ],
+  "bidmodel": [
+   "The BID model",
+   "bid model",
+   "briefing intraoperative debriefing"
+  ],
+  "wba": [
+   "Workplace assessments (WBA)",
+   "wba",
+   "wbas",
+   "dops",
+   "pba",
+   "case-based discussion"
+  ],
+  "drainremove": [
+   "When to remove a drain",
+   "when to remove a drain",
+   "drain removal",
+   "remove the drain"
+  ],
+  "headbandage": [
+   "Head bandages",
+   "head bandage",
+   "mastoid bandage",
+   "pressure dressing"
+  ],
+  "sharedairway": [
+   "Anaesthesia and the shared airway",
+   "shared airway",
+   "anaesthesia and the shared airway",
+   "airway devices",
+   "anaesthesia for ent surgery"
   ]
  },
  "articles": {
@@ -540,28 +807,66 @@
    "e": "stapes"
   },
   "th:b-consent": {
-   "e": "consent"
+   "e": "consent",
+   "s": {
+    "The Montgomery test": "montgomery",
+    "Assessing capacity": "capacity",
+    "When the patient lacks capacity": "capacity",
+    "Children": "gillick"
+   }
   },
   "th:b-crises": {
    "e": "crises",
    "a": {
     "Post-tonsillectomy haemorrhage": "tx"
+   },
+   "s": {
+    "Malignant hyperthermia": "malhyper",
+    "Anaphylaxis": "anaphylaxisth",
+    "Massive haemorrhage": "massivehaem",
+    "Carotid blowout": "carotidblowout",
+    "Venous air embolism": "airembolism",
+    "Cardiac arrest in theatre": "arrestth"
    }
   },
   "th:b-crm": {
-   "e": "crm"
+   "e": "crm",
+   "s": {
+    "SBAR": "sbar",
+    "Closed-loop communication": "closedloop",
+    "Speaking up: graded assertiveness": "closedloop"
+   }
   },
   "th:b-decide": {
-   "e": "candour"
+   "e": "candour",
+   "s": {
+    "Failure to rescue": "candour2",
+    "The multidisciplinary team": "mdtb"
+   }
   },
   "th:b-dissect": {
-   "e": "dissection"
+   "e": "dissection",
+   "s": {
+    "Halsted's principles": "halsted"
+   }
   },
   "th:b-drains": {
-   "e": "drains"
+   "e": "drains",
+   "s": {
+    "When to remove it": "drainremove",
+    "Nasal packs": "nasalpacking",
+    "Head bandages": "headbandage"
+   }
   },
   "th:b-energy": {
-   "e": "diathermy"
+   "e": "diathermy",
+   "s": {
+    "Laser safety": "lasersafe",
+    "Laser physics in one minute": "lasersafe",
+    "Crisis drills": "airwayfire",
+    "Pacemakers and defibrillators": "pacemaker",
+    "Coblation": "coblation"
+   }
   },
   "th:b-haemostasis": {
    "e": "haemostasis"
@@ -570,19 +875,37 @@
    "e": "humanfactors"
   },
   "th:b-incisions": {
-   "e": "incisions"
+   "e": "incisions",
+   "s": {
+    "Relaxed skin tension lines": "rstl",
+    "Facial aesthetic units": "rstl"
+   }
   },
   "th:b-infection": {
-   "e": "infcontrol"
+   "e": "infcontrol",
+   "s": {
+    "Hand hygiene": "handhyg",
+    "Personal protective equipment": "handhyg",
+    "Aerosol-generating procedures in ENT": "handhyg",
+    "Transmission risk after a needlestick": "needlestick",
+    "Safe sharps practice": "needlestick"
+   }
   },
   "th:b-instruments": {
-   "e": "instruments"
+   "e": "instruments",
+   "s": {
+    "Prion precautions": "prion"
+   }
   },
   "th:b-knots": {
    "e": "knots"
   },
   "th:b-la": {
-   "e": "la"
+   "e": "la",
+   "s": {
+    "Local anaesthetic systemic toxicity": "last",
+    "Maximum doses": "lamax"
+   }
   },
   "th:b-list": {
    "e": "list"
@@ -594,22 +917,39 @@
    "e": "opnote"
   },
   "th:b-optics": {
-   "e": "optics"
+   "e": "optics",
+   "s": {
+    "The drill and its burrs": "burrs"
+   }
   },
   "th:b-paeds": {
-   "e": "paedstheatre"
+   "e": "paedstheatre",
+   "s": {
+    "Fasting": "fasting"
+   }
   },
   "th:b-position": {
    "e": "positioning"
   },
   "th:b-postop": {
-   "e": "postop"
+   "e": "postop",
+   "s": {
+    "The early warning score": "newsscore",
+    "Nausea and vomiting": "ponvbasic"
+   }
   },
   "th:b-preop": {
-   "e": "preop"
+   "e": "preop",
+   "s": {
+    "ASA grade": "asa",
+    "Fasting": "fasting"
+   }
   },
   "th:b-prophylaxis": {
-   "e": "prophylaxis"
+   "e": "prophylaxis",
+   "s": {
+    "Wound classes": "woundclass"
+   }
   },
   "th:b-scrub": {
    "e": "scrub"
@@ -618,19 +958,40 @@
    "e": "skilllab"
   },
   "th:b-sutures": {
-   "e": "sutures"
+   "e": "sutures",
+   "s": {
+    "The sutures you will use": "suturetypes",
+    "Needle types": "needletypes"
+   }
   },
   "th:b-teach": {
-   "e": "teaching"
+   "e": "teaching",
+   "s": {
+    "The BID model": "bidmodel",
+    "Workplace-based assessments": "wba"
+   }
   },
   "th:b-team": {
-   "e": "whochecklist"
+   "e": "whochecklist",
+   "s": {
+    "The WHO surgical safety checklist": "whosteps",
+    "Site marking and laterality": "whosteps"
+   }
   },
   "th:b-wounds": {
-   "e": "wounds"
+   "e": "wounds",
+   "s": {
+    "Hypertrophic scars and keloids": "keloidscar",
+    "Removing sutures": "sutureremoval"
+   }
   },
   "th:b-anaes": {
-   "e": "sharedairway"
+   "e": "sharedairway",
+   "s": {
+    "Laryngospasm": "laryngospasm",
+    "Extubation": "extubation",
+    "Tubeless techniques": "jetvent"
+   }
   }
  }
 }
