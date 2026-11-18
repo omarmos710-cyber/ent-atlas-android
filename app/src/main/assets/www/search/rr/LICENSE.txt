@@ -1,0 +1,10 @@
+Files in this folder power the offline "second reader" of the quick answer (search/xrank.js).
+
+ce.onnx, vocab.json
+  cross-encoder/ms-marco-MiniLM-L-6-v2 (int8 ONNX export by Xenova), Apache License 2.0.
+  https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-6-v2
+  https://huggingface.co/Xenova/ms-marco-MiniLM-L-6-v2
+
+ort.wasm.min.js, ort-wasm-simd-threaded.wasm, ort-wasm-simd-threaded.mjs
+  ONNX Runtime Web 1.20.1, MIT License, Copyright (c) Microsoft Corporation.
+  https://github.com/microsoft/onnxruntime

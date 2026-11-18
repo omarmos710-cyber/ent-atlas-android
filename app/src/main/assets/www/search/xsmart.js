@@ -486,6 +486,29 @@ function answer0(S,opt){opt=opt||{};if(!S||!S.list||!M)return null;let P=S.P;if(
  const lab=l=>l&&l.length<40&&!asp.some(a=>a.h.test(fold(l)))?l:"";
  return {conf:pv,best:L.best,items:pick.map(p=>({i:p.i,route:p.route,text:p.t,needle:p.needle,label:p.row?"":lab(p.label),title:D.docs[p.i].title,where:D.docs[p.i].where,s:p.rel}))}}
 
-const API={setModel,buildDocs,search,answer,setAnswers,entityOf,_units:units,_x:{HS,QUAL,PRON,XREF,tidy,cw,fold,STRICT},parse,encode,toks,stem,wordpiece,ASPECTS,get ready(){return !!(M&&D)},doc:i=>D&&D.docs[i]};
+/* ---------- the second reader (search/xrank.js) ----------
+   candidates(): the lines the answer map picked (in its order) and the lines of the best-ranked sections, for the
+   sentence-pair model to read with the question. rerank(): the sections whose lines it scores best come first (with
+   the answer map's choice as a strong prior), and each section shows its best lines in the author's order. Nothing
+   new is written: the result is a subset of the same quoted lines. Answers in parts (several questions, X vs Y,
+   "approach to") keep their structure and are not re-read. */
+function candidates(S,opt){opt=opt||{};if(!S||!S.list)return null;const A=answer(S,{n:opt.n||16});if(!A||!A.items.length||A.items.some(x=>x.part))return null;
+ const out=[],seen=new Set();A.items.forEach((x,j)=>{if(seen.has(x.text))return;seen.add(x.text);out.push(Object.assign({},x,{eng:1,r:j}))});
+ let extra=0;for(const r of (S.pool||S.list).slice(0,5)){const d=D.docs[r.i];if(!d||d.ty==="q"||d.ty==="card"||d.ty==="viva"||d.exam)continue;
+  for(const u of units(d.body)){const t=tidy(u.t);if(t.length<25||t.length>420||XREF.test(t)||seen.has(t))continue;seen.add(t);
+   out.push({i:d.i,k:u.k,route:d.route,text:t,needle:u.needle||t,label:u.row?"":(u.label&&u.label.length<40?u.label:""),title:d.title,where:d.where,s:.5,eng:0,r:99});if(++extra>=(opt.extra||8))break}
+  if(extra>=(opt.extra||8))break}
+ return {A,items:out,texts:out.map(x=>x.where+" › "+x.title+". "+(x.label?x.label+": ":"")+x.text)}}
+function rerank(C,scores,opt){opt=opt||{};const it=C.items,n=it.length;if(!n)return C.A;const per=opt.per||3,lim=opt.n||10,prior=opt.prior===undefined?2:opt.prior;
+ let m=0;for(const v of scores)m+=v;m/=n;let sd=0;for(const v of scores)sd+=(v-m)*(v-m);sd=Math.sqrt(sd/n)+1e-6;const z=Array.from(scores,v=>(v-m)/sd);
+ const groups=new Map();it.forEach((x,j)=>{const key=x.route;if(!groups.has(key))groups.set(key,[]);groups.get(key).push(j)});
+ const gs=g=>Math.max(...g.map(j=>z[j]))+prior*Math.max(...g.map(j=>it[j].eng?1-Math.min(it[j].r,30)/30:0));
+ const G=[...groups.values()].sort((a,b)=>gs(b)-gs(a));const items=[];
+ /* the answer map's own first section, when the reader also ranks it first, keeps the lines the map chose (a table, a list) */
+ const lead=it.find(x=>x.r===0);
+ for(const g of G){if(items.length>=lim)break;const keepAll=opt.keepLead!==false&&g===G[0]&&lead&&it[g[0]].route===lead.route;
+  const best=keepAll?g.filter(j=>it[j].eng).slice(0,Math.max(per,7)).slice(0,lim-items.length):g.slice().sort((a,b)=>z[b]-z[a]).slice(0,Math.min(per,lim-items.length));best.sort((a,b)=>g.indexOf(a)-g.indexOf(b));for(const j of best)items.push(Object.assign({},it[j],{rr:z[j]}))}
+ return Object.assign({},C.A,{items,reranked:true})}
+const API={setModel,buildDocs,search,answer,setAnswers,candidates,rerank,entityOf,_units:units,_x:{HS,QUAL,PRON,XREF,tidy,cw,fold,STRICT},parse,encode,toks,stem,wordpiece,ASPECTS,get ready(){return !!(M&&D)},doc:i=>D&&D.docs[i]};
 if(typeof module!=="undefined"&&module.exports)module.exports=API;else root.XSMART=API;
 })(typeof window!=="undefined"?window:this);
