@@ -27,6 +27,17 @@ Radio-opaque, ill-defined | Fibrous dysplasia ("ground glass"), osteosarcoma ("s
 Mixed | Ossifying fibroma, calcifying odontogenic cyst, adenomatoid tumour, cemento-osseous dysplasia
 !!
 !anat s173_27 s130_3 | The teeth, palate and retromolar trigone, and the maxilla with its alveolar process.
+## Investigations: what and when
+!table Jaw lesions: investigations
+Role | Test | When and what it shows
+First (every patient) | Tooth vitality testing; panoramic radiograph (OPG) with intraoral films | Non-vital tooth (radicular cyst); lesion pattern
+Extent | CT or cone-beam CT | Size, cortical breach, inferior alveolar canal, teeth
+Soft tissue or malignancy | MRI | Soft tissue extension
+Before incisional biopsy | Aspiration | Blood (vascular lesion), keratin (keratocyst), straw fluid (cyst)
+Diagnosis | Incisional or excisional biopsy | Histology
+Giant cell lesion | Calcium, phosphate, PTH | Brown tumour of hyperparathyroidism
+Multiple keratocysts | Genetic testing (PTCH1) and skin and skeletal survey | Gorlin syndrome
+!!
 
 # Radicular (periapical) cyst {dz} | The commonest jaw cyst.
 ## Pathophysiology
@@ -123,6 +134,16 @@ Osteoradionecrosis follows radiotherapy, especially above 60 Gy, and is describe
 !update Current evidence
 **Osteoradionecrosis.** In the HOPON trial, hyperbaric oxygen ([[t:laser]]) did not reduce the risk of osteoradionecrosis after dental extractions in irradiated jaws (Shaw et al., *Int J Radiat Oncol Biol Phys* 2019); pentoxifylline with tocopherol is widely used, on observational evidence.
 !!
+## Drugs and doses
+!table Osteoradionecrosis and MRONJ: drugs and doses
+Condition | Drug and dose | Course and notes
+Prevention (radiotherapy) | Dental assessment and extractions before radiotherapy; fluoride trays | Lifelong dental care
+Established osteoradionecrosis | Pentoxifylline 400 mg twice a day with tocopherol (vitamin E) 1000 units daily, with or without clodronate (PENTOCLO) | Months; evidence from cohort studies
+Every stage | Chlorhexidine 0.2% mouthwash twice a day; analgesia; conservative debridement of loose sequestra | 
+Infection (MRONJ stage 2 or ORN with infection) | Phenoxymethylpenicillin 500 mg four times a day (with metronidazole 400 mg three times a day), or doxycycline if allergic | Repeated courses as needed
+Advanced | Resection with vascularised (free flap) reconstruction | 
+!!
+Based on the AAOMS position paper on MRONJ (Ruggiero et al., *J Oral Maxillofac Surg* 2022), the PENTOCLO protocol (Delanian et al., *Int J Radiat Oncol Biol Phys* 2011) and the BNF.
 
 # Medication-related osteonecrosis (MRONJ) {dz} | Antiresorptive drugs.
 ## Definition and etiology
@@ -162,3 +183,6 @@ It is managed with chlorhexidine, antibiotics and conservative debridement, with
 ## Studies cited
 - Ruggiero et al., *J Oral Maxillofac Surg* 2022: AAOMS position paper on MRONJ.
 - Shaw et al., *Int J Radiat Oncol Biol Phys* 2019: the HOPON trial.
+## Guidelines and dosing
+- Ruggiero et al., *J Oral Maxillofac Surg* 2022: AAOMS position paper on medication-related osteonecrosis of the jaw.
+- Delanian et al., *Int J Radiat Oncol Biol Phys* 2011: pentoxifylline, tocopherol and clodronate for osteoradionecrosis.

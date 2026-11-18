@@ -50,6 +50,17 @@ T4b | Prevertebral space, encasing the carotid, or mediastinum | As supraglottis
 !!
 N staging follows the general head and neck rules, now including *extranodal extension*, which upstages nodes (N2a and N3b); Older texts print the earlier (6th edition) tables, based on size alone.
 !imaging | Glottic and supraglottic tumours, pharyngeal tumours and synchronous malignancies on imaging.
+## Investigations: what and when
+!table Laryngeal cancer: investigations
+Role | Test | When and what it shows
+First (clinic) | Flexible laryngoscopy (urgent pathway, NICE NG12) | Lesion, fold mobility, airway
+Extent (before biopsy if the airway is safe) | Contrast CT of the neck; MRI for cartilage and recurrence after radiotherapy | Pre-epiglottic and paraglottic spread, cartilage, nodes
+Diagnosis and mapping (gold standard) | Direct laryngoscopy (microlaryngoscopy) with biopsy, under anaesthesia | Histology; hidden areas; synchronous primaries
+Distant spread and second primaries | CT chest; PET-CT for stage III–IV | 
+Nodes | Ultrasound with FNA | 
+Response after chemoradiotherapy | PET-CT at about 12 weeks | Residual disease
+Before treatment | Swallowing and voice assessment; dental review; thyroid function (and after treatment) | Hypothyroidism after radiotherapy or surgery
+!!
 
 # Management | Cure, then function.
 ## Principles
@@ -57,6 +68,16 @@ Early cancers (stage I and II) are treated by a single modality, radiotherapy or
 Treatment by site is set out in each region's chapter.
 ## Radiotherapy
 For early tumours with mobile folds and no cartilage invasion or nodes: about 60 to 70 Gy over six weeks ([[t:hnrt]]). T1 glottic cancer is controlled in about 90% or more with good voice; T2 in about 85% with normal mobility but much less (about 63 to 70%) when mobility is impaired. It spares the voice and avoids surgery but causes mucositis, oedema, dryness and occasional chondronecrosis, makes recurrence harder to detect, and cannot be repeated. Poor results with fixed folds, subglottic extension, cartilage invasion and nodes.
+### Treatment regimens
+!table Laryngeal cancer: radiotherapy and drug regimens
+Setting | Regimen | Notes
+T1 glottic | Radiotherapy 55 Gy in 20 fractions (or 50 to 52.5 Gy in 16; 63 Gy in 28 for T1 in hypofractionated schedules) | Or transoral laser cordectomy
+T2 glottic or early supraglottic | Radiotherapy about 65 Gy in 30 fractions (supraglottic: with bilateral neck) | Or transoral or open partial laryngectomy
+Larynx preservation for T3 (selected T4a refusing laryngectomy) | 70 Gy in 35 fractions with concurrent cisplatin 100 mg/m² on days 1, 22 and 43 | RTOG 91-11; or induction TPF and response-guided treatment
+T4a (cartilage destruction, extralaryngeal) | Total laryngectomy with neck dissection, then radiotherapy 60 to 66 Gy (with cisplatin for involved margins or extranodal extension) | Primary chemoradiotherapy gives worse survival for T4a
+Recurrent or metastatic | Pembrolizumab with or without platinum and fluorouracil (PD-L1 CPS 1 or more) | KEYNOTE-048
+!!
+Regimens from the UK national multidisciplinary guidelines for laryngeal cancer (Jones et al., *J Laryngol Otol* 2016), RTOG 91-11 (Forastiere et al., *J Clin Oncol* 2013) and KEYNOTE-048.
 ## Transoral surgery
 *Transoral laser microsurgery* (CO2 laser under the microscope; [[t:laser]]), and more recently transoral robotic surgery, has largely replaced open partial laryngectomy for T1, T2 and selected T3 tumours: cordectomy for glottic cancer, supraglottic resection for supraglottic cancer. It is cheaper and quicker, avoids tracheostomy, keeps radiotherapy in reserve, and gives similar control to radiotherapy, but the voice may be poorer after wide cordectomy. It needs good exposure, and is contraindicated by fold fixation, interarytenoid involvement and poor lung function.
 ## Open conservation surgery
@@ -177,4 +198,8 @@ Stridor and dyspnoea are often the first symptoms; hoarseness is late, meaning s
 - Hoffman et al., *Laryngoscope* 2006: survival trends in laryngeal cancer.
 - NICE guideline NG36 (2016): cancer of the upper aerodigestive tract.
 - Mehanna et al., *N Engl J Med* 2016: the PET-NECK trial.
+- Burtness et al., *Lancet* 2019: KEYNOTE-048.
+## Guidelines and dosing
+- Jones et al., *J Laryngol Otol* 2016: UK national multidisciplinary guidelines, laryngeal cancer.
+- Forastiere et al., *J Clin Oncol* 2013: long-term results of RTOG 91-11.
 - Burtness et al., *Lancet* 2019: KEYNOTE-048.

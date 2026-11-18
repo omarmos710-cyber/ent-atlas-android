@@ -34,6 +34,14 @@ Breathlessness is *not* a feature of simple laryngitis and suggests another diag
 - **Antibiotics** only for secondary bacterial infection with fever or purulent sputum.
 - **Proton pump inhibitors** where reflux is suspected.
 - **Steroids** after burns, or for professional voice users who must perform.
+### Treatment: what and when
+!table Acute laryngitis: treatment
+Step | Treatment | Notes
+Every patient | Voice rest (not whispering), hydration, humidification, stop smoking; paracetamol | Usually settles in 1 to 2 weeks
+Not recommended | Routine antibiotics or steroids | Cochrane review: no meaningful benefit
+Professional voice users with an urgent performance | Short oral steroid course on specialist advice | After laryngoscopy
+Hoarseness over 3 weeks, or in a smoker | Laryngoscopy (urgent referral if over 45 with persistent hoarseness, NICE NG12) | 
+!!
 ## Course and follow-up
 Most settle in one to two weeks; hoarseness persisting beyond three weeks needs laryngoscopy.
 ## Subtypes and variants
@@ -61,6 +69,15 @@ No tongue depressor, no throat examination, no cannula, no lying down, no unacco
 - **Blood cultures** (more often positive than surface swabs) and **epiglottic swabs**, after the airway is secure.
 - **CT** for a suspected epiglottic abscess.
 !imaging | Supraglottic swelling on imaging.
+### Investigations: what and when
+!table Acute epiglottitis: investigations
+Role | Test | When and what it shows
+Children | No investigations before the airway is secured in theatre | Calm child, senior anaesthetist and ENT
+Adults (stable) | Flexible nasendoscopy | Swollen, cherry-red epiglottis and arytenoids; airway size
+After the airway is safe | Blood cultures, epiglottic swab, full blood count, CRP | Organism (Hib, streptococci, *S. aureus*)
+Abscess suspected | Contrast CT of the neck | Epiglottic abscess needing drainage
+Stable patient, diagnosis uncertain | Lateral neck X-ray | Thumb sign
+!!
 ## Management
 !ward On call: acute epiglottitis
 1. **Airway:** intubation (or tracheostomy if intubation fails) in theatre for children and for adults with stridor or rapid progression; selected adults presenting later without stridor can be watched closely in high-dependency care.
@@ -72,6 +89,16 @@ Intubation is usually needed for 24 to 72 hours, until the epiglottis has shrunk
 !update Current evidence
 In adult epiglottitis, a meta-analysis of 30 studies (10,148 patients) found about 1 in 9 need an airway intervention since Hib vaccination, with an epiglottic abscess, stridor or diabetes predicting the need (Sideris et al., *Laryngoscope* 2020).
 !!
+### Drugs and doses
+!table Acute epiglottitis: drugs and doses
+Patient | Drug and dose | Course and notes
+Adults | Ceftriaxone 2 g IV once daily (some units add metronidazole 500 mg every 8 hours) | Oral step-down (for example co-amoxiclav 625 mg three times a day) when improving; 7 to 10 days in total
+Children | Ceftriaxone 50 to 80 mg/kg IV once daily (maximum 4 g) or cefotaxime | After the airway is secured
+Penicillin anaphylaxis | Microbiology advice (for example a quinolone or vancomycin-based regimen) | 
+Oedema | Dexamethasone (adults 8 to 10 mg IV, then 4 to 8 mg every 8 hours) | Evidence limited
+Household contacts of Hib cases | Rifampicin once daily for 4 days: adults 600 mg; children 1 month to 11 years 20 mg/kg (maximum 600 mg); under 1 month 10 mg/kg | Plus vaccination of unvaccinated children under 10
+!!
+Doses from NHS Fife hospital ENT guidance, the BNF and BNF for Children, and UKHSA guidance on Haemophilus influenzae type b.
 ## Complications
 - **Airway obstruction:** the ball-valve epiglottis may close the airway within the hour.
 - **Septicaemia.**
@@ -94,6 +121,14 @@ Restlessness, a rising pulse, pallor and cyanosis, and finally exhaustion or dro
 !!
 ## Diagnosis
 An AP radiograph of the neck shows the *steeple sign*. How croup differs from epiglottitis is set out in [[8]].
+### Investigations: what and when
+!table Croup: investigations
+Role | Test | When and what it shows
+Diagnosis | Clinical: barking cough, stridor, coryzal prodrome; severity by Westley score | No tests needed in typical croup
+Avoid | Throat examination with a tongue depressor in a distressed child; distressing procedures | Can precipitate obstruction
+Atypical (toxic, drooling, no response) | Senior airway assessment; AP neck film only if stable | Epiglottitis, tracheitis, foreign body (steeple sign in croup)
+Recurrent, under 6 months, or persistent | Microlaryngoscopy and bronchoscopy when well | Subglottic stenosis, haemangioma, cyst
+!!
 ## Management
 - **Mild:** a single dose of oral dexamethasone 0.15 mg/kg (doses up to 0.6 mg/kg are used; the lower dose appears as effective) or nebulised budesonide, and observation; most go home.
 - **Moderate to severe:** humidified oxygen, steroids and *nebulised adrenaline*, which works within minutes but wears off in about two hours, so observe for rebound; admit.
@@ -102,6 +137,16 @@ An AP radiograph of the neck shows the *steeple sign*. How croup differs from ep
 !update Current evidence
 A Cochrane review of 43 trials (4,565 children) found glucocorticoids improved croup within two hours, with the effect lasting at least 24 hours, halved return visits and readmissions (risk ratio 0.52) and shortened hospital stay by about 15 hours (Gates et al., 2018). Nebulised adrenaline improved croup scores at 30 minutes but not at two to six hours, so children are observed for rebound (Bjornson et al., 2013).
 !!
+### Drugs and doses
+!table Croup: drugs and doses
+Severity | Drug and dose | Course and notes
+Every child (mild, moderate or severe) | Dexamethasone 0.15 mg/kg by mouth, single dose (up to 0.6 mg/kg in severe croup); or prednisolone 1 to 2 mg/kg | Repeat after 12 to 24 hours if needed
+Vomiting or cannot take oral | Nebulised budesonide 2 mg | Single dose
+Moderate to severe (stridor at rest, distress) | Nebulised adrenaline 1:1000, 400 micrograms/kg (0.4 ml/kg), maximum 5 mg (5 ml) | Works in minutes, lasts about 2 hours: observe for at least 2 to 3 hours for rebound; admit
+Hypoxia | Humidified oxygen | 
+Not helpful | Antibiotics (unless secondary infection), steam, cough medicines | 
+!!
+Doses from NICE CKS Croup, the BNF for Children and the Cochrane review of glucocorticoids for croup (Gates et al., 2018).
 ## Subtypes and variants
 ### Spasmodic croup
 Sudden nocturnal attacks of barking cough and stridor in an otherwise well child without fever, settling by morning; often allergic or reflux-related.
@@ -121,6 +166,15 @@ Bronchoscopy shows purulent tracheitis with oedema, sloughed mucosa and membrane
 - **Bronchoscopy** to remove the membranes, often repeatedly.
 - **Intubation.**
 - **Intravenous antibiotics.**
+### Drugs and doses
+!table Bacterial tracheitis: drugs and doses (children)
+Step | Drug and dose | Course and notes
+Empirical IV | Ceftriaxone 50 to 80 mg/kg once daily plus flucloxacillin 50 mg/kg every 6 hours (or clindamycin) | Covers *S. aureus*, streptococci, pneumococcus and *Moraxella*
+MRSA risk | Add vancomycin (dose by level) | 
+Duration | 10 to 14 days in total, with oral step-down | Guided by culture
+Airway | Intubation; bronchoscopy to remove membranes | Often repeated
+!!
+Doses from the BNF for Children; regimens from published paediatric reviews.
 ## Complications
 Pneumonia frequently follows.
 
@@ -226,3 +280,9 @@ Treatment | Steroids, nebulised adrenaline, humidified oxygen | Airway in theatr
 - Gates et al., Cochrane review, 2018: glucocorticoids for croup.
 - Bjornson et al., 2013: nebulised adrenaline for croup.
 - Sideris et al., *Laryngoscope* 2020: airway intervention in adult epiglottitis.
+## Guidelines and dosing
+- NICE CKS: Croup.
+- Gates et al., *Cochrane Database Syst Rev* 2018: glucocorticoids for croup in children.
+- Reveiz et al., *Cochrane Database Syst Rev* 2015: antibiotics for acute laryngitis in adults.
+- UKHSA: guidance on the prevention and management of Haemophilus influenzae type b.
+- BNF and BNF for Children: dexamethasone, budesonide, adrenaline, ceftriaxone, flucloxacillin, rifampicin.

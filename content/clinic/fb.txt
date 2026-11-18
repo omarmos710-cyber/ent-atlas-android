@@ -57,6 +57,14 @@ Most inhaled foreign bodies in children are radiolucent nuts and seeds, and the 
 !fig d65-3 d65-4 | First, a radiolucent fruit seed (chiku) in the subglottis (arrow) in a child with a tracheostomy. Second, a nail in the right bronchus on a PA chest film.
 !fig d65-5 d65-6 | First, a broken piece of a Fuller's tracheostomy tube in the left bronchus. Second, (A) a spring from a ball pen in the right bronchus, and (B) the spring after removal.
 !imaging | Foreign bodies and aspiration on imaging.
+## Investigations: what and when
+!table Inhaled foreign body: investigations
+Role | Test | When and what it shows
+Strong history of choking | Rigid bronchoscopy, even with normal films | Diagnosis and treatment; a negative film never excludes it
+First imaging (stable child) | Chest X-ray, PA (inspiratory and expiratory, or lateral decubitus in young children) and neck films | Radio-opaque object; air trapping, collapse
+Doubtful, stable patient | Low-dose CT chest (virtual bronchoscopy) | Radiolucent object; avoids negative bronchoscopy
+Late presentation | Chest X-ray, CT | Collapse, pneumonia, bronchiectasis
+!!
 
 # Management | First aid, then the bronchoscope.
 ## Complete obstruction: first aid
@@ -83,6 +91,16 @@ No nuts, popcorn, hard sweets or whole grapes for children under four or five; s
 !update Current evidence
 **First aid.** The European Resuscitation Council guidelines (2021) keep five back blows then five abdominal thrusts for children over one and adults, five back blows then five chest thrusts for infants, encouragement to cough while the cough is effective, and no blind finger sweeps. **Imaging.** Low-dose CT has a high negative predictive value when the history is doubtful. **Swallowed objects** and button batteries in the oesophagus are covered in [[t:fbfood]].
 !!
+## Drugs and doses
+!table Inhaled foreign body: drugs around removal
+Step | Drug and dose | Course and notes
+Before rigid bronchoscopy | Inhalational induction keeping spontaneous breathing; topical lidocaine to the cords (maximum about 3 to 4 mg/kg) | Avoids pushing the object distally
+Mucosal oedema after removal | Dexamethasone (children 0.15 to 0.5 mg/kg IV, maximum about 10 mg) | Single dose or short course
+Retained or chronic object with infection | Antibiotic for aspiration pneumonia (for example co-amoxiclav) | 5 to 7 days
+Organic object (nut) after days | Physiotherapy and check bronchoscopy if the lung does not re-expand | 
+Not recommended | Back blows and chest thrusts once the child is breathing and coughing; blind finger sweeps | Use only in choking with an ineffective cough
+!!
+Doses from the BNF for Children; first aid from the Resuscitation Council UK paediatric choking algorithm.
 
 # Complications | Of the object and of its removal.
 ## Of a retained object

@@ -55,9 +55,30 @@ Talk to the oncologist and the pathologist *before* the biopsy so that the sampl
 - **Fine-needle aspiration** is of limited use in children: it rarely gives enough for lymphoma typing.
 - A deep primary (nasopharynx, sinuses, ear) is biopsied endoscopically or under anaesthetic.
 !ops
+## Investigations: what and when
+!table Childhood head and neck cancer: investigations
+Role | Test | When and what it shows
+First line | Ultrasound of the neck | Cystic or solid; abnormal node architecture; guides biopsy
+Before any general anaesthetic | Chest X-ray | Anterior mediastinal mass (airway and circulatory collapse risk)
+Every patient | Full blood count and film, LDH, uric acid, renal and liver function | Leukaemia, lymphoma, tumour lysis risk
+Diagnosis (gold standard) | Excision biopsy of a whole node, sent fresh (lymphoma); core or open biopsy of a mass | Histology, flow cytometry, cytogenetics, molecular tests
+Suspected neuroblastoma | Urine catecholamines (HVA, VMA); MIBG scan | 
+Staging | MRI of the primary; CT or PET-CT; bone marrow as directed by oncology | 
+!!
 
 # Management | The multidisciplinary team.
 Childhood cancer is treated in a paediatric oncology centre under national or international protocols, with paediatric oncologists, radiation oncologists, surgeons, pathologists, radiologists, nurses, psychologists, dietitians and speech therapists. The ENT surgeon diagnoses, secures the airway, provides surgical resection or access when needed, and manages the ear, nose and throat effects of treatment.
+## Treatment: what and when
+!table Childhood head and neck cancer: treatment
+Tumour | Treatment | Notes
+Hodgkin lymphoma | Response-adapted chemotherapy (EuroNet-PHL protocols), radiotherapy only for inadequate response | Excellent survival
+Non-Hodgkin lymphoma | Intensive multi-agent chemotherapy by subtype; tumour lysis prophylaxis (hydration, allopurinol or rasburicase) | Burkitt grows fastest
+Rhabdomyosarcoma | Multi-agent chemotherapy (for example ifosfamide, vincristine, actinomycin D in European protocols), with radiotherapy and surgery for local control | Parameningeal sites need radiotherapy
+Neuroblastoma | By risk group: observation, surgery, or chemotherapy, with immunotherapy for high risk | 
+Differentiated thyroid carcinoma | Total thyroidectomy with neck dissection as needed; radioiodine by risk | Survival over 95% despite spread
+Nasopharyngeal carcinoma | Induction chemotherapy then chemoradiotherapy | Lower radiotherapy doses studied in good responders
+!!
+Treatment follows national children's cancer protocols (Children's Cancer and Leukaemia Group, European cooperative groups); doses are protocol-specific and are not given here.
 
 # Complications | Late effects.
 Survivors live for decades with the consequences of treatment, so follow-up is long term.

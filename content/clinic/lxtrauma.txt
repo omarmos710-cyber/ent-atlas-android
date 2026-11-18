@@ -59,6 +59,15 @@ Group | Findings | Management
 4 | As group 3 with a disrupted anterior commissure or unstable framework | Tracheostomy, open repair and stenting
 5 | Complete laryngotracheal separation | Tracheostomy and repair by anastomosis
 !!
+## Investigations: what and when
+!table Laryngeal trauma: investigations
+Role | Test | When and what it shows
+Airway threatened | No imaging until the airway is secured (awake tracheostomy) | 
+First (stable patient) | Flexible nasendoscopy | Oedema, haematoma, tears, exposed cartilage, fold movement; Schaefer group
+Framework (gold standard) | Fine-cut CT of the larynx with 3D reconstruction (with cervical spine) | Fractures, dislocation, displacement
+Associated injuries | Chest X-ray; contrast swallow; CT angiography | Pneumothorax; pharyngo-oesophageal tear; vascular injury
+After airway control | Direct laryngoscopy, oesophagoscopy and bronchoscopy | Map injuries before repair
+!!
 
 # Management | Airway, then framework.
 ## The airway
@@ -66,6 +75,15 @@ Group | Findings | Management
 - **Stable airway:** flexible endoscopy, then CT.
 ## Conservative treatment
 For minor injuries with a normal or near-normal endoscopy and no displaced fracture: admission and observation, voice rest, humidified air, head elevation, systemic steroids early and in full dose (to reduce oedema and scarring), antibiotics (to prevent perichondritis), and anti-reflux treatment.
+### Drugs and doses
+!table Laryngeal trauma: drugs and doses (adults)
+Step | Drug and dose | Course and notes
+Oedema (early, groups 1 and 2) | Dexamethasone 8 to 10 mg IV, then 4 to 8 mg every 8 hours | First 24 to 72 hours; reduces oedema and granulation
+Mucosal tear or exposed cartilage | Antibiotic covering oral flora (for example co-amoxiclav 1.2 g IV every 8 hours, then oral) | About 7 to 10 days
+Every patient | PPI (for example omeprazole 40 mg daily) | Protects healing mucosa
+Every patient | Humidified air, voice rest, head up; nil by mouth if swallowing is unsafe | 
+!!
+Doses from the BNF; regimens from standard laryngeal trauma practice (Schaefer, *Ann Otol Rhinol Laryngol* 2014).
 ## Surgical repair
 Indicated for displaced or unstable fractures, exposed cartilage, large mucosal tears, disruption of the anterior commissure, arytenoid dislocation and cord immobility, and laryngotracheal separation. Repair early, ideally within 24 to 48 hours and certainly before ten days, before granulation and scar form.
 - **Exposure:** a midline thyrotomy (laryngofissure) to inspect and close the mucosa.
@@ -102,6 +120,14 @@ Grade I, up to 50% obstruction; grade II, 51 to 70%; grade III, 71 to 99%; grade
 - **Tracheal:** resection and end-to-end anastomosis is definitive; balloon dilatation for thin webs or unfit patients.
 - **Complex, multilevel stenosis:** a Montgomery T-tube stents the airway while preserving voice. Expanding metal stents are avoided in benign disease because of granulation and erosion.
 !ops 10 199 21 22 | Acquired laryngeal stenosis, tracheal stenosis, laryngotracheal reconstruction and tracheal resection.
+### Drugs and adjuncts
+!table Laryngotracheal stenosis: drugs and adjuncts
+Situation | Drug and dose | Notes
+Every patient | Treat reflux (PPI twice daily) | Reflux worsens scarring
+Thin, soft subglottic or tracheal stenosis at endoscopy | Topical mitomycin C (commonly 0.4 mg/ml applied for 2 to 4 minutes) and intralesional steroid (for example triamcinolone 40 mg/ml) | Evidence mixed; repeated procedures
+Idiopathic subglottic stenosis | Serial office intralesional steroid injections | Longer interval between dilatations in series
+Granulomatosis with polyangiitis | Systemic immunosuppression with rheumatology | 
+!!
 ## Prevention
 Use the right-sized tube, keep cuff pressure below about 25 to 30 cm of water, avoid prolonged translaryngeal intubation where tracheostomy is better, and avoid placing a tracheostomy through the first ring or cricoid.
 
@@ -140,3 +166,6 @@ Management follows trauma life support principles, with control of the airway (o
 - *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 25.
 - Dhingra, *Diseases of Ear, Nose and Throat*, chapter 57.
 - K. J. Lee, *Essential Otolaryngology*, chapter 50.
+## Guidelines and dosing
+- Schaefer, *Ann Otol Rhinol Laryngol* 2014: management of acute blunt and penetrating external laryngeal trauma.
+- BNF: dexamethasone, co-amoxiclav, omeprazole, triamcinolone.

@@ -46,6 +46,16 @@ Contrast CT or MRI shows an intensely enhancing mass *splaying the internal and 
 FNA of a suspected carotid body tumour is avoided, and open or core biopsy condemned. They bleed, they rarely give a diagnosis, and imaging is characteristic.
 !!
 !fig d77-6 | Carotid body tumour: (A) clinical swelling; (B) MRI; (C, D) angiography showing splaying of the internal and external carotids (lyre sign) with tumour blush; (E) the excised specimen.
+### Investigations: what and when
+!table Neck paraganglioma: investigations
+Role | Test | When and what it shows
+Never | FNA or biopsy of a suspected carotid body tumour | Bleeding; rarely diagnostic
+Diagnosis | Contrast CT or MRI with MR angiography | Splaying of the carotids (lyre sign), salt-and-pepper pattern; Shamblin group
+Every patient before anaesthesia | Plasma free or urinary fractionated metanephrines (with 3-methoxytyramine) | Secreting tumour needs alpha-blockade
+Multifocal or metastatic disease | 68Ga-DOTATATE PET-CT | Other paragangliomas
+Every patient | Germline genetic testing (SDHx and related); screen relatives who carry a variant | About a third are hereditary
+Before surgery | Cranial nerve examination including laryngoscopy; selected angiography with embolisation or balloon occlusion | Baseline nerve function; carotid sacrifice planning
+!!
 ## Subtypes and variants: Shamblin groups
 !table Shamblin classification
 Group | Relation to the carotids | Surgical meaning
@@ -101,6 +111,15 @@ Most haemangiomas are left to involute. Treatment is needed when the airway is t
 !update Current evidence
 **Infantile haemangioma.** Oral propranolol cleared or nearly cleared haemangiomas in 60% against 4% with placebo (Léauté-Labrèze et al., *NEJM* 2015).
 !!
+### Drugs and doses
+!table Infantile haemangioma: drugs and doses
+Step | Drug and dose | Course and notes
+First line (when treatment is needed) | Propranolol oral, in two divided doses with feeds: 1 mg/kg/day in week 1, 2 mg/kg/day in week 2, then 3 mg/kg/day | About 6 months; heart rate and blood pressure checks; stop if not feeding (hypoglycaemia)
+Small superficial lesions | Topical timolol 0.5% gel, 1 drop twice a day | Off-label
+Ulceration | Wound care, barrier dressings, analgesia; propranolol | 
+Large facial (segmental) lesion | Screen for PHACE (MRI and MRA of head and neck, echocardiography, eye examination) before propranolol | 
+!!
+Doses from the Hemangiol (propranolol) product licence and the clinical practice guideline for infantile haemangiomas (Krowchuk et al., *Pediatrics* 2019).
 
 # Capillary malformation {dz} | Port-wine stain.
 The **capillary malformation**, or port-wine stain, is a flat pink to purple patch present at birth, often in a trigeminal distribution, which darkens and thickens into "cobblestones" with age. Involvement of V1 raises the question of *Sturge–Weber syndrome*, with leptomeningeal angiomatosis, seizures and glaucoma. It is treated with the pulsed-dye laser.
@@ -146,3 +165,7 @@ Treatment is superselective embolisation followed within days by complete surgic
 ## Studies cited
 - Léauté-Labrèze et al., *N Engl J Med* 2015: propranolol for infantile haemangioma.
 - Adams et al., *Pediatrics* 2016: sirolimus for complicated vascular anomalies.
+## Guidelines and dosing
+- Lenders et al., *J Clin Endocrinol Metab* 2014: Endocrine Society guideline, phaeochromocytoma and paraganglioma.
+- Krowchuk et al., *Pediatrics* 2019: AAP guideline for infantile hemangiomas.
+- Léauté-Labrèze et al., *N Engl J Med* 2015: propranolol for infantile haemangioma.
