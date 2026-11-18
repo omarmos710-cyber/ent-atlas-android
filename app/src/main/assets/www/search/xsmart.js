@@ -355,7 +355,8 @@ function answerMap(P,opt){if(!AM)return null;CTXK=new Set();const e=opt.e!==unde
  /* nothing labelled for this aspect: the condition's own section, if it has one */
  if(P.aspects.length&&lab.reduce((m,x)=>Math.max(m,x[2]),0)<.5){const own=new Set((AM.by.get(e+"|def")||[]).filter(x=>x[2]>=.8).map(x=>x[0]));
   if(own.size){const seenK=new Set();for(const id of AM.asp)for(const [d,k] of AM.by.get(e+"|"+id)||[])if(own.has(d)&&!seenK.has(d+"|"+k)){seenK.add(d+"|"+k);lab.push([d,k,.55])}}}
- if(!lab.length)return null;const home=(AM.home.get(e)||[""])[0];
+ if(opt.art){lab=lab.filter(([d])=>D.docs[d].route.split("~")[0]===opt.art)}
+ if(!lab.length)return null;const home=opt.art||(AM.home.get(e)||[""])[0];
  const groups=new Map();for(const [doc,k,w] of lab){const d=D.docs[doc];let g=groups.get(doc);if(!g)groups.set(doc,g={doc,d,u:new Map(),max:0});const o=g.u.get(k);if(!o||w>o)g.u.set(k,w);if(w>g.max)g.max=w}
  /* a section or article whose own heading repeats the question's words ("Draf III", "Malignant hyperthermia") is the one asked about */
  const TT=[...new Set(toks(P.topic||""))].filter(t=>t.length>1&&!STOP.has(t));
@@ -398,10 +399,16 @@ function compare(P,opt){const es=P.parts.map(x=>entityOf(x));if(es.some(e=>e===n
 /* several questions at once ("causes and treatment of X"): each answered under its own heading */
 function multi(P,opt){const asp=P.aspects;const e=entityOf(P.topic,asp.map(a=>a.id));if(e===null)return null;const focus=ENTFOCUS.slice();const items=[];let name="";
  const per=Math.max(2,Math.ceil((opt.n||6)/asp.length));
- for(const a of asp){const A=answerMap(Object.assign({},P,{aspects:[a]}),{e,focus,n:per});if(!A)continue;name=A.entity;for(const x of A.items){if(items.some(y=>y.text===x.text))continue;x.part=a.label;items.push(x)}}
+ for(const a of asp){const A=answerMap(Object.assign({},P,{aspects:[a]}),{e,focus,n:per,art:opt.art});if(!A)continue;name=A.entity;for(const x of A.items){if(items.some(y=>y.text===x.text))continue;x.part=a.label;items.push(x)}}
  if(!items.length||new Set(items.map(x=>x.part)).size<2)return null;return {map:true,entity:name,conf:1,best:1,items}}
 function answer(S,opt){opt=opt||{};if(!S||!S.list||!M)return null;const P=S.P;if(/\b(viva|questions?|mcqs?|essays?|flashcards?|quiz)\b/i.test(P.raw||""))return null;
- if(!opt.noMap&&AM){if(P.parts){const C=compare(P,opt);if(C)return C}if(P.aspects.length>1){const A=multi(P,opt);if(A)return A}const A=answerMap(P,opt);if(A)return A}const asp=P.aspects;
+ if(!opt.noMap&&AM){if(P.parts){const C=compare(P,opt);if(C)return C}
+  /* "approach to a hoarse voice": the approach article, compiled in the order a clinician works: red flags, history, examination, tests, management */
+  if(/\bapproach(es)? to\b/.test(fold(P.raw||""))&&P.aspects.every(a=>a.id==="how"||a.id==="def")){const e=entityOf(P.topic,[]);
+   /* the "Approach to ..." article that speaks most about the condition */
+   let apx="",best=0;if(e!==null){const cnt=new Map();for(const id of AM.asp)for(const [d] of AM.by.get(e+"|"+id)||[]){const dd=D.docs[d];if(/^approach to\b/i.test(dd.art)){const r=dd.route.split("~")[0];cnt.set(r,(cnt.get(r)||0)+1)}}cnt.forEach((v,r)=>{if(v>best){best=v;apx=r}})}
+   if(apx){const A=multi(Object.assign({},P,{aspects:["flag","hx","exam","dx","tx"].map(ASPBY)}),Object.assign({},opt,{n:Math.max(opt.n||6,10),art:apx}));if(A)return A}}
+  if(P.aspects.length>1){const A=multi(P,opt);if(A)return A}const A=answerMap(P,opt);if(A)return A}const asp=P.aspects;
  const okd=d=>d.ty!=="q"&&d.ty!=="card"&&d.ty!=="viva"&&!d.exam;
  const list=S.list.filter(r=>okd(D.docs[r.i]));const pool=(S.pool||[]).filter(r=>okd(D.docs[r.i]));if(!list.length)return null;
  const qt=toks(P.topic),st=toks(P.soft||"");const qw=new Map();let qwt=0;for(const t of new Set(qt)){const w=idf(t);qw.set(t,w);qwt+=w}for(const t of new Set(st))if(!qw.has(t))qw.set(t,idf(t)*.6);qwt=qwt||1;
