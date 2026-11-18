@@ -46,6 +46,15 @@ The unilateral cleft lip nose has a characteristic deformity. The cleft-side ala
 
 # Diagnosis | Antenatal scan and newborn examination.
 Many clefts are now diagnosed by antenatal ultrasound, which allows the family to be counselled before birth.
+## Investigations: what and when
+!table Cleft lip and palate: investigations
+Role | Test | When and what it shows
+Antenatal | Anomaly scan at 18 to 21 weeks | Cleft lip (isolated cleft palate is usually missed)
+At birth | Examination of the palate by sight and touch (not finger alone) | Cleft palate, submucous cleft
+Every baby | Newborn hearing screen, then audiology and tympanometry through childhood | Otitis media with effusion is almost universal in cleft palate
+Associated anomalies | Genetics review; echocardiogram when indicated; 22q11.2 testing where suspected | Syndromes (Pierre Robin, Van der Woude, 22q11.2)
+Airway (Pierre Robin) | Oximetry and sleep study | Obstruction
+!!
 
 # Subtypes and variants | Describing a cleft.
 A cleft lip is unilateral or bilateral. It is *complete* when it runs through the nasal sill, *incomplete* when the sill is intact, sometimes with a *Simonart band* of tissue bridging the gap, and *microform* when there is only a notch and a muscle gap under intact skin.
@@ -113,6 +122,16 @@ Three kinds of velopharyngeal dysfunction are distinguished. **Insufficiency** i
 The child has *hypernasal* resonance on vowels and voiced oral consonants, while the nasal sounds /m/, /n/ and /ng/ remain normal. *Nasal air emission* and turbulence accompany pressure consonants such as p, b, t, d and s; consonants are weak; *compensatory articulations* such as glottal stops develop; and food and liquid may regurgitate through the nose.
 ## Diagnosis
 A speech and language therapist makes a perceptual assessment, and the velopharynx is imaged during speech by *nasendoscopy*, which shows the size and site of the gap and the closure pattern, and by *multiview videofluoroscopy*. The closure pattern may be coronal (the commonest), sagittal, circular, or circular with a Passavant ridge, and it determines the operation. Before any pharyngeal surgery the child is checked for the 22q11 deletion with *medialised carotids*, ideally by MRA, and for obstructive sleep apnoea.
+### Investigations: what and when
+!table Velopharyngeal dysfunction: investigations
+Role | Test | When and what it shows
+First line | Perceptual speech assessment by a specialist speech and language therapist | Hypernasality, nasal emission, compensatory articulation
+Imaging of closure (from about 3 to 4 years) | Nasendoscopy during speech | Gap size, site and closure pattern
+Imaging of closure | Multiview videofluoroscopy | Velar length and movement in several planes
+Adjunct | Nasometry | Nasalance score
+Before pharyngeal surgery | Sleep history, oximetry or polysomnography; check for medialised carotids (22q11.2 deletion) | OSA risk; vessel injury
+Suspected syndrome | Genetic testing for 22q11.2 deletion | Velocardiofacial syndrome
+!!
 ## Management
 Surgery corrects structure and therapy corrects articulation, so speech therapy alone is used for mislearning and small gaps. For a short palate or malpositioned muscle with a small gap, the palate is re-repaired with a Furlow double-opposing Z-plasty or a radical intravelar veloplasty. Small central gaps can be closed by *augmenting the posterior pharyngeal wall* with fat, implants or fillers, at the risk of migration and extrusion.
 

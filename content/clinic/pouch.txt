@@ -65,6 +65,15 @@ The pouch begins in the midline, lies first behind the oesophagus, then enlarges
 A *barium swallow* shows the sac and its size, best in the lateral view. Endoscopy carries a risk of entering and perforating the sac, but is needed if carcinoma is suspected; nasogastric tubes are passed with care.
 !fig d54-3 | Barium swallow showing an early Zenker's diverticulum (arrow) at the level of the sixth cervical vertebra in a 31-year-old woman.
 !imaging | Zenker diverticulum, oesophageal passage disorders and aspiration.
+### Investigations: what and when
+!table Pharyngeal pouch: investigations
+Role | Test | When and what it shows
+Diagnosis (first line) | Barium swallow, lateral views | Sac at C5–C6 behind the oesophagus; size
+Every patient | Flexible nasendoscopy | Pooling, vocal fold movement
+Suspected carcinoma (bleeding, pain, change in symptoms, irregular sac) | Careful endoscopy of the sac with biopsy | Carcinoma in about 1%
+Aspiration | Chest X-ray | Aspiration pneumonia
+Selected | Videofluoroscopy; manometry | Coexisting swallowing or motility disorder
+!!
 ## Management
 Small asymptomatic pouches can be watched. For symptoms:
 ### Endoscopic
@@ -91,6 +100,14 @@ The upper oesophageal sphincter is formed by the lower inferior constrictor, the
 Videofluoroscopy may show a *cricopharyngeal bar* at C5–C6, but a bar is seen in about a third of people without symptoms, so it must be matched to the complaint. **High-resolution pharyngeal manometry** with videofluoroscopy shows whether the pharynx contracts normally against a high residual sphincter pressure, which predicts benefit from dilatation, botulinum toxin or myotomy.
 ## Management
 Dilatation, botulinum toxin or cricopharyngeal myotomy; myotomy gives the most durable result.
+### Treatment: what and when
+!table Cricopharyngeal dysfunction: treatment
+Step | Treatment and dose | Course and notes
+Every patient | Swallowing therapy with speech and language therapy | 
+Diagnostic or short-term | Botulinum toxin into cricopharyngeus (doses in series about 10 to 100 units) | Weeks to months; can worsen aspiration briefly
+Temporary | Dilatation | 
+Durable | Cricopharyngeal myotomy (endoscopic or open) | Most durable result
+!!
 
 # Tips and links | For the examination and the ward.
 ## Viva essentials

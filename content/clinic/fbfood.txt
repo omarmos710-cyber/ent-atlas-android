@@ -29,6 +29,15 @@ Many fish bones, wood, plastic, aluminium and glass are invisible on X-ray. On t
 !fig d70-1 d70-2 | First, a coin in the upper oesophagus: (A) flat in the PA view, (B) edge-on in the lateral. Second, a fish bone in the cervical oesophagus with a bubble of air (arrow).
 !fig d70-3 | Two metallic foreign bodies: a large ring at the cricopharyngeus and a small piece in the abdomen (arrows).
 !imaging foreign-bodies | Foreign bodies of the food and air passages on imaging.
+## Investigations: what and when
+!table Swallowed foreign bodies: investigations
+Role | Test | When and what it shows
+First (radio-opaque objects) | Plain films: neck (PA and lateral), chest and abdomen; in children mouth to anus | Site; coin orientation; double contour of a button battery
+Fish bone or radiolucent object | Examination under good light, flexible nasendoscopy; then CT of the neck | Bones in the tonsil and tongue base; impacted bones lower down
+Suspected perforation | CT of the neck and chest; water-soluble contrast swallow | Air, collection, leak
+After removal of a food bolus | Oesophageal biopsies | Eosinophilic oesophagitis, stricture, cancer
+Avoid | Barium before endoscopy | Coats the object and mucosa
+!!
 
 # Management | Under direct vision.
 ## Timing
@@ -82,6 +91,14 @@ Once past the oesophagus, most batteries in the stomach pass. They are removed i
 !update Current evidence
 **Button batteries.** Remove within two hours; honey or sucralfate while waiting, in children over one year who swallowed it within 12 hours (Mubarak et al., *J Pediatr Gastroenterol Nutr* 2021). The honey dose is 10 ml every ten minutes, up to six doses; it reduced injury in animal studies (Anfang et al., *Laryngoscope* 2019), but a systematic review found the human evidence limited (Schmidt et al., *Front Pediatr* 2023).
 !!
+### Drugs and doses
+!table Button battery in the oesophagus: drugs and doses
+Step | Drug and dose | Course and notes
+On the way to theatre (child over 1 year, swallowed within 12 hours) | Honey 10 ml by mouth every 10 minutes, up to 6 doses; or sucralfate suspension 1 g (10 ml) every 10 minutes, up to 3 doses | Must not delay removal
+In theatre after removal (selected units) | Irrigation of the burn with 0.25% sterile acetic acid (50 to 150 ml) | Neutralises residual alkali
+After removal | Nil by mouth, IV fluids; contrast study or CT before feeding when the burn is deep | Watch for fistula or aortic erosion for weeks
+!!
+Based on the NASPGHAN and ESPGHAN position papers (Mubarak et al., *J Pediatr Gastroenterol Nutr* 2021) and the National Capital Poison Center guideline.
 ## Complications
 Late complications include tracheo-oesophageal fistula, mediastinitis, stricture, vocal fold palsy and an *aorto-oesophageal fistula with fatal haemorrhage*, which can appear days or weeks later.
 
@@ -134,3 +151,6 @@ If the patient can swallow saliva and is comfortable, a short wait may allow the
 - Mubarak et al., *J Pediatr Gastroenterol Nutr* 2021: ESPGHAN position paper on button batteries.
 - Anfang et al., *Laryngoscope* 2019: honey and sucralfate in button battery injury.
 - Schmidt et al., *Front Pediatr* 2023: systematic review of honey for button battery ingestion.
+## Guidelines and dosing
+- Mubarak et al., *J Pediatr Gastroenterol Nutr* 2021: NASPGHAN and ESPGHAN position paper on button battery ingestion.
+- Birk et al., *Endoscopy* 2016: ESGE guideline on removal of foreign bodies in the upper gastrointestinal tract.

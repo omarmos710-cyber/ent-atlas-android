@@ -35,6 +35,16 @@ Diphtheria with antitoxin and penicillin or erythromycin ([[t:tonsil]]); gonococ
 !update Current evidence
 **Who needs an antibiotic.** NICE (NG84, 2018) uses FeverPAIN or Centor scores: FeverPAIN 0 to 1 or Centor 0 to 2, no antibiotic; FeverPAIN 2 to 3, consider no or a back-up prescription; FeverPAIN 4 to 5 or Centor 3 to 4, consider an immediate antibiotic, phenoxymethylpenicillin for five to ten days. The American guideline recommends a rapid antigen test or culture before treating, and penicillin or amoxicillin for ten days for confirmed group A streptococcus (Shulman et al., *Clin Infect Dis* 2012). **Benefit.** A Cochrane review found that antibiotics shorten symptoms by about 16 hours on average and reduce suppurative complications and rheumatic fever, but the absolute benefit is small in high-income settings (Spinks et al., 2021). **Course length.** In a Swedish trial, penicillin V four times daily for five days was non-inferior to three times daily for ten days in confirmed streptococcal pharyngotonsillitis (Skoog Ståhlgren et al., *BMJ* 2019). **Steroids.** In the TOAST trial, a single 10 mg dose of oral dexamethasone did not increase complete resolution at 24 hours but did at 48 hours (Hayward et al., *JAMA* 2017).
 !!
+### Drugs and doses
+!table Acute pharyngitis: drugs and doses
+Step | Drug and dose | Course and notes
+Every patient | Paracetamol or ibuprofen; saline gargles; medicated lozenges (flurbiprofen 8.75 mg) in adults | 
+Antibiotic indicated (FeverPAIN 4 to 5) | Phenoxymethylpenicillin 500 mg four times a day or 1 g twice a day (children by age) | 5 to 10 days
+Penicillin allergy | Clarithromycin 250 to 500 mg twice a day; erythromycin in pregnancy | 5 days
+Severe pain (selected adults) | Dexamethasone single dose (10 mg orally in trials) | Modest benefit; not routine in NICE
+Gonococcal pharyngitis | Ceftriaxone 1 g IM single dose (BASHH) | Test of cure; partner notification
+!!
+Doses from NICE NG84, BASHH gonorrhoea guidance and the BNF.
 ## Complications
 !pearl Why group A streptococcus matters
 It is the cause of rheumatic fever and post-streptococcal glomerulonephritis, and of peritonsillar abscess and scarlet fever. Most of the reasoning about swabs and antibiotics is about finding it.
@@ -45,11 +55,28 @@ It is the cause of rheumatic fever and post-streptococcal glomerulonephritis, an
 Epstein–Barr virus in older children and young adults: fever, severe sore throat with a grey-white membranous exudate on the tonsils, palatal petechiae, large posterior as well as anterior cervical nodes, splenomegaly and hepatitis.
 ## Diagnosis
 Atypical lymphocytes on the film and a positive Monospot (heterophile) test, or EBV serology, confirm it.
+### Investigations: what and when
+!table Glandular fever: investigations
+Role | Test | When and what it shows
+First line | Full blood count and film; heterophile antibody (Monospot) | Atypical lymphocytes; positive test (often negative in the first week and in young children)
+Confirmation | EBV serology (VCA IgM, EBNA IgG) | Acute infection
+Every patient | Liver function | Transaminitis
+Admitted or airway concern | Flexible nasendoscopy | Airway
+!!
 ## Management and complications
 !flag Glandular fever: three cautions
 - **Amoxicillin or ampicillin** produces a widespread rash in most patients; avoid them.
 - **Airway:** massive tonsillar enlargement can obstruct breathing; steroids, and rarely a nasopharyngeal airway or tonsillectomy.
 - **Spleen:** avoid contact sports for several weeks because of the risk of rupture.
+!!
+### Drugs and doses
+!table Glandular fever: treatment
+Step | Treatment | Course and notes
+Every patient | Paracetamol or ibuprofen, fluids, rest | Fatigue may last weeks
+Avoid | Amoxicillin and ampicillin | Rash in most
+Threatened airway or severe tonsillar swelling | Corticosteroid (for example dexamethasone or prednisolone short course) with admission | Not for routine use
+Every patient | No contact sport for at least 3 to 4 weeks (longer with splenomegaly) | Splenic rupture
+Antivirals | Not recommended | No benefit
 !!
 
 # Other viral pharyngitis {dz} | Recognisable patterns.
@@ -62,6 +89,14 @@ Atypical lymphocytes on the film and a positive Monospot (heterophile) test, or 
 
 # Candida {dz} | Oropharyngeal thrush.
 Oropharyngeal thrush extending from the mouth in the immunosuppressed, debilitated, diabetic or those on steroids, inhaled steroids or antibiotics: pain and dysphagia with white plaques; hyphae on microscopy. Nystatin, clotrimazole, fluconazole or itraconazole.
+## Drugs and doses
+!table Oropharyngeal candidiasis: drugs and doses
+Step | Drug and dose | Course and notes
+Mild (adults and children over 4 months) | Miconazole oral gel 2.5 ml four times a day after food; or nystatin suspension 100,000 units/ml, 1 ml four times a day | 7 days, continued 2 days after healing; miconazole interacts with warfarin
+Extensive or immunocompromised | Fluconazole 50 to 100 mg daily (up to 200 to 400 mg in severe disease) | 7 to 14 days
+Inhaled steroids | Spacer and mouth rinse after use | Prevention
+!!
+Doses from NICE CKS Candida (oral) and the BNF.
 
 # Quincke disease {dz} | The swollen uvula.
 Acute swelling of the uvula, with bacterial tonsillitis or after trauma (thermal burns, heavy snoring).
@@ -76,6 +111,15 @@ Adrenaline, steroids and antihistamines for allergy; stop the ACE inhibitor; C1 
 !flag Airway warning signs
 Drooling, inability to swallow saliva, a muffled voice, stridor or a patient who must sit up and lean forward: do not lie them down or examine with a tongue depressor; call for senior airway help.
 !!
+### Drugs and doses
+!table Angioedema: drugs and doses
+Type | Drug and dose | Course and notes
+Anaphylaxis or allergic angioedema with airway compromise | Adrenaline 1:1000 IM into the thigh: adults and over 12 years 500 micrograms (0.5 ml); 6 to 12 years 300 micrograms; 6 months to 6 years 150 micrograms; under 6 months 100 to 150 micrograms | Repeat after 5 minutes if needed; nebulised adrenaline for upper airway oedema
+Allergic, after adrenaline | Non-sedating antihistamine; corticosteroid only for persistent symptoms | 
+ACE inhibitor angioedema | Stop the ACE inhibitor for life; secure the airway; icatibant or C1 inhibitor are sometimes used (limited evidence) | Antihistamines and steroids work poorly
+Hereditary (C1 inhibitor deficiency) attack | C1 inhibitor concentrate (for example 20 units/kg IV) or icatibant 30 mg SC | Repeat icatibant after 6 hours if needed
+!!
+Doses from the Resuscitation Council UK anaphylaxis guideline (2021), the BNF and the international hereditary angioedema guideline (Maurer et al., *Allergy* 2022).
 
 # Chronic pharyngitis {dz} | The irritated throat.
 ## Etiology
@@ -127,6 +171,15 @@ Symptomatic processes are shortened through the tonsillar fossa or through the n
 Brief, severe, electric pain in the tonsil, tongue base and ear, triggered by swallowing or yawning.
 ## Management
 Carbamazepine, and microvascular decompression for resistant cases.
+### Drugs and doses
+!table Glossopharyngeal neuralgia: drugs and doses
+Step | Drug and dose | Course and notes
+First line | Carbamazepine 100 mg once or twice a day, increased slowly to usually 200 mg three or four times a day | HLA-B*1502 testing in patients of Han Chinese or Thai origin; blood count, sodium, liver function
+Alternative | Oxcarbazepine, gabapentin or pregabalin | 
+Every patient | MRI of the posterior fossa and neck | Exclude tumour and vascular compression
+Refractory | Microvascular decompression | 
+!!
+Doses from the BNF (neuralgia).
 
 # Globus {dz} | A lump feeling between meals.
 A persistent lump feeling in the throat between meals, with normal swallowing of food. Examine fully and endoscopically; reflux and anxiety are common associations ([[t:pouch]] covers dysphagia), and red flags (pain, dysphagia, weight loss, voice change, neck mass) call for investigation.
@@ -164,3 +217,9 @@ A persistent lump feeling in the throat between meals, with normal swallowing of
 - Spinks et al., *Cochrane Database Syst Rev* 2021: antibiotics for sore throat.
 - Skoog Ståhlgren et al., *BMJ* 2019: five versus ten days of penicillin V.
 - Hayward et al., *JAMA* 2017: the TOAST trial of dexamethasone.
+## Guidelines and dosing
+- NICE NG84: Sore throat (acute): antimicrobial prescribing.
+- NICE CKS: Candida, oral.
+- Resuscitation Council UK 2021: emergency treatment of anaphylaxis.
+- Maurer et al., *Allergy* 2022: international guideline for hereditary angioedema.
+- BNF: phenoxymethylpenicillin, clarithromycin, miconazole, nystatin, fluconazole, adrenaline, icatibant, carbamazepine.

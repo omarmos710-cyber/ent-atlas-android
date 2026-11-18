@@ -42,6 +42,17 @@ Usually mixed aerobic and anaerobic mouth flora: viridans and group A streptococ
 - **Examination:** the teeth, floor of mouth, tonsils and posterior wall; trismus; crepitus (gas-forming organisms); cranial nerves; and *flexible endoscopy of the airway* whenever there is voice change, dyspnoea, stridor or unexplained dysphagia. Oxygen saturation can be normal with a critical airway.
 - **Blood:** count, glucose, renal function, cultures.
 - **Imaging:** contrast-enhanced CT is the key study, showing which spaces are involved, abscess against phlegmon, and spread to the mediastinum; clinical examination alone misjudges the spaces in many cases. Lateral neck radiographs show prevertebral swelling (over about 7 mm at C2 in adults, or more than half a vertebral body in children); chest radiographs for mediastinitis and aspiration; ultrasound in children and for guided aspiration; MRI and MR angiography for intracranial or vascular complications.
+## Investigations: what and when
+!table Deep neck infection: investigations
+Role | Test | When and what it shows
+Airway (first, if voice change, stridor or drooling) | Flexible nasendoscopy | Laryngeal and pharyngeal oedema; plan to secure the airway
+Every patient | Full blood count, CRP, glucose (and HbA1c), renal function, blood cultures | Sepsis, diabetes
+Imaging of choice | Contrast-enhanced CT of the neck (and upper chest if spread is possible) | Spaces involved, abscess versus phlegmon, gas, mediastinitis, jugular thrombosis
+Children, superficial collections | Ultrasound | Fluid; guides aspiration
+Child with neck stiffness | Lateral soft tissue neck X-ray (neck extended) | Widened prevertebral space
+Definitive organism | Pus from aspiration or drainage for culture (aerobic, anaerobic, fungal, mycobacterial if chronic) | Guides final antibiotic
+Dental source | Orthopantomogram | Infected tooth
+!!
 
 # Management | General principles.
 1. **Airway first.** Sit the patient up, give humidified oxygen; steroids and nebulised adrenaline buy time. If the airway is narrowed by more than half, secure it by awake fibreoptic intubation or tracheostomy under local anaesthesia; never paralyse a patient whose airway you cannot see.
@@ -56,6 +67,18 @@ Ultrasound- or CT-guided needle aspiration, repeated if needed, suits a single u
 !update Current evidence
 A systematic review of 60 studies of deep neck infection in adults found contrast CT used for diagnosis in 78% and open drainage as the usual treatment, with almost no randomised evidence (Sheikh et al., *Clin Otolaryngol* 2023). In children, pooled studies suggest antibiotics alone may safely treat selected deep neck abscesses, although the evidence is weak (Carbone et al., *Int J Pediatr Otorhinolaryngol* 2012). In a meta-analysis of 20 studies, diabetes doubled the risk of multi-space spread (risk ratio 1.96) and complications (2.42), with more *Klebsiella* and fewer streptococci and anaerobes (Hidaka et al., *Head Neck* 2015).
 !!
+## Drugs and doses
+!table Deep neck infection: drugs and doses (empirical)
+Patient | Drug and dose | Course and notes
+Adults | Co-amoxiclav 1.2 g IV every 8 hours; or ceftriaxone 2 g IV daily with metronidazole 500 mg IV every 8 hours | Change to culture; oral step-down when improving; often 10 to 14 days in total
+Penicillin allergy | Clindamycin 600 to 900 mg IV every 8 hours (with ciprofloxacin or gentamicin if Gram-negative cover is needed) per local policy | 
+MRSA risk | Add vancomycin (dose by level) | 
+Children | Co-amoxiclav 30 mg/kg IV every 8 hours (maximum 1.2 g); or ceftriaxone 50 to 80 mg/kg daily with metronidazole | 
+Diabetes or necrotising infection | Broaden cover (for example piperacillin–tazobactam 4.5 g every 8 hours); tight glucose control | *Klebsiella* is common
+Airway oedema | Dexamethasone (for example 8 mg IV every 8 hours in adults) and nebulised adrenaline 1:1000 (5 ml) while the airway is secured | Buys time only
+Tuberculous abscess | Standard antituberculous therapy | 6 months or more if spine involved
+!!
+Doses from the BNF and BNF for Children and NHS ENT antimicrobial guidance; evidence for regimens is observational.
 
 # Complications | What kills.
 ## Mediastinitis
@@ -190,3 +213,5 @@ Drained through an incision lateral to the retromolar trigone, or above the zygo
 - Sheikh et al., *Clin Otolaryngol* 2023: systematic review of deep neck infection in adults.
 - Carbone et al., *Int J Pediatr Otorhinolaryngol* 2012: antibiotics alone in children.
 - Hidaka et al., *Head Neck* 2015: diabetes and deep neck infection.
+## Guidelines and dosing
+- BNF and BNF for Children: co-amoxiclav, ceftriaxone, metronidazole, clindamycin, piperacillin–tazobactam, dexamethasone, adrenaline.

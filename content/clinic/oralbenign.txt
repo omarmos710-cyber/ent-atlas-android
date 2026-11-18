@@ -104,6 +104,15 @@ Vitamin A, beta-carotene, vitamin E and retinoids such as 13-cis-retinoic acid c
 !update Current evidence
 **Malignant transformation.** A meta-analysis of potentially malignant oral disorders found transformation rates of about 1.4% for lichen planus, 5% for submucous fibrosis, 9.5% for leukoplakia, 33% for erythroplakia and 50% for proliferative verrucous leukoplakia, with moderate or severe dysplasia carrying a much higher risk than mild (Iocca et al., *Head Neck* 2020). **Terminology.** A 2020 WHO workshop updated the list and definitions of oral potentially malignant disorders and recommended biopsy of any lesion that cannot be explained, with lifelong review (Warnakulasuriya et al., *Oral Dis* 2021). **Management.** Stopping tobacco, areca nut and alcohol is the most effective measure; excision of dysplastic lesions has not been shown in trials to prevent cancer, so surveillance continues after removal.
 !!
+### Investigations: what and when
+!table Leukoplakia and erythroplakia: investigations
+Role | Test | When and what it shows
+First | Remove irritants, treat candida (for example miconazole gel), review in 2 to 3 weeks | Reactive lesions regress
+Gold standard | Incisional biopsy from the reddest, most nodular or indurated area | Grade of dysplasia; carcinoma
+Large or multifocal lesions | Mapping biopsies | Worst area
+Adjuncts | Toluidine blue, autofluorescence, brush cytology | Help choose the biopsy site; never replace it
+Follow-up | Clinical photographs at each review | Change over time
+!!
 ## Prognosis: malignant potential
 About a quarter show some dysplasia, and the higher the grade the greater the risk. Quoted rates of malignant change range from under 1% to 17.5%, averaging about 5% in older series and about 9.5% in a recent meta-analysis (see Current evidence); speckled, erosive and verrucous forms, the floor of mouth and ventral tongue, and long follow-up carry the highest risk.
 

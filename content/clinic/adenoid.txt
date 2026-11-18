@@ -49,6 +49,16 @@ A large adenoid in a large nasopharynx may cause no symptoms; a modest one in a 
 !fig d48-4 | Enlarged adenoids (arrows) on a lateral radiograph of a seven-year-old girl, leaving very little airway.
 !anat s208_22 | Endoscopic grading of adenoids.
 !imaging adenoid-hypertrophy | Adenoid hypertrophy on imaging.
+## Investigations: what and when
+!table Adenoid hypertrophy: investigations
+Role | Test | When and what it shows
+First line (best view) | Flexible nasendoscopy | Size (grading by choanal obstruction), choanae, tubal openings
+Child will not tolerate a scope | Lateral soft tissue radiograph of the nasopharynx | Adenoid–nasopharynx ratio
+Ears | Tympanometry and age-appropriate audiometry | Otitis media with effusion
+Sleep-disordered breathing, uncertain severity or high risk | Overnight oximetry or polysomnography | Obstructive sleep apnoea
+Before surgery | Palate examination (bifid uvula, notch, zona pellucida) | Submucous cleft: avoid adenoidectomy
+Adult with nasopharyngeal mass | Biopsy | Nasopharyngeal carcinoma, lymphoma
+!!
 
 # Differential diagnosis | Not every nasopharyngeal mass is adenoid.
 !flag The adult with a one-sided nasopharyngeal problem
@@ -58,6 +68,17 @@ An adult with unilateral otitis media with effusion, a nasopharyngeal mass or a 
 # Management | Medical first, then the curette.
 ## Medical
 For milder symptoms: intranasal steroid sprays, with montelukast in some children, treatment of allergy, saline and decongestant drops for short periods, and breathing exercises. Many children improve as the adenoid regresses.
+### Drugs and doses
+!table Adenoid hypertrophy: drugs and doses
+Step | Drug and dose | Course and notes
+Mild to moderate symptoms (first line) | Intranasal steroid: mometasone 50 micrograms, 1 spray each nostril once daily (3 to 11 years); or fluticasone propionate 1 spray each nostril once daily (4 to 11 years) | Trial of 6 to 12 weeks; continue if it helps
+Allergy as well | Non-sedating antihistamine by age; allergen avoidance | 
+Adjunct in some children | Montelukast at night (2 to 5 years 4 mg, 6 to 14 years 5 mg) | Watch for sleep and mood changes (MHRA)
+Every patient | Saline drops or rinses | 
+Short-term blockage | Decongestant drops for a few days only (xylometazoline 0.05% from 6 years) | No more than 5 to 7 days
+Marked symptoms, sleep-disordered breathing, OME with adenoid | Adenoidectomy | 
+!!
+Doses from the BNF for Children; a Cochrane review supports intranasal steroids for symptoms of adenoid hypertrophy in the short term.
 ## Adenoidectomy
 For marked symptoms. The traditional indications:
 - Adenoid hypertrophy causing snoring, mouth breathing, sleep apnoea ([[t:osa]]) or hyponasal speech.
@@ -151,3 +172,6 @@ Antibiotics, then marsupialisation and removal of the lining. Asymptomatic Thorn
 - Boonacker et al., *Health Technol Assess* 2014: adenoidectomy for otitis media, individual patient data meta-analysis.
 - NICE guideline NG233 (2023): otitis media with effusion.
 - Chadha et al., *Cochrane Database Syst Rev* 2009: intranasal steroids for adenoid hypertrophy.
+## Guidelines and dosing
+- Chadha et al., *Cochrane Database Syst Rev* 2010: intranasal corticosteroids for adenoid hypertrophy.
+- BNF for Children: mometasone, fluticasone, montelukast, xylometazoline.

@@ -41,6 +41,17 @@ T4a | Invades through cortical bone of mandible or maxilla, into the maxillary s
 T4b | Invades masticator space, pterygoid plates or skull base, or encases the internal carotid artery
 !!
 Superficial erosion of a tooth socket by a gingival primary is not enough to make a tumour T4. **Extranodal extension** now upstages nodal disease, clinically when obvious and pathologically on the specimen.
+## Investigations: what and when
+!table Oral cancer: investigations
+Role | Test | When and what it shows
+Diagnosis (gold standard) | Incisional biopsy of the most suspicious area (urgent referral, NICE NG12) | Squamous cell carcinoma; depth of invasion on excision
+Extent | Examination under anaesthesia | Size, spread, second primaries
+Soft tissue, depth and marrow | MRI (or contrast CT) of primary and neck | Depth of invasion, perineural spread, nodes
+Bone | CT and orthopantomogram | Cortical erosion; dental state; mandibulectomy planning
+Neck | Ultrasound with FNA of suspicious nodes | Nodal disease
+Distant and second primaries | CT chest, or PET-CT for advanced disease | 
+Before treatment | Dental assessment; nutrition and swallowing assessment | Extractions before radiotherapy
+!!
 
 # Management | Surgery first for most.
 !path The suspicious oral lesion
@@ -63,6 +74,15 @@ Postoperative **radiotherapy** is given for pT3–T4 tumours, multiple or level 
 !update Current evidence
 In 500 patients with node-negative early oral cancer, elective neck dissection improved three-year overall survival compared with watchful waiting and therapeutic dissection (80.0% vs 67.5%) (D'Cruz et al., *N Engl J Med* 2015). A meta-analysis of three randomised trials (608 patients) found sentinel node biopsy gave survival and neck control similar to elective neck dissection, with better neck and shoulder function (Gupta et al., *Oral Oncol* 2022). The AJCC eighth edition incorporates depth of invasion into T staging because it predicts nodal spread better than surface size.
 !!
+### Treatment regimens
+!table Head and neck squamous cancer: radiotherapy and drug regimens
+Setting | Regimen | Notes
+Postoperative, intermediate risk (pT3–4, multiple nodes, close margins, PNI, LVI) | Radiotherapy about 60 Gy in 30 fractions (up to 66 Gy for high-risk areas) | Start within about 6 weeks of surgery
+Postoperative, involved margin or extranodal extension | Radiotherapy 60 to 66 Gy with concurrent cisplatin 100 mg/m² on days 1, 22 and 43 (or 40 mg/m² weekly) | Audiogram, renal function, hydration
+Cisplatin unsuitable | Radiotherapy alone, or with cetuximab (400 mg/m² loading, then 250 mg/m² weekly) in selected patients | Cetuximab is inferior to cisplatin in HPV-positive oropharyngeal cancer
+Recurrent or metastatic, PD-L1 positive (CPS 1 or more) | Pembrolizumab 200 mg every 3 weeks (or 400 mg every 6 weeks), alone or with platinum and 5-fluorouracil | KEYNOTE-048; NICE TA661
+!!
+Regimens from the UK national multidisciplinary head and neck cancer guidelines (Homer et al., *J Laryngol Otol* 2016), the EORTC 22931 and RTOG 9501 trials, NCCN head and neck guidelines and KEYNOTE-048 (Burtness et al., *Lancet* 2019).
 
 # Complications | After treatment.
 Haemorrhage, infection (more after reconstruction, in drinkers and with tracheostomy), seroma and chyle leak follow neck surgery; marginal mandibular and accessory nerve weakness are recognised risks. **Carotid blowout** is rare after primary surgery but feared in irradiated and recurrent necks, especially with salivary fistula or flap necrosis. Radiotherapy causes dry mouth, dental decay, trismus and osteoradionecrosis, so lifelong dental care and jaw exercises matter.
@@ -85,6 +105,14 @@ In 2005 the WHO replaced "precancer" with **oral potentially malignant disorders
 !fig d44-7 d44-8 | First, leukoplakia of the cheek after pan and tobacco use. Second, leukoplakia on the lateral border of the tongue.
 ## Diagnosis
 Inspect and palpate the whole mouth, note size, colour, texture and induration, examine the neck, remove irritants (a sharp tooth, a denture), treat candida, and review in two to three weeks. Any lesion that persists is **biopsied**, taking the reddest, most indurated or most irregular part; histology grades dysplasia as mild, moderate or severe. Adjuncts such as toluidine blue or Lugol's iodine staining, autofluorescence and narrow-band imaging help choose biopsy sites and map margins, but none replaces a biopsy.
+### Investigations: what and when
+!table Oral potentially malignant disorders: investigations
+Role | Test | When and what it shows
+First | Remove irritants, treat candida, review in 2 to 3 weeks | Many reactive lesions settle
+Every persistent lesion (gold standard) | Incisional biopsy of the most suspicious (red, ulcerated, indurated) area | Grade of dysplasia
+Large or multiple lesions | Mapping biopsies | Worst area
+Adjuncts | Toluidine blue, autofluorescence, brush cytology | Do not replace biopsy
+!!
 ## Management
 Stop tobacco, alcohol and areca nut. Moderate and severe dysplasia, erythroplakia and accessible high-risk lesions are excised, usually with a laser or scalpel, and all patients are followed long term, because new lesions and cancers arise elsewhere in the mouth (field change).
 
@@ -117,3 +145,8 @@ Stop tobacco, alcohol and areca nut. Moderate and severe dysplasia, erythroplaki
 ## Studies cited
 - D'Cruz et al., *N Engl J Med* 2015: elective versus therapeutic neck dissection.
 - Gupta et al., *Oral Oncol* 2022: sentinel node biopsy meta-analysis.
+## Guidelines and dosing
+- Homer et al., *J Laryngol Otol* 2016: UK national multidisciplinary guidelines, head and neck cancer.
+- Bernier et al., *N Engl J Med* 2004 and Cooper et al., *N Engl J Med* 2004: postoperative chemoradiotherapy (EORTC 22931 and RTOG 9501).
+- Burtness et al., *Lancet* 2019: KEYNOTE-048.
+- NICE TA661: Pembrolizumab for untreated metastatic or unresectable recurrent head and neck squamous cell carcinoma.

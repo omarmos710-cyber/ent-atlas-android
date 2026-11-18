@@ -77,6 +77,18 @@ A baseline *audiogram* (radiation and cisplatin both damage hearing), dental ass
 !update Current evidence
 Screening 20,174 men in Hong Kong with plasma EBV DNA detected nasopharyngeal carcinoma earlier, with a sensitivity of 97.1% and specificity of 98.6% (Chan et al., *N Engl J Med* 2017).
 !!
+## Investigations: what and when
+!table Nasopharyngeal carcinoma: investigations
+Role | Test | When and what it shows
+First (clinic) | Flexible or rigid nasendoscopy | Lesion in the fossa of Rosenmüller or elsewhere
+Diagnosis (gold standard) | Endoscopic biopsy, with EBV-encoded RNA (EBER) staining; blind or MRI-guided biopsies if nothing is seen | Histology (WHO type)
+Neck node first | Ultrasound-guided FNA or core biopsy with EBER; avoid open biopsy | Metastatic undifferentiated carcinoma
+Local extent | MRI of the nasopharynx, skull base and neck | Parapharyngeal, perineural, intracranial spread; nodes
+Bone | CT of the skull base | Erosion
+Distant spread | PET-CT (chest and abdomen imaging if unavailable) | Metastases
+Baseline and monitoring | Plasma EBV DNA | Prognosis; response and relapse
+Before treatment | Audiogram, dental assessment, renal function, thyroid function | Cisplatin and radiotherapy toxicity
+!!
 
 # Differential diagnosis | Tumours of the nasopharynx.
 !table Tumours of the nasopharynx
@@ -116,6 +128,16 @@ The nasopharynx is hard to reach surgically, and these tumours are radiosensitiv
 - **Stage II to IVA:** concurrent chemoradiation with cisplatin, which improves survival over radiotherapy alone; the cumulative cisplatin dose matters more than the schedule, with about 200 mg/m² as the effective threshold (160 mg/m² after induction). **Induction gemcitabine and cisplatin** before chemoradiotherapy improves survival in high-risk patients, and **adjuvant metronomic capecitabine** improves failure-free survival in high-risk disease.
 - **Intensity-modulated radiotherapy (IMRT)** delivers a high dose to the tumour while sparing the brainstem, spinal cord, optic apparatus, temporal lobes, cochleae and parotids. Proton and carbon-ion therapy have dosimetric advantages without proven better outcomes yet.
 - **Metastatic disease:** platinum-based chemotherapy, now with immunotherapy, and local treatment in selected cases.
+### Drugs and doses
+!table Nasopharyngeal carcinoma: treatment regimens
+Stage | Treatment and dose | Notes
+Stage I | IMRT alone, about 70 Gy in 33 to 35 fractions to the primary, with elective neck irradiation | 
+Stage II (selected) to IVA | IMRT 70 Gy with concurrent cisplatin 100 mg/m² every 3 weeks (or 40 mg/m² weekly) | Aim for a cumulative cisplatin dose of at least 200 mg/m²
+Locoregionally advanced (III to IVA) | Induction gemcitabine 1 g/m² on days 1 and 8 with cisplatin 80 mg/m² on day 1, every 3 weeks for 3 cycles, then chemoradiotherapy | Better survival in a phase 3 trial (Zhang et al., *N Engl J Med* 2019)
+Recurrent or metastatic | Gemcitabine with cisplatin plus a PD-1 inhibitor (for example toripalimab or camrelizumab) | First line
+Cisplatin unsuitable (renal impairment, hearing loss) | Carboplatin or nedaplatin per oncology | 
+!!
+Doses from the trials cited and the ESMO–EURACAN guideline for nasopharyngeal carcinoma (Bossi et al., *Ann Oncol* 2021).
 ## Residual and recurrent disease
 - **Neck:** persistent or recurrent nodes after radiation are treated by neck dissection. Older texts advise a radical dissection because disease is often more extensive than it seems; current practice is a comprehensive (modified radical) dissection, sacrificing structures only where tumour involves them.
 - **Nasopharynx:** after restaging with MRI and PET-CT, resectable recurrences are treated by *nasopharyngectomy*; in a randomised trial from China, endoscopic nasopharyngectomy gave better overall survival and fewer severe late effects than re-irradiation with IMRT (Liu et al., *Lancet Oncol* 2021). Approaches are endoscopic for limited central tumours, or open through a maxillary swing, transpalatal, Le Fort I, midfacial degloving or infratemporal fossa approach. Extension around the internal carotid, intracranially or widely into the parapharyngeal space contraindicates surgery.
@@ -163,3 +185,6 @@ With concurrent chemoradiation, local and regional control is about 70 to 80% an
 - Chen et al., *Lancet* 2021: adjuvant metronomic capecitabine.
 - Chan et al., *N Engl J Med* 2017: plasma EBV DNA screening.
 - Liu et al., *Lancet Oncol* 2021: endoscopic nasopharyngectomy versus re-irradiation.
+## Guidelines and dosing
+- Bossi et al., *Ann Oncol* 2021: ESMO–EURACAN guideline for nasopharyngeal carcinoma.
+- Zhang et al., *N Engl J Med* 2019: induction gemcitabine and cisplatin in nasopharyngeal carcinoma.
