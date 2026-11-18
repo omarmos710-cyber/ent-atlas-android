@@ -14,7 +14,8 @@ const WWW = path.join(__dirname, "../app/src/main/assets/www/");
 const S = require(WWW + "search/xsmart.js");
 const { HS, XREF, tidy, fold } = S._x;
 const lj = (f, a, b) => { const s = fs.readFileSync(WWW + f, "utf8"); return JSON.parse(s.slice(s.indexOf(a), s.lastIndexOf(b) + 1)) };
-const X = lj("search/full.js", "[", "]");
+/* the sections in the order the app gives them to the smart search: articles, the question bank, then the anatomy atlas and imaging cases */
+const X = lj("search/full.js", "[", "]").concat(lj("search/sm_q.js", "[", "]"), fs.existsSync(WWW + "search/sm_atlas.js") ? lj("search/sm_atlas.js", "[", "]") : []);
 const ASP = S.ASPECTS, AID = ASP.map(a => a.id);
 
 /* curated files */
@@ -38,6 +39,8 @@ for (const f of fs.readdirSync(CLIN).filter(f => f.endsWith(".txt"))) {
   if (!/^@layout amboss/m.test(txt)) continue;
   DZ["cl:t-" + id] = [...txt.matchAll(/^# (.+?) \{dz\}/gm)].map(m => m[1].trim());
 }
+/* imaging cases ("cond:<id>"): every line answers imaging (investigation) of the condition the case is about */
+for (const x of X) if (x[0] === "cond") { const r = x[1].split("~")[0]; if (!ART[r]) ART[r] = { a: { "*": "dx" }, auto: x[2] } }
 let warn = 0;
 for (const [r, a] of Object.entries(ART)) for (const v of [a.e, ...Object.values(a.c || {}), ...Object.values(a.s || {})])
   if (v && v !== "-" && !EID.has(v)) { console.log("answer map: unknown entity", v, "in", r); warn++ }
@@ -71,6 +74,15 @@ mkAli();
     }
   }
   mkAli(); console.log("answer map: " + made + " conditions added from disease chapters") }
+/* imaging cases: the condition their title names, or a new one named by the title */
+{ let made = 0;
+  for (const [r, A] of Object.entries(ART)) { if (!A.auto) continue;
+    const t = A.auto, base = t.replace(/\s*\([^)]*\)/g, "").replace(/,.*$/, "").trim();
+    const m = match(base, .6); if (m >= 0) { A.e = ENT[m].id; continue }
+    const id = "ic_" + (++made); EID.set(id, ENT.length);
+    const aka = [...new Set([t, base].map(x => x.toLowerCase()).filter(x => S.toks(x).length && match(x, .99) < 0))];
+    ENT.push({ id, name: t, aka }); A.e = id; mkAli() }
+  console.log("answer map: " + made + " conditions added from imaging cases") }
 { const seen = new Map(); for (const a of ALI) { const k = a.t.slice().sort().join(" "); const o = seen.get(k); if (o !== undefined && o !== a.i) { console.log("answer map: alias", JSON.stringify(k), "is used by", ENT[o].id, "and", ENT[a.i].id); warn++ } else seen.set(k, a.i) } }
 function match(text, minCover) {
   const t = S.toks(text); if (!t.length) return -1; const set = new Set(t);
@@ -87,8 +99,11 @@ const strip = t => t.replace(/^[\d.]+\s+/, "").trim();
 const AMB = [[/^summary\b/, "def"], [/\bdifferential\b/, "ddx"], [/^contra-?indications?\b/, "ci"], [/^(etiology|aetiology|pathophysiology|pathology|pathogenesis)\b/, "why"], [/^subtypes?\b/, "cls"], [/^prognosis\b/, "px"], [/^complications?\b/, "cx"], [/^management\b/, "tx"], [/^diagnosis\b/, "dx"], [/^clinical features\b/, "cf"], [/^applied anatomy\b/, "an"]];
 const aspOf = (h, strict) => { const f = fold(h); if (/stage by stage|step by step|\btechnique\b|\bsteps\b|^the operation\b/.test(f)) return "how"; for (const [re, a] of AMB) if (re.test(f)) return a; for (const a of ASP) if ((strict ? HS(a) : a.h).test(f)) return a.id; return null };
 /* "Etiology and clinical features", "Diagnosis and management": every aspect a compound heading names */
-const aspsOf = h => { const f = fold(h).replace(/:.*$/, ""); const parts = f.split(/\s+and\s+|,\s*/).map(x => x.trim()).filter(Boolean); if (parts.length < 2) return []; return [...new Set(parts.map(x => aspOf(x, true)).filter(Boolean))] };
+const aspsOf = h => { const f = fold(h); const parts = f.split(/\s+and\s+|,\s*|:\s*/).map(x => x.trim().replace(/^the\s+/, "")).filter(Boolean); if (parts.length < 2) return []; return [...new Set(parts.map(x => aspOf(x, true)).filter(Boolean))] };
 const NOSUB = new Set(["cf", "dx", "an"]);
+const ANATF = new Set(["nerve", "blood", "lymph", "bound", "cont", "rel", "musc", "parts", "branch", "course", "dev"]);
+/* rows of a summary table name what they answer: "Adult dose", "Avoid", "Pregnancy", "Position" */
+const ROWA = [[/^(adult |child |children's |maximum |usual |paediatric )?doses?\b|^dosage|^duration|^regimen/i, "dose"], [/^(avoid|contra-?indications?|cautions?)\b/i, "ci"], [/^pregnan|^breast/i, "preg"], [/^(how it works|mechanism)/i, "mech"], [/^spectrum/i, "spec"], [/^(ent uses|uses|indications?)\b/i, "ind"], [/^class\b/i, "def"], [/^(adverse|side effects|safety|toxicity)/i, "se"], [/^interactions?/i, "int"], [/^anaesthe|^anesthe/i, "anaes"], [/^position/i, "pos"], [/^(tray|before the|work-?up|antibiotics|monitoring|equipment|instruments)/i, "prep"], [/^(after|post-?op|aftercare|follow)/i, "post"], [/^complications?/i, "cx"], [/^imaging/i, "dx"]];
 const STRONG = [["tx", /\b(is|are) (best )?(treated|managed)\b|\b(treatment|management) is\b|\btreated (with|by)\b|\bfirst[- ]line\b|\bdrug of choice\b/i],
   ["ci", /\bcontra-?indicat/i], ["cf", /\bpresents? (with|as)\b|\bpresenting (with|as)\b|\bthe (classic|cardinal) (sign|symptom|feature)/i],
   ["dx", /\b(is )?(diagnosed|confirmed) (by|with|on)\b|\binvestigation of choice\b|\bgold standard\b/i],
@@ -101,7 +116,8 @@ const add = (doc, k, ent, asp, w) => { if (ent < 0 || !asp) return; if (OPDOC &&
 const stats = { secs: 0, ent: 0 };
 
 X.forEach((x, doc) => {
-  const [ty, route, title0, where, body] = x; const ar = route.split("~")[0]; OPDOC = ar.startsWith("th:op");
+  const [ty, route, title0, where, body] = x; if (ty === "q" || ty === "card" || ty === "viva") return;
+  const ar = route.split("~")[0]; OPDOC = ar.startsWith("th:op");
   const [art, ...ch] = where.split(" · "); const chap = strip(ch.join(" · ")), title = strip(title0);
   if (/^(for the examination|sources|tips and links)\b/i.test(chap)) return;
   stats.secs++;
@@ -132,6 +148,8 @@ X.forEach((x, doc) => {
   const secW = titleAsp ? titleW : .9;
   const defSec = (/\b(definitions?|overview|what it is|introduction)\b/i.test(title) || /^summary$/i.test(chap)) && !fromTitle;
   const extraA = ownTitle && !fromTitle ? aspsOf(title).filter(a => a !== secAsp) : [];
+  /* a section on one part of the anatomy ("Nerve supply", "Boundaries") also answers "anatomy of X" */
+  if (ANATF.has(secAsp) || extraA.some(a => ANATF.has(a))) extraA.push("an");
   const U = S._units(body);
   let subj = -1, line = -1, first = true;
   U.forEach(u => {
@@ -143,6 +161,7 @@ X.forEach((x, doc) => {
     /* the on-call summary at the head of Diagnosis or Management repeats the prose below it in note form: it counts, but less */
     const ward = /^approach$/i.test(strip(u.label || ""));
     const lab = u.label && !ward ? aspOf(u.label) : null;
+    const rowA = u.rowLabel ? (ROWA.find(([re]) => re.test(u.rowLabel)) || [])[1] || aspOf(u.rowLabel, true) : null;
     const cues = {}; for (const a of ASP) { const n = (fold(t).match(new RegExp((a.cx || a.c).source, "g")) || []).length; if (n) cues[a.id] = n }
     const labelE = u.label ? match(u.label, .6) : -1;
     const E = labelE >= 0 && !u.row ? labelE : secE;
@@ -152,6 +171,7 @@ X.forEach((x, doc) => {
       /* a sentence that says outright what it is ("It is treated with thyroxine", "Contraindications are ...") */
       for (const [a, re] of STRONG) if (a !== secAsp && re.test(t) && !(u.row && /^(dx|tx)$/.test(secAsp) && /^(dx|tx)$/.test(a))) add(doc, u.k, ent, a, .85 * f); /* a table row keeps its section: "first line" in an investigations table is a test, not a drug */
       if (lab) add(doc, u.k, ent, lab, 1 * f);
+      if (rowA) add(doc, u.k, ent, rowA, 1 * f);
       /* cue words count for more in a sentence that is itself about the condition ("Hashimoto thyroiditis ... is treated with thyroxine") */
       for (const [a, n] of Object.entries(cues)) if (a !== secAsp) add(doc, u.k, ent, a, subjectLine ? Math.min(.75, .6 + .1 * n) : Math.min(.7, .35 + .15 * n) * (secAsp ? .6 : 1) * f);
       if ((defSec || (fromTitle && first)) && !u.row) add(doc, u.k, ent, "def", .8 * f);

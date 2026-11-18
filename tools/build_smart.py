@@ -120,7 +120,15 @@ def main():
         print('WARNING smart search: question bank not indexed (%s)' % e)
     open(os.path.join(OUT, 'sm_q.js'), 'w', encoding='utf-8').write(
         'window.XSMQ=' + json.dumps(Q, ensure_ascii=False, separators=(',', ':')) + ';\n')
-    X = X + Q
+    # the anatomy atlas and imaging cases follow (search/sm_atlas.js, built by tools/build_atlas.js)
+    A = []
+    try:
+        subprocess.run(['node', os.path.join(ROOT, 'tools', 'build_atlas.js')], check=True)
+        a = open(os.path.join(OUT, 'sm_atlas.js'), encoding='utf-8').read()
+        A = json.loads(a[a.index('['):a.rindex(']') + 1])
+    except Exception as e:
+        print('WARNING smart search: anatomy atlas not indexed (%s)' % e)
+    X = X + Q + A
     E, tok, vocab = load_model()
     dim = E.shape[1]
 
@@ -159,7 +167,7 @@ def main():
     }
     js = 'window.XSM=' + json.dumps(meta, ensure_ascii=False, separators=(',', ':')) + ';\n'
     open(os.path.join(OUT, 'sm_meta.js'), 'w', encoding='utf-8').write(js)
-    print(f'smart search: {len(owners)} chunks from {len(X)} sections ({len(Q)} questions), dim {dim}, '
+    print(f'smart search: {len(owners)} chunks from {len(X)} sections ({len(Q)} questions, {len(A)} atlas), dim {dim}, '
           f'{len(abbr)} abbreviations, vec {vq.nbytes//1024} KB, tok {tq.nbytes//1024} KB, meta {len(js)//1024} KB')
 
 
