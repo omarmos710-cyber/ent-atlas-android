@@ -25,17 +25,17 @@ Clinically the patients are younger and often non-smokers, with small primaries 
 ## Prognostic factors
 The tumour factors that matter are stage, especially nodal disease and *extranodal extension*; *depth of invasion* in oral cancer; perineural and lymphovascular invasion; the margins; and HPV status. Comorbidity, performance status and continued smoking are the patient factors, and total treatment time and gaps in radiotherapy the treatment factors.
 
-# Staging | AJCC eighth edition.
+# Staging | UICC TNM 9 (2025) and AJCC version 9.
 ## Principles
 The **T** stage describes the primary, mostly by size, with important exceptions: vocal fold mobility and subsite spread in the larynx, *depth of invasion* in the oral cavity, and extension in the nasopharynx and sinuses. The **N** stage describes regional nodes by size, number and side and now by *extranodal extension* (ENE), and the **M** stage distant metastases. Clinical staging (cTNM) comes from examination and imaging, pathological staging (pTNM) from the resected specimen.
 
 T4 is subdivided into *T4a*, moderately advanced and resectable, and *T4b*, very advanced and usually unresectable, involving for example the masticator space, pterygoid plates, skull base, prevertebral fascia or mediastinum, or encasing the carotid.
-!table T stage: oral cavity (including lip)
+!table T stage: oral cavity and mucosal lip (UICC TNM 9)
 T | Definition
 T1 | 2 cm or less, depth of invasion (DOI) 5 mm or less
 T2 | 2 cm or less with DOI over 5 mm, or over 2 to 4 cm with DOI 10 mm or less
-T3 | Over 4 cm, or DOI over 10 mm
-T4a | Invades through cortical bone of mandible or maxilla, the maxillary sinus or facial skin (lip: through bone, inferior alveolar nerve, floor of mouth or skin)
+T3 | Over 2 to 4 cm with DOI over 10 mm, or over 4 cm with DOI 10 mm or less
+T4a | Over 4 cm with DOI over 10 mm; or through the cortical bone of mandible or maxilla into the spongiosa, into the maxillary sinus, or into facial skin
 T4b | Masticator space, pterygoid plates, skull base, or encases the internal carotid
 !!
 !table T stage: larynx (glottis)
@@ -57,7 +57,10 @@ N2c | Bilateral or contralateral nodes, none over 6 cm, ENE negative
 N3a | Any node over 6 cm, ENE negative
 N3b | Clinically overt ENE (skin involvement, fixation, cranial nerve or muscle invasion)
 !!
-Pathologically, a single ipsilateral node of 3 cm or less *with* ENE becomes pN2a, and larger or multiple nodes with ENE become pN3b. In the **HPV-positive oropharynx**, clinical N1 is ipsilateral nodes of 6 cm or less, N2 contralateral or bilateral nodes of 6 cm or less, and N3 any node over 6 cm, while pathologically *pN1 is one to four nodes and pN2 five or more*. In the **nasopharynx**, N1 is unilateral cervical, or unilateral or bilateral retropharyngeal nodes, of 6 cm or less above the cricoid; N2 is bilateral cervical nodes of 6 cm or less above the cricoid; and N3 is any node over 6 cm or below the caudal border of the cricoid.
+Pathologically, a single ipsilateral node of 3 cm or less *with* ENE becomes pN2a, and larger or multiple nodes with ENE become pN3b. In the **HPV-positive oropharynx**, clinical N1 is ipsilateral nodes of 6 cm or less, N2 contralateral or bilateral nodes of 6 cm or less, and N3 any node over 6 cm, while pathologically *pN1 is one to four nodes and pN2 five or more*. In the **nasopharynx**, N1 is unilateral cervical, or unilateral or bilateral retropharyngeal nodes, of 6 cm or less above the cricoid; N2 is bilateral cervical nodes of 6 cm or less above the cricoid; and N3 is any node over 6 cm, below the caudal border of the cricoid, or (new in version 9) with advanced extranodal extension into muscle, skin or the neurovascular bundle.
+!update Ninth edition: extranodal extension on imaging
+In UICC TNM 9 (2025), *unequivocal* extranodal extension on imaging (iENE) now counts, as clinical ENE did before, towards cN3b in HPV-independent cancers. In **HPV-associated oropharyngeal cancer** unequivocal clinical or imaging ENE moves the node one N category up (for example bilateral nodes with ENE become cN3), and the pathological N is now pN1a (one node), pN1b (two to four nodes), pN2 (one to four nodes with pathological ENE, or more than four without) and pN3 (more than four nodes with ENE). Pathological ENE means tumour through the full thickness of the nodal capsule.
+!!
 !anat s286_80 | Lymph node levels of the neck.
 ## Stage groups
 !table Stage groups (oral cavity, larynx, hypopharynx, HPV-negative oropharynx, sinuses, salivary)
@@ -69,14 +72,24 @@ IVA | T4a N0 to N1, or T1 to T4a N2, M0
 IVB | Any T N3, or T4b any N, M0
 IVC | Any M1
 !!
-HPV-positive oropharyngeal cancer has its own clinical groups: stage I is T0 to T2 with N0 to N1, stage II is T0 to T2 with N2 or T3 with N0 to N2, stage III is T4 or N3, and stage IV is M1. Many patients are downstaged compared with the seventh edition, which reflects their better prognosis.
+HPV-positive oropharyngeal cancer has its own clinical groups: stage I is T0 to T2 with N0 to N1, stage II is T0 to T2 with N2 or T3 with N0 to N2, stage III is T4 or N3, and stage IV is M1 (unchanged in TNM 9). Its *pathological* groups in TNM 9 are: stage I T0 to T2 with N0 to N1b; stage II T0 to T2 with N2 to N3, or T3 with N0 to N2; stage III T3 N3 or any T4; stage IV M1. Nasopharyngeal and salivary carcinoma have new stage groups in version 9, set out in [[t:npc]] and [[t:saltum]].
+## What changed in the ninth edition (2025)
+UICC TNM 9 was published in mid-2025 and is used from 1 January 2026 (the UK adopted it for diagnoses from that date); AJCC version 9 updates individual chapters (nasopharynx from 2025; HPV-associated oropharynx and salivary glands from 2026) and is aligned with it.
+- **Nasopharynx:** advanced radiological or clinical ENE added to N3; M1 split into M1a (three or fewer lesions) and M1b (more than three); new stage groups (I to III for M0, IVA and IVB for M1).
+- **HPV-associated oropharynx:** imaging and clinical ENE as a cN modifier; pathological ENE and pN1a/pN1b; new pathological stage groups.
+- **HPV-independent sites (oral cavity, larynx, hypopharynx, HPV-independent oropharynx, sinuses):** unequivocal imaging ENE accepted for cN3b; T categories unchanged.
+- **Oral cavity and mucosal lip:** carcinoma of the dry lip (vermilion) and commissure is now staged as head and neck skin; superficial skin invasion from the mucosal lip is not T4a.
+- **Salivary glands:** major and minor salivary carcinomas staged together; N simplified to N1 (one to three nodes) and N2 (more than three, or ENE); new groups IIIA and IIIB, stage IV only for M1.
+- **Parathyroid carcinoma:** a TNM classification for the first time (T only; no stage groups).
+- **Thyroid, larynx, mucosal melanoma:** no category changes.
+Sources: Brierley et al. (eds), *TNM Classification of Malignant Tumours*, 9th edition (UICC, 2025); Pan et al., *JAMA Oncol* 2024 (nasopharynx); NHS England NDRS TNM 9 staging sheets.
 ## The eighth edition changes
 The 2017 AJCC eighth edition introduced:
 - *Depth of invasion* for oral cancer.
 - *Extranodal extension* in nodal staging.
 - A separate staging system for *p16-positive oropharyngeal cancer*.
 - Separate staging for unknown primaries by EBV and HPV status.
-Older texts and exam questions based on the seventh edition will give different stages for the same tumour. Newer versions have begun to appear (AJCC version 9 for nasopharyngeal cancer, and the UICC ninth edition in 2025), so always state which edition you are using.
+Older texts and exam questions based on the seventh edition will give different stages for the same tumour. Always state which edition you are using: during 2025 and 2026 many reports carry both the eighth and ninth editions.
 
 # Work-up | Before the decision.
 ## Assessment
@@ -130,7 +143,7 @@ Depression, fear of recurrence, alcohol relapse and suicide are all common in th
 ## Common pitfalls
 !pit
 - Staging an oropharyngeal cancer without p16.
-- Using seventh-edition definitions in an eighth-edition world.
+- Using an older edition's definitions without saying so (TNM 9 replaced TNM 8 from January 2026).
 - Forgetting the contralateral neck in midline tumours.
 - Neglecting dental assessment and smoking cessation before treatment.
 - Discharging patients without thyroid and second primary surveillance.

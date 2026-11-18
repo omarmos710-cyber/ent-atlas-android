@@ -110,11 +110,18 @@ Wide excision, with radiotherapy for malignant tumours.
 Often follows long-standing chronic discharge.
 ## Clinical features
 Bloody discharge, pain and granulation that will not heal; facial palsy means advanced disease.
-## Staging (Pittsburgh)
-- **T1:** confined to the canal, without bone erosion.
-- **T2:** limited bone erosion, or soft tissue extension under 0.5 cm.
-- **T3:** full-thickness bone erosion with soft tissue under 0.5 cm, or middle ear or mastoid involvement.
-- **T4:** cochlea, petrous apex, medial wall, carotid canal, jugular foramen, dura, soft tissue over 0.5 cm, or facial palsy.
+## Staging (modified Pittsburgh)
+There is no UICC or AJCC classification for the ear canal, middle ear or temporal bone (TNM 9 has none either), so the modified University of Pittsburgh system (Arriaga 1990, modified by Moody et al., *Am J Otol* 2000) is used.
+!table Temporal bone squamous cell carcinoma: modified Pittsburgh staging
+Category | Definition
+T1 | Limited to the canal, without bone erosion or soft tissue extension
+T2 | Limited bone erosion (not full thickness), or soft tissue extension under 0.5 cm
+T3 | Full-thickness erosion of the bony canal with soft tissue extension under 0.5 cm, or middle ear or mastoid involvement
+T4 | Cochlea, petrous apex, medial wall of the middle ear, carotid canal, jugular foramen or dura; soft tissue extension over 0.5 cm (such as the temporomandibular joint or styloid); or facial palsy
+N | Any node involvement is regarded as advanced disease: T1 N1 is stage III, and T2–T4 N1 is stage IV
+Stage | I T1 N0; II T2 N0; III T3 N0 or T1 N1; IV T4 N0, T2–T4 N1, or M1
+!!
+Facial nerve palsy was made T4 in the Pittsburgh group's later modification. Proposals to divide T4 by the extent of spread (for example Japanese series) have not been adopted internationally.
 ## Management
 Sleeve or lateral temporal bone resection, with parotidectomy and neck dissection as needed, and postoperative radiotherapy ([[t:tumear]]).
 ### Investigations: what and when

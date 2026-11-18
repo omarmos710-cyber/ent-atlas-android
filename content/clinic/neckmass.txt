@@ -93,6 +93,14 @@ When a squamous metastasis has no primary on examination, endoscopy and imaging,
 4. p16 and EBV staining of the node, which point to the oropharynx or nasopharynx.
 
 Treatment is neck dissection with radiotherapy to the neck and the likely mucosal sites, or primary chemoradiotherapy ([[t:hnrt]]). The outcome is better than many expect, especially with HPV-positive disease.
+### Staging the unknown primary (UICC TNM 9; AJCC eighth edition)
+!table Cervical nodes with unknown primary: which system
+Node marker | System used | Stage groups
+EBV positive | Nasopharynx (T0) | As nasopharyngeal carcinoma (version 9): T0 N1 IB, T0 N2 II, N3 III
+HPV or p16 positive | HPV-associated oropharynx (T0) | Clinical: T0 N1 I, T0 N2 II, T0 N3 III, M1 IV
+EBV negative and HPV independent or unknown | Cervical nodes, unknown primary (T0) with the general N categories, including ENE | T0 N1 III, T0 N2 IVA, T0 N3 IVB, M1 IVC
+!!
+Before the eighth edition, T0 was staged under whichever site was suspected; now T0 exists only for EBV-positive, HPV-positive and salivary tumours. (Sources: UICC TNM 9, 2025; NHS England NDRS TNM 9 staging sheet, unknown primary.)
 ## Lymphoma
 **Hodgkin lymphoma** affects young adults, with rubbery, painless, discrete nodes, often low in the neck or supraclavicular, sometimes with a mediastinal mass, B symptoms and pain after alcohol; the diagnostic cell is the Reed–Sternberg cell. **Non-Hodgkin lymphoma** affects older adults and involves both nodes and extranodal sites, including Waldeyer's ring (tonsil, nasopharynx, tongue base), the thyroid, the salivary glands and the sinonasal tract, where NK/T-cell lymphoma occurs.
 

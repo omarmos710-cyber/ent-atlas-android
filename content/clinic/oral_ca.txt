@@ -30,17 +30,31 @@ Each subsite, and oropharyngeal cancer, is described in detail in [[t:tonsil_ca]
 # Diagnosis | Depth, bone and nodes.
 ## Investigation
 Examination under anaesthesia confirms extent and allows biopsy. **MRI** shows soft tissue extent, depth, marrow invasion and perineural spread better; **CT** shows cortical bone erosion; and an **orthopantomogram** gives dental and mandibular detail. Ultrasound with FNA assesses neck nodes. **FDG PET-CT** is used for advanced or high-grade disease and low neck nodes, to find distant metastases and second primaries, and for suspected recurrence. Dental assessment and any extractions are done before radiotherapy to reduce osteoradionecrosis.
-## The AJCC eighth edition
+## Staging: UICC TNM 9 (2025)
 The eighth edition added **depth of invasion** (DOI), measured from the level of the adjacent normal basement membrane to the deepest point of invasion, because it predicts nodal spread better than surface size; it is not the same as tumour thickness, which includes exophytic growth.
-!table T staging of oral cavity cancer (AJCC 8th)
+!table T staging of oral cavity and mucosal lip cancer (UICC TNM 9)
 T | Size and depth of invasion
 T1 | 2 cm or less, DOI 5 mm or less
-T2 | 2 cm or less with DOI over 5 mm, or 2 to 4 cm with DOI 10 mm or less
-T3 | Over 4 cm, or DOI over 10 mm
-T4a | Invades through cortical bone of mandible or maxilla, into the maxillary sinus or the skin of the face
+T2 | 2 cm or less with DOI over 5 mm, or over 2 to 4 cm with DOI 10 mm or less
+T3 | Over 2 to 4 cm with DOI over 10 mm, or over 4 cm with DOI 10 mm or less
+T4a | Over 4 cm with DOI over 10 mm; or through cortical bone of the mandible or maxilla into the spongiosa, into the maxillary sinus, or into the skin of the face
 T4b | Invades masticator space, pterygoid plates or skull base, or encases the internal carotid artery
 !!
-Superficial erosion of a tooth socket by a gingival primary is not enough to make a tumour T4. **Extranodal extension** now upstages nodal disease, clinically when obvious and pathologically on the specimen.
+Superficial erosion of a tooth socket by a gingival primary is not enough to make a tumour T4, and neither is superficial invasion of the dry lip skin from a mucosal lip cancer. In TNM 9, cancer of the *dry lip (vermilion) and commissure* is staged as head and neck skin ([[t:skinca]]), not as oral cavity. **Extranodal extension** upstages nodal disease: clinically when obvious, on imaging when unequivocal (new in TNM 9), and pathologically on the specimen.
+!table Oral cavity cancer: N categories and stage groups (UICC TNM 9)
+Category | Definition
+cN1 | Single ipsilateral node 3 cm or less, no ENE
+cN2a / b / c | Single ipsilateral node over 3 to 6 cm / multiple ipsilateral nodes / bilateral or contralateral nodes, none over 6 cm, no ENE
+cN3a / cN3b | Node over 6 cm without ENE / any node with clinical or unequivocal imaging ENE
+pN2a | Single ipsilateral node 3 cm or less with pathological ENE, or over 3 to 6 cm without
+pN3b | Node over 3 cm with ENE, or multiple or contralateral or bilateral nodes with ENE
+Stage I / II | T1 N0 / T2 N0
+Stage III | T3 N0, or T1–T3 N1
+Stage IVA | T4a N0–N1, or T1–T4a N2
+Stage IVB | Any T N3, or T4b any N
+Stage IVC | M1
+!!
+The AJCC eighth edition printed T3 as "over 4 cm or DOI over 10 mm"; the UICC tables (eighth edition as corrected, and the ninth) use the size-and-depth combinations above.
 ## Investigations: what and when
 !table Oral cancer: investigations
 Role | Test | When and what it shows
@@ -150,3 +164,5 @@ Stop tobacco, alcohol and areca nut. Moderate and severe dysplasia, erythroplaki
 - Bernier et al., *N Engl J Med* 2004 and Cooper et al., *N Engl J Med* 2004: postoperative chemoradiotherapy (EORTC 22931 and RTOG 9501).
 - Burtness et al., *Lancet* 2019: KEYNOTE-048.
 - NICE TA661: Pembrolizumab for untreated metastatic or unresectable recurrent head and neck squamous cell carcinoma.
+- Brierley et al. (eds), *TNM Classification of Malignant Tumours*, 9th edition, UICC 2025.
+- NHS England NDRS: TNM 9 staging sheets, oral cavity and pharynx (2025).

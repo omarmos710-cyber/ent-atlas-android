@@ -108,16 +108,28 @@ Angiofibroma is covered in [[t:juv]]; this topic is about carcinoma.
 - **Plasmacytoma, adenoid cystic carcinoma and melanoma** are rare.
 
 # Subtypes and variants | Staging.
-!table TNM staging of nasopharyngeal carcinoma (AJCC)
+!table TNM staging of nasopharyngeal carcinoma (AJCC version 9 and UICC TNM 9, from 2025)
 Category | Definition
-T1 | Confined to the nasopharynx, or extending to the oropharynx or nasal cavity without parapharyngeal involvement
+T0 | No primary seen, but EBV-positive cervical node metastasis
+T1 | Confined to the nasopharynx, or extending to the oropharynx or nasal cavity (including the septum) without parapharyngeal involvement
 T2 | Parapharyngeal extension, or involvement of the medial or lateral pterygoid or prevertebral muscles
-T3 | Invasion of bony structures of the skull base, cervical vertebrae or pterygoid structures, or the paranasal sinuses
-T4 | Intracranial extension, cranial nerves, hypopharynx, orbit, parotid, or soft tissue beyond the lateral pterygoid
-N1 | Unilateral cervical, or unilateral or bilateral retropharyngeal, nodes 6 cm or less, above the caudal border of the cricoid
-N2 | Bilateral cervical nodes 6 cm or less, above the caudal border of the cricoid
-N3 | Node over 6 cm, or extension below the caudal border of the cricoid
+T3 | Unequivocal invasion of the bony skull base (including pterygoid structures), paranasal sinuses or cervical vertebrae
+T4 | Intracranial extension, unequivocal cranial nerve involvement, hypopharynx, orbit (including the inferior orbital fissure), parotid, or soft tissue beyond the anterolateral surface of the lateral pterygoid
+N1 | Unilateral cervical, or unilateral or bilateral retropharyngeal, nodes: all 6 cm or less, above the caudal border of the cricoid, and without advanced ENE
+N2 | Bilateral cervical nodes: all 6 cm or less, above the caudal border of the cricoid, and without advanced ENE
+N3 | Any of: node over 6 cm; extension below the caudal border of the cricoid; advanced radiological or clinical ENE (invading muscle, skin or the neurovascular bundle)
+M1a | Three or fewer metastatic lesions, in one or more organs
+M1b | More than three metastatic lesions
 !!
+!table Stage groups of nasopharyngeal carcinoma: version 9 against the eighth edition
+Stage | Version 9 (2025) | Eighth edition
+I | IA: T1–T2 N0; IB: T1–T2 N1 (and T0 N1) | T1 N0
+II | T0–T2 N2, or T3 N0–N2 | T1 N1, T2 N0–N1
+III | T4 any N, or any T N3 | T1–T2 N2, T3 N0–N2
+IVA | M1a | T4 or N3 (M0)
+IVB | M1b | Any M1
+!!
+Version 9 keeps the T criteria but clarifies them, adds advanced ENE to N3, reserves stage IV for metastatic disease and divides it by the number of metastases (Pan et al., *JAMA Oncol* 2024).
 Older AJCC editions defined T1 as confined to the nasopharynx and N3b as any node in the supraclavicular fossa (Ho's triangle, bounded by the medial and lateral ends of the clavicle and the point where neck meets shoulder). In every edition the nodal staging differs from other head and neck sites: low neck nodes carry the worst prognosis whatever their size.
 !fig d49-10 | Ho's triangle (the supraclavicular fossa): the medial (A) and lateral (B) ends of the clavicle and the point where the neck meets the shoulder (C).
 
@@ -188,3 +200,5 @@ With concurrent chemoradiation, local and regional control is about 70 to 80% an
 ## Guidelines and dosing
 - Bossi et al., *Ann Oncol* 2021: ESMO–EURACAN guideline for nasopharyngeal carcinoma.
 - Zhang et al., *N Engl J Med* 2019: induction gemcitabine and cisplatin in nasopharyngeal carcinoma.
+- Pan et al., *JAMA Oncol* 2024: ninth version of the AJCC and UICC nasopharyngeal cancer TNM staging classification.
+- NHS England NDRS: TNM 9 staging sheet, pharynx (2025).
