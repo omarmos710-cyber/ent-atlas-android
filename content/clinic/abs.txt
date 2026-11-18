@@ -40,6 +40,16 @@ Nasal endoscopy shows pus in the middle meatus; a swab from the middle meatus ca
 ## Imaging
 Not needed for uncomplicated acute disease. CT of the sinuses (with contrast and of the orbits and brain) is requested when a complication is suspected or treatment fails. Plain radiographs (Waters' view) and transillumination are historical.
 !imaging | Maxillary, frontal and odontogenic sinusitis, and the orbital and intracranial complications on CT and MRI.
+## Investigations: what and when
+!table Acute rhinosinusitis: investigations
+Role | Test | When and what it shows
+Diagnosis | Clinical: symptoms and anterior rhinoscopy; nasal endoscopy in clinic | Pus from the middle meatus; no imaging for uncomplicated disease
+Not routine | Plain X-ray or CT | Do not image uncomplicated sinusitis
+Complication suspected (orbital swelling, eye signs, severe headache, neurological signs) | Contrast CT of the sinuses, orbits and brain | Subperiosteal or orbital abscess, intracranial spread
+Intracranial or cavernous sinus spread | Contrast MRI with venography | Empyema, abscess, thrombosis
+Severe, failing or immunocompromised | Endoscopically guided middle meatal swab for culture | Organism and sensitivities
+Every orbital case | Visual acuity, colour vision, pupils, eye movements, repeated | Optic nerve threat
+!!
 
 # Subtypes and variants | By time, by phase, by sinus.
 ## Classification by time
@@ -90,6 +100,20 @@ Textbooks and the American guideline: Amoxicillin, with or without clavulanate, 
 NICE (NG79, 2017): Phenoxymethylpenicillin for five days; a back-up prescription for symptoms beyond ten days, and an immediate antibiotic only for the systemically very unwell or those at high risk.
 In practice: Follow local guidance; in the UK, phenoxymethylpenicillin for five days when an antibiotic is needed.
 !!
+### Drugs and doses
+!table Acute rhinosinusitis: drugs and doses
+Step | Drug and dose | Course and notes
+Symptoms 10 days or less | No antibiotic; paracetamol or ibuprofen, saline | Usually lasts 2 to 3 weeks
+No improvement after about 10 days (12 years and over) | High-dose nasal steroid: mometasone 200 micrograms twice a day or fluticasone 110 micrograms twice a day | 14 days; off-label dose
+Antibiotic needed (adults, first choice) | Phenoxymethylpenicillin 500 mg four times a day | 5 days; often as a back-up prescription
+Penicillin allergy (adults) | Doxycycline 200 mg on day 1, then 100 mg daily (5 days in total); or clarithromycin 500 mg twice a day for 5 days | 
+Pregnancy with penicillin allergy | Erythromycin 250 to 500 mg four times a day, or 500 mg to 1 g twice a day | 5 days
+Systemically very unwell, high risk, or worse after 2 to 3 days of first choice | Co-amoxiclav 500/125 mg three times a day | 5 days
+Children | Phenoxymethylpenicillin by age (1 to 11 months 62.5 mg, 1 to 5 years 125 mg, 6 to 11 years 250 mg, 12 to 17 years 500 mg, four times a day); co-amoxiclav suspension by age or weight; clarithromycin by weight if allergic | 5 days
+American practice | Amoxicillin with or without clavulanate | 5 to 10 days
+Orbital or intracranial complication | Admit: IV ceftriaxone (adults 2 g daily, 2 g twice daily if intracranial; children 50 to 80 mg/kg) with metronidazole (adults 500 mg every 8 hours), or IV co-amoxiclav 1.2 g three times a day per local policy; nasal decongestant | Contrast CT; drain an abscess when indicated
+!!
+Doses from NICE NG79 (Sinusitis, acute: antimicrobial prescribing), the American guideline (Rosenfeld et al., *Otolaryngol Head Neck Surg* 2015) and the BNF and BNF for Children.
 ## Surgery for acute disease
 ### Maxillary
 Antral washout is rarely needed now; endoscopic middle meatal antrostomy if drainage is required.
@@ -200,3 +224,7 @@ Infected discharge running down the pharynx causes pharyngitis, laryngitis and b
 - Rosenfeld et al., *Otolaryngol Head Neck Surg* 2015: American guideline.
 - Lemiengre et al., Cochrane review, 2018: antibiotics for acute rhinosinusitis.
 - Zalmanovici Trestioreanu and Yaphe, Cochrane review, 2013: nasal steroids.
+## Guidelines and dosing
+- NICE NG79: Sinusitis (acute): antimicrobial prescribing.
+- Rosenfeld et al., *Otolaryngol Head Neck Surg* 2015: clinical practice guideline (update), adult sinusitis.
+- BNF and BNF for Children: phenoxymethylpenicillin, doxycycline, clarithromycin, co-amoxiclav, ceftriaxone, metronidazole, mometasone.

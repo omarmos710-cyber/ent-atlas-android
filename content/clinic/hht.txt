@@ -49,6 +49,16 @@ Three or more criteria: *definite*. Two: *possible* or suspected. Fewer than two
 !flag Screen the lungs
 A pulmonary AVM can cause a stroke or brain abscess in a patient who has only ever complained about nosebleeds. Screen every patient with contrast echocardiography and treat significant AVMs by embolisation.
 !!
+## Investigations: what and when
+!table HHT: investigations
+Role | Test | When and what it shows
+Clinical diagnosis | Curaçao criteria: epistaxis, telangiectasias, visceral AVMs, family history | Definite with 3 or more
+Confirmation (gold standard) | Genetic testing (ENG, ACVRL1, SMAD4) | Diagnosis and family screening
+Every patient | Full blood count, ferritin | Iron deficiency anaemia
+Every patient | Contrast (bubble) echocardiography | Pulmonary AVMs; CT chest if positive
+Every adult | MRI brain with contrast | Cerebral AVMs
+Selected | Endoscopy for gastrointestinal bleeding; liver Doppler or CT | Gut and liver AVMs
+!!
 
 # Differential diagnosis | Other recurrent bleeders.
 Bleeding disorders (von Willebrand disease, platelet disorders), anticoagulant use, and a bleeding nasal tumour in one-sided bleeding ([[t:epistaxis]]).
@@ -71,6 +81,17 @@ Tranexamic acid | Oral antifibrinolytic reduces the frequency and severity of bl
 Hormonal treatment | Oestrogen or tamoxifen convert the mucosa to a thicker squamous type.
 Systemic anti-angiogenic drugs | Intravenous bevacizumab or oral pomalidomide reduce bleeding and transfusion needs in severe disease, and are now used by specialist HHT centres; topical bevacizumab spray does not work.
 !!
+### Drugs and doses
+!table HHT epistaxis: drugs and doses
+Step | Drug and dose | Course and notes
+Every patient | Saline spray, emollient ointment, humidification | Daily
+Epistaxis not controlled by moisturisers | Oral tranexamic acid, starting 500 mg twice a day and increased to 1 g four times a day or 1.5 g three times a day | Long term; caution with past thrombosis
+Anaemia | Oral iron; intravenous iron when oral fails or is not tolerated; transfusion when needed | Check ferritin and haemoglobin regularly
+Moderate to severe bleeding despite the above | Intravenous bevacizumab 5 mg/kg every 2 weeks for 4 to 6 doses, then maintenance at individual intervals | Specialist HHT centre; check blood pressure and urine protein
+Alternative systemic option | Pomalidomide (specialist) or hormonal therapy (tamoxifen) | 
+Not recommended | Topical bevacizumab spray | No benefit in trials
+!!
+Based on the Second International HHT Guidelines (Faughnan et al., *Ann Intern Med* 2020) and the InHIBIT-Bleed study (Al-Samkari et al., *Haematologica* 2021).
 ## Procedures
 Benefit lasts months after laser, years after septodermoplasty, and permanently after nasal closure.
 ### Photocoagulation
@@ -128,3 +149,6 @@ Significant pulmonary AVMs are treated by embolisation.
 - Faughnan et al., *Ann Intern Med* 2020: Second International HHT Guidelines.
 - Whitehead et al., *JAMA* 2016: the NOSE trial.
 - Al-Samkari et al., *NEJM* 2024: the PATH-HHT trial of pomalidomide.
+## Guidelines and dosing
+- Faughnan et al., *Ann Intern Med* 2020: Second International HHT Guidelines.
+- Al-Samkari et al., *Haematologica* 2021: InHIBIT-Bleed, intravenous bevacizumab in HHT.

@@ -68,6 +68,14 @@ Choana | Choanal atresia, choanal polyp, adenoids
 !!
 ### Cottle's test
 Pulling the cheek laterally opens the valve; if breathing improves, the valve is part of the problem.
+### Investigations: what and when
+!table Deviated nasal septum: investigations
+Role | Test | When and what it shows
+Diagnosis | Anterior rhinoscopy and nasal endoscopy; Cottle test | Deviation, spur, valve collapse, turbinates
+Symptom score | NOSE score | Severity; outcome after surgery
+Not routine | CT of the sinuses | Only with sinus disease or before combined surgery
+Rhinitis suspected | Allergy testing; trial of nasal steroid | Treat mucosal disease first
+!!
 ## Subtypes and variants
 - **Anterior (caudal) dislocation:** the lower border of the cartilage projects into one nostril, best seen with the head tilted back.
 - **C-shaped deviation:** a single curve; the wider side often shows compensatory turbinate hypertrophy.
@@ -99,6 +107,16 @@ A child or adult with nasal obstruction after a blow needs the septum examined. 
 !!
 ## Management
 Aspirate small collections with a wide-bore needle; incise larger ones parallel to the floor, excise a small strip of mucosa to keep it draining, pack both sides to prevent reaccumulation, and give antibiotics to prevent abscess.
+### Drugs and doses
+!table Septal haematoma and abscess: drugs and doses
+Situation | Drug and dose | Course and notes
+Haematoma, after drainage (adults) | Co-amoxiclav 500/125 mg three times a day | 5 to 7 days; covers *Staphylococcus aureus* and streptococci
+Children | Co-amoxiclav by age or weight (BNF for Children) | 
+Penicillin allergy | Clarithromycin 500 mg twice a day (adults) | 
+Abscess | Co-amoxiclav 1.2 g IV three times a day (or flucloxacillin IV), changed to culture results; vancomycin if MRSA is likely | At least 7 to 10 days; urgent drainage first
+Every patient | Analgesia; bilateral packing or quilting sutures; review in 24 to 48 hours | 
+!!
+Doses from the BNF; regimens from standard ENT practice (no randomised trials).
 ## Complications
 Septal abscess ([[@Septal abscess]]), cartilage necrosis and saddle nose.
 
@@ -130,6 +148,15 @@ Lupus, tuberculosis and leprosy perforate the cartilaginous septum; syphilis per
 Small anterior perforations whistle with breathing. Larger ones crust, obstruct and bleed when crusts are removed; very large ones can cause a saddle nose. Posterior perforations at the bony–cartilaginous junction are the ones that bleed heavily.
 ## Diagnosis
 Look for the cause: blood tests (ANCA, ACE, syphilis serology), urine drug screen where relevant, and biopsy of granulation or of the edge of the perforation (taken from the posterosuperior edge, away from the healed anterior rim).
+### Investigations: what and when
+!table Septal perforation: investigations
+Role | Test | When and what it shows
+Every patient | Nasal endoscopy; size and position measured | Crusting, granulation, active disease
+Cause (every patient) | ANCA, ACE, syphilis serology, full blood count, renal function, urinalysis | Granulomatosis with polyangiitis, sarcoidosis, syphilis
+History suggests | Urine drug screen | Cocaine
+Granulation or an active edge | Biopsy from the posterosuperior edge | Vasculitis, lymphoma, carcinoma, tuberculosis
+Before closure | CT of the nose and sinuses (selected) | Extent, other disease
+!!
 ## Management
 - **Conservative:** saline or alkaline douches and bland ointment to keep the nose free of crusts.
 - **Septal button:** a silicone obturator. Practice has moved away from a routine "trial" of a button: some patients find it irritating and obstructive, and a button can enlarge the perforation. Custom-made obturators are more comfortable but lack strong evidence.
@@ -137,6 +164,15 @@ Look for the cause: blood tests (ANCA, ACE, syphilis serology), urine drug scree
 !fig d26-12 | A silicone septal button closing a perforation.
 !update Current evidence
 **Perforation.** Closure with endoscopic, pedicled flaps (such as the anterior ethmoidal artery flap) succeeds in most perforations under about 2 cm in published series, but evidence is from case series.
+!!
+### Treatment steps
+!table Septal perforation: treatment
+Step | Treatment and dose | Course and notes
+Every patient | Saline douches once or twice a day; bland ointment (petroleum jelly) to the edges | Long term
+Crusting with infection | Chlorhexidine–neomycin cream or mupirocin ointment | 1 to 2 weeks
+Treat the cause | Stop cocaine; treat vasculitis or infection | Before any closure
+Persistent symptoms | Silicone septal button (custom-made from CT where possible) | Some find it irritating
+Small, inactive perforation | Surgical closure with flaps and interposition graft | Under about 2 cm best
 !!
 
 # Tips and links | For the examination and the ward.
@@ -168,3 +204,6 @@ Look for the cause: blood tests (ANCA, ACE, syphilis serology), urine drug scree
 ## Studies cited
 - van Egmond et al., *Lancet* 2019: septoplasty versus non-surgical management.
 - Carrie et al., *Health Technol Assess* 2024: the NAIROS trial.
+## Guidelines and dosing
+- BNF: co-amoxiclav, clarithromycin, flucloxacillin.
+- Stewart et al., *Otolaryngol Head Neck Surg* 2004: the NOSE scale.

@@ -34,6 +34,13 @@ Typical disease | Rhino-orbito-cerebral invasion, black necrosis | Fungal ball, 
 A dense, cheesy or greyish-black mass of fungal hyphae, usually in one maxillary sinus (then sphenoid, ethmoid, frontal), in an otherwise healthy, often older patient. Symptoms are those of one-sided chronic sinusitis, or none.
 ## Diagnosis
 A single opacified sinus with a hyperdense centre or calcific flecks, and no bone erosion; the wall may be thickened.
+### Investigations: what and when
+!table Fungal ball: investigations
+Role | Test | When and what it shows
+Diagnosis | CT of the sinuses | One opacified sinus with a hyperdense centre or calcific flecks, no erosion
+Confirmation | Histology and fungal culture of the removed material | Hyphae without tissue invasion
+Immunocompromised or erosion | Biopsy of mucosa | Excludes invasion
+!!
 ## Management
 Endoscopic removal of the ball and a wide opening of the sinus. No antifungal drugs are needed.
 
@@ -56,6 +63,15 @@ Complete endoscopic clearance of mucin and polyps with wide drainage, combined w
 !update Current evidence
 **Non-invasive disease.** Evidence for antifungal drugs and immunotherapy in allergic fungal rhinosinusitis is weak.
 !!
+### Treatment steps
+!table Allergic fungal rhinosinusitis: treatment
+Step | Treatment | Course and notes
+Definitive | Complete endoscopic clearance of mucin and polyps with wide drainage | 
+Around surgery | Short tapering course of oral prednisolone before and after surgery | Regimens vary; reduces early recurrence
+Long term | Saline irrigation and high-dose topical steroid (sprays, drops or irrigations) | Recurrence is common
+Not routine | Systemic antifungals; immunotherapy | Weak evidence
+Follow-up | Regular endoscopy | 
+!!
 
 # Acute invasive fungal sinusitis {dz} | A surgical and medical emergency.
 ## Epidemiology and risk factors
@@ -69,6 +85,15 @@ Fever, facial pain or numbness, nasal blockage and bloodstained discharge; then 
 ## Diagnosis
 Urgent endoscopic biopsy of the middle turbinate or suspicious mucosa, with frozen section and fungal stains (silver, PAS), and culture. Contrast CT and MRI show the extent of soft tissue, orbital and intracranial spread; MRI may show non-enhancing, devitalised mucosa.
 !imaging | Non-invasive and invasive fungal sinusitis.
+### Investigations: what and when
+!table Invasive fungal sinusitis: investigations
+Role | Test | When and what it shows
+First (bedside) | Nasal endoscopy | Pale, insensate or black mucosa; often the middle turbinate
+Gold standard | Urgent biopsy with frozen section, fungal stains (silver, PAS) and culture | Tissue invasion; broad ribbon-like hyphae (Mucor) or narrow septate (Aspergillus)
+Extent | Contrast CT and MRI of the sinuses, orbits and brain | Soft tissue spread beyond bone, orbital apex, cavernous sinus, brain
+Every patient | Glucose, ketones, blood gas, HbA1c, full blood count with neutrophils, renal function | Host defect; baseline for amphotericin
+Adjunct | Serum galactomannan and beta-D-glucan (Aspergillus); fungal PCR | Supportive only; negative in Mucor for both antigens
+!!
 ## Management
 !ward On call: suspected invasive fungal sinusitis
 1. Urgent endoscopy and biopsy with frozen section.
@@ -82,6 +107,16 @@ Urgent endoscopic biopsy of the middle turbinate or suspicious mucosa, with froz
 !update Current evidence
 **Mucormycosis.** The global guideline recommends early complete surgical debridement plus high-dose liposomal amphotericin B (5 to 10 mg/kg/day) as first-line treatment, isavuconazole or posaconazole as alternatives and for step-down, and urgent control of the underlying condition, especially diabetic ketoacidosis (Cornely et al., *Lancet Infect Dis* 2019).
 !!
+### Drugs and doses
+!table Invasive fungal sinusitis: drugs and doses
+Situation | Drug and dose | Course and notes
+Mucormycosis (first line) | Liposomal amphotericin B 5 mg/kg IV once daily (5 to 10 mg/kg; 10 with brain involvement) | Weeks, until disease controlled; daily renal function, potassium, magnesium
+Mucormycosis, step-down or amphotericin unsuitable | Isavuconazole 200 mg every 8 hours for 6 doses, then 200 mg once daily; or posaconazole 300 mg (tablets or IV) twice daily on day 1, then 300 mg once daily | Often months; levels for posaconazole
+Invasive aspergillosis | Voriconazole 6 mg/kg IV every 12 hours for 2 doses, then 4 mg/kg every 12 hours (oral 400 mg twice, then 200 mg twice daily, 40 kg and over); isavuconazole as an alternative | Levels; at least 6 to 12 weeks; voriconazole does not cover Mucor
+Every patient | Correct ketoacidosis and glucose; reduce immunosuppression; G-CSF for neutropenia per haematology | Reversal of the host defect decides survival
+Surgery | Urgent debridement back to bleeding tissue, repeated | 
+!!
+Doses from the global mucormycosis guideline (Cornely et al., *Lancet Infect Dis* 2019), the IDSA aspergillosis guideline (Patterson et al., *Clin Infect Dis* 2016) and the BNF.
 ## Prognosis
 Mortality is high, especially with intracranial spread; survival depends on reversing the immune defect and early, complete debridement.
 !ops
@@ -123,3 +158,7 @@ In immunocompetent patients in Sudan, India and Pakistan, usually *Aspergillus f
 ## Studies cited
 - Cornely et al., *Lancet Infect Dis* 2019: global guideline for mucormycosis.
 - Patterson et al., *Clin Infect Dis* 2016: American guideline for aspergillosis.
+## Guidelines and dosing
+- Cornely et al., *Lancet Infect Dis* 2019: global guideline for mucormycosis.
+- Patterson et al., *Clin Infect Dis* 2016: IDSA guideline for aspergillosis.
+- BNF: liposomal amphotericin B, isavuconazole, posaconazole, voriconazole.

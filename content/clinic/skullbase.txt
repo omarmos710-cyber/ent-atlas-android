@@ -44,6 +44,17 @@ CT and MRI are complementary and both are needed. **CT** shows bone detail: eros
 Most lesions need tissue, often by *endoscopic biopsy*, but not all: paragangliomas, schwannomas, typical meningiomas and juvenile angiofibromas can be diagnosed on imaging alone.
 ## Unresectability
 A tumour is generally unresectable when it invades the brainstem or spinal cord, both internal carotids, both cavernous sinuses or extensive brain parenchyma. Involvement of the optic chiasm, distant metastases and poor general health are relative contraindications. Lymphoma and other chemo- or radiosensitive tumours are not resected at all.
+## Investigations: what and when
+!table Skull base tumours: investigations
+Role | Test | When and what it shows
+Bone | High-resolution CT | Erosion, remodelling, widened foramina, calcification
+Soft tissue (gold standard for extent) | MRI with gadolinium and fat suppression | Dura, brain, orbit, perineural spread
+Vascular lesion or carotid at risk | CT or MR angiography; catheter angiography with balloon occlusion test | Feeders, embolisation, collateral flow
+Paraganglioma suspected | Plasma or urine metanephrines; genetic testing | Before any anaesthetic
+Diagnosis | Endoscopic biopsy, except lesions diagnosed on imaging (paraganglioma, schwannoma, typical meningioma, angiofibroma) | Histology
+Staging (malignant) | PET-CT or CT chest | Distant spread
+Baseline | Cranial nerve examination, audiogram, visual fields, endocrine tests for sellar lesions | 
+!!
 
 # Management | Approaches and reconstruction.
 ## Endoscopic endonasal surgery

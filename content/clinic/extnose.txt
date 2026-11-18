@@ -23,6 +23,18 @@ Warm compresses, analgesia, and topical and systemic antistaphylococcal antibiot
 !flag Never squeeze a nasal furuncle
 Squeezing or early incision can spread infection through the angular and ophthalmic veins to the cavernous sinus. Other complications: cellulitis of the upper lip and septal abscess. Cavernous sinus thrombosis is described in [[t:abs]]. Recurrent furuncles mean checking for diabetes and nasal staphylococcal carriage.
 !!
+### Drugs and doses
+!table Nasal furuncle and vestibulitis: drugs and doses
+Situation | Drug and dose | Course and notes
+Mild, localised | Mupirocin 2% or fusidic acid 2% to the vestibule two or three times a day | 5 to 7 days
+Furuncle or spreading infection (adults) | Flucloxacillin 500 mg to 1 g four times a day; with topical treatment | 5 to 7 days
+Children | Flucloxacillin by age (BNF for Children) | 
+Penicillin allergy | Clarithromycin 500 mg twice a day | 5 to 7 days
+Facial cellulitis, fever, eye signs | Admit for IV flucloxacillin (1 to 2 g every 6 hours); image for cavernous sinus thrombosis | 
+Chronic vestibulitis | Antibiotic–steroid ointment, continued several days after cure; treat rhinitis or sinusitis | 
+Recurrent furuncles | Check glucose; decolonise *S. aureus* carriage (mupirocin 3 times a day for 5 days with chlorhexidine body wash) | 
+!!
+Doses from NICE NG141 (cellulitis), NICE CKS Boils, carbuncles and staphylococcal carriage, and the BNF.
 
 # Vestibulitis {dz} | Dermatitis of the vestibular skin.
 ## Etiology
@@ -68,6 +80,14 @@ Treatment is shaving it down with a scalpel, dermabrasion or carbon dioxide lase
 !update Current evidence
 **Rhinophyma** is treated by surgical shaving, CO₂ laser or electrosurgery, with good long-term results in case series; doxycycline and isotretinoin treat the underlying rosacea.
 !!
+### Treatment: what and when
+!table Rhinophyma: treatment
+Step | Treatment and dose | Course and notes
+Underlying rosacea | Doxycycline 40 mg modified-release once daily (or 100 mg daily) | Several months
+Severe or refractory rosacea (dermatology) | Low-dose isotretinoin | Pregnancy prevention programme
+Established rhinophyma | Surgical shaving, CO₂ laser, electrosurgery or dermabrasion | Send tissue for histology (occult carcinoma)
+!!
+Based on NICE CKS Rosacea and the BNF.
 
 # Skin tumours {dz} | Benign and malignant.
 ## Benign
@@ -121,3 +141,7 @@ Warts are excised. Squamous carcinoma of the vestibule may spread to the floor, 
 - *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 22.
 - Dhingra, *Diseases of Ear, Nose and Throat*, chapter 25.
 - K. J. Lee, *Essential Otolaryngology*, chapters 31 and 54.
+## Guidelines and dosing
+- NICE CKS: Boils, carbuncles and staphylococcal carriage.
+- NICE CKS: Rosacea.
+- BNF: mupirocin, fusidic acid, flucloxacillin, clarithromycin, doxycycline.

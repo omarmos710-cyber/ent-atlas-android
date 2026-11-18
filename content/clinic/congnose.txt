@@ -47,6 +47,14 @@ One-sided nasal obstruction and persistent thick discharge from that side, often
 - Flexible nasal endoscopy.
 - **CT** in the axial plane is the definitive test: it shows the atretic plate, narrowing of the posterior nasal cavity and thickening of the vomer, and separates bony from membranous atresia. In unilateral atresia, CT is best kept for planning once surgery is decided, to avoid repeated radiation and sedation.
 !imaging choanal-atresia piriform-aperture-malformation | Choanal atresia and pyriform aperture stenosis on CT.
+### Investigations: what and when
+!table Choanal atresia: investigations
+Role | Test | When and what it shows
+First (bedside) | Soft catheter (6 to 8 French) will not pass beyond about 3 cm; misting test | Blocked choana
+Confirmation | Flexible nasal endoscopy | Atretic plate
+Gold standard | CT of the nose and nasopharynx after suction and decongestion | Bony or mixed plate, vomer thickening, medialised lateral wall; one or both sides
+Every bilateral case | Echocardiogram, eye examination, hearing tests, genetics (CHD7) | CHARGE syndrome
+!!
 ## Management
 ### Emergency airway in bilateral atresia
 An oral airway, or a feeding nipple with the end cut off taped in the mouth (*McGovern's technique*), keeps the mouth open and avoids tracheostomy; orogastric feeding. Intubation if needed.
@@ -80,6 +88,14 @@ The commonest midline nasal mass: a firm, non-tender, non-pulsatile, non-compres
 !fig d25-3 | Types of nasal dermoid: (A) simple, (B) with an external pit, lying deep to the nasal bones, (C) with a connection to the dura, (D) intradural.
 ## Management
 Complete excision of the cyst, the tract and any involved bone, cartilage and septum, often by an open rhinoplasty approach; combined neurosurgical repair when the tract reaches the dura.
+### Investigations: what and when
+!table Midline nasal masses: investigations
+Role | Test | When and what it shows
+Every patient, before any biopsy or excision | MRI (with fine-cut CT for bone) | Intracranial extension: a tract to the foramen caecum, bifid crista galli, enlarged foramen caecum
+Not done | Biopsy or needle aspiration of a midline mass in a child | Risk of meningitis and CSF leak if it connects to the brain
+Bedside | Furstenberg test (swells with crying or jugular compression) | Positive in encephalocele, negative in dermoid and glioma
+Definitive | Histology of the excised mass | Dermoid, glioma, encephalocele
+!!
 
 # Nasal glioma {dz} | Ectopic glial tissue.
 ## Clinical features

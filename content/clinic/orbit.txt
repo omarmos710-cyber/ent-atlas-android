@@ -38,6 +38,16 @@ Visual acuity, colour vision and pupils (a relative afferent pupillary defect me
 - Thyroid function and antibodies; blood tests for vasculitis and lymphoma as indicated.
 - Biopsy for undiagnosed masses, endoscopically or by orbitotomy.
 !imaging orbital-decompression-in-graves-disease amyloidosis-in-the-orbit mucocele osteoma-gardner-syndrome-and-complications orbital-cellulitis | Orbital decompression for Graves disease, orbital amyloidosis, mucocele, osteoma and orbital cellulitis.
+## Investigations: what and when
+!table Proptosis: investigations
+Role | Test | When and what it shows
+Every patient | Visual acuity, colour vision, pupils (RAPD), eye movements, exophthalmometry | Optic nerve threat; baseline
+First imaging | CT of the orbits and sinuses | Bone, sinus source, fractures, muscle enlargement
+Soft tissue, nerve and apex | MRI with contrast | Tumour, apex, intracranial spread, inflammation
+Suspected thyroid eye disease | TSH, free T4, TSH-receptor antibodies | Graves' disease
+Inflammation | ESR, CRP, ANCA, ACE, IgG4 | Vasculitis, sarcoid, IgG4 disease
+Undiagnosed mass | Biopsy (endoscopic or orbitotomy) | Histology
+!!
 
 # Management | What the nose can do for the eye.
 ## Endoscopic orbital decompression
@@ -60,6 +70,16 @@ Endoscopic orbital decompression ([[@Endoscopic orbital decompression]]) for opt
 !update Current evidence
 **Thyroid eye disease.** The European (EUGOGO) guideline recommends intravenous methylprednisolone for active moderate to severe disease and urgent decompression for optic neuropathy not responding to steroids (Bartalena et al., *Eur J Endocrinol* 2021); teprotumumab, an IGF-1 receptor antibody, reduced proptosis in randomised trials (Douglas et al., *NEJM* 2020).
 !!
+### Drugs and doses
+!table Thyroid eye disease: drugs and doses
+Severity | Drug and dose | Course and notes
+Every patient | Stop smoking; restore and keep euthyroid; lubricants | Radioiodine with steroid cover in at-risk patients
+Mild, active | Selenium 100 micrograms twice a day | 6 months (in selenium-poor areas)
+Moderate to severe, active (first line) | IV methylprednisolone 500 mg weekly for 6 weeks, then 250 mg weekly for 6 weeks (4.5 g total), with mycophenolate 720 mg daily | Liver function; no more than 8 g cumulative
+Second line | Higher-dose IV steroid course, orbital radiotherapy with steroids, ciclosporin, tocilizumab, rituximab or teprotumumab (where available) | Specialist thyroid eye clinic
+Optic neuropathy (sight-threatening) | IV methylprednisolone 500 mg to 1 g for 3 consecutive days, repeated in the second week | Urgent orbital decompression if no clear improvement within 2 weeks
+!!
+Based on the European Group on Graves' Orbitopathy guideline (Bartalena et al., *Eur J Endocrinol* 2021).
 
 # Idiopathic orbital inflammation {dz} | Orbital pseudotumour.
 ## Clinical features
@@ -68,6 +88,13 @@ Orbital pseudotumour: painful proptosis, worse on eye movement; may involve the 
 Biopsy shows non-specific inflammation.
 ## Management
 Steroids, immunosuppression or radiotherapy.
+### Drugs and doses
+!table Idiopathic orbital inflammation: drugs and doses
+Step | Drug and dose | Course and notes
+First line (after biopsy where feasible) | Prednisolone about 1 mg/kg daily (often 60 mg), tapered | Over several weeks to months; rapid response supports the diagnosis
+Recurrent or steroid-dependent | Methotrexate, mycophenolate or rituximab; low-dose orbital radiotherapy | Specialist
+Not responding | Re-biopsy | Lymphoma, IgG4-related disease, vasculitis
+!!
 
 # Vascular lesions {dz} | Haemangiomas, varix and fistula.
 - **Cavernous haemangioma:** the commonest benign orbital tumour of adults; painless, slowly progressive axial proptosis from a well-defined, enhancing intraconal mass; excised by lateral orbitotomy or endoscopically.
@@ -92,6 +119,16 @@ Most children with orbital complications are treated medically at first, with in
 !update Current evidence
 **Orbital complications of sinusitis.** Chandler's classification (1970) remains the standard. The criteria of Garcia and Harris, under which children under nine with a small medial subperiosteal abscess and normal vision were treated medically, avoided surgery in most such children (*Ophthalmology* 2000); EPOS 2020 endorses initial medical treatment for small medial abscesses with close monitoring.
 !!
+### Drugs and doses
+!table Orbital complications of sinusitis: drugs and doses
+Patient | Drug and dose | Course and notes
+Children | IV ceftriaxone 50 to 80 mg/kg once daily (maximum 2 to 4 g by indication) with metronidazole (7.5 mg/kg every 8 hours) or clindamycin per local policy | Switch to oral co-amoxiclav when improving; total about 10 to 14 days
+Adults | IV ceftriaxone 2 g daily with metronidazole 500 mg every 8 hours, or IV co-amoxiclav 1.2 g every 8 hours | As above
+Every patient | Nasal decongestant (xylometazoline); saline | 
+Steroids | Sometimes added after antibiotics start; evidence limited | 
+Abscess with visual threat, or no improvement in 24 to 48 hours | Drainage | 
+!!
+Doses from the BNF and BNF for Children; regimens follow local and published paediatric pathways.
 
 # Retrobulbar haemorrhage {dz} | Minutes count.
 An emergency release for retrobulbar haemorrhage after trauma or sinus surgery: a tense, proptosed eye with rising pressure and falling vision. Cut the lateral canthal tendon and its inferior crus within minutes.
@@ -134,3 +171,6 @@ For epiphora from obstruction of the nasolacrimal duct: a window is made from th
 - Levin et al., *Ophthalmology* 1999: the International Optic Nerve Trauma Study.
 - CRASH trial collaborators, *Lancet* 2004: corticosteroids after head injury.
 - Bartalena et al., *Eur J Endocrinol* 2021: EUGOGO guideline; Douglas et al., *NEJM* 2020: teprotumumab.
+## Guidelines and dosing
+- Bartalena et al., *Eur J Endocrinol* 2021: EUGOGO clinical practice guidelines for Graves' orbitopathy.
+- BNF and BNF for Children: methylprednisolone, ceftriaxone, metronidazole, co-amoxiclav.

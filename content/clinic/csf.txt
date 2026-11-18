@@ -45,6 +45,17 @@ Endoscopy may show fluid from the olfactory cleft, the middle meatus, the spheno
 !imaging | A dural defect after sinus surgery, anterior skull base fractures, and a meningoencephalocele.
 ## Halo sign
 After trauma, bloodstained fluid on filter paper gives a central red spot with a clear outer ring (the *double ring* or *target sign*); it suggests, but does not prove, CSF.
+## Investigations: what and when
+!table CSF rhinorrhoea: investigations
+Role | Test | When and what it shows
+Confirmation (gold standard) | Beta-2 transferrin (or beta-trace protein) on the collected fluid | Proves CSF; a few drops are enough
+Not recommended | Glucose test strips | Unreliable
+First localising test | High-resolution CT of the skull base | Bony defect; fractures; empty sella
+Fluid and soft tissue | Heavily T2-weighted MRI (MR cisternography) | Fluid through the defect, encephalocele, raised-pressure signs
+Active leak not localised | CT cisternography | Site of the leak
+Before or during surgery | Intrathecal fluorescein (dilute, off-label, with consent) | Green dye at the leak under blue light
+Spontaneous leak | Opening pressure at lumbar puncture; BMI; fundoscopy | Idiopathic intracranial hypertension
+!!
 
 # Differential diagnosis | CSF or nasal secretion?
 !table CSF or nasal secretion?
@@ -78,6 +89,17 @@ Bed rest with the head up, avoidance of straining, stool softeners and no nose b
 !update Current evidence
 **Endoscopic repair.** A systematic review of 55 studies found endoscopic repair successful at the first attempt in about 90% of patients, and in about 97% after revision, regardless of graft material (Psaltis et al., *Otolaryngol Head Neck Surg* 2012). The vascularised nasoseptal flap (Hadad et al., *Laryngoscope* 2006) brought postoperative leak rates after extended endoscopic skull base surgery down to about 5% in later series. **Antibiotics.** A Cochrane review found no evidence that prophylactic antibiotics prevent meningitis after basal skull fracture, with or without a leak (Ratilal et al., 2015); pneumococcal vaccination is recommended instead. A systematic review found little evidence for routine lumbar drains or prolonged antibiotics after repair.
 !!
+## Drugs and doses
+!table CSF rhinorrhoea: drugs and doses
+Step | Drug and dose | Course and notes
+Conservative (traumatic) | Bed rest head up, stool softener (lactulose), no nose blowing or straining | 7 to 14 days
+Reduce CSF production | Acetazolamide, for example 250 mg two to four times a day (adults) | Check electrolytes; paraesthesia common
+Prophylactic antibiotics | Not recommended | Cochrane review: no reduction in meningitis
+Every patient with a leak | Pneumococcal vaccination | Risk group in the UK Green Book
+Meningitis | Treat as bacterial meningitis | Then repair
+Spontaneous leak with raised pressure | Weight loss; acetazolamide; shunt in selected cases | Prevents recurrence after repair
+!!
+Based on Ratilal et al., *Cochrane Database Syst Rev* 2015, the UK Green Book (chapter 25) and the BNF.
 
 # Complications | An open door.
 - **Meningitis,** often pneumococcal and recurrent.
@@ -117,3 +139,7 @@ Bed rest with the head up, avoidance of straining, stool softeners and no nose b
 - Psaltis et al., *Otolaryngol Head Neck Surg* 2012: endoscopic repair, systematic review.
 - Hadad et al., *Laryngoscope* 2006: the nasoseptal flap.
 - Ratilal et al., Cochrane review, 2015: prophylactic antibiotics after basal skull fracture.
+## Guidelines and dosing
+- Ratilal et al., *Cochrane Database Syst Rev* 2015: antibiotic prophylaxis for basal skull fractures.
+- UKHSA Green Book, chapter 25: pneumococcal vaccination.
+- BNF: acetazolamide, lactulose.

@@ -110,6 +110,17 @@ CT or MRI when a tumour is suspected; for juvenile angiofibroma, contrast imagin
 ### Angiography
 Diagnostic and therapeutic: for suspected pseudoaneurysm, vascular tumours, and as the first step of embolisation.
 !imaging | Juvenile angiofibroma, the tumour to think of in a teenage boy with one-sided bleeding.
+## Investigations: what and when
+!table Epistaxis: investigations
+Role | Test | When and what it shows
+First (every patient) | Pulse, blood pressure; anterior rhinoscopy after clearing clot | Shock; anterior bleeding point
+Locate a posterior bleed | Rigid nasal endoscopy | Bleeding point for targeted cautery
+Significant bleed | Full blood count, group and save or crossmatch | Anaemia; need for transfusion
+On warfarin or suspected coagulopathy | INR and clotting screen; liver function | Over-anticoagulation, liver disease
+Recurrent bleeds, bruising, family history | Clotting screen with von Willebrand studies | Bleeding disorder
+Unilateral bleeding with obstruction, teenage boy | Contrast CT and MRI (no biopsy) | Juvenile angiofibroma, tumour
+After trauma, or refractory bleeding | CT angiography or catheter angiography | Pseudoaneurysm; embolisation target
+!!
 
 # Subtypes and variants | Site, severity and pattern; special groups.
 ## Anterior or posterior
@@ -204,6 +215,20 @@ Topical tranexamic acid did not reduce the need for packing in the NoPAC trial; 
 !update Current evidence
 The American nosebleed guideline (Tunkel et al., *Otolaryngol Head Neck Surg* 2020) recommends compression for at least five minutes, packing if the site cannot be seen, resorbable packs in patients on anticoagulants or antiplatelets, nasal endoscopy for recurrent or difficult bleeds, cautery confined to the bleeding site, ligation or embolisation when these fail, and local treatment before transfusion, reversal or stopping anticoagulants unless the bleed is life-threatening. In the NoPAC trial of 496 patients in UK emergency departments, topical tranexamic acid did not reduce the need for anterior packing (43.7% vs 41.3% with placebo) (Reuben et al., *Ann Emerg Med* 2021). A UK national audit of 1,826 cases found 30-day re-presentation in 13.9% and all-cause 30-day mortality of 3.4%, and wide variation from consensus guidance (National ENT Trainee Research Network, *J Laryngol Otol* 2017).
 !!
+### Drugs and doses
+!table Epistaxis: drugs and doses
+Step | Drug and dose | Course and notes
+Before cautery or packing | Topical anaesthetic with vasoconstrictor: co-phenylcaine (lidocaine 5% with phenylephrine 0.5%) spray, or 1:1000 adrenaline on a pledget | Wait 3 to 4 minutes
+Cautery | Silver nitrate stick for 3 to 10 seconds to a visible point | One side of the septum at a time
+After cautery or for recurrent anterior bleeds | Chlorhexidine–neomycin (Naseptin) cream to the nostrils four times a day for 10 days (twice a day for up to 2 weeks if needed) | Older stock contains peanut oil: check the formulation
+Peanut, soya or neomycin allergy | Mupirocin 2% nasal ointment two or three times a day | 5 to 7 days
+Packing in place | Pack coated with antibiotic ointment; routine systemic antibiotics are not needed for anterior packs | Posterior packs: admit and monitor
+Tranexamic acid (adjunct) | Oral 1 g three times a day; topically, the injection (100 mg/ml) on a pledget, for example 500 mg as in smaller trials | Oral for up to about 4 days; topical (2 ml) did not reduce packing in the NoPAC trial
+Warfarin with major bleed | Vitamin K 5 to 10 mg IV with prothrombin complex concentrate, per local haematology protocol | Do not stop anticoagulants routinely for a minor bleed
+DOAC with life-threatening bleed | Idarucizumab for dabigatran; andexanet alfa or prothrombin complex for factor Xa inhibitors, per haematology | 
+Hypertension | Analgesia and calm first; treat persistent hypertension without a sharp fall | 
+!!
+Doses from NICE CKS Epistaxis, ENT UK guidance as used in NHS primary care pathways, the BNF and the NoPAC trial (Reuben et al., *Ann Emerg Med* 2021).
 ## Choosing the vessel
 !tree Persistent bleeding
 Source seen | Endoscopic cautery | under local or general anaesthesia
@@ -289,3 +314,7 @@ Most bleeds settle with simple measures. A patient whose anterior bleed is stopp
 - Tunkel et al., *Otolaryngol Head Neck Surg* 2020: American nosebleed guideline.
 - Reuben et al., *Ann Emerg Med* 2021: the NoPAC trial of topical tranexamic acid.
 - National ENT Trainee Research Network, *J Laryngol Otol* 2017: UK national epistaxis audit.
+## Guidelines and dosing
+- NICE CKS: Epistaxis (nosebleeds).
+- Reuben et al., *Ann Emerg Med* 2021: the NoPAC trial of tranexamic acid in epistaxis.
+- BNF: tranexamic acid, chlorhexidine–neomycin cream, mupirocin, co-phenylcaine.
