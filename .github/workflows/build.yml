@@ -68,16 +68,33 @@ jobs:
         with:
           name: ENT-Companion-Web
           path: release
+      - name: Check Android signing configuration
+        id: signing
+        env:
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+        run: |
+          if [ -n "$ANDROID_KEYSTORE_BASE64" ] && [ -n "$ANDROID_KEYSTORE_PASSWORD" ]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::Android signing is awaiting the replacement key. Publishing the verified web package."
+          fi
+      - name: Publish web package while Android signing is pending
+        if: steps.signing.outputs.ready == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -eu
+          tag="v2.0.$GITHUB_RUN_NUMBER-web"
+          gh release create "$tag" release/ENT-Companion-Web.zip             --target "$GITHUB_SHA" --prerelease --latest=false --title "The ENT Companion 2.0 Web"             --notes-file .github/web-release-notes.md
       - name: Build and verify signed Android release
+        if: steps.signing.outputs.ready == 'true'
         env:
           ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
           ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
         run: |
           set -eu
-          if [ -z "$ANDROID_KEYSTORE_BASE64" ] || [ -z "$ANDROID_KEYSTORE_PASSWORD" ]; then
-            echo "::error::Set ANDROID_KEYSTORE_BASE64 and ANDROID_KEYSTORE_PASSWORD in the repository's Actions secrets."
-            exit 1
-          fi
           umask 077
           export ANDROID_KEYSTORE_FILE="$RUNNER_TEMP/ent-companion.p12"
           trap 'rm -f "$ANDROID_KEYSTORE_FILE"' EXIT
@@ -89,6 +106,7 @@ jobs:
           apksigner=$(find "$sdk_root/build-tools" -name apksigner | sort -V | tail -1)
           "$apksigner" verify release/ENT-Companion.apk
       - name: Publish GitHub release
+        if: steps.signing.outputs.ready == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
