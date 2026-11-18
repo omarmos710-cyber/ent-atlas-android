@@ -13,7 +13,7 @@ module.exports=[
 ["disease","best imaging for residual cholesteatoma after canal wall up surgery","chole",/diffusion-weighted/i],
 ["disease","congenital cholesteatoma diagnostic features","chole",/intact drum/i],
 ["disease","aims of cholesteatoma surgery","chole",/make the ear safe/i],
-["disease","carhart notch frequency","otosc",/2000 Hz/i],
+["disease","carhart notch frequency","otosc",/2000 Hz|2 kHz/i],
 ["disease","site of predilection of otosclerosis","otosc",/fissula ante fenestram/i],
 ["disease","what is schwartze sign","otosc",/pink blush/i],
 ["disease","paracusis willisii","otosc",/better in a noisy/i],

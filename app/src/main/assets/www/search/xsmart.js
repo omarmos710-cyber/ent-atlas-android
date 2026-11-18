@@ -427,7 +427,9 @@ function multi(P,opt){const asp=P.aspects;const e=entityOf(P.topic,asp.map(a=>a.
  const per=Math.max(2,Math.ceil((opt.n||6)/asp.length));
  for(const a of asp){const A=answerMap(Object.assign({},P,{aspects:[a]}),{e,focus,n:per,art:opt.art});if(!A)continue;name=A.entity;for(const x of A.items){if(items.some(y=>y.text===x.text))continue;x.part=a.label;items.push(x)}}
  if(!items.length||new Set(items.map(x=>x.part)).size<2)return null;return {map:true,entity:name,conf:1,best:1,items}}
-function answer(S,opt){opt=opt||{};if(!S||!S.list||!M)return null;let P=S.P;if(/\b(viva|questions?|mcqs?|essays?|flashcards?|quiz)\b/i.test(P.raw||""))return null;
+/* a named sign or eponym with no line that says "sign" ("steeple sign"): read the best lines about the name itself */
+function answer(S,opt){const A=answer0(S,opt);if(A||!S||!S.P||!S.P.aspects.length||(opt&&opt.retry))return A;return answer0(Object.assign({},S,{P:Object.assign({},S.P,{aspects:[]})}),Object.assign({},opt||{},{retry:1,noMap:true}))}
+function answer0(S,opt){opt=opt||{};if(!S||!S.list||!M)return null;let P=S.P;if(/\b(viva|questions?|mcqs?|essays?|flashcards?|quiz)\b/i.test(P.raw||""))return null;
  if(!opt.noMap&&AM){if(P.parts){const C=compare(P,opt);if(C)return C}
   /* "approach to a hoarse voice": the approach article, compiled in the order a clinician works: red flags, history, examination, tests, management */
   if(/\bapproach(es)? to\b/.test(fold(P.raw||""))&&P.aspects.every(a=>a.id==="how"||a.id==="def")){const e=entityOf(P.topic,[]);

@@ -81,7 +81,7 @@ module.exports=[
 ["basics","when to remove a suction drain","b-drains",/25 to 50 ml in 24/i],
 ["basics","wound classes clean contaminated","b-prophylaxis",/clean-contaminated/i],
 ["basics","antibiotic prophylaxis for head and neck surgery","b-prophylaxis",/clean-contaminated|cefuroxime|co-amoxiclav/i],
-["basics","ASA grade","b-preop",/ASA 1 Normal healthy/i],
+["basics","ASA grade","b-preop",/ASA 1\W+(Description\W+)?Normal healthy/i],
 ["basics","fasting times before surgery","b-preop|b-paeds",/6 hours|2 hours/i],
 ["basics","relaxed skin tension lines","b-incisions",/relaxed skin tension/i],
 ["basics","when to remove facial sutures","b-wounds",/Face 5 days/i],
