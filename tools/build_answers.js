@@ -126,7 +126,8 @@ X.forEach((x, doc) => {
   /* the chapter and the article */
   const chapAsp = (A.a && A.a[chap]) || aspOf(chap, true) || aspOf(chap) || (/^using (it|them) in ent/i.test(chap) ? "tx" : /^(safety|ototoxicity)$/i.test(chap) ? "cx" : /^(at a glance|how (it|they) works?)$/i.test(chap) ? "def" : null);
   let artE = map({ e: A.e }, "e"); if (artE === undefined) artE = match(art, .5);
-  let chapE = map(A.c, chap); if (chapE === undefined) chapE = chapAsp ? -1 : match(chap, .6);
+  /* an operation's chapters ("Operating note", "Consent") are parts of the operation, never other conditions */
+  let chapE = map(A.c, chap); if (chapE === undefined) chapE = chapAsp || ar.startsWith("th:") ? -1 : match(chap, .6);
   const upper = chapE >= 0 ? chapE : chapE === -2 ? -1 : artE;
   /* the section itself */
   const isEv = ty === "ev";
@@ -154,7 +155,7 @@ X.forEach((x, doc) => {
   let subj = -1, line = -1, first = true;
   U.forEach(u => {
     const t = tidy(u.t); if (u.line !== line) { subj = -1; line = u.line }
-    const ok = t.length >= 25 && t.length <= 420 && !/\?$/.test(t) && !XREF.test(t);
+    const ok = t.length >= 25 && t.length <= (u.row ? 1000 : 420) && !/\?$/.test(t) && !XREF.test(t);
     /* a sentence that starts with another condition's name is about that condition ("Hashimoto thyroiditis is treated ...") */
     if (!u.row) { const m = subjectOf(t); if (m >= 0 && m !== secE) subj = m; else if (!S._x.PRON.test(t)) subj = -1 }
     if (!ok || (!u.row && !/[.!?;)]$/.test(t) && t.split(" ").length <= 6)) return;
@@ -172,6 +173,8 @@ X.forEach((x, doc) => {
       for (const [a, re] of STRONG) if (a !== secAsp && re.test(t) && !(u.row && /^(dx|tx)$/.test(secAsp) && /^(dx|tx)$/.test(a))) add(doc, u.k, ent, a, .85 * f); /* a table row keeps its section: "first line" in an investigations table is a test, not a drug */
       if (lab) add(doc, u.k, ent, lab, 1 * f);
       if (rowA) add(doc, u.k, ent, rowA, 1 * f);
+      /* a table row that gives an amount answers "dose" ("Ondansetron: adult 4 mg intravenously ...") */
+      if (u.row && rowA !== "dose" && /\b\d+(\.\d+)? ?(mg|g|micrograms?|ml|units)(\/kg)?\b/i.test(t)) add(doc, u.k, ent, "dose", .9 * f);
       /* cue words count for more in a sentence that is itself about the condition ("Hashimoto thyroiditis ... is treated with thyroxine") */
       for (const [a, n] of Object.entries(cues)) if (a !== secAsp) add(doc, u.k, ent, a, subjectLine ? Math.min(.75, .6 + .1 * n) : Math.min(.7, .35 + .15 * n) * (secAsp ? .6 : 1) * f);
       if ((defSec || (fromTitle && first)) && !u.row) add(doc, u.k, ent, "def", .8 * f);

@@ -94,12 +94,12 @@ const ASPECTS=[
  {id:"cx",label:"Complications",q:["complications","complication","sequelae","risks of","dangers"],h:/\b(complications?|sequelae|adverse|side effects|risks?|dangers?|cautions?|crisis)\b/,c:/\b(complicat\w*|risk|injur\w*|fistula|bleed\w*|haemorrhage|infection)\b/},
  {id:"ddx",label:"Differential diagnosis",q:["differential diagnosis","differential diagnoses","differentials","differential","ddx","mimics","versus","vs","distinguish","difference between"],h:/\b(differential|mimics?|versus|distinguish|or\b)/,c:/\b(differential|mimic\w*|distinguish\w*)\b/},
  {id:"cls",label:"Classification",q:["classification","classify","types","type","staging","stage","grading","grade","grades","stages","scale","scoring","score"],h:/\b(classification|types?|staging|stages?|grading|grades?|scale|score|kinds)\b/,c:/\b(type|grade|stage|class\w*)\b/},
- {id:"an",keep:1,label:"Anatomy",q:["applied anatomy","surgical anatomy","anatomy","landmarks","supply","drainage"],h:/\b(anatomy|course|relations|supply|drainage|landmarks?|boundaries|embryolog\w*|nerves?|vessels)\b/,c:/\b(lies|runs|supplied|drains?|between|relation\w*)\b/},
+ {id:"an",keep:1,label:"Anatomy",q:["structures at risk","nerves at risk","at risk","danger structures","applied anatomy","surgical anatomy","anatomy","landmarks","landmark","supply","drainage"],h:/\b(anatomy|course|relations|supply|drainage|landmarks?|boundaries|embryolog\w*|nerves?|vessels)\b/,c:/\b(lies|runs|supplied|drains?|between|relation\w*)\b/},
  {id:"ci",label:"Contraindications",q:["contraindications to","contraindications for","contraindications of","contra indications","contra-indications","contraindications","contraindication","contraindicated","when not to","when to avoid","should not be given","should not be used"],h:/\b(contra-?indications?|contraindicated|cautions?|when not to|avoid)\b/,c:/\b(contra-?indicat\w*)\b/,cx:/\b(contra-?indicat\w*|avoid\w*|never|must not|should not|not (be )?(used|given|done))\b/},
  {id:"ind",label:"Indications",q:["what is it used for","used for","uses of","uses","when should i operate","when should i do","when should we do","when should you do","when to perform","when do you operate","when do you do","when is it indicated","who needs","indications for","indications","indication","when to operate","when to refer","when to do","criteria"],h:/\b(indications?|criteria|when|who needs|selection|choosing)\b/,c:/\b(?<!contra-?)(indicat\w*|criteria)\b/},
  {id:"how",label:"Technique",q:["how to do","how is it done","technique","procedure","steps","step by step","operation","operative steps","surgical steps","approach"],h:/\b(technique|steps?|procedure|operation|approach|incision|exposure|stage by stage)\b/,c:/\b(incis\w*|elevat\w*|dissect\w*|expos\w*)\b/},
  {id:"px",label:"Prognosis",q:["prognosis","outcome","outcomes","survival","recurrence rate","natural history","recovery"],h:/\b(prognosis|outcomes?|survival|natural history|recovery|follow-?up)\b/,c:/\b(prognos\w*|survival|recover\w*|outcome\w*)\b/},
- {id:"def",label:"Definition",q:["what is","what are","define","definition","meaning of","describe"],h:/\b(definitions?|what it is|overview|nature)\b/,c:/\bis an?\b/}
+ {id:"def",label:"Definition",q:["what does it stand for","stand for","stands for","abbreviation for","what is","what are","define","definition","meaning of","describe"],h:/\b(definitions?|what it is|overview|nature)\b/,c:/\bis an?\b/}
 ];
 /* soft synonyms: searched with half weight, never needed for a match */
 const SOFT={injury:["palsy","damage","trauma"],injuries:["palsy","damage"],damage:["injury","palsy"],cancer:["carcinoma","tumor","malignancy"],carcinoma:["cancer"],tumor:["tumour","neoplasm","cancer"],bleeding:["haemorrhage","hemorrhage","bleed"],haemorrhage:["bleeding"],syndrome:["triad","disease"],disease:["syndrome"],infant:["child","neonate","newborn"],infants:["children","neonates"],child:["paediatric","infant"],children:["paediatric"],kid:["child"],kids:["children"],baby:["infant","neonate"],drugs:["drug","medication"],swallowed:["ingested","swallow"],coin:["coins","foreign body"],surgery:["operation","surgical"],operation:["surgery"],nerve:["nerves"],deafness:["hearing loss"],deaf:["hearing loss"]};
@@ -308,20 +308,28 @@ function entitiesOf(topic){if(!AM)return [];const TA=toks(topic),T=new Set(TA);c
   /* the same name for two conditions: prefer the one that has its own description */
   out.push(a);a.t.forEach(x=>used.add(x))}
  return out}
+/* the words of anatomy and other kept question phrases ("branches", "nerve supply") name the part asked about, not a narrower topic */
+const KEEPTOK=new Set(ASPECTS.filter(a=>a.keep).flatMap(a=>a.q.flatMap(p=>toks(p))));
 const PROC=/(ectomy|otomy|ostomy|oscopy|plasty|pexy|surgery|operation|repair|drainage|biopsy|dissection|implant|tracheostomy|grommets?|ventilation tubes?|myotomy|ligation|reduction)\b/i;
 function entityOf(topic,asp){if(!AM)return null;const T=new Set(toks(topic));const all=entitiesOf(topic);if(!all.length)return null;
  let best=all[0];
  for(const a of all.slice(1))if(a.n===best.n&&AM.by.has(a.i+"|def")&&!AM.by.has(best.i+"|def"))best=a;
  /* "tonsillectomy in recurrent tonsillitis" asked for indications or risks is about the operation */
- if(all.length>1&&asp&&asp.some(x=>/^(ind|ci|how|cx)$/.test(x))){const op=all.find(a=>PROC.test(AM.names[a.i][0]));if(op)best=op}
+ if(all.length>1&&asp&&asp.some(x=>/^(ind|ci|how|cx|consent|pos|anaes|prep|post)$/.test(x))){const op=all.find(a=>PROC.test(AM.names[a.i][0]));if(op)best=op}
+ /* otherwise a condition named as long as a procedure is the subject ("hoarseness before laryngoscopy") */
+ else if(all.length>1&&PROC.test(AM.names[best.i][0])){const c=all.find(a=>a.n===best.n&&!PROC.test(AM.names[a.i][0]));if(c)best=c}
  /* a word that changes the disease (acute, chronic, necrotising) must not be left over, unless another condition in the question explains it */
  const covered=new Set(all.flatMap(a=>a.t));
  for(const t of T)if(QUAL.has(t)&&!AGEW.has(t)&&!best.t.includes(t)&&!(covered.has(t)&&best!==all[0]))return null;
- ENTFOCUS=[...T].filter(t=>!best.t.includes(t)&&t.length>2);
+ ENTFOCUS=[...T].filter(t=>!best.t.includes(t)&&t.length>2&&!KEEPTOK.has(t));
  return best.i}
 let CTXK=new Set();
 function answerMap(P,opt){if(!AM)return null;CTXK=new Set();const e=opt.e!==undefined?opt.e:entityOf(P.topic,P.aspects.map(a=>a.id));if(e===null)return null;if(opt.e!==undefined)ENTFOCUS=opt.focus||[];
  const asp=P.aspects.length?P.aspects.map(a=>a.id):["def"];let lab=[];for(const a of asp)lab=lab.concat(AM.by.get(e+"|"+a)||[]);
+ /* a narrower question with no lines of its own takes the nearest wider one: side effects -> complications, dose -> treatment,
+    nerve supply -> anatomy, red flags -> clinical picture */
+ if(lab.reduce((m,x)=>Math.max(m,x[2]),0)<.5){const FB={dose:["tx"],se:["cx"],cx:["se"],preg:["ci"],int:["ci"],mech:["why","def"],why:["mech"],spec:["def","ind"],flag:["cf","dx"],hx:["cf"],exam:["cf","dx"],consent:["cx","ind"],pos:["how","prep"],anaes:["prep","how"],prep:["dx","how"],post:["tx","cx"],nerve:["an"],blood:["an"],lymph:["an"],bound:["an"],cont:["an"],rel:["an"],musc:["an"],parts:["an","def"],branch:["an"],course:["an"],dev:["an","why"],an:["def"],ind:["tx"]};
+  for(const a of asp)for(const f of FB[a]||[])lab=lab.concat((AM.by.get(e+"|"+f)||[]).map(([d,k,w])=>[d,k,w*.9]))}
  /* "indications for surgery in X" when X has no indications heading: the treatment lines that say when */
  if(!lab.length&&asp.some(a=>a==="ind"||a==="ci")){const re=asp.includes("ci")?/\b(contra-?indicat\w*|avoid\w*|never|must not|should not)\b/i:/\b(persist\w*|despite|fail\w*|refractory|indicat\w*|when|unless|reserved for|for patients|if the)\b/i;
   lab=(AM.by.get(e+"|tx")||[]).filter(([d,k])=>{const u=units(D.docs[d].body)[k];return u&&re.test(u.t)}).map(([d,k,w])=>[d,k,w*.9])}
