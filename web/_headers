@@ -4,3 +4,5 @@
   Cache-Control: no-cache
 /
   Cache-Control: no-cache
+/sw-manifest.js
+  Cache-Control: no-cache

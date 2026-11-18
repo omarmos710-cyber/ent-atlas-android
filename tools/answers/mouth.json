@@ -1062,6 +1062,7 @@
    }
   },
   "cl:t-tonsil": {
+   "a": {"Contraindications": "contra"},
    "e": "tonsillitis",
    "c": {
     "Applied anatomy": "palatine",
