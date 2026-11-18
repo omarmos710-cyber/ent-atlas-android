@@ -41,6 +41,17 @@ Non-contrast CT in three planes is the gold standard: it shows the extent of dis
 Allergy testing, a sweat test or genetics for cystic fibrosis in children, ciliary studies, immunoglobulins, eosinophil count and ANCA when vasculitis is suspected ([[t:gpa]]), and culture from the middle meatus.
 ## Symptom scores
 Patient-reported scores such as SNOT-22 measure the burden and the response to treatment.
+## Investigations: what and when
+!table Chronic rhinosinusitis: investigations
+Role | Test | When and what it shows
+Diagnosis (first line) | Nasal endoscopy, before and after decongestion | Polyps, oedema, pus from the middle meatus; Lund–Kennedy score
+Symptom burden | SNOT-22 | Baseline and response
+Gold standard imaging | Non-contrast CT of the sinuses in three planes | Extent (Lund–Mackay), anatomy for surgery; after failed medical treatment, not as a screen
+Unilateral disease, bone erosion or orbital or intracranial signs | Contrast MRI | Tumour, mucocele, complications
+Unilateral polyp or mass | Biopsy | Inverted papilloma, malignancy
+Selected | Skin prick or specific IgE; blood eosinophils and total IgE; immunoglobulins; ANCA; sweat test or CF genetics in children; ciliary studies | Type 2 endotype, immune deficiency, vasculitis, cystic fibrosis, primary ciliary dyskinesia
+Exacerbations | Endoscopic middle meatal swab | Culture-guided antibiotics
+!!
 
 # Differential diagnosis | What else looks like polyps.
 A blob of mucus (disappears on blowing), a hypertrophied middle turbinate (pink and bony on probing), angiofibroma (bleeds, firm), inverted papilloma and malignancy (one-sided, fleshy, friable).
@@ -110,6 +121,20 @@ Usually part of pansinusitis; endoscopic ethmoidectomy and sphenoidotomy.
 - **Treat asthma** with the respiratory team.
 - **Aspirin-exacerbated disease:** leukotriene modifiers, and aspirin desensitisation after surgery.
 - **Biologics:** monoclonal antibodies against type 2 inflammation (dupilumab against the IL-4 receptor, omalizumab against IgE, mepolizumab against IL-5). EPOS 2020 indicates them for bilateral polyps after sinus surgery (or in patients unfit for it) with at least three of: evidence of type 2 disease (tissue eosinophils 10 or more per high-power field, blood eosinophils 0.25 x 10⁹/L or more, or total IgE 100 or more), need for systemic steroids (two or more courses a year or long-term use), SNOT-22 of 40 or more, anosmia on testing, and asthma needing inhaled steroids. Response is reviewed at 16 weeks and one year. Availability is limited by cost and national approval.
+## Drugs and doses
+!table Chronic rhinosinusitis: drugs and doses
+Step | Drug and dose | Course and notes
+Every patient | High-volume saline irrigation (about 150 to 250 ml each side) once or twice a day | Long term; before steroid sprays
+Every patient (first line) | Intranasal steroid spray: mometasone 50 micrograms, 2 sprays each nostril once daily, increased to twice daily for polyps; or fluticasone propionate | Long term; head-down technique; at least 3 months before judging
+Polyps, spray not enough | Steroid drops: fluticasone 400 microgram nasule (200 micrograms each nostril once or twice daily) or betamethasone 0.1% drops 2 drops each nostril two or three times daily | Betamethasone for short courses only (systemic absorption)
+Polyps, severe flare or before surgery | Short oral prednisolone course (trials used 25 to 50 mg daily for about 2 weeks) | Limit to 1 or 2 courses a year (EPOS 2020); check bone, glucose, eyes
+Polyps (alternative adjunct) | Doxycycline 200 mg on day 1, then 100 mg daily | 20 days; modest reduction in polyp size
+Acute bacterial exacerbation | Culture-guided antibiotic | Short course
+Long-term macrolide | Not recommended routinely | MACRO trial (2025): clarithromycin no better than placebo
+Bilateral polyps after surgery (or unfit), type 2 inflammation, uncontrolled | Biologic: dupilumab 300 mg SC every 2 weeks; mepolizumab 100 mg SC every 4 weeks; omalizumab by weight and IgE | Specialist; NHS access is limited
+Aspirin-exacerbated disease | Montelukast 10 mg at night; aspirin desensitisation after surgery in selected patients | Specialist
+!!
+Based on EPOS 2020 (Fokkens et al., *Rhinology* 2020), the MACRO trial (Philpott et al., *Lancet* 2025), the doxycycline trial (Van Zele et al., *J Allergy Clin Immunol* 2010), product licences and the BNF.
 ## Endoscopic sinus surgery
 For patients whose symptoms persist despite adequate medical treatment (usually at least eight weeks of saline and intranasal steroids). It removes polyps and diseased tissue, opens the natural ostia, corrects obstructing anatomy, and makes a cavity that saline and steroids can reach. For diffuse type 2 disease the aim is a complete, wide cavity (a "neo-sinus") for topical steroid access; limited opening of the ostia suits localised disease. Medical treatment continues afterwards. Revision is common in polyposis. In cystic fibrosis and ciliary disease, wide dependent drainage of the maxillary and sphenoid sinuses is made.
 !fig d37-4 d37-5 | Functional endoscopic sinus surgery, without and with a camera and monitor.
@@ -156,3 +181,6 @@ A sudden worsening that returns to the chronic baseline after treatment. Acute r
 - Philpott et al., *Lancet* 2025: the MACRO trial.
 - Bachert et al., *Lancet* 2019: dupilumab phase 3 trials.
 - Chong et al., Cochrane review, 2016: saline irrigation.
+## Guidelines and dosing
+- Van Zele et al., *J Allergy Clin Immunol* 2010: oral steroids and doxycycline for nasal polyps.
+- BNF: mometasone, fluticasone nasules, betamethasone nasal drops, prednisolone, doxycycline, dupilumab, mepolizumab.

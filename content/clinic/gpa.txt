@@ -57,6 +57,14 @@ Lee: Fluoroquinolones such as ciprofloxacin, or tetracyclines, for months.
 In practice: A long course of a fluoroquinolone or a tetracycline, guided by culture, until two consecutive biopsy cultures are negative.
 !!
 Surgery restores the airway (including tracheostomy for subglottic stenosis) and corrects deformity.
+### Drugs and doses
+!table Rhinoscleroma: drugs and doses
+Step | Drug and dose | Course and notes
+First line (modern) | Ciprofloxacin 500 to 750 mg twice a day | Months, until two consecutive biopsy cultures are negative
+Alternatives | Doxycycline 100 mg twice a day; or co-trimoxazole | Same end point
+Obstruction | Surgical debulking or airway procedures | Tracheostomy for laryngeal stage
+!!
+Regimens from published reviews (no randomised trials); doses from the BNF.
 
 # Tuberculosis {dz} | Of the nose.
 ## Etiology
@@ -67,6 +75,14 @@ Nodular infiltration, then ulceration of the anterior septum and anterior end of
 Biopsy with acid-fast stains and culture.
 ## Management
 Antituberculous drugs.
+### Drugs and doses
+!table Nasal tuberculosis: drugs and doses
+Phase | Drug and dose | Course and notes
+Intensive | Isoniazid 5 mg/kg (maximum 300 mg), rifampicin (450 mg under 50 kg, 600 mg from 50 kg), pyrazinamide (1.5 g under 50 kg, 2 g from 50 kg), ethambutol 15 mg/kg daily | 2 months
+Continuation | Isoniazid and rifampicin | 4 months
+Every patient | Pyridoxine; liver function; HIV test | 
+!!
+Doses from NICE NG33 and the BNF.
 
 # Lupus vulgaris {dz} | Tuberculosis of the vestibule and skin.
 ## Clinical features
@@ -83,6 +99,13 @@ The anterior septum and inferior turbinate become red and swollen with excess di
 Scrapings and biopsy (lepra bacilli in foamy *lepra cells*).
 ## Management
 Multidrug therapy with dapsone and rifampicin; reconstruction when inactive.
+### Drugs and doses
+!table Leprosy: drugs and doses (adults, WHO)
+Type | Drug and dose | Course and notes
+All types (WHO 2018: three drugs) | Rifampicin 600 mg once a month; clofazimine 300 mg once a month plus 50 mg daily; dapsone 100 mg daily | Paucibacillary 6 months; multibacillary 12 months
+Before dapsone | G6PD where available | Haemolysis risk
+!!
+Doses from the WHO guidelines for the diagnosis, treatment and prevention of leprosy (2018).
 ## Complications
 Late sequelae: atrophic rhinitis, a depressed bridge and loss of the anterior nasal spine with a retracted columella.
 !fig d28-3 | Leprosy of the nose.
@@ -119,6 +142,13 @@ Cutaneous lesions on exposed skin progress from papules to crusted ulcers; mucos
 Biopsy, culture and PCR.
 ## Management
 Mucosal disease needs parenteral antimonials (sodium stibogluconate or meglumine antimoniate).
+### Drugs and doses
+!table Mucosal leishmaniasis: drugs and doses
+Step | Drug and dose | Course and notes
+First line (many regions) | Pentavalent antimonial (sodium stibogluconate or meglumine antimoniate) 20 mg Sb/kg IV or IM daily | 28 to 30 days; ECG, liver and pancreatic monitoring
+Alternatives | Liposomal amphotericin B; miltefosine (oral, weight-based) | Species and region guide the choice
+!!
+Based on WHO and IDSA/ASTMH leishmaniasis guidance (Aronson et al., *Clin Infect Dis* 2016).
 
 # Granulomatosis with polyangiitis {dz} | Formerly Wegener's.
 ## Pathophysiology
@@ -129,12 +159,33 @@ A persistent cold or sinusitis, bloodstained then purulent discharge, crusting, 
 Fatigue, night sweats, arthralgia, anaemia; cough and haemoptysis with cavitating lung nodules; glomerulonephritis with blood, casts and protein in the urine and a rising creatinine, the usual cause of death untreated.
 ## Diagnosis
 *c-ANCA* (anti-proteinase 3) is positive in most active systemic disease; raised ESR and CRP; urinalysis and creatinine; chest imaging. Nasal biopsy shows necrosis, granulomas and vasculitis, though often non-specific.
+### Investigations: what and when
+!table Granulomatosis with polyangiitis: investigations
+Role | Test | When and what it shows
+First line | ANCA by ELISA: PR3 (c-ANCA), MPO (p-ANCA) | PR3 positive in most active systemic disease; may be negative in limited ENT disease
+Every patient | Urinalysis for blood and protein, creatinine | Renal involvement: urgent
+Every patient | Chest X-ray, then CT chest | Nodules, cavities
+Every patient | ESR, CRP, full blood count | Activity
+Confirmation | Biopsy of nose or other affected organ (kidney gives the highest yield) | Necrosis, granulomas, vasculitis
+Subglottic or ear involvement | Laryngoscopy; audiogram | Subglottic stenosis; hearing loss
+!!
 ## Management
 Steroids with cyclophosphamide or rituximab to induce remission, then rituximab, azathioprine or methotrexate to maintain it (rituximab gives fewer relapses than azathioprine), with the rheumatology and renal teams. Nasal douching for crusts; reconstruction only when quiescent.
 !imaging | Granulomatosis with polyangiitis in the nose, sinuses and orbit.
 !update Current evidence
 **Classification.** The ACR/EULAR 2022 criteria for granulomatosis with polyangiitis give heavy weight to nasal involvement (bloody discharge, crusting, ulceration, septal perforation) and to c-ANCA or PR3-ANCA (Robson et al., *Ann Rheum Dis* 2022). **Induction.** Rituximab was as effective as cyclophosphamide for inducing remission and better for relapsing disease (Stone et al., *NEJM* 2010, the RAVE trial). In PEXIVAS, plasma exchange did not reduce death or end-stage kidney disease, and a reduced-dose steroid regimen was as effective as the standard one with fewer infections (Walsh et al., *NEJM* 2020). Avacopan, a complement C5a receptor blocker, allowed steroids to be tapered and gave better sustained remission at one year (Jayne et al., *NEJM* 2021, ADVOCATE). **Maintenance.** Rituximab maintenance gave fewer relapses than azathioprine (Guillevin et al., *NEJM* 2014, MAINRITSAN).
 !!
+### Drugs and doses
+!table Granulomatosis with polyangiitis: drugs and doses
+Phase | Drug and dose | Course and notes
+Induction, organ- or life-threatening disease | Rituximab 375 mg/m² weekly for 4 weeks, or 1 g twice 2 weeks apart; or cyclophosphamide IV 15 mg/kg pulses (dose reduced for age and renal function) | With rheumatology and renal teams
+Induction steroid | Prednisolone about 1 mg/kg (maximum 60 to 75 mg), tapered; reduced-dose taper as in PEXIVAS | Avacopan 30 mg twice daily can replace much of the steroid
+Maintenance | Rituximab 500 mg every 6 months (or azathioprine or methotrexate) | 24 to 48 months
+Limited ENT disease without threat to organs | Methotrexate (with folic acid) or mycophenolate with steroid | Specialist
+Every patient | Co-trimoxazole 480 mg daily or 960 mg three times a week | *Pneumocystis* prophylaxis during induction
+Nose | Saline douches; emollient; treat *Staphylococcus aureus* carriage (mupirocin) | Reconstruction only in long remission
+!!
+Regimens from the EULAR recommendations for ANCA-associated vasculitis (Hellmich et al., *Ann Rheum Dis* 2024) and the BSR guideline (Ntatsaki et al., *Rheumatology* 2014).
 
 # Eosinophilic granulomatosis with polyangiitis {dz} | Churg-Strauss syndrome.
 ## Clinical features
@@ -151,6 +202,14 @@ In the nose: submucosal nodules on the septum and inferior turbinate with obstru
 Chest imaging shows hilar adenopathy; serum calcium and *serum ACE* are raised in active disease.
 ## Management
 Topical and systemic steroids.
+### Drugs and doses
+!table Sinonasal sarcoidosis: drugs and doses
+Step | Drug and dose | Course and notes
+Local disease | Saline douches; intranasal steroid spray or drops | Long term
+Troublesome or systemic disease | Prednisolone 20 to 40 mg daily, tapered | Months, with respiratory team
+Steroid-sparing | Methotrexate; hydroxychloroquine for skin and nose | Specialist
+!!
+Based on the ERS sarcoidosis treatment guideline (Baughman et al., *Eur Respir J* 2021).
 
 # NK/T-cell lymphoma {dz} | The cancer that looks like inflammation.
 ## Etiology and epidemiology
@@ -195,3 +254,10 @@ Radiotherapy with chemotherapy. It must be told apart from granulomatosis with p
 ## Studies cited
 - Robson et al., *Ann Rheum Dis* 2022: ACR/EULAR classification criteria.
 - Stone et al., *NEJM* 2010: RAVE; Walsh et al., *NEJM* 2020: PEXIVAS; Jayne et al., *NEJM* 2021: ADVOCATE; Guillevin et al., *NEJM* 2014: MAINRITSAN.
+## Guidelines and dosing
+- Hellmich et al., *Ann Rheum Dis* 2024: EULAR recommendations for ANCA-associated vasculitis (2022 update).
+- Ntatsaki et al., *Rheumatology* 2014: BSR and BHPR guideline for ANCA-associated vasculitis.
+- WHO 2018: guidelines for the diagnosis, treatment and prevention of leprosy.
+- Aronson et al., *Clin Infect Dis* 2016: IDSA and ASTMH guideline for leishmaniasis.
+- Baughman et al., *Eur Respir J* 2021: ERS clinical practice guideline on sarcoidosis treatment.
+- NICE NG33: Tuberculosis.

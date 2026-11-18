@@ -98,6 +98,15 @@ Head and neck and neurological examination, including cognition and mood. Endosc
 - **University of Pennsylvania Smell Identification Test:** a 40-item scratch-and-sniff test scored out of 40.
 ## Imaging
 CT of the sinuses for inflammatory disease; MRI of the anterior cranial fossa and olfactory bulbs when the cause is unclear, after trauma, or with phantosmia or neurological signs.
+## Investigations: what and when
+!table Smell loss: investigations
+Role | Test | When and what it shows
+Every patient | Nasal endoscopy of the olfactory cleft and middle meatus (no topical anaesthetic before testing) | Polyps, inflammation, mass
+Diagnosis (first line, quantified) | Validated psychophysical test: Sniffin' Sticks (threshold, discrimination, identification) or UPSIT | Normosmia, hyposmia, anosmia; baseline for follow-up
+Inflammatory cause suspected | CT of the sinuses | Olfactory cleft and sinus disease
+Unclear cause, trauma, phantosmia, neurological signs, unilateral loss | MRI of the anterior cranial fossa and olfactory bulbs | Tumour, bulb loss, contusion
+Not routine | Blood tests | Only when the history points (diabetes, thyroid, B12, renal or liver disease)
+!!
 
 # Management | Treat what can be treated.
 ## Conductive loss
@@ -109,6 +118,15 @@ Treat the inflammation: topical steroids (drops in the head-down position reach 
 - Parosmia during recovery is often a good sign.
 - Unexplained phantosmia or smell loss with neurological signs needs MRI.
 !!
+## Treatment: what and when
+!table Smell loss: treatment
+Cause | Treatment and dose | Course and notes
+Every patient | Safety advice: smoke and gas alarms, food dates | 
+Post-viral (including COVID-19) or post-traumatic | Olfactory training: sniff four strong odours (for example rose, lemon, clove, eucalyptus) for about 20 seconds each, twice a day | At least 3 to 6 months; recommended by the international consensus
+Chronic rhinosinusitis, polyps | Steroid drops head-down (for example betamethasone 0.1% short courses) or sprays; short oral steroid course to test reversibility; sinus surgery | As for chronic rhinosinusitis
+Not recommended routinely | Oral steroids for post-viral loss; zinc; vitamin A; theophylline | Evidence weak or absent
+!!
+Based on the position paper on olfactory dysfunction (Hummel et al., *Rhinology* 2017; update 2023) and the Clinical Olfactory Working Group consensus (Addison et al., *J Allergy Clin Immunol* 2021).
 
 # Tips and links | For the examination and the ward.
 ## Viva essentials
@@ -137,3 +155,6 @@ Treat the inflammation: topical steroids (drops in the head-down position reach 
 - K. J. Lee, *Essential Otolaryngology*, chapter 27.
 ## Studies cited
 - Whitcroft et al., *Rhinology* 2023: olfactory dysfunction.
+## Guidelines and dosing
+- Hummel et al., *Rhinology* 2017 (update 2023): position paper on olfactory dysfunction.
+- Addison et al., *J Allergy Clin Immunol* 2021: Clinical Olfactory Working Group consensus on treatment of olfactory dysfunction.

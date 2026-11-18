@@ -42,6 +42,14 @@ One-sided obstruction, discharge and bleeding, with a firm, greyish, irregular m
 !fig d39-4 | Histology of a Schneiderian papilloma: ribbons of thickened epithelium growing into the stroma.
 ## Diagnosis
 CT shows a one-sided mass and focal hyperostosis at the site of attachment; MRI shows a *convoluted cerebriform* pattern.
+### Investigations: what and when
+!table Inverted papilloma: investigations
+Role | Test | When and what it shows
+Diagnosis | Endoscopic biopsy of any unilateral polyp | Inverted papilloma; carcinoma in about 5 to 10%
+Extent | CT of the sinuses | Focal hyperostosis marks the attachment site
+Extent and malignancy | Contrast MRI | Convoluted cerebriform pattern; loss of it suggests carcinoma
+Follow-up | Endoscopy for years; MRI when the cavity cannot be seen | Recurrence
+!!
 ## Management
 Complete removal including the mucoperiosteum and drilling of the bone at the site of attachment, now usually endoscopic (endoscopic medial maxillectomy) and formerly by lateral rhinotomy or midfacial degloving. Long-term endoscopic follow-up.
 !update Current evidence
@@ -89,6 +97,16 @@ Nodes are uncommon and late (submandibular and upper jugular); the first-echelon
 - **Biopsy:** endoscopic, or from the mouth or nose when the tumour presents there; the Caldwell-Luc route is no longer preferred.
 - **Staging:** chest CT or PET-CT.
 !imaging sinonasal-tumours malignancy-of-the-pterygopalatine-and-infratempo | Sinonasal malignancy and spread into the pterygopalatine and infratemporal fossae.
+### Investigations: what and when
+!table Sinonasal carcinoma: investigations
+Role | Test | When and what it shows
+First (clinic) | Nasal endoscopy; cranial nerve and eye examination; neck | Mass, orbital signs, V2 numbness, nodes
+Bone extent | CT of the sinuses in three planes | Bone erosion; T stage
+Soft tissue extent | Contrast MRI | Tumour versus retained secretions; orbit, perineural spread, dura and brain
+Diagnosis (gold standard) | Endoscopic biopsy (after imaging, so a vascular or CSF-containing lesion is not biopsied blind) | Histology and subtype; immunohistochemistry
+Staging | CT chest or PET-CT; neck imaging | Nodes and distant spread
+Before treatment | Dental and ophthalmic assessment | Obturator planning; orbital function
+!!
 ## Subtypes and variants: classifications
 ### Ohngren's line
 An imaginary line from the medial canthus to the angle of the mandible. Tumours above and behind it (suprastructure) have a worse prognosis than those below and in front of it.
@@ -122,6 +140,16 @@ Neck dissection or irradiation for nodal disease, and elective treatment in some
 !update Current evidence
 **Endoscopic surgery.** The European position paper on endoscopic management of sinonasal and skull base tumours concluded that, in selected patients and experienced hands, endoscopic resection gives survival comparable to open surgery with less morbidity (Lund et al., *Rhinology Suppl* 2010); later large series and database studies support this for appropriately selected T1 to T3 tumours.
 !!
+### Treatment steps
+!table Sinonasal carcinoma: treatment
+Situation | Treatment | Notes
+Resectable | Surgery with clear margins (endoscopic or open), then postoperative radiotherapy (about 60 to 66 Gy) for most | MDT decision
+High-risk features (positive margins, extranodal spread) | Postoperative chemoradiotherapy with cisplatin (commonly 100 mg/m² every 3 weeks) | 
+Unresectable, or orbit preservation strategies | Chemoradiotherapy; induction chemotherapy in selected tumours | 
+Nodes | Neck dissection or radiotherapy | 
+Rehabilitation | Dental obturator or free flap; orbital prosthesis | 
+!!
+Based on the UK national multidisciplinary guidelines for sinonasal tumours (Lund et al., *J Laryngol Otol* 2016) and the European position paper on endoscopic management of tumours of the nose, sinuses and skull base.
 ## Prognosis
 Five-year survival is around a third to a half overall, worse with orbital apex, skull base or intracranial spread.
 
@@ -184,3 +212,6 @@ Small and large cell types, treated with combined chemotherapy and radiotherapy.
 ## Studies cited
 - Lund et al., *Rhinology Suppl* 2010: European position paper on endoscopic management of sinonasal and skull base tumours.
 - Amit et al., *J Clin Oncol* 2019: induction chemotherapy for SNUC.
+## Guidelines and dosing
+- Lund et al., *J Laryngol Otol* 2016: UK national guidelines for sinonasal tumours.
+- Lund et al., *Rhinol Suppl* 2010: European position paper on endoscopic management of tumours of the nose, sinuses and skull base.

@@ -26,6 +26,16 @@ Visual acuity, colour vision and formal perimetry. A field defect is the commone
 - **MRI with gadolinium** is the key test. A *microadenoma* is a small area that enhances less than the normal gland, often seen only after contrast. A *macroadenoma* is usually iso- to hypointense on T1 and may be *dumbbell-shaped* where the diaphragma pinches it. Blood within it is bright on T1.
 - **CT** shows the sphenoid anatomy, septa and bony dehiscence for planning and navigation, and calcification in a craniopharyngioma.
 - **CT or MR angiography** if a lesion might be an aneurysm or the carotids are close together ("kissing carotids").
+## Investigations: what and when
+!table Pituitary tumours: investigations
+Role | Test | When and what it shows
+Every patient | Prolactin (with dilution for macroadenomas, hook effect), 9 am cortisol, TSH and free T4, LH, FSH, sex steroids, IGF-1, sodium | Hypersecretion and hypopituitarism
+Suspected excess | Dynamic tests: oral glucose tolerance test with GH (acromegaly); overnight dexamethasone suppression, late-night salivary cortisol, 24-hour urine cortisol (Cushing's) | Confirms the syndrome
+Gold standard imaging | MRI of the pituitary with gadolinium | Micro- or macroadenoma; chiasm and cavernous sinus
+Surgical planning | CT of the sinuses; CT or MR angiography if carotids are close or an aneurysm is possible | Sphenoid anatomy; vessels
+Every macroadenoma | Formal visual fields, acuity, colour vision | Bitemporal loss; baseline
+Thirst or polyuria | Paired plasma and urine osmolality, sodium | Diabetes insipidus
+!!
 
 # Management | Tablets, observation or surgery.
 ## First treatment by lesion
@@ -66,6 +76,17 @@ Some patients develop delayed hyponatraemia about a week after surgery from rele
 Give perioperative hydrocortisone to patients who are, or may become, ACTH deficient, and test the axis before stopping it.
 ### The nose
 Advise against nose blowing, straining and drinking through straws while the repair heals. Nasal douching and debridement reduce crusting and synechiae.
+## Drugs and doses
+!table Pituitary disease: drugs and doses
+Situation | Drug and dose | Course and notes
+Prolactinoma (first line, even with field loss) | Cabergoline 0.25 to 0.5 mg once or twice a week, increased monthly by prolactin | Usually at least 2 years; echocardiography at high doses; watch for impulse-control disorders and CSF leak as the tumour shrinks
+Pituitary apoplexy or adrenal crisis | Hydrocortisone 100 mg IV at once, then 50 to 100 mg every 6 hours (or 200 mg a day by infusion) | Decompress if vision or consciousness worsens
+Perioperative, ACTH-deficient or at risk | Hydrocortisone at induction (50 to 100 mg IV) and every 6 hours, then oral replacement tapered | Test the axis (morning cortisol) before stopping
+Diabetes insipidus after surgery | Desmopressin 1 microgram SC or IV (or oral 100 micrograms), repeated by urine output and sodium | Watch for the triphasic response and hyponatraemia
+Acromegaly not cured by surgery | Somatostatin analogue: octreotide LAR 20 mg or lanreotide 120 mg every 4 weeks; pegvisomant or pasireotide second line | IGF-1 guided
+Hypopituitarism | Hydrocortisone (for example 15 to 20 mg a day in divided doses), levothyroxine (after cortisol is replaced), sex steroids, growth hormone | Sick-day rules and steroid emergency card
+!!
+Doses from the Endocrine Society hyperprolactinaemia guideline (Melmed et al., *J Clin Endocrinol Metab* 2011), the UK pituitary apoplexy guideline (Rajasekaran et al., *Clin Endocrinol* 2011), Society for Endocrinology emergency guidance and the BNF.
 
 # Complications | Of surgery.
 !table Complications to know
@@ -164,3 +185,7 @@ Chordoma of the clivus, chondrosarcoma, metastases, lymphocytic hypophysitis, an
 ## Studies cited
 - Petersenn et al., *Nat Rev Endocrinol* 2023: Pituitary Society consensus on prolactinoma.
 - Rajasekaran et al., *Clin Endocrinol* 2011: UK guideline on pituitary apoplexy.
+## Guidelines and dosing
+- Melmed et al., *J Clin Endocrinol Metab* 2011: Endocrine Society guideline on hyperprolactinaemia.
+- Rajasekaran et al., *Clin Endocrinol* 2011: UK guidelines for pituitary apoplexy.
+- BNF: cabergoline, hydrocortisone, desmopressin, octreotide, lanreotide.

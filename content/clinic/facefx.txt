@@ -24,6 +24,27 @@ The order of work never changes: airway, breathing, circulation and the cervical
 !!
 ## Soft tissue injuries
 Clean and close lacerations early, preserving tissue; look for injury to the parotid duct and the facial nerve in cheek wounds and repair them primarily.
+## Investigations: what and when
+!table Facial fractures: investigations
+Role | Test | When and what it shows
+Isolated nasal injury | Clinical examination only, including the septum | X-rays add nothing
+Every other facial fracture (gold standard) | Thin-slice CT of the face with 3D reconstruction | Fracture pattern, orbit, skull base
+Head injury criteria met | CT head (with cervical spine as indicated) | Intracranial injury
+Orbital injury | Visual acuity, pupils, eye movements, forced duction test; ophthalmology review | Entrapment, globe injury, retrobulbar haemorrhage
+Mandible | Orthopantomogram (OPG) with PA mandible, or CT | Fractures, teeth in the line
+Clear fluid from nose or ear | Beta-2 transferrin | CSF leak
+!!
+## Drugs and doses
+!table Facial fractures: drugs and doses
+Situation | Drug and dose | Course and notes
+Every patient | Analgesia; tetanus status for open wounds | 
+Mandible fracture through teeth (compound into the mouth) | Co-amoxiclav (oral 625 mg three times a day, or IV 1.2 g three times a day), or penicillin with metronidazole | Perioperatively; prolonged postoperative courses add little
+Fractures into the sinuses (orbital floor, Le Fort) | Antibiotics are commonly given but evidence is weak; avoid nose blowing; short decongestant (xylometazoline up to 7 days) | 
+Orbital oedema or traumatic optic neuropathy | Short steroid course on ophthalmic advice; high-dose steroids for optic neuropathy are not supported (CRASH) | 
+Retrobulbar haemorrhage | Lateral canthotomy and cantholysis at once; then IV acetazolamide 500 mg and mannitol as adjuncts | Minutes count
+CSF leak | No prophylactic antibiotics; pneumococcal vaccine | 
+!!
+Based on systematic reviews of antibiotic prophylaxis in facial fractures (Mundinger et al., *Craniomaxillofac Trauma Reconstr* 2015), the CRASH trial and the BNF.
 
 # Complications | Early and late.
 - Airway obstruction and haemorrhage.
@@ -165,3 +186,7 @@ Supraorbital ridge and frontal bone fractures are managed with the neurosurgeons
 - *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 25.
 - Dhingra, *Diseases of Ear, Nose and Throat*, chapter 34.
 - K. J. Lee, *Essential Otolaryngology*, chapters 56 and 57.
+## Guidelines and dosing
+- Mundinger et al., *Craniomaxillofac Trauma Reconstr* 2015: antibiotics and facial fractures, evidence-based recommendations.
+- CRASH trial collaborators, *Lancet* 2004: corticosteroids after significant head injury.
+- BNF: co-amoxiclav, metronidazole, acetazolamide, mannitol.

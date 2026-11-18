@@ -65,6 +65,16 @@ Digital subtraction angiography shows the feeders, mainly from the external caro
 !imaging | Juvenile angiofibroma on CT, MRI and angiography.
 ## Preparation
 Group and cross-match two to three units of blood.
+## Investigations: what and when
+!table Juvenile angiofibroma: investigations
+Role | Test | When and what it shows
+First (clinic) | Nasal endoscopy | Smooth red-purple mass at the sphenopalatine foramen in an adolescent boy
+Not done | Biopsy in clinic | Risk of severe bleeding; imaging makes the diagnosis
+Imaging of choice | Contrast CT of the sinuses and skull base | Enhancing mass, widened sphenopalatine foramen, Holman–Miller sign, bone erosion
+Soft tissue extent | Contrast MRI | Orbit, infratemporal fossa, cavernous sinus, intracranial spread; flow voids
+Before surgery (larger tumours) | Digital subtraction angiography with embolisation 24 to 72 hours before | Feeding vessels; less blood loss
+Before surgery | Full blood count; group and cross-match 2 to 3 units | 
+!!
 
 # Differential diagnosis | Other masses at the back of the nose.
 Antrochoanal polyp ([[t:crs]]), enlarged adenoids, olfactory neuroblastoma ([[t:sinus_ca]]), rhabdomyosarcoma, lobular capillary haemangioma and haemangiopericytoma.
@@ -83,6 +93,15 @@ V | Intracranial extension with residual vascularity (medial or lateral)
 # Management | Surgery is the treatment.
 ## Principles
 Complete surgical removal is the treatment of choice; the tumour does not regress with age. Embolisation reduces blood loss: early tumours are removed endoscopically, often without embolisation; advanced tumours with internal carotid supply have the external carotid branches embolised first. Hormonal treatment is no longer used.
+### Treatment steps
+!table Juvenile angiofibroma: treatment
+Extent | Treatment | Notes
+Nose, nasopharynx, sinuses, pterygopalatine fossa | Endoscopic resection, with or without embolisation | Lower blood loss and recurrence than open surgery in series
+Infratemporal fossa or limited intracranial spread | Extended endoscopic or combined open approach after embolisation | Specialist skull base centre
+Unresectable intracranial disease, residual next to critical structures | Radiotherapy (fractionated or stereotactic) | Growth, cataract and second tumour risks
+Small asymptomatic residual | Observation with serial MRI | Some regress
+Not recommended | Hormonal treatment (anti-androgens) as primary therapy | 
+!!
 ## Approaches by extent
 !table Extent and approach
 Extent | Approach

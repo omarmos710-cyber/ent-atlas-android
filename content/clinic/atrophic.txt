@@ -90,6 +90,15 @@ Ciliated columnar epithelium becomes squamous; seromucinous glands, venous sinus
 Greenish or greyish-black crusts cover the turbinates and septum; when removed, the cavities are roomy, the turbinates reduced to ridges, the mucosa pale, and the posterior nasopharyngeal wall easily seen. There may be a septal perforation, vestibular dermatitis or saddle nose, with similar changes in the pharynx (atrophic pharyngitis) and larynx (atrophic laryngitis), and ear effusion from tubal blockage.
 ### Prognosis
 Persists for years, with a tendency to improve in middle age.
+### Investigations: what and when
+!table Atrophic rhinitis: investigations
+Role | Test | When and what it shows
+Diagnosis | Nasal endoscopy after crust removal | Roomy cavity, atrophic turbinates, crusts
+Every patient | Nasal swab culture | *Klebsiella ozaenae* and other secondary invaders; guides antibiotics
+Secondary causes | Syphilis serology, ANCA, ACE, biopsy if granulation; history of surgery, radiotherapy, cocaine | Secondary atrophic rhinitis
+Selected | Full blood count, ferritin | Iron deficiency
+Selected | CT of the sinuses | Bone loss, sinus disease
+!!
 ## Management
 ### Medical: nasal hygiene
 - **Irrigation:** warm saline, or an alkaline douche (sodium bicarbonate, sodium biborate and sodium chloride in water), two or three times a day at first, then every few days; loosen and remove hard crusts.
@@ -103,6 +112,16 @@ Persists for years, with a tendency to improve in middle age.
 !update Current evidence
 **Atrophic rhinitis.** Evidence for every treatment is limited to case series; topical antibiotics such as aminoglycoside drops are used against *Klebsiella ozaenae*. **Secondary atrophic rhinitis** after radical turbinate surgery (*empty nose syndrome*) is the reason modern turbinate reduction preserves mucosa.
 !!
+### Treatment: what and when
+!table Atrophic rhinitis: treatment
+Step | Treatment and dose | Course and notes
+Every patient (first line) | Warm saline or alkaline douche, two or three times a day, then less often; gentle crust removal | Lifelong nasal hygiene
+After crust removal | 25% glucose in glycerine drops; emollient ointment | Reduces smell
+Active infection | Topical antibiotic (for example aminoglycoside nasal drops or irrigation) or a 7 to 10 day systemic course chosen by culture (*Klebsiella* often sensitive to ciprofloxacin) | Not long-term
+Diet | Correct iron, vitamin A and D deficiency | 
+Failure of medical care | Young's (or modified Young's) closure; cavity-narrowing implants | 
+!!
+Evidence for every treatment is from case series.
 ## Subtypes and variants: secondary atrophic rhinitis
 Destruction from syphilis, lupus, leprosy or rhinoscleroma ([[t:gpa]]); long-standing purulent sinusitis; radiotherapy; and excessive turbinate surgery (the *empty nose syndrome*). A severely deviated septum can cause one-sided atrophic rhinitis on the wide side.
 !pearl Pearls

@@ -29,6 +29,16 @@ Remove immediately: liquefactive necrosis begins within hours. Do not instil dro
 !update Current evidence
 **Positive pressure first.** A systematic review of the "mother's kiss" technique found it successful in about 60% of children, with no adverse effects reported, making it a sensible first attempt in a cooperative child with an occlusive object (Cook et al., *CMAJ* 2012).
 !!
+### Treatment: what and when
+!table Nasal foreign bodies: treatment
+Object or situation | What to do | Notes
+Button battery or paired magnets | Remove immediately; no drops or water | Inspect for septal burns; review for perforation
+Cooperative child, occlusive object | Positive pressure first ("mother's kiss") | Succeeds in about 60%
+Soft object | Forceps under good light after topical decongestant (for example xylometazoline 0.05% in children 6 to 12 years) | 
+Round object | Blunt hook passed beyond it | Never forceps
+Uncooperative, posterior or impacted | General anaesthesia with cuffed tube and postnasal pack | Prevent inhalation
+Infection after removal | Topical antiseptic cream (chlorhexidine–neomycin or mupirocin); oral antibiotics only for cellulitis | 
+!!
 ## Complications
 Rhinitis and sinusitis, epistaxis, septal perforation, rhinolith formation, and inhalation into the airway during removal.
 
@@ -52,6 +62,15 @@ For the first three or four days: intense irritation, sneezing, watering eyes, h
 - Warm saline douches to clear slough and dead maggots; systemic ivermectin and antibiotics.
 - Isolate the patient under a net, away from flies.
 - Endoscopy and imaging to find hidden maggots, and treat the underlying disease.
+### Drugs and doses
+!table Nasal myiasis: drugs and doses
+Step | Drug and dose | Course and notes
+Every patient | Manual removal of larvae, repeated; saline douches; isolation from flies | Several sessions
+Systemic | Ivermectin 200 micrograms/kg by mouth, single dose, repeated after 24 to 48 hours if larvae persist | Not under 15 kg or in pregnancy
+Secondary infection | Broad-spectrum antibiotic with anaerobic cover (for example co-amoxiclav 625 mg three times a day) | 5 to 7 days
+Underlying disease | Treat atrophic rhinitis or other cause | 
+!!
+Ivermectin dose from case series and the BNF; evidence is limited to case reports and series.
 
 # Nasal synechiae {dz} | Adhesions.
 ## Etiology
@@ -89,3 +108,5 @@ Divide the adhesion and keep the raw surfaces apart with a thin silastic sheet (
 - K. J. Lee, *Essential Otolaryngology*, chapter 53.
 ## Studies cited
 - Cook et al., *CMAJ* 2012: the mother's kiss technique.
+## Guidelines and dosing
+- BNF: ivermectin, co-amoxiclav, xylometazoline.

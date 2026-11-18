@@ -61,6 +61,15 @@ It usually starts in childhood, around three years of age, after atopic dermatit
 - **Nasal endoscopy:** to exclude polyps and structural causes.
 ### Interpreting allergy tests
 A skin-prick wheal more than 3 mm larger than the negative control is positive, but only about half of people with positive tests have allergic disease, so tests are interpreted with the history and requested mainly when immunotherapy or targeted avoidance is planned. A small panel (house dust mite, grass, tree and weed pollen, cat, dog and moulds) covers most allergy. Serum specific IgE is a little less sensitive than skin testing.
+### Investigations: what and when
+!table Allergic rhinitis: investigations
+Role | Test | When and what it shows
+Diagnosis | History and examination, nasal endoscopy | Pattern, triggers; excludes polyps and structural causes
+First line (allergy) | Skin prick tests to relevant aeroallergens, with positive and negative controls | Wheal 3 mm or more above the negative control means sensitisation
+Skin testing not possible (antihistamines, eczema, dermographism) | Serum specific IgE | Sensitisation
+Uncertain or local allergic rhinitis | Nasal allergen provocation test | Gold standard for clinical relevance
+Adjuncts | Nasal smear for eosinophils; total IgE and eosinophil count | NARES; atopic status
+!!
 ## Subtypes and variants
 ### Seasonal or perennial
 - **Seasonal:** symptoms in the season of the pollen the patient reacts to (tree, grass or weed pollens).
@@ -103,6 +112,20 @@ The British Society for Allergy and Clinical Immunology guideline recommends int
 - Most steroid-spray failures are technique failures.
 - Allergic children with blocked noses may also have big adenoids.
 !!
+### Drugs and doses
+!table Allergic rhinitis: drugs and doses
+Step | Drug and dose | Course and notes
+Mild or intermittent | Non-sedating oral antihistamine: cetirizine 10 mg once daily (children 2 to 5 years 2.5 mg twice daily, 6 to 11 years 5 mg twice daily) or loratadine 10 mg once daily (2 to 11 years under 31 kg, 5 mg) | When needed or through the season
+Mild alternative | Azelastine nasal spray 1 spray each nostril twice daily (from 6 years); sodium cromoglicate 4% 1 spray each nostril two to four times daily | Cromoglicate before exposure
+Moderate to severe or persistent (first line) | Intranasal corticosteroid: mometasone 50 micrograms, 2 sprays each nostril once daily (1 spray in children 3 to 11 years); or fluticasone propionate 50 micrograms, 2 sprays once daily (1 spray at 4 to 11 years) | 2 to 3 month trial before judging; long-term use is safe with modern sprays; check technique
+Not controlled on one agent | Fluticasone propionate–azelastine spray, 1 spray each nostril twice daily (from 12 years) | 
+Watery rhinorrhoea | Ipratropium bromide 21 micrograms, 2 sprays each nostril two or three times daily | 
+Asthma as well | Montelukast 10 mg at night (children by age) | Watch for neuropsychiatric effects (MHRA)
+Severe, short-term rescue | Prednisolone 0.5 mg/kg in the morning | 5 to 10 days; with the nasal steroid; no depot steroid injections
+Pregnancy | Saline; intranasal steroid with long safety record (budesonide, fluticasone, mometasone); loratadine or cetirizine if needed | Avoid oral decongestants
+Not controlled despite drugs, single allergen | Allergen immunotherapy (subcutaneous or sublingual) | 3 years
+!!
+Doses from the BSACI guideline (Scadding et al., *Clin Exp Allergy* 2017), the BNF and BNF for Children, and London regional rhinitis guidance.
 ## Complications
 Recurrent sinusitis, nasal polyps (in about 2%), otitis media with effusion, dental and facial growth problems from mouth breathing, and asthma.
 
@@ -120,6 +143,18 @@ The turbinate mucosa is congested and hypertrophic, or normal.
 Avoid triggers; antihistamines and oral decongestants; topical steroids; ipratropium for rhinorrhoea; a short systemic steroid course in severe cases; address psychological factors.
 ### Surgical
 Reduce the turbinates when obstruction persists; correct a deviated septum or polyps. *Vidian neurectomy*, cutting the parasympathetic secretomotor fibres, for intractable rhinorrhoea; now largely replaced by endoscopic posterior nasal nerve procedures.
+### Drugs and doses
+!table Vasomotor (non-allergic) rhinitis: drugs and doses
+Step | Drug and dose | Course and notes
+Every patient | Saline irrigation; avoid triggers | Long term
+Blockage | Intranasal corticosteroid (mometasone 2 sprays each nostril once daily) | 2 to 3 month trial
+Rhinorrhoea | Ipratropium bromide 21 micrograms, 2 sprays each nostril two or three times daily | 
+Mixed symptoms | Azelastine 1 spray each nostril twice daily | Works in non-allergic rhinitis too
+Gustatory rhinitis | Ipratropium spray before meals | 
+Rhinitis medicamentosa | Stop the decongestant; intranasal steroid; short oral prednisolone course if needed | Turbinate reduction if hypertrophy persists
+Refractory | Inferior turbinate reduction; posterior nasal nerve ablation in selected cases | 
+!!
+Doses from the BSACI guideline (2017) and the BNF.
 ## Complications
 Hypertrophic rhinitis, polyps and sinusitis ([[t:crs]]).
 
@@ -176,3 +211,6 @@ Allergy-like symptoms with negative skin and blood tests but specific IgE produc
 - Scadding et al., *Clin Exp Allergy* 2017: BSACI guideline.
 - Bousquet et al., *J Allergy Clin Immunol* 2020: ARIA 2020 care pathways.
 - Radulovic et al., Cochrane review, 2010: sublingual immunotherapy.
+## Guidelines and dosing
+- Scadding et al., *Clin Exp Allergy* 2017: BSACI guideline, allergic and non-allergic rhinitis.
+- BNF and BNF for Children: cetirizine, loratadine, mometasone, fluticasone, azelastine, ipratropium, montelukast.
