@@ -5,7 +5,7 @@ const fs=require("fs"),path=require("path");
 const W=path.join(__dirname,"..","app","src","main","assets","www","search");
 const S=require(path.join(W,"xsmart.js"));
 const lj=(f,o,c)=>{const s=fs.readFileSync(path.join(W,f),"utf8");return JSON.parse(s.slice(s.indexOf(o),s.lastIndexOf(c)+1))};
-const X=lj("full.js","[","]").concat(lj("sm_q.js","[","]"));
+const X=lj("full.js","[","]").concat(lj("sm_q.js","[","]"),fs.existsSync(path.join(W,"sm_atlas.js"))?lj("sm_atlas.js","[","]"):[]);
 S.setModel(lj("sm_meta.js","{","}"),fs.readFileSync(path.join(W,"sm_tok.bin")).buffer,fs.readFileSync(path.join(W,"sm_vec.bin")).buffer);
 if(!S.buildDocs(X)){console.log("smart search vectors do not match search/full.js: run tools/build_smart.py");process.exit(1)}
 const T=[

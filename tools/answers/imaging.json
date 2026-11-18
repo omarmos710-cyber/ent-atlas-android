@@ -39,26 +39,19 @@
   "mri": [
    "MRI",
    "mri",
-   "magnetic resonance imaging",
-   "t1 and t2",
-   "gadolinium"
+   "magnetic resonance imaging"
   ],
   "ct": [
    "CT",
    "ct scan",
-   "computed tomography",
-   "hounsfield units",
-   "hounsfield unit",
-   "cone beam ct"
+   "computed tomography"
   ],
   "imgchoice": [
    "Choosing an imaging test",
    "choosing the test",
    "which imaging test",
    "imaging in ent",
-   "ultrasound",
-   "pet-ct",
-   "pet ct"
+   "ultrasound"
   ],
   "nirads": [
    "NI-RADS",
@@ -74,6 +67,218 @@
    "paradoxical middle turbinate",
    "frontal cells",
    "kuhn cells"
+  ],
+  "hu": [
+   "Hounsfield units",
+   "hounsfield units",
+   "hounsfield unit",
+   "hounsfield scale",
+   "ct numbers"
+  ],
+  "ctwindow": [
+   "CT windows",
+   "ct window",
+   "ct windows",
+   "window settings",
+   "bone window",
+   "soft tissue window",
+   "windowing",
+   "window level",
+   "window width"
+  ],
+  "iodcontrast": [
+   "Iodinated contrast",
+   "iodinated contrast",
+   "ct contrast",
+   "contrast reaction",
+   "contrast nephropathy",
+   "contrast allergy"
+  ],
+  "cbct": [
+   "Cone-beam CT",
+   "cone beam ct",
+   "cone-beam ct",
+   "cbct"
+  ],
+  "ctartefact": [
+   "CT artefacts",
+   "ct artefacts",
+   "ct artifacts",
+   "beam hardening",
+   "streak artefact",
+   "partial volume effect"
+  ],
+  "t1t2": [
+   "T1 and T2 MRI",
+   "t1 and t2",
+   "t1 weighted",
+   "t2 weighted",
+   "t1-weighted",
+   "t2-weighted",
+   "t1",
+   "t2"
+  ],
+  "fatsat": [
+   "Fat suppression",
+   "fat suppression",
+   "fat saturation",
+   "fat sat",
+   "stir"
+  ],
+  "gado": [
+   "Gadolinium",
+   "gadolinium",
+   "mri contrast",
+   "gadolinium contrast"
+  ],
+  "dwi": [
+   "Diffusion-weighted MRI",
+   "diffusion weighted imaging",
+   "diffusion-weighted imaging",
+   "diffusion weighted mri",
+   "diffusion-weighted mri",
+   "dwi",
+   "restricted diffusion",
+   "bright on diffusion",
+   "diffusion mri"
+  ],
+  "ciss": [
+   "Heavily T2-weighted thin-section MRI",
+   "heavily t2 weighted",
+   "ciss",
+   "fiesta",
+   "space sequence"
+  ],
+  "mrisafety": [
+   "When MRI is not the answer",
+   "mri contraindications",
+   "mri safety",
+   "mri and pacemakers"
+  ],
+  "sevenup": [
+   "Seven up, Coke down",
+   "seven up coke down",
+   "seven up, coke down",
+   "nerves in the internal auditory canal",
+   "nerves of the internal auditory canal"
+  ],
+  "ciimaging": [
+   "Imaging before cochlear implantation",
+   "imaging before cochlear implantation",
+   "imaging before cochlear implant",
+   "cochlear implant imaging"
+  ],
+  "fnenhance": [
+   "Facial nerve enhancement",
+   "facial nerve enhancement",
+   "enhancing facial nerve"
+  ],
+  "describe": [
+   "Describing a lesion",
+   "describing a lesion",
+   "describe a lesion",
+   "how to describe a lesion",
+   "radiology report",
+   "reading a radiology report",
+   "reading a report"
+  ],
+  "carotidspace": [
+   "Carotid space",
+   "carotid space",
+   "carotid space contents",
+   "poststyloid parapharyngeal space"
+  ],
+  "displacement": [
+   "The displacement rule",
+   "displacement rule",
+   "displacement of parapharyngeal fat",
+   "parapharyngeal fat displacement",
+   "which space is the mass in"
+  ],
+  "phlegmon": [
+   "Abscess, phlegmon or cellulitis",
+   "phlegmon",
+   "abscess or phlegmon",
+   "abscess vs phlegmon",
+   "abscess versus phlegmon"
+  ],
+  "hyperdense": [
+   "Hyperdense sinus contents",
+   "hyperdense sinus",
+   "hyperdense sinus contents",
+   "hyperdensity in the sinus",
+   "sinus hyperdensity",
+   "hyperdense opacification"
+  ],
+  "unisinus": [
+   "Unilateral sinus disease",
+   "unilateral sinus disease",
+   "unilateral sinus opacification",
+   "unilateral opacification",
+   "one-sided sinus opacification"
+  ],
+  "aea": [
+   "Anterior ethmoid artery",
+   "anterior ethmoid artery",
+   "anterior ethmoidal artery"
+  ],
+  "lamina": [
+   "Lamina papyracea",
+   "lamina papyracea",
+   "lamina papyracea dehiscence"
+  ],
+  "cysticnode": [
+   "Cystic node",
+   "cystic node",
+   "cystic lymph node",
+   "cystic neck node",
+   "cystic nodal metastasis"
+  ],
+  "malnode": [
+   "Malignant lymph node features",
+   "malignant lymph node features",
+   "features of a malignant node",
+   "malignant node features",
+   "malignant node",
+   "extranodal extension on imaging"
+  ],
+  "namednodes": [
+   "Nodes without a number",
+   "retropharyngeal nodes",
+   "retropharyngeal node",
+   "parotid nodes",
+   "nodes without a number"
+  ],
+  "pni": [
+   "Perineural spread",
+   "perineural spread",
+   "perineural tumour spread",
+   "perineural invasion on mri"
+  ],
+  "petct": [
+   "PET-CT in head and neck cancer",
+   "pet ct",
+   "pet-ct",
+   "pet scan",
+   "fdg pet"
+  ],
+  "orn": [
+   "Osteoradionecrosis and chondronecrosis",
+   "osteoradionecrosis",
+   "chondronecrosis",
+   "radionecrosis"
+  ],
+  "nodesimg": [
+   "Lymph nodes on imaging",
+   "lymph nodes on imaging",
+   "imaging of neck nodes",
+   "nodes on ct"
+  ],
+  "spacesimg": [
+   "Neck spaces on imaging",
+   "suprahyoid neck",
+   "infrahyoid neck",
+   "spaces of the neck on imaging"
   ]
  },
  "articles": {
@@ -81,16 +286,27 @@
    "e": "-",
    "a": {
     "*": "dx"
+   },
+   "s": {
+    "Perineural spread": "pni",
+    "CT, MRI and PET-CT": "petct"
    }
   },
   "cl:t-im_ct": {
    "e": "ct",
    "a": {
     "*": "dx"
+   },
+   "s": {
+    "Hounsfield units": "hu",
+    "Windows": "ctwindow",
+    "Iodinated contrast": "iodcontrast",
+    "Cone-beam CT": "cbct",
+    "The common artefacts": "ctartefact"
    }
   },
   "cl:t-im_desc": {
-   "e": "-",
+   "e": "describe",
    "a": {
     "*": "dx"
    }
@@ -105,6 +321,12 @@
    "e": "-",
    "a": {
     "*": "dx"
+   },
+   "s": {
+    "The four nerves: \"seven up, Coke down\"": "sevenup",
+    "The child before cochlear implantation": "ciimaging",
+    "Facial nerve enhancement": "fnenhance",
+    "Heavily T2-weighted thin sections": "ciss"
    }
   },
   "cl:t-im_lx": {
@@ -117,12 +339,25 @@
    "e": "mri",
    "a": {
     "*": "dx"
+   },
+   "s": {
+    "T1 and T2": "t1t2",
+    "Fat suppression": "fatsat",
+    "Gadolinium": "gado",
+    "Diffusion-weighted imaging": "dwi",
+    "Heavily T2-weighted thin-section images": "ciss",
+    "When MRI is not the answer": "mrisafety"
    }
   },
   "cl:t-im_nodes": {
-   "e": "-",
+   "e": "nodesimg",
    "a": {
     "*": "dx"
+   },
+   "s": {
+    "The cystic node": "cysticnode",
+    "The malignant features": "malnode",
+    "Nodes without a number": "namednodes"
    }
   },
   "cl:t-im_oral": {
@@ -149,7 +384,8 @@
     "*": "dx"
    },
    "s": {
-    "NI-RADS": "nirads"
+    "NI-RADS": "nirads",
+    "Osteoradionecrosis and chondronecrosis": "orn"
    }
   },
   "cl:t-im_sin": {
@@ -161,19 +397,31 @@
     "Scoring: Lund–Mackay": "lundmackay",
     "The skull base: Keros": "keros",
     "The ostiomeatal unit": "omu",
-    "Cells and turbinates": "agger"
+    "Cells and turbinates": "agger",
+    "Hyperdensity: think fungus or inspissated secretions": "hyperdense",
+    "Unilateral disease: exclude a tumour": "unisinus",
+    "The anterior ethmoid artery": "aea",
+    "The lamina papyracea": "lamina"
    }
   },
   "cl:t-im_skb": {
    "e": "-",
    "a": {
     "*": "dx"
+   },
+   "s": {
+    "Perineural spread": "pni"
    }
   },
   "cl:t-im_spaces": {
-   "e": "-",
+   "e": "spacesimg",
    "a": {
     "*": "dx"
+   },
+   "s": {
+    "The carotid space and the vessels": "carotidspace",
+    "The displacement rule": "displacement",
+    "Abscess, phlegmon or cellulitis?": "phlegmon"
    }
   },
   "cl:t-im_tb": {

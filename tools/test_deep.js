@@ -6,7 +6,7 @@
 const fs=require("fs"),path=require("path");const W=path.join(__dirname,"../app/src/main/assets/www/search/");
 const S=require(W+"xsmart.js");const lj=(f,a,b)=>{const s=fs.readFileSync(W+f,"utf8");return JSON.parse(s.slice(s.indexOf(a),s.lastIndexOf(b)+1))};
 S.setModel(lj("sm_meta.js","{","}"),fs.readFileSync(W+"sm_tok.bin").buffer,fs.readFileSync(W+"sm_vec.bin").buffer);
-if(!S.buildDocs(lj("full.js","[","]").concat(lj("sm_q.js","[","]")))){console.log("smart search vectors do not match: run tools/build_smart.py");process.exit(1)}
+if(!S.buildDocs(lj("full.js","[","]").concat(lj("sm_q.js","[","]"),fs.existsSync(W+"sm_atlas.js")?lj("sm_atlas.js","[","]"):[]))){console.log("smart search vectors do not match: run tools/build_smart.py");process.exit(1)}
 if(!S.setAnswers(lj("sm_ans.js","{","}"))){console.log("answer map does not match search/full.js: run tools/build_answers.js");process.exit(1)}
 const T=[
  ["difference between laryngomalacia and subglottic stenosis",["omega","Cotton"]],

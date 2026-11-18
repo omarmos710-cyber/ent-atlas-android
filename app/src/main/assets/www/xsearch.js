@@ -95,31 +95,43 @@ let SMART=null,SMARTP=null,SMX=[],IXQ=null;
 /* question-bank answers open inline, like the question rows below them */
 function ixq(id){if(!IXQ){IXQ=new Map();for(const it of IX.items){const o=it.qz||it.qb||it.qc||it.card;if(o&&o.id)IXQ.set(o.id,it.i)}}return IXQ.get(id)}
 function smartLoad(){if(SMARTP)return SMARTP;SMARTP=(async()=>{try{
-  if(!window.XSMART)await loadJS("search/xsmart.js");if(!window.XSM)await loadJS("search/sm_meta.js");if(!window.XSMQ)await loadJS("search/sm_q.js").catch(()=>{window.XSMQ=[]});
+  if(!window.XSMART)await loadJS("search/xsmart.js");if(!window.XSM)await loadJS("search/sm_meta.js");if(!window.XSMQ)await loadJS("search/sm_q.js").catch(()=>{window.XSMQ=[]});if(!window.XSMATL)await loadJS("search/sm_atlas.js").catch(()=>{window.XSMATL=[]});
   const [a,b]=await Promise.all(["search/sm_tok.bin","search/sm_vec.bin"].map(u=>fetch(u).then(r=>{if(!r.ok)throw new Error(u);return r.arrayBuffer()})));
-  XSMART.setModel(window.XSM,a,b);window.XSM.vocab=null;await new Promise(r=>setTimeout(r,0));SMX=(window.XFULL||[]).concat(window.XSMQ||[]);if(XSMART.buildDocs(SMX)){SMART=XSMART;try{if(!window.XSMA)await loadJS("search/sm_ans.js");XSMART.setAnswers(window.XSMA)}catch(e){}}
+  XSMART.setModel(window.XSM,a,b);window.XSM.vocab=null;await new Promise(r=>setTimeout(r,0));SMX=(window.XFULL||[]).concat(window.XSMQ||[],window.XSMATL||[]);if(XSMART.buildDocs(SMX)){SMART=XSMART;try{if(!window.XSMA)await loadJS("search/sm_ans.js");XSMART.setAnswers(window.XSMA)}catch(e){}}
   const box=document.getElementById("xres");if(box&&box.isConnected&&currentQ().trim().length>=2)run(currentQ(),box);
   const hx=document.getElementById("hx");if(hx&&hx.isConnected&&hx.value.trim().length>=2)homeLive(hx.value);
   document.dispatchEvent(new Event("xsmartready"))}catch(e){SMART=null}})();return SMARTP}
-function smartFor(q){if(!SMART||q.trim().split(/\s+/).length<2)return null;try{const S=SMART.search(q,{n:5,perArticle:2});try{S.ans=SMART.answer?SMART.answer(S):null}catch(e){S.ans=null}return S}catch(e){return null}}
+function smartFor(q){if(!SMART||q.trim().split(/\s+/).length<2)return null;try{const S=SMART.search(q,{n:5,perArticle:2});try{S.ans=SMART.answer?SMART.answer(S,{n:10}):null;const R=RRDONE.get(q.trim().toLowerCase());if(R)S.ans=R;else if(S.ans)S.ans.q=q}catch(e){S.ans=null}return S}catch(e){return null}}
+/* the second reader (search/xrank.js): after the box is shown, a small offline model reads the question with each
+   candidate line and the box is redrawn with the lines it judges answer best; quoted lines only, never new words */
+const RRDONE=new Map();let RRBUSY=null;
+async function rrRefine(q){q=String(q||"").trim();const key=q.toLowerCase();if(!q||!SMART||!SMART.candidates||RRDONE.has(key)||RRBUSY===key)return;RRBUSY=key;
+ try{if(!window.XRANK)await loadJS("search/xrank.js");await XRANK.load();const S=SMART.search(q,{n:5,perArticle:2});const C=SMART.candidates(S);if(!C){RRBUSY=null;return}
+  const sc=[];for(const t of C.texts)sc.push((await XRANK.score(q,[t],1))[0]);const A=SMART.rerank(C,sc);A.q=q;RRDONE.set(key,A);
+  const hw=SMART.toks(S.P.topic+" "+(S.P.soft||"")).filter(t=>t.length>=3);
+  document.querySelectorAll(".xans[data-q]").forEach(el=>{if(el.dataset.q.trim().toLowerCase()!==key)return;const lim=+el.dataset.lim||0;const t=document.createElement("div");t.innerHTML=ansHTML(A,hw,lim||undefined);const nb=t.firstElementChild;if(nb)el.replaceWith(nb)})}
+ catch(e){}RRBUSY=null}
+/* where a line or a result opens: an anatomy note or table ("region:larynx~larynx-s9") opens its region at that section */
+function goAttr(route){route=String(route||"");const m=route.match(/^(region:[^~]+)~(.+)$/);return m?`data-go="${E(m[1])}" data-sec="${E(m[2])}"`:`data-go="${E(route)}"`}
 /* the quick answer: the lines of the best sections that answer the question, word for word, each linked to its place */
 function ansHTML(A,hw,lim){if(!A||!A.items.length)return "";let ITEMS=A.items;
  /* the short box on Home and in Clinical: the first lines, but at least one from every part of the answer */
  if(lim){const parts=[...new Set(A.items.map(x=>x.part))];if(parts.length>1){const per=Math.max(1,Math.floor(Math.max(lim,parts.length)/parts.length));ITEMS=parts.flatMap(p=>A.items.filter(x=>x.part===p).slice(0,per))}else ITEMS=A.items.slice(0,lim)}
  const src=x=>`${E(x.where.split(" · ")[0])} › ${E(x.title)}`;
- const li=x=>`<li><button class="xansi" data-go="${E(x.route)}" data-needle="${E(x.needle||x.text)}"><span>${x.label?`<b>${E(x.label)}:</b> `:""}${hl(x.text,hw)}</span></button></li>`;
+ const li=x=>`<li><button class="xansi" ${goAttr(x.route)} data-needle="${E(x.needle||x.text)}"><span>${x.label?`<b>${E(x.label)}:</b> `:""}${hl(x.text,hw)}</span></button></li>`;
  /* lines gathered from several sections are grouped under the section they come from */
  /* several questions or two conditions at once: each part under its own heading ("Treatment", "Laryngomalacia · Diagnosis") */
  const groups=[];for(const x of ITEMS){const g=groups[groups.length-1];if(g&&g.route===x.route&&g.part===x.part)g.items.push(x);else groups.push({route:x.route,part:x.part,items:[x]})}
- let lastPart;const body=groups.map(g=>{const ph=g.part&&g.part!==lastPart?`<p class="xans-part">${E(g.part)}</p>`:"";lastPart=g.part;return ph+`<div class="xans-g"><ul>${g.items.map(li).join("")}</ul><button class="xans-src" data-go="${E(g.route)}" data-needle="${E(g.items[0].needle||g.items[0].text)}">${src(g.items[0])}${ic("chev",14)}</button></div>`}).join("");
+ let lastPart;const body=groups.map(g=>{const ph=g.part&&g.part!==lastPart?`<p class="xans-part">${E(g.part)}</p>`:"";lastPart=g.part;return ph+`<div class="xans-g"><ul>${g.items.map(li).join("")}</ul><button class="xans-src" ${goAttr(g.route)} data-needle="${E(g.items[0].needle||g.items[0].text)}">${src(g.items[0])}${ic("chev",14)}</button></div>`}).join("");
  const more=lim&&A.items.length>lim?`<button class="xans-more" data-xask="${E(lim===true?"":ANSQ)}">See the full answer${ic("chev",14)}</button>`:"";
- return `<div class="xans${lim?" xans-c":""}"><p class="xans-h">${A.entity?`${E(A.entity)}`:"Quick answer"}<small>quoted from your articles · tap a line to see it in place</small></p>${body}${more}</div>`}
+ if(A.q&&!A.reranked)setTimeout(()=>rrRefine(A.q),0);
+ return `<div class="xans${lim?" xans-c":""}"${A.q?` data-q="${E(A.q)}"`:""}${lim?` data-lim="${lim===true?0:lim}"`:""}${A.reranked?` data-rr="1"`:""}><p class="xans-h">${A.entity?`${E(A.entity)}`:"Quick answer"}<small>quoted from your articles · tap a line to see it in place</small></p>${body}${more}</div>`}
 let ANSQ="";
 /* the answer box for another screen (Home, Clinical): null while the smart index is still loading */
 function askHTML(q,lim){q=String(q||"").trim();if(!SMART||q.split(/\s+/).length<2)return null;const S=smartFor(q);if(!S)return "";ANSQ=q;
  const words=SMART.toks(S.P.topic+" "+(S.P.soft||"")).filter(t=>t.length>=3);return S.ans?ansHTML(S.ans,words,lim||4):""}
 function askRows(q,n){if(!SMART)return "";const S=smartFor(q);if(!S||!S.list)return "";const words=SMART.toks(S.P.topic).filter(t=>t.length>=3);
- return S.list.slice(0,n||3).map(r=>{const x=SMX[r.i];if(!x||x[1].startsWith("qb:"))return "";return `<div class="xr"><button class="xrh" data-go="${E(x[1])}"><span class="xm"><span class="xp"><i class="xt xt-${x[0]}">${E(TYPES[x[0]]?TYPES[x[0]][0]:"")}</i>${E(x[3])}</span><b>${hl(x[2],words)}</b></span>${ic("chev",16)}</button></div>`}).join("")}
+ return S.list.slice(0,n||3).map(r=>{const x=SMX[r.i];if(!x||x[1].startsWith("qb:"))return "";return `<div class="xr"><button class="xrh" ${goAttr(x[1])}><span class="xm"><span class="xp"><i class="xt xt-${x[0]}">${E(TYPES[x[0]]?TYPES[x[0]][0]:"")}</i>${E(x[3])}</span><b>${hl(x[2],words)}</b></span>${ic("chev",16)}</button></div>`}).join("")}
 function smartHTML(S,words){if(!S||!S.list.length)return "";const X=SMX;const P=S.P;
  const hw=[...new Set(words.concat(SMART.toks(P.topic+" "+(P.soft||"")).filter(t=>t.length>=3)))];
  const asp=P.aspects.map(a=>`<i class="xt xt-sec">${E(a.label)}</i>`).join("");
@@ -127,7 +139,7 @@ function smartHTML(S,words){if(!S||!S.list.length)return "";const X=SMX;const P=
  const box=ansHTML(S.ans,hw);
  const rows=S.list.map(r=>{const x=X[r.i];if(!x)return "";const [ty,route,t,where]=x;const sn=(r.snip||"").trim();const sn2=sn.length>230?sn.slice(0,230).replace(/\s+\S*$/,"")+"…":sn;
   if(route.startsWith("qb:")){const k=ixq(route.slice(3));if(k===undefined)return "";return `<div class="xr"><button class="xrh" data-xexp="${k}"><span class="xm"><span class="xp"><i class="xt xt-${ty}">${E(TYPES[ty]?TYPES[ty][0]:"")}</i>${E(where.replace(/^(Questions|Flashcards) · /,""))}</span><b>${hl(t,hw)}</b>${sn2?`<small>${hl(sn2,hw)}</small>`:""}</span><span class="xplus" aria-hidden="true">+</span></button><div class="xb" hidden></div></div>`}
-  return `<div class="xr"><button class="xrh" data-go="${E(route)}"><span class="xm"><span class="xp"><i class="xt xt-${ty}">${E(TYPES[ty]?TYPES[ty][0]:"")}</i>${E(where)}</span><b>${hl(t,hw)}</b>${sn2?`<small>${hl(sn2,hw)}</small>`:""}</span>${ic("chev",16)}</button></div>`}).join("");
+  return `<div class="xr"><button class="xrh" ${goAttr(route)}><span class="xm"><span class="xp"><i class="xt xt-${ty}">${E(TYPES[ty]?TYPES[ty][0]:"")}</i>${E(where)}</span><b>${hl(t,hw)}</b>${sn2?`<small>${hl(sn2,hw)}</small>`:""}</span>${ic("chev",16)}</button></div>`}).join("");
  return `<section class="xg xsmart"><h2>Answers</h2>${head}${box}<div class="xl">${rows}</div></section>`}
 
 /* ---------- matching ---------- */
@@ -245,7 +257,7 @@ function homeLive(q){const box=document.getElementById("hxres"),rest=document.ge
  RES=search(q);const words=RES.words;const top=RES.list.slice(0,7);const figset=typeof fsetId==="function"?fsetId(top.filter(r=>r.it.fig).map(r=>r.it.fig)):"";
  /* questions ("treatment of hashimoto") are answered here too, by the smart search, quoted from the articles */
  const many=q.trim().split(/\s+/).length>=2;const ans=many?askHTML(q,3):null;const S=many&&SMART?smartFor(q):null;
- const smartRows=!top.length&&S&&S.list.length?`<div class="xl">${S.list.slice(0,5).map(r=>{const x=SMX[r.i];if(!x||x[1].startsWith("qb:"))return "";return `<div class="xr"><button class="xrh" data-go="${E(x[1])}"><span class="xm"><span class="xp"><i class="xt xt-${x[0]}">${E(TYPES[x[0]]?TYPES[x[0]][0]:"")}</i>${E(x[3])}</span><b>${hl(x[2],words)}</b></span>${ic("chev",16)}</button></div>`}).join("")}</div>`:"";
+ const smartRows=!top.length&&S&&S.list.length?`<div class="xl">${S.list.slice(0,5).map(r=>{const x=SMX[r.i];if(!x||x[1].startsWith("qb:"))return "";return `<div class="xr"><button class="xrh" ${goAttr(x[1])}><span class="xm"><span class="xp"><i class="xt xt-${x[0]}">${E(TYPES[x[0]]?TYPES[x[0]][0]:"")}</i>${E(x[3])}</span><b>${hl(x[2],words)}</b></span>${ic("chev",16)}</button></div>`}).join("")}</div>`:"";
  const n=RES.list.length+(S&&S.list?S.list.length:0);
  box.innerHTML=(ans||"")+RES.syms.slice(0,1).map(s=>symHTML(s,words)).join("")+(top.length?`<div class="xl">${top.map(r=>rowHTML(r,words,figset)).join("")}</div>`:smartRows||(ans?"":many&&!SMART?`<p class="xnote">Reading your question…</p>`:`<p class="xnote">Nothing found for “${E(q)}”.</p>`))+(n||ans?`<button class="xall" data-xall>${RES.list.length?`See all ${RES.list.length} results`:"See all answers"}${ic("chev",16)}</button>`:"");remember(q);
  if(many&&!SMART)smartLoad()}

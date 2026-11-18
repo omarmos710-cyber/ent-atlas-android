@@ -14,7 +14,8 @@ const WWW = path.join(__dirname, "../app/src/main/assets/www/");
 const S = require(WWW + "search/xsmart.js");
 const { HS, XREF, tidy, fold } = S._x;
 const lj = (f, a, b) => { const s = fs.readFileSync(WWW + f, "utf8"); return JSON.parse(s.slice(s.indexOf(a), s.lastIndexOf(b) + 1)) };
-const X = lj("search/full.js", "[", "]");
+/* the sections in the order the app gives them to the smart search: articles, the question bank, then the anatomy atlas and imaging cases */
+const X = lj("search/full.js", "[", "]").concat(lj("search/sm_q.js", "[", "]"), fs.existsSync(WWW + "search/sm_atlas.js") ? lj("search/sm_atlas.js", "[", "]") : []);
 const ASP = S.ASPECTS, AID = ASP.map(a => a.id);
 
 /* curated files */
@@ -38,6 +39,8 @@ for (const f of fs.readdirSync(CLIN).filter(f => f.endsWith(".txt"))) {
   if (!/^@layout amboss/m.test(txt)) continue;
   DZ["cl:t-" + id] = [...txt.matchAll(/^# (.+?) \{dz\}/gm)].map(m => m[1].trim());
 }
+/* imaging cases ("cond:<id>"): every line answers imaging (investigation) of the condition the case is about */
+for (const x of X) if (x[0] === "cond") { const r = x[1].split("~")[0]; if (!ART[r]) ART[r] = { a: { "*": "dx" }, auto: x[2] } }
 let warn = 0;
 for (const [r, a] of Object.entries(ART)) for (const v of [a.e, ...Object.values(a.c || {}), ...Object.values(a.s || {})])
   if (v && v !== "-" && !EID.has(v)) { console.log("answer map: unknown entity", v, "in", r); warn++ }
@@ -71,6 +74,15 @@ mkAli();
     }
   }
   mkAli(); console.log("answer map: " + made + " conditions added from disease chapters") }
+/* imaging cases: the condition their title names, or a new one named by the title */
+{ let made = 0;
+  for (const [r, A] of Object.entries(ART)) { if (!A.auto) continue;
+    const t = A.auto, base = t.replace(/\s*\([^)]*\)/g, "").replace(/,.*$/, "").trim();
+    const m = match(base, .6); if (m >= 0) { A.e = ENT[m].id; continue }
+    const id = "ic_" + (++made); EID.set(id, ENT.length);
+    const aka = [...new Set([t, base].map(x => x.toLowerCase()).filter(x => S.toks(x).length && match(x, .99) < 0))];
+    ENT.push({ id, name: t, aka }); A.e = id; mkAli() }
+  console.log("answer map: " + made + " conditions added from imaging cases") }
 { const seen = new Map(); for (const a of ALI) { const k = a.t.slice().sort().join(" "); const o = seen.get(k); if (o !== undefined && o !== a.i) { console.log("answer map: alias", JSON.stringify(k), "is used by", ENT[o].id, "and", ENT[a.i].id); warn++ } else seen.set(k, a.i) } }
 function match(text, minCover) {
   const t = S.toks(text); if (!t.length) return -1; const set = new Set(t);
@@ -87,8 +99,11 @@ const strip = t => t.replace(/^[\d.]+\s+/, "").trim();
 const AMB = [[/^summary\b/, "def"], [/\bdifferential\b/, "ddx"], [/^contra-?indications?\b/, "ci"], [/^(etiology|aetiology|pathophysiology|pathology|pathogenesis)\b/, "why"], [/^subtypes?\b/, "cls"], [/^prognosis\b/, "px"], [/^complications?\b/, "cx"], [/^management\b/, "tx"], [/^diagnosis\b/, "dx"], [/^clinical features\b/, "cf"], [/^applied anatomy\b/, "an"]];
 const aspOf = (h, strict) => { const f = fold(h); if (/stage by stage|step by step|\btechnique\b|\bsteps\b|^the operation\b/.test(f)) return "how"; for (const [re, a] of AMB) if (re.test(f)) return a; for (const a of ASP) if ((strict ? HS(a) : a.h).test(f)) return a.id; return null };
 /* "Etiology and clinical features", "Diagnosis and management": every aspect a compound heading names */
-const aspsOf = h => { const f = fold(h).replace(/:.*$/, ""); const parts = f.split(/\s+and\s+|,\s*/).map(x => x.trim()).filter(Boolean); if (parts.length < 2) return []; return [...new Set(parts.map(x => aspOf(x, true)).filter(Boolean))] };
+const aspsOf = h => { const f = fold(h); const parts = f.split(/\s+and\s+|,\s*|:\s*/).map(x => x.trim().replace(/^the\s+/, "")).filter(Boolean); if (parts.length < 2) return []; return [...new Set(parts.map(x => aspOf(x, true)).filter(Boolean))] };
 const NOSUB = new Set(["cf", "dx", "an"]);
+const ANATF = new Set(["nerve", "blood", "lymph", "bound", "cont", "rel", "musc", "parts", "branch", "course", "dev"]);
+/* rows of a summary table name what they answer: "Adult dose", "Avoid", "Pregnancy", "Position" */
+const ROWA = [[/^(adult |child |children's |maximum |usual |paediatric )?doses?\b|^dosage|^duration|^regimen/i, "dose"], [/^(avoid|contra-?indications?|cautions?)\b/i, "ci"], [/^pregnan|^breast/i, "preg"], [/^(how it works|mechanism)/i, "mech"], [/^spectrum/i, "spec"], [/^(ent uses|uses|indications?)\b/i, "ind"], [/^class\b/i, "def"], [/^(adverse|side effects|safety|toxicity)/i, "se"], [/^interactions?/i, "int"], [/^anaesthe|^anesthe/i, "anaes"], [/^position/i, "pos"], [/^(tray|before the|work-?up|antibiotics|monitoring|equipment|instruments)/i, "prep"], [/^(after|post-?op|aftercare|follow)/i, "post"], [/^complications?/i, "cx"], [/^imaging/i, "dx"]];
 const STRONG = [["tx", /\b(is|are) (best )?(treated|managed)\b|\b(treatment|management) is\b|\btreated (with|by)\b|\bfirst[- ]line\b|\bdrug of choice\b/i],
   ["ci", /\bcontra-?indicat/i], ["cf", /\bpresents? (with|as)\b|\bpresenting (with|as)\b|\bthe (classic|cardinal) (sign|symptom|feature)/i],
   ["dx", /\b(is )?(diagnosed|confirmed) (by|with|on)\b|\binvestigation of choice\b|\bgold standard\b/i],
@@ -97,11 +112,13 @@ const STRONG = [["tx", /\b(is|are) (best )?(treated|managed)\b|\b(treatment|mana
 
 const used = new Set(), L = [];
 let OPDOC = false;
-const add = (doc, k, ent, asp, w) => { if (ent < 0 || !asp) return; if (OPDOC && asp === "tx") w *= .5; const key = doc + "|" + k + "|" + ent + "|" + asp; if (used.has(key)) return; used.add(key); L.push(doc, k, ent, AID.indexOf(asp), Math.round(w * 10)) };
+let TESTROW = false;
+const add = (doc, k, ent, asp, w) => { if (ent < 0 || !asp) return; if (TESTROW && (asp === "tx" || asp === "ind")) return; if (OPDOC && asp === "tx") w *= .5; const key = doc + "|" + k + "|" + ent + "|" + asp; if (used.has(key)) return; used.add(key); L.push(doc, k, ent, AID.indexOf(asp), Math.round(w * 10)) };
 const stats = { secs: 0, ent: 0 };
 
 X.forEach((x, doc) => {
-  const [ty, route, title0, where, body] = x; const ar = route.split("~")[0]; OPDOC = ar.startsWith("th:op");
+  const [ty, route, title0, where, body] = x; if (ty === "q" || ty === "card" || ty === "viva") return;
+  const ar = route.split("~")[0]; OPDOC = ar.startsWith("th:op");
   const [art, ...ch] = where.split(" · "); const chap = strip(ch.join(" · ")), title = strip(title0);
   if (/^(for the examination|sources|tips and links)\b/i.test(chap)) return;
   stats.secs++;
@@ -110,7 +127,8 @@ X.forEach((x, doc) => {
   /* the chapter and the article */
   const chapAsp = (A.a && A.a[chap]) || aspOf(chap, true) || aspOf(chap) || (/^using (it|them) in ent/i.test(chap) ? "tx" : /^(safety|ototoxicity)$/i.test(chap) ? "cx" : /^(at a glance|how (it|they) works?)$/i.test(chap) ? "def" : null);
   let artE = map({ e: A.e }, "e"); if (artE === undefined) artE = match(art, .5);
-  let chapE = map(A.c, chap); if (chapE === undefined) chapE = chapAsp ? -1 : match(chap, .6);
+  /* an operation's chapters ("Operating note", "Consent") are parts of the operation, never other conditions */
+  let chapE = map(A.c, chap); if (chapE === undefined) chapE = chapAsp || ar.startsWith("th:") ? -1 : match(chap, .6);
   const upper = chapE >= 0 ? chapE : chapE === -2 ? -1 : artE;
   /* the section itself */
   const isEv = ty === "ev";
@@ -123,7 +141,8 @@ X.forEach((x, doc) => {
   stats.ent++;
   /* a heading that names the aspect outright ("Treatment") counts fully, a looser one ("When it goes wrong") less */
   const curA = A.a && (A.a[title] || A.a["*"]);
-  const strictT = ownTitle && !fromTitle ? aspOf(title, true) : null, looseT = ownTitle && !fromTitle && !strictT ? aspOf(title) : null;
+  /* a heading that is itself a question ("Embryology", "Vessels") keeps its aspect even when it is mapped to a condition */
+  const strictT = ownTitle ? aspOf(title, true) : null, looseT = ownTitle && !fromTitle && !strictT ? aspOf(title) : null;
   const titleAsp = curA || strictT || looseT, titleW = curA || strictT ? 1 : .75;
   /* "Management > Bell's palsy": the chapter's aspect also holds for the condition the section names;
      "Peripheral causes > Vestibular neuritis" is a whole account of that condition, not its causes */
@@ -132,26 +151,37 @@ X.forEach((x, doc) => {
   const secW = titleAsp ? titleW : .9;
   const defSec = (/\b(definitions?|overview|what it is|introduction)\b/i.test(title) || /^summary$/i.test(chap)) && !fromTitle;
   const extraA = ownTitle && !fromTitle ? aspsOf(title).filter(a => a !== secAsp) : [];
+  /* a section on one part of the anatomy ("Nerve supply", "Boundaries") also answers "anatomy of X" */
+  if (ANATF.has(secAsp) || extraA.some(a => ANATF.has(a))) extraA.push("an");
   const U = S._units(body);
   let subj = -1, line = -1, first = true;
   U.forEach(u => {
     const t = tidy(u.t); if (u.line !== line) { subj = -1; line = u.line }
-    const ok = t.length >= 25 && t.length <= 420 && !/\?$/.test(t) && !XREF.test(t);
+    const ok = t.length >= 25 && t.length <= (u.row ? 1000 : 420) && !/\?$/.test(t) && !XREF.test(t);
     /* a sentence that starts with another condition's name is about that condition ("Hashimoto thyroiditis is treated ...") */
     if (!u.row) { const m = subjectOf(t); if (m >= 0 && m !== secE) subj = m; else if (!S._x.PRON.test(t)) subj = -1 }
     if (!ok || (!u.row && !/[.!?;)]$/.test(t) && t.split(" ").length <= 6)) return;
     /* the on-call summary at the head of Diagnosis or Management repeats the prose below it in note form: it counts, but less */
     const ward = /^approach$/i.test(strip(u.label || ""));
     const lab = u.label && !ward ? aspOf(u.label) : null;
+    /* a line that opens with what it lists ("Five parts: squamous, petrous ...", "Branches: ...", "Steroids: ...") answers that */
+    const lead = !u.row && /^[^:]{3,40}:\s/.test(t) ? t.split(":")[0] : "", leadA = lead && lead.split(" ").length <= 5 ? aspOf(lead, true) : null;
+    const rowA = u.rowLabel ? (ROWA.find(([re]) => re.test(u.rowLabel)) || [])[1] || aspOf(u.rowLabel, true) : null;
     const cues = {}; for (const a of ASP) { const n = (fold(t).match(new RegExp((a.cx || a.c).source, "g")) || []).length; if (n) cues[a.id] = n }
     const labelE = u.label ? match(u.label, .6) : -1;
     const E = labelE >= 0 && !u.row ? labelE : secE;
+    /* a row of an investigations table ("Test — Swab for culture") is a test, whatever chapter it sits in */
+    const testRow = u.row && /\bTest — /.test(t); TESTROW = testRow;
     const put = (ent, f, subjectLine) => {
-      if (secAsp) add(doc, u.k, ent, secAsp, secW * f);
+      if (secAsp && !(testRow && secAsp === "tx")) add(doc, u.k, ent, testRow ? "dx" : secAsp, secW * f);
       for (const a of extraA) add(doc, u.k, ent, a, .85 * f);
       /* a sentence that says outright what it is ("It is treated with thyroxine", "Contraindications are ...") */
       for (const [a, re] of STRONG) if (a !== secAsp && re.test(t) && !(u.row && /^(dx|tx)$/.test(secAsp) && /^(dx|tx)$/.test(a))) add(doc, u.k, ent, a, .85 * f); /* a table row keeps its section: "first line" in an investigations table is a test, not a drug */
       if (lab) add(doc, u.k, ent, lab, 1 * f);
+      if (rowA) add(doc, u.k, ent, rowA, 1 * f);
+      if (leadA) add(doc, u.k, ent, leadA, .95 * f);
+      /* a table row that gives an amount answers "dose" ("Ondansetron: adult 4 mg intravenously ...") */
+      if (u.row && rowA !== "dose" && /\b\d+(\.\d+)? ?(mg|g|micrograms?|ml|units)(\/kg)?\b/i.test(t)) add(doc, u.k, ent, "dose", .9 * f);
       /* cue words count for more in a sentence that is itself about the condition ("Hashimoto thyroiditis ... is treated with thyroxine") */
       for (const [a, n] of Object.entries(cues)) if (a !== secAsp) add(doc, u.k, ent, a, subjectLine ? Math.min(.75, .6 + .1 * n) : Math.min(.7, .35 + .15 * n) * (secAsp ? .6 : 1) * f);
       if ((defSec || (fromTitle && first)) && !u.row) add(doc, u.k, ent, "def", .8 * f);
@@ -159,7 +189,7 @@ X.forEach((x, doc) => {
     const wf = ward ? .8 : 1;
     put(E, wf);
     if (E !== secE && secE >= 0) put(secE, .8 * wf);
-    if (fromTitle && upper >= 0 && chapAsp) add(doc, u.k, upper, chapAsp, .8);
+    if (fromTitle && upper >= 0 && chapAsp && !(titleAsp && ANATF.has(chapAsp))) add(doc, u.k, upper, chapAsp, .8);
     if (subj >= 0 && subj !== E) put(subj, .9, true);
     first = false
   })

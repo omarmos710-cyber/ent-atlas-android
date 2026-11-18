@@ -4,7 +4,7 @@
 const fs=require("fs"),path=require("path");const W=path.join(__dirname,"../app/src/main/assets/www/search/");
 const S=require(W+"xsmart.js");const lj=(f,a,b)=>{const s=fs.readFileSync(W+f,"utf8");return JSON.parse(s.slice(s.indexOf(a),s.lastIndexOf(b)+1))};
 S.setModel(lj("sm_meta.js","{","}"),fs.readFileSync(W+"sm_tok.bin").buffer,fs.readFileSync(W+"sm_vec.bin").buffer);
-if(!S.buildDocs(lj("full.js","[","]").concat(lj("sm_q.js","[","]")))){console.log("smart search vectors do not match: run tools/build_smart.py");process.exit(1)}
+if(!S.buildDocs(lj("full.js","[","]").concat(lj("sm_q.js","[","]"),fs.existsSync(W+"sm_atlas.js")?lj("sm_atlas.js","[","]"):[]))){console.log("smart search vectors do not match: run tools/build_smart.py");process.exit(1)}
 if(!S.setAnswers(lj("sm_ans.js","{","}"))){console.log("answer map does not match search/full.js: run tools/build_answers.js");process.exit(1)}
 const T=[
  ["hashimoto treatment","thyroxine"],
@@ -14,7 +14,7 @@ const T=[
  ["causes of facial palsy","Bell's palsy, Ramsay Hunt"],
  ["management of epistaxis","First aid"],
  ["symptoms of menieres","rotatory vertigo"],
- ["symptoms of nasopharyngeal carcinoma","Nasal obstruction"],
+ ["symptoms of nasopharyngeal carcinoma","a painless lump between the angle of the jaw"],
  ["signs of laryngomalacia","Stridor appears at birth"],
  ["treatment of allergic rhinitis","nasal steroid"],
  ["indications for tracheostomy","Retained secretions"],
@@ -35,9 +35,9 @@ const T=[
  ["complications of mastoidectomy","Facial nerve injury"],
  ["treatment of positional vertigo","Epley"],
  ["management of tb lymphadenitis","antituberculous"],
- ["indications for laryngectomy","T3 and T4"],
+ ["indications for laryngectomy","Most T4 tumours"],
  ["contraindications to tonsillectomy","Haemoglobin below"],
- ["treatment of pleomorphic adenoma","complete excision"],
+ ["treatment of pleomorphic adenoma","superficial parotidectomy"],
  ["management of post tonsillectomy bleeding","post-tonsillectomy bleed"],
  ["types of tympanoplasty","Type I"],
  ["side effects of gentamicin","vestibul"],

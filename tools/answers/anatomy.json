@@ -1,0 +1,494 @@
+{
+ "about": "Answer map, anatomy atlas (search/sm_atlas.js, built from index.html by tools/build_atlas.js). Each region is an article ('region:<id>'); its sections answer anatomy questions about the region or about the structure the section names. Section headings that contain an alias are matched automatically; 's' holds the rest.",
+ "entities": {
+  "tempbone": [
+   "Temporal bone (anatomy)",
+   "temporal bone",
+   "temporal bone anatomy",
+   "petrous bone",
+   "petrous part of the temporal bone",
+   "petrous temporal bone",
+   "mastoid process",
+   "styloid process"
+  ],
+  "skbforamina": [
+   "Foramina of the skull base",
+   "foramina of the skull base",
+   "skull base foramina",
+   "foramina of the cranial base"
+  ],
+  "duralsinus": [
+   "Dural venous sinuses",
+   "dural venous sinuses",
+   "dural sinuses",
+   "sigmoid sinus",
+   "transverse sinus",
+   "superior petrosal sinus",
+   "inferior petrosal sinus"
+  ],
+  "extear": [
+   "External ear (anatomy)",
+   "external ear",
+   "external ear anatomy",
+   "auricle",
+   "external auditory canal",
+   "external acoustic meatus",
+   "ear canal anatomy",
+   "nerve supply of the auricle",
+   "arnold nerve",
+   "arnold's nerve"
+  ],
+  "tmanat": [
+   "Tympanic membrane (anatomy)",
+   "tympanic membrane",
+   "eardrum anatomy",
+   "pars flaccida",
+   "pars tensa",
+   "layers of the tympanic membrane"
+  ],
+  "midear": [
+   "Middle ear (anatomy)",
+   "middle ear",
+   "middle ear cleft",
+   "tympanic cavity",
+   "walls of the middle ear",
+   "ossicles",
+   "ossicular chain",
+   "malleus",
+   "incus",
+   "stapes",
+   "facial recess",
+   "sinus tympani",
+   "prussak space",
+   "prussak's space",
+   "mastoid antrum",
+   "mastoid air cells",
+   "tympanic plexus",
+   "chorda tympani",
+   "stapedius",
+   "tensor tympani",
+   "middle ear muscles"
+  ],
+  "innerear": [
+   "Inner ear (anatomy)",
+   "inner ear",
+   "labyrinth",
+   "bony labyrinth",
+   "membranous labyrinth",
+   "cochlea",
+   "organ of corti",
+   "semicircular canals",
+   "vestibule",
+   "utricle",
+   "saccule",
+   "endolymph",
+   "perilymph",
+   "internal auditory canal",
+   "internal acoustic meatus",
+   "auditory pathway",
+   "vestibular pathway",
+   "hair cells",
+   "labyrinthine artery"
+  ],
+  "noseanat": [
+   "Nose (anatomy)",
+   "nasal cavity",
+   "nose anatomy",
+   "anatomy of the nose",
+   "lateral wall of the nose",
+   "lateral nasal wall",
+   "nasal septum anatomy",
+   "turbinates",
+   "nasal turbinates",
+   "meatuses",
+   "nasal meatuses",
+   "inferior meatus",
+   "middle meatus",
+   "superior meatus",
+   "danger triangle of the face",
+   "external nose anatomy",
+   "olfactory epithelium"
+  ],
+  "sinusanat": [
+   "Paranasal sinuses (anatomy)",
+   "paranasal sinuses",
+   "sinus anatomy",
+   "anatomy of the sinuses",
+   "maxillary sinus",
+   "frontal sinus",
+   "frontal recess",
+   "ethmoid sinus",
+   "ethmoid sinuses",
+   "ethmoid bone",
+   "sphenoid sinus",
+   "sphenoid bone"
+  ],
+  "orbitanat": [
+   "Orbit (anatomy)",
+   "orbit",
+   "bony orbit",
+   "orbital anatomy",
+   "orbital walls",
+   "walls of the orbit",
+   "orbital apex",
+   "orbital septum",
+   "cavernous sinus",
+   "lacrimal drainage",
+   "lacrimal system",
+   "nasolacrimal duct",
+   "extraocular muscles",
+   "eyelids"
+  ],
+  "mastication": [
+   "Masticatory muscles (anatomy)",
+   "masseter",
+   "temporalis muscle",
+   "medial pterygoid",
+   "lateral pterygoid",
+   "pterygoid muscles"
+  ],
+  "maxart": [
+   "Maxillary artery",
+   "maxillary artery",
+   "internal maxillary artery"
+  ],
+  "pterplexus": [
+   "Pterygoid venous plexus",
+   "pterygoid venous plexus",
+   "pterygoid plexus"
+  ],
+  "tmj": [
+   "Temporomandibular joint",
+   "temporomandibular joint"
+  ],
+  "trigeminal": [
+   "Trigeminal nerve",
+   "trigeminal nerve",
+   "fifth cranial nerve",
+   "cranial nerve v",
+   "ophthalmic nerve",
+   "maxillary nerve",
+   "mandibular nerve",
+   "inferior alveolar nerve",
+   "trigeminal ganglion",
+   "pterygopalatine ganglion",
+   "otic ganglion",
+   "submandibular ganglion"
+  ],
+  "commoncarotid": [
+   "Carotid sheath and common carotid artery",
+   "carotid sheath",
+   "common carotid artery",
+   "carotid bifurcation"
+  ],
+  "eca": [
+   "External carotid artery",
+   "external carotid artery",
+   "external carotid",
+   "branches of the external carotid artery"
+  ],
+  "ica": [
+   "Internal carotid artery",
+   "internal carotid artery",
+   "internal carotid"
+  ],
+  "neckveins": [
+   "Veins of the neck",
+   "veins of the neck",
+   "internal jugular vein",
+   "external jugular vein",
+   "anterior jugular vein",
+   "jugular veins"
+  ],
+  "rootneck": [
+   "Root of the neck",
+   "root of the neck",
+   "subclavian artery",
+   "thoracic duct"
+  ],
+  "cn9": [
+   "Glossopharyngeal nerve",
+   "glossopharyngeal nerve",
+   "ninth cranial nerve",
+   "cranial nerve ix"
+  ],
+  "cn10": [
+   "Vagus nerve",
+   "vagus nerve",
+   "vagus",
+   "tenth cranial nerve",
+   "cranial nerve x"
+  ],
+  "cn11": [
+   "Accessory nerve",
+   "accessory nerve",
+   "spinal accessory nerve",
+   "cranial nerve xi"
+  ],
+  "cn12": [
+   "Hypoglossal nerve",
+   "hypoglossal nerve",
+   "cranial nerve xii",
+   "twelfth cranial nerve"
+  ],
+  "cplexus": [
+   "Cervical plexus",
+   "cervical plexus",
+   "ansa cervicalis",
+   "phrenic nerve",
+   "great auricular nerve",
+   "lesser occipital nerve",
+   "transverse cervical nerve",
+   "supraclavicular nerves"
+  ],
+  "sympchain": [
+   "Cervical sympathetic chain",
+   "cervical sympathetic chain",
+   "sympathetic chain",
+   "sympathetic trunk",
+   "stellate ganglion",
+   "superior cervical ganglion"
+  ],
+  "horner": [
+   "Horner's syndrome",
+   "horner syndrome",
+   "horner's syndrome",
+   "horners syndrome",
+   "oculosympathetic pathway"
+  ],
+  "vertart": [
+   "Vertebral artery",
+   "vertebral artery"
+  ],
+  "facialart": [
+   "Facial artery and vein",
+   "facial artery",
+   "facial vein"
+  ],
+  "neckanat": [
+   "Neck (anatomy)",
+   "triangles of the neck",
+   "neck triangles",
+   "posterior triangle",
+   "anterior triangle",
+   "posterior triangle of the neck",
+   "anterior triangle of the neck",
+   "surface landmarks of the neck",
+   "sternocleidomastoid",
+   "trapezius",
+   "neck anatomy",
+   "anatomy of the neck"
+  ],
+  "embryo": [
+   "Embryology of the head and neck",
+   "embryology of the head and neck",
+   "pharyngeal apparatus",
+   "pharyngeal arch derivatives",
+   "branchial arch derivatives",
+   "pharyngeal clefts",
+   "development of the palate",
+   "development of the face",
+   "development of the tongue",
+   "development of the ear",
+   "development of the nose"
+  ],
+  "work": [
+   "First branchial cleft (Work)",
+   "first branchial cleft",
+   "work classification",
+   "work type"
+  ],
+  "skull": [
+   "Skull (anatomy)",
+   "skull",
+   "bones of the skull",
+   "skull bones",
+   "cranial fossae",
+   "anterior cranial fossa",
+   "middle cranial fossa",
+   "posterior cranial fossa",
+   "foramen ovale",
+   "foramen rotundum",
+   "foramen spinosum",
+   "foramen lacerum",
+   "jugular foramen",
+   "foramen magnum",
+   "cribriform plate",
+   "skull of the newborn",
+   "fontanelles",
+   "pterion"
+  ],
+  "mandible": [
+   "Mandible (anatomy)",
+   "mandible",
+   "lower jaw",
+   "ramus of the mandible",
+   "condyle of the mandible",
+   "coronoid process",
+   "mental foramen",
+   "mandibular canal"
+  ],
+  "neckbones": [
+   "Hyoid and cervical vertebrae",
+   "hyoid bone",
+   "hyoid",
+   "cervical vertebrae",
+   "cervical vertebra",
+   "vertebral levels",
+   "craniocervical ligaments"
+  ]
+ },
+ "articles": {
+  "region:temporal": {
+   "e": "tempbone",
+   "s": {
+    "Foramina of the skull base": "skbforamina",
+    "Dural venous sinuses": "duralsinus"
+   },
+   "a": {
+    "In theatre": "an"
+   }
+  },
+  "region:extear": {
+   "e": "extear",
+   "s": {
+    "Tympanic membrane": "tmanat"
+   },
+   "a": {
+    "In theatre": "an"
+   }
+  },
+  "region:midear": {
+   "e": "midear",
+   "a": {
+    "In theatre": "an"
+   }
+  },
+  "region:et": {
+   "e": "et",
+   "s": {
+    "Eustachian tube dysfunction": "etd"
+   },
+   "a": {
+    "In theatre": "an"
+   }
+  },
+  "region:inner": {
+   "e": "innerear",
+   "a": {
+    "In theatre": "an"
+   }
+  },
+  "region:facial": {
+   "e": "facialnerve",
+   "a": {
+    "In theatre": "an"
+   }
+  },
+  "region:nose": {
+   "e": "noseanat",
+   "a": {
+    "In theatre": "an"
+   }
+  },
+  "region:sinus": {
+   "e": "sinusanat",
+   "a": {
+    "In theatre": "an"
+   }
+  },
+  "region:orbit": {
+   "e": "orbitanat",
+   "a": {
+    "In theatre": "an"
+   }
+  },
+  "region:oral": {
+   "e": "oralanat",
+   "a": {
+    "In theatre": "an"
+   }
+  },
+  "region:salivary": {
+   "e": "salivanat",
+   "a": {
+    "In theatre": "an"
+   }
+  },
+  "region:pharynx": {
+   "e": "pharynx",
+   "a": {
+    "In theatre": "an"
+   }
+  },
+  "region:larynx": {
+   "e": "larynx",
+   "s": {
+    "Nerve supply": "lxnerves"
+   },
+   "a": {
+    "In theatre": "an"
+   }
+  },
+  "region:neck": {
+   "e": "neckanat",
+   "s": {
+    "Deep cervical fascia": "dnsi",
+    "Neck spaces": "dnsi",
+    "Lymph node levels": "necklevels"
+   },
+   "a": {
+    "In theatre": "an"
+   }
+  },
+  "region:vessels": {
+   "e": "neckanat",
+   "s": {
+    "Cervical plexus and nerves of the neck": "cplexus",
+    "Horner's syndrome: the oculosympathetic pathway": "horner"
+   },
+   "a": {
+    "In theatre": "an"
+   }
+  },
+  "region:thyroid": {
+   "e": "thyroid",
+   "a": {
+    "In theatre": "an"
+   }
+  },
+  "region:itf": {
+   "e": "itf",
+   "s": {
+    "Mandibular nerve in the fossa": "trigeminal"
+   },
+   "a": {
+    "In theatre": "an"
+   }
+  },
+  "region:trigeminal": {
+   "e": "trigeminal"
+  },
+  "region:embryo": {
+   "e": "embryo",
+   "s": {
+    "First branchial cleft anomalies (Work)": "work"
+   }
+  },
+  "region:skullbones": {
+   "e": "skull"
+  },
+  "region:mandible": {
+   "e": "mandible",
+   "a": {
+    "In theatre": "an"
+   }
+  },
+  "region:neckbones": {
+   "e": "neckbones",
+   "a": {
+    "In theatre": "an"
+   }
+  }
+ }
+}
