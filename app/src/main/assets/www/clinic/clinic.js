@@ -211,8 +211,7 @@ function topicHits(q){const w=q.split(/\s+/).filter(x=>x&&!QSTOP.has(x));const h
  return L.sort((a,b)=>inMode(b)-inMode(a))}
 function clSmart(q){const X=window.XSEARCH;if(!X||!X.ask||q.split(/\s+/).length<2)return "";const h=X.ask(q,4);
  if(h===null){X.ready&&X.ready();return `<div class="clsmart" id="clsmart"><h3>Answers from the articles</h3><p class="clsrc">Reading your question…</p></div>`}
- const rows=h?"":(X.askRows?X.askRows(q,3):"");if(!h&&!rows)return "";
- return `<div class="clsmart" id="clsmart"><h3>Answers from the articles</h3>${h}${rows?`<div class="xl">${rows}</div>`:""}<button type="button" class="clsmore" data-xask="${e(q)}">Search everything for “${e(q)}”</button></div>`}
+ return h||""}
 document.addEventListener("xsmartready",()=>{const l=document.getElementById("cllist");if(l&&QQ.trim())l.innerHTML=list()});
 function list(){const q=QQ.trim().toLowerCase();if(q){const L=topicHits(q);return (L.length?`<div class="cllist">${L.map(t=>trow(t,(t.g===AP?"Approach to":t.g===IMGL?"Imaging course":t.g===DRG?"Drugs · "+(DCL()[t.dc]||""):GN[t.g])+(amin(t.id)?" · "+amin(t.id)+" min":""))).join("")}</div>`:`<p class="clsrc">No topic matches yet.</p>`)+clSmart(QQ.trim())}
  const r=RD(),ap=LMODE()==="ap",dr=LMODE()==="dr";
