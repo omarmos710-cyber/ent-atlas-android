@@ -586,53 +586,11 @@ def build_hub():
     open(p, 'w', encoding='utf-8').write(h)
 
 
-def update_sw(ids, ops=(), bas=(), boards=()):
-    """Precache the articles in the web build and bump the offline cache version."""
-    import hashlib
-    sw = os.path.join(ROOT, 'web', 'sw.js')
-    s = open(sw, encoding='utf-8').read()
-    s = re.sub(r'"clinic/art/[^"]+",', '', s)
-    add = ''.join('"clinic/art/%s.js",' % i for i in ['index', 'figs'] + ids)
-    # book figures used by the articles go into the offline media cache too
-    s = re.sub(r'"clinic/fig/[^"]+",', '', s)
-    add += ''.join('"clinic/fig/%s",' % f for f in sorted(os.listdir(FIGDIR)) if f.lower().endswith(('.jpg', '.jpeg', '.png', '.webp')))
-    # whiteboard summaries (tools/build_boards.py)
-    s = re.sub(r'"clinic/board/[^"]+",', '', s)
-    s = re.sub(r'"pdf/bd_[^"]+",', '', s)
-    def vers(f):
-        # board PDFs change when a board is edited: version their URL so the
-        # never-renamed media cache in sw.js replaces the old copy
-        if f.startswith('pdf/bd_'):
-            return '%s?v=%s' % (f, hashlib.md5(open(os.path.join(WWW, f), 'rb').read()).hexdigest()[:8])
-        return f
-    add += ''.join('"%s",' % vers(f) for f in boards)
-    # every other PDF (clinical, imaging) is regenerated when its article changes:
-    # version it the same way, or the media cache keeps serving the old copy
-    def pver(m):
-        f = m.group(1)
-        fp = os.path.join(WWW, f)
-        if not os.path.exists(fp): return m.group(0)
-        return '"%s?v=%s"' % (f, hashlib.md5(open(fp, 'rb').read()).hexdigest()[:8])
-    s = re.sub(r'"(pdf/(?!bd_)[^"?]+\.pdf)(?:\?v=[0-9a-f]+)?"', pver, s)
-    s = s.replace('"clinic/links.js",', '"clinic/links.js",' + add, 1)
-    s = re.sub(r'"theatre/art/[^"]+",', '', s)
-    s = re.sub(r'"theatre/basics/[^"]+",', '', s)
-    badd = ''.join('"theatre/basics/%s.js",' % i for i in ['index'] + list(bas))
-    bimg = os.path.join(BASOUT, 'img')
-    if os.path.isdir(bimg): badd += ''.join('"theatre/basics/img/%s",' % f for f in sorted(os.listdir(bimg)))
-    s = s.replace('"theatre/index.js",', '"theatre/index.js",' + ''.join('"theatre/art/%s.js",' % i for i in ['index'] + list(ops)) + badd, 1)
-    pre, post = hub_files()
-    s = re.sub(r'"hub/[^"]+",', '', s)
-    s = re.sub(r'"search/[^"]+",', '', s)
-    s = s.replace('"xsearch.js",', '"xsearch.js","search/full.js","search/xsmart.js","search/sm_meta.js","search/sm_q.js","search/sm_ans.js","search/sm_tok.bin","search/sm_vec.bin",' + ''.join('"%s",' % f for f in pre + post), 1)
-    h = hashlib.md5()
-    boards = [f for f in boards if not f.startswith('pdf/')]
-    for f in ['index.html', 'xsearch.js', 'search/full.js', 'search/xsmart.js', 'search/sm_meta.js', 'search/sm_q.js', 'search/sm_ans.js', 'search/sm_vec.bin', 'clinic/clinic.js', 'clinic/clinic.css', 'clinic/data.js', 'theatre/theatre.js', 'theatre/theatre.css'] + sum(hub_files(), []) + ['clinic/art/%s.js' % i for i in ['index', 'figs'] + ids] + ['theatre/art/%s.js' % i for i in ['index'] + list(ops)] + ['theatre/basics/%s.js' % i for i in (['index'] + list(bas) if bas else [])] + list(boards):
-        h.update(open(os.path.join(WWW, f), 'rb').read())
-    s = re.sub(r'const CACHE="ent-atlas-[0-9a-f]+"', 'const CACHE="ent-atlas-%s"' % h.hexdigest()[:10], s)
-    if 'clinic\\/fig' not in s:
-        s = s.replace('/\\/(theatre\\/c|fig2\\/m|fig2\\/t\\/m)\\//', '/\\/(theatre\\/c|fig2\\/m|fig2\\/t\\/m|clinic\\/fig)\\//')
-    open(sw, 'w', encoding='utf-8').write(s)
+def update_sw(ids=(), ops=(), bas=(), boards=()):
+    """The offline worker lists every file of the app with a fingerprint of its content (tools/build_sw.py),
+    so a release downloads only what changed."""
+    import build_sw
+    build_sw.main()
 
 
 if __name__ == '__main__':

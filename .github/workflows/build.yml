@@ -3,6 +3,8 @@ name: Build APK
 on:
   push:
     branches: [main]
+    # a refreshed offline list (web/sw.js) changes only the web app, not the APK
+    paths-ignore: ['web/sw.js']
   workflow_dispatch:
 
 permissions:

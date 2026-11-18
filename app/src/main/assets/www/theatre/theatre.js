@@ -119,7 +119,7 @@ async function vR(arg){await needAuth();const p=arg.split("-"),m=p[1],o=p[2];if(
   if(!st.pool.length)return result(k,Math.max(0,st.tot-st.err),st.tot,back);return `<div class="thwrap">${bar("Put the steps in order",back)}<span class="theb">${st.pick.length} of ${st.tot} placed · ${st.err} wrong</span><div style="margin:10px 0">${st.pick.map((p,i)=>`<div class="thexp">${i+1}. ${md(p.t)}</div>`).join("")}</div><div class="thsay" style="font-size:19px">Next step?</div>${st.pool.map(p=>`<button class="thopt ${st.bad===p.i?"no":""}" data-thord="${k}:${p.i}">${md(p.t)}</button>`).join("")}</div>`}
  return vReh()}
 function vLog(){const t=TH(),rows=Object.keys(t.log).filter(n=>BY[n]);let o=0,a=0,p=0;rows.forEach(n=>{const l=t.log[n];o+=l.o||0;a+=l.a||0;p+=l.p||0});
- return `<div class="thwrap">${bar("Logbook")}<h1 class="thh1">Logbook</h1><div class="thnum"><div><b>${o}</b><small>observed</small></div><div><b>${a}</b><small>assisted</small></div><div><b>${p}</b><small>performed</small></div></div>${rows.length?`<div class="thlist">${rows.map(n=>opRow(BY[n])).join("")}</div>`:`<p class="thlede">Open any operation and use its Log tab to count your cases. Your supervisor's sign-off stays with your official logbook.</p>`}${typeof caches!=="undefined"&&location.protocol==="https:"&&!/appassets/.test(location.host)?`<h2 class="thh2">Offline</h2><p class="thlede">On the web version, figures download as you open them. You can save them all now (about 65 MB).</p><div class="thacts"><button class="thbtn" id="thsave">Save figures for offline</button></div>`:""}</div>`}
+ return `<div class="thwrap">${bar("Logbook")}<h1 class="thh1">Logbook</h1><div class="thnum"><div><b>${o}</b><small>observed</small></div><div><b>${a}</b><small>assisted</small></div><div><b>${p}</b><small>performed</small></div></div>${rows.length?`<div class="thlist">${rows.map(n=>opRow(BY[n])).join("")}</div>`:`<p class="thlede">Open any operation and use its Log tab to count your cases. Your supervisor's sign-off stays with your official logbook.</p>`}</div>`}
 
 /* Surgical basics: a from-scratch course, from the first day in theatre to specialist level */
 const LV={day:"Day one",junior:"Junior",senior:"Senior",spec:"Specialist"};
@@ -210,6 +210,5 @@ document.addEventListener("click",ev=>{const T=x=>ev.target.closest(x);let b;if(
  if(b=T("[data-thrv]")){R[b.dataset.thrv].show=true;rr();return}
  if(b=T("[data-thrs]")){const [k,v]=b.dataset.thrs.split(":");const st=R[k];if(v==="1")st.s++;st.i++;st.show=false;rr();window.scrollTo(0,0);return}
  if(b=T("[data-thord]")){const [k,v]=b.dataset.thord.split(":");const st=R[k],need=st.pick.length;if(+v===need){const p=st.pool.find(x=>x.i===+v);st.pool=st.pool.filter(x=>x!==p);st.pick.push(p);st.bad=null}else{st.err++;st.bad=+v}rr();return}
- if(T("#thsave")){b=T("#thsave");b.disabled=true;(async()=>{const c=await caches.open("ent-atlas-ext");let i=0;const all=[];CH.forEach(x=>{x.f.forEach(f=>all.push(`fig2/m/${x.n}_${f}.jpg`))});for(const u of all){try{if(!(await caches.match(u)))await c.add(u)}catch(_){ }i++;if(i%10===0)b.textContent=`Saved ${i} of ${all.length}`}b.textContent="All figures saved"})();return}
 });
 })();
