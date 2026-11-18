@@ -346,21 +346,25 @@ function answerMap(P,opt){if(!AM)return null;CTXK=new Set();HEADK=new Set();CTXF
  if(lab.reduce((m,x)=>Math.max(m,x[2]),0)<.5){const FB={dose:["tx"],se:["cx"],cx:["se"],preg:["ci"],int:["ci"],mech:["why","def"],why:["mech"],spec:["def","ind"],flag:["cf","dx"],hx:["cf"],exam:["cf","dx"],consent:["cx","ind"],pos:["how","prep"],anaes:["prep","how"],prep:["dx","how"],post:["tx","cx"],nerve:["an"],blood:["an"],lymph:["an"],bound:["an"],cont:["an"],rel:["an"],musc:["an"],parts:["an","def"],branch:["an"],course:["an"],dev:["an","why"],an:["def"],ind:["tx"]};
   for(const a of asp)for(const f of FB[a]||[])lab=lab.concat((AM.by.get(e+"|"+f)||[]).map(([d,k,w])=>[d,k,w*.9]))}
  /* "indications for surgery in X" when X has no indications heading: the treatment lines that say when */
- if(!lab.length&&asp.some(a=>a==="ind"||a==="ci")){const re=asp.includes("ci")?/\b(contra-?indicat\w*|avoid\w*|never|must not|should not)\b/i:/\b(persist\w*|despite|fail\w*|refractory|indicat\w*|when|unless|reserved for|for patients|if the)\b/i;
-  lab=(AM.by.get(e+"|tx")||[]).filter(([d,k])=>{const u=units(D.docs[d].body)[k];return u&&re.test(u.t)}).map(([d,k,w])=>[d,k,w*.9])}
+ if(lab.reduce((m,x)=>Math.max(m,x[2]),0)<.5&&asp.some(a=>a==="ind"||a==="ci")){const re=asp.includes("ci")?/\b(contra-?indicat\w*|avoid\w*|never|must not|should not|cautions?|unsafe|not suitable)\b/i:/\b(persist\w*|despite|fail\w*|refractory|indicat\w*|when|unless|reserved for|for patients|if the)\b/i;
+  const src=asp.includes("ci")?[...new Map(AM.asp.flatMap(id=>AM.by.get(e+"|"+id)||[]).map(x=>[x[0]+"|"+x[1],x])).values()]:(AM.by.get(e+"|tx")||[]);
+  lab=lab.concat(src.filter(([d,k])=>{const u=units(D.docs[d].body)[k];return u&&re.test(u.t)}).map(([d,k,w])=>[d,k,Math.max(w,.6)*.9]))}
  /* words left over after the condition's name ("in a child") pick out the lines that mention them */
  const focus=ENTFOCUS.slice();if(/contra-?indicat/i.test(P.raw||""))focus.push(...toks("contraindication contraindicated contraindications"));if(focus.length){let all=lab;if(!P.aspects.length){all=[];for(const id of AM.asp)all=all.concat(AM.by.get(e+"|"+id)||[])}
   const hit=all.filter(([doc,k])=>{const u=units(D.docs[doc].body)[k];if(!u)return false;const tk=new Set(toks(u.t+" "+(u.label||"")+" "+D.docs[doc].title));return focus.some(f=>tk.has(f)||(KIDS.has(f)&&[...KIDS].some(x=>tk.has(x))))});
   /* a word that is only context ("in children") ranks the lines; any other word narrows them */
   const ctxOnly=P.aspects.length>0&&focus.every(f=>KIDS.has(f)||AGEW.has(f)); /* "infant vs adult tube": with nothing else asked, the age words are the question */
   if(!ctxOnly&&hit.length){const U2=(d,k)=>units(D.docs[d].body)[k];const head=([d,k])=>{const u=U2(d,k);const ht=new Set(toks((u&&u.label||"")+" "+D.docs[d].title));return focus.some(f=>ht.has(f))};
-   lab=hit.map(x=>{const h=head(x);if(h)HEADK.add(x[0]+"|"+x[1]);return [x[0],x[1],Math.min(1,x[2]+(h?.3:.2))]})}else if(hit.length){const hk=new Set(hit.map(([d,k])=>d+"|"+k));CTXK=hk;CTXF=new Set(hk);lab=lab.map(([d,k,w])=>[d,k,hk.has(d+"|"+k)?Math.min(1,w+.2):w])}}
+   const nf=([d,k])=>{const u=U2(d,k);const tk=new Set(toks((u?u.t+" "+(u.label||""):"")+" "+D.docs[d].title));return focus.filter(f=>tk.has(f)).length};
+   lab=hit.map(x=>{const h=head(x);if(h)HEADK.add(x[0]+"|"+x[1]);return [x[0],x[1],Math.min(1,x[2]+(h?.3:.2)+.1*(nf(x)-1))]})}else if(hit.length){const hk=new Set(hit.map(([d,k])=>d+"|"+k));CTXK=hk;CTXF=new Set(hk);lab=lab.map(([d,k,w])=>[d,k,hk.has(d+"|"+k)?Math.min(1,w+.2):w])}}
  if(!lab.length&&!P.aspects.length){for(const id of ["cf","why"])lab=lab.concat(AM.by.get(e+"|"+id)||[])}
  /* "drug of choice", "commonest cause": the line that names the one comes first */
  const SUPK=new Set(CTXK);CTXK=new Set();
  /* "why ...": the line that gives the reason leads */
+ if(/^\s*why\b/i.test(P.raw||"")&&ENTFOCUS.length){const W0=/\b(because|since|as it|so that|which is why|due to|owing to)\b/i;const have=new Set(lab.map(x=>x[0]+"|"+x[1]));
+  for(const id of AM.asp)for(const [d,k,w] of AM.by.get(e+"|"+id)||[]){if(have.has(d+"|"+k))continue;const u=units(D.docs[d].body)[k];if(u&&W0.test(u.t)&&ENTFOCUS.some(f=>toks(u.t).includes(f))){have.add(d+"|"+k);lab.push([d,k,Math.max(w,.7)])}}}
  if(/^\s*why\b/i.test(P.raw||"")&&lab.length){const W=/\b(because|since|as it|as they|so that|which is why|due to|owing to|explains|the reason)\b/i;const ft=ENTFOCUS.slice();
-  lab=lab.map(([d,k,w])=>{const u=units(D.docs[d].body)[k];if(u&&W.test(u.t)&&(!ft.length||ft.some(f=>toks(u.t).includes(f)))){SUPK.add(d+"|"+k);return [d,k,Math.min(1,w+.35)]}return [d,k,w]})}
+  lab=lab.map(([d,k,w])=>{const u=units(D.docs[d].body)[k];if(u&&W.test(u.t)&&(!ft.length||ft.some(f=>toks(u.t).includes(f)))){SUPK.add(d+"|"+k);const tk=toks(u.t);return [d,k,.3+.5*w+.5*ft.filter(f=>tk.includes(f)).length/ft.length]} /* the reason that answers most of the question's words leads */return [d,k,w]})}
  /* "commonest site of X": no aspect of its own, so every line about X is a candidate and the superlative picks */
  if(P.sup&&asp.length===1&&asp[0]==="def"){let all=[];for(const id of AM.asp)all=all.concat(AM.by.get(e+"|"+id)||[]);const hit=all.filter(([d,k])=>{const u=units(D.docs[d].body)[k];return u&&SUPL.test(u.t)&&(!ENTFOCUS.length||ENTFOCUS.some(f=>toks(u.t).includes(f)))});if(hit.length)lab=hit.map(([d,k,w])=>[d,k,Math.max(w,.8)])}
  if(P.sup&&lab.length)lab=lab.map(([d,k,w])=>{const u=units(D.docs[d].body)[k];if(u&&SUPL.test(u.t)&&w>=.5){SUPK.add(d+"|"+k);return [d,k,Math.min(1,w+.3)]}return [d,k,w]});
@@ -403,7 +407,7 @@ function answerMap(P,opt){if(!AM)return null;CTXK=new Set();HEADK=new Set();CTXF
  /* lines from one section stay together; the line asked for most directly leads its section ("child dose" before the adult dose),
     and the section holding it leads the answer */
  if(SUPK.size||CTXF.size){const rk=x=>(CTXF.has(x.i+"|"+x.k)?2:0)+(x.sup?1:0);const gr=new Map();items.forEach((x,j)=>{x.o=j;const a=gr.get(x.g);if(!a)gr.set(x.g,[x]);else a.push(x)});
-  const G2=[...gr.values()].map(a=>({a:a.sort((x,y)=>rk(y)-rk(x)||x.o-y.o),r:Math.max(...a.map(rk)),o:a[0].g}));G2.sort((x,y)=>(y.r>0)-(x.r>0)||x.o-y.o);items.splice(0,items.length,...G2.flatMap(g=>g.a))}
+  const G2=[...gr.values()].map(a=>({a:a.sort((x,y)=>rk(y)-rk(x)||x.o-y.o),r:Math.max(...a.map(rk)),o:a[0].g,m:Math.max(...a.filter(x=>rk(x)>0).map(x=>x.s),0)}));G2.sort((x,y)=>(y.r>0)-(x.r>0)||(Math.abs(y.m-x.m)>=.1?y.m-x.m:0)||x.o-y.o);items.splice(0,items.length,...G2.flatMap(g=>g.a))}
  return {map:true,entity:AM.names[e][0]+(parName?" (with "+parName+")":""),conf:top,best:top,items}}
 
 const ASPBY=id=>ASPECTS.find(a=>a.id===id);
