@@ -112,7 +112,8 @@ const STRONG = [["tx", /\b(is|are) (best )?(treated|managed)\b|\b(treatment|mana
 
 const used = new Set(), L = [];
 let OPDOC = false;
-const add = (doc, k, ent, asp, w) => { if (ent < 0 || !asp) return; if (OPDOC && asp === "tx") w *= .5; const key = doc + "|" + k + "|" + ent + "|" + asp; if (used.has(key)) return; used.add(key); L.push(doc, k, ent, AID.indexOf(asp), Math.round(w * 10)) };
+let TESTROW = false;
+const add = (doc, k, ent, asp, w) => { if (ent < 0 || !asp) return; if (TESTROW && (asp === "tx" || asp === "ind")) return; if (OPDOC && asp === "tx") w *= .5; const key = doc + "|" + k + "|" + ent + "|" + asp; if (used.has(key)) return; used.add(key); L.push(doc, k, ent, AID.indexOf(asp), Math.round(w * 10)) };
 const stats = { secs: 0, ent: 0 };
 
 X.forEach((x, doc) => {
@@ -169,8 +170,10 @@ X.forEach((x, doc) => {
     const cues = {}; for (const a of ASP) { const n = (fold(t).match(new RegExp((a.cx || a.c).source, "g")) || []).length; if (n) cues[a.id] = n }
     const labelE = u.label ? match(u.label, .6) : -1;
     const E = labelE >= 0 && !u.row ? labelE : secE;
+    /* a row of an investigations table ("Test — Swab for culture") is a test, whatever chapter it sits in */
+    const testRow = u.row && /\bTest — /.test(t); TESTROW = testRow;
     const put = (ent, f, subjectLine) => {
-      if (secAsp) add(doc, u.k, ent, secAsp, secW * f);
+      if (secAsp && !(testRow && secAsp === "tx")) add(doc, u.k, ent, testRow ? "dx" : secAsp, secW * f);
       for (const a of extraA) add(doc, u.k, ent, a, .85 * f);
       /* a sentence that says outright what it is ("It is treated with thyroxine", "Contraindications are ...") */
       for (const [a, re] of STRONG) if (a !== secAsp && re.test(t) && !(u.row && /^(dx|tx)$/.test(secAsp) && /^(dx|tx)$/.test(a))) add(doc, u.k, ent, a, .85 * f); /* a table row keeps its section: "first line" in an investigations table is a test, not a drug */
