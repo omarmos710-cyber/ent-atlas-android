@@ -95,10 +95,8 @@ def main():
     if 'SRC.K=' not in s:
         s = s.replace('SRC.E="ESR Modern Radiology, Head and Neck Imaging"', 'SRC.E="ESR Modern Radiology, Head and Neck Imaging";SRC.K="Koch et al., Diagnostic Imaging: Head and Neck, 3rd ed."', 1)
     open(IDX, 'w', encoding='utf-8').write(s)
-    w = open(SW, encoding='utf-8').read(); w = re.sub(r'"im/dk[^"]+",', '', w)
-    last = re.findall(r'"im/[^"]+",', w)[-1]
-    w = w.replace(last, last + ''.join('"im/%s.jpg",' % k for k in new), 1)
-    open(SW, 'w', encoding='utf-8').write(w)
+    import build_sw  # every file of the app, fingerprinted (tools/build_sw.py)
+    build_sw.main()
     print(len(new), 'images added to', sum(1 for c in C if any(k.startswith('dk') for k in c['imgs'])), 'conditions')
 
 if __name__ == '__main__':

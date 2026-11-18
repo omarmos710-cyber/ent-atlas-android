@@ -8716,14 +8716,16 @@ document.addEventListener("change",async e=>{if(e.target.id!=="bk-imp"||!e.targe
 <script>
 if(!window.Android&&"serviceWorker" in navigator&&(location.protocol==="https:"||location.hostname==="localhost")){
   navigator.serviceWorker.addEventListener("message",ev=>{if(ev.data==="cached"&&typeof toast==="function")toast("Saved for offline use")});
-  window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").then(reg=>{
+  /* figures, scans and PDFs are saved in the background, a little after the app opens, so opening it stays quick */
+  const fill=()=>setTimeout(()=>{const c=navigator.serviceWorker.controller;if(c)c.postMessage("fill")},4000);
+  window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").then(reg=>{fill();
     /* look for a new version on open, whenever the app comes back to the foreground, and every 20 minutes */
     const chk=()=>reg.update().catch(()=>{});document.addEventListener("visibilitychange",()=>{if(!document.hidden)chk()});setInterval(chk,12e5);
   }).catch(()=>{}));
   /* when a new version takes over: reload straight away if the app has only just opened or is in the background,
      otherwise offer a one-tap reload so nothing the user is reading disappears */
   {const had=!!navigator.serviceWorker.controller,t0=Date.now();let done=false;
-   navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!had||done)return;done=true;
+   navigator.serviceWorker.addEventListener("controllerchange",()=>{fill();if(!had||done)return;done=true;
      if(Date.now()-t0<15000||document.hidden){location.reload();return}
      const b=document.createElement("button");b.className="upbar";b.textContent="A new version is ready · Tap to update";b.onclick=()=>location.reload();document.body.appendChild(b)})}
 }

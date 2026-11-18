@@ -1,0 +1,28 @@
+name: Refresh offline file list
+
+# The web app's offline worker (web/sw.js) lists every file with a fingerprint of its content, so a release
+# downloads only what changed. If a push changed app files without regenerating it, regenerate it here.
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['web/sw.js']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Regenerate web/sw.js
+        run: python3 tools/build_sw.py
+      - name: Commit if it changed
+        run: |
+          if git diff --quiet web/sw.js; then echo "offline list is up to date"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898900+github-actions[bot]@users.noreply.github.com"
+          git add web/sw.js
+          git commit -m "Refresh the offline file list"
+          git push
