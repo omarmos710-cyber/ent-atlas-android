@@ -39,6 +39,15 @@ Sebaceous and dermoid cysts, papillomas, cutaneous horns and neurofibromas.
 # Malignant tumours of the pinna {dz} | Sun-exposed skin.
 ## Etiology
 Sun exposure, fair skin, male sex, older age and immunosuppression.
+### Investigations: what and when
+!table Skin cancer of the pinna: investigations
+Role | Test | When and what it shows
+Diagnosis (gold standard) | Biopsy (punch or incisional; excisional for suspected melanoma) | Type, subtype, depth (Breslow thickness for melanoma)
+Every patient | Examination of preauricular, postauricular, parotid and neck nodes | 
+Palpable node or high-risk tumour | Ultrasound with fine-needle aspiration | Nodal spread
+Deep invasion, cartilage, canal or nerve | CT or MRI | Extent before surgery
+Melanoma stage IB and above | Sentinel lymph node biopsy; CT or PET-CT for stage III | Staging
+!!
 ## Subtypes and variants
 ### Squamous cell carcinoma
 An ulcer, usually on the helix, with raised, everted edges. It spreads to the preauricular, postauricular, parotid and upper cervical nodes.
@@ -61,6 +70,17 @@ A pigmented, irregular lesion; spreads early to the parotid and neck nodes.
 **Skin cancer of the ear.** The ear is a high-risk site for both basal and squamous cell carcinoma; NCCN and British Association of Dermatologists guidelines recommend wider margins (or Mohs micrographic surgery) for high-risk tumours, with SCC of the ear carrying a higher risk of nodal spread to the parotid and neck than other sites. **Melanoma** of the ear is managed by wide local excision with sentinel node biopsy for tumours over 0.8 mm thick, following general melanoma guidelines.
 !!
 More on skin cancer of the head and neck is in [[t:skinca]].
+### Treatment: what and when
+!table Skin cancer of the pinna: treatment
+Tumour | Treatment | Margins and notes
+Basal cell carcinoma, low-risk | Surgical excision | At least 4 mm clinical margin
+Basal cell carcinoma, high-risk (the ear is a high-risk site; recurrent, ill-defined, aggressive subtype) | Mohs micrographic surgery or excision with wider margins (5 mm or more) | Radiotherapy if surgery unsuitable
+Squamous cell carcinoma, high-risk | Excision | At least 6 mm; 10 mm for very high risk; parotidectomy and neck dissection for nodes
+Squamous cell carcinoma with adverse features | Adjuvant radiotherapy | Perineural invasion, close margins, nodal disease
+Melanoma | Wide local excision after excision biopsy | 1 cm for stage I, 2 cm for stage II; sentinel node biopsy from stage IB; systemic therapy for advanced disease
+Inoperable or unfit | Radiotherapy; for basal cell carcinoma, hedgehog inhibitors in specialist care | 
+!!
+Margins from the British Association of Dermatologists guidelines (basal cell carcinoma 2021; cutaneous squamous cell carcinoma 2020) and NICE NG14 (melanoma).
 
 # Osteoma and exostoses {dz} | Often just bone.
 ## Differential diagnosis
@@ -97,6 +117,15 @@ Bloody discharge, pain and granulation that will not heal; facial palsy means ad
 - **T4:** cochlea, petrous apex, medial wall, carotid canal, jugular foramen, dura, soft tissue over 0.5 cm, or facial palsy.
 ## Management
 Sleeve or lateral temporal bone resection, with parotidectomy and neck dissection as needed, and postoperative radiotherapy ([[t:tumear]]).
+### Investigations: what and when
+!table Squamous cell carcinoma of the canal: investigations
+Role | Test | When and what it shows
+Diagnosis | Biopsy of the granulation or mass | Histology
+Bone extent and staging | High-resolution CT temporal bone | Pittsburgh T stage
+Soft tissue and dura | Contrast MRI | Dura, parotid, infratemporal fossa
+Nodes and distant spread | Neck imaging; CT chest or PET-CT | 
+!!
+Treatment by stage is set out in [[t:tumear]].
 
 # Tips and links | For the examination and the ward.
 ## Viva essentials
@@ -121,3 +150,7 @@ Sleeve or lateral temporal bone resection, with parotidectomy and neck dissectio
 - *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 15.
 - Dhingra, *Diseases of Ear, Nose and Throat*, chapter 16.
 - K. J. Lee, *Essential Otolaryngology*, chapter 23.
+## Guidelines and dosing
+- Nasr et al., *Br J Dermatol* 2021: BAD guidelines for basal cell carcinoma.
+- Keohane et al., *Br J Dermatol* 2021: BAD guidelines for cutaneous squamous cell carcinoma (2020).
+- NICE NG14: Melanoma: assessment and management.

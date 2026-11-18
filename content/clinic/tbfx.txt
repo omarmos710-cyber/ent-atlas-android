@@ -39,6 +39,16 @@ Confirms that the fluid is CSF.
 Best done two to three days after injury, once the patient is awake, and repeated at six to eight weeks when blood has cleared from the middle ear.
 ## Electroneuronography
 For a complete facial palsy, to guide decisions on exploration.
+## Investigations: what and when
+!table Temporal bone fracture: investigations
+Role | Test | When and what it shows
+First (with the head CT) | High-resolution CT of the temporal bones | Fracture line, otic capsule involvement, ossicles, facial canal, tegmen
+Fracture crosses the carotid canal | CT angiography | Carotid dissection or injury
+Fluid from the ear or nose | Beta-2 transferrin (or beta-trace protein) | Confirms CSF
+Hearing | Tuning forks early; pure-tone audiogram at 2 to 3 days and at 6 to 8 weeks | Conductive (blood, ossicles) or sensorineural loss
+Complete facial palsy | Electroneuronography from day 3 to about day 14, with EMG | Over 90% degeneration supports exploration
+Persistent or intermittent leak | CT cisternography or MRI cisternography | Site of the leak
+!!
 
 # Subtypes and variants | Two classifications, both still taught.
 ## Traditional: by the direction of the fracture line
@@ -93,6 +103,17 @@ Haemotympanum clears in weeks. A conductive loss persisting at six to eight week
 !ops
 ## Vertigo
 Short-term vestibular sedatives, then vestibular rehabilitation; treat post-traumatic BPPV with repositioning manoeuvres ([[t:vertigo]]).
+## Drugs and doses
+!table Temporal bone fracture: drugs and doses
+Problem | Drug and dose | Course and notes
+CSF leak | Head up, bed rest, stool softener (for example lactulose 15 ml twice a day); no nose blowing or straining | Most stop in 7 to 14 days; lumbar drain or repair if persistent
+CSF leak | Prophylactic antibiotics are not recommended | Cochrane review: no reduction in meningitis
+CSF leak (persistent or past) | Pneumococcal polysaccharide vaccine (PPV23) | UK Green Book: people with CSF leaks are in a risk group
+Meningitis | Treat as bacterial meningitis | See intracranial complications
+Delayed or incomplete facial palsy | Prednisolone, commonly 1 mg/kg a day (maximum about 60 mg) for 7 to 10 days, then tapered | Practice varies; evidence limited; eye care as for Bell's palsy
+Vertigo | Short course of a vestibular sedative (for example prochlorperazine 5 mg three times a day), then vestibular rehabilitation | Epley for post-traumatic BPPV
+!!
+Based on Ratilal et al., *Cochrane Database Syst Rev* 2015, the UK Green Book (pneumococcal chapter) and the BNF.
 
 # Complications | Early and late.
 - **Meningitis,** early or years later, through an unhealed fracture.
@@ -137,3 +158,6 @@ Bone of the otic capsule heals only by fibrous union, so these fractures leave a
 - Brodie and Thompson, *Am J Otol* 1997: 820 temporal bone fractures.
 - Little and Kesser, *Arch Otolaryngol Head Neck Surg* 2006: comparison of classification systems.
 - Ratilal et al., Cochrane review, 2015: prophylactic antibiotics after basal skull fracture.
+## Guidelines and dosing
+- UKHSA Green Book, chapter 25: pneumococcal vaccination (risk groups include CSF leak).
+- BNF: prednisolone, prochlorperazine, lactulose.

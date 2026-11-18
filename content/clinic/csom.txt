@@ -62,6 +62,16 @@ CT is not routine for mucosal disease, where it shows no bone erosion. It is use
 !imaging | A discharging modified radical cavity, and ossicular luxation and fixation.
 ## Biopsy
 For granulation that persists despite treatment, to exclude tuberculosis and malignancy.
+## Investigations: what and when
+!table Chronic suppurative otitis media: investigations
+Role | Test | When and what it shows
+Diagnosis (first line) | Microscopic examination after aural toilet | The perforation and the state of the mucosa; excludes cholesteatoma
+Every patient | Tuning forks and pure-tone audiogram | Size of the conductive loss; an air-bone gap over about 40 dB suggests ossicular discontinuity
+Not responding | Swab for culture and sensitivity | Guides the choice of drops (Pseudomonas, Staphylococcus aureus, MRSA, fungi)
+Selected | High-resolution CT of the temporal bones | Suspected cholesteatoma or complication, or before revision surgery; not routine
+Intracranial concern | MRI with contrast | Suspected intracranial complication
+Persistent granulation | Biopsy | To exclude tuberculosis and malignancy
+!!
 
 # Differential diagnosis | Other discharging ears.
 ## Safe or unsafe?
@@ -138,6 +148,17 @@ For patients unfit for or unwilling to have surgery, ideally once the ear is dry
 !update Current evidence
 A series of Cochrane reviews in 2020 and 2021 found the evidence for treatments of chronic suppurative otitis media limited and largely old, but suggested that topical antibiotics improve resolution of discharge compared with placebo and are probably more effective than systemic antibiotics (Brennan-Jones et al., 2020; Chong et al., 2021). Quinolone and aminoglycoside drops could not be separated on effectiveness, and adverse effects were poorly reported; antibiotic drops may be more effective than antiseptics such as boric acid (Head et al., 2020). Results of tympanoplasty and the place of mastoidectomy are covered in [[t:earsurg]].
 !!
+## Drugs and doses
+!table Chronic suppurative otitis media: drugs and doses
+Step | Drug and dose | Course and notes
+First, every time | Aural toilet: suction or dry mopping under the microscope | Drops cannot work through pus
+First line | Quinolone ear drops: ofloxacin 0.3%, 10 drops twice daily (from 12 years); or ciprofloxacin drops (with or without dexamethasone), 4 drops twice daily; or quinolone drops three times daily in children | 1 to 2 weeks after debridement, with tragal pumping; not ototoxic through a perforation
+Pseudomonas or adjunct | Acetic acid 1.5% to 2% drops | Acidifies the canal; can sting
+Active infection when quinolones fail | Aminoglycoside drops (gentamicin with hydrocortisone, or neomycin preparations) | Up to about 2 weeks for active infection only, with warning about ototoxicity (ENT UK)
+Systemic antibiotics | Chosen by culture (for Pseudomonas, oral ciprofloxacin 500 to 750 mg twice daily in adults) | Only for spreading infection, complications, or failure of topical treatment
+Keep water out | Cotton wool with petroleum jelly, or a moulded plug | Throughout treatment
+!!
+Doses from the product licences (ofloxacin otic solution; ciprofloxacin with dexamethasone ear drops), the WHO pocket book for children (quinolone drops three times daily for two weeks), the BNF, and the ENT UK position statement on ototopical aminoglycosides.
 
 # Complications | Uncommon in the safe ear, but real.
 ## Ossicular erosion
@@ -188,3 +209,7 @@ Rarely, mastoiditis ([[t:mastoiditis]]), facial palsy ([[t:facial]]), labyrinthi
 ## Studies cited
 - Brennan-Jones et al., Cochrane review, 2020; Chong et al., Cochrane review, 2021: topical and systemic antibiotics.
 - Head et al., Cochrane review, 2020: antibiotic drops versus antiseptics.
+## Guidelines and dosing
+- World Health Organization, *Pocket book of hospital care for children*: quinolone ear drops for chronic suppurative otitis media.
+- ENT UK position statement on the use of topical aminoglycosides with a perforated tympanic membrane.
+- BNF: ofloxacin, ciprofloxacin and gentamicin ear preparations.

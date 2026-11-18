@@ -30,6 +30,16 @@ Analgesia; lancing the blebs relieves pain; keep the ear dry; topical drops to p
 !update Current evidence
 **Bullous myringitis** is now regarded as a variant of acute otitis media, and *Mycoplasma* is rarely responsible. Treat it as acute otitis media, with analgesia and an antibiotic when indicated. It causes a sensorineural hearing loss in a minority, which usually recovers (Drendel et al., *Auris Nasus Larynx* 2012); evidence for steroids in that setting is limited to small series.
 !!
+### Drugs and doses
+!table Bullous myringitis: drugs and doses
+Step | Drug and dose | Course and notes
+Every patient | Paracetamol or ibuprofen at full dose | Pain peaks in the first days
+Antibiotic when acute otitis media criteria are met | Amoxicillin: 1 to 11 months 125 mg, 1 to 4 years 250 mg, 5 to 17 years and adults 500 mg, three times a day | 5 to 7 days (NICE); AAP high dose 80 to 90 mg/kg/day in two doses for children
+Penicillin allergy | Clarithromycin (adults 250 to 500 mg twice a day; children by weight) | 5 to 7 days
+Pain, drum intact | Phenazone–lidocaine drops, 4 drops two or three times a day | Up to 7 days; not with a perforation
+Sensorineural loss | Audiogram; steroids as for sudden hearing loss on specialist advice | Usually recovers
+!!
+Doses from NICE NG91 (otitis media), the AAP guideline (Lieberthal et al., *Pediatrics* 2013) and the BNF.
 ## Complications
 Sensorineural hearing loss, in a minority, which usually recovers.
 
@@ -45,6 +55,15 @@ In practice: Look for wax, a foreign body or canal infection and treat any you f
 Itching, fullness and a foul, painless discharge. Granulation tissue covers part of the drum, often posterosuperiorly; the drum may perforate and heal repeatedly. Hearing is normal or slightly reduced.
 ## Diagnosis
 Clinical, under the microscope. CT only if chronic otitis media or cholesteatoma has to be excluded.
+### Investigations: what and when
+!table Granular myringitis: investigations
+Role | Test | When and what it shows
+Diagnosis | Microscopy after cleaning | Granulation on the drum, no middle-ear disease
+Every patient | Swab for culture | *Pseudomonas*, *Staphylococcus*, *Proteus*; fungi
+Every patient | Audiogram | Normal or mild conductive loss
+Chronic otitis media or cholesteatoma not excluded | High-resolution CT | Normal aerated middle ear and mastoid
+Persistent granulation, especially in the elderly or diabetic | Biopsy; CRP or ESR | Carcinoma; necrotising otitis externa
+!!
 ## Management
 - **First:** regular cleaning, dilute vinegar irrigation and topical antibiotic–steroid drops.
 - **Resistant cases:** cauterising the granulation with silver nitrate or trichloroacetic acid, or laser; removal of the granulation.
@@ -52,6 +71,15 @@ Clinical, under the microscope. CT only if chronic otitis media or cholesteatoma
 !update Current evidence
 **Granular myringitis** is treated with careful debridement and topical antibiotic–steroid drops, with cautery or laser for resistant cases; evidence is from case series only.
 !!
+### Drugs and doses
+!table Granular myringitis: drugs and doses
+Step | Drug and dose | Course and notes
+First line | Microsuction; topical quinolone–steroid drops (ciprofloxacin–dexamethasone 4 drops twice a day) or neomycin–steroid drops if the drum is intact | 7 to 14 days, repeated with cleaning
+Adjunct | Dilute acetic acid (vinegar) irrigation or 2% acetic acid spray | 
+Resistant granulation | Silver nitrate or trichloroacetic acid cautery, or laser | Under the microscope
+Recurrent | Tympanoplasty with canalplasty | Recurrence common
+!!
+Doses from product licences and the BNF; evidence for treatment is from case series.
 ## Complications
 Late fibrosis can blunt the anterior angle between the drum and canal wall, causing a conductive loss.
 
@@ -78,3 +106,7 @@ Late fibrosis can blunt the anterior angle between the drum and canal wall, caus
 - K. J. Lee, *Essential Otolaryngology*, chapter 22.
 ## Studies cited
 - Drendel et al., *Auris Nasus Larynx* 2012: hearing loss in bullous myringitis.
+## Guidelines and dosing
+- NICE NG91: Otitis media (acute): antimicrobial prescribing.
+- Lieberthal et al., *Pediatrics* 2013: AAP guideline on acute otitis media.
+- BNF: amoxicillin, clarithromycin, phenazone–lidocaine and ciprofloxacin–dexamethasone ear drops.

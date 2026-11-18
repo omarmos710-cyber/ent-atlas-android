@@ -88,6 +88,13 @@ Brief vertigo, under a minute, on lying down, rolling over or looking up. No hea
 Rotatory and geotropic, after a latency of a few seconds, rising then fading within a minute, reversing on sitting up, and fatiguing on repetition.
 ### No routine tests
 No routine imaging or vestibular testing. Atypical nystagmus, failure after several manoeuvres and frequent recurrence call for imaging.
+### Investigations: what and when
+!table BPPV: investigations
+Role | Test | When and what it shows
+Diagnosis (gold standard, posterior canal) | Dix–Hallpike test | Torsional upbeating nystagmus with latency, lasting under a minute
+Horizontal canal | Supine roll test | Geotropic or apogeotropic horizontal nystagmus
+Not routine | Imaging, audiometry, vestibular function tests | Only if the nystagmus is atypical, manoeuvres fail, or there are other neurological or hearing features
+!!
 ## Differential diagnosis
 !table Positional vertigo: peripheral or central
 Feature | Peripheral | Central
@@ -116,6 +123,16 @@ Posterior canal occlusion or singular neurectomy is rarely needed.
 !update Current evidence
 The American BPPV guideline recommends diagnosis with the Dix-Hallpike and supine roll tests, repositioning manoeuvres as treatment, and no routine imaging, vestibular testing or vestibular suppressants (Bhattacharyya et al., *Otolaryngol Head Neck Surg* 2017). A Cochrane review found the Epley manoeuvre resolved vertigo in 56% compared with 21% after a sham manoeuvre (Hilton and Pinder, 2014).
 !!
+### Treatment: what and when
+!table BPPV: treatment
+Step | Treatment | Course and notes
+First line, posterior canal | Epley manoeuvre (or Semont) | About 80% cured by one; repeat up to four times; recheck in 1 month
+Horizontal canal | Barbecue (Lempert) roll or Gufoni manoeuvre | By the side and type of nystagmus
+Self-treatment and recurrence | Home Epley taught to the patient; Brandt–Daroff exercises are a weaker option | 
+Not recommended | Vestibular sedatives (betahistine, prochlorperazine, cinnarizine, benzodiazepines); postural restrictions after the manoeuvre | Slow compensation and cause falls; at most a single antiemetic dose for severe nausea during the manoeuvre
+Intractable (rare) | Posterior canal occlusion | After a year of failed manoeuvres
+!!
+Based on the American guideline (Bhattacharyya et al., *Otolaryngol Head Neck Surg* 2017).
 ## Prognosis
 Recurrence is common, in up to a third of patients within four years.
 
@@ -126,6 +143,14 @@ Probably viral inflammation of the vestibular nerve or ganglion.
 Sudden, severe, continuous vertigo with nausea and vomiting, lasting days and settling over two to three weeks, without hearing loss.
 ## Diagnosis
 Nystagmus beats away from the affected side; the head impulse is abnormal towards it; calorics are reduced.
+### Investigations: what and when
+!table Vestibular neuritis: investigations
+Role | Test | When and what it shows
+First (bedside) | HINTS: head impulse, nystagmus, test of skew | Abnormal head impulse, unidirectional nystagmus and no skew favour neuritis
+Confirmation | Video head impulse test; caloric test | Reduced function of the affected side
+Every patient | Audiogram | Normal in neuritis; loss means labyrinthitis (or AICA stroke)
+Any central sign, or no improvement at 2 to 3 weeks | MRI with diffusion | Cerebellar or brainstem stroke
+!!
 ## Differential diagnosis
 - **Labyrinthitis:** as neuritis, but with hearing loss ([[@Other peripheral causes/Labyrinthitis]]).
 - **Cerebellar infarct:** failure to improve at two to three weeks means a central lesion must be excluded ([[@Posterior circulation stroke]]).
@@ -134,6 +159,16 @@ Short-course vestibular sedatives for the first few days, then early mobilisatio
 !update Current evidence
 Steroids for vestibular neuritis improved caloric recovery at one month but not at 12 months (Fishman et al., 2011).
 !!
+### Drugs and doses
+!table Vestibular neuritis: drugs and doses
+Step | Drug and dose | Course and notes
+Acute vomiting | Prochlorperazine 12.5 mg by deep intramuscular injection, or buccal 3 to 6 mg twice a day | First day or two
+Acute, oral | Prochlorperazine 5 mg three times a day; or cyclizine 50 mg up to three times a day | No more than about 3 days
+Steroid (optional, within 3 days of onset) | Methylprednisolone 100 mg daily, reduced by 20 mg every 3 days (or prednisolone 1 mg/kg tapered) | Speeds caloric recovery; long-term benefit unproved; check glucose
+Every patient | Early mobilisation and vestibular rehabilitation exercises | Start as soon as vomiting settles
+Not recommended | Antivirals; prolonged sedatives | 
+!!
+Doses from the BNF and the steroid trial (Strupp et al., *N Engl J Med* 2004).
 ## Complications
 BPPV follows in up to 15%.
 
@@ -170,12 +205,31 @@ Violent vertigo with hoarseness, dysphagia, ipsilateral Horner syndrome, ipsilat
 HINTS at the bedside ([[@Diagnosis/Examination/HINTS]]); early MRI misses up to 1 in 5 posterior circulation strokes in the first 48 hours.
 ## Vertebrobasilar insufficiency
 Attacks lasting minutes in patients over 50, with visual disturbance, diplopia or drop attacks, sometimes on neck movement.
+## Treatment and investigations
+!table Posterior circulation stroke: investigations and acute treatment
+Role | Test or treatment | When and what it shows
+Bedside screen | HINTS plus hearing (HINTS+) and gait | A central pattern is more sensitive than early MRI
+First imaging | Non-contrast CT with CT angiography | Haemorrhage; vertebral or basilar occlusion
+Gold standard | MRI with diffusion | Infarct; may miss up to 1 in 5 in the first 48 hours, so repeat if doubt remains
+Treatment, eligible within 4.5 hours | Thrombolysis by the stroke team (alteplase 0.9 mg/kg, maximum 90 mg; or tenecteplase 0.25 mg/kg, maximum 25 mg); thrombectomy for basilar occlusion | Stroke protocol
+Treatment, after thrombolysis is excluded or 24 hours after it | Aspirin 300 mg daily for 2 weeks, then long-term antiplatelet | Secondary prevention
+!!
+Based on NICE NG128 Stroke and TIA in over 16s, and the NICE appraisal of tenecteplase (TA990, 2024).
 
 # Vestibular migraine {dz} | Vertigo with migraine.
 ## Clinical features
 Attacks of vertigo, minutes to hours, with or near migraine headache, often in young women with a family history.
 ## Diagnosis
 Response to migraine treatment supports the diagnosis. It is the commonest misdiagnosis of Ménière's disease ([[t:meniere]]).
+## Drugs and doses
+!table Vestibular migraine: drugs and doses
+Step | Drug and dose | Course and notes
+Every patient | Regular sleep and meals, hydration, trigger diary; avoid medication overuse | Long term
+Acute attack | Antiemetic (prochlorperazine 5 mg or metoclopramide 10 mg) with simple analgesia; a triptan if headache dominates (for example sumatriptan 50 to 100 mg) | Triptans: not in vascular disease
+Prevention (frequent attacks) | Propranolol 80 to 160 mg a day; or amitriptyline 10 mg at night, rising to 25 to 75 mg; or topiramate 25 mg rising to 50 mg twice a day | Trial each for 2 to 3 months; topiramate is avoided in women who could become pregnant unless a pregnancy prevention programme is in place
+Every patient | Vestibular rehabilitation | 
+!!
+Doses from NICE CG150 (migraine) and the BNF; the evidence base for vestibular migraine itself is small.
 
 # Other central causes {dz} | Rarer, but central.
 ## Multiple sclerosis
@@ -231,3 +285,9 @@ Vague floating or swaying, with anxiety, no nystagmus and normal tests. Persiste
 - Krishnan et al., *Eur Stroke J* 2019: HINTS meta-analysis.
 - McDonnell and Hillier, Cochrane review, 2015: vestibular rehabilitation.
 - Fishman et al., Cochrane review, 2011: steroids for vestibular neuritis.
+## Guidelines and dosing
+- Bhattacharyya et al., *Otolaryngol Head Neck Surg* 2017: clinical practice guideline, BPPV (update).
+- Strupp et al., *N Engl J Med* 2004: methylprednisolone, valacyclovir or the combination for vestibular neuritis.
+- NICE NG128: Stroke and transient ischaemic attack in over 16s.
+- NICE CG150: Headaches in over 12s.
+- BNF: prochlorperazine, cyclizine, propranolol, amitriptyline, topiramate.

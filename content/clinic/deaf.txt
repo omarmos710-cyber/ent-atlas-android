@@ -61,6 +61,18 @@ Imaging (CT and MRI) before implantation; ECG for long QT; urinalysis; thyroid f
 A deaf child who faints needs an urgent ECG: Jervell and Lange-Nielsen syndrome can cause sudden death. Treat with beta-blockers.
 !!
 !imaging | Inner ear and ossicular malformations, an enlarged vestibular aqueduct, Treacher Collins syndrome, and a gusher ear.
+## Investigations: what and when
+!table Childhood hearing loss: investigations
+Role | Test | When and what it shows
+Screening (well babies) | Automated otoacoustic emissions, then automated ABR if no clear response | First weeks of life (target by 1 month)
+Screening (NICU over 48 hours) | Automated otoacoustic emissions and automated ABR together | Catches auditory neuropathy
+Diagnosis (gold standard in infants) | Diagnostic ABR with frequency-specific tone pips, and tympanometry | Ear-specific thresholds; target by 3 months
+First line for cause | Congenital CMV PCR on saliva or urine (or dried blood spot later) | Must be within 21 days to prove congenital infection
+First line for cause | Genetic testing (GJB2, then hearing-loss gene panel) | Commonest single cause of non-syndromic loss
+Imaging | MRI of the internal auditory canals and brain; CT of the temporal bones | Nerve deficiency, malformations, enlarged aqueduct; essential before implant
+Selected | ECG (long QT); urinalysis (Alport); thyroid function (Pendred); ophthalmology (Usher) | Syndromes
+!!
+Based on the NHS Newborn Hearing Screening Programme and BAPA/BAAP aetiology guidance, and the JCIH 2019 position statement.
 
 # Subtypes and variants | Syndromes and malformations.
 ## Syndromes
@@ -118,6 +130,16 @@ Auditory-oral approaches, sign language, or total communication; radio aids at s
 - **Long QT:** beta-blockers.
 - **Pendred goitre:** thyroid hormone.
 - **Enlarged aqueduct:** avoid head injury and contact sport.
+### Drugs and doses
+!table Childhood hearing loss: specific drug treatments
+Cause | Drug and dose | Course and notes
+Symptomatic congenital CMV | Valganciclovir 16 mg/kg by mouth twice a day | 6 months, started within the first month of life; weekly then monthly blood counts (neutropenia)
+Isolated hearing loss with congenital CMV | Valganciclovir is not routinely recommended by the 2017 consensus; some centres treat | Specialist decision; trials ongoing
+Congenital toxoplasmosis | Pyrimethamine with sulfadiazine and folinic acid | About 12 months; paediatric infectious disease dosing
+Long QT (Jervell and Lange-Nielsen) | Beta-blocker (for example propranolol) under cardiology | Lifelong
+Pendred syndrome with hypothyroidism | Levothyroxine | Lifelong
+!!
+Valganciclovir dose from Kimberlin et al., *N Engl J Med* 2015, and the international consensus (Rawlinson et al., *Lancet Infect Dis* 2017).
 ## Follow-up
 Children with risk factors need continued hearing checks even after passing the newborn screen; treated CMV infants continue audiology until about age six.
 !update Current evidence
@@ -156,3 +178,7 @@ Children with risk factors need continued hearing checks even after passing the 
 - Joint Committee on Infant Hearing, *J Early Hear Detect Interv* 2019: position statement.
 - NICE technology appraisal TA566 (2019): cochlear implants.
 - Rawlinson et al., *Lancet Infect Dis* 2017: congenital CMV consensus.
+## Guidelines and dosing
+- Kimberlin et al., *N Engl J Med* 2015: valganciclovir for symptomatic congenital CMV disease.
+- Rawlinson et al., *Lancet Infect Dis* 2017: congenital CMV international consensus.
+- Joint Committee on Infant Hearing, *J Early Hear Detect Interv* 2019: position statement.

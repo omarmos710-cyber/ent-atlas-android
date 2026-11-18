@@ -81,6 +81,16 @@ A conductive loss with a normal drum and a present stapedial reflex is not otosc
 ## Imaging
 High-resolution CT is not needed routinely. It is useful when the loss progresses rapidly, when cochlear otosclerosis is suspected (a pericochlear halo, the *double ring sign*), when the gap is doubtful, before revision surgery, and when there are vestibular symptoms.
 !imaging | CT signs of otosclerosis, a piston after stapedectomy, a gusher ear and osteogenesis imperfecta.
+## Investigations: what and when
+!table Otosclerosis: investigations
+Role | Test | When and what it shows
+First (bedside) | Tuning forks: Rinne negative, Weber to the worse ear | Conductive loss of about 20 dB or more
+Diagnosis (first line) | Pure-tone audiogram with masking | Air–bone gap, often with Carhart's notch at 2 kHz in bone conduction
+Every patient | Tympanometry and stapedial reflexes | Type A (or As) tympanogram with absent reflexes
+Every patient | Speech audiometry | Good discrimination; predicts benefit from surgery or aids
+Selected | High-resolution CT of the temporal bones | Mixed or progressive loss, atypical features, before revision surgery; shows fenestral foci and the cochlear halo
+Definitive | Fixed stapes found at surgery | 
+!!
 
 # Differential diagnosis | Other causes of a conductive loss.
 ## Conductive loss with a normal drum
@@ -130,6 +140,14 @@ In practice: Considered by some for active disease with progressive sensorineura
 !!
 !update Current evidence
 **Fluoride.** A systematic review found only limited, low-quality evidence that sodium fluoride slows hearing deterioration (Hentschel et al., *Otol Neurotol* 2014); a 2026 meta-analysis of ten mostly observational studies (2352 patients) found fluoride associated with hearing stabilisation, but randomised evidence remains thin (Hughes et al., *Otolaryngol Head Neck Surg* 2026).
+!!
+### Treatment steps
+!table Otosclerosis: treatment
+Step | Treatment | Course and notes
+Any loss | Hearing aid | Effective at every stage; the choice for an only hearing ear
+Suitable air–bone gap, patient wishes | Stapedotomy | Gap closed in about 90%; risk of a dead ear about 1%
+Far advanced, aids no longer help | Cochlear implant | 
+Active cochlear disease (selected) | Sodium fluoride, on specialist advice | Evidence weak; not routine in the UK
 !!
 ## Hearing aid
 Offer one to every patient before surgery: an excellent alternative for those who do not want surgery or are unfit for it, and the treatment of choice for an only hearing ear. Conductive losses aid particularly well. A bone-conduction device suits those who cannot wear an aid and decline surgery ([[t:rehab]]).
@@ -247,3 +265,5 @@ A conductive loss with a normal drum has a short differential: otosclerosis, oss
 - Merkus et al., *Laryngoscope* 2011: far-advanced otosclerosis.
 - Hentschel et al., *Otol Neurotol* 2014: sodium fluoride, systematic review.
 - Hughes et al., *Otolaryngol Head Neck Surg* 2026: sodium fluoride, meta-analysis.
+## Guidelines and dosing
+- BSA recommended procedure: pure-tone audiometry and tympanometry.

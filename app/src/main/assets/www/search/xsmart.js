@@ -303,6 +303,8 @@ function answerMap(P,opt){if(!AM)return null;CTXK=new Set();const e=opt.e!==unde
  /* "commonest site of X": no aspect of its own, so every line about X is a candidate and the superlative picks */
  if(P.sup&&asp.length===1&&asp[0]==="def"){let all=[];for(const id of AM.asp)all=all.concat(AM.by.get(e+"|"+id)||[]);const hit=all.filter(([d,k])=>{const u=units(D.docs[d].body)[k];return u&&SUPL.test(u.t)&&(!ENTFOCUS.length||ENTFOCUS.some(f=>toks(u.t).includes(f)))});if(hit.length)lab=hit.map(([d,k,w])=>[d,k,Math.max(w,.8)])}
  if(P.sup&&lab.length)lab=lab.map(([d,k,w])=>{const u=units(D.docs[d].body)[k];if(u&&SUPL.test(u.t)&&w>=.5){SUPK.add(d+"|"+k);return [d,k,Math.min(1,w+.3)]}return [d,k,w]});
+ /* "dose of ...", "how much ...": lines that give an amount lead */
+ if(/\b(doses?|dosage|dosing|how much|regimen)\b/i.test(P.raw||"")&&lab.length){const DQ=/\b\d+(\.\d+)? ?(mg|g|micrograms?|ml|units|million units)\b/i;lab=lab.map(([d,k,w])=>{const u=units(D.docs[d].body)[k];if(u&&DQ.test(u.t)&&w>=.5){SUPK.add(d+"|"+k);return [d,k,Math.min(1,w+.3)]}return [d,k,w]})}
  /* a subtype with little of its own ("treatment of papillary carcinoma") also takes its parent's lines ("thyroid cancer") */
  const par=AM.par[e];let parName=null;if(par>=0&&P.aspects.length&&lab.reduce((m,x)=>Math.max(m,x[2]),0)<.8){let pl=[];for(const a of asp)pl=pl.concat(AM.by.get(par+"|"+a)||[]);if(pl.length){lab=lab.concat(pl.map(([d,k,w])=>[d,k,w*.85]));parName=AM.names[par][0]}}
  /* nothing labelled for this aspect: the condition's own section, if it has one */

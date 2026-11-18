@@ -39,6 +39,16 @@ In the ENT clinic, wax is removed under direct vision with the microscope: sucti
 !update Current evidence
 **Earwax.** The American guideline recommends treating wax only when it causes symptoms or blocks the examination, using drops, irrigation or manual removal (including microsuction), and advises against cotton buds, ear candling and routine removal in asymptomatic patients (Schwartz et al., *Otolaryngol Head Neck Surg* 2017). NICE (NG98, 2018) advises against cotton buds and recommends microsuction or irrigation, in primary care or community services, when wax causes hearing loss or blocks the view. A Cochrane review found that any drops, including water or saline, are better than none, with no clear winner among them (Aaron et al., 2018).
 !!
+### Treatment steps
+!table Wax: treatment
+Step | Treatment and dose | Course and notes
+Only if symptoms or the drum must be seen | Leave asymptomatic wax alone | No cotton buds or ear candles
+First line | Softening drops: olive or almond oil, sodium bicarbonate 5%, or sodium chloride 0.9%, 2 to 3 drops three or four times a day | 3 to 5 days; not with a perforation or active otitis externa
+Persistent | Electronic irrigation (not manual metal syringe), if no contraindication | Water at body temperature
+Irrigation unsuitable or failed | Microsuction or instruments under the microscope | 
+Recurrent | Drops once or twice a week to prevent build-up | 
+!!
+Based on NICE NG98 (hearing loss in adults), NICE CKS Earwax and the American guideline (Schwartz et al., *Otolaryngol Head Neck Surg* 2017).
 ## Complications of removal
 Perforation, canal laceration and bleeding, otitis externa, and vertigo if the water is not at body temperature.
 
@@ -81,6 +91,17 @@ An object pushed medial to the isthmus may need a postaural approach.
 Inspect the drum, then the other ear, and in a child the nostrils as well.
 !!
 !ops
+### Treatment: what and when
+!table Ear foreign bodies: treatment
+Object | What to do | Notes
+Button battery | Remove the same day, urgently; no drops, no water | Inspect for burns afterwards
+Live insect | Kill it first: fill the canal with mineral oil or 2% lidocaine, then suction or forceps | Not if a perforation is likely
+Smooth round object | Hook or curette passed beyond it; suction | Never forceps
+Soft or irregular object | Crocodile forceps under the microscope | 
+Vegetable matter | Microscope; never water | Swells
+Failed attempt, uncooperative child, deep object | General anaesthesia | Avoid repeated attempts
+Canal laceration or otitis externa afterwards | Antibiotic–steroid drops | 7 days
+!!
 
 # Acquired canal stenosis {dz} | Fibrous narrowing.
 ## Etiology
@@ -103,6 +124,13 @@ Cause | Repeated cold water and wind ("surfer's ear") | A true benign tumour, un
 Both are usually symptomless, but they can trap wax and debris, causing recurrent otitis externa, a conductive loss and, rarely, canal cholesteatoma.
 ## Diagnosis
 In a child, an apparent bony stenosis may be a mild congenital atresia, so obtain a CT before operating.
+### Investigations: what and when
+!table Exostoses and osteoma: investigations
+Role | Test | When and what it shows
+Diagnosis | Otoscopy or microscopy | Smooth bony swellings of the deep canal (exostoses) or a single pedunculated mass (osteoma)
+Before surgery, or child with bony narrowing | High-resolution CT | Extent; relation to the drum, facial nerve and temporomandibular joint; excludes atresia
+Every patient | Audiogram | Conductive loss when trapping debris
+!!
 ## Management
 Regular microsuction and drops first. Surgery when that fails: a postauricular or endaural approach, a posterior meatal skin flap, and removal of bone with a drill, protecting the canal skin, the drum and, posteriorly, the facial nerve. An osteoma can often be removed by fracturing its pedicle. Cold-water ear protection reduces the recurrence of exostoses, which return in surfers who keep swimming without it. Tumours of the canal skin and glands are covered in [[t:extca]].
 
@@ -136,3 +164,7 @@ Regular microsuction and drops first. Surgery when that fails: a postauricular o
 - Schwartz et al., *Otolaryngol Head Neck Surg* 2017: American guideline on earwax.
 - NICE guideline NG98 (2018): hearing loss in adults.
 - Aaron et al., Cochrane review, 2018: ear drops for wax.
+## Guidelines and dosing
+- NICE NG98: Hearing loss in adults (earwax removal).
+- NICE CKS: Earwax.
+- Schwartz et al., *Otolaryngol Head Neck Surg* 2017: clinical practice guideline, earwax (update).

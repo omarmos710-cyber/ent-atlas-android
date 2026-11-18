@@ -62,6 +62,16 @@ MRI of the internal auditory canals and cerebellopontine angles with gadolinium,
 Not routine for everyone: the American guideline advises against routine laboratory tests, because they rarely change management. Request them when the history suggests them: glucose (before steroids), full blood count and ESR, syphilis serology, and autoimmune tests for bilateral or fluctuating loss.
 ## Exploration
 Exploratory tympanotomy only when a fistula is strongly suspected, after trauma or straining.
+## Investigations: what and when
+!table Sudden sensorineural hearing loss: investigations
+Role | Test | When and what it shows
+First (at presentation) | Tuning forks (Weber to the good ear, Rinne positive) | Separates sensorineural from conductive loss before steroids are started
+Diagnosis (first line) | Pure-tone audiogram with masking, and speech discrimination | Confirms 30 dB or more over three contiguous frequencies; repeat during and after treatment
+Adjunct | Tympanometry | Normal middle ear
+Gold standard for a retrocochlear cause | MRI of the internal auditory canals with gadolinium | Every patient: vestibular schwannoma (a few per cent of cases), stroke, demyelination
+MRI impossible | Auditory brainstem response | Less sensitive for small tumours
+Not routine | Blood tests (only when the history points: syphilis, Lyme, autoimmune, glucose); routine CT is not recommended | 
+!!
 
 # Differential diagnosis | Other causes of a sudden dull ear.
 - **Wax or middle ear effusion:** forks and tympanometry.
@@ -106,6 +116,17 @@ If recovery is poor: a hearing aid for a partial loss, or a CROS aid, bone-condu
 !ops
 ## Follow-up
 Repeat the audiogram during treatment and at the end. Counsel the patient to protect the other ear from noise and ototoxic drugs.
+## Drugs and doses
+!table Sudden sensorineural hearing loss: drugs and doses
+Step | Drug and dose | Course and notes
+First line (oral) | Prednisolone 1 mg/kg once daily in the morning (usual maximum 60 mg); alternatives methylprednisolone 48 mg or dexamethasone 10 mg daily | 7 to 14 days at full dose, then tapered over a similar period; start as early as possible, ideally within 2 weeks
+Before oral steroids | Check glucose and blood pressure; caution in diabetes, peptic ulcer, glaucoma, psychiatric history | Gastric protection where needed
+Oral steroids unsuitable, or as initial combined treatment | Intratympanic dexamethasone (10 mg/ml stock, or 16 to 24 mg/ml compounded) or methylprednisolone (30 to 40 mg/ml), 0.4 to 0.8 ml | Every 3 to 7 days for 3 to 4 injections
+Salvage (incomplete recovery after oral steroids) | Intratympanic steroid as above | Offer within 2 to 6 weeks of onset
+Optional | Hyperbaric oxygen, within 2 weeks of onset | With steroids; within 1 month as salvage
+Not recommended | Antivirals, vasodilators, vasoactive drugs and antioxidants as routine | No proven benefit
+!!
+Doses from the American clinical practice guideline (Chandrasekhar et al., *Otolaryngol Head Neck Surg* 2019) and UK practice as used in the STARFISH trial (prednisolone 1 mg/kg up to 60 mg for 7 days).
 
 # Prognosis | What predicts recovery.
 Between a third and two-thirds of patients recover partly or fully, much of it spontaneously and mostly within the first two weeks; recovery after three months is unusual.
@@ -156,3 +177,6 @@ Early recovery | Within two weeks | None by two weeks
 - Wei et al., Cochrane review, 2013: systemic steroids.
 - Mirian and Ovesen, *JAMA Otolaryngol Head Neck Surg* 2020: intratympanic versus systemic steroids.
 - Joshua et al., *JAMA Otolaryngol Head Neck Surg* 2022: hyperbaric oxygen.
+## Guidelines and dosing
+- Chandrasekhar et al., *Otolaryngol Head Neck Surg* 2019: clinical practice guideline, sudden hearing loss (update).
+- Jarrett et al., *PLOS One* 2024: STARFISH trial protocol (UK steroid regimens).

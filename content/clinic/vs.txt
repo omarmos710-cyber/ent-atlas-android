@@ -69,6 +69,15 @@ Reduced on the affected side in most, normal in very small tumours.
 If MRI cannot be done, and to show the bony canal and approach anatomy.
 ## Avoid lumbar puncture
 CSF protein is raised, but a puncture with a large tumour risks herniation.
+## Investigations: what and when
+!table Vestibular schwannoma: investigations
+Role | Test | When and what it shows
+Screening trigger | Pure-tone audiogram | Asymmetric sensorineural loss (for example 15 dB or more at two adjacent frequencies)
+Gold standard | MRI of the internal auditory canals with gadolinium (or high-resolution T2 for screening) | Enhancing mass in the canal and angle; size and growth on serial scans
+MRI impossible | Auditory brainstem response, or CT with contrast | Misses small tumours
+Before treatment | Speech audiometry; caloric and head impulse tests | Useful hearing; vestibular function
+Bilateral tumours or young patient | NF2 genetic testing | NF2-related schwannomatosis
+!!
 
 # Differential diagnosis | Other cerebellopontine angle lesions.
 !table Other cerebellopontine angle lesions
@@ -125,6 +134,15 @@ Above the temporal bone: for small intracanalicular tumours with good hearing. T
 Leaving a little tumour on the facial nerve preserves facial function; the remnant often stays stable and can be watched or irradiated.
 ## NF2
 Bevacizumab may shrink tumours and improve hearing. An auditory brainstem implant or cochlear implant can restore some hearing ([[t:rehab]]).
+## Drugs and doses
+!table Vestibular schwannoma: medical treatment
+Situation | Drug and dose | Course and notes
+Sporadic tumour | No drug treatment shrinks it | Observe, radiosurgery or surgery
+NF2, growing tumour (specialist NF2 centre) | Bevacizumab 5 mg/kg IV every 2 weeks or 7.5 mg/kg every 3 weeks | At least 6 months, then maintenance about every 4 weeks; check blood pressure and urine protein
+Sudden drop in hearing in the tumour ear | Steroids as for sudden hearing loss | Specialist choice
+Vertigo after surgery or radiosurgery | Short course of a vestibular sedative, then vestibular rehabilitation | 
+!!
+Bevacizumab regimen from the UK national NF2 programme (Morris et al., *Neuro-Oncology* 2016) and NHS NF2 centre information.
 
 # Complications | Of the tumour and of treatment.
 ## Of the tumour
@@ -172,3 +190,6 @@ Bevacizumab may shrink tumours and improve hearing. An auditory brainstem implan
 - Dhayalan et al., *JAMA* 2023: the V-REX trial.
 - Goldbrunner et al., *Neuro Oncol* 2020: EANO guideline.
 - Olson et al., *Neurosurgery* 2018: Congress of Neurological Surgeons guidelines.
+## Guidelines and dosing
+- Morris et al., *Neuro Oncol* 2016: bevacizumab in NF2-related vestibular schwannoma, UK national programme.
+- Goldbrunner et al., *Neuro Oncol* 2020: EANO guideline on vestibular schwannoma.

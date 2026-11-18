@@ -47,6 +47,16 @@ Persistent one-sided tube symptoms or effusion in an adult: examine the nasophar
 !!
 ## Diagnosis
 Tympanometry and the tests above ([[@Diagnosis]]); endoscopy of the nasopharynx in adults.
+### Investigations: what and when
+!table Obstructive Eustachian tube dysfunction: investigations
+Role | Test | When and what it shows
+Symptom score | ETDQ-7 questionnaire | Score of 2.1 or more suggests dysfunction
+First line | Otoscopy with Valsalva; tympanometry | Retraction, effusion; negative pressure or type B/C trace
+Every adult | Nasal endoscopy of the nasopharynx | Excludes carcinoma; adenoids, rhinitis
+Every patient | Pure-tone audiogram | Conductive loss
+Selected | Tubomanometry or sonotubometry; inflation–deflation test | Research and specialist assessment
+One-sided effusion in an adult with a nasopharyngeal lesion | Biopsy and MRI | Nasopharyngeal carcinoma
+!!
 ## Management
 Treat the nose, sinuses, allergy and adenoids; autoinflation; a grommet for persistent effusion or retraction. Nasal steroids alone have little proven effect on Eustachian tube dysfunction without rhinitis.
 ### Balloon dilation
@@ -55,6 +65,17 @@ Treat the nose, sinuses, allergy and adenoids; autoinflation; a grommet for pers
 !update Current evidence
 **Balloon dilation.** In a randomised trial of more than 200 adults with persistent obstructive dysfunction, balloon dilation plus medical treatment normalised the tympanogram in 52% at six weeks, against 14% with medical treatment alone, and symptom scores (ETDQ-7) improved more (Poe et al., *Laryngoscope* 2018); a second trial confirmed benefit at one year (Meyer et al., *Otol Neurotol* 2018). An American consensus statement supports balloon dilation for carefully selected adults with obstructive dysfunction confirmed by symptoms, examination and tympanometry, after failed medical treatment, and not for patulous tube (Tucci et al., *Otolaryngol Head Neck Surg* 2019); NICE (IPG665, 2019) considers it safe and effective.
 !!
+### Treatment: what and when
+!table Obstructive Eustachian tube dysfunction: treatment
+Step | Treatment and dose | Course and notes
+First | Autoinflation (Valsalva or a nasal balloon) several times a day | Weeks
+Rhinitis or allergy | Intranasal corticosteroid (for example mometasone 50 micrograms, 2 sprays each nostril once daily in adults); non-sedating antihistamine for allergy | At least 4 to 6 weeks; little proven benefit without nasal disease
+Acute cold or flight | Xylometazoline 0.1% 1 spray each nostril up to three times a day | No more than 7 days
+Persistent effusion or retraction | Grommet | 
+Persistent obstructive dysfunction in adults | Balloon dilation of the Eustachian tube | NICE IPG665: standard arrangements
+Adults with one-sided symptoms | Nasopharyngoscopy before treatment | Exclude carcinoma
+!!
+Doses from the BNF; NICE IPG665 (balloon dilation, 2019).
 ## Complications
 Negative pressure, effusion ([[t:om]]), atelectasis, retraction pockets ([[t:tmperf]]) and [[t:chole|cholesteatoma]], and ossicular erosion.
 !pearl Where the block is predicts the damage
@@ -69,12 +90,26 @@ Negative pressure, effusion ([[t:om]]), atelectasis, retraction pockets ([[t:tmp
 Idiopathic; rapid weight loss, which removes the fat pad around the tube; the last trimester of pregnancy; oral contraceptives; and neurological disease such as multiple sclerosis or stroke.
 ## Clinical features
 *Autophony*: the patient hears their own voice and breathing loudly in the ear, relieved by lying down or putting the head between the knees (venous congestion closes the tube). The drum moves in and out with respiration, best seen while the patient breathes through one nostril.
+### Investigations: what and when
+!table Patulous Eustachian tube: investigations
+Role | Test | When and what it shows
+Diagnosis | Otoscopy while the patient breathes forcefully through one nostril | Drum moves in and out with breathing
+Confirmation | Tympanometry during breathing | Pressure trace fluctuates with respiration
+Exclude | Audiogram with stapedial reflexes; CT if dehiscence suspected | Superior canal dehiscence
+!!
 ## Differential diagnosis
 [[t:scd|Superior canal dehiscence]] also causes autophony, but with vertigo or a conductive gap and an intact stapedial reflex.
 ## Management
 Reassurance; most acute cases settle on their own. Weight gain, nasal drops (saline, or in the past potassium iodide), cautery or injection around the tubal opening, a grommet, or plugging the tube in severe cases. Balloon dilation is not for patulous tube.
 !pearl Pearl
 Don't prescribe decongestants for fullness and autophony after weight loss: they make a patulous tube worse.
+!!
+### Treatment: what and when
+!table Patulous Eustachian tube: treatment
+Step | Treatment | Course and notes
+First | Reassurance; stop decongestants; regain lost weight; sniffing or lying down in attacks | Most acute cases settle
+Medical | Saline nasal drops with the head tilted; stop oestrogen-containing medicines if implicated | 
+Persistent | Grommet (dampens drum movement), injection of filler at the tubal orifice, or tube plugging | Specialist
 !!
 
 # Barotrauma {dz} | When the tube locks.
@@ -108,3 +143,7 @@ On descent in an aircraft or when diving, a tube that fails to open can lock shu
 - Poe et al., *Laryngoscope* 2018; Meyer et al., *Otol Neurotol* 2018: balloon dilation trials.
 - Tucci et al., *Otolaryngol Head Neck Surg* 2019: American consensus statement.
 - NICE interventional procedures guidance IPG665 (2019).
+## Guidelines and dosing
+- NICE IPG665: Balloon dilation for chronic Eustachian tube dysfunction.
+- McCoul et al., *Laryngoscope* 2012: the ETDQ-7.
+- BNF: mometasone nasal spray, xylometazoline.

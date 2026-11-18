@@ -80,6 +80,16 @@ Reduced response on the affected side in about three-quarters.
 ## MRI with contrast
 Essential to exclude a vestibular schwannoma or other retrocochlear lesion. Delayed contrast MRI can now show hydrops directly in specialist centres.
 !imaging | An endolymphatic sac tumour and an enlarged vestibular aqueduct, two causes of secondary hydrops.
+## Investigations: what and when
+!table Ménière's disease: investigations
+Role | Test | When and what it shows
+Diagnosis (first line) | Pure-tone audiogram, ideally during or soon after an attack, repeated over time | Low- to mid-frequency sensorineural loss that fluctuates; needed for definite disease
+Every patient (to exclude) | MRI of the internal auditory canals with gadolinium | Vestibular schwannoma and other retrocochlear lesions
+Adjunct | Caloric test or video head impulse test | Reduced function on the affected side; the two can disagree in Ménière's
+Adjunct | Electrocochleography (raised SP/AP ratio); VEMP | Support for hydrops; not diagnostic alone
+Research and specialist | Delayed gadolinium inner-ear MRI | Shows endolymphatic hydrops
+Selected | Syphilis serology, thyroid function, autoimmune screen when bilateral | Treatable mimics
+!!
 
 # Differential diagnosis | Other episodic vertigo.
 - **Vestibular migraine** ([[t:vertigo]]): about ten times more common than Ménière's disease, overlaps with it in many patients, and is the commonest misdiagnosis.
@@ -157,6 +167,19 @@ Sacculotomy and the Cody tack are historical.
 !update Current evidence
 In the BEMED trial of 221 patients, betahistine at 48 mg or 144 mg a day for nine months was no better than placebo at reducing attacks (Adrion et al., *BMJ* 2016). In a double-blind trial of 60 patients, intratympanic methylprednisolone reduced vertigo attacks by 90% and gentamicin by 87% at two years, with no difference between them (Patel et al., *Lancet* 2016). The American guideline (Basura et al., *Otolaryngol Head Neck Surg* 2020) recommends audiometry and MRI to exclude retrocochlear lesions, offers intratympanic steroids for active disease and gentamicin or labyrinthectomy after other treatments fail, and advises against positive-pressure therapy.
 !!
+## Drugs and doses
+!table Ménière's disease: drugs and doses
+Step | Drug and dose | Course and notes
+Acute attack, severe vomiting | Prochlorperazine 12.5 mg by deep intramuscular injection; or buccal prochlorperazine 3 to 6 mg twice a day | Then oral treatment; IV fluids if dehydrated
+Acute attack, oral | Prochlorperazine 5 mg three times a day (up to 30 mg a day); or cyclizine 50 mg up to three times a day; or cinnarizine 15 to 30 mg three times a day | A few days only (up to 7 to 14); sedatives slow compensation
+Prevention, every patient | Salt about 1.5 to 2 g a day; limit caffeine and alcohol; stop smoking | Long term
+Prevention, first drug | Betahistine 16 mg three times a day with food (maintenance 24 to 48 mg a day) | Trial of about 3 months; stop if no benefit (BEMED trial found no effect over placebo); caution in asthma and peptic ulcer
+Prevention, alternative | A thiazide diuretic (for example bendroflumethiazide 2.5 mg daily) | Evidence weak; check sodium and potassium
+Active disease despite medical treatment, hearing useful | Intratympanic methylprednisolone 62.5 mg/ml (about 0.5 to 1 ml), two injections two weeks apart, repeated as needed | Non-ablative; as effective as gentamicin in the 2016 trial
+Failure of non-ablative treatment | Intratympanic gentamicin 40 mg/ml, single injection, repeated only if vertigo returns | Hearing loss risk; confirm the other ear is healthy
+Not recommended | Long-term vestibular sedatives | 
+!!
+Doses from the BNF, NICE CKS Ménière's disease, the American guideline (Basura et al., *Otolaryngol Head Neck Surg* 2020) and the intratympanic trial (Patel et al., *Lancet* 2016).
 
 # Complications | Over the years.
 - **Permanent hearing loss:** the loss becomes permanent and flat.
@@ -204,3 +227,8 @@ In the BEMED trial of 221 patients, betahistine at 48 mg or 144 mg a day for nin
 - Patel et al., *Lancet* 2016: intratympanic methylprednisolone versus gentamicin.
 - Basura et al., *Otolaryngol Head Neck Surg* 2020: American clinical practice guideline.
 - Sood et al., *Otol Neurotol* 2014: endolymphatic sac surgery meta-analysis.
+## Guidelines and dosing
+- NICE CKS: Ménière's disease.
+- Basura et al., *Otolaryngol Head Neck Surg* 2020: clinical practice guideline, Ménière's disease.
+- Patel et al., *Lancet* 2016: intratympanic methylprednisolone versus gentamicin.
+- BNF: prochlorperazine, cyclizine, cinnarizine, betahistine.

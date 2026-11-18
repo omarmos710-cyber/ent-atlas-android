@@ -28,6 +28,14 @@ Vertigo, sensorineural hearing loss or facial weakness suggests stapes subluxati
 ## Diagnosis
 Tuning forks, nystagmus and the facial nerve; an audiogram when practical. CT if a fracture is suspected.
 !imaging | Ossicular luxation after trauma.
+### Investigations: what and when
+!table Traumatic perforation: investigations
+Role | Test | When and what it shows
+Diagnosis | Otoscopy or microscopy | Irregular perforation with clot and in-turned edges
+Every patient | Tuning forks, check for nystagmus and facial movement | Sensorineural loss or vertigo means inner-ear injury
+When practical | Pure-tone audiogram, repeated after healing | A gap over about 30 to 40 dB suggests ossicular injury
+Suspected fracture or ossicular injury | High-resolution CT of the temporal bones | Fracture line, ossicular dislocation, pneumolabyrinth
+!!
 ## Management
 ### Keep dry, keep out
 No drops, no syringing and no water in the ear. Antibiotics only if the ear becomes infected.
@@ -37,6 +45,16 @@ Most perforations heal within weeks. Large ones with in-turned edges may be repo
 !update Current evidence
 **Spontaneous healing.** In a prospective series of traumatic perforations, most healed spontaneously within three months; small perforations closed faster than large ones, and a dry ear healed better than a wet one (Lou et al., *Clin Otolaryngol* 2011). In a randomised trial of perforations with inverted or everted edges, healing rates were similar with observation, gelfoam patching, and edge approximation plus patching, but closure was faster with intervention (Lou et al., *Clin Otolaryngol* 2011).
 !!
+### Drugs and doses
+!table Traumatic perforation: drugs and doses
+Step | Drug and dose | Course and notes
+Every patient | Analgesia; keep water out (cotton wool with petroleum jelly when washing) | Until healed
+Not routine | Prophylactic antibiotics or drops | Most heal dry within 3 months
+Ear becomes infected or contaminated (water, blast) | Quinolone drops: ofloxacin 0.3% 10 drops twice a day (from 12 years), or ciprofloxacin drops | 7 to 10 days; avoid aminoglycoside drops in an open ear
+Vertigo or sensorineural loss | Urgent ENT review; exploration for fistula or stapes subluxation | 
+Persistent after about 3 months | Myringoplasty | 
+!!
+Doses from the BNF and product licences.
 ## Complications
 Persistent perforation, infection, ossicular dislocation, perilymph fistula, and implantation cholesteatoma from squamous epithelium driven into the middle ear.
 
@@ -85,9 +103,29 @@ A cold, allergy or sleeping through descent in an aircraft make it more likely.
 On descent in an aircraft or when diving, outside pressure rises. If the Eustachian tube does not open, middle ear pressure falls relative to it. Once the difference reaches about 90 mm Hg, the soft tissues at the pharyngeal end of the tube are pushed together and the tube *locks*, so swallowing and Valsalva can no longer open it.
 ## Clinical features
 Severe pain, deafness, tinnitus and sometimes vertigo. The drum is retracted and congested, with haemorrhage into it, and later an effusion or blood (haemotympanum), or a perforation.
+### Investigations: what and when
+!table Barotrauma: investigations
+Role | Test | When and what it shows
+Diagnosis | Otoscopy; history of flight or dive | Retracted, congested drum; haemotympanum; perforation
+Every patient | Tuning forks; check for nystagmus | Conductive loss; inner-ear involvement
+Inner-ear symptoms | Pure-tone audiogram | Sensorineural loss means inner-ear barotrauma or fistula
+Persistent effusion | Tympanometry | Flat (type B) trace
+!!
 ## Management
 - **Mild cases:** decongestant drops or spray, analgesia and gentle Valsalva.
 - **Persistent effusion or failure:** politzerisation or myringotomy, and a grommet for recurrent problems.
+### Drugs and doses
+!table Barotrauma: drugs and doses
+Step | Drug and dose | Course and notes
+Pain | Paracetamol or ibuprofen | 
+Decongestant spray (adults and 12 years and over) | Xylometazoline 0.1%, 1 spray each nostril up to three times a day; or oxymetazoline 0.05% | No more than 7 days (rebound congestion)
+Decongestant by mouth (adults) | Pseudoephedrine 60 mg every 4 to 6 hours (maximum 240 mg a day) | Avoid in hypertension, heart disease, MAOI use, pregnancy
+Eustachian tube opening | Autoinflation (Valsalva, nasal balloon) | Several times a day until clear
+Perforation | As for traumatic perforation: keep dry | Most heal
+Inner-ear barotrauma (vertigo, sensorineural loss) | Bed rest, head up, avoid straining; urgent ENT review | Possible perilymph fistula
+Prevention before flying or diving | Decongestant spray about 30 minutes before descent | Do not dive with a cold
+!!
+Doses from the BNF and product licences.
 ## Prevention
 !pearl Prevention
 Avoid flying with a cold, use a decongestant spray before descent, stay awake on descent, and swallow, yawn or perform Valsalva repeatedly.
@@ -126,3 +164,5 @@ Forceful Valsalva against a locked tube can rupture the round or oval window, ca
 - K. J. Lee, *Essential Otolaryngology*, chapter 22.
 ## Studies cited
 - Lou et al., *Clin Otolaryngol* 2011: spontaneous healing of traumatic perforations, and a randomised trial of patching.
+## Guidelines and dosing
+- BNF: ofloxacin ear drops, xylometazoline, pseudoephedrine.

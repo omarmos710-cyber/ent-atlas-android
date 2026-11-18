@@ -35,6 +35,15 @@ The cervical VEMP threshold is abnormally low and the ocular VEMP amplitude abno
 May show a raised SP to AP ratio.
 ## CT
 High-resolution CT reformatted in the plane of the superior canal (Pöschl view) confirms the dehiscence. Thin bone can look dehiscent on CT, so imaging is read with the symptoms and VEMPs.
+## Investigations: what and when
+!table Superior canal dehiscence: investigations
+Role | Test | When and what it shows
+First (bedside) | Tuning forks (bone conduction heard at the ankle); Valsalva and loud sound while watching the eyes | Tullio and Hennebert signs; nystagmus in the plane of the superior canal
+Diagnosis (first line) | Pure-tone audiogram with stapedial reflexes | Low-frequency air–bone gap, supranormal bone conduction, reflexes present
+Physiological confirmation | Cervical VEMP (low threshold) and ocular VEMP (high amplitude) | Third-window physiology
+Gold standard for the defect | High-resolution CT with reformats in the plane of the superior canal (Pöschl and Stenver views) | Dehiscence; read with the symptoms, as thin bone can look dehiscent
+Adjunct | Electrocochleography | Raised SP/AP ratio
+!!
 
 # Differential diagnosis | Mimics.
 !table How to tell them apart
@@ -87,3 +96,5 @@ Sensorineural hearing loss and vestibular loss after repair, and the usual risks
 ## Studies cited
 - Minor et al., *Arch Otolaryngol Head Neck Surg* 1998: the original description.
 - Ziylan et al., *Otol Neurotol* 2017: systematic review of surgical approaches.
+## Guidelines and dosing
+- Ward et al., *Front Neurol* 2017: superior canal dehiscence syndrome, lessons from the first 20 years.

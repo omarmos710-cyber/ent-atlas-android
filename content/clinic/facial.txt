@@ -131,6 +131,15 @@ An acute idiopathic lower motor neurone palsy. Reactivation of herpes simplex vi
 Weakness comes on over hours and peaks within 72 hours, often after a day of pain behind the ear.
 ## Diagnosis
 A diagnosis of exclusion: examine the ear, parotid, neck and other cranial nerves first. The American guideline advises against routine laboratory tests and imaging at presentation, and against electrodiagnostic testing in incomplete palsy. Image, or refer, if the palsy is atypical: slow onset, no recovery at all by three to four months, recurrence on the same side, other cranial nerve signs, or a parotid mass.
+### Investigations: what and when
+!table Bell's palsy: investigations
+Role | Test | When and what it shows
+Diagnosis | History and full examination of ear, parotid, neck and cranial nerves; House–Brackmann grade | A diagnosis of exclusion; the forehead is involved
+Not routine at presentation | Laboratory tests and imaging | The American guideline advises against them in a typical palsy
+Complete palsy | Electroneuronography (ENoG) at 3 to 14 days, with EMG | Prognosis; more than 90% degeneration predicts a poor recovery
+Atypical (slow onset, other cranial nerves, recurrent, bilateral, no recovery by 3 to 4 months) | Contrast MRI of the whole nerve; CT temporal bone if ear disease | Tumour, cholesteatoma, central lesion
+Bilateral or recurrent | Glucose, Lyme serology where endemic, ACE and chest film (sarcoid), HIV | Systemic causes
+!!
 ## Management
 ### Steroids
 Oral steroids started within 72 hours of onset, for example prednisolone 50 mg daily for ten days, or 60 mg daily for five days followed by a five-day taper. With steroids, about 83% recover fully by three months, against 64% without. Steroids are recommended in patients aged 16 and over; children recover well spontaneously, and the evidence in them is weaker. Be cautious with steroids in diabetes, hypertension, peptic ulcer, tuberculosis, glaucoma and pregnancy.
@@ -146,6 +155,16 @@ Eye protection as for every palsy ([[@Management/Eye protection]]); decompressio
 !update Current evidence
 **Steroids work, antivirals add little.** In the Scottish trial of 551 patients treated within 72 hours, prednisolone raised complete recovery at three months from 64% to 83%, and aciclovir gave no benefit (Sullivan et al., *NEJM* 2007). A Swedish and Finnish trial of more than 800 patients confirmed the benefit of prednisolone and found none from valaciclovir (Engström et al., *Lancet Neurol* 2008). A Cochrane review found that steroids reduce incomplete recovery by about a third, with moderate-certainty evidence (Madhok et al., 2016); another found that adding an antiviral to steroids may slightly reduce incomplete recovery, with low-certainty evidence, and that antivirals alone are no better than placebo (Gagyor et al., 2019). The American guideline recommends steroids within 72 hours for patients aged 16 and over, allows an antiviral only alongside steroids, and advises against routine tests, imaging and electrodiagnosis in incomplete palsy, and against surgical decompression outside research or selected cases (Baugh et al., *Otolaryngol Head Neck Surg* 2013).
 !!
+### Drugs and doses
+!table Bell's palsy: drugs and doses
+Step | Drug and dose | Course and notes
+First line (within 72 hours of onset) | Prednisolone 50 mg once daily (or 25 mg twice daily) for 10 days; or 60 mg daily for 5 days, then reduced by 10 mg a day | Total 10 days; with gastric protection where needed; check glucose in diabetes
+Children | Refer to ENT; steroids are commonly given, dosed by weight on specialist advice | Evidence for steroids in children is weaker
+Severe palsy (House–Brackmann V to VI) | Consider adding an antiviral: aciclovir 800 mg five times a day, or valaciclovir 1 g three times a day, for 7 days | Benefit at most small; never an antiviral alone
+Eye, for everyone who cannot close the eye | Lubricating drops (such as hypromellose 0.3%) by day, often hourly; paraffin ointment and taping at night | Until closure recovers; urgent eye review for pain or redness
+Not recommended | Antivirals alone; routine physical therapy or acupuncture | No proven benefit
+!!
+Regimens from the Scottish and Swedish trials (Sullivan et al., *N Engl J Med* 2007; Engström et al., *Lancet Neurol* 2008), NICE CKS Bell's palsy, the American guideline (Baugh et al., *Otolaryngol Head Neck Surg* 2013) and the BNF.
 ## Prognosis
 About 85 to 90% recover fully, and 95% if the palsy never becomes complete.
 
@@ -155,6 +174,16 @@ Vesicles in the concha, canal or palate, severe ear pain, facial palsy, and ofte
 !fig d14-9 | Ramsay Hunt syndrome: facial palsy with vesicles in the concha.
 ## Management
 High-dose steroids with an antiviral such as aciclovir or valaciclovir, and analgesia.
+### Drugs and doses
+!table Ramsay Hunt syndrome: drugs and doses
+Step | Drug and dose | Course and notes
+Steroid | Prednisolone 50 to 60 mg daily (1 mg/kg up to 60 mg), as for Bell's palsy | 10 days in total; start as early as possible
+Antiviral (with the steroid) | Aciclovir 800 mg five times a day; or valaciclovir 1 g three times a day; or famciclovir 500 mg three times a day | 7 days; start within 72 hours if possible; reduce doses in renal impairment
+Pain | Analgesia; neuropathic agents for post-herpetic pain | 
+Eye | Lubricating drops by day, ointment and taping at night | As for Bell's palsy
+Vertigo | Short course of a vestibular sedative (for example prochlorperazine) | Only for the acute days
+!!
+Doses from the BNF (herpes zoster doses), NHS Tayside and NHS Borders facial palsy guidance, and the Scottish trial protocol for steroids.
 ## Prognosis
 The outlook for the face is worse than in Bell's palsy.
 
@@ -247,3 +276,8 @@ Botulinum toxin, or microvascular decompression.
 - Engström et al., *Lancet Neurol* 2008: prednisolone and valaciclovir.
 - Madhok et al., Cochrane review, 2016: steroids; Gagyor et al., Cochrane review, 2019: antivirals.
 - Baugh et al., *Otolaryngol Head Neck Surg* 2013: American clinical practice guideline.
+## Guidelines and dosing
+- NICE CKS: Bell's palsy.
+- Baugh et al., *Otolaryngol Head Neck Surg* 2013: clinical practice guideline, Bell's palsy.
+- NHS Tayside and NHS Borders guidance: facial nerve palsy in adults.
+- BNF: prednisolone, aciclovir, valaciclovir, famciclovir, hypromellose.

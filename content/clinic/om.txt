@@ -55,6 +55,15 @@ Otalgia, fever, irritability, ear pulling and poor feeding, often after a cold. 
 - *Pneumatic otoscopy* is the essential examination. A bulging drum with poor mobility makes the diagnosis.
 - A red drum in a crying child is not enough, because crying flushes the drum.
 - Tympanometry helps when the view is poor.
+### Investigations: what and when
+!table Acute otitis media: investigations
+Role | Test | When and what it shows
+Diagnosis (first line) | Pneumatic otoscopy | Every child: a bulging drum with poor mobility; the diagnosis is clinical
+Adjunct | Tympanometry | When the drum cannot be seen well: a flat (type B) trace shows the effusion
+Gold standard for fluid and organism | Tympanocentesis with culture | Rarely needed: neonates, the immunocompromised, failure of second-line treatment
+Discharge | Swab of otorrhoea | Recurrent or persistent discharge, or failed treatment
+Suspected complication | Contrast CT of the temporal bones; MRI for intracranial spread | Mastoid swelling, facial palsy, vertigo, neck stiffness or drowsiness
+!!
 ## Management
 ### Approach
 !ward On call: a child with a painful ear
@@ -99,6 +108,19 @@ Indicated for a bulging drum with severe pain, incomplete resolution with persis
 !update Current evidence
 A Cochrane review of 13 trials found that antibiotics did not reduce pain at 24 hours and reduced it at two to three days in only 1 child in 20, while causing side effects in about 1 in 14 (Venekamp et al., *Cochrane Database Syst Rev* 2015).
 !!
+### Drugs and doses
+!table Acute otitis media: drugs and doses
+Step | Drug and dose | Course and notes
+Pain, for every child | Paracetamol or ibuprofen at the right dose for age or weight; maximum doses for severe pain | Whatever is decided about antibiotics
+Ear drops (no immediate antibiotic, intact drum) | Phenazone 40 mg/g with lidocaine 10 mg/g, 4 drops two or three times a day | Up to 7 days; not with a perforation or discharge
+First line (UK) | Amoxicillin: 1 to 11 months 125 mg, 1 to 4 years 250 mg, 5 to 17 years 500 mg, three times a day | 5 to 7 days
+First line (US) | High-dose amoxicillin 80 to 90 mg/kg/day in two divided doses (maximum 2 g a dose) | 10 days if under 2 years or severe; 7 days at 2 to 5 years; 5 to 7 days from 6 years
+Penicillin allergy | Clarithromycin twice a day: under 8 kg 7.5 mg/kg; 8 to 11 kg 62.5 mg; 12 to 19 kg 125 mg; 20 to 29 kg 187.5 mg; 30 to 40 kg 250 mg; 12 to 17 years 250 to 500 mg | 5 to 7 days; in non-severe allergy the American guideline uses cefdinir 14 mg/kg/day, cefuroxime 30 mg/kg/day or cefpodoxime 10 mg/kg/day
+Penicillin allergy in pregnancy | Erythromycin 250 to 500 mg four times a day, or 500 to 1,000 mg twice a day | 5 to 7 days
+Second line (worse after 2 to 3 days of the first choice) | Co-amoxiclav three times a day: 1 to 11 months 0.25 ml/kg of 125/31 suspension; 1 to 5 years 5 ml of 125/31 (or 0.25 ml/kg); 6 to 11 years 5 ml of 250/62 (or 0.15 ml/kg); 12 to 17 years 250/125 mg or 500/125 mg | 5 to 7 days (US: 90/6.4 mg/kg/day in two doses); penicillin allergy: ask a microbiologist
+Vomiting, cannot take oral drugs, or second-line failure | Ceftriaxone 50 mg/kg (maximum 2 g) IM or IV once daily | 1 to 3 days; specialist review, consider tympanocentesis for culture
+!!
+Doses from NICE NG91 (2018, updated 2022) and the American Academy of Pediatrics guideline (Lieberthal et al., *Pediatrics* 2013); check the BNF for Children for weight-based dosing in special groups.
 ## Subtypes and variants
 ### Recurrent acute otitis media
 Three or more episodes in six months, or four or more in a year, with the child well in between. Reduce risk factors (smoke exposure, dummies, day care where possible), encourage breastfeeding, and check vaccinations (pneumococcal and Hib); children who keep having infections despite vaccination may have poor antibody responses. The options are:
@@ -151,6 +173,14 @@ Lee: The value of endoscopy is clearest in high-risk patients.
 In practice: Examine the postnasal space in every adult with a persistent one-sided effusion, and biopsy if anything is abnormal; the threshold is lowest in smokers and people from endemic regions.
 !!
 !imaging | Adenoid enlargement, and otomastoiditis with its complications.
+### Investigations: what and when
+!table Otitis media with effusion: investigations
+Role | Test | When and what it shows
+Diagnosis (first line) | Pneumatic otoscopy | A dull, retracted or amber drum with poor mobility, or a fluid level or bubbles
+Confirmation | Tympanometry | A flat (type B) trace with a normal ear-canal volume
+Hearing (every child) | Age-appropriate audiometry: visual reinforcement, play or pure-tone | The size of the conductive loss guides treatment; repeat after 3 months
+Adult with one-sided effusion | Endoscopy of the nasopharynx, with biopsy or MRI if abnormal | To exclude nasopharyngeal carcinoma
+!!
 ## Course
 Most effusions clear on their own: screen-detected effusions clear in about 63% by three months and 88% by a year, and around 90% of effusions after treated acute otitis media resolve. But once a **bilateral** effusion has lasted three months, only about a quarter clear by six months.
 ## Management
@@ -181,6 +211,15 @@ NICE now advises **considering adenoidectomy alongside grommets** for children h
 !update Current evidence
 For effusion, a Cochrane review found grommets improved hearing by about 10 dB in the first months, with the benefit fading by a year (Browning et al., 2010). NICE's 2023 guideline on effusion (NG233) added autoinflation, bone-conduction devices and consideration of adenoidectomy with grommets.
 !!
+### Drugs: what helps and what does not
+!table Otitis media with effusion: medicines
+Treatment | Recommendation | Notes
+Antibiotics, oral or topical | Do not offer | No lasting benefit; harms outweigh it
+Steroids (oral or nasal), antihistamines, decongestants, mucolytics, leukotriene antagonists, proton pump inhibitors | Do not offer | No evidence of benefit
+Autoinflation (nasal balloon) | Consider in children who are able to use it | The only non-surgical measure NICE supports
+Otorrhoea after grommets | Non-ototoxic antibiotic ear drops (such as ciprofloxacin) for 5 to 7 days | Water precautions; a single intraoperative dose of ciprofloxacin drops can prevent otorrhoea and tube blockage
+!!
+From NICE NG233 (2023) and the American clinical practice guideline (Rosenfeld et al., *Otolaryngol Head Neck Surg* 2016).
 ## Complications
 ### Of chronic effusion
 - Atrophic, retracted drum and atelectasis.
@@ -236,3 +275,8 @@ Most children need no water precautions.
 - Hoberman et al., *N Engl J Med* 2021: grommets versus medical management for recurrent acute otitis media.
 - Browning et al., Cochrane review, 2010: grommets for otitis media with effusion.
 - NICE guideline NG233 (2023): otitis media with effusion.
+## Guidelines and dosing
+- NICE NG91 (2018, updated 2022): otitis media (acute), antimicrobial prescribing.
+- Lieberthal et al., *Pediatrics* 2013: American Academy of Pediatrics guideline on acute otitis media.
+- NICE NG233 (2023): otitis media with effusion in under 12s.
+- Rosenfeld et al., *Otolaryngol Head Neck Surg* 2016: clinical practice guideline, otitis media with effusion.

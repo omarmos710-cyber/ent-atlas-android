@@ -150,7 +150,7 @@ X.forEach((x, doc) => {
       if (secAsp) add(doc, u.k, ent, secAsp, secW * f);
       for (const a of extraA) add(doc, u.k, ent, a, .85 * f);
       /* a sentence that says outright what it is ("It is treated with thyroxine", "Contraindications are ...") */
-      for (const [a, re] of STRONG) if (a !== secAsp && re.test(t)) add(doc, u.k, ent, a, .85 * f);
+      for (const [a, re] of STRONG) if (a !== secAsp && re.test(t) && !(u.row && /^(dx|tx)$/.test(secAsp) && /^(dx|tx)$/.test(a))) add(doc, u.k, ent, a, .85 * f); /* a table row keeps its section: "first line" in an investigations table is a test, not a drug */
       if (lab) add(doc, u.k, ent, lab, 1 * f);
       /* cue words count for more in a sentence that is itself about the condition ("Hashimoto thyroiditis ... is treated with thyroxine") */
       for (const [a, n] of Object.entries(cues)) if (a !== secAsp) add(doc, u.k, ent, a, subjectLine ? Math.min(.75, .6 + .1 * n) : Math.min(.7, .35 + .15 * n) * (secAsp ? .6 : 1) * f);

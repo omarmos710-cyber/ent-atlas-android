@@ -27,6 +27,14 @@ Moisture (swimming, humid climates), trauma from cotton buds and fingernails, he
 Pain that develops over a day or two, itching, a feeling of blockage and a scanty discharge.
 ### Signs
 Pain on moving the tragus or pinna; a red, swollen canal with debris; tender nodes in front of or behind the ear. When visible, the drum moves normally on pneumatic otoscopy, unlike otitis media.
+### Investigations: what and when
+!table Acute otitis externa: investigations
+Role | Test | When and what it shows
+Diagnosis | Otoscopy with pneumatic check of the drum | Clinical diagnosis: tragal tenderness, a swollen canal, a mobile drum
+Not routine | Swab for culture and sensitivity | Failure of first-line drops, recurrent or severe infection, or immunosuppression
+Diabetes or recurrence | Blood glucose or HbA1c | Undiagnosed diabetes
+Severe pain with granulation, or failed treatment | CRP or ESR, biopsy and imaging | To exclude necrotising otitis externa
+!!
 ## Management
 ### Approach
 !ward On call: a painful, swollen ear canal
@@ -58,6 +66,19 @@ For acute otitis externa, the American guideline recommends topical drops as fir
 !pearl When drops fail
 Think of contact allergy to neomycin, fungal superinfection ([[5]]), or an underlying necrotising infection ([[7]]).
 !!
+### Drugs and doses
+!table Acute otitis externa: drugs and doses
+Step | Drug and dose | Course and notes
+Every patient | Analgesia (paracetamol or ibuprofen); aural toilet; keep the ear dry | Warmth helps pain
+Mild, no discharge | Acetic acid 2% ear spray, 1 spray three times a day (12 years and over) | 7 days
+First line (UK) | Neomycin with corticosteroid drops (for example neomycin–dexamethasone), 3 drops three times a day; or gentamicin–hydrocortisone, 2 to 4 drops three or four times a day | 7 days, up to 14 if needed; aminoglycosides with caution if the drum may be perforated
+First line (US) or drum not intact | Ofloxacin 0.3% once daily (5 drops aged 6 months to 12 years, 10 drops from 13 years); or ciprofloxacin–hydrocortisone, 3 drops twice daily (from 1 year) | 7 days; quinolones are safe with a perforation or grommet
+Canal closed by swelling | Expanding wick soaked in the same drops | Review at 2 to 3 days
+Spreading cellulitis, diabetes or immunosuppression | Flucloxacillin: adults 500 mg four times a day; 1 month to 1 year 62.5 to 125 mg, 2 to 9 years 125 to 250 mg, 10 to 17 years 250 to 500 mg, four times a day | 7 days, with the drops; refer to exclude necrotising otitis externa
+Penicillin allergy | Clarithromycin (adults 250 to 500 mg twice a day) or erythromycin | 7 days
+Pseudomonas on culture with spread | Oral ciprofloxacin (adults 500 to 750 mg twice a day) | Specialist advice
+!!
+Doses from NICE CKS Otitis externa and regional NHS antimicrobial guidance (NHS Forth Valley, NHS Highland), the BNF and BNF for Children, product licences, and the American guideline (Rosenfeld et al., *Otolaryngol Head Neck Surg* 2014).
 
 # Furuncle {dz} | A boil in the canal.
 ## Etiology
@@ -68,6 +89,15 @@ Pain is out of proportion to its size and worse on chewing; it can swell the pos
 Distinguishing it from [[t:mastoiditis]]: the drum is normal, there is no preceding otitis media and no mucoid discharge, and pinna movement is painful.
 ## Management
 Analgesia, oral antistaphylococcal antibiotics, heat, and an ichthammol-glycerine pack; incise when it points. Recurrent furuncles call for testing for diabetes and treating nasal staphylococcal carriage.
+### Drugs and doses
+!table Furuncle: drugs and doses
+Step | Drug and dose | Course and notes
+First line | Flucloxacillin: adults 500 mg four times a day; children 1 month to 1 year 62.5 to 125 mg, 2 to 9 years 125 to 250 mg, 10 to 17 years 250 to 500 mg, four times a day | 7 days; with analgesia and heat
+Penicillin allergy | Clarithromycin: adults 250 to 500 mg twice a day | 7 days
+Pointing abscess | Incision and drainage | Send pus for culture (MRSA)
+Recurrent furuncles | Test for diabetes; treat nasal carriage (mupirocin 2% nasal ointment three times a day for 5 days) | 
+!!
+Doses from the BNF and BNF for Children and NHS antimicrobial guidance.
 
 # Otomycosis {dz} | Itch and spores.
 ## Etiology
@@ -77,6 +107,16 @@ Intense itching, discomfort, blockage and a watery discharge with a musty smell.
 !fig d8-11 | Endoscopic view of otomycosis with yellow (A) and black (B) fungal spores.
 ## Management
 Meticulous cleaning, then a topical antifungal, continued for a week beyond apparent cure: clotrimazole for most, nystatin for *Candida*. Salicylic acid in alcohol and povidone iodine are alternatives.
+### Drugs and doses
+!table Otomycosis: drugs and doses
+Step | Drug and dose | Course and notes
+First | Aural toilet: remove all fungal debris under the microscope | Repeat as needed
+First line | Clotrimazole 1% solution, 2 to 3 drops two or three times a day | Continue for at least 14 days after the infection has cleared
+Alternative | Clioquinol with flumetasone drops, 2 to 3 drops twice a day | 7 to 10 days; stains; avoid with a perforation
+Candida | Nystatin preparations | 
+Stop the cause | Stop antibiotic ear drops; keep the ear dry | 
+!!
+Doses from NICE CKS Otitis externa and the BNF.
 
 # Chronic and reactive otitis externa {dz} | Itch, scaling and narrowing.
 ## Chronic otitis externa
@@ -84,6 +124,13 @@ Meticulous cleaning, then a topical antifungal, continued for a week beyond appa
 Long-standing itch and irritation with thick, dry, scaling skin, which may narrow the canal.
 ### Management
 Treat underlying eczema or seborrhoeic dermatitis, use steroid drops or ointment, and stop the patient scratching.
+!table Chronic otitis externa: drugs and doses
+Step | Drug and dose | Course and notes
+First line | Steroid ear drops, such as betamethasone 0.1%, 2 to 3 drops every 2 to 3 hours, reducing as it settles | Short courses; treat any infection first
+Eczema or seborrhoeic dermatitis | Treat the skin and scalp; avoid soaps and cotton buds | 
+Itch-scratch cycle | Stop scratching; emollient | 
+!!
+Doses from the BNF.
 ## Reactive forms
 Eczematous otitis externa from drops or hearing-aid moulds, seborrhoeic dermatitis with scalp involvement, and neurodermatitis from habitual scratching.
 ## Otitis externa haemorrhagica
@@ -123,6 +170,16 @@ MRI | Soft tissue, marrow and dura | Not a guide to cure
 !!
 CT shows erosion only after about 30% demineralisation, so a normal early CT is falsely reassuring. Contrast MRI with fat suppression and diffusion shows soft tissue and marrow disease earlier and detects intracranial spread; **FDG PET-CT** is increasingly used to diagnose and monitor. CT and MRI changes persist for up to a year after cure, so they cannot decide when to stop.
 !imaging | Necrotising otitis externa, canal stenosis and canal carcinoma.
+### Investigations: what and when
+!table Necrotising otitis externa: investigations
+Role | Test | When and what it shows
+Every patient | ESR and CRP; glucose and HbA1c; full blood count, renal function | Baseline; ESR and CRP are followed to judge response
+Every patient (before antibiotics if stable) | Swab and biopsy of canal granulation | Organism and sensitivities; excludes squamous carcinoma
+Initial imaging | CT of the temporal bones | Bone erosion of the canal floor and skull base; normal early in the disease
+Imaging of choice for extent | Contrast MRI with fat suppression and diffusion | Soft tissue and marrow disease, intracranial spread and venous thrombosis
+Early bone involvement | Technetium-99m bone scan | Very sensitive but stays positive for months
+Response and end of treatment | Gallium or indium scan, or FDG PET-CT; repeat MRI | To decide when to stop
+!!
 ## Differential diagnosis
 Squamous carcinoma of the temporal bone ([[t:tumear]]) is the key differential, which is why granulation is always biopsied.
 ## Management
@@ -142,6 +199,17 @@ Limited to biopsy, deep sampling (for example at cortical mastoidectomy when the
 !update Current evidence
 For necrotising otitis externa, a systematic review of 70 studies (2,274 patients, mostly retrospective) found 84% were diabetic, *Pseudomonas* grew in 62%, 14% grew no organism, and there was no evidence for the best imaging, regimen or duration (median 7.2 weeks) (Takata et al., *Clin Otolaryngol* 2023). Cure rates have fallen and culture-negative cases risen over time (Byun et al., *Otol Neurotol* 2020). A UK multidisciplinary guideline identifies high-risk patients for early intensive treatment (Hopkins et al., *J Laryngol Otol* 2020).
 !!
+### Drugs and doses
+!table Necrotising otitis externa: drugs and doses
+Step | Drug and dose | Course and notes
+Before antibiotics (if stable) | Swab and biopsy of granulation for bacterial and fungal culture | Then start treatment at once
+Non-severe, or oral follow-on | Ciprofloxacin 750 mg by mouth twice a day | Total course usually 6 weeks, guided by pain, CRP and MRI
+Moderate or severe (intravenous) | Piperacillin–tazobactam 4.5 g every 6 hours (or every 8 hours by extended 3 to 4 hour infusion); with oral ciprofloxacin in many units | Usually 1 to 3 weeks IV, then oral ciprofloxacin
+Non-severe penicillin allergy | Ceftazidime 2 g IV every 8 hours (maximum 3 g a day over 80 years) | 
+Aspergillus | Voriconazole: 6 mg/kg IV every 12 hours for 2 doses, then 4 mg/kg every 12 hours; or by mouth 400 mg every 12 hours for 2 doses, then 200 mg every 12 hours (40 kg and over) | Long courses with drug-level monitoring; infectious disease advice
+Every patient | Tight diabetic control; regular aural toilet; topical anti-pseudomonal drops | 
+!!
+Regimens from NHS antimicrobial guidance (NHS Lothian and other trust guides), the UCLH standardised six-week pathway (Dhariwal et al., *J Int Adv Otol* 2023) and the BNF; local microbiology advice takes precedence.
 ## Complications and outcome
 - **Cranial neuropathies:** VII, then IX, X, XI and XII.
 - **Sigmoid sinus thrombosis** and **sepsis**.
@@ -180,3 +248,10 @@ For necrotising otitis externa, a systematic review of 70 studies (2,274 patient
 - Takata et al., *Clin Otolaryngol* 2023: systematic review of necrotising otitis externa.
 - Byun et al., *Otol Neurotol* 2020: trends in necrotising otitis externa.
 - Hopkins et al., *J Laryngol Otol* 2020: UK multidisciplinary guideline.
+## Guidelines and dosing
+- NICE CKS: Otitis externa (prescribing information).
+- NHS Forth Valley and NHS Highland antimicrobial guidance: acute otitis externa.
+- Rosenfeld et al., *Otolaryngol Head Neck Surg* 2014: clinical practice guideline, acute otitis externa.
+- NHS Lothian antimicrobial guidance: necrotising otitis externa.
+- Dhariwal et al., *J Int Adv Otol* 2023: standardised six-week pathway for necrotising otitis externa.
+- BNF and BNF for Children: flucloxacillin, clarithromycin, ciprofloxacin, clotrimazole, betamethasone ear drops, voriconazole.
