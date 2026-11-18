@@ -59,15 +59,16 @@ const SKIPABBR=new Set(["it","on","so","cs","cr","ap","sp","an","as","at","or","
 /* ---------- aspects of a question ---------- */
 /* q: phrases in the question (longest first); h: heading words that answer it; c: cue words in the text */
 const ASPECTS=[
- {id:"tx",label:"Treatment",q:["how to treat","how do you treat","how to manage","how do you manage","line of treatment","drug of choice","drugs for","medication for","medical treatment","dose of","dosage","dose","surgical treatment","treatment options","treatment","treatments","treat","treated","management","managing","manage","therapy","tx","rx","cure"],h:/\b(treatment|management|manag\w*|therap\w*|medical|surgery|surgical|operation|drug|antibiotic|steroid|repair|what to do|options?|choosing)\b/,c:/\b(treat\w*|manag\w*|therap\w*|steroid|antibiotic|surgery|excis\w*|drain\w*|repair\w*)\b/,cx:/\b(treat\w*|manag\w*|therap\w*|steroids?|antibiotics?|surgery|surgical|excis\w*|drain\w*|repair\w*|drugs?|first[- ]line|medical\w*|\w+ectomy|\w+otomy|\w+plasty|radioiodine|radiotherapy|chemo\w*|cautery|packing|ligation|embolis\w*|antivirals?|analgesi\w*|decongestants?|antihistamines?|resect\w*|remov\w*)\b/},
+ {id:"tx",label:"Treatment",q:["treatment of choice","first line treatment","first-line treatment","first line","first-line","mainstay of treatment","how to treat","how do you treat","how to manage","how do you manage","managed","what to do","what should i do","what do you do","what do i do","how to deal with","next step","next steps","line of treatment","drug of choice","drugs for","medication for","medical treatment","dose of","dosage","dose","surgical treatment","treatment options","treatment","treatments","treat","treated","management","managing","manage","therapy","tx","rx","cure"],h:/\b(treatment|management|manag\w*|therap\w*|medical|surgery|surgical|operation|drug|antibiotic|steroid|repair|what to do|options?|choosing)\b/,c:/\b(treat\w*|manag\w*|therap\w*|steroid|antibiotic|surgery|excis\w*|drain\w*|repair\w*)\b/,cx:/\b(treat\w*|manag\w*|therap\w*|steroids?|antibiotics?|surgery|surgical|excis\w*|drain\w*|repair\w*|drugs?|first[- ]line|medical\w*|\w+ectomy|\w+otomy|\w+plasty|radioiodine|radiotherapy|chemo\w*|cautery|packing|ligation|embolis\w*|antivirals?|analgesi\w*|decongestants?|antihistamines?|resect\w*|remov\w*)\b/},
  {id:"cf",label:"Clinical picture",q:["clinical picture","clinical features","clinical presentation","presenting features","signs and symptoms","clinical findings","on examination","presentation","picture","features","feature","signs","sign","symptoms","symptom","manifestations","presents","present with","presenting","findings","clinically","clinical","examination","examine","on examination","looks like","recognise","recognize"],h:/\b(clinical|features?|picture|presentation|presents?|symptoms?|signs?|(?<!natural )history|examination|findings|recognising|recognition|manifestation)\b/,c:/\b(present\w*|symptom\w*|sign\w*|complain\w*|feature\w*|pain\w*|hoarse\w*|breath\w*|stridor|fever\w*|swell\w*|discharg\w*|weak\w*|loss|bleed\w*|tender\w*|red|bulging|cough\w*|aspirat\w*)\b/,cx:/\b(present\w*|symptom\w*|sign\w*|complain\w*|feature\w*|pain\w*|hoarse\w*|breath\w*|stridor|fever\w*|swell\w*|discharg\w*|weak\w*|loss|bleed\w*|tender\w*|red|bulging|cough\w*|aspirat\w*|worse|better|onset|otalgia|vertigo|tinnitus|deafness|hearing|nausea|vomit\w*|itch\w*|obstruct\w*|dysphagia|odynophagia|lump|mass|ulcer\w*|numb\w*|palsy|diplopia|proptosis|headache|snor\w*|drool\w*|cry|voice|epistaxis)\b/},
- {id:"dx",label:"Investigation",q:["how to diagnose","how do you diagnose","how to investigate","work up","workup","work-up","investigations","investigation","investigate","diagnosis","diagnose","diagnostic","tests","test","imaging","scan","assessment","assess","evaluation","evaluate","confirm"],h:/\b(investigat\w*|diagnos\w*|tests?|imaging|scans?|assessment|evaluation|work-?up|audiometry|ct|mri|ultrasound|biopsy|confirm)\b/,c:/\b(ct|mri|ultrasound|audiogram|biopsy|test\w*|imag\w*|scan\w*|confirm\w*)\b/},
- {id:"why",label:"Causes",q:["what causes","causes of","risk factors","aetiology","etiology","pathogenesis","pathophysiology","pathology","causes","cause","caused","why","mechanism","risk","due to"],h:/\b(causes?|aetiolog\w*|etiolog\w*|risk|pathogenesis|pathophysiolog\w*|mechanism|why|pathology|organisms?|who gets)\b/,c:/\b(caus\w*|due to|risk|result\w* from|follow\w*)\b/},
+ {id:"dx",label:"Investigation",q:["investigation of choice","imaging of choice","test of choice","best investigation","best test","gold standard investigation","gold standard test","gold standard","how is it diagnosed","how is diagnosed","how to diagnose","diagnosed","confirmed","how do you diagnose","how to investigate","work up","workup","work-up","investigations","investigation","investigate","diagnosis","diagnose","diagnostic","tests","test","imaging","scan","assessment","assess","evaluation","evaluate","confirm"],h:/\b(investigat\w*|diagnos\w*|tests?|imaging|scans?|assessment|evaluation|work-?up|audiometry|ct|mri|ultrasound|biopsy|confirm)\b/,c:/\b(ct|mri|ultrasound|audiogram|biopsy|test\w*|imag\w*|scan\w*|confirm\w*)\b/},
+ {id:"why",label:"Causes",q:["most common causes","most common cause","commonest causes","commonest cause","what causes","causes of","risk factors","aetiology","etiology","pathogenesis","pathophysiology","pathology","causes","cause","caused","why","mechanism","risk","due to"],h:/\b(causes?|aetiolog\w*|etiolog\w*|risk|pathogenesis|pathophysiolog\w*|mechanism|why|pathology|organisms?|who gets)\b/,c:/\b(caus\w*|due to|risk|result\w* from|follow\w*)\b/},
  {id:"cx",label:"Complications",q:["complications","complication","sequelae","side effects","adverse effects","risks of","dangers"],h:/\b(complications?|sequelae|adverse|side effects|risks?|dangers?|cautions?|crisis)\b/,c:/\b(complicat\w*|risk|injur\w*|fistula|bleed\w*|haemorrhage|infection)\b/},
  {id:"ddx",label:"Differential diagnosis",q:["differential diagnosis","differential diagnoses","differentials","differential","ddx","mimics","versus","vs","distinguish","difference between"],h:/\b(differential|mimics?|versus|distinguish|or\b)/,c:/\b(differential|mimic\w*|distinguish\w*)\b/},
  {id:"cls",label:"Classification",q:["classification","classify","types","type","staging","stage","grading","grade","grades","stages","scale","scoring","score"],h:/\b(classification|types?|staging|stages?|grading|grades?|scale|score|kinds)\b/,c:/\b(type|grade|stage|class\w*)\b/},
  {id:"an",keep:1,label:"Anatomy",q:["anatomy","course","relations","blood supply","nerve supply","supply","drainage","landmarks","boundaries","embryology"],h:/\b(anatomy|course|relations|supply|drainage|landmarks?|boundaries|embryolog\w*|nerves?|vessels)\b/,c:/\b(lies|runs|supplied|drains?|between|relation\w*)\b/},
- {id:"ind",label:"Indications",q:["indications for","indications","indication","when to operate","when to refer","when to do","contraindications","contraindication","criteria"],h:/\b(indications?|contraindications?|criteria|when|who needs|selection|choosing)\b/,c:/\b(indicat\w*|criteria)\b/},
+ {id:"ci",label:"Contraindications",q:["contraindications to","contraindications for","contraindications of","contra indications","contra-indications","contraindications","contraindication","contraindicated","when not to","when to avoid","should not be given","should not be used"],h:/\b(contra-?indications?|contraindicated|cautions?|when not to|avoid)\b/,c:/\b(contra-?indicat\w*)\b/,cx:/\b(contra-?indicat\w*|avoid\w*|never|must not|should not|not (be )?(used|given|done))\b/},
+ {id:"ind",label:"Indications",q:["when should i operate","when should i do","when should we do","when should you do","when to perform","when do you operate","when do you do","when is it indicated","who needs","indications for","indications","indication","when to operate","when to refer","when to do","criteria"],h:/\b(indications?|criteria|when|who needs|selection|choosing)\b/,c:/\b(?<!contra-?)(indicat\w*|criteria)\b/},
  {id:"how",label:"Technique",q:["how to do","how is it done","technique","procedure","steps","step by step","operation","operative steps","surgical steps","approach"],h:/\b(technique|steps?|procedure|operation|approach|incision|exposure|stage by stage)\b/,c:/\b(incis\w*|elevat\w*|dissect\w*|expos\w*)\b/},
  {id:"px",label:"Prognosis",q:["prognosis","outcome","outcomes","survival","recurrence rate","natural history","recovery"],h:/\b(prognosis|outcomes?|survival|natural history|recovery|follow-?up)\b/,c:/\b(prognos\w*|survival|recover\w*|outcome\w*)\b/},
  {id:"def",label:"Definition",q:["what is","what are","define","definition","meaning of","describe"],h:/\b(definitions?|what it is|overview|nature)\b/,c:/\bis an?\b/}
@@ -85,7 +86,7 @@ const LAY=[["nose bleed","epistaxis"],["nosebleed","epistaxis"],["nosebleeds","e
 const CONCEPT=[[/recurrent laryngeal nerve (injury|palsy|damage|paralysis|lesion|trauma)|(injury|palsy|damage) (of|to) (the )?recurrent laryngeal nerve/,"vocal fold paralysis recurrent nerve paralysis hoarseness"],
  [/facial nerve (injury|damage|lesion|paralysis|weakness)/,"facial palsy"],[/post ?tonsillectomy (bleed|bleeding|haemorrhage|hemorrhage)|bleeding after tonsillectomy/,"post-tonsillectomy haemorrhage secondary haemorrhage"],
  [/hypocalcaemia after thyroidectomy|post ?thyroidectomy hypocalc/,"hypoparathyroidism calcium"],[/swallowed|ingested/,"foreign body"],[/sinusitis/,"rhinosinusitis"],[/vocal cord/,"vocal fold"],[/(cancer|carcinoma|tumou?r) of the (\w+)/,"$2 cancer"]];
-const FILLER=new Set("a an the of and or in on at to for with by from please tell me about give list explain describe ent its this that those these patient patients case cases is are was were be does do did when where which who whom what how much many can could should would will must best most more get gets got usually commonly common typical typically important main you your would i we me us".split(" "));
+const FILLER=new Set("choice year years old aged age month months week weeks day days history a an the of and or in on at to for with by from please tell me about give list explain describe ent its this that those these patient patients case cases is are was were be does do did when where which who whom what how much many can could should would will must best most more get gets got usually commonly common typical typically important main you your would i we me us".split(" "));
 
 /* ---------- model ---------- */
 let M=null;
@@ -147,8 +148,20 @@ function parse(q){const fixedA=[];let s=" "+fixAspectWords(fold(q).replace(/[?.,
  for(const w of words){const x=ab[w.replace(/s$/,"")]||ab[w];if(x&&!(w.length<=2&&!ABBR[w])){expanded.push(x);abbrUsed.push([w,x])}else expanded.push(w)}
  let topic=expanded.join(" ").trim();
  if(!topic&&aspects.length){topic=aspects.map(a=>a.label).join(" ");aspects.length=0}
+ /* "what is the treatment of X": the treatment is asked for, not a definition */
+ if(aspects.length>1){const k=aspects.findIndex(a=>a.id==="def");if(k>=0)aspects.splice(k,1)}
+ /* superlatives ("drug of choice", "commonest cause", "gold standard") pick out the line that names the one */
+ const sup=SUPQ.test(fold(q));
+ /* "difference between X and Y", "X vs Y", "compare X and Y": two conditions side by side */
+ let parts=null;const fq=" "+fold(q).replace(/[?.,;:!]/g," ").replace(/\s+/g," ")+" ";
+ if(/ (difference|differences|differentiate|distinguish|distinguishing|compare|comparison|contrast|versus|vs) /.test(fq)){
+  let m=fq.match(/ (?:between|compare|comparing|comparison of|contrast|differentiate|distinguish|distinguishing) (.+?) (?:and|from|with|vs|versus) (.+?)(?: in | regarding | as to |$)/)||fq.match(/ (.+?) (?:vs|versus) (.+?)(?: in |$)/);
+  if(m){const clean=x=>x.replace(/^ *(the|a|an) /,"").replace(/ (clinically|radiologically|on ct|on mri|on imaging|on examination|treatment|management|features|symptoms|signs)$/,"").trim();parts=[clean(m[1]),clean(m[2])].filter(Boolean);if(parts.length<2)parts=null}}
+ if(parts){const k=aspects.findIndex(a=>a.id==="ddx");if(k>=0)aspects.splice(k,1)}
  const soft=[];for(const [re,x] of CONCEPT){const m=topic.match(re);if(m)soft.push(x.replace(/\$(\d)/g,(_,k)=>m[+k]||""))}
- return {topic,soft:soft.join(" "),aspects,abbr:abbrUsed,raw:q,fixed:fixedA}}
+ return {topic,soft:soft.join(" "),aspects,abbr:abbrUsed,raw:q,fixed:fixedA,sup,parts}}
+const SUPQ=/\b(commonest site|most common site|of choice|gold standard|first[- ]line|most common|commonest|mainstay|best (test|investigation|treatment|drug)|definitive|cornerstone)\b/;
+const SUPL=/\b(of choice|gold standard|first[- ]line|most common|commonest|mainstay|definitive|cornerstone|the best|is the (main|usual|standard)|standard (treatment|test|investigation)|usually (needs|requires|treated)|most (cases|patients))\b/i;
 
 /* ---------- search ---------- */
 function core(P,topic,softText){
@@ -229,10 +242,10 @@ function units(body){const out=[];let label="",head=null,skip=false;const lines=
   const parts=[];let cur="";for(const piece of ln.split(/(?<=[.!?])\s+(?=[A-Z(\d])/)){cur=cur?cur+" "+piece:piece;if(!NOSPLIT.test(cur)){parts.push(cur);cur=""}}if(cur)parts.push(cur);
   parts.forEach((t,m)=>out.push({t:t.replace(/^In practice\s+/,""),label,row:false,first:m===0&&out.length===0,k:out.length,line:k}))});
  return out}
-const XREF=/\b(is|are) in [A-Z][a-z]|\b(are|is) (described|covered|discussed|dealt with)( in full| in detail| fully)? (in|under)\b|\bare in [A-Z]|^see /i;
+const XREF=/\b(is|are) in [A-Z][a-z]|\b(are|is) (described|covered|discussed|dealt with)( in full| in detail| fully)? (in|under)\b|\bare in [A-Z]|^see |^on call:|^approach:? /i;
 function tidy(t){return t.replace(/\s+([,.;:)])/g,"$1").replace(/\(\s+/g,"(").replace(/\s+/g," ").trim()}
 function cos(a,b){let s=0;for(let k=0;k<a.length;k++)s+=a[k]*b[k];return s}
-const STRICT={tx:/\b(treatment|management|therap\w*|medical|what to do|removal)\b/,ind:/\b(indications?|criteria|who needs|selection)\b/,cx:/\b(complications?|sequelae|adverse|side effects)\b/,why:/\b(causes?|aetiolog\w*|etiolog\w*|risk factors?|pathogenesis)\b/,how:/\b(technique|steps?|stage by stage)\b/};
+const STRICT={ci:/\b(contra-?indications?|contraindicated)\b/,tx:/\b(treatment|management|therap\w*|medical|what to do|removal)\b/,ind:/\b(?<!contra-?)(indications?|criteria|who needs|selection)\b/,cx:/\b(complications?|sequelae|adverse|side effects)\b/,why:/\b(causes?|aetiolog\w*|etiolog\w*|risk factors?|pathogenesis)\b/,how:/\b(technique|steps?|stage by stage)\b/};
 const HS=a=>STRICT[a.id]||a.h;
 /* words that change which disease is meant: they must agree between the question and the section */
 const QUAL=new Set("acute chronic recurrent necrotising necrotizing malignant benign pulsatile subjective objective unilateral bilateral congenital acquired paediatric pediatric child children infant infants neonatal adult primary secondary allergic nonallergic viral bacterial fungal invasive noninvasive suppurative secretory serous atrophic hypertrophic sudden progressive central peripheral conductive sensorineural mixed anterior posterior superior inferior external middle inner internal".split(" ").map(w=>cw(w)).filter(Boolean));
@@ -252,20 +265,44 @@ function setAnswers(m){AM=null;if(m&&m.asp)m.asp=m.asp;if(!m||!D)return false;co
  AM={names:m.e,ali,by,home,asp:[...new Set(m.asp)],par:m.p||[]};return true}
 let ENTFOCUS=[];const KIDS=new Set(["child","children","infant","infants","paediatric","pediatric","childhood","neonate","neonatal","baby","babies"].map(w=>cw(w)).filter(Boolean));
 const AGEW=new Set(["child","children","infant","infants","paediatric","pediatric","adult","neonatal"].map(w=>cw(w)).filter(Boolean));
-function entityOf(topic){if(!AM)return null;const T=new Set(toks(topic));let best=null;
- for(const a of AM.ali){if(best&&a.n<best.n)break;if(a.t.every(x=>T.has(x))){if(!best||(AM.by.has(a.i+"|def")&&!AM.by.has(best.i+"|def")))best=a}}
- if(!best)return null;
- /* every word of the condition's name must be in the question, and a word that changes the disease (acute, chronic, necrotising) must not be left over */
- for(const t of T)if(QUAL.has(t)&&!AGEW.has(t)&&!best.t.includes(t))return null;
+/* every condition named in the question, longest names first, without overlaps */
+function entitiesOf(topic){if(!AM)return [];const T=new Set(toks(topic));const used=new Set(),out=[];
+ for(const a of AM.ali){if(!a.t.every(x=>T.has(x))||a.t.some(x=>used.has(x)))continue;if(out.some(o=>o.i===a.i))continue;
+  /* the same name for two conditions: prefer the one that has its own description */
+  out.push(a);a.t.forEach(x=>used.add(x))}
+ return out}
+const PROC=/(ectomy|otomy|ostomy|oscopy|plasty|pexy|surgery|operation|repair|drainage|biopsy|dissection|implant|tracheostomy|grommets?|ventilation tubes?|myotomy|ligation|reduction)\b/i;
+function entityOf(topic,asp){if(!AM)return null;const T=new Set(toks(topic));const all=entitiesOf(topic);if(!all.length)return null;
+ let best=all[0];
+ for(const a of all.slice(1))if(a.n===best.n&&AM.by.has(a.i+"|def")&&!AM.by.has(best.i+"|def"))best=a;
+ /* "tonsillectomy in recurrent tonsillitis" asked for indications or risks is about the operation */
+ if(all.length>1&&asp&&asp.some(x=>/^(ind|ci|how|cx)$/.test(x))){const op=all.find(a=>PROC.test(AM.names[a.i][0]));if(op)best=op}
+ /* a word that changes the disease (acute, chronic, necrotising) must not be left over, unless another condition in the question explains it */
+ const covered=new Set(all.flatMap(a=>a.t));
+ for(const t of T)if(QUAL.has(t)&&!AGEW.has(t)&&!best.t.includes(t)&&!(covered.has(t)&&best!==all[0]))return null;
  ENTFOCUS=[...T].filter(t=>!best.t.includes(t)&&t.length>2);
  return best.i}
-function answerMap(P,opt){if(!AM)return null;const e=entityOf(P.topic);if(e===null)return null;
+let CTXK=new Set();
+function answerMap(P,opt){if(!AM)return null;CTXK=new Set();const e=opt.e!==undefined?opt.e:entityOf(P.topic,P.aspects.map(a=>a.id));if(e===null)return null;if(opt.e!==undefined)ENTFOCUS=opt.focus||[];
  const asp=P.aspects.length?P.aspects.map(a=>a.id):["def"];let lab=[];for(const a of asp)lab=lab.concat(AM.by.get(e+"|"+a)||[]);
+ /* "indications for surgery in X" when X has no indications heading: the treatment lines that say when */
+ if(!lab.length&&asp.some(a=>a==="ind"||a==="ci")){const re=asp.includes("ci")?/\b(contra-?indicat\w*|avoid\w*|never|must not|should not)\b/i:/\b(persist\w*|despite|fail\w*|refractory|indicat\w*|when|unless|reserved for|for patients|if the)\b/i;
+  lab=(AM.by.get(e+"|tx")||[]).filter(([d,k])=>{const u=units(D.docs[d].body)[k];return u&&re.test(u.t)}).map(([d,k,w])=>[d,k,w*.9])}
  /* words left over after the condition's name ("in a child") pick out the lines that mention them */
  const focus=ENTFOCUS.slice();if(/contra-?indicat/i.test(P.raw||""))focus.push(...toks("contraindication contraindicated contraindications"));if(focus.length){let all=lab;if(!P.aspects.length){all=[];for(const id of AM.asp)all=all.concat(AM.by.get(e+"|"+id)||[])}
   const hit=all.filter(([doc,k])=>{const u=units(D.docs[doc].body)[k];if(!u)return false;const tk=new Set(toks(u.t+" "+(u.label||"")+" "+D.docs[doc].title));return focus.some(f=>tk.has(f)||(KIDS.has(f)&&[...KIDS].some(x=>tk.has(x))))});
-  if(hit.length)lab=hit.map(([d,k,w])=>[d,k,Math.min(1,w+.2)])}
+  /* a word that is only context ("in children") ranks the lines; any other word narrows them */
+  const ctxOnly=focus.every(f=>KIDS.has(f)||AGEW.has(f));
+  if(!ctxOnly&&hit.length)lab=hit.map(([d,k,w])=>[d,k,Math.min(1,w+.2)]);else if(hit.length){const hk=new Set(hit.map(([d,k])=>d+"|"+k));CTXK=hk;lab=lab.map(([d,k,w])=>[d,k,hk.has(d+"|"+k)?Math.min(1,w+.2):w])}}
  if(!lab.length&&!P.aspects.length){for(const id of ["cf","why"])lab=lab.concat(AM.by.get(e+"|"+id)||[])}
+ /* "drug of choice", "commonest cause": the line that names the one comes first */
+ const SUPK=new Set(CTXK);CTXK=new Set();
+ /* "why ...": the line that gives the reason leads */
+ if(/^\s*why\b/i.test(P.raw||"")&&lab.length){const W=/\b(because|since|as it|as they|so that|which is why|due to|owing to|explains|the reason)\b/i;const ft=ENTFOCUS.slice();
+  lab=lab.map(([d,k,w])=>{const u=units(D.docs[d].body)[k];if(u&&W.test(u.t)&&(!ft.length||ft.some(f=>toks(u.t).includes(f)))){SUPK.add(d+"|"+k);return [d,k,Math.min(1,w+.35)]}return [d,k,w]})}
+ /* "commonest site of X": no aspect of its own, so every line about X is a candidate and the superlative picks */
+ if(P.sup&&asp.length===1&&asp[0]==="def"){let all=[];for(const id of AM.asp)all=all.concat(AM.by.get(e+"|"+id)||[]);const hit=all.filter(([d,k])=>{const u=units(D.docs[d].body)[k];return u&&SUPL.test(u.t)&&(!ENTFOCUS.length||ENTFOCUS.some(f=>toks(u.t).includes(f)))});if(hit.length)lab=hit.map(([d,k,w])=>[d,k,Math.max(w,.8)])}
+ if(P.sup&&lab.length)lab=lab.map(([d,k,w])=>{const u=units(D.docs[d].body)[k];if(u&&SUPL.test(u.t)&&w>=.5){SUPK.add(d+"|"+k);return [d,k,Math.min(1,w+.3)]}return [d,k,w]});
  /* a subtype with little of its own ("treatment of papillary carcinoma") also takes its parent's lines ("thyroid cancer") */
  const par=AM.par[e];let parName=null;if(par>=0&&P.aspects.length&&lab.reduce((m,x)=>Math.max(m,x[2]),0)<.8){let pl=[];for(const a of asp)pl=pl.concat(AM.by.get(par+"|"+a)||[]);if(pl.length){lab=lab.concat(pl.map(([d,k,w])=>[d,k,w*.85]));parName=AM.names[par][0]}}
  /* nothing labelled for this aspect: the condition's own section, if it has one */
@@ -273,25 +310,46 @@ function answerMap(P,opt){if(!AM)return null;const e=entityOf(P.topic);if(e===nu
   if(own.size){const seenK=new Set();for(const id of AM.asp)for(const [d,k] of AM.by.get(e+"|"+id)||[])if(own.has(d)&&!seenK.has(d+"|"+k)){seenK.add(d+"|"+k);lab.push([d,k,.55])}}}
  if(!lab.length)return null;const home=(AM.home.get(e)||[""])[0];
  const groups=new Map();for(const [doc,k,w] of lab){const d=D.docs[doc];let g=groups.get(doc);if(!g)groups.set(doc,g={doc,d,u:new Map(),max:0});const o=g.u.get(k);if(!o||w>o)g.u.set(k,w);if(w>g.max)g.max=w}
- const G=[...groups.values()].map(g=>{const ar=g.d.route.split("~")[0];g.ar=ar;g.home=ar===home;const side=/^(cl:t-dr_|th:)/.test(ar)&&!g.home;g.score=g.max+(g.home?.35:0)+Math.min(.1,.02*g.u.size)+(g.d.ty==="ev"?-.2:0)+(side?-.1:0);return g}).sort((a,b)=>b.score-a.score||a.doc-b.doc);
+ const G=[...groups.values()].map(g=>{const ar=g.d.route.split("~")[0];g.ar=ar;g.home=ar===home;const side=/^(cl:t-dr_|th:)/.test(ar)&&!g.home;g.sup=[...g.u.keys()].some(k=>SUPK.has(g.doc+"|"+k));g.score=g.max+(g.home?.35:0)+(g.sup?.3:0)+Math.min(.1,.02*g.u.size)+(g.d.ty==="ev"?-.2:0)+(side?-.1:0);return g}).sort((a,b)=>b.score-a.score||a.doc-b.doc);
  const top=G[0].max;const n=opt.n||6;
  /* sections that answer well; the condition's own article first, in its own order, then the others */
- const Q=G.filter((g,j)=>j===0||g.max>=Math.max(.6,top*.75)).slice(0,5);const lead=Q[0].ar;
+ const Q=G.filter((g,j)=>j===0||g.max>=Math.max(.6,top*.75)).slice(0,5);const lead=Q[0].ar;if(opt.dbg)opt.dbg(G.map(g=>[g.d.title,g.max,+g.score.toFixed(2),g.home,g.u.size]));
  const topS=Math.max(...Q.map(g=>g.score));const tier=g=>g.score>=topS*.85?1:0;
  Q.sort((a,b)=>tier(b)-tier(a)||(b.ar===lead)-(a.ar===lead)||(a.ar===lead&&b.ar===lead?a.doc-b.doc:b.score-a.score));
  const quota=Math.max(1,Math.min(4,Math.ceil(n/Q.length)));const items=[],seen=[];let gi=0;
  for(const g of Q){if(items.length>=n)break;
   const U=units(g.d.body);const keep=[...g.u.entries()].filter(([k,w])=>w>=Math.max(.5,g.max*.7)).sort((a,b)=>a[0]-b[0]);
   const lim=Math.min(n-items.length,keep.some(([k])=>U[k]&&U[k].row)?Math.max(quota,gi===0?5:quota):quota);let added=0;
-  for(const [k,w] of keep){if(added>=lim)break;const u=U[k];if(!u)continue;const t=tidy(u.t);const tk=new Set(toks(t));
+  /* the strongest lines win the places, then read in the author's order */
+  const best=new Set(keep.slice().sort((x,y)=>SUPK.has(g.doc+"|"+y[0])-SUPK.has(g.doc+"|"+x[0])||y[1]-x[1]||x[0]-y[0]).slice(0,lim+3).map(x=>x[0]));
+  for(const [k,w] of keep.filter(([k])=>best.has(k)).sort((x,y)=>SUPK.has(g.doc+"|"+y[0])-SUPK.has(g.doc+"|"+x[0])||x[0]-y[0])){if(added>=lim)break;const u=U[k];if(!u)continue;const t=tidy(u.t);const tk=new Set(toks(t));
    if(seen.some(o=>{let c=0;for(const x of tk)if(o.has(x))c++;return c/Math.max(1,Math.min(tk.size,o.size))>.7}))continue;seen.push(tk);
-   items.push({i:g.doc,route:g.d.route,text:t,needle:u.needle||t,label:u.row?"":(u.label&&u.label.length<40&&!P.aspects.some(a=>a.h.test(fold(u.label)))?u.label:""),title:g.d.title,where:g.d.where,s:w,g:gi});added++}
+   items.push({sup:SUPK.has(g.doc+"|"+k),i:g.doc,route:g.d.route,text:t,needle:u.needle||t,label:u.row?"":(u.label&&u.label.length<40&&!P.aspects.some(a=>a.h.test(fold(u.label)))?u.label:""),title:g.d.title,where:g.d.where,s:w,g:gi});added++}
   if(added)gi++}
  if(!items.length||top<.55)return null;
+ /* the line that names the one ("first line: amoxicillin") leads */
+ if(SUPK.size){const sp=items.filter(x=>x.sup);if(sp.length)items.splice(0,items.length,...sp,...items.filter(x=>!x.sup))}
  return {map:true,entity:AM.names[e][0]+(parName?" (with "+parName+")":""),conf:top,best:top,items}}
 
+const ASPBY=id=>ASPECTS.find(a=>a.id===id);
+/* two conditions side by side: a table that compares them, then each one's lines for the same questions */
+function compare(P,opt){const es=P.parts.map(x=>entityOf(x));if(es.some(e=>e===null)||es[0]===es[1])return null;
+ const names=es.map(e=>AM.names[e][0]);const asp=P.aspects.length?P.aspects:["cf","dx","tx"].map(ASPBY);const items=[];
+ /* a table row or line that names both */
+ const nt=es.map(e=>AM.ali.filter(a=>a.i===e).map(a=>a.t));const has=(tk,i)=>nt[i].some(t=>t.every(x=>tk.has(x)));
+ for(const d of D.docs){if(d.ty==="q"||d.ty==="card"||d.ty==="viva"||d.exam)continue;const bt=new Set(toks(d.title+" "+d.chap));const body=fold(d.body);
+  if(!nt.every(ts=>ts.some(t=>t.every(x=>body.includes(x.slice(0,4))||bt.has(x)))))continue;
+  for(const u of units(d.body)){const tk=new Set(toks(u.t+" "+u.label));if(has(tk,0)&&has(tk,1)&&u.t.length>=25&&u.t.length<=420&&!XREF.test(u.t)){items.push({i:d.i,route:d.route,text:tidy(u.t),needle:u.needle||tidy(u.t),label:"",title:d.title,where:d.where,s:1,part:"Side by side"});if(items.length>=3)break}}
+  if(items.length>=3)break}
+ for(const a of asp)es.forEach((e,j)=>{const A=answerMap({topic:P.parts[j],aspects:[a],raw:P.raw,sup:P.sup},{e,n:2});if(!A)return;for(const x of A.items.filter(x=>!items.some(y=>y.text===x.text)).slice(0,2)){x.part=names[j]+" · "+a.label;items.push(x)}});
+ if(items.length<2)return null;return {map:true,entity:names.join(" vs "),conf:1,best:1,items}}
+/* several questions at once ("causes and treatment of X"): each answered under its own heading */
+function multi(P,opt){const asp=P.aspects;const e=entityOf(P.topic,asp.map(a=>a.id));if(e===null)return null;const focus=ENTFOCUS.slice();const items=[];let name="";
+ const per=Math.max(2,Math.ceil((opt.n||6)/asp.length));
+ for(const a of asp){const A=answerMap(Object.assign({},P,{aspects:[a]}),{e,focus,n:per});if(!A)continue;name=A.entity;for(const x of A.items){if(items.some(y=>y.text===x.text))continue;x.part=a.label;items.push(x)}}
+ if(!items.length||new Set(items.map(x=>x.part)).size<2)return null;return {map:true,entity:name,conf:1,best:1,items}}
 function answer(S,opt){opt=opt||{};if(!S||!S.list||!M)return null;const P=S.P;if(/\b(viva|questions?|mcqs?|essays?|flashcards?|quiz)\b/i.test(P.raw||""))return null;
- if(!opt.noMap){const A=answerMap(P,opt);if(A)return A}const asp=P.aspects;
+ if(!opt.noMap&&AM){if(P.parts){const C=compare(P,opt);if(C)return C}if(P.aspects.length>1){const A=multi(P,opt);if(A)return A}const A=answerMap(P,opt);if(A)return A}const asp=P.aspects;
  const okd=d=>d.ty!=="q"&&d.ty!=="card"&&d.ty!=="viva"&&!d.exam;
  const list=S.list.filter(r=>okd(D.docs[r.i]));const pool=(S.pool||[]).filter(r=>okd(D.docs[r.i]));if(!list.length)return null;
  const qt=toks(P.topic),st=toks(P.soft||"");const qw=new Map();let qwt=0;for(const t of new Set(qt)){const w=idf(t);qw.set(t,w);qwt+=w}for(const t of new Set(st))if(!qw.has(t))qw.set(t,idf(t)*.6);qwt=qwt||1;

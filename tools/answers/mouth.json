@@ -839,13 +839,17 @@
    "e": "adenoid",
    "c": {
     "The adenoid": "adenoid",
-    "The operation": "adenoidectomy"
+    "The operation": "adenoidectomy",
+    "Applied anatomy": "adenoid"
    },
    "s": {
     "Endoscopic techniques": "adenoidectomy",
     "Acute nasopharyngitis": "nasopharyngitis",
     "Chronic nasopharyngitis": "nasopharyngitis",
-    "Thornwaldt disease": "thornwaldt"
+    "Thornwaldt disease": "thornwaldt",
+    "Adenoidectomy": "adenoidectomy",
+    "Of adenoidectomy": "adenoidectomy",
+    "Technique": "adenoidectomy"
    }
   },
   "cl:t-cleft": {
@@ -857,7 +861,8 @@
   "cl:t-deepneck": {
    "e": "dnsi",
    "c": {
-    "Fascia and spaces": "dnsi"
+    "Fascia and spaces": "dnsi",
+    "Masticator space infection": "dnsi"
    },
    "s": {
     "Acute retropharyngeal abscess": "rpa",
@@ -865,7 +870,8 @@
     "Parotid abscess": "-",
     "Masticator space": "dnsi",
     "Carotid erosion": "dnsi",
-    "Cavernous sinus thrombosis": "dnsi"
+    "Cavernous sinus thrombosis": "dnsi",
+    "Spaces": "dnsi"
    }
   },
   "cl:t-fbfood": {
@@ -885,7 +891,8 @@
    "c": {
     "Carcinoma of the piriform sinus": "pyrca",
     "Carcinoma of the postcricoid region": "pcca",
-    "Posterior pharyngeal wall": "hypoca"
+    "Posterior pharyngeal wall": "hypoca",
+    "Carcinoma of the posterior pharyngeal wall": "hypoca"
    }
   },
   "cl:t-mouthminor": {
@@ -916,7 +923,18 @@
     "Motility disorders": "-",
     "Structural disorders": "-",
     "Tumours": "-",
-    "Oesophagoscopy": "oesoscopy"
+    "Oesophagoscopy": "oesoscopy",
+    "Applied anatomy": "oesophagus",
+    "Diagnosis": "dysphagia",
+    "Caustic injury": "caustic",
+    "Plummer–Vinson syndrome": "pvs",
+    "Perforation": "oesperf",
+    "Strictures": "stricture",
+    "Diverticula": "diverticula",
+    "Spastic disorders": "spastic",
+    "Pill and radiation oesophagitis": "oesophagitis",
+    "Infective oesophagitis": "oesophagitis",
+    "Gastro-oesophageal reflux disease": "gord"
    },
    "s": {
     "Gastro-oesophageal reflux disease": "gord",
@@ -930,14 +948,17 @@
     "Benign tumours": "-",
     "Oesophageal cancer": "oesca",
     "Rigid oesophagoscopy": "oesoscopy",
-    "Flexible and transnasal oesophagoscopy": "oesoscopy"
+    "Flexible and transnasal oesophagoscopy": "oesoscopy",
+    "Swallowing: the three phases": "swallowing",
+    "Oesophagoscopy": "oesoscopy"
    }
   },
   "cl:t-oral_ca": {
    "e": "oralca",
    "c": {
     "Potentially malignant disorders": "opmd",
-    "Oral squamous cell carcinoma": "oralca"
+    "Oral squamous cell carcinoma": "oralca",
+    "Oral potentially malignant disorders": "opmd"
    }
   },
   "cl:t-oralanat": {
@@ -971,7 +992,9 @@
     "The tongue": "tongue",
     "Submucous fibrosis": "osmf",
     "Odontogenic cysts": "odontcyst",
-    "Infections": "oralulcer"
+    "Infections": "oralulcer",
+    "Candidiasis": "candida",
+    "Viral ulcers": "herpesoral"
    },
    "s": {
     "Viral": "herpesoral",
@@ -1024,7 +1047,9 @@
     "Acute pharyngitis": "pharyngitis",
     "Viral pharyngitis": "pharyngitis",
     "Chronic pharyngitis": "chronphar",
-    "Throat pain without inflammation": "-"
+    "Throat pain without inflammation": "-",
+    "Other viral pharyngitis": "pharyngitis",
+    "Eagle syndrome": "eagle"
    },
    "s": {
     "Infectious mononucleosis": "glandular",
@@ -1041,7 +1066,10 @@
    "e": "-",
    "c": {
     "Dysphagia": "dysphagia",
-    "Pharyngeal pouch": "pouch"
+    "Pharyngeal pouch": "pouch",
+    "Diagnosis": "dysphagia",
+    "Management": "dysphagia",
+    "Differential diagnosis": "dysphagia"
    }
   },
   "cl:t-syndr": {
@@ -1069,7 +1097,9 @@
     "The membrane on the tonsil": "membrane",
     "Chronic tonsillitis": "chrtonsil",
     "Peritonsillar abscess": "quinsy",
-    "Tonsillectomy": "tonsillectomy"
+    "Tonsillectomy": "tonsillectomy",
+    "Management": "tonsillectomy",
+    "Differential diagnosis": "membrane"
    },
    "s": {
     "Position and surfaces": "palatine",

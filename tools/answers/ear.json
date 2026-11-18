@@ -967,7 +967,10 @@
    "c": {
     "Bony growths of the canal": "exostosis",
     "Tumours of the canal": "canalcancer",
-    "Malignant tumours of the pinna": "pinnacancer"
+    "Malignant tumours of the pinna": "pinnacancer",
+    "Osteoma and exostoses": "exostosis",
+    "Squamous cell carcinoma of the canal": "canalcancer",
+    "Ceruminous gland tumours": "canalcancer"
    },
    "s": {
     "Squamous cell carcinoma": "pinnacancer",
@@ -999,7 +1002,11 @@
     "Serous and suppurative labyrinthitis": "labyrinthitis",
     "Perilymph fistula": "plf",
     "Viral and syphilitic labyrinthitis": "labyrinthitis",
-    "Pathways": "labyrinthitis"
+    "Pathways": "labyrinthitis",
+    "Serous labyrinthitis": "labyrinthitis",
+    "Suppurative labyrinthitis": "labyrinthitis",
+    "Viral labyrinthitis": "labyrinthitis",
+    "Syphilitic labyrinthitis": "labyrinthitis"
    }
   },
   "cl:t-icc": {
@@ -1016,6 +1023,9 @@
    "e": "mastoiditis",
    "c": {
     "Abscesses": "mastabsc"
+   },
+   "s": {
+    "Abscesses around the mastoid": "mastabsc"
    }
   },
   "cl:t-meniere": {
@@ -1044,7 +1054,9 @@
    },
    "s": {
     "During the operation": "stapes",
-    "Historical operations": "stapes"
+    "Historical operations": "stapes",
+    "Stapes surgery": "stapes",
+    "Of stapes surgery: during the operation": "stapes"
    }
   },
   "cl:t-perich": {
@@ -1063,7 +1075,8 @@
    "c": {
     "Congenital anomalies": "pinnaanom",
     "Haematoma": "pinnahaem",
-    "Other injuries": "pinnatrauma"
+    "Other injuries": "pinnatrauma",
+    "Wounds, bites and cold": "pinnatrauma"
    },
    "s": {
     "Keloid": "keloid",
@@ -1123,7 +1136,8 @@
    "s": {
     "Atrophic drum": "atrophicdrum",
     "Tympanosclerosis": "tympanosclerosis",
-    "Inner ear barotrauma": "innerbaro"
+    "Inner ear barotrauma": "innerbaro",
+    "Barotrauma": "barotrauma"
    }
   },
   "cl:t-tumear": {
