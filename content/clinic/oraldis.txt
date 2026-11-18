@@ -24,12 +24,30 @@ An ulcer persisting beyond three weeks after any cause (a sharp tooth, a denture
 !update Current evidence
 **Referral.** NICE suggested-cancer guidance (NG12) recommends urgent referral for unexplained oral ulceration lasting more than three weeks, and for a persistent unexplained lump in the mouth or red or red-and-white patch.
 !!
+## Investigations: what and when
+!table Oral ulcers: investigations
+Role | Test | When and what it shows
+Every non-healing ulcer (over 3 weeks after removing the cause) | Biopsy, with urgent referral (NICE NG12) | Carcinoma, lymphoma, tuberculosis, syphilis
+Recurrent ulcers | Full blood count, ferritin, B12, folate, coeliac serology | Deficiency, coeliac disease
+Blisters, desquamative gingivitis | Perilesional biopsy with direct immunofluorescence; serum desmoglein and BP antibodies | Pemphigus, pemphigoid
+White patch that does not wipe off | Biopsy | Dysplasia, candidal leukoplakia
+Systemic features | HLA-B51 and pathergy (Behçet), HIV, syphilis serology, glucose | 
+!!
 
 # Viral ulcers {dz} | Herpangina, herpes, hand, foot and mouth.
 ## Herpangina
 Coxsackie A infection of children: small vesicles on the pillars, tonsils, soft palate and uvula rupture into 2 to 4 mm ulcers with a yellow base and red areola, and heal within a week.
 ## Herpetic gingivostomatitis
 *Primary* herpes simplex in children: fever, malaise and clusters of vesicles anywhere in the mouth, with swollen, bleeding gums, healing in one to two weeks. *Recurrent* herpes in adults reactivates from the trigeminal ganglion after stress, fever, sunlight or immunosuppression, usually as *herpes labialis* at the vermilion border, sometimes on the hard palate and attached gingiva. Treatment is symptomatic; aciclovir shortens recurrent attacks if started early.
+### Drugs and doses
+!table Herpes simplex of the mouth: drugs and doses
+Situation | Drug and dose | Course and notes
+Primary gingivostomatitis, every patient | Fluids, paracetamol or ibuprofen, benzydamine rinse, soft diet | Watch for dehydration in children
+Primary, seen early (within 72 hours) or severe | Aciclovir: under 2 years 100 mg, 2 years and over and adults 200 mg, five times a day | 5 days (longer if new lesions)
+Immunocompromised | Aciclovir 400 mg five times a day (or IV in severe disease) | Specialist
+Recurrent cold sores | Aciclovir 5% cream five times a day from the first tingle | 5 days
+!!
+Doses from NICE CKS Herpes simplex (oral) and the BNF.
 ## Hand, foot and mouth disease
 A childhood viral infection with ulcers on the palate, tongue and cheeks and vesicles on the hands and feet.
 
@@ -52,6 +70,16 @@ Topical nystatin or clotrimazole; fluconazole for severe disease; remove the cau
 !pearl Oral hairy leukoplakia
 Corrugated white streaks on the lateral borders of the tongue that do not rub off, caused by Epstein–Barr virus in HIV or immunosuppression. It is harmless in itself but a marker of immune failure; it regresses with antiretroviral treatment.
 !!
+### Drugs and doses
+!table Oral candidiasis: drugs and doses
+Form | Drug and dose | Course and notes
+Thrush, mild (adults, children over 4 months) | Miconazole oral gel 2.5 ml four times a day after food, or nystatin 100,000 units/ml 1 ml four times a day | 7 days, and 2 days after healing; miconazole interacts with warfarin and statins
+Extensive or immunocompromised | Fluconazole 50 to 100 mg daily | 7 to 14 days
+Denture stomatitis | Clean and remove dentures at night, soak in chlorhexidine; miconazole gel to the fitting surface | 
+Angular cheilitis | Miconazole 2% cream (or with hydrocortisone) twice a day | Up to 10 days; check iron and B vitamins
+Chronic hyperplastic | Biopsy (dysplasia); stop smoking; antifungal | 
+!!
+Doses from NICE CKS Candida (oral) and the BNF.
 
 # Aphthous ulcers {dz} | The commonest non-traumatic ulcers.
 ## Clinical features
@@ -70,6 +98,17 @@ Treat with topical steroids, chlorhexidine or tetracycline mouthwashes and topic
 !update Current evidence
 **Recurrent aphthous stomatitis.** Topical steroids and chlorhexidine reduce pain and healing time; severe or atypical ulcers need tests for Behçet disease, coeliac disease, inflammatory bowel disease and haematinic deficiency.
 !!
+### Drugs and doses
+!table Aphthous ulcers: drugs and doses
+Step | Drug and dose | Course and notes
+Every patient | Avoid triggers (sodium lauryl sulfate toothpaste, sharp foods); check FBC, ferritin, B12, folate, coeliac serology if frequent or severe | Correct deficiencies
+Pain | Benzydamine 0.15% mouthwash or spray, 15 ml rinse every 1.5 to 3 hours; lidocaine gel before meals | Dilute benzydamine if it stings
+Healing (first line, 12 years and over) | Hydrocortisone 2.5 mg muco-adhesive buccal tablets, one dissolved at the ulcer four times a day | Start at the first sign of an ulcer
+Alternative topical steroid | Beclometasone inhaler 50 or 100 micrograms sprayed onto the ulcer twice a day (off-label); betamethasone 500 microgram soluble tablet in 20 ml water as a 2 to 3 minute rinse four times a day | Do not swallow; short courses
+Secondary infection, multiple ulcers | Chlorhexidine 0.2% mouthwash, 10 ml twice a day | Stains teeth; separate from toothpaste
+Severe or major aphthae | Doxycycline 100 mg dispersed in water as a mouthwash (adults); oral medicine referral for systemic treatment (colchicine, short oral prednisolone) | Specialist
+!!
+Doses from NICE CKS Aphthous ulcer and the BNF.
 
 # Behçet syndrome {dz} | Oral, genital, eye.
 Recurrent aphthous-like oral ulcers with genital ulcers and uveitis, sometimes with skin, joint and nervous system disease; the ulcers are punched out.
@@ -82,6 +121,15 @@ A T-cell mediated disease. The *reticular* form shows lace-like white Wickham st
 !update Current evidence
 **Oral lichen planus** is managed with topical steroids and periodic review because of its small malignant potential.
 !!
+## Drugs and doses
+!table Oral lichen planus, pemphigus and Behçet: drugs and doses
+Condition | Drug and dose | Course and notes
+Erosive lichen planus | Topical steroid: betamethasone 500 microgram soluble tablet rinse four times a day, or clobetasol in an adhesive base (oral medicine); topical tacrolimus for resistant disease | Reticular form needs no treatment; review for malignant change
+Pemphigus vulgaris | Prednisolone 0.5 to 1 mg/kg daily with rituximab (first line) | Dermatology; taper over months
+Mucous membrane pemphigoid | Topical steroids; dapsone or systemic immunosuppression for severe or eye disease | Ophthalmology review
+Behçet oral ulcers | Topical steroids; colchicine (0.5 mg twice a day); apremilast 30 mg twice a day for resistant oral ulcers | Rheumatology
+!!
+Based on the BAD pemphigus guideline (Harman et al., *Br J Dermatol* 2017) and EULAR Behçet recommendations (Hatemi et al., *Ann Rheum Dis* 2018).
 
 # Pemphigus and pemphigoid {dz} | Blisters above and below the basement membrane.
 - **Pemphigus vulgaris:** autoantibodies to desmoglein 3 split the epithelium above the basal layer (intercellular "chicken-wire" immunofluorescence); fragile blisters break into painful erosions, often before skin lesions appear, in patients of fifty to seventy. Systemic steroids and immunosuppression.
@@ -188,3 +236,10 @@ An inflammatory cyst at the apex (periapical) or side (lateral radicular) of a d
 ## Studies cited
 - Iocca et al., *Head Neck* 2020: malignant transformation of oral potentially malignant disorders.
 - NICE guideline NG12: suspected cancer, recognition and referral.
+## Guidelines and dosing
+- NICE CKS: Aphthous ulcer.
+- NICE CKS: Herpes simplex (oral).
+- NICE CKS: Candida (oral).
+- Harman et al., *Br J Dermatol* 2017: BAD guidelines for pemphigus vulgaris.
+- Hatemi et al., *Ann Rheum Dis* 2018: EULAR recommendations for Behçet's syndrome.
+- BNF: hydrocortisone buccal tablets, benzydamine, chlorhexidine, aciclovir, miconazole, nystatin, fluconazole, apremilast.

@@ -59,6 +59,16 @@ T4a | Cortical bone, maxillary sinus, skin of face (and, for lip, inferior alveo
 T4b | Masticator space, pterygoid plates, skull base, or encasing the internal carotid | Lateral pterygoid, pterygoid plates, lateral nasopharynx, skull base, or encasing the carotid
 !!
 For oral cavity and HPV-negative oropharyngeal cancer, N staging follows node size, number and side, and *extranodal extension* (which upstages); for HPV-positive oropharyngeal cancer the N categories are simpler and the stages lower, reflecting the better prognosis. Older texts print the 6th edition tables, based on size alone.
+## Investigations: what and when
+!table Oral and oropharyngeal cancer: investigations
+Role | Test | When and what it shows
+Diagnosis (gold standard) | Biopsy of the primary; p16 immunohistochemistry with HPV testing for every oropharyngeal cancer | Histology; HPV status changes staging and prognosis
+Neck node | Ultrasound-guided FNA or core biopsy (p16 on the node) | Metastatic carcinoma; unknown primary work-up
+Extent | MRI and contrast CT of primary and neck; orthopantomogram for the mandible | Depth, bone, pterygoids, parapharyngeal and pre-epiglottic spread
+Distant spread and second primaries | CT chest; PET-CT for stage III–IV and unknown primary | 
+Mapping | Panendoscopy under anaesthesia | Synchronous tumours
+Before treatment | Dental assessment, nutrition and swallowing, audiogram before cisplatin | 
+!!
 
 # Management | By site, stage and the person.
 ## Principles
@@ -81,6 +91,16 @@ Retinoids, beta-carotene and vitamin E can induce regression of leukoplakia and 
 !update Current evidence
 HPV-positive oropharyngeal cancer has much better survival than HPV-negative disease, and smoking worsens it whatever the HPV status (Ang et al., *N Engl J Med* 2010). In the De-ESCALaTE trial of 334 low-risk HPV-positive patients, replacing cisplatin with cetuximab did not reduce toxicity and worsened two-year survival (97.5% vs 89.4%) (Mehanna et al., *Lancet* 2019), and RTOG 1016 found the same (Gillison et al., *Lancet* 2019), so cisplatin remains standard and de-escalation belongs in trials. In the ORATOR trial, transoral robotic surgery with neck dissection and primary radiotherapy gave similar swallowing quality of life for early oropharyngeal cancer, with different toxicity profiles (Nichols et al., *Lancet Oncol* 2019). For early oral cancer, elective neck dissection improved three-year survival compared with waiting (80% vs 67.5%) (D'Cruz et al., *N Engl J Med* 2015), and pooled trials suggest sentinel node biopsy gives similar survival with better shoulder function (Gupta et al., *Oral Oncol* 2022).
 !!
+## Treatment regimens
+!table Oropharyngeal cancer: treatment regimens
+Stage | Treatment and dose | Notes
+Early (T1–T2, N0–N1) | Single modality: transoral surgery (TORS or laser) with neck dissection, or radiotherapy (about 70 Gy in 35 fractions) | Choose to avoid triple therapy
+Advanced (stage III–IV) | Chemoradiotherapy: 70 Gy in 35 fractions with cisplatin 100 mg/m² on days 1, 22 and 43 (or 40 mg/m² weekly) | Primary surgery in selected patients
+Cisplatin unsuitable | Radiotherapy alone or with an alternative agent per oncology | Cetuximab gave worse survival than cisplatin in HPV-positive disease (De-ESCALaTE, RTOG 1016)
+Residual nodes after treatment | PET-CT at 12 weeks; neck dissection only if PET-positive | PET-NECK trial
+Recurrent or metastatic | Pembrolizumab with or without platinum and 5-fluorouracil (PD-L1 CPS 1 or more) | NICE TA661
+!!
+Based on the UK national head and neck cancer guidelines, the De-ESCALaTE HPV trial (Mehanna et al., *Lancet* 2019), RTOG 1016, the PET-NECK trial (Mehanna et al., *N Engl J Med* 2016) and KEYNOTE-048.
 
 # Prognosis | Margins, nodes and HPV.
 Early oral cancer is cured in most patients; advanced disease in roughly a third to a half. Extranodal extension, nodes low in the neck, positive margins and perineural invasion worsen survival. HPV-positive oropharyngeal cancer has markedly better survival than HPV-negative. Lifelong follow-up looks for recurrence (most in the first two years) and second primaries, and stopping smoking improves outcome.
@@ -197,3 +217,8 @@ Papilloma (pedunculated, on the tonsil, palate or pillars; excised), haemangioma
 - Mehanna et al., *Lancet* 2019: De-ESCALaTE; Gillison et al., *Lancet* 2019: RTOG 1016.
 - Nichols et al., *Lancet Oncol* 2019: the ORATOR trial.
 - D'Cruz et al., *N Engl J Med* 2015: elective neck dissection; Gupta et al., *Oral Oncol* 2022: sentinel node biopsy.
+## Guidelines and dosing
+- Mehanna et al., *Lancet* 2019: De-ESCALaTE HPV trial.
+- Mehanna et al., *N Engl J Med* 2016: PET-CT surveillance versus neck dissection (PET-NECK).
+- Burtness et al., *Lancet* 2019: KEYNOTE-048.
+- Homer et al., *J Laryngol Otol* 2016: UK national multidisciplinary guidelines, head and neck cancer.

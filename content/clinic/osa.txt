@@ -77,6 +77,18 @@ For sleep surgery the palate is graded with the tongue relaxed inside the mouth 
 Lateral cephalometry for craniofacial skeletal anomalies and the posterior airway space; a lateral neck radiograph for adenoids in children.
 ## Sleep studies
 *Polysomnography* is the gold standard. A full attended study (level 1) records EEG, electro-oculogram and chin and leg EMG (sleep staging), ECG, nasal and oral airflow, thoracic and abdominal effort, oxygen saturation, body position and snoring; it separates obstructive from central apnoea and primary snoring from apnoea. Home studies (level 3: airflow, effort, oximetry, position) are now widely used for uncomplicated adults; oximetry alone is insufficient. A split-night study diagnoses in the first half and titrates CPAP in the second, though events may be under-counted.
+## Investigations: what and when
+!table Obstructive sleep apnoea: investigations
+Role | Test | When and what it shows
+Screening questionnaires | Epworth Sleepiness Scale; STOP-Bang | Sleepiness; pre-test probability (they do not diagnose)
+First line diagnosis (adults) | Home respiratory polygraphy | AHI: mild 5 to 14, moderate 15 to 29, severe 30 or more
+Alternative where polygraphy is not available | Overnight pulse oximetry | Oxygen desaturation index; can miss OSA
+Gold standard | Attended polysomnography | When other tests are inconclusive or other sleep disorders are suspected
+Children | Polysomnography (oximetry as a screen in many units) | Obstructive AHI over 1 is abnormal
+Level of obstruction (before surgery) | Drug-induced sleep endoscopy; flexible nasendoscopy with Müller manoeuvre | Velum, oropharynx, tongue base, epiglottis (VOTE)
+Comorbidity | Blood pressure, glucose, thyroid function, BMI; cephalometry for skeletal surgery | 
+!!
+Based on NICE NG202 (Obstructive sleep apnoea/hypopnoea syndrome and obesity hypoventilation syndrome in over 16s, 2021).
 
 # Subtypes and variants | Types, spectrum and children.
 ## Types of apnoea
@@ -142,6 +154,19 @@ In practice: Both agree that surgery must be matched to the level of collapse. C
 !update Current evidence
 **Adults.** In 2,717 adults with cardiovascular disease and moderate to severe apnoea, CPAP (used a mean of 3.3 hours a night) did not prevent cardiovascular events, though it improved sleepiness, mood and quality of life (McEvoy et al., *N Engl J Med* 2016). In the SAMS trial of 102 adults in whom CPAP had failed, combined palatal and tongue surgery lowered the apnoea-hypopnoea index from 47.9 to 20.8, compared with 45.3 to 34.5 on medical management, and improved sleepiness (MacKay et al., *JAMA* 2020). Hypoglossal nerve stimulation reduced the median index by 68% (29.3 to 9.0) at a year in selected patients (Strollo et al., *N Engl J Med* 2014). NICE recommends CPAP for moderate and severe disease, and for mild disease with symptoms affecting daily life (NG202, 2021).
 !!
+## Treatment: what and when
+!table Obstructive sleep apnoea: treatment
+Severity or situation | Treatment | Notes
+Every patient | Weight loss, alcohol and sedative avoidance, positional therapy, stop smoking; DVLA advice if sleepy | 
+Mild with symptoms | Mandibular advancement splint; CPAP if symptoms affect daily life and other measures fail | NICE NG202
+Moderate or severe | CPAP (fixed or auto-titrating) | First line
+CPAP not tolerated, moderate OSA | Mandibular advancement splint | 
+Obesity | Weight-management programme; tirzepatide is licensed in the United States (2024) for moderate to severe OSA with obesity | 
+Anatomical obstruction, failed or declined CPAP | Surgery matched to the level on sleep endoscopy; hypoglossal nerve stimulation in selected patients | 
+Children with adenotonsillar hypertrophy | Adenotonsillectomy (first line); intranasal steroid and montelukast for mild disease | 
+Not recommended | Drugs to stimulate breathing; residual sleepiness on CPAP may need specialist assessment | 
+!!
+Based on NICE NG202 and the American Academy of Sleep Medicine guidelines.
 
 # Complications | More than noise.
 ## Medical
@@ -187,3 +212,6 @@ Road traffic and workplace accidents. Ask every patient about sleepiness while d
 - MacKay et al., *JAMA* 2020: the SAMS trial; Strollo et al., *N Engl J Med* 2014: hypoglossal nerve stimulation.
 - Malhotra et al., *NEJM* 2024: tirzepatide (SURMOUNT-OSA).
 - NICE guideline NG202 (2021): obstructive sleep apnoea.
+## Guidelines and dosing
+- NICE NG202: Obstructive sleep apnoea/hypopnoea syndrome and obesity hypoventilation syndrome in over 16s (2021).
+- Malhotra et al., *N Engl J Med* 2024: tirzepatide for obstructive sleep apnoea and obesity (SURMOUNT-OSA).

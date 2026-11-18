@@ -42,6 +42,16 @@ T3 | Over 4 cm, or fixation of the hemilarynx, or extension to the oesophageal m
 T4a | Thyroid or cricoid cartilage, hyoid, thyroid gland, oesophageal muscle or central compartment soft tissue
 T4b | Prevertebral fascia, encasement of the carotid artery, or mediastinal structures
 !!
+## Investigations: what and when
+!table Hypopharyngeal cancer: investigations
+Role | Test | When and what it shows
+First (clinic) | Flexible laryngoscopy (puffed cheeks open the piriform sinuses); neck examination | Lesion, pooling, fixed vocal fold, nodes
+Diagnosis and mapping (gold standard) | Panendoscopy under anaesthesia with biopsy, including oesophagoscopy | Histology, submucosal spread, synchronous tumours
+Extent | Contrast CT of neck and chest; MRI for cartilage and soft tissue | T and N stage
+Distant and second primaries | PET-CT | Common in hypopharyngeal cancer
+Lower limit | Barium swallow (selected) | Oesophageal extension, web
+Before treatment | Thyroid function, haemoglobin and iron, nutrition, swallowing, dental and audiogram | 
+!!
 
 # Management | Larynx and life.
 ## Choosing
@@ -55,6 +65,15 @@ Dhingra: Advises total laryngectomy with partial pharyngectomy for piriform tumo
 Lee: Gives a wider menu following the NCCN guidelines (induction chemotherapy, chemoradiation, transoral surgery, Ogura's partial laryngopharyngectomy) and notes that many prefer non-surgical treatment for larynx preservation.
 In practice: Offer larynx preservation (induction chemotherapy or concurrent chemoradiation) to suitable patients with T2 to T3 disease who would otherwise need laryngectomy, and primary total laryngopharyngectomy for T4a disease with cartilage invasion or a non-functioning larynx.
 !!
+### Treatment regimens
+!table Hypopharyngeal cancer: treatment regimens
+Situation | Regimen | Notes
+Larynx preservation with chemoradiation | 70 Gy in 35 fractions with cisplatin 100 mg/m² on days 1, 22 and 43 (or 40 mg/m² weekly) | 
+Larynx preservation by induction (selected T2–T3) | TPF: docetaxel 75 mg/m² and cisplatin 75 mg/m² on day 1, fluorouracil 750 mg/m²/day on days 1 to 5, every 3 weeks for 2 to 3 cycles; responders go on to (chemo)radiotherapy | Non-responders proceed to laryngopharyngectomy; G-CSF and antibiotic prophylaxis per protocol
+After laryngopharyngectomy | Postoperative radiotherapy 60 to 66 Gy, with cisplatin for involved margins or extranodal extension | 
+Recurrent or metastatic | Pembrolizumab with or without platinum and fluorouracil | KEYNOTE-048
+!!
+Regimens from the EORTC 24891 and GORTEC 2000-01 trials (Pointreau et al., *J Natl Cancer Inst* 2009), the TAX 323 regimen and UK head and neck cancer guidelines.
 ## Reconstruction
 - **Partial pharyngeal defects:** primary closure, or a pectoralis major, radial forearm or anterolateral thigh flap patch.
 - **Circumferential defects:** a tubed fasciocutaneous free flap or a free jejunal graft.
@@ -135,3 +154,6 @@ Exceptionally rare: papilloma, adenoma, lipoma, fibroma, leiomyoma, appearing as
 ## Studies cited
 - Lefebvre et al., *J Natl Cancer Inst* 1996 and *Ann Oncol* 2012: EORTC 24891 larynx preservation trial.
 - Pointreau et al., *J Natl Cancer Inst* 2009: GORTEC 2000-01, TPF induction.
+## Guidelines and dosing
+- Pointreau et al., *J Natl Cancer Inst* 2009: induction TPF versus PF for larynx preservation (GORTEC 2000-01).
+- Homer et al., *J Laryngol Otol* 2016: UK national multidisciplinary guidelines, head and neck cancer.

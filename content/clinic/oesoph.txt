@@ -86,6 +86,17 @@ Foreign bodies | Best for sharp and impacted objects; can sheath sharp points | 
 Biopsy of the upper sphincter region | Excellent | Can miss the postcricoid area
 Setting | Inpatient theatre | Day case or office
 !!
+## Investigations: what and when
+!table Dysphagia: investigations
+Role | Test | When and what it shows
+Red flags (age 55 and over with weight loss, any progressive dysphagia) | Urgent direct-access upper GI endoscopy with biopsy (NICE NG12) | Cancer, stricture, eosinophilic oesophagitis
+Oropharyngeal dysphagia | Flexible endoscopic evaluation of swallowing (FEES) or videofluoroscopy with speech and language therapy | Aspiration, residue, pouch, cricopharyngeal bar
+Pouch, web, ring, motility pattern | Barium swallow | Anatomy and transit
+Motility (gold standard) | High-resolution manometry | Achalasia subtypes, spastic disorders
+Reflux not responding to PPI, before surgery | 24-hour pH–impedance | Acid and non-acid reflux
+Cancer staging | CT chest and abdomen, PET-CT, endoscopic ultrasound | Stage
+Suspected perforation | Water-soluble contrast swallow and CT | Leak
+!!
 
 # Gastro-oesophageal reflux disease {dz} | Heartburn, and the larynx.
 ## Etiology
@@ -94,6 +105,15 @@ Reflux disease is a failure of the barrier, through weakness or transient relaxa
 Its typical symptoms are heartburn and regurgitation. For the ENT surgeon the extra-oesophageal effects matter as much. *Laryngopharyngeal reflux* ([[t:laryngitis]]) causes hoarseness, throat clearing, globus and chronic cough, with posterior laryngitis, contact ulcers and granulomas; reflux also contributes to subglottic stenosis, asthma, dental erosion and, in children, otitis media with effusion.
 ## Management
 Treatment starts with lifestyle change: weight loss, raising the head of the bed, no meals in the three hours before bed, stopping smoking, and less alcohol, caffeine, chocolate and fat. Proton pump inhibitors, H2 blockers and alginates follow, and antireflux surgery such as a *Nissen fundoplication* is reserved for refractory disease.
+### Drugs and doses
+!table Reflux (GORD and laryngopharyngeal reflux): drugs and doses
+Step | Drug and dose | Course and notes
+Every patient | Weight loss, head of bed raised, no food 3 hours before bed, stop smoking, less alcohol | 
+GORD, first line | Full-dose PPI: omeprazole 20 mg or lansoprazole 30 mg once daily before breakfast | 4 weeks (8 weeks for severe oesophagitis); then lowest dose that controls symptoms
+GORD, not responding | Double-dose PPI or add an H2 blocker at night (famotidine 20 to 40 mg) | Endoscopy if persistent
+Laryngopharyngeal reflux | Alginate (for example sodium alginate–potassium bicarbonate 10 ml after meals and at bedtime); PPI trial (omeprazole 20 to 40 mg twice daily) only with typical reflux symptoms | 8 to 12 weeks, then stop if no benefit; evidence for PPIs in LPR is weak
+!!
+Doses from NICE CG184 (Gastro-oesophageal reflux disease and dyspepsia in adults) and the BNF; LPR approach from ENT UK guidance and trials of alginate and PPI.
 ## Complications
 The complications are erosive oesophagitis, peptic stricture and *Barrett's oesophagus*, in which columnar *intestinal metaplasia* replaces the squamous lining of the distal oesophagus. It appears as salmon-pink mucosa, is premalignant for *adenocarcinoma*, and needs endoscopic surveillance.
 !update Current evidence
@@ -113,6 +133,16 @@ It is treated with a PPI, swallowed topical steroids such as budesonide or fluti
 !update Current evidence
 **Eosinophilic oesophagitis.** Biopsies are taken from at least two levels; budesonide orodispersible tablets are a swallowed steroid option, and dupilumab improved histology and dysphagia in a phase 3 trial (Dellon et al., *NEJM* 2022).
 !!
+### Drugs and doses
+!table Eosinophilic oesophagitis: drugs and doses
+Step | Drug and dose | Course and notes
+Option 1 | High-dose PPI: omeprazole 20 to 40 mg twice a day | 8 to 12 weeks, then repeat biopsies
+Option 2 | Budesonide orodispersible tablet 1 mg twice a day | 6 weeks (up to 12), then maintenance 0.5 to 1 mg twice a day
+Option 3 | Elimination diet (empirical 2- to 6-food) with a dietitian | Re-scope after each step
+Strictures | Endoscopic dilatation | With medical treatment
+Refractory (specialist) | Dupilumab 300 mg SC weekly (licensed for eosinophilic oesophagitis) | 
+!!
+Based on the BSG guideline on eosinophilic oesophagitis (Dhar et al., *Gut* 2022) and NICE TA708 (budesonide orodispersible tablet).
 
 # Pill and radiation oesophagitis {dz} | The aortic narrowing.
 Tetracyclines and doxycycline, potassium chloride, iron, NSAIDs and bisphosphonates can lodge at the aortic narrowing and ulcerate it, especially when taken at bedtime without water. Radiation causes acute ulceration and, later, stricture and dysmotility.
@@ -146,6 +176,17 @@ In practice: Avoid neutralisation, because the heat of the reaction adds injury 
 !update Current evidence
 **Caustic ingestion.** Endoscopy within 12 to 48 hours grades the injury (Zargar classification) and predicts stricture; CT is increasingly used to decide who needs surgery.
 !!
+### Drugs and doses
+!table Caustic injury: drugs and doses
+Step | Treatment | Notes
+Never | Induced vomiting, neutralisation, or nasogastric tube passed blind | Re-exposes the oesophagus
+Airway | Early airway assessment; intubation or tracheostomy for laryngeal burns | 
+Every patient | Nil by mouth, IV fluids, analgesia, IV PPI (for example omeprazole 40 mg daily) | 
+Endoscopy (within 12 to 48 hours) or CT | Grades the injury | Avoid days 5 to 15 (weakest wall)
+Perforation or full-thickness necrosis | Broad-spectrum antibiotics and surgery | 
+Not recommended | Routine corticosteroids to prevent stricture | No proven benefit
+Stricture | Serial dilatation from about 3 weeks | Lifelong cancer risk
+!!
 ## Complications
 Strictures are treated by repeated dilatation, retrograde dilatation through a gastrostomy over a swallowed string when the stricture cannot be passed from above, and oesophageal replacement with colon or stomach when dilatation fails.
 
@@ -163,6 +204,16 @@ Every patient is kept nil by mouth on intravenous fluids, broad-spectrum antibio
 !flag Pain after an endoscopy
 Neck, chest or back pain, fever, tachycardia or crepitus after oesophagoscopy or dilatation means perforation until proved otherwise. Stop oral intake, image with water-soluble contrast and CT, and start antibiotics. Every hour of delay raises mortality.
 !!
+### Drugs and doses
+!table Oesophageal perforation: drugs and doses (adults)
+Step | Drug and dose | Course and notes
+Every patient | Nil by mouth, IV fluids, nutrition (jejunal or parenteral) | 
+Antibiotic | Piperacillin–tazobactam 4.5 g IV every 8 hours (or per local policy) | Oral flora and Gram-negatives
+Antifungal | Fluconazole 400 mg IV daily (higher-risk patients) | 
+Acid | IV PPI | 
+Source control | Conservative for small contained cervical leaks; stent, drainage or surgery for others | Surgical team
+!!
+Doses from the BNF; regimens follow published management reviews and local policy.
 
 # Achalasia {dz} | The bird's beak.
 ## Etiology and pathophysiology
@@ -176,6 +227,14 @@ The barium swallow shows a dilated oesophagus with a fluid level tapering smooth
 *Pseudoachalasia* is produced by a cancer at the cardia, which must always be excluded by endoscopy, especially in an older patient with rapid weight loss.
 ## Management
 The options are *pneumatic dilatation*, laparoscopic *Heller myotomy* with a partial fundoplication, and *peroral endoscopic myotomy (POEM)*. Botulinum toxin injected into the sphincter gives temporary relief in the frail, and calcium-channel blockers and nitrates have only a weak effect.
+### Treatment: what and when
+!table Achalasia: treatment
+Patient | Treatment and dose | Notes
+Fit for intervention (first line) | Pneumatic dilatation, laparoscopic Heller myotomy with partial fundoplication, or POEM | Choice by subtype (POEM favoured in type III) and local expertise
+Frail or unfit | Botulinum toxin 100 units injected into the lower sphincter at endoscopy | Relief for months; repeat
+Bridging only | Nifedipine 10 to 30 mg sublingually 30 to 60 minutes before meals, or isosorbide dinitrate | Limited benefit, side effects
+!!
+Based on the UEG and ESNM achalasia guideline (Oude Nijhuis et al., *United European Gastroenterol J* 2020).
 ## Complications
 The long-term risk of squamous carcinoma is increased.
 
@@ -199,6 +258,14 @@ It is treated by dilatation, botulinum toxin injection or *cricopharyngeal myoto
 This syndrome affects middle-aged women and combines iron-deficiency anaemia with dysphagia from a *postcricoid web*, glossitis, angular stomatitis, koilonychia, atrophic mucosa and sometimes achlorhydria.
 ## Management
 It is treated with iron, with B12 and B6 if deficient, dilatation of the web, and surveillance.
+### Drugs and doses
+!table Plummer–Vinson syndrome: drugs and doses
+Step | Drug and dose | Course and notes
+Iron deficiency | Ferrous sulfate 200 mg (65 mg iron) once daily, or on alternate days if not tolerated | 3 months after haemoglobin normalises; IV iron if oral fails
+Web | Endoscopic dilatation | Often relieves dysphagia at once
+Surveillance | Endoscopy for postcricoid carcinoma | 
+!!
+Iron dosing from the BSG iron deficiency anaemia guideline (Snook et al., *Gut* 2021).
 ## Complications
 It carries an increased risk of *postcricoid* ([[t:hypoca]]) and oesophageal carcinoma, about 10% in the older literature.
 
@@ -277,3 +344,10 @@ The prognosis is poor: overall five-year survival is about 15 to 20%, because mo
 ## Studies cited
 - Dellon et al., *N Engl J Med* 2022: dupilumab for eosinophilic oesophagitis.
 - Fitzgerald et al., *Gut* 2014: British Society of Gastroenterology guideline on Barrett's oesophagus.
+## Guidelines and dosing
+- NICE CG184: Gastro-oesophageal reflux disease and dyspepsia in adults.
+- Dhar et al., *Gut* 2022: BSG guideline on eosinophilic oesophagitis.
+- NICE TA708: Budesonide orodispersible tablet for eosinophilic oesophagitis.
+- Oude Nijhuis et al., *United European Gastroenterol J* 2020: European guideline on achalasia.
+- Snook et al., *Gut* 2021: BSG guideline on iron deficiency anaemia.
+- BNF: omeprazole, lansoprazole, famotidine, sodium alginate, budesonide, ferrous sulfate, botulinum toxin.
