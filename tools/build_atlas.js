@@ -47,7 +47,7 @@ for (const c of CONDS) {
   if (c.ddx) body.push("Differential diagnosis", clean(c.ddx));
   const figs = (c.figs || []).map(f => clean(f.t)).filter(x => x.length > 20);
   if (figs.length) body.push("On the images", ...figs);
-  out.push(["cond", "cond:" + c.id, clean(c.t), clean(c.t) + " · Imaging case" + (c.sec ? " · " + clean(c.sec) : ""), body.join("\n")]);
+  out.push(["cond", "cond:" + c.id, clean(c.t), "Imaging case · " + clean(c.t), body.join("\n")]);
 }
 fs.writeFileSync(WWW + "search/sm_atlas.js", "window.XSMATL=" + JSON.stringify(out) + ";\n");
 const n = k => out.filter(x => x[0] === k).length;
