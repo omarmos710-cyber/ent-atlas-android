@@ -629,7 +629,11 @@
     "Laryngopharyngeal reflux": "lpr",
     "Special forms": "chlaryngitis",
     "Specific infections": "lxspecific",
-    "Systemic diseases": "-"
+    "Systemic diseases": "-",
+    "Chronic non-specific laryngitis": "chlaryngitis",
+    "Pachydermia laryngis": "chlaryngitis",
+    "Atrophic laryngitis": "chlaryngitis",
+    "Fungal laryngitis": "lxspecific"
    },
    "s": {
     "Polypoid degeneration (Reinke's oedema)": "reinke",
@@ -678,7 +682,9 @@
     "Total laryngectomy": "laryngectomy",
     "Organ preservation": "lxpreserv",
     "Voice restoration": "voicerest",
-    "Premalignant lesions": "lxleuko"
+    "Premalignant lesions": "lxleuko",
+    "After laryngectomy: voice restoration": "voicerest",
+    "After laryngectomy: other rehabilitation": "laryngectomy"
    }
   },
   "cl:t-lxcong": {
@@ -689,7 +695,9 @@
     "Subglottic stenosis": "sgs",
     "Webs, cysts and haemangioma": "lxcong",
     "Laryngeal cleft": "lxcleft",
-    "The trachea and beyond": "tracheomalacia"
+    "The trachea and beyond": "tracheomalacia",
+    "Congenital vocal fold paralysis": "vfp",
+    "Laryngeal web and atresia": "lxweb"
    },
    "s": {
     "Laryngeal web": "lxweb",
@@ -706,7 +714,8 @@
     "Penetrating neck injury": "penneck"
    },
    "s": {
-    "Zones": "penneck"
+    "Zones": "penneck",
+    "Applied anatomy: zones": "penneck"
    }
   },
   "cl:t-paeds_vs": {
@@ -744,7 +753,13 @@
     "Nerve supply": "lxnerves",
     "Positions of the cord": "cordpos",
     "Superior laryngeal and combined paralysis": "vfp",
-    "Congenital paralysis": "vfp"
+    "Congenital paralysis": "vfp",
+    "Applied anatomy": "lxnerves",
+    "Pathophysiology": "cordpos",
+    "Unilateral recurrent nerve paralysis": "uvfp",
+    "Bilateral abductor paralysis": "bvfp",
+    "Superior laryngeal nerve paralysis": "slnpalsy",
+    "Combined paralysis": "vfp"
    },
    "s": {
     "Unilateral": "uvfp",

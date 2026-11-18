@@ -29,14 +29,48 @@ for (const f of fs.readdirSync(dir).filter(f => f.endsWith(".json")).sort()) {
   Object.assign(ART, j.articles || {}); Object.assign(PAR, j.parents || {});
   if (f.startsWith("approach")) for (const r of Object.keys(j.articles || {})) APPR.add(r)
 }
+/* AMBOSS-layout articles: every "# Name {dz}" chapter is a condition. Chapters whose name is not yet a
+   curated condition become one automatically (child of the article's condition), so "treatment of Eagle
+   syndrome" finds the Management section of that chapter. */
+const CLIN = path.join(__dirname, "../content/clinic"), DZ = {};
+for (const f of fs.readdirSync(CLIN).filter(f => f.endsWith(".txt"))) {
+  const id = f.slice(0, -4), txt = fs.readFileSync(path.join(CLIN, f), "utf8");
+  if (!/^@layout amboss/m.test(txt)) continue;
+  DZ["cl:t-" + id] = [...txt.matchAll(/^# (.+?) \{dz\}/gm)].map(m => m[1].trim());
+}
 let warn = 0;
 for (const [r, a] of Object.entries(ART)) for (const v of [a.e, ...Object.values(a.c || {}), ...Object.values(a.s || {})])
   if (v && v !== "-" && !EID.has(v)) { console.log("answer map: unknown entity", v, "in", r); warn++ }
 
 /* alias matching on stemmed tokens */
-const ALI = [];
-ENT.forEach((e, i) => { for (const a of new Set([e.name, ...e.aka])) { const t = S.toks(a); if (t.length) ALI.push({ i, t, n: t.length }) } });
-ALI.sort((a, b) => b.n - a.n);
+let ALI = [];
+const mkAli = () => { ALI = []; ENT.forEach((e, i) => { for (const a of new Set([e.name, ...e.aka])) { const t = S.toks(a); if (t.length) ALI.push({ i, t, n: t.length }) } }); ALI.sort((a, b) => b.n - a.n) };
+mkAli();
+{ const GEN = /^(other|the|more|rare|blood disorders|systemic|non-?odontogenic|bone tumours and|ossifying fibroma and)\b/i;
+  const exact = t => { const k = S.toks(t).slice().sort().join(" "); return ALI.find(a => a.t.slice().sort().join(" ") === k) };
+  let made = 0; const TAKEN = new Set(), ATITLE = {};
+  for (const x of X) { const r = x[1].split("~")[0]; if (!ATITLE[r]) ATITLE[r] = x[3].split(" · ")[0] }
+  for (const [r, chs] of Object.entries(DZ)) {
+    const A = ART[r] || (ART[r] = {}); A.c = A.c || {};
+    for (const ch of chs) {
+      if (Object.prototype.hasOwnProperty.call(A.c, ch)) continue;
+      /* a curated section name that is now a disease chapter ("Tuberculosis" in chronic laryngitis) */
+      if (A.s && Object.prototype.hasOwnProperty.call(A.s, ch)) { A.c[ch] = A.s[ch]; continue }
+      const m = exact(ch); if (m) { A.c[ch] = ENT[m.i].id; continue }
+      if (GEN.test(ch)) continue;
+      const base = ch.replace(/\s*\([^)]*\)/g, "").trim(), inner = [...ch.matchAll(/\(([^)]*)\)/g)].map(x => x[1]).filter(x => x.split(" ").length <= 4 && !/^(with|and|or|the|in|of)\b/i.test(x));
+      const tail = base.split(" ").pop();
+      const names = [ch, base, ...inner.map(x => /^[A-Z0-9-]{3,}$/.test(x) ? x : /\b(syndrome|disease|carcinoma|tumou?rs?|cysts?|thyroiditis|palsy|fracture|abscess|carcinoma)$/i.test(base) && !/\b(syndrome|disease|carcinoma|tumou?r|cyst)\b/i.test(x) ? x + " " + tail : x.split(" ").length >= 2 ? x : null)];
+      let aka = [...new Set(names.filter(n => n && n !== ch && !exact(n) && S.toks(n).length))], name = ch;
+      /* the same chapter name in two articles ("Benign tumours"): name it by its article, with no loose aliases */
+      if (TAKEN.has(S.toks(ch).slice().sort().join(" "))) { name = ch + " (" + (ATITLE[r] || r) + ")"; aka = [] }
+      TAKEN.add(S.toks(ch).slice().sort().join(" ")); aka.forEach(n => TAKEN.add(S.toks(n).slice().sort().join(" ")));
+      const id = "dz_" + r.slice(5) + "_" + (++made);
+      EID.set(id, ENT.length); ENT.push({ id, name, aka });
+      A.c[ch] = id; if (A.e && A.e !== "-" && !PAR[id]) PAR[id] = A.e;
+    }
+  }
+  mkAli(); console.log("answer map: " + made + " conditions added from disease chapters") }
 { const seen = new Map(); for (const a of ALI) { const k = a.t.slice().sort().join(" "); const o = seen.get(k); if (o !== undefined && o !== a.i) { console.log("answer map: alias", JSON.stringify(k), "is used by", ENT[o].id, "and", ENT[a.i].id); warn++ } else seen.set(k, a.i) } }
 function match(text, minCover) {
   const t = S.toks(text); if (!t.length) return -1; const set = new Set(t);
@@ -50,8 +84,16 @@ function subjectOf(t) { const raw = t.replace(/^(the|a|an)\s+/i, ""); const w = 
   const words = raw.split(/\s+/); let n = 0, k = 0; for (; k < words.length && n < i + a.n; k++) n += S.toks(words[k]).length;
   if (VERB.test((words[k] || "").replace(/^[^\w(]+/, "")) || /^\(/.test(words[k] || "")) return a.i } } return -1 }
 const strip = t => t.replace(/^[\d.]+\s+/, "").trim();
-const aspOf = (h, strict) => { const f = fold(h); if (/stage by stage|step by step|\btechnique\b|\bsteps\b|^the operation\b/.test(f)) return "how"; for (const a of ASP) if ((strict ? HS(a) : a.h).test(f)) return a.id; return null };
+const AMB = [[/^summary\b/, "def"], [/\bdifferential\b/, "ddx"], [/^contra-?indications?\b/, "ci"], [/^(etiology|aetiology|pathophysiology|pathology|pathogenesis)\b/, "why"], [/^subtypes?\b/, "cls"], [/^prognosis\b/, "px"], [/^complications?\b/, "cx"], [/^management\b/, "tx"], [/^diagnosis\b/, "dx"], [/^clinical features\b/, "cf"], [/^applied anatomy\b/, "an"]];
+const aspOf = (h, strict) => { const f = fold(h); if (/stage by stage|step by step|\btechnique\b|\bsteps\b|^the operation\b/.test(f)) return "how"; for (const [re, a] of AMB) if (re.test(f)) return a; for (const a of ASP) if ((strict ? HS(a) : a.h).test(f)) return a.id; return null };
+/* "Etiology and clinical features", "Diagnosis and management": every aspect a compound heading names */
+const aspsOf = h => { const f = fold(h).replace(/:.*$/, ""); const parts = f.split(/\s+and\s+|,\s*/).map(x => x.trim()).filter(Boolean); if (parts.length < 2) return []; return [...new Set(parts.map(x => aspOf(x, true)).filter(Boolean))] };
 const NOSUB = new Set(["cf", "dx", "an"]);
+const STRONG = [["tx", /\b(is|are) (best )?(treated|managed)\b|\b(treatment|management) is\b|\btreated (with|by)\b|\bfirst[- ]line\b|\bdrug of choice\b/i],
+  ["ci", /\bcontra-?indicat/i], ["cf", /\bpresents? (with|as)\b|\bpresenting (with|as)\b|\bthe (classic|cardinal) (sign|symptom|feature)/i],
+  ["dx", /\b(is )?(diagnosed|confirmed) (by|with|on)\b|\binvestigation of choice\b|\bgold standard\b/i],
+  ["why", /\b(is|are) caused by\b|\bresults? from\b|\bthe commonest cause\b|\bmost common cause\b/i],
+  ["cx", /\bcomplications? (include|are)\b/i], ["px", /\b(five|ten|5|10)-year survival\b|\bprognosis is\b|\bmedian survival\b|\bmost lethal\b|\b(poor|good|excellent) (prognosis|outlook)\b|\bthe outlook is\b|\bcured in\b/i]];
 
 const used = new Set(), L = [];
 let OPDOC = false;
@@ -61,7 +103,7 @@ const stats = { secs: 0, ent: 0 };
 X.forEach((x, doc) => {
   const [ty, route, title0, where, body] = x; const ar = route.split("~")[0]; OPDOC = ar.startsWith("th:op");
   const [art, ...ch] = where.split(" · "); const chap = strip(ch.join(" · ")), title = strip(title0);
-  if (/^for the examination/i.test(chap)) return;
+  if (/^(for the examination|sources|tips and links)\b/i.test(chap)) return;
   stats.secs++;
   const A = ART[ar] || {};
   const map = (m, k) => m && Object.prototype.hasOwnProperty.call(m, k) ? (m[k] === "-" ? -2 : EID.get(m[k])) : undefined;
@@ -88,7 +130,8 @@ X.forEach((x, doc) => {
   const CARRY = new Set(["tx", "cx", "px", "ind", "how"]);
   const secAsp = isEv ? (chapAsp === "tx" || chapAsp === "px" ? chapAsp : null) : (titleAsp || (fromTitle && !CARRY.has(chapAsp) ? null : chapAsp));
   const secW = titleAsp ? titleW : .9;
-  const defSec = /\b(definitions?|overview|what it is|introduction)\b/i.test(title) && !fromTitle;
+  const defSec = (/\b(definitions?|overview|what it is|introduction)\b/i.test(title) || /^summary$/i.test(chap)) && !fromTitle;
+  const extraA = ownTitle && !fromTitle ? aspsOf(title).filter(a => a !== secAsp) : [];
   const U = S._units(body);
   let subj = -1, line = -1, first = true;
   U.forEach(u => {
@@ -97,19 +140,25 @@ X.forEach((x, doc) => {
     /* a sentence that starts with another condition's name is about that condition ("Hashimoto thyroiditis is treated ...") */
     if (!u.row) { const m = subjectOf(t); if (m >= 0 && m !== secE) subj = m; else if (!S._x.PRON.test(t)) subj = -1 }
     if (!ok || (!u.row && !/[.!?;)]$/.test(t) && t.split(" ").length <= 6)) return;
-    const lab = u.label ? aspOf(u.label) : null;
+    /* the on-call summary at the head of Diagnosis or Management repeats the prose below it in note form: it counts, but less */
+    const ward = /^approach$/i.test(strip(u.label || ""));
+    const lab = u.label && !ward ? aspOf(u.label) : null;
     const cues = {}; for (const a of ASP) { const n = (fold(t).match(new RegExp((a.cx || a.c).source, "g")) || []).length; if (n) cues[a.id] = n }
     const labelE = u.label ? match(u.label, .6) : -1;
     const E = labelE >= 0 && !u.row ? labelE : secE;
     const put = (ent, f, subjectLine) => {
       if (secAsp) add(doc, u.k, ent, secAsp, secW * f);
+      for (const a of extraA) add(doc, u.k, ent, a, .85 * f);
+      /* a sentence that says outright what it is ("It is treated with thyroxine", "Contraindications are ...") */
+      for (const [a, re] of STRONG) if (a !== secAsp && re.test(t)) add(doc, u.k, ent, a, .85 * f);
       if (lab) add(doc, u.k, ent, lab, 1 * f);
       /* cue words count for more in a sentence that is itself about the condition ("Hashimoto thyroiditis ... is treated with thyroxine") */
       for (const [a, n] of Object.entries(cues)) if (a !== secAsp) add(doc, u.k, ent, a, subjectLine ? Math.min(.75, .6 + .1 * n) : Math.min(.7, .35 + .15 * n) * (secAsp ? .6 : 1) * f);
       if ((defSec || (fromTitle && first)) && !u.row) add(doc, u.k, ent, "def", .8 * f);
     };
-    put(E, 1);
-    if (E !== secE && secE >= 0) put(secE, .8);
+    const wf = ward ? .8 : 1;
+    put(E, wf);
+    if (E !== secE && secE >= 0) put(secE, .8 * wf);
     if (fromTitle && upper >= 0 && chapAsp) add(doc, u.k, upper, chapAsp, .8);
     if (subj >= 0 && subj !== E) put(subj, .9, true);
     first = false
