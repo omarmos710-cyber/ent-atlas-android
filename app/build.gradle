@@ -1,49 +1,30 @@
 plugins { id 'com.android.application' }
 
-def publicAssets = layout.buildDirectory.dir("generated/ent-public-assets")
-def releaseKey = providers.environmentVariable("ANDROID_KEYSTORE_FILE").orNull
-def releasePassword = providers.environmentVariable("ANDROID_KEYSTORE_PASSWORD").orNull
-
-tasks.register("preparePublicAssets", Exec) {
-    workingDir rootProject.projectDir
-    inputs.dir(layout.projectDirectory.dir("src/main/assets/www"))
-    inputs.file(rootProject.file("tools/build_public.py"))
-    inputs.dir(rootProject.file("content/basics"))
-    outputs.dir(publicAssets)
-    commandLine "python3", rootProject.file("tools/build_public.py"), "android", publicAssets.get().asFile
-}
-tasks.named("preBuild") { dependsOn("preparePublicAssets") }
-
 android {
     namespace 'com.omar.entatlas'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.omar.entcompanion"
+        applicationId "com.omar.entatlas"
         minSdk 24
         targetSdk 34
         versionCode (System.getenv("GITHUB_RUN_NUMBER") ? System.getenv("GITHUB_RUN_NUMBER").toInteger() : 1)
-        versionName "2.0." + (System.getenv("GITHUB_RUN_NUMBER") ?: "0")
+        versionName "1.0." + (System.getenv("GITHUB_RUN_NUMBER") ?: "0")
     }
 
-    sourceSets.main.assets.srcDirs = [publicAssets.get().asFile]
-
     signingConfigs {
-        if (releaseKey && releasePassword) {
-            release {
-                storeFile file(releaseKey)
-                storeType "PKCS12"
-                storePassword releasePassword
-                keyAlias "entcompanion"
-                keyPassword releasePassword
-            }
+        release {
+            storeFile file("../signing/ent-atlas.jks")
+            storePassword "entatlas2026"
+            keyAlias "entatlas"
+            keyPassword "entatlas2026"
         }
     }
 
     buildTypes {
         release {
             minifyEnabled false
-            if (releaseKey && releasePassword) signingConfig signingConfigs.release
+            signingConfig signingConfigs.release
         }
     }
 
@@ -51,6 +32,8 @@ android {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
     }
+
+    androidResources { noCompress += ["pdf", "jpg"] }
 }
 
 dependencies {

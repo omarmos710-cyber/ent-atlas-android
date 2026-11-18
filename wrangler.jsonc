@@ -4,6 +4,5 @@
   "compatibility_date": "2025-09-01",
   "workers_dev": true,
   "preview_urls": false,
-  "build": { "command": "python3 tools/build_public.py web dist" },
   "assets": { "directory": "./dist" }
 }

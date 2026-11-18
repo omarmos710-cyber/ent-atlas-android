@@ -8,7 +8,3 @@ dist/
 local.properties
 node_modules/
 __pycache__/
-*.ent-public-build
-*.jks
-*.keystore
-*.p12

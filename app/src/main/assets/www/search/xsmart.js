@@ -67,8 +67,7 @@ const ASPECTS=[
  {id:"ddx",label:"Differential diagnosis",q:["differential diagnosis","differential diagnoses","differentials","differential","ddx","mimics","versus","vs","distinguish","difference between"],h:/\b(differential|mimics?|versus|distinguish|or\b)/,c:/\b(differential|mimic\w*|distinguish\w*)\b/},
  {id:"cls",label:"Classification",q:["classification","classify","types","type","staging","stage","grading","grade","grades","stages","scale","scoring","score"],h:/\b(classification|types?|staging|stages?|grading|grades?|scale|score|kinds)\b/,c:/\b(type|grade|stage|class\w*)\b/},
  {id:"an",keep:1,label:"Anatomy",q:["anatomy","course","relations","blood supply","nerve supply","supply","drainage","landmarks","boundaries","embryology"],h:/\b(anatomy|course|relations|supply|drainage|landmarks?|boundaries|embryolog\w*|nerves?|vessels)\b/,c:/\b(lies|runs|supplied|drains?|between|relation\w*)\b/},
- {id:"contra",label:"Contraindications",q:["contraindications to","contraindications for","contraindications","contraindication","when not to operate"],h:/\bcontraindications?\b/,c:/\bcontraindicat\w*\b/},
- {id:"ind",label:"Indications",q:["indications for","indications","indication","when to operate","when to refer","when to do","criteria"],h:/\b(indications?|criteria|when|who needs|selection|choosing)\b/,c:/\b(indicat\w*|criteria)\b/},
+ {id:"ind",label:"Indications",q:["indications for","indications","indication","when to operate","when to refer","when to do","contraindications","contraindication","criteria"],h:/\b(indications?|contraindications?|criteria|when|who needs|selection|choosing)\b/,c:/\b(indicat\w*|criteria)\b/},
  {id:"how",label:"Technique",q:["how to do","how is it done","technique","procedure","steps","step by step","operation","operative steps","surgical steps","approach"],h:/\b(technique|steps?|procedure|operation|approach|incision|exposure|stage by stage)\b/,c:/\b(incis\w*|elevat\w*|dissect\w*|expos\w*)\b/},
  {id:"px",label:"Prognosis",q:["prognosis","outcome","outcomes","survival","recurrence rate","natural history","recovery"],h:/\b(prognosis|outcomes?|survival|natural history|recovery|follow-?up)\b/,c:/\b(prognos\w*|survival|recover\w*|outcome\w*)\b/},
  {id:"def",label:"Definition",q:["what is","what are","define","definition","meaning of","describe"],h:/\b(definitions?|what it is|overview|nature)\b/,c:/\bis an?\b/}
@@ -282,7 +281,7 @@ function answerMap(P,opt){if(!AM)return null;const e=entityOf(P.topic);if(e===nu
  Q.sort((a,b)=>tier(b)-tier(a)||(b.ar===lead)-(a.ar===lead)||(a.ar===lead&&b.ar===lead?a.doc-b.doc:b.score-a.score));
  const quota=Math.max(1,Math.min(4,Math.ceil(n/Q.length)));const items=[],seen=[];let gi=0;
  for(const g of Q){if(items.length>=n)break;
-  const U=units(g.d.body);const keep=[...g.u.entries()].filter(([k,w])=>w>=Math.max(.5,g.max*.7)).sort((a,b)=>b[1]-a[1]||a[0]-b[0]);
+  const U=units(g.d.body);const keep=[...g.u.entries()].filter(([k,w])=>w>=Math.max(.5,g.max*.7)).sort((a,b)=>a[0]-b[0]);
   const lim=Math.min(n-items.length,keep.some(([k])=>U[k]&&U[k].row)?Math.max(quota,gi===0?5:quota):quota);let added=0;
   for(const [k,w] of keep){if(added>=lim)break;const u=U[k];if(!u)continue;const t=tidy(u.t);const tk=new Set(toks(t));
    if(seen.some(o=>{let c=0;for(const x of tk)if(o.has(x))c++;return c/Math.max(1,Math.min(tk.size,o.size))>.7}))continue;seen.push(tk);
@@ -292,7 +291,7 @@ function answerMap(P,opt){if(!AM)return null;const e=entityOf(P.topic);if(e===nu
  return {map:true,entity:AM.names[e][0]+(parName?" (with "+parName+")":""),conf:top,best:top,items}}
 
 function answer(S,opt){opt=opt||{};if(!S||!S.list||!M)return null;const P=S.P;if(/\b(viva|questions?|mcqs?|essays?|flashcards?|quiz)\b/i.test(P.raw||""))return null;
- if(!opt.noMap){const A=answerMap(P,opt);if(A)return A;if(P.aspects.some(a=>a.id==="contra"))return null}const asp=P.aspects;
+ if(!opt.noMap){const A=answerMap(P,opt);if(A)return A}const asp=P.aspects;
  const okd=d=>d.ty!=="q"&&d.ty!=="card"&&d.ty!=="viva"&&!d.exam;
  const list=S.list.filter(r=>okd(D.docs[r.i]));const pool=(S.pool||[]).filter(r=>okd(D.docs[r.i]));if(!list.length)return null;
  const qt=toks(P.topic),st=toks(P.soft||"");const qw=new Map();let qwt=0;for(const t of new Set(qt)){const w=idf(t);qw.set(t,w);qwt+=w}for(const t of new Set(st))if(!qw.has(t))qw.set(t,idf(t)*.6);qwt=qwt||1;

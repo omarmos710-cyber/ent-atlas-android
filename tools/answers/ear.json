@@ -874,7 +874,6 @@
    }
   },
   "cl:t-canal": {
-   "lead": {"Management": {"tx": "Remove under direct vision"}},
    "e": "-",
    "c": {
     "Wax": "wax",
@@ -887,7 +886,6 @@
    }
   },
   "cl:t-chole": {
-   "lead": {"Summary": {"def": "A cholesteatoma is a three-dimensional collection"}},
    "e": "chole"
   },
   "cl:t-csom": {
@@ -1027,7 +1025,6 @@
    "e": "myringitis"
   },
   "cl:t-oe": {
-   "lead": {"Management": {"tx": "Clean the canal under vision"}},
    "e": "oe",
    "c": {
     "Chronic and reactive otitis externa": "chronicoe"

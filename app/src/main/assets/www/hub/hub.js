@@ -371,7 +371,7 @@ function vCase(){const s=CS;if(!s)return go("hub:case");const c=s.c[s.ci];
 /* ======================= PICTURE QUESTIONS ======================= */
 let PQ=null;
 const firstSent=t=>{t=String(t).replace(/^First,\s*/i,"");const m=t.match(/^(.+?[.!?])(\s|$)/);t=m?m[1]:t;t=t.replace(/[.]$/,"");return t.charAt(0).toUpperCase()+t.slice(1)};
-async function startPic(S){if(restrictedMedia)return toast("Picture practice is unavailable in this edition.");toast("Choosing pictures…");if(S.s!=="anat")await needFigs();
+async function startPic(S){toast("Choosing pictures…");if(S.s!=="anat")await needFigs();
  const out=[];
  if(S.s!=="anat"&&window.CLART_FIGS){const g=S.s.startsWith("g:")?S.s.slice(2):"";
   const F=CLART_FIGS.filter(f=>((f.f&&f.f.length===1)||(f.k&&f.k.length===1))&&f.t&&!/^First,/i.test(f.t)&&(!g||tgroup(f.a)===g));

@@ -189,7 +189,7 @@ public class MainActivity extends Activity {
                     int n;
                     while ((n = in.read(buf)) > 0) os.write(buf, 0, n);
                 }
-                Uri uri = FileProvider.getUriForFile(MainActivity.this, getPackageName() + ".files", out);
+                Uri uri = FileProvider.getUriForFile(MainActivity.this, "com.omar.entatlas.files", out);
                 Intent view = new Intent(Intent.ACTION_VIEW);
                 view.setDataAndType(uri, "application/pdf");
                 view.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);

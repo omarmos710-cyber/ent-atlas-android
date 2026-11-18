@@ -85,14 +85,14 @@ X.forEach((x, doc) => {
   const titleAsp = curA || strictT || looseT, titleW = curA || strictT ? 1 : .75;
   /* "Management > Bell's palsy": the chapter's aspect also holds for the condition the section names;
      "Peripheral causes > Vestibular neuritis" is a whole account of that condition, not its causes */
-  const CARRY = new Set(["tx", "cx", "px", "ind", "contra", "how"]);
+  const CARRY = new Set(["tx", "cx", "px", "ind", "how"]);
   const secAsp = isEv ? (chapAsp === "tx" || chapAsp === "px" ? chapAsp : null) : (titleAsp || (fromTitle && !CARRY.has(chapAsp) ? null : chapAsp));
   const secW = titleAsp ? titleW : .9;
-  const defSec = /\b(definitions?|overview|what it is|introduction|summary)\b/i.test(title) && !fromTitle;
+  const defSec = /\b(definitions?|overview|what it is|introduction)\b/i.test(title) && !fromTitle;
   const U = S._units(body);
   let subj = -1, line = -1, first = true;
   U.forEach(u => {
-    const t = tidy(u.t); if (/^on call:/i.test(t)) return; if (u.line !== line) { subj = -1; line = u.line }
+    const t = tidy(u.t); if (u.line !== line) { subj = -1; line = u.line }
     const ok = t.length >= 25 && t.length <= 420 && !/\?$/.test(t) && !XREF.test(t);
     /* a sentence that starts with another condition's name is about that condition ("Hashimoto thyroiditis is treated ...") */
     if (!u.row) { const m = subjectOf(t); if (m >= 0 && m !== secE) subj = m; else if (!S._x.PRON.test(t)) subj = -1 }
@@ -101,10 +101,6 @@ X.forEach((x, doc) => {
     const cues = {}; for (const a of ASP) { const n = (fold(t).match(new RegExp((a.cx || a.c).source, "g")) || []).length; if (n) cues[a.id] = n }
     const labelE = u.label ? match(u.label, .6) : -1;
     const E = labelE >= 0 && !u.row ? labelE : secE;
-    /* An editor can identify the lead source line for an otherwise broad section. */
-    for (const [aspect, text] of Object.entries((A.lead || {})[title] || {})) {
-      if (t.startsWith(text) && AID.includes(aspect)) add(doc, u.k, E, aspect, 1.3);
-    }
     const put = (ent, f, subjectLine) => {
       if (secAsp) add(doc, u.k, ent, secAsp, secW * f);
       if (lab) add(doc, u.k, ent, lab, 1 * f);
