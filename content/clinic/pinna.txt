@@ -65,6 +65,14 @@ Drain early: aspiration for small, fresh collections, or incision for larger or 
 !update Current evidence
 **Haematoma.** A Cochrane review found no randomised trials comparing needle aspiration with incision and drainage, or different pressure dressings (Jones and Mahendran, 2004); case series favour incision and drainage with a bolster or through-and-through sutures, which reduce reaccumulation.
 !!
+### Drugs and doses
+!table Pinna haematoma: drugs and doses
+Step | Drug and dose | Course and notes
+Every patient | Drainage and pressure bolster; analgesia | Recheck at 24 to 48 hours
+After drainage (commonly given; evidence limited) | Co-amoxiclav 500/125 mg three times a day; or ciprofloxacin 500 mg twice a day for anti-pseudomonal cover in adults | About 5 to 7 days
+Infected haematoma | Treat as perichondritis (ciprofloxacin 750 mg twice a day) and drain | 
+!!
+Doses from the BNF; practice from case series (no randomised trials).
 ## Complications
 Untreated or infected, the cartilage necroses and new cartilage forms irregularly, giving a *cauliflower ear*.
 !fig d8-7 | A cauliflower (boxer's) ear.
@@ -77,6 +85,16 @@ Repair early, covering the cartilage with skin and keeping the perichondrium att
 A partly avulsed segment on a pedicle is reattached. A completely avulsed part may be reattached as a composite graft if small, banked under postauricular skin, or replanted microvascularly.
 ## Bites
 The lobe is the commonest site; human bites are the most likely to become infected. Clean thoroughly, give antibiotics and repair.
+### Bites: drugs and doses
+!table Bites of the ear: drugs and doses
+Step | Drug and dose | Course and notes
+Every bite | Irrigate, debride, repair; tetanus status; assess rabies and blood-borne virus risk | 
+First line, adults | Co-amoxiclav 250/125 mg or 500/125 mg three times a day | 3 days for prophylaxis, 5 days for treatment (up to 7 with review)
+Penicillin allergy, adults | Doxycycline 200 mg on day 1, then 100 to 200 mg daily, with metronidazole 400 mg three times a day | Same durations; not in pregnancy
+Children | Co-amoxiclav by weight or age (BNF for Children); under 12 with penicillin allergy, co-trimoxazole | Same durations
+Severe infection | Intravenous co-amoxiclav 1.2 g three times a day | Review at 48 hours
+!!
+Doses from NICE NG184 Human and animal bites.
 ## Frostbite
 The pinna is exposed and thin. Rewarm with moist pledgets at 38 to 42°C, give analgesia and antibiotics, avoid pressure dressings, and delay debridement for weeks to months until the dead tissue demarcates.
 !differ Rewarming
@@ -90,6 +108,15 @@ In practice: Rewarm with moist pledgets at 38 to 42°C and give good analgesia, 
 After piercing, often in darker skin.
 ## Management
 Excision alone recurs; combine with steroid injection, pressure or radiotherapy ([[t:extca]]).
+### Treatment steps
+!table Keloid: treatment
+Step | Treatment and dose | Course and notes
+Small or early | Intralesional triamcinolone acetonide 10 to 40 mg/ml | Every 4 to 6 weeks; skin atrophy and pigment change
+Established | Excision (intramarginal) with steroid injection at surgery and after | Excision alone recurs in most
+Adjuncts | Pressure earring or clip; silicone gel | Months
+Recurrent | Excision with postoperative radiotherapy | Within days of surgery
+!!
+Based on international scar management recommendations (Gold et al., *Dermatol Surg* 2014) and the BNF.
 
 # Tips and links | For the examination and the ward.
 ## Viva essentials
@@ -118,3 +145,7 @@ Excision alone recurs; combine with steroid injection, pressure or radiotherapy 
 - K. J. Lee, *Essential Otolaryngology*, chapters 13 and 23.
 ## Studies cited
 - Jones and Mahendran, Cochrane review, 2004: interventions for auricular haematoma.
+## Guidelines and dosing
+- NICE NG184: Human and animal bites: antimicrobial prescribing.
+- Gold et al., *Dermatol Surg* 2014: updated international clinical recommendations on scar management.
+- BNF: co-amoxiclav, ciprofloxacin, doxycycline, metronidazole, triamcinolone acetonide.

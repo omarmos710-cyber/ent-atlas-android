@@ -85,6 +85,16 @@ A meta-analysis of 26 studies found non-echo-planar diffusion-weighted MRI had a
 ## Endoscopy in clinic
 A rigid 0 degree endoscope shows the full depth of a retraction pocket and documents it with photographs for comparison over time.
 !imaging | Acquired and congenital cholesteatoma, a labyrinthine fistula, intracranial extension and canal cholesteatoma.
+## Investigations: what and when
+!table Cholesteatoma: investigations
+Role | Test | When and what it shows
+Diagnosis (first line) | Microscopy with suction clearance; fistula test | Keratin, defect, polyp; lateral canal erosion
+Every patient | Pure-tone audiogram (bone conduction both ears) | Baseline before surgery; dead ear or not
+Before surgery | High-resolution CT of the temporal bones | Extent; erosion of ossicles, tegmen, lateral canal, facial canal; anatomy
+Residual or recurrent disease, or soft tissue on CT | Non-echo-planar diffusion-weighted MRI | Cholesteatoma bright on diffusion; may replace a planned second look
+Complication suspected | Contrast MRI with venography | Intracranial spread, sinus thrombosis
+Definitive | Histology of the removed sac | Keratinising squamous epithelium
+!!
 
 # Differential diagnosis | Other chronic ears.
 - **Mucosal (safe) chronic otitis media:** profuse, non-foul discharge through a central perforation ([[t:csom]]); the two are compared there.
@@ -145,6 +155,15 @@ Handled as in [[9.1.2]].
 Ossiculoplasty, at the first stage or the second look.
 ## Follow-up and recidivism
 Recidivism is either **residual** (incompletely removed) or **recurrent** (a new retraction); both demand follow-up for at least five years, longer in children.
+## Drugs and doses
+!table Cholesteatoma: medical treatment (supports surgery)
+Step | Drug and dose | Course and notes
+Discharging ear before surgery | Aural toilet; ofloxacin 0.3% drops 10 drops twice a day (adults and from 12 years) or ciprofloxacin drops | 1 to 2 weeks; quinolones are safe with an open middle ear
+Unfit or declines surgery | Regular microscopic cleaning with topical drops for flare-ups | Lifelong follow-up
+Complication (mastoiditis, intracranial) | Intravenous antibiotics with anaerobic and anti-pseudomonal cover, then urgent surgery | See intracranial complications
+Medicines do not cure cholesteatoma | Surgery is the treatment | 
+!!
+Doses from the BNF and product licences.
 
 # Complications | Why it is called unsafe.
 ## Intratemporal
@@ -212,3 +231,5 @@ A blue drum with dark fluid behind it suggests cholesterol granuloma, not choles
 - Lingam et al., *Otol Neurotol* 2017: diffusion-weighted MRI for cholesteatoma.
 - Li et al., *Am J Otolaryngol* 2021: endoscopic versus microscopic ear surgery.
 - van der Toom et al., *JAMA Otolaryngol Head Neck Surg* 2018: mastoid obliteration.
+## Guidelines and dosing
+- BNF: ofloxacin and ciprofloxacin ear drops.

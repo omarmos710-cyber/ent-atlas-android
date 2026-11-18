@@ -45,6 +45,16 @@ New tinnitus, hearing loss or imbalance on an aminoglycoside or cisplatin: alert
 !update Current evidence
 **Cisplatin.** In the SIOPEL 6 trial in children with standard-risk hepatoblastoma, sodium thiosulfate after cisplatin cut hearing loss from 63% to 33% without reducing survival (Brock et al., *NEJM* 2018); the American ACCL0431 trial found a similar reduction (Freyer et al., *Lancet Oncol* 2017). **Aminoglycosides.** The m.1555A>G variant, carried by about 1 in 500 people, can cause profound deafness after a single dose; a point-of-care test in neonatal intensive care identified carriers within about 26 minutes without delaying antibiotics (McDermott et al., *JAMA Pediatr* 2022), and NICE has recommended it (2023).
 !!
+### Prevention: what and when
+!table Ototoxicity: prevention and monitoring
+Situation | Test or drug and dose | Notes
+Before gentamicin in a newborn | Rapid MT-RNR1 genotype test (m.1555A>G) where available | Carriers can go deaf after a single dose; choose another antibiotic if positive and time allows
+Aminoglycoside course | Once-daily dosing with blood level monitoring; renal function; baseline and serial audiograms (with high frequencies) for long courses | Stop or change at the first sign of hearing or balance loss
+Cisplatin in children 1 month to 17 years, localised solid tumour | Sodium thiosulfate IV over 15 minutes, 6 hours after each cisplatin infusion: 12.8 g/m² over 10 kg, 9.6 g/m² at 5 to 10 kg, 6.4 g/m² under 5 kg | Only when cisplatin runs for 6 hours or less; antiemetic 30 minutes before
+Cisplatin, every patient | Baseline and serial audiometry, including high frequencies | Tell the oncology team of any change
+Established loss | Hearing aids, cochlear implant; vestibular rehabilitation for bilateral vestibular loss | No drug reverses it
+!!
+Doses from the Pedmarqsi product licence (EMA, 2023) and NICE TA1034; MT-RNR1 testing from NICE DG51 (2023).
 ## Deliberate use
 Gentamicin's vestibular toxicity is used therapeutically in [[t:meniere|Ménière's disease]].
 
@@ -69,6 +79,14 @@ The audiogram shows a symmetrical *notch at 4 kHz*, which deepens and widens int
 !fig d5-7 | Early noise-induced hearing loss, with a dip at 4000 Hz.
 ### Medicolegal diagnosis
 The **Coles, Lutman and Buffin (CLB) guidelines** require high-frequency loss beyond that expected for age, a cumulative noise immission level of at least 100 dB (roughly 85 dB(A) daily for many years), and a notch or bulge at 3 to 6 kHz at least 10 dB deeper than the thresholds at 1 or 2 kHz and at 6 or 8 kHz.
+### Investigations: what and when
+!table Noise-induced hearing loss: investigations
+Role | Test | When and what it shows
+Diagnosis (first line) | Pure-tone audiogram after at least 16 hours away from noise | Bilateral notch at 3 to 6 kHz, typically 4 kHz, with recovery at 8 kHz
+Asymmetry over about 15 dB, or unilateral tinnitus | MRI of the internal auditory canals | Vestibular schwannoma
+Medicolegal | Serial audiograms; established methods for quantification (such as Coles–Lutman–Buffin) | 
+Workplace | Noise dosimetry; health surveillance audiometry | Exposure action values 80 and 85 dB(A)
+!!
 ## Subtypes and variants
 ### Acute acoustic trauma
 A single blast or impulse (around 140 dB or more) causes immediate loss without a preceding temporary shift, often with tinnitus. It can rupture the drum, disrupt the ossicles and damage the cochlea at once. Treat the inner ear loss like sudden sensorineural loss, with early steroids ([[t:ssnhl]]).
@@ -111,6 +129,15 @@ Usually in middle age (40 to 50). About 15% have another autoimmune disorder.
 Rapidly progressive, bilateral, often asymmetric sensorineural loss over weeks to months, with vestibular symptoms in about half.
 ## Diagnosis
 Bilateral loss of 30 dB or more with progression on serial audiograms within three months. Blood tests: ESR, rheumatoid factor, ANA, complement; anti-Hsp70 antibodies correlate with activity but are not specific. Contrast MRI to exclude other causes. A response to steroids supports the diagnosis.
+### Investigations: what and when
+!table Immune-mediated inner ear disease: investigations
+Role | Test | When and what it shows
+Diagnosis | Serial pure-tone and speech audiograms | Bilateral loss of 30 dB or more progressing within 3 months
+Every patient | MRI of the internal auditory canals | Excludes retrocochlear and central causes
+Blood tests | ESR, CRP, ANA, rheumatoid factor, ANCA, complement, syphilis serology, thyroid function, glucose | Systemic autoimmune disease, mimics
+Confirmation | Response to the steroid trial | The best practical test
+Eye symptoms | Slit-lamp examination | Interstitial keratitis (Cogan syndrome)
+!!
 ## Subtypes and variants
 ### Primary autoimmune inner ear disease
 Confined to the ear, as above.
@@ -118,6 +145,16 @@ Confined to the ear, as above.
 Part of systemic disease: *Cogan syndrome* (interstitial keratitis with audiovestibular loss), granulomatosis with polyangiitis ([[t:gpa]]), systemic lupus, antiphospholipid syndrome, and others.
 ## Management
 Prednisolone 1 mg/kg/day, up to 60 mg, for four weeks. Responders (an improvement of 15 dB at one frequency or 10 dB at consecutive frequencies, or better discrimination) continue to a plateau and taper to the lowest maintenance dose over months. For steroid intolerance or dependence: methotrexate, cyclophosphamide (more toxic), biological agents or intratympanic steroids; note that in a randomised trial methotrexate was no better than placebo at maintaining the hearing gained with steroids (Harris et al., *JAMA* 2003), so steroid-sparing drugs are given on specialist advice only. Cochlear implantation if hearing is lost.
+### Drugs and doses
+!table Immune-mediated inner ear disease: drugs and doses
+Step | Drug and dose | Course and notes
+Steroid trial | Prednisolone 1 mg/kg a day, maximum 60 mg | 4 weeks, then audiogram; responders continue to a plateau and taper slowly; non-responders taper over about 2 weeks
+Before and during steroids | Glucose, blood pressure, bone protection, gastric protection where needed | 
+Steroid-dependent or intolerant | Specialist immunosuppression (for example biologics in systemic disease); intratympanic steroid | Methotrexate did not maintain hearing better than placebo in a randomised trial
+Secondary disease (Cogan, vasculitis) | Treat the systemic disease with rheumatology | 
+Profound loss | Cochlear implant | 
+!!
+Regimen from the multicentre trial (Harris et al., *JAMA* 2003) and published reviews.
 
 # Tips and links | For the examination and the ward.
 ## Viva essentials
@@ -151,3 +188,7 @@ Prednisolone 1 mg/kg/day, up to 60 mg, for four weeks. Responders (an improvemen
 - McDermott et al., *JAMA Pediatr* 2022: point-of-care m.1555A>G testing.
 - Kujawa and Liberman, *J Neurosci* 2009: cochlear synaptopathy.
 - Harris et al., *JAMA* 2003: methotrexate in autoimmune inner ear disease.
+## Guidelines and dosing
+- Pedmarqsi (sodium thiosulfate) summary of product characteristics; NICE TA1034.
+- NICE DG51: Genedrive MT-RNR1 ID kit for detecting a genetic variant to guide antibiotic use and prevent hearing loss in babies.
+- Harris et al., *JAMA* 2003: methotrexate for autoimmune inner ear disease.

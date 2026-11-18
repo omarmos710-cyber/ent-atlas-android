@@ -37,6 +37,16 @@ Chest imaging, tuberculin skin test or interferon-gamma release assay, and HIV t
 ### CT
 Often looks like ordinary chronic otitis media, with more bone erosion and sequestra.
 !imaging | Otomastoiditis on CT.
+### Investigations: what and when
+!table Tuberculous otitis media: investigations
+Role | Test | When and what it shows
+Gold standard | Biopsy of granulations: histology, mycobacterial culture with sensitivities | Caseating granulomas; culture takes weeks
+Rapid test | Xpert MTB/RIF Ultra (nucleic acid test) on tissue or discharge | Diagnosis and rifampicin resistance in days
+Adjunct | Acid-fast smear of discharge | A negative smear does not exclude it
+Every patient | Chest X-ray; HIV test; liver and renal function | Pulmonary disease; co-infection; baseline for treatment
+Supportive | Interferon-gamma release assay or tuberculin skin test | Infection, not active disease
+Imaging | High-resolution CT temporal bone | Extensive erosion, sequestra
+!!
 ## Differential diagnosis
 Ordinary [[t:csom|chronic suppurative otitis media]], carcinoma of the middle ear ([[t:tumear]]), granulomatosis with polyangiitis ([[t:gpa]]), and fungal infection.
 ## Management
@@ -45,6 +55,17 @@ Standard multidrug therapy, guided by sensitivities, for at least six months: tw
 ### Surgery
 Limited to biopsy, removal of sequestra and drainage of abscesses or complications. Reconstruction is delayed until treatment is complete, because healing is slow and fistulae are common during active disease; afterwards, repair succeeds in most.
 !ops
+### Drugs and doses
+!table Tuberculous otitis media: drugs and doses
+Phase | Drug and dose | Course and notes
+Intensive phase | Isoniazid 5 mg/kg (maximum 300 mg), rifampicin 10 mg/kg (450 mg under 50 kg, 600 mg from 50 kg), pyrazinamide (1.5 g under 50 kg, 2 g from 50 kg) and ethambutol 15 mg/kg, once daily | 2 months; fixed-dose combinations are used
+Continuation phase | Isoniazid and rifampicin, same doses | 4 months (6 months in total); longer with extensive bone disease or CNS spread, on specialist advice
+Children | Isoniazid 10 mg/kg, rifampicin 15 mg/kg, pyrazinamide 35 mg/kg, ethambutol 20 mg/kg daily (WHO weight bands) | Same phases
+Every patient | Pyridoxine 10 mg daily with isoniazid (where there is a risk of neuropathy); baseline liver and renal function, visual acuity and colour vision | Directly observed therapy where needed
+Drug resistance | Regimen from sensitivities and the TB service | 
+Ear | Aural toilet; quinolone drops for secondary infection | Surgery only for sequestra or complications
+!!
+Doses from NICE NG33 (tuberculosis), WHO consolidated guidelines on tuberculosis treatment and the BNF.
 ## Complications
 - **Facial palsy:** usually recovers well with medical treatment ([[t:facial]]).
 - Sequestrum, postauricular fistula, Bezold abscess and labyrinthitis.
@@ -54,8 +75,26 @@ Limited to biopsy, removal of sequestra and drainage of abscesses or complicatio
 Congenital or acquired syphilis can cause osteitis of the temporal bone with necrosis, and labyrinthitis with profound, often fluctuating sensorineural loss and vertigo.
 ## Diagnosis
 Treponemal tests (FTA-ABS).
+### Investigations: what and when
+!table Syphilitic otitis: investigations
+Role | Test | When and what it shows
+Screening | Treponemal enzyme immunoassay (EIA) | Positive in past or present infection
+Activity | RPR or VDRL titre | Activity and response to treatment
+Confirmation | A second treponemal test (TPPA) | 
+With otological or neurological signs | Lumbar puncture (with genitourinary medicine); HIV test | Neurosyphilis; co-infection
+Ear | Audiogram; CT temporal bone | Fluctuating sensorineural loss; bone erosion
+!!
 ## Management
 Penicillin and steroids. Syphilitic labyrinthitis is covered in [[t:fistula]].
+### Drugs and doses
+!table Syphilitic otitis: drugs and doses
+Step | Drug and dose | Course and notes
+First line (treat as neurosyphilis) | Procaine penicillin 1.8 to 2.4 million units IM once daily with probenecid 500 mg four times a day | 14 days; with genitourinary medicine
+Alternative | Benzylpenicillin 1.8 to 2.4 g IV every 4 hours | 14 days
+Penicillin allergy | Doxycycline 200 mg twice a day | 28 days
+Jarisch–Herxheimer prevention | Prednisolone 40 to 60 mg daily for 3 days, starting 24 hours before the antibiotic | A longer course may be considered for hearing loss
+!!
+Doses from the BASHH UK guideline on syphilis (Kingston et al., *Int J STD AIDS* 2024) and the NHS West of Scotland neurosyphilis guidance.
 
 # Tips and links | For the examination and the ward.
 ## Viva essentials
@@ -79,3 +118,8 @@ Penicillin and steroids. Syphilitic labyrinthitis is covered in [[t:fistula]].
 - *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 16.
 - Dhingra, *Diseases of Ear, Nose and Throat*, chapter 11.
 - K. J. Lee, *Essential Otolaryngology*, chapter 22.
+## Guidelines and dosing
+- NICE NG33: Tuberculosis.
+- WHO consolidated guidelines on tuberculosis, module 4: treatment.
+- Kingston et al., *Int J STD AIDS* 2024: BASHH UK guidelines for the management of syphilis.
+- BNF: isoniazid, rifampicin, pyrazinamide, ethambutol, pyridoxine, procaine benzylpenicillin.

@@ -40,6 +40,15 @@ Shows the pneumatisation of the apex, breakdown of the cell septa and erosion of
 ## MRI with contrast
 Separates marrow from fluid or pus (diffusion-weighted imaging separates apicitis from cholesterol granuloma, cholesteatoma and effusion), shows dural enhancement and intracranial spread, and assesses the carotid and cavernous sinus. MR venography looks for venous sinus thrombosis.
 !imaging | Petrositis, Gradenigo syndrome and apical pseudotumours.
+## Investigations: what and when
+!table Petrous apicitis: investigations
+Role | Test | When and what it shows
+Every patient | ESR and CRP, full blood count, blood cultures; ear swab or pus from myringotomy | Inflammation; organism; ESR and CRP follow response
+First imaging | High-resolution CT of the temporal bones | Opacified apex with broken septa and bone erosion
+Gold standard | Contrast MRI with diffusion | Separates apicitis from marrow, effusion, cholesterol granuloma and cholesteatoma; shows dural and intracranial spread
+Suspected venous or carotid involvement | MR venography or CT angiography | Sinus thrombosis; carotid narrowing
+Baseline | Pure-tone audiogram | Hearing before surgery
+!!
 
 # Differential diagnosis | Other lesions of the apex.
 ## The list
@@ -73,6 +82,16 @@ For an abscess, bone necrosis, or failure of medical treatment. The route follow
 !update Current evidence
 **Treatment.** Modern case series show that most petrous apicitis responds to intravenous antibiotics with myringotomy or grommet, or cortical mastoidectomy; apical drainage is kept for failure of medical treatment. Gradenigo's full triad is present in only a minority.
 !!
+## Drugs and doses
+!table Petrous apicitis: drugs and doses
+Situation | Drug and dose | Course and notes
+After acute otitis media | Ceftriaxone 50 to 75 mg/kg IV once daily (maximum 2 g; adults 2 g); add metronidazole if anaerobes are suspected | With myringotomy and grommet
+After chronic otitis media or failure | Piperacillin–tazobactam (children 90 mg/kg, maximum 4.5 g, every 6 to 8 hours; adults 4.5 g every 8 hours), or ceftazidime with metronidazole | Mastoidectomy and drainage
+Penicillin anaphylaxis | Specialist advice (for example a quinolone with metronidazole in adults) | 
+Duration | Intravenous until clinically and biochemically settled, then oral; often 3 to 6 weeks in total for bone infection | Guided by CRP and imaging
+Intracranial spread | Treat as intracranial infection | See intracranial complications
+!!
+Doses from paediatric mastoiditis pathways (Children's Hospital of Philadelphia; Johns Hopkins All Children's) and the BNF; duration from published case series. Local microbiology advice takes precedence.
 
 # Complications | Neighbours at risk.
 - Meningitis and other intracranial infection ([[t:icc]]).
@@ -105,3 +124,6 @@ For an abscess, bone necrosis, or failure of medical treatment. The route follow
 - *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 19.
 - Dhingra, *Diseases of Ear, Nose and Throat*, chapters 1 and 12.
 - K. J. Lee, *Essential Otolaryngology*, chapters 13 and 22.
+## Guidelines and dosing
+- Children's Hospital of Philadelphia clinical pathway: acute mastoiditis (antibiotic doses).
+- BNF and BNF for Children: ceftriaxone, piperacillin–tazobactam, ceftazidime, metronidazole.

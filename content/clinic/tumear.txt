@@ -68,6 +68,18 @@ A *salt-and-pepper* appearance from flow voids; defines intracranial and neck ex
 Shows the feeding vessels (mainly the ascending pharyngeal artery), looks for multiple tumours, and allows embolisation. Balloon occlusion testing if the carotid may need to be sacrificed.
 ### Catecholamines and genetic testing
 Urinary or plasma metanephrines before any anaesthetic; genetic testing for every patient.
+### Investigations: what and when
+!table Temporal bone paraganglioma: investigations
+Role | Test | When and what it shows
+Never in clinic | Biopsy of a pulsatile red mass | Risk of severe bleeding
+Every patient, before any anaesthetic | Plasma free or 24-hour urinary fractionated metanephrines (with 3-methoxytyramine) | Secreting tumour (a minority)
+First imaging | High-resolution CT temporal bone | Caroticojugular spine erosion (jugulare); excludes aberrant carotid and high bulb
+Gold standard for extent | MRI with contrast (and MR angiography) | Salt-and-pepper flow voids; neck and intracranial spread
+Multiple or metastatic tumours | Functional imaging: 68Ga-DOTATATE PET-CT | Multifocal disease
+Before surgery | Catheter angiography with embolisation; balloon occlusion test if the carotid may be sacrificed | Feeding vessels; collateral flow
+Every patient | Germline genetic testing (SDHx and related genes) | About a third are hereditary
+Every patient | Pure-tone audiogram; lower cranial nerve assessment | Baseline
+!!
 ## Subtypes and variants
 ### Glomus tympanicum
 Arises on the promontory and fills the middle ear.
@@ -95,6 +107,16 @@ Slow-growing tumours in elderly patients may simply be watched.
 !update Current evidence
 **Genetics.** About a third of head and neck paragangliomas are hereditary, so guidelines recommend genetic testing (SDHx and related genes) for every patient, with screening of relatives who carry a mutation. **Radiosurgery.** A meta-analysis found tumour control in about 95% of jugular paragangliomas after radiosurgery, with fewer new cranial neuropathies than surgery (Guss et al., *Int J Radiat Oncol Biol Phys* 2011), so radiosurgery or observation is increasingly preferred for large jugular tumours in older patients, and surgery for tympanic tumours and selected young patients.
 !!
+### Treatment steps
+!table Temporal bone paraganglioma: treatment
+Step | Treatment and dose | Course and notes
+Secreting tumour | Alpha-blockade first (phenoxybenzamine, starting about 10 mg once or twice a day, or doxazosin), titrated; beta-blocker only after alpha-blockade | 7 to 14 days before surgery, with high salt and fluid intake
+Before surgery | Embolisation | 24 to 48 hours before
+Most fit patients | Surgical excision | Approach by Fisch class
+Elderly, unfit, residual or high-risk tumours | Stereotactic radiosurgery or fractionated radiotherapy | Growth control about 90%
+Slow tumour, elderly | Observation with serial MRI | 
+!!
+Based on the Endocrine Society guideline on phaeochromocytoma and paraganglioma (Lenders et al., *J Clin Endocrinol Metab* 2014) and the BNF.
 ## Complications
 - **Catastrophic bleeding** after biopsy in clinic.
 - **Lower cranial nerve palsies** from jugulare tumours, or from surgery.
@@ -107,6 +129,15 @@ Adults of 40 to 60, about three-quarters with a long history of chronic ear disc
 Bloodstained, foul discharge; deep, boring pain, especially at night; friable granulation or a polyp that bleeds on touch; and later facial palsy, vertigo, trismus and a neck or parotid mass. It is easily mistaken for chronic otitis media ([[t:csom]]) or otitis externa ([[t:oe]]).
 ## Diagnosis
 Biopsy of any non-healing granulation in the canal or middle ear. CT of the temporal bone and neck, MRI for soft tissue and dura, and chest imaging.
+### Investigations: what and when
+!table Temporal bone squamous cell carcinoma: investigations
+Role | Test | When and what it shows
+Diagnosis (gold standard) | Biopsy of any non-healing granulation or polyp | Histology
+Bone extent | High-resolution CT of the temporal bone | Erosion of canal, middle ear, facial canal, temporomandibular joint
+Soft tissue, dura and nerves | Contrast MRI | Dural and perineural spread; parotid and infratemporal fossa
+Staging | CT or MRI of the neck; CT chest or PET-CT | Nodes and distant spread
+Every patient | Audiogram; facial nerve grading | Baseline
+!!
 ## Staging
 Staged by the modified Pittsburgh system, as for canal carcinoma ([[t:extca]]).
 ## Management
@@ -118,6 +149,15 @@ Staged by the modified Pittsburgh system, as for canal carcinoma ([[t:extca]]).
 !update Current evidence
 **Temporal bone SCC.** The modified Pittsburgh staging system guides treatment (Moody et al., *Am J Otol* 2000): lateral temporal bone resection for early tumours, subtotal resection with parotidectomy and neck dissection for advanced ones, and postoperative radiotherapy for all but the earliest.
 !!
+### Treatment steps
+!table Temporal bone squamous cell carcinoma: treatment
+Stage (modified Pittsburgh) | Treatment | Notes
+T1 | Lateral temporal bone resection (sleeve resection only for the most limited canal tumours) | Radiotherapy if margins are close
+T2 | Lateral temporal bone resection with parotidectomy and selective neck dissection | Postoperative radiotherapy for most
+T3 and T4 | Subtotal temporal bone resection, parotidectomy, neck dissection, reconstruction | Postoperative radiotherapy (about 60 to 66 Gy), with concurrent chemotherapy (cisplatin) for high-risk features
+Unresectable or unfit | Radical radiotherapy with or without chemotherapy | Poor outlook
+!!
+Based on multidisciplinary head and neck practice (UK national multidisciplinary guidelines, *J Laryngol Otol* 2016) and published series.
 ## Prognosis
 Outlook is poor once the middle ear and beyond are involved. The dura usually resists invasion.
 
@@ -192,4 +232,8 @@ Both are treated by maximal resection followed by high-dose or proton radiothera
 - K. J. Lee, *Essential Otolaryngology*, chapter 24.
 ## Studies cited
 - Guss et al., *Int J Radiat Oncol Biol Phys* 2011: radiosurgery for jugular paragangliomas.
+- Moody et al., *Am J Otol* 2000: modified Pittsburgh staging.
+## Guidelines and dosing
+- Lenders et al., *J Clin Endocrinol Metab* 2014: Endocrine Society guideline, phaeochromocytoma and paraganglioma.
+- Homer et al., *J Laryngol Otol* 2016: UK national multidisciplinary guidelines, head and neck cancer.
 - Moody et al., *Am J Otol* 2000: modified Pittsburgh staging.

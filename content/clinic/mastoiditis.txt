@@ -74,6 +74,14 @@ Shows coalescence (loss of the septa), cortical erosion and abscesses, and looks
 !imaging | Otomastoiditis, petrositis and skull base infection on CT and MRI.
 ### MRI and MR venography
 Better than CT for sigmoid sinus thrombosis and intracranial spread, so it is the test when either is suspected.
+## Investigations: what and when
+!table Acute mastoiditis: investigations
+Role | Test | When and what it shows
+Diagnosis | Clinical examination | Postauricular swelling, tenderness and a displaced pinna after otitis media; the diagnosis is clinical
+Every patient | Full blood count, CRP, blood cultures; pus from the ear or myringotomy for culture | Supports the diagnosis and guides antibiotics; normal markers do not exclude it
+Imaging of choice for complications | Contrast CT of the temporal bones and brain | Suspected abscess or intracranial spread, or no improvement in 48 hours: shows coalescence, cortical erosion and abscesses
+Intracranial complications and venous sinus thrombosis | MRI with contrast and MR venography | More sensitive than CT for intracranial spread and sigmoid sinus thrombosis
+!!
 
 # Differential diagnosis | Other swellings behind the ear.
 These are separate diseases that can look like mastoiditis. They are not its complications.
@@ -119,7 +127,7 @@ Mastoid infection in a long-standing ear disease, with a perforation, cholesteat
 - **First choice:** an intravenous third-generation cephalosporin.
 - **Chronic ear:** add anti-pseudomonal cover.
 - **Adjust** according to culture.
-- **Duration:** intravenous, then oral step-down, to complete three to six weeks in total.
+- **Duration:** intravenous until clearly improving, then oral step-down; about two weeks in total when the source is controlled, longer with intracranial spread or inadequate drainage.
 ## Myringotomy
 A wide myringotomy with a grommet drains the middle ear and provides pus for culture. Uncomplicated acute mastoiditis without coalescence often settles with antibiotics and myringotomy alone.
 ## Surgery
@@ -137,6 +145,17 @@ The infant mastoid is small and vascular, landmarks are poor, and the facial ner
 !update Current evidence
 **Conservative or surgical?** A systematic review of 21 studies (564 children) found cure rates of 96% with medical treatment, 96% with conservative surgery (myringotomy with or without grommet, abscess drainage) and 89% with mastoidectomy, supporting conservative first-line treatment for uncomplicated mastoiditis (Loh et al., *J Laryngol Otol* 2018). Immediate needle aspiration of a subperiosteal abscess, with myringotomy and intravenous antibiotics, avoided mastoidectomy in most children in an Israeli series (Bartov et al., *Otol Neurotol* 2019).
 !!
+## Drugs and doses
+!table Acute mastoiditis: drugs and doses
+Step | Drug and dose | Course and notes
+First line (intravenous) | Ceftriaxone 50 to 75 mg/kg once daily (maximum 2 g); adults 2 g once daily | Until afebrile and the swelling settles, then oral step-down
+Alternative first line | Ampicillin–sulbactam 50 mg/kg of the ampicillin component every 6 hours | Used in some children's hospital pathways
+Severe penicillin allergy (anaphylaxis) | Levofloxacin 10 mg/kg (maximum 500 mg) twice daily under 5 years, once daily from 5 years | Discuss with microbiology
+Chronic ear or Pseudomonas suspected | Add or switch to piperacillin–tazobactam 90 mg/kg (maximum 4.5 g) every 6 to 8 hours; adults 4.5 g every 8 hours | Guided by culture of pus
+Oral step-down | Chosen by culture; commonly co-amoxiclav or high-dose amoxicillin | Total about 14 days with source control; longer with intracranial extension
+Analgesia | Paracetamol and ibuprofen, regular | 
+!!
+Regimens from children's hospital clinical pathways (Children's Hospital of Philadelphia; Johns Hopkins All Children's, 2020) and the BNF for Children; local microbiology policy takes precedence.
 
 # Complications | Where the infection goes next.
 Mastoiditis is the gateway to the other complications of otitis media. Up to one in ten patients develop an intracranial complication, even on intravenous antibiotics. Everything in this chapter is a sequel of mastoiditis, not a different diagnosis.
@@ -206,3 +225,7 @@ Extradural and perisinus abscess, sigmoid sinus thrombosis and the other intracr
 ## Studies cited
 - Loh et al., *J Laryngol Otol* 2018: systematic review of 21 studies of medical versus surgical treatment.
 - Bartov et al., *Otol Neurotol* 2019: needle aspiration of subperiosteal abscess.
+## Guidelines and dosing
+- Children's Hospital of Philadelphia clinical pathway: complications of acute otitis media including mastoiditis.
+- Johns Hopkins All Children's Hospital acute mastoiditis clinical pathway (2020).
+- BNF for Children: ceftriaxone, piperacillin with tazobactam.

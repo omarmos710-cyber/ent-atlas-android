@@ -27,6 +27,18 @@ Viral and syphilitic infections.
 !!
 !imaging | Labyrinthine fistula, labyrinthitis ossificans, labyrinthitis with meningitis, and otosyphilis.
 !ops
+## Drugs and doses
+!table Labyrinthitis from ear disease: drugs and doses (adults)
+Situation | Drug and dose | Course and notes
+Acute otitis media with labyrinthitis | Ceftriaxone 2 g IV once daily (children 50 to 80 mg/kg, maximum 2 g, once daily per local policy) with myringotomy | Switch to oral when settled, about 10 to 14 days in total
+Chronic otitis media or cholesteatoma source | Add anti-pseudomonal and anaerobic cover (for example piperacillin–tazobactam 4.5 g IV every 8 hours) | Then surgery to remove the source
+Topical (discharging ear) | Quinolone drops (ofloxacin 0.3% 10 drops twice a day, or ciprofloxacin) | No aminoglycoside drops in an open ear
+Severe vertigo and vomiting | Prochlorperazine 12.5 mg IM, or buccal 3 to 6 mg twice a day; then 5 mg three times a day by mouth | Few days only
+With meningitis | Treat as bacterial meningitis, with dexamethasone 10 mg every 6 hours for 4 days | Reduces hearing loss in pneumococcal and *H. influenzae* disease
+Perilymph fistula | Bed rest, head up, stool softener; no straining | 7 to 10 days, then explore if worse
+Syphilitic labyrinthitis | Procaine penicillin 1.8 to 2.4 million units IM daily with probenecid 500 mg four times a day for 14 days (or doxycycline 200 mg twice a day for 28 days if allergic); prednisolone 40 to 60 mg daily for 3 days starting 24 hours before the penicillin | Treat as neurosyphilis with genitourinary medicine; a longer steroid course may be used for hearing
+!!
+Doses from the BNF, NICE NG240 (meningitis) and the BASHH UK guideline on syphilis (Kingston et al., *Int J STD AIDS* 2024). Local microbiology advice takes precedence.
 
 # Differential diagnosis | Serous or suppurative?
 !table Serous or suppurative?
@@ -54,6 +66,15 @@ It is specific but insensitive: positive in only 30 to 50% of fistulae. A negati
 HRCT shows only about 60% of fistulae before surgery.
 !update Current evidence
 **Labyrinthine fistula.** High-resolution CT predicts most fistulas but misses some, so the surgeon should expect one when the patient has vertigo or a positive fistula test.
+!!
+### Investigations: what and when
+!table Labyrinthine fistula and labyrinthitis: investigations
+Role | Test | When and what it shows
+First (bedside) | Fistula test; direction of nystagmus; tuning forks | Positive test means a fistula; nystagmus direction separates serous from suppurative
+Every patient | Pure-tone audiogram | Sensorineural component; dead ear in suppurative disease
+Gold standard for a bony fistula | High-resolution CT of the temporal bones | Erosion of the lateral canal (most common)
+Labyrinthitis, meningitis, deafness after meningitis | MRI with contrast and heavy T2 | Enhancement of the labyrinth; early fibrosis or ossification before cochlear implant
+Syphilis suspected | Treponemal antibody (EIA) with RPR or VDRL; lumbar puncture with genitourinary medicine | Otosyphilis
 !!
 ## Differential diagnosis
 Other causes of a positive fistula test: [[t:meniere|Ménière's disease]] (Hennebert's sign), [[t:scd|superior canal dehiscence]], perilymph fistula and congenital syphilis.
@@ -130,3 +151,7 @@ Penicillin and steroids. Syphilitic otitis media is covered in [[t:tbom]].
 - *Oxford Specialist Handbook of Otolaryngology, Head and Neck Surgery*, 2nd edition, chapter 18.
 - Dhingra, *Diseases of Ear, Nose and Throat*, chapters 7 and 12.
 - K. J. Lee, *Essential Otolaryngology*, chapters 22 and 23.
+## Guidelines and dosing
+- Kingston et al., *Int J STD AIDS* 2024: BASHH UK guidelines for the management of syphilis.
+- NICE NG240: Meningitis (bacterial) and meningococcal disease (2024).
+- BNF: ceftriaxone, piperacillin–tazobactam, prochlorperazine, procaine benzylpenicillin, probenecid.

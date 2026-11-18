@@ -70,6 +70,16 @@ Undermine the edges, close the deep layer with absorbable sutures and the skin w
 !update Current evidence
 A systematic review of 14 studies found recurrence of 5.5% after sinectomy against 2.2% after the supra-auricular approach; using the microscope brought sinectomy recurrence down to about 1.9%, and drains increased wound infection without a clear benefit (Bruijnzeel et al., *Laryngoscope* 2016).
 !!
+### Drugs and doses
+!table Infected preauricular sinus: drugs and doses
+Step | Drug and dose | Course and notes
+Cellulitis, adults | Co-amoxiclav 500/125 mg three times a day, or flucloxacillin 500 mg to 1 g four times a day | 5 to 7 days
+Children | Co-amoxiclav or flucloxacillin by weight (BNF for Children) | 5 to 7 days
+Penicillin allergy | Clarithromycin 500 mg twice a day (adults) | 5 to 7 days
+Abscess | Aspiration or a small incision; culture | Then antibiotics
+After recurrent infection | Wide excision (supra-auricular approach) once settled | Recurrence about 2% with wide excision
+!!
+Doses from the BNF and NICE NG141 (cellulitis).
 ## Complications
 Recurrence (the main one), wound infection, haematoma, scar, injury to the helical cartilage, and rarely the frontal branch of the facial nerve if dissection strays too far forwards and low over the zygomatic arch.
 
@@ -102,3 +112,6 @@ Recurrence (the main one), wound infection, haematoma, scar, injury to the helic
 - Dalal et al., *Laryngoscope* 2020: recurrence after drainage of pinna haematoma.
 - Greywoode et al., *Facial Plast Surg* 2010: the cauliflower ear.
 - Bruijnzeel et al., *Laryngoscope* 2016: systematic review of preauricular sinus surgery.
+## Guidelines and dosing
+- NICE NG141: Cellulitis and erysipelas: antimicrobial prescribing.
+- BNF: co-amoxiclav, flucloxacillin, clarithromycin.

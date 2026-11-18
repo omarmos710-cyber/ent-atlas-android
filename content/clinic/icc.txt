@@ -65,6 +65,16 @@ Otitic hydrocephalus | Over 300 mm H2O | Normal | Normal
 !!
 ## Other tests
 Blood cultures, full blood count, ear swab, audiogram when possible.
+## Investigations: what and when
+!table Intracranial complications: investigations
+Role | Test | When and what it shows
+First imaging | Contrast CT of the brain with fine-cut temporal bones | Abscess, empyema, bone erosion, the empty delta sign
+Gold standard for brain and sinuses | MRI with contrast and diffusion, with MR venography | Early cerebritis, small subdural collections, sinus thrombosis; diffusion restriction marks pus
+Diagnosis of meningitis | Lumbar puncture: pressure, cells, protein, glucose (with paired blood glucose), Gram stain, culture, PCR | Only after imaging excludes mass effect; never with focal signs, papilloedema or reduced consciousness
+Every patient | Blood cultures (in a rigor for sinus thrombosis), full blood count, CRP, glucose, ear swab | Organism and sepsis
+Definitive organism | Pus from abscess aspiration or from the mastoid at surgery | Guides the final antibiotic
+Adjuncts | Audiogram when possible; fundoscopy and visual fields | Labyrinthine damage; raised pressure
+!!
 
 # Management | Patient first, ear last.
 ## Approach
@@ -82,6 +92,21 @@ Blood cultures, full blood count, ear swab, audiogram when possible.
 !ops
 ## Outcomes
 Deafness, epilepsy, focal deficits, loss of vision and death.
+## Drugs and doses
+!table Otogenic intracranial infection: empirical drugs and doses (adults)
+Situation | Drug and dose | Course and notes
+Meningitis, under 60 | Ceftriaxone 2 g IV twice a day | 10 to 14 days for pneumococcus; adjust to culture
+Meningitis, 60 and over or immunocompromised | Ceftriaxone as above plus amoxicillin 2 g IV every 4 hours (Listeria) | Listeria 21 days
+Meningitis, adjunct | Dexamethasone 10 mg IV every 6 hours, with or just before the first antibiotic dose (children 0.15 mg/kg) | 4 days if pneumococcal or no other cause found
+Severe penicillin or cephalosporin anaphylaxis | Chloramphenicol 25 mg/kg IV every 6 hours | Monitor blood count
+Brain abscess, extradural or subdural pus | Ceftriaxone 2 g IV twice a day (or cefotaxime 2 g every 6 hours) plus metronidazole 500 mg IV every 8 hours | About 6 weeks IV after drainage; ceftazidime or meropenem instead of ceftriaxone when chronic otitis media suggests Pseudomonas
+Children | Ceftriaxone 80 mg/kg once daily (maximum 4 g) for meningitis; for abscess, ceftriaxone 100 mg/kg/day in two doses plus metronidazole 30 mg/kg/day in three doses | BNF for Children; specialist advice
+Raised pressure with an abscess | Dexamethasone and mannitol, short course | Neurosurgical advice
+Seizures | Levetiracetam or other antiepileptic per neurology | Prophylaxis is not routine
+Lateral sinus thrombosis | Antibiotics as above; anticoagulation (low-molecular-weight heparin) is increasingly used but remains debated | Discuss with neurology and haematology
+Otitic hydrocephalus | Acetazolamide (adults 250 mg two to four times a day), steroids; serial lumbar punctures or shunt | Protect vision; serial eye checks
+!!
+Doses from NICE NG240 Bacterial meningitis (2024) as implemented in NHS antimicrobial guidance (NHS Highland), the ESCMID brain abscess guideline (Bodilsen et al., *Clin Microbiol Infect* 2024) and the BNF and BNF for Children. Local microbiology advice takes precedence.
 
 # Extradural abscess {dz} | Often silent.
 ## Clinical features
@@ -202,3 +227,9 @@ Blindness from optic atrophy: the danger that serial eye examinations guard agai
 - *Oxford Handbook of ENT and Head and Neck Surgery*, 3rd edition (2020), chapter 6.
 - Dhingra, *Diseases of Ear, Nose and Throat*, chapter 12.
 - K. J. Lee, *Essential Otolaryngology*, chapter 22.
+## Guidelines and dosing
+- NICE NG240: Meningitis (bacterial) and meningococcal disease (2024).
+- NHS Highland antimicrobial guidance: treatment of bacterial meningitis in secondary care.
+- Bodilsen et al., *Clin Microbiol Infect* 2024: ESCMID guideline on brain abscess in children and adults.
+- BNF and BNF for Children: ceftriaxone, amoxicillin, metronidazole, dexamethasone, chloramphenicol, acetazolamide.
+- BC Children's Hospital Bugs and Drugs: brain abscess (paediatric doses).

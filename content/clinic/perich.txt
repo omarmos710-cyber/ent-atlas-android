@@ -36,6 +36,15 @@ Pain and a red, hot, tender, thickened pinna, sparing the lobule.
 ### Late
 Fluctuant swelling as pus collects between perichondrium and cartilage, then necrosis.
 !fig d8-10 | Perichondritis of the pinna: the whole pinna is red and swollen.
+### Investigations: what and when
+!table Perichondritis: investigations
+Role | Test | When and what it shows
+Diagnosis | Clinical: red, hot, tender pinna sparing the lobule | 
+Pus or discharge | Swab or aspirate for culture | Usually *Pseudomonas aeruginosa*; also *Staphylococcus aureus*
+Fluctuance uncertain | Ultrasound | Collection needing drainage
+Recurrent, bilateral, or nose and eye involved | Inflammatory markers, rheumatology review | Relapsing polychondritis
+Recurrent infection | Blood glucose | Diabetes
+!!
 ## Management
 ### Early, without abscess
 An oral fluoroquinolone such as ciprofloxacin, or intravenous anti-pseudomonal antibiotics for severe infection; cool aluminium acetate compresses.
@@ -44,6 +53,16 @@ Incise along a natural fold, remove dead cartilage, irrigate, and apply a bolste
 !update Current evidence
 **Perichondritis.** The link between *Pseudomonas* and high (cartilage) piercing is why oral ciprofloxacin is first line.
 !!
+### Drugs and doses
+!table Perichondritis: drugs and doses
+Step | Drug and dose | Course and notes
+First line, adults | Ciprofloxacin 750 mg by mouth every 12 hours (500 mg for milder infection) | 7 to 10 days, longer (2 to 4 weeks) after abscess drainage; MHRA quinolone warnings apply
+Children | Ciprofloxacin 10 to 15 mg/kg (maximum 500 mg) every 12 hours | Accepted for this indication despite quinolone cautions
+Severe, spreading or failing | Intravenous anti-pseudomonal: ciprofloxacin 400 mg every 8 to 12 hours, or piperacillin–tazobactam 4.5 g every 8 hours | Admit; drain any abscess
+Abscess | Incision, removal of dead cartilage, bolster dressing | Send pus for culture
+Every patient | Analgesia; remove the piercing | 
+!!
+Doses from NHS Fife hospital ENT antimicrobial guidance, the Royal Victorian Eye and Ear Hospital perichondritis guideline (children) and the BNF.
 ## Complications
 Loss of cartilage leaves a shrivelled, deformed *cauliflower ear*.
 !fig d8-7 | A cauliflower ear, the end result of cartilage necrosis after haematoma or perichondritis.
@@ -53,6 +72,16 @@ Loss of cartilage leaves a shrivelled, deformed *cauliflower ear*.
 Spreading skin infection, usually staphylococcal or streptococcal, often after a scratch, piercing or otitis externa. Unlike perichondritis, it may involve the lobule.
 ## Erysipelas
 Streptococcal infection with a sharply defined, raised red edge, which can spread onto the face. Treated with penicillin.
+## Drugs and doses
+!table Cellulitis and erysipelas of the pinna: drugs and doses
+Step | Drug and dose | Course and notes
+First line, adults | Flucloxacillin 500 mg to 1 g four times a day | 5 to 7 days
+Children | Flucloxacillin: 1 month to 1 year 62.5 to 125 mg, 2 to 9 years 125 to 250 mg, 10 to 17 years 250 to 500 mg, four times a day | 5 to 7 days
+Penicillin allergy | Clarithromycin 500 mg twice a day (adults); or erythromycin in pregnancy | 5 to 7 days
+Severe | Flucloxacillin 1 to 2 g IV every 6 hours | Review at 48 hours
+Lobule spared and cartilage involved | Treat as perichondritis with ciprofloxacin | 
+!!
+Doses from NICE NG141 (cellulitis and erysipelas), NHS Fife ENT guidance and the BNF.
 
 # Herpes zoster oticus {dz} | Ramsay Hunt syndrome.
 ## Etiology
@@ -66,6 +95,15 @@ High-dose prednisolone (about 1 mg/kg for 14 days) with an antiviral such as val
 !update Current evidence
 **Ramsay Hunt syndrome.** Cochrane reviews found no randomised evidence that antivirals improve facial recovery (Uscategui et al., 2008) and insufficient evidence on steroids, so combined steroid and antiviral treatment, started early, rests on observational studies and on the analogy with zoster elsewhere.
 !!
+### Drugs and doses
+!table Herpes zoster oticus: drugs and doses
+Step | Drug and dose | Course and notes
+Antiviral | Aciclovir 800 mg five times a day; or valaciclovir 1 g three times a day; or famciclovir 500 mg three times a day | 7 days; continue until 48 hours after crusting if immunocompromised
+Steroid with facial palsy | Prednisolone as for Bell's palsy (50 to 60 mg daily) | 10 days in total
+Neuralgia | Amitriptyline 10 mg at night or gabapentin, titrated | 
+Eye | Lubricating drops and night ointment and tape | 
+!!
+Doses from NHS Fife ENT guidance and the BNF (herpes zoster).
 ## Prognosis
 Worse than Bell's palsy: only about 60% regain normal facial function. Facial palsy in general is covered in [[t:facial]].
 
@@ -74,6 +112,13 @@ Worse than Bell's palsy: only about 60% regain normal facial function. Facial pa
 Recurrent painful red swelling of the pinna sparing the lobule, often both ears, with nasal (saddle nose), laryngeal and tracheal cartilage involvement that can threaten the airway.
 ## Management
 High-dose steroids and immunosuppression; it needs rheumatological assessment because airway cartilage may also be involved.
+### Drugs and doses
+!table Relapsing polychondritis: drugs and doses
+Step | Drug and dose | Course and notes
+Flare | Prednisolone, commonly 0.5 to 1 mg/kg a day, then tapered | Rheumatology care
+Steroid-sparing | Methotrexate (and other immunosuppressants or biologics) | Specialist choice
+Airway involvement | Urgent airway assessment: flexible laryngoscopy, CT of the trachea, lung function | Can need tracheostomy or stents
+!!
 
 # Chondrodermatitis nodularis helicis {dz} | A painful nodule on the helix.
 ## Clinical features
@@ -111,3 +156,8 @@ Relieve pressure; excise if persistent, and send for histology to exclude skin c
 - K. J. Lee, *Essential Otolaryngology*, chapter 22.
 ## Studies cited
 - Uscategui et al., Cochrane review, 2008: antivirals for Ramsay Hunt syndrome.
+## Guidelines and dosing
+- NHS Fife hospital antimicrobial guidance: ear infections (pinna cellulitis, perichondritis, shingles).
+- Royal Victorian Eye and Ear Hospital: perichondritis of the pinna clinical practice guideline.
+- NICE NG141: Cellulitis and erysipelas: antimicrobial prescribing.
+- BNF and BNF for Children: ciprofloxacin, flucloxacillin, clarithromycin, aciclovir, valaciclovir.

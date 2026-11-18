@@ -34,6 +34,14 @@ Thin-section CT of the temporal bones before any surgery, usually around five or
 !imaging | Canal atresia with cholesteatoma, Treacher Collins syndrome, and inner ear and ossicular malformations.
 ## Other tests
 Renal ultrasound when preauricular pits accompany neck fistulae (branchio-oto-renal syndrome).
+## Investigations: what and when
+!table Canal atresia and microtia: investigations
+Role | Test | When and what it shows
+From birth | Otoacoustic emissions and ABR, including bone-conduction ABR | Cochlear function on each side; type and degree of loss
+Childhood | Behavioural audiometry by age | Confirms thresholds for aid fitting
+Before any canal surgery (about 5 to 6 years) | Thin-section CT of the temporal bones | Middle ear and mastoid aeration, ossicles, windows, facial nerve course, cholesteatoma; Jahrsdoerfer score
+Syndromic features | Genetics review; renal ultrasound with preauricular pits or neck sinuses; airway and cardiac assessment as indicated | Treacher Collins, branchio-oto-renal, hemifacial microsomia
+!!
 
 # Subtypes and variants | Pinna and middle ear.
 ## Microtia
@@ -82,6 +90,16 @@ In atresia the facial nerve often runs more anteriorly and laterally than usual,
 !!
 ## Preauricular sinus
 Leave it alone unless it becomes infected; then excise the whole tract ([[t:earminor]]).
+## Treatment: what and when
+!table Canal atresia and microtia: treatment
+Age or situation | Treatment | Notes
+Bilateral atresia, from the first months (by 6 months) | Bone-conduction aid on a softband | Language development
+Unilateral atresia | Monitor; preferential seating; consider a bone-conduction aid | Educational support
+From about 5 years | Bone-anchored or active transcutaneous bone-conduction implant | Reliable hearing
+Selected ears (Jahrsdoerfer 7 or more of 10) | Canal atresiaplasty, after pinna reconstruction | About half keep a gap under 30 dB; restenosis and facial nerve risks
+About 8 to 10 years | Pinna reconstruction with rib cartilage (or porous polyethylene, or prosthesis) | Staged
+Cholesteatoma behind a canal stenosis | Surgery | Stenosis under 4 mm is the risk group
+!!
 
 # Complications | Of canal surgery.
 Facial nerve injury, restenosis of the new canal, lateralisation of the graft and sensorineural loss.
