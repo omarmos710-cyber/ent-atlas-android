@@ -44,10 +44,11 @@ function vArticle(id){const t=BY[id],A=(window.CLART||{})[id];
  <ol class="artree0">${ch.map(c=>`<li><button type="button" data-artgo="${c.id}"><i>${c.n}</i>${e(c.t)}</button><ul>${c.s.map(x=>`<li><button type="button" data-artgo="${x.id}">${x.n}&ensp;${x.t}</button></li>`).join("")}</ul></li>`).join("")}</ol></div>
  <div class="arart">${A.h}</div>${more}</div>`}
 /* AMBOSS-style layout ("@layout amboss" articles): a list of chapter titles that open in place,
-   a bottom toolbar (back, forward, expand/collapse, find text, outline) and an outline sheet */
+   a circular reading menu and an outline sheet */
 const AMI=d=>`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
 const AMCH='<svg class="arch" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>';
-const AMIC={back:'<path d="M15 18l-6-6 6-6"/>',fwd:'<path d="M9 6l6 6-6 6"/>',all:'<path d="M12 3v6M9 6l3 3 3-3M12 21v-6M9 18l3-3 3 3M5 12h14"/>',
+const AMIC={tools:'<path d="M4 6h7m4 0h5m-9-2v4M4 12h3m4 0h9M7 10v4m-3 4h10m4 0h2m-6-2v4"/>',
+ back:'<path d="M15 18l-6-6 6-6"/>',fwd:'<path d="M9 6l6 6-6 6"/>',all:'<path d="M12 3v6M9 6l3 3 3-3M12 21v-6M9 18l3-3 3 3M5 12h14"/>',
  find:'<path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><circle cx="11.5" cy="13.5" r="3"/><path d="M13.7 15.7L16.5 18.5"/>',outline:'<rect x="3.5" y="4" width="17" height="16" rx="2"/><path d="M14.5 4v16"/>',
  up:'<path d="M6 15l6-6 6 6"/>',down:'<path d="M6 9l6 6 6-6"/>',x:'<path d="M6 6l12 12M18 6L6 18"/>'};
 function vAmb(id,t,A,ch,mins,endBody){
@@ -57,14 +58,44 @@ function vAmb(id,t,A,ch,mins,endBody){
  <div class="armeta"><span><b>Reading</b> about ${mins} min</span><span><b>Outline</b> ${ch.length} chapters · ${A.n} sections</span><span><b>Sources</b> ${e(t.srcs)}</span></div>  ${(window.BOARDS||{})[id]?`<button type="button" class="arboardbtn" data-arboard="${id}" data-title="${e(t.t)}"><span class="bdi" aria-hidden="true"></span><span><b>Summary board</b><small>The whole topic on one whiteboard</small></span></button>`:""}
  <div class="amlist"><div class="arart">${A.h}</div>
  <section class="arend arch-c amc" id="a-end" data-t="Practice and related"><details class="amch"><summary><h2>Practice and related</h2>${AMCH}</summary><div class="amchb">${endBody}</div></details></section></div>
- <nav class="amtool" aria-label="Article tools">${[["back","Back"],["fwd","Forward"],["all","Expand"],["find","Find text"],["outline","Outline"]].map(([k,l])=>`<button type="button" data-amt="${k}">${AMI(AMIC[k])}<span>${l}</span></button>`).join("")}</nav>
+ <div class="amtool">
+  <button type="button" class="amtool-toggle" data-amt="menu" aria-expanded="false" aria-controls="amtool-actions">${AMI(AMIC.tools)}<span>Tools</span></button>
+  <div class="amtool-actions" id="amtool-actions" role="group" aria-label="Article tools" hidden>
+   <button type="button" data-amt="back">${AMI(AMIC.back)}<span>Back</span></button>
+   <button type="button" data-amt="fwd" disabled>${AMI(AMIC.fwd)}<span>Forward</span></button>
+   <button type="button" data-amt="all">${AMI(AMIC.all)}<span>Expand</span></button>
+   <button type="button" data-amt="find" aria-label="Find text">${AMI(AMIC.find)}<span>Find</span></button>
+   <button type="button" data-amt="outline">${AMI(AMIC.outline)}<span>Outline</span></button>
+  </div>
+ </div>
  <div class="amfind" hidden><input type="search" id="amfq" placeholder="Find in this article" autocomplete="off" enterkeyhint="search" aria-label="Find in this article"><output aria-live="polite"></output><button type="button" data-amt="fprev" aria-label="Previous match">${AMI(AMIC.up)}</button><button type="button" data-amt="fnext" aria-label="Next match">${AMI(AMIC.down)}</button><button type="button" data-amt="fx" aria-label="Close search">${AMI(AMIC.x)}</button></div>
  <div class="amout" hidden><div class="amsheet" role="dialog" aria-label="Outline"><h4>Outline<button type="button" data-amt="outx" aria-label="Close outline">${AMI(AMIC.x)}</button></h4>
  <ol>${ch.map(c=>`<li><button type="button" data-artgo="${c.id}">${e(c.t)}</button>${c.s.length?`<ul>${c.s.map(x=>`<li><button type="button" data-artgo="${x.id}">${strip(x.t)}</button></li>`).join("")}</ul>`:""}</li>`).join("")}<li><button type="button" data-artgo="a-end">Practice and related</button></li></ol></div></div></div>`}
-function amArm(v){const w=v.querySelector(".amb");if(!w)return;
- const place=()=>{let h=0;document.querySelectorAll("nav,.dock,#tabs,.tabs").forEach(n=>{if(w.contains(n))return;const cs=getComputedStyle(n);if(cs.position!=="fixed"||cs.display==="none"||cs.visibility==="hidden")return;const r=n.getBoundingClientRect();if(r.height&&r.height<140&&r.bottom>=innerHeight-40)h=Math.max(h,innerHeight-r.top+6)});w.style.setProperty("--amtb",h+"px")};
- place();setTimeout(place,300);amSync()}
-function amSync(){const w=document.querySelector(".amb");if(!w)return;const any=[...w.querySelectorAll(".amch")].some(d=>d.open),b=w.querySelector('[data-amt="all"]');if(b){b.querySelector("span").textContent=any?"Collapse":"Expand";b.classList.toggle("on",any)}}
+function amPlace(){
+ const article=document.querySelector("#view .amb");
+ const tabs=document.getElementById("tabs");
+ if(!article||!tabs)return;
+ if(!tabs.offsetHeight){article.style.removeProperty("--amtb");return}
+ const gap=document.documentElement.clientHeight-tabs.getBoundingClientRect().top+10;
+ article.style.setProperty("--amtb",Math.max(10,Math.ceil(gap))+"px");
+}
+window.addEventListener("resize",amPlace);
+const amTabs=document.getElementById("tabs");
+if(amTabs&&window.ResizeObserver)new ResizeObserver(amPlace).observe(amTabs);
+function amArm(v){if(!v.querySelector(".amb"))return;amPlace();amSync()}
+function amSetMenu(article,open){
+ article.classList.toggle("am-tools-open",open);
+ article.querySelector(".amtool-toggle").setAttribute("aria-expanded",String(open));
+ article.querySelector(".amtool-actions").hidden=!open;
+}
+function amSync(){
+ const w=document.querySelector("#view .amb");if(!w)return;
+ const any=[...w.querySelectorAll(".amch")].some(d=>d.open),b=w.querySelector('[data-amt="all"]');
+ b.querySelector("span").textContent=any?"Collapse":"Expand";
+ b.classList.toggle("on",any);
+ const history=window.articleHistory;
+ w.querySelector('[data-amt="fwd"]').disabled=Boolean(history&&!history.canForward());
+}
 let AMF={h:[],i:-1};
 function openUp(el){for(let x=el;x;x=x.parentElement)if(x.tagName==="DETAILS")x.open=true;const c=el.matches&&el.matches(".amc")?el.querySelector(".amch"):null;if(c)c.open=true;amSync()}
 function amClear(){AMF.h.forEach(m=>{if(m.isConnected){const p=m.parentNode;m.replaceWith(document.createTextNode(m.textContent));p.normalize()}});AMF={h:[],i:-1};amCount()}
@@ -75,17 +106,53 @@ function amFind(q){amClear();q=(q||"").trim().toLowerCase();const root=document.
   while(i>=0){f.append(t.slice(p,i));const m=document.createElement("mark");m.className="amhit";m.textContent=t.slice(i,i+q.length);f.append(m);AMF.h.push(m);p=i+q.length;i=l.indexOf(q,p)}f.append(t.slice(p));n.replaceWith(f)});
  if(AMF.h.length)amStep(1);else amCount()}
 function amStep(d){if(!AMF.h.length)return;if(AMF.h[AMF.i])AMF.h[AMF.i].classList.remove("on");AMF.i=(AMF.i+d+AMF.h.length)%AMF.h.length;const m=AMF.h[AMF.i];m.classList.add("on");openUp(m);m.scrollIntoView({block:"center",behavior:"smooth"});amCount()}
-function amTool(k){const w=document.querySelector(".amb");if(!w)return;
- if(k==="back")history.back();else if(k==="fwd")history.forward();
- else if(k==="all"){const ds=[...w.querySelectorAll(".amch")],any=ds.some(d=>d.open);ds.forEach(d=>d.open=!any);if(any)w.querySelector(".amlist").scrollIntoView({block:"start"});amSync()}
- else if(k==="find"){const f=w.querySelector(".amfind");f.hidden=!f.hidden;if(!f.hidden)f.querySelector("input").focus();else amClear()}
- else if(k==="outline")w.querySelector(".amout").hidden=false;
- else if(k==="outx")w.querySelector(".amout").hidden=true;
- else if(k==="fnext")amStep(1);else if(k==="fprev")amStep(-1);
- else if(k==="fx"){w.querySelector(".amfind").hidden=true;const q=document.getElementById("amfq");if(q)q.value="";amClear()}}
+function amTool(k){
+ const w=document.querySelector("#view .amb");
+ if(!w)return;
+ const launcher=w.querySelector(".amtool-toggle");
+ if(k==="menu")amSetMenu(w,!w.classList.contains("am-tools-open"));
+ else if(k==="back"||k==="fwd"){
+  amSetMenu(w,false);
+  launcher.focus({preventScroll:true});
+  const history=window.articleHistory||window.history;
+  if(k==="back")history.back();else history.forward();
+ }else if(k==="all"){
+  const ds=[...w.querySelectorAll(".amch")],any=ds.some(d=>d.open);
+  ds.forEach(d=>d.open=!any);
+  if(any)w.querySelector(".amlist").scrollIntoView({block:"start"});
+  amSync();
+ }else if(k==="find"){
+  amSetMenu(w,false);
+  const find=w.querySelector(".amfind");
+  if(find.hidden){find.hidden=false;find.querySelector("input").focus()}
+  else amTool("fx");
+ }else if(k==="outline"){
+  amSetMenu(w,false);
+  w.querySelector(".amout").hidden=false;
+  w.querySelector('[data-amt="outx"]').focus({preventScroll:true});
+ }else if(k==="outx"){
+  w.querySelector(".amout").hidden=true;
+  launcher.focus({preventScroll:true});
+ }else if(k==="fnext")amStep(1);else if(k==="fprev")amStep(-1);
+ else if(k==="fx"){
+  clearTimeout(window._amt);
+  w.querySelector(".amfind").hidden=true;
+  w.querySelector("#amfq").value="";
+  amClear();
+  launcher.focus({preventScroll:true});
+ }
+}
 document.addEventListener("toggle",ev=>{if(ev.target.classList&&ev.target.classList.contains("amch"))amSync()},true);
 document.addEventListener("input",ev=>{if(ev.target.id==="amfq"){clearTimeout(window._amt);window._amt=setTimeout(()=>amFind(ev.target.value),180)}});
-document.addEventListener("keydown",ev=>{if(ev.target.id==="amfq"&&ev.key==="Enter"){ev.preventDefault();amStep(ev.shiftKey?-1:1)}});
+document.addEventListener("keydown",ev=>{
+ if(ev.target.id==="amfq"&&ev.key==="Enter"){ev.preventDefault();amStep(ev.shiftKey?-1:1);return}
+ if(ev.key!=="Escape"||ev.defaultPrevented)return;
+ if(document.querySelector("#view .amout:not([hidden])"))amTool("outx");
+ else if(document.querySelector("#view .am-tools-open")){
+  amTool("menu");
+  document.querySelector("#view .amtool-toggle").focus({preventScroll:true});
+ }else if(ev.target.closest?.(".amfind"))amTool("fx");
+});
 function caseCards(list){const C=typeof CONDS!=="undefined"?CONDS:[];const cs=list.map(i=>C.find(c=>c.id===i||c.id.replace(/\s+/g,"-")===i)).filter(Boolean);if(!cs.length)return "";
  return `<div class="climgs">${cs.map(c=>`<button class="climc" data-go="cond:${c.id}">${c.imgs&&c.imgs[0]?`<img src="${imgOf(c.imgs[0])}" alt="" loading="lazy" decoding="async">`:`<i></i>`}<span><b>${e(c.t)}</b><small>${e(c.cat||"")}${c.imgs&&c.imgs.length?` · ${c.imgs.length} image${c.imgs.length>1?"s":""}`:""}</small></span></button>`).join("")}</div>`}
 function notesOnly(id){const S=typeof SECTIONS!=="undefined"?SECTIONS:[],rs=LK(id).rd.map(i=>S.find(s=>s.id===i)).filter(Boolean);
@@ -179,10 +246,12 @@ document.addEventListener("keydown",ev=>{if(ALB&&ev.key==="Escape"){ev.stopPropa
 document.addEventListener("click",ev=>{const b=ev.target.closest("[data-clmode]");if(b){ST.clmode=b.dataset.clmode;save();const v=document.getElementById("view");if(v){v.innerHTML=vHome()}}});
 document.addEventListener("input",ev=>{if(ev.target.id==="clq"){QQ=ev.target.value;clearTimeout(window._clt);window._clt=setTimeout(()=>{const l=document.getElementById("cllist");if(l)l.innerHTML=list()},120)}});
 document.addEventListener("click",ev=>{const T=x=>ev.target.closest(x);let b;
+ const openMenu=document.querySelector("#view .am-tools-open");
+ if(openMenu&&!T(".amtool"))amSetMenu(openMenu,false);
  if(b=T("[data-cls]")){const [id,k]=b.dataset.cls.split(":"),o=OPEN[id];const t=BY[id],cur=o[k]!==undefined?o[k]:(k==="tx"||(k==="cls"&&!(t.tx||[]).length));o[k]=!cur;const y=scrollY;render("t-"+id);scrollTo(0,y);return}
  if(b=T("[data-amt]")){amTool(b.dataset.amt);return}
- if(ev.target.classList&&ev.target.classList.contains("amout")){ev.target.hidden=true;return}
- if(b=T("[data-artgo]")){ev.preventDefault();const o=document.querySelector(".amout");if(o)o.hidden=true;artGo(b.dataset.artgo);return}
+ if(ev.target.classList&&ev.target.classList.contains("amout")){amTool("outx");return}
+ if(b=T("[data-artgo]")){ev.preventDefault();if(b.closest(".amout"))amTool("outx");artGo(b.dataset.artgo);return}
  if(b=T("[data-arall]")){const o=b.dataset.arall==="1";document.querySelectorAll(".arsub").forEach(d=>d.open=o);return}
  if(b=T("[data-arfig]")){const f=b.closest("figure"),c=f?f.querySelector("figcaption"):null;arLB(b.querySelector("img").src,c?[...c.childNodes].filter(n=>n.nodeName!=="B"&&n.nodeName!=="CITE").map(n=>n.textContent).join("").trim()+(c.querySelector("cite")?" · "+c.querySelector("cite").textContent:""):"");return}
  if(ALB&&(b=T("[data-arlb]"))){if(b.dataset.arlb==="zoom"){ALB.classList.toggle("zoom");ALB.querySelector(".arlbbar [data-arlb=zoom]").textContent=ALB.classList.contains("zoom")?"Fit":"Zoom"}else arLBclose();return}

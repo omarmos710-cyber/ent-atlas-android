@@ -258,7 +258,15 @@ html[data-fsz="s"] .arw{--arfs:15px}html[data-fsz="l"] .arw{--arfs:18px}
 .arbox.k-ward ol>li,.arbox.k-how ol>li{display:block!important;position:relative;padding-left:34px}
 .arbox.k-ward ol>li::before,.arbox.k-how ol>li::before{position:absolute;left:0;top:0}
 /* AMBOSS-style layout (articles with "@layout amboss") */
-.amb{padding-bottom:calc(var(--amtb,0px) + 80px)}
+.amb{
+  --amtb:max(12px,env(safe-area-inset-bottom,0px));
+  --am-wheel-radius:142px;
+  --am-tool-size:52px;
+  --am-launcher-size:58px;
+  padding-bottom:calc(var(--amtb) + var(--am-launcher-size) + 12px);
+}
+@media (max-width:959px){.amb{--amtb:calc(82px + env(safe-area-inset-bottom,0px))}}
+.amb.am-tools-open{padding-bottom:calc(var(--amtb) + var(--am-wheel-radius) + var(--am-launcher-size) + 12px)}
 .amb .amlist{margin-top:26px;border-top:1px solid var(--line)}
 .amb .arch-c.amc{padding-top:0;scroll-margin-top:var(--toph,61px)}
 .amb .amch>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:12px;padding:18px 6px 17px 4px;border-bottom:1px solid var(--line);background:var(--bg);-webkit-tap-highlight-color:transparent;transition:background .2s}
@@ -277,10 +285,86 @@ html[data-fsz="s"] .arw{--arfs:15px}html[data-fsz="l"] .arw{--arfs:18px}
 .amb .arsub h3{font:600 22px/1.25 var(--f-display)}
 .amb .arbr{scroll-margin-top:calc(var(--toph,61px) + 64px)}
 .amb .amdz .amchb>.arsub>summary h3{font-size:19px;color:var(--arc)}
-.amtool{position:fixed;left:0;right:0;bottom:var(--amtb,0px);z-index:7;display:grid;grid-template-columns:repeat(5,1fr);padding:6px 4px 5px;background:color-mix(in srgb,var(--surface) 90%,transparent);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border-top:1px solid var(--line)}
-.amtool button{display:flex;flex-direction:column;align-items:center;gap:3px;background:none;border:0;color:var(--muted);font:600 11px/1.1 var(--f-body);padding:4px 0;min-height:46px;cursor:pointer;-webkit-tap-highlight-color:transparent}
-.amtool button svg{width:22px;height:22px}
-.amtool button.on,.amtool button:active{color:var(--accent)}
+.amtool{
+  position:fixed;
+  right:max(16px,env(safe-area-inset-right,0px));
+  bottom:var(--amtb);
+  z-index:7;
+  width:var(--am-launcher-size);
+  height:var(--am-launcher-size);
+}
+.amtool button{
+  display:grid;
+  place-content:center;
+  justify-items:center;
+  gap:2px;
+  box-sizing:border-box;
+  padding:0;
+  border:1px solid var(--line);
+  border-radius:50%;
+  background:var(--surface);
+  color:var(--ink);
+  font:700 11px/1.1 var(--f-body);
+  white-space:nowrap;
+  box-shadow:0 4px 12px rgba(15,19,26,.18);
+  cursor:pointer;
+  -webkit-tap-highlight-color:transparent;
+}
+.amtool button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.amtool button svg{width:16px;height:16px;color:var(--arbr)}
+.amtool .amtool-toggle{
+  position:relative;
+  z-index:1;
+  width:100%;
+  height:100%;
+  border-color:#c9a667;
+  background:#151922;
+  color:#f3f3ef;
+  box-shadow:0 0 0 3px var(--bg),0 5px 16px rgba(15,19,26,.22);
+}
+.amtool-toggle::after{content:"";position:absolute;inset:4px;border:1px solid rgba(201,166,103,.38);border-radius:inherit;pointer-events:none}
+.amtool .amtool-toggle svg{width:18px;height:18px;color:#dfbb7c}
+.amtool-actions{position:absolute;inset:0;pointer-events:none}
+.amtool-actions[hidden]{display:none}
+.amtool-actions::before{
+  content:"";
+  position:absolute;
+  right:50%;
+  bottom:50%;
+  width:var(--am-wheel-radius);
+  height:var(--am-wheel-radius);
+  border:1px solid color-mix(in srgb,var(--arbr) 53%,var(--line));
+  border-width:1px 0 0 1px;
+  border-top-left-radius:var(--am-wheel-radius);
+}
+.amtool-actions button{
+  position:absolute;
+  right:calc(50% + var(--across) - var(--am-tool-size) / 2);
+  bottom:calc(50% + var(--rise) - var(--am-tool-size) / 2);
+  width:var(--am-tool-size);
+  height:var(--am-tool-size);
+  pointer-events:auto;
+}
+.amtool-actions [data-amt="back"]{--across:142px;--rise:0px}
+.amtool-actions [data-amt="fwd"]{--across:131px;--rise:54px}
+.amtool-actions [data-amt="all"]{--across:100px;--rise:100px}
+.amtool-actions [data-amt="find"]{--across:54px;--rise:131px}
+.amtool-actions [data-amt="outline"]{--across:0px;--rise:142px}
+.amtool-actions button.on,.amtool-actions button:active:not(:disabled){background:var(--arc-soft);border-color:var(--arbr)}
+.amtool-actions button:disabled{color:var(--muted);background:var(--bg);box-shadow:none;cursor:default}
+.amtool-actions button:disabled svg{color:inherit}
+@media (hover:hover){.amtool-actions button:hover:not(:disabled){border-color:var(--arbr)}}
+/* A short landscape viewport has room to fan left along the dock. */
+@media (max-height:375px) and (min-width:360px){
+  .amb{--am-wheel-radius:0px}
+  .amtool-actions::before{display:none}
+  .amtool-actions [data-amt]{--rise:0px}
+  .amtool-actions [data-amt="back"]{--across:288px}
+  .amtool-actions [data-amt="fwd"]{--across:231px}
+  .amtool-actions [data-amt="all"]{--across:174px}
+  .amtool-actions [data-amt="find"]{--across:117px}
+  .amtool-actions [data-amt="outline"]{--across:60px}
+}
 .amfind{position:fixed;left:0;right:0;top:var(--toph,61px);z-index:8;display:flex;gap:6px;align-items:center;padding:8px 12px;background:var(--surface);border-bottom:1px solid var(--line);box-shadow:0 8px 20px rgba(0,0,0,.18)}
 .amfind input{flex:1;min-width:0;font:500 15px var(--f-body);padding:9px 12px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
 .amfind output{font:600 12px var(--f-body);color:var(--muted);min-width:42px;text-align:center;font-variant-numeric:tabular-nums}
