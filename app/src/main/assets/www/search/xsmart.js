@@ -77,7 +77,7 @@ const ASPECTS=[
  {id:"post",label:"Aftercare",q:["postoperative care","post-operative care","post operative care","postoperative instructions","post-operative instructions","after the operation","after surgery","discharge advice","aftercare","after care"],h:/\b(after (the )?(operation|surgery|procedure|stapes surgery)|post-?operative|aftercare|discharge)\b/,c:/\b(post-?operative\w*)\b/},
  /* anatomy */
  {id:"nerve",keep:1,label:"Nerve supply",q:["nerve supply","sensory supply","motor supply","innervation","innervated by","supplied by which nerve"],h:/(^nerves?\b|\bnerve supply\b|\binnervation\b|\bnerves (of|related|and)\b|\bnerve and\b)/,c:/\b(supplied by|innervat\w*|nerve supply)\b/},
- {id:"blood",keep:1,label:"Blood supply",q:["arterial blood supply","blood supply","arterial supply","venous drainage","vascular supply"],h:/\b(blood supply|arterial supply|venous drainage|^arteries|^veins|^vessels|^arterial)\b/,c:/\b(blood supply|venous drainage)\b/},
+ {id:"blood",keep:1,label:"Blood supply",q:["arterial blood supply","blood supply","arterial supply","venous drainage","vascular supply"],h:/\b(blood supply|arterial supply|venous drainage|^arteries|^veins|^vessels|^arterial|pedicle)\b/,c:/\b(blood supply|venous drainage|pedicle)\b/},
  {id:"lymph",keep:1,label:"Lymphatic drainage",q:["lymphatic drainage","lymph drainage","lymphatics","lymphatic spread"],h:/\blymph\w*\b/,c:/\b(lymphatics?|drain\w* to the)\b/},
  {id:"bound",keep:1,label:"Boundaries",q:["boundaries","boundary","borders","walls","limits","bounded by"],h:/\b(boundar\w*|walls?|borders?|limits)\b/,c:/\b(bounded by|boundar\w*)\b/},
  {id:"cont",keep:1,label:"Contents",q:["structures passing through","what passes through","passes through","structures within","structures in","transmits","contents"],h:/\b(contents?|transmit\w*|structures (inside|within|in|passing))\b/,c:/\b(contains?|transmits?|passes? through)\b/},
@@ -161,6 +161,7 @@ function bm25(qt,soft){const {docs,inv,avg}=D;const sc=new Map(),hit=new Map();c
  return {sc,hit}}
 
 /* ---------- question parsing ---------- */
+const ANATQ=new Set(["nerve","blood","lymph","bound","cont","rel","musc","parts","branch","course","dev"]);
 const ASPQ=ASPECTS.flatMap(a=>a.q.map(p=>[fold(p),a])).sort((x,y)=>y[0].length-x[0].length);
 /* misspelt aspect words ("sings", "managment", "complciations") are put right before parsing */
 const ASPW=[...new Set(ASPECTS.flatMap(a=>a.q).filter(p=>!p.includes(" ")&&p.length>=5))];
@@ -178,6 +179,8 @@ function parse(q){const fixedA=[];let s=" "+fixAspectWords(fold(q).replace(/[?.,
  for(const w of words){const x=ab[w.replace(/s$/,"")]||ab[w];if(x&&!(w.length<=2&&!ABBR[w])){expanded.push(x);abbrUsed.push([w,x])}else expanded.push(w)}
  let topic=expanded.join(" ").trim();
  if(!topic&&aspects.length){topic=aspects.map(a=>a.label).join(" ");aspects.length=0}
+ /* "nerve supply", "blood supply": the part of the anatomy asked for, not anatomy in general */
+ if(aspects.some(a=>ANATQ.has(a.id))){const k=aspects.findIndex(a=>a.id==="an");if(k>=0)aspects.splice(k,1)}
  /* "what is the treatment of X": the treatment is asked for, not a definition */
  if(aspects.length>1){const k=aspects.findIndex(a=>a.id==="def");if(k>=0)aspects.splice(k,1)}
  /* superlatives ("drug of choice", "commonest cause", "gold standard") pick out the line that names the one */
@@ -332,8 +335,8 @@ function entityOf(topic,asp){if(!AM)return null;const T=new Set(toks(topic));con
  ENTFOCUS=[...T].filter(t=>!best.t.includes(t)&&t.length>2&&!KEEPTOK.has(t));
  return best.i}
 let CTXK=new Set();
-let HEADK=new Set();
-function answerMap(P,opt){if(!AM)return null;CTXK=new Set();HEADK=new Set();const e=opt.e!==undefined?opt.e:entityOf(P.topic,P.aspects.map(a=>a.id));if(e===null)return null;if(opt.e!==undefined)ENTFOCUS=opt.focus||[];
+let HEADK=new Set(),CTXF=new Set();
+function answerMap(P,opt){if(!AM)return null;CTXK=new Set();HEADK=new Set();CTXF=new Set();const e=opt.e!==undefined?opt.e:entityOf(P.topic,P.aspects.map(a=>a.id));if(e===null)return null;if(opt.e!==undefined)ENTFOCUS=opt.focus||[];
  const asp=P.aspects.length?P.aspects.map(a=>a.id):["def"];let lab=[];for(const a of asp)lab=lab.concat(AM.by.get(e+"|"+a)||[]);
  /* no aspect asked ("cartilages of the larynx", "triangles of the neck"): the definition first, but any section whose heading names what was asked can answer */
  if(!P.aspects.length){const TT0=toks(P.topic||"").filter(t=>t.length>2&&!STOP.has(t));const own=new Set(lab.map(x=>x[0]));
@@ -351,7 +354,7 @@ function answerMap(P,opt){if(!AM)return null;CTXK=new Set();HEADK=new Set();cons
   /* a word that is only context ("in children") ranks the lines; any other word narrows them */
   const ctxOnly=P.aspects.length>0&&focus.every(f=>KIDS.has(f)||AGEW.has(f)); /* "infant vs adult tube": with nothing else asked, the age words are the question */
   if(!ctxOnly&&hit.length){const U2=(d,k)=>units(D.docs[d].body)[k];const head=([d,k])=>{const u=U2(d,k);const ht=new Set(toks((u&&u.label||"")+" "+D.docs[d].title));return focus.some(f=>ht.has(f))};
-   lab=hit.map(x=>{const h=head(x);if(h)HEADK.add(x[0]+"|"+x[1]);return [x[0],x[1],Math.min(1,x[2]+(h?.3:.2))]})}else if(hit.length){const hk=new Set(hit.map(([d,k])=>d+"|"+k));CTXK=hk;lab=lab.map(([d,k,w])=>[d,k,hk.has(d+"|"+k)?Math.min(1,w+.2):w])}}
+   lab=hit.map(x=>{const h=head(x);if(h)HEADK.add(x[0]+"|"+x[1]);return [x[0],x[1],Math.min(1,x[2]+(h?.3:.2))]})}else if(hit.length){const hk=new Set(hit.map(([d,k])=>d+"|"+k));CTXK=hk;CTXF=new Set(hk);lab=lab.map(([d,k,w])=>[d,k,hk.has(d+"|"+k)?Math.min(1,w+.2):w])}}
  if(!lab.length&&!P.aspects.length){for(const id of ["cf","why"])lab=lab.concat(AM.by.get(e+"|"+id)||[])}
  /* "drug of choice", "commonest cause": the line that names the one comes first */
  const SUPK=new Set(CTXK);CTXK=new Set();
@@ -393,11 +396,14 @@ function answerMap(P,opt){if(!AM)return null;CTXK=new Set();HEADK=new Set();cons
   const best=new Set(keep.slice().sort((x,y)=>SUPK.has(g.doc+"|"+y[0])-SUPK.has(g.doc+"|"+x[0])||y[1]-x[1]||x[0]-y[0]).slice(0,lim+3).map(x=>x[0]));
   for(const [k,w] of keep.filter(([k])=>best.has(k)).sort((x,y)=>SUPK.has(g.doc+"|"+y[0])-SUPK.has(g.doc+"|"+x[0])||x[0]-y[0])){if(added>=lim)break;const u=U[k];if(!u)continue;const t=tidy(u.t);const tk=new Set(toks(t));
    if(!u.row&&seen.some(o=>{let c=0;for(const x of tk)if(o.has(x))c++;return c/Math.max(1,Math.min(tk.size,o.size))>.7}))continue;if(!u.row)seen.push(tk);
-   items.push({sup:SUPK.has(g.doc+"|"+k),i:g.doc,route:g.d.route,text:t,needle:u.needle||t,label:u.row?"":(u.label&&u.label.length<40&&!P.aspects.some(a=>a.h.test(fold(u.label)))?u.label:""),title:g.d.title,where:g.d.where,s:w,g:gi});added++}
+   items.push({sup:SUPK.has(g.doc+"|"+k),k,i:g.doc,route:g.d.route,text:t,needle:u.needle||t,label:u.row?"":(u.label&&u.label.length<40&&!P.aspects.some(a=>a.h.test(fold(u.label)))?u.label:""),title:g.d.title,where:g.d.where,s:w,g:gi});added++}
   if(added)gi++}
  if(!items.length||top<.55)return null;
  /* the line that names the one ("first line: amoxicillin") leads */
- if(SUPK.size){const sp=items.filter(x=>x.sup);if(sp.length)items.splice(0,items.length,...sp,...items.filter(x=>!x.sup))}
+ /* lines from one section stay together; the line asked for most directly leads its section ("child dose" before the adult dose),
+    and the section holding it leads the answer */
+ if(SUPK.size||CTXF.size){const rk=x=>(CTXF.has(x.i+"|"+x.k)?2:0)+(x.sup?1:0);const gr=new Map();items.forEach((x,j)=>{x.o=j;const a=gr.get(x.g);if(!a)gr.set(x.g,[x]);else a.push(x)});
+  const G2=[...gr.values()].map(a=>({a:a.sort((x,y)=>rk(y)-rk(x)||x.o-y.o),r:Math.max(...a.map(rk)),o:a[0].g}));G2.sort((x,y)=>(y.r>0)-(x.r>0)||x.o-y.o);items.splice(0,items.length,...G2.flatMap(g=>g.a))}
  return {map:true,entity:AM.names[e][0]+(parName?" (with "+parName+")":""),conf:top,best:top,items}}
 
 const ASPBY=id=>ASPECTS.find(a=>a.id===id);
@@ -417,7 +423,9 @@ function multi(P,opt){const asp=P.aspects;const e=entityOf(P.topic,asp.map(a=>a.
  const per=Math.max(2,Math.ceil((opt.n||6)/asp.length));
  for(const a of asp){const A=answerMap(Object.assign({},P,{aspects:[a]}),{e,focus,n:per,art:opt.art});if(!A)continue;name=A.entity;for(const x of A.items){if(items.some(y=>y.text===x.text))continue;x.part=a.label;items.push(x)}}
  if(!items.length||new Set(items.map(x=>x.part)).size<2)return null;return {map:true,entity:name,conf:1,best:1,items}}
-function answer(S,opt){opt=opt||{};if(!S||!S.list||!M)return null;const P=S.P;if(/\b(viva|questions?|mcqs?|essays?|flashcards?|quiz)\b/i.test(P.raw||""))return null;
+function answer(S,opt){opt=opt||{};if(!S||!S.list||!M)return null;const PQ=S.P;
+ /* the quoting fallback reads a narrow anatomy question with the wider anatomy cues too */
+ const P=PQ.aspects.length&&PQ.aspects.every(a=>ANATQ.has(a.id))?Object.assign({},PQ,{aspects:PQ.aspects.concat([ASPBY("an")])}):PQ;if(/\b(viva|questions?|mcqs?|essays?|flashcards?|quiz)\b/i.test(P.raw||""))return null;
  if(!opt.noMap&&AM){if(P.parts){const C=compare(P,opt);if(C)return C}
   /* "approach to a hoarse voice": the approach article, compiled in the order a clinician works: red flags, history, examination, tests, management */
   if(/\bapproach(es)? to\b/.test(fold(P.raw||""))&&P.aspects.every(a=>a.id==="how"||a.id==="def")){const e=entityOf(P.topic,[]);

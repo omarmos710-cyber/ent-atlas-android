@@ -140,7 +140,8 @@ X.forEach((x, doc) => {
   stats.ent++;
   /* a heading that names the aspect outright ("Treatment") counts fully, a looser one ("When it goes wrong") less */
   const curA = A.a && (A.a[title] || A.a["*"]);
-  const strictT = ownTitle && !fromTitle ? aspOf(title, true) : null, looseT = ownTitle && !fromTitle && !strictT ? aspOf(title) : null;
+  /* a heading that is itself a question ("Embryology", "Vessels") keeps its aspect even when it is mapped to a condition */
+  const strictT = ownTitle ? aspOf(title, true) : null, looseT = ownTitle && !fromTitle && !strictT ? aspOf(title) : null;
   const titleAsp = curA || strictT || looseT, titleW = curA || strictT ? 1 : .75;
   /* "Management > Bell's palsy": the chapter's aspect also holds for the condition the section names;
      "Peripheral causes > Vestibular neuritis" is a whole account of that condition, not its causes */
@@ -185,7 +186,7 @@ X.forEach((x, doc) => {
     const wf = ward ? .8 : 1;
     put(E, wf);
     if (E !== secE && secE >= 0) put(secE, .8 * wf);
-    if (fromTitle && upper >= 0 && chapAsp) add(doc, u.k, upper, chapAsp, .8);
+    if (fromTitle && upper >= 0 && chapAsp && !(titleAsp && ANATF.has(chapAsp))) add(doc, u.k, upper, chapAsp, .8);
     if (subj >= 0 && subj !== E) put(subj, .9, true);
     first = false
   })
