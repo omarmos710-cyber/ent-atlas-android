@@ -117,6 +117,14 @@
     for (const key of keys) {
       const path = changePath(key);
       if (!path) continue;
+      const leftValue = left.get(key), rightValue = right.get(key);
+      if (path.length === 2 && path[0] === "hub" && path[1] === "seen" &&
+          Array.isArray(leftValue) && Array.isArray(rightValue)) {
+        setAt(merged, path, [...new Set([...leftValue, ...rightValue])].sort());
+        const version = Math.max(ac[key] || a.t || 0, bc[key] || b.t || 0);
+        if (version > 0) changes[key] = version;
+        continue;
+      }
       const av = left.has(key) ? (ac[key] > 0 ? ac[key] : bc[key] < 0 ? 0 : a.t || 0) : ac[key] < 0 ? -ac[key] : -1;
       const bv = right.has(key) ? (bc[key] > 0 ? bc[key] : ac[key] < 0 ? 0 : b.t || 0) : bc[key] < 0 ? -bc[key] : -1;
       if (av < 0 && bv < 0) continue;

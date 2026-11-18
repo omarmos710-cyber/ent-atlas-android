@@ -14,7 +14,7 @@ EXCLUDED = ("fig2/", "im/", "clinic/fig/")
 CREDITS = ROOT / "content/basics/credits.json"
 MEDIA_CREDITS = ROOT / "content/basics"
 BOARD_WITH_RASTER = "pdf/bd_thyroid.pdf"
-PUBLIC_DIRECTORIES = {"clinic", "hub", "pdf", "search", "theatre"}
+PUBLIC_DIRECTORIES = {"clinic", "fonts", "hub", "pdf", "search", "theatre"}
 PUBLIC_FILES = {"index.html", "xsearch.js", "progress.js", "offline.js", "media-unavailable.svg"}
 PACKS = {
     "clinical": "Clinical articles and boards",
@@ -40,7 +40,7 @@ def allowed(path, photos, is_web):
         return is_web and path.startswith("pdf/bd_") and path != BOARD_WITH_RASTER
     if suffix in {".jpg", ".jpeg", ".png", ".webp", ".gif"}:
         return path in photos
-    return suffix in {".js", ".css", ".html", ".svg", ".ttf", ".bin", ".txt"}
+    return suffix in {".js", ".css", ".html", ".svg", ".ttf", ".woff2", ".bin", ".txt"}
 
 
 def pack_for(path):
@@ -58,11 +58,11 @@ def pack_for(path):
 def build(out, *, is_web):
     # Only remove output from a previous build by this script.
     marker = out.parent / (out.name + ".ent-public-build")
-    if out.exists():
+    if out.exists() and (not out.is_dir() or any(out.iterdir())):
         if not (marker.is_file() and out.is_dir()):
             raise SystemExit(f"Build output already exists: {out}")
         shutil.rmtree(out)
-    out.mkdir(parents=True)
+    out.mkdir(parents=True, exist_ok=True)
     marker.touch()
     target = out if is_web else out / "www"
     photos = {f"theatre/basics/img/{name}.jpg" for name in json.loads(CREDITS.read_text())}
