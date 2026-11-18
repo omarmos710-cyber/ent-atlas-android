@@ -317,25 +317,19 @@ html[data-fsz="s"] .arw{--arfs:15px}html[data-fsz="l"] .arw{--arfs:18px}
   z-index:1;
   width:100%;
   height:100%;
-  border-color:#c9a667;
-  background:#151922;
-  color:#f3f3ef;
+  border-color:transparent;
+  background:var(--dock);
+  color:var(--dock-on);
   box-shadow:0 0 0 3px var(--bg),0 5px 16px rgba(15,19,26,.22);
 }
-.amtool-toggle::after{content:"";position:absolute;inset:4px;border:1px solid rgba(201,166,103,.38);border-radius:inherit;pointer-events:none}
 .amtool .amtool-toggle svg{width:18px;height:18px;color:#dfbb7c}
 .amtool-actions{position:absolute;inset:0;pointer-events:none}
-.amtool-actions[hidden]{display:none}
-.amtool-actions::before{
-  content:"";
-  position:absolute;
-  right:50%;
-  bottom:50%;
-  width:var(--am-wheel-radius);
-  height:var(--am-wheel-radius);
-  border:1px solid color-mix(in srgb,var(--arbr) 53%,var(--line));
-  border-width:1px 0 0 1px;
-  border-top-left-radius:var(--am-wheel-radius);
+.amtool-actions[inert] button{
+  transform:translate(var(--across),var(--rise)) scale(.45);
+  opacity:0;
+  visibility:hidden;
+  pointer-events:none;
+  transition-delay:0s,0s,.32s;
 }
 .amtool-actions button{
   position:absolute;
@@ -344,7 +338,12 @@ html[data-fsz="s"] .arw{--arfs:15px}html[data-fsz="l"] .arw{--arfs:18px}
   width:var(--am-tool-size);
   height:var(--am-tool-size);
   pointer-events:auto;
+  transition:transform .32s cubic-bezier(.22,1,.36,1),opacity .22s,visibility 0s;
 }
+.amtool-actions button{background:var(--dock);color:var(--dock-on);border-color:transparent}
+.amtool-actions button svg{color:#dfbb7c}
+.amtool-actions button.on,.amtool-actions button:active:not(:disabled){color:var(--ink)}
+@media(prefers-reduced-motion:reduce){.amtool-actions button,.amtool-actions[inert] button{transition:none}}
 .amtool-actions [data-amt="back"]{--across:142px;--rise:0px}
 .amtool-actions [data-amt="fwd"]{--across:131px;--rise:54px}
 .amtool-actions [data-amt="all"]{--across:100px;--rise:100px}

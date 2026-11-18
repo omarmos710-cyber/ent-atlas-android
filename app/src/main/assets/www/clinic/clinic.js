@@ -60,7 +60,7 @@ function vAmb(id,t,A,ch,mins,endBody){
  <section class="arend arch-c amc" id="a-end" data-t="Practice and related"><details class="amch"><summary><h2>Practice and related</h2>${AMCH}</summary><div class="amchb">${endBody}</div></details></section></div>
  <div class="amtool">
   <button type="button" class="amtool-toggle" data-amt="menu" aria-expanded="false" aria-controls="amtool-actions">${AMI(AMIC.tools)}<span>Tools</span></button>
-  <div class="amtool-actions" id="amtool-actions" role="group" aria-label="Article tools" hidden>
+  <div class="amtool-actions" id="amtool-actions" role="group" aria-label="Article tools" inert aria-hidden="true">
    <button type="button" data-amt="back">${AMI(AMIC.back)}<span>Back</span></button>
    <button type="button" data-amt="fwd" disabled>${AMI(AMIC.fwd)}<span>Forward</span></button>
    <button type="button" data-amt="all">${AMI(AMIC.all)}<span>Expand</span></button>
@@ -86,7 +86,9 @@ function amArm(v){if(!v.querySelector(".amb"))return;amPlace();amSync()}
 function amSetMenu(article,open){
  article.classList.toggle("am-tools-open",open);
  article.querySelector(".amtool-toggle").setAttribute("aria-expanded",String(open));
- article.querySelector(".amtool-actions").hidden=!open;
+ const actions=article.querySelector(".amtool-actions");
+ actions.toggleAttribute("inert",!open);
+ actions.setAttribute("aria-hidden",String(!open));
 }
 function amSync(){
  const w=document.querySelector("#view .amb");if(!w)return;
