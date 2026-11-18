@@ -423,16 +423,17 @@ function multi(P,opt){const asp=P.aspects;const e=entityOf(P.topic,asp.map(a=>a.
  const per=Math.max(2,Math.ceil((opt.n||6)/asp.length));
  for(const a of asp){const A=answerMap(Object.assign({},P,{aspects:[a]}),{e,focus,n:per,art:opt.art});if(!A)continue;name=A.entity;for(const x of A.items){if(items.some(y=>y.text===x.text))continue;x.part=a.label;items.push(x)}}
  if(!items.length||new Set(items.map(x=>x.part)).size<2)return null;return {map:true,entity:name,conf:1,best:1,items}}
-function answer(S,opt){opt=opt||{};if(!S||!S.list||!M)return null;const PQ=S.P;
- /* the quoting fallback reads a narrow anatomy question with the wider anatomy cues too */
- const P=PQ.aspects.length&&PQ.aspects.every(a=>ANATQ.has(a.id))?Object.assign({},PQ,{aspects:PQ.aspects.concat([ASPBY("an")])}):PQ;if(/\b(viva|questions?|mcqs?|essays?|flashcards?|quiz)\b/i.test(P.raw||""))return null;
+function answer(S,opt){opt=opt||{};if(!S||!S.list||!M)return null;let P=S.P;if(/\b(viva|questions?|mcqs?|essays?|flashcards?|quiz)\b/i.test(P.raw||""))return null;
  if(!opt.noMap&&AM){if(P.parts){const C=compare(P,opt);if(C)return C}
   /* "approach to a hoarse voice": the approach article, compiled in the order a clinician works: red flags, history, examination, tests, management */
   if(/\bapproach(es)? to\b/.test(fold(P.raw||""))&&P.aspects.every(a=>a.id==="how"||a.id==="def")){const e=entityOf(P.topic,[]);
    /* the "Approach to ..." article that speaks most about the condition */
    let apx="",best=0;if(e!==null){const cnt=new Map();for(const id of AM.asp)for(const [d] of AM.by.get(e+"|"+id)||[]){const dd=D.docs[d];if(/^approach to\b/i.test(dd.art)){const r=dd.route.split("~")[0];cnt.set(r,(cnt.get(r)||0)+1)}}cnt.forEach((v,r)=>{if(v>best){best=v;apx=r}})}
    if(apx){const A=multi(Object.assign({},P,{aspects:["flag","hx","exam","dx","tx"].map(ASPBY)}),Object.assign({},opt,{n:Math.max(opt.n||6,10),art:apx}));if(A)return A}}
-  if(P.aspects.length>1){const A=multi(P,opt);if(A)return A}const A=answerMap(P,opt);if(A)return A}const asp=P.aspects;
+  if(P.aspects.length>1){const A=multi(P,opt);if(A)return A}const A=answerMap(P,opt);if(A)return A}
+ /* the quoting fallback reads a narrow anatomy question with the wider anatomy cues too */
+ if(P.aspects.length&&P.aspects.every(a=>ANATQ.has(a.id)))P=Object.assign({},P,{aspects:P.aspects.concat([ASPBY("an")])});
+ const asp=P.aspects;
  const okd=d=>d.ty!=="q"&&d.ty!=="card"&&d.ty!=="viva"&&!d.exam;
  const list=S.list.filter(r=>okd(D.docs[r.i]));const pool=(S.pool||[]).filter(r=>okd(D.docs[r.i]));if(!list.length)return null;
  const qt=toks(P.topic),st=toks(P.soft||"");const qw=new Map();let qwt=0;for(const t of new Set(qt)){const w=idf(t);qw.set(t,w);qwt+=w}for(const t of new Set(st))if(!qw.has(t))qw.set(t,idf(t)*.6);qwt=qwt||1;
