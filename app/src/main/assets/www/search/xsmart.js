@@ -326,6 +326,9 @@ function entityOf(topic,asp){if(!AM)return null;const T=new Set(toks(topic));con
 let CTXK=new Set();
 function answerMap(P,opt){if(!AM)return null;CTXK=new Set();const e=opt.e!==undefined?opt.e:entityOf(P.topic,P.aspects.map(a=>a.id));if(e===null)return null;if(opt.e!==undefined)ENTFOCUS=opt.focus||[];
  const asp=P.aspects.length?P.aspects.map(a=>a.id):["def"];let lab=[];for(const a of asp)lab=lab.concat(AM.by.get(e+"|"+a)||[]);
+ /* no aspect asked ("cartilages of the larynx", "triangles of the neck"): the definition first, but any section whose heading names what was asked can answer */
+ if(!P.aspects.length){const TT0=toks(P.topic||"").filter(t=>t.length>2&&!STOP.has(t));const own=new Set(lab.map(x=>x[0]));
+  for(const id of AM.asp){if(id==="def")continue;for(const [d,k,w] of AM.by.get(e+"|"+id)||[]){if(own.has(d))continue;const ht=new Set(toks(D.docs[d].title));if(TT0.length&&TT0.some(t=>ht.has(t)))lab.push([d,k,TT0.every(t=>ht.has(t))?w:w*.8])}}}
  /* a narrower question with no lines of its own takes the nearest wider one: side effects -> complications, dose -> treatment,
     nerve supply -> anatomy, red flags -> clinical picture */
  if(lab.reduce((m,x)=>Math.max(m,x[2]),0)<.5){const FB={dose:["tx"],se:["cx"],cx:["se"],preg:["ci"],int:["ci"],mech:["why","def"],why:["mech"],spec:["def","ind"],flag:["cf","dx"],hx:["cf"],exam:["cf","dx"],consent:["cx","ind"],pos:["how","prep"],anaes:["prep","how"],prep:["dx","how"],post:["tx","cx"],nerve:["an"],blood:["an"],lymph:["an"],bound:["an"],cont:["an"],rel:["an"],musc:["an"],parts:["an","def"],branch:["an"],course:["an"],dev:["an","why"],an:["def"],ind:["tx"]};
@@ -337,7 +340,7 @@ function answerMap(P,opt){if(!AM)return null;CTXK=new Set();const e=opt.e!==unde
  const focus=ENTFOCUS.slice();if(/contra-?indicat/i.test(P.raw||""))focus.push(...toks("contraindication contraindicated contraindications"));if(focus.length){let all=lab;if(!P.aspects.length){all=[];for(const id of AM.asp)all=all.concat(AM.by.get(e+"|"+id)||[])}
   const hit=all.filter(([doc,k])=>{const u=units(D.docs[doc].body)[k];if(!u)return false;const tk=new Set(toks(u.t+" "+(u.label||"")+" "+D.docs[doc].title));return focus.some(f=>tk.has(f)||(KIDS.has(f)&&[...KIDS].some(x=>tk.has(x))))});
   /* a word that is only context ("in children") ranks the lines; any other word narrows them */
-  const ctxOnly=focus.every(f=>KIDS.has(f)||AGEW.has(f));
+  const ctxOnly=P.aspects.length>0&&focus.every(f=>KIDS.has(f)||AGEW.has(f)); /* "infant vs adult tube": with nothing else asked, the age words are the question */
   if(!ctxOnly&&hit.length)lab=hit.map(([d,k,w])=>[d,k,Math.min(1,w+.2)]);else if(hit.length){const hk=new Set(hit.map(([d,k])=>d+"|"+k));CTXK=hk;lab=lab.map(([d,k,w])=>[d,k,hk.has(d+"|"+k)?Math.min(1,w+.2):w])}}
  if(!lab.length&&!P.aspects.length){for(const id of ["cf","why"])lab=lab.concat(AM.by.get(e+"|"+id)||[])}
  /* "drug of choice", "commonest cause": the line that names the one comes first */
@@ -362,7 +365,7 @@ function answerMap(P,opt){if(!AM)return null;CTXK=new Set();const e=opt.e!==unde
  const TT=[...new Set(toks(P.topic||""))].filter(t=>t.length>1&&!STOP.has(t));
  const echo=d=>{if(!TT.length)return 0;const ht=new Set(toks(d.title)),at=new Set(toks(d.art));const inT=TT.filter(t=>ht.has(t)).length,inA=TT.filter(t=>ht.has(t)||at.has(t)).length;
   return inT===TT.length?.4:inA===TT.length?.3:.2*inA/TT.length};
- const G=[...groups.values()].map(g=>{const ar=g.d.route.split("~")[0];g.ar=ar;g.home=ar===home;const side=/^(cl:t-dr_|th:)/.test(ar)&&!g.home;g.sup=[...g.u.keys()].some(k=>SUPK.has(g.doc+"|"+k));g.echo=echo(g.d);g.score=g.max+(g.home?.35:0)+(g.sup?.3:0)+g.echo+Math.min(.1,.02*g.u.size)+(g.d.ty==="ev"?-.2:0)+(side?-.1:0);return g}).sort((a,b)=>b.score-a.score||a.doc-b.doc);
+ const G=[...groups.values()].map(g=>{const ar=g.d.route.split("~")[0];g.ar=ar;g.home=ar===home;const side=/^(cl:t-dr_|th:)/.test(ar)&&!g.home;g.sup=[...g.u.keys()].some(k=>SUPK.has(g.doc+"|"+k));g.echo=echo(g.d);g.fac=P.aspects.some(a=>a.keep&&HS(a).test(fold(g.d.title)))?.25:0;g.score=g.max+(g.home?.35:0)+(g.sup?.3:0)+g.echo+g.fac+Math.min(.1,.02*g.u.size)+(g.d.ty==="ev"?-.2:0)+(side?-.1:0);return g}).sort((a,b)=>b.score-a.score||a.doc-b.doc);
  const top=G[0].max;const n=opt.n||6;
  /* sections that answer well; the condition's own article first, in its own order, then the others */
  const Q=G.filter((g,j)=>j===0||g.max>=Math.max(.6,top*.75)).slice(0,5);const lead=Q[0].ar;if(opt.dbg)opt.dbg(G.map(g=>[g.d.title,g.max,+g.score.toFixed(2),g.home,g.u.size]));

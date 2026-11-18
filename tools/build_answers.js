@@ -162,6 +162,8 @@ X.forEach((x, doc) => {
     /* the on-call summary at the head of Diagnosis or Management repeats the prose below it in note form: it counts, but less */
     const ward = /^approach$/i.test(strip(u.label || ""));
     const lab = u.label && !ward ? aspOf(u.label) : null;
+    /* a line that opens with what it lists ("Five parts: squamous, petrous ...", "Branches: ...", "Steroids: ...") answers that */
+    const lead = !u.row && /^[^:]{3,40}:\s/.test(t) ? t.split(":")[0] : "", leadA = lead && lead.split(" ").length <= 5 ? aspOf(lead, true) : null;
     const rowA = u.rowLabel ? (ROWA.find(([re]) => re.test(u.rowLabel)) || [])[1] || aspOf(u.rowLabel, true) : null;
     const cues = {}; for (const a of ASP) { const n = (fold(t).match(new RegExp((a.cx || a.c).source, "g")) || []).length; if (n) cues[a.id] = n }
     const labelE = u.label ? match(u.label, .6) : -1;
@@ -173,6 +175,7 @@ X.forEach((x, doc) => {
       for (const [a, re] of STRONG) if (a !== secAsp && re.test(t) && !(u.row && /^(dx|tx)$/.test(secAsp) && /^(dx|tx)$/.test(a))) add(doc, u.k, ent, a, .85 * f); /* a table row keeps its section: "first line" in an investigations table is a test, not a drug */
       if (lab) add(doc, u.k, ent, lab, 1 * f);
       if (rowA) add(doc, u.k, ent, rowA, 1 * f);
+      if (leadA) add(doc, u.k, ent, leadA, .95 * f);
       /* a table row that gives an amount answers "dose" ("Ondansetron: adult 4 mg intravenously ...") */
       if (u.row && rowA !== "dose" && /\b\d+(\.\d+)? ?(mg|g|micrograms?|ml|units)(\/kg)?\b/i.test(t)) add(doc, u.k, ent, "dose", .9 * f);
       /* cue words count for more in a sentence that is itself about the condition ("Hashimoto thyroiditis ... is treated with thyroxine") */
