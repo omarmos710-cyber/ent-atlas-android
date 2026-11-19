@@ -432,7 +432,25 @@ function multi(P,opt){const asp=P.aspects;const e=entityOf(P.topic,asp.map(a=>a.
  for(const a of asp){const A=answerMap(Object.assign({},P,{aspects:[a]}),{e,focus,n:per,art:opt.art});if(!A)continue;name=A.entity;for(const x of A.items){if(items.some(y=>y.text===x.text))continue;x.part=a.label;items.push(x)}}
  if(!items.length||new Set(items.map(x=>x.part)).size<2)return null;return {map:true,entity:name,conf:1,best:1,items}}
 /* a named sign or eponym with no line that says "sign" ("steeple sign"): read the best lines about the name itself */
-function answer(S,opt){const A=answer0(S,opt);if(A||!S||!S.P||!S.P.aspects.length||(opt&&opt.retry))return A;return answer0(Object.assign({},S,{P:Object.assign({},S.P,{aspects:[]})}),Object.assign({},opt||{},{retry:1,noMap:true}))}
+/* ---------- a named row asked about by name: "origin and insertion of masseter", "contents of foramen rotundum", "nerve supply of zygomaticus minor".
+   Many facts live as one labelled row of a table ("Masseter: zygomatic arch → lateral ramus"); when the question's subject is that row's name
+   and no condition or drug of that name exists, the row itself is the answer, followed by the usual lines. Built once, on first use. ---------- */
+let RH=null;
+function rowHeads(){if(RH)return RH;RH=new Map();for(const d of D.docs){if(d.ty==="q"||d.ty==="card"||d.ty==="viva"||d.exam)continue;
+  units(d.body).forEach(u=>{const m=u.t.match(/^([^:—(]{3,40}):\s/);if(!m)return;const t=[...new Set(toks(m[1]).filter(x=>x.length>1))];if(!t.length||t.length>4)return;if(t.length===1&&t[0].length<5)return;
+   const key=t.slice().sort().join(" ");if(!RH.has(key))RH.set(key,[]);RH.get(key).push({d,u,name:m[1].trim()})})}
+ for(const [k,v] of RH)if(new Set(v.map(x=>x.d.i)).size>6)RH.delete(k);return RH}
+let QW=null;const qWords=()=>QW||(QW=new Set([...ASPECTS.flatMap(a=>a.q||[]).flatMap(q=>toks(q)),...toks("what which where pass passes passing through transmit transmits structures run runs lie lies found does do is are the of in its")]));
+function rowAnswer(S,opt){if(!S||!S.P||!D||S.P.parts)return null;const P=S.P;const T=[...new Set(toks(P.topic).filter(x=>x.length>1))];const core=T.filter(x=>!qWords().has(x));if(!core.length||core.length>4)return null;
+ const H=rowHeads();let best=null;
+ for(let i=0;i<T.length;i++)for(let j=i+1;j<=Math.min(T.length,i+4);j++){const sub=T.slice(i,j);if(sub.filter(x=>!qWords().has(x)).length/core.length<.6)continue;const v=H.get(sub.slice().sort().join(" "));if(v&&(!best||sub.length>best.n))best={n:sub.length,v,sub}}
+ if(!best)return null;
+ /* a condition, drug or operation of that name answers better through the answer map */
+ const e=AM?entityOf(P.topic,P.aspects.map(a=>a.id)):null;if(e!==null&&e!==undefined){const en=new Set(toks(AM.names[e][0]));if(best.sub.every(x=>en.has(x)))return null}
+ const seen=new Set(),items=[];for(const r of best.v){const t=tidy(r.u.t);if(seen.has(t))continue;seen.add(t);items.push({i:r.d.i,route:r.d.route,text:t,needle:r.u.needle||t,label:r.u.row?"":(r.u.label&&r.u.label.length<40?r.u.label:""),title:r.d.title,where:r.d.where,s:1});if(items.length>=3)break}
+ const rest=answer0(S,opt)||{items:[]};for(const x of rest.items){if(items.length>=(opt&&opt.n||10))break;if(!seen.has(x.text)){seen.add(x.text);items.push(x)}}
+ return {entity:best.v[0].name,conf:1,best:1,rows:true,items}}
+function answer(S,opt){const RA=rowAnswer(S,opt);if(RA)return RA;const A=answer0(S,opt);if(A||!S||!S.P||!S.P.aspects.length||(opt&&opt.retry))return A;return answer0(Object.assign({},S,{P:Object.assign({},S.P,{aspects:[]})}),Object.assign({},opt||{},{retry:1,noMap:true}))}
 function answer0(S,opt){opt=opt||{};if(!S||!S.list||!M)return null;let P=S.P;if(/\b(viva|mcqs?|essays?|flashcards?|quiz)\b|\bquestions? (on|about|for)\b/i.test(P.raw||""))return null;
  if(!opt.noMap&&AM){if(P.parts){const C=compare(P,opt);if(C)return C}
   /* "approach to a hoarse voice": the approach article, compiled in the order a clinician works: red flags, history, examination, tests, management */
