@@ -101,219 +101,47 @@ function smartLoad(){if(SMARTP)return SMARTP;SMARTP=(async()=>{try{
   const box=document.getElementById("xres");if(box&&box.isConnected&&currentQ().trim().length>=2)run(currentQ(),box);
   const hx=document.getElementById("hx");if(hx&&hx.isConnected&&hx.value.trim().length>=2)homeLive(hx.value);
   document.dispatchEvent(new Event("xsmartready"))}catch(e){SMART=null}})();return SMARTP}
-const key=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
-const studyKey=s=>key(s).replace(/^(what are|list|name) the /,'');
-function prepare(S,docs,cases,images){
- const saved=new Map();
- for(const d of docs.filter(d=>['card','q','viva'].includes(d[0]))){
-  const k=studyKey(d[2]);if(!saved.has(k))saved.set(k,d);else if(saved.get(k)?.[4]!==d[4])saved.set(k,null);
- }
- return function select(q,r,a){
-  const k=key(q);
-  if(/\b(its|their|this patient|this scan|this case)\b/.test(k)||!k.replace(/\b(what|which|are|is|the|most|common|risks?|complications?|causes?|treatment|of|about|please|list|and|how|do|you|manage)\b/g,'').trim())return null;
-  const d=saved.get(studyKey(q));
-  if(d&&!/\b(following|pictured|shown)\b/.test(k))return {source:d[1],text:d[4]};
-  // The parser can turn an omitted subject into an aspect label, e.g. "Clinical picture".
-  // Ignore wording that cannot identify a condition, procedure or structure on its own.
-  const topic=r.P.topic.toLowerCase().replace(/\b(usual|usually|typical|typically|common|commonly|can|could|occur|after|before|clinical picture|definition|treatment|management|classification|complications?|signs?|findings?|causes?|risks?|symptoms?|diagnosis|investigation|prognosis|indications?|technique|expected|possible|likely)\b/g," ").trim();
-  if(!topic||/\b(not|never|except|excluding|neither|without|my child|my baby)\b/.test(k))return null;
-  const mode=k.match(/\b(ct|mri)\b/);
-  if(mode&&/\b(findings?|features?|shows?|appearances?)\b/.test(k)){
-   const subject=s=>key(s).split(' ').filter(w=>!['what','does','on','of','the','a','in','ct','mri','show','shows','findings','features','appearance','are'].includes(w)).sort().join(' ');
-   const hits=cases.filter(c=>subject(c.t)===subject(q));if(hits.length!==1)return null;
-   const c=hits[0],caps=c.imgs.map(id=>images[id]).filter(f=>f&&key(f[2]).split(' ')[0]===mode[1]&&f[3]);
-   return caps.length?{source:'cond:'+c.id,text:caps.map(f=>f[3]).join('\n')}:null;
-  }
-  if(!a?.items?.length)return null;
-  const compound=r.P.aspects.length>1;
-  const groups=new Map();for(const x of a.items){
-   const source=compound?x.route.split("~")[0]:x.route;
-   if(!groups.has(source))groups.set(source,[]);groups.get(source).push(x);
-  }
-  for(const [source,all] of groups){
-   const items=compound?all.filter(x=>{
-    const child=/children|paediatric|pediatric/i.test(q);
-    return (!child||/child|paediatric|pediatric/i.test(x.where+" "+x.title+" "+x.text))&&
-     !/complications/i.test(x.where);
-   }):all;
-   if(!items.length)continue;
-   if(r.P.parts||r.P.aspects.length>1&&r.P.aspects.some(z=>!items.some(x=>x.part===z.label)))continue;
-   const x=items[0],body=items.map(x=>x.text).join('\n'),context=[x.title,x.where,body].join(' ');
-   const words=new Set(S.toks(context.replace(/mastoid (surgery|operations?)/gi,'mastoid surgery mastoidectomy').replace(/\bchild\b/gi,'child children')));if(S.toks(topic).some(t=>t.length>2&&!words.has(t)))continue;
-   if(/\bcontraindicat(?:ions?|ed)\b/i.test(q)&&!/contraindicat|avoid/i.test(context))continue;
-   if(/\bindicat(?:ions?|ed)\b/i.test(q)&&(!/\bindications?\b/i.test(context)||/contraindicat/i.test(x.title)))continue;
-   if(/\bcomplications?\b/i.test(q)&&!/complication|adverse|risk/i.test(x.title+" "+x.where+" "+(x.label||"")))continue;
-   const multi=r.P.aspects.length>1||/\b(treatment|management|findings|stages|types|steps|causes|signs|symptoms|indications|contraindications|complications)\b/i.test(q);
-   const section=docs[x.i]?.[4]||"";
-   if(r.P.aspects.some(z=>z.id==="cls")){
-    const lines=section.split("\n"),start=lines.findIndex(t=>t.includes("\t\t"));
-    if(start>=0){
-     const table=[lines[start]];
-     for(const row of lines.slice(start+1)){if(!row.includes("\t"))break;table.push(row)}
-     if(table.length>2)return {source,text:[x.title,...table].join("\n")};
-    }
-   }
-   const quote=item=>[item.label,item.text].filter(Boolean).join(": ");
-   const text=multi?items.map(quote).join("\n"):quote(x);
-   if(/\bhow (often|frequent|common)|\bpercentage\b/i.test(q)&&!/%|\b(one in|per |rarely|usually|frequently)/i.test(text))continue;
-   if(/\b(dose|dosage)\b/i.test(q)&&!/[0-9]\s*(mg|g|ml|microgram|unit)/i.test(text))continue;
-   return {source,text:[x.title,text].join("\n")};
-  }return null;
- }
-}
-// Subject names from the app's own answer map, imaging cases and article titles.
-function subjectCheck(S,docs,cases,aliases){
- const names=aliases.flat().concat(cases.map(c=>c.t),docs.filter(d=>['sec','osec','bsec','cond','note','tab'].includes(d[0])).map(d=>d[3].split(' · ')[0]));
- const generic=new Set(S.toks('what how why which their this that when where possible definition usual common typical any after before about occur happens wrong surgery surgical procedure patient cases child adult signs symptoms side effects complications imaging investigation treatment diagnosis management medicine disease choices features findings clinical picture approach risks stages causes prognosis dose medicines therapies MRI CT scan'));
- const vocabulary=new Set(names.flatMap(s=>S.toks(s)).filter(t=>t.length>=3&&!generic.has(t)));
- return topic=>S.toks(topic).some(t=>vocabulary.has(t));
-}
-function refinePassage(S,docs,checkSubject){
- const bySource=new Map(docs.map(d=>[d[1],d]));
- const key=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
- const signatures=[
-  [/^(?:what are (?:the )?|list (?:the )?|name (?:the )?)?(complications|contraindications|indications|symptoms|causes|stages|types|boundaries|contents|branches|parts) (?:of|for|to) (?:the )?(.+)$/,(m)=>m[1]+" "+m[2]],
-  [/^(?:how (?:do you|to) (?:treat|manage)|(?:what is the )?(?:treatment|management) of) (?:the )?(.+)$/,(m)=>"management "+m[1]],
-  [/^(?:what (?:structures? )?passes?|which structures pass|structures passing) through (?:the )?(.+)$/,(m)=>"contents "+m[1]]
- ];
- function signature(s){for(const [pattern,form] of signatures){const m=key(s).match(pattern);if(m)return form(m)}}
- const questions=new Map();
- for(const d of docs.filter(d=>["card","viva","q"].includes(d[0]))){
-  const k=signature(d[2]);if(!k)continue;
-  if(!questions.has(k))questions.set(k,d);else if(questions.get(k)?.[4]!==d[4])questions.set(k,null);
- }
- const rows=new Map();
- for(const d of docs){
-  let header=null;
-  for(const line of d[4].split('\n')){
-   if(line.includes('\t\t')){header=line.split(/\t+/);continue}
-   if(!line.includes('\t')){header=null;continue}
-   const cells=line.split('\t'),name=key(cells[0]);
-   if(!header||name.length<6||!name.includes(' ')||cells.length!==header.length)continue;
-   if(!rows.has(name))rows.set(name,[]);
-   rows.get(name).push({header,cells,source:d[1]});
-  }
- }
- return function finish(q,answer){
-  const topic=S.parse(q).topic;
-  if(!checkSubject(topic))return null;
-  const direct=questions.get(signature(q));if(direct===null)return null;
-  if(direct)return {source:direct[1],text:direct[4]};
-  const m=key(q).match(/^(?:what (?:are|is) (?:the )?)?(contents|boundaries|branches|parts) of (?:the )?(.+?)$/);
-  if(m){
-   const hits=(rows.get(m[2])||[]).flatMap(row=>row.header.map((h,i)=>i>0&&key(h).includes(m[1])?{source:row.source,text:row.cells[0]+'\n'+h+': '+row.cells[i]}:null).filter(Boolean));
-   if(hits.length)return hits.every(h=>h.text===hits[0].text)?hits[0]:null;
-   // A different structure in a neighbouring table row cannot answer this question.
-   if(answer){const doc=bySource.get(answer.source);if(doc?.[4].includes('\t')&&!key(answer.text.split('\n').slice(1).join(' ')).includes(m[2]))return null}
-  }
-  if(!answer)return null;
-  const doc=bySource.get(answer.source);
-  if(doc&&/\b(nerve supply|blood supply|cartilages|boundaries|stages)\b/i.test(q)&&doc[4].length<=1100&&
-    key(q).includes(key(doc[2]))&&/\n/.test(doc[4])&&!doc[4].includes('\t'))return {source:answer.source,text:doc[4]};
-  if(doc&&doc[4].length<=850&&!doc[4].includes('\t')&&!/where the books differ/i.test(doc[4])){
-   const parsed=S.parse(q);
-   if(parsed.aspects.length===1&&parsed.aspects[0].h.test(doc[2].toLowerCase())&&parsed.aspects[0].id!=="def"){
-    const quoted=answer.text.split('\n').filter(Boolean);
-    if(quoted.some(t=>t.length>24&&doc[4].includes(t)))return {source:answer.source,text:doc[2]+'\n'+doc[4]};
-   }
-  }
-  return answer;
- }
-}
-// A new box after a delay needs a direct statement in the passage itself.
-function allowLate(S,q,answer){
- if(!answer)return false;
- const lines=answer.text.split('\n').slice(1);
- const topic=S.parse(q).topic;
- const ignore=new Set(S.toks('what where which how why when usual often most common cause site location felt procedure operation signs symptoms treatment supply nerve dose therapy approach surgery management test imaging findings indication contraindication age of choice'));
- const terms=S.toks(topic).filter(t=>t.length>2&&!ignore.has(t));
- if(!terms.length)return false;
- // Doses, exceptions and recommendations need their own verified clinical entry.
- if(/\b(dose|doses|dosage|first.line|contraindications?|avoid|best|of choice|in children)\b/i.test(q))return false;
- return lines.some(line=>{
-  const words=new Set(S.toks(line));
-  if(!terms.every(t=>words.has(t)))return false;
-  if(/\bwhere\b|\blocation\b/i.test(q))return /\b(felt|located|lies|arises|situated|found)\b/i.test(line);
-  if(/\bnerve supply\b/i.test(q))return /\b(supplied|innervated|branch of)\b/i.test(line);
-  if(/\b(signs|features|symptoms|findings|criteria|score|triad|classification|stages|techniques|materials)\b/i.test(q))return false;
-  // A named term explicitly defined at the start of its own line.
-  const split=line.match(/^([^:]{3,75}):\s+(.{15,})/);
-  return !!split&&terms.every(t=>new Set(S.toks(split[1])).has(t));
- });
-}
-function supported(S,q,answer,doc,direct){
- if(!answer)return false;
- if(answer.source.startsWith('qb:')||/^(CT|MRI)\b/i.test(answer.text)||direct(S,q,answer))return true;
- if(!doc)return false;
- const p=S.parse(q),text=answer.text,title=doc[2],section=doc[3].split(' · ').slice(1).join(' ');
- if(/\bindicated\b/i.test(q)&&/(^|\n)Indications?:\s/i.test(text))return true;
- if(p.aspects.length>1)return false;
- if(p.aspects.length===1){
-  const a=p.aspects[0];
-  if(a.id==='ind'&&/contraindicat/i.test(title))return false;
-  if(a.id==='cls'&&text.includes('\t'))return true;
-  if(text.split("\n").some(line=>{const m=line.match(/^([^:]{3,35}):\s+.{10}/);return m&&!(a.id==="ind"&&/contraindicat/i.test(m[1]))&&a.h.test(m[1].toLowerCase())}))return true;
-  if(a.h.test(title.toLowerCase())||a.h.test(section.toLowerCase()))return true;
- }
- const terms=S.toks(p.topic).filter(t=>t.length>2);
- const titleWords=new Set(S.toks(title));
- return terms.length>=2&&terms.every(t=>titleWords.has(t))&&text.length>=70;
-}
-let selectPassage;
-const finished=new Map(),pending=new Set();
-function smartFor(q){
- if(!SMART||q.trim().split(/\s+/).length<2)return null;
- if(!selectPassage){
-  const choose=prepare(SMART,SMX,CONDS,IMG);
-  const subject=subjectCheck(SMART,SMX,CONDS,window.XSMA?.e||[]);
-  const polish=refinePassage(SMART,SMX,subject);
-  const byRoute=new Map(SMX.map(d=>[d[1],d]));
-  selectPassage=(q,r,a)=>{
-   const candidate=polish(q,choose(q,r,a));
-   const compound=candidate&&!candidate.source.includes("~")&&candidate.text.includes("\n")&&r.P.aspects.length>1;
-   return compound||supported(SMART,q,candidate,byRoute.get(candidate?.source),allowLate)?candidate:null;
-  };
- }
- const S=SMART.search(q,{n:5,perArticle:2});
- S.ans=finished.has(q)?finished.get(q):selectPassage(q,S,SMART.answer(S,{n:10}));
- if(!finished.has(q)&&!pending.has(q)){pending.add(q);setTimeout(()=>refine(q,S),0)}
- return S;
-}
-async function refine(q,S){
- try{
-  const C=SMART.candidates(S);
-  let answer=S.ans;
-  if(C){
-   if(!window.XRANK)await loadJS("search/xrank.js");
-   await XRANK.load();const scores=[];
-   for(const line of C.texts)scores.push((await XRANK.score(q,[line],1))[0]);
-   const candidate=selectPassage(q,S,SMART.rerank(C,scores));
-   if(candidate&&(S.ans||allowLate(SMART,q,candidate)))answer=candidate;
-  }
-  finished.set(q,answer);
-  if(S.ans?.source===answer?.source&&S.ans?.text===answer?.text)return;
-  for(const slot of document.querySelectorAll("[data-best-query]")){
-   const input=document.querySelector("#xq,#hx,#clq");
-   if(slot.dataset.bestQuery===q&&input?.value.trim()===q)slot.innerHTML=bestHTML(answer);
-  }
- }catch{ /* Keep the checked first result if the local reader is unavailable. */ }finally{pending.delete(q)}
-}
-function bestHTML(answer){
- if(!answer)return "";
- const d=SMX.find(x=>x[1]===answer.source)||SMX.find(x=>x[1].split("~")[0]===answer.source);
- if(!d)return "";
- const title=d[3]+" › "+d[2],idx=answer.source.startsWith("qb:")?ixq(answer.source.slice(3)):undefined;
- const source=idx!==undefined?`<details><summary>${E(title)}</summary><p>${E(d[4])}</p></details>`:`<button class="xans-src" ${goAttr(answer.source)} data-needle="${E(answer.text.split("\n")[0])}">${E(title)}</button>`;
- return `<div class="xans"><p class="xans-h">Quick answer</p>${answer.text.split("\n").map(t=>`<p>${E(t)}</p>`).join("")}${source}</div>`;
-}
-function slot(q,S){return `<div data-best-query="${E(q)}">${bestHTML(S?.ans)}</div>`}
+function smartFor(q){if(!SMART||q.trim().split(/\s+/).length<2)return null;try{const S=SMART.search(q,{n:5,perArticle:2});try{S.ans=SMART.answer?SMART.answer(S,{n:10}):null;const R=RRDONE.get(q.trim().toLowerCase());if(R)S.ans=R;else if(S.ans)S.ans.q=q}catch(e){S.ans=null}return S}catch(e){return null}}
+/* the second reader (search/xrank.js): after the box is shown, a small offline model reads the question with each
+   candidate line and the box is redrawn with the lines it judges answer best; quoted lines only, never new words */
+const RRDONE=new Map();let RRBUSY=null;
+async function rrRefine(q){q=String(q||"").trim();const key=q.toLowerCase();if(!q||!SMART||!SMART.candidates||RRDONE.has(key)||RRBUSY===key)return;RRBUSY=key;
+ try{if(!window.XRANK)await loadJS("search/xrank.js");await XRANK.load();const S=SMART.search(q,{n:5,perArticle:2});const C=SMART.candidates(S);if(!C){RRBUSY=null;return}
+  const sc=[];for(const t of C.texts)sc.push((await XRANK.score(q,[t],1))[0]);const A=SMART.rerank(C,sc);A.q=q;RRDONE.set(key,A);
+  const hw=SMART.toks(S.P.topic+" "+(S.P.soft||"")).filter(t=>t.length>=3);
+  document.querySelectorAll(".xans[data-q]").forEach(el=>{if(el.dataset.q.trim().toLowerCase()!==key)return;const lim=+el.dataset.lim||0;const t=document.createElement("div");t.innerHTML=ansHTML(A,hw,lim||undefined);const nb=t.firstElementChild;if(nb)el.replaceWith(nb)})}
+ catch(e){}RRBUSY=null}
 /* where a line or a result opens: an anatomy note or table ("region:larynx~larynx-s9") opens its region at that section */
 function goAttr(route){route=String(route||"");const m=route.match(/^(region:[^~]+)~(.+)$/);return m?`data-go="${E(m[1])}" data-sec="${E(m[2])}"`:`data-go="${E(route)}"`}
 /* the quick answer: the lines of the best sections that answer the question, word for word, each linked to its place */
+function ansHTML(A,hw,lim){if(!A||!A.items.length)return "";let ITEMS=A.items;
+ /* the short box on Home and in Clinical: the first lines, but at least one from every part of the answer */
+ if(lim){const parts=[...new Set(A.items.map(x=>x.part))];if(parts.length>1){const per=Math.max(1,Math.floor(Math.max(lim,parts.length)/parts.length));ITEMS=parts.flatMap(p=>A.items.filter(x=>x.part===p).slice(0,per))}else ITEMS=A.items.slice(0,lim)}
+ const src=x=>`${E(x.where.split(" · ")[0])} › ${E(x.title)}`;
+ const li=x=>`<li><button class="xansi" ${goAttr(x.route)} data-needle="${E(x.needle||x.text)}"><span>${x.label?`<b>${E(x.label)}:</b> `:""}${hl(x.text,hw)}</span></button></li>`;
+ /* lines gathered from several sections are grouped under the section they come from */
+ /* several questions or two conditions at once: each part under its own heading ("Treatment", "Laryngomalacia · Diagnosis") */
+ const groups=[];for(const x of ITEMS){const g=groups[groups.length-1];if(g&&g.route===x.route&&g.part===x.part)g.items.push(x);else groups.push({route:x.route,part:x.part,items:[x]})}
+ let lastPart;const body=groups.map(g=>{const ph=g.part&&g.part!==lastPart?`<p class="xans-part">${E(g.part)}</p>`:"";lastPart=g.part;return ph+`<div class="xans-g"><ul>${g.items.map(li).join("")}</ul><button class="xans-src" ${goAttr(g.route)} data-needle="${E(g.items[0].needle||g.items[0].text)}">${src(g.items[0])}${ic("chev",14)}</button></div>`}).join("");
+ const more=lim&&A.items.length>lim?`<button class="xans-more" data-xask="${E(lim===true?"":ANSQ)}">See the full answer${ic("chev",14)}</button>`:"";
+ if(A.q&&!A.reranked)setTimeout(()=>rrRefine(A.q),0);
+ return `<div class="xans${lim?" xans-c":""}"${A.q?` data-q="${E(A.q)}"`:""}${lim?` data-lim="${lim===true?0:lim}"`:""}${A.reranked?` data-rr="1"`:""}><p class="xans-h">${A.entity?`${E(A.entity)}`:"Quick answer"}<small>quoted from your articles · tap a line to see it in place</small></p>${body}${more}</div>`}
 let ANSQ="";
-function askHTML(q){const S=smartFor(q);return S?slot(q,S):null}
-function askRows(){return ""}
-function smartHTML(S){return S?slot(S.P.raw,S):""}
+/* the answer box for another screen (Home, Clinical): null while the smart index is still loading */
+function askHTML(q,lim){q=String(q||"").trim();if(!SMART||q.split(/\s+/).length<2)return null;const S=smartFor(q);if(!S)return "";ANSQ=q;
+ const words=SMART.toks(S.P.topic+" "+(S.P.soft||"")).filter(t=>t.length>=3);return S.ans?ansHTML(S.ans,words,lim||4):""}
+function askRows(q,n){if(!SMART)return "";const S=smartFor(q);if(!S||!S.list)return "";const words=SMART.toks(S.P.topic).filter(t=>t.length>=3);
+ return S.list.slice(0,n||3).map(r=>{const x=SMX[r.i];if(!x||x[1].startsWith("qb:"))return "";return `<div class="xr"><button class="xrh" ${goAttr(x[1])}><span class="xm"><span class="xp"><i class="xt xt-${x[0]}">${E(TYPES[x[0]]?TYPES[x[0]][0]:"")}</i>${E(x[3])}</span><b>${hl(x[2],words)}</b></span>${ic("chev",16)}</button></div>`}).join("")}
+function smartHTML(S,words){if(!S||!S.list.length)return "";const X=SMX;const P=S.P;
+ const hw=[...new Set(words.concat(SMART.toks(P.topic+" "+(P.soft||"")).filter(t=>t.length>=3)))];
+ const asp=P.aspects.map(a=>`<i class="xt xt-sec">${E(a.label)}</i>`).join("");
+ const head=`<p class="xsmq">Understood as ${asp}<b>${E(P.topic)}</b>${P.abbr&&P.abbr.length?` <small>(${P.abbr.map(([a,b])=>E(a.toUpperCase())+" = "+E(b)).join(", ")})</small>`:""}${P.fixed&&P.fixed.length?` <small>(spelling: ${P.fixed.map(([a,b])=>E(a)+" → "+E(b)).join(", ")})</small>`:""}</p>`;
+ const box=ansHTML(S.ans,hw);
+ const rows=S.list.map(r=>{const x=X[r.i];if(!x)return "";const [ty,route,t,where]=x;const sn=(r.snip||"").trim();const sn2=sn.length>230?sn.slice(0,230).replace(/\s+\S*$/,"")+"…":sn;
+  if(route.startsWith("qb:")){const k=ixq(route.slice(3));if(k===undefined)return "";return `<div class="xr"><button class="xrh" data-xexp="${k}"><span class="xm"><span class="xp"><i class="xt xt-${ty}">${E(TYPES[ty]?TYPES[ty][0]:"")}</i>${E(where.replace(/^(Questions|Flashcards) · /,""))}</span><b>${hl(t,hw)}</b>${sn2?`<small>${hl(sn2,hw)}</small>`:""}</span><span class="xplus" aria-hidden="true">+</span></button><div class="xb" hidden></div></div>`}
+  return `<div class="xr"><button class="xrh" ${goAttr(route)}><span class="xm"><span class="xp"><i class="xt xt-${ty}">${E(TYPES[ty]?TYPES[ty][0]:"")}</i>${E(where)}</span><b>${hl(t,hw)}</b>${sn2?`<small>${hl(sn2,hw)}</small>`:""}</span>${ic("chev",16)}</button></div>`}).join("");
+ return `<section class="xg xsmart"><h2>Answers</h2>${head}${box}<div class="xl">${rows}</div></section>`}
+
 /* ---------- matching ---------- */
 function ed(a,b,max){if(Math.abs(a.length-b.length)>max)return max+1;const m=a.length,n=b.length;let p=new Array(n+1),c=new Array(n+1);for(let j=0;j<=n;j++)p[j]=j;
  for(let i=1;i<=m;i++){c[0]=i;let mn=c[0];for(let j=1;j<=n;j++){c[j]=Math.min(p[j]+1,c[j-1]+1,p[j-1]+(a[i-1]===b[j-1]?0:1));if(c[j]<mn)mn=c[j]}if(mn>max)return max+1;[p,c]=[c,p]}return p[n]}
@@ -429,8 +257,9 @@ function homeLive(q){const box=document.getElementById("hxres"),rest=document.ge
  RES=search(q);const words=RES.words;const top=RES.list.slice(0,7);const figset=typeof fsetId==="function"?fsetId(top.filter(r=>r.it.fig).map(r=>r.it.fig)):"";
  /* questions ("treatment of hashimoto") are answered here too, by the smart search, quoted from the articles */
  const many=q.trim().split(/\s+/).length>=2;const ans=many?askHTML(q,3):null;const S=many&&SMART?smartFor(q):null;
- const n=RES.list.length;
- box.innerHTML=(ans||"")+RES.syms.slice(0,1).map(s=>symHTML(s,words)).join("")+(top.length?`<div class="xl">${top.map(r=>rowHTML(r,words,figset)).join("")}</div>`:(many&&!SMART?`<p class="xnote">Reading your question…</p>`:`<p class="xnote">Nothing found for “${E(q)}”.</p>`))+(n||ans?`<button class="xall" data-xall>${RES.list.length?`See all ${RES.list.length} results`:"See all answers"}${ic("chev",16)}</button>`:"");remember(q);
+ const smartRows=!top.length&&S&&S.list.length?`<div class="xl">${S.list.slice(0,5).map(r=>{const x=SMX[r.i];if(!x||x[1].startsWith("qb:"))return "";return `<div class="xr"><button class="xrh" ${goAttr(x[1])}><span class="xm"><span class="xp"><i class="xt xt-${x[0]}">${E(TYPES[x[0]]?TYPES[x[0]][0]:"")}</i>${E(x[3])}</span><b>${hl(x[2],words)}</b></span>${ic("chev",16)}</button></div>`}).join("")}</div>`:"";
+ const n=RES.list.length+(S&&S.list?S.list.length:0);
+ box.innerHTML=(ans||"")+RES.syms.slice(0,1).map(s=>symHTML(s,words)).join("")+(top.length?`<div class="xl">${top.map(r=>rowHTML(r,words,figset)).join("")}</div>`:smartRows||(ans?"":many&&!SMART?`<p class="xnote">Reading your question…</p>`:`<p class="xnote">Nothing found for “${E(q)}”.</p>`))+(n||ans?`<button class="xall" data-xall>${RES.list.length?`See all ${RES.list.length} results`:"See all answers"}${ic("chev",16)}</button>`:"");remember(q);
  if(many&&!SMART)smartLoad()}
 
 /* ---------- events ---------- */
