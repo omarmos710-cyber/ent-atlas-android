@@ -42,7 +42,7 @@ h1{font-size:64px}
 <h1>ACUTE &amp; CHRONIC PHARYNGITIS</h1>
 <div class="sub">almost always a virus that passes in a week · find the few that are not ✎</div>
 
-<div class="grid even"><div class="gcol">
+<div class="grid even" style="grid-template-columns:1fr 1fr 1fr 1fr"><div class="gcol">
 
 <div class="card" style="--c:var(--blue)">
 <h2><span class="n">1</span>One symptom, many causes</h2>
@@ -51,7 +51,6 @@ h1{font-size:64px}
 <tr><td><b>Bacterial</b></td><td><b>group A strep</b> · C + G strep · anaerobes (Vincent) · diphtheria · gonococcus · <i>Arcanobacterium</i> · chlamydia, mycoplasma · syphilis</td></tr>
 <tr><td><b>Fungal</b></td><td>candida</td></tr>
 <tr><td><b>Protozoal</b></td><td>toxoplasma (rare)</td></tr></table>
-<div class="warn" style="margin-top:6px"><b>Group A strep</b> matters: rheumatic fever, glomerulonephritis, quinsy, scarlet fever</div>
 </div>
 
 <div class="card" style="--c:var(--orange)">
@@ -70,7 +69,12 @@ h1{font-size:64px}
 <table style="--c:var(--green)"><tr><th>Score (NICE NG84, 2018)</th><th>Action</th></tr>
 <tr><td>FeverPAIN 0–1 · Centor 0–2</td><td>no antibiotic</td></tr>
 <tr><td>FeverPAIN 2–3</td><td>none or <b>back-up</b></td></tr>
-<tr><td>FeverPAIN 4–5 · Centor 3–4</td><td><b>immediate</b> penicillin V, five to ten days</td></tr></table>
+<tr><td>FeverPAIN 4–5 · Centor 3–4</td><td>consider <b>immediate</b> antibiotic</td></tr></table>
+<table style="--c:var(--green);margin-top:4px"><tr><th>Drug</th><th>Dose · course</th></tr>
+<tr><td><b>Penicillin V</b></td><td><span class="hl">500 mg QDS or 1 g BD · 5–10 days</span> (children by age)</td></tr>
+<tr><td>Allergy</td><td>clarithromycin 250–500 mg BD · 5 days · pregnancy: erythromycin</td></tr>
+<tr><td>Severe pain</td><td>dexamethasone single dose (10 mg in trials) · selected adults, not routine</td></tr>
+<tr><td>Gonococcal</td><td>ceftriaxone 1 g IM once (BASHH) · test of cure, partners</td></tr></table>
 <div class="mini" style="margin-top:4px">US (2012): rapid antigen or culture first · penicillin or amoxicillin ten days if confirmed</div>
 </div>
 
@@ -79,69 +83,82 @@ h1{font-size:64px}
 <div class="card" style="--c:var(--teal)">
 <h2><span class="n">4</span>Test and treat</h2>
 <ul class="mini" style="--c:var(--teal)">
-<li>Rest, fluids, gargles, analgesia, viscous lidocaine · swab culture finds ~90% of GAS · <b>rapid antigen</b> in minutes · diphtheria: special media · gonococcus: plate at once · Monospot, EBV serology, film</li>
+<li>Swab culture finds ~90% of GAS · <b>rapid antigen</b> in minutes · diphtheria: special media · gonococcus: plate at once · no growth → viral · Monospot, EBV serology, film</li>
 <li><b>Strep</b>: penicillin V ten days (US) or five to ten (NICE), or <b>benzathine</b> IM · macrolide if allergic</li>
 <li><span class="hl">Rheumatic fever common (Egypt, developing world): full ten days or benzathine</span></li>
-<li>Diphtheria: <b>antitoxin</b> + penicillin or erythromycin</li>
+<li>General: rest, fluids, gargles, analgesia, flurbiprofen 8.75 mg lozenge (adults), viscous lidocaine · diphtheria: <b>antitoxin</b> + penicillin or erythromycin</li>
 </ul>
 <table style="--c:var(--teal);margin-top:4px"><tr><th>Trial</th><th>Finding</th></tr>
 <tr><td><b>Cochrane</b> 2021</td><td>~16 hours shorter · small absolute gain</td></tr>
 <tr><td><b>Swedish</b> 2019</td><td>QDS five days = TDS ten days</td></tr>
 <tr><td><b>TOAST</b> 2017</td><td>dexamethasone 10 mg: no gain at 24 h, yes at 48 h</td></tr></table>
+<div class="warn" style="margin-top:6px"><b>Group A strep</b> matters: rheumatic fever, glomerulonephritis, quinsy, scarlet fever</div>
 </div>
 
 <div class="card" style="--c:var(--red)">
 <h2><span class="n">5</span>Glandular fever</h2>
 <ul class="mini" style="--c:var(--red)">
 <li><b>EBV</b>, older child, young adult · grey-white membrane, <b>palatal petechiae</b>, <b>posterior</b> + anterior nodes, spleen, liver</li>
-<li>Atypical lymphocytes · <b>Monospot</b> (heterophile) or EBV serology</li>
-<li><span class="hl"><b>Amoxicillin / ampicillin → rash</b> in most</span>: avoid</li>
-<li>Airway: steroids, rarely nasopharyngeal airway or tonsillectomy · <b>no contact sport</b> for weeks (splenic rupture)</li>
+<li>FBC + film: atypical lymphocytes · <b>Monospot</b> (often negative in week one + young children) · EBV serology (VCA IgM, EBNA IgG) · LFT · nasendoscopy if airway concern</li>
+<li><span class="hl"><b>Amoxicillin / ampicillin → rash</b> in most</span>: avoid · antivirals: no benefit · paracetamol / ibuprofen, fluids, rest · fatigue may last weeks</li>
+<li>Airway / severe swelling: admit, short steroid course (not routine), rarely nasopharyngeal airway or tonsillectomy · <b>no contact sport ≥ 3–4 weeks</b> (longer if spleen big)</li>
 </ul>
 </div>
 
 <div class="card" style="--c:var(--purple)">
 <h2><span class="n">6</span>Other viral patterns</h2>
-<table style="--c:var(--purple)"><tr><th>Virus</th><th>Clue</th></tr>
-<tr><td><b>CMV</b></td><td>mono-like, immunosuppressed, Monospot negative</td></tr>
-<tr><td><b>Herpangina</b></td><td>coxsackie A · vesicles, red halo, palate + pillars</td></tr>
-<tr><td><b>Adenovirus</b></td><td>throat + fever + <b>conjunctivitis</b></td></tr>
-<tr><td><b>Lymphonodular</b></td><td>coxsackie · white-yellow nodules, posterior wall</td></tr>
-<tr><td><b>Measles</b></td><td><b>Koplik spots</b> three or four days before rash</td></tr>
-<tr><td><b>Acute HIV</b></td><td>mono-like + rash + mouth ulcers</td></tr></table>
+<ul class="mini" style="--c:var(--purple)">
+<li><b>CMV</b>: mono-like, immunosuppressed, Monospot negative · <b>acute HIV</b>: mono-like + rash + mouth ulcers</li>
+<li><b>Herpangina</b> (coxsackie A): vesicles, red halo, palate + pillars · <b>lymphonodular</b> (coxsackie): white-yellow nodules, posterior wall</li>
+<li><b>Adenovirus</b>: throat + fever + <b>conjunctivitis</b> · <b>measles</b>: <b>Koplik spots</b> three or four days before rash</li>
+</ul>
 </div>
 
 </div><div class="gcol">
 
 <div class="card" style="--c:var(--orange)">
-<h2><span class="n">7</span>Fungus, uvula, swelling</h2>
+<h2><span class="n">7</span>Candida · Quincke</h2>
 <ul class="mini" style="--c:var(--orange)">
-<li><b>Candida</b> spreading from the mouth: immunosuppressed, diabetic, steroids (incl. inhaled), antibiotics · pain, dysphagia, white plaques, hyphae · nystatin, clotrimazole, fluconazole, itraconazole</li>
+<li><b>Candida</b> spreading from the mouth: immunosuppressed, diabetic, steroids (incl. inhaled), antibiotics · pain, dysphagia, white plaques, hyphae</li>
+<li>Mild: <b>miconazole gel 2.5 ml QDS</b> after food (warfarin interaction) or nystatin 100,000 units/ml 1 ml QDS · 7 days + 2 after healing · extensive: <b>fluconazole 50–100 mg</b> daily (200–400 severe) 7–14 days · inhaler: spacer + rinse</li>
 <li><b>Quincke</b>: swollen uvula · tonsillitis, burns, heavy snoring</li>
-<li><b>Angioedema</b>: rapid, painless, watery · lips, tongue, floor, uvula, larynx · allergic = <b>histamine</b> · <b>ACE inhibitor</b> + hereditary (C1 esterase) = <b>bradykinin</b>, poor antihistamine response · stop ACE-i · C1 inhibitor or <b>icatibant</b> · awake fibreoptic or tracheostomy</li>
 </ul>
-<div class="warn" style="margin-top:6px">Drooling, can't swallow saliva, muffled voice, stridor, sitting forward: <b>don't lie flat, no tongue depressor</b> · senior airway help</div>
+</div>
+
+<div class="card" style="--c:var(--red)">
+<h2><span class="n">8</span>Angioedema</h2>
+<ul class="mini" style="--c:var(--red)">
+<li>Rapid, painless, watery swelling, lips to larynx · allergic = <b>histamine</b> · <b>ACE inhibitor</b> + hereditary (C1 esterase) = <b>bradykinin</b>, poor antihistamine response</li>
+<li>Allergic: <span class="hl"><b>adrenaline 1:1000 IM</b> thigh: 500 micrograms (&gt; 12 y), 300 (6–12), 150 (6 months–6 y)</span>, repeat after 5 min · then antihistamine</li>
+<li>ACE-i: stop for life · hereditary: C1 inhibitor 20 units/kg IV or <b>icatibant 30 mg SC</b> (repeat after 6 h) · awake fibreoptic or tracheostomy</li>
+</ul>
+<div class="warn" style="margin-top:6px">Drooling, can't swallow saliva, muffled voice, stridor, leaning forward: <b>don't lie flat, no tongue depressor</b>, senior airway help</div>
 </div>
 
 <div class="card" style="--c:var(--blue)">
-<h2><span class="n">8</span>Chronic pharyngitis</h2>
-<table style="--c:var(--blue)"><tr><th>Type</th><th>Look</th></tr>
-<tr><td><b>Catarrhal</b></td><td>congested wall, engorged vessels, mucus</td></tr>
-<tr><td><b>Hypertrophic</b> (granular)</td><td>thick wall, <b>red lymphoid granules</b>, lateral bands, long uvula</td></tr>
-<tr><td><b>Atrophic</b></td><td>dry, glazed, crusts · with atrophic rhinitis</td></tr></table>
-<ul class="mini" style="--c:var(--blue);margin-top:4px">
-<li>Causes: postnasal drip, dental + tonsil sepsis · <b>mouth breathing</b> (dry unfiltered air) · smoking, pan, alcohol, spice, fumes · <b>LPR</b> · voice misuse, throat clearing</li>
-<li>Worse in the morning · lump sensation, urge to swallow · tiring voice, cough, gagging</li>
-<li>Remove cause → voice rest, speech therapy, stop hawking → morning saline gargles → <b>Mandl's paint</b> → cautery of granules (silver nitrate, diathermy)</li>
-<li>Atrophic: alkaline sprays + irrigation for crusts, Mandl's, <b>potassium iodide</b> by mouth, treat the atrophic rhinitis</li>
+<h2><span class="n">9</span>Chronic pharyngitis</h2>
+<ul class="mini" style="--c:var(--blue)">
+<li><b>Catarrhal</b>: congested wall, engorged vessels, mucus · <b>hypertrophic</b> (granular): thick wall, <b>red lymphoid granules</b>, lateral bands, long uvula · <b>atrophic</b>: dry, glazed, crusts, with atrophic rhinitis</li>
+<li>Causes: postnasal drip, dental + tonsil sepsis · <b>mouth breathing</b> (dry unfiltered air) · smoking, pan, alcohol, spice, fumes · <b>LPR</b> · voice misuse, throat clearing · worse in the morning, lump feeling, tiring voice, cough, gagging</li>
+<li>Remove cause → voice rest, speech therapy, stop hawking → saline gargles → <b>Mandl's paint</b> → cautery of granules (silver nitrate, diathermy)</li>
+<li>Atrophic: alkaline sprays + irrigation, Mandl's, oral <b>potassium iodide</b>, treat the atrophic rhinitis</li>
 </ul>
 <div class="warn" style="margin-top:6px">One-sided pain, earache, dysphagia, weight loss, haemoptysis, neck lump: <b>not chronic pharyngitis</b> until endoscopy + neck palpation</div>
 </div>
 
 </div><div class="gcol">
 
+<div class="card" style="--c:var(--green)">
+<h2><span class="n">10</span>Keratosis pharyngis</h2>
+<ul class="mini" style="--c:var(--green)">
+<li>White-yellow <b>horny spikes</b>, firmly adherent · tonsils, posterior wall, lingual tonsil</li>
+<li>Hypertrophy + keratinisation of epithelium</li>
+<li><b>No inflammation, no fever</b> → not follicular tonsillitis · harmless, often regresses · reassure</li>
+</ul>
+</div>
+
 <div class="card" style="--c:var(--purple)">
-<h2><span class="n">9</span>Pain without inflammation</h2>
+<h2><span class="n">11</span>Pain without inflammation</h2>
 <svg width="380" height="200" viewBox="0 0 380 200" style="display:block;margin:0 auto">
  <g font-family="Hand" stroke-linecap="round" stroke-linejoin="round">
   <path d="M30 40 L220 40" stroke="#1d2330" stroke-width="5"/>
@@ -165,33 +182,31 @@ h1{font-size:64px}
  </g>
 </svg>
 <ul class="mini" style="--c:var(--purple);margin-top:4px">
-<li><b>Eagle</b>: long styloid or calcified stylohyoid ligament · often after tonsillectomy · <b>tip felt in the fossa</b> · X-ray or 3D CT · many long styloids are silent · shorten via fossa or neck</li>
-<li><b>Glossopharyngeal neuralgia</b>: electric pain tonsil, tongue base, ear · swallowing, yawning · carbamazepine, microvascular decompression</li>
-<li><b>Globus</b>: lump between meals, food goes down · reflux, anxiety · red flags → investigate</li>
+<li><b>Eagle</b> (styalgia): long styloid or calcified stylohyoid ligament · pain in tonsillar fossa + upper neck → ear · often after tonsillectomy · <b>tip felt in the fossa</b> · open-mouth / lateral X-ray or 3D CT · many long styloids are silent · shorten via fossa or neck</li>
 </ul>
 </div>
 
-<div class="card" style="--c:var(--green)">
-<h2><span class="n">10</span>Keratosis pharyngis</h2>
-<ul class="mini" style="--c:var(--green)">
-<li>White-yellow <b>horny spikes</b>, firmly adherent · tonsils, posterior wall, lingual tonsil</li>
-<li>Hypertrophy + keratinisation of epithelium</li>
-<li><b>No inflammation, no fever</b> → not follicular tonsillitis · harmless, often regresses · reassure</li>
+<div class="card" style="--c:var(--purple)">
+<h2><span class="n">12</span>Neuralgia · globus</h2>
+<ul class="mini" style="--c:var(--purple)">
+<li><b>Glossopharyngeal neuralgia</b>: electric pain tonsil, tongue base, ear · swallowing, yawning · MRI posterior fossa · <b>carbamazepine</b> 100 mg once / twice daily → usually 200 mg TDS–QDS (HLA-B*1502 if Han Chinese / Thai; FBC, sodium, LFT) · oxcarbazepine, gabapentin, pregabalin · microvascular decompression</li>
+<li><b>Globus</b>: persistent lump between meals, food goes down normally · examine fully + endoscopically · reflux, anxiety · red flags (pain, dysphagia, weight loss, voice change, neck mass) → investigate</li>
 </ul>
 </div>
 
 <div class="card" style="--c:var(--red)">
-<h2><span class="n">11</span>Exam traps ✗</h2>
+<h2><span class="n">13</span>Exam traps ✗</h2>
 <ul class="mini" style="--c:var(--red)">
 <li>Amoxicillin for exudative throat + big posterior nodes</li>
 <li>Stopping penicillin at three days because it feels better</li>
 <li>Smoker's persistent pain called chronic pharyngitis, no endoscopy</li>
 <li>ACE inhibitor angioedema treated with antihistamines alone</li>
-<li>Lying down or depressing the tongue of a drooling, stridulous patient</li>
+<li>Lying down or using a tongue depressor in a drooling, stridulous patient</li>
 </ul>
 </div>
 
+
 </div></div>
-<div class="abbr"><h4>Abbreviations</h4><div class="al" style="columns:3"><span><b>ACE</b> angiotensin-converting enzyme</span><span><b>CMV</b> cytomegalovirus</span><span><b>EBV</b> Epstein–Barr virus</span><span><b>GAS</b> group A streptococcus</span><span><b>HSV</b> herpes simplex virus</span><span><b>IM</b> intramuscular</span><span><b>LPR</b> laryngopharyngeal reflux</span><span><b>QDS</b> four times a day</span><span><b>TDS</b> three times a day</span><span><b>US</b> United States (guideline)</span></div></div>
+<div class="abbr"><h4>Abbreviations</h4><div class="al" style="columns:3"><span><b>ACE</b> angiotensin-converting enzyme</span><span><b>ACE-i</b> ACE inhibitor</span><span><b>BASHH</b> British Association for Sexual Health and HIV</span><span><b>BD</b> twice a day</span><span><b>CMV</b> cytomegalovirus</span><span><b>EBNA</b> EBV nuclear antigen</span><span><b>EBV</b> Epstein–Barr virus</span><span><b>FBC</b> full blood count</span><span><b>GAS</b> group A streptococcus</span><span><b>HLA</b> human leucocyte antigen</span><span><b>HSV</b> herpes simplex virus</span><span><b>IM</b> intramuscular</span><span><b>LFT</b> liver function tests</span><span><b>LPR</b> laryngopharyngeal reflux</span><span><b>MRI</b> magnetic resonance imaging</span><span><b>QDS</b> four times a day</span><span><b>SC</b> subcutaneous</span><span><b>TDS</b> three times a day</span><span><b>US</b> United States (guideline)</span><span><b>VCA</b> viral capsid antigen</span></div></div>
 <div class="foot">ENT Atlas · Clinical · Acute and chronic pharyngitis · summary of the article</div>
 </body></html>
