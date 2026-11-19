@@ -509,6 +509,18 @@ function rerank(C,scores,opt){opt=opt||{};const it=C.items,n=it.length;if(!n)ret
  for(const g of G){if(items.length>=lim)break;const keepAll=opt.keepLead!==false&&g===G[0]&&lead&&it[g[0]].route===lead.route;
   const best=keepAll?g.filter(j=>it[j].eng).slice(0,Math.max(per,7)).slice(0,lim-items.length):g.slice().sort((a,b)=>z[b]-z[a]).slice(0,Math.min(per,lim-items.length));best.sort((a,b)=>g.indexOf(a)-g.indexOf(b));for(const j of best)items.push(Object.assign({},it[j],{rr:z[j]}))}
  return Object.assign({},C.A,{items,reranked:true})}
-const API={setModel,buildDocs,search,answer,setAnswers,candidates,rerank,entityOf,_units:units,_x:{HS,QUAL,PRON,XREF,tidy,cw,fold,STRICT},parse,encode,toks,stem,wordpiece,ASPECTS,get ready(){return !!(M&&D)},doc:i=>D&&D.docs[i]};
+/* ---------- the question bank: a question asked almost word for word as one of the app's own flashcards,
+   MCQs or viva questions gets that item's answer too (quoted, linked to its topic) ---------- */
+let QB=null;
+function bankMatch(q){if(!D)return null;if(!QB){QB=[];for(const d of D.docs)if(d.ty==="card"||d.ty==="q"||d.ty==="viva"){const t=[...new Set(toks(d.title))].filter(x=>x.length>1);if(t.length>=2)QB.push({d,t:new Set(t)})}}
+ if(/\b(following|pictured|shown|this patient|this scan)\b/i.test(q))return null;
+ const qt=new Set(toks(q).filter(x=>x.length>1));if(qt.size<2)return null;let best=null,bs=0,tie=false;
+ for(const b of QB){let n=0;for(const x of qt)if(b.t.has(x))n++;if(n<2)continue;const j=n/(qt.size+b.t.size-n);if(j>bs+1e-9){bs=j;best=b;tie=false}else if(Math.abs(j-bs)<1e-9&&best&&best.d.body!==b.d.body)tie=true}
+ if(!best||bs<.7||tie)return null;const d=best.d;
+ /* the same kind of question: "treatment of X" is not answered by "what is X?" */
+ const ua=parse(q).aspects.map(a=>a.id).filter(a=>a!=="def"),ba=parse(d.title).aspects.map(a=>a.id).filter(a=>a!=="def");
+ if((ua.length||ba.length)&&!ua.some(a=>ba.includes(a)))return null;const text=tidy(d.body.replace(/^Answer:\s*/i,""));if(text.length<3)return null;
+ return {i:d.i,route:d.route,text,needle:text,label:"",title:d.title,where:d.where,bank:true,score:bs}}
+const API={setModel,buildDocs,search,answer,setAnswers,candidates,rerank,bankMatch,entityOf,_units:units,_x:{HS,QUAL,PRON,XREF,tidy,cw,fold,STRICT},parse,encode,toks,stem,wordpiece,ASPECTS,get ready(){return !!(M&&D)},doc:i=>D&&D.docs[i]};
 if(typeof module!=="undefined"&&module.exports)module.exports=API;else root.XSMART=API;
 })(typeof window!=="undefined"?window:this);
