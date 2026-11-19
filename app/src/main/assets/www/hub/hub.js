@@ -205,8 +205,6 @@ function vToday(){
    try{const s=continueSec();if(s&&ST.lastReg)return `<button class="mrow" data-go="region:${s.r}" data-sec="${s.id}"><span class="mn">${ic("atlas",15)}</span><span class="mt">${E((RMAP[s.r]||{}).name||"")}<small>Continue · ${E(s.t)}</small></span></button>`}catch(e){}return ""})();
  V().innerHTML=`<div class="h-today mtoday">
  <header class="mhead"><span class="eyebrow">${E(fmtD(new Date()))}</span><h1>${greet}</h1>${sub?`<p class="msub">${E(sub)}</p>`:""}</header>
- <div class="xsq big">${ic("search",20)}<input type="search" id="hx" autocomplete="off" enterkeyhint="search" placeholder="Search everything" aria-label="Search everything"></div>
- <div id="hxres" aria-live="polite"></div>
  <div id="hxrest">
   ${(()=>{const M=mapSum();return M.next?`<button class="mapstrip" data-go="map"><span class="msr"><svg viewBox="0 0 36 36"><circle cx="18" cy="18" r="15.5"/><circle cx="18" cy="18" r="15.5" style="stroke-dasharray:${(M.pct*97.4/100).toFixed(1)} 97.4"/></svg><b>${M.pct}</b></span><span class="mst2"><small>The curriculum · ${M.done} of ${M.all.length} stops</small><b>Next: ${E(M.next.t)}</b></span>${ic("chev",16)}</button>`:""})()}
   <section class="h-plan"><div class="h-planh"><span class="eyebrow">Today</span><small>${P.length} step${P.length>1?"s":""}</small></div>
