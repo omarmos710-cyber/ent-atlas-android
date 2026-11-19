@@ -7002,15 +7002,16 @@ const ic=(n,s=22)=>`<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="no
 const HAS_PDF=typeof FIGDATA==="undefined";
 
 /* ---------- navigation ---------- */
-const TABS5=[["home","Today"],["atlas","Anatomy"],["cl:home","Clinical"],["imaging","Imaging"],["th:home","Surgical"],["study","Study"]];
-const SIDE=[["home","Today"],["atlas","Anatomy"],["cl:home","Clinical"],["imaging","Imaging"],["th:home","Surgical"],["study","Study"],["figures","Figures"],["tables","Tables"],["tracer","Tracer"],["quiz","Quiz"],["practical","Bench exam"],["more","More"]];
-$("#tabs").innerHTML=TABS5.map(([v,l])=>`<button class="tab" data-go="${v}">${ic(v)}${l}</button>`).join("");
+/* Search sits in the middle of the dock, as its own tab */
+const TABS5=[["home","Today"],["atlas","Anatomy"],["cl:home","Clinical"],["search","Search"],["imaging","Imaging"],["th:home","Surgical"],["study","Study"]];
+const SIDE=[["home","Today"],["search","Search"],["atlas","Anatomy"],["cl:home","Clinical"],["imaging","Imaging"],["th:home","Surgical"],["study","Study"],["figures","Figures"],["tables","Tables"],["tracer","Tracer"],["quiz","Quiz"],["practical","Bench exam"],["more","More"]];
+$("#tabs").innerHTML=TABS5.map(([v,l])=>v==="search"?`<button class="tab tabq" data-go="search" aria-label="Search"><span class="tabqi">${ic("search")}</span></button>`:`<button class="tab" data-go="${v}">${ic(v)}${l}</button>`).join("");
 document.querySelectorAll("#side .tab").forEach(b=>b.remove());
 $("#side").insertAdjacentHTML("beforeend",SIDE.map(([v,l])=>`<button class="tab" data-go="${v}">${ic(v)}${l}</button>`).join(""));
-const TABOF={home:"home",atlas:"atlas",region:"atlas",tracer:"atlas",study:"study",cards:"study",drill:"study",order:"study",mistakes:"study",quiz:"study",figures:"atlas",cl:"cl:home",imaging:"imaging",series:"imaging",cond:"imaging",spot:"imaging",howto:"imaging",more:"home",tables:"atlas",saved:"home",search:"home"};
+const TABOF={home:"home",atlas:"atlas",region:"atlas",tracer:"atlas",study:"study",cards:"study",drill:"study",order:"study",mistakes:"study",quiz:"study",figures:"atlas",cl:"cl:home",imaging:"imaging",series:"imaging",cond:"imaging",spot:"imaging",howto:"imaging",more:"home",tables:"atlas",saved:"home",search:"search"};
 function markTabs(base){const t=TABOF[base]||"home";
   document.querySelectorAll("#tabs .tab").forEach(b=>b.setAttribute("aria-current",String(b.dataset.go===t)));
-  document.querySelectorAll("#side .tab").forEach(b=>b.setAttribute("aria-current",String(b.dataset.go===base||(base==="region"&&b.dataset.go==="atlas")||(["cards","drill","order","mistakes"].includes(base)&&b.dataset.go==="study")||(["saved","search"].includes(base)&&b.dataset.go==="more"))))}
+  document.querySelectorAll("#side .tab").forEach(b=>b.setAttribute("aria-current",String(b.dataset.go===base||(base==="region"&&b.dataset.go==="atlas")||(["cards","drill","order","mistakes"].includes(base)&&b.dataset.go==="study")||(base==="saved"&&b.dataset.go==="more"))))}
 EXTRA.study=vStudy;EXTRA.more=vMore;
 const _go3=go;
 go=function(v,opt){_go3(v,opt);markTabs(/^cl:t-im_|^cl:g-imgl/.test(v)?"imaging":v.split(":")[0])};
@@ -7856,9 +7857,9 @@ const tabs=$("#tabs");
 if(tabs){const pill=document.createElement("span");pill.className="dockpill";pill.setAttribute("aria-hidden","true");tabs.prepend(pill);
   let px=null,pw=null,POS=new Map();
   /* tab positions only change when the dock resizes, so measure them then, never right after a page render */
-  const measure=()=>{POS=new Map();tabs.querySelectorAll(".tab").forEach(t=>POS.set(t,[t.offsetLeft,t.offsetWidth]))};
-  const place=anim=>{const b=tabs.querySelector('.tab[aria-current="true"]');if(!b){pill.style.opacity="0";return}pill.style.opacity="1";
-    if(!POS.has(b))measure();const [x,w]=POS.get(b);if(px===x&&pw===w)return;if(anim&&px!==null&&!RM&&(px!==x||pw!==w))pill.animate([{transform:`translateX(${px}px)`,width:pw+"px"},{transform:`translateX(${x}px)`,width:w+"px"}],{duration:SPR.dur,easing:SPR.easing});
+  const measure=()=>{POS=new Map();tabs.querySelectorAll(".tab").forEach(t=>POS.set(t,[t.offsetLeft+2,t.offsetWidth-4]))}; /* a little inside its tab, so the seven tabs keep clear edges */
+  const place=anim=>{const b=tabs.querySelector('.tab[aria-current="true"]');if(!b||b.classList.contains("tabq")){pill.style.opacity="0";return}pill.style.opacity="1";
+    measure(); /* the round Search button has its own look; the lozenge marks the other tabs, measured each time so it always fits */const [x,w]=POS.get(b);if(px===x&&pw===w)return;if(anim&&px!==null&&!RM&&(px!==x||pw!==w))pill.animate([{transform:`translateX(${px}px)`,width:pw+"px"},{transform:`translateX(${x}px)`,width:w+"px"}],{duration:SPR.dur,easing:SPR.easing});
     pill.style.transform=`translateX(${x}px)`;pill.style.width=w+"px";px=x;pw=w};
   new MutationObserver(()=>place(true)).observe(tabs,{subtree:true,attributes:true,attributeFilter:["aria-current"]});
   new ResizeObserver(()=>{measure();place(false)}).observe(tabs);requestAnimationFrame(()=>{measure();place(false)})}
@@ -8900,6 +8901,15 @@ mark.xhl{background:rgba(255,200,0,.55);color:inherit;border-radius:3px;box-shad
 .xans-part{margin:10px 0 0;font:700 11.5px/1.3 var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}.xans-part+.xans-g{border-top:0;margin-top:2px}.xans-more{display:inline-flex;align-items:center;gap:4px;border:0;background:none;color:var(--accent);font:700 13px/1.3 var(--f-body);padding:8px 0 2px}.xans-c .xansi{font-size:14px;padding:5px 0 5px 14px}.clsmart{margin:14px 0 4px}.clsmart h3{font:700 12px/1.3 var(--f-body);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}.clsmart .clsmore{display:inline-flex;align-items:center;gap:4px;border:0;background:none;color:var(--accent);font:600 13px/1.3 var(--f-body);padding:4px 0}.xans{border:1px solid var(--accent);border-radius:14px;background:var(--accent-soft);padding:12px 14px 10px;margin:0 0 10px}.xans-h{display:flex;flex-direction:column;gap:2px;margin:0 0 6px;font:700 13px/1.3 var(--f-body);color:var(--accent)}.xans-h small{font-weight:500;font-size:11.5px;color:var(--muted)}.xans ul{list-style:none;margin:0;padding:0}.xans li+li{border-top:1px solid var(--line)}.xans-g+.xans-g{border-top:1px solid var(--accent);margin-top:6px;padding-top:4px}.xansi{display:block;width:100%;text-align:left;border:0;background:none;color:var(--ink);font:inherit;font-size:14.5px;line-height:1.45;padding:7px 0 7px 14px;position:relative}.xansi:before{content:"";position:absolute;left:2px;top:15px;width:5px;height:5px;border-radius:50%;background:var(--accent)}.xansi small{display:block;font-size:11.5px;color:var(--muted);margin-top:2px}.xans-src{display:inline-flex;align-items:center;gap:4px;text-align:left;border:0;background:none;color:var(--accent);font:600 12.5px/1.3 var(--f-body);padding:6px 0 0}
 .xsmq{display:flex;flex-wrap:wrap;align-items:center;gap:6px;color:var(--muted);font-size:13px;line-height:1.4;margin:0 2px 8px}.xsmq b{color:var(--ink,inherit);font-weight:650}.xsmq small{font-size:12px}
 @media (min-width:700px){.xgrid{grid-template-columns:repeat(9,1fr)}.xgrid button{aspect-ratio:1}}
+
+/* search as the centre tab of the dock; the top bar and Home no longer carry their own search */
+.top [data-go="search"]{display:none!important}
+.tabs{grid-template-columns:repeat(7,minmax(0,1fr))!important}
+.tabs .tabq{display:flex;align-items:center;justify-content:center}
+.tabs .tabq .tabqi{display:grid;place-items:center;width:46px;height:46px;border-radius:50%;background:var(--accent);color:#fff;box-shadow:0 6px 16px rgba(10,12,16,.28);transition:transform .25s}
+.tabs .tabq .tabqi svg{width:22px!important;height:22px!important;stroke-width:2}
+.tabs .tabq[aria-current="true"] .tabqi{transform:scale(1.06)}
+@media (max-width:959px){.tabs .tab{font-size:9px!important;letter-spacing:0!important}.tabs:has(.tabq[aria-current="true"]) .dockpill{opacity:0}}
 </style>
 <script src="hub/qcore.js"></script>
 <script src="hub/topics.js"></script>
