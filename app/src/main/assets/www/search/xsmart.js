@@ -60,7 +60,7 @@ const SKIPABBR=new Set(["it","on","so","cs","cr","ap","sp","an","as","at","or","
 /* q: phrases in the question (longest first); h: heading words that answer it; c: cue words in the text */
 const ASPECTS=[
  /* drugs */
- {id:"dose",label:"Dose",q:["duration of treatment","duration of antibiotics","how many days","duration","maximum dose","max dose","how much","doses","dose","dosage","dosing","regimen","how often"],h:/\b(doses?|dosage|dosing|regimen|duration)\b/,c:/\b\d+(\.\d+)? ?(mg|g|micrograms?|ml|units)\b/},
+ {id:"dose",label:"Dose",q:["duration of treatment","duration of antibiotics","duration of the course","how long to treat","how many days","maximum dose","max dose","how much","doses","dose","dosage","dosing","regimen","how often"],h:/\b(doses?|dosage|dosing|regimen|duration)\b/,c:/\b\d+(\.\d+)? ?(mg|g|micrograms?|ml|units)\b/},
  {id:"preg",label:"Pregnancy and breastfeeding",q:["in pregnancy","pregnancy","pregnant","breastfeeding","breast feeding","breast-feeding","lactation"],h:/\b(pregnan\w*|breast-?feeding|lactation)\b/,c:/\b(pregnan\w*|breast-?feed\w*|teratogen\w*)\b/},
  {id:"se",label:"Side effects",q:["side effects","side effect","adverse effects","adverse effect","adverse reactions","toxicity","toxicities","unwanted effects"],h:/\b(adverse (effects?|reactions?)|side effects?|toxicit\w*|safety)\b/,c:/\b(toxicit\w*|side effects?)\b/},
  {id:"int",label:"Interactions",q:["drug interactions","interactions","interaction","interacts with","interact with"],h:/\binteractions?\b/,c:/\binteract\w*\b/},
@@ -75,6 +75,7 @@ const ASPECTS=[
  {id:"anaes",keep:1,label:"Anaesthesia",q:["type of anaesthesia","type of anesthesia","anaesthesia","anaesthetic","anesthesia","anesthetic"],h:/\b(anaesthe\w*|anesthe\w*)\b/,c:/\b(anaesthe\w*|anesthe\w*|intubat\w*)\b/},
  {id:"prep",keep:1,label:"Before the operation",q:["preoperative preparation","pre-operative preparation","preoperative assessment","pre-operative assessment","before the operation","before surgery","preparation","instruments","equipment","tray"],h:/\b(before the (procedure|operation)|preparation|pre-?operative|tray|instruments?|equipment|monitoring|antibiotics)\b/,c:/\b(pre-?operative\w*)\b/},
  {id:"post",label:"Aftercare",q:["postoperative care","post-operative care","post operative care","postoperative instructions","post-operative instructions","after the operation","after surgery","discharge advice","aftercare","after care"],h:/\b(after (the )?(operation|surgery|procedure|stapes surgery)|post-?operative|aftercare|discharge)\b/,c:/\b(post-?operative\w*)\b/},
+ {id:"site",label:"Site",q:["where is it felt","where is","where are","where does","location of","located"],h:/\b(site|location|where)\b/,c:/\b(felt|located|lies|situated|arises|sits|found in)\b/},
  /* anatomy */
  {id:"nerve",keep:1,label:"Nerve supply",q:["nerve supply","sensory supply","motor supply","innervation","innervated by","supplied by which nerve"],h:/(^nerves?\b|\bnerve supply\b|\binnervation\b|\bnerves (of|related|and)\b|\bnerve and\b)/,c:/\b(supplied by|innervat\w*|nerve supply)\b/},
  {id:"blood",keep:1,label:"Blood supply",q:["arterial blood supply","blood supply","arterial supply","venous drainage","vascular supply"],h:/\b(blood supply|arterial supply|venous drainage|^arteries|^veins|^vessels|^arterial|pedicle)\b/,c:/\b(blood supply|venous drainage|pedicle)\b/},
@@ -326,7 +327,7 @@ function entityOf(topic,asp){if(!AM)return null;const T=new Set(toks(topic));con
  /* "epidermoid on MRI": the scan is how, the condition is what */
  if(all.length>1&&/^(ct|mri|ultrasound|x-ray|imaging)$/i.test(AM.names[best.i][0])){const c=all.find(a=>!/^(ct|mri|ultrasound|x-ray|imaging)$/i.test(AM.names[a.i][0]));if(c)best=c}
  /* a drug question ("duration of amoxicillin for otitis media", "side effects of ...") is about the drug */
- if(all.length>1&&asp&&asp.some(x=>/^(dose|se|int|mech|spec|preg)$/.test(x))){const dr=all.find(a=>/^cl:t-dr_/.test((AM.home.get(a.i)||[""])[0]));if(dr)best=dr}
+ if(all.length>1&&asp&&asp.some(x=>/^(dose|se|int|mech|spec|preg|site)$/.test(x))){const dr=all.find(a=>/^cl:t-dr_/.test((AM.home.get(a.i)||[""])[0]));if(dr)best=dr}
  /* otherwise a condition named as long as a procedure is the subject ("hoarseness before laryngoscopy") */
  else if(all.length>1&&PROC.test(AM.names[best.i][0])){const c=all.find(a=>a.n===best.n&&!PROC.test(AM.names[a.i][0]));if(c)best=c}
  /* a word that changes the disease (acute, chronic, necrotising) must not be left over, unless another condition in the question explains it */
@@ -343,7 +344,7 @@ function answerMap(P,opt){if(!AM)return null;CTXK=new Set();HEADK=new Set();CTXF
   for(const id of AM.asp){if(id==="def")continue;for(const [d,k,w] of AM.by.get(e+"|"+id)||[]){if(own.has(d))continue;const ht=new Set(toks(D.docs[d].title));if(TT0.length&&TT0.some(t=>ht.has(t)))lab.push([d,k,TT0.every(t=>ht.has(t))?w:w*.8])}}}
  /* a narrower question with no lines of its own takes the nearest wider one: side effects -> complications, dose -> treatment,
     nerve supply -> anatomy, red flags -> clinical picture */
- if(lab.reduce((m,x)=>Math.max(m,x[2]),0)<.5){const FB={dose:["tx"],se:["cx"],cx:["se"],preg:["ci"],int:["ci"],mech:["why","def"],why:["mech"],spec:["def","ind"],flag:["cf","dx"],hx:["cf"],exam:["cf","dx"],consent:["cx","ind"],pos:["how","prep"],anaes:["prep","how"],prep:["dx","how"],post:["tx","cx"],nerve:["an"],blood:["an"],lymph:["an"],bound:["an"],cont:["an"],rel:["an"],musc:["an"],parts:["an","def"],branch:["an"],course:["an"],dev:["an","why"],an:["def"],ind:["tx"]};
+ if(lab.reduce((m,x)=>Math.max(m,x[2]),0)<.5){const FB={dose:["tx"],se:["cx"],cx:["se"],preg:["ci"],int:["ci"],mech:["why","def"],why:["mech"],spec:["def","ind"],flag:["cf","dx"],hx:["cf"],exam:["cf","dx"],consent:["cx","ind"],pos:["how","prep"],anaes:["prep","how"],prep:["dx","how"],post:["tx","cx"],nerve:["an"],blood:["an"],lymph:["an"],bound:["an"],cont:["an"],rel:["an"],musc:["an"],parts:["an","def"],branch:["an"],course:["an"],dev:["an","why"],an:["def"],ind:["tx"],site:["cf","def","an"]};
   for(const a of asp)for(const f of FB[a]||[])lab=lab.concat((AM.by.get(e+"|"+f)||[]).map(([d,k,w])=>[d,k,w*.9]))}
  /* "indications for surgery in X" when X has no indications heading: the treatment lines that say when */
  if(lab.reduce((m,x)=>Math.max(m,x[2]),0)<.5&&asp.some(a=>a==="ind"||a==="ci")){const re=asp.includes("ci")?/\b(contra-?indicat\w*|avoid\w*|never|must not|should not|cautions?|unsafe|not suitable)\b/i:/\b(persist\w*|despite|fail\w*|refractory|indicat\w*|when|unless|reserved for|for patients|if the)\b/i;
@@ -363,6 +364,9 @@ function answerMap(P,opt){if(!AM)return null;CTXK=new Set();HEADK=new Set();CTXF
  /* "why ...": the line that gives the reason leads */
  if(/^\s*why\b/i.test(P.raw||"")&&ENTFOCUS.length){const W0=/\b(because|since|as it|so that|which is why|due to|owing to)\b/i;const have=new Set(lab.map(x=>x[0]+"|"+x[1]));
   for(const id of AM.asp)for(const [d,k,w] of AM.by.get(e+"|"+id)||[]){if(have.has(d+"|"+k))continue;const u=units(D.docs[d].body)[k];if(u&&W0.test(u.t)&&ENTFOCUS.some(f=>toks(u.t).includes(f))){have.add(d+"|"+k);lab.push([d,k,Math.max(w,.7)])}}}
+ /* "what does HINTS stand for": the line that spells the name out ("HINTS (Head Impulse, Nystagmus, Test of Skew)") leads */
+ if(/\b(stands? for|abbreviation|acronym)\b/i.test(P.raw||"")){const term=(P.topic||"").trim().split(/\s+/)[0];if(term&&term.length>=2){const R=new RegExp("\\b"+term.replace(/[^a-z0-9]/gi,"")+"\\s*\\(","i");const have=new Set(lab.map(x=>x[0]+"|"+x[1]));
+  for(const id of AM.asp)for(const [d,k,w] of AM.by.get(e+"|"+id)||[]){const u=units(D.docs[d].body)[k];if(u&&R.test(u.t)){SUPK.add(d+"|"+k);if(!have.has(d+"|"+k)){have.add(d+"|"+k);lab.push([d,k,1])}}}}}
  if(/^\s*why\b/i.test(P.raw||"")&&lab.length){const W=/\b(because|since|as it|as they|so that|which is why|due to|owing to|explains|the reason)\b/i;const ft=ENTFOCUS.slice();
   lab=lab.map(([d,k,w])=>{const u=units(D.docs[d].body)[k];if(u&&W.test(u.t)&&(!ft.length||ft.some(f=>toks(u.t).includes(f)))){SUPK.add(d+"|"+k);const tk=toks(u.t);return [d,k,.3+.5*w+.5*ft.filter(f=>tk.includes(f)).length/ft.length]} /* the reason that answers most of the question's words leads */return [d,k,w]})}
  /* "commonest site of X": no aspect of its own, so every line about X is a candidate and the superlative picks */
@@ -429,13 +433,15 @@ function multi(P,opt){const asp=P.aspects;const e=entityOf(P.topic,asp.map(a=>a.
  if(!items.length||new Set(items.map(x=>x.part)).size<2)return null;return {map:true,entity:name,conf:1,best:1,items}}
 /* a named sign or eponym with no line that says "sign" ("steeple sign"): read the best lines about the name itself */
 function answer(S,opt){const A=answer0(S,opt);if(A||!S||!S.P||!S.P.aspects.length||(opt&&opt.retry))return A;return answer0(Object.assign({},S,{P:Object.assign({},S.P,{aspects:[]})}),Object.assign({},opt||{},{retry:1,noMap:true}))}
-function answer0(S,opt){opt=opt||{};if(!S||!S.list||!M)return null;let P=S.P;if(/\b(viva|questions?|mcqs?|essays?|flashcards?|quiz)\b/i.test(P.raw||""))return null;
+function answer0(S,opt){opt=opt||{};if(!S||!S.list||!M)return null;let P=S.P;if(/\b(viva|mcqs?|essays?|flashcards?|quiz)\b|\bquestions? (on|about|for)\b/i.test(P.raw||""))return null;
  if(!opt.noMap&&AM){if(P.parts){const C=compare(P,opt);if(C)return C}
   /* "approach to a hoarse voice": the approach article, compiled in the order a clinician works: red flags, history, examination, tests, management */
   if(/\bapproach(es)? to\b/.test(fold(P.raw||""))&&P.aspects.every(a=>a.id==="how"||a.id==="def")){const e=entityOf(P.topic,[]);
    /* the "Approach to ..." article that speaks most about the condition */
    let apx="",best=0;if(e!==null){const cnt=new Map();for(const id of AM.asp)for(const [d] of AM.by.get(e+"|"+id)||[]){const dd=D.docs[d];if(/^approach to\b/i.test(dd.art)){const r=dd.route.split("~")[0];cnt.set(r,(cnt.get(r)||0)+1)}}cnt.forEach((v,r)=>{if(v>best){best=v;apx=r}})}
    if(apx){const A=multi(Object.assign({},P,{aspects:["flag","hx","exam","dx","tx"].map(ASPBY)}),Object.assign({},opt,{n:Math.max(opt.n||6,10),art:apx}));if(A)return A}}
+  /* "amoxicillin duration for otitis media": with a drug named, the duration is the drug's */
+  if(!P.aspects.length&&/\bduration\b/i.test(P.raw||"")&&entitiesOf(P.topic).some(a=>/^cl:t-dr_/.test((AM.home.get(a.i)||[""])[0])))P=Object.assign({},P,{aspects:[ASPBY("dose")]});
   if(P.aspects.length>1){const A=multi(P,opt);if(A)return A}const A=answerMap(P,opt);if(A)return A}
  /* the quoting fallback reads a narrow anatomy question with the wider anatomy cues too */
  if(P.aspects.length&&P.aspects.every(a=>ANATQ.has(a.id)))P=Object.assign({},P,{aspects:P.aspects.concat([ASPBY("an")])});
