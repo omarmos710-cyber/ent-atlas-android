@@ -6,7 +6,7 @@ const ns=s=>String(s).replace(/\s+/g," ");
 const held=q=>{let h=0;for(const c of q)h=(h*31+c.charCodeAt(0))>>>0;return h%10<3};
 let BANKN=0,BANKOK=0;const out={};let fails=[];const REC={};
 for(const [lib,q,arts,re] of Q){const A=arts.split("|");const okA=a=>A.some(x=>x===a||(x.startsWith("an:")&&!x.includes("-s")&&a.startsWith(x+"-s"))||(x.startsWith("an:")&&a===x));
- let r;try{r=run(q,10)}catch(e){r={R:{list:[]},A:null}}
+ let r;try{r=run(q,+(process.env.N||10))}catch(e){r={R:{list:[]},A:null}}
  if(process.env.BANK){const b=S.bankMatch(q);if(b){BANKN++;if(re.test(b.text))BANKOK++;r.A=r.A?Object.assign({},r.A,{items:[b,...r.A.items]}):{entity:"",items:[b]}}}
  const tops=[];for(const x of (r.R.list||[])){const d=DOCS[x.i];const a=d?art(d[1]):"";if(a&&!tops.includes(a))tops.push(a);if(tops.length>=3)break}
  const items=(r.A&&r.A.items)||[];const txt=ns([(r.A&&r.A.entity)||""].concat(items.map(i=>(i.label?i.label+": ":"")+i.text+" ("+i.title+")")).join(" \n "));const t3=ns(items.slice(0,3).map(i=>i.text).join(" \n "));

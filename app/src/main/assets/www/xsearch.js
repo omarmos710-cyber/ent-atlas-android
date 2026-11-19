@@ -123,8 +123,11 @@ function ansHTML(A,hw,lim){if(!A||(!A.items.length&&!A.bank))return "";let ITEMS
  const li=x=>`<li><button class="xansi" ${goAttr(x.route)} data-needle="${E(x.needle||x.text)}"><span>${x.label?`<b>${E(x.label)}:</b> `:""}${hl(x.text,hw)}</span></button></li>`;
  /* lines gathered from several sections are grouped under the section they come from */
  /* several questions or two conditions at once: each part under its own heading ("Treatment", "Laryngomalacia · Diagnosis") */
- const groups=[];for(const x of ITEMS){const g=groups[groups.length-1];if(g&&g.route===x.route&&g.part===x.part)g.items.push(x);else groups.push({route:x.route,part:x.part,items:[x]})}
- let lastPart;const body=groups.map(g=>{const ph=g.part&&g.part!==lastPart?`<p class="xans-part">${E(g.part)}</p>`:"";lastPart=g.part;return ph+`<div class="xans-g"><ul>${g.items.map(li).join("")}</ul><button class="xans-src" ${goAttr(g.route)} data-needle="${E(g.items[0].needle||g.items[0].text)}">${src(g.items[0])}${ic("chev",14)}</button></div>`}).join("");
+ /* the full box is kept tight: the five lines that answer best, the rest one tap away */
+ const TIGHT=5;let EXTRA=[];if(!lim&&ITEMS.length>TIGHT&&!ITEMS.some(x=>x.part)){EXTRA=ITEMS.slice(TIGHT);ITEMS=ITEMS.slice(0,TIGHT)}
+ const grp=L=>{const gs=[];for(const x of L){const g=gs[gs.length-1];if(g&&g.route===x.route&&g.part===x.part)g.items.push(x);else gs.push({route:x.route,part:x.part,items:[x]})}return gs};
+ const groups=grp(ITEMS);
+ let lastPart;const draw=G=>G.map(g=>{const ph=g.part&&g.part!==lastPart?`<p class="xans-part">${E(g.part)}</p>`:"";lastPart=g.part;return ph+`<div class="xans-g"><ul>${g.items.map(li).join("")}</ul><button class="xans-src" ${goAttr(g.route)} data-needle="${E(g.items[0].needle||g.items[0].text)}">${src(g.items[0])}${ic("chev",14)}</button></div>`}).join("");const body=draw(groups)+(EXTRA.length?`<details class="xans-x"><summary>${EXTRA.length} more line${EXTRA.length>1?"s":""} from the articles</summary>${draw(grp(EXTRA))}</details>`:"");
  const more=lim&&A.items.length>lim?`<button class="xans-more" data-xask="${E(lim===true?"":ANSQ)}">See the full answer${ic("chev",14)}</button>`:"";
  if(A.q&&!A.reranked)setTimeout(()=>rrRefine(A.q),0);
  const bk=A.bank?`<p class="xans-part">From your question bank</p><div class="xans-g"><ul><li><span class="xansb"><b>${E(A.bank.title)}</b> ${hl(A.bank.text,hw)}</span></li></ul><p class="xans-src xans-srcq">${E(A.bank.where.replace(/ · viva$/,""))}</p></div>${ITEMS.length&&!ITEMS.some(x=>x.part)?`<p class="xans-part">From the articles</p>`:""}`:"";
