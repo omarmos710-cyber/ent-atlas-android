@@ -131,8 +131,15 @@ function ansHTML(A,hw,lim){if(!A||(!A.items.length&&!A.bank))return "";let ITEMS
  const more=lim&&A.items.length>lim?`<button class="xans-more" data-xask="${E(lim===true?"":ANSQ)}">See the full answer${ic("chev",14)}</button>`:"";
  if(A.q&&!A.reranked)setTimeout(()=>rrRefine(A.q),0);
  const bk=A.bank?`<p class="xans-part">From your question bank</p><div class="xans-g"><ul><li><span class="xansb"><b>${E(A.bank.title)}</b> ${hl(A.bank.text,hw)}</span></li></ul><p class="xans-src xans-srcq">${E(A.bank.where.replace(/ · viva$/,""))}</p></div>${ITEMS.length&&!ITEMS.some(x=>x.part)?`<p class="xans-part">From the articles</p>`:""}`:"";
- return `<div class="xans${lim?" xans-c":""}"${A.q?` data-q="${E(A.q)}"`:""}${lim?` data-lim="${lim===true?0:lim}"`:""}${A.reranked?` data-rr="1"`:""}><p class="xans-h">${A.entity?`${E(A.entity)}`:"Quick answer"}<small>quoted from your articles · tap a line to see it in place</small></p>${bk}${body}${more}</div>`}
+ const fb=!lim&&A.q?fbRow(A.q):"";
+ return `<div class="xans${lim?" xans-c":""}"${A.q?` data-q="${E(A.q)}"`:""}${lim?` data-lim="${lim===true?0:lim}"`:""}${A.reranked?` data-rr="1"`:""}><p class="xans-h">${A.unsure&&!A.bank?"Not sure":A.entity?`${E(A.entity)}`:"Quick answer"}<small>${A.unsure&&!A.bank?"no line clearly answers this · these are the closest, check them in place":"quoted from your articles · tap a line to see it in place"}</small></p>${bk}${body}${more}${fb}</div>`}
 let ANSQ="";
+/* 👍/👎 under a full answer: kept on this phone only, exported from More › Search feedback */
+const FBK="ent.searchfb";const fbAll=()=>{try{const a=JSON.parse(localStorage.getItem(FBK)||"[]");return Array.isArray(a)?a:[]}catch(e){return[]}};
+const fbPut=a=>{try{localStorage.setItem(FBK,JSON.stringify(a.slice(-500)))}catch(e){}};
+function fbRow(q){const k=q.trim().toLowerCase();const r=fbAll().find(x=>x.q.toLowerCase()===k);const v=r?r.v:0;
+ return `<div class="xfb" data-fbq="${E(q)}"><span>Did this answer your question?</span><button data-fb="1" aria-pressed="${v===1}" aria-label="Yes, it answered">👍</button><button data-fb="-1" aria-pressed="${v===-1}" aria-label="No, it missed">👎</button></div>`}
+window.XFB={list:fbAll,clear:()=>fbPut([]),text(){return fbAll().map(x=>`${x.v>0?"👍":"👎"} ${x.q}\n   shown: ${x.top||"(no lines)"}${x.src?`\n   from: ${x.src}`:""}\n   ${x.at}`).join("\n\n")}};
 /* the answer box for another screen (Home, Clinical): null while the smart index is still loading */
 function askHTML(q,lim){q=String(q||"").trim();if(!SMART||q.split(/\s+/).length<2)return null;const S=smartFor(q);if(!S)return "";ANSQ=q;
  const words=SMART.toks(S.P.topic+" "+(S.P.soft||"")).filter(t=>t.length>=3);return S.ans?ansHTML(S.ans,words,lim||4):""}
@@ -279,6 +286,11 @@ document.addEventListener("focusin",e=>{const id=e.target&&e.target.id;if(id==="
 document.addEventListener("pointerdown",e=>{if(e.target.closest&&e.target.closest('[data-go="search"]'))ready()},true);
 document.addEventListener("keydown",e=>{if(e.key==="Enter"&&e.target.id==="hx"&&e.target.value.trim()){QTXT=e.target.value.trim();go("search")}});
 document.addEventListener("click",e=>{const T2=x=>e.target.closest(x);let b;
+ if(b=T2(".xfb [data-fb]")){const row=b.closest(".xfb"),box=b.closest(".xans"),q=row.dataset.fbq,v=+b.dataset.fb;
+  const lines=[...box.querySelectorAll(".xans-g .xansi span, .xans-g .xansb")].slice(0,3).map(x=>x.textContent.trim().replace(/\s+/g," ").slice(0,160));
+  const src=box.querySelector(".xans-src");const a=fbAll().filter(x=>x.q.toLowerCase()!==q.toLowerCase());
+  a.push({q,v,top:lines.join(" | "),src:src?src.textContent.trim():"",at:new Date().toISOString().slice(0,16).replace("T"," ")});fbPut(a);
+  row.querySelectorAll("[data-fb]").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));toast(v>0?"Thanks, saved on this phone":"Noted, saved on this phone. Send the list from More");return}
  if(b=T2("[data-xall]")){QTXT=currentQ().trim();go("search");return}
  if(b=T2("[data-xask]")){QTXT=(b.dataset.xask||ANSQ||currentQ()).trim();go("search");return}
  if(b=T2("[data-xq]")){const i=document.getElementById("xq");if(i){i.value=b.dataset.xq;QTXT=i.value;run(i.value,document.getElementById("xres"))}return}

@@ -513,8 +513,11 @@ function rerank(C,scores,opt){opt=opt||{};const it=C.items,n=it.length;if(!n)ret
  /* the answer map's own first section, when the reader also ranks it first, keeps the lines the map chose (a table, a list) */
  const lead=it.find(x=>x.r===0);
  for(const g of G){if(items.length>=lim)break;const keepAll=opt.keepLead!==false&&g===G[0]&&lead&&it[g[0]].route===lead.route;
-  const best=keepAll?g.filter(j=>it[j].eng).slice(0,Math.max(per,7)).slice(0,lim-items.length):g.slice().sort((a,b)=>z[b]-z[a]).slice(0,Math.min(per,lim-items.length));best.sort((a,b)=>g.indexOf(a)-g.indexOf(b));for(const j of best)items.push(Object.assign({},it[j],{rr:z[j]}))}
- return Object.assign({},C.A,{items,reranked:true})}
+  const best=keepAll?g.filter(j=>it[j].eng).slice(0,Math.max(per,7)).slice(0,lim-items.length):g.slice().sort((a,b)=>z[b]-z[a]).slice(0,Math.min(per,lim-items.length));best.sort((a,b)=>g.indexOf(a)-g.indexOf(b));for(const j of best)items.push(Object.assign({},it[j],{rr:z[j],raw:scores[j]}))}
+ /* the reader's best score among the first five lines shown: very low means none of them reads like an answer */
+ const top=Math.max(...items.slice(0,5).map(x=>x.raw));
+ return Object.assign({},C.A,{items,reranked:true,top,unsure:top<UNSURE})}
+const UNSURE=-3;
 /* ---------- the question bank: a question asked almost word for word as one of the app's own flashcards,
    MCQs or viva questions gets that item's answer too (quoted, linked to its topic) ---------- */
 let QB=null;
