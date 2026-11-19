@@ -101,20 +101,22 @@ function smartLoad(){if(SMARTP)return SMARTP;SMARTP=(async()=>{try{
   const box=document.getElementById("xres");if(box&&box.isConnected&&currentQ().trim().length>=2)run(currentQ(),box);
   const hx=document.getElementById("hx");if(hx&&hx.isConnected&&hx.value.trim().length>=2)homeLive(hx.value);
   document.dispatchEvent(new Event("xsmartready"))}catch(e){SMART=null}})();return SMARTP}
-function smartFor(q){if(!SMART||q.trim().split(/\s+/).length<2)return null;try{const S=SMART.search(q,{n:5,perArticle:2});try{S.ans=SMART.answer?SMART.answer(S,{n:10}):null;const R=RRDONE.get(q.trim().toLowerCase());if(R)S.ans=R;else if(S.ans)S.ans.q=q}catch(e){S.ans=null}return S}catch(e){return null}}
+function smartFor(q){if(!SMART||q.trim().split(/\s+/).length<2)return null;try{const S=SMART.search(q,{n:5,perArticle:2});try{S.ans=SMART.answer?SMART.answer(S,{n:10}):null;const R=RRDONE.get(q.trim().toLowerCase());if(R)S.ans=R;else if(S.ans)S.ans.q=q;
+  /* a question asked almost word for word as one of the app's flashcards, MCQs or viva questions: its answer leads */
+  const B=SMART.bankMatch?SMART.bankMatch(q):null;if(B){if(!S.ans)S.ans={entity:"",items:[],q};S.ans=Object.assign({},S.ans,{bank:B})}}catch(e){S.ans=null}return S}catch(e){return null}}
 /* the second reader (search/xrank.js): after the box is shown, a small offline model reads the question with each
    candidate line and the box is redrawn with the lines it judges answer best; quoted lines only, never new words */
 const RRDONE=new Map();let RRBUSY=null;
 async function rrRefine(q){q=String(q||"").trim();const key=q.toLowerCase();if(!q||!SMART||!SMART.candidates||RRDONE.has(key)||RRBUSY===key)return;RRBUSY=key;
  try{if(!window.XRANK)await loadJS("search/xrank.js");await XRANK.load();const S=SMART.search(q,{n:5,perArticle:2});const C=SMART.candidates(S);if(!C){RRBUSY=null;return}
-  const sc=[];for(const t of C.texts)sc.push((await XRANK.score(q,[t],1))[0]);const A=SMART.rerank(C,sc);A.q=q;RRDONE.set(key,A);
+  const sc=[];for(const t of C.texts)sc.push((await XRANK.score(q,[t],1))[0]);const A=SMART.rerank(C,sc);A.q=q;const B=SMART.bankMatch?SMART.bankMatch(q):null;if(B)A.bank=B;RRDONE.set(key,A);
   const hw=SMART.toks(S.P.topic+" "+(S.P.soft||"")).filter(t=>t.length>=3);
   document.querySelectorAll(".xans[data-q]").forEach(el=>{if(el.dataset.q.trim().toLowerCase()!==key)return;const lim=+el.dataset.lim||0;const t=document.createElement("div");t.innerHTML=ansHTML(A,hw,lim||undefined);const nb=t.firstElementChild;if(nb)el.replaceWith(nb)})}
  catch(e){}RRBUSY=null}
 /* where a line or a result opens: an anatomy note or table ("region:larynx~larynx-s9") opens its region at that section */
 function goAttr(route){route=String(route||"");const m=route.match(/^(region:[^~]+)~(.+)$/);return m?`data-go="${E(m[1])}" data-sec="${E(m[2])}"`:`data-go="${E(route)}"`}
 /* the quick answer: the lines of the best sections that answer the question, word for word, each linked to its place */
-function ansHTML(A,hw,lim){if(!A||!A.items.length)return "";let ITEMS=A.items;
+function ansHTML(A,hw,lim){if(!A||(!A.items.length&&!A.bank))return "";let ITEMS=A.items;
  /* the short box on Home and in Clinical: the first lines, but at least one from every part of the answer */
  if(lim){const parts=[...new Set(A.items.map(x=>x.part))];if(parts.length>1){const per=Math.max(1,Math.floor(Math.max(lim,parts.length)/parts.length));ITEMS=parts.flatMap(p=>A.items.filter(x=>x.part===p).slice(0,per))}else ITEMS=A.items.slice(0,lim)}
  const src=x=>`${E(x.where.split(" · ")[0])} › ${E(x.title)}`;
@@ -125,7 +127,8 @@ function ansHTML(A,hw,lim){if(!A||!A.items.length)return "";let ITEMS=A.items;
  let lastPart;const body=groups.map(g=>{const ph=g.part&&g.part!==lastPart?`<p class="xans-part">${E(g.part)}</p>`:"";lastPart=g.part;return ph+`<div class="xans-g"><ul>${g.items.map(li).join("")}</ul><button class="xans-src" ${goAttr(g.route)} data-needle="${E(g.items[0].needle||g.items[0].text)}">${src(g.items[0])}${ic("chev",14)}</button></div>`}).join("");
  const more=lim&&A.items.length>lim?`<button class="xans-more" data-xask="${E(lim===true?"":ANSQ)}">See the full answer${ic("chev",14)}</button>`:"";
  if(A.q&&!A.reranked)setTimeout(()=>rrRefine(A.q),0);
- return `<div class="xans${lim?" xans-c":""}"${A.q?` data-q="${E(A.q)}"`:""}${lim?` data-lim="${lim===true?0:lim}"`:""}${A.reranked?` data-rr="1"`:""}><p class="xans-h">${A.entity?`${E(A.entity)}`:"Quick answer"}<small>quoted from your articles · tap a line to see it in place</small></p>${body}${more}</div>`}
+ const bk=A.bank?`<p class="xans-part">From your question bank</p><div class="xans-g"><ul><li><span class="xansb"><b>${E(A.bank.title)}</b> ${hl(A.bank.text,hw)}</span></li></ul><p class="xans-src xans-srcq">${E(A.bank.where.replace(/ · viva$/,""))}</p></div>${ITEMS.length&&!ITEMS.some(x=>x.part)?`<p class="xans-part">From the articles</p>`:""}`:"";
+ return `<div class="xans${lim?" xans-c":""}"${A.q?` data-q="${E(A.q)}"`:""}${lim?` data-lim="${lim===true?0:lim}"`:""}${A.reranked?` data-rr="1"`:""}><p class="xans-h">${A.entity?`${E(A.entity)}`:"Quick answer"}<small>quoted from your articles · tap a line to see it in place</small></p>${bk}${body}${more}</div>`}
 let ANSQ="";
 /* the answer box for another screen (Home, Clinical): null while the smart index is still loading */
 function askHTML(q,lim){q=String(q||"").trim();if(!SMART||q.split(/\s+/).length<2)return null;const S=smartFor(q);if(!S)return "";ANSQ=q;
