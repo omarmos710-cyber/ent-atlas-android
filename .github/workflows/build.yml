@@ -12,6 +12,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -32,30 +36,6 @@ jobs:
       # the new one, so phones accept the update without a reinstall, and (Android 9+) refuse anything later signed
       # with the old key alone. The new key is created here once, from the NEW_SIGNING_PASSWORD secret, and committed
       # (password-protected); no password is ever stored in the repository.
-      - name: Create the new signing key (once)
-        if: github.event_name != 'pull_request'
-        env:
-          SIGNING_PASSWORD: ${{ secrets.SIGNING_PASSWORD }}
-          NEW_SIGNING_PASSWORD: ${{ secrets.NEW_SIGNING_PASSWORD }}
-        run: |
-          if [ -z "$NEW_SIGNING_PASSWORD" ] || [ -f signing/lineage.bin ]; then echo "nothing to do"; exit 0; fi
-          if [ -z "$SIGNING_PASSWORD" ]; then
-            echo "::error::The secret SIGNING_PASSWORD (the old key's password) is missing; it is needed once to hand over to the new key."; exit 1
-          fi
-          BT=$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)
-          keytool -genkeypair -keystore signing/ent-companion-2.p12 -storetype PKCS12 -alias entcompanion \
-            -keyalg RSA -keysize 4096 -validity 10000 -dname "CN=The ENT Companion" \
-            -storepass:env NEW_SIGNING_PASSWORD -keypass:env NEW_SIGNING_PASSWORD
-          "$BT/apksigner" rotate --out signing/lineage.bin \
-            --old-signer --ks signing/ent-atlas.jks --ks-key-alias entatlas --ks-pass env:SIGNING_PASSWORD --set-rollback false \
-            --new-signer --ks signing/ent-companion-2.p12 --ks-key-alias entcompanion --ks-pass env:NEW_SIGNING_PASSWORD
-          git config user.name "github-actions[bot]"
-          git config user.email "41898900+github-actions[bot]@users.noreply.github.com"
-          git add signing/ent-companion-2.p12 signing/lineage.bin
-          git commit -m "Add the new signing key and its rotation lineage"
-          # if main moved meanwhile the push fails and nothing is published; the next build tries again
-          git push origin HEAD:main
-
       - name: Build APK
         run: |
           # the PDFs are downloaded by the app when first opened, so they are left out of the APK
@@ -74,6 +54,11 @@ jobs:
             echo "::error::Add the repository secret SIGNING_PASSWORD to sign the app."; exit 1
           fi
           LINEAGE=signing/lineage.bin NEWKS=signing/ent-companion-2.p12
+          # The app moved to the new key (1.0.339). From now on every published APK must carry the hand-over,
+          # otherwise phones refuse the update; so a missing key file or password stops the build instead.
+          if [ "${{ github.event_name }}" != "pull_request" ] && { [ ! -f "$LINEAGE" ] || [ ! -f "$NEWKS" ] || [ -z "$NEW_SIGNING_PASSWORD" ]; }; then
+            echo "::error::signing/lineage.bin, signing/ent-companion-2.p12 and the NEW_SIGNING_PASSWORD secret are all required. Never create a new key here."; exit 1
+          fi
           if [ ! -f "$LINEAGE" ] && [ -n "$NEW_SIGNING_PASSWORD" ] && [ "${{ github.event_name }}" = "pull_request" ]; then
             # test builds try the whole rotation with a throw-away key, so a mistake shows up before it reaches main
             LINEAGE=$RUNNER_TEMP/lineage.bin NEWKS=$RUNNER_TEMP/test.p12
@@ -92,6 +77,7 @@ jobs:
               --out ENT-Atlas.apk aligned.apk
           fi
           "$BT/apksigner" verify --print-certs ENT-Atlas.apk | grep -E "Signer|certificate SHA-256" || true
+          if [ -f "$LINEAGE" ]; then "$BT/apksigner" lineage --in ENT-Atlas.apk --print-certs | grep -q "Signer #2" || { echo "::error::the APK has no key hand-over"; exit 1; }; fi
           "$BT/apksigner" verify --verbose ENT-Atlas.apk | grep -E "Verifies|scheme" 
           ls -l ENT-Atlas.apk
 
