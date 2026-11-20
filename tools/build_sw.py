@@ -82,12 +82,15 @@ const SCOPE=new URL(self.registration.scope).pathname;
 const K=i=>P[i]+"?v="+R[i];
 const rel=u=>{const x=new URL(u,self.registration.scope);let p=x.pathname.startsWith(SCOPE)?x.pathname.slice(SCOPE.length):x.pathname.replace(/^\//,"");return decodeURIComponent(p)||"index.html"};
 const keyOf=r=>{const x=new URL(r.url);return rel(r.url)+x.search};
+/* the host answers index.html with a redirect to "/"; a browser will not open a page from a redirected copy, so it is
+   re-wrapped as a plain response (this is what lets the app open offline) */
+const plain=r=>r&&r.redirected?new Response(r.body,{status:r.status,statusText:r.statusText,headers:r.headers}):r;
 const LEGACY=n=>n.startsWith("ent-atlas-")&&n!==STORE&&n!=="ent-atlas-ext";
 async function hex(buf){const d=new Uint8Array(await crypto.subtle.digest("SHA-256",buf));let s="";for(let k=0;k<6;k++)s+=d[k].toString(16).padStart(2,"0");return s}
 /* a copy the old worker already saved is reused when its content is the same */
 async function fromLegacy(st,i,names){for(const n of names){const c=await caches.open(n);const hit=await c.match(P[i],{ignoreSearch:true});if(!hit||!hit.ok)continue;
   try{const buf=await hit.clone().arrayBuffer();if(await hex(buf)===R[i]){await st.put(K(i),new Response(buf,{headers:hit.headers}));return true}}catch(e){}}return false}
-async function fromNet(st,i,tries){for(let t=0;t<(tries||3);t++){try{const r=await fetch(new Request(K(i),{cache:"no-cache"}));if(r.ok){await st.put(K(i),r);return true}}catch(e){}}return false}
+async function fromNet(st,i,tries){for(let t=0;t<(tries||3);t++){try{const r=await fetch(new Request(K(i),{cache:"no-cache"}));if(r.ok){await st.put(K(i),plain(r));return true}}catch(e){}}return false}
 async function pool(list,n,fn){let j=0;const run=async()=>{while(j<list.length){const i=list[j++];await fn(i)}};await Promise.all(Array.from({length:n},run))}
 async function missing(st,from,to){const have=new Set((await st.keys()).map(keyOf));const out=[];for(let i=from;i<to;i++)if(!have.has(K(i)))out.push(i);return out}
 self.addEventListener("install",e=>{e.waitUntil((async()=>{const st=await caches.open(STORE);const names=(await caches.keys()).filter(LEGACY);
@@ -119,7 +122,7 @@ self.addEventListener("fetch",e=>{const req=e.request;if(req.method!=="GET")retu
   e.respondWith((async()=>{const st=await caches.open(STORE);
     if(page){const i=IX.get("index.html");try{const ctl=new AbortController();const t=setTimeout(()=>ctl.abort(),3000);const r=await fetch(req,{signal:ctl.signal});clearTimeout(t);
         if(r.ok||r.type==="opaqueredirect")return r}catch(err){}
-      return (i!==undefined&&await st.match(K(i)))||(await caches.match(req,{ignoreSearch:true}))||Response.error()}
+      return plain((i!==undefined&&await st.match(K(i)))||(await caches.match(req,{ignoreSearch:true})))||Response.error()}
     const i=IX.get(rel(req.url));
     if(i!==undefined){const hit=await st.match(K(i));if(hit)return hit}
     const old=await caches.match(req,{ignoreSearch:true});if(old)return old;
