@@ -12,22 +12,10 @@ android {
         versionName "1.0." + (System.getenv("GITHUB_RUN_NUMBER") ?: "0")
     }
 
-    signingConfigs {
-        release {
-            // The password comes from the GitHub secret SIGNING_PASSWORD (passed in by .github/workflows/build.yml),
-            // never from this file.
-            storeFile file("../signing/ent-atlas.jks")
-            storePassword System.getenv("SIGNING_PASSWORD")
-            keyAlias "entatlas"
-            keyPassword System.getenv("SIGNING_PASSWORD")
-        }
-    }
-
     buildTypes {
         release {
             minifyEnabled false
-            // unsigned when there is no password (test builds of pull requests)
-            signingConfig System.getenv("SIGNING_PASSWORD") ? signingConfigs.release : null
+            // signed afterwards with apksigner in .github/workflows/build.yml (key rotation needs it)
         }
     }
 

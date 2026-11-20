@@ -6153,8 +6153,23 @@ const ALLFIGS=Object.keys(FIG);
 /* ---------------- STATE & SYNC ---------------- */
 const KEY="ent-atlas-v1";
 let S0={cards:{},read:{},stars:{},notes:{},quiz:[],days:[],t:0};
+/* progress read from a backup file, the cloud or storage is checked field by field, so a damaged copy
+   cannot break the app: a field of the wrong type falls back to its empty default */
+const isObj=o=>!!o&&typeof o==="object"&&!Array.isArray(o);
+const ST_OBJ=["drill","miss","ord","mins","spot","lab","clr","clo","hub","th","dver","thr","thb","sk"];
+function stClean(d){const r=Object.assign({},S0);if(!isObj(d))return r;
+  for(const k in d){const v=d[k],def=S0[k];
+    if(k in S0){if(Array.isArray(def)?Array.isArray(v):isObj(def)?isObj(v):typeof v===typeof def)r[k]=v}
+    else if(ST_OBJ.includes(k)){if(isObj(v))r[k]=v}
+    else r[k]=v}
+  r.quiz=r.quiz.filter(q=>isObj(q)&&typeof q.t==="number");r.days=r.days.filter(x=>typeof x==="string");
+  if(r.miss){for(const k of["q","c","d"])if(r.miss[k]!=null&&!isObj(r.miss[k]))delete r.miss[k]}
+  if(r.lab&&r.lab.st!=null&&!isObj(r.lab.st))delete r.lab.st;
+  if(r.spot&&(typeof r.spot.n!=="number"||typeof r.spot.r!=="number"||!isObj(r.spot.by)))delete r.spot;
+  for(const k of["cards","read","stars","notes"])for(const x in r[k])if(k==="notes"?typeof r[k][x]!=="string":r[k][x]==null)delete r[k][x];
+  return r}
 let ST=Object.assign({},S0);
-try{const j=localStorage.getItem(KEY);if(j)ST=Object.assign({},S0,JSON.parse(j))}catch(e){}
+try{const j=localStorage.getItem(KEY);if(j)ST=stClean(JSON.parse(j))}catch(e){}
 let DBREF=null,pushT=null,pushing=false,pushAgain=false,syncState="local";
 function save(){ST.t=Date.now();try{localStorage.setItem(KEY,JSON.stringify(ST))}catch(e){}if(DBREF){clearTimeout(pushT);pushT=setTimeout(push,1500)}}
 async function push(){if(!DBREF)return;if(pushing){pushAgain=true;return}pushing=true;
@@ -6165,7 +6180,7 @@ function updateSync(){const el=$("#sync");if(el)el.textContent=syncState==="sync
   if(!db||!user)return;const id=await user.id();if(!id)return;
   const ref=db.collection("data/users/"+id).doc("progress");const snap=await ref.get();const d=snap&&snap.data?snap.data():null;
   DBREF=ref;syncState="synced";
-  if(d&&d.json&&(d.t||0)>(ST.t||0)){ST=Object.assign({},S0,JSON.parse(d.json));try{localStorage.setItem(KEY,JSON.stringify(ST))}catch(e){}
+  if(d&&d.json&&(d.t||0)>(ST.t||0)){ST=stClean(JSON.parse(d.json));try{localStorage.setItem(KEY,JSON.stringify(ST))}catch(e){}
     const base=cur.split(":")[0];if(["home","atlas","region","saved"].includes(base))go(cur,{keep:true})}
   else if(ST.t&&(!d||(ST.t||0)>(d.t||0)))push();
   updateSync()}catch(e){}})();
@@ -6188,14 +6203,18 @@ async function sbToken(){if(!SBS)return null;if(Date.now()<SBS.exp-60000)return 
 /* merge two progress states without losing anything: the newer wins a conflict, the older fills what the newer lacks */
 function mergeSt(newer,older){const plain=o=>o&&typeof o==="object"&&!Array.isArray(o);
   const m=(a,b)=>{if(plain(a)&&plain(b)){const r=Object.assign({},a);for(const k in b)r[k]=k in a?m(a[k],b[k]):b[k];return r}
-    if(Array.isArray(a)&&Array.isArray(b)&&a.concat(b).every(x=>typeof x==="string"))return [...new Set(a.concat(b))].sort();return a};
+    if(Array.isArray(a)&&Array.isArray(b)&&a.concat(b).every(x=>typeof x==="string"))return [...new Set(a.concat(b))].sort();
+    /* quiz results from two devices: keep both, once each, oldest first */
+    if(Array.isArray(a)&&Array.isArray(b)&&a.concat(b).every(x=>plain(x)&&typeof x.t==="number")){const seen=new Map();
+      for(const q of a.concat(b))seen.set(q.t+"|"+q.r+"|"+q.s+"|"+q.n,q);return [...seen.values()].sort((x,y)=>x.t-y.t).slice(-300)}
+    return a};
   return m(newer,older)}
 const SBREF={async get(){const r=await sbFetch("/rest/v1/progress?select=data,updated_at&user_id=eq."+SBS.uid,{auth:true});return r&&r[0]?r[0].data:null},
   async set(v){await sbFetch("/rest/v1/progress?on_conflict=user_id",{method:"POST",auth:true,headers:{"Prefer":"resolution=merge-duplicates,return=minimal"},body:{user_id:SBS.uid,data:v,updated_at:new Date().toISOString()}})}};
 let sbPulling=false;
 async function sbSync(){if(!SBS||sbPulling)return;sbPulling=true;
   try{const d=await SBREF.get();DBREF=SBREF;let changed=false;
-    if(d&&d.json){const R=Object.assign({},S0,JSON.parse(d.json)),rt=d.t||0,lt=ST.t||0;
+    if(d&&d.json){const R=stClean(JSON.parse(d.json)),rt=d.t||0,lt=ST.t||0;
       const M=rt>=lt?mergeSt(R,ST):mergeSt(ST,R);M.t=Math.max(rt,lt);
       const same=JSON.stringify(M)===d.json;if(JSON.stringify(M)!==JSON.stringify(ST)){ST=M;try{localStorage.setItem(KEY,JSON.stringify(ST))}catch(e){}changed=true}
       if(!same)await SBREF.set({json:JSON.stringify(ST),t:ST.t})}
@@ -6220,7 +6239,7 @@ let SBSTEP={email:"",sent:false,busy:false,msg:""};
 function acctHTML(){if(window.claude&&window.claude.use&&!SBS)return "";
   if(SBS)return `<div class="acct"><div class="acrow"><span class="lico">${ic("check",18)}</span><span class="pt"><strong>Signed in</strong><small>${esc(SBS.email||"")}</small></span></div>
    <div class="two"><button class="btn" data-sb="sync">Sync now</button><button class="btn" data-sb="out">Sign out</button></div></div>`;
-  const s=SBSTEP;return `<div class="acct"><p class="lede small">${s.sent?`We sent a sign-in link to <b>${esc(s.email)}</b>. Open it on this phone and you're signed in. If the email shows a code instead, enter it below.`:"Sign in with your email to keep your progress in your account and on every device. No password: we email you a sign-in link."}</p>
+  const s=SBSTEP;return `<div class="acct"><p class="lede small">${s.sent?`${window.Android?`We emailed <b>${esc(s.email)}</b>. Enter the code from that email below (the link in it opens the website, not this app).`:`We sent a sign-in link to <b>${esc(s.email)}</b>. Open it on this phone and you're signed in. If the email shows a code instead, enter it below.`}`:"Sign in with your email to keep your progress in your account and on every device. No password: we email you a sign-in link."}</p>
    ${s.sent?`<input class="acin" id="sbcode" inputmode="numeric" autocomplete="one-time-code" maxlength="10" placeholder="Code from the email (if shown)"><div class="two"><button class="btn" data-sb="verify"${s.busy?" disabled":""}>Sign in with code</button><button class="btn" data-sb="back">Use another email</button></div>`
    :`<input class="acin" id="sbemail" type="email" inputmode="email" autocomplete="email" placeholder="Your email" value="${esc(s.email)}"><button class="btn primary" data-sb="send"${s.busy?" disabled":""}>Email me a sign-in link</button>`}
    ${s.msg?`<p class="acmsg">${esc(s.msg)}</p>`:""}</div>`}
@@ -6228,7 +6247,7 @@ function acctDraw(){const el=$("#acct");if(el)el.innerHTML=acctHTML();updateSync
 document.addEventListener("click",async e=>{const b=e.target.closest("[data-sb]");if(!b)return;const a=b.dataset.sb,S=SBSTEP;
   if(a==="send"){const em=($("#sbemail")||{}).value||"";if(!/^\S+@\S+\.\S+$/.test(em.trim())){S.msg="Enter a valid email address.";return acctDraw()}
     S.email=em.trim();S.busy=true;S.msg="";acctDraw();
-    try{await sbFetch("/auth/v1/otp?redirect_to="+encodeURIComponent(location.origin+location.pathname),{method:"POST",body:{email:S.email,create_user:true}});S.sent=true;S.msg=""}
+    try{await sbFetch("/auth/v1/otp?redirect_to="+encodeURIComponent(window.Android?"https://ent-atlas-android.enthnanatomy.workers.dev/":location.origin+location.pathname),{method:"POST",body:{email:S.email,create_user:true}});S.sent=true;S.msg=""}
     catch(err){S.msg=err.status===429?"Too many codes requested. Wait a few minutes and try again.":/signups?.*(not allowed|disabled)/i.test(err.message)?"This email isn't allowed to sign in.":"Couldn't send the code. Check your connection and try again."}
     S.busy=false;return acctDraw()}
   if(a==="verify"){const code=(($("#sbcode")||{}).value||"").replace(/\D/g,"");if(code.length<6){S.msg="Enter the code from the email.";return acctDraw()}
@@ -6998,7 +7017,7 @@ const _go3=go;
 go=function(v,opt){_go3(v,opt);markTabs(/^cl:t-im_|^cl:g-imgl/.test(v)?"imaging":v.split(":")[0])};
 
 /* ---------- preferences (per device) ---------- */
-let PREF={fs:"m",theme:"auto",pbar:true};
+let PREF={fs:"m",theme:"auto",pbar:true,offl:"wifi"};
 try{Object.assign(PREF,JSON.parse(localStorage.getItem("ent-atlas-prefs")||"{}"))}catch(e){}
 function applyPrefs(){const r=document.documentElement;r.dataset.fsz=PREF.fs;if(PREF.theme==="auto")r.removeAttribute("data-theme");else r.dataset.theme=PREF.theme;r.classList.toggle("nopbar",!PREF.pbar)}
 function savePrefs(){try{localStorage.setItem("ent-atlas-prefs",JSON.stringify(PREF))}catch(e){}applyPrefs()}
@@ -7116,10 +7135,13 @@ function vMore(){} /* replaced by the current version further down */
 /* A backup holds the study progress plus the reading settings, recent searches and search ratings */
 const BK_EXTRA={prefs:"ent-atlas-prefs",recent:"xs_recent",feedback:"ent.searchfb"};
 function backupData(){const x={};for(const k in BK_EXTRA){try{const v=localStorage.getItem(BK_EXTRA[k]);if(v!=null)x[k]=JSON.parse(v)}catch(e){}}return Object.assign({},ST,{_extra:x})}
-function restoreBackup(d){const x=d._extra||{};d=Object.assign({},d);delete d._extra;ST=Object.assign({},S0,d);save();
-  for(const k in BK_EXTRA)if(x[k]!=null){try{localStorage.setItem(BK_EXTRA[k],JSON.stringify(x[k]))}catch(e){}}}
+function restoreBackup(d){const x=d._extra||{};d=Object.assign({},d);delete d._extra;ST=stClean(d);save();
+  const ok={prefs:isObj,recent:v=>Array.isArray(v)&&v.every(t=>typeof t==="string"),feedback:Array.isArray};
+  for(const k in BK_EXTRA)if(x[k]!=null&&ok[k](x[k])){try{localStorage.setItem(BK_EXTRA[k],JSON.stringify(x[k]))}catch(e){}}}
 document.addEventListener("click",e=>{
   const f=e.target.closest("[data-fs]");if(f){PREF.fs=f.dataset.fs;savePrefs();document.querySelectorAll("[data-fs]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.fs===PREF.fs)));return}
+  const o=e.target.closest("[data-offl]");if(o){PREF.offl=o.dataset.offl;savePrefs();document.querySelectorAll("[data-offl]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.offl===PREF.offl)));if(PREF.offl==="always"&&window.offlineFill)offlineFill();return}
+  if(e.target.closest("[data-fillnow]")){if(window.offlineFill){offlineFill();toast("Saving for offline use in the background")}return}
   const t=e.target.closest("[data-theme-set]");if(t){PREF.theme=t.dataset.themeSet;savePrefs();document.querySelectorAll("[data-theme-set]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.themeSet===PREF.theme)));return}
   if(e.target.closest("#bk2-exp")){const name="ent-companion-progress-"+today()+".json",txt=JSON.stringify(backupData());
     if(window.Android&&Android.saveBackup){Android.saveBackup(name,txt);return}
@@ -8665,8 +8687,14 @@ document.addEventListener("click",e=>{if(!$("#results"))return;const t=e.target;
 <script>
 if(!window.Android&&"serviceWorker" in navigator&&(location.protocol==="https:"||location.hostname==="localhost")){
   navigator.serviceWorker.addEventListener("message",ev=>{if(ev.data==="cached"&&typeof toast==="function")toast("Saved for offline use")});
-  /* figures, scans and PDFs are saved in the background, a little after the app opens, so opening it stays quick */
-  const fill=()=>setTimeout(()=>{const c=navigator.serviceWorker.controller;if(c)c.postMessage("fill")},4000);
+  /* figures, scans and PDFs (about 400 MB) are saved in the background a little after the app opens: on Wi-Fi only
+     by default (More > Offline), never on mobile data or Data Saver unless the user chooses "Always" or "Save now" */
+  const onWifi=()=>{const c=navigator.connection;return !!(c&&!c.saveData&&(c.type==="wifi"||c.type==="ethernet"))};
+  window.offlineFill=()=>{const c=navigator.serviceWorker.controller;if(c)c.postMessage("fill")};
+  const fill=()=>setTimeout(()=>{if(PREF.offl==="always"||(PREF.offl==="wifi"&&onWifi()))offlineFill()},4000);
+  if(navigator.connection&&navigator.connection.addEventListener)navigator.connection.addEventListener("change",fill);
+  navigator.serviceWorker.addEventListener("message",ev=>{const d=ev.data;if(d&&typeof d.missing==="number"){window.OFFLINE_LEFT=d;
+    const el=document.getElementById("offl-left");if(el)el.textContent=d.missing?d.missing+" of "+d.total+" figures, scans and PDFs not saved yet":"Everything is saved for offline use"}});
   window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").then(reg=>{fill();
     /* look for a new version on open, whenever the app comes back to the foreground, and every 20 minutes */
     const chk=()=>reg.update().catch(()=>{});document.addEventListener("visibilitychange",()=>{if(!document.hidden)chk()});setInterval(chk,12e5);
@@ -8676,7 +8704,9 @@ if(!window.Android&&"serviceWorker" in navigator&&(location.protocol==="https:"|
   {const had=!!navigator.serviceWorker.controller,t0=Date.now();let done=false;
    navigator.serviceWorker.addEventListener("controllerchange",()=>{fill();if(!had||done)return;done=true;
      if(Date.now()-t0<15000||document.hidden){location.reload();return}
-     const b=document.createElement("button");b.className="upbar";b.textContent="A new version is ready · Tap to update";b.onclick=()=>location.reload();document.body.appendChild(b)})}
+     const b=document.createElement("button");b.className="upbar";b.textContent="A new version is ready · Tap to update";b.onclick=()=>location.reload();document.body.appendChild(b);
+     /* if not tapped, update the moment the app goes to the background, so old and new parts never run together for long */
+     document.addEventListener("visibilitychange",()=>{if(document.hidden)location.reload()})})}
 }
 </script>
 <script>
@@ -8757,13 +8787,15 @@ vMore=function(){const native=!!(window.claude&&window.claude.use),web=!window.A
   <section><h2 class="msec">Reading</h2><div class="card set"><span class="slabel">Text size</span><div class="seg3" role="group" aria-label="Text size">${[["s","Small"],["m","Medium"],["l","Large"]].map(([v,l])=>`<button data-fs="${v}" aria-pressed="${PREF.fs===v}" class="fs-${v}">Aa ${l}</button>`).join("")}</div>
    <span class="slabel">Appearance</span><div class="themes" role="group" aria-label="Appearance">${[["light","Light"],["dark","Night"],["auto","Auto"]].map(([v,l])=>`<button data-theme-set="${v}" aria-pressed="${PREF.theme===v}"><i class="sw sw-${v}"></i>${l}</button>`).join("")}</div>
    <label class="srow">Show reading progress bar <input type="checkbox" data-pbar ${PREF.pbar?"checked":""}></label></div></section>
+  ${web&&"serviceWorker" in navigator?`<section><h2 class="msec">Offline</h2><div class="card set"><span class="slabel">Save all figures, scans and PDFs (about 400 MB)</span><div class="seg3" role="group" aria-label="Save for offline">${[["wifi","On Wi-Fi"],["always","Always"],["manual","When I ask"]].map(([v,l])=>`<button data-offl="${v}" aria-pressed="${PREF.offl===v}">${l}</button>`).join("")}</div>
+   <p class="lede small" id="offl-left">Checking what is saved…</p><div class="two"><button class="btn" data-fillnow="1">Save everything now</button></div></div></section>`:""}
   <section><h2 class="msec">Your account</h2><div class="card set"><div id="acct">${acctHTML()}</div><p class="sync" id="sync"></p>
    ${native?"":`<p class="lede small">Back up to move your progress to another phone or browser.</p><div class="two"><button class="btn" id="bk2-exp">Back up my progress</button><label class="btn" style="cursor:pointer;text-align:center">Restore a backup<input type="file" id="bk2-imp" accept=".json,application/json,text/plain,*/*" hidden></label></div>`}</div></section>
   ${(()=>{const L=fbList(),up=L.filter(x=>x.v>0).length;return `<section><h2 class="msec">Search feedback</h2><div class="card set"><p class="lede small">${L.length?`${L.length} answer${L.length>1?"s":""} rated: ${up} 👍 · ${L.length-up} 👎. Saved on this phone only.`:"Rate answers in Search with 👍 or 👎. They stay on this phone until you send the list."}</p>${L.length?`<div class="two"><button class="btn" id="fb-send">Send the list</button><button class="btn" id="fb-clr">Clear</button></div>`:""}</div></section>`})()}
   <section><h2 class="msec">About</h2><div class="mlist llist">
    ${web&&"serviceWorker" in navigator?mrowL("","check","Check for updates","Load the newest version now",'data-upd="1"'):""}
   </div><p class="mabout"><b>The ENT Companion</b><br>Anatomy, clinical ENT, drugs, imaging and operative surgery for the ENT resident, in one offline reference. For personal study; check doses and decisions against your local guidance.</p></section></div>`;
-  updateSync()};
+  updateSync();try{const c=navigator.serviceWorker&&navigator.serviceWorker.controller;if(c)c.postMessage("status")}catch(e){}};
 EXTRA.more=vMore;
 /* the PDF library */
 var APDF=new Set("embryo et extear facial inner itf larynx mandible midear neck neckbones nose oral orbit pharynx salivary sinus skullbones temporal thyroid trigeminal vessels".split(" "));

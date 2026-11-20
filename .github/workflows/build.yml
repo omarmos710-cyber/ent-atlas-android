@@ -27,21 +27,69 @@ jobs:
         with:
           gradle-version: '8.9'
 
-      - name: Build signed APK
+      # Signing. The first key (signing/ent-atlas.jks) leaked with its old password in the public history, so the app
+      # moves to a new key with Android's key rotation: the APK carries a "lineage" saying the old key handed over to
+      # the new one, so phones accept the update without a reinstall, and (Android 9+) refuse anything later signed
+      # with the old key alone. The new key is created here once, from the NEW_SIGNING_PASSWORD secret, and committed
+      # (password-protected); no password is ever stored in the repository.
+      - name: Create the new signing key (once)
+        if: github.event_name != 'pull_request'
         env:
           SIGNING_PASSWORD: ${{ secrets.SIGNING_PASSWORD }}
+          NEW_SIGNING_PASSWORD: ${{ secrets.NEW_SIGNING_PASSWORD }}
         run: |
-          if [ -z "$SIGNING_PASSWORD" ] && [ "${{ github.event_name }}" != "pull_request" ]; then
-            echo "::error::Add the repository secret SIGNING_PASSWORD (Settings > Secrets and variables > Actions) to sign the app."
-            exit 1
-          fi
+          if [ -z "$NEW_SIGNING_PASSWORD" ] || [ -f signing/lineage.bin ]; then echo "nothing to do"; exit 0; fi
+          BT=$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)
+          keytool -genkeypair -keystore signing/ent-companion-2.p12 -storetype PKCS12 -alias entcompanion \
+            -keyalg RSA -keysize 4096 -validity 10000 -dname "CN=The ENT Companion" \
+            -storepass:env NEW_SIGNING_PASSWORD -keypass:env NEW_SIGNING_PASSWORD
+          "$BT/apksigner" rotate --out signing/lineage.bin \
+            --old-signer --ks signing/ent-atlas.jks --ks-key-alias entatlas --ks-pass env:SIGNING_PASSWORD --set-rollback false \
+            --new-signer --ks signing/ent-companion-2.p12 --ks-key-alias entcompanion --ks-pass env:NEW_SIGNING_PASSWORD
+          git config user.name "github-actions[bot]"
+          git config user.email "41898900+github-actions[bot]@users.noreply.github.com"
+          git add signing/ent-companion-2.p12 signing/lineage.bin
+          git commit -m "Add the new signing key and its rotation lineage"
+          # if main moved meanwhile the push fails and nothing is published; the next build tries again
+          git push origin HEAD:main
+
+      - name: Build APK
+        run: |
           # the PDFs are downloaded by the app when first opened, so they are left out of the APK
           rm -rf app/src/main/assets/www/pdf
           gradle :app:assembleRelease --no-daemon
 
-      - name: Rename APK
+      - name: Sign APK
+        env:
+          SIGNING_PASSWORD: ${{ secrets.SIGNING_PASSWORD }}
+          NEW_SIGNING_PASSWORD: ${{ secrets.NEW_SIGNING_PASSWORD }}
         run: |
-          cp app/build/outputs/apk/release/app-release*.apk ENT-Atlas.apk
+          BT=$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)
+          "$BT/zipalign" -p -f 4 app/build/outputs/apk/release/app-release-unsigned.apk aligned.apk
+          if [ -z "$SIGNING_PASSWORD" ]; then
+            if [ "${{ github.event_name }}" = "pull_request" ]; then cp aligned.apk ENT-Atlas.apk; echo "test build: unsigned"; exit 0; fi
+            echo "::error::Add the repository secret SIGNING_PASSWORD to sign the app."; exit 1
+          fi
+          LINEAGE=signing/lineage.bin NEWKS=signing/ent-companion-2.p12
+          if [ ! -f "$LINEAGE" ] && [ -n "$NEW_SIGNING_PASSWORD" ] && [ "${{ github.event_name }}" = "pull_request" ]; then
+            # test builds try the whole rotation with a throw-away key, so a mistake shows up before it reaches main
+            LINEAGE=$RUNNER_TEMP/lineage.bin NEWKS=$RUNNER_TEMP/test.p12
+            keytool -genkeypair -keystore "$NEWKS" -storetype PKCS12 -alias entcompanion -keyalg RSA -keysize 2048 \
+              -validity 100 -dname "CN=test" -storepass:env NEW_SIGNING_PASSWORD -keypass:env NEW_SIGNING_PASSWORD
+            "$BT/apksigner" rotate --out "$LINEAGE" \
+              --old-signer --ks signing/ent-atlas.jks --ks-key-alias entatlas --ks-pass env:SIGNING_PASSWORD --set-rollback false \
+              --new-signer --ks "$NEWKS" --ks-key-alias entcompanion --ks-pass env:NEW_SIGNING_PASSWORD
+          fi
+          if [ -f "$LINEAGE" ]; then
+            "$BT/apksigner" sign --ks signing/ent-atlas.jks --ks-key-alias entatlas --ks-pass env:SIGNING_PASSWORD \
+              --next-signer --ks "$NEWKS" --ks-key-alias entcompanion --ks-pass env:NEW_SIGNING_PASSWORD \
+              --lineage "$LINEAGE" --rotation-min-sdk-version 28 --out ENT-Atlas.apk aligned.apk
+          else
+            "$BT/apksigner" sign --ks signing/ent-atlas.jks --ks-key-alias entatlas --ks-pass env:SIGNING_PASSWORD \
+              --out ENT-Atlas.apk aligned.apk
+          fi
+          "$BT/apksigner" verify --print-certs ENT-Atlas.apk | grep -E "Signer|certificate SHA-256" || true
+          "$BT/apksigner" verify --verbose ENT-Atlas.apk | grep -E "Verifies|scheme" 
           ls -l ENT-Atlas.apk
 
       - name: Publish release
