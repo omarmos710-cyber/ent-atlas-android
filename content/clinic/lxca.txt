@@ -34,7 +34,7 @@ Any patient of cancer age with hoarseness for more than two to three weeks needs
 - **CT** of the neck with contrast: pre-epiglottic and paraglottic space invasion, cartilage destruction, extralaryngeal spread and nodes.
 - **MRI:** more sensitive for cartilage invasion and for recurrence after radiotherapy.
 - **CT of the chest:** lung metastases and second primaries (a solitary lung nodule is more likely a second primary).
-- **PET-CT** for advanced disease and after chemoradiation (at 10 to 12 weeks) to detect residual disease.
+- **PET-CT** for advanced disease and after chemoradiation (at about 12 weeks) to detect residual disease.
 - **Ultrasound** of the neck, with guided aspiration of suspicious nodes.
 When cancer is suspected and the airway is safe, **cross-sectional imaging is done before biopsy**, because post-biopsy swelling can distort staging. Speech and language therapy assesses voice and swallowing before treatment decisions.
 ## Endoscopy under anaesthesia
@@ -78,12 +78,12 @@ Before treatment | Swallowing and voice assessment; dental review; thyroid funct
 Early cancers (stage I and II) are treated by a single modality, radiotherapy or surgery, with similar control; the choice turns on voice, swallowing, access, fitness and preference. Advanced cancers (stage III and IV) need combined treatment, with organ preservation where it is safe and total laryngectomy where it is not.
 Treatment by site is set out in each region's chapter.
 ## Radiotherapy
-For early tumours with mobile folds and no cartilage invasion or nodes: about 60 to 70 Gy over six weeks ([[t:hnrt]]). T1 glottic cancer is controlled in about 90% or more with good voice; T2 in about 85% with normal mobility but much less (about 63 to 70%) when mobility is impaired. It spares the voice and avoids surgery but causes mucositis, oedema, dryness and occasional chondronecrosis, makes recurrence harder to detect, and cannot be repeated. Poor results with fixed folds, subglottic extension, cartilage invasion and nodes.
+For early tumours with mobile folds and no cartilage invasion or nodes: about 60 to 70 Gy over six weeks ([[t:hnrt]]). T1 glottic cancer is controlled locally in about 85 to 95% with good voice; T2 in about 85% with normal mobility but much less (about 63 to 70%) when mobility is impaired. It spares the voice and avoids surgery but causes mucositis, oedema, dryness and occasional chondronecrosis, makes recurrence harder to detect, and cannot be repeated. Poor results with fixed folds, subglottic extension, cartilage invasion and nodes.
 ### Treatment regimens
 !table Laryngeal cancer: radiotherapy and drug regimens
 Setting | Regimen | Notes
-T1 glottic | Radiotherapy 55 Gy in 20 fractions (or 50 to 52.5 Gy in 16; 63 Gy in 28 for T1 in hypofractionated schedules) | Or transoral laser cordectomy
-T2 glottic or early supraglottic | Radiotherapy about 65 Gy in 30 fractions (supraglottic: with bilateral neck) | Or transoral or open partial laryngectomy
+T1 glottic | Radiotherapy 55 Gy in 20 fractions (or 50 to 52.5 Gy in 16) | Or transoral laser cordectomy
+T2 glottic or early supraglottic | Radiotherapy about 65 Gy in 30 fractions, or 63 Gy in 28 (supraglottic: with bilateral neck) | Or transoral or open partial laryngectomy
 Larynx preservation for T3 (selected T4a refusing laryngectomy) | 70 Gy in 35 fractions with concurrent cisplatin 100 mg/m² on days 1, 22 and 43 | RTOG 91-11; or induction TPF and response-guided treatment
 T4a (cartilage destruction, extralaryngeal) | Total laryngectomy with neck dissection, then radiotherapy 60 to 66 Gy (with cisplatin for involved margins or extranodal extension) | Primary chemoradiotherapy gives worse survival for T4a
 Recurrent or metastatic | Pembrolizumab with or without platinum and fluorouracil (PD-L1 CPS 1 or more) | KEYNOTE-048

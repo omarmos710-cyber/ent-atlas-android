@@ -1,4 +1,4 @@
-@stand Head and neck squamous carcinoma is several diseases that share a microscope slide. One is tobacco- and alcohol-driven cancer of the mouth, larynx and hypopharynx in older smokers. Another is HPV-driven cancer of the tonsil and tongue base in younger non-smokers, which carries a far better prognosis. A third is EBV-driven nasopharyngeal carcinoma. The principles here apply across sites: biology, staging by the eighth edition of the AJCC system, the work-up, the multidisciplinary decision, and life after treatment.
+@stand Head and neck squamous carcinoma is several diseases that share a microscope slide. One is tobacco- and alcohol-driven cancer of the mouth, larynx and hypopharynx in older smokers. Another is HPV-driven cancer of the tonsil and tongue base in younger non-smokers, which carries a far better prognosis. A third is EBV-driven nasopharyngeal carcinoma. The principles here apply across sites: biology, staging by UICC TNM 9 and AJCC version 9, the work-up, the multidisciplinary decision, and life after treatment.
 
 # Who and why | Epidemiology and causes.
 ## Burden
@@ -83,8 +83,8 @@ UICC TNM 9 was published in mid-2025 and is used from 1 January 2026 (the UK ado
 - **Parathyroid carcinoma:** a TNM classification for the first time (T only; no stage groups).
 - **Thyroid, larynx, mucosal melanoma:** no category changes.
 Sources: Brierley et al. (eds), *TNM Classification of Malignant Tumours*, 9th edition (UICC, 2025); Pan et al., *JAMA Oncol* 2024 (nasopharynx); NHS England NDRS TNM 9 staging sheets.
-## The eighth edition changes
-The 2017 AJCC eighth edition introduced:
+## What the eighth edition introduced
+The 2017 AJCC eighth edition introduced the following, all carried forward into TNM 9:
 - *Depth of invasion* for oral cancer.
 - *Extranodal extension* in nodal staging.
 - A separate staging system for *p16-positive oropharyngeal cancer*.
@@ -134,7 +134,7 @@ Depression, fear of recurrence, alcohol relapse and suicide are all common in th
 - **Risk factors:** tobacco (including smokeless) and alcohol synergy; HPV; EBV.
 - **Field cancerisation** and the second primary rate.
 - **HPV-positive versus HPV-negative cancer:** E6 degrades p53, E7 inactivates Rb so p16 is over-expressed; prognosis; a separate AJCC staging system.
-- **The eighth edition changes:** depth of invasion, ENE, p16 staging.
+- **Staging editions:** UICC TNM 9 / AJCC v9 (from January 2026): imaging ENE, HPV-associated pN1a/pN1b, nasopharyngeal M1a/M1b; built on the eighth edition's depth of invasion, ENE and p16 staging.
 - **Oral cavity and glottic T staging;** the clinical N stages; the stage groups.
 - **The work-up:** imaging, PET-CT, panendoscopy, the dental and nutrition review.
 - **Early versus advanced disease:** single versus combined modality; when to treat the N0 neck; margins.

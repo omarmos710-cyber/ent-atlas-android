@@ -33,12 +33,12 @@ Breathlessness is *not* a feature of simple laryngitis and suggests another diag
 - Cough suppressants, mucolytics and analgesics.
 - **Antibiotics** only for secondary bacterial infection with fever or purulent sputum.
 - **Proton pump inhibitors** where reflux is suspected.
-- **Steroids** after burns, or for professional voice users who must perform.
+- **Steroids** are not routine in uncomplicated viral laryngitis; they are kept for laryngitis after thermal or chemical burns, and for professional voice users who must perform.
 ### Treatment: what and when
 !table Acute laryngitis: treatment
 Step | Treatment | Notes
 Every patient | Voice rest (not whispering), hydration, humidification, stop smoking; paracetamol | Usually settles in 1 to 2 weeks
-Not recommended | Routine antibiotics or steroids | Cochrane review: no meaningful benefit
+Not recommended | Routine antibiotics or steroids in uncomplicated viral laryngitis | Cochrane review: no meaningful benefit; steroids are kept for burns and urgent performance
 Professional voice users with an urgent performance | Short oral steroid course on specialist advice | After laryngoscopy
 Hoarseness over 3 weeks, or in a smoker | Laryngoscopy (urgent referral if over 45 with persistent hoarseness, NICE NG12) | 
 !!
@@ -130,7 +130,7 @@ Atypical (toxic, drooling, no response) | Senior airway assessment; AP neck film
 Recurrent, under 6 months, or persistent | Microlaryngoscopy and bronchoscopy when well | Subglottic stenosis, haemangioma, cyst
 !!
 ## Management
-- **Mild:** a single dose of oral dexamethasone 0.15 mg/kg (doses up to 0.6 mg/kg are used; the lower dose appears as effective) or nebulised budesonide, and observation; most go home.
+- **Mild:** a single dose of oral dexamethasone 0.15 mg/kg (doses up to 0.6 mg/kg are used; the lower dose appears as effective), or nebulised budesonide if the child is vomiting or cannot take oral medicine, and observation; most go home.
 - **Moderate to severe:** humidified oxygen, steroids and *nebulised adrenaline*, which works within minutes but wears off in about two hours, so observe for rebound; admit.
 - **Severe or failing:** intubation in theatre with a tube smaller than usual for age; tracheostomy rarely now.
 - **Antibiotics** only for suspected secondary bacterial infection.

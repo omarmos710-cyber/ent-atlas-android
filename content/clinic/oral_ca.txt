@@ -86,7 +86,7 @@ Reconstruction restores swallowing, speech, mastication and appearance, replacin
 ## Adjuvant therapy
 Postoperative **radiotherapy** is given for pT3–T4 tumours, multiple or level IV–V nodes, close margins, perineural invasion and lymphovascular invasion. **Concurrent chemoradiotherapy** with cisplatin is given for **extranodal extension** and **involved margins**, the two features that most predict recurrence. Unresectable T4b disease and patients unfit for surgery receive chemoradiotherapy or palliative treatment; borderline resectable tumours may be downstaged with **induction chemotherapy**.
 !update Current evidence
-In 500 patients with node-negative early oral cancer, elective neck dissection improved three-year overall survival compared with watchful waiting and therapeutic dissection (80.0% vs 67.5%) (D'Cruz et al., *N Engl J Med* 2015). A meta-analysis of three randomised trials (608 patients) found sentinel node biopsy gave survival and neck control similar to elective neck dissection, with better neck and shoulder function (Gupta et al., *Oral Oncol* 2022). The AJCC eighth edition incorporates depth of invasion into T staging because it predicts nodal spread better than surface size.
+In 500 patients with node-negative early oral cancer, elective neck dissection improved three-year overall survival compared with watchful waiting and therapeutic dissection (80.0% vs 67.5%) (D'Cruz et al., *N Engl J Med* 2015). A meta-analysis of three randomised trials (608 patients) found sentinel node biopsy gave survival and neck control similar to elective neck dissection, with better neck and shoulder function (Gupta et al., *Oral Oncol* 2022). Depth of invasion, introduced into T staging in the eighth edition and retained in UICC TNM 9, predicts nodal spread better than surface size.
 !!
 ### Treatment regimens
 !table Head and neck squamous cancer: radiotherapy and drug regimens
@@ -134,7 +134,7 @@ Stop tobacco, alcohol and areca nut. Moderate and severe dysplasia, erythroplaki
 ## Viva essentials
 !exam What the examiner is looking for
 - **Potentially malignant disorders:** leukoplakia, erythroplakia, proliferative verrucous leukoplakia, submucous fibrosis, and the risk features.
-- **Depth of invasion** and the AJCC eighth edition T stages.
+- **Depth of invasion** and the UICC TNM 9 T stages.
 - **Elective neck dissection in early oral cancer:** the D'Cruz trial; sentinel node biopsy.
 - **Margins:** clear, close and involved.
 - **Marginal versus segmental mandibulectomy.**

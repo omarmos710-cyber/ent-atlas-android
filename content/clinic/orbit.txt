@@ -60,7 +60,6 @@ Removal of the bone of the optic canal through the sphenoid in traumatic or comp
 ## Orbital exenteration
 Removal of the orbital contents for malignancy invading beyond the periorbita.
 !ops
-!ops
 
 # Thyroid eye disease {dz} | The commonest cause in adults.
 ## Clinical features
@@ -110,7 +109,6 @@ Not responding | Re-biopsy | Lymphoma, IgG4-related disease, vasculitis
 - **Lacrimal gland tumours:** pleomorphic adenoma and adenoid cystic carcinoma in the upper outer orbit.
 - **Metastases:** breast most often, then lung, prostate and kidney; neuroblastoma in children.
 !fig d41-4 d41-5 | First, proptosis with medial displacement of the eye from lymphoma in a child. Second, a dermoid cyst of the right orbit on axial and coronal CT.
-!imaging orbital-decompression-in-graves-disease amyloidosis-in-the-orbit mucocele osteoma-gardner-syndrome-and-complications orbital-cellulitis | Orbital decompression for Graves disease, orbital amyloidosis, mucocele, osteoma and orbital cellulitis.
 
 # Orbital complications of sinusitis {dz} | Drainage of the abscess.
 Endoscopic or external drainage of a subperiosteal or orbital abscess complicating sinusitis ([[t:abs]]).

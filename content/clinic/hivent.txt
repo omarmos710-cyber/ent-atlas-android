@@ -91,13 +91,13 @@ Sharps are passed in a dish through a "hands-free" zone, needles are never recap
 2. Report the injury at once and assess the risk.
 3. Test the source patient (with consent) for HIV, hepatitis B and hepatitis C.
 4. Take baseline blood from the injured worker.
-5. *Post-exposure prophylaxis (PEP)*: start as soon as possible, ideally within hours and no later than 72 hours. Take three drugs for 28 days, typically tenofovir with emtricitabine (or lamivudine) plus dolutegravir or raltegravir.
-6. Follow-up HIV testing at about 6 weeks and 3 to 4 months. Protect sexual partners and avoid blood donation meanwhile.
+5. *Post-exposure prophylaxis (PEP)*: start as soon as possible, ideally within 24 hours and no later than 72 hours. Take three drugs for 28 days, typically tenofovir with emtricitabine (or lamivudine) plus dolutegravir or raltegravir.
+6. Follow-up HIV testing at least 45 days (about 6 weeks) after the 28-day course ends, that is about 10 to 12 weeks after the exposure. Protect sexual partners and avoid blood donation meanwhile.
 !pearl PEP regimens have changed
 Older texts give two NRTIs (such as zidovudine and lamivudine) for low-risk exposures and add a third drug for high-risk ones. Current guidance uses a three-drug regimen built around an integrase inhibitor for every exposure that warrants PEP, because it is better tolerated and more often completed. Diagnosis has moved from ELISA and Western blot to fourth-generation antigen and antibody assays.
 !!
 !update Current evidence
-**Post-exposure prophylaxis.** UK (BHIVA) and WHO guidance recommend a three-drug regimen for 28 days, started as soon as possible and within 72 hours, for significant exposures to a source with HIV who is not known to have an undetectable viral load; PEP is not recommended when the source has a sustained undetectable viral load, because transmission does not occur (*undetectable equals untransmittable*).
+**Post-exposure prophylaxis.** UK (BHIVA) and WHO guidance recommend a three-drug regimen for 28 days, started as soon as possible, preferably within 24 hours and never beyond 72 hours, for significant exposures to a source with HIV who is not known to have an undetectable viral load; PEP is not recommended when the source has a sustained undetectable viral load, because transmission does not occur (*undetectable equals untransmittable*).
 !!
 ## Post-exposure prophylaxis: drugs and doses
 !table HIV post-exposure prophylaxis (adults)
@@ -105,7 +105,7 @@ Step | Drug and dose | Course and notes
 After a significant exposure (source HIV-positive with detectable or unknown viral load) | Tenofovir disoproxil 245 mg with emtricitabine 200 mg (one combined tablet) once daily, plus raltegravir 1200 mg once daily | 28 days; start as soon as possible, ideally within 24 hours and no later than 72 hours
 Alternative third drug | Dolutegravir 50 mg once daily | A US (CDC) option; in the UK, alternatives per specialist advice
 Source has an undetectable viral load on treatment | PEP usually not recommended | Specialist advice
-Every exposed worker | Baseline HIV, hepatitis B and C tests; hepatitis B vaccine or immunoglobulin as needed; follow-up HIV test at 6 weeks after PEP ends (or 12 weeks after exposure) | Occupational health
+Every exposed worker | Baseline HIV, hepatitis B and C tests; hepatitis B vaccine or immunoglobulin as needed; follow-up HIV test at least 45 days (about 6 weeks) after PEP ends (or 12 weeks after exposure) | Occupational health
 !!
 Based on the UK guideline for HIV post-exposure prophylaxis (Cresswell et al., *HIV Med* 2022; 2023 amendment).
 
@@ -201,7 +201,7 @@ Basal and squamous cell carcinomas and melanoma of the skin ([[t:skinca]]) are c
 - Treating a unilateral adult middle ear effusion with grommets without examining and biopsying the nasopharynx.
 - Excising bilateral parotid cysts that would regress on ART.
 - Relying on FNA alone to diagnose lymphoma.
-- Delaying PEP beyond the first hours after a needlestick.
+- Delaying PEP after a needlestick: it starts as soon as possible, preferably within 24 hours.
 !!
 ## Related topics
 - [[t:salivary]], [[t:oraldis]], [[t:neckmass]], [[t:npc]], [[t:afs]], [[t:oe]], [[t:skinca]]

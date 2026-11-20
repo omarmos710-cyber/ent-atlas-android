@@ -62,7 +62,7 @@ In practice: Basal cell carcinoma is the commonest; squamous carcinoma is the ty
 ### Melanoma
 A pigmented, irregular lesion; spreads early to the parotid and neck nodes.
 ## Management
-- **Squamous carcinoma:** excision with about 1 cm margins for small lesions; larger lesions, those within 1 cm of the canal, or with nodes need partial or total amputation of the pinna with parotidectomy and neck dissection.
+- **Squamous carcinoma:** excision with margins of at least 6 mm (10 mm if very high risk), the ear being a high-risk site; larger lesions, those within 1 cm of the canal, or with nodes need partial or total amputation of the pinna with parotidectomy and neck dissection.
 - **Basal cell carcinoma:** radiotherapy for superficial lesions not involving cartilage; excision (Mohs surgery where available) for deeper lesions.
 - **Melanoma:** wedge excision if small on the helix; wider resection with parotid and neck surgery as staged.
 !ops
@@ -123,7 +123,7 @@ Stage | I T1 N0; II T2 N0; III T3 N0 or T1 N1; IV T4 N0, T2–T4 N1, or M1
 !!
 Facial nerve palsy was made T4 in the Pittsburgh group's later modification. Proposals to divide T4 by the extent of spread (for example Japanese series) have not been adopted internationally.
 ## Management
-Sleeve or lateral temporal bone resection, with parotidectomy and neck dissection as needed, and postoperative radiotherapy ([[t:tumear]]).
+Lateral temporal bone resection (sleeve resection only for the most limited canal tumours), with parotidectomy and neck dissection as needed, and postoperative radiotherapy ([[t:tumear]]).
 ### Investigations: what and when
 !table Squamous cell carcinoma of the canal: investigations
 Role | Test | When and what it shows
