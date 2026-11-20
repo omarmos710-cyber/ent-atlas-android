@@ -34,13 +34,9 @@ jobs:
       - name: Offline file list is up to date
         run: python3 tools/build_sw.py --check
 
-      - name: Install a browser for the layout checks
-        run: |
-          pip install playwright
-          python3 -m playwright install --with-deps chromium
-
-      - name: Boards and mind maps
+      # Pixel-level layout checks (check_board_layout.py, check_maps.py without --no-layout) depend on the exact
+      # browser build, so they run locally before committing, not here.
+      - name: Boards and mind maps (content)
         run: |
           python3 tools/check_boards.py
-          python3 tools/check_board_layout.py
-          python3 tools/check_maps.py
+          python3 tools/check_maps.py --no-layout
