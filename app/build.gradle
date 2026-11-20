@@ -14,17 +14,20 @@ android {
 
     signingConfigs {
         release {
+            // The password comes from the GitHub secret SIGNING_PASSWORD (passed in by .github/workflows/build.yml),
+            // never from this file.
             storeFile file("../signing/ent-atlas.jks")
-            storePassword "entatlas2026"
+            storePassword System.getenv("SIGNING_PASSWORD")
             keyAlias "entatlas"
-            keyPassword "entatlas2026"
+            keyPassword System.getenv("SIGNING_PASSWORD")
         }
     }
 
     buildTypes {
         release {
             minifyEnabled false
-            signingConfig signingConfigs.release
+            // unsigned when there is no password (test builds of pull requests)
+            signingConfig System.getenv("SIGNING_PASSWORD") ? signingConfigs.release : null
         }
     }
 

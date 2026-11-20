@@ -6,7 +6,11 @@ Personal ENT head & neck anatomy study app. Offline Android app built automatica
 
 Sources: ENT Steps Anatomy, Dr. Sameh Doss handout, Gray's Atlas of Anatomy (2nd ed.) and Dr. Mohamed El-Fiky's Mini Atlas of Anatomy Part V. Theatre: figures from Myers & Snyderman, Operative Otolaryngology, 3rd ed.
 
-Private: contains copyrighted handout figures for personal study only.
+Private: contains copyrighted handout figures for personal study only. Keep this repository private.
+
+- Signing: the APK is signed with `signing/ent-atlas.jks`; its password is the repository secret `SIGNING_PASSWORD` (never in the code).
+- PDFs are not inside the APK. The Android app downloads each one from the web version the first time it is opened and keeps it (`PDF_SITE` in `MainActivity.java`).
+- Only the three newest releases are kept; the build removes older ones.
 
 - Web app: `app/src/main/assets/www/`
 - Android wrapper: `app/src/main/java/com/omar/entatlas/MainActivity.java`

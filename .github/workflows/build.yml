@@ -5,6 +5,8 @@ on:
     branches: [main]
     # a refreshed offline list (web/sw.js) changes only the web app, not the APK
     paths-ignore: ['web/sw.js']
+  # pull requests get a test build (not published) so a broken change is caught before it reaches main
+  pull_request:
   workflow_dispatch:
 
 permissions:
@@ -26,20 +28,39 @@ jobs:
           gradle-version: '8.9'
 
       - name: Build signed APK
-        run: gradle :app:assembleRelease --no-daemon
+        env:
+          SIGNING_PASSWORD: ${{ secrets.SIGNING_PASSWORD }}
+        run: |
+          if [ -z "$SIGNING_PASSWORD" ] && [ "${{ github.event_name }}" != "pull_request" ]; then
+            echo "::error::Add the repository secret SIGNING_PASSWORD (Settings > Secrets and variables > Actions) to sign the app."
+            exit 1
+          fi
+          # the PDFs are downloaded by the app when first opened, so they are left out of the APK
+          rm -rf app/src/main/assets/www/pdf
+          gradle :app:assembleRelease --no-daemon
 
       - name: Rename APK
-        run: cp app/build/outputs/apk/release/app-release.apk ENT-Atlas.apk
-
-      - uses: actions/upload-artifact@v4
-        with:
-          name: ENT-Atlas-apk
-          path: ENT-Atlas.apk
+        run: |
+          cp app/build/outputs/apk/release/app-release*.apk ENT-Atlas.apk
+          ls -l ENT-Atlas.apk
 
       - name: Publish release
+        if: github.event_name != 'pull_request'
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v1.0.${{ github.run_number }}
           name: The ENT Companion 1.0.${{ github.run_number }}
           body: Download ENT-Atlas.apk below and open it on your Android phone to install or update.
           files: ENT-Atlas.apk
+
+      # Keep only the three newest releases; every release holds a full copy of the APK.
+      - name: Remove old releases
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release list --repo "$GITHUB_REPOSITORY" --limit 1000 --json tagName,createdAt \
+            --jq 'sort_by(.createdAt) | reverse | .[3:] | .[].tagName' |
+          while read -r tag; do
+            gh release delete "$tag" --repo "$GITHUB_REPOSITORY" --yes --cleanup-tag || true
+          done
