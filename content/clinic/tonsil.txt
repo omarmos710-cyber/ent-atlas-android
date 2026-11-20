@@ -141,17 +141,17 @@ Doses from NICE NG84 (Sore throat, acute: antimicrobial prescribing), NHS hospit
 *Corynebacterium diphtheriae*, spread by droplets, incubation two to six days; carriers exist. A grey-white tenacious membrane forms on the tonsils and spreads to the palate and posterior wall, bleeding when lifted; tender jugulodigastric nodes give a *bull neck*; the child is toxic though the fever is modest. The exotoxin damages the heart (myocarditis, arrhythmia, circulatory failure) and nerves (palatal, ocular and diaphragmatic paralysis, weeks later); laryngeal membrane obstructs the airway.
 ## Management
 !flag Treat diphtheria on suspicion
-- Give **antitoxin** without waiting for culture: 20,000 to 40,000 units if under 48 hours and confined to the tonsils, 80,000 to 120,000 units if longer or more extensive, intravenously over an hour after a test dose, with adrenaline ready.
-- **Penicillin or erythromycin** to kill the organism.
+- Give **antitoxin** intravenously without waiting for culture, with adrenaline ready; the dose depends on severity, duration and product and is issued by UKHSA through the duty doctor (classic textbook bands: 20,000 to 40,000 units if under 48 hours and confined to the tonsils, 80,000 to 120,000 units if longer or more extensive).
+- **A macrolide** to kill the organism: clarithromycin 500 mg twice a day for 14 days in a mild adult case, or azithromycin or erythromycin; IV benzylpenicillin if the patient cannot swallow.
 - **Isolate;** discharge after three negative swabs 24 hours apart; give a booster, since infection does not confer immunity.
-- Immunise contacts and give them erythromycin for a week.
+- Swab close contacts, give them azithromycin or clarithromycin prophylaxis and vaccinate them, per UKHSA.
 !!
 ### Drugs and doses
 !table Diphtheria: drugs and doses
 Step | Drug and dose | Course and notes
-Probable or confirmed respiratory diphtheria | Diphtheria antitoxin IV, dose by severity and duration (about 20,000 to 100,000 units or more), from UKHSA via the duty doctor | Give on suspicion; do not wait for culture
+Probable or confirmed respiratory diphtheria | Diphtheria antitoxin IV, dose by severity, duration and product, issued by UKHSA via the duty doctor (textbook bands 20,000 to 40,000 units if early and confined to the tonsils, 80,000 to 120,000 units if later or extensive) | Give on suspicion; do not wait for culture
 Antibiotic, mild (adults) | Clarithromycin 500 mg twice a day | 14 days
-Alternatives | Azithromycin 500 mg once daily (children 10 mg/kg); erythromycin 500 mg four times a day | Azithromycin 7 to 10 days; erythromycin 14 days
+Alternatives | Azithromycin 500 mg once daily (children 6 months to 11 years 12 mg/kg, maximum 500 mg); erythromycin 500 mg four times a day | Azithromycin 7 to 10 days; erythromycin 14 days
 Unable to swallow | Benzylpenicillin IV, then oral | Complete 14 days
 Every case | Strict isolation; clearance swabs; diphtheria vaccine booster | Infection does not give immunity
 Close contacts | Swabs, then azithromycin or clarithromycin prophylaxis and vaccination per UKHSA | 

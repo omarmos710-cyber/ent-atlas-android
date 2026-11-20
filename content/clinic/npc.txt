@@ -2,7 +2,7 @@
 @stand Nasopharyngeal carcinoma hides in the one part of the throat no one sees without an endoscope. It shows itself instead through its neighbours: a lump high in the neck, a blocked ear with fluid in an adult, a bloodstained nose, a squint from a sixth nerve palsy. It is linked to Epstein–Barr virus, common in southern China and South-East Asia, and treated not with the knife but with radiation and chemotherapy, to which it responds well.
 
 # Summary | A cancer of geography and virus.
-Nasopharyngeal carcinoma is the commonest malignancy of the nasopharynx. It is linked to Epstein–Barr virus, genetics and salted fish, and is commonest in southern China and South-East Asia. It presents through its neighbours: a neck node, a one-sided effusion in an adult, a bloodstained nose or a sixth nerve palsy. Endoscopy and biopsy make the diagnosis, MRI stages it, and radiotherapy, with concurrent cisplatin for stage II to IVA, is the treatment. Angiofibroma is covered in [[t:juv]].
+Nasopharyngeal carcinoma is the commonest malignancy of the nasopharynx. It is linked to Epstein–Barr virus, genetics and salted fish, and is commonest in southern China and South-East Asia. It presents through its neighbours: a neck node, a one-sided effusion in an adult, a bloodstained nose or a sixth nerve palsy. Endoscopy and biopsy make the diagnosis, MRI stages it, and radiotherapy, with concurrent cisplatin for non-metastatic disease beyond T1 N0 (eighth-edition stage II to IVA), is the treatment. Angiofibroma is covered in [[t:juv]].
 
 # Epidemiology | Geography, sex and age.
 The highest incidence in the world is in southern China, Hong Kong and Taiwan, with high rates in South-East Asia, North Africa, the Mediterranean and among the Inuit and Aleut peoples. It is uncommon in India except in the North-East. Chinese born in North America have a lower risk than those born in China but still higher than other Americans, showing the interplay of genes and environment. Males outnumber females about three to one; the peak is in the fifth and sixth decades, but about one in five patients is under thirty, and these younger patients usually have undifferentiated tumours.
@@ -36,7 +36,7 @@ The commonest site of origin is the *fossa of Rosenmüller* in the lateral wall.
 ## Lymphatic
 The nasopharynx is rich in lymphatics and nodal spread is early and often bilateral: to the lateral retropharyngeal node (of Rouvière), the upper jugular (level II) nodes high under the mastoid, and the spinal accessory chain in the posterior triangle (level V). Retropharyngeal nodes cause neck stiffness and press on the lower cranial nerves.
 ## Distant
-Bone, lung and liver. Nasopharyngeal carcinoma has the highest rate of distant metastasis of any head and neck cancer: present in about 4% at diagnosis, and developing in about a quarter after IMRT (a quarter to a third in older series).
+Bone, lung and liver. Nasopharyngeal carcinoma has the highest rate of distant metastasis of any head and neck cancer: present in about 4% at diagnosis, and developing later, over follow-up, in about a quarter of patients treated with IMRT (a quarter to a third in older, pre-IMRT series).
 
 # Clinical features | The four groups of symptoms.
 ## Cervical nodes
@@ -135,18 +135,18 @@ Older AJCC editions defined T1 as confined to the nasopharynx and N3b as any nod
 
 # Management | Radiation first.
 ## Primary treatment
-The nasopharynx is hard to reach surgically, and these tumours are radiosensitive, so *radiotherapy is the treatment of choice*.
-- **Stage I:** radiotherapy alone to the nasopharynx and both sides of the neck, about 70 Gy.
-- **Stage II to IVA:** concurrent chemoradiation with cisplatin, which improves survival over radiotherapy alone; the cumulative cisplatin dose matters more than the schedule, with about 200 mg/m² as the effective threshold (160 mg/m² after induction). **Induction gemcitabine and cisplatin** before chemoradiotherapy improves survival in high-risk patients, and **adjuvant metronomic capecitabine** improves failure-free survival in high-risk disease.
+The nasopharynx is hard to reach surgically, and these tumours are radiosensitive, so *radiotherapy is the treatment of choice*. The trials behind it used eighth-edition stage groups; their version 9 equivalents are given alongside (see the stage-group table above).
+- **T1 N0 (eighth-edition stage I; part of version 9 stage IA):** radiotherapy alone to the nasopharynx and both sides of the neck, about 70 Gy.
+- **Non-metastatic disease beyond T1 N0 (eighth-edition stage II to IVA; version 9 stage IA with T2 N0, IB, II and III):** concurrent chemoradiation with cisplatin, which improves survival over radiotherapy alone; the cumulative cisplatin dose matters more than the schedule, with about 200 mg/m² as the effective threshold (160 mg/m² after induction). **Induction gemcitabine and cisplatin** before chemoradiotherapy improves survival in high-risk patients, and **adjuvant metronomic capecitabine** improves failure-free survival in high-risk disease.
 - **Intensity-modulated radiotherapy (IMRT)** delivers a high dose to the tumour while sparing the brainstem, spinal cord, optic apparatus, temporal lobes, cochleae and parotids. Proton and carbon-ion therapy have dosimetric advantages without proven better outcomes yet.
-- **Metastatic disease:** platinum-based chemotherapy, now with immunotherapy, and local treatment in selected cases.
+- **Metastatic disease (version 9 stage IVA and IVB):** platinum-based chemotherapy, now with immunotherapy, and local treatment in selected cases.
 ### Drugs and doses
 !table Nasopharyngeal carcinoma: treatment regimens
 Stage | Treatment and dose | Notes
-Stage I | IMRT alone, about 70 Gy in 33 to 35 fractions to the primary, with elective neck irradiation | 
-Stage II (selected) to IVA | IMRT 70 Gy with concurrent cisplatin 100 mg/m² every 3 weeks (or 40 mg/m² weekly) | Aim for a cumulative cisplatin dose of at least 200 mg/m²
-Locoregionally advanced (III to IVA) | Induction gemcitabine 1 g/m² on days 1 and 8 with cisplatin 80 mg/m² on day 1, every 3 weeks for 3 cycles, then chemoradiotherapy | Better survival in a phase 3 trial (Zhang et al., *N Engl J Med* 2019)
-Recurrent or metastatic | Gemcitabine with cisplatin plus a PD-1 inhibitor (for example toripalimab or camrelizumab) | First line
+T1 N0 (eighth-edition stage I; version 9 IA) | IMRT alone, about 70 Gy in 33 to 35 fractions to the primary, with elective neck irradiation | 
+Eighth-edition stage II (selected) to IVA (version 9 IA with T2 N0, IB, II and III) | IMRT 70 Gy with concurrent cisplatin 100 mg/m² every 3 weeks (or 40 mg/m² weekly) | Aim for a cumulative cisplatin dose of at least 200 mg/m²
+Locoregionally advanced (eighth-edition III to IVA; version 9 II and III) | Induction gemcitabine 1 g/m² on days 1 and 8 with cisplatin 80 mg/m² on day 1, every 3 weeks for 3 cycles, then chemoradiotherapy | Better survival in a phase 3 trial (Zhang et al., *N Engl J Med* 2019)
+Recurrent or metastatic (version 9 IVA and IVB) | Gemcitabine with cisplatin plus a PD-1 inhibitor (for example toripalimab or camrelizumab) | First line
 Cisplatin unsuitable (renal impairment, hearing loss) | Carboplatin or nedaplatin per oncology | 
 !!
 Doses from the trials cited and the ESMO–EURACAN guideline for nasopharyngeal carcinoma (Bossi et al., *Ann Oncol* 2021).

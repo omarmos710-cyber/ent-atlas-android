@@ -15,7 +15,7 @@ The adenoid lies at the junction of the roof and posterior wall of the nasophary
 - **Nerves:** glossopharyngeal and vagus, which explains the earache of adenoiditis.
 
 # Epidemiology | Growth and regression.
-Present at birth, it enlarges physiologically to a peak at about three to seven years, regresses from puberty and has largely gone by twenty; allergy or infection can keep it large beyond fifteen.
+Present at birth, it enlarges physiologically through early childhood (roughly three to seven years), reaching its maximum size at about six to seven, regresses from puberty and has largely gone by twenty; allergy or infection can keep it large beyond fifteen.
 !fig d48-2 | Size of the adenoid with age: maximum at six to seven years, regressing at puberty; persistence beyond fifteen with allergy or infection.
 
 # Etiology | Why it stays big.
@@ -98,7 +98,7 @@ General anaesthesia with an oral tube; the same position as tonsillectomy, but n
 Suction diathermy, a microdebrider or coblation under endoscopic or mirror vision remove the adenoid more completely, including tissue around the tube openings and choanae.
 !ops 191 | Adenoidectomy.
 !update Current evidence
-**Otitis media.** An individual patient data meta-analysis of ten trials found that adenoidectomy, with or without grommets, gives a small benefit in children with recurrent acute otitis media or glue ear, mainly in children aged two years and over, and not as a first operation in younger children (Boonacker et al., *Health Technol Assess* 2014). NICE (NG233, 2023) now advises considering adenoidectomy alongside grommets for glue ear, unless there is a palatal abnormality, because it reduces the need for repeat surgery. **Sleep-disordered breathing.** Adenotonsillectomy is first-line for children with obstructive sleep apnoea and enlarged tonsils; adenoidectomy alone suits those with small tonsils, and partial (intracapsular) tonsillectomy is increasingly used in young children. **Medical treatment.** A Cochrane review found that intranasal steroids may improve nasal obstruction symptoms and adenoid size in the short term, with limited, low-quality evidence (Chadha et al., 2009); montelukast may help, but carries a warning about neuropsychiatric side effects.
+**Otitis media.** An individual patient data meta-analysis of ten trials found that adenoidectomy, with or without grommets, gives a small benefit in children with recurrent acute otitis media or glue ear, mainly in children aged two years and over, and not as a first operation in younger children (Boonacker et al., *Health Technol Assess* 2014). NICE (NG233, 2023) now advises considering adenoidectomy alongside grommets for glue ear, unless there is a palatal abnormality, because it reduces the need for repeat surgery. **Sleep-disordered breathing.** Adenotonsillectomy is first-line for children with obstructive sleep apnoea and enlarged tonsils; adenoidectomy alone suits those with small tonsils, and partial (intracapsular) tonsillectomy is increasingly used in young children. **Medical treatment.** A Cochrane review found that intranasal steroids may improve nasal obstruction symptoms and adenoid size in the short term, with limited, low-quality evidence (Zhang et al., 2008); montelukast may help, but carries a warning about neuropsychiatric side effects.
 !!
 
 # Complications | Of the disease and of the operation.
@@ -171,7 +171,7 @@ Antibiotics, then marsupialisation and removal of the lining. Asymptomatic Thorn
 ## Studies cited
 - Boonacker et al., *Health Technol Assess* 2014: adenoidectomy for otitis media, individual patient data meta-analysis.
 - NICE guideline NG233 (2023): otitis media with effusion.
-- Chadha et al., *Cochrane Database Syst Rev* 2009: intranasal steroids for adenoid hypertrophy.
+- Zhang, Mendoza-Sassi, César and Chadha, *Cochrane Database Syst Rev* 2008: intranasal steroids for adenoid hypertrophy.
 ## Guidelines and dosing
-- Chadha et al., *Cochrane Database Syst Rev* 2010: intranasal corticosteroids for adenoid hypertrophy.
+- Zhang et al., *Cochrane Database Syst Rev* 2008 (CD006286): intranasal corticosteroids for adenoid hypertrophy.
 - BNF for Children: mometasone, fluticasone, montelukast, xylometazoline.

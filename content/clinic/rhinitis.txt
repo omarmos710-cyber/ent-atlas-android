@@ -60,7 +60,7 @@ It usually starts in childhood, around three years of age, after atopic dermatit
 - **Nasal provocation test:** reproducing symptoms with allergen.
 - **Nasal endoscopy:** to exclude polyps and structural causes.
 ### Interpreting allergy tests
-A skin-prick wheal more than 3 mm larger than the negative control is positive, but only about half of people with positive tests have allergic disease, so tests are interpreted with the history and requested mainly when immunotherapy or targeted avoidance is planned. A small panel (house dust mite, grass, tree and weed pollen, cat, dog and moulds) covers most allergy. Serum specific IgE is a little less sensitive than skin testing.
+A skin-prick wheal 3 mm or more larger than the negative control is positive, but only about half of people with positive tests have allergic disease, so tests are interpreted with the history and requested mainly when immunotherapy or targeted avoidance is planned. A small panel (house dust mite, grass, tree and weed pollen, cat, dog and moulds) covers most allergy. Serum specific IgE is a little less sensitive than skin testing.
 ### Investigations: what and when
 !table Allergic rhinitis: investigations
 Role | Test | When and what it shows
@@ -86,7 +86,7 @@ Moderate to severe | One or more of these
 ### Avoidance
 Most effective with a single allergen: remove the pet, reduce dust mites, change work if necessary. Allergen-impermeable mattress and pillow covers are the best-studied measure for house dust mite, though alone they help little.
 ### Drugs
-- **Intranasal corticosteroids:** the most effective single treatment for persistent or moderate to severe disease. They take days to start working and about two weeks to reach full effect; prefer modern sprays with low systemic bioavailability (mometasone, fluticasone furoate) in children. Teach technique: aim away from the septum.
+- **Intranasal corticosteroids:** the most effective single treatment for persistent or moderate to severe disease. They take days to start working and about two weeks to reach full effect, but a 2 to 3 month trial of regular use is needed before judging them a failure; prefer modern sprays with low systemic bioavailability (mometasone, fluticasone furoate) in children. Teach technique: aim away from the septum.
 - **Combined steroid-antihistamine spray** (fluticasone with azelastine): for patients not controlled by either alone.
 - **Antihistamines:** oral non-sedating or intranasal, for sneezing, itch and rhinorrhoea; less effect on blockage.
 - **Decongestants:** a short course only; oral ones are combined with antihistamines.
@@ -117,7 +117,7 @@ The British Society for Allergy and Clinical Immunology guideline recommends int
 Step | Drug and dose | Course and notes
 Mild or intermittent | Non-sedating oral antihistamine: cetirizine 10 mg once daily (children 2 to 5 years 2.5 mg twice daily, 6 to 11 years 5 mg twice daily) or loratadine 10 mg once daily (2 to 11 years under 31 kg, 5 mg) | When needed or through the season
 Mild alternative | Azelastine nasal spray 1 spray each nostril twice daily (from 6 years); sodium cromoglicate 4% 1 spray each nostril two to four times daily | Cromoglicate before exposure
-Moderate to severe or persistent (first line) | Intranasal corticosteroid: mometasone 50 micrograms, 2 sprays each nostril once daily (1 spray in children 3 to 11 years); or fluticasone propionate 50 micrograms, 2 sprays once daily (1 spray at 4 to 11 years) | 2 to 3 month trial before judging; long-term use is safe with modern sprays; check technique
+Moderate to severe or persistent (first line) | Intranasal corticosteroid: mometasone 50 micrograms, 2 sprays each nostril once daily (1 spray in children 3 to 11 years); or fluticasone propionate 50 micrograms, 2 sprays once daily (1 spray at 4 to 11 years) | Full effect in about two weeks; 2 to 3 month trial before judging; long-term use is safe with modern sprays; check technique
 Not controlled on one agent | Fluticasone propionate–azelastine spray, 1 spray each nostril twice daily (from 12 years) | 
 Watery rhinorrhoea | Ipratropium bromide 21 micrograms, 2 sprays each nostril two or three times daily | 
 Asthma as well | Montelukast 10 mg at night (children by age) | Watch for neuropsychiatric effects (MHRA)
@@ -164,7 +164,7 @@ Antihypertensives that block sympathetic activity (reserpine, methyldopa, beta-b
 ## Rhinitis medicamentosa
 Rebound congestion from overuse of topical decongestant drops beyond about five to seven days. Treated by stopping the drops, a topical or short systemic steroid course, and turbinate reduction if hypertrophy persists.
 ## Hormonal
-- **Rhinitis of pregnancy:** oedematous mucosa from oestrogen; treated with saline, topical steroids and limited decongestant use; avoid newer antihistamines.
+- **Rhinitis of pregnancy:** oedematous mucosa from oestrogen; treated with saline and topical steroids; avoid oral decongestants, and if an antihistamine is needed, use loratadine or cetirizine (see the drug table).
 - **Hypothyroidism:** parasympathetic predominance; relieved by thyroxine.
 - **Honeymoon rhinitis:** congestion with sexual excitement.
 ## NARES
