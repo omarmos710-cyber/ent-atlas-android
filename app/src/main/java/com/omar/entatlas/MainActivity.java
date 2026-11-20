@@ -142,6 +142,24 @@ public class MainActivity extends Activity {
     }
 
     @Override
+    protected void onPause() {
+        super.onPause();
+        if (web != null) web.onPause();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (web != null) web.onResume();
+    }
+
+    @Override
+    protected void onDestroy() {
+        if (web != null) { web.destroy(); web = null; }
+        super.onDestroy();
+    }
+
+    @Override
     protected void onSaveInstanceState(Bundle out) {
         super.onSaveInstanceState(out);
         if (web != null) web.saveState(out);
@@ -166,6 +184,7 @@ public class MainActivity extends Activity {
             if (pickCallback != null) pickCallback.onReceiveValue(result);
             pickCallback = null;
         } else if (req == REQ_SAVE) {
+            if (res == RESULT_OK && pendingBackup == null) toast("The backup was interrupted. Tap Back up my progress again");
             if (res == RESULT_OK && data != null && data.getData() != null && pendingBackup != null) {
                 try (OutputStream os = getContentResolver().openOutputStream(data.getData(), "wt")) {
                     os.write(pendingBackup.getBytes(StandardCharsets.UTF_8));
@@ -181,14 +200,28 @@ public class MainActivity extends Activity {
     private final java.util.Set<String> pdfBusy = new java.util.HashSet<>();
 
     /** The kept copy of a PDF, downloaded or refreshed from the website when possible; null if there is none. */
+    /* PDFs are kept where Android's phone backup does not go: they can be downloaded again, and over 25 MB of
+       files would stop the backup of the app altogether, progress included */
+    private File pdfDir() {
+        File dir = new File(getNoBackupFilesDir(), "pdf");
+        if (!dir.exists()) {
+            File old = new File(getFilesDir(), "pdf");   // where the first version kept them
+            if (!(old.isDirectory() && old.renameTo(dir))) dir.mkdirs();
+        }
+        return dir;
+    }
+
+    private File keptPdf(String id) {
+        return new File(pdfDir(), id + ".pdf");
+    }
+
     private File fetchPdf(String id) {
-        File dir = new File(getFilesDir(), "pdf");
-        dir.mkdirs();
+        File dir = pdfDir();
         File kept = new File(dir, id + ".pdf"), tag = new File(dir, id + ".etag");
         HttpURLConnection c = null;
         try {
             c = (HttpURLConnection) new URL(PDF_SITE + "/pdf/" + id + ".pdf").openConnection();
-            c.setConnectTimeout(kept.exists() ? 4000 : 15000);
+            c.setConnectTimeout(15000);
             c.setReadTimeout(60000);
             if (kept.exists() && tag.exists()) c.setRequestProperty("If-None-Match", readText(tag));
             int code = c.getResponseCode();
@@ -269,12 +302,17 @@ public class MainActivity extends Activity {
            downloaded from the website and kept; after that it opens offline, and is refreshed when it has changed. */
         @JavascriptInterface
         public void openPdf(String id, String name) {
-            if (!id.matches("[a-z0-9_-]+")) return;
+            if (id == null || name == null || !id.matches("[a-z0-9_-]+")) return;
             synchronized (pdfBusy) { if (!pdfBusy.add(id)) return; }
             new Thread(() -> {
                 try {
-                    File kept = fetchPdf(id);
-                    if (kept == null) {
+                    File kept = keptPdf(id);
+                    if (kept.exists()) {
+                        showPdf(kept, name);   // open the saved copy straight away
+                        fetchPdf(id);          // and check for a newer one for next time
+                        return;
+                    }
+                    if (fetchPdf(id) == null) {
                         toast("Connect to the internet once to download this PDF");
                         return;
                     }
@@ -287,6 +325,7 @@ public class MainActivity extends Activity {
 
         @JavascriptInterface
         public void saveBackup(String name, String json) {
+            if (name == null || json == null) return;
             pendingBackup = json;
             Intent i = new Intent(Intent.ACTION_CREATE_DOCUMENT);
             i.addCategory(Intent.CATEGORY_OPENABLE);

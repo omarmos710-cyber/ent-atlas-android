@@ -90,7 +90,10 @@ async function hex(buf){const d=new Uint8Array(await crypto.subtle.digest("SHA-2
 /* a copy the old worker already saved is reused when its content is the same */
 async function fromLegacy(st,i,names){for(const n of names){const c=await caches.open(n);const hit=await c.match(P[i],{ignoreSearch:true});if(!hit||!hit.ok)continue;
   try{const buf=await hit.clone().arrayBuffer();if(await hex(buf)===R[i]){await st.put(K(i),new Response(buf,{headers:hit.headers}));return true}}catch(e){}}return false}
-async function fromNet(st,i,tries){for(let t=0;t<(tries||3);t++){try{const r=await fetch(new Request(K(i),{cache:"no-cache"}));if(r.ok){await st.put(K(i),plain(r));return true}}catch(e){}}return false}
+/* a download is kept only if its content matches this version's fingerprint, so a file from a newer or older
+   deploy is never saved under the wrong version (a failed install keeps the working version) */
+async function fromNet(st,i,tries){for(let t=0;t<(tries||3);t++){try{const r=await fetch(new Request(K(i),{cache:"no-cache"}));
+  if(r.ok){const buf=await r.arrayBuffer();if(await hex(buf)!==R[i])return false;await st.put(K(i),new Response(buf,{status:200,headers:r.headers}));return true}}catch(e){}}return false}
 async function pool(list,n,fn){let j=0;const run=async()=>{while(j<list.length){const i=list[j++];await fn(i)}};await Promise.all(Array.from({length:n},run))}
 async function missing(st,from,to){const have=new Set((await st.keys()).map(keyOf));const out=[];for(let i=from;i<to;i++)if(!have.has(K(i)))out.push(i);return out}
 self.addEventListener("install",e=>{e.waitUntil((async()=>{const st=await caches.open(STORE);const names=(await caches.keys()).filter(LEGACY);
@@ -100,33 +103,38 @@ self.addEventListener("install",e=>{e.waitUntil((async()=>{const st=await caches
   await self.skipWaiting()})())});
 self.addEventListener("activate",e=>{e.waitUntil((async()=>{
   /* the old code caches go; the old media caches stay until their figures have been moved across (fill) */
-  for(const n of await caches.keys())if(LEGACY(n)&&n!=="ent-atlas-media")await caches.delete(n);
+  for(const n of await caches.keys())if((LEGACY(n)&&n!=="ent-atlas-media")||n==="ent-atlas-ext")await caches.delete(n);
   const st=await caches.open(STORE),want=new Set(P.map((p,i)=>K(i)));
   for(const r of await st.keys())if(!want.has(keyOf(r)))await st.delete(r);
   await self.clients.claim()})())});
 /* figures, scans and PDFs: filled in the background when the page asks, resumed on the next visit if stopped */
 let FILLING=null;
 function fill(){if(FILLING)return FILLING;FILLING=(async()=>{const st=await caches.open(STORE);const need=await missing(st,NCORE,P.length);if(!need.length)return;
-  const names=(await caches.keys()).filter(n=>n==="ent-atlas-media"||n==="ent-atlas-ext");let done=0,got=0;
+  const names=(await caches.keys()).filter(n=>n==="ent-atlas-media");let done=0,got=0;
   const tell=async m=>{for(const c of await self.clients.matchAll())c.postMessage(m)};
   await pool(need,6,async i=>{if(await fromLegacy(st,i,names)||await fromNet(st,i,2))got++;if(++done%100===0)tell({fill:[done,need.length]})});
   const left=(await missing(st,NCORE,P.length)).length;
-  if(!left){await caches.delete("ent-atlas-media");const x=await caches.open("ent-atlas-ext");for(const r of await x.keys())if(!/fonts\.(googleapis|gstatic)/.test(r.url))await x.delete(r)}
+  if(!left)await caches.delete("ent-atlas-media");
   tell({fill:[done,need.length],left});if(got&&!left)tell("cached")})().finally(()=>{FILLING=null});return FILLING}
-self.addEventListener("message",e=>{if(e.data==="fill")e.waitUntil(fill())});
+/* how much is still to save: the page shows it in More */
+async function status(){const st=await caches.open(STORE);return (await missing(st,NCORE,P.length)).length}
+self.addEventListener("message",e=>{if(e.data==="fill")e.waitUntil(fill());
+  else if(e.data==="status"&&e.source)e.waitUntil(status().then(n=>e.source.postMessage({missing:n,total:P.length-NCORE})))});
 self.addEventListener("fetch",e=>{const req=e.request;if(req.method!=="GET")return;const url=new URL(req.url);
-  if(/fonts\.(googleapis|gstatic)\.com$/.test(url.hostname)){e.respondWith((async()=>{const c=await caches.open("ent-atlas-ext");
-    const hit=await c.match(req);if(hit)return hit;try{const r=await fetch(req);c.put(req,r.clone());return r}catch(err){return Response.error()}})());return}
   if(url.origin!==location.origin)return;
   const page=req.mode==="navigate"&&(!/\.[a-z0-9]{2,5}$/i.test(url.pathname.replace(/\/$/,""))||/\.html?$/i.test(url.pathname));
   e.respondWith((async()=>{const st=await caches.open(STORE);
-    if(page){const i=IX.get("index.html");try{const ctl=new AbortController();const t=setTimeout(()=>ctl.abort(),3000);const r=await fetch(req,{signal:ctl.signal});clearTimeout(t);
-        if(r.ok||r.type==="opaqueredirect")return r}catch(err){}
-      return plain((i!==undefined&&await st.match(K(i)))||(await caches.match(req,{ignoreSearch:true})))||Response.error()}
+    /* the page comes from this version's saved copy, so it always matches the scripts saved with it; a newer
+       version is picked up by the update check, which installs it whole and then reloads */
+    if(page){const i=IX.get("index.html");const hit=plain(i!==undefined&&await st.match(K(i)));if(hit)return hit;
+      try{const r=await fetch(req);if(r.ok||r.type==="opaqueredirect")return r}catch(err){}
+      return plain(await caches.match(req,{ignoreSearch:true}))||Response.error()}
     const i=IX.get(rel(req.url));
     if(i!==undefined){const hit=await st.match(K(i));if(hit)return hit}
     const old=await caches.match(req,{ignoreSearch:true});if(old)return old;
-    try{const r=await fetch(req);if(r.ok&&i!==undefined&&!url.search)st.put(K(i),r.clone()).catch(()=>{});return r}catch(err){return Response.error()}})())});
+    try{const r=await fetch(req);if(!(r.ok&&i!==undefined&&!url.search))return r;
+      const buf=await r.arrayBuffer();if(await hex(buf)===R[i])st.put(K(i),new Response(buf,{status:200,headers:r.headers})).catch(()=>{});
+      return new Response(buf,{status:r.status,statusText:r.statusText,headers:r.headers})}catch(err){return Response.error()}})())});
 '''
 
 
