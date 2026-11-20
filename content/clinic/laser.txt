@@ -41,11 +41,11 @@ Safety starts with organisation: a laser safety officer, trained and certified s
 
 Everyone in the room, including the patient, wears *wavelength-specific goggles*: clear glass or plastic for CO2, orange or amber for argon and KTP, and green-blue for Nd:YAG. The reason is anatomical. Visible and near-infrared lasers (400 to 1400 nm) pass through the transparent media and burn the *retina*, whereas CO2 and other far-infrared lasers are absorbed by water at the front of the eye and burn the *cornea*. The patient's eyes are covered with wet pads and exposed skin with wet towels. The smoke plume can carry viable viral particles, such as HPV from papillomas, and is mutagenic, so a separate smoke evacuator is used.
 
-The **airway fire** needs the three elements of the *fire triangle*: heat from the laser, fuel from the tube, drapes and cottonoids, and an oxidiser, oxygen or nitrous oxide. It is prevented by removing each element (the anaesthetic side is in [[t:anaes]]). Use laser-safe tubes, metal or specially wrapped, or jet ventilation without a tube; fill the cuff with *saline coloured with methylene blue* so that a puncture shows at once; protect the cuff and tissues with wet cottonoids; keep oxygen at 30% or less, and never above 40%; use *no nitrous oxide*; use the lowest effective power; and direct the beam only at the target.
+The **airway fire** needs the three elements of the *fire triangle*: heat from the laser, fuel from the tube, drapes and cottonoids, and an oxidiser, oxygen or nitrous oxide. It is prevented by removing each element (the anaesthetic side is in [[t:anaes]]). Use laser-safe tubes, metal or specially wrapped, or jet ventilation without a tube; fill the cuff with *saline coloured with methylene blue* so that a puncture shows at once; protect the cuff and tissues with wet cottonoids; keep inspired oxygen as low as possible, ideally under 30%; use *no nitrous oxide*; use the lowest effective power; and direct the beam only at the target.
 !flag Airway fire drill
 1. Stop the laser.
-2. Stop ventilation and disconnect oxygen.
-3. Remove the tube.
+2. Remove the tube.
+3. Stop all airway gases and disconnect oxygen.
 4. Pour saline into the airway.
 5. Ventilate by mask with air.
 6. Reintubate.

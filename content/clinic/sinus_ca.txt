@@ -134,7 +134,7 @@ T4b | Orbital apex, dura, brain, middle cranial fossa, cranial nerves other than
 Stage | TNM
 I / II | T1 N0 / T2 N0
 III | T3 N0, or T1–T3 N1
-IVA | T1–T3 N2, or T4a N0–N2
+IVA | T4a N0–N1, or T1–T4a N2
 IVB | T4b any N, or any T N3
 IVC | M1
 !!

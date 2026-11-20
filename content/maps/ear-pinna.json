@@ -1,0 +1,51 @@
+{
+ "id": "ear-pinna",
+ "title": "The pinna",
+ "sec": "ear",
+ "order": 3,
+ "hub": {"t": "The pinna", "s": "cartilage, skin and shape", "icon": "ear"},
+ "branches": [
+  {"id": "pinna", "name": "Shape & injury", "c": "blue", "icon": "ear",
+   "subs": [
+    ["Development", ["six hillocks of His, first cleft", "tragus: first arch · rest: second", "adult shape by ~20 weeks"]],
+    ["Anomalies", ["bat ear commonest: weak antihelical fold", "Stahl's ear: extra crus", "preauricular tag, pit, sinus"]],
+    ["Timing", ["mould in first six weeks of life", "otoplasty after age six", "microtia: rib cartilage at ~eight to ten"]],
+    ["Wounds", ["repair early, cover the cartilage", "bites: lobe commonest, human most infected", "co-amoxiclav for bites", "frostbite: rewarm 38–42°C, debride late"]],
+    ["Keloid", ["after piercing, darker skin", "excision alone recurs", "+ triamcinolone injection, pressure"]]
+   ]},
+  {"id": "earminor", "name": "Haematoma & sinus", "c": "orange", "icon": "scalpel",
+   "subs": [
+    ["Haematoma", ["shearing blow, contact sport", "blood lifts perichondrium: cartilage starves", "untreated → cauliflower ear"]],
+    ["Drain", ["small, fresh (< a third): aspirate", "large or recurrent: incise + bolster", "bolster ~a week · review at 4–7 days"]],
+    ["Look beyond", ["head injury first", "baby not walking: non-accidental", "red, hot, painful = perichondritis"]],
+    ["Preauricular sinus", ["hillocks fail to fuse", "branching tract, ends on temporalis fascia", "pits + neck fistulae: renal ultrasound"]],
+    ["Excise", ["only after recurrent infection, settled", "supra-auricular: block on the fascia", "recurrence 2.2% vs 5.5% sinectomy", "dye and probes miss branches"]]
+   ]},
+  {"id": "perich", "name": "Perichondritis", "c": "red", "icon": "flame",
+   "subs": [
+    ["Key sign", ["cartilage lives on its perichondrium", "lobule spared = cartilage disease", "cellulitis may involve the lobule"]],
+    ["Perichondritis", ["Pseudomonas · high piercing, trauma", "oral ciprofloxacin first line", "never flucloxacillin alone", "abscess: incise, remove dead cartilage", "bolster · antibiotics 2–4 weeks"]],
+    ["Ramsay Hunt", ["zoster in the geniculate ganglion", "pain → concha vesicles → facial palsy", "VIII: tinnitus, hearing loss, vertigo", "prednisolone + antiviral, eye care", "~60% normal face even treated · ~20% untreated"]],
+    ["Polychondritis", ["autoimmune, often both ears", "nose, larynx, trachea: the airway", "steroids · rheumatology"]],
+    ["Chondrodermatitis", ["painful helical nodule, older men", "relieve pressure · excise for histology"]]
+   ]},
+  {"id": "atresia", "name": "Microtia & atresia", "c": "green", "icon": "child",
+   "subs": [
+    ["First arch", ["inner ear normal: otic placode", "boys, right side · ~10% bilateral", "Treacher Collins, Goldenhar, BOR"]],
+    ["Hearing first", ["atresia: conductive ~60–70 dB", "bilateral: bone-conduction aid by 6 months", "bone-anchored implant from ~5 years"]],
+    ["Microtia grades", ["I smaller · II parts missing", "III peanut ear · IV anotia"]],
+    ["Before canal surgery", ["thin-section CT at about 5 to 6 years", "facial nerve anterior + lateral", "Jahrsdoerfer ≥ 7 of 10"]],
+    ["Order", ["pinna reconstructed before canal", "only ~half keep gap < 30 dB", "most choose bone-conduction devices"]]
+   ]}
+ ],
+ "links": [
+  ["pinna", "earminor", "infected pit → excision"],
+  ["earminor", "perich", "infected haematoma"],
+  ["pinna", "atresia", "microtia hides a deaf ear"]
+ ],
+ "abbr": {
+  "BOR": "branchio-oto-renal syndrome",
+  "CT": "computed tomography",
+  "VIII": "vestibulocochlear nerve"
+ }
+}

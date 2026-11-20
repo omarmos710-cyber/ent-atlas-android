@@ -1,0 +1,330 @@
+{
+ "id": "neck-lump",
+ "title": "The neck lump",
+ "sec": "neck",
+ "order": 1,
+ "hub": {
+  "t": "The neck lump",
+  "s": "age, time, site, then needle",
+  "icon": "lump"
+ },
+ "branches": [
+  {
+   "id": "neckmass",
+   "name": "Adult neck lump",
+   "c": "blue",
+   "icon": "nodes",
+   "subs": [
+    [
+     "Age · time",
+     [
+      "child: reactive node or congenital",
+      "over forty + smoker = squamous metastasis",
+      "rule of 80: neoplastic, malignant, metastatic",
+      "days inflammatory · months neoplastic",
+      "years = congenital or benign"
+     ]
+    ],
+    [
+     "Node → primary",
+     [
+      "level II: tonsil, tongue base, nasopharynx",
+      "posterior triangle → nasopharynx",
+      "level VI → thyroid",
+      "Virchow node → abdomen or chest",
+      "cystic level II = HPV metastasis"
+     ]
+    ],
+    [
+     "Work-up",
+     [
+      "full head + neck exam + nasendoscopy",
+      "ultrasound + FNA first",
+      "CT or MRI for extent",
+      "never excise an adult node first"
+     ]
+    ],
+    [
+     "Unknown primary",
+     [
+      "PET-CT before panendoscopy",
+      "tonsillectomy + tongue-base mucosectomy",
+      "p16 → oropharynx · EBV → nasopharynx"
+     ]
+    ],
+    [
+     "TB · lymphoma",
+     [
+      "matted → cold abscess → collar-stud",
+      "HRZE 2 months → HR 4 months",
+      "aspirate, never incise",
+      "lymphoma: core or excision, fresh tissue"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "paeds_neck",
+   "name": "Congenital lumps",
+   "c": "orange",
+   "icon": "child",
+   "subs": [
+    [
+     "Thyroglossal",
+     [
+      "commonest congenital neck mass",
+      "midline, rises on tongue protrusion",
+      "subhyoid = commonest site",
+      "ultrasound: confirm a normal thyroid",
+      "~1% carcinoma, almost always papillary"
+     ]
+    ],
+    [
+     "Sistrunk",
+     [
+      "cyst + tract + body of hyoid",
+      "cystectomy alone: recurs in up to half",
+      "Sistrunk: recurrence < 5%"
+     ]
+    ],
+    [
+     "Second cleft",
+     [
+      "~90% of branchial anomalies",
+      "cyst: front of sternomastoid, upper–mid third",
+      "sinus pit: lower third sternomastoid",
+      "between carotids → tonsillar fossa",
+      "step-ladder excision"
+     ]
+    ],
+    [
+     "Pouch III–IV",
+     [
+      "left pyriform sinus opening",
+      "recurrent left neck abscess",
+      "acute suppurative thyroiditis"
+     ]
+    ],
+    [
+     "Lymphatic",
+     [
+      "posterior triangle, transilluminant",
+      "90% appear by two years",
+      "macrocystic → sclerotherapy",
+      "microcystic → sirolimus"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "vascneck",
+   "name": "Vascular & neural",
+   "c": "red",
+   "icon": "vessel",
+   "subs": [
+    [
+     "Carotid body",
+     [
+      "at the bifurcation, level of hyoid",
+      "side to side, not vertical (Fontaine)",
+      "bruit · pulsation · ~1 mm a year"
+     ]
+    ],
+    [
+     "Image, never needle",
+     [
+      "splays internal + external carotids",
+      "lyre sign · salt-and-pepper MRI",
+      "no FNA, no biopsy"
+     ]
+    ],
+    [
+     "Every patient",
+     [
+      "metanephrines before anaesthesia",
+      "SDH genetics: up to 40% hereditary",
+      "malignant only if it metastasises"
+     ]
+    ],
+    [
+     "Surgery",
+     [
+      "Shamblin III encases the carotids",
+      "first bite syndrome",
+      "bilateral: stage or observe one"
+     ]
+    ],
+    [
+     "Schwannoma",
+     [
+      "no flow voids · target sign on T2",
+      "enucleate, preserve fascicles"
+     ]
+    ],
+    [
+     "Vascular anomaly",
+     [
+      "haemangioma grows after birth, involutes",
+      "GLUT-1 positive; malformation negative",
+      "beard lesion → subglottic haemangioma",
+      "propranolol 1 → 3 mg/kg/day",
+      "AVM: embolise + excise, never ligate"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "hivent",
+   "name": "HIV in the neck",
+   "c": "purple",
+   "icon": "microbe",
+   "subs": [
+    [
+     "ENT clues",
+     [
+      "hairy leukoplakia: lateral tongue, EBV",
+      "persistent thrush",
+      "necrotising gingivitis",
+      "generalised lymphadenopathy"
+     ]
+    ],
+    [
+     "Biopsy if",
+     [
+      "unilateral adult effusion → nasopharynx",
+      "adult adenotonsillar hypertrophy",
+      "asymmetric, growing or matted nodes"
+     ]
+    ],
+    [
+     "Parotid cysts",
+     [
+      "bilateral, painless, may present HIV",
+      "regress on ART: do not excise"
+     ]
+    ],
+    [
+     "Kaposi",
+     [
+      "human herpesvirus 8 · hard palate",
+      "violaceous, does not blanch",
+      "ART first · very radiosensitive"
+     ]
+    ],
+    [
+     "Test · treat",
+     [
+      "fourth-generation antigen + antibody",
+      "AIDS: CD4 < 200",
+      "ART at diagnosis, any CD4",
+      "undetectable = untransmittable"
+     ]
+    ],
+    [
+     "Needlestick",
+     [
+      "risk ~0.3% percutaneous",
+      "PEP ideally < 24 h, never > 72 h",
+      "three drugs for 28 days"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "jaw",
+   "name": "Jaw lesions",
+   "c": "teal",
+   "icon": "tooth",
+   "subs": [
+    [
+     "Read the film",
+     [
+      "lucent or opaque · uni- or multilocular",
+      "crown, apex or neither?",
+      "aspirate before any biopsy",
+      "numb lower lip = malignancy, osteomyelitis"
+     ]
+    ],
+    [
+     "Cysts",
+     [
+      "radicular: apex of a non-vital tooth",
+      "dentigerous: crown of unerupted tooth",
+      "keratocyst: recurs up to 30%",
+      "multiple keratocysts = Gorlin"
+     ]
+    ],
+    [
+     "Ameloblastoma",
+     [
+      "~80% mandible, molar–ramus",
+      "soap bubble · knife-edge resorption",
+      "resect 1–1.5 cm margins, never curette"
+     ]
+    ],
+    [
+     "Fibro-osseous",
+     [
+      "fibrous dysplasia = ground glass",
+      "ossifying fibroma = well defined",
+      "Paget = cotton wool"
+     ]
+    ],
+    [
+     "Sinister",
+     [
+      "giant cell lesion: check calcium, PTH",
+      "osteosarcoma: sunburst, Garrington sign",
+      "numb chin → metastasis",
+      "ORN esp. > 60 Gy · MRONJ > eight weeks"
+     ]
+    ]
+   ]
+  }
+ ],
+ "links": [
+  [
+   "paeds_neck",
+   "neckmass",
+   "adult 'cyst' = metastasis"
+  ],
+  [
+   "neckmass",
+   "vascneck",
+   "pulsatile: never needle"
+  ],
+  [
+   "hivent",
+   "neckmass",
+   "TB, lymphoma in nodes"
+  ],
+  [
+   "jaw",
+   "vascneck",
+   "blood on aspiration: AVM"
+  ]
+ ],
+ "abbr": {
+  "AIDS": "acquired immunodeficiency syndrome",
+  "ART": "antiretroviral therapy",
+  "AVM": "arteriovenous malformation",
+  "CD4": "CD4 helper T cells",
+  "CT": "computed tomography",
+  "EBV": "Epstein–Barr virus",
+  "ENT": "ear, nose and throat",
+  "FNA": "fine-needle aspiration",
+  "GLUT": "glucose transporter",
+  "HIV": "human immunodeficiency virus",
+  "HPV": "human papillomavirus",
+  "HR": "isoniazid + rifampicin",
+  "HRZE": "isoniazid, rifampicin, pyrazinamide, ethambutol",
+  "MRI": "magnetic resonance imaging",
+  "MRONJ": "medication-related osteonecrosis of the jaw",
+  "ORN": "osteoradionecrosis",
+  "PEP": "post-exposure prophylaxis",
+  "PET": "positron emission tomography",
+  "PTH": "parathyroid hormone",
+  "SDH": "succinate dehydrogenase",
+  "TB": "tuberculosis"
+ }
+}

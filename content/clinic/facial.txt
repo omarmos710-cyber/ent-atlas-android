@@ -85,7 +85,7 @@ Motor only | Below the chorda, in the mastoid or parotid
 !fig d14-12 | Topographical localisation of facial nerve lesions.
 ## Electrical tests
 ### Electroneuronography (ENoG)
-Compares the compound muscle response on the two sides. Degeneration of 90% or more within the first three weeks predicts a poor recovery.
+Compares the compound muscle response on the two sides in a complete palsy, between about day 3 and day 14 to 21. Degeneration of 90% or more predicts a poor recovery; when decompression is considered, the decision rests on testing within 14 days of onset.
 ### Electromyography (EMG)
 Fibrillation potentials at 14 to 21 days mean denervation; polyphasic potentials appear 6 to 12 weeks before visible recovery; electrical silence means the motor end plates are lost.
 !differ The ENoG window
@@ -136,7 +136,7 @@ A diagnosis of exclusion: examine the ear, parotid, neck and other cranial nerve
 Role | Test | When and what it shows
 Diagnosis | History and full examination of ear, parotid, neck and cranial nerves; House–Brackmann grade | A diagnosis of exclusion; the forehead is involved
 Not routine at presentation | Laboratory tests and imaging | The American guideline advises against them in a typical palsy
-Complete palsy | Electroneuronography (ENoG) at 3 to 14 days, with EMG | Prognosis; more than 90% degeneration predicts a poor recovery
+Complete palsy | Electroneuronography (ENoG) from day 3 (meaningful to day 14 to 21; within 14 days if decompression is considered), with EMG | Prognosis; more than 90% degeneration predicts a poor recovery
 Atypical (slow onset, other cranial nerves, recurrent, bilateral, no recovery by 3 to 4 months) | Contrast MRI of the whole nerve; CT temporal bone if ear disease | Tumour, cholesteatoma, central lesion
 Bilateral or recurrent | Glucose, Lyme serology where endemic, ACE and chest film (sarcoid), HIV | Systemic causes
 !!
@@ -185,7 +185,7 @@ Vertigo | Short course of a vestibular sedative (for example prochlorperazine) |
 !!
 Doses from the BNF (herpes zoster doses), NHS Tayside and NHS Borders facial palsy guidance, and the Scottish trial protocol for steroids.
 ## Prognosis
-The outlook for the face is worse than in Bell's palsy.
+The outlook for the face is worse than in Bell's palsy: even with treatment only about 60% regain normal facial function, and without it only about 20% recover completely.
 
 # Otitis media and cholesteatoma {dz} | An ear emergency.
 ## Pathophysiology
