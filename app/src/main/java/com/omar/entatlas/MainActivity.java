@@ -25,12 +25,16 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.nio.charset.StandardCharsets;
 
 public class MainActivity extends Activity {
     private static final String HOST = "appassets.androidplatform.net";
     private static final String START = "https://" + HOST + "/assets/www/index.html";
     private static final int REQ_PICK = 1, REQ_SAVE = 2;
+    /* the web version of the app, where the PDFs are downloaded from */
+    private static final String PDF_SITE = "https://ent-atlas-android.enthnanatomy.workers.dev";
 
     private WebView web;
     private String lastUrl = START;   // last page shown, to come back to if the renderer is killed
@@ -174,39 +178,111 @@ public class MainActivity extends Activity {
         }
     }
 
+    private final java.util.Set<String> pdfBusy = new java.util.HashSet<>();
+
+    /** The kept copy of a PDF, downloaded or refreshed from the website when possible; null if there is none. */
+    private File fetchPdf(String id) {
+        File dir = new File(getFilesDir(), "pdf");
+        dir.mkdirs();
+        File kept = new File(dir, id + ".pdf"), tag = new File(dir, id + ".etag");
+        HttpURLConnection c = null;
+        try {
+            c = (HttpURLConnection) new URL(PDF_SITE + "/pdf/" + id + ".pdf").openConnection();
+            c.setConnectTimeout(kept.exists() ? 4000 : 15000);
+            c.setReadTimeout(60000);
+            if (kept.exists() && tag.exists()) c.setRequestProperty("If-None-Match", readText(tag));
+            int code = c.getResponseCode();
+            if (code == HttpURLConnection.HTTP_NOT_MODIFIED) return kept;
+            if (code != HttpURLConnection.HTTP_OK) return kept.exists() ? kept : null;
+            if (!kept.exists()) toast("Downloading the PDF…");
+            File part = new File(dir, id + ".part");
+            try (InputStream in = c.getInputStream(); OutputStream os = new FileOutputStream(part)) {
+                byte[] buf = new byte[65536];
+                int n;
+                while ((n = in.read(buf)) > 0) os.write(buf, 0, n);
+            }
+            if (!isPdf(part)) { part.delete(); return kept.exists() ? kept : null; }
+            if (!part.renameTo(kept)) { part.delete(); return kept.exists() ? kept : null; }
+            String etag = c.getHeaderField("ETag");
+            if (etag != null) {
+                try (OutputStream os = new FileOutputStream(tag)) { os.write(etag.getBytes(StandardCharsets.UTF_8)); }
+            } else tag.delete();
+            return kept;
+        } catch (Exception e) {
+            return kept.exists() ? kept : null;   // offline: use the kept copy
+        } finally {
+            if (c != null) c.disconnect();
+        }
+    }
+
+    private static boolean isPdf(File f) {
+        try (InputStream in = new java.io.FileInputStream(f)) {
+            byte[] b = new byte[5];
+            return f.length() > 1000 && in.read(b) == 5 && new String(b, StandardCharsets.US_ASCII).equals("%PDF-");
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
+    private static String readText(File f) throws java.io.IOException {
+        try (InputStream in = new java.io.FileInputStream(f)) {
+            byte[] b = new byte[(int) Math.min(f.length(), 512)];
+            int n = in.read(b);
+            return new String(b, 0, Math.max(n, 0), StandardCharsets.UTF_8).trim();
+        }
+    }
+
+    /** Open a kept PDF in the phone's PDF viewer (or offer to share/save it if there is none). */
+    private void showPdf(File src, String name) {
+        try {
+            File dir = new File(getCacheDir(), "shared");
+            dir.mkdirs();
+            String safe = name.replaceAll("[^\\w ,.()-]", "");
+            File out = new File(dir, safe.endsWith(".pdf") ? safe : safe + ".pdf");
+            try (InputStream in = new java.io.FileInputStream(src); OutputStream os = new FileOutputStream(out)) {
+                byte[] buf = new byte[65536];
+                int n;
+                while ((n = in.read(buf)) > 0) os.write(buf, 0, n);
+            }
+            Uri uri = FileProvider.getUriForFile(MainActivity.this, "com.omar.entatlas.files", out);
+            Intent view = new Intent(Intent.ACTION_VIEW);
+            view.setDataAndType(uri, "application/pdf");
+            view.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+            Intent send = new Intent(Intent.ACTION_SEND);
+            send.setType("application/pdf");
+            send.putExtra(Intent.EXTRA_STREAM, uri);
+            send.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+            runOnUiThread(() -> {
+                try {
+                    startActivity(view);
+                } catch (ActivityNotFoundException e) {
+                    startActivity(Intent.createChooser(send, "Open or save the PDF"));
+                }
+            });
+        } catch (Exception e) {
+            toast("Couldn't open the PDF");
+        }
+    }
+
     private class Bridge {
+        /* The PDFs are not inside the app (they would double its size). The first time one is opened it is
+           downloaded from the website and kept; after that it opens offline, and is refreshed when it has changed. */
         @JavascriptInterface
         public void openPdf(String id, String name) {
             if (!id.matches("[a-z0-9_-]+")) return;
-            try {
-                File dir = new File(getCacheDir(), "shared");
-                dir.mkdirs();
-                String safe = name.replaceAll("[^\\w ,.()-]", "");
-                File out = new File(dir, safe.endsWith(".pdf") ? safe : safe + ".pdf");
-                try (InputStream in = getAssets().open("www/pdf/" + id + ".pdf");
-                     OutputStream os = new FileOutputStream(out)) {
-                    byte[] buf = new byte[65536];
-                    int n;
-                    while ((n = in.read(buf)) > 0) os.write(buf, 0, n);
-                }
-                Uri uri = FileProvider.getUriForFile(MainActivity.this, "com.omar.entatlas.files", out);
-                Intent view = new Intent(Intent.ACTION_VIEW);
-                view.setDataAndType(uri, "application/pdf");
-                view.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
-                Intent send = new Intent(Intent.ACTION_SEND);
-                send.setType("application/pdf");
-                send.putExtra(Intent.EXTRA_STREAM, uri);
-                send.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
-                runOnUiThread(() -> {
-                    try {
-                        startActivity(view);
-                    } catch (ActivityNotFoundException e) {
-                        startActivity(Intent.createChooser(send, "Open or save the PDF"));
+            synchronized (pdfBusy) { if (!pdfBusy.add(id)) return; }
+            new Thread(() -> {
+                try {
+                    File kept = fetchPdf(id);
+                    if (kept == null) {
+                        toast("Connect to the internet once to download this PDF");
+                        return;
                     }
-                });
-            } catch (Exception e) {
-                toast("Couldn't open the PDF");
-            }
+                    showPdf(kept, name);
+                } finally {
+                    synchronized (pdfBusy) { pdfBusy.remove(id); }
+                }
+            }).start();
         }
 
         @JavascriptInterface

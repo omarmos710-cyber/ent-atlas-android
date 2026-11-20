@@ -13,8 +13,14 @@
 <meta name="apple-mobile-web-app-title" content="ENT Companion">
 <title>The ENT Companion</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&display=swap">
+<link rel="preload" href="fonts/manrope.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/newsreader.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+/* Fonts ship inside the app (fonts/, SIL Open Font Licence) so the look is the same offline */
+@font-face{font-family:"Manrope";src:url(fonts/manrope.woff2) format("woff2");font-weight:200 800;font-style:normal;font-display:swap}
+@font-face{font-family:"Newsreader";src:url(fonts/newsreader.woff2) format("woff2");font-weight:200 800;font-style:normal;font-display:swap}
+@font-face{font-family:"Newsreader";src:url(fonts/newsreader-italic.woff2) format("woff2");font-weight:200 800;font-style:italic;font-display:swap}
+</style>
 <style>
 /* Layout: app shell — sidebar on desktop, bottom tab bar on phones; atlas colour code (artery red, vein blue, nerve yellow) carried through UI */
 :root{
@@ -22,9 +28,6 @@
   --ink:#15202A; --muted:#5A6977; --accent:#B3202D; --accent-soft:#F7E3E5; --on-accent:#FFFFFF;
   --artery:#C8323C; --vein:#3461B5; --nerve:#C49A00; --ok:#2C7A4B; --stage:#E4EAEE;
   --stage-hi:#F7F9FA; --plate:#FFFFFF; --scrim:rgba(10,15,19,.97);
-  --f-display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
-  --f-body:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
-  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --bg:#0D1317; --surface:#151D23; --soft:#1C262D; --line:#28343D;
@@ -6330,28 +6333,7 @@ function regionRow(r){const st=regionStats(r);
   <span class="rmain"><strong>${esc(r.name)}</strong><small>${st.read}/${st.secs} read · ${st.mast}/${st.cards} cards mastered · ${st.figs} figures</small><span class="bar"><i style="width:${st.pct}%"></i></span></span>
   <span class="pill ${st.pct?"live":""}">${st.pct}%</span></button>`}
 function groupedRegions(){return GROUPS.map(([g,ids])=>`<div class="group"><h3 class="eyebrow">${esc(g)}</h3><div class="regions">${ids.map(id=>RMAP[id]&&regionRow(RMAP[id])).join("")}</div></div>`).join("")}
-function vHome(){
-  const due=CARDS.filter(c=>isDue(c)&&!isNew(c)).length,fresh=CARDS.filter(isNew).length,read=SECTIONS.filter(s=>ST.read[s.id]).length,qs=quizStats();
-  const next=SECTIONS.find(s=>!ST.read[s.id]);
-  const acc=REGIONS.map(r=>({r,a:regionAcc(r.id)})).filter(x=>x.a&&x.a.n>=3).sort((a,b)=>a.a.pct-b.a.pct);
-  const weak=acc.length&&acc[0].a.pct<80?acc[0]:null;
-  V().innerHTML=`<div class="hero"><span class="eyebrow">Head &amp; neck · resident edition</span>
-  <h1>Head and neck anatomy, one region at a time</h1>
-  <p class="lede">${REGIONS.length} regions, ${SECTIONS.length} note sections and ${ALLFIGS.length} figures from ENT Steps Anatomy, Dr. Sameh Doss's handout and Gray's Atlas of Anatomy, with ${CARDS.length} flashcards and ${QUIZ.length} MCQs.</p></div>
-  <div class="stats">
-   <div class="stat"><b>${due}</b><span>Cards due for review</span></div>
-   <div class="stat"><b>${read}/${SECTIONS.length}</b><span>Sections read</span></div>
-   <div class="stat"><b>${qs?qs.pct+"%":"—"}</b><span>Quiz average</span></div>
-   <div class="stat"><b>${streak()}</b><span>Day streak</span></div></div>
-  <div class="actions">
-   ${due?`<button class="btn primary" data-deck="all" data-mode="due">Review ${due} due cards</button>`:`<button class="btn primary" data-deck="all" data-mode="new">Learn new cards (${fresh})</button>`}
-   ${next?`<button class="btn" data-go="region:${next.r}" data-sec="${next.id}">Continue: ${esc(next.t)}</button>`:""}
-   <button class="btn" data-go="drill">Label drills</button><button class="btn" data-go="quiz">Take a quiz</button></div>
-  ${weak?`<div class="note"><b>Weakest area:</b> ${esc(weak.r.name)} at ${weak.a.pct}% in quizzes. <button class="linkbtn" data-qregion="${weak.r.id}">Quiz it again</button> or <button class="linkbtn" data-go="region:${weak.r.id}">reread the notes</button>.</div>`:""}
-  <div class="h2row"><h2>Regions</h2><span class="eyebrow">${REGIONS.length} regions</span></div>
-  ${groupedRegions()}
-  <p class="sync" id="sync"></p><div class="actions"><button class="btn" id="bk-exp">Back up my progress</button><label class="btn" style="cursor:pointer">Restore a backup<input type="file" id="bk-imp" accept=".json,application/json,text/plain,*/*" hidden></label></div>`;updateSync();
-}
+function vHome(){} /* replaced by the current version further down */
 function vAtlas(){V().innerHTML=`<div class="hero"><span class="eyebrow">Atlas</span><h1>Regions</h1><p class="lede">Each region has high-yield notes, clinical pearls, the matching handout figures, room for your own notes, and its own cards and quiz.</p></div>${groupedRegions()}`}
 
 function secHTML(s){
@@ -6370,10 +6352,10 @@ function diagramMuscles(){
   <ellipse cx="${100-ax-6}" cy="160" rx="16" ry="12" fill="var(--soft)" stroke="var(--muted)"/>
   <ellipse cx="${100+ax+6}" cy="160" rx="16" ry="12" fill="var(--soft)" stroke="var(--muted)"/>`};
  return `<div class="diagram"><svg viewBox="0 0 440 210" role="img" aria-label="Superior view of the glottis: PCA opens the cords, adductors close them">
-  <g transform="translate(10,0)">${fold(true)}<text x="100" y="200" text-anchor="middle" font-size="13" fill="var(--muted)" font-family="IBM Plex Sans,sans-serif">Abducted · PCA</text></g>
-  <g transform="translate(230,0)">${fold(false)}<text x="100" y="200" text-anchor="middle" font-size="13" fill="var(--muted)" font-family="IBM Plex Sans,sans-serif">Adducted · LCA, IA, TA</text></g>
-  <text x="110" y="12" text-anchor="middle" font-size="11" fill="var(--muted)" font-family="IBM Plex Mono,monospace">ANTERIOR COMMISSURE</text>
-  <text x="330" y="12" text-anchor="middle" font-size="11" fill="var(--muted)" font-family="IBM Plex Mono,monospace">ANTERIOR COMMISSURE</text></svg></div>`}
+  <g transform="translate(10,0)">${fold(true)}<text x="100" y="200" text-anchor="middle" font-size="13" fill="var(--muted)" font-family="Manrope,sans-serif">Abducted · PCA</text></g>
+  <g transform="translate(230,0)">${fold(false)}<text x="100" y="200" text-anchor="middle" font-size="13" fill="var(--muted)" font-family="Manrope,sans-serif">Adducted · LCA, IA, TA</text></g>
+  <text x="110" y="12" text-anchor="middle" font-size="11" fill="var(--muted)" font-family="Manrope,sans-serif">ANTERIOR COMMISSURE</text>
+  <text x="330" y="12" text-anchor="middle" font-size="11" fill="var(--muted)" font-family="Manrope,sans-serif">ANTERIOR COMMISSURE</text></svg></div>`}
 function vRegion(id,opt){const r=RMAP[id];if(!r)return vAtlas();
   const st=regionStats(r),figs=regionFigs(id),i=REGIONS.indexOf(r),prev=REGIONS[i-1],next=REGIONS[i+1];
   V().innerHTML=`<div class="hero"><span class="eyebrow">${esc(r.g||"")} · region ${r.n} of ${REGIONS.length} · ${st.read}/${st.secs} read</span><h1>${esc(r.name)}</h1><p class="lede">${esc(r.blurb)}</p></div>
@@ -6962,9 +6944,8 @@ go=function(v,opt){const [base,arg]=v.split(":");if(!EXTRA[base])return _go(v,op
   try{history.replaceState(null,"","#"+v.replace(":","-"))}catch(e){}if(!opt||!opt.keep)window.scrollTo(0,0)};
 document.addEventListener("click",e=>{const g=e.target.closest("[data-go^='tracer:']");if(g)TRSTEP=null},true);
 $("#side").insertAdjacentHTML("beforeend",`<button class="tab" data-go="tracer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19c4 0 3-6 7-6s3 6 7 6M4 5c4 0 3 6 7 6s3-6 7-6"/><circle cx="4" cy="5" r="1.5"/><circle cx="20" cy="19" r="1.5"/></svg>Tracer</button>`);
-const _vHome=vHome;
-vHome=function(){_vHome.apply(this,arguments);const a=$("#view .actions");if(!a)return;const n=missCounts().total;
-  a.insertAdjacentHTML("afterend",`<div class="actions"><button class="btn" data-go="tracer">Nerve &amp; vessel tracer</button><button class="btn" data-go="order">Build the order</button><button class="btn" data-go="mistakes">My mistakes${n?` (${n})`:""}</button></div>`)};
+
+
 const _vAtlas=vAtlas;
 vAtlas=function(){_vAtlas.apply(this,arguments);const h=$("#view .hero");if(h)h.insertAdjacentHTML("afterend",`<div class="actions"><button class="btn" data-go="tracer">Nerve &amp; vessel tracer (${TRACE.length})</button></div>`)};
 const _vRegion=vRegion;
@@ -7030,7 +7011,7 @@ setInterval(()=>{if(document.hidden||Date.now()-lastAct>120000)return;ST.mins=ST
 
 /* ---------- shared bits ---------- */
 function ring(pct,col,size=44,label){const c=2*Math.PI*15,d=(c*Math.max(0,Math.min(100,pct))/100).toFixed(1);
-  return `<svg class="ring" width="${size}" height="${size}" viewBox="0 0 36 36" ${label?`role="img" aria-label="${pct}% complete"`:'aria-hidden="true"'}><circle cx="18" cy="18" r="15" fill="none" stroke="var(--soft)" stroke-width="4"/><circle cx="18" cy="18" r="15" fill="none" stroke="${col}" stroke-width="4" stroke-linecap="round" stroke-dasharray="${d} ${c.toFixed(1)}" transform="rotate(-90 18 18)"/>${label?`<text x="18" y="21.5" text-anchor="middle" font-size="9" font-weight="600" fill="var(--ink)" font-family="IBM Plex Sans,sans-serif">${pct}%</text>`:""}</svg>`}
+  return `<svg class="ring" width="${size}" height="${size}" viewBox="0 0 36 36" ${label?`role="img" aria-label="${pct}% complete"`:'aria-hidden="true"'}><circle cx="18" cy="18" r="15" fill="none" stroke="var(--soft)" stroke-width="4"/><circle cx="18" cy="18" r="15" fill="none" stroke="${col}" stroke-width="4" stroke-linecap="round" stroke-dasharray="${d} ${c.toFixed(1)}" transform="rotate(-90 18 18)"/>${label?`<text x="18" y="21.5" text-anchor="middle" font-size="9" font-weight="600" fill="var(--ink)" font-family="Manrope,sans-serif">${pct}%</text>`:""}</svg>`}
 function regionCard(r){const st=regionStats(r),col=GCOL[r.g]||"var(--accent)";
   return `<button class="rcard" data-go="region:${r.id}" style="--gc:${col}"><span class="rtop"><i class="gdot"></i>${ring(st.pct,col,38)}</span><strong>${esc(r.name)}</strong><small>${st.pct}% · ${st.read}/${st.secs} read · ${st.figs} figs</small></button>`}
 let HG="all";
@@ -7045,19 +7026,7 @@ function todayCounts(){const due=CARDS.filter(c=>isDue(c)&&!isNew(c)).length,fre
   const dd=DRILLKEYS.filter(k=>drillDue(k)&&!drillNew(k)).length,mc=missCounts().total;
   return {due,fresh,dd,mc,mins:Math.max(due||dd||mc?1:0,Math.round(due*0.4+dd*1.5+Math.min(mc,20)*0.5))}}
 function startToday(){const t=todayCounts();if(t.due)startDeck("all","due");else if(t.dd)startDrill("all");else if(t.mc)go("mistakes");else startDeck("all","new")}
-vHome=function(){const t=todayCounts(),s=continueSec(),r=s&&RMAP[s.r],st=r&&regionStats(r);
-  const fig=s&&((s.f||[]).find(k=>FIG[k])||regionFigs(s.r)[0]);
-  const dn=new Date().toLocaleDateString(undefined,{weekday:"long"}),sk=streak();
-  const tool=(v,l,i,n,cls)=>`<button class="tool ${cls||""}" data-go="${v}">${ic(i)}<span>${l}</span>${n?`<b class="badge">${n}</b>`:""}</button>`;
-  V().innerHTML=`<div class="hero hhome"><span class="eyebrow">${esc(dn)}${sk?` · ${sk}-day streak`:""}</span><h1>Ready for today?</h1></div>
-  <section class="today"><div class="trow"><span class="eyebrow">Today's review</span><span class="mono">${t.mins?`≈ ${t.mins} min`:"all caught up"}</span></div>
-   <div class="tstats"><div><b>${t.due}</b><span>cards due</span></div><div><b>${t.dd}</b><span>drill figures</span></div><div><b>${t.mc}</b><span>mistakes</span></div></div>
-   <button class="tgo" data-today>${t.due||t.dd||t.mc?"Start today's session":`Learn new cards (${t.fresh})`}</button></section>
-  ${s?`<button class="cont" data-go="region:${s.r}" data-sec="${s.id}">${fig?`<img src="${figThumb(fig)}" alt="" loading="lazy">`:""}<span class="cmain"><span class="eyebrow">Continue · ${esc(r.name)}</span><span class="ctitle">${esc(s.t)}</span><span class="pbar"><i style="width:${st.pct}%"></i></span></span>${ic("chev",18)}</button>`:""}
-  <div class="h2row"><h2>Tools</h2></div>
-  <div class="tools">${tool("cards","Flashcards","study")}${tool("drill","Label drills","drill")}${tool("quiz","Quiz","quiz")}${tool("spot","Spot diagnosis","spot")}${tool("tracer","Tracer","tracer","","nerve")}${tool("order","Build the order","order","","vein")}${tool("imaging","Imaging","imaging")}${tool("mistakes","Mistakes","mistakes",t.mc)}</div>
-  <div class="h2row"><h2>Regions</h2><span class="eyebrow">${REGIONS.length} · ${GROUPS.length} groups</span></div>
-  <div id="regionsBlock">${regionsBlock()}</div>`};
+
 document.addEventListener("click",e=>{if(e.target.closest("[data-today]")){e.preventDefault();startToday()}});
 
 vAtlas=function(){V().innerHTML=`<div class="hero"><span class="eyebrow">Atlas</span><h1>Regions</h1><p class="lede">Notes, figures, practice and tables for each region of the head and neck.</p></div>
@@ -7143,28 +7112,23 @@ function vStudy(){const t=todayCounts();
 document.addEventListener("click",e=>{const b=e.target.closest("[data-rectab]");if(b){RTABREG=b.dataset.go.split(":")[1];RTAB=b.dataset.rectab}},true);
 
 /* ---------- MORE ---------- */
-function vMore(){const native=!!(window.claude&&window.claude.use);
-  const link=(v,i,t,s)=>`<button class="mrow" data-go="${v}">${ic(i,20)}<span class="pt"><strong>${t}</strong><small>${s}</small></span>${ic("chev",18)}</button>`;
-  V().innerHTML=`<div class="hero"><span class="eyebrow">More</span><h1>Everything else</h1></div>
-  <div class="mlist">${link("tables","tables","Tables &amp; mnemonics",`${TABLES.length} tables · ${MNEM.length} mnemonics`)}${link("tracer","tracer","Nerve &amp; vessel tracer",`${TRACE.length} courses`)}${link("saved","saved","Saved","Sections, cards, tables and figures you starred")}${link("search","search","Search","Notes, cards, figures and labels")}${link("sources","figures","Sources",`The books and handouts behind the figures`)}</div>
-  ${HAS_PDF?`<details class="card pdfs"><summary><strong>PDF summaries</strong><small>One per region · notes, tables and figures</small></summary><div class="pdfgrid">${REGIONS.map(r=>`<button class="btn" data-pdf="${r.id}">${esc(r.name)}</button>`).join("")}</div></details>`:""}
-  <div class="h2row"><h2>Reading</h2></div>
-  <section class="card set"><span class="slabel">Text size</span><div class="seg3" role="group" aria-label="Text size">${[["s","Small"],["m","Medium"],["l","Large"]].map(([v,l])=>`<button data-fs="${v}" aria-pressed="${PREF.fs===v}" class="fs-${v}">Aa ${l}</button>`).join("")}</div>
-   <span class="slabel">Appearance</span><div class="themes" role="group" aria-label="Appearance">${[["light","Light"],["dark","Night"],["auto","Auto"]].map(([v,l])=>`<button data-theme-set="${v}" aria-pressed="${PREF.theme===v}"><i class="sw sw-${v}"></i>${l}</button>`).join("")}</div>
-   <label class="srow">Show reading progress bar <input type="checkbox" data-pbar ${PREF.pbar?"checked":""}></label></section>
-  <div class="h2row"><h2>Your progress</h2></div>
-  <section class="card set"><p class="sync" id="sync"></p>
-   ${native?"":`<p class="lede small">Back up to move your progress to another phone or browser.</p><div class="two"><button class="btn" id="bk2-exp">Back up my progress</button><label class="btn" style="cursor:pointer;text-align:center">Restore a backup<input type="file" id="bk2-imp" accept=".json,application/json,text/plain,*/*" hidden></label></div>`}</section>`;
-  updateSync()}
+function vMore(){} /* replaced by the current version further down */
+/* A backup holds the study progress plus the reading settings, recent searches and search ratings */
+const BK_EXTRA={prefs:"ent-atlas-prefs",recent:"xs_recent",feedback:"ent.searchfb"};
+function backupData(){const x={};for(const k in BK_EXTRA){try{const v=localStorage.getItem(BK_EXTRA[k]);if(v!=null)x[k]=JSON.parse(v)}catch(e){}}return Object.assign({},ST,{_extra:x})}
+function restoreBackup(d){const x=d._extra||{};d=Object.assign({},d);delete d._extra;ST=Object.assign({},S0,d);save();
+  for(const k in BK_EXTRA)if(x[k]!=null){try{localStorage.setItem(BK_EXTRA[k],JSON.stringify(x[k]))}catch(e){}}}
 document.addEventListener("click",e=>{
   const f=e.target.closest("[data-fs]");if(f){PREF.fs=f.dataset.fs;savePrefs();document.querySelectorAll("[data-fs]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.fs===PREF.fs)));return}
   const t=e.target.closest("[data-theme-set]");if(t){PREF.theme=t.dataset.themeSet;savePrefs();document.querySelectorAll("[data-theme-set]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.themeSet===PREF.theme)));return}
-  if(e.target.closest("#bk2-exp")){const name="ent-companion-progress-"+today()+".json",txt=JSON.stringify(ST);
+  if(e.target.closest("#bk2-exp")){const name="ent-companion-progress-"+today()+".json",txt=JSON.stringify(backupData());
     if(window.Android&&Android.saveBackup){Android.saveBackup(name,txt);return}
     const u=URL.createObjectURL(new Blob([txt],{type:"application/json"})),a=document.createElement("a");a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),4000);toast("Backup saved")}});
 document.addEventListener("change",async e=>{
   if(e.target.matches("[data-pbar]")){PREF.pbar=e.target.checked;savePrefs();return}
-  if(e.target.id==="bk2-imp"&&e.target.files[0]){try{const d=JSON.parse(await e.target.files[0].text());if(typeof d!=="object"||!d.cards)throw 0;ST=Object.assign({},S0,d);save();toast("Progress restored");go("home")}catch(err){toast("That file isn't an ENT Companion backup")}e.target.value=""}});
+  if(e.target.id==="bk2-imp"&&e.target.files[0]){try{const d=JSON.parse(await e.target.files[0].text());if(!d||typeof d!=="object"||!d.cards)throw 0;
+    if(!confirm("Replace the progress on this device with the backup"+(d.t?" from "+new Date(d.t).toLocaleDateString():"")+"?")){e.target.value="";return}
+    restoreBackup(d);toast("Progress restored");setTimeout(()=>location.reload(),600)}catch(err){toast("That file isn't an ENT Companion backup")}e.target.value=""}});
 
 /* drill figure: never taller than the screen */
 function fitDrill(){const w=$(".dwrap"),im=w&&w.querySelector(".dstage img");if(!im)return;
@@ -7975,11 +7939,8 @@ vStudy=function(){_vStudy10.apply(this,arguments);const v=V(),tiles=v.querySelec
 EXTRA.study=vStudy;
 
 /* ---- More: grouped hairline lists ---- */
-const _vMore10=vMore;
-vMore=function(){_vMore10.apply(this,arguments);const v=V();
-  const ml=v.querySelector(".mlist");if(ml){ml.classList.add("llist");ml.querySelectorAll(".mrow").forEach(b=>{b.classList.add("lrow");const sv=b.querySelector("svg");if(sv&&!sv.parentElement.classList.contains("lico")){const w=document.createElement("span");w.className="lico";sv.replaceWith(w);w.appendChild(sv)}})}
-  const h=v.querySelector(".hero h1");if(h)h.textContent="More";
-  const wrap=document.createElement("div");wrap.className="tbody";[...v.children].filter(c=>!c.classList.contains("hero")).forEach(c=>wrap.appendChild(c));v.appendChild(wrap)};
+
+
 EXTRA.more=vMore;
 })();
 
@@ -8699,17 +8660,7 @@ document.addEventListener("click",e=>{if(!$("#results"))return;const t=e.target;
 })();
 </script>
 
-<script>
-document.addEventListener("click",e=>{if(!e.target.closest("#bk-exp"))return;
-  const name="ent-companion-progress-"+new Date().toISOString().slice(0,10)+".json",txt=JSON.stringify(ST);
-  if(window.Android){Android.saveBackup(name,txt);return}
-  const u=URL.createObjectURL(new Blob([txt],{type:"application/json"})),a=document.createElement("a");
-  a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),4000);toast("Backup saved")});
-document.addEventListener("change",async e=>{if(e.target.id!=="bk-imp"||!e.target.files[0])return;
-  try{const d=JSON.parse(await e.target.files[0].text());if(typeof d!=="object"||!d.cards)throw 0;
-    ST=Object.assign({},S0,d);save();toast("Progress restored");go("home")}catch(err){toast("That file isn't an ENT Companion backup")}
-  e.target.value=""});
-</script>
+
 
 <script>
 if(!window.Android&&"serviceWorker" in navigator&&(location.protocol==="https:"||location.hostname==="localhost")){
@@ -8784,7 +8735,7 @@ const rows=(a)=>a.map(([id,t])=>`<button class="clrow" data-go="cl:t-${id}"><spa
 const vr=vRegion;vRegion=function(id,opt){if(String(id).startsWith("cl-")){go("cl:home");return}vr.call(this,id,opt);const a=BYR[id];const main=document.querySelector("#view .rbody")||document.getElementById("view");if(a&&!document.getElementById("clused"))main.insertAdjacentHTML("beforeend",`<section class="clused" id="clused"><div class="clgh">Used in clinical topics</div><div class="cllist">${rows(a)}</div></section>`)};
 window.clAfterTheatre=function(arg){const m=/^op-(\d+)/.exec(arg||"");const w=document.querySelector("#view .thwrap");if(!m||!w)return;const n=m[1],a=BYO[n],f=window.CL_FROM;if(f){const bar=w.querySelector(".thbar");if(bar&&!document.getElementById("clbk"))bar.insertAdjacentHTML("afterend",`<button class="clback" id="clbk" data-go="cl:t-${f.id}" style="color:#D8B26A">‹ Back to ${esc(f.t)}</button>`)}if(a&&!document.getElementById("clused"))w.insertAdjacentHTML("beforeend",`<section class="clused" id="clused"><div class="clgh">Why you're operating</div><div class="cllist">${rows(a)}</div></section>`)};
 const vs=vSearch;vSearch=function(){vs.apply(this,arguments);const q=document.getElementById("q");if(!q)return;const hero=q;const box=document.createElement("div");box.id="clres";hero.insertAdjacentElement("afterend",box);const up=()=>{const t=q.value.trim().toLowerCase();if(t.length<2){box.innerHTML="";return}const c=TL.filter(x=>x[1].toLowerCase().includes(t)).slice(0,6),o=OPL.filter(x=>x[1].toLowerCase().includes(t)).slice(0,6);box.innerHTML=(c.length?`<div class="clgh" style="color:#1F4E6B">Clinical</div><div class="cllist">${rows(c)}</div>`:"")+(o.length?`<div class="clgh" style="color:#1F5B4A">Surgical</div><div class="cllist">${o.map(([n,x])=>`<button class="clrow op" data-go="th:op-${n}"><span class="m"><b>${esc(x)}</b></span>${ic("chev",16)}</button>`).join("")}</div>`:"")};q.addEventListener("input",up);up()};
-const vm=vMore;vMore=function(){vm.apply(this,arguments);const l=document.querySelector("#view .mlist");if(l)l.insertAdjacentHTML("afterbegin",`<button class="mrow" data-go="imaging">${ic("imaging",20)}<span class="pt"><strong>Imaging</strong><small>Scans, conditions and spot diagnosis</small></span>${ic("chev",18)}</button>`)};
+
 EXTRA.more=vMore;
 /* ================= More (v2): every part of the app, the PDF library, reading, progress and about ================= */
 ICON.calc='<rect x="5" y="3" width="14" height="18" rx="2.5"/><path d="M8.5 7h7M8.5 11.5h.01M12 11.5h.01M15.5 11.5h.01M8.5 15h.01M12 15h.01M15.5 15h.01M8.5 18h.01M12 18h3.5"/>';
