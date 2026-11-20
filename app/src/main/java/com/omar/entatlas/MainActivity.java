@@ -83,7 +83,11 @@ public class MainActivity extends Activity {
             @Override
             public boolean onRenderProcessGone(WebView v, RenderProcessGoneDetail detail) {
                 if (v != web) return true;
-                String back = lastUrl;
+                // reopen where the reader was; if the page keeps crashing (twice within a minute), go to the start instead
+                long now = android.os.SystemClock.elapsedRealtime();
+                boolean again = now - lastCrash < 60000;
+                lastCrash = now;
+                String back = again ? START : lastUrl;
                 web = null;
                 v.destroy();
                 createWebView(null);
@@ -197,6 +201,7 @@ public class MainActivity extends Activity {
         }
     }
 
+    private long lastCrash = -120000;
     private final java.util.Set<String> pdfBusy = new java.util.HashSet<>();
 
     /** The kept copy of a PDF, downloaded or refreshed from the website when possible; null if there is none. */

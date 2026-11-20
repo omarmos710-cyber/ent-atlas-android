@@ -1357,7 +1357,7 @@ body{margin-top:0;margin-bottom:0}
 .mod.core{background:var(--accent-soft);color:var(--accent)}.kfcard h3,.cpane>h3{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted,#888);margin:14px 0 6px}.kfcard h3:first-of-type,.cpane>h3:first-of-type{margin-top:4px}.lesbtn{margin:0 0 12px;width:100%}.lesbtn .pt small{display:block}.advgrp>summary{list-style:none;cursor:pointer}.advgrp>summary::-webkit-details-marker{display:none}.advgrp>summary h3:after{content:" ▾"}.advgrp[open]>summary h3:after{content:" ▴"}.icourse .icnext{display:flex;flex-direction:column;align-items:flex-start;gap:6px;width:100%;text-align:left;margin-top:6px}
 .icourse .cgroup small,.advgrp .cgroup small{display:block;font-weight:400;text-transform:none;letter-spacing:0;color:var(--muted);margin:3px 0 0;font-size:12.5px}
 .icourse .prow.done .pn{color:var(--accent)}
-.upbar{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(96px + env(safe-area-inset-bottom));z-index:9999;border:0;border-radius:999px;background:#151922;color:#F3F3EF;font:600 13.5px var(--f-body);padding:12px 18px;box-shadow:0 8px 24px rgba(0,0,0,.25);white-space:nowrap}
+.upbar{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(96px + env(safe-area-inset-bottom));z-index:9999;border:0;border-radius:999px;background:#151922;color:#F3F3EF;font:600 13.5px var(--f-body);padding:12px 18px;box-shadow:0 8px 24px rgba(0,0,0,.25);white-space:nowrap}.offbar{display:flex;gap:2px;align-items:center;padding:0;white-space:normal;width:min(92vw,420px);border-radius:16px}.offbar .offgo{flex:1;background:none;border:0;color:inherit;font:inherit;text-align:left;padding:12px 14px;cursor:pointer}.offbar .offno{background:none;border:0;color:inherit;font:inherit;min-width:44px;min-height:44px;cursor:pointer}
 @media(max-width:600px){.top .brand{font-size:clamp(13px,calc((100vw - 200px) / 9.4),20px);gap:8px}.top{gap:4px;padding-left:max(16px,env(safe-area-inset-left,0px))!important;padding-right:max(16px,env(safe-area-inset-right,0px))!important}.top .iconbtn,.top .topicon{width:34px;height:34px;padding:0;font-size:0;gap:0;justify-content:center}}
 .top .iconbtn,.top .brand .mark{flex:none}.top .brand{flex:none}
 .pdfbusy{opacity:.55;pointer-events:none}
@@ -6157,10 +6157,10 @@ let S0={cards:{},read:{},stars:{},notes:{},quiz:[],days:[],t:0};
    cannot break the app: a field of the wrong type falls back to its empty default */
 const isObj=o=>!!o&&typeof o==="object"&&!Array.isArray(o);
 const ST_OBJ=["drill","miss","ord","mins","spot","lab","clr","clo","hub","th","dver","thr","thb","sk"];
-function stClean(d){const r=Object.assign({},S0);if(!isObj(d))return r;
+function stClean(d){const r=JSON.parse(JSON.stringify(S0));if(!isObj(d))return r;
   for(const k in d){const v=d[k],def=S0[k];
     if(k in S0){if(Array.isArray(def)?Array.isArray(v):isObj(def)?isObj(v):typeof v===typeof def)r[k]=v}
-    else if(ST_OBJ.includes(k)){if(isObj(v))r[k]=v}
+    else if(ST_OBJ.includes(k)||k==="mod"){if(isObj(v))r[k]=v}
     else r[k]=v}
   r.quiz=r.quiz.filter(q=>isObj(q)&&typeof q.t==="number");r.days=r.days.filter(x=>typeof x==="string");
   if(r.miss){for(const k of["q","c","d"])if(r.miss[k]!=null&&!isObj(r.miss[k]))delete r.miss[k]}
@@ -6171,7 +6171,19 @@ function stClean(d){const r=Object.assign({},S0);if(!isObj(d))return r;
 let ST=Object.assign({},S0);
 try{const j=localStorage.getItem(KEY);if(j)ST=stClean(JSON.parse(j))}catch(e){}
 let DBREF=null,pushT=null,pushing=false,pushAgain=false,syncState="local";
-function save(){ST.t=Date.now();try{localStorage.setItem(KEY,JSON.stringify(ST))}catch(e){}if(DBREF){clearTimeout(pushT);pushT=setTimeout(push,1500)}}
+/* Deletions sync too: each save compares progress with the last saved copy. A removed item (a star, read mark,
+   note, theatre skill or log entry, a mastered mistake…) is recorded in ST.mod with the time, and so is adding it
+   back; when two devices merge, the latest change to each item wins, so a deletion is not undone by the other copy. */
+let STPREV=null;const stSnap=()=>{try{STPREV=JSON.parse(JSON.stringify(ST))}catch(e){STPREV=null}};
+stSnap();
+function trackChanges(){if(!STPREV){stSnap();return}const now=Date.now();if(!isObj(ST.mod))ST.mod={};
+  const walk=(a,b,path)=>{if(path.length>3)return;
+    for(const k in a){const p=path.concat(k),key=JSON.stringify(p);
+      if(!(k in b))ST.mod[key]={d:1,t:now};else if(isObj(a[k])&&isObj(b[k]))walk(a[k],b[k],p)}
+    for(const k in b){const key=JSON.stringify(path.concat(k));if(!(k in a)&&ST.mod[key]&&ST.mod[key].d)ST.mod[key]={d:0,t:now}}};
+  for(const k in ST)if(k!=="mod"&&isObj(ST[k])&&isObj(STPREV[k]))walk(STPREV[k],ST[k],[k]);
+  stSnap()}
+function save(){trackChanges();ST.t=Date.now();try{localStorage.setItem(KEY,JSON.stringify(ST))}catch(e){}if(DBREF){clearTimeout(pushT);pushT=setTimeout(push,1500)}}
 async function push(){if(!DBREF)return;if(pushing){pushAgain=true;return}pushing=true;
   try{await DBREF.set({json:JSON.stringify(ST),t:ST.t});syncState="synced"}catch(e){syncState="error"}
   pushing=false;updateSync();if(pushAgain){pushAgain=false;push()}}
@@ -6201,22 +6213,32 @@ async function sbToken(){if(!SBS)return null;if(Date.now()<SBS.exp-60000)return 
     .catch(e=>{if(e.status===400||e.status===401){SBS=null;sbSave();DBREF=null;syncState="local";updateSync()}return null}).finally(()=>{sbRefreshing=null});
   return sbRefreshing}
 /* merge two progress states without losing anything: the newer wins a conflict, the older fills what the newer lacks */
-function mergeSt(newer,older){const plain=o=>o&&typeof o==="object"&&!Array.isArray(o);
+function mergeSt(newer,older){newer=JSON.parse(JSON.stringify(newer));older=JSON.parse(JSON.stringify(older));const plain=o=>o&&typeof o==="object"&&!Array.isArray(o);
   const m=(a,b)=>{if(plain(a)&&plain(b)){const r=Object.assign({},a);for(const k in b)r[k]=k in a?m(a[k],b[k]):b[k];return r}
     if(Array.isArray(a)&&Array.isArray(b)&&a.concat(b).every(x=>typeof x==="string"))return [...new Set(a.concat(b))].sort();
     /* quiz results from two devices: keep both, once each, oldest first */
     if(Array.isArray(a)&&Array.isArray(b)&&a.concat(b).every(x=>plain(x)&&typeof x.t==="number")){const seen=new Map();
       for(const q of a.concat(b))seen.set(q.t+"|"+q.r+"|"+q.s+"|"+q.n,q);return [...seen.values()].sort((x,y)=>x.t-y.t).slice(-300)}
     return a};
-  return m(newer,older)}
+  const M=m(newer,older),A=isObj(newer.mod)?newer.mod:{},B=isObj(older.mod)?older.mod:{},mod={},old=Date.now()-365*864e5;
+  for(const k of new Set(Object.keys(A).concat(Object.keys(B)))){const x=A[k],y=B[k],w=!y||(x&&x.t>=y.t)?x:y;if(w&&w.t>old)mod[k]=w}
+  const at=(o,p)=>{for(const k of p){if(!isObj(o))return undefined;o=o[k]}return o};
+  for(const k in mod){let p;try{p=JSON.parse(k)}catch(e){continue}if(!Array.isArray(p)||!p.length)continue;
+    const parent=at(M,p.slice(0,-1)),last=p[p.length-1];if(!isObj(parent))continue;
+    if(mod[k].d)delete parent[last];
+    else if(!(last in parent)){const v=at(newer,p)!==undefined?at(newer,p):at(older,p);if(v!==undefined)parent[last]=v}}
+  M.mod=mod;return M}
 const SBREF={async get(){const r=await sbFetch("/rest/v1/progress?select=data,updated_at&user_id=eq."+SBS.uid,{auth:true});return r&&r[0]?r[0].data:null},
   async set(v){await sbFetch("/rest/v1/progress?on_conflict=user_id",{method:"POST",auth:true,headers:{"Prefer":"resolution=merge-duplicates,return=minimal"},body:{user_id:SBS.uid,data:v,updated_at:new Date().toISOString()}})}};
 let sbPulling=false;
 async function sbSync(){if(!SBS||sbPulling)return;sbPulling=true;
   try{const d=await SBREF.get();DBREF=SBREF;let changed=false;
-    if(d&&d.json){const R=stClean(JSON.parse(d.json)),rt=d.t||0,lt=ST.t||0;
+    /* right after "Restore a backup", this device's copy replaces the cloud copy (no merge) */
+    let replace=false;try{replace=localStorage.getItem("ent-sb-replace")==="1"}catch(e){}
+    if(replace){await SBREF.set({json:JSON.stringify(ST),t:ST.t||Date.now()});try{localStorage.removeItem("ent-sb-replace")}catch(e){}}
+    else if(d&&d.json){const R=stClean(JSON.parse(d.json)),rt=d.t||0,lt=ST.t||0;
       const M=rt>=lt?mergeSt(R,ST):mergeSt(ST,R);M.t=Math.max(rt,lt);
-      const same=JSON.stringify(M)===d.json;if(JSON.stringify(M)!==JSON.stringify(ST)){ST=M;try{localStorage.setItem(KEY,JSON.stringify(ST))}catch(e){}changed=true}
+      const same=JSON.stringify(M)===d.json;if(JSON.stringify(M)!==JSON.stringify(ST)){ST=M;stSnap();try{localStorage.setItem(KEY,JSON.stringify(ST))}catch(e){}changed=true}
       if(!same)await SBREF.set({json:JSON.stringify(ST),t:ST.t})}
     else await SBREF.set({json:JSON.stringify(ST),t:ST.t||Date.now()});
     syncState="synced";SBLAST=Date.now();
@@ -7135,7 +7157,8 @@ function vMore(){} /* replaced by the current version further down */
 /* A backup holds the study progress plus the reading settings, recent searches and search ratings */
 const BK_EXTRA={prefs:"ent-atlas-prefs",recent:"xs_recent",feedback:"ent.searchfb"};
 function backupData(){const x={};for(const k in BK_EXTRA){try{const v=localStorage.getItem(BK_EXTRA[k]);if(v!=null)x[k]=JSON.parse(v)}catch(e){}}return Object.assign({},ST,{_extra:x})}
-function restoreBackup(d){const x=d._extra||{};d=Object.assign({},d);delete d._extra;ST=stClean(d);save();
+function restoreBackup(d){const x=d._extra||{};d=Object.assign({},d);delete d._extra;ST=stClean(d);stSnap();
+  try{localStorage.setItem("ent-sb-replace","1")}catch(e){}save();
   const ok={prefs:isObj,recent:v=>Array.isArray(v)&&v.every(t=>typeof t==="string"),feedback:Array.isArray};
   for(const k in BK_EXTRA)if(x[k]!=null&&ok[k](x[k])){try{localStorage.setItem(BK_EXTRA[k],JSON.stringify(x[k]))}catch(e){}}}
 document.addEventListener("click",e=>{
@@ -8691,7 +8714,17 @@ if(!window.Android&&"serviceWorker" in navigator&&(location.protocol==="https:"|
      by default (More > Offline), never on mobile data or Data Saver unless the user chooses "Always" or "Save now" */
   const onWifi=()=>{const c=navigator.connection;return !!(c&&!c.saveData&&(c.type==="wifi"||c.type==="ethernet"))};
   window.offlineFill=()=>{const c=navigator.serviceWorker.controller;if(c)c.postMessage("fill")};
-  const fill=()=>setTimeout(()=>{if(PREF.offl==="always"||(PREF.offl==="wifi"&&onWifi()))offlineFill()},4000);
+  /* iPhone and computers can't tell Wi-Fi from mobile data, so there the app asks once instead */
+  const askOnce=()=>{if(PREF.offlAsked||document.querySelector(".offbar"))return;const b=document.createElement("div");b.className="upbar offbar";b.setAttribute("role","group");
+    b.innerHTML='<button class="offgo">Save all figures and PDFs for offline use (about 400 MB)?</button><button class="offno" aria-label="Not now">✕</button>';
+    b.querySelector(".offgo").onclick=()=>{PREF.offlAsked=1;PREF.offl="always";savePrefs();offlineFill();b.remove();toast("Saving for offline use in the background")};
+    b.querySelector(".offno").onclick=()=>{PREF.offlAsked=1;PREF.offl="manual";savePrefs();b.remove();toast("You can save them later in More → Offline")};
+    document.body.appendChild(b)};
+  const fill=()=>setTimeout(()=>{const c=navigator.connection,known=!!(c&&c.type&&c.type!=="unknown");
+    if(PREF.offl==="always"||(PREF.offl==="wifi"&&onWifi()))offlineFill();
+    else if(PREF.offl==="wifi"&&!known&&!(c&&c.saveData))askOnce()},4000);
+  /* ask the browser to keep the offline copy instead of clearing it when space runs low or the site goes unused */
+  try{if(navigator.storage&&navigator.storage.persist)navigator.storage.persisted().then(p=>{if(!p)navigator.storage.persist()})}catch(e){}
   if(navigator.connection&&navigator.connection.addEventListener)navigator.connection.addEventListener("change",fill);
   navigator.serviceWorker.addEventListener("message",ev=>{const d=ev.data;if(d&&typeof d.missing==="number"){window.OFFLINE_LEFT=d;
     const el=document.getElementById("offl-left");if(el)el.textContent=d.missing?d.missing+" of "+d.total+" figures, scans and PDFs not saved yet":"Everything is saved for offline use"}});

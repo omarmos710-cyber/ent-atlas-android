@@ -8,7 +8,7 @@ Sources: ENT Steps Anatomy, Dr. Sameh Doss handout, Gray's Atlas of Anatomy (2nd
 
 Private: contains copyrighted handout figures for personal study only. Keep this repository private.
 
-- Signing: the APK is signed with `signing/ent-atlas.jks`; its password is the repository secret `SIGNING_PASSWORD` (never in the code).
+- Signing (since 1.0.339): `apksigner` with key rotation. Old key `signing/ent-atlas.jks` (secret `SIGNING_PASSWORD`) hands over to the new key `signing/ent-companion-2.p12` (secret `NEW_SIGNING_PASSWORD`) through `signing/lineage.bin`. All three files and both secrets are required; never create another key, or phones will refuse the update.
 - PDFs are not inside the APK. The Android app downloads each one from the web version the first time it is opened and keeps it (`PDF_SITE` in `MainActivity.java`).
 - Only the three newest releases are kept; the build removes older ones.
 
@@ -16,7 +16,7 @@ Private: contains copyrighted handout figures for personal study only. Keep this
 - Android wrapper: `app/src/main/java/com/omar/entatlas/MainActivity.java`
 - Build: `.github/workflows/build.yml`
 
-## iPhone / web version (Cloudflare Pages)
+## iPhone / web version (Cloudflare Workers)
 
 - Build command: `mkdir -p dist && cp -r app/src/main/assets/www/. dist/ && cp -r web/. dist/`
 - Build output directory: `dist`

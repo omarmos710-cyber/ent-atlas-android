@@ -122,7 +122,9 @@ self.addEventListener("message",e=>{if(e.data==="fill")e.waitUntil(fill());
   else if(e.data==="status"&&e.source)e.waitUntil(status().then(n=>e.source.postMessage({missing:n,total:P.length-NCORE})))});
 self.addEventListener("fetch",e=>{const req=e.request;if(req.method!=="GET")return;const url=new URL(req.url);
   if(url.origin!==location.origin)return;
-  const page=req.mode==="navigate"&&(!/\.[a-z0-9]{2,5}$/i.test(url.pathname.replace(/\/$/,""))||/\.html?$/i.test(url.pathname));
+  /* only the app itself is "the page"; other .html files (summary boards, mind maps, opened inside the app as
+   frames) are ordinary files and are looked up in the file list */
+  const page=req.mode==="navigate"&&(r0=>r0==="index.html"||!/[./]/.test(r0))(rel(req.url));
   e.respondWith((async()=>{const st=await caches.open(STORE);
     /* the page comes from this version's saved copy, so it always matches the scripts saved with it; a newer
        version is picked up by the update check, which installs it whole and then reloads */
