@@ -152,13 +152,13 @@ Lee: Places CPAP as the gold standard of therapy, emphasises patient selection b
 In practice: Both agree that surgery must be matched to the level of collapse. CPAP is first line for moderate and severe apnoea; surgery is matched to the site of collapse on drug-induced sleep endoscopy, with multilevel surgery (MacKay et al., *JAMA* 2020) and hypoglossal nerve stimulation (Strollo et al., *NEJM* 2014) for selected CPAP failures, and tracheostomy as a last resort.
 !!
 !update Current evidence
-**Adults.** In 2,717 adults with cardiovascular disease and moderate to severe apnoea, CPAP (used a mean of 3.3 hours a night) did not prevent cardiovascular events, though it improved sleepiness, mood and quality of life (McEvoy et al., *N Engl J Med* 2016). In the SAMS trial of 102 adults in whom CPAP had failed, combined palatal and tongue surgery lowered the apnoea-hypopnoea index from 47.9 to 20.8, compared with 45.3 to 34.5 on medical management, and improved sleepiness (MacKay et al., *JAMA* 2020). Hypoglossal nerve stimulation reduced the median index by 68% (29.3 to 9.0) at a year in selected patients (Strollo et al., *N Engl J Med* 2014). NICE recommends CPAP for moderate and severe disease, and for mild disease with symptoms affecting daily life (NG202, 2021).
+**Adults.** In 2,717 adults with cardiovascular disease and moderate to severe apnoea, CPAP (used a mean of 3.3 hours a night) did not prevent cardiovascular events, though it improved sleepiness, mood and quality of life (McEvoy et al., *N Engl J Med* 2016). In the SAMS trial of 102 adults in whom CPAP had failed, combined palatal and tongue surgery lowered the apnoea-hypopnoea index from 47.9 to 20.8, compared with 45.3 to 34.5 on medical management, and improved sleepiness (MacKay et al., *JAMA* 2020). Hypoglossal nerve stimulation reduced the median index by 68% (29.3 to 9.0) at a year in selected patients (Strollo et al., *N Engl J Med* 2014). NICE recommends CPAP for moderate and severe disease, and for mild disease with symptoms affecting quality of life and daily activities when lifestyle advice alone has failed or is unsuitable, with a mandibular advancement splint as the alternative for those who decline or cannot tolerate CPAP (NG202, 2021).
 !!
 ## Treatment: what and when
 !table Obstructive sleep apnoea: treatment
 Severity or situation | Treatment | Notes
 Every patient | Weight loss, alcohol and sedative avoidance, positional therapy, stop smoking; DVLA advice if sleepy | 
-Mild with symptoms | Mandibular advancement splint; CPAP if symptoms affect daily life and other measures fail | NICE NG202
+Mild, symptoms affecting daily life | Fixed-level CPAP if lifestyle advice fails or is unsuitable; mandibular advancement splint if CPAP is declined or not tolerated | NICE NG202
 Moderate or severe | CPAP (fixed or auto-titrating) | First line
 CPAP not tolerated, moderate OSA | Mandibular advancement splint | 
 Obesity | Weight-management programme; tirzepatide is licensed in the United States (2024) for moderate to severe OSA with obesity | 

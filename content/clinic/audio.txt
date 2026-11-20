@@ -84,7 +84,7 @@ Normal repeat audiograms agree within about 5 dB, so a change of 10 dB or more a
 
 # Patterns on the audiogram | Worked examples.
 ## Conductive and mixed losses
-**Otosclerosis** produces a conductive loss, often worse in the low frequencies, with a characteristic dip of bone conduction of about 10 to 15 dB at 2 kHz, the **Carhart notch**. The notch is mechanical, not cochlear: it disappears after successful stapes surgery. Tympanometry is type A or As, and the stapedial reflexes are absent.
+**Otosclerosis** produces a conductive loss, often worse in the low frequencies, with a characteristic dip of bone conduction, deepest (about 15 dB) at 2 kHz, the **Carhart notch**. The notch is mechanical, not cochlear: it disappears after successful stapes surgery. Tympanometry is type A or As, and the stapedial reflexes are absent.
 !draw aud-otosc | Left otosclerosis. Air conduction is about 40 to 50 dB; masked bone conduction is near normal except for the dip at 2 kHz (Carhart notch). Air–bone gap about 35 dB.
 A **mixed loss** combines a raised bone conduction with an air–bone gap, as in chronic otitis media with cochlear damage from long-standing infection, otosclerosis with cochlear involvement, or a temporal bone fracture. Both components matter: the gap may be closed by surgery, but the sensorineural part sets the best possible result, so a patient with bone conduction of 40 dB will still need a hearing aid after a perfect tympanoplasty.
 !draw aud-mixed | Right mixed loss. Masked bone conduction is 30 to 55 dB (the sensorineural part), and air conduction 60 to 85 dB (the gap of about 30 dB is the conductive part).
@@ -140,7 +140,7 @@ Normal | Middle ear fluid or a thickened, immobile drum
 High (over about 2 ml adults, 1 ml children) | Perforation or a patent ventilation tube
 Low | Wax or debris against the drum, or the probe against the canal wall
 !!
-An ear canal volume over about 2.5 mL in adults (2 mL in children) is a strong sign of a perforation or patent grommet. Infants under six months need a 1000 Hz probe tone, because the soft canal wall makes the standard 226 Hz test unreliable. A patulous Eustachian tube produces a trace that moves with breathing; a glomus tumour can produce pulsations in time with the heartbeat.
+An ear canal volume over about 2 ml in adults (1 ml in children) is a strong sign of a perforation or patent grommet. Infants under six months need a 1000 Hz probe tone, because the soft canal wall makes the standard 226 Hz test unreliable. A patulous Eustachian tube produces a trace that moves with breathing; a glomus tumour can produce pulsations in time with the heartbeat.
 ## Stapedial (acoustic) reflex
 A loud sound, 70 to 100 dB above threshold, contracts the stapedius in both ears.
 !fig d4-7 | The acoustic reflex pathway.
@@ -214,7 +214,7 @@ Non-organic loss | Inconsistent | Variable, no shadow curve | A | Present near c
 - From about thirty months: play audiometry.
 - Older children: conventional audiometry. Normal thresholds in children are 15 dB or better.
 
-**Visual reinforcement audiometry** conditions the child to turn towards a sound, rewarded by a light or puppet, and uses insert earphones or free field; free-field results reflect the better ear only. **Play audiometry** turns the test into a game, such as putting a peg in a board each time a sound is heard. Tympanometry and otoacoustic emissions support behavioural tests at every age, and ABR under sleep or sedation is used when behavioural results are unreliable.
+**Visual reinforcement audiometry** conditions the child to turn towards a sound, rewarded by a light or puppet, and uses insert earphones or free field; free-field results reflect the better ear only; it has largely replaced the older distraction test (about six to eighteen months). **Play audiometry** turns the test into a game, such as putting a peg in a board each time a sound is heard. Tympanometry and otoacoustic emissions support behavioural tests at every age, and ABR under sleep or sedation is used when behavioural results are unreliable.
 !update Current evidence
 **Grading hearing loss.** The WHO World Report on Hearing (2021) uses the better-ear average at 0.5, 1, 2 and 4 kHz: normal under 20 dB, mild 20 to under 35, moderate 35 to under 50, moderately severe 50 to under 65, severe 65 to under 80, profound 80 to under 95, and complete 95 dB or more; older textbooks use different cut-offs, so say which system you are quoting. **Methods.** The British Society of Audiology recommended procedure sets the standard technique and masking rules for pure-tone audiometry. **Beyond the audiogram.** Speech-in-noise tests and extended high-frequency audiometry (above 8 kHz) detect problems the standard audiogram misses, including early ototoxicity and possible hidden hearing loss.
 !!

@@ -10,7 +10,7 @@ Duration is almost as informative as age. A mass present for days is usually inf
 !table Neck masses by site
 Site | Common causes
 Midline, above the hyoid | Submental nodes, sublingual dermoid, thyroglossal cyst (suprahyoid), plunging ranula
-Midline, below the hyoid | Thyroglossal cyst (commonest at the hyoid), thyroid isthmus, Delphian and pretracheal nodes, laryngocele, suprasternal dermoid, thymic cyst
+Midline, below the hyoid | Thyroglossal cyst (commonest just below the hyoid, the subhyoid site), thyroid isthmus, Delphian and pretracheal nodes, laryngocele, suprasternal dermoid, thymic cyst
 Low in the neck, beside the trachea (one side or both) | Thyroid lobe nodule, asymmetric or multinodular goitre; moves with swallowing
 Submandibular triangle | Submandibular nodes and gland (sialadenitis, stone, tumour), plunging ranula
 Carotid triangle | Jugulodigastric and deep cervical nodes, branchial cyst, carotid body tumour, vagal schwannoma, laryngocele, carotid aneurysm
@@ -75,7 +75,7 @@ Tuberculous lymphadenitis is very common in endemic areas and more frequent with
 The diagnosis rests on FNA or biopsy showing caseating granulomas, acid-fast bacilli on Ziehl–Neelsen staining, culture and GeneXpert with rifampicin resistance testing, supported by a chest radiograph, a tuberculin test or interferon-gamma release assay, and an HIV test. Treatment is standard antituberculous therapy: isoniazid, rifampicin, pyrazinamide and ethambutol for two months, then isoniazid and rifampicin for four. Nodes may enlarge temporarily during treatment, a *paradoxical reaction*. Surgery is reserved for drug failure or residual masses, and abscesses are aspirated rather than incised.
 !fig d77-8 d77-9 | First, multiple tuberculous nodes in the neck. Second, (A) a caseating suprasternal node and (B) supraclavicular tuberculous nodes.
 ## Atypical mycobacteria
-Atypical mycobacterial infection affects children aged one to five, most often one to three ([[t:salivary]]), as a painless node, usually submandibular or preauricular, with violaceous, thin overlying skin and a tendency to form sinuses. The chest film is normal and the tuberculin reaction weak. Complete excision is the treatment, or curettage where the facial nerve is at risk, with clarithromycin as an alternative; incision and drainage leaves a chronic sinus.
+Atypical mycobacterial infection affects children aged one to five, most often one to three, as a painless node, usually submandibular or preauricular, with violaceous, thin overlying skin and a tendency to form sinuses. The chest film is normal and the tuberculin reaction weak. Complete excision is the treatment, or curettage where the facial nerve is at risk, with clarithromycin as an alternative (the trial evidence is in [[t:paeds_neck]]); incision and drainage leaves a chronic sinus.
 ## Other infections
 **Cat-scratch disease** from *Bartonella henselae* causes a tender, often suppurating node after a cat scratch; it is diagnosed by serology and treated with azithromycin when severe. **Toxoplasmosis** causes posterior cervical nodes in young adults and is diagnosed by serology. **Infectious mononucleosis** from EBV gives generalised nodes, exudative tonsillitis and splenomegaly. **HIV** ([[t:hivent]]) causes persistent generalised lymphadenopathy, and its nodes may harbour tuberculosis, lymphoma or Kaposi sarcoma. **Actinomycosis** produces a woody swelling with sinuses near the jaw.
 !imaging lymphadenopathy-hiv | Cervical lymphadenopathy in HIV.

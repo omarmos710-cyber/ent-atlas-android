@@ -92,14 +92,15 @@
      [
       "~50 Gy elective neck",
       "60 Gy post-op · 66 Gy close margins",
-      "70 Gy in 35 fractions: gross tumour"
+      "70 Gy in 35 fractions: gross tumour",
+      "T1 glottic: 55 Gy in 20 fractions"
      ]
     ],
     [
      "Post-op RT",
      [
       "start four to six weeks after surgery",
-      "surgery → end of RT < 11 weeks",
+      "surgery → end of RT < ~11 weeks",
       "margin < 5 mm, ENE, pT3–4, PNI, LVI",
       "positive margin or ENE → + cisplatin"
      ]

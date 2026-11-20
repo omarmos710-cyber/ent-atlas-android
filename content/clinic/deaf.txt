@@ -51,9 +51,8 @@ Ear-specific thresholds, under natural sleep or sedation.
 ### Behavioural tests by age
 Exact ages vary between services; the tests themselves are described in [[t:audio]].
 - Under six months: behavioural observation.
-- Six to eighteen months: distraction testing.
-- Six months to two years: visual reinforcement audiometry.
-- Two to five years: play audiometry.
+- Six to thirty months: visual reinforcement audiometry, which has largely replaced distraction testing (about six to eighteen months).
+- From about thirty months to five years: play audiometry.
 - Older: conventional and speech audiometry.
 ## Finding the cause
 Imaging (CT and MRI) before implantation; ECG for long QT; urinalysis; thyroid function; eye examination; CMV PCR on newborn saliva, urine or dried blood spot (within 21 days); and genetic testing (GJB2, GJB6 and gene panels). Comprehensive gene panels find a cause in about 40% of children with non-syndromic loss, most often *GJB2*.
@@ -119,7 +118,7 @@ Parents need a clear explanation, support and early contact with educators.
 ## Hearing aids
 As early as possible, in both ears if there is usable hearing.
 ## Cochlear implant
-For severe to profound loss with little benefit from aids, ideally around the first birthday (earlier implantation gives better spoken language), with both ears implanted at the same sitting (NICE TA566), or urgently after meningitis, before the cochlea ossifies. Candidacy and the operation are covered in [[t:rehab]].
+For severe to profound loss with little benefit from aids, ideally by about the first birthday, from about 9 months in many centres (earlier implantation gives better spoken language), with both ears implanted at the same sitting (NICE TA566), or urgently after meningitis, before the cochlea ossifies. Candidacy and the operation are covered in [[t:rehab]].
 !ops
 ## Communication and education
 Auditory-oral approaches, sign language, or total communication; radio aids at school; speech and language therapy; vocational guidance later.
@@ -143,7 +142,7 @@ Valganciclovir dose from Kimberlin et al., *N Engl J Med* 2015, and the internat
 ## Follow-up
 Children with risk factors need continued hearing checks even after passing the newborn screen; treated CMV infants continue audiology until about age six.
 !update Current evidence
-**Timing.** The Joint Committee on Infant Hearing position statement keeps the 1-3-6 targets and encourages 1-2-3 months in well-performing programmes; children with risk factors such as congenital CMV, ECMO, meningitis or a family history need ongoing surveillance even after passing the screen (*J Early Hear Detect Interv* 2019). **Cochlear implants.** Implantation before about 12 to 18 months gives better spoken language than later implantation, and bilateral implants are standard for bilateral profound loss; NICE (TA566, 2019) uses 80 dB HL at two or more frequencies with inadequate benefit from aids. **Congenital CMV.** An international consensus recommends treatment, started within the first month, for moderately to severely symptomatic infants, including those with isolated hearing loss in some centres (Rawlinson et al., *Lancet Infect Dis* 2017). **Genetics.** Comprehensive gene panels find a cause in about 40% of children with non-syndromic loss, most often *GJB2*.
+**Timing.** The Joint Committee on Infant Hearing position statement keeps the 1-3-6 targets and encourages 1-2-3 months in well-performing programmes; children with risk factors such as congenital CMV, ECMO, meningitis or a family history need ongoing surveillance even after passing the screen (*J Early Hear Detect Interv* 2019). **Cochlear implants.** Implantation by about 12 months, and in any case before about 18 months, gives better spoken language than later implantation, and bilateral implants are standard for bilateral profound loss; NICE (TA566, 2019) uses 80 dB HL at two or more frequencies with inadequate benefit from aids. **Congenital CMV.** An international consensus recommends treatment, started within the first month, for moderately to severely symptomatic infants, including those with isolated hearing loss in some centres (Rawlinson et al., *Lancet Infect Dis* 2017). **Genetics.** Comprehensive gene panels find a cause in about 40% of children with non-syndromic loss, most often *GJB2*.
 !!
 
 # Tips and links | For the examination and the ward.

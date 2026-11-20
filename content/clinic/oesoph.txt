@@ -57,7 +57,7 @@ Other clues complete the picture. Night-time regurgitation of undigested food wi
 ## Examination and tests
 Examine the mouth and oropharynx, and look at the larynx and hypopharynx with a flexible endoscope for pooling in the pyriform sinuses and for cord movement; then examine the neck, the cranial nerves and the chest. A blood count and iron studies look for iron deficiency and Plummer–Vinson syndrome.
 
-The **barium swallow** shows pouches, strictures, webs, rings, achalasia, spasm and extrinsic compression. **Videofluoroscopy**, the modified barium swallow, studies the oral and pharyngeal phases with different consistencies and demonstrates aspiration, and **flexible endoscopic evaluation of swallowing (FEES)** shows residue, penetration and aspiration at the bedside. A chest film, a lateral soft-tissue neck film and CT are used for masses.
+The **barium swallow** shows pouches, strictures, webs, rings, achalasia, spasm and extrinsic compression. **Videofluoroscopy**, the modified barium swallow, studies the oral and pharyngeal phases with different consistencies and demonstrates aspiration, and **fibreoptic endoscopic evaluation of swallowing (FEES)** shows residue, penetration and aspiration at the bedside. A chest film, a lateral soft-tissue neck film and CT are used for masses.
 
 **Endoscopy**, either oesophagogastroduodenoscopy or transnasal oesophagoscopy, sees and biopsies the mucosa, and *every new oesophageal dysphagia in an adult needs it.* For function, **high-resolution manometry** is the test for motility disorders, classified by the *Chicago classification*, and **24-hour pH and impedance monitoring** quantifies reflux.
 !imaging esophageal-passage-disorders | Disorders of the oesophageal passage on imaging.
@@ -90,7 +90,7 @@ Setting | Inpatient theatre | Day case or office
 !table Dysphagia: investigations
 Role | Test | When and what it shows
 Red flags (age 55 and over with weight loss, any progressive dysphagia) | Urgent direct-access upper GI endoscopy with biopsy (NICE NG12) | Cancer, stricture, eosinophilic oesophagitis
-Oropharyngeal dysphagia | Flexible endoscopic evaluation of swallowing (FEES) or videofluoroscopy with speech and language therapy | Aspiration, residue, pouch, cricopharyngeal bar
+Oropharyngeal dysphagia | Fibreoptic endoscopic evaluation of swallowing (FEES) or videofluoroscopy with speech and language therapy | Aspiration, residue, pouch, cricopharyngeal bar
 Pouch, web, ring, motility pattern | Barium swallow | Anatomy and transit
 Motility (gold standard) | High-resolution manometry | Achalasia subtypes, spastic disorders
 Reflux not responding to PPI, before surgery | 24-hour pH–impedance | Acid and non-acid reflux

@@ -22,7 +22,7 @@
    ]},
   {"id": "ap_pnd", "name": "Postnasal drip", "c": "green", "icon": "throat",
    "subs": [
-    ["Mechanism", ["volume · viscosity · clearance · sensation", "a litre or so a day, swallowed unnoticed", "upper airway cough syndrome"]],
+    ["Mechanism", ["volume · viscosity · clearance · sensation", "600–700 mL a day, swallowed unnoticed", "upper airway cough syndrome"]],
     ["Sources", ["nose · sinuses · nasopharynx · reflux", "drying drugs · cough hypersensitivity", "chronic cough ≥ eight weeks"]],
     ["Red flags", ["unilateral, blood, neck lump → tumour", "hoarseness, dysphagia → larynx, pharynx", "smoker, changed cough → chest X-ray", "cough on an ACE inhibitor = the drug"]],
     ["Treat", ["reflux: lifestyle, alginate, PPI trial", "normal scope: speech therapy", "refractory cough: gabapentin, amitriptyline", "no repeated antibiotics for catarrh"]]

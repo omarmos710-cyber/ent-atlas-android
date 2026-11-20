@@ -134,7 +134,7 @@
      "Tests",
      [
       "Rinne negative 256 → 512 → 1024 Hz",
-      "Carhart notch: bone dip at 2 kHz",
+      "Carhart notch: bone dip ~15 dB at 2 kHz",
       "As tympanogram, absent reflexes"
      ]
     ],

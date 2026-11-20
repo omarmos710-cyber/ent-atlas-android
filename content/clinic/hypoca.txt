@@ -49,7 +49,7 @@ cN2a / b / c | Single ipsilateral node over 3 to 6 cm / multiple ipsilateral nod
 cN3a / cN3b | Node over 6 cm without ENE / any node with clinical or unequivocal imaging ENE
 Stage I / II | T1 N0 / T2 N0
 Stage III | T3 N0, or T1–T3 N1
-Stage IVA | T1–T3 N2, or T4a N0–N2
+Stage IVA | T4a N0–N1, or T1–T4a N2
 Stage IVB | T4b any N, or any T N3
 Stage IVC | M1
 !!

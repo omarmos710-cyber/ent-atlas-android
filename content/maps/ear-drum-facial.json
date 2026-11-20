@@ -42,7 +42,7 @@
     ["Course", ["labyrinthine: narrowest, ~4 mm", "tympanic: commonest dehiscence", "five branches in the parotid"]],
     ["Topodiagnosis", ["Schirmer: at/above geniculate", "stapedial reflex · chorda taste", "motor only: mastoid or parotid"]],
     ["Bell's palsy", ["60–75% of facial palsies", "herpes simplex, labyrinthine swelling", "prednisolone < 72 h: 64% → 83%", "antiviral never alone"]],
-    ["Electrical", ["ENoG ≥ 90% degeneration = poor", "EMG fibrillation at 14–21 days"]],
+    ["Electrical", ["ENoG day 3 to 14–21: ≥ 90% = poor", "EMG fibrillation at 14–21 days"]],
     ["Eye & rehab", ["eye first: drops, ointment, tape", "gold weight if closure stays poor", "nerve transfer within 18 months"]]
    ]},
   {"id": "tumear", "name": "Middle ear tumours", "c": "red", "icon": "lump",
