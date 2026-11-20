@@ -62,7 +62,8 @@ self.addEventListener("fetch",e=>{const req=e.request;if(req.method!=="GET")retu
       try{const r=await fetch(req);if(r.ok||r.type==="opaqueredirect")return r}catch(err){}
       return plain(await caches.match(req,{ignoreSearch:true}))||Response.error()}
     const i=IX.get(rel(req.url));
-    if(i!==undefined){const hit=await st.match(K(i));if(hit)return hit}
+    /* copies saved by older versions may be redirected responses (the host redirects x.html to x); unwrap them */
+    if(i!==undefined){const hit=plain(await st.match(K(i)));if(hit)return hit}
     const old=await caches.match(req,{ignoreSearch:true});if(old)return old;
     try{const r=await fetch(req);if(!(r.ok&&i!==undefined&&!url.search))return r;
       const buf=await r.arrayBuffer();if(await hex(buf)===R[i])st.put(K(i),new Response(buf,{status:200,headers:r.headers})).catch(()=>{});
