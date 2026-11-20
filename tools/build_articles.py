@@ -511,6 +511,8 @@ def main():
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     import build_boards
     boards = build_boards.build()
+    import build_maps
+    boards += build_maps.build()
     update_sw(ids, ops, bas, boards)
 
 

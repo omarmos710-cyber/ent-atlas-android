@@ -1,0 +1,73 @@
+{
+ "id": "nose-sinus",
+ "title": "Sinusitis & the orbit",
+ "sec": "nose",
+ "order": 2,
+ "hub": {"t": "Sinusitis & the orbit", "s": "is it the sinus? has it spread?", "icon": "sinus"},
+ "branches": [
+  {"id": "ap_pain", "name": "Facial pain", "c": "blue", "icon": "face",
+   "subs": [
+    ["Sinus or not?", ["no nasal symptoms → rarely sinus", "normal endoscopy → very unlikely", "88% of \"sinus headache\" = migraine", "CT no screen: thickening in ~a third"]],
+    ["The causes", ["migraine: unilateral, throbbing, 4–72 h", "cluster: 15–180 min, tearing, ptosis", "trigeminal neuralgia: shocks → carbamazepine"]],
+    ["Midfacial pain", ["symmetrical pressure, normal endoscopy", "amitriptyline 10 mg at night", "≥ six weeks before judging", "sinus surgery does not help"]],
+    ["Red flags", ["over 50 + jaw claudication → steroids today", "thunderclap, focal signs → imaging", "numbness, diplopia, mass → malignancy"]]
+   ]},
+  {"id": "abs", "name": "Acute sinusitis", "c": "orange", "icon": "flame",
+   "subs": [
+    ["Define", ["< 12 weeks, complete resolution", "only 0.5–2% turn bacterial", "ethmoiditis = sinusitis of infants"]],
+    ["Bacterial if ≥ 3", ["discoloured discharge · severe local pain", "fever > 38 °C · raised ESR / CRP", "double sickening"]],
+    ["Treat", ["≤ 10 days: no antibiotic", "post-viral > ten days: steroid spray", "NICE: phenoxymethylpenicillin 5 days", "frontal worse at 48 h → trephine"]],
+    ["Chandler", ["I preseptal: vision, movement normal", "II orbital cellulitis · III subperiosteal", "IV orbital abscess · V cavernous sinus", "cavernous: both eyes, fixed pupil"]],
+    ["Bone & mucocele", ["Pott's puffy tumour → extradural abscess", "mucocele → endoscopic marsupialisation"]]
+   ]},
+  {"id": "orbit", "name": "The orbit", "c": "red", "icon": "eye",
+   "subs": [
+    ["Proptosis", ["> 2 mm between eyes = abnormal", "thyroid eye disease: commonest adult", "orbital cellulitis: commonest child", "non-axial: eye points away from lesion"]],
+    ["Drain in children", ["small medial abscess: medical first", "nine years or older, frontal, gas", "any visual loss or RAPD", "no better in 24–48 h"]],
+    ["Thyroid eye", ["muscle bellies big, tendons spared", "optic neuropathy → IV methylprednisolone", "decompress medial wall + floor"]],
+    ["Retrobulbar bleed", ["tense eye, falling vision", "canthotomy + cantholysis: no imaging"]]
+   ]},
+  {"id": "crs", "name": "Chronic sinusitis", "c": "green", "icon": "cells",
+   "subs": [
+    ["Define", ["≥ 12 weeks · ≥ two cardinal symptoms", "one = blockage or discharge", "+ endoscopy or CT evidence"]],
+    ["Image", ["non-contrast CT = gold standard", "Lund-Mackay > 5 suggests disease", "MRI too sensitive to diagnose"]],
+    ["Polyps", ["unilateral polyp → histology", "child with polyps → sweat test", "Samter: polyps, asthma, aspirin", "antrochoanal: single, to the choana"]],
+    ["Treat", ["saline + steroid spray, technique", "MACRO: clarithromycin = placebo", "oral steroid 1 or 2 courses a year", "type 2 polyps → dupilumab"]]
+   ]},
+  {"id": "afs", "name": "Fungal sinusitis", "c": "brown", "icon": "microbe",
+   "subs": [
+    ["Invading?", ["the first question, always", "Mucor: broad, aseptate, right angles", "Aspergillus: septate, ~45 degrees"]],
+    ["Fungal ball", ["one maxillary sinus, healthy host", "hyperdense centre, no erosion", "removal alone, no antifungal"]],
+    ["Allergic", ["peanut-butter eosinophilic mucin", "CT double density · dark on T2", "clearance + oral steroids; recurs"]],
+    ["Acute invasive", ["ketoacidosis, neutropenia, steroids", "black eschar on the turbinate", "urgent biopsy + frozen section", "liposomal amphotericin B 5 mg/kg/day", "debride back to bleeding tissue"]]
+   ]},
+  {"id": "sinussurg", "name": "Sinus surgery", "c": "teal", "icon": "scalpel",
+   "subs": [
+    ["Danger areas", ["lamina papyracea → orbit", "lateral lamella → CSF leak", "anterior ethmoidal artery → haematoma", "Onodi cell: optic nerve, carotid"]],
+    ["Who", ["Lund-Mackay ≥ 1 + ≥ eight weeks treated", "SNOT-22 ≥ 20 afterwards", "preoperative SNOT-22 predicts benefit"]],
+    ["Steps", ["uncinectomy → antrostomy → bulla", "posterior ethmoid → frontal → sphenoid", "miss the natural ostium = recirculation"]],
+    ["Old operations", ["antral puncture: never blow air", "Caldwell-Luc: not < ~17 (teeth)", "revision 11% at three years"]]
+   ]}
+ ],
+ "links": [
+  ["ap_pain", "abs", "pain needs nasal symptoms"],
+  ["abs", "orbit", "through lamina papyracea"],
+  ["abs", "crs", "beyond 12 weeks"],
+  ["afs", "orbit", "invades"],
+  ["crs", "sinussurg", "after failed medicines"],
+  ["sinussurg", "orbit", "orbital haematoma"]
+ ],
+ "abbr": {
+  "CRP": "C-reactive protein",
+  "CSF": "cerebrospinal fluid",
+  "CT": "computed tomography",
+  "ESR": "erythrocyte sedimentation rate",
+  "IV": "intravenous",
+  "MACRO": "UK trial: surgery vs clarithromycin",
+  "MRI": "magnetic resonance imaging",
+  "NICE": "National Institute for Health and Care Excellence",
+  "RAPD": "relative afferent pupillary defect",
+  "SNOT": "Sino-Nasal Outcome Test",
+  "T2": "T2-weighted MRI"
+ }
+}

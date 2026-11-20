@@ -1,0 +1,242 @@
+{
+ "id": "nose-shape",
+ "title": "Shape of the nose",
+ "sec": "nose",
+ "order": 5,
+ "hub": {
+  "t": "Shape of the nose",
+  "s": "skin, septum and form",
+  "icon": "face"
+ },
+ "branches": [
+  {
+   "id": "extnose",
+   "name": "External nose",
+   "c": "teal",
+   "icon": "nose",
+   "subs": [
+    [
+     "Framework",
+     [
+      "bony upper third, cartilage lower two-thirds",
+      "valveless veins → cavernous sinus"
+     ]
+    ],
+    [
+     "Furuncle",
+     [
+      "S. aureus in a hair follicle",
+      "never squeeze → cavernous sinus",
+      "recurrent: check diabetes, carriage"
+     ]
+    ],
+    [
+     "Deformities",
+     [
+      "saddle: fracture, septal abscess, GPA, cocaine",
+      "crooked: C- or S-shaped dorsum",
+      "deviated: straight but to one side",
+      "augment with autografts, not implants"
+     ]
+    ],
+    [
+     "Rhinophyma",
+     [
+      "long-standing rosacea, older men",
+      "shave: scalpel, dermabrasion, laser"
+     ]
+    ],
+    [
+     "Skin cancer",
+     [
+      "BCC ~87%: tip, ala, rodent ulcer",
+      "SCC ~11%: nodes in ~20%",
+      "biopsy any lesion that won't heal",
+      "Mohs for high-risk BCC"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "septum",
+   "name": "Septum",
+   "c": "blue",
+   "icon": "bone",
+   "subs": [
+    [
+     "Framework",
+     [
+      "cartilage, ethmoid plate, vomer",
+      "valve 10–15° · Cottle test"
+     ]
+    ],
+    [
+     "Deviation",
+     [
+      "high deviations block more",
+      "treat rhinitis first",
+      "septoplasty beats medical treatment"
+     ]
+    ],
+    [
+     "Haematoma",
+     [
+      "boggy septum after a blow",
+      "drain same day, pack both sides",
+      "missed → abscess → saddle nose"
+     ]
+    ],
+    [
+     "Abscess",
+     [
+      "drain urgently, remove dead cartilage",
+      "antibiotics ≥ ten days"
+     ]
+    ],
+    [
+     "Perforation",
+     [
+      "small anterior: whistles",
+      "cocaine, surgery, GPA, syphilis (bony)",
+      "biopsy posterosuperior edge",
+      "flap closure best < 2 cm"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "facplast",
+   "name": "Facial plastics",
+   "c": "pink",
+   "icon": "scalpel",
+   "subs": [
+    [
+     "Proportions",
+     [
+      "thirds in height, fifths in width",
+      "nasofrontal 115–130°",
+      "nasolabial 90–95° men, 95–110° women"
+     ]
+    ],
+    [
+     "Tip support",
+     [
+      "lower laterals · footplates · scroll",
+      "tripod: projection + rotation",
+      "Goode ratio 0.55–0.6"
+     ]
+    ],
+    [
+     "Rhinoplasty",
+     [
+      "open: best exposure, columellar scar",
+      "hump off → osteotomies + spreaders",
+      "keep a 10–15 mm L-strut",
+      "screen for body dysmorphic disorder"
+     ]
+    ],
+    [
+     "Deformities",
+     [
+      "pollybeak: supratip fullness",
+      "inverted V: upper laterals collapse",
+      "open roof: osteotomies omitted",
+      "wait about a year to revise"
+     ]
+    ],
+    [
+     "Face and lids",
+     [
+      "frontal branch: stay deep (Pitanguy)",
+      "facelift haematoma 3–15%",
+      "great auricular: commonest nerve injury"
+     ]
+    ],
+    [
+     "Fillers",
+     [
+      "occlusion → hyaluronidase at once",
+      "risk of blindness"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "congnose",
+   "name": "Congenital",
+   "c": "green",
+   "icon": "child",
+   "subs": [
+    [
+     "Choanal atresia",
+     [
+      "blue at rest, pink when crying",
+      "catheter stops at ~3 cm",
+      "axial CT = definitive",
+      "CHARGE: about half bilateral"
+     ]
+    ],
+    [
+     "Atresia: act",
+     [
+      "oral airway or McGovern nipple",
+      "endoscopic transnasal drill repair",
+      "stents no better: 65% vs 64%"
+     ]
+    ],
+    [
+     "Midline masses",
+     [
+      "dermoid commonest: pit ± hair",
+      "glioma: 15–20% stalk to dura",
+      "encephalocele: pulsatile, Furstenberg +"
+     ]
+    ],
+    [
+     "Never",
+     [
+      "biopsy before MRI → meningitis, CSF leak"
+     ]
+    ],
+    [
+     "Pyriform",
+     [
+      "like atresia, but at the front",
+      "single central incisor → holoprosencephaly"
+     ]
+    ]
+   ]
+  }
+ ],
+ "links": [
+  [
+   "septum",
+   "extnose",
+   "abscess → saddle nose"
+  ],
+  [
+   "septum",
+   "facplast",
+   "first-choice graft"
+  ],
+  [
+   "extnose",
+   "facplast",
+   "crooked → septorhinoplasty"
+  ],
+  [
+   "congnose",
+   "septum",
+   "child septoplasty is safe"
+  ]
+ ],
+ "abbr": {
+  "BCC": "basal cell carcinoma",
+  "CHARGE": "coloboma, heart defects, choanal atresia, retarded growth and development, genital and ear anomalies",
+  "CSF": "cerebrospinal fluid",
+  "CT": "computed tomography",
+  "GPA": "granulomatosis with polyangiitis",
+  "MRI": "magnetic resonance imaging",
+  "SCC": "squamous cell carcinoma"
+ }
+}

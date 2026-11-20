@@ -1,0 +1,370 @@
+{
+ "id": "hn-sites",
+ "title": "Cancer by site",
+ "sec": "neck",
+ "order": 4,
+ "hub": {
+  "t": "Cancer by site",
+  "s": "each subsite, its own rules",
+  "icon": "throat"
+ },
+ "branches": [
+  {
+   "id": "oral_ca",
+   "name": "Oral cavity",
+   "c": "blue",
+   "icon": "mouth",
+   "subs": [
+    [
+     "Risk",
+     [
+      "tobacco, alcohol, betel quid + areca",
+      "erythroplakia = highest risk",
+      "dysplasia: ~5–18% transform"
+     ]
+    ],
+    [
+     "Present",
+     [
+      "ulcer > three weeks → biopsy",
+      "West: lateral tongue, floor of mouth",
+      "South Asia: buccal mucosa, sulcus",
+      "pain referred to ear · numb lip"
+     ]
+    ],
+    [
+     "T stage (DOI)",
+     [
+      "DOI ≠ tumour thickness",
+      "T1 ≤ 2 cm, DOI ≤ 5 mm",
+      "T3: 2–4 cm & DOI > 10, or > 4 cm & ≤ 10",
+      "dry lip, commissure → skin (TNM 9)"
+     ]
+    ],
+    [
+     "Primary",
+     [
+      "5 mm margin · < 1 mm = involved",
+      "abutted bone → marginal mandibulectomy",
+      "medulla invaded → segmental + fibula"
+     ]
+    ],
+    [
+     "Neck",
+     [
+      "N0 + DOI > 3–4 mm → elective I–III",
+      "D'Cruz: survival 80% vs 67.5%",
+      "sentinel node biopsy: alternative"
+     ]
+    ],
+    [
+     "Adjuvant",
+     [
+      "RT: pT3–4, close margin, PNI, LVI",
+      "ENE or involved margin → + cisplatin"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "tonsil_ca",
+   "name": "Oropharynx · HPV",
+   "c": "orange",
+   "icon": "tonsils",
+   "subs": [
+    [
+     "HPV-positive",
+     [
+      "younger non-smoker, male ~9:1",
+      "small primary, early cystic nodes",
+      "p16 on every oropharyngeal cancer",
+      "far better prognosis"
+     ]
+    ],
+    [
+     "Present",
+     [
+      "adult cystic neck lump = metastasis",
+      "tongue base: ~70% nodes · palpate",
+      "hot-potato voice, referred otalgia",
+      "one-sided tonsil → biopsy"
+     ]
+    ],
+    [
+     "HPV+ TNM 9",
+     [
+      "T1 ≤ 2 · T2 2–4 · T3 > 4 cm",
+      "T4 not split into a/b",
+      "cN1 ipsilateral ≤ 6 cm · cN2 bilateral",
+      "ENE moves cN up one category",
+      "pN1a one node · pN1b two to four"
+     ]
+    ],
+    [
+     "Treat",
+     [
+      "early: TORS or IMRT · avoid triple therapy",
+      "advanced: 70 Gy + cisplatin",
+      "cetuximab worse than cisplatin",
+      "residual node: PET-CT at 12 weeks"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "hypoca",
+   "name": "Hypopharynx",
+   "c": "green",
+   "icon": "swallow",
+   "subs": [
+    [
+     "Subsites",
+     [
+      "piriform ~60% · postcricoid 30% · wall 10%",
+      "postcricoid: women, Plummer–Vinson"
+     ]
+    ],
+    [
+     "Why late",
+     [
+      "roomy, silent · submucosal spread",
+      "nodes 60–75% at presentation",
+      "synchronous oesophageal cancer",
+      "worst: 30–40% at five years"
+     ]
+    ],
+    [
+     "Signs",
+     [
+      "one-sided pricking on swallowing",
+      "pooled saliva · puff the cheeks",
+      "loss of laryngeal crepitus"
+     ]
+    ],
+    [
+     "Work-up",
+     [
+      "panendoscopy with oesophagoscopy",
+      "barium swallow: lower limit, web"
+     ]
+    ],
+    [
+     "Treat",
+     [
+      "T1–T2 N0: RT or partial surgery",
+      "T2–T3, N+: chemoradiation or TPF",
+      "T4a: total laryngopharyngectomy",
+      "circumferential: jejunum, tubed flap",
+      "with oesophagus: gastric pull-up"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "lxca",
+   "name": "Larynx",
+   "c": "purple",
+   "icon": "voice",
+   "subs": [
+    [
+     "Sites",
+     [
+      "glottic ~60%: hoarse early",
+      "glottic nodes < 5%: few lymphatics",
+      "supraglottic: silent, bilateral nodes",
+      "subglottic 1–2%: stridor first"
+     ]
+    ],
+    [
+     "Diagnose",
+     [
+      "hoarse > three weeks → laryngoscopy",
+      "CT before biopsy if airway safe",
+      "direct laryngoscopy: hidden areas"
+     ]
+    ],
+    [
+     "T stage",
+     [
+      "T2 impaired mobility · T3 fixed fold",
+      "T3: paraglottic space, inner cortex",
+      "T4a through cartilage, out of larynx"
+     ]
+    ],
+    [
+     "Early",
+     [
+      "T1 glottic: RT or laser, 85–95%",
+      "supraglottic: treat both necks II–IV"
+     ]
+    ],
+    [
+     "Advanced",
+     [
+      "T3: cisplatin-RT (RTOG 91-11) or surgery",
+      "T4a cartilage → total laryngectomy",
+      "VA trial: two-thirds keep larynx",
+      "voice: tracheo-oesophageal valve"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "npc",
+   "name": "Nasopharynx",
+   "c": "red",
+   "icon": "nodes",
+   "subs": [
+    [
+     "Cause",
+     [
+      "EBV + salted fish + HLA genes",
+      "southern China, South-East Asia",
+      "non-keratinising: EBV, radiosensitive",
+      "fossa of Rosenmüller"
+     ]
+    ],
+    [
+     "Present",
+     [
+      "upper neck node: commonest",
+      "adult one-sided effusion → look",
+      "sixth nerve palsy first",
+      "Trotter: deafness, V pain, palate"
+     ]
+    ],
+    [
+     "Diagnose",
+     [
+      "endoscopic biopsy + EBER",
+      "MRI extent · CT skull base bone",
+      "plasma EBV DNA: screen, monitor"
+     ]
+    ],
+    [
+     "TNM 9 (2025)",
+     [
+      "T1 may reach oropharynx, nose",
+      "N3: > 6 cm, below cricoid, advanced ENE",
+      "M1a ≤ three · M1b > three lesions",
+      "stage IV = metastatic only"
+     ]
+    ],
+    [
+     "Treat",
+     [
+      "T1 N0: IMRT ~70 Gy alone",
+      "else + cisplatin, cumulative ≥ 200 mg/m²",
+      "high risk: induction gemcitabine–cisplatin",
+      "recurrence: endoscopic nasopharyngectomy",
+      "distant failure now commonest"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "sinus_ca",
+   "name": "Nose & sinuses",
+   "c": "teal",
+   "icon": "sinus",
+   "subs": [
+    [
+     "Risk",
+     [
+      "hardwood dust → ethmoid adenocarcinoma",
+      "nickel → squamous carcinoma",
+      "SCC > 80% · maxillary commonest"
+     ]
+    ],
+    [
+     "Inverted papilloma",
+     [
+      "one-sided, lateral wall",
+      "carcinoma in ~5–10%",
+      "CT hyperostosis = attachment",
+      "MRI: convoluted cerebriform",
+      "endoscopic removal, drill the base"
+     ]
+    ],
+    [
+     "Present",
+     [
+      "one-sided block, blood, numb cheek",
+      "loose teeth, proptosis, trismus",
+      "image first, then biopsy"
+     ]
+    ],
+    [
+     "Stage",
+     [
+      "Ohngren: above and behind = worse",
+      "T3 posterior wall, orbital floor",
+      "T4a anterior orbit, cheek skin, pterygoid",
+      "T4b orbital apex, dura, brain"
+     ]
+    ],
+    [
+     "Treat",
+     [
+      "resection + RT 60–66 Gy",
+      "orbit beyond periosteum → exenteration",
+      "obturator or free flap"
+     ]
+    ],
+    [
+     "Others",
+     [
+      "olfactory neuroblastoma: Kadish",
+      "SNUC: induction chemotherapy first",
+      "mucosal melanoma: T3 at least"
+     ]
+    ]
+   ]
+  }
+ ],
+ "links": [
+  [
+   "tonsil_ca",
+   "oral_ca",
+   "staged by p16, not DOI"
+  ],
+  [
+   "tonsil_ca",
+   "npc",
+   "HPV vs EBV"
+  ],
+  [
+   "hypoca",
+   "lxca",
+   "often costs the larynx"
+  ],
+  [
+   "sinus_ca",
+   "oral_ca",
+   "loose teeth, palate"
+  ]
+ ],
+ "abbr": {
+  "CT": "computed tomography",
+  "DNA": "deoxyribonucleic acid",
+  "DOI": "depth of invasion",
+  "EBER": "EBV-encoded RNA",
+  "EBV": "Epstein–Barr virus",
+  "ENE": "extranodal extension",
+  "HLA": "human leukocyte antigen",
+  "HPV": "human papillomavirus",
+  "IMRT": "intensity-modulated radiotherapy",
+  "LVI": "lymphovascular invasion",
+  "MRI": "magnetic resonance imaging",
+  "PET": "positron emission tomography",
+  "PNI": "perineural invasion",
+  "RT": "radiotherapy",
+  "RTOG": "Radiation Therapy Oncology Group",
+  "SCC": "squamous cell carcinoma",
+  "SNUC": "sinonasal undifferentiated carcinoma",
+  "TNM": "tumour, node, metastasis",
+  "TORS": "transoral robotic surgery",
+  "TPF": "docetaxel, cisplatin and 5-FU",
+  "VA": "Veterans Affairs (Larynx trial)"
+ }
+}
