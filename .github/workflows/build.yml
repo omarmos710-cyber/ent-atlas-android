@@ -39,6 +39,9 @@ jobs:
           NEW_SIGNING_PASSWORD: ${{ secrets.NEW_SIGNING_PASSWORD }}
         run: |
           if [ -z "$NEW_SIGNING_PASSWORD" ] || [ -f signing/lineage.bin ]; then echo "nothing to do"; exit 0; fi
+          if [ -z "$SIGNING_PASSWORD" ]; then
+            echo "::error::The secret SIGNING_PASSWORD (the old key's password) is missing; it is needed once to hand over to the new key."; exit 1
+          fi
           BT=$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)
           keytool -genkeypair -keystore signing/ent-companion-2.p12 -storetype PKCS12 -alias entcompanion \
             -keyalg RSA -keysize 4096 -validity 10000 -dname "CN=The ENT Companion" \
