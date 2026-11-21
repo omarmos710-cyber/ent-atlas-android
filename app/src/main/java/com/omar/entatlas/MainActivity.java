@@ -44,14 +44,14 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle state) {
         super.onCreate(state);
-        createWebView(state);
+        createWebView(state, START);
         if (Build.VERSION.SDK_INT >= 33) {
             getOnBackInvokedDispatcher().registerOnBackInvokedCallback(
                     OnBackInvokedDispatcher.PRIORITY_DEFAULT, this::handleBack);
         }
     }
 
-    private void createWebView(Bundle state) {
+    private void createWebView(Bundle state, String url) {
         web = new WebView(this);
         setContentView(web);
 
@@ -83,15 +83,21 @@ public class MainActivity extends Activity {
             @Override
             public boolean onRenderProcessGone(WebView v, RenderProcessGoneDetail detail) {
                 if (v != web) return true;
-                // reopen where the reader was; if the page keeps crashing (twice within a minute), go to the start instead
+                // reopen where the reader was; a second crash within a minute goes to the start instead, and a
+                // third within two minutes closes the app with a message rather than reloading forever
                 long now = android.os.SystemClock.elapsedRealtime();
+                if (now - crashWindow > 120000) { crashWindow = now; crashes = 0; }
+                crashes++;
                 boolean again = now - lastCrash < 60000;
                 lastCrash = now;
-                String back = again ? START : lastUrl;
                 web = null;
                 v.destroy();
-                createWebView(null);
-                web.loadUrl(back);
+                if (crashes >= 3) {
+                    toast("The app ran out of memory. Please open it again");
+                    finish();
+                    return true;
+                }
+                createWebView(null, again ? START : lastUrl);
                 return true;
             }
 
@@ -123,7 +129,7 @@ public class MainActivity extends Activity {
         });
 
         web.addJavascriptInterface(new Bridge(), "Android");
-        if (state != null) web.restoreState(state); else web.loadUrl(START);
+        if (state != null) web.restoreState(state); else web.loadUrl(url);
     }
 
     private long lastBack = 0;
@@ -201,7 +207,8 @@ public class MainActivity extends Activity {
         }
     }
 
-    private long lastCrash = -120000;
+    private long lastCrash = -120000, crashWindow = -300000;
+    private int crashes = 0;
     private final java.util.Set<String> pdfBusy = new java.util.HashSet<>();
 
     /** The kept copy of a PDF, downloaded or refreshed from the website when possible; null if there is none. */
