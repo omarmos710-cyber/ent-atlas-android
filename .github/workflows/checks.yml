@@ -31,6 +31,9 @@ jobs:
           node tools/test_deep.js
           node tools/test_answer.js
 
+      - name: Sync between devices
+        run: node tools/test_sync.js
+
       - name: Offline file list is up to date
         run: python3 tools/build_sw.py --check
 

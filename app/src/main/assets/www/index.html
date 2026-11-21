@@ -6153,12 +6153,14 @@ const ALLFIGS=Object.keys(FIG);
 /* ---------------- STATE & SYNC ---------------- */
 const KEY="ent-atlas-v1";
 let S0={cards:{},read:{},stars:{},notes:{},quiz:[],days:[],t:0};
+/*SYNC-CORE-BEGIN  (tested by tools/test_sync.js — keep this block free of DOM and network code) */
 /* progress read from a backup file, the cloud or storage is checked field by field, so a damaged copy
    cannot break the app: a field of the wrong type falls back to its empty default */
 const isObj=o=>!!o&&typeof o==="object"&&!Array.isArray(o);
+const BAD_KEY=k=>k==="__proto__"||k==="constructor"||k==="prototype";
 const ST_OBJ=["drill","miss","ord","mins","spot","lab","clr","clo","hub","th","dver","thr","thb","sk"];
 function stClean(d){const r=JSON.parse(JSON.stringify(S0));if(!isObj(d))return r;
-  for(const k in d){const v=d[k],def=S0[k];
+  for(const k in d){if(BAD_KEY(k))continue;const v=d[k],def=S0[k];
     if(k in S0){if(Array.isArray(def)?Array.isArray(v):isObj(def)?isObj(v):typeof v===typeof def)r[k]=v}
     else if(ST_OBJ.includes(k)||k==="mod"){if(isObj(v))r[k]=v}
     else r[k]=v}
@@ -6167,22 +6169,58 @@ function stClean(d){const r=JSON.parse(JSON.stringify(S0));if(!isObj(d))return r
   if(r.lab&&r.lab.st!=null&&!isObj(r.lab.st))delete r.lab.st;
   if(r.spot&&(typeof r.spot.n!=="number"||typeof r.spot.r!=="number"||!isObj(r.spot.by)))delete r.spot;
   for(const k of["cards","read","stars","notes"])for(const x in r[k])if(k==="notes"?typeof r[k][x]!=="string":r[k][x]==null)delete r[k][x];
+  if(r.mod)for(const k in r.mod){const e=r.mod[k];let p=null;try{p=JSON.parse(k)}catch(err){}
+    if(!isObj(e)||typeof e.t!=="number"||!Array.isArray(p)||p.length<2||p.some(x=>typeof x!=="string"||BAD_KEY(x)))delete r.mod[k]}
   return r}
-let ST=Object.assign({},S0);
+
+/* Syncing two devices. Each item (a star, a read mark, a note, a flashcard, a theatre log entry, a mistake…) keeps
+   the time it last changed in ST.mod, keyed by its path (["stars","abs"]), with d:1 when the change was a deletion.
+   When two copies merge, the latest change to each item wins, whether it was an edit, an addition or a deletion.
+   Items with no record (older data) fall back to "keep everything from both, newer copy wins". */
+const SYNC_DEPTH=k=>k==="cards"?2:3;   // a flashcard is one item; elsewhere items sit up to 3 levels deep (th.log.<op>)
+const MOD_DAYS=180,MOD_MAX=5000;
+function snapOf(st){const s={};for(const k in st)if(k!=="mod"&&k!=="t")s[k]=JSON.stringify(st[k]);return s}
+/* compare progress with the snapshot taken at the last save and record what changed; returns the new snapshot */
+function syncDiff(prev,st,now){if(!isObj(st.mod))st.mod={};const next=snapOf(st);if(!prev)return next;
+  const rec=(p,del)=>{if(!p.some(BAD_KEY))st.mod[JSON.stringify(p)]={d:del?1:0,t:now}};
+  const walk=(a,b,p)=>{const whole=p.length+1>=SYNC_DEPTH(p[0]);
+    for(const k in a)if(!(k in b))rec(p.concat(k),1);
+    for(const k in b){if(!(k in a)){rec(p.concat(k),0);continue}const x=a[k],y=b[k];
+      if(!whole&&isObj(x)&&isObj(y))walk(x,y,p.concat(k));else if(JSON.stringify(x)!==JSON.stringify(y))rec(p.concat(k),0)}};
+  for(const k in next){if(next[k]===prev[k]||prev[k]===undefined)continue;let a;try{a=JSON.parse(prev[k])}catch(e){continue}
+    if(isObj(a)&&isObj(st[k]))walk(a,st[k],[k])}
+  pruneMod(st.mod,now);return next}
+function pruneMod(mod,now){const old=now-MOD_DAYS*864e5;for(const k in mod)if(!(mod[k].t>old))delete mod[k];
+  const ks=Object.keys(mod);if(ks.length>MOD_MAX){ks.sort((x,y)=>mod[x].t-mod[y].t);for(const k of ks.slice(0,ks.length-MOD_MAX))delete mod[k]}}
+/* merge two copies of the progress; "newer" is the copy saved more recently as a whole */
+function mergeSt(newer,older,now){newer=JSON.parse(JSON.stringify(newer));older=JSON.parse(JSON.stringify(older));now=now||Date.now();
+  const m=(a,b,top)=>{if(isObj(a)&&isObj(b)){const r=Object.assign({},a);for(const k in b){if(BAD_KEY(k))continue;r[k]=k in a?m(a[k],b[k],top):b[k]}return r}
+    if(Array.isArray(a)&&Array.isArray(b)){
+      if(top==="days")return [...new Set(a.concat(b).filter(x=>typeof x==="string"))].sort();
+      /* quiz results from two devices: keep both, once each, oldest first */
+      if(top==="quiz"){const seen=new Map();for(const q of a.concat(b))if(isObj(q))seen.set(q.t+"|"+q.r+"|"+q.s+"|"+q.n,q);return [...seen.values()].sort((x,y)=>x.t-y.t).slice(-300)}}
+    return a};
+  const M={};for(const k of new Set(Object.keys(newer).concat(Object.keys(older)))){if(BAD_KEY(k)||k==="mod")continue;
+    M[k]=k in newer?(k in older?m(newer[k],older[k],k):newer[k]):older[k]}
+  const A=isObj(newer.mod)?newer.mod:{},B=isObj(older.mod)?older.mod:{},mod={},from={};
+  for(const k of new Set(Object.keys(A).concat(Object.keys(B)))){const x=A[k],y=B[k];
+    if(x&&(!y||x.t>=y.t)){mod[k]=x;from[k]=newer}else if(y){mod[k]=y;from[k]=older}}
+  const at=(o,p)=>{for(const k of p){if(!isObj(o))return undefined;o=o[k]}return o};
+  const paths=Object.keys(mod).map(k=>{try{return [k,JSON.parse(k)]}catch(e){return null}})
+    .filter(x=>x&&Array.isArray(x[1])&&x[1].length>1&&!x[1].some(BAD_KEY)).sort((x,y)=>x[1].length-y[1].length);
+  for(const [k,p] of paths){const last=p[p.length-1];
+    if(mod[k].d){const parent=at(M,p.slice(0,-1));if(isObj(parent))delete parent[last];continue}
+    const v=at(from[k],p);if(v===undefined)continue;
+    let o=M;for(const x of p.slice(0,-1)){if(!isObj(o[x]))o[x]={};o=o[x]}o[last]=JSON.parse(JSON.stringify(v))}
+  pruneMod(mod,now);M.mod=mod;return M}
+/*SYNC-CORE-END*/
+let ST=stClean(null);
 try{const j=localStorage.getItem(KEY);if(j)ST=stClean(JSON.parse(j))}catch(e){}
+try{localStorage.removeItem("ent-sb-replace")}catch(e){}   // flag used by an earlier version
 let DBREF=null,pushT=null,pushing=false,pushAgain=false,syncState="local";
-/* Deletions sync too: each save compares progress with the last saved copy. A removed item (a star, read mark,
-   note, theatre skill or log entry, a mastered mistake…) is recorded in ST.mod with the time, and so is adding it
-   back; when two devices merge, the latest change to each item wins, so a deletion is not undone by the other copy. */
-let STPREV=null;const stSnap=()=>{try{STPREV=JSON.parse(JSON.stringify(ST))}catch(e){STPREV=null}};
+let STPREV=null;const stSnap=()=>{STPREV=snapOf(ST)};
 stSnap();
-function trackChanges(){if(!STPREV){stSnap();return}const now=Date.now();if(!isObj(ST.mod))ST.mod={};
-  const walk=(a,b,path)=>{if(path.length>3)return;
-    for(const k in a){const p=path.concat(k),key=JSON.stringify(p);
-      if(!(k in b))ST.mod[key]={d:1,t:now};else if(isObj(a[k])&&isObj(b[k]))walk(a[k],b[k],p)}
-    for(const k in b){const key=JSON.stringify(path.concat(k));if(!(k in a)&&ST.mod[key]&&ST.mod[key].d)ST.mod[key]={d:0,t:now}}};
-  for(const k in ST)if(k!=="mod"&&isObj(ST[k])&&isObj(STPREV[k]))walk(STPREV[k],ST[k],[k]);
-  stSnap()}
+function trackChanges(){STPREV=syncDiff(STPREV,ST,Date.now())}
 function save(){trackChanges();ST.t=Date.now();try{localStorage.setItem(KEY,JSON.stringify(ST))}catch(e){}if(DBREF){clearTimeout(pushT);pushT=setTimeout(push,1500)}}
 async function push(){if(!DBREF)return;if(pushing){pushAgain=true;return}pushing=true;
   try{await DBREF.set({json:JSON.stringify(ST),t:ST.t});syncState="synced"}catch(e){syncState="error"}
@@ -6213,30 +6251,12 @@ async function sbToken(){if(!SBS)return null;if(Date.now()<SBS.exp-60000)return 
     .catch(e=>{if(e.status===400||e.status===401){SBS=null;sbSave();DBREF=null;syncState="local";updateSync()}return null}).finally(()=>{sbRefreshing=null});
   return sbRefreshing}
 /* merge two progress states without losing anything: the newer wins a conflict, the older fills what the newer lacks */
-function mergeSt(newer,older){newer=JSON.parse(JSON.stringify(newer));older=JSON.parse(JSON.stringify(older));const plain=o=>o&&typeof o==="object"&&!Array.isArray(o);
-  const m=(a,b)=>{if(plain(a)&&plain(b)){const r=Object.assign({},a);for(const k in b)r[k]=k in a?m(a[k],b[k]):b[k];return r}
-    if(Array.isArray(a)&&Array.isArray(b)&&a.concat(b).every(x=>typeof x==="string"))return [...new Set(a.concat(b))].sort();
-    /* quiz results from two devices: keep both, once each, oldest first */
-    if(Array.isArray(a)&&Array.isArray(b)&&a.concat(b).every(x=>plain(x)&&typeof x.t==="number")){const seen=new Map();
-      for(const q of a.concat(b))seen.set(q.t+"|"+q.r+"|"+q.s+"|"+q.n,q);return [...seen.values()].sort((x,y)=>x.t-y.t).slice(-300)}
-    return a};
-  const M=m(newer,older),A=isObj(newer.mod)?newer.mod:{},B=isObj(older.mod)?older.mod:{},mod={},old=Date.now()-365*864e5;
-  for(const k of new Set(Object.keys(A).concat(Object.keys(B)))){const x=A[k],y=B[k],w=!y||(x&&x.t>=y.t)?x:y;if(w&&w.t>old)mod[k]=w}
-  const at=(o,p)=>{for(const k of p){if(!isObj(o))return undefined;o=o[k]}return o};
-  for(const k in mod){let p;try{p=JSON.parse(k)}catch(e){continue}if(!Array.isArray(p)||!p.length)continue;
-    const parent=at(M,p.slice(0,-1)),last=p[p.length-1];if(!isObj(parent))continue;
-    if(mod[k].d)delete parent[last];
-    else if(!(last in parent)){const v=at(newer,p)!==undefined?at(newer,p):at(older,p);if(v!==undefined)parent[last]=v}}
-  M.mod=mod;return M}
 const SBREF={async get(){const r=await sbFetch("/rest/v1/progress?select=data,updated_at&user_id=eq."+SBS.uid,{auth:true});return r&&r[0]?r[0].data:null},
   async set(v){await sbFetch("/rest/v1/progress?on_conflict=user_id",{method:"POST",auth:true,headers:{"Prefer":"resolution=merge-duplicates,return=minimal"},body:{user_id:SBS.uid,data:v,updated_at:new Date().toISOString()}})}};
 let sbPulling=false;
 async function sbSync(){if(!SBS||sbPulling)return;sbPulling=true;
   try{const d=await SBREF.get();DBREF=SBREF;let changed=false;
-    /* right after "Restore a backup", this device's copy replaces the cloud copy (no merge) */
-    let replace=false;try{replace=localStorage.getItem("ent-sb-replace")==="1"}catch(e){}
-    if(replace){await SBREF.set({json:JSON.stringify(ST),t:ST.t||Date.now()});try{localStorage.removeItem("ent-sb-replace")}catch(e){}}
-    else if(d&&d.json){const R=stClean(JSON.parse(d.json)),rt=d.t||0,lt=ST.t||0;
+    if(d&&d.json){const R=stClean(JSON.parse(d.json)),rt=d.t||0,lt=ST.t||0;
       const M=rt>=lt?mergeSt(R,ST):mergeSt(ST,R);M.t=Math.max(rt,lt);
       const same=JSON.stringify(M)===d.json;if(JSON.stringify(M)!==JSON.stringify(ST)){ST=M;stSnap();try{localStorage.setItem(KEY,JSON.stringify(ST))}catch(e){}changed=true}
       if(!same)await SBREF.set({json:JSON.stringify(ST),t:ST.t})}
@@ -7157,8 +7177,10 @@ function vMore(){} /* replaced by the current version further down */
 /* A backup holds the study progress plus the reading settings, recent searches and search ratings */
 const BK_EXTRA={prefs:"ent-atlas-prefs",recent:"xs_recent",feedback:"ent.searchfb"};
 function backupData(){const x={};for(const k in BK_EXTRA){try{const v=localStorage.getItem(BK_EXTRA[k]);if(v!=null)x[k]=JSON.parse(v)}catch(e){}}return Object.assign({},ST,{_extra:x})}
-function restoreBackup(d){const x=d._extra||{};d=Object.assign({},d);delete d._extra;ST=stClean(d);stSnap();
-  try{localStorage.setItem("ent-sb-replace","1")}catch(e){}save();
+/* a restore counts as a fresh change to every item it alters (save() records them), so on other devices the
+   restored progress wins over older edits, and items the backup lacks are removed there too */
+function restoreBackup(d){const x=d._extra||{};d=Object.assign({},d);delete d._extra;const mod=Object.assign({},ST.mod);
+  ST=stClean(d);ST.mod=Object.assign(mod,ST.mod);save();
   const ok={prefs:isObj,recent:v=>Array.isArray(v)&&v.every(t=>typeof t==="string"),feedback:Array.isArray};
   for(const k in BK_EXTRA)if(x[k]!=null&&ok[k](x[k])){try{localStorage.setItem(BK_EXTRA[k],JSON.stringify(x[k]))}catch(e){}}}
 document.addEventListener("click",e=>{
@@ -8715,7 +8737,9 @@ if(!window.Android&&"serviceWorker" in navigator&&(location.protocol==="https:"|
   const onWifi=()=>{const c=navigator.connection;return !!(c&&!c.saveData&&(c.type==="wifi"||c.type==="ethernet"))};
   window.offlineFill=()=>{const c=navigator.serviceWorker.controller;if(c)c.postMessage("fill")};
   /* iPhone and computers can't tell Wi-Fi from mobile data, so there the app asks once instead */
-  const askOnce=()=>{if(PREF.offlAsked||document.querySelector(".offbar"))return;const b=document.createElement("div");b.className="upbar offbar";b.setAttribute("role","group");
+  /* first ask the worker how much is left: no question when everything is already saved */
+  let askPending=false;const askOnce=()=>{if(PREF.offlAsked||askPending)return;const c=navigator.serviceWorker.controller;if(!c)return;askPending=true;c.postMessage("status")};
+  const showAsk=()=>{if(PREF.offlAsked||document.querySelector(".offbar"))return;const b=document.createElement("div");b.className="upbar offbar";b.setAttribute("role","group");
     b.innerHTML='<button class="offgo">Save all figures and PDFs for offline use (about 400 MB)?</button><button class="offno" aria-label="Not now">✕</button>';
     b.querySelector(".offgo").onclick=()=>{PREF.offlAsked=1;PREF.offl="always";savePrefs();offlineFill();b.remove();toast("Saving for offline use in the background")};
     b.querySelector(".offno").onclick=()=>{PREF.offlAsked=1;PREF.offl="manual";savePrefs();b.remove();toast("You can save them later in More → Offline")};
@@ -8727,6 +8751,7 @@ if(!window.Android&&"serviceWorker" in navigator&&(location.protocol==="https:"|
   try{if(navigator.storage&&navigator.storage.persist)navigator.storage.persisted().then(p=>{if(!p)navigator.storage.persist()})}catch(e){}
   if(navigator.connection&&navigator.connection.addEventListener)navigator.connection.addEventListener("change",fill);
   navigator.serviceWorker.addEventListener("message",ev=>{const d=ev.data;if(d&&typeof d.missing==="number"){window.OFFLINE_LEFT=d;
+    if(askPending){askPending=false;if(d.missing>0)showAsk()}
     const el=document.getElementById("offl-left");if(el)el.textContent=d.missing?d.missing+" of "+d.total+" figures, scans and PDFs not saved yet":"Everything is saved for offline use"}});
   window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").then(reg=>{fill();
     /* look for a new version on open, whenever the app comes back to the foreground, and every 20 minutes */
