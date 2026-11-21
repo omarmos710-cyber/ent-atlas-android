@@ -6412,16 +6412,7 @@ function figCard(k,set,cls){return `<button class="fig ${cls||""}" data-fig="${k
 function figsHTML(keys){keys=keys.filter(k=>FIG[k]);return keys.length?`<div class="figs">${keys.map(k=>figCard(k,keys)).join("")}</div>`:""}
 let LB=null;
 function openFig(k,set){LB={set:set&&set.length?set:[k],i:Math.max(0,(set||[k]).indexOf(k)),zoom:false};drawLB()}
-function drawLB(){let el=$("#lb");if(!LB){if(el)el.remove();document.body.style.overflow="";return}
-  if(!el){el=document.createElement("div");el.id="lb";el.className="lb";el.setAttribute("role","dialog");el.setAttribute("aria-modal","true");document.body.appendChild(el)}
-  document.body.style.overflow="hidden";const k=LB.set[LB.i],n=LB.set.length,r=RMAP[FIG[k][3]];
-  el.innerHTML=`<div class="lbbar"><span class="counter">${LB.i+1} / ${n}</span><span class="sp"></span>
-   <button class="iconbtn" data-star="fig:${k}" aria-pressed="${!!ST.stars["fig:"+k]}">${ST.stars["fig:"+k]?"Saved":"Save"}</button>
-   <button class="iconbtn" data-lb="zoom">${LB.zoom?"Fit":"Zoom"}</button><button class="iconbtn" data-lb="close" aria-label="Close">Close</button></div>
-   <div class="lbimg ${LB.zoom?"zoom":""}" data-lb="zoom"><img src="${figSrc(k)}" alt="${esc(FIG[k][0])}"></div>
-   <div class="lbcap"><b>${esc(FIG[k][0])}</b><small>${figCite(k)}${r?` · ${esc(r.name)}`:""}</small>
-   ${n>1?`<span class="lbnav"><button class="btn" data-lb="prev" ${LB.i?"":"disabled"}>Previous</button><button class="btn" data-lb="next" ${LB.i<n-1?"":"disabled"}>Next</button></span>`:""}</div>`;
-  const c=el.querySelector('[data-lb="close"]');if(c)c.focus({preventScroll:true})}
+function drawLB(){} /* the version in use is defined further down */
 document.addEventListener("click",e=>{
   const f=e.target.closest("[data-fig]");if(f){openFig(f.dataset.fig,setOf(f.dataset.set));return}
   const b=e.target.closest("[data-lb]");if(!b||!LB)return;const a=b.dataset.lb;
@@ -6452,7 +6443,7 @@ function regionRow(r){const st=regionStats(r);
   <span class="pill ${st.pct?"live":""}">${st.pct}%</span></button>`}
 function groupedRegions(){return GROUPS.map(([g,ids])=>`<div class="group"><h3 class="eyebrow">${esc(g)}</h3><div class="regions">${ids.map(id=>RMAP[id]&&regionRow(RMAP[id])).join("")}</div></div>`).join("")}
 function vHome(){} /* replaced by the current version further down */
-function vAtlas(){V().innerHTML=`<div class="hero"><span class="eyebrow">Atlas</span><h1>Regions</h1><p class="lede">Each region has high-yield notes, clinical pearls, the matching handout figures, room for your own notes, and its own cards and quiz.</p></div>${groupedRegions()}`}
+function vAtlas(){} /* the version in use is defined further down */
 
 function secHTML(s){
   const kind=s.x==="In theatre"?"theatre":s.x==="On imaging"?"imaging":"";const disc=DISC.filter(d=>d.r===s.r&&d.t===s.t);
@@ -6474,38 +6465,13 @@ function diagramMuscles(){
   <g transform="translate(230,0)">${fold(false)}<text x="100" y="200" text-anchor="middle" font-size="13" fill="var(--muted)" font-family="Manrope,sans-serif">Adducted · LCA, IA, TA</text></g>
   <text x="110" y="12" text-anchor="middle" font-size="11" fill="var(--muted)" font-family="Manrope,sans-serif">ANTERIOR COMMISSURE</text>
   <text x="330" y="12" text-anchor="middle" font-size="11" fill="var(--muted)" font-family="Manrope,sans-serif">ANTERIOR COMMISSURE</text></svg></div>`}
-function vRegion(id,opt){const r=RMAP[id];if(!r)return vAtlas();
-  const st=regionStats(r),figs=regionFigs(id),i=REGIONS.indexOf(r),prev=REGIONS[i-1],next=REGIONS[i+1];
-  V().innerHTML=`<div class="hero"><span class="eyebrow">${esc(r.g||"")} · region ${r.n} of ${REGIONS.length} · ${st.read}/${st.secs} read</span><h1>${esc(r.name)}</h1><p class="lede">${esc(r.blurb)}</p></div>
-  <div class="actions"><button class="btn primary" data-deck="${r.id}" data-mode="smart">Study ${st.cards} cards</button>
-  <button class="btn" data-qregion="${r.id}">Quiz this region</button>${drillCount(r.id)?`<button class="btn" data-drill="${r.id}">Label drill (${drillCount(r.id)} figures)</button>`:""}${!APDF||APDF.has(r.id)?`<button class="btn" data-pdf="${r.id}">Download PDF summary</button>`:""}</div>
-  <nav class="jump" aria-label="Sections">${r.sections.map(s=>`<a href="#${s.id}" data-jump="${s.id}" class="${ST.read[s.id]?"done":""}">${esc(s.t)}</a>`).join("")}</nav>
-  ${figs.length?`<div class="h2row"><h2>Figures</h2><span class="eyebrow">${figs.length} from your handouts</span></div>
-  <div class="strip">${figs.map(k=>`<button class="thumb" data-fig="${k}" data-set="${fsetId(figs)}" aria-label="${esc(FIG[k][0])}"><img src="${figThumb(k)}" alt="" loading="lazy" decoding="async"></button>`).join("")}</div>`:""}
-  ${r.sections.map(secHTML).join("")}
-  ${regionTablesHTML(r.id)}
-  <nav class="pager">${prev?`<button class="btn" data-go="region:${prev.id}">← ${esc(prev.name)}</button>`:"<span></span>"}${next?`<button class="btn" data-go="region:${next.id}">${esc(next.name)} →</button>`:""}</nav>`;
-  if(opt&&opt.sec)setTimeout(()=>{const el=document.getElementById(opt.sec);if(el)el.scrollIntoView({block:"start"})},40);
-}
+function vRegion(){} /* the version in use is defined further down */
 document.addEventListener("click",e=>{const j=e.target.closest("[data-jump]");if(!j)return;e.preventDefault();const el=document.getElementById(j.dataset.jump);if(el)el.scrollIntoView({block:"start",behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"})});
 
 /* ---------------- FIGURES VIEW ---------------- */
 let FIGF="all";
 let FIGSRC="all";
-function vFigures(){
-  const inSrc=k=>FIGSRC==="all"||FIG[k][1]===FIGSRC;
-  const keys=ALLFIGS.filter(k=>(FIGF==="all"||FIG[k][3]===FIGF)&&inSrc(k));
-  const cnt=s=>ALLFIGS.filter(k=>(FIGF==="all"||FIG[k][3]===FIGF)&&(s==="all"||FIG[k][1]===s)).length;
-  V().innerHTML=`<div class="hero"><span class="eyebrow">Figures</span><h1>Image atlas</h1><p class="lede">Every figure from ENT Steps, Dr. Doss's handout, Gray's Atlas and El-Fiky's atlas, filed by region. Tap one to view it full screen, zoom, swipe through, and save it.</p></div>
-  <div class="figfilters"><div><label class="fieldlabel" for="figfilter">Region</label>
-  <select id="figfilter" class="select"><option value="all">All regions (${ALLFIGS.filter(inSrc).length})</option>${REGIONS.map(r=>`<option value="${r.id}" ${FIGF===r.id?"selected":""}>${esc(r.name)} (${ALLFIGS.filter(k=>FIG[k][3]===r.id&&inSrc(k)).length})</option>`).join("")}</select></div>
-  <div><label class="fieldlabel" for="figsrc">Source</label>
-  <select id="figsrc" class="select">${[["all","All sources"],["S","ENT Steps"],["D","Dr. Doss"],["G","Gray's Atlas"],["F","El-Fiky"]].map(([v,t])=>`<option value="${v}" ${FIGSRC===v?"selected":""}>${t} (${cnt(v)})</option>`).join("")}</select></div></div>
-  <div class="figs gallery">${keys.map(k=>figCard(k,keys)).join("")}</div>`;
-  $("#figfilter").value=FIGF;$("#figsrc").value=FIGSRC;
-  $("#figfilter").onchange=e=>{FIGF=e.target.value;vFigures()};
-  $("#figsrc").onchange=e=>{FIGSRC=e.target.value;vFigures()};
-}
+function vFigures(){} /* the version in use is defined further down */
 
 /* ---------------- FLASHCARDS ---------------- */
 let FC=null;
@@ -6579,23 +6545,7 @@ document.addEventListener("click",e=>{
 
 /* ---------------- SEARCH & SAVED ---------------- */
 let QTXT="";
-function vSearch(){V().innerHTML=`<div class="hero"><span class="eyebrow">Search</span><h1>Find any structure</h1></div>
-  <input type="search" id="q" placeholder="Try: Prussak, Keros, Delphian, chorda tympani" autocomplete="off" aria-label="Search notes, figures and cards" value="${esc(QTXT)}"><div id="results"></div>`;
-  const q=$("#q");const run=()=>{QTXT=q.value;const t=q.value.trim().toLowerCase();if(t.length<2){$("#results").innerHTML=`<p class="lede">Searches ${SECTIONS.length} note sections, ${ALLFIGS.length} figure captions and ${CARDS.length} flashcards.</p>`;return}
-   const rx=new RegExp(t.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"gi"),hl=s=>hlRaw(String(s),rx,esc);
-   const secs=SECTIONS.filter(s=>(s.t+" "+s.p.join(" ")+" "+s.k).toLowerCase().includes(t)).slice(0,40);
-   const figs=ALLFIGS.filter(k=>FIG[k][0].toLowerCase().includes(t)).slice(0,24);
-   const cards=CARDS.filter(c=>(c.q+" "+c.a).toLowerCase().includes(t)).slice(0,30);
-   const tabs=TABLES.filter(x=>(x.title+" "+x.rows.flat().join(" ")).toLowerCase().includes(t)).slice(0,10);
-   const mns=MNEM.filter(m=>(m.topic+" "+m.m+" "+m.x).toLowerCase().includes(t)).slice(0,10);
-   $("#results").innerHTML=(secs.length+cards.length+figs.length+tabs.length+mns.length)?
-    (tabs.length?`<div class="h2row"><h2>Tables</h2><span class="eyebrow">${tabs.length}</span></div>`+tabs.map(x=>`<button class="res" data-go="tables" data-sec="tb-${x.id}"><small>Table</small><br><b>${hl(x.title)}</b></button>`).join(""):"")+
-    (mns.length?`<div class="h2row"><h2>Mnemonics</h2><span class="eyebrow">${mns.length}</span></div>`+mns.map(m=>`<div class="res"><small>${esc(m.topic)}</small><br><b>${hl(m.m)}</b><br>${hl(m.x)}</div>`).join(""):"")+
-    (secs.length?`<div class="h2row"><h2>Notes</h2><span class="eyebrow">${secs.length}</span></div>`+secs.map(s=>{const hit=(s.p.find(p=>p.toLowerCase().includes(t))||s.k||s.p[0]||"").replace(/\*\*/g,"");return `<button class="res" data-go="region:${s.r}" data-sec="${s.id}"><small>${esc(RMAP[s.r].name)}</small><br><b>${hl(s.t)}</b><br>${hl(hit)}</button>`}).join(""):"")+
-    (figs.length?`<div class="h2row"><h2>Figures</h2><span class="eyebrow">${figs.length}</span></div><div class="figs">${figs.map(k=>figCard(k,figs)).join("")}</div>`:"")+
-    (cards.length?`<div class="h2row"><h2>Flashcards</h2><span class="eyebrow">${cards.length}</span></div>`+cards.map(c=>`<div class="res"><small>${esc(RMAP[c.r].name)}</small><br><b>${hl(c.q)}</b><br>${hl(c.a)}</div>`).join(""):"")
-    :`<p class="empty">No matches for “${esc(q.value)}”. Try a shorter word or a different spelling.</p>`};
-  q.addEventListener("input",run);run();setTimeout(()=>q.focus(),30)}
+function vSearch(){} /* the version in use is defined further down */
 function vSaved(){const secs=SECTIONS.filter(s=>ST.stars[s.id]),cards=CARDS.filter(c=>ST.stars[c.id]),figs=ALLFIGS.filter(k=>ST.stars["fig:"+k]);
   V().innerHTML=`<div class="hero"><span class="eyebrow">Saved</span><h1>Your starred items</h1></div>
   ${secs.length+cards.length+figs.length?
@@ -6795,7 +6745,7 @@ const DRILLKEYS=Object.keys(OCC).filter(k=>FIG[k]);
 const drillCount=id=>DRILLKEYS.filter(k=>FIG[k][3]===id).length;
 const drillDue=k=>{const s=ST.drill&&ST.drill[k];return !s||s.d<=Date.now()};
 const drillNew=k=>!(ST.drill&&ST.drill[k]);
-function studySwitch(on){return `<div class="seg studyseg" role="group" aria-label="Study mode"><button class="chip" data-go="cards" aria-pressed="${on==="cards"}">Flashcards</button><button class="chip" data-go="drill" aria-pressed="${on==="drill"}">Label drills</button></div>`}
+function studySwitch(){} /* the version in use is defined further down */
 let DR=null;
 function startDrill(r){const all=DRILLKEYS.filter(k=>r==="all"||FIG[k][3]===r);
   const due=shuffle(all.filter(k=>drillDue(k)&&!drillNew(k))),fresh=shuffle(all.filter(drillNew));
@@ -7064,12 +7014,10 @@ document.addEventListener("click",e=>{const g=e.target.closest("[data-go^='trace
 $("#side").insertAdjacentHTML("beforeend",`<button class="tab" data-go="tracer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19c4 0 3-6 7-6s3 6 7 6M4 5c4 0 3 6 7 6s3-6 7-6"/><circle cx="4" cy="5" r="1.5"/><circle cx="20" cy="19" r="1.5"/></svg>Tracer</button>`);
 
 
-const _vAtlas=vAtlas;
-vAtlas=function(){_vAtlas.apply(this,arguments);const h=$("#view .hero");if(h)h.insertAdjacentHTML("afterend",`<div class="actions"><button class="btn" data-go="tracer">Nerve &amp; vessel tracer (${TRACE.length})</button></div>`)};
-const _vRegion=vRegion;
-vRegion=function(id){_vRegion.apply(this,arguments);const r=RMAP[id];if(!r)return;const ts=TRACE.filter(t=>t.regions.includes(id)),os=ORDERS.filter(o=>o.regions.includes(id)&&!o.id.startsWith("tr-"));
-  if(!ts.length&&!os.length)return;const a=$("#view .actions");if(!a)return;
-  a.insertAdjacentHTML("afterend",`<div class="trchips">${ts.map(t=>`<button class="chip" data-go="tracer:${t.id}" style="--k:${KIND[t.kind][1]}"><i class="dot"></i>Trace: ${esc(t.name)}</button>`).join("")}${os.map(o=>`<button class="chip" data-go="order:${o.id}">Order: ${esc(o.title)}</button>`).join("")}</div>`)};
+
+
+
+
 
 /* ================= v9 LAYOUT: Today home, tabbed regions, Study hub, More ================= */
 GROUPS.forEach(([g,ids])=>ids.forEach(id=>{if(RMAP[id])RMAP[id].g=g}));
@@ -7133,9 +7081,7 @@ function ring(pct,col,size=44,label){const c=2*Math.PI*15,d=(c*Math.max(0,Math.m
 function regionCard(r){const st=regionStats(r),col=GCOL[r.g]||"var(--accent)";
   return `<button class="rcard" data-go="region:${r.id}" style="--gc:${col}"><span class="rtop"><i class="gdot"></i>${ring(st.pct,col,38)}</span><strong>${esc(r.name)}</strong><small>${st.pct}% · ${st.read}/${st.secs} read · ${st.figs} figs</small></button>`}
 let HG="all";
-function regionsBlock(){const groups=GROUPS.filter(([g])=>HG==="all"||g===HG);
-  return `<div class="gchips" role="group" aria-label="Filter regions"><button class="chip" data-hg="all" aria-pressed="${HG==="all"}">All</button>${GROUPS.map(([g])=>`<button class="chip" data-hg="${esc(g)}" aria-pressed="${HG===g}"><i class="gdot" style="--gc:${GCOL[g]}"></i>${GSHORT[g]}</button>`).join("")}</div>
-  ${groups.map(([g,ids])=>`<div class="rgroup">${HG==="all"?`<h3 class="eyebrow">${esc(g)}</h3>`:""}<div class="rgrid">${ids.filter(id=>RMAP[id]).map(id=>regionCard(RMAP[id])).join("")}</div></div>`).join("")}`}
+function regionsBlock(){} /* the version in use is defined further down */
 document.addEventListener("click",e=>{const b=e.target.closest("[data-hg]");if(!b)return;HG=b.dataset.hg;const h=$("#regionsBlock");if(h)h.innerHTML=regionsBlock()});
 
 /* ---------- HOME: Today ---------- */
@@ -7147,9 +7093,7 @@ function startToday(){const t=todayCounts();if(t.due)startDeck("all","due");else
 
 document.addEventListener("click",e=>{if(e.target.closest("[data-today]")){e.preventDefault();startToday()}});
 
-vAtlas=function(){V().innerHTML=`<div class="hero"><span class="eyebrow">Atlas</span><h1>Regions</h1><p class="lede">Notes, figures, practice and tables for each region of the head and neck.</p></div>
-  <div class="actions two"><button class="btn" data-go="tracer">${ic("tracer",18)} Nerve &amp; vessel tracer</button><button class="btn" data-go="tables">${ic("tables",18)} Tables &amp; mnemonics</button><button class="btn" data-go="figures">${ic("figures",18)} Figure gallery</button><button class="btn" data-go="imaging">${ic("imaging",18)} Imaging</button></div>
-  <div id="regionsBlock">${regionsBlock()}</div>`};
+
 
 /* ---------- REGION: tabs ---------- */
 let RTAB="notes",RTABREG=null,RFSRC="all";
@@ -7684,11 +7628,8 @@ vRegion=function(id,opt){_vRegion7.apply(this,arguments);if(RTAB!=="notes")retur
   document.querySelectorAll(".rbody .sec").forEach(el=>{const s=SECTIONS.find(x=>x.id===el.id);if(!s)return;const h=imgStrip(s);if(!h)return;const f=el.querySelector(".secfoot");if(f)f.insertAdjacentHTML("beforebegin",h);else el.insertAdjacentHTML("beforeend",h)})};
 
 /* ---------- search: add imaging conditions ---------- */
-const _vSearch7=vSearch;
-vSearch=function(){_vSearch7.apply(this,arguments);const q=$("#q");if(!q)return;const add=()=>{const t=q.value.trim().toLowerCase();const old=$("#imgres");if(old)old.remove();if(t.length<2)return;
-  const cs=CONDS.filter(c=>(c.t+" "+c.ddx+" "+c.pts.join(" ")).toLowerCase().includes(t)).slice(0,12);if(!cs.length)return;
-  const res=$("#results");const e=res.querySelector(".empty");if(e)e.remove();res.insertAdjacentHTML("afterbegin",`<div id="imgres"><div class="h2row"><h2>On imaging</h2><span class="eyebrow">${cs.length}</span></div><div class="cgrid">${cs.map(condCard).join("")}</div></div>`)};
-  q.addEventListener("input",add);add()};
+
+
 
 /* ---------- face map quiz (trigeminal and C2-C3 skin territories) ---------- */
 const FZ=[
@@ -8058,7 +7999,6 @@ vStudy=function(){_vStudy10.apply(this,arguments);const v=V(),tiles=v.querySelec
     return `<button class="tcell" data-go="${go}"${b.dataset.rectab?` data-rectab="${b.dataset.rectab}"`:""}><span class="lico">${n?`<b>${n.textContent}</b>`:(icon?icon.outerHTML:"")}</span><b>${title}</b><small>${sub}</small></button>`});
   tiles.outerHTML=`<div class="tgrid">${cells.join("")}</div>`;
   const h=v.querySelector(".hero h1");if(h)h.textContent="Study";
-  v.querySelectorAll(".hero ~ *:not(.hero)").forEach(()=>{});
   const wrap=document.createElement("div");wrap.className="tbody";[...v.children].filter(c=>!c.classList.contains("hero")).forEach(c=>wrap.appendChild(c));v.appendChild(wrap)};
 EXTRA.study=vStudy;
 
@@ -8720,8 +8660,8 @@ function vOps(arg){const o=arg&&OMAPX[arg];
    <div class="actions">${o.r.map(r=>`<button class="btn" data-go="region:${r}">${esc((RMAP[r]||{}).name||r)} notes</button>`).join("")}</div>`;
   linkTerms(V(),o.r[0])}
 EXTRA.ops=()=>go("th:home");TABOF.ops="atlas";
-/* Atlas: add the Operations tile */
-const _vA=vAtlas;vAtlas=function(){_vA.apply(this,arguments);const g=null;if(g&&!g.querySelector('[data-go="ops"]'))g.insertAdjacentHTML("beforeend",`<button class="tcell" data-go="th:home"><span class="lico">${ic("ops",18)}</span><b>Theatre</b><small>209 operations: step by step</small></button>`)};
+
+
 })();
 /* ================= v17.8 SEARCH: compact results by path, expand in place ================= */
 (function(){
