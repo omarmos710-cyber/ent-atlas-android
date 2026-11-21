@@ -178,7 +178,10 @@ function search(q){if(!IX)return null;const vs=variants(q);const all=new Map();f
 
 /* ---------- rendering ---------- */
 const E=s=>esc(String(s==null?"":s));
-function hl(text,words){let t=E(strip(text));if(!words.length)return t;const re=new RegExp("\\b("+words.map(w=>w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")).join("|")+")[a-z]*","gi");return t.replace(re,m=>`<mark>${m}</mark>`)}
+/* mark the matches in the plain text first, then make each piece safe for display, so a search for "amp" or "quot"
+   never lands inside an escaped "&amp;" or "&quot;" */
+function hlRaw(raw,re,esc){let out="",last=0;raw.replace(re,(m,...a)=>{const i=a[a.length-2];out+=esc(raw.slice(last,i))+"<mark>"+esc(m)+"</mark>";last=i+m.length;return m});return out+esc(raw.slice(last))}
+function hl(text,words){const raw=strip(text);if(!words.length)return E(raw);const re=new RegExp("\\b("+words.map(w=>w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")).join("|")+")[a-z]*","gi");return hlRaw(raw,re,E)}
 function snippet(it,words){if(!it.b)return "";const src=strip(it.b);if(!words.length)return src.slice(0,140);const lw=src.toLowerCase();let best=-1;for(const w of words){const i=lw.search(new RegExp("\\b"+w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")));if(i>=0&&(best<0||i<best))best=i}
  if(best<0)return src.slice(0,140)+(src.length>140?"…":"");let s=Math.max(0,src.lastIndexOf(" ",Math.max(0,best-50)));const e=Math.min(src.length,s+170);return (s>0?"…":"")+src.slice(s,e).trim()+(e<src.length?"…":"")}
 const thumb=it=>it.th?(it.th.src?`<img class="xth" src="${it.th.src}" alt="" loading="lazy" decoding="async">`:it.th.fig?(typeof FIG!=="undefined"&&FIG[it.th.fig]?`<img class="xth" src="${figThumb(it.th.fig)}" alt="" loading="lazy" decoding="async">`:""):(typeof imSrc==="function"?`<img class="xth" src="${imSrc(it.th.im)}" alt="" loading="lazy" decoding="async">`:"")):"";

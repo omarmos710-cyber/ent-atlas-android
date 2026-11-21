@@ -6153,6 +6153,8 @@ const ALLFIGS=Object.keys(FIG);
 /* ---------------- STATE & SYNC ---------------- */
 const KEY="ent-atlas-v1";
 let S0={cards:{},read:{},stars:{},notes:{},quiz:[],days:[],t:0};
+/* mark matches in plain text, then make each piece safe for display (a search for "amp" never lands inside "&amp;") */
+function hlRaw(raw,re,esc){let out="",last=0;raw.replace(re,(m,...a)=>{const i=a[a.length-2];out+=esc(raw.slice(last,i))+"<mark>"+esc(m)+"</mark>";last=i+m.length;return m});return out+esc(raw.slice(last))}
 /*SYNC-CORE-BEGIN  (tested by tools/test_sync.js — keep this block free of DOM and network code) */
 /* progress read from a backup file, the cloud or storage is checked field by field, so a damaged copy
    cannot break the app: a field of the wrong type falls back to its empty default */
@@ -6580,7 +6582,7 @@ let QTXT="";
 function vSearch(){V().innerHTML=`<div class="hero"><span class="eyebrow">Search</span><h1>Find any structure</h1></div>
   <input type="search" id="q" placeholder="Try: Prussak, Keros, Delphian, chorda tympani" autocomplete="off" aria-label="Search notes, figures and cards" value="${esc(QTXT)}"><div id="results"></div>`;
   const q=$("#q");const run=()=>{QTXT=q.value;const t=q.value.trim().toLowerCase();if(t.length<2){$("#results").innerHTML=`<p class="lede">Searches ${SECTIONS.length} note sections, ${ALLFIGS.length} figure captions and ${CARDS.length} flashcards.</p>`;return}
-   const rx=new RegExp(t.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"gi"),hl=s=>esc(s).replace(rx,m=>`<mark>${m}</mark>`);
+   const rx=new RegExp(t.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"gi"),hl=s=>hlRaw(String(s),rx,esc);
    const secs=SECTIONS.filter(s=>(s.t+" "+s.p.join(" ")+" "+s.k).toLowerCase().includes(t)).slice(0,40);
    const figs=ALLFIGS.filter(k=>FIG[k][0].toLowerCase().includes(t)).slice(0,24);
    const cards=CARDS.filter(c=>(c.q+" "+c.a).toLowerCase().includes(t)).slice(0,30);
@@ -8744,7 +8746,7 @@ function find(t){const has=x=>String(x||"").toLowerCase().includes(t);const out=
   if(cs.length)out.push({id:"conds",name:"Imaging & conditions",rows:cs.map(c=>({path:"Condition · "+c.cat,title:c.t,body:"cond",c}))});
   return out}
 let LAST=[],RX=null;
-const hl=s=>esc(strip(s)).replace(RX,m=>`<mark>${m}</mark>`);
+const hl=s=>hlRaw(strip(s),RX,esc);
 function bodyHTML(row){
   switch(row.body){
   case "note":{const s=row.s,t=QTXT.trim().toLowerCase();const ps=s.p.filter(p=>p.toLowerCase().includes(t)).slice(0,2);if(!ps.length&&s.k)ps.push(s.k);if(!ps.length)ps.push(s.p[0]||"");
