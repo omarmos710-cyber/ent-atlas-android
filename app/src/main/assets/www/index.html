@@ -6173,46 +6173,90 @@ function stClean(d){const r=JSON.parse(JSON.stringify(S0));if(!isObj(d))return r
     if(!isObj(e)||typeof e.t!=="number"||!Array.isArray(p)||p.length<2||p.some(x=>typeof x!=="string"||BAD_KEY(x)))delete r.mod[k]}
   return r}
 
-/* Syncing two devices. Each item (a star, a read mark, a note, a flashcard, a theatre log entry, a mistake…) keeps
-   the time it last changed in ST.mod, keyed by its path (["stars","abs"]), with d:1 when the change was a deletion.
-   When two copies merge, the latest change to each item wins, whether it was an edit, an addition or a deletion.
-   Items with no record (older data) fall back to "keep everything from both, newer copy wins". */
+/* Syncing two devices. Each item (a star, a read mark, a note, a theatre log entry, a mistake…) keeps the time it
+   last changed in ST.mod, keyed by its path (["stars","abs"]), with d:1 when the change was a deletion. A flashcard
+   carries its own change time inside it (card.u), which keeps the list of records short for big decks. When two
+   copies merge, the latest change to each item wins, whether it was an edit, an addition or a deletion. Lists that
+   are sets (days studied, questions seen) are combined. Items with no record (older data) fall back to "keep
+   everything from both, the copy saved last wins". */
 const SYNC_DEPTH=k=>k==="cards"?2:3;   // a flashcard is one item; elsewhere items sit up to 3 levels deep (th.log.<op>)
-const MOD_DAYS=180,MOD_MAX=5000;
+const SYNC_SETS=['["days"]','["hub","seen"]'];   // string lists combined from both devices
+const isSetPath=p=>SYNC_SETS.includes(JSON.stringify(p));
+const MOD_DAYS=365,MOD_MAX=5000,SKEW=864e5;
 function snapOf(st){const s={};for(const k in st)if(k!=="mod"&&k!=="t")s[k]=JSON.stringify(st[k]);return s}
 /* compare progress with the snapshot taken at the last save and record what changed; returns the new snapshot */
-function syncDiff(prev,st,now){if(!isObj(st.mod))st.mod={};const next=snapOf(st);if(!prev)return next;
-  const rec=(p,del)=>{if(!p.some(BAD_KEY))st.mod[JSON.stringify(p)]={d:del?1:0,t:now}};
+function syncDiff(prev,st,now){if(!isObj(st.mod))st.mod={};let next=snapOf(st);if(!prev)return next;
+  /* a change is stamped with the time now, but never earlier than the item's last change (a device whose clock
+     was once ahead can't make later changes look older) */
+  const stamp=key=>{const e=st.mod[key];return Math.max(now,e&&e.t<=now+SKEW?e.t+1:0)};
+  const rec=(p,del)=>{if(p.some(BAD_KEY)||isSetPath(p))return;const key=JSON.stringify(p);st.mod[key]={d:del?1:0,t:stamp(key)}};
+  const cardSet=(id,c)=>{if(isObj(c)){const key=JSON.stringify(["cards",id]);c.u=Math.max(stamp(key),typeof c.u==="number"&&c.u<=now+SKEW?c.u+1:0);if(st.mod[key])delete st.mod[key]}};
+  /* an item and everything inside it: items are recorded one by one, so two devices adding to the same new
+     section keep each other's items */
+  const each=(p,v,del)=>{if(p[0]==="cards"&&p.length===2){if(del)rec(p,1);else cardSet(p[1],v);return}
+    if(isObj(v)&&p.length<SYNC_DEPTH(p[0])&&!isSetPath(p)){for(const k in v)each(p.concat(k),v[k],del);return}
+    rec(p,del)};
   const walk=(a,b,p)=>{const whole=p.length+1>=SYNC_DEPTH(p[0]);
-    for(const k in a)if(!(k in b))rec(p.concat(k),1);
-    for(const k in b){if(!(k in a)){rec(p.concat(k),0);continue}const x=a[k],y=b[k];
-      if(!whole&&isObj(x)&&isObj(y))walk(x,y,p.concat(k));else if(JSON.stringify(x)!==JSON.stringify(y))rec(p.concat(k),0)}};
+    for(const k in a)if(!(k in b))each(p.concat(k),a[k],true);
+    for(const k in b){const q=p.concat(k);if(!(k in a)){each(q,b[k],false);continue}const x=a[k],y=b[k];
+      if(isSetPath(q))continue;
+      if(!whole&&isObj(x)&&isObj(y))walk(x,y,q);
+      else if(JSON.stringify(x)!==JSON.stringify(y)){if(q[0]==="cards"&&q.length===2&&isObj(y))cardSet(k,y);else each(q,y,false)}}};
+  for(const k in prev){if(k in next||BAD_KEY(k))continue;let a;try{a=JSON.parse(prev[k])}catch(e){continue}
+    if(isObj(a))walk(a,{},[k])}      // a whole section removed (e.g. by restoring an older backup)
   for(const k in next){if(next[k]===prev[k]||prev[k]===undefined)continue;let a;try{a=JSON.parse(prev[k])}catch(e){continue}
     if(isObj(a)&&isObj(st[k]))walk(a,st[k],[k])}
+  if(st.cards&&next.cards!==JSON.stringify(st.cards))next.cards=JSON.stringify(st.cards);   // card change times were added
   pruneMod(st.mod,now);return next}
 function pruneMod(mod,now){const old=now-MOD_DAYS*864e5;for(const k in mod)if(!(mod[k].t>old))delete mod[k];
   const ks=Object.keys(mod);if(ks.length>MOD_MAX){ks.sort((x,y)=>mod[x].t-mod[y].t);for(const k of ks.slice(0,ks.length-MOD_MAX))delete mod[k]}}
+/* records the other copy may carry: a time more than a day in the future (a clock that was ahead) is replaced by
+   the time of this merge, for good, so later changes win again; records from older
+   versions of this code that point inside an item are ignored */
+function modIn(mod,now){const r={};if(!isObj(mod))return r;
+  for(const k in mod){const e=mod[k];let p;try{p=JSON.parse(k)}catch(err){continue}
+    if(!isObj(e)||typeof e.t!=="number"||!Array.isArray(p)||p.length<2||p.length>SYNC_DEPTH(p[0])||p.some(x=>typeof x!=="string"||BAD_KEY(x))||isSetPath(p))continue;
+    if(p[0]==="cards"&&!e.d)continue;   // a card's change time lives in the card
+    r[k]={d:e.d?1:0,t:e.t>now+SKEW?now:e.t}}
+  return r}
+const cardT=(c,now)=>isObj(c)&&typeof c.u==="number"?(now&&c.u>now+SKEW?now:c.u):0;
 /* merge two copies of the progress; "newer" is the copy saved more recently as a whole */
 function mergeSt(newer,older,now){newer=JSON.parse(JSON.stringify(newer));older=JSON.parse(JSON.stringify(older));now=now||Date.now();
-  const m=(a,b,top)=>{if(isObj(a)&&isObj(b)){const r=Object.assign({},a);for(const k in b){if(BAD_KEY(k))continue;r[k]=k in a?m(a[k],b[k],top):b[k]}return r}
+  const m=(a,b,p)=>{if(isObj(a)&&isObj(b)){const r=Object.assign({},a);for(const k in b){if(BAD_KEY(k))continue;r[k]=k in a?m(a[k],b[k],p.concat(k)):b[k]}return r}
     if(Array.isArray(a)&&Array.isArray(b)){
-      if(top==="days")return [...new Set(a.concat(b).filter(x=>typeof x==="string"))].sort();
+      if(isSetPath(p))return [...new Set(a.concat(b).filter(x=>typeof x==="string"))].sort();
       /* quiz results from two devices: keep both, once each, oldest first */
-      if(top==="quiz"){const seen=new Map();for(const q of a.concat(b))if(isObj(q))seen.set(q.t+"|"+q.r+"|"+q.s+"|"+q.n,q);return [...seen.values()].sort((x,y)=>x.t-y.t).slice(-300)}}
+      if(p.length===1&&p[0]==="quiz"){const seen=new Map();for(const q of a.concat(b))if(isObj(q))seen.set(q.t+"|"+q.r+"|"+q.s+"|"+q.n,q);return [...seen.values()].sort((x,y)=>x.t-y.t).slice(-300)}}
     return a};
   const M={};for(const k of new Set(Object.keys(newer).concat(Object.keys(older)))){if(BAD_KEY(k)||k==="mod")continue;
-    M[k]=k in newer?(k in older?m(newer[k],older[k],k):newer[k]):older[k]}
-  const A=isObj(newer.mod)?newer.mod:{},B=isObj(older.mod)?older.mod:{},mod={},from={};
+    M[k]=k in newer?(k in older?m(newer[k],older[k],[k]):newer[k]):older[k]}
+  /* flashcards: the later review of each card wins (cards without a time: the copy saved last) */
+  if(isObj(newer.cards)&&isObj(older.cards)){M.cards={};for(const id of new Set(Object.keys(newer.cards).concat(Object.keys(older.cards)))){if(BAD_KEY(id))continue;
+    const x=newer.cards[id],y=older.cards[id];M.cards[id]=JSON.parse(JSON.stringify(y!==undefined&&(x===undefined||cardT(y,now)>cardT(x,now))?y:x))}}
+  const A=modIn(newer.mod,now),B=modIn(older.mod,now),mod={},from={};
   for(const k of new Set(Object.keys(A).concat(Object.keys(B)))){const x=A[k],y=B[k];
     if(x&&(!y||x.t>=y.t)){mod[k]=x;from[k]=newer}else if(y){mod[k]=y;from[k]=older}}
   const at=(o,p)=>{for(const k of p){if(!isObj(o))return undefined;o=o[k]}return o};
-  const paths=Object.keys(mod).map(k=>{try{return [k,JSON.parse(k)]}catch(e){return null}})
-    .filter(x=>x&&Array.isArray(x[1])&&x[1].length>1&&!x[1].some(BAD_KEY)).sort((x,y)=>x[1].length-y[1].length);
+  const paths=Object.keys(mod).map(k=>[k,JSON.parse(k)]).sort((x,y)=>x[1].length-y[1].length);
   for(const [k,p] of paths){const last=p[p.length-1];
-    if(mod[k].d){const parent=at(M,p.slice(0,-1));if(isObj(parent))delete parent[last];continue}
+    if(mod[k].d){const parent=at(M,p.slice(0,-1));
+      if(isObj(parent)&&!(p[0]==="cards"&&cardT(parent[last],now)>mod[k].t))delete parent[last];continue}   // a card reviewed after its deletion stays
     const v=at(from[k],p);if(v===undefined)continue;
     let o=M;for(const x of p.slice(0,-1)){if(!isObj(o[x]))o[x]={};o=o[x]}o[last]=JSON.parse(JSON.stringify(v))}
   pruneMod(mod,now);M.mod=mod;return M}
+/* bring this device and the cloud copy together: merge, then decide whether the cloud needs the result */
+function syncWith(local,cloud,now){if(!cloud||!cloud.json)return {st:local,upload:true};
+  let R;try{R=stClean(JSON.parse(cloud.json))}catch(e){return {st:local,upload:true}}
+  const rt=cloud.t||0,lt=local.t||0;const M=rt>=lt?mergeSt(R,local,now):mergeSt(local,R,now);M.t=Math.max(rt,lt);
+  return {st:M,upload:JSON.stringify(M)!==cloud.json}}
+/* one sync: read the cloud copy, merge, and write back only if nobody else wrote in between (else read again).
+   io: row() → {data,updated_at}|null, write(data, updated_at|null) → true, or false when someone else wrote first,
+       local() → this device's progress, apply(merged, before) → keep the result on this device */
+async function syncCycle(io,now){for(let tries=0;tries<4;tries++){const row=await io.row(),before=JSON.stringify(io.local());
+    const r=syncWith(JSON.parse(before),row&&row.data,now());
+    if(r.upload&&!(await io.write({json:JSON.stringify(r.st),t:r.st.t||now()},row?row.updated_at:null)))continue;
+    return io.apply(r.st,before)}
+  throw Object.assign(new Error("busy"),{code:"busy"})}
 /*SYNC-CORE-END*/
 let ST=stClean(null);
 try{const j=localStorage.getItem(KEY);if(j)ST=stClean(JSON.parse(j))}catch(e){}
@@ -6221,16 +6265,21 @@ let DBREF=null,pushT=null,pushing=false,pushAgain=false,syncState="local";
 let STPREV=null;const stSnap=()=>{STPREV=snapOf(ST)};
 stSnap();
 function trackChanges(){STPREV=syncDiff(STPREV,ST,Date.now())}
-function save(){trackChanges();ST.t=Date.now();try{localStorage.setItem(KEY,JSON.stringify(ST))}catch(e){}if(DBREF){clearTimeout(pushT);pushT=setTimeout(push,1500)}}
-async function push(){if(!DBREF)return;if(pushing){pushAgain=true;return}pushing=true;
-  try{await DBREF.set({json:JSON.stringify(ST),t:ST.t});syncState="synced"}catch(e){syncState="error"}
+/* Saving is instant and local; the account copy is updated a little later (20 s after the last change, or at once
+   when the app goes to the background), so a burst of taps is one upload. The study-minutes tick saves quietly
+   (it reaches the account with the next upload). */
+function save(opt){trackChanges();ST.t=Date.now();try{localStorage.setItem(KEY,JSON.stringify(ST))}catch(e){}
+  if(DBREF&&!(opt&&opt.quiet)){clearTimeout(pushT);pushT=setTimeout(push,20000)}}
+async function push(){if(!DBREF)return;clearTimeout(pushT);if(pushing){pushAgain=true;return}pushing=true;
+  try{if(DBREF===SBREF)await sbSync(true);else{await DBREF.set({json:JSON.stringify(ST),t:ST.t});syncState="synced"}}catch(e){syncState="error"}
   pushing=false;updateSync();if(pushAgain){pushAgain=false;push()}}
+document.addEventListener("visibilitychange",()=>{if(document.hidden&&DBREF&&pushT)push()});
 function updateSync(){const el=$("#sync");if(el)el.textContent=syncState==="synced"?(typeof SBS!=="undefined"&&SBS?"Progress saved to your account"+(SBLAST?" · synced "+new Date(SBLAST).toLocaleTimeString([],{hour:"2-digit",minute:"2-digit"}):""):"Progress saved to your account"):syncState==="error"?"Couldn't reach your account. Progress is kept on this device and will sync when you reopen the app.":"Progress is saved on this device"}
 (async()=>{try{if(!window.claude||!window.claude.use)return;const [db,user]=await Promise.all([window.claude.use("db"),window.claude.use("user")]);
   if(!db||!user)return;const id=await user.id();if(!id)return;
   const ref=db.collection("data/users/"+id).doc("progress");const snap=await ref.get();const d=snap&&snap.data?snap.data():null;
   DBREF=ref;syncState="synced";
-  if(d&&d.json&&(d.t||0)>(ST.t||0)){ST=stClean(JSON.parse(d.json));try{localStorage.setItem(KEY,JSON.stringify(ST))}catch(e){}
+  if(d&&d.json&&(d.t||0)>(ST.t||0)){ST=stClean(JSON.parse(d.json));stSnap();try{localStorage.setItem(KEY,JSON.stringify(ST))}catch(e){}
     const base=cur.split(":")[0];if(["home","atlas","region","saved"].includes(base))go(cur,{keep:true})}
   else if(ST.t&&(!d||(ST.t||0)>(d.t||0)))push();
   updateSync()}catch(e){}})();
@@ -6251,20 +6300,26 @@ async function sbToken(){if(!SBS)return null;if(Date.now()<SBS.exp-60000)return 
     .catch(e=>{if(e.status===400||e.status===401){SBS=null;sbSave();DBREF=null;syncState="local";updateSync()}return null}).finally(()=>{sbRefreshing=null});
   return sbRefreshing}
 /* merge two progress states without losing anything: the newer wins a conflict, the older fills what the newer lacks */
-const SBREF={async get(){const r=await sbFetch("/rest/v1/progress?select=data,updated_at&user_id=eq."+SBS.uid,{auth:true});return r&&r[0]?r[0].data:null},
-  async set(v){await sbFetch("/rest/v1/progress?on_conflict=user_id",{method:"POST",auth:true,headers:{"Prefer":"resolution=merge-duplicates,return=minimal"},body:{user_id:SBS.uid,data:v,updated_at:new Date().toISOString()}})}};
+const SBREF={async row(){const r=await sbFetch("/rest/v1/progress?select=data,updated_at&user_id=eq."+SBS.uid,{auth:true});return r&&r[0]?r[0]:null},
+  /* write only if the row is still the one we read (another device may have written meanwhile) */
+  async write(v,prevAt){const body={user_id:SBS.uid,data:v,updated_at:new Date().toISOString()};
+    if(prevAt==null){try{await sbFetch("/rest/v1/progress",{method:"POST",auth:true,headers:{"Prefer":"return=minimal"},body});return true}
+      catch(e){if(e.status===409)return false;throw e}}
+    const r=await sbFetch("/rest/v1/progress?user_id=eq."+SBS.uid+"&updated_at=eq."+encodeURIComponent(prevAt)+"&select=updated_at",
+      {method:"PATCH",auth:true,headers:{"Prefer":"return=representation"},body:{data:v,updated_at:body.updated_at}});
+    return Array.isArray(r)&&r.length>0}};
 let sbPulling=false;
-async function sbSync(){if(!SBS||sbPulling)return;sbPulling=true;
-  try{const d=await SBREF.get();DBREF=SBREF;let changed=false;
-    if(d&&d.json){const R=stClean(JSON.parse(d.json)),rt=d.t||0,lt=ST.t||0;
-      const M=rt>=lt?mergeSt(R,ST):mergeSt(ST,R);M.t=Math.max(rt,lt);
-      const same=JSON.stringify(M)===d.json;if(JSON.stringify(M)!==JSON.stringify(ST)){ST=M;stSnap();try{localStorage.setItem(KEY,JSON.stringify(ST))}catch(e){}changed=true}
-      if(!same)await SBREF.set({json:JSON.stringify(ST),t:ST.t})}
-    else await SBREF.set({json:JSON.stringify(ST),t:ST.t||Date.now()});
+let sbAgain=false;
+async function sbSync(fromPush){if(!SBS)return;if(sbPulling){if(fromPush)sbAgain=true;return}sbPulling=true;let changed=false;
+  try{DBREF=SBREF;
+    await syncCycle({row:()=>SBREF.row(),write:(v,at)=>SBREF.write(v,at),local:()=>ST,
+      /* keep the merged copy; if progress changed on this device while the cloud was being read, merge again */
+      apply:(M,before)=>{const now=JSON.stringify(ST);const next=now===before?M:mergeSt(ST,M);if(now!==before)next.t=Math.max(ST.t||0,M.t||0);
+        changed=JSON.stringify(next)!==now;if(changed){ST=next;stSnap();try{localStorage.setItem(KEY,JSON.stringify(ST))}catch(e){}}}},()=>Date.now());
     syncState="synced";SBLAST=Date.now();
-    if(changed){const base=cur.split(":")[0];if(base!=="cl"&&base!=="th"||cur==="cl:home")go(cur,{keep:true})}}
+    if(changed&&!fromPush){const base=cur.split(":")[0];if(base!=="cl"&&base!=="th"||cur==="cl:home")go(cur,{keep:true})}}
   catch(e){syncState=e.code==="auth"?"local":"error"}
-  sbPulling=false;updateSync()}
+  sbPulling=false;updateSync();if(sbAgain){sbAgain=false;setTimeout(()=>sbSync(true),0)}}
 let SBLAST=0;
 /* signing in from the emailed link: the page opens with #access_token=…&refresh_token=… */
 let SBLINK=null;{const h=(location.hash||"").slice(1);if(/(^|&)(access_token|error_description)=/.test(h)){const q=new URLSearchParams(h);
@@ -7068,7 +7123,7 @@ applyPrefs();
 /* ---------- study time (minutes per day) ---------- */
 let lastAct=Date.now();["pointerdown","keydown","scroll","touchstart"].forEach(t=>window.addEventListener(t,()=>lastAct=Date.now(),{passive:true}));
 setInterval(()=>{if(document.hidden||Date.now()-lastAct>120000)return;ST.mins=ST.mins||{};const d=today();ST.mins[d]=(ST.mins[d]||0)+1;
-  const ks=Object.keys(ST.mins).sort();if(ks.length>60)ks.slice(0,ks.length-60).forEach(k=>delete ST.mins[k]);save()},60000);
+  const ks=Object.keys(ST.mins).sort();if(ks.length>60)ks.slice(0,ks.length-60).forEach(k=>delete ST.mins[k]);save({quiet:true})},60000);
 
 /* ---------- shared bits ---------- */
 function ring(pct,col,size=44,label){const c=2*Math.PI*15,d=(c*Math.max(0,Math.min(100,pct))/100).toFixed(1);
@@ -7180,7 +7235,7 @@ function backupData(){const x={};for(const k in BK_EXTRA){try{const v=localStora
 /* a restore counts as a fresh change to every item it alters (save() records them), so on other devices the
    restored progress wins over older edits, and items the backup lacks are removed there too */
 function restoreBackup(d){const x=d._extra||{};d=Object.assign({},d);delete d._extra;const mod=Object.assign({},ST.mod);
-  ST=stClean(d);ST.mod=Object.assign(mod,ST.mod);save();
+  ST=stClean(d);for(const k in ST.mod)if(!mod[k]||ST.mod[k].t>mod[k].t)mod[k]=ST.mod[k];ST.mod=mod;save();
   const ok={prefs:isObj,recent:v=>Array.isArray(v)&&v.every(t=>typeof t==="string"),feedback:Array.isArray};
   for(const k in BK_EXTRA)if(x[k]!=null&&ok[k](x[k])){try{localStorage.setItem(BK_EXTRA[k],JSON.stringify(x[k]))}catch(e){}}}
 document.addEventListener("click",e=>{
