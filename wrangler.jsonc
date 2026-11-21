@@ -4,5 +4,7 @@
   "compatibility_date": "2025-09-01",
   "workers_dev": true,
   "preview_urls": false,
-  "assets": { "directory": "./dist" }
+  "assets": { "directory": "./dist" },
+  // the website is deployed only if the sync tests pass (a failing test stops the deploy)
+  "build": { "command": "node tools/test_sync.js" }
 }
