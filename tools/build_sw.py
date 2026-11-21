@@ -37,15 +37,17 @@ def fp(path):
 
 
 def is_media(p):
-    return p.lower().endswith(MEDIA_EXT) or p.startswith('im/')
+    # the smart-search reranker (34 MB) only polishes the order of an answer that search already shows, so it is
+    # saved with the media, first in line, instead of delaying the first install
+    return p.lower().endswith(MEDIA_EXT) or p.startswith('im/') or p.startswith('search/rr/')
 
 
 def media_rank(p):
     """Background order: what is opened most, and is smallest, first."""
-    for k, pre in enumerate(('fig2/t/', 'theatre/basics/img/', 'clinic/fig/', 'fig2/m/', 'fig2/', 'im/', 'icons/', 'pdf/')):
+    for k, pre in enumerate(('search/rr/', 'fig2/t/', 'theatre/basics/img/', 'clinic/fig/', 'fig2/m/', 'fig2/', 'im/', 'icons/', 'pdf/')):
         if p.startswith(pre):
             return k
-    return 9
+    return 10
 
 
 def files():

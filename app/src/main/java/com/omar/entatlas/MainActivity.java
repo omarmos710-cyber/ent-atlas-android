@@ -223,7 +223,17 @@ public class MainActivity extends Activity {
         return dir;
     }
 
-    private File keptPdf(String id) {
+    /** True on mobile data (or any network that may cost money); saved PDFs are refreshed only off it. */
+    private boolean onMeteredNetwork() {
+        try {
+            android.net.ConnectivityManager cm = (android.net.ConnectivityManager) getSystemService(CONNECTIVITY_SERVICE);
+            return cm == null || cm.isActiveNetworkMetered();
+        } catch (Exception e) {
+            return true;
+        }
+    }
+
+        private File keptPdf(String id) {
         return new File(pdfDir(), id + ".pdf");
     }
 
@@ -321,7 +331,7 @@ public class MainActivity extends Activity {
                     File kept = keptPdf(id);
                     if (kept.exists()) {
                         showPdf(kept, name);   // open the saved copy straight away
-                        fetchPdf(id);          // and check for a newer one for next time
+                        if (!onMeteredNetwork()) fetchPdf(id);   // and, on Wi-Fi, check for a newer one for next time
                         return;
                     }
                     if (fetchPdf(id) == null) {
