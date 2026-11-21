@@ -4,3 +4,10 @@
   Cache-Control: no-cache
 /
   Cache-Control: no-cache
+# Security for every page: only this site's own files may run or load (plus the account service), the app
+# can't be shown inside other sites, and the browser won't guess file types.
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https://mpicxskfcchmceiposiw.supabase.co; worker-src 'self' blob:; frame-src 'self' blob:; media-src 'self' data: blob:; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
