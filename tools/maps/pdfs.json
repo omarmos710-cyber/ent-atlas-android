@@ -1,0 +1,146 @@
+{
+ "ear-balance": {
+  "all_pages": 117,
+  "arts": "703db129c4a74b4d94f806712c5427e2",
+  "map_pages": 1,
+  "src": "c7da25f3ef3259908c1052f6cc3d9c59"
+ },
+ "ear-canal": {
+  "all_pages": 75,
+  "arts": "592fa1d59a462be35abaa4a4eb6615fd",
+  "map_pages": 1,
+  "src": "36e0f9c2802f031c97cfd9784402aa02"
+ },
+ "ear-clinic": {
+  "all_pages": 56,
+  "arts": "0f27725d384bd594ef28104a53bd7b6f",
+  "map_pages": 1,
+  "src": "9946825c1bccb7049b38770760966ce3"
+ },
+ "ear-drum-facial": {
+  "all_pages": 117,
+  "arts": "6b1dadc67cf6f45fde1e5a9074430fe5",
+  "map_pages": 1,
+  "src": "c5f87b71d5d35c704f7951b72b6aa46e"
+ },
+ "ear-hearing": {
+  "all_pages": 156,
+  "arts": "96ad3bbff40e4189774d0ee3e1b2a84c",
+  "map_pages": 1,
+  "src": "d5c08d0ca595856fa600865d4f64a987"
+ },
+ "ear-infection": {
+  "all_pages": 160,
+  "arts": "37adff08e67d3cb8b21c21915a4dd903",
+  "map_pages": 1,
+  "src": "3e5d6579cd302b8ec1713548b0f0f2ac"
+ },
+ "ear-pinna": {
+  "all_pages": 51,
+  "arts": "c3e26fd7d6fc799b68c3c2f1a0e59fdb",
+  "map_pages": 1,
+  "src": "0b2d5aac1f7dcf12b2c738f10f02e121"
+ },
+ "hn-cancer": {
+  "all_pages": 83,
+  "arts": "ea5cd6c811db662846259e076f9d9b98",
+  "map_pages": 1,
+  "src": "e0d32d3d6ba2cc7bba9da61a6db94c78"
+ },
+ "hn-sites": {
+  "all_pages": 141,
+  "arts": "d4d4abe1c94b6f215df50470fdd26710",
+  "map_pages": 1,
+  "src": "f76edb1712fb17f63811b4c3b7d1a10c"
+ },
+ "larynx-airway": {
+  "all_pages": 93,
+  "arts": "3524ddb1a79eabb67a83f60e028cef8f",
+  "map_pages": 1,
+  "src": "e47ec649411d895ccfd17e4c5b16f176"
+ },
+ "larynx-procedures": {
+  "all_pages": 49,
+  "arts": "c585666d08e8ec9640192226e12a0a90",
+  "map_pages": 1,
+  "src": "9e23c1b0d8d2dba57d57adc3de93b072"
+ },
+ "larynx-voice": {
+  "all_pages": 110,
+  "arts": "0c5ef2f9a26ce5348e90309b569daef3",
+  "map_pages": 1,
+  "src": "90ffea28bc1b2a295e5ffe8f8dd56060"
+ },
+ "mouth": {
+  "all_pages": 98,
+  "arts": "671a16d901314aa064914c5b67758198",
+  "map_pages": 1,
+  "src": "12a2d229d89a6d3075d9a99abe527cf8"
+ },
+ "neck-glands": {
+  "all_pages": 121,
+  "arts": "5dad84772c422eb1dd5c6fb7ff536f72",
+  "map_pages": 1,
+  "src": "1c4a51099c2fd57860283f445cf0e484"
+ },
+ "neck-lump": {
+  "all_pages": 107,
+  "arts": "04d00aeb7ecc2fd63aaa7547dd7e4743",
+  "map_pages": 1,
+  "src": "41343d0b333d82dc36a0fd03d15c2659"
+ },
+ "nose-emergency": {
+  "all_pages": 72,
+  "arts": "a3c58c76ba9cffaf5aae4340d62d6785",
+  "map_pages": 1,
+  "src": "b56513d6f7cd0f9aa2ab5aea80a07004"
+ },
+ "nose-rhinitis": {
+  "all_pages": 65,
+  "arts": "2baf55e57900571bb198f9a5790a86b8",
+  "map_pages": 1,
+  "src": "2a4d9f8a06123d6a3257d0471da37c31"
+ },
+ "nose-shape": {
+  "all_pages": 73,
+  "arts": "4479fc4f1b97d0be7cf065c54b980938",
+  "map_pages": 1,
+  "src": "5b3dbfd91978170f9199a59c6e947cfe"
+ },
+ "nose-sinus": {
+  "all_pages": 116,
+  "arts": "1ed98d8460889fbea098904fe8fb16ba",
+  "map_pages": 1,
+  "src": "858c76558f7352a55b631c279aa3ffb1"
+ },
+ "nose-skullbase": {
+  "all_pages": 66,
+  "arts": "3cadd2e00bf781cfb84843a630905a34",
+  "map_pages": 1,
+  "src": "df853144d88e6dd68da2a46589edc2c4"
+ },
+ "nose-smell": {
+  "all_pages": 65,
+  "arts": "db032e003a8606f10a4b3e5904321916",
+  "map_pages": 1,
+  "src": "6fab84688dea75b50e49f4af8ea97170"
+ },
+ "throat-pharynx": {
+  "all_pages": 58,
+  "arts": "611933baec4726b22d0f0051831dbfff",
+  "map_pages": 1,
+  "src": "a91e6ae9fc102be2fb2822e359d5c766"
+ },
+ "throat-sore": {
+  "all_pages": 97,
+  "arts": "d8a781274bafeae174e427e88c8cb3eb",
+  "map_pages": 1,
+  "src": "74abaa15d4a145c1c0215c50685b61e1"
+ },
+ "throat-swallow": {
+  "all_pages": 84,
+  "arts": "da211cfd233b16a84a5754db03eb6625",
+  "map_pages": 1,
+  "src": "fb3063f4931b0468a773c39bfd81cb73"
+ }
+}

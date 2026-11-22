@@ -30,7 +30,9 @@ VIEWER = r'''
  function close(){if(OV){OV.remove();document.body.style.overflow=""}OV=null}
  function openFor(id){const m=(window.MAPS||{})[id];if(!m)return;const t=(window.MAPLIST||[]).find(x=>x.id===m);frame("clinic/map/"+m+".html#"+id,t?t.title+" · mind map":"Mind map")}
  window.MAPVIEW={index(){frame("clinic/map/all.html","Mind maps")},open(m,t){frame("clinic/map/"+m+".html",t)},
-  article(id){close();if(typeof go==="function")go("cl:t-"+id)},board(id,title){close();if(window.openBoard)window.openBoard(id,title)},close};
+  article(id){close();if(typeof go==="function")go("cl:t-"+id)},board(id,title){close();if(window.openBoard)window.openBoard(id,title)},close,
+  /* PDF downloads go through the app's own [data-pdf] handler (Android keeps a copy; the web saves the file) */
+  pdf(id,name){const b=document.createElement("button");b.hidden=true;b.dataset.pdf=id;b.dataset.pdfname=name;document.body.appendChild(b);b.click();setTimeout(()=>b.remove(),0)}};
  window.openMapFor=openFor;
  document.addEventListener("click",ev=>{const b=ev.target.closest("[data-armap],[data-mapidx],[data-mm]");if(!b)return;
   if(b.dataset.armap){ev.preventDefault();ev.stopPropagation();openFor(b.dataset.armap)}
@@ -76,6 +78,56 @@ a i{font-style:normal;display:inline-block;width:9px;height:9px;border-radius:50
 </style></head><body><h1>Mind maps</h1><p class="lead">Related topics on one map · tap a map, then a topic · ✎ Recall hides the facts so you can test yourself</p>
 {BODY}</body></html>'''
 
+PDFMAN = os.path.join(ENG, 'pdfs.json')
+
+
+def src_hash(mid):
+    """What the map PDF is drawn from: the map's JSON and the drawing engine (not the page around it)."""
+    import hashlib
+    h = hashlib.md5()
+    for f in (os.path.join(SRC, mid + '.json'), os.path.join(ENG, 'map.js'), os.path.join(ENG, 'map.css')):
+        h.update(open(f, 'rb').read())
+    return h.hexdigest()
+
+
+def arts_hash(arts):
+    """What the merged PDF is made of: each topic's article PDF, in map order."""
+    import hashlib
+    h = hashlib.md5()
+    for a in arts:
+        f = os.path.join(WWW, 'pdf', 'cl_%s.pdf' % a)
+        h.update(a.encode() + (open(f, 'rb').read() if os.path.exists(f) else b'-'))
+    return h.hexdigest()
+
+
+def pdf_info(m):
+    """The map's two PDFs (tools/make_map_pdfs.py), offered only when both exist and match the current map."""
+    try:
+        e = json.load(open(PDFMAN, encoding='utf-8')).get(m['id'])
+    except Exception:
+        return None
+    if not e or e.get('src') != src_hash(m['id']) or e.get('arts') != arts_hash([b['id'] for b in m['branches']]):
+        return None
+    out = {}
+    for k, pre in (('map', 'mm_'), ('all', 'mmall_')):
+        f = os.path.join(WWW, 'pdf', pre + m['id'] + '.pdf')
+        if not os.path.exists(f):
+            return None
+        out[k] = {'id': pre + m['id'], 'b': os.path.getsize(f), 'p': e.get(k + '_pages', 1)}
+    return out
+
+
+def page_html(tpl, m):
+    d = dict(m)
+    p = pdf_info(m)
+    if p:
+        d['pdf'] = p
+    return (tpl.replace('{TITLE}', html.escape(m['title'] + ' · mind map'))
+               .replace('{H1}', html.escape(m['title']))
+               .replace('{SUB}', html.escape('Mind map · %s · %d topics' % (dict(SECS)[m['sec']], len(m['branches']))))
+               .replace('{DATA}', json.dumps(d, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')))
+
+
 PAL = {'blue': '#1f5fbf', 'orange': '#e07b1a', 'green': '#1f8a4c', 'red': '#d33a2c', 'purple': '#7b44b8', 'teal': '#138a8a', 'pink': '#c2387a', 'brown': '#8a5a2b'}
 
 
@@ -102,12 +154,7 @@ def build():
     maps = load()
     art2map, lst, ids = {}, [], []
     for m in maps:
-        n = len(m['branches'])
-        sec = dict(SECS)[m['sec']]
-        page = (tpl.replace('{TITLE}', html.escape(m['title'] + ' · mind map'))
-                   .replace('{H1}', html.escape(m['title']))
-                   .replace('{SUB}', html.escape('Mind map · %s · %d topics' % (sec, n)))
-                   .replace('{DATA}', json.dumps(m, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')))
+        page = page_html(tpl, m)
         open(os.path.join(OUT, m['id'] + '.html'), 'w', encoding='utf-8').write(page)
         ids.append(m['id'])
         for b in m['branches']:
@@ -166,9 +213,7 @@ def pages(ids):
             shutil.copy(os.path.join(ENG, f), os.path.join(OUT, f))
     for i in ids:
         m = json.load(open(os.path.join(SRC, i + '.json'), encoding='utf-8'))
-        page = (tpl.replace('{TITLE}', html.escape(m['title'] + ' · mind map')).replace('{H1}', html.escape(m['title']))
-                   .replace('{SUB}', html.escape('Mind map · %s · %d topics' % (dict(SECS)[m['sec']], len(m['branches']))))
-                   .replace('{DATA}', json.dumps(m, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')))
+        page = page_html(tpl, m)
         open(os.path.join(OUT, i + '.html'), 'w', encoding='utf-8').write(page)
         print('page: clinic/map/%s.html' % i)
 
