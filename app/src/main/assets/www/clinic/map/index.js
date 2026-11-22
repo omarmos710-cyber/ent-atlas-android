@@ -12,7 +12,9 @@ window.MAPLIST=[{"id":"ear-infection","title":"The infected ear","sec":"ear","ar
  function close(){if(OV){OV.remove();document.body.style.overflow=""}OV=null}
  function openFor(id){const m=(window.MAPS||{})[id];if(!m)return;const t=(window.MAPLIST||[]).find(x=>x.id===m);frame("clinic/map/"+m+".html#"+id,t?t.title+" · mind map":"Mind map")}
  window.MAPVIEW={index(){frame("clinic/map/all.html","Mind maps")},open(m,t){frame("clinic/map/"+m+".html",t)},
-  article(id){close();if(typeof go==="function")go("cl:t-"+id)},board(id,title){close();if(window.openBoard)window.openBoard(id,title)},close};
+  article(id){close();if(typeof go==="function")go("cl:t-"+id)},board(id,title){close();if(window.openBoard)window.openBoard(id,title)},close,
+  /* PDF downloads go through the app's own [data-pdf] handler (Android keeps a copy; the web saves the file) */
+  pdf(id,name){const b=document.createElement("button");b.hidden=true;b.dataset.pdf=id;b.dataset.pdfname=name;document.body.appendChild(b);b.click();setTimeout(()=>b.remove(),0)}};
  window.openMapFor=openFor;
  document.addEventListener("click",ev=>{const b=ev.target.closest("[data-armap],[data-mapidx],[data-mm]");if(!b)return;
   if(b.dataset.armap){ev.preventDefault();ev.stopPropagation();openFor(b.dataset.armap)}

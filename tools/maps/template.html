@@ -9,6 +9,7 @@
   <button data-a="recall" aria-pressed="false" title="Hide the facts to test yourself">✎ <span>Recall</span></button>
   <button data-a="links" aria-pressed="true" title="Show how topics lead to each other">⇢ <span>Links</span></button>
   <button data-a="abbr" title="Abbreviations">Aa</button>
+  <button data-a="pdf" title="Download as PDF" hidden>⤓ <span>PDF</span></button>
   <button data-a="out" aria-label="Zoom out">−</button><button data-a="in" aria-label="Zoom in">+</button>
  </nav>
 </header>
@@ -16,6 +17,10 @@
 <div id="sheet"><span class="dot"></span><b class="sn"></b>
  <button data-a="art">Article</button><button data-a="board">Board</button><button data-a="close" aria-label="Back to overview">✕</button></div>
 <div id="abbr"></div>
+<div id="dl" role="dialog" aria-label="Download as PDF"><b>Download as PDF</b>
+ <button data-d="map"><span>⤓ This mind map</span><small></small></button>
+ <button data-d="all"><span>⤓ All topics, merged</span><small></small></button>
+</div>
 <div id="toast" role="status"></div>
 <script>window.MAP={DATA};</script><script src="map.js"></script>
 </body></html>

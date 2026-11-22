@@ -54,3 +54,13 @@ nav button:focus-visible,#sheet button:focus-visible{outline:3px solid #f2c200;o
 .tgo{font:20px Caveat;fill:#77746a;cursor:pointer;paint-order:stroke;stroke:#fbfbf7;stroke-width:7px;stroke-linejoin:round}.go:hover .tgo{text-decoration:underline}
 .ico .f{fill:var(--ic);stroke:none}.ico .lf{fill:rgba(29,35,48,.05)}
 #abbr span{display:inline}
+#dl{position:fixed;right:12px;top:64px;width:min(330px,calc(100vw - 24px));background:#fff;border:2px solid #1d2330;border-radius:14px 8px 16px 9px;padding:10px 12px 12px;display:none;z-index:4;box-shadow:0 8px 24px rgba(0,0,0,.12)}
+#dl.on{display:block}
+#dl>b{display:block;font:700 26px/1 Caveat;margin:0 0 8px}
+#dl button{display:block;width:100%;text-align:left;margin-top:8px;font:700 18px Kalam,sans-serif;color:#1d2330;background:#fff;border:2px solid #1d2330;border-radius:14px 7px 15px 8px;padding:7px 12px;cursor:pointer}
+#dl button small{display:block;font:15px Hand,sans-serif;color:#6b6759;margin-top:2px}
+#dl button:focus-visible{outline:3px solid #f2c200;outline-offset:2px}
+#dl button[disabled]{opacity:.5;cursor:default}
+@media(max-width:640px){#dl{top:auto;bottom:14px;right:50%;transform:translateX(50%)}}
+@media print{nav,#sheet,#toast,#dl,#abbr{display:none!important}}
+@media(max-width:640px){nav{gap:4px}nav button{min-width:36px;padding:2px 6px}}

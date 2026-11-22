@@ -204,6 +204,7 @@ document.getElementById('tools').addEventListener('click',e=>{const b=e.target.c
  if(a==='links'){showLinks=!showLinks;b.setAttribute('aria-pressed',showLinks);layout()}
  if(a==='all'){open=new Set(BR.map(b=>b.id));focus=null;sheet.classList.remove('on');layout();fit()}
  if(a==='abbr')document.getElementById('abbr').classList.toggle('on');
+ if(a==='pdf'){document.getElementById('abbr').classList.remove('on');DL.classList.toggle('on')}
  if(a==='maps'){if(embedded)window.parent.MAPVIEW.index();else location.href='all.html'}});
 sheet.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;const id=sheet.dataset.id,t=byId[id];
  if(b.dataset.a==='art'){if(embedded)window.parent.MAPVIEW.article(id);else say('In the app this opens the article')}
@@ -211,6 +212,20 @@ sheet.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)retu
  if(b.dataset.a==='close')overview()});
 let tt;function say(t){toast.textContent=t;toast.classList.add('on');clearTimeout(tt);tt=setTimeout(()=>toast.classList.remove('on'),2400)}
 let rw=innerWidth;addEventListener('resize',()=>{if(narrow()!==(rw<700)){rw=innerWidth;layout();fit(0)}else{rw=innerWidth;apply()}});
+/* PDF downloads: the whole map on one page, and every topic's article PDF joined in map order.
+   tools/make_map_pdfs.py makes them; build_maps.py adds DATA.pdf only when both match the current map. */
+const DL=document.getElementById('dl'),PDF=DATA.pdf;
+if(PDF){const pb=document.querySelector('[data-a="pdf"]');pb.hidden=false;
+ const mb=n=>n<1048576?Math.max(1,Math.round(n/1024))+' KB':(n/1048576).toFixed(1)+' MB';
+ DL.querySelector('[data-d="map"] small').textContent='1 page · every topic open · '+mb(PDF.map.b);
+ DL.querySelector('[data-d="all"] small').textContent='Mind map + '+BR.length+' articles · '+PDF.all.p+' pages · '+mb(PDF.all.b);
+ DL.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
+  const f=b.dataset.d==='map'?PDF.map:PDF.all,name='The ENT Companion - '+DATA.title+(b.dataset.d==='map'?' - mind map':' - all topics');
+  if(embedded&&window.parent.MAPVIEW.pdf){window.parent.MAPVIEW.pdf(f.id,name);DL.classList.remove('on');return}
+  const a=document.createElement('a');a.href='../../pdf/'+f.id+'.pdf';a.download=name.replace(/[^\w ,.-]/g,'')+'.pdf';document.body.appendChild(a);a.click();a.remove();
+  DL.classList.remove('on');say('PDF saved to your downloads')});
+ document.addEventListener('keydown',e=>{if(e.key==='Escape')DL.classList.remove('on')});
+ svg.addEventListener('pointerdown',()=>DL.classList.remove('on'));}
 const ab=DATA.abbr||{},ak=Object.keys(ab).sort((a,b)=>a.localeCompare(b));
 document.getElementById('abbr').innerHTML=ak.length?ak.map(k=>`<span><b>${k}</b> ${ab[k]}</span>`).join(' · '):'No abbreviations on this map.';
 (document.fonts?document.fonts.ready:Promise.resolve()).then(()=>{layout();cam=target(world.getBBox(),.94);apply();
