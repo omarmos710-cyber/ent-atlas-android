@@ -1,0 +1,106 @@
+@font-face{font-family:Atk;src:url(../../fonts/atkinson-400-latin.woff2) format("woff2");font-weight:400;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:Atk;src:url(../../fonts/atkinson-400-latin-ext.woff2) format("woff2");font-weight:400;unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:Atk;src:url(../../fonts/atkinson-700-latin.woff2) format("woff2");font-weight:700;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:Atk;src:url(../../fonts/atkinson-700-latin-ext.woff2) format("woff2");font-weight:700;unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:Atk;src:url(../../fonts/atkinson-400i-latin.woff2) format("woff2");font-weight:400;font-style:italic;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:Atk;src:url(../../fonts/atkinson-400i-latin-ext.woff2) format("woff2");font-weight:400;font-style:italic;unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}
+/* VOICE  calm, clinical: a senior walking you along the course of a disease
+   IDEA   a transit route map: lines are the roads a disease takes, zones are the depth or stage, stations are stops
+   PICTURE the route strip across the middle of an A3 poster, notes above and below joined by dotted connectors
+   COLOUR soft grey-white or deep slate; muted line colours; Atkinson Hyperlegible
+   LAYOUT poster on wide screens and in the PDF; on phones a list of stops, zone by zone */
+:root{color-scheme:light dark;
+ --bg:light-dark(#eef1f0,#121619);--paper:light-dark(#fbfbfa,#171b1f);--card:light-dark(#ffffff,#1d2228);--ink:light-dark(#26303a,#dfe5ea);--mut:light-dark(#66717b,#949ea8);--line:light-dark(#dbe1e3,#2c333b);--zone:light-dark(#f2f4f3,#1a1f24);--zl:light-dark(#d4dadc,#2c333b);
+ --blue:light-dark(#4f7fbf,#8db3e6);--teal:light-dark(#36968f,#7fcdc5);--purple:light-dark(#8a6cc0,#bba3e6);--brown:light-dark(#b07a3f,#dcb27a);--green:light-dark(#5a9668,#9bcfa7);--red:light-dark(#c05a63,#eb9ba2);--orange:light-dark(#d08a3a,#e8b277);--pink:light-dark(#b85c8f,#e39cc4);--grey:light-dark(#8a949c,#a5aeb6)}
+*{box-sizing:border-box;margin:0;padding:0;min-width:0}
+html,body{background:var(--bg);color:var(--ink);font:16px/1.45 Atk,system-ui,sans-serif}
+button{font:inherit;color:inherit}
+header{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:10px 14px;background:var(--card);border-bottom:1px solid var(--line)}
+header .ttl{flex:1 1 220px}header h1{font-size:21px;line-height:1.15}header .st{font-size:13px;color:var(--mut)}
+nav{display:flex;gap:6px;flex-wrap:wrap}
+nav button,.sbtn{background:var(--bg);border:1px solid var(--line);border-radius:22px;min-height:40px;min-width:40px;padding:0 13px;cursor:pointer;font-size:15px}
+nav button[aria-pressed=true]{background:color-mix(in srgb,var(--blue) 16%,var(--card));border-color:color-mix(in srgb,var(--blue) 50%,transparent);font-weight:700}
+button:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.only-poster{display:none}body.vposter .only-poster{display:inline-flex;align-items:center}
+@media(max-width:640px){nav button span{display:none}nav button{padding:0 11px}header h1{font-size:18px}header .st{display:none}}
+
+/* ---------- the poster (A3 landscape, laid out in millimetres) ---------- */
+#stage{display:none;overflow:auto;padding:14px}
+body.vposter #stage{display:block}
+#scaler{transform-origin:0 0}
+.page{width:420mm;height:297mm;background:var(--paper);position:relative;overflow:hidden;padding:9mm 10mm 7mm;display:grid;grid-template-rows:auto auto 66mm 1fr auto;gap:2.6mm;font:8.2pt/1.32 Atk,system-ui,sans-serif;box-shadow:0 4px 30px rgba(0,0,0,.12)}
+.zbg{position:absolute;left:10mm;right:10mm;top:0;bottom:0;display:grid;z-index:0}
+.zbg div{border-left:.3mm dashed var(--zl)}.zbg div:nth-child(even){background:var(--zone)}.zbg div:first-child{border-left:0}
+.phead{display:flex;justify-content:space-between;align-items:flex-end;gap:8mm;position:relative;z-index:2}
+.phead h2{font-size:24pt;line-height:1;letter-spacing:-.01em}
+.phead h2 small{display:block;font-size:10.5pt;font-weight:400;color:var(--mut);margin-top:1.6mm;letter-spacing:0;max-width:240mm}
+.legend{display:flex;gap:2mm 6mm;flex-wrap:wrap;justify-content:flex-end;font-size:8pt;max-width:150mm}
+.legend span{display:flex;align-items:center;gap:1.6mm;white-space:nowrap}.legend i{width:9mm;height:1.6mm;border-radius:1mm;background:var(--c)}
+.legend i.d{background:repeating-linear-gradient(90deg,var(--c) 0 2mm,transparent 2mm 3.2mm)}
+.prow{display:grid;position:relative;z-index:2}
+.cell{padding:0 1.6mm;display:flex;gap:2mm;align-items:flex-start}.cell.stack{flex-direction:column;align-items:stretch}.cell.stack .card{flex:0 0 auto!important}
+.card{background:var(--card);border:.3mm solid color-mix(in srgb,var(--c) 38%,transparent);border-radius:2.4mm;padding:2mm 2.4mm;flex:1 1 0;position:relative}
+.card h3{font-size:9.4pt;display:flex;align-items:center;gap:1.6mm;margin-bottom:.7mm;line-height:1.12}
+.card h3 i{width:3mm;height:3mm;border-radius:50%;border:.7mm solid var(--c);background:var(--card);flex:none}
+.card h3 em{font-style:normal;font-weight:400;color:var(--mut);font-size:7.6pt}
+.why{font-style:italic;color:color-mix(in srgb,var(--ink) 85%,var(--mut));margin-bottom:.9mm}
+.lab{font-size:6.8pt;font-weight:700;color:var(--mut);margin:.6mm 0 .2mm}
+.card ul{padding-left:3mm}.card li{margin:.1mm 0}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:2mm}
+.warn{margin-top:.9mm;padding:.8mm 1.6mm;border-radius:1.3mm;background:color-mix(in srgb,var(--red) 10%,var(--card))}
+.card.ride{background:transparent;border:0;padding:0}.card.ride p{margin-bottom:1.3mm}
+.checks ol{padding-left:3.6mm}.checks li{margin:.6mm 0}.checks li span{color:var(--mut)}
+.ans{margin-top:1.6mm;transform:rotate(180deg);font-size:7pt;color:var(--mut);text-align:right}
+#strip{width:100%;height:66mm;display:block;position:relative;z-index:2;overflow:visible}
+.zlab{font-size:3px;font-weight:700;fill:#8a949c}
+.sn{font-size:3.3px;font-weight:700;fill:var(--ink);paint-order:stroke;stroke:var(--paper);stroke-width:.9px;stroke-linejoin:round}
+.rs{font-size:2.6px;font-style:italic;fill:var(--mut);paint-order:stroke;stroke:var(--paper);stroke-width:.8px;stroke-linejoin:round}
+.sto{fill:var(--card);stroke:var(--ink)}.sti{fill:var(--ink)}
+.pfoot{font-size:6.5pt;color:var(--mut);position:relative;z-index:2;display:flex;justify-content:space-between;gap:8mm}
+.pfoot span:last-child{text-align:right}
+svg.ov{position:absolute;inset:0;width:100%;height:100%;z-index:3;pointer-events:none}
+body.app .page .card[data-art]{cursor:pointer}body.app .page .card[data-art]:hover{border-color:var(--c)}
+.card.hl{box-shadow:0 0 0 .8mm color-mix(in srgb,var(--c) 45%,transparent)}
+.recall .page .card .ls{filter:blur(2.2px);opacity:.55}
+
+/* ---------- the stops list (phones) ---------- */
+#stops{display:none;max-width:760px;margin:0 auto;padding:14px 14px 60px}
+body.vstops #stops{display:block}
+#stops .intro{color:var(--mut);margin:2px 2px 12px;font-size:15px}
+#stops .lines{display:flex;flex-wrap:wrap;gap:6px 14px;margin:0 2px 14px;font-size:14px}
+#stops .lines span{display:flex;align-items:center;gap:6px}#stops .lines i{width:24px;height:5px;border-radius:3px;background:var(--c)}
+.zh{display:flex;align-items:center;gap:10px;margin:22px 2px 8px;font-size:14px;font-weight:700;color:var(--mut)}
+.zh:after{content:"";flex:1;height:1px;background:var(--line)}
+.stop{position:relative;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px 14px 12px 18px;margin:8px 0;overflow:hidden}
+.stop:before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--c)}
+.stop.hl{box-shadow:0 0 0 3px color-mix(in srgb,var(--c) 40%,transparent)}
+.stop h3{font-size:18px;line-height:1.2;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.stop h3 em{font-style:normal;font-weight:400;font-size:13px;color:var(--mut)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 4px}
+.chips span{font-size:12.5px;padding:2px 9px;border-radius:12px;background:color-mix(in srgb,var(--c) 14%,var(--card));color:var(--ink)}
+.from{font-size:14px;color:var(--mut);margin:4px 0}
+.stop .why{font-size:15.5px;margin:6px 0}
+.stop .lab{font-size:12.5px;margin-top:8px}
+.stop ul{padding-left:18px;font-size:15.5px}.stop li{margin:2px 0}
+.stop .warn{font-size:15px;padding:6px 10px;border-radius:10px;margin-top:8px}
+.stop .acts{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+.sbtn{font-size:14px;min-height:38px}
+.reveal{display:block;width:100%;text-align:left;margin-top:8px;padding:9px 12px;border:1px dashed var(--line);border-radius:12px;background:var(--bg);color:var(--mut);cursor:pointer;font-size:14.5px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px 14px;margin:8px 0}
+.box h3{font-size:17px;margin-bottom:4px}.box ol{padding-left:20px}.box li{margin:6px 0}.box li span{color:var(--mut)}
+.box .ans{font-size:13px}
+
+#abbr,#dl{position:fixed;right:12px;top:64px;z-index:30;max-width:min(440px,calc(100vw - 24px));background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px 14px;display:none;box-shadow:0 8px 30px rgba(0,0,0,.14);font-size:14.5px;line-height:1.6}
+#abbr.on,#dl.on{display:block}
+#dl{width:min(340px,calc(100vw - 24px))}#dl>b{display:block;font-size:17px;margin-bottom:6px}
+#dl button{display:block;width:100%;text-align:left;margin-top:8px;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:9px 12px;cursor:pointer}
+#dl button small{display:block;color:var(--mut);font-size:13px}
+#toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink);color:var(--card);padding:8px 16px;border-radius:20px;font-size:14px;opacity:0;pointer-events:none;transition:opacity .25s;z-index:40;max-width:calc(100% - 24px);text-align:center}
+#toast.on{opacity:.94}
+
+/* print: the poster alone, at its own size */
+body.print header,body.print #stops,body.print #abbr,body.print #dl,body.print #toast{display:none!important}
+body.print #stage{display:block;padding:0;overflow:visible}body.print .page{box-shadow:none}
+body.print{background:var(--paper)}
+@page{size:420mm 297mm;margin:0}
+@media(prefers-reduced-motion:reduce){#toast{transition:none}}

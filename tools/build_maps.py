@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Build the mind maps of the Clinical library.
 
-Each map is written by hand as JSON in content/maps/<map id>.json and joins several related articles: one
-branch per article (branch id = article id), three levels (topic → heading → fact), with links between
-topics. This script renders every map with the engine in tools/maps (map.js, map.css, template.html) into
+Each map is written by hand as JSON in content/maps/<map id>.json and joins several related articles as a
+route map (schema: tools/maps/ROUTE.md): lines are the roads a disease takes, zones its depth or stage,
+stations its stops, each with a note card tied to one article. This script renders every map with the engine
+in tools/maps (route.js, route.css, route-template.html) into
 app/src/main/assets/www/clinic/map/<map id>.html, writes the index page all.html, and writes
 clinic/map/index.js: the article → map lookup, the list of maps and the full-screen viewer. It also adds the
 "Mind map" button under every article header and the "Mind maps" entry on the Clinical home page.
@@ -63,19 +64,17 @@ HOMEBTN = ('${M!=="dr"&&(window.MAPLIST||[]).length?`<button type="button" class
            '<span><b>Mind maps</b><small>${window.MAPLIST.length} maps that join related topics, with a recall mode</small></span></button>`:""}')
 
 ALL = '''<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Mind maps</title><style>
-@font-face{font-family:Caveat;src:url(../board/fonts/Caveat.ttf)}@font-face{font-family:Hand;src:url(../board/fonts/PatrickHand.ttf)}@font-face{font-family:Kalam;src:url(../board/fonts/KalamBold.ttf)}
-*{box-sizing:border-box;margin:0;padding:0}body{background:#fbfbf7;color:#1d2330;font:17px/1.35 Hand,sans-serif;padding:18px 16px 40px;max-width:1100px;margin:0 auto;
-background-image:radial-gradient(rgba(0,0,0,.04) 1px,transparent 1px);background-size:18px 18px}
-h1{font:700 46px/1 Caveat}.lead{font:21px Caveat;color:#666;margin:4px 0 16px}
-h2{font:700 30px/1 Caveat;margin:22px 0 8px}
+<title>Mind maps</title><link rel="stylesheet" href="route.css"><style>
+body{padding:18px 16px 40px;max-width:1100px;margin:0 auto}
+h1{font-size:30px;line-height:1.1}.lead{color:var(--mut);margin:4px 0 16px}
+h2{font-size:19px;margin:24px 0 8px;color:var(--mut)}
 .g{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:12px}
-a{display:block;text-decoration:none;color:inherit;background:#fff;border:2.4px solid var(--c);border-radius:22px 10px 20px 12px;padding:10px 14px 12px}
-a:focus-visible{outline:3px solid #f2c200;outline-offset:2px}
-a b{font:700 28px/1.05 Caveat;color:var(--c);display:block}
-a span{display:block;font-size:15px;color:#444;margin-top:4px}
-a i{font-style:normal;display:inline-block;width:9px;height:9px;border-radius:50%;margin:0 5px 1px 0}
-</style></head><body><h1>Mind maps</h1><p class="lead">Related topics on one map · tap a map, then a topic · ✎ Recall hides the facts so you can test yourself</p>
+a{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:16px;padding:12px 14px}
+a:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+a b{font-size:19px;display:block;margin-bottom:4px}
+a span{display:block;font-size:14px;color:var(--mut);line-height:1.6}
+a i{display:inline-block;width:9px;height:9px;border-radius:50%;margin:0 6px 1px 0}
+</style></head><body><h1>Mind maps</h1><p class="lead">Each map follows a disease along its roads, stop by stop · ✎ Recall hides what you see and do so you can test yourself · ⤓ every map prints on one A3 page</p>
 {BODY}</body></html>'''
 
 PDFMAN = os.path.join(ENG, 'pdfs.json')
@@ -85,7 +84,7 @@ def src_hash(mid):
     """What the map PDF is drawn from: the map's JSON and the drawing engine (not the page around it)."""
     import hashlib
     h = hashlib.md5()
-    for f in (os.path.join(SRC, mid + '.json'), os.path.join(ENG, 'map.js'), os.path.join(ENG, 'map.css')):
+    for f in (os.path.join(SRC, mid + '.json'), os.path.join(ENG, 'route.js'), os.path.join(ENG, 'route.css')):
         h.update(open(f, 'rb').read())
     return h.hexdigest()
 
@@ -124,11 +123,11 @@ def page_html(tpl, m):
         d['pdf'] = p
     return (tpl.replace('{TITLE}', html.escape(m['title'] + ' · mind map'))
                .replace('{H1}', html.escape(m['title']))
-               .replace('{SUB}', html.escape('Mind map · %s · %d topics' % (dict(SECS)[m['sec']], len(m['branches']))))
+               .replace('{SUB}', html.escape('Route map · %s · %d topics' % (dict(SECS)[m['sec']], len(m['branches']))))
                .replace('{DATA}', json.dumps(d, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')))
 
 
-PAL = {'blue': '#1f5fbf', 'orange': '#e07b1a', 'green': '#1f8a4c', 'red': '#d33a2c', 'purple': '#7b44b8', 'teal': '#138a8a', 'pink': '#c2387a', 'brown': '#8a5a2b'}
+PAL = {'blue': '#4f7fbf', 'orange': '#d08a3a', 'green': '#5a9668', 'red': '#c05a63', 'purple': '#8a6cc0', 'teal': '#36968f', 'pink': '#b85c8f', 'brown': '#b07a3f', 'grey': '#8a949c'}
 
 
 def load():
@@ -142,9 +141,12 @@ def load():
 
 def build():
     os.makedirs(OUT, exist_ok=True)
-    tpl = open(os.path.join(ENG, 'template.html'), encoding='utf-8').read()
-    for f in ('map.js', 'map.css'):
+    tpl = open(os.path.join(ENG, 'route-template.html'), encoding='utf-8').read()
+    for f in ('route.js', 'route.css'):
         shutil.copy(os.path.join(ENG, f), os.path.join(OUT, f))
+    for f in ('map.js', 'map.css'):   # the old mind-map engine, no longer used
+        if os.path.exists(os.path.join(OUT, f)):
+            os.remove(os.path.join(OUT, f))
     titles = {}
     try:
         d = open(os.path.join(WWW, 'clinic', 'data.js'), encoding='utf-8').read()
@@ -170,8 +172,9 @@ def build():
             continue
         body += '<h2>%s</h2><div class="g">' % html.escape(name)
         for m in ms:
-            c = PAL.get(m['branches'][0]['c'], '#1d2330')
-            arts = ''.join('<i style="background:%s"></i>%s<br>' % (PAL.get(b['c'], b['c']), html.escape(titles.get(b['id'], b['name']))) for b in m['branches'])
+            col = lambda a: PAL.get(next((c['c'] for c in m['cards'] if c['art'] == a), 'grey'), '#8a949c')
+            c = PAL.get(m['lines'][0]['c'], '#26303a')
+            arts = ''.join('<i style="background:%s"></i>%s<br>' % (col(b['id']), html.escape(titles.get(b['id'], b['name']))) for b in m['branches'])
             body += '<a href="%s.html" style="--c:%s"><b>%s</b><span>%s</span></a>' % (m['id'], c, html.escape(m['title']), arts)
         body += '</div>'
     open(os.path.join(OUT, 'all.html'), 'w', encoding='utf-8').write(ALL.replace('{BODY}', body))
@@ -199,7 +202,7 @@ def build():
         c = c.replace(a, a + '\n ' + HOMEBTN, 1)
     open(cp, 'w', encoding='utf-8').write(c)
 
-    files = ['clinic/map/index.js', 'clinic/map/map.js', 'clinic/map/map.css', 'clinic/map/all.html'] + ['clinic/map/%s.html' % i for i in ids]
+    files = ['clinic/map/index.js', 'clinic/map/route.js', 'clinic/map/route.css', 'clinic/map/all.html'] + ['clinic/map/%s.html' % i for i in ids]
     print('mind maps: %d maps, %d topics' % (len(ids), len(art2map)))
     return files
 
@@ -207,10 +210,9 @@ def build():
 def pages(ids):
     """Render only the given maps' pages (safe to run in parallel; shared files untouched)."""
     os.makedirs(OUT, exist_ok=True)
-    tpl = open(os.path.join(ENG, 'template.html'), encoding='utf-8').read()
-    for f in ('map.js', 'map.css'):
-        if not os.path.exists(os.path.join(OUT, f)):
-            shutil.copy(os.path.join(ENG, f), os.path.join(OUT, f))
+    tpl = open(os.path.join(ENG, 'route-template.html'), encoding='utf-8').read()
+    for f in ('route.js', 'route.css'):
+        shutil.copy(os.path.join(ENG, f), os.path.join(OUT, f))
     for i in ids:
         m = json.load(open(os.path.join(SRC, i + '.json'), encoding='utf-8'))
         page = page_html(tpl, m)
