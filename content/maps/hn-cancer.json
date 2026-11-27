@@ -3,340 +3,701 @@
  "title": "Head & neck cancer: principles",
  "sec": "neck",
  "order": 3,
- "hub": {
-  "t": "Head & neck cancer",
-  "s": "cause, stage, treat, rebuild",
-  "icon": "target"
- },
+ "sub": "From cause to follow-up: stage by TNM 9, decide at the MDT, then resect and rebuild or irradiate, and watch for late effects.",
  "branches": [
   {
    "id": "hncprinc",
-   "name": "Principles & staging",
-   "c": "blue",
-   "icon": "gene",
-   "subs": [
-    [
-     "Causes",
-     [
-      "tobacco × alcohol: multiplicative",
-      "HPV-16 → tonsil, tongue base",
-      "EBV → nasopharynx",
-      "second primary 3–5% a year"
-     ]
-    ],
-    [
-     "Two diseases",
-     [
-      "HPV−: smokers, p53 mutated ~80%",
-      "HPV+: E6 → p53, E7 → Rb",
-      "p16 over-expressed = HPV marker",
-      "HPV+: 3-year survival 82% vs 57%"
-     ]
-    ],
-    [
-     "TNM 9",
-     [
-      "UICC TNM 9 from 2026 · AJCC v9 aligned",
-      "oral T: size + depth of invasion",
-      "N: size, number, side + ENE",
-      "unequivocal imaging ENE → cN3b",
-      "T4a resectable · T4b unresectable"
-     ]
-    ],
-    [
-     "Work-up",
-     [
-      "biopsy + FNA · p16 for oropharynx",
-      "MRI soft tissue · CT bone, larynx",
-      "PET-CT for stage III–IV",
-      "panendoscopy: synchronous primaries"
-     ]
-    ],
-    [
-     "Treat",
-     [
-      "every patient at the MDT",
-      "I–II: surgery or radiotherapy alone",
-      "III–IV: combined treatment",
-      "treat N0 neck if occult risk > 15–20%",
-      "clear margin ≥ 5 mm"
-     ]
-    ],
-    [
-     "Follow-up",
-     [
-      "most recur within two years",
-      "PET-CT 12 weeks after radiotherapy",
-      "TSH every 6–12 months"
-     ]
-    ]
-   ]
+   "name": "Principles & staging"
   },
   {
    "id": "hnrt",
-   "name": "Radiotherapy & drugs",
-   "c": "orange",
-   "icon": "radiation",
-   "subs": [
-    [
-     "Biology",
-     [
-      "1 Gy = 1 J/kg",
-      "four R's: gaps allow repopulation",
-      "hypoxia: two to three times resistant",
-      "IMRT spares parotids and cord"
-     ]
-    ],
-    [
-     "Doses",
-     [
-      "~50 Gy elective neck",
-      "60 Gy post-op · 66 Gy close margins",
-      "70 Gy in 35 fractions: gross tumour",
-      "T1 glottic: 55 Gy in 20 fractions"
-     ]
-    ],
-    [
-     "Post-op RT",
-     [
-      "start four to six weeks after surgery",
-      "surgery → end of RT < ~11 weeks",
-      "margin < 5 mm, ENE, pT3–4, PNI, LVI",
-      "positive margin or ENE → + cisplatin"
-     ]
-    ],
-    [
-     "Chemotherapy",
-     [
-      "concurrent: +6.5% at five years",
-      "cisplatin 100 mg/m² every three weeks",
-      "cetuximab only if cisplatin-unfit",
-      "audiogram before cisplatin"
-     ]
-    ],
-    [
-     "Late effects",
-     [
-      "xerostomia: mean parotid > 26 Gy",
-      "hypothyroidism up to half → TSH",
-      "cord < 45–50 Gy (myelitis)",
-      "trismus, dysphagia: keep swallowing"
-     ]
-    ],
-    [
-     "ORN",
-     [
-      "exposed bone > three months, no tumour",
-      "posterior mandible · risk > 60 Gy",
-      "extract ≥ two weeks before RT",
-      "PENTOCLO · fibula flap if advanced"
-     ]
-    ]
-   ]
+   "name": "Radiotherapy & drugs"
   },
   {
    "id": "hnrecon",
-   "name": "Reconstruction",
-   "c": "green",
-   "icon": "flap",
-   "subs": [
-    [
-     "Ladder",
-     [
-      "simplest method that restores function",
-      "or the elevator: straight to free flap",
-      "secondary intention: concave sites",
-      "irradiated bed: vascularised tissue"
-     ]
-    ],
-    [
-     "Grafts",
-     [
-      "imbibition ~48 h → inosculation",
-      "split: reliable take, contracts more",
-      "full-thickness: nose, eyelid, ear",
-      "no take on bare bone, irradiated bed"
-     ]
-    ],
-    [
-     "Local flaps",
-     [
-      "bilobed: lower nose ≤ 1.5 cm",
-      "paramedian forehead: supratrochlear",
-      "full-thickness nose: three layers",
-      "lip: wedge → Abbe → Karapandzic"
-     ]
-    ],
-    [
-     "Regional flaps",
-     [
-      "pectoralis major: thoracoacromial",
-      "salvage workhorse · carotid cover",
-      "deltopectoral: internal thoracic"
-     ]
-    ],
-    [
-     "Free flaps",
-     [
-      "success 95–99%",
-      "fail in 48–72 h, mostly venous",
-      "radial forearm: tongue · Allen test",
-      "ALT: bulk · fibula: mandible",
-      "anterior mandible: always bone"
-     ]
-    ],
-    [
-     "Reanimation",
-     [
-      "eye first: gold weight",
-      "muscle viable 18–24 months",
-      "masseteric → VII: commonest transfer",
-      "cross-face: only spontaneous smile",
-      "long-standing: free gracilis"
-     ]
-    ]
-   ]
+   "name": "Reconstruction"
   },
   {
    "id": "skinca",
-   "name": "Skin cancer",
-   "c": "red",
-   "icon": "face",
-   "subs": [
-    [
-     "BCC",
-     [
-      "pearly, rolled edge, telangiectasia",
-      "high risk: H zone, ≥ 10 mm, morphoeic",
-      "low risk: 4 mm margin",
-      "Mohs: high risk and H zone",
-      "no radiotherapy in Gorlin"
-     ]
-    ],
-    [
-     "Cutaneous SCC",
-     [
-      "high risk: ≥ 2 cm, > 2 mm deep, PNI",
-      "margins 4–6 mm · high risk 6–10 mm",
-      "~5% spread → parotid, neck",
-      "facial numbness = perineural spread",
-      "advanced: cemiplimab"
-     ]
-    ],
-    [
-     "Skin TNM 9",
-     [
-      "T1 ≤ 2 cm · T2 > 2–4 cm",
-      "T3 > 4 cm, PNI, deep, minor bone",
-      "vermilion lip: now staged as skin"
-     ]
-    ],
-    [
-     "Merkel cell",
-     [
-      "AEIOU · polyomavirus",
-      "CK20 dot-positive, TTF-1 negative",
-      "1–2 cm margins + SLNB"
-     ]
-    ],
-    [
-     "Melanoma",
-     [
-      "ABCDE · excision biopsy ~2 mm",
-      "never shave a pigmented lesion",
-      "Breslow + ulceration = T stage",
-      "margin 1 cm ≤ 1 mm · 2 cm > 2 mm",
-      "SLNB if > 0.8 mm (T1b+)",
-      "positive sentinel → ultrasound watch"
-     ]
-    ]
-   ]
+   "name": "Skin cancer"
   },
   {
    "id": "paeds_ca",
-   "name": "Childhood cancer",
+   "name": "Childhood cancer"
+  }
+ ],
+ "zones": [
+  [
+   "Cause",
+   50
+  ],
+  [
+   "Work-up and staging",
+   100
+  ],
+  [
+   "Decide",
+   45
+  ],
+  [
+   "Resect and rebuild",
+   80
+  ],
+  [
+   "Radiation and drugs",
+   65
+  ],
+  [
+   "Life after",
+   60
+  ]
+ ],
+ "st": {
+  "uv": {
+   "t": "Sun (UV)",
+   "x": 18,
+   "y": 5,
+   "lab": "b"
+  },
+  "hpv": {
+   "t": "HPV-16",
+   "x": 18,
+   "y": 48,
+   "lab": "a"
+  },
+  "smoke": {
+   "t": "Tobacco, alcohol",
+   "x": 32,
+   "y": 17,
+   "lab": "b"
+  },
+  "clump": {
+   "t": "Child's neck lump",
+   "x": 70,
+   "y": 58,
+   "lab": "a"
+  },
+  "skin": {
+   "t": "Skin biopsy",
+   "x": 105,
+   "y": 5,
+   "lab": "b"
+  },
+  "work": {
+   "t": "Work-up",
+   "x": 78,
+   "y": 33,
+   "lab": "b",
+   "ix": true,
+   "dx": 4
+  },
+  "tnm": {
+   "t": "TNM 9 staging",
+   "x": 128,
+   "y": 33,
+   "lab": "b"
+  },
+  "tissue": {
+   "t": "Chest X-ray first",
+   "x": 122,
+   "y": 58,
+   "lab": "a"
+  },
+  "mdt": {
+   "t": "MDT",
+   "x": 170,
+   "y": 33,
+   "lab": "b",
+   "ix": true
+  },
+  "margin": {
+   "t": "Clear margins",
+   "x": 220,
+   "y": 5,
+   "lab": "b"
+  },
+  "surg": {
+   "t": "Surgery",
+   "x": 210,
+   "y": 33,
+   "lab": "b",
+   "ix": true
+  },
+  "ladder": {
+   "t": "Reconstruct",
+   "x": 238,
+   "y": 33,
+   "lab": "b",
+   "ix": true
+  },
+  "free": {
+   "t": "Free flap",
+   "x": 262,
+   "y": 33,
+   "lab": "b"
+  },
+  "crt": {
+   "t": "Chemoradiation",
+   "x": 312,
+   "y": 17,
+   "lab": "a",
+   "dx": -4
+  },
+  "port": {
+   "t": "Post-op RT",
+   "x": 298,
+   "y": 33,
+   "lab": "b"
+  },
+  "onc": {
+   "t": "Paeds oncology",
+   "x": 172,
+   "y": 58,
+   "lab": "a"
+  },
+  "pet": {
+   "t": "PET-CT 12 wk",
+   "x": 352,
+   "y": 17,
+   "lab": "a"
+  },
+  "fu": {
+   "t": "Follow-up",
+   "x": 372,
+   "y": 33,
+   "lab": "r",
+   "ix": true
+  },
+  "late": {
+   "t": "Late effects",
+   "x": 355,
+   "y": 48,
+   "lab": "b",
+   "ix": true
+  },
+  "orn": {
+   "t": "ORN",
+   "x": 390,
+   "y": 48,
+   "lab": "a"
+  }
+ },
+ "lines": [
+  {
+   "name": "Surgical road",
+   "c": "blue",
+   "stops": [
+    "smoke",
+    "work",
+    "tnm",
+    "mdt",
+    "surg",
+    "ladder",
+    "free",
+    "port",
+    "fu"
+   ]
+  },
+  {
+   "name": "Organ-preservation road",
+   "c": "orange",
+   "stops": [
+    "mdt",
+    "@186,17",
+    "crt",
+    "pet",
+    "@356,17",
+    "fu"
+   ]
+  },
+  {
+   "name": "HPV branch",
+   "c": "teal",
+   "stops": [
+    "hpv",
+    "@63,48",
+    "work"
+   ]
+  },
+  {
+   "name": "Skin line",
+   "c": "red",
+   "stops": [
+    "uv",
+    "skin",
+    "margin",
+    "@238,5",
+    "ladder"
+   ]
+  },
+  {
+   "name": "Child line",
    "c": "pink",
-   "icon": "child",
-   "subs": [
-    [
-     "What",
-     [
-      "lymphoma first · SCC rare",
-      "under 2: rhabdomyosarcoma, neuroblastoma",
-      "solid salivary mass: > half malignant"
-     ]
-    ],
-    [
-     "Red flags",
-     [
-      "node > 2 cm or not shrunk by 6 weeks",
-      "supraclavicular node at any size",
-      "hard, fixed · night sweats, weight loss"
-     ]
-    ],
-    [
-     "Tissue",
-     [
-      "ultrasound first",
-      "chest X-ray before any anaesthetic",
-      "whole node, fresh, not in formalin",
-      "FNA rarely enough for lymphoma"
-     ]
-    ],
-    [
-     "Rhabdomyosarcoma",
-     [
-      "commonest soft tissue sarcoma",
-      "embryonal ~60% · alveolar worse",
-      "parameningeal = unfavourable",
-      "bleeding aural polyp: biopsy"
-     ]
-    ],
-    [
-     "Neuroblastoma",
-     [
-      "infants under 1 · neck ~5%",
-      "Horner + iris heterochromia",
-      "urine HVA, VMA raised ~90%"
-     ]
-    ],
-    [
-     "Late effects",
-     [
-      "cisplatin: high-frequency hearing loss",
-      "radiotherapy: growth, teeth, thyroid"
-     ]
-    ]
+   "stops": [
+    "clump",
+    "tissue",
+    "onc",
+    "@315,58",
+    "@325,48",
+    "late"
+   ]
+  },
+  {
+   "name": "Late-effects spur",
+   "c": "grey",
+   "w": 1.8,
+   "stops": [
+    "fu",
+    "@372,41",
+    "late",
+    "orn"
    ]
   }
  ],
- "links": [
+ "segs": [
   [
-   "hncprinc",
-   "hnrt",
-   "III–IV: combined"
+   "smoke",
+   "work",
+   "tissue + extent",
+   -8,
+   -10.2
   ],
   [
-   "hncprinc",
-   "hnrecon",
-   "resect, then rebuild"
+   "hpv",
+   "work",
+   "p16 on the biopsy",
+   -8,
+   4.8
   ],
   [
-   "hnrt",
-   "hnrecon",
-   "ORN → fibula flap"
+   "work",
+   "tnm",
+   "T, N, M",
+   0,
+   -2.2
   ],
   [
-   "skinca",
-   "hnrecon",
-   "clear margins first"
+   "tnm",
+   "mdt",
+   "stage sets the plan",
+   0,
+   -2.2
   ],
   [
-   "paeds_ca",
-   "hnrt",
-   "cisplatin ototoxicity"
+   "mdt",
+   "surg",
+   "mouth, cartilage, bone",
+   0,
+   5
+  ],
+  [
+   "mdt",
+   "crt",
+   "organ preservation",
+   50,
+   -2.2
+  ],
+  [
+   "surg",
+   "ladder",
+   "same operation",
+   0,
+   -2.2
+  ],
+  [
+   "ladder",
+   "free",
+   "major defect",
+   0,
+   -2.2
+  ],
+  [
+   "free",
+   "port",
+   "4–6 weeks later",
+   0,
+   -2.2
+  ],
+  [
+   "crt",
+   "pet",
+   "neck response",
+   0,
+   -2.2
+  ],
+  [
+   "uv",
+   "skin",
+   "cumulative sun",
+   0,
+   -1.6
+  ],
+  [
+   "skin",
+   "margin",
+   "diagnosis first",
+   0,
+   -1.6
+  ],
+  [
+   "margin",
+   "ladder",
+   "clear margins first",
+   -17,
+   5
+  ],
+  [
+   "clump",
+   "tissue",
+   "doesn't behave",
+   0,
+   -2.2
+  ],
+  [
+   "tissue",
+   "onc",
+   "fresh, not in formalin",
+   0,
+   -2.2
+  ],
+  [
+   "onc",
+   "late",
+   "cisplatin: hearing",
+   74.5,
+   -7.2
   ]
  ],
+ "cards": [
+  {
+   "st": "smoke",
+   "art": "hncprinc",
+   "c": "blue",
+   "row": "top",
+   "zone": 0,
+   "t": "Tobacco × alcohol",
+   "why": "Carcinogens bathe the whole mucosa, so altered fields surround a cancer and give rise to new ones.",
+   "see": [
+    "> 90% of mucosal tumours are SCC",
+    "smoked or smokeless tobacco, betel quid + areca",
+    "alcohol × tobacco: multiplicative, not additive",
+    "second primary 3–5% a year"
+   ],
+   "do": [
+    "panendoscopy at diagnosis",
+    "help to stop smoking · follow for life"
+   ]
+  },
+  {
+   "st": "hpv",
+   "art": "hncprinc",
+   "c": "teal",
+   "row": "bottom",
+   "zone": 0,
+   "t": "Two diseases",
+   "tag": "HPV",
+   "why": "E6 degrades p53 and E7 inactivates Rb, so p16 is over-expressed.",
+   "see": [
+    "HPV−: older smokers · p53 mutated ~80%",
+    "HPV+: younger non-smokers, tonsil, tongue base",
+    "p16 IHC = HPV surrogate marker",
+    "3-year survival 82% vs 57%"
+   ],
+   "warn": "Smoking > 10 pack-years worsens the HPV+ outlook."
+  },
+  {
+   "st": "skin",
+   "art": "skinca",
+   "c": "red",
+   "row": "top",
+   "zone": 1,
+   "t": "Skin biopsy",
+   "why": "Cumulative sun drives BCC and SCC; blistering childhood sunburn drives melanoma.",
+   "see": [
+    "BCC: pearly, rolled edge, telangiectasia",
+    "melanoma: ABCDE · Breslow + ulceration = T",
+    "Merkel: AEIOU · CK20 dot +, TTF-1 −"
+   ],
+   "do": [
+    "no shave biopsy of a pigmented lesion",
+    "suspected melanoma: excision biopsy, ~2 mm",
+    "palpate parotid, neck nodes · test V, VII"
+   ],
+   "warn": "Wide excision before diagnosis ruins sentinel mapping."
+  },
+  {
+   "st": "work",
+   "art": "hncprinc",
+   "c": "blue",
+   "row": "bottom",
+   "zone": 1,
+   "t": "Work-up",
+   "tag": "interchange",
+   "why": "Tissue, extent and a search for second primaries, before the decision.",
+   "see": [
+    "biopsy + FNA · p16 oropharynx · EBV nasopharynx",
+    "MRI soft tissue · CT bone, larynx",
+    "PET-CT: stage III–IV, unknown primary",
+    "panendoscopy: second primaries",
+    "teeth at risk out before RT"
+   ],
+   "w": 1.3
+  },
+  {
+   "st": "mdt",
+   "art": "hncprinc",
+   "c": "blue",
+   "row": "top",
+   "zone": 2,
+   "t": "MDT decision",
+   "tag": "interchange",
+   "why": "Every patient is discussed; the patient's priorities (cure, voice, swallowing, appearance, time) are central.",
+   "do": [
+    "I–II: surgery or radiotherapy alone",
+    "III–IV: combined treatment",
+    "T4b: chemoradiotherapy or palliation",
+    "N0 neck: treat if occult risk > 15–20%",
+    "crossing the midline: treat both necks",
+    "surgery: clear margin ≥ 5 mm · < 5 mm close"
+   ]
+  },
+  {
+   "st": "margin",
+   "art": "skinca",
+   "c": "red",
+   "row": "top",
+   "zone": 3,
+   "t": "Clear margins",
+   "tag": "skin",
+   "why": "BCC destroys locally but almost never spreads; cutaneous SCC can reach the parotid and track along nerves.",
+   "see": [
+    "BCC high risk: H zone, ≥ 10 mm elsewhere, morphoeic",
+    "cSCC high risk: ≥ 2 cm, > 2 mm deep, PNI",
+    "~5% of high-risk cSCC → parotid, neck"
+   ],
+   "do": [
+    "low-risk BCC: 4 mm · high-risk, H zone: Mohs",
+    "cSCC: 4–6 mm · high risk 6–10 mm or Mohs",
+    "melanoma: 1 cm up to 1 mm thick · 2 cm beyond 2 mm",
+    "SLNB if > 0.8 mm (T1b+) · Merkel: 1–2 cm + SLNB"
+   ],
+   "warn": "Facial numbness or weakness = perineural spread. No radiotherapy in Gorlin.",
+   "w": 1.5
+  },
+  {
+   "st": "crt",
+   "art": "hnrt",
+   "c": "orange",
+   "row": "top",
+   "zone": 4,
+   "t": "Chemoradiation",
+   "why": "Cisplatin sensitises the tumour to radiation. Hypoxic cells are two to three times more resistant, and gaps let the tumour repopulate.",
+   "see": [
+    "70 Gy in 35 fractions over 7 weeks: gross tumour",
+    "about 50 Gy: elective neck",
+    "concurrent chemo: ~6.5% survival gain at five years"
+   ],
+   "do": [
+    "cisplatin 100 mg/m² three-weekly or 40 mg/m² weekly",
+    "audiogram, renal function first",
+    "cetuximab only if cisplatin-unfit",
+    "haemoglobin to ~12 g/dL · stop smoking"
+   ],
+   "warn": "Repopulation speeds up after about four weeks: avoid gaps."
+  },
+  {
+   "st": "fu",
+   "art": "hncprinc",
+   "c": "blue",
+   "row": "top",
+   "zone": 5,
+   "t": "Follow-up",
+   "tag": "interchange",
+   "why": "Most recurrences come in the first two years, and second primaries keep coming.",
+   "see": [
+    "every 1–3 months in year 1 · 2–4 in year 2",
+    "3–6 months to year 5, then yearly",
+    "PET-CT about 12 weeks after radiotherapy",
+    "TSH every 6–12 months after neck RT",
+    "nasendoscopy every visit"
+   ]
+  },
+  {
+   "st": "clump",
+   "art": "paeds_ca",
+   "c": "pink",
+   "row": "bottom",
+   "zone": 1,
+   "t": "Child's neck lump",
+   "why": "Most are reactive. Cancer here is lymphoma, sarcoma, a neural or thyroid tumour.",
+   "see": [
+    "lymphoma first · SCC very rare",
+    "node > ~2 cm or not shrunk by ~6 weeks",
+    "supraclavicular node, any size"
+   ],
+   "do": [
+    "ultrasound first",
+    "chest X-ray before anaesthesia",
+    "whole node, fresh, not formalin",
+    "FNA rarely enough for lymphoma"
+   ],
+   "warn": "Mediastinal mass: airway can collapse at induction.",
+   "w": 1.3
+  },
+  {
+   "st": "tnm",
+   "art": "hncprinc",
+   "c": "blue",
+   "row": "top",
+   "zone": 1,
+   "t": "TNM 9 staging",
+   "why": "T is mostly size, but depth of invasion counts in the mouth; N adds extranodal extension.",
+   "see": [
+    "UICC TNM 9 from 1 January 2026 · AJCC v9 aligned",
+    "oral T1: ≤ 2 cm and DOI ≤ 5 mm",
+    "T4a resectable · T4b usually unresectable"
+   ],
+   "do": [
+    "HPV-independent: unequivocal imaging ENE → cN3b",
+    "HPV+ oropharynx: ENE moves N up one",
+    "nasopharynx: M1a ≤ three · M1b > three"
+   ],
+   "warn": "Say which edition: older texts stage differently."
+  },
+  {
+   "st": "ladder",
+   "art": "hnrecon",
+   "c": "green",
+   "row": "bottom",
+   "zone": 3,
+   "t": "Reconstruct",
+   "tag": "interchange",
+   "why": "Ask what is missing and what it did; use the simplest method that restores function and form.",
+   "see": [
+    "heal → close → graft → local flap",
+    "→ regional → free flap → prosthesis",
+    "or the elevator: straight to the best"
+   ],
+   "do": [
+    "irradiated or infected bed: vascularised tissue",
+    "no skin graft on bare bone or irradiated bed"
+   ]
+  },
+  {
+   "st": "free",
+   "art": "hnrecon",
+   "c": "green",
+   "row": "bottom",
+   "zone": 3,
+   "t": "Free flap",
+   "why": "Most failures come within 48 to 72 hours, usually venous.",
+   "see": [
+    "success 95–99%",
+    "radial forearm: thin, tongue · Allen test",
+    "ALT: bulk · fibula: mandible"
+   ],
+   "do": [
+    "purple, swollen = venous · pale, cool = arterial",
+    "either: urgent return to theatre"
+   ],
+   "warn": "Anterior mandibular defect: always bone."
+  },
+  {
+   "st": "port",
+   "art": "hnrt",
+   "c": "orange",
+   "row": "bottom",
+   "zone": 4,
+   "t": "Post-op RT",
+   "why": "The specimen decides: risk features bring radiotherapy; positive margins or ENE bring cisplatin too.",
+   "see": [
+    "close (< 5 mm) or positive margin · ENE",
+    "≥ 2 nodes or node > 3 cm · pT3–pT4",
+    "PNI, LVI · poor differentiation"
+   ],
+   "do": [
+    "start four to six weeks after surgery",
+    "surgery → end of RT < about 11 weeks",
+    "60 Gy in 30 · 66 Gy in 33 if close, ENE",
+    "positive margin or ENE → + cisplatin"
+   ]
+  },
+  {
+   "st": "onc",
+   "art": "paeds_ca",
+   "c": "pink",
+   "row": "bottom",
+   "zone": 2,
+   "t": "Paeds oncology",
+   "why": "Treated in a paediatric oncology centre, under protocols.",
+   "see": [
+    "rhabdomyosarcoma: commonest soft tissue sarcoma",
+    "parameningeal site = unfavourable",
+    "neuroblastoma: Horner + iris heterochromia",
+    "urine HVA, VMA raised in ~90%"
+   ],
+   "warn": "Bleeding aural polyp in a toddler: rhabdomyosarcoma until proved otherwise."
+  },
+  {
+   "st": "late",
+   "art": "hnrt",
+   "c": "grey",
+   "row": "bottom",
+   "zone": 5,
+   "t": "Late effects and ORN",
+   "tag": "interchange",
+   "why": "Permanent; they depend on dose per fraction and total dose.",
+   "see": [
+    "xerostomia: mean parotid > about 26 Gy",
+    "hypothyroidism up to half → TSH",
+    "cord < about 45–50 Gy (myelitis)",
+    "trismus, dysphagia: keep swallowing"
+   ],
+   "do": [
+    "ORN: exposed bone > three months, no tumour",
+    "risk > 60 Gy · extract ≥ two weeks before RT",
+    "ORN: biopsy · PENTOCLO · fibula flap"
+   ]
+  }
+ ],
+ "cells": {
+  "top-5": "stack",
+  "bottom-4": "stack"
+ },
+ "ride": {
+  "row": "bottom",
+  "zone": 4,
+  "text": [
+   "Zones follow the patient left to right, cause to life after.",
+   "Blue: surgical road. Orange: organ preservation.",
+   "Ringed stations are decisions."
+  ]
+ },
+ "checks": {
+  "row": "top",
+  "zone": 5,
+  "first": true,
+  "q": [
+   {
+    "art": "hncprinc",
+    "q": "cN0 oral tongue cancer, depth of invasion 6 mm.",
+    "o": [
+     "watch",
+     "elective neck treatment"
+    ],
+    "a": 1
+   },
+   {
+    "art": "hnrt",
+    "q": "Resected oral SCC: margin 3 mm, ENE in a node.",
+    "o": [
+     "radiotherapy alone",
+     "radiotherapy + cisplatin"
+    ],
+    "a": 1
+   }
+  ]
+ },
  "abbr": {
   "ABCDE": "asymmetry, border, colour, diameter, evolution",
   "AEIOU": "asymptomatic, expanding rapidly, immunosuppressed, older than 50, UV-exposed site",
@@ -345,12 +706,13 @@
   "BCC": "basal cell carcinoma",
   "CK20": "cytokeratin 20",
   "CT": "computed tomography",
+  "DOI": "depth of invasion",
   "EBV": "Epstein–Barr virus",
   "ENE": "extranodal extension",
   "FNA": "fine-needle aspiration",
   "HPV": "human papillomavirus",
   "HVA": "homovanillic acid",
-  "IMRT": "intensity-modulated radiotherapy",
+  "IHC": "immunohistochemistry",
   "LVI": "lymphovascular invasion",
   "MDT": "multidisciplinary team (tumour board)",
   "MRI": "magnetic resonance imaging",
@@ -360,11 +722,13 @@
   "PNI": "perineural invasion",
   "RT": "radiotherapy",
   "SCC": "squamous cell carcinoma",
+  "cSCC": "cutaneous squamous cell carcinoma",
   "SLNB": "sentinel lymph node biopsy",
   "TNM": "tumour, node, metastasis",
   "TSH": "thyroid-stimulating hormone",
   "TTF": "thyroid transcription factor (TTF-1)",
   "UICC": "Union for International Cancer Control",
+  "UV": "ultraviolet",
   "VMA": "vanillylmandelic acid"
  }
 }

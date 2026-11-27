@@ -1,0 +1,24 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{TITLE}</title>
+<link rel="icon" href="data:,"><link rel="stylesheet" href="route.css"></head><body>
+<header>
+ <div class="ttl"><h1>{H1}</h1><div class="st">{SUB}</div></div>
+ <nav id="tools" aria-label="Map controls">
+  <button data-a="maps" title="All maps">☰ <span>Maps</span></button>
+  <button data-a="view" title="Switch between the poster and the list of stops">▦ <span>Poster</span></button>
+  <button data-a="recall" aria-pressed="false" title="Hide what you see and do, to test yourself">✎ <span>Recall</span></button>
+  <button data-a="abbr" title="Abbreviations">Aa</button>
+  <button data-a="pdf" title="Download as PDF" hidden>⤓ <span>PDF</span></button>
+  <button class="only-poster" data-a="fit" title="Fit to screen">◎</button>
+  <button class="only-poster" data-a="out" aria-label="Zoom out">−</button><button class="only-poster" data-a="in" aria-label="Zoom in">+</button>
+ </nav>
+</header>
+<div id="stage"><div id="scaler"></div></div>
+<main id="stops"></main>
+<div id="abbr"></div>
+<div id="dl" role="dialog" aria-label="Download as PDF"><b>Download as PDF</b>
+ <button data-d="map"><span>⤓ This route map</span><small></small></button>
+ <button data-d="all"><span>⤓ All topics, merged</span><small></small></button>
+</div>
+<div id="toast" role="status"></div>
+<script>window.MAP={DATA};</script><script src="route.js"></script>
+</body></html>

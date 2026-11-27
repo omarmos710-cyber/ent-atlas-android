@@ -3,61 +3,662 @@
  "title": "The ear canal",
  "sec": "ear",
  "order": 2,
- "hub": {"t": "The ear canal", "s": "from wax to carcinoma", "icon": "ear"},
+ "sub": "Outside in: pinna, cartilage, bone, drum, skull base. Granulation in the canal is the junction where a biopsy decides.",
  "branches": [
-  {"id": "oe", "name": "Otitis externa", "c": "orange", "icon": "microbe",
-   "subs": [
-    ["Acute diffuse", ["Pseudomonas, S. aureus", "tragal tenderness, mobile drum", "aural toilet + antibiotic-steroid drops", "wick if canal swollen shut", "no oral antibiotics unless spreading"]],
-    ["Furuncle", ["hair follicle: outer cartilaginous canal only", "pain on chewing · mimics mastoiditis"]],
-    ["Otomycosis", ["itch · wet newspaper mass", "A. niger black · Candida creamy white", "clotrimazole ≥ 14 days after clearing"]],
-    ["Necrotising", ["older diabetic, severe night pain", "granulation at bony-cartilaginous junction", "skull base osteomyelitis", "VII first, then IX–XII"]],
-    ["Treat necrotising", ["biopsy granulation: exclude SCC", "CT normal until ~30% demineralised", "IV antipseudomonal ≥ six weeks", "mortality ~5–20%"]]
-   ]},
-  {"id": "canal", "name": "Wax & foreign bodies", "c": "blue", "icon": "target",
-   "subs": [
-    ["Anatomy", ["~24 mm · outer third cartilaginous", "isthmus ~6 mm from drum", "pinna up + back (infant: down + back)"]],
-    ["Wax", ["remove only if symptoms or drum hidden", "softening drops: any beat none", "irrigate along posterosuperior wall"]],
-    ["Never irrigate", ["perforation, grommet, ear surgery", "only hearing ear", "vegetable matter, button battery"]],
-    ["Foreign bodies", ["button battery: same day, no drops", "live insect: kill first with oil", "round object: hook from behind, no forceps", "GA after a failed attempt"]],
-    ["Exostoses/osteoma", ["exostoses: multiple, bilateral, cold water", "osteoma: single, pedunculated, suture line", "drill, not gouge: facial nerve behind"]]
-   ]},
-  {"id": "ko", "name": "Keratin plugs", "c": "green", "icon": "crust",
-   "subs": [
-    ["Cause", ["skin stops migrating outwards"]],
-    ["Keratosis obturans", ["plug fills canal, widens it all round", "acute severe pain + conductive loss", "younger · bronchiectasis, sinusitis"]],
-    ["Canal cholesteatoma", ["focal erosion + dead bone, posteroinferior", "dull ache, hearing normal", "older · after surgery, trauma, radiation"]],
-    ["Treat", ["remove under microscope, not syringing", "salicylic acid 2% limits reaccumulation", "biopsy granulation: exclude carcinoma", "canalplasty if extensive or recurrent"]]
-   ]},
-  {"id": "myring", "name": "Myringitis", "c": "purple", "icon": "drum",
-   "subs": [
-    ["Bullous", ["after a cold", "blood blisters on drum + deep canal", "sudden pain, settles in three or four days", "always check hearing: sensorineural loss"]],
-    ["Bullous = AOM", ["variant of AOM: S. pneumoniae first", "Mycoplasma rarely responsible", "analgesia · lance blebs · antibiotic if AOM"]],
-    ["Granular", ["itch, foul painless discharge", "granulation on drum, no perforation", "middle ear healthy", "Pseudomonas, Staphylococcus, Proteus"]],
-    ["Treat granular", ["cleaning + antibiotic-steroid drops", "resistant: silver nitrate cautery or laser", "tympanoplasty: recurrence common"]]
-   ]},
-  {"id": "extca", "name": "External ear tumours", "c": "red", "icon": "lump",
-   "subs": [
-    ["Where", ["pinna 85% · canal 10% · middle ear 5%", "biopsy any non-healing lesion"]],
-    ["Pinna cancer", ["BCC commonest: pearly rolled edge", "SCC: helical ulcer, spreads to nodes", "SCC margin ≥ 6 mm (10 mm very high risk)", "ear = high-risk site"]],
-    ["Benign pinna", ["keloid: excision + steroid injection", "keratoacanthoma: crater, looks malignant"]],
-    ["Canal SCC", ["long-standing chronic discharge", "bloody discharge, pain, granulation", "facial palsy = advanced disease"]],
-    ["Pittsburgh", ["no TNM for the canal", "T4: facial palsy, dura, > 0.5 cm soft tissue", "any node = advanced (stage III–IV)", "lateral temporal bone resection"]]
-   ]}
+  {
+   "id": "oe",
+   "name": "Otitis externa"
+  },
+  {
+   "id": "canal",
+   "name": "Wax & foreign bodies"
+  },
+  {
+   "id": "ko",
+   "name": "Keratin plugs"
+  },
+  {
+   "id": "myring",
+   "name": "Myringitis"
+  },
+  {
+   "id": "extca",
+   "name": "External ear tumours"
+  }
  ],
- "links": [
-  ["canal", "oe", "lost wax, cotton buds"],
-  ["ko", "canal", "not wax: don't syringe"],
-  ["oe", "myring", "haemorrhagica = bullous"],
-  ["oe", "extca", "biopsy granulation"]
+ "zones": [
+  [
+   "Pinna",
+   44
+  ],
+  [
+   "Cartilaginous third",
+   88
+  ],
+  [
+   "Bony canal",
+   146
+  ],
+  [
+   "Drum",
+   58
+  ],
+  [
+   "Skull base",
+   64
+  ]
  ],
+ "st": {
+  "blk": {
+   "t": "Blocked ear",
+   "x": 22,
+   "y": 33,
+   "lab": "b"
+  },
+  "fb": {
+   "t": "Foreign body",
+   "x": 62,
+   "y": 17,
+   "lab": "b"
+  },
+  "wax": {
+   "t": "Wax",
+   "x": 74,
+   "y": 33,
+   "ix": true,
+   "lab": "b",
+   "dx": -7
+  },
+  "furu": {
+   "t": "Furuncle",
+   "x": 104,
+   "y": 5,
+   "lab": "l"
+  },
+  "aoe": {
+   "t": "Acute OE",
+   "x": 152,
+   "y": 17,
+   "ix": true,
+   "lab": "b"
+  },
+  "myco": {
+   "t": "Otomycosis",
+   "x": 222,
+   "y": 5,
+   "lab": "r"
+  },
+  "exo": {
+   "t": "Exostoses",
+   "x": 150,
+   "y": 48,
+   "lab": "r"
+  },
+  "kp": {
+   "t": "Keratin plug",
+   "x": 190,
+   "y": 33,
+   "ix": true,
+   "lab": "a",
+   "dx": 4
+  },
+  "ko": {
+   "t": "Keratosis obturans",
+   "x": 190,
+   "y": 48,
+   "lab": "b",
+   "dx": -6
+  },
+  "cc": {
+   "t": "Cholesteatoma",
+   "x": 226,
+   "y": 48,
+   "lab": "b",
+   "dx": 4
+  },
+  "gran": {
+   "t": "Granulation",
+   "x": 254,
+   "y": 33,
+   "ix": true,
+   "lab": "a",
+   "dx": 12
+  },
+  "pca": {
+   "t": "Pinna cancer",
+   "x": 24,
+   "y": 58,
+   "lab": "a"
+  },
+  "scc": {
+   "t": "Canal SCC",
+   "x": 270,
+   "y": 58,
+   "lab": "a",
+   "dx": 10
+  },
+  "t4": {
+   "t": "Pittsburgh T4",
+   "x": 372,
+   "y": 58,
+   "lab": "a"
+  },
+  "bull": {
+   "t": "Bullous",
+   "x": 306,
+   "y": 5,
+   "lab": "r"
+  },
+  "grm": {
+   "t": "Granular",
+   "x": 306,
+   "y": 48,
+   "lab": "r"
+  },
+  "noe": {
+   "t": "Necrotising OE",
+   "x": 356,
+   "y": 33,
+   "lab": "a",
+   "dx": 2
+  },
+  "cn": {
+   "t": "Nerve palsies",
+   "x": 384,
+   "y": 17,
+   "lab": "a",
+   "dx": -4
+  }
+ },
+ "lines": [
+  {
+   "name": "Infection line",
+   "c": "orange",
+   "stops": [
+    "wax",
+    "@90,17",
+    "aoe",
+    "@236,17",
+    "gran",
+    "noe",
+    "cn"
+   ]
+  },
+  {
+   "c": "orange",
+   "w": 1.6,
+   "stops": [
+    "aoe",
+    "@140,5",
+    "furu"
+   ]
+  },
+  {
+   "c": "orange",
+   "w": 1.6,
+   "stops": [
+    "aoe",
+    "@164,5",
+    "myco"
+   ]
+  },
+  {
+   "name": "Blockage line",
+   "c": "blue",
+   "stops": [
+    "blk",
+    "wax",
+    "@89,48",
+    "exo"
+   ]
+  },
+  {
+   "c": "blue",
+   "w": 1.6,
+   "stops": [
+    "blk",
+    "@38,17",
+    "fb"
+   ]
+  },
+  {
+   "name": "Keratin line",
+   "c": "green",
+   "stops": [
+    "wax",
+    "kp",
+    "cc",
+    "gran"
+   ]
+  },
+  {
+   "c": "green",
+   "w": 1.6,
+   "stops": [
+    "kp",
+    "ko"
+   ]
+  },
+  {
+   "name": "Drum line",
+   "c": "purple",
+   "stops": [
+    "bull",
+    "grm"
+   ]
+  },
+  {
+   "name": "Tumour line",
+   "c": "red",
+   "stops": [
+    "pca",
+    "scc",
+    "t4"
+   ]
+  },
+  {
+   "c": "red",
+   "w": 1.6,
+   "stops": [
+    "gran",
+    "@254,42",
+    "scc"
+   ]
+  }
+ ],
+ "segs": [
+  [
+   "wax",
+   "aoe",
+   "lost wax lets it in",
+   7,
+   -3.5
+  ],
+  [
+   "aoe",
+   "furu",
+   "one hair follicle",
+   -8,
+   -1.5
+  ],
+  [
+   "aoe",
+   "myco",
+   "drops fail: fungus",
+   8,
+   -1.5
+  ],
+  [
+   "aoe",
+   "gran",
+   "fails after a week",
+   -2,
+   -2.2
+  ],
+  [
+   "gran",
+   "noe",
+   "into the skull base",
+   25,
+   -2.2
+  ],
+  [
+   "noe",
+   "cn",
+   "VII, then IX–XII",
+   10,
+   9
+  ],
+  [
+   "wax",
+   "exo",
+   "impacts behind bone",
+   8,
+   5.5
+  ],
+  [
+   "wax",
+   "kp",
+   "not wax: keratin",
+   10,
+   -2.2
+  ],
+  [
+   "kp",
+   "ko",
+   "fills it all round",
+   -15,
+   0.5
+  ],
+  [
+   "kp",
+   "cc",
+   "focal erosion",
+   -6,
+   -3
+  ],
+  [
+   "pca",
+   "scc",
+   "10% arise in the canal",
+   -80,
+   -2.2
+  ],
+  [
+   "scc",
+   "t4",
+   "facial palsy = T4",
+   0,
+   -2.2
+  ],
+  [
+   "gran",
+   "scc",
+   "biopsy: carcinoma",
+   10,
+   0.5
+  ]
+ ],
+ "cards": [
+  {
+   "st": "furu",
+   "art": "oe",
+   "c": "orange",
+   "row": "top",
+   "zone": 1,
+   "t": "Furuncle",
+   "why": "A staphylococcal infection of a hair follicle, so only in the outer cartilaginous canal.",
+   "see": [
+    "pain worse on chewing · may mimic mastoiditis"
+   ],
+   "do": [
+    "flucloxacillin 500 mg four times a day, 7 days",
+    "incise when it points"
+   ]
+  },
+  {
+   "st": "fb",
+   "art": "canal",
+   "c": "blue",
+   "row": "top",
+   "zone": 1,
+   "t": "Foreign bodies",
+   "why": "Forceps push a smooth round object past the isthmus, about 6 mm from the drum.",
+   "do": [
+    "button battery: same day, no drops, no water",
+    "live insect: kill it first with oil",
+    "bead, pea: hook from behind, never forceps",
+    "GA after a failed attempt"
+   ]
+  },
+  {
+   "st": "wax",
+   "art": "canal",
+   "c": "blue",
+   "row": "bottom",
+   "zone": 1,
+   "t": "Wax",
+   "tag": "interchange",
+   "why": "Acidic, water-repellent and antibacterial; the canal clears it by epithelial migration.",
+   "see": [
+    "blocked ear · cough via Arnold's nerve"
+   ],
+   "do": [
+    "remove only if symptoms or drum must be seen",
+    "any drops beat none",
+    "irrigate along the posterosuperior wall"
+   ],
+   "warn": "Never irrigate: perforation, grommet, only hearing ear, vegetable matter, button battery."
+  },
+  {
+   "st": "aoe",
+   "art": "oe",
+   "c": "orange",
+   "row": "top",
+   "zone": 2,
+   "w": 1.6,
+   "t": "Acute otitis externa",
+   "tag": "interchange",
+   "why": "Moisture, scratching or loss of wax break the canal's defences and let infection in.",
+   "see": [
+    "Pseudomonas aeruginosa, S. aureus",
+    "pain on moving the tragus or pinna",
+    "red, swollen canal with debris",
+    "drum mobile, unlike otitis media"
+   ],
+   "do": [
+    "clean under vision: look in the anteroinferior recess",
+    "wick if the canal is swollen shut",
+    "antibiotic-steroid drops, a week to ten days",
+    "quinolones safe with a perforation or grommet",
+    "no oral antibiotics unless spreading, diabetic",
+    "check glucose: diabetic or recurrent"
+   ],
+   "warn": "Drops fail: think neomycin allergy, fungal superinfection, or necrotising infection."
+  },
+  {
+   "st": "myco",
+   "art": "oe",
+   "c": "orange",
+   "row": "top",
+   "zone": 2,
+   "t": "Otomycosis",
+   "why": "Repeated antibiotic drops, humidity and swimming predispose.",
+   "see": [
+    "intense itch · wet newspaper mass",
+    "A. niger black · Candida creamy white"
+   ],
+   "do": [
+    "meticulous cleaning",
+    "clotrimazole 1%: ≥ 14 days after clearing",
+    "stop antibiotic drops, keep dry"
+   ]
+  },
+  {
+   "st": "bull",
+   "art": "myring",
+   "c": "purple",
+   "row": "top",
+   "zone": 3,
+   "t": "Bullous myringitis",
+   "why": "A variant of AOM: the same organisms, S. pneumoniae first, are in the middle ear fluid.",
+   "see": [
+    "after a cold · sudden intense pain",
+    "settles in three or four days",
+    "blood blisters: drum + deep canal"
+   ],
+   "do": [
+    "analgesia · lance the blebs",
+    "treat AOM if present",
+    "always check hearing: SNHL"
+   ],
+   "warn": "Mycoplasma: the classic link, rarely responsible."
+  },
+  {
+   "st": "noe",
+   "art": "oe",
+   "c": "orange",
+   "row": "top",
+   "zone": 4,
+   "t": "Necrotising otitis externa",
+   "why": "Spreads from the canal floor through the fissures of Santorini into the skull base: osteomyelitis.",
+   "see": [
+    "older diabetic · ~1 in 10 not immunosuppressed",
+    "severe night pain, out of proportion",
+    "granulation at the bony-cartilaginous junction",
+    "VII first, then IX, X, XI and XII"
+   ],
+   "do": [
+    "biopsy granulation: exclude SCC",
+    "CT normal until ~30% demineralised",
+    "IV antipseudomonal now · ≥ six weeks in total"
+   ],
+   "warn": "Mortality around 5–20%."
+  },
+  {
+   "st": "pca",
+   "art": "extca",
+   "c": "red",
+   "row": "bottom",
+   "zone": 0,
+   "t": "Pinna cancer",
+   "why": "Sun-exposed skin: about 85% of ear cancers arise here.",
+   "see": [
+    "BCC commonest: pearly rolled edge",
+    "SCC: helical ulcer, spreads to nodes"
+   ],
+   "do": [
+    "biopsy any non-healing lesion",
+    "SCC margin ≥ 6 mm (10 mm very high risk)"
+   ]
+  },
+  {
+   "st": "exo",
+   "art": "canal",
+   "c": "blue",
+   "row": "bottom",
+   "zone": 1,
+   "t": "Exostoses or osteoma",
+   "see": [
+    "exostoses: multiple, both ears, cold water",
+    "osteoma: single, pedunculated, suture line"
+   ],
+   "do": [
+    "microsuction + drops first",
+    "drill: protect the facial nerve posteriorly",
+    "child: CT first, may be atresia"
+   ]
+  },
+  {
+   "st": "ko",
+   "art": "ko",
+   "c": "green",
+   "row": "bottom",
+   "zone": 2,
+   "t": "Keratosis obturans",
+   "why": "Skin of the drum and deep canal stops migrating outwards, so keratin builds up.",
+   "see": [
+    "white plug fills the canal, widens it all round",
+    "acute severe pain · conductive loss",
+    "younger · bronchiectasis, sinusitis"
+   ],
+   "do": [
+    "remove under the microscope",
+    "salicylic acid 2% in alcohol",
+    "lifelong follow-up"
+   ],
+   "warn": "Not wax: do not syringe it again and again."
+  },
+  {
+   "st": "cc",
+   "art": "ko",
+   "c": "green",
+   "row": "bottom",
+   "zone": 2,
+   "t": "Canal cholesteatoma",
+   "see": [
+    "focal erosion, dead bone, posteroinferior",
+    "dull ache · hearing normal",
+    "older · after surgery, trauma, radiation"
+   ],
+   "do": [
+    "CT: mastoid and facial nerve",
+    "biopsy granulation: exclude carcinoma",
+    "canalplasty if extensive or recurrent"
+   ]
+  },
+  {
+   "st": "grm",
+   "art": "myring",
+   "c": "purple",
+   "row": "bottom",
+   "zone": 3,
+   "t": "Granular myringitis",
+   "why": "Granulation replaces the drum's epithelium, without a perforation; the middle ear is healthy.",
+   "see": [
+    "itch, foul painless discharge",
+    "Staphylococcus, Pseudomonas, Proteus"
+   ],
+   "do": [
+    "cleaning + antibiotic-steroid drops",
+    "resistant: cautery or laser",
+    "persistent granulation: biopsy"
+   ]
+  },
+  {
+   "st": "scc",
+   "art": "extca",
+   "c": "red",
+   "row": "bottom",
+   "zone": 4,
+   "t": "Canal SCC → Pittsburgh",
+   "why": "Often follows long-standing chronic discharge. Staged by modified Pittsburgh.",
+   "see": [
+    "bloody discharge, pain, granulation",
+    "T4: dura, facial palsy, > 0.5 cm soft tissue",
+    "any node = advanced (III–IV)"
+   ],
+   "do": [
+    "lateral temporal bone resection"
+   ]
+  }
+ ],
+ "cells": {
+  "top-1": "stack",
+  "bottom-1": "stack",
+  "bottom-4": "stack"
+ },
+ "ride": {
+  "row": "top",
+  "zone": 0,
+  "text": [
+   "Zones run from the pinna inwards to the skull base.",
+   "Ringed stations are decisions: is it wax? did the drops work? is the granulation benign?"
+  ]
+ },
+ "checks": {
+  "row": "bottom",
+  "zone": 4,
+  "q": [
+   {
+    "art": "oe",
+    "q": "Older diabetic, night pain, canal-floor granulation.",
+    "o": [
+     "more drops",
+     "oral flucloxacillin",
+     "biopsy, imaging, admit"
+    ],
+    "a": 2
+   },
+   {
+    "art": "ko",
+    "q": "Young, severe pain, white plug widening the canal.",
+    "o": [
+     "keratosis obturans",
+     "canal cholesteatoma"
+    ],
+    "a": 0
+   },
+   {
+    "art": "myring",
+    "q": "Blood blisters on the drum: test not to miss?",
+    "o": [
+     "hearing",
+     "CT"
+    ],
+    "a": 0
+   }
+  ]
+ },
  "abbr": {
   "AOM": "acute otitis media",
   "BCC": "basal cell carcinoma",
   "CT": "computed tomography",
   "GA": "general anaesthesia",
   "IV": "intravenous",
+  "OE": "otitis externa",
   "SCC": "squamous cell carcinoma",
-  "TNM": "tumour–node–metastasis classification",
-  "VII, IX–XII": "facial; glossopharyngeal, vagus, accessory, hypoglossal nerves"
+  "SNHL": "sensorineural hearing loss",
+  "VII, IX, X, XI, XII": "facial, glossopharyngeal, vagus, accessory, hypoglossal nerves"
  }
 }

@@ -3,74 +3,624 @@
  "title": "The threatened airway",
  "sec": "larynx",
  "order": 2,
- "hub": {"t": "The threatened airway", "s": "noisy breathing to a safe airway", "icon": "airway"},
+ "sub": "Noisy breathing, level by level: the phase of the stridor names the zone, the story names the line.",
  "branches": [
-  {"id": "stridor", "name": "Approach to stridor", "c": "blue", "icon": "sound",
-   "subs": [
-    ["Phase = site", ["inspiratory → supraglottis", "biphasic → glottis, subglottis", "expiratory → intrathoracic trachea"]],
-    ["Other clues", ["normal cry: laryngomalacia, stenosis", "weak cry → vocal folds", "barking cough → subglottis", "prone better: laryngomalacia"]],
-    ["Severity", ["stridor at rest + recession = moderate", "agitation, drooling = severe", "quieter + tiring = impending arrest", "oximetry normal until late"]],
-    ["Immediate", ["calm, upright, in a parent's arms", "humidified oxygen without distress", "senior anaesthetist + ENT early", "adrenaline, dexamethasone, heliox"]],
-    ["Secure it", ["intubate in theatre, ENT scrubbed", "fails → scalpel–bougie–tube", "laryngeal tumour → awake tracheostomy", "scope whole airway: second lesion"]]
-   ]},
-  {"id": "croup", "name": "Croup & epiglottitis", "c": "red", "icon": "microbe",
-   "subs": [
-    ["Croup", ["parainfluenza · six months to three years", "barking cough, not toxic · steeple sign", "dexamethasone 0.15 mg/kg once", "neb adrenaline lasts ~2 h: watch rebound"]],
-    ["Epiglottitis", ["since Hib vaccine: mostly adults", "toxic, drooling, tripod, no cough", "do not upset: airway in theatre", "thumb sign · cherry-red epiglottis", "IV third-generation cephalosporin"]],
-    ["Tracheitis", ["croup that fails: high fever, toxic", "bronchoscopy removes membranes"]],
-    ["Diphtheria", ["unimmunised child under ten", "grey membrane bleeds when lifted", "antitoxin on suspicion", "bed rest: myocarditis"]],
-    ["Acute laryngitis", ["voice rest, not whispering", "breathlessness = not laryngitis", "no routine antibiotics or steroids"]],
-    ["Laryngeal oedema", ["airway first, then the cause", "ACE inhibitor: stop it"]]
-   ]},
-  {"id": "lxcong", "name": "Congenital larynx", "c": "orange", "icon": "child",
-   "subs": [
-    ["Laryngomalacia", ["commonest · inspiratory, normal cry", "worse feeding, supine; better prone", "omega epiglottis, short aryepiglottic folds", "resolves by 12–24 months", "failure to thrive, apnoea → supraglottoplasty"]],
-    ["Paralysis", ["second commonest", "bilateral: good cry + stridor · Chiari", "many recover: defer surgery"]],
-    ["Subglottic stenosis", ["< 4 mm in a term neonate", "Cotton–Myer: I ≤ 50% · II 51–70%", "III 71–99% · IV no lumen", "acquired (intubation) far commoner"]],
-    ["Haemangioma", ["stridor at six weeks to six months", "half have a skin haemangioma (beard)", "propranolol first line"]],
-    ["Web · cleft", ["web: weak cry · test for 22q11", "cleft: choking, cyanosis with feeds", "palpate the interarytenoid area"]]
-   ]},
-  {"id": "fb", "name": "Inhaled foreign body", "c": "green", "icon": "target",
-   "subs": [
-    ["Who · what", ["over half under four", "peanuts: swell → vegetal bronchitis", "right main bronchus commonest"]],
-    ["Signs", ["cough + wheeze + reduced air entry", "silent interval: hours to weeks", "tracheal: audible slap, palpable thud", "one-sided wheeze, no response ≠ asthma"]],
-    ["Imaging", ["normal chest film does not exclude", "check valve → air trapping, shift away", "expiratory or decubitus films", "low-dose CT if doubtful"]],
-    ["Remove", ["rigid ventilating bronchoscopy", "strong story → scope despite normal film", "negative scope beats a missed object"]],
-    ["First aid", ["infant: five back blows + five chest thrusts", "older: back blows + abdominal thrusts", "coughing well → keep coughing, theatre", "no blind finger sweeps"]]
-   ]},
-  {"id": "lxtrauma", "name": "Laryngeal trauma", "c": "purple", "icon": "fracture",
-   "subs": [
-    ["Mechanism", ["anterior blow, head extended", "commoner after forty: calcified", "child: bends, but swelling dangerous"]],
-    ["Signs", ["stridor, hoarseness, haemoptysis", "surgical emphysema, lost prominence", "lucid interval → sudden obstruction", "assume a cervical spine injury"]],
-    ["Assess, airway", ["flexible nasendoscopy first", "CT only once the airway is safe", "distress → awake tracheostomy", "intubation risks a false passage"]],
-    ["Repair", ["within 24–48 h, before ten days", "suture mucosa, plate fractures, keel", "minor: steroids, voice rest, PPI"]],
-    ["Stenosis", ["intubation = commonest cause", "often misdiagnosed as asthma", "cuff pressure < 25–30 cm water"]],
-    ["Penetrating", ["breaches platysma", "hard signs → theatre", "stable: CT angiography, no zones"]]
-   ]},
-  {"id": "paeds_vs", "name": "Child's voice, swallow", "c": "teal", "icon": "swallow",
-   "subs": [
-    ["Hoarse child", ["dysphonia in 4–23% of children", "nodules commonest: regress at puberty", "papillomatosis second: airway risk", "adjuvants if > four procedures a year"]],
-    ["Look", ["flexible scope as small as 2.1 mm", "ultrasound: fold movement", "stroboscopy from three or four years"]],
-    ["Palsy", ["~5% after arch surgery: screen", "injection or ansa reinnervation"]],
-    ["Swallow", ["dysphagia in ~1% of children", "nose breathing ~first six months", "videofluoroscopy: every phase", "FEES: bedside, no radiation", "aspiration often silent"]],
-    ["Manage", ["speech therapist: textures, pacing", "gastrostomy if unsafe", "correct the structural cause"]]
-   ]}
+  {
+   "id": "stridor",
+   "name": "Approach to stridor"
+  },
+  {
+   "id": "croup",
+   "name": "Croup & epiglottitis"
+  },
+  {
+   "id": "lxcong",
+   "name": "Congenital larynx"
+  },
+  {
+   "id": "fb",
+   "name": "Inhaled foreign body"
+  },
+  {
+   "id": "lxtrauma",
+   "name": "Laryngeal trauma"
+  },
+  {
+   "id": "paeds_vs",
+   "name": "Child's voice, swallow"
+  }
  ],
- "links": [
-  ["stridor", "croup", "acute + barking"],
-  ["stridor", "lxcong", "infant, inspiratory"],
-  ["stridor", "fb", "sudden, while eating"],
-  ["croup", "lxcong", "recurrent → find a cause"],
-  ["lxtrauma", "lxcong", "intubation → stenosis"],
-  ["lxcong", "paeds_vs", "cleft, palsy → swallow"]
+ "zones": [
+  [
+   "Stridor: how bad?",
+   55
+  ],
+  [
+   "Supraglottis",
+   75
+  ],
+  [
+   "Glottis",
+   95
+  ],
+  [
+   "Subglottis",
+   85
+  ],
+  [
+   "Trachea and bronchi",
+   90
+  ]
  ],
+ "st": {
+  "stridor": {
+   "t": "Stridor",
+   "x": 28,
+   "y": 33,
+   "lab": "l",
+   "ix": true,
+   "dx": -1
+  },
+  "epig": {
+   "t": "Epiglottitis",
+   "x": 95,
+   "y": 17,
+   "lab": "a"
+  },
+  "croup": {
+   "t": "Croup",
+   "x": 245,
+   "y": 5,
+   "lab": "b"
+  },
+  "trach": {
+   "t": "Tracheitis",
+   "x": 335,
+   "y": 5,
+   "lab": "b"
+  },
+  "lmal": {
+   "t": "Laryngomalacia",
+   "x": 92,
+   "y": 33,
+   "lab": "a"
+  },
+  "palsy": {
+   "t": "Fold palsy",
+   "x": 165,
+   "y": 33,
+   "lab": "b"
+  },
+  "hchild": {
+   "t": "Child's voice",
+   "x": 198,
+   "y": 17,
+   "lab": "a"
+  },
+  "sgs": {
+   "t": "Stenosis",
+   "x": 250,
+   "y": 33,
+   "lab": "a",
+   "ix": true,
+   "dx": -6
+  },
+  "haem": {
+   "t": "Haemangioma",
+   "x": 275,
+   "y": 17,
+   "lab": "a"
+  },
+  "choke": {
+   "t": "Choking",
+   "x": 150,
+   "y": 46,
+   "lab": "a"
+  },
+  "tslap": {
+   "t": "Audible slap",
+   "x": 318,
+   "y": 46,
+   "lab": "b"
+  },
+  "rbr": {
+   "t": "Right bronchus",
+   "x": 375,
+   "y": 46,
+   "lab": "a"
+  },
+  "frac": {
+   "t": "Neck blow",
+   "x": 175,
+   "y": 59,
+   "lab": "a"
+  }
+ },
+ "lines": [
+  {
+   "name": "Fever line",
+   "c": "red",
+   "stops": [
+    "stridor",
+    "@56,5",
+    "croup",
+    "trach"
+   ]
+  },
+  {
+   "c": "red",
+   "stops": [
+    "stridor",
+    "@44,17",
+    "epig"
+   ]
+  },
+  {
+   "name": "Infant line",
+   "c": "orange",
+   "stops": [
+    "stridor",
+    "lmal",
+    "palsy",
+    "sgs"
+   ]
+  },
+  {
+   "c": "orange",
+   "w": 1.6,
+   "stops": [
+    "sgs",
+    "@266,17",
+    "haem"
+   ]
+  },
+  {
+   "name": "Child's voice spur",
+   "c": "teal",
+   "w": 1.6,
+   "stops": [
+    "palsy",
+    "@181,17",
+    "hchild"
+   ]
+  },
+  {
+   "name": "Choking line",
+   "c": "green",
+   "stops": [
+    "stridor",
+    "@41,46",
+    "choke",
+    "tslap",
+    "rbr"
+   ]
+  },
+  {
+   "name": "Injury line",
+   "c": "purple",
+   "stops": [
+    "stridor",
+    "@28,59",
+    "frac",
+    "sgs"
+   ]
+  }
+ ],
+ "segs": [
+  [
+   "stridor",
+   "croup",
+   "barking, toddler",
+   13,
+   -8.5
+  ],
+  [
+   "stridor",
+   "epig",
+   "drooling, toxic",
+   8.5,
+   -3.5
+  ],
+  [
+   "croup",
+   "trach",
+   "fails to settle",
+   14,
+   5.5
+  ],
+  [
+   "stridor",
+   "lmal",
+   "inspiratory, normal cry",
+   6,
+   5
+  ],
+  [
+   "lmal",
+   "palsy",
+   "weak cry: the folds",
+   0,
+   -2.2
+  ],
+  [
+   "palsy",
+   "sgs",
+   "stridor with a cold",
+   0,
+   -2.2
+  ],
+  [
+   "sgs",
+   "haem",
+   "six weeks to six months",
+   20,
+   0
+  ],
+  [
+   "palsy",
+   "hchild",
+   "the hoarse child",
+   14.5,
+   2
+  ],
+  [
+   "stridor",
+   "choke",
+   "sudden, while eating",
+   6,
+   4
+  ],
+  [
+   "choke",
+   "tslap",
+   "small ones pass on",
+   64,
+   -2.2
+  ],
+  [
+   "tslap",
+   "rbr",
+   "right: wider, vertical",
+   -3,
+   -2.2
+  ],
+  [
+   "stridor",
+   "frac",
+   "head extended",
+   -1.5,
+   10.5
+  ],
+  [
+   "frac",
+   "sgs",
+   "scar: stenosis",
+   -7.5,
+   10.5
+  ]
+ ],
+ "cards": [
+  {
+   "st": "stridor",
+   "art": "stridor",
+   "c": "blue",
+   "row": "top",
+   "zone": 0,
+   "t": "Stridor",
+   "tag": "interchange",
+   "why": "Air forced through a narrowed airway: timing tells you where, the story what, the work of breathing how long you have.",
+   "see": [
+    "inspiratory → supraglottis",
+    "biphasic → glottis, subglottis",
+    "expiratory → intrathoracic trachea",
+    "weak cry → folds · barking → subglottis",
+    "laryngomalacia: resolves by 18 to 24 months (sources vary)"
+   ]
+  },
+  {
+   "st": "stridor",
+   "art": "stridor",
+   "c": "blue",
+   "row": "bottom",
+   "zone": 0,
+   "t": "How bad, what now",
+   "see": [
+    "at rest + recession = moderate",
+    "agitation, drooling = severe",
+    "quieter + tiring = impending arrest"
+   ],
+   "do": [
+    "calm, upright, in a parent's arms",
+    "senior anaesthetist + ENT early",
+    "temporise: adrenaline, dexamethasone, heliox",
+    "intubate in theatre, ENT scrubbed"
+   ],
+   "warn": "Oximetry can stay normal until late."
+  },
+  {
+   "st": "epig",
+   "art": "croup",
+   "c": "red",
+   "row": "top",
+   "zone": 1,
+   "t": "Acute epiglottitis",
+   "why": "The loose supraglottic mucosa swells until the epiglottis acts like a ball valve.",
+   "see": [
+    "since Hib vaccine: mostly adults",
+    "toxic, drooling, tripod, no cough",
+    "adult: pain, normal oropharynx"
+   ],
+   "do": [
+    "airway in theatre, ENT ready",
+    "IV third-generation cephalosporin"
+   ],
+   "warn": "Do not upset: no tongue depressor, no cannula, no lying down."
+  },
+  {
+   "st": "lmal",
+   "art": "lxcong",
+   "c": "orange",
+   "row": "bottom",
+   "zone": 1,
+   "t": "Laryngomalacia",
+   "why": "The floppy supraglottis is drawn into the airway on inspiration.",
+   "see": [
+    "the commonest · cry normal",
+    "worse feeding, supine; better prone",
+    "omega epiglottis, short AE folds",
+    "resolves by 12 to 24 months (sources vary)"
+   ],
+   "do": [
+    "most: reassure, treat reflux",
+    "severe: exclude a second lesion, then supraglottoplasty"
+   ]
+  },
+  {
+   "st": "palsy",
+   "art": "lxcong",
+   "c": "orange",
+   "row": "top",
+   "zone": 2,
+   "t": "Congenital fold palsy",
+   "why": "The second commonest. Bilateral: both folds near the midline, so a good cry with stridor.",
+   "see": [
+    "unilateral: weak cry, feeding problems",
+    "bilateral: Arnold–Chiari, hydrocephalus"
+   ],
+   "do": [
+    "bilateral: often tracheostomy",
+    "defer surgery: many recover"
+   ]
+  },
+  {
+   "st": "hchild",
+   "art": "paeds_vs",
+   "c": "teal",
+   "row": "top",
+   "zone": 2,
+   "t": "Child's voice, swallow",
+   "see": [
+    "dysphonia in 4 to 23% of children",
+    "nodules commonest, papillomas second",
+    "scope as small as 2.1 mm"
+   ],
+   "do": [
+    "nodules: voice therapy",
+    "swallow: videofluoroscopy or FEES",
+    "palpate interarytenoid area: cleft"
+   ],
+   "warn": "Aspiration in children is often silent."
+  },
+  {
+   "st": "choke",
+   "art": "fb",
+   "c": "green",
+   "row": "bottom",
+   "zone": 2,
+   "t": "Choking",
+   "why": "Large objects lodge above the glottis. Cannot speak, breathe or cough: act now.",
+   "do": [
+    "infant: five back blows, five chest thrusts",
+    "older: five back blows, five abdominal thrusts",
+    "coughing well: keep coughing, to theatre",
+    "no blind finger sweeps"
+   ]
+  },
+  {
+   "st": "frac",
+   "art": "lxtrauma",
+   "c": "purple",
+   "row": "bottom",
+   "zone": 2,
+   "t": "Laryngeal fracture",
+   "why": "A direct anterior blow with the head extended; commoner after forty, when cartilage calcifies.",
+   "see": [
+    "stridor, hoarseness, haemoptysis",
+    "emphysema, lost thyroid prominence",
+    "lucid interval, then sudden obstruction"
+   ],
+   "do": [
+    "distress: awake tracheostomy under LA",
+    "stable: flexible endoscopy, then CT",
+    "repair within 24 to 48 h, before ten days"
+   ],
+   "warn": "Intubation risks a false passage. Assume a cervical spine injury."
+  },
+  {
+   "st": "croup",
+   "art": "croup",
+   "c": "red",
+   "row": "top",
+   "zone": 3,
+   "t": "Croup",
+   "why": "Loose subglottic tissue swells inside the rigid cricoid ring.",
+   "see": [
+    "six months to three years · parainfluenza",
+    "barking cough, not toxic · steeple sign"
+   ],
+   "do": [
+    "dexamethasone 0.15 mg/kg, single dose",
+    "moderate to severe: nebulised adrenaline, about 2 hours"
+   ],
+   "warn": "Watch for rebound after adrenaline."
+  },
+  {
+   "st": "haem",
+   "art": "lxcong",
+   "c": "orange",
+   "row": "top",
+   "zone": 3,
+   "t": "Subglottic haemangioma",
+   "why": "Silent at birth; stridor appears as it proliferates.",
+   "see": [
+    "six weeks to six months · recurrent croup",
+    "about half: skin haemangioma, beard"
+   ],
+   "do": [
+    "propranolol: first line",
+    "no biopsy: it may bleed"
+   ]
+  },
+  {
+   "st": "sgs",
+   "art": "lxcong",
+   "c": "orange",
+   "row": "bottom",
+   "zone": 3,
+   "t": "Subglottic stenosis",
+   "tag": "interchange",
+   "see": [
+    "congenital: < 4 mm in a term neonate",
+    "Cotton–Myer I up to 50% · II 51 to 70%",
+    "III 71 to 99% · IV no lumen",
+    "acquired (intubation) far commoner"
+   ]
+  },
+  {
+   "st": "sgs",
+   "art": "lxtrauma",
+   "c": "purple",
+   "row": "bottom",
+   "zone": 3,
+   "t": "Acquired stenosis",
+   "why": "Tube and cuff cause pressure necrosis of the posterior glottis and subglottis.",
+   "see": [
+    "intubation: the commonest cause",
+    "often misdiagnosed as asthma"
+   ],
+   "do": [
+    "thin, soft: radial incisions + balloon",
+    "firm, long: reconstruction or resection",
+    "cuff pressure below about 25 to 30 cm water"
+   ]
+  },
+  {
+   "st": "trach",
+   "art": "croup",
+   "c": "red",
+   "row": "top",
+   "zone": 4,
+   "t": "Bacterial tracheitis",
+   "why": "A rare, serious bacterial infection, often following viral croup.",
+   "see": [
+    "high fever, toxic, thick secretions",
+    "fails to respond to croup treatment"
+   ],
+   "do": [
+    "bronchoscopy: remove membranes",
+    "intubation · IV antibiotics"
+   ]
+  },
+  {
+   "st": "rbr",
+   "art": "fb",
+   "c": "green",
+   "row": "bottom",
+   "zone": 4,
+   "t": "Inhaled foreign body",
+   "why": "Small objects pass to the bronchi, most often the right: wider, shorter, more vertical.",
+   "see": [
+    "more than half under four",
+    "tracheal: audible slap, palpable thud",
+    "triad: cough, wheeze, less air entry",
+    "silent interval: hours to weeks"
+   ],
+   "do": [
+    "normal chest film does not exclude",
+    "rigid ventilating bronchoscopy"
+   ],
+   "warn": "A negative bronchoscopy beats a missed foreign body."
+  }
+ ],
+ "cells": {
+  "bottom-0": "stack",
+  "bottom-3": "stack",
+  "top-4": "stack",
+  "top-2": "stack",
+  "top-3": "stack"
+ },
+ "ride": {
+  "row": "bottom",
+  "zone": 0,
+  "text": [
+   "Zones follow the airway down from the supraglottis to the bronchi; the phase of the stridor names the zone.",
+   "Lines are the stories: fever, the infant, choking, injury. Ringed stations are decisions."
+  ]
+ },
+ "checks": {
+  "row": "top",
+  "zone": 4,
+  "first": true,
+  "q": [
+   {
+    "art": "croup",
+    "q": "Toddler: barking cough, stridor, not toxic.",
+    "o": [
+     "IV antibiotics",
+     "oral dexamethasone 0.15 mg/kg",
+     "lateral neck film first"
+    ],
+    "a": 1
+   },
+   {
+    "art": "croup",
+    "q": "Child upright, drooling, muffled, no cough.",
+    "o": [
+     "examine the throat",
+     "airway in theatre",
+     "neck film alone"
+    ],
+    "a": 1
+   },
+   {
+    "art": "fb",
+    "q": "One-sided wheeze after nuts; chest film normal.",
+    "o": [
+     "treat as asthma",
+     "rigid bronchoscopy",
+     "repeat film later"
+    ],
+    "a": 1
+   },
+   {
+    "art": "lxtrauma",
+    "q": "Blow to the neck, now in respiratory distress.",
+    "o": [
+     "orotracheal intubation",
+     "awake tracheostomy under LA",
+     "CT first"
+    ],
+    "a": 1
+   }
+  ]
+ },
  "abbr": {
-  "ACE": "angiotensin-converting enzyme",
+  "AE": "aryepiglottic",
   "CT": "computed tomography",
   "ENT": "ear, nose and throat",
   "FEES": "fibreoptic endoscopic evaluation of swallowing",
   "Hib": "Haemophilus influenzae type b",
   "IV": "intravenous",
-  "PPI": "proton pump inhibitor"
+  "LA": "local anaesthesia"
  }
 }
