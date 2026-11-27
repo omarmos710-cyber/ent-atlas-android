@@ -3,69 +3,797 @@
  "title": "The voice",
  "sec": "larynx",
  "order": 1,
- "hub": {"t": "The voice", "s": "the hoarse voice, fold by fold", "icon": "voice"},
+ "sub": "The hoarse voice, from the first visit into the fold: lining, cover, nerve, and folds that are normal but misused.",
  "branches": [
-  {"id": "ap_hoarse", "name": "Approach to hoarseness", "c": "blue", "icon": "question",
-   "subs": [
-    ["Refer when", ["over three weeks: see the folds", "smoker, drinker or persistent ≥ 45: urgent", "American guideline: four weeks", "no antibiotics or PPI before laryngoscopy"]],
-    ["Red flags", ["stridor, breathlessness → airway first", "dysphagia, otalgia, haemoptysis", "weight loss, neck lump", "breathy + weak cough → palsy"]],
-    ["Onset tells", ["after shouting → haemorrhage, polyp", "after a cold → laryngitis", "after surgery, tube → nerve, arytenoid", "gradual → lesion or cancer"]],
-    ["Listen, look", ["breathy = gap · rough = irregular", "strained = tension or dystonia", "nasendoscope: sniff, 'ee', cough", "stroboscopy: mucosal wave"]]
-   ]},
-  {"id": "lxanat", "name": "Larynx anatomy", "c": "orange", "icon": "larynx",
-   "subs": [
-    ["Framework", ["C3–C6 in the adult", "cricoid: the only complete ring", "hyaline ossifies ~25 y → mimics foreign body"]],
-    ["Muscles", ["posterior cricoarytenoid: only abductor", "lateral cricoarytenoid, interarytenoid adduct", "cricothyroid lengthens + tenses"]],
-    ["Vocal fold", ["cover = epithelium + Reinke's space", "ligament = intermediate + deep layers", "glottis: narrowest part in adults"]],
-    ["Nerves", ["external branch → cricothyroid", "internal branch: sensation above folds", "recurrent: all other intrinsic muscles", "left hooks under the aortic arch"]],
-    ["Lymph", ["supraglottis: rich, often bilateral", "glottis: almost none → nodes rare", "subglottis → Delphian, paratracheal"]],
-    ["Infant larynx", ["high: C3–C4, epiglottis meets palate", "subglottis narrowest: 4–5 mm", "one mm of oedema halves the airway"]]
-   ]},
-  {"id": "benign", "name": "Benign lesions", "c": "green", "icon": "lump",
-   "subs": [
-    ["Nodules", ["bilateral, midpoint of membranous fold", "hourglass closure, wave preserved", "voice therapy first; surgery if persists"]],
-    ["Polyp", ["unilateral, after a shout", "men of thirty to fifty · diplophonia", "excise + voice therapy"]],
-    ["Cyst · sulcus", ["stiff segment, reduced wave", "no response to voice therapy", "sulcus: spindle gap, breathy"]],
-    ["Granuloma", ["vocal process: reflux, throat clearing", "PPI twice daily, 3 months", "excise last: recurrence common"]],
-    ["Leukoplakia", ["precancerous: keratosis → carcinoma", "biopsy, never just observe"]],
-    ["Papillomatosis", ["HPV 6 and 11 · ~80% of benign tumours", "debulk, not cure: microdebrider, laser", "cidofovir, bevacizumab if frequent", "avoid tracheostomy: tracheal spread"]]
-   ]},
-  {"id": "laryngitis", "name": "Chronic laryngitis", "c": "red", "icon": "flame",
-   "subs": [
-    ["A description", ["name the cause: smoking, reflux, voice", "biopsy: persistent, asymmetric, smoker"]],
-    ["Reflux (LPR)", ["heartburn in only a quarter to a third", "posterior oedema · pseudosulcus", "pH–impedance = most accurate", "PPI twice daily 8–12 weeks, then review"]],
-    ["Reinke's oedema", ["smokers: pale, translucent folds", "low voice, women notice it", "stop smoking · decortication"]],
-    ["Tuberculosis", ["secondary to lung TB · posterior larynx", "mouse-nibbled fold, turban epiglottis", "chest X-ray + biopsy", "lupus: anterior, painless, no lung disease"]],
-    ["Others", ["pachydermia: posterior · still biopsy", "scleroma → subglottic stenosis", "rheumatoid: cricoarytenoid fixation", "candida in inhaled steroid users"]]
-   ]},
-  {"id": "vfp", "name": "Vocal fold paralysis", "c": "purple", "icon": "nerve",
-   "subs": [
-    ["Causes", ["malignancy + surgery lead", "thyroidectomy: commonest bilateral", "idiopathic ~20–30%: exclusion", "left: lung cancer until proven not"]],
-    ["Work-up", ["contrast CT skull base → aortic arch", "palpate arytenoid: fixed or paralysed?", "EMG: no activity → poor recovery", "FEES or videofluoroscopy: aspiration"]],
-    ["Positions", ["Semon: abductors fail first", "combined palsy → cadaveric position"]],
-    ["Unilateral", ["breathy, weak; a third no symptoms", "early temporary injection", "permanent after 9–12 months", "type I thyroplasty ± arytenoid adduction"]],
-    ["Bilateral", ["good voice, poor airway", "tracheostomy = gold standard", "posterior cordotomy (Kashima)", "after thyroidectomy: wait, many recover"]],
-    ["Superior nerve", ["cannot raise pitch", "askew glottis, lax wavy fold"]]
-   ]},
-  {"id": "voice", "name": "Functional · dystonia", "c": "teal", "icon": "sound",
-   "subs": [
-    ["Muscle tension", ["strained, tiring, neck ache", "supraglottic squeeze on scope", "voice therapy + manual therapy", "phonasthenia: keyhole glottis"]],
-    ["Functional aphonia", ["whisper, stressed young women", "folds close on coughing", "cough, hum → voice back"]],
-    ["Puberphonia", ["childhood pitch, mature larynx", "Gutzmann: press thyroid → low voice"]],
-    ["Laryngeal dystonia", ["adductor ~90%: strangled breaks", "abductor: breathy breaks", "botulinum toxin A: three to four months", "count 80–90 vs 60–70"]],
-    ["Resonance", ["hypo: blocked nose ('by dose')", "hyper: velopharyngeal insufficiency"]]
-   ]}
+  {
+   "id": "ap_hoarse",
+   "name": "Approach to hoarseness"
+  },
+  {
+   "id": "lxanat",
+   "name": "Larynx anatomy"
+  },
+  {
+   "id": "benign",
+   "name": "Benign lesions"
+  },
+  {
+   "id": "laryngitis",
+   "name": "Chronic laryngitis"
+  },
+  {
+   "id": "vfp",
+   "name": "Vocal fold paralysis"
+  },
+  {
+   "id": "voice",
+   "name": "Functional · dystonia"
+  }
  ],
- "links": [
-  ["ap_hoarse", "vfp", "breathy → image the nerve"],
-  ["ap_hoarse", "voice", "normal folds, strained"],
-  ["lxanat", "vfp", "long left recurrent"],
-  ["lxanat", "benign", "lesions of the cover"],
-  ["laryngitis", "benign", "localised forms"]
+ "zones": [
+  [
+   "First visit",
+   50
+  ],
+  [
+   "The lining",
+   65
+  ],
+  [
+   "The cover",
+   115
+  ],
+  [
+   "The nerve",
+   95
+  ],
+  [
+   "Normal folds",
+   75
+  ]
  ],
+ "st": {
+  "hoarse": {
+   "t": "Hoarse > 3 weeks",
+   "x": 8,
+   "y": 33,
+   "lab": "b",
+   "dx": 9
+  },
+  "scope": {
+   "t": "Scope + strobe",
+   "x": 40,
+   "y": 33,
+   "lab": "a",
+   "ix": true,
+   "dx": -14
+  },
+  "chl": {
+   "t": "Chronic laryngitis",
+   "x": 85,
+   "y": 33,
+   "lab": "b",
+   "ix": true,
+   "dx": -14
+  },
+  "tb": {
+   "t": "TB larynx",
+   "x": 65,
+   "y": 17,
+   "lab": "a"
+  },
+  "lpr": {
+   "t": "Reflux",
+   "x": 110,
+   "y": 17,
+   "lab": "a"
+  },
+  "gran": {
+   "t": "Granuloma",
+   "x": 165,
+   "y": 17,
+   "lab": "a"
+  },
+  "nod": {
+   "t": "Nodules",
+   "x": 140,
+   "y": 33,
+   "lab": "a"
+  },
+  "polyp": {
+   "t": "Polyp · cyst",
+   "x": 186,
+   "y": 33,
+   "lab": "a"
+  },
+  "rrp": {
+   "t": "Papillomas",
+   "x": 226,
+   "y": 33,
+   "lab": "a"
+  },
+  "reinke": {
+   "t": "Reinke's oedema",
+   "x": 140,
+   "y": 48,
+   "lab": "a"
+  },
+  "leuko": {
+   "t": "Leukoplakia",
+   "x": 190,
+   "y": 48,
+   "lab": "a"
+  },
+  "immob": {
+   "t": "Fold won't move",
+   "x": 262,
+   "y": 48,
+   "lab": "l",
+   "ix": true,
+   "dy": -3.5
+  },
+  "uni": {
+   "t": "One fold",
+   "x": 302,
+   "y": 48,
+   "lab": "a"
+  },
+  "bil": {
+   "t": "Both folds",
+   "x": 302,
+   "y": 33,
+   "lab": "a"
+  },
+  "sln": {
+   "t": "Superior nerve",
+   "x": 302,
+   "y": 17,
+   "lab": "a"
+  },
+  "lrn": {
+   "t": "Long left nerve",
+   "x": 320,
+   "y": 58,
+   "lab": "a"
+  },
+  "mtd": {
+   "t": "Muscle tension",
+   "x": 346,
+   "y": 17,
+   "lab": "a",
+   "dx": 4
+  },
+  "aph": {
+   "t": "Aphonia",
+   "x": 386,
+   "y": 17,
+   "lab": "a",
+   "dx": -3
+  },
+  "dyst": {
+   "t": "Dystonia",
+   "x": 378,
+   "y": 33,
+   "lab": "a"
+  }
+ },
+ "lines": [
+  {
+   "name": "Reflux line",
+   "c": "red",
+   "stops": [
+    "hoarse",
+    "scope",
+    "chl",
+    "@101,17",
+    "lpr",
+    "gran"
+   ]
+  },
+  {
+   "name": "Lesion line",
+   "c": "green",
+   "stops": [
+    "chl",
+    "nod",
+    "polyp",
+    "rrp"
+   ]
+  },
+  {
+   "name": "Smoker's line",
+   "c": "brown",
+   "stops": [
+    "chl",
+    "@100,48",
+    "reinke",
+    "leuko"
+   ]
+  },
+  {
+   "name": "Mimic spur",
+   "c": "grey",
+   "w": 1.4,
+   "dash": true,
+   "stops": [
+    "chl",
+    "@69,17",
+    "tb"
+   ]
+  },
+  {
+   "name": "Nerve line",
+   "c": "purple",
+   "stops": [
+    "scope",
+    "@40,48",
+    "@50,58",
+    "@252,58",
+    "immob",
+    "uni"
+   ]
+  },
+  {
+   "c": "purple",
+   "stops": [
+    "immob",
+    "@277,33",
+    "bil"
+   ]
+  },
+  {
+   "c": "purple",
+   "stops": [
+    "immob",
+    "@262,17",
+    "sln"
+   ]
+  },
+  {
+   "c": "purple",
+   "w": 1.6,
+   "stops": [
+    "immob",
+    "@272,58",
+    "lrn"
+   ]
+  },
+  {
+   "name": "Function line",
+   "c": "teal",
+   "stops": [
+    "scope",
+    "@40,17",
+    "@52,5",
+    "@326,5",
+    "@338,17",
+    "mtd",
+    "aph"
+   ]
+  },
+  {
+   "c": "teal",
+   "stops": [
+    "mtd",
+    "@362,33",
+    "dyst"
+   ]
+  }
+ ],
+ "segs": [
+  [
+   "hoarse",
+   "scope",
+   "see them vibrate",
+   0,
+   10
+  ],
+  [
+   "scope",
+   "chl",
+   "inflamed lining",
+   0,
+   -2.2
+  ],
+  [
+   "chl",
+   "lpr",
+   "name the cause",
+   9,
+   1
+  ],
+  [
+   "lpr",
+   "gran",
+   "hammered processes",
+   0,
+   -2.2
+  ],
+  [
+   "chl",
+   "nod",
+   "localised forms",
+   0,
+   -2.2
+  ],
+  [
+   "nod",
+   "polyp",
+   "after a shout",
+   0,
+   -2.2
+  ],
+  [
+   "polyp",
+   "rrp",
+   "a true tumour",
+   0,
+   -2.2
+  ],
+  [
+   "chl",
+   "reinke",
+   "smoker",
+   0,
+   0
+  ],
+  [
+   "reinke",
+   "leuko",
+   "smoker's white patch",
+   0,
+   -2.2
+  ],
+  [
+   "chl",
+   "tb",
+   "biopsy the mimic",
+   -11,
+   1
+  ],
+  [
+   "scope",
+   "immob",
+   "fold doesn't move",
+   49,
+   15
+  ],
+  [
+   "immob",
+   "uni",
+   "one side",
+   0,
+   -2.2
+  ],
+  [
+   "immob",
+   "bil",
+   "both sides",
+   0,
+   0
+  ],
+  [
+   "immob",
+   "sln",
+   "cannot raise pitch",
+   0,
+   -10.5
+  ],
+  [
+   "immob",
+   "lrn",
+   "left: longer course",
+   -8,
+   2.5
+  ],
+  [
+   "scope",
+   "mtd",
+   "normal folds, strained",
+   30,
+   -14.5
+  ],
+  [
+   "mtd",
+   "aph",
+   "whisper",
+   0,
+   -2.2
+  ],
+  [
+   "mtd",
+   "dyst",
+   "voice breaks",
+   4,
+   -1.5
+  ]
+ ],
+ "cards": [
+  {
+   "st": "hoarse",
+   "art": "ap_hoarse",
+   "c": "red",
+   "row": "top",
+   "zone": 0,
+   "t": "Hoarse over three weeks",
+   "why": "The commonest presenting symptom of laryngeal cancer: any adult hoarse over three weeks has the folds seen.",
+   "see": [
+    "after a shout → haemorrhage, polyp",
+    "after a cold → laryngitis",
+    "after surgery, tube → nerve, arytenoid",
+    "gradual → lesion or cancer"
+   ],
+   "do": [
+    "smoker, drinker or over 45: urgent",
+    "stridor, breathless: airway first",
+    "American guideline: four weeks",
+    "no antibiotics, steroids, antireflux first"
+   ],
+   "warn": "Breathy voice + weak cough: image the nerve course."
+  },
+  {
+   "st": "scope",
+   "art": "ap_hoarse",
+   "c": "red",
+   "row": "bottom",
+   "zone": 0,
+   "t": "Scope + strobe",
+   "see": [
+    "breathy = a gap",
+    "rough = irregular vibration",
+    "strained = tension or dystonia"
+   ],
+   "do": [
+    "nasendoscope: sniff, 'ee', cough",
+    "stroboscopy: the mucosal wave"
+   ]
+  },
+  {
+   "st": "chl",
+   "art": "laryngitis",
+   "c": "red",
+   "row": "bottom",
+   "zone": 1,
+   "t": "Chronic laryngitis",
+   "tag": "interchange",
+   "why": "A description, not a diagnosis: name the cause. Smoking is the main one; others are reflux and voice misuse.",
+   "see": [
+    "voice tires and fails by evening",
+    "hawking, throat clearing, dry cough"
+   ],
+   "do": [
+    "stop smoking, alcohol; voice therapy",
+    "treat infection, treat reflux",
+    "biopsy: persistent, asymmetric, smoker"
+   ],
+   "warn": "TB, granulomas and carcinoma can look alike."
+  },
+  {
+   "st": "lpr",
+   "art": "laryngitis",
+   "c": "red",
+   "row": "top",
+   "zone": 1,
+   "t": "Reflux (LPR)",
+   "why": "Small amounts of acid and pepsin that the oesophagus tolerates injure the larynx, so few have heartburn.",
+   "see": [
+    "heartburn in only a quarter to a third",
+    "posterior oedema · pseudosulcus"
+   ],
+   "do": [
+    "mild: alginate liquid, 8 to 12 weeks",
+    "symptoms or signs: PPI twice daily, 8 to 12 weeks",
+    "pH–impedance: the most accurate test"
+   ],
+   "warn": "PPI evidence is modest: stop if no response."
+  },
+  {
+   "st": "tb",
+   "art": "laryngitis",
+   "c": "grey",
+   "row": "top",
+   "zone": 1,
+   "t": "TB larynx",
+   "tag": "mimic",
+   "why": "Almost always secondary to active lung TB, through infected sputum.",
+   "see": [
+    "posterior larynx · weak voice first",
+    "mouse-nibbled fold · turban epiglottis"
+   ],
+   "do": [
+    "chest radiograph, sputum, biopsy"
+   ],
+   "warn": "Lupus: anterior, painless, no lung disease."
+  },
+  {
+   "st": "gran",
+   "art": "benign",
+   "c": "red",
+   "row": "top",
+   "zone": 2,
+   "t": "Contact granuloma",
+   "why": "The vocal processes hammer together with hard glottal attacks and throat clearing; reflux is a major factor.",
+   "see": [
+    "pain on speaking, to the ear",
+    "constant throat clearing"
+   ],
+   "do": [
+    "PPI twice daily, 3 months",
+    "voice therapy: stop throat clearing",
+    "surgery last: recurrence common"
+   ]
+  },
+  {
+   "st": "nod",
+   "art": "benign",
+   "c": "green",
+   "row": "top",
+   "zone": 2,
+   "t": "Vocal nodules",
+   "why": "Chronic voice misuse, at the midpoint of the membranous fold, where vibration and collision are greatest.",
+   "see": [
+    "bilateral, symmetrical",
+    "teachers, singers, children",
+    "strobe: hourglass, wave preserved"
+   ],
+   "do": [
+    "voice therapy: the cornerstone",
+    "excise only if persists after therapy"
+   ]
+  },
+  {
+   "st": "polyp",
+   "art": "benign",
+   "c": "green",
+   "row": "top",
+   "zone": 2,
+   "t": "Polyp · cyst",
+   "why": "A sudden shout bleeds into one fold: a polyp. A cyst stiffens a segment instead.",
+   "see": [
+    "polyp: unilateral · diplophonia",
+    "men of thirty to fifty",
+    "cyst: stiff segment, reduced wave"
+   ],
+   "do": [
+    "polyp: excision + voice therapy",
+    "cyst: no response to therapy → excise"
+   ]
+  },
+  {
+   "st": "reinke",
+   "art": "benign",
+   "c": "brown",
+   "row": "bottom",
+   "zone": 2,
+   "t": "Reinke's oedema",
+   "why": "Gelatinous fluid fills Reinke's space; smoking is almost always responsible.",
+   "see": [
+    "pale, translucent, both folds",
+    "deep rough voice, noticed in women"
+   ],
+   "do": [
+    "stop smoking; reflux, thyroid",
+    "decortication, one side at a time"
+   ]
+  },
+  {
+   "st": "leuko",
+   "art": "benign",
+   "c": "brown",
+   "row": "bottom",
+   "zone": 2,
+   "t": "Leukoplakia",
+   "why": "Histology runs from keratosis through dysplasia to carcinoma in situ and invasive carcinoma: a precancerous condition.",
+   "see": [
+    "white plaque, smoker, mobile fold"
+   ],
+   "do": [
+    "biopsy or excisional microflap",
+    "stop smoking · follow up"
+   ],
+   "warn": "Reduced wave or impaired mobility: suspect carcinoma."
+  },
+  {
+   "st": "rrp",
+   "art": "benign",
+   "c": "green",
+   "row": "bottom",
+   "zone": 2,
+   "t": "Papillomatosis",
+   "why": "HPV 6 and 11: about 80% of benign laryngeal neoplasms.",
+   "see": [
+    "child: hoarse, then stridor",
+    "misread as asthma or croup"
+   ],
+   "do": [
+    "debulk, not cure: microdebrider, laser",
+    "cidofovir, bevacizumab if frequent",
+    "avoid tracheostomy: tracheal spread"
+   ]
+  },
+  {
+   "st": "sln",
+   "art": "vfp",
+   "c": "purple",
+   "row": "top",
+   "zone": 3,
+   "t": "Superior nerve",
+   "see": [
+    "cannot raise pitch",
+    "askew glottis, lax wavy fold"
+   ]
+  },
+  {
+   "st": "uni",
+   "art": "vfp",
+   "c": "purple",
+   "row": "bottom",
+   "zone": 3,
+   "t": "One fold palsy",
+   "why": "The folds cannot close; the aim is to close the glottic gap.",
+   "see": [
+    "weak, breathy; a third no symptoms"
+   ],
+   "do": [
+    "voice therapy early",
+    "early temporary injection",
+    "permanent after about 9 to 12 months",
+    "type I thyroplasty ± arytenoid adduction"
+   ]
+  },
+  {
+   "st": "lrn",
+   "art": "lxanat",
+   "c": "purple",
+   "row": "bottom",
+   "zone": 3,
+   "t": "Two nerves",
+   "why": "The left recurrent nerve hooks under the aortic arch: a long course, so paralysed far more often.",
+   "see": [
+    "recurrent: all intrinsic but cricothyroid",
+    "external branch → cricothyroid",
+    "posterior cricoarytenoid: only abductor"
+   ]
+  },
+  {
+   "st": "bil",
+   "art": "vfp",
+   "c": "purple",
+   "row": "top",
+   "zone": 3,
+   "t": "Both folds",
+   "why": "Both lie near the midline: good voice, poor airway.",
+   "do": [
+    "tracheostomy: the gold standard",
+    "posterior cordotomy (Kashima)",
+    "after thyroidectomy: wait, many recover"
+   ]
+  },
+  {
+   "st": "immob",
+   "art": "vfp",
+   "c": "purple",
+   "row": "top",
+   "zone": 3,
+   "t": "Fold won't move",
+   "tag": "interchange",
+   "w": 1.5,
+   "why": "A paralysed fold is a sign, not a diagnosis: find the cause along the whole nerve.",
+   "see": [
+    "malignancy and surgery lead",
+    "thyroidectomy: commonest bilateral",
+    "idiopathic about 20 to 30%"
+   ],
+   "do": [
+    "contrast CT skull base → aortic arch",
+    "palpate arytenoid: fixed or paralysed?",
+    "FEES or videofluoroscopy: aspiration"
+   ],
+   "warn": "Left palsy: exclude bronchogenic carcinoma."
+  },
+  {
+   "st": "aph",
+   "art": "voice",
+   "c": "teal",
+   "row": "top",
+   "zone": 4,
+   "t": "Functional aphonia",
+   "why": "The folds stay apart when speaking but close normally on coughing.",
+   "see": [
+    "sudden whisper, stressed young women"
+   ],
+   "do": [
+    "voice back through cough, hum"
+   ],
+   "warn": "Puberphonia: Gutzmann pressure gives a low voice."
+  },
+  {
+   "st": "mtd",
+   "art": "voice",
+   "c": "teal",
+   "row": "top",
+   "zone": 4,
+   "t": "Muscle tension",
+   "why": "Excessive tension of the laryngeal and neck muscles during phonation: a functional disorder.",
+   "see": [
+    "strained, tiring, neck ache",
+    "supraglottic squeeze on scope"
+   ],
+   "do": [
+    "voice therapy + manual therapy"
+   ]
+  },
+  {
+   "st": "dyst",
+   "art": "voice",
+   "c": "teal",
+   "row": "bottom",
+   "zone": 4,
+   "t": "Laryngeal dystonia",
+   "why": "Spasms during speech in a structurally normal larynx.",
+   "see": [
+    "adductor about 90%: strangled breaks",
+    "count 80 to 90 (adductor), 60 to 70 (abductor)"
+   ],
+   "do": [
+    "botulinum toxin A: lasts three to four months"
+   ]
+  }
+ ],
+ "cells": {
+  "top-1": "stack",
+  "top-3": "stack",
+  "top-4": "stack",
+  "bottom-0": "stack",
+  "bottom-3": "stack",
+  "bottom-4": "stack"
+ },
+ "ride": {
+  "row": "bottom",
+  "zone": 0,
+  "text": [
+   "Zones run from the first visit into the fold: lining, cover, nerve, then normal folds.",
+   "Lines are what the scope finds; ringed stations are decisions."
+  ]
+ },
+ "checks": {
+  "row": "bottom",
+  "zone": 4,
+  "q": [
+   {
+    "art": "ap_hoarse",
+    "q": "Smoker, hoarse for a month.",
+    "o": [
+     "antibiotics, review",
+     "antireflux drug trial",
+     "urgent laryngoscopy"
+    ],
+    "a": 2
+   },
+   {
+    "art": "vfp",
+    "q": "Left fold palsy, no obvious cause.",
+    "o": [
+     "call it idiopathic",
+     "CT skull base to aortic arch",
+     "voice therapy only"
+    ],
+    "a": 1
+   },
+   {
+    "art": "voice",
+    "q": "Whispers; folds close on coughing.",
+    "o": [
+     "functional aphonia",
+     "bilateral palsy",
+     "adductor dystonia"
+    ],
+    "a": 0
+   }
+  ]
+ },
  "abbr": {
   "CT": "computed tomography",
-  "EMG": "electromyography",
   "FEES": "fibreoptic endoscopic evaluation of swallowing",
   "HPV": "human papillomavirus",
   "LPR": "laryngopharyngeal reflux",

@@ -34,7 +34,7 @@ body.vposter #stage{display:block}
 .phead{display:flex;justify-content:space-between;align-items:flex-end;gap:8mm;position:relative;z-index:2}
 .phead h2{font-size:24pt;line-height:1;letter-spacing:-.01em}
 .phead h2 small{display:block;font-size:10.5pt;font-weight:400;color:var(--mut);margin-top:1.6mm;letter-spacing:0;max-width:240mm}
-.legend{display:flex;gap:2mm 6mm;flex-wrap:wrap;justify-content:flex-end;font-size:8pt;max-width:150mm}
+.legend{display:flex;gap:2mm 6mm;flex-wrap:wrap;justify-content:flex-end;font-size:8pt;flex:0 1 150mm;max-width:150mm}
 .legend span{display:flex;align-items:center;gap:1.6mm;white-space:nowrap}.legend i{width:9mm;height:1.6mm;border-radius:1mm;background:var(--c)}
 .legend i.d{background:repeating-linear-gradient(90deg,var(--c) 0 2mm,transparent 2mm 3.2mm)}
 .prow{display:grid;position:relative;z-index:2}

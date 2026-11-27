@@ -41,11 +41,11 @@ VIEWER = r'''
   else if(b.dataset.mm==="close"){ev.stopPropagation();close()}},true);
  document.addEventListener("keydown",ev=>{if(OV&&ev.key==="Escape"){ev.stopPropagation();close()}},true);
  const st=document.createElement("style");st.textContent=`
-.mmov{position:fixed;inset:0;z-index:9999;background:#fbfbf7;display:flex;flex-direction:column}
+.mmov{position:fixed;inset:0;z-index:9999;background:#eef1f0;display:flex;flex-direction:column}
 .mmbar{display:flex;align-items:center;gap:8px;padding:calc(10px + env(safe-area-inset-top)) 12px 10px;border-bottom:1px solid var(--line,#e3e0d6);background:var(--surface,#fff);color:var(--ink,#1d2330)}
 .mmbar b{flex:1;font:600 15px/1.2 system-ui,sans-serif;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .mmbar button{font:600 14px system-ui,sans-serif;border:1px solid var(--line,#cfcabd);background:transparent;color:inherit;border-radius:999px;padding:7px 14px;min-height:36px}
-.mmov iframe{flex:1;width:100%;border:0;background:#fbfbf7}
+.mmov iframe{flex:1;width:100%;border:0;background:#eef1f0}
 .armapbtn{display:flex;align-items:center;gap:12px;width:100%;margin:8px 0 4px;padding:12px 14px;border:1px solid var(--line,#ddd);border-radius:14px;background:var(--surface,#fff);color:var(--ink,#1d2330);text-align:left;cursor:pointer;font:inherit}
 .armapbtn .mmi{flex:none;width:40px;height:30px;position:relative}
 .armapbtn .mmi:before{content:"";position:absolute;left:14px;top:9px;width:12px;height:12px;border-radius:50%;border:2px solid #1d2330;background:#fff;box-shadow:-12px -7px 0 -3px #1f5fbf,13px -7px 0 -3px #e07b1a,-12px 9px 0 -3px #7b44b8,13px 9px 0 -3px #1f8a4c}
@@ -59,9 +59,9 @@ VIEWER = r'''
 '''
 
 MAPBTN = ('${(window.MAPS||{})[id]?`<button type="button" class="armapbtn" data-armap="${id}"><span class="mmi" aria-hidden="true"></span>'
-          '<span><b>Mind map</b><small>This topic among its neighbours</small></span></button>`:""}')
+          '<span><b>Mind map</b><small>This topic on its route map</small></span></button>`:""}')
 HOMEBTN = ('${M!=="dr"&&(window.MAPLIST||[]).length?`<button type="button" class="clmapbtn" data-mapidx><span class="mmi" aria-hidden="true"></span>'
-           '<span><b>Mind maps</b><small>${window.MAPLIST.length} maps that join related topics, with a recall mode</small></span></button>`:""}')
+           '<span><b>Mind maps</b><small>${window.MAPLIST.length} route maps that follow a disease from stop to stop</small></span></button>`:""}')
 
 ALL = '''<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Mind maps</title><link rel="stylesheet" href="route.css"><style>

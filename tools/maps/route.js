@@ -84,7 +84,7 @@ function stops(){
  const L='abcdef';
  let h=`<p class="intro">${esc(D.sub||'')}</p><div class="lines">${LINES.filter(l=>l.name).map(l=>`<span style="--c:${C(l.c)}"><i></i>${esc(l.name)}</span>`).join('')}</div>`;
  if(D.ride)h+=`<div class="box"><h3>How to ride</h3>${D.ride.text.map(t=>`<p>${esc(t)}</p>`).join('')}</div>`;
- D.zones.forEach((z,zi)=>{const cs=D.cards.map((c,i)=>[c,i]).filter(([c])=>c.zone===zi).sort((a,b)=>(a[0].row==='top'?0:1)-(b[0].row==='top'?0:1)||(ST[a[0].st]?.x||0)-(ST[b[0].st]?.x||0));
+ D.zones.forEach((z,zi)=>{const cs=D.cards.map((c,i)=>[c,i]).filter(([c])=>(ST[c.st]?zoneOf(ST[c.st].x):c.zone)===zi).sort((a,b)=>(a[0].row==='top'?0:1)-(b[0].row==='top'?0:1)||(ST[a[0].st]?.x||0)-(ST[b[0].st]?.x||0));
   if(!cs.length)return;
   h+=`<div class="zh">${esc(z[0])}</div>`;
   cs.forEach(([c,i])=>{const list=(lab,a)=>a&&a.length?`<p class="lab">${lab}</p><ul>${a.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:'';

@@ -309,7 +309,7 @@
   [
    "csom",
    "chole",
-   "safe → unsafe",
+   "skin grows in",
    0,
    -2.2
   ],
@@ -358,7 +358,7 @@
   [
    "fist",
    "dura",
-   "erodes tegmen",
+   "along the IAC",
    -19,
    1.5
   ]
@@ -394,7 +394,7 @@
    "do": [
     "analgesia for every child",
     "NICE: immediate if very unwell or high risk",
-    "< 2 y bilateral or otorrhoea: immediate or back-up",
+    "consider immediate/back-up: < 2 y both ears; otorrhoea",
     "amoxicillin 5–7 days",
     "safety-net at 48–72 h"
    ],
@@ -479,7 +479,7 @@
    "zone": 4,
    "t": "Through the dura",
    "tag": "interchange",
-   "why": "Both lines meet here. Six complications lie beyond: meningitis, brain abscess, extradural, subdural, lateral sinus thrombophlebitis, otitic hydrocephalus.",
+   "why": "Cholesteatoma, osteitis and granulation destroy the tegmen or the sinus plate, bringing infection to the dura. Six complications lie beyond.",
    "do": [
     "CT, then MRI + MRV",
     "LP only once mass effect excluded",
@@ -495,7 +495,7 @@
    "zone": 1,
    "w": 1,
    "t": "Perforation",
-   "why": "Pressure bursts the drum; the discharge relieves the pain.",
+   "why": "Pus under pressure bursts the drum; discharge appears and the pain settles.",
    "see": [
     "~5% of AOM",
     "~90% heal"
@@ -571,15 +571,17 @@
    "row": "bottom",
    "zone": 3,
    "t": "Labyrinth",
-   "why": "Cholesteatoma erodes the bony labyrinth: fistula first, then labyrinthitis.",
+   "why": "Cholesteatoma erodes the bony labyrinth (a fistula); toxins or bacteria reaching it cause labyrinthitis.",
    "see": [
     "fistula: 7–10% of cholesteatomas · 90% lateral canal",
     "HRCT shows only ~60%",
-    "fistula test positive in only 30–50%"
-   ],
-   "do": [
+    "fistula test positive in only 30–50%",
     "serous: nystagmus towards the ear, recovers",
     "suppurative: towards healthy ear, dead ear"
+   ],
+   "do": [
+    "fistula test · audiogram · HRCT",
+    "IV antibiotics · surgery for the cholesteatoma"
    ]
   },
   {
@@ -641,7 +643,7 @@
     "q": "Under 2 years, both drums bulging, well.",
     "o": [
      "analgesia only",
-     "+ amoxicillin, immediate or back-up",
+     "+ consider amoxicillin, now or back-up",
      "IV ceftriaxone"
     ],
     "a": 1
@@ -687,6 +689,7 @@
   "HR": "isoniazid + rifampicin",
   "HRCT": "high-resolution CT",
   "HRZE": "isoniazid, rifampicin, pyrazinamide, ethambutol",
+  "IAC": "internal auditory canal",
   "IV": "intravenous",
   "LP": "lumbar puncture",
   "MRI": "magnetic resonance imaging",

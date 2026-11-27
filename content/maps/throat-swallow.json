@@ -3,302 +3,638 @@
  "title": "Swallowing",
  "sec": "mouth",
  "order": 3,
- "hub": {
-  "t": "Swallowing",
-  "s": "where does it stick?",
-  "icon": "swallow"
- },
+ "sub": "Follow the bolus from the clinic down the tube: every zone is a level where it can stick, measured from the upper incisors.",
  "branches": [
   {
    "id": "ap_dysph",
-   "name": "Approach: dysphagia",
-   "c": "blue",
-   "icon": "question",
-   "subs": [
-    [
-     "Where?",
-     [
-      "oropharyngeal: can't start, cough, wet voice",
-      "oesophageal: sticks after, behind sternum",
-      "solids → liquids = mechanical",
-      "liquids from the start = motility"
-     ]
-    ],
-    [
-     "Red flags",
-     [
-      "progressive, weight loss → urgent OGD",
-      "NICE NG12: OGD within two weeks",
-      "hoarse, otalgia, neck lump → head & neck",
-      "can't swallow saliva = bolus emergency"
-     ]
-    ],
-    [
-     "Examine",
-     [
-      "flexible endoscopy: piriform pooling",
-      "cranial nerves · trial swallow of water"
-     ]
-    ],
-    [
-     "Tests",
-     [
-      "FEES / videofluoroscopy: oropharyngeal",
-      "barium: pouch, web, ring, stricture",
-      "OGD: oesophageal + red flags",
-      "HRM: motility (Chicago)"
-     ]
-    ],
-    [
-     "Manage",
-     [
-      "SLT first: is oral intake safe?",
-      "texture, chin tuck, head turn",
-      "NG or gastrostomy if unsafe",
-      "stroke = commonest oropharyngeal cause"
-     ]
-    ]
-   ]
+   "name": "Approach: dysphagia"
   },
   {
    "id": "ap_globus",
-   "name": "Globus",
-   "c": "orange",
-   "icon": "throat",
-   "subs": [
-    [
-     "Typical",
-     [
-      "midline, cricoid / thyroid notch",
-      "between meals, eased by eating",
-      "no pain, no true dysphagia",
-      "worse with stress, throat clearing"
-     ]
-    ],
-    [
-     "Not globus if",
-     [
-      "pain, odynophagia, otalgia",
-      "dysphagia, weight loss",
-      "unilateral or progressive",
-      "hoarse, haemoptysis, neck lump",
-      "smoker or drinker over 50"
-     ]
-    ],
-    [
-     "Assess",
-     [
-      "flexible endoscopy, neck + thyroid",
-      "normal → no further tests",
-      "no routine barium swallow"
-     ]
-    ],
-    [
-     "Treat",
-     [
-      "explanation = the treatment",
-      "sip water instead of clearing",
-      "SLT · reflux trial (unproven)",
-      "discharge with safety-net"
-     ]
-    ]
-   ]
+   "name": "Globus"
   },
   {
    "id": "pouch",
-   "name": "Pharyngeal pouch",
-   "c": "green",
-   "icon": "lump",
-   "subs": [
-    [
-     "What",
-     [
-      "pulsion through Killian's dehiscence",
-      "thyropharyngeus above, cricopharyngeus below",
-      "elderly, over sixty, men > women"
-     ]
-    ],
-    [
-     "Features",
-     [
-      "dysphagia after a few swallows",
-      "gurgling · left neck swelling",
-      "undigested food hours later",
-      "nocturnal cough, aspiration, halitosis"
-     ]
-    ],
-    [
-     "Diagnose",
-     [
-      "barium swallow, lateral view",
-      "sac at C5–C6 behind oesophagus",
-      "blind rigid scope → perforation",
-      "carcinoma in about 1%"
-     ]
-    ],
-    [
-     "Treat",
-     [
-      "endoscopic stapling: commonest",
-      "small (< 2–3 cm): laser or open",
-      "open: always cricopharyngeal myotomy",
-      "myotomy treats the cause"
-     ]
-    ],
-    [
-     "CP dysfunction",
-     [
-      "bar in up to a third of silent elderly",
-      "dilatation · botulinum · myotomy"
-     ]
-    ]
-   ]
+   "name": "Pharyngeal pouch"
   },
   {
    "id": "oesoph",
-   "name": "Oesophagus",
-   "c": "red",
-   "icon": "flame",
-   "subs": [
-    [
-     "Narrowings",
-     [
-      "15 cm cricopharyngeus (C6)",
-      "25 cm aortic arch + left bronchus",
-      "40 cm hiatus (T10)",
-      "foreign bodies lodge, scopes perforate"
-     ]
-    ],
-    [
-     "Achalasia",
-     [
-      "aperistalsis + LOS won't relax",
-      "bird's beak · HRM gold standard",
-      "exclude pseudoachalasia (cardia cancer)",
-      "dilatation, Heller myotomy, POEM"
-     ]
-    ],
-    [
-     "Reflux & EoE",
-     [
-      "Barrett's: salmon-pink → adenocarcinoma",
-      "EoE: young atopic man + bolus",
-      "≥ 15 eosinophils/HPF"
-     ]
-    ],
-    [
-     "Webs & rings",
-     [
-      "Plummer–Vinson: iron deficiency + web",
-      "postcricoid cancer risk",
-      "Schatzki < 13 mm → steakhouse"
-     ]
-    ],
-    [
-     "Cancer",
-     [
-      "progressive dysphagia + weight loss",
-      "SCC upper/middle · adeno distal",
-      "hoarse = RLN · cough on swallow = TOF",
-      "five-year survival ~15–20%"
-     ]
-    ]
-   ]
+   "name": "Oesophagus"
   },
   {
    "id": "fbfood",
-   "name": "Swallowed objects",
+   "name": "Swallowed objects"
+  }
+ ],
+ "zones": [
+  [
+   "The clinic",
+   70
+  ],
+  [
+   "Pharynx",
+   80
+  ],
+  [
+   "Upper sphincter · 15 cm",
+   65
+  ],
+  [
+   "Mid oesophagus · 25 cm",
+   95
+  ],
+  [
+   "Hiatus · 40 cm",
+   90
+  ]
+ ],
+ "st": {
+  "glob": {
+   "t": "Lump feeling",
+   "x": 26,
+   "y": 17,
+   "lab": "l",
+   "ix": true
+  },
+  "reas": {
+   "t": "Reassure",
+   "x": 36,
+   "y": 5,
+   "lab": "b"
+  },
+  "dys": {
+   "t": "Dysphagia",
+   "x": 44,
+   "y": 33,
+   "lab": "b",
+   "ix": true
+  },
+  "swal": {
+   "t": "Swallowed object",
+   "x": 14,
+   "y": 48,
+   "lab": "a",
+   "dx": 4
+  },
+  "oro": {
+   "t": "Can't start",
+   "x": 96,
+   "y": 17,
+   "lab": "a"
+  },
+  "fish": {
+   "t": "Fish bone",
+   "x": 100,
+   "y": 48,
+   "lab": "b"
+  },
+  "pouch": {
+   "t": "Pouch",
+   "x": 178,
+   "y": 17,
+   "lab": "a",
+   "ix": true
+  },
+  "web": {
+   "t": "Postcricoid web",
+   "x": 166,
+   "y": 33,
+   "lab": "a"
+  },
+  "cp": {
+   "t": "Cricopharyngeus",
+   "x": 184,
+   "y": 48,
+   "lab": "a",
+   "ix": true
+  },
+  "batt": {
+   "t": "Button battery",
+   "x": 206,
+   "y": 58,
+   "lab": "a"
+  },
+  "perf": {
+   "t": "Perforation",
+   "x": 300,
+   "y": 58,
+   "lab": "r"
+  },
+  "eoe": {
+   "t": "EoE",
+   "x": 236,
+   "y": 33,
+   "lab": "a"
+  },
+  "ca": {
+   "t": "Cancer",
+   "x": 286,
+   "y": 33,
+   "lab": "a",
+   "ix": true
+  },
+  "aort": {
+   "t": "Aortic arch",
+   "x": 262,
+   "y": 48,
+   "lab": "b"
+  },
+  "ach": {
+   "t": "Achalasia",
+   "x": 352,
+   "y": 5,
+   "lab": "b"
+  },
+  "schatz": {
+   "t": "Schatzki ring",
+   "x": 352,
+   "y": 33,
+   "lab": "a"
+  },
+  "card": {
+   "t": "Cardia",
+   "x": 352,
+   "y": 48,
+   "lab": "b"
+  }
+ },
+ "lines": [
+  {
+   "name": "Oesophageal line",
+   "c": "red",
+   "stops": [
+    "dys",
+    "web",
+    "eoe",
+    "ca",
+    "schatz"
+   ]
+  },
+  {
+   "name": "Oropharyngeal line",
+   "c": "blue",
+   "stops": [
+    "dys",
+    "@60,17",
+    "oro",
+    "pouch"
+   ]
+  },
+  {
+   "name": "Motility line",
+   "c": "green",
+   "stops": [
+    "dys",
+    "@44,17",
+    "@56,5",
+    "ach"
+   ]
+  },
+  {
+   "name": "Bolus line",
    "c": "purple",
-   "icon": "needle",
-   "subs": [
-    [
-     "Where",
-     [
-      "~70% at or below cricopharyngeus",
-      "fish bones: tonsil, tongue base",
-      "low in an adult → underlying cause"
-     ]
-    ],
-    [
-     "Films",
-     [
-      "oesophageal coin: flat on PA",
-      "battery: halo on PA, step on lateral",
-      "bones often invisible → CT",
-      "never barium first"
-     ]
-    ],
-    [
-     "Timing",
-     [
-      "battery: out ideally within two hours",
-      "honey 10 ml every 10 min (> 1 year)",
-      "sharp, drooling, perforation: hours",
-      "other oesophageal objects < 24 h"
-     ]
-    ],
-    [
-     "Methods",
-     [
-      "rigid scope: sharp, ensheath the point",
-      "flexible: bolus, blunt objects",
-      "no Foley, no blind push, no papain"
-     ]
-    ],
-    [
-     "Danger",
-     [
-      "pain, fever, emphysema = perforation",
-      "aorto-oesophageal fistula: sentinel bleed"
-     ]
-    ]
+   "stops": [
+    "swal",
+    "fish",
+    "cp",
+    "aort",
+    "card"
+   ]
+  },
+  {
+   "c": "purple",
+   "w": 1.6,
+   "stops": [
+    "cp",
+    "@184,58",
+    "batt",
+    "perf"
+   ]
+  },
+  {
+   "name": "Globus spur",
+   "c": "grey",
+   "w": 1.6,
+   "dash": true,
+   "stops": [
+    "glob",
+    "@26,5",
+    "reas"
+   ]
+  },
+  {
+   "c": "grey",
+   "w": 1.6,
+   "dash": true,
+   "stops": [
+    "glob",
+    "dys"
    ]
   }
  ],
- "links": [
+ "segs": [
   [
-   "ap_globus",
-   "ap_dysph",
-   "red flags → investigate"
+   "glob",
+   "dys",
+   "red flags",
+   -9,
+   0
   ],
   [
-   "ap_dysph",
+   "dys",
+   "oro",
+   "can't start, coughs",
+   10,
+   4
+  ],
+  [
+   "oro",
    "pouch",
-   "gurgling + regurgitation"
+   "gurgles, regurgitates",
+   0,
+   -2.2
   ],
   [
-   "ap_dysph",
-   "oesoph",
-   "sticks after swallowing"
+   "dys",
+   "web",
+   "sticks after swallowing",
+   0,
+   5
   ],
   [
-   "oesoph",
-   "fbfood",
-   "lodge at the narrowings"
+   "dys",
+   "ach",
+   "solids + liquids at once",
+   58,
+   -10.2
   ],
   [
-   "fbfood",
-   "oesoph",
-   "bolus unmasks a stricture"
+   "swal",
+   "fish",
+   "catches high",
+   0,
+   5
+  ],
+  [
+   "fish",
+   "cp",
+   "~70% stop here",
+   0,
+   5
+  ],
+  [
+   "cp",
+   "aort",
+   "~20%",
+   0,
+   5
+  ],
+  [
+   "aort",
+   "card",
+   "~10%",
+   0,
+   5
+  ],
+  [
+   "batt",
+   "perf",
+   "8–12 h",
+   -14,
+   -2.2
   ]
  ],
+ "cards": [
+  {
+   "st": "glob",
+   "art": "ap_globus",
+   "c": "grey",
+   "row": "top",
+   "zone": 0,
+   "t": "Globus",
+   "why": "A lump feeling between meals that eases with eating: common, benign, and frightening for the patient.",
+   "see": [
+    "midline, cricoid or thyroid notch",
+    "no pain, no true dysphagia",
+    "worse with stress, throat clearing"
+   ],
+   "do": [
+    "full exam with flexible endoscopy",
+    "normal → no further tests, no barium",
+    "explain · sip water · SLT · discharge"
+   ],
+   "warn": "Not globus: pain, dysphagia, weight loss, one-sided, hoarse, neck lump, smoker over 50."
+  },
+  {
+   "st": "dys",
+   "art": "ap_dysph",
+   "c": "blue",
+   "row": "bottom",
+   "zone": 0,
+   "t": "Dysphagia: where?",
+   "tag": "interchange",
+   "why": "Patients localise poorly: a lower oesophageal obstruction can be felt in the neck.",
+   "see": [
+    "can't start, coughs, wet voice → oropharyngeal",
+    "sticks after, behind sternum → oesophageal",
+    "solids → liquids = mechanical",
+    "solids and liquids from the start = motility"
+   ],
+   "do": [
+    "SLT: is oral intake safe?",
+    "progressive, weight loss → urgent OGD (NG12)"
+   ],
+   "warn": "Can't swallow saliva: food bolus emergency."
+  },
+  {
+   "st": "oro",
+   "art": "ap_dysph",
+   "c": "blue",
+   "row": "top",
+   "zone": 1,
+   "t": "Oropharyngeal",
+   "why": "Difficulty starting a swallow, usually neuromuscular.",
+   "see": [
+    "stroke: the commonest cause",
+    "endoscopy: pooling in the piriform fossae",
+    "FEES or videofluoroscopy"
+   ],
+   "do": [
+    "texture, chin tuck, head turn",
+    "NG or gastrostomy if unsafe"
+   ]
+  },
+  {
+   "st": "web",
+   "art": "oesoph",
+   "c": "red",
+   "row": "top",
+   "zone": 1,
+   "t": "Postcricoid web",
+   "why": "Plummer–Vinson: iron-deficiency anaemia with a postcricoid web, in middle-aged women.",
+   "see": [
+    "glossitis, angular stomatitis, koilonychia",
+    "risk of postcricoid carcinoma"
+   ],
+   "do": [
+    "iron · dilate the web · surveillance"
+   ]
+  },
+  {
+   "st": "pouch",
+   "art": "pouch",
+   "c": "blue",
+   "row": "top",
+   "zone": 2,
+   "t": "Pharyngeal pouch",
+   "tag": "interchange",
+   "why": "Mucosa herniates through Killian's dehiscence, between thyropharyngeus and cricopharyngeus; incoordination and a sphincter that fails to open are the suggested causes.",
+   "see": [
+    "over sixty, men > women",
+    "dysphagia after a few swallows · gurgling",
+    "food back hours later · night cough",
+    "barium, lateral: sac at C5–C6"
+   ],
+   "do": [
+    "endoscopic stapling: commonest",
+    "small (< 2–3 cm): laser or open",
+    "open: always cricopharyngeal myotomy"
+   ],
+   "warn": "A blind rigid scope can perforate the sac. Carcinoma in about 1%."
+  },
+  {
+   "st": "eoe",
+   "art": "oesoph",
+   "c": "red",
+   "row": "top",
+   "zone": 3,
+   "t": "Eosinophilic oesophagitis",
+   "why": "Young atopic men with recurrent food bolus impaction.",
+   "see": [
+    "rings, furrows, white exudates",
+    "≥ 15 eosinophils per HPF"
+   ],
+   "do": [
+    "PPI · swallowed budesonide · diet",
+    "careful dilatation"
+   ]
+  },
+  {
+   "st": "ca",
+   "art": "oesoph",
+   "c": "red",
+   "row": "top",
+   "zone": 3,
+   "t": "Oesophageal cancer",
+   "tag": "interchange",
+   "why": "Progressive dysphagia, solids then liquids, with weight loss.",
+   "see": [
+    "SCC upper and middle · adeno distal",
+    "hoarse = recurrent nerve",
+    "cough on swallowing = TOF",
+    "barium: 'apple-core' narrowing"
+   ],
+   "do": [
+    "endoscopy + biopsy",
+    "stage: CT, PET-CT, EUS"
+   ],
+   "warn": "Five-year survival about 15 to 20%."
+  },
+  {
+   "st": "ach",
+   "art": "oesoph",
+   "c": "green",
+   "row": "top",
+   "zone": 4,
+   "t": "Achalasia",
+   "why": "Loss of the inhibitory neurons of the myenteric plexus: no peristalsis, and the lower sphincter will not relax.",
+   "see": [
+    "solids and liquids from the start",
+    "barium: 'bird's beak' at the cardia",
+    "manometry = gold standard (Chicago)"
+   ],
+   "do": [
+    "pneumatic dilatation · Heller · POEM",
+    "botulinum toxin for the frail"
+   ],
+   "warn": "Exclude pseudoachalasia: a cancer at the cardia."
+  },
+  {
+   "st": "fish",
+   "art": "fbfood",
+   "c": "purple",
+   "row": "bottom",
+   "zone": 1,
+   "t": "Fish bone",
+   "why": "Fish bones lodge in the tonsil and tongue base, where they can be seen and lifted out.",
+   "see": [
+    "many bones invisible on X-ray",
+    "lateral film: prevertebral thickening"
+   ],
+   "do": [
+    "topical anaesthetic + forceps",
+    "persistent pricking → CT",
+    "never barium first"
+   ]
+  },
+  {
+   "st": "cp",
+   "art": "fbfood",
+   "c": "purple",
+   "row": "bottom",
+   "zone": 2,
+   "t": "At the cricopharyngeus",
+   "tag": "interchange",
+   "why": "About 70% stop at or just below it; coins at the sphincter itself.",
+   "see": [
+    "oesophageal coin: flat on the PA view",
+    "below it in an adult → look for a cause"
+   ],
+   "do": [
+    "coin or bolus: out within 24 h",
+    "sharp: rigid scope within hours, ensheath",
+    "flexible: bolus, blunt objects"
+   ],
+   "warn": "No Foley, no blind push, no papain."
+  },
+  {
+   "st": "batt",
+   "art": "fbfood",
+   "c": "purple",
+   "row": "bottom",
+   "zone": 2,
+   "t": "Button battery",
+   "why": "The current hydrolyses tissue fluid and makes hydroxide: an alkaline burn.",
+   "see": [
+    "halo on PA, step on lateral"
+   ],
+   "do": [
+    "out now: ideally within two hours",
+    "honey 10 ml every 10 min (> 1 year, swallowed < 12 h)"
+   ]
+  },
+  {
+   "st": "aort",
+   "art": "oesoph",
+   "c": "purple",
+   "row": "bottom",
+   "zone": 3,
+   "t": "Three narrowings",
+   "why": "Where foreign bodies lodge, caustic burns are worst and instruments perforate.",
+   "see": [
+    "15 cm: cricopharyngeus, C6",
+    "25 cm: aortic arch + left bronchus, T4",
+    "40 cm: hiatus, T10"
+   ],
+   "do": [
+    "pills lodge at the aortic narrowing"
+   ]
+  },
+  {
+   "st": "perf",
+   "art": "oesoph",
+   "c": "red",
+   "row": "bottom",
+   "zone": 3,
+   "t": "Perforation",
+   "why": "Instrumentation is the commonest cause, usually at or just above the cricopharyngeus.",
+   "see": [
+    "neck: pain, fever, surgical emphysema",
+    "chest: Hamman's crunch · Boerhaave: Mackler's triad"
+   ],
+   "do": [
+    "nil by mouth · IV antibiotics + antifungal",
+    "water-soluble contrast + CT"
+   ],
+   "warn": "Pain after an endoscopy is perforation until proved otherwise."
+  },
+  {
+   "st": "schatz",
+   "art": "oesoph",
+   "c": "red",
+   "row": "bottom",
+   "zone": 4,
+   "t": "Schatzki ring",
+   "why": "A thin ring at the squamocolumnar junction, in people over 50.",
+   "see": [
+    "intermittent dysphagia to solids",
+    "under 13 mm: steakhouse bolus"
+   ],
+   "do": [
+    "dilatation + PPI"
+   ]
+  }
+ ],
+ "cells": {
+  "bottom-2": "stack"
+ },
+ "ride": {
+  "row": "bottom",
+  "zone": 1,
+  "text": [
+   "Zones follow the bolus down from the clinic, measured from the incisors.",
+   "Each line is a kind of dysphagia; purple is a swallowed object. Rings are decisions."
+  ]
+ },
+ "checks": {
+  "row": "bottom",
+  "zone": 4,
+  "q": [
+   {
+    "art": "ap_globus",
+    "q": "Midline lump between meals, eased by eating; exam normal.",
+    "o": [
+     "barium swallow",
+     "explain, discharge"
+    ],
+    "a": 1
+   },
+   {
+    "art": "pouch",
+    "q": "Open pouch excision: always add…",
+    "o": [
+     "cricopharyngeal myotomy",
+     "fundoplication"
+    ],
+    "a": 0
+   },
+   {
+    "art": "fbfood",
+    "q": "Round opaque object, double ring on the PA film.",
+    "o": [
+     "coin: observe",
+     "battery: remove now"
+    ],
+    "a": 1
+   },
+   {
+    "art": "oesoph",
+    "q": "Dysphagia to solids and liquids from the start.",
+    "o": [
+     "cancer",
+     "achalasia",
+     "Schatzki ring"
+    ],
+    "a": 1
+   }
+  ]
+ },
  "abbr": {
-  "OGD": "oesophagogastroduodenoscopy",
-  "NICE": "National Institute for Health and Care Excellence",
-  "NG12": "NICE suggested-cancer guidance",
-  "FEES": "fibreoptic endoscopic evaluation of swallowing",
-  "HRM": "high-resolution manometry",
-  "SLT": "speech and language therapist",
-  "NG": "nasogastric",
-  "CP": "cricopharyngeal",
-  "LOS": "lower oesophageal sphincter",
-  "POEM": "peroral endoscopic myotomy",
+  "CT": "computed tomography",
   "EoE": "eosinophilic oesophagitis",
+  "EUS": "endoscopic ultrasound",
+  "FEES": "fibreoptic endoscopic evaluation of swallowing",
   "HPF": "high-power field",
-  "SCC": "squamous cell carcinoma",
-  "RLN": "recurrent laryngeal nerve",
-  "TOF": "tracheo-oesophageal fistula",
+  "IV": "intravenous",
+  "NG": "nasogastric",
+  "NG12": "NICE suggested-cancer guidance",
+  "OGD": "oesophagogastroduodenoscopy",
   "PA": "posteroanterior",
-  "CT": "computed tomography"
+  "PET": "positron emission tomography",
+  "POEM": "peroral endoscopic myotomy",
+  "PPI": "proton pump inhibitor",
+  "SCC": "squamous cell carcinoma",
+  "SLT": "speech and language therapist",
+  "TOF": "tracheo-oesophageal fistula"
  }
 }

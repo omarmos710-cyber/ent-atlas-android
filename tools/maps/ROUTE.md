@@ -71,7 +71,7 @@ The reference map is `content/maps/ear-infection.json`. Read it before writing a
     "why": "…", "see": ["…"], "do": ["…"], "warn": "…"}
  ],
  "cells": {"top-3": "stack", "bottom-4": "stack"},                       // stack the cards of a cell vertically
- "ride": {"row": "bottom", "zone": 0, "text": ["…", "…"]},
+ "ride": {"row": "bottom", "zone": 0, "text": ["…", "…"]},              // "first": true puts the box above its cell's cards
  "checks": {"row": "bottom", "zone": 2, "q": [{"art": "om", "q": "…", "o": ["…", "…", "…"], "a": 1}]},
  "abbr": {"AOM": "acute otitis media"}
 }
@@ -93,8 +93,9 @@ The reference map is `content/maps/ear-infection.json`. Read it before writing a
 
 ### Cards
 
-- `row`: `top` (above the strip) or `bottom`; `zone`: the column it sits in (0-based). Put a card in the
-  zone of its station where possible, so its connector is short.
+- `row`: `top` (above the strip) or `bottom`; `zone`: the column it sits in on the poster (0-based). Put a
+  card in the zone of its station where possible, so its connector is short. (The phone list groups cards
+  by the zone their *station* sits in.)
 - `w` sets its width relative to the other cards in the same cell (default 1; 1.4+ shows See and Do side
   by side). `cells` → `"stack"` stacks a cell's cards vertically (for narrow zones).
 - Limits: title ≤ 34 chars, tag ≤ 14, why ≤ 230, ≤ 6 items in see and in do, each ≤ 64 chars, warn ≤ 120.
