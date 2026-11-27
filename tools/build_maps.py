@@ -106,6 +106,8 @@ def pdf_info(m):
     except Exception:
         return None
     if not e or e.get('src') != src_hash(m['id']) or e.get('arts') != arts_hash([b['id'] for b in m['branches']]):
+        print('  WARNING %s: its PDFs are out of date, so the map offers no download. '
+              'Run python3 tools/make_map_pdfs.py, then build_maps.py again.' % m['id'])
         return None
     out = {}
     for k, pre in (('map', 'mm_'), ('all', 'mmall_')):
