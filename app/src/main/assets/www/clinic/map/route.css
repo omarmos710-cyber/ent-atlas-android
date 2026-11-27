@@ -25,7 +25,7 @@ button:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
 @media(max-width:640px){nav button span{display:none}nav button{padding:0 11px}header h1{font-size:18px}header .st{display:none}}
 
 /* ---------- the poster (A3 landscape, laid out in millimetres) ---------- */
-#stage{display:none;overflow:auto;padding:14px}
+#stage{display:none;overflow:auto;padding:14px;height:calc(100vh - var(--hh,64px));height:calc(100dvh - var(--hh,64px));touch-action:pan-x pan-y;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
 body.vposter #stage{display:block}
 #scaler{transform-origin:0 0}
 .page{width:420mm;height:297mm;background:var(--paper);position:relative;overflow:hidden;padding:9mm 10mm 7mm;display:grid;grid-template-rows:auto auto 66mm 1fr auto;gap:2.6mm;font:8.2pt/1.32 Atk,system-ui,sans-serif;box-shadow:0 4px 30px rgba(0,0,0,.12)}
@@ -100,7 +100,7 @@ body.vstops #stops{display:block}
 
 /* print: the poster alone, at its own size */
 body.print header,body.print #stops,body.print #abbr,body.print #dl,body.print #toast{display:none!important}
-body.print #stage{display:block;padding:0;overflow:visible}body.print .page{box-shadow:none}
+body.print #stage{display:block;padding:0;overflow:visible;height:auto}body.print .page{box-shadow:none}
 body.print{background:var(--paper)}
 @page{size:420mm 297mm;margin:0}
 @media(prefers-reduced-motion:reduce){#toast{transition:none}}
